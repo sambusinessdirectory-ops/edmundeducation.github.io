@@ -780,7 +780,7 @@ function celebrateHomeworkCompletionMilestones(previousCounts) {
   const milestones = [];
   for (const [date, before] of previousCounts) {
     const after = completedHomeworkCountForDate(date);
-    for (let count = Math.max(1, before + 1); count <= Math.min(3, after); count += 1) {
+    for (let count = Math.max(1, before + 1); count <= Math.min(5, after); count += 1) {
       milestones.push({ date, count });
     }
   }

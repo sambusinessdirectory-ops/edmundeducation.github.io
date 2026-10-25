@@ -1,4 +1,4 @@
-/* Eddy celebrates the first three completed, filled homework slots per calendar date. */
+/* Eddy celebrates the first five completed, filled homework slots per calendar date. */
 (() => {
   'use strict';
 
@@ -38,6 +38,37 @@
         '努力了這麼久，總該好好慶祝一下吧？今天想怎麼玩就怎麼玩！',
         '現在開始，誰也不准打擾我們慶祝！',
         '好好犒賞自己，開心地慶祝一番吧！'
+      ]]
+    ],
+    4: [
+      ['eddy-schedule-homework-four.png', [
+        { main: '等、等一下！又完成一個了！？', sub: 'Eddy 的慶祝花樣都快用光啦！看來得趕快想點新招才行！' },
+        '哎呀呀！照這個速度下去，Eddy 的掌聲都快不夠用了啦！',
+        '鏘鏘鏘！第四個任務也搞定啦！\n這次就來個……超級豪華的空氣煙火秀！',
+        '您是不是偷偷掌握了什麼祕訣啊？\n這麼厲害，Eddy 可得向您請教一下了！',
+        '好！今天的任務清單又少了一項！嗯～這種一個個劃掉的感覺，真是太痛快了！'
+      ]],
+      ['eddy-schedule-homework-four-celebrate.png', [
+        { main: '哇！這漢堡也太大了吧！', sub: '嘿嘿，努力了這麼久，就是要好好犒賞自己嘛！那麼……我開動啦！' },
+        '第四個任務順利收工！接下來的挑戰是……一口氣吃掉這個超大漢堡！',
+        '嘿嘿，這麼大一個漢堡，應該夠我們分著吃了吧？……咦？Eddy 已經吃掉一半了！？',
+        '啊嗚！嗯～～！果然努力過後吃的漢堡，就是特別好吃呢！',
+        '辛苦過後的大漢堡，才是最棒的獎勵！啊嗚！'
+      ]]
+    ],
+    5: [
+      ['eddy-schedule-homework-five.png', [
+        { main: '今天還真是大豐收呢！', sub: '一口氣搞定了五個任務！看來剛才那個大漢堡，真的讓我們充滿幹勁了！' },
+        '一、二、三、四、五……嗯！沒數錯！今天居然完成了整整五個任務！',
+        '呼哇～總算搞定第五個任務了！今天的精彩程度，簡直可以寫成一本冒險日記呢！',
+        '第五個任務也完成啦！……咦？怎麼覺得 Eddy 比您還興奮啊？'
+      ]],
+      ['eddy-schedule-homework-five-celebrate.png', [
+        '嘿嘿，今天就用這座三明治塔來慶祝吧！……話說回來，這到底要從哪裡開始吃啊？',
+        '哼哼！區區一座三明治塔，Eddy 當然吃得下！……喂喂喂！怎麼開始搖晃了！？',
+        '好！今天要大吃一頓啦！一層、兩層、三層……哇啊啊！三明治要倒下來了！',
+        '這麼高的三明治，可是 Eddy 的得意之作喔！……咦？怎麼有種不祥的預感？',
+        '超豪華三明治塔，開動！……哇啊！等一下！別倒啊啊啊！'
       ]]
     ]
   };
@@ -81,8 +112,17 @@
     const [art, copy] = currentPages[pageIndex];
     overlay.querySelector('img').src = art;
     const message = overlay.querySelector('.eddy-first-question-message');
-    message.textContent = copy;
-    overlay.querySelector('button').setAttribute('aria-label', `${copy.replace(/\n/g, ' ')} 點擊、輕觸或按鍵繼續`);
+    message.classList.toggle('eddy-first-question-message--homework-headline', typeof copy !== 'string');
+    if (typeof copy === 'string') message.textContent = copy;
+    else {
+      const headline = document.createElement('strong');
+      const detail = document.createElement('span');
+      headline.textContent = copy.main;
+      detail.textContent = copy.sub;
+      message.replaceChildren(headline, detail);
+    }
+    const spokenCopy = typeof copy === 'string' ? copy : `${copy.main} ${copy.sub}`;
+    overlay.querySelector('button').setAttribute('aria-label', `${spokenCopy.replace(/\n/g, ' ')} 點擊、輕觸或按鍵繼續`);
   }
 
   function finish() {
