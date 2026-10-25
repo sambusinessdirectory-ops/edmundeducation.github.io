@@ -37,3 +37,8 @@ assert.equal(curation.parts[0].cues[9].endLine,42,'Q10 waits for minimise it');
 assert.equal(curation.parts[2].cues[2].endLine,17,'Q23 preserves uncertainty');
 assert.equal(curation.parts[2].cues[8].endLine,61,'Q29 waits for final topic decision');
 console.log(`IELTS curation: 40 checkpoints, ${lines} classified lines, ${spans} exact evidence spans, ${distractors} temporal distractor spans validated.`);
+
+const savedManual=sanitizeSession({version:curation.version,practice:2,revealMode:'manual',parts:{1:{completedIds:curation.parts[0].cues.slice(0,2).map(c=>c.id),revealedIds:[curation.parts[0].cues[0].id,curation.parts[0].cues[5].id,'invalid']}}},curation);
+assert.equal(savedManual.revealMode,'manual');
+assert.deepEqual(savedManual.parts[1].revealedIds,[curation.parts[0].cues[0].id],'never import reveals for unheard questions');
+assert.equal(sanitizeSession({version:curation.version,practice:2},curation).revealMode,'auto','old saves keep automatic reveal');

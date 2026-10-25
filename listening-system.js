@@ -980,7 +980,7 @@ function renderPracticeWorkspace() {
     launch.addEventListener('click', async () => {
       launch.disabled = true;
       try {
-        const { openSuperCuration } = await import('./ielts-super-curation.mjs?v=20261025-1');
+        const { openSuperCuration } = await import('./ielts-super-curation.mjs?v=20261025-2');
         if (state.practice !== 2 || !state.content) return;
         pauseAllAudio(); study.stopReplay(); saveCurrentAnswers();
         openSuperCuration({ content: state.content, part: state.practicePart, storageScope: state.user?.id || 'local' });

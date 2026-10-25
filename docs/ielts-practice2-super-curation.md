@@ -12,7 +12,11 @@ All 196 transcript rows have an explicit editorial role. There are 40 answer che
 
 ## IELTS adaptation of the manual
 
-Paper 3 task colors A/B/C and its essay consumption marks are not assigned to IELTS option letters. Here cyan consistently denotes answer evidence, yellow denotes candidate/distractor evidence, green denotes paraphrase in the teaching card, and a red animated source strike denotes either a rejected candidate or irrelevant speech, distinguished by labels and explanations. Every answer is explicitly attached to its question number. Unrelated speech can be hidden after it has been heard; original audio is retained in full. Context and exam instructions are not indiscriminately struck through.
+Paper 3 task colors A/B/C and its essay consumption marks are not assigned to IELTS option letters. Here cyan consistently denotes answer evidence, yellow denotes candidate/distractor evidence, and a red animated source strike denotes either a rejected candidate or irrelevant speech, distinguished by labels and explanations. Every answer is explicitly attached to its question number. Unrelated speech can be hidden after it has been heard; original audio is retained in full. Context and exam instructions are not indiscriminately struck through.
+
+After each checkpoint, the left curation panel displays the complete original `analysis[question].explanation` from the practice content, verbatim, for all 40 questions. In automatic mode, these authored explanations appear after the note animation without needing More Help. In “先自己做 · 按一下揭曉” mode, the recording pauses without showing the answer. Students can fill their own answer and click a per-question reveal button, or continue listening before revealing previous questions. The blue notes, full explanation, evidence bank and answer-specific transcript markings wait for that question’s reveal. The mode and per-question reveals persist in browser saves, bookmarks and exports; rewind removes later reveals while preserving student drafts. Old saves default to automatic mode.
+
+The audio bar includes backward and forward five-second buttons on desktop and mobile. A jump preserves whether audio was playing; forward jumps are limited to just before the next unheard checkpoint so the automatic stop is not bypassed.
 
 The sequence is: inspect the question and word limit → listen → pause after complete decisive context → animate the evidence-derived note → inspect the explanation → choose Next. Examples of intentionally delayed pauses: Q10 includes the later “minimise it” reference; Q23 includes the speaker's uncertainty; Q27 includes the rejection of proposed sports facilities; Q29 waits for “stick to … power sources”. Candidate marks do not become rejection marks before their decision time.
 
@@ -21,7 +25,7 @@ The complete transcript is available unmarked from the start. Future answer anno
 ## Playback and state contract
 
 - The fixed/sticky player provides 0.5–3× speed in 0.25 increments, progress, pause markers and replay.
-- The current answer checkpoint always stops playback. Next remains disabled during playback and typing, and becomes available only when the note finishes. Pausing manually does not award completion.
+- The current answer checkpoint always stops playback. Next remains disabled during playback and typing, and becomes available when the note finishes in automatic mode, or immediately at the pause in try-first mode. Pausing manually does not award completion.
 - Back cancels the active writing timer, removes later generated notes/marks, and rearms the checkpoint. Replay repeats the same stop. Large forward seeks return to the current pending evidence instead of granting unseen answers.
 - Learner answers occupy separate editable fields. Rewinds never erase them. Switching parts preserves each part independently.
 - Marks are rendered only when their exact source/time state changes; apostrophe entity normalization must not restart animations every animation frame.
@@ -44,6 +48,7 @@ Word timing comes from the existing `faster-whisper-base.en-1.2.1-monotonic-word
 - `listening-system.js`, `listening-system.html`: Practice 2 entry and stylesheet.
 - `tools/test-ielts-super-curation.mjs`: every source span, role, checkpoint, answer and core state invariant.
 - `tools/test-ielts-super-curation-browser.cjs`: all 40 real-media stops, independent drafts, part persistence, backwards and large forwards seeks, translations, pins, scroll stability, responsive widths and cleanup.
+- `tools/test-ielts-super-curation-reveal.cjs`: exact source explanations for all 40 questions, manual reveals, persistence, draft retention, five-second transport and mobile controls.
 - `tools/test-ielts-super-curation-edge.cjs`: typing cancellation, 3× replay, slots, import recovery, temporally delayed rejection, completed animations, outro, keyboard resizing and failed audio.
 
 Run the existing isolated fixture with `node tools/listening/preview-server.mjs /absolute/path/to/public-audio-catalog.json`, then the two browser tests. They use a local fixture student and never write to a live database. The public catalogue is `https://edmund-neural-audio.edmundeducation.workers.dev/v1/listening/catalog`. `PLAYWRIGHT_MODULE` can override the installed browser-test dependency location.

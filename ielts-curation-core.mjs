@@ -22,14 +22,16 @@ export function checkpointDue(part, progress, time, playing) {
 }
 export function sanitizeSession(raw, ledger) {
   if (!raw || raw.version !== ledger.version || raw.practice !== 2) throw new Error('此存檔不屬於這個版本的 Practice 2。');
-  const result = { version: ledger.version, practice: 2, part: [1,2,3,4].includes(raw.part) ? raw.part : 1, parts: {} };
+  const result = { version: ledger.version, practice: 2, part: [1,2,3,4].includes(raw.part) ? raw.part : 1, revealMode: raw.revealMode === 'manual' ? 'manual' : 'auto', parts: {} };
   for (const part of ledger.parts) {
     const saved = raw.parts?.[part.part] || {}, ids = Array.isArray(saved.completedIds) ? saved.completedIds : [];
     let completed = 0;
     while (completed < part.cues.length && ids.includes(part.cues[completed].id)) completed++;
     const drafts = {};
     for (const cue of part.cues) if (typeof saved.drafts?.[cue.question] === 'string') drafts[cue.question] = saved.drafts[cue.question].slice(0, 5000);
-    result.parts[part.part] = { completedIds: part.cues.slice(0, completed).map(c => c.id), drafts };
+    const completedIds = part.cues.slice(0, completed).map(c => c.id);
+    const revealedIds = completedIds.filter(id => Array.isArray(saved.revealedIds) && saved.revealedIds.includes(id));
+    result.parts[part.part] = { completedIds, revealedIds, drafts };
   }
   return result;
 }
