@@ -272,6 +272,8 @@ jobs:
           node --check dse-listening-2026-transcript.js
           node tools/test-dse-listening-2025-2026.mjs
           node tools/test-listening-system.mjs
+          node tools/test-ielts-super-curation.mjs
+          node --check ielts-super-curation.mjs
           node tools/test-dse-listening-2022-2024.mjs
 
       - name: Validate focused Speaking release
@@ -553,6 +555,8 @@ jobs:
           node tools/listening/generate_catalog.mjs
           git diff --exit-code -- listening-system-catalog.js
           node tools/test-listening-system.mjs
+          node tools/test-ielts-super-curation.mjs
+          node --check ielts-super-curation.mjs
           node tools/test-ielts-puzzle-map.mjs
           node tools/test-grammar-listening-practice1.mjs
           node --test tools/test-listening-study.mjs
