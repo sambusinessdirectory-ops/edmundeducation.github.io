@@ -7,10 +7,15 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
   const root = path.resolve(__dirname, '..');
   const html = fs.readFileSync(path.join(root, 'writing-submission.html'), 'utf8');
   const app = fs.readFileSync(path.join(root, 'writing-submission.js'), 'utf8');
-  assert.match(html, /eddy-writing-ielts-task1-dialogue\.js\?v=20261026-1/);
+  assert.match(html, /eddy-writing-ielts-task1-dialogue\.js\?v=20261026-2/);
   assert.match(html, /eddy-writing-ielts-task1-dialogue\.css\?v=20261026-1/);
   assert.match(app, /edmund:writing-topic-selected/);
   assert.match(app, /sectionKey: resource\.sectionKey, detail: resource\.detail/);
+  const { HOMEWORK_RESOURCE_CATALOG } = await import(path.join(root, 'homework-resource-catalog.mjs'));
+  const catalogDetails = new Set(HOMEWORK_RESOURCE_CATALOG.filter((item) => item.sectionKey === 'ielts-writing').map((item) => item.detail));
+  for (const category of ['Process Diagram', 'Maps', 'Bar Charts', 'Tables', 'Pie Charts', 'Line Graph', 'Mixed Charts']) {
+    assert.ok(catalogDetails.has(`IELTS Writing Task 1 · ${category}`), `${category} exists in the live topic catalogue`);
+  }
 
   const browser = await chromium.launch({ headless: true, args: ['--allow-file-access-from-files'] });
   const context = await browser.newContext({ viewport: { width: 375, height: 667 } });
@@ -28,6 +33,11 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
     const fire = (detail) => page.evaluate((value) => document.dispatchEvent(new CustomEvent('edmund:writing-topic-selected', { detail: value })), detail);
     const process = { sectionKey: 'ielts-writing', detail: 'IELTS Writing Task 1 · Process Diagram' };
     const maps = { sectionKey: 'ielts-writing', detail: 'IELTS Writing Task 1 · Maps' };
+    const bars = { sectionKey: 'ielts-writing', detail: 'IELTS Writing Task 1 · Bar Charts' };
+    const tables = { sectionKey: 'ielts-writing', detail: 'IELTS Writing Task 1 · Tables' };
+    const pies = { sectionKey: 'ielts-writing', detail: 'IELTS Writing Task 1 · Pie Charts' };
+    const lines = { sectionKey: 'ielts-writing', detail: 'IELTS Writing Task 1 · Line Graph' };
+    const mixed = { sectionKey: 'ielts-writing', detail: 'IELTS Writing Task 1 · Mixed Charts' };
 
     await page.locator('[data-view="workspace"]').evaluate((node) => { node.hidden = false; });
     await fire(process);
@@ -62,7 +72,15 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
     await page.keyboard.press('Escape');
     await topic.waitFor({ state: 'detached' });
 
-    for (const [kind, variants, image] of [[process, 6, 'ielts-process'], [maps, 7, 'ielts-maps']]) {
+    for (const [kind, variants, image, headlineIndex] of [
+      [process, 6, 'ielts-process', 0],
+      [maps, 7, 'ielts-maps', 0],
+      [bars, 6, 'ielts-bars', 0],
+      [tables, 7, 'ielts-tables', 0],
+      [pies, 6, 'ielts-pies', 0],
+      [lines, 6, 'ielts-lines', 0],
+      [mixed, 7, 'ielts-mixed', 1]
+    ]) {
       for (let index = 0; index < variants; index += 1) {
         await page.evaluate((fraction) => { Math.random = () => fraction; }, (index + .01) / variants);
         await fire(kind);
@@ -72,7 +90,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
         assert.ok(await art.evaluate((node) => node.naturalWidth >= 1600), 'the selected artwork loads');
         const fit = await message.evaluate((node) => ({ scroll: node.scrollHeight, visible: node.clientHeight }));
         assert.ok(fit.scroll <= fit.visible + 1, `${image} comment ${index + 1} fits mobile: ${JSON.stringify(fit)}`);
-        if (index === 0) {
+        if (index === headlineIndex) {
           const sizes = await message.evaluate((node) => ({ main: parseFloat(getComputedStyle(node.querySelector('strong')).fontSize), sub: parseFloat(getComputedStyle(node.querySelector('span')).fontSize) }));
           assert.ok(sizes.main > sizes.sub, 'the first comment has a larger opening line');
           await page.screenshot({ path: `/tmp/eddy-writing-${image}-mobile.png` });
@@ -81,7 +99,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
         await topic.waitFor({ state: 'detached' });
       }
     }
-    console.log('IELTS process and map writing dialogues passed browser checks.');
+    console.log('Seven IELTS Task 1 visual writing dialogues passed browser checks.');
   } finally {
     await context.close();
     await browser.close();
