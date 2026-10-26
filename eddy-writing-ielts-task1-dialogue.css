@@ -1,0 +1,28 @@
+.eddy-first-question-message--writing-topic {
+  font-size: clamp(13px, 2.8vw, 27px);
+  line-height: 1.28;
+}
+
+.eddy-first-question-message--writing-topic-headline {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: .12em;
+}
+
+.eddy-first-question-message--writing-topic-headline strong {
+  font-size: 1.16em;
+  font-weight: 800;
+}
+
+.eddy-first-question-message--writing-topic-headline span {
+  font-size: .8em;
+  font-weight: 650;
+}
+
+@media (max-width: 560px) {
+  .eddy-first-question-message--writing-topic {
+    min-height: 102px;
+    font-size: clamp(13px, 3.65vw, 17px);
+  }
+}

@@ -35,6 +35,7 @@
     document.removeEventListener('keydown', onKey, true);
     if (previousFocus?.isConnected) previousFocus.focus({ preventScroll: true });
     previousFocus = null;
+    document.dispatchEvent(new Event('edmund:writing-daily-dialogue-finished'));
   }
 
   function onKey(event) {
@@ -64,6 +65,9 @@
   }
 
   new MutationObserver(showIfDue).observe(workspace, { attributes: true, attributeFilter: ['hidden'] });
+  window.EdmundEddyWritingDailyDialogue = Object.freeze({
+    isBlocking: () => Boolean(overlay || (!workspace.hidden && !document.hidden && storedDay() !== localDay() && shownInThisPage !== localDay()))
+  });
   document.addEventListener('edmund:eddy-global-dialogue-finished', showIfDue);
   document.addEventListener('visibilitychange', showIfDue);
   showIfDue();

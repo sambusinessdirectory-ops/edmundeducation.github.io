@@ -3620,6 +3620,9 @@ function selectWritingTopic(resourceId, { persist = true, close = true, toast = 
   if (persist) persistDraft();
   if (close) closeWritingTopicPicker();
   if (toast) showToast("已貼上寫作練習題目；您仍可自行修改。", "success");
+  document.dispatchEvent(new CustomEvent('edmund:writing-topic-selected', {
+    detail: { id: resource.id, sectionKey: resource.sectionKey, detail: resource.detail }
+  }));
 }
 
 function readDraft() {
