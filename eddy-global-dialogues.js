@@ -1,4 +1,4 @@
-/* Sitewide Eddy moments: Hong Kong lunchtime, weekends, afternoon tea, bedtime and Pomodoro breaks. */
+/* Sitewide Eddy moments: Hong Kong time greetings, weekends and Pomodoro breaks. */
 (() => {
   'use strict';
 
@@ -15,6 +15,32 @@
     ['好啦……該回去工作了……嘿咻！……唔，果然還是提不起勁呢。', ''],
     ['再休息五分鐘……不，十分鐘就好！……咦？已經到時間了嗎？', ''],
     ['午休結束了啊……唔～真想跟椅子黏在一起……', '']
+  ];
+  const coffeeLines = [
+    ['呼～這個時間來杯咖啡，真是再幸福不過了！', '嗯～光是聞到香味，就覺得整個人都活過來了呢！'],
+    ['啊～咖啡真香！要是能一直坐在這裡，什麼都不做就好了……', ''],
+    ['先聞聞香氣，再慢慢喝上一口……嗯！這才是下午最棒的享受嘛！', ''],
+    ['嘿嘿，Eddy 可不是在偷懶喔！這是在進行重要的咖啡研究！', ''],
+    ['午後的陽光，配上一杯香醇的咖啡……嗯～感覺時間都慢下來了呢。', ''],
+    ['呼～先喝口咖啡，讓腦袋休息一下吧！', '']
+  ];
+  const finishingWorkLines = [
+    ['嘿嘿……再一下下就能下班啦！', '今天晚餐要吃什麼好呢？……啊！不行不行，手邊的工作得先做完才行！'],
+    ['嗯……還有十分鐘……九分鐘……八分鐘……咦？怎麼覺得時間過得特別慢啊？', ''],
+    ['好！今天的工作也快告一段落了！呼～下班後要做什麼呢？光想就覺得開心！', ''],
+    ['唔～明明都快下班了，怎麼還有事情沒做完啊！再加把勁吧……就一下下！', ''],
+    ['水壺收好了，公事包也準備好了……嘿嘿，Eddy 可是隨時都能出發喔！', ''],
+    ['夕陽都染紅窗邊了呢……嗯！今天也過得很充實，差不多該準備收工啦！', ''],
+    ['再撐一下下！下班後的快樂時光就在眼前啦！', '']
+  ];
+  const gamingLines = [
+    ['終於到了最期待的遊戲時間！', '今天一定要突破昨天卡住的那一關！好，這次絕對沒問題！'],
+    ['好！手把準備就緒！今晚一定要一口氣破關！……咦？怎麼才開始就輸了！？', ''],
+    ['往左！不對，往右！啊啊啊！差一點就過關了啦！再來一次！', ''],
+    ['哼哼，今晚的 Eddy 可是認真的喔！要不要來比比看誰比較厲害？', ''],
+    ['好耶！遊戲時間到！Eddy 要開玩囉！', ''],
+    ['等這一刻等好久啦！好！今晚要玩個痛快！……啊，差點忘了先存檔！', ''],
+    ['點心準備好了，遊戲也準備好了……嗯！今晚真是完美！', '']
   ];
   const tomatoLines = [
     ['嗯～休息時間的番茄真好吃！', '（咦？番茄工作法不是這樣用的嗎？）'],
@@ -63,6 +89,11 @@
   const weekendStorageKey = 'edmund-eddy-weekend-day-v1';
   const sleepyStorageKey = 'edmund-eddy-sleepy-evening-day-v1';
   const bedtimeStorageKey = 'edmund-eddy-bedtime-night-v1';
+  const timedMoments = Object.freeze({
+    coffee: { hour: 16, lines: coffeeLines, image: '/eddy-coffee-break-dialogue.png', label: 'Eddy 的午後咖啡時間', storageKey: 'edmund-eddy-coffee-break-day-v1' },
+    finishingWork: { hour: 18, lines: finishingWorkLines, image: '/eddy-finishing-work-dialogue.png', label: 'Eddy 的下班前問候', storageKey: 'edmund-eddy-finishing-work-day-v1' },
+    gaming: { hour: 20, lines: gamingLines, image: '/eddy-gaming-time-dialogue.png', label: 'Eddy 的遊戲時間', storageKey: 'edmund-eddy-gaming-time-day-v1' }
+  });
   const breakStoragePrefix = 'edmund-eddy-pomodoro-break-v1:';
   const queue = [];
   const queuedBreaks = new Set();
@@ -74,6 +105,7 @@
   let shownWeekendDay = '';
   let shownSleepyDay = '';
   let shownBedtimeNight = '';
+  const shownMomentDays = Object.create(null);
   let audioContext = null;
 
 
@@ -153,7 +185,14 @@
     if (active || !document.body || document.hidden || document.querySelector('dialog[open]')) return;
     while (queue.length) {
       const next = queue.shift();
-      if (next.kind === 'lunch') {
+      const timedMoment = timedMoments[next.kind];
+      if (timedMoment) {
+        const now = hongKongNow();
+        if (now.hour !== timedMoment.hour || now.day !== next.day || shownMomentDays[next.kind] === now.day
+          || stored(timedMoment.storageKey) === now.day) continue;
+        shownMomentDays[next.kind] = now.day;
+        remember(timedMoment.storageKey, now.day);
+      } else if (next.kind === 'lunch') {
         const now = hongKongNow();
         if (now.hour !== 13 || now.day !== next.day || shownLunchDay === now.day || stored(lunchStorageKey) === now.day) continue;
         shownLunchDay = now.day;
@@ -186,7 +225,7 @@
       }
       active = next;
       previousFocus = document.activeElement;
-      const lines = next.kind === 'lunch' ? lunchLines : next.kind === 'tea' ? teaLines : next.kind === 'weekend'
+      const lines = timedMoment ? timedMoment.lines : next.kind === 'lunch' ? lunchLines : next.kind === 'tea' ? teaLines : next.kind === 'weekend'
         ? (next.weekday === 'Saturday' ? saturdayLines : sundayLines)
         : next.kind === 'sleepy' ? sleepyLines : next.kind === 'bedtime' ? bedtimeLines : tomatoLines;
       const [main, sub] = pick(lines);
@@ -195,11 +234,11 @@
       overlay.dataset.eddyGlobalDialogue = '';
       overlay.setAttribute('role', 'dialog');
       overlay.setAttribute('aria-modal', 'true');
-      overlay.setAttribute('aria-label', next.kind === 'lunch' ? 'Eddy 的午飯後問候' : next.kind === 'tea' ? 'Eddy 的下午茶時間'
+      overlay.setAttribute('aria-label', timedMoment ? timedMoment.label : next.kind === 'lunch' ? 'Eddy 的午飯後問候' : next.kind === 'tea' ? 'Eddy 的下午茶時間'
         : next.kind === 'weekend' ? `Eddy 的${next.weekday === 'Saturday' ? '星期六' : '星期天'}問候`
           : next.kind === 'sleepy' ? 'Eddy 的晚間問候' : next.kind === 'bedtime' ? 'Eddy 的晚安問候' : 'Eddy 的番茄鐘休息時間');
       overlay.innerHTML = `<button type="button"><span class="eddy-global-art"><img alt="" aria-hidden="true"><span class="eddy-global-copy" lang="zh-Hant"><strong></strong><span></span></span></span></button>`;
-      overlay.querySelector('img').src = next.kind === 'lunch' ? '/eddy-after-lunch-dialogue.png' : next.kind === 'tea' ? '/eddy-afternoon-tea-dialogue.png'
+      overlay.querySelector('img').src = timedMoment ? timedMoment.image : next.kind === 'lunch' ? '/eddy-after-lunch-dialogue.png' : next.kind === 'tea' ? '/eddy-afternoon-tea-dialogue.png'
         : next.kind === 'weekend' ? (next.weekday === 'Saturday' ? '/eddy-saturday-plant-dialogue.png' : '/eddy-sunday-hobbies-dialogue.png')
           : next.kind === 'sleepy' ? '/eddy-evening-teddy-dialogue.png'
             : next.kind === 'bedtime' ? '/eddy-bedtime-pyjamas-dialogue.png' : '/eddy-pomodoro-tomato-dialogue.png';
@@ -241,6 +280,18 @@
     showNext();
   }
 
+  function checkNewTimedMoments() {
+    if (document.hidden) return;
+    const { day, hour } = hongKongNow();
+    const entry = Object.entries(timedMoments).find(([, moment]) => moment.hour === hour);
+    if (!entry) return;
+    const [kind, moment] = entry;
+    if (shownMomentDays[kind] === day || stored(moment.storageKey) === day
+      || queue.some((item) => item.kind === kind && item.day === day)) return;
+    queue.unshift({ kind, day });
+    showNext();
+  }
+
   function checkEvening() {
     if (document.hidden) return;
     const now = hongKongNow();
@@ -262,6 +313,7 @@
     if (!owner || !Number.isFinite(endsAt) || endsAt <= Date.now() || queuedBreaks.has(id) || stored(breakStoragePrefix + owner) === String(endsAt)) return;
     checkLunch();
     checkTea();
+    checkNewTimedMoments();
     checkWeekend();
     checkEvening();
     queuedBreaks.add(id);
@@ -269,9 +321,9 @@
     showNext();
   }
 
-  function checkTimedGreetings() { checkLunch(); checkTea(); checkWeekend(); checkEvening(); }
+  function checkTimedGreetings() { checkLunch(); checkTea(); checkNewTimedMoments(); checkWeekend(); checkEvening(); }
 
-  window.EdmundEddyGlobalDialogue = Object.freeze({ isBlocking, isShowing: () => Boolean(active), queuePomodoroBreak, checkLunch, checkTea, checkWeekend, checkEvening });
+  window.EdmundEddyGlobalDialogue = Object.freeze({ isBlocking, isShowing: () => Boolean(active), queuePomodoroBreak, checkLunch, checkTea, checkNewTimedMoments, checkWeekend, checkEvening });
   if (document.body) checkTimedGreetings();
   else document.addEventListener('DOMContentLoaded', checkTimedGreetings, { once: true });
   document.addEventListener('visibilitychange', checkTimedGreetings);
