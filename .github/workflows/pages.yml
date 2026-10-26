@@ -274,6 +274,8 @@ jobs:
           node tools/test-listening-system.mjs
           node tools/test-ielts-super-curation.mjs
           node tools/test-ielts-all-curation.mjs
+          node tools/test-dse2018-super-curation.mjs
+          node --check dse-super-curation.mjs
           node --check ielts-super-curation.mjs
           node tools/test-dse-listening-2022-2024.mjs
 
@@ -558,6 +560,8 @@ jobs:
           node tools/test-listening-system.mjs
           node tools/test-ielts-super-curation.mjs
           node tools/test-ielts-all-curation.mjs
+          node tools/test-dse2018-super-curation.mjs
+          node --check dse-super-curation.mjs
           node --check ielts-super-curation.mjs
           node tools/test-ielts-puzzle-map.mjs
           node tools/test-grammar-listening-practice1.mjs

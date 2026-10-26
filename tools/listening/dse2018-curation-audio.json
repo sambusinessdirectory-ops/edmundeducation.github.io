@@ -1,0 +1,34 @@
+[
+  {
+    "year": 2018,
+    "section": "part-a",
+    "task": 1,
+    "url": "https://edmund-neural-audio.edmundeducation.workers.dev/DSE%20Listening%20-%20Recordings/DSE%202018%20Part%20A%20Task%201.mp3",
+    "audioSha256": "e06fbecf2443b5482a636b01cdbda589652c9410858efe973f20547cf7b516d0",
+    "duration": 393.9
+  },
+  {
+    "year": 2018,
+    "section": "part-a",
+    "task": 2,
+    "url": "https://edmund-neural-audio.edmundeducation.workers.dev/DSE%20Listening%20-%20Recordings/DSE%202018%20Part%20A%20Task%202.mp3",
+    "audioSha256": "abe30d3cdc52f5ce5eaf7bc6b8b4676888cddcbaccdc34b772c2da323fccedb5",
+    "duration": 540.2
+  },
+  {
+    "year": 2018,
+    "section": "part-a",
+    "task": 3,
+    "url": "https://edmund-neural-audio.edmundeducation.workers.dev/DSE%20Listening%20-%20Recordings/DSE%202018%20Part%20A%20Task%203.mp3",
+    "audioSha256": "8b8a10d079712ed05ee5343b17cdf65cd54e03534f3f800916213e7feb41a8bb",
+    "duration": 536.9
+  },
+  {
+    "year": 2018,
+    "section": "part-a",
+    "task": 4,
+    "url": "https://edmund-neural-audio.edmundeducation.workers.dev/DSE%20Listening%20-%20Recordings/DSE%202018%20Part%20A%20Task%204.mp3",
+    "audioSha256": "cdc7a8e1df18cf78a3daaf2508e4376957c10419c578610c904933bd76f44d52",
+    "duration": 561.3
+  }
+]

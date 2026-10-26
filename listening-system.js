@@ -750,6 +750,25 @@ function renderDseTask(taskNumber) {
     ${questionArea}
     ${getDseGuide(state.dseYear) ? dseStudy.renderAnalysis(state.dseYear, task.number) : hasDseGuide(state.dseYear) ? `<aside class="dse-no-analysis" role="status">${dseGuideFailed(state.dseYear) ? '<strong>題解書暫時未能載入</strong><button type="button" class="secondary-button" data-dse-retry-guide>重新載入答案及雙語錄音稿</button>' : '<strong>正在載入答案、解析及雙語錄音稿…</strong>'}</aside>` : '<aside class="dse-no-analysis"><strong>答案與解析尚未加入</strong><span>目前可完成題目、播放分段錄音及閱讀角色錄音稿；系統不會顯示或猜測答案。</span></aside>'}
     ${renderDseTranscript(task.number)}</article>`;
+  if (state.dseYear === 2018 && getDseGuide(2018)) {
+    const launch = document.createElement('button');
+    launch.type = 'button'; launch.className = 'isc-launch';
+    launch.innerHTML = '✦ Super Curation<small>2018 Part A · 四個 Task · 逐題聆聽、暫停與解析</small>';
+    launch.addEventListener('click', async () => {
+      launch.disabled = true;
+      try {
+        const { openDseSuperCuration } = await import('./dse-super-curation.mjs?v=20261026-dse1');
+        if (!launch.isConnected || state.dseYear !== 2018) return;
+        pauseAllAudio(); study.stopReplay();
+        saveOriginalAnswers(state.user?.id, state.dseAnswers, state.dseYear);
+        await openDseSuperCuration({data: content, guide: getDseGuide(2018), tracks: state.dseTracks, task: state.dseTask, storageScope: state.user?.id || 'local'});
+      } catch (error) {
+        console.warn('DSE curation could not open', error);
+        showToast(error.message || 'Super Curation 暫時未能載入，請再試一次。');
+      } finally { launch.disabled = false; }
+    });
+    host.querySelector('.dse-task__head').append(launch);
+  }
   dseStudy.mount(host, state.dseYear, task.number);
   if (digitalPaper) (state.dseYear === 2016 ? mount2016PaperWorkspace() : mountArchivePaperWorkspace());
   bindDseTranscriptSync(task.number);
@@ -980,7 +999,7 @@ function renderPracticeWorkspace() {
     launch.addEventListener('click', async () => {
       launch.disabled = true;
       try {
-        const { openSuperCuration } = await import('./ielts-super-curation.mjs?v=20261026-1');
+        const { openSuperCuration } = await import('./ielts-super-curation.mjs?v=20261026-dse1');
         if (!state.content || !launch.isConnected) return;
         pauseAllAudio(); study.stopReplay(); saveCurrentAnswers();
         await openSuperCuration({ content: state.content, part: state.practicePart, storageScope: state.user?.id || 'local' });

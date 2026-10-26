@@ -23,8 +23,8 @@ export function checkpointDue(part, progress, time, playing) {
   return playing && progress.phase === 'listening' && time >= part.cues[progress.index].end;
 }
 export function sanitizeSession(raw, ledger) {
-  if (!raw || raw.version !== ledger.version || raw.practice !== ledger.practice) throw new Error(`此存檔不屬於這個版本的 Practice ${ledger.practice}。`);
-  const result = { version: ledger.version, practice: ledger.practice, part: [1,2,3,4].includes(raw.part) ? raw.part : 1, revealMode: raw.revealMode === 'manual' ? 'manual' : 'auto', parts: {} };
+  if (!raw || raw.version !== ledger.version || (ledger.id ? raw.id !== ledger.id : raw.practice !== ledger.practice)) throw new Error(`此存檔不屬於這個版本的 ${ledger.id ? ledger.presentation.title : 'Practice '+ledger.practice}。`);
+  const result = { version: ledger.version, ...(ledger.id?{id:ledger.id}:{practice:ledger.practice}), part: [1,2,3,4].includes(raw.part) ? raw.part : 1, revealMode: raw.revealMode === 'manual' ? 'manual' : 'auto', parts: {} };
   for (const part of ledger.parts) {
     const saved = raw.parts?.[part.part] || {}, ids = Array.isArray(saved.completedIds) ? saved.completedIds : [];
     let completed = 0;
