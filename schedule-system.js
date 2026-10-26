@@ -2603,21 +2603,30 @@ function renderLearningDayCounters() {
 
 async function loadLearningDayCounters() {
   if (state.currentUser?.role !== "student") return;
+  const studentId = state.currentUser.id;
+  const studentToken = state.currentUser.studentToken;
+  let loaded = false;
   try {
     const response = await fetch(`${STUDENT_PROGRESS_WORKER_URL}/v1/progress`, {
       method: "GET",
-      headers: { Authorization: `Bearer ${state.currentUser.studentToken}`, Accept: "application/json" },
+      headers: { Authorization: `Bearer ${studentToken}`, Accept: "application/json" },
       credentials: "omit",
       cache: "no-store"
     });
     if (!response.ok) throw new Error(`Student Progress returned ${response.status}`);
     const payload = await response.json();
+    if (state.currentUser?.id !== studentId || state.currentUser?.studentToken !== studentToken) return;
     state.learningDaySummary = learningDaySummary(payload?.snapshot, hongKongDayKey(new Date()));
+    loaded = true;
   } catch (error) {
+    if (state.currentUser?.id !== studentId || state.currentUser?.studentToken !== studentToken) return;
     console.warn("Cross-system learning-day summary failed", error);
     state.learningDaySummary = { streak: 0, total: 0 };
   }
   renderLearningDayCounters();
+  if (loaded) document.dispatchEvent(new CustomEvent("edmund:schedule-learning-day-summary", {
+    detail: { studentId, date: hongKongDayKey(new Date()), ...state.learningDaySummary }
+  }));
 }
 
 async function loadLearningPurposeVersion(versionId = null) {

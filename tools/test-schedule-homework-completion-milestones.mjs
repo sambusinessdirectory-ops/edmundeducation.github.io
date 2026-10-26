@@ -35,7 +35,13 @@ assert.deepEqual(JSON.parse(JSON.stringify(events.at(-1).detail.milestones)), [
   { date: today, count: 2 }, { date: today, count: 3 }
 ]);
 state.weekPayload.entries.push(entry(today, true));
-assert.equal(run([[today, 3]]), false, 'fourth completed homework has no milestone');
+assert.equal(run([[today, 3]]), true);
+assert.deepEqual(JSON.parse(JSON.stringify(events.at(-1).detail.milestones)), [{ date: today, count: 4 }]);
+state.weekPayload.entries.push(entry(today, true));
+assert.equal(run([[today, 4]]), true);
+assert.deepEqual(JSON.parse(JSON.stringify(events.at(-1).detail.milestones)), [{ date: today, count: 5 }]);
+state.weekPayload.entries.push(entry(today, true));
+assert.equal(run([[today, 5]]), false, 'sixth completed homework has no milestone');
 state.currentUser.role = 'admin';
 assert.equal(run([[today, 0]]), false, 'admin edits do not show student dialogue');
 console.log('Eddy schedule homework milestone count checks passed.');

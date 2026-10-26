@@ -27,7 +27,7 @@
     if (!pending || overlay || document.hidden || window.EdmundEddyGlobalDialogue?.isBlocking()) return;
     const calendar = document.querySelector('[data-view="calendar"]');
     const todayColumn = calendar?.querySelector(`.day-column.is-today[data-column-date="${pending.date}"]`);
-    if (calendar?.hidden || !todayColumn || document.querySelector('dialog[open]')) return;
+    if (calendar?.hidden || !todayColumn || document.querySelector('dialog[open], .eddy-first-question-overlay')) return;
     const key = `${pending.studentId}:${pending.date}`;
     pending = null;
     if (shown.has(key)) return;
@@ -55,4 +55,5 @@
   document.addEventListener('edmund:eddy-global-dialogue-finished', showIfReady);
   document.addEventListener('visibilitychange', showIfReady);
   document.addEventListener('close', showIfReady, true);
+  new MutationObserver(showIfReady).observe(document.body, { childList: true });
 })();
