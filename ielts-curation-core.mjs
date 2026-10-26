@@ -1,3 +1,5 @@
+export function checkpointStartIndex(part,index){while(index>0&&part.cues[index-1].end===part.cues[index].end)index--;return index;}
+export function checkpointEndIndex(part,index){while(index+1<part.cues.length&&part.cues[index+1].end===part.cues[index].end)index++;return index;}
 // Pure progress rules shared by the player, import validation and regression tests.
 export function initialProgress() { return { completed: 0, index: 0, phase: 'intro', time: 0 }; }
 export function rewindTo(part, progress, requestedTime) {
@@ -9,7 +11,7 @@ export function rewindTo(part, progress, requestedTime) {
   return { completed: Math.min(progress.completed, index), index, phase: 'intro', time };
 }
 export function replayCue(part, index) {
-  index = Math.max(0, Math.min(part.cues.length - 1, index));
+  index = checkpointStartIndex(part,Math.max(0, Math.min(part.cues.length - 1, index)));
   return { completed: index, index, phase: 'intro', time: Math.max(0, part.cues[index].start - 1.2) };
 }
 export function nextProgress(part, progress) {
@@ -21,12 +23,13 @@ export function checkpointDue(part, progress, time, playing) {
   return playing && progress.phase === 'listening' && time >= part.cues[progress.index].end;
 }
 export function sanitizeSession(raw, ledger) {
-  if (!raw || raw.version !== ledger.version || raw.practice !== 2) throw new Error('此存檔不屬於這個版本的 Practice 2。');
-  const result = { version: ledger.version, practice: 2, part: [1,2,3,4].includes(raw.part) ? raw.part : 1, revealMode: raw.revealMode === 'manual' ? 'manual' : 'auto', parts: {} };
+  if (!raw || raw.version !== ledger.version || raw.practice !== ledger.practice) throw new Error(`此存檔不屬於這個版本的 Practice ${ledger.practice}。`);
+  const result = { version: ledger.version, practice: ledger.practice, part: [1,2,3,4].includes(raw.part) ? raw.part : 1, revealMode: raw.revealMode === 'manual' ? 'manual' : 'auto', parts: {} };
   for (const part of ledger.parts) {
     const saved = raw.parts?.[part.part] || {}, ids = Array.isArray(saved.completedIds) ? saved.completedIds : [];
     let completed = 0;
     while (completed < part.cues.length && ids.includes(part.cues[completed].id)) completed++;
+    if(completed>0&&completed<part.cues.length&&part.cues[completed-1].end===part.cues[completed].end)completed=checkpointStartIndex(part,completed);
     const drafts = {};
     for (const cue of part.cues) if (typeof saved.drafts?.[cue.question] === 'string') drafts[cue.question] = saved.drafts[cue.question].slice(0, 5000);
     const completedIds = part.cues.slice(0, completed).map(c => c.id);
@@ -37,7 +40,7 @@ export function sanitizeSession(raw, ledger) {
 }
 export function progressFromSaved(part, saved) {
   const completed = saved?.completedIds?.length || 0;
-  return completed ? { completed, index: completed - 1, phase: 'paused', time: part.cues[completed - 1].end } : initialProgress();
+  return completed ? { completed, index: checkpointStartIndex(part,completed - 1), phase: 'paused', time: part.cues[completed - 1].end } : initialProgress();
 }
 export function annotationSegments(text, marks) {
   // Exact span offsets: unmatched source edits fail safely, never mark a neighbour.

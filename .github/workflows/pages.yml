@@ -273,6 +273,7 @@ jobs:
           node tools/test-dse-listening-2025-2026.mjs
           node tools/test-listening-system.mjs
           node tools/test-ielts-super-curation.mjs
+          node tools/test-ielts-all-curation.mjs
           node --check ielts-super-curation.mjs
           node tools/test-dse-listening-2022-2024.mjs
 
@@ -556,6 +557,7 @@ jobs:
           git diff --exit-code -- listening-system-catalog.js
           node tools/test-listening-system.mjs
           node tools/test-ielts-super-curation.mjs
+          node tools/test-ielts-all-curation.mjs
           node --check ielts-super-curation.mjs
           node tools/test-ielts-puzzle-map.mjs
           node tools/test-grammar-listening-practice1.mjs

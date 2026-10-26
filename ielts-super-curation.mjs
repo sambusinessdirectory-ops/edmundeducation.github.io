@@ -1,16 +1,18 @@
-import { curation } from './ielts-practice2-curation-data.mjs?v=20261025-1';
+import { loadCuration } from './ielts-curation-loader.mjs?v=20261026-1';
 import { mountFloatingWindow } from './floating-window.mjs?v=20260911';
-import { initialProgress, rewindTo, replayCue, nextProgress, checkpointDue, sanitizeSession, progressFromSaved, annotationSegments } from './ielts-curation-core.mjs?v=20261025-2';
+import { checkpointStartIndex, checkpointEndIndex, rewindTo, replayCue, nextProgress, checkpointDue, sanitizeSession, progressFromSaved, annotationSegments } from './ielts-curation-core.mjs?v=20261026-1';
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const clock = t => `${Math.floor((t||0)/60)}:${String(Math.floor((t||0)%60)).padStart(2,'0')}`;
 const roles = {evidence:'答案證據',context:'背景／連接',instruction:'試卷指示',noise:'無關語／略讀',distractor:'候選／干擾線索'};
 let opened = false;
-export function openSuperCuration({ content, part: requestedPart = 1, onClose = () => {}, storageScope = 'local' }) {
-  if (opened || content.practice !== 2) return;
+export async function openSuperCuration({ content, part: requestedPart = 1, onClose = () => {}, storageScope = 'local' }) {
+  if (opened) return;
   opened = true;
+  let curation;
+  try { ({curation,content}=await loadCuration(content)); } catch(error) { opened=false;throw error; }
   const returnFocus = document.activeElement;
-  const key = `edmund-ielts-super-curation:${storageScope}:practice2`;
-  let session = {version:curation.version,practice:2,part:requestedPart,revealMode:'auto',parts:{}};
+  const key = `edmund-ielts-super-curation:${storageScope}:practice${content.practice}`;
+  let session = {version:curation.version,practice:content.practice,part:requestedPart,revealMode:'auto',parts:{}};
   let storageMessage = '進度自動儲存於此瀏覽器';
   try { const raw=localStorage.getItem(key); if(raw) session=sanitizeSession(JSON.parse(raw),curation); } catch { storageMessage='儲存未能讀取；可用匯出保留進度。'; }
   session.part=requestedPart;
@@ -18,10 +20,10 @@ export function openSuperCuration({ content, part: requestedPart = 1, onClose = 
   const renderedMarks=new Map();
   let lastFocusedQuestion=null, reviewQuestion=null, mediaValid=true;
   let part, source, progress, timer=0, frame=0, generation=0, typed='', chinese=false, hideNoise=false, pins=false, help=false, speed=1, closed=false, pendingSeek=null;
-  const root=document.createElement('section'); root.className='isc'; root.setAttribute('role','dialog');root.setAttribute('aria-modal','true');root.setAttribute('aria-label','IELTS Practice 2 Super Curation');
+  const root=document.createElement('section'); root.className='isc'; root.setAttribute('role','dialog');root.setAttribute('aria-modal','true');root.setAttribute('aria-label',`IELTS Practice ${content.practice} Super Curation`);
   const previousOverflow=document.body.style.overflow; document.body.style.overflow='hidden';
   const inertBefore=[...document.body.children].map(el=>[el,el.inert]);inertBefore.forEach(([el])=>el.inert=true);
-  root.innerHTML=`<header class="isc-top"><div><span class="isc-eyebrow">EDMUNDEDUCATION · IELTS LISTENING</span><h1>Practice 2 <span>Super Curation</span></h1></div><button data-act="close" class="isc-exit">離開 Curation ×</button></header>
+  root.innerHTML=`<header class="isc-top"><div><span class="isc-eyebrow">EDMUNDEDUCATION · IELTS LISTENING</span><h1>Practice ${content.practice} <span>Super Curation</span></h1></div><button data-act="close" class="isc-exit">離開 Curation ×</button></header>
   <nav class="isc-parts" aria-label="四部分聆聽進度">${curation.parts.map(p=>`<button data-part="${p.part}"><b>${p.part}</b><span>Part ${p.part}<small>${esc(p.title)}</small></span><output data-count="${p.part}">0/10</output></button>`).join('')}</nav>
   <section class="isc-player" aria-label="錄音控制"><button data-act="play">▶ 播放</button><button data-act="back-five" aria-label="倒退 5 秒" title="倒退 5 秒">−5s</button><button data-act="forward-five" aria-label="前進 5 秒" title="前進 5 秒；不越過下一個答案停頓點">+5s</button><button data-act="replay" title="重聽會撤回本題及之後的示範筆記">↶ 重聽本題</button><div class="isc-timeline"><input type="range" data-seek min="0" max="100" step="0.01" value="0" aria-label="錄音時間"><div class="isc-pins" hidden></div></div><output data-time>0:00</output><label>速度 <select data-speed>${[.5,.75,1,1.25,1.5,1.75,2,2.25,2.5,2.75,3].map(s=>`<option ${s===1?'selected':''}>${s}</option>`).join('')}</select>×</label><button data-act="pins" aria-pressed="false">停頓點</button><button data-act="transcript">錄音稿</button><audio preload="metadata"></audio></section>
   <p class="isc-error" role="status" hidden></p>
@@ -44,17 +46,23 @@ export function openSuperCuration({ content, part: requestedPart = 1, onClose = 
     audio.playbackRate=speed;setTime(progress.time);error(mediaValid?'':'錄音或錄音稿版本已改動，請先重新核對停頓點。');
     root.dataset.part=n;
     $('.isc-paper-head').innerHTML=`<span class="isc-eyebrow">PART ${n} · QUESTIONS ${(n-1)*10+1}–${n*10}</span><h2>${esc(part.title)}</h2><p>${esc(part.subtitle)}</p><strong>${esc(part.instructions)}</strong>`;
-    $('.isc-original div').innerHTML=source.sourceBlocks.map(b=>`<section><small>原題 PDF 第 ${b.page} 頁</small><pre>${esc(b.text)}</pre></section>`).join('');
+    $('.isc-original div').innerHTML=renderOriginal(source);
     $('.isc-note-list').innerHTML=part.cues.map(c=>{
-      const q=source.questions.find(q=>q.number===c.question);
-      return `<article class="isc-note" data-note="${c.question}"><div class="isc-note-title"><b>Q${c.question}</b><span>${esc(c.questionText || q.prompt.replace(/_{3,}/g,'_____'))}</span></div>${q.options?`<details><summary>查看選項</summary><div class="isc-options">${q.options.map(o=>`<span><b>${esc(o.key)}</b> ${esc(o.en)}</span>`).join('')}</div></details>`:''}<label>你的答案 <input data-draft="${c.question}" value="${esc(session.parts[n].drafts[c.question]||'')}" autocomplete="off" spellcheck="false"></label><button class="isc-reveal-answer" data-reveal="${c.question}" hidden>顯示 Q${c.question} 答案與解析</button><div class="isc-generated" data-generated="${c.question}" aria-label="示範筆記"></div><small class="isc-note-source"></small></article>`;
+      const q=questionFor(c.question);
+      return `<article class="isc-note" data-note="${c.question}"><div class="isc-note-title"><b>Q${c.question}</b><span>${esc(c.questionText || q.prompt.replace(/_{3,}/g,'_____'))}${c.groupQuestions?`<small>Q${c.groupQuestions.join('、Q')} 同組 · 答案次序不限</small>`:''}</span></div>${q.options?`<details><summary>查看選項</summary><div class="isc-options">${q.options.map(o=>`<span><b>${esc(o.key)}</b> ${esc(o.en)}</span>`).join('')}</div></details>`:''}<label>你的答案 <input data-draft="${c.question}" value="${esc(session.parts[n].drafts[c.question]||'')}" autocomplete="off" spellcheck="false"></label><button class="isc-reveal-answer" data-reveal="${c.question}" hidden>顯示 Q${c.question} 答案與解析</button><div class="isc-generated" data-generated="${c.question}" aria-label="示範筆記"></div><small class="isc-note-source"></small></article>`;
     }).join('');
     $('.isc-transcript-body').innerHTML=content.transcript[n].map((row,i)=>`<article class="isc-line" data-line="${i}"><div class="isc-line-meta"><button data-line-seek="${i}" title="倒帶到此句，會撤回之後示範">${clock(content.timings.parts[n].lines[i].start)}</button><span data-role></span></div><p data-en>${esc(row.en)}</p><p class="isc-zh" ${chinese?'':'hidden'}>${esc(row.zh)}</p></article>`).join('');
     $('[data-seek]').max=part.duration;
     $('.isc-pins').innerHTML=part.cues.map((c,i)=>`<button style="left:${100*c.end/part.duration}%" data-pin="${i}" title="Q${c.question} · ${clock(c.end)}" aria-label="重聽 Q${c.question}"></button>`).join('');
     render();
   }
-  function answerText(cue){const q=source.questions.find(q=>q.number===cue.question);return q.options?`${cue.answer} · ${q.options.find(o=>o.key===cue.answer)?.en||''}`:cue.answer;}
+  function questionFor(number){return source.questions.find(q=>q.number===number||q.numbers?.includes(number));}
+  function renderOriginal(p){
+    if(p.sourceBlocks?.length)return p.sourceBlocks.map(b=>`<section><small>原題 PDF 第 ${b.page} 頁</small>${b.type==='image'?`<a href="${esc(b.src)}" target="_blank" rel="noopener" aria-label="放大原題圖表"><img src="${esc(b.src)}" alt="${esc(b.alt)}" loading="eager"></a>`:''}${b.text?`<pre>${esc(b.text)}</pre>`:''}</section>`).join('');
+    const table=p.table?`<div class="isc-source-table"><table><caption>${esc(p.table.caption)}</caption><thead><tr>${p.table.headers.map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${p.table.rows.map(r=>`<tr>${r.map(cell=>`<td>${esc(cell).replace(/\{\{(\d+)\}\}/g,'($1) _____')}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`:'';
+    return `<p>${esc(p.instruction)}</p>${table}${p.questions.map(q=>`<section><b>Q${(q.numbers||[q.number]).join('–')} ${esc(q.prompt)}</b>${q.options?`<p>${q.options.map(o=>`${esc(o.key)}. ${esc(o.en)}`).join('<br>')}</p>`:''}</section>`).join('')}`;
+  }
+  function answerText(cue){const q=questionFor(cue.question);return q.options?`${cue.answer} · ${q.options.find(o=>o.key===cue.answer)?.en||''}`:cue.answer;}
   function answerVisible(cue){return session.revealMode!=='manual'||session.parts[part.part].revealedIds.includes(cue.id);}
   function noteText(cue){return `${answerText(cue)}\n${cue.paraphrase}`;}
   function renderNotes(){
@@ -62,7 +70,9 @@ export function openSuperCuration({ content, part: requestedPart = 1, onClose = 
       const c=part.cues[i], el=$(`[data-note="${c.question}"]`), out=el.querySelector('.isc-generated');
       el.classList.toggle('is-active',i===progress.index);
       const visible=answerVisible(c);
-      const value=i<progress.completed&&visible?noteText(c):i===progress.index&&progress.phase==='typing'?typed:'';
+      const typing=progress.phase==='typing'&&i>=progress.index&&i<=checkpointEndIndex(part,progress.index);
+      const offset=part.cues.slice(progress.index,i).reduce((n,c)=>n+noteText(c).length+1,0);
+      const value=i<progress.completed&&visible?noteText(c):typing?typed.slice(offset,offset+noteText(c).length):'';
       const revealButton=el.querySelector('[data-reveal]');
       revealButton.hidden=i>=progress.completed;
       revealButton.textContent=visible?`查看 Q${c.question} 完整解析`:`顯示 Q${c.question} 答案與解析`;
@@ -122,11 +132,11 @@ export function openSuperCuration({ content, part: requestedPart = 1, onClose = 
   function finishCue(){
     if(progress.phase!=='listening')return;
     reviewQuestion=null;
-    const cue=part.cues[progress.index];audio.pause();progress.phase='typing';setTime(cue.end);cancelTyping();
-    if(session.revealMode==='manual'){progress.completed=progress.index+1;progress.phase='paused';persist();render();return;}
-    const text=noteText(cue), token=generation;
+    const cue=part.cues[progress.index],groupEnd=checkpointEndIndex(part,progress.index);audio.pause();progress.phase='typing';setTime(cue.end);cancelTyping();
+    if(session.revealMode==='manual'){progress.completed=checkpointEndIndex(part,progress.index)+1;progress.phase='paused';persist();render();return;}
+    const text=part.cues.slice(progress.index,groupEnd+1).map(noteText).join('\n'), token=generation;
     render();
-    const step=()=>{if(token!==generation||closed)return;const amount=matchMedia('(prefers-reduced-motion: reduce)').matches?text.length:3;typed=text.slice(0,typed.length+amount);renderNotes();if(typed.length<text.length)timer=setTimeout(step,24);else{progress.completed=progress.index+1;progress.phase='paused';typed='';persist();render();}};
+    const step=()=>{if(token!==generation||closed)return;const amount=matchMedia('(prefers-reduced-motion: reduce)').matches?text.length:3;typed=text.slice(0,typed.length+amount);renderNotes();if(typed.length<text.length)timer=setTimeout(step,24);else{progress.completed=checkpointEndIndex(part,progress.index)+1;progress.phase='paused';typed='';persist();render();}};
     step();
   }
   function rewind(time){reviewQuestion=null;cancelTyping();audio.pause();progress=rewindTo(part,progress,time);setTime(progress.time);persist();render();}
@@ -165,7 +175,7 @@ export function openSuperCuration({ content, part: requestedPart = 1, onClose = 
       case 'back-five':skipSeconds(-5);break;
       case 'forward-five':skipSeconds(5);break;
       case 'play':if(audio.paused)void play();else audio.pause();break;
-      case 'back':{const index=Math.max(0,progress.index-1);rewind(index?part.cues[index-1].end+.001:0);break;}
+      case 'back':{const index=checkpointStartIndex(part,Math.max(0,checkpointStartIndex(part,progress.index)-1));rewind(index?part.cues[index-1].end+.001:0);break;}
       case 'replay':replay(progress.index);break;
       case 'help':help=!help;button.setAttribute('aria-expanded',help);render();break;
       case 'next-part':setPart(part.part===4?1:part.part+1);break;
@@ -178,7 +188,7 @@ export function openSuperCuration({ content, part: requestedPart = 1, onClose = 
       case 'retry':audio.load();setTime(progress.time);error('請按播放重試。');break;
       case 'save':persist();try{localStorage.setItem(`${key}:slot${$('[data-slot]').value}`,JSON.stringify(session));status('書籤已儲存。');}catch{status('書籤未能儲存；請匯出。');}break;
       case 'load':try{const raw=localStorage.getItem(`${key}:slot${$('[data-slot]').value}`);if(!raw)throw Error('這個書籤槽仍未有存檔。');restore(JSON.parse(raw));}catch(e){status(e.message);}break;
-      case 'export':{persist();const url=URL.createObjectURL(new Blob([JSON.stringify(session,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='ielts-practice2-curation-progress.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);status('已匯出進度及你的答案。');break;}
+      case 'export':{persist();const url=URL.createObjectURL(new Blob([JSON.stringify(session,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download=`ielts-practice${content.practice}-curation-progress.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);status('已匯出進度及你的答案。');break;}
       case 'import':$('[data-import]').click();break;
     }
   });
@@ -187,7 +197,7 @@ export function openSuperCuration({ content, part: requestedPart = 1, onClose = 
     const el=event.target;
     if(el.matches('[data-reveal-mode]')){
       session.revealMode=el.value==='manual'?'manual':'auto';
-      if(progress.phase==='typing'){cancelTyping();progress.completed=progress.index+1;progress.phase='paused';}
+      if(progress.phase==='typing'){cancelTyping();progress.completed=checkpointEndIndex(part,progress.index)+1;progress.phase='paused';}
       persist();render();
     }
     if(el.matches('[data-seek]'))rewind(Number(el.value));

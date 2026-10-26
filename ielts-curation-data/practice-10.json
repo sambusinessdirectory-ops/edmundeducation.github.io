@@ -1,0 +1,2096 @@
+{
+  "version": "2026-10-26.1",
+  "practice": 10,
+  "sourceSha256": "1995fe833807982ee7adaf2c9fdf47d5aba1d267857ffe8d7a20f42634e620c8",
+  "timingBasis": "Existing recording-aligned transcript timestamps; explanation quotations matched to exact source spans, with explicit editorial endpoint reviews.",
+  "parts": [
+    {
+      "part": 1,
+      "title": "Working at Milo’s Restaurants",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Write ONE WORD ONLY for each answer.",
+      "audioSha256": "f4f1b301daf8d33487778a089c079fe0b0f0d7af24ee4958eefba71bb28dc3a7",
+      "transcriptSha256": "20b5984ad70584a7d67cb6bc56965a6c72a02586abaca3bf56b41f22fdf3db52",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2010%20Part%201.mp3",
+      "duration": 372.53225,
+      "cues": [
+        {
+          "id": "p1-q1",
+          "question": 1,
+          "start": 70.34,
+          "end": 89.98,
+          "endLine": 11,
+          "answer": "training",
+          "accepted": [
+            "training"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：all employees get training – even temporary staff",
+          "evidence": [
+            {
+              "lineId": "p1-line-7",
+              "line": 7,
+              "quote": "all employees get training – even temporary staff",
+              "revealAt": 74.22
+            }
+          ],
+          "distractors": [
+            {
+              "line": 11,
+              "quote": "I guess not",
+              "candidateAt": 89.98,
+              "rejectAt": 89.98,
+              "why": "中伏位：男士接著問有沒有 free uniforms，但女士的回答是 “I guess not”。制服沒有列入這項福利， training 才是所有員工都有的。"
+            }
+          ],
+          "questionText": "● 1 __________ provided for all staff"
+        },
+        {
+          "id": "p1-q2",
+          "question": 2,
+          "start": 90.56,
+          "end": 98.52,
+          "endLine": 13,
+          "answer": "discount",
+          "accepted": [
+            "discount"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：you can get a discount at any of their restaurants / Even at weekends",
+          "evidence": [
+            {
+              "lineId": "p1-line-12",
+              "line": 12,
+              "quote": "you can get a discount at any of their restaurants",
+              "revealAt": 97.26
+            },
+            {
+              "lineId": "p1-line-13",
+              "line": 13,
+              "quote": "Even at weekends",
+              "revealAt": 98.52
+            }
+          ],
+          "distractors": [],
+          "questionText": "● 2 __________ during weekdays at all Milo’s Restaurants"
+        },
+        {
+          "id": "p1-q3",
+          "question": 3,
+          "start": 111.62,
+          "end": 118.96,
+          "endLine": 19,
+          "answer": "taxi",
+          "accepted": [
+            "taxi"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：if you have to do a late shift and finish work after midnight, the company will pay for you to get a taxi home",
+          "evidence": [
+            {
+              "lineId": "p1-line-19",
+              "line": 19,
+              "quote": "if you have to do a late shift and finish work after midnight, the company will pay for you to get a taxi home",
+              "revealAt": 118.96
+            }
+          ],
+          "distractors": [],
+          "questionText": "● 3 __________ provided after midnight"
+        },
+        {
+          "id": "p1-q4",
+          "question": 4,
+          "start": 147.18,
+          "end": 154.76,
+          "endLine": 28,
+          "answer": "service",
+          "accepted": [
+            "service"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：We had to make sure we gave a really high level of service / that will be equally important at Milo's",
+          "evidence": [
+            {
+              "lineId": "p1-line-27",
+              "line": 27,
+              "quote": "We had to make sure we gave a really high level of service",
+              "revealAt": 150.34
+            },
+            {
+              "lineId": "p1-line-28",
+              "line": 28,
+              "quote": "that will be equally important at Milo's",
+              "revealAt": 154.76
+            }
+          ],
+          "distractors": [],
+          "questionText": "● must care about maintaining a high standard of 4 __________"
+        },
+        {
+          "id": "p1-q5",
+          "question": 5,
+          "start": 161.76,
+          "end": 169.08,
+          "endLine": 31,
+          "answer": "English",
+          "accepted": [
+            "English"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：you'll need to have a certificate in English",
+          "evidence": [
+            {
+              "lineId": "p1-line-31",
+              "line": 31,
+              "quote": "you'll need to have a certificate in English",
+              "revealAt": 169.08
+            }
+          ],
+          "distractors": [],
+          "questionText": "● must have a qualification in 5 __________"
+        },
+        {
+          "id": "p1-q6",
+          "question": 6,
+          "start": 215.52,
+          "end": 229.08,
+          "endLine": 37,
+          "answer": "Wivenhoe",
+          "accepted": [
+            "Wivenhoe"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：The first one is in Wivenhoe Street / W-I-V-E-N-H-O-E",
+          "evidence": [
+            {
+              "lineId": "p1-line-34",
+              "line": 34,
+              "quote": "The first one is in Wivenhoe Street",
+              "revealAt": 217.62
+            },
+            {
+              "lineId": "p1-line-36",
+              "line": 36,
+              "quote": "W-I-V-E-N-H-O-E",
+              "revealAt": 226.16
+            }
+          ],
+          "distractors": [
+            {
+              "line": 37,
+              "quote": "just off Cork Street",
+              "candidateAt": 229.08,
+              "rejectAt": 229.08,
+              "why": "中伏位：Cork Street 也出現在後面，但只是用來補充位置：“just off Cork Street”。真正的分店地址是 Wivenhoe Street。"
+            }
+          ],
+          "questionText": "Location: _____ Street"
+        },
+        {
+          "id": "p1-q7",
+          "question": 7,
+          "start": 239.62,
+          "end": 248.02,
+          "endLine": 42,
+          "answer": "equipment",
+          "accepted": [
+            "equipment"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：checking all the procedures for cleaning the equipment are being followed",
+          "evidence": [
+            {
+              "lineId": "p1-line-42",
+              "line": 42,
+              "quote": "checking all the procedures for cleaning the equipment are being followed",
+              "revealAt": 248.02
+            }
+          ],
+          "distractors": [],
+          "questionText": "Making sure _____ is clean"
+        },
+        {
+          "id": "p1-q8",
+          "question": 8,
+          "start": 258.28,
+          "end": 266.3,
+          "endLine": 46,
+          "answer": "9.75",
+          "accepted": [
+            "9.75"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：to begin with, you'd be getting £9.75 but that goes up to £11.25 after three months",
+          "evidence": [
+            {
+              "lineId": "p1-line-46",
+              "line": 46,
+              "quote": "to begin with, you'd be getting £9.75 but that goes up to £11.25 after three months",
+              "revealAt": 266.3
+            }
+          ],
+          "distractors": [],
+          "questionText": "Starting salary £ _____ per hour"
+        },
+        {
+          "id": "p1-q9",
+          "question": 9,
+          "start": 310.3,
+          "end": 316.86,
+          "endLine": 59,
+          "answer": "deliveries",
+          "accepted": [
+            "deliveries"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：making sure there's enough stock each week – and sorting out all the deliveries",
+          "evidence": [
+            {
+              "lineId": "p1-line-59",
+              "line": 59,
+              "quote": "making sure there's enough stock each week – and sorting out all the deliveries",
+              "revealAt": 316.86
+            }
+          ],
+          "distractors": [],
+          "questionText": "Maintaining stock and organising _____"
+        },
+        {
+          "id": "p1-q10",
+          "question": 10,
+          "start": 349.6,
+          "end": 357.46,
+          "endLine": 71,
+          "answer": "Sunday",
+          "accepted": [
+            "Sunday"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：they're closed on Mondays / you do get one Sunday off every four weeks",
+          "evidence": [
+            {
+              "lineId": "p1-line-70",
+              "line": 70,
+              "quote": "they're closed on Mondays",
+              "revealAt": 353.26
+            },
+            {
+              "lineId": "p1-line-71",
+              "line": 71,
+              "quote": "you do get one Sunday off every four weeks",
+              "revealAt": 357.46
+            }
+          ],
+          "distractors": [],
+          "questionText": "No work on a _____ once a month"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "evidence"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "evidence"
+        },
+        {
+          "line": 13,
+          "role": "evidence"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "evidence"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "context"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "evidence"
+        },
+        {
+          "line": 28,
+          "role": "evidence"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "evidence"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        },
+        {
+          "line": 33,
+          "role": "context"
+        },
+        {
+          "line": 34,
+          "role": "evidence"
+        },
+        {
+          "line": 35,
+          "role": "context"
+        },
+        {
+          "line": 36,
+          "role": "evidence"
+        },
+        {
+          "line": 37,
+          "role": "context"
+        },
+        {
+          "line": 38,
+          "role": "context"
+        },
+        {
+          "line": 39,
+          "role": "context"
+        },
+        {
+          "line": 40,
+          "role": "context"
+        },
+        {
+          "line": 41,
+          "role": "context"
+        },
+        {
+          "line": 42,
+          "role": "evidence"
+        },
+        {
+          "line": 43,
+          "role": "context"
+        },
+        {
+          "line": 44,
+          "role": "context"
+        },
+        {
+          "line": 45,
+          "role": "context"
+        },
+        {
+          "line": 46,
+          "role": "evidence"
+        },
+        {
+          "line": 47,
+          "role": "context"
+        },
+        {
+          "line": 48,
+          "role": "context"
+        },
+        {
+          "line": 49,
+          "role": "context"
+        },
+        {
+          "line": 50,
+          "role": "context"
+        },
+        {
+          "line": 51,
+          "role": "context"
+        },
+        {
+          "line": 52,
+          "role": "context"
+        },
+        {
+          "line": 53,
+          "role": "context"
+        },
+        {
+          "line": 54,
+          "role": "context"
+        },
+        {
+          "line": 55,
+          "role": "context"
+        },
+        {
+          "line": 56,
+          "role": "context"
+        },
+        {
+          "line": 57,
+          "role": "context"
+        },
+        {
+          "line": 58,
+          "role": "context"
+        },
+        {
+          "line": 59,
+          "role": "evidence"
+        },
+        {
+          "line": 60,
+          "role": "context"
+        },
+        {
+          "line": 61,
+          "role": "context"
+        },
+        {
+          "line": 62,
+          "role": "context"
+        },
+        {
+          "line": 63,
+          "role": "context"
+        },
+        {
+          "line": 64,
+          "role": "context"
+        },
+        {
+          "line": 65,
+          "role": "context"
+        },
+        {
+          "line": 66,
+          "role": "context"
+        },
+        {
+          "line": 67,
+          "role": "context"
+        },
+        {
+          "line": 68,
+          "role": "context"
+        },
+        {
+          "line": 69,
+          "role": "context"
+        },
+        {
+          "line": 70,
+          "role": "evidence"
+        },
+        {
+          "line": 71,
+          "role": "evidence"
+        },
+        {
+          "line": 72,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Housing development",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Choose TWO letters, A–E. · Write the correct letter, A–I, next to Questions 15–20.",
+      "audioSha256": "d9bc67574639d4cb83e042d07ed6122680932229be790cfa92506a530c3eb642",
+      "transcriptSha256": "2ffb05aa9deb45c251d846c75d8cc8cbfdf2a083c6fe18899b13e7286d94f7b9",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2010%20Part%202.mp3",
+      "duration": 407.5885625,
+      "cues": [
+        {
+          "id": "p2-q11",
+          "question": 11,
+          "start": 83.02,
+          "end": 124.08,
+          "endLine": 8,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：many employees are having to commute long distances / there's a lot of demand for housing for employees in the region",
+          "evidence": [
+            {
+              "lineId": "p2-line-6",
+              "line": 6,
+              "quote": "many employees are having to commute long distances",
+              "revealAt": 96.04
+            },
+            {
+              "lineId": "p2-line-6",
+              "line": 6,
+              "quote": "there's a lot of demand for housing for employees in the region",
+              "revealAt": 96.04
+            },
+            {
+              "lineId": "p2-line-8",
+              "line": 8,
+              "quote": "We were more interested in the fact that there's an excellent hospital just 15 kilometres away, and a large secondary school even closer",
+              "revealAt": 124.08
+            }
+          ],
+          "distractors": [
+            {
+              "line": 7,
+              "quote": "it wasn't one of our major criteria",
+              "candidateAt": 111.98,
+              "rejectAt": 124.08,
+              "why": "中伏位：airport 只有 20 分鐘車程，看似很吸引，但 speaker 明確說： “it wasn’t one of our major criteria.” A 也不合，因為 steep slope 被形容成 site 的 drawback。D 更沒有支持；土地目前確實用於 farming，但錄音沒有說農業價值很低。"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. What are the TWO main reasons why this site has been chosen for the housing development?",
+          "groupQuestions": [
+            11,
+            12
+          ]
+        },
+        {
+          "id": "p2-q12",
+          "question": 12,
+          "start": 83.02,
+          "end": 124.08,
+          "endLine": 8,
+          "answer": "E",
+          "accepted": [
+            "E"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：many employees are having to commute long distances / there's a lot of demand for housing for employees in the region",
+          "evidence": [
+            {
+              "lineId": "p2-line-6",
+              "line": 6,
+              "quote": "many employees are having to commute long distances",
+              "revealAt": 96.04
+            },
+            {
+              "lineId": "p2-line-6",
+              "line": 6,
+              "quote": "there's a lot of demand for housing for employees in the region",
+              "revealAt": 96.04
+            },
+            {
+              "lineId": "p2-line-8",
+              "line": 8,
+              "quote": "We were more interested in the fact that there's an excellent hospital just 15 kilometres away, and a large secondary school even closer",
+              "revealAt": 124.08
+            }
+          ],
+          "distractors": [
+            {
+              "line": 7,
+              "quote": "it wasn't one of our major criteria",
+              "candidateAt": 111.98,
+              "rejectAt": 124.08,
+              "why": "中伏位：airport 只有 20 分鐘車程，看似很吸引，但 speaker 明確說： “it wasn’t one of our major criteria.” A 也不合，因為 steep slope 被形容成 site 的 drawback。D 更沒有支持；土地目前確實用於 farming，但錄音沒有說農業價值很低。"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. What are the TWO main reasons why this site has been chosen for the housing development?",
+          "groupQuestions": [
+            11,
+            12
+          ]
+        },
+        {
+          "id": "p2-q13",
+          "question": 13,
+          "start": 163.22,
+          "end": 197.24,
+          "endLine": 15,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：blended in well with the natural features of the landscape / the design and facilities",
+          "evidence": [
+            {
+              "lineId": "p2-line-13",
+              "line": 13,
+              "quote": "blended in well with the natural features of the landscape",
+              "revealAt": 177.52
+            },
+            {
+              "lineId": "p2-line-15",
+              "line": 15,
+              "quote": "the design and facilities",
+              "revealAt": 197.24
+            },
+            {
+              "lineId": "p2-line-15",
+              "line": 15,
+              "quote": "make it seem a place where people of all ages can live together happily",
+              "revealAt": 197.24
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. Which TWO aspects of the planned housing development have people given positive feedback about?",
+          "groupQuestions": [
+            13,
+            14
+          ]
+        },
+        {
+          "id": "p2-q14",
+          "question": 14,
+          "start": 163.22,
+          "end": 197.24,
+          "endLine": 15,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：blended in well with the natural features of the landscape / the design and facilities",
+          "evidence": [
+            {
+              "lineId": "p2-line-13",
+              "line": 13,
+              "quote": "blended in well with the natural features of the landscape",
+              "revealAt": 177.52
+            },
+            {
+              "lineId": "p2-line-15",
+              "line": 15,
+              "quote": "the design and facilities",
+              "revealAt": 197.24
+            },
+            {
+              "lineId": "p2-line-15",
+              "line": 15,
+              "quote": "make it seem a place where people of all ages can live together happily",
+              "revealAt": 197.24
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. Which TWO aspects of the planned housing development have people given positive feedback about?",
+          "groupQuestions": [
+            13,
+            14
+          ]
+        },
+        {
+          "id": "p2-q15",
+          "question": 15,
+          "start": 285.62,
+          "end": 300.34,
+          "endLine": 22,
+          "answer": "G",
+          "accepted": [
+            "G"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：there's a road from there that goes right up through the development / on that road, at the corner of the second turning to the left",
+          "evidence": [
+            {
+              "lineId": "p2-line-21",
+              "line": 21,
+              "quote": "there's a road from there that goes right up through the development",
+              "revealAt": 293.84
+            },
+            {
+              "lineId": "p2-line-22",
+              "line": 22,
+              "quote": "on that road, at the corner of the second turning to the left",
+              "revealAt": 300.34
+            }
+          ],
+          "distractors": [],
+          "questionText": "School"
+        },
+        {
+          "id": "p2-q16",
+          "question": 16,
+          "start": 309.56,
+          "end": 317.32,
+          "endLine": 24,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：on the western side of the development / just below the road that branches off from London Road",
+          "evidence": [
+            {
+              "lineId": "p2-line-24",
+              "line": 24,
+              "quote": "on the western side of the development",
+              "revealAt": 317.32
+            },
+            {
+              "lineId": "p2-line-24",
+              "line": 24,
+              "quote": "just below the road that branches off from London Road",
+              "revealAt": 317.32
+            }
+          ],
+          "distractors": [],
+          "questionText": "Sports centre"
+        },
+        {
+          "id": "p2-q17",
+          "question": 17,
+          "start": 324.66,
+          "end": 334.08,
+          "endLine": 27,
+          "answer": "D",
+          "accepted": [
+            "D"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：Can you see the lake towards the top of the map / The clinic will be just below this, to the right of a street of houses",
+          "evidence": [
+            {
+              "lineId": "p2-line-26",
+              "line": 26,
+              "quote": "Can you see the lake towards the top of the map",
+              "revealAt": 327.66
+            },
+            {
+              "lineId": "p2-line-27",
+              "line": 27,
+              "quote": "The clinic will be just below this, to the right of a street of houses",
+              "revealAt": 334.08
+            }
+          ],
+          "distractors": [],
+          "questionText": "Clinic"
+        },
+        {
+          "id": "p2-q18",
+          "question": 18,
+          "start": 340.44,
+          "end": 353.78,
+          "endLine": 29,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：On the northeast side / for residents over 65",
+          "evidence": [
+            {
+              "lineId": "p2-line-29",
+              "line": 29,
+              "quote": "On the northeast side",
+              "revealAt": 353.78
+            },
+            {
+              "lineId": "p2-line-29",
+              "line": 29,
+              "quote": "for residents over 65",
+              "revealAt": 353.78
+            },
+            {
+              "lineId": "p2-line-29",
+              "line": 29,
+              "quote": "the community centre will be adjoining this",
+              "revealAt": 353.78
+            },
+            {
+              "lineId": "p2-line-29",
+              "line": 29,
+              "quote": "there'll be a row of specially designed houses",
+              "revealAt": 353.78
+            }
+          ],
+          "distractors": [],
+          "questionText": "Community centre"
+        },
+        {
+          "id": "p2-q19",
+          "question": 19,
+          "start": 358.48,
+          "end": 371.36,
+          "endLine": 32,
+          "answer": "H",
+          "accepted": [
+            "H"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：There'll be a supermarket between the two entrances / three large trees near London Road",
+          "evidence": [
+            {
+              "lineId": "p2-line-31",
+              "line": 31,
+              "quote": "There'll be a supermarket between the two entrances",
+              "revealAt": 362.68
+            },
+            {
+              "lineId": "p2-line-32",
+              "line": 32,
+              "quote": "three large trees near London Road",
+              "revealAt": 371.36
+            },
+            {
+              "lineId": "p2-line-32",
+              "line": 32,
+              "quote": "it'll be just to the south of these",
+              "revealAt": 371.36
+            }
+          ],
+          "distractors": [],
+          "questionText": "Supermarket"
+        },
+        {
+          "id": "p2-q20",
+          "question": 20,
+          "start": 377.24,
+          "end": 391.44,
+          "endLine": 34,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：the road / goes up from the South Entrance",
+          "evidence": [
+            {
+              "lineId": "p2-line-34",
+              "line": 34,
+              "quote": "the road",
+              "revealAt": 391.44
+            },
+            {
+              "lineId": "p2-line-34",
+              "line": 34,
+              "quote": "goes up from the South Entrance",
+              "revealAt": 391.44
+            },
+            {
+              "lineId": "p2-line-34",
+              "line": 34,
+              "quote": "it curves round to the left at the top",
+              "revealAt": 391.44
+            },
+            {
+              "lineId": "p2-line-34",
+              "line": 34,
+              "quote": "will be in that curve, with nice views of the lake",
+              "revealAt": 391.44
+            }
+          ],
+          "distractors": [],
+          "questionText": "Playground"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "evidence"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "evidence"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "evidence"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "evidence"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "evidence"
+        },
+        {
+          "line": 22,
+          "role": "evidence"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "evidence"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "evidence"
+        },
+        {
+          "line": 27,
+          "role": "evidence"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "evidence"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "evidence"
+        },
+        {
+          "line": 32,
+          "role": "evidence"
+        },
+        {
+          "line": 33,
+          "role": "context"
+        },
+        {
+          "line": 34,
+          "role": "evidence"
+        },
+        {
+          "line": 35,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "The Laki eruption",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Choose the correct letter, A, B or C. · Choose TWO letters, A–E. Which TWO issues following the Laki eruption surprised · Choose FOUR answers from the box and write the correct letter, A–F, next to",
+      "audioSha256": "25b3ef5c68476b90f42504e009e8a836d2f44b2cd54f2db15b9e3716022373e0",
+      "transcriptSha256": "841cb1b2dfc942924397a8ae3a6aa8a617540e6293aee72c3594d035a5e1d9af",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2010%20Part%203.mp3",
+      "duration": 398.419625,
+      "cues": [
+        {
+          "id": "p3-q21",
+          "question": 21,
+          "start": 106.54,
+          "end": 120.54,
+          "endLine": 13,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：how it impacted directly and indirectly on political events, as well as having massive social and economic consequences / That should be the main focus of our presentation",
+          "evidence": [
+            {
+              "lineId": "p3-line-12",
+              "line": 12,
+              "quote": "how it impacted directly and indirectly on political events, as well as having massive social and economic consequences",
+              "revealAt": 116.56
+            },
+            {
+              "lineId": "p3-line-13",
+              "line": 13,
+              "quote": "That should be the main focus of our presentation",
+              "revealAt": 120.54
+            }
+          ],
+          "distractors": [],
+          "questionText": "Why do the students think the Laki eruption of 1783 is so important?"
+        },
+        {
+          "id": "p3-q22",
+          "question": 22,
+          "start": 125.84,
+          "end": 151.4,
+          "endLine": 17,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：often by the hour / I was surprised there were so many weather stations established by that time",
+          "evidence": [
+            {
+              "lineId": "p3-line-16",
+              "line": 16,
+              "quote": "often by the hour",
+              "revealAt": 143.54
+            },
+            {
+              "lineId": "p3-line-16",
+              "line": 16,
+              "quote": "I was surprised there were so many weather stations established by that time",
+              "revealAt": 143.54
+            }
+          ],
+          "distractors": [
+            {
+              "line": 15,
+              "quote": "pretty consistent",
+              "candidateAt": 133.62,
+              "rejectAt": 151.4,
+              "why": "中伏位：B 的 contradictions 與錄音相反，Michelle 明確說 accounts “pretty consistent”。C 也不合，因為 weather stations 正提供了相當具體的科學數據。"
+            }
+          ],
+          "questionText": "What surprised Adam about observations made at the time?"
+        },
+        {
+          "id": "p3-q23",
+          "question": 23,
+          "start": 164.46,
+          "end": 176.44,
+          "endLine": 21,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：blamed the haze for an increase in headaches, respiratory issues and asthma attacks",
+          "evidence": [
+            {
+              "lineId": "p3-line-20",
+              "line": 20,
+              "quote": "blamed the haze for an increase in headaches, respiratory issues and asthma attacks",
+              "revealAt": 171.04
+            }
+          ],
+          "distractors": [
+            {
+              "line": 21,
+              "quote": "covered the sun and made it look a strange red colour",
+              "candidateAt": 176.44,
+              "rejectAt": 176.44,
+              "why": "中伏位：A 方向相反，因為人們知道這種 haze 與普通 fog 不同。C 也說得過頭；錄音只說 haze “covered the sun and made it look a strange red colour”，沒有說太陽完全消失數星期。"
+            }
+          ],
+          "questionText": "According to Michelle, what did the contemporary sources say about the Laki haze?"
+        },
+        {
+          "id": "p3-q24",
+          "question": 24,
+          "start": 194.68,
+          "end": 206.12,
+          "endLine": 29,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：It was Benjamin Franklin who realised that before anyone else / He's often credited with that",
+          "evidence": [
+            {
+              "lineId": "p3-line-27",
+              "line": 27,
+              "quote": "It was Benjamin Franklin who realised that before anyone else",
+              "revealAt": 199.06
+            },
+            {
+              "lineId": "p3-line-28",
+              "line": 28,
+              "quote": "He's often credited with that",
+              "revealAt": 201.6
+            },
+            {
+              "lineId": "p3-line-29",
+              "line": 29,
+              "quote": "But a French naturalist beat him to it",
+              "revealAt": 206.12
+            }
+          ],
+          "distractors": [],
+          "questionText": "Adam corrects Michelle when she claims that Benjamin Franklin"
+        },
+        {
+          "id": "p3-q25",
+          "question": 25,
+          "start": 225.06,
+          "end": 255.38,
+          "endLine": 36,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：but not that the effects would go on for so long / two years after the eruption, strange weather events were being reported as far away as North America and North Africa",
+          "evidence": [
+            {
+              "lineId": "p3-line-33",
+              "line": 33,
+              "quote": "but not that the effects would go on for so long",
+              "revealAt": 234.02
+            },
+            {
+              "lineId": "p3-line-34",
+              "line": 34,
+              "quote": "two years after the eruption, strange weather events were being reported as far away as North America and North Africa",
+              "revealAt": 241.72
+            },
+            {
+              "lineId": "p3-line-35",
+              "line": 35,
+              "quote": "I found all that hard to believe too",
+              "revealAt": 245.9
+            }
+          ],
+          "distractors": [
+            {
+              "line": 33,
+              "quote": "You'd expect that",
+              "candidateAt": 234.02,
+              "rejectAt": 255.38,
+              "why": "中伏位 C — the number of deaths it caused 有提到，但 Adam 對 Iceland 的大量死亡說： “You'd expect that” 也就是說，死亡嚴重這件事在他看來是可以預料的，沒有構成題目所問的 surprise。 D — the speed at which the volcanic ash cloud spread 更值得注意。Adam 說： “the fact that the volcanic ash drifted so swiftly” 但這句和前面的 “You'd expect that” 連在一起。換句話說，ash cloud 傳播很快也是他預期之中的事，所以 D 不能選。 E — how people ignored the warning signs 沒有得到錄音支持。錄音說即使人們知道 ash cloud 正朝他們而來： “there was nothing anyone could do about it.” 這描述的是人們無力阻止災害，並沒有說他們忽視警告。 最終答案 25. A — how widespread the effects were 26. B — how long-lasting the effects were"
+            },
+            {
+              "line": 33,
+              "quote": "the fact that the volcanic ash drifted so swiftly",
+              "candidateAt": 234.02,
+              "rejectAt": 255.38,
+              "why": "中伏位 C — the number of deaths it caused 有提到，但 Adam 對 Iceland 的大量死亡說： “You'd expect that” 也就是說，死亡嚴重這件事在他看來是可以預料的，沒有構成題目所問的 surprise。 D — the speed at which the volcanic ash cloud spread 更值得注意。Adam 說： “the fact that the volcanic ash drifted so swiftly” 但這句和前面的 “You'd expect that” 連在一起。換句話說，ash cloud 傳播很快也是他預期之中的事，所以 D 不能選。 E — how people ignored the warning signs 沒有得到錄音支持。錄音說即使人們知道 ash cloud 正朝他們而來： “there was nothing anyone could do about it.” 這描述的是人們無力阻止災害，並沒有說他們忽視警告。 最終答案 25. A — how widespread the effects were 26. B — how long-lasting the effects were"
+            },
+            {
+              "line": 36,
+              "quote": "there was nothing anyone could do about it",
+              "candidateAt": 255.38,
+              "rejectAt": 255.38,
+              "why": "中伏位 C — the number of deaths it caused 有提到，但 Adam 對 Iceland 的大量死亡說： “You'd expect that” 也就是說，死亡嚴重這件事在他看來是可以預料的，沒有構成題目所問的 surprise。 D — the speed at which the volcanic ash cloud spread 更值得注意。Adam 說： “the fact that the volcanic ash drifted so swiftly” 但這句和前面的 “You'd expect that” 連在一起。換句話說，ash cloud 傳播很快也是他預期之中的事，所以 D 不能選。 E — how people ignored the warning signs 沒有得到錄音支持。錄音說即使人們知道 ash cloud 正朝他們而來： “there was nothing anyone could do about it.” 這描述的是人們無力阻止災害，並沒有說他們忽視警告。 最終答案 25. A — how widespread the effects were 26. B — how long-lasting the effects were"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. Which TWO issues following the Laki eruption surprised the students?",
+          "groupQuestions": [
+            25,
+            26
+          ]
+        },
+        {
+          "id": "p3-q26",
+          "question": 26,
+          "start": 225.06,
+          "end": 255.38,
+          "endLine": 36,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：but not that the effects would go on for so long / two years after the eruption, strange weather events were being reported as far away as North America and North Africa",
+          "evidence": [
+            {
+              "lineId": "p3-line-33",
+              "line": 33,
+              "quote": "but not that the effects would go on for so long",
+              "revealAt": 234.02
+            },
+            {
+              "lineId": "p3-line-34",
+              "line": 34,
+              "quote": "two years after the eruption, strange weather events were being reported as far away as North America and North Africa",
+              "revealAt": 241.72
+            },
+            {
+              "lineId": "p3-line-35",
+              "line": 35,
+              "quote": "I found all that hard to believe too",
+              "revealAt": 245.9
+            }
+          ],
+          "distractors": [
+            {
+              "line": 33,
+              "quote": "You'd expect that",
+              "candidateAt": 234.02,
+              "rejectAt": 255.38,
+              "why": "中伏位 C — the number of deaths it caused 有提到，但 Adam 對 Iceland 的大量死亡說： “You'd expect that” 也就是說，死亡嚴重這件事在他看來是可以預料的，沒有構成題目所問的 surprise。 D — the speed at which the volcanic ash cloud spread 更值得注意。Adam 說： “the fact that the volcanic ash drifted so swiftly” 但這句和前面的 “You'd expect that” 連在一起。換句話說，ash cloud 傳播很快也是他預期之中的事，所以 D 不能選。 E — how people ignored the warning signs 沒有得到錄音支持。錄音說即使人們知道 ash cloud 正朝他們而來： “there was nothing anyone could do about it.” 這描述的是人們無力阻止災害，並沒有說他們忽視警告。 最終答案 25. A — how widespread the effects were 26. B — how long-lasting the effects were"
+            },
+            {
+              "line": 33,
+              "quote": "the fact that the volcanic ash drifted so swiftly",
+              "candidateAt": 234.02,
+              "rejectAt": 255.38,
+              "why": "中伏位 C — the number of deaths it caused 有提到，但 Adam 對 Iceland 的大量死亡說： “You'd expect that” 也就是說，死亡嚴重這件事在他看來是可以預料的，沒有構成題目所問的 surprise。 D — the speed at which the volcanic ash cloud spread 更值得注意。Adam 說： “the fact that the volcanic ash drifted so swiftly” 但這句和前面的 “You'd expect that” 連在一起。換句話說，ash cloud 傳播很快也是他預期之中的事，所以 D 不能選。 E — how people ignored the warning signs 沒有得到錄音支持。錄音說即使人們知道 ash cloud 正朝他們而來： “there was nothing anyone could do about it.” 這描述的是人們無力阻止災害，並沒有說他們忽視警告。 最終答案 25. A — how widespread the effects were 26. B — how long-lasting the effects were"
+            },
+            {
+              "line": 36,
+              "quote": "there was nothing anyone could do about it",
+              "candidateAt": 255.38,
+              "rejectAt": 255.38,
+              "why": "中伏位 C — the number of deaths it caused 有提到，但 Adam 對 Iceland 的大量死亡說： “You'd expect that” 也就是說，死亡嚴重這件事在他看來是可以預料的，沒有構成題目所問的 surprise。 D — the speed at which the volcanic ash cloud spread 更值得注意。Adam 說： “the fact that the volcanic ash drifted so swiftly” 但這句和前面的 “You'd expect that” 連在一起。換句話說，ash cloud 傳播很快也是他預期之中的事，所以 D 不能選。 E — how people ignored the warning signs 沒有得到錄音支持。錄音說即使人們知道 ash cloud 正朝他們而來： “there was nothing anyone could do about it.” 這描述的是人們無力阻止災害，並沒有說他們忽視警告。 最終答案 25. A — how widespread the effects were 26. B — how long-lasting the effects were"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. Which TWO issues following the Laki eruption surprised the students?",
+          "groupQuestions": [
+            25,
+            26
+          ]
+        },
+        {
+          "id": "p3-q27",
+          "question": 27,
+          "start": 313.02,
+          "end": 320.04,
+          "endLine": 41,
+          "answer": "D",
+          "accepted": [
+            "D"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：were poisoned because they ate vegetation that had been contaminated with fluorine",
+          "evidence": [
+            {
+              "lineId": "p3-line-41",
+              "line": 41,
+              "quote": "were poisoned because they ate vegetation that had been contaminated with fluorine",
+              "revealAt": 320.04
+            }
+          ],
+          "distractors": [],
+          "questionText": "Iceland"
+        },
+        {
+          "id": "p3-q28",
+          "question": 28,
+          "start": 332.26,
+          "end": 339.98,
+          "endLine": 44,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：the famine there led to more people dying than any other country",
+          "evidence": [
+            {
+              "lineId": "p3-line-44",
+              "line": 44,
+              "quote": "the famine there led to more people dying than any other country",
+              "revealAt": 339.98
+            }
+          ],
+          "distractors": [],
+          "questionText": "Egypt"
+        },
+        {
+          "id": "p3-q29",
+          "question": 29,
+          "start": 342.88,
+          "end": 359.16,
+          "endLine": 47,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：went up a lot / about double the usual number",
+          "evidence": [
+            {
+              "lineId": "p3-line-46",
+              "line": 46,
+              "quote": "went up a lot",
+              "revealAt": 349.78
+            },
+            {
+              "lineId": "p3-line-47",
+              "line": 47,
+              "quote": "about double the usual number",
+              "revealAt": 359.16
+            },
+            {
+              "lineId": "p3-line-47",
+              "line": 47,
+              "quote": "an unusually high percentage of people under the age of 25",
+              "revealAt": 359.16
+            }
+          ],
+          "distractors": [],
+          "questionText": "UK"
+        },
+        {
+          "id": "p3-q30",
+          "question": 30,
+          "start": 367.76,
+          "end": 382.18,
+          "endLine": 51,
+          "answer": "F",
+          "accepted": [
+            "F"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：they were snowbound until March / there was ice floating down the Mississippi, which was unprecedented",
+          "evidence": [
+            {
+              "lineId": "p3-line-49",
+              "line": 49,
+              "quote": "they were snowbound until March",
+              "revealAt": 374.34
+            },
+            {
+              "lineId": "p3-line-51",
+              "line": 51,
+              "quote": "there was ice floating down the Mississippi, which was unprecedented",
+              "revealAt": 382.18
+            }
+          ],
+          "distractors": [],
+          "questionText": "USA"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "evidence"
+        },
+        {
+          "line": 13,
+          "role": "evidence"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "evidence"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "evidence"
+        },
+        {
+          "line": 21,
+          "role": "context"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "evidence"
+        },
+        {
+          "line": 28,
+          "role": "evidence"
+        },
+        {
+          "line": 29,
+          "role": "evidence"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "context"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        },
+        {
+          "line": 33,
+          "role": "evidence"
+        },
+        {
+          "line": 34,
+          "role": "evidence"
+        },
+        {
+          "line": 35,
+          "role": "evidence"
+        },
+        {
+          "line": 36,
+          "role": "context"
+        },
+        {
+          "line": 37,
+          "role": "context"
+        },
+        {
+          "line": 38,
+          "role": "context"
+        },
+        {
+          "line": 39,
+          "role": "context"
+        },
+        {
+          "line": 40,
+          "role": "context"
+        },
+        {
+          "line": 41,
+          "role": "evidence"
+        },
+        {
+          "line": 42,
+          "role": "context"
+        },
+        {
+          "line": 43,
+          "role": "context"
+        },
+        {
+          "line": 44,
+          "role": "evidence"
+        },
+        {
+          "line": 45,
+          "role": "context"
+        },
+        {
+          "line": 46,
+          "role": "evidence"
+        },
+        {
+          "line": 47,
+          "role": "evidence"
+        },
+        {
+          "line": 48,
+          "role": "context"
+        },
+        {
+          "line": 49,
+          "role": "evidence"
+        },
+        {
+          "line": 50,
+          "role": "context"
+        },
+        {
+          "line": 51,
+          "role": "evidence"
+        },
+        {
+          "line": 52,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Pockets",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Write ONE WORD ONLY for each answer.",
+      "audioSha256": "962b776f791b737b0feb0358422d2dc0ae01d82807c16fdcd4869c2383a75aea",
+      "transcriptSha256": "d4439d459c4400c6aa61e19383a11a1587ca42e174c025a0b637967cc95cf547",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2010%20Part%204.mp3",
+      "duration": 351.2163125,
+      "cues": [
+        {
+          "id": "p4-q31",
+          "question": 31,
+          "start": 90.66,
+          "end": 106.3,
+          "endLine": 4,
+          "answer": "convenient",
+          "accepted": [
+            "convenient"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：nothing is quite as convenient as being able to pop your phone or credit card into your pocket",
+          "evidence": [
+            {
+              "lineId": "p4-line-4",
+              "line": 4,
+              "quote": "nothing is quite as convenient as being able to pop your phone or credit card into your pocket",
+              "revealAt": 106.3
+            }
+          ],
+          "distractors": [],
+          "questionText": "● They are 31 __________ but can be overlooked by consumers and"
+        },
+        {
+          "id": "p4-q32",
+          "question": 32,
+          "start": 124.26,
+          "end": 138.96,
+          "endLine": 8,
+          "answer": "suits",
+          "accepted": [
+            "suits"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：If we think about male fashion first … that was the time when suits became popular.",
+          "evidence": [
+            {
+              "lineId": "p4-line-8",
+              "line": 8,
+              "quote": "If we think about male fashion first … that was the time when suits became popular.",
+              "revealAt": 138.96
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Men started to wear 32 __________ in the 18th century."
+        },
+        {
+          "id": "p4-q33",
+          "question": 33,
+          "start": 140.06,
+          "end": 158.22,
+          "endLine": 9,
+          "answer": "tailor",
+          "accepted": [
+            "tailor"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：pockets were sewn into this cloth by whichever tailor the customer used",
+          "evidence": [
+            {
+              "lineId": "p4-line-9",
+              "line": 9,
+              "quote": "pockets were sewn into this cloth by whichever tailor the customer used",
+              "revealAt": 158.22
+            }
+          ],
+          "distractors": [],
+          "questionText": "● A 33 __________ sewed pockets into the lining of the garments."
+        },
+        {
+          "id": "p4-q34",
+          "question": 34,
+          "start": 176.46,
+          "end": 187.5,
+          "endLine": 12,
+          "answer": "profession",
+          "accepted": [
+            "profession"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：larger but plainer / someone with a profession who needed to carry medical instruments",
+          "evidence": [
+            {
+              "lineId": "p4-line-12",
+              "line": 12,
+              "quote": "larger but plainer",
+              "revealAt": 187.5
+            },
+            {
+              "lineId": "p4-line-12",
+              "line": 12,
+              "quote": "someone with a profession who needed to carry medical instruments",
+              "revealAt": 187.5
+            }
+          ],
+          "distractors": [],
+          "questionText": "34 __________."
+        },
+        {
+          "id": "p4-q35",
+          "question": 35,
+          "start": 198.04,
+          "end": 203.1,
+          "endLine": 14,
+          "answer": "visible",
+          "accepted": [
+            "visible"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：they weren't nearly as visible or as easy to reach as men's",
+          "evidence": [
+            {
+              "lineId": "p4-line-14",
+              "line": 14,
+              "quote": "they weren't nearly as visible or as easy to reach as men's",
+              "revealAt": 203.1
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Women’s pockets were less 35 __________ than men’s."
+        },
+        {
+          "id": "p4-q36",
+          "question": 36,
+          "start": 223.42,
+          "end": 229.32,
+          "endLine": 17,
+          "answer": "string",
+          "accepted": [
+            "string",
+            "strings"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：So – what they did was to have a pair of pockets made that were tied together with string.",
+          "evidence": [
+            {
+              "lineId": "p4-line-17",
+              "line": 17,
+              "quote": "So – what they did was to have a pair of pockets made that were tied together with string.",
+              "revealAt": 229.32
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Pockets were produced in pairs using 36 __________ to link them"
+        },
+        {
+          "id": "p4-q37",
+          "question": 37,
+          "start": 244.28,
+          "end": 249.34,
+          "endLine": 19,
+          "answer": "waist",
+          "accepted": [
+            "waist",
+            "waists"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：Women tied the pockets around their waist so that they hung beneath their clothes",
+          "evidence": [
+            {
+              "lineId": "p4-line-19",
+              "line": 19,
+              "quote": "Women tied the pockets around their waist so that they hung beneath their clothes",
+              "revealAt": 249.34
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Pockets hung from the women’s 37 __________ under skirts and"
+        },
+        {
+          "id": "p4-q38",
+          "question": 38,
+          "start": 261.14,
+          "end": 268.44,
+          "endLine": 21,
+          "answer": "perfume",
+          "accepted": [
+            "perfume"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：opening in the folds of their skirts / through which they could reach whatever they needed, like their perfume",
+          "evidence": [
+            {
+              "lineId": "p4-line-21",
+              "line": 21,
+              "quote": "opening in the folds of their skirts",
+              "revealAt": 268.44
+            },
+            {
+              "lineId": "p4-line-21",
+              "line": 21,
+              "quote": "through which they could reach whatever they needed, like their perfume",
+              "revealAt": 268.44
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Items such as 38 __________ could be reached through a gap in the"
+        },
+        {
+          "id": "p4-q39",
+          "question": 39,
+          "start": 301.52,
+          "end": 312.7,
+          "endLine": 25,
+          "answer": "image",
+          "accepted": [
+            "image"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：detracted from the woman's image / dresses became tighter and less bulky",
+          "evidence": [
+            {
+              "lineId": "p4-line-25",
+              "line": 25,
+              "quote": "detracted from the woman's image",
+              "revealAt": 312.7
+            },
+            {
+              "lineId": "p4-line-25",
+              "line": 25,
+              "quote": "dresses became tighter and less bulky",
+              "revealAt": 312.7
+            },
+            {
+              "lineId": "p4-line-25",
+              "line": 25,
+              "quote": "became very noticeable – they stood out too much",
+              "revealAt": 312.7
+            }
+          ],
+          "distractors": [],
+          "questionText": "39 __________ of women."
+        },
+        {
+          "id": "p4-q40",
+          "question": 40,
+          "start": 324.92,
+          "end": 340.64,
+          "endLine": 27,
+          "answer": "handbag",
+          "accepted": [
+            "handbag"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：they inevitably led on to the handbag of more modern times / small bags, or pouches as they were known, came into fashion",
+          "evidence": [
+            {
+              "lineId": "p4-line-27",
+              "line": 27,
+              "quote": "they inevitably led on to the handbag of more modern times",
+              "revealAt": 340.64
+            },
+            {
+              "lineId": "p4-line-27",
+              "line": 27,
+              "quote": "small bags, or pouches as they were known, came into fashion",
+              "revealAt": 340.64
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Bags called “pouches” became popular, before women carried a 40 __________."
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "noise"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "evidence"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "evidence"
+        },
+        {
+          "line": 9,
+          "role": "evidence"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "evidence"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "evidence"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "evidence"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "evidence"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "evidence"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "evidence"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "evidence"
+        }
+      ]
+    }
+  ]
+}

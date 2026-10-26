@@ -1,0 +1,2072 @@
+{
+  "version": "2026-10-26.1",
+  "practice": 16,
+  "sourceSha256": "7077374a9ffcd0cbdf29fef3f57322849be641da151bc9d39067e64637086daf",
+  "timingBasis": "Existing recording-aligned transcript timestamps; explanation quotations matched to exact source spans, with explicit editorial endpoint reviews.",
+  "parts": [
+    {
+      "part": 1,
+      "title": "Children’s Engineering Workshops",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Write ONE WORD AND/OR A NUMBER for each answer.",
+      "audioSha256": "78c7d6efc59059af566be729fad37c061e8a18407debacd0480e1a3fac0f32a5",
+      "transcriptSha256": "7be4066383d9fe61deb0c8fc576a852044c00f3537399f0e473293a57b45f712",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2016%20Part%201.mp3",
+      "duration": 340.9763125,
+      "cues": [
+        {
+          "id": "p1-q1",
+          "question": 1,
+          "start": 61.28,
+          "end": 73.24,
+          "endLine": 7,
+          "answer": "egg",
+          "accepted": [
+            "egg"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：drop it from a height and it doesn’t break / design a special cover that goes round an egg",
+          "evidence": [
+            {
+              "lineId": "p1-line-7",
+              "line": 7,
+              "quote": "drop it from a height and it doesn’t break",
+              "revealAt": 73.24
+            },
+            {
+              "lineId": "p1-line-7",
+              "line": 7,
+              "quote": "design a special cover that goes round an egg",
+              "revealAt": 73.24
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Create a cover for an 1 __________ so they can drop it from a height"
+        },
+        {
+          "id": "p1-q2",
+          "question": 2,
+          "start": 84.98,
+          "end": 89.24,
+          "endLine": 11,
+          "answer": "tower",
+          "accepted": [
+            "tower"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：they have a competition to see who can make the highest tower",
+          "evidence": [
+            {
+              "lineId": "p1-line-11",
+              "line": 11,
+              "quote": "they have a competition to see who can make the highest tower",
+              "revealAt": 89.24
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Take part in a competition to build the tallest 2 __________."
+        },
+        {
+          "id": "p1-q3",
+          "question": 3,
+          "start": 97.38,
+          "end": 109.34,
+          "endLine": 15,
+          "answer": "car",
+          "accepted": [
+            "car"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：powers the car and makes it move along / design and build a car that’s attached to a balloon",
+          "evidence": [
+            {
+              "lineId": "p1-line-15",
+              "line": 15,
+              "quote": "powers the car and makes it move along",
+              "revealAt": 109.34
+            },
+            {
+              "lineId": "p1-line-15",
+              "line": 15,
+              "quote": "design and build a car that’s attached to a balloon",
+              "revealAt": 109.34
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Make a 3 __________ powered by a balloon."
+        },
+        {
+          "id": "p1-q4",
+          "question": 4,
+          "start": 183.9,
+          "end": 201.28,
+          "endLine": 23,
+          "answer": "animals",
+          "accepted": [
+            "animals"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：cars and trucks / construct animals using the same sorts of material and technique",
+          "evidence": [
+            {
+              "lineId": "p1-line-23",
+              "line": 23,
+              "quote": "cars and trucks",
+              "revealAt": 201.28
+            },
+            {
+              "lineId": "p1-line-23",
+              "line": 23,
+              "quote": "construct animals using the same sorts of material and technique",
+              "revealAt": 201.28
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Build model cars, trucks and 4 __________ and learn how to program"
+        },
+        {
+          "id": "p1-q5",
+          "question": 5,
+          "start": 215.6,
+          "end": 226.32,
+          "endLine": 28,
+          "answer": "bridge",
+          "accepted": [
+            "bridge"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：use recycled materials like card and wood to build a bridge, and the longest one gets a prize",
+          "evidence": [
+            {
+              "lineId": "p1-line-28",
+              "line": 28,
+              "quote": "use recycled materials like card and wood to build a bridge, and the longest one gets a prize",
+              "revealAt": 226.32
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Take part in a competition to build the longest 5 __________ using"
+        },
+        {
+          "id": "p1-q6",
+          "question": 6,
+          "start": 230.26,
+          "end": 240.52,
+          "endLine": 30,
+          "answer": "movie",
+          "accepted": [
+            "movie",
+            "film"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：think up an idea for a five-minute movie and then film it, using special animation software",
+          "evidence": [
+            {
+              "lineId": "p1-line-30",
+              "line": 30,
+              "quote": "think up an idea for a five-minute movie and then film it, using special animation software",
+              "revealAt": 240.52
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Create a short 6 __________ with special software."
+        },
+        {
+          "id": "p1-q7",
+          "question": 7,
+          "start": 249.44,
+          "end": 259.86,
+          "endLine": 33,
+          "answer": "decorate",
+          "accepted": [
+            "decorate"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：they also build a robot in the shape of a human, and they decorate it and program it",
+          "evidence": [
+            {
+              "lineId": "p1-line-33",
+              "line": 33,
+              "quote": "they also build a robot in the shape of a human, and they decorate it and program it",
+              "revealAt": 259.86
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Build, 7 __________ and program a humanoid robot."
+        },
+        {
+          "id": "p1-q8",
+          "question": 8,
+          "start": 269.32,
+          "end": 280.86,
+          "endLine": 37,
+          "answer": "Wednesdays",
+          "accepted": [
+            "Wednesdays"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：are the classes on a Monday, too / They used to be, but",
+          "evidence": [
+            {
+              "lineId": "p1-line-36",
+              "line": 36,
+              "quote": "are the classes on a Monday, too",
+              "revealAt": 271.34
+            },
+            {
+              "lineId": "p1-line-37",
+              "line": 37,
+              "quote": "They used to be, but",
+              "revealAt": 280.86
+            },
+            {
+              "lineId": "p1-line-37",
+              "line": 37,
+              "quote": "we moved them to Wednesdays",
+              "revealAt": 280.86
+            }
+          ],
+          "distractors": [],
+          "questionText": "Held on: 8 __________ from 10 a.m. to 11 a.m."
+        },
+        {
+          "id": "p1-q9",
+          "question": 9,
+          "start": 293.36,
+          "end": 312.74,
+          "endLine": 43,
+          "answer": "Fradstone",
+          "accepted": [
+            "Fradstone"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：that’s in Fradstone Industrial Estate / F-R-A-D-S-T-O-N-E",
+          "evidence": [
+            {
+              "lineId": "p1-line-41",
+              "line": 41,
+              "quote": "that’s in Fradstone Industrial Estate",
+              "revealAt": 301.08
+            },
+            {
+              "lineId": "p1-line-43",
+              "line": 43,
+              "quote": "F-R-A-D-S-T-O-N-E",
+              "revealAt": 312.74
+            }
+          ],
+          "distractors": [],
+          "questionText": "Building 10A, 9 __________ Industrial Estate, Grasford"
+        },
+        {
+          "id": "p1-q10",
+          "question": 10,
+          "start": 318.46,
+          "end": 323.3,
+          "endLine": 47,
+          "answer": "parking",
+          "accepted": [
+            "parking"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：will I have any parking problems there / No, there’s always plenty available",
+          "evidence": [
+            {
+              "lineId": "p1-line-46",
+              "line": 46,
+              "quote": "will I have any parking problems there",
+              "revealAt": 320.8
+            },
+            {
+              "lineId": "p1-line-47",
+              "line": 47,
+              "quote": "No, there’s always plenty available",
+              "revealAt": 323.3
+            }
+          ],
+          "distractors": [],
+          "questionText": "Plenty of 10 __________ is available."
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "evidence"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "evidence"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "evidence"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "context"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "evidence"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "context"
+        },
+        {
+          "line": 28,
+          "role": "evidence"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "evidence"
+        },
+        {
+          "line": 31,
+          "role": "context"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        },
+        {
+          "line": 33,
+          "role": "evidence"
+        },
+        {
+          "line": 34,
+          "role": "context"
+        },
+        {
+          "line": 35,
+          "role": "context"
+        },
+        {
+          "line": 36,
+          "role": "evidence"
+        },
+        {
+          "line": 37,
+          "role": "evidence"
+        },
+        {
+          "line": 38,
+          "role": "context"
+        },
+        {
+          "line": 39,
+          "role": "context"
+        },
+        {
+          "line": 40,
+          "role": "context"
+        },
+        {
+          "line": 41,
+          "role": "evidence"
+        },
+        {
+          "line": 42,
+          "role": "context"
+        },
+        {
+          "line": 43,
+          "role": "evidence"
+        },
+        {
+          "line": 44,
+          "role": "context"
+        },
+        {
+          "line": 45,
+          "role": "context"
+        },
+        {
+          "line": 46,
+          "role": "evidence"
+        },
+        {
+          "line": 47,
+          "role": "evidence"
+        },
+        {
+          "line": 48,
+          "role": "context"
+        },
+        {
+          "line": 49,
+          "role": "context"
+        },
+        {
+          "line": 50,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Work experience at Stevenson’s",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Choose the correct letter, A, B or C. · Write the correct letter, A–J, next to Questions 15–20.",
+      "audioSha256": "8836f835b251a8259a598d9dcefcf4cf9f42393a7bd74c6ae3ac985b3405b92c",
+      "transcriptSha256": "9536cfc6f1aeec35ae0862eb7f82aedf86c3af1a1b6780c7f67304869fb5a29a",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2016%20Part%202.mp3",
+      "duration": 387.3436875,
+      "cues": [
+        {
+          "id": "p2-q11",
+          "question": 11,
+          "start": 81.58,
+          "end": 92.02,
+          "endLine": 5,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：He set up this company when he finished his apprenticeship",
+          "evidence": [
+            {
+              "lineId": "p2-line-5",
+              "line": 5,
+              "quote": "He set up this company when he finished his apprenticeship",
+              "revealAt": 92.02
+            }
+          ],
+          "distractors": [],
+          "questionText": "Stevenson’s was founded in"
+        },
+        {
+          "id": "p2-q12",
+          "question": 12,
+          "start": 96.8,
+          "end": 127.94,
+          "endLine": 8,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：that never came about / that’s what we did for the first five years",
+          "evidence": [
+            {
+              "lineId": "p2-line-7",
+              "line": 7,
+              "quote": "that never came about",
+              "revealAt": 109.0
+            },
+            {
+              "lineId": "p2-line-8",
+              "line": 8,
+              "quote": "that’s what we did for the first five years",
+              "revealAt": 127.94
+            },
+            {
+              "lineId": "p2-line-8",
+              "line": 8,
+              "quote": "there was a delay of five years before that happened",
+              "revealAt": 127.94
+            },
+            {
+              "lineId": "p2-line-8",
+              "line": 8,
+              "quote": "to make goods for hospitals and other players in the healthcare industry",
+              "revealAt": 127.94
+            }
+          ],
+          "distractors": [],
+          "questionText": "Originally, Stevenson’s manufactured goods for"
+        },
+        {
+          "id": "p2-q13",
+          "question": 13,
+          "start": 129.2,
+          "end": 152.2,
+          "endLine": 10,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：the site is big enough, so moving to a new location has never been necessary / carry out major refurbishment of this site over the next five years",
+          "evidence": [
+            {
+              "lineId": "p2-line-9",
+              "line": 9,
+              "quote": "the site is big enough, so moving to a new location has never been necessary",
+              "revealAt": 139.88
+            },
+            {
+              "lineId": "p2-line-10",
+              "line": 10,
+              "quote": "carry out major refurbishment of this site over the next five years",
+              "revealAt": 152.2
+            }
+          ],
+          "distractors": [],
+          "questionText": "What does the speaker say about the company premises?"
+        },
+        {
+          "id": "p2-q14",
+          "question": 14,
+          "start": 161.62,
+          "end": 171.64,
+          "endLine": 12,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：Most mornings you’ll have a presentation from one of the managers, to learn about their department",
+          "evidence": [
+            {
+              "lineId": "p2-line-12",
+              "line": 12,
+              "quote": "Most mornings you’ll have a presentation from one of the managers, to learn about their department",
+              "revealAt": 171.64
+            }
+          ],
+          "distractors": [],
+          "questionText": "The programme for the work experience group includes"
+        },
+        {
+          "id": "p2-q15",
+          "question": 15,
+          "start": 247.3,
+          "end": 271.82,
+          "endLine": 18,
+          "answer": "H",
+          "accepted": [
+            "H"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：As you can see, we’re in the reception area / There’s a corridor running left from here",
+          "evidence": [
+            {
+              "lineId": "p2-line-16",
+              "line": 16,
+              "quote": "As you can see, we’re in the reception area",
+              "revealAt": 253.74
+            },
+            {
+              "lineId": "p2-line-17",
+              "line": 17,
+              "quote": "There’s a corridor running left from here",
+              "revealAt": 263.5
+            },
+            {
+              "lineId": "p2-line-17",
+              "line": 17,
+              "quote": "the door facing you at the end is the entrance to the coffee room",
+              "revealAt": 263.5
+            },
+            {
+              "lineId": "p2-line-18",
+              "line": 18,
+              "quote": "This looks out onto the main road on one side, and some trees on the other",
+              "revealAt": 271.82
+            }
+          ],
+          "distractors": [],
+          "questionText": "coffee room"
+        },
+        {
+          "id": "p2-q16",
+          "question": 16,
+          "start": 272.74,
+          "end": 292.64,
+          "endLine": 21,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：The factory is the very big room on the far side of the site / Next to it is the warehouse",
+          "evidence": [
+            {
+              "lineId": "p2-line-19",
+              "line": 19,
+              "quote": "The factory is the very big room on the far side of the site",
+              "revealAt": 277.54
+            },
+            {
+              "lineId": "p2-line-20",
+              "line": 20,
+              "quote": "Next to it is the warehouse",
+              "revealAt": 285.24
+            },
+            {
+              "lineId": "p2-line-20",
+              "line": 20,
+              "quote": "which can be accessed by lorries going up the road to the turning area at the end",
+              "revealAt": 285.24
+            },
+            {
+              "lineId": "p2-line-21",
+              "line": 21,
+              "quote": "You can get to the warehouse by crossing to the far side of the courtyard, and then the door is on your right",
+              "revealAt": 292.64
+            }
+          ],
+          "distractors": [],
+          "questionText": "warehouse"
+        },
+        {
+          "id": "p2-q17",
+          "question": 17,
+          "start": 297.9,
+          "end": 316.38,
+          "endLine": 25,
+          "answer": "G",
+          "accepted": [
+            "G"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：This is right next to reception / and on the other onto the access road",
+          "evidence": [
+            {
+              "lineId": "p2-line-23",
+              "line": 23,
+              "quote": "This is right next to reception",
+              "revealAt": 299.6
+            },
+            {
+              "lineId": "p2-line-25",
+              "line": 25,
+              "quote": "and on the other onto the access road",
+              "revealAt": 316.38
+            },
+            {
+              "lineId": "p2-line-25",
+              "line": 25,
+              "quote": "The windows on one side look onto a corridor and courtyard",
+              "revealAt": 316.38
+            }
+          ],
+          "distractors": [],
+          "questionText": "staff canteen"
+        },
+        {
+          "id": "p2-q18",
+          "question": 18,
+          "start": 317.7,
+          "end": 337.06,
+          "endLine": 27,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：you’ll find it by walking along the corridor to the left of the courtyard, and continuing along it to the end / there’s no natural daylight in the room",
+          "evidence": [
+            {
+              "lineId": "p2-line-26",
+              "line": 26,
+              "quote": "you’ll find it by walking along the corridor to the left of the courtyard, and continuing along it to the end",
+              "revealAt": 329.26
+            },
+            {
+              "lineId": "p2-line-27",
+              "line": 27,
+              "quote": "there’s no natural daylight in the room",
+              "revealAt": 337.06
+            },
+            {
+              "lineId": "p2-line-27",
+              "line": 27,
+              "quote": "The meeting room is the last one on the right",
+              "revealAt": 337.06
+            }
+          ],
+          "distractors": [],
+          "questionText": "meeting room"
+        },
+        {
+          "id": "p2-q19",
+          "question": 19,
+          "start": 342.16,
+          "end": 355.08,
+          "endLine": 30,
+          "answer": "I",
+          "accepted": [
+            "I"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：The human resources department is at the front of this building / head to the left along the corridor from reception, and it’s the second room you come to",
+          "evidence": [
+            {
+              "lineId": "p2-line-29",
+              "line": 29,
+              "quote": "The human resources department is at the front of this building",
+              "revealAt": 352.58
+            },
+            {
+              "lineId": "p2-line-29",
+              "line": 29,
+              "quote": "head to the left along the corridor from reception, and it’s the second room you come to",
+              "revealAt": 352.58
+            },
+            {
+              "lineId": "p2-line-30",
+              "line": 30,
+              "quote": "It looks out onto the main road",
+              "revealAt": 355.08
+            }
+          ],
+          "distractors": [],
+          "questionText": "human resources"
+        },
+        {
+          "id": "p2-q20",
+          "question": 20,
+          "start": 365.18,
+          "end": 372.26,
+          "endLine": 34,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：Go along the corridor past the courtyard, right to the end / The boardroom is on the left, next to the factory",
+          "evidence": [
+            {
+              "lineId": "p2-line-33",
+              "line": 33,
+              "quote": "Go along the corridor past the courtyard, right to the end",
+              "revealAt": 368.72
+            },
+            {
+              "lineId": "p2-line-34",
+              "line": 34,
+              "quote": "The boardroom is on the left, next to the factory",
+              "revealAt": 372.26
+            }
+          ],
+          "distractors": [],
+          "questionText": "boardroom"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "evidence"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "evidence"
+        },
+        {
+          "line": 8,
+          "role": "evidence"
+        },
+        {
+          "line": 9,
+          "role": "evidence"
+        },
+        {
+          "line": 10,
+          "role": "evidence"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "evidence"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "evidence"
+        },
+        {
+          "line": 17,
+          "role": "evidence"
+        },
+        {
+          "line": 18,
+          "role": "evidence"
+        },
+        {
+          "line": 19,
+          "role": "evidence"
+        },
+        {
+          "line": 20,
+          "role": "evidence"
+        },
+        {
+          "line": 21,
+          "role": "evidence"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "evidence"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "evidence"
+        },
+        {
+          "line": 26,
+          "role": "evidence"
+        },
+        {
+          "line": 27,
+          "role": "evidence"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "evidence"
+        },
+        {
+          "line": 30,
+          "role": "evidence"
+        },
+        {
+          "line": 31,
+          "role": "context"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        },
+        {
+          "line": 33,
+          "role": "evidence"
+        },
+        {
+          "line": 34,
+          "role": "evidence"
+        },
+        {
+          "line": 35,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Art projects on birds",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Choose TWO letters, A–E. · Choose SIX answers from the box and write the correct letter, A–H, next to",
+      "audioSha256": "06929197ad2cb7abc828eb41037c0ff367d1a1b183430fa624c301e5fe921a23",
+      "transcriptSha256": "616c813fae39cc9361572df3c2ad06ebbcb760792bfec05f3d9058a7ab7d8a78",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2016%20Part%203.mp3",
+      "duration": 372.898,
+      "cues": [
+        {
+          "id": "p3-q21",
+          "question": 21,
+          "start": 58.28,
+          "end": 92.44,
+          "endLine": 11,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：I was really put off / the more I read, the more interested I got",
+          "evidence": [
+            {
+              "lineId": "p3-line-5",
+              "line": 5,
+              "quote": "I was really put off",
+              "revealAt": 67.98
+            },
+            {
+              "lineId": "p3-line-5",
+              "line": 5,
+              "quote": "the more I read, the more interested I got",
+              "revealAt": 67.98
+            },
+            {
+              "lineId": "p3-line-6",
+              "line": 6,
+              "quote": "Me too",
+              "revealAt": 75.76
+            },
+            {
+              "lineId": "p3-line-8",
+              "line": 8,
+              "quote": "What a letdown",
+              "revealAt": 80.86
+            },
+            {
+              "lineId": "p3-line-10",
+              "line": 10,
+              "quote": "Much less use than the trip to the Natural History Museum",
+              "revealAt": 88.88
+            },
+            {
+              "lineId": "p3-line-11",
+              "line": 11,
+              "quote": "I liked all the stuff about evolution there",
+              "revealAt": 92.44
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. Which TWO parts of the introductory stage to their art projects do Jess and Tom agree were useful?",
+          "groupQuestions": [
+            21,
+            22
+          ]
+        },
+        {
+          "id": "p3-q22",
+          "question": 22,
+          "start": 58.28,
+          "end": 92.44,
+          "endLine": 11,
+          "answer": "E",
+          "accepted": [
+            "E"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：I was really put off / the more I read, the more interested I got",
+          "evidence": [
+            {
+              "lineId": "p3-line-5",
+              "line": 5,
+              "quote": "I was really put off",
+              "revealAt": 67.98
+            },
+            {
+              "lineId": "p3-line-5",
+              "line": 5,
+              "quote": "the more I read, the more interested I got",
+              "revealAt": 67.98
+            },
+            {
+              "lineId": "p3-line-6",
+              "line": 6,
+              "quote": "Me too",
+              "revealAt": 75.76
+            },
+            {
+              "lineId": "p3-line-8",
+              "line": 8,
+              "quote": "What a letdown",
+              "revealAt": 80.86
+            },
+            {
+              "lineId": "p3-line-10",
+              "line": 10,
+              "quote": "Much less use than the trip to the Natural History Museum",
+              "revealAt": 88.88
+            },
+            {
+              "lineId": "p3-line-11",
+              "line": 11,
+              "quote": "I liked all the stuff about evolution there",
+              "revealAt": 92.44
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. Which TWO parts of the introductory stage to their art projects do Jess and Tom agree were useful?",
+          "groupQuestions": [
+            21,
+            22
+          ]
+        },
+        {
+          "id": "p3-q23",
+          "question": 23,
+          "start": 117.48,
+          "end": 176.62,
+          "endLine": 34,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：are almost all just descriptions / I haven’t actually evaluated anything",
+          "evidence": [
+            {
+              "lineId": "p3-line-19",
+              "line": 19,
+              "quote": "are almost all just descriptions",
+              "revealAt": 121.58
+            },
+            {
+              "lineId": "p3-line-20",
+              "line": 20,
+              "quote": "I haven’t actually evaluated anything",
+              "revealAt": 126.3
+            },
+            {
+              "lineId": "p3-line-21",
+              "line": 21,
+              "quote": "I didn’t know we had to do that",
+              "revealAt": 128.9
+            },
+            {
+              "lineId": "p3-line-22",
+              "line": 22,
+              "quote": "I’ll have to look at that too",
+              "revealAt": 130.82
+            },
+            {
+              "lineId": "p3-line-32",
+              "line": 32,
+              "quote": "you have more scope to explore your ideas",
+              "revealAt": 168.94
+            },
+            {
+              "lineId": "p3-line-32",
+              "line": 32,
+              "quote": "it’s best not to be too precise about your actual outcome at this stage",
+              "revealAt": 168.94
+            },
+            {
+              "lineId": "p3-line-33",
+              "line": 33,
+              "quote": "make it a bit more vague",
+              "revealAt": 173.3
+            },
+            {
+              "lineId": "p3-line-34",
+              "line": 34,
+              "quote": "OK, I’ll change that too then",
+              "revealAt": 176.62
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. In which TWO ways do both Jess and Tom decide to change their proposals?",
+          "groupQuestions": [
+            23,
+            24
+          ]
+        },
+        {
+          "id": "p3-q24",
+          "question": 24,
+          "start": 117.48,
+          "end": 176.62,
+          "endLine": 34,
+          "answer": "E",
+          "accepted": [
+            "E"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：are almost all just descriptions / I haven’t actually evaluated anything",
+          "evidence": [
+            {
+              "lineId": "p3-line-19",
+              "line": 19,
+              "quote": "are almost all just descriptions",
+              "revealAt": 121.58
+            },
+            {
+              "lineId": "p3-line-20",
+              "line": 20,
+              "quote": "I haven’t actually evaluated anything",
+              "revealAt": 126.3
+            },
+            {
+              "lineId": "p3-line-21",
+              "line": 21,
+              "quote": "I didn’t know we had to do that",
+              "revealAt": 128.9
+            },
+            {
+              "lineId": "p3-line-22",
+              "line": 22,
+              "quote": "I’ll have to look at that too",
+              "revealAt": 130.82
+            },
+            {
+              "lineId": "p3-line-32",
+              "line": 32,
+              "quote": "you have more scope to explore your ideas",
+              "revealAt": 168.94
+            },
+            {
+              "lineId": "p3-line-32",
+              "line": 32,
+              "quote": "it’s best not to be too precise about your actual outcome at this stage",
+              "revealAt": 168.94
+            },
+            {
+              "lineId": "p3-line-33",
+              "line": 33,
+              "quote": "make it a bit more vague",
+              "revealAt": 173.3
+            },
+            {
+              "lineId": "p3-line-34",
+              "line": 34,
+              "quote": "OK, I’ll change that too then",
+              "revealAt": 176.62
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. In which TWO ways do both Jess and Tom decide to change their proposals?",
+          "groupQuestions": [
+            23,
+            24
+          ]
+        },
+        {
+          "id": "p3-q25",
+          "question": 25,
+          "start": 234.48,
+          "end": 251.9,
+          "endLine": 39,
+          "answer": "D",
+          "accepted": [
+            "D"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：he seems to be staring straight at you / it’s a bit scary",
+          "evidence": [
+            {
+              "lineId": "p3-line-37",
+              "line": 37,
+              "quote": "he seems to be staring straight at you",
+              "revealAt": 241.62
+            },
+            {
+              "lineId": "p3-line-38",
+              "line": 38,
+              "quote": "it’s a bit scary",
+              "revealAt": 245.86
+            },
+            {
+              "lineId": "p3-line-39",
+              "line": 39,
+              "quote": "the possible danger suggested by the bird’s look",
+              "revealAt": 251.9
+            }
+          ],
+          "distractors": [],
+          "questionText": "Falcon — Landseer"
+        },
+        {
+          "id": "p3-q26",
+          "question": 26,
+          "start": 258.54,
+          "end": 276.86,
+          "endLine": 45,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：swooping over the water with a fish in its talons / I’ll concentrate on the impression of rapid motion it gives",
+          "evidence": [
+            {
+              "lineId": "p3-line-42",
+              "line": 42,
+              "quote": "swooping over the water with a fish in its talons",
+              "revealAt": 266.34
+            },
+            {
+              "lineId": "p3-line-44",
+              "line": 44,
+              "quote": "I’ll concentrate on the impression of rapid motion it gives",
+              "revealAt": 276.26
+            }
+          ],
+          "distractors": [],
+          "questionText": "Fish hawk — Audubon"
+        },
+        {
+          "id": "p3-q27",
+          "question": 27,
+          "start": 289.28,
+          "end": 299.08,
+          "endLine": 48,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：I’ve never forgotten it / I was out walking with my grandfather",
+          "evidence": [
+            {
+              "lineId": "p3-line-48",
+              "line": 48,
+              "quote": "I’ve never forgotten it",
+              "revealAt": 299.08
+            },
+            {
+              "lineId": "p3-line-48",
+              "line": 48,
+              "quote": "I was out walking with my grandfather",
+              "revealAt": 299.08
+            },
+            {
+              "lineId": "p3-line-48",
+              "line": 48,
+              "quote": "I saw a real kingfisher once when I was little",
+              "revealAt": 299.08
+            }
+          ],
+          "distractors": [],
+          "questionText": "Kingfisher — van Gogh"
+        },
+        {
+          "id": "p3-q28",
+          "question": 28,
+          "start": 312.56,
+          "end": 325.86,
+          "endLine": 53,
+          "answer": "H",
+          "accepted": [
+            "H"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：his expression / suggests he’s not sure about what he’s done",
+          "evidence": [
+            {
+              "lineId": "p3-line-52",
+              "line": 52,
+              "quote": "his expression",
+              "revealAt": 319.08
+            },
+            {
+              "lineId": "p3-line-52",
+              "line": 52,
+              "quote": "suggests he’s not sure about what he’s done",
+              "revealAt": 319.08
+            },
+            {
+              "lineId": "p3-line-53",
+              "line": 53,
+              "quote": "how ambiguous people are in the way they exploit the natural world",
+              "revealAt": 325.86
+            }
+          ],
+          "distractors": [],
+          "questionText": "Portrait of William Wells"
+        },
+        {
+          "id": "p3-q29",
+          "question": 29,
+          "start": 342.82,
+          "end": 346.46,
+          "endLine": 57,
+          "answer": "F",
+          "accepted": [
+            "F"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：the never-ending cycle of existence",
+          "evidence": [
+            {
+              "lineId": "p3-line-57",
+              "line": 57,
+              "quote": "the never-ending cycle of existence",
+              "revealAt": 346.46
+            }
+          ],
+          "distractors": [],
+          "questionText": "Vairumati — Gauguin"
+        },
+        {
+          "id": "p3-q30",
+          "question": 30,
+          "start": 356.0,
+          "end": 359.96,
+          "endLine": 60,
+          "answer": "G",
+          "accepted": [
+            "G"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：I like the way he’s holding it carefully so he doesn’t hurt it",
+          "evidence": [
+            {
+              "lineId": "p3-line-60",
+              "line": 60,
+              "quote": "I like the way he’s holding it carefully so he doesn’t hurt it",
+              "revealAt": 359.96
+            }
+          ],
+          "distractors": [],
+          "questionText": "Portrait of Giovanni de Medici"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "evidence"
+        },
+        {
+          "line": 6,
+          "role": "evidence"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "evidence"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "evidence"
+        },
+        {
+          "line": 11,
+          "role": "evidence"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "evidence"
+        },
+        {
+          "line": 20,
+          "role": "evidence"
+        },
+        {
+          "line": 21,
+          "role": "evidence"
+        },
+        {
+          "line": 22,
+          "role": "evidence"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "context"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "context"
+        },
+        {
+          "line": 32,
+          "role": "evidence"
+        },
+        {
+          "line": 33,
+          "role": "evidence"
+        },
+        {
+          "line": 34,
+          "role": "evidence"
+        },
+        {
+          "line": 35,
+          "role": "context"
+        },
+        {
+          "line": 36,
+          "role": "context"
+        },
+        {
+          "line": 37,
+          "role": "evidence"
+        },
+        {
+          "line": 38,
+          "role": "evidence"
+        },
+        {
+          "line": 39,
+          "role": "evidence"
+        },
+        {
+          "line": 40,
+          "role": "context"
+        },
+        {
+          "line": 41,
+          "role": "context"
+        },
+        {
+          "line": 42,
+          "role": "evidence"
+        },
+        {
+          "line": 43,
+          "role": "context"
+        },
+        {
+          "line": 44,
+          "role": "evidence"
+        },
+        {
+          "line": 45,
+          "role": "context"
+        },
+        {
+          "line": 46,
+          "role": "context"
+        },
+        {
+          "line": 47,
+          "role": "context"
+        },
+        {
+          "line": 48,
+          "role": "evidence"
+        },
+        {
+          "line": 49,
+          "role": "context"
+        },
+        {
+          "line": 50,
+          "role": "context"
+        },
+        {
+          "line": 51,
+          "role": "context"
+        },
+        {
+          "line": 52,
+          "role": "evidence"
+        },
+        {
+          "line": 53,
+          "role": "evidence"
+        },
+        {
+          "line": 54,
+          "role": "context"
+        },
+        {
+          "line": 55,
+          "role": "context"
+        },
+        {
+          "line": 56,
+          "role": "context"
+        },
+        {
+          "line": 57,
+          "role": "evidence"
+        },
+        {
+          "line": 58,
+          "role": "context"
+        },
+        {
+          "line": 59,
+          "role": "context"
+        },
+        {
+          "line": 60,
+          "role": "evidence"
+        },
+        {
+          "line": 61,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Stoicism",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Write ONE WORD ONLY for each answer.",
+      "audioSha256": "638e368fc080740b2b7e753fc6cd5ae1a4d220a1f10b872ee4200610ec123ff9",
+      "transcriptSha256": "adce98c5d8623723761a2531356418a65d6b0550fb7935b8580980aba69e02e5",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2016%20Part%204.mp3",
+      "duration": 432.5355,
+      "cues": [
+        {
+          "id": "p4-q31",
+          "question": 31,
+          "start": 80.02,
+          "end": 100.28,
+          "endLine": 2,
+          "answer": "practical",
+          "accepted": [
+            "practical"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：solve their problems / the most practical of all philosophies and therefore the most appealing",
+          "evidence": [
+            {
+              "lineId": "p4-line-1",
+              "line": 1,
+              "quote": "solve their problems",
+              "revealAt": 89.14
+            },
+            {
+              "lineId": "p4-line-2",
+              "line": 2,
+              "quote": "the most practical of all philosophies and therefore the most appealing",
+              "revealAt": 100.28
+            }
+          ],
+          "distractors": [],
+          "questionText": "Stoicism is still relevant today because of its 31 __________ appeal."
+        },
+        {
+          "id": "p4-q32",
+          "question": 32,
+          "start": 116.4,
+          "end": 124.66,
+          "endLine": 4,
+          "answer": "publication",
+          "accepted": [
+            "publication"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：the most famous Stoics never wrote anything down for publication",
+          "evidence": [
+            {
+              "lineId": "p4-line-4",
+              "line": 4,
+              "quote": "the most famous Stoics never wrote anything down for publication",
+              "revealAt": 124.66
+            }
+          ],
+          "distractors": [],
+          "questionText": "for 32 __________."
+        },
+        {
+          "id": "p4-q33",
+          "question": 33,
+          "start": 173.08,
+          "end": 181.86,
+          "endLine": 10,
+          "answer": "choices",
+          "accepted": [
+            "choices"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：external events I cannot control, but the choices I make with regard to them, I do control",
+          "evidence": [
+            {
+              "lineId": "p4-line-10",
+              "line": 10,
+              "quote": "external events I cannot control, but the choices I make with regard to them, I do control",
+              "revealAt": 181.86
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Epictetus said that external events cannot be controlled but the 33 __________ people make in response can be controlled."
+        },
+        {
+          "id": "p4-q34",
+          "question": 34,
+          "start": 183.36,
+          "end": 196.96,
+          "endLine": 11,
+          "answer": "negative",
+          "accepted": [
+            "negative"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：experiences which most of us would see as wholly negative",
+          "evidence": [
+            {
+              "lineId": "p4-line-11",
+              "line": 11,
+              "quote": "experiences which most of us would see as wholly negative",
+              "revealAt": 196.96
+            }
+          ],
+          "distractors": [],
+          "questionText": "would consider as 34 __________."
+        },
+        {
+          "id": "p4-q35",
+          "question": 35,
+          "start": 236.66,
+          "end": 247.3,
+          "endLine": 15,
+          "answer": "play",
+          "accepted": [
+            "play"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：put on a play based on the life of Cato to inspire his men",
+          "evidence": [
+            {
+              "lineId": "p4-line-15",
+              "line": 15,
+              "quote": "put on a play based on the life of Cato to inspire his men",
+              "revealAt": 247.3
+            }
+          ],
+          "distractors": [],
+          "questionText": "● George Washington organised a 35 __________ about Cato to motivate"
+        },
+        {
+          "id": "p4-q36",
+          "question": 36,
+          "start": 272.66,
+          "end": 286.02,
+          "endLine": 19,
+          "answer": "capitalism",
+          "accepted": [
+            "capitalism"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：Adam Smith’s theories on capitalism were significantly influenced by the Stoicism that he studied as a schoolboy",
+          "evidence": [
+            {
+              "lineId": "p4-line-19",
+              "line": 19,
+              "quote": "Adam Smith’s theories on capitalism were significantly influenced by the Stoicism that he studied as a schoolboy",
+              "revealAt": 286.02
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Adam Smith’s ideas on 36 __________ were influenced by Stoicism."
+        },
+        {
+          "id": "p4-q37",
+          "question": 37,
+          "start": 335.86,
+          "end": 338.36,
+          "endLine": 24,
+          "answer": "depression",
+          "accepted": [
+            "depression"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：It’s most commonly used to treat depression",
+          "evidence": [
+            {
+              "lineId": "p4-line-24",
+              "line": 24,
+              "quote": "It’s most commonly used to treat depression",
+              "revealAt": 338.36
+            }
+          ],
+          "distractors": [],
+          "questionText": "○ the treatment for 37 __________ is based on ideas from Stoicism"
+        },
+        {
+          "id": "p4-q38",
+          "question": 38,
+          "start": 339.46,
+          "end": 351.04,
+          "endLine": 25,
+          "answer": "logic",
+          "accepted": [
+            "logic"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：The idea is that we can take control of our lives by challenging the irrational beliefs that create our faulty thinking, symptoms and behaviours by using logic instead.",
+          "evidence": [
+            {
+              "lineId": "p4-line-25",
+              "line": 25,
+              "quote": "The idea is that we can take control of our lives by challenging the irrational beliefs that create our faulty thinking, symptoms and behaviours by using logic instead.",
+              "revealAt": 351.04
+            }
+          ],
+          "distractors": [],
+          "questionText": "○ people learn to base their thinking on 38 __________."
+        },
+        {
+          "id": "p4-q39",
+          "question": 39,
+          "start": 357.2,
+          "end": 366.88,
+          "endLine": 27,
+          "answer": "opportunity",
+          "accepted": [
+            "opportunity"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：Stoics teach turning obstacles into opportunity",
+          "evidence": [
+            {
+              "lineId": "p4-line-27",
+              "line": 27,
+              "quote": "Stoics teach turning obstacles into opportunity",
+              "revealAt": 366.88
+            }
+          ],
+          "distractors": [],
+          "questionText": "● In business, people benefit from Stoicism by identifying obstacles as 39 __________."
+        },
+        {
+          "id": "p4-q40",
+          "question": 40,
+          "start": 385.38,
+          "end": 403.08,
+          "endLine": 31,
+          "answer": "practice",
+          "accepted": [
+            "practice",
+            "practise"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：control what you can and accept what you can’t / This is not as easy as it sounds and will require considerable practice – it can take a lifetime to master",
+          "evidence": [
+            {
+              "lineId": "p4-line-30",
+              "line": 30,
+              "quote": "control what you can and accept what you can’t",
+              "revealAt": 394.66
+            },
+            {
+              "lineId": "p4-line-31",
+              "line": 31,
+              "quote": "This is not as easy as it sounds and will require considerable practice – it can take a lifetime to master",
+              "revealAt": 403.08
+            }
+          ],
+          "distractors": [],
+          "questionText": "● It requires a lot of 40 __________, but Stoicism can help people to lead"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "evidence"
+        },
+        {
+          "line": 2,
+          "role": "evidence"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "evidence"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "evidence"
+        },
+        {
+          "line": 11,
+          "role": "evidence"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "evidence"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "evidence"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "context"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "evidence"
+        },
+        {
+          "line": 25,
+          "role": "evidence"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "evidence"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "evidence"
+        },
+        {
+          "line": 31,
+          "role": "evidence"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2012 @@
+{
+  "version": "2026-10-26.1",
+  "practice": 13,
+  "sourceSha256": "e3e7582d21179a58b4c166013712b23fb4f59cff79834b3da9ee425c1c6b1386",
+  "timingBasis": "Existing recording-aligned transcript timestamps; explanation quotations matched to exact source spans, with explicit editorial endpoint reviews.",
+  "parts": [
+    {
+      "part": 1,
+      "title": "Opportunities for Voluntary Work in Southoe Village",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Write ONE WORD ONLY for each answer.",
+      "audioSha256": "0259992896317885d4eb8b2f258c65e8ffbf5aafb23cd1404e687f9e6a855cc5",
+      "transcriptSha256": "d36e23aa837f829453e4c6d36aa2cc0923ab826b422a403d3ba72ac783e54609",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2013%20Part%201.mp3",
+      "duration": 408.68575,
+      "cues": [
+        {
+          "id": "p1-q1",
+          "question": 1,
+          "start": 82.64,
+          "end": 96.02,
+          "endLine": 9,
+          "answer": "collecting",
+          "accepted": [
+            "collecting"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：one thing you could do is get involved in collecting them / times are pretty flexible",
+          "evidence": [
+            {
+              "lineId": "p1-line-7",
+              "line": 7,
+              "quote": "one thing you could do is get involved in collecting them",
+              "revealAt": 89.3
+            },
+            {
+              "lineId": "p1-line-9",
+              "line": 9,
+              "quote": "times are pretty flexible",
+              "revealAt": 96.02
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Help with 1 __________ books, times to be arranged"
+        },
+        {
+          "id": "p1-q2",
+          "question": 2,
+          "start": 97.2,
+          "end": 116.02,
+          "endLine": 12,
+          "answer": "records",
+          "accepted": [
+            "records"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：the records that we keep of the books we’re given, and those we borrow / It would be very useful to have another person to help keep them up to date",
+          "evidence": [
+            {
+              "lineId": "p1-line-10",
+              "line": 10,
+              "quote": "the records that we keep of the books we’re given, and those we borrow",
+              "revealAt": 104.84
+            },
+            {
+              "lineId": "p1-line-11",
+              "line": 11,
+              "quote": "It would be very useful to have another person to help keep them up to date",
+              "revealAt": 109.94
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Help needed to keep 2 __________ of books up to date"
+        },
+        {
+          "id": "p1-q3",
+          "question": 3,
+          "start": 123.3,
+          "end": 128.5,
+          "endLine": 16,
+          "answer": "West",
+          "accepted": [
+            "West"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：we simply have the use of a room in the village hall, the West Room",
+          "evidence": [
+            {
+              "lineId": "p1-line-16",
+              "line": 16,
+              "quote": "we simply have the use of a room in the village hall, the West Room",
+              "revealAt": 128.5
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Library is in the 3 __________ Room in the village hall"
+        },
+        {
+          "id": "p1-q4",
+          "question": 4,
+          "start": 146.04,
+          "end": 156.52,
+          "endLine": 24,
+          "answer": "transport",
+          "accepted": [
+            "transport"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：I could help with transport, if that’s of any use / we’re always in need of more drivers",
+          "evidence": [
+            {
+              "lineId": "p1-line-23",
+              "line": 23,
+              "quote": "I could help with transport, if that’s of any use",
+              "revealAt": 149.28
+            },
+            {
+              "lineId": "p1-line-24",
+              "line": 24,
+              "quote": "we’re always in need of more drivers",
+              "revealAt": 156.52
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Help by providing 4 __________"
+        },
+        {
+          "id": "p1-q5",
+          "question": 5,
+          "start": 162.6,
+          "end": 167.82,
+          "endLine": 26,
+          "answer": "art",
+          "accepted": [
+            "art"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：particularly if there are any art groups",
+          "evidence": [
+            {
+              "lineId": "p1-line-26",
+              "line": 26,
+              "quote": "particularly if there are any art groups",
+              "revealAt": 167.82
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Help with hobbies such as 5 __________"
+        },
+        {
+          "id": "p1-q6",
+          "question": 6,
+          "start": 186.38,
+          "end": 191.44,
+          "endLine": 31,
+          "answer": "hospital",
+          "accepted": [
+            "hospital"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：She needs a lift to the hospital next week",
+          "evidence": [
+            {
+              "lineId": "p1-line-31",
+              "line": 31,
+              "quote": "She needs a lift to the hospital next week",
+              "revealAt": 191.44
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Taking Mrs Carroll to 6 __________"
+        },
+        {
+          "id": "p1-q7",
+          "question": 7,
+          "start": 211.98,
+          "end": 219.32,
+          "endLine": 37,
+          "answer": "garden",
+          "accepted": [
+            "garden"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：if you could do some weeding in his garden, that would be wonderful",
+          "evidence": [
+            {
+              "lineId": "p1-line-37",
+              "line": 37,
+              "quote": "if you could do some weeding in his garden, that would be wonderful",
+              "revealAt": 219.32
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Work in the 7 __________ at Mr Selsbury’s house"
+        },
+        {
+          "id": "p1-q8",
+          "question": 8,
+          "start": 272.7,
+          "end": 295.34,
+          "endLine": 46,
+          "answer": "quiz",
+          "accepted": [
+            "quiz"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：on the 19th of October, we’re holding a quiz / we need plenty of refreshments",
+          "evidence": [
+            {
+              "lineId": "p1-line-43",
+              "line": 43,
+              "quote": "on the 19th of October, we’re holding a quiz",
+              "revealAt": 284.68
+            },
+            {
+              "lineId": "p1-line-46",
+              "line": 46,
+              "quote": "we need plenty of refreshments",
+              "revealAt": 295.34
+            }
+          ],
+          "distractors": [],
+          "questionText": "Question 8 — refer to the original question paper above."
+        },
+        {
+          "id": "p1-q9",
+          "question": 9,
+          "start": 304.18,
+          "end": 339.72,
+          "endLine": 52,
+          "answer": "tickets",
+          "accepted": [
+            "tickets"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：on November the 18th, we’re holding a dance / we sell tickets in advance",
+          "evidence": [
+            {
+              "lineId": "p1-line-49",
+              "line": 49,
+              "quote": "on November the 18th, we’re holding a dance",
+              "revealAt": 311.72
+            },
+            {
+              "lineId": "p1-line-52",
+              "line": 52,
+              "quote": "we sell tickets in advance",
+              "revealAt": 339.72
+            },
+            {
+              "lineId": "p1-line-52",
+              "line": 52,
+              "quote": "to check them at the door, as people arrive",
+              "revealAt": 339.72
+            }
+          ],
+          "distractors": [],
+          "questionText": "checking _____"
+        },
+        {
+          "id": "p1-q10",
+          "question": 10,
+          "start": 376.04,
+          "end": 379.24,
+          "endLine": 60,
+          "answer": "poster",
+          "accepted": [
+            "poster"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：The one thing we haven’t got yet is a poster",
+          "evidence": [
+            {
+              "lineId": "p1-line-60",
+              "line": 60,
+              "quote": "The one thing we haven’t got yet is a poster",
+              "revealAt": 379.24
+            }
+          ],
+          "distractors": [],
+          "questionText": "designing the _____"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "evidence"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "evidence"
+        },
+        {
+          "line": 10,
+          "role": "evidence"
+        },
+        {
+          "line": 11,
+          "role": "evidence"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "evidence"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "context"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "evidence"
+        },
+        {
+          "line": 24,
+          "role": "evidence"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "evidence"
+        },
+        {
+          "line": 27,
+          "role": "context"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "evidence"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        },
+        {
+          "line": 33,
+          "role": "context"
+        },
+        {
+          "line": 34,
+          "role": "context"
+        },
+        {
+          "line": 35,
+          "role": "context"
+        },
+        {
+          "line": 36,
+          "role": "context"
+        },
+        {
+          "line": 37,
+          "role": "evidence"
+        },
+        {
+          "line": 38,
+          "role": "context"
+        },
+        {
+          "line": 39,
+          "role": "context"
+        },
+        {
+          "line": 40,
+          "role": "context"
+        },
+        {
+          "line": 41,
+          "role": "context"
+        },
+        {
+          "line": 42,
+          "role": "context"
+        },
+        {
+          "line": 43,
+          "role": "evidence"
+        },
+        {
+          "line": 44,
+          "role": "context"
+        },
+        {
+          "line": 45,
+          "role": "context"
+        },
+        {
+          "line": 46,
+          "role": "evidence"
+        },
+        {
+          "line": 47,
+          "role": "context"
+        },
+        {
+          "line": 48,
+          "role": "context"
+        },
+        {
+          "line": 49,
+          "role": "evidence"
+        },
+        {
+          "line": 50,
+          "role": "context"
+        },
+        {
+          "line": 51,
+          "role": "context"
+        },
+        {
+          "line": 52,
+          "role": "evidence"
+        },
+        {
+          "line": 53,
+          "role": "context"
+        },
+        {
+          "line": 54,
+          "role": "context"
+        },
+        {
+          "line": 55,
+          "role": "context"
+        },
+        {
+          "line": 56,
+          "role": "context"
+        },
+        {
+          "line": 57,
+          "role": "context"
+        },
+        {
+          "line": 58,
+          "role": "context"
+        },
+        {
+          "line": 59,
+          "role": "context"
+        },
+        {
+          "line": 60,
+          "role": "evidence"
+        },
+        {
+          "line": 61,
+          "role": "context"
+        },
+        {
+          "line": 62,
+          "role": "context"
+        },
+        {
+          "line": 63,
+          "role": "context"
+        },
+        {
+          "line": 64,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Oniton Hall",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Choose the correct letter, A, B or C. · Choose SIX answers from the box and write the correct letter, A–H, next to",
+      "audioSha256": "95ee231386441cc106f0a545c97d5aa25272117965884da31bda75449bc07b3e",
+      "transcriptSha256": "735bb70b13d8a929c029a018de26d1513ee52e8f5675d1025672d5cc59d226b6",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2013%20Part%202.mp3",
+      "duration": 416.418,
+      "cues": [
+        {
+          "id": "p2-q11",
+          "question": 11,
+          "start": 87.28,
+          "end": 107.96,
+          "endLine": 6,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：Almost all of them have left their mark / adding new rooms, like the ballroom and conservatory, or by demolishing others",
+          "evidence": [
+            {
+              "lineId": "p2-line-5",
+              "line": 5,
+              "quote": "Almost all of them have left their mark",
+              "revealAt": 98.52
+            },
+            {
+              "lineId": "p2-line-5",
+              "line": 5,
+              "quote": "adding new rooms, like the ballroom and conservatory, or by demolishing others",
+              "revealAt": 98.52
+            }
+          ],
+          "distractors": [
+            {
+              "line": 6,
+              "quote": "looks much as it’s always done",
+              "candidateAt": 107.96,
+              "rejectAt": 107.96,
+              "why": "中伏位：farm 被形容為 “looks much as it’s always done”；flower beds 是現任 owner 做的工作，也不足以代表歷代 owners 的主要改動。"
+            }
+          ],
+          "questionText": "Many past owners made changes to"
+        },
+        {
+          "id": "p2-q12",
+          "question": 12,
+          "start": 117.64,
+          "end": 144.04,
+          "endLine": 9,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：escape from the world of politics / hosted meetings of creative and literary people, like painters and poets",
+          "evidence": [
+            {
+              "lineId": "p2-line-8",
+              "line": 8,
+              "quote": "escape from the world of politics",
+              "revealAt": 132.48
+            },
+            {
+              "lineId": "p2-line-9",
+              "line": 9,
+              "quote": "hosted meetings of creative and literary people, like painters and poets",
+              "revealAt": 144.04
+            }
+          ],
+          "distractors": [],
+          "questionText": "Sir Edward Downes built Oniton Hall because he wanted"
+        },
+        {
+          "id": "p2-q13",
+          "question": 13,
+          "start": 168.94,
+          "end": 198.44,
+          "endLine": 14,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：don’t give much of an idea / volunteers dressed up as nineteenth-century servants, going about their work",
+          "evidence": [
+            {
+              "lineId": "p2-line-12",
+              "line": 12,
+              "quote": "don’t give much of an idea",
+              "revealAt": 182.64
+            },
+            {
+              "lineId": "p2-line-12",
+              "line": 12,
+              "quote": "volunteers dressed up as nineteenth-century servants, going about their work",
+              "revealAt": 182.64
+            },
+            {
+              "lineId": "p2-line-13",
+              "line": 13,
+              "quote": "explain what they’re doing",
+              "revealAt": 191.06
+            }
+          ],
+          "distractors": [
+            {
+              "line": 14,
+              "quote": "replace the audio guide we used to have available",
+              "candidateAt": 198.44,
+              "rejectAt": 198.44,
+              "why": "中伏位：audio guide 是以前使用的方法，而且現在已被這項真人示範取代： “replace the audio guide we used to have available.”"
+            }
+          ],
+          "questionText": "Visitors can learn about the work of servants in the past from"
+        },
+        {
+          "id": "p2-q14",
+          "question": 14,
+          "start": 222.68,
+          "end": 229.02,
+          "endLine": 17,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：Our latest addition is child-sized tractors",
+          "evidence": [
+            {
+              "lineId": "p2-line-17",
+              "line": 17,
+              "quote": "Our latest addition is child-sized tractors",
+              "revealAt": 229.02
+            }
+          ],
+          "distractors": [],
+          "questionText": "What is new for children at Oniton Hall?"
+        },
+        {
+          "id": "p2-q15",
+          "question": 15,
+          "start": 302.18,
+          "end": 310.32,
+          "endLine": 21,
+          "answer": "D",
+          "accepted": [
+            "D"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：It’s now the place to go for lunch, or afternoon tea, or just a cup of coffee and a slice of homemade cake",
+          "evidence": [
+            {
+              "lineId": "p2-line-21",
+              "line": 21,
+              "quote": "It’s now the place to go for lunch, or afternoon tea, or just a cup of coffee and a slice of homemade cake",
+              "revealAt": 310.32
+            }
+          ],
+          "distractors": [],
+          "questionText": "dairy"
+        },
+        {
+          "id": "p2-q16",
+          "question": 16,
+          "start": 311.26,
+          "end": 328.98,
+          "endLine": 23,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：in here is our collection of agricultural tools / plough the earth, sow seeds, make gates",
+          "evidence": [
+            {
+              "lineId": "p2-line-22",
+              "line": 22,
+              "quote": "in here is our collection of agricultural tools",
+              "revealAt": 320.82
+            },
+            {
+              "lineId": "p2-line-23",
+              "line": 23,
+              "quote": "plough the earth, sow seeds, make gates",
+              "revealAt": 328.98
+            }
+          ],
+          "distractors": [],
+          "questionText": "large barn"
+        },
+        {
+          "id": "p2-q17",
+          "question": 17,
+          "start": 330.18,
+          "end": 338.26,
+          "endLine": 24,
+          "answer": "G",
+          "accepted": [
+            "G"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：groom the donkeys and horses, to keep their coats clean",
+          "evidence": [
+            {
+              "lineId": "p2-line-24",
+              "line": 24,
+              "quote": "groom the donkeys and horses, to keep their coats clean",
+              "revealAt": 338.26
+            }
+          ],
+          "distractors": [],
+          "questionText": "small barn"
+        },
+        {
+          "id": "p2-q18",
+          "question": 18,
+          "start": 345.2,
+          "end": 359.66,
+          "endLine": 26,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：buy gifts, books, our own jams and pickles, and clothes and blankets",
+          "evidence": [
+            {
+              "lineId": "p2-line-26",
+              "line": 26,
+              "quote": "buy gifts, books, our own jams and pickles, and clothes and blankets",
+              "revealAt": 359.66
+            }
+          ],
+          "distractors": [],
+          "questionText": "stables"
+        },
+        {
+          "id": "p2-q19",
+          "question": 19,
+          "start": 360.92,
+          "end": 371.8,
+          "endLine": 27,
+          "answer": "E",
+          "accepted": [
+            "E"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：Outside the shed, which is the only brick building, you can climb into a horse-drawn carriage for a lovely, relaxing tour of the park and farm.",
+          "evidence": [
+            {
+              "lineId": "p2-line-27",
+              "line": 27,
+              "quote": "Outside the shed, which is the only brick building, you can climb into a horse-drawn carriage for a lovely, relaxing tour of the park and farm.",
+              "revealAt": 371.8
+            }
+          ],
+          "distractors": [],
+          "questionText": "shed"
+        },
+        {
+          "id": "p2-q20",
+          "question": 20,
+          "start": 387.92,
+          "end": 398.58,
+          "endLine": 31,
+          "answer": "F",
+          "accepted": [
+            "F"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：You’ll see types of cattle and sheep that are hardly ever found on farms these days / preserve them",
+          "evidence": [
+            {
+              "lineId": "p2-line-30",
+              "line": 30,
+              "quote": "You’ll see types of cattle and sheep that are hardly ever found on farms these days",
+              "revealAt": 393.46
+            },
+            {
+              "lineId": "p2-line-31",
+              "line": 31,
+              "quote": "preserve them",
+              "revealAt": 398.58
+            }
+          ],
+          "distractors": [],
+          "questionText": "parkland"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "evidence"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "evidence"
+        },
+        {
+          "line": 9,
+          "role": "evidence"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "evidence"
+        },
+        {
+          "line": 13,
+          "role": "evidence"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "evidence"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "evidence"
+        },
+        {
+          "line": 22,
+          "role": "evidence"
+        },
+        {
+          "line": 23,
+          "role": "evidence"
+        },
+        {
+          "line": 24,
+          "role": "evidence"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "evidence"
+        },
+        {
+          "line": 27,
+          "role": "evidence"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "evidence"
+        },
+        {
+          "line": 31,
+          "role": "evidence"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Reviews of Romeo and Juliet",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Choose TWO letters, A–E. · Choose FIVE answers from the box and write the correct letter, A–G, next to · Choose the correct letter, A, B or C.",
+      "audioSha256": "0f434f3110676f1060200637332bc5aad62040515d1bcc559a3088b65e271175",
+      "transcriptSha256": "72718fa49fa86e92dee5c5edd8b91c4518fd88fce2e9335c16abf94196c11ca7",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2013%20Part%203.mp3",
+      "duration": 374.2301875,
+      "cues": [
+        {
+          "id": "p3-q21",
+          "question": 21,
+          "start": 83.46,
+          "end": 129.38,
+          "endLine": 21,
+          "answer": "D",
+          "accepted": [
+            "D"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：part of that means talking about the emotional impact the performance had on us / Romeo climbs onto Juliet’s balcony",
+          "evidence": [
+            {
+              "lineId": "p3-line-17",
+              "line": 17,
+              "quote": "part of that means talking about the emotional impact the performance had on us",
+              "revealAt": 105.34
+            },
+            {
+              "lineId": "p3-line-19",
+              "line": 19,
+              "quote": "Romeo climbs onto Juliet’s balcony",
+              "revealAt": 116.74
+            },
+            {
+              "lineId": "p3-line-19",
+              "line": 19,
+              "quote": "we should definitely mention how well the director handled important bits of the play",
+              "revealAt": 116.74
+            },
+            {
+              "lineId": "p3-line-20",
+              "line": 20,
+              "quote": "the fight between Mercutio and Tybalt",
+              "revealAt": 119.4
+            }
+          ],
+          "distractors": [
+            {
+              "line": 14,
+              "quote": "isn’t really relevant",
+              "candidateAt": 90.68,
+              "rejectAt": 129.38,
+              "why": "中伏位：B plot summary 被他們排除，因為大家都知道故事。A text analysis 屬於 essay 較適合的內容， Ed 說在 review 中 “isn’t really relevant”。C theatre space 雖然有趣，但 Gemma 認為 800 words 不夠寫"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. Which TWO things do the students agree they need to include in their reviews of Romeo and Juliet?",
+          "groupQuestions": [
+            21,
+            22
+          ]
+        },
+        {
+          "id": "p3-q22",
+          "question": 22,
+          "start": 83.46,
+          "end": 129.38,
+          "endLine": 21,
+          "answer": "E",
+          "accepted": [
+            "E"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：part of that means talking about the emotional impact the performance had on us / Romeo climbs onto Juliet’s balcony",
+          "evidence": [
+            {
+              "lineId": "p3-line-17",
+              "line": 17,
+              "quote": "part of that means talking about the emotional impact the performance had on us",
+              "revealAt": 105.34
+            },
+            {
+              "lineId": "p3-line-19",
+              "line": 19,
+              "quote": "Romeo climbs onto Juliet’s balcony",
+              "revealAt": 116.74
+            },
+            {
+              "lineId": "p3-line-19",
+              "line": 19,
+              "quote": "we should definitely mention how well the director handled important bits of the play",
+              "revealAt": 116.74
+            },
+            {
+              "lineId": "p3-line-20",
+              "line": 20,
+              "quote": "the fight between Mercutio and Tybalt",
+              "revealAt": 119.4
+            }
+          ],
+          "distractors": [
+            {
+              "line": 14,
+              "quote": "isn’t really relevant",
+              "candidateAt": 90.68,
+              "rejectAt": 129.38,
+              "why": "中伏位：B plot summary 被他們排除，因為大家都知道故事。A text analysis 屬於 essay 較適合的內容， Ed 說在 review 中 “isn’t really relevant”。C theatre space 雖然有趣，但 Gemma 認為 800 words 不夠寫"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. Which TWO things do the students agree they need to include in their reviews of Romeo and Juliet?",
+          "groupQuestions": [
+            21,
+            22
+          ]
+        },
+        {
+          "id": "p3-q23",
+          "question": 23,
+          "start": 213.26,
+          "end": 227.88,
+          "endLine": 28,
+          "answer": "D",
+          "accepted": [
+            "D"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：visually really stunning / probably the most memorable thing about this production",
+          "evidence": [
+            {
+              "lineId": "p3-line-26",
+              "line": 26,
+              "quote": "visually really stunning",
+              "revealAt": 215.86
+            },
+            {
+              "lineId": "p3-line-27",
+              "line": 27,
+              "quote": "probably the most memorable thing about this production",
+              "revealAt": 220.22
+            },
+            {
+              "lineId": "p3-line-28",
+              "line": 28,
+              "quote": "You’re right",
+              "revealAt": 227.88
+            },
+            {
+              "lineId": "p3-line-28",
+              "line": 28,
+              "quote": "The set design was really amazing",
+              "revealAt": 227.88
+            }
+          ],
+          "distractors": [],
+          "questionText": "the set"
+        },
+        {
+          "id": "p3-q24",
+          "question": 24,
+          "start": 231.18,
+          "end": 241.16,
+          "endLine": 33,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：so dimly lit it was quite hard to see / It helped to change the mood of the quieter scenes",
+          "evidence": [
+            {
+              "lineId": "p3-line-30",
+              "line": 30,
+              "quote": "so dimly lit it was quite hard to see",
+              "revealAt": 234.76
+            },
+            {
+              "lineId": "p3-line-32",
+              "line": 32,
+              "quote": "It helped to change the mood of the quieter scenes",
+              "revealAt": 239.92
+            },
+            {
+              "lineId": "p3-line-33",
+              "line": 33,
+              "quote": "That’s a good point",
+              "revealAt": 241.16
+            }
+          ],
+          "distractors": [],
+          "questionText": "the lighting"
+        },
+        {
+          "id": "p3-q25",
+          "question": 25,
+          "start": 244.1,
+          "end": 264.12,
+          "endLine": 37,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：I was a bit surprised by the contemporary dress / worked well",
+          "evidence": [
+            {
+              "lineId": "p3-line-35",
+              "line": 35,
+              "quote": "I was a bit surprised by the contemporary dress",
+              "revealAt": 247.52
+            },
+            {
+              "lineId": "p3-line-36",
+              "line": 36,
+              "quote": "worked well",
+              "revealAt": 251.82
+            },
+            {
+              "lineId": "p3-line-36",
+              "line": 36,
+              "quote": "I had assumed it would be more conventional",
+              "revealAt": 251.82
+            },
+            {
+              "lineId": "p3-line-37",
+              "line": 37,
+              "quote": "Me too",
+              "revealAt": 264.12
+            }
+          ],
+          "distractors": [],
+          "questionText": "the costume design"
+        },
+        {
+          "id": "p3-q26",
+          "question": 26,
+          "start": 251.82,
+          "end": 265.34,
+          "endLine": 38,
+          "answer": "E",
+          "accepted": [
+            "E"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：they were wasted because the music didn’t have much impact in Acts 2 and 3 / Yes – that was a shame",
+          "evidence": [
+            {
+              "lineId": "p3-line-37",
+              "line": 37,
+              "quote": "they were wasted because the music didn’t have much impact in Acts 2 and 3",
+              "revealAt": 264.12
+            },
+            {
+              "lineId": "p3-line-38",
+              "line": 38,
+              "quote": "Yes – that was a shame",
+              "revealAt": 265.34
+            }
+          ],
+          "distractors": [],
+          "questionText": "the music"
+        },
+        {
+          "id": "p3-q27",
+          "question": 27,
+          "start": 271.04,
+          "end": 282.54,
+          "endLine": 42,
+          "answer": "F",
+          "accepted": [
+            "F"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：They were speaking too fast / they weren’t speaking loudly enough",
+          "evidence": [
+            {
+              "lineId": "p3-line-40",
+              "line": 40,
+              "quote": "They were speaking too fast",
+              "revealAt": 272.5
+            },
+            {
+              "lineId": "p3-line-41",
+              "line": 41,
+              "quote": "they weren’t speaking loudly enough",
+              "revealAt": 280.66
+            },
+            {
+              "lineId": "p3-line-42",
+              "line": 42,
+              "quote": "I actually didn’t have a problem with that",
+              "revealAt": 282.54
+            }
+          ],
+          "distractors": [],
+          "questionText": "the actors’ delivery"
+        },
+        {
+          "id": "p3-q28",
+          "question": 28,
+          "start": 298.44,
+          "end": 310.28,
+          "endLine": 47,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：There are always disagreements and tension between teenagers and their parents / that’s something all young people can relate to",
+          "evidence": [
+            {
+              "lineId": "p3-line-46",
+              "line": 46,
+              "quote": "There are always disagreements and tension between teenagers and their parents",
+              "revealAt": 302.52
+            },
+            {
+              "lineId": "p3-line-47",
+              "line": 47,
+              "quote": "that’s something all young people can relate to",
+              "revealAt": 310.28
+            }
+          ],
+          "distractors": [],
+          "questionText": "The students think the story of Romeo and Juliet is still relevant for young people today because"
+        },
+        {
+          "id": "p3-q29",
+          "question": 29,
+          "start": 313.96,
+          "end": 332.32,
+          "endLine": 52,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：more challenging / I could follow the story pretty well",
+          "evidence": [
+            {
+              "lineId": "p3-line-49",
+              "line": 49,
+              "quote": "more challenging",
+              "revealAt": 320.28
+            },
+            {
+              "lineId": "p3-line-49",
+              "line": 49,
+              "quote": "I could follow the story pretty well",
+              "revealAt": 320.28
+            },
+            {
+              "lineId": "p3-line-51",
+              "line": 51,
+              "quote": "pretty powerful",
+              "revealAt": 328.2
+            },
+            {
+              "lineId": "p3-line-52",
+              "line": 52,
+              "quote": "That somehow intensified the emotion for me",
+              "revealAt": 332.32
+            }
+          ],
+          "distractors": [],
+          "questionText": "The students found watching Romeo and Juliet in another language"
+        },
+        {
+          "id": "p3-q30",
+          "question": 30,
+          "start": 343.08,
+          "end": 359.58,
+          "endLine": 58,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：basic themes that people everywhere are familiar with / they can also be understood on different levels",
+          "evidence": [
+            {
+              "lineId": "p3-line-55",
+              "line": 55,
+              "quote": "basic themes that people everywhere are familiar with",
+              "revealAt": 348.94
+            },
+            {
+              "lineId": "p3-line-56",
+              "line": 56,
+              "quote": "they can also be understood on different levels",
+              "revealAt": 352.92
+            },
+            {
+              "lineId": "p3-line-57",
+              "line": 57,
+              "quote": "The characters have such depth",
+              "revealAt": 355.1
+            },
+            {
+              "lineId": "p3-line-58",
+              "line": 58,
+              "quote": "which allows directors to experiment and find new angles",
+              "revealAt": 359.58
+            }
+          ],
+          "distractors": [],
+          "questionText": "Why do the students think Shakespeare’s plays have such international appeal?"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "evidence"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "evidence"
+        },
+        {
+          "line": 20,
+          "role": "evidence"
+        },
+        {
+          "line": 21,
+          "role": "context"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "evidence"
+        },
+        {
+          "line": 27,
+          "role": "evidence"
+        },
+        {
+          "line": 28,
+          "role": "evidence"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "evidence"
+        },
+        {
+          "line": 31,
+          "role": "context"
+        },
+        {
+          "line": 32,
+          "role": "evidence"
+        },
+        {
+          "line": 33,
+          "role": "evidence"
+        },
+        {
+          "line": 34,
+          "role": "context"
+        },
+        {
+          "line": 35,
+          "role": "evidence"
+        },
+        {
+          "line": 36,
+          "role": "evidence"
+        },
+        {
+          "line": 37,
+          "role": "evidence"
+        },
+        {
+          "line": 38,
+          "role": "evidence"
+        },
+        {
+          "line": 39,
+          "role": "context"
+        },
+        {
+          "line": 40,
+          "role": "evidence"
+        },
+        {
+          "line": 41,
+          "role": "evidence"
+        },
+        {
+          "line": 42,
+          "role": "evidence"
+        },
+        {
+          "line": 43,
+          "role": "context"
+        },
+        {
+          "line": 44,
+          "role": "context"
+        },
+        {
+          "line": 45,
+          "role": "context"
+        },
+        {
+          "line": 46,
+          "role": "evidence"
+        },
+        {
+          "line": 47,
+          "role": "evidence"
+        },
+        {
+          "line": 48,
+          "role": "context"
+        },
+        {
+          "line": 49,
+          "role": "evidence"
+        },
+        {
+          "line": 50,
+          "role": "context"
+        },
+        {
+          "line": 51,
+          "role": "evidence"
+        },
+        {
+          "line": 52,
+          "role": "evidence"
+        },
+        {
+          "line": 53,
+          "role": "context"
+        },
+        {
+          "line": 54,
+          "role": "context"
+        },
+        {
+          "line": 55,
+          "role": "evidence"
+        },
+        {
+          "line": 56,
+          "role": "evidence"
+        },
+        {
+          "line": 57,
+          "role": "evidence"
+        },
+        {
+          "line": 58,
+          "role": "evidence"
+        },
+        {
+          "line": 59,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "The Impact of Digital Technology on the Icelandic Language",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Write ONE WORD AND/OR A NUMBER for each answer.",
+      "audioSha256": "25e59fbff26d638d8ccd2d78b92f74fc15a228d662df635730368f03b8b0a1ea",
+      "transcriptSha256": "9316a4ccc6211c7508f0d50a568bc97b5b0bb39ffa774bf57013cddcd00fe8c1",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2013%20Part%204.mp3",
+      "duration": 360.071875,
+      "cues": [
+        {
+          "id": "p4-q31",
+          "question": 31,
+          "start": 96.34,
+          "end": 109.96,
+          "endLine": 2,
+          "answer": "321,000",
+          "accepted": [
+            "321,000"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：is spoken by around 321,000 people",
+          "evidence": [
+            {
+              "lineId": "p4-line-2",
+              "line": 2,
+              "quote": "is spoken by around 321,000 people",
+              "revealAt": 109.96
+            }
+          ],
+          "distractors": [],
+          "questionText": "● has approximately 31 __________ speakers"
+        },
+        {
+          "id": "p4-q32",
+          "question": 32,
+          "start": 121.76,
+          "end": 133.08,
+          "endLine": 5,
+          "answer": "vocabulary",
+          "accepted": [
+            "vocabulary"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：the vocabulary of Icelandic is continually increasing",
+          "evidence": [
+            {
+              "lineId": "p4-line-5",
+              "line": 5,
+              "quote": "the vocabulary of Icelandic is continually increasing",
+              "revealAt": 133.08
+            }
+          ],
+          "distractors": [],
+          "questionText": "● has a 32 __________ that is still growing"
+        },
+        {
+          "id": "p4-q33",
+          "question": 33,
+          "start": 161.86,
+          "end": 167.58,
+          "endLine": 9,
+          "answer": "podcast",
+          "accepted": [
+            "podcast"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：Then there’s an Icelandic word for podcast",
+          "evidence": [
+            {
+              "lineId": "p4-line-9",
+              "line": 9,
+              "quote": "Then there’s an Icelandic word for podcast",
+              "revealAt": 167.58
+            }
+          ],
+          "distractors": [],
+          "questionText": "33 __________"
+        },
+        {
+          "id": "p4-q34",
+          "question": 34,
+          "start": 180.26,
+          "end": 181.22,
+          "endLine": 11,
+          "answer": "smartphones",
+          "accepted": [
+            "smartphones"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：Think about smartphones",
+          "evidence": [
+            {
+              "lineId": "p4-line-11",
+              "line": 11,
+              "quote": "Think about smartphones",
+              "revealAt": 181.22
+            }
+          ],
+          "distractors": [],
+          "questionText": "● are big users of digital technology, such as 34 __________"
+        },
+        {
+          "id": "p4-q35",
+          "question": 35,
+          "start": 195.1,
+          "end": 207.24,
+          "endLine": 13,
+          "answer": "bilingual",
+          "accepted": [
+            "bilingual"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：it’s all happening really fast / promotes their bilingual skills",
+          "evidence": [
+            {
+              "lineId": "p4-line-13",
+              "line": 13,
+              "quote": "it’s all happening really fast",
+              "revealAt": 207.24
+            },
+            {
+              "lineId": "p4-line-13",
+              "line": 13,
+              "quote": "promotes their bilingual skills",
+              "revealAt": 207.24
+            }
+          ],
+          "distractors": [],
+          "questionText": "● are becoming 35 __________ very quickly"
+        },
+        {
+          "id": "p4-q36",
+          "question": 36,
+          "start": 219.94,
+          "end": 228.8,
+          "endLine": 16,
+          "answer": "playground",
+          "accepted": [
+            "playground"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：teachers have found that playground conversations in Icelandic secondary schools can be conducted entirely in English",
+          "evidence": [
+            {
+              "lineId": "p4-line-16",
+              "line": 16,
+              "quote": "teachers have found that playground conversations in Icelandic secondary schools can be conducted entirely in English",
+              "revealAt": 228.8
+            }
+          ],
+          "distractors": [],
+          "questionText": "● are having discussions using only English while they are in the 36 __________ at school"
+        },
+        {
+          "id": "p4-q37",
+          "question": 37,
+          "start": 229.38,
+          "end": 238.02,
+          "endLine": 17,
+          "answer": "picture",
+          "accepted": [
+            "picture"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：their classes find it easier to say what is in a picture using English, rather than Icelandic",
+          "evidence": [
+            {
+              "lineId": "p4-line-17",
+              "line": 17,
+              "quote": "their classes find it easier to say what is in a picture using English, rather than Icelandic",
+              "revealAt": 238.02
+            }
+          ],
+          "distractors": [],
+          "questionText": "● are better able to identify the content of a 37 __________ in English"
+        },
+        {
+          "id": "p4-q38",
+          "question": 38,
+          "start": 270.7,
+          "end": 277.04,
+          "endLine": 21,
+          "answer": "grammar",
+          "accepted": [
+            "grammar"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：The other drawback of Icelandic is the grammar, which is significantly more complex than in most languages",
+          "evidence": [
+            {
+              "lineId": "p4-line-21",
+              "line": 21,
+              "quote": "The other drawback of Icelandic is the grammar, which is significantly more complex than in most languages",
+              "revealAt": 277.04
+            }
+          ],
+          "distractors": [],
+          "questionText": "because of how complicated its 38 __________ is"
+        },
+        {
+          "id": "p4-q39",
+          "question": 39,
+          "start": 329.18,
+          "end": 335.88,
+          "endLine": 29,
+          "answer": "identity",
+          "accepted": [
+            "identity"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：how much of the past is tied up in a language / will young Icelanders lose their sense of their own identity",
+          "evidence": [
+            {
+              "lineId": "p4-line-29",
+              "line": 29,
+              "quote": "how much of the past is tied up in a language",
+              "revealAt": 335.88
+            },
+            {
+              "lineId": "p4-line-29",
+              "line": 29,
+              "quote": "will young Icelanders lose their sense of their own identity",
+              "revealAt": 335.88
+            }
+          ],
+          "distractors": [],
+          "questionText": "● is worried that young Icelanders may lose their 39 __________ as"
+        },
+        {
+          "id": "p4-q40",
+          "question": 40,
+          "start": 340.74,
+          "end": 349.72,
+          "endLine": 31,
+          "answer": "fluent",
+          "accepted": [
+            "fluent"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：If children are learning two languages through different routes, neither of which they are fully fluent in, will they be able to express themselves properly",
+          "evidence": [
+            {
+              "lineId": "p4-line-31",
+              "line": 31,
+              "quote": "If children are learning two languages through different routes, neither of which they are fully fluent in, will they be able to express themselves properly",
+              "revealAt": 349.72
+            }
+          ],
+          "distractors": [],
+          "questionText": "● is worried about the consequences of children not being 40 __________"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "evidence"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "evidence"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "evidence"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "evidence"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "evidence"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "evidence"
+        },
+        {
+          "line": 17,
+          "role": "evidence"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "evidence"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "context"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "evidence"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "evidence"
+        }
+      ]
+    }
+  ]
+}

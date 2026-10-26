@@ -1,0 +1,2038 @@
+{
+  "version": "2026-10-26.1",
+  "practice": 1,
+  "sourceSha256": null,
+  "timingBasis": "Existing recording-aligned transcript timestamps; explanation quotations matched to exact source spans, with explicit editorial endpoint reviews.",
+  "parts": [
+    {
+      "part": 1,
+      "title": "Restaurant recommendations",
+      "subtitle": "完成表格。每題只可填寫一個單字及／或一個數字。",
+      "instructions": "Complete the table. Write ONE WORD AND/OR A NUMBER for each answer.",
+      "audioSha256": "5fad411c208d6a4dd8f4f091234779facd6bac4b7a251d7dfb2c4c4c7855cda2",
+      "transcriptSha256": "0cb362bddd8a820d5941433d4e2b9d14bc9244de4ee179c8b91cc59025961b1f",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%201%20Part%201.mp3",
+      "duration": 376.20525,
+      "cues": [
+        {
+          "id": "p1-q1",
+          "question": 1,
+          "start": 85.44,
+          "end": 98.82,
+          "endLine": 12,
+          "answer": "fish",
+          "accepted": [
+            "fish"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：for that / best restaurant",
+          "evidence": [
+            {
+              "lineId": "p1-line-10",
+              "line": 10,
+              "quote": "for that",
+              "revealAt": 90.58
+            },
+            {
+              "lineId": "p1-line-10",
+              "line": 10,
+              "quote": "best restaurant",
+              "revealAt": 90.58
+            },
+            {
+              "lineId": "p1-line-10",
+              "line": 10,
+              "quote": "If you like fish",
+              "revealAt": 90.58
+            },
+            {
+              "lineId": "p1-line-12",
+              "line": 12,
+              "quote": "all the food is good",
+              "revealAt": 98.82
+            }
+          ],
+          "distractors": [],
+          "questionText": "Good for people who are especially keen on ____."
+        },
+        {
+          "id": "p1-q2",
+          "question": 2,
+          "start": 107.26,
+          "end": 117.66,
+          "endLine": 15,
+          "answer": "roof",
+          "accepted": [
+            "roof"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：go up on the roof and have a drink",
+          "evidence": [
+            {
+              "lineId": "p1-line-15",
+              "line": 15,
+              "quote": "go up on the roof and have a drink",
+              "revealAt": 117.66
+            }
+          ],
+          "distractors": [],
+          "questionText": "The ____ is a good place for a drink."
+        },
+        {
+          "id": "p1-q3",
+          "question": 3,
+          "start": 166.34,
+          "end": 176,
+          "endLine": 28,
+          "answer": "Spanish",
+          "accepted": [
+            "Spanish"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：WOMAN: So is all the food they serve Spanish, then? / MAN: Yeah. You can get lots of small dishes to share – which always works really well if you're in a group.",
+          "evidence": [
+            {
+              "lineId": "p1-line-27",
+              "line": 27,
+              "quote": "WOMAN: So is all the food they serve Spanish, then?",
+              "revealAt": 169
+            },
+            {
+              "lineId": "p1-line-28",
+              "line": 28,
+              "quote": "MAN: Yeah. You can get lots of small dishes to share – which always works really well if you're in a group.",
+              "revealAt": 176
+            }
+          ],
+          "distractors": [],
+          "questionText": "____ food, good for sharing."
+        },
+        {
+          "id": "p1-q4",
+          "question": 4,
+          "start": 192,
+          "end": 204.2,
+          "endLine": 35,
+          "answer": "vegetarian",
+          "accepted": [
+            "vegetarian"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：I should have a look at the menu to check there's a good choice of vegetarian dishes. / A couple of my friends have stopped eating meat.",
+          "evidence": [
+            {
+              "lineId": "p1-line-33",
+              "line": 33,
+              "quote": "I should have a look at the menu to check there's a good choice of vegetarian dishes.",
+              "revealAt": 196.42
+            },
+            {
+              "lineId": "p1-line-34",
+              "line": 34,
+              "quote": "A couple of my friends have stopped eating meat.",
+              "revealAt": 199.7
+            },
+            {
+              "lineId": "p1-line-35",
+              "line": 35,
+              "quote": "MAN: Not sure. I'd say the selection of those would be quite limited.",
+              "revealAt": 204.2
+            }
+          ],
+          "distractors": [],
+          "questionText": "Limited selection of ____ food."
+        },
+        {
+          "id": "p1-q5",
+          "question": 5,
+          "start": 254.46,
+          "end": 269.32,
+          "endLine": 39,
+          "answer": "Audley",
+          "accepted": [
+            "Audley"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：Have you been to The Audley",
+          "evidence": [
+            {
+              "lineId": "p1-line-37",
+              "line": 37,
+              "quote": "Have you been to The Audley",
+              "revealAt": 255.38
+            }
+          ],
+          "distractors": [],
+          "questionText": "The ____."
+        },
+        {
+          "id": "p1-q6",
+          "question": 6,
+          "start": 276.04,
+          "end": 280.46,
+          "endLine": 41,
+          "answer": "hotel",
+          "accepted": [
+            "hotel"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：MAN: It's in that hotel near Baxter Bridge – on the top floor.",
+          "evidence": [
+            {
+              "lineId": "p1-line-41",
+              "line": 41,
+              "quote": "MAN: It's in that hotel near Baxter Bridge – on the top floor.",
+              "revealAt": 280.46
+            }
+          ],
+          "distractors": [],
+          "questionText": "At the top of a ____."
+        },
+        {
+          "id": "p1-q7",
+          "question": 7,
+          "start": 298.26,
+          "end": 303.78,
+          "endLine": 47,
+          "answer": "reviews",
+          "accepted": [
+            "reviews"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：excellent reviews from all the newspapers",
+          "evidence": [
+            {
+              "lineId": "p1-line-47",
+              "line": 47,
+              "quote": "excellent reviews from all the newspapers",
+              "revealAt": 303.78
+            }
+          ],
+          "distractors": [],
+          "questionText": "All the ____ are very good."
+        },
+        {
+          "id": "p1-q8",
+          "question": 8,
+          "start": 316.14,
+          "end": 328.92,
+          "endLine": 51,
+          "answer": "local",
+          "accepted": [
+            "local"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：only likes cooking with local products / sourced within a short distance",
+          "evidence": [
+            {
+              "lineId": "p1-line-50",
+              "line": 50,
+              "quote": "only likes cooking with local products",
+              "revealAt": 319.96
+            },
+            {
+              "lineId": "p1-line-51",
+              "line": 51,
+              "quote": "sourced within a short distance",
+              "revealAt": 328.92
+            }
+          ],
+          "distractors": [],
+          "questionText": "Only ____ ingredients are used."
+        },
+        {
+          "id": "p1-q9",
+          "question": 9,
+          "start": 335.62,
+          "end": 340.4,
+          "endLine": 54,
+          "answer": "30",
+          "accepted": [
+            "30",
+            "thirty",
+            "£30"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：30 a head",
+          "evidence": [
+            {
+              "lineId": "p1-line-54",
+              "line": 54,
+              "quote": "30 a head",
+              "revealAt": 340.4
+            }
+          ],
+          "distractors": [],
+          "questionText": "Set lunch costs £____ per person."
+        },
+        {
+          "id": "p1-q10",
+          "question": 10,
+          "start": 356.52,
+          "end": 362,
+          "endLine": 58,
+          "answer": "average",
+          "accepted": [
+            "average"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：I imagine they'd be average",
+          "evidence": [
+            {
+              "lineId": "p1-line-58",
+              "line": 58,
+              "quote": "I imagine they'd be average",
+              "revealAt": 362
+            }
+          ],
+          "distractors": [],
+          "questionText": "Portions are probably of ____ size."
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "instruction"
+        },
+        {
+          "line": 1,
+          "role": "instruction"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "evidence"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "evidence"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "evidence"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "context"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "evidence"
+        },
+        {
+          "line": 28,
+          "role": "evidence"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "context"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        },
+        {
+          "line": 33,
+          "role": "evidence"
+        },
+        {
+          "line": 34,
+          "role": "evidence"
+        },
+        {
+          "line": 35,
+          "role": "evidence"
+        },
+        {
+          "line": 36,
+          "role": "context"
+        },
+        {
+          "line": 37,
+          "role": "evidence"
+        },
+        {
+          "line": 38,
+          "role": "context"
+        },
+        {
+          "line": 39,
+          "role": "context"
+        },
+        {
+          "line": 40,
+          "role": "context"
+        },
+        {
+          "line": 41,
+          "role": "evidence"
+        },
+        {
+          "line": 42,
+          "role": "context"
+        },
+        {
+          "line": 43,
+          "role": "context"
+        },
+        {
+          "line": 44,
+          "role": "context"
+        },
+        {
+          "line": 45,
+          "role": "context"
+        },
+        {
+          "line": 46,
+          "role": "context"
+        },
+        {
+          "line": 47,
+          "role": "evidence"
+        },
+        {
+          "line": 48,
+          "role": "context"
+        },
+        {
+          "line": 49,
+          "role": "context"
+        },
+        {
+          "line": 50,
+          "role": "evidence"
+        },
+        {
+          "line": 51,
+          "role": "evidence"
+        },
+        {
+          "line": 52,
+          "role": "context"
+        },
+        {
+          "line": 53,
+          "role": "context"
+        },
+        {
+          "line": 54,
+          "role": "evidence"
+        },
+        {
+          "line": 55,
+          "role": "context"
+        },
+        {
+          "line": 56,
+          "role": "context"
+        },
+        {
+          "line": 57,
+          "role": "context"
+        },
+        {
+          "line": 58,
+          "role": "evidence"
+        },
+        {
+          "line": 59,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Pottery workshop",
+      "subtitle": "選擇正確字母。第 17–20 題每組需選擇兩個答案。",
+      "instructions": "Choose the correct letter. For Questions 17–20, choose TWO letters.",
+      "audioSha256": "5d5ee7ee79579cb807e08a2a0e3cbb393b7c4ae523540a3b47d2b6ade2ad744d",
+      "transcriptSha256": "5e21f1b9e7585b8b8d455373c88e30f881e83c05e685404e1dbde2294d31c936",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%201%20Part%202.mp3",
+      "duration": 481.112417,
+      "cues": [
+        {
+          "id": "p2-q11",
+          "question": 11,
+          "start": 95.14,
+          "end": 115.22,
+          "endLine": 8,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：stands the test of time",
+          "evidence": [
+            {
+              "lineId": "p2-line-7",
+              "line": 7,
+              "quote": "stands the test of time",
+              "revealAt": 107.64
+            }
+          ],
+          "distractors": [],
+          "questionText": "Heather says pottery differs from other art forms because"
+        },
+        {
+          "id": "p2-q12",
+          "question": 12,
+          "start": 140.1,
+          "end": 155.62,
+          "endLine": 11,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：The shape of an artefact may have been lost, but archaeologists can tell whether the pots were for, say, storage or cooking by examining the impressions on the clay, the scratches from tools; and the clay itself can reveal where the pots came from.",
+          "evidence": [
+            {
+              "lineId": "p2-line-11",
+              "line": 11,
+              "quote": "The shape of an artefact may have been lost, but archaeologists can tell whether the pots were for, say, storage or cooking by examining the impressions on the clay, the scratches from tools; and the clay itself can reveal where the pots came from.",
+              "revealAt": 155.62
+            }
+          ],
+          "distractors": [],
+          "questionText": "Archaeologists sometimes identify the use of ancient pottery from"
+        },
+        {
+          "id": "p2-q13",
+          "question": 13,
+          "start": 165.32,
+          "end": 182.14,
+          "endLine": 13,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：will also last longer than they do",
+          "evidence": [
+            {
+              "lineId": "p2-line-13",
+              "line": 13,
+              "quote": "will also last longer than they do",
+              "revealAt": 182.14
+            }
+          ],
+          "distractors": [],
+          "questionText": "Some people join Heather's pottery class because they want to"
+        },
+        {
+          "id": "p2-q14",
+          "question": 14,
+          "start": 188.2,
+          "end": 195,
+          "endLine": 15,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：what I love most is the concentration",
+          "evidence": [
+            {
+              "lineId": "p2-line-15",
+              "line": 15,
+              "quote": "what I love most is the concentration",
+              "revealAt": 195
+            }
+          ],
+          "distractors": [],
+          "questionText": "What does Heather value most about being a potter?"
+        },
+        {
+          "id": "p2-q15",
+          "question": 15,
+          "start": 227,
+          "end": 235.52,
+          "endLine": 19,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：nearly everyone who comes here",
+          "evidence": [
+            {
+              "lineId": "p2-line-19",
+              "line": 19,
+              "quote": "nearly everyone who comes here",
+              "revealAt": 235.52
+            }
+          ],
+          "distractors": [],
+          "questionText": "Most of the visitors to Edelman Pottery"
+        },
+        {
+          "id": "p2-q16",
+          "question": 16,
+          "start": 242.6,
+          "end": 251.12,
+          "endLine": 21,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：As we said in our email, please remove any watches, necklaces, etc. and put them somewhere safe.",
+          "evidence": [
+            {
+              "lineId": "p2-line-21",
+              "line": 21,
+              "quote": "As we said in our email, please remove any watches, necklaces, etc. and put them somewhere safe.",
+              "revealAt": 251.12
+            }
+          ],
+          "distractors": [],
+          "questionText": "Heather reminds her visitors that they should"
+        },
+        {
+          "id": "p2-q17",
+          "question": 17,
+          "start": 341.52,
+          "end": 387.74,
+          "endLine": 34,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：Basically, a kiln removes the water from clay at temperatures of around a thousand degrees Celsius. / This allows anything you've made to set permanently in shape.",
+          "evidence": [
+            {
+              "lineId": "p2-line-30",
+              "line": 30,
+              "quote": "Basically, a kiln removes the water from clay at temperatures of around a thousand degrees Celsius.",
+              "revealAt": 349.66
+            },
+            {
+              "lineId": "p2-line-31",
+              "line": 31,
+              "quote": "This allows anything you've made to set permanently in shape.",
+              "revealAt": 355.26
+            },
+            {
+              "lineId": "p2-line-32",
+              "line": 32,
+              "quote": "It's a pretty ugly, heavy object that's hard to keep in a house or flat so most people don't have one.",
+              "revealAt": 364.5
+            },
+            {
+              "lineId": "p2-line-33",
+              "line": 33,
+              "quote": "You may think, ‘Can't I use my oven?' Well, that's possible but domestic ovens don't really get hot enough and eventually the clay will crack and fall apart.",
+              "revealAt": 378.26
+            },
+            {
+              "lineId": "p2-line-34",
+              "line": 34,
+              "quote": "Some people fire pottery in a fire pit outside – but bear in mind that can be dangerous.",
+              "revealAt": 387.74
+            }
+          ],
+          "distractors": [],
+          "questionText": "Which TWO things does Heather explain about kilns?",
+          "groupQuestions": [
+            17,
+            18
+          ]
+        },
+        {
+          "id": "p2-q18",
+          "question": 18,
+          "start": 341.52,
+          "end": 387.74,
+          "endLine": 34,
+          "answer": "E",
+          "accepted": [
+            "E"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：Basically, a kiln removes the water from clay at temperatures of around a thousand degrees Celsius. / This allows anything you've made to set permanently in shape.",
+          "evidence": [
+            {
+              "lineId": "p2-line-30",
+              "line": 30,
+              "quote": "Basically, a kiln removes the water from clay at temperatures of around a thousand degrees Celsius.",
+              "revealAt": 349.66
+            },
+            {
+              "lineId": "p2-line-31",
+              "line": 31,
+              "quote": "This allows anything you've made to set permanently in shape.",
+              "revealAt": 355.26
+            },
+            {
+              "lineId": "p2-line-32",
+              "line": 32,
+              "quote": "It's a pretty ugly, heavy object that's hard to keep in a house or flat so most people don't have one.",
+              "revealAt": 364.5
+            },
+            {
+              "lineId": "p2-line-33",
+              "line": 33,
+              "quote": "You may think, ‘Can't I use my oven?' Well, that's possible but domestic ovens don't really get hot enough and eventually the clay will crack and fall apart.",
+              "revealAt": 378.26
+            },
+            {
+              "lineId": "p2-line-34",
+              "line": 34,
+              "quote": "Some people fire pottery in a fire pit outside – but bear in mind that can be dangerous.",
+              "revealAt": 387.74
+            }
+          ],
+          "distractors": [],
+          "questionText": "Which TWO things does Heather explain about kilns?",
+          "groupQuestions": [
+            17,
+            18
+          ]
+        },
+        {
+          "id": "p2-q19",
+          "question": 19,
+          "start": 437.16,
+          "end": 463.7,
+          "endLine": 44,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：there are some basic tools that you will need / We can provide these",
+          "evidence": [
+            {
+              "lineId": "p2-line-41",
+              "line": 41,
+              "quote": "there are some basic tools that you will need",
+              "revealAt": 443.5
+            },
+            {
+              "lineId": "p2-line-44",
+              "line": 44,
+              "quote": "We can provide these",
+              "revealAt": 463.7
+            }
+          ],
+          "distractors": [],
+          "questionText": "Which TWO points does Heather make about a potter's tools?",
+          "groupQuestions": [
+            19,
+            20
+          ]
+        },
+        {
+          "id": "p2-q20",
+          "question": 20,
+          "start": 437.16,
+          "end": 463.7,
+          "endLine": 44,
+          "answer": "E",
+          "accepted": [
+            "E"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：there are some basic tools that you will need / We can provide these",
+          "evidence": [
+            {
+              "lineId": "p2-line-41",
+              "line": 41,
+              "quote": "there are some basic tools that you will need",
+              "revealAt": 443.5
+            },
+            {
+              "lineId": "p2-line-44",
+              "line": 44,
+              "quote": "We can provide these",
+              "revealAt": 463.7
+            }
+          ],
+          "distractors": [],
+          "questionText": "Which TWO points does Heather make about a potter's tools?",
+          "groupQuestions": [
+            19,
+            20
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "instruction"
+        },
+        {
+          "line": 1,
+          "role": "instruction"
+        },
+        {
+          "line": 2,
+          "role": "instruction"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "evidence"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "evidence"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "evidence"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "evidence"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "evidence"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "evidence"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "instruction"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "context"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "evidence"
+        },
+        {
+          "line": 31,
+          "role": "evidence"
+        },
+        {
+          "line": 32,
+          "role": "evidence"
+        },
+        {
+          "line": 33,
+          "role": "evidence"
+        },
+        {
+          "line": 34,
+          "role": "evidence"
+        },
+        {
+          "line": 35,
+          "role": "context"
+        },
+        {
+          "line": 36,
+          "role": "context"
+        },
+        {
+          "line": 37,
+          "role": "context"
+        },
+        {
+          "line": 38,
+          "role": "context"
+        },
+        {
+          "line": 39,
+          "role": "context"
+        },
+        {
+          "line": 40,
+          "role": "context"
+        },
+        {
+          "line": 41,
+          "role": "evidence"
+        },
+        {
+          "line": 42,
+          "role": "context"
+        },
+        {
+          "line": 43,
+          "role": "context"
+        },
+        {
+          "line": 44,
+          "role": "evidence"
+        },
+        {
+          "line": 45,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Loneliness",
+      "subtitle": "選擇正確字母。第 21–26 題每組需選擇兩個答案。",
+      "instructions": "Choose the correct letter. For Questions 21–26, choose TWO letters.",
+      "audioSha256": "7497c0ed20d98e850661135080fc4a43068b39d59f651d079240f141d5f4f149",
+      "transcriptSha256": "7ce74148d3c3f3e9f12714f5760c4dcebb007a252f09a3c18ae703e23c3488c2",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%201%20Part%203.mp3",
+      "duration": 448.117,
+      "cues": [
+        {
+          "id": "p3-q21",
+          "question": 21,
+          "start": 111.24,
+          "end": 150.36,
+          "endLine": 18,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：the way cities are designed / I think you're right",
+          "evidence": [
+            {
+              "lineId": "p3-line-13",
+              "line": 13,
+              "quote": "the way cities are designed",
+              "revealAt": 119.9
+            },
+            {
+              "lineId": "p3-line-14",
+              "line": 14,
+              "quote": "I think you're right",
+              "revealAt": 121.02
+            },
+            {
+              "lineId": "p3-line-17",
+              "line": 17,
+              "quote": "move around for work",
+              "revealAt": 149.74
+            },
+            {
+              "lineId": "p3-line-18",
+              "line": 18,
+              "quote": "That's true",
+              "revealAt": 150.36
+            }
+          ],
+          "distractors": [],
+          "questionText": "Which TWO things do the students both believe are responsible for the increase in loneliness?",
+          "groupQuestions": [
+            21,
+            22
+          ]
+        },
+        {
+          "id": "p3-q22",
+          "question": 22,
+          "start": 111.24,
+          "end": 150.36,
+          "endLine": 18,
+          "answer": "E",
+          "accepted": [
+            "E"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：the way cities are designed / I think you're right",
+          "evidence": [
+            {
+              "lineId": "p3-line-13",
+              "line": 13,
+              "quote": "the way cities are designed",
+              "revealAt": 119.9
+            },
+            {
+              "lineId": "p3-line-14",
+              "line": 14,
+              "quote": "I think you're right",
+              "revealAt": 121.02
+            },
+            {
+              "lineId": "p3-line-17",
+              "line": 17,
+              "quote": "move around for work",
+              "revealAt": 149.74
+            },
+            {
+              "lineId": "p3-line-18",
+              "line": 18,
+              "quote": "That's true",
+              "revealAt": 150.36
+            }
+          ],
+          "distractors": [],
+          "questionText": "Which TWO things do the students both believe are responsible for the increase in loneliness?",
+          "groupQuestions": [
+            21,
+            22
+          ]
+        },
+        {
+          "id": "p3-q23",
+          "question": 23,
+          "start": 169.68,
+          "end": 226.64,
+          "endLine": 29,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：You're right about that one / no doubt",
+          "evidence": [
+            {
+              "lineId": "p3-line-23",
+              "line": 23,
+              "quote": "You're right about that one",
+              "revealAt": 187.5
+            },
+            {
+              "lineId": "p3-line-28",
+              "line": 28,
+              "quote": "no doubt",
+              "revealAt": 222.94
+            },
+            {
+              "lineId": "p3-line-29",
+              "line": 29,
+              "quote": "is sound",
+              "revealAt": 226.64
+            }
+          ],
+          "distractors": [],
+          "questionText": "Which TWO health risks associated with loneliness do the students agree are based on solid evidence?",
+          "groupQuestions": [
+            23,
+            24
+          ]
+        },
+        {
+          "id": "p3-q24",
+          "question": 24,
+          "start": 169.68,
+          "end": 226.64,
+          "endLine": 29,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：You're right about that one / no doubt",
+          "evidence": [
+            {
+              "lineId": "p3-line-23",
+              "line": 23,
+              "quote": "You're right about that one",
+              "revealAt": 187.5
+            },
+            {
+              "lineId": "p3-line-28",
+              "line": 28,
+              "quote": "no doubt",
+              "revealAt": 222.94
+            },
+            {
+              "lineId": "p3-line-29",
+              "line": 29,
+              "quote": "is sound",
+              "revealAt": 226.64
+            }
+          ],
+          "distractors": [],
+          "questionText": "Which TWO health risks associated with loneliness do the students agree are based on solid evidence?",
+          "groupQuestions": [
+            23,
+            24
+          ]
+        },
+        {
+          "id": "p3-q25",
+          "question": 25,
+          "start": 255.26,
+          "end": 274.4,
+          "endLine": 36,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：More evidence is needed / not really useful",
+          "evidence": [
+            {
+              "lineId": "p3-line-34",
+              "line": 34,
+              "quote": "More evidence is needed",
+              "revealAt": 262.68
+            },
+            {
+              "lineId": "p3-line-35",
+              "line": 35,
+              "quote": "not really useful",
+              "revealAt": 269.8
+            }
+          ],
+          "distractors": [],
+          "questionText": "Which TWO opinions do both the students express about the evolutionary theory of loneliness?",
+          "groupQuestions": [
+            25,
+            26
+          ]
+        },
+        {
+          "id": "p3-q26",
+          "question": 26,
+          "start": 255.26,
+          "end": 274.4,
+          "endLine": 36,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：More evidence is needed / not really useful",
+          "evidence": [
+            {
+              "lineId": "p3-line-34",
+              "line": 34,
+              "quote": "More evidence is needed",
+              "revealAt": 262.68
+            },
+            {
+              "lineId": "p3-line-35",
+              "line": 35,
+              "quote": "not really useful",
+              "revealAt": 269.8
+            }
+          ],
+          "distractors": [],
+          "questionText": "Which TWO opinions do both the students express about the evolutionary theory of loneliness?",
+          "groupQuestions": [
+            25,
+            26
+          ]
+        },
+        {
+          "id": "p3-q27",
+          "question": 27,
+          "start": 340.08,
+          "end": 354.46,
+          "endLine": 43,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：DEV: There's no available diagnosis or effective treatment – and that's not likely to change. / TAMARA: I don't think so either. I was thinking we should start our presentation with an example from our own experience.",
+          "evidence": [
+            {
+              "lineId": "p3-line-42",
+              "line": 42,
+              "quote": "DEV: There's no available diagnosis or effective treatment – and that's not likely to change.",
+              "revealAt": 345.66
+            },
+            {
+              "lineId": "p3-line-43",
+              "line": 43,
+              "quote": "TAMARA: I don't think so either. I was thinking we should start our presentation with an example from our own experience.",
+              "revealAt": 354.46
+            }
+          ],
+          "distractors": [],
+          "questionText": "When comparing loneliness to depression, the students"
+        },
+        {
+          "id": "p3-q28",
+          "question": 28,
+          "start": 363.02,
+          "end": 379.86,
+          "endLine": 47,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：Everyone will be able to relate to that",
+          "evidence": [
+            {
+              "lineId": "p3-line-46",
+              "line": 46,
+              "quote": "Everyone will be able to relate to that",
+              "revealAt": 372.1
+            }
+          ],
+          "distractors": [],
+          "questionText": "Why do the students decide to start their presentation with an example from their own experience?"
+        },
+        {
+          "id": "p3-q29",
+          "question": 29,
+          "start": 390.7,
+          "end": 403.12,
+          "endLine": 50,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：TAMARA: I don't know about that but it must make people feel more connected with their community. / DEV: True. Although you need to be a certain kind of person to be able to just strike up a conversation.",
+          "evidence": [
+            {
+              "lineId": "p3-line-49",
+              "line": 49,
+              "quote": "TAMARA: I don't know about that but it must make people feel more connected with their community.",
+              "revealAt": 396.26
+            },
+            {
+              "lineId": "p3-line-50",
+              "line": 50,
+              "quote": "DEV: True. Although you need to be a certain kind of person to be able to just strike up a conversation.",
+              "revealAt": 403.12
+            }
+          ],
+          "distractors": [],
+          "questionText": "The students agree that talking to strangers is a good strategy for dealing with loneliness because"
+        },
+        {
+          "id": "p3-q30",
+          "question": 30,
+          "start": 413.64,
+          "end": 435.52,
+          "endLine": 55,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：It's strange the way some people can't stand being by themselves while others love it. / DEV: Yeah. The research shows a certain amount of solitude is beneficial for well-being, which I appreciate – but being alone isn't something I actually like.",
+          "evidence": [
+            {
+              "lineId": "p3-line-52",
+              "line": 52,
+              "quote": "It's strange the way some people can't stand being by themselves while others love it.",
+              "revealAt": 419.2
+            },
+            {
+              "lineId": "p3-line-53",
+              "line": 53,
+              "quote": "DEV: Yeah. The research shows a certain amount of solitude is beneficial for well-being, which I appreciate – but being alone isn't something I actually like.",
+              "revealAt": 430.74
+            },
+            {
+              "lineId": "p3-line-54",
+              "line": 54,
+              "quote": "I'd never choose to go on holiday alone, for example.",
+              "revealAt": 434.34
+            },
+            {
+              "lineId": "p3-line-55",
+              "line": 55,
+              "quote": "TAMARA: Me neither.",
+              "revealAt": 435.52
+            }
+          ],
+          "distractors": [],
+          "questionText": "The students find it difficult to understand why solitude is considered to be"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "instruction"
+        },
+        {
+          "line": 1,
+          "role": "instruction"
+        },
+        {
+          "line": 2,
+          "role": "instruction"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "evidence"
+        },
+        {
+          "line": 14,
+          "role": "evidence"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "evidence"
+        },
+        {
+          "line": 18,
+          "role": "evidence"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "context"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "evidence"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "context"
+        },
+        {
+          "line": 28,
+          "role": "evidence"
+        },
+        {
+          "line": 29,
+          "role": "evidence"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "context"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        },
+        {
+          "line": 33,
+          "role": "context"
+        },
+        {
+          "line": 34,
+          "role": "evidence"
+        },
+        {
+          "line": 35,
+          "role": "evidence"
+        },
+        {
+          "line": 36,
+          "role": "context"
+        },
+        {
+          "line": 37,
+          "role": "context"
+        },
+        {
+          "line": 38,
+          "role": "instruction"
+        },
+        {
+          "line": 39,
+          "role": "context"
+        },
+        {
+          "line": 40,
+          "role": "context"
+        },
+        {
+          "line": 41,
+          "role": "context"
+        },
+        {
+          "line": 42,
+          "role": "evidence"
+        },
+        {
+          "line": 43,
+          "role": "evidence"
+        },
+        {
+          "line": 44,
+          "role": "context"
+        },
+        {
+          "line": 45,
+          "role": "context"
+        },
+        {
+          "line": 46,
+          "role": "evidence"
+        },
+        {
+          "line": 47,
+          "role": "context"
+        },
+        {
+          "line": 48,
+          "role": "context"
+        },
+        {
+          "line": 49,
+          "role": "evidence"
+        },
+        {
+          "line": 50,
+          "role": "evidence"
+        },
+        {
+          "line": 51,
+          "role": "context"
+        },
+        {
+          "line": 52,
+          "role": "evidence"
+        },
+        {
+          "line": 53,
+          "role": "evidence"
+        },
+        {
+          "line": 54,
+          "role": "evidence"
+        },
+        {
+          "line": 55,
+          "role": "evidence"
+        },
+        {
+          "line": 56,
+          "role": "context"
+        },
+        {
+          "line": 57,
+          "role": "instruction"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Urban rivers",
+      "subtitle": "完成筆記。每題只可填寫一個單字。",
+      "instructions": "Complete the notes. Write ONE WORD ONLY for each answer.",
+      "audioSha256": "4088a9db87c7a3f0c3feeae2f6092d7cf5c0357f1841ca33705f6092a004fcf7",
+      "transcriptSha256": "22b9920c1afbeb4959db1f3f2ff66ece8a69e1a8d87458f6c2b88e8c7dd2e64e",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%201%20Part%204.mp3",
+      "duration": 394.463583,
+      "cues": [
+        {
+          "id": "p4-q31",
+          "question": 31,
+          "start": 142.5,
+          "end": 151.24,
+          "endLine": 12,
+          "answer": "factories",
+          "accepted": [
+            "factories"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：In addition, other types of pollution increased as factories were built beside the river and discharged their waste materials into the water.",
+          "evidence": [
+            {
+              "lineId": "p4-line-12",
+              "line": 12,
+              "quote": "In addition, other types of pollution increased as factories were built beside the river and discharged their waste materials into the water.",
+              "revealAt": 151.24
+            }
+          ],
+          "distractors": [],
+          "questionText": "Pollution from ____ on the river bank."
+        },
+        {
+          "id": "p4-q32",
+          "question": 32,
+          "start": 154.38,
+          "end": 167.36,
+          "endLine": 14,
+          "answer": "dead",
+          "accepted": [
+            "dead"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：As recently as 1957, scientists at London's Natural History Museum declared that the River Thames was ‘dead' in biological terms, as the water was too filthy to support any kind of life.",
+          "evidence": [
+            {
+              "lineId": "p4-line-14",
+              "line": 14,
+              "quote": "As recently as 1957, scientists at London's Natural History Museum declared that the River Thames was ‘dead' in biological terms, as the water was too filthy to support any kind of life.",
+              "revealAt": 167.36
+            }
+          ],
+          "distractors": [],
+          "questionText": "In 1957, the River Thames was declared biologically ____."
+        },
+        {
+          "id": "p4-q33",
+          "question": 33,
+          "start": 184.2,
+          "end": 194.48,
+          "endLine": 17,
+          "answer": "whale",
+          "accepted": [
+            "whale"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：These days you can see seals swimming in the water and recently people had to try to rescue a whale which had got lost and swum up the river from the sea by mistake.",
+          "evidence": [
+            {
+              "lineId": "p4-line-17",
+              "line": 17,
+              "quote": "These days you can see seals swimming in the water and recently people had to try to rescue a whale which had got lost and swum up the river from the sea by mistake.",
+              "revealAt": 194.48
+            }
+          ],
+          "distractors": [],
+          "questionText": "Seals and even a ____ have been seen in the River Thames."
+        },
+        {
+          "id": "p4-q34",
+          "question": 34,
+          "start": 209.64,
+          "end": 222.14,
+          "endLine": 20,
+          "answer": "apartments",
+          "accepted": [
+            "apartments"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：Warehouses that were once used for storing goods are now being converted into expensive restaurants and also into apartments with river views, which are in great demand and sell for astronomical prices.",
+          "evidence": [
+            {
+              "lineId": "p4-line-20",
+              "line": 20,
+              "quote": "Warehouses that were once used for storing goods are now being converted into expensive restaurants and also into apartments with river views, which are in great demand and sell for astronomical prices.",
+              "revealAt": 222.14
+            }
+          ],
+          "distractors": [],
+          "questionText": "Riverside warehouses are converted to restaurants and ____."
+        },
+        {
+          "id": "p4-q35",
+          "question": 35,
+          "start": 223.44,
+          "end": 237.08,
+          "endLine": 21,
+          "answer": "park",
+          "accepted": [
+            "park"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：make a park there",
+          "evidence": [
+            {
+              "lineId": "p4-line-21",
+              "line": 21,
+              "quote": "make a park there",
+              "revealAt": 237.08
+            }
+          ],
+          "distractors": [],
+          "questionText": "In Los Angeles, there are plans to build a riverside ____."
+        },
+        {
+          "id": "p4-q36",
+          "question": 36,
+          "start": 238.18,
+          "end": 252.52,
+          "endLine": 22,
+          "answer": "art",
+          "accepted": [
+            "art"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：It's also hoped that the riverside can be used for other purposes – it's been proposed that facilities could be provided for displaying projects related to various kinds of art that have been produced by local people, for example.",
+          "evidence": [
+            {
+              "lineId": "p4-line-22",
+              "line": 22,
+              "quote": "It's also hoped that the riverside can be used for other purposes – it's been proposed that facilities could be provided for displaying projects related to various kinds of art that have been produced by local people, for example.",
+              "revealAt": 252.52
+            }
+          ],
+          "distractors": [],
+          "questionText": "In Los Angeles, there are plans to display ____ projects."
+        },
+        {
+          "id": "p4-q37",
+          "question": 37,
+          "start": 253.68,
+          "end": 272.6,
+          "endLine": 23,
+          "answer": "beaches",
+          "accepted": [
+            "beaches"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：In the city of Paris, during the summer months of July and August, all the traffic is banned from the roads by the sides of the river and the banks are transformed into beaches, where people can relax in deckchairs under potted palm trees, sunbathe, or buy a drink or a snack while enjoying the view.",
+          "evidence": [
+            {
+              "lineId": "p4-line-23",
+              "line": 23,
+              "quote": "In the city of Paris, during the summer months of July and August, all the traffic is banned from the roads by the sides of the river and the banks are transformed into beaches, where people can relax in deckchairs under potted palm trees, sunbathe, or buy a drink or a snack while enjoying the view.",
+              "revealAt": 272.6
+            }
+          ],
+          "distractors": [],
+          "questionText": "In Paris, ____ are created on the sides of the river every summer."
+        },
+        {
+          "id": "p4-q38",
+          "question": 38,
+          "start": 301.72,
+          "end": 311.3,
+          "endLine": 26,
+          "answer": "ferry",
+          "accepted": [
+            "ferry"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：more than two billion passengers use the ferry to travel",
+          "evidence": [
+            {
+              "lineId": "p4-line-26",
+              "line": 26,
+              "quote": "more than two billion passengers use the ferry to travel",
+              "revealAt": 311.3
+            }
+          ],
+          "distractors": [],
+          "questionText": "Over 2 billion passengers already travel by ____ in cities around the world."
+        },
+        {
+          "id": "p4-q39",
+          "question": 39,
+          "start": 357.5,
+          "end": 367.2,
+          "endLine": 35,
+          "answer": "bikes",
+          "accepted": [
+            "bikes"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：electric ones",
+          "evidence": [
+            {
+              "lineId": "p4-line-35",
+              "line": 35,
+              "quote": "electric ones",
+              "revealAt": 367.2
+            }
+          ],
+          "distractors": [],
+          "questionText": "Goods could be transported by large freight barges and electric ____."
+        },
+        {
+          "id": "p4-q40",
+          "question": 40,
+          "start": 371.06,
+          "end": 378.08,
+          "endLine": 37,
+          "answer": "drone",
+          "accepted": [
+            "drone"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：in future, the final stage could even be carried out by drone",
+          "evidence": [
+            {
+              "lineId": "p4-line-37",
+              "line": 37,
+              "quote": "in future, the final stage could even be carried out by drone",
+              "revealAt": 378.08
+            }
+          ],
+          "distractors": [],
+          "questionText": "In future, goods could be transported by ____."
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "instruction"
+        },
+        {
+          "line": 1,
+          "role": "instruction"
+        },
+        {
+          "line": 2,
+          "role": "instruction"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "evidence"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "evidence"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "evidence"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "evidence"
+        },
+        {
+          "line": 21,
+          "role": "evidence"
+        },
+        {
+          "line": 22,
+          "role": "evidence"
+        },
+        {
+          "line": 23,
+          "role": "evidence"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "evidence"
+        },
+        {
+          "line": 27,
+          "role": "context"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "context"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        },
+        {
+          "line": 33,
+          "role": "context"
+        },
+        {
+          "line": 34,
+          "role": "context"
+        },
+        {
+          "line": 35,
+          "role": "evidence"
+        },
+        {
+          "line": 36,
+          "role": "context"
+        },
+        {
+          "line": 37,
+          "role": "evidence"
+        }
+      ]
+    }
+  ]
+}

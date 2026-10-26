@@ -1,0 +1,2296 @@
+{
+  "version": "2026-10-26.1",
+  "practice": 12,
+  "sourceSha256": "725c91f771fba9b6b8a513045346de3d24fa4127d01d5d2e371d97916c32bced",
+  "timingBasis": "Existing recording-aligned transcript timestamps; explanation quotations matched to exact source spans, with explicit editorial endpoint reviews.",
+  "parts": [
+    {
+      "part": 1,
+      "title": "Buckworth Conservation Group",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Write ONE WORD AND/OR A NUMBER for each answer.",
+      "audioSha256": "a46acdf3d931544ffe16c541a2c418d1312eab9f4975c0c061d001df712483df",
+      "transcriptSha256": "2d9791cc29195665c4c470374b16387b9dc7f7994da52a5bb16260ce19ce94e6",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2012%20Part%201.mp3",
+      "duration": 340.0620625,
+      "cues": [
+        {
+          "id": "p1-q1",
+          "question": 1,
+          "start": 74.2,
+          "end": 83.04,
+          "endLine": 9,
+          "answer": "litter",
+          "accepted": [
+            "litter"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：One of the regular ones is trying to keep the beach free of litter / A few of us spend a couple of hours a month on it, and it’s awful how much there is to clear",
+          "evidence": [
+            {
+              "lineId": "p1-line-8",
+              "line": 8,
+              "quote": "One of the regular ones is trying to keep the beach free of litter",
+              "revealAt": 77.6
+            },
+            {
+              "lineId": "p1-line-9",
+              "line": 9,
+              "quote": "A few of us spend a couple of hours a month on it, and it’s awful how much there is to clear",
+              "revealAt": 83.04
+            }
+          ],
+          "distractors": [],
+          "questionText": "● making sure the beach does not have 1 __________ on it"
+        },
+        {
+          "id": "p1-q2",
+          "question": 2,
+          "start": 91.08,
+          "end": 100.92,
+          "endLine": 15,
+          "answer": "dogs",
+          "accepted": [
+            "dogs"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：Is it OK to take dogs / PETER: I’m afraid not, as they’re banned from the beach itself",
+          "evidence": [
+            {
+              "lineId": "p1-line-12",
+              "line": 12,
+              "quote": "Is it OK to take dogs",
+              "revealAt": 92.64
+            },
+            {
+              "lineId": "p1-line-13",
+              "line": 13,
+              "quote": "PETER: I’m afraid not, as they’re banned from the beach itself",
+              "revealAt": 96.1
+            },
+            {
+              "lineId": "p1-line-14",
+              "line": 14,
+              "quote": "And children are welcome",
+              "revealAt": 100.2
+            },
+            {
+              "lineId": "p1-line-14",
+              "line": 14,
+              "quote": "You can take them along the cliffs, though",
+              "revealAt": 100.2
+            }
+          ],
+          "distractors": [],
+          "questionText": "● no 2 __________"
+        },
+        {
+          "id": "p1-q3",
+          "question": 3,
+          "start": 117.54,
+          "end": 133.04,
+          "endLine": 20,
+          "answer": "insects",
+          "accepted": [
+            "insects"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：PETER: Good / And we have a programme of creating new habitats there",
+          "evidence": [
+            {
+              "lineId": "p1-line-19",
+              "line": 19,
+              "quote": "PETER: Good",
+              "revealAt": 121.56
+            },
+            {
+              "lineId": "p1-line-19",
+              "line": 19,
+              "quote": "And we have a programme of creating new habitats there",
+              "revealAt": 121.56
+            },
+            {
+              "lineId": "p1-line-20",
+              "line": 20,
+              "quote": "We’ve just finished making and installing nesting boxes for birds to use, and next we’re going to work on encouraging insects – they’re important for the biodiversity of the reserve",
+              "revealAt": 133.04
+            }
+          ],
+          "distractors": [],
+          "questionText": "● next task is taking action to attract 3 __________ to the place"
+        },
+        {
+          "id": "p1-q4",
+          "question": 4,
+          "start": 134.96,
+          "end": 151.0,
+          "endLine": 24,
+          "answer": "butterflies",
+          "accepted": [
+            "butterflies"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：PETER: Oh, and we’re also running a project to identify the different species of butterflies that visit the reserve / JAN: Sure",
+          "evidence": [
+            {
+              "lineId": "p1-line-22",
+              "line": 22,
+              "quote": "PETER: Oh, and we’re also running a project to identify the different species of butterflies that visit the reserve",
+              "revealAt": 141.12
+            },
+            {
+              "lineId": "p1-line-24",
+              "line": 24,
+              "quote": "JAN: Sure",
+              "revealAt": 151.0
+            },
+            {
+              "lineId": "p1-line-24",
+              "line": 24,
+              "quote": "I was involved in something similar where I used to live, counting all the species of moths",
+              "revealAt": 151.0
+            }
+          ],
+          "distractors": [],
+          "questionText": "● identifying types of 4 __________"
+        },
+        {
+          "id": "p1-q5",
+          "question": 5,
+          "start": 153.0,
+          "end": 163.16,
+          "endLine": 27,
+          "answer": "wall",
+          "accepted": [
+            "wall"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：PETER: Another job we’re doing at the reserve is replacing the wall on the southern side, between the parking area and our woodshed / It was badly damaged in a storm last month",
+          "evidence": [
+            {
+              "lineId": "p1-line-26",
+              "line": 26,
+              "quote": "PETER: Another job we’re doing at the reserve is replacing the wall on the southern side, between the parking area and our woodshed",
+              "revealAt": 160.08
+            },
+            {
+              "lineId": "p1-line-27",
+              "line": 27,
+              "quote": "It was badly damaged in a storm last month",
+              "revealAt": 163.16
+            }
+          ],
+          "distractors": [],
+          "questionText": "● building a new 5 __________"
+        },
+        {
+          "id": "p1-q6",
+          "question": 6,
+          "start": 220.36,
+          "end": 233.58,
+          "endLine": 33,
+          "answer": "island",
+          "accepted": [
+            "island"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：PETER: Yes, we do / The next walk is to Ruston Island, a week on Saturday",
+          "evidence": [
+            {
+              "lineId": "p1-line-32",
+              "line": 32,
+              "quote": "PETER: Yes, we do",
+              "revealAt": 224.7
+            },
+            {
+              "lineId": "p1-line-32",
+              "line": 32,
+              "quote": "The next walk is to Ruston Island, a week on Saturday",
+              "revealAt": 224.7
+            },
+            {
+              "lineId": "p1-line-33",
+              "line": 33,
+              "quote": "We’ll be meeting in the car park at Dunsmore Beach at low tide – that’s when the sands are dry enough for us to walk to the island without getting wet",
+              "revealAt": 233.58
+            }
+          ],
+          "distractors": [],
+          "questionText": "● walk across the sands and reach the 6 __________"
+        },
+        {
+          "id": "p1-q7",
+          "question": 7,
+          "start": 253.54,
+          "end": 262.72,
+          "endLine": 40,
+          "answer": "boots",
+          "accepted": [
+            "boots"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：PETER: Yes, do bring one, as it’s a full-day walk / And of course it’ll be wet walking across and back, so make sure your boots are waterproof",
+          "evidence": [
+            {
+              "lineId": "p1-line-39",
+              "line": 39,
+              "quote": "PETER: Yes, do bring one, as it’s a full-day walk",
+              "revealAt": 256.52
+            },
+            {
+              "lineId": "p1-line-40",
+              "line": 40,
+              "quote": "And of course it’ll be wet walking across and back, so make sure your boots are waterproof",
+              "revealAt": 262.72
+            }
+          ],
+          "distractors": [],
+          "questionText": "● wear appropriate 7 __________"
+        },
+        {
+          "id": "p1-q8",
+          "question": 8,
+          "start": 277.76,
+          "end": 290.96,
+          "endLine": 46,
+          "answer": "beginners",
+          "accepted": [
+            "beginners"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：JAN: I’ve never tried that before / Is it OK for beginners to take part",
+          "evidence": [
+            {
+              "lineId": "p1-line-44",
+              "line": 44,
+              "quote": "JAN: I’ve never tried that before",
+              "revealAt": 279.28
+            },
+            {
+              "lineId": "p1-line-45",
+              "line": 45,
+              "quote": "Is it OK for beginners to take part",
+              "revealAt": 282.5
+            },
+            {
+              "lineId": "p1-line-46",
+              "line": 46,
+              "quote": "PETER: Definitely",
+              "revealAt": 290.96
+            },
+            {
+              "lineId": "p1-line-46",
+              "line": 46,
+              "quote": "There’ll be a couple of experts leading the session, and we keep the number of participants down, so you’ll get as much help as you need",
+              "revealAt": 290.96
+            }
+          ],
+          "distractors": [],
+          "questionText": "● suitable for 8 __________ to participate in"
+        },
+        {
+          "id": "p1-q9",
+          "question": 9,
+          "start": 291.46,
+          "end": 303.04,
+          "endLine": 49,
+          "answer": "spoons",
+          "accepted": [
+            "spoons"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：JAN: Excellent / I’d love to be able to make chairs",
+          "evidence": [
+            {
+              "lineId": "p1-line-47",
+              "line": 47,
+              "quote": "JAN: Excellent",
+              "revealAt": 294.58
+            },
+            {
+              "lineId": "p1-line-47",
+              "line": 47,
+              "quote": "I’d love to be able to make chairs",
+              "revealAt": 294.58
+            },
+            {
+              "lineId": "p1-line-48",
+              "line": 48,
+              "quote": "PETER: That’s probably too ambitious for one day",
+              "revealAt": 297.6
+            },
+            {
+              "lineId": "p1-line-49",
+              "line": 49,
+              "quote": "You’ll be starting with wooden spoons, and of course learning how to use the tools",
+              "revealAt": 303.04
+            }
+          ],
+          "distractors": [],
+          "questionText": "● making 9 __________ out of wood"
+        },
+        {
+          "id": "p1-q10",
+          "question": 10,
+          "start": 310.36,
+          "end": 324.02,
+          "endLine": 54,
+          "answer": "35",
+          "accepted": [
+            "35"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：until 3 / PETER: It’s on the 17th, from 10 a.m",
+          "evidence": [
+            {
+              "lineId": "p1-line-52",
+              "line": 52,
+              "quote": "until 3",
+              "revealAt": 313.38
+            },
+            {
+              "lineId": "p1-line-52",
+              "line": 52,
+              "quote": "PETER: It’s on the 17th, from 10 a.m",
+              "revealAt": 313.38
+            },
+            {
+              "lineId": "p1-line-53",
+              "line": 53,
+              "quote": "There’s a charge of £35, including lunch, or £40 if you want to camp in the wood",
+              "revealAt": 321.4
+            },
+            {
+              "lineId": "p1-line-54",
+              "line": 54,
+              "quote": "JAN: I should think I’ll come home the same day",
+              "revealAt": 324.02
+            }
+          ],
+          "distractors": [],
+          "questionText": "● cost of session, no camping: £10 __________"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "evidence"
+        },
+        {
+          "line": 9,
+          "role": "evidence"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "evidence"
+        },
+        {
+          "line": 13,
+          "role": "evidence"
+        },
+        {
+          "line": 14,
+          "role": "evidence"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "evidence"
+        },
+        {
+          "line": 20,
+          "role": "evidence"
+        },
+        {
+          "line": 21,
+          "role": "context"
+        },
+        {
+          "line": 22,
+          "role": "evidence"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "evidence"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "evidence"
+        },
+        {
+          "line": 27,
+          "role": "evidence"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "context"
+        },
+        {
+          "line": 32,
+          "role": "evidence"
+        },
+        {
+          "line": 33,
+          "role": "evidence"
+        },
+        {
+          "line": 34,
+          "role": "context"
+        },
+        {
+          "line": 35,
+          "role": "context"
+        },
+        {
+          "line": 36,
+          "role": "context"
+        },
+        {
+          "line": 37,
+          "role": "context"
+        },
+        {
+          "line": 38,
+          "role": "context"
+        },
+        {
+          "line": 39,
+          "role": "evidence"
+        },
+        {
+          "line": 40,
+          "role": "evidence"
+        },
+        {
+          "line": 41,
+          "role": "context"
+        },
+        {
+          "line": 42,
+          "role": "context"
+        },
+        {
+          "line": 43,
+          "role": "context"
+        },
+        {
+          "line": 44,
+          "role": "evidence"
+        },
+        {
+          "line": 45,
+          "role": "evidence"
+        },
+        {
+          "line": 46,
+          "role": "evidence"
+        },
+        {
+          "line": 47,
+          "role": "evidence"
+        },
+        {
+          "line": 48,
+          "role": "evidence"
+        },
+        {
+          "line": 49,
+          "role": "evidence"
+        },
+        {
+          "line": 50,
+          "role": "context"
+        },
+        {
+          "line": 51,
+          "role": "context"
+        },
+        {
+          "line": 52,
+          "role": "evidence"
+        },
+        {
+          "line": 53,
+          "role": "evidence"
+        },
+        {
+          "line": 54,
+          "role": "evidence"
+        },
+        {
+          "line": 55,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Boat Trip Round Tasmania",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Choose the correct letter, A, B or C. · Choose TWO letters, A–E.",
+      "audioSha256": "ce2c9e4dbe08a04748451ff700215e216fd35620b24a4cf4c5327ad3817829bd",
+      "transcriptSha256": "5518e2e25e5c716afbd29ce3d0af297ab5d4d95aae04ac83403fac0beb67298a",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2012%20part%202.mp3",
+      "duration": 384.339625,
+      "cues": [
+        {
+          "id": "p2-q11",
+          "question": 11,
+          "start": 77.8,
+          "end": 99.3,
+          "endLine": 4,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：We already have three staff members on board and on top of that, we can transport a further fifteen people – that’s you – around the coastline / But please note if there are more than nine people on either side of the boat, we’ll move some of you over, otherwise all eighteen of us will end up in the sea",
+          "evidence": [
+            {
+              "lineId": "p2-line-3",
+              "line": 3,
+              "quote": "We already have three staff members on board and on top of that, we can transport a further fifteen people – that’s you – around the coastline",
+              "revealAt": 88.12
+            },
+            {
+              "lineId": "p2-line-4",
+              "line": 4,
+              "quote": "But please note if there are more than nine people on either side of the boat, we’ll move some of you over, otherwise all eighteen of us will end up in the sea",
+              "revealAt": 99.3
+            }
+          ],
+          "distractors": [],
+          "questionText": "What is the maximum number of people who can stand on each side of the boat?"
+        },
+        {
+          "id": "p2-q12",
+          "question": 12,
+          "start": 100.36,
+          "end": 115.58,
+          "endLine": 6,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：We’ve recently upgraded all our boats / They used to be jet black, but our new ones now have these comfortable dark red seats and a light-green exterior in order to stand out from others and help promote our company",
+          "evidence": [
+            {
+              "lineId": "p2-line-5",
+              "line": 5,
+              "quote": "We’ve recently upgraded all our boats",
+              "revealAt": 102.76
+            },
+            {
+              "lineId": "p2-line-6",
+              "line": 6,
+              "quote": "They used to be jet black, but our new ones now have these comfortable dark red seats and a light-green exterior in order to stand out from others and help promote our company",
+              "revealAt": 115.58
+            }
+          ],
+          "distractors": [],
+          "questionText": "What colour are the tour boats?"
+        },
+        {
+          "id": "p2-q13",
+          "question": 13,
+          "start": 126.54,
+          "end": 140.14,
+          "endLine": 10,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：Lunchbox 1 contains ham and tomato sandwiches / Lunchbox 2 contains a cheddar cheese roll and Lunchbox 3 is salad-based and also contains eggs and tuna",
+          "evidence": [
+            {
+              "lineId": "p2-line-9",
+              "line": 9,
+              "quote": "Lunchbox 1 contains ham and tomato sandwiches",
+              "revealAt": 130.1
+            },
+            {
+              "lineId": "p2-line-10",
+              "line": 10,
+              "quote": "Lunchbox 2 contains a cheddar cheese roll and Lunchbox 3 is salad-based and also contains eggs and tuna",
+              "revealAt": 140.14
+            }
+          ],
+          "distractors": [],
+          "questionText": "Which lunchbox is suitable for someone who doesn’t eat meat or fish?"
+        },
+        {
+          "id": "p2-q14",
+          "question": 14,
+          "start": 151.3,
+          "end": 168.0,
+          "endLine": 14,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：I’m sure I don’t have to ask you not to throw anything into the sea / We don’t have any bins to put litter in, but Jess, myself or Ray, our other guide, will collect it from you after lunch and put it all in a large plastic sack",
+          "evidence": [
+            {
+              "lineId": "p2-line-13",
+              "line": 13,
+              "quote": "I’m sure I don’t have to ask you not to throw anything into the sea",
+              "revealAt": 156.02
+            },
+            {
+              "lineId": "p2-line-14",
+              "line": 14,
+              "quote": "We don’t have any bins to put litter in, but Jess, myself or Ray, our other guide, will collect it from you after lunch and put it all in a large plastic sack",
+              "revealAt": 168.0
+            }
+          ],
+          "distractors": [],
+          "questionText": "What should people do with their litter?"
+        },
+        {
+          "id": "p2-q15",
+          "question": 15,
+          "start": 231.96,
+          "end": 276.72,
+          "endLine": 21,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：It was built in 1838 to protect sailors as a number of shipwrecks had led to significant loss of life / In the nineteenth century there were many jobs there, such as polishing the brass lamps, chopping firewood and cleaning windows, that kept lighthouse keepers busy",
+          "evidence": [
+            {
+              "lineId": "p2-line-17",
+              "line": 17,
+              "quote": "It was built in 1838 to protect sailors as a number of shipwrecks had led to significant loss of life",
+              "revealAt": 239.98
+            },
+            {
+              "lineId": "p2-line-20",
+              "line": 20,
+              "quote": "In the nineteenth century there were many jobs there, such as polishing the brass lamps, chopping firewood and cleaning windows, that kept lighthouse keepers busy",
+              "revealAt": 265.94
+            },
+            {
+              "lineId": "p2-line-21",
+              "line": 21,
+              "quote": "These workers were mainly prison convicts until the middle of that century when ordinary families willing to live in such circumstances took over",
+              "revealAt": 276.72
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. Which TWO features of the lighthouse does Lou mention?",
+          "groupQuestions": [
+            15,
+            16
+          ]
+        },
+        {
+          "id": "p2-q16",
+          "question": 16,
+          "start": 231.96,
+          "end": 276.72,
+          "endLine": 21,
+          "answer": "D",
+          "accepted": [
+            "D"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：It was built in 1838 to protect sailors as a number of shipwrecks had led to significant loss of life / In the nineteenth century there were many jobs there, such as polishing the brass lamps, chopping firewood and cleaning windows, that kept lighthouse keepers busy",
+          "evidence": [
+            {
+              "lineId": "p2-line-17",
+              "line": 17,
+              "quote": "It was built in 1838 to protect sailors as a number of shipwrecks had led to significant loss of life",
+              "revealAt": 239.98
+            },
+            {
+              "lineId": "p2-line-20",
+              "line": 20,
+              "quote": "In the nineteenth century there were many jobs there, such as polishing the brass lamps, chopping firewood and cleaning windows, that kept lighthouse keepers busy",
+              "revealAt": 265.94
+            },
+            {
+              "lineId": "p2-line-21",
+              "line": 21,
+              "quote": "These workers were mainly prison convicts until the middle of that century when ordinary families willing to live in such circumstances took over",
+              "revealAt": 276.72
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. Which TWO features of the lighthouse does Lou mention?",
+          "groupQuestions": [
+            15,
+            16
+          ]
+        },
+        {
+          "id": "p2-q17",
+          "question": 17,
+          "start": 282.24,
+          "end": 329.74,
+          "endLine": 28,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：I know everyone loves the penguins, but they’re very shy and, unfortunately, tend to hide from passing boats / But you might see birds in the distance, such as sea eagles, flying around the cliff edges where they nest",
+          "evidence": [
+            {
+              "lineId": "p2-line-23",
+              "line": 23,
+              "quote": "I know everyone loves the penguins, but they’re very shy and, unfortunately, tend to hide from passing boats",
+              "revealAt": 290.22
+            },
+            {
+              "lineId": "p2-line-24",
+              "line": 24,
+              "quote": "But you might see birds in the distance, such as sea eagles, flying around the cliff edges where they nest",
+              "revealAt": 298.4
+            },
+            {
+              "lineId": "p2-line-25",
+              "line": 25,
+              "quote": "When we get to the rocky area inhabited by fur seals, we’ll stop and watch them swimming around the coast",
+              "revealAt": 307.1
+            },
+            {
+              "lineId": "p2-line-26",
+              "line": 26,
+              "quote": "They’re inquisitive creatures so don’t be surprised if one pops up right in front of you",
+              "revealAt": 313.62
+            },
+            {
+              "lineId": "p2-line-27",
+              "line": 27,
+              "quote": "Their predators, orca whales, hunt along the coastline too, but spotting one of these is rare",
+              "revealAt": 321.64
+            },
+            {
+              "lineId": "p2-line-28",
+              "line": 28,
+              "quote": "Dolphins, on the other hand, can sometimes approach on their own or in groups as they ride the waves beside us",
+              "revealAt": 329.74
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. Which TWO types of creature might come close to the boat?",
+          "groupQuestions": [
+            17,
+            18
+          ]
+        },
+        {
+          "id": "p2-q18",
+          "question": 18,
+          "start": 282.24,
+          "end": 329.74,
+          "endLine": 28,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：I know everyone loves the penguins, but they’re very shy and, unfortunately, tend to hide from passing boats / But you might see birds in the distance, such as sea eagles, flying around the cliff edges where they nest",
+          "evidence": [
+            {
+              "lineId": "p2-line-23",
+              "line": 23,
+              "quote": "I know everyone loves the penguins, but they’re very shy and, unfortunately, tend to hide from passing boats",
+              "revealAt": 290.22
+            },
+            {
+              "lineId": "p2-line-24",
+              "line": 24,
+              "quote": "But you might see birds in the distance, such as sea eagles, flying around the cliff edges where they nest",
+              "revealAt": 298.4
+            },
+            {
+              "lineId": "p2-line-25",
+              "line": 25,
+              "quote": "When we get to the rocky area inhabited by fur seals, we’ll stop and watch them swimming around the coast",
+              "revealAt": 307.1
+            },
+            {
+              "lineId": "p2-line-26",
+              "line": 26,
+              "quote": "They’re inquisitive creatures so don’t be surprised if one pops up right in front of you",
+              "revealAt": 313.62
+            },
+            {
+              "lineId": "p2-line-27",
+              "line": 27,
+              "quote": "Their predators, orca whales, hunt along the coastline too, but spotting one of these is rare",
+              "revealAt": 321.64
+            },
+            {
+              "lineId": "p2-line-28",
+              "line": 28,
+              "quote": "Dolphins, on the other hand, can sometimes approach on their own or in groups as they ride the waves beside us",
+              "revealAt": 329.74
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. Which TWO types of creature might come close to the boat?",
+          "groupQuestions": [
+            17,
+            18
+          ]
+        },
+        {
+          "id": "p2-q19",
+          "question": 19,
+          "start": 343.62,
+          "end": 372.98,
+          "endLine": 32,
+          "answer": "D",
+          "accepted": [
+            "D"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：They can only be approached by sea, but if you feel that you want to see more than we’re able to show you, then you can take a kayak into the area on another day and one of our staff will give you more information on that / What we’ll do is to go through a narrow channel, past some incredible rock formations and from there we’ll be able to see the openings to the caves, and at that point we’ll talk to you about what lies beyond",
+          "evidence": [
+            {
+              "lineId": "p2-line-31",
+              "line": 31,
+              "quote": "They can only be approached by sea, but if you feel that you want to see more than we’re able to show you, then you can take a kayak into the area on another day and one of our staff will give you more information on that",
+              "revealAt": 358.0
+            },
+            {
+              "lineId": "p2-line-32",
+              "line": 32,
+              "quote": "What we’ll do is to go through a narrow channel, past some incredible rock formations and from there we’ll be able to see the openings to the caves, and at that point we’ll talk to you about what lies beyond",
+              "revealAt": 372.98
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. Which TWO points does Lou make about the caves?",
+          "groupQuestions": [
+            19,
+            20
+          ]
+        },
+        {
+          "id": "p2-q20",
+          "question": 20,
+          "start": 343.62,
+          "end": 372.98,
+          "endLine": 32,
+          "answer": "E",
+          "accepted": [
+            "E"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：They can only be approached by sea, but if you feel that you want to see more than we’re able to show you, then you can take a kayak into the area on another day and one of our staff will give you more information on that / What we’ll do is to go through a narrow channel, past some incredible rock formations and from there we’ll be able to see the openings to the caves, and at that point we’ll talk to you about what lies beyond",
+          "evidence": [
+            {
+              "lineId": "p2-line-31",
+              "line": 31,
+              "quote": "They can only be approached by sea, but if you feel that you want to see more than we’re able to show you, then you can take a kayak into the area on another day and one of our staff will give you more information on that",
+              "revealAt": 358.0
+            },
+            {
+              "lineId": "p2-line-32",
+              "line": 32,
+              "quote": "What we’ll do is to go through a narrow channel, past some incredible rock formations and from there we’ll be able to see the openings to the caves, and at that point we’ll talk to you about what lies beyond",
+              "revealAt": 372.98
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. Which TWO points does Lou make about the caves?",
+          "groupQuestions": [
+            19,
+            20
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "evidence"
+        },
+        {
+          "line": 4,
+          "role": "evidence"
+        },
+        {
+          "line": 5,
+          "role": "evidence"
+        },
+        {
+          "line": 6,
+          "role": "evidence"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "evidence"
+        },
+        {
+          "line": 10,
+          "role": "evidence"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "evidence"
+        },
+        {
+          "line": 14,
+          "role": "evidence"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "evidence"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "evidence"
+        },
+        {
+          "line": 21,
+          "role": "evidence"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "evidence"
+        },
+        {
+          "line": 24,
+          "role": "evidence"
+        },
+        {
+          "line": 25,
+          "role": "evidence"
+        },
+        {
+          "line": 26,
+          "role": "evidence"
+        },
+        {
+          "line": 27,
+          "role": "evidence"
+        },
+        {
+          "line": 28,
+          "role": "evidence"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "evidence"
+        },
+        {
+          "line": 32,
+          "role": "evidence"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Work Experience for Veterinary Science Students",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Choose the correct letter, A, B or C. · Choose FOUR answers from the box and write the correct letter, A–F, next to",
+      "audioSha256": "a0a19b13a003430acb7e5e9485795ca9599b64d9d77c58d6e4967f42578b5e74",
+      "transcriptSha256": "b47a422714de4f096cb42b47c2e0dcace973dc7cdbc2f80dd0431a81f84eed78",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2012%20Part%203.mp3",
+      "duration": 414.8245,
+      "cues": [
+        {
+          "id": "p3-q21",
+          "question": 21,
+          "start": 80.56,
+          "end": 107.08,
+          "endLine": 7,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：One problem was it was miles away and I don’t drive / And also, I’d really wanted a placement for a month, but I could only get one for two weeks",
+          "evidence": [
+            {
+              "lineId": "p3-line-2",
+              "line": 2,
+              "quote": "One problem was it was miles away and I don’t drive",
+              "revealAt": 83.58
+            },
+            {
+              "lineId": "p3-line-3",
+              "line": 3,
+              "quote": "And also, I’d really wanted a placement for a month, but I could only get one for two weeks",
+              "revealAt": 89.5
+            },
+            {
+              "lineId": "p3-line-4",
+              "line": 4,
+              "quote": "DIANA: I was lucky, the farmer let me stay on the farm so I didn’t have to travel",
+              "revealAt": 95.54
+            },
+            {
+              "lineId": "p3-line-5",
+              "line": 5,
+              "quote": "But finding the right sort of farm to apply to wasn’t easy",
+              "revealAt": 100.12
+            },
+            {
+              "lineId": "p3-line-6",
+              "line": 6,
+              "quote": "TIM: No, they don’t seem to have websites, do they",
+              "revealAt": 103.38
+            },
+            {
+              "lineId": "p3-line-7",
+              "line": 7,
+              "quote": "I found mine through a friend of my mother’s, but it wasn’t easy",
+              "revealAt": 107.08
+            }
+          ],
+          "distractors": [],
+          "questionText": "What problem did both Diana and Tim have when arranging their work experience?"
+        },
+        {
+          "id": "p3-q22",
+          "question": 22,
+          "start": 115.56,
+          "end": 144.64,
+          "endLine": 17,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：I was up most of one night helping a sheep deliver a lamb / TIM: No, the farmer was there, and he told me what to do",
+          "evidence": [
+            {
+              "lineId": "p3-line-11",
+              "line": 11,
+              "quote": "I was up most of one night helping a sheep deliver a lamb",
+              "revealAt": 118.58
+            },
+            {
+              "lineId": "p3-line-13",
+              "line": 13,
+              "quote": "TIM: No, the farmer was there, and he told me what to do",
+              "revealAt": 123.14
+            },
+            {
+              "lineId": "p3-line-14",
+              "line": 14,
+              "quote": "It wasn’t a straightforward birth, but I managed",
+              "revealAt": 126.96
+            },
+            {
+              "lineId": "p3-line-15",
+              "line": 15,
+              "quote": "It was a great feeling to see the lamb stagger to its feet and start feeding almost straightaway, and to know that it was OK",
+              "revealAt": 135.34
+            },
+            {
+              "lineId": "p3-line-17",
+              "line": 17,
+              "quote": "TIM: Then another time a lamb had broken its leg, and they got the vet in to set it, and he talked me through what he was doing",
+              "revealAt": 144.64
+            }
+          ],
+          "distractors": [],
+          "questionText": "Tim was pleased to be able to help"
+        },
+        {
+          "id": "p3-q23",
+          "question": 23,
+          "start": 149.52,
+          "end": 163.76,
+          "endLine": 22,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：The farm was in a valley and they had a lowland breed called Suffolks, although the farmer said they’d had other breeds in the past / TIM: So were they bred for their meat",
+          "evidence": [
+            {
+              "lineId": "p3-line-20",
+              "line": 20,
+              "quote": "The farm was in a valley and they had a lowland breed called Suffolks, although the farmer said they’d had other breeds in the past",
+              "revealAt": 157.54
+            },
+            {
+              "lineId": "p3-line-21",
+              "line": 21,
+              "quote": "TIM: So were they bred for their meat",
+              "revealAt": 159.96
+            },
+            {
+              "lineId": "p3-line-22",
+              "line": 22,
+              "quote": "DIANA: Mostly, yes",
+              "revealAt": 163.76
+            },
+            {
+              "lineId": "p3-line-22",
+              "line": 22,
+              "quote": "They’re quite big and solid",
+              "revealAt": 163.76
+            }
+          ],
+          "distractors": [],
+          "questionText": "Diana says the sheep on her farm"
+        },
+        {
+          "id": "p3-q24",
+          "question": 24,
+          "start": 187.18,
+          "end": 212.18,
+          "endLine": 33,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：And they’re not cheap / DIANA: Yes, I found that too",
+          "evidence": [
+            {
+              "lineId": "p3-line-29",
+              "line": 29,
+              "quote": "And they’re not cheap",
+              "revealAt": 190.62
+            },
+            {
+              "lineId": "p3-line-29",
+              "line": 29,
+              "quote": "DIANA: Yes, I found that too",
+              "revealAt": 190.62
+            },
+            {
+              "lineId": "p3-line-30",
+              "line": 30,
+              "quote": "But my farmer said some are overpriced for what they are",
+              "revealAt": 195.18
+            },
+            {
+              "lineId": "p3-line-31",
+              "line": 31,
+              "quote": "And he didn’t give them as a matter of routine, just at times when the chickens seemed to particularly require them",
+              "revealAt": 201.9
+            },
+            {
+              "lineId": "p3-line-32",
+              "line": 32,
+              "quote": "TIM: Yes, mine said the same",
+              "revealAt": 203.42
+            },
+            {
+              "lineId": "p3-line-33",
+              "line": 33,
+              "quote": "He said certain breeds of chickens might need more supplements than the others, but the cheap and expensive ones are all basically the same",
+              "revealAt": 212.18
+            }
+          ],
+          "distractors": [],
+          "questionText": "What did the students learn about adding supplements to chicken feed?"
+        },
+        {
+          "id": "p3-q25",
+          "question": 25,
+          "start": 217.0,
+          "end": 247.08,
+          "endLine": 39,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：DIANA: Yes, dairy cows / I made a really embarrassing mistake when I was working in the milk shed",
+          "evidence": [
+            {
+              "lineId": "p3-line-36",
+              "line": 36,
+              "quote": "DIANA: Yes, dairy cows",
+              "revealAt": 224.58
+            },
+            {
+              "lineId": "p3-line-36",
+              "line": 36,
+              "quote": "I made a really embarrassing mistake when I was working in the milk shed",
+              "revealAt": 224.58
+            },
+            {
+              "lineId": "p3-line-37",
+              "line": 37,
+              "quote": "Some cows had been treated with antibiotics, so their milk wasn’t suitable for human consumption, and it had to be put in a separate container",
+              "revealAt": 234.46
+            },
+            {
+              "lineId": "p3-line-38",
+              "line": 38,
+              "quote": "But I got mixed up, and I poured some milk from the wrong cow in with the milk for humans, so the whole lot had to be thrown away",
+              "revealAt": 244.08
+            },
+            {
+              "lineId": "p3-line-39",
+              "line": 39,
+              "quote": "The farmer wasn’t too happy with me",
+              "revealAt": 247.08
+            }
+          ],
+          "distractors": [],
+          "questionText": "What happened when Diana was working with dairy cows?"
+        },
+        {
+          "id": "p3-q26",
+          "question": 26,
+          "start": 247.52,
+          "end": 275.78,
+          "endLine": 44,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：TIM: I asked my farmer how much he depended on the vet to deal with health problems / I’d read reports that the livestock’s health is being affected as farmers are under pressure to increase production",
+          "evidence": [
+            {
+              "lineId": "p3-line-40",
+              "line": 40,
+              "quote": "TIM: I asked my farmer how much he depended on the vet to deal with health problems",
+              "revealAt": 251.6
+            },
+            {
+              "lineId": "p3-line-41",
+              "line": 41,
+              "quote": "I’d read reports that the livestock’s health is being affected as farmers are under pressure to increase production",
+              "revealAt": 259.54
+            },
+            {
+              "lineId": "p3-line-42",
+              "line": 42,
+              "quote": "Well, he didn’t agree with that, but he said that actually some of the stuff the vets do, like minor operations, he’d be quite capable of doing himself",
+              "revealAt": 269.52
+            },
+            {
+              "lineId": "p3-line-43",
+              "line": 43,
+              "quote": "DIANA: Yeah",
+              "revealAt": 272.28
+            },
+            {
+              "lineId": "p3-line-43",
+              "line": 43,
+              "quote": "My farmer said the same",
+              "revealAt": 272.28
+            },
+            {
+              "lineId": "p3-line-44",
+              "line": 44,
+              "quote": "But he reckons vets’ skills are still needed",
+              "revealAt": 275.78
+            }
+          ],
+          "distractors": [],
+          "questionText": "What did both farmers mention about vets and farming?"
+        },
+        {
+          "id": "p3-q27",
+          "question": 27,
+          "start": 321.92,
+          "end": 338.44,
+          "endLine": 50,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：TIM: OK / So medical terminology",
+          "evidence": [
+            {
+              "lineId": "p3-line-47",
+              "line": 47,
+              "quote": "TIM: OK",
+              "revealAt": 324.38
+            },
+            {
+              "lineId": "p3-line-47",
+              "line": 47,
+              "quote": "So medical terminology",
+              "revealAt": 324.38
+            },
+            {
+              "lineId": "p3-line-48",
+              "line": 48,
+              "quote": "DIANA: Well, my heart sank when I saw that, especially right at the beginning of the course",
+              "revealAt": 330.78
+            },
+            {
+              "lineId": "p3-line-49",
+              "line": 49,
+              "quote": "And I did struggle with it",
+              "revealAt": 333.34
+            },
+            {
+              "lineId": "p3-line-50",
+              "line": 50,
+              "quote": "TIM: I’d thought it’d be hard, but actually I found it all quite straightforward",
+              "revealAt": 338.44
+            }
+          ],
+          "distractors": [],
+          "questionText": "Medical terminology"
+        },
+        {
+          "id": "p3-q28",
+          "question": 28,
+          "start": 339.08,
+          "end": 355.94,
+          "endLine": 54,
+          "answer": "E",
+          "accepted": [
+            "E"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：What did you think about diet and nutrition / TIM: Do you remember what they told us about pet food and the fact that there’s such limited checking into whether or not it’s contaminated",
+          "evidence": [
+            {
+              "lineId": "p3-line-51",
+              "line": 51,
+              "quote": "What did you think about diet and nutrition",
+              "revealAt": 341.38
+            },
+            {
+              "lineId": "p3-line-53",
+              "line": 53,
+              "quote": "TIM: Do you remember what they told us about pet food and the fact that there’s such limited checking into whether or not it’s contaminated",
+              "revealAt": 350.46
+            },
+            {
+              "lineId": "p3-line-54",
+              "line": 54,
+              "quote": "I mean in comparison with the checks on food for humans – I thought that was terrible",
+              "revealAt": 355.94
+            }
+          ],
+          "distractors": [],
+          "questionText": "Diet and nutrition"
+        },
+        {
+          "id": "p3-q29",
+          "question": 29,
+          "start": 356.32,
+          "end": 385.12,
+          "endLine": 57,
+          "answer": "F",
+          "accepted": [
+            "F"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：DIANA: Mm / I think the module that really impressed me was the animal disease one, when we looked at domesticated animals in different parts of the world, like camels and water buffalo and alpaca",
+          "evidence": [
+            {
+              "lineId": "p3-line-55",
+              "line": 55,
+              "quote": "DIANA: Mm",
+              "revealAt": 369.8
+            },
+            {
+              "lineId": "p3-line-55",
+              "line": 55,
+              "quote": "I think the module that really impressed me was the animal disease one, when we looked at domesticated animals in different parts of the world, like camels and water buffalo and alpaca",
+              "revealAt": 369.8
+            },
+            {
+              "lineId": "p3-line-56",
+              "line": 56,
+              "quote": "The economies of so many countries depend on these, but scientists don’t know much about the diseases that affect them",
+              "revealAt": 377.94
+            },
+            {
+              "lineId": "p3-line-57",
+              "line": 57,
+              "quote": "TIM: Yes, I thought they’d know a lot about ways of controlling and eradicating those diseases, but that’s not the case at all",
+              "revealAt": 385.12
+            }
+          ],
+          "distractors": [],
+          "questionText": "Animal disease"
+        },
+        {
+          "id": "p3-q30",
+          "question": 30,
+          "start": 385.88,
+          "end": 399.62,
+          "endLine": 61,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：I loved the wildlife medication unit / Things like helping birds that have been caught in oil spills",
+          "evidence": [
+            {
+              "lineId": "p3-line-58",
+              "line": 58,
+              "quote": "I loved the wildlife medication unit",
+              "revealAt": 388.28
+            },
+            {
+              "lineId": "p3-line-59",
+              "line": 59,
+              "quote": "Things like helping birds that have been caught in oil spills",
+              "revealAt": 392.44
+            },
+            {
+              "lineId": "p3-line-60",
+              "line": 60,
+              "quote": "That’s something I hadn’t thought about before",
+              "revealAt": 394.92
+            },
+            {
+              "lineId": "p3-line-61",
+              "line": 61,
+              "quote": "DIANA: Yeah, I thought I might write my dissertation on something connected with that",
+              "revealAt": 399.62
+            }
+          ],
+          "distractors": [],
+          "questionText": "Wildlife medication"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "evidence"
+        },
+        {
+          "line": 3,
+          "role": "evidence"
+        },
+        {
+          "line": 4,
+          "role": "evidence"
+        },
+        {
+          "line": 5,
+          "role": "evidence"
+        },
+        {
+          "line": 6,
+          "role": "evidence"
+        },
+        {
+          "line": 7,
+          "role": "evidence"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "evidence"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "evidence"
+        },
+        {
+          "line": 14,
+          "role": "evidence"
+        },
+        {
+          "line": 15,
+          "role": "evidence"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "evidence"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "evidence"
+        },
+        {
+          "line": 21,
+          "role": "evidence"
+        },
+        {
+          "line": 22,
+          "role": "evidence"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "context"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "evidence"
+        },
+        {
+          "line": 30,
+          "role": "evidence"
+        },
+        {
+          "line": 31,
+          "role": "evidence"
+        },
+        {
+          "line": 32,
+          "role": "evidence"
+        },
+        {
+          "line": 33,
+          "role": "evidence"
+        },
+        {
+          "line": 34,
+          "role": "context"
+        },
+        {
+          "line": 35,
+          "role": "context"
+        },
+        {
+          "line": 36,
+          "role": "evidence"
+        },
+        {
+          "line": 37,
+          "role": "evidence"
+        },
+        {
+          "line": 38,
+          "role": "evidence"
+        },
+        {
+          "line": 39,
+          "role": "evidence"
+        },
+        {
+          "line": 40,
+          "role": "evidence"
+        },
+        {
+          "line": 41,
+          "role": "evidence"
+        },
+        {
+          "line": 42,
+          "role": "evidence"
+        },
+        {
+          "line": 43,
+          "role": "evidence"
+        },
+        {
+          "line": 44,
+          "role": "evidence"
+        },
+        {
+          "line": 45,
+          "role": "context"
+        },
+        {
+          "line": 46,
+          "role": "context"
+        },
+        {
+          "line": 47,
+          "role": "evidence"
+        },
+        {
+          "line": 48,
+          "role": "evidence"
+        },
+        {
+          "line": 49,
+          "role": "evidence"
+        },
+        {
+          "line": 50,
+          "role": "evidence"
+        },
+        {
+          "line": 51,
+          "role": "evidence"
+        },
+        {
+          "line": 52,
+          "role": "context"
+        },
+        {
+          "line": 53,
+          "role": "evidence"
+        },
+        {
+          "line": 54,
+          "role": "evidence"
+        },
+        {
+          "line": 55,
+          "role": "evidence"
+        },
+        {
+          "line": 56,
+          "role": "evidence"
+        },
+        {
+          "line": 57,
+          "role": "evidence"
+        },
+        {
+          "line": 58,
+          "role": "evidence"
+        },
+        {
+          "line": 59,
+          "role": "evidence"
+        },
+        {
+          "line": 60,
+          "role": "evidence"
+        },
+        {
+          "line": 61,
+          "role": "evidence"
+        },
+        {
+          "line": 62,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Labyrinths",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Write ONE WORD ONLY for each answer.",
+      "audioSha256": "78e52887d5edfd9deeb39b1cd9be59141e8b58afed15bbdc1863388e575cf210",
+      "transcriptSha256": "abad2f2b9c3e35c9481aab6dd6c3b99173d72ae8dff4010090b08d9cc7553ce8",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2012%20Part%204.mp3",
+      "duration": 383.6081875,
+      "cues": [
+        {
+          "id": "p4-q31",
+          "question": 31,
+          "start": 112.82,
+          "end": 127.22,
+          "endLine": 6,
+          "answer": "puzzle",
+          "accepted": [
+            "puzzle"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：In modern times, the word labyrinth has taken on a different meaning and is often used as a synonym for a maze / A maze is quite different as it is a kind of puzzle with an intricate network of paths",
+          "evidence": [
+            {
+              "lineId": "p4-line-5",
+              "line": 5,
+              "quote": "In modern times, the word labyrinth has taken on a different meaning and is often used as a synonym for a maze",
+              "revealAt": 120.18
+            },
+            {
+              "lineId": "p4-line-6",
+              "line": 6,
+              "quote": "A maze is quite different as it is a kind of puzzle with an intricate network of paths",
+              "revealAt": 127.22
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Mazes are a type of 31 __________"
+        },
+        {
+          "id": "p4-q32",
+          "question": 32,
+          "start": 144.3,
+          "end": 158.8,
+          "endLine": 10,
+          "answer": "logic",
+          "accepted": [
+            "logic"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：Entering a maze usually involves getting lost a few times before using logic to work out the pattern and find your way to the centre and then out again / There are lots of dead ends and paths which lead you back to where you started",
+          "evidence": [
+            {
+              "lineId": "p4-line-9",
+              "line": 9,
+              "quote": "Entering a maze usually involves getting lost a few times before using logic to work out the pattern and find your way to the centre and then out again",
+              "revealAt": 153.56
+            },
+            {
+              "lineId": "p4-line-10",
+              "line": 10,
+              "quote": "There are lots of dead ends and paths which lead you back to where you started",
+              "revealAt": 158.8
+            }
+          ],
+          "distractors": [],
+          "questionText": "○ 32 __________ is needed to navigate through a maze"
+        },
+        {
+          "id": "p4-q33",
+          "question": 33,
+          "start": 159.78,
+          "end": 169.0,
+          "endLine": 12,
+          "answer": "confusion",
+          "accepted": [
+            "confusion"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：The word “maze / This is where the word “amazing",
+          "evidence": [
+            {
+              "lineId": "p4-line-11",
+              "line": 11,
+              "quote": "The word “maze",
+              "revealAt": 165.1
+            },
+            {
+              "lineId": "p4-line-12",
+              "line": 12,
+              "quote": "This is where the word “amazing",
+              "revealAt": 169.0
+            }
+          ],
+          "distractors": [],
+          "questionText": "○ the word “maze” is derived from a word meaning a feeling of 33 __________"
+        },
+        {
+          "id": "p4-q34",
+          "question": 34,
+          "start": 183.84,
+          "end": 208.76,
+          "endLine": 17,
+          "answer": "meditation",
+          "accepted": [
+            "meditation"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：The winding spiral of the labyrinth has been used for centuries as a metaphor for life’s journey / It served as a spiritual reminder that there is purpose and meaning to our lives and helped to give people a sense of direction",
+          "evidence": [
+            {
+              "lineId": "p4-line-15",
+              "line": 15,
+              "quote": "The winding spiral of the labyrinth has been used for centuries as a metaphor for life’s journey",
+              "revealAt": 190.12
+            },
+            {
+              "lineId": "p4-line-16",
+              "line": 16,
+              "quote": "It served as a spiritual reminder that there is purpose and meaning to our lives and helped to give people a sense of direction",
+              "revealAt": 198.74
+            },
+            {
+              "lineId": "p4-line-17",
+              "line": 17,
+              "quote": "Labyrinths are thought to encourage a feeling of calm and have been used as a meditation and prayer tool in many cultures over many centuries",
+              "revealAt": 208.76
+            }
+          ],
+          "distractors": [],
+          "questionText": "○ they have frequently been used in 34 __________ and prayer"
+        },
+        {
+          "id": "p4-q35",
+          "question": 35,
+          "start": 209.82,
+          "end": 226.12,
+          "endLine": 19,
+          "answer": "stone",
+          "accepted": [
+            "stone"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：The earliest examples of the labyrinth spiral pattern have been found carved into stone, from Sardinia to Scandinavia, from Arizona to India to Africa / In Europe, these spiral carvings date from the late Bronze Age",
+          "evidence": [
+            {
+              "lineId": "p4-line-18",
+              "line": 18,
+              "quote": "The earliest examples of the labyrinth spiral pattern have been found carved into stone, from Sardinia to Scandinavia, from Arizona to India to Africa",
+              "revealAt": 220.96
+            },
+            {
+              "lineId": "p4-line-19",
+              "line": 19,
+              "quote": "In Europe, these spiral carvings date from the late Bronze Age",
+              "revealAt": 226.12
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Ancient carvings on 35 __________ have been found across many"
+        },
+        {
+          "id": "p4-q36",
+          "question": 36,
+          "start": 235.78,
+          "end": 242.02,
+          "endLine": 21,
+          "answer": "coins",
+          "accepted": [
+            "coins"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：In Ancient Greece, the labyrinth spiral was used on coins around four thousand years ago",
+          "evidence": [
+            {
+              "lineId": "p4-line-21",
+              "line": 21,
+              "quote": "In Ancient Greece, the labyrinth spiral was used on coins around four thousand years ago",
+              "revealAt": 242.02
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Ancient Greeks used the symbol on 36 __________"
+        },
+        {
+          "id": "p4-q37",
+          "question": 37,
+          "start": 257.34,
+          "end": 281.84,
+          "endLine": 26,
+          "answer": "tree",
+          "accepted": [
+            "tree"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：These were cut into the turf or grass, usually in a circular pattern / The origin of these walking labyrinths remains unclear, but they were probably used for fertility rites which may date back thousands of years",
+          "evidence": [
+            {
+              "lineId": "p4-line-24",
+              "line": 24,
+              "quote": "These were cut into the turf or grass, usually in a circular pattern",
+              "revealAt": 261.48
+            },
+            {
+              "lineId": "p4-line-25",
+              "line": 25,
+              "quote": "The origin of these walking labyrinths remains unclear, but they were probably used for fertility rites which may date back thousands of years",
+              "revealAt": 270.76
+            },
+            {
+              "lineId": "p4-line-26",
+              "line": 26,
+              "quote": "Eleven examples of turf labyrinths survive today, including the largest one at Saffron Walden, England, which used to have a large tree in the middle of it",
+              "revealAt": 281.84
+            }
+          ],
+          "distractors": [],
+          "questionText": "● The largest surviving example of a turf labyrinth once had a big 37 __________ at its centre"
+        },
+        {
+          "id": "p4-q38",
+          "question": 38,
+          "start": 291.12,
+          "end": 303.54,
+          "endLine": 28,
+          "answer": "breathing",
+          "accepted": [
+            "breathing"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：Some believe that walking a labyrinth promotes healing and mindfulness, and there are those who believe in its emotional and physical benefits, which include slower breathing and a restored sense of balance and perspective",
+          "evidence": [
+            {
+              "lineId": "p4-line-28",
+              "line": 28,
+              "quote": "Some believe that walking a labyrinth promotes healing and mindfulness, and there are those who believe in its emotional and physical benefits, which include slower breathing and a restored sense of balance and perspective",
+              "revealAt": 303.54
+            }
+          ],
+          "distractors": [],
+          "questionText": "walking a maze can reduce a person’s 38 __________ rate"
+        },
+        {
+          "id": "p4-q39",
+          "question": 39,
+          "start": 339.58,
+          "end": 345.7,
+          "endLine": 34,
+          "answer": "paper",
+          "accepted": [
+            "paper"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：In some hospitals, patients who can’t walk can have a paper “finger labyrinth",
+          "evidence": [
+            {
+              "lineId": "p4-line-34",
+              "line": 34,
+              "quote": "In some hospitals, patients who can’t walk can have a paper “finger labyrinth",
+              "revealAt": 345.7
+            }
+          ],
+          "distractors": [],
+          "questionText": "○ patients who can’t walk can use “finger labyrinths” made from 39 __________"
+        },
+        {
+          "id": "p4-q40",
+          "question": 40,
+          "start": 346.56,
+          "end": 364.42,
+          "endLine": 36,
+          "answer": "anxiety",
+          "accepted": [
+            "anxiety"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：The science behind the theory is a little sketchy, but there are dozens of small-scale studies which support claims about the benefits of labyrinths / For example, one study found that walking a labyrinth provided “short-term calming, relaxation, and relief from anxiety",
+          "evidence": [
+            {
+              "lineId": "p4-line-35",
+              "line": 35,
+              "quote": "The science behind the theory is a little sketchy, but there are dozens of small-scale studies which support claims about the benefits of labyrinths",
+              "revealAt": 354.76
+            },
+            {
+              "lineId": "p4-line-36",
+              "line": 36,
+              "quote": "For example, one study found that walking a labyrinth provided “short-term calming, relaxation, and relief from anxiety",
+              "revealAt": 364.42
+            }
+          ],
+          "distractors": [],
+          "questionText": "○ research has shown that Alzheimer’s sufferers experience less 40 __________"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "evidence"
+        },
+        {
+          "line": 6,
+          "role": "evidence"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "evidence"
+        },
+        {
+          "line": 10,
+          "role": "evidence"
+        },
+        {
+          "line": 11,
+          "role": "evidence"
+        },
+        {
+          "line": 12,
+          "role": "evidence"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "evidence"
+        },
+        {
+          "line": 16,
+          "role": "evidence"
+        },
+        {
+          "line": 17,
+          "role": "evidence"
+        },
+        {
+          "line": 18,
+          "role": "evidence"
+        },
+        {
+          "line": 19,
+          "role": "evidence"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "evidence"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "evidence"
+        },
+        {
+          "line": 25,
+          "role": "evidence"
+        },
+        {
+          "line": 26,
+          "role": "evidence"
+        },
+        {
+          "line": 27,
+          "role": "context"
+        },
+        {
+          "line": 28,
+          "role": "evidence"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "context"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        },
+        {
+          "line": 33,
+          "role": "context"
+        },
+        {
+          "line": 34,
+          "role": "evidence"
+        },
+        {
+          "line": 35,
+          "role": "evidence"
+        },
+        {
+          "line": 36,
+          "role": "evidence"
+        },
+        {
+          "line": 37,
+          "role": "context"
+        }
+      ]
+    }
+  ]
+}

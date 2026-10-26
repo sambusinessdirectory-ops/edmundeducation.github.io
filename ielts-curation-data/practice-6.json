@@ -1,0 +1,1980 @@
+{
+  "version": "2026-10-26.1",
+  "practice": 6,
+  "sourceSha256": "ffb464b8740a34d6a39f6b8fb8f740cb5307c89e3f8286e0b1f1431ebfc21ace",
+  "timingBasis": "Existing recording-aligned transcript timestamps; explanation quotations matched to exact source spans, with explicit editorial endpoint reviews.",
+  "parts": [
+    {
+      "part": 1,
+      "title": "Guitar Group",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Answer the questions using the instructions in the original question paper below.",
+      "audioSha256": "6b9026ae39e3b4336f96515265be75cc9953dde3981dc66a53431dbbb72983e4",
+      "transcriptSha256": "5d7bf94f1c9dbfeb3452ddd1e3b797dba3f0e25ad058eb0c14f15e40a193176a",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%206%20part%201.mp3",
+      "duration": 439.5885625,
+      "cues": [
+        {
+          "id": "p1-q1",
+          "question": 1,
+          "start": 74.1,
+          "end": 97.92,
+          "endLine": 10,
+          "answer": "Mathieson",
+          "accepted": [
+            "Mathieson"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：His name’s Gary Mathieson / M-A-T-H-I-E-S-O-N",
+          "evidence": [
+            {
+              "lineId": "p1-line-7",
+              "line": 7,
+              "quote": "His name’s Gary Mathieson",
+              "revealAt": 79.14
+            },
+            {
+              "lineId": "p1-line-9",
+              "line": 9,
+              "quote": "M-A-T-H-I-E-S-O-N",
+              "revealAt": 95.98
+            }
+          ],
+          "distractors": [],
+          "questionText": "Coordinator Gary 1 __________"
+        },
+        {
+          "id": "p1-q2",
+          "question": 2,
+          "start": 126.22,
+          "end": 138.44,
+          "endLine": 19,
+          "answer": "beginners",
+          "accepted": [
+            "beginners"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：he said it was a class for beginners / all equally hopeless",
+          "evidence": [
+            {
+              "lineId": "p1-line-18",
+              "line": 18,
+              "quote": "he said it was a class for beginners",
+              "revealAt": 135.4
+            },
+            {
+              "lineId": "p1-line-19",
+              "line": 19,
+              "quote": "all equally hopeless",
+              "revealAt": 138.44
+            }
+          ],
+          "distractors": [],
+          "questionText": "Level 2 __________"
+        },
+        {
+          "id": "p1-q3",
+          "question": 3,
+          "start": 144.4,
+          "end": 154.5,
+          "endLine": 21,
+          "answer": "college",
+          "accepted": [
+            "college"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：he decided to book a room at the college in town",
+          "evidence": [
+            {
+              "lineId": "p1-line-21",
+              "line": 21,
+              "quote": "he decided to book a room at the college in town",
+              "revealAt": 154.5
+            }
+          ],
+          "distractors": [],
+          "questionText": "Place the 3 __________"
+        },
+        {
+          "id": "p1-q4",
+          "question": 4,
+          "start": 164.34,
+          "end": 181.94,
+          "endLine": 26,
+          "answer": "New",
+          "accepted": [
+            "New"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：Is it Lock Street / It’s at the bottom of New Street",
+          "evidence": [
+            {
+              "lineId": "p1-line-24",
+              "line": 24,
+              "quote": "Is it Lock Street",
+              "revealAt": 172.92
+            },
+            {
+              "lineId": "p1-line-25",
+              "line": 25,
+              "quote": "It’s at the bottom of New Street",
+              "revealAt": 180.12
+            }
+          ],
+          "distractors": [],
+          "questionText": "Address 4 __________ Street"
+        },
+        {
+          "id": "p1-q5",
+          "question": 5,
+          "start": 195.62,
+          "end": 205.32,
+          "endLine": 29,
+          "answer": "11",
+          "accepted": [
+            "11",
+            "eleven"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：We meet on Thursdays / but now we meet at 11",
+          "evidence": [
+            {
+              "lineId": "p1-line-29",
+              "line": 29,
+              "quote": "We meet on Thursdays",
+              "revealAt": 205.32
+            },
+            {
+              "lineId": "p1-line-29",
+              "line": 29,
+              "quote": "but now we meet at 11",
+              "revealAt": 205.32
+            },
+            {
+              "lineId": "p1-line-29",
+              "line": 29,
+              "quote": "It used to be at 10:30",
+              "revealAt": 205.32
+            }
+          ],
+          "distractors": [],
+          "questionText": "Time Thursday morning at 5 __________"
+        },
+        {
+          "id": "p1-q6",
+          "question": 6,
+          "start": 224.2,
+          "end": 232.04,
+          "endLine": 33,
+          "answer": "instrument",
+          "accepted": [
+            "instrument"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：There’s a website called “The Perfect Instrument” that sells all sorts of guitars, violins and so on",
+          "evidence": [
+            {
+              "lineId": "p1-line-33",
+              "line": 33,
+              "quote": "There’s a website called “The Perfect Instrument” that sells all sorts of guitars, violins and so on",
+              "revealAt": 232.04
+            }
+          ],
+          "distractors": [],
+          "questionText": "Recommended website “The Perfect 6 __________”"
+        },
+        {
+          "id": "p1-q7",
+          "question": 7,
+          "start": 284.98,
+          "end": 289.56,
+          "endLine": 39,
+          "answer": "ear",
+          "accepted": [
+            "ear"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：Some people have apps they use, but some people do it by ear",
+          "evidence": [
+            {
+              "lineId": "p1-line-39",
+              "line": 39,
+              "quote": "Some people have apps they use, but some people do it by ear",
+              "revealAt": 289.56
+            }
+          ],
+          "distractors": [],
+          "questionText": "tuning guitars — using an app or by _____"
+        },
+        {
+          "id": "p1-q8",
+          "question": 8,
+          "start": 327.0,
+          "end": 336.36,
+          "endLine": 48,
+          "answer": "clapping",
+          "accepted": [
+            "clapping"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：so Gary starts clapping to help us",
+          "evidence": [
+            {
+              "lineId": "p1-line-48",
+              "line": 48,
+              "quote": "so Gary starts clapping to help us",
+              "revealAt": 336.36
+            }
+          ],
+          "distractors": [],
+          "questionText": "strumming chords using our thumbs — keeping time while the teacher is _____"
+        },
+        {
+          "id": "p1-q9",
+          "question": 9,
+          "start": 355.54,
+          "end": 360.66,
+          "endLine": 54,
+          "answer": "recording",
+          "accepted": [
+            "recording"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：He often brings a recording of a song and plays it to us first",
+          "evidence": [
+            {
+              "lineId": "p1-line-54",
+              "line": 54,
+              "quote": "He often brings a recording of a song and plays it to us first",
+              "revealAt": 360.66
+            }
+          ],
+          "distractors": [],
+          "questionText": "playing songs — often listening to a _____ of a song"
+        },
+        {
+          "id": "p1-q10",
+          "question": 10,
+          "start": 399.42,
+          "end": 406.16,
+          "endLine": 61,
+          "answer": "alone",
+          "accepted": [
+            "alone"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：play one at a time, you know, alone",
+          "evidence": [
+            {
+              "lineId": "p1-line-61",
+              "line": 61,
+              "quote": "play one at a time, you know, alone",
+              "revealAt": 406.16
+            }
+          ],
+          "distractors": [],
+          "questionText": "playing single notes and simple tunes — playing together, then _____"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "evidence"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "evidence"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "evidence"
+        },
+        {
+          "line": 19,
+          "role": "evidence"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "evidence"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "evidence"
+        },
+        {
+          "line": 25,
+          "role": "evidence"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "context"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "evidence"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "context"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        },
+        {
+          "line": 33,
+          "role": "evidence"
+        },
+        {
+          "line": 34,
+          "role": "context"
+        },
+        {
+          "line": 35,
+          "role": "context"
+        },
+        {
+          "line": 36,
+          "role": "context"
+        },
+        {
+          "line": 37,
+          "role": "context"
+        },
+        {
+          "line": 38,
+          "role": "context"
+        },
+        {
+          "line": 39,
+          "role": "evidence"
+        },
+        {
+          "line": 40,
+          "role": "context"
+        },
+        {
+          "line": 41,
+          "role": "context"
+        },
+        {
+          "line": 42,
+          "role": "context"
+        },
+        {
+          "line": 43,
+          "role": "context"
+        },
+        {
+          "line": 44,
+          "role": "context"
+        },
+        {
+          "line": 45,
+          "role": "context"
+        },
+        {
+          "line": 46,
+          "role": "context"
+        },
+        {
+          "line": 47,
+          "role": "context"
+        },
+        {
+          "line": 48,
+          "role": "evidence"
+        },
+        {
+          "line": 49,
+          "role": "context"
+        },
+        {
+          "line": 50,
+          "role": "context"
+        },
+        {
+          "line": 51,
+          "role": "context"
+        },
+        {
+          "line": 52,
+          "role": "context"
+        },
+        {
+          "line": 53,
+          "role": "context"
+        },
+        {
+          "line": 54,
+          "role": "evidence"
+        },
+        {
+          "line": 55,
+          "role": "context"
+        },
+        {
+          "line": 56,
+          "role": "context"
+        },
+        {
+          "line": 57,
+          "role": "context"
+        },
+        {
+          "line": 58,
+          "role": "context"
+        },
+        {
+          "line": 59,
+          "role": "context"
+        },
+        {
+          "line": 60,
+          "role": "context"
+        },
+        {
+          "line": 61,
+          "role": "evidence"
+        },
+        {
+          "line": 62,
+          "role": "context"
+        },
+        {
+          "line": 63,
+          "role": "context"
+        },
+        {
+          "line": 64,
+          "role": "context"
+        },
+        {
+          "line": 65,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Working as a Lifeboat Volunteer",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Choose the correct letter, A, B or C. · Choose TWO letters, A–E.",
+      "audioSha256": "bd202ddff2ea0ef0011b36de8cb9fc066ea3678fa9b81192090c7a0f33383401",
+      "transcriptSha256": "e7cd554ef40ff8036c0286ee9286343c9965cb05aa13a15b69232eb7942b1dad",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%206%20Part%202.mp3",
+      "duration": 369.0840625,
+      "cues": [
+        {
+          "id": "p2-q11",
+          "question": 11,
+          "start": 72.76,
+          "end": 89.42,
+          "endLine": 2,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：although that was interesting, I didn't like city life / I thought if I went to live by the sea, I might be able to pursue that interest a bit more in my free time",
+          "evidence": [
+            {
+              "lineId": "p2-line-1",
+              "line": 1,
+              "quote": "although that was interesting, I didn't like city life",
+              "revealAt": 79.4
+            },
+            {
+              "lineId": "p2-line-2",
+              "line": 2,
+              "quote": "I thought if I went to live by the sea, I might be able to pursue that interest a bit more in my free time",
+              "revealAt": 89.42
+            }
+          ],
+          "distractors": [],
+          "questionText": "What made David leave London and move to Northsea?"
+        },
+        {
+          "id": "p2-q12",
+          "question": 12,
+          "start": 104.92,
+          "end": 111.12,
+          "endLine": 5,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：It was built 15 years ago with funds provided by a generous member of the public who'd lived here all her life.",
+          "evidence": [
+            {
+              "lineId": "p2-line-5",
+              "line": 5,
+              "quote": "It was built 15 years ago with funds provided by a generous member of the public who'd lived here all her life.",
+              "revealAt": 111.12
+            }
+          ],
+          "distractors": [],
+          "questionText": "The Lifeboat Institution in Northsea was built with money provided by"
+        },
+        {
+          "id": "p2-q13",
+          "question": 13,
+          "start": 129.38,
+          "end": 144.9,
+          "endLine": 10,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：so that was OK / They gave me tests for colour blindness and they thought I might have a problem there",
+          "evidence": [
+            {
+              "lineId": "p2-line-9",
+              "line": 9,
+              "quote": "so that was OK",
+              "revealAt": 137.2
+            },
+            {
+              "lineId": "p2-line-10",
+              "line": 10,
+              "quote": "They gave me tests for colour blindness and they thought I might have a problem there",
+              "revealAt": 144.9
+            }
+          ],
+          "distractors": [],
+          "questionText": "In his health assessment, the doctor was concerned about the fact that David"
+        },
+        {
+          "id": "p2-q14",
+          "question": 14,
+          "start": 152.74,
+          "end": 161.76,
+          "endLine": 12,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：Our target's to get there in five minutes, then we try to get the boat off the dock and out to sea in another six to eight minutes",
+          "evidence": [
+            {
+              "lineId": "p2-line-12",
+              "line": 12,
+              "quote": "Our target's to get there in five minutes, then we try to get the boat off the dock and out to sea in another six to eight minutes",
+              "revealAt": 161.76
+            }
+          ],
+          "distractors": [],
+          "questionText": "After arriving at the lifeboat station, they aim to launch the boat within"
+        },
+        {
+          "id": "p2-q15",
+          "question": 15,
+          "start": 188.14,
+          "end": 191.88,
+          "endLine": 16,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：it's ultimately my decision whether it's safe to launch the boat",
+          "evidence": [
+            {
+              "lineId": "p2-line-16",
+              "line": 16,
+              "quote": "it's ultimately my decision whether it's safe to launch the boat",
+              "revealAt": 191.88
+            }
+          ],
+          "distractors": [],
+          "questionText": "As a “helmsman”, David has the responsibility of deciding"
+        },
+        {
+          "id": "p2-q16",
+          "question": 16,
+          "start": 202.66,
+          "end": 225.46,
+          "endLine": 20,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：I speak to youth groups and sailing clubs / about the sorts of problems that sailors and swimmers can have if the weather suddenly gets bad",
+          "evidence": [
+            {
+              "lineId": "p2-line-19",
+              "line": 19,
+              "quote": "I speak to youth groups and sailing clubs",
+              "revealAt": 216.6
+            },
+            {
+              "lineId": "p2-line-19",
+              "line": 19,
+              "quote": "about the sorts of problems that sailors and swimmers can have if the weather suddenly gets bad",
+              "revealAt": 216.6
+            }
+          ],
+          "distractors": [
+            {
+              "line": 20,
+              "quote": "a lot of volunteers who organise activities to raise money",
+              "candidateAt": 225.46,
+              "rejectAt": 225.46,
+              "why": "中伏位：fundraising 確實有提到，但 David 說的是 “a lot of volunteers who organise activities to raise money”。錄音沒有說那是他的工作。"
+            }
+          ],
+          "questionText": "As well as going out on the lifeboat, David"
+        },
+        {
+          "id": "p2-q17",
+          "question": 17,
+          "start": 262.62,
+          "end": 307.66,
+          "endLine": 25,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：The training / they could create extreme weather conditions",
+          "evidence": [
+            {
+              "lineId": "p2-line-21",
+              "line": 21,
+              "quote": "The training",
+              "revealAt": 275.96
+            },
+            {
+              "lineId": "p2-line-25",
+              "line": 25,
+              "quote": "they could create extreme weather conditions",
+              "revealAt": 307.66
+            },
+            {
+              "lineId": "p2-line-25",
+              "line": 25,
+              "quote": "what to do if the boat turned over in a storm at night",
+              "revealAt": 307.66
+            }
+          ],
+          "distractors": [
+            {
+              "line": 23,
+              "quote": "done a lot",
+              "candidateAt": 290.92,
+              "rejectAt": 307.66,
+              "why": "中伏位：rope and knot training “done a lot”，內容相當充足，因此 B 的 “quite brief” 不合。Casualty care 因為 David 以前學過 first aid，反而對他很有幫助，錄音沒有說這是他特別困難的一部分。"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. Which TWO things does David say about the lifeboat volunteer training?",
+          "groupQuestions": [
+            17,
+            18
+          ]
+        },
+        {
+          "id": "p2-q18",
+          "question": 18,
+          "start": 262.62,
+          "end": 307.66,
+          "endLine": 25,
+          "answer": "E",
+          "accepted": [
+            "E"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：The training / they could create extreme weather conditions",
+          "evidence": [
+            {
+              "lineId": "p2-line-21",
+              "line": 21,
+              "quote": "The training",
+              "revealAt": 275.96
+            },
+            {
+              "lineId": "p2-line-25",
+              "line": 25,
+              "quote": "they could create extreme weather conditions",
+              "revealAt": 307.66
+            },
+            {
+              "lineId": "p2-line-25",
+              "line": 25,
+              "quote": "what to do if the boat turned over in a storm at night",
+              "revealAt": 307.66
+            }
+          ],
+          "distractors": [
+            {
+              "line": 23,
+              "quote": "done a lot",
+              "candidateAt": 290.92,
+              "rejectAt": 307.66,
+              "why": "中伏位：rope and knot training “done a lot”，內容相當充足，因此 B 的 “quite brief” 不合。Casualty care 因為 David 以前學過 first aid，反而對他很有幫助，錄音沒有說這是他特別困難的一部分。"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. Which TWO things does David say about the lifeboat volunteer training?",
+          "groupQuestions": [
+            17,
+            18
+          ]
+        },
+        {
+          "id": "p2-q19",
+          "question": 19,
+          "start": 330.5,
+          "end": 351.0,
+          "endLine": 32,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：They're a great group – we're like a family really / which helps when you're dragging yourself out of bed",
+          "evidence": [
+            {
+              "lineId": "p2-line-30",
+              "line": 30,
+              "quote": "They're a great group – we're like a family really",
+              "revealAt": 338.38
+            },
+            {
+              "lineId": "p2-line-30",
+              "line": 30,
+              "quote": "which helps when you're dragging yourself out of bed",
+              "revealAt": 338.38
+            },
+            {
+              "lineId": "p2-line-31",
+              "line": 31,
+              "quote": "it's the colder months that can be the most rewarding time",
+              "revealAt": 343.64
+            },
+            {
+              "lineId": "p2-line-32",
+              "line": 32,
+              "quote": "you realise that you can make a huge difference to the outcome",
+              "revealAt": 351.0
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. Which TWO things does David find most motivating about the work he does?",
+          "groupQuestions": [
+            19,
+            20
+          ]
+        },
+        {
+          "id": "p2-q20",
+          "question": 20,
+          "start": 330.5,
+          "end": 351.0,
+          "endLine": 32,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：They're a great group – we're like a family really / which helps when you're dragging yourself out of bed",
+          "evidence": [
+            {
+              "lineId": "p2-line-30",
+              "line": 30,
+              "quote": "They're a great group – we're like a family really",
+              "revealAt": 338.38
+            },
+            {
+              "lineId": "p2-line-30",
+              "line": 30,
+              "quote": "which helps when you're dragging yourself out of bed",
+              "revealAt": 338.38
+            },
+            {
+              "lineId": "p2-line-31",
+              "line": 31,
+              "quote": "it's the colder months that can be the most rewarding time",
+              "revealAt": 343.64
+            },
+            {
+              "lineId": "p2-line-32",
+              "line": 32,
+              "quote": "you realise that you can make a huge difference to the outcome",
+              "revealAt": 351.0
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. Which TWO things does David find most motivating about the work he does?",
+          "groupQuestions": [
+            19,
+            20
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "evidence"
+        },
+        {
+          "line": 2,
+          "role": "evidence"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "evidence"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "evidence"
+        },
+        {
+          "line": 10,
+          "role": "evidence"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "evidence"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "evidence"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "evidence"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "evidence"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "evidence"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "context"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "evidence"
+        },
+        {
+          "line": 31,
+          "role": "evidence"
+        },
+        {
+          "line": 32,
+          "role": "evidence"
+        },
+        {
+          "line": 33,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Recycling footwear",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Choose the correct letter, A, B or C. · Choose FOUR answers from the box and write the correct letter, A–F, next to",
+      "audioSha256": "b59a0bae266ee082b33855beccbe0b454a1771854e19ce34701e64d0ae3fab45",
+      "transcriptSha256": "2fef50b60f756ea2859b6c4873433c9888ec9ba32e83e1abbb9018fe4b341a11",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%206%20Part%203.mp3",
+      "duration": 406.7788125,
+      "cues": [
+        {
+          "id": "p3-q21",
+          "question": 21,
+          "start": 58.18,
+          "end": 74.8,
+          "endLine": 3,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：perhaps there isn't enough to say about it",
+          "evidence": [
+            {
+              "lineId": "p3-line-3",
+              "line": 3,
+              "quote": "perhaps there isn't enough to say about it",
+              "revealAt": 74.8
+            }
+          ],
+          "distractors": [],
+          "questionText": "At first, Don thought the topic of recycling footwear might be too"
+        },
+        {
+          "id": "p3-q22",
+          "question": 22,
+          "start": 97.3,
+          "end": 112.5,
+          "endLine": 12,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：don't they look a bit casual for school uniform / I don't think they're right for that",
+          "evidence": [
+            {
+              "lineId": "p3-line-10",
+              "line": 10,
+              "quote": "don't they look a bit casual for school uniform",
+              "revealAt": 103.6
+            },
+            {
+              "lineId": "p3-line-11",
+              "line": 11,
+              "quote": "I don't think they're right for that",
+              "revealAt": 105.96
+            },
+            {
+              "lineId": "p3-line-12",
+              "line": 12,
+              "quote": "I think some of them look quite smart on pupils",
+              "revealAt": 112.5
+            }
+          ],
+          "distractors": [
+            {
+              "line": 10,
+              "quote": "I know",
+              "candidateAt": 103.6,
+              "rejectAt": 112.5,
+              "why": "中伏位：兩人都接受 trainers 很受年輕人歡迎；Don 甚至直接回應 “I know”。所以 popularity 並非爭議點。"
+            }
+          ],
+          "questionText": "When discussing trainers, Bella and Don disagree about"
+        },
+        {
+          "id": "p3-q23",
+          "question": 23,
+          "start": 123.94,
+          "end": 133.62,
+          "endLine": 15,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：they don't look great on me anymore / haven't gone out of fashion and still fit",
+          "evidence": [
+            {
+              "lineId": "p3-line-15",
+              "line": 15,
+              "quote": "they don't look great on me anymore",
+              "revealAt": 133.62
+            },
+            {
+              "lineId": "p3-line-15",
+              "line": 15,
+              "quote": "haven't gone out of fashion and still fit",
+              "revealAt": 133.62
+            }
+          ],
+          "distractors": [],
+          "questionText": "Bella says that she sometimes recycles shoes because"
+        },
+        {
+          "id": "p3-q24",
+          "question": 24,
+          "start": 146.56,
+          "end": 158.84,
+          "endLine": 21,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：the amount of recycled footwear has fallen: it's 6 percent now compared to a previous level of 11 percent / That doesn't seem to make sense",
+          "evidence": [
+            {
+              "lineId": "p3-line-20",
+              "line": 20,
+              "quote": "the amount of recycled footwear has fallen: it's 6 percent now compared to a previous level of 11 percent",
+              "revealAt": 156.66
+            },
+            {
+              "lineId": "p3-line-21",
+              "line": 21,
+              "quote": "That doesn't seem to make sense",
+              "revealAt": 158.84
+            }
+          ],
+          "distractors": [],
+          "questionText": "What did the article say that confused Don?"
+        },
+        {
+          "id": "p3-q25",
+          "question": 25,
+          "start": 240.69,
+          "end": 258.54,
+          "endLine": 28,
+          "answer": "E",
+          "accepted": [
+            "E"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：the heels were too stained with mud and grass to re-sell them",
+          "evidence": [
+            {
+              "lineId": "p3-line-28",
+              "line": 28,
+              "quote": "the heels were too stained with mud and grass to re-sell them",
+              "revealAt": 258.54
+            }
+          ],
+          "distractors": [],
+          "questionText": "the high-heeled shoes"
+        },
+        {
+          "id": "p3-q26",
+          "question": 26,
+          "start": 264.76,
+          "end": 275.34,
+          "endLine": 31,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：the heels were worn – but that wasn't the problem / One of the shoes was a much lighter shade than the other one – it had obviously been left in the sun",
+          "evidence": [
+            {
+              "lineId": "p3-line-30",
+              "line": 30,
+              "quote": "the heels were worn – but that wasn't the problem",
+              "revealAt": 268.88
+            },
+            {
+              "lineId": "p3-line-31",
+              "line": 31,
+              "quote": "One of the shoes was a much lighter shade than the other one – it had obviously been left in the sun",
+              "revealAt": 275.34
+            }
+          ],
+          "distractors": [],
+          "questionText": "the ankle boots"
+        },
+        {
+          "id": "p3-q27",
+          "question": 27,
+          "start": 292.32,
+          "end": 299.98,
+          "endLine": 36,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：You'd think it would have been easy to find the other, but it wasn't",
+          "evidence": [
+            {
+              "lineId": "p3-line-35",
+              "line": 35,
+              "quote": "You'd think it would have been easy to find the other, but it wasn't",
+              "revealAt": 296.9
+            }
+          ],
+          "distractors": [
+            {
+              "line": 36,
+              "quote": "were obviously new",
+              "candidateAt": 299.98,
+              "rejectAt": 299.98,
+              "why": "中伏位：baby shoes “were obviously new”，這只令人覺得可惜；新鞋本身沒有造成拒收。"
+            }
+          ],
+          "questionText": "the baby shoes"
+        },
+        {
+          "id": "p3-q28",
+          "question": 28,
+          "start": 308.08,
+          "end": 317.3,
+          "endLine": 40,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：weren't they split / Not exactly",
+          "evidence": [
+            {
+              "lineId": "p3-line-39",
+              "line": 39,
+              "quote": "weren't they split",
+              "revealAt": 310.18
+            },
+            {
+              "lineId": "p3-line-40",
+              "line": 40,
+              "quote": "Not exactly",
+              "revealAt": 317.3
+            },
+            {
+              "lineId": "p3-line-40",
+              "line": 40,
+              "quote": "One of the soles was so worn",
+              "revealAt": 317.3
+            },
+            {
+              "lineId": "p3-line-40",
+              "line": 40,
+              "quote": "that you could put your finger through it",
+              "revealAt": 317.3
+            }
+          ],
+          "distractors": [],
+          "questionText": "the trainers"
+        },
+        {
+          "id": "p3-q29",
+          "question": 29,
+          "start": 357.08,
+          "end": 363.96,
+          "endLine": 46,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：people didn't refuse them for that reason / the pairs of shoes weren't identical",
+          "evidence": [
+            {
+              "lineId": "p3-line-45",
+              "line": 45,
+              "quote": "people didn't refuse them for that reason",
+              "revealAt": 360.66
+            },
+            {
+              "lineId": "p3-line-46",
+              "line": 46,
+              "quote": "the pairs of shoes weren't identical",
+              "revealAt": 363.96
+            }
+          ],
+          "distractors": [],
+          "questionText": "Why did the project to make “new” shoes out of old shoes fail?"
+        },
+        {
+          "id": "p3-q30",
+          "question": 30,
+          "start": 384.64,
+          "end": 391.26,
+          "endLine": 51,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：we can show that by taking a very different approach to it",
+          "evidence": [
+            {
+              "lineId": "p3-line-51",
+              "line": 51,
+              "quote": "we can show that by taking a very different approach to it",
+              "revealAt": 391.26
+            }
+          ],
+          "distractors": [],
+          "questionText": "Bella and Don agree that they can present their topic"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "evidence"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "evidence"
+        },
+        {
+          "line": 11,
+          "role": "evidence"
+        },
+        {
+          "line": 12,
+          "role": "evidence"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "evidence"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "evidence"
+        },
+        {
+          "line": 21,
+          "role": "evidence"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "context"
+        },
+        {
+          "line": 28,
+          "role": "evidence"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "evidence"
+        },
+        {
+          "line": 31,
+          "role": "evidence"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        },
+        {
+          "line": 33,
+          "role": "context"
+        },
+        {
+          "line": 34,
+          "role": "context"
+        },
+        {
+          "line": 35,
+          "role": "evidence"
+        },
+        {
+          "line": 36,
+          "role": "context"
+        },
+        {
+          "line": 37,
+          "role": "context"
+        },
+        {
+          "line": 38,
+          "role": "context"
+        },
+        {
+          "line": 39,
+          "role": "evidence"
+        },
+        {
+          "line": 40,
+          "role": "evidence"
+        },
+        {
+          "line": 41,
+          "role": "context"
+        },
+        {
+          "line": 42,
+          "role": "context"
+        },
+        {
+          "line": 43,
+          "role": "context"
+        },
+        {
+          "line": 44,
+          "role": "context"
+        },
+        {
+          "line": 45,
+          "role": "evidence"
+        },
+        {
+          "line": 46,
+          "role": "evidence"
+        },
+        {
+          "line": 47,
+          "role": "context"
+        },
+        {
+          "line": 48,
+          "role": "context"
+        },
+        {
+          "line": 49,
+          "role": "context"
+        },
+        {
+          "line": 50,
+          "role": "context"
+        },
+        {
+          "line": 51,
+          "role": "evidence"
+        },
+        {
+          "line": 52,
+          "role": "context"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Tardigrades",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Write ONE WORD ONLY for each answer.",
+      "audioSha256": "657f5e0cd89e03a5bd988c9d64839f7dc0035093fb52216ec6c29ad21d1cf542",
+      "transcriptSha256": "517a0f25a480f92aa736dc29534f304b40b2c159047f9d0f57f42a54c579e376",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%206%20Part%204.mp3",
+      "duration": 418.429375,
+      "cues": [
+        {
+          "id": "p4-q31",
+          "question": 31,
+          "start": 100.62,
+          "end": 108.88,
+          "endLine": 4,
+          "answer": "move",
+          "accepted": [
+            "move"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：water” because that's where they thrive best, and “bear” because of the way they move",
+          "evidence": [
+            {
+              "lineId": "p4-line-4",
+              "line": 4,
+              "quote": "water” because that's where they thrive best, and “bear” because of the way they move",
+              "revealAt": 108.88
+            }
+          ],
+          "distractors": [],
+          "questionText": "● also known as water “bears”, due to how they 31 __________, and"
+        },
+        {
+          "id": "p4-q32",
+          "question": 32,
+          "start": 138.48,
+          "end": 147.04,
+          "endLine": 8,
+          "answer": "short",
+          "accepted": [
+            "short"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：They have a body which is short, and also rounded",
+          "evidence": [
+            {
+              "lineId": "p4-line-8",
+              "line": 8,
+              "quote": "They have a body which is short, and also rounded",
+              "revealAt": 147.04
+            }
+          ],
+          "distractors": [],
+          "questionText": "● a 32 __________ round body and four pairs of legs"
+        },
+        {
+          "id": "p4-q33",
+          "question": 33,
+          "start": 154.94,
+          "end": 170.2,
+          "endLine": 11,
+          "answer": "discs",
+          "accepted": [
+            "discs",
+            "disks"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：some species don't have any claws; what they have are discs, and these work by means of suction / enable the tardigrade to cling on to surfaces or to grip its prey",
+          "evidence": [
+            {
+              "lineId": "p4-line-10",
+              "line": 10,
+              "quote": "some species don't have any claws; what they have are discs, and these work by means of suction",
+              "revealAt": 164.58
+            },
+            {
+              "lineId": "p4-line-11",
+              "line": 11,
+              "quote": "enable the tardigrade to cling on to surfaces or to grip its prey",
+              "revealAt": 170.2
+            }
+          ],
+          "distractors": [],
+          "questionText": "● claws or 33 __________ for gripping"
+        },
+        {
+          "id": "p4-q34",
+          "question": 34,
+          "start": 176.66,
+          "end": 183.3,
+          "endLine": 13,
+          "answer": "oxygen",
+          "accepted": [
+            "oxygen"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：oxygen and also blood are transported in a fluid that fills the cavity of the body",
+          "evidence": [
+            {
+              "lineId": "p4-line-13",
+              "line": 13,
+              "quote": "oxygen and also blood are transported in a fluid that fills the cavity of the body",
+              "revealAt": 183.3
+            }
+          ],
+          "distractors": [],
+          "questionText": "● body filled with a liquid that carries both 34 __________ and blood"
+        },
+        {
+          "id": "p4-q35",
+          "question": 35,
+          "start": 201.78,
+          "end": 209.88,
+          "endLine": 15,
+          "answer": "tube",
+          "accepted": [
+            "tube"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：The tardigrade's mouth is a kind of tube that can open outwards to reveal teeth-like structures known as “stylets",
+          "evidence": [
+            {
+              "lineId": "p4-line-15",
+              "line": 15,
+              "quote": "The tardigrade's mouth is a kind of tube that can open outwards to reveal teeth-like structures known as “stylets",
+              "revealAt": 209.88
+            }
+          ],
+          "distractors": [],
+          "questionText": "● mouth shaped like a 35 __________ with teeth called stylets"
+        },
+        {
+          "id": "p4-q36",
+          "question": 36,
+          "start": 231.62,
+          "end": 253.7,
+          "endLine": 19,
+          "answer": "temperatures",
+          "accepted": [
+            "temperatures"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：There's been some interesting research which has found that tardigrades are capable of surviving radiation and very high pressure, and they're also able to withstand temperatures as cold as –200 degrees centigrade, or highs of more than 148 degrees centigrade, which is incredibly hot.",
+          "evidence": [
+            {
+              "lineId": "p4-line-19",
+              "line": 19,
+              "quote": "There's been some interesting research which has found that tardigrades are capable of surviving radiation and very high pressure, and they're also able to withstand temperatures as cold as –200 degrees centigrade, or highs of more than 148 degrees centigrade, which is incredibly hot.",
+              "revealAt": 253.7
+            }
+          ],
+          "distractors": [],
+          "questionText": "● very resilient and can exist in very low or high 36 __________"
+        },
+        {
+          "id": "p4-q37",
+          "question": 37,
+          "start": 298.32,
+          "end": 305.06,
+          "endLine": 24,
+          "answer": "protein",
+          "accepted": [
+            "protein"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：tardigrades produce a protein that protects their DNA",
+          "evidence": [
+            {
+              "lineId": "p4-line-24",
+              "line": 24,
+              "quote": "tardigrades produce a protein that protects their DNA",
+              "revealAt": 305.06
+            }
+          ],
+          "distractors": [],
+          "questionText": "● A type of 37 __________ ensures their DNA is not damaged."
+        },
+        {
+          "id": "p4-q38",
+          "question": 38,
+          "start": 324.43,
+          "end": 332.63,
+          "endLine": 27,
+          "answer": "space",
+          "accepted": [
+            "space"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：There are currently several tests taking place in space, to determine how long tardigrades might be able to survive there",
+          "evidence": [
+            {
+              "lineId": "p4-line-27",
+              "line": 27,
+              "quote": "There are currently several tests taking place in space, to determine how long tardigrades might be able to survive there",
+              "revealAt": 332.63
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Research is underway to find out how many days they can stay alive in 38 __________."
+        },
+        {
+          "id": "p4-q39",
+          "question": 39,
+          "start": 350.31,
+          "end": 361.61,
+          "endLine": 31,
+          "answer": "seaweed",
+          "accepted": [
+            "seaweed"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：They suck the juices from moss, or extract fluid from seaweed",
+          "evidence": [
+            {
+              "lineId": "p4-line-31",
+              "line": 31,
+              "quote": "They suck the juices from moss, or extract fluid from seaweed",
+              "revealAt": 361.61
+            }
+          ],
+          "distractors": [],
+          "questionText": "● consume liquids, e.g. those found in moss or 39 __________"
+        },
+        {
+          "id": "p4-q40",
+          "question": 40,
+          "start": 387.11,
+          "end": 403.75,
+          "endLine": 36,
+          "answer": "endangered",
+          "accepted": [
+            "endangered"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：are not on any endangered list / Some researchers have described them as thriving",
+          "evidence": [
+            {
+              "lineId": "p4-line-35",
+              "line": 35,
+              "quote": "are not on any endangered list",
+              "revealAt": 399.41
+            },
+            {
+              "lineId": "p4-line-36",
+              "line": 36,
+              "quote": "Some researchers have described them as thriving",
+              "revealAt": 403.75
+            }
+          ],
+          "distractors": [],
+          "questionText": "● They are not considered to be 40 __________."
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "context"
+        },
+        {
+          "line": 1,
+          "role": "context"
+        },
+        {
+          "line": 2,
+          "role": "context"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "evidence"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "evidence"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "evidence"
+        },
+        {
+          "line": 11,
+          "role": "evidence"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "evidence"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "evidence"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "evidence"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "context"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "evidence"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "evidence"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "evidence"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        },
+        {
+          "line": 33,
+          "role": "context"
+        },
+        {
+          "line": 34,
+          "role": "context"
+        },
+        {
+          "line": 35,
+          "role": "evidence"
+        },
+        {
+          "line": 36,
+          "role": "evidence"
+        },
+        {
+          "line": 37,
+          "role": "context"
+        }
+      ]
+    }
+  ]
+}

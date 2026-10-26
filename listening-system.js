@@ -973,17 +973,17 @@ function renderPracticeWorkspace() {
   elements.workspace.hidden = false;
   elements.workspace.style.setProperty("--listening-text-scale", "1");
   elements.workspace.innerHTML = `<div class="practice-workspace__head"><div><p class="eyebrow">INTERACTIVE PRACTICE</p><h2 id="practice-workspace-title">作答系統、答案與同步錄音稿</h2><p>作答後可立即檢查或顯示答案。單字、錄音稿每一行及逐題解析均可加入書簽。</p></div><label class="text-scale-control">文字大小<select data-text-scale aria-label="練習文字大小">${TEXT_SCALES.map((scale) => `<option value="${scale}"${scale === state.textScale ? " selected" : ""}>${scale}×</option>`).join("")}</select></label></div><div class="listening-part-tabs" role="tablist" aria-label="選擇錄音部分">${[1,2,3,4].map((part) => `<button type="button" role="tab" data-part-tab="${part}" aria-selected="${part === state.practicePart}">Part ${part}</button>`).join("")}</div><div data-practice-part-host></div>`;
-  if (state.practice === 2) {
+  if (state.practice >= 1 && state.practice <= 20) {
     const launch = document.createElement('button');
     launch.type = 'button'; launch.className = 'isc-launch';
     launch.innerHTML = '✦ Super Curation<small>四部分逐題聆聽 · 自動暫停 · 證據與筆記</small>';
     launch.addEventListener('click', async () => {
       launch.disabled = true;
       try {
-        const { openSuperCuration } = await import('./ielts-super-curation.mjs?v=20261025-2');
-        if (state.practice !== 2 || !state.content) return;
+        const { openSuperCuration } = await import('./ielts-super-curation.mjs?v=20261026-1');
+        if (!state.content || !launch.isConnected) return;
         pauseAllAudio(); study.stopReplay(); saveCurrentAnswers();
-        openSuperCuration({ content: state.content, part: state.practicePart, storageScope: state.user?.id || 'local' });
+        await openSuperCuration({ content: state.content, part: state.practicePart, storageScope: state.user?.id || 'local' });
       } catch (error) {
         console.warn('IELTS curation could not open', error);
         showToast('Super Curation 暫時未能載入，請再試一次。');

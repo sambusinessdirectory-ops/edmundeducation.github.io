@@ -18,3 +18,5 @@
 
 .isc-reveal-mode{display:block;padding:12px 14px;border-bottom:1px solid var(--line);font-size:12px;font-weight:700}.isc-reveal-mode select{display:block;width:100%;margin-top:6px;font-weight:400}.isc-reveal-answer{margin:10px 0;border-style:dashed!important;background:#edf7f5!important}.isc-authored-explanation{line-height:1.85;overflow-wrap:anywhere}
 @media print{.isc-reveal-answer{display:none!important}}
+
+.isc-original img{display:block;max-width:100%;height:auto;margin:12px auto;background:white}.isc-source-table{overflow:auto}.isc-source-table table{border-collapse:collapse;min-width:520px}.isc-source-table th,.isc-source-table td{border:1px solid var(--line);padding:8px;vertical-align:top}.isc-note-title small{display:block;font:12px/1.5 system-ui;color:#42665d;margin-top:4px}

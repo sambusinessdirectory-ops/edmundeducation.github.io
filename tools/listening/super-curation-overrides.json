@@ -1,0 +1,621 @@
+{
+  "media": {
+    "1.1": {
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%201%20Part%201.mp3",
+      "audioSha256": "5fad411c208d6a4dd8f4f091234779facd6bac4b7a251d7dfb2c4c4c7855cda2",
+      "duration": 376.20525
+    },
+    "1.2": {
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%201%20Part%202.mp3",
+      "audioSha256": "5d5ee7ee79579cb807e08a2a0e3cbb393b7c4ae523540a3b47d2b6ade2ad744d",
+      "duration": 481.112417
+    },
+    "1.3": {
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%201%20Part%203.mp3",
+      "audioSha256": "7497c0ed20d98e850661135080fc4a43068b39d59f651d079240f141d5f4f149",
+      "duration": 448.117
+    },
+    "1.4": {
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%201%20Part%204.mp3",
+      "audioSha256": "4088a9db87c7a3f0c3feeae2f6092d7cf5c0357f1841ca33705f6092a004fcf7",
+      "duration": 394.463583
+    },
+    "15.2": {
+      "duration": 443.305063,
+      "audioSha256": "78c34c03e175685497d63adda7cfd96e35d21a915449b24a6750342eaaa550bd",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2015%20Part%202.mp3"
+    },
+    "17.4": {
+      "duration": 452.635438,
+      "audioSha256": "3845d84988807ed6420f28da49ebc651b13170e5bbc9dc305f74d251c772718b",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2017%20Part%204.mp3"
+    },
+    "18.4": {
+      "duration": 442.106188,
+      "audioSha256": "fd033abdb99e76460d2d3d06e169ae4341f0235ff2a2b2270448c4ec752bd751",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2018%20Part%204.mp3"
+    },
+    "19.4": {
+      "audioSha256": "7daf5df07e54d5582195154d7a7f8a52e1eb8e157edc1125f28a835e7557cebd",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2019%20Part%204.mp3",
+      "duration": 480.209563
+    },
+    "15.4": {
+      "audioSha256": "4cff5190a125953334af719ab4896ef2bccf19385aca09a90aa27aec2ec1471a",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%2015%20Part%204.mp3",
+      "duration": 447.735688
+    }
+  },
+  "titles": {
+    "4.2": "Visiting the football stadium",
+    "4.3": "Learning to write",
+    "5.3": "Bread reuse project",
+    "6.3": "Recycling footwear",
+    "7.2": "Festival workshops",
+    "8.2": "Training for new runners",
+    "8.3": "Packing and storing books",
+    "10.2": "Housing development",
+    "10.3": "The Laki eruption",
+    "11.1": "Wayside Camera Club",
+    "11.2": "Picking mushrooms",
+    "11.3": "Luddites and changing occupations",
+    "13.3": "Reviews of Romeo and Juliet",
+    "14.2": "School childcare",
+    "15.2": "Hotel staff retention",
+    "15.3": "Sports science research",
+    "16.2": "Work experience at Stevenson’s",
+    "16.3": "Art projects on birds",
+    "17.2": "Changes at Dartfield School",
+    "18.2": "Jobs in agriculture",
+    "18.3": "Exercise and artificial sweeteners",
+    "19.3": "City bike-sharing schemes",
+    "20.3": "Birth order and personality"
+  },
+  "questions": {
+    "1.3": {
+      "startLine": 27,
+      "endLine": 28,
+      "evidence": [
+        {
+          "line": 27,
+          "quote": "WOMAN: So is all the food they serve Spanish, then?"
+        },
+        {
+          "line": 28,
+          "quote": "MAN: Yeah. You can get lots of small dishes to share – which always works really well if you're in a group."
+        }
+      ],
+      "review": "Wait through the confirming reply, comparative figure, full route, or second answer before pausing."
+    },
+    "1.6": {
+      "endLine": 41,
+      "evidence": [
+        {
+          "line": 41,
+          "quote": "MAN: It's in that hotel near Baxter Bridge – on the top floor."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "1.12": {
+      "endLine": 11,
+      "evidence": [
+        {
+          "line": 11,
+          "quote": "The shape of an artefact may have been lost, but archaeologists can tell whether the pots were for, say, storage or cooking by examining the impressions on the clay, the scratches from tools; and the clay itself can reveal where the pots came from."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "1.16": {
+      "endLine": 21,
+      "evidence": [
+        {
+          "line": 21,
+          "quote": "As we said in our email, please remove any watches, necklaces, etc. and put them somewhere safe."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "1.17": {
+      "startLine": 30,
+      "endLine": 34,
+      "evidence": [
+        {
+          "line": 30,
+          "quote": "Basically, a kiln removes the water from clay at temperatures of around a thousand degrees Celsius."
+        },
+        {
+          "line": 31,
+          "quote": "This allows anything you've made to set permanently in shape."
+        },
+        {
+          "line": 32,
+          "quote": "It's a pretty ugly, heavy object that's hard to keep in a house or flat so most people don't have one."
+        },
+        {
+          "line": 33,
+          "quote": "You may think, ‘Can't I use my oven?' Well, that's possible but domestic ovens don't really get hot enough and eventually the clay will crack and fall apart."
+        },
+        {
+          "line": 34,
+          "quote": "Some people fire pottery in a fire pit outside – but bear in mind that can be dangerous."
+        }
+      ],
+      "review": "Wait through the confirming reply, comparative figure, full route, or second answer before pausing."
+    },
+    "1.27": {
+      "startLine": 42,
+      "endLine": 43,
+      "evidence": [
+        {
+          "line": 42,
+          "quote": "DEV: There's no available diagnosis or effective treatment – and that's not likely to change."
+        },
+        {
+          "line": 43,
+          "quote": "TAMARA: I don't think so either. I was thinking we should start our presentation with an example from our own experience."
+        }
+      ],
+      "review": "Wait through the confirming reply, comparative figure, full route, or second answer before pausing."
+    },
+    "1.29": {
+      "startLine": 49,
+      "endLine": 50,
+      "evidence": [
+        {
+          "line": 49,
+          "quote": "TAMARA: I don't know about that but it must make people feel more connected with their community."
+        },
+        {
+          "line": 50,
+          "quote": "DEV: True. Although you need to be a certain kind of person to be able to just strike up a conversation."
+        }
+      ],
+      "review": "Wait through the confirming reply, comparative figure, full route, or second answer before pausing."
+    },
+    "1.30": {
+      "startLine": 52,
+      "endLine": 55,
+      "evidence": [
+        {
+          "line": 52,
+          "quote": "It's strange the way some people can't stand being by themselves while others love it."
+        },
+        {
+          "line": 53,
+          "quote": "DEV: Yeah. The research shows a certain amount of solitude is beneficial for well-being, which I appreciate – but being alone isn't something I actually like."
+        },
+        {
+          "line": 54,
+          "quote": "I'd never choose to go on holiday alone, for example."
+        },
+        {
+          "line": 55,
+          "quote": "TAMARA: Me neither."
+        }
+      ],
+      "review": "Wait through the confirming reply, comparative figure, full route, or second answer before pausing."
+    },
+    "1.31": {
+      "endLine": 12,
+      "evidence": [
+        {
+          "line": 12,
+          "quote": "In addition, other types of pollution increased as factories were built beside the river and discharged their waste materials into the water."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "1.32": {
+      "endLine": 14,
+      "evidence": [
+        {
+          "line": 14,
+          "quote": "As recently as 1957, scientists at London's Natural History Museum declared that the River Thames was ‘dead' in biological terms, as the water was too filthy to support any kind of life."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "1.33": {
+      "endLine": 17,
+      "evidence": [
+        {
+          "line": 17,
+          "quote": "These days you can see seals swimming in the water and recently people had to try to rescue a whale which had got lost and swum up the river from the sea by mistake."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "1.34": {
+      "endLine": 20,
+      "evidence": [
+        {
+          "line": 20,
+          "quote": "Warehouses that were once used for storing goods are now being converted into expensive restaurants and also into apartments with river views, which are in great demand and sell for astronomical prices."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "1.36": {
+      "endLine": 22,
+      "evidence": [
+        {
+          "line": 22,
+          "quote": "It's also hoped that the riverside can be used for other purposes – it's been proposed that facilities could be provided for displaying projects related to various kinds of art that have been produced by local people, for example."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "1.37": {
+      "endLine": 23,
+      "evidence": [
+        {
+          "line": 23,
+          "quote": "In the city of Paris, during the summer months of July and August, all the traffic is banned from the roads by the sides of the river and the banks are transformed into beaches, where people can relax in deckchairs under potted palm trees, sunbathe, or buy a drink or a snack while enjoying the view."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "3.17": {
+      "startLine": 29,
+      "endLine": 31,
+      "evidence": [
+        {
+          "line": 29,
+          "quote": "To reach the bridge, take the main path ahead of you, go straight on and keep going till the path bends to the left."
+        },
+        {
+          "line": 30,
+          "quote": "You'll see a smaller track leading off to the right."
+        },
+        {
+          "line": 31,
+          "quote": "Follow that to take you to the river, where the divers are."
+        }
+      ],
+      "review": "Wait through the confirming reply, comparative figure, full route, or second answer before pausing."
+    },
+    "3.29": {
+      "endLine": 50,
+      "evidence": [
+        {
+          "line": 50,
+          "quote": "It's for The Tragedy of Jane Shore and it's said to be the earliest surviving document to have been printed on Australia's first printing press."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "3.34": {
+      "startLine": 12,
+      "endLine": 13,
+      "evidence": [
+        {
+          "line": 12,
+          "quote": "Taps that you activate by sensor require no pressing or twisting movements."
+        },
+        {
+          "line": 13,
+          "quote": "These are not only more hygienic, they're also easier for people with dexterity or mobility issues."
+        }
+      ],
+      "review": "Wait through the confirming reply, comparative figure, full route, or second answer before pausing."
+    },
+    "3.37": {
+      "endLine": 25,
+      "evidence": [
+        {
+          "line": 25,
+          "quote": "This has safety implications for all women, particularly those who are pregnant, as the seatbelts worn by the dummy are not adapted to accommodate them."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "4.36": {
+      "endLine": 20,
+      "evidence": [
+        {
+          "line": 20,
+          "quote": "But they're also an easy target for birds of prey, and so farmers may shoot these birds, which is illegal but understandable, or they may poison the birds, which again is illegal and can have negative effects on the ecosystem."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "5.15": {
+      "endLine": 18,
+      "evidence": [
+        {
+          "line": 18,
+          "quote": "On Saturday evening, we'll all meet up at the football club, where once again we'll have Toby Sharp and his band performing English and Scottish country songs."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "5.17": {
+      "endLine": 25,
+      "evidence": [
+        {
+          "line": 25,
+          "quote": "The main entrance to the house has a lot of steps so you might want to use the disabled entry. This is on the far side of the house from the car park."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "6.12": {
+      "endLine": 5,
+      "evidence": [
+        {
+          "line": 5,
+          "quote": "It was built 15 years ago with funds provided by a generous member of the public who'd lived here all her life."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "6.36": {
+      "endLine": 19,
+      "evidence": [
+        {
+          "line": 19,
+          "quote": "There's been some interesting research which has found that tardigrades are capable of surviving radiation and very high pressure, and they're also able to withstand temperatures as cold as –200 degrees centigrade, or highs of more than 148 degrees centigrade, which is incredibly hot."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "7.9": {
+      "endLine": 46,
+      "evidence": [
+        {
+          "line": 46,
+          "quote": "LEON: Good idea. The owner also sells a lot of spices there that you can put in a curry, and things like coconut."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "7.32": {
+      "endLine": 9,
+      "evidence": [
+        {
+          "line": 9,
+          "quote": "There is evidence that microplastics harm small creatures in a variety of ways, such as by damaging their mouths, or by impairing their ability to feed, for example when microplastics get lodged in their digestive system."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "8.31": {
+      "endLine": 6,
+      "evidence": [
+        {
+          "line": 6,
+          "quote": "Invasive species are a significant contributor to the current global biodiversity crisis and are often in competition with native species and may threaten their long-term survival."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "9.37": {
+      "endLine": 27,
+      "evidence": [
+        {
+          "line": 27,
+          "quote": "Measurements were taken of each elephant’s tusks – elephants with large tusks would be at greater risk from poachers – and also of their feet."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "10.32": {
+      "endLine": 8,
+      "evidence": [
+        {
+          "line": 8,
+          "quote": "If we think about male fashion first … that was the time when suits became popular."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "10.36": {
+      "endLine": 17,
+      "evidence": [
+        {
+          "line": 17,
+          "quote": "So – what they did was to have a pair of pockets made that were tied together with string."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "11.10": {
+      "endLine": 60,
+      "evidence": [
+        {
+          "line": 60,
+          "quote": "I got a great shot of a fox in the end, but I took it at night and, well, I suspected that it was a bit dark, which is what I was told."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "11.28": {
+      "startLine": 37,
+      "endLine": 39,
+      "evidence": [
+        {
+          "line": 37,
+          "quote": "But the 1871 census showed that roughly 25% of the population worked on the land."
+        },
+        {
+          "line": 38,
+          "quote": "YOUNG MAN: Yeah, I’d have assumed it would be more than 50%."
+        },
+        {
+          "line": 39,
+          "quote": "Now it’s less than 0.2%."
+        }
+      ],
+      "review": "Wait through the confirming reply, comparative figure, full route, or second answer before pausing."
+    },
+    "11.40": {
+      "endLine": 30,
+      "evidence": [
+        {
+          "line": 30,
+          "quote": "But it’s also essential that this system is one that establishes trust in the people that use it, both nationally and at a global level."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "13.19": {
+      "endLine": 27,
+      "evidence": [
+        {
+          "line": 27,
+          "quote": "Outside the shed, which is the only brick building, you can climb into a horse-drawn carriage for a lovely, relaxing tour of the park and farm."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "16.38": {
+      "endLine": 25,
+      "evidence": [
+        {
+          "line": 25,
+          "quote": "The idea is that we can take control of our lives by challenging the irrational beliefs that create our faulty thinking, symptoms and behaviours by using logic instead."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "17.34": {
+      "endLine": 20,
+      "evidence": [
+        {
+          "line": 20,
+          "quote": "And there’s plenty of evidence which suggests that dancing lowers the risk of falls, which could result in a broken hip, for example, by helping people to improve their balance."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "17.36": {
+      "endLine": 26,
+      "evidence": [
+        {
+          "line": 26,
+          "quote": "Participants report feeling less tired and having greater motivation to be more active and do daily activities such as gardening or walking to the shops or a park."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "18.1": {
+      "endLine": 8,
+      "evidence": [
+        {
+          "line": 8,
+          "quote": "They start off practising on the site here, and we aim to get them riding on the road, but first they’re taken to ride in the park, away from the traffic."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "18.4": {
+      "endLine": 21,
+      "evidence": [
+        {
+          "line": 21,
+          "quote": "They’re out riding most of the time but they have quiet times too, where their instructor might tell them a story that’s got something to do with cycling, or get them to play a game together."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "18.5": {
+      "endLine": 26,
+      "evidence": [
+        {
+          "line": 26,
+          "quote": "JAKE: Oh yes. We don’t let that put us off – we just put on our waterproofs and keep cycling."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "18.16": {
+      "endLine": 19,
+      "evidence": [
+        {
+          "line": 19,
+          "quote": "There are good opportunities for the right person to quickly make their way up the career ladder, but a deep knowledge of the agricultural sector is expected of applicants."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "18.27": {
+      "endLine": 28,
+      "evidence": [
+        {
+          "line": 28,
+          "quote": "Now when you ask them, about 40% of men and 30% of women say they do this, but when you objectively measure the amount of walking they do with motion sensors, you find that only 6% of men and 4% of women do the recommended amount of exercise."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "19.16": {
+      "endLine": 19,
+      "evidence": [
+        {
+          "line": 19,
+          "quote": "As we’ve now purchased additional space to the east of the recreation ground, beyond the trees, we plan to move it away from its current location, which is rather near the road, into this new area beyond the line of trees."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "20.17": {
+      "endLine": 24,
+      "evidence": [
+        {
+          "line": 24,
+          "quote": "From there it’s an eight-kilometre ride in the Snaefell Mountain Railway to the top."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "20.37": {
+      "endLine": 32,
+      "evidence": [
+        {
+          "line": 32,
+          "quote": "If these other quick-growing species of bushes and plants are allowed to proliferate, they harm the eucalyptus in another way, by affecting the composition of the soil, and removing nutrients from it."
+        }
+      ],
+      "review": "Checked against the original authored explanation; the source sentence states the answer or equivalent directly."
+    },
+    "1.4": {
+      "startLine": 33,
+      "endLine": 35,
+      "evidence": [
+        {
+          "line": 33,
+          "quote": "I should have a look at the menu to check there's a good choice of vegetarian dishes."
+        },
+        {
+          "line": 34,
+          "quote": "A couple of my friends have stopped eating meat."
+        },
+        {
+          "line": 35,
+          "quote": "MAN: Not sure. I'd say the selection of those would be quite limited."
+        }
+      ],
+      "review": "Wait through the confirming reply, comparative figure, full route, or second answer before pausing."
+    },
+    "5.21": {
+      "endLine": 11,
+      "review": "Stop after Colin confirms the satisfaction; the repeated It was in line 12 starts a different topic."
+    },
+    "1.25": {
+      "endLine": 36,
+      "review": "Include Tamara’s agreement to the second shared opinion."
+    },
+    "6.10": {
+      "endLine": 61,
+      "evidence": [
+        {
+          "line": 61,
+          "quote": "play one at a time, you know, alone"
+        }
+      ],
+      "review": "The author paraphrases gets as get; retain the exact recorded phrase ending in the required one-word answer."
+    }
+  }
+}

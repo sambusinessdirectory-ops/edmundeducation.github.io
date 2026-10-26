@@ -1,0 +1,2172 @@
+{
+  "version": "2026-10-26.1",
+  "practice": 4,
+  "sourceSha256": "da7225b9cdf2db7ac0937db21e9008e71950b0dfde6d873c443cfbed3e41c44b",
+  "timingBasis": "Existing recording-aligned transcript timestamps; explanation quotations matched to exact source spans, with explicit editorial endpoint reviews.",
+  "parts": [
+    {
+      "part": 1,
+      "title": "Advice on Family Visit",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Write ONE WORD AND/OR A NUMBER for each answer.",
+      "audioSha256": "db4db65463672088d11327c2505b68ef136b7a18357a37f108058938a4f35d77",
+      "transcriptSha256": "c4105829f4758792099fc6c58c244a45329e998ad83e76981713c81e2b09250d",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%204%20part%201.mp3",
+      "duration": 341.0546875,
+      "cues": [
+        {
+          "id": "p1-q1",
+          "question": 1,
+          "start": 85.3,
+          "end": 98.42,
+          "endLine": 10,
+          "answer": "King’s",
+          "accepted": [
+            "King’s"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：I always recommend people stay at the Kings Hotel / It's actually on George Street",
+          "evidence": [
+            {
+              "lineId": "p1-line-8",
+              "line": 8,
+              "quote": "I always recommend people stay at the Kings Hotel",
+              "revealAt": 90.28
+            },
+            {
+              "lineId": "p1-line-10",
+              "line": 10,
+              "quote": "It's actually on George Street",
+              "revealAt": 98.42
+            }
+          ],
+          "distractors": [],
+          "questionText": "● 1 __________ Hotel on George Street"
+        },
+        {
+          "id": "p1-q2",
+          "question": 2,
+          "start": 106.68,
+          "end": 111.16,
+          "endLine": 12,
+          "answer": "125",
+          "accepted": [
+            "125"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：If you book a family room it's about £125 per night",
+          "evidence": [
+            {
+              "lineId": "p1-line-12",
+              "line": 12,
+              "quote": "If you book a family room it's about £125 per night",
+              "revealAt": 111.16
+            }
+          ],
+          "distractors": [],
+          "questionText": "● cost of family room per night: £2 __________ approx."
+        },
+        {
+          "id": "p1-q3",
+          "question": 3,
+          "start": 127.72,
+          "end": 147.28,
+          "endLine": 19,
+          "answer": "walking",
+          "accepted": [
+            "walking"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：a bus tour / I think it's better to do a walking tour",
+          "evidence": [
+            {
+              "lineId": "p1-line-17",
+              "line": 17,
+              "quote": "a bus tour",
+              "revealAt": 133.5
+            },
+            {
+              "lineId": "p1-line-18",
+              "line": 18,
+              "quote": "I think it's better to do a walking tour",
+              "revealAt": 141.38
+            },
+            {
+              "lineId": "p1-line-19",
+              "line": 19,
+              "quote": "There's one that starts from Carlton Square",
+              "revealAt": 147.28
+            }
+          ],
+          "distractors": [],
+          "questionText": "● a 3 __________ tour of the city centre, starts in Carlton Square"
+        },
+        {
+          "id": "p1-q4",
+          "question": 4,
+          "start": 150.32,
+          "end": 157.76,
+          "endLine": 22,
+          "answer": "boat",
+          "accepted": [
+            "boat"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：one thing you could do is visit the old fort / You can get there by boat",
+          "evidence": [
+            {
+              "lineId": "p1-line-21",
+              "line": 21,
+              "quote": "one thing you could do is visit the old fort",
+              "revealAt": 153.86
+            },
+            {
+              "lineId": "p1-line-22",
+              "line": 22,
+              "quote": "You can get there by boat",
+              "revealAt": 157.76
+            }
+          ],
+          "distractors": [],
+          "questionText": "● a trip by 4 __________ to the old fort"
+        },
+        {
+          "id": "p1-q5",
+          "question": 5,
+          "start": 170.6,
+          "end": 182.36,
+          "endLine": 27,
+          "answer": "Tuesday",
+          "accepted": [
+            "Tuesday"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：closed on Mondays / so Tuesday would be best, I think",
+          "evidence": [
+            {
+              "lineId": "p1-line-25",
+              "line": 25,
+              "quote": "closed on Mondays",
+              "revealAt": 172.84
+            },
+            {
+              "lineId": "p1-line-26",
+              "line": 26,
+              "quote": "so Tuesday would be best, I think",
+              "revealAt": 178.9
+            }
+          ],
+          "distractors": [
+            {
+              "line": 27,
+              "quote": "Saturdays are terrible",
+              "candidateAt": 182.36,
+              "rejectAt": 182.36,
+              "why": "中伏位：Saturday 亦有被提到，但 Sandra 說 “Saturdays are terrible”，因為很擁擠；Monday 則休館。因此真正的最佳日期是 Tuesday。"
+            }
+          ],
+          "questionText": "● best day to visit: 5 __________"
+        },
+        {
+          "id": "p1-q6",
+          "question": 6,
+          "start": 187.96,
+          "end": 198.08,
+          "endLine": 31,
+          "answer": "space",
+          "accepted": [
+            "space"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：finished now / There's another one starting soon on space",
+          "evidence": [
+            {
+              "lineId": "p1-line-29",
+              "line": 29,
+              "quote": "finished now",
+              "revealAt": 190.1
+            },
+            {
+              "lineId": "p1-line-31",
+              "line": 31,
+              "quote": "There's another one starting soon on space",
+              "revealAt": 198.08
+            }
+          ],
+          "distractors": [],
+          "questionText": "● see the exhibition about 6 __________, which opens soon"
+        },
+        {
+          "id": "p1-q7",
+          "question": 7,
+          "start": 240.24,
+          "end": 253.3,
+          "endLine": 37,
+          "answer": "vegetarian",
+          "accepted": [
+            "vegetarian"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：My cousin's vegetarian – I know it's one of the best places for that kind of food",
+          "evidence": [
+            {
+              "lineId": "p1-line-36",
+              "line": 36,
+              "quote": "My cousin's vegetarian – I know it's one of the best places for that kind of food",
+              "revealAt": 249.84
+            }
+          ],
+          "distractors": [
+            {
+              "line": 37,
+              "quote": "loads of choice",
+              "candidateAt": 253.3,
+              "rejectAt": 253.3,
+              "why": "中伏位：錄音亦說孩子有 “loads of choice”，但題目問的是特定哪一類 food，而不是選擇是否多。"
+            }
+          ],
+          "questionText": "○ good for 7 __________ food"
+        },
+        {
+          "id": "p1-q8",
+          "question": 8,
+          "start": 253.9,
+          "end": 259.84,
+          "endLine": 38,
+          "answer": "2:30",
+          "accepted": [
+            "2:30"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：at the weekend most of the stalls stop serving lunch at 2.30",
+          "evidence": [
+            {
+              "lineId": "p1-line-38",
+              "line": 38,
+              "quote": "at the weekend most of the stalls stop serving lunch at 2.30",
+              "revealAt": 259.84
+            }
+          ],
+          "distractors": [],
+          "questionText": "○ need to have lunch before 8 __________ p.m."
+        },
+        {
+          "id": "p1-q9",
+          "question": 9,
+          "start": 270.48,
+          "end": 280.56,
+          "endLine": 41,
+          "answer": "75",
+          "accepted": [
+            "75"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：on some seats there's a 75% discount",
+          "evidence": [
+            {
+              "lineId": "p1-line-41",
+              "line": 41,
+              "quote": "on some seats there's a 75% discount",
+              "revealAt": 280.56
+            }
+          ],
+          "distractors": [],
+          "questionText": "● save up to 9 __________ % on ticket prices at bargaintickets.com"
+        },
+        {
+          "id": "p1-q10",
+          "question": 10,
+          "start": 308.16,
+          "end": 314.12,
+          "endLine": 50,
+          "answer": "port",
+          "accepted": [
+            "port"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：climb Telegraph Hill – you'll be able to look right down on the port",
+          "evidence": [
+            {
+              "lineId": "p1-line-50",
+              "line": 50,
+              "quote": "climb Telegraph Hill – you'll be able to look right down on the port",
+              "revealAt": 314.12
+            }
+          ],
+          "distractors": [],
+          "questionText": "○ climb Telegraph Hill to see a view of the 10 __________"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "instruction"
+        },
+        {
+          "line": 1,
+          "role": "instruction"
+        },
+        {
+          "line": 2,
+          "role": "instruction"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "evidence"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "evidence"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "evidence"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "evidence"
+        },
+        {
+          "line": 18,
+          "role": "evidence"
+        },
+        {
+          "line": 19,
+          "role": "evidence"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "evidence"
+        },
+        {
+          "line": 22,
+          "role": "evidence"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "evidence"
+        },
+        {
+          "line": 26,
+          "role": "evidence"
+        },
+        {
+          "line": 27,
+          "role": "context"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "evidence"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "evidence"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        },
+        {
+          "line": 33,
+          "role": "context"
+        },
+        {
+          "line": 34,
+          "role": "instruction"
+        },
+        {
+          "line": 35,
+          "role": "context"
+        },
+        {
+          "line": 36,
+          "role": "evidence"
+        },
+        {
+          "line": 37,
+          "role": "context"
+        },
+        {
+          "line": 38,
+          "role": "evidence"
+        },
+        {
+          "line": 39,
+          "role": "context"
+        },
+        {
+          "line": 40,
+          "role": "context"
+        },
+        {
+          "line": 41,
+          "role": "evidence"
+        },
+        {
+          "line": 42,
+          "role": "context"
+        },
+        {
+          "line": 43,
+          "role": "context"
+        },
+        {
+          "line": 44,
+          "role": "context"
+        },
+        {
+          "line": 45,
+          "role": "context"
+        },
+        {
+          "line": 46,
+          "role": "context"
+        },
+        {
+          "line": 47,
+          "role": "context"
+        },
+        {
+          "line": 48,
+          "role": "context"
+        },
+        {
+          "line": 49,
+          "role": "context"
+        },
+        {
+          "line": 50,
+          "role": "evidence"
+        },
+        {
+          "line": 51,
+          "role": "context"
+        },
+        {
+          "line": 52,
+          "role": "context"
+        },
+        {
+          "line": 53,
+          "role": "context"
+        },
+        {
+          "line": 54,
+          "role": "context"
+        },
+        {
+          "line": 55,
+          "role": "instruction"
+        }
+      ]
+    },
+    {
+      "part": 2,
+      "title": "Visiting the football stadium",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Choose TWO letters, A–E. · Choose SIX answers from the box and write the correct letter, A–H, next to",
+      "audioSha256": "d8ba4decc55660bf8e9225db08af58f3fb594e71a1801445eabbf734aab8b249",
+      "transcriptSha256": "dfb14141dccf70cfb3458175e915ae00b7216d247aa693b86124a6c0982e0e74",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%204%20Part%202.mp3",
+      "duration": 448.8620625,
+      "cues": [
+        {
+          "id": "p2-q11",
+          "question": 11,
+          "start": 80.78,
+          "end": 140.48,
+          "endLine": 14,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：Please don't let your children wander off on their own, even for a minute / We'll pick the best one at the end of the afternoon",
+          "evidence": [
+            {
+              "lineId": "p2-line-7",
+              "line": 7,
+              "quote": "Please don't let your children wander off on their own, even for a minute",
+              "revealAt": 85.38
+            },
+            {
+              "lineId": "p2-line-13",
+              "line": 13,
+              "quote": "We'll pick the best one at the end of the afternoon",
+              "revealAt": 132.12
+            },
+            {
+              "lineId": "p2-line-14",
+              "line": 14,
+              "quote": "we'll send your prize",
+              "revealAt": 140.48
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. Which TWO things does the speaker say about visiting the football stadium with children?",
+          "groupQuestions": [
+            11,
+            12
+          ]
+        },
+        {
+          "id": "p2-q12",
+          "question": 12,
+          "start": 80.78,
+          "end": 140.48,
+          "endLine": 14,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：Please don't let your children wander off on their own, even for a minute / We'll pick the best one at the end of the afternoon",
+          "evidence": [
+            {
+              "lineId": "p2-line-7",
+              "line": 7,
+              "quote": "Please don't let your children wander off on their own, even for a minute",
+              "revealAt": 85.38
+            },
+            {
+              "lineId": "p2-line-13",
+              "line": 13,
+              "quote": "We'll pick the best one at the end of the afternoon",
+              "revealAt": 132.12
+            },
+            {
+              "lineId": "p2-line-14",
+              "line": 14,
+              "quote": "we'll send your prize",
+              "revealAt": 140.48
+            }
+          ],
+          "distractors": [],
+          "questionText": "Choose TWO letters, A–E. Which TWO things does the speaker say about visiting the football stadium with children?",
+          "groupQuestions": [
+            11,
+            12
+          ]
+        },
+        {
+          "id": "p2-q13",
+          "question": 13,
+          "start": 145.9,
+          "end": 204.6,
+          "endLine": 20,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：We've only just introduced this feature / you might like to book one of our VIP tours – we've only just started offering these",
+          "evidence": [
+            {
+              "lineId": "p2-line-18",
+              "line": 18,
+              "quote": "We've only just introduced this feature",
+              "revealAt": 181.82
+            },
+            {
+              "lineId": "p2-line-20",
+              "line": 20,
+              "quote": "you might like to book one of our VIP tours – we've only just started offering these",
+              "revealAt": 204.6
+            }
+          ],
+          "distractors": [
+            {
+              "line": 16,
+              "quote": "has been very popular over the years",
+              "candidateAt": 161.42,
+              "rejectAt": 204.6,
+              "why": "中伏位：360 cinema “has been very popular over the years”，明顯不是新項目。Tours in other languages 只是 “thinking of offering … in future”，目前還沒有推出。Dressing room tour 亦沒有說是今年新增。"
+            },
+            {
+              "line": 19,
+              "quote": "thinking of offering",
+              "candidateAt": 191.7,
+              "rejectAt": 204.6,
+              "why": "中伏位：360 cinema “has been very popular over the years”，明顯不是新項目。Tours in other languages 只是 “thinking of offering … in future”，目前還沒有推出。Dressing room tour 亦沒有說是今年新增。"
+            },
+            {
+              "line": 19,
+              "quote": "in future",
+              "candidateAt": 191.7,
+              "rejectAt": 204.6,
+              "why": "中伏位：360 cinema “has been very popular over the years”，明顯不是新項目。Tours in other languages 只是 “thinking of offering … in future”，目前還沒有推出。Dressing room tour 亦沒有說是今年新增。"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. Which TWO features of the stadium tour are new this year?",
+          "groupQuestions": [
+            13,
+            14
+          ]
+        },
+        {
+          "id": "p2-q14",
+          "question": 14,
+          "start": 145.9,
+          "end": 204.6,
+          "endLine": 20,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：We've only just introduced this feature / you might like to book one of our VIP tours – we've only just started offering these",
+          "evidence": [
+            {
+              "lineId": "p2-line-18",
+              "line": 18,
+              "quote": "We've only just introduced this feature",
+              "revealAt": 181.82
+            },
+            {
+              "lineId": "p2-line-20",
+              "line": 20,
+              "quote": "you might like to book one of our VIP tours – we've only just started offering these",
+              "revealAt": 204.6
+            }
+          ],
+          "distractors": [
+            {
+              "line": 16,
+              "quote": "has been very popular over the years",
+              "candidateAt": 161.42,
+              "rejectAt": 204.6,
+              "why": "中伏位：360 cinema “has been very popular over the years”，明顯不是新項目。Tours in other languages 只是 “thinking of offering … in future”，目前還沒有推出。Dressing room tour 亦沒有說是今年新增。"
+            },
+            {
+              "line": 19,
+              "quote": "thinking of offering",
+              "candidateAt": 191.7,
+              "rejectAt": 204.6,
+              "why": "中伏位：360 cinema “has been very popular over the years”，明顯不是新項目。Tours in other languages 只是 “thinking of offering … in future”，目前還沒有推出。Dressing room tour 亦沒有說是今年新增。"
+            },
+            {
+              "line": 19,
+              "quote": "in future",
+              "candidateAt": 191.7,
+              "rejectAt": 204.6,
+              "why": "中伏位：360 cinema “has been very popular over the years”，明顯不是新項目。Tours in other languages 只是 “thinking of offering … in future”，目前還沒有推出。Dressing room tour 亦沒有說是今年新增。"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. Which TWO features of the stadium tour are new this year?",
+          "groupQuestions": [
+            13,
+            14
+          ]
+        },
+        {
+          "id": "p2-q15",
+          "question": 15,
+          "start": 289.0,
+          "end": 299.0,
+          "endLine": 25,
+          "answer": "D",
+          "accepted": [
+            "D"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：1870 was also the year that football teams started to include a player whose role it was to guard the goal",
+          "evidence": [
+            {
+              "lineId": "p2-line-25",
+              "line": 25,
+              "quote": "1870 was also the year that football teams started to include a player whose role it was to guard the goal",
+              "revealAt": 299.0
+            }
+          ],
+          "distractors": [],
+          "questionText": "1870"
+        },
+        {
+          "id": "p2-q16",
+          "question": 16,
+          "start": 306.12,
+          "end": 330.92,
+          "endLine": 28,
+          "answer": "F",
+          "accepted": [
+            "F"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：referees were allowed to send players off if they committed certain offences / teams started having to swap ends at half-time",
+          "evidence": [
+            {
+              "lineId": "p2-line-27",
+              "line": 27,
+              "quote": "referees were allowed to send players off if they committed certain offences",
+              "revealAt": 324.52
+            },
+            {
+              "lineId": "p2-line-28",
+              "line": 28,
+              "quote": "teams started having to swap ends at half-time",
+              "revealAt": 330.92
+            }
+          ],
+          "distractors": [],
+          "questionText": "1874"
+        },
+        {
+          "id": "p2-q17",
+          "question": 17,
+          "start": 349.34,
+          "end": 356.6,
+          "endLine": 30,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：In 1875, that tape was replaced with the solid crossbar that we're familiar with today",
+          "evidence": [
+            {
+              "lineId": "p2-line-30",
+              "line": 30,
+              "quote": "In 1875, that tape was replaced with the solid crossbar that we're familiar with today",
+              "revealAt": 356.6
+            }
+          ],
+          "distractors": [],
+          "questionText": "1875"
+        },
+        {
+          "id": "p2-q18",
+          "question": 18,
+          "start": 358.52,
+          "end": 372.04,
+          "endLine": 31,
+          "answer": "H",
+          "accepted": [
+            "H"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：all the clubs decided to set a limit of ninety minutes for each match",
+          "evidence": [
+            {
+              "lineId": "p2-line-31",
+              "line": 31,
+              "quote": "all the clubs decided to set a limit of ninety minutes for each match",
+              "revealAt": 372.04
+            }
+          ],
+          "distractors": [],
+          "questionText": "1877"
+        },
+        {
+          "id": "p2-q19",
+          "question": 19,
+          "start": 399.24,
+          "end": 414.58,
+          "endLine": 35,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：In addition, referees started using whistles, and electric lamps were installed on certain pitches / games could then be played in the evenings all year round",
+          "evidence": [
+            {
+              "lineId": "p2-line-34",
+              "line": 34,
+              "quote": "In addition, referees started using whistles, and electric lamps were installed on certain pitches",
+              "revealAt": 406.84
+            },
+            {
+              "lineId": "p2-line-35",
+              "line": 35,
+              "quote": "games could then be played in the evenings all year round",
+              "revealAt": 414.58
+            }
+          ],
+          "distractors": [],
+          "questionText": "1878"
+        },
+        {
+          "id": "p2-q20",
+          "question": 20,
+          "start": 416.06,
+          "end": 426.66,
+          "endLine": 36,
+          "answer": "G",
+          "accepted": [
+            "G"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：In 1880, clubs began to charge fans for admission to games",
+          "evidence": [
+            {
+              "lineId": "p2-line-36",
+              "line": 36,
+              "quote": "In 1880, clubs began to charge fans for admission to games",
+              "revealAt": 426.66
+            }
+          ],
+          "distractors": [
+            {
+              "line": 36,
+              "quote": "were still amateurs",
+              "candidateAt": 426.66,
+              "rejectAt": 426.66,
+              "why": "中伏位：錄音接著說 players “were still amateurs”，所以這一年並不是開始付薪給球員。A 不對。"
+            }
+          ],
+          "questionText": "1880"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "instruction"
+        },
+        {
+          "line": 1,
+          "role": "instruction"
+        },
+        {
+          "line": 2,
+          "role": "instruction"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "evidence"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "context"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "context"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "evidence"
+        },
+        {
+          "line": 14,
+          "role": "evidence"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "context"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "evidence"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "evidence"
+        },
+        {
+          "line": 21,
+          "role": "context"
+        },
+        {
+          "line": 22,
+          "role": "instruction"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "evidence"
+        },
+        {
+          "line": 26,
+          "role": "context"
+        },
+        {
+          "line": 27,
+          "role": "evidence"
+        },
+        {
+          "line": 28,
+          "role": "evidence"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "evidence"
+        },
+        {
+          "line": 31,
+          "role": "evidence"
+        },
+        {
+          "line": 32,
+          "role": "context"
+        },
+        {
+          "line": 33,
+          "role": "context"
+        },
+        {
+          "line": 34,
+          "role": "evidence"
+        },
+        {
+          "line": 35,
+          "role": "evidence"
+        },
+        {
+          "line": 36,
+          "role": "evidence"
+        },
+        {
+          "line": 37,
+          "role": "context"
+        },
+        {
+          "line": 38,
+          "role": "instruction"
+        }
+      ]
+    },
+    {
+      "part": 3,
+      "title": "Learning to write",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Choose TWO letters, A–E. · Choose the correct letter, A, B or C.",
+      "audioSha256": "10043ae7c7b77f35183187ff74f7a7dbfee20630777705ec4e2fb4d2310fdcec",
+      "transcriptSha256": "d1b01b7d804342bfbecb23775a14d39d237393dc89d7aac30c2c3adae593d835",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%204%20Part%203.mp3",
+      "duration": 451.709375,
+      "cues": [
+        {
+          "id": "p3-q21",
+          "question": 21,
+          "start": 83.9,
+          "end": 143.72,
+          "endLine": 17,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：What's less obvious is how it helps develop their concentration / That aspect of handwriting had never occurred to me before",
+          "evidence": [
+            {
+              "lineId": "p3-line-9",
+              "line": 9,
+              "quote": "What's less obvious is how it helps develop their concentration",
+              "revealAt": 90.3
+            },
+            {
+              "lineId": "p3-line-11",
+              "line": 11,
+              "quote": "That aspect of handwriting had never occurred to me before",
+              "revealAt": 98.44
+            },
+            {
+              "lineId": "p3-line-14",
+              "line": 14,
+              "quote": "I'd never associated spatial awareness with handwriting either",
+              "revealAt": 122.74
+            },
+            {
+              "lineId": "p3-line-16",
+              "line": 16,
+              "quote": "I thought that too",
+              "revealAt": 137.9
+            }
+          ],
+          "distractors": [
+            {
+              "line": 8,
+              "quote": "seems pretty obvious",
+              "candidateAt": 86.4,
+              "rejectAt": 143.72,
+              "why": "中伏位：memory 對女士來說 “seems pretty obvious”；imagination 她說 “I would've guessed that”，都不是令兩人意外。Fine motor skills 更是女士 “I'd always assumed” 的好處。"
+            },
+            {
+              "line": 13,
+              "quote": "I would've guessed that",
+              "candidateAt": 116.56,
+              "rejectAt": 143.72,
+              "why": "中伏位：memory 對女士來說 “seems pretty obvious”；imagination 她說 “I would've guessed that”，都不是令兩人意外。Fine motor skills 更是女士 “I'd always assumed” 的好處。"
+            },
+            {
+              "line": 17,
+              "quote": "I'd always assumed",
+              "candidateAt": 143.72,
+              "rejectAt": 143.72,
+              "why": "中伏位：memory 對女士來說 “seems pretty obvious”；imagination 她說 “I would've guessed that”，都不是令兩人意外。Fine motor skills 更是女士 “I'd always assumed” 的好處。"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. Which TWO benefits for children of learning to write did both students find surprising?",
+          "groupQuestions": [
+            21,
+            22
+          ]
+        },
+        {
+          "id": "p3-q22",
+          "question": 22,
+          "start": 83.9,
+          "end": 143.72,
+          "endLine": 17,
+          "answer": "E",
+          "accepted": [
+            "E"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：What's less obvious is how it helps develop their concentration / That aspect of handwriting had never occurred to me before",
+          "evidence": [
+            {
+              "lineId": "p3-line-9",
+              "line": 9,
+              "quote": "What's less obvious is how it helps develop their concentration",
+              "revealAt": 90.3
+            },
+            {
+              "lineId": "p3-line-11",
+              "line": 11,
+              "quote": "That aspect of handwriting had never occurred to me before",
+              "revealAt": 98.44
+            },
+            {
+              "lineId": "p3-line-14",
+              "line": 14,
+              "quote": "I'd never associated spatial awareness with handwriting either",
+              "revealAt": 122.74
+            },
+            {
+              "lineId": "p3-line-16",
+              "line": 16,
+              "quote": "I thought that too",
+              "revealAt": 137.9
+            }
+          ],
+          "distractors": [
+            {
+              "line": 8,
+              "quote": "seems pretty obvious",
+              "candidateAt": 86.4,
+              "rejectAt": 143.72,
+              "why": "中伏位：memory 對女士來說 “seems pretty obvious”；imagination 她說 “I would've guessed that”，都不是令兩人意外。Fine motor skills 更是女士 “I'd always assumed” 的好處。"
+            },
+            {
+              "line": 13,
+              "quote": "I would've guessed that",
+              "candidateAt": 116.56,
+              "rejectAt": 143.72,
+              "why": "中伏位：memory 對女士來說 “seems pretty obvious”；imagination 她說 “I would've guessed that”，都不是令兩人意外。Fine motor skills 更是女士 “I'd always assumed” 的好處。"
+            },
+            {
+              "line": 17,
+              "quote": "I'd always assumed",
+              "candidateAt": 143.72,
+              "rejectAt": 143.72,
+              "why": "中伏位：memory 對女士來說 “seems pretty obvious”；imagination 她說 “I would've guessed that”，都不是令兩人意外。Fine motor skills 更是女士 “I'd always assumed” 的好處。"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. Which TWO benefits for children of learning to write did both students find surprising?",
+          "groupQuestions": [
+            21,
+            22
+          ]
+        },
+        {
+          "id": "p3-q23",
+          "question": 23,
+          "start": 155.4,
+          "end": 204.12,
+          "endLine": 27,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：I liked the idea of using one of those pens that lights up if you press too hard / That seems like a really simple solution",
+          "evidence": [
+            {
+              "lineId": "p3-line-21",
+              "line": 21,
+              "quote": "I liked the idea of using one of those pens that lights up if you press too hard",
+              "revealAt": 170.5
+            },
+            {
+              "lineId": "p3-line-22",
+              "line": 22,
+              "quote": "That seems like a really simple solution",
+              "revealAt": 173.2
+            },
+            {
+              "lineId": "p3-line-25",
+              "line": 25,
+              "quote": "One quite simple thing you can do is to use grid paper",
+              "revealAt": 192.7
+            },
+            {
+              "lineId": "p3-line-26",
+              "line": 26,
+              "quote": "that trains them to space the letters correctly",
+              "revealAt": 198.74
+            }
+          ],
+          "distractors": [
+            {
+              "line": 20,
+              "quote": "lots of games",
+              "candidateAt": 164.14,
+              "rejectAt": 204.12,
+              "why": "中伏位：letter shapes 需要 “lots of games” 和 “a lot of patience”，並不容易。Writing slowly 更被男士說 “I'm not sure there's much you can do”，所以也不是 easiest。"
+            },
+            {
+              "line": 20,
+              "quote": "a lot of patience",
+              "candidateAt": 164.14,
+              "rejectAt": 204.12,
+              "why": "中伏位：letter shapes 需要 “lots of games” 和 “a lot of patience”，並不容易。Writing slowly 更被男士說 “I'm not sure there's much you can do”，所以也不是 easiest。"
+            },
+            {
+              "line": 23,
+              "quote": "I'm not sure there's much you can do",
+              "candidateAt": 180.14,
+              "rejectAt": 204.12,
+              "why": "中伏位：letter shapes 需要 “lots of games” 和 “a lot of patience”，並不容易。Writing slowly 更被男士說 “I'm not sure there's much you can do”，所以也不是 easiest。"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. For children with dyspraxia, which TWO problems with handwriting do the students think are easiest to correct?",
+          "groupQuestions": [
+            23,
+            24
+          ]
+        },
+        {
+          "id": "p3-q24",
+          "question": 24,
+          "start": 155.4,
+          "end": 204.12,
+          "endLine": 27,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "同組題目需選 2 個答案，次序不限；先聽完整段討論再決定。",
+          "paraphrase": "錄音：I liked the idea of using one of those pens that lights up if you press too hard / That seems like a really simple solution",
+          "evidence": [
+            {
+              "lineId": "p3-line-21",
+              "line": 21,
+              "quote": "I liked the idea of using one of those pens that lights up if you press too hard",
+              "revealAt": 170.5
+            },
+            {
+              "lineId": "p3-line-22",
+              "line": 22,
+              "quote": "That seems like a really simple solution",
+              "revealAt": 173.2
+            },
+            {
+              "lineId": "p3-line-25",
+              "line": 25,
+              "quote": "One quite simple thing you can do is to use grid paper",
+              "revealAt": 192.7
+            },
+            {
+              "lineId": "p3-line-26",
+              "line": 26,
+              "quote": "that trains them to space the letters correctly",
+              "revealAt": 198.74
+            }
+          ],
+          "distractors": [
+            {
+              "line": 20,
+              "quote": "lots of games",
+              "candidateAt": 164.14,
+              "rejectAt": 204.12,
+              "why": "中伏位：letter shapes 需要 “lots of games” 和 “a lot of patience”，並不容易。Writing slowly 更被男士說 “I'm not sure there's much you can do”，所以也不是 easiest。"
+            },
+            {
+              "line": 20,
+              "quote": "a lot of patience",
+              "candidateAt": 164.14,
+              "rejectAt": 204.12,
+              "why": "中伏位：letter shapes 需要 “lots of games” 和 “a lot of patience”，並不容易。Writing slowly 更被男士說 “I'm not sure there's much you can do”，所以也不是 easiest。"
+            },
+            {
+              "line": 23,
+              "quote": "I'm not sure there's much you can do",
+              "candidateAt": 180.14,
+              "rejectAt": 204.12,
+              "why": "中伏位：letter shapes 需要 “lots of games” 和 “a lot of patience”，並不容易。Writing slowly 更被男士說 “I'm not sure there's much you can do”，所以也不是 easiest。"
+            }
+          ],
+          "questionText": "Choose TWO letters, A–E. For children with dyspraxia, which TWO problems with handwriting do the students think are easiest to correct?",
+          "groupQuestions": [
+            23,
+            24
+          ]
+        },
+        {
+          "id": "p3-q25",
+          "question": 25,
+          "start": 285.32,
+          "end": 297.14,
+          "endLine": 33,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：It's not as frustrating for them if they get things wrong – on a keyboard they can be more willing to have a go",
+          "evidence": [
+            {
+              "lineId": "p3-line-32",
+              "line": 32,
+              "quote": "It's not as frustrating for them if they get things wrong – on a keyboard they can be more willing to have a go",
+              "revealAt": 292.72
+            }
+          ],
+          "distractors": [
+            {
+              "line": 33,
+              "quote": "developing fluency isn't any faster",
+              "candidateAt": 297.14,
+              "rejectAt": 297.14,
+              "why": "中伏位：女士之後明確說 “developing fluency isn't any faster”，所以 B 不對。A 亦相反，因為她說孩子會 “more willing to have a go”。"
+            }
+          ],
+          "questionText": "What does the woman say about using laptops to teach writing to children with dyslexia?"
+        },
+        {
+          "id": "p3-q26",
+          "question": 26,
+          "start": 313.08,
+          "end": 333.54,
+          "endLine": 37,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：it's been proved that cursive is more difficult to learn – especially for children with learning difficulties who find joining up letters really challenging",
+          "evidence": [
+            {
+              "lineId": "p3-line-36",
+              "line": 36,
+              "quote": "it's been proved that cursive is more difficult to learn – especially for children with learning difficulties who find joining up letters really challenging",
+              "revealAt": 327.42
+            }
+          ],
+          "distractors": [
+            {
+              "line": 36,
+              "quote": "not anymore",
+              "candidateAt": 327.42,
+              "rejectAt": 333.54,
+              "why": "中伏位：錄音說 cursive 過去被認為 stylish and educated，但 “not anymore”；沒有說 print writing 與較低成績有關，也沒有說英國大部分老師仍偏好傳統 cursive。"
+            }
+          ],
+          "questionText": "When discussing whether to teach cursive or print writing, the woman thinks that"
+        },
+        {
+          "id": "p3-q27",
+          "question": 27,
+          "start": 334.24,
+          "end": 348.5,
+          "endLine": 40,
+          "answer": "A",
+          "accepted": [
+            "A"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：now research shows that I was right to worry / Marks are definitely affected if examiners can't read the script",
+          "evidence": [
+            {
+              "lineId": "p3-line-38",
+              "line": 38,
+              "quote": "now research shows that I was right to worry",
+              "revealAt": 337.46
+            },
+            {
+              "lineId": "p3-line-40",
+              "line": 40,
+              "quote": "Marks are definitely affected if examiners can't read the script",
+              "revealAt": 348.5
+            }
+          ],
+          "distractors": [],
+          "questionText": "According to the students, what impact does poor handwriting have on exam performance?"
+        },
+        {
+          "id": "p3-q28",
+          "question": 28,
+          "start": 354.22,
+          "end": 390.12,
+          "endLine": 46,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：Do you think the role of handwriting will change in the future / I can't see that changing much",
+          "evidence": [
+            {
+              "lineId": "p3-line-42",
+              "line": 42,
+              "quote": "Do you think the role of handwriting will change in the future",
+              "revealAt": 357.7
+            },
+            {
+              "lineId": "p3-line-43",
+              "line": 43,
+              "quote": "I can't see that changing much",
+              "revealAt": 360.74
+            },
+            {
+              "lineId": "p3-line-45",
+              "line": 45,
+              "quote": "It's a basic life skill",
+              "revealAt": 379.58
+            },
+            {
+              "lineId": "p3-line-45",
+              "line": 45,
+              "quote": "teachers understand the value of handwriting",
+              "revealAt": 379.58
+            }
+          ],
+          "distractors": [
+            {
+              "line": 44,
+              "quote": "still isn't taught in most schools",
+              "candidateAt": 365.32,
+              "rejectAt": 390.12,
+              "why": "中伏位：他提到 touch typing “still isn't taught in most schools”，不是預測未來會在 handwriting 前先教； 反而說將來甚至可能直接在 digital devices 上手寫。"
+            }
+          ],
+          "questionText": "What prediction does the man make about the future of handwriting?"
+        },
+        {
+          "id": "p3-q29",
+          "question": 29,
+          "start": 398.86,
+          "end": 408.12,
+          "endLine": 50,
+          "answer": "B",
+          "accepted": [
+            "B"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：my mum is shocked by my awful spelling and the fact that my punctuation is really inconsistent / I think you can put that down to lack of practice",
+          "evidence": [
+            {
+              "lineId": "p3-line-49",
+              "line": 49,
+              "quote": "my mum is shocked by my awful spelling and the fact that my punctuation is really inconsistent",
+              "revealAt": 404.76
+            },
+            {
+              "lineId": "p3-line-50",
+              "line": 50,
+              "quote": "I think you can put that down to lack of practice",
+              "revealAt": 408.12
+            }
+          ],
+          "distractors": [],
+          "questionText": "The woman is concerned that relying on digital devices has made it difficult for her to"
+        },
+        {
+          "id": "p3-q30",
+          "question": 30,
+          "start": 408.6,
+          "end": 434.3,
+          "endLine": 55,
+          "answer": "C",
+          "accepted": [
+            "C"
+          ],
+          "hint": "先比較選項，聽清轉折、否定及說話者最後的決定。",
+          "paraphrase": "錄音：I hardly ever write anything now / Personally, I miss writing by hand",
+          "evidence": [
+            {
+              "lineId": "p3-line-51",
+              "line": 51,
+              "quote": "I hardly ever write anything now",
+              "revealAt": 415.52
+            },
+            {
+              "lineId": "p3-line-51",
+              "line": 51,
+              "quote": "Personally, I miss writing by hand",
+              "revealAt": 415.52
+            },
+            {
+              "lineId": "p3-line-53",
+              "line": 53,
+              "quote": "It's a shame",
+              "revealAt": 426.82
+            },
+            {
+              "lineId": "p3-line-54",
+              "line": 54,
+              "quote": "I feel the same way",
+              "revealAt": 429.28
+            },
+            {
+              "lineId": "p3-line-55",
+              "line": 55,
+              "quote": "I used to write a diary by hand and now I do that digitally",
+              "revealAt": 434.3
+            }
+          ],
+          "distractors": [],
+          "questionText": "How do the students feel about their own handwriting?"
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "instruction"
+        },
+        {
+          "line": 1,
+          "role": "instruction"
+        },
+        {
+          "line": 2,
+          "role": "instruction"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "context"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "evidence"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "evidence"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "context"
+        },
+        {
+          "line": 14,
+          "role": "evidence"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "evidence"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "context"
+        },
+        {
+          "line": 21,
+          "role": "evidence"
+        },
+        {
+          "line": 22,
+          "role": "evidence"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "context"
+        },
+        {
+          "line": 25,
+          "role": "evidence"
+        },
+        {
+          "line": 26,
+          "role": "evidence"
+        },
+        {
+          "line": 27,
+          "role": "context"
+        },
+        {
+          "line": 28,
+          "role": "context"
+        },
+        {
+          "line": 29,
+          "role": "instruction"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "context"
+        },
+        {
+          "line": 32,
+          "role": "evidence"
+        },
+        {
+          "line": 33,
+          "role": "context"
+        },
+        {
+          "line": 34,
+          "role": "context"
+        },
+        {
+          "line": 35,
+          "role": "context"
+        },
+        {
+          "line": 36,
+          "role": "evidence"
+        },
+        {
+          "line": 37,
+          "role": "context"
+        },
+        {
+          "line": 38,
+          "role": "evidence"
+        },
+        {
+          "line": 39,
+          "role": "context"
+        },
+        {
+          "line": 40,
+          "role": "evidence"
+        },
+        {
+          "line": 41,
+          "role": "context"
+        },
+        {
+          "line": 42,
+          "role": "evidence"
+        },
+        {
+          "line": 43,
+          "role": "evidence"
+        },
+        {
+          "line": 44,
+          "role": "context"
+        },
+        {
+          "line": 45,
+          "role": "evidence"
+        },
+        {
+          "line": 46,
+          "role": "context"
+        },
+        {
+          "line": 47,
+          "role": "context"
+        },
+        {
+          "line": 48,
+          "role": "context"
+        },
+        {
+          "line": 49,
+          "role": "evidence"
+        },
+        {
+          "line": 50,
+          "role": "evidence"
+        },
+        {
+          "line": 51,
+          "role": "evidence"
+        },
+        {
+          "line": 52,
+          "role": "context"
+        },
+        {
+          "line": 53,
+          "role": "evidence"
+        },
+        {
+          "line": 54,
+          "role": "evidence"
+        },
+        {
+          "line": 55,
+          "role": "evidence"
+        },
+        {
+          "line": 56,
+          "role": "context"
+        },
+        {
+          "line": 57,
+          "role": "instruction"
+        }
+      ]
+    },
+    {
+      "part": 4,
+      "title": "Research in the Area Around the Chembe Bird Sanctuary",
+      "subtitle": "請按下方原題的字數限制及指示作答；錄音稿提供中英對照。",
+      "instructions": "Write ONE WORD ONLY for each answer.",
+      "audioSha256": "72879fd1ff45f83968d349d8e233410f21726938f27289678c2a24706232ae63",
+      "transcriptSha256": "23e456319f513f2fabc2fa28ebf2f4540dd959dfb6c1a023e0618afda175194a",
+      "audioUrl": "https://edmund-neural-audio.edmundeducation.workers.dev/IELTS%20Listening%20-%20Recordings/Listening%204%20Part%204.mp3",
+      "duration": 405.733875,
+      "cues": [
+        {
+          "id": "p4-q31",
+          "question": 31,
+          "start": 140.46,
+          "end": 154.02,
+          "endLine": 7,
+          "answer": "rats",
+          "accepted": [
+            "rats"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：rodents such as rats",
+          "evidence": [
+            {
+              "lineId": "p4-line-7",
+              "line": 7,
+              "quote": "rodents such as rats",
+              "revealAt": 154.02
+            }
+          ],
+          "distractors": [],
+          "questionText": "● They destroy 31 __________ and other rodents."
+        },
+        {
+          "id": "p4-q32",
+          "question": 32,
+          "start": 160.48,
+          "end": 173.7,
+          "endLine": 9,
+          "answer": "snakes",
+          "accepted": [
+            "snakes"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：have a major role in keeping their populations under control / a major danger to rural workers is snakes, whose bite may be dangerous or even fatal",
+          "evidence": [
+            {
+              "lineId": "p4-line-9",
+              "line": 9,
+              "quote": "have a major role in keeping their populations under control",
+              "revealAt": 173.7
+            },
+            {
+              "lineId": "p4-line-9",
+              "line": 9,
+              "quote": "a major danger to rural workers is snakes, whose bite may be dangerous or even fatal",
+              "revealAt": 173.7
+            }
+          ],
+          "distractors": [],
+          "questionText": "● They help to prevent farmers from being bitten by 32 __________."
+        },
+        {
+          "id": "p4-q33",
+          "question": 33,
+          "start": 187.7,
+          "end": 205.6,
+          "endLine": 11,
+          "answer": "tourism",
+          "accepted": [
+            "tourism"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：tourism has become an important source of revenue for them",
+          "evidence": [
+            {
+              "lineId": "p4-line-11",
+              "line": 11,
+              "quote": "tourism has become an important source of revenue for them",
+              "revealAt": 205.6
+            }
+          ],
+          "distractors": [],
+          "questionText": "● They now support the economy by encouraging 33 __________ in the"
+        },
+        {
+          "id": "p4-q34",
+          "question": 34,
+          "start": 213.8,
+          "end": 223.1,
+          "endLine": 13,
+          "answer": "traffic",
+          "accepted": [
+            "traffic"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：are hit by fast-moving traffic",
+          "evidence": [
+            {
+              "lineId": "p4-line-13",
+              "line": 13,
+              "quote": "are hit by fast-moving traffic",
+              "revealAt": 223.1
+            }
+          ],
+          "distractors": [],
+          "questionText": "○ by 34 __________ when they are hunting or sleeping"
+        },
+        {
+          "id": "p4-q35",
+          "question": 35,
+          "start": 241.44,
+          "end": 248.52,
+          "endLine": 16,
+          "answer": "rain",
+          "accepted": [
+            "rain"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：from December to April / This is a particular danger in the heavy rain which can occur",
+          "evidence": [
+            {
+              "lineId": "p4-line-16",
+              "line": 16,
+              "quote": "from December to April",
+              "revealAt": 248.52
+            },
+            {
+              "lineId": "p4-line-16",
+              "line": 16,
+              "quote": "This is a particular danger in the heavy rain which can occur",
+              "revealAt": 248.52
+            }
+          ],
+          "distractors": [],
+          "questionText": "when there is a lot of 35 __________"
+        },
+        {
+          "id": "p4-q36",
+          "question": 36,
+          "start": 266.64,
+          "end": 282.56,
+          "endLine": 20,
+          "answer": "poison",
+          "accepted": [
+            "poison"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：But they're also an easy target for birds of prey, and so farmers may shoot these birds, which is illegal but understandable, or they may poison the birds, which again is illegal and can have negative effects on the ecosystem.",
+          "evidence": [
+            {
+              "lineId": "p4-line-20",
+              "line": 20,
+              "quote": "But they're also an easy target for birds of prey, and so farmers may shoot these birds, which is illegal but understandable, or they may poison the birds, which again is illegal and can have negative effects on the ecosystem.",
+              "revealAt": 282.56
+            }
+          ],
+          "distractors": [],
+          "questionText": "● Local farmers may illegally shoot them or 36 __________ them."
+        },
+        {
+          "id": "p4-q37",
+          "question": 37,
+          "start": 313.3,
+          "end": 325.92,
+          "endLine": 24,
+          "answer": "building",
+          "accepted": [
+            "building"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：this would cost far too much to be a practical solution / prevent the chickens from going outside at all, and to keep them safe from predators inside a building",
+          "evidence": [
+            {
+              "lineId": "p4-line-24",
+              "line": 24,
+              "quote": "this would cost far too much to be a practical solution",
+              "revealAt": 325.92
+            },
+            {
+              "lineId": "p4-line-24",
+              "line": 24,
+              "quote": "prevent the chickens from going outside at all, and to keep them safe from predators inside a building",
+              "revealAt": 325.92
+            }
+          ],
+          "distractors": [],
+          "questionText": "● providing a 37 __________ for chickens, expensive"
+        },
+        {
+          "id": "p4-q38",
+          "question": 38,
+          "start": 337.36,
+          "end": 343.8,
+          "endLine": 26,
+          "answer": "dog",
+          "accepted": [
+            "dog"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：Most of the farmers had at least one dog, and said this was a big help at scaring away the predators",
+          "evidence": [
+            {
+              "lineId": "p4-line-26",
+              "line": 26,
+              "quote": "Most of the farmers had at least one dog, and said this was a big help at scaring away the predators",
+              "revealAt": 343.8
+            }
+          ],
+          "distractors": [],
+          "questionText": "○ keeping a 38 __________"
+        },
+        {
+          "id": "p4-q39",
+          "question": 39,
+          "start": 344.94,
+          "end": 364.5,
+          "endLine": 27,
+          "answer": "noise",
+          "accepted": [
+            "noise"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：hit pans with a metal spoon so that the resulting noise would succeed in driving away birds",
+          "evidence": [
+            {
+              "lineId": "p4-line-27",
+              "line": 27,
+              "quote": "hit pans with a metal spoon so that the resulting noise would succeed in driving away birds",
+              "revealAt": 364.5
+            }
+          ],
+          "distractors": [],
+          "questionText": "○ making a 39 __________, e.g. with metal objects"
+        },
+        {
+          "id": "p4-q40",
+          "question": 40,
+          "start": 365.48,
+          "end": 379.04,
+          "endLine": 28,
+          "answer": "combination",
+          "accepted": [
+            "combination"
+          ],
+          "hint": "先讀原題及字數限制，留意空格前後的字。",
+          "paraphrase": "錄音：rather than just using one method, they were forced to use a combination for them to have any effect",
+          "evidence": [
+            {
+              "lineId": "p4-line-28",
+              "line": 28,
+              "quote": "rather than just using one method, they were forced to use a combination for them to have any effect",
+              "revealAt": 379.04
+            }
+          ],
+          "distractors": [
+            {
+              "line": 28,
+              "quote": "None of these methods was a hundred per cent effective",
+              "candidateAt": 379.04,
+              "rejectAt": 379.04,
+              "why": "中伏位：錄音亦明確說 “None of these methods was a hundred per cent effective”，因此不是某一個方法最好，多種方法合併使用最有效。"
+            }
+          ],
+          "questionText": "● A 40 __________ of methods is usually most effective."
+        }
+      ],
+      "annotations": [
+        {
+          "line": 0,
+          "role": "instruction"
+        },
+        {
+          "line": 1,
+          "role": "instruction"
+        },
+        {
+          "line": 2,
+          "role": "instruction"
+        },
+        {
+          "line": 3,
+          "role": "context"
+        },
+        {
+          "line": 4,
+          "role": "context"
+        },
+        {
+          "line": 5,
+          "role": "context"
+        },
+        {
+          "line": 6,
+          "role": "context"
+        },
+        {
+          "line": 7,
+          "role": "evidence"
+        },
+        {
+          "line": 8,
+          "role": "context"
+        },
+        {
+          "line": 9,
+          "role": "evidence"
+        },
+        {
+          "line": 10,
+          "role": "context"
+        },
+        {
+          "line": 11,
+          "role": "evidence"
+        },
+        {
+          "line": 12,
+          "role": "context"
+        },
+        {
+          "line": 13,
+          "role": "evidence"
+        },
+        {
+          "line": 14,
+          "role": "context"
+        },
+        {
+          "line": 15,
+          "role": "context"
+        },
+        {
+          "line": 16,
+          "role": "evidence"
+        },
+        {
+          "line": 17,
+          "role": "context"
+        },
+        {
+          "line": 18,
+          "role": "context"
+        },
+        {
+          "line": 19,
+          "role": "context"
+        },
+        {
+          "line": 20,
+          "role": "evidence"
+        },
+        {
+          "line": 21,
+          "role": "context"
+        },
+        {
+          "line": 22,
+          "role": "context"
+        },
+        {
+          "line": 23,
+          "role": "context"
+        },
+        {
+          "line": 24,
+          "role": "evidence"
+        },
+        {
+          "line": 25,
+          "role": "context"
+        },
+        {
+          "line": 26,
+          "role": "evidence"
+        },
+        {
+          "line": 27,
+          "role": "evidence"
+        },
+        {
+          "line": 28,
+          "role": "evidence"
+        },
+        {
+          "line": 29,
+          "role": "context"
+        },
+        {
+          "line": 30,
+          "role": "context"
+        },
+        {
+          "line": 31,
+          "role": "instruction"
+        }
+      ]
+    }
+  ]
+}
