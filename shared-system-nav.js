@@ -1399,7 +1399,10 @@ if(document.currentScript?.src){const script=document.createElement("script");sc
     const config = window.EDMUND_SUPABASE;
     if (!student?.token || !config?.url || !config?.anonKey) return;
     const system = String(systemId()).toLowerCase().replace(/[^a-z0-9_-]/g,"-").slice(0,100);
-    const marker = `edmund-system-visit:${student.token}:${system}`;
+    const hkDate = Object.fromEntries(new Intl.DateTimeFormat("en-GB", {
+      timeZone: "Asia/Hong_Kong", year: "numeric", month: "2-digit", day: "2-digit"
+    }).formatToParts(new Date()).map(part => [part.type, part.value]));
+    const marker = `edmund-system-visit:${student.token}:${system}:${hkDate.year}-${hkDate.month}-${hkDate.day}`;
     try { if (sessionStorage.getItem(marker)) return; } catch {}
     try {
       const response = await fetch(`${config.url}/rest/v1/rpc/schedule_student_record_system_visit`,{method:"POST",credentials:"omit",headers:{apikey:config.anonKey,"Content-Type":"application/json"},body:JSON.stringify({p_token:student.token,p_system:system}),signal:AbortSignal.timeout(12000)});

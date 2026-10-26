@@ -3414,6 +3414,23 @@ async function callRpc(name, args = {}) {
   return data;
 }
 
+const checkedInStudents = new Set();
+async function checkInStudentForReturnDialogue() {
+  const user = state.currentUser;
+  if (user?.role !== "student" || !user.studentToken || checkedInStudents.has(user.id)) return;
+  checkedInStudents.add(user.id);
+  try {
+    const result = await callRpc("schedule_student_check_in", { p_token: user.studentToken });
+    if (state.currentUser?.id !== user.id || state.currentUser?.studentToken !== user.studentToken) return;
+    document.dispatchEvent(new CustomEvent("edmund:schedule-student-return-gap", {
+      detail: { studentId: user.id, ...result }
+    }));
+  } catch (error) {
+    checkedInStudents.delete(user.id);
+    console.warn("Schedule student check-in failed", error);
+  }
+}
+
 async function announcementApi(path, options = {}) {
   if (state.currentUser?.role !== "admin" || !state.currentUser.adminToken) {
     throw new Error("管理員登入已失效，請重新登入。");
@@ -3837,6 +3854,7 @@ async function restoreSession() {
       };
       state.selectedStudent = { id: saved.id, name: saved.name };
       showView("calendar");
+      void checkInStudentForReturnDialogue();
       await loadWeek();
       return state.currentUser?.role === "student";
     }
@@ -3912,6 +3930,7 @@ async function login(event) {
     saveSession();
     elements.loginForm.reset();
     showView("calendar");
+    void checkInStudentForReturnDialogue();
     await loadWeek();
     showToast(`您好，${student.name}！`);
   } catch (error) {

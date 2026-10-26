@@ -1,0 +1,47 @@
+.eddy-schedule-return-message {
+  font-size: clamp(13px, 2.6vw, 25px);
+  white-space: pre-line;
+}
+
+.eddy-schedule-return-headline {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: .12em;
+  line-height: 1.2;
+}
+
+.eddy-schedule-return-headline strong {
+  font-size: 1.16em;
+  font-weight: 800;
+}
+
+.eddy-schedule-return-headline span {
+  font-size: .82em;
+  font-weight: 650;
+}
+
+@media (max-width: 560px) {
+  .eddy-schedule-return-message {
+    top: 72%;
+    right: 3%;
+    bottom: auto;
+    left: 3%;
+    min-height: 102px;
+    padding: 8px 28px 8px 11px;
+    border: 3px solid #a85729;
+    border-radius: 14px;
+    box-shadow: 0 4px 0 #61301c;
+    font-size: clamp(13px, 3.65vw, 17px);
+    line-height: 1.28;
+  }
+
+  .eddy-schedule-return-message::after {
+    position: absolute;
+    right: 9px;
+    bottom: 5px;
+    color: #4b200e;
+    content: '▼';
+    font-size: 11px;
+  }
+}
