@@ -11,7 +11,7 @@ for (const [, href] of systemList.matchAll(/href:\s*"([^"]+\.html)"/g)) {
   const file = path.join(root, href);
   if (fs.existsSync(file)) {
     const html = fs.readFileSync(file, 'utf8');
-    assert.match(html, /eddy-global-dialogues\.js\?v=20261025-1/, `${href} must load the sitewide dialogue`);
+    assert.match(html, /eddy-global-dialogues\.js\?v=20261026-weekend1/, `${href} must load the sitewide dialogue`);
     assert.match(html, /eddy-global-dialogues\.css\?v=20261025-1/, `${href} must load its stylesheet`);
   }
 }
@@ -20,8 +20,8 @@ assert.match(nav, /element\.hasAttribute\("data-eddy-global-dialogue"\)/);
 for (const file of fs.readdirSync(root).filter((name) => name.endsWith('.html'))) {
   const html = fs.readFileSync(path.join(root, file), 'utf8');
   if (!/<script[^>]+shared-system-nav\.js/.test(html)) continue;
-  const globalAt = html.search(/<script[^>]*src="\/?eddy-global-dialogues\.js\?v=20261025-1"/);
-  const navAt = html.search(/<script[^>]*src="\/?shared-system-nav\.js\?v=20261025-eddy-moments1"/);
+  const globalAt = html.search(/<script[^>]*src="\/?eddy-global-dialogues\.js\?v=20261026-weekend1"/);
+  const navAt = html.search(/<script[^>]*src="\/?shared-system-nav\.js\?v=20261026-daily-visit1"/);
   assert.ok(globalAt >= 0 && navAt > globalAt, `${file} must load Eddy before navigation`);
 }
 for (const file of ['eddy-first-question-dialogue.js', 'eddy-five-streak-dialogue.js', 'eddy-schedule-empty-day-dialogue.js', 'eddy-schedule-homework-completion-dialogue.js', 'eddy-writing-daily-dialogue.js']) {
@@ -42,7 +42,7 @@ const server = http.createServer((req, res) => {
     return;
   }
   const file = path.join(root, decodeURIComponent(req.url.slice(1).split('?')[0]));
-  if (!['eddy-global-dialogues.js', 'eddy-global-dialogues.css', 'shared-system-nav.js', 'shared-system-nav.css', 'eddy-afternoon-tea-dialogue.png', 'eddy-pomodoro-tomato-dialogue.png'].includes(path.basename(file))) {
+  if (!['eddy-global-dialogues.js', 'eddy-global-dialogues.css', 'shared-system-nav.js', 'shared-system-nav.css', 'eddy-afternoon-tea-dialogue.png', 'eddy-pomodoro-tomato-dialogue.png', 'eddy-saturday-plant-dialogue.png', 'eddy-sunday-hobbies-dialogue.png'].includes(path.basename(file))) {
     res.writeHead(404).end(); return;
   }
   res.writeHead(200, { 'Content-Type': file.endsWith('.js') ? 'application/javascript' : file.endsWith('.css') ? 'text/css' : 'image/png' });
@@ -54,26 +54,26 @@ const server = http.createServer((req, res) => {
   const base = `http://127.0.0.1:${server.address().port}`;
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({ viewport: { width: 1100, height: 750 } });
-  const pageAt = async (iso, viewport) => {
+  const pageAt = async (iso, viewport, random = 0) => {
     const page = await context.newPage();
     if (viewport) await page.setViewportSize(viewport);
-    await page.addInitScript((value) => {
+    await page.addInitScript(({ value, random }) => {
       const RealDate = Date;
       window.__fakeNow = RealDate.parse(value);
       window.Date = class extends RealDate {
         constructor(...args) { super(...(args.length ? args : [window.__fakeNow])); }
         static now() { return window.__fakeNow; }
       };
-      Math.random = () => 0;
-    }, iso);
+      Math.random = () => random;
+    }, { value: iso, random });
     await page.goto(base + '/fixture');
     return page;
   };
   try {
-    const page = await pageAt('2026-10-25T06:59:00Z', { width: 375, height: 667 });
+    const page = await pageAt('2026-10-26T06:59:00Z', { width: 375, height: 667 });
     const art = page.locator('.eddy-global-art img');
     assert.equal(await art.count(), 0, '14:59 Hong Kong time is too early');
-    await page.evaluate(() => { window.__fakeNow = Date.parse('2026-10-25T07:00:00Z'); window.EdmundEddyGlobalDialogue.checkTea(); });
+    await page.evaluate(() => { window.__fakeNow = Date.parse('2026-10-26T07:00:00Z'); window.EdmundEddyGlobalDialogue.checkTea(); });
     await art.waitFor();
     await art.evaluate((img) => img.decode());
     assert.match(await art.getAttribute('src'), /afternoon-tea/);
@@ -96,16 +96,16 @@ const server = http.createServer((req, res) => {
     assert.equal(await art.count(), 0, 'the same break is shown once');
     await page.close();
 
-    const sameDay = await pageAt('2026-10-25T07:30:00Z');
+    const sameDay = await pageAt('2026-10-26T07:30:00Z');
     assert.equal(await sameDay.locator('.eddy-global-overlay').count(), 0, 'tea appears once per Hong Kong day across pages');
     await sameDay.close();
-    const nextDay = await pageAt('2026-10-26T07:30:00Z');
+    const nextDay = await pageAt('2026-10-27T07:30:00Z');
     await nextDay.locator('.eddy-global-overlay').waitFor();
     await nextDay.close();
-    const outsideWindow = await pageAt('2026-10-27T08:00:00Z');
+    const outsideWindow = await pageAt('2026-10-28T08:00:00Z');
     assert.equal(await outsideWindow.locator('.eddy-global-overlay').count(), 0, '16:00 Hong Kong time is outside tea');
     await outsideWindow.evaluate(() => {
-      window.__fakeNow = Date.parse('2026-10-28T07:30:00Z');
+      window.__fakeNow = Date.parse('2026-10-29T07:30:00Z');
       Math.random = () => .99;
       window.EdmundEddyGlobalDialogue.checkTea();
     });
@@ -113,7 +113,7 @@ const server = http.createServer((req, res) => {
     const teaFit = await outsideWindow.locator('.eddy-global-copy').evaluate((node) => ({ scroll: node.scrollHeight, visible: node.clientHeight }));
     assert.ok(teaFit.scroll <= teaFit.visible + 1, `long afternoon tea copy overflows desktop box: ${JSON.stringify(teaFit)}`);
     await outsideWindow.close();
-    const breakPage = await pageAt('2026-10-29T06:00:00Z');
+    const breakPage = await pageAt('2026-10-30T06:00:00Z');
     await breakPage.goto(base + '/pomodoro-fixture');
     await breakPage.locator('.eddy-global-overlay').waitFor();
     assert.match(await breakPage.locator('.eddy-global-art img').getAttribute('src'), /pomodoro-tomato/);
@@ -122,7 +122,50 @@ const server = http.createServer((req, res) => {
     await breakPage.locator('.eddy-global-overlay').waitFor({ state: 'detached' });
     assert.equal(await breakPage.locator('[data-edmund-pomodoro-break-lock]').isVisible(), true, 'the break lock remains after Eddy is dismissed');
     await breakPage.close();
-    console.log('Sitewide Eddy tea and Pomodoro browser checks passed.');
+
+    const saturday = await pageAt('2026-10-31T06:59:00Z', { width: 375, height: 667 });
+    const weekendArt = saturday.locator('.eddy-global-art img');
+    await weekendArt.waitFor();
+    await weekendArt.evaluate((img) => img.decode());
+    assert.match(await weekendArt.getAttribute('src'), /saturday-plant/);
+    assert.match(await saturday.locator('.eddy-global-copy strong').textContent(), /星期六/);
+    const saturdaySizes = await saturday.locator('.eddy-global-copy').evaluate((node) => ({ main: parseFloat(getComputedStyle(node.querySelector('strong')).fontSize), sub: parseFloat(getComputedStyle(node.querySelector('span')).fontSize), scroll: node.scrollHeight, visible: node.clientHeight }));
+    assert.ok(saturdaySizes.main > saturdaySizes.sub, 'Saturday opening has a larger first line');
+    assert.ok(saturdaySizes.scroll <= saturdaySizes.visible + 1, 'Saturday copy fits mobile');
+    await saturday.screenshot({ path: '/tmp/eddy-saturday-mobile.png' });
+    await saturday.keyboard.press('Tab');
+    await weekendArt.waitFor({ state: 'detached' });
+    await saturday.evaluate(() => { window.__fakeNow = Date.parse('2026-10-31T07:00:00Z'); window.EdmundEddyGlobalDialogue.checkTea(); });
+    await weekendArt.waitFor();
+    assert.match(await weekendArt.getAttribute('src'), /afternoon-tea/, 'tea appears when its window begins');
+    await saturday.keyboard.press('Tab');
+    await saturday.close();
+    const saturdayAgain = await pageAt('2026-10-31T07:30:00Z');
+    assert.equal(await saturdayAgain.locator('.eddy-global-overlay').count(), 0, 'Saturday greeting and tea each appear once across pages');
+    await saturdayAgain.close();
+
+    const sunday = await pageAt('2026-11-01T07:30:00Z', { width: 375, height: 667 }, .99);
+    const sundayArt = sunday.locator('.eddy-global-art img');
+    await sundayArt.waitFor();
+    assert.match(await sundayArt.getAttribute('src'), /afternoon-tea/, 'tea precedes Sunday when both are due');
+    await sunday.keyboard.press('Tab');
+    assert.match(await sundayArt.getAttribute('src'), /sunday-hobbies/);
+    await sundayArt.evaluate((img) => img.decode());
+    assert.match(await sunday.locator('.eddy-global-copy strong').textContent(), /星期天/);
+    const sundayFit = await sunday.locator('.eddy-global-copy').evaluate((node) => ({ scroll: node.scrollHeight, visible: node.clientHeight }));
+    assert.ok(sundayFit.scroll <= sundayFit.visible + 1, `Sunday copy fits mobile: ${JSON.stringify(sundayFit)}`);
+    await sunday.screenshot({ path: '/tmp/eddy-sunday-mobile.png' });
+    await sunday.keyboard.press('Tab');
+    await sunday.close();
+    const sundayAgain = await pageAt('2026-11-01T08:00:00Z');
+    assert.equal(await sundayAgain.locator('.eddy-global-overlay').count(), 0, 'Sunday greeting appears once across pages');
+    await sundayAgain.close();
+    const longSunday = await pageAt('2026-11-08T06:00:00Z', { width: 375, height: 667 });
+    assert.match(await longSunday.locator('.eddy-global-art img').getAttribute('src'), /sunday-hobbies/);
+    const longSundayFit = await longSunday.locator('.eddy-global-copy').evaluate((node) => ({ scroll: node.scrollHeight, visible: node.clientHeight }));
+    assert.ok(longSundayFit.scroll <= longSundayFit.visible + 1, `long Sunday copy fits mobile: ${JSON.stringify(longSundayFit)}`);
+    await longSunday.close();
+    console.log('Sitewide Eddy tea, weekend and Pomodoro browser checks passed.');
   } finally {
     await context.close();
     await browser.close();
