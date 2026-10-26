@@ -1,14 +1,35 @@
-/* Greet a student when the established Hong Kong learning-day streak reaches two. */
+/* Greet a student at the second, third, and fourth Hong Kong learning-day milestones. */
 (() => {
   'use strict';
 
-  const variants = [
+  const twoDayVariants = [
     [{ main: '嘿嘿，今天也見到您啦！', sub: '連續兩天一起冒險，感覺還真不錯呢！明天又會發生什麼有趣的事呢？' }],
     ['咦？今天也來啦！嘿嘿，看來您已經開始喜歡上這裡了嘛！'],
     ['連續兩天都沒缺席呢！', '好！這就算是我們的小小紀念日吧！'],
     ['昨天一起努力，今天也一起出發！', '這種感覺，還挺讓人期待的呢！'],
     ['兩天連續報到！', '嘿嘿，我們還真有默契呢！']
   ];
+  const threeDayVariants = [
+    [{ main: '哎呀！連續三天都見到您了呢！', sub: '嘿嘿，該不會每天來找 Eddy，已經變成您的習慣了吧？' }],
+    ['嗯？昨天也來，今天也來……嘿嘿！看來您真的很喜歡這裡嘛！'],
+    ['咦？已經連續三天了嗎！？怎麼感覺才剛認識您，就變得這麼熟啦！'],
+    ['一連三天都能見到您，感覺真不錯！嘿嘿，Eddy 都開始期待每天的見面了呢！'],
+    ['嘿嘿，三天都沒缺席！看來 Eddy 的魅力還真不小呢！'],
+    ['第一天是巧合，第二天是緣分……第三天嘛，嘿嘿！這下可算是老朋友了吧！'],
+    ['三天連續報到！嘿嘿，我們還真有默契呢！']
+  ];
+  const fourDayVariants = [
+    ['哎呀，已經四天都來報到啦！這顆愛心，是 Eddy 給您的獎勵喔！♡'],
+    ['連續四天都沒缺席呢！嘿嘿，Eddy 要送您一個愛心～♡'],
+    ['第四天也來了呢！能天天見到您，Eddy 很開心喔！♡'],
+    ['哼哼，連續四天都來找 Eddy 呢！那就送您一個愛心吧！♡'],
+    ['四天連續報到！這顆愛心送給您♡']
+  ];
+  const milestones = {
+    2: { variants: twoDayVariants, image: 'eddy-schedule-two-day-dialogue.png' },
+    3: { variants: threeDayVariants, image: 'eddy-schedule-three-day-dialogue.png' },
+    4: { variants: fourDayVariants, image: 'eddy-schedule-four-day-dialogue.png' }
+  };
   const storagePrefix = 'edmund-eddy-schedule-two-day-v1:';
   const shown = new Set();
   let pending = null;
@@ -115,19 +136,21 @@
     if (document.querySelector('dialog[open], .eddy-first-question-overlay')) return;
     const calendar = document.querySelector('[data-view="calendar"]');
     if (!calendar || calendar.hidden) return;
-    const key = `${storagePrefix}${pending.studentId}:${pending.date}`;
+    const { streak } = pending;
+    const milestone = milestones[streak];
+    const key = `${storagePrefix}${streak === 2 ? '' : `${streak}:`}${pending.studentId}:${pending.date}`;
     pending = null;
     if (shown.has(key) || stored(key)) return;
 
-    pages = variants[Math.floor(Math.random() * variants.length)];
+    pages = milestone.variants[Math.floor(Math.random() * milestone.variants.length)];
     pageIndex = 0;
     previousFocus = document.activeElement;
     overlay = document.createElement('div');
     overlay.className = 'eddy-first-question-overlay eddy-schedule-two-day-overlay';
     overlay.setAttribute('role', 'dialog');
     overlay.setAttribute('aria-modal', 'true');
-    overlay.setAttribute('aria-label', 'Eddy 的連續兩天學習提示');
-    overlay.innerHTML = '<button class="eddy-first-question-dismiss" type="button"><span class="eddy-first-question-art"><img src="eddy-schedule-two-day-dialogue.png" alt="" aria-hidden="true"><span class="eddy-first-question-message eddy-first-question-message--schedule-two-day" lang="zh-Hant"></span></span></button>';
+    overlay.setAttribute('aria-label', `Eddy 的連續${streak}天學習提示`);
+    overlay.innerHTML = `<button class="eddy-first-question-dismiss" type="button"><span class="eddy-first-question-art"><img src="${milestone.image}" alt="" aria-hidden="true"><span class="eddy-first-question-message eddy-first-question-message--schedule-two-day" lang="zh-Hant"></span></span></button>`;
     overlay.addEventListener('click', advance);
     document.body.append(overlay);
     renderPage();
@@ -139,8 +162,8 @@
   document.addEventListener('edmund:schedule-learning-day-summary', (event) => {
     const { studentId, date, streak, latestDay } = event.detail || {};
     if (typeof studentId !== 'string' || !studentId || !/^\d{4}-\d{2}-\d{2}$/.test(date)) return;
-    if (streak !== 2 || latestDay !== date) return;
-    pending = { studentId, date };
+    if (!milestones[streak] || latestDay !== date) return;
+    pending = { studentId, date, streak };
     requestAnimationFrame(showIfReady);
   });
   document.addEventListener('edmund:eddy-global-dialogue-finished', showIfReady);
