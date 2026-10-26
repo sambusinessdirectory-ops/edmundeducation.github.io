@@ -42,6 +42,15 @@
     ['等這一刻等好久啦！好！今晚要玩個痛快！……啊，差點忘了先存檔！', ''],
     ['點心準備好了，遊戲也準備好了……嗯！今晚真是完美！', '']
   ];
+  const midnightSnackLines = [
+    ['咦！？你、你怎麼這個時間還醒著！？', 'Eddy 只、只是來拿一片小餅乾而已喔！……真的只有一片啦！'],
+    ['啊，原來是你啊……嘿嘿。這麼晚了，Eddy 當然只是路過點心櫃而已……', ''],
+    ['唔哇！被、被發現了！？這、這不是偷吃，只是午夜補充能量而已啦！', ''],
+    ['呼啊……睡前吃一塊小餅乾，應該不算犯規吧？……咦？你什麼時候來的！？', ''],
+    ['噓——小聲一點喔！Eddy 正在執行深夜餅乾作戰……現在可是最關鍵的時刻呢！', ''],
+    ['嘿嘿……晚上偷偷吃的餅乾，果然特別好吃呢。……啊！Eddy 什麼都沒說喔！', ''],
+    ['咦！？被你看到了……這塊餅乾、這塊餅乾是意外啦！', '']
+  ];
   const tomatoLines = [
     ['嗯～休息時間的番茄真好吃！', '（咦？番茄工作法不是這樣用的嗎？）'],
     ['工作要專心，休息要開心！', '至於番茄嘛……當然要吃進肚子裡啦！'],
@@ -90,6 +99,7 @@
   const sleepyStorageKey = 'edmund-eddy-sleepy-evening-day-v1';
   const bedtimeStorageKey = 'edmund-eddy-bedtime-night-v1';
   const timedMoments = Object.freeze({
+    midnightSnack: { startMinute: 120, endMinute: 350, lines: midnightSnackLines, image: '/eddy-midnight-snack-dialogue.png', label: 'Eddy 的深夜餅乾時間', storageKey: 'edmund-eddy-midnight-snack-day-v1' },
     coffee: { hour: 16, lines: coffeeLines, image: '/eddy-coffee-break-dialogue.png', label: 'Eddy 的午後咖啡時間', storageKey: 'edmund-eddy-coffee-break-day-v1' },
     finishingWork: { hour: 18, lines: finishingWorkLines, image: '/eddy-finishing-work-dialogue.png', label: 'Eddy 的下班前問候', storageKey: 'edmund-eddy-finishing-work-day-v1' },
     gaming: { hour: 20, lines: gamingLines, image: '/eddy-gaming-time-dialogue.png', label: 'Eddy 的遊戲時間', storageKey: 'edmund-eddy-gaming-time-day-v1' }
@@ -112,10 +122,16 @@
 
   function hongKongNow() {
     const parts = new Intl.DateTimeFormat('en-GB', {
-      timeZone: 'Asia/Hong_Kong', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', hourCycle: 'h23', weekday: 'long'
+      timeZone: 'Asia/Hong_Kong', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23', weekday: 'long'
     }).formatToParts(new Date());
     const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
-    return { day: `${values.year}-${values.month}-${values.day}`, hour: Number(values.hour), weekday: values.weekday };
+    return { day: `${values.year}-${values.month}-${values.day}`, hour: Number(values.hour), minute: Number(values.minute), weekday: values.weekday };
+  }
+
+  function momentIsActive(moment, now) {
+    const minuteOfDay = now.hour * 60 + now.minute;
+    return moment.startMinute === undefined ? now.hour === moment.hour
+      : minuteOfDay >= moment.startMinute && minuteOfDay < moment.endMinute;
   }
 
   function stored(key) {
@@ -188,7 +204,7 @@
       const timedMoment = timedMoments[next.kind];
       if (timedMoment) {
         const now = hongKongNow();
-        if (now.hour !== timedMoment.hour || now.day !== next.day || shownMomentDays[next.kind] === now.day
+        if (!momentIsActive(timedMoment, now) || now.day !== next.day || shownMomentDays[next.kind] === now.day
           || stored(timedMoment.storageKey) === now.day) continue;
         shownMomentDays[next.kind] = now.day;
         remember(timedMoment.storageKey, now.day);
@@ -282,8 +298,9 @@
 
   function checkNewTimedMoments() {
     if (document.hidden) return;
-    const { day, hour } = hongKongNow();
-    const entry = Object.entries(timedMoments).find(([, moment]) => moment.hour === hour);
+    const now = hongKongNow();
+    const { day } = now;
+    const entry = Object.entries(timedMoments).find(([, moment]) => momentIsActive(moment, now));
     if (!entry) return;
     const [kind, moment] = entry;
     if (shownMomentDays[kind] === day || stored(moment.storageKey) === day

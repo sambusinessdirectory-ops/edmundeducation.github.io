@@ -11,7 +11,7 @@ for (const [, href] of systemList.matchAll(/href:\s*"([^"]+\.html)"/g)) {
   const file = path.join(root, href);
   if (fs.existsSync(file)) {
     const html = fs.readFileSync(file, 'utf8');
-    assert.match(html, /eddy-global-dialogues\.js\?v=20261026-timed1/, `${href} must load the sitewide dialogue`);
+    assert.match(html, /eddy-global-dialogues\.js\?v=20261026-midnight1/, `${href} must load the sitewide dialogue`);
     assert.match(html, /eddy-global-dialogues\.css\?v=20261025-1/, `${href} must load its stylesheet`);
   }
 }
@@ -20,11 +20,11 @@ assert.match(nav, /element\.hasAttribute\("data-eddy-global-dialogue"\)/);
 for (const file of fs.readdirSync(root).filter((name) => name.endsWith('.html'))) {
   const html = fs.readFileSync(path.join(root, file), 'utf8');
   if (!/<script[^>]+shared-system-nav\.js/.test(html)) continue;
-  const globalAt = html.search(/<script[^>]*src="\/?eddy-global-dialogues\.js\?v=20261026-timed1"/);
+  const globalAt = html.search(/<script[^>]*src="\/?eddy-global-dialogues\.js\?v=20261026-midnight1"/);
   const navAt = html.search(/<script[^>]*src="\/?shared-system-nav\.js\?v=20261026-daily-visit1"/);
   assert.ok(globalAt >= 0 && navAt > globalAt, `${file} must load Eddy before navigation`);
 }
-assert.match(fs.readFileSync(path.join(root, 'paper3/2025-b2/index.html'), 'utf8'), /eddy-global-dialogues\.js\?v=20261026-timed1/, 'nested Paper 3 reader must load the current sitewide dialogue');
+assert.match(fs.readFileSync(path.join(root, 'paper3/2025-b2/index.html'), 'utf8'), /eddy-global-dialogues\.js\?v=20261026-midnight1/, 'nested Paper 3 reader must load the current sitewide dialogue');
 for (const file of ['eddy-first-question-dialogue.js', 'eddy-five-streak-dialogue.js', 'eddy-schedule-empty-day-dialogue.js', 'eddy-schedule-homework-completion-dialogue.js', 'eddy-writing-daily-dialogue.js']) {
   const script = fs.readFileSync(path.join(root, file), 'utf8');
   assert.match(script, /EdmundEddyGlobalDialogue\?\.isBlocking\(\)/, `${file} must yield to tea`);
@@ -43,7 +43,7 @@ const server = http.createServer((req, res) => {
     return;
   }
   const file = path.join(root, decodeURIComponent(req.url.slice(1).split('?')[0]));
-  if (!['eddy-global-dialogues.js', 'eddy-global-dialogues.css', 'shared-system-nav.js', 'shared-system-nav.css', 'eddy-after-lunch-dialogue.png', 'eddy-afternoon-tea-dialogue.png', 'eddy-coffee-break-dialogue.png', 'eddy-finishing-work-dialogue.png', 'eddy-gaming-time-dialogue.png', 'eddy-pomodoro-tomato-dialogue.png', 'eddy-saturday-plant-dialogue.png', 'eddy-sunday-hobbies-dialogue.png', 'eddy-evening-teddy-dialogue.png', 'eddy-bedtime-pyjamas-dialogue.png'].includes(path.basename(file))) {
+  if (!['eddy-global-dialogues.js', 'eddy-global-dialogues.css', 'shared-system-nav.js', 'shared-system-nav.css', 'eddy-after-lunch-dialogue.png', 'eddy-afternoon-tea-dialogue.png', 'eddy-coffee-break-dialogue.png', 'eddy-finishing-work-dialogue.png', 'eddy-gaming-time-dialogue.png', 'eddy-midnight-snack-dialogue.png', 'eddy-pomodoro-tomato-dialogue.png', 'eddy-saturday-plant-dialogue.png', 'eddy-sunday-hobbies-dialogue.png', 'eddy-evening-teddy-dialogue.png', 'eddy-bedtime-pyjamas-dialogue.png'].includes(path.basename(file))) {
     res.writeHead(404).end(); return;
   }
   res.writeHead(200, { 'Content-Type': file.endsWith('.js') ? 'application/javascript' : file.endsWith('.css') ? 'text/css' : 'image/png' });
@@ -278,8 +278,50 @@ const server = http.createServer((req, res) => {
     assert.equal(await sameNight.locator('.eddy-global-overlay').count(), 0, 'bedtime does not repeat after midnight in the same Hong Kong night');
     await sameNight.close();
     const afterBedtime = await pageAt('2026-10-27T18:00:00Z');
-    assert.equal(await afterBedtime.locator('.eddy-global-overlay').count(), 0, '02:00 Hong Kong time is outside bedtime');
+    assert.match(await afterBedtime.locator('.eddy-global-art img').getAttribute('src'), /midnight-snack/, '02:00 Hong Kong time starts the midnight snack greeting');
     await afterBedtime.close();
+
+    const midnightBoundary = await pageAt('2026-12-20T17:59:00Z', { width: 375, height: 667 });
+    const midnightArt = midnightBoundary.locator('.eddy-global-art img');
+    assert.match(await midnightArt.getAttribute('src'), /bedtime-pyjamas/, '01:59 Hong Kong time is still bedtime');
+    await midnightBoundary.keyboard.press('Tab');
+    await midnightBoundary.evaluate(() => {
+      window.__fakeNow = Date.parse('2026-12-20T18:00:00Z');
+      window.EdmundEddyGlobalDialogue.checkNewTimedMoments();
+    });
+    await midnightArt.waitFor();
+    assert.match(await midnightArt.getAttribute('src'), /midnight-snack/, '02:00 Hong Kong time starts midnight snack');
+    await midnightBoundary.keyboard.press('Tab');
+    await midnightBoundary.close();
+    const midnightSameDay = await pageAt('2026-12-20T21:30:00Z');
+    assert.equal(await midnightSameDay.locator('.eddy-global-overlay').count(), 0, 'midnight snack appears once per Hong Kong day across pages');
+    await midnightSameDay.close();
+
+    const lastMinute = await pageAt('2026-12-22T21:49:00Z', { width: 375, height: 667 });
+    assert.match(await lastMinute.locator('.eddy-global-art img').getAttribute('src'), /midnight-snack/, '05:49 Hong Kong time remains inside the snack window');
+    await lastMinute.close();
+    const afterSnack = await pageAt('2026-12-23T21:50:00Z');
+    assert.equal(await afterSnack.locator('.eddy-global-overlay').count(), 0, '05:50 Hong Kong time ends the snack window');
+    await afterSnack.close();
+
+    for (let variant = 0; variant < 7; variant += 1) {
+      const day = String(10 + variant).padStart(2, '0');
+      const sample = await pageAt(`2027-01-${day}T19:00:00Z`, { width: 375, height: 667 }, (variant + .01) / 7);
+      const art = sample.locator('.eddy-global-art img');
+      await art.evaluate((img) => img.decode());
+      assert.match(await art.getAttribute('src'), /midnight-snack/);
+      assert.equal(await art.evaluate((img) => img.naturalWidth), 1672, 'midnight snack artwork loads');
+      const copy = sample.locator('.eddy-global-copy');
+      const fit = await copy.evaluate((node) => ({ scroll: node.scrollHeight, visible: node.clientHeight }));
+      assert.ok(fit.scroll <= fit.visible + 1, `midnight snack comment ${variant + 1} fits mobile: ${JSON.stringify(fit)}`);
+      if (variant === 0) {
+        const sizes = await copy.evaluate((node) => ({ main: parseFloat(getComputedStyle(node.querySelector('strong')).fontSize), sub: parseFloat(getComputedStyle(node.querySelector('span')).fontSize) }));
+        assert.ok(sizes.main > sizes.sub, 'midnight snack opening line is larger');
+        await sample.screenshot({ path: '/tmp/eddy-midnight-snack-mobile.png' });
+      }
+      await sample.close();
+    }
+
     const midnightArrival = await pageAt('2026-11-03T16:30:00Z', { width: 375, height: 667 });
     assert.match(await midnightArrival.locator('.eddy-global-art img').getAttribute('src'), /bedtime-pyjamas/, 'first arrival after midnight shows bedtime');
     await midnightArrival.keyboard.press('Tab');
