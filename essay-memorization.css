@@ -60,3 +60,62 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #2487
 #step-dialog{width:min(820px,calc(100vw - 32px));max-height:85dvh;padding:0;border:0;border-radius:8px;color:var(--navy);box-shadow:0 20px 90px #102d5a50}#step-dialog::backdrop{background:#17385f80;backdrop-filter:blur(3px)}.picker-heading{display:flex;justify-content:space-between;align-items:center;padding:24px 28px;border-top:6px solid var(--blue);border-bottom:1px solid var(--line)}.picker-heading h2{font-family:inherit;font-size:26px;font-weight:700;line-height:1.4;margin:6px 0 0}.picker-heading p{margin:0}#step-picker-close{border:1px solid var(--line);background:#fff;color:var(--navy);width:42px;height:42px;border-radius:4px;font-size:28px}.picker-search{display:block;padding:18px 28px;font-size:13px;color:var(--muted);background:#f5f8fc}.picker-search input{display:block;width:100%;margin-top:8px;border:1px solid #b7cce7;border-radius:4px;background:#fff;font:inherit;font-size:17px;padding:12px;color:var(--navy)}#step-options{padding:8px 18px 18px;overflow-y:auto;max-height:48dvh}.picker-option{display:flex;align-items:center;gap:16px;width:100%;padding:16px 12px;background:#fff;border:0;border-bottom:1px solid var(--line);text-align:left;color:var(--navy);font-size:17px;line-height:1.5}.picker-option>span:nth-child(2){flex:1}.picker-option.current{background:#eaf3ff}.picker-option:hover{background:#f1f6fd}.picker-option small{display:block;color:#647b96;font-size:12px;margin-top:5px}.picker-number{background:#edf3fb;color:var(--blue);font-size:15px;font-weight:800;padding:8px;border-radius:4px}.picker-empty{padding:24px;color:var(--muted)}
 @media(max-width:1000px){.stage-rail{grid-template-columns:repeat(3,minmax(0,1fr))}.progress-actions{align-items:start;flex-direction:column}}
 @media(max-width:650px){.shell{padding:0 12px 30px}.hero{margin-top:12px}.hero-copy{padding:26px 20px}.hero h1{font-size:38px}.hero-tags{gap:8px}.hero-tags span{font-size:13px;padding:2px 8px}.setup-card{padding:18px}.mission{margin-top:28px}.mission-heading h2{font-size:25px}.stage-rail{display:grid;grid-template-columns:1fr 1fr;gap:8px}.stage-node{min-height:100px;padding:12px;gap:8px;flex-direction:column;align-items:start}.node-copy strong{font-size:16px}.node-copy small{font-size:9px;white-space:normal}.node-icon{width:28px;height:28px;font-size:20px}.play-area{padding:12px}.game-card{padding:18px 14px}.choice-card{text-align:left;padding:16px 12px}.concept-grid{grid-template-columns:1fr;gap:12px}.concept-card{padding:18px}.concept-card p{font-size:19px}.structure-part{width:100%;padding:16px}.step-picker{display:block}.step-picker>span{display:block;margin-bottom:8px}.step-picker #step-picker-open{width:100%;font-size:16px}.progress-buttons button{font-size:13px;padding:10px}.picker-heading{padding:20px}.picker-heading h2{font-size:23px}.picker-search{padding:16px 20px}#step-options{padding:6px 10px}.picker-option{font-size:16px;gap:10px}.score-explanation{font-size:12px}.support-source{padding:16px;font-size:19px}.mission-heading .eyebrow{font-size:11px}.journey-count{font-size:12px}}
+
+/* A warmer learning palette; motion follows focus and learning actions. */
+:root{--ease-soft:cubic-bezier(.22,1,.36,1);--accent:#0964cf;--tint:#edf5ff}
+body{background:#fdfcf9}
+.hero{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(115deg,#164c9d 0%,#146cbe 52%,#15847e 100%);border:0;border-radius:12px 12px 0 0}
+.hero:after{content:"";position:absolute;z-index:-1;right:-80px;top:-150px;width:430px;height:430px;border-radius:50%;border:70px solid #b9eee51c;pointer-events:none}
+.hero-copy{position:relative}.hero h1 span{color:#ffdc94}.hero .eyebrow{color:#d2f3ee}
+.hero-tags{gap:8px}.hero-tags span,.hero-tags span:first-child{padding:7px 12px;border:1px solid #ffffff35;border-radius:6px;background:#ffffff10}
+.hero-tags span:nth-child(3n+2){color:#ffe3a7;background:#ffcc7a12}.hero-tags span:nth-child(3n){color:#c4fff0;background:#94f6d712}
+.setup-card{background:#fff8ec;border-color:#eadfc9;border-radius:0 0 12px 12px}.setup-icon{background:#ffe5bc;color:#925619}.setup-card a{background:#fffdf8;color:#88521d;border-color:#ddbf8e}
+.stage-node,.play-area{--accent:#1468bc;--tint:#edf5ff}
+.stage-node:nth-child(5n+2),.play-area[data-palette="1"]{--accent:#087b70;--tint:#eaf7f1}
+.stage-node:nth-child(5n+3),.play-area[data-palette="2"]{--accent:#a64f34;--tint:#fff0e9}
+.stage-node:nth-child(5n+4),.play-area[data-palette="3"]{--accent:#7451b0;--tint:#f4effb}
+.stage-node:nth-child(5n+5),.play-area[data-palette="4"]{--accent:#8d6315;--tint:#fff7df}
+.stage-node{border-radius:9px;border-top:3px solid var(--accent);background:var(--tint)}
+.stage-node.active{background:var(--tint);border-color:var(--accent);box-shadow:inset 0 -3px var(--accent),0 5px 16px #253d5910;color:var(--accent)}
+.stage-node.done:not(.active){background:var(--tint);border-color:var(--accent)}
+.node-icon,.active .node-icon,.done .node-icon{color:var(--accent);background:#ffffffc9;border-radius:8px}
+.stage-node:not(:disabled):hover{background:var(--tint);border-color:var(--accent);box-shadow:0 9px 20px #243b5612;transform:translateY(-4px)}
+.play-area{background:linear-gradient(145deg,var(--tint),#f8f9fb 65%);border-radius:12px;border-top:4px solid var(--accent)}
+.play-area .stage-kicker,.play-area .question-label{color:var(--accent)}
+.score-pill{background:#fff8df;color:#80590e;border-color:#e9d7a5;border-radius:8px}
+.progress-track{height:8px;border-radius:8px;background:#dfe8e7}.progress-track span{border-radius:8px;background:linear-gradient(90deg,var(--accent),#33b69e);transition:width 750ms var(--ease-soft)}
+.game-card{border-radius:10px}.question-mark{background:var(--tint);color:var(--accent);border-radius:9px}
+.primary-button,.progress-buttons button:first-child{background:var(--accent);border-color:var(--accent);border-radius:7px}.primary-button:hover:not(:disabled){background:var(--accent);filter:brightness(1.08)}
+.choice-card,.sequence-card{border-radius:8px}.choice-card:hover:not(:disabled),.sequence-card:hover:not(:disabled){background:var(--tint);border-color:var(--accent);box-shadow:0 6px 18px #243b5610}
+.choice-symbol,.choice-arrow,.option-glyph{color:var(--accent)}.choice-symbol{background:var(--tint);border-color:#d9dfe6}
+.sequence-slot.filled{background:#eaf7f1;border-color:#a4d9c5;color:#235d4d}.sequence-slot{border-radius:7px}
+.support-source{background:#f1f5fb;border-left-color:#96b7de;border-radius:0 7px 7px 0}
+.concept-card:first-child{background:#f1faf5;border-top-color:#288a71}.concept-card:first-child .concept-label{color:#176c56}
+.concept-card:nth-child(2){background:#f7f2fc;border-top-color:#8960b7}.concept-card:nth-child(2) .concept-label{color:#704698}
+.structure-part.slot{background:#fff3d8;border-color:#ebd49f;color:#695016}.structure-part.fixed,.structure-part.link{background:#eee9fa;border-color:#d5c6ed;color:#68448f}
+.support-table th{background:#edf6f2;color:#305f53}.model-connection{background:#fff7e8;border-left-color:#cd9841}
+#step-dialog{border-radius:12px}.picker-heading{border-top-color:#8060b5}.picker-search{background:#f7f3fc}.picker-option.current{background:#f3edfa}.picker-number{background:#eee7f8;color:#704da3}
+@media(prefers-reduced-motion:no-preference){
+ .hero{animation:memory-arrive 850ms var(--ease-soft) both}.hero:after{animation:memory-drift 14s ease-in-out 2 alternate}
+ .setup-card{animation:memory-arrive 850ms 80ms var(--ease-soft) both}
+ .stage-node,.node-icon,.choice-card,.sequence-card,.primary-button,.mini-button,.utility-button,.progress-buttons button,.picker-option,.choice-arrow{transition:transform 420ms var(--ease-soft),box-shadow 420ms var(--ease-soft),background-color 300ms ease,border-color 300ms ease,color 300ms ease}
+ .stage-node:hover .node-icon{transform:rotate(-7deg) scale(1.08)}
+ .primary-button:hover:not(:disabled),.mini-button:hover,.utility-button:hover{transform:translateY(-2px);box-shadow:0 6px 14px #243b561a}
+ .choice-card:hover .choice-arrow,.picker-option:hover>span:last-child{transform:translateX(4px)}
+ .stage-node:active,.choice-card:active,.sequence-card:active,.primary-button:active{transform:scale(.985)}
+ .card-enter{animation:memory-arrive 500ms var(--ease-soft) both}
+ .card-enter .choice-card,.card-enter .sequence-card{animation:memory-arrive 480ms var(--ease-soft) both}
+ .card-enter .choice-card:nth-child(2),.card-enter .sequence-card:nth-child(2){animation-delay:35ms}.card-enter .choice-card:nth-child(3),.card-enter .sequence-card:nth-child(3){animation-delay:70ms}.card-enter .choice-card:nth-child(n+4),.card-enter .sequence-card:nth-child(n+4){animation-delay:105ms}
+ .sequence-slot.filled{animation:memory-settle 400ms var(--ease-soft) both}
+ .choice-card.is-right{animation:memory-confirm 500ms var(--ease-soft)}
+ .feedback.success,.model-connection{animation:memory-arrive 450ms var(--ease-soft)}
+ #step-dialog[open]{animation:memory-menu 350ms var(--ease-soft)}#step-dialog[open]::backdrop{animation:memory-fade 250ms ease}
+ .picker-option{animation:memory-arrive 350ms var(--ease-soft) both}
+}
+@keyframes memory-arrive{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes memory-settle{from{opacity:.4;transform:translateY(6px) scale(.97)}to{opacity:1;transform:none}}
+@keyframes memory-confirm{0%,100%{transform:scale(1)}45%{transform:scale(1.018)}}
+@keyframes memory-menu{from{opacity:0;transform:translateY(14px) scale(.98)}to{opacity:1;transform:none}}
+@keyframes memory-fade{from{opacity:0}to{opacity:1}}
+@keyframes memory-drift{from{transform:translate(0,0) rotate(0)}to{transform:translate(-35px,25px) rotate(12deg)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}

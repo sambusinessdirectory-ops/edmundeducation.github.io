@@ -208,6 +208,7 @@
   }
   function renderHeader() {
     const stage = stageDefinitions[state.stage];
+    $('#play-title').closest('.play-area').dataset.palette = state.stage % 5;
     const solvedCount = Object.keys(state.solved).filter(key => state.solved[key]).length;
     const stars = Object.values(state.solved).reduce((sum, value) => sum + (Number(value) || 0), 0);
     $('#stage-kicker').textContent = `MISSION ${String(state.stage + 1).padStart(2, '0')} / ${stage.en}`;
