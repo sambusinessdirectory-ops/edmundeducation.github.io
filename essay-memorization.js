@@ -305,7 +305,7 @@
     $('#game-card').querySelectorAll('button').forEach(button => { button.disabled = true; });
     if(round().modelLink){
       const q=round();
-      $('#game-card').insertAdjacentHTML('beforeend',`<section class="model-connection"><h4>這題怎樣應用範文的論證？</h4><p>${escapeHtml(q.modelLink)}</p><details><summary>對照範文原句</summary>${q.sourceSentenceIndices.map(i=>`<blockquote><small>第 ${sentences[i].paragraph+1} 段 · 第 ${sentences[i].index+1} 句</small><p>${escapeHtml(sentences[i].english)}</p></blockquote>`).join('')}</details></section>`);
+      $('#game-card').insertAdjacentHTML('beforeend',`<section class="model-connection"><h4>這題怎樣應用範文的論證？</h4><p>${escapeHtml(q.modelLink)}</p><details><summary>對照範文原句</summary>${q.sourceSentenceIndices.map(i=>`<blockquote><small>第 ${sentences[i].paragraph+1} 段 · 第 ${sentences[i].index+1} 句</small><p lang="en">${escapeHtml(sentences[i].english)}</p><p class="model-translation" lang="zh-Hant"><span>中文意思</span>${escapeHtml(sentences[i].chinese)}</p></blockquote>`).join('')}</details></section>`);
     }
     $('#game-card').insertAdjacentHTML('beforeend', '<button class="primary-button support-next" data-continue>下一小步 →</button>');
     if (!selfCheck) celebrate();
@@ -438,6 +438,22 @@
     if (!confirm('重新開始會清除 Essay 80 試驗版的本機進度。確定嗎？')) return;
     audio.pause(); state.transitioning=false;state.checks=[];state.completed=false;state.stage = 0; state.round = 0; state.unlocked = 0; state.solved = {}; state.selection = []; state.hadMistake = false; state.revealTranslation = false; render();
   });
+
+  // Format displayed Chinese prose only; source data, attributes and answer keys stay intact.
+  function formatChineseSentences(root) {
+    const nodes=[];
+    if(root.nodeType===Node.TEXT_NODE) nodes.push(root);
+    else {const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);while(walker.nextNode())nodes.push(walker.currentNode);}
+    for(const node of nodes){
+      if(!node.parentElement || node.parentElement.closest('script,style,option,textarea'))continue;
+      const formatted=node.data.replace(/([。！？；][」』”）】]*)[ \t]*(?=[^\s」』”）】])/g,'$1\n');
+      if(formatted!==node.data){node.parentElement.classList.add('sentence-lines');node.data=formatted;}
+    }
+  }
+  for(const root of [$('.shell'),$('#step-dialog')]){
+    formatChineseSentences(root);
+    new MutationObserver(records=>{for(const record of records){if(record.type==='characterData')formatChineseSentences(record.target);else record.addedNodes.forEach(formatChineseSentences);}}).observe(root,{childList:true,subtree:true,characterData:true});
+  }
 
   if (state.completed && stageDefinitions.every((stage,i)=>stage.rounds.every((_,j)=>state.solved[`${i}:${j}`]))) renderEnd(); else render();
 })();

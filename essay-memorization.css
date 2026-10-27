@@ -119,3 +119,9 @@ body{background:#fdfcf9}
 @keyframes memory-fade{from{opacity:0}to{opacity:1}}
 @keyframes memory-drift{from{transform:translate(0,0) rotate(0)}to{transform:translate(-35px,25px) rotate(12deg)}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* Give the transfer scenario equal prominence, with bilingual source support. */
+.question-intro h3 .transfer-context{color:var(--navy);font-size:1em;line-height:1.55;font-weight:750;margin-bottom:.55em}
+.model-translation{background:#ffffffa6;border-radius:6px;padding:14px 18px;color:#263f56;line-height:1.85}
+.model-translation>span{display:block;font-size:13px;font-weight:750;letter-spacing:.06em;color:#796024;margin-bottom:6px}
+.sentence-lines{white-space:pre-line}
