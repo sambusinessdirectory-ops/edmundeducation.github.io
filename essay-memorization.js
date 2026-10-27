@@ -55,15 +55,14 @@
       ],
     },
     {
-      icon: '▤', title: '還原句序', en: 'SENTENCE MAP', description: '按原文次序排列每一段的句子，合共十六句。', rounds: [0, 1, 2, 3].map(paragraph => ({
-        type: 'sequence', paragraph, prompt: ['開場：背景如何帶出立場？', '第一主體段：六句如何展開？', '第二主體段：六句如何展開？', '總結：哪句先重申立場？'][paragraph],
-        detail: '逐一點選英文原句；完成後可看繁體中文提示。', items: byParagraph(paragraph).map(sentence => ({ title: sentence.english, body: sentence.role, sentenceIndex: sentence.globalIndex })),
-        why: '請留意每句的角色，以及它怎樣引出下一句。',
+      icon: '▤', title: '還原句序', en: 'SENTENCE MAP', description: '逐句用短小的意思卡串起每一段。', rounds: sentences.map((sentence, sentenceIndex) => ({
+        type: 'sequence', sentenceIndex, prompt: `${['開場：背景如何帶出立場？','第一主體段','第二主體段','總結'][sentence.paragraph]} · 第 ${sentenceIndex+1} 句`,
+        detail: '逐一點選短小的意思卡，接成這一句。', items: support.sentences[sentenceIndex].chunks.map(title=>({title})), why: '已接回完整原句。'
       })),
     },
     {
       icon: 'Aa', title: '簡單字詞', en: 'SIMPLE WORDS', description: '每句先看字詞在這個語境中的簡單說法，再用自己的話說一次。',
-      rounds: sentences.map((sentence, sentenceIndex) => ({ type: 'vocabulary', sentenceIndex, prompt: `第 ${sentenceIndex + 1} 句 · 換成容易明白的說法` })),
+      rounds: sentences.flatMap((sentence, sentenceIndex) => [false,true].map(reverse=>({ type: 'vocabulary', sentenceIndex, reverse, prompt: `第 ${sentenceIndex + 1} 句 · ${reverse?'從簡單說法拼回原文':'用簡單字詞重建整句'}` }))),
     },
     {
       icon: '▤', title: '拆解與運用句型', en: 'SENTENCE STRUCTURES', description: '看懂每一部分的意思和作用，再用另一個生活情境練習。每題四選一。',
@@ -85,8 +84,9 @@
       icon: '♫', title: '有提示朗讀', en: 'SUPPORTED READING', description: '每次只讀一小節，再連成一句，最後把相鄰兩句接起來。英文提示一直可見。', rounds: speakingRounds(true),
     },
     {
-      icon: '◉', title: '無提示朗讀', en: 'INDEPENDENT RECALL', description: '先回想一小節，再一句，最後相鄰兩句。先朗讀，才揭曉原文核對；需要時可返回有提示練習。', rounds: speakingRounds(false),
+      icon: '◉', title: '中階填空朗讀', en: 'RECORDED RECALL', description: '使用填充練習的中階遮字；補回空格並錄下完整一句，儲存後核對。', rounds: sentences.map((sentence,i)=>({type:'speaking',guided:false,sentenceIndices:[i],text:sentence.english,prompt:`第 ${i+1} 句 · 中階填空與整句錄音`})),
     },
+    {icon:'↗',title:'跨主題論證應用',en:'TRANSFER THE LOGIC',description:'把兩段的主張、限制、做法、例子及收束運用到其他主題。',rounds:support.transfer.map(item=>({...item,type:'quiz'}))},
   ];
 
   function speakingRounds(guided) {
@@ -100,20 +100,15 @@
   }
 
   const totalRounds = stageDefinitions.reduce((count, stage) => count + stage.rounds.length, 0);
-  const storageKey = 'edmund-essay80-memory-scaffold-v2';
+  const storageKey = 'edmund-essay80-memory-active-v3';
   const saved = (() => {
     try {
       const current = JSON.parse(localStorage.getItem(storageKey) || 'null');
       if (current) return current;
-      const old = JSON.parse(localStorage.getItem('edmund-essay80-memory-pilot-v1') || '{}');
-      const solved = {};
-      Object.entries(old.solved || {}).forEach(([key, value]) => {
-        const [stage, round] = key.split(':').map(Number);
-        if (stage < 5) solved[key] = value;
-        else if (stage === 5 && round < 16) solved[`8:${round}`] = value;
-      });
-      // Old paragraph self-checks remain in the untouched v1 record; they do not certify new practice.
-      return { stage: old.stage >= 5 ? 5 : old.stage || 0, round: old.stage >= 5 ? 0 : old.round || 0, unlocked: Math.min(old.unlocked || 0, 5), solved };
+      const old = JSON.parse(localStorage.getItem('edmund-essay80-memory-scaffold-v2') || '{}');
+      const solved = Object.fromEntries(Object.entries(old.solved||{}).filter(([key])=>[0,1,2,3,8].includes(Number(key.split(':')[0]))));
+      // Earlier self-certification does not count as checked reconstruction or saved recording.
+      return {stage:0,round:0,solved};
     } catch { return {}; }
   })();
   const state = {
@@ -133,17 +128,28 @@
   const save = () => { try { localStorage.setItem(storageKey, JSON.stringify({ stage: state.stage, round: state.round, unlocked: state.unlocked, solved: state.solved, completed: state.completed })); } catch { /* The game remains usable without storage. */ } };
   const roundKey = () => `${state.stage}:${state.round}`;
   const round = () => stageDefinitions[state.stage].rounds[state.round];
-  const orderedSeed = (length, seed) => {
-    const indices = Array.from({ length }, (_, index) => index);
-    let x = seed + 137;
-    for (let index = length - 1; index > 0; index--) {
-      x = (Math.imul(x, 1664525) + 1013904223) >>> 0;
-      const target = x % (index + 1);
-      [indices[index], indices[target]] = [indices[target], indices[index]];
-    }
-    if (length > 1 && indices.every((value, index) => value === index)) indices.reverse();
-    return indices;
-  };
+  let orderCache = new Map();
+  function shuffled(length) {
+    const values=Array.from({length},(_,i)=>i);
+    for(let i=length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[values[i],values[j]]=[values[j],values[i]];}
+    return values;
+  }
+  function orderedSeed(length, purpose='options') {
+    const key=`${roundKey()}:${purpose}:${length}`;
+    if(!orderCache.has(key)) orderCache.set(key,shuffled(length));
+    return orderCache.get(key);
+  }
+  const answerSound = correct => document.dispatchEvent(new CustomEvent('edmund:answer-result',{detail:{correct}}));
+  function flyCard(button, slotIndex) {
+    if(matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const from=button.getBoundingClientRect(), clone=button.cloneNode(true);
+    const target=$('#game-card').querySelectorAll('.sequence-slot')[slotIndex];
+    if(!target)return;
+    const to=target.getBoundingClientRect();
+    Object.assign(clone.style,{position:'fixed',left:from.left+'px',top:from.top+'px',width:from.width+'px',height:from.height+'px',margin:'0',zIndex:10000,pointerEvents:'none',transformOrigin:'top left'});
+    document.body.append(clone);
+    clone.animate([{transform:'translate(0,0)',opacity:1},{transform:`translate(${to.left-from.left}px,${to.top-from.top}px) scale(${to.width/from.width},${to.height/from.height})`,opacity:0.15}],{duration:420,easing:'cubic-bezier(.2,.8,.2,1)'}).finished.finally(()=>clone.remove());
+  }
   const phraseTiles = text => support.sentences[sentences.findIndex(s => s.english === text)].chunks;
 
 
@@ -164,6 +170,8 @@
     if (audio.readyState >= 1) begin();
     else { audio.addEventListener('loadedmetadata', begin, { once: true }); audio.load(); }
   }
+  let playbackFrame;
+  audio.addEventListener('play',()=>{cancelAnimationFrame(playbackFrame);const check=()=>{if(segmentEnd!==null && audio.currentTime>=segmentEnd)audio.pause();if(!audio.paused)playbackFrame=requestAnimationFrame(check);};check();});
   audio.addEventListener('timeupdate', () => { if (segmentEnd !== null && audio.currentTime >= segmentEnd) audio.pause(); });
   audio.addEventListener('pause', () => audioButton?.classList.remove('is-playing'));
   audio.addEventListener('error', () => feedback('音訊未能載入。請稍後重試，或到原範文頁播放。', 'error'));
@@ -205,30 +213,55 @@
     const sentence = item.sentenceIndex == null ? null : sentences[item.sentenceIndex];
     const paragraph = Number.isInteger(item.paragraph) ? byParagraph(item.paragraph) : null;
     const extra = sentence ? `<div class="memory-tools"><span class="role-badge">${escapeHtml(sentence.role)}</span><button class="mini-button" type="button" data-play-sentence="${item.sentenceIndex}">♫ 聽這一句</button><button class="mini-button" type="button" data-translation>繁體中文提示</button></div>${state.revealTranslation ? `<p class="translation-line">${escapeHtml(sentence.chinese)}</p>` : ''}` : paragraph ? `<div class="memory-tools"><span class="role-badge">${['開場', '第一主體段', '第二主體段', '總結'][item.paragraph]}</span><button class="mini-button" type="button" data-translation>${state.revealTranslation ? '隱藏' : '顯示'}繁體中文</button></div>${state.revealTranslation ? `<div class="translation-list">${paragraph.map((line, index) => `<p><b>${index + 1}.</b> ${escapeHtml(line.chinese)}</p>`).join('')}</div>` : ''}` : '';
-    return `<div class="question-intro"><span class="question-mark">${precision ? '✦' : '↝'}</span><div><p class="question-label">${precision ? 'REBUILD THE EXACT SENTENCE' : 'TAP IN THE CORRECT ORDER'}</p><h3>${escapeHtml(item.prompt)}</h3><p>${escapeHtml(item.detail || '逐一點選正確次序。')}</p></div></div>${extra}<div class="sequence-track" aria-label="已選次序">${items.map((_, index) => `<div class="sequence-slot ${state.selection[index] == null ? '' : 'filled'}"><small>${String(index + 1).padStart(2, '0')}</small><span>${state.selection[index] == null ? '下一步' : escapeHtml(items[state.selection[index]].title)}</span></div>`).join('')}</div><div class="option-heading"><span>${precision ? '片語卡' : '待排序卡'}</span><span>${state.selection.length} / ${items.length}</span></div><div class="sequence-options ${precision ? 'phrase-options' : ''}">${indices.map(index => `<button class="sequence-card ${state.selection.includes(index) ? 'used' : ''}" type="button" data-sequence="${index}" ${state.selection.includes(index) ? 'disabled' : ''}><span class="option-glyph" aria-hidden="true">${precision ? '✧' : '◆'}</span><span><strong>${escapeHtml(items[index].title)}</strong>${items[index].body ? `<small>${escapeHtml(items[index].body)}</small>` : ''}</span></button>`).join('')}</div><div class="action-bar"><span>按原有邏輯依次點選</span><button class="text-button" type="button" data-undo ${state.selection.length ? '' : 'disabled'}>撤銷上一步 ↶</button></div>`;
+    return `<div class="question-intro"><span class="question-mark">${precision ? '✦' : '↝'}</span><div><p class="question-label">${precision ? 'REBUILD THE EXACT SENTENCE' : 'TAP IN THE CORRECT ORDER'}</p><h3>${escapeHtml(item.prompt)}</h3><p>${escapeHtml(item.detail || '逐一點選正確次序。')}</p></div></div>${extra}<div class="sequence-track" aria-label="已選次序">${items.map((_, index) => `<div class="sequence-slot ${state.selection[index] == null ? '' : 'filled'}"><small>${String(index + 1).padStart(2, '0')}</small><span>${state.selection[index] == null ? '下一步' : escapeHtml(items[state.selection[index]].body || items[state.selection[index]].title)}</span></div>`).join('')}</div><div class="option-heading"><span>${precision ? '片語卡' : '待排序卡'}</span><span>${state.selection.length} / ${items.length}</span></div><div class="sequence-options ${precision ? 'phrase-options' : ''}">${indices.map(index => `<button class="sequence-card ${state.selection.includes(index) ? 'used' : ''}" type="button" data-sequence="${index}" ${state.selection.includes(index) ? 'disabled' : ''}><span class="option-glyph" aria-hidden="true">${precision ? '✧' : '◆'}</span><span><strong>${escapeHtml(items[index].body || items[index].title)}</strong>${items[index].body ? `<small>${escapeHtml(items[index].title)}</small>` : ''}</span></button>`).join('')}</div><div class="action-bar"><span>按原有邏輯依次點選</span><button class="text-button" type="button" data-undo ${state.selection.length ? '' : 'disabled'}>撤銷上一步 ↶</button></div>`;
   }
   function lineHtml(text) { return String(text).split('\n').map(line => `<p>${escapeHtml(line)}</p>`).join(''); }
-  function renderVocabulary(item) {
-    const content = support.sentences[item.sentenceIndex];
-    return `<div class="question-intro"><div><p class="question-label">WORDS IN CONTEXT</p><h3>${escapeHtml(item.prompt)}</h3></div></div><p class="support-source">${escapeHtml(sentences[item.sentenceIndex].english)}</p><table class="support-table"><thead><tr><th>原文字詞</th><th>這裏的簡單說法</th><th>意思</th></tr></thead><tbody>${content.synonyms.map(pair=>`<tr><td>${escapeHtml(pair.original)}</td><td>${escapeHtml(pair.simple)}</td><td>${escapeHtml(pair.meaning)}</td></tr>`).join('')}</tbody></table><p class="support-notes">這些是本句語境中的解釋或改寫；不一定可以逐字替換。先說出意思，再看簡單版本。</p><details><summary>查看簡單英文示範</summary><p class="speaking-text">${escapeHtml(content.simple)}</p></details><button class="primary-button support-next" data-support-done>我能用簡單字詞說出意思 →</button>`;
+  function wordTable(content) {
+    return `<div class="table-scroll"><table class="support-table"><thead><tr><th>原文字詞</th><th>簡單說法</th><th>意思</th></tr></thead><tbody>${content.synonyms.map(p=>`<tr><td>${escapeHtml(p.original)}</td><td>${escapeHtml(p.simple)}</td><td>${escapeHtml(p.meaning)}</td></tr>`).join('')}</tbody></table></div>`;
+  }
+  function buildParts(item) {
+    const ids=item.sentenceIndices || [item.sentenceIndex];
+    return ids.flatMap(i=>(item.reverse?support.sentences[i].chunks:support.sentences[i].simpleChunks).map(text=>({text,sentenceIndex:i})));
+  }
+  function renderVocabulary(item) { return renderBuild(item); }
+  function renderBuild(item) {
+    if(item.reverse && !state.solved[`5:${state.round-1}`]) return `<h3>${escapeHtml(item.prompt)}</h3><p>先完成這一句的簡單英文重組，再拼回原文。</p><button class="primary-button" data-build-prerequisite>前往簡單英文重組 →</button>`;
+    const parts=buildParts(item), position=state.selection.length, current=parts[Math.min(position,parts.length-1)].sentenceIndex;
+    const content=support.sentences[current];
+    const bank=parts.filter(p=>p.sentenceIndex===current).map(p=>p.text);
+    const pool=[...new Set(parts.map(p=>p.text).filter(t=>t!==parts[position]?.text))];
+    const distractors=orderedSeed(pool.length,`distractors-${position}`).slice(0,3).map(i=>pool[i]);
+    const choices=[parts[position]?.text,...distractors].filter(Boolean);
+    const indices=orderedSeed(choices.length,`build-${position}`);
+    return `<h3>${escapeHtml(item.prompt)}</h3><p>第 ${current+1} 句 · 選出下一小節，完成整句。${item.reverse?'現在把簡單說法換回原文。':'保留原意，用較容易的字詞表達。'}</p><p class="support-source">${escapeHtml(item.reverse?content.simple:sentences[current].chinese)}</p>${item.type==='vocabulary'?wordTable(content):''}<div class="table-scroll"><table class="support-table word-bank"><caption>本句所需全部字詞／小節（次序已打亂）</caption><tbody>${orderedSeed(bank.length,`bank-${current}`).map(i=>`<tr><td>${escapeHtml(bank[i])}</td></tr>`).join('')}</tbody></table></div><div class="sequence-track build-track">${state.selection.map(i=>`<div class="sequence-slot filled"><span>${escapeHtml(parts[i].text)}</span></div>`).join('')}<div class="sequence-slot">下一小節</div></div><div class="choice-grid">${indices.map(i=>`<button class="choice-card" data-build="${i}">${escapeHtml(choices[i])}</button>`).join('')}</div><p>${position} / ${parts.length} 小節已完成</p>`;
   }
   function renderStructure(item) {
     const source = sentences.find(s=>s.paragraph===item.source.paragraph-1 && s.index===item.source.sentence-1);
-    return `<p class="question-label">第 ${item.source.paragraph} 段 · 第 ${item.source.sentence} 句</p><p class="support-source">${escapeHtml(source.english)}</p><h3 class="structure-frame">${escapeHtml(item.frame)}</h3><div class="structure-parts">${item.parts.map(p=>`<span class="structure-part ${p.kind}">${escapeHtml(p.text)}<small>${p.kind==='slot'?'換入符合這個意思的內容':'連接／句型固定部分'}</small></span>`).join('')}</div><div class="support-notes"><p><strong>意思：</strong>${escapeHtml(item.meaning)}</p><p><strong>功能與使用時機：</strong>${escapeHtml(item.usage)}</p>${item.contextNote?`<p>${escapeHtml(item.contextNote)}</p>`:''}</div>${renderQuiz(item)}<p class="support-notes">選出同時符合指定意思及句型的一句。</p>`;
+    return `<p class="question-label">第 ${item.source.paragraph} 段 · 第 ${item.source.sentence} 句</p><p class="support-source">${escapeHtml(source.english)}</p><h3 class="structure-frame">${escapeHtml(item.frame)}</h3><div class="structure-parts">${item.parts.map(p=>`<span class="structure-part ${p.kind}">${escapeHtml(p.text)}<small>${p.kind==='slot'?'換入符合這個意思的內容':'連接／句型固定部分'}</small></span>`).join('')}</div><div class="support-notes"><p><strong>意思：</strong>${escapeHtml(item.meaning)}</p><p><strong>功能與使用時機：</strong>${escapeHtml(item.usage)}</p>${item.contextNote?`<p>${escapeHtml(item.contextNote)}</p>`:''}</div>${renderQuiz(item)}<p class="support-notes">四句來自不同情境；選出句型所表達的關係與內容一致的一句。</p>`;
+  }
+  const savedRecordings=new Set();
+  const recordingId=()=>`essay80-${roundKey().replace(':','-')}`;
+  const recordingReceipt=()=>`${window.EdmundSystemNav?.getStudentSession?.()?.token || 'guest'}:${recordingId()}`;
+  function mediumMask(text) {
+    const phrases=[...essay.mediumAnswers].sort((a,b)=>b.length-a.length);
+    const escapeRegex=x=>x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+    return text.replace(new RegExp('\\b('+phrases.map(escapeRegex).join('|')+')\\b','gi'),match=>'＿'.repeat(Math.min(12,Math.max(3,match.length))));
   }
   function renderSpeaking(item) {
-    const retell = item.type === 'retell';
-    const visible = item.guided || state.revealTranslation;
-    const answer = retell ? item.sentenceIndices.map(i=>support.sentences[i].simple).join('\n') : item.text;
-    const labels = retell ? ['我有交代立場或本部分的主要意思。','我保留了本部分的原因、比較或例子，沒有改變意思。','我用了自己明白的簡單英文。'] : ['我已大聲讀出這一小步。','我已對照文字，檢查有沒有遺漏或讀錯。'];
-    return `<div class="question-intro"><div><p class="question-label">${retell?'SIMPLE ENGLISH RETELLING':item.guided?'SUPPORTED READING':'RECALL AND CHECK'}</p><h3>${escapeHtml(item.prompt)}</h3><p>${retell?'先用自己的英文說一次，再查看示範。意思相同即可。':item.guided?'看著英文讀這一小步；不需要一次背整段。':'這裏不顯示英文或意思提示。先試讀，再揭曉核對。'}</p></div></div>${retell?`<div class="recall-cue">${lineHtml(item.cue)}</div>`:''}${visible?`<div class="recall-reveal speaking-text">${lineHtml(answer)}</div>${!retell && item.sentenceIndices.length===1?`<button class="mini-button" data-play-sentence="${item.sentenceIndices[0]}">♫ 聽完整這一句</button>`:''}<div class="self-checks">${labels.map((text,i)=>`<label><input type="checkbox" data-self-check="${i}" ${state.checks.includes(i)?'checked':''}>${escapeHtml(text)}</label>`).join('')}</div><div class="recall-actions"><button class="text-button" data-retry-speaking>再試一次 ↶</button><button class="primary-button" data-speaking-done ${state.checks.length===labels.length?'':'disabled'}>我已完成本小步自我核對 →</button></div>`:`<div class="speaking-hidden">${retell?'用簡單英文說，不必照背原文。':'先試著說出剛練過的小節或句子。'}</div><div class="recall-actions"><button class="primary-button" data-reveal-speaking>${retell?'查看簡單英文示範與核對清單':'揭曉本小步原文並核對'} →</button>${!retell?'<button class="text-button" data-guided-help>需要提示？返回相同小步練習</button>':''}</div>`}`;
+    const recorded=savedRecordings.has(recordingReceipt());
+    return `<h3>${escapeHtml(item.prompt)}</h3><p>${item.guided?'聽這一小步，再錄下自己的朗讀。':'補回空格，錄下完整一句並儲存到帳戶。儲存不代表系統已判定發音或內容正確。'}</p><div class="speaking-text">${lineHtml(item.guided?item.text:mediumMask(item.text))}</div>${item.guided?'<button class="mini-button" data-play-chunk>♫ 聽這一小步</button>':''}<section class="question-card recording-practice" data-edmund-record-id="${recordingId()}" data-edmund-record-title="Essay 80 · ${escapeHtml(item.prompt)}" data-edmund-min-recording-ms="${item.guided?0:Math.max(2000,item.text.split(/\s+/).length*120)}"><button class="primary-button" data-edmund-record-toggle>● 錄音練習</button><a class="mini-button" href="speaking-system.html?library=1" target="_blank" rel="noopener">我的錄音 · 儲存及重聽 ↗</a></section>${recorded?`<p class="recording-status">已儲存本步錄音，可到「我的錄音」重聽。</p>${!item.guided?`<details><summary>對照完整原句</summary>${lineHtml(item.text)}</details>`:''}`:''}<button class="primary-button support-next" data-speaking-done ${!recorded?'disabled':''}>錄音已儲存 · 下一小步 →</button>`;
   }
+  document.addEventListener('edmund:recording-saved',event=>{
+    if(event.detail?.recordId!==recordingId() || round().type!=='speaking')return;
+    savedRecordings.add(recordingReceipt());$('#game-card').innerHTML=renderSpeaking(round());
+  });
   function render() {
+    orderCache.clear();
     renderRail(); renderHeader(); feedback('');
     const item = round();
     const card = $('#game-card');
-    card.classList.remove('card-enter'); void card.offsetWidth; card.classList.add('card-enter');
-    card.innerHTML = item.type === 'quiz' ? renderQuiz(item) : item.type === 'structure' ? renderStructure(item) : item.type === 'vocabulary' ? renderVocabulary(item) : ['speaking','retell'].includes(item.type) ? renderSpeaking(item) : item.type === 'multi' ? renderMulti(item) : renderSequence(item, item.type === 'precision');
+    card.classList.remove('card-enter','is-correct'); void card.offsetWidth; card.classList.add('card-enter');
+    card.innerHTML = item.type === 'quiz' ? renderQuiz(item) : item.type === 'structure' ? renderStructure(item) : item.type === 'vocabulary' ? renderVocabulary(item) : item.type==='retell' ? renderBuild(item) : item.type==='speaking' ? renderSpeaking(item) : item.type === 'multi' ? renderMulti(item) : renderSequence(item, item.type === 'precision');
     save();
   }
   function celebrate() {
@@ -236,12 +269,13 @@
     layer.innerHTML = Array.from({ length: 18 }, (_, index) => `<i style="--x:${Math.round((index / 17) * 100)}%;--delay:${index % 5 * 40}ms;--hue:${index % 2 ? 43 : 169}"></i>`).join('');
     setTimeout(() => { layer.innerHTML = ''; }, 1150);
   }
-  function succeed(selfCheck = false) {
+  function succeed(selfCheck = false, sounded = false) {
     if (state.transitioning) return;
     state.transitioning = true;
+    if(!selfCheck && !sounded)answerSound(true);
     if (!state.solved[roundKey()]) state.solved[roundKey()] = state.hadMistake ? 1 : 2;
     save(); renderHeader(); renderRail();
-    feedback(selfCheck ? '已記錄你的自我核對。口說內容不會由系統自動評分。' : `答對了！${round().why || '你已接上這一段記憶。'}`, 'success');
+    feedback(selfCheck ? '錄音已儲存。請在「我的錄音」重聽；口說內容不會由系統自動評分。' : `答對了！${round().why || '你已接上這一段記憶。'}`, 'success');
     $('#game-card').classList.add('is-correct');
     $('#game-card').querySelectorAll('button').forEach(button => { button.disabled = true; });
     $('#game-card').insertAdjacentHTML('beforeend', '<button class="primary-button support-next" data-continue>下一小步 →</button>');
@@ -263,6 +297,7 @@
     render();
   }
   function mistake(button, message = '還差一點。留意句子之間的邏輯，再試一次。') {
+    answerSound(false);
     state.hadMistake = true;
     feedback(message, 'error');
     button?.classList.remove('is-wrong'); void button?.offsetWidth; button?.classList.add('is-wrong');
@@ -271,8 +306,8 @@
     renderRail(); renderHeader();
     $('#stage-kicker').textContent = 'JOURNEY COMPLETE';
     $('#play-title').textContent = '你已走完 Essay 80 的記憶路線';
-    $('#stage-description').textContent = '你已完成字詞、句型、簡單英文重述，以及分小步的有提示與無提示朗讀。';
-    $('#round-number').textContent = '十一個關卡完成';
+    $('#stage-description').textContent = '你已完成字詞、句型、簡單英文重述，以及分小步的有提示與中階填空朗讀。';
+    $('#round-number').textContent = '十二個關卡完成';
     $('#game-card').innerHTML = `<div class="ending"><div class="ending-star" aria-hidden="true">✦</div><p class="question-label">JOURNEY COMPLETE</p><h3>你已完成所有朗讀小步與重述核對。</h3><p>現在可嘗試一次過背出整篇：先說出立場及兩條理由，再依次講出兩段細節、例子與收束，最後逐句還原英文。你可以重玩任何關卡，或回原範文頁聽完整錄音。</p><div class="ending-actions"><button class="primary-button" type="button" data-replay>重玩原文重組 ↺</button><a class="secondary-button" href="writing-practice.html?exercise=model-essay-80-ielts-opinion">對照原範文 ↗</a></div></div>`;
     feedback('完成！朗讀及重述為自行核對，系統不會自動判定口說準確度。', 'success');
   }
@@ -283,7 +318,23 @@
     if (button.hasAttribute('data-continue')) { advance(); return; }
     if (state.transitioning) return;
     const item = round();
-    if (button.hasAttribute('data-choice')) {
+    if(button.hasAttribute('data-build-prerequisite')) {state.round--;state.selection=[];render();}
+    else if(button.hasAttribute('data-build')) {
+      if(Number(button.dataset.build)!==0){mistake(button,'這個小節不能接在這裏。留意意思及句子次序。');return;}
+      const old=button.cloneNode(true), rect=button.getBoundingClientRect();old.getBoundingClientRect=()=>rect;
+      state.selection.push(state.selection.length);answerSound(true);
+      const parts=buildParts(item);
+      if(state.selection.length===parts.length){$('#game-card').innerHTML=`<h3>${escapeHtml(item.prompt)}</h3><p class="speaking-text">${escapeHtml(parts.map(p=>p.text).join(' '))}</p>`;succeed(false,true);}
+      else {$('#game-card').innerHTML=renderBuild(item);flyCard(old,state.selection.length-1);}
+    } else if(button.hasAttribute('data-play-chunk')) {
+      let first=sentences[item.sentenceIndices[0]],last=sentences[item.sentenceIndices.at(-1)],start=first.start,end=last.end;
+      if(Number.isInteger(item.chunkIndex)){
+        const offset=support.sentences[item.sentenceIndices[0]].chunks.slice(0,item.chunkIndex).join(' ').trim().split(/\s+/).filter(Boolean).length;
+        const count=item.text.trim().split(/\s+/).length;
+        start=first.words[offset][1];end=first.words[offset+count-1][2];
+      }
+      playAudio(start,end,button);
+    } else if (button.hasAttribute('data-choice')) {
       const choice = Number(button.dataset.choice);
       if (choice === item.correct) { button.classList.add('is-right'); succeed(); }
       else mistake(button, item.explanations?.[choice] || '這一項與原文的立場或細節不符。再選一次。');
@@ -298,10 +349,12 @@
       const index = Number(button.dataset.sequence);
       const expected = state.selection.length;
       if (index !== expected) { mistake(button); return; }
-      state.selection.push(index);
+      const old=button.cloneNode(true), rect=button.getBoundingClientRect();old.getBoundingClientRect=()=>rect;
+      state.selection.push(index);answerSound(true);
       const length = item.type === 'precision' ? phraseTiles(sentences[item.sentenceIndex].english).length : item.items.length;
       $('#game-card').innerHTML = renderSequence(item, item.type === 'precision');
-      if (state.selection.length === length) succeed();
+      flyCard(old,expected);
+      if (state.selection.length === length) succeed(false,true);
     } else if (button.hasAttribute('data-undo')) {
       state.selection.pop(); $('#game-card').innerHTML = renderSequence(item, item.type === 'precision'); feedback('已撤銷上一步。', 'hint');
     } else if (button.hasAttribute('data-translation')) {
@@ -310,25 +363,13 @@
     } else if (button.hasAttribute('data-play-sentence')) {
       const sentence = sentences[Number(button.dataset.playSentence)];
       playAudio(sentence.start, sentence.end, button);
-    } else if (button.hasAttribute('data-support-done')) {
-      succeed(true);
-    } else if (button.hasAttribute('data-reveal-speaking')) {
-      state.revealTranslation=true; state.checks=[]; $('#game-card').innerHTML=renderSpeaking(item);
-    } else if (button.hasAttribute('data-retry-speaking')) {
-      state.revealTranslation=false;state.checks=[];$('#game-card').innerHTML=renderSpeaking(item);
     } else if (button.hasAttribute('data-speaking-done')) {
-      if (state.checks.length === (item.type==='retell'?3:2)) succeed(true);
+      if(savedRecordings.has(recordingReceipt())) succeed(true);
     } else if (button.hasAttribute('data-guided-help')) {
       state.stage=9;state.checks=[];state.revealTranslation=false;render();
     } else if (button.hasAttribute('data-replay')) {
       state.stage = 8; state.round = 0; state.selection = []; state.hadMistake = false; state.revealTranslation = false; render();
     }
-  });
-  $('#game-card').addEventListener('change', event => {
-    if (!event.target.matches('[data-self-check]')) return;
-    const i=Number(event.target.dataset.selfCheck);
-    state.checks=event.target.checked?[...new Set([...state.checks,i])]:state.checks.filter(x=>x!==i);
-    $('#game-card').querySelector('[data-speaking-done]').disabled=state.checks.length!==(round().type==='retell'?3:2);
   });
   $('#stage-rail').addEventListener('click', event => {
     const button = event.target.closest('[data-stage]');

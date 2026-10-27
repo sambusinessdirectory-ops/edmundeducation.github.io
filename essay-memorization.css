@@ -8,3 +8,16 @@
 @media(max-width:650px){.shell{padding:0 12px 28px}.memory-header{padding:12px}.play-area{padding:12px}.game-card{padding:16px}.hero-copy{padding:22px 0}.hero h1{font-size:44px}.stage-node{flex-basis:190px}.sequence-track{grid-template-columns:1fr}.support-table th,.support-table td{padding:9px 6px;overflow-wrap:anywhere}.play-topline{flex-wrap:wrap}.setup-card{grid-template-columns:1fr}.setup-icon{display:none}.setup-card a{grid-column:1}.mission-heading{align-items:start;gap:14px}.mission-heading h2{font-size:30px}.journey-count{white-space:nowrap}.support-table{font-size:1rem}}
 
 :root{font-size:20.8px}.support-table{font-size:1rem}.speaking-text{font-size:1.1rem}.step-picker{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:14px;font-size:16px}.step-picker select{font:inherit;padding:9px;max-width:100%;flex:1;min-width:0;border:1px solid #b9d1c4;border-radius:10px;background:#fff;color:#244946}.support-notes,.structure-parts,.support-source{font-size:20.8px}@media(max-width:650px){.hero h1{font-size:67.6px}.mission-heading h2{font-size:36.4px}.support-table{font-size:18.2px}}
+
+/* Active practice: descriptions lead, with smaller function labels. */
+.sequence-card small {display:block;font-size:.78em;margin-top:.45em;font-weight:500;}
+.sequence-options {grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));}
+.sequence-track {grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));}
+.build-track {display:flex;flex-wrap:wrap;gap:8px;margin-block:20px;}
+.build-track .sequence-slot {flex:0 1 auto;min-height:0;padding:12px;}
+.word-bank tbody {display:flex;flex-wrap:wrap;gap:8px;}
+.word-bank tr {border:1px solid #b7d1c5;border-radius:8px;}
+.word-bank caption {text-align:left;padding:12px;font-weight:700;}
+.table-scroll {overflow-x:auto;max-width:100%;}
+.recording-practice {display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin-block:22px;}
+.recording-status {color:#21664f;}

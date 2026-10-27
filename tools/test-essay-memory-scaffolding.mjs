@@ -7,8 +7,13 @@ const essay=context.window.ESSAY_80_MEMORY_DATA,support=context.window.ESSAY_80_
 assert.equal(support.sentences.length,16);assert.equal(support.structures.length,22);
 for(const [i,s] of support.sentences.entries()){
  assert.equal(s.chunks.join(' '),essay.sentences[i].english,`Original words retained in sentence ${i+1}`);
- assert(s.chunks.every(c=>c.split(/\s+/).length<=12));assert(s.synonyms.length>=2);assert(s.simple);
+ assert(s.chunks.every(c=>c.split(/\s+/).length<=12));assert(s.synonyms.length>=4);assert(s.simple);
+ assert.equal(s.simpleChunks.join(" "),s.simple);
+ assert(essay.sentences[i].words.length>0);
+ assert.equal(essay.sentences[i].words.length,essay.sentences[i].english.split(/\s+/).length);
 }
 for(const f of support.structures){assert.equal(f.options.length,4);assert.equal(new Set(f.options).size,4);assert.equal(f.explanations.length,4);assert(f.parts.length>=2);assert(f.meaning&&f.usage);assert(!f.options.some(x=>/librar|digital|technolog|paper.book/i.test(x)));}
+assert.equal(support.transfer.length,16);for(const q of support.transfer){assert.equal(q.options.length,4);assert.equal(q.correct,0);assert(q.why);}
+assert.equal(essay.mediumAnswers.length,45);
 const html=fs.readFileSync('essay-memorization.html','utf8');assert(!html.includes('hero-orbit'));assert(!html.includes('全程只需點選'));assert(html.includes('shared-system-nav.js'));
-console.log('PASS: 16 unchanged original sentences, <=12-word chunks, 43 contextual alternatives, 22 source-linked four-choice structures.');
+console.log('PASS: 16 unchanged original sentences, <=12-word chunks, expanded contextual alternatives, exact word timestamps and canonical medium blanks, 22 source-linked four-choice structures.');

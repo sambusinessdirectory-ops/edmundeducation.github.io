@@ -363,6 +363,11 @@
     state.saving = true;
     button.disabled = true;
     try {
+      const recordCard = state.card;
+      const recordOwner = studentToken();
+      const recordDuration = state.durationMs;
+      const minDuration = Number(recordCard.dataset.edmundMinRecordingMs || 0);
+      if (state.durationMs < minDuration) throw new Error("錄音太短，請錄下完整一句後再儲存。");
       const form = new FormData();
       const id = stableId(state.card);
       const title = String(state.card.dataset.edmundRecordTitle || `${document.title} · ${state.card.dataset.questionId || "練習"}`)
@@ -373,6 +378,7 @@
       form.append("exam", "learning-practice");
       form.append("durationMs", String(Math.max(1, Math.round(state.durationMs))));
       await apiFetch("/v1/recordings", { method: "POST", body: form });
+      if (recordOwner === studentToken()) document.dispatchEvent(new CustomEvent("edmund:recording-saved", {detail:{recordId:recordCard.dataset.edmundRecordId, exerciseId:id, durationMs:recordDuration}}));
       const latestQuota = await recordingQuota().catch(() => null);
       const used = latestQuota?.usage?.storageBytes;
       setDockStatus(`已儲存到「我的錄音」${Number.isFinite(Number(used)) ? `；共用儲存量 ${formatBytes(used)} / 150 MB` : ""}。`);
