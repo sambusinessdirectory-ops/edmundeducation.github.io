@@ -277,6 +277,7 @@
   }
   function showCuration() {
     library.hidden = true;
+    dashboard.querySelectorAll('[data-new-grammar-curation]').forEach((section) => { section.hidden = true; });
     tensePractice.hidden = true;
     dashboard.querySelectorAll('[data-advanced-articles-curation], [data-advanced-articles-practice]').forEach((section) => { section.hidden = true; });
     practice.hidden = true;
@@ -287,6 +288,7 @@
   }
   function showPractice(number = state.question) {
     library.hidden = true;
+    dashboard.querySelectorAll('[data-new-grammar-curation]').forEach((section) => { section.hidden = true; });
     tensePractice.hidden = true;
     dashboard.querySelectorAll('[data-advanced-articles-curation], [data-advanced-articles-practice]').forEach((section) => { section.hidden = true; });
     curation.hidden = true;

@@ -386,6 +386,7 @@
 
   function showTenseGuide() {
     clearGrammarHighlights({ disable: true });
+    dashboard.querySelectorAll('[data-new-grammar-curation]').forEach((section) => { section.hidden = true; });
     elements.library.hidden = true;
     elements.practice.hidden = true;
     elements.curation.hidden = false;
@@ -395,6 +396,7 @@
   }
 
   function showTensePractice(number = state.current, focus = false) {
+    dashboard.querySelectorAll('[data-new-grammar-curation]').forEach((section) => { section.hidden = true; });
     elements.library.hidden = true;
     elements.curation.hidden = true;
     elements.practice.hidden = false;

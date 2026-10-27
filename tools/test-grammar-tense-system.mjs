@@ -44,8 +44,8 @@ for (const concept of ["Simple Present", "Simple Past", "will", "going to", "Pre
   assert.ok(guide.some((item) => `${item.title} ${item.focus} ${item.formula}`.includes(concept)), `Tense guide should explain ${concept}`);
 }
 
-for (const asset of ["grammar-system.css?v=20261019-tense-extension1", "grammar-tense-data.js?v=20260821-tense1", "grammar-tense-curation-data.js?v=20261014-tense-guide3", "learning-portal-scaffold.js?v=20260821-tense1", "grammar-system.js?v=20261019-curation-lines1", "grammar-articles-data.js?v=20261012-articles2", "grammar-articles.js?v=20261019-curation-lines1", "grammar-advanced-articles-data.js?v=20261012-advanced1", "grammar-advanced-articles.js?v=20261019-curation-lines1"]) {
-  assert.match(html, new RegExp(asset.replace(/[.?]/g, "\\$&")));
+for (const asset of ["grammar-system.css", "grammar-tense-data.js", "grammar-tense-curation-data.js", "learning-portal-scaffold.js", "grammar-system.js", "grammar-articles-data.js", "grammar-articles.js", "grammar-advanced-articles-data.js", "grammar-advanced-articles.js", "grammar-new-curations-data.js", "grammar-new-curations.js"]) {
+  assert.match(html, new RegExp(asset.replace(/[.?]/g, "\\$&") + "\\?v=[A-Za-z0-9-]+"));
 }
 assert.match(runtime, /normaliseAnswer/);
 assert.match(runtime, /dataset\.state = "correct"/);

@@ -67,6 +67,32 @@
 }
 .grammar-lesson-card--articles::after { content: "ARTICLES"; }
 
+.grammar-lesson-card--new-curation::after { content: "GUIDE"; }
+.grammar-lesson-card--new-curation:nth-of-type(3n) { background: linear-gradient(135deg, #31576d, #17364d); }
+.grammar-lesson-card--new-curation:nth-of-type(3n + 1) { background: linear-gradient(135deg, #65517e, #352d59); }
+.grammar-lesson-card--new-curation:nth-of-type(3n + 2) { background: linear-gradient(135deg, #437460, #214c47); }
+.grammar-lesson-card--new-curation .grammar-lesson-card__stats { grid-template-columns: 1fr; }
+
+.grammar-new-curation { scroll-margin-top: 20px; }
+.grammar-new-chapters { display: flex; flex-wrap: wrap; gap: 9px; margin: 28px 0; }
+.grammar-new-chapters a { padding: 9px 14px; border: 1px solid #ccdbe6; border-radius: 999px; background: #fff; color: #214c68; font-weight: 750; text-decoration: none; }
+.grammar-new-chapters a:hover, .grammar-new-chapters a:focus-visible { background: #eaf3f8; border-color: #80a9bc; }
+.grammar-new-body { max-width: 1000px; color: #273a4c; font-size: clamp(16px, 1.65vw, 19px); line-height: 1.75; overflow-wrap: anywhere; }
+.grammar-new-body h2 { scroll-margin-top: 100px; margin: 42px 0 16px; padding: 15px 0; border-top: 2px solid #c8dbe5; border-bottom: 1px solid #e4ebf0; color: #183d59; font: 850 clamp(23px, 2.5vw, 31px)/1.4 Georgia, "Noto Serif TC Local", serif; }
+.grammar-new-body h3 { margin: 30px 0 12px; color: #1d4858; font: 800 clamp(19px, 2vw, 24px)/1.5 Georgia, "Noto Serif TC Local", serif; }
+.grammar-new-body p { margin: 13px 0; }
+.grammar-new-body blockquote { margin: 17px 0; padding: 14px 20px; border-left: 4px solid #4a92a1; border-radius: 0 12px 12px 0; background: #f1f8f8; color: #25475a; }
+.grammar-new-body ul, .grammar-new-body ol { padding-left: 1.6em; }
+.grammar-new-body li { margin: 6px 0; }
+.grammar-new-body code { padding: .1em .35em; border-radius: 5px; background: #edf3f7; color: #205675; font-size: .92em; }
+.grammar-new-body hr { border: 0; border-top: 1px solid #dce7ed; margin: 30px 0; }
+.grammar-new-table-wrap { max-width: 100%; overflow-x: auto; margin: 19px 0; border: 1px solid #d7e4eb; border-radius: 12px; }
+.grammar-new-body table { width: 100%; border-collapse: collapse; min-width: 520px; font-size: .9em; line-height: 1.55; }
+.grammar-new-body th, .grammar-new-body td { padding: 10px 12px; border-bottom: 1px solid #dce7ed; text-align: left; vertical-align: top; }
+.grammar-new-body th { background: #eaf3f7; color: #1e4d65; }
+.grammar-new-body tr:last-child td { border-bottom: 0; }
+.grammar-new-body tr:nth-child(even) td { background: #f8fbfc; }
+
 .grammar-lesson-card__copy { position: relative; z-index: 1; }
 .grammar-lesson-card__copy h3 { margin: 0; font: 900 clamp(30px, 4vw, 50px)/1.08 Georgia, "Noto Serif TC Local", serif; }
 .grammar-lesson-card__copy p { max-width: 650px; margin: 12px 0 0; color: rgba(255, 255, 255, .78); font-weight: 700; }
