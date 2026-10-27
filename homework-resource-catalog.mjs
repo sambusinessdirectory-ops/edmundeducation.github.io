@@ -19112,6 +19112,14 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "flashcards.html?deck=custom-setup%2Fsprint-text-2"
   },
   {
+    "id": "flash:custom-setup/the-last-train",
+    "type": "flashcards",
+    "ordinal": null,
+    "label": "Custom Setup / The Last Train",
+    "detail": "Custom Setup / The Last Train · 64 cards",
+    "url": "flashcards.html?deck=custom-setup%2Fthe-last-train"
+  },
+  {
     "id": "flash:government/concept-vocabulary/book-1/d-elderly-people-carers",
     "type": "flashcards",
     "ordinal": null,
@@ -42820,7 +42828,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 9,
     "label": "#9 · see",
-    "detail": "Polysemy #9 · 26 meanings · 49 questions",
+    "detail": "Polysemy #9 · 27 meanings · 49 questions",
     "url": "polysemy-lab.html?module=see"
   },
   {
@@ -42828,7 +42836,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 10,
     "label": "#10 · late",
-    "detail": "Polysemy #10 · 26 meanings · 51 questions",
+    "detail": "Polysemy #10 · 27 meanings · 51 questions",
     "url": "polysemy-lab.html?module=late"
   },
   {
@@ -42836,7 +42844,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 11,
     "label": "#11 · work",
-    "detail": "Polysemy #11 · 41 meanings · 83 questions",
+    "detail": "Polysemy #11 · 42 meanings · 83 questions",
     "url": "polysemy-lab.html?module=work"
   },
   {
@@ -42844,7 +42852,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 12,
     "label": "#12 · home",
-    "detail": "Polysemy #12 · 37 meanings · 63 questions",
+    "detail": "Polysemy #12 · 39 meanings · 63 questions",
     "url": "polysemy-lab.html?module=home"
   },
   {
@@ -42940,7 +42948,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 24,
     "label": "#24 · time",
-    "detail": "Polysemy #24 · 24 meanings · 41 questions",
+    "detail": "Polysemy #24 · 27 meanings · 41 questions",
     "url": "polysemy-lab.html?module=time"
   },
   {
@@ -43084,7 +43092,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 42,
     "label": "#42 · spend",
-    "detail": "Polysemy #42 · 26 meanings · 57 questions",
+    "detail": "Polysemy #42 · 27 meanings · 57 questions",
     "url": "polysemy-lab.html?module=spend"
   },
   {
@@ -43412,7 +43420,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 86,
     "label": "#86 · mistake",
-    "detail": "Polysemy #86 · 30 meanings · 62 questions",
+    "detail": "Polysemy #86 · 31 meanings · 62 questions",
     "url": "polysemy-lab.html?module=mistake"
   },
   {
@@ -43548,7 +43556,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 117,
     "label": "#117 · grow",
-    "detail": "Polysemy #117 · 43 meanings · 101 questions",
+    "detail": "Polysemy #117 · 45 meanings · 101 questions",
     "url": "polysemy-lab.html?module=grow"
   },
   {
@@ -43596,7 +43604,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 123,
     "label": "#123 · deep",
-    "detail": "Polysemy #123 · 31 meanings · 85 questions",
+    "detail": "Polysemy #123 · 32 meanings · 85 questions",
     "url": "polysemy-lab.html?module=deep"
   },
   {
@@ -43668,7 +43676,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 132,
     "label": "#132 · power",
-    "detail": "Polysemy #132 · 33 meanings · 76 questions",
+    "detail": "Polysemy #132 · 34 meanings · 76 questions",
     "url": "polysemy-lab.html?module=power"
   },
   {
@@ -43684,7 +43692,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 134,
     "label": "#134 · long",
-    "detail": "Polysemy #134 · 63 meanings · 151 questions",
+    "detail": "Polysemy #134 · 65 meanings · 151 questions",
     "url": "polysemy-lab.html?module=long"
   },
   {
@@ -43692,7 +43700,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 135,
     "label": "#135 · think",
-    "detail": "Polysemy #135 · 33 meanings · 73 questions",
+    "detail": "Polysemy #135 · 34 meanings · 73 questions",
     "url": "polysemy-lab.html?module=think"
   },
   {
@@ -43700,7 +43708,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 136,
     "label": "#136 · back",
-    "detail": "Polysemy #136 · 57 meanings · 125 questions",
+    "detail": "Polysemy #136 · 59 meanings · 125 questions",
     "url": "polysemy-lab.html?module=back"
   },
   {
@@ -43756,7 +43764,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 148,
     "label": "#148 · big",
-    "detail": "Polysemy #148 · 34 meanings · 81 questions",
+    "detail": "Polysemy #148 · 35 meanings · 81 questions",
     "url": "polysemy-lab.html?module=big"
   },
   {
@@ -43820,7 +43828,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 156,
     "label": "#156 · mother",
-    "detail": "Polysemy #156 · 24 meanings · 59 questions",
+    "detail": "Polysemy #156 · 25 meanings · 59 questions",
     "url": "polysemy-lab.html?module=mother"
   },
   {
@@ -43836,7 +43844,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 158,
     "label": "#158 · win",
-    "detail": "Polysemy #158 · 40 meanings · 88 questions",
+    "detail": "Polysemy #158 · 41 meanings · 88 questions",
     "url": "polysemy-lab.html?module=win"
   },
   {
@@ -43876,7 +43884,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 163,
     "label": "#163 · top",
-    "detail": "Polysemy #163 · 32 meanings · 57 questions",
+    "detail": "Polysemy #163 · 33 meanings · 57 questions",
     "url": "polysemy-lab.html?module=top"
   },
   {
@@ -43956,7 +43964,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 173,
     "label": "#173 · book",
-    "detail": "Polysemy #173 · 12 meanings · 29 questions",
+    "detail": "Polysemy #173 · 13 meanings · 29 questions",
     "url": "polysemy-lab.html?module=book"
   },
   {
@@ -44060,7 +44068,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 186,
     "label": "#186 · little",
-    "detail": "Polysemy #186 · 29 meanings · 51 questions",
+    "detail": "Polysemy #186 · 30 meanings · 51 questions",
     "url": "polysemy-lab.html?module=little"
   },
   {
@@ -44092,7 +44100,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 190,
     "label": "#190 · adventure",
-    "detail": "Polysemy #190 · 17 meanings · 31 questions",
+    "detail": "Polysemy #190 · 20 meanings · 31 questions",
     "url": "polysemy-lab.html?module=adventure"
   },
   {
@@ -44140,7 +44148,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 196,
     "label": "#196 · better",
-    "detail": "Polysemy #196 · 31 meanings · 65 questions",
+    "detail": "Polysemy #196 · 32 meanings · 65 questions",
     "url": "polysemy-lab.html?module=better"
   },
   {
@@ -44180,7 +44188,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 201,
     "label": "#201 · okay",
-    "detail": "Polysemy #201 · 26 meanings · 51 questions",
+    "detail": "Polysemy #201 · 27 meanings · 51 questions",
     "url": "polysemy-lab.html?module=okay"
   },
   {
@@ -44236,7 +44244,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 208,
     "label": "#208 · light",
-    "detail": "Polysemy #208 · 47 meanings · 89 questions",
+    "detail": "Polysemy #208 · 48 meanings · 89 questions",
     "url": "polysemy-lab.html?module=light"
   },
   {
@@ -44300,7 +44308,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 216,
     "label": "#216 · lightning",
-    "detail": "Polysemy #216 · 17 meanings · 29 questions",
+    "detail": "Polysemy #216 · 18 meanings · 29 questions",
     "url": "polysemy-lab.html?module=lightning"
   },
   {
@@ -44356,7 +44364,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 223,
     "label": "#223 · standard",
-    "detail": "Polysemy #223 · 17 meanings · 37 questions",
+    "detail": "Polysemy #223 · 18 meanings · 37 questions",
     "url": "polysemy-lab.html?module=standard"
   },
   {
@@ -44420,7 +44428,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 231,
     "label": "#231 · pass",
-    "detail": "Polysemy #231 · 43 meanings · 91 questions",
+    "detail": "Polysemy #231 · 44 meanings · 91 questions",
     "url": "polysemy-lab.html?module=pass"
   },
   {
@@ -44444,7 +44452,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 235,
     "label": "#235 · echo",
-    "detail": "Polysemy #235 · 14 meanings · 37 questions",
+    "detail": "Polysemy #235 · 17 meanings · 37 questions",
     "url": "polysemy-lab.html?module=echo"
   },
   {
@@ -44468,7 +44476,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 238,
     "label": "#238 · meet",
-    "detail": "Polysemy #238 · 32 meanings · 69 questions",
+    "detail": "Polysemy #238 · 33 meanings · 69 questions",
     "url": "polysemy-lab.html?module=meet"
   },
   {
@@ -44556,7 +44564,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 249,
     "label": "#249 · become",
-    "detail": "Polysemy #249 · 15 meanings · 37 questions",
+    "detail": "Polysemy #249 · 16 meanings · 37 questions",
     "url": "polysemy-lab.html?module=become"
   },
   {
@@ -44572,7 +44580,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 251,
     "label": "#251 · quick",
-    "detail": "Polysemy #251 · 28 meanings · 63 questions",
+    "detail": "Polysemy #251 · 29 meanings · 63 questions",
     "url": "polysemy-lab.html?module=quick"
   },
   {
@@ -44612,7 +44620,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 256,
     "label": "#256 · can",
-    "detail": "Polysemy #256 · 38 meanings · 87 questions",
+    "detail": "Polysemy #256 · 39 meanings · 87 questions",
     "url": "polysemy-lab.html?module=can"
   },
   {
@@ -44660,7 +44668,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 262,
     "label": "#262 · open",
-    "detail": "Polysemy #262 · 40 meanings · 81 questions",
+    "detail": "Polysemy #262 · 41 meanings · 81 questions",
     "url": "polysemy-lab.html?module=open"
   },
   {
@@ -44860,7 +44868,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 287,
     "label": "#287 · dry",
-    "detail": "Polysemy #287 · 29 meanings · 53 questions",
+    "detail": "Polysemy #287 · 30 meanings · 53 questions",
     "url": "polysemy-lab.html?module=dry"
   },
   {
@@ -44876,7 +44884,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 289,
     "label": "#289 · name",
-    "detail": "Polysemy #289 · 32 meanings · 59 questions",
+    "detail": "Polysemy #289 · 33 meanings · 59 questions",
     "url": "polysemy-lab.html?module=name"
   },
   {
@@ -44884,7 +44892,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 290,
     "label": "#290 · date",
-    "detail": "Polysemy #290 · 44 meanings · 85 questions",
+    "detail": "Polysemy #290 · 45 meanings · 85 questions",
     "url": "polysemy-lab.html?module=date"
   },
   {
@@ -44892,7 +44900,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 291,
     "label": "#291 · glass",
-    "detail": "Polysemy #291 · 23 meanings · 43 questions",
+    "detail": "Polysemy #291 · 24 meanings · 43 questions",
     "url": "polysemy-lab.html?module=glass"
   },
   {
@@ -44948,7 +44956,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 298,
     "label": "#298 · mean",
-    "detail": "Polysemy #298 · 45 meanings · 77 questions",
+    "detail": "Polysemy #298 · 46 meanings · 77 questions",
     "url": "polysemy-lab.html?module=mean"
   },
   {
@@ -44980,7 +44988,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 302,
     "label": "#302 · angle",
-    "detail": "Polysemy #302 · 25 meanings · 43 questions",
+    "detail": "Polysemy #302 · 29 meanings · 43 questions",
     "url": "polysemy-lab.html?module=angle"
   },
   {
@@ -45052,7 +45060,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 311,
     "label": "#311 · attend",
-    "detail": "Polysemy #311 · 17 meanings · 33 questions",
+    "detail": "Polysemy #311 · 19 meanings · 33 questions",
     "url": "polysemy-lab.html?module=attend"
   },
   {
@@ -45140,7 +45148,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 322,
     "label": "#322 · use",
-    "detail": "Polysemy #322 · 27 meanings · 61 questions",
+    "detail": "Polysemy #322 · 28 meanings · 61 questions",
     "url": "polysemy-lab.html?module=use"
   },
   {
@@ -45172,7 +45180,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 326,
     "label": "#326 · get",
-    "detail": "Polysemy #326 · 34 meanings · 71 questions",
+    "detail": "Polysemy #326 · 36 meanings · 71 questions",
     "url": "polysemy-lab.html?module=get"
   },
   {
@@ -45236,7 +45244,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 334,
     "label": "#334 · race",
-    "detail": "Polysemy #334 · 25 meanings · 57 questions",
+    "detail": "Polysemy #334 · 26 meanings · 57 questions",
     "url": "polysemy-lab.html?module=race"
   },
   {
@@ -45244,7 +45252,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 335,
     "label": "#335 · blank",
-    "detail": "Polysemy #335 · 30 meanings · 63 questions",
+    "detail": "Polysemy #335 · 31 meanings · 63 questions",
     "url": "polysemy-lab.html?module=blank"
   },
   {
@@ -45396,7 +45404,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 356,
     "label": "#356 · burst",
-    "detail": "Polysemy #356 · 27 meanings · 59 questions",
+    "detail": "Polysemy #356 · 29 meanings · 59 questions",
     "url": "polysemy-lab.html?module=burst"
   },
   {
@@ -45532,7 +45540,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 373,
     "label": "#373 · form",
-    "detail": "Polysemy #373 · 25 meanings · 61 questions",
+    "detail": "Polysemy #373 · 27 meanings · 61 questions",
     "url": "polysemy-lab.html?module=form"
   },
   {
@@ -45604,7 +45612,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 382,
     "label": "#382 · answer",
-    "detail": "Polysemy #382 · 21 meanings · 45 questions",
+    "detail": "Polysemy #382 · 22 meanings · 45 questions",
     "url": "polysemy-lab.html?module=answer"
   },
   {
@@ -45748,7 +45756,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 400,
     "label": "#400 · house",
-    "detail": "Polysemy #400 · 29 meanings · 60 questions",
+    "detail": "Polysemy #400 · 31 meanings · 60 questions",
     "url": "polysemy-lab.html?module=house"
   },
   {
@@ -45940,7 +45948,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 424,
     "label": "#424 · sink",
-    "detail": "Polysemy #424 · 9 meanings · 21 questions",
+    "detail": "Polysemy #424 · 10 meanings · 21 questions",
     "url": "polysemy-lab.html?module=sink"
   },
   {
@@ -45956,7 +45964,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 426,
     "label": "#426 · add",
-    "detail": "Polysemy #426 · 24 meanings · 51 questions",
+    "detail": "Polysemy #426 · 25 meanings · 51 questions",
     "url": "polysemy-lab.html?module=add"
   },
   {
@@ -45988,7 +45996,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 430,
     "label": "#430 · ground",
-    "detail": "Polysemy #430 · 16 meanings · 29 questions",
+    "detail": "Polysemy #430 · 17 meanings · 29 questions",
     "url": "polysemy-lab.html?module=ground"
   },
   {
@@ -46092,7 +46100,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 443,
     "label": "#443 · every",
-    "detail": "Polysemy #443 · 18 meanings · 39 questions",
+    "detail": "Polysemy #443 · 19 meanings · 39 questions",
     "url": "polysemy-lab.html?module=every"
   },
   {
@@ -46124,7 +46132,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 447,
     "label": "#447 · reflection",
-    "detail": "Polysemy #447 · 16 meanings · 39 questions",
+    "detail": "Polysemy #447 · 17 meanings · 39 questions",
     "url": "polysemy-lab.html?module=reflection"
   },
   {
@@ -46140,7 +46148,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 449,
     "label": "#449 · less",
-    "detail": "Polysemy #449 · 23 meanings · 50 questions",
+    "detail": "Polysemy #449 · 24 meanings · 50 questions",
     "url": "polysemy-lab.html?module=less"
   },
   {
@@ -46228,7 +46236,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 460,
     "label": "#460 · order",
-    "detail": "Polysemy #460 · 42 meanings · 89 questions",
+    "detail": "Polysemy #460 · 44 meanings · 89 questions",
     "url": "polysemy-lab.html?module=order"
   },
   {
@@ -46244,7 +46252,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 462,
     "label": "#462 · cost",
-    "detail": "Polysemy #462 · 18 meanings · 41 questions",
+    "detail": "Polysemy #462 · 19 meanings · 41 questions",
     "url": "polysemy-lab.html?module=cost"
   },
   {
@@ -46268,7 +46276,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 465,
     "label": "#465 · speaker",
-    "detail": "Polysemy #465 · 22 meanings · 43 questions",
+    "detail": "Polysemy #465 · 23 meanings · 43 questions",
     "url": "polysemy-lab.html?module=speaker"
   },
   {
@@ -46284,7 +46292,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 467,
     "label": "#467 · original",
-    "detail": "Polysemy #467 · 17 meanings · 34 questions",
+    "detail": "Polysemy #467 · 18 meanings · 34 questions",
     "url": "polysemy-lab.html?module=original"
   },
   {
@@ -46300,7 +46308,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 469,
     "label": "#469 · control",
-    "detail": "Polysemy #469 · 34 meanings · 73 questions",
+    "detail": "Polysemy #469 · 35 meanings · 73 questions",
     "url": "polysemy-lab.html?module=control"
   },
   {
@@ -46340,7 +46348,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 474,
     "label": "#474 · anything",
-    "detail": "Polysemy #474 · 18 meanings · 38 questions",
+    "detail": "Polysemy #474 · 19 meanings · 38 questions",
     "url": "polysemy-lab.html?module=anything"
   },
   {
@@ -46372,7 +46380,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 478,
     "label": "#478 · afford",
-    "detail": "Polysemy #478 · 11 meanings · 27 questions",
+    "detail": "Polysemy #478 · 12 meanings · 27 questions",
     "url": "polysemy-lab.html?module=afford"
   },
   {
@@ -46388,7 +46396,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 480,
     "label": "#480 · hold",
-    "detail": "Polysemy #480 · 38 meanings · 112 questions",
+    "detail": "Polysemy #480 · 39 meanings · 112 questions",
     "url": "polysemy-lab.html?module=hold"
   },
   {
@@ -46460,7 +46468,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 490,
     "label": "#490 · piece",
-    "detail": "Polysemy #490 · 18 meanings · 40 questions",
+    "detail": "Polysemy #490 · 19 meanings · 40 questions",
     "url": "polysemy-lab.html?module=piece"
   },
   {
@@ -46492,7 +46500,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 494,
     "label": "#494 · worth",
-    "detail": "Polysemy #494 · 17 meanings · 40 questions",
+    "detail": "Polysemy #494 · 18 meanings · 40 questions",
     "url": "polysemy-lab.html?module=worth"
   },
   {
@@ -46508,7 +46516,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 496,
     "label": "#496 · knot",
-    "detail": "Polysemy #496 · 19 meanings · 44 questions",
+    "detail": "Polysemy #496 · 20 meanings · 44 questions",
     "url": "polysemy-lab.html?module=knot"
   },
   {
@@ -46540,7 +46548,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 500,
     "label": "#500 · stomach",
-    "detail": "Polysemy #500 · 19 meanings · 42 questions",
+    "detail": "Polysemy #500 · 20 meanings · 42 questions",
     "url": "polysemy-lab.html?module=stomach"
   },
   {
@@ -46604,7 +46612,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 508,
     "label": "#508 · file",
-    "detail": "Polysemy #508 · 38 meanings · 79 questions",
+    "detail": "Polysemy #508 · 40 meanings · 79 questions",
     "url": "polysemy-lab.html?module=file"
   },
   {
@@ -46740,7 +46748,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 525,
     "label": "#525 · jump",
-    "detail": "Polysemy #525 · 39 meanings · 82 questions",
+    "detail": "Polysemy #525 · 40 meanings · 82 questions",
     "url": "polysemy-lab.html?module=jump"
   },
   {
@@ -46876,7 +46884,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 542,
     "label": "#542 · choose",
-    "detail": "Polysemy #542 · 17 meanings · 41 questions",
+    "detail": "Polysemy #542 · 19 meanings · 41 questions",
     "url": "polysemy-lab.html?module=choose"
   },
   {
@@ -46908,7 +46916,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 546,
     "label": "#546 · behind",
-    "detail": "Polysemy #546 · 33 meanings · 68 questions",
+    "detail": "Polysemy #546 · 35 meanings · 68 questions",
     "url": "polysemy-lab.html?module=behind"
   },
   {
@@ -47124,7 +47132,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 573,
     "label": "#573 · exhibition",
-    "detail": "Polysemy #573 · 16 meanings · 26 questions",
+    "detail": "Polysemy #573 · 17 meanings · 26 questions",
     "url": "polysemy-lab.html?module=exhibition"
   },
   {
@@ -47180,7 +47188,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 580,
     "label": "#580 · erase",
-    "detail": "Polysemy #580 · 20 meanings · 41 questions",
+    "detail": "Polysemy #580 · 21 meanings · 41 questions",
     "url": "polysemy-lab.html?module=erase"
   },
   {
@@ -47188,7 +47196,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 581,
     "label": "#581 · drink",
-    "detail": "Polysemy #581 · 12 meanings · 23 questions",
+    "detail": "Polysemy #581 · 13 meanings · 23 questions",
     "url": "polysemy-lab.html?module=drink"
   },
   {
@@ -47252,7 +47260,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 589,
     "label": "#589 · pause",
-    "detail": "Polysemy #589 · 8 meanings · 17 questions",
+    "detail": "Polysemy #589 · 9 meanings · 17 questions",
     "url": "polysemy-lab.html?module=pause"
   },
   {
@@ -47308,7 +47316,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 596,
     "label": "#596 · situation",
-    "detail": "Polysemy #596 · 24 meanings · 49 questions",
+    "detail": "Polysemy #596 · 25 meanings · 49 questions",
     "url": "polysemy-lab.html?module=situation"
   },
   {
@@ -47372,7 +47380,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 604,
     "label": "#604 · perspective",
-    "detail": "Polysemy #604 · 8 meanings · 19 questions",
+    "detail": "Polysemy #604 · 9 meanings · 19 questions",
     "url": "polysemy-lab.html?module=perspective"
   },
   {
@@ -47404,7 +47412,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 608,
     "label": "#608 · pace",
-    "detail": "Polysemy #608 · 15 meanings · 24 questions",
+    "detail": "Polysemy #608 · 16 meanings · 24 questions",
     "url": "polysemy-lab.html?module=pace"
   },
   {
@@ -47412,7 +47420,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 609,
     "label": "#609 · benefit",
-    "detail": "Polysemy #609 · 11 meanings · 21 questions",
+    "detail": "Polysemy #609 · 12 meanings · 21 questions",
     "url": "polysemy-lab.html?module=benefit"
   },
   {
@@ -47428,7 +47436,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 611,
     "label": "#611 · clock",
-    "detail": "Polysemy #611 · 26 meanings · 64 questions",
+    "detail": "Polysemy #611 · 28 meanings · 64 questions",
     "url": "polysemy-lab.html?module=clock"
   },
   {
@@ -47500,7 +47508,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 620,
     "label": "#620 · assignment",
-    "detail": "Polysemy #620 · 25 meanings · 55 questions",
+    "detail": "Polysemy #620 · 27 meanings · 55 questions",
     "url": "polysemy-lab.html?module=assignment"
   },
   {
@@ -47540,7 +47548,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 625,
     "label": "#625 · throw",
-    "detail": "Polysemy #625 · 16 meanings · 32 questions",
+    "detail": "Polysemy #625 · 17 meanings · 32 questions",
     "url": "polysemy-lab.html?module=throw"
   },
   {
@@ -47644,7 +47652,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 638,
     "label": "#638 · early",
-    "detail": "Polysemy #638 · 25 meanings · 55 questions",
+    "detail": "Polysemy #638 · 27 meanings · 55 questions",
     "url": "polysemy-lab.html?module=early"
   },
   {
@@ -47708,7 +47716,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 646,
     "label": "#646 · sentimental",
-    "detail": "Polysemy #646 · 10 meanings · 19 questions",
+    "detail": "Polysemy #646 · 11 meanings · 19 questions",
     "url": "polysemy-lab.html?module=sentimental"
   },
   {
@@ -47772,7 +47780,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 654,
     "label": "#654 · fire",
-    "detail": "Polysemy #654 · 30 meanings · 64 questions",
+    "detail": "Polysemy #654 · 31 meanings · 64 questions",
     "url": "polysemy-lab.html?module=fire"
   },
   {
@@ -47796,7 +47804,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 657,
     "label": "#657 · responsibility",
-    "detail": "Polysemy #657 · 26 meanings · 57 questions",
+    "detail": "Polysemy #657 · 27 meanings · 57 questions",
     "url": "polysemy-lab.html?module=responsibility"
   },
   {
@@ -47828,7 +47836,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 661,
     "label": "#661 · serve",
-    "detail": "Polysemy #661 · 15 meanings · 30 questions",
+    "detail": "Polysemy #661 · 16 meanings · 30 questions",
     "url": "polysemy-lab.html?module=serve"
   },
   {
@@ -47924,7 +47932,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 673,
     "label": "#673 · soar",
-    "detail": "Polysemy #673 · 10 meanings · 17 questions",
+    "detail": "Polysemy #673 · 11 meanings · 17 questions",
     "url": "polysemy-lab.html?module=soar"
   },
   {
@@ -47980,7 +47988,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 680,
     "label": "#680 · glance",
-    "detail": "Polysemy #680 · 10 meanings · 21 questions",
+    "detail": "Polysemy #680 · 11 meanings · 21 questions",
     "url": "polysemy-lab.html?module=glance"
   },
   {
@@ -48036,7 +48044,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 687,
     "label": "#687 · produce",
-    "detail": "Polysemy #687 · 29 meanings · 64 questions",
+    "detail": "Polysemy #687 · 31 meanings · 64 questions",
     "url": "polysemy-lab.html?module=produce"
   },
   {
@@ -48076,7 +48084,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 692,
     "label": "#692 · burden",
-    "detail": "Polysemy #692 · 17 meanings · 30 questions",
+    "detail": "Polysemy #692 · 22 meanings · 30 questions",
     "url": "polysemy-lab.html?module=burden"
   },
   {
@@ -48092,7 +48100,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 695,
     "label": "#695 · address",
-    "detail": "Polysemy #695 · 13 meanings · 20 questions",
+    "detail": "Polysemy #695 · 14 meanings · 20 questions",
     "url": "polysemy-lab.html?module=address"
   },
   {
@@ -48116,7 +48124,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 698,
     "label": "#698 · effort",
-    "detail": "Polysemy #698 · 29 meanings · 61 questions",
+    "detail": "Polysemy #698 · 30 meanings · 61 questions",
     "url": "polysemy-lab.html?module=effort"
   },
   {
@@ -48132,7 +48140,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 700,
     "label": "#700 · screen",
-    "detail": "Polysemy #700 · 17 meanings · 35 questions",
+    "detail": "Polysemy #700 · 18 meanings · 35 questions",
     "url": "polysemy-lab.html?module=screen"
   },
   {
@@ -48212,7 +48220,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 710,
     "label": "#710 · distribution",
-    "detail": "Polysemy #710 · 31 meanings · 65 questions",
+    "detail": "Polysemy #710 · 32 meanings · 65 questions",
     "url": "polysemy-lab.html?module=distribution"
   },
   {
@@ -48220,7 +48228,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 711,
     "label": "#711 · turnover",
-    "detail": "Polysemy #711 · 12 meanings · 19 questions",
+    "detail": "Polysemy #711 · 13 meanings · 19 questions",
     "url": "polysemy-lab.html?module=turnover"
   },
   {
@@ -48228,7 +48236,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 712,
     "label": "#712 · clip",
-    "detail": "Polysemy #712 · 14 meanings · 37 questions",
+    "detail": "Polysemy #712 · 16 meanings · 37 questions",
     "url": "polysemy-lab.html?module=clip"
   },
   {
@@ -48276,7 +48284,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 718,
     "label": "#718 · contribute",
-    "detail": "Polysemy #718 · 27 meanings · 55 questions",
+    "detail": "Polysemy #718 · 28 meanings · 55 questions",
     "url": "polysemy-lab.html?module=contribute"
   },
   {
@@ -48292,7 +48300,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 720,
     "label": "#720 · sandwich",
-    "detail": "Polysemy #720 · 9 meanings · 22 questions",
+    "detail": "Polysemy #720 · 10 meanings · 22 questions",
     "url": "polysemy-lab.html?module=sandwich"
   },
   {
@@ -48316,7 +48324,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 723,
     "label": "#723 · earn",
-    "detail": "Polysemy #723 · 13 meanings · 28 questions",
+    "detail": "Polysemy #723 · 14 meanings · 28 questions",
     "url": "polysemy-lab.html?module=earn"
   },
   {
@@ -48372,7 +48380,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 730,
     "label": "#730 · performance",
-    "detail": "Polysemy #730 · 35 meanings · 72 questions",
+    "detail": "Polysemy #730 · 36 meanings · 72 questions",
     "url": "polysemy-lab.html?module=performance"
   },
   {
@@ -48380,7 +48388,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 731,
     "label": "#731 · overhead",
-    "detail": "Polysemy #731 · 14 meanings · 22 questions",
+    "detail": "Polysemy #731 · 16 meanings · 22 questions",
     "url": "polysemy-lab.html?module=overhead"
   },
   {
@@ -48404,7 +48412,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 734,
     "label": "#734 · number",
-    "detail": "Polysemy #734 · 19 meanings · 41 questions",
+    "detail": "Polysemy #734 · 21 meanings · 41 questions",
     "url": "polysemy-lab.html?module=number"
   },
   {
@@ -48412,7 +48420,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 735,
     "label": "#735 · decline",
-    "detail": "Polysemy #735 · 26 meanings · 54 questions",
+    "detail": "Polysemy #735 · 27 meanings · 54 questions",
     "url": "polysemy-lab.html?module=decline"
   },
   {
@@ -48484,7 +48492,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 744,
     "label": "#744 · voice",
-    "detail": "Polysemy #744 · 17 meanings · 38 questions",
+    "detail": "Polysemy #744 · 18 meanings · 38 questions",
     "url": "polysemy-lab.html?module=voice"
   },
   {
@@ -48508,7 +48516,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 747,
     "label": "#747 · bear",
-    "detail": "Polysemy #747 · 25 meanings · 47 questions",
+    "detail": "Polysemy #747 · 28 meanings · 47 questions",
     "url": "polysemy-lab.html?module=bear"
   },
   {
@@ -48540,7 +48548,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 751,
     "label": "#751 · squeeze",
-    "detail": "Polysemy #751 · 18 meanings · 36 questions",
+    "detail": "Polysemy #751 · 20 meanings · 36 questions",
     "url": "polysemy-lab.html?module=squeeze"
   },
   {
@@ -48572,7 +48580,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 755,
     "label": "#755 · cover",
-    "detail": "Polysemy #755 · 20 meanings · 37 questions",
+    "detail": "Polysemy #755 · 21 meanings · 37 questions",
     "url": "polysemy-lab.html?module=cover"
   },
   {
@@ -48628,7 +48636,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 762,
     "label": "#762 · correct",
-    "detail": "Polysemy #762 · 37 meanings · 79 questions",
+    "detail": "Polysemy #762 · 38 meanings · 79 questions",
     "url": "polysemy-lab.html?module=correct"
   },
   {
@@ -48692,7 +48700,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 770,
     "label": "#770 · department",
-    "detail": "Polysemy #770 · 52 meanings · 100 questions",
+    "detail": "Polysemy #770 · 53 meanings · 100 questions",
     "url": "polysemy-lab.html?module=department"
   },
   {
@@ -48700,7 +48708,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 771,
     "label": "#771 · complete",
-    "detail": "Polysemy #771 · 50 meanings · 61 questions",
+    "detail": "Polysemy #771 · 53 meanings · 61 questions",
     "url": "polysemy-lab.html?module=complete"
   },
   {
@@ -48876,7 +48884,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 793,
     "label": "#793 · ahead",
-    "detail": "Polysemy #793 · 22 meanings · 47 questions",
+    "detail": "Polysemy #793 · 23 meanings · 47 questions",
     "url": "polysemy-lab.html?module=ahead"
   },
   {
@@ -48900,7 +48908,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 796,
     "label": "#796 · creative",
-    "detail": "Polysemy #796 · 20 meanings · 39 questions",
+    "detail": "Polysemy #796 · 22 meanings · 39 questions",
     "url": "polysemy-lab.html?module=creative"
   },
   {
@@ -48964,7 +48972,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 804,
     "label": "#804 · mood",
-    "detail": "Polysemy #804 · 19 meanings · 37 questions",
+    "detail": "Polysemy #804 · 20 meanings · 37 questions",
     "url": "polysemy-lab.html?module=mood"
   },
   {
@@ -49036,7 +49044,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 813,
     "label": "#813 · neat",
-    "detail": "Polysemy #813 · 16 meanings · 28 questions",
+    "detail": "Polysemy #813 · 18 meanings · 28 questions",
     "url": "polysemy-lab.html?module=neat"
   },
   {
@@ -49052,7 +49060,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 815,
     "label": "#815 · plain",
-    "detail": "Polysemy #815 · 21 meanings · 39 questions",
+    "detail": "Polysemy #815 · 22 meanings · 39 questions",
     "url": "polysemy-lab.html?module=plain"
   },
   {
@@ -49228,7 +49236,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 837,
     "label": "#837 · fancy",
-    "detail": "Polysemy #837 · 10 meanings · 24 questions",
+    "detail": "Polysemy #837 · 11 meanings · 24 questions",
     "url": "polysemy-lab.html?module=fancy"
   },
   {
@@ -49420,7 +49428,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 861,
     "label": "#861 · print",
-    "detail": "Polysemy #861 · 23 meanings · 42 questions",
+    "detail": "Polysemy #861 · 24 meanings · 42 questions",
     "url": "polysemy-lab.html?module=print"
   },
   {
@@ -49468,7 +49476,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 867,
     "label": "#867 · budge",
-    "detail": "Polysemy #867 · 5 meanings · 11 questions",
+    "detail": "Polysemy #867 · 6 meanings · 11 questions",
     "url": "polysemy-lab.html?module=budge"
   },
   {
@@ -49556,7 +49564,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 878,
     "label": "#878 · particular",
-    "detail": "Polysemy #878 · 16 meanings · 37 questions",
+    "detail": "Polysemy #878 · 17 meanings · 37 questions",
     "url": "polysemy-lab.html?module=particular"
   },
   {
@@ -49676,7 +49684,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 893,
     "label": "#893 · crack",
-    "detail": "Polysemy #893 · 26 meanings · 70 questions",
+    "detail": "Polysemy #893 · 27 meanings · 70 questions",
     "url": "polysemy-lab.html?module=crack"
   },
   {
@@ -49788,7 +49796,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 907,
     "label": "#907 · card",
-    "detail": "Polysemy #907 · 39 meanings · 89 questions",
+    "detail": "Polysemy #907 · 40 meanings · 89 questions",
     "url": "polysemy-lab.html?module=card"
   },
   {
@@ -49884,7 +49892,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 919,
     "label": "#919 · message",
-    "detail": "Polysemy #919 · 23 meanings · 49 questions",
+    "detail": "Polysemy #919 · 24 meanings · 49 questions",
     "url": "polysemy-lab.html?module=message"
   },
   {
@@ -49932,7 +49940,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 925,
     "label": "#925 · some",
-    "detail": "Polysemy #925 · 17 meanings · 38 questions",
+    "detail": "Polysemy #925 · 18 meanings · 38 questions",
     "url": "polysemy-lab.html?module=some"
   },
   {
@@ -50092,7 +50100,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 945,
     "label": "#945 · shop",
-    "detail": "Polysemy #945 · 30 meanings · 63 questions",
+    "detail": "Polysemy #945 · 31 meanings · 63 questions",
     "url": "polysemy-lab.html?module=shop"
   },
   {
@@ -50196,7 +50204,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 959,
     "label": "#959 · apologise",
-    "detail": "Polysemy #959 · 23 meanings · 50 questions",
+    "detail": "Polysemy #959 · 24 meanings · 50 questions",
     "url": "polysemy-lab.html?module=apologise"
   },
   {
@@ -50236,7 +50244,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 964,
     "label": "#964 · deadline",
-    "detail": "Polysemy #964 · 24 meanings · 50 questions",
+    "detail": "Polysemy #964 · 25 meanings · 50 questions",
     "url": "polysemy-lab.html?module=deadline"
   },
   {
@@ -50308,7 +50316,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 973,
     "label": "#973 · source",
-    "detail": "Polysemy #973 · 31 meanings · 65 questions",
+    "detail": "Polysemy #973 · 32 meanings · 65 questions",
     "url": "polysemy-lab.html?module=source"
   },
   {
@@ -50348,7 +50356,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 978,
     "label": "#978 · courtesy",
-    "detail": "Polysemy #978 · 34 meanings · 31 questions",
+    "detail": "Polysemy #978 · 35 meanings · 31 questions",
     "url": "polysemy-lab.html?module=courtesy"
   },
   {
@@ -50356,7 +50364,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 979,
     "label": "#979 · critical",
-    "detail": "Polysemy #979 · 41 meanings · 70 questions",
+    "detail": "Polysemy #979 · 42 meanings · 70 questions",
     "url": "polysemy-lab.html?module=critical"
   },
   {
@@ -50380,7 +50388,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 982,
     "label": "#982 · defend",
-    "detail": "Polysemy #982 · 40 meanings · 33 questions",
+    "detail": "Polysemy #982 · 44 meanings · 33 questions",
     "url": "polysemy-lab.html?module=defend"
   },
   {
@@ -50404,7 +50412,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 985,
     "label": "#985 · push",
-    "detail": "Polysemy #985 · 64 meanings · 172 questions",
+    "detail": "Polysemy #985 · 66 meanings · 172 questions",
     "url": "polysemy-lab.html?module=push"
   },
   {
@@ -50412,7 +50420,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 986,
     "label": "#986 · argue",
-    "detail": "Polysemy #986 · 41 meanings · 37 questions",
+    "detail": "Polysemy #986 · 44 meanings · 37 questions",
     "url": "polysemy-lab.html?module=argue"
   },
   {
@@ -50420,7 +50428,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 987,
     "label": "#987 · phone",
-    "detail": "Polysemy #987 · 36 meanings · 55 questions",
+    "detail": "Polysemy #987 · 37 meanings · 55 questions",
     "url": "polysemy-lab.html?module=phone"
   },
   {
@@ -50444,7 +50452,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 990,
     "label": "#990 · concern",
-    "detail": "Polysemy #990 · 38 meanings · 46 questions",
+    "detail": "Polysemy #990 · 42 meanings · 46 questions",
     "url": "polysemy-lab.html?module=concern"
   },
   {
@@ -50468,7 +50476,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 993,
     "label": "#993 · aim",
-    "detail": "Polysemy #993 · 43 meanings · 119 questions",
+    "detail": "Polysemy #993 · 44 meanings · 119 questions",
     "url": "polysemy-lab.html?module=aim"
   },
   {
@@ -50484,7 +50492,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 995,
     "label": "#995 · aside",
-    "detail": "Polysemy #995 · 24 meanings · 38 questions",
+    "detail": "Polysemy #995 · 25 meanings · 38 questions",
     "url": "polysemy-lab.html?module=aside"
   },
   {
@@ -50524,7 +50532,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1000,
     "label": "#1000 · court",
-    "detail": "Polysemy #1000 · 123 meanings · 41 questions",
+    "detail": "Polysemy #1000 · 124 meanings · 41 questions",
     "url": "polysemy-lab.html?module=court"
   },
   {
@@ -50532,7 +50540,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1001,
     "label": "#1001 · channel",
-    "detail": "Polysemy #1001 · 70 meanings · 165 questions",
+    "detail": "Polysemy #1001 · 71 meanings · 165 questions",
     "url": "polysemy-lab.html?module=channel"
   },
   {
@@ -50548,7 +50556,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1003,
     "label": "#1003 · flatter",
-    "detail": "Polysemy #1003 · 21 meanings · 31 questions",
+    "detail": "Polysemy #1003 · 22 meanings · 31 questions",
     "url": "polysemy-lab.html?module=flatter"
   },
   {
@@ -50556,7 +50564,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1004,
     "label": "#1004 · brief",
-    "detail": "Polysemy #1004 · 66 meanings · 145 questions",
+    "detail": "Polysemy #1004 · 67 meanings · 145 questions",
     "url": "polysemy-lab.html?module=brief"
   },
   {
@@ -50564,7 +50572,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1005,
     "label": "#1005 · appropriate",
-    "detail": "Polysemy #1005 · 37 meanings · 32 questions",
+    "detail": "Polysemy #1005 · 38 meanings · 32 questions",
     "url": "polysemy-lab.html?module=appropriate"
   },
   {
@@ -50580,7 +50588,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1007,
     "label": "#1007 · dependence",
-    "detail": "Polysemy #1007 · 34 meanings · 46 questions",
+    "detail": "Polysemy #1007 · 35 meanings · 46 questions",
     "url": "polysemy-lab.html?module=dependence"
   },
   {
@@ -50700,7 +50708,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1022,
     "label": "#1022 · contest",
-    "detail": "Polysemy #1022 · 61 meanings · 122 questions",
+    "detail": "Polysemy #1022 · 63 meanings · 122 questions",
     "url": "polysemy-lab.html?module=contest"
   },
   {
@@ -50764,7 +50772,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1030,
     "label": "#1030 · pursue",
-    "detail": "Polysemy #1030 · 60 meanings · 147 questions",
+    "detail": "Polysemy #1030 · 62 meanings · 147 questions",
     "url": "polysemy-lab.html?module=pursue"
   },
   {
@@ -50788,7 +50796,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1033,
     "label": "#1033 · damage",
-    "detail": "Polysemy #1033 · 75 meanings · 168 questions",
+    "detail": "Polysemy #1033 · 79 meanings · 168 questions",
     "url": "polysemy-lab.html?module=damage"
   },
   {
@@ -50796,7 +50804,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1034,
     "label": "#1034 · introduce",
-    "detail": "Polysemy #1034 · 35 meanings · 28 questions",
+    "detail": "Polysemy #1034 · 36 meanings · 28 questions",
     "url": "polysemy-lab.html?module=introduce"
   },
   {
@@ -50820,7 +50828,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1037,
     "label": "#1037 · foundation",
-    "detail": "Polysemy #1037 · 77 meanings · 148 questions",
+    "detail": "Polysemy #1037 · 78 meanings · 148 questions",
     "url": "polysemy-lab.html?module=foundation"
   },
   {
@@ -50828,7 +50836,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1038,
     "label": "#1038 · policy",
-    "detail": "Polysemy #1038 · 53 meanings · 13 questions",
+    "detail": "Polysemy #1038 · 54 meanings · 13 questions",
     "url": "polysemy-lab.html?module=policy"
   },
   {
@@ -50836,7 +50844,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1039,
     "label": "#1039 · magical",
-    "detail": "Polysemy #1039 · 23 meanings · 25 questions",
+    "detail": "Polysemy #1039 · 27 meanings · 25 questions",
     "url": "polysemy-lab.html?module=magical"
   },
   {
@@ -50868,7 +50876,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1043,
     "label": "#1043 · clash",
-    "detail": "Polysemy #1043 · 52 meanings · 120 questions",
+    "detail": "Polysemy #1043 · 53 meanings · 120 questions",
     "url": "polysemy-lab.html?module=clash"
   },
   {
@@ -50932,7 +50940,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1052,
     "label": "#1052 · suffer",
-    "detail": "Polysemy #1052 · 65 meanings · 153 questions",
+    "detail": "Polysemy #1052 · 66 meanings · 153 questions",
     "url": "polysemy-lab.html?module=suffer"
   },
   {
@@ -50948,7 +50956,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1054,
     "label": "#1054 · letter",
-    "detail": "Polysemy #1054 · 58 meanings · 15 questions",
+    "detail": "Polysemy #1054 · 59 meanings · 15 questions",
     "url": "polysemy-lab.html?module=letter"
   },
   {
@@ -50956,7 +50964,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1055,
     "label": "#1055 · transparent",
-    "detail": "Polysemy #1055 · 70 meanings · 128 questions",
+    "detail": "Polysemy #1055 · 72 meanings · 128 questions",
     "url": "polysemy-lab.html?module=transparent"
   },
   {
@@ -50964,7 +50972,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1056,
     "label": "#1056 · roast",
-    "detail": "Polysemy #1056 · 34 meanings · 13 questions",
+    "detail": "Polysemy #1056 · 35 meanings · 13 questions",
     "url": "polysemy-lab.html?module=roast"
   },
   {
@@ -51140,7 +51148,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1078,
     "label": "#1078 · charge",
-    "detail": "Polysemy #1078 · 25 meanings · 48 questions",
+    "detail": "Polysemy #1078 · 28 meanings · 48 questions",
     "url": "polysemy-lab.html?module=charge"
   },
   {
@@ -51156,7 +51164,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1080,
     "label": "#1080 · allow",
-    "detail": "Polysemy #1080 · 59 meanings · 150 questions",
+    "detail": "Polysemy #1080 · 71 meanings · 150 questions",
     "url": "polysemy-lab.html?module=allow"
   },
   {
@@ -51188,7 +51196,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1084,
     "label": "#1084 · rule",
-    "detail": "Polysemy #1084 · 76 meanings · 150 questions",
+    "detail": "Polysemy #1084 · 77 meanings · 150 questions",
     "url": "polysemy-lab.html?module=rule"
   },
   {
@@ -51220,7 +51228,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1088,
     "label": "#1088 · proportion",
-    "detail": "Polysemy #1088 · 67 meanings · 152 questions",
+    "detail": "Polysemy #1088 · 69 meanings · 152 questions",
     "url": "polysemy-lab.html?module=proportion"
   },
   {
@@ -51260,7 +51268,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1093,
     "label": "#1093 · cushion",
-    "detail": "Polysemy #1093 · 32 meanings · 8 questions",
+    "detail": "Polysemy #1093 · 33 meanings · 8 questions",
     "url": "polysemy-lab.html?module=cushion"
   },
   {
@@ -51284,7 +51292,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1096,
     "label": "#1096 · fabric",
-    "detail": "Polysemy #1096 · 79 meanings · 162 questions",
+    "detail": "Polysemy #1096 · 81 meanings · 162 questions",
     "url": "polysemy-lab.html?module=fabric"
   },
   {
@@ -51332,7 +51340,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1102,
     "label": "#1102 · strength",
-    "detail": "Polysemy #1102 · 27 meanings · 74 questions",
+    "detail": "Polysemy #1102 · 30 meanings · 74 questions",
     "url": "polysemy-lab.html?module=strength"
   },
   {
@@ -51348,7 +51356,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1104,
     "label": "#1104 · target",
-    "detail": "Polysemy #1104 · 78 meanings · 19 questions",
+    "detail": "Polysemy #1104 · 80 meanings · 19 questions",
     "url": "polysemy-lab.html?module=target"
   },
   {
@@ -51364,7 +51372,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1106,
     "label": "#1106 · mechanics",
-    "detail": "Polysemy #1106 · 27 meanings · 47 questions",
+    "detail": "Polysemy #1106 · 28 meanings · 47 questions",
     "url": "polysemy-lab.html?module=mechanics"
   },
   {
@@ -51380,7 +51388,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1108,
     "label": "#1108 · calculate",
-    "detail": "Polysemy #1108 · 51 meanings · 15 questions",
+    "detail": "Polysemy #1108 · 52 meanings · 15 questions",
     "url": "polysemy-lab.html?module=calculate"
   },
   {
@@ -51404,7 +51412,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1111,
     "label": "#1111 · sleeve",
-    "detail": "Polysemy #1111 · 53 meanings · 113 questions",
+    "detail": "Polysemy #1111 · 55 meanings · 113 questions",
     "url": "polysemy-lab.html?module=sleeve"
   },
   {
@@ -51420,7 +51428,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1113,
     "label": "#1113 · fit",
-    "detail": "Polysemy #1113 · 20 meanings · 42 questions",
+    "detail": "Polysemy #1113 · 22 meanings · 42 questions",
     "url": "polysemy-lab.html?module=fit"
   },
   {
@@ -51428,7 +51436,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1114,
     "label": "#1114 · perform",
-    "detail": "Polysemy #1114 · 24 meanings · 63 questions",
+    "detail": "Polysemy #1114 · 28 meanings · 63 questions",
     "url": "polysemy-lab.html?module=perform"
   },
   {
@@ -51452,7 +51460,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "type": "polysemy",
     "ordinal": 1117,
     "label": "#1117 · acceleration",
-    "detail": "Polysemy #1117 · 20 meanings · 42 questions",
+    "detail": "Polysemy #1117 · 23 meanings · 42 questions",
     "url": "polysemy-lab.html?module=acceleration"
   },
   {
