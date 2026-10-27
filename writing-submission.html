@@ -9,7 +9,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="EdmundEducation">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-writing-submission.edmundeducation.workers.dev https://edmund-speaking-system.edmundeducation.workers.dev; object-src 'none'; frame-src 'none'; worker-src 'self' blob:; base-uri 'self'; form-action 'self'; media-src 'self' blob: https://edmund-speaking-system.edmundeducation.workers.dev">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co https://edmund-writing-submission.edmundeducation.workers.dev https://edmund-speaking-system.edmundeducation.workers.dev; object-src 'none'; frame-src 'self'; worker-src 'self' blob:; base-uri 'self'; form-action 'self'; media-src 'self' blob: https://edmund-speaking-system.edmundeducation.workers.dev">
   <title>Edmund Sir Writing 交文系統｜EdmundEducation</title>
   <link rel="canonical" href="https://edmundeducation.com/writing-submission.html">
   <link rel="manifest" href="/pwa-manifests/writing-submission.webmanifest">
@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="learning-word-bookmarks.css?v=20260901-word-brush1">
   <link rel="stylesheet" href="shared-system-nav.css?v=20261022-character-coins1">
 <link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261025-1">
+  <link rel="stylesheet" href="writing-synonyms.css?v=20261027-1">
 </head>
 <body>
   <a class="skip-link" href="#writing-submission-main">跳至主要內容</a>
@@ -53,6 +54,7 @@
         </button>
         <span class="connection-pill" data-connection-status data-state="checking">正在連接</span>
         <span class="user-pill" data-user-pill hidden></span>
+        <button class="header-button" type="button" data-writing-synonyms>同義詞搜尋／練習</button>
         <button class="header-button" type="button" data-workspace-button hidden>交文首頁</button>
         <button class="header-button" type="button" data-submissions-button hidden>我的文章</button>
         <button class="header-button" type="button" data-grammar-log-button hidden>文法問題記錄</button>
@@ -748,6 +750,6 @@
   <script src="video-class-zip.js?v=20261019-admin-archive1"></script>
   <script defer src="eddy-writing-daily-dialogue.js?v=20261026-ielts-task1"></script>
   <script defer src="eddy-writing-ielts-task1-dialogue.js?v=20261026-2"></script>
-  <script type="module" src="writing-submission.js?v=20261026-ielts-task1-dialogue"></script>
+  <script type="module" src="writing-submission.js?v=20261027-synonyms-export1"></script>
 </body>
 </html>

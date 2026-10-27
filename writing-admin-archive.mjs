@@ -1,9 +1,9 @@
-import {renderArchivePdf} from './writing-admin-archive-pdf.mjs';
+import {renderArchivePdf} from './writing-admin-archive-pdf.mjs?v=20261027-styled1';
 
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 const safeFilePart = value => String(value || 'unknown').normalize('NFKC').replace(/[\\/\u0000-\u001f\u007f:*?"<>|]/g, '-').replace(/\s+/g, ' ').trim().slice(0, 65) || 'unknown';
 
-export function createWritingAdminArchive({root, api, getAdminKey, getStudents, normalizeSubmission, normalizeFeedback}) {
+export function createWritingAdminArchive({root, api, getAdminKey, getStudents, normalizeSubmission, normalizeFeedback, renderHtml}) {
   const studentSelect = root.querySelector('[data-archive-student]');
   const gradedOnly = root.querySelector('[data-archive-graded]');
   const search = root.querySelector('[data-archive-search]');
@@ -125,7 +125,8 @@ export function createWritingAdminArchive({root, api, getAdminKey, getStudents, 
         const feedback = normalizeFeedback(feedbackPayload?.feedback);
         if (feedback?.submissionId && feedback.submissionId !== id) throw new Error('評語服務回應與文章不一致。');
         if (requirePublished && feedback?.status !== 'published') throw new Error('匯出期間評語狀態已改變；請重新載入清單後再試。');
-        const pdf = await renderArchivePdf({submission, feedback: feedback?.status === 'published' ? feedback : null});
+        const pdf = await renderArchivePdf({submission, feedback: feedback?.status === 'published' ? feedback : null}, {renderHtml, onProgress: (page, total) => { assertAdmin(key); message(`正在製作 PDF ${index + 1} / ${entries.length} · 第 ${page} / ${total} 頁`); }});
+        assertAdmin(key);
         return new Blob([pdf], {type: 'application/pdf'}).stream();
       });
       if (!fileHandle) {

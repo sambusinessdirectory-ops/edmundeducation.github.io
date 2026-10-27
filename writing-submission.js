@@ -1,7 +1,8 @@
+import {mountWritingSynonyms} from './writing-synonyms.mjs?v=20261027-1';
 import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20261021-pocket-progress3';
 import { WRITING_FUNCTIONS, composeFunctionAnswer, normalizeFunctionHelper } from './writing-function-helper.mjs?v=20261021-1';
 import { mountSentenceSupport } from './writing-sentence-support.mjs?v=20261021-function-tags1';
-import {createWritingAdminArchive} from './writing-admin-archive.mjs?v=20261019-1';
+import {createWritingAdminArchive} from './writing-admin-archive.mjs?v=20261027-styled1';
 import { SPEAKING_TOPIC_CATEGORIES, parseSpeakingTopicPrompt, speakingTopicLabel, speakingTopicPrompt, speakingTopicSearchHaystack, speakingTopicSearchText } from './writing-speaking-topics.mjs?v=20261021-2';
 import {mountProofreadChecklist,normalizeProofreadChecklistChecked,normalizeProofreadChecklistRecord,PROOFREAD_CHECKLIST_GROUPS} from './writing-proofread-checklist.mjs?v=20260928-proofread2';
 import {preserveTextareaParagraphs,preserveArticleCopy} from './writing-paragraph-clipboard.mjs?v=20260927-pocket1';
@@ -2081,6 +2082,7 @@ function formatCompactDuration(secondsValue) {
 }
 
 function showView(name) {
+  writingSynonyms.close();
   if (name !== 'workspace') sentenceSupport.close();
   if(name === "workspace") void referencePocket.refresh();
   else referencePocket.reset();
@@ -6109,7 +6111,7 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = 
     return `<article class="composition">
       <div class="export-header">
         <span class="brand">EdmundEducation</span>
-        <img class="elearning" src="https://edmundeducation.com/E-Learning.png" alt="E-Learning">
+        <img class="elearning" src="${escapePrintHtml(new URL("E-Learning.png", window.location.href).href)}" alt="E-Learning">
       </div>
       <header class="article-head">
         <p class="sequence">WRITING SUBMISSION ${index + 1} / ${bundles.length}</p>
@@ -10186,7 +10188,8 @@ async function openAdminDashboard() {
     getAdminKey: () => state.user?.role === 'admin' ? state.authToken : '',
     getStudents: () => state.adminStudents,
     normalizeSubmission,
-    normalizeFeedback: normalizeTeacherFeedback
+    normalizeFeedback: normalizeTeacherFeedback,
+    renderHtml: bundle => writingExportHtml([bundle], {role: 'admin', mode: 'both'})
   });
   adminArchiveController.setStudents();
   void adminArchiveController.refresh();
@@ -11264,6 +11267,7 @@ async function checkHealth() {
   }
 }
 
+const writingSynonyms = mountWritingSynonyms({getSession: () => state.user?.role === 'student' ? {user: state.user, token: state.authToken} : null});
 const proofreadChecklist = mountProofreadChecklist(document.querySelector('[data-proofread-checklist]'),()=>persistDraft());
 const referencePocket = mountReferencePocket({
  host:document.querySelector('[data-writing-reference-pocket]'),

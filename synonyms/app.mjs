@@ -1,3 +1,4 @@
+if (new URLSearchParams(location.search).get('embed') === 'writing' && window.parent !== window) document.documentElement.classList.add('syn-writing-embed');
 import { importantModule } from './important-data.mjs?v=20260928-important1';
 import { socialMediaModule } from './social-media-data.mjs?v=20260929-social1';
 import { catalog, legacyCatalog } from './lesson-catalog.mjs?v=20261019-curation1';
@@ -406,7 +407,10 @@ async function restoreRoute(initial = false) {
     return;
   }
   view = part === 'false-synonyms' ? 'false' : ['home','module','guide','question','finish','recordings','false'].includes(part) ? part : 'home';
-  if (view === 'question' && !current()) view = 'guide';
+  if (view === 'question' && !current()) {
+    if (total) { progress.order = newOrder(); progress.cursor = 0; saveLocal(); }
+    else view = 'guide';
+  }
   if (initial && !hash && linkedModule && modules[linkedModule]) {
     history.replaceState({synonymsView:'module'}, '', `#${target}:module`);
   }
