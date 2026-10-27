@@ -157,6 +157,11 @@ jobs:
           node --check grammar-new-curations-data.js
           node --check grammar-new-curations.js
           node tools/test-grammar-new-curations.mjs
+          python3 tools/build-grammar-three-sets.py
+          node --check grammar-three-sets-data.js
+          node --check grammar-three-sets.js
+          node --check study-highlighter-bootstrap.mjs
+          node tools/test-grammar-three-sets.mjs
 
       - name: Validate focused Native English release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[native-release]') }}

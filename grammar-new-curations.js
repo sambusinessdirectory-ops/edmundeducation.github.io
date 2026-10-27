@@ -6,7 +6,7 @@
   const library = dashboard?.querySelector('[data-grammar-library]');
   if (!dashboard || !library || !Array.isArray(lessons)) return;
 
-  const otherViews = '[data-tense-curation], [data-grammar-practice], [data-articles-curation], [data-articles-practice], [data-advanced-articles-curation], [data-advanced-articles-practice], [data-new-grammar-curation]';
+  const otherViews = '[data-tense-curation], [data-grammar-practice], [data-articles-curation], [data-articles-practice], [data-advanced-articles-curation], [data-advanced-articles-practice], [data-new-grammar-curation], [data-new-grammar-practice]';
   const allViews = [];
 
   function formatGuide(view) {
@@ -119,7 +119,7 @@
   lessons.forEach((lesson, index) => {
     const card = document.createElement("article");
     card.className = "grammar-lesson-card grammar-lesson-card--new-curation";
-    card.innerHTML = `<div class="grammar-lesson-card__copy"><p class="eyebrow">MODULE ${String(index + 4).padStart(2, "0")} · READING GUIDE</p><h3>${lesson.english} <span lang="zh-Hant">${lesson.chinese}</span></h3><p>${lesson.count} 個編號教學重點，附英文例句、繁體中文解說及用法對照。暫無練習題。</p></div><div class="grammar-lesson-card__stats"><button class="grammar-button" type="button">閱讀導讀</button></div>`;
+    card.innerHTML = `<div class="grammar-lesson-card__copy"><p class="eyebrow">MODULE ${String(index + 4).padStart(2, "0")} · CURATION + 150 QUESTIONS</p><h3>${lesson.english} <span lang="zh-Hant">${lesson.chinese}</span></h3><p>${lesson.count} 個編號教學重點，附英文例句、繁體中文解說及用法對照；再練習 150 題。</p></div><div class="grammar-lesson-card__stats"><button class="grammar-button" type="button">閱讀導讀</button></div>`;
     library.append(card);
 
     const view = document.createElement("section");

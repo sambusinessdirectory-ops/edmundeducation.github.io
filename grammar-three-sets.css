@@ -1,0 +1,30 @@
+.grammar-extra-practice .grammar-question { scroll-margin-top: 120px; }
+.grammar-extra-practice .grammar-question__prompt,
+.grammar-extra-practice .grammar-question__translation { white-space: pre-line; overflow-wrap: anywhere; }
+.grammar-extra-practice .grammar-question__meta { gap: 12px; flex-wrap: wrap; }
+.grammar-extra-section { color: #426982; font-size: 12px; font-weight: 800; }
+.grammar-extra-practice .grammar-answer textarea {
+  width: 100%; min-height: 110px; box-sizing: border-box; resize: vertical;
+  padding: 15px 17px; border: 1.5px solid #b9cfde; border-radius: 13px;
+  background: #fff; color: #17344c; font: 600 17px/1.55 Arial, sans-serif;
+}
+.grammar-extra-practice .grammar-answer textarea:focus { outline: 3px solid #b5d7e9; border-color: #327196; }
+.grammar-extra-practice .grammar-answer [hidden] { display: none !important; }
+.grammar-extra-practice .grammar-feedback[data-state="review"] { background: #eef5fd; border-color: #a7c9e7; color: #1e4e71; }
+.grammar-extra-practice .grammar-number-grid button[data-state="review"] { color: #26537a; border-color: #90bcda; background: #edf6fd; }
+.grammar-extra-step {
+  display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 14px;
+  padding: 17px 19px; border: 1px solid #d7e5ed; border-radius: 15px;
+  background: linear-gradient(145deg, #fff, #f4f9fb); color: #203b50;
+}
+.grammar-extra-step > span { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 10px; background: #dceff6; color: #1c627d; font-weight: 900; }
+.grammar-extra-step h4 { margin: 1px 0 7px; font-size: 17px; line-height: 1.45; }
+.grammar-extra-step p { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; line-height: 1.75; }
+.grammar-extra-next-step { justify-self: start; margin-top: 5px; }
+.grammar-extra-review { margin-top: 20px; padding: 18px 20px; border-radius: 15px; background: #f0f7ff; border: 1px solid #bad6eb; }
+.grammar-extra-review p { margin: 0 0 13px; line-height: 1.6; }
+.grammar-extra-review button { margin-right: 10px; margin-bottom: 8px; }
+@media (max-width: 640px) {
+  .grammar-extra-step { grid-template-columns: 30px minmax(0, 1fr); padding: 14px; }
+  .grammar-extra-step > span { width: 28px; height: 28px; }
+}

@@ -13,9 +13,11 @@ if (dashboard) {
         if (scope.matches('[data-tense-topic]')) return `tense:topic:${scope.dataset.tenseTopic}`;
         if (scope.matches('[data-articles-topic]')) return `articles:topic:${scope.dataset.articlesTopic}`;
         if (scope.matches('[data-advanced-articles-topic]')) return `advanced-articles:topic:${scope.dataset.advancedArticlesTopic}`;
-        const practice = scope.closest('[data-grammar-practice], [data-articles-practice], [data-advanced-articles-practice]');
+        const practice = scope.closest('[data-grammar-practice], [data-articles-practice], [data-advanced-articles-practice], [data-new-grammar-practice]');
         const lesson = practice?.hasAttribute('data-grammar-practice') ? 'tense'
-          : practice?.hasAttribute('data-articles-practice') ? 'articles' : 'advanced-articles';
+          : practice?.hasAttribute('data-articles-practice') ? 'articles'
+          : practice?.hasAttribute('data-advanced-articles-practice') ? 'advanced-articles'
+          : practice?.dataset.newGrammarPractice || 'unknown';
         const label = scope.querySelector('.grammar-question__number')?.textContent || '';
         const number = Number(label.match(/\d+/)?.[0]);
         return Number.isInteger(number) && number > 0 ? `${lesson}:question:${number}` : '';
@@ -33,7 +35,7 @@ if (dashboard) {
       : '.error-id-sentence, .error-id-feedback, .error-id-passage-line__main p, .error-id-passage-feedback';
     const highlighter = mountJuniorHighlighter(dashboard, eligible, grammar ? 'grammar' : 'error', options);
     const active = () => grammar
-      ? [...dashboard.querySelectorAll('[data-grammar-practice], [data-articles-practice], [data-advanced-articles-practice], [data-tense-curation], [data-articles-curation], [data-advanced-articles-curation]')].some(section => !section.hidden)
+      ? [...dashboard.querySelectorAll('[data-grammar-practice], [data-articles-practice], [data-advanced-articles-practice], [data-new-grammar-practice], [data-tense-curation], [data-articles-curation], [data-advanced-articles-curation], [data-new-grammar-curation]')].some(section => !section.hidden)
       : [...dashboard.querySelectorAll('[data-error-id-single], [data-error-id-passage]')].some(section => !section.hidden);
     let pending = false;
     const update = () => {
