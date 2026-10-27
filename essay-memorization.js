@@ -70,7 +70,7 @@
     },
     {
       icon: '✦', title: '原文重組', en: 'EXACT WORDING', description: '按意思小節逐句拼回原文。',
-      rounds: sentences.map((sentence, sentenceIndex) => ({ type: 'precision', sentenceIndex, prompt: `第 ${sentenceIndex + 1} / ${sentences.length} 句 · ${sentence.role}`, detail: '點選意思小節，接回完整原句。', why: '已還原此句。' })),
+      rounds: sentences.map((sentence, sentenceIndex) => ({ type: 'precision', sentenceIndex, prompt: `第 ${sentenceIndex + 1} / ${sentences.length} 句 · ${sentence.role}`,  why: '已還原此句。' })),
     },
     {
       icon: '♫', title: '有提示朗讀', en: 'SUPPORTED READING', description: '每次只讀一小節，再連成一句，最後把相鄰兩句接起來。英文提示一直可見。', rounds: speakingRounds(true),
@@ -120,16 +120,34 @@
     round: Number.isInteger(saved.round) ? saved.round : 0,
     unlocked: Number.isInteger(saved.unlocked) ? Math.max(0, Math.min(saved.unlocked, stageDefinitions.length)) : 0,
     solved: saved.solved && typeof saved.solved === 'object' ? saved.solved : {},
-    selection: [], hadMistake: false, revealTranslation: false, transitioning: false, checks: [], completed: !!saved.completed,
+    selection: Array.isArray(saved.selection)?saved.selection:[], hadMistake: !!saved.hadMistake, revealTranslation: false, transitioning: false, checks: [], completed: !!saved.completed,
   };
   state.round = Math.min(Math.max(state.round, 0), stageDefinitions[state.stage].rounds.length - 1);
+  state.selection = validatedSelection(state.stage,state.round,state.selection);
 
 
   const audio = new Audio(essay.audio);
   audio.preload = 'metadata';
   let segmentEnd = null;
   let audioButton = null;
-  const save = () => { try { localStorage.setItem(storageKey, JSON.stringify({ stage: state.stage, round: state.round, unlocked: state.unlocked, solved: state.solved, completed: state.completed })); } catch { /* The game remains usable without storage. */ } };
+  function progressSnapshot() { return {stage:state.stage,round:state.round,unlocked:state.unlocked,solved:state.solved,completed:state.completed,selection:state.transitioning?[]:state.selection,hadMistake:state.hadMistake,savedAt:new Date().toISOString()}; }
+  function save() {
+    try { localStorage.setItem(storageKey,JSON.stringify(progressSnapshot()));$('#save-status').textContent='已儲存在此瀏覽器 · '+new Date().toLocaleTimeString('zh-HK',{hour:'2-digit',minute:'2-digit'});return true; }
+    catch {$('#save-status').textContent='瀏覽器未能儲存，請下載備份以保留進度。';return false;}
+  }
+  function validatedSelection(stage,step,selection) {
+    const item=stageDefinitions[stage]?.rounds[step];if(!item || !Array.isArray(selection))return [];
+    if(item.type==='multi')return [...new Set(selection.filter(n=>Number.isInteger(n)&&n>=0&&n<item.options.length))].slice(0,2);
+    const count=item.type==='vocabulary'?(item.reverse?support.sentences[item.sentenceIndex].chunks:support.sentences[item.sentenceIndex].simpleChunks).length:item.type==='precision'?support.sentences[item.sentenceIndex].chunks.length:item.items?.length||0;
+    return selection.length<count && selection.every((n,i)=>n===i)?selection:[];
+  }
+  function validateProgress(data) {
+    if(data?.format!=='edmund-essay80-progress' || data.version!==4 || !data.progress || typeof data.progress!=='object')throw Error('這不是本版本的 Essay 80 進度檔。');
+    const p=data.progress;if(!Number.isInteger(p.stage)||!stageDefinitions[p.stage]||!Number.isInteger(p.round)||!stageDefinitions[p.stage].rounds[p.round])throw Error('進度檔的關卡或步驟無效。');
+    const solved={};for(const [key,value] of Object.entries(p.solved||{})){const [stage,step]=key.split(':').map(Number);if(/^\d+:\d+$/.test(key)&&stageDefinitions[stage]?.rounds[step]&&[1,2].includes(value))solved[key]=value;}
+    return {stage:p.stage,round:p.round,unlocked:0,solved,selection:validatedSelection(p.stage,p.round,p.selection),hadMistake:p.hadMistake===true,completed:false};
+  }
+
   const roundKey = () => `${state.stage}:${state.round}`;
   const round = () => stageDefinitions[state.stage].rounds[state.round];
   let orderCache = new Map();
@@ -201,11 +219,12 @@
     const percent = Math.round(solvedCount / totalRounds * 100);
     $('#progress-fill').style.width = `${percent}%`;
     $('#overall-progress').setAttribute('aria-valuenow', String(percent));
-    $('#step-select').innerHTML=stage.rounds.map((item,i)=>`<option value="${i}" ${i===state.round?'selected':''}>${i+1}. ${escapeHtml(item.prompt)}${state.solved[`${state.stage}:${i}`]?' ✓':''}</option>`).join('');
+    $('#step-picker-current').textContent=`${state.round+1} / ${stage.rounds.length} · ${stepTitle(round()).replace(/\n/g,' ')}`;
+    $('#step-select').innerHTML=stage.rounds.map((item,i)=>`<option value="${i}" ${i===state.round?'selected':''}>${i+1}. ${escapeHtml(stepTitle(item))}${state.solved[`${state.stage}:${i}`]?' ✓':''}</option>`).join('');
   }
   function renderQuiz(item) {
     const indices = orderedSeed(item.options.length, state.stage * 43 + state.round * 17);
-    return `<div class="question-intro"><span class="question-mark">?</span><div><p class="question-label">SELECT THE BEST ANSWER</p><h3>${item.context?`<span class="transfer-context">${escapeHtml(item.context)}</span><span class="transfer-question">${escapeHtml(item.question)}</span>`:escapeHtml(item.prompt)}</h3>${item.detail ? `<p>${escapeHtml(item.detail)}</p>` : ''}</div></div><div class="choice-grid">${indices.map(index => `<button class="choice-card" type="button" data-choice="${index}"><span class="choice-symbol" aria-hidden="true">${String.fromCharCode(65 + indices.indexOf(index))}</span><span>${escapeHtml(item.options[index])}</span><span class="choice-arrow" aria-hidden="true">↗</span></button>`).join('')}</div>`;
+    return `<div class="question-intro"><span class="question-mark">?</span><div><p class="question-label">SELECT THE BEST ANSWER</p><h3>${item.context && item.question?`<span class="transfer-context">${escapeHtml(item.context)}</span><span class="transfer-question">${escapeHtml(item.question)}</span>`:escapeHtml(item.prompt)}</h3>${item.detail ? `<p>${escapeHtml(item.detail)}</p>` : ''}</div></div><div class="choice-grid">${indices.map(index => `<button class="choice-card" type="button" data-choice="${index}"><span class="choice-symbol" aria-hidden="true">${String.fromCharCode(65 + indices.indexOf(index))}</span><span>${escapeHtml(item.options[index])}</span><span class="choice-arrow" aria-hidden="true">↗</span></button>`).join('')}</div>`;
   }
   function renderMulti(item) {
     const indices = orderedSeed(item.options.length, 29);
@@ -217,7 +236,7 @@
     const sentence = item.sentenceIndex == null ? null : sentences[item.sentenceIndex];
     const paragraph = Number.isInteger(item.paragraph) ? byParagraph(item.paragraph) : null;
     const extra = sentence ? `<div class="memory-tools"><span class="role-badge">${escapeHtml(sentence.role)}</span><button class="mini-button" type="button" data-play-sentence="${item.sentenceIndex}">♫ 聽這一句</button><button class="mini-button" type="button" data-translation>繁體中文提示</button></div>${state.revealTranslation ? `<p class="translation-line">${escapeHtml(sentence.chinese)}</p>` : ''}` : paragraph ? `<div class="memory-tools"><span class="role-badge">${['開場', '第一主體段', '第二主體段', '總結'][item.paragraph]}</span><button class="mini-button" type="button" data-translation>${state.revealTranslation ? '隱藏' : '顯示'}繁體中文</button></div>${state.revealTranslation ? `<div class="translation-list">${paragraph.map((line, index) => `<p><b>${index + 1}.</b> ${escapeHtml(line.chinese)}</p>`).join('')}</div>` : ''}` : '';
-    return `<div class="question-intro"><span class="question-mark">${precision ? '✦' : '↝'}</span><div><p class="question-label">${precision ? 'REBUILD THE EXACT SENTENCE' : 'TAP IN THE CORRECT ORDER'}</p><h3>${escapeHtml(item.prompt)}</h3><p>${escapeHtml(item.detail || '逐一點選正確次序。')}</p></div></div>${extra}<div class="sequence-track" aria-label="已選次序">${items.map((_, index) => `<div class="sequence-slot ${state.selection[index] == null ? '' : 'filled'}"><small>${String(index + 1).padStart(2, '0')}</small><span>${state.selection[index] == null ? '下一步' : escapeHtml(items[state.selection[index]].body || items[state.selection[index]].title)}</span></div>`).join('')}</div><div class="option-heading"><span>${precision ? '片語卡' : '待排序卡'}</span><span>${state.selection.length} / ${items.length}</span></div><div class="sequence-options ${precision ? 'phrase-options' : ''}">${indices.map(index => `<button class="sequence-card ${state.selection.includes(index) ? 'used' : ''}" type="button" data-sequence="${index}" ${state.selection.includes(index) ? 'disabled' : ''}><span class="option-glyph" aria-hidden="true">${precision ? '✧' : '◆'}</span><span><strong>${escapeHtml(items[index].body || items[index].title)}</strong>${items[index].body ? `<small>${escapeHtml(items[index].title)}</small>` : ''}</span></button>`).join('')}</div><div class="action-bar"><span>按原有邏輯依次點選</span><button class="text-button" type="button" data-undo ${state.selection.length ? '' : 'disabled'}>撤銷上一步 ↶</button></div>`;
+    return `<div class="question-intro"><span class="question-mark">${precision ? '✦' : '↝'}</span><div><p class="question-label">${precision ? 'REBUILD THE EXACT SENTENCE' : 'TAP IN THE CORRECT ORDER'}</p><h3>${escapeHtml(item.prompt)}</h3>${precision?'':`<p>${escapeHtml(item.detail || '逐一點選正確次序。')}</p>`}</div></div>${extra}<div class="sequence-track" aria-label="已選次序">${items.map((_, index) => `<div class="sequence-slot ${state.selection[index] == null ? '' : 'filled'}"><small>${String(index + 1).padStart(2, '0')}</small><span>${state.selection[index] == null ? '下一步' : escapeHtml(items[state.selection[index]].body || items[state.selection[index]].title)}</span></div>`).join('')}</div><div class="option-heading"><span>${precision ? '片語卡' : '待排序卡'}</span><span>${state.selection.length} / ${items.length}</span></div><div class="sequence-options ${precision ? 'phrase-options' : ''}">${indices.map(index => `<button class="sequence-card ${state.selection.includes(index) ? 'used' : ''}" type="button" data-sequence="${index}" ${state.selection.includes(index) ? 'disabled' : ''}><span class="option-glyph" aria-hidden="true">${precision ? '✧' : '◆'}</span><span><strong>${escapeHtml(items[index].body || items[index].title)}</strong>${items[index].body ? `<small>${escapeHtml(items[index].title)}</small>` : ''}</span></button>`).join('')}</div><div class="action-bar"><span>按原有邏輯依次點選</span><button class="text-button" type="button" data-undo ${state.selection.length ? '' : 'disabled'}>撤銷上一步 ↶</button></div>`;
   }
   function lineHtml(text) { return String(text).split('\n').map(line => `<p>${escapeHtml(line)}</p>`).join(''); }
   function wordTable(content) {
@@ -241,7 +260,7 @@
   }
   function renderStructure(item) {
     const source = sentences.find(s=>s.paragraph===item.source.paragraph-1 && s.index===item.source.sentence-1);
-    return `<p class="question-label">第 ${item.source.paragraph} 段 · 第 ${item.source.sentence} 句</p><p class="support-source">${escapeHtml(source.english)}</p><h3 class="structure-frame">${escapeHtml(item.frame)}</h3><div class="structure-parts">${item.parts.map(p=>`<span class="structure-part ${p.kind}">${escapeHtml(p.text)}<small>${p.kind==='slot'?'換入符合這個意思的內容':'連接／句型固定部分'}</small></span>`).join('')}</div><div class="support-notes"><p><strong>意思：</strong>${escapeHtml(item.meaning)}</p><p><strong>功能與使用時機：</strong>${escapeHtml(item.usage)}</p>${item.contextNote?`<p>${escapeHtml(item.contextNote)}</p>`:''}</div>${renderQuiz(item)}<p class="support-notes">四句來自不同情境；選出句型所表達的關係與內容一致的一句。</p>`;
+    return `<p class="question-label">第 ${item.source.paragraph} 段 · 第 ${item.source.sentence} 句</p><p class="support-source">${escapeHtml(source.english)}</p><div class="structure-parts">${item.parts.map(p=>`<span class="structure-part ${p.kind}">${escapeHtml(p.text)}<small>${p.kind==='slot'?'換入符合這個意思的內容':'連接／句型固定部分'}</small></span>`).join('')}</div><div class="concept-grid"><section class="concept-card"><span class="concept-label">01 · 意思</span><p>${escapeHtml(item.meaning)}</p></section><section class="concept-card"><span class="concept-label">02 · 甚麼時候用？</span><p>${escapeHtml(item.usage)}</p></section></div>${item.contextNote?`<aside class="concept-note">${escapeHtml(item.contextNote)}</aside>`:''}${renderQuiz(item)}<p class="support-notes">四句來自不同情境；選出句型所表達的關係與內容一致的一句。</p>`;
   }
   const savedRecordings=new Set();
   // Keep saved recording identifiers stable when the repeated stage is removed.
@@ -307,7 +326,7 @@
   }
   function mistake(button, message = '還差一點。留意句子之間的邏輯，再試一次。') {
     answerSound(false);
-    state.hadMistake = true;
+    state.hadMistake = true;save();
     feedback(message, 'error');
     button?.classList.remove('is-wrong'); void button?.offsetWidth; button?.classList.add('is-wrong');
   }
@@ -388,6 +407,30 @@
     audio.pause(); render();
   });
   $('#step-select').addEventListener('change', event => { audio.pause();state.round=Number(event.target.value);state.selection=[];state.checks=[];state.transitioning=false;state.hadMistake=false;state.revealTranslation=false;render(); });
+  $('#game-card').addEventListener('click',save);
+  function stepTitle(item) { return item.type==='structure' ? item.frame : item.prompt; }
+  function renderStepOptions() {
+    const query=$('#step-search').value.trim().toLocaleLowerCase();
+    const rows=stageDefinitions[state.stage].rounds.map((item,i)=>({item,i})).filter(({item,i})=>`${i+1} ${stepTitle(item)}`.toLocaleLowerCase().includes(query));
+    $('#step-options').innerHTML=rows.map(({item,i})=>`<button type="button" data-pick-step="${i}" class="picker-option ${i===state.round?'current':''}" ${i===state.round?'aria-current="step"':''}><span class="picker-number">${String(i+1).padStart(2,'0')}</span><span>${escapeHtml(stepTitle(item).replace(/\n/g,' '))}<small>${state.solved[`${state.stage}:${i}`]?'已完成':i===state.round?'目前步驟':'尚未完成'}</small></span><span aria-hidden="true">${state.solved[`${state.stage}:${i}`]?'✓':'→'}</span></button>`).join('')||'<p class="picker-empty">找不到相符步驟，請試另一個字詞。</p>';
+  }
+  $('#step-picker-open').addEventListener('click',()=>{$('#step-search').value='';renderStepOptions();$('#step-dialog').showModal();$('#step-search').focus();});
+  $('#step-picker-close').addEventListener('click',()=>$('#step-dialog').close());
+  $('#step-search').addEventListener('input',renderStepOptions);
+  $('#step-dialog').addEventListener('click',event=>{const button=event.target.closest('[data-pick-step]');if(!button)return;$('#step-select').value=button.dataset.pickStep;$('#step-select').dispatchEvent(new Event('change'));$('#step-dialog').close();});
+  $('#step-options').addEventListener('keydown',event=>{if(!['ArrowDown','ArrowUp','Home','End'].includes(event.key))return;const buttons=[...$('#step-options').querySelectorAll('button')];if(!buttons.length)return;event.preventDefault();const i=buttons.indexOf(document.activeElement);buttons[event.key==='Home'?0:event.key==='End'?buttons.length-1:(i+(event.key==='ArrowDown'?1:-1)+buttons.length)%buttons.length].focus();});
+  $('#save-progress').addEventListener('click',()=>{save();});
+  $('#export-progress').addEventListener('click',()=>{
+    const blob=new Blob([JSON.stringify({format:'edmund-essay80-progress',version:4,progress:progressSnapshot()},null,2)],{type:'application/json'});
+    const url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download='Essay-80-progress-'+new Date().toISOString().slice(0,10)+'.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),10000);$('#save-status').textContent='進度備份已交給瀏覽器下載；可在其他裝置載入。';
+  });
+  $('#import-progress').addEventListener('click',()=>$('#progress-file').click());
+  $('#progress-file').addEventListener('change',async event=>{
+    const file=event.target.files[0];if(!file)return;
+    try{if(file.size>1000000)throw Error('進度檔過大。');const progress=validateProgress(JSON.parse(await file.text()));if(!confirm('載入備份會取代此瀏覽器目前的 Essay 80 進度。繼續？'))return;audio.pause();Object.assign(state,progress,{transitioning:false,revealTranslation:false,checks:[]});render();$('#save-status').textContent='已載入備份。'+$('#save-status').textContent;}
+    catch(error){$('#save-status').textContent='未能載入：'+error.message;}finally{event.target.value='';}
+  });
+
   $('#audio-full').addEventListener('click', event => playAudio(0, null, event.currentTarget));
   $('#restart-round').addEventListener('click', () => { audio.pause(); state.transitioning=false; state.checks=[]; state.selection = []; state.hadMistake = false; state.revealTranslation = false; render(); });
   $('#restart-all').addEventListener('click', () => {

@@ -1774,10 +1774,10 @@ window.ESSAY_80_LEARNING_SUPPORT = {
       "context": "路線遷移：公園應加設遮蔭地方。",
       "question": "哪個安排先建立主張，再用兩條理由支持，最後作結論？",
       "options": [
-        "Choose more shade; explain safe play and cooler rest; repeat the main choice.",
-        "Describe cooler rest; repeat the choice twice; add safe play after the ending.",
-        "Choose more shade; list several kinds of trees; finish with their planting dates.",
-        "Describe safe play; explain the same point again; finish without stating a choice."
+        "先選擇增加遮蔭，再解釋安全玩耍與涼快休息，最後重申主張。",
+        "先描述涼快休息，再重複兩次主張，最後才補上安全玩耍。",
+        "先選擇增加遮蔭，再列出不同樹木種類，最後交代種植日期。",
+        "先解釋安全玩耍，再重複相同的好處，最後不表明整體立場。"
       ],
       "correct": 0,
       "explanations": [
@@ -1800,10 +1800,10 @@ window.ESSAY_80_LEARNING_SUPPORT = {
       "context": "主體一 · 主張：要改善巴士服務。",
       "question": "哪句最直接提出「擴大服務覆蓋」的理由？",
       "options": [
-        "New bus routes let people in more villages reach the town.",
-        "New bus seats let people on busy routes travel more comfortably.",
-        "New bus engines let drivers use less fuel on each journey.",
-        "New bus signs let regular passengers find their usual stops faster."
+        "新巴士路線讓更多村落的居民可以前往市區。",
+        "新巴士座椅讓繁忙路線的乘客可以坐得舒適。",
+        "新巴士引擎讓司機在每次行程使用更少燃料。",
+        "新巴士標示讓原有路線的乘客更快找到車站。"
       ],
       "correct": 0,
       "explanations": [
@@ -1823,10 +1823,10 @@ window.ESSAY_80_LEARNING_SUPPORT = {
       "context": "主體一 · 原有限制：公園只有一個水龍頭。",
       "question": "哪句最直接解釋同一時間能服務的人數限制？",
       "options": [
-        "Only one person can fill a bottle while the others wait.",
-        "Visitors near the far gate must walk across the park for water.",
-        "The tap closes early, so evening visitors cannot fill their bottles.",
-        "The tap is quite high, so young children need help reaching it."
+        "水龍頭一次只容許一人裝水，其他人必須等候。",
+        "遠處入口的訪客需要走過整個公園才能裝水。",
+        "水龍頭很早便會關閉，晚間訪客因此無法裝水。",
+        "水龍頭的位置比較高，年幼孩子需要別人協助。"
       ],
       "correct": 0,
       "explanations": [
@@ -1846,10 +1846,10 @@ window.ESSAY_80_LEARNING_SUPPORT = {
       "context": "主體一 · 對比：居民白天上班，舊診所只在上午開門。",
       "question": "哪個新做法直接解決這群居民不能到診的限制？",
       "options": [
-        "The new clinic opens after work, so these residents can attend.",
-        "The new clinic adds morning staff, so patients wait less time.",
-        "The new clinic lowers morning fees, so each visit costs less.",
-        "The new clinic adds morning rooms, so more patients fit inside."
+        "新診所延長至下班後開門，這群居民便能到診。",
+        "新診所增加上午的職員，病人輪候時間便縮短。",
+        "新診所降低上午的診金，每次求診費用便減少。",
+        "新診所增加上午的診室，同時容納的病人便增多。"
       ],
       "correct": 0,
       "explanations": [
@@ -1870,10 +1870,10 @@ window.ESSAY_80_LEARNING_SUPPORT = {
       "context": "主體一 · 受惠者：送餐讓不能出門的人也能取得飯餐。",
       "question": "哪組人的需要最直接對應這項新增的取用好處？",
       "options": [
-        "People who cannot leave home because of illness or limited movement.",
-        "People who live near cafes and want to compare different meal prices.",
-        "People who enjoy cooking at home and want to learn new dishes.",
-        "People who eat near work and want a wider choice of lunch places."
+        "因患病或行動受限而無法離開住所的人。",
+        "住在餐廳附近並希望比較不同餐價的人。",
+        "喜歡留在家中煮食並希望學習新菜的人。",
+        "平日在工作地點附近吃飯並想增加選擇的人。"
       ],
       "correct": 0,
       "explanations": [
@@ -1893,10 +1893,10 @@ window.ESSAY_80_LEARNING_SUPPORT = {
       "context": "主體一 · 例證：泳池延長晚間開放，目的是方便白天工作的居民。",
       "question": "哪個例子最直接展示這項改變如何幫助目標使用者？",
       "options": [
-        "A nurse finishing at six can now swim after her shift.",
-        "A pupil finishing at three still swims at her usual time.",
-        "A retired swimmer finds that the morning pool is less crowded.",
-        "A weekend visitor enjoys the new seats beside the same pool."
+        "六時下班的護士，現在能夠在下班後前來游泳。",
+        "三時放學的學生，仍然按照原來的時間來游泳。",
+        "早上游泳的退休人士，發現泳池的人比以前少。",
+        "週末前來的訪客，覺得泳池旁新增的座椅舒適。"
       ],
       "correct": 0,
       "explanations": [
@@ -1916,10 +1916,10 @@ window.ESSAY_80_LEARNING_SUPPORT = {
       "context": "主體一 · 結論：小巴開始到偏遠村落接人。",
       "question": "哪句最準確概括「突破地點限制」這條理由？",
       "options": [
-        "The service now reaches people who live beyond the town centre.",
-        "The service now gives town passengers a more comfortable daily journey.",
-        "The service now spends less money carrying its usual town passengers.",
-        "The service now makes nearby stops easier for regular passengers to find."
+        "服務現在能夠接觸居住在市中心以外的居民。",
+        "服務現在讓市區乘客每天享有更舒適的旅程。",
+        "服務現在運載原有市區乘客時能夠減少開支。",
+        "服務現在讓原有乘客更容易找到附近的車站。"
       ],
       "correct": 0,
       "explanations": [
@@ -1939,10 +1939,10 @@ window.ESSAY_80_LEARNING_SUPPORT = {
       "context": "主體二 · 主張：社區想開設煮食課。",
       "question": "哪句最直接以「建立實用能力」支持開課？",
       "options": [
-        "Cooking classes teach residents to prepare healthy meals without help.",
-        "Cooking classes give residents a place to meet people nearby.",
-        "Cooking classes bring more visitors to the local community centre.",
-        "Cooking classes offer residents ready meals at a lower price."
+        "煮食課教居民不靠別人協助，自己準備健康飯餐。",
+        "煮食課讓居民多一個地方，認識居住附近的朋友。",
+        "煮食課讓社區中心吸引更多人，增加場地使用量。",
+        "煮食課讓居民能以較低價錢，獲得準備好的飯餐。"
       ],
       "correct": 0,
       "explanations": [
@@ -1962,10 +1962,10 @@ window.ESSAY_80_LEARNING_SUPPORT = {
       "context": "主體二 · 現代需要：社區建議教居民管理金錢。",
       "question": "哪句最直接把這項技能連到居民日常必須完成的任務？",
       "options": [
-        "Residents must pay bills and plan spending within their monthly income.",
-        "Residents can join classes and meet neighbours with similar learning interests.",
-        "Residents need clear bank signs to find the nearest local branch.",
-        "Residents need banks to offer longer opening hours after their working day."
+        "居民必須支付帳單，並按每月收入計劃開支。",
+        "居民可以參加課堂，結識學習興趣相近的鄰居。",
+        "居民需要清楚的標示，才能找到附近的銀行。",
+        "居民需要銀行延長時間，才能在下班後到訪。"
       ],
       "correct": 0,
       "explanations": [
@@ -1985,10 +1985,10 @@ window.ESSAY_80_LEARNING_SUPPORT = {
       "context": "主體二 · 行動方案：孩子尚未學會在水中安全游泳。",
       "question": "哪項投入最直接幫助孩子把安全知識變成游泳能力？",
       "options": [
-        "Provide pool sessions, trained teachers and guided practice for each child.",
-        "Provide pool sessions, safety signs and free entry for each child.",
-        "Provide trained teachers, classroom talks and safety videos for each child.",
-        "Provide swimming videos, written feedback and weekly quizzes for each child."
+        "為孩子提供泳池課堂、受訓教師，以及指導練習。",
+        "為孩子提供泳池時段、安全標示，以及免費入場。",
+        "為孩子提供受訓教師、課室講解，以及安全影片。",
+        "為孩子提供游泳影片、書面回饋，以及每週測驗。"
       ],
       "correct": 0,
       "explanations": [
@@ -2008,10 +2008,10 @@ window.ESSAY_80_LEARNING_SUPPORT = {
       "context": "主體二 · 使用者例子：社區課程教居民安全修理單車。",
       "question": "哪句最直接展示學員把新能力用於生活？",
       "options": [
-        "After training, Mei fixes her bike brake safely without the teacher.",
-        "After training, Mei buys a repair book recommended by the teacher.",
-        "After training, Mei watches the teacher repair several different bike brakes.",
-        "After training, Mei receives a tool set to keep at home."
+        "上課後，美怡 不靠教師協助，安全地修好單車煞車。",
+        "上課後，美怡 按教師的建議，買了一本修理單車書。",
+        "上課後，美怡 留下觀看教師，修理幾種不同的煞車。",
+        "上課後，美怡 獲發一套工具，準備帶回家中保管。"
       ],
       "correct": 0,
       "explanations": [
@@ -2024,17 +2024,17 @@ window.ESSAY_80_LEARNING_SUPPORT = {
       "sourceSentenceIndices": [
         11
       ],
-      "modelLink": "範文用兒童研究、求職者準備申請、成年人使用政府服務，展示數碼技能的實際用途。Mei 自己修好煞車同樣把「學會能力」落實到「某位使用者能完成某件事」。"
+      "modelLink": "範文用兒童研究、求職者準備申請、成年人使用政府服務，展示數碼技能的實際用途。美怡 自己修好煞車同樣把「學會能力」落實到「某位使用者能完成某件事」。"
     },
     {
       "prompt": "主體二 · 排除替代：社區希望居民能親手完成基本急救。\n為甚麼只買更多急救海報，仍不足以達到這個目標？",
       "context": "主體二 · 排除替代：社區希望居民能親手完成基本急救。",
       "question": "為甚麼只買更多急救海報，仍不足以達到這個目標？",
       "options": [
-        "Posters give information but cannot provide practice with trained feedback.",
-        "Posters take wall space that could hold more local event notices.",
-        "Posters need new printing whenever first-aid advice changes over the years.",
-        "Posters may cost more when the centre chooses larger coloured copies."
+        "海報能提供資訊，但不能提供有專業回饋的實作練習。",
+        "海報會佔用牆面，減少張貼其他社區活動消息的空間。",
+        "急救指引有改變時，海報便需要重新印刷才能更新。",
+        "中心選用較大彩色版本時，海報的印刷費用會增加。"
       ],
       "correct": 0,
       "explanations": [
@@ -2054,10 +2054,10 @@ window.ESSAY_80_LEARNING_SUPPORT = {
       "context": "主體二 · 比喻結論：想提高足球能力，卻只買更多球衣。",
       "question": "哪個比喻同樣指出「增加相關物品，卻沒有提供能力訓練」？",
       "options": [
-        "It is like buying more aprons instead of practising how to cook.",
-        "It is like practising more passes instead of buying new football shirts.",
-        "It is like training more teachers instead of printing more school posters.",
-        "It is like offering more lessons instead of buying more classroom pictures."
+        "這就像不練習煮食，卻只是不斷添購更多圍裙。",
+        "這就像不添購球衣，轉而投入更多時間練習傳球。",
+        "這就像不印製海報，轉而投入資源培訓更多教師。",
+        "這就像不添購掛畫，轉而為學生安排更多課堂。"
       ],
       "correct": 0,
       "explanations": [
@@ -2077,10 +2077,10 @@ window.ESSAY_80_LEARNING_SUPPORT = {
       "context": "證據遷移：新巴士路線聲稱讓以前沒有服務的居民也能出行。",
       "question": "哪項資料最直接檢驗這項「覆蓋擴大」的主張？",
       "options": [
-        "Three villages without buses now have daily stops used by local residents.",
-        "Three busy town stops now have new seats used by regular passengers.",
-        "Three old bus routes now use less fuel while carrying their usual passengers.",
-        "Three popular bus routes now have new signs showing their usual town stops."
+        "三條原本沒有巴士的村落，現在每天都有居民使用新車站。",
+        "三個原本繁忙的市區車站，現在都有新座椅供乘客使用。",
+        "三條原有巴士路線，現在運載原有乘客時使用更少燃料。",
+        "三條原本受歡迎的路線，現在都有新標示介紹原有車站。"
       ],
       "correct": 0,
       "explanations": [
@@ -2102,10 +2102,10 @@ window.ESSAY_80_LEARNING_SUPPORT = {
       "context": "證據遷移：煮食課聲稱讓原本不會煮食的學員能獨立準備飯餐。",
       "question": "哪項結果最直接支持「學會實用能力」，而不只是參與課程？",
       "options": [
-        "After the course, ten beginners prepared a full meal without help.",
-        "After the course, ten beginners said they enjoyed watching the teacher.",
-        "After the course, ten beginners took home a complete recipe book.",
-        "After the course, ten beginners signed up for another cooking lesson."
+        "課程結束後，十名初學者能不靠協助煮好一頓完整飯餐。",
+        "課程結束後，十名初學者表示很喜歡觀看教師示範煮食。",
+        "課程結束後，十名初學者都帶走了一本內容完整的食譜。",
+        "課程結束後，十名初學者都報名參加了下一期煮食課程。"
       ],
       "correct": 0,
       "explanations": [
@@ -2126,10 +2126,10 @@ window.ESSAY_80_LEARNING_SUPPORT = {
       "context": "結論遷移：免費運動班讓更多居民能參加，並教會他們安全運動。",
       "question": "哪句同時保留「更廣參與」和「實用能力」兩條理由？",
       "options": [
-        "The classes reach more residents and teach them to exercise safely.",
-        "The classes reach more residents and give them more free places.",
-        "The classes teach safer movement and help learners practise correct steps.",
-        "The classes lower entry costs and help the centre spend less."
+        "課程讓更多居民能夠參加，也教會他們安全運動。",
+        "課程讓更多居民能夠參加，也提供更多免費名額。",
+        "課程教會居民安全動作，也幫助他們練習正確步驟。",
+        "課程降低居民參加的費用，也讓中心減少營運開支。"
       ],
       "correct": 0,
       "explanations": [

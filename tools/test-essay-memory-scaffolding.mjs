@@ -21,6 +21,7 @@ console.log('PASS: 16 unchanged original sentences, <=12-word chunks, expanded c
 for(const q of support.transfer){
  assert(q.context&&q.question&&q.modelLink);assert.equal(q.explanations.length,4);
  assert(q.sourceSentenceIndices.length);assert(q.sourceSentenceIndices.every(i=>essay.sentences[i]));
- const lengths=q.options.map(o=>o.split(/\s+/).length);assert(Math.max(...lengths)-Math.min(...lengths)<=2,'No obvious answer-length cue');
+ assert(q.options.every(o=>/[\u3400-\u9fff]/.test(o)));
+ const lengths=q.options.map(o=>o.length);assert(Math.max(...lengths)-Math.min(...lengths)<=9,'No obvious answer-length cue');
 }
 for(const file of ['essay-memorization.js','essay-80-learning-support.js','essay-80-memory-data.js','essay-memorization.html'])assert(!fs.readFileSync(file,'utf8').includes('收束'));
