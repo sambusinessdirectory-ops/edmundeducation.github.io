@@ -1,2 +1,11 @@
 .grammar-admin[hidden]{display:none!important}.grammar-admin__head{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.grammar-admin form{display:grid;gap:18px;max-width:620px}.grammar-admin form label{display:grid;gap:8px;font-weight:700}.grammar-admin input:not([type=checkbox]){font:inherit;width:100%;padding:12px;border:1px solid #8b9bb0;border-radius:8px}.grammar-admin__answers{display:flex;gap:10px;align-items:center;margin:20px 0}.grammar-admin__module{padding:20px 0;border-top:1px solid #ccd6e2}.grammar-admin__module button{margin:5px 8px 5px 0}.grammar-admin [data-admin-status]{min-height:1.5em}.grammar-admin h1{font-size:clamp(24px,4vw,36px)}
 .grammar-admin>.panel{padding:clamp(20px,3vw,40px)}.grammar-admin [data-admin-name]{overflow-wrap:anywhere}.grammar-admin h2{margin-block:12px}.grammar-admin__module{padding-block:24px}
+
+.grammar-admin__browser{margin:24px 0;padding:clamp(16px,3vw,28px);background:#f5f8fc;border:1px solid #ccd6e2;border-radius:12px;scroll-margin-top:100px}
+.grammar-admin__browser[hidden]{display:none!important}
+.grammar-admin__browser label{display:grid;gap:8px;font-weight:700}
+.grammar-admin__answer{background:#fff;border:1px solid #dce3ed;border-left:4px solid #2875ba;border-radius:8px;padding:20px;margin:16px 0}
+.grammar-admin__answer h3{margin:0 0 16px;color:#194776}
+.grammar-admin__answer p{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.85;margin:0}
+.grammar-admin__pagination{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.grammar-admin__pagination button:disabled{opacity:.45;cursor:default}
