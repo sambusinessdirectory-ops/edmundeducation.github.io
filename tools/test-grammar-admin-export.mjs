@@ -3,9 +3,9 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 import {grammarModules,exportText,exportHtml,exportSections,curationLines} from '../grammar-admin-export.mjs';
 const scope={window:{}};vm.createContext(scope);
-for(const f of ['grammar-tense-data.js','grammar-tense-curation-data.js','grammar-tense-extension-data.js','grammar-articles-data.js','grammar-advanced-articles-data.js','grammar-advanced-articles-extension-data.js'])vm.runInContext(fs.readFileSync(new URL('../'+f,import.meta.url),'utf8'),scope);
+for(const f of ['grammar-tense-data.js','grammar-tense-curation-data.js','grammar-tense-extension-data.js','grammar-articles-data.js','grammar-advanced-articles-data.js','grammar-advanced-articles-extension-data.js','grammar-new-curations-data.js','grammar-three-sets-data.js'])vm.runInContext(fs.readFileSync(new URL('../'+f,import.meta.url),'utf8'),scope);
 const modules=grammarModules(scope.window);
-assert.deepEqual(modules.map(m=>[m.id,m.questions.length,m.topics.length]),[['tense',195,61],['articles',150,66],['advanced-articles',120,31]]);
+assert.deepEqual(modules.map(m=>[m.id,m.questions.length,m.topics.length]),[['tense',195,61],['articles',150,66],['advanced-articles',120,31],['so',150,30],['modal-verbs',150,42],['unless',150,24]]);
 let checks=0;
 for(const m of modules){
  const c=exportText(m,'curation'),e=exportText(m,'exercises'),a=exportText(m,'exercises',true);
@@ -37,7 +37,7 @@ for(const m of modules){
 assert.ok(!exportText(modules[0],'exercises',true).includes('Mia'));
 const injection={title:'<script>x</script>',id:'safe',questions:[{number:1,prompt:'<img onerror=x>',translation:'中文'}]};assert.ok(exportHtml(injection,'exercises').includes('&lt;img onerror=x&gt;'));
 assert.throws(()=>exportText(modules[0],'bad'));
-console.log(`Grammar exports: 3 modules, 465 exercises, 158 curation topics and 2 appendices, ${checks} content checks passed.`);
+console.log(`Grammar exports: 6 modules, 915 exercises, 254 curation topics, ${checks} content checks passed.`);
 
 const {createRequire}=await import('node:module');
 const require=createRequire(new URL('./email-qa/package.json',import.meta.url));
@@ -57,7 +57,7 @@ for(const module of modules){
  assert.equal(printed.length,module.questions.length);
  for(const [index,section] of sections.entries())assert.equal(printed[index].querySelector('p').textContent,section.body,`${module.id} Q${module.questions[index].number}: printable PDF contains every explanation character`);
 }
-console.log('All 465 default TXT/PDF exercise sections retain their own complete answers and explanations.');
+console.log('All 915 default TXT/PDF exercise sections retain their own complete answers and explanations.');
 
 // All three curation views and both export formats share sentence boundaries.
 const lessonDom = new JSDOM('<main data-learning-portal-root><section data-view="dashboard"><div class="learning-portal-empty"></div></section></main>', {runScripts:'outside-only',pretendToBeVisual:true,url:'https://example.test/grammar-system.html'});

@@ -1,5 +1,5 @@
 import {grammarAdminConnection,loginError} from './grammar-admin-connection.mjs?v=20261019-admin3';
-import {grammarModules, exportSections, exportText, exportHtml} from './grammar-admin-export.mjs?v=20261019-curation-lines1';
+import {grammarModules, exportSections, exportText, exportHtml} from './grammar-admin-export.mjs?v=20261027-three-practice1';
 const root=document.querySelector('[data-learning-portal-root]');
 const context=grammarAdminConnection();
 if(root && context?.rpc) {

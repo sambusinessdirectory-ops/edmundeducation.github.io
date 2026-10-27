@@ -2,6 +2,26 @@
 const text = value => String(value ?? '');
 const escape = value => text(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const displayedTense = value => JSON.parse(JSON.stringify(value).replace(/\bMia\b/g,'Tom').replaceAll('米婭','湯姆'));
+const guideText = html => text(html)
+  .replace(/<br\s*\/?\s*>/gi,'\n')
+  .replace(/<\/t[dh]>/gi,'\t')
+  .replace(/<\/(?:p|h[1-6]|blockquote|li|tr|table|div)>/gi,'\n\n')
+  .replace(/<[^>]+>/g,'')
+  .replace(/&(#x[0-9a-f]+|#\d+|amp|lt|gt|quot|apos|nbsp);/gi,(_,entity)=>{
+    const named={amp:'&',lt:'<',gt:'>',quot:'"',apos:"'",nbsp:' '};
+    if(entity[0]==='#') return String.fromCodePoint(entity[1].toLowerCase()==='x'?parseInt(entity.slice(2),16):parseInt(entity.slice(1),10));
+    return named[entity.toLowerCase()] || _;
+  }).replace(/[ \t]+\n/g,'\n').replace(/\n{3,}/g,'\n\n').trim();
+function guideTopics(lesson) {
+  const html=text(lesson.html);
+  const heading=/<h3>([SMU])(\d{2})｜([^<]+)<\/h3>/g;
+  const hits=[...html.matchAll(heading)];
+  const topics=hits.map((hit,index)=>({
+    number:Number(hit[2]), title:guideText(hit[3]),
+    body:guideText(html.slice(hit.index+hit[0].length,index+1<hits.length?hits[index+1].index:html.length))
+  }));
+  return {topics,appendix:guideText(html.slice(0,hits[0]?.index||html.length))};
+}
 export function grammarModules(source, document) {
   const tense = displayedTense(source.EDMUND_GRAMMAR_TENSE_QUESTIONS || []);
   const modules = [
@@ -9,6 +29,12 @@ export function grammarModules(source, document) {
     {id:'articles',title:'Articles · 冠詞',...source.EDMUND_GRAMMAR_ARTICLES_DATA,id:'articles'},
     {id:'advanced-articles',title:'Advanced Articles · 進階冠詞',...source.EDMUND_GRAMMAR_ADVANCED_ARTICLES_DATA,id:'advanced-articles'}
   ].filter(m => m.questions?.length);
+  for(const practice of source.EDMUND_GRAMMAR_THREE_SETS || []) {
+    const guide=(source.EDMUND_GRAMMAR_NEW_CURATIONS_DATA || []).find(item=>item.slug===(practice.slug==='modal-verbs'?'modal':practice.slug));
+    if(!guide) continue;
+    const {topics,appendix}=guideTopics(guide);
+    modules.push({id:practice.slug,title:`${practice.title} · ${practice.chinese}`,questions:practice.questions,topics,appendix});
+  }
   // Keep the on-screen editorial summaries as well as the complete imported text.
   if (document) for (const module of modules) {
     const selector = module.id === 'articles' ? '[data-articles-stream]' : module.id === 'advanced-articles' ? '[data-advanced-articles-stream]' : '';
