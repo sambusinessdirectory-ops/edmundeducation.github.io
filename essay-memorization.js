@@ -35,22 +35,22 @@
       ],
     },
     {
-      icon: '↝', title: '接通論證', en: 'LOGIC LINKS', description: '把每段的理由、細節、例子和收束按原有邏輯接起來。', rounds: [
+      icon: '↝', title: '接通論證', en: 'LOGIC LINKS', description: '把每段的理由、細節、例子和結論按原有邏輯接起來。', rounds: [
         { type: 'sequence', prompt: '第一主體段：數碼資源如何帶來更廣泛的取用？', detail: '逐一點選下一步。', items: [
           { title: '主張', body: '數碼資源服務的人比紙本書更多。' },
           { title: '實體限制', body: '一本實體書通常一次只能借給一人。' },
           { title: '數碼對比', body: '電子書、期刊和資料庫可多人同時在家取用。' },
           { title: '受惠者', body: '學生、輪班工作者及長者不一定能經常到館。' },
           { title: '具體例子', body: '學生可在幾分鐘內搜尋期刊，免去多次到訪。' },
-          { title: '段落收束', body: '科技讓圖書館突破自身牆壁。' },
-        ], why: '先立主張，再比較限制，指出受惠者，以例子具體化，最後收束。' },
+          { title: '段落結論', body: '科技讓圖書館突破自身牆壁。' },
+        ], why: '先立主張，再比較限制，指出受惠者，以例子具體化，最後結論。' },
         { type: 'sequence', prompt: '第二主體段：圖書館如何成為數碼學習中心？', detail: '逐一點選下一步。', items: [
           { title: '主張', body: '現代圖書館應培養實用數碼技能。' },
           { title: '現代需要', body: '教育、就業及公共服務仰賴網上資訊能力。' },
           { title: '圖書館做法', body: '投資電腦、媒體室、網上目錄及受訓職員。' },
           { title: '具體使用者', body: '兒童、求職者與成年人各有實際用途。' },
           { title: '排除替代', body: '單靠更多紙本書無法滿足這些需要。' },
-          { title: '形象化收束', body: '只加紙本書，就像需要電燈時仍在增加蠟燭。' },
+          { title: '形象化結論', body: '只加紙本書，就像需要電燈時仍在增加蠟燭。' },
         ], why: '先說需要，提出圖書館的實際做法，再舉受惠者，最後用蠟燭比喻強化主張。' },
       ],
     },
@@ -69,14 +69,6 @@
       rounds: support.structures.map(frame => ({ ...frame, type: 'structure', prompt: frame.context, why: frame.explanations[0] })),
     },
     {
-      icon: '↗', title: '簡單英文重述', en: 'RETELL THE ARGUMENT', description: '從一個意思開始，用簡單英文說清楚，再連成一段及整篇論證。毋須逐字背簡化版本。',
-      rounds: [
-        ...sentences.map((sentence, sentenceIndex) => ({ type: 'retell', sentenceIndices: [sentenceIndex], prompt: `第 ${sentenceIndex + 1} 句 · 用簡單英文說出意思`, cue: sentence.chinese })),
-        ...[0, 1, 2, 3].map(paragraph => ({ type: 'retell', sentenceIndices: byParagraph(paragraph).map(s => s.globalIndex), prompt: `${['開場','第一主體段','第二主體段','總結'][paragraph]} · 連起論點`, cue: byParagraph(paragraph).map(s => s.chinese).join('\n') })),
-        { type: 'retell', sentenceIndices: sentences.map((_, i) => i), prompt: '用簡單英文重述整篇論證', cue: '立場：科技優先。\n理由一：讓更多人取得資料；比較實體限制與在家取用，說出受惠者及例子。\n理由二：培養實用技能；說出生活需要、圖書館做法及使用者例子。\n總結：單靠更多紙本書不足；重申更廣服務、更有效率及切合今天需要。' },
-      ],
-    },
-    {
       icon: '✦', title: '原文重組', en: 'EXACT WORDING', description: '按意思小節逐句拼回原文。',
       rounds: sentences.map((sentence, sentenceIndex) => ({ type: 'precision', sentenceIndex, prompt: `第 ${sentenceIndex + 1} / ${sentences.length} 句 · ${sentence.role}`, detail: '點選意思小節，接回完整原句。', why: '已還原此句。' })),
     },
@@ -86,7 +78,7 @@
     {
       icon: '◉', title: '中階填空朗讀', en: 'RECORDED RECALL', description: '使用填充練習的中階遮字；補回空格並錄下完整一句，儲存後核對。', rounds: sentences.map((sentence,i)=>({type:'speaking',guided:false,sentenceIndices:[i],text:sentence.english,prompt:`第 ${i+1} 句 · 中階填空與整句錄音`})),
     },
-    {icon:'↗',title:'跨主題論證應用',en:'TRANSFER THE LOGIC',description:'把兩段的主張、限制、做法、例子及收束運用到其他主題。',rounds:support.transfer.map(item=>({...item,type:'quiz'}))},
+    {icon:'↗',title:'跨主題論證應用',en:'TRANSFER THE LOGIC',description:'把兩段的主張、限制、做法、例子及結論運用到其他主題。',rounds:support.transfer.map(item=>({...item,type:'quiz'}))},
   ];
 
   function speakingRounds(guided) {
@@ -100,14 +92,26 @@
   }
 
   const totalRounds = stageDefinitions.reduce((count, stage) => count + stage.rounds.length, 0);
-  const storageKey = 'edmund-essay80-memory-active-v3';
+  const storageKey = 'edmund-essay80-memory-active-v4';
   const saved = (() => {
     try {
       const current = JSON.parse(localStorage.getItem(storageKey) || 'null');
       if (current) return current;
-      const old = JSON.parse(localStorage.getItem('edmund-essay80-memory-scaffold-v2') || '{}');
-      const solved = Object.fromEntries(Object.entries(old.solved||{}).filter(([key])=>[0,1,2,3,8].includes(Number(key.split(':')[0]))));
-      // Earlier self-certification does not count as checked reconstruction or saved recording.
+      const previous=JSON.parse(localStorage.getItem('edmund-essay80-memory-active-v3') || 'null');
+      if(previous){
+        const solved={};
+        Object.entries(previous.solved||{}).forEach(([key,value])=>{
+          const [stage,step]=key.split(':').map(Number);
+          // Removed retelling and rewritten transfer exercises do not transfer completion.
+          if(stage===7 || stage===11)return;
+          solved[`${stage>7?stage-1:stage}:${step}`]=value;
+        });
+        const oldStage=Number(previous.stage)||0;
+        return {stage:oldStage===7?5:oldStage>7?oldStage-1:oldStage,round:[7,11].includes(oldStage)?0:previous.round||0,solved};
+      }
+      const old=JSON.parse(localStorage.getItem('edmund-essay80-memory-scaffold-v2') || '{}');
+      const solved={};
+      Object.entries(old.solved||{}).forEach(([key,value])=>{const [stage,step]=key.split(':').map(Number);if([0,1,2,3,8].includes(stage))solved[`${stage===8?7:stage}:${step}`]=value;});
       return {stage:0,round:0,solved};
     } catch { return {}; }
   })();
@@ -201,7 +205,7 @@
   }
   function renderQuiz(item) {
     const indices = orderedSeed(item.options.length, state.stage * 43 + state.round * 17);
-    return `<div class="question-intro"><span class="question-mark">?</span><div><p class="question-label">SELECT THE BEST ANSWER</p><h3>${escapeHtml(item.prompt)}</h3>${item.detail ? `<p>${escapeHtml(item.detail)}</p>` : ''}</div></div><div class="choice-grid">${indices.map(index => `<button class="choice-card" type="button" data-choice="${index}"><span class="choice-symbol" aria-hidden="true">${String.fromCharCode(65 + indices.indexOf(index))}</span><span>${escapeHtml(item.options[index])}</span><span class="choice-arrow" aria-hidden="true">↗</span></button>`).join('')}</div>`;
+    return `<div class="question-intro"><span class="question-mark">?</span><div><p class="question-label">SELECT THE BEST ANSWER</p><h3>${item.context?`<span class="transfer-context">${escapeHtml(item.context)}</span><span class="transfer-question">${escapeHtml(item.question)}</span>`:escapeHtml(item.prompt)}</h3>${item.detail ? `<p>${escapeHtml(item.detail)}</p>` : ''}</div></div><div class="choice-grid">${indices.map(index => `<button class="choice-card" type="button" data-choice="${index}"><span class="choice-symbol" aria-hidden="true">${String.fromCharCode(65 + indices.indexOf(index))}</span><span>${escapeHtml(item.options[index])}</span><span class="choice-arrow" aria-hidden="true">↗</span></button>`).join('')}</div>`;
   }
   function renderMulti(item) {
     const indices = orderedSeed(item.options.length, 29);
@@ -240,7 +244,8 @@
     return `<p class="question-label">第 ${item.source.paragraph} 段 · 第 ${item.source.sentence} 句</p><p class="support-source">${escapeHtml(source.english)}</p><h3 class="structure-frame">${escapeHtml(item.frame)}</h3><div class="structure-parts">${item.parts.map(p=>`<span class="structure-part ${p.kind}">${escapeHtml(p.text)}<small>${p.kind==='slot'?'換入符合這個意思的內容':'連接／句型固定部分'}</small></span>`).join('')}</div><div class="support-notes"><p><strong>意思：</strong>${escapeHtml(item.meaning)}</p><p><strong>功能與使用時機：</strong>${escapeHtml(item.usage)}</p>${item.contextNote?`<p>${escapeHtml(item.contextNote)}</p>`:''}</div>${renderQuiz(item)}<p class="support-notes">四句來自不同情境；選出句型所表達的關係與內容一致的一句。</p>`;
   }
   const savedRecordings=new Set();
-  const recordingId=()=>`essay80-${roundKey().replace(':','-')}`;
+  // Keep saved recording identifiers stable when the repeated stage is removed.
+  const recordingId=()=>`essay80-${state.stage>=7?state.stage+1:state.stage}-${state.round}`;
   const recordingReceipt=()=>`${window.EdmundSystemNav?.getStudentSession?.()?.token || 'guest'}:${recordingId()}`;
   function mediumMask(text) {
     const phrases=[...essay.mediumAnswers].sort((a,b)=>b.length-a.length);
@@ -261,7 +266,7 @@
     const item = round();
     const card = $('#game-card');
     card.classList.remove('card-enter','is-correct'); void card.offsetWidth; card.classList.add('card-enter');
-    card.innerHTML = item.type === 'quiz' ? renderQuiz(item) : item.type === 'structure' ? renderStructure(item) : item.type === 'vocabulary' ? renderVocabulary(item) : item.type==='retell' ? renderBuild(item) : item.type==='speaking' ? renderSpeaking(item) : item.type === 'multi' ? renderMulti(item) : renderSequence(item, item.type === 'precision');
+    card.innerHTML = item.type === 'quiz' ? renderQuiz(item) : item.type === 'structure' ? renderStructure(item) : item.type === 'vocabulary' ? renderVocabulary(item) : item.type==='speaking' ? renderSpeaking(item) : item.type === 'multi' ? renderMulti(item) : renderSequence(item, item.type === 'precision');
     save();
   }
   function celebrate() {
@@ -278,6 +283,10 @@
     feedback(selfCheck ? '錄音已儲存。請在「我的錄音」重聽；口說內容不會由系統自動評分。' : `答對了！${round().why || '你已接上這一段記憶。'}`, 'success');
     $('#game-card').classList.add('is-correct');
     $('#game-card').querySelectorAll('button').forEach(button => { button.disabled = true; });
+    if(round().modelLink){
+      const q=round();
+      $('#game-card').insertAdjacentHTML('beforeend',`<section class="model-connection"><h4>這題怎樣應用範文的論證？</h4><p>${escapeHtml(q.modelLink)}</p><details><summary>對照範文原句</summary>${q.sourceSentenceIndices.map(i=>`<blockquote><small>第 ${sentences[i].paragraph+1} 段 · 第 ${sentences[i].index+1} 句</small><p>${escapeHtml(sentences[i].english)}</p></blockquote>`).join('')}</details></section>`);
+    }
     $('#game-card').insertAdjacentHTML('beforeend', '<button class="primary-button support-next" data-continue>下一小步 →</button>');
     if (!selfCheck) celebrate();
   }
@@ -306,9 +315,9 @@
     renderRail(); renderHeader();
     $('#stage-kicker').textContent = 'JOURNEY COMPLETE';
     $('#play-title').textContent = '你已走完 Essay 80 的記憶路線';
-    $('#stage-description').textContent = '你已完成字詞、句型、簡單英文重述，以及分小步的有提示與中階填空朗讀。';
-    $('#round-number').textContent = '十二個關卡完成';
-    $('#game-card').innerHTML = `<div class="ending"><div class="ending-star" aria-hidden="true">✦</div><p class="question-label">JOURNEY COMPLETE</p><h3>你已完成所有朗讀小步與重述核對。</h3><p>現在可嘗試一次過背出整篇：先說出立場及兩條理由，再依次講出兩段細節、例子與收束，最後逐句還原英文。你可以重玩任何關卡，或回原範文頁聽完整錄音。</p><div class="ending-actions"><button class="primary-button" type="button" data-replay>重玩原文重組 ↺</button><a class="secondary-button" href="writing-practice.html?exercise=model-essay-80-ielts-opinion">對照原範文 ↗</a></div></div>`;
+    $('#stage-description').textContent = '你已完成字詞、句型、雙向句子重組，以及分小步的有提示與中階填空朗讀。';
+    $('#round-number').textContent = '十一個關卡完成';
+    $('#game-card').innerHTML = `<div class="ending"><div class="ending-star" aria-hidden="true">✦</div><p class="question-label">JOURNEY COMPLETE</p><h3>你已完成所有朗讀小步與跨主題論證練習。</h3><p>現在可嘗試一次過背出整篇：先說出立場及兩條理由，再依次講出兩段細節、例子與結論，最後逐句還原英文。你可以重玩任何關卡，或回原範文頁聽完整錄音。</p><div class="ending-actions"><button class="primary-button" type="button" data-replay>重玩原文重組 ↺</button><a class="secondary-button" href="writing-practice.html?exercise=model-essay-80-ielts-opinion">對照原範文 ↗</a></div></div>`;
     feedback('完成！朗讀及重述為自行核對，系統不會自動判定口說準確度。', 'success');
   }
 
@@ -366,9 +375,9 @@
     } else if (button.hasAttribute('data-speaking-done')) {
       if(savedRecordings.has(recordingReceipt())) succeed(true);
     } else if (button.hasAttribute('data-guided-help')) {
-      state.stage=9;state.checks=[];state.revealTranslation=false;render();
+      state.stage=8;state.checks=[];state.revealTranslation=false;render();
     } else if (button.hasAttribute('data-replay')) {
-      state.stage = 8; state.round = 0; state.selection = []; state.hadMistake = false; state.revealTranslation = false; render();
+      state.stage = 7; state.round = 0; state.selection = []; state.hadMistake = false; state.revealTranslation = false; render();
     }
   });
   $('#stage-rail').addEventListener('click', event => {

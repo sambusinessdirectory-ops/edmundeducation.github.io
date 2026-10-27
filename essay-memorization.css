@@ -21,3 +21,13 @@
 .table-scroll {overflow-x:auto;max-width:100%;}
 .recording-practice {display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin-block:22px;}
 .recording-status {color:#21664f;}
+
+.transfer-context,.transfer-question {display:block;}
+.transfer-context {font-size:.78em;line-height:1.5;color:#55756b;margin-bottom:.6em;font-weight:500;}
+.transfer-question {line-height:1.5;text-wrap:pretty;}
+.model-connection {background:#eef5f0;border-left:4px solid #418774;padding:22px;margin-top:24px;border-radius:12px;}
+.model-connection h4 {margin:0 0 12px;font-size:1.12rem;}
+.model-connection p {line-height:1.8;}
+.model-connection blockquote {margin:18px 0;padding-left:18px;border-left:2px solid #bacfc5;}
+.model-connection small {display:block;color:#55756b;}
+.score-explanation {font-size:.8rem;line-height:1.6;color:#55756b;margin:8px 0 18px;}

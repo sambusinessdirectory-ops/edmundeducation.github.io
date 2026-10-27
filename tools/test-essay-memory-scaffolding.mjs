@@ -17,3 +17,10 @@ assert.equal(support.transfer.length,16);for(const q of support.transfer){assert
 assert.equal(essay.mediumAnswers.length,45);
 const html=fs.readFileSync('essay-memorization.html','utf8');assert(!html.includes('hero-orbit'));assert(!html.includes('全程只需點選'));assert(html.includes('shared-system-nav.js'));
 console.log('PASS: 16 unchanged original sentences, <=12-word chunks, expanded contextual alternatives, exact word timestamps and canonical medium blanks, 22 source-linked four-choice structures.');
+
+for(const q of support.transfer){
+ assert(q.context&&q.question&&q.modelLink);assert.equal(q.explanations.length,4);
+ assert(q.sourceSentenceIndices.length);assert(q.sourceSentenceIndices.every(i=>essay.sentences[i]));
+ const lengths=q.options.map(o=>o.split(/\s+/).length);assert(Math.max(...lengths)-Math.min(...lengths)<=2,'No obvious answer-length cue');
+}
+for(const file of ['essay-memorization.js','essay-80-learning-support.js','essay-80-memory-data.js','essay-memorization.html'])assert(!fs.readFileSync(file,'utf8').includes('收束'));
