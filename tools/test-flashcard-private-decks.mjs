@@ -19,7 +19,9 @@ const seedContext = { window: {} };
 vm.runInNewContext(seedScript, seedContext);
 const seedDecks = Object.fromEntries(Object.entries(seedContext.window.EDMUND_FLASHCARD_SEED)
   .filter(([id]) => id.startsWith("custom-setup/")));
-assert.equal(Object.values(seedDecks).reduce((sum, cards) => sum + cards.length, 0), 231);
+assert.equal(Object.values(seedDecks).reduce((sum, cards) => sum + cards.length, 0), 295);
+assert.equal(seedDecks["custom-setup/the-last-train"].length, 64);
+assert.ok(seedDecks["custom-setup/the-last-train"].every(card => card.front && card.meaning && card.examples.length === 5 && card.examples.every(example => example.en && example.zh)));
 const sunnySeedSource = readFileSync(new URL("../flashcards-sunny-s3-grammar-book-data.js", import.meta.url), "utf8");
 vm.runInNewContext(sunnySeedSource, seedContext);
 const sunnySeed = seedContext.window.EDMUND_SUNNY_S3_GRAMMAR_BOOK_SEED;
@@ -124,31 +126,36 @@ const harness = Function("seedDecks", "store", "attempts", `
 for (const name of [null, "Other student", "Jayden Jr", "jayden-not-owner"]) {
   harness.login(name);
   assert.equal(harness.deckCardCount("custom-setup"), 0);
-  assert.doesNotMatch(harness.deckMetaHtml("custom-setup"), /231|卡片：|嘗試：|綠勾：|紅叉：/);
+  assert.doesNotMatch(harness.deckMetaHtml("custom-setup"), /295|卡片：|嘗試：|綠勾：|紅叉：/);
   assert.match(harness.deckMetaHtml("custom-setup"), /暫時未有你的專屬卡組/);
   assert.equal(harness.canAccessDeck("custom-setup/sprint-text-1"), false);
+  assert.equal(harness.canAccessDeck("custom-setup/the-last-train"), false);
+  assert.equal(harness.getDeckCards("custom-setup/the-last-train").length, 0);
   assert.equal(harness.getDeckCards("custom-setup/sprint-text-1").length, 0);
   assert.equal(harness.getKnownDeckIds().some(id => id.startsWith("custom-setup/")), false);
   assert.equal(harness.deckIsSearchable("custom-setup"), false);
-  assert.doesNotMatch(harness.renderCustomSetup(), /Sprint|Jayden|data-open-deck/);
+  assert.doesNotMatch(harness.renderCustomSetup(), /Sprint|The Last Train|Jayden|data-open-deck/);
 }
 
 harness.login("Jayden");
-assert.equal(harness.deckCardCount("custom-setup"), 231);
-assert.match(harness.deckMetaHtml("custom-setup"), /卡片：231/);
-assert.equal(harness.customSetupDecksForStudent().length, 2);
+assert.equal(harness.deckCardCount("custom-setup"), 295);
+assert.match(harness.deckMetaHtml("custom-setup"), /卡片：295/);
+assert.equal(harness.customSetupDecksForStudent().length, 3);
+assert.equal(harness.canAccessDeck("custom-setup/the-last-train"), true);
+assert.equal(harness.getDeckCards("custom-setup/the-last-train").length, 64);
 assert.equal(harness.canAccessDeck("custom-setup/sprint-text-1"), true);
 assert.equal(harness.deckCardCount("custom-setup/unassigned"), 0, "unassigned custom decks fail closed");
 assert.equal(harness.deckCardCount("student-custom"), 3, "self-made card totals belong to the current account");
 assert.equal(harness.getDeckCards("student-custom/mia/one").length, 0);
 assert.equal(harness.attemptStatsForPrefix("custom-setup").count, 1);
-assert.deepEqual(harness.familiarityStatsForPrefix("custom-setup"), { green: 2, red: 2 });
+assert.deepEqual(harness.familiarityStatsForPrefix("custom-setup"), { green: 3, red: 3 });
 assert.match(harness.renderCustomSetup(), /Sprint - Text 1/);
+assert.match(harness.renderCustomSetup(), /The Last Train/);
 
 harness.login("Mia");
 assert.equal(harness.deckCardCount("custom-setup"), 0, "switching accounts must not reuse Jayden's count");
 assert.equal(harness.deckCardCount("student-custom"), 8);
-assert.doesNotMatch(harness.rerenderCustomSetup(), /Sprint|Jayden/, "saved view factories must re-check the active account");
+assert.doesNotMatch(harness.rerenderCustomSetup(), /Sprint|The Last Train|Jayden/, "saved view factories must re-check the active account");
 assert.deepEqual(harness.familiarityStatsForPrefix("custom-setup"), { green: 0, red: 0 });
 assert.equal(harness.attemptStatsForPrefix("custom-setup").count, 0);
 assert.equal(harness.isDeckCompleted("custom-setup"), false);
@@ -163,7 +170,7 @@ assert.match(harness.renderCustomSetup(), /Mia Text/);
 assert.doesNotMatch(harness.renderCustomSetup(), /Sprint/);
 
 harness.login(" JAYDEN ");
-assert.equal(harness.deckCardCount("custom-setup"), 231, "existing username normalization remains supported");
+assert.equal(harness.deckCardCount("custom-setup"), 295, "existing username normalization remains supported");
 harness.login("Admin", "admin");
 assert.equal(harness.getDeckCards("custom-setup/sprint-text-1").length > 0, true, "admin management access is preserved");
 assert.deepEqual(harness.familiarityStatsForPrefix("custom-setup", "Mia"), { green: 1, red: 1 });

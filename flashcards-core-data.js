@@ -60701,6 +60701,1736 @@ Object.assign(window.EDMUND_FLASHCARD_SEED, {
             "sourcePage": 26
       }
 ],
+  "custom-setup/the-last-train":   [
+    {
+      "front": "take the last train home",
+      "meaning": "乘搭尾班火車回家",
+      "examples": [
+        {
+          "en": "Ron Green was taking the last train home from Bonnington to Chisley.",
+          "zh": "羅恩・格林乘搭尾班火車，從邦寧頓返回奇斯利的家。"
+        },
+        {
+          "en": "To take the last train home means to travel home on the final train of the day.",
+          "zh": "take the last train home 指乘搭當天最後一班火車回家。"
+        },
+        {
+          "en": "I left the office late and had to take the last train home.",
+          "zh": "我很晚才離開辦公室，只好乘搭尾班火車回家。"
+        },
+        {
+          "en": "If you miss the last bus, you may need to take the last train home instead.",
+          "zh": "如果你錯過尾班巴士，可能要改乘尾班火車回家。"
+        },
+        {
+          "en": "People who take the last train home often check the timetable carefully so they are not stranded.",
+          "zh": "乘搭尾班火車回家的人通常會仔細查看時間表，以免沒有交通工具可乘。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "check one’s watch",
+      "meaning": "看手錶；查看時間",
+      "examples": [
+        {
+          "en": "The rain began hitting the carriage window as he checked his watch: 23.45.",
+          "zh": "他看錶時，雨點開始打在車廂窗上：23時45分。"
+        },
+        {
+          "en": "To check your watch means to look at it to find out the time.",
+          "zh": "check your watch 指看手錶以知道現在的時間。"
+        },
+        {
+          "en": "Mia checked her watch because the lesson was supposed to end at three.",
+          "zh": "米婭看了看手錶，因為課堂本應在三時結束。"
+        },
+        {
+          "en": "If you are worried about being late, you may keep checking your watch.",
+          "zh": "如果你擔心遲到，可能會不停看手錶。"
+        },
+        {
+          "en": "The driver checked his watch before leaving the station exactly on time.",
+          "zh": "司機在準時離開車站前看了看手錶。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "still ages to go",
+      "meaning": "還要很久；還有很長一段路",
+      "examples": [
+        {
+          "en": "‘Still ages to go,’ he muttered grumpily.",
+          "zh": "「還要很久才到。」他不耐煩地嘟囔。"
+        },
+        {
+          "en": "“Still ages to go” means there is still a long time or distance before reaching the end.",
+          "zh": "still ages to go 指距離完成或抵達仍有很長時間或路程。"
+        },
+        {
+          "en": "We had been walking for an hour, but there were still ages to go before the top.",
+          "zh": "我們已走了一小時，但距離山頂仍有很長一段路。"
+        },
+        {
+          "en": "When a journey feels slow, passengers may complain that there are still ages to go.",
+          "zh": "當旅程感覺很慢時，乘客可能會抱怨還要很久才到。"
+        },
+        {
+          "en": "The project is improving, but there are still ages to go before it is ready to launch.",
+          "zh": "計劃雖然正在改善，但距離正式推出仍有很長一段路。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "mutter grumpily",
+      "meaning": "不耐煩地嘟囔",
+      "examples": [
+        {
+          "en": "‘Still ages to go,’ he muttered grumpily.",
+          "zh": "「還要很久才到。」他不耐煩地嘟囔。"
+        },
+        {
+          "en": "To mutter grumpily means to speak quietly in an annoyed or bad-tempered way.",
+          "zh": "mutter grumpily 指帶着不滿或壞脾氣低聲說話。"
+        },
+        {
+          "en": "Ben muttered grumpily about having to clean his room again.",
+          "zh": "本不耐煩地嘟囔，抱怨又要收拾房間。"
+        },
+        {
+          "en": "Tired customers may mutter grumpily when a queue hardly moves.",
+          "zh": "隊伍幾乎沒有前進時，疲倦的顧客可能會不耐煩地嘟囔。"
+        },
+        {
+          "en": "Instead of complaining loudly, she muttered grumpily under her breath.",
+          "zh": "她沒有大聲抱怨，只是在嘴邊不耐煩地嘟囔。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "go a bit faster",
+      "meaning": "快一點；加快一點速度",
+      "examples": [
+        {
+          "en": "‘Can't we go a bit faster?’",
+          "zh": "「就不能開快一點嗎？」"
+        },
+        {
+          "en": "To go a bit faster means to increase speed slightly.",
+          "zh": "go a bit faster 指稍微提高速度。"
+        },
+        {
+          "en": "We need to go a bit faster or we will miss the bus.",
+          "zh": "我們要快一點，否則會趕不上巴士。"
+        },
+        {
+          "en": "A cyclist may go a bit faster when the road becomes clear.",
+          "zh": "道路暢通時，單車手可能會稍微加快速度。"
+        },
+        {
+          "en": "Going a bit faster can save time, but it is not worth ignoring safety rules.",
+          "zh": "快一點可以節省時間，但不值得因此忽視安全規則。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "the only other soul",
+      "meaning": "唯一的另一個人",
+      "examples": [
+        {
+          "en": "The only other soul in the carriage was a man several rows ahead.",
+          "zh": "車廂裏除了他，就只有幾排座位前的一名男子。"
+        },
+        {
+          "en": "“The only other soul” means the only other person present in a place.",
+          "zh": "the only other soul 指某個地方裏唯一的另一個人。"
+        },
+        {
+          "en": "At six in the morning, the only other soul in the café was the cleaner.",
+          "zh": "清晨六時，咖啡店裏唯一的另一個人是清潔工。"
+        },
+        {
+          "en": "An empty building can feel unsettling when the only other soul there is a stranger.",
+          "zh": "當空蕩蕩的大樓裏唯一的另一個人是陌生人時，氣氛可能令人不安。"
+        },
+        {
+          "en": "She thought she was alone until she noticed the only other soul in the waiting room.",
+          "zh": "她原以為自己獨自一人，後來才注意到候診室裏唯一的另一個人。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "several rows ahead",
+      "meaning": "前面幾排",
+      "examples": [
+        {
+          "en": "The only other soul in the carriage was a man several rows ahead.",
+          "zh": "車廂裏唯一的另一名男子坐在羅恩前面幾排。"
+        },
+        {
+          "en": "“Several rows ahead” means a few rows in front of someone.",
+          "zh": "several rows ahead 指在某人前方幾排的位置。"
+        },
+        {
+          "en": "My teacher was sitting several rows ahead of me in the theatre.",
+          "zh": "在劇院裏，我的老師坐在我前面幾排。"
+        },
+        {
+          "en": "If your friend is several rows ahead, you may have to wave to get their attention.",
+          "zh": "如果朋友坐在你前面幾排，你可能要揮手才能引起他的注意。"
+        },
+        {
+          "en": "From several rows ahead, the child turned around and smiled at his parents.",
+          "zh": "那孩子從前面幾排轉過頭來，向父母微笑。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "face away from someone",
+      "meaning": "背對某人",
+      "examples": [
+        {
+          "en": "The man was several rows ahead, facing away from him.",
+          "zh": "那名男子坐在前面幾排，背對着羅恩。"
+        },
+        {
+          "en": "To face away from someone means to have your back turned towards that person.",
+          "zh": "face away from someone 指背部朝向某人。"
+        },
+        {
+          "en": "Leo was facing away from me, so he did not see me wave.",
+          "zh": "利奧背對着我，所以沒有看到我揮手。"
+        },
+        {
+          "en": "A person may face away from the door while concentrating on a computer screen.",
+          "zh": "一個人專心看電腦螢幕時，可能會背對房門。"
+        },
+        {
+          "en": "If someone is facing away from you, you may need to call their name to get their attention.",
+          "zh": "如果某人背對着你，你可能要叫他的名字才能引起注意。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "a black baseball cap",
+      "meaning": "黑色棒球帽",
+      "examples": [
+        {
+          "en": "The man was wearing a black baseball cap and red sweatshirt.",
+          "zh": "那人戴着黑色棒球帽，穿着紅色衛衣。"
+        },
+        {
+          "en": "A black baseball cap is a casual cap with a curved or flat front peak.",
+          "zh": "黑色棒球帽是一種前方有帽舌的休閒帽。"
+        },
+        {
+          "en": "The boy wore a black baseball cap to keep the sun out of his eyes.",
+          "zh": "男孩戴上黑色棒球帽，避免陽光照到眼睛。"
+        },
+        {
+          "en": "A black baseball cap can make someone easier to recognise in a crowd.",
+          "zh": "黑色棒球帽可以令人在人群中更容易被認出。"
+        },
+        {
+          "en": "She took off her black baseball cap when she entered the restaurant.",
+          "zh": "她進入餐廳時脫下了黑色棒球帽。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "a red sweatshirt",
+      "meaning": "紅色衛衣",
+      "examples": [
+        {
+          "en": "The man was wearing a black baseball cap and red sweatshirt.",
+          "zh": "那人戴着黑色棒球帽，穿着紅色衛衣。"
+        },
+        {
+          "en": "A red sweatshirt is a warm, casual top, usually made of thick soft material.",
+          "zh": "紅色衛衣是一種通常由厚而柔軟物料製成的休閒上衣。"
+        },
+        {
+          "en": "Nina wore a red sweatshirt because the evening was cold.",
+          "zh": "晚上天氣寒冷，所以妮娜穿了一件紅色衛衣。"
+        },
+        {
+          "en": "A bright red sweatshirt can make a person easy to spot in a station.",
+          "zh": "鮮紅色衛衣可以令人在人多的車站裏容易被看見。"
+        },
+        {
+          "en": "He changed into a red sweatshirt after finishing football practice.",
+          "zh": "他踢完足球後換上了一件紅色衛衣。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "an ordinary choice of outfit",
+      "meaning": "平凡的衣着選擇",
+      "examples": [
+        {
+          "en": "Despite his very ordinary choice of outfit, something about the man gave Ron a sense of déjà vu.",
+          "zh": "衣着雖然十分平凡，羅恩卻總覺得那人似曾相識。"
+        },
+        {
+          "en": "An ordinary choice of outfit means clothes that look normal and do not attract much attention.",
+          "zh": "an ordinary choice of outfit 指看起來普通、不太引人注目的衣着。"
+        },
+        {
+          "en": "Jeans and a plain T-shirt were an ordinary choice of outfit for the school trip.",
+          "zh": "牛仔褲和普通T恤是學校旅行很平常的衣着選擇。"
+        },
+        {
+          "en": "An ordinary choice of outfit can help someone blend into a crowd.",
+          "zh": "平凡的衣着可以令人更容易融入人群。"
+        },
+        {
+          "en": "His clothes were an ordinary choice of outfit, but his unusual behaviour made people notice him.",
+          "zh": "他的衣着很平凡，但不尋常的行為仍然引起別人注意。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "despite…",
+      "meaning": "儘管……；雖然……",
+      "examples": [
+        {
+          "en": "Despite his very ordinary choice of outfit, something about the man gave Ron a sense of déjà vu.",
+          "zh": "儘管那人的衣着十分平凡，羅恩卻覺得他似曾相識。"
+        },
+        {
+          "en": "“Despite” introduces something that does not prevent another thing from happening.",
+          "zh": "despite 用來表示某件事情雖然存在，卻沒有阻止另一件事情發生。"
+        },
+        {
+          "en": "Despite the heavy rain, the football match continued.",
+          "zh": "儘管下着大雨，足球比賽仍然繼續。"
+        },
+        {
+          "en": "Despite feeling tired, Maya finished her homework before bed.",
+          "zh": "儘管感到疲倦，瑪雅仍在睡前完成了功課。"
+        },
+        {
+          "en": "The shop remained busy despite its higher prices.",
+          "zh": "儘管價格較高，那間店仍然很繁忙。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "give someone a sense of déjà vu",
+      "meaning": "令某人有似曾相識的感覺",
+      "examples": [
+        {
+          "en": "Something about the man gave Ron a sense of déjà vu.",
+          "zh": "那名男子令羅恩有一種似曾相識的感覺。"
+        },
+        {
+          "en": "To give someone a sense of déjà vu means to make them feel that they have experienced the same thing before.",
+          "zh": "give someone a sense of déjà vu 指令人覺得眼前的事情好像以前曾經發生過。"
+        },
+        {
+          "en": "Walking into the old classroom gave me a strange sense of déjà vu.",
+          "zh": "走進舊課室令我產生奇怪的似曾相識感。"
+        },
+        {
+          "en": "A familiar voice may give someone a sense of déjà vu even when they cannot remember where they heard it.",
+          "zh": "熟悉的聲音可能令人產生似曾相識的感覺，即使想不起在哪裏聽過。"
+        },
+        {
+          "en": "The scene gave Ella a sense of déjà vu, as though she had dreamed about it before.",
+          "zh": "那個場景令艾拉覺得似曾相識，彷彿以前曾在夢中見過。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "call over",
+      "meaning": "朝某人喊話",
+      "examples": [
+        {
+          "en": "‘Excuse me?’ Ron called over.",
+          "zh": "「不好意思？」羅恩朝那人喊道。"
+        },
+        {
+          "en": "To call over means to speak loudly to someone who is some distance away.",
+          "zh": "call over 指向有一段距離的人提高聲音說話。"
+        },
+        {
+          "en": "Dad called over to us from the other side of the park.",
+          "zh": "爸爸從公園另一邊朝我們喊話。"
+        },
+        {
+          "en": "If someone cannot hear you across a busy room, you may need to call over to them.",
+          "zh": "如果繁忙房間另一邊的人聽不到你，你可能要朝他喊話。"
+        },
+        {
+          "en": "The teacher called over to the students near the gate and asked them to come back.",
+          "zh": "老師朝閘門附近的學生喊話，叫他們回來。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "tell oneself",
+      "meaning": "心想；告訴自己",
+      "examples": [
+        {
+          "en": "‘Must be asleep,’ Ron told himself.",
+          "zh": "「大概睡着了。」羅恩心想。"
+        },
+        {
+          "en": "To tell yourself something means to think or silently say something to yourself.",
+          "zh": "tell yourself something 指在心裏對自己說或想某件事。"
+        },
+        {
+          "en": "“Stay calm,” Nina told herself before the interview.",
+          "zh": "面試前，妮娜告訴自己：「保持冷靜。」"
+        },
+        {
+          "en": "People sometimes tell themselves that a problem is small so they will not worry too much.",
+          "zh": "人有時會告訴自己問題不嚴重，免得過分擔心。"
+        },
+        {
+          "en": "I told myself to check my work once more before submitting it.",
+          "zh": "我告訴自己，在提交前要再檢查一次。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "must be asleep",
+      "meaning": "一定／大概睡着了",
+      "examples": [
+        {
+          "en": "‘Must be asleep,’ Ron told himself.",
+          "zh": "「大概睡着了。」羅恩心想。"
+        },
+        {
+          "en": "“Must be asleep” expresses a strong guess that someone is sleeping.",
+          "zh": "must be asleep 用來表示很有把握地推測某人正在睡覺。"
+        },
+        {
+          "en": "The baby is completely quiet, so she must be asleep.",
+          "zh": "嬰兒完全沒有聲音，所以她一定睡着了。"
+        },
+        {
+          "en": "If Jack is not answering his phone at midnight, he may simply be asleep.",
+          "zh": "如果傑克午夜沒有接電話，他可能只是睡着了。"
+        },
+        {
+          "en": "The lights are off and nobody is moving; they must be asleep already.",
+          "zh": "燈已關掉，也沒有人走動；他們大概已經睡着了。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "the gentle rocking of the train",
+      "meaning": "火車輕輕搖晃",
+      "examples": [
+        {
+          "en": "The gentle rocking of the train lulled him, too, into sleep.",
+          "zh": "火車輕輕搖晃，也把他哄睡了。"
+        },
+        {
+          "en": "The gentle rocking of a train is its soft, repeated movement from side to side or back and forth.",
+          "zh": "the gentle rocking of the train 指火車輕柔而重複地前後或左右晃動。"
+        },
+        {
+          "en": "The gentle rocking of the train made the baby calm.",
+          "zh": "火車輕輕搖晃，令嬰兒安靜下來。"
+        },
+        {
+          "en": "After a long day, the gentle rocking of the train can make passengers sleepy.",
+          "zh": "經過漫長的一天後，火車輕輕搖晃很容易令人想睡。"
+        },
+        {
+          "en": "She enjoyed the gentle rocking of the train while watching the countryside pass by.",
+          "zh": "她一邊看着鄉郊景色掠過，一邊享受火車輕輕搖晃。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "lull someone into sleep",
+      "meaning": "哄某人入睡；使某人漸漸睡着",
+      "examples": [
+        {
+          "en": "The gentle rocking of the train lulled him, too, into sleep.",
+          "zh": "火車輕輕搖晃，也把羅恩哄睡了。"
+        },
+        {
+          "en": "To lull someone into sleep means to make them gradually fall asleep through a soft sound or movement.",
+          "zh": "lull someone into sleep 指透過柔和聲音或動作使某人漸漸入睡。"
+        },
+        {
+          "en": "The sound of rain lulled the child into sleep.",
+          "zh": "雨聲把孩子哄睡了。"
+        },
+        {
+          "en": "Gentle music can lull a tired baby into sleep.",
+          "zh": "輕柔的音樂可以令疲倦的嬰兒漸漸睡着。"
+        },
+        {
+          "en": "The slow movement of the boat lulled several passengers into sleep.",
+          "zh": "船隻緩慢搖晃，使幾名乘客漸漸入睡。"
+        }
+      ],
+      "sourcePage": 1
+    },
+    {
+      "front": "the train jolted",
+      "meaning": "火車猛然一晃",
+      "examples": [
+        {
+          "en": "The train jolted and Ron's eyes sprang open.",
+          "zh": "火車猛然一晃，羅恩驟然睜眼。"
+        },
+        {
+          "en": "If a train jolts, it moves suddenly and roughly for a moment.",
+          "zh": "如果火車 jolts，就是它突然猛烈晃動一下。"
+        },
+        {
+          "en": "The bus jolted when the driver stopped suddenly.",
+          "zh": "司機突然煞車時，巴士猛然一晃。"
+        },
+        {
+          "en": "A train may jolt when it passes over a rough section of track.",
+          "zh": "火車經過不平整的路軌時可能會突然晃動。"
+        },
+        {
+          "en": "Everyone grabbed their seats when the carriage jolted unexpectedly.",
+          "zh": "車廂意外猛然一晃時，所有人都抓緊座位。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "one’s eyes sprang open",
+      "meaning": "猛然睜開眼睛",
+      "examples": [
+        {
+          "en": "Ron's eyes sprang open when the train jolted.",
+          "zh": "火車猛然一晃時，羅恩驟然睜開眼睛。"
+        },
+        {
+          "en": "If your eyes spring open, you open them suddenly, usually because you are surprised or frightened.",
+          "zh": "one's eyes spring open 指通常因驚訝或受驚而突然睜開眼睛。"
+        },
+        {
+          "en": "Mia's eyes sprang open when the alarm rang beside her bed.",
+          "zh": "鬧鐘在床邊響起時，米婭猛然睜開眼睛。"
+        },
+        {
+          "en": "A loud crash made the sleeping boy's eyes spring open.",
+          "zh": "一聲巨響令熟睡男孩猛然睜開眼睛。"
+        },
+        {
+          "en": "His eyes sprang open when he suddenly remembered the exam was that morning.",
+          "zh": "他突然想起考試就在當天早上，立即睜大眼睛。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "appear to be",
+      "meaning": "似乎是；看來是",
+      "examples": [
+        {
+          "en": "The man appeared to be a little closer now.",
+          "zh": "那名男子如今似乎靠近了一點。"
+        },
+        {
+          "en": "“Appear to be” means to seem to be something, although you may not be completely certain.",
+          "zh": "appear to be 指某事看來如此，但說話者未必完全確定。"
+        },
+        {
+          "en": "The road appears to be clear, but we should still drive carefully.",
+          "zh": "道路看來很暢通，但我們仍應小心駕駛。"
+        },
+        {
+          "en": "A student may appear to be confident even when feeling nervous inside.",
+          "zh": "一名學生即使內心緊張，也可能看起來很有信心。"
+        },
+        {
+          "en": "The problem appeared to be simple at first but was actually quite difficult.",
+          "zh": "問題起初看似簡單，實際上卻相當困難。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "fall back to sleep",
+      "meaning": "再次入睡",
+      "examples": [
+        {
+          "en": "Ron thought, and fell back to sleep.",
+          "zh": "羅恩想了想，然後又睡了過去。"
+        },
+        {
+          "en": "To fall back to sleep means to go to sleep again after waking up.",
+          "zh": "fall back to sleep 指醒來後再次睡着。"
+        },
+        {
+          "en": "I woke at four but quickly fell back to sleep.",
+          "zh": "我四時醒了一次，但很快又睡着了。"
+        },
+        {
+          "en": "A strange noise may wake you, but you can fall back to sleep once everything is quiet.",
+          "zh": "奇怪的聲音可能把你吵醒，但安靜下來後你可以再次入睡。"
+        },
+        {
+          "en": "The baby drank some milk and then fell back to sleep.",
+          "zh": "嬰兒喝了一點奶後又睡着了。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "awake once more",
+      "meaning": "再次醒來",
+      "examples": [
+        {
+          "en": "Five minutes later, he awoke once more.",
+          "zh": "五分鐘後，他再次醒來。"
+        },
+        {
+          "en": "To awake once more means to wake up again after having returned to sleep.",
+          "zh": "awake once more 指再次從睡眠中醒過來。"
+        },
+        {
+          "en": "She awoke once more when thunder shook the windows.",
+          "zh": "雷聲震動窗戶時，她再次醒來。"
+        },
+        {
+          "en": "If pain returns during the night, a patient may awake once more.",
+          "zh": "如果夜間疼痛再次出現，病人可能會再度醒來。"
+        },
+        {
+          "en": "He kept falling asleep and awaking once more throughout the journey.",
+          "zh": "整段旅程中，他不停睡着又再次醒來。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "just one row away",
+      "meaning": "只隔一排座位",
+      "examples": [
+        {
+          "en": "The man was now just one row away.",
+          "zh": "那名男子如今只隔着一排座位。"
+        },
+        {
+          "en": "“Just one row away” means separated from someone by only one row of seats.",
+          "zh": "just one row away 指與某人之間只相隔一排座位。"
+        },
+        {
+          "en": "My friends were just one row away from me at the concert.",
+          "zh": "音樂會上，我的朋友就在離我一排的位置。"
+        },
+        {
+          "en": "When someone moves from the back to just one row away, you notice that they are much closer.",
+          "zh": "當某人由後方移到只隔一排座位時，你會明顯感到他靠近了。"
+        },
+        {
+          "en": "The teacher sat just one row away, so the students lowered their voices.",
+          "zh": "老師只坐在一排之外，所以學生都壓低了聲音。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "speculate",
+      "meaning": "猜想；推測",
+      "examples": [
+        {
+          "en": "‘Perhaps his armrest was broken,’ Ron speculated.",
+          "zh": "「也許他的扶手壞了。」羅恩猜想。"
+        },
+        {
+          "en": "To speculate means to guess about something when you do not have enough facts to know for certain.",
+          "zh": "speculate 指在沒有足夠事實確定答案時作出猜測。"
+        },
+        {
+          "en": "People speculated that the shop had closed because the rent was too high.",
+          "zh": "人們猜測那間店關閉是因為租金太高。"
+        },
+        {
+          "en": "If nobody explains a sudden change, people often begin to speculate about the reason.",
+          "zh": "如果沒有人解釋突然的改變，人們往往會開始猜測原因。"
+        },
+        {
+          "en": "Scientists avoid presenting speculation as fact when evidence is still limited.",
+          "zh": "當證據仍有限時，科學家會避免把推測當成事實。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "start to feel uneasy",
+      "meaning": "開始感到不安",
+      "examples": [
+        {
+          "en": "Ron started to feel a little uneasy.",
+          "zh": "羅恩開始感到有點不安。"
+        },
+        {
+          "en": "To start to feel uneasy means to begin feeling worried, uncomfortable, or slightly afraid.",
+          "zh": "start to feel uneasy 指開始感到擔心、不舒服或有點害怕。"
+        },
+        {
+          "en": "I started to feel uneasy when I realised I was alone in the building.",
+          "zh": "當我發現整棟大樓只有自己一人時，我開始感到不安。"
+        },
+        {
+          "en": "A passenger may start to feel uneasy if a stranger keeps following them.",
+          "zh": "如果陌生人一直跟着自己，乘客可能開始感到不安。"
+        },
+        {
+          "en": "She started to feel uneasy because nobody could explain where the missing money had gone.",
+          "zh": "沒有人能解釋失去的錢去了哪裏，令她開始感到不安。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "drift off",
+      "meaning": "漸漸入睡；迷迷糊糊睡着",
+      "examples": [
+        {
+          "en": "Again, Ron allowed himself to drift off.",
+          "zh": "羅恩又任由自己迷迷糊糊睡着。"
+        },
+        {
+          "en": "To drift off means to fall asleep gradually and gently.",
+          "zh": "drift off 指慢慢、自然地進入睡眠。"
+        },
+        {
+          "en": "I drifted off while listening to quiet music.",
+          "zh": "我聽着輕柔音樂時漸漸睡着了。"
+        },
+        {
+          "en": "A tired passenger may drift off during a long journey.",
+          "zh": "疲倦的乘客在漫長旅程中可能會慢慢入睡。"
+        },
+        {
+          "en": "She tried to keep reading, but after a few pages she drifted off.",
+          "zh": "她努力繼續閱讀，但看了幾頁後便睡着了。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "awake to the sound of…",
+      "meaning": "被……的聲音弄醒",
+      "examples": [
+        {
+          "en": "He awoke to the sound of his watch beeping.",
+          "zh": "手錶的嗶嗶聲把他吵醒。"
+        },
+        {
+          "en": "To awake to the sound of something means that a particular sound wakes you up.",
+          "zh": "awake to the sound of something 指被某種聲音喚醒。"
+        },
+        {
+          "en": "I awoke to the sound of birds outside my window.",
+          "zh": "我被窗外鳥兒的叫聲喚醒。"
+        },
+        {
+          "en": "Residents awoke to the sound of heavy rain hitting the roof.",
+          "zh": "居民被大雨打在屋頂上的聲音吵醒。"
+        },
+        {
+          "en": "She awoke to the sound of her phone ringing beside the bed.",
+          "zh": "她被床邊電話的鈴聲弄醒。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "there was no sign of someone",
+      "meaning": "不見某人的蹤影",
+      "examples": [
+        {
+          "en": "There was no sign of the man.",
+          "zh": "那名男子不見蹤影。"
+        },
+        {
+          "en": "If there is no sign of someone, you cannot see them or find any evidence that they are nearby.",
+          "zh": "there is no sign of someone 指看不到某人，也沒有跡象顯示他在附近。"
+        },
+        {
+          "en": "We arrived at the meeting point, but there was no sign of Daniel.",
+          "zh": "我們到了集合地點，卻不見丹尼爾的蹤影。"
+        },
+        {
+          "en": "When there was no sign of the missing dog by evening, the family became worried.",
+          "zh": "到晚上仍不見走失的狗，家人開始擔心。"
+        },
+        {
+          "en": "There was no sign of the doctor yet, so the patients continued waiting.",
+          "zh": "醫生仍然不見蹤影，所以病人繼續等候。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "let out a small scream",
+      "meaning": "低聲驚叫；發出一聲短促尖叫",
+      "examples": [
+        {
+          "en": "He turned and let out a small scream.",
+          "zh": "他轉過頭，低聲驚叫。"
+        },
+        {
+          "en": "To let out a small scream means to make a short, frightened cry suddenly.",
+          "zh": "let out a small scream 指因突然受到驚嚇而發出短促的叫聲。"
+        },
+        {
+          "en": "Anna let out a small scream when a spider dropped beside her.",
+          "zh": "蜘蛛掉到安娜身旁時，她低聲驚叫了一下。"
+        },
+        {
+          "en": "People may let out a small scream when they are suddenly shocked or frightened.",
+          "zh": "人突然受到驚嚇時，可能會發出一聲短促尖叫。"
+        },
+        {
+          "en": "He let out a small scream but quickly covered his mouth so he would not wake anyone.",
+          "zh": "他驚叫了一聲，但馬上掩住嘴巴，以免吵醒別人。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "stare directly at someone",
+      "meaning": "直直盯着某人",
+      "examples": [
+        {
+          "en": "In the seat beside him sat the man, staring directly at him.",
+          "zh": "那名男子坐在他旁邊，直直盯着他。"
+        },
+        {
+          "en": "To stare directly at someone means to look at them fixedly without looking away.",
+          "zh": "stare directly at someone 指持續直視某人而不移開目光。"
+        },
+        {
+          "en": "The child stared directly at the magician, waiting for the trick.",
+          "zh": "孩子直直盯着魔術師，等待魔術開始。"
+        },
+        {
+          "en": "Being stared directly at by a stranger can make a person uncomfortable.",
+          "zh": "被陌生人一直盯着可能令人感到不舒服。"
+        },
+        {
+          "en": "During the interview, she stared directly at the camera and spoke calmly.",
+          "zh": "訪問期間，她直視鏡頭，冷靜地說話。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "stare back",
+      "meaning": "回望；盯回去",
+      "examples": [
+        {
+          "en": "Ron stared back and could hardly believe what he saw.",
+          "zh": "羅恩回望，幾乎不敢相信自己的眼睛。"
+        },
+        {
+          "en": "To stare back means to look fixedly at someone who is already staring at you.",
+          "zh": "stare back 指當別人盯着你時，也直直望回對方。"
+        },
+        {
+          "en": "The stranger stared at Mia, and she stared back without speaking.",
+          "zh": "陌生人盯着米婭，她一言不發地回望對方。"
+        },
+        {
+          "en": "A child may stare back at an animal that is watching through the glass.",
+          "zh": "動物隔着玻璃看着孩子時，孩子也可能盯回去。"
+        },
+        {
+          "en": "Instead of looking away, he stared back to show that he was not afraid.",
+          "zh": "他沒有移開視線，而是回望對方，表示自己並不害怕。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "could hardly believe what one saw",
+      "meaning": "幾乎不敢相信眼前所見",
+      "examples": [
+        {
+          "en": "Ron could hardly believe what he saw.",
+          "zh": "羅恩幾乎不敢相信自己的眼睛。"
+        },
+        {
+          "en": "If you can hardly believe what you see, something is so surprising that it seems almost impossible.",
+          "zh": "could hardly believe what one saw 指眼前的事情太令人驚訝，幾乎難以相信是真的。"
+        },
+        {
+          "en": "I could hardly believe what I saw when snow covered the whole beach.",
+          "zh": "沙灘竟然完全被雪覆蓋，我幾乎不敢相信自己的眼睛。"
+        },
+        {
+          "en": "The family could hardly believe what they saw after their old house was completely repaired.",
+          "zh": "舊屋完全翻新後，一家人幾乎不敢相信眼前所見。"
+        },
+        {
+          "en": "She could hardly believe what she saw when her name appeared at the top of the results list.",
+          "zh": "她看到自己的名字出現在成績榜首時，幾乎不敢相信自己的眼睛。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "be like looking into a mirror",
+      "meaning": "像照鏡子一樣",
+      "examples": [
+        {
+          "en": "It was like looking into a mirror.",
+          "zh": "對方簡直像鏡中的自己。"
+        },
+        {
+          "en": "If seeing someone is like looking into a mirror, that person looks extremely similar to you.",
+          "zh": "be like looking into a mirror 指某人與自己長得極為相似。"
+        },
+        {
+          "en": "The identical twins looked so alike that standing together was like looking into a mirror.",
+          "zh": "那對同卵雙胞胎長得太相似，站在一起就像照鏡子。"
+        },
+        {
+          "en": "Seeing an old photograph of his father was like looking into a mirror because they had the same face.",
+          "zh": "他看到父親年輕時的照片時，就像照鏡子一樣，因為兩人的樣貌非常相似。"
+        },
+        {
+          "en": "For Maya, meeting her cousin for the first time was almost like looking into a mirror.",
+          "zh": "對瑪雅來說，第一次見到表妹幾乎就像照鏡子。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "except that…",
+      "meaning": "只是……；不同的是……",
+      "examples": [
+        {
+          "en": "It was like looking into a mirror, except that the man's face was dripping with blood.",
+          "zh": "對方簡直像鏡中的自己，只是臉上淌着血。"
+        },
+        {
+          "en": "“Except that” introduces the one detail that makes a situation different.",
+          "zh": "except that 用來指出兩件相似事情中唯一或主要的不同之處。"
+        },
+        {
+          "en": "The two rooms were identical except that one had a balcony.",
+          "zh": "兩個房間一模一樣，只是其中一個有露台。"
+        },
+        {
+          "en": "My new phone is like my old one, except that the battery lasts much longer.",
+          "zh": "我的新電話與舊電話很相似，只是電池耐用得多。"
+        },
+        {
+          "en": "The journey was pleasant except that the train arrived twenty minutes late.",
+          "zh": "旅程很愉快，只是火車遲到了二十分鐘。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "one’s face was dripping with blood",
+      "meaning": "臉上淌着血",
+      "examples": [
+        {
+          "en": "The man's face was dripping with blood.",
+          "zh": "那名男子臉上淌着血。"
+        },
+        {
+          "en": "If someone's face is dripping with blood, blood is flowing or falling from the face in drops.",
+          "zh": "one's face is dripping with blood 指血液從臉上的傷口流下或滴落。"
+        },
+        {
+          "en": "After falling from his bicycle, his face was dripping with blood from a cut above his eye.",
+          "zh": "他從單車上摔下來後，眼睛上方的傷口令臉上淌着血。"
+        },
+        {
+          "en": "A serious facial injury can leave a person's face dripping with blood.",
+          "zh": "嚴重的面部受傷可能令人臉上不停流血。"
+        },
+        {
+          "en": "The sight of a face dripping with blood immediately made everyone call for medical help.",
+          "zh": "大家一看到有人臉上淌着血，立即致電求助。"
+        }
+      ],
+      "sourcePage": 2
+    },
+    {
+      "front": "one’s demise",
+      "meaning": "某人的死亡；逝世",
+      "examples": [
+        {
+          "en": "‘Has my demise taught you nothing?’",
+          "zh": "「我的死還沒有讓你學到教訓嗎？」"
+        },
+        {
+          "en": "“Demise” is a formal or literary word meaning a person's death.",
+          "zh": "demise 是較正式或文學性的「死亡」說法。"
+        },
+        {
+          "en": "The king's demise led to a period of national mourning.",
+          "zh": "國王逝世後，全國進入哀悼期。"
+        },
+        {
+          "en": "A story may mention a character's demise instead of directly saying that the character died.",
+          "zh": "故事有時會使用 demise，而不直接說角色「死了」。"
+        },
+        {
+          "en": "His sudden demise shocked everyone who had spoken to him only the day before.",
+          "zh": "他突然離世，令前一天才跟他談過話的人非常震驚。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "with great tenderness",
+      "meaning": "非常溫柔地；充滿關愛地",
+      "examples": [
+        {
+          "en": "‘Has my demise taught you nothing?’ said the man with great tenderness.",
+          "zh": "「我的死還沒有讓你學到教訓嗎？」那人溫柔地說。"
+        },
+        {
+          "en": "To speak with great tenderness means to speak in a very gentle, loving, and caring way.",
+          "zh": "with great tenderness 指以非常溫柔、關愛和體貼的方式說話或行動。"
+        },
+        {
+          "en": "The mother spoke to the frightened child with great tenderness.",
+          "zh": "母親非常溫柔地安慰受驚的孩子。"
+        },
+        {
+          "en": "Nurses often need to speak with great tenderness when families receive bad news.",
+          "zh": "家屬收到壞消息時，護士往往需要非常溫柔地與他們說話。"
+        },
+        {
+          "en": "Although his words were serious, he delivered them with great tenderness rather than anger.",
+          "zh": "雖然他的說話很嚴肅，但語氣充滿溫柔，而不是憤怒。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "more haste, less speed",
+      "meaning": "欲速則不達",
+      "examples": [
+        {
+          "en": "‘More haste, less speed. Remember?’",
+          "zh": "「欲速則不達。記得嗎？」"
+        },
+        {
+          "en": "“More haste, less speed” means that rushing can cause mistakes and make a task take longer.",
+          "zh": "more haste, less speed 指太過匆忙可能造成錯誤，反而令事情花更長時間。"
+        },
+        {
+          "en": "I typed too quickly, made many errors, and had to start again—more haste, less speed.",
+          "zh": "我打字太快，出了很多錯誤，只好重做——真是欲速則不達。"
+        },
+        {
+          "en": "If you rush when building furniture, you may attach the wrong pieces and lose more time.",
+          "zh": "如果組裝家具時太心急，可能裝錯零件，最後浪費更多時間。"
+        },
+        {
+          "en": "More haste, less speed reminds us that careful work can be faster in the end.",
+          "zh": "「欲速則不達」提醒我們，做事仔細反而可能更快完成。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "rush one’s life away",
+      "meaning": "匆忙度日；在匆忙中耗掉生命",
+      "examples": [
+        {
+          "en": "‘Rush your life away and it will quickly disappear.’",
+          "zh": "「一味匆忙度日，生命也會很快消逝。」"
+        },
+        {
+          "en": "To rush your life away means to live so hurriedly that you fail to enjoy or appreciate your life.",
+          "zh": "rush one's life away 指生活得太匆忙，以致沒有享受或珍惜人生。"
+        },
+        {
+          "en": "If you are always thinking about the next task, you may rush your life away without enjoying the present.",
+          "zh": "如果你總是在想着下一項工作，可能會在沒有享受當下的情況下匆匆度過人生。"
+        },
+        {
+          "en": "Working every weekend for years can make someone feel that they have rushed their life away.",
+          "zh": "多年來每個週末都工作，可能令人覺得自己在匆忙中耗掉了生命。"
+        },
+        {
+          "en": "Taking time for family, rest, and ordinary moments can stop us from rushing our lives away.",
+          "zh": "花時間陪伴家人、休息和享受平凡時刻，可以避免我們匆忙度日。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "doppelganger",
+      "meaning": "分身；長得幾乎一模一樣的人",
+      "examples": [
+        {
+          "en": "Ron's doppelganger then closed his eyes and slumped forward in his seat.",
+          "zh": "羅恩的分身隨即閉上眼睛，向前癱倒。"
+        },
+        {
+          "en": "A doppelganger is a person who looks almost exactly like another person.",
+          "zh": "doppelganger 指與另一個人外貌幾乎完全一樣的人。"
+        },
+        {
+          "en": "Leo met a stranger who looked so similar to him that friends joked he had found his doppelganger.",
+          "zh": "利奧遇到一名與他極為相似的陌生人，朋友都笑說他找到了自己的分身。"
+        },
+        {
+          "en": "Films sometimes use a doppelganger to create mystery because two identical-looking people may have different identities.",
+          "zh": "電影有時利用分身製造懸疑，因為兩個樣貌一樣的人可能有不同身份。"
+        },
+        {
+          "en": "A doppelganger is not necessarily a twin; it can simply be someone with an extremely similar appearance.",
+          "zh": "doppelganger 不一定是雙胞胎，也可以只是長得非常相似的陌生人。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "slump forward",
+      "meaning": "向前癱倒；身體無力地向前垂下",
+      "examples": [
+        {
+          "en": "Ron's doppelganger closed his eyes and slumped forward in his seat.",
+          "zh": "羅恩的分身閉上眼，向前癱倒在座位上。"
+        },
+        {
+          "en": "To slump forward means to let your upper body fall forward heavily because of weakness, tiredness, or loss of consciousness.",
+          "zh": "slump forward 指因虛弱、疲倦或失去知覺而讓上半身沉重地向前倒下。"
+        },
+        {
+          "en": "The exhausted runner slumped forward after crossing the finish line.",
+          "zh": "疲憊的跑手越過終點後向前癱倒。"
+        },
+        {
+          "en": "A passenger who suddenly faints may slump forward in their seat.",
+          "zh": "乘客突然暈倒時，可能會在座位上向前癱下。"
+        },
+        {
+          "en": "He slumped forward over the desk after studying all night.",
+          "zh": "他通宵溫習後，整個人趴倒在書桌上。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "nearly petrified",
+      "meaning": "嚇得幾乎動彈不得",
+      "examples": [
+        {
+          "en": "Nearly petrified, Ron edged past the corpse.",
+          "zh": "羅恩嚇得幾乎動彈不得，小心繞過屍體。"
+        },
+        {
+          "en": "“Nearly petrified” means so frightened that you can almost not move.",
+          "zh": "nearly petrified 指害怕得幾乎無法移動。"
+        },
+        {
+          "en": "I was nearly petrified when I heard footsteps outside the empty house.",
+          "zh": "我在空屋外聽到腳步聲時，嚇得幾乎動彈不得。"
+        },
+        {
+          "en": "Someone may become nearly petrified when suddenly facing a dangerous animal.",
+          "zh": "突然面對危險動物時，人可能會嚇得僵住。"
+        },
+        {
+          "en": "Although she was nearly petrified, she forced herself to call for help.",
+          "zh": "雖然她嚇得幾乎動不了，仍強迫自己打電話求助。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "edge past someone / something",
+      "meaning": "小心翼翼地從……旁邊挪過",
+      "examples": [
+        {
+          "en": "Ron edged past the corpse and ran like the wind.",
+          "zh": "羅恩小心繞過屍體，然後飛奔而去。"
+        },
+        {
+          "en": "To edge past someone or something means to move slowly and carefully past them, usually because there is little space or you feel nervous.",
+          "zh": "edge past someone/something 指因空間狹窄或感到緊張而慢慢、小心地從旁邊移過。"
+        },
+        {
+          "en": "I edged past the sleeping dog so I would not wake it.",
+          "zh": "我小心翼翼地從熟睡的狗旁邊走過，以免吵醒牠。"
+        },
+        {
+          "en": "Passengers edged past the large suitcase blocking the narrow aisle.",
+          "zh": "乘客慢慢繞過擋住狹窄通道的大行李箱。"
+        },
+        {
+          "en": "She edged past the angry customer and quietly left the room.",
+          "zh": "她小心地從憤怒的顧客旁邊挪過，悄悄離開房間。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "the corpse",
+      "meaning": "屍體",
+      "examples": [
+        {
+          "en": "Ron edged past the corpse and ran like the wind.",
+          "zh": "羅恩小心繞過屍體，然後飛奔而去。"
+        },
+        {
+          "en": "A corpse is the dead body of a person.",
+          "zh": "corpse 指人的屍體。"
+        },
+        {
+          "en": "Police covered the corpse before investigators arrived.",
+          "zh": "調查人員到場前，警方把屍體蓋好。"
+        },
+        {
+          "en": "Finding a corpse would be a serious emergency requiring the police to be contacted immediately.",
+          "zh": "發現屍體屬於嚴重緊急情況，應立即通知警方。"
+        },
+        {
+          "en": "In mystery stories, the discovery of a corpse often begins the investigation.",
+          "zh": "在推理故事中，發現屍體往往是調查的開始。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "run like the wind",
+      "meaning": "飛奔；跑得飛快",
+      "examples": [
+        {
+          "en": "Ron ran like the wind through carriage after carriage.",
+          "zh": "羅恩飛奔穿過一節又一節車廂。"
+        },
+        {
+          "en": "To run like the wind means to run extremely fast.",
+          "zh": "run like the wind 指跑得非常快。"
+        },
+        {
+          "en": "When the school bell rang, the children ran like the wind towards the playground.",
+          "zh": "校鐘一響，孩子們飛奔向操場。"
+        },
+        {
+          "en": "A frightened person may run like the wind to escape danger.",
+          "zh": "人受到驚嚇時，可能會飛快逃離危險。"
+        },
+        {
+          "en": "James ran like the wind and reached the bus just before the doors closed.",
+          "zh": "詹姆斯飛奔過去，在巴士關門前一刻趕上了。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "carriage after carriage",
+      "meaning": "一節又一節車廂",
+      "examples": [
+        {
+          "en": "Ron ran like the wind through carriage after carriage.",
+          "zh": "羅恩飛奔穿過一節又一節車廂。"
+        },
+        {
+          "en": "“Carriage after carriage” means one train carriage after another.",
+          "zh": "carriage after carriage 指一節接一節的火車車廂。"
+        },
+        {
+          "en": "The inspector walked through carriage after carriage checking tickets.",
+          "zh": "查票員走過一節又一節車廂檢查車票。"
+        },
+        {
+          "en": "Searching carriage after carriage takes time when a train is very long.",
+          "zh": "火車很長時，一節一節車廂地搜尋會花不少時間。"
+        },
+        {
+          "en": "We passed through carriage after carriage before finally finding an empty seat.",
+          "zh": "我們穿過一節又一節車廂，最後才找到空位。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "slump down into a seat",
+      "meaning": "疲倦地癱坐在座位上",
+      "examples": [
+        {
+          "en": "Eventually, he slumped down into a seat, breathing hard.",
+          "zh": "最後，他跌坐在座位上，氣喘吁吁。"
+        },
+        {
+          "en": "To slump down into a seat means to sit down heavily because you are tired, weak, or upset.",
+          "zh": "slump down into a seat 指因疲倦、虛弱或情緒低落而沉重地坐下。"
+        },
+        {
+          "en": "After carrying the boxes upstairs, Ben slumped down into a chair.",
+          "zh": "本把箱子搬上樓後，一下子癱坐在椅子上。"
+        },
+        {
+          "en": "A runner may slump down into a seat after an exhausting race.",
+          "zh": "跑手完成令人筋疲力盡的比賽後，可能會癱坐下來。"
+        },
+        {
+          "en": "She came home after a difficult day and slumped down onto the sofa.",
+          "zh": "她度過艱難的一天後回到家，整個人癱坐在梳化上。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "breathe hard",
+      "meaning": "氣喘吁吁；急促呼吸",
+      "examples": [
+        {
+          "en": "He slumped down into a seat, breathing hard.",
+          "zh": "他癱坐在座位上，氣喘吁吁。"
+        },
+        {
+          "en": "To breathe hard means to take fast, heavy breaths, usually after effort, fear, or excitement.",
+          "zh": "breathe hard 指通常因用力、害怕或激動而快速而沉重地呼吸。"
+        },
+        {
+          "en": "I was breathing hard after running up five flights of stairs.",
+          "zh": "我跑上五層樓梯後氣喘吁吁。"
+        },
+        {
+          "en": "A frightened person may breathe hard even if they have not been exercising.",
+          "zh": "一個人即使沒有運動，受到驚嚇後也可能呼吸急促。"
+        },
+        {
+          "en": "The cyclist stopped beside the road, breathing hard after the steep climb.",
+          "zh": "單車手爬完陡坡後停在路邊，氣喘吁吁。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "the headline read…",
+      "meaning": "標題寫着……",
+      "examples": [
+        {
+          "en": "The headline read, ‘Remembering the Victims on the Anniversary of the Bonnington Train Crash.’",
+          "zh": "標題寫着：「邦寧頓火車意外周年：悼念罹難者。」"
+        },
+        {
+          "en": "“The headline read…” is used to introduce the words printed as the main title of a news report.",
+          "zh": "the headline read… 用來引出新聞報道主標題上的文字。"
+        },
+        {
+          "en": "The headline read, “Local School Wins National Science Prize.”",
+          "zh": "標題寫着：「本地學校奪得全國科學獎。」"
+        },
+        {
+          "en": "When the headline read “Storm Warning,” residents began preparing their homes.",
+          "zh": "當標題寫着「暴風雨警告」時，居民開始為家居做好準備。"
+        },
+        {
+          "en": "The headline read “Hospital to Open Next Month,” giving the community some welcome news.",
+          "zh": "標題寫着「醫院下月啟用」，為社區帶來好消息。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "remember the victims",
+      "meaning": "悼念罹難者；紀念受害者",
+      "examples": [
+        {
+          "en": "The newspaper headline said, ‘Remembering the Victims on the Anniversary of the Bonnington Train Crash.’",
+          "zh": "報紙標題寫着：「邦寧頓火車意外周年：悼念罹難者。」"
+        },
+        {
+          "en": "To remember the victims means to honour and think about people who suffered or died in a tragedy.",
+          "zh": "remember the victims 指紀念和悼念在悲劇中受傷或死亡的人。"
+        },
+        {
+          "en": "The town held a ceremony to remember the victims of the fire.",
+          "zh": "小鎮舉行儀式，悼念火災中的罹難者。"
+        },
+        {
+          "en": "People may light candles to remember the victims on the anniversary of an accident.",
+          "zh": "人們可能在事故周年點起蠟燭，悼念罹難者。"
+        },
+        {
+          "en": "Remembering the victims keeps attention on the human cost of a disaster, not only the statistics.",
+          "zh": "悼念罹難者能提醒人們關注災難造成的人命代價，而不只是統計數字。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "on the anniversary of…",
+      "meaning": "在……的周年紀念日",
+      "examples": [
+        {
+          "en": "The victims were remembered on the anniversary of the Bonnington Train Crash.",
+          "zh": "人們在邦寧頓火車意外周年紀念日悼念罹難者。"
+        },
+        {
+          "en": "“On the anniversary of” means on the date when a past event happened in an earlier year.",
+          "zh": "on the anniversary of 指到了某件過去事件在多年後的相同日期。"
+        },
+        {
+          "en": "The family gathered on the anniversary of their grandparents' wedding.",
+          "zh": "一家人在祖父母結婚周年紀念日聚在一起。"
+        },
+        {
+          "en": "A city may hold a memorial on the anniversary of a major disaster.",
+          "zh": "城市可能在重大災難周年舉行悼念活動。"
+        },
+        {
+          "en": "Newspapers often look back at important events on the anniversary of their occurrence.",
+          "zh": "報章常在重要事件的周年紀念日回顧當年的事情。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "train crash",
+      "meaning": "火車意外；列車事故",
+      "examples": [
+        {
+          "en": "The newspaper reported on the Bonnington Train Crash.",
+          "zh": "報紙報道了邦寧頓火車意外。"
+        },
+        {
+          "en": "A train crash is an accident in which a train collides, derails, or is otherwise seriously damaged.",
+          "zh": "train crash 指火車相撞、出軌或遭受其他嚴重損毀的事故。"
+        },
+        {
+          "en": "Emergency workers arrived quickly after the train crash.",
+          "zh": "火車事故發生後，救援人員很快到場。"
+        },
+        {
+          "en": "A train crash can lead to injuries, deaths, and major disruption to transport.",
+          "zh": "火車意外可能造成傷亡和嚴重交通中斷。"
+        },
+        {
+          "en": "Investigators study the cause of a train crash so similar accidents can be prevented.",
+          "zh": "調查人員研究火車事故的成因，以防止類似意外再次發生。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "read on",
+      "meaning": "繼續讀下去",
+      "examples": [
+        {
+          "en": "Ron read on, ‘The only survivor of the crash… was Ron Green.’",
+          "zh": "羅恩繼續讀下去：「這宗意外唯一生還者是羅恩・格林……」"
+        },
+        {
+          "en": "To read on means to continue reading after the part you have already read.",
+          "zh": "read on 指在已讀的部分之後繼續閱讀。"
+        },
+        {
+          "en": "The first paragraph was confusing, but I read on and soon understood the story.",
+          "zh": "第一段有點難明，但我繼續讀下去，很快便理解故事。"
+        },
+        {
+          "en": "If a headline interests you, you may read on to learn the details.",
+          "zh": "如果新聞標題吸引你，你可能會繼續讀下去了解詳情。"
+        },
+        {
+          "en": "She wanted to stop because the story was frightening, but curiosity made her read on.",
+          "zh": "她因故事太可怕而想停下來，但好奇心令她繼續讀。"
+        }
+      ],
+      "sourcePage": 3
+    },
+    {
+      "front": "the only survivor of…",
+      "meaning": "……的唯一生還者",
+      "examples": [
+        {
+          "en": "The only survivor of the crash was Ron Green.",
+          "zh": "這宗意外的唯一生還者是羅恩・格林。"
+        },
+        {
+          "en": "The only survivor of an accident is the one person who remains alive when everyone else involved dies.",
+          "zh": "the only survivor of an accident 指事故中其他人都死亡，而唯一仍然生還的人。"
+        },
+        {
+          "en": "The rescue team found that one passenger was the only survivor of the accident.",
+          "zh": "救援隊發現一名乘客是事故的唯一生還者。"
+        },
+        {
+          "en": "Being the only survivor of a disaster can leave a person with difficult memories and questions.",
+          "zh": "成為災難的唯一生還者，可能令人留下痛苦的回憶和疑問。"
+        },
+        {
+          "en": "Newspapers interviewed the only survivor to understand what had happened.",
+          "zh": "報章訪問唯一的生還者，以了解當時發生了甚麼。"
+        }
+      ],
+      "sourcePage": 4
+    },
+    {
+      "front": "be caused by…",
+      "meaning": "由……造成",
+      "examples": [
+        {
+          "en": "The crash was caused by a speeding train.",
+          "zh": "這宗意外是由列車超速造成的。"
+        },
+        {
+          "en": "“Be caused by” identifies the thing or event responsible for a result.",
+          "zh": "be caused by 用來指出造成某個結果的原因。"
+        },
+        {
+          "en": "The power cut was caused by damage to an underground cable.",
+          "zh": "停電是由地下電纜受損造成的。"
+        },
+        {
+          "en": "Many road accidents are caused by careless driving.",
+          "zh": "許多交通意外都是由粗心駕駛造成。"
+        },
+        {
+          "en": "If a problem is caused by poor planning, better planning may prevent it next time.",
+          "zh": "如果問題由規劃不足造成，改善規劃或可避免下次再次出現。"
+        }
+      ],
+      "sourcePage": 4
+    },
+    {
+      "front": "a speeding train",
+      "meaning": "超速行駛的列車",
+      "examples": [
+        {
+          "en": "The crash was caused by a speeding train.",
+          "zh": "這宗意外是由超速行駛的列車造成。"
+        },
+        {
+          "en": "A speeding train is a train travelling faster than the allowed or safe speed.",
+          "zh": "a speeding train 指行駛速度超過限制或安全速度的火車。"
+        },
+        {
+          "en": "A speeding train may need much more distance to stop safely.",
+          "zh": "超速行駛的列車可能需要更長距離才能安全停下。"
+        },
+        {
+          "en": "Strict speed limits help prevent accidents caused by speeding trains.",
+          "zh": "嚴格的速度限制有助防止超速列車引致意外。"
+        },
+        {
+          "en": "Investigators checked whether a speeding train had entered the bend too quickly.",
+          "zh": "調查人員檢查是否有列車以過高速度駛入彎位。"
+        }
+      ],
+      "sourcePage": 4
+    },
+    {
+      "front": "sustain grave brain injuries",
+      "meaning": "腦部受重創",
+      "examples": [
+        {
+          "en": "He has sustained grave brain injuries and is still in a coma.",
+          "zh": "他腦部受重創，至今仍然昏迷。"
+        },
+        {
+          "en": "To sustain grave brain injuries means to suffer very serious damage to the brain.",
+          "zh": "sustain grave brain injuries 指腦部受到非常嚴重的傷害。"
+        },
+        {
+          "en": "A person can sustain grave brain injuries in a severe traffic accident.",
+          "zh": "嚴重交通意外可能令人腦部受重創。"
+        },
+        {
+          "en": "Grave brain injuries may require emergency treatment and long-term medical care.",
+          "zh": "嚴重腦部受傷可能需要緊急治療和長期醫療護理。"
+        },
+        {
+          "en": "Wearing a helmet can reduce the risk of sustaining grave brain injuries in some accidents.",
+          "zh": "在某些意外中，佩戴頭盔可以降低腦部受重創的風險。"
+        }
+      ],
+      "sourcePage": 4
+    },
+    {
+      "front": "be in a coma",
+      "meaning": "處於昏迷狀態",
+      "examples": [
+        {
+          "en": "He has sustained grave brain injuries and is still in a coma.",
+          "zh": "他腦部受重創，至今仍然昏迷。"
+        },
+        {
+          "en": "To be in a coma means to be deeply unconscious and unable to wake or respond normally.",
+          "zh": "be in a coma 指處於深度失去知覺、無法正常醒來或回應的狀態。"
+        },
+        {
+          "en": "The patient remained in a coma after suffering a serious head injury.",
+          "zh": "病人頭部嚴重受傷後一直處於昏迷狀態。"
+        },
+        {
+          "en": "Someone in a coma requires medical monitoring because they cannot respond normally to their surroundings.",
+          "zh": "昏迷中的人需要醫療監察，因為他們無法正常回應周圍環境。"
+        },
+        {
+          "en": "Being asleep is different from being in a coma because a sleeping person can normally be awakened.",
+          "zh": "睡覺與昏迷不同，因為睡着的人通常可以被喚醒。"
+        }
+      ],
+      "sourcePage": 4
+    },
+    {
+      "front": "one’s identical twin",
+      "meaning": "某人的同卵雙胞胎兄弟／姊妹",
+      "examples": [
+        {
+          "en": "His identical twin, Martin, sadly did not survive the crash.",
+          "zh": "他的同卵雙胞胎兄弟馬丁則不幸未能在事故中生還。"
+        },
+        {
+          "en": "An identical twin is one of two siblings who developed from the same fertilised egg and usually look very similar.",
+          "zh": "identical twin 指由同一受精卵發育而成、通常外貌非常相似的雙胞胎之一。"
+        },
+        {
+          "en": "Emma and her identical twin look so alike that new teachers sometimes confuse them.",
+          "zh": "艾瑪和她的同卵雙胞胎姊妹長得很像，新老師有時會認錯人。"
+        },
+        {
+          "en": "Identical twins may look extremely similar but can still have different personalities and interests.",
+          "zh": "同卵雙胞胎外貌可能非常相似，但性格和興趣仍可以不同。"
+        },
+        {
+          "en": "He grew up sharing a bedroom with his identical twin.",
+          "zh": "他從小與自己的同卵雙胞胎兄弟共用一間睡房。"
+        }
+      ],
+      "sourcePage": 4
+    },
+    {
+      "front": "sadly did not survive",
+      "meaning": "不幸未能生還",
+      "examples": [
+        {
+          "en": "His identical twin, Martin, sadly did not survive the crash.",
+          "zh": "他的同卵雙胞胎兄弟馬丁則不幸未能在事故中生還。"
+        },
+        {
+          "en": "“Sadly did not survive” is a gentle way to say that someone died in an accident, illness, or dangerous event.",
+          "zh": "sadly did not survive 是較婉轉而尊重地表示某人在事故、疾病或危險事件中死亡。"
+        },
+        {
+          "en": "Two passengers were rescued, but one sadly did not survive.",
+          "zh": "兩名乘客獲救，但其中一人不幸未能生還。"
+        },
+        {
+          "en": "Doctors treated the injured man immediately, but he sadly did not survive.",
+          "zh": "醫生立即治理傷者，但他最終不幸未能生還。"
+        },
+        {
+          "en": "News reports may use “sadly did not survive” to describe a death respectfully.",
+          "zh": "新聞報道有時會使用「不幸未能生還」來較尊重地表達死亡。"
+        }
+      ],
+      "sourcePage": 4
+    },
+    {
+      "front": "survive the crash",
+      "meaning": "在事故中生還",
+      "examples": [
+        {
+          "en": "Martin sadly did not survive the crash.",
+          "zh": "馬丁不幸未能在事故中生還。"
+        },
+        {
+          "en": "To survive a crash means to remain alive after being involved in a serious accident.",
+          "zh": "survive a crash 指經歷嚴重事故後仍然活着。"
+        },
+        {
+          "en": "Everyone was relieved when they learned that the driver had survived the crash.",
+          "zh": "大家得知司機在事故中生還後都鬆了一口氣。"
+        },
+        {
+          "en": "Wearing a seat belt can increase a person's chance of surviving a car crash.",
+          "zh": "佩戴安全帶可以增加人在汽車碰撞事故中生還的機會。"
+        },
+        {
+          "en": "Some people who survive a crash still need months of medical treatment afterwards.",
+          "zh": "有些人在事故中生還後，仍需要接受數月治療。"
+        }
+      ],
+      "sourcePage": 4
+    },
+    {
+      "front": "speed on",
+      "meaning": "繼續疾駛",
+      "examples": [
+        {
+          "en": "The train sped on, faster and faster.",
+          "zh": "火車繼續疾駛，愈來愈快。"
+        },
+        {
+          "en": "To speed on means to continue moving forward quickly.",
+          "zh": "speed on 指繼續快速向前行駛。"
+        },
+        {
+          "en": "The car sped on along the empty road.",
+          "zh": "汽車沿着空蕩蕩的道路繼續疾駛。"
+        },
+        {
+          "en": "Even after the rain began, the bus sped on towards the city.",
+          "zh": "即使開始下雨，巴士仍繼續快速駛向市區。"
+        },
+        {
+          "en": "The train sped on through the darkness without stopping at the small station.",
+          "zh": "火車在黑暗中繼續疾駛，沒有在小站停下。"
+        }
+      ],
+      "sourcePage": 4
+    },
+    {
+      "front": "faster and faster",
+      "meaning": "愈來愈快",
+      "examples": [
+        {
+          "en": "The train sped on, faster and faster.",
+          "zh": "火車繼續疾駛，愈來愈快。"
+        },
+        {
+          "en": "“Faster and faster” means that something keeps increasing its speed.",
+          "zh": "faster and faster 指某件事物的速度不斷增加。"
+        },
+        {
+          "en": "The cyclist went faster and faster as the road sloped downhill.",
+          "zh": "道路向下斜時，單車愈踩愈快。"
+        },
+        {
+          "en": "When panic spread, his heart seemed to beat faster and faster.",
+          "zh": "隨着恐慌加劇，他覺得自己的心跳愈來愈快。"
+        },
+        {
+          "en": "A vehicle becoming faster and faster can become dangerous if the driver loses control.",
+          "zh": "如果司機失去控制，車輛愈駛愈快會變得十分危險。"
+        }
+      ],
+      "sourcePage": 4
+    }
+  ],
   "custom-setup/sprint-text-1": [
     {
         "front": "blog entry",
