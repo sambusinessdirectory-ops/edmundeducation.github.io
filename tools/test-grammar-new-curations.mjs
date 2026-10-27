@@ -40,6 +40,9 @@ for (const [index, lesson] of lessons.entries()) {
   document.querySelectorAll(".grammar-lesson-card--new-curation button")[index].click();
   const section = document.querySelector(`[data-new-grammar-curation="${lesson.slug}"]`);
   assert.equal(section.hidden, false);
+  assert.equal(section.querySelectorAll(".grammar-new-topic:not(.grammar-new-appendix)").length, lesson.count);
+  assert.equal(section.querySelectorAll(".grammar-new-chapter").length, lesson.chapters.length);
+  assert.ok([...section.querySelectorAll(".grammar-new-topic:not(.grammar-new-appendix)")].every((card) => card.dataset.scrollVisible === "true" && card.querySelector(".grammar-articles-topic__head > span")));
   assert.equal(document.querySelectorAll("[data-new-grammar-curation]:not([hidden])").length, 1);
   assert.equal(document.querySelector("[data-grammar-library]").hidden, true);
   assert.equal(new URL(dom.window.location.href).searchParams.get("lesson"), lesson.slug);
