@@ -1,6 +1,5 @@
 import assert from "node:assert/strict";
-import { execFileSync } from "node:child_process";
-import { existsSync, readFileSync, statSync } from "node:fs";
+import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 import vm from "node:vm";
@@ -24,25 +23,22 @@ assert.match(html, /id: "custom-setup\/the-last-train", studentName: "Jayden", t
 assert.ok(cards.every((card) => card.front && card.meaning && card.sourcePage >= 1 && card.sourcePage <= 4));
 assert.ok(cards.every((card) => card.examples.length === 5 && card.examples.every((example) => example.en && example.zh)));
 
-let local = 0;
-let cloud = 0;
+let published = 0;
+let reused = 0;
 for (const card of cards) {
   const key = card.front.replaceAll("’", "'").trim();
   const url = audio[key];
   assert.ok(url, `Missing Kokoro audio for ${key}`);
-  if (url.startsWith("https://")) {
-    cloud += 1;
+  if (url.startsWith("https://edmund-neural-audio.edmundeducation.workers.dev/assets/flashcards/audio/edmund-neural/v1-custom-20261024/last-train/")) {
+    assert.match(url, /\/[0-9a-f]{24}\.mp3$/);
+    published += 1;
+  } else if (url.startsWith("https://")) {
+    reused += 1;
   } else {
-    assert.ok(url.startsWith("assets/flashcards/audio/edmund-neural/v1/"));
-    const file = path.join(root, url);
-    const bytes = existsSync(file)
-      ? statSync(file).size
-      : Number(execFileSync("git", ["cat-file", "-s", `HEAD:${url}`], { cwd: root, encoding: "utf8" }).trim());
-    assert.ok(bytes > 1000, `Missing local MP3 for ${key}`);
-    local += 1;
+    assert.fail(`Unpublished audio for ${key}: ${url}`);
   }
 }
-assert.equal(local, 63);
-assert.equal(cloud, 1);
+assert.equal(published, 63);
+assert.equal(reused, 1);
 assert.match(read("homework-resource-catalog.mjs"), /"id": "flash:custom-setup\/the-last-train"/);
 console.log("Last Train: 64 Jayden-only cards, 320 bilingual examples and 64 mapped Kokoro clips verified.");
