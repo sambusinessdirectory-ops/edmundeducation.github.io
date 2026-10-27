@@ -11,7 +11,7 @@ for (const [, href] of systemList.matchAll(/href:\s*"([^"]+\.html)"/g)) {
   const file = path.join(root, href);
   if (fs.existsSync(file)) {
     const html = fs.readFileSync(file, 'utf8');
-    assert.match(html, /eddy-global-dialogues\.js\?v=20261026-midnight1/, `${href} must load the sitewide dialogue`);
+    assert.match(html, /eddy-global-dialogues\.js\?v=20261027-homeonly1/, `${href} must load the sitewide dialogue`);
     assert.match(html, /eddy-global-dialogues\.css\?v=20261025-1/, `${href} must load its stylesheet`);
   }
 }
@@ -20,11 +20,11 @@ assert.match(nav, /element\.hasAttribute\("data-eddy-global-dialogue"\)/);
 for (const file of fs.readdirSync(root).filter((name) => name.endsWith('.html'))) {
   const html = fs.readFileSync(path.join(root, file), 'utf8');
   if (!/<script[^>]+shared-system-nav\.js/.test(html)) continue;
-  const globalAt = html.search(/<script[^>]*src="\/?eddy-global-dialogues\.js\?v=20261026-midnight1"/);
+  const globalAt = html.search(/<script[^>]*src="\/?eddy-global-dialogues\.js\?v=20261027-homeonly1"/);
   const navAt = html.search(/<script[^>]*src="\/?shared-system-nav\.js\?v=20261026-daily-visit1"/);
   assert.ok(globalAt >= 0 && navAt > globalAt, `${file} must load Eddy before navigation`);
 }
-assert.match(fs.readFileSync(path.join(root, 'paper3/2025-b2/index.html'), 'utf8'), /eddy-global-dialogues\.js\?v=20261026-midnight1/, 'nested Paper 3 reader must load the current sitewide dialogue');
+assert.match(fs.readFileSync(path.join(root, 'paper3/2025-b2/index.html'), 'utf8'), /eddy-global-dialogues\.js\?v=20261027-homeonly1/, 'nested Paper 3 reader must load the current sitewide dialogue');
 for (const file of ['eddy-first-question-dialogue.js', 'eddy-five-streak-dialogue.js', 'eddy-schedule-empty-day-dialogue.js', 'eddy-schedule-homework-completion-dialogue.js', 'eddy-writing-daily-dialogue.js']) {
   const script = fs.readFileSync(path.join(root, file), 'utf8');
   assert.match(script, /EdmundEddyGlobalDialogue\?\.isBlocking\(\)/, `${file} must yield to tea`);
@@ -32,7 +32,7 @@ for (const file of ['eddy-first-question-dialogue.js', 'eddy-five-streak-dialogu
 }
 
 const server = http.createServer((req, res) => {
-  if (req.url === '/fixture') {
+  if (['/', '/index.html', '/fixture', '/login.html', '/paper3/2025-b2/index.html'].includes(req.url)) {
     res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
     res.end('<!doctype html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/eddy-global-dialogues.css"></head><body><main>Learning system</main><script src="/eddy-global-dialogues.js"></script></body></html>');
     return;
@@ -55,7 +55,7 @@ const server = http.createServer((req, res) => {
   const base = `http://127.0.0.1:${server.address().port}`;
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({ viewport: { width: 1100, height: 750 } });
-  const pageAt = async (iso, viewport, random = 0) => {
+  const pageAt = async (iso, viewport, random = 0, route = '/index.html') => {
     const page = await context.newPage();
     if (viewport) await page.setViewportSize(viewport);
     await page.addInitScript(({ value, random }) => {
@@ -67,10 +67,42 @@ const server = http.createServer((req, res) => {
       };
       Math.random = () => random;
     }, { value: iso, random });
-    await page.goto(base + '/fixture');
+    await page.goto(base + route);
     return page;
   };
   try {
+    for (const [iso, image] of [
+      ['2027-02-08T05:30:00Z', 'after-lunch'],
+      ['2027-02-08T07:30:00Z', 'afternoon-tea'],
+      ['2027-02-08T08:30:00Z', 'coffee-break'],
+      ['2027-02-08T10:30:00Z', 'finishing-work'],
+      ['2027-02-08T12:30:00Z', 'gaming-time'],
+      ['2027-02-08T13:30:00Z', 'evening-teddy'],
+      ['2027-02-08T14:30:00Z', 'bedtime-pyjamas'],
+      ['2027-02-08T19:30:00Z', 'midnight-snack'],
+      ['2027-02-06T02:30:00Z', 'saturday-plant']
+    ]) {
+      for (const route of ['/fixture', '/login.html', '/paper3/2025-b2/index.html']) {
+        const nonHome = await pageAt(iso, null, 0, route);
+        assert.equal(await nonHome.locator('.eddy-global-overlay').count(), 0, `${image} stays off ${route}`);
+        await nonHome.evaluate(() => {
+          const eddy = window.EdmundEddyGlobalDialogue;
+          eddy.checkLunch(); eddy.checkTea(); eddy.checkNewTimedMoments(); eddy.checkWeekend(); eddy.checkEvening();
+        });
+        assert.equal(await nonHome.locator('.eddy-global-overlay').count(), 0, `${image} stays off ${route} after rechecking`);
+        await nonHome.close();
+      }
+      const home = await pageAt(iso);
+      assert.match(await home.locator('.eddy-global-art img').getAttribute('src'), new RegExp(image), `${image} still appears on the homepage`);
+      await home.close();
+    }
+    const rootHome = await pageAt('2027-02-10T08:30:00Z', null, 0, '/');
+    assert.match(await rootHome.locator('.eddy-global-art img').getAttribute('src'), /coffee-break/, 'the root URL is also the main page');
+    await rootHome.close();
+    const systemBreak = await pageAt('2027-02-11T07:30:00Z', null, 0, '/pomodoro-fixture');
+    assert.match(await systemBreak.locator('.eddy-global-art img').getAttribute('src'), /pomodoro-tomato/, 'the system Pomodoro break greeting still works');
+    await systemBreak.close();
+
     const beforeLunch = await pageAt('2026-10-26T04:59:00Z', { width: 375, height: 667 });
     const lunchArt = beforeLunch.locator('.eddy-global-art img');
     assert.equal(await lunchArt.count(), 0, '12:59 Hong Kong time is too early');

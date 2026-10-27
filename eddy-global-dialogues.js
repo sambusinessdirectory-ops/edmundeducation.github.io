@@ -134,6 +134,10 @@
       : minuteOfDay >= moment.startMinute && minuteOfDay < moment.endMinute;
   }
 
+  function isMainPage() {
+    return location.pathname === '/' || location.pathname === '/index.html';
+  }
+
   function stored(key) {
     try { return localStorage.getItem(key); } catch { return null; }
   }
@@ -201,6 +205,7 @@
     if (active || !document.body || document.hidden || document.querySelector('dialog[open]')) return;
     while (queue.length) {
       const next = queue.shift();
+      if (next.kind !== 'tomato' && !isMainPage()) continue;
       const timedMoment = timedMoments[next.kind];
       if (timedMoment) {
         const now = hongKongNow();
@@ -271,7 +276,7 @@
   }
 
   function checkTea() {
-    if (document.hidden) return;
+    if (document.hidden || !isMainPage()) return;
     const { day, hour } = hongKongNow();
     if (hour !== 15 || shownTeaDay === day || stored(teaStorageKey) === day || queue.some((item) => item.kind === 'tea' && item.day === day)) return;
     queue.unshift({ kind: 'tea', day });
@@ -279,7 +284,7 @@
   }
 
   function checkLunch() {
-    if (document.hidden) return;
+    if (document.hidden || !isMainPage()) return;
     const { day, hour } = hongKongNow();
     if (hour !== 13 || shownLunchDay === day || stored(lunchStorageKey) === day
       || queue.some((item) => item.kind === 'lunch' && item.day === day)) return;
@@ -288,7 +293,7 @@
   }
 
   function checkWeekend() {
-    if (document.hidden) return;
+    if (document.hidden || !isMainPage()) return;
     const { day, weekday } = hongKongNow();
     if (!['Saturday', 'Sunday'].includes(weekday) || shownWeekendDay === day || stored(weekendStorageKey) === day
       || queue.some((item) => item.kind === 'weekend' && item.day === day)) return;
@@ -297,7 +302,7 @@
   }
 
   function checkNewTimedMoments() {
-    if (document.hidden) return;
+    if (document.hidden || !isMainPage()) return;
     const now = hongKongNow();
     const { day } = now;
     const entry = Object.entries(timedMoments).find(([, moment]) => momentIsActive(moment, now));
@@ -310,7 +315,7 @@
   }
 
   function checkEvening() {
-    if (document.hidden) return;
+    if (document.hidden || !isMainPage()) return;
     const now = hongKongNow();
     if (now.hour === 21) {
       if (shownSleepyDay === now.day || stored(sleepyStorageKey) === now.day
