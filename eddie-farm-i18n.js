@@ -3,6 +3,8 @@
   const storageKey = "eddie-farm-language-v1";
   const messages = {
     en: {
+      trophyTitle: "Trophy rewards", trophyHelp: "Each module pays 20 coins at bronze, 30 more at silver and 50 more at gold. Each milestone is rewarded once, including trophies already earned.",
+      trophyCounts: "Milestones rewarded: Bronze {bronze} · Silver {silver} · Gold {gold}. Total trophy coins: {coins}.",
       pageTitle: "Edmund Coin System | EdmundEducation", skip: "Skip to content", switchSystem: "Switch learning system",
       library: "EDMUND STUDENT LIBRARY", pointsSystem: "Coin wallet", tagline: "A little progress, a growing farm.",
       back: "← Back to home", welcome: "WELCOME BACK", login: "Log in", loginHelp: "Use your usual EdmundEducation student account.",
@@ -15,6 +17,8 @@
       continueLogin: "Please log in to continue.", unexpectedError: "Something went wrong. Please refresh and try again."
     },
     "zh-Hant": {
+      trophyTitle: "獎座金幣獎勵", trophyHelp: "每課獲得銅獎座可得 20 金幣，升至銀獎座再得 30，升至金獎座再得 50。每個階段只獎勵一次，已獲得的獎座也會補發金幣。",
+      trophyCounts: "已獎勵階段：銅 {bronze} · 銀 {silver} · 金 {gold}。獎座累計獎勵：{coins} 金幣。",
       pageTitle: "Edmund Coin System 金幣錢包｜EdmundEducation", skip: "跳至主要內容", switchSystem: "切換學習系統",
       library: "EDMUND 學生學習平台", pointsSystem: "金幣錢包", tagline: "每天進步一點，讓農場慢慢成長。",
       back: "← 返回主頁", welcome: "歡迎回來", login: "登入", loginHelp: "請使用您現有的 EdmundEducation 學生帳戶登入。",

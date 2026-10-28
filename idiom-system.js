@@ -756,7 +756,7 @@ let horseyTrophies = null;
 function syncHorseyTrophies() {
   const root = document.querySelector('[data-idiom-map]');
   if (!root) return;
-  horseyTrophies ||= createHorseyTrophies({systemKey:'idiom',root,getLessons:lessonList,getMapLessons:() => lessonList().slice(0, 30),getOwner:()=>state.user?.id,getAttempts:progressAttempts,openLesson:id=>openLesson(id,{page:1})});
+  horseyTrophies ||= createHorseyTrophies({systemKey:'idiom',root,getLessons:lessonList,getMapLessons:() => lessonList().slice(0, 30),getOwner:()=>state.user?.id,getAttempts:()=>state.attempts,openLesson:id=>openLesson(id,{page:1})});
   horseyTrophies.sync();
 }
 
