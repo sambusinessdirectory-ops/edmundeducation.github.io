@@ -1,3 +1,5 @@
+import { createClassroomLiveSync } from './classroom-live-sync.mjs?v=20261028-1';
+let classroomLive;
 import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260915-phoebe2';
 import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260908-loading1";
 const ROOT = document.documentElement;
@@ -1291,6 +1293,7 @@ async function checkAnswer() {
 }
 
 function persistLessonState(lessonId) {
+  classroomLive?.publish();
   const record = lessonState(lessonId);
   const clockIsRunning = state.lessonId === lessonId && Boolean(state.lessonClockStartedAt);
   if (clockIsRunning) captureClockElapsed({ restart: true });
@@ -1528,3 +1531,14 @@ async function initialise() {
 initialise();
 
 installQuestionOrder({system:SYSTEM.key || location.pathname,owner:()=>state.user?.id,lessonId:()=>state.lessonId});
+
+classroomLive = createClassroomLiveSync({
+ system:'common-expressions', context:()=>({owner:state.user?.id,token:state.token,scope:state.currentView==='exercise'?SYSTEM_KEY+':'+state.lessonId:null,active:true}),rpc,
+ read:()=>({record:{...lessonState(state.lessonId),durationMs:0}}),
+ apply:payload=>{
+  if(payload.record?.lessonId!==state.lessonId)return;
+  const next=normalizeLessonState({state:payload.record});if(!next)return;
+  next.durationMs=lessonState(state.lessonId).durationMs;
+  state.states.set(state.lessonId,next);writeLocalSnapshot();renderQuestionList({preserveScroll:true});
+ }
+});

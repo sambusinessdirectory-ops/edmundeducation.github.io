@@ -1,3 +1,5 @@
+import { createClassroomLiveSync } from './classroom-live-sync.mjs?v=20261028-1';
+let classroomLive;
 import {PROVERB_BLACK_SAND} from './proverb-black-sand.mjs?v=20261017-r2-maps1';
 import { createExpressionMap } from './common-expression-map.mjs?v=20261017-r2-cors2';
 import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260915-phoebe2';
@@ -2145,6 +2147,7 @@ function serializeExerciseResult(exercise = state.exercise) {
 }
 
 async function persistExercise({ keepalive = false } = {}) {
+  if (state.exercise && Object.keys(state.exercise.questionState || {}).length) classroomLive?.publish();
   if (!state.exercise || state.user?.role !== "student") return;
   const operationExercise = state.exercise;
   const operationUserId = String(state.user.id || "");
@@ -2846,6 +2849,22 @@ async function initialise() {
     openRequestedHomeworkLesson();
   }
 }
+
+// Same account + lesson shares feedback and correction/next-round state.
+classroomLive = createClassroomLiveSync({
+ system: 'proverb',
+ context: () => ({owner: state.user?.role === 'student' ? state.user.id : null, token: state.authToken,
+  scope: state.currentView === 'lesson' && state.lessonPage === EXERCISE_PAGE ? state.lessonId : null, active: true}),
+ rpc: async (name, args) => { const client = await ensureSupabaseSession(); const {data,error} = await client.rpc(name,args); if(error) throw error; return data; },
+ read: () => state.exercise ? {exercise: {...state.exercise, durationMs: 0}} : null,
+ apply: payload => {
+  const next = payload?.exercise;
+  if (!next || next.lessonId !== state.lessonId || !Array.isArray(next.correctIds) || !next.questionState || !Array.isArray(next.rounds)) return;
+  pauseExerciseClock();
+  state.exercise = {...next, durationMs: Math.max(0, state.exercise?.durationMs || 0)};
+  renderExercisePage(getLesson(), {preserveScroll:true});
+ }
+});
 
 initialise().catch((error) => {
   console.error("Proverb System initialisation failed", error);

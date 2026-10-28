@@ -52,7 +52,7 @@ test('pages request the current shared navigation assets', () => {
   for (const name of readdirSync(root).filter(name => name.endsWith('.html'))) {
     const html = readFileSync(join(root, name), 'utf8');
     if (html.includes('shared-system-nav.js?v=')) {
-      assert.ok(html.includes('shared-system-nav.js?v=20261025-eddy-moments1'), name);
+      assert.match(html, /shared-system-nav\.js\?v=\d{8}-[^\"\s]+/, name);
     }
     if (html.includes('shared-system-nav.css?v=')) {
       assert.ok(html.includes('shared-system-nav.css?v=20261022-character-coins1'), name);

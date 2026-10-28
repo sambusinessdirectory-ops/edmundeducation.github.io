@@ -10,6 +10,7 @@
   let activeRole = "login";
   let accountName = "";
   let balance = null;
+  let trophies = null;
   let messageText = () => "";
   const status = () => { messageText = () => ""; $("status").textContent = ""; };
   const statusKey = (key, values = () => ({})) => { messageText = () => i18n.t(key, values()); $("status").textContent = messageText(); };
@@ -19,6 +20,7 @@
     $("name").textContent = activeRole === "admin" ? `${accountName} · ${i18n.t("adminBadge")}` : accountName;
     if (balance !== null) $("balance").textContent = Number(balance).toLocaleString(i18n.language === "en" ? "en-HK" : "zh-HK");
     $("status").textContent = messageText();
+    if ($("trophy-counts")) $("trophy-counts").textContent = trophies ? i18n.t("trophyCounts", trophies) : "—";
   }
   document.addEventListener("eddie-farm-language-change", translateState);
 
@@ -45,6 +47,7 @@
     if (!data) { view("login"); return false; }
     window.EdmundSystemNav.rememberStudentSession({ role: "student", id: data.id, name: data.name, token: window.EddieFarmAPI.student().token });
     balance = data.balance;
+    trophies = data.trophies;
     view("student", data.name);
     return true;
   }
@@ -164,7 +167,7 @@
   $("logout").addEventListener("click", async () => {
     if (adminToken) { try { await rpc("eddie_farm_admin_logout", { p_token: adminToken }); } catch { /* Clear local session regardless. */ } }
     else window.EdmundSystemNav.forgetStudentSession();
-    adminToken = ""; balance = null; sessionStorage.removeItem(adminKey); $("rules").replaceChildren(); $("cosmetic-catalog").replaceChildren(); $("balance").textContent = "—"; view("login"); status();
+    adminToken = ""; balance = null; trophies = null; sessionStorage.removeItem(adminKey); $("rules").replaceChildren(); $("cosmetic-catalog").replaceChildren(); $("balance").textContent = "—"; view("login"); status();
   });
   try {
     adminToken = sessionStorage.getItem(adminKey) || "";

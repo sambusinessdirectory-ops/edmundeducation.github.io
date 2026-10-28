@@ -287,7 +287,7 @@ function createFrontendHarness() {
 
   const initialisation = /\ninitialise\(\)\.catch\(\(error\) => \{[\s\S]*?\n\}\);\s*$/;
   assert.match(frontendSource.replace(/\ninstallQuestionOrder\([^\n]+\n?$/,''), initialisation, "test harness could not locate the frontend bootstrap");
-  const instrumented = "const orderQuestions=questions=>questions;\n"+frontendSource.replace(/^import [^\n]+\n/gm,'').replace(/import\.meta\.url/g,JSON.stringify("https://edmundeducation.com/sentence-structure.js")).replace(/\ninstallQuestionOrder\([^\n]+\n?$/,'').replace(initialisation, `
+  const instrumented = "const createClassroomLiveSync=()=>({publish(){}});const orderQuestions=questions=>questions;\n"+frontendSource.replace(/^import [^\n]+\n/gm,'').replace(/import\.meta\.url/g,JSON.stringify("https://edmundeducation.com/sentence-structure.js")).replace(/\ninstallQuestionOrder\([^\n]+\n?$/,'').replace(initialisation, `
 window.__SENTENCE_STRUCTURE_TEST__ = {
   state, elements, LESSON_PAGES, MAX_BOOKMARKS,
   getLesson, getQuestion, createExercise, exerciseFromAttempt,

@@ -408,7 +408,7 @@
       display: flex;
       align-items: center;
       gap: clamp(22px, 2.8vw, 52px);
-      padding-top: 0.2em;
+      padding-top: 36px;
     }
 
     .social-link {
@@ -435,6 +435,10 @@
       object-fit: contain;
     }
 
+    .instagram-followers {position:absolute;bottom:calc(100% + 10px);left:50%;transform:translateX(-50%);display:grid;justify-items:center;gap:1px;white-space:nowrap;line-height:1.2;color:#65366e;text-shadow:0 1px 8px #fff;}
+    .instagram-followers strong {font-size:27px;font-weight:800;font-variant-numeric:tabular-nums;}
+    .instagram-followers span {font-size:11px;font-weight:700;}
+    .instagram-followers time {font-size:10px;color:#596978;}
     .social-link.carousell {
       width: auto;
       border-radius: 0;
@@ -3184,7 +3188,8 @@
           <a class="social-link carousell" href="https://carousell.app.link/g2jaZvmwM2b" target="_blank" rel="noopener" aria-label="Carousell">
             <img src="assets/homepage-optimized/carousell-logo.webp" alt="Carousell" width="220" height="47" decoding="async">
           </a>
-          <a class="social-link" href="https://www.instagram.com/edmundeducationedu?igsh=MXhlc3FqbjBxYzIw&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram">
+          <a class="social-link" href="https://www.instagram.com/edmundeducationedu?igsh=MXhlc3FqbjBxYzIw&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram · 269 位粉絲" style="position:relative">
+            <span class="instagram-followers" data-instagram-followers title="Instagram 粉絲 · 最後成功更新：2026-10-28"><strong>269</strong><span>粉絲 Followers</span><time datetime="2026-10-28T05:16:34Z">更新 28/10</time></span>
             <img src="assets/homepage-optimized/instagram-logo.webp" alt="Instagram" width="160" height="156" decoding="async">
           </a>
           <a class="social-link" href="https://www.youtube.com/@learnenglishforfreehongkong" target="_blank" rel="noopener" aria-label="YouTube">
@@ -4303,5 +4308,6 @@
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
   <script src="announcement-rich-text.js?v=20261021-announcements4"></script>
   <script src="site-announcements.js?v=20261021-announcements3"></script>
+<script src="homepage-instagram-followers.js?v=20261028-1" defer></script>
 </body>
 </html>

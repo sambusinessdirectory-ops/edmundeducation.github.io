@@ -35,16 +35,43 @@ jobs:
       - name: Validate character coin fast release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[coin-release]') }}
         run: |
-          node --test tools/test-character-coins.mjs
+          node --test tools/test-character-coins.mjs tools/test-eddie-farm.mjs tools/test-eddie-farm-i18n.mjs
+          node --check eddie-farm.js
+          node --check idiom-system.js
           node --check shared-system-nav.js
           node --check shared-companion.mjs
 
       - name: Validate closet fast release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[flashcard-release]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[phrasal-release]') && !contains(github.event.head_commit.message, '[proverb-release]') && !contains(github.event.head_commit.message, '[idiom-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[grammar-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') && !contains(github.event.head_commit.message, '[homework-release]') && !contains(github.event.head_commit.message, '[reading-release]') && !contains(github.event.head_commit.message, '[listening-release]') && !contains(github.event.head_commit.message, '[professional-release]') && !contains(github.event.head_commit.message, '[paper3-release]') && !contains(github.event.head_commit.message, '[junior-release]') && !contains(github.event.head_commit.message, '[irregular-release]') && !contains(github.event.head_commit.message, '[news-release]') && !contains(github.event.head_commit.message, '[dse-arguments-release]') && !contains(github.event.head_commit.message, '[error-id-release]') && !contains(github.event.head_commit.message, '[coin-release]') && !contains(github.event.head_commit.message, '[homepage-rollback]') && !contains(github.event.head_commit.message, '[homepage-release]') }}
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[classroom-release]') && !contains(github.event.head_commit.message, '[flashcard-release]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[phrasal-release]') && !contains(github.event.head_commit.message, '[proverb-release]') && !contains(github.event.head_commit.message, '[idiom-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[grammar-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') && !contains(github.event.head_commit.message, '[homework-release]') && !contains(github.event.head_commit.message, '[reading-release]') && !contains(github.event.head_commit.message, '[listening-release]') && !contains(github.event.head_commit.message, '[professional-release]') && !contains(github.event.head_commit.message, '[paper3-release]') && !contains(github.event.head_commit.message, '[junior-release]') && !contains(github.event.head_commit.message, '[irregular-release]') && !contains(github.event.head_commit.message, '[news-release]') && !contains(github.event.head_commit.message, '[dse-arguments-release]') && !contains(github.event.head_commit.message, '[error-id-release]') && !contains(github.event.head_commit.message, '[coin-release]') && !contains(github.event.head_commit.message, '[homepage-rollback]') && !contains(github.event.head_commit.message, '[homepage-release]') }}
         run: |
           node tools/test-common-expression-closet.mjs
           node --test tools/test-eddy-cosmetics.mjs
           node tools/test-wardrobe-visual-acceptance.mjs
+
+      - name: Validate focused classroom synchronization release
+        if: ${{ contains(github.event.head_commit.message, '[classroom-release]') }}
+        run: |
+          npm ci --prefix tools/email-qa --ignore-scripts
+          node --check classroom-live-sync.mjs
+          node --check synonyms/app.mjs
+          node --check natural-english/app.mjs
+          node --check common-expression-system.js
+          node --check writing-submission.js
+          node --check sentence-structure.js
+          node --check idiom-system.js
+          node --check proverb-system.js
+          node --check phrasal-verb-system.js
+          node tools/test-classroom-live-sync.mjs
+          node tools/test-classroom-live-sync-sql.mjs
+          node tools/test-sentence-structure-system.mjs
+          node tools/test-idiom-system-runtime.mjs
+          node tools/test-proverb-system.mjs
+          node tools/test-phrasal-verb-system.mjs
+          node tools/test-phrasal-verb-six-choice.mjs
+          node tools/test-flashcard-state-integrity.mjs
+          node tools/build-flashcard-lazy-startup.mjs --check
+          node tools/test-writing-synonyms.mjs
+          node tools/test-advanced-native.mjs
 
       - name: Validate focused flashcard release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[flashcard-release]') }}

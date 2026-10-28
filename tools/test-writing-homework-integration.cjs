@@ -13,9 +13,9 @@ await p.evaluate(async()=>{
  const dialog=document.querySelector('#entry'),input=dialog.querySelector('textarea');window.saved=0;window.guard=mountEntryDraftGuard({dialog,input,getOriginal:()=>'',onSave:()=>{window.saved++;dialog.close();}});
 });
 await p.locator('.reference-pocket-trigger').click();await p.locator('[data-category="synonym-search"]').click();await p.getByRole('button',{name:'Synonym Search · 搜尋同義詞',exact:true}).click();
-await p.locator('#writing-synonyms-search').fill('important');await p.locator('[data-syn-results] article').first().waitFor();await p.locator('[data-syn-results] article').first().locator('summary').click();await p.locator('.writing-synonym-example').first().waitFor();
+await p.locator('#writing-synonyms-search').fill('important');await p.locator('[data-syn-results] article').first().waitFor();await p.locator('.syn-vocabulary-card').first().waitFor();
 assert.match(await p.locator('.example-en').first().textContent(),/significant/);assert.match(await p.locator('.example-zh').first().textContent(),/政策/);
-await p.setViewportSize({width:390,height:844});assert.ok(await p.locator('.writing-synonyms-dialog').evaluate(e=>e.scrollWidth<=e.clientWidth+1));
+await p.setViewportSize({width:390,height:844});assert.ok(await p.locator('.writing-synonyms-window').evaluate(e=>e.scrollWidth<=e.clientWidth+1));
 await p.locator('[data-syn-close]').click();
 await p.evaluate(()=>{document.querySelector('#entry').showModal();document.querySelector('textarea').value='x'.repeat(101);guard.requestClose();});
 assert.ok(await p.locator('.entry-draft-warning').evaluate(e=>e.open));await p.locator('[data-draft-keep]').click();assert.equal((await p.locator('textarea').inputValue()).length,101);

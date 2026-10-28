@@ -1,3 +1,5 @@
+import { createClassroomLiveSync } from '../classroom-live-sync.mjs?v=20261028-1';
+let classroomLive;
 if (new URLSearchParams(location.search).get('embed') === 'writing' && window.parent !== window) document.documentElement.classList.add('syn-writing-embed');
 import { importantModule } from './important-data.mjs?v=20260928-important1';
 import { socialMediaModule } from './social-media-data.mjs?v=20260929-social1';
@@ -246,11 +248,13 @@ function answer(letter) {
     document.dispatchEvent(new CustomEvent('edmund:eddy-module-complete'));
   if (correct) {host.classList.remove('syn-celebrate');void host.offsetWidth;host.classList.add('syn-celebrate');setTimeout(()=>host.classList.remove('syn-celebrate'),900);}
   host.querySelector('.syn-feedback')?.focus({preventScroll:true});
+  classroomLive?.publish();
 }
 function nextQuestion() {
   if (view !== 'question' || !choice) return;
   progress.cursor = Math.min(progress.order.length,progress.cursor+1); choice = null; saveLocal();
   if (progress.cursor >= progress.order.length) go('finish'); else {stopVoice();render();host.scrollIntoView({behavior:'smooth',block:'start'});}
+  classroomLive?.publish();
 }
 function stopVoice() { audioTicket++; audio.pause(); audio.removeAttribute('src'); if(activeAudioStatus?.isConnected)activeAudioStatus.textContent='';activeAudioStatus=null; }
 async function playClip(item,cacheKey,status) {
@@ -481,3 +485,14 @@ window.addEventListener('keydown',event=>{
   else if(event.key==='Escape'&&view==='question')go('guide');
 });
 syncSession();
+
+classroomLive = createClassroomLiveSync({
+ system:'synonyms', context:()=>({owner,token,scope:['question','finish'].includes(view)?moduleId:null,active:true}),
+ rpc:(name,args)=>window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc(name,args),
+ read:()=>({progress,choice,streak,view}),
+ apply: snapshot=>{
+  if (!snapshot.progress?.order?.every(id=>byId.has(id)) || !['question','finish'].includes(snapshot.view)) return;
+  progress=snapshot.progress; choice=snapshot.choice; streak=Number(snapshot.streak)||0; view=snapshot.view;
+  saveLocal(); stopVoice(); render();
+ }
+});

@@ -55,6 +55,7 @@ export function mountReferencePocket({host,getOwner,getGlossary,getHistory,appen
   const ticket=++sequence;const current=()=>ticket===sequence&&getOwner()===account;
   function updateProgress(value,label){if(!current())return;const amount=Math.max(0,Math.min(100,Math.round(value)));meter.value=amount;fill.style.transform=`scaleX(${amount/100})`;percent.textContent=`${amount}%`;status.textContent=label;}
   function finishLoading(){window.setTimeout(()=>{if(current())loading.hidden=true;},550);}
+  host.classList.toggle('is-synonym-search',category==='synonym-search');
   loading.hidden=false;fill.style.transition='none';fill.style.transform='scaleX(0)';void fill.offsetWidth;fill.style.transition='';updateProgress(0,'Loading · 正在載入帳戶資源…');content.replaceChildren();
   try{
    if(category==='synonym-search'){

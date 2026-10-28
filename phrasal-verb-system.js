@@ -1,3 +1,5 @@
+import { createClassroomLiveSync } from './classroom-live-sync.mjs?v=20261028-1';
+let classroomLive;
 import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260915-phoebe2';
 /*
  * Public lesson contract (provided by phrasal-verb-system-data.js):
@@ -3329,6 +3331,7 @@ function serializeExerciseResult(exercise = state.exercise) {
 }
 
 async function persistExercise({ keepalive = false } = {}) {
+  if (state.exercise && Object.keys(state.exercise.questionState || {}).length) classroomLive?.publish();
   if (!state.exercise || state.user?.role !== "student") return;
   const operationExercise = state.exercise;
   const operationUserId = String(state.user.id || "");
@@ -3403,13 +3406,14 @@ function scheduleExercisePersistence() {
 }
 
 function selectPhrasalChoice(questionId, form) {
+  queueMicrotask(() => classroomLive?.publish());
   const lesson = getLesson();
   if (!usesPhrasalChoices(lesson) || state.lessonPage !== EXERCISE_PAGE || !state.exercise) return;
   const question = lesson.questions.find((item) => item.id === questionId);
   if (!question || state.exercise.correctIds.includes(questionId)) return;
   if (!phrasalChoices(lesson, question).includes(form)) return;
   if (form !== question.targetForm) {
-    // Wrong guesses stay local. The server's historical sentence-answer format
+    // Wrong guesses share display state only. The server's historical sentence-answer format
     // reveals wrong answers, which would disclose this choice before success.
     state.exercise.drafts[questionId] = form;
     window.EdmundAnswerSound?.play(false);
@@ -4131,6 +4135,22 @@ async function initialise() {
     openRequestedHomeworkLesson();
   }
 }
+
+// Same account + lesson shares feedback and correction/next-round state.
+classroomLive = createClassroomLiveSync({
+ system: 'phrasal-verb',
+ context: () => ({owner: state.user?.role === 'student' ? state.user.id : null, token: state.authToken,
+  scope: state.currentView === 'lesson' && state.lessonPage === EXERCISE_PAGE ? state.lessonId : null, active: true}),
+ rpc: async (name, args) => { const client = await ensureSupabaseSession(); const {data,error} = await client.rpc(name,args); if(error) throw error; return data; },
+ read: () => state.exercise ? {exercise: {...state.exercise, durationMs: 0}} : null,
+ apply: payload => {
+  const next = payload?.exercise;
+  if (!next || next.lessonId !== state.lessonId || !Array.isArray(next.correctIds) || !next.questionState || !Array.isArray(next.rounds)) return;
+  pauseExerciseClock();
+  state.exercise = {...next, durationMs: Math.max(0, state.exercise?.durationMs || 0)};
+  renderExercisePage(getLesson(), {preserveScroll:true});
+ }
+});
 
 initialise().catch((error) => {
   console.error("Phrasal Verb System initialisation failed", error);

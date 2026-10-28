@@ -16,6 +16,8 @@ function sourceBetween(start, end) {
 function choiceContext(lesson) {
   const sounds = [];
   const context = {
+    queueMicrotask,
+    classroomLive: {publish(){}},
     window: { EdmundAnswerSound: { play: (correct) => sounds.push(correct) } },
     sounds,
     CONTENT: { lessons },

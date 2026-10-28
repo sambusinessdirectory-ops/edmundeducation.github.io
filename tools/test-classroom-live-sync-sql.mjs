@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';import fs from 'node:fs';import {createRequire} from 'node:module';import {randomUUID} from 'node:crypto';
+const require=createRequire(new URL('./email-qa/package.json',import.meta.url));const {PGlite}=require('@electric-sql/pglite');const db=new PGlite();
+await db.exec(`create role anon;create role authenticated;create schema auth;create function auth.uid() returns uuid language sql as $$select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid$$;create function public.flashcard_session_student_id(uuid) returns uuid language sql as $$select case when $1 in ('aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa'::uuid,'bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb'::uuid) then $1 end$$;`);
+await db.exec(fs.readFileSync(new URL('../supabase/migrations/20261028051515_classroom_live_sync.sql',import.meta.url),'utf8'));
+await db.exec(fs.readFileSync(new URL('../supabase/migrations/20261028053118_classroom_live_retry_receipts.sql',import.meta.url),'utf8'));
+const a='aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa',b='bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb';
+const call=async({token=a,system='synonyms',scope='important',since=0,payload=null,mutation=null}={})=>(await db.query('select public.classroom_live_sync($1,$2,$3,$4,$5,$6) result',[token,system,scope,since,payload===null?null:JSON.stringify(payload),mutation])).rows[0].result;
+await assert.rejects(call(),/Sign in required/);await db.query("select set_config('request.jwt.claim.sub',$1,false)",[randomUUID()]);await assert.rejects(call({token:randomUUID()}),/expired/);
+const mutation=randomUUID(),payload={feedback:'correct'};const first=await call({payload,mutation});assert.deepEqual(first.payload,payload);assert.equal((await call({since:first.revision})).payload,null);
+assert.equal((await call({payload,mutation})).revision,first.revision);assert.equal((await call({token:b})).revision,0);assert.equal((await call({scope:'other'})).revision,0);
+const next=await call({payload:{feedback:null},mutation:randomUUID()});assert.ok(next.revision>first.revision);
+assert.equal((await call({payload,mutation})).revision,next.revision,'a delayed retry cannot rewind a newer device update');
+await assert.rejects(call({system:'invented'}),/Invalid classroom scope/);await assert.rejects(call({payload:[],mutation:randomUUID()}),/Invalid classroom state/);await assert.rejects(call({payload:{large:'x'.repeat(524289)},mutation:randomUUID()}),/Invalid classroom state/);
+await db.exec("update classroom_private.live_state set updated_at=now()-interval '25 hours'");assert.equal((await call()).revision,0);
+const grants=(await db.query("select has_table_privilege('authenticated','classroom_private.live_state','select') direct,has_function_privilege('anon','public.classroom_live_sync(uuid,text,text,bigint,jsonb,uuid)','execute') anonymous,has_function_privilege('authenticated','public.classroom_live_sync(uuid,text,text,bigint,jsonb,uuid)','execute') authenticated")).rows[0];assert.deepEqual(grants,{direct:false,anonymous:false,authenticated:true});
+console.log('PASS classroom SQL: authenticated account isolation, incremental reads, idempotence, scope/payload limits, expiry and restricted grants.');await db.close();
