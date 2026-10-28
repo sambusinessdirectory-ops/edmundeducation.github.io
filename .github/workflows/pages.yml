@@ -125,7 +125,9 @@ jobs:
           grep -Fq 'proverb-purple-spellbook-login-frame-v1.webp' proverb-system.css
           grep -Fq '20261022-purple-spellbook1' proverb-system.html
           node --check proverb-system.js
-          node --test tools/test-proverb-system.mjs tools/test-proverb-black-sand.mjs
+          node --test tools/test-proverb-system.mjs tools/test-proverb-black-sand.mjs tools/test-proverb-curation.mjs
+          node --check proverb-curation-review.mjs
+          node --check proverb-curation-core.mjs
 
       - name: Validate focused Polysemy release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[polysemy-release]') }}

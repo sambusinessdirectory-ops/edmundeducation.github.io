@@ -1,0 +1,2418 @@
+{
+  "id": "proverb-02",
+  "titleEn": "Every Man Has His Price",
+  "titleZh": "人人都有價碼",
+  "version": "2026-10-28.1",
+  "items": [
+    {
+      "id": "proverb-02-q01",
+      "number": 1,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q01",
+        "prompt": "The businessman believed that anyone could be persuaded to act dishonestly if enough money was offered.",
+        "answer": "The businessman believed that every man has his price."
+      },
+      "promptEn": "The businessman believed that anyone could be persuaded to act dishonestly if enough money was offered.",
+      "promptZh": "那名商人認為，只要有人出足夠的錢，任何人都可以被說服做不誠實的事。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The businessman believed that every man has his price: enough money could buy anyone’s honesty.",
+          "reasonZh": "商人相信足夠金錢能收買任何人；句子把這當成他的信念。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The businessman proved that every man has his price: enough money could buy anyone’s honesty.",
+          "reasonZh": "相信不等於證明。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The businessman believed that every man has his price: enough money could pay anyone’s ordinary salary.",
+          "reasonZh": "諺語涉及出賣原則，不是正常薪金。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Everyone he met believed that every man has his price: enough money could buy anyone’s honesty.",
+          "reasonZh": "不能把一人的信念套在所有認識的人身上。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q02",
+      "number": 2,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q02",
+        "prompt": "The gang leader said that nobody would stay loyal if the reward became large enough.",
+        "answer": "The gang leader said that every man has his price."
+      },
+      "promptEn": "The gang leader said that nobody would stay loyal if the reward became large enough.",
+      "promptZh": "那名幫派首領說，只要報酬夠高，沒有人會一直保持忠誠。",
+      "options": [
+        {
+          "id": "key",
+          "text": "“Every man has his price,” said the gang leader, claiming that a large enough reward would overcome anyone’s loyalty.",
+          "reasonZh": "首領聲稱高報酬足以打破任何人的忠誠，保留引述立場。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "“Every man has his price,” said the gang leader, demonstrating conclusively that a large enough reward would overcome anyone’s loyalty.",
+          "reasonZh": "聲稱不是確證。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "“Every man has his price,” said the gang leader, claiming that a large enough reward would reward everyone’s loyal service.",
+          "reasonZh": "收買背叛不同於獎勵忠誠服務。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "“Every man has his price,” said every gang member, claiming that a large enough reward would overcome anyone’s loyalty.",
+          "reasonZh": "只有首領發言，沒有全體成員的立場。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q03",
+      "number": 3,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q03",
+        "prompt": "According to the reporter, the politician thought that any person could be bought.",
+        "answer": "According to the reporter, the politician believed that every man has his price."
+      },
+      "promptEn": "According to the reporter, the politician thought that any person could be bought.",
+      "promptZh": "據記者所說，那名政治人物認為任何人都可以被收買。",
+      "options": [
+        {
+          "id": "key",
+          "text": "According to the reporter, the politician believed that every man has his price: anyone could be bought.",
+          "reasonZh": "記者轉述政治人物的信念；不是記者自己承認可被收買。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "According to the reporter, the reporter believed that every man has his price: anyone could be bought.",
+          "reasonZh": "把被報道者的想法錯歸給記者。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "According to the reporter, the politician believed that every man has his price: anyone should receive a fair wage.",
+          "reasonZh": "可被收買不是應獲公平工資。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "According to the reporter, the politician had conclusively proved that every man has his price: anyone could be bought.",
+          "reasonZh": "原文只有信念，沒有普遍證明。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q04",
+      "number": 4,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q04",
+        "prompt": "The shop owner thought even honest inspectors would change their minds for enough money. He trusted money more than principles.",
+        "answer": "The shop owner believed that every man has his price."
+      },
+      "promptEn": "The shop owner thought even honest inspectors would change their minds for enough money. He trusted money more than principles.",
+      "promptZh": "店主認為，只要金額足夠，就連誠實的檢查員也會改變主意。他相信金錢多於原則。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Trusting money more than principles, the shop owner believed that every man has his price, even honest inspectors.",
+          "reasonZh": "店主認為連誠實檢查員也能收買，並非敘述檢查員已收錢。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Trusting money only for legitimate wages, the shop owner believed that every man has his price, even honest inspectors.",
+          "reasonZh": "原文是金錢壓過原則，不是合法薪金用途。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Trusting money more than principles, the shop owner had proved that every man has his price, even honest inspectors.",
+          "reasonZh": "沒有證據顯示所有人已接受賄賂。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Trusting money more than principles, the shop owner believed that every man has his price, but never honest inspectors.",
+          "reasonZh": "even 包括誠實檢查員；but never 把他們排除。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q05",
+      "number": 5,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q05",
+        "prompt": "Liam said that anyone’s loyalty could be bought with the right offer.",
+        "answer": "Liam said that every man has his price."
+      },
+      "promptEn": "Liam said that anyone’s loyalty could be bought with the right offer.",
+      "promptZh": "利亞姆說，只要條件合適，任何人的忠誠都可以被收買。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Liam said that every man has his price: the right offer could buy anyone’s loyalty.",
+          "reasonZh": "利亞姆把忠誠視為可收買；保留 said 的發言者。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Liam said that every man has his price: the right offer could set everyone’s hourly wage.",
+          "reasonZh": "諺語不是時薪定價。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Liam’s friends all agreed that every man has his price: the right offer could buy anyone’s loyalty.",
+          "reasonZh": "原文沒有朋友一致同意。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Liam said that every man has his price: every small offer would buy anyone’s loyalty.",
+          "reasonZh": "條件合適不等於隨便一筆小錢都行。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q06",
+      "number": 6,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q06",
+        "prompt": "The film presents a dark idea: no person’s principles are completely safe from money.",
+        "answer": "The film presents the dark idea that every man has his price."
+      },
+      "promptEn": "The film presents a dark idea: no person’s principles are completely safe from money.",
+      "promptZh": "這齣電影提出一個陰暗的想法：沒有人的原則能完全不受金錢影響。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The film presents the dark idea that every man has his price, with money threatening anyone’s principles.",
+          "reasonZh": "電影呈現陰暗觀點；不是以電影證明全人類都如此。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The film establishes the scientific fact that every man has his price, with money threatening anyone’s principles.",
+          "reasonZh": "故事觀點不是科學定律。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The film presents the dark idea that every man has his price, with money guaranteeing everyone a fair wage.",
+          "reasonZh": "重點是原則受收買，不是薪酬公平。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The film presents the cheerful compliment that every man has his price, with money threatening anyone’s principles.",
+          "reasonZh": "這是犬儒想法，不是愉快的讚美。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q07",
+      "number": 7,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q07",
+        "prompt": "Some people think everyone has a point at which money becomes more important than honesty.",
+        "answer": "Some people think that every man has his price."
+      },
+      "promptEn": "Some people think everyone has a point at which money becomes more important than honesty.",
+      "promptZh": "有些人認為，每個人都有一個金錢會變得比誠實更重要的臨界點。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Some people think that every man has his price: honesty can lose to money if the offer is large enough.",
+          "reasonZh": "有些人的想法是金額達到門檻就會放棄誠實；不代表全體共識。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "All people think that every man has his price: honesty can lose to money if the offer is large enough.",
+          "reasonZh": "some 不等於 all。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Some people have proved that every man has his price: honesty can lose to money if the offer is large enough.",
+          "reasonZh": "想法未經普遍證明。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Some people think that every man has his price: honesty deserves a decent salary if the offer is large enough.",
+          "reasonZh": "放棄誠實不同於以誠實工作換取薪水。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q08",
+      "number": 8,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q08",
+        "prompt": "The dishonest coach was sure he could buy anyone’s support. He only needed to offer enough.",
+        "answer": "The dishonest coach was sure that every man has his price."
+      },
+      "promptEn": "The dishonest coach was sure he could buy anyone’s support. He only needed to offer enough.",
+      "promptZh": "那名不誠實的教練肯定自己可以收買任何人的支持；他只需要提出足夠高的條件。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The dishonest coach was sure that every man has his price and that a sufficient offer could buy anyone’s support.",
+          "reasonZh": "教練自信能收買支持；不是已經成功買通所有人。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The dishonest coach had proved to everyone that every man has his price and that a sufficient offer could buy anyone’s support.",
+          "reasonZh": "自信不等於向所有人證實。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The dishonest coach was sure that every man has his price and that a sufficient offer could pay every player fairly.",
+          "reasonZh": "買通支持不是公平支付球員薪金。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The dishonest coach was sure that every man has his price and that any tiny offer could buy anyone’s support.",
+          "reasonZh": "足夠的金額不等於任意小額。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q09",
+      "number": 9,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q09",
+        "prompt": "“Offer him more,” the dealer said. “Anyone can be bought.”",
+        "answer": "“Every man has his price,” the dealer said."
+      },
+      "promptEn": "“Offer him more,” the dealer said. “Anyone can be bought.”",
+      "promptZh": "「再多給他一點吧，」那名商人說。「任何人都可以被收買。」",
+      "options": [
+        {
+          "id": "key",
+          "text": "“Offer him more—every man has his price,” the dealer said, treating the refusal as something a bigger bribe could overcome.",
+          "reasonZh": "加碼反映商人相信拒絕能被金錢突破，不是尊重不可收買的原則。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "“Offer him more—every man has his price,” the dealer said, treating the refusal as something no amount of money could overcome.",
+          "reasonZh": "這會把商人的信念反轉。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "“Offer him more—every man has his price,” the man being bribed admitted, treating the refusal as something a bigger bribe could overcome.",
+          "reasonZh": "原文是出價者說，不是受賄對象承認。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "“Offer him more—every man has his price,” the dealer said, treating the refusal as something a fair hourly wage could overcome.",
+          "reasonZh": "賄賂不是正常時薪。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q10",
+      "number": 10,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q10",
+        "prompt": "The novel’s villain believes that enough money can make any person betray their values.",
+        "answer": "The novel’s villain believes that every man has his price."
+      },
+      "promptEn": "The novel’s villain believes that enough money can make any person betray their values.",
+      "promptZh": "小說中的反派相信，只要金額足夠，任何人都會背棄自己的價值觀。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The novel’s villain believes that every man has his price: enough money can make anyone betray their values.",
+          "reasonZh": "反派相信金錢能換取背叛；這是角色觀點。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Every reader of the novel believes that every man has his price: enough money can make anyone betray their values.",
+          "reasonZh": "不能替所有讀者宣稱同意。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The novel’s villain proves as a universal fact that every man has his price: enough money can make anyone betray their values.",
+          "reasonZh": "角色相信不等於普遍事實。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The novel’s villain believes that every man has his price: enough money can make anyone receive fair payment for honest work.",
+          "reasonZh": "出賣價值觀不是誠實工作的報酬。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q11",
+      "number": 11,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q11",
+        "prompt": "At first, Nora thought everyone could be bribed if the offer was high enough.",
+        "answer": "At first, Nora believed that every man has his price."
+      },
+      "promptEn": "At first, Nora thought everyone could be bribed if the offer was high enough.",
+      "promptZh": "最初，諾拉認為只要出價夠高，任何人都可以被賄賂。",
+      "options": [
+        {
+          "id": "key",
+          "text": "At first, Nora believed that every man has his price and that a high enough offer could bribe anyone.",
+          "reasonZh": "At first 保留最初的立場，沒有替她現在的想法下結論。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "To this day, Nora believed that every man has his price and that a high enough offer could bribe anyone.",
+          "reasonZh": "原文只說最初，沒有現在仍相信的證據。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "At first, Nora believed that every man has his price and that a high enough offer could support anyone through a fair wage.",
+          "reasonZh": "bribe 是收買，不是公平薪金支持。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "At first, Nora demonstrated beyond doubt that every man has his price and that a high enough offer could bribe anyone.",
+          "reasonZh": "信念不能改成無疑證明。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q12",
+      "number": 12,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q12",
+        "prompt": "The boss does not accept a final refusal. He still thinks nobody is completely beyond the reach of money.",
+        "answer": "The boss still thinks that every man has his price."
+      },
+      "promptEn": "The boss does not accept a final refusal. He still thinks nobody is completely beyond the reach of money.",
+      "promptZh": "老闆不接受最後的拒絕。他仍然認為沒有人能完全不受金錢影響。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The boss still thinks that every man has his price, so he refuses to accept a final no.",
+          "reasonZh": "老闆仍相信加碼有效，拒絕把 no 當成最後答案。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The boss no longer thinks that every man has his price, so he refuses to accept a final no.",
+          "reasonZh": "still 是仍然，並非不再相信。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The boss still thinks that every man has his price, so he has learned to respect a final no.",
+          "reasonZh": "原文不接受最後拒絕，並非學會尊重。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The boss still thinks that every man has his price, so he refuses to accept a request for ordinary wages.",
+          "reasonZh": "這是收買被拒，不是員工要求正常工資。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q13",
+      "number": 13,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q13",
+        "prompt": "The speaker will argue that all people can be bought if the offer is large enough.",
+        "answer": "The speaker will argue that every man has his price."
+      },
+      "promptEn": "The speaker will argue that all people can be bought if the offer is large enough.",
+      "promptZh": "那名講者將會主張，只要出價夠高，所有人都可以被收買。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The speaker will argue that every man has his price and that anyone can be bought with a large enough offer.",
+          "reasonZh": "will argue 是將要提出的論點，不是已完成的證明。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The speaker has already proved that every man has his price and that anyone can be bought with a large enough offer.",
+          "reasonZh": "時態和證據強度都被改動。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The speaker will argue that every man has his price and that anyone can be paid a fair salary with a large enough offer.",
+          "reasonZh": "bought 在此是收買，而不是合理薪金。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The speaker will argue that every man has his price and that anyone can be bought with the smallest possible offer.",
+          "reasonZh": "原文需要足夠大的報酬，不是最低金額。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q14",
+      "number": 14,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q14",
+        "prompt": "The detective has seen many people accept bribes. He has always believed that nobody is completely safe from temptation.",
+        "answer": "The detective has always believed that every man has his price."
+      },
+      "promptEn": "The detective has seen many people accept bribes. He has always believed that nobody is completely safe from temptation.",
+      "promptZh": "那名偵探見過很多人收受賄賂；他一直相信沒有人能完全抵抗誘惑。",
+      "options": [
+        {
+          "id": "key",
+          "text": "After seeing many bribes accepted, the detective still holds his longstanding belief that every man has his price.",
+          "reasonZh": "多次目睹賄賂與他一直持有的信念一致，不能寫成剛開始相信。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "After seeing many bribes accepted, the detective still holds his newly adopted belief that every man has his price.",
+          "reasonZh": "原文 has always believed，不是新信念。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "After seeing every bribe in history accepted, the detective still holds his longstanding belief that every man has his price.",
+          "reasonZh": "many 不能擴大成歷史上每次賄賂。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "After seeing many bribes accepted, the detective still holds his longstanding conclusive proof that every man has his price.",
+          "reasonZh": "眾多案例仍不足以證明任何人都會收受賄賂。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q15",
+      "number": 15,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q15",
+        "prompt": "A: Why does Victor keep raising the offer? B: He thinks anyone will agree when enough money is offered.",
+        "answer": "He thinks that every man has his price."
+      },
+      "promptEn": "A: Why does Victor keep raising the offer? B: He thinks anyone will agree when enough money is offered.",
+      "promptZh": "甲：為甚麼維克托不斷提高出價？乙：他認為只要金額足夠，任何人都會答應。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Victor keeps raising the offer because he thinks every man has his price and will agree at a high enough amount.",
+          "reasonZh": "加碼行動與維克托的信念連結；沒有說對方已答應。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Victor keeps raising the offer because he has proved every man has his price and will agree at a high enough amount.",
+          "reasonZh": "原文是維克托相信，不是證明。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Victor keeps raising the offer because he thinks every man has his price and has already accepted the first offer.",
+          "reasonZh": "原文未說已接受首筆出價。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Victor keeps reducing the offer because he thinks every man has his price and will agree at a high enough amount.",
+          "reasonZh": "題目說持續提高，不是降低出價。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q16",
+      "number": 16,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q16",
+        "prompt": "Does Marcus really believe that anyone can be bought?",
+        "answer": "Does Marcus really believe that every man has his price?"
+      },
+      "promptEn": "Does Marcus really believe that anyone can be bought?",
+      "promptZh": "馬庫斯真的相信任何人都可以被收買嗎？",
+      "options": [
+        {
+          "id": "key",
+          "text": "Does Marcus really believe that every man has his price—that anyone can be bought?",
+          "reasonZh": "保留疑問句，並把 price 理解為收買門檻。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Marcus certainly believes that every man has his price—that anyone can be bought?",
+          "reasonZh": "提問不等於確認他的信念。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Does Marcus really believe that every man has his price—that everyone deserves a salary?",
+          "reasonZh": "原文問能否收買，不是薪金權利。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Does everyone Marcus knows really believe that every man has his price—that anyone can be bought?",
+          "reasonZh": "原文只問馬庫斯本人。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q17",
+      "number": 17,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q17",
+        "prompt": "People often repeat a cynical saying which claims that everyone can be bribed.",
+        "answer": "People often say that every man has his price."
+      },
+      "promptEn": "People often repeat a cynical saying which claims that everyone can be bribed.",
+      "promptZh": "人們經常重複一句很悲觀的說法，聲稱所有人都可以被賄賂。",
+      "options": [
+        {
+          "id": "key",
+          "text": "People often repeat the cynical saying “every man has his price,” which claims that anyone can be bribed.",
+          "reasonZh": "常被重複的犬儒說法不因此成為事實。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "People always repeat the cynical saying “every man has his price,” which claims that anyone can be bribed.",
+          "reasonZh": "often 不等於每次。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "People often repeat the cynical saying “every man has his price,” which proves that anyone can be bribed.",
+          "reasonZh": "諺語聲稱一件事，不會自動證明它。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "People often repeat the respectful compliment “every man has his price,” which claims that anyone can be bribed.",
+          "reasonZh": "質疑人人的操守不是尊重的讚美。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q18",
+      "number": 18,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q18",
+        "prompt": "Grace refuses to accept the claim that everyone can be bought.",
+        "answer": "Grace refuses to believe that every man has his price."
+      },
+      "promptEn": "Grace refuses to accept the claim that everyone can be bought.",
+      "promptZh": "格蕾絲拒絕接受「所有人都可以被收買」這個說法。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Grace refuses to believe that every man has his price; she rejects the claim that everyone can be bought.",
+          "reasonZh": "格蕾絲拒絕人人可被收買的主張。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Grace is eager to prove that every man has his price; she rejects the claim that everyone can be bought.",
+          "reasonZh": "拒絕相信與熱衷證明相反。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Grace refuses to believe that every man has his price; she rejects the claim that anyone deserves an honest wage.",
+          "reasonZh": "她反對的是收買論，並非誠實工作應獲報酬。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Everyone in her town refuses to believe that every man has his price; she rejects the claim that everyone can be bought.",
+          "reasonZh": "不能把她的立場擴大到全鎮。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q19",
+      "number": 19,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q19",
+        "prompt": "The lawyer knew money could influence many people, but he rejected the idea that it could influence everyone.",
+        "answer": "The lawyer knew money could influence many people, but he rejected the idea that every man has his price."
+      },
+      "promptEn": "The lawyer knew money could influence many people, but he rejected the idea that it could influence everyone.",
+      "promptZh": "那名律師知道金錢可以影響很多人，但他不接受金錢可以影響所有人的想法。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The lawyer knew money could influence many people, but he rejected the idea that every man has his price.",
+          "reasonZh": "many 與 everyone 的範圍差異構成律師的立場。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The lawyer knew money could influence nobody, but he rejected the idea that every man has his price.",
+          "reasonZh": "律師承認可影響許多人，並非無人。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The lawyer knew money could influence many people, but he endorsed the idea that every man has his price.",
+          "reasonZh": "他否定普遍主張，不是支持。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The lawyer had no idea whether money could influence many people, but he rejected the idea that every man has his price.",
+          "reasonZh": "原文明說他知道金錢能影響許多人。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q20",
+      "number": 20,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q20",
+        "prompt": "A: The agent says the judge will agree if we offer enough. B: That is a terrible belief about people.",
+        "answer": "The agent seems to believe that every man has his price."
+      },
+      "promptEn": "A: The agent says the judge will agree if we offer enough. B: That is a terrible belief about people.",
+      "promptZh": "甲：那名代理人說，只要我們出價夠高，法官便會答應。乙：這種看法實在把人想得太差。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The agent seems to believe that every man has his price, expecting enough money to secure the judge’s agreement.",
+          "reasonZh": "這是代理人的推斷；對話另一人批評這種信念。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Both speakers seems to believe that every man has his price, expecting enough money to secure the judge’s agreement.",
+          "reasonZh": "另一位說話者批評這信念，不是雙方同意。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The agent seems to believe that every man has his price, having already obtained enough money to secure the judge’s agreement.",
+          "reasonZh": "原文是預期同意，並非已得到。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The agent seems to believe that every man has his price, expecting a stronger legal argument to secure the judge’s agreement.",
+          "reasonZh": "代理人提的是出價，而非法律論證。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q21",
+      "number": 21,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q21",
+        "prompt": "A: Why did the criminal offer the guard more and more money? B: He thought everyone had an amount they would accept.",
+        "answer": "He thought that every man has his price."
+      },
+      "promptEn": "A: Why did the criminal offer the guard more and more money? B: He thought everyone had an amount they would accept.",
+      "promptZh": "甲：為甚麼那名罪犯向守衛提出愈來愈高的金額？乙：他認為每個人都有一個會接受的價碼。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The criminal kept offering the guard more money, believing that every man has his price.",
+          "reasonZh": "不斷加碼反映罪犯的想法，沒有說守衛最終收錢。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The criminal kept offering the guard more money, conclusively proving that every man has his price.",
+          "reasonZh": "出價本身不能證明對方會接受。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The criminal stopped offering the guard more money, believing that every man has his price.",
+          "reasonZh": "原文持續加碼，不是停止。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The guard kept offering the guard more money, believing that every man has his price.",
+          "reasonZh": "持有這信念的是行賄者，不是守衛。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q22",
+      "number": 22,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q22",
+        "prompt": "A wealthy buyer kept increasing his offer. He believed even a loyal worker could be persuaded to betray the company.",
+        "answer": "The wealthy buyer acted as if every man has his price."
+      },
+      "promptEn": "A wealthy buyer kept increasing his offer. He believed even a loyal worker could be persuaded to betray the company.",
+      "promptZh": "一名富有的買家不斷提高出價。他相信就連忠誠的員工也可以被說服背叛公司。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The wealthy buyer acted as if every man has his price, raising his offer to make a loyal worker betray the company.",
+          "reasonZh": "出價者相信忠誠可被買走；betray 的目的有保留。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The wealthy buyer acted as if every man has his price, raising his offer after successfully making a loyal worker betray the company.",
+          "reasonZh": "原文沒有說成功令工人背叛。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The wealthy buyer acted as if every man has his price, raising his offer to make a loyal worker remain loyal to the company.",
+          "reasonZh": "收買目的正是背叛，不是維持忠誠。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The wealthy buyer acted as if every man has his price, withdrawing his offer to make a loyal worker betray the company.",
+          "reasonZh": "原文提高出價，不是撤回。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q23",
+      "number": 23,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q23",
+        "prompt": "The character laughs at honesty and says that a large enough reward can break anyone’s principles.",
+        "answer": "The character laughs at honesty because he believes that every man has his price."
+      },
+      "promptEn": "The character laughs at honesty and says that a large enough reward can break anyone’s principles.",
+      "promptZh": "那個角色嘲笑誠實，並說只要報酬夠高，任何人的原則都會被打破。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The character laughs at honesty because he believes every man has his price and enough money can break anyone’s principles.",
+          "reasonZh": "角色嘲笑誠實，因他相信金錢能打破原則。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The character respectfully celebrates honesty because he believes every man has his price and enough money can break anyone’s principles.",
+          "reasonZh": "嘲笑不是尊重地讚揚。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The character laughs at honesty because he proves beyond dispute every man has his price and enough money can break anyone’s principles.",
+          "reasonZh": "角色的判斷不構成普遍證明。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The character laughs at honesty because he believes every man has his price and enough money can pay everyone for honest work.",
+          "reasonZh": "違背原則與誠實工作報酬不同。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q24",
+      "number": 24,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q24",
+        "prompt": "Why does the businessman never accept a final no? He believes a better offer will change anyone’s answer.",
+        "answer": "The businessman never accepts a final no because he believes that every man has his price."
+      },
+      "promptEn": "Why does the businessman never accept a final no? He believes a better offer will change anyone’s answer.",
+      "promptZh": "為甚麼那名商人從不接受最後的拒絕？他相信提出更好的條件便能改變任何人的答案。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The businessman never accepts a final no: he believes every man has his price and a better offer will change any answer.",
+          "reasonZh": "不接受最後拒絕是其加碼信念的結果。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The businessman always respects a final no: he believes every man has his price and a better offer will change any answer.",
+          "reasonZh": "原文不接受，並非尊重最後拒絕。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The businessman never accepts a final no: he has demonstrated universally every man has his price and a better offer will change any answer.",
+          "reasonZh": "一人相信不能改成普遍驗證。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The businessman never accepts a final no: he believes every man has his price and a polite thank-you will change any answer.",
+          "reasonZh": "題目指提高利益，不是禮貌道謝。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q25",
+      "number": 25,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q25",
+        "prompt": "A: I would never sell my friend’s secret. B: The villain says you would if the offer were high enough.",
+        "answer": "The villain believes that every man has his price."
+      },
+      "promptEn": "A: I would never sell my friend’s secret. B: The villain says you would if the offer were high enough.",
+      "promptZh": "甲：我絕不會出賣朋友的秘密。乙：那個反派說，只要出價夠高，你便會這樣做。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The villain says “every man has his price,” predicting that a high enough offer would make the speaker sell a friend’s secret.",
+          "reasonZh": "是反派的預測；說話者自己宣稱絕不出賣朋友。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The speaker says “every man has his price,” predicting that a high enough offer would make the speaker sell a friend’s secret.",
+          "reasonZh": "把反派觀點錯歸給反對它的人。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The villain says “every man has his price,” reporting a completed sale that a high enough offer would make the speaker sell a friend’s secret.",
+          "reasonZh": "原文只是預測，不是已售出秘密。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The villain says “every man has his price,” predicting that any token payment would make the speaker sell a friend’s secret.",
+          "reasonZh": "足夠高的出價不等於象徵性小額。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q26",
+      "number": 26,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q26",
+        "prompt": "Ethan offered the nurse money, but she reported him at once. His belief that anyone could be bought was clearly wrong.",
+        "answer": "Ethan believed that every man has his price, but the nurse proved him wrong."
+      },
+      "promptEn": "Ethan offered the nurse money, but she reported him at once. His belief that anyone could be bought was clearly wrong.",
+      "promptZh": "伊森向護士提出金錢，但她立即舉報了他。他那種「任何人都可以被收買」的想法明顯是錯的。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Ethan believed that every man has his price, but the nurse reported his offer at once and showed his belief was wrong.",
+          "reasonZh": "護士立即舉報，構成反例，而不是接受賄賂。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Ethan believed that every man has his price, but the nurse accepted his offer at once and showed his belief was wrong.",
+          "reasonZh": "原文是舉報，不是收錢。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Ethan believed that every man has his price, but the nurse reported his offer only after months of negotiation and showed his belief was wrong.",
+          "reasonZh": "原文立刻舉報，沒有數月談判。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Ethan believed that every man has his price, but the nurse reported his offer at once and showed his belief was correct.",
+          "reasonZh": "拒收並舉報反駁了人人可收買的主張。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q27",
+      "number": 27,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q27",
+        "prompt": "The officer turned down every offer. This challenges the cynical idea that everybody can be bribed.",
+        "answer": "The officer’s refusal challenges the idea that every man has his price."
+      },
+      "promptEn": "The officer turned down every offer. This challenges the cynical idea that everybody can be bribed.",
+      "promptZh": "那名人員拒絕了所有出價。這件事挑戰了「所有人都可以被賄賂」這個悲觀想法。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The officer’s refusal of every offer challenges the saying “every man has his price.”",
+          "reasonZh": "所有出價都被拒，挑戰人人可被收買的觀點。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The officer’s refusal of only the first offer challenges the saying “every man has his price.”",
+          "reasonZh": "原文每次都拒絕，不是只拒絕首次。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The officer’s refusal of every offer confirms the saying “every man has his price.”",
+          "reasonZh": "拒絕是反例，不是支持證據。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The officer’s acceptance of every offer challenges the saying “every man has his price.”",
+          "reasonZh": "原文沒有收受賄賂。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q28",
+      "number": 28,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q28",
+        "prompt": "The play asks a difficult question: can every person be persuaded to betray their values for the right reward?",
+        "answer": "The play asks whether every man has his price."
+      },
+      "promptEn": "The play asks a difficult question: can every person be persuaded to betray their values for the right reward?",
+      "promptZh": "這齣戲提出一個難題：只要報酬合適，每個人都會被說服背棄自己的價值觀嗎？",
+      "options": [
+        {
+          "id": "key",
+          "text": "The play asks whether every man has his price—whether the right reward can make anyone betray their values.",
+          "reasonZh": "戲劇提出問題，沒有給出肯定結論。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The play conclusively proves that every man has his price—whether the right reward can make anyone betray their values.",
+          "reasonZh": "提問不是證明。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The play asks whether every man has his price—whether the right reward can make anyone earn a reasonable salary.",
+          "reasonZh": "背棄價值觀不是正常薪酬。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The play asks whether every man has his price—whether any tiny reward can make anyone betray their values.",
+          "reasonZh": "原文所需是合適報酬，不是任意小額。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q29",
+      "number": 29,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q29",
+        "prompt": "A: Do you think Daniel will betray us for money? B: No. I do not accept the idea that everyone can be bought.",
+        "answer": "No. I do not believe that every man has his price."
+      },
+      "promptEn": "A: Do you think Daniel will betray us for money? B: No. I do not accept the idea that everyone can be bought.",
+      "promptZh": "甲：你認為丹尼爾會為了錢背叛我們嗎？乙：不。我不接受所有人都可以被收買這個想法。",
+      "options": [
+        {
+          "id": "key",
+          "text": "“No, I do not believe every man has his price,” I replied when asked whether Daniel would betray us for money.",
+          "reasonZh": "回答者否定會被收買的普遍主張，對 Daniel 的回答也是 no。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "“Yes, I firmly believe every man has his price,” I replied when asked whether Daniel would betray us for money.",
+          "reasonZh": "把否定立場倒轉。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "“No, I do not believe every man has his price,” I replied when asked whether Daniel would work honestly for us for money.",
+          "reasonZh": "題目是背叛，不是正常工作。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "“No, I do not believe every man has his price,” Daniel admitted when asked whether Daniel would betray us for money.",
+          "reasonZh": "回答者不是 Daniel 自己承認。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q30",
+      "number": 30,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q30",
+        "prompt": "The article warns that believing everyone can be bought may lead powerful people to treat others badly.",
+        "answer": "The article warns against believing that every man has his price."
+      },
+      "promptEn": "The article warns that believing everyone can be bought may lead powerful people to treat others badly.",
+      "promptZh": "文章警告，若相信所有人都可以被收買，掌權者可能會惡劣地對待他人。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The article warns that believing every man has his price may lead powerful people to mistreat others.",
+          "reasonZh": "文章警告這種信念可能引致濫權，不是鼓勵收買。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The article celebrates that believing every man has his price may lead powerful people to mistreat others.",
+          "reasonZh": "警告與慶祝的態度相反。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The article warns that believing every man has his price has always led powerful people to mistreat others.",
+          "reasonZh": "may 不是每次必然發生。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The article warns that believing every man has his price may lead powerful people to respect everyone’s principles.",
+          "reasonZh": "原文負面結果是待人不善，不是尊重原則。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q31",
+      "number": 31,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q31",
+        "prompt": "Although the mayor had seen many cases of bribery, she still refused to believe that all people could be bought.",
+        "answer": "Although the mayor had seen many cases of bribery, she still refused to believe that every man has his price."
+      },
+      "promptEn": "Although the mayor had seen many cases of bribery, she still refused to believe that all people could be bought.",
+      "promptZh": "雖然市長見過很多賄賂個案，她仍然拒絕相信所有人都可以被收買。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Although the mayor had seen many bribes accepted, she still rejected the claim that every man has his price.",
+          "reasonZh": "即使見過許多案例，市長仍不接受普遍結論。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Although the mayor had seen many bribes accepted, she still endorsed the claim that every man has his price.",
+          "reasonZh": "原文拒絕相信，不是贊同。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Although the mayor had seen all bribes ever offered accepted, she still rejected the claim that every man has his price.",
+          "reasonZh": "不能把 many 擴大到所有賄賂。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Although the mayor had never encountered bribery, she still rejected the claim that every man has his price.",
+          "reasonZh": "市長見過許多賄賂案例，不是從未遇到。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q32",
+      "number": 32,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q32",
+        "prompt": "The gang kept making larger offers because its leader believed nobody would remain honest forever.",
+        "answer": "The gang kept making larger offers because its leader believed that every man has his price."
+      },
+      "promptEn": "The gang kept making larger offers because its leader believed nobody would remain honest forever.",
+      "promptZh": "那個幫派不斷提高出價，因為首領相信沒有人會永遠保持誠實。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The gang kept increasing its offers because its leader believed that every man has his price.",
+          "reasonZh": "反覆加碼由首領的信念驅動，不是交易成功的紀錄。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The gang kept withdrawing its offers because its leader believed that every man has his price.",
+          "reasonZh": "原文增加出價，不是收回。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The gang kept increasing its offers because its leader had conclusively proved that every man has his price.",
+          "reasonZh": "相信不等於證明全人類都可收買。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The gang kept increasing its offers because the people refusing its offers believed that every man has his price.",
+          "reasonZh": "原文信念屬於首領，不是拒絕者。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q33",
+      "number": 33,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q33",
+        "prompt": "A: Why are they offering the witness a house now? B: Their leader thinks everybody has an amount they will accept.",
+        "answer": "Their leader seems to think that every man has his price."
+      },
+      "promptEn": "A: Why are they offering the witness a house now? B: Their leader thinks everybody has an amount they will accept.",
+      "promptZh": "甲：為甚麼他們現在向證人提出送一所房子？乙：他們的首領認為每個人都有一個會接受的價碼。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Offering the witness a house reflects their leader’s belief that every man has his price.",
+          "reasonZh": "房屋也是利益；price 不限於現鈔，但這仍只是首領的信念。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Offering the witness an ordinary salary reflects their leader’s belief that every man has his price.",
+          "reasonZh": "原文提出的是房屋，不是薪金。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Offering the witness a house reflects their leader’s conclusive proof that every man has his price.",
+          "reasonZh": "出價不等於對方已接受，更非普遍證明。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Offering the witness a house reflects the witness’s belief that every man has his price.",
+          "reasonZh": "不能把出價者的信念當成證人的信念。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q34",
+      "number": 34,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q34",
+        "prompt": "Most of the team trusted people’s principles, but Colin believed anyone could be bought.",
+        "answer": "Most of the team trusted people’s principles, but Colin believed that every man has his price."
+      },
+      "promptEn": "Most of the team trusted people’s principles, but Colin believed anyone could be bought.",
+      "promptZh": "團隊大部分成員都相信人的原則，但科林認為任何人都可以被收買。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Most teammates trusted people’s principles, but Colin believed that every man has his price.",
+          "reasonZh": "Colin 的立場與大部分隊友相反；保留兩方。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "All teammates, including Colin, trusted people’s principles, but Colin believed that every man has his price.",
+          "reasonZh": "原文 Colin 不同意其他人的立場。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Most teammates dismissed people’s principles, but Colin believed that every man has his price.",
+          "reasonZh": "大部分隊友相信原則，不是輕視。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Most teammates trusted people’s principles, and everyone else believed that every man has his price.",
+          "reasonZh": "把少數人的觀點錯擴成所有人。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q35",
+      "number": 35,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q35",
+        "prompt": "The first two officials refused the bribe. The businessman did not stop, because he thought a higher amount would eventually work.",
+        "answer": "Even after two officials refused the bribe, the businessman still believed that every man has his price."
+      },
+      "promptEn": "The first two officials refused the bribe. The businessman did not stop, because he thought a higher amount would eventually work.",
+      "promptZh": "首兩名官員拒絕了賄賂。那名商人沒有停手，因為他認為更高的金額最終會奏效。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Even after two officials refused, the businessman kept trying a higher offer, believing that every man has his price.",
+          "reasonZh": "兩次拒絕未改變商人的信念；沒有成功收買的結論。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Even after two officials accepted, the businessman kept trying a higher offer, believing that every man has his price.",
+          "reasonZh": "原文兩人拒收。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Even after two officials refused, the businessman gave up on a higher offer, believing that every man has his price.",
+          "reasonZh": "原文商人沒有放棄。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Even after two officials refused, the businessman kept trying a higher offer, thereby proving that every man has his price.",
+          "reasonZh": "加碼不能證明信念是真的。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q36",
+      "number": 36,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q36",
+        "prompt": "The documentary does not say that everyone can be bought. It asks whether enough money can overcome anyone’s principles.",
+        "answer": "The documentary does not claim that every man has his price; it asks whether the proverb is true."
+      },
+      "promptEn": "The documentary does not say that everyone can be bought. It asks whether enough money can overcome anyone’s principles.",
+      "promptZh": "這齣紀錄片沒有說所有人都可以被收買；它探問足夠的金錢是否能勝過任何人的原則。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The documentary asks whether every man has his price; it does not claim that everyone can be bought.",
+          "reasonZh": "紀錄片在探問普遍主張，不是宣布主張成立。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The documentary proves that every man has his price; it does not claim that everyone can be bought.",
+          "reasonZh": "探問與證明不同。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The documentary asks whether every man has his price; it confidently declares that everyone can be bought.",
+          "reasonZh": "原文明確說沒有宣稱人人可收買。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The documentary asks whether every man has his price; it does not claim that anyone can be paid for legitimate work.",
+          "reasonZh": "題目討論收買，不是工作薪酬。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q37",
+      "number": 37,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q37",
+        "prompt": "A: Martin says the guard will agree when the offer reaches NT$50,000. B: Martin has a very low opinion of human honesty.",
+        "answer": "Martin clearly believes that every man has his price."
+      },
+      "promptEn": "A: Martin says the guard will agree when the offer reaches NT$50,000. B: Martin has a very low opinion of human honesty.",
+      "promptZh": "甲：馬丁說，當出價達到新台幣五萬元時，守衛便會答應。乙：馬丁對人的誠信看得很低。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Martin thinks every man has his price, expecting the guard to agree at NT$50,000.",
+          "reasonZh": "NT$50,000 是 Martin 估計守衛會接受的金額，未必成真。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Martin thinks every man has his price, having already persuaded the guard to agree at NT$50,000.",
+          "reasonZh": "預期不是已說服。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Martin thinks every man has his price, expecting the guard to agree at NT$5,000.",
+          "reasonZh": "數字不能少一個零。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The guard admits every man has his price, expecting the guard to agree at NT$50,000.",
+          "reasonZh": "沒有守衛承認可收買的發言。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q38",
+      "number": 38,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q38",
+        "prompt": "The dealer smiled and said that anyone could be bought if the offer was high enough.",
+        "answer": "“Every man has his price,” the dealer said with a smile."
+      },
+      "promptEn": "The dealer smiled and said that anyone could be bought if the offer was high enough.",
+      "promptZh": "那名商人笑着說，只要出價夠高，任何人都可以被收買。",
+      "options": [
+        {
+          "id": "key",
+          "text": "“Every man has his price,” the dealer said with a smile, claiming that a high enough offer could buy anyone.",
+          "reasonZh": "保留微笑、發言者和犬儒主張；微笑不會令收買變成讚美。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "“Every man has his price,” the dealer said with a smile, proving conclusively that a high enough offer could buy anyone.",
+          "reasonZh": "聲稱不是普遍證明。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "“Every man has his price,” the dealer said in tears, claiming that a high enough offer could buy anyone.",
+          "reasonZh": "原文說微笑，不是流淚。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "“Every man has his price,” the dealer said with a smile, claiming that a high enough offer could pay everyone fairly for work.",
+          "reasonZh": "可收買與公平工作報酬不同。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q39",
+      "number": 39,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q39",
+        "prompt": "If the director truly thinks no employee will stay loyal when enough money is offered, he has a very negative view of people.",
+        "answer": "If the director truly believes that every man has his price, he has a very negative view of people."
+      },
+      "promptEn": "If the director truly thinks no employee will stay loyal when enough money is offered, he has a very negative view of people.",
+      "promptZh": "如果那名主管真的認為，只要有人出足夠的錢，沒有員工會保持忠誠，那麼他對人的看法便十分負面。",
+      "options": [
+        {
+          "id": "key",
+          "text": "If the director truly believes every man has his price, he has a negative view of employees’ loyalty.",
+          "reasonZh": "If 保留條件；質疑忠誠是負面觀點。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Since the director truly believes every man has his price, he has a negative view of employees’ loyalty.",
+          "reasonZh": "原文是假設，不是已證實董事如此相信。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "If the director truly believes every man has his price, he has a respectful and positive view of employees’ loyalty.",
+          "reasonZh": "把所有人當可收買是犬儒，而非尊重。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "If the director truly believes every man has his price, he has a negative view of employees’ ordinary wage levels.",
+          "reasonZh": "題目是忠誠，不是薪金市場水平。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q40",
+      "number": 40,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q40",
+        "prompt": "A: You think I will betray my team for more money. B: I admit that I believe everyone has an amount that will make them change their mind.",
+        "answer": "I admit that I believe every man has his price."
+      },
+      "promptEn": "A: You think I will betray my team for more money. B: I admit that I believe everyone has an amount that will make them change their mind.",
+      "promptZh": "甲：你認為我會為了更多錢背叛團隊。乙：我承認，我相信每個人都有一個會使自己動搖的價碼。",
+      "options": [
+        {
+          "id": "key",
+          "text": "“I admit I believe every man has his price,” I said, expecting enough money to make you betray your team.",
+          "reasonZh": "回答者承認自己的想法，沒有說被問者承認會背叛。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "“You admit you believe every man has his price,” I said, expecting enough money to make you betray your team.",
+          "reasonZh": "錯換了承認信念的人。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "“I admit I believe every man has his price,” I said, having already proved enough money to make you betray your team.",
+          "reasonZh": "預測不能當成已證明。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "“I admit I believe every man has his price,” I said, expecting enough money to make you earn a fair wage from your team.",
+          "reasonZh": "背叛與誠實工作取酬不同。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q41",
+      "number": 41,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q41",
+        "prompt": "A lesson about bribes shows a dishonest business owner offering larger and larger payments because he assumes everyone can be bought.",
+        "answer": "The lesson presents a business owner who believes that every man has his price."
+      },
+      "promptEn": "A lesson about bribes shows a dishonest business owner offering larger and larger payments because he assumes everyone can be bought.",
+      "promptZh": "一課有關賄賂的教材描述一名不誠實的店主不斷提高金額，因為他假定所有人都可以被收買。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The lesson portrays a dishonest owner who believes every man has his price and keeps increasing his bribes.",
+          "reasonZh": "教材描寫角色的想法，不表示教材支持該想法。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The lesson endorses as a role model a dishonest owner who believes every man has his price and keeps increasing his bribes.",
+          "reasonZh": "描寫不等於樹為榜樣。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The lesson portrays a dishonest owner who believes every man has his price and keeps increasing his legitimate salaries.",
+          "reasonZh": "原文是賄賂，不是合法薪金。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The lesson portrays a dishonest owner who proves universally every man has his price and keeps increasing his bribes.",
+          "reasonZh": "角色信念不是普遍真理。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q42",
+      "number": 42,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q42",
+        "prompt": "The detective notices that the criminal never asks whether people are honest; he only asks how much money they want.",
+        "answer": "The detective realises that the criminal believes that every man has his price."
+      },
+      "promptEn": "The detective notices that the criminal never asks whether people are honest; he only asks how much money they want.",
+      "promptZh": "那名偵探留意到，罪犯從不問別人是否誠實，只問他們想要多少錢。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The detective recognises the criminal’s belief that every man has his price: the criminal asks only how much, not whether people are honest.",
+          "reasonZh": "偵探識別罪犯的信念；only how much 顯示罪犯預設都能收買。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The detective recognises his own proven conclusion that every man has his price: the criminal asks only how much, not whether people are honest.",
+          "reasonZh": "原文觀察的是罪犯，不是偵探證實自己的結論。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The detective recognises the criminal’s belief that every man has his price: the criminal asks only whether people are honest, not whether people are honest.",
+          "reasonZh": "原文罪犯不問誠實與否，只問價碼。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The detective adopts the criminal’s belief that every man has his price: the criminal asks only how much, not whether people are honest.",
+          "reasonZh": "識別他人的想法不等於採納。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q43",
+      "number": 43,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q43",
+        "prompt": "The repeated offers reveal a belief that no person’s loyalty is beyond money.",
+        "answer": "The repeated offers reveal the belief that every man has his price."
+      },
+      "promptEn": "The repeated offers reveal a belief that no person’s loyalty is beyond money.",
+      "promptZh": "一次又一次的出價顯示，有人相信沒有人的忠誠能超越金錢。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The repeated offers reveal a belief that every man has his price, with no one’s loyalty considered beyond money.",
+          "reasonZh": "反覆出價顯示出價者的信念，不代表人人真有價碼。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The repeated offers establish a universal fact that every man has his price, with no one’s loyalty considered beyond money.",
+          "reasonZh": "揭露想法不是確立事實。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The repeated offers reveal a belief that every man has his price, with only dishonest people’s loyalty considered beyond money.",
+          "reasonZh": "原文 no person，不限於早已不誠實的人。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The completed payments to everyone reveal a belief that every man has his price, with no one’s loyalty considered beyond money.",
+          "reasonZh": "原文是多次出價，並非所有人收款。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q44",
+      "number": 44,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q44",
+        "prompt": "A: The manager says the worker’s first refusal means nothing. B: Why? A: He thinks a bigger reward will change the answer.",
+        "answer": "The manager is acting on the belief that every man has his price."
+      },
+      "promptEn": "A: The manager says the worker’s first refusal means nothing. B: Why? A: He thinks a bigger reward will change the answer.",
+      "promptZh": "甲：經理說，那名員工第一次拒絕並不代表甚麼。乙：為甚麼？甲：他認為更大的報酬會改變答案。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The manager dismisses the worker’s first refusal, acting on the belief that every man has his price and a bigger reward will work.",
+          "reasonZh": "經理把首次拒絕視為可被加碼改變。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The manager respects as final the worker’s first refusal, acting on the belief that every man has his price and a bigger reward will work.",
+          "reasonZh": "原文不把拒絕當回事，並非尊重為最終決定。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The manager dismisses the worker’s accepted offer, acting on the belief that every man has his price and a bigger reward will work.",
+          "reasonZh": "工人拒絕了，不是接受。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The manager dismisses the worker’s first refusal, acting on the belief that every man has his price and a smaller reward will work.",
+          "reasonZh": "原文是更大報酬，不是減少。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q45",
+      "number": 45,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q45",
+        "prompt": "The judge said that many people can be tempted, but it is wrong to claim that everyone can be bought.",
+        "answer": "The judge accepted that many people can be tempted but rejected the claim that every man has his price."
+      },
+      "promptEn": "The judge said that many people can be tempted, but it is wrong to claim that everyone can be bought.",
+      "promptZh": "法官說，很多人可能會受到誘惑，但聲稱所有人都可以被收買是錯誤的。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The judge accepted that many people can be tempted but rejected “every man has his price” as a claim about everyone.",
+          "reasonZh": "承認 many 不代表承認 everyone；這正是法官的區分。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The judge accepted that no people can be tempted but rejected “every man has his price” as a claim about everyone.",
+          "reasonZh": "法官承認許多人受誘惑。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The judge accepted that many people can be tempted but endorsed “every man has his price” as a claim about everyone.",
+          "reasonZh": "法官否定普遍主張，不是支持。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The judge accepted that many people can be tempted but rejected “every man has his price” as a rule about fair wages.",
+          "reasonZh": "這不是工資規則，而是收買的普遍主張。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q46",
+      "number": 46,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q46",
+        "prompt": "In the novel, the villain measures loyalty only in money and never accepts that a person may refuse every offer.",
+        "answer": "In the novel, the villain acts on the belief that every man has his price."
+      },
+      "promptEn": "In the novel, the villain measures loyalty only in money and never accepts that a person may refuse every offer.",
+      "promptZh": "在小說中，反派只用金錢衡量忠誠，從不接受有人可能拒絕所有出價。",
+      "options": [
+        {
+          "id": "key",
+          "text": "In the novel, the villain measures loyalty only in money, acting as if every man has his price.",
+          "reasonZh": "這是小說反派的行事假設；未宣告所有角色都接受錢。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "In the novel, the villain measures loyalty mainly in friendship, acting as if every man has his price.",
+          "reasonZh": "原文 only money，並非友誼。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "In the novel, the villain measures loyalty only in money, scientifically demonstrating that every man has his price.",
+          "reasonZh": "角色行動不是科學證明。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "In the novel, the narrator and every reader measures loyalty only in money, acting as if every man has his price.",
+          "reasonZh": "沒有敘事者及全體讀者的立場資料。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q47",
+      "number": 47,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q47",
+        "prompt": "A: Why did she tear up the cheque? B: She wanted to show that her honesty was not for sale.",
+        "answer": "She tore up the cheque to show that the saying “every man has his price” is not always true."
+      },
+      "promptEn": "A: Why did she tear up the cheque? B: She wanted to show that her honesty was not for sale.",
+      "promptZh": "甲：她為甚麼撕掉支票？乙：她想表明自己的誠信不是用來出售的。",
+      "options": [
+        {
+          "id": "key",
+          "text": "By tearing up the cheque, she rejects “every man has his price” and shows that her honesty is not for sale.",
+          "reasonZh": "撕支票表明拒絕出售操守，成為普遍主張的反例。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "By cashing the cheque, she rejects “every man has his price” and shows that her honesty is not for sale.",
+          "reasonZh": "撕毀與兌現支票相反。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "By tearing up the cheque, she supports “every man has his price” and shows that her honesty is not for sale.",
+          "reasonZh": "拒收挑戰收買論，不是支持。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "By tearing up the cheque, she rejects “every man has his price” and shows that every person’s honesty is not for sale.",
+          "reasonZh": "她的行動只能直接說明自己的操守，不能證明人人都不可收買。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q48",
+      "number": 48,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q48",
+        "prompt": "The story suggests, rather than proves, that nobody may be completely safe from a large enough reward.",
+        "answer": "The story suggests that every man has his price, but it does not present this as a proven fact."
+      },
+      "promptEn": "The story suggests, rather than proves, that nobody may be completely safe from a large enough reward.",
+      "promptZh": "這個故事只是暗示，而不是證明，沒有人能完全抵抗足夠大的報酬。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The story suggests that every man has his price, without proving that everyone can be bought.",
+          "reasonZh": "suggests 與 proves 的差別是這題核心。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The story conclusively proves that every man has his price, without proving that everyone can be bought.",
+          "reasonZh": "原文只暗示。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The story suggests that every man has his price, while conclusively proving that everyone can be bought.",
+          "reasonZh": "不能把沒有證明改成證明。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The story suggests that every man has his price, without proving that everyone earns a fair wage.",
+          "reasonZh": "故事談原則受誘惑，不是公平工資。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q49",
+      "number": 49,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q49",
+        "prompt": "The businessman failed to buy the teacher’s silence. The final scene therefore questions his belief that no one is beyond bribery.",
+        "answer": "By showing the teacher refusing the money, the final scene questions the belief that every man has his price."
+      },
+      "promptEn": "The businessman failed to buy the teacher’s silence. The final scene therefore questions his belief that no one is beyond bribery.",
+      "promptZh": "那名商人未能用金錢換取老師保持沉默。因此，最後一幕質疑了他那種「沒有人不能被賄賂」的信念。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The teacher refuses the businessman’s money, so the final scene questions his belief that every man has his price.",
+          "reasonZh": "拒絕買沉默的錢，是對商人信念的挑戰。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The teacher accepts the businessman’s money, so the final scene questions his belief that every man has his price.",
+          "reasonZh": "老師沒有收錢。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The teacher refuses the businessman’s money, so the final scene confirms his belief that every man has his price.",
+          "reasonZh": "反例質疑普遍主張，不是證實。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The teacher refuses the businessman’s money, so the final scene questions the teacher’s admitted belief that every man has his price.",
+          "reasonZh": "信念屬於商人，沒有老師承認的內容。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-q50",
+      "number": 50,
+      "source": {
+        "lessonId": "proverb-02",
+        "questionId": "proverb-02-q50",
+        "prompt": "A company director keeps offering a worker more money to hide a serious safety problem. The worker refuses and reports it, showing that the director’s negative view of people is not always correct.",
+        "answer": "Although the director believes that every man has his price, the worker’s refusal shows that this negative view is not always correct."
+      },
+      "promptEn": "A company director keeps offering a worker more money to hide a serious safety problem. The worker refuses and reports it, showing that the director’s negative view of people is not always correct.",
+      "promptZh": "一名公司主管不斷向員工提出更多金錢，要求他隱瞞嚴重的安全問題。員工拒絕並作出舉報，顯示主管對人性的負面看法並非總是正確。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Although the director acts as if every man has his price, the worker refuses the money and reports the safety problem.",
+          "reasonZh": "工人拒收並舉報，反駁董事用錢掩蓋安全問題的假設。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Although the director acts as if every man has his price, the worker accepts the money and reports the safety problem.",
+          "reasonZh": "原文拒收。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Although the director acts as if every man has his price, the worker refuses the money and hides the safety problem.",
+          "reasonZh": "工人舉報問題，不是掩蓋。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Although the worker acts as if every man has his price, the director refuses the money and reports the safety problem.",
+          "reasonZh": "原文董事試圖收買、工人拒收舉報；這句交換了兩人的角色。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-x01",
+      "number": 51,
+      "theme": "science",
+      "source": {
+        "kind": "new-extension"
+      },
+      "promptEn": "A company offers a researcher a private grant to hide unfavourable results, assuming a large enough grant will persuade anyone.",
+      "promptZh": "公司以私人資助換取研究員隱瞞不利結果，假設只要金額夠大，誰都會答應。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The company acts as if every man has his price, trying to buy silence about unfavourable results.",
+          "reasonZh": "用利益換隱瞞反映收買假設；未說研究員答應。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The company acts as if every man has his price, having already secured silence about unfavourable results.",
+          "reasonZh": "嘗試不等於成功。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The company acts as if every man has his price, trying to buy honest publication of all results.",
+          "reasonZh": "目的為隱瞞，不是公開。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The company proves conclusively that every man has his price, trying to buy silence about unfavourable results.",
+          "reasonZh": "公司行動不是普遍證明。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-x02",
+      "number": 52,
+      "theme": "elections",
+      "source": {
+        "kind": "new-extension"
+      },
+      "promptEn": "A donor assumes every candidate will abandon a promise for sufficient funding. One candidate rejects the offer.",
+      "promptZh": "捐款者認為每名候選人都會為足夠資助放棄承諾，其中一人拒絕。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The donor assumes every man has his price, but the candidate’s refusal challenges that view.",
+          "reasonZh": "捐款者的犬儒立場受到拒絕的反例挑戰。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The donor assumes every man has his price, but the candidate’s refusal confirms that view.",
+          "reasonZh": "拒絕不支持人人可收買。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The candidate assumes every man has his price, but the candidate’s refusal challenges that view.",
+          "reasonZh": "主張屬捐款者，不是候選人。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The donor assumes every man has his price, but the candidate’s acceptance challenges that view.",
+          "reasonZh": "原文拒絕，沒有接受。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-x03",
+      "number": 53,
+      "theme": "family",
+      "source": {
+        "kind": "new-extension"
+      },
+      "promptEn": "An uncle says a cousin will disclose a private family letter for a valuable watch; the cousin refuses.",
+      "promptZh": "叔叔認為堂姊會為名貴手錶公開私人家書；堂姊拒絕了。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The uncle’s “every man has his price” assumption fails here when the cousin refuses the watch.",
+          "reasonZh": "price 可是禮物，不限現金；拒絕顯示假設在本例不成立。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The uncle’s “every man has his price” assumption succeeds here when the cousin refuses the watch.",
+          "reasonZh": "堂姊沒有出賣家書。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The uncle’s “every man has his price” assumption fails here when the cousin accepts the watch.",
+          "reasonZh": "原文明說拒絕。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The uncle’s “every man has his price” assumption fails here when the cousin refuses ordinary payment for published work.",
+          "reasonZh": "不是已公開作品的正常稿費，而是私隱交換。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-x04",
+      "number": 54,
+      "theme": "arts",
+      "source": {
+        "kind": "new-extension"
+      },
+      "promptEn": "A sponsor believes every juror can be persuaded to ignore quality for an expensive holiday.",
+      "promptZh": "贊助者認為昂貴假期足以令每位評審不顧作品質素。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The sponsor believes every man has his price, treating a holiday as a way to buy the jurors’ decisions.",
+          "reasonZh": "用假期收買評審決定，不是一般旅費安排。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The sponsor has demonstrated every man has his price, treating a holiday as a way to buy the jurors’ decisions.",
+          "reasonZh": "只有信念，沒有全體接受的事實。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The sponsor believes every man has his price, treating a holiday as a way to reimburse legitimate travel expenses.",
+          "reasonZh": "回報是改變判斷，非正常報銷。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The sponsor believes every man has his price, treating a holiday as a way to buy only already corrupt jurors’ decisions.",
+          "reasonZh": "原文主張每位，未限於早已貪污者。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-x05",
+      "number": 55,
+      "theme": "sport",
+      "source": {
+        "kind": "new-extension"
+      },
+      "promptEn": "A reporter asks whether every man has his price after a club tries to pay a rival to lose. The article gives no answer.",
+      "promptZh": "球會試圖付錢令對手故意輸球後，記者問是否人人都有價碼；文章沒有回答。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The report asks whether every man has his price; the attempted payment alone does not settle the question.",
+          "reasonZh": "提出問題與嘗試收買，都不是普遍定論。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The report proves that every man has his price; the attempted payment alone does not settle the question.",
+          "reasonZh": "原文明說未回答。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The report asks whether every man has his price; the accepted payment alone does not settle the question.",
+          "reasonZh": "題目只說試圖支付。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The report asks whether every man has his price; the attempted payment alone conclusively settles the question.",
+          "reasonZh": "單次嘗試不能解決普遍問題。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-x06",
+      "number": 56,
+      "theme": "publicservice",
+      "source": {
+        "kind": "new-extension"
+      },
+      "promptEn": "A clerk rejects a luxury car offered for changing a queue position. The giver had assumed nobody could resist it.",
+      "promptZh": "有人想送豪華車換取插隊，職員拒絕；送禮者原以為沒人抗拒得到。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The giver assumed every man has his price, but the clerk refused to sell fair treatment for a car.",
+          "reasonZh": "拒收維護公平，挑戰送禮者的假設。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The giver assumed every man has his price, but the clerk agreed to sell fair treatment for a car.",
+          "reasonZh": "職員拒絕了。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The clerk assumed every man has his price, but the clerk refused to sell fair treatment for a car.",
+          "reasonZh": "假設屬送禮者。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The giver assumed every man has his price, but the clerk refused to sell fair treatment for a normal salary.",
+          "reasonZh": "利益是豪華車，非工作薪金。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-x07",
+      "number": 57,
+      "theme": "technology",
+      "source": {
+        "kind": "new-extension"
+      },
+      "promptEn": "A hacker offers increasing sums for a private password, convinced that no employee will hold out forever.",
+      "promptZh": "駭客不斷加錢索取私人密碼，相信沒有員工會永遠拒絕。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The hacker’s rising offers reflect the belief that every man has his price; they do not prove a password was sold.",
+          "reasonZh": "加價反映意圖，不表示交易完成。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The hacker’s rising offers reflect the belief that every man has his price; they prove a password was sold.",
+          "reasonZh": "原文未說有人出售密碼。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The hacker’s falling offers reflect the belief that every man has his price; they do not prove a password was sold.",
+          "reasonZh": "原文不斷提高。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The hacker’s rising offers reflect the scientific finding that every man has his price; they do not prove a password was sold.",
+          "reasonZh": "這是駭客的假設，不是研究結果。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-x08",
+      "number": 58,
+      "theme": "education",
+      "source": {
+        "kind": "new-extension"
+      },
+      "promptEn": "A tutor is offered a gift to leak exam questions but reports the request. The parent thought anyone would agree for enough.",
+      "promptZh": "家長以禮物要求導師洩露試題，導師舉報。家長原以為利益足夠誰都會答應。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The parent thought every man has his price, yet the tutor reported the request instead of leaking the questions.",
+          "reasonZh": "舉報與家長預期相反，沒有把正常補習與洩題混同。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The parent thought every man has his price, yet the tutor accepted the gift instead of leaking the questions.",
+          "reasonZh": "原文導師舉報。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The parent thought every man has his price, yet the tutor reported the request after leaking the questions.",
+          "reasonZh": "沒有先洩露試題的資料。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The tutor thought every man has his price, yet the tutor reported the request instead of leaking the questions.",
+          "reasonZh": "收買假設屬家長。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-x09",
+      "number": 59,
+      "theme": "history",
+      "source": {
+        "kind": "new-extension"
+      },
+      "promptEn": "A historian describes a ruler who assumed every adviser could be bought. She does not endorse the ruler’s view.",
+      "promptZh": "歷史學者描述一位認為所有顧問都能被收買的統治者，但不贊同其看法。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The historian attributes “every man has his price” to the ruler without endorsing the belief herself.",
+          "reasonZh": "歸屬觀點不是作者認同，保持敘述距離。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The historian attributes “every man has his price” to the ruler while endorsing the belief herself.",
+          "reasonZh": "原文學者不贊同。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The historian attributes “every man has his price” to all historians without endorsing the belief herself.",
+          "reasonZh": "觀點屬統治者，不是所有歷史學者。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The historian verifies as universal fact “every man has his price” to the ruler without endorsing the belief herself.",
+          "reasonZh": "歷史描述不是普遍驗證。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-02-x10",
+      "number": 60,
+      "theme": "environment",
+      "source": {
+        "kind": "new-extension"
+      },
+      "promptEn": "An inspector turns down money to conceal illegal dumping. This is one counterexample to a developer’s claim that everyone can be bought.",
+      "promptZh": "巡查員拒收掩蓋非法傾倒的錢，成為發展商「人人可收買」主張的一個反例。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The inspector’s refusal challenges “every man has his price,” but does not show that every inspector is beyond bribery.",
+          "reasonZh": "一個反例否定「人人」的絕對性，不能反推所有人皆清廉。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The inspector’s refusal supports “every man has his price,” but does not show that every inspector is beyond bribery.",
+          "reasonZh": "拒絕是反例。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The inspector’s refusal challenges “every man has his price,” but proves that every inspector is beyond bribery.",
+          "reasonZh": "個人拒絕不能證明全體清廉。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The inspector’s acceptance challenges “every man has his price,” but does not show that every inspector is beyond bribery.",
+          "reasonZh": "巡查員拒絕掩蓋非法傾倒的款項，沒有接受。",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "guide": {
+    "meaning": {
+      "zh": "這是一種犬儒的主張：只要利益夠大，任何人都會出賣原則或忠誠。",
+      "en": "A cynical claim that anyone can be persuaded to betray their principles or loyalty for a sufficient reward."
+    },
+    "model": {
+      "zh": "掮客認為連裁判也能買通，便說：「人人都有價碼。」",
+      "en": "“Every man has his price,” the fixer said, convinced that even the referee could be bought."
+    },
+    "picture": {
+      "zh": "想像有人把價錢牌掛在「誠實」上；那是他看人的方式，不是大家真的待價而沽。",
+      "en": "Imagine someone attaching a price tag to honesty: that is the speaker’s view, not proof that everyone is for sale."
+    },
+    "boundary": {
+      "zh": "不是談正常薪金、商品價格或只談男性。這句傳統說法可指任何人，但不能當成已證實的普遍真理。",
+      "en": "It is not about ordinary wages, product prices, or men alone. The traditional wording can refer to anyone, but it is not a proven universal truth."
+    },
+    "where": {
+      "zh": "適合分析反派、賄賂或犬儒立場。若要保持距離，說「他相信……」或「這個故事質疑……」。",
+      "en": "Useful for analysing villains, bribery, or cynical attitudes. Attribute it with “he believes…” or “the story questions…” when distancing yourself."
+    },
+    "tone": {
+      "zh": "犬儒、懷疑人的操守；當面對人說，可能像指控他可以被收買。",
+      "en": "Cynical and distrustful of integrity; addressed to someone directly, it may sound like an accusation of being corruptible."
+    },
+    "checks": [
+      {
+        "zh": "是否涉及放棄原則，而不只是正常報酬？",
+        "en": "Does this involve compromising principles rather than ordinary payment?"
+      },
+      {
+        "zh": "是誰相信這句話？我有保留他的立場嗎？",
+        "en": "Whose belief is this, and have I preserved that attribution?"
+      },
+      {
+        "zh": "我有把出價、猜測或故事，錯當成普遍證明嗎？",
+        "en": "Am I treating an offer, prediction, or story as universal proof?"
+      }
+    ],
+    "readAloud": {
+      "zh": "製片人以為人人都有價碼，但評論員拒絕收錢修改評論。",
+      "en": "The producer assumed every man has his price, but the critic refused payment to change her review."
+    },
+    "choices": {
+      "2": {
+        "prompt": {
+          "zh": "哪個情境真正涉及這句諺語的意思？",
+          "en": "Which situation involves the proverb’s figurative meaning?"
+        },
+        "options": [
+          {
+            "zh": "承包商認為只要給足利益，任何評審都會偷偷改分。",
+            "en": "A contractor thinks a sufficient reward would make any judge secretly change the scores.",
+            "reasonZh": "用利益換取違反公正的行動，符合收買原則的意思。",
+            "correct": true
+          },
+          {
+            "zh": "承包商根據工時給每位工人公平薪金。",
+            "en": "A contractor pays each worker a fair wage based on hours worked.",
+            "reasonZh": "公平工作報酬沒有出賣原則，不是這裏的 price。",
+            "correct": false
+          },
+          {
+            "zh": "承包商比較三家商店的工具售價。",
+            "en": "A contractor compares tool prices at three shops.",
+            "reasonZh": "商品售價是字面價格，沒有涉及人的操守。",
+            "correct": false
+          }
+        ]
+      },
+      "3": {
+        "prompt": {
+          "zh": "你的同學拒絕收禮替人作弊。有人對她說：「Every man has his price。」這句聽來怎樣？",
+          "en": "Your classmate refuses a gift to help someone cheat. Someone says to her, “Every man has his price.” How does it sound?"
+        },
+        "options": [
+          {
+            "zh": "像在質疑她的誠信，暗示再多給一點她就會答應。",
+            "en": "It questions her integrity, implying that a larger offer would win her over.",
+            "reasonZh": "即使使用 man，仍可指她；主張人人可收買容易帶指控。",
+            "correct": true
+          },
+          {
+            "zh": "像在稱讚她絕對不會被收買。",
+            "en": "It praises her as completely beyond bribery.",
+            "reasonZh": "意思正好相反：這句質疑是否有人真能拒絕所有誘惑。",
+            "correct": false
+          },
+          {
+            "zh": "只是中性地詢問她補習每小時收多少錢。",
+            "en": "It neutrally asks her hourly tutoring rate.",
+            "reasonZh": "作弊情境涉及原則，不是正常補習收費。",
+            "correct": false
+          }
+        ]
+      },
+      "5": {
+        "prompt": {
+          "zh": "委員拒收免費旅程後，遊說者仍打算送更昂貴的禮物。哪句描述最準確？",
+          "en": "After a committee member rejects a free trip, a lobbyist plans a more expensive gift. Which description fits?"
+        },
+        "options": [
+          {
+            "zh": "「遊說者仍按『人人都有價碼』的想法行事，儘管委員已拒絕。」",
+            "en": "“The lobbyist still acts as if every man has his price, despite the member’s refusal.”",
+            "reasonZh": "描述出價者的假設，沒有宣稱委員已收禮。",
+            "correct": true
+          },
+          {
+            "zh": "「委員已證明人人都有價碼，因為她拒絕了免費旅程。」",
+            "en": "“The member has proved every man has his price by refusing the free trip.”",
+            "reasonZh": "拒絕不是接受，不能用作證明可收買。",
+            "correct": false
+          },
+          {
+            "zh": "「遊說者已放棄人人都有價碼的想法，所以他打算送更貴的禮物。」",
+            "en": "“The lobbyist has abandoned the belief that every man has his price, so he plans a costlier gift.”",
+            "reasonZh": "繼續加碼正反映他仍持有假設，並非放棄。",
+            "correct": false
+          }
+        ]
+      },
+      "6": {
+        "prompt": {
+          "zh": "展覽中一名守衛拒絕所有偷畫報酬。哪個結論沒有越過證據？",
+          "en": "A gallery guard rejects every offer to help steal a painting. Which conclusion stays within the evidence?"
+        },
+        "options": [
+          {
+            "zh": "這名守衛的拒絕挑戰「人人都有價碼」，但不證明所有人都不可收買。",
+            "en": "This guard’s refusal challenges “every man has his price,” without proving that nobody can be bribed.",
+            "reasonZh": "一個拒絕者足以挑戰「人人」，卻不能證明相反的「無人」。",
+            "correct": true
+          },
+          {
+            "zh": "這證明只要再提高報酬，他必定答應。",
+            "en": "This proves he must agree if the reward rises further.",
+            "reasonZh": "拒絕沒有提供未來一定接受的證據。",
+            "correct": false
+          },
+          {
+            "zh": "這證明這句話只能用於買賣畫作，不能談其他原則。",
+            "en": "This proves the saying concerns only paintings, not other principles.",
+            "reasonZh": "畫作只是本例場景，諺語不限於藝術品。",
+            "correct": false
+          }
+        ]
+      }
+    }
+  }
+}
