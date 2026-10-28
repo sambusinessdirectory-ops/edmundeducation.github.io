@@ -15,7 +15,8 @@
 [hidden] { display: none !important; }
 body { position: relative; isolation: isolate; margin: 0; color: var(--ink); background: #dce9eb; min-height: 100vh; }
 /* A fixed image layer keeps the lake proportional on long pages and mobile. */
-body::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; background: url("listening-elven-lake-wallpaper-v1.webp") center / cover no-repeat; }
+body::before { content: ""; display: none; position: fixed; inset: 0; z-index: -1; pointer-events: none; background: url("listening-elven-lake-wallpaper-v1.webp") center / cover no-repeat; }
+body:has([data-view="login"]:not([hidden]), [data-view="admin-login"]:not([hidden]))::before { display: block; }
 @media (max-width: 700px) { body::before { background-position: 58% center; } }
 button, input, select { font: inherit; }
 button { cursor: pointer; }
