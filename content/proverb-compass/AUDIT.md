@@ -70,3 +70,12 @@ Review progress uses version-scoped `sessionStorage`. It is not account progress
 ## Publication
 
 Entry: `/proverb-curation-review.html`, with direct lesson links `#proverb-01/1`, `#proverb-02/1`, `#proverb-03/1`. The page says it is a review edition and does not write student scores. Publication/live checks are recorded in the task response after deployment.
+
+
+## Main portal integration — 2026-10-28
+
+The owner approved moving this content into `/proverb-system.html`. All three lessons now use the approved native Compass renderer: six guide stages and 60 practice cards each. Stage 4 is hidden and skipped. No lesson content was redrafted for this integration.
+
+The original 50 IDs per lesson retain the existing account score denominator. The ten extensions save locally under the account and curation version. Existing earned scores remain valid; current-edition completion is tracked separately using versioned question state. Pending answers survive failed saves and retry on reopening. No database schema change is required. The Worker accepts both legacy answers and the 150 revised keys, and rejects legacy-only answers falsely labelled as current-edition completion.
+
+Validation: 7 editorial structural tests, 14 existing portal/background tests, 3 progress tests, and 12 Worker tests pass. The native-portal browser test exercises all 180 wrong/correct interactions, all three guides, real Worker request validation with a fixture backend, reload, account isolation, score boundaries, failed-save recovery, and 390px layout. No real student records were used by these tests. Mobile screenshot inspected. Deployment and live verification follow these checks; publication is not asserted by this audit entry.

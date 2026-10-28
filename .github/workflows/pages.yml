@@ -125,7 +125,10 @@ jobs:
           grep -Fq 'proverb-purple-spellbook-login-frame-v1.webp' proverb-system.css
           grep -Fq '20261022-purple-spellbook1' proverb-system.html
           node --check proverb-system.js
-          node --test tools/test-proverb-system.mjs tools/test-proverb-black-sand.mjs tools/test-proverb-curation.mjs
+          node --test tools/test-proverb-system.mjs tools/test-proverb-black-sand.mjs tools/test-proverb-curation.mjs tools/test-proverb-compass-progress.mjs
+          node tools/build-proverb-compass.mjs --check
+          node --check proverb-compass-view.mjs
+          node --test workers/proverb-system/test/*.test.mjs
           node --check proverb-curation-review.mjs
           node --check proverb-curation-core.mjs
 

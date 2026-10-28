@@ -1,3 +1,4 @@
+import { CURATION_VERSION, CURATED_ANSWERS } from "./curated-catalog.js";
 import { ACCEPTED_ANSWERS } from "./catalog.js";
 import { answersEquivalent, normalizeAnswerText } from "../../shared-answer-comparison.js";
 
@@ -114,6 +115,8 @@ async function route(request, env) {
         service: SERVICE_NAME,
         storage: "supabase-private",
         catalog,
+        curationVersion: CURATION_VERSION,
+        curatedQuestionCount: Object.keys(CURATED_ANSWERS).length,
         limits: {
           maxAttemptBodyBytes: MAX_ATTEMPT_BODY_BYTES,
           maxAttemptResultBytes: MAX_ATTEMPT_RESULT_BYTES,
@@ -592,7 +595,7 @@ function normalizeAnswer(value) {
 }
 
 function answerMatchesCatalog(questionId, answer) {
-  const accepted = ACCEPTED_ANSWERS[questionId];
+  const accepted = [...(ACCEPTED_ANSWERS[questionId] || []), ...(CURATED_ANSWERS[questionId] ? [CURATED_ANSWERS[questionId]] : [])];
   if (!Array.isArray(accepted) || !accepted.length) return false;
   return accepted.some(candidate => answersEquivalent(answer, candidate, {
     canonicalizeToken: token => SPELLING_EQUIVALENTS[token] || token
@@ -676,7 +679,9 @@ function normalizeAttemptResult(value, context) {
   for (const [questionId, state] of Object.entries(value.questionState)) {
     if (
       !validQuestionId(context.lessonId, questionId)
-      || !hasExactKeys(state, ["status", "lastAnswer", "reveal"])
+      || (!hasOnlyKeys(state, new Set(["status", "lastAnswer", "reveal", "curationVersion"]))
+        || !["status", "lastAnswer", "reveal"].every(key => Object.hasOwn(state, key))
+        || (Object.hasOwn(state, "curationVersion") && state.curationVersion !== CURATION_VERSION))
       || !["pending", "correct", "wrong"].includes(state.status)
       || typeof state.lastAnswer !== "string"
       || state.lastAnswer.length > 1000
@@ -687,13 +692,15 @@ function normalizeAttemptResult(value, context) {
     questionState[questionId] = {
       status: state.status,
       lastAnswer: state.lastAnswer,
-      reveal: state.reveal
+      reveal: state.reveal,
+      ...(state.curationVersion === CURATION_VERSION ? {curationVersion: CURATION_VERSION} : {})
     };
   }
   for (const questionId of correctIds) {
     if (
       questionState[questionId]?.status !== "correct"
       || !answerMatchesCatalog(questionId, questionState[questionId].lastAnswer)
+      || (questionState[questionId].curationVersion === CURATION_VERSION && !answersEquivalent(questionState[questionId].lastAnswer, CURATED_ANSWERS[questionId], {canonicalizeToken: token => SPELLING_EQUIVALENTS[token] || token}))
     ) {
       throw new HttpError(400, "INVALID_ATTEMPT", "A claimed correct answer does not match the lesson catalog");
     }

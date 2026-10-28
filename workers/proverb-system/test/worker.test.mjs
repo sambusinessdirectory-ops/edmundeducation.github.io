@@ -529,3 +529,32 @@ test("foreign lesson and out-of-catalog question IDs fail before upsert", async 
   assert.equal((await outOfRangeResponse.json()).code, "INVALID_ATTEMPT");
   assert.equal(upsertCalls, 0);
 });
+
+test("approved revised answers save with their version; foils and false version claims are rejected", async t => {
+  const {CURATED_ANSWERS,CURATION_VERSION}=await import('../src/curated-catalog.js');
+  let writes=0;
+  installFetch(t, async (input,init)=>{
+    const name=rpcName(input);
+    if(name==='proverb_system_student_profile')return jsonResponse(studentProfile());
+    if(name==='proverb_system_upsert_attempt'){writes++;return jsonResponse(attemptRow(JSON.parse(init.body)));}
+    throw Error(name);
+  });
+  for(const lessonId of LESSON_IDS){
+    const lesson=JSON.parse(fs.readFileSync(new URL(`../../../content/proverb-compass/${lessonId}.json`,import.meta.url)));
+    for(const q of lesson.items.slice(0,50)){
+      const payload=attemptPayload({lessonId,questionId:q.id,answer:CURATED_ANSWERS[q.id]});
+      payload.result.questionState[q.id].curationVersion=CURATION_VERSION;
+      const response=await worker.fetch(attemptRequest(payload),environment());assert.equal(response.status,200,q.id);
+      assert.equal((await response.json()).attempt.result.questionState[q.id].curationVersion,CURATION_VERSION);
+      for(const option of q.options.filter(o=>!o.correct)){
+        payload.result.questionState[q.id].lastAnswer=option.text;
+        const wrong=await worker.fetch(attemptRequest(payload),environment());assert.equal(wrong.status,400,`${q.id}: ${option.id}`);
+      }
+    }
+  }
+  assert.equal(writes,150);
+  const legacy=attemptPayload();assert.equal((await worker.fetch(attemptRequest(legacy),environment())).status,200);
+  legacy.result.questionState[QUESTION_IDS[0]].curationVersion=CURATION_VERSION;
+  assert.equal((await worker.fetch(attemptRequest(legacy),environment())).status,400,'old wording must not earn a new-version mark');
+  legacy.result.questionState[QUESTION_IDS[0]].curationVersion='future-version';assert.equal((await worker.fetch(attemptRequest(legacy),environment())).status,400);
+});

@@ -1,3 +1,11 @@
+import { PROVERB_COMPASS } from './proverb-compass-data.mjs?v=20261028-live1';
+import { mountProverbCompass } from './proverb-compass-view.mjs?v=20261028-live1';
+import { stages as compassStages, shuffled as compassShuffle } from './proverb-curation-core.mjs?v=20261028-1';
+import { COMPASS_VERSION, readCompassCache, writeCompassCache, hydrateCompassSelections, applyCompassAnswer, reviewedOriginalCount, replayPending } from './proverb-compass-progress.mjs?v=20261028-live1';
+let compassView = null;
+let compassSaveTimer = null;
+let compassSaveQueue = Promise.resolve();
+let attemptSaveQueue = Promise.resolve();
 import { createClassroomLiveSync } from './classroom-live-sync.mjs?v=20261028-1';
 let classroomLive;
 import {PROVERB_BLACK_SAND} from './proverb-black-sand.mjs?v=20261017-r2-maps1';
@@ -359,6 +367,10 @@ function pauseExerciseClock({ persist = false, keepalive = false } = {}) {
     Math.round(Number(state.exercise.durationMs || 0) + (performance.now() - state.exerciseClockStartedAt))
   );
   state.exerciseClockStartedAt = 0;
+  if (PROVERB_COMPASS[state.exercise.lessonId] && state.user?.id) {
+    const cache = compassCache(state.exercise.lessonId); cache.exercise = state.exercise;
+    writeCompassCache(localStorage, state.user.id, state.exercise.lessonId, cache);
+  }
   if (persist && state.user?.role === "student" && state.authToken && !state.exercise.completedAt) {
     const save = persistExercise({ keepalive });
     save.catch((error) => console.warn("Exercise time save failed", error));
@@ -380,6 +392,7 @@ function currentExerciseDuration() {
 }
 
 function showView(name, { preserveScroll = false } = {}) {
+  if (name !== "lesson") { compassView?.destroy(); compassView = null; }
   if (state.currentView === "lesson" && (name !== "lesson" || state.lessonPage !== EXERCISE_PAGE)) {
     pauseExerciseClock({ persist: name !== "lesson" && state.lessonPage === EXERCISE_PAGE });
   }
@@ -506,6 +519,8 @@ function readSession() {
 }
 
 function clearSession() {
+  compassView?.destroy(); compassView = null;
+  window.clearTimeout(compassSaveTimer); compassSaveTimer = null;
   proverbMap?.reset();
   window.clearTimeout(state.exercisePersistTimer);
   state.exercisePersistTimer = null;
@@ -1336,9 +1351,11 @@ function openLesson(lessonId, { page = 1, attempt = null, questionId = "" } = {}
   if (state.lessonId !== lesson.id) state.visitedLessonPages = new Set();
   state.lessonId = lesson.id;
   state.lessonPage = Math.max(1, Math.min(LESSON_PAGES, Number(page) || 1));
+  if (PROVERB_COMPASS[lesson.id] && state.lessonPage === 4) state.lessonPage = 5;
   state.visitedLessonPages.add(state.lessonPage);
   const currentExercise = state.exercise?.lessonId === lesson.id ? state.exercise : null;
   state.exercise = attempt ? exerciseFromAttempt(attempt) : currentExercise;
+  if (PROVERB_COMPASS[lesson.id] && state.exercise?.completedAt && !Object.values(state.exercise.questionState).some(q => q.curationVersion === COMPASS_VERSION)) state.exercise = null;
   if (state.lessonPage === EXERCISE_PAGE && questionId) {
     const exercise = ensureExercise(lesson);
     if (exercise.correctionMode && !exercise.correctionIds.includes(questionId)) {
@@ -1355,7 +1372,8 @@ function openLesson(lessonId, { page = 1, attempt = null, questionId = "" } = {}
 }
 
 function setLessonPage(page) {
-  const nextPage = Math.max(1, Math.min(LESSON_PAGES, Number(page) || 1));
+  let nextPage = Math.max(1, Math.min(LESSON_PAGES, Number(page) || 1));
+  if (PROVERB_COMPASS[state.lessonId] && nextPage === 4) nextPage = state.lessonPage > 4 ? 3 : 5;
   pauseExerciseClock({ persist: state.lessonPage === EXERCISE_PAGE && nextPage !== EXERCISE_PAGE });
   state.lessonPage = nextPage;
   state.visitedLessonPages.add(nextPage);
@@ -1387,12 +1405,19 @@ function focusExerciseQuestion(questionId) {
   window.setTimeout(() => {
     const card = document.querySelector(`[data-question-id="${CSS.escape(questionId)}"]`);
     card?.scrollIntoView?.({ behavior: "smooth", block: "center" });
-    const input = card?.querySelector?.("[data-answer-input]:not([disabled])");
+    const input = card?.querySelector?.("[data-answer-input]:not([disabled]), [data-choice]:not([disabled])");
     input?.focus?.({ preventScroll: true });
   }, 50);
 }
 
 function updateLessonStepper() {
+  if (PROVERB_COMPASS[state.lessonId]) {
+    elements.lessonStepper.querySelectorAll('[data-step]').forEach(button => {
+      const step = Number(button.dataset.step), entry = compassStages.find(s => s[0] === step);
+      button.hidden = !entry;
+      if (entry) {button.querySelector('span').textContent = String(compassStages.indexOf(entry)+1);button.querySelector('strong').textContent = entry[1];button.querySelector('small').textContent = entry[2];}
+    });
+  }
   elements.lessonStepper.querySelectorAll("[data-step]").forEach((button) => {
     const step = Number(button.dataset.step);
     button.toggleAttribute("aria-current", step === state.lessonPage);
@@ -1769,7 +1794,8 @@ function exerciseFromAttempt(attempt) {
       questionState[id] = {
         status: ["pending", "correct", "wrong"].includes(value.status) ? value.status : "pending",
         lastAnswer: String(value.lastAnswer || ""),
-        reveal: value.reveal === true
+        reveal: value.reveal === true,
+        ...(value.curationVersion === COMPASS_VERSION ? {curationVersion: COMPASS_VERSION} : {})
       };
     }
   }
@@ -1794,9 +1820,19 @@ function exerciseFromAttempt(attempt) {
 
 function ensureExercise(lesson) {
   if (state.exercise?.lessonId === lesson.id) return state.exercise;
-  const resumable = state.attempts.find((attempt) => attempt.lessonId === lesson.id && attempt.status !== "completed");
+  const curated = PROVERB_COMPASS[lesson.id];
+  const cache = curated ? readCompassCache(localStorage, state.user?.id, lesson.id) : null;
+  const cachedAttempt = cache?.exercise;
+  const resumable = state.attempts.find(attempt => attempt.lessonId === lesson.id && (attempt.id === cachedAttempt?.id || Object.values(parseJsonObject(attempt.result, {}).questionState || {}).some(q => q.curationVersion === COMPASS_VERSION)))
+    || state.attempts.find(attempt => attempt.lessonId === lesson.id && attempt.status !== "completed");
+  if (curated && Object.keys(cache.pending).length && cachedAttempt?.lessonId === lesson.id && UUID_RE.test(cachedAttempt.id || '')) {
+    const cloud = state.attempts.find(a => a.id === cachedAttempt.id);
+    state.exercise = cloud ? exerciseFromAttempt(cloud) : exerciseFromAttempt({id: cachedAttempt.id, lessonId: lesson.id, lessonVersion: '1', roundNumber: cachedAttempt.round, durationMs: cachedAttempt.durationMs || 0, startedAt: cachedAttempt.startedAt, completedAt: cachedAttempt.completedAt, result: {...cachedAttempt, contentVersion: '1'}});
+    replayPending(curated, state.exercise, cache);
+    return state.exercise;
+  }
   state.exercise = resumable ? exerciseFromAttempt(resumable) : createExercise(lesson);
-  if (!resumable) persistExercise().catch((error) => console.warn("Initial attempt save failed", error));
+  if (!resumable && !curated) persistExercise().catch((error) => console.warn("Initial attempt save failed", error));
   return state.exercise;
 }
 
@@ -1961,6 +1997,7 @@ function submissionQuestions(lesson = getLesson()) {
 }
 
 function renderExercisePage(lesson, { preserveScroll = false } = {}) {
+  if (PROVERB_COMPASS[lesson.id]) return renderCompassLesson(lesson, {preserveScroll});
   ensureExercise(lesson);
   const scrollTop = preserveScroll ? window.scrollY : 0;
   const total = lesson.questions?.length || 0;
@@ -2062,10 +2099,108 @@ function renderExercisePage(lesson, { preserveScroll = false } = {}) {
   if (preserveScroll) requestAnimationFrame(() => window.scrollTo({ top: scrollTop, behavior: "auto" }));
 }
 
+function compassCache(lessonId = state.lessonId) {
+  return readCompassCache(localStorage, state.user?.id, lessonId);
+}
+
+function queueCompassSave() {
+  window.clearTimeout(compassSaveTimer);
+  compassSaveTimer = window.setTimeout(() => flushCompassSave(), 1800);
+}
+
+function flushCompassSave() {
+  window.clearTimeout(compassSaveTimer);
+  const owner = String(state.user?.id || ''), token = state.authToken, exercise = state.exercise;
+  const lesson = PROVERB_COMPASS[exercise?.lessonId];
+  if (!owner || !lesson || state.user.role !== 'student') return Promise.resolve();
+  const operation = async () => {
+    if (String(state.user?.id || '') !== owner || state.authToken !== token) return;
+    const cache = readCompassCache(localStorage, owner, lesson.id);
+    const sent = {...cache.pending};
+    if (!Object.keys(sent).length) return;
+    replayPending(lesson, exercise, cache);
+    // The existing saver captures this specific exercise and auth before its first await.
+    if (state.exercise !== exercise) return;
+    compassView?.status('正在同步原有題目成績…');
+    try {
+      await persistExercise();
+      const latest = readCompassCache(localStorage, owner, lesson.id);
+      for (const [id,pending] of Object.entries(sent)) if (latest.pending[id]?.stamp === pending.stamp) delete latest.pending[id];
+      latest.exercise = exercise;
+      writeCompassCache(localStorage, owner, lesson.id, latest);
+      if (String(state.user?.id || '') === owner && state.exercise === exercise) compassView?.status(Object.keys(latest.pending).length ? '仍有新答案待同步。' : '原有題目成績已同步。延伸題進度保留在此帳戶的這部裝置。');
+    } catch (error) {
+      if (String(state.user?.id || '') === owner && state.exercise === exercise) compassView?.status('暫未同步成功，答案已保留在這部裝置。可重試儲存或重新開啟本課。', true);
+      console.warn('Proverb answer sync deferred', error);
+    }
+  };
+  compassSaveQueue = compassSaveQueue.catch(() => {}).then(operation);
+  return compassSaveQueue;
+}
+
+function renderCompassLesson(sourceLesson, {preserveScroll = false} = {}) {
+  const lesson = PROVERB_COMPASS[sourceLesson.id], owner = String(state.user?.id || ''), scroll = window.scrollY;
+  compassView?.destroy();
+  const cache = compassCache(lesson.id);
+  let exercise = null;
+  if (state.lessonPage === EXERCISE_PAGE) {
+    exercise = ensureExercise(sourceLesson);
+    replayPending(lesson, exercise, cache);
+    exercise.awaitingNextRound = false; exercise.correctionMode = false; exercise.correctionIds = [];
+    if (reviewedOriginalCount(lesson, exercise) < 50) exercise.completedAt = '';
+    cache.selections = hydrateCompassSelections(lesson, exercise, cache);
+    cache.exercise = exercise;
+    if (!exercise.completedAt) startExerciseClock();
+  }
+  const marks = {...cache.bookmarks};
+  for (const q of lesson.items.slice(0,50)) marks[q.id] = isBookmarked(lesson.id, q.id);
+  const save = () => {
+    if (String(state.user?.id || '') !== owner) return;
+    // Read pending state afresh: successful network acknowledgements may arrive while this view stays mounted.
+    const latest = readCompassCache(localStorage, owner, lesson.id);
+    cache.pending = latest.pending;
+    if (exercise) cache.exercise = exercise;
+    if (!writeCompassCache(localStorage, owner, lesson.id, cache)) showToast('此瀏覽器無法保留裝置進度。請保持連線以同步原有題目；延伸題離開後可能重設。', 'error');
+  };
+  compassView = mountProverbCompass({container: elements.lessonContent, lesson, page: state.lessonPage, selections: cache.selections, bookmarks: marks,
+    onSave: save,
+    onNavigate: setLessonPage,
+    onRetry: flushCompassSave,
+    onBookmark: id => {
+      if (/-q\d+$/.test(id)) return toggleBookmark(lesson.id, id, exercise?.questionState?.[id]?.status === 'correct');
+      cache.bookmarks[id] = marks[id]; save();
+    },
+    onAnswer: ({id,index,option,guide}) => {
+      if (String(state.user?.id || '') !== owner || state.lessonId !== lesson.id) return;
+      if (guide) return;
+      const q = lesson.items.find(q => q.id === id);
+      if (q.number > 50) {save();return;}
+      applyCompassAnswer(exercise, q, option);
+      if (reviewedOriginalCount(lesson, exercise) === 50 && !exercise.completedAt) {pauseExerciseClock();exercise.completedAt = new Date().toISOString();}
+      const latest = readCompassCache(localStorage, owner, lesson.id);
+      latest.selections = cache.selections; latest.bookmarks = cache.bookmarks; latest.exercise = exercise;
+      latest.pending[id] = {index, stamp: `${Date.now()}:${Math.random()}`};
+      writeCompassCache(localStorage, owner, lesson.id, latest);
+      emitEddyStreakAnswer(option.correct, sourceLesson);
+      elements.lessonRound.textContent = `${reviewedOriginalCount(lesson, exercise)}/50 原有題已完成`;
+      compassView?.status('答案已保留，稍後同步成績…');
+      queueCompassSave();
+    }
+  });
+  if (exercise) {
+    elements.lessonRound.hidden = false;
+    elements.lessonRound.textContent = `${reviewedOriginalCount(lesson, exercise)}/50 原有題已完成`;
+    if (Object.keys(cache.pending).length) queueCompassSave();
+  }
+  if (preserveScroll) requestAnimationFrame(() => window.scrollTo({top:scroll,behavior:'auto'}));
+}
+
 function renderLessonPage() {
   const lesson = getLesson();
   if (!lesson) return openDashboard();
+  compassView?.destroy(); compassView = null;
   updateLessonStepper();
+  if (PROVERB_COMPASS[lesson.id]) return renderCompassLesson(lesson);
   if (state.lessonPage === 1) renderFormulaPage(lesson);
   else if (state.lessonPage === 2) renderRegisterPage(lesson);
   else if (state.lessonPage === 3) renderFixedVariablePage(lesson);
@@ -2146,16 +2281,24 @@ function serializeExerciseResult(exercise = state.exercise) {
   };
 }
 
-async function persistExercise({ keepalive = false } = {}) {
-  if (state.exercise && Object.keys(state.exercise.questionState || {}).length) classroomLive?.publish();
-  if (!state.exercise || state.user?.role !== "student") return;
-  const operationExercise = state.exercise;
-  const operationUserId = String(state.user.id || "");
-  const operationAuthToken = String(state.authToken || "");
+function persistExercise({keepalive = false} = {}) {
+  if (!state.exercise || state.user?.role !== 'student') return Promise.resolve();
+  pauseExerciseClock();
+  const operationExercise = structuredClone(state.exercise);
+  const operationUserId = String(state.user.id || '');
+  const operationAuthToken = String(state.authToken || '');
+  const run = () => performPersistExercise({keepalive, operationExercise, operationUserId, operationAuthToken});
+  const result = attemptSaveQueue.catch(() => {}).then(run);
+  attemptSaveQueue = result.catch(() => {});
+  return result;
+}
+
+async function performPersistExercise({keepalive, operationExercise, operationUserId, operationAuthToken}) {
+  if (String(state.user?.id || '') !== operationUserId || state.authToken !== operationAuthToken) throw new Error('Account changed before answer save');
+  if (state.exercise?.id === operationExercise.id && Object.keys(operationExercise.questionState || {}).length) classroomLive?.publish();
   window.clearTimeout(state.exercisePersistTimer);
   state.exercisePersistTimer = null;
   const attemptId = operationExercise.id;
-  pauseExerciseClock();
   try {
     const lesson = getLesson(operationExercise.lessonId);
     const payload = {
@@ -2535,7 +2678,9 @@ function renderBookmarks() {
   }).join("");
   const questionRows = questionBookmarks.map((bookmark) => {
     const lesson = getLesson(bookmark.lessonId);
-    const question = getQuestion(bookmark.lessonId, bookmark.questionId);
+    const originalQuestion = getQuestion(bookmark.lessonId, bookmark.questionId);
+    const revised = PROVERB_COMPASS[bookmark.lessonId]?.items.find(q => q.id === bookmark.questionId);
+    const question = revised ? {...originalQuestion, prompt: revised.promptEn, promptZh: revised.promptZh, answer: revised.options.find(o => o.correct).text, answerZh: revised.options.find(o => o.correct).reasonZh} : originalQuestion;
     if (!lesson || !question) return "";
     return `<article class="bookmark-row">
       <span class="bookmark-row-number">${escapeHtml(question.number)}</span>
