@@ -1,11 +1,13 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 const norm=s=>s.toLowerCase().replace(/[^a-z0-9]/g,'');
-for(const [name,count] of [['photograph',58],['open-arms',37],['thinking-out-loud',41]]){
+for(const [name,count] of [['photograph',58],['open-arms',37],['thinking-out-loud',41],['shake-it-off',74]]){
  const song=JSON.parse(fs.readFileSync(`tools/song-content/${name}.json`));
  assert.equal(song.translations.length,count);
  for(const mode of song.exercises){
   assert.equal(mode.listeningLines.length,count);
+  const positions=mode.questions.map(q=>q.options.indexOf(q.answer));
+  positions.forEach((p,i)=>{assert.ok(p>=0);if(i>1)assert.ok(p!==positions[i-1]||p!==positions[i-2],`${name}/${mode.id}: three repeated answer positions at ${i+1}`);});
   const seen=[];
   mode.listeningLines.forEach((line,i)=>{
    assert.equal(line.lineId,song.translations[i].lineId);

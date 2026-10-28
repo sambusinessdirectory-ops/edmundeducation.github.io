@@ -21,7 +21,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="shared-system-nav.css?v=20261022-character-coins1">
-  <link rel="stylesheet" href="song-appreciation.css?v=20261028-wrong-navigation">
+  <link rel="stylesheet" href="song-appreciation.css?v=20261028-song-editor">
   <script defer src="/pwa-register.js"></script>
 <link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261028-hover-guard1">
 </head>
@@ -208,7 +208,10 @@
               <label class="wide">歌曲音訊網址<input name="audioUrl" type="text" placeholder="https://…/song.mp3"><small>使用本站音訊網址，以及這個錄音版本對應的歌詞時間標記。</small></label>
               <div class="youtube-admin-preview wide" data-youtube-preview hidden></div>
               <label class="wide">搜尋標籤（以逗號分隔）<input name="tags" type="text" maxlength="600" placeholder="Taylor Swift, confidence, bullying"></label>
-              <label class="wide">100 字歌曲簡介<textarea name="description" rows="7" maxlength="3000" required></textarea></label>
+              <div class="wide intro-editor-field"><label id="intro-editor-label">100 字歌曲簡介</label><div class="intro-toolbar" role="toolbar" aria-label="簡介格式">
+<button type="button" data-intro-command="bold"><b>粗體</b></button><button type="button" data-intro-command="italic"><i>斜體</i></button><button type="button" data-intro-command="underline"><u>底線</u></button>
+<button type="button" data-intro-color="#fff2a8" class="intro-yellow">黃</button><button type="button" data-intro-color="#ffd6e7" class="intro-pink">粉紅</button><button type="button" data-intro-color="#d4f3df" class="intro-green">綠</button><button type="button" data-intro-color="#d5e9ff" class="intro-blue">藍</button><button type="button" data-intro-command="removeFormat">清除格式</button></div>
+<div data-intro-editor contenteditable="true" role="textbox" aria-multiline="true" aria-labelledby="intro-editor-label"></div><textarea name="description" hidden maxlength="12000"></textarea><small>選取文字後設定格式；按 Enter 換行，再按「儲存」保留修改。</small></div>
               <label class="toggle-field"><input name="published" type="checkbox"><span>學生可見</span></label>
               <label>排序<input name="sortOrder" type="number" min="0" max="9999" step="1"></label>
             </div>
@@ -229,6 +232,6 @@
   <script src="supabase-config.js?v=20260909-study1"></script>
   <script src="song-appreciation-config.js?v=20260909-human1"></script>
   <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script><script src="shared-system-nav.js?v=20261026-daily-visit1"></script>
-  <script src="song-appreciation.js?v=20261028-wrong-navigation"></script>
+  <script src="song-appreciation.js?v=20261028-song-editor"></script>
 </body>
 </html>

@@ -543,7 +543,7 @@
     $("[data-song-title]").textContent = song.title;
     $("[data-song-singer]").textContent = song.singer;
     $("[data-exercise-name]").textContent = song.exerciseName;
-    $("[data-song-description]").textContent = song.description;
+    $("[data-song-description]").replaceChildren(safeIntroduction(song.description));
     tagElements(song.tags, $("[data-song-tags]"));
     const cover = $("[data-song-cover]");
     $("img", cover)?.remove();
@@ -1526,6 +1526,24 @@
   }
 
 
+
+  function safeIntroduction(value) {
+    const fragment=document.createDocumentFragment();
+    if(!/<(?:p|div|br|span|mark|b|strong|i|em|u)(?:\s|>)/i.test(value)){fragment.append(document.createTextNode(value));return fragment;}
+    const doc=new DOMParser().parseFromString(value,"text/html");
+    const colors={"#fff2a8":"intro-yellow","rgb(255, 242, 168)":"intro-yellow","#ffd6e7":"intro-pink","rgb(255, 214, 231)":"intro-pink","#d4f3df":"intro-green","rgb(212, 243, 223)":"intro-green","#d5e9ff":"intro-blue","rgb(213, 233, 255)":"intro-blue"};
+    const allowed=["P","DIV","BR","SPAN","MARK","B","STRONG","I","EM","U"];
+    function copy(node,parent){
+      if(node.nodeType===3){parent.append(document.createTextNode(node.textContent));return;}
+      if(node.nodeType!==1 || ["SCRIPT","STYLE","IFRAME","OBJECT","SVG","MATH"].includes(node.tagName))return;
+      const el=allowed.includes(node.tagName)?document.createElement(node.tagName.toLowerCase()):document.createDocumentFragment();
+      if(el.nodeType===1){const color=colors[node.style.backgroundColor]||["intro-yellow","intro-pink","intro-green","intro-blue"].find(c=>node.classList.contains(c));if(color)el.classList.add(color);}
+      node.childNodes.forEach(child=>copy(child,el));parent.append(el);
+    }
+    doc.body.childNodes.forEach(node=>copy(node,fragment));return fragment;
+  }
+  function introductionValue(){const el=document.createElement("div");el.append(safeIntroduction($("[data-intro-editor]").innerHTML));return el.innerHTML.trim();}
+
   function makeButton(label, action, className="secondary-button") {
     const b=document.createElement("button");b.type="button";b.className=className;b.textContent=label;b.onclick=action;return b;
   }
@@ -1595,7 +1613,14 @@
   function completionPanel(message) {
     const section=document.createElement("section");section.className="lesson-complete";section.setAttribute("aria-label","練習完成");
     const heading=document.createElement("h2");heading.textContent=`✦ 恭喜你！${message}`;
-    section.append(heading,makeButton("返回歌曲主頁 →",()=>routeStudent("library"),"primary-button"));
+    section.append(heading);
+    if(state.activeTab==="exercise" && state.exercise?.submitted){
+      const levels=["standard","medium","hard","hell"],index=levels.indexOf(state.exercise.mode.id);
+      const next=index>=0?state.activeSong.modes.find(m=>m.id===levels[index+1]):null;
+      const note=document.createElement("p");note.textContent=next?`完成得好！準備好挑戰更高一級的 ${next.label} 嗎？`:"太棒了！你已完成最高難度，可以再挑戰一次，讓聆聽更穩固。";section.append(note);
+      if(next)section.append(makeButton(`挑戰 ${next.label} →`,()=>startExercise(next.id),"primary-button"));
+    }
+    section.append(makeButton("返回歌曲主頁 →",()=>routeStudent("library"),"primary-button"));
     const songs=state.songs.filter(song=>song.id!==state.activeSong?.id);
     if(songs.length){
       const title=document.createElement("h3");title.textContent="下一首，想聽甚麼？";const view=document.createElement("div");view.className="song-discovery";const track=document.createElement("div");track.className="song-discovery-track";
@@ -1713,6 +1738,7 @@
     form.elements.coverFile.value = "";
     form.elements.tags.value = song.tags.join(", ");
     form.elements.description.value = song.description || "";
+    $("[data-intro-editor]").replaceChildren(safeIntroduction(song.description || ""));
     form.elements.published.checked = song.published !== false;
     form.elements.sortOrder.value = String(song.sortOrder || 0);
     $("[data-admin-form-title]").textContent = song.id ? `編輯：${song.title}` : "新增歌曲";
@@ -1774,7 +1800,7 @@
       title: normalizeSpace(form.elements.title.value),
       singer: normalizeSpace(form.elements.singer.value),
       exerciseName: normalizeSpace(form.elements.exerciseName.value),
-      description: text(form.elements.description.value).trim(),
+      description: introductionValue(),
       youtubeUrl: existing?.youtubeUrl || "",
       cover_url: form.elements.coverUrl.value.trim(),
       audio_url: form.elements.audioUrl.value.trim(),
@@ -1819,6 +1845,12 @@
   }
 
   function bindInteractions() {
+    const editor=$("[data-intro-editor]");
+    editor.addEventListener("input",()=>{editor.closest("form").elements.description.value=introductionValue();});
+    $$("[data-intro-command],[data-intro-color]").forEach(button=>{
+      button.addEventListener("mousedown",event=>event.preventDefault());
+      button.addEventListener("click",()=>{editor.focus();document.execCommand(button.dataset.introColor?"hiliteColor":button.dataset.introCommand,false,button.dataset.introColor||null);editor.closest("form").elements.description.value=introductionValue();});
+    });
     $("[data-open-tags]").addEventListener("click", openTagPicker);
     $("[data-logout]").addEventListener("click", logout);
     $$("[data-route]").forEach(button => button.addEventListener("click", () => routeStudent(button.dataset.route)));

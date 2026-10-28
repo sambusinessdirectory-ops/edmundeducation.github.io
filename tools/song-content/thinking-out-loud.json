@@ -505,8 +505,8 @@
           "promptZh": "因為，親愛的，你的靈魂永遠不會老去，它四季常青",
           "options": [
             "get cold",
-            "turn cold",
-            "grow old"
+            "grow old",
+            "turn cold"
           ],
           "answer": "grow old"
         },
@@ -1051,8 +1051,8 @@
           "promptZh": "也許這一切都是計劃的一部分",
           "options": [
             "part of the game",
-            "just a mistake",
-            "part of a plan"
+            "part of a plan",
+            "just a mistake"
           ],
           "answer": "part of a plan"
         },
@@ -1075,8 +1075,8 @@
           "promptZh": "希望你能明白",
           "options": [
             "Praying that you'll",
-            "Hoping that you'll",
-            "Wishing that you'll"
+            "Wishing that you'll",
+            "Hoping that you'll"
           ],
           "answer": "Hoping that you'll"
         },
@@ -1693,8 +1693,8 @@
           "promptZh": "因為，親愛的，你的靈魂永遠不會老去，它四季常青",
           "options": [
             "get cold",
-            "turn cold",
-            "grow old"
+            "grow old",
+            "turn cold"
           ],
           "answer": "grow old"
         },
@@ -1962,8 +1962,8 @@
           "prompt": "〔第 1 題〕 〔第 2 題〕 like they {{blank}}",
           "promptZh": "當你的雙腿不再像從前那樣靈活",
           "options": [
-            "used to before",
             "used to say",
+            "used to before",
             "wanted before"
           ],
           "answer": "used to before"
@@ -1986,8 +1986,8 @@
           "prompt": "And 〔第 4 題〕 you {{blank}}",
           "promptZh": "而我再也無法讓你為我傾倒",
           "options": [
-            "out of my mind",
             "off of your feet",
+            "out of my mind",
             "off of my toes"
           ],
           "answer": "off of your feet"
@@ -2406,9 +2406,9 @@
           "prompt": "'Cause, honey, your 〔第 38 題〕 〔第 39 題〕 {{blank}}, it's evergreen",
           "promptZh": "因為，親愛的，你的靈魂永遠不會老去，它四季常青",
           "options": [
-            "get cold",
+            "grow old",
             "turn cold",
-            "grow old"
+            "get cold"
           ],
           "answer": "grow old"
         },
@@ -2466,8 +2466,8 @@
           "prompt": "{{blank}}",
           "promptZh": "所以，寶貝，現在",
           "options": [
-            "So, baby, now",
             "That, baby, now",
+            "So, baby, now",
             "And, baby, now"
           ],
           "answer": "That, baby, now"
@@ -2526,9 +2526,9 @@
           "prompt": "{{blank}} right where we are",
           "promptZh": "而我們就在彼此所在之處找到了愛",
           "options": [
-            "And we found love",
+            "That we found love",
             "And we've found love",
-            "That we found love"
+            "And we found love"
           ],
           "answer": "And we found love"
         }

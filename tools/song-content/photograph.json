@@ -1671,9 +1671,9 @@
           "prompt": "Hearts are {{blank}}",
           "promptZh": "心永不破碎",
           "options": [
-            "never broken",
+            "always broken",
             "never open",
-            "always broken"
+            "never broken"
           ],
           "answer": "never broken"
         },
@@ -1804,8 +1804,8 @@
           "promptZh": "你永遠不會孤單",
           "options": [
             "lonely",
-            "alone",
-            "away"
+            "away",
+            "alone"
           ],
           "answer": "alone"
         },
@@ -1839,8 +1839,8 @@
           "prompt": "Loving can {{blank}}",
           "promptZh": "愛能修補你的靈魂",
           "options": [
-            "heal your soul",
             "mend your soul",
+            "heal your soul",
             "mend your heart"
           ],
           "answer": "mend your soul"
