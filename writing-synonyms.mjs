@@ -19,7 +19,7 @@ export function mountWritingSynonyms() {
   for(const corner of ['nw','ne','sw','se']){const handle=document.createElement('button');handle.type='button';handle.className='syn-resize syn-resize-'+corner;handle.dataset.resize=corner;handle.setAttribute('aria-label',({nw:'左上',ne:'右上',sw:'左下',se:'右下'})[corner]+'角調整大小');panel.append(handle);}
   document.body.append(panel);
   const input=panel.querySelector('input'),status=panel.querySelector('[data-syn-status]'),results=panel.querySelector('[data-syn-results]'),modules=panel.querySelector('[data-syn-modules]');
-  let index,loading,ticket=0,selection=0,focusBefore,timer,positioned=false;const lessons=new Map();
+  let index,loading,ticket=0,selection=0,focusBefore,timer,positioned=false,browsePage=0;const lessons=new Map();
   const el=(tag,cls,text)=>{const node=document.createElement(tag);node.className=cls;if(text)node.textContent=text;return node;};
   async function loadLesson(entry){
     if(!lessons.has(entry.id))lessons.set(entry.id,(async()=>entry.id==='important'?(await import('./synonyms/important-data.mjs')).importantModule:entry.id==='social-media'?(await import('./synonyms/social-media-data.mjs')).socialMediaModule:await fetch(new URL('./synonyms/'+entry.dataFile.replace(/^\.\//,''),import.meta.url)).then(r=>{if(!r.ok)throw new Error();return r.json();}))().catch(error=>{lessons.delete(entry.id);throw error;}));
@@ -30,7 +30,7 @@ export function mountWritingSynonyms() {
     modules.querySelectorAll('button').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.module===entry.id)));
     try{
       const lesson=await loadLesson(entry);if(panel.hidden||ticket!==current||selected!==selection)return;
-      results.replaceChildren();const heading=el('div','syn-module-heading');heading.append(el('h3','',entry.title),el('span','',`${lesson.words.length} expressions`));results.append(heading);
+      results.replaceChildren();if(!input.value.trim()){const back=el('button','syn-browse-back','← 返回詞語目錄');back.type='button';back.onclick=renderBrowse;results.append(back);}const heading=el('div','syn-module-heading');heading.append(el('h3','',entry.title),el('span','',`${lesson.words.length} expressions`));results.append(heading);
       for(const [i,word] of lesson.words.entries()){
         const first=word.exercises?.[0],card=el('article','syn-vocabulary-card');
         const top=el('div','syn-vocabulary-title'),copy=el('div','');top.append(el('span','syn-vocabulary-number',String(i+1).padStart(2,'0')));copy.append(el('h4','',word.word),el('p','syn-word-meaning',word.meaning));top.append(copy);card.append(top);
@@ -40,13 +40,25 @@ export function mountWritingSynonyms() {
       }
     }catch{if(ticket===current&&selected===selection){results.replaceChildren(el('p','','未能載入詞彙。'));const retry=el('button','syn-retry','重新載入');retry.type='button';retry.onclick=()=>showLesson(entry,current);results.append(retry);}}
   }
+  function renderBrowse(){
+    const current=++ticket;selection++;modules.hidden=true;modules.replaceChildren();results.replaceChildren();
+    const pages=Math.ceil(index.length/50);browsePage=Math.max(0,Math.min(browsePage,pages-1));const start=browsePage*50;
+    status.textContent=`探索 ${index.length.toLocaleString()} 個模組 · 依原有學習次序`;
+    const nav=el('nav','syn-browse-pages');nav.setAttribute('aria-label','詞語目錄分頁');
+    const prev=el('button','','← 上一頁'),next=el('button','','下一頁 →');prev.type=next.type='button';prev.disabled=browsePage===0;next.disabled=browsePage===pages-1;
+    prev.onclick=()=>{browsePage--;renderBrowse();};next.onclick=()=>{browsePage++;renderBrowse();};
+    nav.append(prev,el('span','',`${browsePage+1} / ${pages}`),next);results.append(nav);
+    results.append(el('p','syn-browse-range',`${start+1}–${Math.min(start+50,index.length)} · 點選詞語，發現更精準的說法`));
+    const grid=el('div','syn-browse-grid');
+    index.slice(start,start+50).forEach((entry,i)=>{const button=el('button','syn-browse-word');button.type='button';button.dataset.module=entry.id;button.append(el('span','syn-browse-number',String(start+i+1).padStart(2,'0')),el('strong','',entry.title),el('span','syn-browse-arrow','↗'));button.onclick=()=>{panel.querySelector('.syn-window-body').scrollTop=0;void showLesson(entry,current);};grid.append(button);});
+    results.append(grid);panel.querySelector('.syn-window-body').scrollTop=0;
+  }
   async function search(){
     const current=++ticket;selection++;const query=input.value.trim();modules.replaceChildren();modules.hidden=true;results.replaceChildren();
-    if(!query){status.textContent='輸入英文或中文，開始找詞。';return;}
     status.textContent='正在搜尋…';
     try{
-      loading ||= fetch(new URL('./synonyms/writing-search-index.json?v=20261028-examples1',import.meta.url)).then(r=>{if(!r.ok)throw new Error();return r.json();}).catch(e=>{loading=null;throw e;});index ||= await loading;
-      if(panel.hidden||current!==ticket)return;const matches=searchSynonymLessons(index,query);
+      loading ||= fetch(new URL('./synonyms/writing-search-index.json?v=20261028-browse1',import.meta.url)).then(r=>{if(!r.ok)throw new Error();return r.json();}).catch(e=>{loading=null;throw e;});index ||= await loading;
+      if(panel.hidden||current!==ticket)return;if(!query){renderBrowse();return;}const matches=searchSynonymLessons(index,query);
       status.textContent=matches.length?`${matches.length} 個相關模組 · 已先顯示最相符詞語`:'找不到相符詞語，試試另一個字。';
       for(const entry of matches){const button=el('button','syn-module-chip',entry.title);button.type='button';button.dataset.module=entry.id;button.onclick=()=>showLesson(entry,current);modules.append(button);}
       modules.hidden=matches.length<2;if(matches.length)await showLesson(matches[0],current);
@@ -70,8 +82,8 @@ export function mountWritingSynonyms() {
   panel.querySelectorAll('[data-resize]').forEach(handle=>handle.addEventListener('keydown',event=>{if(!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(event.key))return;event.preventDefault();resize(bounds(),event.key==='ArrowLeft'?-16:event.key==='ArrowRight'?16:0,event.key==='ArrowUp'?-16:event.key==='ArrowDown'?16:0,handle.dataset.resize);}));
   window.addEventListener('resize',()=>{if(!panel.hidden)setBounds(bounds());});
   function close(){ticket++;selection++;clearTimeout(timer);panel.hidden=true;focusBefore?.focus();}
-  function open(button=document.activeElement){focusBefore=button;panel.hidden=false;if(!positioned){setBounds({x:innerWidth-470,y:100,w:440,h:Math.min(690,innerHeight-120)});positioned=true;}else setBounds(bounds());input.focus();if(input.value)void search();}
-  panel.querySelector('form').onsubmit=event=>{event.preventDefault();clearTimeout(timer);void search();};input.addEventListener('input',()=>{clearTimeout(timer);ticket++;selection++;timer=setTimeout(search,180);});
+  function open(button=document.activeElement){focusBefore=button;panel.hidden=false;if(!positioned){setBounds({x:innerWidth-470,y:100,w:440,h:Math.min(690,innerHeight-120)});positioned=true;}else setBounds(bounds());input.focus();void search();}
+  panel.querySelector('form').onsubmit=event=>{event.preventDefault();clearTimeout(timer);void search();};input.addEventListener('input',()=>{clearTimeout(timer);ticket++;selection++;if(!input.value.trim())browsePage=0;timer=setTimeout(search,180);});
   panel.querySelector('[data-syn-close]').onclick=close;panel.addEventListener('keydown',event=>{if(event.key==='Escape'){event.stopPropagation();close();}});
   document.querySelectorAll('[data-writing-synonyms]').forEach(button=>button.addEventListener('click',()=>open(button)));
   return {close,open};
