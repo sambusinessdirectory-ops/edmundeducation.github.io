@@ -1,3 +1,4 @@
+import {mountEntryDraftGuard} from './schedule-entry-draft-guard.mjs?v=20261028-1';
 import { TOPIC_PICKER_TRACKS, TOPIC_PICKER_LEAVES, writingTopicInPickerCategory } from './writing-topic-categories.mjs?v=20261028';
 import {mountSystemAccess,loadAccessCatalog} from './system-access-admin.mjs';
 import {
@@ -822,7 +823,13 @@ function renderHomeworkWritingCategories(type) {
       for (const leaf of leaves) {
         const button = document.createElement('button'); button.type='button';button.className='small-button';button.textContent=leaf.label;
         button.dataset.writingCategory=leaf.id;button.setAttribute('aria-pressed','false');
-        button.onclick=()=>{homeworkWritingCategory=leaf.id;homeworkWritingLimit=60;nav.querySelectorAll('button').forEach(node=>node.setAttribute('aria-pressed',String(node===button)));renderHomeworkPickerResults();};
+        button.onclick=async()=>{elements.homeworkPickerSearch.value='';homeworkWritingCategory=leaf.id;homeworkWritingLimit=60;nav.querySelectorAll('button').forEach(node=>node.setAttribute('aria-pressed',String(node===button)));renderHomeworkPickerResults();
+          if(leaf.id==='manual'&&state.currentUser?.role==='admin'){
+            elements.homeworkPickerCount.textContent='正在載入我建立的題目…';
+            try{await ensureHomeworkCatalog({refreshManualWriting:true});if(homeworkWritingCategory==='manual'&&state.homeworkPickerType==='writing-submission')renderHomeworkPickerResults();}
+            catch{if(homeworkWritingCategory==='manual'){elements.homeworkPickerCount.textContent='未能載入自建題目，請再按「我建立的題目」重試。';elements.homeworkPickerResults.replaceChildren();}}
+          }
+        };
         section.append(button);
       }
       group.append(section);
@@ -853,7 +860,7 @@ function renderHomeworkPickerResults() {
   }
   renderHomeworkWritingCategories(type);
   const result = filterHomeworkResources(
-    type === "writing-submission" ? homeworkResourceCatalog.filter(item => writingTopicInPickerCategory(item, homeworkWritingCategory)) : homeworkResourceCatalog,
+    type === "writing-submission" && !elements.homeworkPickerSearch.value.trim() ? homeworkResourceCatalog.filter(item => writingTopicInPickerCategory(item, homeworkWritingCategory)) : homeworkResourceCatalog,
     type,
     elements.homeworkPickerSearch.value,
     type === "writing-submission" ? homeworkWritingLimit : 60
@@ -7000,9 +7007,7 @@ async function saveEntry(event) {
   } catch (error) {
     console.warn("Schedule entry save failed", error);
     if (isConcurrencyError(error)) {
-      elements.entryDialog.close();
-      showToast("這一格已在另一個頁面更新；日程已重新載入。", "error");
-      await loadWeek(focusTarget);
+      setStatus(elements.entryStatus, "這一格已在另一個頁面更新。你的文字仍保留，請先複製或下載備份，再重新開啟此格。", "error");
       return;
     }
     setStatus(elements.entryStatus, error.message || "未能儲存，請再試一次。", "error");
@@ -8299,7 +8304,13 @@ elements.homeworkAttachments?.addEventListener("click", (event) => {
   const remove = event.target.closest("[data-remove-homework-resource]");
   if (remove) removeHomeworkResource(remove.dataset.removeHomeworkResource);
 });
-elements.closeEntry.addEventListener("click", () => elements.entryDialog.close());
+const entryDraftGuard=mountEntryDraftGuard({
+ dialog:elements.entryDialog,input:elements.entryMessage,
+ getOriginal:()=>parseScheduleMessage(state.editing?.entry?.message||'').text,
+ onSave:()=>saveEntry({preventDefault(){}}),
+ isSaving:()=>elements.saveEntry.disabled
+});
+elements.closeEntry.addEventListener("click", () => entryDraftGuard.requestClose());
 elements.deleteEntry.addEventListener("click", () => elements.deleteDialog.showModal());
 elements.toggleComplete.addEventListener("click", toggleEntryCompletion);
 elements.toggleProgress.addEventListener("click", toggleEntryProgress);
@@ -8561,7 +8572,7 @@ elements.entryDialog.addEventListener("close", () => {
 });
 elements.entryDialog.addEventListener("click", (event) => {
   if (event.target === elements.entryDialog && !elements.deleteDialog.open) {
-    elements.entryDialog.close();
+    entryDraftGuard.requestClose();
   }
 });
 
