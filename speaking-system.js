@@ -6050,7 +6050,11 @@
       : "未能啟動咪高峰，請檢查裝置及瀏覽器權限後再試。";
   }
 
+  let stopMicrophoneCheck = null;
+
   function stopMediaTracks() {
+    stopMicrophoneCheck?.();
+    stopMicrophoneCheck = null;
     window.EdmundSpeakingRecordingStream=null;
     state.mediaStream?.getTracks().forEach(track => track.stop());
     state.mediaStream = null;
@@ -6342,6 +6346,19 @@
       };
       recorder.onstop = () => finaliseRecording(generation, recorder.mimeType || "audio/webm");
       recorder.start(1000);
+      if (requestedContext.isExam) {
+        stopMicrophoneCheck = window.EdmundSpeakingMicrophoneCheck?.(stream, {
+          isActive: () => generation === state.recordingGeneration && state.mediaRecorder === recorder && recorder.state === "recording",
+          onQuiet: () => {
+            if (generation !== state.recordingGeneration || state.mediaRecorder !== recorder || recorder.state !== "recording") return;
+            const proceed = window.confirm("咪高峰檢查：首兩秒未偵測到明顯聲音變化。\n可能尚未開始說話，或咪高峰已靜音、未接妥。\n\n仍要繼續錄音嗎？\n按「確定」繼續；按「取消」停止本次錄音，檢查咪高峰後重新開始。");
+            if (!proceed) {
+              cancelRecorder();
+              recordingStatus("本次錄音已停止，未提交答案。請檢查咪高峰，準備好後重新開始回答。");
+            }
+          }
+        });
+      }
       state.recordingActiveStartedAt = recordingNow();
       recordingStatus(state.recordingPauseSupported
         ? (requestedContext.isExam ? "錄音已開始；完成回答後請按「完成回答」。" : "錄音已開始；需要重聽示範時可先暫停，完成後按「完成並製作 MP3」。")
