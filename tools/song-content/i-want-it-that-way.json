@@ -1,0 +1,3222 @@
+{
+  "slug": "i-want-it-that-way",
+  "title": "I Want It That Way",
+  "singer": "Backstreet Boys",
+  "exercise_name": "I Want It That Way · Listening & Vocabulary",
+  "description": "《I Want It That Way》描寫一段充滿矛盾、距離與心痛的愛情。歌中的主角深愛著對方，視她為心中唯一的渴望，卻發現兩人的感情逐漸疏遠，彷彿生活在兩個不同的世界。他不明白為何曾經美好的愛情會變成傷痛，甚至懷疑彼此的選擇是否錯誤。儘管知道兩人的關係可能已經無法回到從前，他仍然不願放手，希望對方明白自己內心深處的愛意。最終，《I Want It That Way》傳達的是愛情中的渴望、無奈與不捨：即使彼此深愛，也可能因誤解與距離而漸行漸遠，但心中的感情卻未必能輕易放下。",
+  "tags": [
+    "backstreet boys",
+    "i want it that way",
+    "love",
+    "devotion"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "You are my fire",
+      "chinese": "你是我的火焰",
+      "startSeconds": 8.28,
+      "endSeconds": 13.74
+    },
+    {
+      "lineId": "line-2",
+      "english": "The one desire",
+      "chinese": "那唯一的渴望",
+      "startSeconds": 14.32,
+      "endSeconds": 17.9
+    },
+    {
+      "lineId": "line-3",
+      "english": "Believe when I say",
+      "chinese": "當我說時請相信",
+      "startSeconds": 17.9,
+      "endSeconds": 23.6
+    },
+    {
+      "lineId": "line-4",
+      "english": "I want it that way",
+      "chinese": "我只想要那樣",
+      "startSeconds": 23.6,
+      "endSeconds": 28.52
+    },
+    {
+      "lineId": "line-5",
+      "english": "But we are two worlds apart",
+      "chinese": "但我們身處兩個世界",
+      "startSeconds": 28.52,
+      "endSeconds": 34.88
+    },
+    {
+      "lineId": "line-6",
+      "english": "Can't reach to your heart",
+      "chinese": "無法觸及你的心",
+      "startSeconds": 35.52,
+      "endSeconds": 39.8
+    },
+    {
+      "lineId": "line-7",
+      "english": "When you say",
+      "chinese": "當你說",
+      "startSeconds": 40.52,
+      "endSeconds": 43.04
+    },
+    {
+      "lineId": "line-8",
+      "english": "That I want it that way",
+      "chinese": "我只想要那樣",
+      "startSeconds": 43.04,
+      "endSeconds": 47.94
+    },
+    {
+      "lineId": "line-9",
+      "english": "Tell me why",
+      "chinese": "告訴我為什麼",
+      "startSeconds": 47.94,
+      "endSeconds": 49.3
+    },
+    {
+      "lineId": "line-10",
+      "english": "Ain't nothing but a heartache",
+      "chinese": "只不過是心痛一場",
+      "startSeconds": 49.3,
+      "endSeconds": 52.78
+    },
+    {
+      "lineId": "line-11",
+      "english": "Tell me why",
+      "chinese": "告訴我為什麼",
+      "startSeconds": 52.78,
+      "endSeconds": 54.18
+    },
+    {
+      "lineId": "line-12",
+      "english": "Ain't nothing but a mistake",
+      "chinese": "只不過是個錯誤",
+      "startSeconds": 54.18,
+      "endSeconds": 57.06
+    },
+    {
+      "lineId": "line-13",
+      "english": "Tell me why",
+      "chinese": "告訴我為什麼",
+      "startSeconds": 57.06,
+      "endSeconds": 58.9
+    },
+    {
+      "lineId": "line-14",
+      "english": "I never wanna hear you say",
+      "chinese": "我永遠不想聽你說",
+      "startSeconds": 58.9,
+      "endSeconds": 62.58
+    },
+    {
+      "lineId": "line-15",
+      "english": "I want it that way",
+      "chinese": "我只想要那樣",
+      "startSeconds": 62.58,
+      "endSeconds": 67.4
+    },
+    {
+      "lineId": "line-16",
+      "english": "Am I your fire",
+      "chinese": "我是你的火焰嗎",
+      "startSeconds": 67.4,
+      "endSeconds": 71.78
+    },
+    {
+      "lineId": "line-17",
+      "english": "Your one desire",
+      "chinese": "你唯一的渴望",
+      "startSeconds": 72.54,
+      "endSeconds": 76.28
+    },
+    {
+      "lineId": "line-18",
+      "english": "Yes I know it's too late",
+      "chinese": "是的，我知道一切都太遲了",
+      "startSeconds": 77.04,
+      "endSeconds": 81.84
+    },
+    {
+      "lineId": "line-19",
+      "english": "But I want it that way",
+      "chinese": "但我只想要那樣",
+      "startSeconds": 81.84,
+      "endSeconds": 86.48
+    },
+    {
+      "lineId": "line-20",
+      "english": "Tell me why",
+      "chinese": "告訴我為什麼",
+      "startSeconds": 86.48,
+      "endSeconds": 88.0
+    },
+    {
+      "lineId": "line-21",
+      "english": "Ain't nothing but a heartache",
+      "chinese": "只不過是心痛一場",
+      "startSeconds": 88.0,
+      "endSeconds": 90.68
+    },
+    {
+      "lineId": "line-22",
+      "english": "Tell me why",
+      "chinese": "告訴我為什麼",
+      "startSeconds": 90.68,
+      "endSeconds": 92.6
+    },
+    {
+      "lineId": "line-23",
+      "english": "Ain't nothing but a mistake",
+      "chinese": "只不過是個錯誤",
+      "startSeconds": 92.6,
+      "endSeconds": 95.84
+    },
+    {
+      "lineId": "line-24",
+      "english": "Tell me why",
+      "chinese": "告訴我為什麼",
+      "startSeconds": 96.42,
+      "endSeconds": 97.7
+    },
+    {
+      "lineId": "line-25",
+      "english": "I never wanna hear you say",
+      "chinese": "我永遠不想聽你說",
+      "startSeconds": 97.7,
+      "endSeconds": 101.26
+    },
+    {
+      "lineId": "line-26",
+      "english": "I want it that way",
+      "chinese": "我只想要那樣",
+      "startSeconds": 101.26,
+      "endSeconds": 106.42
+    },
+    {
+      "lineId": "line-27",
+      "english": "Now I can see that we're falling apart",
+      "chinese": "現在我能看出我們正漸行漸遠",
+      "startSeconds": 106.42,
+      "endSeconds": 110.74
+    },
+    {
+      "lineId": "line-28",
+      "english": "From the way that it used to be, yeah",
+      "chinese": "從我們曾經擁有的模樣看來，耶",
+      "startSeconds": 110.74,
+      "endSeconds": 115.52
+    },
+    {
+      "lineId": "line-29",
+      "english": "No matter the distance",
+      "chinese": "無論距離多麼遙遠",
+      "startSeconds": 115.52,
+      "endSeconds": 118.38
+    },
+    {
+      "lineId": "line-30",
+      "english": "I want you to know",
+      "chinese": "我想讓你知道",
+      "startSeconds": 118.38,
+      "endSeconds": 120.54
+    },
+    {
+      "lineId": "line-31",
+      "english": "That deep down inside of me",
+      "chinese": "在我內心深處",
+      "startSeconds": 120.54,
+      "endSeconds": 125.54
+    },
+    {
+      "lineId": "line-32",
+      "english": "You are my fire",
+      "chinese": "你是我的火焰",
+      "startSeconds": 125.54,
+      "endSeconds": 130.06
+    },
+    {
+      "lineId": "line-33",
+      "english": "The one desire",
+      "chinese": "那唯一的渴望",
+      "startSeconds": 130.06,
+      "endSeconds": 134.22
+    },
+    {
+      "lineId": "line-34",
+      "english": "You are",
+      "chinese": "你是",
+      "startSeconds": 134.22,
+      "endSeconds": 136.14
+    },
+    {
+      "lineId": "line-35",
+      "english": "You are, you are, you are",
+      "chinese": "你是，你是，你是",
+      "startSeconds": 136.14,
+      "endSeconds": 143.4
+    },
+    {
+      "lineId": "line-36",
+      "english": "Don't wanna hear you say",
+      "chinese": "不想聽你說",
+      "startSeconds": 143.4,
+      "endSeconds": 144.88
+    },
+    {
+      "lineId": "line-37",
+      "english": "Ain't nothing but a heartache",
+      "chinese": "只不過是心痛一場",
+      "startSeconds": 145.0,
+      "endSeconds": 149.74
+    },
+    {
+      "lineId": "line-38",
+      "english": "Ain't nothing but a mistake (don't wanna hear you say)",
+      "chinese": "只不過是個錯誤（不想聽你說）",
+      "startSeconds": 149.74,
+      "endSeconds": 154.26
+    },
+    {
+      "lineId": "line-39",
+      "english": "I never wanna hear you say (oh, yeah)",
+      "chinese": "我永遠不想聽你說（噢，耶）",
+      "startSeconds": 154.26,
+      "endSeconds": 159.42
+    },
+    {
+      "lineId": "line-40",
+      "english": "I want it that way",
+      "chinese": "我只想要那樣",
+      "startSeconds": 159.42,
+      "endSeconds": 164.12
+    },
+    {
+      "lineId": "line-41",
+      "english": "Tell me why",
+      "chinese": "告訴我為什麼",
+      "startSeconds": 164.5,
+      "endSeconds": 165.6
+    },
+    {
+      "lineId": "line-42",
+      "english": "Ain't nothing but a heartache",
+      "chinese": "只不過是心痛一場",
+      "startSeconds": 165.6,
+      "endSeconds": 168.98
+    },
+    {
+      "lineId": "line-43",
+      "english": "Tell me why",
+      "chinese": "告訴我為什麼",
+      "startSeconds": 168.98,
+      "endSeconds": 170.08
+    },
+    {
+      "lineId": "line-44",
+      "english": "Ain't nothing but a mistake",
+      "chinese": "只不過是個錯誤",
+      "startSeconds": 170.08,
+      "endSeconds": 173.46
+    },
+    {
+      "lineId": "line-45",
+      "english": "Tell me why",
+      "chinese": "告訴我為什麼",
+      "startSeconds": 173.46,
+      "endSeconds": 175.28
+    },
+    {
+      "lineId": "line-46",
+      "english": "I never wanna hear you say (don't wanna hear you say)",
+      "chinese": "我永遠不想聽你說（不想聽你說）",
+      "startSeconds": 175.28,
+      "endSeconds": 180.28
+    },
+    {
+      "lineId": "line-47",
+      "english": "I want it that way",
+      "chinese": "我只想要那樣",
+      "startSeconds": 180.28,
+      "endSeconds": 183.6
+    },
+    {
+      "lineId": "line-48",
+      "english": "Tell me why",
+      "chinese": "告訴我為什麼",
+      "startSeconds": 184.0,
+      "endSeconds": 185.18
+    },
+    {
+      "lineId": "line-49",
+      "english": "Ain't nothing but a heartache",
+      "chinese": "只不過是心痛一場",
+      "startSeconds": 185.18,
+      "endSeconds": 189.46
+    },
+    {
+      "lineId": "line-50",
+      "english": "Ain't nothing but a mistake",
+      "chinese": "只不過是個錯誤",
+      "startSeconds": 189.46,
+      "endSeconds": 193.32
+    },
+    {
+      "lineId": "line-51",
+      "english": "Tell me why",
+      "chinese": "告訴我為什麼",
+      "startSeconds": 193.32,
+      "endSeconds": 194.6
+    },
+    {
+      "lineId": "line-52",
+      "english": "I never wanna hear you say (never wanna hear you say)",
+      "chinese": "我永遠不想聽你說（永遠不想聽你 說）",
+      "startSeconds": 194.6,
+      "endSeconds": 197.88
+    },
+    {
+      "lineId": "line-53",
+      "english": "I want it that way",
+      "chinese": "我只想要那樣",
+      "startSeconds": 197.88,
+      "endSeconds": 203.1
+    },
+    {
+      "lineId": "line-54",
+      "english": "'Cause I want it that way",
+      "chinese": "因為我只想要那樣",
+      "startSeconds": 203.1,
+      "endSeconds": 208.92
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Desire",
+      "meaning": "渴望；很想要的東西",
+      "usage": "想說自己非常想要某件事時可以使用。desire 比 want 更強烈，也比較正式。",
+      "prompt": "哪一句正確使用了「Desire」？",
+      "options": [
+        "My biggest desire is to travel around the world.",
+        "I desire my homework on the table yesterday.",
+        "She put a desire in her soup for lunch.",
+        "The desire is sleeping on my sofa."
+      ],
+      "answer": 0,
+      "explanation": "正確：desire 在這裡是「很想實現的願望」。",
+      "optionExplanations": [
+        "正確：desire 在這裡是「很想實現的願望」。",
+        "錯誤：desire 不是「放置」，不能這樣描述放作業。",
+        "錯誤：desire 不是食物材料，不能放進湯裡。",
+        "錯誤：desire 是願望，不是會睡覺的人或動物。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Two worlds apart",
+      "meaning": "差距很大；想法或生活非常不同",
+      "usage": "當兩個人的想法、喜好或生活方式很不一樣時可以用。",
+      "prompt": "哪一句正確使用了「Two worlds apart」？",
+      "options": [
+        "I put two worlds apart in my school bag.",
+        "Our shoes are two worlds apart because they are under the bed.",
+        "I love big cities, but she loves quiet towns. We are two worlds apart.",
+        "Please cook two worlds apart for dinner."
+      ],
+      "answer": 2,
+      "explanation": "正確：兩個人的喜好非常不同，適合用這個片語。",
+      "optionExplanations": [
+        "錯誤：這是形容差距的片語，不是可以放進書包的東西。",
+        "錯誤：鞋子放在床下，不代表兩者想法或生活差很多。",
+        "正確：兩個人的喜好非常不同，適合用這個片語。",
+        "錯誤：這個片語不是一道菜，不能當作食物來煮。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Reach",
+      "meaning": "到達；伸手碰到",
+      "usage": "想說抵達某地，或伸手拿到某物時，可以使用 reach。",
+      "prompt": "哪一句正確使用了「Reach」？",
+      "options": [
+        "I reached my breakfast with some milk.",
+        "The tall boy can reach the top shelf.",
+        "My dog reached a song in the kitchen.",
+        "She reaches happy every Friday."
+      ],
+      "answer": 1,
+      "explanation": "正確：reach 表示伸手可以碰到高處的架子。",
+      "optionExplanations": [
+        "錯誤：reach 不是「準備」或「吃」早餐的意思。",
+        "正確：reach 表示伸手可以碰到高處的架子。",
+        "錯誤：reach 不表示唱歌，也不能這樣接 a song。",
+        "錯誤：reach 不能直接接 happy 來表示變開心。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Heartache",
+      "meaning": "心痛；難過（常因感情而起）",
+      "usage": "失去重要的人或遇到感情問題而難過時，可以用這個字。",
+      "prompt": "哪一句正確使用了「Heartache」？",
+      "options": [
+        "Please buy three heartaches at the shop.",
+        "I washed my heartache with hot water.",
+        "The heartache drove our bus to school.",
+        "After they said goodbye, he felt a lot of heartache."
+      ],
+      "answer": 3,
+      "explanation": "正確：道別後的難過可以用 heartache 表達。",
+      "optionExplanations": [
+        "錯誤：heartache 是感受，不是商店裡可以買的商品。",
+        "錯誤：heartache 不是可以用水洗的物品。",
+        "錯誤：heartache 是心痛的感覺，不會開車。",
+        "正確：道別後的難過可以用 heartache 表達。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Mistake",
+      "meaning": "錯誤",
+      "usage": "當一個人做錯事、寫錯答案或選錯東西時可以用。常說 make a mistake。",
+      "prompt": "哪一句正確使用了「Mistake」？",
+      "options": [
+        "I made a mistake and wrote the wrong date.",
+        "She drank a mistake after lunch.",
+        "We took the mistake to the zoo to see lions.",
+        "He wore a mistake because it was cold."
+      ],
+      "answer": 0,
+      "explanation": "正確：make a mistake 是「犯錯」的自然說法。",
+      "optionExplanations": [
+        "正確：make a mistake 是「犯錯」的自然說法。",
+        "錯誤：mistake 不是飲料，不能用 drink。",
+        "錯誤：mistake 不是人或動物，不能帶去動物園。",
+        "錯誤：mistake 不是衣服，不能穿在身上。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Too late",
+      "meaning": "太晚；已經來不及",
+      "usage": "當時間已過，或事情現在做已經來不及時，可以用。",
+      "prompt": "哪一句正確使用了「Too late」？",
+      "options": [
+        "I put too late next to the window.",
+        "It is too late to catch the bus. It has already left.",
+        "She ate too late with rice and eggs.",
+        "My new shoes are too late and blue."
+      ],
+      "answer": 1,
+      "explanation": "正確：公車已離開，所以現在趕不上了。",
+      "optionExplanations": [
+        "錯誤：too late 表示時間，不是可以放在窗邊的東西。",
+        "正確：公車已離開，所以現在趕不上了。",
+        "錯誤：too late 不是食物；這句也沒有清楚表達吃飯時間太晚。",
+        "錯誤：too late 不能形容鞋子的顏色或外觀。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Fall apart",
+      "meaning": "散開、壞掉；（關係）破裂",
+      "usage": "東西破成幾部分，或朋友、情侶的關係變差時可以用。",
+      "prompt": "哪一句正確使用了「Fall apart」？",
+      "options": [
+        "I fell apart my homework at seven.",
+        "She fell apart a sandwich for breakfast.",
+        "My old bag is falling apart. I need a new one.",
+        "We fall apart to school by bus."
+      ],
+      "answer": 2,
+      "explanation": "正確：舊包包快壞掉了，可以用 falling apart。",
+      "optionExplanations": [
+        "錯誤：fall apart 不能直接接 homework 當受詞。",
+        "錯誤：fall apart 不是「做三明治」的意思。",
+        "正確：舊包包快壞掉了，可以用 falling apart。",
+        "錯誤：fall apart 不表示搭車或去某地。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Used to",
+      "meaning": "以前常常（現在通常不再如此）",
+      "usage": "說以前有的習慣或情況，但現在改變了，可以用 used to + 原形動詞。",
+      "prompt": "哪一句正確使用了「Used to」？",
+      "options": [
+        "I used to a new phone last week.",
+        "He used to playing football yesterday.",
+        "We used to happy in the kitchen.",
+        "I used to walk to school, but now I take the bus."
+      ],
+      "answer": 3,
+      "explanation": "正確：以前走路上學，現在改搭公車，表示習慣改變。",
+      "optionExplanations": [
+        "錯誤：used to 後面需要原形動詞，不能直接接 a new phone。",
+        "錯誤：used to 後面要接 play，不是 playing。",
+        "錯誤：要說 used to be happy，不能省略 be。",
+        "正確：以前走路上學，現在改搭公車，表示習慣改變。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "No matter",
+      "meaning": "無論；不管",
+      "usage": "想表達某個條件不會改變結果時使用，常接 what、where、how 等字。",
+      "prompt": "哪一句正確使用了「No matter」？",
+      "options": [
+        "No matter how busy I am, I call my mom every day.",
+        "I no matter my shoes before school.",
+        "She bought a no matter at the market.",
+        "The cat is no matter under the chair."
+      ],
+      "answer": 0,
+      "explanation": "正確：無論多忙，都會打電話給媽媽。",
+      "optionExplanations": [
+        "正確：無論多忙，都會打電話給媽媽。",
+        "錯誤：no matter 不是一般動詞，不能當「穿鞋」使用。",
+        "錯誤：no matter 不是可以購買的物品。",
+        "錯誤：no matter 不能用來表示貓的位置。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Deep down",
+      "meaning": "在內心深處；其實心裡知道",
+      "usage": "當某人內心真正的感受或想法，和表面表現不一樣時，可以用。",
+      "prompt": "哪一句正確使用了「Deep down」？",
+      "options": [
+        "I put deep down in my water bottle.",
+        "Deep down, I know my friend is right.",
+        "My shoes are deep down and very hungry.",
+        "She deep down her homework after dinner."
+      ],
+      "answer": 1,
+      "explanation": "正確：表示雖然可能不想承認，但心裡知道朋友是對的。",
+      "optionExplanations": [
+        "錯誤：deep down 不是可以放進水瓶的物品。",
+        "正確：表示雖然可能不想承認，但心裡知道朋友是對的。",
+        "錯誤：deep down 在這裡不能表示鞋子餓了。",
+        "錯誤：deep down 不是動詞，不能表示做作業。"
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/i-want-it-that-way/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/i-want-it-that-way/cover.webp",
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "You are my {{blank}}",
+          "promptZh": "你是我的火焰",
+          "options": [
+            "fire",
+            "flame",
+            "desire"
+          ],
+          "answer": "fire"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "The one {{blank}}",
+          "promptZh": "那唯一的渴望",
+          "options": [
+            "desire",
+            "need",
+            "dream"
+          ],
+          "answer": "desire"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}} when I 〔第 4 題〕",
+          "promptZh": "當我說時請相信",
+          "options": [
+            "Know",
+            "Believe",
+            "Think"
+          ],
+          "answer": "Believe"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "〔第 3 題〕 when I {{blank}}",
+          "promptZh": "當我說時請相信",
+          "options": [
+            "say",
+            "speak",
+            "tell"
+          ],
+          "answer": "say"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "I want it {{blank}}",
+          "promptZh": "我只想要那樣",
+          "options": [
+            "that way",
+            "this way",
+            "anyway"
+          ],
+          "answer": "that way"
+        },
+        {
+          "number": 6,
+          "lineId": "line-5",
+          "prompt": "But we are two {{blank}}",
+          "promptZh": "但我們身處兩個世界",
+          "options": [
+            "worlds away",
+            "hearts apart",
+            "worlds apart"
+          ],
+          "answer": "worlds apart"
+        },
+        {
+          "number": 7,
+          "lineId": "line-6",
+          "prompt": "Can't {{blank}} to your heart",
+          "promptZh": "無法觸及你的心",
+          "options": [
+            "reach",
+            "get",
+            "touch"
+          ],
+          "answer": "reach"
+        },
+        {
+          "number": 8,
+          "lineId": "line-9",
+          "prompt": "Tell me {{blank}}",
+          "promptZh": "告訴我為什麼",
+          "options": [
+            "why",
+            "how",
+            "when"
+          ],
+          "answer": "why"
+        },
+        {
+          "number": 9,
+          "lineId": "line-10",
+          "prompt": "Ain't {{blank}} but a heartache",
+          "promptZh": "只不過是心痛一場",
+          "options": [
+            "something",
+            "nothing else",
+            "nothing"
+          ],
+          "answer": "nothing"
+        },
+        {
+          "number": 10,
+          "lineId": "line-11",
+          "prompt": "{{blank}}",
+          "promptZh": "告訴我為什麼",
+          "options": [
+            "Tell me why",
+            "Teach me how",
+            "Show me why"
+          ],
+          "answer": "Tell me why"
+        },
+        {
+          "number": 11,
+          "lineId": "line-12",
+          "prompt": "Ain't nothing but a {{blank}}",
+          "promptZh": "只不過是個錯誤",
+          "options": [
+            "mistake",
+            "heartbreak",
+            "wrong turn"
+          ],
+          "answer": "mistake"
+        },
+        {
+          "number": 12,
+          "lineId": "line-14",
+          "prompt": "I never {{blank}} hear you say",
+          "promptZh": "我永遠不想聽你說",
+          "options": [
+            "want to",
+            "wanna",
+            "need to"
+          ],
+          "answer": "wanna"
+        },
+        {
+          "number": 13,
+          "lineId": "line-16",
+          "prompt": "Am I your {{blank}}",
+          "promptZh": "我是你的火焰嗎",
+          "options": [
+            "fire",
+            "flame",
+            "light"
+          ],
+          "answer": "fire"
+        },
+        {
+          "number": 14,
+          "lineId": "line-17",
+          "prompt": "Your one {{blank}}",
+          "promptZh": "你唯一的渴望",
+          "options": [
+            "desire",
+            "dream",
+            "love"
+          ],
+          "answer": "desire"
+        },
+        {
+          "number": 15,
+          "lineId": "line-18",
+          "prompt": "Yes I {{blank}} it's too 〔第 16 題〕",
+          "promptZh": "是的，我知道一切都太遲了",
+          "options": [
+            "feel",
+            "see",
+            "know"
+          ],
+          "answer": "know"
+        },
+        {
+          "number": 16,
+          "lineId": "line-18",
+          "prompt": "Yes I 〔第 15 題〕 it's too {{blank}}",
+          "promptZh": "是的，我知道一切都太遲了",
+          "options": [
+            "late",
+            "far",
+            "gone"
+          ],
+          "answer": "late"
+        },
+        {
+          "number": 17,
+          "lineId": "line-27",
+          "prompt": "Now I can see that we're {{blank}}",
+          "promptZh": "現在我能看出我們正漸行漸遠",
+          "options": [
+            "falling apart",
+            "falling away",
+            "breaking apart"
+          ],
+          "answer": "falling apart"
+        },
+        {
+          "number": 18,
+          "lineId": "line-28",
+          "prompt": "From the way that it {{blank}}, yeah",
+          "promptZh": "從我們曾經擁有的模樣看來，耶",
+          "options": [
+            "used to feel",
+            "used to be",
+            "had to be"
+          ],
+          "answer": "used to be"
+        },
+        {
+          "number": 19,
+          "lineId": "line-29",
+          "prompt": "No matter the {{blank}}",
+          "promptZh": "無論距離多麼遙遠",
+          "options": [
+            "distance",
+            "time",
+            "space"
+          ],
+          "answer": "distance"
+        },
+        {
+          "number": 20,
+          "lineId": "line-31",
+          "prompt": "That {{blank}} inside of me",
+          "promptZh": "在我內心深處",
+          "options": [
+            "deep down",
+            "far down",
+            "way down"
+          ],
+          "answer": "deep down"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "You are my {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "The one {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}} when I {{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I want it {{q:5}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "But we are two {{q:6}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Can't {{q:7}} to your heart"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "When you say"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "That I want it that way"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Tell me {{q:8}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Ain't {{q:9}} but a heartache"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:10}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Ain't nothing but a {{q:11}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I never {{q:12}} hear you say"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I want it that way"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Am I your {{q:13}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Your one {{q:14}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Yes I {{q:15}} it's too {{q:16}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "But I want it that way"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Ain't nothing but a heartache"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Ain't nothing but a mistake"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I never wanna hear you say"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I want it that way"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Now I can see that we're {{q:17}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "From the way that it {{q:18}}, yeah"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "No matter the {{q:19}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I want you to know"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "That {{q:20}} inside of me"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You are my fire"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "The one desire"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "You are"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "You are, you are, you are"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Don't wanna hear you say"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Ain't nothing but a heartache"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Ain't nothing but a mistake (don't wanna hear you say)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I never wanna hear you say (oh, yeah)"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "I want it that way"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Ain't nothing but a heartache"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Ain't nothing but a mistake"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I never wanna hear you say (don't wanna hear you say)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "I want it that way"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Ain't nothing but a heartache"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Ain't nothing but a mistake"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "I never wanna hear you say (never wanna hear you say)"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "I want it that way"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "'Cause I want it that way"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} my 〔第 2 題〕",
+          "promptZh": "你是我的火焰",
+          "options": [
+            "You are",
+            "You're",
+            "You were"
+          ],
+          "answer": "You are"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 my {{blank}}",
+          "promptZh": "你是我的火焰",
+          "options": [
+            "fire",
+            "flame",
+            "desire"
+          ],
+          "answer": "fire"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "The one {{blank}}",
+          "promptZh": "那唯一的渴望",
+          "options": [
+            "need",
+            "desire",
+            "dream"
+          ],
+          "answer": "desire"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "{{blank}} when I 〔第 5 題〕",
+          "promptZh": "當我說時請相信",
+          "options": [
+            "Believe",
+            "Know",
+            "Think"
+          ],
+          "answer": "Believe"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "〔第 4 題〕 when I {{blank}}",
+          "promptZh": "當我說時請相信",
+          "options": [
+            "say",
+            "speak",
+            "tell"
+          ],
+          "answer": "say"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "I want it {{blank}}",
+          "promptZh": "我只想要那樣",
+          "options": [
+            "this way",
+            "that way",
+            "anyway"
+          ],
+          "answer": "that way"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "But we are {{blank}} 〔第 8 題〕",
+          "promptZh": "但我們身處兩個世界",
+          "options": [
+            "two",
+            "new",
+            "true"
+          ],
+          "answer": "two"
+        },
+        {
+          "number": 8,
+          "lineId": "line-5",
+          "prompt": "But we are 〔第 7 題〕 {{blank}}",
+          "promptZh": "但我們身處兩個世界",
+          "options": [
+            "worlds apart",
+            "hearts apart",
+            "worlds away"
+          ],
+          "answer": "worlds apart"
+        },
+        {
+          "number": 9,
+          "lineId": "line-6",
+          "prompt": "Can't {{blank}} to your 〔第 10 題〕",
+          "promptZh": "無法觸及你的心",
+          "options": [
+            "get",
+            "reach",
+            "touch"
+          ],
+          "answer": "reach"
+        },
+        {
+          "number": 10,
+          "lineId": "line-6",
+          "prompt": "Can't 〔第 9 題〕 to your {{blank}}",
+          "promptZh": "無法觸及你的心",
+          "options": [
+            "soul",
+            "heart",
+            "mind"
+          ],
+          "answer": "heart"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "{{blank}} me 〔第 12 題〕",
+          "promptZh": "告訴我為什麼",
+          "options": [
+            "Tell",
+            "Show",
+            "Teach"
+          ],
+          "answer": "Tell"
+        },
+        {
+          "number": 12,
+          "lineId": "line-9",
+          "prompt": "〔第 11 題〕 me {{blank}}",
+          "promptZh": "告訴我為什麼",
+          "options": [
+            "why",
+            "how",
+            "when"
+          ],
+          "answer": "why"
+        },
+        {
+          "number": 13,
+          "lineId": "line-10",
+          "prompt": "{{blank}} 〔第 14 題〕 but a heartache",
+          "promptZh": "只不過是心痛一場",
+          "options": [
+            "It's",
+            "Ain't",
+            "Just"
+          ],
+          "answer": "Ain't"
+        },
+        {
+          "number": 14,
+          "lineId": "line-10",
+          "prompt": "〔第 13 題〕 {{blank}} but a heartache",
+          "promptZh": "只不過是心痛一場",
+          "options": [
+            "nothing",
+            "nothing else",
+            "something"
+          ],
+          "answer": "nothing"
+        },
+        {
+          "number": 15,
+          "lineId": "line-11",
+          "prompt": "{{blank}}",
+          "promptZh": "告訴我為什麼",
+          "options": [
+            "Tell me why",
+            "Teach me how",
+            "Show me why"
+          ],
+          "answer": "Tell me why"
+        },
+        {
+          "number": 16,
+          "lineId": "line-12",
+          "prompt": "Ain't nothing but a {{blank}}",
+          "promptZh": "只不過是個錯誤",
+          "options": [
+            "wrong turn",
+            "heartbreak",
+            "mistake"
+          ],
+          "answer": "mistake"
+        },
+        {
+          "number": 17,
+          "lineId": "line-13",
+          "prompt": "{{blank}}",
+          "promptZh": "告訴我為什麼",
+          "options": [
+            "Tell me why",
+            "Tell me how",
+            "Show me why"
+          ],
+          "answer": "Tell me why"
+        },
+        {
+          "number": 18,
+          "lineId": "line-14",
+          "prompt": "{{blank}} 〔第 19 題〕 hear you say",
+          "promptZh": "我永遠不想聽你說",
+          "options": [
+            "I will never",
+            "I never",
+            "I don't"
+          ],
+          "answer": "I never"
+        },
+        {
+          "number": 19,
+          "lineId": "line-14",
+          "prompt": "〔第 18 題〕 {{blank}} hear you say",
+          "promptZh": "我永遠不想聽你說",
+          "options": [
+            "wanna",
+            "want to",
+            "need to"
+          ],
+          "answer": "wanna"
+        },
+        {
+          "number": 20,
+          "lineId": "line-16",
+          "prompt": "Am I your {{blank}}",
+          "promptZh": "我是你的火焰嗎",
+          "options": [
+            "fire",
+            "flame",
+            "light"
+          ],
+          "answer": "fire"
+        },
+        {
+          "number": 21,
+          "lineId": "line-17",
+          "prompt": "Your one {{blank}}",
+          "promptZh": "你唯一的渴望",
+          "options": [
+            "love",
+            "dream",
+            "desire"
+          ],
+          "answer": "desire"
+        },
+        {
+          "number": 22,
+          "lineId": "line-18",
+          "prompt": "{{blank}} 〔第 23 題〕 it's too 〔第 24 題〕",
+          "promptZh": "是的，我知道一切都太遲了",
+          "options": [
+            "Yes I",
+            "Now I",
+            "But I"
+          ],
+          "answer": "Yes I"
+        },
+        {
+          "number": 23,
+          "lineId": "line-18",
+          "prompt": "〔第 22 題〕 {{blank}} it's too 〔第 24 題〕",
+          "promptZh": "是的，我知道一切都太遲了",
+          "options": [
+            "know",
+            "see",
+            "feel"
+          ],
+          "answer": "know"
+        },
+        {
+          "number": 24,
+          "lineId": "line-18",
+          "prompt": "〔第 22 題〕 〔第 23 題〕 it's too {{blank}}",
+          "promptZh": "是的，我知道一切都太遲了",
+          "options": [
+            "far",
+            "late",
+            "gone"
+          ],
+          "answer": "late"
+        },
+        {
+          "number": 25,
+          "lineId": "line-27",
+          "prompt": "Now I can see that we're {{blank}}",
+          "promptZh": "現在我能看出我們正漸行漸遠",
+          "options": [
+            "falling apart",
+            "falling away",
+            "breaking apart"
+          ],
+          "answer": "falling apart"
+        },
+        {
+          "number": 26,
+          "lineId": "line-28",
+          "prompt": "{{blank}} that it 〔第 27 題〕, yeah",
+          "promptZh": "從我們曾經擁有的模樣看來，耶",
+          "options": [
+            "From the way",
+            "By the way",
+            "From the things"
+          ],
+          "answer": "From the way"
+        },
+        {
+          "number": 27,
+          "lineId": "line-28",
+          "prompt": "〔第 26 題〕 that it {{blank}}, yeah",
+          "promptZh": "從我們曾經擁有的模樣看來，耶",
+          "options": [
+            "had to be",
+            "used to feel",
+            "used to be"
+          ],
+          "answer": "used to be"
+        },
+        {
+          "number": 28,
+          "lineId": "line-29",
+          "prompt": "{{blank}} the 〔第 29 題〕",
+          "promptZh": "無論距離多麼遙遠",
+          "options": [
+            "No matter",
+            "Regardless",
+            "Whatever"
+          ],
+          "answer": "No matter"
+        },
+        {
+          "number": 29,
+          "lineId": "line-29",
+          "prompt": "〔第 28 題〕 the {{blank}}",
+          "promptZh": "無論距離多麼遙遠",
+          "options": [
+            "distance",
+            "time",
+            "space"
+          ],
+          "answer": "distance"
+        },
+        {
+          "number": 30,
+          "lineId": "line-31",
+          "prompt": "That {{blank}} 〔第 31 題〕",
+          "promptZh": "在我內心深處",
+          "options": [
+            "way down",
+            "far down",
+            "deep down"
+          ],
+          "answer": "deep down"
+        },
+        {
+          "number": 31,
+          "lineId": "line-31",
+          "prompt": "That 〔第 30 題〕 {{blank}}",
+          "promptZh": "在我內心深處",
+          "options": [
+            "inside of me",
+            "inside of you",
+            "within of me"
+          ],
+          "answer": "inside of me"
+        },
+        {
+          "number": 32,
+          "lineId": "line-32",
+          "prompt": "{{blank}} my fire",
+          "promptZh": "你是我的火焰",
+          "options": [
+            "You are",
+            "You were",
+            "You will be"
+          ],
+          "answer": "You are"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} my {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "The one {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:4}} when I {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I want it {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "But we are {{q:7}} {{q:8}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Can't {{q:9}} to your {{q:10}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "When you say"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "That I want it that way"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:11}} me {{q:12}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:13}} {{q:14}} but a heartache"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:15}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Ain't nothing but a {{q:16}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:18}} {{q:19}} hear you say"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I want it that way"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Am I your {{q:20}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Your one {{q:21}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:22}} {{q:23}} it's too {{q:24}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "But I want it that way"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Ain't nothing but a heartache"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Ain't nothing but a mistake"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I never wanna hear you say"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I want it that way"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Now I can see that we're {{q:25}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:26}} that it {{q:27}}, yeah"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:28}} the {{q:29}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I want you to know"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "That {{q:30}} {{q:31}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:32}} my fire"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "The one desire"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "You are"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "You are, you are, you are"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Don't wanna hear you say"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Ain't nothing but a heartache"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Ain't nothing but a mistake (don't wanna hear you say)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I never wanna hear you say (oh, yeah)"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "I want it that way"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Ain't nothing but a heartache"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Ain't nothing but a mistake"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I never wanna hear you say (don't wanna hear you say)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "I want it that way"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Ain't nothing but a heartache"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Ain't nothing but a mistake"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "I never wanna hear you say (never wanna hear you say)"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "I want it that way"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "'Cause I want it that way"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} my 〔第 2 題〕",
+          "promptZh": "你是我的火焰",
+          "options": [
+            "You are",
+            "You're",
+            "You were"
+          ],
+          "answer": "You are"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 my {{blank}}",
+          "promptZh": "你是我的火焰",
+          "options": [
+            "fire",
+            "flame",
+            "desire"
+          ],
+          "answer": "fire"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "The one {{blank}}",
+          "promptZh": "那唯一的渴望",
+          "options": [
+            "need",
+            "desire",
+            "dream"
+          ],
+          "answer": "desire"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "{{blank}} 〔第 5 題〕 〔第 6 題〕",
+          "promptZh": "當我說時請相信",
+          "options": [
+            "Believe",
+            "Know",
+            "Think"
+          ],
+          "answer": "Believe"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "〔第 4 題〕 {{blank}} 〔第 6 題〕",
+          "promptZh": "當我說時請相信",
+          "options": [
+            "when I",
+            "what I",
+            "where I"
+          ],
+          "answer": "when I"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "〔第 4 題〕 〔第 5 題〕 {{blank}}",
+          "promptZh": "當我說時請相信",
+          "options": [
+            "tell",
+            "speak",
+            "say"
+          ],
+          "answer": "say"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "{{blank}} 〔第 8 題〕",
+          "promptZh": "我只想要那樣",
+          "options": [
+            "I want it",
+            "I need it",
+            "I want that"
+          ],
+          "answer": "I want it"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "〔第 7 題〕 {{blank}}",
+          "promptZh": "我只想要那樣",
+          "options": [
+            "that way",
+            "this way",
+            "anyway"
+          ],
+          "answer": "that way"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "But we are {{blank}} 〔第 10 題〕",
+          "promptZh": "但我們身處兩個世界",
+          "options": [
+            "new",
+            "two",
+            "true"
+          ],
+          "answer": "two"
+        },
+        {
+          "number": 10,
+          "lineId": "line-5",
+          "prompt": "But we are 〔第 9 題〕 {{blank}}",
+          "promptZh": "但我們身處兩個世界",
+          "options": [
+            "worlds apart",
+            "hearts apart",
+            "worlds away"
+          ],
+          "answer": "worlds apart"
+        },
+        {
+          "number": 11,
+          "lineId": "line-6",
+          "prompt": "Can't {{blank}} to your 〔第 12 題〕",
+          "promptZh": "無法觸及你的心",
+          "options": [
+            "reach",
+            "get",
+            "touch"
+          ],
+          "answer": "reach"
+        },
+        {
+          "number": 12,
+          "lineId": "line-6",
+          "prompt": "Can't 〔第 11 題〕 to your {{blank}}",
+          "promptZh": "無法觸及你的心",
+          "options": [
+            "soul",
+            "heart",
+            "mind"
+          ],
+          "answer": "heart"
+        },
+        {
+          "number": 13,
+          "lineId": "line-8",
+          "prompt": "{{blank}} it that way",
+          "promptZh": "我只想要那樣",
+          "options": [
+            "That I want",
+            "That I need",
+            "Then I want"
+          ],
+          "answer": "That I want"
+        },
+        {
+          "number": 14,
+          "lineId": "line-9",
+          "prompt": "{{blank}} me 〔第 15 題〕",
+          "promptZh": "告訴我為什麼",
+          "options": [
+            "Tell",
+            "Show",
+            "Teach"
+          ],
+          "answer": "Tell"
+        },
+        {
+          "number": 15,
+          "lineId": "line-9",
+          "prompt": "〔第 14 題〕 me {{blank}}",
+          "promptZh": "告訴我為什麼",
+          "options": [
+            "how",
+            "why",
+            "when"
+          ],
+          "answer": "why"
+        },
+        {
+          "number": 16,
+          "lineId": "line-10",
+          "prompt": "{{blank}} 〔第 17 題〕 but a 〔第 18 題〕",
+          "promptZh": "只不過是心痛一場",
+          "options": [
+            "Ain't",
+            "It's",
+            "Just"
+          ],
+          "answer": "Ain't"
+        },
+        {
+          "number": 17,
+          "lineId": "line-10",
+          "prompt": "〔第 16 題〕 {{blank}} but a 〔第 18 題〕",
+          "promptZh": "只不過是心痛一場",
+          "options": [
+            "nothing",
+            "nothing else",
+            "something"
+          ],
+          "answer": "nothing"
+        },
+        {
+          "number": 18,
+          "lineId": "line-10",
+          "prompt": "〔第 16 題〕 〔第 17 題〕 but a {{blank}}",
+          "promptZh": "只不過是心痛一場",
+          "options": [
+            "heartburn",
+            "heartbreak",
+            "heartache"
+          ],
+          "answer": "heartache"
+        },
+        {
+          "number": 19,
+          "lineId": "line-11",
+          "prompt": "{{blank}}",
+          "promptZh": "告訴我為什麼",
+          "options": [
+            "Tell me why",
+            "Teach me how",
+            "Show me why"
+          ],
+          "answer": "Tell me why"
+        },
+        {
+          "number": 20,
+          "lineId": "line-12",
+          "prompt": "Ain't nothing but a {{blank}}",
+          "promptZh": "只不過是個錯誤",
+          "options": [
+            "mistake",
+            "heartbreak",
+            "wrong turn"
+          ],
+          "answer": "mistake"
+        },
+        {
+          "number": 21,
+          "lineId": "line-13",
+          "prompt": "{{blank}}",
+          "promptZh": "告訴我為什麼",
+          "options": [
+            "Tell me how",
+            "Tell me why",
+            "Show me why"
+          ],
+          "answer": "Tell me why"
+        },
+        {
+          "number": 22,
+          "lineId": "line-14",
+          "prompt": "{{blank}} 〔第 23 題〕 hear you say",
+          "promptZh": "我永遠不想聽你說",
+          "options": [
+            "I will never",
+            "I never",
+            "I don't"
+          ],
+          "answer": "I never"
+        },
+        {
+          "number": 23,
+          "lineId": "line-14",
+          "prompt": "〔第 22 題〕 {{blank}} hear you say",
+          "promptZh": "我永遠不想聽你說",
+          "options": [
+            "wanna",
+            "want to",
+            "need to"
+          ],
+          "answer": "wanna"
+        },
+        {
+          "number": 24,
+          "lineId": "line-16",
+          "prompt": "Am I your {{blank}}",
+          "promptZh": "我是你的火焰嗎",
+          "options": [
+            "fire",
+            "flame",
+            "light"
+          ],
+          "answer": "fire"
+        },
+        {
+          "number": 25,
+          "lineId": "line-17",
+          "prompt": "Your one {{blank}}",
+          "promptZh": "你唯一的渴望",
+          "options": [
+            "dream",
+            "desire",
+            "love"
+          ],
+          "answer": "desire"
+        },
+        {
+          "number": 26,
+          "lineId": "line-18",
+          "prompt": "{{blank}} 〔第 27 題〕 it's too 〔第 28 題〕",
+          "promptZh": "是的，我知道一切都太遲了",
+          "options": [
+            "Yes I",
+            "Now I",
+            "But I"
+          ],
+          "answer": "Yes I"
+        },
+        {
+          "number": 27,
+          "lineId": "line-18",
+          "prompt": "〔第 26 題〕 {{blank}} it's too 〔第 28 題〕",
+          "promptZh": "是的，我知道一切都太遲了",
+          "options": [
+            "know",
+            "see",
+            "feel"
+          ],
+          "answer": "know"
+        },
+        {
+          "number": 28,
+          "lineId": "line-18",
+          "prompt": "〔第 26 題〕 〔第 27 題〕 it's too {{blank}}",
+          "promptZh": "是的，我知道一切都太遲了",
+          "options": [
+            "far",
+            "late",
+            "gone"
+          ],
+          "answer": "late"
+        },
+        {
+          "number": 29,
+          "lineId": "line-19",
+          "prompt": "{{blank}} that way",
+          "promptZh": "但我只想要那樣",
+          "options": [
+            "But I want it",
+            "And I want it",
+            "So I want it"
+          ],
+          "answer": "But I want it"
+        },
+        {
+          "number": 30,
+          "lineId": "line-27",
+          "prompt": "Now I can see that we're {{blank}}",
+          "promptZh": "現在我能看出我們正漸行漸遠",
+          "options": [
+            "falling apart",
+            "falling away",
+            "breaking apart"
+          ],
+          "answer": "falling apart"
+        },
+        {
+          "number": 31,
+          "lineId": "line-28",
+          "prompt": "{{blank}} that it 〔第 32 題〕, yeah",
+          "promptZh": "從我們曾經擁有的模樣看來，耶",
+          "options": [
+            "By the way",
+            "From the way",
+            "From the things"
+          ],
+          "answer": "From the way"
+        },
+        {
+          "number": 32,
+          "lineId": "line-28",
+          "prompt": "〔第 31 題〕 that it {{blank}}, yeah",
+          "promptZh": "從我們曾經擁有的模樣看來，耶",
+          "options": [
+            "used to be",
+            "used to feel",
+            "had to be"
+          ],
+          "answer": "used to be"
+        },
+        {
+          "number": 33,
+          "lineId": "line-29",
+          "prompt": "{{blank}} the 〔第 34 題〕",
+          "promptZh": "無論距離多麼遙遠",
+          "options": [
+            "No matter",
+            "Regardless",
+            "Whatever"
+          ],
+          "answer": "No matter"
+        },
+        {
+          "number": 34,
+          "lineId": "line-29",
+          "prompt": "〔第 33 題〕 the {{blank}}",
+          "promptZh": "無論距離多麼遙遠",
+          "options": [
+            "time",
+            "distance",
+            "space"
+          ],
+          "answer": "distance"
+        },
+        {
+          "number": 35,
+          "lineId": "line-31",
+          "prompt": "That {{blank}} 〔第 36 題〕",
+          "promptZh": "在我內心深處",
+          "options": [
+            "deep down",
+            "far down",
+            "way down"
+          ],
+          "answer": "deep down"
+        },
+        {
+          "number": 36,
+          "lineId": "line-31",
+          "prompt": "That 〔第 35 題〕 {{blank}}",
+          "promptZh": "在我內心深處",
+          "options": [
+            "inside of me",
+            "inside of you",
+            "within of me"
+          ],
+          "answer": "inside of me"
+        },
+        {
+          "number": 37,
+          "lineId": "line-32",
+          "prompt": "{{blank}} my fire",
+          "promptZh": "你是我的火焰",
+          "options": [
+            "You will be",
+            "You were",
+            "You are"
+          ],
+          "answer": "You are"
+        },
+        {
+          "number": 38,
+          "lineId": "line-33",
+          "prompt": "The one {{blank}}",
+          "promptZh": "那唯一的渴望",
+          "options": [
+            "desire",
+            "need",
+            "dream"
+          ],
+          "answer": "desire"
+        },
+        {
+          "number": 39,
+          "lineId": "line-35",
+          "prompt": "{{blank}}",
+          "promptZh": "你是，你是，你是",
+          "options": [
+            "You are, you are, you are",
+            "You are, and you are",
+            "You are what you are"
+          ],
+          "answer": "You are, you are, you are"
+        },
+        {
+          "number": 40,
+          "lineId": "line-36",
+          "prompt": "{{blank}} hear you say",
+          "promptZh": "不想聽你說",
+          "options": [
+            "I don't wanna",
+            "Don't wanna",
+            "I never wanna"
+          ],
+          "answer": "Don't wanna"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} my {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "The one {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:4}} {{q:5}} {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:7}} {{q:8}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "But we are {{q:9}} {{q:10}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Can't {{q:11}} to your {{q:12}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "When you say"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:13}} it that way"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:14}} me {{q:15}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:16}} {{q:17}} but a {{q:18}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:19}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Ain't nothing but a {{q:20}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:21}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:22}} {{q:23}} hear you say"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I want it that way"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Am I your {{q:24}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Your one {{q:25}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:26}} {{q:27}} it's too {{q:28}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:29}} that way"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Ain't nothing but a heartache"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Ain't nothing but a mistake"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I never wanna hear you say"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I want it that way"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Now I can see that we're {{q:30}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:31}} that it {{q:32}}, yeah"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:33}} the {{q:34}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I want you to know"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "That {{q:35}} {{q:36}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:37}} my fire"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "The one {{q:38}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "You are"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "{{q:39}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "{{q:40}} hear you say"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Ain't nothing but a heartache"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Ain't nothing but a mistake (don't wanna hear you say)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I never wanna hear you say (oh, yeah)"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "I want it that way"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Ain't nothing but a heartache"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Ain't nothing but a mistake"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I never wanna hear you say (don't wanna hear you say)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "I want it that way"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Ain't nothing but a heartache"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Ain't nothing but a mistake"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "I never wanna hear you say (never wanna hear you say)"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "I want it that way"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "'Cause I want it that way"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} my 〔第 2 題〕",
+          "promptZh": "你是我的火焰",
+          "options": [
+            "You are",
+            "You're",
+            "You were"
+          ],
+          "answer": "You are"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 my {{blank}}",
+          "promptZh": "你是我的火焰",
+          "options": [
+            "fire",
+            "flame",
+            "desire"
+          ],
+          "answer": "fire"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} 〔第 4 題〕",
+          "promptZh": "那唯一的渴望",
+          "options": [
+            "Your one",
+            "The only",
+            "The one"
+          ],
+          "answer": "The one"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 {{blank}}",
+          "promptZh": "那唯一的渴望",
+          "options": [
+            "desire",
+            "need",
+            "dream"
+          ],
+          "answer": "desire"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "{{blank}} 〔第 6 題〕 〔第 7 題〕",
+          "promptZh": "當我說時請相信",
+          "options": [
+            "Believe",
+            "Know",
+            "Think"
+          ],
+          "answer": "Believe"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "〔第 5 題〕 {{blank}} 〔第 7 題〕",
+          "promptZh": "當我說時請相信",
+          "options": [
+            "what I",
+            "when I",
+            "where I"
+          ],
+          "answer": "when I"
+        },
+        {
+          "number": 7,
+          "lineId": "line-3",
+          "prompt": "〔第 5 題〕 〔第 6 題〕 {{blank}}",
+          "promptZh": "當我說時請相信",
+          "options": [
+            "say",
+            "speak",
+            "tell"
+          ],
+          "answer": "say"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "{{blank}} 〔第 9 題〕",
+          "promptZh": "我只想要那樣",
+          "options": [
+            "I want it",
+            "I need it",
+            "I want that"
+          ],
+          "answer": "I want it"
+        },
+        {
+          "number": 9,
+          "lineId": "line-4",
+          "prompt": "〔第 8 題〕 {{blank}}",
+          "promptZh": "我只想要那樣",
+          "options": [
+            "this way",
+            "that way",
+            "anyway"
+          ],
+          "answer": "that way"
+        },
+        {
+          "number": 10,
+          "lineId": "line-5",
+          "prompt": "But we are {{blank}} 〔第 11 題〕",
+          "promptZh": "但我們身處兩個世界",
+          "options": [
+            "two",
+            "new",
+            "true"
+          ],
+          "answer": "two"
+        },
+        {
+          "number": 11,
+          "lineId": "line-5",
+          "prompt": "But we are 〔第 10 題〕 {{blank}}",
+          "promptZh": "但我們身處兩個世界",
+          "options": [
+            "worlds apart",
+            "hearts apart",
+            "worlds away"
+          ],
+          "answer": "worlds apart"
+        },
+        {
+          "number": 12,
+          "lineId": "line-6",
+          "prompt": "Can't {{blank}} to your 〔第 13 題〕",
+          "promptZh": "無法觸及你的心",
+          "options": [
+            "touch",
+            "get",
+            "reach"
+          ],
+          "answer": "reach"
+        },
+        {
+          "number": 13,
+          "lineId": "line-6",
+          "prompt": "Can't 〔第 12 題〕 to your {{blank}}",
+          "promptZh": "無法觸及你的心",
+          "options": [
+            "soul",
+            "heart",
+            "mind"
+          ],
+          "answer": "heart"
+        },
+        {
+          "number": 14,
+          "lineId": "line-7",
+          "prompt": "{{blank}} say",
+          "promptZh": "當你說",
+          "options": [
+            "When you",
+            "As you",
+            "While you"
+          ],
+          "answer": "When you"
+        },
+        {
+          "number": 15,
+          "lineId": "line-8",
+          "prompt": "{{blank}} it that way",
+          "promptZh": "我只想要那樣",
+          "options": [
+            "That I want",
+            "That I need",
+            "Then I want"
+          ],
+          "answer": "That I want"
+        },
+        {
+          "number": 16,
+          "lineId": "line-9",
+          "prompt": "{{blank}} me 〔第 17 題〕",
+          "promptZh": "告訴我為什麼",
+          "options": [
+            "Teach",
+            "Show",
+            "Tell"
+          ],
+          "answer": "Tell"
+        },
+        {
+          "number": 17,
+          "lineId": "line-9",
+          "prompt": "〔第 16 題〕 me {{blank}}",
+          "promptZh": "告訴我為什麼",
+          "options": [
+            "why",
+            "how",
+            "when"
+          ],
+          "answer": "why"
+        },
+        {
+          "number": 18,
+          "lineId": "line-10",
+          "prompt": "{{blank}} 〔第 19 題〕 but a 〔第 20 題〕",
+          "promptZh": "只不過是心痛一場",
+          "options": [
+            "Ain't",
+            "It's",
+            "Just"
+          ],
+          "answer": "Ain't"
+        },
+        {
+          "number": 19,
+          "lineId": "line-10",
+          "prompt": "〔第 18 題〕 {{blank}} but a 〔第 20 題〕",
+          "promptZh": "只不過是心痛一場",
+          "options": [
+            "something",
+            "nothing else",
+            "nothing"
+          ],
+          "answer": "nothing"
+        },
+        {
+          "number": 20,
+          "lineId": "line-10",
+          "prompt": "〔第 18 題〕 〔第 19 題〕 but a {{blank}}",
+          "promptZh": "只不過是心痛一場",
+          "options": [
+            "heartache",
+            "heartbreak",
+            "heartburn"
+          ],
+          "answer": "heartache"
+        },
+        {
+          "number": 21,
+          "lineId": "line-11",
+          "prompt": "{{blank}}",
+          "promptZh": "告訴我為什麼",
+          "options": [
+            "Tell me why",
+            "Teach me how",
+            "Show me why"
+          ],
+          "answer": "Tell me why"
+        },
+        {
+          "number": 22,
+          "lineId": "line-12",
+          "prompt": "{{blank}} but a 〔第 23 題〕",
+          "promptZh": "只不過是個錯誤",
+          "options": [
+            "It ain't",
+            "It's nothing",
+            "Ain't nothing"
+          ],
+          "answer": "Ain't nothing"
+        },
+        {
+          "number": 23,
+          "lineId": "line-12",
+          "prompt": "〔第 22 題〕 but a {{blank}}",
+          "promptZh": "只不過是個錯誤",
+          "options": [
+            "mistake",
+            "heartbreak",
+            "wrong turn"
+          ],
+          "answer": "mistake"
+        },
+        {
+          "number": 24,
+          "lineId": "line-13",
+          "prompt": "{{blank}}",
+          "promptZh": "告訴我為什麼",
+          "options": [
+            "Tell me why",
+            "Tell me how",
+            "Show me why"
+          ],
+          "answer": "Tell me why"
+        },
+        {
+          "number": 25,
+          "lineId": "line-14",
+          "prompt": "{{blank}} 〔第 26 題〕 hear you say",
+          "promptZh": "我永遠不想聽你說",
+          "options": [
+            "I will never",
+            "I never",
+            "I don't"
+          ],
+          "answer": "I never"
+        },
+        {
+          "number": 26,
+          "lineId": "line-14",
+          "prompt": "〔第 25 題〕 {{blank}} hear you say",
+          "promptZh": "我永遠不想聽你說",
+          "options": [
+            "wanna",
+            "want to",
+            "need to"
+          ],
+          "answer": "wanna"
+        },
+        {
+          "number": 27,
+          "lineId": "line-15",
+          "prompt": "{{blank}} that way",
+          "promptZh": "我只想要那樣",
+          "options": [
+            "I want it",
+            "I need it",
+            "I want that"
+          ],
+          "answer": "I want it"
+        },
+        {
+          "number": 28,
+          "lineId": "line-16",
+          "prompt": "{{blank}} your 〔第 29 題〕",
+          "promptZh": "我是你的火焰嗎",
+          "options": [
+            "I am",
+            "Am I",
+            "Will I be"
+          ],
+          "answer": "Am I"
+        },
+        {
+          "number": 29,
+          "lineId": "line-16",
+          "prompt": "〔第 28 題〕 your {{blank}}",
+          "promptZh": "我是你的火焰嗎",
+          "options": [
+            "fire",
+            "flame",
+            "light"
+          ],
+          "answer": "fire"
+        },
+        {
+          "number": 30,
+          "lineId": "line-17",
+          "prompt": "Your one {{blank}}",
+          "promptZh": "你唯一的渴望",
+          "options": [
+            "desire",
+            "dream",
+            "love"
+          ],
+          "answer": "desire"
+        },
+        {
+          "number": 31,
+          "lineId": "line-18",
+          "prompt": "{{blank}} 〔第 32 題〕 it's too 〔第 33 題〕",
+          "promptZh": "是的，我知道一切都太遲了",
+          "options": [
+            "But I",
+            "Now I",
+            "Yes I"
+          ],
+          "answer": "Yes I"
+        },
+        {
+          "number": 32,
+          "lineId": "line-18",
+          "prompt": "〔第 31 題〕 {{blank}} it's too 〔第 33 題〕",
+          "promptZh": "是的，我知道一切都太遲了",
+          "options": [
+            "know",
+            "see",
+            "feel"
+          ],
+          "answer": "know"
+        },
+        {
+          "number": 33,
+          "lineId": "line-18",
+          "prompt": "〔第 31 題〕 〔第 32 題〕 it's too {{blank}}",
+          "promptZh": "是的，我知道一切都太遲了",
+          "options": [
+            "late",
+            "far",
+            "gone"
+          ],
+          "answer": "late"
+        },
+        {
+          "number": 34,
+          "lineId": "line-19",
+          "prompt": "{{blank}} that way",
+          "promptZh": "但我只想要那樣",
+          "options": [
+            "So I want it",
+            "And I want it",
+            "But I want it"
+          ],
+          "answer": "But I want it"
+        },
+        {
+          "number": 35,
+          "lineId": "line-20",
+          "prompt": "Tell me {{blank}}",
+          "promptZh": "告訴我為什麼",
+          "options": [
+            "why",
+            "how",
+            "who"
+          ],
+          "answer": "why"
+        },
+        {
+          "number": 36,
+          "lineId": "line-23",
+          "prompt": "Ain't nothing but a {{blank}}",
+          "promptZh": "只不過是個錯誤",
+          "options": [
+            "mistake",
+            "heartbreak",
+            "wrong turn"
+          ],
+          "answer": "mistake"
+        },
+        {
+          "number": 37,
+          "lineId": "line-27",
+          "prompt": "Now I can {{blank}} that we're 〔第 38 題〕",
+          "promptZh": "現在我能看出我們正漸行漸遠",
+          "options": [
+            "feel",
+            "see",
+            "know"
+          ],
+          "answer": "see"
+        },
+        {
+          "number": 38,
+          "lineId": "line-27",
+          "prompt": "Now I can 〔第 37 題〕 that we're {{blank}}",
+          "promptZh": "現在我能看出我們正漸行漸遠",
+          "options": [
+            "falling apart",
+            "falling away",
+            "breaking apart"
+          ],
+          "answer": "falling apart"
+        },
+        {
+          "number": 39,
+          "lineId": "line-28",
+          "prompt": "{{blank}} that it 〔第 40 題〕, yeah",
+          "promptZh": "從我們曾經擁有的模樣看來，耶",
+          "options": [
+            "From the way",
+            "By the way",
+            "From the things"
+          ],
+          "answer": "From the way"
+        },
+        {
+          "number": 40,
+          "lineId": "line-28",
+          "prompt": "〔第 39 題〕 that it {{blank}}, yeah",
+          "promptZh": "從我們曾經擁有的模樣看來，耶",
+          "options": [
+            "used to feel",
+            "used to be",
+            "had to be"
+          ],
+          "answer": "used to be"
+        },
+        {
+          "number": 41,
+          "lineId": "line-29",
+          "prompt": "{{blank}} the 〔第 42 題〕",
+          "promptZh": "無論距離多麼遙遠",
+          "options": [
+            "No matter",
+            "Regardless",
+            "Whatever"
+          ],
+          "answer": "No matter"
+        },
+        {
+          "number": 42,
+          "lineId": "line-29",
+          "prompt": "〔第 41 題〕 the {{blank}}",
+          "promptZh": "無論距離多麼遙遠",
+          "options": [
+            "distance",
+            "time",
+            "space"
+          ],
+          "answer": "distance"
+        },
+        {
+          "number": 43,
+          "lineId": "line-31",
+          "prompt": "That {{blank}} 〔第 44 題〕",
+          "promptZh": "在我內心深處",
+          "options": [
+            "far down",
+            "deep down",
+            "way down"
+          ],
+          "answer": "deep down"
+        },
+        {
+          "number": 44,
+          "lineId": "line-31",
+          "prompt": "That 〔第 43 題〕 {{blank}}",
+          "promptZh": "在我內心深處",
+          "options": [
+            "inside of me",
+            "inside of you",
+            "within of me"
+          ],
+          "answer": "inside of me"
+        },
+        {
+          "number": 45,
+          "lineId": "line-32",
+          "prompt": "{{blank}} 〔第 46 題〕",
+          "promptZh": "你是我的火焰",
+          "options": [
+            "You are",
+            "You were",
+            "You will be"
+          ],
+          "answer": "You are"
+        },
+        {
+          "number": 46,
+          "lineId": "line-32",
+          "prompt": "〔第 45 題〕 {{blank}}",
+          "promptZh": "你是我的火焰",
+          "options": [
+            "the fire",
+            "my desire",
+            "my fire"
+          ],
+          "answer": "my fire"
+        },
+        {
+          "number": 47,
+          "lineId": "line-33",
+          "prompt": "The one {{blank}}",
+          "promptZh": "那唯一的渴望",
+          "options": [
+            "desire",
+            "need",
+            "dream"
+          ],
+          "answer": "desire"
+        },
+        {
+          "number": 48,
+          "lineId": "line-34",
+          "prompt": "{{blank}}",
+          "promptZh": "你是",
+          "options": [
+            "You are",
+            "You're",
+            "You were"
+          ],
+          "answer": "You are"
+        },
+        {
+          "number": 49,
+          "lineId": "line-35",
+          "prompt": "{{blank}}",
+          "promptZh": "你是，你是，你是",
+          "options": [
+            "You are what you are",
+            "You are, and you are",
+            "You are, you are, you are"
+          ],
+          "answer": "You are, you are, you are"
+        },
+        {
+          "number": 50,
+          "lineId": "line-36",
+          "prompt": "{{blank}} hear you say",
+          "promptZh": "不想聽你說",
+          "options": [
+            "Don't wanna",
+            "I don't wanna",
+            "I never wanna"
+          ],
+          "answer": "Don't wanna"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} my {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}} {{q:6}} {{q:7}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:8}} {{q:9}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "But we are {{q:10}} {{q:11}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Can't {{q:12}} to your {{q:13}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:14}} say"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:15}} it that way"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:16}} me {{q:17}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:18}} {{q:19}} but a {{q:20}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:21}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:22}} but a {{q:23}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:24}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:25}} {{q:26}} hear you say"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:27}} that way"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:28}} your {{q:29}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Your one {{q:30}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:31}} {{q:32}} it's too {{q:33}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:34}} that way"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Tell me {{q:35}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Ain't nothing but a heartache"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Ain't nothing but a {{q:36}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I never wanna hear you say"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I want it that way"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Now I can {{q:37}} that we're {{q:38}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:39}} that it {{q:40}}, yeah"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:41}} the {{q:42}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I want you to know"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "That {{q:43}} {{q:44}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:45}} {{q:46}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "The one {{q:47}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "{{q:48}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "{{q:49}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "{{q:50}} hear you say"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Ain't nothing but a heartache"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Ain't nothing but a mistake (don't wanna hear you say)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I never wanna hear you say (oh, yeah)"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "I want it that way"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Ain't nothing but a heartache"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Ain't nothing but a mistake"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I never wanna hear you say (don't wanna hear you say)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "I want it that way"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Ain't nothing but a heartache"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Ain't nothing but a mistake"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Tell me why"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "I never wanna hear you say (never wanna hear you say)"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "I want it that way"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "'Cause I want it that way"
+        }
+      ]
+    }
+  ],
+  "timingSource": {
+    "method": "faster-whisper-word-alignment-with-targeted-section-review",
+    "audioSha256": "1656ce8f6140e826dd1b77c64ebcc5f5f6f1f98cbf03e12fd3e1b224852dcd34",
+    "duration": 213.3066875
+  }
+}

@@ -446,7 +446,8 @@ button { color: inherit; }
 
 /* Full listening flow keeps support lyrics and repeated choruses visible. */
 .exercise-lyric-group { padding: 1.2rem; border: 1px solid #eadfe4; border-radius: 16px; background: #fff; margin-bottom: .8rem; }
-.exercise-full-line { margin: 0 0 .75rem; font-size: 1.15rem; line-height: 1.8; font-weight: 650; }
+.exercise-full-line { margin: 0 0 .75rem; font-size: calc(1.15rem * var(--exercise-scale, 1)); line-height: 1.8; font-weight: 650; }
+.exercise-full-line .blank-number { font-size: .88em; min-width: 1.7em; height: 1.45em; margin-inline: .15em; }
 .exercise-lyric-group.is-support-line { background: #faf7f9; border-color: transparent; padding: .7rem 1.2rem; }
 .exercise-lyric-group.is-support-line .exercise-full-line { margin: 0; font-weight: 450; }
 .exercise-lyric-group .exercise-line { margin-top: .6rem; padding: .7rem; }

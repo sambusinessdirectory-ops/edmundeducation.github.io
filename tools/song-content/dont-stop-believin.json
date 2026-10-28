@@ -1,0 +1,2854 @@
+{
+  "slug": "dont-stop-believin",
+  "title": "Don't Stop Believin'",
+  "singer": "Journey",
+  "exercise_name": "Don't Stop Believin' · Listening & Vocabulary",
+  "description": "《Don't Stop Believin'》描寫平凡人在孤獨與現實壓力中，仍然努力追尋夢想與希望的故事。歌曲以一位小鎮女孩和一位城市男孩為開端，兩人搭上午夜列車，象徵離開熟悉的生活，勇敢尋找新的可能。街燈下的陌生人各自追求愛情、快樂與人生的意義，即使前路充滿未知，也不願放棄。歌詞亦提醒我們，人生有成功也有失敗，但每個人都有機會改變自己的命運。最終，《Don't StopBelievin'》傳達的是希望、勇氣與堅持：無論生活多麼艱難，都應相信未來，緊緊抓住心中的夢想，永不放棄。",
+  "tags": [
+    "journey",
+    "don't stop believin'",
+    "hope",
+    "perseverance"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "Just a small-town girl",
+      "chinese": "只是個小鎮女孩",
+      "startSeconds": 18.08,
+      "endSeconds": 21.24
+    },
+    {
+      "lineId": "line-2",
+      "english": "Livin' in a lonely world",
+      "chinese": "住在寂寞的世界裡",
+      "startSeconds": 21.24,
+      "endSeconds": 25.3
+    },
+    {
+      "lineId": "line-3",
+      "english": "She took the midnight train goin' anywhere",
+      "chinese": "她搭上午夜列車，開往任何地方",
+      "startSeconds": 25.3,
+      "endSeconds": 31.12
+    },
+    {
+      "lineId": "line-4",
+      "english": "Just a city boy",
+      "chinese": "只是個城市男孩",
+      "startSeconds": 34.24,
+      "endSeconds": 37.04
+    },
+    {
+      "lineId": "line-5",
+      "english": "Born and raised in South Detroit",
+      "chinese": "在南底特律出生與長大",
+      "startSeconds": 37.04,
+      "endSeconds": 41.48
+    },
+    {
+      "lineId": "line-6",
+      "english": "He took the midnight train goin' anywhere",
+      "chinese": "他搭上午夜列車，開往任何地方",
+      "startSeconds": 41.88,
+      "endSeconds": 47.22
+    },
+    {
+      "lineId": "line-7",
+      "english": "A singer in a smokey room",
+      "chinese": "煙霧瀰漫房間裡的歌手",
+      "startSeconds": 67.22,
+      "endSeconds": 69.6
+    },
+    {
+      "lineId": "line-8",
+      "english": "The smell of wine and cheap perfume",
+      "chinese": "空氣中滿是酒氣與廉價香水味",
+      "startSeconds": 71.26,
+      "endSeconds": 73.7
+    },
+    {
+      "lineId": "line-9",
+      "english": "For a smile they can share the night",
+      "chinese": "只為了一個能共享此夜的笑容",
+      "startSeconds": 73.7,
+      "endSeconds": 77.5
+    },
+    {
+      "lineId": "line-10",
+      "english": "It goes on and on, and on, and on",
+      "chinese": "這一切不斷延續，一再上演",
+      "startSeconds": 77.5,
+      "endSeconds": 81.94
+    },
+    {
+      "lineId": "line-11",
+      "english": "Strangers waiting",
+      "chinese": "陌生人們等待著",
+      "startSeconds": 81.94,
+      "endSeconds": 85.64
+    },
+    {
+      "lineId": "line-12",
+      "english": "Up and down the boulevard",
+      "chinese": "在林蔭大道上來回徘徊",
+      "startSeconds": 86.94,
+      "endSeconds": 89.62
+    },
+    {
+      "lineId": "line-13",
+      "english": "Their shadows searching in the night",
+      "chinese": "他們的影子在夜色中尋覓",
+      "startSeconds": 89.62,
+      "endSeconds": 96.26
+    },
+    {
+      "lineId": "line-14",
+      "english": "Streetlight people",
+      "chinese": "街燈下的人們",
+      "startSeconds": 98.46,
+      "endSeconds": 101.74
+    },
+    {
+      "lineId": "line-15",
+      "english": "Livin' just to find emotion",
+      "chinese": "活著只為尋找一絲真情",
+      "startSeconds": 102.94,
+      "endSeconds": 105.96
+    },
+    {
+      "lineId": "line-16",
+      "english": "Hidin' somewhere in the night",
+      "chinese": "隱藏在黑夜的某個角落",
+      "startSeconds": 106.36,
+      "endSeconds": 114.74
+    },
+    {
+      "lineId": "line-17",
+      "english": "Workin' hard to get my fill",
+      "chinese": "努力工作只為求得滿足",
+      "startSeconds": 122.74,
+      "endSeconds": 125.76
+    },
+    {
+      "lineId": "line-18",
+      "english": "Everybody wants a thrill",
+      "chinese": "每個人都渴望刺激",
+      "startSeconds": 126.96,
+      "endSeconds": 130.16
+    },
+    {
+      "lineId": "line-19",
+      "english": "Payin' anything to roll the dice just one more time",
+      "chinese": "不惜代價，只為再擲一次骰子",
+      "startSeconds": 130.74,
+      "endSeconds": 137.48
+    },
+    {
+      "lineId": "line-20",
+      "english": "Some will win, some will lose",
+      "chinese": "有人贏，有人輸",
+      "startSeconds": 137.48,
+      "endSeconds": 142.12
+    },
+    {
+      "lineId": "line-21",
+      "english": "Some were born to sing the blues",
+      "chinese": "有些人天生註定要唱藍調",
+      "startSeconds": 142.12,
+      "endSeconds": 146.0
+    },
+    {
+      "lineId": "line-22",
+      "english": "Oh, the movie never ends",
+      "chinese": "噢，這部電影永不落幕",
+      "startSeconds": 146.38,
+      "endSeconds": 149.48
+    },
+    {
+      "lineId": "line-23",
+      "english": "It goes on and on, and on, and on",
+      "chinese": "這一切不斷延續，一再上演",
+      "startSeconds": 149.48,
+      "endSeconds": 153.74
+    },
+    {
+      "lineId": "line-24",
+      "english": "Strangers waiting",
+      "chinese": "陌生人們等待著",
+      "startSeconds": 153.74,
+      "endSeconds": 157.28
+    },
+    {
+      "lineId": "line-25",
+      "english": "Up and down the boulevard",
+      "chinese": "在林蔭大道上來回徘徊",
+      "startSeconds": 158.58,
+      "endSeconds": 161.14
+    },
+    {
+      "lineId": "line-26",
+      "english": "Their shadows searching in the night",
+      "chinese": "他們的影子在夜色中尋覓",
+      "startSeconds": 161.14,
+      "endSeconds": 167.96
+    },
+    {
+      "lineId": "line-27",
+      "english": "Streetlight people",
+      "chinese": "街燈下的人們",
+      "startSeconds": 169.88,
+      "endSeconds": 173.06
+    },
+    {
+      "lineId": "line-28",
+      "english": "Livin' just to find emotion",
+      "chinese": "活著只為尋找一絲真情",
+      "startSeconds": 174.7,
+      "endSeconds": 177.86
+    },
+    {
+      "lineId": "line-29",
+      "english": "Hidin' somewhere in the night",
+      "chinese": "隱藏在黑夜的某個角落",
+      "startSeconds": 177.86,
+      "endSeconds": 184.46
+    },
+    {
+      "lineId": "line-30",
+      "english": "Don't stop believin'",
+      "chinese": "別停止相信",
+      "startSeconds": 201.3,
+      "endSeconds": 204.7
+    },
+    {
+      "lineId": "line-31",
+      "english": "Hold on to that feelin'",
+      "chinese": "緊緊抓住那份感覺",
+      "startSeconds": 204.7,
+      "endSeconds": 209.38
+    },
+    {
+      "lineId": "line-32",
+      "english": "Streetlight people",
+      "chinese": "街燈下的人們",
+      "startSeconds": 210.04,
+      "endSeconds": 212.94
+    },
+    {
+      "lineId": "line-33",
+      "english": "Don't stop believin'",
+      "chinese": "別停止相信",
+      "startSeconds": 216.0,
+      "endSeconds": 221.14
+    },
+    {
+      "lineId": "line-34",
+      "english": "Hold on",
+      "chinese": "堅持下去",
+      "startSeconds": 222.38,
+      "endSeconds": 223.36
+    },
+    {
+      "lineId": "line-35",
+      "english": "Streetlight people",
+      "chinese": "街燈下的人們",
+      "startSeconds": 224.98,
+      "endSeconds": 228.74
+    },
+    {
+      "lineId": "line-36",
+      "english": "Don't stop believin'",
+      "chinese": "別停止相信",
+      "startSeconds": 232.0,
+      "endSeconds": 236.88
+    },
+    {
+      "lineId": "line-37",
+      "english": "Hold on to that feelin'",
+      "chinese": "緊緊抓住那份感覺",
+      "startSeconds": 238.08,
+      "endSeconds": 240.64
+    },
+    {
+      "lineId": "line-38",
+      "english": "Streetlight people",
+      "chinese": "街燈下的人們",
+      "startSeconds": 241.2,
+      "endSeconds": 244.7
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "small-town",
+      "meaning": "小鎮的；來自小地方的",
+      "usage": "形容人或地方來自人口較少的小鎮。",
+      "prompt": "哪一句正確使用「small-town」？",
+      "options": [
+        "She grew up in a small-town near the mountains.",
+        "He is a small-town boy who knows everyone in his town.",
+        "I small-town my homework every night.",
+        "My coffee is small-town because it is too hot."
+      ],
+      "answer": 1,
+      "explanation": "正確！small-town 放在 boy 前，表示來自小鎮的男孩。",
+      "optionExplanations": [
+        "small-town 放在名詞前時通常用來形容小鎮，但此句冠詞不對，應說 a small town。",
+        "正確！small-town 放在 boy 前，表示來自小鎮的男孩。",
+        "small-town 是形容詞，不是「做功課」的動詞。",
+        "small-town 不表示溫度，熱咖啡應用 hot。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "born and raised",
+      "meaning": "出生並長大",
+      "usage": "介紹一個人在哪裡出生、成長時使用，常接 in + 地點。",
+      "prompt": "哪一句正確使用「born and raised」？",
+      "options": [
+        "She born and raised her lunch at school.",
+        "My new phone was born and raised in my bag.",
+        "I was born and raised in a small town.",
+        "He is born and raised his bike every day."
+      ],
+      "answer": 2,
+      "explanation": "正確！was born and raised in 接成長的地方。",
+      "optionExplanations": [
+        "這個片語不是「準備午餐」，也不能直接當一般動詞使用。",
+        "通常用來介紹人的成長背景，不適合描述手機。",
+        "正確！was born and raised in 接成長的地方。",
+        "這裡不表示騎腳踏車，應說 rides his bike。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "anywhere",
+      "meaning": "任何地方；隨便哪裡",
+      "usage": "不指定地點，表示去哪裡都可以或找不到任何地方。",
+      "prompt": "哪一句正確使用「anywhere」？",
+      "options": [
+        "We can eat anywhere you like.",
+        "I anywhere my shoes before school.",
+        "The apple is anywhere red and sweet.",
+        "She has an anywhere in her bag."
+      ],
+      "answer": 0,
+      "explanation": "正確！anywhere 表示任何你想去的地方。",
+      "optionExplanations": [
+        "正確！anywhere 表示任何你想去的地方。",
+        "anywhere 是表示地點的副詞，不是穿鞋子的動詞。",
+        "anywhere 不表示顏色或味道。",
+        "anywhere 不是可數名詞，前面不能加 an。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "go on and on",
+      "meaning": "持續不停；說個沒完",
+      "usage": "某件事情一直繼續，或某人講話講很久時使用。",
+      "prompt": "哪一句正確使用「go on and on」？",
+      "options": [
+        "I go on and on my shoes every day.",
+        "My friend went on and on about his new cat.",
+        "The soup went on and on because it was hot.",
+        "She goes on and on at seven years old."
+      ],
+      "answer": 1,
+      "explanation": "正確！表示朋友一直談他的新貓。",
+      "optionExplanations": [
+        "不能用這個片語表示穿鞋，應說 put on my shoes。",
+        "正確！表示朋友一直談他的新貓。",
+        "片語不表示食物很燙。",
+        "這個片語不表示年齡。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "stranger",
+      "meaning": "陌生人",
+      "usage": "指你不認識的人；談問路、安全或第一次見面時常用。",
+      "prompt": "哪一句正確使用「stranger」？",
+      "options": [
+        "I put a stranger in my sandwich.",
+        "My dog is a stranger because it is hungry.",
+        "A stranger asked me where the train station was.",
+        "I stranger the bus to school."
+      ],
+      "answer": 2,
+      "explanation": "正確！指一位不認識的人來問路。",
+      "optionExplanations": [
+        "stranger 是陌生人，不是三明治配料。",
+        "stranger 指不認識的人，不表示餓。",
+        "正確！指一位不認識的人來問路。",
+        "stranger 是名詞，不是搭公車的動詞。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "up and down",
+      "meaning": "上上下下；來回地",
+      "usage": "描述移動方向，或沿著道路來回走動時使用。",
+      "prompt": "哪一句正確使用「up and down」？",
+      "options": [
+        "The dog walked up and down the street.",
+        "I ate up and down for breakfast.",
+        "My bag is up and down because it is blue.",
+        "She up and down her phone every day."
+      ],
+      "answer": 0,
+      "explanation": "正確！表示狗沿著街道來回走。",
+      "optionExplanations": [
+        "正確！表示狗沿著街道來回走。",
+        "不能表示早餐吃了什麼。",
+        "這個片語不表示顏色。",
+        "不能直接當動詞表示使用手機。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "work hard",
+      "meaning": "努力工作；認真用功",
+      "usage": "想達成目標而付出很多努力，例如工作或讀書。",
+      "prompt": "哪一句正確使用「work hard」？",
+      "options": [
+        "He works hard his sandwich for lunch.",
+        "They work hard at school to learn English.",
+        "The chair works hard because it is old.",
+        "I work hard my jacket when it is cold."
+      ],
+      "answer": 1,
+      "explanation": "正確！表示為了學英文而認真努力。",
+      "optionExplanations": [
+        "work hard 不表示製作三明治，應說 makes a sandwich。",
+        "正確！表示為了學英文而認真努力。",
+        "椅子不會像人一樣認真努力。",
+        "不表示穿外套，應說 wear my jacket。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "a thrill",
+      "meaning": "刺激、興奮的感覺",
+      "usage": "做有趣、驚喜或有點冒險的事情時感受到的興奮。",
+      "prompt": "哪一句正確使用「a thrill」？",
+      "options": [
+        "I wear a thrill when it rains.",
+        "There is a thrill in my soup, so it tastes good.",
+        "I got a thrill when I went on the fast ride.",
+        "My teacher thrilled a chair to the door."
+      ],
+      "answer": 2,
+      "explanation": "正確！坐速度很快的遊樂設施讓人感到刺激。",
+      "optionExplanations": [
+        "thrill 是一種感覺，不是可以穿的衣服。",
+        "thrill 不是食物的材料。",
+        "正確！坐速度很快的遊樂設施讓人感到刺激。",
+        "thrill 不表示搬椅子，應說 moved a chair。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "roll the dice",
+      "meaning": "擲骰子；（延伸）冒險試試看",
+      "usage": "玩桌遊時表示擲骰子；也可以形容結果不確定但願意試試。",
+      "prompt": "哪一句正確使用「roll the dice」？",
+      "options": [
+        "Roll the dice and see what number you get.",
+        "I roll the dice to wash my face.",
+        "She rolls the dice into her shoes to make them clean.",
+        "We rolled the dice because the cake was too sweet."
+      ],
+      "answer": 0,
+      "explanation": "正確！表示擲骰子並看出現什麼數字。",
+      "optionExplanations": [
+        "正確！表示擲骰子並看出現什麼數字。",
+        "擲骰子不是洗臉的方法。",
+        "擲骰子不能讓鞋子變乾淨。",
+        "骰子與蛋糕太甜沒有合理關係。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "hold on to",
+      "meaning": "抓緊；保留；不放棄",
+      "usage": "可以指抓緊東西，也能指不放棄希望、感覺或想法。",
+      "prompt": "哪一句正確使用「hold on to」？",
+      "options": [
+        "Please hold on to the bus with your breakfast.",
+        "I hold on to my dinner by eating it fast.",
+        "She holds on to happy memories from school.",
+        "He held on to the music with his ears to make it louder."
+      ],
+      "answer": 2,
+      "explanation": "正確！表示她一直珍惜、保留學校的快樂回憶。",
+      "optionExplanations": [
+        "這句把公車當成可抓住的物品，意思不自然；應說 hold on to the handrail。",
+        "吃快一點不是「抓緊／保留」晚餐的意思。",
+        "正確！表示她一直珍惜、保留學校的快樂回憶。",
+        "hold on to 不表示用耳朵把音樂變大聲。"
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/dont-stop-believin/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/dont-stop-believin/cover.webp",
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Just a {{blank}} girl",
+          "promptZh": "只是個小鎮女孩",
+          "options": [
+            "small-town",
+            "big-city",
+            "hometown"
+          ],
+          "answer": "small-town"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Livin' in a {{blank}} world",
+          "promptZh": "住在寂寞的世界裡",
+          "options": [
+            "lonely",
+            "empty",
+            "crazy"
+          ],
+          "answer": "lonely"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "She {{blank}} the 〔第 4 題〕 train goin' anywhere",
+          "promptZh": "她搭上午夜列車，開往任何地方",
+          "options": [
+            "caught",
+            "rode",
+            "took"
+          ],
+          "answer": "took"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "She 〔第 3 題〕 the {{blank}} train goin' anywhere",
+          "promptZh": "她搭上午夜列車，開往任何地方",
+          "options": [
+            "midnight",
+            "morning",
+            "evening"
+          ],
+          "answer": "midnight"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "Just a {{blank}} boy",
+          "promptZh": "只是個城市男孩",
+          "options": [
+            "city",
+            "country",
+            "small-town"
+          ],
+          "answer": "city"
+        },
+        {
+          "number": 6,
+          "lineId": "line-5",
+          "prompt": "Born and {{blank}} in South Detroit",
+          "promptZh": "在南底特律出生與長大",
+          "options": [
+            "bred",
+            "raised",
+            "grown"
+          ],
+          "answer": "raised"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "A singer in a {{blank}} room",
+          "promptZh": "煙霧瀰漫房間裡的歌手",
+          "options": [
+            "smokey",
+            "crowded",
+            "empty"
+          ],
+          "answer": "smokey"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "The smell of wine and {{blank}} perfume",
+          "promptZh": "空氣中滿是酒氣與廉價香水味",
+          "options": [
+            "cheap",
+            "sweet",
+            "strong"
+          ],
+          "answer": "cheap"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "For a smile they can {{blank}} the night",
+          "promptZh": "只為了一個能共享此夜的笑容",
+          "options": [
+            "spend",
+            "share",
+            "waste"
+          ],
+          "answer": "share"
+        },
+        {
+          "number": 10,
+          "lineId": "line-11",
+          "prompt": "{{blank}} waiting",
+          "promptZh": "陌生人們等待著",
+          "options": [
+            "Strangers",
+            "People",
+            "Lovers"
+          ],
+          "answer": "Strangers"
+        },
+        {
+          "number": 11,
+          "lineId": "line-12",
+          "prompt": "Up and down the {{blank}}",
+          "promptZh": "在林蔭大道上來回徘徊",
+          "options": [
+            "boulevard",
+            "avenue",
+            "highway"
+          ],
+          "answer": "boulevard"
+        },
+        {
+          "number": 12,
+          "lineId": "line-13",
+          "prompt": "Their {{blank}} searching in the night",
+          "promptZh": "他們的影子在夜色中尋覓",
+          "options": [
+            "footsteps",
+            "shadows",
+            "memories"
+          ],
+          "answer": "shadows"
+        },
+        {
+          "number": 13,
+          "lineId": "line-14",
+          "prompt": "{{blank}} people",
+          "promptZh": "街燈下的人們",
+          "options": [
+            "Streetlight",
+            "Midnight",
+            "City light"
+          ],
+          "answer": "Streetlight"
+        },
+        {
+          "number": 14,
+          "lineId": "line-15",
+          "prompt": "Livin' just to find {{blank}}",
+          "promptZh": "活著只為尋找一絲真情",
+          "options": [
+            "emotion",
+            "meaning",
+            "connection"
+          ],
+          "answer": "emotion"
+        },
+        {
+          "number": 15,
+          "lineId": "line-16",
+          "prompt": "{{blank}} somewhere in the night",
+          "promptZh": "隱藏在黑夜的某個角落",
+          "options": [
+            "Searchin'",
+            "Waiting",
+            "Hidin'"
+          ],
+          "answer": "Hidin'"
+        },
+        {
+          "number": 16,
+          "lineId": "line-17",
+          "prompt": "Workin' {{blank}} to get my fill",
+          "promptZh": "努力工作只為求得滿足",
+          "options": [
+            "hard",
+            "long",
+            "much"
+          ],
+          "answer": "hard"
+        },
+        {
+          "number": 17,
+          "lineId": "line-18",
+          "prompt": "Everybody wants a {{blank}}",
+          "promptZh": "每個人都渴望刺激",
+          "options": [
+            "thrill",
+            "chance",
+            "break"
+          ],
+          "answer": "thrill"
+        },
+        {
+          "number": 18,
+          "lineId": "line-19",
+          "prompt": "Payin' anything to {{blank}} the dice just one more time",
+          "promptZh": "不惜代價，只為再擲一次骰子",
+          "options": [
+            "toss",
+            "throw",
+            "roll"
+          ],
+          "answer": "roll"
+        },
+        {
+          "number": 19,
+          "lineId": "line-20",
+          "prompt": "Some will {{blank}}, some will lose",
+          "promptZh": "有人贏，有人輸",
+          "options": [
+            "win",
+            "lose",
+            "play"
+          ],
+          "answer": "win"
+        },
+        {
+          "number": 20,
+          "lineId": "line-21",
+          "prompt": "Some were born to sing the {{blank}}",
+          "promptZh": "有些人天生註定要唱藍調",
+          "options": [
+            "blues",
+            "songs",
+            "truth"
+          ],
+          "answer": "blues"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Just a {{q:1}} girl"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Livin' in a {{q:2}} world"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "She {{q:3}} the {{q:4}} train goin' anywhere"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Just a {{q:5}} boy"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Born and {{q:6}} in South Detroit"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "He took the midnight train goin' anywhere"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "A singer in a {{q:7}} room"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "The smell of wine and {{q:8}} perfume"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "For a smile they can {{q:9}} the night"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "It goes on and on, and on, and on"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:10}} waiting"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Up and down the {{q:11}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Their {{q:12}} searching in the night"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:13}} people"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Livin' just to find {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:15}} somewhere in the night"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Workin' {{q:16}} to get my fill"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Everybody wants a {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Payin' anything to {{q:18}} the dice just one more time"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Some will {{q:19}}, some will lose"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Some were born to sing the {{q:20}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Oh, the movie never ends"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "It goes on and on, and on, and on"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Strangers waiting"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Up and down the boulevard"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Their shadows searching in the night"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Streetlight people"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Livin' just to find emotion"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Hidin' somewhere in the night"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Don't stop believin'"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Hold on to that feelin'"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Streetlight people"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Don't stop believin'"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Hold on"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Streetlight people"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Don't stop believin'"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Hold on to that feelin'"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Streetlight people"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Just a {{blank}} girl",
+          "promptZh": "只是個小鎮女孩",
+          "options": [
+            "small-town",
+            "big-city",
+            "hometown"
+          ],
+          "answer": "small-town"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "{{blank}} in a 〔第 3 題〕 world",
+          "promptZh": "住在寂寞的世界裡",
+          "options": [
+            "Livin'",
+            "Dying",
+            "Walking"
+          ],
+          "answer": "Livin'"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "〔第 2 題〕 in a {{blank}} world",
+          "promptZh": "住在寂寞的世界裡",
+          "options": [
+            "crazy",
+            "empty",
+            "lonely"
+          ],
+          "answer": "lonely"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "She {{blank}} the 〔第 5 題〕 train goin' anywhere",
+          "promptZh": "她搭上午夜列車，開往任何地方",
+          "options": [
+            "took",
+            "rode",
+            "caught"
+          ],
+          "answer": "took"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "She 〔第 4 題〕 the {{blank}} train goin' anywhere",
+          "promptZh": "她搭上午夜列車，開往任何地方",
+          "options": [
+            "midnight",
+            "morning",
+            "evening"
+          ],
+          "answer": "midnight"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "Just a {{blank}} boy",
+          "promptZh": "只是個城市男孩",
+          "options": [
+            "country",
+            "city",
+            "small-town"
+          ],
+          "answer": "city"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "{{blank}} and 〔第 8 題〕 in South Detroit",
+          "promptZh": "在南底特律出生與長大",
+          "options": [
+            "Born",
+            "Bred",
+            "Raised"
+          ],
+          "answer": "Born"
+        },
+        {
+          "number": 8,
+          "lineId": "line-5",
+          "prompt": "〔第 7 題〕 and {{blank}} in South Detroit",
+          "promptZh": "在南底特律出生與長大",
+          "options": [
+            "raised",
+            "bred",
+            "grown"
+          ],
+          "answer": "raised"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "A singer in a {{blank}} room",
+          "promptZh": "煙霧瀰漫房間裡的歌手",
+          "options": [
+            "crowded",
+            "smokey",
+            "empty"
+          ],
+          "answer": "smokey"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "The {{blank}} of wine and 〔第 11 題〕 perfume",
+          "promptZh": "空氣中滿是酒氣與廉價香水味",
+          "options": [
+            "smell",
+            "taste",
+            "scent"
+          ],
+          "answer": "smell"
+        },
+        {
+          "number": 11,
+          "lineId": "line-8",
+          "prompt": "The 〔第 10 題〕 of wine and {{blank}} perfume",
+          "promptZh": "空氣中滿是酒氣與廉價香水味",
+          "options": [
+            "cheap",
+            "sweet",
+            "strong"
+          ],
+          "answer": "cheap"
+        },
+        {
+          "number": 12,
+          "lineId": "line-9",
+          "prompt": "For a smile they can {{blank}} the 〔第 13 題〕",
+          "promptZh": "只為了一個能共享此夜的笑容",
+          "options": [
+            "waste",
+            "spend",
+            "share"
+          ],
+          "answer": "share"
+        },
+        {
+          "number": 13,
+          "lineId": "line-9",
+          "prompt": "For a smile they can 〔第 12 題〕 the {{blank}}",
+          "promptZh": "只為了一個能共享此夜的笑容",
+          "options": [
+            "night",
+            "day",
+            "time"
+          ],
+          "answer": "night"
+        },
+        {
+          "number": 14,
+          "lineId": "line-10",
+          "prompt": "It goes {{blank}}, and on, and on",
+          "promptZh": "這一切不斷延續，一再上演",
+          "options": [
+            "on and on",
+            "on and over",
+            "on and out"
+          ],
+          "answer": "on and on"
+        },
+        {
+          "number": 15,
+          "lineId": "line-11",
+          "prompt": "{{blank}} 〔第 16 題〕",
+          "promptZh": "陌生人們等待著",
+          "options": [
+            "Lovers",
+            "People",
+            "Strangers"
+          ],
+          "answer": "Strangers"
+        },
+        {
+          "number": 16,
+          "lineId": "line-11",
+          "prompt": "〔第 15 題〕 {{blank}}",
+          "promptZh": "陌生人們等待著",
+          "options": [
+            "waiting",
+            "standing",
+            "watching"
+          ],
+          "answer": "waiting"
+        },
+        {
+          "number": 17,
+          "lineId": "line-12",
+          "prompt": "Up and down the {{blank}}",
+          "promptZh": "在林蔭大道上來回徘徊",
+          "options": [
+            "boulevard",
+            "avenue",
+            "highway"
+          ],
+          "answer": "boulevard"
+        },
+        {
+          "number": 18,
+          "lineId": "line-13",
+          "prompt": "Their {{blank}} 〔第 19 題〕 in the night",
+          "promptZh": "他們的影子在夜色中尋覓",
+          "options": [
+            "memories",
+            "footsteps",
+            "shadows"
+          ],
+          "answer": "shadows"
+        },
+        {
+          "number": 19,
+          "lineId": "line-13",
+          "prompt": "Their 〔第 18 題〕 {{blank}} in the night",
+          "promptZh": "他們的影子在夜色中尋覓",
+          "options": [
+            "searching",
+            "looking",
+            "finding"
+          ],
+          "answer": "searching"
+        },
+        {
+          "number": 20,
+          "lineId": "line-14",
+          "prompt": "{{blank}} people",
+          "promptZh": "街燈下的人們",
+          "options": [
+            "Streetlight",
+            "Midnight",
+            "City light"
+          ],
+          "answer": "Streetlight"
+        },
+        {
+          "number": 21,
+          "lineId": "line-15",
+          "prompt": "{{blank}} just to find 〔第 22 題〕",
+          "promptZh": "活著只為尋找一絲真情",
+          "options": [
+            "Tryin'",
+            "Livin'",
+            "Waitin'"
+          ],
+          "answer": "Livin'"
+        },
+        {
+          "number": 22,
+          "lineId": "line-15",
+          "prompt": "〔第 21 題〕 just to find {{blank}}",
+          "promptZh": "活著只為尋找一絲真情",
+          "options": [
+            "emotion",
+            "meaning",
+            "connection"
+          ],
+          "answer": "emotion"
+        },
+        {
+          "number": 23,
+          "lineId": "line-16",
+          "prompt": "{{blank}} somewhere in the night",
+          "promptZh": "隱藏在黑夜的某個角落",
+          "options": [
+            "Hidin'",
+            "Waiting",
+            "Searchin'"
+          ],
+          "answer": "Hidin'"
+        },
+        {
+          "number": 24,
+          "lineId": "line-17",
+          "prompt": "Workin' {{blank}} to 〔第 25 題〕",
+          "promptZh": "努力工作只為求得滿足",
+          "options": [
+            "long",
+            "hard",
+            "much"
+          ],
+          "answer": "hard"
+        },
+        {
+          "number": 25,
+          "lineId": "line-17",
+          "prompt": "Workin' 〔第 24 題〕 to {{blank}}",
+          "promptZh": "努力工作只為求得滿足",
+          "options": [
+            "get my fill",
+            "get my way",
+            "get my thrill"
+          ],
+          "answer": "get my fill"
+        },
+        {
+          "number": 26,
+          "lineId": "line-18",
+          "prompt": "{{blank}} wants a 〔第 27 題〕",
+          "promptZh": "每個人都渴望刺激",
+          "options": [
+            "Everybody",
+            "Somebody",
+            "Nobody"
+          ],
+          "answer": "Everybody"
+        },
+        {
+          "number": 27,
+          "lineId": "line-18",
+          "prompt": "〔第 26 題〕 wants a {{blank}}",
+          "promptZh": "每個人都渴望刺激",
+          "options": [
+            "break",
+            "chance",
+            "thrill"
+          ],
+          "answer": "thrill"
+        },
+        {
+          "number": 28,
+          "lineId": "line-19",
+          "prompt": "Payin' anything to {{blank}} the dice just one more time",
+          "promptZh": "不惜代價，只為再擲一次骰子",
+          "options": [
+            "roll",
+            "throw",
+            "toss"
+          ],
+          "answer": "roll"
+        },
+        {
+          "number": 29,
+          "lineId": "line-20",
+          "prompt": "Some will {{blank}}, some will lose",
+          "promptZh": "有人贏，有人輸",
+          "options": [
+            "win",
+            "lose",
+            "play"
+          ],
+          "answer": "win"
+        },
+        {
+          "number": 30,
+          "lineId": "line-21",
+          "prompt": "Some were {{blank}} the 〔第 31 題〕",
+          "promptZh": "有些人天生註定要唱藍調",
+          "options": [
+            "born to play",
+            "meant to sing",
+            "born to sing"
+          ],
+          "answer": "born to sing"
+        },
+        {
+          "number": 31,
+          "lineId": "line-21",
+          "prompt": "Some were 〔第 30 題〕 the {{blank}}",
+          "promptZh": "有些人天生註定要唱藍調",
+          "options": [
+            "blues",
+            "songs",
+            "truth"
+          ],
+          "answer": "blues"
+        },
+        {
+          "number": 32,
+          "lineId": "line-22",
+          "prompt": "Oh, the movie {{blank}}",
+          "promptZh": "噢，這部電影永不落幕",
+          "options": [
+            "never ends",
+            "never stops",
+            "never dies"
+          ],
+          "answer": "never ends"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Just a {{q:1}} girl"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}} in a {{q:3}} world"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "She {{q:4}} the {{q:5}} train goin' anywhere"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Just a {{q:6}} boy"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}} and {{q:8}} in South Detroit"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "He took the midnight train goin' anywhere"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "A singer in a {{q:9}} room"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "The {{q:10}} of wine and {{q:11}} perfume"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "For a smile they can {{q:12}} the {{q:13}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "It goes {{q:14}}, and on, and on"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:15}} {{q:16}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Up and down the {{q:17}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Their {{q:18}} {{q:19}} in the night"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:20}} people"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:21}} just to find {{q:22}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:23}} somewhere in the night"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Workin' {{q:24}} to {{q:25}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:26}} wants a {{q:27}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Payin' anything to {{q:28}} the dice just one more time"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Some will {{q:29}}, some will lose"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Some were {{q:30}} the {{q:31}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Oh, the movie {{q:32}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "It goes on and on, and on, and on"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Strangers waiting"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Up and down the boulevard"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Their shadows searching in the night"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Streetlight people"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Livin' just to find emotion"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Hidin' somewhere in the night"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Don't stop believin'"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Hold on to that feelin'"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Streetlight people"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Don't stop believin'"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Hold on"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Streetlight people"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Don't stop believin'"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Hold on to that feelin'"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Streetlight people"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 〔第 2 題〕 girl",
+          "promptZh": "只是個小鎮女孩",
+          "options": [
+            "Just a",
+            "Only a",
+            "She's just a"
+          ],
+          "answer": "Just a"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 {{blank}} girl",
+          "promptZh": "只是個小鎮女孩",
+          "options": [
+            "small-town",
+            "big-city",
+            "hometown"
+          ],
+          "answer": "small-town"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} in a 〔第 4 題〕 world",
+          "promptZh": "住在寂寞的世界裡",
+          "options": [
+            "Dying",
+            "Livin'",
+            "Walking"
+          ],
+          "answer": "Livin'"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 in a {{blank}} world",
+          "promptZh": "住在寂寞的世界裡",
+          "options": [
+            "lonely",
+            "empty",
+            "crazy"
+          ],
+          "answer": "lonely"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "She {{blank}} the 〔第 6 題〕 train 〔第 7 題〕 anywhere",
+          "promptZh": "她搭上午夜列車，開往任何地方",
+          "options": [
+            "took",
+            "rode",
+            "caught"
+          ],
+          "answer": "took"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "She 〔第 5 題〕 the {{blank}} train 〔第 7 題〕 anywhere",
+          "promptZh": "她搭上午夜列車，開往任何地方",
+          "options": [
+            "evening",
+            "morning",
+            "midnight"
+          ],
+          "answer": "midnight"
+        },
+        {
+          "number": 7,
+          "lineId": "line-3",
+          "prompt": "She 〔第 5 題〕 the 〔第 6 題〕 train {{blank}} anywhere",
+          "promptZh": "她搭上午夜列車，開往任何地方",
+          "options": [
+            "goin'",
+            "headin'",
+            "movin'"
+          ],
+          "answer": "goin'"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "Just a {{blank}} boy",
+          "promptZh": "只是個城市男孩",
+          "options": [
+            "city",
+            "country",
+            "small-town"
+          ],
+          "answer": "city"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "{{blank}} 〔第 10 題〕 〔第 11 題〕 in South Detroit",
+          "promptZh": "在南底特律出生與長大",
+          "options": [
+            "Bred",
+            "Born",
+            "Raised"
+          ],
+          "answer": "Born"
+        },
+        {
+          "number": 10,
+          "lineId": "line-5",
+          "prompt": "〔第 9 題〕 {{blank}} 〔第 11 題〕 in South Detroit",
+          "promptZh": "在南底特律出生與長大",
+          "options": [
+            "and",
+            "or",
+            "but"
+          ],
+          "answer": "and"
+        },
+        {
+          "number": 11,
+          "lineId": "line-5",
+          "prompt": "〔第 9 題〕 〔第 10 題〕 {{blank}} in South Detroit",
+          "promptZh": "在南底特律出生與長大",
+          "options": [
+            "raised",
+            "bred",
+            "grown"
+          ],
+          "answer": "raised"
+        },
+        {
+          "number": 12,
+          "lineId": "line-7",
+          "prompt": "A singer in a {{blank}} room",
+          "promptZh": "煙霧瀰漫房間裡的歌手",
+          "options": [
+            "empty",
+            "crowded",
+            "smokey"
+          ],
+          "answer": "smokey"
+        },
+        {
+          "number": 13,
+          "lineId": "line-8",
+          "prompt": "The {{blank}} of 〔第 14 題〕 and 〔第 15 題〕 perfume",
+          "promptZh": "空氣中滿是酒氣與廉價香水味",
+          "options": [
+            "smell",
+            "taste",
+            "scent"
+          ],
+          "answer": "smell"
+        },
+        {
+          "number": 14,
+          "lineId": "line-8",
+          "prompt": "The 〔第 13 題〕 of {{blank}} and 〔第 15 題〕 perfume",
+          "promptZh": "空氣中滿是酒氣與廉價香水味",
+          "options": [
+            "wine",
+            "rain",
+            "lime"
+          ],
+          "answer": "wine"
+        },
+        {
+          "number": 15,
+          "lineId": "line-8",
+          "prompt": "The 〔第 13 題〕 of 〔第 14 題〕 and {{blank}} perfume",
+          "promptZh": "空氣中滿是酒氣與廉價香水味",
+          "options": [
+            "strong",
+            "sweet",
+            "cheap"
+          ],
+          "answer": "cheap"
+        },
+        {
+          "number": 16,
+          "lineId": "line-9",
+          "prompt": "{{blank}} they can 〔第 17 題〕 the 〔第 18 題〕",
+          "promptZh": "只為了一個能共享此夜的笑容",
+          "options": [
+            "For a smile",
+            "For a kiss",
+            "For a night"
+          ],
+          "answer": "For a smile"
+        },
+        {
+          "number": 17,
+          "lineId": "line-9",
+          "prompt": "〔第 16 題〕 they can {{blank}} the 〔第 18 題〕",
+          "promptZh": "只為了一個能共享此夜的笑容",
+          "options": [
+            "share",
+            "spend",
+            "waste"
+          ],
+          "answer": "share"
+        },
+        {
+          "number": 18,
+          "lineId": "line-9",
+          "prompt": "〔第 16 題〕 they can 〔第 17 題〕 the {{blank}}",
+          "promptZh": "只為了一個能共享此夜的笑容",
+          "options": [
+            "time",
+            "day",
+            "night"
+          ],
+          "answer": "night"
+        },
+        {
+          "number": 19,
+          "lineId": "line-10",
+          "prompt": "It goes {{blank}}, and on, and on",
+          "promptZh": "這一切不斷延續，一再上演",
+          "options": [
+            "on and on",
+            "on and over",
+            "on and out"
+          ],
+          "answer": "on and on"
+        },
+        {
+          "number": 20,
+          "lineId": "line-11",
+          "prompt": "{{blank}} 〔第 21 題〕",
+          "promptZh": "陌生人們等待著",
+          "options": [
+            "Strangers",
+            "People",
+            "Lovers"
+          ],
+          "answer": "Strangers"
+        },
+        {
+          "number": 21,
+          "lineId": "line-11",
+          "prompt": "〔第 20 題〕 {{blank}}",
+          "promptZh": "陌生人們等待著",
+          "options": [
+            "standing",
+            "waiting",
+            "watching"
+          ],
+          "answer": "waiting"
+        },
+        {
+          "number": 22,
+          "lineId": "line-12",
+          "prompt": "{{blank}} the 〔第 23 題〕",
+          "promptZh": "在林蔭大道上來回徘徊",
+          "options": [
+            "Up and down",
+            "Back and forth",
+            "In and out"
+          ],
+          "answer": "Up and down"
+        },
+        {
+          "number": 23,
+          "lineId": "line-12",
+          "prompt": "〔第 22 題〕 the {{blank}}",
+          "promptZh": "在林蔭大道上來回徘徊",
+          "options": [
+            "boulevard",
+            "avenue",
+            "highway"
+          ],
+          "answer": "boulevard"
+        },
+        {
+          "number": 24,
+          "lineId": "line-13",
+          "prompt": "Their {{blank}} 〔第 25 題〕 in the night",
+          "promptZh": "他們的影子在夜色中尋覓",
+          "options": [
+            "memories",
+            "footsteps",
+            "shadows"
+          ],
+          "answer": "shadows"
+        },
+        {
+          "number": 25,
+          "lineId": "line-13",
+          "prompt": "Their 〔第 24 題〕 {{blank}} in the night",
+          "promptZh": "他們的影子在夜色中尋覓",
+          "options": [
+            "searching",
+            "looking",
+            "finding"
+          ],
+          "answer": "searching"
+        },
+        {
+          "number": 26,
+          "lineId": "line-14",
+          "prompt": "{{blank}} people",
+          "promptZh": "街燈下的人們",
+          "options": [
+            "Streetlight",
+            "Midnight",
+            "City light"
+          ],
+          "answer": "Streetlight"
+        },
+        {
+          "number": 27,
+          "lineId": "line-15",
+          "prompt": "{{blank}} just to find 〔第 28 題〕",
+          "promptZh": "活著只為尋找一絲真情",
+          "options": [
+            "Tryin'",
+            "Livin'",
+            "Waitin'"
+          ],
+          "answer": "Livin'"
+        },
+        {
+          "number": 28,
+          "lineId": "line-15",
+          "prompt": "〔第 27 題〕 just to find {{blank}}",
+          "promptZh": "活著只為尋找一絲真情",
+          "options": [
+            "emotion",
+            "meaning",
+            "connection"
+          ],
+          "answer": "emotion"
+        },
+        {
+          "number": 29,
+          "lineId": "line-16",
+          "prompt": "{{blank}} somewhere in the night",
+          "promptZh": "隱藏在黑夜的某個角落",
+          "options": [
+            "Hidin'",
+            "Waiting",
+            "Searchin'"
+          ],
+          "answer": "Hidin'"
+        },
+        {
+          "number": 30,
+          "lineId": "line-17",
+          "prompt": "Workin' {{blank}} to 〔第 31 題〕",
+          "promptZh": "努力工作只為求得滿足",
+          "options": [
+            "much",
+            "long",
+            "hard"
+          ],
+          "answer": "hard"
+        },
+        {
+          "number": 31,
+          "lineId": "line-17",
+          "prompt": "Workin' 〔第 30 題〕 to {{blank}}",
+          "promptZh": "努力工作只為求得滿足",
+          "options": [
+            "get my fill",
+            "get my way",
+            "get my thrill"
+          ],
+          "answer": "get my fill"
+        },
+        {
+          "number": 32,
+          "lineId": "line-18",
+          "prompt": "{{blank}} wants a 〔第 33 題〕",
+          "promptZh": "每個人都渴望刺激",
+          "options": [
+            "Everybody",
+            "Somebody",
+            "Nobody"
+          ],
+          "answer": "Everybody"
+        },
+        {
+          "number": 33,
+          "lineId": "line-18",
+          "prompt": "〔第 32 題〕 wants a {{blank}}",
+          "promptZh": "每個人都渴望刺激",
+          "options": [
+            "break",
+            "chance",
+            "thrill"
+          ],
+          "answer": "thrill"
+        },
+        {
+          "number": 34,
+          "lineId": "line-19",
+          "prompt": "Payin' anything to {{blank}} 〔第 35 題〕 just one more time",
+          "promptZh": "不惜代價，只為再擲一次骰子",
+          "options": [
+            "roll",
+            "throw",
+            "toss"
+          ],
+          "answer": "roll"
+        },
+        {
+          "number": 35,
+          "lineId": "line-19",
+          "prompt": "Payin' anything to 〔第 34 題〕 {{blank}} just one more time",
+          "promptZh": "不惜代價，只為再擲一次骰子",
+          "options": [
+            "the dice",
+            "the price",
+            "the lights"
+          ],
+          "answer": "the dice"
+        },
+        {
+          "number": 36,
+          "lineId": "line-20",
+          "prompt": "Some will {{blank}}, some will lose",
+          "promptZh": "有人贏，有人輸",
+          "options": [
+            "play",
+            "lose",
+            "win"
+          ],
+          "answer": "win"
+        },
+        {
+          "number": 37,
+          "lineId": "line-21",
+          "prompt": "Some were {{blank}} the 〔第 38 題〕",
+          "promptZh": "有些人天生註定要唱藍調",
+          "options": [
+            "born to sing",
+            "meant to sing",
+            "born to play"
+          ],
+          "answer": "born to sing"
+        },
+        {
+          "number": 38,
+          "lineId": "line-21",
+          "prompt": "Some were 〔第 37 題〕 the {{blank}}",
+          "promptZh": "有些人天生註定要唱藍調",
+          "options": [
+            "blues",
+            "songs",
+            "truth"
+          ],
+          "answer": "blues"
+        },
+        {
+          "number": 39,
+          "lineId": "line-22",
+          "prompt": "Oh, the movie {{blank}}",
+          "promptZh": "噢，這部電影永不落幕",
+          "options": [
+            "never stops",
+            "never ends",
+            "never dies"
+          ],
+          "answer": "never ends"
+        },
+        {
+          "number": 40,
+          "lineId": "line-30",
+          "prompt": "{{blank}}",
+          "promptZh": "別停止相信",
+          "options": [
+            "Don't stop believin'",
+            "Don't start believin'",
+            "Don't stop concealin'"
+          ],
+          "answer": "Don't stop believin'"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}} girl"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} in a {{q:4}} world"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "She {{q:5}} the {{q:6}} train {{q:7}} anywhere"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Just a {{q:8}} boy"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:9}} {{q:10}} {{q:11}} in South Detroit"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "He took the midnight train goin' anywhere"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "A singer in a {{q:12}} room"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "The {{q:13}} of {{q:14}} and {{q:15}} perfume"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:16}} they can {{q:17}} the {{q:18}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "It goes {{q:19}}, and on, and on"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:20}} {{q:21}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:22}} the {{q:23}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Their {{q:24}} {{q:25}} in the night"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:26}} people"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:27}} just to find {{q:28}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:29}} somewhere in the night"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Workin' {{q:30}} to {{q:31}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:32}} wants a {{q:33}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Payin' anything to {{q:34}} {{q:35}} just one more time"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Some will {{q:36}}, some will lose"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Some were {{q:37}} the {{q:38}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Oh, the movie {{q:39}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "It goes on and on, and on, and on"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Strangers waiting"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Up and down the boulevard"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Their shadows searching in the night"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Streetlight people"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Livin' just to find emotion"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Hidin' somewhere in the night"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:40}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Hold on to that feelin'"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Streetlight people"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Don't stop believin'"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Hold on"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Streetlight people"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Don't stop believin'"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Hold on to that feelin'"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Streetlight people"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 〔第 2 題〕 girl",
+          "promptZh": "只是個小鎮女孩",
+          "options": [
+            "Just a",
+            "Only a",
+            "She's just a"
+          ],
+          "answer": "Just a"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 {{blank}} girl",
+          "promptZh": "只是個小鎮女孩",
+          "options": [
+            "small-town",
+            "big-city",
+            "hometown"
+          ],
+          "answer": "small-town"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} in a 〔第 4 題〕 world",
+          "promptZh": "住在寂寞的世界裡",
+          "options": [
+            "Walking",
+            "Dying",
+            "Livin'"
+          ],
+          "answer": "Livin'"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 in a {{blank}} world",
+          "promptZh": "住在寂寞的世界裡",
+          "options": [
+            "lonely",
+            "empty",
+            "crazy"
+          ],
+          "answer": "lonely"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "{{blank}} 〔第 6 題〕 the 〔第 7 題〕 train 〔第 8 題〕 anywhere",
+          "promptZh": "她搭上午夜列車，開往任何地方",
+          "options": [
+            "She",
+            "He",
+            "We"
+          ],
+          "answer": "She"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "〔第 5 題〕 {{blank}} the 〔第 7 題〕 train 〔第 8 題〕 anywhere",
+          "promptZh": "她搭上午夜列車，開往任何地方",
+          "options": [
+            "rode",
+            "took",
+            "caught"
+          ],
+          "answer": "took"
+        },
+        {
+          "number": 7,
+          "lineId": "line-3",
+          "prompt": "〔第 5 題〕 〔第 6 題〕 the {{blank}} train 〔第 8 題〕 anywhere",
+          "promptZh": "她搭上午夜列車，開往任何地方",
+          "options": [
+            "midnight",
+            "morning",
+            "evening"
+          ],
+          "answer": "midnight"
+        },
+        {
+          "number": 8,
+          "lineId": "line-3",
+          "prompt": "〔第 5 題〕 〔第 6 題〕 the 〔第 7 題〕 train {{blank}} anywhere",
+          "promptZh": "她搭上午夜列車，開往任何地方",
+          "options": [
+            "goin'",
+            "headin'",
+            "movin'"
+          ],
+          "answer": "goin'"
+        },
+        {
+          "number": 9,
+          "lineId": "line-4",
+          "prompt": "Just a {{blank}} boy",
+          "promptZh": "只是個城市男孩",
+          "options": [
+            "country",
+            "city",
+            "small-town"
+          ],
+          "answer": "city"
+        },
+        {
+          "number": 10,
+          "lineId": "line-5",
+          "prompt": "{{blank}} 〔第 11 題〕 〔第 12 題〕 in South Detroit",
+          "promptZh": "在南底特律出生與長大",
+          "options": [
+            "Born",
+            "Bred",
+            "Raised"
+          ],
+          "answer": "Born"
+        },
+        {
+          "number": 11,
+          "lineId": "line-5",
+          "prompt": "〔第 10 題〕 {{blank}} 〔第 12 題〕 in South Detroit",
+          "promptZh": "在南底特律出生與長大",
+          "options": [
+            "and",
+            "or",
+            "but"
+          ],
+          "answer": "and"
+        },
+        {
+          "number": 12,
+          "lineId": "line-5",
+          "prompt": "〔第 10 題〕 〔第 11 題〕 {{blank}} in South Detroit",
+          "promptZh": "在南底特律出生與長大",
+          "options": [
+            "grown",
+            "bred",
+            "raised"
+          ],
+          "answer": "raised"
+        },
+        {
+          "number": 13,
+          "lineId": "line-6",
+          "prompt": "{{blank}} the midnight train 〔第 14 題〕",
+          "promptZh": "他搭上午夜列車，開往任何地方",
+          "options": [
+            "He took",
+            "He rode",
+            "He caught"
+          ],
+          "answer": "He took"
+        },
+        {
+          "number": 14,
+          "lineId": "line-6",
+          "prompt": "〔第 13 題〕 the midnight train {{blank}}",
+          "promptZh": "他搭上午夜列車，開往任何地方",
+          "options": [
+            "goin' anywhere",
+            "goin' somewhere",
+            "goin' everywhere"
+          ],
+          "answer": "goin' anywhere"
+        },
+        {
+          "number": 15,
+          "lineId": "line-7",
+          "prompt": "{{blank}} a 〔第 16 題〕 room",
+          "promptZh": "煙霧瀰漫房間裡的歌手",
+          "options": [
+            "A stranger in",
+            "A dreamer in",
+            "A singer in"
+          ],
+          "answer": "A singer in"
+        },
+        {
+          "number": 16,
+          "lineId": "line-7",
+          "prompt": "〔第 15 題〕 a {{blank}} room",
+          "promptZh": "煙霧瀰漫房間裡的歌手",
+          "options": [
+            "smokey",
+            "crowded",
+            "empty"
+          ],
+          "answer": "smokey"
+        },
+        {
+          "number": 17,
+          "lineId": "line-8",
+          "prompt": "The {{blank}} of 〔第 18 題〕 and 〔第 19 題〕 perfume",
+          "promptZh": "空氣中滿是酒氣與廉價香水味",
+          "options": [
+            "smell",
+            "taste",
+            "scent"
+          ],
+          "answer": "smell"
+        },
+        {
+          "number": 18,
+          "lineId": "line-8",
+          "prompt": "The 〔第 17 題〕 of {{blank}} and 〔第 19 題〕 perfume",
+          "promptZh": "空氣中滿是酒氣與廉價香水味",
+          "options": [
+            "lime",
+            "rain",
+            "wine"
+          ],
+          "answer": "wine"
+        },
+        {
+          "number": 19,
+          "lineId": "line-8",
+          "prompt": "The 〔第 17 題〕 of 〔第 18 題〕 and {{blank}} perfume",
+          "promptZh": "空氣中滿是酒氣與廉價香水味",
+          "options": [
+            "cheap",
+            "sweet",
+            "strong"
+          ],
+          "answer": "cheap"
+        },
+        {
+          "number": 20,
+          "lineId": "line-9",
+          "prompt": "{{blank}} 〔第 21 題〕 〔第 22 題〕 the 〔第 23 題〕",
+          "promptZh": "只為了一個能共享此夜的笑容",
+          "options": [
+            "For a smile",
+            "For a kiss",
+            "For a night"
+          ],
+          "answer": "For a smile"
+        },
+        {
+          "number": 21,
+          "lineId": "line-9",
+          "prompt": "〔第 20 題〕 {{blank}} 〔第 22 題〕 the 〔第 23 題〕",
+          "promptZh": "只為了一個能共享此夜的笑容",
+          "options": [
+            "we can",
+            "they can",
+            "they will"
+          ],
+          "answer": "they can"
+        },
+        {
+          "number": 22,
+          "lineId": "line-9",
+          "prompt": "〔第 20 題〕 〔第 21 題〕 {{blank}} the 〔第 23 題〕",
+          "promptZh": "只為了一個能共享此夜的笑容",
+          "options": [
+            "share",
+            "spend",
+            "waste"
+          ],
+          "answer": "share"
+        },
+        {
+          "number": 23,
+          "lineId": "line-9",
+          "prompt": "〔第 20 題〕 〔第 21 題〕 〔第 22 題〕 the {{blank}}",
+          "promptZh": "只為了一個能共享此夜的笑容",
+          "options": [
+            "night",
+            "day",
+            "time"
+          ],
+          "answer": "night"
+        },
+        {
+          "number": 24,
+          "lineId": "line-10",
+          "prompt": "It goes {{blank}}, and on, and on",
+          "promptZh": "這一切不斷延續，一再上演",
+          "options": [
+            "on and over",
+            "on and on",
+            "on and out"
+          ],
+          "answer": "on and on"
+        },
+        {
+          "number": 25,
+          "lineId": "line-11",
+          "prompt": "{{blank}} 〔第 26 題〕",
+          "promptZh": "陌生人們等待著",
+          "options": [
+            "Strangers",
+            "People",
+            "Lovers"
+          ],
+          "answer": "Strangers"
+        },
+        {
+          "number": 26,
+          "lineId": "line-11",
+          "prompt": "〔第 25 題〕 {{blank}}",
+          "promptZh": "陌生人們等待著",
+          "options": [
+            "waiting",
+            "standing",
+            "watching"
+          ],
+          "answer": "waiting"
+        },
+        {
+          "number": 27,
+          "lineId": "line-12",
+          "prompt": "{{blank}} the 〔第 28 題〕",
+          "promptZh": "在林蔭大道上來回徘徊",
+          "options": [
+            "Back and forth",
+            "Up and down",
+            "In and out"
+          ],
+          "answer": "Up and down"
+        },
+        {
+          "number": 28,
+          "lineId": "line-12",
+          "prompt": "〔第 27 題〕 the {{blank}}",
+          "promptZh": "在林蔭大道上來回徘徊",
+          "options": [
+            "boulevard",
+            "avenue",
+            "highway"
+          ],
+          "answer": "boulevard"
+        },
+        {
+          "number": 29,
+          "lineId": "line-13",
+          "prompt": "Their {{blank}} 〔第 30 題〕 in the night",
+          "promptZh": "他們的影子在夜色中尋覓",
+          "options": [
+            "shadows",
+            "footsteps",
+            "memories"
+          ],
+          "answer": "shadows"
+        },
+        {
+          "number": 30,
+          "lineId": "line-13",
+          "prompt": "Their 〔第 29 題〕 {{blank}} in the night",
+          "promptZh": "他們的影子在夜色中尋覓",
+          "options": [
+            "looking",
+            "searching",
+            "finding"
+          ],
+          "answer": "searching"
+        },
+        {
+          "number": 31,
+          "lineId": "line-14",
+          "prompt": "{{blank}} people",
+          "promptZh": "街燈下的人們",
+          "options": [
+            "Streetlight",
+            "Midnight",
+            "City light"
+          ],
+          "answer": "Streetlight"
+        },
+        {
+          "number": 32,
+          "lineId": "line-15",
+          "prompt": "{{blank}} 〔第 33 題〕 〔第 34 題〕",
+          "promptZh": "活著只為尋找一絲真情",
+          "options": [
+            "Livin'",
+            "Tryin'",
+            "Waitin'"
+          ],
+          "answer": "Livin'"
+        },
+        {
+          "number": 33,
+          "lineId": "line-15",
+          "prompt": "〔第 32 題〕 {{blank}} 〔第 34 題〕",
+          "promptZh": "活著只為尋找一絲真情",
+          "options": [
+            "just to feel",
+            "just to find",
+            "just to hide"
+          ],
+          "answer": "just to find"
+        },
+        {
+          "number": 34,
+          "lineId": "line-15",
+          "prompt": "〔第 32 題〕 〔第 33 題〕 {{blank}}",
+          "promptZh": "活著只為尋找一絲真情",
+          "options": [
+            "emotion",
+            "meaning",
+            "connection"
+          ],
+          "answer": "emotion"
+        },
+        {
+          "number": 35,
+          "lineId": "line-16",
+          "prompt": "{{blank}} somewhere in the night",
+          "promptZh": "隱藏在黑夜的某個角落",
+          "options": [
+            "Hidin'",
+            "Waiting",
+            "Searchin'"
+          ],
+          "answer": "Hidin'"
+        },
+        {
+          "number": 36,
+          "lineId": "line-17",
+          "prompt": "Workin' {{blank}} to 〔第 37 題〕",
+          "promptZh": "努力工作只為求得滿足",
+          "options": [
+            "much",
+            "long",
+            "hard"
+          ],
+          "answer": "hard"
+        },
+        {
+          "number": 37,
+          "lineId": "line-17",
+          "prompt": "Workin' 〔第 36 題〕 to {{blank}}",
+          "promptZh": "努力工作只為求得滿足",
+          "options": [
+            "get my fill",
+            "get my way",
+            "get my thrill"
+          ],
+          "answer": "get my fill"
+        },
+        {
+          "number": 38,
+          "lineId": "line-18",
+          "prompt": "{{blank}} wants a 〔第 39 題〕",
+          "promptZh": "每個人都渴望刺激",
+          "options": [
+            "Everybody",
+            "Somebody",
+            "Nobody"
+          ],
+          "answer": "Everybody"
+        },
+        {
+          "number": 39,
+          "lineId": "line-18",
+          "prompt": "〔第 38 題〕 wants a {{blank}}",
+          "promptZh": "每個人都渴望刺激",
+          "options": [
+            "break",
+            "chance",
+            "thrill"
+          ],
+          "answer": "thrill"
+        },
+        {
+          "number": 40,
+          "lineId": "line-19",
+          "prompt": "{{blank}} to 〔第 41 題〕 〔第 42 題〕 just one more time",
+          "promptZh": "不惜代價，只為再擲一次骰子",
+          "options": [
+            "Payin' anything",
+            "Payin' everything",
+            "Payin' something"
+          ],
+          "answer": "Payin' anything"
+        },
+        {
+          "number": 41,
+          "lineId": "line-19",
+          "prompt": "〔第 40 題〕 to {{blank}} 〔第 42 題〕 just one more time",
+          "promptZh": "不惜代價，只為再擲一次骰子",
+          "options": [
+            "roll",
+            "throw",
+            "toss"
+          ],
+          "answer": "roll"
+        },
+        {
+          "number": 42,
+          "lineId": "line-19",
+          "prompt": "〔第 40 題〕 to 〔第 41 題〕 {{blank}} just one more time",
+          "promptZh": "不惜代價，只為再擲一次骰子",
+          "options": [
+            "the lights",
+            "the price",
+            "the dice"
+          ],
+          "answer": "the dice"
+        },
+        {
+          "number": 43,
+          "lineId": "line-20",
+          "prompt": "Some will {{blank}}, some will lose",
+          "promptZh": "有人贏，有人輸",
+          "options": [
+            "win",
+            "lose",
+            "play"
+          ],
+          "answer": "win"
+        },
+        {
+          "number": 44,
+          "lineId": "line-21",
+          "prompt": "{{blank}} 〔第 45 題〕 the 〔第 46 題〕",
+          "promptZh": "有些人天生註定要唱藍調",
+          "options": [
+            "Some were",
+            "Some are",
+            "Some will"
+          ],
+          "answer": "Some were"
+        },
+        {
+          "number": 45,
+          "lineId": "line-21",
+          "prompt": "〔第 44 題〕 {{blank}} the 〔第 46 題〕",
+          "promptZh": "有些人天生註定要唱藍調",
+          "options": [
+            "born to play",
+            "meant to sing",
+            "born to sing"
+          ],
+          "answer": "born to sing"
+        },
+        {
+          "number": 46,
+          "lineId": "line-21",
+          "prompt": "〔第 44 題〕 〔第 45 題〕 the {{blank}}",
+          "promptZh": "有些人天生註定要唱藍調",
+          "options": [
+            "blues",
+            "songs",
+            "truth"
+          ],
+          "answer": "blues"
+        },
+        {
+          "number": 47,
+          "lineId": "line-22",
+          "prompt": "{{blank}} 〔第 48 題〕",
+          "promptZh": "噢，這部電影永不落幕",
+          "options": [
+            "Oh, the movie",
+            "Oh, the story",
+            "Oh, the picture"
+          ],
+          "answer": "Oh, the movie"
+        },
+        {
+          "number": 48,
+          "lineId": "line-22",
+          "prompt": "〔第 47 題〕 {{blank}}",
+          "promptZh": "噢，這部電影永不落幕",
+          "options": [
+            "never stops",
+            "never ends",
+            "never dies"
+          ],
+          "answer": "never ends"
+        },
+        {
+          "number": 49,
+          "lineId": "line-23",
+          "prompt": "{{blank}}, and on, and on",
+          "promptZh": "這一切不斷延續，一再上演",
+          "options": [
+            "It goes on and on",
+            "It goes on and over",
+            "It goes on and out"
+          ],
+          "answer": "It goes on and on"
+        },
+        {
+          "number": 50,
+          "lineId": "line-30",
+          "prompt": "{{blank}}",
+          "promptZh": "別停止相信",
+          "options": [
+            "Don't stop believin'",
+            "Don't start believin'",
+            "Don't stop concealin'"
+          ],
+          "answer": "Don't stop believin'"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}} girl"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} in a {{q:4}} world"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}} {{q:6}} the {{q:7}} train {{q:8}} anywhere"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Just a {{q:9}} boy"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:10}} {{q:11}} {{q:12}} in South Detroit"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:13}} the midnight train {{q:14}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:15}} a {{q:16}} room"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "The {{q:17}} of {{q:18}} and {{q:19}} perfume"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:20}} {{q:21}} {{q:22}} the {{q:23}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "It goes {{q:24}}, and on, and on"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:25}} {{q:26}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:27}} the {{q:28}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Their {{q:29}} {{q:30}} in the night"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:31}} people"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:32}} {{q:33}} {{q:34}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:35}} somewhere in the night"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Workin' {{q:36}} to {{q:37}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:38}} wants a {{q:39}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:40}} to {{q:41}} {{q:42}} just one more time"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Some will {{q:43}}, some will lose"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:44}} {{q:45}} the {{q:46}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:47}} {{q:48}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:49}}, and on, and on"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Strangers waiting"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Up and down the boulevard"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Their shadows searching in the night"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Streetlight people"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Livin' just to find emotion"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Hidin' somewhere in the night"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:50}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Hold on to that feelin'"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Streetlight people"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Don't stop believin'"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Hold on"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Streetlight people"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Don't stop believin'"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Hold on to that feelin'"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Streetlight people"
+        }
+      ]
+    }
+  ],
+  "timingSource": {
+    "method": "faster-whisper-word-alignment-with-targeted-section-review",
+    "audioSha256": "6c8f053da54c9d152f047ce5d2d66158f98dc1be783145d6ebf38bb20653e420",
+    "duration": 250.21825
+  }
+}

@@ -1,0 +1,2946 @@
+{
+  "slug": "i-lay-my-love-on-you",
+  "title": "I Lay My Love On You",
+  "singer": "Westlife",
+  "exercise_name": "I Lay My Love On You · Listening & Vocabulary",
+  "description": "《I Lay My Love On You》描寫一段令人重新找到幸福與希望的真摯愛情。歌中的主角曾經迷失在孤獨之中，長時間無法放下過去，直到遇見心愛的人，生活才開始出現轉變。對方的一個微笑，便能驅散心中的陰霾，讓他重新感受到愛的溫暖與美好。他將愛人比喻為天使，因為她不但打開了他的心房，更讓他感到煥然一新，願意毫無保留地付出自己的愛。最終，《I Lay My Love On You》傳達的是愛情帶來的治癒、希望與重生：真正的愛能幫助人走出過去的傷痛，重新敞開心扉，勇敢迎接幸福。",
+  "tags": [
+    "westlife",
+    "i lay my love on you",
+    "love",
+    "devotion"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "Just a smile and the rain is gone",
+      "chinese": "只要一個微笑，雨便停了",
+      "startSeconds": 5.3,
+      "endSeconds": 9.42
+    },
+    {
+      "lineId": "line-2",
+      "english": "Can hardly believe it, yeah",
+      "chinese": "幾乎不敢相信，耶",
+      "startSeconds": 9.42,
+      "endSeconds": 14.78
+    },
+    {
+      "lineId": "line-3",
+      "english": "There's an angel standing next to me",
+      "chinese": "有一位天使站在我身旁",
+      "startSeconds": 14.78,
+      "endSeconds": 19.1
+    },
+    {
+      "lineId": "line-4",
+      "english": "Reaching for my heart",
+      "chinese": "觸及我的心",
+      "startSeconds": 19.1,
+      "endSeconds": 22.5
+    },
+    {
+      "lineId": "line-5",
+      "english": "Just a smile and there's no way back",
+      "chinese": "只要一個微笑，便已無退路",
+      "startSeconds": 23.98,
+      "endSeconds": 27.92
+    },
+    {
+      "lineId": "line-6",
+      "english": "Can hardly believe it, yeah",
+      "chinese": "幾乎不敢相信，耶",
+      "startSeconds": 28.9,
+      "endSeconds": 32.5
+    },
+    {
+      "lineId": "line-7",
+      "english": "But there's an angel calling me",
+      "chinese": "但有位天使在呼喚我",
+      "startSeconds": 32.5,
+      "endSeconds": 37.7
+    },
+    {
+      "lineId": "line-8",
+      "english": "Reaching for my heart",
+      "chinese": "觸及我的心",
+      "startSeconds": 37.7,
+      "endSeconds": 40.94
+    },
+    {
+      "lineId": "line-9",
+      "english": "I know that I'll be okay now",
+      "chinese": "我知道現在我會沒事的",
+      "startSeconds": 41.4,
+      "endSeconds": 44.9
+    },
+    {
+      "lineId": "line-10",
+      "english": "This time, it's real",
+      "chinese": "這一次，是真實的",
+      "startSeconds": 44.9,
+      "endSeconds": 48.02
+    },
+    {
+      "lineId": "line-11",
+      "english": "I lay my love on you, it's all I wanna do",
+      "chinese": "我將愛傾注於你，這是我唯一想做的事",
+      "startSeconds": 48.02,
+      "endSeconds": 53.02
+    },
+    {
+      "lineId": "line-12",
+      "english": "Every time I breathe, I feel brand new",
+      "chinese": "每次呼吸，我都感到煥然一新",
+      "startSeconds": 53.02,
+      "endSeconds": 57.04
+    },
+    {
+      "lineId": "line-13",
+      "english": "You open up my heart",
+      "chinese": "你敞開了我的心房",
+      "startSeconds": 57.04,
+      "endSeconds": 59.9
+    },
+    {
+      "lineId": "line-14",
+      "english": "Show me all your love and walk right through",
+      "chinese": "向我展現你全部的愛，並徑直走入",
+      "startSeconds": 60.38,
+      "endSeconds": 64.48
+    },
+    {
+      "lineId": "line-15",
+      "english": "As I lay my love on you",
+      "chinese": "當我將愛傾注於你",
+      "startSeconds": 65.26,
+      "endSeconds": 69.24
+    },
+    {
+      "lineId": "line-16",
+      "english": "I was lost in a lonely place",
+      "chinese": "我曾迷失在孤獨之地",
+      "startSeconds": 70.82,
+      "endSeconds": 74.38
+    },
+    {
+      "lineId": "line-17",
+      "english": "Could hardly believe it, yeah",
+      "chinese": "幾乎不敢相信，耶",
+      "startSeconds": 75.54,
+      "endSeconds": 80.74
+    },
+    {
+      "lineId": "line-18",
+      "english": "Holding on to yesterday",
+      "chinese": "執著於昨日",
+      "startSeconds": 80.74,
+      "endSeconds": 83.52
+    },
+    {
+      "lineId": "line-19",
+      "english": "Far, far too long",
+      "chinese": "實在太久、太久了",
+      "startSeconds": 83.52,
+      "endSeconds": 87.84
+    },
+    {
+      "lineId": "line-20",
+      "english": "I believe it's okay 'cause this time, it's real",
+      "chinese": "我相信一切沒問題，因為這一次，是真實的",
+      "startSeconds": 87.84,
+      "endSeconds": 94.76
+    },
+    {
+      "lineId": "line-21",
+      "english": "I lay my love on you, it's all I wanna do",
+      "chinese": "我將愛傾注於你，這是我唯一想做的事",
+      "startSeconds": 94.76,
+      "endSeconds": 99.86
+    },
+    {
+      "lineId": "line-22",
+      "english": "Every time I breathe, I feel brand new",
+      "chinese": "每次呼吸，我都感到煥然一新",
+      "startSeconds": 99.86,
+      "endSeconds": 103.68
+    },
+    {
+      "lineId": "line-23",
+      "english": "You open up my heart",
+      "chinese": "你敞開了我的心房",
+      "startSeconds": 103.68,
+      "endSeconds": 106.52
+    },
+    {
+      "lineId": "line-24",
+      "english": "Show me all your love and walk right through, oh yeah",
+      "chinese": "向我展現你全部的愛，並徑直走入，噢 耶",
+      "startSeconds": 106.98,
+      "endSeconds": 110.72
+    },
+    {
+      "lineId": "line-25",
+      "english": "As I lay my love on you",
+      "chinese": "當我將愛傾注於你",
+      "startSeconds": 111.74,
+      "endSeconds": 116.58
+    },
+    {
+      "lineId": "line-26",
+      "english": "I never knew that love could feel so good",
+      "chinese": "我從不知道愛能如此美好",
+      "startSeconds": 121.38,
+      "endSeconds": 126.4
+    },
+    {
+      "lineId": "line-27",
+      "english": "Like a once in a lifetime, you changed my world",
+      "chinese": "宛如一生一次的相遇，你改變了我的世界",
+      "startSeconds": 134.76,
+      "endSeconds": 141.54
+    },
+    {
+      "lineId": "line-28",
+      "english": "I lay my love on you",
+      "chinese": "我將愛傾注於你",
+      "startSeconds": 142.1,
+      "endSeconds": 145.68
+    },
+    {
+      "lineId": "line-29",
+      "english": "You make me feel brand new",
+      "chinese": "你讓我感到煥然一新",
+      "startSeconds": 145.68,
+      "endSeconds": 150.68
+    },
+    {
+      "lineId": "line-30",
+      "english": "Show me your love and walk right through, oh yeah",
+      "chinese": "向我展現你的愛，並徑直走入，噢耶",
+      "startSeconds": 151.2,
+      "endSeconds": 156.36
+    },
+    {
+      "lineId": "line-31",
+      "english": "As I lay my love on you",
+      "chinese": "當我將愛傾注於你",
+      "startSeconds": 156.36,
+      "endSeconds": 159.96
+    },
+    {
+      "lineId": "line-32",
+      "english": "I lay my love on you, it's all I wanna do",
+      "chinese": "我將愛傾注於你，這是我唯一想做的事",
+      "startSeconds": 159.96,
+      "endSeconds": 163.6
+    },
+    {
+      "lineId": "line-33",
+      "english": "Every time I breathe, I feel brand new (Brand, feel brand new)",
+      "chinese": "每次呼吸，我都感到煥然一新 （全新，感到煥然一新）",
+      "startSeconds": 163.6,
+      "endSeconds": 168.36
+    },
+    {
+      "lineId": "line-34",
+      "english": "You open up my heart",
+      "chinese": "你敞開了我的心房",
+      "startSeconds": 168.36,
+      "endSeconds": 170.62
+    },
+    {
+      "lineId": "line-35",
+      "english": "Show me all your love and walk right through",
+      "chinese": "向我展現你全部的愛，並徑直走入",
+      "startSeconds": 170.62,
+      "endSeconds": 175.6
+    },
+    {
+      "lineId": "line-36",
+      "english": "'Cause I lay my love, I lay my love on you",
+      "chinese": "因為我傾注我的愛，我將愛傾注於你",
+      "startSeconds": 176.76,
+      "endSeconds": 181.2
+    },
+    {
+      "lineId": "line-37",
+      "english": "I lay my love on you (Oh)",
+      "chinese": "我將愛傾注於你（噢）",
+      "startSeconds": 181.2,
+      "endSeconds": 184.28
+    },
+    {
+      "lineId": "line-38",
+      "english": "You make me feel brand new",
+      "chinese": "你讓我感到煥然一新",
+      "startSeconds": 184.8,
+      "endSeconds": 187.58
+    },
+    {
+      "lineId": "line-39",
+      "english": "You open up my heart",
+      "chinese": "你敞開了我的心房",
+      "startSeconds": 187.58,
+      "endSeconds": 189.28
+    },
+    {
+      "lineId": "line-40",
+      "english": "Show me all your love and walk right through",
+      "chinese": "向我展現你全部的愛，並徑直走入",
+      "startSeconds": 189.28,
+      "endSeconds": 193.5
+    },
+    {
+      "lineId": "line-41",
+      "english": "Oh yeah, as I lay my love on you",
+      "chinese": "噢耶，當我將愛傾注於你",
+      "startSeconds": 193.5,
+      "endSeconds": 198.36
+    },
+    {
+      "lineId": "line-42",
+      "english": "As I lay my love on you",
+      "chinese": "當我將愛傾注於你",
+      "startSeconds": 199.28,
+      "endSeconds": 203.76
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Hardly believe it",
+      "meaning": "幾乎不敢相信。",
+      "usage": "當事情讓你很驚訝，覺得像做夢一樣時使用。",
+      "prompt": "哪一句正確使用了「Hardly believe it」？",
+      "options": [
+        "I can hardly believe it! I got the job!",
+        "I hardly believe it my sandwich every day.",
+        "My cat is hardly believe it under the bed.",
+        "Please hardly believe it the window before bed."
+      ],
+      "answer": 0,
+      "explanation": "✅ 正確：得到工作讓人很驚訝，所以說幾乎不敢相信。",
+      "optionExplanations": [
+        "✅ 正確：得到工作讓人很驚訝，所以說幾乎不敢相信。",
+        "❌ 錯誤：不能把 hardly believe it 當作「吃三明治」的動作。可以說 I eat my sandwich every day.",
+        "❌ 錯誤：這不是形容貓的位置的片語。可以說 My cat is under the bed.",
+        "❌ 錯誤：不能用這個片語代替「關窗」。可以說 Please close the window."
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Next to",
+      "meaning": "在……旁邊。",
+      "usage": "表示兩個人或東西的位置很接近。",
+      "prompt": "哪一句正確使用了「Next to」？",
+      "options": [
+        "She next to her lunch at twelve.",
+        "The dog is sleeping next to my chair.",
+        "I next to my homework after dinner.",
+        "He is next to happy about his birthday."
+      ],
+      "answer": 1,
+      "explanation": "✅ 正確：狗睡在椅子旁邊。",
+      "optionExplanations": [
+        "❌ 錯誤：next to 不是「吃」的意思。可以說 She eats her lunch at twelve.",
+        "✅ 正確：狗睡在椅子旁邊。",
+        "❌ 錯誤：next to 不能當作「做功課」的動詞。可以說 I do my homework.",
+        "❌ 錯誤：next to 通常接位置或名詞，不能這樣表示「非常開心」。可以說 He is very happy."
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Reach for",
+      "meaning": "伸手去拿、去碰某物。",
+      "usage": "看到想拿的東西，伸出手去拿時使用；也可以有比喻意思。",
+      "prompt": "哪一句正確使用了「Reach for」？",
+      "options": [
+        "I reach for happy when I see cake.",
+        "She reached for the bus by singing.",
+        "The baby reached for the toy on the table.",
+        "They reach for their shoes with breakfast."
+      ],
+      "answer": 2,
+      "explanation": "✅ 正確：寶寶伸手想拿桌上的玩具。",
+      "optionExplanations": [
+        "❌ 錯誤：happy 不是可以伸手拿的東西。可以說 I feel happy when I see cake.",
+        "❌ 錯誤：搭公車通常說 take the bus，不是 reach for the bus。",
+        "✅ 正確：寶寶伸手想拿桌上的玩具。",
+        "❌ 錯誤：句子的情境不清楚，with breakfast 不能自然表達拿鞋的原因。可以說 They put on their shoes after breakfast."
+      ]
+    },
+    {
+      "number": 4,
+      "word": "No way back",
+      "meaning": "無法回頭、沒有退路。",
+      "usage": "做了重要決定或發生某件事後，無法回到以前的狀態時使用。",
+      "prompt": "哪一句正確使用了「No way back」？",
+      "options": [
+        "There is no way back to yesterday, so let’s enjoy today.",
+        "My way back is drinking orange juice.",
+        "I no way back my phone in the kitchen.",
+        "The cake is no way back because it is chocolate."
+      ],
+      "answer": 0,
+      "explanation": "✅ 正確：無法回到昨天，是「沒有回頭路」的意思。",
+      "optionExplanations": [
+        "✅ 正確：無法回到昨天，是「沒有回頭路」的意思。",
+        "❌ 錯誤：way back 不能這樣表示喝果汁。可以說 I am drinking orange juice.",
+        "❌ 錯誤：no way back 不是「把手機放回去」的動詞。可以說 I put my phone back.",
+        "❌ 錯誤：蛋糕的口味和「無法回頭」沒有關係。可以說 The cake is chocolate."
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Be okay",
+      "meaning": "會沒事、情況還好。",
+      "usage": "安慰自己或別人，告訴對方事情會好起來時使用。",
+      "prompt": "哪一句正確使用了「Be okay」？",
+      "options": [
+        "I will be okay my shoes before school.",
+        "Don’t worry. You will be okay after some rest.",
+        "The bus be okay to the supermarket.",
+        "She is okay a book in her room."
+      ],
+      "answer": 1,
+      "explanation": "✅ 正確：用來安慰別人休息後會好一些。",
+      "optionExplanations": [
+        "❌ 錯誤：be okay 不能代替「穿鞋」。可以說 I will put on my shoes.",
+        "✅ 正確：用來安慰別人休息後會好一些。",
+        "❌ 錯誤：be okay 不是「開去某處」。可以說 The bus goes to the supermarket.",
+        "❌ 錯誤：be okay 不能直接代替「讀書」。可以說 She is reading a book."
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Brand new",
+      "meaning": "全新的；也可形容感覺煥然一新。",
+      "usage": "說剛買的新東西，或經過改變後有全新感受時使用。",
+      "prompt": "哪一句正確使用了「Brand new」？",
+      "options": [
+        "I brand new my dinner at six.",
+        "He walked brand new to the park.",
+        "These shoes are brand new. I bought them today.",
+        "My sister is brand new at playing the piano every day."
+      ],
+      "answer": 2,
+      "explanation": "✅ 正確：今天才買的鞋子是全新的。",
+      "optionExplanations": [
+        "❌ 錯誤：brand new 不是「煮晚餐」的動詞。可以說 I cook dinner at six.",
+        "❌ 錯誤：brand new 不能這樣形容走路方式。可以說 He walked slowly to the park.",
+        "✅ 正確：今天才買的鞋子是全新的。",
+        "❌ 錯誤：brand new 不能這樣表示「每天練鋼琴」。可以說 My sister plays the piano every day."
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Open up",
+      "meaning": "打開；敞開心房。",
+      "usage": "可以用於打開東西，也可說一個人開始分享自己的感受。",
+      "prompt": "哪一句正確使用了「Open up」？",
+      "options": [
+        "I open up the soup with a spoon every day.",
+        "She opens up blue when the sky is clear.",
+        "My dad opened up his shoes to run faster.",
+        "He was shy, but he opened up and told me how he felt."
+      ],
+      "answer": 3,
+      "explanation": "✅ 正確：他原本害羞，後來願意說出自己的感受。",
+      "optionExplanations": [
+        "❌ 錯誤：這裡要說「喝湯」或「吃湯」，不能用 open up。可以說 I eat soup with a spoon.",
+        "❌ 錯誤：open up 不能代替「變藍」。可以說 The sky is blue.",
+        "❌ 錯誤：open up his shoes 不是自然的「跑得更快」表達。可以說 My dad put on his running shoes.",
+        "✅ 正確：他原本害羞，後來願意說出自己的感受。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Hold on to",
+      "meaning": "抓住、不放開；也可指不願放下回憶。",
+      "usage": "手抓緊東西，或在心裡留住某件重要的事時使用。",
+      "prompt": "哪一句正確使用了「Hold on to」？",
+      "options": [
+        "Hold on to the wall if you feel tired.",
+        "I hold on to breakfast because I am hungry.",
+        "She held on to very happy yesterday.",
+        "We hold on to the rain so the sun comes out."
+      ],
+      "answer": 0,
+      "explanation": "✅ 正確：覺得累時可以扶著牆，表示抓住不放。",
+      "optionExplanations": [
+        "✅ 正確：覺得累時可以扶著牆，表示抓住不放。",
+        "❌ 錯誤：hold on to 不是「吃早餐」的意思。可以說 I eat breakfast.",
+        "❌ 錯誤：不能直接接 very happy 這樣的形容詞片語。可以說 She was very happy.",
+        "❌ 錯誤：不能用手抓住雨來讓太陽出來。可以說 We wait for the rain to stop."
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Too long",
+      "meaning": "太久；時間長得超過需要。",
+      "usage": "等待或做一件事花太多時間時使用。",
+      "prompt": "哪一句正確使用了「Too long」？",
+      "options": [
+        "My lunch is too long because it is red.",
+        "I waited too long, and the shop closed.",
+        "She too long her new dress to the party.",
+        "We went too long the park after lunch."
+      ],
+      "answer": 1,
+      "explanation": "✅ 正確：等了太久，所以商店關門了。",
+      "optionExplanations": [
+        "❌ 錯誤：午餐是紅色和時間太久沒有直接關係。可以說 My lunch is red.",
+        "✅ 正確：等了太久，所以商店關門了。",
+        "❌ 錯誤：too long 不是「穿」的動詞。可以說 She wore her new dress.",
+        "❌ 錯誤：不能用 too long 代替介系詞 to。可以說 We went to the park."
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Once in a lifetime",
+      "meaning": "一生難得一次的。",
+      "usage": "形容很特別、可能一輩子只會遇到一次的經驗或機會。",
+      "prompt": "哪一句正確使用了「Once in a lifetime」？",
+      "options": [
+        "I eat once in a lifetime every morning at seven.",
+        "My pencil once in a lifetime under the desk.",
+        "Seeing my favorite singer on stage was a once-in-a-lifetime experience.",
+        "He once in a lifetime his bag to school."
+      ],
+      "answer": 2,
+      "explanation": "✅ 正確：親眼看最喜歡的歌手演出，是非常難得的經驗。",
+      "optionExplanations": [
+        "❌ 錯誤：一生一次和每天早上互相矛盾。可以說 I eat breakfast every morning.",
+        "❌ 錯誤：這個片語不是「在桌子下」的意思。可以說 My pencil is under the desk.",
+        "✅ 正確：親眼看最喜歡的歌手演出，是非常難得的經驗。",
+        "❌ 錯誤：once in a lifetime 不是動詞，不能代替「帶書包」。可以說 He took his bag to school."
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/i-lay-my-love-on-you/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/i-lay-my-love-on-you/cover.webp",
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Just a smile and the {{blank}}",
+          "promptZh": "只要一個微笑，雨便停了",
+          "options": [
+            "rain is gone",
+            "pain is gone",
+            "rain has gone"
+          ],
+          "answer": "rain is gone"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Can {{blank}}, yeah",
+          "promptZh": "幾乎不敢相信，耶",
+          "options": [
+            "hardly believe it",
+            "barely believe it",
+            "hardly see it"
+          ],
+          "answer": "hardly believe it"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "There's an angel {{blank}}",
+          "promptZh": "有一位天使站在我身旁",
+          "options": [
+            "standing right by me",
+            "waiting next to me",
+            "standing next to me"
+          ],
+          "answer": "standing next to me"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "{{blank}} my heart",
+          "promptZh": "觸及我的心",
+          "options": [
+            "Reaching for",
+            "Searching for",
+            "Calling for"
+          ],
+          "answer": "Reaching for"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "Just a smile and there's {{blank}}",
+          "promptZh": "只要一個微笑，便已無退路",
+          "options": [
+            "no way back",
+            "no turning back",
+            "no going back"
+          ],
+          "answer": "no way back"
+        },
+        {
+          "number": 6,
+          "lineId": "line-7",
+          "prompt": "But there's an {{blank}}",
+          "promptZh": "但有位天使在呼喚我",
+          "options": [
+            "angel next to me",
+            "angel waiting for me",
+            "angel calling me"
+          ],
+          "answer": "angel calling me"
+        },
+        {
+          "number": 7,
+          "lineId": "line-9",
+          "prompt": "I know that I'll {{blank}}",
+          "promptZh": "我知道現在我會沒事的",
+          "options": [
+            "be okay now",
+            "be fine now",
+            "be alright now"
+          ],
+          "answer": "be okay now"
+        },
+        {
+          "number": 8,
+          "lineId": "line-10",
+          "prompt": "This time, {{blank}}",
+          "promptZh": "這一次，是真實的",
+          "options": [
+            "it's real",
+            "it's true",
+            "it's right"
+          ],
+          "answer": "it's real"
+        },
+        {
+          "number": 9,
+          "lineId": "line-11",
+          "prompt": "I {{blank}}, it's all I 〔第 10 題〕",
+          "promptZh": "我將愛傾注於你，這是我唯一想做的事",
+          "options": [
+            "give my love to you",
+            "lay my love on you",
+            "put my love on you"
+          ],
+          "answer": "lay my love on you"
+        },
+        {
+          "number": 10,
+          "lineId": "line-11",
+          "prompt": "I 〔第 9 題〕, it's all I {{blank}}",
+          "promptZh": "我將愛傾注於你，這是我唯一想做的事",
+          "options": [
+            "wanna do",
+            "want to do",
+            "need to do"
+          ],
+          "answer": "wanna do"
+        },
+        {
+          "number": 11,
+          "lineId": "line-12",
+          "prompt": "Every time I {{blank}}, I feel 〔第 12 題〕",
+          "promptZh": "每次呼吸，我都感到煥然一新",
+          "options": [
+            "breathe",
+            "speak",
+            "move"
+          ],
+          "answer": "breathe"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "Every time I 〔第 11 題〕, I feel {{blank}}",
+          "promptZh": "每次呼吸，我都感到煥然一新",
+          "options": [
+            "so new",
+            "brand new",
+            "fresh and new"
+          ],
+          "answer": "brand new"
+        },
+        {
+          "number": 13,
+          "lineId": "line-13",
+          "prompt": "You {{blank}} my heart",
+          "promptZh": "你敞開了我的心房",
+          "options": [
+            "open up",
+            "break open",
+            "give up"
+          ],
+          "answer": "open up"
+        },
+        {
+          "number": 14,
+          "lineId": "line-14",
+          "prompt": "Show me all your love and {{blank}}",
+          "promptZh": "向我展現你全部的愛，並徑直走入",
+          "options": [
+            "walk right through",
+            "come right through",
+            "walk on through"
+          ],
+          "answer": "walk right through"
+        },
+        {
+          "number": 15,
+          "lineId": "line-16",
+          "prompt": "I was {{blank}} a 〔第 16 題〕",
+          "promptZh": "我曾迷失在孤獨之地",
+          "options": [
+            "caught in",
+            "trapped in",
+            "lost in"
+          ],
+          "answer": "lost in"
+        },
+        {
+          "number": 16,
+          "lineId": "line-16",
+          "prompt": "I was 〔第 15 題〕 a {{blank}}",
+          "promptZh": "我曾迷失在孤獨之地",
+          "options": [
+            "lonely place",
+            "dark place",
+            "quiet place"
+          ],
+          "answer": "lonely place"
+        },
+        {
+          "number": 17,
+          "lineId": "line-18",
+          "prompt": "{{blank}} to yesterday",
+          "promptZh": "執著於昨日",
+          "options": [
+            "Holding on",
+            "Holding out",
+            "Holding back"
+          ],
+          "answer": "Holding on"
+        },
+        {
+          "number": 18,
+          "lineId": "line-19",
+          "prompt": "Far, far {{blank}}",
+          "promptZh": "實在太久、太久了",
+          "options": [
+            "so long",
+            "too long",
+            "too far"
+          ],
+          "answer": "too long"
+        },
+        {
+          "number": 19,
+          "lineId": "line-26",
+          "prompt": "I never knew that love could {{blank}}",
+          "promptZh": "我從不知道愛能如此美好",
+          "options": [
+            "feel so good",
+            "be so good",
+            "feel so right"
+          ],
+          "answer": "feel so good"
+        },
+        {
+          "number": 20,
+          "lineId": "line-27",
+          "prompt": "Like a once in a lifetime, you {{blank}}",
+          "promptZh": "宛如一生一次的相遇，你改變了我的世界",
+          "options": [
+            "changed my world",
+            "changed my life",
+            "changed my mind"
+          ],
+          "answer": "changed my world"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Just a smile and the {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Can {{q:2}}, yeah"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "There's an angel {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:4}} my heart"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Just a smile and there's {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Can hardly believe it, yeah"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "But there's an {{q:6}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Reaching for my heart"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I know that I'll {{q:7}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "This time, {{q:8}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I {{q:9}}, it's all I {{q:10}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Every time I {{q:11}}, I feel {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "You {{q:13}} my heart"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Show me all your love and {{q:14}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "As I lay my love on you"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I was {{q:15}} a {{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Could hardly believe it, yeah"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:17}} to yesterday"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Far, far {{q:18}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I believe it's okay 'cause this time, it's real"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I lay my love on you, it's all I wanna do"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Every time I breathe, I feel brand new"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You open up my heart"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Show me all your love and walk right through, oh yeah"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "As I lay my love on you"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I never knew that love could {{q:19}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Like a once in a lifetime, you {{q:20}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I lay my love on you"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "You make me feel brand new"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Show me your love and walk right through, oh yeah"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "As I lay my love on you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I lay my love on you, it's all I wanna do"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Every time I breathe, I feel brand new (Brand, feel brand new)"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "You open up my heart"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Show me all your love and walk right through"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "'Cause I lay my love, I lay my love on you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "I lay my love on you (Oh)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "You make me feel brand new"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "You open up my heart"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Show me all your love and walk right through"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Oh yeah, as I lay my love on you"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "As I lay my love on you"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} and the 〔第 2 題〕",
+          "promptZh": "只要一個微笑，雨便停了",
+          "options": [
+            "Just a smile",
+            "Only a smile",
+            "Just one smile"
+          ],
+          "answer": "Just a smile"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 and the {{blank}}",
+          "promptZh": "只要一個微笑，雨便停了",
+          "options": [
+            "rain is gone",
+            "pain is gone",
+            "rain has gone"
+          ],
+          "answer": "rain is gone"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Can {{blank}}, yeah",
+          "promptZh": "幾乎不敢相信，耶",
+          "options": [
+            "hardly see it",
+            "barely believe it",
+            "hardly believe it"
+          ],
+          "answer": "hardly believe it"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "{{blank}} 〔第 5 題〕",
+          "promptZh": "有一位天使站在我身旁",
+          "options": [
+            "There's an angel",
+            "There is an angel",
+            "Here's an angel"
+          ],
+          "answer": "There's an angel"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "〔第 4 題〕 {{blank}}",
+          "promptZh": "有一位天使站在我身旁",
+          "options": [
+            "standing next to me",
+            "waiting next to me",
+            "standing right by me"
+          ],
+          "answer": "standing next to me"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "{{blank}} my heart",
+          "promptZh": "觸及我的心",
+          "options": [
+            "Calling for",
+            "Searching for",
+            "Reaching for"
+          ],
+          "answer": "Reaching for"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "Just a smile and {{blank}} 〔第 8 題〕",
+          "promptZh": "只要一個微笑，便已無退路",
+          "options": [
+            "there's",
+            "there are",
+            "there was"
+          ],
+          "answer": "there's"
+        },
+        {
+          "number": 8,
+          "lineId": "line-5",
+          "prompt": "Just a smile and 〔第 7 題〕 {{blank}}",
+          "promptZh": "只要一個微笑，便已無退路",
+          "options": [
+            "no way back",
+            "no turning back",
+            "no going back"
+          ],
+          "answer": "no way back"
+        },
+        {
+          "number": 9,
+          "lineId": "line-6",
+          "prompt": "{{blank}} believe it, yeah",
+          "promptZh": "幾乎不敢相信，耶",
+          "options": [
+            "Can barely",
+            "Could hardly",
+            "Can hardly"
+          ],
+          "answer": "Can hardly"
+        },
+        {
+          "number": 10,
+          "lineId": "line-7",
+          "prompt": "{{blank}} an 〔第 11 題〕",
+          "promptZh": "但有位天使在呼喚我",
+          "options": [
+            "But there's",
+            "And there's",
+            "Yet there's"
+          ],
+          "answer": "But there's"
+        },
+        {
+          "number": 11,
+          "lineId": "line-7",
+          "prompt": "〔第 10 題〕 an {{blank}}",
+          "promptZh": "但有位天使在呼喚我",
+          "options": [
+            "angel calling me",
+            "angel waiting for me",
+            "angel next to me"
+          ],
+          "answer": "angel calling me"
+        },
+        {
+          "number": 12,
+          "lineId": "line-8",
+          "prompt": "{{blank}}",
+          "promptZh": "觸及我的心",
+          "options": [
+            "Reaching to my heart",
+            "Reaching for your heart",
+            "Reaching for my heart"
+          ],
+          "answer": "Reaching for my heart"
+        },
+        {
+          "number": 13,
+          "lineId": "line-9",
+          "prompt": "{{blank}} I'll 〔第 14 題〕",
+          "promptZh": "我知道現在我會沒事的",
+          "options": [
+            "I know that",
+            "I know I'll",
+            "I feel that"
+          ],
+          "answer": "I know that"
+        },
+        {
+          "number": 14,
+          "lineId": "line-9",
+          "prompt": "〔第 13 題〕 I'll {{blank}}",
+          "promptZh": "我知道現在我會沒事的",
+          "options": [
+            "be okay now",
+            "be fine now",
+            "be alright now"
+          ],
+          "answer": "be okay now"
+        },
+        {
+          "number": 15,
+          "lineId": "line-10",
+          "prompt": "This time, {{blank}}",
+          "promptZh": "這一次，是真實的",
+          "options": [
+            "it's true",
+            "it's real",
+            "it's right"
+          ],
+          "answer": "it's real"
+        },
+        {
+          "number": 16,
+          "lineId": "line-11",
+          "prompt": "I {{blank}}, it's all I 〔第 17 題〕",
+          "promptZh": "我將愛傾注於你，這是我唯一想做的事",
+          "options": [
+            "lay my love on you",
+            "give my love to you",
+            "put my love on you"
+          ],
+          "answer": "lay my love on you"
+        },
+        {
+          "number": 17,
+          "lineId": "line-11",
+          "prompt": "I 〔第 16 題〕, it's all I {{blank}}",
+          "promptZh": "我將愛傾注於你，這是我唯一想做的事",
+          "options": [
+            "wanna do",
+            "want to do",
+            "need to do"
+          ],
+          "answer": "wanna do"
+        },
+        {
+          "number": 18,
+          "lineId": "line-12",
+          "prompt": "{{blank}} I 〔第 19 題〕, I feel 〔第 20 題〕",
+          "promptZh": "每次呼吸，我都感到煥然一新",
+          "options": [
+            "Every time that",
+            "Each time",
+            "Every time"
+          ],
+          "answer": "Every time"
+        },
+        {
+          "number": 19,
+          "lineId": "line-12",
+          "prompt": "〔第 18 題〕 I {{blank}}, I feel 〔第 20 題〕",
+          "promptZh": "每次呼吸，我都感到煥然一新",
+          "options": [
+            "breathe",
+            "speak",
+            "move"
+          ],
+          "answer": "breathe"
+        },
+        {
+          "number": 20,
+          "lineId": "line-12",
+          "prompt": "〔第 18 題〕 I 〔第 19 題〕, I feel {{blank}}",
+          "promptZh": "每次呼吸，我都感到煥然一新",
+          "options": [
+            "brand new",
+            "so new",
+            "fresh and new"
+          ],
+          "answer": "brand new"
+        },
+        {
+          "number": 21,
+          "lineId": "line-13",
+          "prompt": "You {{blank}} my heart",
+          "promptZh": "你敞開了我的心房",
+          "options": [
+            "break open",
+            "open up",
+            "give up"
+          ],
+          "answer": "open up"
+        },
+        {
+          "number": 22,
+          "lineId": "line-14",
+          "prompt": "{{blank}} your love and 〔第 23 題〕",
+          "promptZh": "向我展現你全部的愛，並徑直走入",
+          "options": [
+            "Show me all",
+            "Give me all",
+            "Show me your"
+          ],
+          "answer": "Show me all"
+        },
+        {
+          "number": 23,
+          "lineId": "line-14",
+          "prompt": "〔第 22 題〕 your love and {{blank}}",
+          "promptZh": "向我展現你全部的愛，並徑直走入",
+          "options": [
+            "walk right through",
+            "come right through",
+            "walk on through"
+          ],
+          "answer": "walk right through"
+        },
+        {
+          "number": 24,
+          "lineId": "line-16",
+          "prompt": "I {{blank}} 〔第 25 題〕 a 〔第 26 題〕",
+          "promptZh": "我曾迷失在孤獨之地",
+          "options": [
+            "am",
+            "was",
+            "felt"
+          ],
+          "answer": "was"
+        },
+        {
+          "number": 25,
+          "lineId": "line-16",
+          "prompt": "I 〔第 24 題〕 {{blank}} a 〔第 26 題〕",
+          "promptZh": "我曾迷失在孤獨之地",
+          "options": [
+            "lost in",
+            "trapped in",
+            "caught in"
+          ],
+          "answer": "lost in"
+        },
+        {
+          "number": 26,
+          "lineId": "line-16",
+          "prompt": "I 〔第 24 題〕 〔第 25 題〕 a {{blank}}",
+          "promptZh": "我曾迷失在孤獨之地",
+          "options": [
+            "lonely place",
+            "dark place",
+            "quiet place"
+          ],
+          "answer": "lonely place"
+        },
+        {
+          "number": 27,
+          "lineId": "line-18",
+          "prompt": "{{blank}} to yesterday",
+          "promptZh": "執著於昨日",
+          "options": [
+            "Holding back",
+            "Holding out",
+            "Holding on"
+          ],
+          "answer": "Holding on"
+        },
+        {
+          "number": 28,
+          "lineId": "line-19",
+          "prompt": "Far, far {{blank}}",
+          "promptZh": "實在太久、太久了",
+          "options": [
+            "too long",
+            "so long",
+            "too far"
+          ],
+          "answer": "too long"
+        },
+        {
+          "number": 29,
+          "lineId": "line-20",
+          "prompt": "{{blank}} 'cause this time, it's real",
+          "promptZh": "我相信一切沒問題，因為這一次，是真實的",
+          "options": [
+            "I believe it's okay",
+            "I believe it is okay",
+            "I know it's okay"
+          ],
+          "answer": "I believe it's okay"
+        },
+        {
+          "number": 30,
+          "lineId": "line-21",
+          "prompt": "I lay my love on you, it's {{blank}} do",
+          "promptZh": "我將愛傾注於你，這是我唯一想做的事",
+          "options": [
+            "all I want to",
+            "all that I wanna",
+            "all I wanna"
+          ],
+          "answer": "all I wanna"
+        },
+        {
+          "number": 31,
+          "lineId": "line-26",
+          "prompt": "I never knew that love could {{blank}}",
+          "promptZh": "我從不知道愛能如此美好",
+          "options": [
+            "feel so good",
+            "be so good",
+            "feel so right"
+          ],
+          "answer": "feel so good"
+        },
+        {
+          "number": 32,
+          "lineId": "line-27",
+          "prompt": "Like a once in a lifetime, you {{blank}}",
+          "promptZh": "宛如一生一次的相遇，你改變了我的世界",
+          "options": [
+            "changed my world",
+            "changed my life",
+            "changed my mind"
+          ],
+          "answer": "changed my world"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} and the {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Can {{q:3}}, yeah"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:4}} {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:6}} my heart"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Just a smile and {{q:7}} {{q:8}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:9}} believe it, yeah"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:10}} an {{q:11}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:12}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:13}} I'll {{q:14}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "This time, {{q:15}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I {{q:16}}, it's all I {{q:17}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:18}} I {{q:19}}, I feel {{q:20}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "You {{q:21}} my heart"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:22}} your love and {{q:23}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "As I lay my love on you"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I {{q:24}} {{q:25}} a {{q:26}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Could hardly believe it, yeah"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:27}} to yesterday"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Far, far {{q:28}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:29}} 'cause this time, it's real"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I lay my love on you, it's {{q:30}} do"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Every time I breathe, I feel brand new"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You open up my heart"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Show me all your love and walk right through, oh yeah"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "As I lay my love on you"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I never knew that love could {{q:31}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Like a once in a lifetime, you {{q:32}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I lay my love on you"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "You make me feel brand new"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Show me your love and walk right through, oh yeah"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "As I lay my love on you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I lay my love on you, it's all I wanna do"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Every time I breathe, I feel brand new (Brand, feel brand new)"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "You open up my heart"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Show me all your love and walk right through"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "'Cause I lay my love, I lay my love on you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "I lay my love on you (Oh)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "You make me feel brand new"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "You open up my heart"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Show me all your love and walk right through"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Oh yeah, as I lay my love on you"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "As I lay my love on you"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} and the 〔第 2 題〕",
+          "promptZh": "只要一個微笑，雨便停了",
+          "options": [
+            "Just a smile",
+            "Only a smile",
+            "Just one smile"
+          ],
+          "answer": "Just a smile"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 and the {{blank}}",
+          "promptZh": "只要一個微笑，雨便停了",
+          "options": [
+            "rain is gone",
+            "pain is gone",
+            "rain has gone"
+          ],
+          "answer": "rain is gone"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Can {{blank}}, yeah",
+          "promptZh": "幾乎不敢相信，耶",
+          "options": [
+            "barely believe it",
+            "hardly believe it",
+            "hardly see it"
+          ],
+          "answer": "hardly believe it"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "{{blank}} 〔第 5 題〕",
+          "promptZh": "有一位天使站在我身旁",
+          "options": [
+            "There's an angel",
+            "There is an angel",
+            "Here's an angel"
+          ],
+          "answer": "There's an angel"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "〔第 4 題〕 {{blank}}",
+          "promptZh": "有一位天使站在我身旁",
+          "options": [
+            "standing next to me",
+            "waiting next to me",
+            "standing right by me"
+          ],
+          "answer": "standing next to me"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "{{blank}} my heart",
+          "promptZh": "觸及我的心",
+          "options": [
+            "Calling for",
+            "Searching for",
+            "Reaching for"
+          ],
+          "answer": "Reaching for"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "{{blank}} 〔第 8 題〕 〔第 9 題〕",
+          "promptZh": "只要一個微笑，便已無退路",
+          "options": [
+            "Just a smile and",
+            "Just a smile that",
+            "Only a smile and"
+          ],
+          "answer": "Just a smile and"
+        },
+        {
+          "number": 8,
+          "lineId": "line-5",
+          "prompt": "〔第 7 題〕 {{blank}} 〔第 9 題〕",
+          "promptZh": "只要一個微笑，便已無退路",
+          "options": [
+            "there's",
+            "there are",
+            "there was"
+          ],
+          "answer": "there's"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "〔第 7 題〕 〔第 8 題〕 {{blank}}",
+          "promptZh": "只要一個微笑，便已無退路",
+          "options": [
+            "no turning back",
+            "no way back",
+            "no going back"
+          ],
+          "answer": "no way back"
+        },
+        {
+          "number": 10,
+          "lineId": "line-6",
+          "prompt": "{{blank}} believe it, yeah",
+          "promptZh": "幾乎不敢相信，耶",
+          "options": [
+            "Can hardly",
+            "Could hardly",
+            "Can barely"
+          ],
+          "answer": "Can hardly"
+        },
+        {
+          "number": 11,
+          "lineId": "line-7",
+          "prompt": "{{blank}} an 〔第 12 題〕",
+          "promptZh": "但有位天使在呼喚我",
+          "options": [
+            "But there's",
+            "And there's",
+            "Yet there's"
+          ],
+          "answer": "But there's"
+        },
+        {
+          "number": 12,
+          "lineId": "line-7",
+          "prompt": "〔第 11 題〕 an {{blank}}",
+          "promptZh": "但有位天使在呼喚我",
+          "options": [
+            "angel waiting for me",
+            "angel calling me",
+            "angel next to me"
+          ],
+          "answer": "angel calling me"
+        },
+        {
+          "number": 13,
+          "lineId": "line-8",
+          "prompt": "{{blank}}",
+          "promptZh": "觸及我的心",
+          "options": [
+            "Reaching for my heart",
+            "Reaching for your heart",
+            "Reaching to my heart"
+          ],
+          "answer": "Reaching for my heart"
+        },
+        {
+          "number": 14,
+          "lineId": "line-9",
+          "prompt": "{{blank}} I'll 〔第 15 題〕",
+          "promptZh": "我知道現在我會沒事的",
+          "options": [
+            "I know that",
+            "I know I'll",
+            "I feel that"
+          ],
+          "answer": "I know that"
+        },
+        {
+          "number": 15,
+          "lineId": "line-9",
+          "prompt": "〔第 14 題〕 I'll {{blank}}",
+          "promptZh": "我知道現在我會沒事的",
+          "options": [
+            "be fine now",
+            "be okay now",
+            "be alright now"
+          ],
+          "answer": "be okay now"
+        },
+        {
+          "number": 16,
+          "lineId": "line-10",
+          "prompt": "{{blank}}, 〔第 17 題〕",
+          "promptZh": "這一次，是真實的",
+          "options": [
+            "This time",
+            "Next time",
+            "This moment"
+          ],
+          "answer": "This time"
+        },
+        {
+          "number": 17,
+          "lineId": "line-10",
+          "prompt": "〔第 16 題〕, {{blank}}",
+          "promptZh": "這一次，是真實的",
+          "options": [
+            "it's real",
+            "it's true",
+            "it's right"
+          ],
+          "answer": "it's real"
+        },
+        {
+          "number": 18,
+          "lineId": "line-11",
+          "prompt": "I {{blank}}, it's all I 〔第 19 題〕",
+          "promptZh": "我將愛傾注於你，這是我唯一想做的事",
+          "options": [
+            "put my love on you",
+            "give my love to you",
+            "lay my love on you"
+          ],
+          "answer": "lay my love on you"
+        },
+        {
+          "number": 19,
+          "lineId": "line-11",
+          "prompt": "I 〔第 18 題〕, it's all I {{blank}}",
+          "promptZh": "我將愛傾注於你，這是我唯一想做的事",
+          "options": [
+            "wanna do",
+            "want to do",
+            "need to do"
+          ],
+          "answer": "wanna do"
+        },
+        {
+          "number": 20,
+          "lineId": "line-12",
+          "prompt": "{{blank}} I 〔第 21 題〕, I feel 〔第 22 題〕",
+          "promptZh": "每次呼吸，我都感到煥然一新",
+          "options": [
+            "Every time",
+            "Each time",
+            "Every time that"
+          ],
+          "answer": "Every time"
+        },
+        {
+          "number": 21,
+          "lineId": "line-12",
+          "prompt": "〔第 20 題〕 I {{blank}}, I feel 〔第 22 題〕",
+          "promptZh": "每次呼吸，我都感到煥然一新",
+          "options": [
+            "move",
+            "speak",
+            "breathe"
+          ],
+          "answer": "breathe"
+        },
+        {
+          "number": 22,
+          "lineId": "line-12",
+          "prompt": "〔第 20 題〕 I 〔第 21 題〕, I feel {{blank}}",
+          "promptZh": "每次呼吸，我都感到煥然一新",
+          "options": [
+            "brand new",
+            "so new",
+            "fresh and new"
+          ],
+          "answer": "brand new"
+        },
+        {
+          "number": 23,
+          "lineId": "line-13",
+          "prompt": "You {{blank}} my heart",
+          "promptZh": "你敞開了我的心房",
+          "options": [
+            "open up",
+            "break open",
+            "give up"
+          ],
+          "answer": "open up"
+        },
+        {
+          "number": 24,
+          "lineId": "line-14",
+          "prompt": "{{blank}} your love and 〔第 25 題〕",
+          "promptZh": "向我展現你全部的愛，並徑直走入",
+          "options": [
+            "Show me your",
+            "Give me all",
+            "Show me all"
+          ],
+          "answer": "Show me all"
+        },
+        {
+          "number": 25,
+          "lineId": "line-14",
+          "prompt": "〔第 24 題〕 your love and {{blank}}",
+          "promptZh": "向我展現你全部的愛，並徑直走入",
+          "options": [
+            "walk right through",
+            "come right through",
+            "walk on through"
+          ],
+          "answer": "walk right through"
+        },
+        {
+          "number": 26,
+          "lineId": "line-15",
+          "prompt": "As {{blank}}",
+          "promptZh": "當我將愛傾注於你",
+          "options": [
+            "I lay my love on you",
+            "I give my love to you",
+            "I pour my love on you"
+          ],
+          "answer": "I lay my love on you"
+        },
+        {
+          "number": 27,
+          "lineId": "line-16",
+          "prompt": "I {{blank}} 〔第 28 題〕 a 〔第 29 題〕",
+          "promptZh": "我曾迷失在孤獨之地",
+          "options": [
+            "felt",
+            "am",
+            "was"
+          ],
+          "answer": "was"
+        },
+        {
+          "number": 28,
+          "lineId": "line-16",
+          "prompt": "I 〔第 27 題〕 {{blank}} a 〔第 29 題〕",
+          "promptZh": "我曾迷失在孤獨之地",
+          "options": [
+            "lost in",
+            "trapped in",
+            "caught in"
+          ],
+          "answer": "lost in"
+        },
+        {
+          "number": 29,
+          "lineId": "line-16",
+          "prompt": "I 〔第 27 題〕 〔第 28 題〕 a {{blank}}",
+          "promptZh": "我曾迷失在孤獨之地",
+          "options": [
+            "lonely place",
+            "dark place",
+            "quiet place"
+          ],
+          "answer": "lonely place"
+        },
+        {
+          "number": 30,
+          "lineId": "line-17",
+          "prompt": "{{blank}}, yeah",
+          "promptZh": "幾乎不敢相信，耶",
+          "options": [
+            "Would hardly believe it",
+            "Can hardly believe it",
+            "Could hardly believe it"
+          ],
+          "answer": "Could hardly believe it"
+        },
+        {
+          "number": 31,
+          "lineId": "line-18",
+          "prompt": "{{blank}} to yesterday",
+          "promptZh": "執著於昨日",
+          "options": [
+            "Holding on",
+            "Holding out",
+            "Holding back"
+          ],
+          "answer": "Holding on"
+        },
+        {
+          "number": 32,
+          "lineId": "line-19",
+          "prompt": "{{blank}} 〔第 33 題〕",
+          "promptZh": "實在太久、太久了",
+          "options": [
+            "Far, far",
+            "So far",
+            "Far too"
+          ],
+          "answer": "Far, far"
+        },
+        {
+          "number": 33,
+          "lineId": "line-19",
+          "prompt": "〔第 32 題〕 {{blank}}",
+          "promptZh": "實在太久、太久了",
+          "options": [
+            "so long",
+            "too long",
+            "too far"
+          ],
+          "answer": "too long"
+        },
+        {
+          "number": 34,
+          "lineId": "line-20",
+          "prompt": "{{blank}} 'cause this time, it's real",
+          "promptZh": "我相信一切沒問題，因為這一次，是真實的",
+          "options": [
+            "I believe it's okay",
+            "I believe it is okay",
+            "I know it's okay"
+          ],
+          "answer": "I believe it's okay"
+        },
+        {
+          "number": 35,
+          "lineId": "line-21",
+          "prompt": "I lay my love on you, it's {{blank}} do",
+          "promptZh": "我將愛傾注於你，這是我唯一想做的事",
+          "options": [
+            "all I wanna",
+            "all that I wanna",
+            "all I want to"
+          ],
+          "answer": "all I wanna"
+        },
+        {
+          "number": 36,
+          "lineId": "line-23",
+          "prompt": "{{blank}}",
+          "promptZh": "你敞開了我的心房",
+          "options": [
+            "You opened up my heart",
+            "You open my heart",
+            "You open up my heart"
+          ],
+          "answer": "You open up my heart"
+        },
+        {
+          "number": 37,
+          "lineId": "line-26",
+          "prompt": "{{blank}} 〔第 38 題〕",
+          "promptZh": "我從不知道愛能如此美好",
+          "options": [
+            "I never knew that love could",
+            "I never thought that love would",
+            "I always knew that love could"
+          ],
+          "answer": "I never knew that love could"
+        },
+        {
+          "number": 38,
+          "lineId": "line-26",
+          "prompt": "〔第 37 題〕 {{blank}}",
+          "promptZh": "我從不知道愛能如此美好",
+          "options": [
+            "feel so good",
+            "be so good",
+            "feel so right"
+          ],
+          "answer": "feel so good"
+        },
+        {
+          "number": 39,
+          "lineId": "line-27",
+          "prompt": "{{blank}}, you 〔第 40 題〕",
+          "promptZh": "宛如一生一次的相遇，你改變了我的世界",
+          "options": [
+            "like a once in your lifetime",
+            "Like a once in a lifetime",
+            "like the once in the lifetime"
+          ],
+          "answer": "Like a once in a lifetime"
+        },
+        {
+          "number": 40,
+          "lineId": "line-27",
+          "prompt": "〔第 39 題〕, you {{blank}}",
+          "promptZh": "宛如一生一次的相遇，你改變了我的世界",
+          "options": [
+            "changed my world",
+            "changed my life",
+            "changed my mind"
+          ],
+          "answer": "changed my world"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} and the {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Can {{q:3}}, yeah"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:4}} {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:6}} my heart"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}} {{q:8}} {{q:9}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:10}} believe it, yeah"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:11}} an {{q:12}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:13}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:14}} I'll {{q:15}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:16}}, {{q:17}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I {{q:18}}, it's all I {{q:19}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:20}} I {{q:21}}, I feel {{q:22}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "You {{q:23}} my heart"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:24}} your love and {{q:25}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "As {{q:26}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I {{q:27}} {{q:28}} a {{q:29}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:30}}, yeah"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:31}} to yesterday"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:32}} {{q:33}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:34}} 'cause this time, it's real"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I lay my love on you, it's {{q:35}} do"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Every time I breathe, I feel brand new"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:36}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Show me all your love and walk right through, oh yeah"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "As I lay my love on you"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:37}} {{q:38}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:39}}, you {{q:40}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I lay my love on you"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "You make me feel brand new"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Show me your love and walk right through, oh yeah"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "As I lay my love on you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I lay my love on you, it's all I wanna do"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Every time I breathe, I feel brand new (Brand, feel brand new)"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "You open up my heart"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Show me all your love and walk right through"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "'Cause I lay my love, I lay my love on you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "I lay my love on you (Oh)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "You make me feel brand new"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "You open up my heart"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Show me all your love and walk right through"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Oh yeah, as I lay my love on you"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "As I lay my love on you"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} and the 〔第 2 題〕",
+          "promptZh": "只要一個微笑，雨便停了",
+          "options": [
+            "Just a smile",
+            "Only a smile",
+            "Just one smile"
+          ],
+          "answer": "Just a smile"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 and the {{blank}}",
+          "promptZh": "只要一個微笑，雨便停了",
+          "options": [
+            "rain is gone",
+            "pain is gone",
+            "rain has gone"
+          ],
+          "answer": "rain is gone"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} 〔第 4 題〕, yeah",
+          "promptZh": "幾乎不敢相信，耶",
+          "options": [
+            "Could",
+            "Can",
+            "Will"
+          ],
+          "answer": "Can"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 {{blank}}, yeah",
+          "promptZh": "幾乎不敢相信，耶",
+          "options": [
+            "hardly believe it",
+            "barely believe it",
+            "hardly see it"
+          ],
+          "answer": "hardly believe it"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "{{blank}} 〔第 6 題〕",
+          "promptZh": "有一位天使站在我身旁",
+          "options": [
+            "There's an angel",
+            "There is an angel",
+            "Here's an angel"
+          ],
+          "answer": "There's an angel"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "〔第 5 題〕 {{blank}}",
+          "promptZh": "有一位天使站在我身旁",
+          "options": [
+            "standing right by me",
+            "waiting next to me",
+            "standing next to me"
+          ],
+          "answer": "standing next to me"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "{{blank}} 〔第 8 題〕",
+          "promptZh": "觸及我的心",
+          "options": [
+            "Reaching for",
+            "Searching for",
+            "Calling for"
+          ],
+          "answer": "Reaching for"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "〔第 7 題〕 {{blank}}",
+          "promptZh": "觸及我的心",
+          "options": [
+            "my heart",
+            "your heart",
+            "my hand"
+          ],
+          "answer": "my heart"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "{{blank}} 〔第 10 題〕 〔第 11 題〕",
+          "promptZh": "只要一個微笑，便已無退路",
+          "options": [
+            "Just a smile that",
+            "Just a smile and",
+            "Only a smile and"
+          ],
+          "answer": "Just a smile and"
+        },
+        {
+          "number": 10,
+          "lineId": "line-5",
+          "prompt": "〔第 9 題〕 {{blank}} 〔第 11 題〕",
+          "promptZh": "只要一個微笑，便已無退路",
+          "options": [
+            "there's",
+            "there are",
+            "there was"
+          ],
+          "answer": "there's"
+        },
+        {
+          "number": 11,
+          "lineId": "line-5",
+          "prompt": "〔第 9 題〕 〔第 10 題〕 {{blank}}",
+          "promptZh": "只要一個微笑，便已無退路",
+          "options": [
+            "no way back",
+            "no turning back",
+            "no going back"
+          ],
+          "answer": "no way back"
+        },
+        {
+          "number": 12,
+          "lineId": "line-6",
+          "prompt": "{{blank}} believe it, yeah",
+          "promptZh": "幾乎不敢相信，耶",
+          "options": [
+            "Could hardly",
+            "Can hardly",
+            "Can barely"
+          ],
+          "answer": "Can hardly"
+        },
+        {
+          "number": 13,
+          "lineId": "line-7",
+          "prompt": "{{blank}} an 〔第 14 題〕",
+          "promptZh": "但有位天使在呼喚我",
+          "options": [
+            "But there's",
+            "And there's",
+            "Yet there's"
+          ],
+          "answer": "But there's"
+        },
+        {
+          "number": 14,
+          "lineId": "line-7",
+          "prompt": "〔第 13 題〕 an {{blank}}",
+          "promptZh": "但有位天使在呼喚我",
+          "options": [
+            "angel calling me",
+            "angel waiting for me",
+            "angel next to me"
+          ],
+          "answer": "angel calling me"
+        },
+        {
+          "number": 15,
+          "lineId": "line-8",
+          "prompt": "{{blank}}",
+          "promptZh": "觸及我的心",
+          "options": [
+            "Reaching for your heart",
+            "Reaching for my heart",
+            "Reaching to my heart"
+          ],
+          "answer": "Reaching for my heart"
+        },
+        {
+          "number": 16,
+          "lineId": "line-9",
+          "prompt": "{{blank}} 〔第 17 題〕 〔第 18 題〕",
+          "promptZh": "我知道現在我會沒事的",
+          "options": [
+            "I know that",
+            "I know I'll",
+            "I feel that"
+          ],
+          "answer": "I know that"
+        },
+        {
+          "number": 17,
+          "lineId": "line-9",
+          "prompt": "〔第 16 題〕 {{blank}} 〔第 18 題〕",
+          "promptZh": "我知道現在我會沒事的",
+          "options": [
+            "I'll",
+            "I'd",
+            "I've"
+          ],
+          "answer": "I'll"
+        },
+        {
+          "number": 18,
+          "lineId": "line-9",
+          "prompt": "〔第 16 題〕 〔第 17 題〕 {{blank}}",
+          "promptZh": "我知道現在我會沒事的",
+          "options": [
+            "be alright now",
+            "be fine now",
+            "be okay now"
+          ],
+          "answer": "be okay now"
+        },
+        {
+          "number": 19,
+          "lineId": "line-10",
+          "prompt": "{{blank}}, 〔第 20 題〕",
+          "promptZh": "這一次，是真實的",
+          "options": [
+            "This time",
+            "Next time",
+            "This moment"
+          ],
+          "answer": "This time"
+        },
+        {
+          "number": 20,
+          "lineId": "line-10",
+          "prompt": "〔第 19 題〕, {{blank}}",
+          "promptZh": "這一次，是真實的",
+          "options": [
+            "it's real",
+            "it's true",
+            "it's right"
+          ],
+          "answer": "it's real"
+        },
+        {
+          "number": 21,
+          "lineId": "line-11",
+          "prompt": "I {{blank}}, it's all I 〔第 22 題〕",
+          "promptZh": "我將愛傾注於你，這是我唯一想做的事",
+          "options": [
+            "give my love to you",
+            "lay my love on you",
+            "put my love on you"
+          ],
+          "answer": "lay my love on you"
+        },
+        {
+          "number": 22,
+          "lineId": "line-11",
+          "prompt": "I 〔第 21 題〕, it's all I {{blank}}",
+          "promptZh": "我將愛傾注於你，這是我唯一想做的事",
+          "options": [
+            "wanna do",
+            "want to do",
+            "need to do"
+          ],
+          "answer": "wanna do"
+        },
+        {
+          "number": 23,
+          "lineId": "line-12",
+          "prompt": "{{blank}} I 〔第 24 題〕, I feel 〔第 25 題〕",
+          "promptZh": "每次呼吸，我都感到煥然一新",
+          "options": [
+            "Every time",
+            "Each time",
+            "Every time that"
+          ],
+          "answer": "Every time"
+        },
+        {
+          "number": 24,
+          "lineId": "line-12",
+          "prompt": "〔第 23 題〕 I {{blank}}, I feel 〔第 25 題〕",
+          "promptZh": "每次呼吸，我都感到煥然一新",
+          "options": [
+            "speak",
+            "breathe",
+            "move"
+          ],
+          "answer": "breathe"
+        },
+        {
+          "number": 25,
+          "lineId": "line-12",
+          "prompt": "〔第 23 題〕 I 〔第 24 題〕, I feel {{blank}}",
+          "promptZh": "每次呼吸，我都感到煥然一新",
+          "options": [
+            "brand new",
+            "so new",
+            "fresh and new"
+          ],
+          "answer": "brand new"
+        },
+        {
+          "number": 26,
+          "lineId": "line-13",
+          "prompt": "You {{blank}} my heart",
+          "promptZh": "你敞開了我的心房",
+          "options": [
+            "open up",
+            "break open",
+            "give up"
+          ],
+          "answer": "open up"
+        },
+        {
+          "number": 27,
+          "lineId": "line-14",
+          "prompt": "{{blank}} your love and 〔第 28 題〕",
+          "promptZh": "向我展現你全部的愛，並徑直走入",
+          "options": [
+            "Give me all",
+            "Show me all",
+            "Show me your"
+          ],
+          "answer": "Show me all"
+        },
+        {
+          "number": 28,
+          "lineId": "line-14",
+          "prompt": "〔第 27 題〕 your love and {{blank}}",
+          "promptZh": "向我展現你全部的愛，並徑直走入",
+          "options": [
+            "walk right through",
+            "come right through",
+            "walk on through"
+          ],
+          "answer": "walk right through"
+        },
+        {
+          "number": 29,
+          "lineId": "line-15",
+          "prompt": "As {{blank}}",
+          "promptZh": "當我將愛傾注於你",
+          "options": [
+            "I lay my love on you",
+            "I give my love to you",
+            "I pour my love on you"
+          ],
+          "answer": "I lay my love on you"
+        },
+        {
+          "number": 30,
+          "lineId": "line-16",
+          "prompt": "I {{blank}} 〔第 31 題〕 a 〔第 32 題〕",
+          "promptZh": "我曾迷失在孤獨之地",
+          "options": [
+            "am",
+            "was",
+            "felt"
+          ],
+          "answer": "was"
+        },
+        {
+          "number": 31,
+          "lineId": "line-16",
+          "prompt": "I 〔第 30 題〕 {{blank}} a 〔第 32 題〕",
+          "promptZh": "我曾迷失在孤獨之地",
+          "options": [
+            "lost in",
+            "trapped in",
+            "caught in"
+          ],
+          "answer": "lost in"
+        },
+        {
+          "number": 32,
+          "lineId": "line-16",
+          "prompt": "I 〔第 30 題〕 〔第 31 題〕 a {{blank}}",
+          "promptZh": "我曾迷失在孤獨之地",
+          "options": [
+            "lonely place",
+            "dark place",
+            "quiet place"
+          ],
+          "answer": "lonely place"
+        },
+        {
+          "number": 33,
+          "lineId": "line-17",
+          "prompt": "{{blank}}, yeah",
+          "promptZh": "幾乎不敢相信，耶",
+          "options": [
+            "Would hardly believe it",
+            "Can hardly believe it",
+            "Could hardly believe it"
+          ],
+          "answer": "Could hardly believe it"
+        },
+        {
+          "number": 34,
+          "lineId": "line-18",
+          "prompt": "{{blank}} to yesterday",
+          "promptZh": "執著於昨日",
+          "options": [
+            "Holding on",
+            "Holding out",
+            "Holding back"
+          ],
+          "answer": "Holding on"
+        },
+        {
+          "number": 35,
+          "lineId": "line-19",
+          "prompt": "{{blank}} 〔第 36 題〕",
+          "promptZh": "實在太久、太久了",
+          "options": [
+            "Far, far",
+            "So far",
+            "Far too"
+          ],
+          "answer": "Far, far"
+        },
+        {
+          "number": 36,
+          "lineId": "line-19",
+          "prompt": "〔第 35 題〕 {{blank}}",
+          "promptZh": "實在太久、太久了",
+          "options": [
+            "too far",
+            "so long",
+            "too long"
+          ],
+          "answer": "too long"
+        },
+        {
+          "number": 37,
+          "lineId": "line-20",
+          "prompt": "{{blank}} 'cause this time, it's real",
+          "promptZh": "我相信一切沒問題，因為這一次，是真實的",
+          "options": [
+            "I believe it's okay",
+            "I believe it is okay",
+            "I know it's okay"
+          ],
+          "answer": "I believe it's okay"
+        },
+        {
+          "number": 38,
+          "lineId": "line-21",
+          "prompt": "{{blank}}, it's 〔第 39 題〕 do",
+          "promptZh": "我將愛傾注於你，這是我唯一想做的事",
+          "options": [
+            "I lay my love on you",
+            "I give my love to you",
+            "I pour my love on you"
+          ],
+          "answer": "I lay my love on you"
+        },
+        {
+          "number": 39,
+          "lineId": "line-21",
+          "prompt": "〔第 38 題〕, it's {{blank}} do",
+          "promptZh": "我將愛傾注於你，這是我唯一想做的事",
+          "options": [
+            "all that I wanna",
+            "all I wanna",
+            "all I want to"
+          ],
+          "answer": "all I wanna"
+        },
+        {
+          "number": 40,
+          "lineId": "line-22",
+          "prompt": "{{blank}}, I feel brand new",
+          "promptZh": "每次呼吸，我都感到煥然一新",
+          "options": [
+            "Every day I breathe",
+            "Every time I breath",
+            "Every time I breathe"
+          ],
+          "answer": "Every time I breathe"
+        },
+        {
+          "number": 41,
+          "lineId": "line-23",
+          "prompt": "{{blank}}",
+          "promptZh": "你敞開了我的心房",
+          "options": [
+            "You open up my heart",
+            "You open my heart",
+            "You opened up my heart"
+          ],
+          "answer": "You open up my heart"
+        },
+        {
+          "number": 42,
+          "lineId": "line-25",
+          "prompt": "{{blank}} on you",
+          "promptZh": "當我將愛傾注於你",
+          "options": [
+            "As I lay my love",
+            "As I give my love",
+            "As I lay my heart"
+          ],
+          "answer": "As I lay my love"
+        },
+        {
+          "number": 43,
+          "lineId": "line-26",
+          "prompt": "{{blank}} 〔第 44 題〕",
+          "promptZh": "我從不知道愛能如此美好",
+          "options": [
+            "I never thought that love would",
+            "I never knew that love could",
+            "I always knew that love could"
+          ],
+          "answer": "I never knew that love could"
+        },
+        {
+          "number": 44,
+          "lineId": "line-26",
+          "prompt": "〔第 43 題〕 {{blank}}",
+          "promptZh": "我從不知道愛能如此美好",
+          "options": [
+            "feel so good",
+            "be so good",
+            "feel so right"
+          ],
+          "answer": "feel so good"
+        },
+        {
+          "number": 45,
+          "lineId": "line-27",
+          "prompt": "{{blank}}, you 〔第 46 題〕",
+          "promptZh": "宛如一生一次的相遇，你改變了我的世界",
+          "options": [
+            "Like a once in a lifetime",
+            "like a once in your lifetime",
+            "like the once in the lifetime"
+          ],
+          "answer": "Like a once in a lifetime"
+        },
+        {
+          "number": 46,
+          "lineId": "line-27",
+          "prompt": "〔第 45 題〕, you {{blank}}",
+          "promptZh": "宛如一生一次的相遇，你改變了我的世界",
+          "options": [
+            "changed my life",
+            "changed my world",
+            "changed my mind"
+          ],
+          "answer": "changed my world"
+        },
+        {
+          "number": 47,
+          "lineId": "line-29",
+          "prompt": "{{blank}} brand new",
+          "promptZh": "你讓我感到煥然一新",
+          "options": [
+            "You make me be",
+            "You made me feel",
+            "You make me feel"
+          ],
+          "answer": "You make me feel"
+        },
+        {
+          "number": 48,
+          "lineId": "line-32",
+          "prompt": "I lay my love on you, it's {{blank}}",
+          "promptZh": "我將愛傾注於你，這是我唯一想做的事",
+          "options": [
+            "all I wanna do",
+            "all I want to do",
+            "all I need to do"
+          ],
+          "answer": "all I wanna do"
+        },
+        {
+          "number": 49,
+          "lineId": "line-36",
+          "prompt": "{{blank}}, I lay my love on you",
+          "promptZh": "因為我傾注我的愛，我將愛傾注於你",
+          "options": [
+            "'Cause I lay my love",
+            "'Cause I give my love",
+            "'Cause I lay my heart"
+          ],
+          "answer": "'Cause I lay my love"
+        },
+        {
+          "number": 50,
+          "lineId": "line-41",
+          "prompt": "{{blank}} my love on you",
+          "promptZh": "噢耶，當我將愛傾注於你",
+          "options": [
+            "Oh yeah, as I give",
+            "Oh yeah, as I lay",
+            "Oh yeah, when I lay"
+          ],
+          "answer": "Oh yeah, as I lay"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} and the {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} {{q:4}}, yeah"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}} {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:7}} {{q:8}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:9}} {{q:10}} {{q:11}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:12}} believe it, yeah"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:13}} an {{q:14}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:15}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:16}} {{q:17}} {{q:18}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:19}}, {{q:20}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I {{q:21}}, it's all I {{q:22}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:23}} I {{q:24}}, I feel {{q:25}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "You {{q:26}} my heart"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:27}} your love and {{q:28}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "As {{q:29}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I {{q:30}} {{q:31}} a {{q:32}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:33}}, yeah"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:34}} to yesterday"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:35}} {{q:36}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:37}} 'cause this time, it's real"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:38}}, it's {{q:39}} do"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:40}}, I feel brand new"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:41}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Show me all your love and walk right through, oh yeah"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:42}} on you"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:43}} {{q:44}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:45}}, you {{q:46}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I lay my love on you"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:47}} brand new"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Show me your love and walk right through, oh yeah"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "As I lay my love on you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I lay my love on you, it's {{q:48}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Every time I breathe, I feel brand new (Brand, feel brand new)"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "You open up my heart"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Show me all your love and walk right through"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "{{q:49}}, I lay my love on you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "I lay my love on you (Oh)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "You make me feel brand new"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "You open up my heart"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Show me all your love and walk right through"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:50}} my love on you"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "As I lay my love on you"
+        }
+      ]
+    }
+  ],
+  "timingSource": {
+    "method": "faster-whisper-word-alignment-with-targeted-section-review",
+    "audioSha256": "e998290acd2b0b2c5b2490a0fab3fcdea7b955856bc138bd1ed5f656d28f4271",
+    "duration": 208.9215625
+  }
+}

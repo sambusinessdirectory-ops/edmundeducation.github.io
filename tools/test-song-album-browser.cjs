@@ -20,9 +20,9 @@ if(name==='song_appreciation_admin_save_lesson'){Object.assign(song,{...a.p_deta
 if(name==='song_appreciation_vocabulary_answer'){const q=song.vocabulary[a.p_number-1];body={selected:a.p_selected,answer:q.answer,explanation:q.explanation,optionExplanations:q.optionExplanations};progress[a.p_number]=body;}
 return r.fulfill({contentType:'application/json',body:JSON.stringify(body)});});
 await page.goto('http://127.0.0.1:8766/song-appreciation.html');await page.waitForSelector('.song-card');assert.equal(await page.locator('.login-intro').count(),0);assert.match(await page.locator('.song-card img').getAttribute('src'),/cover.webp/);
-await page.locator('.song-card > button').last().click();await page.locator('[data-song-tab="translation"]').click();await page.waitForFunction(()=>window.songQA.state.playerReady);assert.ok(await page.evaluate(()=>window.songQA.state.player.getDuration()>190));
+await page.locator('.song-card > button').last().click();await page.locator('[data-song-tab="translation"]').click();await page.waitForFunction(()=>window.songQA.state.playerReady);assert.ok(await page.evaluate(()=>window.songQA.state.player.getDuration()>130));
 await page.locator('[data-player-controls] [data-player-toggle]').click();await page.waitForFunction(()=>!document.querySelector('audio').paused);
-await page.evaluate(lessonTime=>{window.songQA.state.player.pauseVideo();window.songQA.state.player.seekTo(lessonTime);},lesson==='photograph'?44:lesson==='shake-it-off'?20:38);await page.waitForFunction(()=>document.querySelector('tr[data-line-id="line-6"]')?.classList.contains('is-current-line'));
+await page.evaluate(lessonTime=>{window.songQA.state.player.pauseVideo();window.songQA.state.player.seekTo(lessonTime);},(original.translations[5].startSeconds+original.translations[5].endSeconds)/2);await page.waitForFunction(()=>document.querySelector('tr[data-line-id="line-6"]')?.classList.contains('is-current-line'));
 await page.locator('[data-playback-rate]').first().selectOption('0.75');assert.equal(await page.locator('audio').evaluate(a=>a.playbackRate),.75);
 for (const width of [1280,390]) {
  await page.setViewportSize({width,height:950});
@@ -34,6 +34,12 @@ for (const width of [1280,390]) {
  assert.equal(await page.locator(`[data-lyric-flow="line-${original.translations.length}"]`).count(),1);
  const firstMulti=original.exercises[3].listeningLines.find(l=>(l.prompt.match(/\{\{q:/g)||[]).length>1);
  assert.equal(await page.locator(`[data-lyric-flow="${firstMulti.lineId}"] .blank-number`).count(),(firstMulti.prompt.match(/\{\{q:/g)||[]).length);
+ const sizes=()=>page.evaluate(()=>['.exercise-full-line','.exercise-full-line .blank-number','.choice-button'].map(s=>parseFloat(getComputedStyle(document.querySelector(s)).fontSize)));
+ await page.locator('[data-font-size="exercise"]').selectOption('1');const normal=await sizes();
+ await page.locator('[data-font-size="exercise"]').selectOption('2');const bigger=await sizes();
+ bigger.forEach((size,i)=>assert.ok(Math.abs(size-normal[i]*2)<.1,'both lyrics and choices scale to 200%'));
+ await page.locator('[data-font-size="exercise"]').selectOption('3');assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,'300% text fits the viewport');
+ await page.locator('[data-font-size="exercise"]').selectOption('1');
  const ready=page.locator('[data-skip-preparation]');await ready.scrollIntoViewIfNeeded();
  assert.equal(await page.locator('audio').evaluate(a=>a.paused),true);assert.equal(await page.locator('[data-floating-player]').isVisible(),false);
  const button=await ready.boundingBox(),panel=await page.locator('.player-card').boundingBox();

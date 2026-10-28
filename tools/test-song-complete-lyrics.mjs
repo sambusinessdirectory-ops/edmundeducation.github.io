@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 const norm=s=>s.toLowerCase().replace(/[^a-z0-9]/g,'');
-for(const [name,count] of [['photograph',58],['open-arms',37],['thinking-out-loud',41],['shake-it-off',74]]){
+for(const [name,count] of [['photograph',58],['open-arms',37],['thinking-out-loud',41],['shake-it-off',74],['dont-stop-believin',38],['if-bread',20],['i-lay-my-love-on-you',42],['i-want-it-that-way',54]]){
  const song=JSON.parse(fs.readFileSync(`tools/song-content/${name}.json`));
  assert.equal(song.translations.length,count);
  for(const mode of song.exercises){
@@ -21,4 +21,4 @@ for(const [name,count] of [['photograph',58],['open-arms',37],['thinking-out-lou
  }
  song.translations.forEach((r,i)=>{assert.ok(r.endSeconds>r.startSeconds);if(i)assert.ok(r.startSeconds>=song.translations[i-1].endSeconds-(name==='photograph'?.25:0));});
 }
-console.log('Complete lyric flow: every line, repeated chorus, blank and answer matches both lessons in all modes.');
+console.log('Complete lyric flow: every line, repeated chorus, blank and answer matches every lesson in all modes.');
