@@ -324,6 +324,10 @@ test("recording upload accepts only validated performance checklist snapshots", 
   const valid = { version: 1, content: ["idea-topic-sentence"], language: ["precise-vocabulary"] };
   const parsed = await worker.parseMultipartUpload(makeRequest(valid), {});
   assert.deepEqual(parsed.performanceChecklist, valid);
+  const expanded={version:2,content:['point-4-rebuttal','action-plan'],language:['native-english','body-smiles-laughs'],mistakes:['dead-air','ed-ing-adjectives']};
+  assert.deepEqual((await worker.parseMultipartUpload(makeRequest(expanded),{})).performanceChecklist,expanded);
+  await assert.rejects(worker.parseMultipartUpload(makeRequest({...expanded,mistakes:['invented']}),{}),error=>error?.code==='INVALID_PERFORMANCE_CHECKLIST');
+
   await assert.rejects(
     worker.parseMultipartUpload(makeRequest({ version: 1, content: ["unknown"], language: [] }), {}),
     error => error?.status === 400 && error?.code === "INVALID_PERFORMANCE_CHECKLIST"

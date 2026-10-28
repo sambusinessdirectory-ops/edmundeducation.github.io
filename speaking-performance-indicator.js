@@ -2,20 +2,22 @@
   "use strict";
 
   const pointItems = Object.freeze([
-    Object.freeze({ id: "idea-topic-sentence", label: "Idea / Topic Sentence" }),
-    Object.freeze({ id: "explanation", label: "Explanation" }),
-    Object.freeze({ id: "example", label: "Example" }),
-    Object.freeze({ id: "conclusion", label: "Conclusion" }),
-    Object.freeze({ id: "contextual-reference", label: "Contextual Reference" }),
+
+    Object.freeze({ id: "idea-topic-sentence", label: "Idea / Topic Sentence · 論點／主題句" }),
+    Object.freeze({ id: "explanation", label: "Explanation · 解釋" }),
+    Object.freeze({ id: "example", label: "Example · 例子" }),
+    Object.freeze({ id: "conclusion", label: "Conclusion · 結論" }),
+    Object.freeze({ id: "contextual-reference", label: "Contextual Reference · 引用語境" }),
     Object.freeze({ id: "task-response", label: "Task Response 回應題目" }),
-    Object.freeze({ id: "responding-to-others", label: "Responding to Others 回應他人" })
+    Object.freeze({ id: "responding-to-others", label: "Responding to Others 回應他人" }),
+    ...[["example-conceptual", "Example - Conceptual", "命名法例子"], ["example-numerical", "Example - Numerical", "數字法例子"], ["clear-keywords", "Clear Keywords", "明顯關鍵詞"], ["future-outlook", "Future Outlook", "未來寄詞"], ["action-plan", "Action Plan", "行動建議"], ["rebuttal", "Rebuttal", "駁論"], ["balanced-view", "Balanced View", "持平看法"], ["stance", "Stance", "立場"]].map(([id,en,zh])=>Object.freeze({id,en,zh,label:en+" · "+zh}))
   ]);
 
   const content = Object.freeze([
     ...[1, 2, 3, 4].flatMap(point => pointItems.map(item => Object.freeze({
       id: point === 1 ? item.id : `point-${point}-${item.id}`,
       label: `${['First point', 'Second argument', 'Third argument', 'Fourth argument'][point - 1]} · ${item.label}`,
-      point, shortLabel: item.label
+      point, en:item.en, zh:item.zh, shortLabel: item.label
     })))
   ]);
 
@@ -37,11 +39,15 @@
     Object.freeze({ id: "concession", label: "Although / Even though / Even if -- (Concession 讓步句)" }),
     Object.freeze({ id: "precise-vocabulary", label: "Precise Vocabulary" }),
     ...[['sentence-structure', 'Sentence Structure 句子結構'], ['supporting-details', 'Supporting Details 支持細節'], ['rephrasing', 'Rephrasing 改述'], ['rhetorical-questions', 'Rhetorical Questions 反問句'], ['common-expressions', 'Common Expressions 常用語'], ['collocations', 'Collocations 詞語搭配'], ['power-words', 'Power Words 有力詞彙']].map(([id, label]) => Object.freeze({ id, label }))
+    ,...[["prepositional-phrases", "Prepositional Phrases", "介詞句"], ["compound-nouns", "Compound Nouns", "複合名詞"], ["synonyms", "Synonyms", "同義詞（一義多詞）"], ["polysemy", "Polysemy", "一詞多義"], ["idioms", "Idioms", "成語"], ["proverbs", "Proverbs", "諺語"], ["native-english", "Native English", "母語級表達句"], ["advanced-native-english", "Advanced Native English", "高階母語級表達句"], ["hedging", "Hedging", "緩和語"], ["correct-tense", "Correct Tense", "正確時式"], ["varied-tense", "Varied Tense Use", "不同時式"], ["correct-articles-number", "Correct Articles / Singular and Plural Forms", "正確冠詞／單複數"], ["emotional-attribution", "Emotional Attribution", "情感解釋"], ["ppf", "PPF (Past / Present / Future)", "過去／現在／未來"], ["wh-word", "WH word", "爆上爆"], ["quotes", "Quotes", "名言引用"], ["thematic-vocabulary", "Thematic Vocabulary", "主題性生字"], ["irregular-verbs", "Irregular Verbs", "不規則動詞"], ["change-pos", "Change of POS", "活用詞性"], ["clear-timeline", "Clear Timeline", "清楚時間線"], ["self-correction", "Self-Correction", "自我修正"], ["other-literary-devices", "Other Literary Devices", "其他修辭手法"], ["fluency-quick-response", "Fluency 1 - Quick Response", "即時回應（流利）"], ["fluency-fluid-speech", "Fluency 2 - Fluid Speech", "連貫性（流利）"], ["connectives", "Connectives", "連接詞"], ["double-adjectives", "Double Adjectives", "雙形容詞"], ["body-gestures", "Body Language - Gestures", "身體語言－手勢"], ["body-head-movement", "Body Language - Head Movement", "身體語言－點頭"], ["body-smiles-laughs", "Body Language - Smiles and Laughs", "身體語言－笑容"]].map(([id,en,zh])=>Object.freeze({id,en,zh,label:en+" · "+zh}))
   ]);
+
+  const mistakes = Object.freeze([["grammar", "Grammar", "文法"], ["repetitive-words", "Repetitive words", "用詞重複"], ["wrong-paraphrasing", "Wrong paraphrasing", "改述不當"], ["lack-explanation", "Lack of explanation", "缺乏解釋"], ["lack-example", "Lack of example", "缺乏例子"], ["wrong-structure", "Wrong sentence structure", "句子結構錯誤"], ["lack-response", "Lack of response", "缺乏回應"], ["irrelevance", "Irrelevance", "離題"], ["inactive", "Inactive", "參與不足"], ["dominance", "Conversation dominance", "過度主導討論"], ["dead-air", "Dead Air", "冷場"], ["excessive-fillers", "Excessive Filler Words", "過多語氣詞"], ["lack-gestures", "Lack of Body Language - Gestures", "缺乏身體語言－手勢"], ["lack-head-movement", "Lack of Body Language - Head Movement", "缺乏身體語言－點頭"], ["lack-eye-contact", "Lack of Eye Contact", "缺乏眼神接觸"], ["monotone", "Monotone", "沒有抑揚頓挫"], ["ed-ing-adjectives", "Incorrect -ed / -ing Adjectives", "-ed／-ing 形容詞使用不當"]].map(([id,en,zh])=>Object.freeze({id,en,zh,label:en+" · "+zh})));
 
   const ids = Object.freeze({
     content: new Set(content.map(item => item.id)),
-    language: new Set(language.map(item => item.id))
+    language: new Set(language.map(item => item.id)),
+    mistakes: new Set(mistakes.map(item=>item.id))
   });
   const selections = new Map();
   const moduleUrl = document.currentScript?.src ? new URL('floating-window.mjs?v=20260916-speaking-study', document.currentScript.src).href : './floating-window.mjs?v=20260916-speaking-study';
@@ -78,12 +84,13 @@
     const source = value && typeof value === "object" ? value : {};
     return {
       content: [...new Set(Array.isArray(source.content) ? source.content.map(String).filter(id => ids.content.has(id)) : [])],
-      language: [...new Set(Array.isArray(source.language) ? source.language.map(String).filter(id => ids.language.has(id)) : [])]
+      language: [...new Set(Array.isArray(source.language) ? source.language.map(String).filter(id => ids.language.has(id)) : [])],
+      mistakes: [...new Set(Array.isArray(source.mistakes) ? source.mistakes.map(String).filter(id=>ids.mistakes.has(id)) : [])]
     };
   }
 
   function contextKey(container) {
-    const practice = container.closest(".exam-practice-view");
+    const practice = container.closest(".exam-practice-view") || container.closest("[data-view-content]");
     const dse = practice?.classList.contains("dse-practice-view");
     const heading = practice?.querySelector(".dse-practice-header, .exam-progress-card");
     const stableHeading = heading?.cloneNode(true);
@@ -92,7 +99,7 @@
       ".dse-single-question h2, .dse-practice-card h2, .exam-question-card h1, .examiner-message:last-of-type p"
     );
     return [
-      dse ? "dse" : "ielts",
+      noteKey('owner'), location.hash, dse ? "dse" : "ielts",
       stableHeading?.textContent || "",
       question?.textContent || ""
     ].map(value => String(value).replace(/\s+/g, " ").trim()).join("|");
@@ -100,7 +107,11 @@
 
   function stateFor(container) {
     const key = contextKey(container);
-    if (!selections.has(key)) selections.set(key, normalize(null));
+    if (!selections.has(key)) {
+      let saved=null;
+      try { const storageKey=noteKey('evaluation:'+key); if(storageKey)saved=JSON.parse(localStorage.getItem(storageKey)||'null'); } catch {}
+      selections.set(key,normalize(saved));
+    }
     return { key, value: selections.get(key) };
   }
 
@@ -112,9 +123,10 @@
     const value = selections.get(indicator.dataset.performanceContext) || normalize(null);
     const normalized = normalize(value);
     return Object.freeze({
-      version: 1,
+      version: 2,
       content: Object.freeze([...normalized.content]),
-      language: Object.freeze([...normalized.language])
+      language: Object.freeze([...normalized.language]),
+      mistakes:Object.freeze([...normalized.mistakes])
     });
   }
 
@@ -128,12 +140,12 @@
         <div class="performance-table-scroll">
           <table>
             <caption class="visually-hidden">${titleEn} · ${titleZh}</caption>
-            <thead><tr><th scope="col">評估項目</th><th scope="col">做到</th></tr></thead>
+            <thead><tr><th scope="col">評估項目</th><th scope="col">${kind === "mistakes" ? "需改善" : "做到"}</th></tr></thead>
             <tbody>
               ${items.map((item, index) => `
-                ${kind === 'content' && index % 7 === 0 ? `<tr class="performance-point-heading"><th colspan="2">${['First point 第一論點', 'Second argument 第二論點', 'Third argument 第三論點', 'Fourth argument 第四論點'][Math.floor(index / 7)]}</th></tr>` : ''}
+                ${kind === 'content' && index % pointItems.length === 0 ? `<tr class="performance-point-heading"><th colspan="2">${['First point 第一論點', 'Second argument 第二論點', 'Third argument 第三論點', 'Fourth argument 第四論點'][Math.floor(index / pointItems.length)]}</th></tr>` : ''}
                 <tr class="${selected.includes(item.id) ? "is-checked" : ""}">
-                  <th scope="row"><label for="performance-${kind}-${index}">${kind === "content" && item.point ? ((index % 7) + 1) : index + 1}. ${item.shortLabel || item.label}</label></th>
+                  <th scope="row"><label for="performance-${kind}-${index}">${kind === "content" && item.point ? ((index % pointItems.length) + 1) : index + 1}. ${item.shortLabel || item.label}</label></th>
                   <td><input id="performance-${kind}-${index}" type="checkbox" data-performance-kind="${kind}" value="${item.id}" ${selected.includes(item.id) ? "checked" : ""} aria-label="${item.label}"></td>
                 </tr>`).join("")}
             </tbody>
@@ -150,7 +162,7 @@
             <span>ADVANCED SPEAKING PERFORMANCE INDICATOR</span>
             <h2 id="performance-indicator-title">進階說話表現指標</h2>
           </div>
-          <p>學生或考官可即時勾選已做到的項目。<br><span>Student or examiner: tick each feature demonstrated in this answer.</span></p>
+          <p>內容及語言勾選已做到的項目；錯誤欄勾選待改善之處。不適用項目可留空，毋須刻意使用全部技巧。<br><span>Student or examiner: tick demonstrated features; in Mistakes, tick issues to improve.</span></p>
         </header>
         <div class="performance-panel-scroll">
         <section class="performance-notes"><label for="performance-practice-notes">練習筆記 · Practice notes</label>
@@ -160,6 +172,7 @@
         <div class="performance-table-grid">
           ${tableHtml("content", "CONTENT CHECKLIST", "內容", content, value.content)}
           ${tableHtml("language", "LANGUAGE CHECKLIST", "語言", language, value.language)}
+          ${tableHtml("mistakes", "MISTAKES", "錯誤／待改善", mistakes, value.mistakes)}
         </div></div>
       </section>`;
   }
@@ -184,7 +197,7 @@
     document.querySelectorAll(
       ".exam-practice-view:not(.dse-practice-view) .exam-answer-recorder, " +
       ".dse-practice-view .recorder-card, " +
-      ".dse-practice-view .admin-recorder-notice"
+      ".dse-practice-view .admin-recorder-notice, [data-recorder-card]"
     ).forEach(mount);
   }
 
@@ -204,9 +217,10 @@
     if (checkbox.checked) next.add(id); else next.delete(id);
     current[kind] = [...next];
     selections.set(indicator.dataset.performanceContext, current);
+    try {const key=noteKey('evaluation:'+indicator.dataset.performanceContext);if(key)localStorage.setItem(key,JSON.stringify(current));}catch{}
     checkbox.closest("tr")?.classList.toggle("is-checked", checkbox.checked);
     const count = indicator.querySelector(`[data-performance-count="${kind}"]`);
-    if (count) count.textContent = `${current[kind].length} / ${kind === "content" ? content.length : language.length}`;
+    if (count) count.textContent = `${current[kind].length} / ${ids[kind].size}`;
   });
 
   document.addEventListener("click", event => {
@@ -241,5 +255,5 @@
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start, { once: true });
   else start();
 
-  window.EDMUND_SPEAKING_PERFORMANCE_INDICATOR = Object.freeze({ content, language, normalize, snapshot, mountForSession });
+  window.EDMUND_SPEAKING_PERFORMANCE_INDICATOR = Object.freeze({ content, language, mistakes, pointItems, normalize, snapshot, mountForSession });
 })();

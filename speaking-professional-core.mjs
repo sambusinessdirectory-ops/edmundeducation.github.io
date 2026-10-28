@@ -61,11 +61,7 @@ export function candidateSummary(s,id,now=Date.now()) {
   return {seconds,percentage,rounds:turns.length,tone:percentage>50?'red':percentage<25?'yellow':'green'};
 }
 
-export const MISTAKES = [
- ['grammar','Grammar','文法'],['repetitive-words','Repetitive words','用詞重複'],['wrong-paraphrasing','Wrong paraphrasing','改述不當'],
- ['lack-explanation','Lack of explanation','缺乏解釋'],['lack-example','Lack of example','缺乏例子'],['wrong-structure','Wrong sentence structure','句子結構錯誤'],
- ['lack-response','Lack of response','缺乏回應'],['irrelevance','Irrelevance','離題'],['inactive','Inactive','參與不足'],['dominance','Conversation dominance','過度主導討論']
-];
+export const MISTAKES = [["grammar", "Grammar", "文法"], ["repetitive-words", "Repetitive words", "用詞重複"], ["wrong-paraphrasing", "Wrong paraphrasing", "改述不當"], ["lack-explanation", "Lack of explanation", "缺乏解釋"], ["lack-example", "Lack of example", "缺乏例子"], ["wrong-structure", "Wrong sentence structure", "句子結構錯誤"], ["lack-response", "Lack of response", "缺乏回應"], ["irrelevance", "Irrelevance", "離題"], ["inactive", "Inactive", "參與不足"], ["dominance", "Conversation dominance", "過度主導討論"], ["dead-air", "Dead Air", "冷場"], ["excessive-fillers", "Excessive Filler Words", "過多語氣詞"], ["lack-gestures", "Lack of Body Language - Gestures", "缺乏身體語言－手勢"], ["lack-head-movement", "Lack of Body Language - Head Movement", "缺乏身體語言－點頭"], ["lack-eye-contact", "Lack of Eye Contact", "缺乏眼神接觸"], ["monotone", "Monotone", "沒有抑揚頓挫"], ["ed-ing-adjectives", "Incorrect -ed / -ing Adjectives", "-ed／-ing 形容詞使用不當"]];
 function closeSegment(s,turn,now){const part=turn.segments?.find(p=>p.id===turn.activeSegment);if(part){part.endedAt=Math.max(part.startedAt,Math.min(now,s.pausedAt??s.deadline??now));part.durationMs=activeElapsedMs(s,part.startedAt,part.endedAt);}turn.activeSegment=null;}
 export function selectTurnPart(s,kind,now=Date.now()){
  advanceProfessionalSession(s,now);const turn=s.turns.find(t=>t.id===s.activeTurn);

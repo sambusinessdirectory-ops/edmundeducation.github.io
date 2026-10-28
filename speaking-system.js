@@ -6977,7 +6977,8 @@
     if (!checklist || !indicator?.content || !indicator?.language) return "";
     const selected = {
       content: new Set(checklist.content),
-      language: new Set(checklist.language)
+      language: new Set(checklist.language),
+      mistakes:new Set(checklist.mistakes||[])
     };
     const section = (kind, titleEn, titleZh, items) => `
       <section class="attempt-checklist-section attempt-checklist-${kind}">
@@ -6993,6 +6994,7 @@
         <div class="attempt-checklist-grid">
           ${section("content", "CONTENT CHECKLIST", "內容", indicator.content)}
           ${section("language", "LANGUAGE CHECKLIST", "語言", indicator.language)}
+          ${section("mistakes", "MISTAKES", "待改善", indicator.mistakes)}
         </div>
       </details>`;
   }

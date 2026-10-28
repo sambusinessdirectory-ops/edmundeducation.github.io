@@ -196,3 +196,8 @@
 
 .performance-notes{margin:12px 0 20px;padding:16px;background:#fff8e9;border:1px solid #e4d7b9;border-radius:12px}.performance-notes label{display:block;font-weight:750;margin-bottom:8px}.performance-notes textarea{box-sizing:border-box;display:block;width:100%;min-height:130px;padding:12px;border:1px solid #c5b994;border-radius:8px;font:16px/1.6 system-ui;resize:vertical;background:#fffdf8;color:#263746}.performance-notes small{display:block;margin-top:8px;color:#645c4b}
 .speaking-performance-indicator:not(.is-floating)>.floating-window-corner{display:none}.speaking-performance-indicator:not(.is-floating)>.performance-indicator-heading{cursor:auto;touch-action:auto;user-select:auto}.speaking-performance-indicator.is-floating{display:flex;flex-direction:column;overflow:hidden;min-height:220px;padding:22px}.is-floating>.performance-indicator-heading{flex:none;padding-right:100px}.is-floating>.performance-panel-scroll{overflow:auto;min-height:0;flex:1}.performance-panel-scroll{scrollbar-gutter:stable}
+
+/* Universal three-part evaluation, including issues to improve. */
+.performance-table-grid{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr) minmax(0,.9fr)}
+.performance-mistakes>header{background:#fbe4e4}.performance-mistakes tr.is-checked{background:#fce0df;color:#963c40}.performance-mistakes input{accent-color:#ad4545}
+@media(max-width:1000px){.performance-table-grid{grid-template-columns:1fr}.performance-table-card{min-width:0}}

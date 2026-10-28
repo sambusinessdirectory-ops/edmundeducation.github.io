@@ -62,19 +62,7 @@ const SPEAKING_ACCESS_KEYS = new Set([
   ))
 ]);
 
-const PERFORMANCE_CHECKLIST_IDS = Object.freeze({
-  content: new Set([
-    "idea-topic-sentence", "explanation", "example", "conclusion", "contextual-reference",
-    ...[2,3,4].flatMap(point => ['idea-topic-sentence','explanation','example','conclusion','contextual-reference','task-response','responding-to-others'].map(id => `point-${point}-${id}`)),
-    'task-response', 'responding-to-others'
-  ]),
-  language: new Set([
-    "parallelism-juxtaposition", "rule-of-three", "modal", "comparatives", "contrast",
-    "adjectives-adverbs", "negative-statements", "personification", "reification", "simile",
-    "metaphor", "metonymy-synecdoche", "double-literary-devices", "phrasal-verbs",
-    "concession", "precise-vocabulary", "sentence-structure", "supporting-details", "rephrasing", "rhetorical-questions", "common-expressions", "collocations", "power-words"
-  ])
-});
+const PERFORMANCE_CHECKLIST_IDS = {content:new Set(["idea-topic-sentence", "explanation", "example", "conclusion", "contextual-reference", "task-response", "responding-to-others", "example-conceptual", "example-numerical", "clear-keywords", "future-outlook", "action-plan", "rebuttal", "balanced-view", "stance", "point-2-idea-topic-sentence", "point-2-explanation", "point-2-example", "point-2-conclusion", "point-2-contextual-reference", "point-2-task-response", "point-2-responding-to-others", "point-2-example-conceptual", "point-2-example-numerical", "point-2-clear-keywords", "point-2-future-outlook", "point-2-action-plan", "point-2-rebuttal", "point-2-balanced-view", "point-2-stance", "point-3-idea-topic-sentence", "point-3-explanation", "point-3-example", "point-3-conclusion", "point-3-contextual-reference", "point-3-task-response", "point-3-responding-to-others", "point-3-example-conceptual", "point-3-example-numerical", "point-3-clear-keywords", "point-3-future-outlook", "point-3-action-plan", "point-3-rebuttal", "point-3-balanced-view", "point-3-stance", "point-4-idea-topic-sentence", "point-4-explanation", "point-4-example", "point-4-conclusion", "point-4-contextual-reference", "point-4-task-response", "point-4-responding-to-others", "point-4-example-conceptual", "point-4-example-numerical", "point-4-clear-keywords", "point-4-future-outlook", "point-4-action-plan", "point-4-rebuttal", "point-4-balanced-view", "point-4-stance"]),language:new Set(["parallelism-juxtaposition", "rule-of-three", "modal", "comparatives", "contrast", "adjectives-adverbs", "negative-statements", "personification", "reification", "simile", "metaphor", "metonymy-synecdoche", "double-literary-devices", "phrasal-verbs", "concession", "precise-vocabulary", "sentence-structure", "supporting-details", "rephrasing", "rhetorical-questions", "common-expressions", "collocations", "power-words", "prepositional-phrases", "compound-nouns", "synonyms", "polysemy", "idioms", "proverbs", "native-english", "advanced-native-english", "hedging", "correct-tense", "varied-tense", "correct-articles-number", "emotional-attribution", "ppf", "wh-word", "quotes", "thematic-vocabulary", "irregular-verbs", "change-pos", "clear-timeline", "self-correction", "other-literary-devices", "fluency-quick-response", "fluency-fluid-speech", "connectives", "double-adjectives", "body-gestures", "body-head-movement", "body-smiles-laughs"]),mistakes:new Set(["grammar", "repetitive-words", "wrong-paraphrasing", "lack-explanation", "lack-example", "wrong-structure", "lack-response", "irrelevance", "inactive", "dominance", "dead-air", "excessive-fillers", "lack-gestures", "lack-head-movement", "lack-eye-contact", "monotone", "ed-ing-adjectives"])};
 
 const RECORDING_PUBLIC_FIELDS = [
   "id",
@@ -1897,11 +1885,11 @@ function normalizePerformanceChecklist(value) {
     throw new HttpError(400, "INVALID_PERFORMANCE_CHECKLIST", "Invalid performance checklist");
   }
   const keys = Object.keys(value).sort();
-  if (keys.length !== 3 || keys[0] !== "content" || keys[1] !== "language" || keys[2] !== "version" || value.version !== 1) {
+  if (!(value.version === 1 && keys.join(",") === "content,language,version") && !(value.version === 2 && keys.join(",") === "content,language,mistakes,version")) {
     throw new HttpError(400, "INVALID_PERFORMANCE_CHECKLIST", "Invalid performance checklist");
   }
-  const normalized = { version: 1, content: [], language: [] };
-  for (const kind of ["content", "language"]) {
+  const normalized = { version: value.version, content: [], language: [], ...(value.version===2?{mistakes:[]}: {}) };
+  for (const kind of (value.version===2?["content","language","mistakes"]:["content","language"])) {
     if (!Array.isArray(value[kind]) || value[kind].length > PERFORMANCE_CHECKLIST_IDS[kind].size) {
       throw new HttpError(400, "INVALID_PERFORMANCE_CHECKLIST", "Invalid performance checklist");
     }
@@ -1968,7 +1956,7 @@ async function parseMultipartUpload(request, env) {
   const checklistValue = singleFormText(form, "performanceChecklist", false);
   let performanceChecklist = null;
   if (checklistValue) {
-    if (checklistValue.length > 4096) {
+    if (checklistValue.length > 16384) {
       throw new HttpError(400, "INVALID_PERFORMANCE_CHECKLIST", "Invalid performance checklist");
     }
     try {
