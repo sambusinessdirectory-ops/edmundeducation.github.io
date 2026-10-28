@@ -1,7 +1,7 @@
 import { PROVERB_COMPASS } from './proverb-compass-data.mjs?v=20261028-nextnine1';
 import { mountProverbCompass } from './proverb-compass-view.mjs?v=20261028-nextnine1';
 import { stages as compassStages, shuffled as compassShuffle } from './proverb-curation-core.mjs?v=20261028-1';
-import { COMPASS_VERSION, readCompassCache, writeCompassCache, hydrateCompassSelections, applyCompassAnswer, reviewedOriginalCount, replayPending } from './proverb-compass-progress.mjs?v=20261028-nextnine1';
+import { COMPASS_VERSION, readCompassCache, writeCompassCache, hydrateCompassFallback, hydrateCompassSelections, applyCompassAnswer, reviewedOriginalCount, replayPending } from './proverb-compass-progress.mjs?v=20261028-firefox-storage1';
 let compassView = null;
 let compassSaveTimer = null;
 let compassSaveQueue = Promise.resolve();
@@ -754,6 +754,7 @@ async function openDashboard({ force = false } = {}) {
   if (state.user?.role !== "student") return;
   const userId = String(state.user?.id || "");
   const authToken = String(state.authToken || "");
+ await hydrateCompassFallback(userId,Object.keys(PROVERB_COMPASS));
   const timeSave = pauseExerciseClock({ persist: true });
   state.progressPanelExpanded = readProgressPanelPreference();
   state.showCumulativeProgress = readCumulativeProgressPreference();
@@ -2160,7 +2161,8 @@ function renderCompassLesson(sourceLesson, {preserveScroll = false} = {}) {
     const latest = readCompassCache(localStorage, owner, lesson.id);
     cache.pending = latest.pending;
     if (exercise) cache.exercise = exercise;
-    if (!writeCompassCache(localStorage, owner, lesson.id, cache)) showToast('此瀏覽器無法保留裝置進度。請保持連線以同步原有題目；延伸題離開後可能重設。', 'error');
+    const warn=()=>{if(String(state.user?.id||'')===owner)showToast('此瀏覽器無法保留裝置進度。請保持連線以同步原有題目；延伸題離開後可能重設。','error');};
+    if (!writeCompassCache(localStorage, owner, lesson.id, cache, warn)) warn();
   };
   compassView = mountProverbCompass({container: elements.lessonContent, lesson, page: state.lessonPage, selections: cache.selections, bookmarks: marks,
     onSave: save,
