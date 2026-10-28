@@ -1,9 +1,16 @@
 {
-  "name":"edmund-instagram-followers",
-  "main":"src/index.mjs",
-  "compatibility_date":"2026-10-28",
-  "workers_dev":true,
-  "preview_urls":false,
-  "r2_buckets":[{"binding":"COUNTS","bucket_name":"edmund-assets"}],
-  "triggers":{"crons":["20 5 * * *"]}
+  "name": "edmund-instagram-followers",
+  "main": "src/index.mjs",
+  "compatibility_date": "2026-10-28",
+  "workers_dev": true,
+  "preview_urls": false,
+  "r2_buckets": [
+    {
+      "binding": "COUNTS",
+      "bucket_name": "edmund-assets"
+    }
+  ],
+  "triggers": {
+    "crons": []
+  }
 }

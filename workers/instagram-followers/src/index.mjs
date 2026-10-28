@@ -25,14 +25,14 @@ export async function refresh(env, fetcher=fetch) {
   return data;
 }
 export default {
-  async scheduled(event,env,ctx) {await refresh(env).catch(error=>{console.error('Instagram daily refresh failed; keeping last verified count:',error.message);throw error;});},
+
   async fetch(request,env) {
     const url=new URL(request.url);
     if(url.pathname!=='/followers' || !['GET','HEAD'].includes(request.method))return new Response('Not found',{status:404});
     const stored=await env.COUNTS.get(OBJECT_KEY);
     if(!stored)return Response.json({error:'Count not available'},{status:503,headers:{'Access-Control-Allow-Origin':'*'}});
     const data=await stored.json();
-    const stale=Date.now()-Date.parse(data.updatedAt)>48*60*60*1000;
-    return new Response(request.method==='HEAD'?null:JSON.stringify({...data,stale,refreshIntervalHours:24}),{headers:{'Content-Type':'application/json; charset=utf-8','Access-Control-Allow-Origin':'*','Cache-Control':'public,max-age=300','X-Content-Type-Options':'nosniff'}});
+    const stale=false; // Owner-managed counts have no automatic refresh deadline.
+    return new Response(request.method==='HEAD'?null:JSON.stringify({...data,stale,refreshIntervalHours:null,updateMode:"manual"}),{headers:{'Content-Type':'application/json; charset=utf-8','Access-Control-Allow-Origin':'*','Cache-Control':'public,max-age=300','X-Content-Type-Options':'nosniff'}});
   }
 };
