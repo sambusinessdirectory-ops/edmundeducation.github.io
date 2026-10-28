@@ -1,21 +1,24 @@
-/* ImageGen frame assets stay outside each card's painted illustration. */
+/* Paint the card art under the metal so the frame has no empty inner gutter. */
 .category-strip a.category {
-  border: 20px solid transparent !important;
-  border-image-source: url('homepage-frame-silver-amethyst-v1.webp') !important;
-  border-image-slice: 160 !important;
-  border-image-width: 20px !important;
+  border: 19px solid transparent !important;
+  border-image-source: url('homepage-frame-silver-amethyst-v2.webp') !important;
+  border-image-slice: 150 !important;
+  border-image-width: 19px !important;
   border-image-repeat: stretch !important;
-  background-clip: padding-box !important;
-  padding: 2px !important;
+  background-clip: border-box !important;
+  padding: 3px 7px 18px !important;
   box-shadow: none !important;
 }
+.category-strip a.category[data-fantasy-frame="ember-wide"] {
+  border-image-source: url('homepage-frame-dark-ember-wide-v2.webp') !important;
+}
 .category-strip a.category[data-fantasy-frame="tall"] {
-  border-image-source: url('homepage-frame-dark-ember-v1.webp') !important;
+  border-image-source: url('homepage-frame-dark-ember-tall-v2.webp') !important;
 }
 @media (max-width: 760px) {
   .category-strip a.category {
-    border-width: 17px !important;
-    border-image-width: 17px !important;
-    padding: 2px !important;
+    border-width: 18px !important;
+    border-image-width: 18px !important;
+    padding: 3px 7px 18px !important;
   }
 }
