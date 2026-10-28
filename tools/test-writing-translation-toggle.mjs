@@ -321,6 +321,10 @@ function createHarness(applicationSource, dataFiles) {
         }))
       }),
       exerciseIds: () => Object.keys(writingExercises),
+      allExercises: () => writingExercises,
+      startSetup: () => startPracticeSetup(),
+      restartSelected: () => restartSelectedPractice(),
+      targets: () => getPracticeTargets(currentExercise()),
       state: () => practiceState,
       saveUnfinished:()=>saveUnfinishedWritingPractice(),resumeAttempt:(...args)=>resumeWritingAttempt(...args),resumeRows:()=>writingResumeRows(),
       clearPractice:()=>{practiceState=null;},
@@ -1863,3 +1867,80 @@ assert.equal(authStore.getItem("test-auth-storage-key"), "memory-token",
 authStore.removeItem("test-auth-storage-key");
 assert.equal(authStore.getItem("test-auth-storage-key"), null);
 console.log("Supabase Auth storage falls back safely through tab and in-memory storage.");
+
+{
+// Full -> partial -> submit -> leave/reopen: hidden work remains recoverable.
+const persistenceHarness = createHarness(source, writingDataFiles);
+const ph = persistenceHarness.hooks;
+ph.setCurrentStudent({ id: "paragraph-saver", name: "Paragraph Saver" });
+const persistenceFixture = fixtureExercise();
+persistenceFixture.practiceDifficultySets = [];
+persistenceFixture.paragraphs = ["Introduction", "Body 1", "Body 2", "Conclusion"].map((label, i) => ({
+  label, sentences: [{parts: ["Sentence ", {answer: `answer${i}`}, "."]}]
+}));
+ph.installExercise(persistenceFixture);
+ph.setupEvents();
+ph.startMode("blank");
+const persistenceInputHandler = persistenceHarness.documentListeners.get("input")[0];
+const persistenceClick = persistenceHarness.documentListeners.get("click")[0];
+const allTargets = [...ph.targets()];
+for (const [i, target] of allTargets.entries()) {
+  const input = {value: i < 2 ? target.answer : `unfinished${i}`,
+    getAttribute: () => target.id, closest(selector) { return selector === "[data-answer-id]" ? this : null; }};
+  persistenceInputHandler({target: input});
+  const stored = JSON.parse(persistenceHarness.localStorage.getItem("edmund-writing-drafts-v1:id:paragraph-saver"));
+  assert.equal(stored[persistenceFixture.id].state.answers[target.id], input.value, "Each input must persist immediately");
+}
+await persistenceClick({target: clickTarget("data-back-practice-mode")});
+ph.updateParagraph(2, false); ph.updateParagraph(3, false);
+ph.startMode("start");
+assert.equal(ph.targets().length, 2);
+assert.equal(ph.state().answers[allTargets[2].id], "unfinished2");
+await ph.submitRound();
+assert.equal(ph.state().lastResult.total, 2, "Submission grades only selected paragraphs");
+assert.equal(ph.state().lastResult.correct, 2);
+assert.equal(ph.state().answers[allTargets[3].id], "unfinished3");
+await persistenceClick({target: clickTarget("data-return-practice-modes")});
+assert.equal(ph.state().answers[allTargets[2].id], "unfinished2", "Results return button must retain hidden answers");
+// Simulate a new page with only durable storage carried across.
+const reloaded = createHarness(source, writingDataFiles);
+const rh = reloaded.hooks;
+rh.setCurrentStudent({id: "paragraph-saver", name: "Paragraph Saver"});
+rh.installExercise(persistenceFixture);
+reloaded.localStorage.setItem("edmund-writing-drafts-v1:id:paragraph-saver",
+  persistenceHarness.localStorage.getItem("edmund-writing-drafts-v1:id:paragraph-saver"));
+rh.clearPractice(); rh.startSetup();
+assert.equal(rh.state().answers[allTargets[2].id], "unfinished2", "Reopening restores hidden work after successful partial submission");
+assert.deepEqual(Array.from(rh.state().selectedParagraphs), [0,1]);
+rh.updateParagraph(2,true); rh.updateParagraph(3,true);
+rh.updateParagraph(0,false); rh.updateParagraph(1,false);
+rh.startMode("blank");
+assert.equal(rh.targets().length, 2);
+assert.ok(rh.renderRound().includes('value="unfinished2"'));
+rh.restartSelected();
+assert.equal(rh.state().answers[allTargets[2].id], undefined);
+assert.equal(rh.state().answers[allTargets[0].id], "answer0", "Explicit restart does not erase hidden completed work");
+rh.setCurrentStudent({id:"other-saver", name:"Other Saver"});rh.clearPractice();rh.startSetup();
+assert.equal(Object.keys(rh.state().answers).length, 0, "Saved passage answers remain account-isolated");
+console.log("Immediate answer persistence, both mode buttons, partial submission, page reload, hidden paragraphs, scoped restart and account isolation passed.");
+
+const corpus = createHarness(source, writingDataFiles).hooks.allExercises();
+let translationUnits = 0, translationLines = 0;
+const translationViolations = [];
+function auditTranslation(value, path) {
+  if (typeof value === "string") {
+    if (!/[\u3400-\u9fff]/u.test(value)) return;
+    translationUnits++;
+    translationLines += value.split(/\n/).filter(line => line.trim()).length;
+    if (/不是[^。！？]*而是/u.test(value) || /(?<!反)而是(?!次)/u.test(value)) translationViolations.push(path);
+  } else if (Array.isArray(value)) value.forEach((item,i)=>auditTranslation(item,`${path}[${i}]`));
+  else if (value && typeof value === "object") Object.entries(value).forEach(([key,item])=>auditTranslation(item,`${path}.${key}`));
+}
+for (const [id, exercise] of Object.entries(corpus)) {
+  auditTranslation(exercise.translation, `${id}.translation`);
+  auditTranslation(exercise.translationSections, `${id}.translationSections`);
+}
+assert.deepEqual(translationViolations, []);
+console.log(`Chinese translation corpus audited: ${Object.keys(corpus).length} exercises; ${translationUnits} Chinese string fields; ${translationLines} nonempty lines; zero prohibited contrast constructions.`);
+
+}

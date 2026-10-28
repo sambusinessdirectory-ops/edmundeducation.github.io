@@ -180,7 +180,7 @@ window.EDMUND_BUSINESS_WRITING_STANDARD_RESPONSE_BOOK1_EXERCISES = {
           {
             "label": "Example",
             "english": "For example, if a company is considering a new product launch but demand is still unclear, it may avoid a full-scale rollout and test the market first. That is often the smarter move, because it limits the downside while keeping the opportunity alive. In uncertain conditions, strong businesses do not bet the farm; they usually stage their decisions.",
-            "chinese": "例如，如果一家公司正在考慮推出新產品，但市場需求仍然不明朗，它可能不會一開始就全面推出，而是先做市場測試。這通常是更聰明的做法，因為它一方面能控制下行風險，另一方面又保留住機會。在不確定的環境下，強的企業不會孤注一擲；它們會分階段作決策。"
+            "chinese": "例如，如果一家公司正在考慮推出新產品，但市場需求仍然不明朗，它可能先做市場測試，暫緩全面推出。這通常是更聰明的做法，因為它一方面能控制下行風險，另一方面又保留住機會。在不確定的環境下，強的企業不會孤注一擲；它們會分階段作決策。"
           }
         ]
       },
@@ -240,7 +240,7 @@ window.EDMUND_BUSINESS_WRITING_STANDARD_RESPONSE_BOOK1_EXERCISES = {
           {
             "label": "Conclusion 2",
             "english": "Overall, I’d say uncertainty does not mean a business should freeze; what it really demands is clearer thinking, better preparation, and smarter decisions. In business, you rarely get perfect clarity, so the real skill is not waiting for the fog to lift, but learning how to lead through it.",
-            "chinese": "總結來說，我會說，不確定性並不代表企業應該停住不動；它真正要求的是更清晰的思考、更周全的準備，以及更聰明的決策。在商業世界裡，你很少會得到百分之百的清晰度，所以真正的能力，不是等迷霧散去，而是學會在迷霧中帶路。"
+            "chinese": "總結來說，我會說，不確定性並不代表企業應該停住不動；它真正要求的是更清晰的思考、更周全的準備，以及更聰明的決策。在商業世界裡，你很少會得到百分之百的清晰度，所以真正的能力在於學會在迷霧中帶路，不能只等迷霧散去。"
           }
         ]
       }
@@ -248,12 +248,12 @@ window.EDMUND_BUSINESS_WRITING_STANDARD_RESPONSE_BOOK1_EXERCISES = {
     "translation": [
       "我會說，不確定性會令商業決策變得更困難、更緩慢，也更需要拿捏分寸，因為領導者很多時都要在資訊並不完整的情況下作出決定。",
       "在商業環境裡，不確定性會令需求、成本、競爭、監管以及時機都變得不明朗。當一家公司不確定市場會怎樣走、客戶會如何反應，或者下一個風險會從哪裡冒出來時，每一個重要決策的分量都會變得更重。因此，公司通常會在招聘、投資、定價和擴張方面變得更審慎。從這個角度來看，不確定性不只是帶來風險；它其實是在考驗判斷力。",
-      "例如，如果一家公司正在考慮推出新產品，但市場需求仍然不明朗，它可能不會一開始就全面推出，而是先做市場測試。這通常是更聰明的做法，因為它一方面能控制下行風險，另一方面又保留住機會。在不確定的環境下，強的企業不會孤注一擲；它們會分階段作決策。",
+      "例如，如果一家公司正在考慮推出新產品，但市場需求仍然不明朗，它可能先做市場測試，暫緩全面推出。這通常是更聰明的做法，因為它一方面能控制下行風險，另一方面又保留住機會。在不確定的環境下，強的企業不會孤注一擲；它們會分階段作決策。",
       "所以，在我看來，不確定性對商業決策的影響，在於它迫使領導者在速度和審慎之間取得平衡。他們仍然要行動，只是行動必須更有紀律。",
       "不過，不確定性也不一定完全是壞事；有時候，它反而會令決策變得更銳利。",
       "當外部環境不斷變動時，薄弱的思考方式很快就會露出破綻。不確定性會迫使公司重新檢視假設、壓力測試計劃、保護現金流，並且更貼近客戶。它會把那些只是看起來很忙的企業，和那些真正有策略的企業區分開來。換句話說，不確定性也許令人不安，但它有時反而能讓問題變得更清楚。",
       "例如，當市場環境不穩定時，一個強的管理團隊可能會把一個大的決策拆成較小的步驟：先做試點、再看數字、再調整方案，然後只在訊號夠明確時才擴大規模。這種有紀律的靈活性，往往正是企業保持韌性的關鍵。",
-      "總結來說，我會說，不確定性並不代表企業應該停住不動；它真正要求的是更清晰的思考、更周全的準備，以及更聰明的決策。在商業世界裡，你很少會得到百分之百的清晰度，所以真正的能力，不是等迷霧散去，而是學會在迷霧中帶路。"
+      "總結來說，我會說，不確定性並不代表企業應該停住不動；它真正要求的是更清晰的思考、更周全的準備，以及更聰明的決策。在商業世界裡，你很少會得到百分之百的清晰度，所以真正的能力在於學會在迷霧中帶路，不能只等迷霧散去。"
     ],
     "practiceModes": [
       "blank",
@@ -1307,7 +1307,7 @@ window.EDMUND_BUSINESS_WRITING_STANDARD_RESPONSE_BOOK1_EXERCISES = {
           {
             "label": "Explanation",
             "english": "To begin with, judgment matters because managers are not paid merely to stay busy; they are paid to make sound calls. They need to separate signals from noise, decide what matters most, and know when to move. Just as importantly, communication is what turns a decision into a shared direction. A vague message creates drift, whereas a clear one creates alignment. Then comes execution, which is where plans either take shape or fall apart. Strategy may win attention, but follow-through wins trust.",
-            "chinese": "首先，判斷力之所以重要，是因為管理者的價值不只是忙碌，而是在於能作出穩健決定。他們要分辨甚麼是關鍵訊號、甚麼只是雜音，知道甚麼最重要，也知道何時出手。同樣重要的是，溝通力能把決定轉化為共同方向。訊息一旦含糊，團隊就容易漂移；訊息一旦清楚，方向就能對齊。然後就是執行力，因為計劃究竟能不能落地，往往就在這裡見真章。策略可以吸引注意，但真正贏得信任的，是後續落實。"
+            "chinese": "首先，判斷力之所以重要，是因為管理者的價值在於能作出穩健決定，單靠忙碌並不足夠。他們要分辨甚麼是關鍵訊號、甚麼只是雜音，知道甚麼最重要，也知道何時出手。同樣重要的是，溝通力能把決定轉化為共同方向。訊息一旦含糊，團隊就容易漂移；訊息一旦清楚，方向就能對齊。然後就是執行力，因為計劃究竟能不能落地，往往就在這裡見真章。策略可以吸引注意，但真正贏得信任的，是後續落實。"
           }
         ]
       },
@@ -1331,7 +1331,7 @@ window.EDMUND_BUSINESS_WRITING_STANDARD_RESPONSE_BOOK1_EXERCISES = {
           {
             "label": "Conclusion",
             "english": "Seen in that light, the heart of management is not control for its own sake, but the ability to think clearly, align people, and deliver results.",
-            "chinese": "從這個角度看，管理的核心並不是為了控制而控制，而是能夠清楚思考、對齊團隊，並交出結果。"
+            "chinese": "從這個角度看，管理的核心在於清晰思考、凝聚團隊並交出成果，避免為控制而控制。"
           }
         ]
       },
@@ -1386,9 +1386,9 @@ window.EDMUND_BUSINESS_WRITING_STANDARD_RESPONSE_BOOK1_EXERCISES = {
     ],
     "translation": [
       "如果要我把它濃縮成三項，我會選判斷力、溝通力，以及執行力。",
-      "首先，判斷力之所以重要，是因為管理者的價值不只是忙碌，而是在於能作出穩健決定。他們要分辨甚麼是關鍵訊號、甚麼只是雜音，知道甚麼最重要，也知道何時出手。同樣重要的是，溝通力能把決定轉化為共同方向。訊息一旦含糊，團隊就容易漂移；訊息一旦清楚，方向就能對齊。然後就是執行力，因為計劃究竟能不能落地，往往就在這裡見真章。策略可以吸引注意，但真正贏得信任的，是後續落實。",
+      "首先，判斷力之所以重要，是因為管理者的價值在於能作出穩健決定，單靠忙碌並不足夠。他們要分辨甚麼是關鍵訊號、甚麼只是雜音，知道甚麼最重要，也知道何時出手。同樣重要的是，溝通力能把決定轉化為共同方向。訊息一旦含糊，團隊就容易漂移；訊息一旦清楚，方向就能對齊。然後就是執行力，因為計劃究竟能不能落地，往往就在這裡見真章。策略可以吸引注意，但真正贏得信任的，是後續落實。",
       "以產品延期為例，一位強的管理者會先找出真正的卡點，然後用清楚直接的語言講明優先次序，最後推動合適的人同步行動。這就是現實世界裡的管理：作出決定、帶著團隊前進，並把事情真正做完。",
-      "從這個角度看，管理的核心並不是為了控制而控制，而是能夠清楚思考、對齊團隊，並交出結果。",
+      "從這個角度看，管理的核心在於清晰思考、凝聚團隊並交出成果，避免為控制而控制。",
       "即便如此，這三種能力也不是各自獨立運作的；帶人能力其實貫穿在三者之中。",
       "換句話說，只有判斷而沒有信任，會顯得冷；只有溝通而沒有同理，會顯得空；只有執行而沒有認同，則很容易把團隊推到耗盡。所以，更深一層來看，強的管理也關乎看懂氣氛、在壓力下保持穩定，以及讓團隊在高表現之下不至於被壓垮。",
       "這也是為甚麼有些技術上非常出色的管理者，最後仍然帶不好團隊。他們也許很快就能看出問題，但如果無法建立信任，或者無法帶出動能，團隊仍然會卡住。相反，一位清晰、冷靜而且穩定的管理者，往往能以更少的摩擦做成更多事情。",
@@ -1881,7 +1881,7 @@ window.EDMUND_BUSINESS_WRITING_STANDARD_RESPONSE_BOOK1_EXERCISES = {
           {
             "label": "Explanation",
             "english": "When a manager checks every tiny detail, people start to feel second-guessed rather than supported. That quickly drains confidence. Instead of thinking independently, employees wait for approval, play it safe, and stop taking initiative. The manager then becomes a bottleneck, so even simple decisions take longer than they should.",
-            "chinese": "當一位管理者連每一個小細節都要盯緊，員工感受到的往往不是支持，而是不被信任、處處被懷疑。這很快就會消磨他們的信心。員工不再主動思考，而是凡事等批准、走最保守的路，也不再主動出擊。到最後，管理者自己反而變成了瓶頸，令本來很簡單的決定都要花更久時間。"
+            "chinese": "當一位管理者連每一個小細節都要盯緊，員工往往感到不被信任、處處受懷疑，難以感受到支持。這很快就會消磨他們的信心。員工凡事等待批准、選擇最保守的做法，逐漸失去主動思考和行動的意願。到最後，管理者自己反而變成了瓶頸，令本來很簡單的決定都要花更久時間。"
           }
         ]
       },
@@ -1953,20 +1953,20 @@ window.EDMUND_BUSINESS_WRITING_STANDARD_RESPONSE_BOOK1_EXERCISES = {
           {
             "label": "Conclusion 2",
             "english": "Overall, micromanagement creates a fragile team: people become dependent, managers become overloaded, and performance loses momentum. That said, close guidance can still be useful when someone is new, when the stakes are unusually high, or when a team is in crisis. The key is to provide direction without choking initiative.",
-            "chinese": "總結來說，微觀管理會造成一個脆弱的團隊：員工變得依賴、管理者變得過載，而整體表現也會失去動能。不過，當一個人是新手、事情風險特別高，或者團隊正處於危機時，更密切的指導仍然可能有用。關鍵不在於放任不管，而是在提供方向的同時，不要扼殺主動性。"
+            "chinese": "總結來說，微觀管理會造成一個脆弱的團隊：員工變得依賴、管理者變得過載，而整體表現也會失去動能。不過，當一個人是新手、事情風險特別高，或者團隊正處於危機時，更密切的指導仍然可能有用。關鍵在於提供方向，同時保留員工的主動性，避免放任不管。"
           }
         ]
       }
     ],
     "translation": [
       "微觀管理通常會帶來三個主要問題：削弱信任、拖慢執行，以及降低責任感。",
-      "當一位管理者連每一個小細節都要盯緊，員工感受到的往往不是支持，而是不被信任、處處被懷疑。這很快就會消磨他們的信心。員工不再主動思考，而是凡事等批准、走最保守的路，也不再主動出擊。到最後，管理者自己反而變成了瓶頸，令本來很簡單的決定都要花更久時間。",
+      "當一位管理者連每一個小細節都要盯緊，員工往往感到不被信任、處處受懷疑，難以感受到支持。這很快就會消磨他們的信心。員工凡事等待批准、選擇最保守的做法，逐漸失去主動思考和行動的意願。到最後，管理者自己反而變成了瓶頸，令本來很簡單的決定都要花更久時間。",
       "例如，如果一位主管連每一封電郵都要改、每一個小改動都要批、每一個小決定都要追問，團隊表面上可能看起來很忙，但真正的進度卻會慢得像爬行一樣。大家花在「向上管理」的時間，可能比真正解決問題的時間還多。",
       "所以，從實際角度來看，微觀管理也許能減少一些短期的小風險，但它往往會製造更大的長期代價：士氣更低、工作更慢，以及問責更弱。",
       "除此之外，微觀管理還會在不知不覺間傷害創新能力和人才留任。",
       "當員工覺得自己每一步都被盯著看時，他們通常就不再願意多說、不再願意主動表達。他們會避開大膽的想法、掩飾小錯誤，並且只選最安全的做法。久而久之，有能力的員工會覺得自己被困住、慢慢失去投入感，有些人最後甚至會選擇離開。從這個角度來看，微觀管理不只是控制工作；它其實是在壓縮員工發揮最佳表現所需要的空間。",
       "一位在市場推廣、營運或產品開發方面本來很有想法的員工，起初也許會提出不少好點子；但如果他做的每一步都被過度挑剔，那麼他很快就不會再願意多走一步。他會把工作做完，但不再把自己最好的判斷力和心力帶進工作裡。",
-      "總結來說，微觀管理會造成一個脆弱的團隊：員工變得依賴、管理者變得過載，而整體表現也會失去動能。不過，當一個人是新手、事情風險特別高，或者團隊正處於危機時，更密切的指導仍然可能有用。關鍵不在於放任不管，而是在提供方向的同時，不要扼殺主動性。"
+      "總結來說，微觀管理會造成一個脆弱的團隊：員工變得依賴、管理者變得過載，而整體表現也會失去動能。不過，當一個人是新手、事情風險特別高，或者團隊正處於危機時，更密切的指導仍然可能有用。關鍵在於提供方向，同時保留員工的主動性，避免放任不管。"
     ],
     "practiceModes": [
       "blank",
@@ -3053,7 +3053,7 @@ window.EDMUND_BUSINESS_WRITING_STANDARD_RESPONSE_BOOK1_EXERCISES = {
           {
             "label": "Response Part 3",
             "english": "For example, a company may turn down an attractive partnership, drop a weak product line, or stop pursuing a market that looks exciting but does not fit its core strengths. Those decisions can feel uncomfortable in the short term, but they often protect focus and sharpen execution. That is why strong strategy is often less about adding more and more, and more about cutting with precision.",
-            "chinese": "例如，一間公司可能會拒絕一個看似吸引的合作機會、砍掉表現疲弱的產品線，或者停止追逐一個雖然很有話題性、卻不符合自己核心優勢的市場。這些決定在短期內也許會讓人覺得可惜，但它們往往能保住焦點，並且令執行更有力。這也就是為甚麼強策略很多時候不是一味加法，而是精準地做減法。"
+            "chinese": "例如，一間公司可能會拒絕一個看似吸引的合作機會、砍掉表現疲弱的產品線，或者停止追逐一個雖然很有話題性、卻不符合自己核心優勢的市場。這些決定在短期內也許會讓人覺得可惜，但它們往往能保住焦點，並且令執行更有力。這也就是為甚麼強而有力的策略往往靠精準取捨，無須一味增加事項。"
           }
         ]
       },
@@ -3121,7 +3121,7 @@ window.EDMUND_BUSINESS_WRITING_STANDARD_RESPONSE_BOOK1_EXERCISES = {
     "translation": [
       "如果一定要我選，我會說更重要的策略問題通常是「不做甚麼」。",
       "原因其實很簡單：策略不只是追逐機會，更是有紀律地作出取捨。每一家公司都有有限的時間、資金、人才，以及管理層的注意力。如果一間企業甚麼都想做，它就很容易把資源攤得太薄、失去焦點，最後變成看起來很忙，卻未必真的有效。從這個角度來看，「不做甚麼」其實正是策略真正開始的地方，因為它把優先事項和分心因素分開了。",
-      "例如，一間公司可能會拒絕一個看似吸引的合作機會、砍掉表現疲弱的產品線，或者停止追逐一個雖然很有話題性、卻不符合自己核心優勢的市場。這些決定在短期內也許會讓人覺得可惜，但它們往往能保住焦點，並且令執行更有力。這也就是為甚麼強策略很多時候不是一味加法，而是精準地做減法。",
+      "例如，一間公司可能會拒絕一個看似吸引的合作機會、砍掉表現疲弱的產品線，或者停止追逐一個雖然很有話題性、卻不符合自己核心優勢的市場。這些決定在短期內也許會讓人覺得可惜，但它們往往能保住焦點，並且令執行更有力。這也就是為甚麼強而有力的策略往往靠精準取捨，無須一味增加事項。",
       "所以，從策略角度來看，知道「不做甚麼」往往更能保護清晰度、速度，以及競爭優勢。",
       "不過，我也不會說「做甚麼」不重要。事實上，如果沒有清楚的方向，那麼對很多事情說不，其實也會變得空泛。",
       "一間企業始終還是需要一個明確而正面的選擇：要服務哪些客戶、要創造甚麼價值，以及要在哪裡取勝。換句話說，「做甚麼」決定目的地，而「不做甚麼」保護前進路線。前者提供方向，後者提供焦點。最強的策略其實兩者都需要，但更困難、也更能定義策略功力的，往往是說不的能力。",
@@ -3630,7 +3630,7 @@ window.EDMUND_BUSINESS_WRITING_STANDARD_RESPONSE_BOOK1_EXERCISES = {
           {
             "label": "Response Part 2",
             "english": "The reason is that management sets direction, priorities, accountability, and operating rhythm. If those things are weak, even strong people and reasonable processes can break down. Teams become unclear about who owns what, decisions move too slowly, and work starts slipping through the cracks. In other words, poor execution is often less about people not working hard, and more about the system around them not giving them a clear path to perform well.",
-            "chinese": "原因在於，管理層決定方向、優先次序、問責方式，以及整體運作節奏。如果這些東西本身不夠強，即使有不錯的人才和還算合理的流程，也一樣可能失靈。團隊會開始不清楚誰負責甚麼，決策推進太慢，工作也會一件一件從縫隙中漏掉。換句話說，執行力差很多時候不是因為員工不努力，而是因為他們所處的整個運作系統沒有給他們一條清晰的路去把事情做好。"
+            "chinese": "原因在於，管理層決定方向、優先次序、問責方式，以及整體運作節奏。如果這些東西本身不夠強，即使有不錯的人才和還算合理的流程，也一樣可能失靈。團隊會開始不清楚誰負責甚麼，決策推進太慢，工作也會一件一件從縫隙中漏掉。換句話說，執行力差往往源於運作系統未有提供清晰的做事路徑，並非員工不努力。"
           }
         ]
       },
@@ -3690,7 +3690,7 @@ window.EDMUND_BUSINESS_WRITING_STANDARD_RESPONSE_BOOK1_EXERCISES = {
           {
             "label": "Response Part 7",
             "english": "For instance, if sales keeps missing targets, the problem could be poor coaching from managers, but it could also be a broken approval flow, unclear pricing authority, or a team that simply lacks the commercial skills for the role. The smart question is not “Who do we blame?” but “Where is execution losing force?”",
-            "chinese": "例如，如果銷售團隊一直達不到目標，問題可能是管理者帶隊和指導做得不好，但也可能是審批流程失靈、定價權限不清，或者團隊本身根本缺乏這個職位所需要的商業能力。真正聰明的問題不是「應該怪誰」，而是「執行力到底在哪一個環節開始流失」。"
+            "chinese": "例如，如果銷售團隊一直達不到目標，問題可能是管理者帶隊和指導做得不好，但也可能是審批流程失靈、定價權限不清，或者團隊本身根本缺乏這個職位所需要的商業能力。真正有見地的提問應聚焦於「執行力到底在哪一個環節開始流失」，避免一味追問「應該怪誰」。"
           }
         ]
       },
@@ -3709,12 +3709,12 @@ window.EDMUND_BUSINESS_WRITING_STANDARD_RESPONSE_BOOK1_EXERCISES = {
     ],
     "translation": [
       "如果一定要我只給一個答案，我會說通常首先是管理問題，即使表面上看起來像流程問題或人才問題。",
-      "原因在於，管理層決定方向、優先次序、問責方式，以及整體運作節奏。如果這些東西本身不夠強，即使有不錯的人才和還算合理的流程，也一樣可能失靈。團隊會開始不清楚誰負責甚麼，決策推進太慢，工作也會一件一件從縫隙中漏掉。換句話說，執行力差很多時候不是因為員工不努力，而是因為他們所處的整個運作系統沒有給他們一條清晰的路去把事情做好。",
+      "原因在於，管理層決定方向、優先次序、問責方式，以及整體運作節奏。如果這些東西本身不夠強，即使有不錯的人才和還算合理的流程，也一樣可能失靈。團隊會開始不清楚誰負責甚麼，決策推進太慢，工作也會一件一件從縫隙中漏掉。換句話說，執行力差往往源於運作系統未有提供清晰的做事路徑，並非員工不努力。",
       "例如，一間公司可能擁有聰明的員工，也有很詳細的程序，但如果領導層不斷改變優先事項、迴避困難決定，或者沒有真正做好問責，那麼執行仍然會很混亂。會議愈開愈多，跟進卻愈來愈弱，截止日期也開始一再往後滑。到了這個時候，單純怪罪團隊，往往就是抓錯重點。",
       "所以，在很多情況下，管理其實是最關鍵的總槓桿，因為它決定了流程和人才在實際上能否真正發揮作用。",
       "不過，我也不會說流程和人才在每一種情況下都只是次要因素。有時候，它們確實是最直接的問題，即使更深層的原因仍然來自管理。",
       "如果流程本身過於肥大、太慢，或者充滿不必要的審批，即使團隊有能力，執行也可能卡住。同樣地，如果公司在關鍵位置放錯了人，再好的架構也未必救得回表現。弱的管理者會製造混亂，過時的流程會製造摩擦，而錯的人選則會拖慢整個團隊。這也就是為甚麼準確診斷很重要：表面症狀和真正根源，不一定是同一件事。",
-      "例如，如果銷售團隊一直達不到目標，問題可能是管理者帶隊和指導做得不好，但也可能是審批流程失靈、定價權限不清，或者團隊本身根本缺乏這個職位所需要的商業能力。真正聰明的問題不是「應該怪誰」，而是「執行力到底在哪一個環節開始流失」。",
+      "例如，如果銷售團隊一直達不到目標，問題可能是管理者帶隊和指導做得不好，但也可能是審批流程失靈、定價權限不清，或者團隊本身根本缺乏這個職位所需要的商業能力。真正有見地的提問應聚焦於「執行力到底在哪一個環節開始流失」，避免一味追問「應該怪誰」。",
       "總結來說，我會說，執行力差表面上常常被診斷成流程問題或人才問題，但很多時候，追根究底還是會回到管理問題。好的管理能帶來清晰度、紀律，以及真正落地的跟進。沒有這些，流程就只會變成文書工作，而人才也只會變成被浪費的潛力。"
     ],
     "practiceModes": [
@@ -4883,7 +4883,7 @@ window.EDMUND_BUSINESS_WRITING_STANDARD_RESPONSE_BOOK1_EXERCISES = {
           {
             "label": "Explanation 2",
             "english": "What matters, then, is the quality of the profit. If earnings are recurring, cash-backed, supported by loyal customers, sensible debt levels, and ongoing reinvestment, that is a far healthier picture. In that case, profit is not just a headline number; it is evidence of a business model with real muscle and staying power.",
-            "chinese": "因此，真正重要的是利潤的「質素」。如果盈利是可持續、能重複出現的，有現金支持的，而且建立在忠誠客戶、合理債務水平，以及持續再投資之上，那就會是一幅健康得多的圖像。在那種情況下，利潤就不只是一個標題數字，而是商業模式具備真正實力與持久力的證據。"
+            "chinese": "因此，真正重要的是利潤的「質素」。如果盈利是可持續、能重複出現的，有現金支持的，而且建立在忠誠客戶、合理債務水平，以及持續再投資之上，那就會是一幅健康得多的圖像。在那種情況下，利潤不僅是一個亮眼數字，更能證明商業模式具備實力與持久力。"
           }
         ]
       },
@@ -4907,7 +4907,7 @@ window.EDMUND_BUSINESS_WRITING_STANDARD_RESPONSE_BOOK1_EXERCISES = {
           {
             "label": "Conclusion 2",
             "english": "All told, high profit is a clue, not a verdict. A healthy company is not merely one that makes money today, but one that can keep making money tomorrow without hollowing itself out.",
-            "chinese": "總結來說，高利潤是一條線索，但不是最終判決。真正健康的公司，不只是今天賺得到錢的公司，而是明天仍能持續賺錢，同時又不會把自己慢慢掏空的公司。"
+            "chinese": "總結來說，高利潤是一條線索，但不是最終判決。真正健康的公司既能在今天獲利，也能持續賺錢，且不會逐步耗盡自身資源。"
           }
         ]
       }
@@ -4918,9 +4918,9 @@ window.EDMUND_BUSINESS_WRITING_STANDARD_RESPONSE_BOOK1_EXERCISES = {
       "例如，一家公司為了推高今年盈利，大幅削減培訓、凍結招聘，並壓低維修開支。從帳面上看，利潤非常漂亮；但在現實裡，服務質素可能會下滑，優秀員工可能會離開，未來增長也可能慢慢枯萎。這就像把潮濕的牆面重新粉飾一樣：一時之間看起來很整齊，但問題其實還在。",
       "從這個角度看，高利潤可以代表實力，但單靠它本身並不能證明企業健康。利潤像一張照片，而不是整部影片。",
       "不過，若因此說利潤不重要，那也不對。事實上，當高利潤背後有正確的基本面支撐時，它就非常有意義。",
-      "因此，真正重要的是利潤的「質素」。如果盈利是可持續、能重複出現的，有現金支持的，而且建立在忠誠客戶、合理債務水平，以及持續再投資之上，那就會是一幅健康得多的圖像。在那種情況下，利潤就不只是一個標題數字，而是商業模式具備真正實力與持久力的證據。",
+      "因此，真正重要的是利潤的「質素」。如果盈利是可持續、能重複出現的，有現金支持的，而且建立在忠誠客戶、合理債務水平，以及持續再投資之上，那就會是一幅健康得多的圖像。在那種情況下，利潤不僅是一個亮眼數字，更能證明商業模式具備實力與持久力。",
       "可以想像一間公司，它擁有穩定的回頭生意、穩健的現金流、紀律良好的開支控制，並且仍有空間投資在人和產品上。在這種情況下，高利潤就不是障眼法，而通常反映這是一門真正被經營得很扎實的生意。",
-      "總結來說，高利潤是一條線索，但不是最終判決。真正健康的公司，不只是今天賺得到錢的公司，而是明天仍能持續賺錢，同時又不會把自己慢慢掏空的公司。"
+      "總結來說，高利潤是一條線索，但不是最終判決。真正健康的公司既能在今天獲利，也能持續賺錢，且不會逐步耗盡自身資源。"
     ],
     "practiceModes": [
       "blank",
@@ -5495,7 +5495,7 @@ window.EDMUND_BUSINESS_WRITING_STANDARD_RESPONSE_BOOK1_EXERCISES = {
           {
             "label": "Response Part 8",
             "english": "Overall, I’d say companies often sound innovative because the market rewards that language, but they behave conservatively because their incentives, structures, and fears pull in the opposite direction. Real innovation only happens when a business is willing not just to praise new ideas, but to fund them, protect them, and live with the discomfort that comes with them.",
-            "chinese": "總結來說，我會說，企業之所以常常在口頭上很創新，是因為市場喜歡聽這種語言；但它們在行動上卻很保守，是因為激勵機制、組織結構，以及對風險的恐懼，把它們拉向了相反方向。真正的創新，只有在一間企業不只是稱讚新想法，而是願意為它們投資、保護它們，並且承受創新本身帶來的不舒服時，才真正會發生。"
+            "chinese": "總結來說，我會說，企業之所以常常在口頭上很創新，是因為市場喜歡聽這種語言；但它們在行動上卻很保守，是因為激勵機制、組織結構，以及對風險的恐懼，把它們拉向了相反方向。真正的創新，只有在企業除了稱讚新想法，也願意投資和保護它們，並承受創新帶來的不適時，才會發生。"
           }
         ]
       }
@@ -5508,7 +5508,7 @@ window.EDMUND_BUSINESS_WRITING_STANDARD_RESPONSE_BOOK1_EXERCISES = {
       "除此之外，大型組織之所以容易變保守，還有一個原因：規模一大，層級就會變多；層級一多，摩擦也會跟著增加。",
       "一間公司愈多審批、愈多持份者、愈多匯報線，想要快速而果斷地推動新想法就愈困難。很多新點子最後不是被稀釋，就是被拖延，或者被送進沒完沒了的檢討程序裡。與此同時，中層管理者往往特別謹慎，因為他們被要求交出成果，卻又不能犯下太明顯的錯誤。在這種環境下，安全選擇看起來就很合理，而大膽選擇反而開始像是在拿自己的職涯冒險。換句話說，整個組織嘴巴上講的是創新，但情感和本能上仍然是為了控制而設計的。",
       "一個很好的例子，就是公司成立了一個所謂的「創新小組」，但給它的預算很少、權限很弱，也沒有真正替它擋住短期業績壓力。那個團隊也許能想出不少點子，但如果沒有真正支持，這些點子通常很難走出白板。到了最後，創新就變成一場表演，而不是真正的轉變。",
-      "總結來說，我會說，企業之所以常常在口頭上很創新，是因為市場喜歡聽這種語言；但它們在行動上卻很保守，是因為激勵機制、組織結構，以及對風險的恐懼，把它們拉向了相反方向。真正的創新，只有在一間企業不只是稱讚新想法，而是願意為它們投資、保護它們，並且承受創新本身帶來的不舒服時，才真正會發生。"
+      "總結來說，我會說，企業之所以常常在口頭上很創新，是因為市場喜歡聽這種語言；但它們在行動上卻很保守，是因為激勵機制、組織結構，以及對風險的恐懼，把它們拉向了相反方向。真正的創新，只有在企業除了稱讚新想法，也願意投資和保護它們，並承受創新帶來的不適時，才會發生。"
     ],
     "practiceModes": [
       "blank",

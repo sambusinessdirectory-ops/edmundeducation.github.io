@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-28",
+  "baseline": "41f8d46de2842e0d4bf69ed97787b8891205fa09",
+  "scope": "Writing Practice page and all 21 loaded Writing Practice data scripts; no unrelated portal corpus",
+  "translationAudit": {
+    "exerciseCount": 407,
+    "chineseStringFields": 20053,
+    "nonemptyLinesScanned": 22733,
+    "prohibitedConstructionRemaining": 0,
+    "editedOccurrencesBeforeRefinement": 295,
+    "changedChineseFieldsInExternalData": 241,
+    "unchangedExternalDataLeaves": 302487,
+    "review": "Every matching clause individually rewritten; paired English sources checked for revised translation units. Whole corpus scanned for prohibited syntax, including line-break variants. This does not certify unrelated pre-existing translation alignment or omissions."
+  },
+  "persistence": {
+    "storage": "Immediate localStorage per input, account-scoped; sessionStorage fallback when device storage is full. Explicit warning when both fail. No new cross-device draft synchronization.",
+    "preserves": [
+      "unselected paragraph answers",
+      "answers across hint modes",
+      "distinct difficulty-specific blank IDs",
+      "partial submission answers",
+      "reopen/reload state",
+      "existing attempt history"
+    ],
+    "restart": "Only explicitly restarted selected targets are cleared; remedial rounds clear only their target blanks."
+  },
+  "validation": [
+    "tools/test-writing-translation-toggle.mjs: 1607 corpus configurations and new partial-submission/reload regression passed",
+    "tools/audit-writing-chinese.mjs: external English and answer-key integrity passed",
+    "tools/test-writing-draft-browser.cjs: real browser input/mode/paragraph/submission/reopen passed; mobile screenshot inspected",
+    "git diff --check passed"
+  ],
+  "deployment": "pending"
+}
