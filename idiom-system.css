@@ -236,11 +236,15 @@ body > .site-header.edmund-system-header {
   overflow: hidden;
   color: #fff;
   background:
-    radial-gradient(circle at 76% 22%, rgba(255, 226, 92, .72), transparent 31%),
-    linear-gradient(145deg, #9d2416 0%, #eb451b 52%, #ff9d1d 100%);
+    linear-gradient(to bottom, transparent 35%, rgba(32, 19, 28, .46) 100%),
+    linear-gradient(145deg, rgba(109, 38, 24, .36), rgba(190, 80, 28, .16));
+  text-shadow: 0 2px 8px rgba(25, 16, 24, .7);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 
 .login-hero::after {
+  display: none;
   content: "";
   position: absolute;
   right: -90px;
@@ -252,6 +256,7 @@ body > .site-header.edmund-system-header {
 }
 
 .hero-grid {
+  display: none;
   position: absolute;
   inset: 0;
   opacity: .13;
