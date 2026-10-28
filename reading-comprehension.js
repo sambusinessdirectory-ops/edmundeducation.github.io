@@ -1774,7 +1774,7 @@ async function openThemeDirectory(kind) {
   const url=new URL(location.href);url.search='?view=themes&system='+kind;url.hash='';history.replaceState(null,'',url);
   const root=$('[data-reading-theme-finder]');root.innerHTML='正在載入主題目錄…';
   try {
-    const [module,response]=await Promise.all([import('./theme-finder.mjs?v=20261028'),fetch(kind+'-reading-themes.json?v=20261028')]);
+    const [module,response]=await Promise.all([import('./theme-finder.mjs?v=20261028-grouped'),fetch(kind+'-reading-themes.json?v=20261028')]);
     if(!response.ok)throw Error('load');const data=await response.json();
     if(state.view!=='themes'||state.system!==kind)return;
     module.mountThemeFinder(root,{data,onOpen:r=>kind==='dse'?openDseExercise(r.id):openExercise(r.id)});

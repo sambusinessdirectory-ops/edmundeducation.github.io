@@ -2146,7 +2146,7 @@
     dom.content.innerHTML=`<section class="content-panel">${sectionHeader('By Theme · 按主題練習',kind.toUpperCase()+' Speaking')}<div data-speaking-themes>正在載入主題目錄…</div></section>`;
     const root=dom.content.querySelector('[data-speaking-themes]');
     try {
-      const [module,response]=await Promise.all([import('./theme-finder.mjs?v=20261028'),fetch(kind+'-speaking-themes.json?v=20261028')]);
+      const [module,response]=await Promise.all([import('./theme-finder.mjs?v=20261028-grouped'),fetch(kind+'-speaking-themes.json?v=20261028')]);
       if(!response.ok)throw Error('load');
       const data=await response.json();
       if(kind==='ielts')data.rows=data.rows.filter(r=>hasAccess(['exam.ielts',`ielts.part.${r.part}`,`ielts.part.${r.part}.book.${r.book}`]));

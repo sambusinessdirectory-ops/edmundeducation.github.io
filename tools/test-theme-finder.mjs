@@ -16,6 +16,15 @@ for(const r of all['ielts-speaking'].rows){const d=r.part===1?w.EDMUND_SPEAKING_
 assert.deepEqual(new Set(all['ielts-reading'].rows.map(r=>r.id)),new Set(read('reading-comprehension-catalogue.json').articles.map(r=>r.id)));
 assert.deepEqual(new Set(all['dse-reading'].rows.map(r=>r.id)),new Set(read('dse-reading-catalogue.json').years.flatMap(y=>Object.values(y.sections).map(s=>s.id))));
 for(const [title,theme] of [['Black Gold','food'],['Coming of Age','business']])assert.ok(all['ielts-reading'].rows.find(r=>r.title===title)?.themes.includes(theme),title);
+const {groupThemeRows}=await import('../theme-finder.mjs');
+for(const [collection,data] of Object.entries(all)){
+ const groups=groupThemeRows(data.rows,collection);
+ assert.equal(groups.flatMap(g=>g.rows).length,data.rows.length);
+ assert.deepEqual(new Set(groups.flatMap(g=>g.rows.map(r=>r.id))),new Set(data.rows.map(r=>r.id)));
+ if(collection==='dse-speaking')assert.equal(groups.length,282);
+}
+const comedy=groupThemeRows(all['dse-speaking'].rows,'dse-speaking').find(g=>g.key==='2012:2.1');
+assert.equal(comedy.title,'King of Comedy');assert.ok(comedy.rows.some(r=>r.section==='group'));assert.ok(comedy.rows.some(r=>r.section==='individual'));
 console.log('PASS: 5,129 indexed items; source IDs, destinations, counts, labels and semantic regressions.');
 if(process.argv.includes('--dom')){
  const {JSDOM}=await import('./email-qa/node_modules/jsdom/lib/api.js');const dom=new JSDOM('<div id="root"></div>',{url:'https://edmundeducation.com'});globalThis.document=dom.window.document;globalThis.AbortController=dom.window.AbortController;
@@ -23,5 +32,9 @@ if(process.argv.includes('--dom')){
  root.querySelector('[data-more]').click();assert.equal(root.querySelectorAll('.tf-result').length,45);
  const search=root.querySelector('[data-search]');search.value='科技';search.dispatchEvent(new dom.window.Event('input',{bubbles:true}));assert.ok(root.querySelectorAll('.tf-result').length>0);assert.ok(root.querySelectorAll('.tf-result').length<45);
  root.querySelector('[data-clear]').click();const section=root.querySelector('[data-section]');section.value='B1';section.dispatchEvent(new dom.window.Event('change',{bubbles:true}));assert.equal(root.querySelectorAll('.tf-result').length,15);root.querySelector('[data-open]').click();assert.equal(opened.section,'B1');
- mountThemeFinder(root,{data:all['ielts-reading']});root.querySelector('[data-theme="sports"]').click();assert.equal(root.querySelector('[data-theme="sports"]').getAttribute('aria-pressed'),'true');console.log('PASS: search, reset, section filter, pagination, navigation and remount.');
+ mountThemeFinder(root,{data:all['ielts-reading']});root.querySelector('[data-theme="sports"]').click();assert.equal(root.querySelector('[data-theme="sports"]').getAttribute('aria-pressed'),'true');mountThemeFinder(root,{data:all['dse-speaking']});
+ const grouped=root.querySelector('[data-module="2012:2.1"]');assert.ok(grouped);assert.equal(grouped.querySelectorAll('h3').length,1);assert.equal(grouped.querySelectorAll('.tf-section').length,2);assert.equal(grouped.querySelectorAll('[data-open]').length,comedy.rows.length);
+ const firstGroups=groupThemeRows(all['dse-speaking'].rows,'dse-speaking').slice(0,30);assert.equal(root.querySelectorAll('[data-open]').length,firstGroups.reduce((n,g)=>n+g.rows.length,0));
+ const filter=root.querySelector('[data-section]');filter.value='individual';filter.dispatchEvent(new dom.window.Event('change',{bubbles:true}));assert.ok([...root.querySelectorAll('.tf-section h4')].every(e=>e.textContent.includes('Individual')));
+ console.log('PASS: grouped modules, complete pagination, search, reset, section filter, navigation and remount.');
 }
