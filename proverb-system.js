@@ -1,7 +1,7 @@
-import { PROVERB_COMPASS } from './proverb-compass-data.mjs?v=20261028-live1';
-import { mountProverbCompass } from './proverb-compass-view.mjs?v=20261028-live1';
+import { PROVERB_COMPASS } from './proverb-compass-data.mjs?v=20261028-nextnine1';
+import { mountProverbCompass } from './proverb-compass-view.mjs?v=20261028-nextnine1';
 import { stages as compassStages, shuffled as compassShuffle } from './proverb-curation-core.mjs?v=20261028-1';
-import { COMPASS_VERSION, readCompassCache, writeCompassCache, hydrateCompassSelections, applyCompassAnswer, reviewedOriginalCount, replayPending } from './proverb-compass-progress.mjs?v=20261028-live1';
+import { COMPASS_VERSION, readCompassCache, writeCompassCache, hydrateCompassSelections, applyCompassAnswer, reviewedOriginalCount, replayPending } from './proverb-compass-progress.mjs?v=20261028-nextnine1';
 let compassView = null;
 let compassSaveTimer = null;
 let compassSaveQueue = Promise.resolve();
@@ -17,7 +17,7 @@ import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=202
  * { version, system: "proverb", lessons: ProverbLesson[] }.
  *
  * Lesson IDs are permanent `proverb-NN` identifiers. Every published lesson has
- * exactly 50 questions named `proverb-NN-q01` through `proverb-NN-q50`.
+ * source-backed lessons retain 50 questions; newly authored lessons have 12.
  * Chinese copy belongs in `*Zh`/`zh`, English copy in `*En`/`en`, and lesson
  * phrases are highlighted only when content explicitly supplies `highlight` or
  * `highlights` metadata.
@@ -30,7 +30,7 @@ const SESSION_KEY = "edmund-proverb-system-session-v1";
 const PROGRESS_PANEL_PREFERENCE_KEY = "edmund-proverb-system-progress-panel-v1";
 const CUMULATIVE_PROGRESS_PREFERENCE_KEY = "edmund-proverb-system-cumulative-progress-v1";
 const SECTION_BOOKMARK_ID = "__section__";
-const MAX_BOOKMARKS = 153;
+const MAX_BOOKMARKS = 270;
 const LESSON_PAGES = 8;
 const EXERCISE_PAGE = 8;
 const ATTEMPT_PAGE_SIZE = 100;
@@ -183,7 +183,7 @@ function validLessonContract(lesson) {
   if (!String(lesson.titleZh || lesson.title || "").trim()) return false;
   if (!String(lesson.titleEn || lesson.englishTitle || "").trim()) return false;
   if (!lessonIllustration(lesson).src) return false;
-  if (!Array.isArray(lesson.questions) || lesson.questions.length !== 50) return false;
+  if (!Array.isArray(lesson.questions) || lesson.questions.length !== (Number(lesson.order)<=3?50:12)) return false;
 
   return lesson.questions.every((question, index) => {
     if (!isPlainObject(question)) return false;
@@ -759,7 +759,7 @@ async function openDashboard({ force = false } = {}) {
   state.showCumulativeProgress = readCumulativeProgressPreference();
   renderProgressPanelDisclosure();
   showView("dashboard");
-  elements.dashboardWelcome.textContent = `${state.user.name}，選擇一個諺語，由完整概念開始，再完成 50 題練習。`;
+  elements.dashboardWelcome.textContent = `${state.user.name}，選擇一個諺語，先掌握意思，再完成該課練習。`;
   renderLessonChoices();
   if (!state.dashboardLoaded || force) elements.historyList.innerHTML = loadingHtml();
   if (timeSave) {
@@ -2147,13 +2147,13 @@ function renderCompassLesson(sourceLesson, {preserveScroll = false} = {}) {
     exercise = ensureExercise(sourceLesson);
     replayPending(lesson, exercise, cache);
     exercise.awaitingNextRound = false; exercise.correctionMode = false; exercise.correctionIds = [];
-    if (reviewedOriginalCount(lesson, exercise) < 50) exercise.completedAt = '';
+    if (reviewedOriginalCount(lesson, exercise) < (lesson.scoredCount??50)) exercise.completedAt = '';
     cache.selections = hydrateCompassSelections(lesson, exercise, cache);
     cache.exercise = exercise;
     if (!exercise.completedAt) startExerciseClock();
   }
   const marks = {...cache.bookmarks};
-  for (const q of lesson.items.slice(0,50)) marks[q.id] = isBookmarked(lesson.id, q.id);
+  for (const q of lesson.items.slice(0,lesson.scoredCount??50)) marks[q.id] = isBookmarked(lesson.id, q.id);
   const save = () => {
     if (String(state.user?.id || '') !== owner) return;
     // Read pending state afresh: successful network acknowledgements may arrive while this view stays mounted.
@@ -2174,22 +2174,22 @@ function renderCompassLesson(sourceLesson, {preserveScroll = false} = {}) {
       if (String(state.user?.id || '') !== owner || state.lessonId !== lesson.id) return;
       if (guide) return;
       const q = lesson.items.find(q => q.id === id);
-      if (q.number > 50) {save();return;}
+      if (q.number > (lesson.scoredCount??50)) {save();return;}
       applyCompassAnswer(exercise, q, option);
-      if (reviewedOriginalCount(lesson, exercise) === 50 && !exercise.completedAt) {pauseExerciseClock();exercise.completedAt = new Date().toISOString();}
+      if (reviewedOriginalCount(lesson, exercise) === (lesson.scoredCount??50) && !exercise.completedAt) {pauseExerciseClock();exercise.completedAt = new Date().toISOString();}
       const latest = readCompassCache(localStorage, owner, lesson.id);
       latest.selections = cache.selections; latest.bookmarks = cache.bookmarks; latest.exercise = exercise;
       latest.pending[id] = {index, stamp: `${Date.now()}:${Math.random()}`};
       writeCompassCache(localStorage, owner, lesson.id, latest);
       emitEddyStreakAnswer(option.correct, sourceLesson);
-      elements.lessonRound.textContent = `${reviewedOriginalCount(lesson, exercise)}/50 原有題已完成`;
+      elements.lessonRound.textContent = `${reviewedOriginalCount(lesson, exercise)}/${lesson.scoredCount??50} 題已完成`;
       compassView?.status('答案已保留，稍後同步成績…');
       queueCompassSave();
     }
   });
   if (exercise) {
     elements.lessonRound.hidden = false;
-    elements.lessonRound.textContent = `${reviewedOriginalCount(lesson, exercise)}/50 原有題已完成`;
+    elements.lessonRound.textContent = `${reviewedOriginalCount(lesson, exercise)}/${lesson.scoredCount??50} 題已完成`;
     if (Object.keys(cache.pending).length) queueCompassSave();
   }
   if (preserveScroll) requestAnimationFrame(() => window.scrollTo({top:scroll,behavior:'auto'}));

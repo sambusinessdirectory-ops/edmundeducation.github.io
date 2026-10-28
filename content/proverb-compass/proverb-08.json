@@ -1,0 +1,543 @@
+{
+  "id": "proverb-08",
+  "titleEn": "Distance Lends Enchantment to the View",
+  "titleZh": "距離使景物更迷人",
+  "version": "2026-10-28.1",
+  "scoredCount": 12,
+  "items": [
+    {
+      "id": "proverb-08-q01",
+      "number": 1,
+      "promptEn": "Years after leaving his old school, Pak remembered the friendly classmates but forgot the long daily journey.",
+      "promptZh": "離開舊學校多年後，阿柏只記得友善同學，卻忘了每天很長的車程。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Time had softened Pak’s memory of the long commute—distance lends enchantment to the view.",
+          "reasonZh": "時間距離讓困難細節淡化。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Pak still remembered the long commute vividly—distance lends enchantment to the view.",
+          "reasonZh": "原文說他忘了長車程。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Pak had never travelled to that school—distance lends enchantment to the view.",
+          "reasonZh": "原文說每天車程很長。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The old school was therefore perfect in every way—distance lends enchantment to the view.",
+          "reasonZh": "好同學不能證明學校各方面完美。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-08-q02",
+      "number": 2,
+      "promptEn": "Living abroad, Lok recalled winter festivals at home but forgot the frequent rain cancellations.",
+      "promptZh": "從海外回想家鄉冬天，阿樂只想起節日，忘了以前常因天雨取消活動。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Distance made Lok’s memories of home warmer by hiding rainy interruptions—distance lends enchantment to the view.",
+          "reasonZh": "身在遠方，記憶淡化了不便。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Lok recalled every cancelled event clearly—distance lends enchantment to the view.",
+          "reasonZh": "原文說忘了取消活動。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "There had never been any rain in winter—distance lends enchantment to the view.",
+          "reasonZh": "原文說常因天雨取消。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The festivals prove all winters at home were easy—distance lends enchantment to the view.",
+          "reasonZh": "節日美好不代表整個冬天沒有難處。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-08-q03",
+      "number": 3,
+      "promptEn": "A distant farmhouse looked comfortable online; on arrival, Fai learned she had to draw water from a well.",
+      "promptZh": "網上看一間遠方農舍很舒適，到場後阿菲才知道要自己取井水。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The remote view was charming before Fai learned about the daily water chore—distance lends enchantment to the view.",
+          "reasonZh": "遠觀時沒有看到取水的日常工作。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The farmhouse had running water in every room—distance lends enchantment to the view.",
+          "reasonZh": "與到場才知要取井水相反。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Fai knew about the well before looking online—distance lends enchantment to the view.",
+          "reasonZh": "題目說到場後才知道。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The well proves the farmhouse is unsafe—distance lends enchantment to the view.",
+          "reasonZh": "取井水不等於房子不安全。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-08-q04",
+      "number": 4,
+      "promptEn": "Years later, Hong called his former job carefree; a friend reminded him of weekly overtime.",
+      "promptZh": "阿康多年後說舊工作無憂無慮，朋友卻提醒他當年每週都要加班。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Time made the old job seem easier than its weekly overtime suggests—distance lends enchantment to the view.",
+          "reasonZh": "遠離舊工作後，他淡忘了每週加班。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The old job involved no overtime at all—distance lends enchantment to the view.",
+          "reasonZh": "朋友指出每週加班。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Hong had never worked at that job—distance lends enchantment to the view.",
+          "reasonZh": "那確是他的舊工作。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Weekly overtime proves every day there was miserable—distance lends enchantment to the view.",
+          "reasonZh": "加班辛苦不等於每一天都悲慘。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-08-q05",
+      "number": 5,
+      "promptEn": "A harbour’s lights looked lovely from a distance; after moving there, Ling heard trucks at night.",
+      "promptZh": "遠處看見海港燈光很美，阿玲住下才感到夜間貨車噪音。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The distant harbour view concealed the noise of daily life—distance lends enchantment to the view.",
+          "reasonZh": "遠景美與近處噪音形成落差。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The neighbourhood was silent at night—distance lends enchantment to the view.",
+          "reasonZh": "原文說夜間有貨車聲。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Ling had lived there before seeing the lights—distance lends enchantment to the view.",
+          "reasonZh": "她是搬去後才感到噪音。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The trucks prove the harbour lights were ugly—distance lends enchantment to the view.",
+          "reasonZh": "噪音不否定燈光美。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-08-q06",
+      "number": 6,
+      "promptEn": "Kin thought a hike looked easy in a friend’s photos; on the trail she met a long climb.",
+      "promptZh": "阿琴看朋友的登山照片覺得路程輕鬆，自己走時才發現連續上坡。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The remote image made the hike seem easier than it felt underfoot—distance lends enchantment to the view.",
+          "reasonZh": "照片淡化了實際路程的辛苦。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The trail was flat from start to finish—distance lends enchantment to the view.",
+          "reasonZh": "原文有連續上坡。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Kin had walked the trail before seeing the photos—distance lends enchantment to the view.",
+          "reasonZh": "她是親自走時才發現。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "A climb proves the photographs were fake—distance lends enchantment to the view.",
+          "reasonZh": "照片不全面不代表造假。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-08-q07",
+      "number": 7,
+      "promptEn": "Years later, Shan missed the bustle of his old dormitory but forgot its unreliable heating.",
+      "promptZh": "多年後阿山懷念舊宿舍的熱鬧，卻忘了那裏的暖氣常壞。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Time made the dormitory seem cosier than its broken heating had allowed—distance lends enchantment to the view.",
+          "reasonZh": "懷舊時淡忘暖氣問題。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The heating had always worked perfectly—distance lends enchantment to the view.",
+          "reasonZh": "原文說暖氣常壞。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Shan had never lived in the dormitory—distance lends enchantment to the view.",
+          "reasonZh": "那是他的舊宿舍。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Broken heating means no happy memories could be real—distance lends enchantment to the view.",
+          "reasonZh": "不便與快樂回憶可以並存。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-08-q08",
+      "number": 8,
+      "promptEn": "Videos made a faraway island appealing to Yi; living there exposed supply problems during typhoon season.",
+      "promptZh": "遠方島嶼的影片令阿怡嚮往；實際住下後，才感到颱風季補給不便。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The distant picture was enchanting before Yi met the supply problem—distance lends enchantment to the view.",
+          "reasonZh": "遠距離影像遮蔽了季節性的生活困難。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Supplies were easy to obtain during every typhoon—distance lends enchantment to the view.",
+          "reasonZh": "原文說颱風季補給不便。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Yi had already lived through typhoon season before watching the videos—distance lends enchantment to the view.",
+          "reasonZh": "她在住下後才體會。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Supply problems prove the island has no appeal at all—distance lends enchantment to the view.",
+          "reasonZh": "有困難不等於完全無吸引力。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-08-q09",
+      "number": 9,
+      "promptEn": "Long missed the freedom of an old job; a friend reminded him of frequent emergency calls on holidays.",
+      "promptZh": "阿朗想念以前打工的自由，朋友提醒他當時常在假日收到緊急電話。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Time made the old job seem freer than it really was—distance lends enchantment to the view.",
+          "reasonZh": "回憶美化了舊工作的自由程度。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The old job never interrupted any holiday—distance lends enchantment to the view.",
+          "reasonZh": "原文說假日常有緊急電話。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Long had not worked at that job—distance lends enchantment to the view.",
+          "reasonZh": "這是他的舊工作。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Emergency calls prove Long hated every part of it—distance lends enchantment to the view.",
+          "reasonZh": "受打擾不等於完全討厭工作。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-08-q10",
+      "number": 10,
+      "promptEn": "A mountain lodge looked like an escape from afar; after checking in, Man found the nearest restaurant far away.",
+      "promptZh": "遠看山中旅館像世外桃源；阿文入住後才知道餐廳離得很遠。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The distant impression left out a daily practical detail—distance lends enchantment to the view.",
+          "reasonZh": "遠景與實際用餐安排有落差。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The restaurant was next door—distance lends enchantment to the view.",
+          "reasonZh": "原文說餐廳很遠。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Man had stayed there before forming his first impression—distance lends enchantment to the view.",
+          "reasonZh": "他入住後才發現。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "A distant restaurant proves the lodge has no merits—distance lends enchantment to the view.",
+          "reasonZh": "一項不便不能否定全部優點。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-08-q11",
+      "number": 11,
+      "promptEn": "Old photos made Chun remember perfect childhood summers; her mother recalled sleepless nights caused by mosquitoes.",
+      "promptZh": "舊照片讓阿珍覺得童年暑假完美，母親提醒她當年常因蚊患睡不好。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Time and photos made Chun overlook an uncomfortable part of those summers—distance lends enchantment to the view.",
+          "reasonZh": "多年後的照片淡化了不舒服的經歷。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Chun remembered the sleepless nights first—distance lends enchantment to the view.",
+          "reasonZh": "她起初只記得完美暑假。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The family had never taken summer photos—distance lends enchantment to the view.",
+          "reasonZh": "原文有舊照片。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Mosquitoes prove every summer memory was false—distance lends enchantment to the view.",
+          "reasonZh": "不適不等於所有快樂回憶虛假。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-08-q12",
+      "number": 12,
+      "promptEn": "From another country, Ning recalled her old city’s parks but forgot the nightly building noise.",
+      "promptZh": "從另一國回望舊城市，阿寧只記得漂亮的公園，忘了當時每晚的施工噪音。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Distance made the old city seem quieter than it had been—distance lends enchantment to the view.",
+          "reasonZh": "離開後淡忘噪音，印象被美化。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Ning recalled the nightly noise clearly—distance lends enchantment to the view.",
+          "reasonZh": "原文說忘了噪音。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "There had been no building work in the city—distance lends enchantment to the view.",
+          "reasonZh": "題目說當時每晚有施工。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Beautiful parks prove the city had no problems—distance lends enchantment to the view.",
+          "reasonZh": "公園漂亮不代表沒有問題。",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "guide": {
+    "meaning": {
+      "zh": "離得遠時，景物、回憶或生活可能顯得更美好，因為煩難細節不在眼前。",
+      "en": "Distance can make a view or imagined experience more appealing by softening its everyday difficulties."
+    },
+    "model": {
+      "zh": "在外地的阿文懷念舊工作，卻忘了當時天天加班。",
+      "en": "Away from home, Man remembered his old job fondly but forgot the daily overtime—distance lends enchantment to the view."
+    },
+    "picture": {
+      "zh": "遠鏡把雜亂小路縮成一幅漂亮風景。",
+      "en": "A distant view turns a messy path into a graceful shape."
+    },
+    "boundary": {
+      "zh": "這句可談空間或時間造成的美化，不是說遠處的每樣東西都只是幻象。",
+      "en": "The distance may be physical or in time; the proverb does not make every distant attraction false."
+    },
+    "where": {
+      "zh": "適合回望舊工作、遠望旅遊地點或想像陌生生活時提醒自己補看細節。",
+      "en": "Use it when recalling a past job or imagining a remote place without its ordinary details."
+    },
+    "tone": {
+      "zh": "文學味較濃，帶反思和含蓄的提醒；日常口語可改說「遠看比較美」。",
+      "en": "Literary and reflective; in casual speech, a plainer paraphrase may sound more natural."
+    },
+    "checks": [
+      {
+        "zh": "距離令哪個細節模糊？",
+        "en": "What detail does distance blur?"
+      },
+      {
+        "zh": "是時間距離還是地理距離？",
+        "en": "Is the distance in time or place?"
+      },
+      {
+        "zh": "我有沒有憑想像斷言現實？",
+        "en": "Am I asserting reality from an impression?"
+      }
+    ],
+    "readAloud": {
+      "zh": "多年後回想宿舍生活，我只記得笑聲，忘記了漏水的天花板。",
+      "en": "Years later, I remember the laughter in our old dormitory and forget the leaking ceiling—distance lends enchantment to the view."
+    },
+    "choices": {
+      "2": {
+        "prompt": {
+          "zh": "哪個情境最能顯示距離美化了印象？",
+          "en": "Which scene shows distance making something seem better?"
+        },
+        "options": [
+          {
+            "zh": "離職多年後，她只記得熱鬧的同事，淡忘了每天的通宵工作。",
+            "en": "Years after leaving, she remembers the lively colleagues but forgets the nightly overtime.",
+            "reasonZh": "時間拉遠後，困難細節被淡化。",
+            "correct": true
+          },
+          {
+            "zh": "她剛離職，清楚記得工作有好也有壞。",
+            "en": "She has just left and remembers both the good and the bad clearly.",
+            "reasonZh": "沒有美化的線索。",
+            "correct": false
+          },
+          {
+            "zh": "她從遠處看見燈塔，卻沒評價它。",
+            "en": "She sees a lighthouse from afar but makes no judgment about it.",
+            "reasonZh": "只有物理距離，沒有印象變美。",
+            "correct": false
+          }
+        ]
+      },
+      "3": {
+        "prompt": {
+          "zh": "朋友懷念以前的學校，卻只提開心片段。哪個回應合宜？",
+          "en": "A friend recalls only happy parts of an old school. Which reply is helpful?"
+        },
+        "options": [
+          {
+            "zh": "「那些回憶很珍貴；你還記得當時的難處嗎？」",
+            "en": "“Those memories matter. Do you remember any difficulties as well?”",
+            "reasonZh": "承認回憶，同時補看被淡化的細節。",
+            "correct": true
+          },
+          {
+            "zh": "「你現在懷念它，證明以前的生活完全沒有困難。」",
+            "en": "“Missing it now proves life there had no difficulties.”",
+            "reasonZh": "懷念不能證明沒有困難。",
+            "correct": false
+          },
+          {
+            "zh": "「距離使景物更迷人，所以你的回憶必定是假的。」",
+            "en": "“Distance lends enchantment, so your memories must be false.”",
+            "reasonZh": "美化不等於所有回憶都虛假。",
+            "correct": false
+          }
+        ]
+      },
+      "5": {
+        "prompt": {
+          "zh": "遠方山屋在照片中很迷人，到場後才見到崎嶇的路。哪句貼切？",
+          "en": "A remote cabin looks lovely in photos; on arrival, the rough road appears. Which line fits?"
+        },
+        "options": [
+          {
+            "zh": "「照片沒拍到那條路；距離使景物更迷人。」",
+            "en": "“The photos hid the rough road—distance lends enchantment to the view.”",
+            "reasonZh": "把遠觀與近處新見的困難連起來。",
+            "correct": true
+          },
+          {
+            "zh": "「崎嶇的路一開始就清楚拍出；距離使景物更迷人。」",
+            "en": "“The rough road was clearly shown from the start—distance lends enchantment to the view.”",
+            "reasonZh": "與照片沒有呈現道路的事實相反。",
+            "correct": false
+          },
+          {
+            "zh": "「照片證明山屋不能居住；距離使景物更迷人。」",
+            "en": "“The photos prove the cabin cannot be lived in—distance lends enchantment to the view.”",
+            "reasonZh": "題目只交代道路崎嶇，沒有不能居住的證據。",
+            "correct": false
+          }
+        ]
+      },
+      "6": {
+        "prompt": {
+          "zh": "哪個判斷最準確？",
+          "en": "Which judgment is most accurate?"
+        },
+        "options": [
+          {
+            "zh": "「遠觀可能令缺點不顯眼，仍須查證具體情況。」",
+            "en": "“Distance may hide drawbacks, so we should check the details.”",
+            "reasonZh": "保留可能性和查證空間。",
+            "correct": true
+          },
+          {
+            "zh": "「看得遠，就必然看得更清楚。」",
+            "en": "“The farther away we are, the more accurately we see.”",
+            "reasonZh": "與諺語提醒的認知偏差相反。",
+            "correct": false
+          },
+          {
+            "zh": "「凡是遠處看來美的東西，近看必定很差。」",
+            "en": "“Anything attractive from afar must be poor up close.”",
+            "reasonZh": "把可能的落差說成必然。",
+            "correct": false
+          }
+        ]
+      }
+    }
+  }
+}

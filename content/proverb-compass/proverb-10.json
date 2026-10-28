@@ -1,0 +1,543 @@
+{
+  "id": "proverb-10",
+  "titleEn": "Another Day, Another Dollar",
+  "titleZh": "又過一天，又賺一份工錢",
+  "version": "2026-10-28.1",
+  "scoredCount": 12,
+  "items": [
+    {
+      "id": "proverb-10-q01",
+      "number": 1,
+      "promptEn": "Long finishes another nearly identical shift stocking shelves and gives a wry smile.",
+      "promptZh": "阿朗做完又一班幾乎相同的貨架整理工作，收工時苦笑。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Long finishes another familiar shift with a weary smile—another day, another dollar.",
+          "reasonZh": "重複工作與無奈語氣都吻合。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Long has just won a large lottery prize—another day, another dollar.",
+          "reasonZh": "彩票橫財不是日常工作。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Long has never worked in the shop before—another day, another dollar.",
+          "reasonZh": "原文說又一班相似的工作。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The phrase means he earned exactly one dollar—another day, another dollar.",
+          "reasonZh": "dollar 不是精確工資數字。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-10-q02",
+      "number": 2,
+      "promptEn": "Min completes the daily cleaning again, puts away her tools, and sighs softly.",
+      "promptZh": "阿敏再次完成每日的清潔工作，把工具收好後輕輕嘆氣。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Min reaches the end of another routine working day—another day, another dollar.",
+          "reasonZh": "例行工作與輕嘆呼應這句。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Min celebrates her first day off in months—another day, another dollar.",
+          "reasonZh": "原文說完成清潔工作。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Min has just started an unfamiliar dream job—another day, another dollar.",
+          "reasonZh": "是再一次做每日工作。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Her sigh proves that she has not been paid—another day, another dollar.",
+          "reasonZh": "嘆氣不能證明未獲發工資。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-10-q03",
+      "number": 3,
+      "promptEn": "Jun checks orders by the same process for a third day and jokes, “Here we go again.”",
+      "promptZh": "阿俊連續第三天按同一流程核對訂單，笑說「又來了」。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Jun is facing another similar day of paid work—another day, another dollar.",
+          "reasonZh": "又一日相同工作，帶自嘲口吻。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Jun is surprised by a completely new task—another day, another dollar.",
+          "reasonZh": "題目說同一流程。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Jun has spent three days on holiday—another day, another dollar.",
+          "reasonZh": "他在核對訂單，不是放假。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Three similar shifts guarantee identical pay—another day, another dollar.",
+          "reasonZh": "同一工作流程不保證工資完全相同。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-10-q04",
+      "number": 4,
+      "promptEn": "Sze locks the shop and remarks that she will open it at the same hour tomorrow.",
+      "promptZh": "阿詩關掉店裏的燈，說明天又要按一樣的時間開門。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Sze expects another familiar working day tomorrow—another day, another dollar.",
+          "reasonZh": "重複的工作日與平靜感嘆相符。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Sze has sold the shop and will never return—another day, another dollar.",
+          "reasonZh": "她說明天仍要開店。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Sze is celebrating an unexpected fortune—another day, another dollar.",
+          "reasonZh": "沒有發財的線索。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Opening at the same hour proves every day has identical sales—another day, another dollar.",
+          "reasonZh": "相同開店時間不代表每日收入一樣。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-10-q05",
+      "number": 5,
+      "promptEn": "Bin puts down today’s delivery sheet, sees another pile for tomorrow, and shakes his head wryly.",
+      "promptZh": "阿彬把今天的派送單放下，望着明天一疊相同表格，半開玩笑地搖頭。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Bin sees another ordinary shift waiting for him—another day, another dollar.",
+          "reasonZh": "明天仍有相似工作，語氣略無奈。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Bin has no deliveries left for the rest of the year—another day, another dollar.",
+          "reasonZh": "原文明天還有一疊表格。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Bin has just received a prize instead of wages—another day, another dollar.",
+          "reasonZh": "沒有獎品取代工資。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The sheets tell us he will be paid one coin per day—another day, another dollar.",
+          "reasonZh": "表格不告訴我們實際日薪。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-10-q06",
+      "number": 6,
+      "promptEn": "Wai finishes another day answering similar enquiries and says the days blur together.",
+      "promptZh": "阿慧完成又一天接聽同類查詢的工作，下班時說日子真相似。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Wai comments on the sameness of her working days—another day, another dollar.",
+          "reasonZh": "例行工作和相似感，適合這句。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Wai has changed jobs every morning—another day, another dollar.",
+          "reasonZh": "題目沒有每天轉職。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Wai is planning a holiday with no work involved—another day, another dollar.",
+          "reasonZh": "她剛完成工作。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Similar calls mean every customer was the same person—another day, another dollar.",
+          "reasonZh": "查詢相似不等於同一客人。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-10-q07",
+      "number": 7,
+      "promptEn": "Ki follows the same mail route each day and smiles tiredly when he returns to the post office.",
+      "promptZh": "阿其每天按相同路線收信，今天回到郵局後疲倦地笑。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Ki completes another routine mail round—another day, another dollar.",
+          "reasonZh": "每天同一路線與疲倦笑容相符。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Ki wins a race on a new route—another day, another dollar.",
+          "reasonZh": "沒有比賽。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Ki has no paid work at the post office—another day, another dollar.",
+          "reasonZh": "收信路線是他的日常工作。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The route proves his wage never changes—another day, another dollar.",
+          "reasonZh": "路線固定不等於工資不變。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-10-q08",
+      "number": 8,
+      "promptEn": "Lin finishes another evening shift and says on the way home, “Same again tomorrow.”",
+      "promptZh": "阿蓮又按時完成一班晚更，回家路上只說「明天照樣」。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Lin expects another similar shift after this one—another day, another dollar.",
+          "reasonZh": "平靜接受又一班工作，符合語氣。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Lin has finished her last shift forever—another day, another dollar.",
+          "reasonZh": "她說明天照樣上班。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Lin has received a surprise inheritance—another day, another dollar.",
+          "reasonZh": "沒有遺產的線索。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Her remark proves tomorrow will be an exact copy of today—another day, another dollar.",
+          "reasonZh": "相似不等於所有細節完全一樣。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-10-q09",
+      "number": 9,
+      "promptEn": "Lam arranges the bakery stock each day and finishes the same task today before saying, “Done.”",
+      "promptZh": "阿霖每天排好麵包店的貨，今天也照常做完，拍拍手套說「收工」。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Lam has completed another ordinary paid day—another day, another dollar.",
+          "reasonZh": "每天例行工作已完成。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Lam has just opened the bakery for the first time—another day, another dollar.",
+          "reasonZh": "原文說每天都做。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Lam has spent the day as a visitor—another day, another dollar.",
+          "reasonZh": "他是工作，不是訪客。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Finishing stock proves he earned only one dollar—another day, another dollar.",
+          "reasonZh": "不能從工作內容推算一美元工資。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-10-q10",
+      "number": 10,
+      "promptEn": "Jay enters another batch of data, sees tomorrow’s similar list, and smiles wryly.",
+      "promptZh": "阿傑把又一批資料輸入系統，望着明天的同類清單苦笑。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Jay faces the familiar cycle of another workday—another day, another dollar.",
+          "reasonZh": "重複清單與自嘲語氣符合。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Jay has no further data to enter—another day, another dollar.",
+          "reasonZh": "明天仍有同類清單。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Jay has just won enough money to retire—another day, another dollar.",
+          "reasonZh": "沒有中獎退休。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The similar list proves the task is meaningless—another day, another dollar.",
+          "reasonZh": "重複不等於工作沒有意義。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-10-q11",
+      "number": 11,
+      "promptEn": "Ana finishes the regular Monday stocktake and says the same task will return next week.",
+      "promptZh": "阿娜完成固定的週一盤點，說下星期又會重來。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Ana wryly notes another cycle of routine work—another day, another dollar.",
+          "reasonZh": "例行週期令人感到工作重複。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Ana says this was the final stocktake ever—another day, another dollar.",
+          "reasonZh": "她說下週仍會重來。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Ana is describing a surprise vacation—another day, another dollar.",
+          "reasonZh": "原文談盤點，不是旅行。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "A weekly task means she is paid once a week—another day, another dollar.",
+          "reasonZh": "週一盤點不代表一週只出糧一次。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-10-q12",
+      "number": 12,
+      "promptEn": "Ming packs away his repair tools after another day of similar repairs and sighs calmly.",
+      "promptZh": "阿明收好修理工具，結束又一天相似的維修工作，平靜地嘆口氣。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Ming reflects on another workday much like the last—another day, another dollar.",
+          "reasonZh": "相似工作與平靜無奈都符合。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Ming has never repaired anything before—another day, another dollar.",
+          "reasonZh": "原文說又一天維修。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Ming is celebrating a huge one-time bonus—another day, another dollar.",
+          "reasonZh": "沒有一次性巨額獎金。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "A calm sigh proves he hates every part of his job—another day, another dollar.",
+          "reasonZh": "嘆氣不能證明討厭工作每一部分。",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "guide": {
+    "meaning": {
+      "zh": "又完成了一天例行工作，賺取生活所需；語氣常帶疲倦或無奈。",
+      "en": "Another routine day of work has brought another day’s pay, often said with weariness or resignation."
+    },
+    "model": {
+      "zh": "阿朗又做完一班幾乎一模一樣的工作，收好工具後苦笑了一下。",
+      "en": "After another nearly identical shift, Long packed up his tools and said, “Another day, another dollar.”"
+    },
+    "picture": {
+      "zh": "日曆翻過一頁，工作簿又添上一筆工錢。",
+      "en": "A calendar page turns; a pay ledger gains one more entry."
+    },
+    "boundary": {
+      "zh": "不只表示「明天會賺一元」，也不是興奮宣告發大財。",
+      "en": "It is not a literal promise of one dollar tomorrow, nor a triumphant announcement of wealth."
+    },
+    "where": {
+      "zh": "適合下班或開始又一個重複工作日的閒談；對別人遇到裁員時不宜輕率使用。",
+      "en": "Use it casually after a shift or at the start of another familiar workday; avoid using it lightly around job loss."
+    },
+    "tone": {
+      "zh": "口語、自嘲或疲倦；偶爾可帶平靜的接受。",
+      "en": "Colloquial, wry, or tired; sometimes a quiet acceptance of routine."
+    },
+    "checks": [
+      {
+        "zh": "情境涉及例行工作嗎？",
+        "en": "Is this about routine work?"
+      },
+      {
+        "zh": "說話者的語氣是否無奈或平靜？",
+        "en": "Is the tone weary or matter-of-fact?"
+      },
+      {
+        "zh": "我有否誤解 dollar 的字面金額？",
+        "en": "Am I taking “dollar” literally?"
+      }
+    ],
+    "readAloud": {
+      "zh": "她關掉店裏的燈，望着又填滿一頁的工作紀錄。",
+      "en": "She switched off the shop lights and looked at another full page of work records: “Another day, another dollar.”"
+    },
+    "choices": {
+      "2": {
+        "prompt": {
+          "zh": "哪個情境最貼切？",
+          "en": "Which scene best fits?"
+        },
+        "options": [
+          {
+            "zh": "他完成又一班重複的工作，收工時半開玩笑地嘆氣。",
+            "en": "He finishes another repetitive shift and sighs wryly as he leaves.",
+            "reasonZh": "例行工作與略帶疲倦的語氣都吻合。",
+            "correct": true
+          },
+          {
+            "zh": "他第一次中頭獎，興奮地慶祝。",
+            "en": "He wins the lottery for the first time and celebrates wildly.",
+            "reasonZh": "意外橫財與例行工作不符。",
+            "correct": false
+          },
+          {
+            "zh": "他把一元硬幣從地上拾起，沒有工作情境。",
+            "en": "He picks up a one-dollar coin; no work is involved.",
+            "reasonZh": "只有字面金額，沒有慣用的工作語境。",
+            "correct": false
+          }
+        ]
+      },
+      "3": {
+        "prompt": {
+          "zh": "同事下班時說這句，最可能是甚麼語氣？",
+          "en": "A colleague says the phrase after a shift. What tone is most likely?"
+        },
+        "options": [
+          {
+            "zh": "對又一日例行工作的疲倦或自嘲。",
+            "en": "Weariness or wry acceptance after another routine day.",
+            "reasonZh": "符合這句話常見的口語語氣。",
+            "correct": true
+          },
+          {
+            "zh": "肯定今天每人都只獲發一美元。",
+            "en": "A factual claim that everyone earned exactly one dollar.",
+            "reasonZh": "dollar 在這裏不是準確工資數字。",
+            "correct": false
+          },
+          {
+            "zh": "宣告她永遠不必再工作。",
+            "en": "A declaration that she will never work again.",
+            "reasonZh": "與又一天例行工作相反。",
+            "correct": false
+          }
+        ]
+      },
+      "5": {
+        "prompt": {
+          "zh": "員工完成又一天相同的盤點工作。哪句自然？",
+          "en": "A worker finishes yet another similar day of stocktaking. Which line sounds natural?"
+        },
+        "options": [
+          {
+            "zh": "「又做完一日盤點；又過一天，又賺一份工錢。」",
+            "en": "“Another inventory shift done—another day, another dollar.”",
+            "reasonZh": "工作已完成，語氣自然。",
+            "correct": true
+          },
+          {
+            "zh": "「今天中了彩票；又過一天，又賺一份工錢。」",
+            "en": "“I won the lottery today—another day, another dollar.”",
+            "reasonZh": "彩票中獎不是例行工作收入。",
+            "correct": false
+          },
+          {
+            "zh": "「我今天沒做任何工作；又過一天，又賺一份工錢。」",
+            "en": "“I did no work today—another day, another dollar.”",
+            "reasonZh": "與完成盤點的情境矛盾。",
+            "correct": false
+          }
+        ]
+      },
+      "6": {
+        "prompt": {
+          "zh": "哪個理解最準確？",
+          "en": "Which reading is most accurate?"
+        },
+        "options": [
+          {
+            "zh": "「一句帶點無奈的工作日常感想。」",
+            "en": "“A slightly weary comment on another ordinary workday.”",
+            "reasonZh": "抓到慣用語氣和情境。",
+            "correct": true
+          },
+          {
+            "zh": "「保證每一天的工資完全一樣。」",
+            "en": "“A guarantee that wages are identical every day.”",
+            "reasonZh": "諺語沒有保證工資金額。",
+            "correct": false
+          },
+          {
+            "zh": "「一定是在抱怨僱主犯法。」",
+            "en": "“It must be an accusation that the employer broke the law.”",
+            "reasonZh": "疲倦或無奈不等於法律指控。",
+            "correct": false
+          }
+        ]
+      }
+    }
+  }
+}

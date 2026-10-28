@@ -1,0 +1,543 @@
+{
+  "id": "proverb-06",
+  "titleEn": "The Best of Friends Must Part",
+  "titleZh": "再好的朋友也有分別時",
+  "version": "2026-10-28.1",
+  "scoredCount": 12,
+  "items": [
+    {
+      "id": "proverb-06-q01",
+      "number": 1,
+      "promptEn": "Two close friends will study in different cities after graduation and plan to meet during holidays.",
+      "promptZh": "兩位好友畢業後要到不同城市讀書，約好假期再見。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The friends will say goodbye without ending their friendship—the best of friends must part.",
+          "reasonZh": "分別確實發生，友誼未因此終止。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The friends have ended their friendship in anger—the best of friends must part.",
+          "reasonZh": "原文沒有吵架或絕交。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The friends will attend the same school next term—the best of friends must part.",
+          "reasonZh": "兩人去不同城市。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Their holiday plan proves they will never miss each other—the best of friends must part.",
+          "reasonZh": "約好見面不代表不會想念。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-06-q02",
+      "number": 2,
+      "promptEn": "A childhood friend sees Ching off at the train and they promise to keep calling.",
+      "promptZh": "童年朋友送阿晴上火車，兩人答應繼續通話。",
+      "options": [
+        {
+          "id": "key",
+          "text": "They must part at the station although they intend to stay close—the best of friends must part.",
+          "reasonZh": "月台告別與保留友誼兼容。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "They have decided never to speak again—the best of friends must part.",
+          "reasonZh": "原文說會繼續通話。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "They are travelling on the same train together—the best of friends must part.",
+          "reasonZh": "朋友送行，並非同乘。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "A telephone promise means no goodbye is needed—the best of friends must part.",
+          "reasonZh": "仍要在車站道別。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-06-q03",
+      "number": 3,
+      "promptEn": "Camp ends and two new friends return to their own schools.",
+      "promptZh": "露營結束，兩名新好友返回各自的學校。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The friends must say goodbye as camp ends—the best of friends must part.",
+          "reasonZh": "營會結束帶來分別。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The friends must have quarrelled at camp—the best of friends must part.",
+          "reasonZh": "沒有爭吵的證據。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The friends will remain at camp forever—the best of friends must part.",
+          "reasonZh": "兩人要返回學校。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Returning to different schools proves they were never friends—the best of friends must part.",
+          "reasonZh": "分開不否定友誼。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-06-q04",
+      "number": 4,
+      "promptEn": "Zheng’s close friend is emigrating; they hug at the airport and agree to video-call monthly.",
+      "promptZh": "阿正的好友要移民，他們在機場擁抱，約定每月視像通話。",
+      "options": [
+        {
+          "id": "key",
+          "text": "They part at the airport while planning to keep in touch—the best of friends must part.",
+          "reasonZh": "移民造成分別，仍可維繫情誼。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "They stop being friends at the airport—the best of friends must part.",
+          "reasonZh": "原文沒有絕交。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "They will continue living in the same city—the best of friends must part.",
+          "reasonZh": "朋友要移民。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Monthly calls prove that parting will not feel sad—the best of friends must part.",
+          "reasonZh": "通話不能證明完全不難過。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-06-q05",
+      "number": 5,
+      "promptEn": "Two longtime colleagues retire and move to separate places; they leave the office together one last time.",
+      "promptZh": "兩位老同事退休後各自搬家，最後一次一起走出辦公室。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Their shared work chapter ends as they part—the best of friends must part.",
+          "reasonZh": "長期相處者有告別時刻。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Their friendship ended because of a quarrel—the best of friends must part.",
+          "reasonZh": "沒有爭吵。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "They both return to the same desk tomorrow—the best of friends must part.",
+          "reasonZh": "退休後不會明天回同一座位。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Retirement proves they cannot meet again—the best of friends must part.",
+          "reasonZh": "告別工作不等於永不再見。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-06-q06",
+      "number": 6,
+      "promptEn": "On the last night of holiday, two friends exchange addresses before returning to their countries.",
+      "promptZh": "假期最後一晚，兩個好友交換地址，第二天各自回國。",
+      "options": [
+        {
+          "id": "key",
+          "text": "They part tomorrow while leaving a way to stay connected—the best of friends must part.",
+          "reasonZh": "回國令好友分別，交換地址保留聯絡可能。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "They refuse to exchange any contact details—the best of friends must part.",
+          "reasonZh": "原文明確說交換地址。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "They have no travel plans and will stay together—the best of friends must part.",
+          "reasonZh": "兩人第二天回國。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Exchanging addresses guarantees daily letters—the best of friends must part.",
+          "reasonZh": "交換地址不保證每日寫信。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-06-q07",
+      "number": 7,
+      "promptEn": "Two friends who learned piano together since childhood will join different orchestras next year.",
+      "promptZh": "兩個從小一起學琴的朋友，明年會進入不同的樂團。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Their paths separate although their friendship may continue—the best of friends must part.",
+          "reasonZh": "走不同音樂道路不等於關係破裂。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Different orchestras prove they dislike each other—the best of friends must part.",
+          "reasonZh": "沒有不和的證據。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "They will join one orchestra together—the best of friends must part.",
+          "reasonZh": "原文說不同樂團。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Their friendship must end next year—the best of friends must part.",
+          "reasonZh": "諺語不預言絕交。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-06-q08",
+      "number": 8,
+      "promptEn": "Shan brings lunch to a close friend who is moving away; both say they will stay in touch.",
+      "promptZh": "阿珊最後一次為搬走的好友送午餐，兩人說會保持聯絡。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Their farewell marks a parting, not necessarily a broken friendship—the best of friends must part.",
+          "reasonZh": "送別與保持聯絡可同時成立。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "They have chosen to stop contacting each other—the best of friends must part.",
+          "reasonZh": "原文說會保持聯絡。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The friend is moving into Shan’s building—the best of friends must part.",
+          "reasonZh": "好友要搬走。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The lunch proves they will meet every day—the best of friends must part.",
+          "reasonZh": "午餐不能保證日後每日見面。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-06-q09",
+      "number": 9,
+      "promptEn": "Camp volunteers have worked together all summer and hug goodbye when the programme ends.",
+      "promptZh": "營地義工一起工作了整個暑假，活動結束時互相擁抱道別。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The volunteers part after a close summer together—the best of friends must part.",
+          "reasonZh": "暑假結束帶來友好而真實的分別。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The volunteers never worked together—the best of friends must part.",
+          "reasonZh": "原文說整個暑假一起工作。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The programme will continue indefinitely—the best of friends must part.",
+          "reasonZh": "活動已結束。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "A goodbye hug proves they will not meet again—the best of friends must part.",
+          "reasonZh": "擁抱不能證明永不重逢。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-06-q10",
+      "number": 10,
+      "promptEn": "Two friends as close as sisters live apart after one marries and moves away; they still write regularly.",
+      "promptZh": "姊妹般親近的兩位朋友，一人結婚後搬到外地，兩人仍定期寫信。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The friends live apart while keeping their bond alive—the best of friends must part.",
+          "reasonZh": "分居而仍寫信，顯示分別不等於絕交。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The friends stopped caring after the move—the best of friends must part.",
+          "reasonZh": "原文說仍定期寫信。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "They still live on the same street—the best of friends must part.",
+          "reasonZh": "一人搬到外地。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Writing letters means they did not have to say goodbye—the best of friends must part.",
+          "reasonZh": "有書信往來仍需面對分別。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-06-q11",
+      "number": 11,
+      "promptEn": "After their team’s last game, two friends will join different clubs.",
+      "promptZh": "球隊最後一場比賽後，兩位好友將加入不同球會。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Their time as teammates ends even if their friendship does not—the best of friends must part.",
+          "reasonZh": "球隊道路分開，友情可延續。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Joining different clubs proves they were enemies—the best of friends must part.",
+          "reasonZh": "沒有敵對關係。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "They will remain on the same team next season—the best of friends must part.",
+          "reasonZh": "原文說加入不同球會。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The last game proves they will never play again—the best of friends must part.",
+          "reasonZh": "最後一場是此隊比賽，不是終身告別球場。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-06-q12",
+      "number": 12,
+      "promptEn": "After a week-long visit, two good friends wave goodbye at the pier and plan to reunite in winter.",
+      "promptZh": "探訪一週後，兩位好朋友在碼頭揮手告別，約定冬天再見。",
+      "options": [
+        {
+          "id": "key",
+          "text": "They part now despite hoping to meet again in winter—the best of friends must part.",
+          "reasonZh": "現在分別與將來重聚並不矛盾。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Their goodbye means the friendship is over—the best of friends must part.",
+          "reasonZh": "原文沒有友誼結束。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "They are still at the start of the visit—the best of friends must part.",
+          "reasonZh": "探訪已到尾聲。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "A winter plan means the present farewell is not real—the best of friends must part.",
+          "reasonZh": "冬天再見不取消今天的告別。",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "guide": {
+    "meaning": {
+      "zh": "再親近的朋友，也會有暫時或長久分別的時候。",
+      "en": "Even very close friends sometimes have to part."
+    },
+    "model": {
+      "zh": "畢業禮後，兩位多年的好友要到不同城市升學。",
+      "en": "After graduation, the two old friends were heading to different cities—the best of friends must part."
+    },
+    "picture": {
+      "zh": "想像兩條路在同一個路口分開；情誼可以保留，行程卻不同。",
+      "en": "Picture two paths dividing at a junction; the friendship can remain even as journeys diverge."
+    },
+    "boundary": {
+      "zh": "「分別」不等於吵架、絕交或永不再見。",
+      "en": "Parting does not itself mean a quarrel, a broken friendship, or never meeting again."
+    },
+    "where": {
+      "zh": "適合畢業、搬遷、旅程結束等告別場合；對剛失去親友的人須留意語氣。",
+      "en": "Use it for graduation, moving away, or the end of a visit; speak gently around bereavement."
+    },
+    "tone": {
+      "zh": "通常帶傷感但可作溫柔的接受，不是責怪朋友離開。",
+      "en": "Usually wistful yet accepting, not a rebuke to the departing friend."
+    },
+    "checks": [
+      {
+        "zh": "這真是朋友分別的時刻嗎？",
+        "en": "Are friends actually parting?"
+      },
+      {
+        "zh": "我有沒有誤指關係破裂？",
+        "en": "Am I implying a broken bond?"
+      },
+      {
+        "zh": "場合需要安慰，還是需要實際安排？",
+        "en": "Does the moment call for comfort or plans?"
+      }
+    ],
+    "readAloud": {
+      "zh": "列車快開了，兩個從小認識的朋友最後擁抱道別。",
+      "en": "The train was leaving, so the childhood friends hugged goodbye—the best of friends must part."
+    },
+    "choices": {
+      "2": {
+        "prompt": {
+          "zh": "哪個情境最適合？",
+          "en": "Which situation fits best?"
+        },
+        "options": [
+          {
+            "zh": "兩位好友互相珍惜，但新學期要到不同城市。",
+            "en": "Two close friends value each other, but they will study in different cities.",
+            "reasonZh": "友誼仍在，分別確實發生。",
+            "correct": true
+          },
+          {
+            "zh": "兩位好友同班上課，放學後一起回家。",
+            "en": "Two close friends attend the same class and walk home together.",
+            "reasonZh": "尚未有分別情境。",
+            "correct": false
+          },
+          {
+            "zh": "兩人因欺騙而絕交，並說從未是朋友。",
+            "en": "Two people end a friendship after a betrayal and deny they were ever friends.",
+            "reasonZh": "焦點是關係破裂，不是友好而不得不分別。",
+            "correct": false
+          }
+        ]
+      },
+      "3": {
+        "prompt": {
+          "zh": "好友即將搬走，哪個回應較合適？",
+          "en": "A close friend is moving away. Which reply fits the moment?"
+        },
+        "options": [
+          {
+            "zh": "「我會想你；到埗後我們再約時間通話。」",
+            "en": "“I’ll miss you. Let’s arrange a call once you’ve arrived.”",
+            "reasonZh": "承認不捨，也保留友誼。",
+            "correct": true
+          },
+          {
+            "zh": "「你搬走就代表我們不再是朋友。」",
+            "en": "“Moving away means we can no longer be friends.”",
+            "reasonZh": "把距離誤當作友誼終止。",
+            "correct": false
+          },
+          {
+            "zh": "「既然大家終會分別，就不用好好道別。」",
+            "en": "“Because friends must part, there is no point saying goodbye properly.”",
+            "reasonZh": "諺語沒有否定道別的重要。",
+            "correct": false
+          }
+        ]
+      },
+      "5": {
+        "prompt": {
+          "zh": "營會最後一晚，好友明天要回不同城市。哪句自然？",
+          "en": "At the end of camp, close friends return to different cities tomorrow. Which line sounds natural?"
+        },
+        "options": [
+          {
+            "zh": "「今晚好好道別吧；再好的朋友也有分別時。」",
+            "en": "“Let’s say a proper goodbye tonight—the best of friends must part.”",
+            "reasonZh": "友好與分別兩個事實都保留。",
+            "correct": true
+          },
+          {
+            "zh": "「我們已經絕交；再好的朋友也有分別時。」",
+            "en": "“We have ended our friendship—the best of friends must part.”",
+            "reasonZh": "題目沒有說友誼結束。",
+            "correct": false
+          },
+          {
+            "zh": "「明天仍會住在一起；再好的朋友也有分別時。」",
+            "en": "“We will still live together tomorrow—the best of friends must part.”",
+            "reasonZh": "與回不同城市的事實矛盾。",
+            "correct": false
+          }
+        ]
+      },
+      "6": {
+        "prompt": {
+          "zh": "這句諺語不能證明甚麼？",
+          "en": "What does the proverb not establish?"
+        },
+        "options": [
+          {
+            "zh": "「分開後是否仍保持聯絡，要看兩人的選擇。」",
+            "en": "“Whether they keep in touch depends on what they do next.”",
+            "reasonZh": "諺語只交代分別，沒有預定友誼結果。",
+            "correct": true
+          },
+          {
+            "zh": "「分別必然令友誼立即結束。」",
+            "en": "“Parting must immediately end the friendship.”",
+            "reasonZh": "把分別誤說成絕交。",
+            "correct": false
+          },
+          {
+            "zh": "「真正的朋友永遠不會離開同一城市。」",
+            "en": "“True friends can never live in different cities.”",
+            "reasonZh": "親近朋友也可能各走各路。",
+            "correct": false
+          }
+        ]
+      }
+    }
+  }
+}

@@ -3,8 +3,8 @@
   const data = {
   "version": "1",
   "system": "proverb",
-  "lessonCount": 3,
-  "questionCount": 150,
+  "lessonCount": 12,
+  "questionCount": 258,
   "lessons": [
     {
       "id": "proverb-01",
@@ -3702,6 +3702,1500 @@
           "answer": "I might still invest in the café, but only after seeing a clear business plan because my previous investment was never repaid—once bitten, twice shy.",
           "answerZh": "我可能仍會投資咖啡店，但必須先看到清楚的營運計劃；我上一次投資的款項一直沒有歸還，所以今次不敢輕率決定。",
           "highlight": "once bitten, twice shy"
+        }
+      ]
+    },
+    {
+      "id": "proverb-04",
+      "order": 4,
+      "slug": "absence-makes-the-heart-grow-fonder",
+      "version": "1",
+      "title": "小別勝新婚",
+      "titleEn": "Absence Makes the Heart Grow Fonder",
+      "titleZh": "小別勝新婚",
+      "image": "assets/proverb-system/absence-makes-the-heart-grow-fonder.svg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "imageAlt": "Illustrated learning card for Absence Makes the Heart Grow Fonder.",
+      "imageAltZh": "「小別勝新婚」學習插圖。",
+      "source": {
+        "kind": "newly-authored",
+        "reference": "Oxford proverb index; original teaching scenes and questions",
+        "date": "2026-10-28"
+      },
+      "meaning": {
+        "en": "People may feel more affection for someone while they are apart and miss that person.",
+        "zh": "與在乎的人分開一段時間後，可能因為掛念而更珍惜對方。"
+      },
+      "formulas": [
+        {
+          "labelEn": "Target Proverb",
+          "labelZh": "目標諺語",
+          "formula": "absence makes the heart grow fonder",
+          "highlight": "absence makes the heart grow fonder"
+        }
+      ],
+      "examples": [
+        {
+          "labelEn": "Model",
+          "labelZh": "示例",
+          "en": "While Cheng was away on placement, she looked forward to her weekly calls with her grandmother even more—absence makes the heart grow fonder.",
+          "zh": "阿澄去外地實習後，反而更期待每週與祖母通話。",
+          "highlight": "absence makes the heart grow fonder"
+        }
+      ],
+      "instructions": {
+        "en": "Choose the one sentence that keeps the situation’s facts and uses “absence makes the heart grow fonder” accurately.",
+        "zh": "選出唯一保留情境事實、又正確使用「absence makes the heart grow fonder」的英文句子。"
+      },
+      "questions": [
+        {
+          "id": "proverb-04-q01",
+          "number": 1,
+          "prompt": "After a month studying away, May looked forward to calls with her mother more than before.",
+          "promptZh": "阿美到外地讀書一個月後，比以前更期待與母親通話。",
+          "starter": "May",
+          "answer": "May missed her mother more while they were apart—absence makes the heart grow fonder.",
+          "answerZh": "阿美到外地讀書一個月後，比以前更期待與母親通話。",
+          "highlight": "absence makes the heart grow fonder"
+        },
+        {
+          "id": "proverb-04-q02",
+          "number": 2,
+          "prompt": "While her father was away for two weeks, Lok realised she valued cooking with him more.",
+          "promptZh": "父親出差兩週後，樂樂發覺自己比平日更珍惜與他一起煮飯。",
+          "starter": "Lok",
+          "answer": "Lok valued time with her father more during his trip—absence makes the heart grow fonder.",
+          "answerZh": "父親出差兩週後，樂樂發覺自己比平日更珍惜與他一起煮飯。",
+          "highlight": "absence makes the heart grow fonder"
+        },
+        {
+          "id": "proverb-04-q03",
+          "number": 3,
+          "prompt": "After spending the summer apart from his friend, Fung was more excited than before to meet again.",
+          "promptZh": "阿峰與好友分開過暑假後，見面時比以前更興奮。",
+          "starter": "Fung",
+          "answer": "Fung welcomed the reunion more eagerly after time apart—absence makes the heart grow fonder.",
+          "answerZh": "阿峰與好友分開過暑假後，見面時比以前更興奮。",
+          "highlight": "absence makes the heart grow fonder"
+        },
+        {
+          "id": "proverb-04-q04",
+          "number": 4,
+          "prompt": "While her grandmother stayed in hospital, a girl remembered her stories daily and valued their time together more.",
+          "promptZh": "祖母住院期間，孫女每天想起她以前講的故事，越發珍惜相處的日子。",
+          "starter": "The",
+          "answer": "The girl valued her grandmother even more while they were apart—absence makes the heart grow fonder.",
+          "answerZh": "祖母住院期間，孫女每天想起她以前講的故事，越發珍惜相處的日子。",
+          "highlight": "absence makes the heart grow fonder"
+        },
+        {
+          "id": "proverb-04-q05",
+          "number": 5,
+          "prompt": "Two sisters work in different cities and treasure their holiday visits more than they used to.",
+          "promptZh": "兩位姊妹在不同城市工作，假日見面時更加珍惜彼此。",
+          "starter": "The",
+          "answer": "The sisters treasure their visits more because they live apart—absence makes the heart grow fonder.",
+          "answerZh": "兩位姊妹在不同城市工作，假日見面時更加珍惜彼此。",
+          "highlight": "absence makes the heart grow fonder"
+        },
+        {
+          "id": "proverb-04-q06",
+          "number": 6,
+          "prompt": "After half a term in a school hostel, Jun was more willing than before to listen to his younger brother at home.",
+          "promptZh": "阿俊在校外宿舍住了半學期，回家時比以前更願意聽弟弟說話。",
+          "starter": "Time",
+          "answer": "Time away helped Jun appreciate conversations with his younger brother—absence makes the heart grow fonder.",
+          "answerZh": "阿俊在校外宿舍住了半學期，回家時比以前更願意聽弟弟說話。",
+          "highlight": "absence makes the heart grow fonder"
+        },
+        {
+          "id": "proverb-04-q07",
+          "number": 7,
+          "prompt": "During a tournament abroad, Ying began to miss training with her coach more than she expected.",
+          "promptZh": "阿瑩到外國參賽後，開始更想念與教練一起練習的時間。",
+          "starter": "Ying",
+          "answer": "Ying missed training with her coach while she was away—absence makes the heart grow fonder.",
+          "answerZh": "阿瑩到外國參賽後，開始更想念與教練一起練習的時間。",
+          "highlight": "absence makes the heart grow fonder"
+        },
+        {
+          "id": "proverb-04-q08",
+          "number": 8,
+          "prompt": "A couple live apart temporarily; both say their reunion dinners feel more precious than before.",
+          "promptZh": "夫妻暫時分住兩地，兩人都說重聚的晚餐比以前珍貴。",
+          "starter": "Both",
+          "answer": "Both partners value their dinners more during the separation—absence makes the heart grow fonder.",
+          "answerZh": "夫妻暫時分住兩地，兩人都說重聚的晚餐比以前珍貴。",
+          "highlight": "absence makes the heart grow fonder"
+        },
+        {
+          "id": "proverb-04-q09",
+          "number": 9,
+          "prompt": "After moving to another district, Di looked forward to weekend visits with his childhood friend more.",
+          "promptZh": "阿迪搬到另一區後，更期待週末見兒時好友。",
+          "starter": "Di",
+          "answer": "Di looked forward to seeing his old friend more after moving—absence makes the heart grow fonder.",
+          "answerZh": "阿迪搬到另一區後，更期待週末見兒時好友。",
+          "highlight": "absence makes the heart grow fonder"
+        },
+        {
+          "id": "proverb-04-q10",
+          "number": 10,
+          "prompt": "After a year away from her hometown, Sze valued her parents’ messages more than she had before.",
+          "promptZh": "阿詩離開家鄉一年後，比以往更珍惜父母寄來的短訊。",
+          "starter": "Sze",
+          "answer": "Sze came to value her parents’ messages more during her year away—absence makes the heart grow fonder.",
+          "answerZh": "阿詩離開家鄉一年後，比以往更珍惜父母寄來的短訊。",
+          "highlight": "absence makes the heart grow fonder"
+        },
+        {
+          "id": "proverb-04-q11",
+          "number": 11,
+          "prompt": "After five days at camp, a boy said he wanted to play chess with his grandfather more often.",
+          "promptZh": "男孩在露營五天後說，自己現在更想陪外公下棋。",
+          "starter": "The",
+          "answer": "The boy missed chess with his grandfather while away at camp—absence makes the heart grow fonder.",
+          "answerZh": "男孩在露營五天後說，自己現在更想陪外公下棋。",
+          "highlight": "absence makes the heart grow fonder"
+        },
+        {
+          "id": "proverb-04-q12",
+          "number": 12,
+          "prompt": "Working away from home made Lok realise she valued her friend’s regular letters more than before.",
+          "promptZh": "阿樂在外地工作後，才發現自己比以前更珍惜朋友定期來信。",
+          "starter": "Lok",
+          "answer": "Lok valued her friend’s letters more after moving away—absence makes the heart grow fonder.",
+          "answerZh": "阿樂在外地工作後，才發現自己比以前更珍惜朋友定期來信。",
+          "highlight": "absence makes the heart grow fonder"
+        }
+      ]
+    },
+    {
+      "id": "proverb-05",
+      "order": 5,
+      "slug": "he-who-is-absent-is-always-in-the-wrong",
+      "version": "1",
+      "title": "人不在場，容易被怪責",
+      "titleEn": "He Who Is Absent Is Always in the Wrong",
+      "titleZh": "人不在場，容易被怪責",
+      "image": "assets/proverb-system/he-who-is-absent-is-always-in-the-wrong.svg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "imageAlt": "Illustrated learning card for He Who Is Absent Is Always in the Wrong.",
+      "imageAltZh": "「人不在場，容易被怪責」學習插圖。",
+      "source": {
+        "kind": "newly-authored",
+        "reference": "Oxford proverb index; original teaching scenes and questions",
+        "date": "2026-10-28"
+      },
+      "meaning": {
+        "en": "People who are not present may be blamed because they cannot explain or defend their side.",
+        "zh": "某人不在場、不能說明自己的立場時，其他人容易把錯推到他身上。"
+      },
+      "formulas": [
+        {
+          "labelEn": "Target Proverb",
+          "labelZh": "目標諺語",
+          "formula": "he who is absent is always in the wrong",
+          "highlight": "he who is absent is always in the wrong"
+        }
+      ],
+      "examples": [
+        {
+          "labelEn": "Model",
+          "labelZh": "示例",
+          "en": "Jay missed the meeting, and the group blamed him for the delay without checking the record—he who is absent is always in the wrong.",
+          "zh": "開會時阿傑不在，大家便把延誤歸咎於他，卻沒有人核對紀錄。",
+          "highlight": "he who is absent is always in the wrong"
+        }
+      ],
+      "instructions": {
+        "en": "Choose the one sentence that keeps the situation’s facts and uses “he who is absent is always in the wrong” accurately.",
+        "zh": "選出唯一保留情境事實、又正確使用「he who is absent is always in the wrong」的英文句子。"
+      },
+      "questions": [
+        {
+          "id": "proverb-05-q01",
+          "number": 1,
+          "prompt": "While Ka was on leave, the team blamed her for a late report without checking the record.",
+          "promptZh": "會議時嘉嘉請假，組員未查紀錄便把遲交報告歸咎於她。",
+          "starter": "The",
+          "answer": "The team blamed Ka before hearing her account—he who is absent is always in the wrong.",
+          "answerZh": "會議時嘉嘉請假，組員未查紀錄便把遲交報告歸咎於她。",
+          "highlight": "he who is absent is always in the wrong"
+        },
+        {
+          "id": "proverb-05-q02",
+          "number": 2,
+          "prompt": "A gym key went missing, and the only employee absent from the meeting was immediately suspected.",
+          "promptZh": "健身室鑰匙失蹤，唯一不在場的職員立即被懷疑。",
+          "starter": "The",
+          "answer": "The absent employee was suspected before being heard—he who is absent is always in the wrong.",
+          "answerZh": "健身室鑰匙失蹤，唯一不在場的職員立即被懷疑。",
+          "highlight": "he who is absent is always in the wrong"
+        },
+        {
+          "id": "proverb-05-q03",
+          "number": 3,
+          "prompt": "After the team lost, the captain missed the review meeting and others said it was all his fault.",
+          "promptZh": "校隊敗了，隊長不在檢討會上，眾人便說全是他的錯。",
+          "starter": "The",
+          "answer": "The team assigned blame to the absent captain without his response—he who is absent is always in the wrong.",
+          "answerZh": "校隊敗了，隊長不在檢討會上，眾人便說全是他的錯。",
+          "highlight": "he who is absent is always in the wrong"
+        },
+        {
+          "id": "proverb-05-q04",
+          "number": 4,
+          "prompt": "An audio file was damaged; the absent technician was blamed before anyone inspected it.",
+          "promptZh": "錄音檔損壞後，不在場的技術員被怪責，雖然檔案尚未檢查。",
+          "starter": "The",
+          "answer": "The technician was blamed before the file was inspected or he could reply—he who is absent is always in the wrong.",
+          "answerZh": "錄音檔損壞後，不在場的技術員被怪責，雖然檔案尚未檢查。",
+          "highlight": "he who is absent is always in the wrong"
+        },
+        {
+          "id": "proverb-05-q05",
+          "number": 5,
+          "prompt": "When supplies ran out, staff blamed the buyer who was on holiday without checking the orders.",
+          "promptZh": "餐廳缺貨時，休假的採購員被指責，其他人卻未查看訂單。",
+          "starter": "Staff",
+          "answer": "Staff blamed the buyer before checking the orders or hearing from her—he who is absent is always in the wrong.",
+          "answerZh": "餐廳缺貨時，休假的採購員被指責，其他人卻未查看訂單。",
+          "highlight": "he who is absent is always in the wrong"
+        },
+        {
+          "id": "proverb-05-q06",
+          "number": 6,
+          "prompt": "After a display fell, the absent designer was blamed; nobody asked who moved it.",
+          "promptZh": "展板跌倒後，缺席的設計師被怪責；沒人問當時是誰把展板移位。",
+          "starter": "The",
+          "answer": "The absent designer was blamed before anyone checked who moved the display—he who is absent is always in the wrong.",
+          "answerZh": "展板跌倒後，缺席的設計師被怪責；沒人問當時是誰把展板移位。",
+          "highlight": "he who is absent is always in the wrong"
+        },
+        {
+          "id": "proverb-05-q07",
+          "number": 7,
+          "prompt": "A wrong notice was sent; an offline moderator was blamed before the other moderators checked the log.",
+          "promptZh": "群組誤發通知，沒有上線的管理員被責怪，其他管理員尚未查記錄。",
+          "starter": "The",
+          "answer": "The offline moderator took the blame before anyone checked the log—he who is absent is always in the wrong.",
+          "answerZh": "群組誤發通知，沒有上線的管理員被責怪，其他管理員尚未查記錄。",
+          "highlight": "he who is absent is always in the wrong"
+        },
+        {
+          "id": "proverb-05-q08",
+          "number": 8,
+          "prompt": "Bin missed a family discussion, and relatives said he caused all the moving trouble.",
+          "promptZh": "阿彬缺席家庭討論，親戚便說搬家的麻煩都是他造成。",
+          "starter": "Relatives",
+          "answer": "Relatives blamed Bin while he was not there to tell his side—he who is absent is always in the wrong.",
+          "answerZh": "阿彬缺席家庭討論，親戚便說搬家的麻煩都是他造成。",
+          "highlight": "he who is absent is always in the wrong"
+        },
+        {
+          "id": "proverb-05-q09",
+          "number": 9,
+          "prompt": "A box of books was missing; a volunteer absent from stocktake was blamed before loan records were checked.",
+          "promptZh": "圖書館遺失一箱書，缺席點算的義工先被責怪，借還記錄仍未查。",
+          "starter": "The",
+          "answer": "The volunteer was blamed without being heard or checking the loans—he who is absent is always in the wrong.",
+          "answerZh": "圖書館遺失一箱書，缺席點算的義工先被責怪，借還記錄仍未查。",
+          "highlight": "he who is absent is always in the wrong"
+        },
+        {
+          "id": "proverb-05-q10",
+          "number": 10,
+          "prompt": "Trip photos vanished, and a friend who missed the discussion was accused of deleting them.",
+          "promptZh": "旅行照片不見了，沒有參加討論的朋友被指刪除檔案。",
+          "starter": "The",
+          "answer": "The friend was accused while unable to answer the group—he who is absent is always in the wrong.",
+          "answerZh": "旅行照片不見了，沒有參加討論的朋友被指刪除檔案。",
+          "highlight": "he who is absent is always in the wrong"
+        },
+        {
+          "id": "proverb-05-q11",
+          "number": 11,
+          "prompt": "A decision drew complaints, and the former chair absent from a new meeting was treated as solely responsible.",
+          "promptZh": "一項決定引起投訴，沒有出席新會議的舊主席被當作唯一責任人。",
+          "starter": "The",
+          "answer": "The absent former chair was blamed before the group examined who made the decision—he who is absent is always in the wrong.",
+          "answerZh": "一項決定引起投訴，沒有出席新會議的舊主席被當作唯一責任人。",
+          "highlight": "he who is absent is always in the wrong"
+        },
+        {
+          "id": "proverb-05-q12",
+          "number": 12,
+          "prompt": "A rehearsal time changed; the ill choreographer was blamed without anyone calling to check with her.",
+          "promptZh": "排演時間被改，正在生病的編舞者被怪責，但沒有人打電話向她核實。",
+          "starter": "The",
+          "answer": "The choreographer was blamed while unable to offer her account—he who is absent is always in the wrong.",
+          "answerZh": "排演時間被改，正在生病的編舞者被怪責，但沒有人打電話向她核實。",
+          "highlight": "he who is absent is always in the wrong"
+        }
+      ]
+    },
+    {
+      "id": "proverb-06",
+      "order": 6,
+      "slug": "the-best-of-friends-must-part",
+      "version": "1",
+      "title": "再好的朋友也有分別時",
+      "titleEn": "The Best of Friends Must Part",
+      "titleZh": "再好的朋友也有分別時",
+      "image": "assets/proverb-system/the-best-of-friends-must-part.svg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "imageAlt": "Illustrated learning card for The Best of Friends Must Part.",
+      "imageAltZh": "「再好的朋友也有分別時」學習插圖。",
+      "source": {
+        "kind": "newly-authored",
+        "reference": "Oxford proverb index; original teaching scenes and questions",
+        "date": "2026-10-28"
+      },
+      "meaning": {
+        "en": "Even very close friends sometimes have to say goodbye or live apart.",
+        "zh": "再親近的朋友，也會有暫時或長久分別的時候。"
+      },
+      "formulas": [
+        {
+          "labelEn": "Target Proverb",
+          "labelZh": "目標諺語",
+          "formula": "the best of friends must part",
+          "highlight": "the best of friends must part"
+        }
+      ],
+      "examples": [
+        {
+          "labelEn": "Model",
+          "labelZh": "示例",
+          "en": "After graduation, the two old friends were heading to different cities—the best of friends must part.",
+          "zh": "畢業禮後，兩位多年的好友要到不同城市升學。",
+          "highlight": "the best of friends must part"
+        }
+      ],
+      "instructions": {
+        "en": "Choose the one sentence that keeps the situation’s facts and uses “the best of friends must part” accurately.",
+        "zh": "選出唯一保留情境事實、又正確使用「the best of friends must part」的英文句子。"
+      },
+      "questions": [
+        {
+          "id": "proverb-06-q01",
+          "number": 1,
+          "prompt": "Two close friends will study in different cities after graduation and plan to meet during holidays.",
+          "promptZh": "兩位好友畢業後要到不同城市讀書，約好假期再見。",
+          "starter": "The",
+          "answer": "The friends will say goodbye without ending their friendship—the best of friends must part.",
+          "answerZh": "兩位好友畢業後要到不同城市讀書，約好假期再見。",
+          "highlight": "the best of friends must part"
+        },
+        {
+          "id": "proverb-06-q02",
+          "number": 2,
+          "prompt": "A childhood friend sees Ching off at the train and they promise to keep calling.",
+          "promptZh": "童年朋友送阿晴上火車，兩人答應繼續通話。",
+          "starter": "They",
+          "answer": "They must part at the station although they intend to stay close—the best of friends must part.",
+          "answerZh": "童年朋友送阿晴上火車，兩人答應繼續通話。",
+          "highlight": "the best of friends must part"
+        },
+        {
+          "id": "proverb-06-q03",
+          "number": 3,
+          "prompt": "Camp ends and two new friends return to their own schools.",
+          "promptZh": "露營結束，兩名新好友返回各自的學校。",
+          "starter": "The",
+          "answer": "The friends must say goodbye as camp ends—the best of friends must part.",
+          "answerZh": "露營結束，兩名新好友返回各自的學校。",
+          "highlight": "the best of friends must part"
+        },
+        {
+          "id": "proverb-06-q04",
+          "number": 4,
+          "prompt": "Zheng’s close friend is emigrating; they hug at the airport and agree to video-call monthly.",
+          "promptZh": "阿正的好友要移民，他們在機場擁抱，約定每月視像通話。",
+          "starter": "They",
+          "answer": "They part at the airport while planning to keep in touch—the best of friends must part.",
+          "answerZh": "阿正的好友要移民，他們在機場擁抱，約定每月視像通話。",
+          "highlight": "the best of friends must part"
+        },
+        {
+          "id": "proverb-06-q05",
+          "number": 5,
+          "prompt": "Two longtime colleagues retire and move to separate places; they leave the office together one last time.",
+          "promptZh": "兩位老同事退休後各自搬家，最後一次一起走出辦公室。",
+          "starter": "Their",
+          "answer": "Their shared work chapter ends as they part—the best of friends must part.",
+          "answerZh": "兩位老同事退休後各自搬家，最後一次一起走出辦公室。",
+          "highlight": "the best of friends must part"
+        },
+        {
+          "id": "proverb-06-q06",
+          "number": 6,
+          "prompt": "On the last night of holiday, two friends exchange addresses before returning to their countries.",
+          "promptZh": "假期最後一晚，兩個好友交換地址，第二天各自回國。",
+          "starter": "They",
+          "answer": "They part tomorrow while leaving a way to stay connected—the best of friends must part.",
+          "answerZh": "假期最後一晚，兩個好友交換地址，第二天各自回國。",
+          "highlight": "the best of friends must part"
+        },
+        {
+          "id": "proverb-06-q07",
+          "number": 7,
+          "prompt": "Two friends who learned piano together since childhood will join different orchestras next year.",
+          "promptZh": "兩個從小一起學琴的朋友，明年會進入不同的樂團。",
+          "starter": "Their",
+          "answer": "Their paths separate although their friendship may continue—the best of friends must part.",
+          "answerZh": "兩個從小一起學琴的朋友，明年會進入不同的樂團。",
+          "highlight": "the best of friends must part"
+        },
+        {
+          "id": "proverb-06-q08",
+          "number": 8,
+          "prompt": "Shan brings lunch to a close friend who is moving away; both say they will stay in touch.",
+          "promptZh": "阿珊最後一次為搬走的好友送午餐，兩人說會保持聯絡。",
+          "starter": "Their",
+          "answer": "Their farewell marks a parting, not necessarily a broken friendship—the best of friends must part.",
+          "answerZh": "阿珊最後一次為搬走的好友送午餐，兩人說會保持聯絡。",
+          "highlight": "the best of friends must part"
+        },
+        {
+          "id": "proverb-06-q09",
+          "number": 9,
+          "prompt": "Camp volunteers have worked together all summer and hug goodbye when the programme ends.",
+          "promptZh": "營地義工一起工作了整個暑假，活動結束時互相擁抱道別。",
+          "starter": "The",
+          "answer": "The volunteers part after a close summer together—the best of friends must part.",
+          "answerZh": "營地義工一起工作了整個暑假，活動結束時互相擁抱道別。",
+          "highlight": "the best of friends must part"
+        },
+        {
+          "id": "proverb-06-q10",
+          "number": 10,
+          "prompt": "Two friends as close as sisters live apart after one marries and moves away; they still write regularly.",
+          "promptZh": "姊妹般親近的兩位朋友，一人結婚後搬到外地，兩人仍定期寫信。",
+          "starter": "The",
+          "answer": "The friends live apart while keeping their bond alive—the best of friends must part.",
+          "answerZh": "姊妹般親近的兩位朋友，一人結婚後搬到外地，兩人仍定期寫信。",
+          "highlight": "the best of friends must part"
+        },
+        {
+          "id": "proverb-06-q11",
+          "number": 11,
+          "prompt": "After their team’s last game, two friends will join different clubs.",
+          "promptZh": "球隊最後一場比賽後，兩位好友將加入不同球會。",
+          "starter": "Their",
+          "answer": "Their time as teammates ends even if their friendship does not—the best of friends must part.",
+          "answerZh": "球隊最後一場比賽後，兩位好友將加入不同球會。",
+          "highlight": "the best of friends must part"
+        },
+        {
+          "id": "proverb-06-q12",
+          "number": 12,
+          "prompt": "After a week-long visit, two good friends wave goodbye at the pier and plan to reunite in winter.",
+          "promptZh": "探訪一週後，兩位好朋友在碼頭揮手告別，約定冬天再見。",
+          "starter": "They",
+          "answer": "They part now despite hoping to meet again in winter—the best of friends must part.",
+          "answerZh": "探訪一週後，兩位好朋友在碼頭揮手告別，約定冬天再見。",
+          "highlight": "the best of friends must part"
+        }
+      ]
+    },
+    {
+      "id": "proverb-07",
+      "order": 7,
+      "slug": "blue-are-the-hills-that-are-far-away",
+      "version": "1",
+      "title": "遠山看來格外美",
+      "titleEn": "Blue Are the Hills That Are Far Away",
+      "titleZh": "遠山看來格外美",
+      "image": "assets/proverb-system/blue-are-the-hills-that-are-far-away.svg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "imageAlt": "Illustrated learning card for Blue Are the Hills That Are Far Away.",
+      "imageAltZh": "「遠山看來格外美」學習插圖。",
+      "source": {
+        "kind": "newly-authored",
+        "reference": "Oxford proverb index; original teaching scenes and questions",
+        "date": "2026-10-28"
+      },
+      "meaning": {
+        "en": "Distant or unfamiliar things can seem more attractive because their flaws are hard to see.",
+        "zh": "遠方的事物因細節和缺點不易看清，可能顯得特別吸引。"
+      },
+      "formulas": [
+        {
+          "labelEn": "Target Proverb",
+          "labelZh": "目標諺語",
+          "formula": "blue are the hills that are far away",
+          "highlight": "blue are the hills that are far away"
+        }
+      ],
+      "examples": [
+        {
+          "labelEn": "Model",
+          "labelZh": "示例",
+          "en": "Lynn loved the photos of island life, but the daily travel proved difficult—blue are the hills that are far away.",
+          "zh": "阿琳只看見海島工作的照片；真正住下來後，才發現交通十分不便。",
+          "highlight": "blue are the hills that are far away"
+        }
+      ],
+      "instructions": {
+        "en": "Choose the one sentence that keeps the situation’s facts and uses “blue are the hills that are far away” accurately.",
+        "zh": "選出唯一保留情境事實、又正確使用「blue are the hills that are far away」的英文句子。"
+      },
+      "questions": [
+        {
+          "id": "proverb-07-q01",
+          "number": 1,
+          "prompt": "Yi loved photos of a distant town, but a week there revealed that the bus ran only twice daily.",
+          "promptZh": "阿怡看見遠方小鎮的照片，想搬去；住了一週才發現巴士每天只開兩班。",
+          "starter": "The",
+          "answer": "The town looked effortless from afar, but daily travel was awkward—blue are the hills that are far away.",
+          "answerZh": "阿怡看見遠方小鎮的照片，想搬去；住了一週才發現巴士每天只開兩班。",
+          "highlight": "blue are the hills that are far away"
+        },
+        {
+          "id": "proverb-07-q02",
+          "number": 2,
+          "prompt": "Long had seen only promotional clips of a seaside job; after starting, he found winters very windy.",
+          "promptZh": "阿朗只見過海邊工作的宣傳片；上班後才知道冬天經常大風。",
+          "starter": "The",
+          "answer": "The job seemed idyllic at a distance, before Long experienced winter winds—blue are the hills that are far away.",
+          "answerZh": "阿朗只見過海邊工作的宣傳片；上班後才知道冬天經常大風。",
+          "highlight": "blue are the hills that are far away"
+        },
+        {
+          "id": "proverb-07-q03",
+          "number": 3,
+          "prompt": "Lan envied the quiet of a remote island; during a visit she learned the hospital was two hours away by boat.",
+          "promptZh": "阿嵐羨慕遠方島上的安靜，探訪後才發現醫院要坐船兩小時。",
+          "starter": "The",
+          "answer": "The island’s quiet appealed from afar, but a visit exposed a practical difficulty—blue are the hills that are far away.",
+          "answerZh": "阿嵐羨慕遠方島上的安靜，探訪後才發現醫院要坐船兩小時。",
+          "highlight": "blue are the hills that are far away"
+        },
+        {
+          "id": "proverb-07-q04",
+          "number": 4,
+          "prompt": "A café looked dreamy online; after joining, Ki learned that opening time was 4 a.m. every day.",
+          "promptZh": "網上看來夢幻的咖啡室，阿琪入職後才知每日要在凌晨四時開門。",
+          "starter": "The",
+          "answer": "The café looked attractive from afar, before Ki learned its early hours—blue are the hills that are far away.",
+          "answerZh": "網上看來夢幻的咖啡室，阿琪入職後才知每日要在凌晨四時開門。",
+          "highlight": "blue are the hills that are far away"
+        },
+        {
+          "id": "proverb-07-q05",
+          "number": 5,
+          "prompt": "A ski village looked peaceful from a distance; on arrival, Man found it crowded in peak season.",
+          "promptZh": "遠山的滑雪村看來寧靜；阿文到場後發現旺季十分擠迫。",
+          "starter": "The",
+          "answer": "The village seemed peaceful from afar, but peak season was crowded—blue are the hills that are far away.",
+          "answerZh": "遠山的滑雪村看來寧靜；阿文到場後發現旺季十分擠迫。",
+          "highlight": "blue are the hills that are far away"
+        },
+        {
+          "id": "proverb-07-q06",
+          "number": 6,
+          "prompt": "Min imagined a foreign university dormitory was spacious from its photos; the room was small when she visited.",
+          "promptZh": "阿敏以為外國大學的宿舍像照片般寬敞，參觀後才見房間很小。",
+          "starter": "The",
+          "answer": "The distant dormitory looked roomier than it proved to be—blue are the hills that are far away.",
+          "answerZh": "阿敏以為外國大學的宿舍像照片般寬敞，參觀後才見房間很小。",
+          "highlight": "blue are the hills that are far away"
+        },
+        {
+          "id": "proverb-07-q07",
+          "number": 7,
+          "prompt": "From the city, rural life looked easy; after starting farm work, an uncle learned how hard early mornings were.",
+          "promptZh": "從城市看田園生活很輕鬆；阿叔真的務農後才了解清晨的勞動。",
+          "starter": "Farm",
+          "answer": "Farm life looked easy from afar, but the early work was demanding—blue are the hills that are far away.",
+          "answerZh": "從城市看田園生活很輕鬆；阿叔真的務農後才了解清晨的勞動。",
+          "highlight": "blue are the hills that are far away"
+        },
+        {
+          "id": "proverb-07-q08",
+          "number": 8,
+          "prompt": "Sze envied a remote cabin with no rent; a visit showed her the winter chore of carrying firewood.",
+          "promptZh": "阿思羨慕遠方山屋不用交租，探訪後才知冬天要自己搬柴。",
+          "starter": "The",
+          "answer": "The cabin looked simple from afar, before its winter chores became clear—blue are the hills that are far away.",
+          "answerZh": "阿思羨慕遠方山屋不用交租，探訪後才知冬天要自己搬柴。",
+          "highlight": "blue are the hills that are far away"
+        },
+        {
+          "id": "proverb-07-q09",
+          "number": 9,
+          "prompt": "Kin admired another city’s skyline; during a trial stay, he found poor street lighting at night.",
+          "promptZh": "阿健憧憬另一城市的夜景；試住時才發現晚上街燈不足。",
+          "starter": "The",
+          "answer": "The skyline drew Kin from afar, but the street-level experience differed—blue are the hills that are far away.",
+          "answerZh": "阿健憧憬另一城市的夜景；試住時才發現晚上街燈不足。",
+          "highlight": "blue are the hills that are far away"
+        },
+        {
+          "id": "proverb-07-q10",
+          "number": 10,
+          "prompt": "A distant castle looked romantic; on the tour, Li encountered steep stairs without handrails.",
+          "promptZh": "遠處的古堡很浪漫；導覽時阿莉才看見陡峭又沒有扶手的樓梯。",
+          "starter": "The",
+          "answer": "The castle looked romantic from afar, but visiting revealed difficult stairs—blue are the hills that are far away.",
+          "answerZh": "遠處的古堡很浪漫；導覽時阿莉才看見陡峭又沒有扶手的樓梯。",
+          "highlight": "blue are the hills that are far away"
+        },
+        {
+          "id": "proverb-07-q11",
+          "number": 11,
+          "prompt": "Photos made a desert hotel seem perfect to Tung; after arriving, she discovered unreliable internet.",
+          "promptZh": "看別人的旅行照片，阿彤覺得沙漠酒店完美；到場後才知道沒有穩定網絡。",
+          "starter": "The",
+          "answer": "The hotel’s distant image hid a practical inconvenience—blue are the hills that are far away.",
+          "answerZh": "看別人的旅行照片，阿彤覺得沙漠酒店完美；到場後才知道沒有穩定網絡。",
+          "highlight": "blue are the hills that are far away"
+        },
+        {
+          "id": "proverb-07-q12",
+          "number": 12,
+          "prompt": "An old district looked picturesque from afar; while flat-hunting there, Shan learned many buildings lacked lifts.",
+          "promptZh": "遠方的舊城區像畫；實地找住處時，阿珊才知道很多樓房沒有電梯。",
+          "starter": "The",
+          "answer": "The charming distant view did not show the daily difficulty of stairs—blue are the hills that are far away.",
+          "answerZh": "遠方的舊城區像畫；實地找住處時，阿珊才知道很多樓房沒有電梯。",
+          "highlight": "blue are the hills that are far away"
+        }
+      ]
+    },
+    {
+      "id": "proverb-08",
+      "order": 8,
+      "slug": "distance-lends-enchantment-to-the-view",
+      "version": "1",
+      "title": "距離使景物更迷人",
+      "titleEn": "Distance Lends Enchantment to the View",
+      "titleZh": "距離使景物更迷人",
+      "image": "assets/proverb-system/distance-lends-enchantment-to-the-view.svg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "imageAlt": "Illustrated learning card for Distance Lends Enchantment to the View.",
+      "imageAltZh": "「距離使景物更迷人」學習插圖。",
+      "source": {
+        "kind": "newly-authored",
+        "reference": "Oxford proverb index; original teaching scenes and questions",
+        "date": "2026-10-28"
+      },
+      "meaning": {
+        "en": "Distance can make a place, memory, or situation seem more appealing than close inspection would.",
+        "zh": "離得遠時，景物、回憶或生活可能顯得更美好，因為煩難細節不在眼前。"
+      },
+      "formulas": [
+        {
+          "labelEn": "Target Proverb",
+          "labelZh": "目標諺語",
+          "formula": "distance lends enchantment to the view",
+          "highlight": "distance lends enchantment to the view"
+        }
+      ],
+      "examples": [
+        {
+          "labelEn": "Model",
+          "labelZh": "示例",
+          "en": "Away from home, Man remembered his old job fondly but forgot the daily overtime—distance lends enchantment to the view.",
+          "zh": "在外地的阿文懷念舊工作，卻忘了當時天天加班。",
+          "highlight": "distance lends enchantment to the view"
+        }
+      ],
+      "instructions": {
+        "en": "Choose the one sentence that keeps the situation’s facts and uses “distance lends enchantment to the view” accurately.",
+        "zh": "選出唯一保留情境事實、又正確使用「distance lends enchantment to the view」的英文句子。"
+      },
+      "questions": [
+        {
+          "id": "proverb-08-q01",
+          "number": 1,
+          "prompt": "Years after leaving his old school, Pak remembered the friendly classmates but forgot the long daily journey.",
+          "promptZh": "離開舊學校多年後，阿柏只記得友善同學，卻忘了每天很長的車程。",
+          "starter": "Time",
+          "answer": "Time had softened Pak’s memory of the long commute—distance lends enchantment to the view.",
+          "answerZh": "離開舊學校多年後，阿柏只記得友善同學，卻忘了每天很長的車程。",
+          "highlight": "distance lends enchantment to the view"
+        },
+        {
+          "id": "proverb-08-q02",
+          "number": 2,
+          "prompt": "Living abroad, Lok recalled winter festivals at home but forgot the frequent rain cancellations.",
+          "promptZh": "從海外回想家鄉冬天，阿樂只想起節日，忘了以前常因天雨取消活動。",
+          "starter": "Distance",
+          "answer": "Distance made Lok’s memories of home warmer by hiding rainy interruptions—distance lends enchantment to the view.",
+          "answerZh": "從海外回想家鄉冬天，阿樂只想起節日，忘了以前常因天雨取消活動。",
+          "highlight": "distance lends enchantment to the view"
+        },
+        {
+          "id": "proverb-08-q03",
+          "number": 3,
+          "prompt": "A distant farmhouse looked comfortable online; on arrival, Fai learned she had to draw water from a well.",
+          "promptZh": "網上看一間遠方農舍很舒適，到場後阿菲才知道要自己取井水。",
+          "starter": "The",
+          "answer": "The remote view was charming before Fai learned about the daily water chore—distance lends enchantment to the view.",
+          "answerZh": "網上看一間遠方農舍很舒適，到場後阿菲才知道要自己取井水。",
+          "highlight": "distance lends enchantment to the view"
+        },
+        {
+          "id": "proverb-08-q04",
+          "number": 4,
+          "prompt": "Years later, Hong called his former job carefree; a friend reminded him of weekly overtime.",
+          "promptZh": "阿康多年後說舊工作無憂無慮，朋友卻提醒他當年每週都要加班。",
+          "starter": "Time",
+          "answer": "Time made the old job seem easier than its weekly overtime suggests—distance lends enchantment to the view.",
+          "answerZh": "阿康多年後說舊工作無憂無慮，朋友卻提醒他當年每週都要加班。",
+          "highlight": "distance lends enchantment to the view"
+        },
+        {
+          "id": "proverb-08-q05",
+          "number": 5,
+          "prompt": "A harbour’s lights looked lovely from a distance; after moving there, Ling heard trucks at night.",
+          "promptZh": "遠處看見海港燈光很美，阿玲住下才感到夜間貨車噪音。",
+          "starter": "The",
+          "answer": "The distant harbour view concealed the noise of daily life—distance lends enchantment to the view.",
+          "answerZh": "遠處看見海港燈光很美，阿玲住下才感到夜間貨車噪音。",
+          "highlight": "distance lends enchantment to the view"
+        },
+        {
+          "id": "proverb-08-q06",
+          "number": 6,
+          "prompt": "Kin thought a hike looked easy in a friend’s photos; on the trail she met a long climb.",
+          "promptZh": "阿琴看朋友的登山照片覺得路程輕鬆，自己走時才發現連續上坡。",
+          "starter": "The",
+          "answer": "The remote image made the hike seem easier than it felt underfoot—distance lends enchantment to the view.",
+          "answerZh": "阿琴看朋友的登山照片覺得路程輕鬆，自己走時才發現連續上坡。",
+          "highlight": "distance lends enchantment to the view"
+        },
+        {
+          "id": "proverb-08-q07",
+          "number": 7,
+          "prompt": "Years later, Shan missed the bustle of his old dormitory but forgot its unreliable heating.",
+          "promptZh": "多年後阿山懷念舊宿舍的熱鬧，卻忘了那裏的暖氣常壞。",
+          "starter": "Time",
+          "answer": "Time made the dormitory seem cosier than its broken heating had allowed—distance lends enchantment to the view.",
+          "answerZh": "多年後阿山懷念舊宿舍的熱鬧，卻忘了那裏的暖氣常壞。",
+          "highlight": "distance lends enchantment to the view"
+        },
+        {
+          "id": "proverb-08-q08",
+          "number": 8,
+          "prompt": "Videos made a faraway island appealing to Yi; living there exposed supply problems during typhoon season.",
+          "promptZh": "遠方島嶼的影片令阿怡嚮往；實際住下後，才感到颱風季補給不便。",
+          "starter": "The",
+          "answer": "The distant picture was enchanting before Yi met the supply problem—distance lends enchantment to the view.",
+          "answerZh": "遠方島嶼的影片令阿怡嚮往；實際住下後，才感到颱風季補給不便。",
+          "highlight": "distance lends enchantment to the view"
+        },
+        {
+          "id": "proverb-08-q09",
+          "number": 9,
+          "prompt": "Long missed the freedom of an old job; a friend reminded him of frequent emergency calls on holidays.",
+          "promptZh": "阿朗想念以前打工的自由，朋友提醒他當時常在假日收到緊急電話。",
+          "starter": "Time",
+          "answer": "Time made the old job seem freer than it really was—distance lends enchantment to the view.",
+          "answerZh": "阿朗想念以前打工的自由，朋友提醒他當時常在假日收到緊急電話。",
+          "highlight": "distance lends enchantment to the view"
+        },
+        {
+          "id": "proverb-08-q10",
+          "number": 10,
+          "prompt": "A mountain lodge looked like an escape from afar; after checking in, Man found the nearest restaurant far away.",
+          "promptZh": "遠看山中旅館像世外桃源；阿文入住後才知道餐廳離得很遠。",
+          "starter": "The",
+          "answer": "The distant impression left out a daily practical detail—distance lends enchantment to the view.",
+          "answerZh": "遠看山中旅館像世外桃源；阿文入住後才知道餐廳離得很遠。",
+          "highlight": "distance lends enchantment to the view"
+        },
+        {
+          "id": "proverb-08-q11",
+          "number": 11,
+          "prompt": "Old photos made Chun remember perfect childhood summers; her mother recalled sleepless nights caused by mosquitoes.",
+          "promptZh": "舊照片讓阿珍覺得童年暑假完美，母親提醒她當年常因蚊患睡不好。",
+          "starter": "Time",
+          "answer": "Time and photos made Chun overlook an uncomfortable part of those summers—distance lends enchantment to the view.",
+          "answerZh": "舊照片讓阿珍覺得童年暑假完美，母親提醒她當年常因蚊患睡不好。",
+          "highlight": "distance lends enchantment to the view"
+        },
+        {
+          "id": "proverb-08-q12",
+          "number": 12,
+          "prompt": "From another country, Ning recalled her old city’s parks but forgot the nightly building noise.",
+          "promptZh": "從另一國回望舊城市，阿寧只記得漂亮的公園，忘了當時每晚的施工噪音。",
+          "starter": "Distance",
+          "answer": "Distance made the old city seem quieter than it had been—distance lends enchantment to the view.",
+          "answerZh": "從另一國回望舊城市，阿寧只記得漂亮的公園，忘了當時每晚的施工噪音。",
+          "highlight": "distance lends enchantment to the view"
+        }
+      ]
+    },
+    {
+      "id": "proverb-09",
+      "order": 9,
+      "slug": "after-the-feast-comes-the-reckoning",
+      "version": "1",
+      "title": "享樂之後，還得算帳",
+      "titleEn": "After the Feast Comes the Reckoning",
+      "titleZh": "享樂之後，還得算帳",
+      "image": "assets/proverb-system/after-the-feast-comes-the-reckoning.svg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "imageAlt": "Illustrated learning card for After the Feast Comes the Reckoning.",
+      "imageAltZh": "「享樂之後，還得算帳」學習插圖。",
+      "source": {
+        "kind": "newly-authored",
+        "reference": "Oxford proverb index; original teaching scenes and questions",
+        "date": "2026-10-28"
+      },
+      "meaning": {
+        "en": "A period of pleasure or indulgence may be followed by a cost or consequence.",
+        "zh": "享樂或放縱過後，仍可能要面對開支、責任或其他後果。"
+      },
+      "formulas": [
+        {
+          "labelEn": "Target Proverb",
+          "labelZh": "目標諺語",
+          "formula": "after the feast comes the reckoning",
+          "highlight": "after the feast comes the reckoning"
+        }
+      ],
+      "examples": [
+        {
+          "labelEn": "Model",
+          "labelZh": "示例",
+          "en": "The party was wonderful, but the next day the group faced the overspent budget—after the feast comes the reckoning.",
+          "zh": "派對辦得盡興，第二天大家才整理超支的帳目。",
+          "highlight": "after the feast comes the reckoning"
+        }
+      ],
+      "instructions": {
+        "en": "Choose the one sentence that keeps the situation’s facts and uses “after the feast comes the reckoning” accurately.",
+        "zh": "選出唯一保留情境事實、又正確使用「after the feast comes the reckoning」的英文句子。"
+      },
+      "questions": [
+        {
+          "id": "proverb-09-q01",
+          "number": 1,
+          "prompt": "The class spent its whole budget on a party, then had to collect money for next week’s exhibition bus.",
+          "promptZh": "班會把全部經費花在派對，下一週的展覽車費要大家補交。",
+          "starter": "The",
+          "answer": "The party was fun, but the class later had to cover the bus fare—after the feast comes the reckoning.",
+          "answerZh": "班會把全部經費花在派對，下一週的展覽車費要大家補交。",
+          "highlight": "after the feast comes the reckoning"
+        },
+        {
+          "id": "proverb-09-q02",
+          "number": 2,
+          "prompt": "Jun bought an expensive concert ticket and lacked money for his bicycle repair at month’s end.",
+          "promptZh": "阿俊買了昂貴演唱會票，月底才發現無錢維修單車。",
+          "starter": "The",
+          "answer": "The concert expense was followed by a budget shortfall—after the feast comes the reckoning.",
+          "answerZh": "阿俊買了昂貴演唱會票，月底才發現無錢維修單車。",
+          "highlight": "after the feast comes the reckoning"
+        },
+        {
+          "id": "proverb-09-q03",
+          "number": 3,
+          "prompt": "The team spent its travel fund on a luxury hotel and had to buy its own tickets home.",
+          "promptZh": "球隊把旅費用於豪華住宿，回程時只能自己付車票。",
+          "starter": "The",
+          "answer": "The hotel upgrade left the team to pay its return fare—after the feast comes the reckoning.",
+          "answerZh": "球隊把旅費用於豪華住宿，回程時只能自己付車票。",
+          "highlight": "after the feast comes the reckoning"
+        },
+        {
+          "id": "proverb-09-q04",
+          "number": 4,
+          "prompt": "A club spent the weekend on outings and found on Monday that the performance props were not ready.",
+          "promptZh": "社團把週末都用來遊玩，星期一才發現未準備演出道具。",
+          "starter": "The",
+          "answer": "The weekend fun left the club facing unfinished work—after the feast comes the reckoning.",
+          "answerZh": "社團把週末都用來遊玩，星期一才發現未準備演出道具。",
+          "highlight": "after the feast comes the reckoning"
+        },
+        {
+          "id": "proverb-09-q05",
+          "number": 5,
+          "prompt": "Shan bought many new clothes for a celebration and cut other spending when the card bill arrived.",
+          "promptZh": "阿珊為慶祝買了很多新衣，信用卡帳單到來才開始削減其他開支。",
+          "starter": "The",
+          "answer": "The celebration purchases were followed by a bill she had to manage—after the feast comes the reckoning.",
+          "answerZh": "阿珊為慶祝買了很多新衣，信用卡帳單到來才開始削減其他開支。",
+          "highlight": "after the feast comes the reckoning"
+        },
+        {
+          "id": "proverb-09-q06",
+          "number": 6,
+          "prompt": "Friends enjoyed an expensive meal, then realised at checkout that no one had counted the service charge.",
+          "promptZh": "朋友們先吃了一頓昂貴晚餐，結帳時才發現沒人計算服務費。",
+          "starter": "The",
+          "answer": "The enjoyable meal ended with a larger bill than expected—after the feast comes the reckoning.",
+          "answerZh": "朋友們先吃了一頓昂貴晚餐，結帳時才發現沒人計算服務費。",
+          "highlight": "after the feast comes the reckoning"
+        },
+        {
+          "id": "proverb-09-q07",
+          "number": 7,
+          "prompt": "May spent the holiday watching films and rushed her reading report just before school resumed.",
+          "promptZh": "阿美把所有假期用來看電影，開學前才匆忙補做閱讀報告。",
+          "starter": "Her",
+          "answer": "Her carefree holiday was followed by the work she had postponed—after the feast comes the reckoning.",
+          "answerZh": "阿美把所有假期用來看電影，開學前才匆忙補做閱讀報告。",
+          "highlight": "after the feast comes the reckoning"
+        },
+        {
+          "id": "proverb-09-q08",
+          "number": 8,
+          "prompt": "A family enjoyed their upgraded hotel rooms and split the extra cost after returning home.",
+          "promptZh": "家人很享受旅行時升級的房間，回家後才要分攤超出的費用。",
+          "starter": "The",
+          "answer": "The upgrade was pleasant, but the extra charge came later—after the feast comes the reckoning.",
+          "answerZh": "家人很享受旅行時升級的房間，回家後才要分攤超出的費用。",
+          "highlight": "after the feast comes the reckoning"
+        },
+        {
+          "id": "proverb-09-q09",
+          "number": 9,
+          "prompt": "A group enjoyed spending the day decorating a stall and discovered at opening that no change was ready.",
+          "promptZh": "小組樂於花整天裝飾攤位，開幕時才發現找零錢未準備。",
+          "starter": "The",
+          "answer": "The decorating was enjoyable, but the practical task still awaited them—after the feast comes the reckoning.",
+          "answerZh": "小組樂於花整天裝飾攤位，開幕時才發現找零錢未準備。",
+          "highlight": "after the feast comes the reckoning"
+        },
+        {
+          "id": "proverb-09-q10",
+          "number": 10,
+          "prompt": "Ling stayed up late gaming each holiday night and struggled to wake early on the first school day.",
+          "promptZh": "阿玲在假期每天玩遊戲至深夜，復課第一天才感到難以早起。",
+          "starter": "The",
+          "answer": "The late-night gaming was followed by a difficult early start—after the feast comes the reckoning.",
+          "answerZh": "阿玲在假期每天玩遊戲至深夜，復課第一天才感到難以早起。",
+          "highlight": "after the feast comes the reckoning"
+        },
+        {
+          "id": "proverb-09-q11",
+          "number": 11,
+          "prompt": "A drama group rented elaborate costumes and later found too little money remained for props.",
+          "promptZh": "戲劇組先租了華麗服裝，結算時發現道具預算不足。",
+          "starter": "The",
+          "answer": "The costume splurge left a shortfall for props—after the feast comes the reckoning.",
+          "answerZh": "戲劇組先租了華麗服裝，結算時發現道具預算不足。",
+          "highlight": "after the feast comes the reckoning"
+        },
+        {
+          "id": "proverb-09-q12",
+          "number": 12,
+          "prompt": "Long spent Saturday gaming and rushed homework on Sunday before Monday’s deadline.",
+          "promptZh": "阿朗把整個星期六用來打機，星期日才要趕做星期一交的功課。",
+          "starter": "The",
+          "answer": "The carefree Saturday left Sunday’s homework pressure—after the feast comes the reckoning.",
+          "answerZh": "阿朗把整個星期六用來打機，星期日才要趕做星期一交的功課。",
+          "highlight": "after the feast comes the reckoning"
+        }
+      ]
+    },
+    {
+      "id": "proverb-10",
+      "order": 10,
+      "slug": "another-day-another-dollar",
+      "version": "1",
+      "title": "又過一天，又賺一份工錢",
+      "titleEn": "Another Day, Another Dollar",
+      "titleZh": "又過一天，又賺一份工錢",
+      "image": "assets/proverb-system/another-day-another-dollar.svg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "imageAlt": "Illustrated learning card for Another Day, Another Dollar.",
+      "imageAltZh": "「又過一天，又賺一份工錢」學習插圖。",
+      "source": {
+        "kind": "newly-authored",
+        "reference": "Oxford proverb index; original teaching scenes and questions",
+        "date": "2026-10-28"
+      },
+      "meaning": {
+        "en": "A wry or weary comment on another ordinary day of work undertaken to earn a living.",
+        "zh": "又完成了一天例行工作，賺取生活所需；語氣常帶疲倦或無奈。"
+      },
+      "formulas": [
+        {
+          "labelEn": "Target Proverb",
+          "labelZh": "目標諺語",
+          "formula": "another day, another dollar",
+          "highlight": "another day, another dollar"
+        }
+      ],
+      "examples": [
+        {
+          "labelEn": "Model",
+          "labelZh": "示例",
+          "en": "After another nearly identical shift, Long packed up his tools and said, “Another day, another dollar.”",
+          "zh": "阿朗又做完一班幾乎一模一樣的工作，收好工具後苦笑了一下。",
+          "highlight": "another day, another dollar"
+        }
+      ],
+      "instructions": {
+        "en": "Choose the one sentence that keeps the situation’s facts and uses “another day, another dollar” accurately.",
+        "zh": "選出唯一保留情境事實、又正確使用「another day, another dollar」的英文句子。"
+      },
+      "questions": [
+        {
+          "id": "proverb-10-q01",
+          "number": 1,
+          "prompt": "Long finishes another nearly identical shift stocking shelves and gives a wry smile.",
+          "promptZh": "阿朗做完又一班幾乎相同的貨架整理工作，收工時苦笑。",
+          "starter": "Long",
+          "answer": "Long finishes another familiar shift with a weary smile—another day, another dollar.",
+          "answerZh": "阿朗做完又一班幾乎相同的貨架整理工作，收工時苦笑。",
+          "highlight": "another day, another dollar"
+        },
+        {
+          "id": "proverb-10-q02",
+          "number": 2,
+          "prompt": "Min completes the daily cleaning again, puts away her tools, and sighs softly.",
+          "promptZh": "阿敏再次完成每日的清潔工作，把工具收好後輕輕嘆氣。",
+          "starter": "Min",
+          "answer": "Min reaches the end of another routine working day—another day, another dollar.",
+          "answerZh": "阿敏再次完成每日的清潔工作，把工具收好後輕輕嘆氣。",
+          "highlight": "another day, another dollar"
+        },
+        {
+          "id": "proverb-10-q03",
+          "number": 3,
+          "prompt": "Jun checks orders by the same process for a third day and jokes, “Here we go again.”",
+          "promptZh": "阿俊連續第三天按同一流程核對訂單，笑說「又來了」。",
+          "starter": "Jun",
+          "answer": "Jun is facing another similar day of paid work—another day, another dollar.",
+          "answerZh": "阿俊連續第三天按同一流程核對訂單，笑說「又來了」。",
+          "highlight": "another day, another dollar"
+        },
+        {
+          "id": "proverb-10-q04",
+          "number": 4,
+          "prompt": "Sze locks the shop and remarks that she will open it at the same hour tomorrow.",
+          "promptZh": "阿詩關掉店裏的燈，說明天又要按一樣的時間開門。",
+          "starter": "Sze",
+          "answer": "Sze expects another familiar working day tomorrow—another day, another dollar.",
+          "answerZh": "阿詩關掉店裏的燈，說明天又要按一樣的時間開門。",
+          "highlight": "another day, another dollar"
+        },
+        {
+          "id": "proverb-10-q05",
+          "number": 5,
+          "prompt": "Bin puts down today’s delivery sheet, sees another pile for tomorrow, and shakes his head wryly.",
+          "promptZh": "阿彬把今天的派送單放下，望着明天一疊相同表格，半開玩笑地搖頭。",
+          "starter": "Bin",
+          "answer": "Bin sees another ordinary shift waiting for him—another day, another dollar.",
+          "answerZh": "阿彬把今天的派送單放下，望着明天一疊相同表格，半開玩笑地搖頭。",
+          "highlight": "another day, another dollar"
+        },
+        {
+          "id": "proverb-10-q06",
+          "number": 6,
+          "prompt": "Wai finishes another day answering similar enquiries and says the days blur together.",
+          "promptZh": "阿慧完成又一天接聽同類查詢的工作，下班時說日子真相似。",
+          "starter": "Wai",
+          "answer": "Wai comments on the sameness of her working days—another day, another dollar.",
+          "answerZh": "阿慧完成又一天接聽同類查詢的工作，下班時說日子真相似。",
+          "highlight": "another day, another dollar"
+        },
+        {
+          "id": "proverb-10-q07",
+          "number": 7,
+          "prompt": "Ki follows the same mail route each day and smiles tiredly when he returns to the post office.",
+          "promptZh": "阿其每天按相同路線收信，今天回到郵局後疲倦地笑。",
+          "starter": "Ki",
+          "answer": "Ki completes another routine mail round—another day, another dollar.",
+          "answerZh": "阿其每天按相同路線收信，今天回到郵局後疲倦地笑。",
+          "highlight": "another day, another dollar"
+        },
+        {
+          "id": "proverb-10-q08",
+          "number": 8,
+          "prompt": "Lin finishes another evening shift and says on the way home, “Same again tomorrow.”",
+          "promptZh": "阿蓮又按時完成一班晚更，回家路上只說「明天照樣」。",
+          "starter": "Lin",
+          "answer": "Lin expects another similar shift after this one—another day, another dollar.",
+          "answerZh": "阿蓮又按時完成一班晚更，回家路上只說「明天照樣」。",
+          "highlight": "another day, another dollar"
+        },
+        {
+          "id": "proverb-10-q09",
+          "number": 9,
+          "prompt": "Lam arranges the bakery stock each day and finishes the same task today before saying, “Done.”",
+          "promptZh": "阿霖每天排好麵包店的貨，今天也照常做完，拍拍手套說「收工」。",
+          "starter": "Lam",
+          "answer": "Lam has completed another ordinary paid day—another day, another dollar.",
+          "answerZh": "阿霖每天排好麵包店的貨，今天也照常做完，拍拍手套說「收工」。",
+          "highlight": "another day, another dollar"
+        },
+        {
+          "id": "proverb-10-q10",
+          "number": 10,
+          "prompt": "Jay enters another batch of data, sees tomorrow’s similar list, and smiles wryly.",
+          "promptZh": "阿傑把又一批資料輸入系統，望着明天的同類清單苦笑。",
+          "starter": "Jay",
+          "answer": "Jay faces the familiar cycle of another workday—another day, another dollar.",
+          "answerZh": "阿傑把又一批資料輸入系統，望着明天的同類清單苦笑。",
+          "highlight": "another day, another dollar"
+        },
+        {
+          "id": "proverb-10-q11",
+          "number": 11,
+          "prompt": "Ana finishes the regular Monday stocktake and says the same task will return next week.",
+          "promptZh": "阿娜完成固定的週一盤點，說下星期又會重來。",
+          "starter": "Ana",
+          "answer": "Ana wryly notes another cycle of routine work—another day, another dollar.",
+          "answerZh": "阿娜完成固定的週一盤點，說下星期又會重來。",
+          "highlight": "another day, another dollar"
+        },
+        {
+          "id": "proverb-10-q12",
+          "number": 12,
+          "prompt": "Ming packs away his repair tools after another day of similar repairs and sighs calmly.",
+          "promptZh": "阿明收好修理工具，結束又一天相似的維修工作，平靜地嘆口氣。",
+          "starter": "Ming",
+          "answer": "Ming reflects on another workday much like the last—another day, another dollar.",
+          "answerZh": "阿明收好修理工具，結束又一天相似的維修工作，平靜地嘆口氣。",
+          "highlight": "another day, another dollar"
+        }
+      ]
+    },
+    {
+      "id": "proverb-11",
+      "order": 11,
+      "slug": "ask-a-silly-question-and-you-get-a-silly-answer",
+      "version": "1",
+      "title": "問得無聊，答得滑稽",
+      "titleEn": "Ask a Silly Question and You Get a Silly Answer",
+      "titleZh": "問得無聊，答得滑稽",
+      "image": "assets/proverb-system/ask-a-silly-question-and-you-get-a-silly-answer.svg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "imageAlt": "Illustrated learning card for Ask a Silly Question and You Get a Silly Answer.",
+      "imageAltZh": "「問得無聊，答得滑稽」學習插圖。",
+      "source": {
+        "kind": "newly-authored",
+        "reference": "Oxford proverb index; original teaching scenes and questions",
+        "date": "2026-10-28"
+      },
+      "meaning": {
+        "en": "An obvious, absurd, or poorly thought-out question may invite an equally flippant reply.",
+        "zh": "問題太顯而易見、荒謬或沒有想清楚時，對方可能用玩笑式答案回應。"
+      },
+      "formulas": [
+        {
+          "labelEn": "Target Proverb",
+          "labelZh": "目標諺語",
+          "formula": "ask a silly question and you get a silly answer",
+          "highlight": "ask a silly question and you get a silly answer"
+        }
+      ],
+      "examples": [
+        {
+          "labelEn": "Model",
+          "labelZh": "示例",
+          "en": "Ken had paint on both hands. Asked whether he had painted the wall, he joked that he had shaken hands with a paint tin: ask a silly question and you get a silly answer.",
+          "zh": "阿謙滿手油漆，朋友卻問他是否剛畫過牆；他笑說自己剛和油漆桶握手。",
+          "highlight": "ask a silly question and you get a silly answer"
+        }
+      ],
+      "instructions": {
+        "en": "Choose the one sentence that keeps the situation’s facts and uses “ask a silly question and you get a silly answer” accurately.",
+        "zh": "選出唯一保留情境事實、又正確使用「ask a silly question and you get a silly answer」的英文句子。"
+      },
+      "questions": [
+        {
+          "id": "proverb-11-q01",
+          "number": 1,
+          "prompt": "Lok comes in from the rain, soaked; a friend asks whether it is raining, and Lok jokes that the clouds are taking a bath.",
+          "promptZh": "阿樂剛從雨中走入屋，全身濕透，朋友仍問外面有沒有下雨；阿樂笑說「雲在洗澡」。",
+          "starter": "The",
+          "answer": "The obvious question drew a playful answer about bathing clouds—ask a silly question and you get a silly answer.",
+          "answerZh": "阿樂剛從雨中走入屋，全身濕透，朋友仍問外面有沒有下雨；阿樂笑說「雲在洗澡」。",
+          "highlight": "ask a silly question and you get a silly answer"
+        },
+        {
+          "id": "proverb-11-q02",
+          "number": 2,
+          "prompt": "Ki carries a large bouquet; asked if she is holding flowers, she jokes, “No, the flowers are holding me.”",
+          "promptZh": "阿琪拿着一大束花，朋友問「你拿着花嗎」；她答「不，是花拿着我」。",
+          "starter": "Ki",
+          "answer": "Ki turns an obvious question into a playful reversal—ask a silly question and you get a silly answer.",
+          "answerZh": "阿琪拿着一大束花，朋友問「你拿着花嗎」；她答「不，是花拿着我」。",
+          "highlight": "ask a silly question and you get a silly answer"
+        },
+        {
+          "id": "proverb-11-q03",
+          "number": 3,
+          "prompt": "A friend watches Jun cycle in, then asks whether he cycled there, he jokes, “I came by spaceship.”",
+          "promptZh": "朋友看着阿俊騎單車到達，仍問他是否騎單車來；他笑說「我是坐飛船來的」。",
+          "starter": "Jun",
+          "answer": "Jun answers the obvious question with an absurd joke—ask a silly question and you get a silly answer.",
+          "answerZh": "朋友看着阿俊騎單車到達，仍問他是否騎單車來；他笑說「我是坐飛船來的」。",
+          "highlight": "ask a silly question and you get a silly answer"
+        },
+        {
+          "id": "proverb-11-q04",
+          "number": 4,
+          "prompt": "A friend watches Ting take a cake from the oven, then asks if she baked it, she jokes that the oven did all the work.",
+          "promptZh": "朋友看着阿婷把蛋糕從焗爐取出，仍問她有沒有焗蛋糕；她說「是焗爐自己做的」。",
+          "starter": "Ting",
+          "answer": "Ting gives a joking answer to a question with an obvious clue—ask a silly question and you get a silly answer.",
+          "answerZh": "朋友看着阿婷把蛋糕從焗爐取出，仍問她有沒有焗蛋糕；她說「是焗爐自己做的」。",
+          "highlight": "ask a silly question and you get a silly answer"
+        },
+        {
+          "id": "proverb-11-q05",
+          "number": 5,
+          "prompt": "A friend watches Man practise in his football kit on the pitch, then asks if he came to play, he jokes that he is there to count blades of grass.",
+          "promptZh": "朋友看着穿球衣的阿文在球場練習，仍問他是不是來踢球；他答「不是，我來替草地數葉子」。",
+          "starter": "Man",
+          "answer": "Man responds to an obvious question with a silly alternative—ask a silly question and you get a silly answer.",
+          "answerZh": "朋友看着穿球衣的阿文在球場練習，仍問他是不是來踢球；他答「不是，我來替草地數葉子」。",
+          "highlight": "ask a silly question and you get a silly answer"
+        },
+        {
+          "id": "proverb-11-q06",
+          "number": 6,
+          "prompt": "Shan carries a tall stack of books; asked if she is carrying books, she jokes that the books are taking her for a walk.",
+          "promptZh": "阿珊抱着厚厚一疊書，朋友問「你拿着書嗎」；她笑說「不，是書帶我散步」。",
+          "starter": "Shan",
+          "answer": "Shan answers an obvious question with a playful image—ask a silly question and you get a silly answer.",
+          "answerZh": "阿珊抱着厚厚一疊書，朋友問「你拿着書嗎」；她笑說「不，是書帶我散步」。",
+          "highlight": "ask a silly question and you get a silly answer"
+        },
+        {
+          "id": "proverb-11-q07",
+          "number": 7,
+          "prompt": "A friend watches Bin finish his meal, then asks if he has finished eating, he jokes that the bowl ate the food itself.",
+          "promptZh": "朋友看着阿彬把飯吃完，仍問「你吃完了嗎」；他答「是碗自己吃光的」。",
+          "starter": "An",
+          "answer": "An obvious question receives a deliberately silly answer—ask a silly question and you get a silly answer.",
+          "answerZh": "朋友看着阿彬把飯吃完，仍問「你吃完了嗎」；他答「是碗自己吃光的」。",
+          "highlight": "ask a silly question and you get a silly answer"
+        },
+        {
+          "id": "proverb-11-q08",
+          "number": 8,
+          "prompt": "Ning enters holding an umbrella; asked if she brought one, she jokes that it is a folding tree.",
+          "promptZh": "阿寧拿着雨傘走入屋，朋友問她有沒有帶傘；她答「沒有，這是會摺的樹」。",
+          "starter": "Ning",
+          "answer": "Ning gives a playful answer to an obvious question—ask a silly question and you get a silly answer.",
+          "answerZh": "阿寧拿着雨傘走入屋，朋友問她有沒有帶傘；她答「沒有，這是會摺的樹」。",
+          "highlight": "ask a silly question and you get a silly answer"
+        },
+        {
+          "id": "proverb-11-q09",
+          "number": 9,
+          "prompt": "A friend watches Hong put on his hard hat and take out his tools at the building site, then asks if he is starting work, he jokes that he came to photograph the hat.",
+          "promptZh": "朋友看着阿康戴上安全帽、拿出工具準備開工，仍問他是不是要開工；他答「我來給帽子拍照」。",
+          "starter": "Hong",
+          "answer": "Hong replies to an obvious work question with a joke—ask a silly question and you get a silly answer.",
+          "answerZh": "朋友看着阿康戴上安全帽、拿出工具準備開工，仍問他是不是要開工；他答「我來給帽子拍照」。",
+          "highlight": "ask a silly question and you get a silly answer"
+        },
+        {
+          "id": "proverb-11-q10",
+          "number": 10,
+          "prompt": "A friend watches Li take a bite of ice cream, then asks if she is eating it, she jokes that it is eating her.",
+          "promptZh": "阿莉正咬一口冰淇淋，朋友仍問她是否正在吃；她笑說「不，是冰淇淋在吃我」。",
+          "starter": "Li",
+          "answer": "Li answers a too-obvious question with a comic reversal—ask a silly question and you get a silly answer.",
+          "answerZh": "阿莉正咬一口冰淇淋，朋友仍問她是否正在吃；她笑說「不，是冰淇淋在吃我」。",
+          "highlight": "ask a silly question and you get a silly answer"
+        },
+        {
+          "id": "proverb-11-q11",
+          "number": 11,
+          "prompt": "May carries a box labelled “donation”; asked if she is donating the books, she jokes that they are going on holiday.",
+          "promptZh": "阿美抱着一箱標了「捐贈」的書，朋友問她是否要捐書；她說「不，書要去旅行」。",
+          "starter": "May",
+          "answer": "May answers an obvious question with a playful image—ask a silly question and you get a silly answer.",
+          "answerZh": "阿美抱着一箱標了「捐贈」的書，朋友問她是否要捐書；她說「不，書要去旅行」。",
+          "highlight": "ask a silly question and you get a silly answer"
+        },
+        {
+          "id": "proverb-11-q12",
+          "number": 12,
+          "prompt": "Sam is kneading dough in the kitchen with flour all over his face; a friend asks if he is baking, he jokes that the flour found him first.",
+          "promptZh": "阿森在廚房揉麵團，滿臉麵粉，朋友仍問他是否在焗餅；他答「是麵粉先來找我的」。",
+          "starter": "Sam’s",
+          "answer": "Sam’s floury face prompts an obvious question and a playful reply—ask a silly question and you get a silly answer.",
+          "answerZh": "阿森在廚房揉麵團，滿臉麵粉，朋友仍問他是否在焗餅；他答「是麵粉先來找我的」。",
+          "highlight": "ask a silly question and you get a silly answer"
+        }
+      ]
+    },
+    {
+      "id": "proverb-12",
+      "order": 12,
+      "slug": "as-you-bake-so-shall-you-brew",
+      "version": "1",
+      "title": "怎樣做，便承受怎樣的結果",
+      "titleEn": "As You Bake, So Shall You Brew",
+      "titleZh": "怎樣做，便承受怎樣的結果",
+      "image": "assets/proverb-system/as-you-bake-so-shall-you-brew.svg",
+      "imageWidth": 1200,
+      "imageHeight": 900,
+      "imageAlt": "Illustrated learning card for As You Bake, So Shall You Brew.",
+      "imageAltZh": "「怎樣做，便承受怎樣的結果」學習插圖。",
+      "source": {
+        "kind": "newly-authored",
+        "reference": "Oxford proverb index; original teaching scenes and questions",
+        "date": "2026-10-28"
+      },
+      "meaning": {
+        "en": "One’s choices and actions shape the consequences one must later face.",
+        "zh": "自己的做法會帶來相應後果，之後仍須面對或承擔。"
+      },
+      "formulas": [
+        {
+          "labelEn": "Target Proverb",
+          "labelZh": "目標諺語",
+          "formula": "as you bake, so shall you brew",
+          "highlight": "as you bake, so shall you brew"
+        }
+      ],
+      "examples": [
+        {
+          "labelEn": "Model",
+          "labelZh": "示例",
+          "en": "The club failed to check the booking date and arrived to find the venue taken—as you bake, so shall you brew.",
+          "zh": "社團沒有核對預訂日期，結果到場才發現場地已被別人租用。",
+          "highlight": "as you bake, so shall you brew"
+        }
+      ],
+      "instructions": {
+        "en": "Choose the one sentence that keeps the situation’s facts and uses “as you bake, so shall you brew” accurately.",
+        "zh": "選出唯一保留情境事實、又正確使用「as you bake, so shall you brew」的英文句子。"
+      },
+      "questions": [
+        {
+          "id": "proverb-12-q01",
+          "number": 1,
+          "prompt": "A club failed to check its booking date and arrived to find the venue taken.",
+          "promptZh": "社團沒有核對訂場日期，到場才發現場地已租給別人。",
+          "starter": "The",
+          "answer": "The club’s unchecked date led to a lost venue—as you bake, so shall you brew.",
+          "answerZh": "社團沒有核對訂場日期，到場才發現場地已租給別人。",
+          "highlight": "as you bake, so shall you brew"
+        },
+        {
+          "id": "proverb-12-q02",
+          "number": 2,
+          "prompt": "Ka knew the deadline but did not submit the form and missed registration.",
+          "promptZh": "阿佳明知截止日期仍不提交表格，結果錯過報名。",
+          "starter": "Ka’s",
+          "answer": "Ka’s decision not to submit led to missing registration—as you bake, so shall you brew.",
+          "answerZh": "阿佳明知截止日期仍不提交表格，結果錯過報名。",
+          "highlight": "as you bake, so shall you brew"
+        },
+        {
+          "id": "proverb-12-q03",
+          "number": 3,
+          "prompt": "Jun made no backup; when his computer failed, he had to rewrite the report.",
+          "promptZh": "阿俊沒有備份報告，電腦壞了後要重新寫。",
+          "starter": "Jun’s",
+          "answer": "Jun’s lack of a backup left him with extra work—as you bake, so shall you brew.",
+          "answerZh": "阿俊沒有備份報告，電腦壞了後要重新寫。",
+          "highlight": "as you bake, so shall you brew"
+        },
+        {
+          "id": "proverb-12-q04",
+          "number": 4,
+          "prompt": "A player skipped practice for weeks and could not keep time with teammates during a performance.",
+          "promptZh": "球員連續數週不練習，演出時便跟不上隊友的節奏。",
+          "starter": "Skipping",
+          "answer": "Skipping practice contributed to the player losing the beat—as you bake, so shall you brew.",
+          "answerZh": "球員連續數週不練習，演出時便跟不上隊友的節奏。",
+          "highlight": "as you bake, so shall you brew"
+        },
+        {
+          "id": "proverb-12-q05",
+          "number": 5,
+          "prompt": "Man ignored the recipe, added salt instead of sugar, and the cake tasted salty.",
+          "promptZh": "阿文不看煮食步驟，把鹽當糖加進蛋糕，出爐後味道很鹹。",
+          "starter": "Man’s",
+          "answer": "Man’s ingredient choice affected the cake he had to eat—as you bake, so shall you brew.",
+          "answerZh": "阿文不看煮食步驟，把鹽當糖加進蛋糕，出爐後味道很鹹。",
+          "highlight": "as you bake, so shall you brew"
+        },
+        {
+          "id": "proverb-12-q06",
+          "number": 6,
+          "prompt": "A group kept avoiding task assignments and found two sections unwritten the night before submission.",
+          "promptZh": "小組一直不分工，交稿前夜才發現還有兩節沒寫。",
+          "starter": "Their",
+          "answer": "Their failure to divide the work led to a last-minute gap—as you bake, so shall you brew.",
+          "answerZh": "小組一直不分工，交稿前夜才發現還有兩節沒寫。",
+          "highlight": "as you bake, so shall you brew"
+        },
+        {
+          "id": "proverb-12-q07",
+          "number": 7,
+          "prompt": "Yan repeatedly skipped tyre checks and got a puncture in a worn tyre.",
+          "promptZh": "阿欣反覆不檢查單車輪胎，結果在已磨損的輪胎上爆胎。",
+          "starter": "The",
+          "answer": "The ignored worn tyre helped bring about the puncture—as you bake, so shall you brew.",
+          "answerZh": "阿欣反覆不檢查單車輪胎，結果在已磨損的輪胎上爆胎。",
+          "highlight": "as you bake, so shall you brew"
+        },
+        {
+          "id": "proverb-12-q08",
+          "number": 8,
+          "prompt": "A drama group did not rehearse scene changes, and moving props took too long during the show.",
+          "promptZh": "戲劇組沒有排練換景，正式演出時道具移位花了很久。",
+          "starter": "Skipping",
+          "answer": "Skipping scene-change practice contributed to the slow transition—as you bake, so shall you brew.",
+          "answerZh": "戲劇組沒有排練換景，正式演出時道具移位花了很久。",
+          "highlight": "as you bake, so shall you brew"
+        },
+        {
+          "id": "proverb-12-q09",
+          "number": 9,
+          "prompt": "Long left a plant in a dark corner and did not water it; after weeks its leaves wilted.",
+          "promptZh": "阿朗把植物放在黑暗角落卻一直不澆水，幾週後葉子枯萎。",
+          "starter": "Long’s",
+          "answer": "Long’s neglect was linked to the plant wilting—as you bake, so shall you brew.",
+          "answerZh": "阿朗把植物放在黑暗角落卻一直不澆水，幾週後葉子枯萎。",
+          "highlight": "as you bake, so shall you brew"
+        },
+        {
+          "id": "proverb-12-q10",
+          "number": 10,
+          "prompt": "Chui did not check the timetable and reached the platform just after the last train left.",
+          "promptZh": "阿翠沒有查列車時間，直到月台才發現尾班車剛開走。",
+          "starter": "Not",
+          "answer": "Not checking the timetable contributed to missing the train—as you bake, so shall you brew.",
+          "answerZh": "阿翠沒有查列車時間，直到月台才發現尾班車剛開走。",
+          "highlight": "as you bake, so shall you brew"
+        },
+        {
+          "id": "proverb-12-q11",
+          "number": 11,
+          "prompt": "May knew about tomorrow’s test but did not revise all evening, then struggled with material already taught.",
+          "promptZh": "阿美明知明天要考試，整晚不温習，測驗中不懂已教過的題目。",
+          "starter": "Skipping",
+          "answer": "Skipping revision contributed to May’s difficulty on the test—as you bake, so shall you brew.",
+          "answerZh": "阿美明知明天要考試，整晚不温習，測驗中不懂已教過的題目。",
+          "highlight": "as you bake, so shall you brew"
+        },
+        {
+          "id": "proverb-12-q12",
+          "number": 12,
+          "prompt": "Lok did not organise his inbox; an important invitation was buried and its reply deadline passed.",
+          "promptZh": "阿樂一直不整理電郵，重要邀請被淹沒，回覆期限便過了。",
+          "starter": "An",
+          "answer": "An unorganised inbox contributed to Lok missing the deadline—as you bake, so shall you brew.",
+          "answerZh": "阿樂一直不整理電郵，重要邀請被淹沒，回覆期限便過了。",
+          "highlight": "as you bake, so shall you brew"
         }
       ]
     }

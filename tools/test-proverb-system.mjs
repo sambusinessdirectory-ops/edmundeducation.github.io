@@ -58,9 +58,9 @@ test("portal exposes the complete eight-page Proverb flow and first-card bookmar
   assert.match(html, /data-system="proverbs"/);
   assert.match(html, /QUESTIONS DONE/i);
   assert.match(html, /TIME SPENT/i);
-  assert.match(html, /proverb-system-data\.js\?v=20260807-2/);
+  assert.match(html, /proverb-system-data\.js\?v=20261028-nextnine1/);
   assert.match(html, /shared-answer-comparison\.js\?v=20260812-1/);
-  assert.match(html, /proverb-system\.js\?v=20261028-compass-live1/);
+  assert.match(html, /proverb-system\.js\?v=20261028-nextnine1/);
   assert.match(html, /<script defer src="shared-speaking-practice\.js\?v=20260829-2"><\/script>/);
   assert.doesNotMatch(html, /<script[^>]+src="[^"]*lamejs/i);
   assert.match(html, /proverb-system\.css/);
@@ -244,9 +244,9 @@ test("published Proverb data satisfies the frontend contract", { skip: !fs.exist
   vm.runInContext(fs.readFileSync(dataPath, "utf8"), context, { filename: "proverb-system-data.js" });
   const content = context.window.EDMUND_PROVERB_SYSTEM_DATA;
   assert.equal(content.system, "proverb");
-  assert.equal(content.lessonCount, 3);
-  assert.equal(content.questionCount, 150);
-  assert.ok(Array.isArray(content.lessons) && content.lessons.length === 3);
+  assert.equal(content.lessonCount, 12);
+  assert.equal(content.questionCount, 258);
+  assert.ok(Array.isArray(content.lessons) && content.lessons.length === 12);
   assert.equal(new Set(content.lessons.map(({ id }) => id)).size, content.lessons.length);
   assert.doesNotMatch(JSON.stringify(content), /\[object Object\]|\/Users\/|[A-Z]:\\/);
 
@@ -276,7 +276,7 @@ test("published Proverb data satisfies the frontend contract", { skip: !fs.exist
       forms: 6
     }
   ];
-  for (const [lessonIndex, lesson] of content.lessons.entries()) {
+  for (const [lessonIndex, lesson] of content.lessons.slice(0,3).entries()) {
     const expected = expectedCounts[lessonIndex];
     assert.equal(lesson.id, expected.id);
     assert.match(lesson.id, /^proverb-\d{2}$/);
@@ -319,6 +319,16 @@ test("published Proverb data satisfies the frontend contract", { skip: !fs.exist
       assert.ok(question.answer.toLocaleLowerCase().includes(question.highlight.toLocaleLowerCase()));
       assert.equal(question.highlight.toLocaleLowerCase(), target);
       if (question.acceptedAnswers !== undefined) assert.ok(Array.isArray(question.acceptedAnswers));
+    });
+  }
+  for (const [offset,lesson] of content.lessons.slice(3).entries()) {
+    assert.equal(lesson.id,`proverb-${String(offset+4).padStart(2,'0')}`);
+    assert.equal(lesson.questions.length,12);
+    assert.ok(lesson.titleEn&&lesson.titleZh&&lesson.meaning?.en&&lesson.meaning?.zh);
+    assert.ok(fs.existsSync(path.join(root,lesson.image)));
+    lesson.questions.forEach((question,index)=>{
+      assert.equal(question.id,`${lesson.id}-q${String(index+1).padStart(2,'0')}`);
+      assert.ok(question.prompt&&question.promptZh&&question.answer&&question.highlight);
     });
   }
 });

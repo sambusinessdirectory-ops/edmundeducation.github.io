@@ -4,16 +4,16 @@ import { answersEquivalent, normalizeAnswerText } from "../../shared-answer-comp
 
 const SERVICE_NAME = "edmund-proverb-system";
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
-const LESSON_IDS = new Set(["proverb-01", "proverb-02", "proverb-03"]);
+const QUESTION_COUNTS = Object.freeze(Object.fromEntries(Array.from({length:12},(_,i)=>[`proverb-${String(i+1).padStart(2,'0')}`,i<3?50:12])));
+const LESSON_IDS = new Set(Object.keys(QUESTION_COUNTS));
 const CONTENT_VERSION = "1";
-const QUESTIONS_PER_LESSON = 50;
 const SECTION_BOOKMARK_ID = "__section__";
 const CONTROL_RE = /[\u0000-\u001f\u007f]/;
 const MAX_LOGIN_BODY_BYTES = 4096;
 const MAX_ATTEMPT_BODY_BYTES = 128 * 1024;
 const MAX_ATTEMPT_RESULT_BYTES = 96 * 1024;
 const MAX_BOOKMARK_BODY_BYTES = 64 * 1024;
-const MAX_BOOKMARKS = 153;
+const MAX_BOOKMARKS = 270;
 const BOOKMARK_PAGE_SIZE = 100;
 const MAX_PAGE_SIZE = 100;
 const MAX_ADMIN_ATTEMPTS = 100;
@@ -49,7 +49,7 @@ const SPELLING_EQUIVALENTS = Object.freeze({
 
 function answerCatalogReadiness() {
   const expectedIds = [...LESSON_IDS].flatMap(lessonId => Array.from(
-    { length: QUESTIONS_PER_LESSON },
+    { length: QUESTION_COUNTS[lessonId] },
     (_, index) => `${lessonId}-q${String(index + 1).padStart(2, "0")}`
   ));
   const actualIds = Object.keys(ACCEPTED_ANSWERS);
@@ -587,7 +587,7 @@ function validQuestionId(lessonId, questionId) {
   const match = questionId.match(/^(proverb-\d{2})-q(\d{2})$/);
   if (!match || match[1] !== lessonId) return false;
   const number = Number(match[2]);
-  return number >= 1 && number <= QUESTIONS_PER_LESSON;
+  return number >= 1 && number <= QUESTION_COUNTS[lessonId];
 }
 
 function normalizeAnswer(value) {
@@ -850,7 +850,7 @@ function normalizeAttemptPayload(payload) {
   if (!Number.isInteger(payload.roundNumber) || payload.roundNumber < 1 || payload.roundNumber > 1000) {
     throw new HttpError(400, "INVALID_ATTEMPT", "roundNumber is invalid");
   }
-  if (payload.totalCount !== QUESTIONS_PER_LESSON) {
+  if (payload.totalCount !== QUESTION_COUNTS[payload.lessonId]) {
     throw new HttpError(400, "INVALID_ATTEMPT", "totalCount is invalid");
   }
   if (

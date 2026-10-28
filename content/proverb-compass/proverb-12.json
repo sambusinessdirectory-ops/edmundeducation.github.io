@@ -1,0 +1,543 @@
+{
+  "id": "proverb-12",
+  "titleEn": "As You Bake, So Shall You Brew",
+  "titleZh": "怎樣做，便承受怎樣的結果",
+  "version": "2026-10-28.1",
+  "scoredCount": 12,
+  "items": [
+    {
+      "id": "proverb-12-q01",
+      "number": 1,
+      "promptEn": "A club failed to check its booking date and arrived to find the venue taken.",
+      "promptZh": "社團沒有核對訂場日期，到場才發現場地已租給別人。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The club’s unchecked date led to a lost venue—as you bake, so shall you brew.",
+          "reasonZh": "可控制的核對疏忽引致場地問題。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The club checked the date and the venue still failed through no fault of its own—as you bake, so shall you brew.",
+          "reasonZh": "原文是沒有核對。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The club had not yet tried to book anything—as you bake, so shall you brew.",
+          "reasonZh": "社團已有預訂安排。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The lost venue proves every member was careless—as you bake, so shall you brew.",
+          "reasonZh": "一項疏忽不證明人人都粗心。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-12-q02",
+      "number": 2,
+      "promptEn": "Ka knew the deadline but did not submit the form and missed registration.",
+      "promptZh": "阿佳明知截止日期仍不提交表格，結果錯過報名。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Ka’s decision not to submit led to missing registration—as you bake, so shall you brew.",
+          "reasonZh": "明知期限而不交，結果相連。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Ka submitted the form on time and the system lost it—as you bake, so shall you brew.",
+          "reasonZh": "與原文不交表格相反。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The registration deadline is still several weeks away—as you bake, so shall you brew.",
+          "reasonZh": "原文已錯過報名。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Missing one deadline proves Ka will fail forever—as you bake, so shall you brew.",
+          "reasonZh": "一次結果不等於永久命運。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-12-q03",
+      "number": 3,
+      "promptEn": "Jun made no backup; when his computer failed, he had to rewrite the report.",
+      "promptZh": "阿俊沒有備份報告，電腦壞了後要重新寫。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Jun’s lack of a backup left him with extra work—as you bake, so shall you brew.",
+          "reasonZh": "沒有備份與重做報告有清楚因果。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Jun had saved several backups before the failure—as you bake, so shall you brew.",
+          "reasonZh": "原文說沒有備份。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The report had never existed—as you bake, so shall you brew.",
+          "reasonZh": "原文說要重新寫，代表已有報告。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The computer failure proves Jun deserved any harm—as you bake, so shall you brew.",
+          "reasonZh": "諺語不等於應受任何傷害。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-12-q04",
+      "number": 4,
+      "promptEn": "A player skipped practice for weeks and could not keep time with teammates during a performance.",
+      "promptZh": "球員連續數週不練習，演出時便跟不上隊友的節奏。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Skipping practice contributed to the player losing the beat—as you bake, so shall you brew.",
+          "reasonZh": "長期缺練習與表演困難相連。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The player practised daily but the stage speakers failed—as you bake, so shall you brew.",
+          "reasonZh": "原文沒有每日練習或喇叭故障。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The performance had not yet happened—as you bake, so shall you brew.",
+          "reasonZh": "表演已發生。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The mistake proves the player has no talent at all—as you bake, so shall you brew.",
+          "reasonZh": "一次失誤不證明完全沒天分。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-12-q05",
+      "number": 5,
+      "promptEn": "Man ignored the recipe, added salt instead of sugar, and the cake tasted salty.",
+      "promptZh": "阿文不看煮食步驟，把鹽當糖加進蛋糕，出爐後味道很鹹。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Man’s ingredient choice affected the cake he had to eat—as you bake, so shall you brew.",
+          "reasonZh": "用鹽代糖與蛋糕味道有直接關係。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Man followed the recipe exactly but the oven broke—as you bake, so shall you brew.",
+          "reasonZh": "原文說沒照食譜。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The cake had not been baked yet—as you bake, so shall you brew.",
+          "reasonZh": "蛋糕已出爐。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The salty cake proves Man can never cook well—as you bake, so shall you brew.",
+          "reasonZh": "一次失手不等於永遠不會煮食。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-12-q06",
+      "number": 6,
+      "promptEn": "A group kept avoiding task assignments and found two sections unwritten the night before submission.",
+      "promptZh": "小組一直不分工，交稿前夜才發現還有兩節沒寫。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Their failure to divide the work led to a last-minute gap—as you bake, so shall you brew.",
+          "reasonZh": "未分工與最後缺稿相連。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "They had assigned every section from the start—as you bake, so shall you brew.",
+          "reasonZh": "原文說一直不分工。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The report had already been submitted complete—as you bake, so shall you brew.",
+          "reasonZh": "交稿仍在明天。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The gap proves one particular member alone caused everything—as you bake, so shall you brew.",
+          "reasonZh": "沒有足夠資料指責特定一人。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-12-q07",
+      "number": 7,
+      "promptEn": "Yan repeatedly skipped tyre checks and got a puncture in a worn tyre.",
+      "promptZh": "阿欣反覆不檢查單車輪胎，結果在已磨損的輪胎上爆胎。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The ignored worn tyre helped bring about the puncture—as you bake, so shall you brew.",
+          "reasonZh": "可檢查的磨損被忽略，與爆胎相連。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Yan checked the tyres daily and a stranger damaged the bike—as you bake, so shall you brew.",
+          "reasonZh": "原文說反覆不檢查。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The tyre was new and undamaged—as you bake, so shall you brew.",
+          "reasonZh": "輪胎已磨損。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "A puncture proves Yan caused every road hazard—as you bake, so shall you brew.",
+          "reasonZh": "單次爆胎不代表所有風險皆由她造成。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-12-q08",
+      "number": 8,
+      "promptEn": "A drama group did not rehearse scene changes, and moving props took too long during the show.",
+      "promptZh": "戲劇組沒有排練換景，正式演出時道具移位花了很久。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Skipping scene-change practice contributed to the slow transition—as you bake, so shall you brew.",
+          "reasonZh": "沒有練習換景，演出時拖慢。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The group rehearsed every change and the theatre lost power—as you bake, so shall you brew.",
+          "reasonZh": "原文沒有停電或完整排練。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The show had been cancelled before opening—as you bake, so shall you brew.",
+          "reasonZh": "正式演出已進行。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "A slow change means the entire play was worthless—as you bake, so shall you brew.",
+          "reasonZh": "一段轉場慢不等於全劇無價值。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-12-q09",
+      "number": 9,
+      "promptEn": "Long left a plant in a dark corner and did not water it; after weeks its leaves wilted.",
+      "promptZh": "阿朗把植物放在黑暗角落卻一直不澆水，幾週後葉子枯萎。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Long’s neglect was linked to the plant wilting—as you bake, so shall you brew.",
+          "reasonZh": "缺光與缺水的照料問題和枯萎相連。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Long watered it regularly in a sunny place—as you bake, so shall you brew.",
+          "reasonZh": "原文說暗角又沒澆水。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The plant was still healthy after weeks—as you bake, so shall you brew.",
+          "reasonZh": "葉子幾週後枯萎。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Wilted leaves prove Long neglects every living thing—as you bake, so shall you brew.",
+          "reasonZh": "一盆植物不能推斷對待所有生命。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-12-q10",
+      "number": 10,
+      "promptEn": "Chui did not check the timetable and reached the platform just after the last train left.",
+      "promptZh": "阿翠沒有查列車時間，直到月台才發現尾班車剛開走。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Not checking the timetable contributed to missing the train—as you bake, so shall you brew.",
+          "reasonZh": "沒查時間與錯過尾班車相連。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Chui checked the timetable but the railway changed it without notice—as you bake, so shall you brew.",
+          "reasonZh": "題目不是鐵路臨時改班次。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The last train had not departed—as you bake, so shall you brew.",
+          "reasonZh": "原文說尾班車剛開走。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Missing the train proves she never checks any plan—as you bake, so shall you brew.",
+          "reasonZh": "一次疏忽不能推斷從不做計劃。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-12-q11",
+      "number": 11,
+      "promptEn": "May knew about tomorrow’s test but did not revise all evening, then struggled with material already taught.",
+      "promptZh": "阿美明知明天要考試，整晚不温習，測驗中不懂已教過的題目。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Skipping revision contributed to May’s difficulty on the test—as you bake, so shall you brew.",
+          "reasonZh": "可控制的不温習與已教內容答不出相連。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "May revised carefully but the test covered material never taught—as you bake, so shall you brew.",
+          "reasonZh": "原文是未温習，內容已教。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The test was postponed and never held—as you bake, so shall you brew.",
+          "reasonZh": "測驗已舉行。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The result proves May cannot learn any subject—as you bake, so shall you brew.",
+          "reasonZh": "一場測驗不能代表所有學科能力。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-12-q12",
+      "number": 12,
+      "promptEn": "Lok did not organise his inbox; an important invitation was buried and its reply deadline passed.",
+      "promptZh": "阿樂一直不整理電郵，重要邀請被淹沒，回覆期限便過了。",
+      "options": [
+        {
+          "id": "key",
+          "text": "An unorganised inbox contributed to Lok missing the deadline—as you bake, so shall you brew.",
+          "reasonZh": "不整理電郵與錯過回覆期限相連。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Lok sorted the inbox daily but the invitation never arrived—as you bake, so shall you brew.",
+          "reasonZh": "原文是邀請到達後被淹沒。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The deadline is still weeks away—as you bake, so shall you brew.",
+          "reasonZh": "期限已過。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Missing one invitation proves Lok is dishonest—as you bake, so shall you brew.",
+          "reasonZh": "漏覆不等於不誠實。",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "guide": {
+    "meaning": {
+      "zh": "自己的做法會帶來相應後果，之後仍須面對或承擔。",
+      "en": "Your actions help determine the consequences you later have to face."
+    },
+    "model": {
+      "zh": "社團沒有核對預訂日期，結果到場才發現場地已被別人租用。",
+      "en": "The club failed to check the booking date and arrived to find the venue taken—as you bake, so shall you brew."
+    },
+    "picture": {
+      "zh": "想像自己和麵、放進焗爐，出爐後便要面對成品。",
+      "en": "Imagine preparing the dough and then facing the loaf that comes out of the oven."
+    },
+    "boundary": {
+      "zh": "這是較古舊的說法；不可用來責怪遭遇意外或不公的人。",
+      "en": "The wording is old-fashioned; do not use it to blame people for accidents or injustice beyond their control."
+    },
+    "where": {
+      "zh": "適合談自己可控制的選擇及其相連後果；現代日常口語常改說「種瓜得瓜」。",
+      "en": "Use it for choices within someone’s control and the connected outcome; a plainer modern saying may be easier in conversation."
+    },
+    "tone": {
+      "zh": "有勸戒意味，亦可能顯得責備；要分清責任和運氣。",
+      "en": "Admonitory and potentially blaming; distinguish choice from bad luck."
+    },
+    "checks": [
+      {
+        "zh": "當事人有甚麼可控制的選擇？",
+        "en": "What choice was within the person’s control?"
+      },
+      {
+        "zh": "後果是否由那選擇引起？",
+        "en": "Did that choice lead to the outcome?"
+      },
+      {
+        "zh": "這樣說會否錯怪受害者？",
+        "en": "Would this unfairly blame someone?"
+      }
+    ],
+    "readAloud": {
+      "zh": "她沒有備份重要檔案，電腦壞了後便要重新做整份報告。",
+      "en": "She made no backup, so when the computer failed she had to rewrite the report—as you bake, so shall you brew."
+    },
+    "choices": {
+      "2": {
+        "prompt": {
+          "zh": "哪個情境有清楚的選擇與後果？",
+          "en": "Which scene shows a clear choice and consequence?"
+        },
+        "options": [
+          {
+            "zh": "他明知要交表格卻不填，結果錯過報名。",
+            "en": "He knowingly leaves the form unfinished and misses registration.",
+            "reasonZh": "可控制的疏忽與結果相連。",
+            "correct": true
+          },
+          {
+            "zh": "他準時交表，卻因系統故障失去資料。",
+            "en": "He submits on time, but a system failure loses the data.",
+            "reasonZh": "結果不是由他的疏忽造成。",
+            "correct": false
+          },
+          {
+            "zh": "他填表後等候結果，尚不知道是否獲批。",
+            "en": "He submits the form and waits; no decision has been made.",
+            "reasonZh": "尚沒有可承擔的結果。",
+            "correct": false
+          }
+        ]
+      },
+      "3": {
+        "prompt": {
+          "zh": "朋友因自己忘記報名而失望，哪個回應較合宜？",
+          "en": "A friend is upset after forgetting to register. Which reply is useful?"
+        },
+        "options": [
+          {
+            "zh": "「先看看能否補報；下次我們一起設提醒。」",
+            "en": "“Let’s see whether late registration is possible and set a reminder next time.”",
+            "reasonZh": "承認後果，同時幫忙處理。",
+            "correct": true
+          },
+          {
+            "zh": "「怎樣做便承受怎樣的結果，所以不必幫你。」",
+            "en": "“As you bake, so shall you brew, so I need not help you.”",
+            "reasonZh": "諺語不要求旁人拒絕協助。",
+            "correct": false
+          },
+          {
+            "zh": "「你忘了報名，證明往後所有事都會失敗。」",
+            "en": "“Missing this registration proves you will fail at everything.”",
+            "reasonZh": "把一次後果誇成永久命運。",
+            "correct": false
+          }
+        ]
+      },
+      "5": {
+        "prompt": {
+          "zh": "隊員一再不按時練習，正式表演時跟不上節奏。哪句貼切？",
+          "en": "A player repeatedly skips practice and cannot keep time during the performance. Which line fits?"
+        },
+        "options": [
+          {
+            "zh": "「他自己略過練習，表演時便跟不上；怎樣做，便承受怎樣的結果。」",
+            "en": "“He skipped practice and could not keep time—as you bake, so shall you brew.”",
+            "reasonZh": "選擇與相連後果均有交代。",
+            "correct": true
+          },
+          {
+            "zh": "「他每天練習，仍因舞台故障聽不到節拍；怎樣做，便承受怎樣的結果。」",
+            "en": "“He practised daily but a stage fault hid the beat—as you bake, so shall you brew.”",
+            "reasonZh": "把外來故障錯算成他的選擇後果。",
+            "correct": false
+          },
+          {
+            "zh": "「他略過練習，卻在表演前已獲保證一定成功；怎樣做，便承受怎樣的結果。」",
+            "en": "“He skipped practice but was guaranteed success beforehand—as you bake, so shall you brew.”",
+            "reasonZh": "題目沒有這項保證，也削弱因果。",
+            "correct": false
+          }
+        ]
+      },
+      "6": {
+        "prompt": {
+          "zh": "哪個說法最能避免誤用？",
+          "en": "Which claim avoids misuse?"
+        },
+        "options": [
+          {
+            "zh": "「只在後果確實與可控制的行動相連時使用。」",
+            "en": "“Use it only when the result is linked to an action the person could control.”",
+            "reasonZh": "限定責任，避免責怪受害者。",
+            "correct": true
+          },
+          {
+            "zh": "「任何不幸都證明當事人做錯事。」",
+            "en": "“Every misfortune proves the sufferer did something wrong.”",
+            "reasonZh": "無端把意外或不公歸咎受影響者。",
+            "correct": false
+          },
+          {
+            "zh": "「這句只能談焗麵包和釀酒。」",
+            "en": "“The saying can refer only to baking and brewing.”",
+            "reasonZh": "忽略比喻意思。",
+            "correct": false
+          }
+        ]
+      }
+    }
+  }
+}

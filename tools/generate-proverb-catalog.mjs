@@ -14,11 +14,11 @@ if (!content || !Array.isArray(content.lessons)) throw new Error("Proverb lesson
 
 const catalog = {};
 for (const lesson of content.lessons) {
-  if (!Array.isArray(lesson.questions) || lesson.questions.length !== 50) {
-    throw new Error(`${lesson.id || "Unknown lesson"} must contain exactly 50 questions`);
+  if (!Array.isArray(lesson.questions) || lesson.questions.length !== (Number(lesson.order)<=3?50:12)) {
+    throw new Error(`${lesson.id || "Unknown lesson"} has an unexpected question count`);
   }
   for (const question of lesson.questions) {
-    if (!/^proverb-(?:0[1-3])-q(?:0[1-9]|[1-4][0-9]|50)$/.test(question.id || "")) {
+    if (!/^proverb-(?:0[1-9]|1[0-2])-q(?:0[1-9]|[1-4][0-9]|50)$/.test(question.id || "")) {
       throw new Error(`Invalid Proverb question ID: ${question.id || "(missing)"}`);
     }
     const answers = [question.answer, ...(Array.isArray(question.acceptedAnswers) ? question.acceptedAnswers : [])]

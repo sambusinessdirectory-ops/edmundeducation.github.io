@@ -11,17 +11,17 @@ const ORIGIN = "https://edmundeducation.github.io";
 const STUDENT_TOKEN = "11111111-1111-4111-8111-111111111111";
 const STUDENT_ID = "22222222-2222-4222-8222-222222222222";
 const ATTEMPT_ID = "33333333-3333-4333-8333-333333333333";
-const LESSON_IDS = ["proverb-01", "proverb-02", "proverb-03"];
+const LESSON_IDS = Array.from({length:12},(_,i)=>`proverb-${String(i+1).padStart(2,'0')}`);
 const LESSON_ID = LESSON_IDS[0];
 const QUESTION_IDS = Array.from(
   { length: 50 },
   (_, index) => `${LESSON_ID}-q${String(index + 1).padStart(2, "0")}`
 );
 const ALL_QUESTION_IDS = LESSON_IDS.flatMap(lessonId => Array.from(
-  { length: 50 },
+  { length: Number(lessonId.slice(-2))<=3?50:12 },
   (_, index) => `${lessonId}-q${String(index + 1).padStart(2, "0")}`
 ));
-const CANONICAL_CATALOG_SHA256 = "49768240a6cd3494d4f554665b811e0081eeafd79a885986593295340272343f";
+const CANONICAL_CATALOG_SHA256 = "3701ffef22faca7b66c80816ccf7d7d9d6e9a6eac38a9cff543bf501451a3ee2";
 
 function environment(overrides = {}) {
   return {
@@ -90,7 +90,7 @@ function attemptPayload({
     status: "in_progress",
     roundNumber: 1,
     correctCount: 1,
-    totalCount: 50,
+    totalCount: Number(lessonId.slice(-2))<=3?50:12,
     durationMs: 1000,
     startedAt,
     completedAt: null,
@@ -141,7 +141,7 @@ function installFetch(t, implementation) {
   globalThis.fetch = implementation;
 }
 
-test("the protected answer catalogue contains all 150 validated entries", () => {
+test("the protected answer catalogue contains all 258 validated entries", () => {
   const ids = Object.keys(ACCEPTED_ANSWERS);
   assert.deepEqual(ids, ALL_QUESTION_IDS);
   for (const [questionId, answers] of Object.entries(ACCEPTED_ANSWERS)) {
@@ -168,14 +168,14 @@ test("the protected catalogue exactly matches the canonical browser answers", ()
   const data = sandbox.window.EDMUND_PROVERB_SYSTEM_DATA;
   assert.equal(data?.system, "proverb");
   assert.equal(data?.version, "1");
-  assert.equal(data?.lessonCount, 3);
-  assert.equal(data?.questionCount, 150);
-  assert.equal(data?.lessons?.length, 3);
+  assert.equal(data?.lessonCount, 12);
+  assert.equal(data?.questionCount, 258);
+  assert.equal(data?.lessons?.length, 12);
 
   const canonicalRows = data.lessons.flatMap((lesson, lessonIndex) => {
     assert.equal(lesson.id, LESSON_IDS[lessonIndex]);
     assert.equal(lesson.version, "1");
-    assert.equal(lesson.questions?.length, 50);
+    assert.equal(lesson.questions?.length, Number(lesson.id.slice(-2))<=3?50:12);
     return lesson.questions.map((question, index) => {
       const questionId = `${lesson.id}-q${String(index + 1).padStart(2, "0")}`;
       assert.equal(question.id, questionId);
@@ -216,7 +216,7 @@ test("worker, SQL, and Wrangler contracts are independently proverb-namespaced",
   );
   const readme = fs.readFileSync(new URL("../README.md", import.meta.url), "utf8");
 
-  assert.match(workerSource, /const LESSON_IDS = new Set\(\["proverb-01", "proverb-02", "proverb-03"\]\);/);
+  assert.match(workerSource, /const LESSON_IDS = new Set\(Object\.keys\(QUESTION_COUNTS\)\);/);
   assert.match(workerSource, /\^\(proverb-\\d\{2\}\)-q\(\\d\{2\}\)\$/);
   assert.match(sqlSource, /p_lesson_id not in \('proverb-01', 'proverb-02', 'proverb-03'\)/);
   assert.match(sqlSource, /v_question_pattern := '\^' \|\| p_lesson_id \|\| '-q\(0\[1-9\]\|\[1-4\]\[0-9\]\|50\)\$'/);
@@ -273,13 +273,13 @@ test("health reports bookmark limits and canonical catalogue readiness", async (
   const payload = await response.json();
   assert.deepEqual(payload.catalog, {
     ready: true,
-    acceptedQuestions: 150,
-    expectedQuestions: 150
+    acceptedQuestions: 258,
+    expectedQuestions: 258
   });
   assert.deepEqual(payload.limits, {
     maxAttemptBodyBytes: 128 * 1024,
     maxAttemptResultBytes: 96 * 1024,
-    maxBookmarks: 153,
+    maxBookmarks: 270,
     maxPageSize: 100
   });
 });
@@ -389,10 +389,10 @@ test("claimed-correct answers fail closed before upsert when unavailable or unap
   assert.equal(upsertCalls, 0);
 });
 
-test("all 153 possible bookmarks round-trip and a 154th is rejected", async t => {
+test("all 270 possible bookmarks round-trip and a 271st is rejected", async t => {
   const bookmarks = LESSON_IDS.flatMap(lessonId => [
     { lessonId, questionId: "__section__", includeAnswer: false },
-    ...Array.from({ length: 50 }, (_, index) => ({
+    ...Array.from({ length: Number(lessonId.slice(-2))<=3?50:12 }, (_, index) => ({
       lessonId,
       questionId: `${lessonId}-q${String(index + 1).padStart(2, "0")}`,
       includeAnswer: index % 2 === 0
@@ -432,8 +432,8 @@ test("all 153 possible bookmarks round-trip and a 154th is rejected", async t =>
     body: JSON.stringify({ bookmarks })
   }), environment());
   assert.equal(validResponse.status, 200);
-  assert.equal((await validResponse.json()).bookmarks.length, 153);
-  assert.deepEqual(pageCalls, [[0, 100], [100, 100]]);
+  assert.equal((await validResponse.json()).bookmarks.length, 270);
+  assert.deepEqual(pageCalls, [[0, 100], [100, 100], [200, 100]]);
 
   const invalidResponse = await worker.fetch(new Request("https://worker.example/v1/bookmarks", {
     method: "PUT",
@@ -541,7 +541,7 @@ test("approved revised answers save with their version; foils and false version 
   });
   for(const lessonId of LESSON_IDS){
     const lesson=JSON.parse(fs.readFileSync(new URL(`../../../content/proverb-compass/${lessonId}.json`,import.meta.url)));
-    for(const q of lesson.items.slice(0,50)){
+    for(const q of lesson.items.slice(0,lesson.scoredCount??50)){
       const payload=attemptPayload({lessonId,questionId:q.id,answer:CURATED_ANSWERS[q.id]});
       payload.result.questionState[q.id].curationVersion=CURATION_VERSION;
       const response=await worker.fetch(attemptRequest(payload),environment());assert.equal(response.status,200,q.id);
@@ -552,7 +552,7 @@ test("approved revised answers save with their version; foils and false version 
       }
     }
   }
-  assert.equal(writes,150);
+  assert.equal(writes,258);
   const legacy=attemptPayload();assert.equal((await worker.fetch(attemptRequest(legacy),environment())).status,200);
   legacy.result.questionState[QUESTION_IDS[0]].curationVersion=CURATION_VERSION;
   assert.equal((await worker.fetch(attemptRequest(legacy),environment())).status,400,'old wording must not earn a new-version mark');

@@ -16,7 +16,7 @@ const fragmentPaths = fs.readdirSync(lessonDir)
   .map((name) => path.join(lessonDir, name));
 
 const lessons = fragmentPaths.map((fragmentPath) => JSON.parse(fs.readFileSync(fragmentPath, "utf8")));
-requireCondition(lessons.length === 3, `Expected 3 Proverb lesson fragments, found ${lessons.length}`);
+requireCondition(lessons.length === 12, `Expected 12 Proverb lesson fragments, found ${lessons.length}`);
 requireCondition(new Set(lessons.map(({ id }) => id)).size === lessons.length, "Duplicate Proverb lesson ID");
 
 lessons.sort((left, right) => Number(left.order) - Number(right.order));
@@ -25,10 +25,13 @@ lessons.forEach((lesson, lessonIndex) => {
   const expectedId = `proverb-${String(expectedOrder).padStart(2, "0")}`;
   requireCondition(lesson.order === expectedOrder, `${lesson.id}: expected order ${expectedOrder}`);
   requireCondition(lesson.id === expectedId, `${lesson.id}: expected ID ${expectedId}`);
-  requireCondition(Array.isArray(lesson.questions) && lesson.questions.length === 50, `${lesson.id}: expected 50 questions`);
-  requireCondition(Array.isArray(lesson.specificForms) && lesson.specificForms.length >= 6, `${lesson.id}: expected at least 6 formula frames`);
-  requireCondition(Array.isArray(lesson.benefits) && lesson.benefits.length >= 5, `${lesson.id}: expected at least 5 benefits`);
-  requireCondition(Array.isArray(lesson.rules) && lesson.rules.length >= 8, `${lesson.id}: expected at least 8 rules`);
+  const count=expectedOrder<=3?50:12;
+  requireCondition(Array.isArray(lesson.questions) && lesson.questions.length === count, `${lesson.id}: expected ${count} questions`);
+  if(expectedOrder<=3){
+    requireCondition(Array.isArray(lesson.specificForms) && lesson.specificForms.length >= 6, `${lesson.id}: expected at least 6 formula frames`);
+    requireCondition(Array.isArray(lesson.benefits) && lesson.benefits.length >= 5, `${lesson.id}: expected at least 5 benefits`);
+    requireCondition(Array.isArray(lesson.rules) && lesson.rules.length >= 8, `${lesson.id}: expected at least 8 rules`);
+  }
   requireCondition(!lesson.origin?.history?.some(({ titleEn }) => titleEn === "The Original Image"), `${lesson.id}: Original Image must be omitted`);
   lesson.questions.forEach((question, questionIndex) => {
     const expectedQuestionId = `${lesson.id}-q${String(questionIndex + 1).padStart(2, "0")}`;
