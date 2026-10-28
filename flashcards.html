@@ -16261,6 +16261,7 @@
     }
 
     function advanceAfterCountdownReview() {
+      queueMicrotask(() => classroomLive?.publish());
       if (!studySession) return;
       cancelStudyCardSwipe();
       stopCountdownTimers();
@@ -19028,6 +19029,7 @@
           Object.assign(studySession,snapshot.session);
           studySession.classroomFollowing=true;
           renderStudyCard();
+          stopCountdownTimers();hideCountdownClock();
         }
       });
     }).catch(error=>console.warn('Classroom live updates unavailable',error));

@@ -80,11 +80,11 @@ try{
   await a.context.close();await b.context.close();console.log('PASS writing live draft, submitted-view transition, and protection of unrelated drafts');
  }
  {
-  rows.clear();const bridge=`window.__qa={setup:()=>{currentUser=${JSON.stringify(student)};studentSessionToken='qa';currentDeckId='qa-deck';currentDeckTitle='QA';studySession={cards:[{front:'one',meaning:'一',examples:[]},{front:'two',meaning:'二',examples:[]}],mode:'all',roundNumber:1,roundQueue:[0,1],initialQueue:[0,1],initialTotal:2,currentPosition:0,answers:{},outcomes:{},outcomeTimes:{},cardAttemptCounts:{},flipped:true,completed:false,startedAt:Date.now(),elapsedMs:0,attemptId:crypto.randomUUID()};currentView='deck-view';renderStudyCard();},tick:()=>markCard('green'),state:()=>studySession,ready:()=>!!classroomLive};`;
+  rows.clear();const bridge=`window.__qa={setup:()=>{currentUser=${JSON.stringify(student)};studentSessionToken='qa';currentDeckId='qa-deck';currentDeckTitle='QA';studySession={cards:[{front:'one',meaning:'一',examples:[]},{front:'two',meaning:'二',examples:[]}],mode:'all',roundNumber:1,roundQueue:[0,1],initialQueue:[0,1],initialTotal:2,currentPosition:0,answers:{},outcomes:{},outcomeTimes:{},cardAttemptCounts:{},flipped:true,completed:false,timerSeconds:1,startedAt:Date.now(),elapsedMs:0,attemptId:crypto.randomUUID()};currentView='deck-view';renderStudyCard();},tick:()=>markCard('green'),state:()=>studySession,ready:()=>!!classroomLive};`;
   const a=await device('flashcards.html','inline',bridge),b=await device('flashcards.html','inline',bridge);
   await a.page.waitForFunction(()=>__qa.ready());await b.page.waitForFunction(()=>__qa.ready());await a.page.evaluate(()=>__qa.setup());await b.page.evaluate(()=>__qa.setup());
   await a.page.evaluate(()=>__qa.tick());await b.page.waitForFunction(()=>__qa.state().outcomes['0']==='green');
-  assert.equal(await b.page.evaluate(()=>__qa.state().classroomFollowing),true);assert.match(await b.page.locator('[data-green-count]').innerText(),/1/);assert.equal(await b.page.evaluate(()=>__qa.state().currentPosition),1);
+  assert.equal(await b.page.evaluate(()=>__qa.state().classroomFollowing),true);assert.match(await b.page.locator('[data-green-count]').innerText(),/1/);assert.equal(await b.page.evaluate(()=>__qa.state().currentPosition),1);await b.page.waitForTimeout(1600);assert.equal(await b.page.evaluate(()=>__qa.state().outcomes['1']),undefined,'passive viewing must not produce timed answers');
   await a.context.close();await b.context.close();console.log('PASS flashcard green tick and next-card position');
  }
  assert.deepEqual(errors,[]);
