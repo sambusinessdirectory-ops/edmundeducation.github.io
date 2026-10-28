@@ -1,0 +1,2693 @@
+{
+  "slug": "africa",
+  "title": "Africa",
+  "singer": "Toto",
+  "exercise_name": "Africa · Listening & Vocabulary",
+  "description": "《Africa》描寫一段充滿神秘、渴望與內心掙扎的旅程，結合了愛情、冒險與自我探索。歌中的主角受到非洲遼闊大地與自然景色的吸引，從遠方的鼓聲、夜裡的野獸叫聲，到壯麗的山脈，都象徵著未知與自由。他一方面渴望與心愛的人相聚，另一方面也希望透過這段旅程尋找人生的方向，治癒內心深處的不安與迷惘。歌曲中的雨水象徵祝福、希望與心靈的洗滌。最終，《Africa》傳達的是對愛情、自然與生命意義的追尋：即使面對未知與恐懼，也要勇敢聆聽內心的聲音，尋找真正屬於自己的歸宿。",
+  "tags": [
+    "toto",
+    "africa",
+    "journey",
+    "longing"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "I hear the drums echoing tonight",
+      "chinese": "今晚我聽見鼓聲迴盪",
+      "startSeconds": 30.38,
+      "endSeconds": 34.2
+    },
+    {
+      "lineId": "line-2",
+      "english": "But she hears only whispers of some quiet conversation",
+      "chinese": "但她只聽見幾句輕聲交談的低語",
+      "startSeconds": 35.08,
+      "endSeconds": 40.18
+    },
+    {
+      "lineId": "line-3",
+      "english": "She's coming in twelve-thirty flight",
+      "chinese": "她將搭乘十二點半的班機到來",
+      "startSeconds": 42.62,
+      "endSeconds": 45.84
+    },
+    {
+      "lineId": "line-4",
+      "english": "Her moonlit wings reflect the stars that guide me towards salvation",
+      "chinese": "她月光下的機翼映照著星辰，指引我走向救贖",
+      "startSeconds": 45.84,
+      "endSeconds": 50.62
+    },
+    {
+      "lineId": "line-5",
+      "english": "I stopped an old man along the way",
+      "chinese": "我在路上攔下了一位老人",
+      "startSeconds": 53.62,
+      "endSeconds": 57.74
+    },
+    {
+      "lineId": "line-6",
+      "english": "Hoping to find some old forgotten words or ancient melodies",
+      "chinese": "希望能找到一些被遺忘的舊詞或古老旋律",
+      "startSeconds": 57.82,
+      "endSeconds": 63.72
+    },
+    {
+      "lineId": "line-7",
+      "english": "He turned to me as if to say",
+      "chinese": "他轉向我，彷彿在說",
+      "startSeconds": 63.72,
+      "endSeconds": 69.26
+    },
+    {
+      "lineId": "line-8",
+      "english": "\"Hurry, boy, it's waiting there for you\"",
+      "chinese": "「快點，孩子，它在那裡等著你」",
+      "startSeconds": 69.26,
+      "endSeconds": 72.7
+    },
+    {
+      "lineId": "line-9",
+      "english": "It's gonna take a lot to drag me away from you",
+      "chinese": "要將我從你身邊拖走，需要費極大的力氣",
+      "startSeconds": 76.38,
+      "endSeconds": 81.48
+    },
+    {
+      "lineId": "line-10",
+      "english": "There's nothing that a hundred men or more could ever do",
+      "chinese": "就算有一百個人甚至更多，也無能為力",
+      "startSeconds": 81.48,
+      "endSeconds": 86.16
+    },
+    {
+      "lineId": "line-11",
+      "english": "I bless the rains down in Africa",
+      "chinese": "我祝福非洲降下的雨",
+      "startSeconds": 86.74,
+      "endSeconds": 90.68
+    },
+    {
+      "lineId": "line-12",
+      "english": "Gonna take some time to do the things we never had",
+      "chinese": "我們需要一些時間，去做那些我們從未有機會做的事",
+      "startSeconds": 91.86,
+      "endSeconds": 97.16
+    },
+    {
+      "lineId": "line-13",
+      "english": "The wild dogs cry out in the night",
+      "chinese": "野狗在夜色中嚎叫",
+      "startSeconds": 109.56,
+      "endSeconds": 113.12
+    },
+    {
+      "lineId": "line-14",
+      "english": "As they grow restless longing for some solitary company",
+      "chinese": "當牠們變得焦躁不安，渴望著某種孤獨的陪伴",
+      "startSeconds": 113.12,
+      "endSeconds": 119.26
+    },
+    {
+      "lineId": "line-15",
+      "english": "I know that I must do what's right",
+      "chinese": "我知道我必須做正確的事",
+      "startSeconds": 121.36,
+      "endSeconds": 124.72
+    },
+    {
+      "lineId": "line-16",
+      "english": "Sure as Kilimanjaro rises like Olympus above the Serengeti",
+      "chinese": "就像吉力馬札羅山如奧林匹斯山般矗立在塞倫蓋蒂平原之上",
+      "startSeconds": 124.72,
+      "endSeconds": 130.1
+    },
+    {
+      "lineId": "line-17",
+      "english": "I seek to cure what's deep inside",
+      "chinese": "我試圖治癒內心深處的傷痛",
+      "startSeconds": 133.26,
+      "endSeconds": 136.7
+    },
+    {
+      "lineId": "line-18",
+      "english": "Frightened of this thing that I've become",
+      "chinese": "害怕自己變成現在的模樣",
+      "startSeconds": 136.7,
+      "endSeconds": 141.02
+    },
+    {
+      "lineId": "line-19",
+      "english": "It's gonna take a lot to drag me away from you",
+      "chinese": "要將我從你身邊拖走，需要費極大的力氣",
+      "startSeconds": 143.72,
+      "endSeconds": 148.88
+    },
+    {
+      "lineId": "line-20",
+      "english": "There's nothing that a hundred men or more could ever do",
+      "chinese": "就算有一百個人甚至更多，也無能為力",
+      "startSeconds": 148.88,
+      "endSeconds": 154.0
+    },
+    {
+      "lineId": "line-21",
+      "english": "I bless the rains down in Africa",
+      "chinese": "我祝福非洲降下的雨",
+      "startSeconds": 154.0,
+      "endSeconds": 158.02
+    },
+    {
+      "lineId": "line-22",
+      "english": "Gonna take some time to do the things we never had",
+      "chinese": "我們需要一些時間，去做那些我們從未有機會做的事",
+      "startSeconds": 159.84,
+      "endSeconds": 165.86
+    },
+    {
+      "lineId": "line-23",
+      "english": "\"Hurry, boy, she's waiting there for you\"",
+      "chinese": "「快點，孩子，她在那裡等著你」",
+      "startSeconds": 192.82,
+      "endSeconds": 197.66
+    },
+    {
+      "lineId": "line-24",
+      "english": "It's gonna take a lot to drag me away from you",
+      "chinese": "要將我從你身邊拖走，需要費極大的力氣",
+      "startSeconds": 199.44,
+      "endSeconds": 204.72
+    },
+    {
+      "lineId": "line-25",
+      "english": "There's nothing that a hundred men or more could ever do",
+      "chinese": "就算有一百個人甚至更多，也無能為力",
+      "startSeconds": 204.72,
+      "endSeconds": 209.72
+    },
+    {
+      "lineId": "line-26",
+      "english": "I bless the rains down in Africa",
+      "chinese": "我祝福非洲降下的雨",
+      "startSeconds": 209.72,
+      "endSeconds": 213.72
+    },
+    {
+      "lineId": "line-27",
+      "english": "I bless the rains down in Africa",
+      "chinese": "我祝福非洲降下的雨",
+      "startSeconds": 215.5,
+      "endSeconds": 218.94
+    },
+    {
+      "lineId": "line-28",
+      "english": "I bless the rains down in Africa",
+      "chinese": "我祝福非洲降下的雨",
+      "startSeconds": 221.0,
+      "endSeconds": 224.1
+    },
+    {
+      "lineId": "line-29",
+      "english": "I bless the rains down in Africa",
+      "chinese": "我祝福非洲降下的雨",
+      "startSeconds": 226.5,
+      "endSeconds": 228.54
+    },
+    {
+      "lineId": "line-30",
+      "english": "I bless the rains down in Africa",
+      "chinese": "我祝福非洲降下的雨",
+      "startSeconds": 231.5,
+      "endSeconds": 233.52
+    },
+    {
+      "lineId": "line-31",
+      "english": "Gonna take some time to do the things we never had",
+      "chinese": "我們需要一些時間，去做那些我們從未有機會做的事",
+      "startSeconds": 236.28,
+      "endSeconds": 242.38
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "echo",
+      "meaning": "回響、產生回音",
+      "usage": "聲音在山谷、大房間或空曠地方傳開，並再次被聽到。",
+      "prompt": "哪一句正確使用「echo」？",
+      "options": [
+        "I echo my lunch because I am hungry.",
+        "The drum made a loud sound, and we heard it echo in the big room.",
+        "She put an echo on her feet before going out.",
+        "We echo to school by bus every day."
+      ],
+      "answer": 1,
+      "explanation": "正確：鼓聲在大房間裡回響，echo 用來表示聲音的回音。",
+      "optionExplanations": [
+        "錯誤：echo 不是「吃」，應說 eat my lunch。",
+        "正確：鼓聲在大房間裡回響，echo 用來表示聲音的回音。",
+        "錯誤：echo 不是鞋子，應說 shoes。",
+        "錯誤：echo 不是「搭車去」，應說 go to school。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "whisper",
+      "meaning": "低聲說話、耳語",
+      "usage": "在圖書館、有人睡覺時，或想小聲告訴別人事情時。",
+      "prompt": "哪一句正確使用「whisper」？",
+      "options": [
+        "Please whisper because the baby is sleeping.",
+        "My brother whispered his breakfast at seven.",
+        "She whispered her shoes to the door.",
+        "The teacher whispered very loudly so the whole school heard."
+      ],
+      "answer": 0,
+      "explanation": "正確：寶寶在睡覺，所以請輕聲說話。",
+      "optionExplanations": [
+        "正確：寶寶在睡覺，所以請輕聲說話。",
+        "錯誤：whisper 不能表示吃早餐，應說 ate his breakfast。",
+        "錯誤：whisper 不是移動鞋子的動作。",
+        "錯誤：whisper 是低聲說，與 very loudly 矛盾。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "along the way",
+      "meaning": "沿途、在路上",
+      "usage": "描述從某地到另一地時，途中發生的事。",
+      "prompt": "哪一句正確使用「along the way」？",
+      "options": [
+        "I put some milk along the way in my coffee.",
+        "She is along the way tall and happy.",
+        "We stopped for ice cream along the way to the beach.",
+        "My cat slept along the way of Tuesday."
+      ],
+      "answer": 2,
+      "explanation": "正確：去海邊的路上停下來買冰淇淋。",
+      "optionExplanations": [
+        "錯誤：這裡需要 into my coffee，而不是表示路途的 along the way。",
+        "錯誤：along the way 不能放在形容身高的地方。",
+        "正確：去海邊的路上停下來買冰淇淋。",
+        "錯誤：along the way 不是用來表示星期幾。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "as if",
+      "meaning": "好像、彷彿",
+      "usage": "看到某人的樣子，猜測他好像正在做什麼或有某種感覺。",
+      "prompt": "哪一句正確使用「as if」？",
+      "options": [
+        "I drink as if a glass of water after school.",
+        "My bag is as if under the chair.",
+        "He walked as if to the supermarket at six.",
+        "She looked at the cake as if she wanted to eat it all."
+      ],
+      "answer": 3,
+      "explanation": "正確：她看著蛋糕，好像想把整個吃光。",
+      "optionExplanations": [
+        "錯誤：as if 不能代替 drink 後面的受詞。",
+        "錯誤：表示位置直接說 My bag is under the chair。",
+        "錯誤：單純說去超市不需要 as if，應說 walked to the supermarket。",
+        "正確：她看著蛋糕，好像想把整個吃光。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "hurry",
+      "meaning": "趕快、快一點",
+      "usage": "時間不夠、快遲到，或需要別人加快動作時。",
+      "prompt": "哪一句正確使用「hurry」？",
+      "options": [
+        "I put my hurry in the fridge to keep it cold.",
+        "Hurry! The bus is leaving in one minute!",
+        "He hurried his blue shirt on the chair.",
+        "We ate a hurry for dinner last night."
+      ],
+      "answer": 1,
+      "explanation": "正確：公車快開了，所以要趕快。",
+      "optionExplanations": [
+        "錯誤：hurry 在這裡不是可以放進冰箱的食物。",
+        "正確：公車快開了，所以要趕快。",
+        "錯誤：hurry 不能表示把衣服放在椅子上。",
+        "錯誤：hurry 不是一道料理。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "take some time",
+      "meaning": "需要花一些時間",
+      "usage": "事情無法立刻完成，需要等候或慢慢做。",
+      "prompt": "哪一句正確使用「take some time」？",
+      "options": [
+        "Learning a new song can take some time.",
+        "I take some time into my cup and drink it.",
+        "My dog takes some time for a walk with four shoes.",
+        "Please take some time the window because it is hot."
+      ],
+      "answer": 0,
+      "explanation": "正確：學會一首新歌可能需要一段時間。",
+      "optionExplanations": [
+        "正確：學會一首新歌可能需要一段時間。",
+        "錯誤：time 不是能倒進杯子喝的東西。",
+        "錯誤：這裡想說帶狗散步，應說 take my dog for a walk。",
+        "錯誤：take some time 後面不能直接接 the window 來表示開窗。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "cry out",
+      "meaning": "大聲喊叫、叫出聲",
+      "usage": "因為害怕、痛苦、驚訝，或需要幫忙而大聲喊叫時。",
+      "prompt": "哪一句正確使用「cry out」？",
+      "options": [
+        "I cry out my homework with a pencil.",
+        "She cried out a sandwich for lunch.",
+        "The boy cried out for help when he fell.",
+        "They cried out the lights before bed."
+      ],
+      "answer": 2,
+      "explanation": "正確：男孩跌倒時大聲呼救，cry out for help 用法自然。",
+      "optionExplanations": [
+        "錯誤：cry out 不是寫作業。",
+        "錯誤：cry out 不是點餐或吃三明治。",
+        "正確：男孩跌倒時大聲呼救，cry out for help 用法自然。",
+        "錯誤：關燈應說 turned off the lights。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "long for",
+      "meaning": "渴望、非常想要",
+      "usage": "很想見到某個人、去某個地方，或得到某樣東西時。",
+      "prompt": "哪一句正確使用「long for」？",
+      "options": [
+        "After a month away, I longed for home.",
+        "He longed for his shoes under the table.",
+        "We long for our dinner in the oven at 200 degrees.",
+        "I long for my pencil with a ruler."
+      ],
+      "answer": 0,
+      "explanation": "正確：離家一個月後，非常想念家。",
+      "optionExplanations": [
+        "正確：離家一個月後，非常想念家。",
+        "錯誤：如果只是找鞋子，應說 looked for his shoes。",
+        "錯誤：long for 不表示烤食物，應說 cook。",
+        "錯誤：這裡不能用 long for 表示用尺和鉛筆做事。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "do what is right",
+      "meaning": "做正確的事",
+      "usage": "在需要選擇時，決定做誠實、公平或對別人好的事。",
+      "prompt": "哪一句正確使用「do what is right」？",
+      "options": [
+        "We do what is right our bags on the floor.",
+        "I did what was right with my left shoe because it was blue.",
+        "She did what is right to cook the music.",
+        "I found a lost phone and did what was right: I gave it to the teacher."
+      ],
+      "answer": 3,
+      "explanation": "正確：撿到手機後交給老師，是做正確的事。",
+      "optionExplanations": [
+        "錯誤：句子缺少必要的動詞連接方式，片語也用得不自然。",
+        "錯誤：what is right 不是指右邊的鞋子，而是「正確的事」。",
+        "錯誤：cook the music 不合語意，也沒有表達正確的選擇。",
+        "正確：撿到手機後交給老師，是做正確的事。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "be frightened of",
+      "meaning": "害怕……",
+      "usage": "描述害怕某個人、動物、東西或事情。",
+      "prompt": "哪一句正確使用「be frightened of」？",
+      "options": [
+        "I am frightened of quickly my lunch.",
+        "The little boy is frightened of big dogs.",
+        "I am frightened of to go the school.",
+        "He frightened of his bike yesterday."
+      ],
+      "answer": 1,
+      "explanation": "正確：小男孩害怕大狗，be frightened of 後面接害怕的對象。",
+      "optionExplanations": [
+        "錯誤：of 後不能這樣接副詞和名詞；應說 I am frightened of ... 加上害怕的對象。",
+        "正確：小男孩害怕大狗，be frightened of 後面接害怕的對象。",
+        "錯誤：of 後不能直接接 to go；可說 frightened of going to school。",
+        "錯誤：缺少 be 動詞，應說 He was frightened of his bike。"
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/africa/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/africa/cover.webp",
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I hear the drums {{blank}}",
+          "promptZh": "今晚我聽見鼓聲迴盪",
+          "options": [
+            "echoing today",
+            "echoing tonight",
+            "beating tonight"
+          ],
+          "answer": "echoing tonight"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "But she hears {{blank}} of some quiet conversation",
+          "promptZh": "但她只聽見幾句輕聲交談的低語",
+          "options": [
+            "only whispers",
+            "only rumors",
+            "only echoes"
+          ],
+          "answer": "only whispers"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "She's coming in {{blank}}",
+          "promptZh": "她將搭乘十二點半的班機到來",
+          "options": [
+            "twelve-thirty plane",
+            "twelve-fifteen flight",
+            "twelve-thirty flight"
+          ],
+          "answer": "twelve-thirty flight"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "Her moonlit wings {{blank}} that guide me towards salvation",
+          "promptZh": "她月光下的機翼映照著星辰，指引我走向救贖",
+          "options": [
+            "reflect the sun",
+            "reflect the stars",
+            "reflect the light"
+          ],
+          "answer": "reflect the stars"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "I stopped an {{blank}} along the way",
+          "promptZh": "我在路上攔下了一位老人",
+          "options": [
+            "old man",
+            "old friend",
+            "old soul"
+          ],
+          "answer": "old man"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "Hoping to find some old forgotten words or {{blank}}",
+          "promptZh": "希望能找到一些被遺忘的舊詞或古老旋律",
+          "options": [
+            "ancient melodies",
+            "ancient memories",
+            "old melodies"
+          ],
+          "answer": "ancient melodies"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "He turned to me {{blank}}",
+          "promptZh": "他轉向我，彷彿在說",
+          "options": [
+            "as if to speak",
+            "as if to say",
+            "like he would say"
+          ],
+          "answer": "as if to say"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "\"Hurry, boy, it's {{blank}} for you\"",
+          "promptZh": "「快點，孩子，它在那裡等著你」",
+          "options": [
+            "waiting for you",
+            "waiting here",
+            "waiting there"
+          ],
+          "answer": "waiting there"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "It's gonna {{blank}} to 〔第 10 題〕 from you",
+          "promptZh": "要將我從你身邊拖走，需要費極大的力氣",
+          "options": [
+            "take some time",
+            "take a lot",
+            "take a while"
+          ],
+          "answer": "take a lot"
+        },
+        {
+          "number": 10,
+          "lineId": "line-9",
+          "prompt": "It's gonna 〔第 9 題〕 to {{blank}} from you",
+          "promptZh": "要將我從你身邊拖走，需要費極大的力氣",
+          "options": [
+            "drag me away",
+            "pull me away",
+            "take me away"
+          ],
+          "answer": "drag me away"
+        },
+        {
+          "number": 11,
+          "lineId": "line-10",
+          "prompt": "There's nothing that a {{blank}} or more 〔第 12 題〕",
+          "promptZh": "就算有一百個人甚至更多，也無能為力",
+          "options": [
+            "hundred friends",
+            "thousand men",
+            "hundred men"
+          ],
+          "answer": "hundred men"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "There's nothing that a 〔第 11 題〕 or more {{blank}}",
+          "promptZh": "就算有一百個人甚至更多，也無能為力",
+          "options": [
+            "would ever do",
+            "could ever do",
+            "could ever see"
+          ],
+          "answer": "could ever do"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "I {{blank}} down in Africa",
+          "promptZh": "我祝福非洲降下的雨",
+          "options": [
+            "bless the rains",
+            "bless the days",
+            "bless the land"
+          ],
+          "answer": "bless the rains"
+        },
+        {
+          "number": 14,
+          "lineId": "line-12",
+          "prompt": "Gonna take some time to do the things we {{blank}}",
+          "promptZh": "我們需要一些時間，去做那些我們從未有機會做的事",
+          "options": [
+            "never knew",
+            "never have",
+            "never had"
+          ],
+          "answer": "never had"
+        },
+        {
+          "number": 15,
+          "lineId": "line-13",
+          "prompt": "The {{blank}} cry out in the night",
+          "promptZh": "野狗在夜色中嚎叫",
+          "options": [
+            "wild cats",
+            "wild dogs",
+            "stray dogs"
+          ],
+          "answer": "wild dogs"
+        },
+        {
+          "number": 16,
+          "lineId": "line-14",
+          "prompt": "As they grow restless longing for some {{blank}}",
+          "promptZh": "當牠們變得焦躁不安，渴望著某種孤獨的陪伴",
+          "options": [
+            "solitary company",
+            "lonely company",
+            "quiet company"
+          ],
+          "answer": "solitary company"
+        },
+        {
+          "number": 17,
+          "lineId": "line-15",
+          "prompt": "I know that I must do {{blank}}",
+          "promptZh": "我知道我必須做正確的事",
+          "options": [
+            "what's true",
+            "what's wrong",
+            "what's right"
+          ],
+          "answer": "what's right"
+        },
+        {
+          "number": 18,
+          "lineId": "line-16",
+          "prompt": "Sure as Kilimanjaro {{blank}} Olympus above the Serengeti",
+          "promptZh": "就像吉力馬札羅山如奧林匹斯山般矗立在塞倫蓋蒂平原之上",
+          "options": [
+            "rises like",
+            "stands like",
+            "climbs like"
+          ],
+          "answer": "rises like"
+        },
+        {
+          "number": 19,
+          "lineId": "line-17",
+          "prompt": "I seek to cure what's {{blank}}",
+          "promptZh": "我試圖治癒內心深處的傷痛",
+          "options": [
+            "far inside",
+            "deep within",
+            "deep inside"
+          ],
+          "answer": "deep inside"
+        },
+        {
+          "number": 20,
+          "lineId": "line-18",
+          "prompt": "{{blank}} of this thing that I've become",
+          "promptZh": "害怕自己變成現在的模樣",
+          "options": [
+            "Scared",
+            "Frightened",
+            "Worried"
+          ],
+          "answer": "Frightened"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I hear the drums {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "But she hears {{q:2}} of some quiet conversation"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "She's coming in {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Her moonlit wings {{q:4}} that guide me towards salvation"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I stopped an {{q:5}} along the way"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Hoping to find some old forgotten words or {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "He turned to me {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "\"Hurry, boy, it's {{q:8}} for you\""
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "It's gonna {{q:9}} to {{q:10}} from you"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "There's nothing that a {{q:11}} or more {{q:12}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I {{q:13}} down in Africa"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Gonna take some time to do the things we {{q:14}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "The {{q:15}} cry out in the night"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "As they grow restless longing for some {{q:16}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I know that I must do {{q:17}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Sure as Kilimanjaro {{q:18}} Olympus above the Serengeti"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I seek to cure what's {{q:19}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:20}} of this thing that I've become"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "It's gonna take a lot to drag me away from you"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "There's nothing that a hundred men or more could ever do"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I bless the rains down in Africa"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Gonna take some time to do the things we never had"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "\"Hurry, boy, she's waiting there for you\""
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "It's gonna take a lot to drag me away from you"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "There's nothing that a hundred men or more could ever do"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I bless the rains down in Africa"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I bless the rains down in Africa"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I bless the rains down in Africa"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I bless the rains down in Africa"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I bless the rains down in Africa"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Gonna take some time to do the things we never had"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I hear the drums {{blank}}",
+          "promptZh": "今晚我聽見鼓聲迴盪",
+          "options": [
+            "echoing today",
+            "echoing tonight",
+            "beating tonight"
+          ],
+          "answer": "echoing tonight"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "But she hears {{blank}} of some 〔第 3 題〕",
+          "promptZh": "但她只聽見幾句輕聲交談的低語",
+          "options": [
+            "only whispers",
+            "only rumors",
+            "only echoes"
+          ],
+          "answer": "only whispers"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "But she hears 〔第 2 題〕 of some {{blank}}",
+          "promptZh": "但她只聽見幾句輕聲交談的低語",
+          "options": [
+            "quiet talks",
+            "soft conversation",
+            "quiet conversation"
+          ],
+          "answer": "quiet conversation"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "She's coming in {{blank}}",
+          "promptZh": "她將搭乘十二點半的班機到來",
+          "options": [
+            "twelve-fifteen flight",
+            "twelve-thirty flight",
+            "twelve-thirty plane"
+          ],
+          "answer": "twelve-thirty flight"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "Her {{blank}} 〔第 6 題〕 that guide me towards salvation",
+          "promptZh": "她月光下的機翼映照著星辰，指引我走向救贖",
+          "options": [
+            "moonlit wings",
+            "silver wings",
+            "night wings"
+          ],
+          "answer": "moonlit wings"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "Her 〔第 5 題〕 {{blank}} that guide me towards salvation",
+          "promptZh": "她月光下的機翼映照著星辰，指引我走向救贖",
+          "options": [
+            "reflect the sun",
+            "reflect the light",
+            "reflect the stars"
+          ],
+          "answer": "reflect the stars"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "I stopped an {{blank}} 〔第 8 題〕",
+          "promptZh": "我在路上攔下了一位老人",
+          "options": [
+            "old man",
+            "old friend",
+            "old soul"
+          ],
+          "answer": "old man"
+        },
+        {
+          "number": 8,
+          "lineId": "line-5",
+          "prompt": "I stopped an 〔第 7 題〕 {{blank}}",
+          "promptZh": "我在路上攔下了一位老人",
+          "options": [
+            "on the way",
+            "along the way",
+            "by the way"
+          ],
+          "answer": "along the way"
+        },
+        {
+          "number": 9,
+          "lineId": "line-6",
+          "prompt": "Hoping to find some old {{blank}} or 〔第 10 題〕",
+          "promptZh": "希望能找到一些被遺忘的舊詞或古老旋律",
+          "options": [
+            "forgotten words",
+            "lost words",
+            "old words"
+          ],
+          "answer": "forgotten words"
+        },
+        {
+          "number": 10,
+          "lineId": "line-6",
+          "prompt": "Hoping to find some old 〔第 9 題〕 or {{blank}}",
+          "promptZh": "希望能找到一些被遺忘的舊詞或古老旋律",
+          "options": [
+            "old melodies",
+            "ancient memories",
+            "ancient melodies"
+          ],
+          "answer": "ancient melodies"
+        },
+        {
+          "number": 11,
+          "lineId": "line-7",
+          "prompt": "He turned to me {{blank}}",
+          "promptZh": "他轉向我，彷彿在說",
+          "options": [
+            "as if to speak",
+            "as if to say",
+            "like he would say"
+          ],
+          "answer": "as if to say"
+        },
+        {
+          "number": 12,
+          "lineId": "line-8",
+          "prompt": "\"{{blank}}, it's 〔第 13 題〕 for you\"",
+          "promptZh": "「快點，孩子，它在那裡等著你」",
+          "options": [
+            "Hurry, boy",
+            "Hurry up",
+            "Hurry now"
+          ],
+          "answer": "Hurry, boy"
+        },
+        {
+          "number": 13,
+          "lineId": "line-8",
+          "prompt": "\"〔第 12 題〕, it's {{blank}} for you\"",
+          "promptZh": "「快點，孩子，它在那裡等著你」",
+          "options": [
+            "waiting here",
+            "waiting there",
+            "waiting for you"
+          ],
+          "answer": "waiting there"
+        },
+        {
+          "number": 14,
+          "lineId": "line-9",
+          "prompt": "It's gonna {{blank}} to 〔第 15 題〕 from you",
+          "promptZh": "要將我從你身邊拖走，需要費極大的力氣",
+          "options": [
+            "take a while",
+            "take some time",
+            "take a lot"
+          ],
+          "answer": "take a lot"
+        },
+        {
+          "number": 15,
+          "lineId": "line-9",
+          "prompt": "It's gonna 〔第 14 題〕 to {{blank}} from you",
+          "promptZh": "要將我從你身邊拖走，需要費極大的力氣",
+          "options": [
+            "take me away",
+            "pull me away",
+            "drag me away"
+          ],
+          "answer": "drag me away"
+        },
+        {
+          "number": 16,
+          "lineId": "line-10",
+          "prompt": "There's {{blank}} a 〔第 17 題〕 or more 〔第 18 題〕",
+          "promptZh": "就算有一百個人甚至更多，也無能為力",
+          "options": [
+            "nothing that",
+            "nothing else",
+            "no one that"
+          ],
+          "answer": "nothing that"
+        },
+        {
+          "number": 17,
+          "lineId": "line-10",
+          "prompt": "There's 〔第 16 題〕 a {{blank}} or more 〔第 18 題〕",
+          "promptZh": "就算有一百個人甚至更多，也無能為力",
+          "options": [
+            "thousand men",
+            "hundred men",
+            "hundred friends"
+          ],
+          "answer": "hundred men"
+        },
+        {
+          "number": 18,
+          "lineId": "line-10",
+          "prompt": "There's 〔第 16 題〕 a 〔第 17 題〕 or more {{blank}}",
+          "promptZh": "就算有一百個人甚至更多，也無能為力",
+          "options": [
+            "could ever see",
+            "could ever do",
+            "would ever do"
+          ],
+          "answer": "could ever do"
+        },
+        {
+          "number": 19,
+          "lineId": "line-11",
+          "prompt": "I {{blank}} 〔第 20 題〕",
+          "promptZh": "我祝福非洲降下的雨",
+          "options": [
+            "bless the land",
+            "bless the days",
+            "bless the rains"
+          ],
+          "answer": "bless the rains"
+        },
+        {
+          "number": 20,
+          "lineId": "line-11",
+          "prompt": "I 〔第 19 題〕 {{blank}}",
+          "promptZh": "我祝福非洲降下的雨",
+          "options": [
+            "down in Africa",
+            "down in Savannah",
+            "down in Eden"
+          ],
+          "answer": "down in Africa"
+        },
+        {
+          "number": 21,
+          "lineId": "line-12",
+          "prompt": "{{blank}} some time to do the things we 〔第 22 題〕",
+          "promptZh": "我們需要一些時間，去做那些我們從未有機會做的事",
+          "options": [
+            "Gonna take",
+            "Going to take",
+            "Gonna need"
+          ],
+          "answer": "Gonna take"
+        },
+        {
+          "number": 22,
+          "lineId": "line-12",
+          "prompt": "〔第 21 題〕 some time to do the things we {{blank}}",
+          "promptZh": "我們需要一些時間，去做那些我們從未有機會做的事",
+          "options": [
+            "never knew",
+            "never have",
+            "never had"
+          ],
+          "answer": "never had"
+        },
+        {
+          "number": 23,
+          "lineId": "line-13",
+          "prompt": "The {{blank}} cry out in the night",
+          "promptZh": "野狗在夜色中嚎叫",
+          "options": [
+            "wild cats",
+            "wild dogs",
+            "stray dogs"
+          ],
+          "answer": "wild dogs"
+        },
+        {
+          "number": 24,
+          "lineId": "line-14",
+          "prompt": "As they grow restless longing for some {{blank}}",
+          "promptZh": "當牠們變得焦躁不安，渴望著某種孤獨的陪伴",
+          "options": [
+            "quiet company",
+            "lonely company",
+            "solitary company"
+          ],
+          "answer": "solitary company"
+        },
+        {
+          "number": 25,
+          "lineId": "line-15",
+          "prompt": "I know that I must do {{blank}}",
+          "promptZh": "我知道我必須做正確的事",
+          "options": [
+            "what's wrong",
+            "what's right",
+            "what's true"
+          ],
+          "answer": "what's right"
+        },
+        {
+          "number": 26,
+          "lineId": "line-16",
+          "prompt": "Sure as Kilimanjaro {{blank}} Olympus above the Serengeti",
+          "promptZh": "就像吉力馬札羅山如奧林匹斯山般矗立在塞倫蓋蒂平原之上",
+          "options": [
+            "rises like",
+            "stands like",
+            "climbs like"
+          ],
+          "answer": "rises like"
+        },
+        {
+          "number": 27,
+          "lineId": "line-17",
+          "prompt": "I seek to cure what's {{blank}}",
+          "promptZh": "我試圖治癒內心深處的傷痛",
+          "options": [
+            "deep within",
+            "deep inside",
+            "far inside"
+          ],
+          "answer": "deep inside"
+        },
+        {
+          "number": 28,
+          "lineId": "line-18",
+          "prompt": "{{blank}} of this thing that I've become",
+          "promptZh": "害怕自己變成現在的模樣",
+          "options": [
+            "Frightened",
+            "Scared",
+            "Worried"
+          ],
+          "answer": "Frightened"
+        },
+        {
+          "number": 29,
+          "lineId": "line-21",
+          "prompt": "I {{blank}} down in Africa",
+          "promptZh": "我祝福非洲降下的雨",
+          "options": [
+            "bless the land",
+            "bless the days",
+            "bless the rains"
+          ],
+          "answer": "bless the rains"
+        },
+        {
+          "number": 30,
+          "lineId": "line-22",
+          "prompt": "{{blank}} to do the things we 〔第 31 題〕",
+          "promptZh": "我們需要一些時間，去做那些我們從未有機會做的事",
+          "options": [
+            "Gonna spend some time",
+            "Gonna make some time",
+            "Gonna take some time"
+          ],
+          "answer": "Gonna take some time"
+        },
+        {
+          "number": 31,
+          "lineId": "line-22",
+          "prompt": "〔第 30 題〕 to do the things we {{blank}}",
+          "promptZh": "我們需要一些時間，去做那些我們從未有機會做的事",
+          "options": [
+            "never have",
+            "never had",
+            "never knew"
+          ],
+          "answer": "never had"
+        },
+        {
+          "number": 32,
+          "lineId": "line-23",
+          "prompt": "\"{{blank}}, she's waiting there for you\"",
+          "promptZh": "「快點，孩子，她在那裡等著你」",
+          "options": [
+            "Hurry, boy",
+            "Hurry up",
+            "Hurry now"
+          ],
+          "answer": "Hurry, boy"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I hear the drums {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "But she hears {{q:2}} of some {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "She's coming in {{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Her {{q:5}} {{q:6}} that guide me towards salvation"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I stopped an {{q:7}} {{q:8}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Hoping to find some old {{q:9}} or {{q:10}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "He turned to me {{q:11}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "\"{{q:12}}, it's {{q:13}} for you\""
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "It's gonna {{q:14}} to {{q:15}} from you"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "There's {{q:16}} a {{q:17}} or more {{q:18}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I {{q:19}} {{q:20}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:21}} some time to do the things we {{q:22}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "The {{q:23}} cry out in the night"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "As they grow restless longing for some {{q:24}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I know that I must do {{q:25}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Sure as Kilimanjaro {{q:26}} Olympus above the Serengeti"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I seek to cure what's {{q:27}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:28}} of this thing that I've become"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "It's gonna take a lot to drag me away from you"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "There's nothing that a hundred men or more could ever do"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I {{q:29}} down in Africa"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:30}} to do the things we {{q:31}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "\"{{q:32}}, she's waiting there for you\""
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "It's gonna take a lot to drag me away from you"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "There's nothing that a hundred men or more could ever do"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I bless the rains down in Africa"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I bless the rains down in Africa"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I bless the rains down in Africa"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I bless the rains down in Africa"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I bless the rains down in Africa"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Gonna take some time to do the things we never had"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} the drums 〔第 2 題〕",
+          "promptZh": "今晚我聽見鼓聲迴盪",
+          "options": [
+            "I hear",
+            "I see",
+            "I feel"
+          ],
+          "answer": "I hear"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 the drums {{blank}}",
+          "promptZh": "今晚我聽見鼓聲迴盪",
+          "options": [
+            "beating tonight",
+            "echoing today",
+            "echoing tonight"
+          ],
+          "answer": "echoing tonight"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "But she hears {{blank}} of some 〔第 4 題〕",
+          "promptZh": "但她只聽見幾句輕聲交談的低語",
+          "options": [
+            "only echoes",
+            "only whispers",
+            "only rumors"
+          ],
+          "answer": "only whispers"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "But she hears 〔第 3 題〕 of some {{blank}}",
+          "promptZh": "但她只聽見幾句輕聲交談的低語",
+          "options": [
+            "quiet conversation",
+            "quiet talks",
+            "soft conversation"
+          ],
+          "answer": "quiet conversation"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "She's coming in {{blank}}",
+          "promptZh": "她將搭乘十二點半的班機到來",
+          "options": [
+            "twelve-thirty plane",
+            "twelve-fifteen flight",
+            "twelve-thirty flight"
+          ],
+          "answer": "twelve-thirty flight"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "Her {{blank}} 〔第 7 題〕 that 〔第 8 題〕 salvation",
+          "promptZh": "她月光下的機翼映照著星辰，指引我走向救贖",
+          "options": [
+            "night wings",
+            "moonlit wings",
+            "silver wings"
+          ],
+          "answer": "moonlit wings"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "Her 〔第 6 題〕 {{blank}} that 〔第 8 題〕 salvation",
+          "promptZh": "她月光下的機翼映照著星辰，指引我走向救贖",
+          "options": [
+            "reflect the stars",
+            "reflect the sun",
+            "reflect the light"
+          ],
+          "answer": "reflect the stars"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "Her 〔第 6 題〕 〔第 7 題〕 that {{blank}} salvation",
+          "promptZh": "她月光下的機翼映照著星辰，指引我走向救贖",
+          "options": [
+            "lead me towards",
+            "guide me towards",
+            "take me towards"
+          ],
+          "answer": "guide me towards"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "I stopped an {{blank}} 〔第 10 題〕",
+          "promptZh": "我在路上攔下了一位老人",
+          "options": [
+            "old man",
+            "old friend",
+            "old soul"
+          ],
+          "answer": "old man"
+        },
+        {
+          "number": 10,
+          "lineId": "line-5",
+          "prompt": "I stopped an 〔第 9 題〕 {{blank}}",
+          "promptZh": "我在路上攔下了一位老人",
+          "options": [
+            "by the way",
+            "on the way",
+            "along the way"
+          ],
+          "answer": "along the way"
+        },
+        {
+          "number": 11,
+          "lineId": "line-6",
+          "prompt": "{{blank}} some old 〔第 12 題〕 or 〔第 13 題〕",
+          "promptZh": "希望能找到一些被遺忘的舊詞或古老旋律",
+          "options": [
+            "Waiting to find",
+            "Trying to find",
+            "Hoping to find"
+          ],
+          "answer": "Hoping to find"
+        },
+        {
+          "number": 12,
+          "lineId": "line-6",
+          "prompt": "〔第 11 題〕 some old {{blank}} or 〔第 13 題〕",
+          "promptZh": "希望能找到一些被遺忘的舊詞或古老旋律",
+          "options": [
+            "forgotten words",
+            "lost words",
+            "old words"
+          ],
+          "answer": "forgotten words"
+        },
+        {
+          "number": 13,
+          "lineId": "line-6",
+          "prompt": "〔第 11 題〕 some old 〔第 12 題〕 or {{blank}}",
+          "promptZh": "希望能找到一些被遺忘的舊詞或古老旋律",
+          "options": [
+            "ancient memories",
+            "ancient melodies",
+            "old melodies"
+          ],
+          "answer": "ancient melodies"
+        },
+        {
+          "number": 14,
+          "lineId": "line-7",
+          "prompt": "He turned to me {{blank}}",
+          "promptZh": "他轉向我，彷彿在說",
+          "options": [
+            "like he would say",
+            "as if to speak",
+            "as if to say"
+          ],
+          "answer": "as if to say"
+        },
+        {
+          "number": 15,
+          "lineId": "line-8",
+          "prompt": "\"{{blank}}, it's 〔第 16 題〕 for you\"",
+          "promptZh": "「快點，孩子，它在那裡等著你」",
+          "options": [
+            "Hurry, boy",
+            "Hurry up",
+            "Hurry now"
+          ],
+          "answer": "Hurry, boy"
+        },
+        {
+          "number": 16,
+          "lineId": "line-8",
+          "prompt": "\"〔第 15 題〕, it's {{blank}} for you\"",
+          "promptZh": "「快點，孩子，它在那裡等著你」",
+          "options": [
+            "waiting here",
+            "waiting there",
+            "waiting for you"
+          ],
+          "answer": "waiting there"
+        },
+        {
+          "number": 17,
+          "lineId": "line-9",
+          "prompt": "It's gonna {{blank}} to 〔第 18 題〕 from you",
+          "promptZh": "要將我從你身邊拖走，需要費極大的力氣",
+          "options": [
+            "take a lot",
+            "take some time",
+            "take a while"
+          ],
+          "answer": "take a lot"
+        },
+        {
+          "number": 18,
+          "lineId": "line-9",
+          "prompt": "It's gonna 〔第 17 題〕 to {{blank}} from you",
+          "promptZh": "要將我從你身邊拖走，需要費極大的力氣",
+          "options": [
+            "take me away",
+            "pull me away",
+            "drag me away"
+          ],
+          "answer": "drag me away"
+        },
+        {
+          "number": 19,
+          "lineId": "line-10",
+          "prompt": "There's {{blank}} a 〔第 20 題〕 or more 〔第 21 題〕",
+          "promptZh": "就算有一百個人甚至更多，也無能為力",
+          "options": [
+            "nothing else",
+            "nothing that",
+            "no one that"
+          ],
+          "answer": "nothing that"
+        },
+        {
+          "number": 20,
+          "lineId": "line-10",
+          "prompt": "There's 〔第 19 題〕 a {{blank}} or more 〔第 21 題〕",
+          "promptZh": "就算有一百個人甚至更多，也無能為力",
+          "options": [
+            "hundred friends",
+            "thousand men",
+            "hundred men"
+          ],
+          "answer": "hundred men"
+        },
+        {
+          "number": 21,
+          "lineId": "line-10",
+          "prompt": "There's 〔第 19 題〕 a 〔第 20 題〕 or more {{blank}}",
+          "promptZh": "就算有一百個人甚至更多，也無能為力",
+          "options": [
+            "would ever do",
+            "could ever do",
+            "could ever see"
+          ],
+          "answer": "could ever do"
+        },
+        {
+          "number": 22,
+          "lineId": "line-11",
+          "prompt": "I {{blank}} 〔第 23 題〕",
+          "promptZh": "我祝福非洲降下的雨",
+          "options": [
+            "bless the rains",
+            "bless the days",
+            "bless the land"
+          ],
+          "answer": "bless the rains"
+        },
+        {
+          "number": 23,
+          "lineId": "line-11",
+          "prompt": "I 〔第 22 題〕 {{blank}}",
+          "promptZh": "我祝福非洲降下的雨",
+          "options": [
+            "down in Eden",
+            "down in Savannah",
+            "down in Africa"
+          ],
+          "answer": "down in Africa"
+        },
+        {
+          "number": 24,
+          "lineId": "line-12",
+          "prompt": "{{blank}} some time to do the things we 〔第 25 題〕",
+          "promptZh": "我們需要一些時間，去做那些我們從未有機會做的事",
+          "options": [
+            "Going to take",
+            "Gonna take",
+            "Gonna need"
+          ],
+          "answer": "Gonna take"
+        },
+        {
+          "number": 25,
+          "lineId": "line-12",
+          "prompt": "〔第 24 題〕 some time to do the things we {{blank}}",
+          "promptZh": "我們需要一些時間，去做那些我們從未有機會做的事",
+          "options": [
+            "never had",
+            "never have",
+            "never knew"
+          ],
+          "answer": "never had"
+        },
+        {
+          "number": 26,
+          "lineId": "line-13",
+          "prompt": "The {{blank}} cry out in the night",
+          "promptZh": "野狗在夜色中嚎叫",
+          "options": [
+            "wild cats",
+            "wild dogs",
+            "stray dogs"
+          ],
+          "answer": "wild dogs"
+        },
+        {
+          "number": 27,
+          "lineId": "line-14",
+          "prompt": "As they grow restless longing for some {{blank}}",
+          "promptZh": "當牠們變得焦躁不安，渴望著某種孤獨的陪伴",
+          "options": [
+            "quiet company",
+            "lonely company",
+            "solitary company"
+          ],
+          "answer": "solitary company"
+        },
+        {
+          "number": 28,
+          "lineId": "line-15",
+          "prompt": "I know that I must do {{blank}}",
+          "promptZh": "我知道我必須做正確的事",
+          "options": [
+            "what's right",
+            "what's wrong",
+            "what's true"
+          ],
+          "answer": "what's right"
+        },
+        {
+          "number": 29,
+          "lineId": "line-16",
+          "prompt": "{{blank}} Kilimanjaro 〔第 30 題〕 Olympus above the Serengeti",
+          "promptZh": "就像吉力馬札羅山如奧林匹斯山般矗立在塞倫蓋蒂平原之上",
+          "options": [
+            "As sure as",
+            "Just as",
+            "Sure as"
+          ],
+          "answer": "Sure as"
+        },
+        {
+          "number": 30,
+          "lineId": "line-16",
+          "prompt": "〔第 29 題〕 Kilimanjaro {{blank}} Olympus above the Serengeti",
+          "promptZh": "就像吉力馬札羅山如奧林匹斯山般矗立在塞倫蓋蒂平原之上",
+          "options": [
+            "rises like",
+            "stands like",
+            "climbs like"
+          ],
+          "answer": "rises like"
+        },
+        {
+          "number": 31,
+          "lineId": "line-17",
+          "prompt": "I seek to cure what's {{blank}}",
+          "promptZh": "我試圖治癒內心深處的傷痛",
+          "options": [
+            "deep within",
+            "deep inside",
+            "far inside"
+          ],
+          "answer": "deep inside"
+        },
+        {
+          "number": 32,
+          "lineId": "line-18",
+          "prompt": "{{blank}} of this thing that I've become",
+          "promptZh": "害怕自己變成現在的模樣",
+          "options": [
+            "Scared",
+            "Frightened",
+            "Worried"
+          ],
+          "answer": "Frightened"
+        },
+        {
+          "number": 33,
+          "lineId": "line-19",
+          "prompt": "{{blank}} a lot to 〔第 34 題〕",
+          "promptZh": "要將我從你身邊拖走，需要費極大的力氣",
+          "options": [
+            "It's gonna take",
+            "It's going to take",
+            "It will take"
+          ],
+          "answer": "It's gonna take"
+        },
+        {
+          "number": 34,
+          "lineId": "line-19",
+          "prompt": "〔第 33 題〕 a lot to {{blank}}",
+          "promptZh": "要將我從你身邊拖走，需要費極大的力氣",
+          "options": [
+            "take me away from you",
+            "pull me away from you",
+            "drag me away from you"
+          ],
+          "answer": "drag me away from you"
+        },
+        {
+          "number": 35,
+          "lineId": "line-20",
+          "prompt": "There's {{blank}} men or more could ever do",
+          "promptZh": "就算有一百個人甚至更多，也無能為力",
+          "options": [
+            "nothing that a hundred",
+            "nothing that a thousand",
+            "no one that a hundred"
+          ],
+          "answer": "nothing that a hundred"
+        },
+        {
+          "number": 36,
+          "lineId": "line-21",
+          "prompt": "I {{blank}} down in Africa",
+          "promptZh": "我祝福非洲降下的雨",
+          "options": [
+            "bless the land",
+            "bless the days",
+            "bless the rains"
+          ],
+          "answer": "bless the rains"
+        },
+        {
+          "number": 37,
+          "lineId": "line-22",
+          "prompt": "Gonna {{blank}} to do the things we 〔第 38 題〕",
+          "promptZh": "我們需要一些時間，去做那些我們從未有機會做的事",
+          "options": [
+            "take a lot",
+            "take some time",
+            "take a while"
+          ],
+          "answer": "take some time"
+        },
+        {
+          "number": 38,
+          "lineId": "line-22",
+          "prompt": "Gonna 〔第 37 題〕 to do the things we {{blank}}",
+          "promptZh": "我們需要一些時間，去做那些我們從未有機會做的事",
+          "options": [
+            "never have",
+            "never had",
+            "never knew"
+          ],
+          "answer": "never had"
+        },
+        {
+          "number": 39,
+          "lineId": "line-23",
+          "prompt": "\"{{blank}}, she's waiting there for you\"",
+          "promptZh": "「快點，孩子，她在那裡等著你」",
+          "options": [
+            "Hurry now",
+            "Hurry up",
+            "Hurry, boy"
+          ],
+          "answer": "Hurry, boy"
+        },
+        {
+          "number": 40,
+          "lineId": "line-31",
+          "prompt": "{{blank}} to do the things we never had",
+          "promptZh": "我們需要一些時間，去做那些我們從未有機會做的事",
+          "options": [
+            "Gonna take some time",
+            "Gonna make some time",
+            "Gonna spend some time"
+          ],
+          "answer": "Gonna take some time"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} the drums {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "But she hears {{q:3}} of some {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "She's coming in {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Her {{q:6}} {{q:7}} that {{q:8}} salvation"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I stopped an {{q:9}} {{q:10}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:11}} some old {{q:12}} or {{q:13}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "He turned to me {{q:14}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "\"{{q:15}}, it's {{q:16}} for you\""
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "It's gonna {{q:17}} to {{q:18}} from you"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "There's {{q:19}} a {{q:20}} or more {{q:21}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I {{q:22}} {{q:23}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:24}} some time to do the things we {{q:25}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "The {{q:26}} cry out in the night"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "As they grow restless longing for some {{q:27}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I know that I must do {{q:28}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:29}} Kilimanjaro {{q:30}} Olympus above the Serengeti"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I seek to cure what's {{q:31}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:32}} of this thing that I've become"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:33}} a lot to {{q:34}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "There's {{q:35}} men or more could ever do"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I {{q:36}} down in Africa"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Gonna {{q:37}} to do the things we {{q:38}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "\"{{q:39}}, she's waiting there for you\""
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "It's gonna take a lot to drag me away from you"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "There's nothing that a hundred men or more could ever do"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I bless the rains down in Africa"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I bless the rains down in Africa"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I bless the rains down in Africa"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I bless the rains down in Africa"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I bless the rains down in Africa"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:40}} to do the things we never had"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} the drums 〔第 2 題〕",
+          "promptZh": "今晚我聽見鼓聲迴盪",
+          "options": [
+            "I see",
+            "I hear",
+            "I feel"
+          ],
+          "answer": "I hear"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 the drums {{blank}}",
+          "promptZh": "今晚我聽見鼓聲迴盪",
+          "options": [
+            "echoing tonight",
+            "echoing today",
+            "beating tonight"
+          ],
+          "answer": "echoing tonight"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} 〔第 4 題〕 of some 〔第 5 題〕",
+          "promptZh": "但她只聽見幾句輕聲交談的低語",
+          "options": [
+            "But she hears",
+            "But she knows",
+            "And she hears"
+          ],
+          "answer": "But she hears"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 {{blank}} of some 〔第 5 題〕",
+          "promptZh": "但她只聽見幾句輕聲交談的低語",
+          "options": [
+            "only rumors",
+            "only whispers",
+            "only echoes"
+          ],
+          "answer": "only whispers"
+        },
+        {
+          "number": 5,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 〔第 4 題〕 of some {{blank}}",
+          "promptZh": "但她只聽見幾句輕聲交談的低語",
+          "options": [
+            "soft conversation",
+            "quiet talks",
+            "quiet conversation"
+          ],
+          "answer": "quiet conversation"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "{{blank}} 〔第 7 題〕",
+          "promptZh": "她將搭乘十二點半的班機到來",
+          "options": [
+            "She's going in",
+            "She's coming on",
+            "She's coming in"
+          ],
+          "answer": "She's coming in"
+        },
+        {
+          "number": 7,
+          "lineId": "line-3",
+          "prompt": "〔第 6 題〕 {{blank}}",
+          "promptZh": "她將搭乘十二點半的班機到來",
+          "options": [
+            "twelve-fifteen flight",
+            "twelve-thirty flight",
+            "twelve-thirty plane"
+          ],
+          "answer": "twelve-thirty flight"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "Her {{blank}} 〔第 9 題〕 that 〔第 10 題〕 salvation",
+          "promptZh": "她月光下的機翼映照著星辰，指引我走向救贖",
+          "options": [
+            "moonlit wings",
+            "silver wings",
+            "night wings"
+          ],
+          "answer": "moonlit wings"
+        },
+        {
+          "number": 9,
+          "lineId": "line-4",
+          "prompt": "Her 〔第 8 題〕 {{blank}} that 〔第 10 題〕 salvation",
+          "promptZh": "她月光下的機翼映照著星辰，指引我走向救贖",
+          "options": [
+            "reflect the sun",
+            "reflect the stars",
+            "reflect the light"
+          ],
+          "answer": "reflect the stars"
+        },
+        {
+          "number": 10,
+          "lineId": "line-4",
+          "prompt": "Her 〔第 8 題〕 〔第 9 題〕 that {{blank}} salvation",
+          "promptZh": "她月光下的機翼映照著星辰，指引我走向救贖",
+          "options": [
+            "guide me towards",
+            "lead me towards",
+            "take me towards"
+          ],
+          "answer": "guide me towards"
+        },
+        {
+          "number": 11,
+          "lineId": "line-5",
+          "prompt": "I stopped an {{blank}} 〔第 12 題〕",
+          "promptZh": "我在路上攔下了一位老人",
+          "options": [
+            "old soul",
+            "old friend",
+            "old man"
+          ],
+          "answer": "old man"
+        },
+        {
+          "number": 12,
+          "lineId": "line-5",
+          "prompt": "I stopped an 〔第 11 題〕 {{blank}}",
+          "promptZh": "我在路上攔下了一位老人",
+          "options": [
+            "by the way",
+            "on the way",
+            "along the way"
+          ],
+          "answer": "along the way"
+        },
+        {
+          "number": 13,
+          "lineId": "line-6",
+          "prompt": "{{blank}} some old 〔第 14 題〕 or 〔第 15 題〕",
+          "promptZh": "希望能找到一些被遺忘的舊詞或古老旋律",
+          "options": [
+            "Trying to find",
+            "Hoping to find",
+            "Waiting to find"
+          ],
+          "answer": "Hoping to find"
+        },
+        {
+          "number": 14,
+          "lineId": "line-6",
+          "prompt": "〔第 13 題〕 some old {{blank}} or 〔第 15 題〕",
+          "promptZh": "希望能找到一些被遺忘的舊詞或古老旋律",
+          "options": [
+            "forgotten words",
+            "lost words",
+            "old words"
+          ],
+          "answer": "forgotten words"
+        },
+        {
+          "number": 15,
+          "lineId": "line-6",
+          "prompt": "〔第 13 題〕 some old 〔第 14 題〕 or {{blank}}",
+          "promptZh": "希望能找到一些被遺忘的舊詞或古老旋律",
+          "options": [
+            "ancient melodies",
+            "ancient memories",
+            "old melodies"
+          ],
+          "answer": "ancient melodies"
+        },
+        {
+          "number": 16,
+          "lineId": "line-7",
+          "prompt": "He {{blank}} 〔第 17 題〕",
+          "promptZh": "他轉向我，彷彿在說",
+          "options": [
+            "spoke to me",
+            "looked at me",
+            "turned to me"
+          ],
+          "answer": "turned to me"
+        },
+        {
+          "number": 17,
+          "lineId": "line-7",
+          "prompt": "He 〔第 16 題〕 {{blank}}",
+          "promptZh": "他轉向我，彷彿在說",
+          "options": [
+            "as if to speak",
+            "as if to say",
+            "like he would say"
+          ],
+          "answer": "as if to say"
+        },
+        {
+          "number": 18,
+          "lineId": "line-8",
+          "prompt": "\"{{blank}}, it's 〔第 19 題〕 for you\"",
+          "promptZh": "「快點，孩子，它在那裡等著你」",
+          "options": [
+            "Hurry now",
+            "Hurry up",
+            "Hurry, boy"
+          ],
+          "answer": "Hurry, boy"
+        },
+        {
+          "number": 19,
+          "lineId": "line-8",
+          "prompt": "\"〔第 18 題〕, it's {{blank}} for you\"",
+          "promptZh": "「快點，孩子，它在那裡等著你」",
+          "options": [
+            "waiting here",
+            "waiting there",
+            "waiting for you"
+          ],
+          "answer": "waiting there"
+        },
+        {
+          "number": 20,
+          "lineId": "line-9",
+          "prompt": "It's gonna {{blank}} to 〔第 21 題〕 from you",
+          "promptZh": "要將我從你身邊拖走，需要費極大的力氣",
+          "options": [
+            "take a lot",
+            "take some time",
+            "take a while"
+          ],
+          "answer": "take a lot"
+        },
+        {
+          "number": 21,
+          "lineId": "line-9",
+          "prompt": "It's gonna 〔第 20 題〕 to {{blank}} from you",
+          "promptZh": "要將我從你身邊拖走，需要費極大的力氣",
+          "options": [
+            "pull me away",
+            "drag me away",
+            "take me away"
+          ],
+          "answer": "drag me away"
+        },
+        {
+          "number": 22,
+          "lineId": "line-10",
+          "prompt": "{{blank}} 〔第 23 題〕 a 〔第 24 題〕 or more 〔第 25 題〕",
+          "promptZh": "就算有一百個人甚至更多，也無能為力",
+          "options": [
+            "There'll be",
+            "There was",
+            "There's"
+          ],
+          "answer": "There's"
+        },
+        {
+          "number": 23,
+          "lineId": "line-10",
+          "prompt": "〔第 22 題〕 {{blank}} a 〔第 24 題〕 or more 〔第 25 題〕",
+          "promptZh": "就算有一百個人甚至更多，也無能為力",
+          "options": [
+            "nothing that",
+            "nothing else",
+            "no one that"
+          ],
+          "answer": "nothing that"
+        },
+        {
+          "number": 24,
+          "lineId": "line-10",
+          "prompt": "〔第 22 題〕 〔第 23 題〕 a {{blank}} or more 〔第 25 題〕",
+          "promptZh": "就算有一百個人甚至更多，也無能為力",
+          "options": [
+            "thousand men",
+            "hundred friends",
+            "hundred men"
+          ],
+          "answer": "hundred men"
+        },
+        {
+          "number": 25,
+          "lineId": "line-10",
+          "prompt": "〔第 22 題〕 〔第 23 題〕 a 〔第 24 題〕 or more {{blank}}",
+          "promptZh": "就算有一百個人甚至更多，也無能為力",
+          "options": [
+            "could ever do",
+            "could ever see",
+            "would ever do"
+          ],
+          "answer": "could ever do"
+        },
+        {
+          "number": 26,
+          "lineId": "line-11",
+          "prompt": "I {{blank}} 〔第 27 題〕",
+          "promptZh": "我祝福非洲降下的雨",
+          "options": [
+            "bless the days",
+            "bless the rains",
+            "bless the land"
+          ],
+          "answer": "bless the rains"
+        },
+        {
+          "number": 27,
+          "lineId": "line-11",
+          "prompt": "I 〔第 26 題〕 {{blank}}",
+          "promptZh": "我祝福非洲降下的雨",
+          "options": [
+            "down in Eden",
+            "down in Savannah",
+            "down in Africa"
+          ],
+          "answer": "down in Africa"
+        },
+        {
+          "number": 28,
+          "lineId": "line-12",
+          "prompt": "{{blank}} some time 〔第 29 題〕 things we 〔第 30 題〕",
+          "promptZh": "我們需要一些時間，去做那些我們從未有機會做的事",
+          "options": [
+            "Gonna take",
+            "Going to take",
+            "Gonna need"
+          ],
+          "answer": "Gonna take"
+        },
+        {
+          "number": 29,
+          "lineId": "line-12",
+          "prompt": "〔第 28 題〕 some time {{blank}} things we 〔第 30 題〕",
+          "promptZh": "我們需要一些時間，去做那些我們從未有機會做的事",
+          "options": [
+            "to see the",
+            "to do the",
+            "to find the"
+          ],
+          "answer": "to do the"
+        },
+        {
+          "number": 30,
+          "lineId": "line-12",
+          "prompt": "〔第 28 題〕 some time 〔第 29 題〕 things we {{blank}}",
+          "promptZh": "我們需要一些時間，去做那些我們從未有機會做的事",
+          "options": [
+            "never had",
+            "never have",
+            "never knew"
+          ],
+          "answer": "never had"
+        },
+        {
+          "number": 31,
+          "lineId": "line-13",
+          "prompt": "The {{blank}} cry out in the night",
+          "promptZh": "野狗在夜色中嚎叫",
+          "options": [
+            "wild cats",
+            "wild dogs",
+            "stray dogs"
+          ],
+          "answer": "wild dogs"
+        },
+        {
+          "number": 32,
+          "lineId": "line-14",
+          "prompt": "As they grow restless longing for some {{blank}}",
+          "promptZh": "當牠們變得焦躁不安，渴望著某種孤獨的陪伴",
+          "options": [
+            "quiet company",
+            "lonely company",
+            "solitary company"
+          ],
+          "answer": "solitary company"
+        },
+        {
+          "number": 33,
+          "lineId": "line-15",
+          "prompt": "I know that I must do {{blank}}",
+          "promptZh": "我知道我必須做正確的事",
+          "options": [
+            "what's true",
+            "what's right",
+            "what's wrong"
+          ],
+          "answer": "what's right"
+        },
+        {
+          "number": 34,
+          "lineId": "line-16",
+          "prompt": "{{blank}} Kilimanjaro 〔第 35 題〕 Olympus above the Serengeti",
+          "promptZh": "就像吉力馬札羅山如奧林匹斯山般矗立在塞倫蓋蒂平原之上",
+          "options": [
+            "Sure as",
+            "Just as",
+            "As sure as"
+          ],
+          "answer": "Sure as"
+        },
+        {
+          "number": 35,
+          "lineId": "line-16",
+          "prompt": "〔第 34 題〕 Kilimanjaro {{blank}} Olympus above the Serengeti",
+          "promptZh": "就像吉力馬札羅山如奧林匹斯山般矗立在塞倫蓋蒂平原之上",
+          "options": [
+            "climbs like",
+            "stands like",
+            "rises like"
+          ],
+          "answer": "rises like"
+        },
+        {
+          "number": 36,
+          "lineId": "line-17",
+          "prompt": "I seek to cure what's {{blank}}",
+          "promptZh": "我試圖治癒內心深處的傷痛",
+          "options": [
+            "far inside",
+            "deep inside",
+            "deep within"
+          ],
+          "answer": "deep inside"
+        },
+        {
+          "number": 37,
+          "lineId": "line-18",
+          "prompt": "{{blank}} of this thing that I've become",
+          "promptZh": "害怕自己變成現在的模樣",
+          "options": [
+            "Frightened",
+            "Scared",
+            "Worried"
+          ],
+          "answer": "Frightened"
+        },
+        {
+          "number": 38,
+          "lineId": "line-19",
+          "prompt": "{{blank}} a lot to 〔第 39 題〕",
+          "promptZh": "要將我從你身邊拖走，需要費極大的力氣",
+          "options": [
+            "It will take",
+            "It's going to take",
+            "It's gonna take"
+          ],
+          "answer": "It's gonna take"
+        },
+        {
+          "number": 39,
+          "lineId": "line-19",
+          "prompt": "〔第 38 題〕 a lot to {{blank}}",
+          "promptZh": "要將我從你身邊拖走，需要費極大的力氣",
+          "options": [
+            "take me away from you",
+            "pull me away from you",
+            "drag me away from you"
+          ],
+          "answer": "drag me away from you"
+        },
+        {
+          "number": 40,
+          "lineId": "line-20",
+          "prompt": "There's {{blank}} men or more could ever do",
+          "promptZh": "就算有一百個人甚至更多，也無能為力",
+          "options": [
+            "nothing that a thousand",
+            "nothing that a hundred",
+            "no one that a hundred"
+          ],
+          "answer": "nothing that a hundred"
+        },
+        {
+          "number": 41,
+          "lineId": "line-21",
+          "prompt": "I {{blank}} down in Africa",
+          "promptZh": "我祝福非洲降下的雨",
+          "options": [
+            "bless the rains",
+            "bless the days",
+            "bless the land"
+          ],
+          "answer": "bless the rains"
+        },
+        {
+          "number": 42,
+          "lineId": "line-22",
+          "prompt": "Gonna {{blank}} to do the things we 〔第 43 題〕",
+          "promptZh": "我們需要一些時間，去做那些我們從未有機會做的事",
+          "options": [
+            "take a while",
+            "take a lot",
+            "take some time"
+          ],
+          "answer": "take some time"
+        },
+        {
+          "number": 43,
+          "lineId": "line-22",
+          "prompt": "Gonna 〔第 42 題〕 to do the things we {{blank}}",
+          "promptZh": "我們需要一些時間，去做那些我們從未有機會做的事",
+          "options": [
+            "never have",
+            "never had",
+            "never knew"
+          ],
+          "answer": "never had"
+        },
+        {
+          "number": 44,
+          "lineId": "line-23",
+          "prompt": "\"{{blank}}, she's 〔第 45 題〕\"",
+          "promptZh": "「快點，孩子，她在那裡等著你」",
+          "options": [
+            "Hurry, boy",
+            "Hurry up",
+            "Hurry now"
+          ],
+          "answer": "Hurry, boy"
+        },
+        {
+          "number": 45,
+          "lineId": "line-23",
+          "prompt": "\"〔第 44 題〕, she's {{blank}}\"",
+          "promptZh": "「快點，孩子，她在那裡等著你」",
+          "options": [
+            "waiting there for you",
+            "waiting here for you",
+            "waiting just for you"
+          ],
+          "answer": "waiting there for you"
+        },
+        {
+          "number": 46,
+          "lineId": "line-24",
+          "prompt": "{{blank}} to drag me away from you",
+          "promptZh": "要將我從你身邊拖走，需要費極大的力氣",
+          "options": [
+            "It's gonna need a lot",
+            "It's gonna take some time",
+            "It's gonna take a lot"
+          ],
+          "answer": "It's gonna take a lot"
+        },
+        {
+          "number": 47,
+          "lineId": "line-26",
+          "prompt": "I bless the {{blank}}",
+          "promptZh": "我祝福非洲降下的雨",
+          "options": [
+            "rains down in Savannah",
+            "rains down in Africa",
+            "rains down in Eden"
+          ],
+          "answer": "rains down in Africa"
+        },
+        {
+          "number": 48,
+          "lineId": "line-27",
+          "prompt": "I {{blank}} down in Africa",
+          "promptZh": "我祝福非洲降下的雨",
+          "options": [
+            "bless the land",
+            "bless the days",
+            "bless the rains"
+          ],
+          "answer": "bless the rains"
+        },
+        {
+          "number": 49,
+          "lineId": "line-31",
+          "prompt": "{{blank}} to do the 〔第 50 題〕",
+          "promptZh": "我們需要一些時間，去做那些我們從未有機會做的事",
+          "options": [
+            "Gonna take some time",
+            "Gonna make some time",
+            "Gonna spend some time"
+          ],
+          "answer": "Gonna take some time"
+        },
+        {
+          "number": 50,
+          "lineId": "line-31",
+          "prompt": "〔第 49 題〕 to do the {{blank}}",
+          "promptZh": "我們需要一些時間，去做那些我們從未有機會做的事",
+          "options": [
+            "things we never have",
+            "things we never had",
+            "things we never knew"
+          ],
+          "answer": "things we never had"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} the drums {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} {{q:4}} of some {{q:5}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:6}} {{q:7}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Her {{q:8}} {{q:9}} that {{q:10}} salvation"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I stopped an {{q:11}} {{q:12}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:13}} some old {{q:14}} or {{q:15}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "He {{q:16}} {{q:17}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "\"{{q:18}}, it's {{q:19}} for you\""
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "It's gonna {{q:20}} to {{q:21}} from you"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:22}} {{q:23}} a {{q:24}} or more {{q:25}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I {{q:26}} {{q:27}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:28}} some time {{q:29}} things we {{q:30}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "The {{q:31}} cry out in the night"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "As they grow restless longing for some {{q:32}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I know that I must do {{q:33}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:34}} Kilimanjaro {{q:35}} Olympus above the Serengeti"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I seek to cure what's {{q:36}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:37}} of this thing that I've become"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:38}} a lot to {{q:39}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "There's {{q:40}} men or more could ever do"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I {{q:41}} down in Africa"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Gonna {{q:42}} to do the things we {{q:43}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "\"{{q:44}}, she's {{q:45}}\""
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:46}} to drag me away from you"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "There's nothing that a hundred men or more could ever do"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I bless the {{q:47}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I {{q:48}} down in Africa"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I bless the rains down in Africa"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I bless the rains down in Africa"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I bless the rains down in Africa"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:49}} to do the {{q:50}}"
+        }
+      ]
+    }
+  ],
+  "timingSource": {
+    "method": "faster-whisper-word-alignment-with-targeted-section-review",
+    "audioSha256": "976081e8d935dc4a2ae8345c61a74c36c672ba789894150375ed19ebcc6c41b6",
+    "duration": 295.9383125
+  }
+}
