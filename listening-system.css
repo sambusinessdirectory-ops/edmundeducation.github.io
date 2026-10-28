@@ -13,7 +13,10 @@
 
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
-body { margin: 0; color: var(--ink); background: radial-gradient(circle at 8% 4%, rgba(142,219,209,.35), transparent 28rem), linear-gradient(145deg, #eaf6f4, #f8f2e8 58%, #e8f2f6); min-height: 100vh; }
+body { position: relative; isolation: isolate; margin: 0; color: var(--ink); background: #dce9eb; min-height: 100vh; }
+/* A fixed image layer keeps the lake proportional on long pages and mobile. */
+body::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; background: url("listening-elven-lake-wallpaper-v1.webp") center / cover no-repeat; }
+@media (max-width: 700px) { body::before { background-position: 58% center; } }
 button, input, select { font: inherit; }
 button { cursor: pointer; }
 .skip-link { position: fixed; left: 12px; top: -90px; z-index: 1000; padding: 10px 16px; background: #fff; color: #123a55; border-radius: 10px; }
