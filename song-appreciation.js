@@ -171,6 +171,7 @@
     const options = asArray(question?.options).map(text);
     return {
       number: Number(question?.number) || index + 1,
+      lineId: text(question?.lineId),
       prompt: text(question?.prompt || "{{blank}}"),
       options,
       promptZh: text(question?.promptZh || question?.prompt_zh),
@@ -188,6 +189,7 @@
       title: text(mode?.title || mode?.label || id),
       questionCount: Number(mode?.questionCount || mode?.question_count) || questions.length,
       version: Number(mode?.version) || 1,
+      listeningLines: asArray(mode?.listeningLines).map(line => ({lineId:text(line.lineId),prompt:text(line.prompt)})),
       questions
     };
   }
@@ -962,6 +964,8 @@
     let cursor = 0;
     let previousIndex = -1;
     return asArray(questions).map(question => {
+      const explicit = question.lineId && timeline.find(item => item.row.lineId === question.lineId);
+      if (explicit) return explicit;
       let index = previousIndex >= 0 && questionMatchesLine(question, timeline[previousIndex]?.row) ? previousIndex : -1;
       if (index < 0) index = timeline.findIndex((item, candidate) => candidate >= cursor && questionMatchesLine(question, item.row));
       if (index < 0) index = timeline.findIndex(item => questionMatchesLine(question, item.row));
@@ -977,6 +981,28 @@
     const exercise = state.exercise;
     if (!exercise) return;
     const timing = questionTimeline(exercise.mode.questions, lyricTimeline(state.activeSong, Number(state.player?.getDuration?.()) || 0));
+    const groups = new Map();
+    const timeline = lyricTimeline(state.activeSong, Number(state.player?.getDuration?.()) || 0);
+    exercise.mode.listeningLines.forEach(line => {
+      const section = document.createElement("section"); section.className = "exercise-lyric-group";
+      section.dataset.lyricFlow = line.lineId;
+      const cue = timeline.find(item => item.row.lineId === line.lineId);
+      if (cue) {
+        section.dataset.syncLineId = line.lineId;
+        section.dataset.startSeconds = String(cue.start);
+        section.dataset.endSeconds = String(cue.end);
+      }
+      const heading = document.createElement("p"); heading.className = "exercise-full-line";
+      line.prompt.split(/(\{\{q:\d+\}\})/).forEach(part => {
+        const match = part.match(/^\{\{q:(\d+)\}\}$/);
+        if (!match) heading.append(document.createTextNode(part));
+        else { const blank = document.createElement("span"); blank.className = "blank-number"; blank.textContent = match[1]; heading.append(blank); }
+      });
+      section.append(heading);
+      if (state.showChinese && cue?.row.chinese) { const zh = document.createElement("p"); zh.className="question-translation"; zh.textContent=cue.row.chinese; section.append(zh); }
+      section.classList.toggle("is-support-line", !/\{\{q:/.test(line.prompt));
+      groups.set(line.lineId, section); holder.append(section);
+    });
     exercise.mode.questions.forEach((question, questionIndex) => {
       const card = document.createElement("article"); card.className = "exercise-line"; card.dataset.question = String(question.number);
       const questionTiming = timing[questionIndex];
@@ -997,9 +1023,10 @@
         if(state.showChinese && question.optionsZh[index]){const zh=document.createElement("small");zh.className="choice-translation";zh.textContent=question.optionsZh[index];label.append(zh);}
         button.addEventListener("click", () => chooseAnswer(question.number, option)); choices.append(button);
       });
+      if (groups.has(question.lineId)) prompt.textContent = `第 ${question.number} 題`;
       card.append(prompt);
-      if(state.showChinese && question.promptZh){const zh=document.createElement("p");zh.className="question-translation";zh.textContent=question.promptZh;card.append(zh);}
-      card.append(choices); holder.append(card);
+      if(state.showChinese && question.promptZh && !groups.has(question.lineId)){const zh=document.createElement("p");zh.className="question-translation";zh.textContent=question.promptZh;card.append(zh);}
+      card.append(choices); (groups.get(question.lineId) || holder).append(card);
     });
     applyCheckedResults();
     updateExerciseProgress();
@@ -1243,7 +1270,7 @@
       editSequence: exercise.editSequence
     };
     try { localStorage.setItem(studyStorageKey(), JSON.stringify(drafts)); }
-    catch { setDraftStatus('此瀏覽器無法保留離線備份；請保持連線並確認已儲存。', true); }
+    catch { /* Cloud saving continues when local storage is unavailable. */ }
   }
   function elapsedExerciseSeconds(exercise) { return Math.min(14400, exercise.activeSeconds + (exercise.clockStarted ? Math.max(0,(performance.now()-exercise.clockStarted)/1000) : 0)); }
   function setDraftStatus(message, error = false) { const el=$('[data-draft-status]'); if(el) {el.textContent=message;el.dataset.state=error?'error':'saved';const reload=$('[data-reload-draft]');if(reload)reload.hidden=!state.exercise?.conflict;} }

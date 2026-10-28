@@ -443,3 +443,16 @@ button { color: inherit; }
 .read-countdown:not([hidden]) strong { font-size:clamp(4rem,12vw,7rem); }
 .read-countdown:not([hidden]) p { margin:0; }
 .read-countdown [data-skip-preparation] { min-height:48px; padding:.8rem 1.4rem; background:#ee386d; border-color:#ee386d; font-weight:800; }
+
+/* Full listening flow keeps support lyrics and repeated choruses visible. */
+.exercise-lyric-group { padding: 1.2rem; border: 1px solid #eadfe4; border-radius: 16px; background: #fff; margin-bottom: .8rem; }
+.exercise-full-line { margin: 0 0 .75rem; font-size: 1.15rem; line-height: 1.8; font-weight: 650; }
+.exercise-lyric-group.is-support-line { background: #faf7f9; border-color: transparent; padding: .7rem 1.2rem; }
+.exercise-lyric-group.is-support-line .exercise-full-line { margin: 0; font-weight: 450; }
+.exercise-lyric-group .exercise-line { margin-top: .6rem; padding: .7rem; }
+.exercise-lyric-group .exercise-prompt { font-size: .85rem; margin-bottom: .5rem; color: #766572; }
+@media (max-width: 600px) {
+  .exercise-lyric-group .choice-grid { grid-template-columns: 1fr; }
+  .exercise-lyric-group .choice-button { min-height: 48px; padding: .7rem; }
+  .exercise-lyric-group .choice-button span { overflow-wrap: normal; word-break: normal; }
+}

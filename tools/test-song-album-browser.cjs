@@ -3,7 +3,8 @@ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright');
 const root=require('node:path').resolve(__dirname,'..');
 const id=n=>`00000000-0000-4000-8000-${String(n).padStart(12,'0')}`;
 const session={id:id(1),name:'Synthetic Student',role:'student',token:id(99)};
-const original=JSON.parse(fs.readFileSync(root+'/tools/song-content/photograph.json'));
+const lesson=process.env.SONG_LESSON||'photograph';
+const original=JSON.parse(fs.readFileSync(root+`/tools/song-content/${lesson}.json`));
 const song={...original,id:id(3),published:true,cover_url:'http://127.0.0.1:8766/song-media/photograph/cover.webp',audio_url:'http://127.0.0.1:8766/song-media/photograph/album.mp3'};
 // Keep safe HTTPS media URLs and serve their bytes locally via route interception.
 song.cover_url=original.cover_url;song.audio_url=original.audio_url;
@@ -19,15 +20,19 @@ if(name==='song_appreciation_admin_save_lesson'){Object.assign(song,{...a.p_deta
 if(name==='song_appreciation_vocabulary_answer'){const q=song.vocabulary[a.p_number-1];body={selected:a.p_selected,answer:q.answer,explanation:q.explanation,optionExplanations:q.optionExplanations};progress[a.p_number]=body;}
 return r.fulfill({contentType:'application/json',body:JSON.stringify(body)});});
 await page.goto('http://127.0.0.1:8766/song-appreciation.html');await page.waitForSelector('.song-card');assert.equal(await page.locator('.login-intro').count(),0);assert.match(await page.locator('.song-card img').getAttribute('src'),/cover.webp/);
-await page.locator('.song-card > button').last().click();await page.locator('[data-song-tab="translation"]').click();await page.waitForFunction(()=>window.songQA.state.playerReady);assert.ok(await page.evaluate(()=>window.songQA.state.player.getDuration()>258));
+await page.locator('.song-card > button').last().click();await page.locator('[data-song-tab="translation"]').click();await page.waitForFunction(()=>window.songQA.state.playerReady);assert.ok(await page.evaluate(()=>window.songQA.state.player.getDuration()>190));
 await page.locator('[data-player-controls] [data-player-toggle]').click();await page.waitForFunction(()=>!document.querySelector('audio').paused);
-await page.evaluate(()=>{window.songQA.state.player.pauseVideo();window.songQA.state.player.seekTo(44);});await page.waitForFunction(()=>document.querySelector('tr[data-line-id="line-6"]')?.classList.contains('is-current-line'));
+await page.evaluate(lessonTime=>{window.songQA.state.player.pauseVideo();window.songQA.state.player.seekTo(lessonTime);},lesson==='photograph'?44:38);await page.waitForFunction(()=>document.querySelector('tr[data-line-id="line-6"]')?.classList.contains('is-current-line'));
 await page.locator('[data-playback-rate]').first().selectOption('0.75');assert.equal(await page.locator('audio').evaluate(a=>a.playbackRate),.75);
 for (const width of [1280,390]) {
  await page.setViewportSize({width,height:950});
  await page.locator('[data-song-tab="exercise"]').click();
  if (await page.locator('[data-change-mode]').isVisible()) await page.locator('[data-change-mode]').click();
  await page.locator('[data-mode-grid] button').last().click();
+ assert.equal(await page.locator('[data-lyric-flow]').count(),original.translations.length);
+ assert.equal(await page.locator('.exercise-line[data-question]').count(),50);
+ assert.equal(await page.locator(`[data-lyric-flow="line-${original.translations.length}"]`).count(),1);
+ assert.equal(await page.locator(`[data-lyric-flow="line-${lesson==='photograph'?3:1}"] .blank-number`).count(),2);
  const ready=page.locator('[data-skip-preparation]');await ready.scrollIntoViewIfNeeded();
  assert.equal(await page.locator('audio').evaluate(a=>a.paused),true);assert.equal(await page.locator('[data-floating-player]').isVisible(),false);
  const button=await ready.boundingBox(),panel=await page.locator('.player-card').boundingBox();
@@ -35,13 +40,17 @@ for (const width of [1280,390]) {
  assert.ok(await ready.evaluate(el=>{const r=el.getBoundingClientRect();return el.contains(document.elementFromPoint(r.x+r.width/2,r.y+r.height/2));}),'ready button is not clipped');
  await page.screenshot({path:`/tmp/song-ready-${width}.png`});await ready.click();
  await page.waitForFunction(()=>document.querySelector('[data-countdown]').hidden&&!document.querySelector('audio').paused);
+ await page.locator('[data-lyric-flow]').first().scrollIntoViewIfNeeded();
+ await page.screenshot({path:`/tmp/song-${lesson}-flow-${width}.png`});
  await page.locator('[data-song-tab="translation"]').click();
 }
 await page.setViewportSize({width:1280,height:950});
+if(lesson==='photograph'){
 await page.locator('[data-song-tab="vocabulary"]').click();assert.equal(await page.locator('.vocabulary-option').count(),4);assert.equal(await page.locator('.vocabulary-feedback').textContent(),'');await page.locator('.vocabulary-option').nth(1).click();await page.waitForSelector('.vocabulary-option.is-correct');assert.match(await page.locator('.vocabulary-feedback').textContent(),/答案 B/);assert.equal(await page.locator('.vocabulary-feedback p').count(),5);await page.screenshot({path:'/tmp/song-photograph-vocabulary.png'});
 await page.locator('.vocabulary-navigation button').last().click();assert.match(await page.locator('.vocabulary-card h2').textContent(),/Feel alive/);
 await page.reload();await page.waitForSelector('.song-card');await page.locator('.song-card > button').last().click();await page.locator('[data-song-tab="vocabulary"]').click();await page.waitForSelector('.vocabulary-option.is-correct');
 await page.setViewportSize({width:390,height:844});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);await page.screenshot({path:'/tmp/song-photograph-mobile.png'});
+}
 await page.setViewportSize({width:1280,height:950});await page.evaluate(async()=>{window.songQA.state.session.role='admin';await window.songQA.enterAdmin();});await page.waitForSelector('[data-song-form]');
 await page.locator('input[name="coverFile"]').setInputFiles(root+'/song-media/photograph/cover.webp');await page.waitForFunction(()=>document.querySelector('input[name="coverUrl"]').value.startsWith('data:image/webp'));await page.locator('[data-song-form] button[type="submit"]').click();await page.waitForFunction(()=>document.querySelector('[data-admin-save-status]').textContent==='已儲存');assert.match(song.cover_url,/^data:image\/webp/);
 assert.deepEqual(errors,[]);console.log('Album browser: real MP3 playback, timed highlighting, rate, vocabulary explanations, saved reload and mobile layout passed.');await browser.close();})().catch(e=>{console.error(e);process.exit(1)});
