@@ -1854,13 +1854,12 @@ html {
 
 body {
   position: relative;
+  isolation: isolate;
   min-height: 100vh;
   margin: 0;
   overflow-x: hidden;
   color: var(--ink);
-  background:
-    radial-gradient(circle at 12% 4%, rgba(255, 255, 255, .95), transparent 28rem),
-    linear-gradient(135deg, #cce3e5 0%, #e8dbcb 49%, #f6edda 100%);
+  background: #dce7ea;
   font-family: "Edmund Serif TC", "Noto Serif TC", "Source Han Serif TC", "Songti TC", "PMingLiU", serif;
   font-weight: 680;
   line-height: 1.55;
@@ -1871,11 +1870,8 @@ body::before {
   position: fixed;
   inset: 0;
   z-index: -3;
-  opacity: .17;
-  background-image:
-    linear-gradient(rgba(255,255,255,.5) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,.5) 1px, transparent 1px);
-  background-size: 54px 54px;
+  opacity: 1;
+  background: url("speaking-cave-sky-wallpaper-v1.webp") center / cover no-repeat;
   pointer-events: none;
 }
 
@@ -1919,6 +1915,7 @@ input:focus-visible,
 }
 
 .ambient {
+  display: none;
   position: fixed;
   z-index: -2;
   width: 36rem;
@@ -1926,6 +1923,10 @@ input:focus-visible,
   border-radius: 50%;
   filter: blur(3px);
   pointer-events: none;
+}
+
+@media (max-width: 1000px) {
+  body::before { background-position: 75% center; }
 }
 
 .ambient-one {
