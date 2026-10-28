@@ -26,7 +26,7 @@ export function mountWritingSynonyms({getSession}) {
     status.textContent = '正在搜尋同義詞教材……';
     try {
       if (!index) {
-        loading ||= fetch(new URL('./synonyms/writing-search-index.json?v=20261027-1', import.meta.url)).then(response => {if(!response.ok)throw new Error();return response.json();}).catch(error => {loading=null;throw error;});
+        loading ||= fetch(new URL('./synonyms/writing-search-index.json?v=20261028-examples1', import.meta.url)).then(response => {if(!response.ok)throw new Error();return response.json();}).catch(error => {loading=null;throw error;});
         index = await loading;
       }
       if(current !== ticket || !dialog.open)return;
@@ -38,6 +38,25 @@ export function mountWritingSynonyms({getSession}) {
         title.textContent = entry.title;summary.textContent = entry.subtitle;
         words.textContent = entry.terms.slice(0,14).map(([word,meaning])=>`${word}（${meaning}）`).join(' · ');
         card.append(title,summary,words,actions);
+        const details=document.createElement('details'), toggle=document.createElement('summary'), guide=document.createElement('section');
+        toggle.textContent='查看同義詞、例句及中文翻譯';details.append(toggle,guide);card.append(details);
+        let loaded=false;
+        details.addEventListener('toggle',async()=>{
+          if(!details.open||loaded)return;loaded=true;guide.textContent='正在載入例句…';
+          try{
+            const lesson=entry.id==='important'?(await import('./synonyms/important-data.mjs')).importantModule
+              :entry.id==='social-media'?(await import('./synonyms/social-media-data.mjs')).socialMediaModule
+              :await fetch(new URL('./synonyms/'+entry.dataFile.replace(/^\.\//,''),import.meta.url)).then(r=>{if(!r.ok)throw new Error();return r.json();});
+            guide.replaceChildren();
+            for(const word of lesson.words){
+              const first=word.exercises?.[0], item=document.createElement('div');item.className='writing-synonym-example';
+              for(const [tag,cls,value] of [['h4','',word.word],['strong','',word.meaning],['p','',word.note||''],['p','example-en',word.example||first?.upgrade?.replace('______',word.word)||first?.original||''],['p','example-zh',word.exampleZh||first?.zh||'']]){
+                if(!value)continue;const node=document.createElement(tag);node.className=cls;node.textContent=value;if(cls==='example-en')node.lang='en';item.append(node);
+              }
+              guide.append(item);
+            }
+          }catch{loaded=false;guide.textContent='未能載入例句。請收起後再展開重試。';}
+        });
         for (const [view,label] of [['guide','同義詞指南'],['question',`練習題目（${entry.questions}）`]]) {
           const button = document.createElement('button');button.type='button';button.textContent=label;button.disabled=view==='question'&&!entry.questions;
           button.addEventListener('click',()=>{
@@ -58,10 +77,11 @@ export function mountWritingSynonyms({getSession}) {
   dialog.querySelector('[data-syn-close]').addEventListener('click',close);
   dialog.addEventListener('click',event=>{if(event.target===dialog)close();});
   dialog.addEventListener('close',()=>{frame.removeAttribute('src');focusBefore?.focus();});
-  document.querySelectorAll('[data-writing-synonyms]').forEach(button=>button.addEventListener('click',()=>{
+  function open(button=document.activeElement){
     focusBefore=button;back();dialog.showModal();input.focus();
     if(input.value)void search();
     if(!getSession())status.textContent='可搜尋教材；練習及儲存進度需要學生登入。';
-  }));
-  return {close};
+  }
+  document.querySelectorAll('[data-writing-synonyms]').forEach(button=>button.addEventListener('click',()=>open(button)));
+  return {close,open};
 }

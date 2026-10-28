@@ -1806,7 +1806,7 @@ wordRemoveDialog.addEventListener('cancel', (event) => { event.preventDefault();
 wordRemoveDialog.addEventListener('click', (event) => { if (event.target === wordRemoveDialog) finishWordRemoval(false); });
 $('[data-enter-ielts]').addEventListener('click', enterIeltsReading);
 $('[data-enter-dse]').addEventListener('click', openDseDashboard);
-$('[data-open-dse-question-finder]').addEventListener('click', async () => {
+$('[data-open-dse-question-finder]')?.addEventListener('click', async () => {
   await openDseDashboard();
   dseFinder.open = true;
   dseFinder.scrollIntoView({block:'start'});

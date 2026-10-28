@@ -1,7 +1,7 @@
 import { normalizeQuestionImages, combineQuestionImages, planningText, imageGallery, imageUploader } from './writing-materials.mjs?v=20261028';
 import { TOPIC_PICKER_TRACKS, TOPIC_PICKER_LEAVES, writingTopicInPickerCategory } from './writing-topic-categories.mjs?v=20261028';
-import {mountWritingSynonyms} from './writing-synonyms.mjs?v=20261027-1';
-import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20261021-pocket-progress3';
+import {mountWritingSynonyms} from './writing-synonyms.mjs?v=20261028-examples1';
+import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20261028-search1';
 import { WRITING_FUNCTIONS, composeFunctionAnswer, normalizeFunctionHelper } from './writing-function-helper.mjs?v=20261028-materials1';
 import { mountSentenceSupport } from './writing-sentence-support.mjs?v=20261028-materials1';
 import {createWritingAdminArchive} from './writing-admin-archive.mjs?v=20261027-styled1';
@@ -11310,6 +11310,7 @@ async function checkHealth() {
 const writingSynonyms = mountWritingSynonyms({getSession: () => state.user?.role === 'student' ? {user: state.user, token: state.authToken} : null});
 const proofreadChecklist = mountProofreadChecklist(document.querySelector('[data-proofread-checklist]'),()=>persistDraft());
 const referencePocket = mountReferencePocket({
+ openSynonymSearch:button=>writingSynonyms.open(button),
  host:document.querySelector('[data-writing-reference-pocket]'),
  getOwner:()=>state.user?.role==='student'?state.authToken:'',
  getEssayText:()=>elements.writingInput?.value||'',

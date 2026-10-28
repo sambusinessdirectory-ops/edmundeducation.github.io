@@ -8,11 +8,12 @@ const SECTIONS = [
  ['proverbs','Proverbs','諺語','proverbParts'],
  ['common','Common expressions','常用語','writingCommonExpressionParts'],
  ['rhetorical','Rhetorical expressions','修辭常用語','rhetoricalCommonExpressionParts'],
- ['synonyms','Synonyms','同義詞','synonymImprovementParts']
+ ['synonyms','Synonyms','同義詞','synonymImprovementParts'],
+ ['synonym-search','Synonym Search','同義詞搜尋','']
 ];
 const node=(tag,cls,text)=>{const el=document.createElement(tag);el.className=cls||'';if(text!==undefined)el.textContent=text;return el;};
 let pocketMenuSerial=0;
-export function mountReferencePocket({host,getOwner,getGlossary,getHistory,appendRich,getEssayText=()=>'',entryUsed=()=>false}) {
+export function mountReferencePocket({host,getOwner,getGlossary,getHistory,appendRich,getEssayText=()=>'',entryUsed=()=>false,openSynonymSearch=()=>{}}) {
  if(!host)return {refresh(){},reset(){},refreshGlossaryUsage(){}};
  host.className='writing-reference-pocket glass-panel';
  const head=node('header','reference-pocket-head'), title=node('div');title.append(node('p','eyebrow','MY WRITING POCKET'),node('h2','','寫作參考袋'));
@@ -56,7 +57,10 @@ export function mountReferencePocket({host,getOwner,getGlossary,getHistory,appen
   function finishLoading(){window.setTimeout(()=>{if(current())loading.hidden=true;},550);}
   loading.hidden=false;fill.style.transition='none';fill.style.transform='scaleX(0)';void fill.offsetWidth;fill.style.transition='';updateProgress(0,'Loading · 正在載入帳戶資源…');content.replaceChildren();
   try{
-   if(category==='glossary'){
+   if(category==='synonym-search'){
+    loading.hidden=true;status.textContent='搜尋整個同義詞教材庫，查看例句及中文翻譯。';
+    const button=node('button','small-button','Synonym Search · 搜尋同義詞');button.type='button';button.onclick=()=>openSynonymSearch(button);content.append(button);
+   }else if(category==='glossary'){
     const vocabulary=await getGlossary(event=>{if(event?.phase==='catalog')updateProgress(event.completed?90:5,'正在載入題目詞彙…');});if(!current())return;
     for(const row of vocabulary){const card=node('article','reference-vocabulary');card.dataset.referenceVocabulary=row.english||'';const english=node('strong','',row.english),chinese=node('span','reference-vocabulary-translation',row.chinese||''),usage=node('span','sr-only');usage.dataset.referenceVocabularyStatus='';card.append(english);if(row.chinese)card.append(chinese);card.append(usage);content.append(card);}
     refreshGlossaryUsage();

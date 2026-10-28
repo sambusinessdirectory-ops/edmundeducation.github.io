@@ -56,6 +56,7 @@ jobs:
           node tools/test-flashcard-private-decks.mjs
           node tools/test-flashcard-login-progress.mjs
           node tools/test-schedule-homework-links.mjs
+          node tools/test-schedule-entry-draft-guard.mjs
 
       - name: Validate focused homepage selector rollback
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[homepage-rollback]') }}
@@ -329,6 +330,7 @@ jobs:
           node --check writing-submission-qr.mjs
           node --check country-name-spelling.js
           node --check writing-reference-pocket.mjs
+          node tools/test-writing-synonyms.mjs
           node --check writing-paragraph-clipboard.mjs
           node --check homepage-system-deck.js
           node --check polysemy-lab/media.mjs
