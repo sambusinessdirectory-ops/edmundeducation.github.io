@@ -1768,6 +1768,20 @@ async function openExercise(id = ARTICLE_ID) {
   } catch (error) { console.warn('Could not open Reading exercise',error); if (state.view === 'login' && state.user) await openDashboard(); showToast(error.message || '未能載入練習，請稍後再試。'); }
   finally { state.opening = false; }
 }
+async function openThemeDirectory(kind) {
+  if(!await prepareForReadingNavigation())return;
+  state.system=kind;showView('themes');
+  const url=new URL(location.href);url.search='?view=themes&system='+kind;url.hash='';history.replaceState(null,'',url);
+  const root=$('[data-reading-theme-finder]');root.innerHTML='正在載入主題目錄…';
+  try {
+    const [module,response]=await Promise.all([import('./theme-finder.mjs?v=20261028'),fetch(kind+'-reading-themes.json?v=20261028')]);
+    if(!response.ok)throw Error('load');const data=await response.json();
+    if(state.view!=='themes'||state.system!==kind)return;
+    module.mountThemeFinder(root,{data,onOpen:r=>kind==='dse'?openDseExercise(r.id):openExercise(r.id)});
+  } catch {root.innerHTML='<p>主題目錄未能載入，請返回目錄重試。</p>';}
+}
+$$('[data-open-reading-themes]').forEach(b=>b.addEventListener('click',()=>openThemeDirectory(b.dataset.openReadingThemes)));
+$('[data-theme-back]').addEventListener('click',()=>state.system==='dse'?openDseDashboard():openDashboard());
 async function openInitialView({ afterLogin = false } = {}) {
   const params = new URLSearchParams(location.search); const id = params.get('article');
   if (params.get('view') === 'full-exam') {
@@ -1778,6 +1792,7 @@ async function openInitialView({ afterLogin = false } = {}) {
   else if (id?.startsWith('dse-')) await openDseExercise(id);
   else if (state.catalogue.some((item) => item.id === id)) await openExercise(id);
   else if (params.get('view') === 'question-types') { if (await prepareForReadingNavigation()) openQuestionTypeDirectory(params.get('type') || '', params.get('q') || '', false); }
+  else if (params.get('view') === 'themes') await openThemeDirectory(params.get('system')==='dse'?'dse':'ielts');
   else if (params.get('view') === 'dse') await openDseDashboard();
   else if (!afterLogin && [1, 2, 3].includes(Number(params.get('passage')))) await openDashboard();
   else await openReadingHome();

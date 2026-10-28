@@ -289,9 +289,9 @@
     if (!route || state.user?.role === "admin") return [];
     if (route.view === "bookmarks") return ["bookmarks"];
     if (["exams", "attempts", "admin"].includes(route.view)) return [];
-    const dseViews = ["dse-sections", "dse-catalog", "dse-modes", "dse-practice", "dse-types", "dse-question"];
+    const dseViews = ["dse-sections", "dse-catalog", "dse-modes", "dse-practice", "dse-types", "dse-themes", "dse-question"];
     if (dseViews.includes(route.view)) return ["exam.dse"];
-    const ieltsViews = ["parts", "books", "exercises", "exercise", "ielts-part3-types", "exam-modes", "exam-practice"];
+    const ieltsViews = ["parts", "books", "exercises", "exercise", "ielts-part3-types", "ielts-themes", "exam-modes", "exam-practice"];
     const exam = String(route.exam || (ieltsViews.includes(route.view) ? "ielts" : ""));
     const keys = exam && EXAM_ACCESS_KEYS[exam] ? [EXAM_ACCESS_KEYS[exam]] : [];
     if (route.view === "exam-practice") {
@@ -934,6 +934,7 @@
   function routeLabel(route) {
     switch (route?.view) {
       case "dse-sections": return "DSE 說話考試";
+      case "dse-themes": case "ielts-themes": return "按主題練習";
       case "dse-types": return "按題型練習";
       case "ielts-part3-types": return "IELTS Part 3 題型";
       case "dse-question": return "指定題目練習";
@@ -1057,10 +1058,11 @@
   function renderBreadcrumbs() {
     const route = state.route;
     const crumbs = [{ label: "Speaking System", route: { view: "exams" } }];
-    if (["dse-sections", "dse-catalog", "dse-modes", "dse-practice", "dse-types", "dse-question"].includes(route.view)) {
+    if (["dse-sections", "dse-catalog", "dse-modes", "dse-practice", "dse-types", "dse-themes", "dse-question"].includes(route.view)) {
       crumbs.push({ label: "DSE", route: route.view === "dse-sections" ? null : { view: "dse-sections", exam: "dse" } });
     }
     if (["dse-types","dse-question"].includes(route.view)) crumbs.push({label:"按題型練習",route:route.view==="dse-types"?null:{view:"dse-types",exam:"dse"}});
+    if (["dse-themes","ielts-themes"].includes(route.view)) crumbs.push({label:"按主題練習",route:null});
     if (route.view === "dse-question") crumbs.push({label:"指定題目",route:null});
     if (route.view === "dse-catalog") {
       crumbs.push({ label: route.part === "individual" ? "個人發言" : "小組討論", route: null });
@@ -1071,7 +1073,7 @@
     if (route.view === "dse-practice") {
       crumbs.push({ label: DSE_MODE.modeForId?.(route.modeId)?.labelZh || "DSE 練習", route: null });
     }
-    if (["parts", "books", "exercises", "exercise", "ielts-part3-types", "exam-modes", "exam-practice"].includes(route.view)) {
+    if (["parts", "books", "exercises", "exercise", "ielts-part3-types", "ielts-themes", "exam-modes", "exam-practice"].includes(route.view)) {
       crumbs.push({ label: "IELTS", route: { view: "parts", exam: "ielts" } });
     }
     if (["exam-modes", "exam-practice"].includes(route.view)) {
@@ -1118,6 +1120,8 @@
       case "dse-sections":
         renderDseSections();
         break;
+      case "dse-themes": renderSpeakingThemes("dse"); break;
+      case "ielts-themes": renderSpeakingThemes("ielts"); break;
       case "dse-types":
         renderDseTypes();
         break;
@@ -2026,6 +2030,7 @@
             </button>
           </div>
         </div>
+        <a class="theme-entry" href="speaking-system.html?view=ielts-themes" data-open-speaking-themes="ielts"><small>IELTS SPEAKING · THEME FINDER</small><strong>By Theme · 按主題練習</strong><span>按運動、文化、科技、健康等主題，搜尋所有題目。</span></a>
         ${hasAccess(["exam.ielts", "ielts.part.3"]) ? '<a class="choice-card dse-type-entry" href="speaking-system.html?view=ielts-part3-types" data-open-ielts-part3-types><span class="card-number">IELTS PART 3 · QUESTION TYPE FINDER</span><strong>By Question Type · 按題型練習</strong><small>搜尋你的國家、應否、原因、影響、比較等常見問題。</small></a>' : ''}
       </section>
     `;
@@ -2115,6 +2120,7 @@
     dom.content.innerHTML = `
       <section class="content-panel dse-panel">${dseSearchMarkup()}
         ${sectionHeader("DSE 說話考試", `${availableCount} 套歷屆題目，按年份瀏覽或進入隨機考試練習模式。`)}
+        <a class="theme-entry" href="speaking-system.html?view=dse-themes" data-open-speaking-themes="dse"><small>DSE SPEAKING · THEME FINDER</small><strong>By Theme · 按主題練習</strong><span>按運動、文化、科技、健康等主題，搜尋所有題目。</span></a>
         <a class="choice-card dse-type-entry" href="speaking-system.html?view=dse-types" data-open-dse-types><span class="card-number">QUESTION TYPE FINDER</span><strong>By Question Type · 按題型練習</strong><small>按優點、缺點、原因、建議等題型，搜尋所有年份的小組討論及個人發言問題。</small></a>
         <div class="choice-grid dse-section-grid">
           <button class="choice-card dse-part-choice" type="button" data-dse-catalog="group">
@@ -2134,6 +2140,19 @@
           </button>
         </div>
       </section>`;
+  }
+
+  async function renderSpeakingThemes(kind) {
+    dom.content.innerHTML=`<section class="content-panel">${sectionHeader('By Theme · 按主題練習',kind.toUpperCase()+' Speaking')}<div data-speaking-themes>正在載入主題目錄…</div></section>`;
+    const root=dom.content.querySelector('[data-speaking-themes]');
+    try {
+      const [module,response]=await Promise.all([import('./theme-finder.mjs?v=20261028'),fetch(kind+'-speaking-themes.json?v=20261028')]);
+      if(!response.ok)throw Error('load');
+      const data=await response.json();
+      if(kind==='ielts')data.rows=data.rows.filter(r=>hasAccess(['exam.ielts',`ielts.part.${r.part}`,`ielts.part.${r.part}.book.${r.book}`]));
+      if(!root.isConnected)return;
+      module.mountThemeFinder(root,{data,onOpen:r=>navigate(kind==='dse'?{view:'dse-question',exam:'dse',paper:r.year+'-'+r.set,part:r.section,question:r.number}:{view:'exercise',exam:'ielts',part:r.part,book:r.book,exerciseIndex:r.exerciseIndex,questionNumber:r.number||0})});
+    } catch {if(root.isConnected)root.innerHTML=`<p>主題目錄未能載入。</p><button data-open-speaking-themes="${kind}">重試</button>`;}
   }
 
   async function renderDseTypes() {
@@ -2170,6 +2189,10 @@
   function openRequestedDseQuestion() {
     if (state.requestedDseQuestionOpened || state.user?.role !== 'student') return false;
     const params=new URLSearchParams(location.search), view=params.get('view');
+    if (['dse-themes','ielts-themes'].includes(view)) {
+      state.requestedDseQuestionOpened=true;
+      navigate({view,exam:view==='dse-themes'?'dse':'ielts'},{reset:true,skipGuard:true});return true;
+    }
     if (view === 'ielts-part3-types') {
       state.requestedDseQuestionOpened = true;
       navigate({view,exam:'ielts',part:3},{reset:true,skipGuard:true});
@@ -4280,7 +4303,8 @@
       exam: "ielts",
       part: Number(exercise.part),
       book: Number(exercise.book),
-      exerciseIndex: Number(exercise.index)
+      exerciseIndex: Number(exercise.index),
+      questionNumber: Math.max(0, Number(new URLSearchParams(location.search).get("question")) || 0)
     };
     if (!routeAllowed(route)) {
       toast("您的帳戶尚未開放這個 Speaking 練習範圍。", "error");
@@ -7781,6 +7805,8 @@
         return;
       }
 
+      const themeEntry=event.target.closest('[data-open-speaking-themes]');
+      if(themeEntry){event.preventDefault();const kind=themeEntry.dataset.openSpeakingThemes;navigate({view:kind+'-themes',exam:kind});return;}
       if (event.target.closest('[data-open-dse-types]')) { event.preventDefault(); navigate({view:'dse-types',exam:'dse'});return; }
       if (event.target.closest('[data-open-ielts-part3-types]')) { event.preventDefault(); navigate({view:'ielts-part3-types',exam:'ielts',part:3});return; }
       const dseCatalog = event.target.closest("[data-dse-catalog]");
