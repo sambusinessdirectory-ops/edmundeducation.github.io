@@ -629,8 +629,8 @@
           "prompt": "The one {{blank}}",
           "promptZh": "那唯一的渴望",
           "options": [
-            "desire",
             "need",
+            "desire",
             "dream"
           ],
           "answer": "desire"
@@ -665,9 +665,9 @@
           "prompt": "I want it {{blank}}",
           "promptZh": "我只想要那樣",
           "options": [
-            "that way",
+            "anyway",
             "this way",
-            "anyway"
+            "that way"
           ],
           "answer": "that way"
         },
@@ -701,8 +701,8 @@
           "prompt": "Tell me {{blank}}",
           "promptZh": "告訴我為什麼",
           "options": [
-            "why",
             "how",
+            "why",
             "when"
           ],
           "answer": "why"
@@ -725,8 +725,8 @@
           "prompt": "{{blank}}",
           "promptZh": "告訴我為什麼",
           "options": [
-            "Tell me why",
             "Teach me how",
+            "Tell me why",
             "Show me why"
           ],
           "answer": "Tell me why"
@@ -749,8 +749,8 @@
           "prompt": "I never {{blank}} hear you say",
           "promptZh": "我永遠不想聽你說",
           "options": [
-            "want to",
             "wanna",
+            "want to",
             "need to"
           ],
           "answer": "wanna"
@@ -761,9 +761,9 @@
           "prompt": "Am I your {{blank}}",
           "promptZh": "我是你的火焰嗎",
           "options": [
-            "fire",
+            "light",
             "flame",
-            "light"
+            "fire"
           ],
           "answer": "fire"
         },
@@ -773,8 +773,8 @@
           "prompt": "Your one {{blank}}",
           "promptZh": "你唯一的渴望",
           "options": [
-            "desire",
             "dream",
+            "desire",
             "love"
           ],
           "answer": "desire"
@@ -797,8 +797,8 @@
           "prompt": "Yes I 〔第 15 題〕 it's too {{blank}}",
           "promptZh": "是的，我知道一切都太遲了",
           "options": [
-            "late",
             "far",
+            "late",
             "gone"
           ],
           "answer": "late"
@@ -822,8 +822,8 @@
           "promptZh": "從我們曾經擁有的模樣看來，耶",
           "options": [
             "used to feel",
-            "used to be",
-            "had to be"
+            "had to be",
+            "used to be"
           ],
           "answer": "used to be"
         },
@@ -833,8 +833,8 @@
           "prompt": "No matter the {{blank}}",
           "promptZh": "無論距離多麼遙遠",
           "options": [
-            "distance",
             "time",
+            "distance",
             "space"
           ],
           "answer": "distance"
@@ -1083,8 +1083,8 @@
           "prompt": "{{blank}} my 〔第 2 題〕",
           "promptZh": "你是我的火焰",
           "options": [
-            "You are",
             "You're",
+            "You are",
             "You were"
           ],
           "answer": "You are"
@@ -1119,9 +1119,9 @@
           "prompt": "{{blank}} when I 〔第 5 題〕",
           "promptZh": "當我說時請相信",
           "options": [
-            "Believe",
+            "Think",
             "Know",
-            "Think"
+            "Believe"
           ],
           "answer": "Believe"
         },
@@ -1155,9 +1155,9 @@
           "prompt": "But we are {{blank}} 〔第 8 題〕",
           "promptZh": "但我們身處兩個世界",
           "options": [
-            "two",
+            "true",
             "new",
-            "true"
+            "two"
           ],
           "answer": "two"
         },
@@ -1191,8 +1191,8 @@
           "prompt": "Can't 〔第 9 題〕 to your {{blank}}",
           "promptZh": "無法觸及你的心",
           "options": [
-            "soul",
             "heart",
+            "soul",
             "mind"
           ],
           "answer": "heart"
@@ -1203,9 +1203,9 @@
           "prompt": "{{blank}} me 〔第 12 題〕",
           "promptZh": "告訴我為什麼",
           "options": [
-            "Tell",
+            "Teach",
             "Show",
-            "Teach"
+            "Tell"
           ],
           "answer": "Tell"
         },
@@ -1228,8 +1228,8 @@
           "promptZh": "只不過是心痛一場",
           "options": [
             "It's",
-            "Ain't",
-            "Just"
+            "Just",
+            "Ain't"
           ],
           "answer": "Ain't"
         },
@@ -1239,8 +1239,8 @@
           "prompt": "〔第 13 題〕 {{blank}} but a heartache",
           "promptZh": "只不過是心痛一場",
           "options": [
-            "nothing",
             "nothing else",
+            "nothing",
             "something"
           ],
           "answer": "nothing"
@@ -1251,9 +1251,9 @@
           "prompt": "{{blank}}",
           "promptZh": "告訴我為什麼",
           "options": [
-            "Tell me why",
+            "Show me why",
             "Teach me how",
-            "Show me why"
+            "Tell me why"
           ],
           "answer": "Tell me why"
         },
@@ -1264,8 +1264,8 @@
           "promptZh": "只不過是個錯誤",
           "options": [
             "wrong turn",
-            "heartbreak",
-            "mistake"
+            "mistake",
+            "heartbreak"
           ],
           "answer": "mistake"
         },
@@ -1311,9 +1311,9 @@
           "prompt": "Am I your {{blank}}",
           "promptZh": "我是你的火焰嗎",
           "options": [
-            "fire",
+            "light",
             "flame",
-            "light"
+            "fire"
           ],
           "answer": "fire"
         },
@@ -1335,8 +1335,8 @@
           "prompt": "{{blank}} 〔第 23 題〕 it's too 〔第 24 題〕",
           "promptZh": "是的，我知道一切都太遲了",
           "options": [
-            "Yes I",
             "Now I",
+            "Yes I",
             "But I"
           ],
           "answer": "Yes I"
@@ -1371,9 +1371,9 @@
           "prompt": "Now I can see that we're {{blank}}",
           "promptZh": "現在我能看出我們正漸行漸遠",
           "options": [
-            "falling apart",
+            "breaking apart",
             "falling away",
-            "breaking apart"
+            "falling apart"
           ],
           "answer": "falling apart"
         },
@@ -1396,8 +1396,8 @@
           "promptZh": "從我們曾經擁有的模樣看來，耶",
           "options": [
             "had to be",
-            "used to feel",
-            "used to be"
+            "used to be",
+            "used to feel"
           ],
           "answer": "used to be"
         },
@@ -1407,9 +1407,9 @@
           "prompt": "{{blank}} the 〔第 29 題〕",
           "promptZh": "無論距離多麼遙遠",
           "options": [
-            "No matter",
+            "Whatever",
             "Regardless",
-            "Whatever"
+            "No matter"
           ],
           "answer": "No matter"
         },
@@ -1432,8 +1432,8 @@
           "promptZh": "在我內心深處",
           "options": [
             "way down",
-            "far down",
-            "deep down"
+            "deep down",
+            "far down"
           ],
           "answer": "deep down"
         },
@@ -1443,9 +1443,9 @@
           "prompt": "That 〔第 30 題〕 {{blank}}",
           "promptZh": "在我內心深處",
           "options": [
-            "inside of me",
+            "within of me",
             "inside of you",
-            "within of me"
+            "inside of me"
           ],
           "answer": "inside of me"
         },
@@ -1729,9 +1729,9 @@
           "prompt": "{{blank}} 〔第 5 題〕 〔第 6 題〕",
           "promptZh": "當我說時請相信",
           "options": [
-            "Believe",
+            "Think",
             "Know",
-            "Think"
+            "Believe"
           ],
           "answer": "Believe"
         },
@@ -1765,8 +1765,8 @@
           "prompt": "{{blank}} 〔第 8 題〕",
           "promptZh": "我只想要那樣",
           "options": [
-            "I want it",
             "I need it",
+            "I want it",
             "I want that"
           ],
           "answer": "I want it"
@@ -1801,9 +1801,9 @@
           "prompt": "But we are 〔第 9 題〕 {{blank}}",
           "promptZh": "但我們身處兩個世界",
           "options": [
-            "worlds apart",
+            "worlds away",
             "hearts apart",
-            "worlds away"
+            "worlds apart"
           ],
           "answer": "worlds apart"
         },
@@ -1826,8 +1826,8 @@
           "promptZh": "無法觸及你的心",
           "options": [
             "soul",
-            "heart",
-            "mind"
+            "mind",
+            "heart"
           ],
           "answer": "heart"
         },
@@ -1837,8 +1837,8 @@
           "prompt": "{{blank}} it that way",
           "promptZh": "我只想要那樣",
           "options": [
-            "That I want",
             "That I need",
+            "That I want",
             "Then I want"
           ],
           "answer": "That I want"
@@ -1862,8 +1862,8 @@
           "promptZh": "告訴我為什麼",
           "options": [
             "how",
-            "why",
-            "when"
+            "when",
+            "why"
           ],
           "answer": "why"
         },
@@ -1873,8 +1873,8 @@
           "prompt": "{{blank}} 〔第 17 題〕 but a 〔第 18 題〕",
           "promptZh": "只不過是心痛一場",
           "options": [
-            "Ain't",
             "It's",
+            "Ain't",
             "Just"
           ],
           "answer": "Ain't"
@@ -1885,8 +1885,8 @@
           "prompt": "〔第 16 題〕 {{blank}} but a 〔第 18 題〕",
           "promptZh": "只不過是心痛一場",
           "options": [
-            "nothing",
             "nothing else",
+            "nothing",
             "something"
           ],
           "answer": "nothing"
@@ -1897,9 +1897,9 @@
           "prompt": "〔第 16 題〕 〔第 17 題〕 but a {{blank}}",
           "promptZh": "只不過是心痛一場",
           "options": [
-            "heartburn",
+            "heartache",
             "heartbreak",
-            "heartache"
+            "heartburn"
           ],
           "answer": "heartache"
         },
@@ -1909,9 +1909,9 @@
           "prompt": "{{blank}}",
           "promptZh": "告訴我為什麼",
           "options": [
-            "Tell me why",
+            "Show me why",
             "Teach me how",
-            "Show me why"
+            "Tell me why"
           ],
           "answer": "Tell me why"
         },
@@ -1921,8 +1921,8 @@
           "prompt": "Ain't nothing but a {{blank}}",
           "promptZh": "只不過是個錯誤",
           "options": [
-            "mistake",
             "heartbreak",
+            "mistake",
             "wrong turn"
           ],
           "answer": "mistake"
@@ -1934,8 +1934,8 @@
           "promptZh": "告訴我為什麼",
           "options": [
             "Tell me how",
-            "Tell me why",
-            "Show me why"
+            "Show me why",
+            "Tell me why"
           ],
           "answer": "Tell me why"
         },
@@ -1945,8 +1945,8 @@
           "prompt": "{{blank}} 〔第 23 題〕 hear you say",
           "promptZh": "我永遠不想聽你說",
           "options": [
-            "I will never",
             "I never",
+            "I will never",
             "I don't"
           ],
           "answer": "I never"
@@ -1957,9 +1957,9 @@
           "prompt": "〔第 22 題〕 {{blank}} hear you say",
           "promptZh": "我永遠不想聽你說",
           "options": [
-            "wanna",
+            "need to",
             "want to",
-            "need to"
+            "wanna"
           ],
           "answer": "wanna"
         },
@@ -1969,8 +1969,8 @@
           "prompt": "Am I your {{blank}}",
           "promptZh": "我是你的火焰嗎",
           "options": [
-            "fire",
             "flame",
+            "fire",
             "light"
           ],
           "answer": "fire"
@@ -1981,8 +1981,8 @@
           "prompt": "Your one {{blank}}",
           "promptZh": "你唯一的渴望",
           "options": [
-            "dream",
             "desire",
+            "dream",
             "love"
           ],
           "answer": "desire"
@@ -2005,8 +2005,8 @@
           "prompt": "〔第 26 題〕 {{blank}} it's too 〔第 28 題〕",
           "promptZh": "是的，我知道一切都太遲了",
           "options": [
-            "know",
             "see",
+            "know",
             "feel"
           ],
           "answer": "know"
@@ -2018,8 +2018,8 @@
           "promptZh": "是的，我知道一切都太遲了",
           "options": [
             "far",
-            "late",
-            "gone"
+            "gone",
+            "late"
           ],
           "answer": "late"
         },
@@ -2029,8 +2029,8 @@
           "prompt": "{{blank}} that way",
           "promptZh": "但我只想要那樣",
           "options": [
-            "But I want it",
             "And I want it",
+            "But I want it",
             "So I want it"
           ],
           "answer": "But I want it"
@@ -2054,8 +2054,8 @@
           "promptZh": "從我們曾經擁有的模樣看來，耶",
           "options": [
             "By the way",
-            "From the way",
-            "From the things"
+            "From the things",
+            "From the way"
           ],
           "answer": "From the way"
         },
@@ -2077,8 +2077,8 @@
           "prompt": "{{blank}} the 〔第 34 題〕",
           "promptZh": "無論距離多麼遙遠",
           "options": [
-            "No matter",
             "Regardless",
+            "No matter",
             "Whatever"
           ],
           "answer": "No matter"
@@ -2090,8 +2090,8 @@
           "promptZh": "無論距離多麼遙遠",
           "options": [
             "time",
-            "distance",
-            "space"
+            "space",
+            "distance"
           ],
           "answer": "distance"
         },
@@ -2113,9 +2113,9 @@
           "prompt": "That 〔第 35 題〕 {{blank}}",
           "promptZh": "在我內心深處",
           "options": [
-            "inside of me",
+            "within of me",
             "inside of you",
-            "within of me"
+            "inside of me"
           ],
           "answer": "inside of me"
         },
@@ -2126,8 +2126,8 @@
           "promptZh": "你是我的火焰",
           "options": [
             "You will be",
-            "You were",
-            "You are"
+            "You are",
+            "You were"
           ],
           "answer": "You are"
         },
@@ -2137,8 +2137,8 @@
           "prompt": "The one {{blank}}",
           "promptZh": "那唯一的渴望",
           "options": [
-            "desire",
             "need",
+            "desire",
             "dream"
           ],
           "answer": "desire"
@@ -2149,9 +2149,9 @@
           "prompt": "{{blank}}",
           "promptZh": "你是，你是，你是",
           "options": [
-            "You are, you are, you are",
+            "You are what you are",
             "You are, and you are",
-            "You are what you are"
+            "You are, you are, you are"
           ],
           "answer": "You are, you are, you are"
         },
@@ -2161,8 +2161,8 @@
           "prompt": "{{blank}} hear you say",
           "promptZh": "不想聽你說",
           "options": [
-            "I don't wanna",
             "Don't wanna",
+            "I don't wanna",
             "I never wanna"
           ],
           "answer": "Don't wanna"
@@ -2399,8 +2399,8 @@
           "prompt": "{{blank}} my 〔第 2 題〕",
           "promptZh": "你是我的火焰",
           "options": [
-            "You are",
             "You're",
+            "You are",
             "You were"
           ],
           "answer": "You are"
@@ -2435,8 +2435,8 @@
           "prompt": "〔第 3 題〕 {{blank}}",
           "promptZh": "那唯一的渴望",
           "options": [
-            "desire",
             "need",
+            "desire",
             "dream"
           ],
           "answer": "desire"
@@ -2459,8 +2459,8 @@
           "prompt": "〔第 5 題〕 {{blank}} 〔第 7 題〕",
           "promptZh": "當我說時請相信",
           "options": [
-            "what I",
             "when I",
+            "what I",
             "where I"
           ],
           "answer": "when I"
@@ -2471,9 +2471,9 @@
           "prompt": "〔第 5 題〕 〔第 6 題〕 {{blank}}",
           "promptZh": "當我說時請相信",
           "options": [
-            "say",
+            "tell",
             "speak",
-            "tell"
+            "say"
           ],
           "answer": "say"
         },
@@ -2483,8 +2483,8 @@
           "prompt": "{{blank}} 〔第 9 題〕",
           "promptZh": "我只想要那樣",
           "options": [
-            "I want it",
             "I need it",
+            "I want it",
             "I want that"
           ],
           "answer": "I want it"
@@ -2496,8 +2496,8 @@
           "promptZh": "我只想要那樣",
           "options": [
             "this way",
-            "that way",
-            "anyway"
+            "anyway",
+            "that way"
           ],
           "answer": "that way"
         },
@@ -2507,8 +2507,8 @@
           "prompt": "But we are {{blank}} 〔第 11 題〕",
           "promptZh": "但我們身處兩個世界",
           "options": [
-            "two",
             "new",
+            "two",
             "true"
           ],
           "answer": "two"
@@ -2567,9 +2567,9 @@
           "prompt": "{{blank}} it that way",
           "promptZh": "我只想要那樣",
           "options": [
-            "That I want",
+            "Then I want",
             "That I need",
-            "Then I want"
+            "That I want"
           ],
           "answer": "That I want"
         },
@@ -2579,9 +2579,9 @@
           "prompt": "{{blank}} me 〔第 17 題〕",
           "promptZh": "告訴我為什麼",
           "options": [
-            "Teach",
+            "Tell",
             "Show",
-            "Tell"
+            "Teach"
           ],
           "answer": "Tell"
         },
@@ -2591,8 +2591,8 @@
           "prompt": "〔第 16 題〕 me {{blank}}",
           "promptZh": "告訴我為什麼",
           "options": [
-            "why",
             "how",
+            "why",
             "when"
           ],
           "answer": "why"
@@ -2603,8 +2603,8 @@
           "prompt": "{{blank}} 〔第 19 題〕 but a 〔第 20 題〕",
           "promptZh": "只不過是心痛一場",
           "options": [
-            "Ain't",
             "It's",
+            "Ain't",
             "Just"
           ],
           "answer": "Ain't"
@@ -2639,9 +2639,9 @@
           "prompt": "{{blank}}",
           "promptZh": "告訴我為什麼",
           "options": [
-            "Tell me why",
+            "Show me why",
             "Teach me how",
-            "Show me why"
+            "Tell me why"
           ],
           "answer": "Tell me why"
         },
@@ -2652,8 +2652,8 @@
           "promptZh": "只不過是個錯誤",
           "options": [
             "It ain't",
-            "It's nothing",
-            "Ain't nothing"
+            "Ain't nothing",
+            "It's nothing"
           ],
           "answer": "Ain't nothing"
         },
@@ -2675,9 +2675,9 @@
           "prompt": "{{blank}}",
           "promptZh": "告訴我為什麼",
           "options": [
-            "Tell me why",
+            "Show me why",
             "Tell me how",
-            "Show me why"
+            "Tell me why"
           ],
           "answer": "Tell me why"
         },
@@ -2711,9 +2711,9 @@
           "prompt": "{{blank}} that way",
           "promptZh": "我只想要那樣",
           "options": [
-            "I want it",
+            "I want that",
             "I need it",
-            "I want that"
+            "I want it"
           ],
           "answer": "I want it"
         },
@@ -2771,8 +2771,8 @@
           "prompt": "〔第 31 題〕 {{blank}} it's too 〔第 33 題〕",
           "promptZh": "是的，我知道一切都太遲了",
           "options": [
-            "know",
             "see",
+            "know",
             "feel"
           ],
           "answer": "know"
@@ -2796,8 +2796,8 @@
           "promptZh": "但我只想要那樣",
           "options": [
             "So I want it",
-            "And I want it",
-            "But I want it"
+            "But I want it",
+            "And I want it"
           ],
           "answer": "But I want it"
         },
@@ -2807,9 +2807,9 @@
           "prompt": "Tell me {{blank}}",
           "promptZh": "告訴我為什麼",
           "options": [
-            "why",
+            "who",
             "how",
-            "who"
+            "why"
           ],
           "answer": "why"
         },
@@ -2819,9 +2819,9 @@
           "prompt": "Ain't nothing but a {{blank}}",
           "promptZh": "只不過是個錯誤",
           "options": [
-            "mistake",
+            "wrong turn",
             "heartbreak",
-            "wrong turn"
+            "mistake"
           ],
           "answer": "mistake"
         },
@@ -2868,8 +2868,8 @@
           "promptZh": "從我們曾經擁有的模樣看來，耶",
           "options": [
             "used to feel",
-            "used to be",
-            "had to be"
+            "had to be",
+            "used to be"
           ],
           "answer": "used to be"
         },
@@ -2879,8 +2879,8 @@
           "prompt": "{{blank}} the 〔第 42 題〕",
           "promptZh": "無論距離多麼遙遠",
           "options": [
-            "No matter",
             "Regardless",
+            "No matter",
             "Whatever"
           ],
           "answer": "No matter"
@@ -2891,9 +2891,9 @@
           "prompt": "〔第 41 題〕 the {{blank}}",
           "promptZh": "無論距離多麼遙遠",
           "options": [
-            "distance",
+            "space",
             "time",
-            "space"
+            "distance"
           ],
           "answer": "distance"
         },
@@ -2940,8 +2940,8 @@
           "promptZh": "你是我的火焰",
           "options": [
             "the fire",
-            "my desire",
-            "my fire"
+            "my fire",
+            "my desire"
           ],
           "answer": "my fire"
         },
@@ -2951,9 +2951,9 @@
           "prompt": "The one {{blank}}",
           "promptZh": "那唯一的渴望",
           "options": [
-            "desire",
+            "dream",
             "need",
-            "dream"
+            "desire"
           ],
           "answer": "desire"
         },
@@ -2987,8 +2987,8 @@
           "prompt": "{{blank}} hear you say",
           "promptZh": "不想聽你說",
           "options": [
-            "Don't wanna",
             "I don't wanna",
+            "Don't wanna",
             "I never wanna"
           ],
           "answer": "Don't wanna"

@@ -498,8 +498,8 @@
           "prompt": "Lying {{blank}} you",
           "promptZh": "躺在你身旁",
           "options": [
-            "beside",
             "behind",
+            "beside",
             "near"
           ],
           "answer": "beside"
@@ -523,8 +523,8 @@
           "promptZh": "感受你的心跳與我同拍",
           "options": [
             "heartache",
-            "heartbeat",
-            "heartbreak"
+            "heartbreak",
+            "heartbeat"
           ],
           "answer": "heartbeat"
         },
@@ -534,8 +534,8 @@
           "prompt": "{{blank}} you whisper",
           "promptZh": "你輕聲低語",
           "options": [
-            "Softly",
             "Slowly",
+            "Softly",
             "Quietly"
           ],
           "answer": "Softly"
@@ -546,8 +546,8 @@
           "prompt": "How could our love be so {{blank}}",
           "promptZh": "我們的愛怎能如此盲目",
           "options": [
-            "kind",
             "blind",
+            "kind",
             "deaf"
           ],
           "answer": "blind"
@@ -583,8 +583,8 @@
           "promptZh": "在我身旁",
           "options": [
             "mind",
-            "heart",
-            "side"
+            "side",
+            "heart"
           ],
           "answer": "side"
         },
@@ -595,8 +595,8 @@
           "promptZh": "於是此刻我走向你",
           "options": [
             "run to you",
-            "come to you",
-            "turn to you"
+            "turn to you",
+            "come to you"
           ],
           "answer": "come to you"
         },
@@ -619,8 +619,8 @@
           "promptZh": "毫無隱藏",
           "options": [
             "Nowhere",
-            "Nothing else",
-            "Nothing"
+            "Nothing",
+            "Nothing else"
           ],
           "answer": "Nothing"
         },
@@ -631,8 +631,8 @@
           "promptZh": "相信我說的",
           "options": [
             "said",
-            "say",
-            "mean"
+            "mean",
+            "say"
           ],
           "answer": "say"
         },
@@ -642,8 +642,8 @@
           "prompt": "So here I {{blank}}",
           "promptZh": "於是此刻我就在這裡",
           "options": [
-            "am",
             "stand",
+            "am",
             "go"
           ],
           "answer": "am"
@@ -654,8 +654,8 @@
           "prompt": "Hoping you'll {{blank}}",
           "promptZh": "但願你能明白",
           "options": [
-            "hear",
             "see",
+            "hear",
             "know"
           ],
           "answer": "see"
@@ -678,8 +678,8 @@
           "prompt": "{{blank}}",
           "promptZh": "張開雙臂",
           "options": [
-            "Open arms",
             "Open heart",
+            "Open arms",
             "Open doors"
           ],
           "answer": "Open arms"
@@ -690,9 +690,9 @@
           "prompt": "Living {{blank}}",
           "promptZh": "沒有你的生活",
           "options": [
-            "beside you",
+            "without you",
             "without love",
-            "without you"
+            "beside you"
           ],
           "answer": "without you"
         },
@@ -702,8 +702,8 @@
           "prompt": "This empty house seems so {{blank}}",
           "promptZh": "這空蕩的房子如此寒冷",
           "options": [
-            "old",
             "cold",
+            "old",
             "quiet"
           ],
           "answer": "cold"
@@ -896,8 +896,8 @@
           "prompt": "Lying {{blank}} you",
           "promptZh": "躺在你身旁",
           "options": [
-            "beside",
             "behind",
+            "beside",
             "near"
           ],
           "answer": "beside"
@@ -908,8 +908,8 @@
           "prompt": "Here in the {{blank}}",
           "promptZh": "在這黑暗中",
           "options": [
-            "night",
             "dark",
+            "night",
             "cold"
           ],
           "answer": "dark"
@@ -921,8 +921,8 @@
           "promptZh": "感受你的心跳與我同拍",
           "options": [
             "heartache",
-            "heartbreak",
-            "heartbeat"
+            "heartbeat",
+            "heartbreak"
           ],
           "answer": "heartbeat"
         },
@@ -981,8 +981,8 @@
           "promptZh": "卻漸行漸遠",
           "options": [
             "away",
-            "apart",
-            "along"
+            "along",
+            "apart"
           ],
           "answer": "apart"
         },
@@ -992,9 +992,9 @@
           "prompt": "And {{blank}}",
           "promptZh": "而你就在這裡",
           "options": [
-            "there you are",
+            "here you are",
             "here you go",
-            "here you are"
+            "there you are"
           ],
           "answer": "here you are"
         },
@@ -1004,9 +1004,9 @@
           "prompt": "By my {{blank}}",
           "promptZh": "在我身旁",
           "options": [
-            "side",
+            "heart",
             "mind",
-            "heart"
+            "side"
           ],
           "answer": "side"
         },
@@ -1028,9 +1028,9 @@
           "prompt": "With {{blank}}",
           "promptZh": "張開雙臂",
           "options": [
-            "open arms",
+            "open eyes",
             "open heart",
-            "open eyes"
+            "open arms"
           ],
           "answer": "open arms"
         },
@@ -1040,9 +1040,9 @@
           "prompt": "{{blank}} to hide",
           "promptZh": "毫無隱藏",
           "options": [
-            "Nowhere",
+            "Nothing",
             "Nothing else",
-            "Nothing"
+            "Nowhere"
           ],
           "answer": "Nothing"
         },
@@ -1064,8 +1064,8 @@
           "prompt": "So here I {{blank}}",
           "promptZh": "於是此刻我就在這裡",
           "options": [
-            "am",
             "stand",
+            "am",
             "go"
           ],
           "answer": "am"
@@ -1076,9 +1076,9 @@
           "prompt": "Hoping you'll {{blank}}",
           "promptZh": "但願你能明白",
           "options": [
-            "hear",
+            "see",
             "know",
-            "see"
+            "hear"
           ],
           "answer": "see"
         },
@@ -1089,8 +1089,8 @@
           "promptZh": "你的愛對我意味著什麼",
           "options": [
             "means for me",
-            "means to me",
-            "brings to me"
+            "brings to me",
+            "means to me"
           ],
           "answer": "means to me"
         },
@@ -1101,8 +1101,8 @@
           "promptZh": "張開雙臂",
           "options": [
             "Open heart",
-            "Open doors",
-            "Open arms"
+            "Open arms",
+            "Open doors"
           ],
           "answer": "Open arms"
         },
@@ -1125,8 +1125,8 @@
           "promptZh": "獨自一人",
           "options": [
             "lonely",
-            "alone",
-            "apart"
+            "apart",
+            "alone"
           ],
           "answer": "alone"
         },
@@ -1148,8 +1148,8 @@
           "prompt": "{{blank}}",
           "promptZh": "想要擁抱你",
           "options": [
-            "Wanting to hold you",
             "Wanting to keep you",
+            "Wanting to hold you",
             "Wanting to touch you"
           ],
           "answer": "Wanting to hold you"
@@ -1160,8 +1160,8 @@
           "prompt": "{{blank}}",
           "promptZh": "想要你靠近",
           "options": [
-            "Wanting you here",
             "Wanting you near",
+            "Wanting you here",
             "Wanting you close"
           ],
           "answer": "Wanting you near"
@@ -1220,8 +1220,8 @@
           "prompt": "So now I come {{blank}}",
           "promptZh": "於是此刻我走向你",
           "options": [
-            "to you",
             "for you",
+            "to you",
             "with you"
           ],
           "answer": "to you"
@@ -1232,8 +1232,8 @@
           "prompt": "Nothing {{blank}}",
           "promptZh": "毫無隱藏",
           "options": [
-            "to fear",
             "to hide",
+            "to fear",
             "to lose"
           ],
           "answer": "to hide"
@@ -1245,8 +1245,8 @@
           "promptZh": "相信我說的",
           "options": [
             "Trust",
-            "Hear",
-            "Believe"
+            "Believe",
+            "Hear"
           ],
           "answer": "Believe"
         },
@@ -1269,8 +1269,8 @@
           "promptZh": "你的愛對我意味著什麼",
           "options": [
             "you love",
-            "your love",
-            "your heart"
+            "your heart",
+            "your love"
           ],
           "answer": "your love"
         }
@@ -1438,9 +1438,9 @@
           "prompt": "{{blank}} 〔第 2 題〕 you",
           "promptZh": "躺在你身旁",
           "options": [
-            "Laying",
+            "Lying",
             "Leaning",
-            "Lying"
+            "Laying"
           ],
           "answer": "Lying"
         },
@@ -1450,8 +1450,8 @@
           "prompt": "〔第 1 題〕 {{blank}} you",
           "promptZh": "躺在你身旁",
           "options": [
-            "beside",
             "behind",
+            "beside",
             "near"
           ],
           "answer": "beside"
@@ -1462,8 +1462,8 @@
           "prompt": "{{blank}} in the 〔第 4 題〕",
           "promptZh": "在這黑暗中",
           "options": [
-            "There",
             "Here",
+            "There",
             "Now"
           ],
           "answer": "Here"
@@ -1474,9 +1474,9 @@
           "prompt": "〔第 3 題〕 in the {{blank}}",
           "promptZh": "在這黑暗中",
           "options": [
-            "dark",
+            "cold",
             "night",
-            "cold"
+            "dark"
           ],
           "answer": "dark"
         },
@@ -1487,8 +1487,8 @@
           "promptZh": "感受你的心跳與我同拍",
           "options": [
             "heartache",
-            "heartbeat",
-            "heartbreak"
+            "heartbreak",
+            "heartbeat"
           ],
           "answer": "heartbeat"
         },
@@ -1498,9 +1498,9 @@
           "prompt": "{{blank}} you 〔第 7 題〕",
           "promptZh": "你輕聲低語",
           "options": [
-            "Slowly",
+            "Softly",
             "Quietly",
-            "Softly"
+            "Slowly"
           ],
           "answer": "Softly"
         },
@@ -1510,8 +1510,8 @@
           "prompt": "〔第 6 題〕 you {{blank}}",
           "promptZh": "你輕聲低語",
           "options": [
-            "whisper",
             "mutter",
+            "whisper",
             "murmur"
           ],
           "answer": "whisper"
@@ -1522,9 +1522,9 @@
           "prompt": "You're so {{blank}}",
           "promptZh": "你如此真摯",
           "options": [
-            "severe",
+            "sincere",
             "secure",
-            "sincere"
+            "severe"
           ],
           "answer": "sincere"
         },
@@ -1546,9 +1546,9 @@
           "prompt": "How could 〔第 9 題〕 be so {{blank}}",
           "promptZh": "我們的愛怎能如此盲目",
           "options": [
-            "blind",
+            "deaf",
             "kind",
-            "deaf"
+            "blind"
           ],
           "answer": "blind"
         },
@@ -1558,9 +1558,9 @@
           "prompt": "We {{blank}}",
           "promptZh": "我們曾同舟前行",
           "options": [
-            "sailed on together",
+            "sailed on alone",
             "sailed on forever",
-            "sailed on alone"
+            "sailed on together"
           ],
           "answer": "sailed on together"
         },
@@ -1570,9 +1570,9 @@
           "prompt": "We drifted {{blank}}",
           "promptZh": "卻漸行漸遠",
           "options": [
-            "away",
+            "apart",
             "along",
-            "apart"
+            "away"
           ],
           "answer": "apart"
         },
@@ -1594,9 +1594,9 @@
           "prompt": "By my {{blank}}",
           "promptZh": "在我身旁",
           "options": [
-            "side",
+            "heart",
             "mind",
-            "heart"
+            "side"
           ],
           "answer": "side"
         },
@@ -1607,8 +1607,8 @@
           "promptZh": "於是此刻我走向你",
           "options": [
             "run to you",
-            "turn to you",
-            "come to you"
+            "come to you",
+            "turn to you"
           ],
           "answer": "come to you"
         },
@@ -1631,8 +1631,8 @@
           "promptZh": "毫無隱藏",
           "options": [
             "Nowhere",
-            "Nothing",
-            "Nothing else"
+            "Nothing else",
+            "Nothing"
           ],
           "answer": "Nothing"
         },
@@ -1643,8 +1643,8 @@
           "promptZh": "相信我說的",
           "options": [
             "said",
-            "mean",
-            "say"
+            "say",
+            "mean"
           ],
           "answer": "say"
         },
@@ -1666,8 +1666,8 @@
           "prompt": "〔第 19 題〕 I {{blank}}",
           "promptZh": "於是此刻我就在這裡",
           "options": [
-            "stand",
             "am",
+            "stand",
             "go"
           ],
           "answer": "am"
@@ -1678,8 +1678,8 @@
           "prompt": "Hoping you'll {{blank}}",
           "promptZh": "但願你能明白",
           "options": [
-            "see",
             "hear",
+            "see",
             "know"
           ],
           "answer": "see"
@@ -1739,8 +1739,8 @@
           "promptZh": "獨自一人",
           "options": [
             "lonely",
-            "alone",
-            "apart"
+            "apart",
+            "alone"
           ],
           "answer": "alone"
         },
@@ -1751,8 +1751,8 @@
           "promptZh": "這空蕩的房子如此寒冷",
           "options": [
             "lonely house",
-            "quiet house",
-            "empty house"
+            "empty house",
+            "quiet house"
           ],
           "answer": "empty house"
         },
@@ -1774,8 +1774,8 @@
           "prompt": "{{blank}}",
           "promptZh": "想要擁抱你",
           "options": [
-            "Wanting to keep you",
             "Wanting to hold you",
+            "Wanting to keep you",
             "Wanting to touch you"
           ],
           "answer": "Wanting to hold you"
@@ -1786,8 +1786,8 @@
           "prompt": "{{blank}}",
           "promptZh": "想要你靠近",
           "options": [
-            "Wanting you near",
             "Wanting you here",
+            "Wanting you near",
             "Wanting you close"
           ],
           "answer": "Wanting you near"
@@ -1847,8 +1847,8 @@
           "promptZh": "我需要你留下",
           "options": [
             "wait",
-            "stay",
-            "know"
+            "know",
+            "stay"
           ],
           "answer": "stay"
         },
@@ -1858,9 +1858,9 @@
           "prompt": "So now I come {{blank}}",
           "promptZh": "於是此刻我走向你",
           "options": [
-            "for you",
+            "to you",
             "with you",
-            "to you"
+            "for you"
           ],
           "answer": "to you"
         },
@@ -1870,8 +1870,8 @@
           "prompt": "Nothing {{blank}}",
           "promptZh": "毫無隱藏",
           "options": [
-            "to hide",
             "to fear",
+            "to hide",
             "to lose"
           ],
           "answer": "to hide"
@@ -1882,8 +1882,8 @@
           "prompt": "{{blank}} what I say",
           "promptZh": "相信我說的",
           "options": [
-            "Trust",
             "Believe",
+            "Trust",
             "Hear"
           ],
           "answer": "Believe"
@@ -1895,8 +1895,8 @@
           "promptZh": "但願你能明白",
           "options": [
             "Wishing",
-            "Praying",
-            "Hoping"
+            "Hoping",
+            "Praying"
           ],
           "answer": "Hoping"
         },
@@ -1907,8 +1907,8 @@
           "promptZh": "你的愛對我意味著什麼",
           "options": [
             "you love",
-            "your love",
-            "your heart"
+            "your heart",
+            "your love"
           ],
           "answer": "your love"
         }
@@ -2076,8 +2076,8 @@
           "prompt": "{{blank}} 〔第 2 題〕 you",
           "promptZh": "躺在你身旁",
           "options": [
-            "Laying",
             "Lying",
+            "Laying",
             "Leaning"
           ],
           "answer": "Lying"
@@ -2088,8 +2088,8 @@
           "prompt": "〔第 1 題〕 {{blank}} you",
           "promptZh": "躺在你身旁",
           "options": [
-            "beside",
             "behind",
+            "beside",
             "near"
           ],
           "answer": "beside"
@@ -2137,8 +2137,8 @@
           "promptZh": "感受你的心跳與我同拍",
           "options": [
             "heartache",
-            "heartbreak",
-            "heartbeat"
+            "heartbeat",
+            "heartbreak"
           ],
           "answer": "heartbeat"
         },
@@ -2148,9 +2148,9 @@
           "prompt": "{{blank}} you 〔第 8 題〕",
           "promptZh": "你輕聲低語",
           "options": [
-            "Softly",
+            "Quietly",
             "Slowly",
-            "Quietly"
+            "Softly"
           ],
           "answer": "Softly"
         },
@@ -2160,8 +2160,8 @@
           "prompt": "〔第 7 題〕 you {{blank}}",
           "promptZh": "你輕聲低語",
           "options": [
-            "mutter",
             "whisper",
+            "mutter",
             "murmur"
           ],
           "answer": "whisper"
@@ -2208,8 +2208,8 @@
           "prompt": "How could 〔第 11 題〕 be so {{blank}}",
           "promptZh": "我們的愛怎能如此盲目",
           "options": [
-            "blind",
             "kind",
+            "blind",
             "deaf"
           ],
           "answer": "blind"
@@ -2232,8 +2232,8 @@
           "prompt": "We drifted {{blank}}",
           "promptZh": "卻漸行漸遠",
           "options": [
-            "away",
             "apart",
+            "away",
             "along"
           ],
           "answer": "apart"
@@ -2244,8 +2244,8 @@
           "prompt": "And {{blank}}",
           "promptZh": "而你就在這裡",
           "options": [
-            "here you are",
             "there you are",
+            "here you are",
             "here you go"
           ],
           "answer": "here you are"
@@ -2256,9 +2256,9 @@
           "prompt": "By my {{blank}}",
           "promptZh": "在我身旁",
           "options": [
-            "mind",
+            "side",
             "heart",
-            "side"
+            "mind"
           ],
           "answer": "side"
         },
@@ -2269,8 +2269,8 @@
           "promptZh": "於是此刻我走向你",
           "options": [
             "Right now",
-            "So now",
-            "And now"
+            "And now",
+            "So now"
           ],
           "answer": "So now"
         },
@@ -2280,9 +2280,9 @@
           "prompt": "〔第 17 題〕 I {{blank}}",
           "promptZh": "於是此刻我走向你",
           "options": [
-            "come to you",
+            "turn to you",
             "run to you",
-            "turn to you"
+            "come to you"
           ],
           "answer": "come to you"
         },
@@ -2292,8 +2292,8 @@
           "prompt": "With {{blank}}",
           "promptZh": "張開雙臂",
           "options": [
-            "open heart",
             "open arms",
+            "open heart",
             "open eyes"
           ],
           "answer": "open arms"
@@ -2305,8 +2305,8 @@
           "promptZh": "毫無隱藏",
           "options": [
             "Nowhere",
-            "Nothing else",
-            "Nothing"
+            "Nothing",
+            "Nothing else"
           ],
           "answer": "Nothing"
         },
@@ -2316,9 +2316,9 @@
           "prompt": "Believe what I {{blank}}",
           "promptZh": "相信我說的",
           "options": [
-            "say",
+            "mean",
             "said",
-            "mean"
+            "say"
           ],
           "answer": "say"
         },
@@ -2328,8 +2328,8 @@
           "prompt": "{{blank}} I 〔第 23 題〕",
           "promptZh": "於是此刻我就在這裡",
           "options": [
-            "Right here",
             "So here",
+            "Right here",
             "And here"
           ],
           "answer": "So here"
@@ -2341,8 +2341,8 @@
           "promptZh": "於是此刻我就在這裡",
           "options": [
             "stand",
-            "go",
-            "am"
+            "am",
+            "go"
           ],
           "answer": "am"
         },
@@ -2401,8 +2401,8 @@
           "promptZh": "沒有你的生活",
           "options": [
             "beside you",
-            "without love",
-            "without you"
+            "without you",
+            "without love"
           ],
           "answer": "without you"
         },
@@ -2413,8 +2413,8 @@
           "promptZh": "獨自一人",
           "options": [
             "lonely",
-            "alone",
-            "apart"
+            "apart",
+            "alone"
           ],
           "answer": "alone"
         },
@@ -2424,9 +2424,9 @@
           "prompt": "This {{blank}} seems so 〔第 31 題〕",
           "promptZh": "這空蕩的房子如此寒冷",
           "options": [
-            "empty house",
+            "quiet house",
             "lonely house",
-            "quiet house"
+            "empty house"
           ],
           "answer": "empty house"
         },
@@ -2437,8 +2437,8 @@
           "promptZh": "這空蕩的房子如此寒冷",
           "options": [
             "old",
-            "quiet",
-            "cold"
+            "cold",
+            "quiet"
           ],
           "answer": "cold"
         },
@@ -2448,8 +2448,8 @@
           "prompt": "{{blank}}",
           "promptZh": "想要擁抱你",
           "options": [
-            "Wanting to keep you",
             "Wanting to hold you",
+            "Wanting to keep you",
             "Wanting to touch you"
           ],
           "answer": "Wanting to hold you"
@@ -2496,9 +2496,9 @@
           "prompt": "But {{blank}} you've 〔第 37 題〕",
           "promptZh": "但如今你已回來",
           "options": [
-            "now that",
+            "that now",
             "since that",
-            "that now"
+            "now that"
           ],
           "answer": "now that"
         },
@@ -2509,8 +2509,8 @@
           "promptZh": "但如今你已回來",
           "options": [
             "come home",
-            "turned back",
-            "come back"
+            "come back",
+            "turned back"
           ],
           "answer": "come back"
         },
@@ -2532,8 +2532,8 @@
           "prompt": "I {{blank}} you to 〔第 40 題〕",
           "promptZh": "我需要你留下",
           "options": [
-            "want",
             "need",
+            "want",
             "ask"
           ],
           "answer": "need"
@@ -2545,8 +2545,8 @@
           "promptZh": "我需要你留下",
           "options": [
             "wait",
-            "know",
-            "stay"
+            "stay",
+            "know"
           ],
           "answer": "stay"
         },
@@ -2556,9 +2556,9 @@
           "prompt": "So now I come {{blank}}",
           "promptZh": "於是此刻我走向你",
           "options": [
-            "to you",
+            "with you",
             "for you",
-            "with you"
+            "to you"
           ],
           "answer": "to you"
         },
@@ -2569,8 +2569,8 @@
           "promptZh": "毫無隱藏",
           "options": [
             "Nowhere",
-            "Nothing",
-            "Nothing else"
+            "Nothing else",
+            "Nothing"
           ],
           "answer": "Nothing"
         },
@@ -2580,9 +2580,9 @@
           "prompt": "〔第 42 題〕 {{blank}}",
           "promptZh": "毫無隱藏",
           "options": [
-            "to fear",
+            "to hide",
             "to lose",
-            "to hide"
+            "to fear"
           ],
           "answer": "to hide"
         },
@@ -2592,8 +2592,8 @@
           "prompt": "{{blank}} 〔第 45 題〕",
           "promptZh": "相信我說的",
           "options": [
-            "Believe",
             "Trust",
+            "Believe",
             "Hear"
           ],
           "answer": "Believe"
@@ -2628,8 +2628,8 @@
           "prompt": "{{blank}} 〔第 48 題〕",
           "promptZh": "但願你能明白",
           "options": [
-            "Wishing",
             "Hoping",
+            "Wishing",
             "Praying"
           ],
           "answer": "Hoping"
@@ -2640,8 +2640,8 @@
           "prompt": "〔第 47 題〕 {{blank}}",
           "promptZh": "但願你能明白",
           "options": [
-            "you'll see",
             "you will see",
+            "you'll see",
             "you can see"
           ],
           "answer": "you'll see"
@@ -2652,9 +2652,9 @@
           "prompt": "What {{blank}} means to me",
           "promptZh": "你的愛對我意味著什麼",
           "options": [
-            "you love",
+            "your love",
             "your heart",
-            "your love"
+            "you love"
           ],
           "answer": "your love"
         },
@@ -2665,8 +2665,8 @@
           "promptZh": "張開雙臂",
           "options": [
             "Open heart",
-            "Open arms",
-            "Open doors"
+            "Open doors",
+            "Open arms"
           ],
           "answer": "Open arms"
         }

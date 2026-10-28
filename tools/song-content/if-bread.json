@@ -427,9 +427,9 @@
           "prompt": "If a face could {{blank}} a thousand ships",
           "promptZh": "若一張容顏能引動千帆出征",
           "options": [
-            "launch",
+            "take",
             "send",
-            "take"
+            "launch"
           ],
           "answer": "launch"
         },
@@ -440,8 +440,8 @@
           "promptZh": "那我該何去何從？",
           "options": [
             "be",
-            "stay",
-            "go"
+            "go",
+            "stay"
           ],
           "answer": "go"
         },
@@ -451,9 +451,9 @@
           "prompt": "There's no one {{blank}} but you",
           "promptZh": "這裡除了你別無他人",
           "options": [
-            "home",
+            "left",
             "here",
-            "left"
+            "home"
           ],
           "answer": "home"
         },
@@ -475,9 +475,9 @@
           "prompt": "And when my love for life is {{blank}} dry",
           "promptZh": "當我對生命的熱愛逐漸乾涸",
           "options": [
-            "feeling",
+            "running",
             "getting",
-            "running"
+            "feeling"
           ],
           "answer": "running"
         },
@@ -499,9 +499,9 @@
           "prompt": "If a man could {{blank}} two 〔第 12 題〕 at one time",
           "promptZh": "若一個人能同時分身兩處",
           "options": [
-            "be",
+            "live",
             "stay",
-            "live"
+            "be"
           ],
           "answer": "be"
         },
@@ -511,8 +511,8 @@
           "prompt": "If a man could 〔第 11 題〕 two {{blank}} at one time",
           "promptZh": "若一個人能同時分身兩處",
           "options": [
-            "places",
             "worlds",
+            "places",
             "lives"
           ],
           "answer": "places"
@@ -523,9 +523,9 @@
           "prompt": "{{blank}} and today",
           "promptZh": "無論明日或今朝",
           "options": [
-            "Forever",
+            "Tomorrow",
             "Yesterday",
-            "Tomorrow"
+            "Forever"
           ],
           "answer": "Tomorrow"
         },
@@ -536,8 +536,8 @@
           "promptZh": "一路伴你同行",
           "options": [
             "time",
-            "way",
-            "day"
+            "day",
+            "way"
           ],
           "answer": "way"
         },
@@ -548,8 +548,8 @@
           "promptZh": "若世界即將停止轉動",
           "options": [
             "turning",
-            "moving",
-            "revolving"
+            "revolving",
+            "moving"
           ],
           "answer": "revolving"
         },
@@ -560,8 +560,8 @@
           "promptZh": "緩緩旋轉直至消亡",
           "options": [
             "quickly",
-            "slowly",
-            "softly"
+            "softly",
+            "slowly"
           ],
           "answer": "slowly"
         },
@@ -595,8 +595,8 @@
           "prompt": "Then one by one the {{blank}} would all go out",
           "promptZh": "屆時星辰將逐一熄滅",
           "options": [
-            "stars",
             "lights",
+            "stars",
             "skies"
           ],
           "answer": "stars"
@@ -709,8 +709,8 @@
           "prompt": "If a {{blank}} paints a thousand 〔第 2 題〕",
           "promptZh": "若一幅畫能描繪千言萬語",
           "options": [
-            "picture",
             "painting",
+            "picture",
             "photo"
           ],
           "answer": "picture"
@@ -745,8 +745,8 @@
           "prompt": "Then 〔第 3 題〕 can't I {{blank}} you?",
           "promptZh": "那我為何無法將你入畫？",
           "options": [
-            "draw",
             "paint",
+            "draw",
             "make"
           ],
           "answer": "paint"
@@ -757,9 +757,9 @@
           "prompt": "The {{blank}} will 〔第 6 題〕 show",
           "promptZh": "言語永遠無法展現",
           "options": [
-            "words",
+            "signs",
             "lines",
-            "signs"
+            "words"
           ],
           "answer": "words"
         },
@@ -782,8 +782,8 @@
           "promptZh": "我所熟悉的那個你",
           "options": [
             "learned",
-            "come",
-            "grown"
+            "grown",
+            "come"
           ],
           "answer": "come"
         },
@@ -793,9 +793,9 @@
           "prompt": "The you I've 〔第 7 題〕 to {{blank}}",
           "promptZh": "我所熟悉的那個你",
           "options": [
-            "see",
+            "know",
             "find",
-            "know"
+            "see"
           ],
           "answer": "know"
         },
@@ -805,8 +805,8 @@
           "prompt": "If a {{blank}} could 〔第 10 題〕 a thousand 〔第 11 題〕",
           "promptZh": "若一張容顏能引動千帆出征",
           "options": [
-            "face",
             "smile",
+            "face",
             "look"
           ],
           "answer": "face"
@@ -830,8 +830,8 @@
           "promptZh": "若一張容顏能引動千帆出征",
           "options": [
             "boats",
-            "ships",
-            "sails"
+            "sails",
+            "ships"
           ],
           "answer": "ships"
         },
@@ -865,8 +865,8 @@
           "prompt": "〔第 13 題〕 no one {{blank}} but you",
           "promptZh": "這裡除了你別無他人",
           "options": [
-            "home",
             "here",
+            "home",
             "left"
           ],
           "answer": "home"
@@ -901,9 +901,9 @@
           "prompt": "And when my love for {{blank}} is 〔第 18 題〕 dry",
           "promptZh": "當我對生命的熱愛逐漸乾涸",
           "options": [
-            "life",
+            "living",
             "you",
-            "living"
+            "life"
           ],
           "answer": "life"
         },
@@ -914,8 +914,8 @@
           "promptZh": "當我對生命的熱愛逐漸乾涸",
           "options": [
             "feeling",
-            "getting",
-            "running"
+            "running",
+            "getting"
           ],
           "answer": "running"
         },
@@ -938,8 +938,8 @@
           "promptZh": "你便來到我身旁，將自己傾注於我",
           "options": [
             "give",
-            "pour",
-            "bring"
+            "bring",
+            "pour"
           ],
           "answer": "pour"
         },
@@ -949,9 +949,9 @@
           "prompt": "If a {{blank}} could 〔第 22 題〕 two 〔第 23 題〕 at one 〔第 24 題〕",
           "promptZh": "若一個人能同時分身兩處",
           "options": [
-            "man",
+            "soul",
             "guy",
-            "soul"
+            "man"
           ],
           "answer": "man"
         },
@@ -997,8 +997,8 @@
           "prompt": "{{blank}} and today",
           "promptZh": "無論明日或今朝",
           "options": [
-            "Tomorrow",
             "Yesterday",
+            "Tomorrow",
             "Forever"
           ],
           "answer": "Tomorrow"
@@ -1010,8 +1010,8 @@
           "promptZh": "一路伴你同行",
           "options": [
             "time",
-            "way",
-            "day"
+            "day",
+            "way"
           ],
           "answer": "way"
         },
@@ -1022,8 +1022,8 @@
           "promptZh": "若世界即將停止轉動",
           "options": [
             "turning",
-            "moving",
-            "revolving"
+            "revolving",
+            "moving"
           ],
           "answer": "revolving"
         },
@@ -1033,8 +1033,8 @@
           "prompt": "Spinning {{blank}} down to die",
           "promptZh": "緩緩旋轉直至消亡",
           "options": [
-            "quickly",
             "slowly",
+            "quickly",
             "softly"
           ],
           "answer": "slowly"
@@ -1045,9 +1045,9 @@
           "prompt": "I'd {{blank}} the end with you",
           "promptZh": "我願與你共度終局",
           "options": [
-            "spend",
+            "give",
             "take",
-            "give"
+            "spend"
           ],
           "answer": "spend"
         },
@@ -1057,9 +1057,9 @@
           "prompt": "And when the world was {{blank}}",
           "promptZh": "而當世界走到盡頭",
           "options": [
-            "gone",
+            "through",
             "done",
-            "through"
+            "gone"
           ],
           "answer": "through"
         },
@@ -1069,8 +1069,8 @@
           "prompt": "Then one by one the {{blank}} would all go out",
           "promptZh": "屆時星辰將逐一熄滅",
           "options": [
-            "stars",
             "lights",
+            "stars",
             "skies"
           ],
           "answer": "stars"
@@ -1081,9 +1081,9 @@
           "prompt": "Then you and I would {{blank}} fly away",
           "promptZh": "然後你我便會就此飛向遠方",
           "options": [
-            "simply",
+            "gently",
             "softly",
-            "gently"
+            "simply"
           ],
           "answer": "simply"
         }
@@ -1195,8 +1195,8 @@
           "prompt": "If a 〔第 1 題〕 {{blank}} 〔第 3 題〕 〔第 4 題〕",
           "promptZh": "若一幅畫能描繪千言萬語",
           "options": [
-            "paints",
             "shows",
+            "paints",
             "makes"
           ],
           "answer": "paints"
@@ -1208,8 +1208,8 @@
           "promptZh": "若一幅畫能描繪千言萬語",
           "options": [
             "a hundred",
-            "a thousand",
-            "a million"
+            "a million",
+            "a thousand"
           ],
           "answer": "a thousand"
         },
@@ -1232,8 +1232,8 @@
           "promptZh": "那我為何無法將你入畫？",
           "options": [
             "how",
-            "why",
-            "what"
+            "what",
+            "why"
           ],
           "answer": "why"
         },
@@ -1267,8 +1267,8 @@
           "prompt": "The 〔第 7 題〕 will {{blank}} show",
           "promptZh": "言語永遠無法展現",
           "options": [
-            "always",
             "never",
+            "always",
             "ever"
           ],
           "answer": "never"
@@ -1279,8 +1279,8 @@
           "prompt": "The you {{blank}} 〔第 10 題〕 to 〔第 11 題〕",
           "promptZh": "我所熟悉的那個你",
           "options": [
-            "I've",
             "I'm",
+            "I've",
             "I'd"
           ],
           "answer": "I've"
@@ -1292,8 +1292,8 @@
           "promptZh": "我所熟悉的那個你",
           "options": [
             "learned",
-            "come",
-            "grown"
+            "grown",
+            "come"
           ],
           "answer": "come"
         },
@@ -1303,9 +1303,9 @@
           "prompt": "The you 〔第 9 題〕 〔第 10 題〕 to {{blank}}",
           "promptZh": "我所熟悉的那個你",
           "options": [
-            "see",
+            "know",
             "find",
-            "know"
+            "see"
           ],
           "answer": "know"
         },
@@ -1315,9 +1315,9 @@
           "prompt": "If a {{blank}} could 〔第 13 題〕 a thousand 〔第 14 題〕",
           "promptZh": "若一張容顏能引動千帆出征",
           "options": [
-            "face",
+            "look",
             "smile",
-            "look"
+            "face"
           ],
           "answer": "face"
         },
@@ -1327,8 +1327,8 @@
           "prompt": "If a 〔第 12 題〕 could {{blank}} a thousand 〔第 14 題〕",
           "promptZh": "若一張容顏能引動千帆出征",
           "options": [
-            "launch",
             "send",
+            "launch",
             "take"
           ],
           "answer": "launch"
@@ -1340,8 +1340,8 @@
           "promptZh": "若一張容顏能引動千帆出征",
           "options": [
             "boats",
-            "ships",
-            "sails"
+            "sails",
+            "ships"
           ],
           "answer": "ships"
         },
@@ -1351,9 +1351,9 @@
           "prompt": "Then where am I to {{blank}}?",
           "promptZh": "那我該何去何從？",
           "options": [
-            "be",
+            "go",
             "stay",
-            "go"
+            "be"
           ],
           "answer": "go"
         },
@@ -1363,8 +1363,8 @@
           "prompt": "{{blank}} no one 〔第 17 題〕 〔第 18 題〕",
           "promptZh": "這裡除了你別無他人",
           "options": [
-            "There's",
             "Here's",
+            "There's",
             "It's"
           ],
           "answer": "There's"
@@ -1375,8 +1375,8 @@
           "prompt": "〔第 16 題〕 no one {{blank}} 〔第 18 題〕",
           "promptZh": "這裡除了你別無他人",
           "options": [
-            "home",
             "here",
+            "home",
             "left"
           ],
           "answer": "home"
@@ -1387,8 +1387,8 @@
           "prompt": "〔第 16 題〕 no one 〔第 17 題〕 {{blank}}",
           "promptZh": "這裡除了你別無他人",
           "options": [
-            "with you",
             "but you",
+            "with you",
             "for you"
           ],
           "answer": "but you"
@@ -1399,9 +1399,9 @@
           "prompt": "You're {{blank}} that's 〔第 20 題〕 me too",
           "promptZh": "你也是我僅存的一切",
           "options": [
-            "all",
+            "just",
             "everything",
-            "just"
+            "all"
           ],
           "answer": "all"
         },
@@ -1424,8 +1424,8 @@
           "promptZh": "當我對生命的熱愛逐漸乾涸",
           "options": [
             "when the love",
-            "if my love",
-            "when my love"
+            "when my love",
+            "if my love"
           ],
           "answer": "when my love"
         },
@@ -1435,9 +1435,9 @@
           "prompt": "And 〔第 21 題〕 for {{blank}} is 〔第 23 題〕 dry",
           "promptZh": "當我對生命的熱愛逐漸乾涸",
           "options": [
-            "life",
+            "living",
             "you",
-            "living"
+            "life"
           ],
           "answer": "life"
         },
@@ -1447,9 +1447,9 @@
           "prompt": "And 〔第 21 題〕 for 〔第 22 題〕 is {{blank}} dry",
           "promptZh": "當我對生命的熱愛逐漸乾涸",
           "options": [
-            "running",
+            "feeling",
             "getting",
-            "feeling"
+            "running"
           ],
           "answer": "running"
         },
@@ -1460,8 +1460,8 @@
           "promptZh": "你便來到我身旁，將自己傾注於我",
           "options": [
             "run",
-            "go",
-            "come"
+            "come",
+            "go"
           ],
           "answer": "come"
         },
@@ -1471,8 +1471,8 @@
           "prompt": "You 〔第 24 題〕 and {{blank}} 〔第 26 題〕",
           "promptZh": "你便來到我身旁，將自己傾注於我",
           "options": [
-            "give",
             "pour",
+            "give",
             "bring"
           ],
           "answer": "pour"
@@ -1495,8 +1495,8 @@
           "prompt": "If a {{blank}} could 〔第 28 題〕 two 〔第 29 題〕 at one 〔第 30 題〕",
           "promptZh": "若一個人能同時分身兩處",
           "options": [
-            "man",
             "guy",
+            "man",
             "soul"
           ],
           "answer": "man"
@@ -1519,9 +1519,9 @@
           "prompt": "If a 〔第 27 題〕 could 〔第 28 題〕 two {{blank}} at one 〔第 30 題〕",
           "promptZh": "若一個人能同時分身兩處",
           "options": [
-            "places",
+            "lives",
             "worlds",
-            "lives"
+            "places"
           ],
           "answer": "places"
         },
@@ -1531,8 +1531,8 @@
           "prompt": "If a 〔第 27 題〕 could 〔第 28 題〕 two 〔第 29 題〕 at one {{blank}}",
           "promptZh": "若一個人能同時分身兩處",
           "options": [
-            "time",
             "moment",
+            "time",
             "point"
           ],
           "answer": "time"
@@ -1543,8 +1543,8 @@
           "prompt": "{{blank}} and today",
           "promptZh": "無論明日或今朝",
           "options": [
-            "Yesterday",
             "Tomorrow",
+            "Yesterday",
             "Forever"
           ],
           "answer": "Tomorrow"
@@ -1567,9 +1567,9 @@
           "prompt": "If the world should stop {{blank}}",
           "promptZh": "若世界即將停止轉動",
           "options": [
-            "turning",
+            "revolving",
             "moving",
-            "revolving"
+            "turning"
           ],
           "answer": "revolving"
         },
@@ -1580,8 +1580,8 @@
           "promptZh": "緩緩旋轉直至消亡",
           "options": [
             "quickly",
-            "slowly",
-            "softly"
+            "softly",
+            "slowly"
           ],
           "answer": "slowly"
         },
@@ -1615,8 +1615,8 @@
           "prompt": "Then one by one the {{blank}} would all 〔第 38 題〕",
           "promptZh": "屆時星辰將逐一熄滅",
           "options": [
-            "stars",
             "lights",
+            "stars",
             "skies"
           ],
           "answer": "stars"
@@ -1627,8 +1627,8 @@
           "prompt": "Then one by one the 〔第 37 題〕 would all {{blank}}",
           "promptZh": "屆時星辰將逐一熄滅",
           "options": [
-            "go out",
             "fade out",
+            "go out",
             "burn out"
           ],
           "answer": "go out"
@@ -1639,8 +1639,8 @@
           "prompt": "Then you and I would {{blank}} fly 〔第 40 題〕",
           "promptZh": "然後你我便會就此飛向遠方",
           "options": [
-            "softly",
             "simply",
+            "softly",
             "gently"
           ],
           "answer": "simply"
@@ -1651,9 +1651,9 @@
           "prompt": "Then you and I would 〔第 39 題〕 fly {{blank}}",
           "promptZh": "然後你我便會就此飛向遠方",
           "options": [
-            "away",
+            "free",
             "high",
-            "free"
+            "away"
           ],
           "answer": "away"
         }
@@ -1765,8 +1765,8 @@
           "prompt": "If a 〔第 1 題〕 {{blank}} 〔第 3 題〕 〔第 4 題〕",
           "promptZh": "若一幅畫能描繪千言萬語",
           "options": [
-            "paints",
             "shows",
+            "paints",
             "makes"
           ],
           "answer": "paints"
@@ -1778,8 +1778,8 @@
           "promptZh": "若一幅畫能描繪千言萬語",
           "options": [
             "a million",
-            "a hundred",
-            "a thousand"
+            "a thousand",
+            "a hundred"
           ],
           "answer": "a thousand"
         },
@@ -1789,9 +1789,9 @@
           "prompt": "If a 〔第 1 題〕 〔第 2 題〕 〔第 3 題〕 {{blank}}",
           "promptZh": "若一幅畫能描繪千言萬語",
           "options": [
-            "words",
+            "dreams",
             "things",
-            "dreams"
+            "words"
           ],
           "answer": "words"
         },
@@ -1801,8 +1801,8 @@
           "prompt": "Then {{blank}} 〔第 6 題〕 〔第 7 題〕 you?",
           "promptZh": "那我為何無法將你入畫？",
           "options": [
-            "how",
             "why",
+            "how",
             "what"
           ],
           "answer": "why"
@@ -1813,8 +1813,8 @@
           "prompt": "Then 〔第 5 題〕 {{blank}} 〔第 7 題〕 you?",
           "promptZh": "那我為何無法將你入畫？",
           "options": [
-            "can't I",
             "don't I",
+            "can't I",
             "won't I"
           ],
           "answer": "can't I"
@@ -1825,8 +1825,8 @@
           "prompt": "Then 〔第 5 題〕 〔第 6 題〕 {{blank}} you?",
           "promptZh": "那我為何無法將你入畫？",
           "options": [
-            "draw",
             "paint",
+            "draw",
             "make"
           ],
           "answer": "paint"
@@ -1837,9 +1837,9 @@
           "prompt": "The {{blank}} will 〔第 9 題〕 〔第 10 題〕",
           "promptZh": "言語永遠無法展現",
           "options": [
-            "words",
+            "signs",
             "lines",
-            "signs"
+            "words"
           ],
           "answer": "words"
         },
@@ -1849,8 +1849,8 @@
           "prompt": "The 〔第 8 題〕 will {{blank}} 〔第 10 題〕",
           "promptZh": "言語永遠無法展現",
           "options": [
-            "always",
             "never",
+            "always",
             "ever"
           ],
           "answer": "never"
@@ -1861,8 +1861,8 @@
           "prompt": "The 〔第 8 題〕 will 〔第 9 題〕 {{blank}}",
           "promptZh": "言語永遠無法展現",
           "options": [
-            "show",
             "say",
+            "show",
             "tell"
           ],
           "answer": "show"
@@ -1873,9 +1873,9 @@
           "prompt": "The you {{blank}} 〔第 12 題〕 to 〔第 13 題〕",
           "promptZh": "我所熟悉的那個你",
           "options": [
-            "I've",
+            "I'd",
             "I'm",
-            "I'd"
+            "I've"
           ],
           "answer": "I've"
         },
@@ -1885,8 +1885,8 @@
           "prompt": "The you 〔第 11 題〕 {{blank}} to 〔第 13 題〕",
           "promptZh": "我所熟悉的那個你",
           "options": [
-            "learned",
             "come",
+            "learned",
             "grown"
           ],
           "answer": "come"
@@ -1898,8 +1898,8 @@
           "promptZh": "我所熟悉的那個你",
           "options": [
             "see",
-            "find",
-            "know"
+            "know",
+            "find"
           ],
           "answer": "know"
         },
@@ -1909,9 +1909,9 @@
           "prompt": "If a {{blank}} could 〔第 15 題〕 a thousand 〔第 16 題〕",
           "promptZh": "若一張容顏能引動千帆出征",
           "options": [
-            "face",
+            "look",
             "smile",
-            "look"
+            "face"
           ],
           "answer": "face"
         },
@@ -1934,8 +1934,8 @@
           "promptZh": "若一張容顏能引動千帆出征",
           "options": [
             "boats",
-            "ships",
-            "sails"
+            "sails",
+            "ships"
           ],
           "answer": "ships"
         },
@@ -1946,8 +1946,8 @@
           "promptZh": "那我該何去何從？",
           "options": [
             "be",
-            "stay",
-            "go"
+            "go",
+            "stay"
           ],
           "answer": "go"
         },
@@ -1969,9 +1969,9 @@
           "prompt": "〔第 18 題〕 no one {{blank}} 〔第 20 題〕",
           "promptZh": "這裡除了你別無他人",
           "options": [
-            "home",
+            "left",
             "here",
-            "left"
+            "home"
           ],
           "answer": "home"
         },
@@ -1993,8 +1993,8 @@
           "prompt": "You're {{blank}} that's 〔第 22 題〕 〔第 23 題〕",
           "promptZh": "你也是我僅存的一切",
           "options": [
-            "all",
             "everything",
+            "all",
             "just"
           ],
           "answer": "all"
@@ -2005,9 +2005,9 @@
           "prompt": "You're 〔第 21 題〕 that's {{blank}} 〔第 23 題〕",
           "promptZh": "你也是我僅存的一切",
           "options": [
-            "left",
+            "given",
             "kept",
-            "given"
+            "left"
           ],
           "answer": "left"
         },
@@ -2017,9 +2017,9 @@
           "prompt": "You're 〔第 21 題〕 that's 〔第 22 題〕 {{blank}}",
           "promptZh": "你也是我僅存的一切",
           "options": [
-            "to me",
+            "me too",
             "for me",
-            "me too"
+            "to me"
           ],
           "answer": "me too"
         },
@@ -2041,9 +2041,9 @@
           "prompt": "And 〔第 24 題〕 for {{blank}} is 〔第 26 題〕 dry",
           "promptZh": "當我對生命的熱愛逐漸乾涸",
           "options": [
-            "life",
+            "living",
             "you",
-            "living"
+            "life"
           ],
           "answer": "life"
         },
@@ -2065,8 +2065,8 @@
           "prompt": "You {{blank}} and 〔第 28 題〕 〔第 29 題〕",
           "promptZh": "你便來到我身旁，將自己傾注於我",
           "options": [
-            "come",
             "go",
+            "come",
             "run"
           ],
           "answer": "come"
@@ -2078,8 +2078,8 @@
           "promptZh": "你便來到我身旁，將自己傾注於我",
           "options": [
             "give",
-            "pour",
-            "bring"
+            "bring",
+            "pour"
           ],
           "answer": "pour"
         },
@@ -2114,8 +2114,8 @@
           "promptZh": "若一個人能同時分身兩處",
           "options": [
             "stay",
-            "be",
-            "live"
+            "live",
+            "be"
           ],
           "answer": "be"
         },
@@ -2125,8 +2125,8 @@
           "prompt": "If a 〔第 30 題〕 could 〔第 31 題〕 two {{blank}} 〔第 33 題〕 〔第 34 題〕",
           "promptZh": "若一個人能同時分身兩處",
           "options": [
-            "places",
             "worlds",
+            "places",
             "lives"
           ],
           "answer": "places"
@@ -2137,8 +2137,8 @@
           "prompt": "If a 〔第 30 題〕 could 〔第 31 題〕 two 〔第 32 題〕 {{blank}} 〔第 34 題〕",
           "promptZh": "若一個人能同時分身兩處",
           "options": [
-            "at one",
             "in one",
+            "at one",
             "at the same"
           ],
           "answer": "at one"
@@ -2149,8 +2149,8 @@
           "prompt": "If a 〔第 30 題〕 could 〔第 31 題〕 two 〔第 32 題〕 〔第 33 題〕 {{blank}}",
           "promptZh": "若一個人能同時分身兩處",
           "options": [
-            "moment",
             "time",
+            "moment",
             "point"
           ],
           "answer": "time"
@@ -2161,9 +2161,9 @@
           "prompt": "I'd {{blank}}",
           "promptZh": "我願與你同在",
           "options": [
-            "be with you",
+            "live with you",
             "stay with you",
-            "live with you"
+            "be with you"
           ],
           "answer": "be with you"
         },
@@ -2173,9 +2173,9 @@
           "prompt": "{{blank}} 〔第 37 題〕",
           "promptZh": "無論明日或今朝",
           "options": [
-            "Tomorrow",
+            "Forever",
             "Yesterday",
-            "Forever"
+            "Tomorrow"
           ],
           "answer": "Tomorrow"
         },
@@ -2185,9 +2185,9 @@
           "prompt": "〔第 36 題〕 {{blank}}",
           "promptZh": "無論明日或今朝",
           "options": [
-            "and always",
+            "and today",
             "or today",
-            "and today"
+            "and always"
           ],
           "answer": "and today"
         },
@@ -2197,8 +2197,8 @@
           "prompt": "Beside you {{blank}} 〔第 39 題〕",
           "promptZh": "一路伴你同行",
           "options": [
-            "all the",
             "every",
+            "all the",
             "every single"
           ],
           "answer": "all the"
@@ -2209,8 +2209,8 @@
           "prompt": "Beside you 〔第 38 題〕 {{blank}}",
           "promptZh": "一路伴你同行",
           "options": [
-            "time",
             "way",
+            "time",
             "day"
           ],
           "answer": "way"
@@ -2221,8 +2221,8 @@
           "prompt": "If the world {{blank}} 〔第 41 題〕",
           "promptZh": "若世界即將停止轉動",
           "options": [
-            "should stop",
             "would stop",
+            "should stop",
             "might stop"
           ],
           "answer": "should stop"
@@ -2258,8 +2258,8 @@
           "promptZh": "緩緩旋轉直至消亡",
           "options": [
             "quickly",
-            "slowly",
-            "softly"
+            "softly",
+            "slowly"
           ],
           "answer": "slowly"
         },
@@ -2269,8 +2269,8 @@
           "prompt": "I'd {{blank}} 〔第 45 題〕 with you",
           "promptZh": "我願與你共度終局",
           "options": [
-            "spend",
             "take",
+            "spend",
             "give"
           ],
           "answer": "spend"
@@ -2294,8 +2294,8 @@
           "promptZh": "而當世界走到盡頭",
           "options": [
             "gone",
-            "done",
-            "through"
+            "through",
+            "done"
           ],
           "answer": "through"
         },
@@ -2305,9 +2305,9 @@
           "prompt": "Then one by one the {{blank}} would all 〔第 48 題〕",
           "promptZh": "屆時星辰將逐一熄滅",
           "options": [
-            "stars",
+            "skies",
             "lights",
-            "skies"
+            "stars"
           ],
           "answer": "stars"
         },
@@ -2341,9 +2341,9 @@
           "prompt": "Then you and I would 〔第 49 題〕 fly {{blank}}",
           "promptZh": "然後你我便會就此飛向遠方",
           "options": [
-            "away",
+            "free",
             "high",
-            "free"
+            "away"
           ],
           "answer": "away"
         }

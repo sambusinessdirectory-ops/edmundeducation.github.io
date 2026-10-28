@@ -491,8 +491,8 @@
           "prompt": "We made these {{blank}} for ourselves",
           "promptZh": "我們為自己創造了這些回憶",
           "options": [
-            "moments",
             "memories",
+            "moments",
             "stories"
           ],
           "answer": "memories"
@@ -503,9 +503,9 @@
           "prompt": "Where our eyes are {{blank}}",
           "promptZh": "在那裡，我們的雙眼永不閉上",
           "options": [
-            "never closing",
+            "always closing",
             "never open",
-            "always closing"
+            "never closing"
           ],
           "answer": "never closing"
         },
@@ -516,8 +516,8 @@
           "promptZh": "心永不破碎",
           "options": [
             "never open",
-            "always broken",
-            "never broken"
+            "never broken",
+            "always broken"
           ],
           "answer": "never broken"
         },
@@ -599,9 +599,9 @@
           "prompt": "Wait for me to {{blank}}",
           "promptZh": "等我回家",
           "options": [
-            "come home",
+            "come back",
             "go home",
-            "come back"
+            "come home"
           ],
           "answer": "come home"
         },
@@ -611,9 +611,9 @@
           "prompt": "Loving can {{blank}}",
           "promptZh": "愛能修補你的靈魂",
           "options": [
-            "heal your soul",
+            "mend your soul",
             "mend your heart",
-            "mend your soul"
+            "heal your soul"
           ],
           "answer": "mend your soul"
         },
@@ -635,8 +635,8 @@
           "prompt": "That's OK, baby, only {{blank}}",
           "promptZh": "沒關係，寶貝，只有言語會淌血",
           "options": [
-            "words bleed",
             "words hurt",
+            "words bleed",
             "hearts bleed"
           ],
           "answer": "words bleed"
@@ -659,8 +659,8 @@
           "prompt": "Under the {{blank}}",
           "promptZh": "在路燈下",
           "options": [
-            "lamplight",
             "lamppost",
+            "lamplight",
             "streetlight"
           ],
           "answer": "lamppost"
@@ -974,8 +974,8 @@
           "promptZh": "這是唯一讓我們感覺活著的事",
           "options": [
             "feel okay",
-            "be alive",
-            "feel alive"
+            "feel alive",
+            "be alive"
           ],
           "answer": "feel alive"
         },
@@ -985,8 +985,8 @@
           "prompt": "We keep this love in a {{blank}}",
           "promptZh": "我們將這份愛留存在相片裡",
           "options": [
-            "picture",
             "photograph",
+            "picture",
             "memory"
           ],
           "answer": "photograph"
@@ -997,9 +997,9 @@
           "prompt": "We made these {{blank}} 〔第 9 題〕",
           "promptZh": "我們為自己創造了這些回憶",
           "options": [
-            "memories",
+            "stories",
             "moments",
-            "stories"
+            "memories"
           ],
           "answer": "memories"
         },
@@ -1021,8 +1021,8 @@
           "prompt": "Where our eyes are {{blank}}",
           "promptZh": "在那裡，我們的雙眼永不閉上",
           "options": [
-            "never open",
             "never closing",
+            "never open",
             "always closing"
           ],
           "answer": "never closing"
@@ -1033,8 +1033,8 @@
           "prompt": "Hearts are {{blank}}",
           "promptZh": "心永不破碎",
           "options": [
-            "never broken",
             "never open",
+            "never broken",
             "always broken"
           ],
           "answer": "never broken"
@@ -1046,8 +1046,8 @@
           "promptZh": "時光永遠凝結靜止",
           "options": [
             "for now",
-            "forever",
-            "together"
+            "together",
+            "forever"
           ],
           "answer": "forever"
         },
@@ -1057,9 +1057,9 @@
           "prompt": "Times 〔第 12 題〕 {{blank}}",
           "promptZh": "時光永遠凝結靜止",
           "options": [
-            "frozen time",
+            "frozen still",
             "standing still",
-            "frozen still"
+            "frozen time"
           ],
           "answer": "frozen still"
         },
@@ -1069,8 +1069,8 @@
           "prompt": "{{blank}} the 〔第 15 題〕",
           "promptZh": "放在口袋裡",
           "options": [
-            "Inside",
             "Within",
+            "Inside",
             "Beside"
           ],
           "answer": "Inside"
@@ -1165,8 +1165,8 @@
           "prompt": "Wait for me to {{blank}}",
           "promptZh": "等我回家",
           "options": [
-            "go home",
             "come home",
+            "go home",
             "come back"
           ],
           "answer": "come home"
@@ -1177,8 +1177,8 @@
           "prompt": "Loving can {{blank}}",
           "promptZh": "愛能治癒",
           "options": [
-            "heal",
             "mend",
+            "heal",
             "feel"
           ],
           "answer": "heal"
@@ -1190,8 +1190,8 @@
           "promptZh": "愛能修補你的靈魂",
           "options": [
             "heal your soul",
-            "mend your heart",
-            "mend your soul"
+            "mend your soul",
+            "mend your heart"
           ],
           "answer": "mend your soul"
         },
@@ -1201,8 +1201,8 @@
           "prompt": "I swear it will {{blank}}",
           "promptZh": "我發誓它會變得更容易",
           "options": [
-            "get better",
             "get easier",
+            "get better",
             "feel easier"
           ],
           "answer": "get easier"
@@ -1213,9 +1213,9 @@
           "prompt": "Remember that with every {{blank}}",
           "promptZh": "記住，用你的每一片碎片",
           "options": [
-            "piece of ya",
+            "peace of mind",
             "part of you",
-            "peace of mind"
+            "piece of ya"
           ],
           "answer": "piece of ya"
         },
@@ -1225,9 +1225,9 @@
           "prompt": "And it's the only thing we {{blank}} when we die",
           "promptZh": "這是我們死去時唯一能帶走的東西",
           "options": [
-            "take from us",
+            "take with us",
             "bring with us",
-            "take with us"
+            "take from us"
           ],
           "answer": "take with us"
         },
@@ -1238,8 +1238,8 @@
           "promptZh": "沒關係，寶貝，只有言語會淌血",
           "options": [
             "words hurt",
-            "words bleed",
-            "hearts bleed"
+            "hearts bleed",
+            "words bleed"
           ],
           "answer": "words bleed"
         },
@@ -1249,8 +1249,8 @@
           "prompt": "Inside these {{blank}} you just hold me",
           "promptZh": "在這些書頁裡，你只需擁抱我",
           "options": [
-            "pages",
             "photos",
+            "pages",
             "lines"
           ],
           "answer": "pages"
@@ -1262,8 +1262,8 @@
           "promptZh": "而我永遠不會讓你走",
           "options": [
             "let you down",
-            "let you go",
-            "let it go"
+            "let it go",
+            "let you go"
           ],
           "answer": "let you go"
         },
@@ -1273,9 +1273,9 @@
           "prompt": "Next to your {{blank}}",
           "promptZh": "緊貼你的心跳",
           "options": [
-            "heartbreak",
+            "heartbeat",
             "heartache",
-            "heartbeat"
+            "heartbreak"
           ],
           "answer": "heartbeat"
         },
@@ -1285,8 +1285,8 @@
           "prompt": "Under the {{blank}}",
           "promptZh": "在路燈下",
           "options": [
-            "lamppost",
             "lamplight",
+            "lamppost",
             "streetlight"
           ],
           "answer": "lamppost"
@@ -1539,9 +1539,9 @@
           "prompt": "Loving can {{blank}}",
           "promptZh": "愛會傷人",
           "options": [
-            "heal",
+            "hurt",
             "hold",
-            "hurt"
+            "heal"
           ],
           "answer": "hurt"
         },
@@ -1575,8 +1575,8 @@
           "prompt": "When it {{blank}}",
           "promptZh": "當一切變得艱難",
           "options": [
-            "gets hard",
             "gets cold",
+            "gets hard",
             "feels hard"
           ],
           "answer": "gets hard"
@@ -1587,9 +1587,9 @@
           "prompt": "{{blank}} get hard sometimes",
           "promptZh": "你知道有時會變得艱難",
           "options": [
-            "You know it will",
+            "You know it can",
             "You know it could",
-            "You know it can"
+            "You know it will"
           ],
           "answer": "You know it can"
         },
@@ -1599,8 +1599,8 @@
           "prompt": "It is the only thing that {{blank}} 〔第 7 題〕",
           "promptZh": "這是唯一讓我們感覺活著的事",
           "options": [
-            "makes us",
             "lets us",
+            "makes us",
             "helps us"
           ],
           "answer": "makes us"
@@ -1624,8 +1624,8 @@
           "promptZh": "我們將這份愛留存在相片裡",
           "options": [
             "picture",
-            "photograph",
-            "memory"
+            "memory",
+            "photograph"
           ],
           "answer": "photograph"
         },
@@ -1659,8 +1659,8 @@
           "prompt": "Where our eyes are {{blank}}",
           "promptZh": "在那裡，我們的雙眼永不閉上",
           "options": [
-            "never closing",
             "never open",
+            "never closing",
             "always closing"
           ],
           "answer": "never closing"
@@ -1732,8 +1732,8 @@
           "promptZh": "放在口袋裡",
           "options": [
             "wallet",
-            "jacket",
-            "pocket"
+            "pocket",
+            "jacket"
           ],
           "answer": "pocket"
         },
@@ -1791,8 +1791,8 @@
           "prompt": "{{blank}} be 〔第 23 題〕",
           "promptZh": "你永遠不會孤單",
           "options": [
-            "You will never",
             "You won't ever",
+            "You will never",
             "You don't ever"
           ],
           "answer": "You won't ever"
@@ -1804,8 +1804,8 @@
           "promptZh": "你永遠不會孤單",
           "options": [
             "lonely",
-            "away",
-            "alone"
+            "alone",
+            "away"
           ],
           "answer": "alone"
         },
@@ -1815,8 +1815,8 @@
           "prompt": "Wait for me to {{blank}}",
           "promptZh": "等我回家",
           "options": [
-            "go home",
             "come home",
+            "go home",
             "come back"
           ],
           "answer": "come home"
@@ -1828,8 +1828,8 @@
           "promptZh": "愛能治癒",
           "options": [
             "mend",
-            "heal",
-            "feel"
+            "feel",
+            "heal"
           ],
           "answer": "heal"
         },
@@ -1839,9 +1839,9 @@
           "prompt": "Loving can {{blank}}",
           "promptZh": "愛能修補你的靈魂",
           "options": [
-            "mend your soul",
+            "mend your heart",
             "heal your soul",
-            "mend your heart"
+            "mend your soul"
           ],
           "answer": "mend your soul"
         },
@@ -1851,8 +1851,8 @@
           "prompt": "{{blank}} it will 〔第 28 題〕",
           "promptZh": "我發誓它會變得更容易",
           "options": [
-            "I swear",
             "I promise",
+            "I swear",
             "I know"
           ],
           "answer": "I swear"
@@ -1863,9 +1863,9 @@
           "prompt": "〔第 27 題〕 it will {{blank}}",
           "promptZh": "我發誓它會變得更容易",
           "options": [
-            "get better",
+            "get easier",
             "feel easier",
-            "get easier"
+            "get better"
           ],
           "answer": "get easier"
         },
@@ -1899,8 +1899,8 @@
           "prompt": "{{blank}}",
           "promptZh": "而如果你傷害我",
           "options": [
-            "And if you hurt me",
             "And if you heal me",
+            "And if you hurt me",
             "And if you hold me"
           ],
           "answer": "And if you hurt me"
@@ -1912,8 +1912,8 @@
           "promptZh": "沒關係，寶貝，只有言語會淌血",
           "options": [
             "words hurt",
-            "hearts bleed",
-            "words bleed"
+            "words bleed",
+            "hearts bleed"
           ],
           "answer": "words bleed"
         },
@@ -1923,9 +1923,9 @@
           "prompt": "Inside these {{blank}} you just hold me",
           "promptZh": "在這些書頁裡，你只需擁抱我",
           "options": [
-            "pages",
+            "lines",
             "photos",
-            "lines"
+            "pages"
           ],
           "answer": "pages"
         },
@@ -1935,9 +1935,9 @@
           "prompt": "And I won't ever {{blank}}",
           "promptZh": "而我永遠不會讓你走",
           "options": [
-            "let you down",
+            "let you go",
             "let it go",
-            "let you go"
+            "let you down"
           ],
           "answer": "let you go"
         },
@@ -1971,8 +1971,8 @@
           "prompt": "Next to your {{blank}}",
           "promptZh": "緊貼你的心跳",
           "options": [
-            "heartbreak",
             "heartbeat",
+            "heartbreak",
             "heartache"
           ],
           "answer": "heartbeat"
@@ -1984,8 +1984,8 @@
           "promptZh": "將它深藏在你的靈魂裡",
           "options": [
             "deep inside",
-            "deep within",
-            "far within"
+            "far within",
+            "deep within"
           ],
           "answer": "deep within"
         },
@@ -1995,8 +1995,8 @@
           "prompt": "{{blank}} how you kissed me",
           "promptZh": "我會記得你如何吻我",
           "options": [
-            "I will remember",
             "I still remember",
+            "I will remember",
             "I won't remember"
           ],
           "answer": "I will remember"
@@ -2007,8 +2007,8 @@
           "prompt": "Under the {{blank}}",
           "promptZh": "在路燈下",
           "options": [
-            "lamplight",
             "lamppost",
+            "lamplight",
             "streetlight"
           ],
           "answer": "lamppost"
@@ -2286,8 +2286,8 @@
           "promptZh": "但這是我唯一知道的事",
           "options": [
             "only way",
-            "one thing",
-            "only thing"
+            "only thing",
+            "one thing"
           ],
           "answer": "only thing"
         },
@@ -2297,9 +2297,9 @@
           "prompt": "But it's the 〔第 3 題〕 {{blank}}",
           "promptZh": "但這是我唯一知道的事",
           "options": [
-            "that I know",
+            "that I knew",
             "what I know",
-            "that I knew"
+            "that I know"
           ],
           "answer": "that I know"
         },
@@ -2309,9 +2309,9 @@
           "prompt": "When it {{blank}}",
           "promptZh": "當一切變得艱難",
           "options": [
-            "gets cold",
+            "gets hard",
             "feels hard",
-            "gets hard"
+            "gets cold"
           ],
           "answer": "gets hard"
         },
@@ -2333,9 +2333,9 @@
           "prompt": "〔第 6 題〕 {{blank}} sometimes",
           "promptZh": "你知道有時會變得艱難",
           "options": [
-            "get hard",
+            "feel hard",
             "get cold",
-            "feel hard"
+            "get hard"
           ],
           "answer": "get hard"
         },
@@ -2345,9 +2345,9 @@
           "prompt": "It is the only thing that {{blank}} 〔第 9 題〕",
           "promptZh": "這是唯一讓我們感覺活著的事",
           "options": [
-            "lets us",
+            "makes us",
             "helps us",
-            "makes us"
+            "lets us"
           ],
           "answer": "makes us"
         },
@@ -2358,8 +2358,8 @@
           "promptZh": "這是唯一讓我們感覺活著的事",
           "options": [
             "feel okay",
-            "feel alive",
-            "be alive"
+            "be alive",
+            "feel alive"
           ],
           "answer": "feel alive"
         },
@@ -2369,8 +2369,8 @@
           "prompt": "{{blank}} in a 〔第 11 題〕",
           "promptZh": "我們將這份愛留存在相片裡",
           "options": [
-            "We keep this love",
             "We hold this love",
+            "We keep this love",
             "We make this love"
           ],
           "answer": "We keep this love"
@@ -2381,9 +2381,9 @@
           "prompt": "〔第 10 題〕 in a {{blank}}",
           "promptZh": "我們將這份愛留存在相片裡",
           "options": [
-            "picture",
+            "photograph",
             "memory",
-            "photograph"
+            "picture"
           ],
           "answer": "photograph"
         },
@@ -2394,8 +2394,8 @@
           "promptZh": "我們為自己創造了這些回憶",
           "options": [
             "moments",
-            "memories",
-            "stories"
+            "stories",
+            "memories"
           ],
           "answer": "memories"
         },
@@ -2405,8 +2405,8 @@
           "prompt": "We made these 〔第 12 題〕 {{blank}}",
           "promptZh": "我們為自己創造了這些回憶",
           "options": [
-            "for ourselves",
             "by ourselves",
+            "for ourselves",
             "to ourselves"
           ],
           "answer": "for ourselves"
@@ -2417,8 +2417,8 @@
           "prompt": "Where our eyes are {{blank}}",
           "promptZh": "在那裡，我們的雙眼永不閉上",
           "options": [
-            "never open",
             "never closing",
+            "never open",
             "always closing"
           ],
           "answer": "never closing"
@@ -2430,8 +2430,8 @@
           "promptZh": "心永不破碎",
           "options": [
             "never open",
-            "always broken",
-            "never broken"
+            "never broken",
+            "always broken"
           ],
           "answer": "never broken"
         },
@@ -2465,8 +2465,8 @@
           "prompt": "{{blank}}",
           "promptZh": "所以你可以將我",
           "options": [
-            "So you can hold me",
             "So you can keep me",
+            "So you can hold me",
             "So I can keep you"
           ],
           "answer": "So you can keep me"
@@ -2477,8 +2477,8 @@
           "prompt": "{{blank}} the 〔第 20 題〕",
           "promptZh": "放在口袋裡",
           "options": [
-            "Inside",
             "Within",
+            "Inside",
             "Beside"
           ],
           "answer": "Inside"
@@ -2538,8 +2538,8 @@
           "promptZh": "直到我們目光相遇",
           "options": [
             "eyes close",
-            "eyes meet",
-            "hearts meet"
+            "hearts meet",
+            "eyes meet"
           ],
           "answer": "eyes meet"
         },
@@ -2549,8 +2549,8 @@
           "prompt": "{{blank}} be 〔第 26 題〕",
           "promptZh": "你永遠不會孤單",
           "options": [
-            "You won't ever",
             "You will never",
+            "You won't ever",
             "You don't ever"
           ],
           "answer": "You won't ever"
@@ -2561,9 +2561,9 @@
           "prompt": "〔第 25 題〕 be {{blank}}",
           "promptZh": "你永遠不會孤單",
           "options": [
-            "lonely",
+            "alone",
             "away",
-            "alone"
+            "lonely"
           ],
           "answer": "alone"
         },
@@ -2573,8 +2573,8 @@
           "prompt": "Wait for me to {{blank}}",
           "promptZh": "等我回家",
           "options": [
-            "go home",
             "come home",
+            "go home",
             "come back"
           ],
           "answer": "come home"
@@ -2585,8 +2585,8 @@
           "prompt": "Loving can {{blank}}",
           "promptZh": "愛能治癒",
           "options": [
-            "heal",
             "mend",
+            "heal",
             "feel"
           ],
           "answer": "heal"
@@ -2609,8 +2609,8 @@
           "prompt": "{{blank}} it will 〔第 31 題〕",
           "promptZh": "我發誓它會變得更容易",
           "options": [
-            "I promise",
             "I swear",
+            "I promise",
             "I know"
           ],
           "answer": "I swear"
@@ -2621,9 +2621,9 @@
           "prompt": "〔第 30 題〕 it will {{blank}}",
           "promptZh": "我發誓它會變得更容易",
           "options": [
-            "get easier",
+            "feel easier",
             "get better",
-            "feel easier"
+            "get easier"
           ],
           "answer": "get easier"
         },
@@ -2634,8 +2634,8 @@
           "promptZh": "記住，用你的每一片碎片",
           "options": [
             "Remember this",
-            "Forget that",
-            "Remember that"
+            "Remember that",
+            "Forget that"
           ],
           "answer": "Remember that"
         },
@@ -2645,8 +2645,8 @@
           "prompt": "〔第 32 題〕 with every {{blank}}",
           "promptZh": "記住，用你的每一片碎片",
           "options": [
-            "part of you",
             "piece of ya",
+            "part of you",
             "peace of mind"
           ],
           "answer": "piece of ya"
@@ -2657,9 +2657,9 @@
           "prompt": "And it's the only thing we {{blank}} 〔第 35 題〕",
           "promptZh": "這是我們死去時唯一能帶走的東西",
           "options": [
-            "take with us",
+            "bring with us",
             "take from us",
-            "bring with us"
+            "take with us"
           ],
           "answer": "take with us"
         },
@@ -2670,8 +2670,8 @@
           "promptZh": "這是我們死去時唯一能帶走的東西",
           "options": [
             "when we leave",
-            "when we go",
-            "when we die"
+            "when we die",
+            "when we go"
           ],
           "answer": "when we die"
         },
@@ -2682,8 +2682,8 @@
           "promptZh": "心從未破碎",
           "options": [
             "Hearts are never broken",
-            "Hearts were never broken",
-            "Hearts were never open"
+            "Hearts were never open",
+            "Hearts were never broken"
           ],
           "answer": "Hearts were never broken"
         },
@@ -2693,8 +2693,8 @@
           "prompt": "{{blank}}",
           "promptZh": "而如果你傷害我",
           "options": [
-            "And if you hurt me",
             "And if you heal me",
+            "And if you hurt me",
             "And if you hold me"
           ],
           "answer": "And if you hurt me"
@@ -2705,9 +2705,9 @@
           "prompt": "That's OK, baby, only {{blank}}",
           "promptZh": "沒關係，寶貝，只有言語會淌血",
           "options": [
-            "words hurt",
+            "words bleed",
             "hearts bleed",
-            "words bleed"
+            "words hurt"
           ],
           "answer": "words bleed"
         },
@@ -2718,8 +2718,8 @@
           "promptZh": "在這些書頁裡，你只需擁抱我",
           "options": [
             "photos",
-            "pages",
-            "lines"
+            "lines",
+            "pages"
           ],
           "answer": "pages"
         },
@@ -2742,8 +2742,8 @@
           "promptZh": "而我永遠不會讓你走",
           "options": [
             "let you down",
-            "let it go",
-            "let you go"
+            "let you go",
+            "let it go"
           ],
           "answer": "let you go"
         },
@@ -2753,8 +2753,8 @@
           "prompt": "{{blank}}",
           "promptZh": "噢，你可以將我",
           "options": [
-            "Oh you can hold me",
             "Oh you can fit me",
+            "Oh you can hold me",
             "Oh you can keep me"
           ],
           "answer": "Oh you can fit me"
@@ -2765,8 +2765,8 @@
           "prompt": "Inside the necklace you got {{blank}}",
           "promptZh": "放進你十六歲時得到的項鍊裡",
           "options": [
-            "when you were sixteen",
             "when you were six",
+            "when you were sixteen",
             "when you turned sixteen"
           ],
           "answer": "when you were sixteen"
@@ -2801,9 +2801,9 @@
           "prompt": "Keep it {{blank}} your soul",
           "promptZh": "將它深藏在你的靈魂裡",
           "options": [
-            "deep within",
+            "far within",
             "deep inside",
-            "far within"
+            "deep within"
           ],
           "answer": "deep within"
         },
@@ -2813,9 +2813,9 @@
           "prompt": "{{blank}} 〔第 48 題〕",
           "promptZh": "我會記得你如何吻我",
           "options": [
-            "I still remember",
+            "I will remember",
             "I won't remember",
-            "I will remember"
+            "I still remember"
           ],
           "answer": "I will remember"
         },
@@ -2850,8 +2850,8 @@
           "promptZh": "聽見你透過電話輕聲說",
           "options": [
             "Hearing you whisper on the phone",
-            "Hearing you whisper through the phone",
-            "Hearing your whisper through the phone"
+            "Hearing your whisper through the phone",
+            "Hearing you whisper through the phone"
           ],
           "answer": "Hearing you whisper through the phone"
         }

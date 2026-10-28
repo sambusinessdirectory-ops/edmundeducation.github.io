@@ -12,10 +12,10 @@ let progress={};
 const source=fs.readFileSync(root+'/song-appreciation.js','utf8').replace('  window.EdmundSongAppreciation = Object.freeze({','  window.songQA={state,enterAdmin,syncLyricsToPlayback,renderVocabulary,renderAttempts,renderLibrary,renderExerciseQuestions,get answerAudio(){return answerAudio;}};\n  window.EdmundSongAppreciation = Object.freeze({');
 (async()=>{const browser=await chromium.launch({headless:true});const context=await browser.newContext({viewport:{width:1280,height:950},serviceWorkers:'block'});const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
 await context.addInitScript(({session})=>{sessionStorage.setItem('edmund-song-appreciation-session-v1',JSON.stringify(session));window.supabase={createClient:()=>({rpc:async(name,args)=>{const r=await fetch('/mock-rpc/'+name,{method:'POST',body:JSON.stringify(args)});return {data:await r.json(),error:null};}})};},{session});
-await page.route('**/*',async r=>{const u=new URL(r.request().url());if(u.hostname==='edmundeducation.com'&&u.pathname.startsWith('/song-media/')){const bytes=fs.readFileSync(root+u.pathname),range=r.request().headers()['range'];if(range){const parts=/bytes=(\d+)-(\d*)/.exec(range),start=Number(parts[1]),end=parts[2]?Number(parts[2]):bytes.length-1;return r.fulfill({status:206,headers:{'content-type':'audio/mpeg','accept-ranges':'bytes','content-range':`bytes ${start}-${end}/${bytes.length}`},body:bytes.subarray(start,end+1)});}return r.fulfill({body:bytes,contentType:u.pathname.endsWith('.mp3')?'audio/mpeg':'image/webp'});}if(u.host!=='127.0.0.1:8766')return r.abort();if(u.pathname==='/song-appreciation.js')return r.fulfill({contentType:'text/javascript',body:source});if(!u.pathname.startsWith('/mock-rpc/'))return r.continue();const name=u.pathname.split('/').pop(),a=r.request().postDataJSON();let body=[];
+await page.route('**/*',async r=>{const u=new URL(r.request().url());if(u.pathname==='/shared-system-nav.js')return r.fulfill({contentType:'text/javascript',body:''});if(u.hostname==='edmundeducation.com'&&u.pathname.startsWith('/song-media/')){const bytes=fs.readFileSync(root+u.pathname),range=r.request().headers()['range'];if(range){const parts=/bytes=(\d+)-(\d*)/.exec(range),start=Number(parts[1]),end=parts[2]?Number(parts[2]):bytes.length-1;return r.fulfill({status:206,headers:{'content-type':'audio/mpeg','accept-ranges':'bytes','content-range':`bytes ${start}-${end}/${bytes.length}`},body:bytes.subarray(start,end+1)});}return r.fulfill({body:bytes,contentType:u.pathname.endsWith('.mp3')?'audio/mpeg':'image/webp'});}if(u.host!=='127.0.0.1:8766')return r.abort();if(u.pathname==='/song-appreciation.js')return r.fulfill({contentType:'text/javascript',body:source});if(!u.pathname.startsWith('/mock-rpc/'))return r.continue();const name=u.pathname.split('/').pop(),a=r.request().postDataJSON();let body=[];
 if(name==='song_appreciation_student_me')body=[{id:session.id,name:session.name}];
 if(['song_appreciation_student_list_songs','song_appreciation_student_get_song','song_appreciation_admin_list_songs'].includes(name))body=[{...song,exercises:song.exercises.map(m=>({...m,questions:m.questions.map(q=>({...q,answer:name==='song_appreciation_admin_list_songs'?q.answer:undefined}))}))}];
-if(name==='song_appreciation_lesson_extras')body=[{id:song.id,cover_url:song.cover_url,audio_url:song.audio_url,vocabulary:song.vocabulary.map(({answer,explanation,optionExplanations,...q})=>q),vocabulary_progress:progress}];
+if(name==='song_appreciation_lesson_extras')body=[{id:song.id,cover_url:song.cover_url,audio_url:song.audio_url,translations:song.translations,vocabulary:song.vocabulary.map(({answer,explanation,optionExplanations,...q})=>q),vocabulary_progress:progress}];
 if(name==='song_appreciation_admin_save_lesson'){Object.assign(song,{...a.p_details,exercises:a.p_details.modes,cover_url:a.p_details.cover_url});body=song;}
 if(name==='song_appreciation_vocabulary_answer'){const q=song.vocabulary[a.p_number-1];body={selected:a.p_selected,answer:q.answer,explanation:q.explanation,optionExplanations:q.optionExplanations};progress[a.p_number]=body;}
 return r.fulfill({contentType:'application/json',body:JSON.stringify(body)});});
@@ -23,7 +23,7 @@ await page.goto('http://127.0.0.1:8766/song-appreciation.html');await page.waitF
 await page.locator('.song-card > button').last().click();await page.locator('[data-song-tab="translation"]').click();await page.waitForFunction(()=>window.songQA.state.playerReady);assert.ok(await page.evaluate(()=>window.songQA.state.player.getDuration()>190));
 await page.locator('[data-player-controls] [data-player-toggle]').click();await page.waitForFunction(()=>!document.querySelector('audio').paused);
 await page.evaluate(lessonTime=>{window.songQA.state.player.pauseVideo();window.songQA.state.player.seekTo(lessonTime);},lesson==='photograph'?44:38);await page.waitForFunction(()=>document.querySelector('tr[data-line-id="line-6"]')?.classList.contains('is-current-line'));
-await page.locator('[data-playback-rate]').first().selectOption('0.75');assert.equal(await page.locator('audio').evaluate(a=>a.playbackRate),.75);
+await page.locator('[data-speed-trigger]').first().click();await page.getByRole('menuitemradio').filter({hasText:'0.75×'}).click();assert.equal(await page.locator('audio').evaluate(a=>a.playbackRate),.75);
 for (const width of [1280,390]) {
  await page.setViewportSize({width,height:950});
  await page.locator('[data-song-tab="exercise"]').click();
@@ -70,7 +70,7 @@ await page.locator('[data-vocabulary] .review-mistakes-button').click();
 assert.equal(await page.locator('.mistake-navigation').count(),1);
 assert.equal(await page.locator('.vocabulary-option.is-review-target').count(),1);
 const firstIndex=await page.evaluate(()=>window.songQA.state.vocabularyIndex);
-await page.locator('.mistake-navigation').getByRole('button',{name:'下一個錯誤 →',exact:true}).click();
+await page.locator('.mistake-navigation').getByRole('button',{name:'下一個錯誤',exact:true}).click();
 assert.ok(await page.evaluate(()=>window.songQA.state.vocabularyIndex)>firstIndex);
 await page.waitForFunction(()=>{const r=document.querySelector('.is-review-target')?.getBoundingClientRect();return r && r.top>130 && r.bottom<innerHeight-120;});
 await page.screenshot({path:'/tmp/song-wrong-navigator.png'});
@@ -92,7 +92,7 @@ await page.locator('.lesson-complete > .primary-button').click();
 await page.locator('[data-open-tags]').click();
 await page.locator('.tag-picker-grid label').filter({hasText:'journey'}).click();
 await page.locator('.tag-picker-grid label').filter({hasText:'memories'}).click();
-await page.getByRole('button',{name:'套用標籤',exact:true}).click();
+await page.getByRole('button',{name:'查看歌曲',exact:true}).click();
 assert.equal(await page.locator('.song-card').count(),2);assert.equal(await page.locator('[data-selected-tags] button').count(),2);
 await page.locator('[data-selected-tags] button').filter({hasText:'memories'}).click();
 assert.equal(await page.locator('.song-card').count(),1);assert.match(await page.locator('.song-card').textContent(),/Open Arms/);

@@ -517,8 +517,8 @@
           "prompt": "Livin' in a {{blank}} world",
           "promptZh": "住在寂寞的世界裡",
           "options": [
-            "lonely",
             "empty",
+            "lonely",
             "crazy"
           ],
           "answer": "lonely"
@@ -529,9 +529,9 @@
           "prompt": "She {{blank}} the 〔第 4 題〕 train goin' anywhere",
           "promptZh": "她搭上午夜列車，開往任何地方",
           "options": [
-            "caught",
+            "took",
             "rode",
-            "took"
+            "caught"
           ],
           "answer": "took"
         },
@@ -541,9 +541,9 @@
           "prompt": "She 〔第 3 題〕 the {{blank}} train goin' anywhere",
           "promptZh": "她搭上午夜列車，開往任何地方",
           "options": [
-            "midnight",
+            "evening",
             "morning",
-            "evening"
+            "midnight"
           ],
           "answer": "midnight"
         },
@@ -553,8 +553,8 @@
           "prompt": "Just a {{blank}} boy",
           "promptZh": "只是個城市男孩",
           "options": [
-            "city",
             "country",
+            "city",
             "small-town"
           ],
           "answer": "city"
@@ -566,8 +566,8 @@
           "promptZh": "在南底特律出生與長大",
           "options": [
             "bred",
-            "raised",
-            "grown"
+            "grown",
+            "raised"
           ],
           "answer": "raised"
         },
@@ -589,8 +589,8 @@
           "prompt": "The smell of wine and {{blank}} perfume",
           "promptZh": "空氣中滿是酒氣與廉價香水味",
           "options": [
-            "cheap",
             "sweet",
+            "cheap",
             "strong"
           ],
           "answer": "cheap"
@@ -625,9 +625,9 @@
           "prompt": "Up and down the {{blank}}",
           "promptZh": "在林蔭大道上來回徘徊",
           "options": [
-            "boulevard",
+            "highway",
             "avenue",
-            "highway"
+            "boulevard"
           ],
           "answer": "boulevard"
         },
@@ -649,9 +649,9 @@
           "prompt": "{{blank}} people",
           "promptZh": "街燈下的人們",
           "options": [
-            "Streetlight",
+            "City light",
             "Midnight",
-            "City light"
+            "Streetlight"
           ],
           "answer": "Streetlight"
         },
@@ -673,9 +673,9 @@
           "prompt": "{{blank}} somewhere in the night",
           "promptZh": "隱藏在黑夜的某個角落",
           "options": [
-            "Searchin'",
+            "Hidin'",
             "Waiting",
-            "Hidin'"
+            "Searchin'"
           ],
           "answer": "Hidin'"
         },
@@ -685,8 +685,8 @@
           "prompt": "Workin' {{blank}} to get my fill",
           "promptZh": "努力工作只為求得滿足",
           "options": [
-            "hard",
             "long",
+            "hard",
             "much"
           ],
           "answer": "hard"
@@ -697,9 +697,9 @@
           "prompt": "Everybody wants a {{blank}}",
           "promptZh": "每個人都渴望刺激",
           "options": [
-            "thrill",
+            "break",
             "chance",
-            "break"
+            "thrill"
           ],
           "answer": "thrill"
         },
@@ -710,8 +710,8 @@
           "promptZh": "不惜代價，只為再擲一次骰子",
           "options": [
             "toss",
-            "throw",
-            "roll"
+            "roll",
+            "throw"
           ],
           "answer": "roll"
         },
@@ -721,9 +721,9 @@
           "prompt": "Some will {{blank}}, some will lose",
           "promptZh": "有人贏，有人輸",
           "options": [
-            "win",
+            "play",
             "lose",
-            "play"
+            "win"
           ],
           "answer": "win"
         },
@@ -907,8 +907,8 @@
           "prompt": "Just a {{blank}} girl",
           "promptZh": "只是個小鎮女孩",
           "options": [
-            "small-town",
             "big-city",
+            "small-town",
             "hometown"
           ],
           "answer": "small-town"
@@ -931,9 +931,9 @@
           "prompt": "〔第 2 題〕 in a {{blank}} world",
           "promptZh": "住在寂寞的世界裡",
           "options": [
-            "crazy",
+            "lonely",
             "empty",
-            "lonely"
+            "crazy"
           ],
           "answer": "lonely"
         },
@@ -943,9 +943,9 @@
           "prompt": "She {{blank}} the 〔第 5 題〕 train goin' anywhere",
           "promptZh": "她搭上午夜列車，開往任何地方",
           "options": [
-            "took",
+            "caught",
             "rode",
-            "caught"
+            "took"
           ],
           "answer": "took"
         },
@@ -955,8 +955,8 @@
           "prompt": "She 〔第 4 題〕 the {{blank}} train goin' anywhere",
           "promptZh": "她搭上午夜列車，開往任何地方",
           "options": [
-            "midnight",
             "morning",
+            "midnight",
             "evening"
           ],
           "answer": "midnight"
@@ -979,9 +979,9 @@
           "prompt": "{{blank}} and 〔第 8 題〕 in South Detroit",
           "promptZh": "在南底特律出生與長大",
           "options": [
-            "Born",
+            "Raised",
             "Bred",
-            "Raised"
+            "Born"
           ],
           "answer": "Born"
         },
@@ -1015,9 +1015,9 @@
           "prompt": "The {{blank}} of wine and 〔第 11 題〕 perfume",
           "promptZh": "空氣中滿是酒氣與廉價香水味",
           "options": [
-            "smell",
+            "scent",
             "taste",
-            "scent"
+            "smell"
           ],
           "answer": "smell"
         },
@@ -1040,8 +1040,8 @@
           "promptZh": "只為了一個能共享此夜的笑容",
           "options": [
             "waste",
-            "spend",
-            "share"
+            "share",
+            "spend"
           ],
           "answer": "share"
         },
@@ -1051,9 +1051,9 @@
           "prompt": "For a smile they can 〔第 12 題〕 the {{blank}}",
           "promptZh": "只為了一個能共享此夜的笑容",
           "options": [
-            "night",
+            "time",
             "day",
-            "time"
+            "night"
           ],
           "answer": "night"
         },
@@ -1087,8 +1087,8 @@
           "prompt": "〔第 15 題〕 {{blank}}",
           "promptZh": "陌生人們等待著",
           "options": [
-            "waiting",
             "standing",
+            "waiting",
             "watching"
           ],
           "answer": "waiting"
@@ -1112,8 +1112,8 @@
           "promptZh": "他們的影子在夜色中尋覓",
           "options": [
             "memories",
-            "footsteps",
-            "shadows"
+            "shadows",
+            "footsteps"
           ],
           "answer": "shadows"
         },
@@ -1123,9 +1123,9 @@
           "prompt": "Their 〔第 18 題〕 {{blank}} in the night",
           "promptZh": "他們的影子在夜色中尋覓",
           "options": [
-            "searching",
+            "finding",
             "looking",
-            "finding"
+            "searching"
           ],
           "answer": "searching"
         },
@@ -1147,8 +1147,8 @@
           "prompt": "{{blank}} just to find 〔第 22 題〕",
           "promptZh": "活著只為尋找一絲真情",
           "options": [
-            "Tryin'",
             "Livin'",
+            "Tryin'",
             "Waitin'"
           ],
           "answer": "Livin'"
@@ -1159,9 +1159,9 @@
           "prompt": "〔第 21 題〕 just to find {{blank}}",
           "promptZh": "活著只為尋找一絲真情",
           "options": [
-            "emotion",
+            "connection",
             "meaning",
-            "connection"
+            "emotion"
           ],
           "answer": "emotion"
         },
@@ -1171,8 +1171,8 @@
           "prompt": "{{blank}} somewhere in the night",
           "promptZh": "隱藏在黑夜的某個角落",
           "options": [
-            "Hidin'",
             "Waiting",
+            "Hidin'",
             "Searchin'"
           ],
           "answer": "Hidin'"
@@ -1183,8 +1183,8 @@
           "prompt": "Workin' {{blank}} to 〔第 25 題〕",
           "promptZh": "努力工作只為求得滿足",
           "options": [
-            "long",
             "hard",
+            "long",
             "much"
           ],
           "answer": "hard"
@@ -1195,8 +1195,8 @@
           "prompt": "Workin' 〔第 24 題〕 to {{blank}}",
           "promptZh": "努力工作只為求得滿足",
           "options": [
-            "get my fill",
             "get my way",
+            "get my fill",
             "get my thrill"
           ],
           "answer": "get my fill"
@@ -1207,9 +1207,9 @@
           "prompt": "{{blank}} wants a 〔第 27 題〕",
           "promptZh": "每個人都渴望刺激",
           "options": [
-            "Everybody",
+            "Nobody",
             "Somebody",
-            "Nobody"
+            "Everybody"
           ],
           "answer": "Everybody"
         },
@@ -1231,8 +1231,8 @@
           "prompt": "Payin' anything to {{blank}} the dice just one more time",
           "promptZh": "不惜代價，只為再擲一次骰子",
           "options": [
-            "roll",
             "throw",
+            "roll",
             "toss"
           ],
           "answer": "roll"
@@ -1279,8 +1279,8 @@
           "prompt": "Oh, the movie {{blank}}",
           "promptZh": "噢，這部電影永不落幕",
           "options": [
-            "never ends",
             "never stops",
+            "never ends",
             "never dies"
           ],
           "answer": "never ends"
@@ -1489,9 +1489,9 @@
           "prompt": "〔第 3 題〕 in a {{blank}} world",
           "promptZh": "住在寂寞的世界裡",
           "options": [
-            "lonely",
+            "crazy",
             "empty",
-            "crazy"
+            "lonely"
           ],
           "answer": "lonely"
         },
@@ -1501,8 +1501,8 @@
           "prompt": "She {{blank}} the 〔第 6 題〕 train 〔第 7 題〕 anywhere",
           "promptZh": "她搭上午夜列車，開往任何地方",
           "options": [
-            "took",
             "rode",
+            "took",
             "caught"
           ],
           "answer": "took"
@@ -1513,9 +1513,9 @@
           "prompt": "She 〔第 5 題〕 the {{blank}} train 〔第 7 題〕 anywhere",
           "promptZh": "她搭上午夜列車，開往任何地方",
           "options": [
-            "evening",
+            "midnight",
             "morning",
-            "midnight"
+            "evening"
           ],
           "answer": "midnight"
         },
@@ -1525,9 +1525,9 @@
           "prompt": "She 〔第 5 題〕 the 〔第 6 題〕 train {{blank}} anywhere",
           "promptZh": "她搭上午夜列車，開往任何地方",
           "options": [
-            "goin'",
+            "movin'",
             "headin'",
-            "movin'"
+            "goin'"
           ],
           "answer": "goin'"
         },
@@ -1537,8 +1537,8 @@
           "prompt": "Just a {{blank}} boy",
           "promptZh": "只是個城市男孩",
           "options": [
-            "city",
             "country",
+            "city",
             "small-town"
           ],
           "answer": "city"
@@ -1550,8 +1550,8 @@
           "promptZh": "在南底特律出生與長大",
           "options": [
             "Bred",
-            "Born",
-            "Raised"
+            "Raised",
+            "Born"
           ],
           "answer": "Born"
         },
@@ -1573,9 +1573,9 @@
           "prompt": "〔第 9 題〕 〔第 10 題〕 {{blank}} in South Detroit",
           "promptZh": "在南底特律出生與長大",
           "options": [
-            "raised",
+            "grown",
             "bred",
-            "grown"
+            "raised"
           ],
           "answer": "raised"
         },
@@ -1586,8 +1586,8 @@
           "promptZh": "煙霧瀰漫房間裡的歌手",
           "options": [
             "empty",
-            "crowded",
-            "smokey"
+            "smokey",
+            "crowded"
           ],
           "answer": "smokey"
         },
@@ -1609,8 +1609,8 @@
           "prompt": "The 〔第 13 題〕 of {{blank}} and 〔第 15 題〕 perfume",
           "promptZh": "空氣中滿是酒氣與廉價香水味",
           "options": [
-            "wine",
             "rain",
+            "wine",
             "lime"
           ],
           "answer": "wine"
@@ -1621,9 +1621,9 @@
           "prompt": "The 〔第 13 題〕 of 〔第 14 題〕 and {{blank}} perfume",
           "promptZh": "空氣中滿是酒氣與廉價香水味",
           "options": [
-            "strong",
+            "cheap",
             "sweet",
-            "cheap"
+            "strong"
           ],
           "answer": "cheap"
         },
@@ -1633,9 +1633,9 @@
           "prompt": "{{blank}} they can 〔第 17 題〕 the 〔第 18 題〕",
           "promptZh": "只為了一個能共享此夜的笑容",
           "options": [
-            "For a smile",
+            "For a night",
             "For a kiss",
-            "For a night"
+            "For a smile"
           ],
           "answer": "For a smile"
         },
@@ -1645,8 +1645,8 @@
           "prompt": "〔第 16 題〕 they can {{blank}} the 〔第 18 題〕",
           "promptZh": "只為了一個能共享此夜的笑容",
           "options": [
-            "share",
             "spend",
+            "share",
             "waste"
           ],
           "answer": "share"
@@ -1657,9 +1657,9 @@
           "prompt": "〔第 16 題〕 they can 〔第 17 題〕 the {{blank}}",
           "promptZh": "只為了一個能共享此夜的笑容",
           "options": [
-            "time",
+            "night",
             "day",
-            "night"
+            "time"
           ],
           "answer": "night"
         },
@@ -1669,9 +1669,9 @@
           "prompt": "It goes {{blank}}, and on, and on",
           "promptZh": "這一切不斷延續，一再上演",
           "options": [
-            "on and on",
+            "on and out",
             "on and over",
-            "on and out"
+            "on and on"
           ],
           "answer": "on and on"
         },
@@ -1681,9 +1681,9 @@
           "prompt": "{{blank}} 〔第 21 題〕",
           "promptZh": "陌生人們等待著",
           "options": [
-            "Strangers",
+            "Lovers",
             "People",
-            "Lovers"
+            "Strangers"
           ],
           "answer": "Strangers"
         },
@@ -1693,8 +1693,8 @@
           "prompt": "〔第 20 題〕 {{blank}}",
           "promptZh": "陌生人們等待著",
           "options": [
-            "standing",
             "waiting",
+            "standing",
             "watching"
           ],
           "answer": "waiting"
@@ -1705,8 +1705,8 @@
           "prompt": "{{blank}} the 〔第 23 題〕",
           "promptZh": "在林蔭大道上來回徘徊",
           "options": [
-            "Up and down",
             "Back and forth",
+            "Up and down",
             "In and out"
           ],
           "answer": "Up and down"
@@ -1730,8 +1730,8 @@
           "promptZh": "他們的影子在夜色中尋覓",
           "options": [
             "memories",
-            "footsteps",
-            "shadows"
+            "shadows",
+            "footsteps"
           ],
           "answer": "shadows"
         },
@@ -1741,9 +1741,9 @@
           "prompt": "Their 〔第 24 題〕 {{blank}} in the night",
           "promptZh": "他們的影子在夜色中尋覓",
           "options": [
-            "searching",
+            "finding",
             "looking",
-            "finding"
+            "searching"
           ],
           "answer": "searching"
         },
@@ -1753,8 +1753,8 @@
           "prompt": "{{blank}} people",
           "promptZh": "街燈下的人們",
           "options": [
-            "Streetlight",
             "Midnight",
+            "Streetlight",
             "City light"
           ],
           "answer": "Streetlight"
@@ -1766,8 +1766,8 @@
           "promptZh": "活著只為尋找一絲真情",
           "options": [
             "Tryin'",
-            "Livin'",
-            "Waitin'"
+            "Waitin'",
+            "Livin'"
           ],
           "answer": "Livin'"
         },
@@ -1789,9 +1789,9 @@
           "prompt": "{{blank}} somewhere in the night",
           "promptZh": "隱藏在黑夜的某個角落",
           "options": [
-            "Hidin'",
+            "Searchin'",
             "Waiting",
-            "Searchin'"
+            "Hidin'"
           ],
           "answer": "Hidin'"
         },
@@ -1801,9 +1801,9 @@
           "prompt": "Workin' {{blank}} to 〔第 31 題〕",
           "promptZh": "努力工作只為求得滿足",
           "options": [
-            "much",
+            "hard",
             "long",
-            "hard"
+            "much"
           ],
           "answer": "hard"
         },
@@ -1813,8 +1813,8 @@
           "prompt": "Workin' 〔第 30 題〕 to {{blank}}",
           "promptZh": "努力工作只為求得滿足",
           "options": [
-            "get my fill",
             "get my way",
+            "get my fill",
             "get my thrill"
           ],
           "answer": "get my fill"
@@ -1825,8 +1825,8 @@
           "prompt": "{{blank}} wants a 〔第 33 題〕",
           "promptZh": "每個人都渴望刺激",
           "options": [
-            "Everybody",
             "Somebody",
+            "Everybody",
             "Nobody"
           ],
           "answer": "Everybody"
@@ -1861,8 +1861,8 @@
           "prompt": "Payin' anything to 〔第 34 題〕 {{blank}} just one more time",
           "promptZh": "不惜代價，只為再擲一次骰子",
           "options": [
-            "the dice",
             "the price",
+            "the dice",
             "the lights"
           ],
           "answer": "the dice"
@@ -1897,8 +1897,8 @@
           "prompt": "Some were 〔第 37 題〕 the {{blank}}",
           "promptZh": "有些人天生註定要唱藍調",
           "options": [
-            "blues",
             "songs",
+            "blues",
             "truth"
           ],
           "answer": "blues"
@@ -1909,8 +1909,8 @@
           "prompt": "Oh, the movie {{blank}}",
           "promptZh": "噢，這部電影永不落幕",
           "options": [
-            "never stops",
             "never ends",
+            "never stops",
             "never dies"
           ],
           "answer": "never ends"
@@ -1921,9 +1921,9 @@
           "prompt": "{{blank}}",
           "promptZh": "別停止相信",
           "options": [
-            "Don't stop believin'",
+            "Don't stop concealin'",
             "Don't start believin'",
-            "Don't stop concealin'"
+            "Don't stop believin'"
           ],
           "answer": "Don't stop believin'"
         }
@@ -2107,8 +2107,8 @@
           "prompt": "〔第 1 題〕 {{blank}} girl",
           "promptZh": "只是個小鎮女孩",
           "options": [
-            "small-town",
             "big-city",
+            "small-town",
             "hometown"
           ],
           "answer": "small-town"
@@ -2119,9 +2119,9 @@
           "prompt": "{{blank}} in a 〔第 4 題〕 world",
           "promptZh": "住在寂寞的世界裡",
           "options": [
-            "Walking",
+            "Livin'",
             "Dying",
-            "Livin'"
+            "Walking"
           ],
           "answer": "Livin'"
         },
@@ -2131,8 +2131,8 @@
           "prompt": "〔第 3 題〕 in a {{blank}} world",
           "promptZh": "住在寂寞的世界裡",
           "options": [
-            "lonely",
             "empty",
+            "lonely",
             "crazy"
           ],
           "answer": "lonely"
@@ -2143,9 +2143,9 @@
           "prompt": "{{blank}} 〔第 6 題〕 the 〔第 7 題〕 train 〔第 8 題〕 anywhere",
           "promptZh": "她搭上午夜列車，開往任何地方",
           "options": [
-            "She",
+            "We",
             "He",
-            "We"
+            "She"
           ],
           "answer": "She"
         },
@@ -2179,9 +2179,9 @@
           "prompt": "〔第 5 題〕 〔第 6 題〕 the 〔第 7 題〕 train {{blank}} anywhere",
           "promptZh": "她搭上午夜列車，開往任何地方",
           "options": [
-            "goin'",
+            "movin'",
             "headin'",
-            "movin'"
+            "goin'"
           ],
           "answer": "goin'"
         },
@@ -2191,8 +2191,8 @@
           "prompt": "Just a {{blank}} boy",
           "promptZh": "只是個城市男孩",
           "options": [
-            "country",
             "city",
+            "country",
             "small-town"
           ],
           "answer": "city"
@@ -2203,9 +2203,9 @@
           "prompt": "{{blank}} 〔第 11 題〕 〔第 12 題〕 in South Detroit",
           "promptZh": "在南底特律出生與長大",
           "options": [
-            "Born",
+            "Raised",
             "Bred",
-            "Raised"
+            "Born"
           ],
           "answer": "Born"
         },
@@ -2215,8 +2215,8 @@
           "prompt": "〔第 10 題〕 {{blank}} 〔第 12 題〕 in South Detroit",
           "promptZh": "在南底特律出生與長大",
           "options": [
-            "and",
             "or",
+            "and",
             "but"
           ],
           "answer": "and"
@@ -2251,8 +2251,8 @@
           "prompt": "〔第 13 題〕 the midnight train {{blank}}",
           "promptZh": "他搭上午夜列車，開往任何地方",
           "options": [
-            "goin' anywhere",
             "goin' somewhere",
+            "goin' anywhere",
             "goin' everywhere"
           ],
           "answer": "goin' anywhere"
@@ -2287,8 +2287,8 @@
           "prompt": "The {{blank}} of 〔第 18 題〕 and 〔第 19 題〕 perfume",
           "promptZh": "空氣中滿是酒氣與廉價香水味",
           "options": [
-            "smell",
             "taste",
+            "smell",
             "scent"
           ],
           "answer": "smell"
@@ -2299,9 +2299,9 @@
           "prompt": "The 〔第 17 題〕 of {{blank}} and 〔第 19 題〕 perfume",
           "promptZh": "空氣中滿是酒氣與廉價香水味",
           "options": [
-            "lime",
+            "wine",
             "rain",
-            "wine"
+            "lime"
           ],
           "answer": "wine"
         },
@@ -2311,9 +2311,9 @@
           "prompt": "The 〔第 17 題〕 of 〔第 18 題〕 and {{blank}} perfume",
           "promptZh": "空氣中滿是酒氣與廉價香水味",
           "options": [
-            "cheap",
+            "strong",
             "sweet",
-            "strong"
+            "cheap"
           ],
           "answer": "cheap"
         },
@@ -2323,8 +2323,8 @@
           "prompt": "{{blank}} 〔第 21 題〕 〔第 22 題〕 the 〔第 23 題〕",
           "promptZh": "只為了一個能共享此夜的笑容",
           "options": [
-            "For a smile",
             "For a kiss",
+            "For a smile",
             "For a night"
           ],
           "answer": "For a smile"
@@ -2347,9 +2347,9 @@
           "prompt": "〔第 20 題〕 〔第 21 題〕 {{blank}} the 〔第 23 題〕",
           "promptZh": "只為了一個能共享此夜的笑容",
           "options": [
-            "share",
+            "waste",
             "spend",
-            "waste"
+            "share"
           ],
           "answer": "share"
         },
@@ -2371,8 +2371,8 @@
           "prompt": "It goes {{blank}}, and on, and on",
           "promptZh": "這一切不斷延續，一再上演",
           "options": [
-            "on and over",
             "on and on",
+            "on and over",
             "on and out"
           ],
           "answer": "on and on"
@@ -2383,9 +2383,9 @@
           "prompt": "{{blank}} 〔第 26 題〕",
           "promptZh": "陌生人們等待著",
           "options": [
-            "Strangers",
+            "Lovers",
             "People",
-            "Lovers"
+            "Strangers"
           ],
           "answer": "Strangers"
         },
@@ -2395,8 +2395,8 @@
           "prompt": "〔第 25 題〕 {{blank}}",
           "promptZh": "陌生人們等待著",
           "options": [
-            "waiting",
             "standing",
+            "waiting",
             "watching"
           ],
           "answer": "waiting"
@@ -2407,8 +2407,8 @@
           "prompt": "{{blank}} the 〔第 28 題〕",
           "promptZh": "在林蔭大道上來回徘徊",
           "options": [
-            "Back and forth",
             "Up and down",
+            "Back and forth",
             "In and out"
           ],
           "answer": "Up and down"
@@ -2419,9 +2419,9 @@
           "prompt": "〔第 27 題〕 the {{blank}}",
           "promptZh": "在林蔭大道上來回徘徊",
           "options": [
-            "boulevard",
+            "highway",
             "avenue",
-            "highway"
+            "boulevard"
           ],
           "answer": "boulevard"
         },
@@ -2431,8 +2431,8 @@
           "prompt": "Their {{blank}} 〔第 30 題〕 in the night",
           "promptZh": "他們的影子在夜色中尋覓",
           "options": [
-            "shadows",
             "footsteps",
+            "shadows",
             "memories"
           ],
           "answer": "shadows"
@@ -2467,9 +2467,9 @@
           "prompt": "{{blank}} 〔第 33 題〕 〔第 34 題〕",
           "promptZh": "活著只為尋找一絲真情",
           "options": [
-            "Livin'",
+            "Waitin'",
             "Tryin'",
-            "Waitin'"
+            "Livin'"
           ],
           "answer": "Livin'"
         },
@@ -2480,8 +2480,8 @@
           "promptZh": "活著只為尋找一絲真情",
           "options": [
             "just to feel",
-            "just to find",
-            "just to hide"
+            "just to hide",
+            "just to find"
           ],
           "answer": "just to find"
         },
@@ -2491,8 +2491,8 @@
           "prompt": "〔第 32 題〕 〔第 33 題〕 {{blank}}",
           "promptZh": "活著只為尋找一絲真情",
           "options": [
-            "emotion",
             "meaning",
+            "emotion",
             "connection"
           ],
           "answer": "emotion"
@@ -2516,8 +2516,8 @@
           "promptZh": "努力工作只為求得滿足",
           "options": [
             "much",
-            "long",
-            "hard"
+            "hard",
+            "long"
           ],
           "answer": "hard"
         },
@@ -2539,9 +2539,9 @@
           "prompt": "{{blank}} wants a 〔第 39 題〕",
           "promptZh": "每個人都渴望刺激",
           "options": [
-            "Everybody",
+            "Nobody",
             "Somebody",
-            "Nobody"
+            "Everybody"
           ],
           "answer": "Everybody"
         },
@@ -2563,8 +2563,8 @@
           "prompt": "{{blank}} to 〔第 41 題〕 〔第 42 題〕 just one more time",
           "promptZh": "不惜代價，只為再擲一次骰子",
           "options": [
-            "Payin' anything",
             "Payin' everything",
+            "Payin' anything",
             "Payin' something"
           ],
           "answer": "Payin' anything"
@@ -2587,9 +2587,9 @@
           "prompt": "〔第 40 題〕 to 〔第 41 題〕 {{blank}} just one more time",
           "promptZh": "不惜代價，只為再擲一次骰子",
           "options": [
-            "the lights",
+            "the dice",
             "the price",
-            "the dice"
+            "the lights"
           ],
           "answer": "the dice"
         },
@@ -2599,8 +2599,8 @@
           "prompt": "Some will {{blank}}, some will lose",
           "promptZh": "有人贏，有人輸",
           "options": [
-            "win",
             "lose",
+            "win",
             "play"
           ],
           "answer": "win"
@@ -2611,9 +2611,9 @@
           "prompt": "{{blank}} 〔第 45 題〕 the 〔第 46 題〕",
           "promptZh": "有些人天生註定要唱藍調",
           "options": [
-            "Some were",
+            "Some will",
             "Some are",
-            "Some will"
+            "Some were"
           ],
           "answer": "Some were"
         },
@@ -2623,9 +2623,9 @@
           "prompt": "〔第 44 題〕 {{blank}} the 〔第 46 題〕",
           "promptZh": "有些人天生註定要唱藍調",
           "options": [
-            "born to play",
+            "born to sing",
             "meant to sing",
-            "born to sing"
+            "born to play"
           ],
           "answer": "born to sing"
         },
@@ -2635,9 +2635,9 @@
           "prompt": "〔第 44 題〕 〔第 45 題〕 the {{blank}}",
           "promptZh": "有些人天生註定要唱藍調",
           "options": [
-            "blues",
+            "truth",
             "songs",
-            "truth"
+            "blues"
           ],
           "answer": "blues"
         },
@@ -2647,8 +2647,8 @@
           "prompt": "{{blank}} 〔第 48 題〕",
           "promptZh": "噢，這部電影永不落幕",
           "options": [
-            "Oh, the movie",
             "Oh, the story",
+            "Oh, the movie",
             "Oh, the picture"
           ],
           "answer": "Oh, the movie"
@@ -2659,8 +2659,8 @@
           "prompt": "〔第 47 題〕 {{blank}}",
           "promptZh": "噢，這部電影永不落幕",
           "options": [
-            "never stops",
             "never ends",
+            "never stops",
             "never dies"
           ],
           "answer": "never ends"
@@ -2671,8 +2671,8 @@
           "prompt": "{{blank}}, and on, and on",
           "promptZh": "這一切不斷延續，一再上演",
           "options": [
-            "It goes on and on",
             "It goes on and over",
+            "It goes on and on",
             "It goes on and out"
           ],
           "answer": "It goes on and on"
@@ -2683,9 +2683,9 @@
           "prompt": "{{blank}}",
           "promptZh": "別停止相信",
           "options": [
-            "Don't stop believin'",
+            "Don't stop concealin'",
             "Don't start believin'",
-            "Don't stop concealin'"
+            "Don't stop believin'"
           ],
           "answer": "Don't stop believin'"
         }

@@ -8,6 +8,7 @@ for(const [name,count] of [['photograph',58],['open-arms',37],['thinking-out-lou
   assert.equal(mode.listeningLines.length,count);
   const positions=mode.questions.map(q=>q.options.indexOf(q.answer));
   positions.forEach((p,i)=>{assert.ok(p>=0);if(i>1)assert.ok(p!==positions[i-1]||p!==positions[i-2],`${name}/${mode.id}: three repeated answer positions at ${i+1}`);});
+  const totals=[0,1,2].map(p=>positions.filter(v=>v===p).length); assert.ok(Math.max(...totals)-Math.min(...totals)<=1,`${name}/${mode.id}: unbalanced answer positions`);
   const seen=[];
   mode.listeningLines.forEach((line,i)=>{
    assert.equal(line.lineId,song.translations[i].lineId);

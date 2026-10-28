@@ -464,3 +464,54 @@ button { color: inherit; }
 .mistake-review{padding:1rem;margin:.8rem 0;border:1px solid #e3cbd5;border-radius:14px;background:#fff}.mistake-review .chosen-wrong{color:#a23546}.mistake-review .correct-choice{color:#23705a}.review-mistakes-button{margin-top:.8rem}
 .mistake-navigation{position:fixed;z-index:1100;bottom:max(16px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);width:max-content;max-width:calc(100vw - 24px);display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:.65rem;padding:.8rem 1rem;background:#fff9fd;border:1px solid #dc8da9;border-radius:18px;box-shadow:0 12px 45px #3b153b40}.mistake-navigation strong{font-size:.95rem;color:#762c51}.is-review-target{outline:4px solid #bd3270!important;outline-offset:4px;box-shadow:0 0 0 9px #f7dce8!important;scroll-margin-block:220px}@media(max-width:600px){.mistake-navigation{width:calc(100vw - 24px);gap:.4rem;padding:.65rem}.mistake-navigation strong{width:100%;text-align:center}.mistake-navigation button{font-size:.8rem;padding:.6rem .7rem}}
 .intro-toolbar{display:flex;flex-wrap:wrap;gap:.4rem;margin:.6rem 0}.intro-toolbar button{border:1px solid #d6c7d3;border-radius:8px;padding:.55rem .8rem;color:#38243e;cursor:pointer}.intro-yellow{background-color:#fff2a8!important}.intro-pink{background-color:#ffd6e7!important}.intro-green{background-color:#d4f3df!important}.intro-blue{background-color:#d5e9ff!important}[data-intro-editor]{min-height:180px;border:1px solid #cfbfce;border-radius:12px;background:white;padding:1rem;line-height:1.9;white-space:pre-wrap}[data-intro-editor]:focus{outline:2px solid #d83b77}.description-copy{white-space:pre-wrap}.description-copy p,.description-copy div{margin:.5em 0}
+
+/* Song discovery and accessible player controls */
+.song-icon{width:1.1em;height:1.1em;display:inline-block;vertical-align:-.16em;flex-shrink:0;fill:none;stroke:currentColor}
+.secondary-button{color:#372b40}
+.lesson-complete{color:#372b40}
+.lesson-complete h2,.lesson-complete h3,.lesson-complete p{color:#372b40}
+.floating-song-controls{color:#fff}
+.speed-picker{grid-area:speed;position:relative}
+.speed-picker [data-speed-trigger]{display:flex;align-items:center;gap:8px;white-space:nowrap}
+.speed-menu{position:fixed;z-index:10000;width:228px;padding:12px;border:1px solid #e7dce6;border-radius:20px;background:#fffafc;color:#35283c;box-shadow:0 20px 65px #21142940}
+.speed-menu>p{font-size:10px;letter-spacing:.18em;color:#95617c;padding:0 9px}
+.speed-menu button{display:flex;align-items:center;gap:12px;width:100%;padding:11px 12px;border:0;border-radius:12px;background:transparent;color:#35283c;text-align:left}
+.speed-menu button small{flex:1;color:#796b80}
+.speed-menu button[aria-checked=true]{background:#fbe4ed;color:#b7205b}
+.speed-menu button:hover,.speed-menu button:focus-visible{background:#f1e9f4;outline:2px solid #c589ae}
+.tag-explorer{max-width:760px!important;background:linear-gradient(145deg,#fffaf4,#fff7fc 55%,#eff8f5)!important;border-radius:28px!important;padding:30px!important}
+.tag-explorer .eyebrow{color:#b52a64;letter-spacing:.2em;font-size:11px;font-weight:800}
+.tag-explorer-body{max-height:52vh;overflow:auto;padding:8px 2px}
+.tag-search{width:100%;padding:15px 18px;border:1px solid #dacbd9;border-radius:15px;background:#fff;margin:12px 0;color:#35283c}
+.tag-explorer-body h3{font-size:14px;letter-spacing:.08em;color:#80637d;margin:20px 0 12px}
+.tag-picker-grid{display:flex;flex-wrap:wrap;gap:10px}
+.tag-option{position:relative;display:flex!important;align-items:center;gap:8px;padding:12px 15px!important;border:1px solid #dfd2dc!important;border-radius:14px!important;background:#ffffffba;cursor:pointer;color:#48364b}
+.tag-option input{position:absolute;opacity:0;width:1px;height:1px}
+.tag-option .song-icon{opacity:.2}
+.tag-option:has(input:checked){background:#3e2848;color:white;border-color:#3e2848!important;box-shadow:0 5px 15px #452f4820}
+.tag-option input:checked~.song-icon{opacity:1}
+.tag-option:has(input:focus-visible){outline:3px solid #d687ad;outline-offset:2px}
+.tag-option small{opacity:.65;margin-left:4px}
+.tag-footer{display:flex;align-items:center;gap:10px;flex-wrap:wrap;border-top:1px solid #e5d9df;padding-top:18px;margin-top:20px}
+.tag-footer>span{flex:1;color:#796478}
+.big-data-hero{padding:38px;border-radius:26px;background:linear-gradient(125deg,#33243d,#633b62);color:#fff;margin-bottom:24px}
+.big-data-hero h1{font-size:clamp(32px,5vw,56px);margin:12px 0}
+.big-data-hero h1 span{display:block;font-size:.45em;color:#f5c4d6;margin-top:10px}
+[data-word-stats]{display:flex;gap:24px;flex-wrap:wrap;margin-top:24px}
+[data-word-stats]>div{padding:14px 20px;background:#ffffff12;border:1px solid #ffffff25;border-radius:16px}
+[data-word-stats] strong{display:block;font-size:28px}
+.word-toolbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.word-toolbar input{padding:14px 18px;border-radius:15px;border:1px solid #d8cbd8;width:min(100%,460px);background:white}
+.word-grid,[data-word-grid]{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px;margin:22px 0}
+.word-card{display:flex;flex-wrap:wrap;gap:9px;align-items:center;text-align:left;padding:20px;border:1px solid #e3d5df;border-radius:19px;background:#fff;color:#392c40;transition:transform .2s,box-shadow .2s}
+.word-card:hover{transform:translateY(-3px);box-shadow:0 12px 24px #50365015}
+.word-card strong{width:100%;font-size:24px;overflow-wrap:anywhere}
+.word-card small{color:#887184}
+.word-card .song-icon{margin-left:auto;color:#bd396d}
+[data-word-pagination]{display:flex;justify-content:center;align-items:center;gap:15px;margin:24px 0}
+.word-song-link{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;padding:18px;border:1px solid #e4d6df;border-radius:16px;margin:10px 0;background:#fff;color:#392c40;text-align:left}
+@media(max-width:600px){.tag-explorer{padding:20px!important}.big-data-hero{padding:24px}.tag-footer>span{flex-basis:100%}.speed-picker [data-speed-trigger]{padding:8px}}
+.student-nav button,.portal-actions .quiet-button,.portal-actions .quiet-link,.connection-pill{white-space:nowrap}
+@media(min-width:981px) and (max-width:1400px){.portal-header{flex-wrap:wrap}.student-nav{order:3;width:100%;justify-content:center}.portal-actions{margin-left:auto}}
+.word-toolbar .song-search input{border:0;box-shadow:none;background:transparent}
+.speed-menu button span{flex:1;font-size:13px;color:#796b80}

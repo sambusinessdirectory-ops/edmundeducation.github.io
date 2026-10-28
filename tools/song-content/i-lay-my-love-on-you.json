@@ -545,8 +545,8 @@
           "prompt": "Can {{blank}}, yeah",
           "promptZh": "幾乎不敢相信，耶",
           "options": [
-            "hardly believe it",
             "barely believe it",
+            "hardly believe it",
             "hardly see it"
           ],
           "answer": "hardly believe it"
@@ -558,8 +558,8 @@
           "promptZh": "有一位天使站在我身旁",
           "options": [
             "standing right by me",
-            "waiting next to me",
-            "standing next to me"
+            "standing next to me",
+            "waiting next to me"
           ],
           "answer": "standing next to me"
         },
@@ -569,9 +569,9 @@
           "prompt": "{{blank}} my heart",
           "promptZh": "觸及我的心",
           "options": [
-            "Reaching for",
+            "Calling for",
             "Searching for",
-            "Calling for"
+            "Reaching for"
           ],
           "answer": "Reaching for"
         },
@@ -617,8 +617,8 @@
           "prompt": "This time, {{blank}}",
           "promptZh": "這一次，是真實的",
           "options": [
-            "it's real",
             "it's true",
+            "it's real",
             "it's right"
           ],
           "answer": "it's real"
@@ -641,9 +641,9 @@
           "prompt": "I 〔第 9 題〕, it's all I {{blank}}",
           "promptZh": "我將愛傾注於你，這是我唯一想做的事",
           "options": [
-            "wanna do",
+            "need to do",
             "want to do",
-            "need to do"
+            "wanna do"
           ],
           "answer": "wanna do"
         },
@@ -689,9 +689,9 @@
           "prompt": "Show me all your love and {{blank}}",
           "promptZh": "向我展現你全部的愛，並徑直走入",
           "options": [
-            "walk right through",
+            "walk on through",
             "come right through",
-            "walk on through"
+            "walk right through"
           ],
           "answer": "walk right through"
         },
@@ -701,9 +701,9 @@
           "prompt": "I was {{blank}} a 〔第 16 題〕",
           "promptZh": "我曾迷失在孤獨之地",
           "options": [
-            "caught in",
+            "lost in",
             "trapped in",
-            "lost in"
+            "caught in"
           ],
           "answer": "lost in"
         },
@@ -713,8 +713,8 @@
           "prompt": "I was 〔第 15 題〕 a {{blank}}",
           "promptZh": "我曾迷失在孤獨之地",
           "options": [
-            "lonely place",
             "dark place",
+            "lonely place",
             "quiet place"
           ],
           "answer": "lonely place"
@@ -725,9 +725,9 @@
           "prompt": "{{blank}} to yesterday",
           "promptZh": "執著於昨日",
           "options": [
-            "Holding on",
+            "Holding back",
             "Holding out",
-            "Holding back"
+            "Holding on"
           ],
           "answer": "Holding on"
         },
@@ -749,9 +749,9 @@
           "prompt": "I never knew that love could {{blank}}",
           "promptZh": "我從不知道愛能如此美好",
           "options": [
-            "feel so good",
+            "feel so right",
             "be so good",
-            "feel so right"
+            "feel so good"
           ],
           "answer": "feel so good"
         },
@@ -963,8 +963,8 @@
           "prompt": "〔第 1 題〕 and the {{blank}}",
           "promptZh": "只要一個微笑，雨便停了",
           "options": [
-            "rain is gone",
             "pain is gone",
+            "rain is gone",
             "rain has gone"
           ],
           "answer": "rain is gone"
@@ -976,8 +976,8 @@
           "promptZh": "幾乎不敢相信，耶",
           "options": [
             "hardly see it",
-            "barely believe it",
-            "hardly believe it"
+            "hardly believe it",
+            "barely believe it"
           ],
           "answer": "hardly believe it"
         },
@@ -999,9 +999,9 @@
           "prompt": "〔第 4 題〕 {{blank}}",
           "promptZh": "有一位天使站在我身旁",
           "options": [
-            "standing next to me",
+            "standing right by me",
             "waiting next to me",
-            "standing right by me"
+            "standing next to me"
           ],
           "answer": "standing next to me"
         },
@@ -1011,9 +1011,9 @@
           "prompt": "{{blank}} my heart",
           "promptZh": "觸及我的心",
           "options": [
-            "Calling for",
+            "Reaching for",
             "Searching for",
-            "Reaching for"
+            "Calling for"
           ],
           "answer": "Reaching for"
         },
@@ -1023,8 +1023,8 @@
           "prompt": "Just a smile and {{blank}} 〔第 8 題〕",
           "promptZh": "只要一個微笑，便已無退路",
           "options": [
-            "there's",
             "there are",
+            "there's",
             "there was"
           ],
           "answer": "there's"
@@ -1035,9 +1035,9 @@
           "prompt": "Just a smile and 〔第 7 題〕 {{blank}}",
           "promptZh": "只要一個微笑，便已無退路",
           "options": [
-            "no way back",
+            "no going back",
             "no turning back",
-            "no going back"
+            "no way back"
           ],
           "answer": "no way back"
         },
@@ -1047,9 +1047,9 @@
           "prompt": "{{blank}} believe it, yeah",
           "promptZh": "幾乎不敢相信，耶",
           "options": [
-            "Can barely",
+            "Can hardly",
             "Could hardly",
-            "Can hardly"
+            "Can barely"
           ],
           "answer": "Can hardly"
         },
@@ -1059,9 +1059,9 @@
           "prompt": "{{blank}} an 〔第 11 題〕",
           "promptZh": "但有位天使在呼喚我",
           "options": [
-            "But there's",
+            "Yet there's",
             "And there's",
-            "Yet there's"
+            "But there's"
           ],
           "answer": "But there's"
         },
@@ -1071,8 +1071,8 @@
           "prompt": "〔第 10 題〕 an {{blank}}",
           "promptZh": "但有位天使在呼喚我",
           "options": [
-            "angel calling me",
             "angel waiting for me",
+            "angel calling me",
             "angel next to me"
           ],
           "answer": "angel calling me"
@@ -1083,9 +1083,9 @@
           "prompt": "{{blank}}",
           "promptZh": "觸及我的心",
           "options": [
-            "Reaching to my heart",
+            "Reaching for my heart",
             "Reaching for your heart",
-            "Reaching for my heart"
+            "Reaching to my heart"
           ],
           "answer": "Reaching for my heart"
         },
@@ -1095,8 +1095,8 @@
           "prompt": "{{blank}} I'll 〔第 14 題〕",
           "promptZh": "我知道現在我會沒事的",
           "options": [
-            "I know that",
             "I know I'll",
+            "I know that",
             "I feel that"
           ],
           "answer": "I know that"
@@ -1107,9 +1107,9 @@
           "prompt": "〔第 13 題〕 I'll {{blank}}",
           "promptZh": "我知道現在我會沒事的",
           "options": [
-            "be okay now",
+            "be alright now",
             "be fine now",
-            "be alright now"
+            "be okay now"
           ],
           "answer": "be okay now"
         },
@@ -1119,8 +1119,8 @@
           "prompt": "This time, {{blank}}",
           "promptZh": "這一次，是真實的",
           "options": [
-            "it's true",
             "it's real",
+            "it's true",
             "it's right"
           ],
           "answer": "it's real"
@@ -1131,8 +1131,8 @@
           "prompt": "I {{blank}}, it's all I 〔第 17 題〕",
           "promptZh": "我將愛傾注於你，這是我唯一想做的事",
           "options": [
-            "lay my love on you",
             "give my love to you",
+            "lay my love on you",
             "put my love on you"
           ],
           "answer": "lay my love on you"
@@ -1143,9 +1143,9 @@
           "prompt": "I 〔第 16 題〕, it's all I {{blank}}",
           "promptZh": "我將愛傾注於你，這是我唯一想做的事",
           "options": [
-            "wanna do",
+            "need to do",
             "want to do",
-            "need to do"
+            "wanna do"
           ],
           "answer": "wanna do"
         },
@@ -1155,9 +1155,9 @@
           "prompt": "{{blank}} I 〔第 19 題〕, I feel 〔第 20 題〕",
           "promptZh": "每次呼吸，我都感到煥然一新",
           "options": [
-            "Every time that",
+            "Every time",
             "Each time",
-            "Every time"
+            "Every time that"
           ],
           "answer": "Every time"
         },
@@ -1167,8 +1167,8 @@
           "prompt": "〔第 18 題〕 I {{blank}}, I feel 〔第 20 題〕",
           "promptZh": "每次呼吸，我都感到煥然一新",
           "options": [
-            "breathe",
             "speak",
+            "breathe",
             "move"
           ],
           "answer": "breathe"
@@ -1179,9 +1179,9 @@
           "prompt": "〔第 18 題〕 I 〔第 19 題〕, I feel {{blank}}",
           "promptZh": "每次呼吸，我都感到煥然一新",
           "options": [
-            "brand new",
+            "fresh and new",
             "so new",
-            "fresh and new"
+            "brand new"
           ],
           "answer": "brand new"
         },
@@ -1191,8 +1191,8 @@
           "prompt": "You {{blank}} my heart",
           "promptZh": "你敞開了我的心房",
           "options": [
-            "break open",
             "open up",
+            "break open",
             "give up"
           ],
           "answer": "open up"
@@ -1203,8 +1203,8 @@
           "prompt": "{{blank}} your love and 〔第 23 題〕",
           "promptZh": "向我展現你全部的愛，並徑直走入",
           "options": [
-            "Show me all",
             "Give me all",
+            "Show me all",
             "Show me your"
           ],
           "answer": "Show me all"
@@ -1215,9 +1215,9 @@
           "prompt": "〔第 22 題〕 your love and {{blank}}",
           "promptZh": "向我展現你全部的愛，並徑直走入",
           "options": [
-            "walk right through",
+            "walk on through",
             "come right through",
-            "walk on through"
+            "walk right through"
           ],
           "answer": "walk right through"
         },
@@ -1227,8 +1227,8 @@
           "prompt": "I {{blank}} 〔第 25 題〕 a 〔第 26 題〕",
           "promptZh": "我曾迷失在孤獨之地",
           "options": [
-            "am",
             "was",
+            "am",
             "felt"
           ],
           "answer": "was"
@@ -1239,8 +1239,8 @@
           "prompt": "I 〔第 24 題〕 {{blank}} a 〔第 26 題〕",
           "promptZh": "我曾迷失在孤獨之地",
           "options": [
-            "lost in",
             "trapped in",
+            "lost in",
             "caught in"
           ],
           "answer": "lost in"
@@ -1251,9 +1251,9 @@
           "prompt": "I 〔第 24 題〕 〔第 25 題〕 a {{blank}}",
           "promptZh": "我曾迷失在孤獨之地",
           "options": [
-            "lonely place",
+            "quiet place",
             "dark place",
-            "quiet place"
+            "lonely place"
           ],
           "answer": "lonely place"
         },
@@ -1263,9 +1263,9 @@
           "prompt": "{{blank}} to yesterday",
           "promptZh": "執著於昨日",
           "options": [
-            "Holding back",
+            "Holding on",
             "Holding out",
-            "Holding on"
+            "Holding back"
           ],
           "answer": "Holding on"
         },
@@ -1275,9 +1275,9 @@
           "prompt": "Far, far {{blank}}",
           "promptZh": "實在太久、太久了",
           "options": [
-            "too long",
+            "too far",
             "so long",
-            "too far"
+            "too long"
           ],
           "answer": "too long"
         },
@@ -1287,8 +1287,8 @@
           "prompt": "{{blank}} 'cause this time, it's real",
           "promptZh": "我相信一切沒問題，因為這一次，是真實的",
           "options": [
-            "I believe it's okay",
             "I believe it is okay",
+            "I believe it's okay",
             "I know it's okay"
           ],
           "answer": "I believe it's okay"
@@ -1299,9 +1299,9 @@
           "prompt": "I lay my love on you, it's {{blank}} do",
           "promptZh": "我將愛傾注於你，這是我唯一想做的事",
           "options": [
-            "all I want to",
+            "all I wanna",
             "all that I wanna",
-            "all I wanna"
+            "all I want to"
           ],
           "answer": "all I wanna"
         },
@@ -1311,8 +1311,8 @@
           "prompt": "I never knew that love could {{blank}}",
           "promptZh": "我從不知道愛能如此美好",
           "options": [
-            "feel so good",
             "be so good",
+            "feel so good",
             "feel so right"
           ],
           "answer": "feel so good"
@@ -1323,9 +1323,9 @@
           "prompt": "Like a once in a lifetime, you {{blank}}",
           "promptZh": "宛如一生一次的相遇，你改變了我的世界",
           "options": [
-            "changed my world",
+            "changed my mind",
             "changed my life",
-            "changed my mind"
+            "changed my world"
           ],
           "answer": "changed my world"
         }
@@ -1525,8 +1525,8 @@
           "prompt": "〔第 1 題〕 and the {{blank}}",
           "promptZh": "只要一個微笑，雨便停了",
           "options": [
-            "rain is gone",
             "pain is gone",
+            "rain is gone",
             "rain has gone"
           ],
           "answer": "rain is gone"
@@ -1537,8 +1537,8 @@
           "prompt": "Can {{blank}}, yeah",
           "promptZh": "幾乎不敢相信，耶",
           "options": [
-            "barely believe it",
             "hardly believe it",
+            "barely believe it",
             "hardly see it"
           ],
           "answer": "hardly believe it"
@@ -1549,9 +1549,9 @@
           "prompt": "{{blank}} 〔第 5 題〕",
           "promptZh": "有一位天使站在我身旁",
           "options": [
-            "There's an angel",
+            "Here's an angel",
             "There is an angel",
-            "Here's an angel"
+            "There's an angel"
           ],
           "answer": "There's an angel"
         },
@@ -1561,9 +1561,9 @@
           "prompt": "〔第 4 題〕 {{blank}}",
           "promptZh": "有一位天使站在我身旁",
           "options": [
-            "standing next to me",
+            "standing right by me",
             "waiting next to me",
-            "standing right by me"
+            "standing next to me"
           ],
           "answer": "standing next to me"
         },
@@ -1574,8 +1574,8 @@
           "promptZh": "觸及我的心",
           "options": [
             "Calling for",
-            "Searching for",
-            "Reaching for"
+            "Reaching for",
+            "Searching for"
           ],
           "answer": "Reaching for"
         },
@@ -1610,8 +1610,8 @@
           "promptZh": "只要一個微笑，便已無退路",
           "options": [
             "no turning back",
-            "no way back",
-            "no going back"
+            "no going back",
+            "no way back"
           ],
           "answer": "no way back"
         },
@@ -1621,8 +1621,8 @@
           "prompt": "{{blank}} believe it, yeah",
           "promptZh": "幾乎不敢相信，耶",
           "options": [
-            "Can hardly",
             "Could hardly",
+            "Can hardly",
             "Can barely"
           ],
           "answer": "Can hardly"
@@ -1633,9 +1633,9 @@
           "prompt": "{{blank}} an 〔第 12 題〕",
           "promptZh": "但有位天使在呼喚我",
           "options": [
-            "But there's",
+            "Yet there's",
             "And there's",
-            "Yet there's"
+            "But there's"
           ],
           "answer": "But there's"
         },
@@ -1645,8 +1645,8 @@
           "prompt": "〔第 11 題〕 an {{blank}}",
           "promptZh": "但有位天使在呼喚我",
           "options": [
-            "angel waiting for me",
             "angel calling me",
+            "angel waiting for me",
             "angel next to me"
           ],
           "answer": "angel calling me"
@@ -1657,8 +1657,8 @@
           "prompt": "{{blank}}",
           "promptZh": "觸及我的心",
           "options": [
-            "Reaching for my heart",
             "Reaching for your heart",
+            "Reaching for my heart",
             "Reaching to my heart"
           ],
           "answer": "Reaching for my heart"
@@ -1669,8 +1669,8 @@
           "prompt": "{{blank}} I'll 〔第 15 題〕",
           "promptZh": "我知道現在我會沒事的",
           "options": [
-            "I know that",
             "I know I'll",
+            "I know that",
             "I feel that"
           ],
           "answer": "I know that"
@@ -1682,8 +1682,8 @@
           "promptZh": "我知道現在我會沒事的",
           "options": [
             "be fine now",
-            "be okay now",
-            "be alright now"
+            "be alright now",
+            "be okay now"
           ],
           "answer": "be okay now"
         },
@@ -1705,8 +1705,8 @@
           "prompt": "〔第 16 題〕, {{blank}}",
           "promptZh": "這一次，是真實的",
           "options": [
-            "it's real",
             "it's true",
+            "it's real",
             "it's right"
           ],
           "answer": "it's real"
@@ -1754,8 +1754,8 @@
           "promptZh": "每次呼吸，我都感到煥然一新",
           "options": [
             "move",
-            "speak",
-            "breathe"
+            "breathe",
+            "speak"
           ],
           "answer": "breathe"
         },
@@ -1765,9 +1765,9 @@
           "prompt": "〔第 20 題〕 I 〔第 21 題〕, I feel {{blank}}",
           "promptZh": "每次呼吸，我都感到煥然一新",
           "options": [
-            "brand new",
+            "fresh and new",
             "so new",
-            "fresh and new"
+            "brand new"
           ],
           "answer": "brand new"
         },
@@ -1777,9 +1777,9 @@
           "prompt": "You {{blank}} my heart",
           "promptZh": "你敞開了我的心房",
           "options": [
-            "open up",
+            "give up",
             "break open",
-            "give up"
+            "open up"
           ],
           "answer": "open up"
         },
@@ -1789,9 +1789,9 @@
           "prompt": "{{blank}} your love and 〔第 25 題〕",
           "promptZh": "向我展現你全部的愛，並徑直走入",
           "options": [
-            "Show me your",
+            "Show me all",
             "Give me all",
-            "Show me all"
+            "Show me your"
           ],
           "answer": "Show me all"
         },
@@ -1801,8 +1801,8 @@
           "prompt": "〔第 24 題〕 your love and {{blank}}",
           "promptZh": "向我展現你全部的愛，並徑直走入",
           "options": [
-            "walk right through",
             "come right through",
+            "walk right through",
             "walk on through"
           ],
           "answer": "walk right through"
@@ -1826,8 +1826,8 @@
           "promptZh": "我曾迷失在孤獨之地",
           "options": [
             "felt",
-            "am",
-            "was"
+            "was",
+            "am"
           ],
           "answer": "was"
         },
@@ -1837,9 +1837,9 @@
           "prompt": "I 〔第 27 題〕 {{blank}} a 〔第 29 題〕",
           "promptZh": "我曾迷失在孤獨之地",
           "options": [
-            "lost in",
+            "caught in",
             "trapped in",
-            "caught in"
+            "lost in"
           ],
           "answer": "lost in"
         },
@@ -1849,8 +1849,8 @@
           "prompt": "I 〔第 27 題〕 〔第 28 題〕 a {{blank}}",
           "promptZh": "我曾迷失在孤獨之地",
           "options": [
-            "lonely place",
             "dark place",
+            "lonely place",
             "quiet place"
           ],
           "answer": "lonely place"
@@ -1861,9 +1861,9 @@
           "prompt": "{{blank}}, yeah",
           "promptZh": "幾乎不敢相信，耶",
           "options": [
-            "Would hardly believe it",
+            "Could hardly believe it",
             "Can hardly believe it",
-            "Could hardly believe it"
+            "Would hardly believe it"
           ],
           "answer": "Could hardly believe it"
         },
@@ -1873,9 +1873,9 @@
           "prompt": "{{blank}} to yesterday",
           "promptZh": "執著於昨日",
           "options": [
-            "Holding on",
+            "Holding back",
             "Holding out",
-            "Holding back"
+            "Holding on"
           ],
           "answer": "Holding on"
         },
@@ -1885,9 +1885,9 @@
           "prompt": "{{blank}} 〔第 33 題〕",
           "promptZh": "實在太久、太久了",
           "options": [
-            "Far, far",
+            "Far too",
             "So far",
-            "Far too"
+            "Far, far"
           ],
           "answer": "Far, far"
         },
@@ -1934,8 +1934,8 @@
           "promptZh": "你敞開了我的心房",
           "options": [
             "You opened up my heart",
-            "You open my heart",
-            "You open up my heart"
+            "You open up my heart",
+            "You open my heart"
           ],
           "answer": "You open up my heart"
         },
@@ -1945,9 +1945,9 @@
           "prompt": "{{blank}} 〔第 38 題〕",
           "promptZh": "我從不知道愛能如此美好",
           "options": [
-            "I never knew that love could",
+            "I always knew that love could",
             "I never thought that love would",
-            "I always knew that love could"
+            "I never knew that love could"
           ],
           "answer": "I never knew that love could"
         },
@@ -1957,8 +1957,8 @@
           "prompt": "〔第 37 題〕 {{blank}}",
           "promptZh": "我從不知道愛能如此美好",
           "options": [
-            "feel so good",
             "be so good",
+            "feel so good",
             "feel so right"
           ],
           "answer": "feel so good"
@@ -1970,8 +1970,8 @@
           "promptZh": "宛如一生一次的相遇，你改變了我的世界",
           "options": [
             "like a once in your lifetime",
-            "Like a once in a lifetime",
-            "like the once in the lifetime"
+            "like the once in the lifetime",
+            "Like a once in a lifetime"
           ],
           "answer": "Like a once in a lifetime"
         },
@@ -2183,8 +2183,8 @@
           "prompt": "〔第 1 題〕 and the {{blank}}",
           "promptZh": "只要一個微笑，雨便停了",
           "options": [
-            "rain is gone",
             "pain is gone",
+            "rain is gone",
             "rain has gone"
           ],
           "answer": "rain is gone"
@@ -2219,9 +2219,9 @@
           "prompt": "{{blank}} 〔第 6 題〕",
           "promptZh": "有一位天使站在我身旁",
           "options": [
-            "There's an angel",
+            "Here's an angel",
             "There is an angel",
-            "Here's an angel"
+            "There's an angel"
           ],
           "answer": "There's an angel"
         },
@@ -2232,8 +2232,8 @@
           "promptZh": "有一位天使站在我身旁",
           "options": [
             "standing right by me",
-            "waiting next to me",
-            "standing next to me"
+            "standing next to me",
+            "waiting next to me"
           ],
           "answer": "standing next to me"
         },
@@ -2255,9 +2255,9 @@
           "prompt": "〔第 7 題〕 {{blank}}",
           "promptZh": "觸及我的心",
           "options": [
-            "my heart",
+            "my hand",
             "your heart",
-            "my hand"
+            "my heart"
           ],
           "answer": "my heart"
         },
@@ -2268,8 +2268,8 @@
           "promptZh": "只要一個微笑，便已無退路",
           "options": [
             "Just a smile that",
-            "Just a smile and",
-            "Only a smile and"
+            "Only a smile and",
+            "Just a smile and"
           ],
           "answer": "Just a smile and"
         },
@@ -2291,8 +2291,8 @@
           "prompt": "〔第 9 題〕 〔第 10 題〕 {{blank}}",
           "promptZh": "只要一個微笑，便已無退路",
           "options": [
-            "no way back",
             "no turning back",
+            "no way back",
             "no going back"
           ],
           "answer": "no way back"
@@ -2315,9 +2315,9 @@
           "prompt": "{{blank}} an 〔第 14 題〕",
           "promptZh": "但有位天使在呼喚我",
           "options": [
-            "But there's",
+            "Yet there's",
             "And there's",
-            "Yet there's"
+            "But there's"
           ],
           "answer": "But there's"
         },
@@ -2340,8 +2340,8 @@
           "promptZh": "觸及我的心",
           "options": [
             "Reaching for your heart",
-            "Reaching for my heart",
-            "Reaching to my heart"
+            "Reaching to my heart",
+            "Reaching for my heart"
           ],
           "answer": "Reaching for my heart"
         },
@@ -2363,8 +2363,8 @@
           "prompt": "〔第 16 題〕 {{blank}} 〔第 18 題〕",
           "promptZh": "我知道現在我會沒事的",
           "options": [
-            "I'll",
             "I'd",
+            "I'll",
             "I've"
           ],
           "answer": "I'll"
@@ -2376,8 +2376,8 @@
           "promptZh": "我知道現在我會沒事的",
           "options": [
             "be alright now",
-            "be fine now",
-            "be okay now"
+            "be okay now",
+            "be fine now"
           ],
           "answer": "be okay now"
         },
@@ -2399,9 +2399,9 @@
           "prompt": "〔第 19 題〕, {{blank}}",
           "promptZh": "這一次，是真實的",
           "options": [
-            "it's real",
+            "it's right",
             "it's true",
-            "it's right"
+            "it's real"
           ],
           "answer": "it's real"
         },
@@ -2411,8 +2411,8 @@
           "prompt": "I {{blank}}, it's all I 〔第 22 題〕",
           "promptZh": "我將愛傾注於你，這是我唯一想做的事",
           "options": [
-            "give my love to you",
             "lay my love on you",
+            "give my love to you",
             "put my love on you"
           ],
           "answer": "lay my love on you"
@@ -2423,8 +2423,8 @@
           "prompt": "I 〔第 21 題〕, it's all I {{blank}}",
           "promptZh": "我將愛傾注於你，這是我唯一想做的事",
           "options": [
-            "wanna do",
             "want to do",
+            "wanna do",
             "need to do"
           ],
           "answer": "wanna do"
@@ -2435,9 +2435,9 @@
           "prompt": "{{blank}} I 〔第 24 題〕, I feel 〔第 25 題〕",
           "promptZh": "每次呼吸，我都感到煥然一新",
           "options": [
-            "Every time",
+            "Every time that",
             "Each time",
-            "Every time that"
+            "Every time"
           ],
           "answer": "Every time"
         },
@@ -2447,8 +2447,8 @@
           "prompt": "〔第 23 題〕 I {{blank}}, I feel 〔第 25 題〕",
           "promptZh": "每次呼吸，我都感到煥然一新",
           "options": [
-            "speak",
             "breathe",
+            "speak",
             "move"
           ],
           "answer": "breathe"
@@ -2459,8 +2459,8 @@
           "prompt": "〔第 23 題〕 I 〔第 24 題〕, I feel {{blank}}",
           "promptZh": "每次呼吸，我都感到煥然一新",
           "options": [
-            "brand new",
             "so new",
+            "brand new",
             "fresh and new"
           ],
           "answer": "brand new"
@@ -2471,9 +2471,9 @@
           "prompt": "You {{blank}} my heart",
           "promptZh": "你敞開了我的心房",
           "options": [
-            "open up",
+            "give up",
             "break open",
-            "give up"
+            "open up"
           ],
           "answer": "open up"
         },
@@ -2483,8 +2483,8 @@
           "prompt": "{{blank}} your love and 〔第 28 題〕",
           "promptZh": "向我展現你全部的愛，並徑直走入",
           "options": [
-            "Give me all",
             "Show me all",
+            "Give me all",
             "Show me your"
           ],
           "answer": "Show me all"
@@ -2495,8 +2495,8 @@
           "prompt": "〔第 27 題〕 your love and {{blank}}",
           "promptZh": "向我展現你全部的愛，並徑直走入",
           "options": [
-            "walk right through",
             "come right through",
+            "walk right through",
             "walk on through"
           ],
           "answer": "walk right through"
@@ -2507,9 +2507,9 @@
           "prompt": "As {{blank}}",
           "promptZh": "當我將愛傾注於你",
           "options": [
-            "I lay my love on you",
+            "I pour my love on you",
             "I give my love to you",
-            "I pour my love on you"
+            "I lay my love on you"
           ],
           "answer": "I lay my love on you"
         },
@@ -2519,8 +2519,8 @@
           "prompt": "I {{blank}} 〔第 31 題〕 a 〔第 32 題〕",
           "promptZh": "我曾迷失在孤獨之地",
           "options": [
-            "am",
             "was",
+            "am",
             "felt"
           ],
           "answer": "was"
@@ -2531,8 +2531,8 @@
           "prompt": "I 〔第 30 題〕 {{blank}} a 〔第 32 題〕",
           "promptZh": "我曾迷失在孤獨之地",
           "options": [
-            "lost in",
             "trapped in",
+            "lost in",
             "caught in"
           ],
           "answer": "lost in"
@@ -2543,9 +2543,9 @@
           "prompt": "I 〔第 30 題〕 〔第 31 題〕 a {{blank}}",
           "promptZh": "我曾迷失在孤獨之地",
           "options": [
-            "lonely place",
+            "quiet place",
             "dark place",
-            "quiet place"
+            "lonely place"
           ],
           "answer": "lonely place"
         },
@@ -2556,8 +2556,8 @@
           "promptZh": "幾乎不敢相信，耶",
           "options": [
             "Would hardly believe it",
-            "Can hardly believe it",
-            "Could hardly believe it"
+            "Could hardly believe it",
+            "Can hardly believe it"
           ],
           "answer": "Could hardly believe it"
         },
@@ -2567,9 +2567,9 @@
           "prompt": "{{blank}} to yesterday",
           "promptZh": "執著於昨日",
           "options": [
-            "Holding on",
+            "Holding back",
             "Holding out",
-            "Holding back"
+            "Holding on"
           ],
           "answer": "Holding on"
         },
@@ -2591,9 +2591,9 @@
           "prompt": "〔第 35 題〕 {{blank}}",
           "promptZh": "實在太久、太久了",
           "options": [
-            "too far",
+            "too long",
             "so long",
-            "too long"
+            "too far"
           ],
           "answer": "too long"
         },
@@ -2603,9 +2603,9 @@
           "prompt": "{{blank}} 'cause this time, it's real",
           "promptZh": "我相信一切沒問題，因為這一次，是真實的",
           "options": [
-            "I believe it's okay",
+            "I know it's okay",
             "I believe it is okay",
-            "I know it's okay"
+            "I believe it's okay"
           ],
           "answer": "I believe it's okay"
         },
@@ -2615,8 +2615,8 @@
           "prompt": "{{blank}}, it's 〔第 39 題〕 do",
           "promptZh": "我將愛傾注於你，這是我唯一想做的事",
           "options": [
-            "I lay my love on you",
             "I give my love to you",
+            "I lay my love on you",
             "I pour my love on you"
           ],
           "answer": "I lay my love on you"
@@ -2663,8 +2663,8 @@
           "prompt": "{{blank}} on you",
           "promptZh": "當我將愛傾注於你",
           "options": [
-            "As I lay my love",
             "As I give my love",
+            "As I lay my love",
             "As I lay my heart"
           ],
           "answer": "As I lay my love"
@@ -2676,8 +2676,8 @@
           "promptZh": "我從不知道愛能如此美好",
           "options": [
             "I never thought that love would",
-            "I never knew that love could",
-            "I always knew that love could"
+            "I always knew that love could",
+            "I never knew that love could"
           ],
           "answer": "I never knew that love could"
         },
@@ -2699,8 +2699,8 @@
           "prompt": "{{blank}}, you 〔第 46 題〕",
           "promptZh": "宛如一生一次的相遇，你改變了我的世界",
           "options": [
-            "Like a once in a lifetime",
             "like a once in your lifetime",
+            "Like a once in a lifetime",
             "like the once in the lifetime"
           ],
           "answer": "Like a once in a lifetime"
@@ -2712,8 +2712,8 @@
           "promptZh": "宛如一生一次的相遇，你改變了我的世界",
           "options": [
             "changed my life",
-            "changed my world",
-            "changed my mind"
+            "changed my mind",
+            "changed my world"
           ],
           "answer": "changed my world"
         },
@@ -2723,9 +2723,9 @@
           "prompt": "{{blank}} brand new",
           "promptZh": "你讓我感到煥然一新",
           "options": [
-            "You make me be",
+            "You make me feel",
             "You made me feel",
-            "You make me feel"
+            "You make me be"
           ],
           "answer": "You make me feel"
         },
@@ -2735,9 +2735,9 @@
           "prompt": "I lay my love on you, it's {{blank}}",
           "promptZh": "我將愛傾注於你，這是我唯一想做的事",
           "options": [
-            "all I wanna do",
+            "all I need to do",
             "all I want to do",
-            "all I need to do"
+            "all I wanna do"
           ],
           "answer": "all I wanna do"
         },

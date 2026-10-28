@@ -543,9 +543,9 @@
           "prompt": "I {{blank}} out too 〔第 2 題〕",
           "promptZh": "我總是在外逗留到太晚",
           "options": [
-            "wait",
+            "stay",
             "go",
-            "stay"
+            "wait"
           ],
           "answer": "stay"
         },
@@ -555,8 +555,8 @@
           "prompt": "I 〔第 1 題〕 out too {{blank}}",
           "promptZh": "我總是在外逗留到太晚",
           "options": [
-            "late",
             "long",
+            "late",
             "far"
           ],
           "answer": "late"
@@ -568,8 +568,8 @@
           "promptZh": "腦子裡空空如也",
           "options": [
             "something",
-            "nothing",
-            "anything"
+            "anything",
+            "nothing"
           ],
           "answer": "nothing"
         },
@@ -579,8 +579,8 @@
           "prompt": "I {{blank}} on too many 〔第 5 題〕",
           "promptZh": "我約會次數太多",
           "options": [
-            "go",
             "dance",
+            "go",
             "move"
           ],
           "answer": "go"
@@ -603,8 +603,8 @@
           "prompt": "But I keep {{blank}}",
           "promptZh": "但我繼續愜意前行",
           "options": [
-            "moving",
             "cruising",
+            "moving",
             "driving"
           ],
           "answer": "cruising"
@@ -616,8 +616,8 @@
           "promptZh": "停不下來，絕不停下腳步",
           "options": [
             "grooving",
-            "shaking",
-            "moving"
+            "moving",
+            "shaking"
           ],
           "answer": "moving"
         },
@@ -651,9 +651,9 @@
           "prompt": "Saying, \"It's gonna be {{blank}}.\"",
           "promptZh": "說著：「一切都會好起來的。」",
           "options": [
-            "okay",
+            "alright",
             "fine",
-            "alright"
+            "okay"
           ],
           "answer": "alright"
         },
@@ -664,8 +664,8 @@
           "promptZh": "因為情場浪子會繼續玩樂，玩、玩、玩、 玩、玩",
           "options": [
             "win",
-            "play",
-            "stay"
+            "stay",
+            "play"
           ],
           "answer": "play"
         },
@@ -676,8 +676,8 @@
           "promptZh": "而酸民們會繼續討厭，恨、恨、恨、恨、恨",
           "options": [
             "wait",
-            "hate",
-            "break"
+            "break",
+            "hate"
           ],
           "answer": "hate"
         },
@@ -687,9 +687,9 @@
           "prompt": "Baby, I'm just gonna {{blank}}, shake, shake, shake, shake",
           "promptZh": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
           "options": [
-            "break",
+            "shake",
             "fake",
-            "shake"
+            "break"
           ],
           "answer": "shake"
         },
@@ -699,8 +699,8 @@
           "prompt": "I {{blank}}, I shake it off",
           "promptZh": "我會甩掉它，我會甩掉它",
           "options": [
-            "shake it off",
             "shake it out",
+            "shake it off",
             "throw it off"
           ],
           "answer": "shake it off"
@@ -711,8 +711,8 @@
           "prompt": "Heart-breakers gonna {{blank}}, break, break, break, break",
           "promptZh": "碎心者會繼續傷人，碎、碎、碎、碎、 碎",
           "options": [
-            "fake",
             "break",
+            "fake",
             "hate"
           ],
           "answer": "break"
@@ -724,8 +724,8 @@
           "promptZh": "而偽君子會繼續偽裝，假、假、假、假、假",
           "options": [
             "shake",
-            "break",
-            "fake"
+            "fake",
+            "break"
           ],
           "answer": "fake"
         },
@@ -771,9 +771,9 @@
           "prompt": "Just think while you've been getting {{blank}} and out about the liars and the dirty, dirty cheats of the world,",
           "promptZh": "想想看，當你一直為這世上那些騙子和骯髒透頂的騙子感到沮喪失落時，",
           "options": [
-            "up",
+            "down",
             "out",
-            "down"
+            "up"
           ],
           "answer": "down"
         }
@@ -1090,8 +1090,8 @@
           "promptZh": "我總是在外逗留到太晚",
           "options": [
             "wait",
-            "go",
-            "stay"
+            "stay",
+            "go"
           ],
           "answer": "stay"
         },
@@ -1113,8 +1113,8 @@
           "prompt": "Got {{blank}} in my brain",
           "promptZh": "腦子裡空空如也",
           "options": [
-            "something",
             "nothing",
+            "something",
             "anything"
           ],
           "answer": "nothing"
@@ -1125,8 +1125,8 @@
           "prompt": "That's what people {{blank}}, mmm-mmm",
           "promptZh": "人們就是這麼說，嗯哼",
           "options": [
-            "say",
             "think",
+            "say",
             "know"
           ],
           "answer": "say"
@@ -1137,9 +1137,9 @@
           "prompt": "I {{blank}} on too many 〔第 6 題〕",
           "promptZh": "我約會次數太多",
           "options": [
-            "go",
+            "move",
             "dance",
-            "move"
+            "go"
           ],
           "answer": "go"
         },
@@ -1150,8 +1150,8 @@
           "promptZh": "我約會次數太多",
           "options": [
             "trips",
-            "nights",
-            "dates"
+            "dates",
+            "nights"
           ],
           "answer": "dates"
         },
@@ -1161,8 +1161,8 @@
           "prompt": "But I keep {{blank}}",
           "promptZh": "但我繼續愜意前行",
           "options": [
-            "moving",
             "cruising",
+            "moving",
             "driving"
           ],
           "answer": "cruising"
@@ -1186,8 +1186,8 @@
           "promptZh": "就像我腦中有這段旋律",
           "options": [
             "rhythm",
-            "feeling",
-            "music"
+            "music",
+            "feeling"
           ],
           "answer": "music"
         },
@@ -1198,8 +1198,8 @@
           "promptZh": "在我的腦海裡",
           "options": [
             "head",
-            "mind",
-            "heart"
+            "heart",
+            "mind"
           ],
           "answer": "mind"
         },
@@ -1209,9 +1209,9 @@
           "prompt": "Saying, \"It's gonna be {{blank}}.\"",
           "promptZh": "說著：「一切都會好起來的。」",
           "options": [
-            "okay",
+            "alright",
             "fine",
-            "alright"
+            "okay"
           ],
           "answer": "alright"
         },
@@ -1234,8 +1234,8 @@
           "promptZh": "而酸民們會繼續討厭，恨、恨、恨、恨、恨",
           "options": [
             "wait",
-            "hate",
-            "break"
+            "break",
+            "hate"
           ],
           "answer": "hate"
         },
@@ -1245,9 +1245,9 @@
           "prompt": "Baby, I'm just gonna {{blank}}, 〔第 15 題〕, shake, shake, shake",
           "promptZh": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
           "options": [
-            "break",
+            "shake",
             "fake",
-            "shake"
+            "break"
           ],
           "answer": "shake"
         },
@@ -1282,8 +1282,8 @@
           "promptZh": "碎心者會繼續傷人，碎、碎、碎、碎、 碎",
           "options": [
             "fake",
-            "break",
-            "hate"
+            "hate",
+            "break"
           ],
           "answer": "break"
         },
@@ -1293,9 +1293,9 @@
           "prompt": "And the fakers gonna {{blank}}, fake, fake, fake, fake",
           "promptZh": "而偽君子會繼續偽裝，假、假、假、假、假",
           "options": [
-            "shake",
+            "fake",
             "break",
-            "fake"
+            "shake"
           ],
           "answer": "fake"
         },
@@ -1306,8 +1306,8 @@
           "promptZh": "我從不亂了節拍",
           "options": [
             "step",
-            "chance",
-            "beat"
+            "beat",
+            "chance"
           ],
           "answer": "beat"
         },
@@ -1318,8 +1318,8 @@
           "promptZh": "我的腳步快如閃電",
           "options": [
             "toes",
-            "feet",
-            "heels"
+            "heels",
+            "feet"
           ],
           "answer": "feet"
         },
@@ -1330,8 +1330,8 @@
           "promptZh": "而這是他們看不見的，嗯哼",
           "options": [
             "know",
-            "hear",
-            "see"
+            "see",
+            "hear"
           ],
           "answer": "see"
         },
@@ -1366,8 +1366,8 @@
           "promptZh": "而這是他們不知道的，嗯哼",
           "options": [
             "care",
-            "know",
-            "see"
+            "see",
+            "know"
           ],
           "answer": "know"
         },
@@ -1413,8 +1413,8 @@
           "prompt": "Just 〔第 26 題〕 while you've been getting 〔第 27 題〕 and out about the liars and the dirty, dirty {{blank}} of the world,",
           "promptZh": "想想看，當你一直為這世上那些騙子和骯髒透頂的騙子感到沮喪失落時，",
           "options": [
-            "liars",
             "cheats",
+            "liars",
             "fakes"
           ],
           "answer": "cheats"
@@ -1426,8 +1426,8 @@
           "promptZh": "你本可以跟著這超讚的節奏盡情搖擺。",
           "options": [
             "song",
-            "track",
-            "beat"
+            "beat",
+            "track"
           ],
           "answer": "beat"
         },
@@ -1449,9 +1449,9 @@
           "prompt": "And to the fella {{blank}} there with the hella good 〔第 32 題〕",
           "promptZh": "還有那邊那個頭髮超讚的傢伙",
           "options": [
-            "over",
+            "in",
             "here",
-            "in"
+            "over"
           ],
           "answer": "over"
         },
@@ -1779,9 +1779,9 @@
           "prompt": "I {{blank}} 〔第 2 題〕 〔第 3 題〕",
           "promptZh": "我總是在外逗留到太晚",
           "options": [
-            "wait",
+            "stay",
             "go",
-            "stay"
+            "wait"
           ],
           "answer": "stay"
         },
@@ -1791,9 +1791,9 @@
           "prompt": "I 〔第 1 題〕 {{blank}} 〔第 3 題〕",
           "promptZh": "我總是在外逗留到太晚",
           "options": [
-            "out too",
+            "out so",
             "out very",
-            "out so"
+            "out too"
           ],
           "answer": "out too"
         },
@@ -1816,8 +1816,8 @@
           "promptZh": "腦子裡空空如也",
           "options": [
             "Keep",
-            "Have",
-            "Got"
+            "Got",
+            "Have"
           ],
           "answer": "Got"
         },
@@ -1839,9 +1839,9 @@
           "prompt": "That's what people {{blank}}, mmm-mmm",
           "promptZh": "人們就是這麼說，嗯哼",
           "options": [
-            "say",
+            "know",
             "think",
-            "know"
+            "say"
           ],
           "answer": "say"
         },
@@ -1864,8 +1864,8 @@
           "promptZh": "我約會次數太多",
           "options": [
             "trips",
-            "nights",
-            "dates"
+            "dates",
+            "nights"
           ],
           "answer": "dates"
         },
@@ -1875,9 +1875,9 @@
           "prompt": "{{blank}} what people say, mmm-mmm",
           "promptZh": "至少人們是這麼說，嗯哼",
           "options": [
-            "At least that's",
+            "Or so that's",
             "At least it's",
-            "Or so that's"
+            "At least that's"
           ],
           "answer": "At least that's"
         },
@@ -1911,8 +1911,8 @@
           "prompt": "{{blank}} 〔第 13 題〕",
           "promptZh": "就像我腦中有這段旋律",
           "options": [
-            "It's like I got this",
             "It's like I got the",
+            "It's like I got this",
             "It feels like I got this"
           ],
           "answer": "It's like I got this"
@@ -1923,9 +1923,9 @@
           "prompt": "〔第 12 題〕 {{blank}}",
           "promptZh": "就像我腦中有這段旋律",
           "options": [
-            "rhythm",
+            "music",
             "feeling",
-            "music"
+            "rhythm"
           ],
           "answer": "music"
         },
@@ -1971,8 +1971,8 @@
           "prompt": "'Cause the players gonna {{blank}}, play, play, play, play",
           "promptZh": "因為情場浪子會繼續玩樂，玩、玩、玩、 玩、玩",
           "options": [
-            "win",
             "play",
+            "win",
             "stay"
           ],
           "answer": "play"
@@ -1984,8 +1984,8 @@
           "promptZh": "而酸民們會繼續討厭，恨、恨、恨、恨、恨",
           "options": [
             "wait",
-            "hate",
-            "break"
+            "break",
+            "hate"
           ],
           "answer": "hate"
         },
@@ -1995,8 +1995,8 @@
           "prompt": "Baby, I'm {{blank}} 〔第 20 題〕, 〔第 21 題〕, shake, shake, shake",
           "promptZh": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
           "options": [
-            "just gonna",
             "still wanna",
+            "just gonna",
             "only gotta"
           ],
           "answer": "just gonna"
@@ -2007,9 +2007,9 @@
           "prompt": "Baby, I'm 〔第 19 題〕 {{blank}}, 〔第 21 題〕, shake, shake, shake",
           "promptZh": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
           "options": [
-            "break",
+            "shake",
             "fake",
-            "shake"
+            "break"
           ],
           "answer": "shake"
         },
@@ -2031,9 +2031,9 @@
           "prompt": "I {{blank}}, I 〔第 23 題〕",
           "promptZh": "我會甩掉它，我會甩掉它",
           "options": [
-            "shake it off",
+            "throw it off",
             "shake it out",
-            "throw it off"
+            "shake it off"
           ],
           "answer": "shake it off"
         },
@@ -2056,8 +2056,8 @@
           "promptZh": "碎心者會繼續傷人，碎、碎、碎、碎、 碎",
           "options": [
             "fake",
-            "break",
-            "hate"
+            "hate",
+            "break"
           ],
           "answer": "break"
         },
@@ -2068,8 +2068,8 @@
           "promptZh": "而偽君子會繼續偽裝，假、假、假、假、假",
           "options": [
             "shake",
-            "break",
-            "fake"
+            "fake",
+            "break"
           ],
           "answer": "fake"
         },
@@ -2080,8 +2080,8 @@
           "promptZh": "我從不亂了節拍",
           "options": [
             "step",
-            "chance",
-            "beat"
+            "beat",
+            "chance"
           ],
           "answer": "beat"
         },
@@ -2092,8 +2092,8 @@
           "promptZh": "我的腳步快如閃電",
           "options": [
             "toes",
-            "feet",
-            "heels"
+            "heels",
+            "feet"
           ],
           "answer": "feet"
         },
@@ -2103,9 +2103,9 @@
           "prompt": "And that's what they don't {{blank}}, mmm-mmm",
           "promptZh": "而這是他們看不見的，嗯哼",
           "options": [
-            "know",
+            "see",
             "hear",
-            "see"
+            "know"
           ],
           "answer": "see"
         },
@@ -2115,8 +2115,8 @@
           "prompt": "I'm dancing on my {{blank}} (dancing on my own)",
           "promptZh": "我獨自起舞（獨自起舞）",
           "options": [
-            "own",
             "side",
+            "own",
             "way"
           ],
           "answer": "own"
@@ -2127,9 +2127,9 @@
           "prompt": "I make the {{blank}} up as I go (moves up as I go)",
           "promptZh": "我一邊跳一邊自編舞步（自編舞步）",
           "options": [
-            "steps",
+            "moves",
             "rules",
-            "moves"
+            "steps"
           ],
           "answer": "moves"
         },
@@ -2140,8 +2140,8 @@
           "promptZh": "而這是他們不知道的，嗯哼",
           "options": [
             "care",
-            "know",
-            "see"
+            "see",
+            "know"
           ],
           "answer": "know"
         },
@@ -2199,8 +2199,8 @@
           "prompt": "Just 〔第 34 題〕 while you've been getting 〔第 35 題〕 and out about the liars and the dirty, dirty {{blank}} of the world,",
           "promptZh": "想想看，當你一直為這世上那些騙子和骯髒透頂的騙子感到沮喪失落時，",
           "options": [
-            "liars",
             "cheats",
+            "liars",
             "fakes"
           ],
           "answer": "cheats"
@@ -2212,8 +2212,8 @@
           "promptZh": "你本可以跟著這超讚的節奏盡情搖擺。",
           "options": [
             "song",
-            "track",
-            "beat"
+            "beat",
+            "track"
           ],
           "answer": "beat"
         },
@@ -2223,8 +2223,8 @@
           "prompt": "My ex-man brought his new {{blank}}",
           "promptZh": "我的前任帶來了他的新女友",
           "options": [
-            "girlfriend",
             "lady",
+            "girlfriend",
             "woman"
           ],
           "answer": "girlfriend"
@@ -2248,8 +2248,8 @@
           "promptZh": "還有那邊那個頭髮超讚的傢伙",
           "options": [
             "style",
-            "hair",
-            "looks"
+            "looks",
+            "hair"
           ],
           "answer": "hair"
         }
@@ -2566,8 +2566,8 @@
           "promptZh": "我總是在外逗留到太晚",
           "options": [
             "wait",
-            "go",
-            "stay"
+            "stay",
+            "go"
           ],
           "answer": "stay"
         },
@@ -2637,8 +2637,8 @@
           "prompt": "That's what people {{blank}}, mmm-mmm",
           "promptZh": "人們就是這麼說，嗯哼",
           "options": [
-            "say",
             "think",
+            "say",
             "know"
           ],
           "answer": "say"
@@ -2650,8 +2650,8 @@
           "promptZh": "我約會次數太多",
           "options": [
             "I went on",
-            "I go on",
-            "I'm going on"
+            "I'm going on",
+            "I go on"
           ],
           "answer": "I go on"
         },
@@ -2673,9 +2673,9 @@
           "prompt": "{{blank}} make them stay",
           "promptZh": "卻無法讓他們留下",
           "options": [
-            "But I can't",
+            "But I won't",
             "But I don't",
-            "But I won't"
+            "But I can't"
           ],
           "answer": "But I can't"
         },
@@ -2686,8 +2686,8 @@
           "promptZh": "至少人們是這麼說，嗯哼",
           "options": [
             "Or so that's",
-            "At least it's",
-            "At least that's"
+            "At least that's",
+            "At least it's"
           ],
           "answer": "At least that's"
         },
@@ -2697,9 +2697,9 @@
           "prompt": "{{blank}}",
           "promptZh": "但我繼續愜意前行",
           "options": [
-            "But I keep cruising",
+            "But I am cruising",
             "But I keep moving",
-            "But I am cruising"
+            "But I keep cruising"
           ],
           "answer": "But I keep cruising"
         },
@@ -2709,8 +2709,8 @@
           "prompt": "{{blank}} 〔第 14 題〕",
           "promptZh": "停不下來，絕不停下腳步",
           "options": [
-            "Can't stop, won't stop",
             "Can't stop, don't stop",
+            "Can't stop, won't stop",
             "Can't stop, can't stop"
           ],
           "answer": "Can't stop, won't stop"
@@ -2721,9 +2721,9 @@
           "prompt": "〔第 13 題〕 {{blank}}",
           "promptZh": "停不下來，絕不停下腳步",
           "options": [
-            "grooving",
+            "moving",
             "shaking",
-            "moving"
+            "grooving"
           ],
           "answer": "moving"
         },
@@ -2733,9 +2733,9 @@
           "prompt": "{{blank}} 〔第 16 題〕",
           "promptZh": "就像我腦中有這段旋律",
           "options": [
-            "It's like I got this",
+            "It feels like I got this",
             "It's like I got the",
-            "It feels like I got this"
+            "It's like I got this"
           ],
           "answer": "It's like I got this"
         },
@@ -2746,8 +2746,8 @@
           "promptZh": "就像我腦中有這段旋律",
           "options": [
             "rhythm",
-            "feeling",
-            "music"
+            "music",
+            "feeling"
           ],
           "answer": "music"
         },
@@ -2757,8 +2757,8 @@
           "prompt": "In my {{blank}}",
           "promptZh": "在我的腦海裡",
           "options": [
-            "head",
             "mind",
+            "head",
             "heart"
           ],
           "answer": "mind"
@@ -2781,8 +2781,8 @@
           "prompt": "{{blank}}, 〔第 20 題〕, play, play, play",
           "promptZh": "因為情場浪子會繼續玩樂，玩、玩、玩、 玩、玩",
           "options": [
-            "'Cause the players gonna play",
             "'Cause the players are gonna play",
+            "'Cause the players gonna play",
             "'Cause the players will play"
           ],
           "answer": "'Cause the players gonna play"
@@ -2794,8 +2794,8 @@
           "promptZh": "因為情場浪子會繼續玩樂，玩、玩、玩、 玩、玩",
           "options": [
             "win",
-            "play",
-            "stay"
+            "stay",
+            "play"
           ],
           "answer": "play"
         },
@@ -2805,8 +2805,8 @@
           "prompt": "{{blank}}, 〔第 22 題〕, hate, hate, hate",
           "promptZh": "而酸民們會繼續討厭，恨、恨、恨、恨、恨",
           "options": [
-            "And the haters gonna hate",
             "And the haters are gonna hate",
+            "And the haters gonna hate",
             "And the haters will hate"
           ],
           "answer": "And the haters gonna hate"
@@ -2818,8 +2818,8 @@
           "promptZh": "而酸民們會繼續討厭，恨、恨、恨、恨、恨",
           "options": [
             "wait",
-            "hate",
-            "break"
+            "break",
+            "hate"
           ],
           "answer": "hate"
         },
@@ -2842,8 +2842,8 @@
           "promptZh": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
           "options": [
             "break",
-            "fake",
-            "shake"
+            "shake",
+            "fake"
           ],
           "answer": "shake"
         },
@@ -2854,8 +2854,8 @@
           "promptZh": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
           "options": [
             "dance",
-            "shake",
-            "move"
+            "move",
+            "shake"
           ],
           "answer": "shake"
         },
@@ -2877,8 +2877,8 @@
           "prompt": "I 〔第 26 題〕, I {{blank}}",
           "promptZh": "我會甩掉它，我會甩掉它",
           "options": [
-            "shake it off",
             "shake it out",
+            "shake it off",
             "throw it off"
           ],
           "answer": "shake it off"
@@ -2889,8 +2889,8 @@
           "prompt": "Heart-breakers gonna {{blank}}, break, break, break, break",
           "promptZh": "碎心者會繼續傷人，碎、碎、碎、碎、 碎",
           "options": [
-            "fake",
             "break",
+            "fake",
             "hate"
           ],
           "answer": "break"
@@ -2925,8 +2925,8 @@
           "prompt": "I {{blank}}, I shake it off",
           "promptZh": "我會甩掉它，我會甩掉它",
           "options": [
-            "shake it off",
             "shake it all off",
+            "shake it off",
             "throw it off"
           ],
           "answer": "shake it off"
@@ -2950,8 +2950,8 @@
           "promptZh": "我的腳步快如閃電",
           "options": [
             "toes",
-            "feet",
-            "heels"
+            "heels",
+            "feet"
           ],
           "answer": "feet"
         },
@@ -2961,9 +2961,9 @@
           "prompt": "And that's what they don't {{blank}}, mmm-mmm",
           "promptZh": "而這是他們看不見的，嗯哼",
           "options": [
-            "know",
+            "see",
             "hear",
-            "see"
+            "know"
           ],
           "answer": "see"
         },
@@ -2973,8 +2973,8 @@
           "prompt": "I'm dancing on my {{blank}} (dancing on my own)",
           "promptZh": "我獨自起舞（獨自起舞）",
           "options": [
-            "own",
             "side",
+            "own",
             "way"
           ],
           "answer": "own"
@@ -2985,9 +2985,9 @@
           "prompt": "I make the {{blank}} up as I 〔第 37 題〕 (moves up as I go)",
           "promptZh": "我一邊跳一邊自編舞步（自編舞步）",
           "options": [
-            "steps",
+            "moves",
             "rules",
-            "moves"
+            "steps"
           ],
           "answer": "moves"
         },
@@ -2997,9 +2997,9 @@
           "prompt": "I make the 〔第 36 題〕 up as I {{blank}} (moves up as I go)",
           "promptZh": "我一邊跳一邊自編舞步（自編舞步）",
           "options": [
-            "go",
+            "move",
             "dance",
-            "move"
+            "go"
           ],
           "answer": "go"
         },
@@ -3022,8 +3022,8 @@
           "promptZh": "但我繼續愜意前行",
           "options": [
             "moving",
-            "cruising",
-            "driving"
+            "driving",
+            "cruising"
           ],
           "answer": "cruising"
         },
@@ -3045,8 +3045,8 @@
           "prompt": "{{blank}} this music",
           "promptZh": "就像我腦中有這段旋律",
           "options": [
-            "It's like I got",
             "It's like I've got",
+            "It's like I got",
             "It's like I have"
           ],
           "answer": "It's like I got"
@@ -3057,9 +3057,9 @@
           "prompt": "{{blank}}, \"It's gonna be 〔第 43 題〕.\"",
           "promptZh": "說著：「一切都會好起來的。」",
           "options": [
-            "Knowing",
+            "Saying",
             "Thinking",
-            "Saying"
+            "Knowing"
           ],
           "answer": "Saying"
         },
@@ -3070,8 +3070,8 @@
           "promptZh": "說著：「一切都會好起來的。」",
           "options": [
             "okay",
-            "fine",
-            "alright"
+            "alright",
+            "fine"
           ],
           "answer": "alright"
         },
@@ -3081,9 +3081,9 @@
           "prompt": "Just {{blank}} while you've been getting 〔第 45 題〕 and out about the liars and the dirty, dirty 〔第 46 題〕 of the world,",
           "promptZh": "想想看，當你一直為這世上那些騙子和骯髒透頂的騙子感到沮喪失落時，",
           "options": [
-            "think",
+            "say",
             "know",
-            "say"
+            "think"
           ],
           "answer": "think"
         },
@@ -3093,9 +3093,9 @@
           "prompt": "Just 〔第 44 題〕 while you've been getting {{blank}} and out about the liars and the dirty, dirty 〔第 46 題〕 of the world,",
           "promptZh": "想想看，當你一直為這世上那些騙子和骯髒透頂的騙子感到沮喪失落時，",
           "options": [
-            "up",
+            "down",
             "out",
-            "down"
+            "up"
           ],
           "answer": "down"
         },
@@ -3129,9 +3129,9 @@
           "prompt": "My ex-man brought his new {{blank}}",
           "promptZh": "我的前任帶來了他的新女友",
           "options": [
-            "girlfriend",
+            "woman",
             "lady",
-            "woman"
+            "girlfriend"
           ],
           "answer": "girlfriend"
         },
@@ -3141,8 +3141,8 @@
           "prompt": "And to the fella {{blank}} there with the hella good 〔第 50 題〕",
           "promptZh": "還有那邊那個頭髮超讚的傢伙",
           "options": [
-            "over",
             "here",
+            "over",
             "in"
           ],
           "answer": "over"
@@ -3153,8 +3153,8 @@
           "prompt": "And to the fella 〔第 49 題〕 there with the hella good {{blank}}",
           "promptZh": "還有那邊那個頭髮超讚的傢伙",
           "options": [
-            "style",
             "hair",
+            "style",
             "looks"
           ],
           "answer": "hair"
