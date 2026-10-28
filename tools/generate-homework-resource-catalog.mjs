@@ -1,3 +1,5 @@
+import { PAPER3_WRITING_TOPICS } from '../paper3-writing-topics.mjs';
+import { speakingTopicLabel } from '../writing-speaking-topics.mjs';
 import { readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import vm from "node:vm";
@@ -928,6 +930,12 @@ const resources = [
     systemLabel: "Phrasal Verb",
     page: "phrasal-verb-system.html"
   }),
+  ...Array.from({length:6},(_,i)=>({id:`logic-reading:${i+1}`,type:'logic-reading',ordinal:i+1,label:`Logic Reading · Module ${i+1}`,detail:'閱讀邏輯 · 互動教材',url:`reading-logic-module-${i+1}.html`})),
+  ...PAPER3_WRITING_TOPICS.map(t=>({...t,id:t.id.replace('fill:','writing-submission:'),type:'writing-submission',url:`writing-submission.html?exercise=${t.id.slice(5)}`})),
+  ...(await Promise.all(['dse-group','dse-individual','ielts-1','ielts-2','ielts-3'].map(async category=>{
+    const data=JSON.parse(await readFile(path.join(root,`writing-speaking-topics-${category}.json`),'utf8'));
+    return data.questions.map(t=>({id:`writing-submission:speaking:${t.id}`,type:'writing-submission',label:speakingTopicLabel(t),detail:t.question,sectionKey:category.startsWith('dse')?'dse-speaking':'ielts-speaking',speakingCategory:category,url:`writing-submission.html?speakingTopic=${t.id}`}));
+  }))).flat(),
   ...await registeredProviderResources(allFiles)
 ]
   .sort((left, right) => left.type.localeCompare(right.type) || left.label.localeCompare(right.label, "en", { numeric: true }));

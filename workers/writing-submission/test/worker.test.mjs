@@ -588,6 +588,7 @@ test("missing grammar AI bindings do not disable existing writing service routes
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -616,6 +617,7 @@ test("student profile permissions fail closed when Supabase returns malformed ac
     if (rpc.name === "writing_submission_student_profile") {
       return jsonResponse(studentProfile({ access: { "ielts-writing": "false" } }));
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -642,6 +644,7 @@ test("student profile ignores reserved admin-message metadata but validates real
         }
       }));
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -671,6 +674,7 @@ test("student profile rejects non-reserved string metadata in the permission map
         }
       }));
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -694,6 +698,7 @@ test("an exact teacher-approved corpus sentence works without AI or an extra Sup
       assert.deepEqual(rpc.body, { p_token: STUDENT_TOKEN });
       return jsonResponse(studentProfile());
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -783,6 +788,7 @@ test("70B audit materializes every safe edit from correctedSentence despite malf
       assert.deepEqual(rpc.body, { p_token: STUDENT_TOKEN });
       return jsonResponse(studentProfile());
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -838,6 +844,7 @@ test("unsafe 70B generation and audit trigger one independent 8B review of the o
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -879,6 +886,7 @@ test("audit completes errors that the primary corrected sentence missed", async 
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -932,6 +940,7 @@ test("audit can make bounded phrase/countability and conditional-modal repairs",
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -967,6 +976,7 @@ test("audit reversal to the unchanged source cannot erase a valid changed primar
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -993,6 +1003,7 @@ test("70B provider failures retain strict-primary and independent-8B fallbacks",
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -1046,6 +1057,7 @@ test("authenticated grammar checking returns three normalized issues for the Tom
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -1101,6 +1113,7 @@ test("Tom love eat food returns both independent corrections and advertises the 
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -1138,6 +1151,7 @@ test("dependent verb phrases combine into one coherent hate-school correction", 
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -1175,6 +1189,7 @@ test("ambiguous read keeps its possible past tense and corrects the complete rem
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -1213,6 +1228,7 @@ test("an ambiguous read-to-reads guess invalidates the complete AI result", asyn
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -1274,6 +1290,7 @@ test("a grammatically acceptable control returns an empty issue list without sto
     const rpc = rpcRequest(input, init);
     rpcCount += 1;
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -1297,6 +1314,7 @@ test("an empty issue list may not claim a different correctedSentence", async t 
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -1377,6 +1395,7 @@ test("grammar check bodies must have the exact shape and a completed sentence", 
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -1417,6 +1436,7 @@ test("Workers AI daily quota exhaustion stops retries and returns a specific pri
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -1453,6 +1473,7 @@ test("provider rate limits and timeouts stop model repeats and expose precise pr
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -1505,6 +1526,7 @@ test("an invalid first grammar result is retried once and returns the complete v
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -1551,6 +1573,7 @@ test("an incoherent enjoy-school composite is rejected and repaired as a whole",
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -1608,6 +1631,7 @@ test("a correctedSentence that does not equal its issues is retried", async t =>
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -1631,6 +1655,7 @@ test("two malformed edit maps recover when both checks agree on the same complet
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -1679,6 +1704,7 @@ test("the two screenshot sentences accept coherent primary batches in one call",
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -1744,6 +1770,7 @@ test("every correction survives multi-error sentence batches and malformed-map r
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -1931,6 +1958,7 @@ test("the three newest learner sentences route malformed 8B maps to one complete
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -2080,6 +2108,7 @@ test("the two failed screenshot sentences recover from invalid model positions",
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -2147,6 +2176,7 @@ test("unseen learner wording receives the same general deterministic recovery", 
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -2176,6 +2206,7 @@ test("deterministic recovery restores quoted titles by ordinal and rejects quote
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -2318,6 +2349,7 @@ test("deterministic recovery refuses safe-looking semantic rewrites", async t =>
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -2381,6 +2413,7 @@ test("valid model maps cannot bypass protected meaning, numbers or quoted text",
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -2483,6 +2516,7 @@ test("two malformed edit maps recover the agreed modal and plural correction", a
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -2533,6 +2567,7 @@ test("a malformed edit map is rebuilt from a safe corrected sentence", async t =
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -2570,6 +2605,7 @@ test("deterministic recovery rejects unchanged and still-ungrammatical candidate
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -2630,6 +2666,7 @@ test("a provider error on the repair pass returns a private 503 after exactly tw
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -2658,6 +2695,7 @@ test("source-aware complement guards preserve valid infinitives and specific sch
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -2696,6 +2734,7 @@ test("accepted regression corrections stay resolved without another model rewrit
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -2735,6 +2774,7 @@ test("two invalid grammar results return a privacy-safe inconclusive response", 
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -2779,6 +2819,7 @@ test("overlapping first suggestions are repaired on retry without dropping eithe
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -2829,6 +2870,7 @@ test("two unsafe corrected sentences return one privacy-safe inconclusive respon
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -2869,6 +2911,7 @@ test("a provider error on the independent fallback remains private", async t => 
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -2905,6 +2948,7 @@ test("provider failures return a generic 503 without logging sentence or provide
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -2939,7 +2983,7 @@ test("a valid submission derives its owner and word count on the Worker", async 
       assert.equal(rpc.body.p_token, STUDENT_TOKEN);
       return jsonResponse(studentProfile());
     }
-    if (rpc.name === "writing_submission_submit_v5") {
+    if (rpc.name === "writing_submission_submit_v6") {
       submittedPayload = rpc.body;
       return jsonResponse([{
         id: rpc.body.p_id,
@@ -2951,6 +2995,7 @@ test("a valid submission derives its owner and word count on the Worker", async 
         submitted_at: "2026-07-31T00:00:00.000Z"
       }]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -2992,7 +3037,8 @@ test("submission payloads cannot choose a student ID or add unknown fields", asy
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_submit_v5") submitCalled = true;
+    if (rpc.name === "writing_submission_submit_v6") submitCalled = true;
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3025,7 +3071,8 @@ test("submission writes require JSON and are bounded before the storage RPC", as
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_submit_v5") submitCalled = true;
+    if (rpc.name === "writing_submission_submit_v6") submitCalled = true;
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3050,7 +3097,7 @@ test("submission topic resources must be canonical and available to the authenti
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile({ access }));
-    if (rpc.name === "writing_submission_submit_v5") {
+    if (rpc.name === "writing_submission_submit_v6") {
       submitCalled = true;
       assert.deepEqual(rpc.body.p_topic_resource, CANONICAL_DSE_TOPIC);
       return jsonResponse([{
@@ -3063,6 +3110,7 @@ test("submission topic resources must be canonical and available to the authenti
         topic_resource: CANONICAL_DSE_TOPIC
       }]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3147,6 +3195,7 @@ test("student history is paginated and full detail includes grammar occurrences"
         detected_at: "2026-07-31T00:00:00.000Z"
       }]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3186,6 +3235,7 @@ test("grammar batches preserve stable identifiers and return dedupe counts", asy
       issuePayload = rpc.body;
       return jsonResponse([{ accepted_count: 1, inserted_count: 1 }]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3230,6 +3280,7 @@ test("legacy grammar batches derive a full corrected sentence during a rolling r
       issuePayload = rpc.body;
       return jsonResponse([{ accepted_count: 1, inserted_count: 1 }]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3268,6 +3319,7 @@ test("two concrete occurrences of the same rule remain separate in one compositi
       issuePayload = rpc.body;
       return jsonResponse([{ accepted_count: 2, inserted_count: 2 }]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3318,6 +3370,7 @@ test("duplicate grammar fingerprints are rejected before the storage RPC", async
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
     if (rpc.name === "writing_submission_record_issue_batch") issueRpcCalled = true;
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3390,6 +3443,7 @@ test("grammar problem log maps durable per-rule aggregates", async t => {
         last_seen_at: "2026-07-31T00:00:00.000Z"
       }]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3431,6 +3485,7 @@ test("students can page only their own detailed occurrences for one grammar cate
         source_deleted_at: null
       }]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3466,6 +3521,7 @@ test("grammar detection preference is account-backed and can be switched off", a
         updated_at: "2026-08-03T00:00:00.000Z"
       }]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3509,6 +3565,7 @@ test("writing progress returns exact daily, average and cumulative values", asyn
         cumulative_time_seconds: 4200
       }]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3538,6 +3595,7 @@ test("student deletion is recoverable and uses the soft-delete RPC", async t => 
       deletePayload = rpc.body;
       return jsonResponse([{ id: SUBMISSION_ID, deleted_at: "2026-08-03T01:02:03.000Z" }]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3631,6 +3689,7 @@ test("administrator list and detail routes use only the dedicated admin token", 
     }
     if (rpc.name === 'writing_submission_admin_brainstorm_get') return jsonResponse('Student notes.');
     if (rpc.name === "writing_submission_admin_list_occurrences") return jsonResponse([]);
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3691,6 +3750,7 @@ test("administrator proxy submissions are authenticated, normalized and audited 
         topic_resource: null
       }]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3733,6 +3793,7 @@ test("students can read only published feedback belonging to their submission", 
       });
       return jsonResponse([storedFeedback()]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3778,6 +3839,7 @@ test("legacy stored feedback emits the complete enhanced fragment shape", async 
         }]
       })]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3812,6 +3874,7 @@ test("student feedback returns null while no published feedback exists", async t
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
     if (rpc.name === "writing_submission_feedback_student_open_v5") return jsonResponse([]);
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3852,6 +3915,7 @@ test("student list exposes published and unread feedback state and opening marks
         topic_resource: CANONICAL_DSE_TOPIC
       })]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3894,6 +3958,7 @@ test("student transcription save is owner-scoped and maps version conflicts", as
         updated_at: "2026-08-12T05:00:00.000Z"
       }]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -3940,6 +4005,7 @@ test("published admin feedback allows optional headers and carries the improved 
         version: 1
       })]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -4008,6 +4074,7 @@ test("administrator can load, save and delete structured teacher feedback", asyn
       assert.equal(rpc.body.p_expected_feedback_id, FEEDBACK_ID);
       return jsonResponse(1);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -4093,6 +4160,7 @@ test("legacy two-field feedback saves are normalized before storage", async t =>
         version: 1
       })]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -4153,6 +4221,7 @@ test("published enhanced feedback does not require suggested writing", async t =
         version: 1
       })]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -4196,6 +4265,7 @@ test("feedback formatting rejects invalid shapes, ranges, styles and oversized a
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
     if (rpc.name === "writing_submission_feedback_admin_save_v5") saveCalled = true;
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -4268,6 +4338,7 @@ test("published feedback rejects incomplete fragment pairs before storage", asyn
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
     if (rpc.name === "writing_submission_feedback_admin_save_v5") saveCalled = true;
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -4304,6 +4375,7 @@ test("feedback saves require a valid version and matching feedback identity shap
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
     if (rpc.name === "writing_submission_feedback_admin_save_v5") saveCalled = true;
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -4351,6 +4423,7 @@ test("stale administrator feedback saves return a specific 409 without exposing 
         message: "private database detail must not be exposed"
       }, 400);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -4393,6 +4466,7 @@ test("feedback deletion requires the current expected version and rejects stale 
       assert.equal(rpc.body.p_expected_version, 2);
       return jsonResponse({ code: "P4090", message: "private database detail" }, 400);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -4600,6 +4674,7 @@ test("student feedback returns learning sections and owner-specific fragment sta
         }]
       })]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -4674,6 +4749,7 @@ test("students save a bounded per-fragment suggestion copy with optimistic concu
         updated_at: "2026-08-14T10:00:00.000Z"
       }]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -4748,6 +4824,7 @@ test("students save each published enhancement copy with owner scope and optimis
         updated_at: "2026-08-20T10:00:00.000Z"
       }]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -4842,6 +4919,7 @@ test("student bookmark list and idempotent state updates stay owner-derived and 
         updated_at: "2026-08-14T11:05:00.000Z"
       }]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -4924,6 +5002,7 @@ test("administrator learning tools use exact rich-text shapes and internal sente
         sentence_structure_links: rpc.body.p_sentence_structure_links
       })]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -5005,6 +5084,7 @@ test("rich-text formatting offsets use JavaScript UTF-16 positions after emoji",
         version: 3
       })]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -5092,6 +5172,7 @@ test("structured sentence and rhetorical parts preserve order and expanded forma
         version: 1
       })]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -5181,6 +5262,7 @@ test("administrator feedback round-trips all three additional enhancement sectio
         version: 1
       })]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -5261,6 +5343,7 @@ test("synonym table rows round-trip one bounded persisted column layout", async 
         version: 1
       })]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -5315,6 +5398,7 @@ test("structured feedback parts reject malformed and unbounded input before stor
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_admin_me") return jsonResponse(adminProfile());
     if (rpc.name === "writing_submission_feedback_admin_save_v5") saveCalls += 1;
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -5441,6 +5525,7 @@ test("the missing-explanation queue is available only through administrator auth
         source_deleted_at: null
       }]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -5491,11 +5576,12 @@ test("student drafts round-trip only through their authenticated owner", async t
     const rpc = rpcRequest(input, init);
     calls.push(rpc);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_save_draft_v2") return jsonResponse([draftRow]);
+    if (rpc.name === "writing_submission_save_draft_v3") return jsonResponse([draftRow]);
     if (rpc.name === "writing_submission_list_drafts") return jsonResponse([draftRow]);
     if (rpc.name === "writing_submission_get_draft") return jsonResponse([draftRow]);
     if (rpc.name === 'writing_submission_draft_planning_get') return jsonResponse([{brainstorm:'Plan first.',function_helper:{active:false,enabled:[],values:{},unassigned:''},draft_helper_open:true}]);
     if (rpc.name === "writing_submission_delete_draft") return jsonResponse(1);
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -5525,7 +5611,7 @@ test("student drafts round-trip only through their authenticated owner", async t
     }
   ), environment());
   assert.equal(putResponse.status, 200, await putResponse.clone().text());
-  const savedCall = calls.find(call => call.name === "writing_submission_save_draft_v2");
+  const savedCall = calls.find(call => call.name === "writing_submission_save_draft_v3");
   assert.equal(savedCall.body.p_student_id, STUDENT_ID);
   assert.equal(savedCall.body.p_id, SUBMISSION_ID);
   assert.equal(savedCall.body.p_image_zoom_tenths, 30);
@@ -5540,7 +5626,7 @@ test("student drafts round-trip only through their authenticated owner", async t
     body: JSON.stringify({ ...draftPayload, topic: '', answer: '', brainstorm: 'A preliminary outline.' })
   }), environment());
   assert.equal(planningOnly.status, 200, await planningOnly.clone().text());
-  assert.equal(calls.filter(call => call.name === 'writing_submission_save_draft_v2').at(-1).body.p_brainstorm, 'A preliminary outline.');
+  assert.equal(calls.filter(call => call.name === 'writing_submission_save_draft_v3').at(-1).body.p_brainstorm, 'A preliminary outline.');
 
   const listResponse = await worker.fetch(new Request(
     "https://worker.example/v1/drafts?page=1&pageSize=20",
@@ -5578,15 +5664,16 @@ test("trusted R2 question images save as canonical paths in drafts and submissio
     const rpc = rpcRequest(input, init);
     calls.push(rpc);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_save_draft_v2") {
+    if (rpc.name === "writing_submission_save_draft_v3") {
       return jsonResponse([{ id: SUBMISSION_ID, topic: rpc.body.p_topic, topic_resource: rpc.body.p_topic_resource }]);
     }
-    if (rpc.name === "writing_submission_submit_v5") {
+    if (rpc.name === "writing_submission_submit_v6") {
       return jsonResponse([{
         id: SUBMISSION_ID, topic: rpc.body.p_topic, word_count: rpc.body.p_word_count,
         topic_resource: rpc.body.p_topic_resource
       }]);
     }
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -5617,7 +5704,7 @@ test("trusted R2 question images save as canonical paths in drafts and submissio
     })
   }), environment());
   assert.equal(draft.status, 200, await draft.clone().text());
-  assert.deepEqual(calls.find(call => call.name === "writing_submission_save_draft_v2").body.p_topic_resource, CANONICAL_DSE_TOPIC);
+  assert.deepEqual(calls.find(call => call.name === "writing_submission_save_draft_v3").body.p_topic_resource, CANONICAL_DSE_TOPIC);
 
   const submission = await worker.fetch(new Request(`https://worker.example/v1/submissions/${SUBMISSION_ID}`, {
     method: "PUT", headers,
@@ -5627,7 +5714,7 @@ test("trusted R2 question images save as canonical paths in drafts and submissio
     })
   }), environment());
   assert.equal(submission.status, 200, await submission.clone().text());
-  assert.deepEqual(calls.find(call => call.name === "writing_submission_submit_v5").body.p_topic_resource, CANONICAL_DSE_TOPIC);
+  assert.deepEqual(calls.find(call => call.name === "writing_submission_submit_v6").body.p_topic_resource, CANONICAL_DSE_TOPIC);
 });
 
 test("draft topic images reject remote and embedded sources before storage", async t => {
@@ -5637,7 +5724,8 @@ test("draft topic images reject remote and embedded sources before storage", asy
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
-    if (rpc.name === "writing_submission_save_draft_v2") saveCalled = true;
+    if (rpc.name === "writing_submission_save_draft_v3") saveCalled = true;
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -5724,6 +5812,7 @@ test("administrator grammar inspection and destructive controls require exact co
     }
     if (rpc.name === "writing_submission_admin_delete_occurrence") return jsonResponse(1);
     if (rpc.name === "writing_submission_admin_delete_problem_category") return jsonResponse(2);
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -5790,6 +5879,7 @@ test("public grammar responses expose only Edmund-neutral engine metadata", asyn
   globalThis.fetch = async (input, init = {}) => {
     const rpc = rpcRequest(input, init);
     if (rpc.name === "writing_submission_student_profile") return jsonResponse(studentProfile());
+    if (rpc.name === "writing_materials_get") return jsonResponse({});
     if (rpc.name === "writing_feedback_extensions_get") return jsonResponse({});
     throw new Error(`Unexpected RPC ${rpc.name}`);
   };
@@ -6461,4 +6551,19 @@ test("administrator can hide and restore feedback without deleting its content",
   }
   assert.deepEqual(changes.map(change => change.p_hidden), [true, false]);
   assert.deepEqual(changes.map(change => change.p_expected_version), [3, 4]);
+});
+
+test('question images and both supporting-detail drafts travel with the authenticated submission', async t => {
+  const previous=globalThis.fetch;t.after(()=>{globalThis.fetch=previous;});
+  const images=[{src:'data:image/png;base64,aGVsbG8=',alt:'Question chart'}];
+  const helper={active:true,enabled:['body1-secondexamples','body2-firstexplanation'],values:{'body1-secondexamples':'Example two.','body2-firstexplanation':'Reason one.'},unassigned:''};
+  globalThis.fetch=async(input,init={})=>{const call=rpcRequest(input,init);
+    if(call.name==='writing_submission_student_profile')return jsonResponse(studentProfile());
+    assert.equal(call.name,'writing_submission_submit_v6');assert.equal(call.body.p_student_id,STUDENT_ID);assert.deepEqual(call.body.p_question_images,images);assert.deepEqual(call.body.p_function_helper,helper);
+    return jsonResponse([{id:SUBMISSION_ID,topic:call.body.p_topic,answer:call.body.p_answer,question_images:images,function_helper:helper}]);};
+  const request=payload=>new Request(`https://worker.example/v1/submissions/${SUBMISSION_ID}`,{method:'PUT',headers:{Origin:ORIGIN,Authorization:`Bearer ${STUDENT_TOKEN}`,'Content-Type':'application/json'},body:JSON.stringify(payload)});
+  const payload={topic:'Describe the chart.',answer:'There are two groups.',questionImages:images,functionHelper:helper};
+  const response=await worker.fetch(request(payload),environment());assert.equal(response.status,200);const data=await response.json();assert.deepEqual(data.submission.questionImages,images);assert.deepEqual(data.submission.functionHelper,helper);
+  for(const src of ['javascript:alert(1)','data:image/svg+xml;base64,aGVsbG8=','blob:https://example.com/temp']){const bad=await worker.fetch(request({...payload,questionImages:[{src,alt:'bad'}]}),environment());assert.equal(bad.status,400);}
+  const tooMany=await worker.fetch(request({...payload,questionImages:Array(9).fill(images[0])}),environment());assert.equal(tooMany.status,400);
 });

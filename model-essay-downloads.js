@@ -352,6 +352,7 @@
     currentUser: null,
     catalogKey: "task2",
     filter: "all",
+    topicTag: "",
     query: "",
     sort: "number-asc",
     page: 1,
@@ -488,6 +489,7 @@
     byId = new Map(essays.map(item => [item.id, item]));
     state.catalogKey = next.key;
     state.filter = "all";
+    state.topicTag = "";
     state.query = "";
     state.sort = next.initialSort;
     state.page = 1;
@@ -901,6 +903,7 @@
 
   function renderFilterChips() {
     if (!filterChips) return;
+    renderTopicTags();
     filterChips.innerHTML = filters.map(filter => `
       <button class="filter-chip${state.filter === filter.key ? " active" : ""}" type="button"
         data-filter="${escapeHtml(filter.key)}" aria-pressed="${state.filter === filter.key}">
@@ -909,10 +912,34 @@
     `).join("");
   }
 
+  function renderTopicTags() {
+    let box = document.querySelector('[data-topic-tag-browser]');
+    if (!box) {
+      box = document.createElement('details');
+      box.dataset.topicTagBrowser = '';
+      filterChips.after(box);
+    }
+    const tags = [...new Set(essays.flatMap(essay => essayQuestion(essay).tags || []))].sort((a,b)=>a.localeCompare(b));
+    box.hidden = !tags.length;
+    box.replaceChildren();
+    const summary = document.createElement('summary');
+    summary.textContent = `瀏覽全部主題標籤 · ${tags.length}${state.topicTag ? ' · '+state.topicTag : ''}`;
+    box.append(summary);
+    for (const tag of ['', ...tags]) {
+      const button = document.createElement('button');
+      button.type = 'button'; button.className = 'filter-chip';
+      button.textContent = tag || '全部主題';
+      button.setAttribute('aria-pressed', String(state.topicTag === tag));
+      button.onclick = () => { state.topicTag = tag; state.page = 1; renderCatalog(); };
+      box.append(button);
+    }
+  }
+
   function filteredEssays() {
     const query = state.query.trim().toLocaleLowerCase();
     const rows = essays.filter(essay => {
       if (state.filter !== "all" && essay.category !== state.filter) return false;
+      if (state.topicTag && !essayQuestion(essay).tags.includes(state.topicTag)) return false;
       if (!query) return true;
       const detail = essayQuestion(essay);
       return essay.filename.toLocaleLowerCase().includes(query)

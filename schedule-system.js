@@ -1,3 +1,4 @@
+import { TOPIC_PICKER_TRACKS, TOPIC_PICKER_LEAVES, writingTopicInPickerCategory } from './writing-topic-categories.mjs?v=20261028';
 import {mountSystemAccess,loadAccessCatalog} from './system-access-admin.mjs';
 import {
   SCHEDULE_MAX_DATE,
@@ -51,8 +52,8 @@ import {
   normalizeHomeworkResource,
   parseScheduleMessage,
   serializeScheduleMessage
-} from "./schedule-homework-links.mjs?v=20261019-homework-courses1";
-import { HOMEWORK_LINK_EXPORT_SYSTEMS, filterHomeworkLinkExportResources, formatHomeworkExport, formatHomeworkLinkExport, validExportWeek } from "./schedule-homework-export.mjs?v=20261019-homework-courses1";
+} from "./schedule-homework-links.mjs?v=20261028-materials1";
+import { HOMEWORK_LINK_EXPORT_SYSTEMS, filterHomeworkLinkExportResources, formatHomeworkExport, formatHomeworkLinkExport, validExportWeek } from "./schedule-homework-export.mjs?v=20261028-materials1";
 import {
   ScheduleGroupShiftError,
   planScheduleGroupShift
@@ -103,7 +104,7 @@ const COUNTDOWN_STEP = COUNTDOWN_BATCH_SIZE;
 const SPAN_COLUMN_BRIDGE_PX = 32;
 const LONG_PRESS_MS = 2000;
 const MARQUEE_START_DISTANCE = 6;
-const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20261019-homework-courses1";
+const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20261028-materials1";
 const VIDEO_CLASS_HOMEWORK_CATALOG_URL = "https://edmund-video-class.edmundeducation.workers.dev/v1/homework-resources";
 const STUDENT_PROGRESS_WORKER_URL = "https://edmund-student-progress.edmundeducation.workers.dev";
 const STUDENT_ACCOUNT_PAGE_SIZE = 100;
@@ -804,6 +805,32 @@ function closeHomeworkPicker({ keepSearch = false } = {}) {
   if (!keepSearch) elements.homeworkPickerSearch.value = "";
 }
 
+let homeworkWritingCategory = '';
+let homeworkWritingLimit = 60;
+function renderHomeworkWritingCategories(type) {
+  let nav = document.querySelector('[data-homework-writing-categories]');
+  if (!nav) { nav = document.createElement('div'); nav.dataset.homeworkWritingCategories = ''; elements.homeworkPickerSearch.after(nav); }
+  nav.hidden = type !== 'writing-submission';
+  if (nav.hidden || nav.childElementCount) return;
+  for (const [track, parts] of Object.entries(TOPIC_PICKER_TRACKS)) {
+    const group = document.createElement('details');
+    const title = document.createElement('summary'); title.textContent = {dse:'DSE',ielts:'IELTS','non-exam':'Non-exam 非考試'}[track]; group.append(title);
+    for (const part of parts) {
+      const leaves = TOPIC_PICKER_LEAVES[part.id] || [{id:part.category,label:part.label}];
+      const section = document.createElement('div');
+      if (TOPIC_PICKER_LEAVES[part.id]) { const label = document.createElement('strong'); label.textContent = part.label; section.append(label); }
+      for (const leaf of leaves) {
+        const button = document.createElement('button'); button.type='button';button.className='small-button';button.textContent=leaf.label;
+        button.dataset.writingCategory=leaf.id;button.setAttribute('aria-pressed','false');
+        button.onclick=()=>{homeworkWritingCategory=leaf.id;homeworkWritingLimit=60;nav.querySelectorAll('button').forEach(node=>node.setAttribute('aria-pressed',String(node===button)));renderHomeworkPickerResults();};
+        section.append(button);
+      }
+      group.append(section);
+    }
+    nav.append(group);
+  }
+}
+
 function renderHomeworkPickerResults() {
   const type = state.homeworkPickerType;
   if (!type) {
@@ -824,11 +851,12 @@ function renderHomeworkPickerResults() {
     elements.homeworkPickerResults.replaceChildren();
     return;
   }
+  renderHomeworkWritingCategories(type);
   const result = filterHomeworkResources(
-    homeworkResourceCatalog,
+    type === "writing-submission" ? homeworkResourceCatalog.filter(item => writingTopicInPickerCategory(item, homeworkWritingCategory)) : homeworkResourceCatalog,
     type,
     elements.homeworkPickerSearch.value,
-    60
+    type === "writing-submission" ? homeworkWritingLimit : 60
   );
   const pickerNoun = homeworkTypeDefinition(type)?.pickerNoun || "練習";
   elements.homeworkPickerCount.textContent = result.total > result.items.length
@@ -838,7 +866,7 @@ function renderHomeworkPickerResults() {
   if (!result.items.length) {
     const empty = document.createElement("p");
     empty.className = "homework-picker-count";
-    empty.textContent = `找不到相符${pickerNoun}。`;
+    empty.textContent = type === "writing-submission" && !homeworkWritingCategory ? "請先選擇 DSE、IELTS 或 Non-exam，再選部分。" : `找不到相符${pickerNoun}。`;
     elements.homeworkPickerResults.append(empty);
     return;
   }
@@ -861,6 +889,9 @@ function renderHomeworkPickerResults() {
     fragment.append(button);
   }
   elements.homeworkPickerResults.append(fragment);
+  if (type === 'writing-submission' && result.total > result.items.length) {
+    const more=document.createElement('button');more.type='button';more.className='small-button';more.textContent='顯示更多題目';more.onclick=()=>{homeworkWritingLimit+=60;renderHomeworkPickerResults();};elements.homeworkPickerResults.append(more);
+  }
 }
 
 async function openHomeworkPicker(type, { focusSearch = false, replacement = null } = {}) {
@@ -8254,7 +8285,7 @@ elements.entryMessage.addEventListener("keydown", (event) => {
 });
 elements.entryMessage.addEventListener("input", updateHomeworkAutocomplete);
 elements.entryMessage.addEventListener("click", updateHomeworkAutocomplete);
-elements.homeworkPickerSearch?.addEventListener("input", renderHomeworkPickerResults);
+elements.homeworkPickerSearch?.addEventListener("input", () => {homeworkWritingLimit=60;renderHomeworkPickerResults();});
 elements.homeworkPickerClose?.addEventListener("click", () => {
   closeHomeworkPicker();
   elements.entryMessage.focus();
