@@ -2,7 +2,7 @@
   "slug": "open-arms-journey",
   "title": "Open Arms",
   "singer": "Journey",
-  "exercise_name": "Open Arms · Listening",
+  "exercise_name": "Open Arms · Listening & Vocabulary",
   "description": "《Open Arms》描寫一段曾經疏遠、最終重新走在一起的愛情。歌中的主角回憶兩人曾經相愛，卻因種種原因漸漸分開，留下孤獨與思念。失去對方後，他才深深體會到愛人的重要，以及獨自生活的空虛。當對方終於回到身邊，他選擇放下過去的隔閡，毫無保留地敞開雙臂，希望重新建立彼此的信任與感情。「Open Arms」象徵真誠、接納與願意再次付出的勇氣。最終，歌曲傳達的是愛情中的寬恕、珍惜與重逢：即使曾經分離，只要雙方願意敞開心扉，仍有機會重新找回失去的幸福。",
   "tags": [
     "journey",
@@ -271,7 +271,218 @@
       "endSeconds": 178.44
     }
   ],
-  "vocabulary": [],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Beside you",
+      "meaning": "在你旁邊、在你身旁。",
+      "usage": "想說一個人或東西就在另一個人的旁邊時，可以使用 beside + 人／物。",
+      "prompt": "哪一句正確使用了「beside you」？",
+      "options": [
+        "I beside you at school every day.",
+        "My phone is beside you on the table.",
+        "She beside you very happy.",
+        "We go beside you to eat dinner."
+      ],
+      "answer": 1,
+      "explanation": "手機在你旁邊的桌上，正確表示位置。",
+      "optionExplanations": [
+        "beside you 是位置片語，不能直接當動詞；可說 I sit beside you at school every day.",
+        "手機在你旁邊的桌上，正確表示位置。",
+        "缺少動詞，而且 beside you 不能表示「很開心」；可說 She is very happy beside you.",
+        "要說一起去吃飯，通常用 go with you，不是 go beside you；可說 We go with you to eat dinner."
+      ]
+    },
+    {
+      "number": 2,
+      "word": "In the dark",
+      "meaning": "在黑暗中、在沒有光的地方。",
+      "usage": "說房間、街道等地方很暗，或在暗處做某件事時使用。",
+      "prompt": "哪一句正確使用了「in the dark」？",
+      "options": [
+        "I drink in the dark for breakfast.",
+        "She is in the dark years old.",
+        "We cannot see well in the dark.",
+        "This book is in the dark very good."
+      ],
+      "answer": 2,
+      "explanation": "在黑暗中看不清楚，使用正確。",
+      "optionExplanations": [
+        "in the dark 說的是光線，不是飲料；可說 I drink milk for breakfast.",
+        "年齡不能用 in the dark 表示；可說 She is ten years old.",
+        "在黑暗中看不清楚，使用正確。",
+        "in the dark 不能直接表示一本書很好；可說 This book is very good."
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Whisper",
+      "meaning": "低聲說、輕聲說。",
+      "usage": "不想吵到人，或只想讓身邊的人聽見時，用 whisper。",
+      "prompt": "哪一句正確使用了「whisper」？",
+      "options": [
+        "Please whisper. The baby is sleeping.",
+        "I whisper my shoes before school.",
+        "We whisper the bus at seven.",
+        "She whispers very loudly so everyone can hear."
+      ],
+      "answer": 0,
+      "explanation": "寶寶正在睡覺，所以請人小聲說話，使用正確。",
+      "optionExplanations": [
+        "寶寶正在睡覺，所以請人小聲說話，使用正確。",
+        "whisper 是說話的方式，不能用來表示穿鞋；可說 I put on my shoes before school.",
+        "不能用 whisper 表示搭公車；可說 We take the bus at seven.",
+        "whisper 是小聲說，與 very loudly so everyone can hear 意思相反；可說 She speaks very loudly so everyone can hear."
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Sincere",
+      "meaning": "真誠的、真心的。",
+      "usage": "形容一個人說話或表達感情時是真心的，可以用 sincere。",
+      "prompt": "哪一句正確使用了「sincere」？",
+      "options": [
+        "I sincere to the park every day.",
+        "The soup is sincere because it is hot.",
+        "She sincere a new bag yesterday.",
+        "He said sorry, and I know he was sincere."
+      ],
+      "answer": 3,
+      "explanation": "他道歉是真心的，所以用 sincere 正確。",
+      "optionExplanations": [
+        "sincere 是形容詞，不能當「去」的動詞；可說 I go to the park every day.",
+        "sincere 形容真心，不形容湯的溫度；可說 The soup is hot.",
+        "sincere 不能當「買」的動詞；可說 She bought a new bag yesterday.",
+        "他道歉是真心的，所以用 sincere 正確。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Drift apart",
+      "meaning": "漸漸疏遠、慢慢不再親近。",
+      "usage": "朋友或伴侶因時間、距離或生活不同，慢慢變得不常聯絡時使用。",
+      "prompt": "哪一句正確使用了「drift apart」？",
+      "options": [
+        "I drift apart my lunch at noon.",
+        "We were good friends, but we drifted apart after school.",
+        "She drifts apart the window every morning.",
+        "They drift apart together at the same table every day."
+      ],
+      "answer": 1,
+      "explanation": "原本是朋友，後來慢慢疏遠，正確表達關係的改變。",
+      "optionExplanations": [
+        "drift apart 不是吃午餐的動作；可說 I eat my lunch at noon.",
+        "原本是朋友，後來慢慢疏遠，正確表達關係的改變。",
+        "drift apart 不是打開窗戶；可說 She opens the window every morning.",
+        "每天坐在一起沒有表達「漸漸疏遠」，此處不合意思；可說 They sit together at the same table every day."
+      ]
+    },
+    {
+      "number": 6,
+      "word": "By my side",
+      "meaning": "在我身邊、陪在我旁邊。",
+      "usage": "形容某人在你旁邊，也可以表示對方陪伴、支持你。",
+      "prompt": "哪一句正確使用了「by my side」？",
+      "options": [
+        "I by my side English every day.",
+        "My brother is by my side when I need help.",
+        "We buy my side at the shop.",
+        "This apple tastes by my side."
+      ],
+      "answer": 1,
+      "explanation": "哥哥在我需要幫忙時陪伴我，使用正確。",
+      "optionExplanations": [
+        "by my side 不是動詞，不能表示學英文；可說 I study English every day.",
+        "哥哥在我需要幫忙時陪伴我，使用正確。",
+        "buy 和 by 不同；不能把 by my side 當作購物的東西；可說 We buy food at the shop.",
+        "by my side 不能表示蘋果的味道；可說 This apple tastes sweet."
+      ]
+    },
+    {
+      "number": 7,
+      "word": "With open arms",
+      "meaning": "張開雙臂（迎接）；熱情歡迎。",
+      "usage": "想表達很高興見到某人、願意歡迎對方回來時使用。",
+      "prompt": "哪一句正確使用了「with open arms」？",
+      "options": [
+        "My family welcomed me home with open arms.",
+        "I write with open arms using a blue pen.",
+        "She cooks rice with open arms in a pot.",
+        "The door is with open arms because it is not closed."
+      ],
+      "answer": 0,
+      "explanation": "家人熱情迎接我回家，這正是片語的常見意思。",
+      "optionExplanations": [
+        "家人熱情迎接我回家，這正是片語的常見意思。",
+        "with open arms 不是寫字的工具或方式；可說 I write with a blue pen.",
+        "with open arms 不是煮飯的方法；可說 She cooks rice in a pot.",
+        "open arms 指雙臂，不是打開的門；可說 The door is open."
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Nothing to hide",
+      "meaning": "沒有事情要隱瞞、沒有秘密要藏。",
+      "usage": "想告訴別人自己願意說實話、沒有要保密的事情時使用。",
+      "prompt": "哪一句正確使用了「nothing to hide」？",
+      "options": [
+        "I have nothing to hide, so I will tell you the truth.",
+        "There is nothing to hide for dinner, so I am hungry.",
+        "She nothing to hide to school every morning.",
+        "My phone has nothing to hide because its screen is big."
+      ],
+      "answer": 0,
+      "explanation": "沒有事要隱瞞，因此願意說實話，意思正確。",
+      "optionExplanations": [
+        "沒有事要隱瞞，因此願意說實話，意思正確。",
+        "想表示沒有東西吃，應說 There is nothing to eat for dinner.",
+        "缺少正確的動詞結構，nothing to hide 也不是「去上學」；可說 She goes to school every morning.",
+        "手機螢幕大，與「沒有秘密」沒有關係；可說 My phone has a big screen."
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Mean to me",
+      "meaning": "對我有……意義；對我來說代表……。",
+      "usage": "說一個人、禮物或事情對自己有多重要時，可以用 mean(s) ... to me。",
+      "prompt": "哪一句正確使用了「mean to me」？",
+      "options": [
+        "I mean to me at seven o'clock.",
+        "The train means to me very fast.",
+        "This photo means a lot to me because it is from my friend.",
+        "She means to me a sandwich for lunch."
+      ],
+      "answer": 2,
+      "explanation": "這張照片對我很有意義，means a lot to me 使用正確。",
+      "optionExplanations": [
+        "mean to me 不能表示時間或起床；可說 I get up at seven o'clock.",
+        "mean ... to me 表示意義，不是速度；可說 The train is very fast.",
+        "這張照片對我很有意義，means a lot to me 使用正確。",
+        "means to me 不是準備食物的動詞；可說 She makes me a sandwich for lunch."
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Stay",
+      "meaning": "留下、待在某個地方。",
+      "usage": "想請人不要離開，或說自己會待在某個地方時使用。",
+      "prompt": "哪一句正確使用了「stay」？",
+      "options": [
+        "I stay my homework every night.",
+        "Please stay here until I come back.",
+        "She stays a cake for her birthday.",
+        "We stay the bus to the city."
+      ],
+      "answer": 1,
+      "explanation": "請對方留在這裡直到我回來，使用正確。",
+      "optionExplanations": [
+        "stay 不是做功課；可說 I do my homework every night.",
+        "請對方留在這裡直到我回來，使用正確。",
+        "stay 不是做蛋糕；可說 She makes a cake for her birthday.",
+        "搭公車應用 take the bus；可說 We take the bus to the city."
+      ]
+    }
+  ],
   "cover_url": "https://edmundeducation.com/song-media/open-arms/cover.webp",
   "audio_url": "https://edmundeducation.com/song-media/open-arms/album.mp3",
   "exercises": [
