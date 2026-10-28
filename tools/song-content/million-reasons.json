@@ -1,0 +1,3153 @@
+{
+  "slug": "million-reasons",
+  "title": "Million Reasons",
+  "singer": "Lady Gaga",
+  "exercise_name": "Million Reasons · Listening & Vocabulary",
+  "description": "《Million Reasons》描寫一段充滿傷害、矛盾與掙扎的愛情。歌中的主角一次又一次被對方傷害，內心累積了無數個離開的理由，卻仍然無法輕易放下這段感情。她渴望對方的真心與承諾，但不斷的失望令她逐漸失去信任，甚至開始懷疑這份愛是否值得繼續。面對內心的痛苦，她選擇祈禱，希望找到正確的方向，也期待對方能給她一個留下來的理由。最終，《Million Reasons》傳達的是愛情中的脆弱、希望與不捨：即使有千萬個理由選擇離開，有時只需要一個真誠的理由，就足以讓人願意再次相信愛情。",
+  "tags": [
+    "lady gaga",
+    "million reasons",
+    "love",
+    "hope"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "You're giving me a million reasons to let you go",
+      "chinese": "你給了我一百萬個放你走的理由",
+      "startSeconds": 14.68,
+      "endSeconds": 18.5
+    },
+    {
+      "lineId": "line-2",
+      "english": "You're giving me a million reasons to quit the show",
+      "chinese": "你給了我一百萬個退出這場戲的理由",
+      "startSeconds": 18.5,
+      "endSeconds": 21.9
+    },
+    {
+      "lineId": "line-3",
+      "english": "You're givin' me a million reasons",
+      "chinese": "你給了我一百萬個理由",
+      "startSeconds": 21.9,
+      "endSeconds": 24.36
+    },
+    {
+      "lineId": "line-4",
+      "english": "Give me a million reasons",
+      "chinese": "給了我一百萬個理由",
+      "startSeconds": 24.4,
+      "endSeconds": 26.18
+    },
+    {
+      "lineId": "line-5",
+      "english": "Givin' me a million reasons",
+      "chinese": "給了我一百萬個理由",
+      "startSeconds": 26.18,
+      "endSeconds": 28.08
+    },
+    {
+      "lineId": "line-6",
+      "english": "About a million reasons",
+      "chinese": "大約一百萬個理由",
+      "startSeconds": 28.08,
+      "endSeconds": 29.86
+    },
+    {
+      "lineId": "line-7",
+      "english": "If I had a highway, I would run for the hills",
+      "chinese": "如果我有一條高速公路，我會直奔山野",
+      "startSeconds": 29.86,
+      "endSeconds": 32.98
+    },
+    {
+      "lineId": "line-8",
+      "english": "If you could find a dry way, I'd forever be still",
+      "chinese": "如果你能找到一條乾涸的路，我會永遠靜止不動",
+      "startSeconds": 32.98,
+      "endSeconds": 36.68
+    },
+    {
+      "lineId": "line-9",
+      "english": "But you're giving me a million reasons",
+      "chinese": "但你給了我一百萬個理由",
+      "startSeconds": 36.68,
+      "endSeconds": 39.08
+    },
+    {
+      "lineId": "line-10",
+      "english": "Give me a million reasons",
+      "chinese": "給了我一百萬個理由",
+      "startSeconds": 39.08,
+      "endSeconds": 40.96
+    },
+    {
+      "lineId": "line-11",
+      "english": "Givin' me a million reasons",
+      "chinese": "給了我一百萬個理由",
+      "startSeconds": 40.96,
+      "endSeconds": 42.84
+    },
+    {
+      "lineId": "line-12",
+      "english": "About a million reasons",
+      "chinese": "大約一百萬個理由",
+      "startSeconds": 42.84,
+      "endSeconds": 44.68
+    },
+    {
+      "lineId": "line-13",
+      "english": "I bow down to pray",
+      "chinese": "我跪下祈禱",
+      "startSeconds": 44.68,
+      "endSeconds": 48.7
+    },
+    {
+      "lineId": "line-14",
+      "english": "I try to make the worst seem better",
+      "chinese": "我試著讓最糟的情況看起來好一些",
+      "startSeconds": 49.22,
+      "endSeconds": 51.9
+    },
+    {
+      "lineId": "line-15",
+      "english": "Lord, show me the way",
+      "chinese": "主啊，指引我方向",
+      "startSeconds": 51.9,
+      "endSeconds": 56.26
+    },
+    {
+      "lineId": "line-16",
+      "english": "To cut through all his worn out leather",
+      "chinese": "讓我能穿透他所有破舊的皮囊",
+      "startSeconds": 56.26,
+      "endSeconds": 59.08
+    },
+    {
+      "lineId": "line-17",
+      "english": "I've got a hundred million reasons to walk away",
+      "chinese": "我有一億個離開的理由",
+      "startSeconds": 59.68,
+      "endSeconds": 66.04
+    },
+    {
+      "lineId": "line-18",
+      "english": "But baby, I just need one good one to stay",
+      "chinese": "但寶貝，我只需要一個好理由留下",
+      "startSeconds": 66.35,
+      "endSeconds": 71.2
+    },
+    {
+      "lineId": "line-19",
+      "english": "Head stuck in a cycle, I look off and I stare",
+      "chinese": "思緒陷入循環，我移開目光呆望",
+      "startSeconds": 73.78,
+      "endSeconds": 77.28
+    },
+    {
+      "lineId": "line-20",
+      "english": "It's like that I've stopped breathing, but completely aware",
+      "chinese": "就像我停止了呼吸，卻完全清醒",
+      "startSeconds": 77.28,
+      "endSeconds": 80.98
+    },
+    {
+      "lineId": "line-21",
+      "english": "'Cause you're giving me a million reasons",
+      "chinese": "因為你給了我一百萬個理由",
+      "startSeconds": 80.98,
+      "endSeconds": 83.38
+    },
+    {
+      "lineId": "line-22",
+      "english": "Give me a million reasons",
+      "chinese": "給了我一百萬個理由",
+      "startSeconds": 83.38,
+      "endSeconds": 85.26
+    },
+    {
+      "lineId": "line-23",
+      "english": "Givin' me a million reasons",
+      "chinese": "給了我一百萬個理由",
+      "startSeconds": 85.26,
+      "endSeconds": 87.14
+    },
+    {
+      "lineId": "line-24",
+      "english": "About a million reasons",
+      "chinese": "大約一百萬個理由",
+      "startSeconds": 87.14,
+      "endSeconds": 88.96
+    },
+    {
+      "lineId": "line-25",
+      "english": "And if you say something that you might even mean",
+      "chinese": "如果你說了些你可能真心想說的話",
+      "startSeconds": 88.96,
+      "endSeconds": 92.0
+    },
+    {
+      "lineId": "line-26",
+      "english": "It's hard to even fathom which parts I should believe",
+      "chinese": "我甚至很難去揣測該相信哪幾個部分",
+      "startSeconds": 92.0,
+      "endSeconds": 95.36
+    },
+    {
+      "lineId": "line-27",
+      "english": "'Cause you're giving me a million reasons",
+      "chinese": "因為你給了我一百萬個理由",
+      "startSeconds": 95.76,
+      "endSeconds": 98.18
+    },
+    {
+      "lineId": "line-28",
+      "english": "Give me a million reasons",
+      "chinese": "給了我一百萬個理由",
+      "startSeconds": 98.18,
+      "endSeconds": 100.02
+    },
+    {
+      "lineId": "line-29",
+      "english": "Givin' me a million reasons",
+      "chinese": "給了我一百萬個理由",
+      "startSeconds": 100.1,
+      "endSeconds": 101.9
+    },
+    {
+      "lineId": "line-30",
+      "english": "About a million reasons",
+      "chinese": "大約一百萬個理由",
+      "startSeconds": 102.32,
+      "endSeconds": 103.7
+    },
+    {
+      "lineId": "line-31",
+      "english": "I bow down to pray",
+      "chinese": "我跪下祈禱",
+      "startSeconds": 103.7,
+      "endSeconds": 107.64
+    },
+    {
+      "lineId": "line-32",
+      "english": "I try to make the worst seem better",
+      "chinese": "我試著讓最糟的情況看起來好一些",
+      "startSeconds": 108.32,
+      "endSeconds": 110.9
+    },
+    {
+      "lineId": "line-33",
+      "english": "Lord, show me the way",
+      "chinese": "主啊，指引我方向",
+      "startSeconds": 110.9,
+      "endSeconds": 115.28
+    },
+    {
+      "lineId": "line-34",
+      "english": "To cut through all his worn out leather",
+      "chinese": "讓我能穿透他所有破舊的皮囊",
+      "startSeconds": 115.28,
+      "endSeconds": 118.2
+    },
+    {
+      "lineId": "line-35",
+      "english": "I've got a hundred million reasons to walk away",
+      "chinese": "我有一億個離開的理由",
+      "startSeconds": 119.02,
+      "endSeconds": 125.08
+    },
+    {
+      "lineId": "line-36",
+      "english": "But baby, I just need one good one to stay",
+      "chinese": "但寶貝，我只需要一個好理由留下",
+      "startSeconds": 125.08,
+      "endSeconds": 130.42
+    },
+    {
+      "lineId": "line-37",
+      "english": "Hey, ehh, ehh, eyy",
+      "chinese": "嘿，哎，哎，哎",
+      "startSeconds": 133.28,
+      "endSeconds": 134.16
+    },
+    {
+      "lineId": "line-38",
+      "english": "Baby I'm bleedin', bleedin'",
+      "chinese": "寶貝，我正在流血，流血",
+      "startSeconds": 134.16,
+      "endSeconds": 136.78
+    },
+    {
+      "lineId": "line-39",
+      "english": "Stay, ehh, ehhy",
+      "chinese": "留下，哎，哎",
+      "startSeconds": 136.78,
+      "endSeconds": 140.08
+    },
+    {
+      "lineId": "line-40",
+      "english": "Can't you give me what I'm needin', needin'",
+      "chinese": "難道你不能給我我需要的，需要的",
+      "startSeconds": 140.64,
+      "endSeconds": 144.16
+    },
+    {
+      "lineId": "line-41",
+      "english": "Every heartbreak makes it hard to keep the faith",
+      "chinese": "每一次心碎都讓人難以保持信念",
+      "startSeconds": 144.16,
+      "endSeconds": 150.76
+    },
+    {
+      "lineId": "line-42",
+      "english": "But baby, I just need one good one",
+      "chinese": "但寶貝，我只需要一個好理由",
+      "startSeconds": 150.76,
+      "endSeconds": 154.48
+    },
+    {
+      "lineId": "line-43",
+      "english": "Good one, good one, good one, good one, good one",
+      "chinese": "好理由，好理由，好理由，好理由，好理由",
+      "startSeconds": 154.48,
+      "endSeconds": 158.96
+    },
+    {
+      "lineId": "line-44",
+      "english": "When I bow down to pray",
+      "chinese": "當我跪下祈禱",
+      "startSeconds": 159.02,
+      "endSeconds": 163.18
+    },
+    {
+      "lineId": "line-45",
+      "english": "I try to make the worst seem better",
+      "chinese": "我試著讓最糟的情況看起來好一些",
+      "startSeconds": 163.18,
+      "endSeconds": 166.2
+    },
+    {
+      "lineId": "line-46",
+      "english": "Lord, show me the way",
+      "chinese": "主啊，指引我方向",
+      "startSeconds": 166.24,
+      "endSeconds": 170.62
+    },
+    {
+      "lineId": "line-47",
+      "english": "To cut through all his worn out leather",
+      "chinese": "讓我能穿透他所有破舊的皮囊",
+      "startSeconds": 170.62,
+      "endSeconds": 173.54
+    },
+    {
+      "lineId": "line-48",
+      "english": "I've got a hundred million reasons to walk away",
+      "chinese": "我有一億個離開的理由",
+      "startSeconds": 173.54,
+      "endSeconds": 180.78
+    },
+    {
+      "lineId": "line-49",
+      "english": "But baby, I just need one good one, good one",
+      "chinese": "但寶貝，我只需要一個好理由，好理由",
+      "startSeconds": 180.78,
+      "endSeconds": 184.82
+    },
+    {
+      "lineId": "line-50",
+      "english": "Tell me that you'll be the good one, good one",
+      "chinese": "告訴我你會是那個好理由，好理由",
+      "startSeconds": 184.82,
+      "endSeconds": 188.72
+    },
+    {
+      "lineId": "line-51",
+      "english": "Baby, I just need one good one to stay",
+      "chinese": "寶貝，我只需要一個好理由留下",
+      "startSeconds": 188.72,
+      "endSeconds": 194.02
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "A million reasons",
+      "meaning": "非常多的理由；字面是一百萬個理由",
+      "usage": "想強調有很多原因做一件事時。",
+      "prompt": "哪一句正確使用了「A million reasons」？",
+      "options": [
+        "I have a million reasons to be happy today.",
+        "I put a million reasons in my shoes before school.",
+        "My dog ate a million reasons for breakfast.",
+        "Please open the million reasons to let in some air."
+      ],
+      "answer": 0,
+      "explanation": "正確：用來誇張地表示有很多開心的理由。",
+      "optionExplanations": [
+        "正確：用來誇張地表示有很多開心的理由。",
+        "錯誤：reason 是理由，不是能放進鞋子的物品。",
+        "錯誤：理由不是能當早餐吃的東西。",
+        "錯誤：理由不是可以打開通風的窗戶。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Let someone go",
+      "meaning": "讓某人離開；感情上也指放手",
+      "usage": "當你不再要求某人留下，或允許對方離開時。",
+      "prompt": "哪一句正確使用了「Let someone go」？",
+      "options": [
+        "I let my soup go because it was too hot.",
+        "I was sad, but I let him go when he wanted to leave.",
+        "My phone let my teacher go to blue.",
+        "She lets her birthday go in the fridge."
+      ],
+      "answer": 1,
+      "explanation": "正確：雖然難過，仍讓對方離開，符合放手的意思。",
+      "optionExplanations": [
+        "錯誤：湯不是這裡要說的『某人』；可說 I let my soup cool.。",
+        "正確：雖然難過，仍讓對方離開，符合放手的意思。",
+        "錯誤：let someone go 後面需要指人，這句的結構和意思都不通。",
+        "錯誤：生日不是一個人，也不能放進冰箱。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Quit",
+      "meaning": "停止；退出（工作、活動等）",
+      "usage": "想說不再做某件事，或退出一項活動時。",
+      "prompt": "哪一句正確使用了「Quit」？",
+      "options": [
+        "I quit my sandwich with two tomatoes.",
+        "She quit the school team because she had no time.",
+        "We quit to the bus stop at eight.",
+        "He quit his hat on the kitchen table."
+      ],
+      "answer": 1,
+      "explanation": "正確：quit the team 是退出隊伍。",
+      "optionExplanations": [
+        "錯誤：quit 不是『做三明治』；可說 I made a sandwich.。",
+        "正確：quit the team 是退出隊伍。",
+        "錯誤：quit 不是移動到某地；可說 We went to the bus stop.。",
+        "錯誤：quit 不是『放下』；可說 He put his hat on the table.。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Run for the hills",
+      "meaning": "趕快逃走；避開麻煩（口語）",
+      "usage": "遇到很可怕或很麻煩的情況，想誇張地說快逃時。",
+      "prompt": "哪一句正確使用了「Run for the hills」？",
+      "options": [
+        "I run for the hills to make my bed every day.",
+        "She ran for the hills in her cup of tea.",
+        "When I saw the big angry dog, I wanted to run for the hills.",
+        "We ran for the hills because our homework was red."
+      ],
+      "answer": 2,
+      "explanation": "正確：看到大隻又生氣的狗，想趕快逃開，符合片語意思。",
+      "optionExplanations": [
+        "錯誤：整理床鋪不等於逃離麻煩；這裡用 make my bed 就好。",
+        "錯誤：人不能在茶杯裡逃跑，句意不合理。",
+        "正確：看到大隻又生氣的狗，想趕快逃開，符合片語意思。",
+        "錯誤：作業是紅色不一定代表危險或麻煩，片語用得不自然。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Bow down",
+      "meaning": "彎下身；低頭（表達尊敬或祈禱）",
+      "usage": "需要描述彎腰、低頭或祈禱的動作時。",
+      "prompt": "哪一句正確使用了「Bow down」？",
+      "options": [
+        "They bowed down the bus to arrive early.",
+        "I bowed down my lunch with a fork.",
+        "She bowed down the TV to make it louder.",
+        "He bowed down to pick up his phone from the floor."
+      ],
+      "answer": 3,
+      "explanation": "正確：描述身體往下彎的動作；日常也常說 bent down。",
+      "optionExplanations": [
+        "錯誤：不能用 bow down 表示讓公車提早到。",
+        "錯誤：bow down 不是吃東西的動詞。",
+        "錯誤：調大電視音量要用 turn up，不是 bow down。",
+        "正確：描述身體往下彎的動作；日常也常說 bent down。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Show me the way",
+      "meaning": "指給我方向；告訴我怎麼走或怎麼做",
+      "usage": "迷路、需要指路，或需要別人指引時。",
+      "prompt": "哪一句正確使用了「Show me the way」？",
+      "options": [
+        "Can you show me the way to the train station?",
+        "Show me the way my pizza is sleeping.",
+        "My shoes showed me the way to taste sweet.",
+        "I showed the way my lunch in a blue bag."
+      ],
+      "answer": 0,
+      "explanation": "正確：請別人告訴你去車站的路。",
+      "optionExplanations": [
+        "正確：請別人告訴你去車站的路。",
+        "錯誤：pizza 不會睡覺，句子也沒有清楚的方向。",
+        "錯誤：鞋子不能告訴你『怎樣嚐起來甜』，意思不通。",
+        "錯誤：show the way 通常要說明對誰指路、去哪裡，這句搭配不對。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Worn out",
+      "meaning": "破舊的；用壞的；也能表示累壞了",
+      "usage": "物品用很久、快壞了，或人非常疲倦時。",
+      "prompt": "哪一句正確使用了「Worn out」？",
+      "options": [
+        "These shoes are worn out, so I need new ones.",
+        "I wore out my water before bed.",
+        "My dad wore out the window to eat dinner.",
+        "She is worn out in the fridge next to the milk."
+      ],
+      "answer": 0,
+      "explanation": "正確：鞋子用久、磨壞了，可以說 worn out。",
+      "optionExplanations": [
+        "正確：鞋子用久、磨壞了，可以說 worn out。",
+        "錯誤：水不會因為使用而磨損；可說 I drank my water.。",
+        "錯誤：wear out 不是用窗戶吃飯，搭配不合理。",
+        "錯誤：人不會待在冰箱裡『累壞了』，語境不合理。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Walk away",
+      "meaning": "走開；離開（有時指不再繼續爭論或關係）",
+      "usage": "不想繼續爭吵，或決定離開某個情況時。",
+      "prompt": "哪一句正確使用了「Walk away」？",
+      "options": [
+        "I walked away my breakfast with some bread.",
+        "She walked away the song on her phone.",
+        "He walked away the blue color from the wall.",
+        "I was angry, so I walked away and took a break."
+      ],
+      "answer": 3,
+      "explanation": "正確：生氣時先離開、休息一下，很自然。",
+      "optionExplanations": [
+        "錯誤：walk away 不是準備或吃早餐。",
+        "錯誤：walk away 不是用手機播放歌曲。",
+        "錯誤：walk away 不能表示把顏色從牆上移除。",
+        "正確：生氣時先離開、休息一下，很自然。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Stuck in a cycle",
+      "meaning": "困在重複的情況裡；一直重複同樣的事",
+      "usage": "描述同一個問題不斷發生、很難改變時。",
+      "prompt": "哪一句正確使用了「Stuck in a cycle」？",
+      "options": [
+        "My sandwich is stuck in a cycle of the music.",
+        "I am stuck in a cycle because my bike has two wheels.",
+        "I am stuck in a cycle: I sleep late and feel tired every morning.",
+        "We stuck in a cycle the teacher's red pen."
+      ],
+      "answer": 2,
+      "explanation": "正確：晚睡、隔天累，反覆發生的問題就是一種循環。",
+      "optionExplanations": [
+        "錯誤：三明治與音樂的『循環』沒有合理的關係。",
+        "錯誤：cycle 在這個片語中是『循環』，不是指腳踏車。",
+        "正確：晚睡、隔天累，反覆發生的問題就是一種循環。",
+        "錯誤：句子缺少 be 動詞，也沒有清楚表達重複的情況。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Keep the faith",
+      "meaning": "保持信心；不要失去希望",
+      "usage": "遇到困難但仍想相信事情會變好時。",
+      "prompt": "哪一句正確使用了「Keep the faith」？",
+      "options": [
+        "I keep the faith in my pocket with my keys.",
+        "The exam was hard, but I tried to keep the faith.",
+        "She keeps the faith in the oven for ten minutes.",
+        "Please keep the faith blue before you wash it."
+      ],
+      "answer": 1,
+      "explanation": "正確：考試很難，但仍保持信心，符合用法。",
+      "optionExplanations": [
+        "錯誤：faith 是信心或信念，不是可放口袋的物品。",
+        "正確：考試很難，但仍保持信心，符合用法。",
+        "錯誤：信心不是能放進烤箱烤的東西。",
+        "錯誤：keep the faith 不是『保持藍色』。"
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/million-reasons/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/million-reasons/cover.webp",
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "You're {{blank}} to 〔第 2 題〕",
+          "promptZh": "你給了我一百萬個放你走的理由",
+          "options": [
+            "giving me a million reasons",
+            "giving me a thousand reasons",
+            "giving me a million choices"
+          ],
+          "answer": "giving me a million reasons"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "You're 〔第 1 題〕 to {{blank}}",
+          "promptZh": "你給了我一百萬個放你走的理由",
+          "options": [
+            "let it go",
+            "let you go",
+            "let me go"
+          ],
+          "answer": "let you go"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "You're {{blank}} to 〔第 4 題〕",
+          "promptZh": "你給了我一百萬個退出這場戲的理由",
+          "options": [
+            "giving me a million choices",
+            "giving me a thousand reasons",
+            "giving me a million reasons"
+          ],
+          "answer": "giving me a million reasons"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "You're 〔第 3 題〕 to {{blank}}",
+          "promptZh": "你給了我一百萬個退出這場戲的理由",
+          "options": [
+            "quit the show",
+            "end the show",
+            "quit the game"
+          ],
+          "answer": "quit the show"
+        },
+        {
+          "number": 5,
+          "lineId": "line-7",
+          "prompt": "If I had a highway, I would {{blank}}",
+          "promptZh": "如果我有一條高速公路，我會直奔山野",
+          "options": [
+            "run to the hills",
+            "run for the hills",
+            "head for the hills"
+          ],
+          "answer": "run for the hills"
+        },
+        {
+          "number": 6,
+          "lineId": "line-8",
+          "prompt": "If you could find a dry way, I'd {{blank}}",
+          "promptZh": "如果你能找到一條乾涸的路，我會永遠靜止不動",
+          "options": [
+            "forever stay still",
+            "forever be still",
+            "always be still"
+          ],
+          "answer": "forever be still"
+        },
+        {
+          "number": 7,
+          "lineId": "line-13",
+          "prompt": "I {{blank}}",
+          "promptZh": "我跪下祈禱",
+          "options": [
+            "kneel down to pray",
+            "bow down and pray",
+            "bow down to pray"
+          ],
+          "answer": "bow down to pray"
+        },
+        {
+          "number": 8,
+          "lineId": "line-14",
+          "prompt": "I try to {{blank}}",
+          "promptZh": "我試著讓最糟的情況看起來好一些",
+          "options": [
+            "make the worst seem better",
+            "make the worst feel better",
+            "make the bad seem better"
+          ],
+          "answer": "make the worst seem better"
+        },
+        {
+          "number": 9,
+          "lineId": "line-15",
+          "prompt": "Lord, {{blank}}",
+          "promptZh": "主啊，指引我方向",
+          "options": [
+            "show me the way",
+            "show me the path",
+            "lead me the way"
+          ],
+          "answer": "show me the way"
+        },
+        {
+          "number": 10,
+          "lineId": "line-16",
+          "prompt": "To cut through all his {{blank}}",
+          "promptZh": "讓我能穿透他所有破舊的皮囊",
+          "options": [
+            "worn down leather",
+            "worn out leather",
+            "worn in leather"
+          ],
+          "answer": "worn out leather"
+        },
+        {
+          "number": 11,
+          "lineId": "line-17",
+          "prompt": "I've got a hundred million reasons to {{blank}}",
+          "promptZh": "我有一億個離開的理由",
+          "options": [
+            "turn away",
+            "run away",
+            "walk away"
+          ],
+          "answer": "walk away"
+        },
+        {
+          "number": 12,
+          "lineId": "line-18",
+          "prompt": "But baby, I just need one {{blank}}",
+          "promptZh": "但寶貝，我只需要一個好理由留下",
+          "options": [
+            "good one to say",
+            "good one to stay",
+            "good one today"
+          ],
+          "answer": "good one to stay"
+        },
+        {
+          "number": 13,
+          "lineId": "line-19",
+          "prompt": "Head stuck in a cycle, I {{blank}}",
+          "promptZh": "思緒陷入循環，我移開目光呆望",
+          "options": [
+            "look off and I stare",
+            "look up and I stare",
+            "look out and I stare"
+          ],
+          "answer": "look off and I stare"
+        },
+        {
+          "number": 14,
+          "lineId": "line-20",
+          "prompt": "It's like that I've {{blank}}, but completely aware",
+          "promptZh": "就像我停止了呼吸，卻完全清醒",
+          "options": [
+            "stopped feeling",
+            "stopped living",
+            "stopped breathing"
+          ],
+          "answer": "stopped breathing"
+        },
+        {
+          "number": 15,
+          "lineId": "line-25",
+          "prompt": "And if you say something that you {{blank}}",
+          "promptZh": "如果你說了些你可能真心想說的話",
+          "options": [
+            "might even mean",
+            "might not mean",
+            "really mean"
+          ],
+          "answer": "might even mean"
+        },
+        {
+          "number": 16,
+          "lineId": "line-26",
+          "prompt": "It's {{blank}} which parts I should believe",
+          "promptZh": "我甚至很難去揣測該相信哪幾個部分",
+          "options": [
+            "hard to imagine",
+            "hard to even fathom",
+            "hard to believe"
+          ],
+          "answer": "hard to even fathom"
+        },
+        {
+          "number": 17,
+          "lineId": "line-31",
+          "prompt": "I {{blank}}",
+          "promptZh": "我跪下祈禱",
+          "options": [
+            "kneel down to pray",
+            "bow down and pray",
+            "bow down to pray"
+          ],
+          "answer": "bow down to pray"
+        },
+        {
+          "number": 18,
+          "lineId": "line-36",
+          "prompt": "But baby, I just need one {{blank}}",
+          "promptZh": "但寶貝，我只需要一個好理由留下",
+          "options": [
+            "good one to stay",
+            "good one to say",
+            "good one today"
+          ],
+          "answer": "good one to stay"
+        },
+        {
+          "number": 19,
+          "lineId": "line-38",
+          "prompt": "Baby I'm {{blank}}",
+          "promptZh": "寶貝，我正在流血，流血",
+          "options": [
+            "hurtin', bleedin'",
+            "bleedin', crying",
+            "bleedin', bleedin'"
+          ],
+          "answer": "bleedin', bleedin'"
+        },
+        {
+          "number": 20,
+          "lineId": "line-41",
+          "prompt": "Every heartbreak makes it hard to {{blank}}",
+          "promptZh": "每一次心碎都讓人難以保持信念",
+          "options": [
+            "hold the faith",
+            "keep the faith",
+            "keep the hope"
+          ],
+          "answer": "keep the faith"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "You're {{q:1}} to {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "You're {{q:3}} to {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You're givin' me a million reasons"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Give me a million reasons"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Givin' me a million reasons"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "About a million reasons"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "If I had a highway, I would {{q:5}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "If you could find a dry way, I'd {{q:6}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "But you're giving me a million reasons"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Give me a million reasons"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Givin' me a million reasons"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "About a million reasons"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I {{q:7}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I try to {{q:8}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Lord, {{q:9}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "To cut through all his {{q:10}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I've got a hundred million reasons to {{q:11}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "But baby, I just need one {{q:12}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Head stuck in a cycle, I {{q:13}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "It's like that I've {{q:14}}, but completely aware"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "'Cause you're giving me a million reasons"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Give me a million reasons"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Givin' me a million reasons"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "About a million reasons"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And if you say something that you {{q:15}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "It's {{q:16}} which parts I should believe"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "'Cause you're giving me a million reasons"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Give me a million reasons"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Givin' me a million reasons"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "About a million reasons"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I {{q:17}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I try to make the worst seem better"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Lord, show me the way"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "To cut through all his worn out leather"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I've got a hundred million reasons to walk away"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "But baby, I just need one {{q:18}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Hey, ehh, ehh, eyy"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Baby I'm {{q:19}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Stay, ehh, ehhy"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Can't you give me what I'm needin', needin'"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Every heartbreak makes it hard to {{q:20}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "But baby, I just need one good one"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Good one, good one, good one, good one, good one"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "When I bow down to pray"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I try to make the worst seem better"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Lord, show me the way"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "To cut through all his worn out leather"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I've got a hundred million reasons to walk away"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "But baby, I just need one good one, good one"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Tell me that you'll be the good one, good one"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Baby, I just need one good one to stay"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "You're {{blank}} to 〔第 2 題〕",
+          "promptZh": "你給了我一百萬個放你走的理由",
+          "options": [
+            "giving me a million reasons",
+            "giving me a thousand reasons",
+            "giving me a million choices"
+          ],
+          "answer": "giving me a million reasons"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "You're 〔第 1 題〕 to {{blank}}",
+          "promptZh": "你給了我一百萬個放你走的理由",
+          "options": [
+            "let it go",
+            "let you go",
+            "let me go"
+          ],
+          "answer": "let you go"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "You're {{blank}} to 〔第 4 題〕",
+          "promptZh": "你給了我一百萬個退出這場戲的理由",
+          "options": [
+            "giving me a million reasons",
+            "giving me a thousand reasons",
+            "giving me a million choices"
+          ],
+          "answer": "giving me a million reasons"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "You're 〔第 3 題〕 to {{blank}}",
+          "promptZh": "你給了我一百萬個退出這場戲的理由",
+          "options": [
+            "quit the game",
+            "end the show",
+            "quit the show"
+          ],
+          "answer": "quit the show"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "You're {{blank}} a million reasons",
+          "promptZh": "你給了我一百萬個理由",
+          "options": [
+            "giving me",
+            "givin' me",
+            "givin' us"
+          ],
+          "answer": "givin' me"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "{{blank}} a million reasons",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Show me",
+            "Bring me",
+            "Give me"
+          ],
+          "answer": "Give me"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "{{blank}} a million reasons",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Givin' me",
+            "Giving me",
+            "Givin' us"
+          ],
+          "answer": "Givin' me"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "{{blank}} million reasons",
+          "promptZh": "大約一百萬個理由",
+          "options": [
+            "Around a",
+            "About a",
+            "Nearly a"
+          ],
+          "answer": "About a"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "If I had a highway, I would {{blank}}",
+          "promptZh": "如果我有一條高速公路，我會直奔山野",
+          "options": [
+            "head for the hills",
+            "run for the hills",
+            "run to the hills"
+          ],
+          "answer": "run for the hills"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "If you could find a dry way, I'd {{blank}}",
+          "promptZh": "如果你能找到一條乾涸的路，我會永遠靜止不動",
+          "options": [
+            "forever stay still",
+            "always be still",
+            "forever be still"
+          ],
+          "answer": "forever be still"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "{{blank}} me a million reasons",
+          "promptZh": "但你給了我一百萬個理由",
+          "options": [
+            "But you're giving",
+            "And you're giving",
+            "'Cause you're giving"
+          ],
+          "answer": "But you're giving"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "{{blank}} million reasons",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Give me a",
+            "Bring me a",
+            "Show me a"
+          ],
+          "answer": "Give me a"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "{{blank}} million reasons",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Giving me a",
+            "Givin' me a",
+            "Givin' us a"
+          ],
+          "answer": "Givin' me a"
+        },
+        {
+          "number": 14,
+          "lineId": "line-12",
+          "prompt": "{{blank}} reasons",
+          "promptZh": "大約一百萬個理由",
+          "options": [
+            "Nearly a million",
+            "Around a million",
+            "About a million"
+          ],
+          "answer": "About a million"
+        },
+        {
+          "number": 15,
+          "lineId": "line-13",
+          "prompt": "I {{blank}}",
+          "promptZh": "我跪下祈禱",
+          "options": [
+            "bow down and pray",
+            "kneel down to pray",
+            "bow down to pray"
+          ],
+          "answer": "bow down to pray"
+        },
+        {
+          "number": 16,
+          "lineId": "line-14",
+          "prompt": "I try to {{blank}}",
+          "promptZh": "我試著讓最糟的情況看起來好一些",
+          "options": [
+            "make the worst feel better",
+            "make the worst seem better",
+            "make the bad seem better"
+          ],
+          "answer": "make the worst seem better"
+        },
+        {
+          "number": 17,
+          "lineId": "line-15",
+          "prompt": "Lord, {{blank}}",
+          "promptZh": "主啊，指引我方向",
+          "options": [
+            "show me the way",
+            "show me the path",
+            "lead me the way"
+          ],
+          "answer": "show me the way"
+        },
+        {
+          "number": 18,
+          "lineId": "line-16",
+          "prompt": "To cut through all his {{blank}}",
+          "promptZh": "讓我能穿透他所有破舊的皮囊",
+          "options": [
+            "worn out leather",
+            "worn down leather",
+            "worn in leather"
+          ],
+          "answer": "worn out leather"
+        },
+        {
+          "number": 19,
+          "lineId": "line-17",
+          "prompt": "I've got a hundred million reasons to {{blank}}",
+          "promptZh": "我有一億個離開的理由",
+          "options": [
+            "turn away",
+            "run away",
+            "walk away"
+          ],
+          "answer": "walk away"
+        },
+        {
+          "number": 20,
+          "lineId": "line-18",
+          "prompt": "But baby, I just need one {{blank}}",
+          "promptZh": "但寶貝，我只需要一個好理由留下",
+          "options": [
+            "good one to say",
+            "good one to stay",
+            "good one today"
+          ],
+          "answer": "good one to stay"
+        },
+        {
+          "number": 21,
+          "lineId": "line-19",
+          "prompt": "Head stuck in a cycle, I {{blank}}",
+          "promptZh": "思緒陷入循環，我移開目光呆望",
+          "options": [
+            "look off and I stare",
+            "look up and I stare",
+            "look out and I stare"
+          ],
+          "answer": "look off and I stare"
+        },
+        {
+          "number": 22,
+          "lineId": "line-20",
+          "prompt": "It's like that I've {{blank}}, but completely aware",
+          "promptZh": "就像我停止了呼吸，卻完全清醒",
+          "options": [
+            "stopped feeling",
+            "stopped living",
+            "stopped breathing"
+          ],
+          "answer": "stopped breathing"
+        },
+        {
+          "number": 23,
+          "lineId": "line-22",
+          "prompt": "{{blank}} reasons",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Bring me a million",
+            "Give me a million",
+            "Show me a million"
+          ],
+          "answer": "Give me a million"
+        },
+        {
+          "number": 24,
+          "lineId": "line-23",
+          "prompt": "{{blank}} reasons",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Givin' me a million",
+            "Giving me a million",
+            "Givin' us a million"
+          ],
+          "answer": "Givin' me a million"
+        },
+        {
+          "number": 25,
+          "lineId": "line-24",
+          "prompt": "{{blank}}",
+          "promptZh": "大約一百萬個理由",
+          "options": [
+            "Nearly a million reasons",
+            "Around a million reasons",
+            "About a million reasons"
+          ],
+          "answer": "About a million reasons"
+        },
+        {
+          "number": 26,
+          "lineId": "line-25",
+          "prompt": "And if you say something that you {{blank}}",
+          "promptZh": "如果你說了些你可能真心想說的話",
+          "options": [
+            "might not mean",
+            "might even mean",
+            "really mean"
+          ],
+          "answer": "might even mean"
+        },
+        {
+          "number": 27,
+          "lineId": "line-26",
+          "prompt": "It's {{blank}} which parts I should believe",
+          "promptZh": "我甚至很難去揣測該相信哪幾個部分",
+          "options": [
+            "hard to imagine",
+            "hard to believe",
+            "hard to even fathom"
+          ],
+          "answer": "hard to even fathom"
+        },
+        {
+          "number": 28,
+          "lineId": "line-28",
+          "prompt": "{{blank}}",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Bring me a million reasons",
+            "Give me a million reasons",
+            "Show me a million reasons"
+          ],
+          "answer": "Give me a million reasons"
+        },
+        {
+          "number": 29,
+          "lineId": "line-31",
+          "prompt": "I {{blank}}",
+          "promptZh": "我跪下祈禱",
+          "options": [
+            "bow down to pray",
+            "bow down and pray",
+            "kneel down to pray"
+          ],
+          "answer": "bow down to pray"
+        },
+        {
+          "number": 30,
+          "lineId": "line-36",
+          "prompt": "But baby, I just need one {{blank}}",
+          "promptZh": "但寶貝，我只需要一個好理由留下",
+          "options": [
+            "good one today",
+            "good one to say",
+            "good one to stay"
+          ],
+          "answer": "good one to stay"
+        },
+        {
+          "number": 31,
+          "lineId": "line-38",
+          "prompt": "Baby I'm {{blank}}",
+          "promptZh": "寶貝，我正在流血，流血",
+          "options": [
+            "bleedin', bleedin'",
+            "bleedin', crying",
+            "hurtin', bleedin'"
+          ],
+          "answer": "bleedin', bleedin'"
+        },
+        {
+          "number": 32,
+          "lineId": "line-41",
+          "prompt": "Every heartbreak makes it hard to {{blank}}",
+          "promptZh": "每一次心碎都讓人難以保持信念",
+          "options": [
+            "hold the faith",
+            "keep the faith",
+            "keep the hope"
+          ],
+          "answer": "keep the faith"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "You're {{q:1}} to {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "You're {{q:3}} to {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You're {{q:5}} a million reasons"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:6}} a million reasons"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}} a million reasons"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:8}} million reasons"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "If I had a highway, I would {{q:9}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "If you could find a dry way, I'd {{q:10}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:11}} me a million reasons"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:12}} million reasons"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:13}} million reasons"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:14}} reasons"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I {{q:15}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I try to {{q:16}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Lord, {{q:17}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "To cut through all his {{q:18}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I've got a hundred million reasons to {{q:19}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "But baby, I just need one {{q:20}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Head stuck in a cycle, I {{q:21}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "It's like that I've {{q:22}}, but completely aware"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "'Cause you're giving me a million reasons"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:23}} reasons"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:24}} reasons"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And if you say something that you {{q:26}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "It's {{q:27}} which parts I should believe"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "'Cause you're giving me a million reasons"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Givin' me a million reasons"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "About a million reasons"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I {{q:29}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I try to make the worst seem better"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Lord, show me the way"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "To cut through all his worn out leather"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I've got a hundred million reasons to walk away"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "But baby, I just need one {{q:30}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Hey, ehh, ehh, eyy"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Baby I'm {{q:31}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Stay, ehh, ehhy"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Can't you give me what I'm needin', needin'"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Every heartbreak makes it hard to {{q:32}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "But baby, I just need one good one"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Good one, good one, good one, good one, good one"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "When I bow down to pray"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I try to make the worst seem better"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Lord, show me the way"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "To cut through all his worn out leather"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I've got a hundred million reasons to walk away"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "But baby, I just need one good one, good one"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Tell me that you'll be the good one, good one"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Baby, I just need one good one to stay"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "You're {{blank}} to 〔第 2 題〕",
+          "promptZh": "你給了我一百萬個放你走的理由",
+          "options": [
+            "giving me a million reasons",
+            "giving me a thousand reasons",
+            "giving me a million choices"
+          ],
+          "answer": "giving me a million reasons"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "You're 〔第 1 題〕 to {{blank}}",
+          "promptZh": "你給了我一百萬個放你走的理由",
+          "options": [
+            "let you go",
+            "let it go",
+            "let me go"
+          ],
+          "answer": "let you go"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "You're {{blank}} to 〔第 4 題〕",
+          "promptZh": "你給了我一百萬個退出這場戲的理由",
+          "options": [
+            "giving me a thousand reasons",
+            "giving me a million choices",
+            "giving me a million reasons"
+          ],
+          "answer": "giving me a million reasons"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "You're 〔第 3 題〕 to {{blank}}",
+          "promptZh": "你給了我一百萬個退出這場戲的理由",
+          "options": [
+            "end the show",
+            "quit the show",
+            "quit the game"
+          ],
+          "answer": "quit the show"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "You're {{blank}} a million reasons",
+          "promptZh": "你給了我一百萬個理由",
+          "options": [
+            "givin' me",
+            "giving me",
+            "givin' us"
+          ],
+          "answer": "givin' me"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "{{blank}} a million reasons",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Bring me",
+            "Show me",
+            "Give me"
+          ],
+          "answer": "Give me"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "{{blank}} a million reasons",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Giving me",
+            "Givin' me",
+            "Givin' us"
+          ],
+          "answer": "Givin' me"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "{{blank}} million reasons",
+          "promptZh": "大約一百萬個理由",
+          "options": [
+            "About a",
+            "Around a",
+            "Nearly a"
+          ],
+          "answer": "About a"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "If I had a highway, I would {{blank}}",
+          "promptZh": "如果我有一條高速公路，我會直奔山野",
+          "options": [
+            "head for the hills",
+            "run to the hills",
+            "run for the hills"
+          ],
+          "answer": "run for the hills"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "If you could find a dry way, I'd {{blank}}",
+          "promptZh": "如果你能找到一條乾涸的路，我會永遠靜止不動",
+          "options": [
+            "always be still",
+            "forever be still",
+            "forever stay still"
+          ],
+          "answer": "forever be still"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "{{blank}} me a million reasons",
+          "promptZh": "但你給了我一百萬個理由",
+          "options": [
+            "And you're giving",
+            "But you're giving",
+            "'Cause you're giving"
+          ],
+          "answer": "But you're giving"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "{{blank}} million reasons",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Give me a",
+            "Bring me a",
+            "Show me a"
+          ],
+          "answer": "Give me a"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "{{blank}} million reasons",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Givin' us a",
+            "Giving me a",
+            "Givin' me a"
+          ],
+          "answer": "Givin' me a"
+        },
+        {
+          "number": 14,
+          "lineId": "line-12",
+          "prompt": "{{blank}} reasons",
+          "promptZh": "大約一百萬個理由",
+          "options": [
+            "Around a million",
+            "About a million",
+            "Nearly a million"
+          ],
+          "answer": "About a million"
+        },
+        {
+          "number": 15,
+          "lineId": "line-13",
+          "prompt": "I {{blank}}",
+          "promptZh": "我跪下祈禱",
+          "options": [
+            "bow down to pray",
+            "bow down and pray",
+            "kneel down to pray"
+          ],
+          "answer": "bow down to pray"
+        },
+        {
+          "number": 16,
+          "lineId": "line-14",
+          "prompt": "I try to {{blank}}",
+          "promptZh": "我試著讓最糟的情況看起來好一些",
+          "options": [
+            "make the bad seem better",
+            "make the worst feel better",
+            "make the worst seem better"
+          ],
+          "answer": "make the worst seem better"
+        },
+        {
+          "number": 17,
+          "lineId": "line-15",
+          "prompt": "Lord, {{blank}}",
+          "promptZh": "主啊，指引我方向",
+          "options": [
+            "lead me the way",
+            "show me the path",
+            "show me the way"
+          ],
+          "answer": "show me the way"
+        },
+        {
+          "number": 18,
+          "lineId": "line-16",
+          "prompt": "To {{blank}} 〔第 19 題〕",
+          "promptZh": "讓我能穿透他所有破舊的皮囊",
+          "options": [
+            "cut through all his",
+            "cut through all this",
+            "break through all his"
+          ],
+          "answer": "cut through all his"
+        },
+        {
+          "number": 19,
+          "lineId": "line-16",
+          "prompt": "To 〔第 18 題〕 {{blank}}",
+          "promptZh": "讓我能穿透他所有破舊的皮囊",
+          "options": [
+            "worn down leather",
+            "worn out leather",
+            "worn in leather"
+          ],
+          "answer": "worn out leather"
+        },
+        {
+          "number": 20,
+          "lineId": "line-17",
+          "prompt": "I've got a {{blank}} to 〔第 21 題〕",
+          "promptZh": "我有一億個離開的理由",
+          "options": [
+            "hundred million choices",
+            "thousand million reasons",
+            "hundred million reasons"
+          ],
+          "answer": "hundred million reasons"
+        },
+        {
+          "number": 21,
+          "lineId": "line-17",
+          "prompt": "I've got a 〔第 20 題〕 to {{blank}}",
+          "promptZh": "我有一億個離開的理由",
+          "options": [
+            "walk away",
+            "run away",
+            "turn away"
+          ],
+          "answer": "walk away"
+        },
+        {
+          "number": 22,
+          "lineId": "line-18",
+          "prompt": "But baby, I just need one {{blank}}",
+          "promptZh": "但寶貝，我只需要一個好理由留下",
+          "options": [
+            "good one to say",
+            "good one to stay",
+            "good one today"
+          ],
+          "answer": "good one to stay"
+        },
+        {
+          "number": 23,
+          "lineId": "line-19",
+          "prompt": "Head stuck in a cycle, I {{blank}}",
+          "promptZh": "思緒陷入循環，我移開目光呆望",
+          "options": [
+            "look out and I stare",
+            "look up and I stare",
+            "look off and I stare"
+          ],
+          "answer": "look off and I stare"
+        },
+        {
+          "number": 24,
+          "lineId": "line-20",
+          "prompt": "It's like that I've {{blank}}, but completely aware",
+          "promptZh": "就像我停止了呼吸，卻完全清醒",
+          "options": [
+            "stopped feeling",
+            "stopped breathing",
+            "stopped living"
+          ],
+          "answer": "stopped breathing"
+        },
+        {
+          "number": 25,
+          "lineId": "line-22",
+          "prompt": "{{blank}} reasons",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Give me a million",
+            "Bring me a million",
+            "Show me a million"
+          ],
+          "answer": "Give me a million"
+        },
+        {
+          "number": 26,
+          "lineId": "line-23",
+          "prompt": "{{blank}} reasons",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Givin' us a million",
+            "Giving me a million",
+            "Givin' me a million"
+          ],
+          "answer": "Givin' me a million"
+        },
+        {
+          "number": 27,
+          "lineId": "line-24",
+          "prompt": "{{blank}}",
+          "promptZh": "大約一百萬個理由",
+          "options": [
+            "Around a million reasons",
+            "About a million reasons",
+            "Nearly a million reasons"
+          ],
+          "answer": "About a million reasons"
+        },
+        {
+          "number": 28,
+          "lineId": "line-25",
+          "prompt": "And if you say something that you {{blank}}",
+          "promptZh": "如果你說了些你可能真心想說的話",
+          "options": [
+            "might even mean",
+            "might not mean",
+            "really mean"
+          ],
+          "answer": "might even mean"
+        },
+        {
+          "number": 29,
+          "lineId": "line-26",
+          "prompt": "It's {{blank}} which parts I should believe",
+          "promptZh": "我甚至很難去揣測該相信哪幾個部分",
+          "options": [
+            "hard to even fathom",
+            "hard to imagine",
+            "hard to believe"
+          ],
+          "answer": "hard to even fathom"
+        },
+        {
+          "number": 30,
+          "lineId": "line-28",
+          "prompt": "{{blank}}",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Show me a million reasons",
+            "Bring me a million reasons",
+            "Give me a million reasons"
+          ],
+          "answer": "Give me a million reasons"
+        },
+        {
+          "number": 31,
+          "lineId": "line-29",
+          "prompt": "{{blank}}",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Giving me a million reasons",
+            "Givin' me a million reasons",
+            "Givin' us a million reasons"
+          ],
+          "answer": "Givin' me a million reasons"
+        },
+        {
+          "number": 32,
+          "lineId": "line-30",
+          "prompt": "{{blank}}",
+          "promptZh": "大約一百萬個理由",
+          "options": [
+            "About a million reasons",
+            "Around a million reasons",
+            "Nearly a million reasons"
+          ],
+          "answer": "About a million reasons"
+        },
+        {
+          "number": 33,
+          "lineId": "line-31",
+          "prompt": "I {{blank}}",
+          "promptZh": "我跪下祈禱",
+          "options": [
+            "kneel down to pray",
+            "bow down and pray",
+            "bow down to pray"
+          ],
+          "answer": "bow down to pray"
+        },
+        {
+          "number": 34,
+          "lineId": "line-32",
+          "prompt": "I {{blank}} the worst seem better",
+          "promptZh": "我試著讓最糟的情況看起來好一些",
+          "options": [
+            "try and make",
+            "try to make",
+            "try to keep"
+          ],
+          "answer": "try to make"
+        },
+        {
+          "number": 35,
+          "lineId": "line-33",
+          "prompt": "Lord, {{blank}}",
+          "promptZh": "主啊，指引我方向",
+          "options": [
+            "lead me the way",
+            "show me the path",
+            "show me the way"
+          ],
+          "answer": "show me the way"
+        },
+        {
+          "number": 36,
+          "lineId": "line-36",
+          "prompt": "But baby, I just need one {{blank}}",
+          "promptZh": "但寶貝，我只需要一個好理由留下",
+          "options": [
+            "good one to say",
+            "good one to stay",
+            "good one today"
+          ],
+          "answer": "good one to stay"
+        },
+        {
+          "number": 37,
+          "lineId": "line-38",
+          "prompt": "Baby I'm {{blank}}",
+          "promptZh": "寶貝，我正在流血，流血",
+          "options": [
+            "bleedin', bleedin'",
+            "bleedin', crying",
+            "hurtin', bleedin'"
+          ],
+          "answer": "bleedin', bleedin'"
+        },
+        {
+          "number": 38,
+          "lineId": "line-40",
+          "prompt": "Can't you give me {{blank}}, needin'",
+          "promptZh": "難道你不能給我我需要的，需要的",
+          "options": [
+            "what I'm needin'",
+            "what I'm wantin'",
+            "what I'm missin'"
+          ],
+          "answer": "what I'm needin'"
+        },
+        {
+          "number": 39,
+          "lineId": "line-41",
+          "prompt": "Every heartbreak makes it hard to {{blank}}",
+          "promptZh": "每一次心碎都讓人難以保持信念",
+          "options": [
+            "hold the faith",
+            "keep the hope",
+            "keep the faith"
+          ],
+          "answer": "keep the faith"
+        },
+        {
+          "number": 40,
+          "lineId": "line-51",
+          "prompt": "Baby, I just need {{blank}}",
+          "promptZh": "寶貝，我只需要一個好理由留下",
+          "options": [
+            "one good one to say",
+            "one good one to stay",
+            "one good one today"
+          ],
+          "answer": "one good one to stay"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "You're {{q:1}} to {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "You're {{q:3}} to {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You're {{q:5}} a million reasons"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:6}} a million reasons"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}} a million reasons"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:8}} million reasons"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "If I had a highway, I would {{q:9}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "If you could find a dry way, I'd {{q:10}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:11}} me a million reasons"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:12}} million reasons"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:13}} million reasons"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:14}} reasons"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I {{q:15}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I try to {{q:16}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Lord, {{q:17}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "To {{q:18}} {{q:19}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I've got a {{q:20}} to {{q:21}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "But baby, I just need one {{q:22}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Head stuck in a cycle, I {{q:23}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "It's like that I've {{q:24}}, but completely aware"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "'Cause you're giving me a million reasons"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:25}} reasons"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:26}} reasons"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:27}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And if you say something that you {{q:28}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "It's {{q:29}} which parts I should believe"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "'Cause you're giving me a million reasons"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:30}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:31}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I {{q:33}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I {{q:34}} the worst seem better"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Lord, {{q:35}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "To cut through all his worn out leather"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I've got a hundred million reasons to walk away"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "But baby, I just need one {{q:36}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Hey, ehh, ehh, eyy"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Baby I'm {{q:37}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Stay, ehh, ehhy"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Can't you give me {{q:38}}, needin'"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Every heartbreak makes it hard to {{q:39}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "But baby, I just need one good one"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Good one, good one, good one, good one, good one"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "When I bow down to pray"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I try to make the worst seem better"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Lord, show me the way"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "To cut through all his worn out leather"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I've got a hundred million reasons to walk away"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "But baby, I just need one good one, good one"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Tell me that you'll be the good one, good one"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Baby, I just need {{q:40}}"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "You're {{blank}} to 〔第 2 題〕",
+          "promptZh": "你給了我一百萬個放你走的理由",
+          "options": [
+            "giving me a million reasons",
+            "giving me a thousand reasons",
+            "giving me a million choices"
+          ],
+          "answer": "giving me a million reasons"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "You're 〔第 1 題〕 to {{blank}}",
+          "promptZh": "你給了我一百萬個放你走的理由",
+          "options": [
+            "let it go",
+            "let you go",
+            "let me go"
+          ],
+          "answer": "let you go"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "You're {{blank}} to 〔第 4 題〕",
+          "promptZh": "你給了我一百萬個退出這場戲的理由",
+          "options": [
+            "giving me a million reasons",
+            "giving me a thousand reasons",
+            "giving me a million choices"
+          ],
+          "answer": "giving me a million reasons"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "You're 〔第 3 題〕 to {{blank}}",
+          "promptZh": "你給了我一百萬個退出這場戲的理由",
+          "options": [
+            "end the show",
+            "quit the show",
+            "quit the game"
+          ],
+          "answer": "quit the show"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "You're {{blank}} a million reasons",
+          "promptZh": "你給了我一百萬個理由",
+          "options": [
+            "givin' us",
+            "giving me",
+            "givin' me"
+          ],
+          "answer": "givin' me"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "{{blank}} a million reasons",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Show me",
+            "Bring me",
+            "Give me"
+          ],
+          "answer": "Give me"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "{{blank}} a million reasons",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Giving me",
+            "Givin' me",
+            "Givin' us"
+          ],
+          "answer": "Givin' me"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "{{blank}} million reasons",
+          "promptZh": "大約一百萬個理由",
+          "options": [
+            "About a",
+            "Around a",
+            "Nearly a"
+          ],
+          "answer": "About a"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "If I had a highway, I would {{blank}}",
+          "promptZh": "如果我有一條高速公路，我會直奔山野",
+          "options": [
+            "run to the hills",
+            "run for the hills",
+            "head for the hills"
+          ],
+          "answer": "run for the hills"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "If you could find a dry way, I'd {{blank}}",
+          "promptZh": "如果你能找到一條乾涸的路，我會永遠靜止不動",
+          "options": [
+            "forever stay still",
+            "always be still",
+            "forever be still"
+          ],
+          "answer": "forever be still"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "{{blank}} me a million reasons",
+          "promptZh": "但你給了我一百萬個理由",
+          "options": [
+            "But you're giving",
+            "And you're giving",
+            "'Cause you're giving"
+          ],
+          "answer": "But you're giving"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "{{blank}} million reasons",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Show me a",
+            "Give me a",
+            "Bring me a"
+          ],
+          "answer": "Give me a"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "{{blank}} million reasons",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Givin' me a",
+            "Giving me a",
+            "Givin' us a"
+          ],
+          "answer": "Givin' me a"
+        },
+        {
+          "number": 14,
+          "lineId": "line-12",
+          "prompt": "{{blank}} reasons",
+          "promptZh": "大約一百萬個理由",
+          "options": [
+            "Nearly a million",
+            "Around a million",
+            "About a million"
+          ],
+          "answer": "About a million"
+        },
+        {
+          "number": 15,
+          "lineId": "line-13",
+          "prompt": "I {{blank}}",
+          "promptZh": "我跪下祈禱",
+          "options": [
+            "kneel down to pray",
+            "bow down to pray",
+            "bow down and pray"
+          ],
+          "answer": "bow down to pray"
+        },
+        {
+          "number": 16,
+          "lineId": "line-14",
+          "prompt": "I try to {{blank}}",
+          "promptZh": "我試著讓最糟的情況看起來好一些",
+          "options": [
+            "make the worst seem better",
+            "make the worst feel better",
+            "make the bad seem better"
+          ],
+          "answer": "make the worst seem better"
+        },
+        {
+          "number": 17,
+          "lineId": "line-15",
+          "prompt": "Lord, {{blank}}",
+          "promptZh": "主啊，指引我方向",
+          "options": [
+            "lead me the way",
+            "show me the path",
+            "show me the way"
+          ],
+          "answer": "show me the way"
+        },
+        {
+          "number": 18,
+          "lineId": "line-16",
+          "prompt": "To {{blank}} 〔第 19 題〕",
+          "promptZh": "讓我能穿透他所有破舊的皮囊",
+          "options": [
+            "cut through all this",
+            "break through all his",
+            "cut through all his"
+          ],
+          "answer": "cut through all his"
+        },
+        {
+          "number": 19,
+          "lineId": "line-16",
+          "prompt": "To 〔第 18 題〕 {{blank}}",
+          "promptZh": "讓我能穿透他所有破舊的皮囊",
+          "options": [
+            "worn out leather",
+            "worn down leather",
+            "worn in leather"
+          ],
+          "answer": "worn out leather"
+        },
+        {
+          "number": 20,
+          "lineId": "line-17",
+          "prompt": "I've got a {{blank}} to 〔第 21 題〕",
+          "promptZh": "我有一億個離開的理由",
+          "options": [
+            "thousand million reasons",
+            "hundred million reasons",
+            "hundred million choices"
+          ],
+          "answer": "hundred million reasons"
+        },
+        {
+          "number": 21,
+          "lineId": "line-17",
+          "prompt": "I've got a 〔第 20 題〕 to {{blank}}",
+          "promptZh": "我有一億個離開的理由",
+          "options": [
+            "turn away",
+            "walk away",
+            "run away"
+          ],
+          "answer": "walk away"
+        },
+        {
+          "number": 22,
+          "lineId": "line-18",
+          "prompt": "But {{blank}} one 〔第 23 題〕",
+          "promptZh": "但寶貝，我只需要一個好理由留下",
+          "options": [
+            "baby, I just need",
+            "Oh baby, I just need",
+            "But baby, I just need"
+          ],
+          "answer": "baby, I just need"
+        },
+        {
+          "number": 23,
+          "lineId": "line-18",
+          "prompt": "But 〔第 22 題〕 one {{blank}}",
+          "promptZh": "但寶貝，我只需要一個好理由留下",
+          "options": [
+            "good one today",
+            "good one to say",
+            "good one to stay"
+          ],
+          "answer": "good one to stay"
+        },
+        {
+          "number": 24,
+          "lineId": "line-19",
+          "prompt": "Head stuck in a cycle, I {{blank}}",
+          "promptZh": "思緒陷入循環，我移開目光呆望",
+          "options": [
+            "look off and I stare",
+            "look up and I stare",
+            "look out and I stare"
+          ],
+          "answer": "look off and I stare"
+        },
+        {
+          "number": 25,
+          "lineId": "line-20",
+          "prompt": "It's like that I've {{blank}}, but completely aware",
+          "promptZh": "就像我停止了呼吸，卻完全清醒",
+          "options": [
+            "stopped feeling",
+            "stopped living",
+            "stopped breathing"
+          ],
+          "answer": "stopped breathing"
+        },
+        {
+          "number": 26,
+          "lineId": "line-22",
+          "prompt": "{{blank}} reasons",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Bring me a million",
+            "Give me a million",
+            "Show me a million"
+          ],
+          "answer": "Give me a million"
+        },
+        {
+          "number": 27,
+          "lineId": "line-23",
+          "prompt": "{{blank}} reasons",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Givin' us a million",
+            "Givin' me a million",
+            "Giving me a million"
+          ],
+          "answer": "Givin' me a million"
+        },
+        {
+          "number": 28,
+          "lineId": "line-24",
+          "prompt": "{{blank}}",
+          "promptZh": "大約一百萬個理由",
+          "options": [
+            "About a million reasons",
+            "Around a million reasons",
+            "Nearly a million reasons"
+          ],
+          "answer": "About a million reasons"
+        },
+        {
+          "number": 29,
+          "lineId": "line-25",
+          "prompt": "And if you say something that you {{blank}}",
+          "promptZh": "如果你說了些你可能真心想說的話",
+          "options": [
+            "really mean",
+            "might not mean",
+            "might even mean"
+          ],
+          "answer": "might even mean"
+        },
+        {
+          "number": 30,
+          "lineId": "line-26",
+          "prompt": "It's {{blank}} which parts I should believe",
+          "promptZh": "我甚至很難去揣測該相信哪幾個部分",
+          "options": [
+            "hard to imagine",
+            "hard to even fathom",
+            "hard to believe"
+          ],
+          "answer": "hard to even fathom"
+        },
+        {
+          "number": 31,
+          "lineId": "line-28",
+          "prompt": "{{blank}}",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Show me a million reasons",
+            "Bring me a million reasons",
+            "Give me a million reasons"
+          ],
+          "answer": "Give me a million reasons"
+        },
+        {
+          "number": 32,
+          "lineId": "line-29",
+          "prompt": "{{blank}}",
+          "promptZh": "給了我一百萬個理由",
+          "options": [
+            "Givin' me a million reasons",
+            "Giving me a million reasons",
+            "Givin' us a million reasons"
+          ],
+          "answer": "Givin' me a million reasons"
+        },
+        {
+          "number": 33,
+          "lineId": "line-30",
+          "prompt": "{{blank}}",
+          "promptZh": "大約一百萬個理由",
+          "options": [
+            "Nearly a million reasons",
+            "About a million reasons",
+            "Around a million reasons"
+          ],
+          "answer": "About a million reasons"
+        },
+        {
+          "number": 34,
+          "lineId": "line-31",
+          "prompt": "I {{blank}}",
+          "promptZh": "我跪下祈禱",
+          "options": [
+            "kneel down to pray",
+            "bow down and pray",
+            "bow down to pray"
+          ],
+          "answer": "bow down to pray"
+        },
+        {
+          "number": 35,
+          "lineId": "line-32",
+          "prompt": "I {{blank}} the worst seem better",
+          "promptZh": "我試著讓最糟的情況看起來好一些",
+          "options": [
+            "try to make",
+            "try and make",
+            "try to keep"
+          ],
+          "answer": "try to make"
+        },
+        {
+          "number": 36,
+          "lineId": "line-33",
+          "prompt": "Lord, {{blank}}",
+          "promptZh": "主啊，指引我方向",
+          "options": [
+            "show me the path",
+            "show me the way",
+            "lead me the way"
+          ],
+          "answer": "show me the way"
+        },
+        {
+          "number": 37,
+          "lineId": "line-34",
+          "prompt": "To cut through all his {{blank}}",
+          "promptZh": "讓我能穿透他所有破舊的皮囊",
+          "options": [
+            "worn in leather",
+            "worn down leather",
+            "worn out leather"
+          ],
+          "answer": "worn out leather"
+        },
+        {
+          "number": 38,
+          "lineId": "line-35",
+          "prompt": "I've got a hundred million reasons to {{blank}}",
+          "promptZh": "我有一億個離開的理由",
+          "options": [
+            "walk away",
+            "run away",
+            "turn away"
+          ],
+          "answer": "walk away"
+        },
+        {
+          "number": 39,
+          "lineId": "line-36",
+          "prompt": "But baby, I just need one {{blank}}",
+          "promptZh": "但寶貝，我只需要一個好理由留下",
+          "options": [
+            "good one to stay",
+            "good one to say",
+            "good one today"
+          ],
+          "answer": "good one to stay"
+        },
+        {
+          "number": 40,
+          "lineId": "line-38",
+          "prompt": "Baby I'm {{blank}}",
+          "promptZh": "寶貝，我正在流血，流血",
+          "options": [
+            "hurtin', bleedin'",
+            "bleedin', crying",
+            "bleedin', bleedin'"
+          ],
+          "answer": "bleedin', bleedin'"
+        },
+        {
+          "number": 41,
+          "lineId": "line-40",
+          "prompt": "Can't you give me {{blank}}, needin'",
+          "promptZh": "難道你不能給我我需要的，需要的",
+          "options": [
+            "what I'm wantin'",
+            "what I'm needin'",
+            "what I'm missin'"
+          ],
+          "answer": "what I'm needin'"
+        },
+        {
+          "number": 42,
+          "lineId": "line-41",
+          "prompt": "Every heartbreak makes it hard to {{blank}}",
+          "promptZh": "每一次心碎都讓人難以保持信念",
+          "options": [
+            "keep the faith",
+            "hold the faith",
+            "keep the hope"
+          ],
+          "answer": "keep the faith"
+        },
+        {
+          "number": 43,
+          "lineId": "line-42",
+          "prompt": "But baby, I {{blank}}",
+          "promptZh": "但寶貝，我只需要一個好理由",
+          "options": [
+            "only need one good one",
+            "just need one good one",
+            "really need one good one"
+          ],
+          "answer": "just need one good one"
+        },
+        {
+          "number": 44,
+          "lineId": "line-43",
+          "prompt": "{{blank}}, 〔第 45 題〕, good one",
+          "promptZh": "好理由，好理由，好理由，好理由，好理由",
+          "options": [
+            "Best one, good one",
+            "Good one, better one",
+            "Good one, good one"
+          ],
+          "answer": "Good one, good one"
+        },
+        {
+          "number": 45,
+          "lineId": "line-43",
+          "prompt": "〔第 44 題〕, {{blank}}, good one",
+          "promptZh": "好理由，好理由，好理由，好理由，好理由",
+          "options": [
+            "good one, good one",
+            "good one, best one",
+            "great one, good one"
+          ],
+          "answer": "good one, good one"
+        },
+        {
+          "number": 46,
+          "lineId": "line-44",
+          "prompt": "{{blank}} to pray",
+          "promptZh": "當我跪下祈禱",
+          "options": [
+            "When I bow down and",
+            "When I bow down",
+            "As I bow down"
+          ],
+          "answer": "When I bow down"
+        },
+        {
+          "number": 47,
+          "lineId": "line-45",
+          "prompt": "I try to {{blank}}",
+          "promptZh": "我試著讓最糟的情況看起來好一些",
+          "options": [
+            "make the bad seem better",
+            "make the worst feel better",
+            "make the worst seem better"
+          ],
+          "answer": "make the worst seem better"
+        },
+        {
+          "number": 48,
+          "lineId": "line-46",
+          "prompt": "Lord, {{blank}}",
+          "promptZh": "主啊，指引我方向",
+          "options": [
+            "lead me the way",
+            "show me the way",
+            "show me the path"
+          ],
+          "answer": "show me the way"
+        },
+        {
+          "number": 49,
+          "lineId": "line-50",
+          "prompt": "Tell me that you'll {{blank}}, good one",
+          "promptZh": "告訴我你會是那個好理由，好理由",
+          "options": [
+            "be the good one",
+            "be my good one",
+            "be that good one"
+          ],
+          "answer": "be the good one"
+        },
+        {
+          "number": 50,
+          "lineId": "line-51",
+          "prompt": "Baby, I just need {{blank}}",
+          "promptZh": "寶貝，我只需要一個好理由留下",
+          "options": [
+            "one good one today",
+            "one good one to say",
+            "one good one to stay"
+          ],
+          "answer": "one good one to stay"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "You're {{q:1}} to {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "You're {{q:3}} to {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You're {{q:5}} a million reasons"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:6}} a million reasons"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}} a million reasons"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:8}} million reasons"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "If I had a highway, I would {{q:9}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "If you could find a dry way, I'd {{q:10}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:11}} me a million reasons"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:12}} million reasons"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:13}} million reasons"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:14}} reasons"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I {{q:15}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I try to {{q:16}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Lord, {{q:17}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "To {{q:18}} {{q:19}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I've got a {{q:20}} to {{q:21}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "But {{q:22}} one {{q:23}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Head stuck in a cycle, I {{q:24}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "It's like that I've {{q:25}}, but completely aware"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "'Cause you're giving me a million reasons"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:26}} reasons"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:27}} reasons"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And if you say something that you {{q:29}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "It's {{q:30}} which parts I should believe"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "'Cause you're giving me a million reasons"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:31}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:33}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I {{q:34}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I {{q:35}} the worst seem better"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Lord, {{q:36}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "To cut through all his {{q:37}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I've got a hundred million reasons to {{q:38}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "But baby, I just need one {{q:39}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Hey, ehh, ehh, eyy"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Baby I'm {{q:40}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Stay, ehh, ehhy"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Can't you give me {{q:41}}, needin'"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Every heartbreak makes it hard to {{q:42}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "But baby, I {{q:43}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:44}}, {{q:45}}, good one"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:46}} to pray"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I try to {{q:47}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Lord, {{q:48}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "To cut through all his worn out leather"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I've got a hundred million reasons to walk away"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "But baby, I just need one good one, good one"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Tell me that you'll {{q:49}}, good one"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Baby, I just need {{q:50}}"
+        }
+      ]
+    }
+  ],
+  "timingSource": {
+    "method": "faster-whisper-word-alignment-with-targeted-section-review",
+    "audioSha256": "5391f8949eb9abb957f2bcae2fe87234b932d78c80c16bf95f795cb99b38f901",
+    "duration": 201.351875
+  }
+}

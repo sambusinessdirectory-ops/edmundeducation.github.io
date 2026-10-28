@@ -1,0 +1,3201 @@
+{
+  "slug": "everything-has-changed",
+  "title": "Everything Has Changed",
+  "singer": "Taylor Swift & Ed Sheeran",
+  "exercise_name": "Everything Has Changed · Listening & Vocabulary",
+  "description": "《Everything Has Changed》描寫遇見心動的人後，生活突然變得不一樣的甜蜜感受。歌中的主角原本過著平凡的生活，卻因為一次簡單的相遇，開始對愛情充滿期待。對方的一個微笑、一個眼神，甚至一句普通的問候，都讓她感到溫暖與安心，彷彿找到了心靈的歸屬。她渴望更深入了解對方，也願意放下過去的防備，勇敢敞開心扉。歌曲亦描繪了初戀般的緊張、興奮與美好。最終，《Everything Has Changed》傳達的是愛情帶來的驚喜、希望與改變：有時只需要遇見一個特別的人，就能讓原本平凡的世界變得充滿色彩與無限可能。",
+  "tags": [
+    "taylor swift & ed sheeran",
+    "everything has changed",
+    "love",
+    "new beginnings",
+    "taylor swift",
+    "ed sheeran"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "You good to go?",
+      "chinese": "準備好了嗎？",
+      "startSeconds": 0.0,
+      "endSeconds": 1.24
+    },
+    {
+      "lineId": "line-2",
+      "english": "All I knew this morning when I woke",
+      "chinese": "今天早晨醒來時，我所知道的一切",
+      "startSeconds": 10.36,
+      "endSeconds": 14.76
+    },
+    {
+      "lineId": "line-3",
+      "english": "Is I know something now, know something now I didn't before",
+      "chinese": "就是我現在明白了些什麼，明白了些以前不懂的事",
+      "startSeconds": 16.08,
+      "endSeconds": 20.6
+    },
+    {
+      "lineId": "line-4",
+      "english": "And all I've seen since eighteen hours ago",
+      "chinese": "而從十八小時前到現在，我所看見的一切",
+      "startSeconds": 20.6,
+      "endSeconds": 26.48
+    },
+    {
+      "lineId": "line-5",
+      "english": "Is green eyes and freckles and your smile",
+      "chinese": "都是碧綠的雙眼、雀斑和你的笑容",
+      "startSeconds": 26.48,
+      "endSeconds": 29.1
+    },
+    {
+      "lineId": "line-6",
+      "english": "In the back of my mind making me feel like",
+      "chinese": "在我腦海深處，讓我感覺",
+      "startSeconds": 29.1,
+      "endSeconds": 32.36
+    },
+    {
+      "lineId": "line-7",
+      "english": "I just wanna know you better, know you better, know you better now",
+      "chinese": "我只想更了解你，更了解你，現在更了解你",
+      "startSeconds": 32.36,
+      "endSeconds": 38.58
+    },
+    {
+      "lineId": "line-8",
+      "english": "I just wanna know you better, know you better, know you better now",
+      "chinese": "我只想更了解你，更了解你，現在更了解你",
+      "startSeconds": 38.58,
+      "endSeconds": 44.4
+    },
+    {
+      "lineId": "line-9",
+      "english": "I just wanna know you better, know you better, know you better now",
+      "chinese": "我只想更了解你，更了解你，現在更了解你",
+      "startSeconds": 44.78,
+      "endSeconds": 50.56
+    },
+    {
+      "lineId": "line-10",
+      "english": "I just wanna know you, know you, know you",
+      "chinese": "我只想認識你，認識你，認識你",
+      "startSeconds": 50.56,
+      "endSeconds": 55.72
+    },
+    {
+      "lineId": "line-11",
+      "english": "'Cause all I know is we said, \"Hello\"",
+      "chinese": "因為我只知道我們說了聲「你好」",
+      "startSeconds": 56.48,
+      "endSeconds": 59.0
+    },
+    {
+      "lineId": "line-12",
+      "english": "And your eyes look like coming home",
+      "chinese": "而你的雙眼看起來就像回到了家",
+      "startSeconds": 59.0,
+      "endSeconds": 61.98
+    },
+    {
+      "lineId": "line-13",
+      "english": "All I know is a simple name",
+      "chinese": "我只知道一個簡單的名字",
+      "startSeconds": 61.98,
+      "endSeconds": 64.98
+    },
+    {
+      "lineId": "line-14",
+      "english": "Everything has changed",
+      "chinese": "一切都已經改變了",
+      "startSeconds": 66.3,
+      "endSeconds": 68.4
+    },
+    {
+      "lineId": "line-15",
+      "english": "All I know is you held the door",
+      "chinese": "我只知道你為我扶著門",
+      "startSeconds": 68.4,
+      "endSeconds": 71.0
+    },
+    {
+      "lineId": "line-16",
+      "english": "You'll be mine and I'll be yours",
+      "chinese": "你將屬於我，我也將屬於你",
+      "startSeconds": 71.0,
+      "endSeconds": 74.1
+    },
+    {
+      "lineId": "line-17",
+      "english": "All I know since yesterday is everything has changed",
+      "chinese": "從昨天起我只知道，一切都已經改變了",
+      "startSeconds": 74.56,
+      "endSeconds": 80.58
+    },
+    {
+      "lineId": "line-18",
+      "english": "And all my walls stood tall painted blue",
+      "chinese": "而我所有的城牆曾高高聳立，漆成藍色",
+      "startSeconds": 87.32,
+      "endSeconds": 92.54
+    },
+    {
+      "lineId": "line-19",
+      "english": "And I'll take them down, take them down and open up the door for you",
+      "chinese": "我會把它們推倒，推倒 ，為你敞開大門",
+      "startSeconds": 93.98,
+      "endSeconds": 98.76
+    },
+    {
+      "lineId": "line-20",
+      "english": "And all I feel in my stomach is butterflies",
+      "chinese": "我胃裡盤旋的盡是蝴蝶（怦然心動）",
+      "startSeconds": 99.44,
+      "endSeconds": 104.32
+    },
+    {
+      "lineId": "line-21",
+      "english": "The beautiful kind, making up for lost time",
+      "chinese": "那種美麗的悸動，彌補了失去的時光",
+      "startSeconds": 104.32,
+      "endSeconds": 107.46
+    },
+    {
+      "lineId": "line-22",
+      "english": "Taking flight, making me feel right",
+      "chinese": "展翅高飛，讓我感覺一切對了",
+      "startSeconds": 107.46,
+      "endSeconds": 110.54
+    },
+    {
+      "lineId": "line-23",
+      "english": "I just wanna know you better, know you better, know you better now",
+      "chinese": "我只想更了解你，更了解你，現在更了解你",
+      "startSeconds": 110.54,
+      "endSeconds": 116.58
+    },
+    {
+      "lineId": "line-24",
+      "english": "I just wanna know you better, know you better, know you better now",
+      "chinese": "我只想更了解你，更了解你，現在更了解你",
+      "startSeconds": 116.58,
+      "endSeconds": 122.8
+    },
+    {
+      "lineId": "line-25",
+      "english": "I just wanna know you better, know you better, know you better now",
+      "chinese": "我只想更了解你，更了解你，現在更了解你",
+      "startSeconds": 122.8,
+      "endSeconds": 128.56
+    },
+    {
+      "lineId": "line-26",
+      "english": "I just wanna know you, know you, know you",
+      "chinese": "我只想認識你，認識你，認識你",
+      "startSeconds": 128.56,
+      "endSeconds": 133.94
+    },
+    {
+      "lineId": "line-27",
+      "english": "'Cause all I know is we said, \"Hello\"",
+      "chinese": "因為我只知道我們說了聲「你好」",
+      "startSeconds": 133.94,
+      "endSeconds": 136.92
+    },
+    {
+      "lineId": "line-28",
+      "english": "And your eyes look like coming home",
+      "chinese": "而你的雙眼看起來就像回到了家",
+      "startSeconds": 136.92,
+      "endSeconds": 140.16
+    },
+    {
+      "lineId": "line-29",
+      "english": "All I know is a simple name",
+      "chinese": "我只知道一個簡單的名字",
+      "startSeconds": 140.16,
+      "endSeconds": 143.02
+    },
+    {
+      "lineId": "line-30",
+      "english": "Everything has changed",
+      "chinese": "一切都已經改變了",
+      "startSeconds": 143.94,
+      "endSeconds": 146.1
+    },
+    {
+      "lineId": "line-31",
+      "english": "All I know is you held the door",
+      "chinese": "我只知道你為我扶著門",
+      "startSeconds": 146.46,
+      "endSeconds": 149.0
+    },
+    {
+      "lineId": "line-32",
+      "english": "And you'll be mine and I'll be yours",
+      "chinese": "你將屬於我，我也將屬於你",
+      "startSeconds": 149.0,
+      "endSeconds": 152.04
+    },
+    {
+      "lineId": "line-33",
+      "english": "All I know since yesterday is everything has changed",
+      "chinese": "從昨天起我只知道，一切都已經改變了",
+      "startSeconds": 152.04,
+      "endSeconds": 158.72
+    },
+    {
+      "lineId": "line-34",
+      "english": "Come back and tell me why",
+      "chinese": "回來告訴我為什麼",
+      "startSeconds": 158.72,
+      "endSeconds": 162.2
+    },
+    {
+      "lineId": "line-35",
+      "english": "I'm feeling like I've missed you all this time",
+      "chinese": "我感覺自己好像想念了你一輩子",
+      "startSeconds": 162.2,
+      "endSeconds": 168.2
+    },
+    {
+      "lineId": "line-36",
+      "english": "Oh, oh, oh",
+      "chinese": "噢，噢，噢",
+      "startSeconds": 169.02,
+      "endSeconds": 171.68
+    },
+    {
+      "lineId": "line-37",
+      "english": "And meet me there tonight",
+      "chinese": "今晚在那裡與我相見",
+      "startSeconds": 171.68,
+      "endSeconds": 173.98
+    },
+    {
+      "lineId": "line-38",
+      "english": "And let me know that it's not all in my mind",
+      "chinese": "讓我知道這一切不全是我的幻想",
+      "startSeconds": 174.28,
+      "endSeconds": 180.62
+    },
+    {
+      "lineId": "line-39",
+      "english": "I just wanna know you better, know you better, know you better now",
+      "chinese": "我只想更了解你，更了解你，現在更了解你",
+      "startSeconds": 180.62,
+      "endSeconds": 188.64
+    },
+    {
+      "lineId": "line-40",
+      "english": "I just wanna know you, know you, know you",
+      "chinese": "我只想認識你，認識你，認識你",
+      "startSeconds": 188.64,
+      "endSeconds": 194.0
+    },
+    {
+      "lineId": "line-41",
+      "english": "All I know is we said, \"Hello\"",
+      "chinese": "我只知道我們說了聲「你好」",
+      "startSeconds": 194.0,
+      "endSeconds": 197.02
+    },
+    {
+      "lineId": "line-42",
+      "english": "And your eyes look like coming home",
+      "chinese": "而你的雙眼看起來就像回到了家",
+      "startSeconds": 197.02,
+      "endSeconds": 200.18
+    },
+    {
+      "lineId": "line-43",
+      "english": "All I know is a simple name",
+      "chinese": "我只知道一個簡單的名字",
+      "startSeconds": 200.18,
+      "endSeconds": 202.98
+    },
+    {
+      "lineId": "line-44",
+      "english": "Everything has changed",
+      "chinese": "一切都已經改變了",
+      "startSeconds": 204.12,
+      "endSeconds": 206.46
+    },
+    {
+      "lineId": "line-45",
+      "english": "All I know is you held the door",
+      "chinese": "我只知道你為我扶著門",
+      "startSeconds": 206.46,
+      "endSeconds": 209.04
+    },
+    {
+      "lineId": "line-46",
+      "english": "You'll be mine and I'll be yours",
+      "chinese": "你將屬於我，我也將屬於你",
+      "startSeconds": 209.04,
+      "endSeconds": 212.08
+    },
+    {
+      "lineId": "line-47",
+      "english": "All I know since yesterday is everything has changed",
+      "chinese": "從昨天起我只知道，一切都已經改變了",
+      "startSeconds": 212.08,
+      "endSeconds": 218.4
+    },
+    {
+      "lineId": "line-48",
+      "english": "All I know is we said, \"Hello\"",
+      "chinese": "我只知道我們說了聲「你好」",
+      "startSeconds": 218.4,
+      "endSeconds": 221.08
+    },
+    {
+      "lineId": "line-49",
+      "english": "So dust off your highest hopes",
+      "chinese": "所以重拾你最殷切的期盼",
+      "startSeconds": 221.08,
+      "endSeconds": 224.0
+    },
+    {
+      "lineId": "line-50",
+      "english": "All I know is pouring rain and everything has changed",
+      "chinese": "我只知道傾盆大雨，而一切都已經改變了",
+      "startSeconds": 224.0,
+      "endSeconds": 230.44
+    },
+    {
+      "lineId": "line-51",
+      "english": "All I know is a new found grace",
+      "chinese": "我只知道一種新發現的恩典",
+      "startSeconds": 230.44,
+      "endSeconds": 233.14
+    },
+    {
+      "lineId": "line-52",
+      "english": "All my days I'll know your face",
+      "chinese": "在我的餘生中，我會記得你的容顏",
+      "startSeconds": 233.14,
+      "endSeconds": 236.02
+    },
+    {
+      "lineId": "line-53",
+      "english": "All I know since yesterday is everything has changed",
+      "chinese": "從昨天起我只知道，一切都已經改變了",
+      "startSeconds": 236.02,
+      "endSeconds": 242.52
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Good to go",
+      "meaning": "準備好了，可以開始了。",
+      "usage": "出發、開始活動前，確認自己或別人是否準備好。",
+      "prompt": "哪一句正確使用了「Good to go」？",
+      "options": [
+        "I am good to go my sandwich.",
+        "Are you good to go? The bus is here.",
+        "My shoes are good to go at seven years old.",
+        "She good to go the door every night."
+      ],
+      "answer": 1,
+      "explanation": "正確：公車來了，詢問對方是否準備好出發。",
+      "optionExplanations": [
+        "錯誤：不能把 good to go 當成「吃」的動詞。",
+        "正確：公車來了，詢問對方是否準備好出發。",
+        "錯誤：這裡的年齡跟「準備好了」沒有合理關係。",
+        "錯誤：缺少 is，而且不能用它表示關門。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Know someone better",
+      "meaning": "更了解某人。",
+      "usage": "想更認識朋友、同學或喜歡的人時。",
+      "prompt": "哪一句正確使用了「Know someone better」？",
+      "options": [
+        "We talk every day to know each other better.",
+        "I know better my pencil after lunch.",
+        "He knows better his cake with a spoon.",
+        "She knows me better a new bicycle."
+      ],
+      "answer": 0,
+      "explanation": "正確：每天聊天可以讓彼此更了解對方。",
+      "optionExplanations": [
+        "正確：每天聊天可以讓彼此更了解對方。",
+        "錯誤：know someone better 不是用來描述鉛筆吃午餐。",
+        "錯誤：不能用 know better 表示用湯匙吃蛋糕。",
+        "錯誤：後面不能直接接 a new bicycle 來表示更了解我。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "In the back of my mind",
+      "meaning": "在腦海深處；心裡一直隱約想著。",
+      "usage": "有件事不是一直在想，卻沒有完全忘記時。",
+      "prompt": "哪一句正確使用了「In the back of my mind」？",
+      "options": [
+        "My phone is in the back of my mind on the desk.",
+        "In the back of my mind, I knew I had homework to do.",
+        "I put milk in the back of my mind to keep it cold.",
+        "She walked in the back of my mind to get home."
+      ],
+      "answer": 1,
+      "explanation": "正確：表示心裡一直記得還有作業。",
+      "optionExplanations": [
+        "錯誤：桌上的手機是實物，不是在想法裡。",
+        "正確：表示心裡一直記得還有作業。",
+        "錯誤：不能把這個片語當成冰箱。",
+        "錯誤：這不是實際可以走路的地方。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Hold the door",
+      "meaning": "幫別人扶住門、讓門保持開著。",
+      "usage": "看到後面有人要進出時，可以為對方扶門。",
+      "prompt": "哪一句正確使用了「Hold the door」？",
+      "options": [
+        "She held the door open for an old man.",
+        "He held the door in his school bag.",
+        "We held the door to eat it for breakfast.",
+        "I held the door because my soup was hot."
+      ],
+      "answer": 0,
+      "explanation": "正確：她為一位老人扶著門，讓他通過。",
+      "optionExplanations": [
+        "正確：她為一位老人扶著門，讓他通過。",
+        "錯誤：一般的門無法放進書包。",
+        "錯誤：門不是食物，不能拿來吃。",
+        "錯誤：湯很燙並不是扶門的合理原因。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Take down",
+      "meaning": "拿下、拆下；把東西從高處移走。",
+      "usage": "拆下牆上的照片或裝飾時常用。",
+      "prompt": "哪一句正確使用了「Take down」？",
+      "options": [
+        "She took down to the library by bus.",
+        "I took down my breakfast with orange juice.",
+        "We took down the old picture from the wall.",
+        "My cat took down happy on Monday."
+      ],
+      "answer": 2,
+      "explanation": "正確：把舊照片從牆上取下來。",
+      "optionExplanations": [
+        "錯誤：搭公車去圖書館應用 went 或 took the bus。",
+        "錯誤：不能用 take down 表示吃早餐。",
+        "正確：把舊照片從牆上取下來。",
+        "錯誤：take down 不能直接接 happy 表示開心。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Open up",
+      "meaning": "打開；敞開心房，願意說出感受。",
+      "usage": "描述打開東西，或願意跟信任的人分享心事。",
+      "prompt": "哪一句正確使用了「Open up」？",
+      "options": [
+        "I open up my lunch with a football game.",
+        "We open up at seven years old every morning.",
+        "She opened up the rain to make it sunny.",
+        "He opened up to his friend about his bad day."
+      ],
+      "answer": 3,
+      "explanation": "正確：他向朋友敞開心房，說出今天不開心的事。",
+      "optionExplanations": [
+        "錯誤：片語與這個句子的意思不搭。",
+        "錯誤：這裡沒有清楚的打開對象或分享感受的意思。",
+        "錯誤：不能把雨「打開」來讓天氣變晴。",
+        "正確：他向朋友敞開心房，說出今天不開心的事。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Butterflies in my stomach",
+      "meaning": "心裡緊張、忐忑或興奮（像肚子裡有蝴蝶）。",
+      "usage": "考試、上台或見到喜歡的人之前，感到緊張時。",
+      "prompt": "哪一句正確使用了「Butterflies in my stomach」？",
+      "options": [
+        "I put butterflies in my stomach with a spoon.",
+        "My stomach has butterflies because I ate blue rice.",
+        "I had butterflies in my stomach before my first show.",
+        "She bought butterflies in my stomach at the shop."
+      ],
+      "answer": 2,
+      "explanation": "正確：第一次上台表演前很緊張。",
+      "optionExplanations": [
+        "錯誤：這個片語通常是比喻，不是真的吃蝴蝶。",
+        "錯誤：不能用這個片語描述食物顏色造成的狀況。",
+        "正確：第一次上台表演前很緊張。",
+        "錯誤：緊張的感覺不是商店可以買的商品。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Make up for lost time",
+      "meaning": "彌補失去的時間；把之前沒做的事補回來。",
+      "usage": "好久沒見的朋友重聚，想多花時間相處時。",
+      "prompt": "哪一句正確使用了「Make up for lost time」？",
+      "options": [
+        "After a year apart, we spent all day together to make up for lost time.",
+        "He made up for lost time with a new pair of socks.",
+        "We make up for lost time because our chairs are tall.",
+        "I make up for lost time by turning my clock blue."
+      ],
+      "answer": 0,
+      "explanation": "正確：分開一年後，多花時間相處來彌補錯過的日子。",
+      "optionExplanations": [
+        "正確：分開一年後，多花時間相處來彌補錯過的日子。",
+        "錯誤：買襪子沒有表達把錯過的時間補回來。",
+        "錯誤：椅子很高和補回失去的時間沒有關聯。",
+        "錯誤：改變時鐘顏色不等於彌補失去的時間。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "All in my mind",
+      "meaning": "只是自己想出來的；可能不是真的。",
+      "usage": "不確定某種擔心或想法是否真實時。",
+      "prompt": "哪一句正確使用了「All in my mind」？",
+      "options": [
+        "She went all in my mind by train yesterday.",
+        "My school is all in my mind next to the bank.",
+        "I put all in my mind into a glass of water.",
+        "I thought everyone was angry, but it was all in my mind."
+      ],
+      "answer": 3,
+      "explanation": "正確：原來大家並沒有生氣，是自己想太多。",
+      "optionExplanations": [
+        "錯誤：不能把它當成搭火車前往的地點。",
+        "錯誤：學校的實際位置不是想像出來的感覺。",
+        "錯誤：想法不能像水一樣倒進杯子裡。",
+        "正確：原來大家並沒有生氣，是自己想太多。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Pouring rain",
+      "meaning": "傾盆大雨；雨下得很大。",
+      "usage": "天氣非常差、雨很大時可以說 it is pouring rain。",
+      "prompt": "哪一句正確使用了「Pouring rain」？",
+      "options": [
+        "I drank pouring rain from my blue shoe.",
+        "It was pouring rain, so we stayed inside.",
+        "She is pouring rain her homework at school.",
+        "My brother wore a pouring rain to the party."
+      ],
+      "answer": 1,
+      "explanation": "正確：因為下大雨，所以我們待在室內。",
+      "optionExplanations": [
+        "錯誤：這個片語用來描述大雨，不是飲料名稱。",
+        "正確：因為下大雨，所以我們待在室內。",
+        "錯誤：不能用 pouring rain 表示寫作業。",
+        "錯誤：pouring rain 不是可以穿的衣服。"
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/everything-has-changed/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/everything-has-changed/cover.webp",
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-2",
+          "prompt": "All I knew this morning when I {{blank}}",
+          "promptZh": "今天早晨醒來時，我所知道的一切",
+          "options": [
+            "woke",
+            "slept",
+            "rose"
+          ],
+          "answer": "woke"
+        },
+        {
+          "number": 2,
+          "lineId": "line-3",
+          "prompt": "Is I know something now, know something now I didn't {{blank}}",
+          "promptZh": "就是我現在明白了些什麼，明白了些以前不懂的事",
+          "options": [
+            "know",
+            "before",
+            "see"
+          ],
+          "answer": "before"
+        },
+        {
+          "number": 3,
+          "lineId": "line-4",
+          "prompt": "And all I've seen since {{blank}} ago",
+          "promptZh": "而從十八小時前到現在，我所看見的一切",
+          "options": [
+            "seventeen hours",
+            "eighteen days",
+            "eighteen hours"
+          ],
+          "answer": "eighteen hours"
+        },
+        {
+          "number": 4,
+          "lineId": "line-5",
+          "prompt": "Is {{blank}} eyes and freckles and your smile",
+          "promptZh": "都是碧綠的雙眼、雀斑和你的笑容",
+          "options": [
+            "blue",
+            "green",
+            "bright"
+          ],
+          "answer": "green"
+        },
+        {
+          "number": 5,
+          "lineId": "line-6",
+          "prompt": "In the {{blank}} of my mind making me feel like",
+          "promptZh": "在我腦海深處，讓我感覺",
+          "options": [
+            "back",
+            "front",
+            "deep"
+          ],
+          "answer": "back"
+        },
+        {
+          "number": 6,
+          "lineId": "line-7",
+          "prompt": "I just wanna {{blank}}, know you better, know you better now",
+          "promptZh": "我只想更了解你，更了解你，現在更了解你",
+          "options": [
+            "see you better",
+            "love you better",
+            "know you better"
+          ],
+          "answer": "know you better"
+        },
+        {
+          "number": 7,
+          "lineId": "line-11",
+          "prompt": "'Cause all I know is we said, \"{{blank}}\"",
+          "promptZh": "因為我只知道我們說了聲「你好」",
+          "options": [
+            "Goodbye",
+            "Hello",
+            "Hi"
+          ],
+          "answer": "Hello"
+        },
+        {
+          "number": 8,
+          "lineId": "line-12",
+          "prompt": "And your eyes look like {{blank}}",
+          "promptZh": "而你的雙眼看起來就像回到了家",
+          "options": [
+            "coming home",
+            "coming back",
+            "going home"
+          ],
+          "answer": "coming home"
+        },
+        {
+          "number": 9,
+          "lineId": "line-13",
+          "prompt": "All I know is a {{blank}} name",
+          "promptZh": "我只知道一個簡單的名字",
+          "options": [
+            "pretty",
+            "simple",
+            "little"
+          ],
+          "answer": "simple"
+        },
+        {
+          "number": 10,
+          "lineId": "line-14",
+          "prompt": "Everything has {{blank}}",
+          "promptZh": "一切都已經改變了",
+          "options": [
+            "gone",
+            "faded",
+            "changed"
+          ],
+          "answer": "changed"
+        },
+        {
+          "number": 11,
+          "lineId": "line-15",
+          "prompt": "All I know is you {{blank}}",
+          "promptZh": "我只知道你為我扶著門",
+          "options": [
+            "held the door",
+            "opened the door",
+            "closed the door"
+          ],
+          "answer": "held the door"
+        },
+        {
+          "number": 12,
+          "lineId": "line-16",
+          "prompt": "You'll be mine and I'll be {{blank}}",
+          "promptZh": "你將屬於我，我也將屬於你",
+          "options": [
+            "mine",
+            "yours",
+            "ours"
+          ],
+          "answer": "yours"
+        },
+        {
+          "number": 13,
+          "lineId": "line-17",
+          "prompt": "All I know since yesterday is everything has {{blank}}",
+          "promptZh": "從昨天起我只知道，一切都已經改變了",
+          "options": [
+            "gone",
+            "turned",
+            "changed"
+          ],
+          "answer": "changed"
+        },
+        {
+          "number": 14,
+          "lineId": "line-18",
+          "prompt": "And all my walls stood {{blank}}",
+          "promptZh": "而我所有的城牆曾高高聳立，漆成藍色",
+          "options": [
+            "tall painted blue",
+            "high painted blue",
+            "tall painted black"
+          ],
+          "answer": "tall painted blue"
+        },
+        {
+          "number": 15,
+          "lineId": "line-20",
+          "prompt": "And all I feel in my stomach is {{blank}}",
+          "promptZh": "我胃裡盤旋的盡是蝴蝶（怦然心動）",
+          "options": [
+            "butterflies now",
+            "butterflies",
+            "fireflies"
+          ],
+          "answer": "butterflies"
+        },
+        {
+          "number": 16,
+          "lineId": "line-21",
+          "prompt": "The beautiful kind, making up for {{blank}}",
+          "promptZh": "那種美麗的悸動，彌補了失去的時光",
+          "options": [
+            "lost love",
+            "the time",
+            "lost time"
+          ],
+          "answer": "lost time"
+        },
+        {
+          "number": 17,
+          "lineId": "line-22",
+          "prompt": "Taking {{blank}}, making me feel right",
+          "promptZh": "展翅高飛，讓我感覺一切對了",
+          "options": [
+            "flight",
+            "off",
+            "wing"
+          ],
+          "answer": "flight"
+        },
+        {
+          "number": 18,
+          "lineId": "line-34",
+          "prompt": "Come back and tell me {{blank}}",
+          "promptZh": "回來告訴我為什麼",
+          "options": [
+            "when",
+            "how",
+            "why"
+          ],
+          "answer": "why"
+        },
+        {
+          "number": 19,
+          "lineId": "line-35",
+          "prompt": "I'm feeling like I've {{blank}} all this time",
+          "promptZh": "我感覺自己好像想念了你一輩子",
+          "options": [
+            "missed you",
+            "lost you",
+            "known you"
+          ],
+          "answer": "missed you"
+        },
+        {
+          "number": 20,
+          "lineId": "line-49",
+          "prompt": "So dust off your {{blank}}",
+          "promptZh": "所以重拾你最殷切的期盼",
+          "options": [
+            "highest dreams",
+            "highest hopes",
+            "best hopes"
+          ],
+          "answer": "highest hopes"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "You good to go?"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "All I knew this morning when I {{q:1}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Is I know something now, know something now I didn't {{q:2}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "And all I've seen since {{q:3}} ago"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Is {{q:4}} eyes and freckles and your smile"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "In the {{q:5}} of my mind making me feel like"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I just wanna {{q:6}}, know you better, know you better now"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I just wanna know you, know you, know you"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "'Cause all I know is we said, \"{{q:7}}\""
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And your eyes look like {{q:8}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "All I know is a {{q:9}} name"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Everything has {{q:10}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "All I know is you {{q:11}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "You'll be mine and I'll be {{q:12}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "All I know since yesterday is everything has {{q:13}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "And all my walls stood {{q:14}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "And I'll take them down, take them down and open up the door for you"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And all I feel in my stomach is {{q:15}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "The beautiful kind, making up for {{q:16}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Taking {{q:17}}, making me feel right"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I just wanna know you, know you, know you"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "'Cause all I know is we said, \"Hello\""
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "And your eyes look like coming home"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "All I know is a simple name"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Everything has changed"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "All I know is you held the door"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "And you'll be mine and I'll be yours"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "All I know since yesterday is everything has changed"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Come back and tell me {{q:18}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I'm feeling like I've {{q:19}} all this time"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Oh, oh, oh"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And meet me there tonight"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "And let me know that it's not all in my mind"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "I just wanna know you, know you, know you"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "All I know is we said, \"Hello\""
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "And your eyes look like coming home"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "All I know is a simple name"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Everything has changed"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "All I know is you held the door"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "You'll be mine and I'll be yours"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "All I know since yesterday is everything has changed"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "All I know is we said, \"Hello\""
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "So dust off your {{q:20}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "All I know is pouring rain and everything has changed"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "All I know is a new found grace"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "All my days I'll know your face"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "All I know since yesterday is everything has changed"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-2",
+          "prompt": "All I knew this morning when I {{blank}}",
+          "promptZh": "今天早晨醒來時，我所知道的一切",
+          "options": [
+            "slept",
+            "woke",
+            "rose"
+          ],
+          "answer": "woke"
+        },
+        {
+          "number": 2,
+          "lineId": "line-3",
+          "prompt": "Is I know something now, know something now I didn't {{blank}}",
+          "promptZh": "就是我現在明白了些什麼，明白了些以前不懂的事",
+          "options": [
+            "before",
+            "know",
+            "see"
+          ],
+          "answer": "before"
+        },
+        {
+          "number": 3,
+          "lineId": "line-4",
+          "prompt": "And all I've seen {{blank}} 〔第 4 題〕 ago",
+          "promptZh": "而從十八小時前到現在，我所看見的一切",
+          "options": [
+            "from",
+            "after",
+            "since"
+          ],
+          "answer": "since"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "And all I've seen 〔第 3 題〕 {{blank}} ago",
+          "promptZh": "而從十八小時前到現在，我所看見的一切",
+          "options": [
+            "eighteen days",
+            "eighteen hours",
+            "seventeen hours"
+          ],
+          "answer": "eighteen hours"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "Is {{blank}} eyes and freckles and your 〔第 6 題〕",
+          "promptZh": "都是碧綠的雙眼、雀斑和你的笑容",
+          "options": [
+            "green",
+            "blue",
+            "bright"
+          ],
+          "answer": "green"
+        },
+        {
+          "number": 6,
+          "lineId": "line-5",
+          "prompt": "Is 〔第 5 題〕 eyes and freckles and your {{blank}}",
+          "promptZh": "都是碧綠的雙眼、雀斑和你的笑容",
+          "options": [
+            "smile",
+            "face",
+            "look"
+          ],
+          "answer": "smile"
+        },
+        {
+          "number": 7,
+          "lineId": "line-6",
+          "prompt": "In the {{blank}} of my mind making me 〔第 8 題〕 〔第 9 題〕",
+          "promptZh": "在我腦海深處，讓我感覺",
+          "options": [
+            "deep",
+            "front",
+            "back"
+          ],
+          "answer": "back"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "In the 〔第 7 題〕 of my mind making me {{blank}} 〔第 9 題〕",
+          "promptZh": "在我腦海深處，讓我感覺",
+          "options": [
+            "look",
+            "feel",
+            "seem"
+          ],
+          "answer": "feel"
+        },
+        {
+          "number": 9,
+          "lineId": "line-6",
+          "prompt": "In the 〔第 7 題〕 of my mind making me 〔第 8 題〕 {{blank}}",
+          "promptZh": "在我腦海深處，讓我感覺",
+          "options": [
+            "as",
+            "so",
+            "like"
+          ],
+          "answer": "like"
+        },
+        {
+          "number": 10,
+          "lineId": "line-7",
+          "prompt": "I just wanna {{blank}}, know you 〔第 11 題〕, know you better now",
+          "promptZh": "我只想更了解你，更了解你，現在更了解你",
+          "options": [
+            "know you better",
+            "love you better",
+            "see you better"
+          ],
+          "answer": "know you better"
+        },
+        {
+          "number": 11,
+          "lineId": "line-7",
+          "prompt": "I just wanna 〔第 10 題〕, know you {{blank}}, know you better now",
+          "promptZh": "我只想更了解你，更了解你，現在更了解你",
+          "options": [
+            "best",
+            "better",
+            "well"
+          ],
+          "answer": "better"
+        },
+        {
+          "number": 12,
+          "lineId": "line-11",
+          "prompt": "'Cause all I know is we said, \"{{blank}}\"",
+          "promptZh": "因為我只知道我們說了聲「你好」",
+          "options": [
+            "Hello",
+            "Goodbye",
+            "Hi"
+          ],
+          "answer": "Hello"
+        },
+        {
+          "number": 13,
+          "lineId": "line-12",
+          "prompt": "And your eyes look like {{blank}}",
+          "promptZh": "而你的雙眼看起來就像回到了家",
+          "options": [
+            "going home",
+            "coming back",
+            "coming home"
+          ],
+          "answer": "coming home"
+        },
+        {
+          "number": 14,
+          "lineId": "line-13",
+          "prompt": "All I know is a {{blank}} 〔第 15 題〕",
+          "promptZh": "我只知道一個簡單的名字",
+          "options": [
+            "pretty",
+            "simple",
+            "little"
+          ],
+          "answer": "simple"
+        },
+        {
+          "number": 15,
+          "lineId": "line-13",
+          "prompt": "All I know is a 〔第 14 題〕 {{blank}}",
+          "promptZh": "我只知道一個簡單的名字",
+          "options": [
+            "face",
+            "word",
+            "name"
+          ],
+          "answer": "name"
+        },
+        {
+          "number": 16,
+          "lineId": "line-14",
+          "prompt": "Everything has {{blank}}",
+          "promptZh": "一切都已經改變了",
+          "options": [
+            "changed",
+            "faded",
+            "gone"
+          ],
+          "answer": "changed"
+        },
+        {
+          "number": 17,
+          "lineId": "line-15",
+          "prompt": "All I know is you {{blank}}",
+          "promptZh": "我只知道你為我扶著門",
+          "options": [
+            "opened the door",
+            "held the door",
+            "closed the door"
+          ],
+          "answer": "held the door"
+        },
+        {
+          "number": 18,
+          "lineId": "line-16",
+          "prompt": "You'll be mine and I'll be {{blank}}",
+          "promptZh": "你將屬於我，我也將屬於你",
+          "options": [
+            "mine",
+            "yours",
+            "ours"
+          ],
+          "answer": "yours"
+        },
+        {
+          "number": 19,
+          "lineId": "line-17",
+          "prompt": "All I know since yesterday is everything has {{blank}}",
+          "promptZh": "從昨天起我只知道，一切都已經改變了",
+          "options": [
+            "gone",
+            "turned",
+            "changed"
+          ],
+          "answer": "changed"
+        },
+        {
+          "number": 20,
+          "lineId": "line-18",
+          "prompt": "And all my walls stood {{blank}}",
+          "promptZh": "而我所有的城牆曾高高聳立，漆成藍色",
+          "options": [
+            "tall painted blue",
+            "high painted blue",
+            "tall painted black"
+          ],
+          "answer": "tall painted blue"
+        },
+        {
+          "number": 21,
+          "lineId": "line-19",
+          "prompt": "And I'll take them down, take them down and {{blank}} for you",
+          "promptZh": "我會把它們推倒，推倒 ，為你敞開大門",
+          "options": [
+            "open the gate",
+            "open up the door",
+            "open up my heart"
+          ],
+          "answer": "open up the door"
+        },
+        {
+          "number": 22,
+          "lineId": "line-20",
+          "prompt": "And all I feel in my stomach is {{blank}}",
+          "promptZh": "我胃裡盤旋的盡是蝴蝶（怦然心動）",
+          "options": [
+            "butterflies now",
+            "fireflies",
+            "butterflies"
+          ],
+          "answer": "butterflies"
+        },
+        {
+          "number": 23,
+          "lineId": "line-21",
+          "prompt": "The beautiful kind, {{blank}} for 〔第 24 題〕",
+          "promptZh": "那種美麗的悸動，彌補了失去的時光",
+          "options": [
+            "making up",
+            "making for",
+            "taking up"
+          ],
+          "answer": "making up"
+        },
+        {
+          "number": 24,
+          "lineId": "line-21",
+          "prompt": "The beautiful kind, 〔第 23 題〕 for {{blank}}",
+          "promptZh": "那種美麗的悸動，彌補了失去的時光",
+          "options": [
+            "lost love",
+            "the time",
+            "lost time"
+          ],
+          "answer": "lost time"
+        },
+        {
+          "number": 25,
+          "lineId": "line-22",
+          "prompt": "Taking {{blank}}, making me feel right",
+          "promptZh": "展翅高飛，讓我感覺一切對了",
+          "options": [
+            "off",
+            "flight",
+            "wing"
+          ],
+          "answer": "flight"
+        },
+        {
+          "number": 26,
+          "lineId": "line-34",
+          "prompt": "Come back and tell me {{blank}}",
+          "promptZh": "回來告訴我為什麼",
+          "options": [
+            "why",
+            "how",
+            "when"
+          ],
+          "answer": "why"
+        },
+        {
+          "number": 27,
+          "lineId": "line-35",
+          "prompt": "I'm feeling like I've {{blank}} all this time",
+          "promptZh": "我感覺自己好像想念了你一輩子",
+          "options": [
+            "lost you",
+            "known you",
+            "missed you"
+          ],
+          "answer": "missed you"
+        },
+        {
+          "number": 28,
+          "lineId": "line-38",
+          "prompt": "And let me know that it's {{blank}} in my mind",
+          "promptZh": "讓我知道這一切不全是我的幻想",
+          "options": [
+            "not all",
+            "not just",
+            "not only"
+          ],
+          "answer": "not all"
+        },
+        {
+          "number": 29,
+          "lineId": "line-49",
+          "prompt": "So {{blank}} your 〔第 30 題〕",
+          "promptZh": "所以重拾你最殷切的期盼",
+          "options": [
+            "shake off",
+            "dust off",
+            "brush off"
+          ],
+          "answer": "dust off"
+        },
+        {
+          "number": 30,
+          "lineId": "line-49",
+          "prompt": "So 〔第 29 題〕 your {{blank}}",
+          "promptZh": "所以重拾你最殷切的期盼",
+          "options": [
+            "highest hopes",
+            "highest dreams",
+            "best hopes"
+          ],
+          "answer": "highest hopes"
+        },
+        {
+          "number": 31,
+          "lineId": "line-51",
+          "prompt": "All I know is a {{blank}} grace",
+          "promptZh": "我只知道一種新發現的恩典",
+          "options": [
+            "new found grace",
+            "new found",
+            "new found love"
+          ],
+          "answer": "new found"
+        },
+        {
+          "number": 32,
+          "lineId": "line-52",
+          "prompt": "{{blank}} I'll know your face",
+          "promptZh": "在我的餘生中，我會記得你的容顏",
+          "options": [
+            "All my time",
+            "All my life",
+            "All my days"
+          ],
+          "answer": "All my days"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "You good to go?"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "All I knew this morning when I {{q:1}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Is I know something now, know something now I didn't {{q:2}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "And all I've seen {{q:3}} {{q:4}} ago"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Is {{q:5}} eyes and freckles and your {{q:6}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "In the {{q:7}} of my mind making me {{q:8}} {{q:9}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I just wanna {{q:10}}, know you {{q:11}}, know you better now"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I just wanna know you, know you, know you"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "'Cause all I know is we said, \"{{q:12}}\""
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And your eyes look like {{q:13}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "All I know is a {{q:14}} {{q:15}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Everything has {{q:16}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "All I know is you {{q:17}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "You'll be mine and I'll be {{q:18}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "All I know since yesterday is everything has {{q:19}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "And all my walls stood {{q:20}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "And I'll take them down, take them down and {{q:21}} for you"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And all I feel in my stomach is {{q:22}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "The beautiful kind, {{q:23}} for {{q:24}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Taking {{q:25}}, making me feel right"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I just wanna know you, know you, know you"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "'Cause all I know is we said, \"Hello\""
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "And your eyes look like coming home"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "All I know is a simple name"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Everything has changed"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "All I know is you held the door"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "And you'll be mine and I'll be yours"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "All I know since yesterday is everything has changed"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Come back and tell me {{q:26}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I'm feeling like I've {{q:27}} all this time"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Oh, oh, oh"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And meet me there tonight"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "And let me know that it's {{q:28}} in my mind"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "I just wanna know you, know you, know you"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "All I know is we said, \"Hello\""
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "And your eyes look like coming home"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "All I know is a simple name"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Everything has changed"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "All I know is you held the door"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "You'll be mine and I'll be yours"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "All I know since yesterday is everything has changed"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "All I know is we said, \"Hello\""
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "So {{q:29}} your {{q:30}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "All I know is pouring rain and everything has changed"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "All I know is a {{q:31}} grace"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "{{q:32}} I'll know your face"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "All I know since yesterday is everything has changed"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-2",
+          "prompt": "All I knew {{blank}} morning when I 〔第 2 題〕",
+          "promptZh": "今天早晨醒來時，我所知道的一切",
+          "options": [
+            "this",
+            "that",
+            "the"
+          ],
+          "answer": "this"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "All I knew 〔第 1 題〕 morning when I {{blank}}",
+          "promptZh": "今天早晨醒來時，我所知道的一切",
+          "options": [
+            "slept",
+            "woke",
+            "rose"
+          ],
+          "answer": "woke"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}} I know something now, know something now I 〔第 4 題〕 〔第 5 題〕",
+          "promptZh": "就是我現在明白了些什麼，明白了些以前不懂的事",
+          "options": [
+            "was",
+            "that",
+            "Is"
+          ],
+          "answer": "Is"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "〔第 3 題〕 I know something now, know something now I {{blank}} 〔第 5 題〕",
+          "promptZh": "就是我現在明白了些什麼，明白了些以前不懂的事",
+          "options": [
+            "didn't",
+            "don't",
+            "haven't"
+          ],
+          "answer": "didn't"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "〔第 3 題〕 I know something now, know something now I 〔第 4 題〕 {{blank}}",
+          "promptZh": "就是我現在明白了些什麼，明白了些以前不懂的事",
+          "options": [
+            "before",
+            "know",
+            "see"
+          ],
+          "answer": "before"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "And all I've seen {{blank}} 〔第 7 題〕 ago",
+          "promptZh": "而從十八小時前到現在，我所看見的一切",
+          "options": [
+            "after",
+            "from",
+            "since"
+          ],
+          "answer": "since"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "And all I've seen 〔第 6 題〕 {{blank}} ago",
+          "promptZh": "而從十八小時前到現在，我所看見的一切",
+          "options": [
+            "eighteen days",
+            "eighteen hours",
+            "seventeen hours"
+          ],
+          "answer": "eighteen hours"
+        },
+        {
+          "number": 8,
+          "lineId": "line-5",
+          "prompt": "{{blank}} 〔第 9 題〕 eyes and freckles and your 〔第 10 題〕",
+          "promptZh": "都是碧綠的雙眼、雀斑和你的笑容",
+          "options": [
+            "feels",
+            "was",
+            "Is"
+          ],
+          "answer": "Is"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "〔第 8 題〕 {{blank}} eyes and freckles and your 〔第 10 題〕",
+          "promptZh": "都是碧綠的雙眼、雀斑和你的笑容",
+          "options": [
+            "green",
+            "blue",
+            "bright"
+          ],
+          "answer": "green"
+        },
+        {
+          "number": 10,
+          "lineId": "line-5",
+          "prompt": "〔第 8 題〕 〔第 9 題〕 eyes and freckles and your {{blank}}",
+          "promptZh": "都是碧綠的雙眼、雀斑和你的笑容",
+          "options": [
+            "face",
+            "smile",
+            "look"
+          ],
+          "answer": "smile"
+        },
+        {
+          "number": 11,
+          "lineId": "line-6",
+          "prompt": "In the {{blank}} of my mind making me 〔第 12 題〕 〔第 13 題〕",
+          "promptZh": "在我腦海深處，讓我感覺",
+          "options": [
+            "front",
+            "back",
+            "deep"
+          ],
+          "answer": "back"
+        },
+        {
+          "number": 12,
+          "lineId": "line-6",
+          "prompt": "In the 〔第 11 題〕 of my mind making me {{blank}} 〔第 13 題〕",
+          "promptZh": "在我腦海深處，讓我感覺",
+          "options": [
+            "feel",
+            "look",
+            "seem"
+          ],
+          "answer": "feel"
+        },
+        {
+          "number": 13,
+          "lineId": "line-6",
+          "prompt": "In the 〔第 11 題〕 of my mind making me 〔第 12 題〕 {{blank}}",
+          "promptZh": "在我腦海深處，讓我感覺",
+          "options": [
+            "so",
+            "as",
+            "like"
+          ],
+          "answer": "like"
+        },
+        {
+          "number": 14,
+          "lineId": "line-7",
+          "prompt": "I just wanna {{blank}}, know you 〔第 15 題〕, know you better now",
+          "promptZh": "我只想更了解你，更了解你，現在更了解你",
+          "options": [
+            "know you better",
+            "love you better",
+            "see you better"
+          ],
+          "answer": "know you better"
+        },
+        {
+          "number": 15,
+          "lineId": "line-7",
+          "prompt": "I just wanna 〔第 14 題〕, know you {{blank}}, know you better now",
+          "promptZh": "我只想更了解你，更了解你，現在更了解你",
+          "options": [
+            "best",
+            "well",
+            "better"
+          ],
+          "answer": "better"
+        },
+        {
+          "number": 16,
+          "lineId": "line-11",
+          "prompt": "'Cause all I know is we said, \"{{blank}}\"",
+          "promptZh": "因為我只知道我們說了聲「你好」",
+          "options": [
+            "Goodbye",
+            "Hello",
+            "Hi"
+          ],
+          "answer": "Hello"
+        },
+        {
+          "number": 17,
+          "lineId": "line-12",
+          "prompt": "And your eyes look like {{blank}}",
+          "promptZh": "而你的雙眼看起來就像回到了家",
+          "options": [
+            "going home",
+            "coming back",
+            "coming home"
+          ],
+          "answer": "coming home"
+        },
+        {
+          "number": 18,
+          "lineId": "line-13",
+          "prompt": "All I know is a {{blank}} 〔第 19 題〕",
+          "promptZh": "我只知道一個簡單的名字",
+          "options": [
+            "little",
+            "simple",
+            "pretty"
+          ],
+          "answer": "simple"
+        },
+        {
+          "number": 19,
+          "lineId": "line-13",
+          "prompt": "All I know is a 〔第 18 題〕 {{blank}}",
+          "promptZh": "我只知道一個簡單的名字",
+          "options": [
+            "name",
+            "word",
+            "face"
+          ],
+          "answer": "name"
+        },
+        {
+          "number": 20,
+          "lineId": "line-14",
+          "prompt": "Everything has {{blank}}",
+          "promptZh": "一切都已經改變了",
+          "options": [
+            "faded",
+            "changed",
+            "gone"
+          ],
+          "answer": "changed"
+        },
+        {
+          "number": 21,
+          "lineId": "line-15",
+          "prompt": "All I know is you {{blank}}",
+          "promptZh": "我只知道你為我扶著門",
+          "options": [
+            "held the door",
+            "opened the door",
+            "closed the door"
+          ],
+          "answer": "held the door"
+        },
+        {
+          "number": 22,
+          "lineId": "line-16",
+          "prompt": "You'll be mine and I'll be {{blank}}",
+          "promptZh": "你將屬於我，我也將屬於你",
+          "options": [
+            "ours",
+            "mine",
+            "yours"
+          ],
+          "answer": "yours"
+        },
+        {
+          "number": 23,
+          "lineId": "line-17",
+          "prompt": "All I know since yesterday is everything has {{blank}}",
+          "promptZh": "從昨天起我只知道，一切都已經改變了",
+          "options": [
+            "turned",
+            "changed",
+            "gone"
+          ],
+          "answer": "changed"
+        },
+        {
+          "number": 24,
+          "lineId": "line-18",
+          "prompt": "And all my walls stood {{blank}}",
+          "promptZh": "而我所有的城牆曾高高聳立，漆成藍色",
+          "options": [
+            "tall painted blue",
+            "high painted blue",
+            "tall painted black"
+          ],
+          "answer": "tall painted blue"
+        },
+        {
+          "number": 25,
+          "lineId": "line-19",
+          "prompt": "And I'll take them down, take them down and {{blank}} for you",
+          "promptZh": "我會把它們推倒，推倒 ，為你敞開大門",
+          "options": [
+            "open up my heart",
+            "open the gate",
+            "open up the door"
+          ],
+          "answer": "open up the door"
+        },
+        {
+          "number": 26,
+          "lineId": "line-20",
+          "prompt": "And all I feel in my stomach is {{blank}}",
+          "promptZh": "我胃裡盤旋的盡是蝴蝶（怦然心動）",
+          "options": [
+            "butterflies",
+            "fireflies",
+            "butterflies now"
+          ],
+          "answer": "butterflies"
+        },
+        {
+          "number": 27,
+          "lineId": "line-21",
+          "prompt": "The beautiful kind, {{blank}} for 〔第 28 題〕",
+          "promptZh": "那種美麗的悸動，彌補了失去的時光",
+          "options": [
+            "making for",
+            "taking up",
+            "making up"
+          ],
+          "answer": "making up"
+        },
+        {
+          "number": 28,
+          "lineId": "line-21",
+          "prompt": "The beautiful kind, 〔第 27 題〕 for {{blank}}",
+          "promptZh": "那種美麗的悸動，彌補了失去的時光",
+          "options": [
+            "the time",
+            "lost time",
+            "lost love"
+          ],
+          "answer": "lost time"
+        },
+        {
+          "number": 29,
+          "lineId": "line-22",
+          "prompt": "Taking {{blank}}, making me feel right",
+          "promptZh": "展翅高飛，讓我感覺一切對了",
+          "options": [
+            "wing",
+            "off",
+            "flight"
+          ],
+          "answer": "flight"
+        },
+        {
+          "number": 30,
+          "lineId": "line-30",
+          "prompt": "{{blank}}",
+          "promptZh": "一切都已經改變了",
+          "options": [
+            "Everything has changed",
+            "everything is changed",
+            "everything had changed"
+          ],
+          "answer": "Everything has changed"
+        },
+        {
+          "number": 31,
+          "lineId": "line-33",
+          "prompt": "All I know since yesterday is {{blank}}",
+          "promptZh": "從昨天起我只知道，一切都已經改變了",
+          "options": [
+            "everything is changed",
+            "everything has changed",
+            "everything had changed"
+          ],
+          "answer": "everything has changed"
+        },
+        {
+          "number": 32,
+          "lineId": "line-34",
+          "prompt": "Come back and tell me {{blank}}",
+          "promptZh": "回來告訴我為什麼",
+          "options": [
+            "why",
+            "how",
+            "when"
+          ],
+          "answer": "why"
+        },
+        {
+          "number": 33,
+          "lineId": "line-35",
+          "prompt": "I'm feeling like I've {{blank}} 〔第 34 題〕",
+          "promptZh": "我感覺自己好像想念了你一輩子",
+          "options": [
+            "known you",
+            "lost you",
+            "missed you"
+          ],
+          "answer": "missed you"
+        },
+        {
+          "number": 34,
+          "lineId": "line-35",
+          "prompt": "I'm feeling like I've 〔第 33 題〕 {{blank}}",
+          "promptZh": "我感覺自己好像想念了你一輩子",
+          "options": [
+            "all the time",
+            "all this time",
+            "this whole time"
+          ],
+          "answer": "all this time"
+        },
+        {
+          "number": 35,
+          "lineId": "line-37",
+          "prompt": "And {{blank}} there tonight",
+          "promptZh": "今晚在那裡與我相見",
+          "options": [
+            "see me",
+            "meet me",
+            "find me"
+          ],
+          "answer": "meet me"
+        },
+        {
+          "number": 36,
+          "lineId": "line-38",
+          "prompt": "And let me know that it's {{blank}} in my mind",
+          "promptZh": "讓我知道這一切不全是我的幻想",
+          "options": [
+            "not only",
+            "not just",
+            "not all"
+          ],
+          "answer": "not all"
+        },
+        {
+          "number": 37,
+          "lineId": "line-49",
+          "prompt": "So {{blank}} your 〔第 38 題〕",
+          "promptZh": "所以重拾你最殷切的期盼",
+          "options": [
+            "dust off",
+            "shake off",
+            "brush off"
+          ],
+          "answer": "dust off"
+        },
+        {
+          "number": 38,
+          "lineId": "line-49",
+          "prompt": "So 〔第 37 題〕 your {{blank}}",
+          "promptZh": "所以重拾你最殷切的期盼",
+          "options": [
+            "highest hopes",
+            "highest dreams",
+            "best hopes"
+          ],
+          "answer": "highest hopes"
+        },
+        {
+          "number": 39,
+          "lineId": "line-51",
+          "prompt": "All I know is a {{blank}} grace",
+          "promptZh": "我只知道一種新發現的恩典",
+          "options": [
+            "new found love",
+            "new found grace",
+            "new found"
+          ],
+          "answer": "new found"
+        },
+        {
+          "number": 40,
+          "lineId": "line-52",
+          "prompt": "{{blank}} I'll know your face",
+          "promptZh": "在我的餘生中，我會記得你的容顏",
+          "options": [
+            "All my life",
+            "All my days",
+            "All my time"
+          ],
+          "answer": "All my days"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "You good to go?"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "All I knew {{q:1}} morning when I {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}} I know something now, know something now I {{q:4}} {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "And all I've seen {{q:6}} {{q:7}} ago"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:8}} {{q:9}} eyes and freckles and your {{q:10}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "In the {{q:11}} of my mind making me {{q:12}} {{q:13}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I just wanna {{q:14}}, know you {{q:15}}, know you better now"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I just wanna know you, know you, know you"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "'Cause all I know is we said, \"{{q:16}}\""
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And your eyes look like {{q:17}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "All I know is a {{q:18}} {{q:19}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Everything has {{q:20}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "All I know is you {{q:21}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "You'll be mine and I'll be {{q:22}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "All I know since yesterday is everything has {{q:23}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "And all my walls stood {{q:24}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "And I'll take them down, take them down and {{q:25}} for you"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And all I feel in my stomach is {{q:26}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "The beautiful kind, {{q:27}} for {{q:28}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Taking {{q:29}}, making me feel right"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I just wanna know you, know you, know you"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "'Cause all I know is we said, \"Hello\""
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "And your eyes look like coming home"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "All I know is a simple name"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:30}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "All I know is you held the door"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "And you'll be mine and I'll be yours"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "All I know since yesterday is {{q:31}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Come back and tell me {{q:32}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I'm feeling like I've {{q:33}} {{q:34}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Oh, oh, oh"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And {{q:35}} there tonight"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "And let me know that it's {{q:36}} in my mind"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "I just wanna know you, know you, know you"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "All I know is we said, \"Hello\""
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "And your eyes look like coming home"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "All I know is a simple name"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Everything has changed"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "All I know is you held the door"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "You'll be mine and I'll be yours"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "All I know since yesterday is everything has changed"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "All I know is we said, \"Hello\""
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "So {{q:37}} your {{q:38}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "All I know is pouring rain and everything has changed"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "All I know is a {{q:39}} grace"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "{{q:40}} I'll know your face"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "All I know since yesterday is everything has changed"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-2",
+          "prompt": "All I knew {{blank}} morning when I 〔第 2 題〕",
+          "promptZh": "今天早晨醒來時，我所知道的一切",
+          "options": [
+            "that",
+            "this",
+            "the"
+          ],
+          "answer": "this"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "All I knew 〔第 1 題〕 morning when I {{blank}}",
+          "promptZh": "今天早晨醒來時，我所知道的一切",
+          "options": [
+            "woke",
+            "slept",
+            "rose"
+          ],
+          "answer": "woke"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}} I 〔第 4 題〕 something now, 〔第 5 題〕 something now I 〔第 6 題〕 〔第 7 題〕",
+          "promptZh": "就是我現在明白了些什麼，明白了些以前不懂的事",
+          "options": [
+            "was",
+            "that",
+            "Is"
+          ],
+          "answer": "Is"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "〔第 3 題〕 I {{blank}} something now, 〔第 5 題〕 something now I 〔第 6 題〕 〔第 7 題〕",
+          "promptZh": "就是我現在明白了些什麼，明白了些以前不懂的事",
+          "options": [
+            "see",
+            "know",
+            "hear"
+          ],
+          "answer": "know"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "〔第 3 題〕 I 〔第 4 題〕 something now, {{blank}} something now I 〔第 6 題〕 〔第 7 題〕",
+          "promptZh": "就是我現在明白了些什麼，明白了些以前不懂的事",
+          "options": [
+            "know",
+            "see",
+            "love"
+          ],
+          "answer": "know"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "〔第 3 題〕 I 〔第 4 題〕 something now, 〔第 5 題〕 something now I {{blank}} 〔第 7 題〕",
+          "promptZh": "就是我現在明白了些什麼，明白了些以前不懂的事",
+          "options": [
+            "haven't",
+            "didn't",
+            "don't"
+          ],
+          "answer": "didn't"
+        },
+        {
+          "number": 7,
+          "lineId": "line-3",
+          "prompt": "〔第 3 題〕 I 〔第 4 題〕 something now, 〔第 5 題〕 something now I 〔第 6 題〕 {{blank}}",
+          "promptZh": "就是我現在明白了些什麼，明白了些以前不懂的事",
+          "options": [
+            "before",
+            "know",
+            "see"
+          ],
+          "answer": "before"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "And all I've seen {{blank}} 〔第 9 題〕 ago",
+          "promptZh": "而從十八小時前到現在，我所看見的一切",
+          "options": [
+            "after",
+            "from",
+            "since"
+          ],
+          "answer": "since"
+        },
+        {
+          "number": 9,
+          "lineId": "line-4",
+          "prompt": "And all I've seen 〔第 8 題〕 {{blank}} ago",
+          "promptZh": "而從十八小時前到現在，我所看見的一切",
+          "options": [
+            "eighteen hours",
+            "eighteen days",
+            "seventeen hours"
+          ],
+          "answer": "eighteen hours"
+        },
+        {
+          "number": 10,
+          "lineId": "line-5",
+          "prompt": "{{blank}} 〔第 11 題〕 eyes and freckles and your 〔第 12 題〕",
+          "promptZh": "都是碧綠的雙眼、雀斑和你的笑容",
+          "options": [
+            "feels",
+            "was",
+            "Is"
+          ],
+          "answer": "Is"
+        },
+        {
+          "number": 11,
+          "lineId": "line-5",
+          "prompt": "〔第 10 題〕 {{blank}} eyes and freckles and your 〔第 12 題〕",
+          "promptZh": "都是碧綠的雙眼、雀斑和你的笑容",
+          "options": [
+            "blue",
+            "green",
+            "bright"
+          ],
+          "answer": "green"
+        },
+        {
+          "number": 12,
+          "lineId": "line-5",
+          "prompt": "〔第 10 題〕 〔第 11 題〕 eyes and freckles and your {{blank}}",
+          "promptZh": "都是碧綠的雙眼、雀斑和你的笑容",
+          "options": [
+            "smile",
+            "face",
+            "look"
+          ],
+          "answer": "smile"
+        },
+        {
+          "number": 13,
+          "lineId": "line-6",
+          "prompt": "In the {{blank}} of my mind 〔第 14 題〕 me 〔第 15 題〕 〔第 16 題〕",
+          "promptZh": "在我腦海深處，讓我感覺",
+          "options": [
+            "front",
+            "back",
+            "deep"
+          ],
+          "answer": "back"
+        },
+        {
+          "number": 14,
+          "lineId": "line-6",
+          "prompt": "In the 〔第 13 題〕 of my mind {{blank}} me 〔第 15 題〕 〔第 16 題〕",
+          "promptZh": "在我腦海深處，讓我感覺",
+          "options": [
+            "helping",
+            "letting",
+            "making"
+          ],
+          "answer": "making"
+        },
+        {
+          "number": 15,
+          "lineId": "line-6",
+          "prompt": "In the 〔第 13 題〕 of my mind 〔第 14 題〕 me {{blank}} 〔第 16 題〕",
+          "promptZh": "在我腦海深處，讓我感覺",
+          "options": [
+            "feel",
+            "look",
+            "seem"
+          ],
+          "answer": "feel"
+        },
+        {
+          "number": 16,
+          "lineId": "line-6",
+          "prompt": "In the 〔第 13 題〕 of my mind 〔第 14 題〕 me 〔第 15 題〕 {{blank}}",
+          "promptZh": "在我腦海深處，讓我感覺",
+          "options": [
+            "so",
+            "as",
+            "like"
+          ],
+          "answer": "like"
+        },
+        {
+          "number": 17,
+          "lineId": "line-7",
+          "prompt": "I just {{blank}} 〔第 18 題〕, know you 〔第 19 題〕, know you better now",
+          "promptZh": "我只想更了解你，更了解你，現在更了解你",
+          "options": [
+            "want to",
+            "wanna",
+            "need to"
+          ],
+          "answer": "wanna"
+        },
+        {
+          "number": 18,
+          "lineId": "line-7",
+          "prompt": "I just 〔第 17 題〕 {{blank}}, know you 〔第 19 題〕, know you better now",
+          "promptZh": "我只想更了解你，更了解你，現在更了解你",
+          "options": [
+            "know you better",
+            "love you better",
+            "see you better"
+          ],
+          "answer": "know you better"
+        },
+        {
+          "number": 19,
+          "lineId": "line-7",
+          "prompt": "I just 〔第 17 題〕 〔第 18 題〕, know you {{blank}}, know you better now",
+          "promptZh": "我只想更了解你，更了解你，現在更了解你",
+          "options": [
+            "well",
+            "best",
+            "better"
+          ],
+          "answer": "better"
+        },
+        {
+          "number": 20,
+          "lineId": "line-11",
+          "prompt": "'Cause {{blank}} is we said, \"〔第 21 題〕\"",
+          "promptZh": "因為我只知道我們說了聲「你好」",
+          "options": [
+            "All I need",
+            "all I know",
+            "All I have"
+          ],
+          "answer": "all I know"
+        },
+        {
+          "number": 21,
+          "lineId": "line-11",
+          "prompt": "'Cause 〔第 20 題〕 is we said, \"{{blank}}\"",
+          "promptZh": "因為我只知道我們說了聲「你好」",
+          "options": [
+            "Hello",
+            "Goodbye",
+            "Hi"
+          ],
+          "answer": "Hello"
+        },
+        {
+          "number": 22,
+          "lineId": "line-12",
+          "prompt": "And your eyes look like {{blank}}",
+          "promptZh": "而你的雙眼看起來就像回到了家",
+          "options": [
+            "going home",
+            "coming back",
+            "coming home"
+          ],
+          "answer": "coming home"
+        },
+        {
+          "number": 23,
+          "lineId": "line-13",
+          "prompt": "All I know is a {{blank}} 〔第 24 題〕",
+          "promptZh": "我只知道一個簡單的名字",
+          "options": [
+            "pretty",
+            "simple",
+            "little"
+          ],
+          "answer": "simple"
+        },
+        {
+          "number": 24,
+          "lineId": "line-13",
+          "prompt": "All I know is a 〔第 23 題〕 {{blank}}",
+          "promptZh": "我只知道一個簡單的名字",
+          "options": [
+            "name",
+            "word",
+            "face"
+          ],
+          "answer": "name"
+        },
+        {
+          "number": 25,
+          "lineId": "line-14",
+          "prompt": "Everything has {{blank}}",
+          "promptZh": "一切都已經改變了",
+          "options": [
+            "faded",
+            "changed",
+            "gone"
+          ],
+          "answer": "changed"
+        },
+        {
+          "number": 26,
+          "lineId": "line-15",
+          "prompt": "All I know is you {{blank}}",
+          "promptZh": "我只知道你為我扶著門",
+          "options": [
+            "closed the door",
+            "opened the door",
+            "held the door"
+          ],
+          "answer": "held the door"
+        },
+        {
+          "number": 27,
+          "lineId": "line-16",
+          "prompt": "You'll be mine and I'll be {{blank}}",
+          "promptZh": "你將屬於我，我也將屬於你",
+          "options": [
+            "ours",
+            "yours",
+            "mine"
+          ],
+          "answer": "yours"
+        },
+        {
+          "number": 28,
+          "lineId": "line-17",
+          "prompt": "{{blank}} is everything has 〔第 29 題〕",
+          "promptZh": "從昨天起我只知道，一切都已經改變了",
+          "options": [
+            "All I see since yesterday",
+            "All I know since today",
+            "All I know since yesterday"
+          ],
+          "answer": "All I know since yesterday"
+        },
+        {
+          "number": 29,
+          "lineId": "line-17",
+          "prompt": "〔第 28 題〕 is everything has {{blank}}",
+          "promptZh": "從昨天起我只知道，一切都已經改變了",
+          "options": [
+            "changed",
+            "turned",
+            "gone"
+          ],
+          "answer": "changed"
+        },
+        {
+          "number": 30,
+          "lineId": "line-18",
+          "prompt": "And all my walls stood {{blank}}",
+          "promptZh": "而我所有的城牆曾高高聳立，漆成藍色",
+          "options": [
+            "tall painted blue",
+            "high painted blue",
+            "tall painted black"
+          ],
+          "answer": "tall painted blue"
+        },
+        {
+          "number": 31,
+          "lineId": "line-19",
+          "prompt": "And I'll {{blank}}, take them down and 〔第 32 題〕 for you",
+          "promptZh": "我會把它們推倒，推倒 ，為你敞開大門",
+          "options": [
+            "bring them down",
+            "tear them down",
+            "take them down"
+          ],
+          "answer": "take them down"
+        },
+        {
+          "number": 32,
+          "lineId": "line-19",
+          "prompt": "And I'll 〔第 31 題〕, take them down and {{blank}} for you",
+          "promptZh": "我會把它們推倒，推倒 ，為你敞開大門",
+          "options": [
+            "open the gate",
+            "open up the door",
+            "open up my heart"
+          ],
+          "answer": "open up the door"
+        },
+        {
+          "number": 33,
+          "lineId": "line-20",
+          "prompt": "And all I feel in my stomach is {{blank}}",
+          "promptZh": "我胃裡盤旋的盡是蝴蝶（怦然心動）",
+          "options": [
+            "butterflies now",
+            "fireflies",
+            "butterflies"
+          ],
+          "answer": "butterflies"
+        },
+        {
+          "number": 34,
+          "lineId": "line-21",
+          "prompt": "The beautiful kind, {{blank}} for 〔第 35 題〕",
+          "promptZh": "那種美麗的悸動，彌補了失去的時光",
+          "options": [
+            "making for",
+            "making up",
+            "taking up"
+          ],
+          "answer": "making up"
+        },
+        {
+          "number": 35,
+          "lineId": "line-21",
+          "prompt": "The beautiful kind, 〔第 34 題〕 for {{blank}}",
+          "promptZh": "那種美麗的悸動，彌補了失去的時光",
+          "options": [
+            "lost time",
+            "the time",
+            "lost love"
+          ],
+          "answer": "lost time"
+        },
+        {
+          "number": 36,
+          "lineId": "line-22",
+          "prompt": "Taking {{blank}}, making me feel right",
+          "promptZh": "展翅高飛，讓我感覺一切對了",
+          "options": [
+            "off",
+            "flight",
+            "wing"
+          ],
+          "answer": "flight"
+        },
+        {
+          "number": 37,
+          "lineId": "line-30",
+          "prompt": "{{blank}}",
+          "promptZh": "一切都已經改變了",
+          "options": [
+            "Everything has changed",
+            "everything is changed",
+            "everything had changed"
+          ],
+          "answer": "Everything has changed"
+        },
+        {
+          "number": 38,
+          "lineId": "line-33",
+          "prompt": "All I know since yesterday is {{blank}}",
+          "promptZh": "從昨天起我只知道，一切都已經改變了",
+          "options": [
+            "everything had changed",
+            "everything is changed",
+            "everything has changed"
+          ],
+          "answer": "everything has changed"
+        },
+        {
+          "number": 39,
+          "lineId": "line-34",
+          "prompt": "{{blank}} and tell me 〔第 40 題〕",
+          "promptZh": "回來告訴我為什麼",
+          "options": [
+            "Go back",
+            "Come back",
+            "Turn back"
+          ],
+          "answer": "Come back"
+        },
+        {
+          "number": 40,
+          "lineId": "line-34",
+          "prompt": "〔第 39 題〕 and tell me {{blank}}",
+          "promptZh": "回來告訴我為什麼",
+          "options": [
+            "why",
+            "how",
+            "when"
+          ],
+          "answer": "why"
+        },
+        {
+          "number": 41,
+          "lineId": "line-35",
+          "prompt": "I'm {{blank}} I've 〔第 42 題〕 〔第 43 題〕",
+          "promptZh": "我感覺自己好像想念了你一輩子",
+          "options": [
+            "feeling that",
+            "feeling as",
+            "feeling like"
+          ],
+          "answer": "feeling like"
+        },
+        {
+          "number": 42,
+          "lineId": "line-35",
+          "prompt": "I'm 〔第 41 題〕 I've {{blank}} 〔第 43 題〕",
+          "promptZh": "我感覺自己好像想念了你一輩子",
+          "options": [
+            "lost you",
+            "known you",
+            "missed you"
+          ],
+          "answer": "missed you"
+        },
+        {
+          "number": 43,
+          "lineId": "line-35",
+          "prompt": "I'm 〔第 41 題〕 I've 〔第 42 題〕 {{blank}}",
+          "promptZh": "我感覺自己好像想念了你一輩子",
+          "options": [
+            "all the time",
+            "all this time",
+            "this whole time"
+          ],
+          "answer": "all this time"
+        },
+        {
+          "number": 44,
+          "lineId": "line-37",
+          "prompt": "And {{blank}} there tonight",
+          "promptZh": "今晚在那裡與我相見",
+          "options": [
+            "meet me",
+            "see me",
+            "find me"
+          ],
+          "answer": "meet me"
+        },
+        {
+          "number": 45,
+          "lineId": "line-38",
+          "prompt": "And let me know that it's {{blank}} in my mind",
+          "promptZh": "讓我知道這一切不全是我的幻想",
+          "options": [
+            "not just",
+            "not only",
+            "not all"
+          ],
+          "answer": "not all"
+        },
+        {
+          "number": 46,
+          "lineId": "line-44",
+          "prompt": "{{blank}}",
+          "promptZh": "一切都已經改變了",
+          "options": [
+            "everything is changed",
+            "Everything has changed",
+            "everything had changed"
+          ],
+          "answer": "Everything has changed"
+        },
+        {
+          "number": 47,
+          "lineId": "line-49",
+          "prompt": "So {{blank}} your 〔第 48 題〕",
+          "promptZh": "所以重拾你最殷切的期盼",
+          "options": [
+            "dust off",
+            "shake off",
+            "brush off"
+          ],
+          "answer": "dust off"
+        },
+        {
+          "number": 48,
+          "lineId": "line-49",
+          "prompt": "So 〔第 47 題〕 your {{blank}}",
+          "promptZh": "所以重拾你最殷切的期盼",
+          "options": [
+            "highest dreams",
+            "best hopes",
+            "highest hopes"
+          ],
+          "answer": "highest hopes"
+        },
+        {
+          "number": 49,
+          "lineId": "line-51",
+          "prompt": "All I know is a {{blank}} grace",
+          "promptZh": "我只知道一種新發現的恩典",
+          "options": [
+            "new found",
+            "new found grace",
+            "new found love"
+          ],
+          "answer": "new found"
+        },
+        {
+          "number": 50,
+          "lineId": "line-52",
+          "prompt": "{{blank}} I'll know your face",
+          "promptZh": "在我的餘生中，我會記得你的容顏",
+          "options": [
+            "All my life",
+            "All my days",
+            "All my time"
+          ],
+          "answer": "All my days"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "You good to go?"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "All I knew {{q:1}} morning when I {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}} I {{q:4}} something now, {{q:5}} something now I {{q:6}} {{q:7}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "And all I've seen {{q:8}} {{q:9}} ago"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:10}} {{q:11}} eyes and freckles and your {{q:12}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "In the {{q:13}} of my mind {{q:14}} me {{q:15}} {{q:16}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I just {{q:17}} {{q:18}}, know you {{q:19}}, know you better now"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I just wanna know you, know you, know you"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "'Cause {{q:20}} is we said, \"{{q:21}}\""
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And your eyes look like {{q:22}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "All I know is a {{q:23}} {{q:24}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Everything has {{q:25}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "All I know is you {{q:26}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "You'll be mine and I'll be {{q:27}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:28}} is everything has {{q:29}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "And all my walls stood {{q:30}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "And I'll {{q:31}}, take them down and {{q:32}} for you"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And all I feel in my stomach is {{q:33}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "The beautiful kind, {{q:34}} for {{q:35}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Taking {{q:36}}, making me feel right"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I just wanna know you, know you, know you"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "'Cause all I know is we said, \"Hello\""
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "And your eyes look like coming home"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "All I know is a simple name"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:37}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "All I know is you held the door"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "And you'll be mine and I'll be yours"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "All I know since yesterday is {{q:38}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "{{q:39}} and tell me {{q:40}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I'm {{q:41}} I've {{q:42}} {{q:43}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Oh, oh, oh"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And {{q:44}} there tonight"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "And let me know that it's {{q:45}} in my mind"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I just wanna know you better, know you better, know you better now"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "I just wanna know you, know you, know you"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "All I know is we said, \"Hello\""
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "And your eyes look like coming home"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "All I know is a simple name"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:46}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "All I know is you held the door"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "You'll be mine and I'll be yours"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "All I know since yesterday is everything has changed"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "All I know is we said, \"Hello\""
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "So {{q:47}} your {{q:48}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "All I know is pouring rain and everything has changed"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "All I know is a {{q:49}} grace"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "{{q:50}} I'll know your face"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "All I know since yesterday is everything has changed"
+        }
+      ]
+    }
+  ],
+  "timingSource": {
+    "method": "faster-whisper-word-alignment-with-targeted-section-review",
+    "audioSha256": "40dbae3e2db8735f8a539b8043bf36f3237cad0362da83ea52e20fee174c30ae",
+    "duration": 250.0789375
+  }
+}

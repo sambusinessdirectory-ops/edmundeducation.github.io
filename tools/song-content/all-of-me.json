@@ -1,0 +1,3245 @@
+{
+  "slug": "all-of-me",
+  "title": "All of Me",
+  "singer": "John Legend",
+  "exercise_name": "All of Me · Listening & Vocabulary",
+  "description": "《All of Me》描寫一份毫無保留、願意接納彼此一切的真摯愛情。歌中的主角深愛著對方，不僅欣賞她的美麗與優點，也珍惜她的缺點與不完美。即使兩人在相處中有時會產生矛盾，或面對生活中的困難，他仍然願意陪伴在她身旁，給予支持與安慰。他相信真正的愛不是追求完美，而是願意理解、包容和接受對方最真實的一面。歌曲亦強調愛情需要雙方坦誠付出，勇敢交出自己的真心。最終，《All of Me》傳達的是無條件的愛、信任與承諾：即使愛情充滿挑戰，只要彼此願意全心投入，就能在對方身上找到幸福與歸屬。",
+  "tags": [
+    "john legend",
+    "all of me",
+    "love",
+    "devotion"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "What would I do without your smart mouth?",
+      "chinese": "若沒有你那伶牙俐齒，我該怎麼辦？",
+      "startSeconds": 16.32,
+      "endSeconds": 21.02
+    },
+    {
+      "lineId": "line-2",
+      "english": "Drawin' me in and you kickin' me out",
+      "chinese": "將我吸引入內，又把我踢出門外",
+      "startSeconds": 21.68,
+      "endSeconds": 24.74
+    },
+    {
+      "lineId": "line-3",
+      "english": "You've got my head spinnin', no kiddin'",
+      "chinese": "你讓我天旋地轉，絕不誇張",
+      "startSeconds": 24.74,
+      "endSeconds": 29.4
+    },
+    {
+      "lineId": "line-4",
+      "english": "I can't pin you down",
+      "chinese": "我無法將你捉摸透徹",
+      "startSeconds": 29.4,
+      "endSeconds": 32.38
+    },
+    {
+      "lineId": "line-5",
+      "english": "What's goin' on in that beautiful mind?",
+      "chinese": "你那美麗的腦海裡究竟在想些什麼？",
+      "startSeconds": 32.38,
+      "endSeconds": 36.16
+    },
+    {
+      "lineId": "line-6",
+      "english": "I'm on your magical mystery ride",
+      "chinese": "我正乘著你那神奇又神秘的旅程",
+      "startSeconds": 36.46,
+      "endSeconds": 39.88
+    },
+    {
+      "lineId": "line-7",
+      "english": "And I'm so dizzy, don't know what hit me",
+      "chinese": "我頭暈目眩，不知被什麼擊中",
+      "startSeconds": 40.26,
+      "endSeconds": 44.82
+    },
+    {
+      "lineId": "line-8",
+      "english": "But I'll be alright",
+      "chinese": "但我會沒事的",
+      "startSeconds": 44.82,
+      "endSeconds": 47.72
+    },
+    {
+      "lineId": "line-9",
+      "english": "My head's under water, but I'm breathing fine",
+      "chinese": "我的頭沉在水底，卻能安然呼吸",
+      "startSeconds": 47.72,
+      "endSeconds": 55.3
+    },
+    {
+      "lineId": "line-10",
+      "english": "You're crazy and I'm out of my mind",
+      "chinese": "你瘋了，而我也失去了理智",
+      "startSeconds": 55.3,
+      "endSeconds": 61.42
+    },
+    {
+      "lineId": "line-11",
+      "english": "'Cause all of me",
+      "chinese": "因為我的全部",
+      "startSeconds": 61.42,
+      "endSeconds": 64.64
+    },
+    {
+      "lineId": "line-12",
+      "english": "Loves all of you",
+      "chinese": "愛著你的全部",
+      "startSeconds": 64.64,
+      "endSeconds": 68.42
+    },
+    {
+      "lineId": "line-13",
+      "english": "Love your curves and all your edges",
+      "chinese": "愛你的曲線與所有稜角",
+      "startSeconds": 68.42,
+      "endSeconds": 72.2
+    },
+    {
+      "lineId": "line-14",
+      "english": "All your perfect imperfections",
+      "chinese": "所有你那完美的瑕疵",
+      "startSeconds": 72.42,
+      "endSeconds": 76.18
+    },
+    {
+      "lineId": "line-15",
+      "english": "Give your all to me",
+      "chinese": "將你的全部都交給我",
+      "startSeconds": 76.18,
+      "endSeconds": 79.84
+    },
+    {
+      "lineId": "line-16",
+      "english": "I'll give my all to you",
+      "chinese": "我會將我的全部交給你",
+      "startSeconds": 80.34,
+      "endSeconds": 83.68
+    },
+    {
+      "lineId": "line-17",
+      "english": "You're my end and my beginnin'",
+      "chinese": "你是我的終點，也是我的起點",
+      "startSeconds": 83.68,
+      "endSeconds": 87.26
+    },
+    {
+      "lineId": "line-18",
+      "english": "Even when I lose, I'm winnin'",
+      "chinese": "即使我輸了，也是贏了",
+      "startSeconds": 87.86,
+      "endSeconds": 91.1
+    },
+    {
+      "lineId": "line-19",
+      "english": "'Cause I give you all of me",
+      "chinese": "因為我將我的全部獻給你",
+      "startSeconds": 91.1,
+      "endSeconds": 98.18
+    },
+    {
+      "lineId": "line-20",
+      "english": "And you give me all of you, oh-oh",
+      "chinese": "而你將你的全部交給我，噢——噢",
+      "startSeconds": 98.18,
+      "endSeconds": 106.62
+    },
+    {
+      "lineId": "line-21",
+      "english": "How many times do I have to tell you?",
+      "chinese": "我到底要告訴你多少次？",
+      "startSeconds": 108.16,
+      "endSeconds": 112.46
+    },
+    {
+      "lineId": "line-22",
+      "english": "Even when you're crying, you're beautiful too",
+      "chinese": "即使你哭泣時，也依然美麗",
+      "startSeconds": 112.46,
+      "endSeconds": 115.84
+    },
+    {
+      "lineId": "line-23",
+      "english": "The world is beating you down, I'm around",
+      "chinese": "世界正將你擊倒，而我就在你身旁",
+      "startSeconds": 115.84,
+      "endSeconds": 121.82
+    },
+    {
+      "lineId": "line-24",
+      "english": "Through every mood",
+      "chinese": "陪你走過每一種情緒",
+      "startSeconds": 121.82,
+      "endSeconds": 123.74
+    },
+    {
+      "lineId": "line-25",
+      "english": "You're my downfall, you're my muse",
+      "chinese": "你是我的墮落，也是我的繆思",
+      "startSeconds": 123.74,
+      "endSeconds": 127.36
+    },
+    {
+      "lineId": "line-26",
+      "english": "My worst distraction, my rhythm and blues",
+      "chinese": "我最致命的干擾，我的節奏藍調",
+      "startSeconds": 127.36,
+      "endSeconds": 131.26
+    },
+    {
+      "lineId": "line-27",
+      "english": "I can't stop singing, it's ringing",
+      "chinese": "我無法停止歌唱，那旋律迴盪著",
+      "startSeconds": 131.26,
+      "endSeconds": 135.46
+    },
+    {
+      "lineId": "line-28",
+      "english": "In my head for you",
+      "chinese": "在我腦海中，為你而響",
+      "startSeconds": 135.46,
+      "endSeconds": 139.36
+    },
+    {
+      "lineId": "line-29",
+      "english": "My head's under water, but I'm breathin' fine",
+      "chinese": "我的頭沉在水底，卻能安然呼吸",
+      "startSeconds": 139.36,
+      "endSeconds": 146.78
+    },
+    {
+      "lineId": "line-30",
+      "english": "You're crazy and I'm out of my mind",
+      "chinese": "你瘋了，而我也失去了理智",
+      "startSeconds": 147.36,
+      "endSeconds": 153.1
+    },
+    {
+      "lineId": "line-31",
+      "english": "'Cause all of me",
+      "chinese": "因為我的全部",
+      "startSeconds": 153.1,
+      "endSeconds": 156.14
+    },
+    {
+      "lineId": "line-32",
+      "english": "Loves all of you",
+      "chinese": "愛著你的全部",
+      "startSeconds": 156.14,
+      "endSeconds": 159.98
+    },
+    {
+      "lineId": "line-33",
+      "english": "Love your curves and all your edges",
+      "chinese": "愛你的曲線與所有稜角",
+      "startSeconds": 159.98,
+      "endSeconds": 163.66
+    },
+    {
+      "lineId": "line-34",
+      "english": "All your perfect imperfections",
+      "chinese": "所有你那完美的瑕疵",
+      "startSeconds": 163.66,
+      "endSeconds": 167.6
+    },
+    {
+      "lineId": "line-35",
+      "english": "Give your all to me",
+      "chinese": "將你的全部都交給我",
+      "startSeconds": 167.6,
+      "endSeconds": 171.3
+    },
+    {
+      "lineId": "line-36",
+      "english": "I'll give my all to you",
+      "chinese": "我會將我的全部交給你",
+      "startSeconds": 171.3,
+      "endSeconds": 175.32
+    },
+    {
+      "lineId": "line-37",
+      "english": "You're my end and my beginnin'",
+      "chinese": "你是我的終點，也是我的起點",
+      "startSeconds": 175.32,
+      "endSeconds": 178.76
+    },
+    {
+      "lineId": "line-38",
+      "english": "Even when I lose, I'm winnin'",
+      "chinese": "即使我輸了，也是贏了",
+      "startSeconds": 178.76,
+      "endSeconds": 182.6
+    },
+    {
+      "lineId": "line-39",
+      "english": "'Cause I give you all of me",
+      "chinese": "因為我將我的全部獻給你",
+      "startSeconds": 182.6,
+      "endSeconds": 188.78
+    },
+    {
+      "lineId": "line-40",
+      "english": "And you give me all of you, oh-oh",
+      "chinese": "而你將你的全部交給我，噢——噢",
+      "startSeconds": 189.9,
+      "endSeconds": 197.12
+    },
+    {
+      "lineId": "line-41",
+      "english": "Give me all of you, oh",
+      "chinese": "將你的全部交給我，噢",
+      "startSeconds": 197.12,
+      "endSeconds": 200.76
+    },
+    {
+      "lineId": "line-42",
+      "english": "Cards on the table, we're both showing hearts",
+      "chinese": "攤牌吧，我們都亮出了紅心",
+      "startSeconds": 200.76,
+      "endSeconds": 208.44
+    },
+    {
+      "lineId": "line-43",
+      "english": "Risking it all, though it's hard",
+      "chinese": "押上一切，儘管這並不容易",
+      "startSeconds": 208.44,
+      "endSeconds": 213.86
+    },
+    {
+      "lineId": "line-44",
+      "english": "'Cause all of me",
+      "chinese": "因為我的全部",
+      "startSeconds": 213.86,
+      "endSeconds": 216.92
+    },
+    {
+      "lineId": "line-45",
+      "english": "Loves all of you",
+      "chinese": "愛著你的全部",
+      "startSeconds": 216.92,
+      "endSeconds": 221.04
+    },
+    {
+      "lineId": "line-46",
+      "english": "Love your curves and all your edges",
+      "chinese": "愛你的曲線與所有稜角",
+      "startSeconds": 221.04,
+      "endSeconds": 224.6
+    },
+    {
+      "lineId": "line-47",
+      "english": "All your perfect imperfections",
+      "chinese": "所有你那完美的瑕疵",
+      "startSeconds": 224.6,
+      "endSeconds": 228.58
+    },
+    {
+      "lineId": "line-48",
+      "english": "Give your all to me",
+      "chinese": "將你的全部都交給我",
+      "startSeconds": 228.58,
+      "endSeconds": 232.22
+    },
+    {
+      "lineId": "line-49",
+      "english": "I'll give my all to you",
+      "chinese": "我會將我的全部交給你",
+      "startSeconds": 232.22,
+      "endSeconds": 236.12
+    },
+    {
+      "lineId": "line-50",
+      "english": "You're my end and my beginnin'",
+      "chinese": "你是我的終點，也是我的起點",
+      "startSeconds": 236.12,
+      "endSeconds": 239.66
+    },
+    {
+      "lineId": "line-51",
+      "english": "Even when I lose, I'm winnin'",
+      "chinese": "即使我輸了，也是贏了",
+      "startSeconds": 240.32,
+      "endSeconds": 243.48
+    },
+    {
+      "lineId": "line-52",
+      "english": "'Cause I give you all of me",
+      "chinese": "因為我將我的全部獻給你",
+      "startSeconds": 243.48,
+      "endSeconds": 249.72
+    },
+    {
+      "lineId": "line-53",
+      "english": "And you give me all of you",
+      "chinese": "而你將你的全部交給我",
+      "startSeconds": 249.72,
+      "endSeconds": 257.2
+    },
+    {
+      "lineId": "line-54",
+      "english": "I give you all of me",
+      "chinese": "我將我的全部獻給你",
+      "startSeconds": 258.0,
+      "endSeconds": 264.82
+    },
+    {
+      "lineId": "line-55",
+      "english": "And you give me all of you, oh-oh",
+      "chinese": "而你將你的全部交給我，噢——噢",
+      "startSeconds": 265.72,
+      "endSeconds": 287.18
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Smart mouth",
+      "meaning": "說話很快、愛頂嘴；有時帶一點不客氣的意思。",
+      "usage": "當一個人總是很會回嘴、說話有點不客氣時使用；不單純是指聰明。",
+      "prompt": "哪一句正確使用了「Smart mouth」？",
+      "options": [
+        "My brother has a smart mouth; he always talks back to Mom.",
+        "My smart mouth is hungry, so it needs two pizzas.",
+        "I put a smart mouth on my desk to do homework.",
+        "We took a smart mouth to the station at eight."
+      ],
+      "answer": 0,
+      "explanation": "正確。smart mouth 表示很會頂嘴，後面用 talks back 說明。",
+      "optionExplanations": [
+        "正確。smart mouth 表示很會頂嘴，後面用 talks back 說明。",
+        "錯誤。這裡是指嘴巴吃東西，不是愛頂嘴的個性。",
+        "錯誤。smart mouth 不是可以放在桌上的物品。",
+        "錯誤。smart mouth 不能當作交通工具。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Draw someone in",
+      "meaning": "吸引某人，讓某人想靠近或了解更多。",
+      "usage": "看到一本好書、好電影或遇到有魅力的人，被吸引時可以用。",
+      "prompt": "哪一句正確使用了「Draw someone in」？",
+      "options": [
+        "I drew my sister in with a blue pencil on paper.",
+        "The book drew me in because the story was exciting.",
+        "The teacher drew in the window to make it cold.",
+        "I draw someone in my lunch every afternoon."
+      ],
+      "answer": 1,
+      "explanation": "正確。精彩的故事吸引了我。",
+      "optionExplanations": [
+        "錯誤。這是在畫妹妹，應說 I drew a picture of my sister。",
+        "正確。精彩的故事吸引了我。",
+        "錯誤。這裡想說開窗，應用 opened the window。",
+        "錯誤。draw someone in 不是把人放進午餐。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "No kidding",
+      "meaning": "真的、不是開玩笑；也可表示「不會吧！」。",
+      "usage": "想強調說的是真的，或聽到令人驚訝的消息時使用。",
+      "prompt": "哪一句正確使用了「No kidding」？",
+      "options": [
+        "I bought three no kidding at the shop.",
+        "No kidding! I really saw a cat on the bus.",
+        "My no kidding is taller than my brother.",
+        "Please no kidding the door before you leave."
+      ],
+      "answer": 1,
+      "explanation": "正確。no kidding 用來強調事情真的發生了。",
+      "optionExplanations": [
+        "錯誤。no kidding 不是可以購買的東西。",
+        "正確。no kidding 用來強調事情真的發生了。",
+        "錯誤。no kidding 不是人或物品的名稱。",
+        "錯誤。no kidding 不是關門的動詞。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Pin someone down",
+      "meaning": "讓某人明確說出答案或決定；弄清楚某人的想法。",
+      "usage": "對方一直不確定時間、計畫或答案，你想得到明確回覆時使用。",
+      "prompt": "哪一句正確使用了「Pin someone down」？",
+      "options": [
+        "I pinned Tom down with my phone to call him.",
+        "Can you pin me down a glass of water?",
+        "I tried to pin Tom down about the meeting time, but he wasn't sure.",
+        "She pinned the music down because it was too loud."
+      ],
+      "answer": 2,
+      "explanation": "正確。表示想請 Tom 說清楚開會時間。",
+      "optionExplanations": [
+        "錯誤。用手機打電話不叫 pin someone down。",
+        "錯誤。要請人拿水應說 Can you get me a glass of water?",
+        "正確。表示想請 Tom 說清楚開會時間。",
+        "錯誤。要說調低音量可用 turned the music down。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Dizzy",
+      "meaning": "頭暈的；感覺周圍在轉。",
+      "usage": "坐旋轉遊樂設施、轉圈後或身體不舒服而頭暈時使用。",
+      "prompt": "哪一句正確使用了「Dizzy」？",
+      "options": [
+        "This sandwich is dizzy because it has cheese.",
+        "I dizzy my homework before dinner.",
+        "Please give me two dizzies and a cup of tea.",
+        "I feel dizzy after spinning around ten times."
+      ],
+      "answer": 3,
+      "explanation": "正確。轉很多圈後感到頭暈。",
+      "optionExplanations": [
+        "錯誤。三明治不會因為有起司而頭暈。",
+        "錯誤。dizzy 是形容詞，不能當成做作業的動詞。",
+        "錯誤。dizzy 不是可數的食物或商品。",
+        "正確。轉很多圈後感到頭暈。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Out of my mind",
+      "meaning": "失去理智、快瘋了；有時表示因情緒太強而無法冷靜。",
+      "usage": "形容非常激動、擔心，或做了別人覺得瘋狂的事時使用。",
+      "prompt": "哪一句正確使用了「Out of my mind」？",
+      "options": [
+        "I must be out of my mind to go swimming in this cold weather!",
+        "I put my keys out of my mind on the table.",
+        "My dog is out of my mind under the chair.",
+        "We walked out of my mind to the supermarket."
+      ],
+      "answer": 0,
+      "explanation": "正確。用來說自己做的事很瘋狂。",
+      "optionExplanations": [
+        "正確。用來說自己做的事很瘋狂。",
+        "錯誤。鑰匙是放在桌上，不是放到『心智外面』。",
+        "錯誤。形容狗的位置應說 under the chair。",
+        "錯誤。out of my mind 不是一個可以走出去的地方。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Give my all",
+      "meaning": "全力以赴；付出全部努力或感情。",
+      "usage": "為考試、比賽、工作或一段關係盡最大努力時使用。",
+      "prompt": "哪一句正確使用了「Give my all」？",
+      "options": [
+        "I gave my all in the race, but I didn't win.",
+        "I gave my all three apples to the dog.",
+        "She gives her all a new pencil every day.",
+        "Please give my all in the fridge."
+      ],
+      "answer": 0,
+      "explanation": "正確。即使沒贏，還是全力以赴。",
+      "optionExplanations": [
+        "正確。即使沒贏，還是全力以赴。",
+        "錯誤。要說『我把三顆蘋果全給狗』應用 I gave all three apples to the dog。",
+        "錯誤。give one's all 不是把東西送給『她的全部』。",
+        "錯誤。give my all 不是放東西進冰箱的意思。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Beat someone down",
+      "meaning": "讓某人失去信心、感到很累或很難過。",
+      "usage": "困難、壓力或不斷的批評讓人感到沮喪時使用。",
+      "prompt": "哪一句正確使用了「Beat someone down」？",
+      "options": [
+        "I beat my sandwich down with a spoon for lunch.",
+        "She beat down her shoes because they were red.",
+        "We beat the bus down at the station to go home.",
+        "The bad news beat him down, but his friends helped him."
+      ],
+      "answer": 3,
+      "explanation": "正確。壞消息讓他很難過、失去精神。",
+      "optionExplanations": [
+        "錯誤。這個片語不是用湯匙處理三明治。",
+        "錯誤。鞋子是紅色跟這個片語的意思無關。",
+        "錯誤。搭公車應說 take the bus。",
+        "正確。壞消息讓他很難過、失去精神。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Around",
+      "meaning": "在附近、在身邊；也可以表示周圍。",
+      "usage": "想說自己在附近，能陪伴或幫助某人時，可以用 be around。",
+      "prompt": "哪一句正確使用了「Around」？",
+      "options": [
+        "I around my breakfast at seven every day.",
+        "She bought an around at the bookshop.",
+        "Don't worry. I'll be around if you need help.",
+        "Please around the light before bed."
+      ],
+      "answer": 2,
+      "explanation": "正確。表示自己會在附近，有需要可以幫忙。",
+      "optionExplanations": [
+        "錯誤。around 不能直接當成『吃』的動詞。",
+        "錯誤。around 不是一個可以買的物品。",
+        "正確。表示自己會在附近，有需要可以幫忙。",
+        "錯誤。關燈應說 turn off the light。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Risk it all",
+      "meaning": "冒著失去一切的風險；願意為重要的事情冒很大的險。",
+      "usage": "做重要但風險很高的決定時使用，例如投入全部積蓄開店。",
+      "prompt": "哪一句正確使用了「Risk it all」？",
+      "options": [
+        "I risked it all because my socks were blue.",
+        "He risked it all to start his own shop.",
+        "Can you risk it all the window?",
+        "She bought a risk it all at the market."
+      ],
+      "answer": 1,
+      "explanation": "正確。開店可能失去很多，所以是冒大風險。",
+      "optionExplanations": [
+        "錯誤。襪子是藍色通常沒有很大的風險。",
+        "正確。開店可能失去很多，所以是冒大風險。",
+        "錯誤。risk it all 不能用來表示開窗或關窗。",
+        "錯誤。risk it all 是動作片語，不是商品。"
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/all-of-me/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/all-of-me/cover.webp",
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "What would I do without your {{blank}}?",
+          "promptZh": "若沒有你那伶牙俐齒，我該怎麼辦？",
+          "options": [
+            "smart mouth",
+            "sharp tongue",
+            "sweet talk"
+          ],
+          "answer": "smart mouth"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Drawin' me in and you {{blank}}",
+          "promptZh": "將我吸引入內，又把我踢出門外",
+          "options": [
+            "throwin' me out",
+            "kickin' me out",
+            "kickin' me down"
+          ],
+          "answer": "kickin' me out"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "You've got my {{blank}}, no kiddin'",
+          "promptZh": "你讓我天旋地轉，絕不誇張",
+          "options": [
+            "mind reelin'",
+            "head spinnin'",
+            "world spinnin'"
+          ],
+          "answer": "head spinnin'"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "I can't {{blank}}",
+          "promptZh": "我無法將你捉摸透徹",
+          "options": [
+            "pin you down",
+            "hold you down",
+            "tie you down"
+          ],
+          "answer": "pin you down"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "What's goin' on in that {{blank}}?",
+          "promptZh": "你那美麗的腦海裡究竟在想些什麼？",
+          "options": [
+            "pretty mind",
+            "brilliant mind",
+            "beautiful mind"
+          ],
+          "answer": "beautiful mind"
+        },
+        {
+          "number": 6,
+          "lineId": "line-7",
+          "prompt": "And I'm so {{blank}}, don't know what hit me",
+          "promptZh": "我頭暈目眩，不知被什麼擊中",
+          "options": [
+            "tipsy",
+            "hazy",
+            "dizzy"
+          ],
+          "answer": "dizzy"
+        },
+        {
+          "number": 7,
+          "lineId": "line-10",
+          "prompt": "You're {{blank}} and I'm 〔第 8 題〕",
+          "promptZh": "你瘋了，而我也失去了理智",
+          "options": [
+            "wild",
+            "crazy",
+            "foolish"
+          ],
+          "answer": "crazy"
+        },
+        {
+          "number": 8,
+          "lineId": "line-10",
+          "prompt": "You're 〔第 7 題〕 and I'm {{blank}}",
+          "promptZh": "你瘋了，而我也失去了理智",
+          "options": [
+            "out of my mind",
+            "losing my mind",
+            "out of my head"
+          ],
+          "answer": "out of my mind"
+        },
+        {
+          "number": 9,
+          "lineId": "line-12",
+          "prompt": "{{blank}}",
+          "promptZh": "愛著你的全部",
+          "options": [
+            "Leaves all of you",
+            "Loves all of you",
+            "Loves everything"
+          ],
+          "answer": "Loves all of you"
+        },
+        {
+          "number": 10,
+          "lineId": "line-13",
+          "prompt": "Love your {{blank}} and all your 〔第 11 題〕",
+          "promptZh": "愛你的曲線與所有稜角",
+          "options": [
+            "lines",
+            "shape",
+            "curves"
+          ],
+          "answer": "curves"
+        },
+        {
+          "number": 11,
+          "lineId": "line-13",
+          "prompt": "Love your 〔第 10 題〕 and all your {{blank}}",
+          "promptZh": "愛你的曲線與所有稜角",
+          "options": [
+            "edges",
+            "lines",
+            "ends"
+          ],
+          "answer": "edges"
+        },
+        {
+          "number": 12,
+          "lineId": "line-14",
+          "prompt": "All your {{blank}}",
+          "promptZh": "所有你那完美的瑕疵",
+          "options": [
+            "perfect directions",
+            "perfect imperfections",
+            "perfect connections"
+          ],
+          "answer": "perfect imperfections"
+        },
+        {
+          "number": 13,
+          "lineId": "line-20",
+          "prompt": "And you {{blank}}, oh-oh",
+          "promptZh": "而你將你的全部交給我，噢——噢",
+          "options": [
+            "give me all of you",
+            "Bring me all of you",
+            "Show me all of you"
+          ],
+          "answer": "give me all of you"
+        },
+        {
+          "number": 14,
+          "lineId": "line-21",
+          "prompt": "{{blank}} do I have to tell you?",
+          "promptZh": "我到底要告訴你多少次？",
+          "options": [
+            "How many days",
+            "How many ways",
+            "How many times"
+          ],
+          "answer": "How many times"
+        },
+        {
+          "number": 15,
+          "lineId": "line-22",
+          "prompt": "Even when you're {{blank}}, you're 〔第 16 題〕",
+          "promptZh": "即使你哭泣時，也依然美麗",
+          "options": [
+            "hurtin'",
+            "weepin'",
+            "crying"
+          ],
+          "answer": "crying"
+        },
+        {
+          "number": 16,
+          "lineId": "line-22",
+          "prompt": "Even when you're 〔第 15 題〕, you're {{blank}}",
+          "promptZh": "即使你哭泣時，也依然美麗",
+          "options": [
+            "beautiful still",
+            "beautiful too",
+            "lovely too"
+          ],
+          "answer": "beautiful too"
+        },
+        {
+          "number": 17,
+          "lineId": "line-25",
+          "prompt": "You're my {{blank}}, you're my 〔第 18 題〕",
+          "promptZh": "你是我的墮落，也是我的繆思",
+          "options": [
+            "downfall",
+            "mishap",
+            "failure"
+          ],
+          "answer": "downfall"
+        },
+        {
+          "number": 18,
+          "lineId": "line-25",
+          "prompt": "You're my 〔第 17 題〕, you're my {{blank}}",
+          "promptZh": "你是我的墮落，也是我的繆思",
+          "options": [
+            "muse",
+            "use",
+            "tune"
+          ],
+          "answer": "muse"
+        },
+        {
+          "number": 19,
+          "lineId": "line-42",
+          "prompt": "Cards on the table, we're both {{blank}}",
+          "promptZh": "攤牌吧，我們都亮出了紅心",
+          "options": [
+            "playing hearts",
+            "showing hearts",
+            "showing hands"
+          ],
+          "answer": "showing hearts"
+        },
+        {
+          "number": 20,
+          "lineId": "line-43",
+          "prompt": "Risking it all, {{blank}}",
+          "promptZh": "押上一切，儘管這並不容易",
+          "options": [
+            "even if hard",
+            "though it hurts",
+            "though it's hard"
+          ],
+          "answer": "though it's hard"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "What would I do without your {{q:1}}?"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Drawin' me in and you {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You've got my {{q:3}}, no kiddin'"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I can't {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "What's goin' on in that {{q:5}}?"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I'm on your magical mystery ride"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And I'm so {{q:6}}, don't know what hit me"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "But I'll be alright"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "My head's under water, but I'm breathing fine"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "You're {{q:7}} and I'm {{q:8}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "'Cause all of me"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:9}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Love your {{q:10}} and all your {{q:11}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "All your {{q:12}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Give your all to me"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I'll give my all to you"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "You're my end and my beginnin'"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Even when I lose, I'm winnin'"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "'Cause I give you all of me"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And you {{q:13}}, oh-oh"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:14}} do I have to tell you?"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Even when you're {{q:15}}, you're {{q:16}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "The world is beating you down, I'm around"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Through every mood"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You're my {{q:17}}, you're my {{q:18}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "My worst distraction, my rhythm and blues"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I can't stop singing, it's ringing"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "In my head for you"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "My head's under water, but I'm breathin' fine"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You're crazy and I'm out of my mind"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "'Cause all of me"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Loves all of you"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Love your curves and all your edges"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "All your perfect imperfections"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Give your all to me"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I'll give my all to you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "You're my end and my beginnin'"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Even when I lose, I'm winnin'"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "'Cause I give you all of me"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "And you give me all of you, oh-oh"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Give me all of you, oh"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Cards on the table, we're both {{q:19}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Risking it all, {{q:20}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "'Cause all of me"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Loves all of you"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Love your curves and all your edges"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "All your perfect imperfections"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Give your all to me"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "I'll give my all to you"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "You're my end and my beginnin'"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Even when I lose, I'm winnin'"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "'Cause I give you all of me"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "And you give me all of you"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "I give you all of me"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "And you give me all of you, oh-oh"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "What would I do without your {{blank}}?",
+          "promptZh": "若沒有你那伶牙俐齒，我該怎麼辦？",
+          "options": [
+            "smart mouth",
+            "sharp tongue",
+            "sweet talk"
+          ],
+          "answer": "smart mouth"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Drawin' me in and you {{blank}}",
+          "promptZh": "將我吸引入內，又把我踢出門外",
+          "options": [
+            "throwin' me out",
+            "kickin' me out",
+            "kickin' me down"
+          ],
+          "answer": "kickin' me out"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "You've got my {{blank}}, no kiddin'",
+          "promptZh": "你讓我天旋地轉，絕不誇張",
+          "options": [
+            "mind reelin'",
+            "head spinnin'",
+            "world spinnin'"
+          ],
+          "answer": "head spinnin'"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "I can't {{blank}}",
+          "promptZh": "我無法將你捉摸透徹",
+          "options": [
+            "tie you down",
+            "hold you down",
+            "pin you down"
+          ],
+          "answer": "pin you down"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "What's goin' on in that {{blank}}?",
+          "promptZh": "你那美麗的腦海裡究竟在想些什麼？",
+          "options": [
+            "beautiful mind",
+            "brilliant mind",
+            "pretty mind"
+          ],
+          "answer": "beautiful mind"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "I'm on your {{blank}}",
+          "promptZh": "我正乘著你那神奇又神秘的旅程",
+          "options": [
+            "magical mystery tour",
+            "magical mystery ride",
+            "magic mystery ride"
+          ],
+          "answer": "magical mystery ride"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "And I'm so {{blank}}, don't know what hit me",
+          "promptZh": "我頭暈目眩，不知被什麼擊中",
+          "options": [
+            "hazy",
+            "tipsy",
+            "dizzy"
+          ],
+          "answer": "dizzy"
+        },
+        {
+          "number": 8,
+          "lineId": "line-9",
+          "prompt": "My head's {{blank}}, but I'm 〔第 9 題〕",
+          "promptZh": "我的頭沉在水底，卻能安然呼吸",
+          "options": [
+            "under water",
+            "underneath water",
+            "under the water"
+          ],
+          "answer": "under water"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "My head's 〔第 8 題〕, but I'm {{blank}}",
+          "promptZh": "我的頭沉在水底，卻能安然呼吸",
+          "options": [
+            "breathing fine",
+            "breathin' fine",
+            "feelin' fine"
+          ],
+          "answer": "breathing fine"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "You're {{blank}} and I'm 〔第 11 題〕",
+          "promptZh": "你瘋了，而我也失去了理智",
+          "options": [
+            "foolish",
+            "wild",
+            "crazy"
+          ],
+          "answer": "crazy"
+        },
+        {
+          "number": 11,
+          "lineId": "line-10",
+          "prompt": "You're 〔第 10 題〕 and I'm {{blank}}",
+          "promptZh": "你瘋了，而我也失去了理智",
+          "options": [
+            "losing my mind",
+            "out of my mind",
+            "out of my head"
+          ],
+          "answer": "out of my mind"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "{{blank}}",
+          "promptZh": "愛著你的全部",
+          "options": [
+            "Leaves all of you",
+            "Loves all of you",
+            "Loves everything"
+          ],
+          "answer": "Loves all of you"
+        },
+        {
+          "number": 13,
+          "lineId": "line-13",
+          "prompt": "Love your {{blank}} and all your 〔第 14 題〕",
+          "promptZh": "愛你的曲線與所有稜角",
+          "options": [
+            "curves",
+            "shape",
+            "lines"
+          ],
+          "answer": "curves"
+        },
+        {
+          "number": 14,
+          "lineId": "line-13",
+          "prompt": "Love your 〔第 13 題〕 and all your {{blank}}",
+          "promptZh": "愛你的曲線與所有稜角",
+          "options": [
+            "ends",
+            "lines",
+            "edges"
+          ],
+          "answer": "edges"
+        },
+        {
+          "number": 15,
+          "lineId": "line-14",
+          "prompt": "All your {{blank}}",
+          "promptZh": "所有你那完美的瑕疵",
+          "options": [
+            "perfect directions",
+            "perfect imperfections",
+            "perfect connections"
+          ],
+          "answer": "perfect imperfections"
+        },
+        {
+          "number": 16,
+          "lineId": "line-15",
+          "prompt": "{{blank}}",
+          "promptZh": "將你的全部都交給我",
+          "options": [
+            "Give your heart to me",
+            "Bring your all to me",
+            "Give your all to me"
+          ],
+          "answer": "Give your all to me"
+        },
+        {
+          "number": 17,
+          "lineId": "line-16",
+          "prompt": "I'll {{blank}}",
+          "promptZh": "我會將我的全部交給你",
+          "options": [
+            "give my all to you",
+            "give my heart to you",
+            "give my life to you"
+          ],
+          "answer": "give my all to you"
+        },
+        {
+          "number": 18,
+          "lineId": "line-17",
+          "prompt": "You're my {{blank}}",
+          "promptZh": "你是我的終點，也是我的起點",
+          "options": [
+            "start and my beginnin'",
+            "end and my beginnin'",
+            "end and my start"
+          ],
+          "answer": "end and my beginnin'"
+        },
+        {
+          "number": 19,
+          "lineId": "line-19",
+          "prompt": "'Cause I {{blank}}",
+          "promptZh": "因為我將我的全部獻給你",
+          "options": [
+            "give you all of me",
+            "give you all of it",
+            "give you everything"
+          ],
+          "answer": "give you all of me"
+        },
+        {
+          "number": 20,
+          "lineId": "line-20",
+          "prompt": "And you {{blank}}, oh-oh",
+          "promptZh": "而你將你的全部交給我，噢——噢",
+          "options": [
+            "Show me all of you",
+            "Bring me all of you",
+            "give me all of you"
+          ],
+          "answer": "give me all of you"
+        },
+        {
+          "number": 21,
+          "lineId": "line-21",
+          "prompt": "{{blank}} do I have to tell you?",
+          "promptZh": "我到底要告訴你多少次？",
+          "options": [
+            "How many ways",
+            "How many times",
+            "How many days"
+          ],
+          "answer": "How many times"
+        },
+        {
+          "number": 22,
+          "lineId": "line-22",
+          "prompt": "Even when you're {{blank}}, you're 〔第 23 題〕",
+          "promptZh": "即使你哭泣時，也依然美麗",
+          "options": [
+            "crying",
+            "hurtin'",
+            "weepin'"
+          ],
+          "answer": "crying"
+        },
+        {
+          "number": 23,
+          "lineId": "line-22",
+          "prompt": "Even when you're 〔第 22 題〕, you're {{blank}}",
+          "promptZh": "即使你哭泣時，也依然美麗",
+          "options": [
+            "lovely too",
+            "beautiful still",
+            "beautiful too"
+          ],
+          "answer": "beautiful too"
+        },
+        {
+          "number": 24,
+          "lineId": "line-23",
+          "prompt": "The world is {{blank}}, I'm around",
+          "promptZh": "世界正將你擊倒，而我就在你身旁",
+          "options": [
+            "beating you down",
+            "bringing you down",
+            "putting you down"
+          ],
+          "answer": "beating you down"
+        },
+        {
+          "number": 25,
+          "lineId": "line-24",
+          "prompt": "{{blank}}",
+          "promptZh": "陪你走過每一種情緒",
+          "options": [
+            "Through every move",
+            "In every mood",
+            "Through every mood"
+          ],
+          "answer": "Through every mood"
+        },
+        {
+          "number": 26,
+          "lineId": "line-25",
+          "prompt": "You're my {{blank}}, you're my 〔第 27 題〕",
+          "promptZh": "你是我的墮落，也是我的繆思",
+          "options": [
+            "mishap",
+            "downfall",
+            "failure"
+          ],
+          "answer": "downfall"
+        },
+        {
+          "number": 27,
+          "lineId": "line-25",
+          "prompt": "You're my 〔第 26 題〕, you're my {{blank}}",
+          "promptZh": "你是我的墮落，也是我的繆思",
+          "options": [
+            "tune",
+            "use",
+            "muse"
+          ],
+          "answer": "muse"
+        },
+        {
+          "number": 28,
+          "lineId": "line-27",
+          "prompt": "I can't {{blank}}, it's ringing",
+          "promptZh": "我無法停止歌唱，那旋律迴盪著",
+          "options": [
+            "stop singing",
+            "stop thinkin'",
+            "stop dreamin'"
+          ],
+          "answer": "stop singing"
+        },
+        {
+          "number": 29,
+          "lineId": "line-28",
+          "prompt": "In my {{blank}}",
+          "promptZh": "在我腦海中，為你而響",
+          "options": [
+            "mind for you",
+            "head for you",
+            "heart for you"
+          ],
+          "answer": "head for you"
+        },
+        {
+          "number": 30,
+          "lineId": "line-40",
+          "prompt": "And you {{blank}}, oh-oh",
+          "promptZh": "而你將你的全部交給我，噢——噢",
+          "options": [
+            "give me everything",
+            "give me all of it",
+            "give me all of you"
+          ],
+          "answer": "give me all of you"
+        },
+        {
+          "number": 31,
+          "lineId": "line-42",
+          "prompt": "Cards on the table, we're both {{blank}}",
+          "promptZh": "攤牌吧，我們都亮出了紅心",
+          "options": [
+            "playing hearts",
+            "showing hearts",
+            "showing hands"
+          ],
+          "answer": "showing hearts"
+        },
+        {
+          "number": 32,
+          "lineId": "line-43",
+          "prompt": "Risking it all, {{blank}}",
+          "promptZh": "押上一切，儘管這並不容易",
+          "options": [
+            "though it's hard",
+            "though it hurts",
+            "even if hard"
+          ],
+          "answer": "though it's hard"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "What would I do without your {{q:1}}?"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Drawin' me in and you {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You've got my {{q:3}}, no kiddin'"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I can't {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "What's goin' on in that {{q:5}}?"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I'm on your {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And I'm so {{q:7}}, don't know what hit me"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "But I'll be alright"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "My head's {{q:8}}, but I'm {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "You're {{q:10}} and I'm {{q:11}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "'Cause all of me"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Love your {{q:13}} and all your {{q:14}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "All your {{q:15}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:16}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I'll {{q:17}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "You're my {{q:18}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Even when I lose, I'm winnin'"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "'Cause I {{q:19}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And you {{q:20}}, oh-oh"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:21}} do I have to tell you?"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Even when you're {{q:22}}, you're {{q:23}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "The world is {{q:24}}, I'm around"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You're my {{q:26}}, you're my {{q:27}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "My worst distraction, my rhythm and blues"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I can't {{q:28}}, it's ringing"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "In my {{q:29}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "My head's under water, but I'm breathin' fine"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You're crazy and I'm out of my mind"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "'Cause all of me"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Loves all of you"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Love your curves and all your edges"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "All your perfect imperfections"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Give your all to me"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I'll give my all to you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "You're my end and my beginnin'"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Even when I lose, I'm winnin'"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "'Cause I give you all of me"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "And you {{q:30}}, oh-oh"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Give me all of you, oh"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Cards on the table, we're both {{q:31}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Risking it all, {{q:32}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "'Cause all of me"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Loves all of you"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Love your curves and all your edges"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "All your perfect imperfections"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Give your all to me"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "I'll give my all to you"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "You're my end and my beginnin'"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Even when I lose, I'm winnin'"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "'Cause I give you all of me"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "And you give me all of you"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "I give you all of me"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "And you give me all of you, oh-oh"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "What would I do without your {{blank}}?",
+          "promptZh": "若沒有你那伶牙俐齒，我該怎麼辦？",
+          "options": [
+            "smart mouth",
+            "sharp tongue",
+            "sweet talk"
+          ],
+          "answer": "smart mouth"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Drawin' me in and you {{blank}}",
+          "promptZh": "將我吸引入內，又把我踢出門外",
+          "options": [
+            "kickin' me out",
+            "throwin' me out",
+            "kickin' me down"
+          ],
+          "answer": "kickin' me out"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "You've got my {{blank}}, no kiddin'",
+          "promptZh": "你讓我天旋地轉，絕不誇張",
+          "options": [
+            "world spinnin'",
+            "head spinnin'",
+            "mind reelin'"
+          ],
+          "answer": "head spinnin'"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "I can't {{blank}}",
+          "promptZh": "我無法將你捉摸透徹",
+          "options": [
+            "tie you down",
+            "hold you down",
+            "pin you down"
+          ],
+          "answer": "pin you down"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "What's goin' on in that {{blank}}?",
+          "promptZh": "你那美麗的腦海裡究竟在想些什麼？",
+          "options": [
+            "pretty mind",
+            "brilliant mind",
+            "beautiful mind"
+          ],
+          "answer": "beautiful mind"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "I'm on your {{blank}}",
+          "promptZh": "我正乘著你那神奇又神秘的旅程",
+          "options": [
+            "magical mystery ride",
+            "magic mystery ride",
+            "magical mystery tour"
+          ],
+          "answer": "magical mystery ride"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "And I'm so {{blank}}, don't know what hit me",
+          "promptZh": "我頭暈目眩，不知被什麼擊中",
+          "options": [
+            "tipsy",
+            "dizzy",
+            "hazy"
+          ],
+          "answer": "dizzy"
+        },
+        {
+          "number": 8,
+          "lineId": "line-9",
+          "prompt": "My head's {{blank}}, but I'm 〔第 9 題〕",
+          "promptZh": "我的頭沉在水底，卻能安然呼吸",
+          "options": [
+            "underneath water",
+            "under water",
+            "under the water"
+          ],
+          "answer": "under water"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "My head's 〔第 8 題〕, but I'm {{blank}}",
+          "promptZh": "我的頭沉在水底，卻能安然呼吸",
+          "options": [
+            "breathing fine",
+            "breathin' fine",
+            "feelin' fine"
+          ],
+          "answer": "breathing fine"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "You're {{blank}} and I'm 〔第 11 題〕",
+          "promptZh": "你瘋了，而我也失去了理智",
+          "options": [
+            "foolish",
+            "wild",
+            "crazy"
+          ],
+          "answer": "crazy"
+        },
+        {
+          "number": 11,
+          "lineId": "line-10",
+          "prompt": "You're 〔第 10 題〕 and I'm {{blank}}",
+          "promptZh": "你瘋了，而我也失去了理智",
+          "options": [
+            "out of my head",
+            "losing my mind",
+            "out of my mind"
+          ],
+          "answer": "out of my mind"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "{{blank}}",
+          "promptZh": "愛著你的全部",
+          "options": [
+            "Loves all of you",
+            "Loves everything",
+            "Leaves all of you"
+          ],
+          "answer": "Loves all of you"
+        },
+        {
+          "number": 13,
+          "lineId": "line-13",
+          "prompt": "Love your {{blank}} and all your 〔第 14 題〕",
+          "promptZh": "愛你的曲線與所有稜角",
+          "options": [
+            "shape",
+            "curves",
+            "lines"
+          ],
+          "answer": "curves"
+        },
+        {
+          "number": 14,
+          "lineId": "line-13",
+          "prompt": "Love your 〔第 13 題〕 and all your {{blank}}",
+          "promptZh": "愛你的曲線與所有稜角",
+          "options": [
+            "edges",
+            "lines",
+            "ends"
+          ],
+          "answer": "edges"
+        },
+        {
+          "number": 15,
+          "lineId": "line-14",
+          "prompt": "All your {{blank}}",
+          "promptZh": "所有你那完美的瑕疵",
+          "options": [
+            "perfect connections",
+            "perfect imperfections",
+            "perfect directions"
+          ],
+          "answer": "perfect imperfections"
+        },
+        {
+          "number": 16,
+          "lineId": "line-15",
+          "prompt": "{{blank}}",
+          "promptZh": "將你的全部都交給我",
+          "options": [
+            "Give your heart to me",
+            "Bring your all to me",
+            "Give your all to me"
+          ],
+          "answer": "Give your all to me"
+        },
+        {
+          "number": 17,
+          "lineId": "line-16",
+          "prompt": "I'll {{blank}}",
+          "promptZh": "我會將我的全部交給你",
+          "options": [
+            "give my life to you",
+            "give my heart to you",
+            "give my all to you"
+          ],
+          "answer": "give my all to you"
+        },
+        {
+          "number": 18,
+          "lineId": "line-17",
+          "prompt": "You're my {{blank}}",
+          "promptZh": "你是我的終點，也是我的起點",
+          "options": [
+            "end and my beginnin'",
+            "start and my beginnin'",
+            "end and my start"
+          ],
+          "answer": "end and my beginnin'"
+        },
+        {
+          "number": 19,
+          "lineId": "line-18",
+          "prompt": "{{blank}}, I'm winnin'",
+          "promptZh": "即使我輸了，也是贏了",
+          "options": [
+            "Even if I lose",
+            "Even when I lose",
+            "Even though I lose"
+          ],
+          "answer": "Even when I lose"
+        },
+        {
+          "number": 20,
+          "lineId": "line-19",
+          "prompt": "'Cause I {{blank}}",
+          "promptZh": "因為我將我的全部獻給你",
+          "options": [
+            "give you everything",
+            "give you all of it",
+            "give you all of me"
+          ],
+          "answer": "give you all of me"
+        },
+        {
+          "number": 21,
+          "lineId": "line-20",
+          "prompt": "And you {{blank}}, oh-oh",
+          "promptZh": "而你將你的全部交給我，噢——噢",
+          "options": [
+            "give me all of you",
+            "Bring me all of you",
+            "Show me all of you"
+          ],
+          "answer": "give me all of you"
+        },
+        {
+          "number": 22,
+          "lineId": "line-21",
+          "prompt": "{{blank}} do I have to tell you?",
+          "promptZh": "我到底要告訴你多少次？",
+          "options": [
+            "How many ways",
+            "How many times",
+            "How many days"
+          ],
+          "answer": "How many times"
+        },
+        {
+          "number": 23,
+          "lineId": "line-22",
+          "prompt": "Even when you're {{blank}}, you're 〔第 24 題〕",
+          "promptZh": "即使你哭泣時，也依然美麗",
+          "options": [
+            "crying",
+            "hurtin'",
+            "weepin'"
+          ],
+          "answer": "crying"
+        },
+        {
+          "number": 24,
+          "lineId": "line-22",
+          "prompt": "Even when you're 〔第 23 題〕, you're {{blank}}",
+          "promptZh": "即使你哭泣時，也依然美麗",
+          "options": [
+            "beautiful still",
+            "beautiful too",
+            "lovely too"
+          ],
+          "answer": "beautiful too"
+        },
+        {
+          "number": 25,
+          "lineId": "line-23",
+          "prompt": "The world is {{blank}}, I'm around",
+          "promptZh": "世界正將你擊倒，而我就在你身旁",
+          "options": [
+            "putting you down",
+            "bringing you down",
+            "beating you down"
+          ],
+          "answer": "beating you down"
+        },
+        {
+          "number": 26,
+          "lineId": "line-24",
+          "prompt": "{{blank}}",
+          "promptZh": "陪你走過每一種情緒",
+          "options": [
+            "In every mood",
+            "Through every mood",
+            "Through every move"
+          ],
+          "answer": "Through every mood"
+        },
+        {
+          "number": 27,
+          "lineId": "line-25",
+          "prompt": "You're my {{blank}}, you're my 〔第 28 題〕",
+          "promptZh": "你是我的墮落，也是我的繆思",
+          "options": [
+            "downfall",
+            "mishap",
+            "failure"
+          ],
+          "answer": "downfall"
+        },
+        {
+          "number": 28,
+          "lineId": "line-25",
+          "prompt": "You're my 〔第 27 題〕, you're my {{blank}}",
+          "promptZh": "你是我的墮落，也是我的繆思",
+          "options": [
+            "tune",
+            "use",
+            "muse"
+          ],
+          "answer": "muse"
+        },
+        {
+          "number": 29,
+          "lineId": "line-26",
+          "prompt": "My {{blank}}, my 〔第 30 題〕",
+          "promptZh": "我最致命的干擾，我的節奏藍調",
+          "options": [
+            "worst distraction",
+            "best distraction",
+            "worst attraction"
+          ],
+          "answer": "worst distraction"
+        },
+        {
+          "number": 30,
+          "lineId": "line-26",
+          "prompt": "My 〔第 29 題〕, my {{blank}}",
+          "promptZh": "我最致命的干擾，我的節奏藍調",
+          "options": [
+            "rhythm and rhyme",
+            "rhythm and blues",
+            "rock and blues"
+          ],
+          "answer": "rhythm and blues"
+        },
+        {
+          "number": 31,
+          "lineId": "line-27",
+          "prompt": "I can't {{blank}}, it's 〔第 32 題〕",
+          "promptZh": "我無法停止歌唱，那旋律迴盪著",
+          "options": [
+            "stop dreamin'",
+            "stop thinkin'",
+            "stop singing"
+          ],
+          "answer": "stop singing"
+        },
+        {
+          "number": 32,
+          "lineId": "line-27",
+          "prompt": "I can't 〔第 31 題〕, it's {{blank}}",
+          "promptZh": "我無法停止歌唱，那旋律迴盪著",
+          "options": [
+            "ringing",
+            "singin'",
+            "bringing"
+          ],
+          "answer": "ringing"
+        },
+        {
+          "number": 33,
+          "lineId": "line-28",
+          "prompt": "In my {{blank}}",
+          "promptZh": "在我腦海中，為你而響",
+          "options": [
+            "mind for you",
+            "head for you",
+            "heart for you"
+          ],
+          "answer": "head for you"
+        },
+        {
+          "number": 34,
+          "lineId": "line-29",
+          "prompt": "My head's under water, but I'm {{blank}}",
+          "promptZh": "我的頭沉在水底，卻能安然呼吸",
+          "options": [
+            "feelin' fine",
+            "breathing fine",
+            "breathin' fine"
+          ],
+          "answer": "breathin' fine"
+        },
+        {
+          "number": 35,
+          "lineId": "line-38",
+          "prompt": "{{blank}}, I'm winnin'",
+          "promptZh": "即使我輸了，也是贏了",
+          "options": [
+            "Even if I lose",
+            "Even when I lose",
+            "Even though I lose"
+          ],
+          "answer": "Even when I lose"
+        },
+        {
+          "number": 36,
+          "lineId": "line-40",
+          "prompt": "And you {{blank}}, oh-oh",
+          "promptZh": "而你將你的全部交給我，噢——噢",
+          "options": [
+            "give me all of you",
+            "give me all of it",
+            "give me everything"
+          ],
+          "answer": "give me all of you"
+        },
+        {
+          "number": 37,
+          "lineId": "line-42",
+          "prompt": "{{blank}}, we're both 〔第 38 題〕",
+          "promptZh": "攤牌吧，我們都亮出了紅心",
+          "options": [
+            "Cards in the middle",
+            "Cards on the board",
+            "Cards on the table"
+          ],
+          "answer": "Cards on the table"
+        },
+        {
+          "number": 38,
+          "lineId": "line-42",
+          "prompt": "〔第 37 題〕, we're both {{blank}}",
+          "promptZh": "攤牌吧，我們都亮出了紅心",
+          "options": [
+            "playing hearts",
+            "showing hearts",
+            "showing hands"
+          ],
+          "answer": "showing hearts"
+        },
+        {
+          "number": 39,
+          "lineId": "line-43",
+          "prompt": "{{blank}}, 〔第 40 題〕",
+          "promptZh": "押上一切，儘管這並不容易",
+          "options": [
+            "Risking it all",
+            "Losing it all",
+            "Gambling it all"
+          ],
+          "answer": "Risking it all"
+        },
+        {
+          "number": 40,
+          "lineId": "line-43",
+          "prompt": "〔第 39 題〕, {{blank}}",
+          "promptZh": "押上一切，儘管這並不容易",
+          "options": [
+            "even if hard",
+            "though it hurts",
+            "though it's hard"
+          ],
+          "answer": "though it's hard"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "What would I do without your {{q:1}}?"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Drawin' me in and you {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You've got my {{q:3}}, no kiddin'"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I can't {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "What's goin' on in that {{q:5}}?"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I'm on your {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And I'm so {{q:7}}, don't know what hit me"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "But I'll be alright"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "My head's {{q:8}}, but I'm {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "You're {{q:10}} and I'm {{q:11}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "'Cause all of me"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Love your {{q:13}} and all your {{q:14}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "All your {{q:15}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:16}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I'll {{q:17}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "You're my {{q:18}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:19}}, I'm winnin'"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "'Cause I {{q:20}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And you {{q:21}}, oh-oh"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:22}} do I have to tell you?"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Even when you're {{q:23}}, you're {{q:24}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "The world is {{q:25}}, I'm around"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:26}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You're my {{q:27}}, you're my {{q:28}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "My {{q:29}}, my {{q:30}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I can't {{q:31}}, it's {{q:32}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "In my {{q:33}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "My head's under water, but I'm {{q:34}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You're crazy and I'm out of my mind"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "'Cause all of me"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Loves all of you"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Love your curves and all your edges"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "All your perfect imperfections"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Give your all to me"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I'll give my all to you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "You're my end and my beginnin'"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:35}}, I'm winnin'"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "'Cause I give you all of me"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "And you {{q:36}}, oh-oh"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Give me all of you, oh"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "{{q:37}}, we're both {{q:38}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:39}}, {{q:40}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "'Cause all of me"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Loves all of you"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Love your curves and all your edges"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "All your perfect imperfections"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Give your all to me"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "I'll give my all to you"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "You're my end and my beginnin'"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Even when I lose, I'm winnin'"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "'Cause I give you all of me"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "And you give me all of you"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "I give you all of me"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "And you give me all of you, oh-oh"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} without your 〔第 2 題〕?",
+          "promptZh": "若沒有你那伶牙俐齒，我該怎麼辦？",
+          "options": [
+            "What would I do",
+            "What could I do",
+            "What should I do"
+          ],
+          "answer": "What would I do"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 without your {{blank}}?",
+          "promptZh": "若沒有你那伶牙俐齒，我該怎麼辦？",
+          "options": [
+            "sharp tongue",
+            "smart mouth",
+            "sweet talk"
+          ],
+          "answer": "smart mouth"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} and you 〔第 4 題〕",
+          "promptZh": "將我吸引入內，又把我踢出門外",
+          "options": [
+            "Pullin' me in",
+            "Bringin' me in",
+            "Drawin' me in"
+          ],
+          "answer": "Drawin' me in"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 and you {{blank}}",
+          "promptZh": "將我吸引入內，又把我踢出門外",
+          "options": [
+            "throwin' me out",
+            "kickin' me out",
+            "kickin' me down"
+          ],
+          "answer": "kickin' me out"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "You've got my {{blank}}, 〔第 6 題〕",
+          "promptZh": "你讓我天旋地轉，絕不誇張",
+          "options": [
+            "head spinnin'",
+            "world spinnin'",
+            "mind reelin'"
+          ],
+          "answer": "head spinnin'"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "You've got my 〔第 5 題〕, {{blank}}",
+          "promptZh": "你讓我天旋地轉，絕不誇張",
+          "options": [
+            "no jokin'",
+            "no lyin'",
+            "no kiddin'"
+          ],
+          "answer": "no kiddin'"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "I can't {{blank}}",
+          "promptZh": "我無法將你捉摸透徹",
+          "options": [
+            "hold you down",
+            "pin you down",
+            "tie you down"
+          ],
+          "answer": "pin you down"
+        },
+        {
+          "number": 8,
+          "lineId": "line-5",
+          "prompt": "{{blank}} in that 〔第 9 題〕?",
+          "promptZh": "你那美麗的腦海裡究竟在想些什麼？",
+          "options": [
+            "What's goin' on",
+            "What is goin' on",
+            "What's happenin' now"
+          ],
+          "answer": "What's goin' on"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "〔第 8 題〕 in that {{blank}}?",
+          "promptZh": "你那美麗的腦海裡究竟在想些什麼？",
+          "options": [
+            "brilliant mind",
+            "pretty mind",
+            "beautiful mind"
+          ],
+          "answer": "beautiful mind"
+        },
+        {
+          "number": 10,
+          "lineId": "line-6",
+          "prompt": "I'm on your {{blank}}",
+          "promptZh": "我正乘著你那神奇又神秘的旅程",
+          "options": [
+            "magical mystery ride",
+            "magic mystery ride",
+            "magical mystery tour"
+          ],
+          "answer": "magical mystery ride"
+        },
+        {
+          "number": 11,
+          "lineId": "line-7",
+          "prompt": "And I'm so {{blank}}, 〔第 12 題〕",
+          "promptZh": "我頭暈目眩，不知被什麼擊中",
+          "options": [
+            "tipsy",
+            "dizzy",
+            "hazy"
+          ],
+          "answer": "dizzy"
+        },
+        {
+          "number": 12,
+          "lineId": "line-7",
+          "prompt": "And I'm so 〔第 11 題〕, {{blank}}",
+          "promptZh": "我頭暈目眩，不知被什麼擊中",
+          "options": [
+            "don't know what hit me",
+            "don't know what struck me",
+            "don't know what got me"
+          ],
+          "answer": "don't know what hit me"
+        },
+        {
+          "number": 13,
+          "lineId": "line-8",
+          "prompt": "{{blank}}",
+          "promptZh": "但我會沒事的",
+          "options": [
+            "But I will be alright",
+            "But I'll be alright",
+            "But I'm gonna be alright"
+          ],
+          "answer": "But I'll be alright"
+        },
+        {
+          "number": 14,
+          "lineId": "line-9",
+          "prompt": "My head's {{blank}}, but I'm 〔第 15 題〕",
+          "promptZh": "我的頭沉在水底，卻能安然呼吸",
+          "options": [
+            "under the water",
+            "underneath water",
+            "under water"
+          ],
+          "answer": "under water"
+        },
+        {
+          "number": 15,
+          "lineId": "line-9",
+          "prompt": "My head's 〔第 14 題〕, but I'm {{blank}}",
+          "promptZh": "我的頭沉在水底，卻能安然呼吸",
+          "options": [
+            "feelin' fine",
+            "breathin' fine",
+            "breathing fine"
+          ],
+          "answer": "breathing fine"
+        },
+        {
+          "number": 16,
+          "lineId": "line-10",
+          "prompt": "You're {{blank}} and I'm 〔第 17 題〕",
+          "promptZh": "你瘋了，而我也失去了理智",
+          "options": [
+            "crazy",
+            "wild",
+            "foolish"
+          ],
+          "answer": "crazy"
+        },
+        {
+          "number": 17,
+          "lineId": "line-10",
+          "prompt": "You're 〔第 16 題〕 and I'm {{blank}}",
+          "promptZh": "你瘋了，而我也失去了理智",
+          "options": [
+            "losing my mind",
+            "out of my mind",
+            "out of my head"
+          ],
+          "answer": "out of my mind"
+        },
+        {
+          "number": 18,
+          "lineId": "line-12",
+          "prompt": "{{blank}}",
+          "promptZh": "愛著你的全部",
+          "options": [
+            "Loves all of you",
+            "Loves everything",
+            "Leaves all of you"
+          ],
+          "answer": "Loves all of you"
+        },
+        {
+          "number": 19,
+          "lineId": "line-13",
+          "prompt": "Love your {{blank}} and all your 〔第 20 題〕",
+          "promptZh": "愛你的曲線與所有稜角",
+          "options": [
+            "shape",
+            "curves",
+            "lines"
+          ],
+          "answer": "curves"
+        },
+        {
+          "number": 20,
+          "lineId": "line-13",
+          "prompt": "Love your 〔第 19 題〕 and all your {{blank}}",
+          "promptZh": "愛你的曲線與所有稜角",
+          "options": [
+            "ends",
+            "lines",
+            "edges"
+          ],
+          "answer": "edges"
+        },
+        {
+          "number": 21,
+          "lineId": "line-14",
+          "prompt": "All your {{blank}}",
+          "promptZh": "所有你那完美的瑕疵",
+          "options": [
+            "perfect directions",
+            "perfect imperfections",
+            "perfect connections"
+          ],
+          "answer": "perfect imperfections"
+        },
+        {
+          "number": 22,
+          "lineId": "line-15",
+          "prompt": "{{blank}}",
+          "promptZh": "將你的全部都交給我",
+          "options": [
+            "Give your all to me",
+            "Bring your all to me",
+            "Give your heart to me"
+          ],
+          "answer": "Give your all to me"
+        },
+        {
+          "number": 23,
+          "lineId": "line-16",
+          "prompt": "I'll {{blank}}",
+          "promptZh": "我會將我的全部交給你",
+          "options": [
+            "give my life to you",
+            "give my heart to you",
+            "give my all to you"
+          ],
+          "answer": "give my all to you"
+        },
+        {
+          "number": 24,
+          "lineId": "line-17",
+          "prompt": "You're my {{blank}}",
+          "promptZh": "你是我的終點，也是我的起點",
+          "options": [
+            "end and my beginnin'",
+            "start and my beginnin'",
+            "end and my start"
+          ],
+          "answer": "end and my beginnin'"
+        },
+        {
+          "number": 25,
+          "lineId": "line-18",
+          "prompt": "{{blank}}, I'm winnin'",
+          "promptZh": "即使我輸了，也是贏了",
+          "options": [
+            "Even though I lose",
+            "Even if I lose",
+            "Even when I lose"
+          ],
+          "answer": "Even when I lose"
+        },
+        {
+          "number": 26,
+          "lineId": "line-19",
+          "prompt": "'Cause I {{blank}}",
+          "promptZh": "因為我將我的全部獻給你",
+          "options": [
+            "give you all of it",
+            "give you all of me",
+            "give you everything"
+          ],
+          "answer": "give you all of me"
+        },
+        {
+          "number": 27,
+          "lineId": "line-20",
+          "prompt": "And you {{blank}}, oh-oh",
+          "promptZh": "而你將你的全部交給我，噢——噢",
+          "options": [
+            "give me all of you",
+            "Bring me all of you",
+            "Show me all of you"
+          ],
+          "answer": "give me all of you"
+        },
+        {
+          "number": 28,
+          "lineId": "line-21",
+          "prompt": "{{blank}} do I have to tell you?",
+          "promptZh": "我到底要告訴你多少次？",
+          "options": [
+            "How many ways",
+            "How many times",
+            "How many days"
+          ],
+          "answer": "How many times"
+        },
+        {
+          "number": 29,
+          "lineId": "line-22",
+          "prompt": "Even when you're {{blank}}, you're 〔第 30 題〕",
+          "promptZh": "即使你哭泣時，也依然美麗",
+          "options": [
+            "weepin'",
+            "hurtin'",
+            "crying"
+          ],
+          "answer": "crying"
+        },
+        {
+          "number": 30,
+          "lineId": "line-22",
+          "prompt": "Even when you're 〔第 29 題〕, you're {{blank}}",
+          "promptZh": "即使你哭泣時，也依然美麗",
+          "options": [
+            "beautiful too",
+            "beautiful still",
+            "lovely too"
+          ],
+          "answer": "beautiful too"
+        },
+        {
+          "number": 31,
+          "lineId": "line-23",
+          "prompt": "The world is {{blank}}, I'm around",
+          "promptZh": "世界正將你擊倒，而我就在你身旁",
+          "options": [
+            "bringing you down",
+            "beating you down",
+            "putting you down"
+          ],
+          "answer": "beating you down"
+        },
+        {
+          "number": 32,
+          "lineId": "line-24",
+          "prompt": "{{blank}}",
+          "promptZh": "陪你走過每一種情緒",
+          "options": [
+            "Through every move",
+            "In every mood",
+            "Through every mood"
+          ],
+          "answer": "Through every mood"
+        },
+        {
+          "number": 33,
+          "lineId": "line-25",
+          "prompt": "You're my {{blank}}, you're my 〔第 34 題〕",
+          "promptZh": "你是我的墮落，也是我的繆思",
+          "options": [
+            "downfall",
+            "mishap",
+            "failure"
+          ],
+          "answer": "downfall"
+        },
+        {
+          "number": 34,
+          "lineId": "line-25",
+          "prompt": "You're my 〔第 33 題〕, you're my {{blank}}",
+          "promptZh": "你是我的墮落，也是我的繆思",
+          "options": [
+            "tune",
+            "use",
+            "muse"
+          ],
+          "answer": "muse"
+        },
+        {
+          "number": 35,
+          "lineId": "line-26",
+          "prompt": "My {{blank}}, my 〔第 36 題〕",
+          "promptZh": "我最致命的干擾，我的節奏藍調",
+          "options": [
+            "best distraction",
+            "worst distraction",
+            "worst attraction"
+          ],
+          "answer": "worst distraction"
+        },
+        {
+          "number": 36,
+          "lineId": "line-26",
+          "prompt": "My 〔第 35 題〕, my {{blank}}",
+          "promptZh": "我最致命的干擾，我的節奏藍調",
+          "options": [
+            "rhythm and rhyme",
+            "rhythm and blues",
+            "rock and blues"
+          ],
+          "answer": "rhythm and blues"
+        },
+        {
+          "number": 37,
+          "lineId": "line-27",
+          "prompt": "I can't {{blank}}, it's 〔第 38 題〕",
+          "promptZh": "我無法停止歌唱，那旋律迴盪著",
+          "options": [
+            "stop singing",
+            "stop thinkin'",
+            "stop dreamin'"
+          ],
+          "answer": "stop singing"
+        },
+        {
+          "number": 38,
+          "lineId": "line-27",
+          "prompt": "I can't 〔第 37 題〕, it's {{blank}}",
+          "promptZh": "我無法停止歌唱，那旋律迴盪著",
+          "options": [
+            "bringing",
+            "singin'",
+            "ringing"
+          ],
+          "answer": "ringing"
+        },
+        {
+          "number": 39,
+          "lineId": "line-28",
+          "prompt": "In my {{blank}}",
+          "promptZh": "在我腦海中，為你而響",
+          "options": [
+            "heart for you",
+            "head for you",
+            "mind for you"
+          ],
+          "answer": "head for you"
+        },
+        {
+          "number": 40,
+          "lineId": "line-29",
+          "prompt": "My head's under water, but I'm {{blank}}",
+          "promptZh": "我的頭沉在水底，卻能安然呼吸",
+          "options": [
+            "breathin' fine",
+            "breathing fine",
+            "feelin' fine"
+          ],
+          "answer": "breathin' fine"
+        },
+        {
+          "number": 41,
+          "lineId": "line-30",
+          "prompt": "You're {{blank}} and I'm 〔第 42 題〕",
+          "promptZh": "你瘋了，而我也失去了理智",
+          "options": [
+            "mad",
+            "wild",
+            "crazy"
+          ],
+          "answer": "crazy"
+        },
+        {
+          "number": 42,
+          "lineId": "line-30",
+          "prompt": "You're 〔第 41 題〕 and I'm {{blank}}",
+          "promptZh": "你瘋了，而我也失去了理智",
+          "options": [
+            "out of my life",
+            "losing my mind",
+            "out of my mind"
+          ],
+          "answer": "out of my mind"
+        },
+        {
+          "number": 43,
+          "lineId": "line-38",
+          "prompt": "{{blank}}, I'm winnin'",
+          "promptZh": "即使我輸了，也是贏了",
+          "options": [
+            "Even when I lose",
+            "Even if I lose",
+            "Even though I lose"
+          ],
+          "answer": "Even when I lose"
+        },
+        {
+          "number": 44,
+          "lineId": "line-39",
+          "prompt": "'Cause I {{blank}}",
+          "promptZh": "因為我將我的全部獻給你",
+          "options": [
+            "give you all of it",
+            "give you all of me",
+            "give you everything"
+          ],
+          "answer": "give you all of me"
+        },
+        {
+          "number": 45,
+          "lineId": "line-40",
+          "prompt": "And you {{blank}}, oh-oh",
+          "promptZh": "而你將你的全部交給我，噢——噢",
+          "options": [
+            "give me all of it",
+            "give me all of you",
+            "give me everything"
+          ],
+          "answer": "give me all of you"
+        },
+        {
+          "number": 46,
+          "lineId": "line-42",
+          "prompt": "{{blank}}, we're both 〔第 47 題〕",
+          "promptZh": "攤牌吧，我們都亮出了紅心",
+          "options": [
+            "Cards in the middle",
+            "Cards on the board",
+            "Cards on the table"
+          ],
+          "answer": "Cards on the table"
+        },
+        {
+          "number": 47,
+          "lineId": "line-42",
+          "prompt": "〔第 46 題〕, we're both {{blank}}",
+          "promptZh": "攤牌吧，我們都亮出了紅心",
+          "options": [
+            "showing hearts",
+            "playing hearts",
+            "showing hands"
+          ],
+          "answer": "showing hearts"
+        },
+        {
+          "number": 48,
+          "lineId": "line-43",
+          "prompt": "{{blank}}, 〔第 49 題〕",
+          "promptZh": "押上一切，儘管這並不容易",
+          "options": [
+            "Gambling it all",
+            "Risking it all",
+            "Losing it all"
+          ],
+          "answer": "Risking it all"
+        },
+        {
+          "number": 49,
+          "lineId": "line-43",
+          "prompt": "〔第 48 題〕, {{blank}}",
+          "promptZh": "押上一切，儘管這並不容易",
+          "options": [
+            "even if hard",
+            "though it hurts",
+            "though it's hard"
+          ],
+          "answer": "though it's hard"
+        },
+        {
+          "number": 50,
+          "lineId": "line-52",
+          "prompt": "'Cause {{blank}}",
+          "promptZh": "因為我將我的全部獻給你",
+          "options": [
+            "I give you all of me",
+            "I give you all of it",
+            "I give you everything"
+          ],
+          "answer": "I give you all of me"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} without your {{q:2}}?"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} and you {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You've got my {{q:5}}, {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I can't {{q:7}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:8}} in that {{q:9}}?"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I'm on your {{q:10}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And I'm so {{q:11}}, {{q:12}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:13}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "My head's {{q:14}}, but I'm {{q:15}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "You're {{q:16}} and I'm {{q:17}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "'Cause all of me"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:18}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Love your {{q:19}} and all your {{q:20}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "All your {{q:21}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:22}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I'll {{q:23}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "You're my {{q:24}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:25}}, I'm winnin'"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "'Cause I {{q:26}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And you {{q:27}}, oh-oh"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:28}} do I have to tell you?"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Even when you're {{q:29}}, you're {{q:30}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "The world is {{q:31}}, I'm around"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You're my {{q:33}}, you're my {{q:34}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "My {{q:35}}, my {{q:36}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I can't {{q:37}}, it's {{q:38}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "In my {{q:39}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "My head's under water, but I'm {{q:40}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You're {{q:41}} and I'm {{q:42}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "'Cause all of me"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Loves all of you"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Love your curves and all your edges"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "All your perfect imperfections"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Give your all to me"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I'll give my all to you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "You're my end and my beginnin'"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:43}}, I'm winnin'"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "'Cause I {{q:44}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "And you {{q:45}}, oh-oh"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Give me all of you, oh"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "{{q:46}}, we're both {{q:47}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:48}}, {{q:49}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "'Cause all of me"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Loves all of you"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Love your curves and all your edges"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "All your perfect imperfections"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Give your all to me"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "I'll give my all to you"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "You're my end and my beginnin'"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Even when I lose, I'm winnin'"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "'Cause {{q:50}}"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "And you give me all of you"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "I give you all of me"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "And you give me all of you, oh-oh"
+        }
+      ]
+    }
+  ],
+  "timingSource": {
+    "method": "faster-whisper-word-alignment-with-targeted-section-review",
+    "audioSha256": "7211cdc9385d9c2c2145973d25846235ed41093d7cab44c0edff3b68dc6ceba3",
+    "duration": 307.188375
+  }
+}

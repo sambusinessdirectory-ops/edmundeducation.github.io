@@ -515,3 +515,9 @@ button { color: inherit; }
 @media(min-width:981px) and (max-width:1400px){.portal-header{flex-wrap:wrap}.student-nav{order:3;width:100%;justify-content:center}.portal-actions{margin-left:auto}}
 .word-toolbar .song-search input{border:0;box-shadow:none;background:transparent}
 .speed-menu button span{flex:1;font-size:13px;color:#796b80}
+@media(max-width:600px){
+ .player-controls{grid-template-columns:44px 48px minmax(0,1fr) 96px;gap:6px;padding:8px}
+ .player-controls button{min-width:0;font-size:13px;white-space:nowrap;padding:8px}
+ .player-controls .speed-picker [data-speed-trigger]{width:100%;justify-content:center;gap:5px}
+ .player-controls .speed-picker [data-speed-trigger]>span{display:none}
+}
