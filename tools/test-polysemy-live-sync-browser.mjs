@@ -1,5 +1,9 @@
 import assert from 'node:assert/strict';
 import {modules} from '../polysemy-lab/catalogue.mjs';
+import {pollDelay} from '../polysemy-lab/live-sync.mjs';
+assert.equal(pollDelay({practice:true,lastActivity:0,now:59999}),2000);
+assert.equal(pollDelay({practice:true,lastActivity:0,now:60000}),30000);
+assert.equal(pollDelay({practice:false,lastActivity:100000,now:100000}),60000);
 const {chromium}=await import(process.env.PROFESSIONAL_QA_PLAYWRIGHT||'playwright');
 const browser=await chromium.launch({headless:true});
 const base=process.env.POLYSEMY_QA_BASE||'http://127.0.0.1:8647';
@@ -33,15 +37,15 @@ try{
  const a=await device('student'),b=await device('second-device');
  assert.equal(await a.page.locator('[data-tutor-view]').count(),0);
  await a.page.locator('[data-mode=practice]').click();
+ await a.page.locator('.sentence').waitFor();
  await a.page.waitForFunction(()=>document.querySelector('[data-sync]').textContent==='已儲存至學生帳戶');
- // Entering practice fetches the shared run through the normal login sync.
- await b.page.evaluate(()=>window.dispatchEvent(new Event('focus')));
- await b.page.waitForTimeout(300);
+ // Entering practice must fetch the existing run even from a stale directory.
  await b.page.locator('[data-mode=practice]').click();
+ await b.page.locator('.sentence').waitFor();
  assert.equal(await b.page.locator('.sentence').innerText(),await a.page.locator('.sentence').innerText());
  async function answer(correct=true){
   const sentence=await a.page.locator('.sentence').innerText();
-  const q=modules.find(m=>m.id==='show').questions.find(q=>q.en.replace(/\s+/g,' ')===sentence.replace(/\s+/g,' '));assert.ok(q);
+  const q=modules.find(m=>m.id==='show').questions.find(q=>q.en.replaceAll('’',"'").replace(/\s+/g,' ').trim()===sentence.replaceAll('’',"'").replace(/\s+/g,' ').trim());assert.ok(q,JSON.stringify(sentence));
   const choice=correct?(q.correctOption||q.sense):q.options.find(x=>x!==(q.correctOption||q.sense));
   await a.page.locator(`[data-answer="${choice}"]`).click();return {sentence,choice};
  }
@@ -72,7 +76,7 @@ try{
  // Exercise left open but idle: one catch-up, then no two-second polling.
  await b.page.clock.install();await b.page.clock.fastForward(65000);await b.page.waitForTimeout(300);
  const count=()=>calls.filter(c=>c.label==='second-device').length;
- const idle=count();await b.page.clock.runFor(10000);await b.page.waitForTimeout(200);assert.equal(count(),idle,'idle polling slows down');
+ const idle=count();await b.page.clock.runFor(10000);await b.page.waitForTimeout(200);assert.ok(count()-idle<=1,'idle page must not keep polling every two seconds; one study-time save may still occur');
  // Leaving the module also stops fast polling and no longer accrues study time.
  await b.page.locator('[data-back-modules]').click();await b.page.waitForTimeout(300);
  const outside=count();await b.page.clock.runFor(15000);await b.page.waitForTimeout(200);assert.equal(count(),outside,'module catalogue does not poll intensively');
