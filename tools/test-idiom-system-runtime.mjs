@@ -314,6 +314,7 @@ function createFrontendHarness({ withCompass = false } = {}) {
   window.window = window;
 
   const context = {
+    queueMicrotask,
     window,
     document,
     sessionStorage,
@@ -358,7 +359,7 @@ function createFrontendHarness({ withCompass = false } = {}) {
 
   const initialisation = /\ninitialise\(\)\.catch\(\(error\) => \{[\s\S]*?\n\}\);\s*$/;
   assert.match(frontendSource.replace(/\ninstallQuestionOrder\([^\n]+\n?$/,''), initialisation, "test harness could not locate the frontend bootstrap");
-  const instrumented = "const createHorseyTrophies=()=>({sync(){},celebrate(){}});const orderQuestions=questions=>questions;\n"+frontendSource.replace(/^import \{ createHorseyTrophies \}[^\n]+\n/m,"").replace(/^import \{ installQuestionOrder, orderQuestions \}[^\n]+\n/m,'').replace(/\ninstallQuestionOrder\([^\n]+\n?$/,'').replace(initialisation, `
+  const instrumented = "const createClassroomLiveSync=()=>({publish(){}});const createHorseyTrophies=()=>({sync(){},celebrate(){}});const orderQuestions=questions=>questions;\n"+frontendSource.replace(/^import \{ createClassroomLiveSync \}[^\n]+\n/m,"").replace(/^import \{ createHorseyTrophies \}[^\n]+\n/m,"").replace(/^import \{ installQuestionOrder, orderQuestions \}[^\n]+\n/m,'').replace(/\ninstallQuestionOrder\([^\n]+\n?$/,'').replace(initialisation, `
 window.__IDIOM_RUNTIME_TEST__ = {
   state, elements, LESSON_PAGES, EXERCISE_PAGE,
   getLesson, getQuestion, createExercise, exerciseFromAttempt,

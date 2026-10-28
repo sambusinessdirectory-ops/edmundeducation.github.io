@@ -11524,9 +11524,22 @@
       };
     }
 
+    let classroomLive;
+    const classroomTickOverlays = new Map();
+    function classroomFamiliarity(deckId, stored) {
+      const overlay = classroomTickOverlays.get(`${currentUser?.id}:${deckId}`);
+      if (!overlay || overlay.deckRevision !== deckDataRevision(deckId)) return stored;
+      const merged = normalizeFamiliarity(stored);
+      for (const status of ['green','red']) for (const id of overlay[status] || []) {
+        if (Number(overlay.updatedAtByCard?.[id] || 0) <= Number(merged.updatedAtByCard?.[id] || 0)) continue;
+        merged.green=merged.green.filter(x=>x!==id);merged.red=merged.red.filter(x=>x!==id);merged[status].push(id);
+        merged.updatedAtByCard={...merged.updatedAtByCard,[id]:overlay.updatedAtByCard[id]};
+      }
+      return {...merged,deckRevision:overlay.deckRevision};
+    }
     function getDeckFamiliarity(deckId = currentDeckId, studentName = currentUser?.name) {
       if (!studentName) return { green: [], red: [] };
-      const stored = getFamiliarityStore()[familiarityKey(deckId, studentName)];
+      const stored = studentName === currentUser?.name ? classroomFamiliarity(deckId, getFamiliarityStore()[familiarityKey(deckId, studentName)]) : getFamiliarityStore()[familiarityKey(deckId, studentName)];
       const expectedRevision = deckDataRevision(deckId);
       if (expectedRevision && stored?.deckRevision !== expectedRevision) {
         return { green: [], red: [], deckRevision: expectedRevision };
@@ -16278,7 +16291,8 @@
     }
 
     function autoCountdownRed() {
-      if (!studySession || !currentCard()) return;
+      if (!studySession || studySession.classroomFollowing || !currentCard()) return;
+      queueMicrotask(() => classroomLive?.publish());
       const currentIndex = studySession.roundQueue[studySession.currentPosition];
       const key = String(currentIndex);
       if (!studySession.answers[key]) {
@@ -16393,7 +16407,7 @@
     }
 
     function updateAttemptProgress(completed = false) {
-      if (!studySession?.attemptId) return;
+      if (!studySession?.attemptId || studySession.classroomFollowing) return;
       const attempts = getAttempts();
       const target = attempts.find(attempt => attempt.id === studySession.attemptId);
       if (target) {
@@ -16429,7 +16443,7 @@
     }
 
     function saveCurrentProgress() {
-      if (!currentUser?.name || !studySession || studySession.completed) return;
+      if (!currentUser?.name || !studySession || studySession.completed || studySession.classroomFollowing) return;
       const elapsedMs = sessionElapsedMs();
       studySession.elapsedMs = elapsedMs;
       updateAttemptProgress(false);
@@ -16779,6 +16793,7 @@
     }
 
     function moveFamiliarityCard(cardIndex, targetStatus) {
+      queueMicrotask(() => classroomLive?.publish());
       if (!["green", "red"].includes(targetStatus)) return;
       setCardFamiliarity(cardIndex, targetStatus);
       if (studySession?.cards?.[cardIndex]) {
@@ -17568,6 +17583,7 @@
     }
 
     function flipCurrentCard() {
+      queueMicrotask(() => classroomLive?.publish());
       if (!studySession || !currentCard() || studySession.flipped) return;
       stopCountdownTimers();
       hideCountdownClock();
@@ -17578,6 +17594,7 @@
     }
 
     function moveStudyCard(delta) {
+      queueMicrotask(() => classroomLive?.publish());
       if (!studySession || !currentCard()) return;
       const nextPosition = studySession.currentPosition + delta;
       if (nextPosition < 0 || nextPosition >= studySession.roundQueue.length) return;
@@ -17603,7 +17620,9 @@
     }
 
     function markCard(result) {
+      queueMicrotask(() => classroomLive?.publish());
       if (studyCardSwipeAnimating || !studySession || !studySession.flipped || !currentCard()) return;
+      studySession.classroomFollowing=false;
       cancelStudyCardSwipe();
       stopNeuralSpeech({ refresh: false });
       stopCountdownTimers();
@@ -18988,6 +19007,30 @@
     if (document.documentElement.classList.contains("flashcards-reading-embed")) {
       document.querySelector("[data-embedded-back-range]")?.classList.remove("hidden");
     }
+    import('./classroom-live-sync.mjs?v=20261028-1').then(({createClassroomLiveSync}) => {
+      classroomLive=createClassroomLiveSync({
+        system:'flashcards',
+        context:()=>({owner:currentUser?.role==='student'?currentUser.id:null,token:studentSessionToken,
+          scope:currentView==='deck-view' && studySession ? currentDeckId : null,active:true}),
+        rpc:async(name,args)=>{await ensureSupabaseSession();const {data,error}=await supabaseClient.rpc(name,args);if(error)throw error;return data;},
+        read:()=>{
+          if(!studySession)return null;
+          const keys=['mode','roundNumber','roundQueue','initialQueue','initialTotal','currentPosition','answers','outcomes','outcomeTimes','cardAttemptCounts','flipped','completed','reversalMode'];
+          return {deckId:currentDeckId,deckRevision:deckDataRevision(currentDeckId),cardCount:studySession.cards.length,
+            familiarity:getDeckFamiliarity(),session:Object.fromEntries(keys.map(k=>[k,studySession[k]]))};
+        },
+        apply:snapshot=>{
+          if(snapshot.deckId!==currentDeckId||snapshot.deckRevision!==deckDataRevision(currentDeckId)||!studySession||snapshot.cardCount!==studySession.cards.length||!Array.isArray(snapshot.session?.roundQueue))return;
+          if(!snapshot.session.roundQueue.every(i=>Number.isInteger(i)&&i>=0&&i<studySession.cards.length))return;
+          // Display overlay only: never manufacture a save receipt or bypass the durable outbox.
+          classroomTickOverlays.set(`${currentUser.id}:${currentDeckId}`,{...normalizeFamiliarity(snapshot.familiarity),deckRevision:snapshot.deckRevision});
+          stopCountdownTimers();hideCountdownClock();
+          Object.assign(studySession,snapshot.session);
+          studySession.classroomFollowing=true;
+          renderStudyCard();
+        }
+      });
+    }).catch(error=>console.warn('Classroom live updates unavailable',error));
     void initialiseFlashcardPortal().catch(error => {
       console.error("Flashcard login startup failed:", error);
       window.EdmundFlashcardLoginStartup.fail("登入頁未能完成載入，請重新載入再試。請勿清除瀏覽器資料；若問題持續，請聯絡管理員。Login could not finish loading. Please reload and try again. Do not clear browser data; contact your teacher if this continues.");

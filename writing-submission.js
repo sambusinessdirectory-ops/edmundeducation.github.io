@@ -1,3 +1,5 @@
+import { createClassroomLiveSync } from './classroom-live-sync.mjs?v=20261028-1';
+let classroomLive, classroomSubmitted = null;
 import { normalizeQuestionImages, combineQuestionImages, planningText, imageGallery, imageUploader } from './writing-materials.mjs?v=20261028';
 import { TOPIC_PICKER_TRACKS, TOPIC_PICKER_LEAVES, writingTopicInPickerCategory } from './writing-topic-categories.mjs?v=20261028';
 import {mountWritingSynonyms} from './writing-synonyms.mjs?v=20261028-examples1';
@@ -3695,7 +3697,7 @@ function persistDraft() {
 
 function scheduleDraftSave() {
   window.clearTimeout(state.draftSaveTimer);
-  state.draftSaveTimer = window.setTimeout(persistDraft, 280);
+  state.draftSaveTimer = window.setTimeout(() => { persistDraft(); classroomSubmitted=null; classroomLive?.publish(); }, 350);
 }
 
 function clearStoredDraft() {
@@ -9339,6 +9341,7 @@ async function submitCurrentWriting({ source = "manual" } = {}) {
     });
     const saved = normalizeSubmission(payload?.submission || payload);
     const submittedId = saved.id || submittedDocumentId;
+    classroomSubmitted={documentId:submittedDocumentId,submissionId:submittedId}; classroomLive?.publish();
     clearStoredDraft();
     setStatus(elements.submissionStatus, source === "timer" ? "時間已到；文章已自動提交及保存。" : "文章已提交及保存。", "success");
     showToast(source === "timer" ? "時間已到，文章已自動提交。" : "文章已成功提交。", "success");
@@ -11521,3 +11524,24 @@ setInterval(refreshArticleDelivery,30000);document.addEventListener('visibilityc
 mountWritingPaperSkin(document.querySelector("[data-writing-editor-stack]"),document.querySelector("[data-writing-input]"),document.querySelector("[data-function-helper]"));
 
 async function manageAdminArticle(id,method,body){if(state.user?.role!=="admin")return;persistAdminFeedbackRecovery({force:true});const token=state.authToken;const response=await apiJson(`/v1/admin/submissions/${encodeURIComponent(id)}`,{method,...(body?{body:JSON.stringify(body)}:{})});if(token!==state.authToken||state.user?.role!=="admin")return;state.adminSubmissions=state.adminSubmissions.map(item=>item.id===id?{...item,...response.submission}:item);renderAdminSubmissions();await openAdminSubmission(id);showToast(method==="DELETE"?"已從學生帳戶隱藏；管理員仍可查看。":"文章題目已更新。","success");}
+
+classroomLive = createClassroomLiveSync({
+ system:'writing',
+ context:()=>({owner:state.user?.role==='student'?state.user.id:null,token:state.authToken,scope:['workspace','submissions'].includes(state.currentView)?'workspace':null,active:state.currentView==='workspace'}),
+ rpc:learningWordRpc,
+ read:()=>classroomSubmitted || (state.currentView==='workspace'?{documentId:state.documentId,topic:elements.topicInput.value,answer:elements.writingInput.value,brainstorm:elements.brainstormInput.value}:null),
+ apply:async snapshot=>{
+  if(!UUID_RE.test(String(snapshot.documentId||'')))return;
+  // A different nonempty draft belongs to a different writing task. Open the same saved draft to share it.
+  if(state.documentId!==snapshot.documentId&&(elements.writingInput.value.trim()||elements.brainstormInput.value.trim()||(elements.topicInput.value.trim()&&elements.topicInput.value!==snapshot.topic)))return;
+  if(snapshot.submissionId){
+   if(state.currentView==='workspace'){pauseWritingClockOutsideEditor();await openSubmissions();await openSubmission(snapshot.submissionId);}
+   return;
+  }
+  if(state.currentView!=='workspace')return;
+  state.documentId=snapshot.documentId;
+  elements.topicInput.value=String(snapshot.topic||'');elements.writingInput.value=String(snapshot.answer||'');elements.brainstormInput.value=String(snapshot.brainstorm||'');
+  state.previousWriting=elements.writingInput.value;
+  persistDraft();updateEditorMetrics();
+ }
+});

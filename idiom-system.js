@@ -1,3 +1,5 @@
+import { createClassroomLiveSync } from './classroom-live-sync.mjs?v=20261028-1';
+let classroomLive;
 import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260915-phoebe2';
 import { installQuestionOrder, orderQuestions } from "./question-order.mjs?v=20260908-loading1";
 const CONFIG = window.EDMUND_IDIOM_SYSTEM_CONFIG || {};
@@ -2579,6 +2581,7 @@ function updateCompassMcQuestion(lesson, question) {
 }
 
 async function answerCompassMcQuestion(questionId, selectedIndex) {
+  queueMicrotask(() => classroomLive?.publish());
   const lesson = getLesson();
   if (!compassFor(lesson) || !state.exercise || !Number.isInteger(selectedIndex)) return;
   const question = compassPracticeQuestions(lesson).find((item) => item.id === questionId);
@@ -2659,6 +2662,7 @@ function serializeExerciseResult(exercise = state.exercise) {
 }
 
 async function persistExercise({ keepalive = false } = {}) {
+  if (state.exercise && Object.keys(state.exercise.questionState || {}).length) classroomLive?.publish();
   if (!state.exercise || state.user?.role !== "student") return;
   const operationExercise = state.exercise;
   const operationUserId = String(state.user.id || "");
@@ -3370,6 +3374,24 @@ async function initialise() {
     openRequestedHomeworkLesson();
   }
 }
+
+// Same account + lesson shares feedback and correction/next-round state.
+classroomLive = createClassroomLiveSync({
+ system: 'idiom',
+ context: () => ({owner: state.user?.role === 'student' ? state.user.id : null, token: state.authToken,
+  scope: state.currentView === 'lesson' && state.lessonPage === EXERCISE_PAGE ? state.lessonId : null, active: true}),
+ rpc: async (name, args) => { const client = await ensureSupabaseSession(); const {data,error} = await client.rpc(name,args); if(error) throw error; return data; },
+ read: () => state.exercise ? {exercise: {...state.exercise, durationMs: 0}, selections:state.pilotSelections, bonus:[...compassBonusCorrectIds()]} : null,
+ apply: payload => {
+  const next = payload?.exercise;
+  if (!next || next.lessonId !== state.lessonId || !Array.isArray(next.correctIds) || !next.questionState || !Array.isArray(next.rounds)) return;
+  pauseExerciseClock();
+  state.exercise = {...next, durationMs: Math.max(0, state.exercise?.durationMs || 0)};
+  state.pilotSelections = payload.selections || {};
+  for (const id of payload.bonus || []) if (compassPracticeQuestions().some(q=>q.bonus&&q.id===id)) saveCompassBonusCorrect(getLesson(),id);
+  renderExercisePage(getLesson(), {preserveScroll:true});
+ }
+});
 
 initialise().catch((error) => {
   console.error("Idiom System initialisation failed", error);
