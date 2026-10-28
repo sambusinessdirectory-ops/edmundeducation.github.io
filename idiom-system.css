@@ -39,6 +39,8 @@ html {
 }
 
 body {
+  position: relative;
+  isolation: isolate;
   min-height: 100vh;
   margin: 0;
   color: var(--ink);
@@ -52,17 +54,15 @@ body {
 
 body::before {
   content: "";
+  display: none;
   position: fixed;
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  opacity: .36;
-  background-image:
-    linear-gradient(rgba(232, 74, 27, .055) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(232, 74, 27, .055) 1px, transparent 1px);
-  background-size: 42px 42px;
-  mask-image: linear-gradient(to bottom, #000, transparent 82%);
+  background: url("idiom-twilight-crossing-wallpaper-v1.webp") center / cover no-repeat;
 }
+
+body:has([data-view="login"]:not([hidden]))::before { display: block; }
 
 button,
 input { font: inherit; }
