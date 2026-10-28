@@ -194,6 +194,7 @@ jobs:
           node tools/test-schedule-homework-export.mjs
           node tools/test-schedule-homework-links.mjs
           node tools/test-schedule-system.mjs
+          node tools/test-homework-campfire.mjs
           node tools/test-schedule-clipboard.mjs
 
       - name: Validate focused Study tools release
