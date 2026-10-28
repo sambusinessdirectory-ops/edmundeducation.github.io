@@ -439,6 +439,7 @@
   }
 
   function routeStudent(route) {
+    stopMistakeNavigation();
     if (state.session?.role !== "student") return;
     const valid = pages[route] ? route : "library";
     state.activeRoute = valid;
@@ -512,6 +513,7 @@
   }
 
   async function openSong(songId, tab = "description") {
+    stopMistakeNavigation();
     const requestId=state.songOpenGeneration=(state.songOpenGeneration||0)+1;
     if (state.session?.role !== "student" || !state.session.token) {
       toast("請先登入學生帳戶。", "error");
@@ -562,6 +564,7 @@
   }
 
   function switchSongTab(tab) {
+    stopMistakeNavigation();
     const valid = ["description", "translation", "exercise", "vocabulary"].includes(tab) ? tab : "description";
     state.activeTab = valid;
     $$("[data-song-tab]").forEach(button => {
@@ -813,7 +816,6 @@
       summary.append(title, level, date, score);
       const body = document.createElement("div"); body.className = "attempt-card__detail";
       body.textContent = `${MODE_ACCENTS[attempt.mode] || attempt.mode} · 練習時間 ${formatDuration(attempt.durationSeconds)} · 正確率 ${attempt.totalQuestions ? Math.round(attempt.correctCount / attempt.totalQuestions * 100) : 0}%`;
-      if(Object.keys(attempt.results).length) body.append(mistakeReviewButton(listeningMistakes(attempt.results)));
       details.append(summary, body); list.append(details);
     });
     $("[data-attempt-empty]").hidden = Boolean(state.attempts.length);
@@ -1066,6 +1068,7 @@
   }
 
   function resetExercise() {
+    stopMistakeNavigation();
     storeLocalDraft(); clearTimeout(state.draftSaveTimer);
     stopExerciseTimers();
     state.exercise = null;
@@ -1517,8 +1520,8 @@
       button.onclick = () => { state.vocabularyIndex += delta; renderVocabulary(); holder.scrollIntoView({behavior:"smooth",block:"start"}); }; navigation.append(button);
     }
     card.append(title, meaning, usage, prompt, options, feedback); holder.append(progress, card, navigation);
-    const checked=song.vocabulary.filter(q=>song.vocabularyProgress[q.number]).map(q=>{const r=song.vocabularyProgress[q.number];return {title:q.word,selected:`${"ABCD"[r.selected]} · ${q.options[r.selected]}`,answer:`${"ABCD"[r.answer]} · ${q.options[r.answer]}`,explanation:r.optionExplanations?.[r.selected]};});
-    if(checked.length) holder.append(mistakeReviewButton(checked));
+    const checked=song.vocabulary.filter(q=>song.vocabularyProgress[q.number]).map(q=>{const r=song.vocabularyProgress[q.number];return {number:q.number,title:q.word,selected:`${"ABCD"[r.selected]} · ${q.options[r.selected]}`,answer:`${"ABCD"[r.answer]} · ${q.options[r.answer]}`,explanation:r.optionExplanations?.[r.selected]};});
+    if(checked.length) holder.append(mistakeReviewButton(checked,"vocabulary"));
     if(song.vocabulary.every(q => song.vocabularyProgress[q.number])) holder.append(completionPanel("字彙練習全部完成！"));
   }
 
@@ -1555,16 +1558,38 @@
     } catch {}
   }
 
-  function mistakeReviewButton(entries) {
+  let mistakeNavigation = null;
+  function stopMistakeNavigation() {
+    mistakeNavigation=null;document.querySelector(".mistake-navigation")?.remove();
+    document.querySelectorAll(".is-review-target").forEach(el=>el.classList.remove("is-review-target"));
+  }
+  function mistakeReviewButton(entries, type="listening") {
     const wrong=entries.filter(e=>e.selected!==e.answer);
-    const button=makeButton(`整理錯題 · ${wrong.length}`,()=>{
-      const dialog=makeDialog("我的錯題整理");
-      if(!wrong.length){const p=document.createElement("p");p.textContent="全部答對了，沒有需要整理的錯題！";dialog.append(p);}
-      wrong.forEach(e=>{const card=document.createElement("article");card.className="mistake-review";const h=document.createElement("h3");h.textContent=e.title;const chosen=document.createElement("p");chosen.className="chosen-wrong";chosen.textContent=`你的選擇：${e.selected}`;const answer=document.createElement("p");answer.className="correct-choice";answer.textContent=`正確答案：${e.answer}`;card.append(h,chosen,answer);if(e.explanation){const note=document.createElement("p");note.textContent=e.explanation;card.append(note);}dialog.append(card);});dialog.showModal();
+    const button=makeButton(`逐題查看錯誤 · ${wrong.length}`,()=>{
+      if(!wrong.length){toast("全部答對了，沒有錯題！");return;}
+      stopMistakeNavigation();mistakeNavigation={songId:state.activeSong.id,type,items:wrong,index:0};jumpToMistake();
     });button.classList.add("review-mistakes-button");return button;
   }
+  function jumpToMistake() {
+    const nav=mistakeNavigation;if(!nav || state.activeSong?.id!==nav.songId){stopMistakeNavigation();return;}
+    document.querySelectorAll(".is-review-target").forEach(el=>el.classList.remove("is-review-target"));
+    const item=nav.items[nav.index];let target;
+    if(nav.type==="vocabulary"){
+      state.vocabularyIndex=state.activeSong.vocabulary.findIndex(q=>q.number===item.number);renderVocabulary();
+      target=$(".vocabulary-option.is-wrong");
+    }else target=$(`[data-question="${item.number}"] .choice-button.is-wrong`);
+    if(!target){stopMistakeNavigation();return;}
+    target.classList.add("is-review-target");
+    document.querySelector(".mistake-navigation")?.remove();
+    const bar=document.createElement("aside");bar.className="mistake-navigation";bar.setAttribute("aria-label","錯題導覽");
+    const count=document.createElement("strong");count.setAttribute("role","status");count.textContent=`錯題 ${nav.index+1} / ${nav.items.length} · 第 ${item.number} 題`;
+    const prev=makeButton("← 上一個",()=>{nav.index--;jumpToMistake();});prev.disabled=nav.index===0;
+    const next=makeButton(nav.index===nav.items.length-1?"完成檢視 ✓":"下一個錯誤 →",()=>{if(nav.index===nav.items.length-1){stopMistakeNavigation();toast("已查看所有錯題。");}else{nav.index++;jumpToMistake();}},"primary-button");
+    bar.append(count,prev,next,makeButton("關閉 ×",stopMistakeNavigation));document.body.append(bar);next.focus({preventScroll:true});
+    target.scrollIntoView({behavior:"smooth",block:"center"});
+  }
   function listeningMistakes(results) {
-    return Object.entries(results||{}).filter(([,r])=>r&&typeof r.correct==="boolean").map(([n,r])=>({title:`第 ${n} 題`,selected:r.selected,answer:r.answer}));
+    return Object.entries(results||{}).filter(([,r])=>r&&typeof r.correct==="boolean").map(([n,r])=>({number:Number(n),title:`第 ${n} 題`,selected:r.selected,answer:r.answer}));
   }
 
   function completionPanel(message) {
@@ -1575,7 +1600,8 @@
     if(songs.length){
       const title=document.createElement("h3");title.textContent="下一首，想聽甚麼？";const view=document.createElement("div");view.className="song-discovery";const track=document.createElement("div");track.className="song-discovery-track";
       for(let copy=0;copy<2;copy++) {const group=document.createElement("div");group.className="song-discovery-group";if(copy)group.setAttribute("aria-hidden","true");
-        songs.forEach(song=>{const button=makeButton("",()=>openSong(song.id),"discovery-song");if(copy)button.tabIndex=-1;const cover=thumbnailUrl(song);if(cover){const image=new Image();image.src=cover;image.alt="";button.append(image);}const label=document.createElement("strong");label.textContent=song.title;const artist=document.createElement("span");artist.textContent=song.singer;button.append(label,artist);group.append(button);});track.append(group);
+        const tiles=Array.from({length:Math.max(8,songs.length)},(_,i)=>songs[i%songs.length]);
+        tiles.forEach((song,index)=>{const button=makeButton("",()=>openSong(song.id),"discovery-song");if(copy || index>=songs.length){button.tabIndex=-1;button.setAttribute("aria-hidden","true");}const cover=thumbnailUrl(song);if(cover){const image=new Image();image.src=cover;image.alt="";button.append(image);}const label=document.createElement("strong");label.textContent=song.title;const artist=document.createElement("span");artist.textContent=song.singer;button.append(label,artist);group.append(button);});track.append(group);
       }
       const pause=makeButton("暫停動畫",()=>{const paused=view.classList.toggle("is-paused");pause.textContent=paused?"繼續動畫":"暫停動畫";pause.setAttribute("aria-pressed",String(paused));});pause.setAttribute("aria-pressed","false");view.append(track);section.append(title,view,pause);
     }return section;
