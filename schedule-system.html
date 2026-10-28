@@ -2225,6 +2225,7 @@
 <link rel="stylesheet" href="homework-eddy.css?v=20261028-camp1">
 <script src="homework-eddy-toggle.js?v=20261028-camp1" defer></script>
 <link rel="stylesheet" href="schedule-entry-draft-guard.css?v=20261028-1">
+  <link rel="stylesheet" href="schedule-toolbar.css?v=20261028-1">
 </head>
 <body>
   <a class="skip-link" href="#main-content">跳到主要內容</a>
@@ -2462,17 +2463,29 @@
           <button class="icon-button" type="button" data-next-week aria-label="下一星期">›</button>
         </div>
 
-        <div class="toolbar-actions">
-          <button class="secondary-button" type="button" data-current-week>本星期</button>
-          <button class="secondary-button" type="button" data-copy-week-link>複製本週連結</button>
-          <button class="secondary-button" type="button" data-export-pdf aria-describedby="schedule-export-help">匯出 / 列印 PDF</button>
+        <div class="toolbar-actions schedule-tools" aria-label="本週工具">
+          <button class="secondary-button schedule-today" type="button" data-current-week>本星期</button>
+          <div class="schedule-tools__utilities">
+            <button class="secondary-button" type="button" data-copy-week-link><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 13 4-4m-6 6-1 1a4 4 0 0 1-6-6l4-4a4 4 0 0 1 6 0m2 2 1-1a4 4 0 0 1 6 6l-4 4a4 4 0 0 1-6 0"/></svg>複製本週連結</button>
+            <button class="secondary-button" type="button" data-export-pdf aria-describedby="schedule-export-help"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M4 16v5h16v-5"/></svg>匯出 / 列印 PDF</button>
+            <details class="schedule-display-settings">
+              <summary><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h7m4 0h5M4 17h3m4 0h9"/><circle cx="13" cy="7" r="2"/><circle cx="9" cy="17" r="2"/></svg>顯示設定<span class="schedule-settings-chevron" aria-hidden="true"></span></summary>
+              <div class="schedule-settings-panel">
+                <div class="schedule-settings-heading"><strong>自訂顯示內容</strong><span>依照你的習慣，整理學習畫面。</span></div>
+                <fieldset><legend>日程與版面</legend>
           <button class="subtle-toggle" type="button" data-toggle-unused aria-pressed="false">隱藏未使用格</button>
+          <button class="subtle-toggle" type="button" data-toggle-table aria-controls="schedule-table-region" aria-expanded="true">隱藏日程表</button>
+          <button class="subtle-toggle" type="button" data-toggle-reminder-email aria-controls="schedule-reminder-email" aria-pressed="false">隱藏電郵列</button>
+                </fieldset>
+                <fieldset><legend>學習與鼓勵</legend>
           <button class="subtle-toggle" type="button" data-toggle-mascots aria-controls="schedule-week-grid" aria-pressed="false">隱藏吉祥物</button>
           <button class="subtle-toggle" type="button" data-toggle-motivation aria-controls="schedule-week-grid" aria-pressed="false" hidden>隱藏動力指數</button>
           <button class="subtle-toggle" type="button" data-toggle-daily-quote aria-controls="schedule-daily-quote" aria-pressed="false">隱藏名人語錄</button>
           <button class="subtle-toggle" type="button" data-toggle-encouragement aria-controls="schedule-weekly-encouragement" aria-pressed="false">隱藏打氣說話</button>
-          <button class="subtle-toggle" type="button" data-toggle-reminder-email aria-controls="schedule-reminder-email" aria-pressed="false">隱藏電郵列</button>
-          <button class="subtle-toggle" type="button" data-toggle-table aria-controls="schedule-table-region" aria-expanded="true">隱藏日程表</button>
+                </fieldset>
+              </div>
+            </details>
+          </div>
         </div>
       </div>
 
@@ -2920,5 +2933,6 @@
   <script defer src="eddy-schedule-return-dialogue.js?v=20261026-1"></script>
   <script type="module" src="schedule-system.js?v=20261028-search-drafts1"></script>
   <script src="student-activity-log.js?v=20260910-1"></script>
+  <script defer src="schedule-toolbar.js?v=20261028-1"></script>
 </body>
 </html>
