@@ -1,0 +1,2440 @@
+{
+  "slug": "a-sky-full-of-stars",
+  "title": "A Sky Full of Stars",
+  "singer": "Coldplay",
+  "exercise_name": "A Sky Full of Stars · Listening & Vocabulary",
+  "description": "《A Sky Full Of Stars》描寫一份充滿希望、光芒與無私付出的深刻愛情。歌中的主角將心愛的人比喻為佈滿星星的天空，因為對方就像黑暗中的星光，照亮了他的人生，帶來溫暖與方向。即使愛情可能伴隨傷害與痛苦，他仍然願意毫無保留地交出自己的真心，勇敢去愛。他相信無論生活變得多麼艱難，對方的存在都能讓世界重新充滿光明。歌曲亦表達了對愛人的欣賞與珍惜，彷彿她是生命中最美麗的風景。最終，《A Sky Full Of Stars》傳達的是愛情中的希望、勇氣與奉獻：真正深刻的愛能在最黑暗的時刻，成為照亮人生的力量。",
+  "tags": [
+    "coldplay",
+    "a sky full of stars",
+    "love",
+    "hope"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "'Cause you're a sky, 'cause you're a sky full of stars",
+      "chinese": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+      "startSeconds": 13.62,
+      "endSeconds": 22.26
+    },
+    {
+      "lineId": "line-2",
+      "english": "I'm gonna give you my heart",
+      "chinese": "我要將我的心交給你",
+      "startSeconds": 23.6,
+      "endSeconds": 29.0
+    },
+    {
+      "lineId": "line-3",
+      "english": "'Cause you're a sky, 'cause you're a sky full of stars",
+      "chinese": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+      "startSeconds": 31.64,
+      "endSeconds": 37.64
+    },
+    {
+      "lineId": "line-4",
+      "english": "'Cause you light up the path",
+      "chinese": "因為你照亮了前方的路途",
+      "startSeconds": 37.64,
+      "endSeconds": 43.84
+    },
+    {
+      "lineId": "line-5",
+      "english": "I don't care, go on and tear me apart",
+      "chinese": "我不在乎，繼續將我撕碎吧",
+      "startSeconds": 46.84,
+      "endSeconds": 53.0
+    },
+    {
+      "lineId": "line-6",
+      "english": "I don't care if you do, ooh",
+      "chinese": "我不在乎你是否會這麼做，噢",
+      "startSeconds": 54.52,
+      "endSeconds": 59.08
+    },
+    {
+      "lineId": "line-7",
+      "english": "'Cause in a sky, 'cause in a sky full of stars",
+      "chinese": "因為在天空中，因為在這片佈滿星辰的天空中",
+      "startSeconds": 63.04,
+      "endSeconds": 68.22
+    },
+    {
+      "lineId": "line-8",
+      "english": "I think I saw you",
+      "chinese": "我想我看見了你",
+      "startSeconds": 68.22,
+      "endSeconds": 70.84
+    },
+    {
+      "lineId": "line-9",
+      "english": "'Cause you're a sky, 'cause you're a sky full of stars",
+      "chinese": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+      "startSeconds": 100.82,
+      "endSeconds": 106.8
+    },
+    {
+      "lineId": "line-10",
+      "english": "I wanna die in your arms",
+      "chinese": "我願在你的臂彎中長眠",
+      "startSeconds": 108.46,
+      "endSeconds": 112.7
+    },
+    {
+      "lineId": "line-11",
+      "english": "'Cause you get lighter the more it gets dark",
+      "chinese": "因為天色越暗，你就越發明亮",
+      "startSeconds": 115.28,
+      "endSeconds": 122.14
+    },
+    {
+      "lineId": "line-12",
+      "english": "I'm gonna give you my heart",
+      "chinese": "我要將我的心交給你",
+      "startSeconds": 123.62,
+      "endSeconds": 129.1
+    },
+    {
+      "lineId": "line-13",
+      "english": "I don't care, go on and tear me apart",
+      "chinese": "我不在乎，繼續將我撕碎吧",
+      "startSeconds": 130.94,
+      "endSeconds": 137.46
+    },
+    {
+      "lineId": "line-14",
+      "english": "I don't care if you do, ooh",
+      "chinese": "我不在乎你是否會這麼做，噢",
+      "startSeconds": 139.02,
+      "endSeconds": 145.42
+    },
+    {
+      "lineId": "line-15",
+      "english": "'Cause in a sky, 'cause in a sky full of stars",
+      "chinese": "因為在天空中，因為在這片佈滿星辰的天空中",
+      "startSeconds": 147.6,
+      "endSeconds": 152.74
+    },
+    {
+      "lineId": "line-16",
+      "english": "I think I see you",
+      "chinese": "我想我看見了你",
+      "startSeconds": 152.74,
+      "endSeconds": 155.52
+    },
+    {
+      "lineId": "line-17",
+      "english": "I think I see you",
+      "chinese": "我想我看見了你",
+      "startSeconds": 159.44,
+      "endSeconds": 164.62
+    },
+    {
+      "lineId": "line-18",
+      "english": "'Cause you're a sky, you're a sky full of stars",
+      "chinese": "因為你是一片天空，你是一片佈滿星辰的天空",
+      "startSeconds": 215.78,
+      "endSeconds": 221.62
+    },
+    {
+      "lineId": "line-19",
+      "english": "Such a heavenly view",
+      "chinese": "如此天堂般的美景",
+      "startSeconds": 222.0,
+      "endSeconds": 224.68
+    },
+    {
+      "lineId": "line-20",
+      "english": "You're such a heavenly view",
+      "chinese": "你是如此天堂般的美景",
+      "startSeconds": 228.0,
+      "endSeconds": 232.84
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "full of",
+      "meaning": "充滿……",
+      "usage": "形容一個地方或東西有很多某種事物。",
+      "prompt": "哪一句正確使用「full of」？",
+      "options": [
+        "My bag is full of books, so it is heavy.",
+        "My bag full of is books.",
+        "I full of to school every day.",
+        "The cat is full of at seven."
+      ],
+      "answer": 0,
+      "explanation": "正確：full of 後面接名詞，表示書包裡裝滿書。",
+      "optionExplanations": [
+        "正確：full of 後面接名詞，表示書包裡裝滿書。",
+        "錯誤：full of 的位置不對；應說 My bag is full of books.",
+        "錯誤：full of 不是「去」的意思；應說 I go to school every day.",
+        "錯誤：full of 後面不能直接接 at seven；可以說 The cat is full of energy."
+      ]
+    },
+    {
+      "number": 2,
+      "word": "gonna",
+      "meaning": "將要、打算（going to 的口語說法）",
+      "usage": "用在聊天或歌曲中，說自己接下來打算做的事；正式寫作宜用 going to。",
+      "prompt": "哪一句正確使用「gonna」？",
+      "options": [
+        "I gonna my homework after dinner.",
+        "We are gonna watch a movie tonight.",
+        "She is gonna goes home now.",
+        "My sandwich is gonna very happy."
+      ],
+      "answer": 1,
+      "explanation": "正確：be gonna 加原形動詞，表示今晚打算看電影。",
+      "optionExplanations": [
+        "錯誤：gonna 後面需要動詞；應說 I am gonna do my homework.",
+        "正確：be gonna 加原形動詞，表示今晚打算看電影。",
+        "錯誤：gonna 後面要用原形動詞 go，不是 goes。",
+        "錯誤：gonna 後面不能直接接形容詞；應說 My sandwich is going to be very big."
+      ]
+    },
+    {
+      "number": 3,
+      "word": "light up",
+      "meaning": "照亮、使變亮",
+      "usage": "燈光照亮房間或道路時使用，也可比喻讓人開心。",
+      "prompt": "哪一句正確使用「light up」？",
+      "options": [
+        "I light up my shoes with a spoon.",
+        "The small lamp lights up my room.",
+        "She light up to the bus at eight.",
+        "The dark turns light up my coffee."
+      ],
+      "answer": 1,
+      "explanation": "正確：小燈讓房間變亮。",
+      "optionExplanations": [
+        "錯誤：湯匙不能照亮鞋子；可說 I clean my shoes with a cloth.",
+        "正確：小燈讓房間變亮。",
+        "錯誤：light up 不是搭車；應說 She takes the bus at eight.",
+        "錯誤：句子結構與意思不自然；可以說 The lamp lights up the table."
+      ]
+    },
+    {
+      "number": 4,
+      "word": "I don't care",
+      "meaning": "我不在乎、我不介意",
+      "usage": "當某件事對你不重要，或你不介意某個選擇時使用；語氣有時可能顯得直接。",
+      "prompt": "哪一句正確使用「I don't care」？",
+      "options": [
+        "I don't care my bag on the chair.",
+        "I don't care to blue the sky.",
+        "You can choose the red cup or the blue cup. I don't care.",
+        "I don't care is seven o'clock."
+      ],
+      "answer": 2,
+      "explanation": "正確：兩個杯子選哪個都可以，表示不介意。",
+      "optionExplanations": [
+        "錯誤：care 不能這樣直接接物品；若要說放包包，可說 I put my bag on the chair.",
+        "錯誤：blue 不是這裡可用的動詞；可以說 I don't care if the sky is grey.",
+        "正確：兩個杯子選哪個都可以，表示不介意。",
+        "錯誤：缺少 if 或 that 等連接方式；可說 I don't care if it is late."
+      ]
+    },
+    {
+      "number": 5,
+      "word": "go on",
+      "meaning": "繼續",
+      "usage": "鼓勵別人接著說、接著做，或表示某件事持續發生。",
+      "prompt": "哪一句正確使用「go on」？",
+      "options": [
+        "Go on the window because it is cold.",
+        "I go on my pizza with cheese.",
+        "She goes on a happy yesterday.",
+        "Please go on. I want to hear the end of your story."
+      ],
+      "answer": 3,
+      "explanation": "正確：go on 表示請繼續說下去。",
+      "optionExplanations": [
+        "錯誤：這裡應使用 close the window，而不是 go on the window.",
+        "錯誤：go on 不能用來表示把起司加到披薩上；應說 I put cheese on my pizza.",
+        "錯誤：go on 後面不能這樣接形容詞和 yesterday；可說 She was happy yesterday.",
+        "正確：go on 表示請繼續說下去。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "tear apart",
+      "meaning": "撕開、撕碎；使人非常難過",
+      "usage": "可用於撕壞紙張，也可比喻讓一個人的心情很痛苦。",
+      "prompt": "哪一句正確使用「tear apart」？",
+      "options": [
+        "The child tore the old paper apart.",
+        "He tears apart the music with his ears.",
+        "I tear apart the water to drink it.",
+        "She tear apart to the library."
+      ],
+      "answer": 0,
+      "explanation": "正確：tore 是 tear 的過去式，表示把紙撕開。",
+      "optionExplanations": [
+        "正確：tore 是 tear 的過去式，表示把紙撕開。",
+        "錯誤：聽音樂不使用 tear apart；應說 He listens to music.",
+        "錯誤：水不能被「撕開」；應說 I drink the water.",
+        "錯誤：tear apart 不是前往某地；應說 She goes to the library."
+      ]
+    },
+    {
+      "number": 7,
+      "word": "in your arms",
+      "meaning": "在你的懷抱裡",
+      "usage": "形容一個人被另一個人抱住，常見於親密或安慰的情境。",
+      "prompt": "哪一句正確使用「in your arms」？",
+      "options": [
+        "My phone is in your arms at six o’clock.",
+        "We eat in your arms a big dinner.",
+        "I walk in your arms to the shop alone.",
+        "The baby is sleeping in her dad’s arms."
+      ],
+      "answer": 3,
+      "explanation": "正確：寶寶在爸爸懷裡睡覺。",
+      "optionExplanations": [
+        "錯誤：時間與情境不自然；說手機被拿著可以用 You are holding my phone.",
+        "錯誤：吃晚餐不使用 in your arms；可說 We eat dinner together.",
+        "錯誤：一個人走去商店，不適合用 in your arms；應說 I walk to the shop alone.",
+        "正確：寶寶在爸爸懷裡睡覺。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "the more..., the more...",
+      "meaning": "越……，就越……",
+      "usage": "用來說兩件事會一起改變；也常說 the more..., the better...。",
+      "prompt": "哪一句正確使用「the more..., the more...」？",
+      "options": [
+        "The more I sleep, the more my pencil is blue.",
+        "The more I practise, the better I get.",
+        "I the more study, the more English.",
+        "The more eat I, the more happy."
+      ],
+      "answer": 1,
+      "explanation": "正確：練習越多，就進步越多。",
+      "optionExplanations": [
+        "錯誤：睡眠與鉛筆顏色沒有合理的關係，無法清楚表達一起變化。",
+        "正確：練習越多，就進步越多。",
+        "錯誤：缺少完整子句；可以說 The more I study, the more I learn.",
+        "錯誤：語序不對；可以說 The more I eat, the happier I feel."
+      ]
+    },
+    {
+      "number": 9,
+      "word": "such a",
+      "meaning": "如此……的（一個）",
+      "usage": "放在形容詞加單數可數名詞之前，加強讚美或驚訝的語氣。",
+      "prompt": "哪一句正確使用「such a」？",
+      "options": [
+        "I such a go home now.",
+        "She is such a very happily.",
+        "It is such a beautiful day!",
+        "These are such a nice shoes."
+      ],
+      "answer": 2,
+      "explanation": "正確：such a 後接 beautiful day，表示今天真美好。",
+      "optionExplanations": [
+        "錯誤：such a 不能用在 go home 前；應說 I go home now.",
+        "錯誤：such a 後面需要單數可數名詞，happily 是副詞。",
+        "正確：such a 後接 beautiful day，表示今天真美好。",
+        "錯誤：shoes 是複數，要用 such nice shoes，不用 a。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "heavenly",
+      "meaning": "美好得像天堂一樣的",
+      "usage": "讚美風景、食物或聲音非常美好時使用。這個字較進階，但例句保持簡單。",
+      "prompt": "哪一句正確使用「heavenly」？",
+      "options": [
+        "The cake tastes heavenly.",
+        "I heavenly my lunch at school.",
+        "He goes heavenly to work at eight.",
+        "This heavenly is my new red bag."
+      ],
+      "answer": 0,
+      "explanation": "正確：形容蛋糕美味得像天堂一般。",
+      "optionExplanations": [
+        "正確：形容蛋糕美味得像天堂一般。",
+        "錯誤：heavenly 是形容詞，不是「吃」的動詞；應說 I eat lunch at school.",
+        "錯誤：heavenly 不用來表示去上班；應說 He goes to work at eight.",
+        "錯誤：heavenly 不能單獨當成這裡的名詞；可說 This is my beautiful new red bag."
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/a-sky-full-of-stars/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/a-sky-full-of-stars/cover.webp",
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "'Cause you're a {{blank}}, 'cause you're a 〔第 2 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "sky",
+            "star",
+            "dream"
+          ],
+          "answer": "sky"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "'Cause you're a 〔第 1 題〕, 'cause you're a {{blank}}",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "sky of stars",
+            "sky full of stars",
+            "sky with stars"
+          ],
+          "answer": "sky full of stars"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "I'm gonna give you {{blank}}",
+          "promptZh": "我要將我的心交給你",
+          "options": [
+            "my soul",
+            "my heart",
+            "my love"
+          ],
+          "answer": "my heart"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "'Cause {{blank}}, 'cause you're a sky 〔第 5 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "you are the sky",
+            "you're a star",
+            "you're a sky"
+          ],
+          "answer": "you're a sky"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "'Cause 〔第 4 題〕, 'cause you're a sky {{blank}}",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "full of stars",
+            "full of light",
+            "full of love"
+          ],
+          "answer": "full of stars"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "'Cause you {{blank}}",
+          "promptZh": "因為你照亮了前方的路途",
+          "options": [
+            "light up my way",
+            "light up the dark",
+            "light up the path"
+          ],
+          "answer": "light up the path"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "{{blank}}, go on and 〔第 8 題〕",
+          "promptZh": "我不在乎，繼續將我撕碎吧",
+          "options": [
+            "I don't care",
+            "I don't mind",
+            "I don't know"
+          ],
+          "answer": "I don't care"
+        },
+        {
+          "number": 8,
+          "lineId": "line-5",
+          "prompt": "〔第 7 題〕, go on and {{blank}}",
+          "promptZh": "我不在乎，繼續將我撕碎吧",
+          "options": [
+            "break me apart",
+            "tear me apart",
+            "tear me down"
+          ],
+          "answer": "tear me apart"
+        },
+        {
+          "number": 9,
+          "lineId": "line-6",
+          "prompt": "I don't care {{blank}}, ooh",
+          "promptZh": "我不在乎你是否會這麼做，噢",
+          "options": [
+            "if you do",
+            "if you dare",
+            "what you do"
+          ],
+          "answer": "if you do"
+        },
+        {
+          "number": 10,
+          "lineId": "line-7",
+          "prompt": "'Cause {{blank}}, 'cause in a sky 〔第 11 題〕",
+          "promptZh": "因為在天空中，因為在這片佈滿星辰的天空中",
+          "options": [
+            "in the stars",
+            "in the sky",
+            "in a sky"
+          ],
+          "answer": "in a sky"
+        },
+        {
+          "number": 11,
+          "lineId": "line-7",
+          "prompt": "'Cause 〔第 10 題〕, 'cause in a sky {{blank}}",
+          "promptZh": "因為在天空中，因為在這片佈滿星辰的天空中",
+          "options": [
+            "full of light",
+            "full of stars",
+            "full of love"
+          ],
+          "answer": "full of stars"
+        },
+        {
+          "number": 12,
+          "lineId": "line-8",
+          "prompt": "I think I {{blank}}",
+          "promptZh": "我想我看見了你",
+          "options": [
+            "see you",
+            "saw you",
+            "found you"
+          ],
+          "answer": "saw you"
+        },
+        {
+          "number": 13,
+          "lineId": "line-10",
+          "prompt": "I wanna {{blank}}",
+          "promptZh": "我願在你的臂彎中長眠",
+          "options": [
+            "stay in your arms",
+            "live in your arms",
+            "die in your arms"
+          ],
+          "answer": "die in your arms"
+        },
+        {
+          "number": 14,
+          "lineId": "line-11",
+          "prompt": "'Cause you get lighter {{blank}}",
+          "promptZh": "因為天色越暗，你就越發明亮",
+          "options": [
+            "the more it gets dark",
+            "the more it turns dark",
+            "the more it gets cold"
+          ],
+          "answer": "the more it gets dark"
+        },
+        {
+          "number": 15,
+          "lineId": "line-12",
+          "prompt": "I'm gonna {{blank}}",
+          "promptZh": "我要將我的心交給你",
+          "options": [
+            "give you my love",
+            "give you my heart",
+            "give you my soul"
+          ],
+          "answer": "give you my heart"
+        },
+        {
+          "number": 16,
+          "lineId": "line-14",
+          "prompt": "I don't care {{blank}}, ooh",
+          "promptZh": "我不在乎你是否會這麼做，噢",
+          "options": [
+            "if you do",
+            "if you dare",
+            "what you do"
+          ],
+          "answer": "if you do"
+        },
+        {
+          "number": 17,
+          "lineId": "line-16",
+          "prompt": "I think I {{blank}}",
+          "promptZh": "我想我看見了你",
+          "options": [
+            "found you",
+            "saw you",
+            "see you"
+          ],
+          "answer": "see you"
+        },
+        {
+          "number": 18,
+          "lineId": "line-17",
+          "prompt": "I think I {{blank}}",
+          "promptZh": "我想我看見了你",
+          "options": [
+            "found you",
+            "see you",
+            "saw you"
+          ],
+          "answer": "see you"
+        },
+        {
+          "number": 19,
+          "lineId": "line-19",
+          "prompt": "Such a {{blank}}",
+          "promptZh": "如此天堂般的美景",
+          "options": [
+            "heavenly view",
+            "beautiful view",
+            "wonderful view"
+          ],
+          "answer": "heavenly view"
+        },
+        {
+          "number": 20,
+          "lineId": "line-20",
+          "prompt": "You're such a {{blank}}",
+          "promptZh": "你是如此天堂般的美景",
+          "options": [
+            "wonderful view",
+            "beautiful view",
+            "heavenly view"
+          ],
+          "answer": "heavenly view"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "'Cause you're a {{q:1}}, 'cause you're a {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I'm gonna give you {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "'Cause {{q:4}}, 'cause you're a sky {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "'Cause you {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}}, go on and {{q:8}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I don't care {{q:9}}, ooh"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "'Cause {{q:10}}, 'cause in a sky {{q:11}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I think I {{q:12}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "'Cause you're a sky, 'cause you're a sky full of stars"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I wanna {{q:13}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "'Cause you get lighter {{q:14}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I'm gonna {{q:15}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I don't care, go on and tear me apart"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I don't care {{q:16}}, ooh"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "'Cause in a sky, 'cause in a sky full of stars"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I think I {{q:17}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I think I {{q:18}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "'Cause you're a sky, you're a sky full of stars"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Such a {{q:19}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "You're such a {{q:20}}"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "'Cause {{blank}} 〔第 2 題〕, 'cause you're a 〔第 3 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "you are a",
+            "you're a",
+            "you're the"
+          ],
+          "answer": "you're a"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "'Cause 〔第 1 題〕 {{blank}}, 'cause you're a 〔第 3 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "sky",
+            "star",
+            "dream"
+          ],
+          "answer": "sky"
+        },
+        {
+          "number": 3,
+          "lineId": "line-1",
+          "prompt": "'Cause 〔第 1 題〕 〔第 2 題〕, 'cause you're a {{blank}}",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "sky with stars",
+            "sky of stars",
+            "sky full of stars"
+          ],
+          "answer": "sky full of stars"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "I'm gonna give you {{blank}}",
+          "promptZh": "我要將我的心交給你",
+          "options": [
+            "my heart",
+            "my love",
+            "my soul"
+          ],
+          "answer": "my heart"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "'Cause {{blank}}, 〔第 6 題〕 〔第 7 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "you're a star",
+            "you're a sky",
+            "you are the sky"
+          ],
+          "answer": "you're a sky"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "'Cause 〔第 5 題〕, {{blank}} 〔第 7 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "'Cause you are a sky",
+            "Because you're a sky",
+            "'cause you're a sky"
+          ],
+          "answer": "'cause you're a sky"
+        },
+        {
+          "number": 7,
+          "lineId": "line-3",
+          "prompt": "'Cause 〔第 5 題〕, 〔第 6 題〕 {{blank}}",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "full of light",
+            "full of stars",
+            "full of love"
+          ],
+          "answer": "full of stars"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "'Cause you {{blank}}",
+          "promptZh": "因為你照亮了前方的路途",
+          "options": [
+            "light up the path",
+            "light up my way",
+            "light up the dark"
+          ],
+          "answer": "light up the path"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "{{blank}}, 〔第 10 題〕 and 〔第 11 題〕",
+          "promptZh": "我不在乎，繼續將我撕碎吧",
+          "options": [
+            "I don't mind",
+            "I don't care",
+            "I don't know"
+          ],
+          "answer": "I don't care"
+        },
+        {
+          "number": 10,
+          "lineId": "line-5",
+          "prompt": "〔第 9 題〕, {{blank}} and 〔第 11 題〕",
+          "promptZh": "我不在乎，繼續將我撕碎吧",
+          "options": [
+            "go on",
+            "come on",
+            "hold on"
+          ],
+          "answer": "go on"
+        },
+        {
+          "number": 11,
+          "lineId": "line-5",
+          "prompt": "〔第 9 題〕, 〔第 10 題〕 and {{blank}}",
+          "promptZh": "我不在乎，繼續將我撕碎吧",
+          "options": [
+            "tear me down",
+            "break me apart",
+            "tear me apart"
+          ],
+          "answer": "tear me apart"
+        },
+        {
+          "number": 12,
+          "lineId": "line-6",
+          "prompt": "{{blank}} 〔第 13 題〕, ooh",
+          "promptZh": "我不在乎你是否會這麼做，噢",
+          "options": [
+            "I don't care",
+            "I don't mind",
+            "I don't know"
+          ],
+          "answer": "I don't care"
+        },
+        {
+          "number": 13,
+          "lineId": "line-6",
+          "prompt": "〔第 12 題〕 {{blank}}, ooh",
+          "promptZh": "我不在乎你是否會這麼做，噢",
+          "options": [
+            "what you do",
+            "if you dare",
+            "if you do"
+          ],
+          "answer": "if you do"
+        },
+        {
+          "number": 14,
+          "lineId": "line-7",
+          "prompt": "'Cause {{blank}}, 〔第 15 題〕 〔第 16 題〕",
+          "promptZh": "因為在天空中，因為在這片佈滿星辰的天空中",
+          "options": [
+            "in the sky",
+            "in a sky",
+            "in the stars"
+          ],
+          "answer": "in a sky"
+        },
+        {
+          "number": 15,
+          "lineId": "line-7",
+          "prompt": "'Cause 〔第 14 題〕, {{blank}} 〔第 16 題〕",
+          "promptZh": "因為在天空中，因為在這片佈滿星辰的天空中",
+          "options": [
+            "Because in a sky",
+            "'Cause in the sky",
+            "'cause in a sky"
+          ],
+          "answer": "'cause in a sky"
+        },
+        {
+          "number": 16,
+          "lineId": "line-7",
+          "prompt": "'Cause 〔第 14 題〕, 〔第 15 題〕 {{blank}}",
+          "promptZh": "因為在天空中，因為在這片佈滿星辰的天空中",
+          "options": [
+            "full of light",
+            "full of stars",
+            "full of love"
+          ],
+          "answer": "full of stars"
+        },
+        {
+          "number": 17,
+          "lineId": "line-8",
+          "prompt": "I think I {{blank}}",
+          "promptZh": "我想我看見了你",
+          "options": [
+            "saw you",
+            "see you",
+            "found you"
+          ],
+          "answer": "saw you"
+        },
+        {
+          "number": 18,
+          "lineId": "line-9",
+          "prompt": "{{blank}}, 'cause you're a 〔第 19 題〕 〔第 20 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "'Cause you are a sky",
+            "Because you're a sky",
+            "'Cause you're a sky"
+          ],
+          "answer": "'Cause you're a sky"
+        },
+        {
+          "number": 19,
+          "lineId": "line-9",
+          "prompt": "〔第 18 題〕, 'cause you're a {{blank}} 〔第 20 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "sky full",
+            "filled",
+            "made"
+          ],
+          "answer": "sky full"
+        },
+        {
+          "number": 20,
+          "lineId": "line-9",
+          "prompt": "〔第 18 題〕, 'cause you're a 〔第 19 題〕 {{blank}}",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "of light",
+            "of stars",
+            "of love"
+          ],
+          "answer": "of stars"
+        },
+        {
+          "number": 21,
+          "lineId": "line-10",
+          "prompt": "I wanna {{blank}}",
+          "promptZh": "我願在你的臂彎中長眠",
+          "options": [
+            "live in your arms",
+            "stay in your arms",
+            "die in your arms"
+          ],
+          "answer": "die in your arms"
+        },
+        {
+          "number": 22,
+          "lineId": "line-11",
+          "prompt": "'Cause {{blank}} 〔第 23 題〕 〔第 24 題〕",
+          "promptZh": "因為天色越暗，你就越發明亮",
+          "options": [
+            "you go",
+            "you get",
+            "you grow"
+          ],
+          "answer": "you get"
+        },
+        {
+          "number": 23,
+          "lineId": "line-11",
+          "prompt": "'Cause 〔第 22 題〕 {{blank}} 〔第 24 題〕",
+          "promptZh": "因為天色越暗，你就越發明亮",
+          "options": [
+            "lighter",
+            "brighter",
+            "higher"
+          ],
+          "answer": "lighter"
+        },
+        {
+          "number": 24,
+          "lineId": "line-11",
+          "prompt": "'Cause 〔第 22 題〕 〔第 23 題〕 {{blank}}",
+          "promptZh": "因為天色越暗，你就越發明亮",
+          "options": [
+            "the more it turns dark",
+            "the more it gets cold",
+            "the more it gets dark"
+          ],
+          "answer": "the more it gets dark"
+        },
+        {
+          "number": 25,
+          "lineId": "line-12",
+          "prompt": "I'm gonna {{blank}}",
+          "promptZh": "我要將我的心交給你",
+          "options": [
+            "give you my heart",
+            "give you my love",
+            "give you my soul"
+          ],
+          "answer": "give you my heart"
+        },
+        {
+          "number": 26,
+          "lineId": "line-13",
+          "prompt": "I don't care, go on and tear me {{blank}}",
+          "promptZh": "我不在乎，繼續將我撕碎吧",
+          "options": [
+            "apart now",
+            "apart",
+            "down"
+          ],
+          "answer": "apart"
+        },
+        {
+          "number": 27,
+          "lineId": "line-14",
+          "prompt": "I don't care {{blank}}, ooh",
+          "promptZh": "我不在乎你是否會這麼做，噢",
+          "options": [
+            "if you do",
+            "if you dare",
+            "what you do"
+          ],
+          "answer": "if you do"
+        },
+        {
+          "number": 28,
+          "lineId": "line-15",
+          "prompt": "'Cause in a sky, 'cause in a sky {{blank}}",
+          "promptZh": "因為在天空中，因為在這片佈滿星辰的天空中",
+          "options": [
+            "full of light",
+            "full of stars",
+            "full of love"
+          ],
+          "answer": "full of stars"
+        },
+        {
+          "number": 29,
+          "lineId": "line-16",
+          "prompt": "I think I {{blank}}",
+          "promptZh": "我想我看見了你",
+          "options": [
+            "found you",
+            "saw you",
+            "see you"
+          ],
+          "answer": "see you"
+        },
+        {
+          "number": 30,
+          "lineId": "line-17",
+          "prompt": "I think I {{blank}}",
+          "promptZh": "我想我看見了你",
+          "options": [
+            "saw you",
+            "see you",
+            "found you"
+          ],
+          "answer": "see you"
+        },
+        {
+          "number": 31,
+          "lineId": "line-19",
+          "prompt": "Such a {{blank}}",
+          "promptZh": "如此天堂般的美景",
+          "options": [
+            "heavenly view",
+            "beautiful view",
+            "wonderful view"
+          ],
+          "answer": "heavenly view"
+        },
+        {
+          "number": 32,
+          "lineId": "line-20",
+          "prompt": "You're such a {{blank}}",
+          "promptZh": "你是如此天堂般的美景",
+          "options": [
+            "wonderful view",
+            "beautiful view",
+            "heavenly view"
+          ],
+          "answer": "heavenly view"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "'Cause {{q:1}} {{q:2}}, 'cause you're a {{q:3}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I'm gonna give you {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "'Cause {{q:5}}, {{q:6}} {{q:7}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "'Cause you {{q:8}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:9}}, {{q:10}} and {{q:11}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:12}} {{q:13}}, ooh"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "'Cause {{q:14}}, {{q:15}} {{q:16}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I think I {{q:17}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:18}}, 'cause you're a {{q:19}} {{q:20}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I wanna {{q:21}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "'Cause {{q:22}} {{q:23}} {{q:24}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I'm gonna {{q:25}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I don't care, go on and tear me {{q:26}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I don't care {{q:27}}, ooh"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "'Cause in a sky, 'cause in a sky {{q:28}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I think I {{q:29}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I think I {{q:30}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "'Cause you're a sky, you're a sky full of stars"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Such a {{q:31}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "You're such a {{q:32}}"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "'Cause {{blank}} 〔第 2 題〕, 'cause you're a 〔第 3 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "you're a",
+            "you are a",
+            "you're the"
+          ],
+          "answer": "you're a"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "'Cause 〔第 1 題〕 {{blank}}, 'cause you're a 〔第 3 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "star",
+            "sky",
+            "dream"
+          ],
+          "answer": "sky"
+        },
+        {
+          "number": 3,
+          "lineId": "line-1",
+          "prompt": "'Cause 〔第 1 題〕 〔第 2 題〕, 'cause you're a {{blank}}",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "sky full of stars",
+            "sky of stars",
+            "sky with stars"
+          ],
+          "answer": "sky full of stars"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "{{blank}} 〔第 5 題〕 give you 〔第 6 題〕",
+          "promptZh": "我要將我的心交給你",
+          "options": [
+            "I've",
+            "I'd",
+            "I'm"
+          ],
+          "answer": "I'm"
+        },
+        {
+          "number": 5,
+          "lineId": "line-2",
+          "prompt": "〔第 4 題〕 {{blank}} give you 〔第 6 題〕",
+          "promptZh": "我要將我的心交給你",
+          "options": [
+            "going to",
+            "gonna",
+            "will"
+          ],
+          "answer": "gonna"
+        },
+        {
+          "number": 6,
+          "lineId": "line-2",
+          "prompt": "〔第 4 題〕 〔第 5 題〕 give you {{blank}}",
+          "promptZh": "我要將我的心交給你",
+          "options": [
+            "my heart",
+            "my love",
+            "my soul"
+          ],
+          "answer": "my heart"
+        },
+        {
+          "number": 7,
+          "lineId": "line-3",
+          "prompt": "'Cause {{blank}}, 〔第 8 題〕 〔第 9 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "you are the sky",
+            "you're a star",
+            "you're a sky"
+          ],
+          "answer": "you're a sky"
+        },
+        {
+          "number": 8,
+          "lineId": "line-3",
+          "prompt": "'Cause 〔第 7 題〕, {{blank}} 〔第 9 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "'cause you're a sky",
+            "Because you're a sky",
+            "'Cause you are a sky"
+          ],
+          "answer": "'cause you're a sky"
+        },
+        {
+          "number": 9,
+          "lineId": "line-3",
+          "prompt": "'Cause 〔第 7 題〕, 〔第 8 題〕 {{blank}}",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "full of love",
+            "full of stars",
+            "full of light"
+          ],
+          "answer": "full of stars"
+        },
+        {
+          "number": 10,
+          "lineId": "line-4",
+          "prompt": "'Cause you {{blank}}",
+          "promptZh": "因為你照亮了前方的路途",
+          "options": [
+            "light up the dark",
+            "light up my way",
+            "light up the path"
+          ],
+          "answer": "light up the path"
+        },
+        {
+          "number": 11,
+          "lineId": "line-5",
+          "prompt": "{{blank}}, 〔第 12 題〕 and 〔第 13 題〕",
+          "promptZh": "我不在乎，繼續將我撕碎吧",
+          "options": [
+            "I don't mind",
+            "I don't care",
+            "I don't know"
+          ],
+          "answer": "I don't care"
+        },
+        {
+          "number": 12,
+          "lineId": "line-5",
+          "prompt": "〔第 11 題〕, {{blank}} and 〔第 13 題〕",
+          "promptZh": "我不在乎，繼續將我撕碎吧",
+          "options": [
+            "go on",
+            "come on",
+            "hold on"
+          ],
+          "answer": "go on"
+        },
+        {
+          "number": 13,
+          "lineId": "line-5",
+          "prompt": "〔第 11 題〕, 〔第 12 題〕 and {{blank}}",
+          "promptZh": "我不在乎，繼續將我撕碎吧",
+          "options": [
+            "tear me down",
+            "break me apart",
+            "tear me apart"
+          ],
+          "answer": "tear me apart"
+        },
+        {
+          "number": 14,
+          "lineId": "line-6",
+          "prompt": "{{blank}} 〔第 15 題〕, ooh",
+          "promptZh": "我不在乎你是否會這麼做，噢",
+          "options": [
+            "I don't care",
+            "I don't mind",
+            "I don't know"
+          ],
+          "answer": "I don't care"
+        },
+        {
+          "number": 15,
+          "lineId": "line-6",
+          "prompt": "〔第 14 題〕 {{blank}}, ooh",
+          "promptZh": "我不在乎你是否會這麼做，噢",
+          "options": [
+            "if you dare",
+            "what you do",
+            "if you do"
+          ],
+          "answer": "if you do"
+        },
+        {
+          "number": 16,
+          "lineId": "line-7",
+          "prompt": "'Cause {{blank}}, 〔第 17 題〕 〔第 18 題〕",
+          "promptZh": "因為在天空中，因為在這片佈滿星辰的天空中",
+          "options": [
+            "in the sky",
+            "in a sky",
+            "in the stars"
+          ],
+          "answer": "in a sky"
+        },
+        {
+          "number": 17,
+          "lineId": "line-7",
+          "prompt": "'Cause 〔第 16 題〕, {{blank}} 〔第 18 題〕",
+          "promptZh": "因為在天空中，因為在這片佈滿星辰的天空中",
+          "options": [
+            "'Cause in the sky",
+            "Because in a sky",
+            "'cause in a sky"
+          ],
+          "answer": "'cause in a sky"
+        },
+        {
+          "number": 18,
+          "lineId": "line-7",
+          "prompt": "'Cause 〔第 16 題〕, 〔第 17 題〕 {{blank}}",
+          "promptZh": "因為在天空中，因為在這片佈滿星辰的天空中",
+          "options": [
+            "full of stars",
+            "full of light",
+            "full of love"
+          ],
+          "answer": "full of stars"
+        },
+        {
+          "number": 19,
+          "lineId": "line-8",
+          "prompt": "I {{blank}} I 〔第 20 題〕",
+          "promptZh": "我想我看見了你",
+          "options": [
+            "thought",
+            "think",
+            "knew"
+          ],
+          "answer": "think"
+        },
+        {
+          "number": 20,
+          "lineId": "line-8",
+          "prompt": "I 〔第 19 題〕 I {{blank}}",
+          "promptZh": "我想我看見了你",
+          "options": [
+            "saw you",
+            "see you",
+            "found you"
+          ],
+          "answer": "saw you"
+        },
+        {
+          "number": 21,
+          "lineId": "line-9",
+          "prompt": "{{blank}}, 'cause you're a 〔第 22 題〕 〔第 23 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "'Cause you are a sky",
+            "Because you're a sky",
+            "'Cause you're a sky"
+          ],
+          "answer": "'Cause you're a sky"
+        },
+        {
+          "number": 22,
+          "lineId": "line-9",
+          "prompt": "〔第 21 題〕, 'cause you're a {{blank}} 〔第 23 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "filled",
+            "sky full",
+            "made"
+          ],
+          "answer": "sky full"
+        },
+        {
+          "number": 23,
+          "lineId": "line-9",
+          "prompt": "〔第 21 題〕, 'cause you're a 〔第 22 題〕 {{blank}}",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "of stars",
+            "of light",
+            "of love"
+          ],
+          "answer": "of stars"
+        },
+        {
+          "number": 24,
+          "lineId": "line-10",
+          "prompt": "I {{blank}} 〔第 25 題〕",
+          "promptZh": "我願在你的臂彎中長眠",
+          "options": [
+            "want to",
+            "need to",
+            "wanna"
+          ],
+          "answer": "wanna"
+        },
+        {
+          "number": 25,
+          "lineId": "line-10",
+          "prompt": "I 〔第 24 題〕 {{blank}}",
+          "promptZh": "我願在你的臂彎中長眠",
+          "options": [
+            "live in your arms",
+            "die in your arms",
+            "stay in your arms"
+          ],
+          "answer": "die in your arms"
+        },
+        {
+          "number": 26,
+          "lineId": "line-11",
+          "prompt": "'Cause {{blank}} 〔第 27 題〕 〔第 28 題〕",
+          "promptZh": "因為天色越暗，你就越發明亮",
+          "options": [
+            "you get",
+            "you go",
+            "you grow"
+          ],
+          "answer": "you get"
+        },
+        {
+          "number": 27,
+          "lineId": "line-11",
+          "prompt": "'Cause 〔第 26 題〕 {{blank}} 〔第 28 題〕",
+          "promptZh": "因為天色越暗，你就越發明亮",
+          "options": [
+            "brighter",
+            "lighter",
+            "higher"
+          ],
+          "answer": "lighter"
+        },
+        {
+          "number": 28,
+          "lineId": "line-11",
+          "prompt": "'Cause 〔第 26 題〕 〔第 27 題〕 {{blank}}",
+          "promptZh": "因為天色越暗，你就越發明亮",
+          "options": [
+            "the more it gets cold",
+            "the more it turns dark",
+            "the more it gets dark"
+          ],
+          "answer": "the more it gets dark"
+        },
+        {
+          "number": 29,
+          "lineId": "line-12",
+          "prompt": "I'm gonna {{blank}}",
+          "promptZh": "我要將我的心交給你",
+          "options": [
+            "give you my soul",
+            "give you my love",
+            "give you my heart"
+          ],
+          "answer": "give you my heart"
+        },
+        {
+          "number": 30,
+          "lineId": "line-13",
+          "prompt": "{{blank}}, go on and tear me 〔第 31 題〕",
+          "promptZh": "我不在乎，繼續將我撕碎吧",
+          "options": [
+            "I don't care",
+            "I do not dare",
+            "I never care"
+          ],
+          "answer": "I don't care"
+        },
+        {
+          "number": 31,
+          "lineId": "line-13",
+          "prompt": "〔第 30 題〕, go on and tear me {{blank}}",
+          "promptZh": "我不在乎，繼續將我撕碎吧",
+          "options": [
+            "apart now",
+            "apart",
+            "down"
+          ],
+          "answer": "apart"
+        },
+        {
+          "number": 32,
+          "lineId": "line-14",
+          "prompt": "I don't care {{blank}}, ooh",
+          "promptZh": "我不在乎你是否會這麼做，噢",
+          "options": [
+            "if you do",
+            "if you dare",
+            "what you do"
+          ],
+          "answer": "if you do"
+        },
+        {
+          "number": 33,
+          "lineId": "line-15",
+          "prompt": "'Cause in a sky, 'cause in a sky {{blank}}",
+          "promptZh": "因為在天空中，因為在這片佈滿星辰的天空中",
+          "options": [
+            "full of light",
+            "full of stars",
+            "full of love"
+          ],
+          "answer": "full of stars"
+        },
+        {
+          "number": 34,
+          "lineId": "line-16",
+          "prompt": "I {{blank}} I 〔第 35 題〕",
+          "promptZh": "我想我看見了你",
+          "options": [
+            "knew",
+            "thought",
+            "think"
+          ],
+          "answer": "think"
+        },
+        {
+          "number": 35,
+          "lineId": "line-16",
+          "prompt": "I 〔第 34 題〕 I {{blank}}",
+          "promptZh": "我想我看見了你",
+          "options": [
+            "saw you",
+            "see you",
+            "found you"
+          ],
+          "answer": "see you"
+        },
+        {
+          "number": 36,
+          "lineId": "line-17",
+          "prompt": "{{blank}} 〔第 37 題〕",
+          "promptZh": "我想我看見了你",
+          "options": [
+            "I know I",
+            "I feel I",
+            "I think I"
+          ],
+          "answer": "I think I"
+        },
+        {
+          "number": 37,
+          "lineId": "line-17",
+          "prompt": "〔第 36 題〕 {{blank}}",
+          "promptZh": "我想我看見了你",
+          "options": [
+            "see you",
+            "saw you",
+            "found you"
+          ],
+          "answer": "see you"
+        },
+        {
+          "number": 38,
+          "lineId": "line-18",
+          "prompt": "'Cause you're a sky, {{blank}}",
+          "promptZh": "因為你是一片天空，你是一片佈滿星辰的天空",
+          "options": [
+            "you're a sky of stars",
+            "you're a sky with stars",
+            "you're a sky full of stars"
+          ],
+          "answer": "you're a sky full of stars"
+        },
+        {
+          "number": 39,
+          "lineId": "line-19",
+          "prompt": "Such a {{blank}}",
+          "promptZh": "如此天堂般的美景",
+          "options": [
+            "beautiful view",
+            "heavenly view",
+            "wonderful view"
+          ],
+          "answer": "heavenly view"
+        },
+        {
+          "number": 40,
+          "lineId": "line-20",
+          "prompt": "You're such a {{blank}}",
+          "promptZh": "你是如此天堂般的美景",
+          "options": [
+            "heavenly view",
+            "beautiful view",
+            "wonderful view"
+          ],
+          "answer": "heavenly view"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "'Cause {{q:1}} {{q:2}}, 'cause you're a {{q:3}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:4}} {{q:5}} give you {{q:6}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "'Cause {{q:7}}, {{q:8}} {{q:9}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "'Cause you {{q:10}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:11}}, {{q:12}} and {{q:13}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:14}} {{q:15}}, ooh"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "'Cause {{q:16}}, {{q:17}} {{q:18}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I {{q:19}} I {{q:20}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:21}}, 'cause you're a {{q:22}} {{q:23}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I {{q:24}} {{q:25}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "'Cause {{q:26}} {{q:27}} {{q:28}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I'm gonna {{q:29}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:30}}, go on and tear me {{q:31}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I don't care {{q:32}}, ooh"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "'Cause in a sky, 'cause in a sky {{q:33}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I {{q:34}} I {{q:35}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:36}} {{q:37}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "'Cause you're a sky, {{q:38}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Such a {{q:39}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "You're such a {{q:40}}"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 〔第 2 題〕 〔第 3 題〕, 'cause you're a 〔第 4 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "When",
+            "'Cause",
+            "Though"
+          ],
+          "answer": "'Cause"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 {{blank}} 〔第 3 題〕, 'cause you're a 〔第 4 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "you're a",
+            "you are a",
+            "you're the"
+          ],
+          "answer": "you're a"
+        },
+        {
+          "number": 3,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 〔第 2 題〕 {{blank}}, 'cause you're a 〔第 4 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "dream",
+            "star",
+            "sky"
+          ],
+          "answer": "sky"
+        },
+        {
+          "number": 4,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 〔第 2 題〕 〔第 3 題〕, 'cause you're a {{blank}}",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "sky full of stars",
+            "sky of stars",
+            "sky with stars"
+          ],
+          "answer": "sky full of stars"
+        },
+        {
+          "number": 5,
+          "lineId": "line-2",
+          "prompt": "{{blank}} 〔第 6 題〕 give you 〔第 7 題〕",
+          "promptZh": "我要將我的心交給你",
+          "options": [
+            "I'd",
+            "I'm",
+            "I've"
+          ],
+          "answer": "I'm"
+        },
+        {
+          "number": 6,
+          "lineId": "line-2",
+          "prompt": "〔第 5 題〕 {{blank}} give you 〔第 7 題〕",
+          "promptZh": "我要將我的心交給你",
+          "options": [
+            "going to",
+            "gonna",
+            "will"
+          ],
+          "answer": "gonna"
+        },
+        {
+          "number": 7,
+          "lineId": "line-2",
+          "prompt": "〔第 5 題〕 〔第 6 題〕 give you {{blank}}",
+          "promptZh": "我要將我的心交給你",
+          "options": [
+            "my heart",
+            "my love",
+            "my soul"
+          ],
+          "answer": "my heart"
+        },
+        {
+          "number": 8,
+          "lineId": "line-3",
+          "prompt": "'Cause {{blank}}, 〔第 9 題〕 〔第 10 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "you are the sky",
+            "you're a star",
+            "you're a sky"
+          ],
+          "answer": "you're a sky"
+        },
+        {
+          "number": 9,
+          "lineId": "line-3",
+          "prompt": "'Cause 〔第 8 題〕, {{blank}} 〔第 10 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "'cause you're a sky",
+            "Because you're a sky",
+            "'Cause you are a sky"
+          ],
+          "answer": "'cause you're a sky"
+        },
+        {
+          "number": 10,
+          "lineId": "line-3",
+          "prompt": "'Cause 〔第 8 題〕, 〔第 9 題〕 {{blank}}",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "full of light",
+            "full of stars",
+            "full of love"
+          ],
+          "answer": "full of stars"
+        },
+        {
+          "number": 11,
+          "lineId": "line-4",
+          "prompt": "'Cause you {{blank}}",
+          "promptZh": "因為你照亮了前方的路途",
+          "options": [
+            "light up the dark",
+            "light up my way",
+            "light up the path"
+          ],
+          "answer": "light up the path"
+        },
+        {
+          "number": 12,
+          "lineId": "line-5",
+          "prompt": "{{blank}}, 〔第 13 題〕 and 〔第 14 題〕",
+          "promptZh": "我不在乎，繼續將我撕碎吧",
+          "options": [
+            "I don't know",
+            "I don't care",
+            "I don't mind"
+          ],
+          "answer": "I don't care"
+        },
+        {
+          "number": 13,
+          "lineId": "line-5",
+          "prompt": "〔第 12 題〕, {{blank}} and 〔第 14 題〕",
+          "promptZh": "我不在乎，繼續將我撕碎吧",
+          "options": [
+            "go on",
+            "come on",
+            "hold on"
+          ],
+          "answer": "go on"
+        },
+        {
+          "number": 14,
+          "lineId": "line-5",
+          "prompt": "〔第 12 題〕, 〔第 13 題〕 and {{blank}}",
+          "promptZh": "我不在乎，繼續將我撕碎吧",
+          "options": [
+            "tear me down",
+            "break me apart",
+            "tear me apart"
+          ],
+          "answer": "tear me apart"
+        },
+        {
+          "number": 15,
+          "lineId": "line-6",
+          "prompt": "{{blank}} 〔第 16 題〕, ooh",
+          "promptZh": "我不在乎你是否會這麼做，噢",
+          "options": [
+            "I don't mind",
+            "I don't know",
+            "I don't care"
+          ],
+          "answer": "I don't care"
+        },
+        {
+          "number": 16,
+          "lineId": "line-6",
+          "prompt": "〔第 15 題〕 {{blank}}, ooh",
+          "promptZh": "我不在乎你是否會這麼做，噢",
+          "options": [
+            "if you dare",
+            "if you do",
+            "what you do"
+          ],
+          "answer": "if you do"
+        },
+        {
+          "number": 17,
+          "lineId": "line-7",
+          "prompt": "'Cause {{blank}}, 〔第 18 題〕 〔第 19 題〕",
+          "promptZh": "因為在天空中，因為在這片佈滿星辰的天空中",
+          "options": [
+            "in a sky",
+            "in the sky",
+            "in the stars"
+          ],
+          "answer": "in a sky"
+        },
+        {
+          "number": 18,
+          "lineId": "line-7",
+          "prompt": "'Cause 〔第 17 題〕, {{blank}} 〔第 19 題〕",
+          "promptZh": "因為在天空中，因為在這片佈滿星辰的天空中",
+          "options": [
+            "'Cause in the sky",
+            "Because in a sky",
+            "'cause in a sky"
+          ],
+          "answer": "'cause in a sky"
+        },
+        {
+          "number": 19,
+          "lineId": "line-7",
+          "prompt": "'Cause 〔第 17 題〕, 〔第 18 題〕 {{blank}}",
+          "promptZh": "因為在天空中，因為在這片佈滿星辰的天空中",
+          "options": [
+            "full of light",
+            "full of stars",
+            "full of love"
+          ],
+          "answer": "full of stars"
+        },
+        {
+          "number": 20,
+          "lineId": "line-8",
+          "prompt": "{{blank}} 〔第 21 題〕 I 〔第 22 題〕",
+          "promptZh": "我想我看見了你",
+          "options": [
+            "I",
+            "We",
+            "You"
+          ],
+          "answer": "I"
+        },
+        {
+          "number": 21,
+          "lineId": "line-8",
+          "prompt": "〔第 20 題〕 {{blank}} I 〔第 22 題〕",
+          "promptZh": "我想我看見了你",
+          "options": [
+            "thought",
+            "knew",
+            "think"
+          ],
+          "answer": "think"
+        },
+        {
+          "number": 22,
+          "lineId": "line-8",
+          "prompt": "〔第 20 題〕 〔第 21 題〕 I {{blank}}",
+          "promptZh": "我想我看見了你",
+          "options": [
+            "see you",
+            "saw you",
+            "found you"
+          ],
+          "answer": "saw you"
+        },
+        {
+          "number": 23,
+          "lineId": "line-9",
+          "prompt": "{{blank}}, 'cause you're a 〔第 24 題〕 〔第 25 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "'Cause you're a sky",
+            "Because you're a sky",
+            "'Cause you are a sky"
+          ],
+          "answer": "'Cause you're a sky"
+        },
+        {
+          "number": 24,
+          "lineId": "line-9",
+          "prompt": "〔第 23 題〕, 'cause you're a {{blank}} 〔第 25 題〕",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "filled",
+            "made",
+            "sky full"
+          ],
+          "answer": "sky full"
+        },
+        {
+          "number": 25,
+          "lineId": "line-9",
+          "prompt": "〔第 23 題〕, 'cause you're a 〔第 24 題〕 {{blank}}",
+          "promptZh": "因為你是一片天空，因為你是一片佈滿星辰的天空",
+          "options": [
+            "of stars",
+            "of light",
+            "of love"
+          ],
+          "answer": "of stars"
+        },
+        {
+          "number": 26,
+          "lineId": "line-10",
+          "prompt": "I {{blank}} 〔第 27 題〕",
+          "promptZh": "我願在你的臂彎中長眠",
+          "options": [
+            "want to",
+            "wanna",
+            "need to"
+          ],
+          "answer": "wanna"
+        },
+        {
+          "number": 27,
+          "lineId": "line-10",
+          "prompt": "I 〔第 26 題〕 {{blank}}",
+          "promptZh": "我願在你的臂彎中長眠",
+          "options": [
+            "stay in your arms",
+            "die in your arms",
+            "live in your arms"
+          ],
+          "answer": "die in your arms"
+        },
+        {
+          "number": 28,
+          "lineId": "line-11",
+          "prompt": "'Cause {{blank}} 〔第 29 題〕 〔第 30 題〕",
+          "promptZh": "因為天色越暗，你就越發明亮",
+          "options": [
+            "you get",
+            "you go",
+            "you grow"
+          ],
+          "answer": "you get"
+        },
+        {
+          "number": 29,
+          "lineId": "line-11",
+          "prompt": "'Cause 〔第 28 題〕 {{blank}} 〔第 30 題〕",
+          "promptZh": "因為天色越暗，你就越發明亮",
+          "options": [
+            "higher",
+            "brighter",
+            "lighter"
+          ],
+          "answer": "lighter"
+        },
+        {
+          "number": 30,
+          "lineId": "line-11",
+          "prompt": "'Cause 〔第 28 題〕 〔第 29 題〕 {{blank}}",
+          "promptZh": "因為天色越暗，你就越發明亮",
+          "options": [
+            "the more it gets dark",
+            "the more it turns dark",
+            "the more it gets cold"
+          ],
+          "answer": "the more it gets dark"
+        },
+        {
+          "number": 31,
+          "lineId": "line-12",
+          "prompt": "I'm gonna {{blank}}",
+          "promptZh": "我要將我的心交給你",
+          "options": [
+            "give you my love",
+            "give you my heart",
+            "give you my soul"
+          ],
+          "answer": "give you my heart"
+        },
+        {
+          "number": 32,
+          "lineId": "line-13",
+          "prompt": "{{blank}}, 〔第 33 題〕 and 〔第 34 題〕 〔第 35 題〕",
+          "promptZh": "我不在乎，繼續將我撕碎吧",
+          "options": [
+            "I never care",
+            "I do not dare",
+            "I don't care"
+          ],
+          "answer": "I don't care"
+        },
+        {
+          "number": 33,
+          "lineId": "line-13",
+          "prompt": "〔第 32 題〕, {{blank}} and 〔第 34 題〕 〔第 35 題〕",
+          "promptZh": "我不在乎，繼續將我撕碎吧",
+          "options": [
+            "go on",
+            "come on",
+            "hold on"
+          ],
+          "answer": "go on"
+        },
+        {
+          "number": 34,
+          "lineId": "line-13",
+          "prompt": "〔第 32 題〕, 〔第 33 題〕 and {{blank}} 〔第 35 題〕",
+          "promptZh": "我不在乎，繼續將我撕碎吧",
+          "options": [
+            "tell me",
+            "tear me",
+            "turn me"
+          ],
+          "answer": "tear me"
+        },
+        {
+          "number": 35,
+          "lineId": "line-13",
+          "prompt": "〔第 32 題〕, 〔第 33 題〕 and 〔第 34 題〕 {{blank}}",
+          "promptZh": "我不在乎，繼續將我撕碎吧",
+          "options": [
+            "down",
+            "apart now",
+            "apart"
+          ],
+          "answer": "apart"
+        },
+        {
+          "number": 36,
+          "lineId": "line-14",
+          "prompt": "I don't {{blank}} 〔第 37 題〕, ooh",
+          "promptZh": "我不在乎你是否會這麼做，噢",
+          "options": [
+            "share",
+            "care",
+            "dare"
+          ],
+          "answer": "care"
+        },
+        {
+          "number": 37,
+          "lineId": "line-14",
+          "prompt": "I don't 〔第 36 題〕 {{blank}}, ooh",
+          "promptZh": "我不在乎你是否會這麼做，噢",
+          "options": [
+            "what you do",
+            "if you dare",
+            "if you do"
+          ],
+          "answer": "if you do"
+        },
+        {
+          "number": 38,
+          "lineId": "line-15",
+          "prompt": "'Cause {{blank}}, 〔第 39 題〕 〔第 40 題〕",
+          "promptZh": "因為在天空中，因為在這片佈滿星辰的天空中",
+          "options": [
+            "in a sky",
+            "in the sky",
+            "in the stars"
+          ],
+          "answer": "in a sky"
+        },
+        {
+          "number": 39,
+          "lineId": "line-15",
+          "prompt": "'Cause 〔第 38 題〕, {{blank}} 〔第 40 題〕",
+          "promptZh": "因為在天空中，因為在這片佈滿星辰的天空中",
+          "options": [
+            "Because in a sky",
+            "'cause in a sky",
+            "'Cause in the sky"
+          ],
+          "answer": "'cause in a sky"
+        },
+        {
+          "number": 40,
+          "lineId": "line-15",
+          "prompt": "'Cause 〔第 38 題〕, 〔第 39 題〕 {{blank}}",
+          "promptZh": "因為在天空中，因為在這片佈滿星辰的天空中",
+          "options": [
+            "full of love",
+            "full of light",
+            "full of stars"
+          ],
+          "answer": "full of stars"
+        },
+        {
+          "number": 41,
+          "lineId": "line-16",
+          "prompt": "I {{blank}} I 〔第 42 題〕",
+          "promptZh": "我想我看見了你",
+          "options": [
+            "think",
+            "thought",
+            "knew"
+          ],
+          "answer": "think"
+        },
+        {
+          "number": 42,
+          "lineId": "line-16",
+          "prompt": "I 〔第 41 題〕 I {{blank}}",
+          "promptZh": "我想我看見了你",
+          "options": [
+            "found you",
+            "see you",
+            "saw you"
+          ],
+          "answer": "see you"
+        },
+        {
+          "number": 43,
+          "lineId": "line-17",
+          "prompt": "{{blank}} 〔第 44 題〕",
+          "promptZh": "我想我看見了你",
+          "options": [
+            "I feel I",
+            "I know I",
+            "I think I"
+          ],
+          "answer": "I think I"
+        },
+        {
+          "number": 44,
+          "lineId": "line-17",
+          "prompt": "〔第 43 題〕 {{blank}}",
+          "promptZh": "我想我看見了你",
+          "options": [
+            "see you",
+            "saw you",
+            "found you"
+          ],
+          "answer": "see you"
+        },
+        {
+          "number": 45,
+          "lineId": "line-18",
+          "prompt": "{{blank}}, 〔第 46 題〕",
+          "promptZh": "因為你是一片天空，你是一片佈滿星辰的天空",
+          "options": [
+            "'Cause you're a sky",
+            "Because you're a sky",
+            "'Cause you are a sky"
+          ],
+          "answer": "'Cause you're a sky"
+        },
+        {
+          "number": 46,
+          "lineId": "line-18",
+          "prompt": "〔第 45 題〕, {{blank}}",
+          "promptZh": "因為你是一片天空，你是一片佈滿星辰的天空",
+          "options": [
+            "you're a sky of stars",
+            "you're a sky with stars",
+            "you're a sky full of stars"
+          ],
+          "answer": "you're a sky full of stars"
+        },
+        {
+          "number": 47,
+          "lineId": "line-19",
+          "prompt": "{{blank}} 〔第 48 題〕",
+          "promptZh": "如此天堂般的美景",
+          "options": [
+            "What a",
+            "Such a",
+            "Just a"
+          ],
+          "answer": "Such a"
+        },
+        {
+          "number": 48,
+          "lineId": "line-19",
+          "prompt": "〔第 47 題〕 {{blank}}",
+          "promptZh": "如此天堂般的美景",
+          "options": [
+            "wonderful view",
+            "beautiful view",
+            "heavenly view"
+          ],
+          "answer": "heavenly view"
+        },
+        {
+          "number": 49,
+          "lineId": "line-20",
+          "prompt": "{{blank}} 〔第 50 題〕",
+          "promptZh": "你是如此天堂般的美景",
+          "options": [
+            "You are such a",
+            "You're such a",
+            "You're so"
+          ],
+          "answer": "You're such a"
+        },
+        {
+          "number": 50,
+          "lineId": "line-20",
+          "prompt": "〔第 49 題〕 {{blank}}",
+          "promptZh": "你是如此天堂般的美景",
+          "options": [
+            "heavenly view",
+            "beautiful view",
+            "wonderful view"
+          ],
+          "answer": "heavenly view"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}} {{q:3}}, 'cause you're a {{q:4}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:5}} {{q:6}} give you {{q:7}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "'Cause {{q:8}}, {{q:9}} {{q:10}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "'Cause you {{q:11}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:12}}, {{q:13}} and {{q:14}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:15}} {{q:16}}, ooh"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "'Cause {{q:17}}, {{q:18}} {{q:19}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:20}} {{q:21}} I {{q:22}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:23}}, 'cause you're a {{q:24}} {{q:25}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I {{q:26}} {{q:27}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "'Cause {{q:28}} {{q:29}} {{q:30}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I'm gonna {{q:31}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:32}}, {{q:33}} and {{q:34}} {{q:35}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I don't {{q:36}} {{q:37}}, ooh"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "'Cause {{q:38}}, {{q:39}} {{q:40}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I {{q:41}} I {{q:42}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:43}} {{q:44}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:45}}, {{q:46}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:47}} {{q:48}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:49}} {{q:50}}"
+        }
+      ]
+    }
+  ],
+  "timingSource": {
+    "method": "faster-whisper-word-alignment-with-targeted-section-review",
+    "audioSha256": "fc7e37c3e37b1d8aeffd1779b8feb3ef2eac5d91a405995797b8cf53990296a0",
+    "duration": 274.576
+  }
+}

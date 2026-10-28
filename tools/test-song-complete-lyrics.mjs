@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 const norm=s=>s.toLowerCase().replace(/[^a-z0-9]/g,'');
-for(const [name,count] of [['photograph',58],['open-arms',37],['thinking-out-loud',41],['shake-it-off',74],['dont-stop-believin',38],['if-bread',20],['i-lay-my-love-on-you',42],['i-want-it-that-way',54],['happier',32],['million-reasons',51],['all-of-me',55],['everything-i-own',32],['everything-has-changed',53],['iris',31],['i-dont-want-to-miss-a-thing',58],['my-love',57],['africa',31]]){
+for(const [name,count] of [['photograph',58],['open-arms',37],['thinking-out-loud',41],['shake-it-off',74],['dont-stop-believin',38],['if-bread',20],['i-lay-my-love-on-you',42],['i-want-it-that-way',54],['happier',32],['million-reasons',51],['all-of-me',55],['everything-i-own',32],['everything-has-changed',53],['iris',31],['i-dont-want-to-miss-a-thing',58],['my-love',57],['africa',31],['stop-loving-you',40],['a-sky-full-of-stars',20],['the-a-team',71]]){
  const song=JSON.parse(fs.readFileSync(`tools/song-content/${name}.json`));
  assert.equal(song.translations.length,count);
  for(const mode of song.exercises){
