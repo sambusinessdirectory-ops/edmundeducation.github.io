@@ -3120,6 +3120,7 @@
       --category-key-lip:#111;
     }
   </style>
+  <link rel="stylesheet" href="homepage-review-preview.css?v=20261028-1">
   <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
   <link rel="stylesheet" href="responsive.css?v=20260504-mobile-1">
 <link rel="stylesheet" href="language-learning.css?v=20260914-six-languages-1">
@@ -3160,7 +3161,16 @@
       <div class="hero-row">
         <h1>Edmund 英文學習平台</h1>
         <div class="hero-feature-stack">
-          <img class="company-logo" src="assets/homepage-optimized/company-logo.webp" alt="EdmundEducation company logo" width="512" height="512" decoding="async" fetchpriority="high">
+          <div class="company-review-tile" data-company-review-tile>
+            <img class="company-logo" src="assets/homepage-optimized/company-logo.webp" alt="EdmundEducation company logo" width="512" height="512" decoding="async" fetchpriority="high">
+            <section class="company-review-preview" data-company-review-preview aria-label="學生及家長評價預覽" aria-hidden="true" inert>
+              <header class="company-review-preview__header">
+                <div><span>STUDENT REVIEWS</span><h2>用家實證！</h2></div>
+                <a href="#student-reviews">查看全部評價 ↗</a>
+              </header>
+              <div class="company-review-preview__feed" data-company-review-feed tabindex="0" aria-label="上下捲動瀏覽學生及家長評價"></div>
+            </section>
+          </div>
           <a class="homepage-game-card" href="eddy-carrot-patch/" aria-label="Play Eddie's Farm">
             <img id="homepageGameCover" src="assets/homepage-optimized/game-cover.webp" alt="Eddie's Farm game cover" width="960" height="540" loading="eager" decoding="async" fetchpriority="auto">
             <span aria-hidden="true">Play now · 立即遊玩</span>
@@ -3772,6 +3782,48 @@
       }).join("");
     }
 
+    function setupCompanyReviewPreview() {
+      const tile = document.querySelector("[data-company-review-tile]");
+      const preview = document.querySelector("[data-company-review-preview]");
+      const feed = document.querySelector("[data-company-review-feed]");
+      const logo = tile?.querySelector(".company-logo");
+      if (!tile || !preview || !feed || !logo || !studentCommentFiles.length) return;
+
+      feed.innerHTML = studentCommentFiles.map((file, index) => {
+        const label = studentCommentLabel(file);
+        return `<article class="company-review-preview__item">
+          <h3>${escapeHtml(label)}</h3>
+          <img ${index < 2 ? `src="${escapeHtml(file)}"` : `data-src="${escapeHtml(file)}"`} alt="${escapeHtml(label)}" loading="lazy" decoding="async">
+        </article>`;
+      }).join("");
+
+      const deferredImages = feed.querySelectorAll("img[data-src]");
+      if ("IntersectionObserver" in window) {
+        const imageObserver = new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            if (!entry.isIntersecting) return;
+            const image = entry.target;
+            image.src = image.dataset.src;
+            image.removeAttribute("data-src");
+            imageObserver.unobserve(image);
+          });
+        }, { root: feed, rootMargin: "240px 0px" });
+        deferredImages.forEach(image => imageObserver.observe(image));
+      } else {
+        deferredImages.forEach(image => {
+          image.src = image.dataset.src;
+          image.removeAttribute("data-src");
+        });
+      }
+
+      window.setTimeout(() => {
+        preview.inert = false;
+        preview.removeAttribute("aria-hidden");
+        logo.setAttribute("aria-hidden", "true");
+        tile.classList.add("is-revealed");
+      }, 3200);
+    }
+
     function setupStudentCommentMotion() {
       const cards = document.querySelectorAll("[data-student-comment-card]");
       const rows = document.querySelectorAll(".student-comment-row");
@@ -4224,6 +4276,7 @@
 
     renderOfferSections();
     renderStudentComments();
+    setupCompanyReviewPreview();
     setupCarousels();
     setupLogoEasterEgg();
     setupOfferHoverVideos();
