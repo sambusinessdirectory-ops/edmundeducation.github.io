@@ -1,0 +1,2922 @@
+{
+  "slug": "thinking-out-loud-ed-sheeran",
+  "title": "Thinking Out Loud",
+  "singer": "Ed Sheeran",
+  "exercise_name": "Thinking Out Loud · Listening & Vocabulary",
+  "description": "《Thinking Out Loud》描寫一份超越時間與外表、希望相伴一生的真摯愛情。歌中的主角想像兩人逐漸老去，身體不再靈活，容貌與記憶也慢慢改變，但他相信彼此的愛不會因此消失。他承諾即使歲月流逝，仍會像年輕時一樣深愛對方，每一天都重新愛上她。歌曲亦表達了愛情的奇妙，有時只是一個簡單的觸碰，就能讓兩顆心走在一起。最終，《Thinking Out Loud》傳達的是永恆的愛、陪伴與承諾：真正的愛情不在於青春或外表，而是在歲月變遷中，依然願意珍惜對方，攜手走過人生每個階段。",
+  "tags": [
+    "love",
+    "ed sheeran"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "When your legs don't work like they used to before",
+      "chinese": "當你的雙腿不再像從前那樣靈活",
+      "startSeconds": 0.86,
+      "endSeconds": 4.54
+    },
+    {
+      "lineId": "line-2",
+      "english": "And I can't sweep you off of your feet",
+      "chinese": "而我再也無法讓你為我傾倒",
+      "startSeconds": 6.94,
+      "endSeconds": 9.94
+    },
+    {
+      "lineId": "line-3",
+      "english": "Will your mouth still remember the taste of my love?",
+      "chinese": "你的唇是否仍記得我愛的滋味？",
+      "startSeconds": 13.04,
+      "endSeconds": 16.66
+    },
+    {
+      "lineId": "line-4",
+      "english": "Will your eyes still smile from your cheeks?",
+      "chinese": "你的雙眼是否仍會從臉頰上漾出笑意？",
+      "startSeconds": 19.1,
+      "endSeconds": 22.38
+    },
+    {
+      "lineId": "line-5",
+      "english": "And, darling, I will be loving you 'til we're 70",
+      "chinese": "親愛的，我會愛你直到我們七十歲",
+      "startSeconds": 22.38,
+      "endSeconds": 29.86
+    },
+    {
+      "lineId": "line-6",
+      "english": "And, baby, my heart could still fall as hard at 23",
+      "chinese": "寶貝，我的心在二十三歲時仍能愛得如此奮不顧身",
+      "startSeconds": 34.74,
+      "endSeconds": 43.44
+    },
+    {
+      "lineId": "line-7",
+      "english": "And I'm thinking 'bout how people fall in love in mysterious ways",
+      "chinese": "我在想，人們如何以神秘的方式墜入愛河",
+      "startSeconds": 45.06,
+      "endSeconds": 53.7
+    },
+    {
+      "lineId": "line-8",
+      "english": "Maybe just the touch of a hand",
+      "chinese": "也許只是指尖的一次輕觸",
+      "startSeconds": 54.71,
+      "endSeconds": 59.0
+    },
+    {
+      "lineId": "line-9",
+      "english": "Well, me—I fall in love with you every single day",
+      "chinese": "而我啊——我每一天都重新愛上你",
+      "startSeconds": 59.0,
+      "endSeconds": 65.7
+    },
+    {
+      "lineId": "line-10",
+      "english": "And I just wanna tell you I am",
+      "chinese": "而我只想告訴你，我正是如此",
+      "startSeconds": 65.7,
+      "endSeconds": 71.08
+    },
+    {
+      "lineId": "line-11",
+      "english": "So, honey, now",
+      "chinese": "所以，親愛的，現在",
+      "startSeconds": 71.08,
+      "endSeconds": 73.82
+    },
+    {
+      "lineId": "line-12",
+      "english": "Take me into your loving arms",
+      "chinese": "將我擁入你充滿愛意的臂彎",
+      "startSeconds": 73.96,
+      "endSeconds": 79.86
+    },
+    {
+      "lineId": "line-13",
+      "english": "Kiss me under the light of a thousand stars",
+      "chinese": "在千顆星辰的光下吻我",
+      "startSeconds": 82.6,
+      "endSeconds": 87.26
+    },
+    {
+      "lineId": "line-14",
+      "english": "Place your head on my beating heart",
+      "chinese": "把你的頭靠在我跳動的心口",
+      "startSeconds": 88.72,
+      "endSeconds": 91.86
+    },
+    {
+      "lineId": "line-15",
+      "english": "I'm thinking out loud",
+      "chinese": "我在把心聲說出口",
+      "startSeconds": 92.98,
+      "endSeconds": 96.08
+    },
+    {
+      "lineId": "line-16",
+      "english": "Maybe we found love right where we are",
+      "chinese": "也許我們就在彼此所在之處找到了愛",
+      "startSeconds": 96.08,
+      "endSeconds": 102.34
+    },
+    {
+      "lineId": "line-17",
+      "english": "When my hair's all but gone and my memory fades",
+      "chinese": "當我的頭髮幾乎落盡，記憶也漸漸褪去",
+      "startSeconds": 103.86,
+      "endSeconds": 107.62
+    },
+    {
+      "lineId": "line-18",
+      "english": "And the crowds don't remember my name",
+      "chinese": "而人群不再記得我的名字",
+      "startSeconds": 109.92,
+      "endSeconds": 113.34
+    },
+    {
+      "lineId": "line-19",
+      "english": "When my hands don't play the strings the same way (mmm...)",
+      "chinese": "當我的手撥弦不再如昔（嗯……）",
+      "startSeconds": 113.34,
+      "endSeconds": 120.06
+    },
+    {
+      "lineId": "line-20",
+      "english": "I know you will still love me the same",
+      "chinese": "我知道你仍會一樣愛我",
+      "startSeconds": 121.52,
+      "endSeconds": 125.26
+    },
+    {
+      "lineId": "line-21",
+      "english": "'Cause, honey, your soul could never grow old, it's evergreen",
+      "chinese": "因為，親愛的，你的靈魂永遠不會老去，它四季常青",
+      "startSeconds": 126.14,
+      "endSeconds": 134.2
+    },
+    {
+      "lineId": "line-22",
+      "english": "And, baby, your smile's forever in my mind and memory",
+      "chinese": "寶貝，你的笑容永遠留在我的腦海與記憶裡",
+      "startSeconds": 138.5,
+      "endSeconds": 146.04
+    },
+    {
+      "lineId": "line-23",
+      "english": "I'm thinking 'bout how people fall in love in mysterious ways",
+      "chinese": "我在想，人們如何以神秘的方式墜入愛河",
+      "startSeconds": 148.44,
+      "endSeconds": 157.38
+    },
+    {
+      "lineId": "line-24",
+      "english": "Maybe it's all part of a plan",
+      "chinese": "也許這一切都是計劃的一部分",
+      "startSeconds": 157.87,
+      "endSeconds": 163.18
+    },
+    {
+      "lineId": "line-25",
+      "english": "Well, I'll just keep on making the same mistakes",
+      "chinese": "而我會繼續犯著同樣的錯",
+      "startSeconds": 163.95,
+      "endSeconds": 168.94
+    },
+    {
+      "lineId": "line-26",
+      "english": "Hoping that you'll understand",
+      "chinese": "希望你能明白",
+      "startSeconds": 171.0,
+      "endSeconds": 174.28
+    },
+    {
+      "lineId": "line-27",
+      "english": "That, baby, now",
+      "chinese": "所以，寶貝，現在",
+      "startSeconds": 174.28,
+      "endSeconds": 176.8
+    },
+    {
+      "lineId": "line-28",
+      "english": "Take me into your loving arms",
+      "chinese": "將我擁入你充滿愛意的臂彎",
+      "startSeconds": 179.48,
+      "endSeconds": 183.08
+    },
+    {
+      "lineId": "line-29",
+      "english": "Kiss me under the light of a thousand stars",
+      "chinese": "在千顆星辰的光下吻我",
+      "startSeconds": 183.08,
+      "endSeconds": 190.38
+    },
+    {
+      "lineId": "line-30",
+      "english": "Place your head on my beating heart",
+      "chinese": "把你的頭靠在我跳動的心口",
+      "startSeconds": 192.42,
+      "endSeconds": 195.04
+    },
+    {
+      "lineId": "line-31",
+      "english": "Thinking out loud",
+      "chinese": "把心聲說出口",
+      "startSeconds": 196.88,
+      "endSeconds": 199.08
+    },
+    {
+      "lineId": "line-32",
+      "english": "Maybe we found love right where we are (oh, oh)",
+      "chinese": "也許我們就在彼此所在之處找到了愛（噢，噢）",
+      "startSeconds": 199.08,
+      "endSeconds": 206.26
+    },
+    {
+      "lineId": "line-33",
+      "english": "La, la, la, la, la, la, la, la, lo-ud",
+      "chinese": "啦，啦，啦，啦，啦，啦，啦，啦，啦——啊",
+      "startSeconds": 216.08,
+      "endSeconds": 218.9
+    },
+    {
+      "lineId": "line-34",
+      "english": "So, baby, now",
+      "chinese": "所以，寶貝，現在",
+      "startSeconds": 229.36,
+      "endSeconds": 231.9
+    },
+    {
+      "lineId": "line-35",
+      "english": "Take me into your loving arms",
+      "chinese": "將我擁入你充滿愛意的臂彎",
+      "startSeconds": 233.34,
+      "endSeconds": 238.32
+    },
+    {
+      "lineId": "line-36",
+      "english": "Kiss me under the light of a thousand stars",
+      "chinese": "在千顆星辰的光下吻我",
+      "startSeconds": 240.5,
+      "endSeconds": 245.04
+    },
+    {
+      "lineId": "line-37",
+      "english": "Oh, darling, place your head on my beating heart",
+      "chinese": "噢，親愛的，把你的頭靠在我跳動的心口",
+      "startSeconds": 245.04,
+      "endSeconds": 249.72
+    },
+    {
+      "lineId": "line-38",
+      "english": "I'm thinking out loud",
+      "chinese": "我在把心聲說出口",
+      "startSeconds": 250.72,
+      "endSeconds": 253.7
+    },
+    {
+      "lineId": "line-39",
+      "english": "But maybe we found love right where we are",
+      "chinese": "但也許我們就在彼此所在之處找到了愛",
+      "startSeconds": 253.7,
+      "endSeconds": 260.04
+    },
+    {
+      "lineId": "line-40",
+      "english": "Oh, baby, we found love right where we are",
+      "chinese": "噢，寶貝，我們就在彼此所在之處找到了愛",
+      "startSeconds": 260.04,
+      "endSeconds": 266.32
+    },
+    {
+      "lineId": "line-41",
+      "english": "And we found love right where we are",
+      "chinese": "而我們就在彼此所在之處找到了愛",
+      "startSeconds": 266.32,
+      "endSeconds": 273.18
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "When your legs don't work like they {{blank}}",
+          "promptZh": "當你的雙腿不再像從前那樣靈活",
+          "options": [
+            "used to before",
+            "used to say",
+            "wanted before"
+          ],
+          "answer": "used to before"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "And I can't sweep you {{blank}}",
+          "promptZh": "而我再也無法讓你為我傾倒",
+          "options": [
+            "out of my mind",
+            "off of your feet",
+            "off of my toes"
+          ],
+          "answer": "off of your feet"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "Will your mouth still remember the {{blank}}?",
+          "promptZh": "你的唇是否仍記得我愛的滋味？",
+          "options": [
+            "taste of my love",
+            "touch of my hand",
+            "sound of my voice"
+          ],
+          "answer": "taste of my love"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "Will your eyes still {{blank}}?",
+          "promptZh": "你的雙眼是否仍會從臉頰上漾出笑意？",
+          "options": [
+            "smile from your cheeks",
+            "shine in your eyes",
+            "glow on your face"
+          ],
+          "answer": "smile from your cheeks"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "And, darling, I will be loving you {{blank}}",
+          "promptZh": "親愛的，我會愛你直到我們七十歲",
+          "options": [
+            "'til we're 80",
+            "when we're 70",
+            "'til we're 70"
+          ],
+          "answer": "'til we're 70"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "And, baby, my heart could still fall as {{blank}}",
+          "promptZh": "寶貝，我的心在二十三歲時仍能愛得如此奮不顧身",
+          "options": [
+            "fast at 23",
+            "deep at 23",
+            "hard at 23"
+          ],
+          "answer": "hard at 23"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "And I'm thinking 'bout how people fall in love in {{blank}}",
+          "promptZh": "我在想，人們如何以神秘的方式墜入愛河",
+          "options": [
+            "mysterious ways",
+            "magical ways",
+            "wonderful ways"
+          ],
+          "answer": "mysterious ways"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "Maybe just the {{blank}}",
+          "promptZh": "也許只是指尖的一次輕觸",
+          "options": [
+            "beat of a heart",
+            "touch of a hand",
+            "look in your eyes"
+          ],
+          "answer": "touch of a hand"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "Well, me—I fall in love with you {{blank}}",
+          "promptZh": "而我啊——我每一天都重新愛上你",
+          "options": [
+            "every other day",
+            "each and every way",
+            "every single day"
+          ],
+          "answer": "every single day"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "And I just {{blank}}",
+          "promptZh": "而我只想告訴你，我正是如此",
+          "options": [
+            "gotta tell you I am",
+            "need to show you I am",
+            "wanna tell you I am"
+          ],
+          "answer": "wanna tell you I am"
+        },
+        {
+          "number": 11,
+          "lineId": "line-12",
+          "prompt": "Take me into your {{blank}}",
+          "promptZh": "將我擁入你充滿愛意的臂彎",
+          "options": [
+            "open arms",
+            "loving arms",
+            "warm embrace"
+          ],
+          "answer": "loving arms"
+        },
+        {
+          "number": 12,
+          "lineId": "line-13",
+          "prompt": "Kiss me under the light of a {{blank}}",
+          "promptZh": "在千顆星辰的光下吻我",
+          "options": [
+            "million stars",
+            "thousand stars",
+            "shining stars"
+          ],
+          "answer": "thousand stars"
+        },
+        {
+          "number": 13,
+          "lineId": "line-14",
+          "prompt": "{{blank}} on my beating heart",
+          "promptZh": "把你的頭靠在我跳動的心口",
+          "options": [
+            "Lay your head",
+            "Rest your head",
+            "Place your head"
+          ],
+          "answer": "Place your head"
+        },
+        {
+          "number": 14,
+          "lineId": "line-15",
+          "prompt": "I'm {{blank}}",
+          "promptZh": "我在把心聲說出口",
+          "options": [
+            "thinking out loud",
+            "speaking my mind",
+            "dreaming out loud"
+          ],
+          "answer": "thinking out loud"
+        },
+        {
+          "number": 15,
+          "lineId": "line-16",
+          "prompt": "Maybe we found love {{blank}}",
+          "promptZh": "也許我們就在彼此所在之處找到了愛",
+          "options": [
+            "right here in the dark",
+            "just the way we are",
+            "right where we are"
+          ],
+          "answer": "right where we are"
+        },
+        {
+          "number": 16,
+          "lineId": "line-18",
+          "prompt": "And the crowds don't {{blank}}",
+          "promptZh": "而人群不再記得我的名字",
+          "options": [
+            "call out my name",
+            "know who I am",
+            "remember my name"
+          ],
+          "answer": "remember my name"
+        },
+        {
+          "number": 17,
+          "lineId": "line-21",
+          "prompt": "'Cause, honey, your soul could never {{blank}}, it's evergreen",
+          "promptZh": "因為，親愛的，你的靈魂永遠不會老去，它四季常青",
+          "options": [
+            "get cold",
+            "turn cold",
+            "grow old"
+          ],
+          "answer": "grow old"
+        },
+        {
+          "number": 18,
+          "lineId": "line-25",
+          "prompt": "Well, I'll just {{blank}} the same mistakes",
+          "promptZh": "而我會繼續犯著同樣的錯",
+          "options": [
+            "carry on making",
+            "keep on making",
+            "go on taking"
+          ],
+          "answer": "keep on making"
+        },
+        {
+          "number": 19,
+          "lineId": "line-39",
+          "prompt": "{{blank}} right where we are",
+          "promptZh": "但也許我們就在彼此所在之處找到了愛",
+          "options": [
+            "But maybe we found love",
+            "But maybe we've found love",
+            "Yet maybe we found love"
+          ],
+          "answer": "But maybe we found love"
+        },
+        {
+          "number": 20,
+          "lineId": "line-41",
+          "prompt": "{{blank}} right where we are",
+          "promptZh": "而我們就在彼此所在之處找到了愛",
+          "options": [
+            "And we found love",
+            "And we've found love",
+            "That we found love"
+          ],
+          "answer": "And we found love"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "When your legs don't work like they {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "And I can't sweep you {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Will your mouth still remember the {{q:3}}?"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Will your eyes still {{q:4}}?"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "And, darling, I will be loving you {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "And, baby, my heart could still fall as {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And I'm thinking 'bout how people fall in love in {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Maybe just the {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Well, me—I fall in love with you {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And I just {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "So, honey, now"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Take me into your {{q:11}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Kiss me under the light of a {{q:12}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:13}} on my beating heart"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I'm {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Maybe we found love {{q:15}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "When my hair's all but gone and my memory fades"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "And the crowds don't {{q:16}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "When my hands don't play the strings the same way (mmm...)"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I know you will still love me the same"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "'Cause, honey, your soul could never {{q:17}}, it's evergreen"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "And, baby, your smile's forever in my mind and memory"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I'm thinking 'bout how people fall in love in mysterious ways"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Maybe it's all part of a plan"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Well, I'll just {{q:18}} the same mistakes"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Hoping that you'll understand"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "That, baby, now"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Take me into your loving arms"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Kiss me under the light of a thousand stars"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Place your head on my beating heart"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Thinking out loud"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Maybe we found love right where we are (oh, oh)"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "La, la, la, la, la, la, la, la, lo-ud"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "So, baby, now"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Take me into your loving arms"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Kiss me under the light of a thousand stars"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Oh, darling, place your head on my beating heart"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I'm thinking out loud"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "{{q:19}} right where we are"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Oh, baby, we found love right where we are"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:20}} right where we are"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "When your legs {{blank}} like they 〔第 2 題〕",
+          "promptZh": "當你的雙腿不再像從前那樣靈活",
+          "options": [
+            "don't work",
+            "knees don't bend",
+            "feet don't move"
+          ],
+          "answer": "don't work"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "When your legs 〔第 1 題〕 like they {{blank}}",
+          "promptZh": "當你的雙腿不再像從前那樣靈活",
+          "options": [
+            "used to before",
+            "used to say",
+            "wanted before"
+          ],
+          "answer": "used to before"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "And I can't sweep you {{blank}}",
+          "promptZh": "而我再也無法讓你為我傾倒",
+          "options": [
+            "out of my mind",
+            "off of your feet",
+            "off of my toes"
+          ],
+          "answer": "off of your feet"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "Will your {{blank}} the 〔第 5 題〕?",
+          "promptZh": "你的唇是否仍記得我愛的滋味？",
+          "options": [
+            "lips still recall",
+            "heart still remember",
+            "mouth still remember"
+          ],
+          "answer": "mouth still remember"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "Will your 〔第 4 題〕 the {{blank}}?",
+          "promptZh": "你的唇是否仍記得我愛的滋味？",
+          "options": [
+            "taste of my love",
+            "touch of my hand",
+            "sound of my voice"
+          ],
+          "answer": "taste of my love"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "Will your eyes still {{blank}}?",
+          "promptZh": "你的雙眼是否仍會從臉頰上漾出笑意？",
+          "options": [
+            "smile from your cheeks",
+            "shine in your eyes",
+            "glow on your face"
+          ],
+          "answer": "smile from your cheeks"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "And, darling, I will be loving you {{blank}}",
+          "promptZh": "親愛的，我會愛你直到我們七十歲",
+          "options": [
+            "'til we're 80",
+            "when we're 70",
+            "'til we're 70"
+          ],
+          "answer": "'til we're 70"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "And, baby, my {{blank}} as 〔第 9 題〕",
+          "promptZh": "寶貝，我的心在二十三歲時仍能愛得如此奮不顧身",
+          "options": [
+            "soul could still fly",
+            "heart could still fall",
+            "love could still grow"
+          ],
+          "answer": "heart could still fall"
+        },
+        {
+          "number": 9,
+          "lineId": "line-6",
+          "prompt": "And, baby, my 〔第 8 題〕 as {{blank}}",
+          "promptZh": "寶貝，我的心在二十三歲時仍能愛得如此奮不顧身",
+          "options": [
+            "fast at 23",
+            "deep at 23",
+            "hard at 23"
+          ],
+          "answer": "hard at 23"
+        },
+        {
+          "number": 10,
+          "lineId": "line-7",
+          "prompt": "And I'm thinking 'bout how people {{blank}} in 〔第 11 題〕",
+          "promptZh": "我在想，人們如何以神秘的方式墜入愛河",
+          "options": [
+            "dive in love",
+            "be in love",
+            "fall in love"
+          ],
+          "answer": "fall in love"
+        },
+        {
+          "number": 11,
+          "lineId": "line-7",
+          "prompt": "And I'm thinking 'bout how people 〔第 10 題〕 in {{blank}}",
+          "promptZh": "我在想，人們如何以神秘的方式墜入愛河",
+          "options": [
+            "mysterious ways",
+            "magical ways",
+            "wonderful ways"
+          ],
+          "answer": "mysterious ways"
+        },
+        {
+          "number": 12,
+          "lineId": "line-8",
+          "prompt": "Maybe just the {{blank}}",
+          "promptZh": "也許只是指尖的一次輕觸",
+          "options": [
+            "beat of a heart",
+            "touch of a hand",
+            "look in your eyes"
+          ],
+          "answer": "touch of a hand"
+        },
+        {
+          "number": 13,
+          "lineId": "line-9",
+          "prompt": "Well, me—I fall in love with you {{blank}}",
+          "promptZh": "而我啊——我每一天都重新愛上你",
+          "options": [
+            "every other day",
+            "each and every way",
+            "every single day"
+          ],
+          "answer": "every single day"
+        },
+        {
+          "number": 14,
+          "lineId": "line-10",
+          "prompt": "And I just {{blank}}",
+          "promptZh": "而我只想告訴你，我正是如此",
+          "options": [
+            "gotta tell you I am",
+            "need to show you I am",
+            "wanna tell you I am"
+          ],
+          "answer": "wanna tell you I am"
+        },
+        {
+          "number": 15,
+          "lineId": "line-11",
+          "prompt": "{{blank}}",
+          "promptZh": "所以，親愛的，現在",
+          "options": [
+            "Oh, honey, now",
+            "So, honey, now",
+            "And, honey, now"
+          ],
+          "answer": "So, honey, now"
+        },
+        {
+          "number": 16,
+          "lineId": "line-12",
+          "prompt": "Take me {{blank}} 〔第 17 題〕",
+          "promptZh": "將我擁入你充滿愛意的臂彎",
+          "options": [
+            "close to your",
+            "within your",
+            "into your"
+          ],
+          "answer": "into your"
+        },
+        {
+          "number": 17,
+          "lineId": "line-12",
+          "prompt": "Take me 〔第 16 題〕 {{blank}}",
+          "promptZh": "將我擁入你充滿愛意的臂彎",
+          "options": [
+            "open arms",
+            "loving arms",
+            "warm embrace"
+          ],
+          "answer": "loving arms"
+        },
+        {
+          "number": 18,
+          "lineId": "line-13",
+          "prompt": "Kiss me under the light of a {{blank}}",
+          "promptZh": "在千顆星辰的光下吻我",
+          "options": [
+            "million stars",
+            "thousand stars",
+            "shining stars"
+          ],
+          "answer": "thousand stars"
+        },
+        {
+          "number": 19,
+          "lineId": "line-14",
+          "prompt": "{{blank}} on my beating heart",
+          "promptZh": "把你的頭靠在我跳動的心口",
+          "options": [
+            "Lay your head",
+            "Rest your head",
+            "Place your head"
+          ],
+          "answer": "Place your head"
+        },
+        {
+          "number": 20,
+          "lineId": "line-15",
+          "prompt": "I'm {{blank}}",
+          "promptZh": "我在把心聲說出口",
+          "options": [
+            "thinking out loud",
+            "speaking my mind",
+            "dreaming out loud"
+          ],
+          "answer": "thinking out loud"
+        },
+        {
+          "number": 21,
+          "lineId": "line-16",
+          "prompt": "Maybe we found love {{blank}}",
+          "promptZh": "也許我們就在彼此所在之處找到了愛",
+          "options": [
+            "right here in the dark",
+            "just the way we are",
+            "right where we are"
+          ],
+          "answer": "right where we are"
+        },
+        {
+          "number": 22,
+          "lineId": "line-17",
+          "prompt": "When my hair's {{blank}} and my memory fades",
+          "promptZh": "當我的頭髮幾乎落盡，記憶也漸漸褪去",
+          "options": [
+            "almost gone",
+            "all but gone",
+            "faded away"
+          ],
+          "answer": "all but gone"
+        },
+        {
+          "number": 23,
+          "lineId": "line-18",
+          "prompt": "And the {{blank}} 〔第 24 題〕",
+          "promptZh": "而人群不再記得我的名字",
+          "options": [
+            "people don't",
+            "they don't",
+            "crowds don't"
+          ],
+          "answer": "crowds don't"
+        },
+        {
+          "number": 24,
+          "lineId": "line-18",
+          "prompt": "And the 〔第 23 題〕 {{blank}}",
+          "promptZh": "而人群不再記得我的名字",
+          "options": [
+            "call out my name",
+            "know who I am",
+            "remember my name"
+          ],
+          "answer": "remember my name"
+        },
+        {
+          "number": 25,
+          "lineId": "line-19",
+          "prompt": "When my hands don't play the {{blank}} (mmm...)",
+          "promptZh": "當我的手撥弦不再如昔（嗯……）",
+          "options": [
+            "chords the same way",
+            "strings the same way",
+            "notes the same way"
+          ],
+          "answer": "strings the same way"
+        },
+        {
+          "number": 26,
+          "lineId": "line-21",
+          "prompt": "'Cause, honey, your soul {{blank}} 〔第 27 題〕, it's evergreen",
+          "promptZh": "因為，親愛的，你的靈魂永遠不會老去，它四季常青",
+          "options": [
+            "would never",
+            "will never",
+            "could never"
+          ],
+          "answer": "could never"
+        },
+        {
+          "number": 27,
+          "lineId": "line-21",
+          "prompt": "'Cause, honey, your soul 〔第 26 題〕 {{blank}}, it's evergreen",
+          "promptZh": "因為，親愛的，你的靈魂永遠不會老去，它四季常青",
+          "options": [
+            "get cold",
+            "turn cold",
+            "grow old"
+          ],
+          "answer": "grow old"
+        },
+        {
+          "number": 28,
+          "lineId": "line-24",
+          "prompt": "Maybe it's all {{blank}}",
+          "promptZh": "也許這一切都是計劃的一部分",
+          "options": [
+            "part of the game",
+            "just a mistake",
+            "part of a plan"
+          ],
+          "answer": "part of a plan"
+        },
+        {
+          "number": 29,
+          "lineId": "line-25",
+          "prompt": "Well, I'll just {{blank}} the same mistakes",
+          "promptZh": "而我會繼續犯著同樣的錯",
+          "options": [
+            "carry on making",
+            "keep on making",
+            "go on taking"
+          ],
+          "answer": "keep on making"
+        },
+        {
+          "number": 30,
+          "lineId": "line-26",
+          "prompt": "{{blank}} understand",
+          "promptZh": "希望你能明白",
+          "options": [
+            "Praying that you'll",
+            "Hoping that you'll",
+            "Wishing that you'll"
+          ],
+          "answer": "Hoping that you'll"
+        },
+        {
+          "number": 31,
+          "lineId": "line-39",
+          "prompt": "{{blank}} right where we are",
+          "promptZh": "但也許我們就在彼此所在之處找到了愛",
+          "options": [
+            "But maybe we found love",
+            "But maybe we've found love",
+            "Yet maybe we found love"
+          ],
+          "answer": "But maybe we found love"
+        },
+        {
+          "number": 32,
+          "lineId": "line-41",
+          "prompt": "{{blank}} right where we are",
+          "promptZh": "而我們就在彼此所在之處找到了愛",
+          "options": [
+            "And we found love",
+            "And we've found love",
+            "That we found love"
+          ],
+          "answer": "And we found love"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "When your legs {{q:1}} like they {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "And I can't sweep you {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Will your {{q:4}} the {{q:5}}?"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Will your eyes still {{q:6}}?"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "And, darling, I will be loving you {{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "And, baby, my {{q:8}} as {{q:9}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And I'm thinking 'bout how people {{q:10}} in {{q:11}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Maybe just the {{q:12}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Well, me—I fall in love with you {{q:13}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And I just {{q:14}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:15}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Take me {{q:16}} {{q:17}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Kiss me under the light of a {{q:18}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:19}} on my beating heart"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I'm {{q:20}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Maybe we found love {{q:21}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "When my hair's {{q:22}} and my memory fades"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "And the {{q:23}} {{q:24}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "When my hands don't play the {{q:25}} (mmm...)"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I know you will still love me the same"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "'Cause, honey, your soul {{q:26}} {{q:27}}, it's evergreen"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "And, baby, your smile's forever in my mind and memory"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I'm thinking 'bout how people fall in love in mysterious ways"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Maybe it's all {{q:28}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Well, I'll just {{q:29}} the same mistakes"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:30}} understand"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "That, baby, now"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Take me into your loving arms"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Kiss me under the light of a thousand stars"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Place your head on my beating heart"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Thinking out loud"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Maybe we found love right where we are (oh, oh)"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "La, la, la, la, la, la, la, la, lo-ud"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "So, baby, now"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Take me into your loving arms"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Kiss me under the light of a thousand stars"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Oh, darling, place your head on my beating heart"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I'm thinking out loud"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "{{q:31}} right where we are"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Oh, baby, we found love right where we are"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:32}} right where we are"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "When your legs {{blank}} like they 〔第 2 題〕",
+          "promptZh": "當你的雙腿不再像從前那樣靈活",
+          "options": [
+            "don't work",
+            "knees don't bend",
+            "feet don't move"
+          ],
+          "answer": "don't work"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "When your legs 〔第 1 題〕 like they {{blank}}",
+          "promptZh": "當你的雙腿不再像從前那樣靈活",
+          "options": [
+            "used to before",
+            "used to say",
+            "wanted before"
+          ],
+          "answer": "used to before"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "And {{blank}} you 〔第 4 題〕",
+          "promptZh": "而我再也無法讓你為我傾倒",
+          "options": [
+            "I won't sweep",
+            "I can't sweep",
+            "I don't sweep"
+          ],
+          "answer": "I can't sweep"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "And 〔第 3 題〕 you {{blank}}",
+          "promptZh": "而我再也無法讓你為我傾倒",
+          "options": [
+            "out of my mind",
+            "off of your feet",
+            "off of my toes"
+          ],
+          "answer": "off of your feet"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "Will your {{blank}} the 〔第 6 題〕?",
+          "promptZh": "你的唇是否仍記得我愛的滋味？",
+          "options": [
+            "lips still recall",
+            "heart still remember",
+            "mouth still remember"
+          ],
+          "answer": "mouth still remember"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "Will your 〔第 5 題〕 the {{blank}}?",
+          "promptZh": "你的唇是否仍記得我愛的滋味？",
+          "options": [
+            "taste of my love",
+            "touch of my hand",
+            "sound of my voice"
+          ],
+          "answer": "taste of my love"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "Will your eyes still {{blank}} 〔第 8 題〕?",
+          "promptZh": "你的雙眼是否仍會從臉頰上漾出笑意？",
+          "options": [
+            "smile",
+            "shine",
+            "glow"
+          ],
+          "answer": "smile"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "Will your eyes still 〔第 7 題〕 {{blank}}?",
+          "promptZh": "你的雙眼是否仍會從臉頰上漾出笑意？",
+          "options": [
+            "in your eyes",
+            "on your face",
+            "from your cheeks"
+          ],
+          "answer": "from your cheeks"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "{{blank}}, 〔第 10 題〕 loving you 〔第 11 題〕",
+          "promptZh": "親愛的，我會愛你直到我們七十歲",
+          "options": [
+            "And, darling",
+            "Oh, darling",
+            "But, darling"
+          ],
+          "answer": "And, darling"
+        },
+        {
+          "number": 10,
+          "lineId": "line-5",
+          "prompt": "〔第 9 題〕, {{blank}} loving you 〔第 11 題〕",
+          "promptZh": "親愛的，我會愛你直到我們七十歲",
+          "options": [
+            "I would be",
+            "I could be",
+            "I will be"
+          ],
+          "answer": "I will be"
+        },
+        {
+          "number": 11,
+          "lineId": "line-5",
+          "prompt": "〔第 9 題〕, 〔第 10 題〕 loving you {{blank}}",
+          "promptZh": "親愛的，我會愛你直到我們七十歲",
+          "options": [
+            "'til we're 80",
+            "when we're 70",
+            "'til we're 70"
+          ],
+          "answer": "'til we're 70"
+        },
+        {
+          "number": 12,
+          "lineId": "line-6",
+          "prompt": "And, baby, my {{blank}} 〔第 13 題〕 as 〔第 14 題〕",
+          "promptZh": "寶貝，我的心在二十三歲時仍能愛得如此奮不顧身",
+          "options": [
+            "soul could",
+            "heart could",
+            "love could"
+          ],
+          "answer": "heart could"
+        },
+        {
+          "number": 13,
+          "lineId": "line-6",
+          "prompt": "And, baby, my 〔第 12 題〕 {{blank}} as 〔第 14 題〕",
+          "promptZh": "寶貝，我的心在二十三歲時仍能愛得如此奮不顧身",
+          "options": [
+            "still fall",
+            "still love",
+            "still beat"
+          ],
+          "answer": "still fall"
+        },
+        {
+          "number": 14,
+          "lineId": "line-6",
+          "prompt": "And, baby, my 〔第 12 題〕 〔第 13 題〕 as {{blank}}",
+          "promptZh": "寶貝，我的心在二十三歲時仍能愛得如此奮不顧身",
+          "options": [
+            "fast at 23",
+            "deep at 23",
+            "hard at 23"
+          ],
+          "answer": "hard at 23"
+        },
+        {
+          "number": 15,
+          "lineId": "line-7",
+          "prompt": "And I'm thinking 'bout how people {{blank}} in 〔第 16 題〕",
+          "promptZh": "我在想，人們如何以神秘的方式墜入愛河",
+          "options": [
+            "dive in love",
+            "be in love",
+            "fall in love"
+          ],
+          "answer": "fall in love"
+        },
+        {
+          "number": 16,
+          "lineId": "line-7",
+          "prompt": "And I'm thinking 'bout how people 〔第 15 題〕 in {{blank}}",
+          "promptZh": "我在想，人們如何以神秘的方式墜入愛河",
+          "options": [
+            "mysterious ways",
+            "magical ways",
+            "wonderful ways"
+          ],
+          "answer": "mysterious ways"
+        },
+        {
+          "number": 17,
+          "lineId": "line-8",
+          "prompt": "Maybe just the {{blank}}",
+          "promptZh": "也許只是指尖的一次輕觸",
+          "options": [
+            "beat of a heart",
+            "touch of a hand",
+            "look in your eyes"
+          ],
+          "answer": "touch of a hand"
+        },
+        {
+          "number": 18,
+          "lineId": "line-9",
+          "prompt": "Well, me—I fall in love with you {{blank}}",
+          "promptZh": "而我啊——我每一天都重新愛上你",
+          "options": [
+            "every other day",
+            "each and every way",
+            "every single day"
+          ],
+          "answer": "every single day"
+        },
+        {
+          "number": 19,
+          "lineId": "line-10",
+          "prompt": "And I just {{blank}}",
+          "promptZh": "而我只想告訴你，我正是如此",
+          "options": [
+            "gotta tell you I am",
+            "need to show you I am",
+            "wanna tell you I am"
+          ],
+          "answer": "wanna tell you I am"
+        },
+        {
+          "number": 20,
+          "lineId": "line-11",
+          "prompt": "{{blank}}",
+          "promptZh": "所以，親愛的，現在",
+          "options": [
+            "Oh, honey, now",
+            "So, honey, now",
+            "And, honey, now"
+          ],
+          "answer": "So, honey, now"
+        },
+        {
+          "number": 21,
+          "lineId": "line-12",
+          "prompt": "{{blank}} 〔第 22 題〕 〔第 23 題〕",
+          "promptZh": "將我擁入你充滿愛意的臂彎",
+          "options": [
+            "Hold me",
+            "Bring me",
+            "Take me"
+          ],
+          "answer": "Take me"
+        },
+        {
+          "number": 22,
+          "lineId": "line-12",
+          "prompt": "〔第 21 題〕 {{blank}} 〔第 23 題〕",
+          "promptZh": "將我擁入你充滿愛意的臂彎",
+          "options": [
+            "close to your",
+            "within your",
+            "into your"
+          ],
+          "answer": "into your"
+        },
+        {
+          "number": 23,
+          "lineId": "line-12",
+          "prompt": "〔第 21 題〕 〔第 22 題〕 {{blank}}",
+          "promptZh": "將我擁入你充滿愛意的臂彎",
+          "options": [
+            "open arms",
+            "loving arms",
+            "warm embrace"
+          ],
+          "answer": "loving arms"
+        },
+        {
+          "number": 24,
+          "lineId": "line-13",
+          "prompt": "Kiss me under the light of a {{blank}}",
+          "promptZh": "在千顆星辰的光下吻我",
+          "options": [
+            "million stars",
+            "thousand stars",
+            "shining stars"
+          ],
+          "answer": "thousand stars"
+        },
+        {
+          "number": 25,
+          "lineId": "line-14",
+          "prompt": "{{blank}} on my beating heart",
+          "promptZh": "把你的頭靠在我跳動的心口",
+          "options": [
+            "Lay your head",
+            "Rest your head",
+            "Place your head"
+          ],
+          "answer": "Place your head"
+        },
+        {
+          "number": 26,
+          "lineId": "line-15",
+          "prompt": "I'm {{blank}}",
+          "promptZh": "我在把心聲說出口",
+          "options": [
+            "thinking out loud",
+            "speaking my mind",
+            "dreaming out loud"
+          ],
+          "answer": "thinking out loud"
+        },
+        {
+          "number": 27,
+          "lineId": "line-16",
+          "prompt": "{{blank}} love 〔第 28 題〕",
+          "promptZh": "也許我們就在彼此所在之處找到了愛",
+          "options": [
+            "Maybe we've found",
+            "Perhaps we found",
+            "Maybe we found"
+          ],
+          "answer": "Maybe we found"
+        },
+        {
+          "number": 28,
+          "lineId": "line-16",
+          "prompt": "〔第 27 題〕 love {{blank}}",
+          "promptZh": "也許我們就在彼此所在之處找到了愛",
+          "options": [
+            "right here in the dark",
+            "just the way we are",
+            "right where we are"
+          ],
+          "answer": "right where we are"
+        },
+        {
+          "number": 29,
+          "lineId": "line-17",
+          "prompt": "When my hair's {{blank}} and my memory fades",
+          "promptZh": "當我的頭髮幾乎落盡，記憶也漸漸褪去",
+          "options": [
+            "almost gone",
+            "all but gone",
+            "faded away"
+          ],
+          "answer": "all but gone"
+        },
+        {
+          "number": 30,
+          "lineId": "line-18",
+          "prompt": "And the {{blank}} 〔第 31 題〕",
+          "promptZh": "而人群不再記得我的名字",
+          "options": [
+            "people don't",
+            "they don't",
+            "crowds don't"
+          ],
+          "answer": "crowds don't"
+        },
+        {
+          "number": 31,
+          "lineId": "line-18",
+          "prompt": "And the 〔第 30 題〕 {{blank}}",
+          "promptZh": "而人群不再記得我的名字",
+          "options": [
+            "call out my name",
+            "know who I am",
+            "remember my name"
+          ],
+          "answer": "remember my name"
+        },
+        {
+          "number": 32,
+          "lineId": "line-19",
+          "prompt": "When my hands don't play the {{blank}} (mmm...)",
+          "promptZh": "當我的手撥弦不再如昔（嗯……）",
+          "options": [
+            "chords the same way",
+            "strings the same way",
+            "notes the same way"
+          ],
+          "answer": "strings the same way"
+        },
+        {
+          "number": 33,
+          "lineId": "line-21",
+          "prompt": "'Cause, honey, your {{blank}} 〔第 34 題〕 〔第 35 題〕, it's evergreen",
+          "promptZh": "因為，親愛的，你的靈魂永遠不會老去，它四季常青",
+          "options": [
+            "heart",
+            "love",
+            "soul"
+          ],
+          "answer": "soul"
+        },
+        {
+          "number": 34,
+          "lineId": "line-21",
+          "prompt": "'Cause, honey, your 〔第 33 題〕 {{blank}} 〔第 35 題〕, it's evergreen",
+          "promptZh": "因為，親愛的，你的靈魂永遠不會老去，它四季常青",
+          "options": [
+            "would never",
+            "will never",
+            "could never"
+          ],
+          "answer": "could never"
+        },
+        {
+          "number": 35,
+          "lineId": "line-21",
+          "prompt": "'Cause, honey, your 〔第 33 題〕 〔第 34 題〕 {{blank}}, it's evergreen",
+          "promptZh": "因為，親愛的，你的靈魂永遠不會老去，它四季常青",
+          "options": [
+            "get cold",
+            "turn cold",
+            "grow old"
+          ],
+          "answer": "grow old"
+        },
+        {
+          "number": 36,
+          "lineId": "line-24",
+          "prompt": "Maybe it's all {{blank}}",
+          "promptZh": "也許這一切都是計劃的一部分",
+          "options": [
+            "part of the game",
+            "just a mistake",
+            "part of a plan"
+          ],
+          "answer": "part of a plan"
+        },
+        {
+          "number": 37,
+          "lineId": "line-25",
+          "prompt": "Well, I'll just {{blank}} the same mistakes",
+          "promptZh": "而我會繼續犯著同樣的錯",
+          "options": [
+            "carry on making",
+            "keep on making",
+            "go on taking"
+          ],
+          "answer": "keep on making"
+        },
+        {
+          "number": 38,
+          "lineId": "line-26",
+          "prompt": "{{blank}} understand",
+          "promptZh": "希望你能明白",
+          "options": [
+            "Praying that you'll",
+            "Hoping that you'll",
+            "Wishing that you'll"
+          ],
+          "answer": "Hoping that you'll"
+        },
+        {
+          "number": 39,
+          "lineId": "line-39",
+          "prompt": "{{blank}} right where we are",
+          "promptZh": "但也許我們就在彼此所在之處找到了愛",
+          "options": [
+            "But maybe we found love",
+            "But maybe we've found love",
+            "Yet maybe we found love"
+          ],
+          "answer": "But maybe we found love"
+        },
+        {
+          "number": 40,
+          "lineId": "line-41",
+          "prompt": "{{blank}} right where we are",
+          "promptZh": "而我們就在彼此所在之處找到了愛",
+          "options": [
+            "And we found love",
+            "And we've found love",
+            "That we found love"
+          ],
+          "answer": "And we found love"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "When your legs {{q:1}} like they {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "And {{q:3}} you {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Will your {{q:5}} the {{q:6}}?"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Will your eyes still {{q:7}} {{q:8}}?"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:9}}, {{q:10}} loving you {{q:11}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "And, baby, my {{q:12}} {{q:13}} as {{q:14}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And I'm thinking 'bout how people {{q:15}} in {{q:16}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Maybe just the {{q:17}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Well, me—I fall in love with you {{q:18}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And I just {{q:19}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:21}} {{q:22}} {{q:23}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Kiss me under the light of a {{q:24}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:25}} on my beating heart"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I'm {{q:26}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:27}} love {{q:28}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "When my hair's {{q:29}} and my memory fades"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "And the {{q:30}} {{q:31}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "When my hands don't play the {{q:32}} (mmm...)"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I know you will still love me the same"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "'Cause, honey, your {{q:33}} {{q:34}} {{q:35}}, it's evergreen"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "And, baby, your smile's forever in my mind and memory"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I'm thinking 'bout how people fall in love in mysterious ways"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Maybe it's all {{q:36}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Well, I'll just {{q:37}} the same mistakes"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:38}} understand"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "That, baby, now"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Take me into your loving arms"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Kiss me under the light of a thousand stars"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Place your head on my beating heart"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Thinking out loud"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Maybe we found love right where we are (oh, oh)"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "La, la, la, la, la, la, la, la, lo-ud"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "So, baby, now"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Take me into your loving arms"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Kiss me under the light of a thousand stars"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Oh, darling, place your head on my beating heart"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I'm thinking out loud"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "{{q:39}} right where we are"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Oh, baby, we found love right where we are"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:40}} right where we are"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 〔第 2 題〕 like they 〔第 3 題〕",
+          "promptZh": "當你的雙腿不再像從前那樣靈活",
+          "options": [
+            "When your legs",
+            "As your legs",
+            "When the legs"
+          ],
+          "answer": "When your legs"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 {{blank}} like they 〔第 3 題〕",
+          "promptZh": "當你的雙腿不再像從前那樣靈活",
+          "options": [
+            "don't work",
+            "knees don't bend",
+            "feet don't move"
+          ],
+          "answer": "don't work"
+        },
+        {
+          "number": 3,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 〔第 2 題〕 like they {{blank}}",
+          "promptZh": "當你的雙腿不再像從前那樣靈活",
+          "options": [
+            "used to before",
+            "used to say",
+            "wanted before"
+          ],
+          "answer": "used to before"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "And {{blank}} you 〔第 5 題〕",
+          "promptZh": "而我再也無法讓你為我傾倒",
+          "options": [
+            "I won't sweep",
+            "I can't sweep",
+            "I don't sweep"
+          ],
+          "answer": "I can't sweep"
+        },
+        {
+          "number": 5,
+          "lineId": "line-2",
+          "prompt": "And 〔第 4 題〕 you {{blank}}",
+          "promptZh": "而我再也無法讓你為我傾倒",
+          "options": [
+            "out of my mind",
+            "off of your feet",
+            "off of my toes"
+          ],
+          "answer": "off of your feet"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "{{blank}} 〔第 7 題〕 the 〔第 8 題〕?",
+          "promptZh": "你的唇是否仍記得我愛的滋味？",
+          "options": [
+            "Would your",
+            "Can your",
+            "Will your"
+          ],
+          "answer": "Will your"
+        },
+        {
+          "number": 7,
+          "lineId": "line-3",
+          "prompt": "〔第 6 題〕 {{blank}} the 〔第 8 題〕?",
+          "promptZh": "你的唇是否仍記得我愛的滋味？",
+          "options": [
+            "lips still recall",
+            "heart still remember",
+            "mouth still remember"
+          ],
+          "answer": "mouth still remember"
+        },
+        {
+          "number": 8,
+          "lineId": "line-3",
+          "prompt": "〔第 6 題〕 〔第 7 題〕 the {{blank}}?",
+          "promptZh": "你的唇是否仍記得我愛的滋味？",
+          "options": [
+            "taste of my love",
+            "touch of my hand",
+            "sound of my voice"
+          ],
+          "answer": "taste of my love"
+        },
+        {
+          "number": 9,
+          "lineId": "line-4",
+          "prompt": "Will your eyes still {{blank}} 〔第 10 題〕?",
+          "promptZh": "你的雙眼是否仍會從臉頰上漾出笑意？",
+          "options": [
+            "smile",
+            "shine",
+            "glow"
+          ],
+          "answer": "smile"
+        },
+        {
+          "number": 10,
+          "lineId": "line-4",
+          "prompt": "Will your eyes still 〔第 9 題〕 {{blank}}?",
+          "promptZh": "你的雙眼是否仍會從臉頰上漾出笑意？",
+          "options": [
+            "in your eyes",
+            "on your face",
+            "from your cheeks"
+          ],
+          "answer": "from your cheeks"
+        },
+        {
+          "number": 11,
+          "lineId": "line-5",
+          "prompt": "{{blank}}, 〔第 12 題〕 loving you 〔第 13 題〕",
+          "promptZh": "親愛的，我會愛你直到我們七十歲",
+          "options": [
+            "And, darling",
+            "Oh, darling",
+            "But, darling"
+          ],
+          "answer": "And, darling"
+        },
+        {
+          "number": 12,
+          "lineId": "line-5",
+          "prompt": "〔第 11 題〕, {{blank}} loving you 〔第 13 題〕",
+          "promptZh": "親愛的，我會愛你直到我們七十歲",
+          "options": [
+            "I would be",
+            "I could be",
+            "I will be"
+          ],
+          "answer": "I will be"
+        },
+        {
+          "number": 13,
+          "lineId": "line-5",
+          "prompt": "〔第 11 題〕, 〔第 12 題〕 loving you {{blank}}",
+          "promptZh": "親愛的，我會愛你直到我們七十歲",
+          "options": [
+            "'til we're 80",
+            "when we're 70",
+            "'til we're 70"
+          ],
+          "answer": "'til we're 70"
+        },
+        {
+          "number": 14,
+          "lineId": "line-6",
+          "prompt": "And, baby, my {{blank}} 〔第 15 題〕 as 〔第 16 題〕",
+          "promptZh": "寶貝，我的心在二十三歲時仍能愛得如此奮不顧身",
+          "options": [
+            "soul could",
+            "heart could",
+            "love could"
+          ],
+          "answer": "heart could"
+        },
+        {
+          "number": 15,
+          "lineId": "line-6",
+          "prompt": "And, baby, my 〔第 14 題〕 {{blank}} as 〔第 16 題〕",
+          "promptZh": "寶貝，我的心在二十三歲時仍能愛得如此奮不顧身",
+          "options": [
+            "still fall",
+            "still love",
+            "still beat"
+          ],
+          "answer": "still fall"
+        },
+        {
+          "number": 16,
+          "lineId": "line-6",
+          "prompt": "And, baby, my 〔第 14 題〕 〔第 15 題〕 as {{blank}}",
+          "promptZh": "寶貝，我的心在二十三歲時仍能愛得如此奮不顧身",
+          "options": [
+            "fast at 23",
+            "deep at 23",
+            "hard at 23"
+          ],
+          "answer": "hard at 23"
+        },
+        {
+          "number": 17,
+          "lineId": "line-7",
+          "prompt": "And I'm thinking 'bout how people {{blank}} in 〔第 18 題〕",
+          "promptZh": "我在想，人們如何以神秘的方式墜入愛河",
+          "options": [
+            "dive in love",
+            "be in love",
+            "fall in love"
+          ],
+          "answer": "fall in love"
+        },
+        {
+          "number": 18,
+          "lineId": "line-7",
+          "prompt": "And I'm thinking 'bout how people 〔第 17 題〕 in {{blank}}",
+          "promptZh": "我在想，人們如何以神秘的方式墜入愛河",
+          "options": [
+            "mysterious ways",
+            "magical ways",
+            "wonderful ways"
+          ],
+          "answer": "mysterious ways"
+        },
+        {
+          "number": 19,
+          "lineId": "line-8",
+          "prompt": "{{blank}} 〔第 20 題〕",
+          "promptZh": "也許只是指尖的一次輕觸",
+          "options": [
+            "Maybe just the",
+            "Maybe it's just the",
+            "Maybe only the"
+          ],
+          "answer": "Maybe just the"
+        },
+        {
+          "number": 20,
+          "lineId": "line-8",
+          "prompt": "〔第 19 題〕 {{blank}}",
+          "promptZh": "也許只是指尖的一次輕觸",
+          "options": [
+            "beat of a heart",
+            "touch of a hand",
+            "look in your eyes"
+          ],
+          "answer": "touch of a hand"
+        },
+        {
+          "number": 21,
+          "lineId": "line-9",
+          "prompt": "Well, me—I fall in love with you {{blank}}",
+          "promptZh": "而我啊——我每一天都重新愛上你",
+          "options": [
+            "every other day",
+            "each and every way",
+            "every single day"
+          ],
+          "answer": "every single day"
+        },
+        {
+          "number": 22,
+          "lineId": "line-10",
+          "prompt": "And I just {{blank}}",
+          "promptZh": "而我只想告訴你，我正是如此",
+          "options": [
+            "gotta tell you I am",
+            "need to show you I am",
+            "wanna tell you I am"
+          ],
+          "answer": "wanna tell you I am"
+        },
+        {
+          "number": 23,
+          "lineId": "line-11",
+          "prompt": "{{blank}}",
+          "promptZh": "所以，親愛的，現在",
+          "options": [
+            "Oh, honey, now",
+            "So, honey, now",
+            "And, honey, now"
+          ],
+          "answer": "So, honey, now"
+        },
+        {
+          "number": 24,
+          "lineId": "line-12",
+          "prompt": "{{blank}} 〔第 25 題〕 〔第 26 題〕",
+          "promptZh": "將我擁入你充滿愛意的臂彎",
+          "options": [
+            "Hold me",
+            "Bring me",
+            "Take me"
+          ],
+          "answer": "Take me"
+        },
+        {
+          "number": 25,
+          "lineId": "line-12",
+          "prompt": "〔第 24 題〕 {{blank}} 〔第 26 題〕",
+          "promptZh": "將我擁入你充滿愛意的臂彎",
+          "options": [
+            "close to your",
+            "within your",
+            "into your"
+          ],
+          "answer": "into your"
+        },
+        {
+          "number": 26,
+          "lineId": "line-12",
+          "prompt": "〔第 24 題〕 〔第 25 題〕 {{blank}}",
+          "promptZh": "將我擁入你充滿愛意的臂彎",
+          "options": [
+            "open arms",
+            "loving arms",
+            "warm embrace"
+          ],
+          "answer": "loving arms"
+        },
+        {
+          "number": 27,
+          "lineId": "line-13",
+          "prompt": "Kiss me under the light of a {{blank}}",
+          "promptZh": "在千顆星辰的光下吻我",
+          "options": [
+            "million stars",
+            "thousand stars",
+            "shining stars"
+          ],
+          "answer": "thousand stars"
+        },
+        {
+          "number": 28,
+          "lineId": "line-14",
+          "prompt": "{{blank}} 〔第 29 題〕",
+          "promptZh": "把你的頭靠在我跳動的心口",
+          "options": [
+            "Lay your head",
+            "Rest your head",
+            "Place your head"
+          ],
+          "answer": "Place your head"
+        },
+        {
+          "number": 29,
+          "lineId": "line-14",
+          "prompt": "〔第 28 題〕 {{blank}}",
+          "promptZh": "把你的頭靠在我跳動的心口",
+          "options": [
+            "on my beating heart",
+            "on my beating chest",
+            "on my broken heart"
+          ],
+          "answer": "on my beating heart"
+        },
+        {
+          "number": 30,
+          "lineId": "line-15",
+          "prompt": "I'm {{blank}}",
+          "promptZh": "我在把心聲說出口",
+          "options": [
+            "thinking out loud",
+            "speaking my mind",
+            "dreaming out loud"
+          ],
+          "answer": "thinking out loud"
+        },
+        {
+          "number": 31,
+          "lineId": "line-16",
+          "prompt": "{{blank}} love 〔第 32 題〕",
+          "promptZh": "也許我們就在彼此所在之處找到了愛",
+          "options": [
+            "Maybe we've found",
+            "Perhaps we found",
+            "Maybe we found"
+          ],
+          "answer": "Maybe we found"
+        },
+        {
+          "number": 32,
+          "lineId": "line-16",
+          "prompt": "〔第 31 題〕 love {{blank}}",
+          "promptZh": "也許我們就在彼此所在之處找到了愛",
+          "options": [
+            "right here in the dark",
+            "just the way we are",
+            "right where we are"
+          ],
+          "answer": "right where we are"
+        },
+        {
+          "number": 33,
+          "lineId": "line-17",
+          "prompt": "When my hair's {{blank}} and my memory fades",
+          "promptZh": "當我的頭髮幾乎落盡，記憶也漸漸褪去",
+          "options": [
+            "almost gone",
+            "all but gone",
+            "faded away"
+          ],
+          "answer": "all but gone"
+        },
+        {
+          "number": 34,
+          "lineId": "line-18",
+          "prompt": "And the {{blank}} 〔第 35 題〕",
+          "promptZh": "而人群不再記得我的名字",
+          "options": [
+            "people don't",
+            "they don't",
+            "crowds don't"
+          ],
+          "answer": "crowds don't"
+        },
+        {
+          "number": 35,
+          "lineId": "line-18",
+          "prompt": "And the 〔第 34 題〕 {{blank}}",
+          "promptZh": "而人群不再記得我的名字",
+          "options": [
+            "call out my name",
+            "know who I am",
+            "remember my name"
+          ],
+          "answer": "remember my name"
+        },
+        {
+          "number": 36,
+          "lineId": "line-19",
+          "prompt": "When my hands don't play the {{blank}} (mmm...)",
+          "promptZh": "當我的手撥弦不再如昔（嗯……）",
+          "options": [
+            "chords the same way",
+            "strings the same way",
+            "notes the same way"
+          ],
+          "answer": "strings the same way"
+        },
+        {
+          "number": 37,
+          "lineId": "line-20",
+          "prompt": "I know you will {{blank}}",
+          "promptZh": "我知道你仍會一樣愛我",
+          "options": [
+            "still love me the same",
+            "love me just the same",
+            "love me all the same"
+          ],
+          "answer": "still love me the same"
+        },
+        {
+          "number": 38,
+          "lineId": "line-21",
+          "prompt": "'Cause, honey, your {{blank}} 〔第 39 題〕 〔第 40 題〕, it's evergreen",
+          "promptZh": "因為，親愛的，你的靈魂永遠不會老去，它四季常青",
+          "options": [
+            "heart",
+            "love",
+            "soul"
+          ],
+          "answer": "soul"
+        },
+        {
+          "number": 39,
+          "lineId": "line-21",
+          "prompt": "'Cause, honey, your 〔第 38 題〕 {{blank}} 〔第 40 題〕, it's evergreen",
+          "promptZh": "因為，親愛的，你的靈魂永遠不會老去，它四季常青",
+          "options": [
+            "would never",
+            "will never",
+            "could never"
+          ],
+          "answer": "could never"
+        },
+        {
+          "number": 40,
+          "lineId": "line-21",
+          "prompt": "'Cause, honey, your 〔第 38 題〕 〔第 39 題〕 {{blank}}, it's evergreen",
+          "promptZh": "因為，親愛的，你的靈魂永遠不會老去，它四季常青",
+          "options": [
+            "get cold",
+            "turn cold",
+            "grow old"
+          ],
+          "answer": "grow old"
+        },
+        {
+          "number": 41,
+          "lineId": "line-22",
+          "prompt": "And, baby, your smile's forever in my {{blank}}",
+          "promptZh": "寶貝，你的笑容永遠留在我的腦海與記憶裡",
+          "options": [
+            "heart and soul",
+            "thoughts and dreams",
+            "mind and memory"
+          ],
+          "answer": "mind and memory"
+        },
+        {
+          "number": 42,
+          "lineId": "line-24",
+          "prompt": "Maybe it's all {{blank}}",
+          "promptZh": "也許這一切都是計劃的一部分",
+          "options": [
+            "part of the game",
+            "just a mistake",
+            "part of a plan"
+          ],
+          "answer": "part of a plan"
+        },
+        {
+          "number": 43,
+          "lineId": "line-25",
+          "prompt": "Well, I'll just {{blank}} the same mistakes",
+          "promptZh": "而我會繼續犯著同樣的錯",
+          "options": [
+            "carry on making",
+            "keep on making",
+            "go on taking"
+          ],
+          "answer": "keep on making"
+        },
+        {
+          "number": 44,
+          "lineId": "line-26",
+          "prompt": "{{blank}} understand",
+          "promptZh": "希望你能明白",
+          "options": [
+            "Praying that you'll",
+            "Hoping that you'll",
+            "Wishing that you'll"
+          ],
+          "answer": "Hoping that you'll"
+        },
+        {
+          "number": 45,
+          "lineId": "line-27",
+          "prompt": "{{blank}}",
+          "promptZh": "所以，寶貝，現在",
+          "options": [
+            "So, baby, now",
+            "That, baby, now",
+            "And, baby, now"
+          ],
+          "answer": "That, baby, now"
+        },
+        {
+          "number": 46,
+          "lineId": "line-32",
+          "prompt": "Maybe we found love {{blank}} (oh, oh)",
+          "promptZh": "也許我們就在彼此所在之處找到了愛（噢，噢）",
+          "options": [
+            "right here in the dark",
+            "just the way we are",
+            "right where we are"
+          ],
+          "answer": "right where we are"
+        },
+        {
+          "number": 47,
+          "lineId": "line-37",
+          "prompt": "Oh, {{blank}} head on my beating heart",
+          "promptZh": "噢，親愛的，把你的頭靠在我跳動的心口",
+          "options": [
+            "darling, lay your",
+            "darling, rest your",
+            "darling, place your"
+          ],
+          "answer": "darling, place your"
+        },
+        {
+          "number": 48,
+          "lineId": "line-39",
+          "prompt": "{{blank}} right where we are",
+          "promptZh": "但也許我們就在彼此所在之處找到了愛",
+          "options": [
+            "But maybe we found love",
+            "But maybe we've found love",
+            "Yet maybe we found love"
+          ],
+          "answer": "But maybe we found love"
+        },
+        {
+          "number": 49,
+          "lineId": "line-40",
+          "prompt": "{{blank}} right where we are",
+          "promptZh": "噢，寶貝，我們就在彼此所在之處找到了愛",
+          "options": [
+            "Oh, baby, we found love",
+            "Oh, baby, we've found love",
+            "Oh, baby, we had love"
+          ],
+          "answer": "Oh, baby, we found love"
+        },
+        {
+          "number": 50,
+          "lineId": "line-41",
+          "prompt": "{{blank}} right where we are",
+          "promptZh": "而我們就在彼此所在之處找到了愛",
+          "options": [
+            "And we found love",
+            "And we've found love",
+            "That we found love"
+          ],
+          "answer": "And we found love"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}} like they {{q:3}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "And {{q:4}} you {{q:5}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:6}} {{q:7}} the {{q:8}}?"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Will your eyes still {{q:9}} {{q:10}}?"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:11}}, {{q:12}} loving you {{q:13}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "And, baby, my {{q:14}} {{q:15}} as {{q:16}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And I'm thinking 'bout how people {{q:17}} in {{q:18}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:19}} {{q:20}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Well, me—I fall in love with you {{q:21}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And I just {{q:22}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:23}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:24}} {{q:25}} {{q:26}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Kiss me under the light of a {{q:27}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:28}} {{q:29}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I'm {{q:30}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:31}} love {{q:32}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "When my hair's {{q:33}} and my memory fades"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "And the {{q:34}} {{q:35}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "When my hands don't play the {{q:36}} (mmm...)"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I know you will {{q:37}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "'Cause, honey, your {{q:38}} {{q:39}} {{q:40}}, it's evergreen"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "And, baby, your smile's forever in my {{q:41}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I'm thinking 'bout how people fall in love in mysterious ways"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Maybe it's all {{q:42}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Well, I'll just {{q:43}} the same mistakes"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:44}} understand"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:45}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Take me into your loving arms"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Kiss me under the light of a thousand stars"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Place your head on my beating heart"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Thinking out loud"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Maybe we found love {{q:46}} (oh, oh)"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "La, la, la, la, la, la, la, la, lo-ud"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "So, baby, now"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Take me into your loving arms"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Kiss me under the light of a thousand stars"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Oh, {{q:47}} head on my beating heart"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I'm thinking out loud"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "{{q:48}} right where we are"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "{{q:49}} right where we are"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:50}} right where we are"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Used to",
+      "meaning": "過去常常；以前會（現在通常不一樣了）。",
+      "usage": "說以前常做的事或以前的情況，但現在已改變時。句型是 used to + 動詞原形。",
+      "prompt": "哪一句正確使用「used to」？",
+      "options": [
+        "I used to went to school by bus.",
+        "I used to play football after school, but now I don't.",
+        "I used to playing football every Sunday.",
+        "I will used to visit my grandma tomorrow."
+      ],
+      "answer": 1,
+      "explanation": "表示以前放學後常踢足球，但現在不踢了。",
+      "optionExplanations": [
+        "used to 後面要接動詞原形 go，不是 went。",
+        "表示以前放學後常踢足球，但現在不踢了。",
+        "used to 後面要接 play，不是 playing。",
+        "used to 說的是過去的習慣，不能用來表示明天的計畫。可以說 I will visit my grandma tomorrow."
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Fall in love",
+      "meaning": "愛上某人；墜入愛河。",
+      "usage": "形容開始對某人產生愛情。常用 fall in love with + 人。",
+      "prompt": "哪一句正確使用「fall in love」？",
+      "options": [
+        "I fell in love with her when we met at school.",
+        "I fall in love my new shoes under the bed.",
+        "He fell in love to his teacher yesterday.",
+        "She fell in love her homework before dinner."
+      ],
+      "answer": 0,
+      "explanation": "fall in love with someone 表示愛上某人；fell 是 fall 的過去式。",
+      "optionExplanations": [
+        "fall in love with someone 表示愛上某人；fell 是 fall 的過去式。",
+        "缺少介系詞 with；這裡也不適合用它描述鞋子放在哪裡。",
+        "愛上某人要說 fall in love with，不是 to。",
+        "要接 with；而且這個句子想說「做功課」，不該用 fall in love。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Every single day",
+      "meaning": "每一天；天天（特別強調沒有一天例外）。",
+      "usage": "想強調一件事每天都會發生時。",
+      "prompt": "哪一句正確使用「every single day」？",
+      "options": [
+        "I go to the shop every single day last year.",
+        "We every single day are a big house.",
+        "She calls her mother every single day.",
+        "I every single day my school bag."
+      ],
+      "answer": 2,
+      "explanation": "表示她每天都會打電話給媽媽。",
+      "optionExplanations": [
+        "last year 是過去時間，動詞應用過去式 went；如 I went to the shop every single day last year.",
+        "這裡的句子不完整，不能用 every single day 代替動詞。",
+        "表示她每天都會打電話給媽媽。",
+        "缺少動詞，例如 I carry my school bag every single day."
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Think out loud",
+      "meaning": "把正在想的事情直接說出來。",
+      "usage": "邊想邊說，或還沒想好就把想法說出來時。",
+      "prompt": "哪一句正確使用「think out loud」？",
+      "options": [
+        "I think out loud my dinner with a spoon.",
+        "She thinks out loud a blue coat to school.",
+        "We think out loud the door every night.",
+        "I'm just thinking out loud, so I may change my idea."
+      ],
+      "answer": 3,
+      "explanation": "說話者把當下的想法說出來，也表示想法可能改變。",
+      "optionExplanations": [
+        "think out loud 不是「吃東西」的意思。",
+        "這個片語不能用來表示穿衣服；可以說 She wears a blue coat to school.",
+        "這個片語不能表示關門；可以說 We close the door every night.",
+        "說話者把當下的想法說出來，也表示想法可能改變。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Fade",
+      "meaning": "慢慢變淡；逐漸消失。",
+      "usage": "說顏色、聲音或記憶慢慢變得不清楚時。",
+      "prompt": "哪一句正確使用「fade」？",
+      "options": [
+        "I fade my lunch at one o'clock.",
+        "The color of my old shirt is starting to fade.",
+        "Please fade the door when you leave.",
+        "She fades to school on her bike."
+      ],
+      "answer": 1,
+      "explanation": "舊衣服的顏色開始慢慢變淡，很適合用 fade。",
+      "optionExplanations": [
+        "fade 不能表示吃午餐；應說 I eat lunch at one o'clock.",
+        "舊衣服的顏色開始慢慢變淡，很適合用 fade。",
+        "這裡應用 close（關門），不是 fade。",
+        "騎腳踏車去學校應說 She rides to school on her bike."
+      ]
+    },
+    {
+      "number": 6,
+      "word": "The same way",
+      "meaning": "用同樣的方式。",
+      "usage": "說兩個人做事的方式相同，或某件事和以前的做法相同時。",
+      "prompt": "哪一句正確使用「the same way」？",
+      "options": [
+        "We both make tea the same way: with milk and sugar.",
+        "I bought the same way at the shop.",
+        "She is the same way years old as me.",
+        "The same way is sleeping under the table."
+      ],
+      "answer": 0,
+      "explanation": "兩人都用加牛奶和糖的方式泡茶。",
+      "optionExplanations": [
+        "兩人都用加牛奶和糖的方式泡茶。",
+        "the same way 不是可以購買的物品；應說自己買了什麼。",
+        "比較年齡可說 She is the same age as me.",
+        "the same way 是「同樣的方式」，不是會睡覺的人或動物。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Keep on",
+      "meaning": "繼續做某件事。",
+      "usage": "表示一個動作一直持續。常用 keep on + 動詞 -ing。",
+      "prompt": "哪一句正確使用「keep on」？",
+      "options": [
+        "He keeps on to play the piano every day.",
+        "I keep on my new shoes in the box.",
+        "She kept on reading after dinner.",
+        "We keep on the bus stop at six."
+      ],
+      "answer": 2,
+      "explanation": "表示她晚餐後繼續閱讀。",
+      "optionExplanations": [
+        "keep on 後面應接 playing，不是 to play。",
+        "這裡是在說把鞋子放在盒子裡，應說 I keep my new shoes in the box.",
+        "表示她晚餐後繼續閱讀。",
+        "keep on 不能表示在公車站等車；可以說 We wait at the bus stop at six."
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Make a mistake",
+      "meaning": "犯錯、做錯事。",
+      "usage": "考試、工作、生活中做錯事情時；英文用 make，不是 do。",
+      "prompt": "哪一句正確使用「make a mistake」？",
+      "options": [
+        "I made a mistake my breakfast this morning.",
+        "She makes a mistake to the park on Sundays.",
+        "We made a mistake with the window because it was cold.",
+        "I made a mistake in my homework, so I fixed it."
+      ],
+      "answer": 3,
+      "explanation": "表示作業做錯了一個地方，後來把它改好。",
+      "optionExplanations": [
+        "缺少適當介系詞，而且想說做早餐應用 made breakfast。",
+        "這個片語不能表示去公園；可以說 She goes to the park on Sundays.",
+        "這句沒有說明做錯了什麼；例如 We made a mistake and left the window open. 才清楚。",
+        "表示作業做錯了一個地方，後來把它改好。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Part of a plan",
+      "meaning": "計畫的一部分。",
+      "usage": "說一件事是較大計畫中的其中一個步驟或安排時。",
+      "prompt": "哪一句正確使用「part of a plan」？",
+      "options": [
+        "I part of a plan my shoes before school.",
+        "Our visit to the park is part of a plan for the weekend.",
+        "She part of a plan very fast to the station.",
+        "The milk is part of a plan because it is cold."
+      ],
+      "answer": 1,
+      "explanation": "去公園是週末安排的一部分。",
+      "optionExplanations": [
+        "part of a plan 是名詞片語，不能拿來代替「穿鞋」等動詞。",
+        "去公園是週末安排的一部分。",
+        "這個片語不能表示走路或跑步；可以說 She runs very fast to the station.",
+        "牛奶很冷，不代表它是計畫的一部分；前後沒有合理關係。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Right where we are",
+      "meaning": "就在我們現在所在的地方。",
+      "usage": "強調某件事就在目前的位置發生，不必到別的地方。",
+      "prompt": "哪一句正確使用「right where we are」？",
+      "options": [
+        "We can sit right where we are; we don't need to move.",
+        "I right where we are my lunch at school.",
+        "She will right where we are a new bag.",
+        "Right where we are is seven years old."
+      ],
+      "answer": 0,
+      "explanation": "表示可以繼續坐在現在的位置，不用移動。",
+      "optionExplanations": [
+        "表示可以繼續坐在現在的位置，不用移動。",
+        "這個片語不能當作「吃」的動詞使用；可以說 I eat my lunch at school.",
+        "這個片語不能代替「買」；可以說 She will buy a new bag.",
+        "這個片語表示地點，不能用來說年齡。"
+      ]
+    }
+  ],
+  "cover_url": "https://edmundeducation.com/song-media/photograph/cover.webp",
+  "audio_url": "https://edmundeducation.com/song-media/thinking-out-loud/album.mp3",
+  "timingSource": {
+    "method": "faster-whisper-small.en-monotonic-word-alignment-v1",
+    "audioSha256": "0cdf3475c09b78444c9137961c58f68ab73e961097191db5141a226b77f56104",
+    "duration": 281.5768125,
+    "note": "Local speech-recognition alignment with transition rechecks."
+  }
+}

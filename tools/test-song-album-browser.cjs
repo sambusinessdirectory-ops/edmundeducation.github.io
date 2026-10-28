@@ -32,7 +32,8 @@ for (const width of [1280,390]) {
  assert.equal(await page.locator('[data-lyric-flow]').count(),original.translations.length);
  assert.equal(await page.locator('.exercise-line[data-question]').count(),50);
  assert.equal(await page.locator(`[data-lyric-flow="line-${original.translations.length}"]`).count(),1);
- assert.equal(await page.locator(`[data-lyric-flow="line-${lesson==='photograph'?3:1}"] .blank-number`).count(),2);
+ const firstMulti=original.exercises[3].listeningLines.find(l=>(l.prompt.match(/\{\{q:/g)||[]).length>1);
+ assert.equal(await page.locator(`[data-lyric-flow="${firstMulti.lineId}"] .blank-number`).count(),(firstMulti.prompt.match(/\{\{q:/g)||[]).length);
  const ready=page.locator('[data-skip-preparation]');await ready.scrollIntoViewIfNeeded();
  assert.equal(await page.locator('audio').evaluate(a=>a.paused),true);assert.equal(await page.locator('[data-floating-player]').isVisible(),false);
  const button=await ready.boundingBox(),panel=await page.locator('.player-card').boundingBox();
@@ -45,9 +46,9 @@ for (const width of [1280,390]) {
  await page.locator('[data-song-tab="translation"]').click();
 }
 await page.setViewportSize({width:1280,height:950});
-if(lesson==='photograph'){
+if(original.vocabulary.length){
 await page.locator('[data-song-tab="vocabulary"]').click();assert.equal(await page.locator('.vocabulary-option').count(),4);assert.equal(await page.locator('.vocabulary-feedback').textContent(),'');await page.locator('.vocabulary-option').nth(1).click();await page.waitForSelector('.vocabulary-option.is-correct');assert.match(await page.locator('.vocabulary-feedback').textContent(),/答案 B/);assert.equal(await page.locator('.vocabulary-feedback p').count(),5);await page.screenshot({path:'/tmp/song-photograph-vocabulary.png'});
-await page.locator('.vocabulary-navigation button').last().click();assert.match(await page.locator('.vocabulary-card h2').textContent(),/Feel alive/);
+await page.locator('.vocabulary-navigation button').last().click();assert.ok((await page.locator('.vocabulary-card h2').textContent()).includes(original.vocabulary[1].word));
 await page.reload();await page.waitForSelector('.song-card');await page.locator('.song-card > button').last().click();await page.locator('[data-song-tab="vocabulary"]').click();await page.waitForSelector('.vocabulary-option.is-correct');
 await page.setViewportSize({width:390,height:844});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);await page.screenshot({path:'/tmp/song-photograph-mobile.png'});
 }

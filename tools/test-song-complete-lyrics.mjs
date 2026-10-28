@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 const norm=s=>s.toLowerCase().replace(/[^a-z0-9]/g,'');
-for(const [name,count] of [['photograph',58],['open-arms',37]]){
+for(const [name,count] of [['photograph',58],['open-arms',37],['thinking-out-loud',41]]){
  const song=JSON.parse(fs.readFileSync(`tools/song-content/${name}.json`));
  assert.equal(song.translations.length,count);
  for(const mode of song.exercises){
