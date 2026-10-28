@@ -1070,7 +1070,9 @@
 
   function startReadCountdown() {
     window.clearInterval(state.countdownTimer);
+    pausePlayer();
     const overlay = $("[data-countdown]"); overlay.hidden = false;
+    updateFloatingPlayer();
     let remaining = 30; $("[data-countdown-value]").textContent = String(remaining);
     state.countdownTimer = window.setInterval(() => {
       remaining -= 1; $("[data-countdown-value]").textContent = String(Math.max(0, remaining));
@@ -1406,7 +1408,7 @@
     const top=header?Math.max(0,header.getBoundingClientRect().bottom):0;
     document.documentElement.style.setProperty('--song-header-height',`${top}px`);
     const original=$('[data-player-controls]');
-    bar.hidden=!(state.playerReady&&state.activeRoute==='song'&&['translation','exercise'].includes(state.activeTab)&&original.getBoundingClientRect().bottom<=top);
+    bar.hidden=!(state.playerReady&&$('[data-countdown]').hidden&&state.activeRoute==='song'&&['translation','exercise'].includes(state.activeTab)&&original.getBoundingClientRect().bottom<=top);
   }
   function setPlaybackRate(value) {if(!state.playerReady)return;const rates=state.player.getAvailablePlaybackRates?.()||[1];if(rates.includes(Number(value)))state.player.setPlaybackRate(Number(value));}
 

@@ -29,6 +29,7 @@ for (const width of [1280,390]) {
  if (await page.locator('[data-change-mode]').isVisible()) await page.locator('[data-change-mode]').click();
  await page.locator('[data-mode-grid] button').last().click();
  const ready=page.locator('[data-skip-preparation]');await ready.scrollIntoViewIfNeeded();
+ assert.equal(await page.locator('audio').evaluate(a=>a.paused),true);assert.equal(await page.locator('[data-floating-player]').isVisible(),false);
  const button=await ready.boundingBox(),panel=await page.locator('.player-card').boundingBox();
  assert.ok(button.y>=panel.y&&button.y+button.height<=panel.y+panel.height,'ready button fits inside player');
  assert.ok(await ready.evaluate(el=>{const r=el.getBoundingClientRect();return el.contains(document.elementFromPoint(r.x+r.width/2,r.y+r.height/2));}),'ready button is not clipped');
