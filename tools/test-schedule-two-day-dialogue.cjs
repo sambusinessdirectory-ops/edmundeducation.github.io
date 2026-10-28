@@ -9,7 +9,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
   const html = fs.readFileSync(path.join(root, 'schedule-system.html'), 'utf8');
   assert.match(schedule, /learningDaySummary\(payload\?\.snapshot, hongKongDayKey\(new Date\(\)\)\)/);
   assert.match(schedule, /edmund:schedule-learning-day-summary/);
-  assert.match(html, /eddy-schedule-two-day-dialogue\.js\?v=20261028-days5-6/);
+  assert.match(html, /eddy-schedule-two-day-dialogue\.js\?v=20261028-days7-10/);
   assert.match(html, /eddy-schedule-two-day-dialogue\.css\?v=20261026-1/);
 
   const browser = await chromium.launch({ headless: true, args: ['--allow-file-access-from-files'] });
@@ -35,7 +35,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
     const overlay = page.locator('.eddy-schedule-two-day-overlay');
     const message = page.locator('.eddy-first-question-message--schedule-two-day');
     await fire(page, 'student-1', 1);
-    await fire(page, 'student-1', 7);
+    await fire(page, 'student-1', 11);
     await fire(page, 'student-1', 2, previousDate);
     assert.equal(await overlay.count(), 0, 'only a current milestone qualifies');
 
@@ -73,7 +73,11 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
       [3, 7, 'eddy-schedule-three-day-dialogue.png'],
       [4, 5, 'eddy-schedule-four-day-dialogue.png'],
       [5, 7, 'eddy-schedule-five-day-dialogue.png'],
-      [6, 6, 'eddy-schedule-six-day-dialogue.png']
+      [6, 6, 'eddy-schedule-six-day-dialogue.png'],
+      [7, 7, 'eddy-schedule-seven-day-dialogue.png'],
+      [8, 5, 'eddy-schedule-eight-day-dialogue.png'],
+      [9, 6, 'eddy-schedule-nine-day-dialogue.png'],
+      [10, 3, 'eddy-schedule-ten-day-dialogue.png']
     ]) {
       for (let variant = 0; variant < count; variant += 1) {
         const id = `student-${streak}-${variant}`;
@@ -93,7 +97,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
           await page.screenshot({ path: '/tmp/eddy-schedule-three-day-mobile.png' });
         }
         if (streak === 4 && variant === 0) await page.screenshot({ path: '/tmp/eddy-schedule-four-day-mobile.png' });
-        if ((streak === 5 || streak === 6) && variant === 0) {
+        if ([5, 6, 7, 8, 9].includes(streak) && variant === 0) {
           const sizes = await message.evaluate((node) => ({ main: parseFloat(getComputedStyle(node.querySelector('strong')).fontSize), sub: parseFloat(getComputedStyle(node.querySelector('span')).fontSize) }));
           assert.ok(sizes.main > sizes.sub, `${streak}-day headline is larger`);
           await page.screenshot({ path: `/tmp/eddy-schedule-${streak}-day-mobile.png` });
@@ -103,6 +107,11 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
           await page.keyboard.press('Tab');
           assert.match(await message.textContent(), /嘴裡還咬著玫瑰/);
           assert.equal(await overlay.count(), 1, 'the final rose comment advances before closing');
+        }
+        if ((streak === 7 && variant === 4) || (streak === 9 && variant === 5)) {
+          const first = await message.textContent();
+          await page.keyboard.press('Tab');
+          assert.notEqual(await message.textContent(), first, 'the requested second page appears');
         }
         await page.keyboard.press('Enter');
         await overlay.waitFor({ state: 'detached' });
@@ -139,12 +148,12 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
     await page.close();
 
     const secondPage = await setup();
-    for (const [studentId, streak] of [['student-1', 2], ['student-3-0', 3], ['student-4-0', 4], ['student-5-0', 5], ['student-6-0', 6]]) {
+    for (const [studentId, streak] of [['student-1', 2], ['student-3-0', 3], ['student-4-0', 4], ['student-5-0', 5], ['student-6-0', 6], ['student-7-0', 7], ['student-8-0', 8], ['student-9-0', 9], ['student-10-0', 10]]) {
       await fire(secondPage, studentId, streak);
       assert.equal(await secondPage.locator('.eddy-schedule-two-day-overlay').count(), 0, `${streak}-day greeting stays dismissed across page loads`);
     }
     await secondPage.close();
-    console.log('Eddy two- through six-day homework streak browser checks passed.');
+    console.log('Eddy two- through ten-day homework streak browser checks passed.');
   } finally {
     await context.close();
     await browser.close();

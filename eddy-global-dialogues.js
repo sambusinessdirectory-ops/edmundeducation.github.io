@@ -16,6 +16,15 @@
     ['再休息五分鐘……不，十分鐘就好！……咦？已經到時間了嗎？', ''],
     ['午休結束了啊……唔～真想跟椅子黏在一起……', '']
   ];
+  const morningCoffeeLines = [
+    ['呼啊～～早、早安……', '唔……先讓 Eddy 喝完這杯咖啡……再來想想今天要做什麼吧……'],
+    ['早安……呼啊～今天的咖啡好像泡得有點多……算了，應該喝得完吧……', ''],
+    ['早……安……唔，Eddy 的腦袋還沒開機……請先補充咖啡……', ''],
+    ['咦……你說 Eddy 的黑眼圈很重？才、才沒有呢……這只是早晨限定的造型啦……', ''],
+    ['嘿咻……這杯咖啡怎麼這麼重啊……？不行……今天的精神全靠它了……', ''],
+    ['早安……Eddy 的精神，還在這杯咖啡裡泡著呢……', ''],
+    ['唔……早上六點的世界……原來長這個樣子啊……呼啊～～', '']
+  ];
   const coffeeLines = [
     ['呼～這個時間來杯咖啡，真是再幸福不過了！', '嗯～光是聞到香味，就覺得整個人都活過來了呢！'],
     ['啊～咖啡真香！要是能一直坐在這裡，什麼都不做就好了……', ''],
@@ -100,6 +109,7 @@
   const bedtimeStorageKey = 'edmund-eddy-bedtime-night-v1';
   const timedMoments = Object.freeze({
     midnightSnack: { startMinute: 120, endMinute: 350, lines: midnightSnackLines, image: '/eddy-midnight-snack-dialogue.png', label: 'Eddy 的深夜餅乾時間', storageKey: 'edmund-eddy-midnight-snack-day-v1' },
+    morningCoffee: { startMinute: 360, endMinute: 480, lines: morningCoffeeLines, image: '/eddy-morning-coffee-dialogue.png', label: 'Eddy 的清晨咖啡時間', storageKey: 'edmund-eddy-morning-coffee-day-v1' },
     coffee: { hour: 16, lines: coffeeLines, image: '/eddy-coffee-break-dialogue.png', label: 'Eddy 的午後咖啡時間', storageKey: 'edmund-eddy-coffee-break-day-v1' },
     finishingWork: { hour: 18, lines: finishingWorkLines, image: '/eddy-finishing-work-dialogue.png', label: 'Eddy 的下班前問候', storageKey: 'edmund-eddy-finishing-work-day-v1' },
     gaming: { hour: 20, lines: gamingLines, image: '/eddy-gaming-time-dialogue.png', label: 'Eddy 的遊戲時間', storageKey: 'edmund-eddy-gaming-time-day-v1' }

@@ -1,4 +1,4 @@
-/* Greet a student at the second through sixth Hong Kong learning-day milestones. */
+/* Greet a student at the second through tenth Hong Kong learning-day milestones. */
 (() => {
   'use strict';
 
@@ -42,12 +42,45 @@
     ['六天連續報到！這朵玫瑰，就讓 Eddy 帥氣地送給你吧！'],
     ['連續六天都來冒險的你，當然值得這朵玫瑰啦！', '唔唔！唔唔唔！……啊，差點忘了嘴裡還咬著玫瑰！']
   ];
+  const sevenDayVariants = [
+    [{ main: '嘿嘿……沒想到我們已經連續見面七天了呢！', sub: '這隻小熊可是 Eddy 最寶貝的喔！雖然有點捨不得……不過，送給你的話就沒關係啦！' }],
+    ['那、那個……這隻小熊陪了 Eddy 好久呢。今天第七天就把它送給你吧！你可要好好照顧它喔！'],
+    ['哼哼！連續七天都來報到，當然要有特別的獎勵！這隻小熊就……唔，真的要送出去嗎……'],
+    ['一個星期了呢！能每天見到你，Eddy 真的很開心！這隻最喜歡的小熊，就當作我們友誼的紀念吧！'],
+    ['這可是 Eddy 最喜歡的小熊喔！今天第七天就把它送給你吧！', '晚上睡覺都會抱著它呢！……啊！這件事可不准告訴別人！'],
+    ['七天的小小紀念！Eddy 最寶貝的小熊，就交給你啦！要好好珍惜喔！'],
+    ['這隻小熊啊，陪 Eddy 經歷過好多事情呢……從今天第七天起，就換它陪著你一起冒險吧！']
+  ];
+  const eightDayVariants = [
+    [{ main: '嗚……已經連續八天了呢……', sub: 'Eddy 明明有好多話想說，可是現在要是開口的話，感覺眼淚就真的要掉下來了……！' }],
+    ['八天了……真的已經八天了呢！唔……不行，Eddy 現在還不能哭……！'],
+    ['嘿嘿……連續八天都見到你，Eddy 真的很開心！所、所以這不是想哭喔！只是有點太感動了啦……！'],
+    ['能像這樣連續八天和你見面！\n這、這種程度才不會讓 Eddy 感動到想哭呢……！……嗚，可是真的很開心啊……'],
+    ['能像這樣連續八天和你見面，對 Eddy 來說，是很重要的事喔……所以現在胸口才會熱熱的呢。']
+  ];
+  const nineDayVariants = [
+    [{ main: '嘿嘿，今天可是第九天了呢！', sub: '難得有這個機會，讓 Eddy 幫你拍張紀念照吧！來，看這邊！笑一個～！' }],
+    ['嘿嘿，別亂動喔！難得連續九天都見到你，Eddy 當然要把這一刻拍下來啦！'],
+    [{ main: '今天可是第九天了呢！', sub: '好！姿勢擺好了嗎？再往左一點……對對對！就是這樣！嘿嘿，Eddy 要拍囉！' }],
+    ['第九天了呢！\n咔嚓！嘿嘿，拍到啦！咦？你問什麼時候拍的？當然是你沒注意的時候囉！'],
+    ['已經一起走過九天了呢！這麼珍貴的回憶，當然要好好留住！來，一起拍張照吧！'],
+    ['九天的小小紀念！來，看鏡頭！Eddy 要幫你拍照囉！', '再往左一點……對對對！就是這樣！']
+  ];
+  const tenDayVariants = [
+    ['哼哼……終於等到這一刻了！連續十天走到這裡的你，值得接受 Eddy 特別準備的挑戰！'],
+    ['很好，你果然來了！Eddy 可不是白白等你十天的喔！今天，就拿出你的真本事來吧！'],
+    ['嘿嘿，我一直在等你出現呢。因為連續十天，Eddy 有一場特別的挑戰想送給你！']
+  ];
   const milestones = {
     2: { variants: twoDayVariants, image: 'eddy-schedule-two-day-dialogue.png' },
     3: { variants: threeDayVariants, image: 'eddy-schedule-three-day-dialogue.png' },
     4: { variants: fourDayVariants, image: 'eddy-schedule-four-day-dialogue.png' },
     5: { variants: fiveDayVariants, image: 'eddy-schedule-five-day-dialogue.png' },
-    6: { variants: sixDayVariants, image: 'eddy-schedule-six-day-dialogue.png' }
+    6: { variants: sixDayVariants, image: 'eddy-schedule-six-day-dialogue.png' },
+    7: { variants: sevenDayVariants, image: 'eddy-schedule-seven-day-dialogue.png' },
+    8: { variants: eightDayVariants, image: 'eddy-schedule-eight-day-dialogue.png' },
+    9: { variants: nineDayVariants, image: 'eddy-schedule-nine-day-dialogue.png' },
+    10: { variants: tenDayVariants, image: 'eddy-schedule-ten-day-dialogue.png' }
   };
   const storagePrefix = 'edmund-eddy-schedule-two-day-v1:';
   const shown = new Set();

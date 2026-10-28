@@ -13,6 +13,7 @@ import {
   hongKongDayKey,
   isDateInScheduleRange,
   lastWeekStart,
+  mondayFor,
   parseISODate,
   toISODate,
   weekDates
@@ -5222,6 +5223,44 @@ function activeStudent() {
   return state.selectedStudent;
 }
 
+const checkedIncompleteHomeworkDays = new Set();
+
+async function checkTwoDayIncompleteHomework(student, token, loadedWeek, loadedEntries) {
+  if (state.currentUser?.role !== "student") return;
+  const today = hongKongDayKey();
+  const checkKey = `${student.id}:${today}`;
+  if (checkedIncompleteHomeworkDays.has(checkKey)) return;
+  checkedIncompleteHomeworkDays.add(checkKey);
+  try {
+    const dates = [-1, -2].map((offset) => toISODate(addDays(parseISODate(today), offset)));
+    if (dates.some((date) => !isDateInScheduleRange(date))) return;
+    const weekStarts = [...new Set(dates.map((date) => toISODate(mondayFor(parseISODate(date)))))];
+    const weeks = await Promise.all(weekStarts.map(async (weekStart) => {
+      if (weekStart === loadedWeek) return loadedEntries;
+      const payload = await callRpc("schedule_student_get_week", {
+        p_token: token,
+        p_week_start: weekStart
+      });
+      if (!payload || !Array.isArray(payload.entries)) throw new Error("Previous homework could not be loaded");
+      return payload.entries;
+    }));
+    if (state.currentUser?.role !== "student" || state.currentUser.id !== student.id
+      || state.currentUser.studentToken !== token || hongKongDayKey() !== today) return;
+    const recentHomework = weeks.flat().filter((entry) => {
+      if (!dates.includes(entry.scheduleDate)) return false;
+      const homework = parseScheduleMessage(entry.message);
+      return Boolean(homework.text.trim() || homework.resources.length);
+    });
+    if (!recentHomework.length || recentHomework.some((entry) => entry.isCompleted === true)) return;
+    document.dispatchEvent(new CustomEvent("edmund:schedule-two-day-incomplete-homework", {
+      detail: { studentId: String(student.id), date: today }
+    }));
+  } catch (error) {
+    checkedIncompleteHomeworkDays.delete(checkKey);
+    console.warn("Previous two days of homework could not be checked", error);
+  }
+}
+
 async function loadWeek(focusTarget = null) {
   await flushPendingMotivationSaves();
   const student = activeStudent();
@@ -5365,6 +5404,9 @@ async function loadWeek(focusTarget = null) {
     renderLearningPurpose();
     renderLanguageOpportunities();
     loadLearningDayCounters();
+    if (state.currentUser.role === "student") {
+      void checkTwoDayIncompleteHomework(student, state.currentUser.studentToken, requestedWeek, state.weekPayload.entries);
+    }
     renderMetrics();
     renderCountdowns();
     restoreCalendarFocus(focusTarget);
