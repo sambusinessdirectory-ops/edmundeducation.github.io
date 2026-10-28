@@ -362,3 +362,5 @@ body[data-polysemy-companion="phoebe"] .recorder .companion-recorder-art.is-audi
 /* Shared across every Polysemy module: punctuation groups and short endings stay together. */
 .answer-grid .answer-label{min-width:0;line-break:strict;word-break:normal;overflow-wrap:break-word;text-wrap:pretty}
 .answer-grid .answer-clause,.answer-grid .answer-tail{white-space:nowrap}
+
+.live-lesson-controls{margin:0 0 1.5rem;padding:1rem;border:1px solid #b7cdca;border-radius:14px;background:#f0f7f5}.live-lesson-controls p{margin:.65rem 0 0;line-height:1.6}.live-lesson-controls button[aria-pressed=true]{background:#173e48;color:#fff}.polysemy-tutor-view [data-redo],.polysemy-tutor-view [data-open-recorder],.polysemy-tutor-view [data-recordings]{display:none}

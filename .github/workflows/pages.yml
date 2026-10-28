@@ -209,6 +209,8 @@ jobs:
           node --check grammar-advanced-articles.js
           node --check error-identifier.js
           node --check error-identifier-passage.js
+          node tools/test-theme-finder.mjs
+          node --check theme-finder.mjs
           node --check reading-comprehension.js
           node tools/test-study-highlighter.mjs
           node tools/test-dse-reading-question-types.mjs
