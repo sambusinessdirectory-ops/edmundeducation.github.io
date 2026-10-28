@@ -1,7 +1,7 @@
 {
   "date": "2026-10-28",
   "baseline": "41f8d46de2842e0d4bf69ed97787b8891205fa09",
-  "scope": "Writing Practice page and all 21 loaded Writing Practice data scripts; no unrelated portal corpus",
+  "scope": "Writing Practice page and all 21 loaded Writing Practice data scripts; no unrelated portal corpus; additionally checked all three imported French/Italian data scripts and revised two Chinese glosses",
   "translationAudit": {
     "exerciseCount": 407,
     "chineseStringFields": 20053,
@@ -10,7 +10,8 @@
     "editedOccurrencesBeforeRefinement": 295,
     "changedChineseFieldsInExternalData": 241,
     "unchangedExternalDataLeaves": 302487,
-    "review": "Every matching clause individually rewritten; paired English sources checked for revised translation units. Whole corpus scanned for prohibited syntax, including line-break variants. This does not certify unrelated pre-existing translation alignment or omissions."
+    "review": "Every matching clause individually rewritten; paired English sources checked for revised translation units. Whole corpus scanned for prohibited syntax, including line-break variants. This does not certify unrelated pre-existing translation alignment or omissions.",
+    "additionalEditionGlossesRevised": 2
   },
   "persistence": {
     "storage": "Immediate localStorage per input, account-scoped; sessionStorage fallback when device storage is full. Explicit warning when both fail. No new cross-device draft synchronization.",

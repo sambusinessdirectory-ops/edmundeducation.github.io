@@ -5,6 +5,7 @@ import {execFileSync} from 'node:child_process';
 const baseline = process.argv[2] || 'HEAD';
 const html = fs.readFileSync('writing-practice.html','utf8');
 const files = [...html.matchAll(/<script src="(writing-practice[^"?]+-data\.js)/g)].map(m=>m[1]);
+files.push('italian-1-burro-montato-data.js','italian-2-torta-coi-bischeri-data.js','french-1-fondant-data.js');
 const records=[];
 let checkedLeaves=0;
 function compare(a,b,path,file,parentA,parentB) {

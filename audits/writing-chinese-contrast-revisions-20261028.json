@@ -1161,5 +1161,17 @@
     "after": "只有在企業除了稱讚新想法，也願意投資和保護它們，並承受創新帶來的不適時，才會發生",
     "occurrences": 2,
     "stage": "source-fidelity refinement"
+  },
+  {
+    "file": "italian-2-torta-coi-bischeri-data.js",
+    "before": "Da decenni 不是指幾個月，而是指很多年",
+    "after": "Da decenni 指的是很多年，不能理解成幾個月",
+    "occurrences": 1
+  },
+  {
+    "file": "french-1-fondant-data.js",
+    "before": "conseiller 不是強迫，而是提供合理方向",
+    "after": "conseiller 的意思是提供合理方向，並無強迫之意",
+    "occurrences": 1
   }
 ]

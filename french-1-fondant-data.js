@@ -3677,7 +3677,7 @@ window.EDMUND_FRENCH_LESSON = {
         {
           "en": "Conseiller n’est pas forcer, mais donner une direction raisonnable.",
           "translation": "To advise is not to force, but to give a reasonable direction.",
-          "zh": "(conseiller 不是強迫，而是提供合理方向。)"
+          "zh": "(conseiller 的意思是提供合理方向，並無強迫之意。)"
         }
       ],
       "sourcePage": 13

@@ -649,7 +649,7 @@ window.EDMUND_ITALIAN_LESSON_2 = {
         {
           "en": "Da decenni non significa da pochi mesi, ma da molti anni.",
           "translation": "For decades does not mean for a few months but for many years.",
-          "zh": "(Da decenni 不是指幾個月，而是指很多年。)"
+          "zh": "(Da decenni 指的是很多年，不能理解成幾個月。)"
         }
       ]
     },
