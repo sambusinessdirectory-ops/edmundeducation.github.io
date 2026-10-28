@@ -1,0 +1,21 @@
+/* ImageGen frame assets stay outside each card's painted illustration. */
+.category-strip a.category {
+  border: 20px solid transparent !important;
+  border-image-source: url('homepage-frame-silver-amethyst-v1.webp') !important;
+  border-image-slice: 160 !important;
+  border-image-width: 20px !important;
+  border-image-repeat: stretch !important;
+  background-clip: padding-box !important;
+  padding: 2px !important;
+  box-shadow: none !important;
+}
+.category-strip a.category[data-fantasy-frame="tall"] {
+  border-image-source: url('homepage-frame-dark-ember-v1.webp') !important;
+}
+@media (max-width: 760px) {
+  .category-strip a.category {
+    border-width: 17px !important;
+    border-image-width: 17px !important;
+    padding: 2px !important;
+  }
+}
