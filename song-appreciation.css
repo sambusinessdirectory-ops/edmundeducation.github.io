@@ -412,3 +412,26 @@ button { color: inherit; }
   .choice-grid { gap:.35rem; }
   .choice-button { grid-template-columns:auto minmax(0,1fr); padding:.5rem; }
 }
+
+/* Album lessons and the fourth, vocabulary section. */
+.login-view { grid-template-columns: minmax(0, 520px); justify-content:center; }
+.content-tabs { grid-template-columns:repeat(4,minmax(0,1fr)); }
+.album-player-art { display:flex; align-items:center; gap:20px; padding:20px; background:linear-gradient(110deg,#e3f0e9,#f7efdf); color:#224b43; }
+.album-player-art img { width:96px; height:96px; object-fit:cover; border-radius:12px; box-shadow:0 6px 20px #143e3420; }
+.youtube-shell:has(.album-player-art) { aspect-ratio:auto; min-height:0; }
+.vocabulary-progress { color:#407567; font-weight:800; letter-spacing:.08em; }
+.vocabulary-card { border:1px solid #d8e7df; border-radius:22px; padding:clamp(20px,4vw,38px); background:linear-gradient(145deg,#fffef9,#f1f8f4); }
+.vocabulary-card h2 { font-size:clamp(28px,4vw,40px); margin:0 0 12px; color:#234e43; }
+.vocabulary-meaning { display:inline-block; padding:8px 14px; border-radius:12px; background:#e1eee7; font-weight:700; }
+.vocabulary-options { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin:22px 0; }
+.vocabulary-option { display:flex; align-items:center; text-align:left; gap:14px; padding:18px; border:1px solid #ceded7; border-radius:14px; color:#203e38; background:white; line-height:1.6; cursor:pointer; }
+.vocabulary-option b { border-radius:8px; padding:5px 10px; background:#eee8f6; color:#60507e; }
+.vocabulary-option:hover:not(:disabled) { border-color:#427866; background:#f0f8f3; }
+.vocabulary-option.is-correct { border-color:#33846b; background:#e0f2e8; }
+.vocabulary-option.is-wrong { border-color:#bc715e; background:#fff0e9; }
+.vocabulary-option:disabled { opacity:1; cursor:default; }
+.vocabulary-feedback:not(:empty) { border-left:4px solid #bf9457; padding:12px 22px; background:#fff8e9; border-radius:0 12px 12px 0; line-height:1.8; }
+.vocabulary-navigation { display:flex; justify-content:space-between; gap:16px; margin-top:22px; }
+[data-vocabulary] { scroll-margin-top:100px; }
+@media(max-width:640px) { .content-tabs { grid-template-columns:repeat(2,minmax(0,1fr)); } .vocabulary-options { grid-template-columns:1fr; } }
+.song-cover img, .song-card__thumb img { object-fit:contain; background:#e6eee7; }

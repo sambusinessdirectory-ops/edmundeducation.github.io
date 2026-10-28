@@ -49,7 +49,7 @@ assert.match(html, /data-edmund-system-switcher data-system="song-appreciation"/
 
 for (const pattern of [
   /flashcard_student_login/, /student_list_songs/, /student_get_song/, /admin_set_access/,
-  /bookmark_add/, /bookmark_delete/, /attempt_save/, /youtubeVideoId/, /i\.ytimg\.com\/vi/,
+  /bookmark_add/, /bookmark_delete/, /attempt_save/, /youtubeVideoId/, /song_appreciation_admin_save_lesson/,
   /getSelection/, /kind: "phrase"/, /kind:\s*"word"/, /remaining = 30/, /seekPlayerTo\(value\)/,
   /exercise\.answers\[number\] = option/, /p_mode_id/, /p_exercise_version/, /dailyAttemptSeries/,
   /dashboardPreferenceKey/, /aria-checked/, /player\.seekTo\(0, true\)/, /fetchAllPages/,

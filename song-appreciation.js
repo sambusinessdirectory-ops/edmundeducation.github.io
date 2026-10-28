@@ -23,6 +23,8 @@
     client: null,
     session: null,
     songs: [],
+    lessonExtras: {},
+    vocabularyIndex: 0,
     activeSong: null,
     activeRoute: "library",
     activeTab: "description",
@@ -201,6 +203,10 @@
       exerciseName: text(raw?.exerciseName || raw?.exercise_name || `${raw?.title || "Song"} Listening Practice`),
       description: text(raw?.description),
       youtubeUrl: text(raw?.youtubeUrl || raw?.youtube_url),
+      coverUrl: safeMediaUrl(raw?.coverUrl || raw?.cover_url, true),
+      audioUrl: safeMediaUrl(raw?.audioUrl || raw?.audio_url),
+      vocabulary: asArray(raw?.vocabulary),
+      vocabularyProgress: raw?.vocabularyProgress || raw?.vocabulary_progress || {},
       tags: asArray(raw?.tags).map(text).filter(Boolean),
       translations: normalizeTranslationRows(translations),
       modes: asArray(modes).map((mode, index) => normalizeMode(mode, index, includeAnswers)),
@@ -244,10 +250,20 @@
     } catch { return ""; }
   }
 
-  function thumbnailUrl(song) {
-    const id = youtubeVideoId(song?.youtubeUrl);
-    return id ? `https://i.ytimg.com/vi/${encodeURIComponent(id)}/hqdefault.jpg` : "";
+  function safeMediaUrl(value, image = false) {
+    const url = text(value).trim();
+    return /^(https:\/\/(edmundeducation\.com|edmund-speaking-system\.edmundeducation\.workers\.dev)\/|assets\/)/i.test(url) || (image && /^data:image\/(webp|png|jpeg);base64,/i.test(url)) ? url : "";
   }
+  function thumbnailUrl(song) { return song?.coverUrl || ""; }
+  function hasSongAudio(song) { return Boolean(song?.audioUrl || youtubeVideoId(song?.youtubeUrl)); }
+  async function loadLessonExtras() {
+    const session = state.session;
+    const rows = await rpc("song_appreciation_lesson_extras", {p_token:session.token, p_admin:session.role === "admin"});
+    if (state.session !== session) return;
+    state.lessonExtras = Object.fromEntries(asArray(rows).map(row => [row.id, row]));
+  }
+  function withLessonExtras(row) { const song = row.song || row; return {...song, ...state.lessonExtras[song.id]}; }
+
 
   function tagElements(tags, container) {
     container.replaceChildren();
@@ -379,6 +395,7 @@
 
   async function loadStudentData() {
     const token = state.session.token;
+    await loadLessonExtras();
     const [songRows, bookmarkRows, attemptRows, draftRows, playbackRows] = await Promise.all([
       rpc(CONFIG.rpc.listSongs, { p_student_token: token }),
       fetchAllPages(CONFIG.rpc.listBookmarks, { p_student_token: token, p_song_id: null }),
@@ -389,7 +406,7 @@
     if (state.session?.token !== token) return;
     state.drafts = Object.fromEntries(asArray(draftRows).map(row=>[draftIdentity(row.song_id,row.mode_id),row]));
     state.songs = asArray(songRows)
-      .map(row => normalizeSong(row.song || row, { includeAnswers: false }))
+      .map(row => normalizeSong(withLessonExtras(row), { includeAnswers: false }))
       .map(song => validateSong(song, { requireAnswers: false }))
       .sort((a, b) => a.sortOrder - b.sortOrder || a.title.localeCompare(b.title));
     state.bookmarks = asArray(bookmarkRows).map(normalizeBookmark);
@@ -467,7 +484,7 @@
     if (source) {
       const image = new Image();
       image.src = source;
-      image.alt = `${song.title} YouTube 縮圖`;
+      image.alt = `${song.title} 專輯封面`;
       image.loading = "lazy";
       image.referrerPolicy = "no-referrer";
       thumb.prepend(image);
@@ -505,7 +522,7 @@
       const row = firstRow(await rpc(CONFIG.rpc.getSong, { p_student_token: state.session.token, p_song_id: songId }));
       if(state.session?.token!==token || state.songOpenGeneration!==requestId)return;
       if (!row) throw new Error("你目前未獲授權開啟這首歌。");
-      const song = validateSong(normalizeSong(row.song || row, { includeAnswers: false }), { requireAnswers: false });
+      const song = validateSong(normalizeSong(withLessonExtras(row), { includeAnswers: false }), { requireAnswers: false });
       if (!song.translations.length || !song.modes.some(mode => mode.questions.length)) throw new Error("這首歌的練習資料尚未完成。");
       pausePlayer();
       await flushPlayback();
@@ -526,19 +543,22 @@
     $("img", cover)?.remove();
     const source = thumbnailUrl(song);
     if (source) {
-      const image = new Image(); image.src = source; image.alt = `${song.title} YouTube 縮圖`; image.referrerPolicy = "no-referrer";
+      const image = new Image(); image.src = source; image.alt = `${song.title} 專輯封面`; image.referrerPolicy = "no-referrer";
       cover.prepend(image);
     }
     $("[data-cover-fallback]", cover).hidden = Boolean(source);
     renderTranslations(song);
     renderModes(song);
+    state.vocabularyIndex = 0;
+    renderVocabulary();
     resetExercise();
     destroyPlayer();
-    if (youtubeVideoId(song.youtubeUrl)) mountPlayer(song.youtubeUrl);
+    if (song.audioUrl) mountAudioPlayer(song);
+    else if (youtubeVideoId(song.youtubeUrl)) mountPlayer(song.youtubeUrl);
   }
 
   function switchSongTab(tab) {
-    const valid = ["description", "translation", "exercise"].includes(tab) ? tab : "description";
+    const valid = ["description", "translation", "exercise", "vocabulary"].includes(tab) ? tab : "description";
     state.activeTab = valid;
     $$("[data-song-tab]").forEach(button => {
       const active = button.dataset.songTab === valid;
@@ -546,11 +566,11 @@
       button.tabIndex = active ? 0 : -1;
     });
     $$("[data-tab-panel]").forEach(panel => { panel.hidden = panel.dataset.tabPanel !== valid; });
-    $("[data-song-player]").hidden = valid === "description";
-    if (valid === "description") { cancelReadCountdown(); pausePlayer(); pauseExerciseClock(); storeLocalDraft(); void flushDraft().catch(()=>{}); }
+    $("[data-song-player]").hidden = ["description", "vocabulary"].includes(valid);
+    if (valid === "description" || valid === "vocabulary") { cancelReadCountdown(); pausePlayer(); pauseExerciseClock(); storeLocalDraft(); void flushDraft().catch(()=>{}); }
     else if (valid === "translation") { cancelReadCountdown(); pauseExerciseClock(); storeLocalDraft(); void flushDraft().catch(()=>{}); }
     else {
-      if (state.exercise?.locked && youtubeVideoId(state.activeSong?.youtubeUrl) && !state.countdownTimer) startReadCountdown();
+      if (state.exercise?.locked && hasSongAudio(state.activeSong) && !state.countdownTimer) startReadCountdown();
       startExerciseClock();
     }
     updateFloatingPlayer();
@@ -994,7 +1014,7 @@
     if(state.activeSong!==song || state.exerciseStartGeneration!==startGeneration)return;
     resetExercise();
     const draft=draftForMode(song.id,mode);
-    state.exercise = { songId:song.id,ownerId:state.session.id,mode, answers: {...(draft?.answers||{})},results:draft?.result||{},revision:Number(draft?.revision||0),dirty:Boolean(draft?.dirty),pendingDraft:draft?.pending||null,pendingSubmission:draft?.pendingSubmission||null,editSequence:draft?.editSequence||0,conflict:Boolean(draft?.conflict), locked: Boolean(youtubeVideoId(song.youtubeUrl)), submitted: false, startedAt: draft?.started_at||new Date().toISOString(), activeSeconds: Number(draft?.duration_ms||0)/1000, clockStarted: 0 };
+    state.exercise = { songId:song.id,ownerId:state.session.id,mode, answers: {...(draft?.answers||{})},results:draft?.result||{},revision:Number(draft?.revision||0),dirty:Boolean(draft?.dirty),pendingDraft:draft?.pending||null,pendingSubmission:draft?.pendingSubmission||null,editSequence:draft?.editSequence||0,conflict:Boolean(draft?.conflict), locked: hasSongAudio(song), submitted: false, startedAt: draft?.started_at||new Date().toISOString(), activeSeconds: Number(draft?.duration_ms||0)/1000, clockStarted: 0 };
     $("[data-mode-grid]").hidden = true;
     $("[data-exercise-stage]").hidden = false;
     $("[data-mode-title]").textContent = `${mode.label} · ${mode.questionCount} 題`;
@@ -1004,7 +1024,7 @@
     startExerciseClock();
     setDraftStatus(draft?"已恢復上次的練習進度":"選擇答案後會自動儲存。");
     if(state.exercise.dirty || state.exercise.pendingDraft)void flushDraft().catch(()=>{});
-    if (youtubeVideoId(song.youtubeUrl)) {
+    if (hasSongAudio(song)) {
       startReadCountdown();
     } else {
       state.exercise.locked = false;
@@ -1063,7 +1083,7 @@
     window.clearInterval(state.countdownTimer); state.countdownTimer = 0;
     $("[data-countdown]").hidden = true;
     if (wasRunning && state.exercise && !state.exercise.submitted) {
-      state.exercise.locked = Boolean(youtubeVideoId(state.activeSong?.youtubeUrl));
+      state.exercise.locked = Boolean(hasSongAudio(state.activeSong));
       renderExerciseQuestions();
     }
   }
@@ -1390,6 +1410,75 @@
   }
   function setPlaybackRate(value) {if(!state.playerReady)return;const rates=state.player.getAvailablePlaybackRates?.()||[1];if(rates.includes(Number(value)))state.player.setPlaybackRate(Number(value));}
 
+  function mountAudioPlayer(song) {
+    const generation = ++state.playerGeneration;
+    const shell = $("[data-youtube-shell]"); shell.replaceChildren();
+    const audio = document.createElement("audio"); audio.preload = "metadata"; audio.src = song.audioUrl;
+    const artwork = document.createElement("div"); artwork.className = "album-player-art";
+    if (song.coverUrl) { const image = new Image(); image.src = song.coverUrl; image.alt = `${song.title} 專輯封面`; artwork.append(image); }
+    const label = document.createElement("strong"); label.textContent = `${song.title} · ${song.singer}`; artwork.append(label); shell.append(artwork, audio);
+    const current = () => generation === state.playerGeneration;
+    state.player = {
+      getCurrentTime: () => audio.currentTime, getDuration: () => Number.isFinite(audio.duration) ? audio.duration : 0,
+      playVideo: () => { audio.play().catch(() => { if (current()) { $("[data-autoplay-note]").hidden = false; toast("請按播放開始歌曲。", "error"); } }); },
+      pauseVideo: () => audio.pause(), seekTo: time => { audio.currentTime = time; },
+      getAvailablePlaybackRates: () => [.5,.75,1,1.25,1.5], getPlaybackRate: () => audio.playbackRate,
+      setPlaybackRate: rate => { audio.playbackRate = rate; },
+      destroy: () => { audio.pause(); audio.removeAttribute("src"); audio.load(); }
+    };
+    audio.addEventListener("loadedmetadata", () => { if (!current()) return; state.playerReady = true; $("[data-player-controls]").hidden = false; syncPlaybackControls(); });
+    audio.addEventListener("play", () => { if (!current()) return; state.playerState = 1; beginPlaybackTracking(); syncPlaybackControls(); });
+    for (const event of ["pause", "ended"]) audio.addEventListener(event, () => { if (!current()) return; state.playerState = event === "ended" ? 0 : 2; endPlaybackTracking(); syncPlaybackControls(); });
+    audio.addEventListener("seeked", () => { if (current()) syncLyricsToPlayback(); });
+    audio.addEventListener("ratechange", () => { if (current()) syncPlaybackControls(); });
+    audio.addEventListener("error", () => { if (current()) toast("未能載入歌曲音訊，請重試或聯絡老師。", "error"); });
+  }
+
+  function renderVocabulary() {
+    const holder = $("[data-vocabulary]"); if (!holder) return; holder.replaceChildren();
+    const song = state.activeSong;
+    if (!song?.vocabulary.length) { holder.textContent = "這首歌的字彙練習尚未加入。"; return; }
+    const index = state.vocabularyIndex, question = song.vocabulary[index], saved = song.vocabularyProgress[question.number];
+    const progress = document.createElement("p"); progress.className = "vocabulary-progress";
+    progress.textContent = `WORD ${String(index + 1).padStart(2, "0")} / ${song.vocabulary.length} · 已完成 ${Object.keys(song.vocabularyProgress).length} 題`;
+    const card = document.createElement("article"); card.className = "vocabulary-card";
+    const title = document.createElement("h2"); title.textContent = question.word;
+    const meaning = document.createElement("p"); meaning.className = "vocabulary-meaning"; meaning.textContent = question.meaning;
+    const usage = document.createElement("p"); usage.textContent = question.usage;
+    const prompt = document.createElement("h3"); prompt.textContent = question.prompt;
+    const options = document.createElement("div"); options.className = "vocabulary-options";
+    const feedback = document.createElement("div"); feedback.setAttribute("role", "status"); feedback.className = "vocabulary-feedback";
+    question.options.forEach((option, selected) => {
+      const button = document.createElement("button"); button.type = "button"; button.className = "vocabulary-option";
+      const letter = document.createElement("b"); letter.textContent = "ABCD"[selected];
+      const sentence = document.createElement("span"); sentence.textContent = option; button.append(letter, sentence);
+      if (saved) { button.disabled = true; button.classList.toggle("is-correct", selected === saved.answer); button.classList.toggle("is-wrong", selected === saved.selected && selected !== saved.answer); }
+      button.onclick = async () => {
+        options.querySelectorAll("button").forEach(b => b.disabled = true); feedback.textContent = "正在核對並儲存…";
+        const token = state.session.token;
+        try {
+          const result = await rpc("song_appreciation_vocabulary_answer", {p_student_token:token,p_song_id:song.id,p_number:question.number,p_selected:selected});
+          if (state.session?.token !== token) return;
+          song.vocabularyProgress[question.number] = result;
+          if (state.lessonExtras[song.id]) state.lessonExtras[song.id].vocabulary_progress = song.vocabularyProgress;
+          if (state.activeSong === song && state.vocabularyIndex === index) renderVocabulary();
+        } catch { feedback.textContent = "未能儲存，請再試一次。"; options.querySelectorAll("button").forEach(b => b.disabled = false); }
+      };
+      options.append(button);
+    });
+    if (saved) {
+      const summary = document.createElement("h3"); summary.textContent = `${saved.selected === saved.answer ? "答對了！" : "再看看用法："}答案 ${"ABCD"[saved.answer]}`;
+      const explanation = document.createElement("p"); explanation.textContent = saved.explanation; feedback.append(summary, explanation);
+      asArray(saved.optionExplanations).forEach((value, i) => { const row = document.createElement("p"); row.textContent = `${"ABCD"[i]} · ${value}`; feedback.append(row); });
+    }
+    const navigation = document.createElement("div"); navigation.className = "vocabulary-navigation";
+    for (const [label, delta] of [["← 上一題", -1], ["下一題 →", 1]]) {
+      const button = document.createElement("button"); button.type = "button"; button.className = "secondary-button"; button.textContent = label; button.disabled = index + delta < 0 || index + delta >= song.vocabulary.length;
+      button.onclick = () => { state.vocabularyIndex += delta; renderVocabulary(); holder.scrollIntoView({behavior:"smooth",block:"start"}); }; navigation.append(button);
+    }
+    card.append(title, meaning, usage, prompt, options, feedback); holder.append(progress, card, navigation);
+  }
+
   let youtubeApiPromise = null;
   function loadYouTubeApi() {
     if (window.YT?.Player) return Promise.resolve(window.YT);
@@ -1431,7 +1520,7 @@
     const shell = $("[data-youtube-shell]");
     if (shell && !$(".youtube-placeholder", shell)) {
       const placeholder = document.createElement("div"); placeholder.className = "youtube-placeholder";
-      const icon = document.createElement("span"); icon.textContent = "♪"; const title = document.createElement("strong"); title.textContent = "等待管理員加入 YouTube 連結"; const note = document.createElement("small"); note.textContent = "題目仍可先行練習及核對。"; placeholder.append(icon, title, note); shell.replaceChildren(placeholder);
+      const icon = document.createElement("span"); icon.textContent = "♪"; const title = document.createElement("strong"); title.textContent = "等待管理員加入歌曲音訊"; const note = document.createElement("small"); note.textContent = "題目仍可先行練習及核對。"; placeholder.append(icon, title, note); shell.replaceChildren(placeholder);
     }
     $("[data-player-controls]").hidden = true;
     updateFloatingPlayer();
@@ -1444,14 +1533,14 @@
     }
     try {
       state.player.playVideo();
-      if (fromCountdown) window.setTimeout(() => { if (state.playerState !== window.YT?.PlayerState?.PLAYING) $("[data-autoplay-note]").hidden = false; }, 1200);
+      if (fromCountdown) window.setTimeout(() => { if (state.playerState !== 1) $("[data-autoplay-note]").hidden = false; }, 1200);
     } catch { $("[data-autoplay-note]").hidden = false; }
   }
 
   function pausePlayer() { try { state.player?.pauseVideo?.(); } catch { /* Best effort. */ } }
   function togglePlayer() {
     if (!state.playerReady) return;
-    if (state.playerState === window.YT?.PlayerState?.PLAYING) pausePlayer(); else playPlayer();
+    if (state.playerState === 1) pausePlayer(); else playPlayer();
   }
   function seekPlayer(delta) {
     if (!state.playerReady) return;
@@ -1465,9 +1554,10 @@
     showView("admin");
     setConnection("online", "管理模式");
     try {
+      await loadLessonExtras();
       const rows = await rpc(CONFIG.rpc.adminListSongs, { p_admin_token: state.session.token });
       state.adminSongs = asArray(rows)
-        .map(row => normalizeSong(row.song || row, { includeAnswers: true }))
+        .map(row => normalizeSong(withLessonExtras(row), { includeAnswers: true }))
         .map(song => validateSong(song, { requireAnswers: true }))
         .sort((a, b) => a.sortOrder - b.sortOrder || a.title.localeCompare(b.title));
       renderAdminSongList();
@@ -1490,7 +1580,9 @@
     form.elements.title.value = song.title || "";
     form.elements.singer.value = song.singer || "";
     form.elements.exerciseName.value = song.exerciseName || "";
-    form.elements.youtubeUrl.value = song.youtubeUrl || "";
+    form.elements.coverUrl.value = song.coverUrl || "";
+    form.elements.audioUrl.value = song.audioUrl || "";
+    form.elements.coverFile.value = "";
     form.elements.tags.value = song.tags.join(", ");
     form.elements.description.value = song.description || "";
     form.elements.published.checked = song.published !== false;
@@ -1517,18 +1609,34 @@
   }
 
   function updateAdminYouTubePreview() {
-    const input = $("[data-song-form]").elements.youtubeUrl;
-    const id = youtubeVideoId(input.value);
-    const status = $("[data-youtube-validation]"); const preview = $("[data-youtube-preview]");
-    input.setCustomValidity(input.value.trim() && !id ? "請貼上有效的 YouTube 連結。" : "");
-    status.textContent = input.value.trim() && !id ? "未能辨認這個 YouTube 連結。" : id ? "已辨認影片；縮圖會自動顯示。" : "留空亦可，稍後再加入。";
-    preview.replaceChildren(); preview.hidden = !id;
-    if (id) { const image = new Image(); image.src = `https://i.ytimg.com/vi/${id}/hqdefault.jpg`; image.alt = "YouTube 影片縮圖預覽"; image.referrerPolicy = "no-referrer"; preview.append(image); }
+    const form = $("[data-song-form]"), preview = $("[data-youtube-preview]");
+    const source = safeMediaUrl(form.elements.coverUrl.value, true);
+    preview.replaceChildren(); preview.hidden = !source;
+    if (source) { const image = new Image(); image.src = source; image.alt = "專輯封面預覽"; preview.append(image); }
+  }
+  async function importAlbumCover(event) {
+    const file = event.target.files?.[0]; if (!file) return;
+    if (!/^image\/(jpeg|png|webp)$/.test(file.type) || file.size > 10 * 1024 * 1024) { toast("請選擇 10 MB 以下的 JPG、PNG 或 WebP 圖片。", "error"); return; }
+    const form = event.target.form, songId = form.elements.id.value;
+    const url = URL.createObjectURL(file);
+    try {
+      const image = new Image(); image.src = url; await image.decode();
+      const scale = Math.min(1, 720 / Math.max(image.width, image.height));
+      const canvas = document.createElement("canvas"); canvas.width = Math.round(image.width * scale); canvas.height = Math.round(image.height * scale); canvas.getContext("2d").drawImage(image, 0, 0, canvas.width, canvas.height);
+      const data = canvas.toDataURL("image/webp", .85);
+      if (data.length > 750000) throw new Error("圖片內容太大，請使用較小的封面。");
+      if (form.elements.id.value !== songId) return;
+      form.elements.coverUrl.value = data; updateAdminYouTubePreview();
+    } catch (error) { toast(error.message || "未能讀取圖片。", "error"); } finally { URL.revokeObjectURL(url); }
   }
 
   async function saveAdminSong(event) {
     event.preventDefault();
     const form = event.currentTarget;
+    for (const [name, image] of [["coverUrl", true], ["audioUrl", false]]) {
+      const input = form.elements[name];
+      input.setCustomValidity(input.value.trim() && !safeMediaUrl(input.value, image) ? "請使用 EdmundEducation 的媒體網址；封面亦可直接上載。" : "");
+    }
     if (!form.reportValidity()) return;
     const existing = state.adminSong;
     const id = normalizeSpace(form.elements.id.value) || null;
@@ -1539,7 +1647,9 @@
       singer: normalizeSpace(form.elements.singer.value),
       exerciseName: normalizeSpace(form.elements.exerciseName.value),
       description: text(form.elements.description.value).trim(),
-      youtubeUrl: text(form.elements.youtubeUrl.value).trim(),
+      youtubeUrl: existing?.youtubeUrl || "",
+      cover_url: form.elements.coverUrl.value.trim(),
+      audio_url: form.elements.audioUrl.value.trim(),
       tags: text(form.elements.tags.value).split(",").map(normalizeSpace).filter(Boolean),
       published: form.elements.published.checked,
       sortOrder: Number(form.elements.sortOrder.value) || 0,
@@ -1548,23 +1658,10 @@
     };
     const status = $("[data-admin-save-status]"); status.textContent = "正在儲存⋯";
     try {
-      const row = firstRow(await rpc(CONFIG.rpc.adminUpsertSong, {
-        p_admin_token: state.session.token,
-        p_id: payload.id,
-        p_slug: payload.slug,
-        p_title: payload.title,
-        p_singer: payload.singer,
-        p_exercise_name: payload.exerciseName,
-        p_description: payload.description,
-        p_youtube_url: payload.youtubeUrl || null,
-        p_tags: payload.tags,
-        p_translations: payload.translations,
-        p_exercises: payload.modes,
-        p_published: payload.published,
-        p_sort_order: payload.sortOrder
-      }));
+      const row = firstRow(await rpc("song_appreciation_admin_save_lesson", {p_admin_token: state.session.token, p_details:payload}));
       if (!row?.id) throw new Error("資料服務未確認歌曲已儲存。");
-      const saved = validateSong(normalizeSong(row.song || row, { includeAnswers: true }), { requireAnswers: true });
+      state.lessonExtras[row.id] = row;
+      const saved = validateSong(normalizeSong(withLessonExtras(row), { includeAnswers: true }), { requireAnswers: true });
       state.adminSongs = state.adminSongs.some(item => item.id === saved.id) ? state.adminSongs.map(item => item.id === saved.id ? saved : item) : [...state.adminSongs, saved];
       state.adminSong = saved; renderAdminSongList(); fillAdminForm(saved); status.textContent = "已儲存"; toast("歌曲資料已儲存。");
       if (saved.id) await selectAdminSong(saved.id);
@@ -1629,7 +1726,8 @@
     $("[data-new-song]").addEventListener("click", newAdminSong);
     $("[data-admin-song-search]").addEventListener("input", renderAdminSongList);
     $("[data-song-form]").addEventListener("submit", saveAdminSong);
-    $("[data-song-form]").elements.youtubeUrl.addEventListener("input", updateAdminYouTubePreview);
+    $("[data-song-form]").elements.coverFile.addEventListener("change", importAlbumCover);
+    $("[data-song-form]").elements.coverUrl.addEventListener("input", updateAdminYouTubePreview);
     $("[data-archive-song]").addEventListener("click", () => { const form = $("[data-song-form]"); form.elements.published.checked = false; form.requestSubmit(); });
     $("[data-student-access-search]").addEventListener("input", renderStudentAccess);
     document.addEventListener("visibilitychange", () => { if(document.hidden){pausePlayer();void flushPlayback();} if (!state.exercise || state.exercise.submitted) return; if (document.hidden) {pauseExerciseClock();storeLocalDraft();void flushDraft().catch(()=>{});} else if (state.activeRoute === "song" && state.activeTab === "exercise") startExerciseClock(); });
