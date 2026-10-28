@@ -26,3 +26,13 @@
 .expression-closet-shop h4,.expression-closet-shop .closet-save-status,.expression-closet-shop [data-shop-status]{color:#fff1ce;text-shadow:0 1px 3px #000}
 .expression-closet-shop button:focus-visible,.expression-closet-shop input:focus-visible{outline:3px solid #f2d47f;outline-offset:3px}
 @media(max-width:900px){.expression-closet:has(.expression-closet-shop){width:calc(100vw - 12px);height:calc(100dvh - 12px);overflow:auto}.expression-closet:has(.expression-closet-shop) .expression-closet-workspace{display:flex;flex-direction:column;height:auto}.expression-closet-room{flex:none;height:min(62dvh,540px);min-height:380px}.expression-closet:has(.expression-closet-shop) .expression-closet-stage{min-height:0}.expression-closet-shop{flex:none;height:auto;overflow:visible}.expression-closet-shop .clothing-shop-catalog{padding:18px 5% 36px}}
+
+/* Clothing selection is a free try-on; the separate button is the only checkout. */
+.closet-try-on-help{padding:12px 14px;border:1px solid #bba36b;border-radius:10px;background:#f8efd9;color:#344538;font-size:12px;line-height:1.6}
+.closet-shop-card{display:flex;flex-direction:column;gap:7px;min-width:0}
+.closet-shop-card .expression-closet-item{flex:1}
+.closet-shop-card .closet-buy-button{width:100%;min-height:40px;padding:9px 8px;border:1px solid #c5a76a;border-radius:9px;background:#28513d;color:#fff7e6;font:600 12px/1.4 system-ui,sans-serif;cursor:pointer}
+.closet-shop-card .closet-buy-button:hover:not(:disabled){background:#386d52}
+.closet-shop-card .closet-buy-button:disabled{background:#e3dccb;color:#736d60;cursor:not-allowed;box-shadow:none}
+.closet-shop-card .closet-buy-button[hidden]{display:none}
+.closet-shop-card .closet-buy-button:focus-visible{outline:3px solid #e8b77c;outline-offset:2px}

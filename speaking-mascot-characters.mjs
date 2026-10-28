@@ -1,5 +1,5 @@
 import * as THREE from './vendor/three/three.module.js';
-import { cosmeticAtlas, supportsCosmetics, restoreCosmetics, subscribeCosmetics, cosmeticsForCharacter, isCosmeticEquipped, cosmeticsState } from './eddy-cosmetics.mjs?v=20261011-girls-autumn-trio1';
+import { cosmeticAtlas, supportsCosmetics, restoreCosmetics, subscribeCosmetics, cosmeticsForCharacter, isCosmeticEquipped, cosmeticsState } from './eddy-cosmetics.mjs?v=20261028-free-try-on1';
 import {MASCOT_VIEWS} from './speaking-mascot-views.mjs?v=20260915-phoebe2';
 import {viewPair, mouthOpening, blinkAmount, COAT_COLOURS} from './speaking-mascot-behaviour.mjs?v=20260915-phoebe2';
 import {mascotMaterial, applyViewPair} from './speaking-mascot-material.mjs?v=20261011-girls-autumn-trio1';

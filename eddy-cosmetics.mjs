@@ -175,6 +175,15 @@ export function applyCosmeticSelection(value,item,character){
  next[slot]=item.id;return next;
 }
 export function equipCosmetic(id,character='eddy'){const item=cosmeticsForCharacter(character).find(x=>x.id===id);if(!item||!ownedCosmetics.has(id))return;equipped=applyCosmeticSelection(equipped,item,character);notify();}
+// Try-on uses only the closet draft; ownership is still required to equip or save.
+export function previewCosmetic(id,character='eddy'){
+ const item=cosmeticsForCharacter(character).find(x=>x.id===id);
+ if(!item)return;
+ equipped=applyCosmeticSelection(equipped,item,character);notify();
+}
+export function unownedPreviewItems(character='eddy'){
+ return cosmeticsForCharacter(character).filter(item=>isCosmeticEquipped(equipped,item,character)&&!ownedCosmetics.has(item.id));
+}
 export function clearCosmetics(character='eddy'){equipped={...equipped};for(const item of cosmeticsForCharacter(character))delete equipped[equipmentSlot(item,character)];notify();}
 export function equipOutfit(name,character='eddy'){const outfit=wardrobe.outfits.find(x=>x.name===name&&sameGroup(x,character));if(outfit){equipped={...equipped};for(const item of cosmeticsForCharacter(character))delete equipped[equipmentSlot(item,character)];Object.assign(equipped,groupEquipment(outfit.equipped,character));notify();}}
 async function rpcRaw(args,method='eddy_closet_sync'){
@@ -216,6 +225,7 @@ export async function saveAvatar(name,character='eddy'){
  try {
  if(pendingRestore)await pendingRestore;
  if(owner!==requestOwner||token!==requestToken)throw Error('The account changed. Please reopen the closet.');
+ if(unownedPreviewItems(character).length)throw Error('Buy or remove the preview items before saving. · 請先購買或脫下試穿服裝，再儲存造型。');
  const requestRevision=revision;saveEpoch++;
  const outfits=wardrobe.outfits.map(x=>({...x}));
  if(name!==undefined){name=String(name).trim();if(!name||name.length>60)throw Error('Use an outfit name from 1 to 60 characters.');const i=outfits.findIndex(x=>x.name===name&&sameGroup(x,character));const item={name,equipped:groupEquipment(equipped,character),group:wardrobeGroup(character),character,...(i>=0&&outfits[i].favorite?{favorite:true}:{})};if(i>=0)outfits[i]=item;else {if(outfitsForCharacter(outfits,character).length>=50)throw Error('You can save up to 50 outfits for this character.');outfits.push(item);}}

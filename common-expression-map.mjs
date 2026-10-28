@@ -176,7 +176,7 @@ export function createExpressionMap({ root, toggle, grid, lessons, getCompleted,
     const request = ++closetRequest;
     const pending=document.createElement('div');pending.className='closet-startup';pending.setAttribute('role','status');pending.innerHTML='Opening dressing room…<progress aria-label="Loading 3D closet"></progress>';document.body.append(pending);
     try {
-      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20261011-girls-autumn-trio1');
+      const { openCompanionCloset } = await import('./common-expression-closet-3d.mjs?v=20261028-free-try-on1');
       if (request !== closetRequest) return;
       closetHandle?.close();
       closetHandle = openCompanionCloset({ character });

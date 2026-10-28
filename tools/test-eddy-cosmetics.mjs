@@ -531,3 +531,44 @@ test('a saved Eddy look sends jeans and a top together to the account wardrobe',
  assert.deepEqual(sent.p_equipped,{eddyTop:'white-navy-oxford',eddyLower:'classic-blue-jeans'});
  assert.equal(cosmeticsState().savedEquipment.eddyLower,'classic-blue-jeans');
 });
+
+test('unowned clothes are free closet previews, never saved until purchased',async()=>{
+ const {previewCosmetic,unownedPreviewItems,beginCosmeticsPreview,discardCosmeticsPreview}=await import('../eddy-cosmetics.mjs');
+ fixtureAccount={id:'free-preview-save-test',token:'free-preview-save-token'};
+ let owned=[],writes=0;
+ rpcHandler=async(method,args)=>{
+  if(method==='eddie_farm_owned_cosmetics')return {data:owned};
+  if(method==='character_closet_sync'){writes++;return {data:{equipped:args.p_equipped,outfits:args.p_outfits}};}
+  return {data:{equipped:{},outfits:[]}};
+ };
+ await restoreCosmetics(undefined,{force:true});beginCosmeticsPreview();
+ equipCosmetic('cream-cable-knit','eddy');assert.deepEqual(cosmeticsState().equipped,{});
+ previewCosmetic('cream-cable-knit','eddy');
+ assert.equal(cosmeticsState().equipped.eddyTop,'cream-cable-knit');
+ assert.deepEqual(cosmeticsState().savedEquipment,{});
+ assert.equal(unownedPreviewItems('eddy').length,1);
+ await assert.rejects(saveAvatar(undefined,'eddy'),/Buy or remove/);
+ await assert.rejects(saveAvatar('Free trial','eddy'),/Buy or remove/);
+ assert.equal(writes,0);assert.equal(cosmeticsState().outfits.length,0);
+ discardCosmeticsPreview();assert.deepEqual(cosmeticsState().equipped,{});
+ beginCosmeticsPreview();previewCosmetic('cream-cable-knit','eddy');
+ owned=['cream-cable-knit'];await restoreCosmetics(undefined,{force:true});
+ assert.equal(cosmeticsState().equipped.eddyTop,'cream-cable-knit');
+ await saveAvatar(undefined,'eddy');assert.equal(writes,1);
+ assert.equal(cosmeticsState().savedEquipment.eddyTop,'cream-cable-knit');
+});
+
+test('free previews respect character slots, clothing replacement and removal',async()=>{
+ const {previewCosmetic,unownedPreviewItems,beginCosmeticsPreview,discardCosmeticsPreview}=await import('../eddy-cosmetics.mjs');
+ fixtureAccount={id:'free-preview-slots-test',token:'free-preview-slots-token'};
+ rpcHandler=async method=>({data:method==='eddie_farm_owned_cosmetics'?[]:{equipped:{},outfits:[]}});
+ await restoreCosmetics(undefined,{force:true});beginCosmeticsPreview();
+ for(const character of ['eddy','noir','celeste','phoebe','elsie']){
+  previewCosmetic('white-oversized-tee',character);
+  assert.equal(cosmeticsState().equipped[character+'Top'],'white-oversized-tee');
+  assert.equal(unownedPreviewItems(character).length,1);
+ }
+ previewCosmetic('crimson-gilded-court-coat','eddy');assert.equal(cosmeticsState().equipped.eddyTop,undefined);
+ previewCosmetic('crimson-gilded-court-coat','eddy');assert.equal(unownedPreviewItems('eddy').length,0);
+ discardCosmeticsPreview();assert.deepEqual(cosmeticsState().equipped,{});
+});
