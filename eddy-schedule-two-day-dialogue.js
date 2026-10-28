@@ -1,4 +1,4 @@
-/* Greet a student at the second, third, and fourth Hong Kong learning-day milestones. */
+/* Greet a student at the second through sixth Hong Kong learning-day milestones. */
 (() => {
   'use strict';
 
@@ -25,10 +25,29 @@
     ['哼哼，連續四天都來找 Eddy 呢！那就送您一個愛心吧！♡'],
     ['四天連續報到！這顆愛心送給您♡']
   ];
+  const fiveDayVariants = [
+    [{ main: '鏘鏘！這是 Eddy 特地為你準備的喔！', sub: '嘿嘿，連續五天都來找我，當然要送你一點甜甜的獎勵啦！快打開看看吧！' }],
+    ['那、那個……這盒巧克力是送你的！畢竟都連續見面五天了嘛……嘿嘿，收下吧！'],
+    ['嘿嘿，猜猜 Eddy 藏了什麼好東西？提示是……甜甜的，而且一口就能讓人心情變好！'],
+    ['連續五天都來報到啦！這盒巧克力就送給你吧！……不過，分 Eddy 一顆也可以喔？'],
+    ['不知不覺，已經連續五天見面了呢！能每天和你一起度過，Eddy 真的很開心。這是給你的小禮物！'],
+    ['這盒巧克力可是 Eddy 精挑細選的喔！本來想先試吃一顆……結果差點就停不下來啦！'],
+    ['五天的小小紀念禮！嘿嘿，這盒巧克力就送給你啦！']
+  ];
+  const sixDayVariants = [
+    [{ main: '哼哼～連續六天都來見我了呢！', sub: '看來今天得帥氣一點才行！怎麼樣？Eddy 這個造型是不是很迷人啊？🌹' }],
+    ['呵呵，連續六天就讓你見識一下 Eddy 帥氣的一面吧！……咦？你怎麼笑出來了啦！'],
+    ['鏘鏘！第六天的特別驚喜！這朵玫瑰，就獻給最特別的你吧！'],
+    ['那個……今天第六天想換個方式跟你打招呼！這、這朵玫瑰送你啦！別一直盯著 Eddy 看嘛！'],
+    ['六天連續報到！這朵玫瑰，就讓 Eddy 帥氣地送給你吧！'],
+    ['連續六天都來冒險的你，當然值得這朵玫瑰啦！', '唔唔！唔唔唔！……啊，差點忘了嘴裡還咬著玫瑰！']
+  ];
   const milestones = {
     2: { variants: twoDayVariants, image: 'eddy-schedule-two-day-dialogue.png' },
     3: { variants: threeDayVariants, image: 'eddy-schedule-three-day-dialogue.png' },
-    4: { variants: fourDayVariants, image: 'eddy-schedule-four-day-dialogue.png' }
+    4: { variants: fourDayVariants, image: 'eddy-schedule-four-day-dialogue.png' },
+    5: { variants: fiveDayVariants, image: 'eddy-schedule-five-day-dialogue.png' },
+    6: { variants: sixDayVariants, image: 'eddy-schedule-six-day-dialogue.png' }
   };
   const storagePrefix = 'edmund-eddy-schedule-two-day-v1:';
   const shown = new Set();
