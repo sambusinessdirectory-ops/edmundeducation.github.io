@@ -3462,18 +3462,18 @@
   ],
   "vocabulary": [
     {
-      "number": 1,
       "word": "stay out too late",
-      "meaning": "在外面待到太晚",
       "usage": "當你晚上很晚才回家，或在外面待得比預期久時可以使用。",
+      "answer": 0,
+      "number": 1,
       "prompt": "哪一句正確使用「stay out too late」？",
+      "meaning": "在外面待到太晚",
       "options": [
         "I stayed out too late last night, so I am tired today.",
         "I stayed out too late in my bed, so I slept well.",
         "She stayed out too late her blue pencil.",
         "We stay out too late at seven in the morning."
       ],
-      "answer": 0,
       "explanation": "正確：昨晚在外面待太晚，所以今天很累。",
       "optionExplanations": [
         "正確：昨晚在外面待太晚，所以今天很累。",
@@ -3483,123 +3483,123 @@
       ]
     },
     {
-      "number": 2,
       "word": "at least",
-      "meaning": "至少；起碼",
       "usage": "當你說最低數量、最低要求，或想指出一件還算好的事時使用。",
+      "answer": 1,
+      "number": 2,
       "prompt": "哪一句正確使用「at least」？",
+      "meaning": "至少；起碼",
       "options": [
         "I at least my shoes before school.",
-        "The cat is at least under the chair.",
         "We need at least three chairs for the game.",
+        "The cat is at least under the chair.",
         "She is at least a sandwich for lunch."
       ],
-      "answer": 2,
       "explanation": "正確：表示遊戲至少需要三張椅子。",
       "optionExplanations": [
         "錯誤：at least 不能當作「穿」的動詞。",
-        "錯誤：這裡只是說貓的位置，沒有最低程度或對比的意思。",
         "正確：表示遊戲至少需要三張椅子。",
+        "錯誤：這裡只是說貓的位置，沒有最低程度或對比的意思。",
         "錯誤：這裡需要 eat 或 have 等動詞，at least 不能代替它們。"
       ]
     },
     {
-      "number": 3,
       "word": "keep moving",
-      "meaning": "繼續移動；不要停下來",
       "usage": "走路、跳舞、運動，或鼓勵別人繼續前進時使用。",
+      "answer": 3,
+      "number": 3,
       "prompt": "哪一句正確使用「keep moving」？",
+      "meaning": "繼續移動；不要停下來",
       "options": [
         "My birthday keeps moving a cake.",
-        "Keep moving your feet when you dance!",
+        "The orange keeps moving very sweet.",
         "I keep moving breakfast every Sunday.",
-        "The orange keeps moving very sweet."
+        "Keep moving your feet when you dance!"
       ],
-      "answer": 1,
       "explanation": "正確：跳舞時持續動腳。",
       "optionExplanations": [
         "錯誤：生日不會「移動蛋糕」；這個搭配不自然。",
-        "正確：跳舞時持續動腳。",
+        "錯誤：very sweet 形容味道，不是在說持續移動。",
         "錯誤：breakfast 不是這裡可直接「移動」的活動。",
-        "錯誤：very sweet 形容味道，不是在說持續移動。"
+        "正確：跳舞時持續動腳。"
       ]
     },
     {
-      "number": 4,
       "word": "gonna",
-      "meaning": "（口語）將要；打算（going to）",
       "usage": "朋友聊天或歌詞中常見，表示接下來要做的事；正式寫作建議用 going to。",
+      "answer": 0,
+      "number": 4,
       "prompt": "哪一句正確使用「gonna」？",
+      "meaning": "（口語）將要；打算（going to）",
       "options": [
-        "I gonna to swim tomorrow.",
+        "I'm gonna call my friend after dinner.",
         "She gonna is call me tonight.",
         "My cat gonna a new hat.",
-        "I'm gonna call my friend after dinner."
+        "I gonna to swim tomorrow."
       ],
-      "answer": 3,
       "explanation": "正確：I am gonna + 動詞原形，表示打算晚餐後打電話。",
       "optionExplanations": [
-        "錯誤：gonna 前面通常需要 am/is/are，而且後面不再加 to。",
+        "正確：I am gonna + 動詞原形，表示打算晚餐後打電話。",
         "錯誤：字序錯誤；應說 She is gonna call me。",
         "錯誤：gonna 後面需要動詞，且缺少 is。",
-        "正確：I am gonna + 動詞原形，表示打算晚餐後打電話。"
+        "錯誤：gonna 前面通常需要 am/is/are，而且後面不再加 to。"
       ]
     },
     {
-      "number": 5,
       "word": "shake it off",
-      "meaning": "把不開心的事拋開；別放在心上",
       "usage": "遇到批評、小失誤或不開心的事，想繼續過自己的生活時使用。",
+      "answer": 2,
+      "number": 5,
       "prompt": "哪一句正確使用「shake it off」？",
+      "meaning": "把不開心的事拋開；別放在心上",
       "options": [
-        "He shook it off after losing the game and smiled again.",
-        "I shake it off my noodles with a spoon.",
         "She shakes it off because her bag is very heavy.",
+        "I shake it off my noodles with a spoon.",
+        "He shook it off after losing the game and smiled again.",
         "We shake it off our classroom at eight."
       ],
-      "answer": 0,
       "explanation": "正確：輸了比賽後，他不再一直難過。",
       "optionExplanations": [
-        "正確：輸了比賽後，他不再一直難過。",
-        "錯誤：這裡是在吃麵，不是在放下不開心的事。",
         "錯誤：如果是放下重包包，應用 put down 等動詞。",
+        "錯誤：這裡是在吃麵，不是在放下不開心的事。",
+        "正確：輸了比賽後，他不再一直難過。",
         "錯誤：不能用 shake it off 表示離開教室。"
       ]
     },
     {
-      "number": 6,
       "word": "on my own",
-      "meaning": "獨自；靠自己",
       "usage": "當你一個人做某件事，沒有別人幫忙或陪伴時使用。",
+      "answer": 1,
+      "number": 6,
       "prompt": "哪一句正確使用「on my own」？",
+      "meaning": "獨自；靠自己",
       "options": [
         "I put on my own the table.",
-        "He drinks on my own a cup of water.",
         "I made this birthday card on my own.",
+        "He drinks on my own a cup of water.",
         "We on my own go to school together."
       ],
-      "answer": 2,
       "explanation": "正確：表示這張卡片是自己獨立完成的。",
       "optionExplanations": [
         "錯誤：on my own 不是用來表示「放在桌上」。",
-        "錯誤：主詞是 he，應用 on his own；而且放的位置也不自然。",
         "正確：表示這張卡片是自己獨立完成的。",
+        "錯誤：主詞是 he，應用 on his own；而且放的位置也不自然。",
         "錯誤：we 和 my 不一致；together 也和「獨自」衝突。"
       ]
     },
     {
-      "number": 7,
       "word": "make it up as I go",
-      "meaning": "邊做邊想；沒有先計畫好",
       "usage": "做事情時沒有固定計畫，而是想到下一步就繼續做時使用。",
+      "answer": 1,
+      "number": 7,
       "prompt": "哪一句正確使用「make it up as I go」？",
+      "meaning": "邊做邊想；沒有先計畫好",
       "options": [
         "I make it up as I go because I bought a map yesterday.",
         "I do not have a plan for the story, so I make it up as I go.",
         "She makes it up as I go when she sleeps.",
         "We make it up as I go every blue Monday."
       ],
-      "answer": 1,
       "explanation": "正確：沒有先想好故事內容，寫的時候才想下一步。",
       "optionExplanations": [
         "錯誤：這句只提到買地圖，沒有清楚表達邊做邊想。",
@@ -3609,60 +3609,60 @@
       ]
     },
     {
-      "number": 8,
       "word": "miss a beat",
-      "meaning": "漏掉節拍；（常用否定）反應很快、沒有停頓",
       "usage": "談音樂節奏時可以指漏拍；not miss a beat 也能表示很快接話或繼續做事。",
+      "answer": 2,
+      "number": 8,
       "prompt": "哪一句正確使用「miss a beat」？",
+      "meaning": "漏掉節拍；（常用否定）反應很快、沒有停頓",
       "options": [
         "I missed a beat of my sandwich at lunch.",
         "She missed a beat because her shoes are red.",
-        "We missed a beat the window to open it.",
-        "The song was fast, but he did not miss a beat."
+        "The song was fast, but he did not miss a beat.",
+        "We missed a beat the window to open it."
       ],
-      "answer": 3,
       "explanation": "正確：歌曲很快，但他沒有漏掉任何節拍。",
       "optionExplanations": [
         "錯誤：三明治沒有音樂節拍；不能這樣搭配。",
         "錯誤：紅鞋子和漏拍之間沒有合理關係。",
-        "錯誤：miss a beat 不能表示打開窗戶。",
-        "正確：歌曲很快，但他沒有漏掉任何節拍。"
+        "正確：歌曲很快，但他沒有漏掉任何節拍。",
+        "錯誤：miss a beat 不能表示打開窗戶。"
       ]
     },
     {
-      "number": 9,
       "word": "ex",
-      "meaning": "前任男友或前任女友",
       "usage": "非正式談話中，用來指以前交往過的人；常說 my ex。",
+      "answer": 3,
+      "number": 9,
       "prompt": "哪一句正確使用「ex」？",
+      "meaning": "前任男友或前任女友",
       "options": [
         "My ex is my new English teacher; I have never met her.",
-        "My ex and I dated last year, but we are just friends now.",
+        "The bus is my ex because it is late.",
         "I ex my homework before bed.",
-        "The bus is my ex because it is late."
+        "My ex and I dated last year, but we are just friends now."
       ],
-      "answer": 1,
       "explanation": "正確：以前交往過、現在不再是情侶。",
       "optionExplanations": [
         "錯誤：ex 代表過去交往的人，不是沒見過的新老師。",
-        "正確：以前交往過、現在不再是情侶。",
+        "錯誤：公車不是以前交往的對象。",
         "錯誤：ex 在這裡是名詞，不能當作做功課的動詞。",
-        "錯誤：公車不是以前交往的對象。"
+        "正確：以前交往過、現在不再是情侶。"
       ]
     },
     {
-      "number": 10,
       "word": "come on over",
-      "meaning": "過來吧；來我這邊吧",
       "usage": "用輕鬆、親切的語氣邀請朋友走過來，或來自己所在的地方。",
+      "answer": 0,
+      "number": 10,
       "prompt": "哪一句正確使用「come on over」？",
+      "meaning": "過來吧；來我這邊吧",
       "options": [
         "Come on over and have some cake with us!",
         "I come on over my homework with a pen.",
         "She comes on over the milk into a cup.",
         "My phone comes on over because it is hungry."
       ],
-      "answer": 0,
       "explanation": "正確：邀請對方過來一起吃蛋糕。",
       "optionExplanations": [
         "正確：邀請對方過來一起吃蛋糕。",

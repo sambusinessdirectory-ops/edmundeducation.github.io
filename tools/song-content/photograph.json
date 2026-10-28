@@ -3096,186 +3096,186 @@
   "audio_url": "https://edmundeducation.com/song-media/photograph/album.mp3",
   "vocabulary": [
     {
-      "number": 1,
       "word": "Get hard",
-      "meaning": "變得困難、變得不容易。",
       "usage": "當一件事情原本還好，但後來變得比較難時，可以用 get hard。例如生活、工作或考試。",
+      "answer": 0,
+      "number": 1,
       "prompt": "哪一句正確使用了「get hard」？",
+      "meaning": "變得困難、變得不容易。",
       "options": [
-        "My shoes get hard because they are blue.",
         "The test gets hard when the questions are not easy.",
+        "My shoes get hard because they are blue.",
         "I get hard my homework every night.",
         "She gets hard at seven o'clock every morning."
       ],
-      "answer": 1,
       "explanation": "get hard 表示變得困難，這裡是在說考題變難了。",
       "optionExplanations": [
-        "鞋子是藍色和「變困難」沒有關係；這裡也不是在說鞋子變硬。",
         "考題從簡單變困難，符合 get hard 的意思。",
+        "鞋子是藍色和「變困難」沒有關係；這裡也不是在說鞋子變硬。",
         "get hard 不能直接放在 my homework 前面；可以說 My homework gets hard.",
         "這句想說起床時間，應該用 gets up，而不是 gets hard。"
       ]
     },
     {
-      "number": 2,
       "word": "Feel alive",
-      "meaning": "感覺充滿活力、感受到生活的快樂。",
       "usage": "當你做喜歡的事情，覺得特別開心、有精神時，可以用這個片語。",
+      "answer": 1,
+      "number": 2,
       "prompt": "哪一句正確使用了「feel alive」？",
+      "meaning": "感覺充滿活力、感受到生活的快樂。",
       "options": [
         "I feel alive when I am asleep.",
-        "I feel alive my bag on the bus.",
         "I feel alive when I dance to my favorite music.",
+        "I feel alive my bag on the bus.",
         "I feel alive the door before I go out."
       ],
-      "answer": 2,
       "explanation": "feel alive 可以形容做喜歡的事時，感到很有活力、很開心。",
       "optionExplanations": [
         "睡著通常不是用 feel alive 表達的情境。",
-        "feel alive 後面不能直接接 my bag 來表示拿包包。",
         "跳喜歡的舞時感到有活力，符合 feel alive 的用法。",
+        "feel alive 後面不能直接接 my bag 來表示拿包包。",
         "feel alive 不是「開門」；應該說 open the door。"
       ]
     },
     {
-      "number": 3,
       "word": "Make memories",
-      "meaning": "創造回憶、留下美好回憶。",
       "usage": "跟家人、朋友一起旅行、玩樂或做特別的事情時，可以使用。",
+      "answer": 2,
+      "number": 3,
       "prompt": "哪一句正確使用了「make memories」？",
+      "meaning": "創造回憶、留下美好回憶。",
       "options": [
-        "We made good memories on our family trip.",
-        "I make memories with a knife in the kitchen.",
         "She makes memories to clean her shoes.",
+        "I make memories with a knife in the kitchen.",
+        "We made good memories on our family trip.",
         "He made memories because his phone is broken."
       ],
-      "answer": 0,
       "explanation": "make memories 是指一起經歷事情，留下值得記住的回憶。",
       "optionExplanations": [
-        "旅行時一起留下美好的回憶，使用正確。",
-        "make memories 不是用刀子製作物品；它指留下回憶。",
         "make memories 不能表示清潔鞋子；應該說 clean her shoes。",
+        "make memories 不是用刀子製作物品；它指留下回憶。",
+        "旅行時一起留下美好的回憶，使用正確。",
         "手機壞掉不代表留下美好回憶，語意不合。"
       ]
     },
     {
-      "number": 4,
       "word": "Frozen in time",
-      "meaning": "時間彷彿停止、永遠停留在某一刻。",
       "usage": "通常用來形容照片、回憶或某個特別的時刻，好像時間沒有改變。",
+      "answer": 1,
+      "number": 4,
       "prompt": "哪一句正確使用了「frozen in time」？",
+      "meaning": "時間彷彿停止、永遠停留在某一刻。",
       "options": [
         "My water is frozen in time, so I cannot drink it.",
-        "The bus is frozen in time because it is late.",
+        "In this old photo, we look the same as we did years ago, like we are frozen in time.",
         "I frozen in time my lunch at school.",
-        "In this old photo, we look the same as we did years ago, like we are frozen in time."
+        "The bus is frozen in time because it is late."
       ],
-      "answer": 3,
       "explanation": "frozen in time 形容照片或回憶中的某個時刻，好像永遠停在那裡。",
       "optionExplanations": [
         "水結冰應說 My water is frozen；in time 在這裡不適合。",
-        "公車遲到不是時間停住；可以說 The bus is late。",
+        "舊照片保留過去的樣子，很適合用 frozen in time。",
         "frozen in time 不是這樣接在主詞和受詞之間的動詞片語。",
-        "舊照片保留過去的樣子，很適合用 frozen in time。"
+        "公車遲到不是時間停住；可以說 The bus is late。"
       ]
     },
     {
-      "number": 5,
       "word": "Hold someone close",
-      "meaning": "緊緊抱住某人、把某人抱在身邊。",
       "usage": "當你想安慰、保護或表達對一個人的愛時，可以使用。",
+      "answer": 3,
+      "number": 5,
       "prompt": "哪一句正確使用了「hold someone close」？",
+      "meaning": "緊緊抱住某人、把某人抱在身邊。",
       "options": [
         "I hold my homework close to finish it.",
-        "She held her baby close when he cried.",
+        "He held the weather close because it was cold.",
         "We hold the bus close at the next stop.",
-        "He held the weather close because it was cold."
+        "She held her baby close when he cried."
       ],
-      "answer": 1,
       "explanation": "hold someone close 是把一個人抱在身邊，通常表示關心或愛。",
       "optionExplanations": [
         "homework 不是人；這個片語是在說把某個人抱近。",
-        "媽媽把哭泣的寶寶抱近，符合片語意思。",
+        "天氣不是可以抱在身邊的人。",
         "公車不能像人一樣被抱住；可以說 wait for the bus。",
-        "天氣不是可以抱在身邊的人。"
+        "媽媽把哭泣的寶寶抱近，符合片語意思。"
       ]
     },
     {
-      "number": 6,
       "word": "Mend",
-      "meaning": "修補、修復。",
       "usage": "可以用在修補衣服等物品，也可以用在修復受傷的感情。",
+      "answer": 0,
+      "number": 6,
       "prompt": "哪一句正確使用了「mend」？",
+      "meaning": "修補、修復。",
       "options": [
-        "I mend my breakfast every morning.",
-        "She mends to school at eight.",
         "My dad mended my old shirt, so I can wear it again.",
+        "She mends to school at eight.",
+        "I mend my breakfast every morning.",
         "We mended a song at the party."
       ],
-      "answer": 2,
       "explanation": "mend 是修補壞掉的東西，例如衣服，也可以用來說修復感情。",
       "optionExplanations": [
-        "早餐通常是 make 或 eat，不是 mend。",
-        "mend 不表示「去上學」；應該說 goes to school。",
         "修補舊襯衫是 mend 的正確用法。",
+        "mend 不表示「去上學」；應該說 goes to school。",
+        "早餐通常是 make 或 eat，不是 mend。",
         "唱歌或演奏歌曲應用 sing 或 play，不是 mend。"
       ]
     },
     {
-      "number": 7,
       "word": "I swear",
-      "meaning": "我發誓、我保證。",
       "usage": "當你想強調自己說的是真話，或認真答應別人一件事時，可以使用。",
+      "answer": 3,
+      "number": 7,
       "prompt": "哪一句正確使用了「I swear」？",
+      "meaning": "我發誓、我保證。",
       "options": [
-        "I swear I will tell you the truth.",
+        "I swear the door with my key.",
         "I swear my bike to school.",
         "I swear a red shirt today.",
-        "I swear the door with my key."
+        "I swear I will tell you the truth."
       ],
-      "answer": 0,
       "explanation": "I swear 用來強調自己說的是真的，或表示很認真地承諾。",
       "optionExplanations": [
-        "I swear 後面接一個承諾，表示「我保證會說實話」。",
+        "用鑰匙開門應說 I open the door with my key。",
         "騎腳踏車上學應說 I ride my bike to school。",
         "穿紅色上衣應說 I wear a red shirt。",
-        "用鑰匙開門應說 I open the door with my key。"
+        "I swear 後面接一個承諾，表示「我保證會說實話」。"
       ]
     },
     {
-      "number": 8,
       "word": "Let someone go",
-      "meaning": "讓某人離開、放手。",
       "usage": "當你不再阻止一個人離開，或決定放下一段感情時，可以使用。",
+      "answer": 2,
+      "number": 8,
       "prompt": "哪一句正確使用了「let someone go」？",
+      "meaning": "讓某人離開、放手。",
       "options": [
         "I let my dinner go on the table.",
         "I let the homework go with a pencil.",
-        "I let my new shoes go to sleep.",
-        "I loved him, but I knew he wanted to leave, so I let him go."
+        "I loved him, but I knew he wanted to leave, so I let him go.",
+        "I let my new shoes go to sleep."
       ],
-      "answer": 3,
       "explanation": "let someone go 可以表示讓某人離開，或不再要求對方留在自己身邊。",
       "optionExplanations": [
         "晚餐不是可以被放手離開的人；可以說 I put my dinner on the table。",
         "寫作業應說 I do my homework with a pencil。",
-        "鞋子不能像人一樣去睡覺；片語的對象通常是人。",
-        "願意讓對方離開，正確表達 let someone go 的意思。"
+        "願意讓對方離開，正確表達 let someone go 的意思。",
+        "鞋子不能像人一樣去睡覺；片語的對象通常是人。"
       ]
     },
     {
-      "number": 9,
       "word": "Deep within",
-      "meaning": "在內心深處、在很深的地方。",
       "usage": "當你想表達藏在心裡的感覺、想法或信念時，可以使用。",
+      "answer": 1,
+      "number": 9,
       "prompt": "哪一句正確使用了「deep within」？",
+      "meaning": "在內心深處、在很深的地方。",
       "options": [
         "I eat my lunch deep within quickly.",
         "Deep within my heart, I know she is a good friend.",
         "I go deep within to the bus stop every day.",
         "She bought a deep within bag yesterday."
       ],
-      "answer": 1,
       "explanation": "deep within 表示在內心深處，常用來談真正的想法或感受。",
       "optionExplanations": [
         "deep within 不能直接插在 eat lunch 和 quickly 之間。",
@@ -3285,23 +3285,23 @@
       ]
     },
     {
-      "number": 10,
       "word": "Whisper",
-      "meaning": "低聲說、悄悄說話。",
       "usage": "當你不想吵到別人，或只想讓一個人聽見時，可以使用。",
+      "answer": 0,
+      "number": 10,
       "prompt": "哪一句正確使用了「whisper」？",
+      "meaning": "低聲說、悄悄說話。",
       "options": [
-        "He whispered his bike to school.",
-        "I whispered my lunch in the kitchen.",
         "She whispered to me because the baby was sleeping.",
+        "I whispered my lunch in the kitchen.",
+        "He whispered his bike to school.",
         "They whispered very loudly so everyone could hear."
       ],
-      "answer": 2,
       "explanation": "whisper 是小聲說話，通常是不想吵到別人，或不想讓其他人聽見。",
       "optionExplanations": [
-        "whisper 是低聲說話，不能表示騎腳踏車。",
-        "whisper 不能表示吃午餐；應該用 ate 或 had。",
         "怕吵醒寶寶而小聲說話，符合 whisper 的意思。",
+        "whisper 不能表示吃午餐；應該用 ate 或 had。",
+        "whisper 是低聲說話，不能表示騎腳踏車。",
         "whisper 是小聲說，和 very loudly 的意思相反。"
       ]
     }

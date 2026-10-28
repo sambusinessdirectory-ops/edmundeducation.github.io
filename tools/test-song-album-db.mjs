@@ -25,7 +25,7 @@ let extras=(await db.query('select song_appreciation_lesson_extras($1,false) as 
 assert.equal(extras.length,1);assert.deepEqual(extras[0].translations,data.translations);assert.equal(extras[0].vocabulary.length,10);assert.ok(!('answer' in extras[0].vocabulary[0]));assert.ok(!('optionExplanations' in extras[0].vocabulary[0]));
 await assert.rejects(db.query('select song_appreciation_vocabulary_answer($1,$2,1,5)',[id(1),id(3)]));
 const result=(await db.query('select song_appreciation_vocabulary_answer($1,$2,1,1) as data',[id(1),id(3)])).rows[0].data;
-assert.equal(result.answer,1);assert.equal(result.optionExplanations.length,4);
+assert.equal(result.answer,data.vocabulary[0].answer);assert.equal(result.optionExplanations.length,4);
 extras=(await db.query('select song_appreciation_lesson_extras($1,false) as data',[id(1)])).rows[0].data;
 assert.equal(extras[0].vocabulary_progress['1'].selected,1);
 extras=(await db.query('select song_appreciation_lesson_extras($1,false) as data',[id(2)])).rows[0].data;

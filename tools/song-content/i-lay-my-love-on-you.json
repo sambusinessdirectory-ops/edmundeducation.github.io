@@ -308,144 +308,144 @@
   ],
   "vocabulary": [
     {
-      "number": 1,
       "word": "Hardly believe it",
-      "meaning": "幾乎不敢相信。",
       "usage": "當事情讓你很驚訝，覺得像做夢一樣時使用。",
+      "answer": 1,
+      "number": 1,
       "prompt": "哪一句正確使用了「Hardly believe it」？",
+      "meaning": "幾乎不敢相信。",
       "options": [
-        "I can hardly believe it! I got the job!",
         "I hardly believe it my sandwich every day.",
+        "I can hardly believe it! I got the job!",
         "My cat is hardly believe it under the bed.",
         "Please hardly believe it the window before bed."
       ],
-      "answer": 0,
       "explanation": "✅ 正確：得到工作讓人很驚訝，所以說幾乎不敢相信。",
       "optionExplanations": [
-        "✅ 正確：得到工作讓人很驚訝，所以說幾乎不敢相信。",
         "❌ 錯誤：不能把 hardly believe it 當作「吃三明治」的動作。可以說 I eat my sandwich every day.",
+        "✅ 正確：得到工作讓人很驚訝，所以說幾乎不敢相信。",
         "❌ 錯誤：這不是形容貓的位置的片語。可以說 My cat is under the bed.",
         "❌ 錯誤：不能用這個片語代替「關窗」。可以說 Please close the window."
       ]
     },
     {
-      "number": 2,
       "word": "Next to",
-      "meaning": "在……旁邊。",
       "usage": "表示兩個人或東西的位置很接近。",
+      "answer": 0,
+      "number": 2,
       "prompt": "哪一句正確使用了「Next to」？",
+      "meaning": "在……旁邊。",
       "options": [
-        "She next to her lunch at twelve.",
         "The dog is sleeping next to my chair.",
+        "She next to her lunch at twelve.",
         "I next to my homework after dinner.",
         "He is next to happy about his birthday."
       ],
-      "answer": 1,
       "explanation": "✅ 正確：狗睡在椅子旁邊。",
       "optionExplanations": [
-        "❌ 錯誤：next to 不是「吃」的意思。可以說 She eats her lunch at twelve.",
         "✅ 正確：狗睡在椅子旁邊。",
+        "❌ 錯誤：next to 不是「吃」的意思。可以說 She eats her lunch at twelve.",
         "❌ 錯誤：next to 不能當作「做功課」的動詞。可以說 I do my homework.",
         "❌ 錯誤：next to 通常接位置或名詞，不能這樣表示「非常開心」。可以說 He is very happy."
       ]
     },
     {
-      "number": 3,
       "word": "Reach for",
-      "meaning": "伸手去拿、去碰某物。",
       "usage": "看到想拿的東西，伸出手去拿時使用；也可以有比喻意思。",
+      "answer": 3,
+      "number": 3,
       "prompt": "哪一句正確使用了「Reach for」？",
+      "meaning": "伸手去拿、去碰某物。",
       "options": [
         "I reach for happy when I see cake.",
         "She reached for the bus by singing.",
-        "The baby reached for the toy on the table.",
-        "They reach for their shoes with breakfast."
+        "They reach for their shoes with breakfast.",
+        "The baby reached for the toy on the table."
       ],
-      "answer": 2,
       "explanation": "✅ 正確：寶寶伸手想拿桌上的玩具。",
       "optionExplanations": [
         "❌ 錯誤：happy 不是可以伸手拿的東西。可以說 I feel happy when I see cake.",
         "❌ 錯誤：搭公車通常說 take the bus，不是 reach for the bus。",
-        "✅ 正確：寶寶伸手想拿桌上的玩具。",
-        "❌ 錯誤：句子的情境不清楚，with breakfast 不能自然表達拿鞋的原因。可以說 They put on their shoes after breakfast."
+        "❌ 錯誤：句子的情境不清楚，with breakfast 不能自然表達拿鞋的原因。可以說 They put on their shoes after breakfast.",
+        "✅ 正確：寶寶伸手想拿桌上的玩具。"
       ]
     },
     {
-      "number": 4,
       "word": "No way back",
-      "meaning": "無法回頭、沒有退路。",
       "usage": "做了重要決定或發生某件事後，無法回到以前的狀態時使用。",
+      "answer": 1,
+      "number": 4,
       "prompt": "哪一句正確使用了「No way back」？",
+      "meaning": "無法回頭、沒有退路。",
       "options": [
-        "There is no way back to yesterday, so let’s enjoy today.",
         "My way back is drinking orange juice.",
+        "There is no way back to yesterday, so let’s enjoy today.",
         "I no way back my phone in the kitchen.",
         "The cake is no way back because it is chocolate."
       ],
-      "answer": 0,
       "explanation": "✅ 正確：無法回到昨天，是「沒有回頭路」的意思。",
       "optionExplanations": [
-        "✅ 正確：無法回到昨天，是「沒有回頭路」的意思。",
         "❌ 錯誤：way back 不能這樣表示喝果汁。可以說 I am drinking orange juice.",
+        "✅ 正確：無法回到昨天，是「沒有回頭路」的意思。",
         "❌ 錯誤：no way back 不是「把手機放回去」的動詞。可以說 I put my phone back.",
         "❌ 錯誤：蛋糕的口味和「無法回頭」沒有關係。可以說 The cake is chocolate."
       ]
     },
     {
-      "number": 5,
       "word": "Be okay",
-      "meaning": "會沒事、情況還好。",
       "usage": "安慰自己或別人，告訴對方事情會好起來時使用。",
+      "answer": 2,
+      "number": 5,
       "prompt": "哪一句正確使用了「Be okay」？",
+      "meaning": "會沒事、情況還好。",
       "options": [
         "I will be okay my shoes before school.",
-        "Don’t worry. You will be okay after some rest.",
         "The bus be okay to the supermarket.",
+        "Don’t worry. You will be okay after some rest.",
         "She is okay a book in her room."
       ],
-      "answer": 1,
       "explanation": "✅ 正確：用來安慰別人休息後會好一些。",
       "optionExplanations": [
         "❌ 錯誤：be okay 不能代替「穿鞋」。可以說 I will put on my shoes.",
-        "✅ 正確：用來安慰別人休息後會好一些。",
         "❌ 錯誤：be okay 不是「開去某處」。可以說 The bus goes to the supermarket.",
+        "✅ 正確：用來安慰別人休息後會好一些。",
         "❌ 錯誤：be okay 不能直接代替「讀書」。可以說 She is reading a book."
       ]
     },
     {
-      "number": 6,
       "word": "Brand new",
-      "meaning": "全新的；也可形容感覺煥然一新。",
       "usage": "說剛買的新東西，或經過改變後有全新感受時使用。",
+      "answer": 0,
+      "number": 6,
       "prompt": "哪一句正確使用了「Brand new」？",
+      "meaning": "全新的；也可形容感覺煥然一新。",
       "options": [
-        "I brand new my dinner at six.",
-        "He walked brand new to the park.",
         "These shoes are brand new. I bought them today.",
+        "He walked brand new to the park.",
+        "I brand new my dinner at six.",
         "My sister is brand new at playing the piano every day."
       ],
-      "answer": 2,
       "explanation": "✅ 正確：今天才買的鞋子是全新的。",
       "optionExplanations": [
-        "❌ 錯誤：brand new 不是「煮晚餐」的動詞。可以說 I cook dinner at six.",
-        "❌ 錯誤：brand new 不能這樣形容走路方式。可以說 He walked slowly to the park.",
         "✅ 正確：今天才買的鞋子是全新的。",
+        "❌ 錯誤：brand new 不能這樣形容走路方式。可以說 He walked slowly to the park.",
+        "❌ 錯誤：brand new 不是「煮晚餐」的動詞。可以說 I cook dinner at six.",
         "❌ 錯誤：brand new 不能這樣表示「每天練鋼琴」。可以說 My sister plays the piano every day."
       ]
     },
     {
-      "number": 7,
       "word": "Open up",
-      "meaning": "打開；敞開心房。",
       "usage": "可以用於打開東西，也可說一個人開始分享自己的感受。",
+      "answer": 3,
+      "number": 7,
       "prompt": "哪一句正確使用了「Open up」？",
+      "meaning": "打開；敞開心房。",
       "options": [
         "I open up the soup with a spoon every day.",
         "She opens up blue when the sky is clear.",
         "My dad opened up his shoes to run faster.",
         "He was shy, but he opened up and told me how he felt."
       ],
-      "answer": 3,
       "explanation": "✅ 正確：他原本害羞，後來願意說出自己的感受。",
       "optionExplanations": [
         "❌ 錯誤：這裡要說「喝湯」或「吃湯」，不能用 open up。可以說 I eat soup with a spoon.",
@@ -455,65 +455,65 @@
       ]
     },
     {
-      "number": 8,
       "word": "Hold on to",
-      "meaning": "抓住、不放開；也可指不願放下回憶。",
       "usage": "手抓緊東西，或在心裡留住某件重要的事時使用。",
+      "answer": 1,
+      "number": 8,
       "prompt": "哪一句正確使用了「Hold on to」？",
+      "meaning": "抓住、不放開；也可指不願放下回憶。",
       "options": [
-        "Hold on to the wall if you feel tired.",
         "I hold on to breakfast because I am hungry.",
+        "Hold on to the wall if you feel tired.",
         "She held on to very happy yesterday.",
         "We hold on to the rain so the sun comes out."
       ],
-      "answer": 0,
       "explanation": "✅ 正確：覺得累時可以扶著牆，表示抓住不放。",
       "optionExplanations": [
-        "✅ 正確：覺得累時可以扶著牆，表示抓住不放。",
         "❌ 錯誤：hold on to 不是「吃早餐」的意思。可以說 I eat breakfast.",
+        "✅ 正確：覺得累時可以扶著牆，表示抓住不放。",
         "❌ 錯誤：不能直接接 very happy 這樣的形容詞片語。可以說 She was very happy.",
         "❌ 錯誤：不能用手抓住雨來讓太陽出來。可以說 We wait for the rain to stop."
       ]
     },
     {
-      "number": 9,
       "word": "Too long",
-      "meaning": "太久；時間長得超過需要。",
       "usage": "等待或做一件事花太多時間時使用。",
+      "answer": 2,
+      "number": 9,
       "prompt": "哪一句正確使用了「Too long」？",
+      "meaning": "太久；時間長得超過需要。",
       "options": [
         "My lunch is too long because it is red.",
-        "I waited too long, and the shop closed.",
         "She too long her new dress to the party.",
+        "I waited too long, and the shop closed.",
         "We went too long the park after lunch."
       ],
-      "answer": 1,
       "explanation": "✅ 正確：等了太久，所以商店關門了。",
       "optionExplanations": [
         "❌ 錯誤：午餐是紅色和時間太久沒有直接關係。可以說 My lunch is red.",
-        "✅ 正確：等了太久，所以商店關門了。",
         "❌ 錯誤：too long 不是「穿」的動詞。可以說 She wore her new dress.",
+        "✅ 正確：等了太久，所以商店關門了。",
         "❌ 錯誤：不能用 too long 代替介系詞 to。可以說 We went to the park."
       ]
     },
     {
-      "number": 10,
       "word": "Once in a lifetime",
-      "meaning": "一生難得一次的。",
       "usage": "形容很特別、可能一輩子只會遇到一次的經驗或機會。",
+      "answer": 0,
+      "number": 10,
       "prompt": "哪一句正確使用了「Once in a lifetime」？",
+      "meaning": "一生難得一次的。",
       "options": [
-        "I eat once in a lifetime every morning at seven.",
-        "My pencil once in a lifetime under the desk.",
         "Seeing my favorite singer on stage was a once-in-a-lifetime experience.",
+        "My pencil once in a lifetime under the desk.",
+        "I eat once in a lifetime every morning at seven.",
         "He once in a lifetime his bag to school."
       ],
-      "answer": 2,
       "explanation": "✅ 正確：親眼看最喜歡的歌手演出，是非常難得的經驗。",
       "optionExplanations": [
-        "❌ 錯誤：一生一次和每天早上互相矛盾。可以說 I eat breakfast every morning.",
-        "❌ 錯誤：這個片語不是「在桌子下」的意思。可以說 My pencil is under the desk.",
         "✅ 正確：親眼看最喜歡的歌手演出，是非常難得的經驗。",
+        "❌ 錯誤：這個片語不是「在桌子下」的意思。可以說 My pencil is under the desk.",
+        "❌ 錯誤：一生一次和每天早上互相矛盾。可以說 I eat breakfast every morning.",
         "❌ 錯誤：once in a lifetime 不是動詞，不能代替「帶書包」。可以說 He took his bag to school."
       ]
     }

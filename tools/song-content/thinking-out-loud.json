@@ -2703,18 +2703,18 @@
   ],
   "vocabulary": [
     {
-      "number": 1,
       "word": "Used to",
-      "meaning": "過去常常；以前會（現在通常不一樣了）。",
       "usage": "說以前常做的事或以前的情況，但現在已改變時。句型是 used to + 動詞原形。",
+      "answer": 1,
+      "number": 1,
       "prompt": "哪一句正確使用「used to」？",
+      "meaning": "過去常常；以前會（現在通常不一樣了）。",
       "options": [
         "I used to went to school by bus.",
         "I used to play football after school, but now I don't.",
         "I used to playing football every Sunday.",
         "I will used to visit my grandma tomorrow."
       ],
-      "answer": 1,
       "explanation": "表示以前放學後常踢足球，但現在不踢了。",
       "optionExplanations": [
         "used to 後面要接動詞原形 go，不是 went。",
@@ -2724,18 +2724,18 @@
       ]
     },
     {
-      "number": 2,
       "word": "Fall in love",
-      "meaning": "愛上某人；墜入愛河。",
       "usage": "形容開始對某人產生愛情。常用 fall in love with + 人。",
+      "answer": 0,
+      "number": 2,
       "prompt": "哪一句正確使用「fall in love」？",
+      "meaning": "愛上某人；墜入愛河。",
       "options": [
         "I fell in love with her when we met at school.",
         "I fall in love my new shoes under the bed.",
         "He fell in love to his teacher yesterday.",
         "She fell in love her homework before dinner."
       ],
-      "answer": 0,
       "explanation": "fall in love with someone 表示愛上某人；fell 是 fall 的過去式。",
       "optionExplanations": [
         "fall in love with someone 表示愛上某人；fell 是 fall 的過去式。",
@@ -2745,102 +2745,102 @@
       ]
     },
     {
-      "number": 3,
       "word": "Every single day",
-      "meaning": "每一天；天天（特別強調沒有一天例外）。",
       "usage": "想強調一件事每天都會發生時。",
+      "answer": 0,
+      "number": 3,
       "prompt": "哪一句正確使用「every single day」？",
+      "meaning": "每一天；天天（特別強調沒有一天例外）。",
       "options": [
-        "I go to the shop every single day last year.",
-        "We every single day are a big house.",
         "She calls her mother every single day.",
+        "We every single day are a big house.",
+        "I go to the shop every single day last year.",
         "I every single day my school bag."
       ],
-      "answer": 2,
       "explanation": "表示她每天都會打電話給媽媽。",
       "optionExplanations": [
-        "last year 是過去時間，動詞應用過去式 went；如 I went to the shop every single day last year.",
-        "這裡的句子不完整，不能用 every single day 代替動詞。",
         "表示她每天都會打電話給媽媽。",
+        "這裡的句子不完整，不能用 every single day 代替動詞。",
+        "last year 是過去時間，動詞應用過去式 went；如 I went to the shop every single day last year.",
         "缺少動詞，例如 I carry my school bag every single day."
       ]
     },
     {
-      "number": 4,
       "word": "Think out loud",
-      "meaning": "把正在想的事情直接說出來。",
       "usage": "邊想邊說，或還沒想好就把想法說出來時。",
+      "answer": 2,
+      "number": 4,
       "prompt": "哪一句正確使用「think out loud」？",
+      "meaning": "把正在想的事情直接說出來。",
       "options": [
         "I think out loud my dinner with a spoon.",
         "She thinks out loud a blue coat to school.",
-        "We think out loud the door every night.",
-        "I'm just thinking out loud, so I may change my idea."
+        "I'm just thinking out loud, so I may change my idea.",
+        "We think out loud the door every night."
       ],
-      "answer": 3,
       "explanation": "說話者把當下的想法說出來，也表示想法可能改變。",
       "optionExplanations": [
         "think out loud 不是「吃東西」的意思。",
         "這個片語不能用來表示穿衣服；可以說 She wears a blue coat to school.",
-        "這個片語不能表示關門；可以說 We close the door every night.",
-        "說話者把當下的想法說出來，也表示想法可能改變。"
+        "說話者把當下的想法說出來，也表示想法可能改變。",
+        "這個片語不能表示關門；可以說 We close the door every night."
       ]
     },
     {
-      "number": 5,
       "word": "Fade",
-      "meaning": "慢慢變淡；逐漸消失。",
       "usage": "說顏色、聲音或記憶慢慢變得不清楚時。",
+      "answer": 3,
+      "number": 5,
       "prompt": "哪一句正確使用「fade」？",
+      "meaning": "慢慢變淡；逐漸消失。",
       "options": [
         "I fade my lunch at one o'clock.",
-        "The color of my old shirt is starting to fade.",
+        "She fades to school on her bike.",
         "Please fade the door when you leave.",
-        "She fades to school on her bike."
+        "The color of my old shirt is starting to fade."
       ],
-      "answer": 1,
       "explanation": "舊衣服的顏色開始慢慢變淡，很適合用 fade。",
       "optionExplanations": [
         "fade 不能表示吃午餐；應說 I eat lunch at one o'clock.",
-        "舊衣服的顏色開始慢慢變淡，很適合用 fade。",
+        "騎腳踏車去學校應說 She rides to school on her bike.",
         "這裡應用 close（關門），不是 fade。",
-        "騎腳踏車去學校應說 She rides to school on her bike."
+        "舊衣服的顏色開始慢慢變淡，很適合用 fade。"
       ]
     },
     {
-      "number": 6,
       "word": "The same way",
-      "meaning": "用同樣的方式。",
       "usage": "說兩個人做事的方式相同，或某件事和以前的做法相同時。",
+      "answer": 1,
+      "number": 6,
       "prompt": "哪一句正確使用「the same way」？",
+      "meaning": "用同樣的方式。",
       "options": [
-        "We both make tea the same way: with milk and sugar.",
         "I bought the same way at the shop.",
+        "We both make tea the same way: with milk and sugar.",
         "She is the same way years old as me.",
         "The same way is sleeping under the table."
       ],
-      "answer": 0,
       "explanation": "兩人都用加牛奶和糖的方式泡茶。",
       "optionExplanations": [
-        "兩人都用加牛奶和糖的方式泡茶。",
         "the same way 不是可以購買的物品；應說自己買了什麼。",
+        "兩人都用加牛奶和糖的方式泡茶。",
         "比較年齡可說 She is the same age as me.",
         "the same way 是「同樣的方式」，不是會睡覺的人或動物。"
       ]
     },
     {
-      "number": 7,
       "word": "Keep on",
-      "meaning": "繼續做某件事。",
       "usage": "表示一個動作一直持續。常用 keep on + 動詞 -ing。",
+      "answer": 2,
+      "number": 7,
       "prompt": "哪一句正確使用「keep on」？",
+      "meaning": "繼續做某件事。",
       "options": [
         "He keeps on to play the piano every day.",
         "I keep on my new shoes in the box.",
         "She kept on reading after dinner.",
         "We keep on the bus stop at six."
       ],
-      "answer": 2,
       "explanation": "表示她晚餐後繼續閱讀。",
       "optionExplanations": [
         "keep on 後面應接 playing，不是 to play。",
@@ -2850,60 +2850,60 @@
       ]
     },
     {
-      "number": 8,
       "word": "Make a mistake",
-      "meaning": "犯錯、做錯事。",
       "usage": "考試、工作、生活中做錯事情時；英文用 make，不是 do。",
+      "answer": 1,
+      "number": 8,
       "prompt": "哪一句正確使用「make a mistake」？",
+      "meaning": "犯錯、做錯事。",
       "options": [
         "I made a mistake my breakfast this morning.",
-        "She makes a mistake to the park on Sundays.",
+        "I made a mistake in my homework, so I fixed it.",
         "We made a mistake with the window because it was cold.",
-        "I made a mistake in my homework, so I fixed it."
+        "She makes a mistake to the park on Sundays."
       ],
-      "answer": 3,
       "explanation": "表示作業做錯了一個地方，後來把它改好。",
       "optionExplanations": [
         "缺少適當介系詞，而且想說做早餐應用 made breakfast。",
-        "這個片語不能表示去公園；可以說 She goes to the park on Sundays.",
+        "表示作業做錯了一個地方，後來把它改好。",
         "這句沒有說明做錯了什麼；例如 We made a mistake and left the window open. 才清楚。",
-        "表示作業做錯了一個地方，後來把它改好。"
+        "這個片語不能表示去公園；可以說 She goes to the park on Sundays."
       ]
     },
     {
-      "number": 9,
       "word": "Part of a plan",
-      "meaning": "計畫的一部分。",
       "usage": "說一件事是較大計畫中的其中一個步驟或安排時。",
+      "answer": 3,
+      "number": 9,
       "prompt": "哪一句正確使用「part of a plan」？",
+      "meaning": "計畫的一部分。",
       "options": [
         "I part of a plan my shoes before school.",
-        "Our visit to the park is part of a plan for the weekend.",
+        "The milk is part of a plan because it is cold.",
         "She part of a plan very fast to the station.",
-        "The milk is part of a plan because it is cold."
+        "Our visit to the park is part of a plan for the weekend."
       ],
-      "answer": 1,
       "explanation": "去公園是週末安排的一部分。",
       "optionExplanations": [
         "part of a plan 是名詞片語，不能拿來代替「穿鞋」等動詞。",
-        "去公園是週末安排的一部分。",
+        "牛奶很冷，不代表它是計畫的一部分；前後沒有合理關係。",
         "這個片語不能表示走路或跑步；可以說 She runs very fast to the station.",
-        "牛奶很冷，不代表它是計畫的一部分；前後沒有合理關係。"
+        "去公園是週末安排的一部分。"
       ]
     },
     {
-      "number": 10,
       "word": "Right where we are",
-      "meaning": "就在我們現在所在的地方。",
       "usage": "強調某件事就在目前的位置發生，不必到別的地方。",
+      "answer": 0,
+      "number": 10,
       "prompt": "哪一句正確使用「right where we are」？",
+      "meaning": "就在我們現在所在的地方。",
       "options": [
         "We can sit right where we are; we don't need to move.",
         "I right where we are my lunch at school.",
         "She will right where we are a new bag.",
         "Right where we are is seven years old."
       ],
-      "answer": 0,
       "explanation": "表示可以繼續坐在現在的位置，不用移動。",
       "optionExplanations": [
         "表示可以繼續坐在現在的位置，不用移動。",

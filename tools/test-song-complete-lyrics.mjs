@@ -20,6 +20,9 @@ for(const [name,count] of [['photograph',58],['open-arms',37],['thinking-out-lou
   });
   assert.deepEqual(seen,mode.questions.map(q=>q.number));
  }
+ const vocabPositions=song.vocabulary.map(q=>q.answer),vocabCounts=[0,1,2,3].map(p=>vocabPositions.filter(v=>v===p).length);
+ assert.ok(Math.max(...vocabCounts)-Math.min(...vocabCounts)<=1,`${name}: vocabulary imbalance`);
+ vocabPositions.forEach((p,i)=>{if(i>1)assert.ok(p!==vocabPositions[i-1]||p!==vocabPositions[i-2]);});
  song.translations.forEach((r,i)=>{assert.ok(r.endSeconds>r.startSeconds);if(i)assert.ok(r.startSeconds>=song.translations[i-1].endSeconds-(name==='photograph'?.25:0));});
 }
 console.log('Complete lyric flow: every line, repeated chorus, blank and answer matches every lesson in all modes.');
