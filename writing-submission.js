@@ -1,7 +1,9 @@
+import { normalizeQuestionImages, combineQuestionImages, planningText, imageGallery, imageUploader } from './writing-materials.mjs?v=20261028';
+import { TOPIC_PICKER_TRACKS, TOPIC_PICKER_LEAVES, writingTopicInPickerCategory } from './writing-topic-categories.mjs?v=20261028';
 import {mountWritingSynonyms} from './writing-synonyms.mjs?v=20261027-1';
 import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20261021-pocket-progress3';
-import { WRITING_FUNCTIONS, composeFunctionAnswer, normalizeFunctionHelper } from './writing-function-helper.mjs?v=20261021-1';
-import { mountSentenceSupport } from './writing-sentence-support.mjs?v=20261021-function-tags1';
+import { WRITING_FUNCTIONS, composeFunctionAnswer, normalizeFunctionHelper } from './writing-function-helper.mjs?v=20261028-materials1';
+import { mountSentenceSupport } from './writing-sentence-support.mjs?v=20261028-materials1';
 import {createWritingAdminArchive} from './writing-admin-archive.mjs?v=20261027-styled1';
 import { SPEAKING_TOPIC_CATEGORIES, parseSpeakingTopicPrompt, speakingTopicLabel, speakingTopicPrompt, speakingTopicSearchHaystack, speakingTopicSearchText } from './writing-speaking-topics.mjs?v=20261021-2';
 import {mountProofreadChecklist,normalizeProofreadChecklistChecked,normalizeProofreadChecklistRecord,PROOFREAD_CHECKLIST_GROUPS} from './writing-proofread-checklist.mjs?v=20260928-proofread2';
@@ -26,7 +28,7 @@ import {
   vocabularyEntryUsed,
   writingSubmissionNotificationMessage,
   writingTopicResourceForTransport
-} from "./writing-submission-core.js?v=20261015-writing-images1";
+} from "./writing-submission-core.js?v=20261028-materials1";
 import {
   classifyRemoteGrammarFailure,
   hasWritingGrammarIssuesForSentence,
@@ -102,28 +104,6 @@ const ISSUE_QUEUE_KEY_PREFIX = "edmund-writing-submission-issue-queue-v1";
 const ADMIN_FEEDBACK_RECOVERY_KEY_PREFIX = "edmund-writing-admin-feedback-recovery-v1";
 const ADMIN_FEEDBACK_RECOVERY_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
 const TOPIC_CATALOG_VERSION = "20261015-writing-images1";
-const TOPIC_PICKER_TRACKS = Object.freeze({
-  dse: Object.freeze([
-    { id: 'dse-writing-a', label: 'Writing Part A', category: 'dse-writing-a' },
-    { id: 'dse-writing-b', label: 'Writing Part B', category: 'dse-writing-b' },
-    { id: 'dse-speaking', label: 'Speaking' },
-    { id: 'dse-integrated', label: 'Integrated Skills' }
-  ]),
-  ielts: Object.freeze([
-    { id: 'ielts-writing', label: 'Writing' },
-    { id: 'ielts-speaking', label: 'Speaking' }
-  ]),
-  'non-exam': Object.freeze([
-    { id: 'manual', label: '我建立的題目', category: 'manual' },
-    { id: 'nonexam-other', label: '其他練習', category: 'nonexam-other' }
-  ])
-});
-const TOPIC_PICKER_LEAVES = Object.freeze({
-  'dse-speaking': Object.freeze([{ id: 'dse-group', label: '小組討論' }, { id: 'dse-individual', label: '個人回應' }]),
-  'dse-integrated': Object.freeze([{ id: 'dse-integrated-b1', label: 'Part B · B1' }, { id: 'dse-integrated-b2', label: 'Part B · B2' }]),
-  'ielts-writing': Object.freeze([{ id: 'ielts-task-1', label: 'Task 1' }, { id: 'ielts-task-2', label: 'Task 2' }]),
-  'ielts-speaking': Object.freeze([{ id: 'ielts-1', label: 'Part 1' }, { id: 'ielts-2', label: 'Part 2' }, { id: 'ielts-3', label: 'Part 3' }])
-});
 const TOPIC_REFERENCE_VERSION = "20260911-dse-part-b";
 const MAX_FEEDBACK_SENTENCE_LINKS = 100;
 const MAX_FEEDBACK_BODY_BYTES = 512 * 1024;
@@ -446,6 +426,7 @@ const state = {
   documentId: "",
   previousWriting: "",
   draftHelperOpen: false,
+  questionImages: [],
   functionHelper: normalizeFunctionHelper(null),
   pendingOccurrences: new Map(),
   reportedFingerprints: new Set(),
@@ -668,7 +649,7 @@ function initializeFeedbackStickyOffset() {
 
 function floatingWritingTopicImages() {
   const resource = canonicalWritingTopicResource(state.selectedTopicResource);
-  return Array.isArray(resource?.questionImages) ? resource.questionImages : [];
+  return combineQuestionImages(state.questionImages, resource?.questionImages);
 }
 
 function updateWritingImageDockPhoto(images = floatingWritingTopicImages()) {
@@ -2348,6 +2329,8 @@ function clearSession() {
   state.topicCatalog = [];
   state.topicCatalogPromise = null;
   state.topicPickerTarget = "student";
+  state.questionImages=[];
+  questionImageUpload.setImages([]);
   state.selectedTopicResource = null;
   state.randomTopicGeneration += 1;
   state.writingTimer = emptyWritingTimer();
@@ -2455,6 +2438,23 @@ async function validateRestoredSession() {
     return false;
   }
 }
+
+const questionImageUpload = imageUploader({onChange: async images => {
+  if (new Set([...images,...(state.selectedTopicResource?.questionImages || [])].map(image=>image.src)).size > 8) throw Error("連同原題圖片，最多可加入八張圖片。");
+  state.questionImages = images;
+  if (images.length && !elements.topicInput.value.trim()) elements.topicInput.value="請根據附圖作答。";
+  if (!UUID_RE.test(state.documentId)) state.documentId=newDocumentId();
+  syncFloatingWritingTopicContent();
+  persistDraft();
+  if (state.user?.role === 'student' && elements.topicInput.value.trim()) {
+    try {
+      const response = await apiJson(`/v1/drafts/${encodeURIComponent(state.documentId)}`, {method:'PUT',body:JSON.stringify(currentServerDraftPayload())});
+      if (!response?.draft?.id) throw Error("Invalid save response");
+      elements.draftState.textContent="題目圖片已儲存";
+    } catch { return "圖片已加入，但尚未同步至伺服器；請按「儲存進度」重試。"; }
+  }
+}});
+elements.topicInput.closest('.writing-field').after(questionImageUpload);
 
 function draftStorageKey() {
   return state.user?.id ? `${DRAFT_KEY_PREFIX}:${state.user.id}` : "";
@@ -3060,7 +3060,7 @@ function manualWritingTopicResource(value) {
     url: `writing-submission.html?manualTopic=${encodeURIComponent(id)}`,
     sectionKey: "manual-writing-topic",
     questionPrompt: [prompt],
-    questionImages: [],
+    questionImages: normalizeQuestionImages(value?.questionImages),
     flashcardUrl: referenceUrl(value?.flashcardUrl, ["/flashcards.html"]),
     writingPracticeUrl: referenceUrl(value?.writingPracticeUrl, ["/writing-practice.html"]),
     modelEssayUrl: referenceUrl(value?.modelEssayUrl, ["/model-essay-downloads.html", "/writing-practice.html"]),
@@ -3232,6 +3232,8 @@ function renderSelectedSpeakingTopicPreview() {
 }
 
 function removeSelectedWritingTopic() {
+  state.questionImages=[];
+  questionImageUpload.setImages([]);
   state.selectedTopicResource = null;
   elements.topicInput.value = "";
   clearModelEssayState();
@@ -3251,20 +3253,6 @@ function writingTopicResultHaystack(resource) {
   ].join(" "));
 }
 
-function writingTopicInPickerCategory(resource, category) {
-  const section = resource.sectionKey;
-  const detail = resource.detail || '';
-  if (category === 'manual') return resource.type === 'manual-writing-topic';
-  if (category === 'nonexam-other') return resource.type !== 'manual-writing-topic'
-    && !['dse-writing', 'dse-paper3', 'ielts-writing'].includes(section);
-  if (category === 'dse-writing-a') return section === 'dse-writing' && /\bPart A\b/i.test(detail);
-  if (category === 'dse-writing-b') return section === 'dse-writing' && /\bPart B\b/i.test(detail);
-  if (category === 'dse-integrated-b1') return section === 'dse-paper3' && /\bB1\b/i.test(detail);
-  if (category === 'dse-integrated-b2') return section === 'dse-paper3' && /\bB2\b/i.test(detail);
-  if (category === 'ielts-task-1') return section === 'ielts-writing' && /\bTask 1\b/i.test(detail);
-  if (category === 'ielts-task-2') return section === 'ielts-writing' && /\bTask 2\b/i.test(detail);
-  return false;
-}
 
 function renderWritingTopicResults(query = "") {
   if (!elements.topicPickerResults) return;
@@ -3642,6 +3630,7 @@ function readDraft() {
       topic: String(value.topic || ""),
       answer: String(value.answer || ""),
       brainstorm: String(value.brainstorm || '').slice(0, 20000),
+      questionImages: normalizeQuestionImages(value.questionImages),
       draftHelperOpen: value.draftHelperOpen === true,
       functionHelper: normalizeFunctionHelper(value.functionHelper),
       durationSeconds: Math.max(0, Math.min(31536000, Number(value.durationSeconds || 0))),
@@ -3682,6 +3671,7 @@ function persistDraft() {
       topic: elements.topicInput.value,
       answer: elements.writingInput.value,
       brainstorm: elements.brainstormInput.value,
+      questionImages: combineQuestionImages(state.questionImages, state.selectedTopicResource?.questionImages),
       draftHelperOpen: state.draftHelperOpen,
       functionHelper: state.functionHelper,
       durationSeconds: Math.round(state.draftDurationSeconds),
@@ -4327,6 +4317,8 @@ function startNewDraft({ preserveView = false } = {}) {
   elements.topicInput.value = "";
   elements.writingInput.value = "";
   elements.brainstormInput.value = '';
+  state.questionImages = [];
+  questionImageUpload?.setImages([]);
   state.draftHelperOpen = false;
   state.functionHelper = normalizeFunctionHelper(null);
   elements.draftHelper.hidden = true;
@@ -4381,6 +4373,8 @@ async function restoreDraft() {
   elements.topicInput.value = draft?.topic || "";
   elements.writingInput.value = draft?.answer || "";
   elements.brainstormInput.value = draft?.brainstorm || '';
+  state.questionImages = normalizeQuestionImages(draft?.questionImages);
+  questionImageUpload.setImages(state.questionImages);
   state.draftHelperOpen = draft?.draftHelperOpen === true || Boolean(elements.brainstormInput.value);
   elements.draftHelper.hidden = !state.draftHelperOpen;
   elements.draftHelperToggle.setAttribute('aria-pressed', String(state.draftHelperOpen));
@@ -5687,6 +5681,8 @@ function normalizeSubmission(value) {
     topic: String(value?.topic || "未命名題目"),
     answer: String(value?.answer || value?.content || ""),
     brainstorm: String(value?.brainstorm || '').slice(0, 20000),
+    questionImages: combineQuestionImages(value?.questionImages, value?.topicResource?.questionImages),
+    functionHelper: normalizeFunctionHelper(value?.functionHelper),
     wordCount: Number(value?.wordCount ?? value?.word_count ?? countEnglishWords(value?.answer || value?.content || "")),
     durationSeconds: Number(value?.durationSeconds ?? value?.duration_seconds ?? 0),
     submittedAt: String(value?.submittedAt || value?.submitted_at || value?.createdAt || value?.created_at || ""),
@@ -6072,6 +6068,7 @@ function feedbackPrintHtml(feedback, { articleKey = "feedback", pageBreakBefore 
     ${improvedVersion}
     ${feedbackPrintTranscriptions(feedback, { id: anchor("transcriptions") })}
     ${feedbackPrintEnhancementCards("句子結構提升區", feedback.sentenceStructureParts, "sentence", { id: anchor("sentence"), pageBreakBefore: true })}
+    ${feedback.extensions?.draftFeedback ? `<section><h3>構思草稿評語</h3>${feedbackPrintStudentAnswer(feedback.extensions.draftFeedback)}</section>` : ""}
     ${feedbackPrintSentenceLinks(feedback.sentenceStructureLinks, { id: anchor("sentence-links") })}
     ${feedbackPrintEnhancementCards("修辭技巧提升區", feedback.rhetoricalParts, "rhetorical", { id: anchor("rhetorical"), pageBreakBefore: true })}
     ${feedbackPrintEnhancementCards("動詞片語 (Phrasal Verb) 提升區", feedback.phrasalVerbParts, "phrasal", { id: anchor("phrasal"), pageBreakBefore: true })}
@@ -6126,8 +6123,9 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = 
           ${admin && submission.deletedAt ? "<span>學生已從個人文章列表刪除</span>" : ""}
         </div>
       </header>
-      ${includeWriting ? `<section class="topic"><strong>寫作題目</strong><p>${escapePrintHtml(submission.topic)}</p></section>
+      ${includeWriting ? `<section class="topic"><strong>寫作題目</strong>${combineQuestionImages(submission.questionImages,submission.topicResource?.questionImages).map(image=>`<img class="print-question-image" src="${escapePrintHtml(new URL(image.src,window.location.href).href)}" alt="${escapePrintHtml(image.alt)}">`).join("")}<p>${escapePrintHtml(submission.topic)}</p></section>
       <section class="answer"><strong>學生原文</strong><div>${feedbackPrintStudentAnswer(submission.answer)}</div></section>` : ""}
+      ${includeWriting && (submission.brainstorm || planningText(submission.functionHelper)) ? `<section class="print-planning"><h2>構思草稿 · Draft helper</h2>${feedbackPrintStudentAnswer([submission.brainstorm,planningText(submission.functionHelper)].filter(Boolean).join("\n\n"))}</section>` : ""}
       ${includeWriting && includeFeedback ? feedbackPrintContents(feedback, articleKey) : ""}
       ${includeFeedback ? feedbackPrintHtml(feedback, { articleKey, pageBreakBefore: includeWriting }) : ""}
     </article>`;
@@ -6164,7 +6162,8 @@ function writingExportHtml(bundles, { failedCount = 0, role = "student", mode = 
   @media(max-width:600px){.composition{padding:27px 22px}.export-header{gap:16px}.export-header .brand{font-size:20px}.export-header .elearning{height:30px}h1{font-size:22px}.print-sentence-panel>header{display:grid}.print-feedback-contents>div{grid-template-columns:1fr}}
   @media print{@page{size:A4;margin:10mm 9mm}.print-toolbar{display:none!important}body{background:#fff}main{width:auto;margin:0}.composition{margin:0;padding:0;box-shadow:none}.print-page-start{break-before:page!important;page-break-before:always!important}.print-feedback-contents a{color:#174f83!important}.print-synonym-table-wrap{overflow:visible;border-radius:0}.print-synonym-table thead{display:table-header-group}}
 </style></head><body class="${useMascots ? "uses-feedback-mascots" : ""}">
-<div class="print-toolbar"><p>已準備 ${bundles.length} 篇${escapePrintHtml(modeLabel)}${failedCount ? `；${failedCount} 篇未能載入` : ""} · ${escapePrintHtml(generatedAt)}</p><div class="print-toolbar-actions"><button type="button" id="print-mascot-toggle" aria-pressed="${useMascots}">${useMascots ? "隱藏角色頭像" : "顯示角色頭像"}</button><button type="button" id="print-compositions">列印／儲存為 PDF</button></div></div>
+<style>.topic{break-inside:auto;page-break-inside:auto}.print-question-image{display:block;max-width:100%;max-height:150mm;object-fit:contain;margin:8px 0;break-inside:avoid}.print-planning{break-before:page}.hide-planning .print-planning{display:none}</style>
+<div class="print-toolbar"><label><input type="checkbox" id="print-draft-toggle" checked> 包含構思草稿</label><p>已準備 ${bundles.length} 篇${escapePrintHtml(modeLabel)}${failedCount ? `；${failedCount} 篇未能載入` : ""} · ${escapePrintHtml(generatedAt)}</p><div class="print-toolbar-actions"><button type="button" id="print-mascot-toggle" aria-pressed="${useMascots}">${useMascots ? "隱藏角色頭像" : "顯示角色頭像"}</button><button type="button" id="print-compositions">列印／儲存為 PDF</button></div></div>
 <main>${articles}</main></body></html>`;
 }
 
@@ -6243,6 +6242,7 @@ async function exportSubmissionBundles(ids, role, mode = "both") {
     printWindow.document.open();
     printWindow.document.write(writingExportHtml(bundles, { failedCount, role, mode }));
     printWindow.document.close();
+    printWindow.document.querySelector("#print-draft-toggle").onchange = event => printWindow.document.body.classList.toggle("hide-planning",!event.target.checked);
     const printButton = printWindow.document.querySelector("#print-compositions");
     printButton?.addEventListener("click", () => printWindow.print());
     const mascotToggle = printWindow.document.querySelector("#print-mascot-toggle");
@@ -6347,6 +6347,7 @@ function normalizeServerDraft(value) {
     topic: String(draft.topic || ""),
     answer: String(draft.answer || ""),
     brainstorm: String(draft.brainstorm || '').slice(0, 20000),
+    questionImages: normalizeQuestionImages(draft.questionImages),
     functionHelper: normalizeFunctionHelper(draft.functionHelper),
     draftHelperOpen: draft.draftHelperOpen === true,
     answerPreview: String(draft.answerPreview || ""),
@@ -6367,6 +6368,7 @@ function currentServerDraftPayload() {
     topic: elements.topicInput.value,
     answer: elements.writingInput.value,
     brainstorm: elements.brainstormInput.value,
+      questionImages: combineQuestionImages(state.questionImages, state.selectedTopicResource?.questionImages),
     functionHelper: state.functionHelper,
     draftHelperOpen: state.draftHelperOpen,
     topicResource: canonicalWritingTopicResourceForTransport(state.selectedTopicResource),
@@ -6386,6 +6388,7 @@ function storedDraftServerPayload(draft) {
     topic: String(draft?.topic || ""),
     answer: String(draft?.answer || ""),
     brainstorm: String(draft?.brainstorm || '').slice(0, 20000),
+    questionImages: normalizeQuestionImages(draft?.questionImages),
     functionHelper: normalizeFunctionHelper(draft?.functionHelper),
     draftHelperOpen: draft?.draftHelperOpen === true,
     topicResource: canonicalWritingTopicResourceForTransport(draft?.selectedTopicResource),
@@ -6510,6 +6513,8 @@ async function loadDraftIntoWorkspace(draft) {
   elements.topicInput.value = draft.topic;
   elements.writingInput.value = draft.answer;
   elements.brainstormInput.value = draft.brainstorm;
+  state.questionImages = normalizeQuestionImages(draft.questionImages);
+  questionImageUpload.setImages(state.questionImages);
   state.draftHelperOpen = draft.draftHelperOpen || Boolean(draft.brainstorm);
   elements.draftHelper.hidden = !state.draftHelperOpen;
   elements.draftHelperToggle.setAttribute('aria-pressed', String(state.draftHelperOpen));
@@ -6608,11 +6613,12 @@ function renderSubmissionDetail(submission, container = elements.submissionDetai
   }
   actions.replaceChildren(displayTools, articleTools);
   if (manageTools.childElementCount) actions.append(manageTools);
-  container.replaceChildren(header, content);
-  if (submission.brainstorm.trim()) {
+  container.replaceChildren(header, imageGallery(submission.questionImages), content);
+  const submittedPlanning=[submission.brainstorm,planningText(submission.functionHelper)].filter(Boolean).join("\n\n");
+  if (submittedPlanning.trim()) {
     const planning = createElement('details', 'submission-brainstorm');
     planning.append(createElement('summary', '', '構思草稿 · Draft helper'));
-    planning.append(createElement('div', 'submission-brainstorm-text', submission.brainstorm));
+    planning.append(createElement('div', 'submission-brainstorm-text', submittedPlanning));
     container.append(planning);
   }
   if (admin && submission.proofreadChecklist) {
@@ -7197,6 +7203,7 @@ function renderStudentFeedback(feedback, container) {
     "teacher-feedback-overall",
     feedback.overallFormatting
   );
+  if (feedback.extensions?.draftFeedback) {const draft=createElement('section','teacher-feedback-read');draft.append(createElement('h3','','構思草稿評語'),createElement('p','submission-brainstorm-text',feedback.extensions.draftFeedback));panel.append(draft);}
   if (overall) { overall.append(feedbackQuestionBox(feedback, "overall", "整體評語", feedback.overallComment)); panel.append(overall); }
   const fragments = createElement("div", "teacher-feedback-fragments");
   feedback.fragments.forEach((fragment, index) => {
@@ -8140,6 +8147,10 @@ function renderAdminFeedbackEditor(submission, feedback, container) {
     feedback?.overallFormatting || [],
     "overall"
   ), "overall");
+  if (submission.brainstorm || planningText(submission.functionHelper) || feedback?.extensions?.draftFeedback) {
+    const section=createElement('label','teacher-feedback-field');section.append(createElement('strong','','構思草稿評語 · Draft feedback'));
+    const input=document.createElement('textarea');input.dataset.draftFeedback='';input.maxLength=20000;input.rows=6;input.value=feedback?.extensions?.draftFeedback || '';section.append(input);appendRegion(section,'draft');
+  }
   const fragmentRegion = createElement("section", "teacher-feedback-region");
   const fragmentHeading = createElement("div", "teacher-feedback-fragment-heading");
   fragmentHeading.append(
@@ -8282,7 +8293,7 @@ function readAdminFeedbackEditor(editor, { allowEmpty = false } = {}) {
   };
   const sentenceStructureParts = readEnhancementParts("sentence");
   const rhetoricalParts = readEnhancementParts("rhetorical");
-  const extensions = {idiomParts:readEnhancementParts('idiom'),proverbParts:readEnhancementParts('proverb'),moduleLinks:{}};
+  const extensions = {draftFeedback:editor.querySelector("[data-draft-feedback]")?.value || "",idiomParts:readEnhancementParts('idiom'),proverbParts:readEnhancementParts('proverb'),moduleLinks:{}};
   for(const kind of ['phrasal','idiom','proverb']) extensions.moduleLinks[kind]=[...editor.querySelectorAll(`[data-module-picker="${kind}"] [data-module-link]`)].map(node=>({label:node.dataset.label,url:node.dataset.moduleLink}));
   const phrasalVerbParts = readEnhancementParts("phrasal");
   const writingCommonExpressionParts = readEnhancementParts("writingExpression");
@@ -8301,7 +8312,7 @@ function readAdminFeedbackEditor(editor, { allowEmpty = false } = {}) {
     && !grammarPoints.length && !sentenceStructureParts.length && !rhetoricalParts.length
     && !phrasalVerbParts.length && !writingCommonExpressionParts.length
     && !rhetoricalCommonExpressionParts.length && !synonymImprovementParts.length
-    && !sentenceStructureLinks.length && !extensions.idiomParts.length && !extensions.proverbParts.length
+    && !sentenceStructureLinks.length && !extensions.idiomParts.length && !extensions.proverbParts.length && !extensions.draftFeedback.trim()
   ) {
     throw new Error("請先填寫至少一項評語內容。");
   }
@@ -9158,6 +9169,26 @@ async function openSubmissions({ selectId = "" } = {}) {
 async function openStudentEntryLink() {
   if (!entryLink || state.entryLinkHandled || state.user?.role !== "student") return false;
   state.entryLinkHandled = true;
+  if (entryLink.type === "speaking") {
+    try {
+      for (const category of SPEAKING_TOPIC_CATEGORIES) {
+        await loadWritingSpeakingTopics(category.id);
+        if (!state.speakingTopicCatalogByCategory[category.id]?.some(item=>item.id===entryLink.topicId)) continue;
+        await archiveStoredDraftBeforeEntryLink(readDraft());
+        startNewDraft({preserveView:true});
+        selectSpeakingTopic(entryLink.topicId);
+        showView("workspace");
+        return true;
+      }
+      throw Error("找不到這個說話題目。");
+    } catch(error) {
+      state.entryLinkHandled=false;
+      await restoreDraft();
+      showView("workspace");
+      showToast(error.message,"error");
+      return true;
+    }
+  }
   if (entryLink.type === "submission") {
     await restoreDraft();
     try {
@@ -9257,6 +9288,7 @@ async function deleteStudentSubmission(id) {
 }
 
 async function submitCurrentWriting({ source = "manual" } = {}) {
+  if (questionImageUpload.dataset.processing) throw new Error("圖片仍在處理，請稍候再提交。");
   if (state.submissionPromise) return state.submissionPromise;
   if (!isWritingProofreadingReady(state.proofreadingGate)) {
     throw new Error("請先完成五分鐘校對時間，再正式提交文章。");
@@ -9298,6 +9330,8 @@ async function submitCurrentWriting({ source = "manual" } = {}) {
         topic,
         answer,
         brainstorm: elements.brainstormInput.value,
+      questionImages: combineQuestionImages(state.questionImages, state.selectedTopicResource?.questionImages),
+        functionHelper: state.functionHelper,
         durationSeconds: submittedDurationSeconds,
         topicResource: canonicalWritingTopicResourceForTransport(state.selectedTopicResource),
         proofreadChecklist: proofreadChecklist.getRecord()
@@ -9929,6 +9963,7 @@ function normalizeAdminManualTopic(value) {
     id: resource.manualTopicId,
     title: resource.label,
     prompt: resource.questionPrompt[0],
+    questionImages: resource.questionImages,
     flashcardUrl: String(value?.flashcardUrl || ""),
     writingPracticeUrl: String(value?.writingPracticeUrl || ""),
     modelEssayUrl: String(value?.modelEssayUrl || ""),
@@ -9974,6 +10009,9 @@ function renderAdminManualTopics() {
       adminManualTopicField("題目標題", topic.title, "title"),
       adminManualTopicField("完整寫作題目", topic.prompt, "prompt", { textarea: true })
     );
+    const upload=imageUploader({images:topic.questionImages,onChange:async images=>{details.questionImages=images;}});
+    details.questionImages=topic.questionImages;
+    form.append(upload);
     const grid = createElement("div", "admin-manual-topic-detail-grid");
     grid.append(
       adminManualTopicField("Flash Card Link", topic.flashcardUrl, "flashcardUrl", { placeholder: "https://edmundeducation.com/flashcards.html?deck=…" }),
@@ -10044,6 +10082,7 @@ async function createAdminManualTopics() {
 function adminManualTopicPayload(details) {
   const value = (key) => String(details.querySelector(`[data-admin-manual-topic-field="${key}"]`)?.value || "").trim();
   return {
+    questionImages: normalizeQuestionImages(details.questionImages),
     title: value("title"), prompt: value("prompt"), flashcardUrl: value("flashcardUrl"),
     writingPracticeUrl: value("writingPracticeUrl"), modelEssayUrl: value("modelEssayUrl"), wordList: value("wordList")
   };
@@ -10053,6 +10092,7 @@ async function saveAdminManualTopic(id) {
   if (state.adminManualTopicsBusy || !UUID_RE.test(id)) return;
   const details = elements.adminManualTopicList.querySelector(`[data-admin-manual-topic-id="${id}"]`);
   if (!details) return;
+  if (details.querySelector('[data-processing="true"]')) {showToast("圖片仍在處理，請稍候再儲存。", "error");return;}
   const payload = adminManualTopicPayload(details);
   if (!payload.title || !payload.prompt) {
     showToast("題目標題及完整寫作題目不可留空。", "error");

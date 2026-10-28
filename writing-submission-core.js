@@ -38,8 +38,10 @@ export function normalizeWritingSubmissionEntryLink(value) {
   }
 
   const entries = [...parameters.entries()];
-  if (entries.length !== 1 || !["submission", "exercise", "manualTopic"].includes(entries[0][0])) return null;
+  if (entries.length !== 1 || !["submission", "exercise", "manualTopic", "speakingTopic"].includes(entries[0][0])) return null;
 
+  const topicId=parameters.get("speakingTopic");
+  if(topicId && /^[a-z0-9.-]{1,240}$/.test(topicId)) return Object.freeze({type:"speaking",topicId});
   const submissionId = String(parameters.get("submission") || "").trim();
   if (submissionId && WRITING_SUBMISSION_UUID_RE.test(submissionId)) {
     return Object.freeze({ type: "submission", submissionId: submissionId.toLowerCase() });

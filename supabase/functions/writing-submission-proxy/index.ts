@@ -1,5 +1,5 @@
 const UPSTREAM_ORIGIN = "https://edmund-writing-submission.edmundeducation.workers.dev";
-const MAX_BODY_BYTES = 512 * 1024;
+const MAX_BODY_BYTES = 13 * 1024 * 1024;
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/iu;
 const PROOFREAD_IDS = new Set('articles plural pronouns spelling tense sentence capitals punctuation missing-words verb-form be-verbs prepositions reference possessives contractions formal word-meaning consistency timeline answer-topic paragraph-idea explanation support opening-ending'.split(' '));
 const ALLOWED_ORIGINS = new Set([

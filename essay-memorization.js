@@ -81,6 +81,21 @@
     {icon:'↗',title:'跨主題論證應用',en:'TRANSFER THE LOGIC',description:'把兩段的主張、限制、做法、例子及結論運用到其他主題。',rounds:support.transfer.map(item=>({...item,type:'quiz'}))},
   ];
 
+  // Old indices remain the migration reference for existing local and downloaded progress.
+  const stageOrder = [0,1,2,3,10,5,6,8,9,4,7];
+  const oldStages = [...stageDefinitions];
+  stageDefinitions.splice(0, stageDefinitions.length, ...stageOrder.map(index => oldStages[index]));
+  function migrateStageOrder(value) {
+    if (!value || value.stageOrder === '20261028') return value;
+    const solved = {};
+    for (const [key, result] of Object.entries(value.solved || {})) {
+      const [stage, step] = key.split(':').map(Number);
+      const next = stageOrder.indexOf(stage);
+      if (next >= 0) solved[`${next}:${step}`] = result;
+    }
+    return {...value, stage: Math.max(0, stageOrder.indexOf(value.stage || 0)), solved, unlocked:0, stageOrder:'20261028'};
+  }
+
   function speakingRounds(guided) {
     const rounds = [];
     sentences.forEach((sentence, index) => {
@@ -93,7 +108,7 @@
 
   const totalRounds = stageDefinitions.reduce((count, stage) => count + stage.rounds.length, 0);
   const storageKey = 'edmund-essay80-memory-active-v4';
-  const saved = (() => {
+  const saved = migrateStageOrder((() => {
     try {
       const current = JSON.parse(localStorage.getItem(storageKey) || 'null');
       if (current) return current;
@@ -114,7 +129,7 @@
       Object.entries(old.solved||{}).forEach(([key,value])=>{const [stage,step]=key.split(':').map(Number);if([0,1,2,3,8].includes(stage))solved[`${stage===8?7:stage}:${step}`]=value;});
       return {stage:0,round:0,solved};
     } catch { return {}; }
-  })();
+  })());
   const state = {
     stage: Number.isInteger(saved.stage) && saved.stage >= 0 && saved.stage < stageDefinitions.length ? saved.stage : 0,
     round: Number.isInteger(saved.round) ? saved.round : 0,
@@ -130,7 +145,7 @@
   audio.preload = 'metadata';
   let segmentEnd = null;
   let audioButton = null;
-  function progressSnapshot() { return {stage:state.stage,round:state.round,unlocked:state.unlocked,solved:state.solved,completed:state.completed,selection:state.transitioning?[]:state.selection,hadMistake:state.hadMistake,savedAt:new Date().toISOString()}; }
+  function progressSnapshot() { return {stageOrder:"20261028",stage:state.stage,round:state.round,unlocked:state.unlocked,solved:state.solved,completed:state.completed,selection:state.transitioning?[]:state.selection,hadMistake:state.hadMistake,savedAt:new Date().toISOString()}; }
   function save() {
     try { localStorage.setItem(storageKey,JSON.stringify(progressSnapshot()));$('#save-status').textContent='已儲存在此瀏覽器 · '+new Date().toLocaleTimeString('zh-HK',{hour:'2-digit',minute:'2-digit'});return true; }
     catch {$('#save-status').textContent='瀏覽器未能儲存，請下載備份以保留進度。';return false;}
@@ -143,7 +158,7 @@
   }
   function validateProgress(data) {
     if(data?.format!=='edmund-essay80-progress' || data.version!==4 || !data.progress || typeof data.progress!=='object')throw Error('這不是本版本的 Essay 80 進度檔。');
-    const p=data.progress;if(!Number.isInteger(p.stage)||!stageDefinitions[p.stage]||!Number.isInteger(p.round)||!stageDefinitions[p.stage].rounds[p.round])throw Error('進度檔的關卡或步驟無效。');
+    const p=migrateStageOrder(data.progress);if(!Number.isInteger(p.stage)||!stageDefinitions[p.stage]||!Number.isInteger(p.round)||!stageDefinitions[p.stage].rounds[p.round])throw Error('進度檔的關卡或步驟無效。');
     const solved={};for(const [key,value] of Object.entries(p.solved||{})){const [stage,step]=key.split(':').map(Number);if(/^\d+:\d+$/.test(key)&&stageDefinitions[stage]?.rounds[step]&&[1,2].includes(value))solved[key]=value;}
     return {stage:p.stage,round:p.round,unlocked:0,solved,selection:validatedSelection(p.stage,p.round,p.selection),hadMistake:p.hadMistake===true,completed:false};
   }

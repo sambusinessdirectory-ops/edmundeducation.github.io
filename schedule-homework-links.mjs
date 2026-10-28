@@ -19,6 +19,7 @@ export const HOMEWORK_ENTRY_TAGS = Object.freeze([
 const HOMEWORK_ENTRY_TAG_BY_KEY = new Map(HOMEWORK_ENTRY_TAGS.map((tag) => [tag.key, tag]));
 
 export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
+  Object.freeze({type:"logic-reading",trigger:"Logic Reading",label:"Logic Reading",color:"#176f67"}),
   Object.freeze({ type: "flashcards", trigger: "Flash Cards", label: "Flash Cards", color: "#3f73d8" }),
   Object.freeze({ type: "fill-blanks", trigger: "Fill in the blanks", label: "Fill in the blanks", color: "#e49a31" }),
   Object.freeze({
@@ -127,6 +128,7 @@ const ALLOWED_PAGES_BY_TYPE = Object.freeze({
   idiom: Object.freeze(["/idiom-system.html"]),
   proverb: Object.freeze(["/proverb-system.html"]),
   "phrasal-verb": Object.freeze(["/phrasal-verb-system.html"]),
+  "logic-reading": Object.freeze(Array.from({length:6},(_,i)=>`/reading-logic-module-${i+1}.html`)),
   speaking: Object.freeze(["/speaking-system.html"]),
   "sentence-structure": Object.freeze(["/sentence-structure.html"]),
   "reading-comprehension": Object.freeze(["/reading-comprehension.html"]),
@@ -199,7 +201,7 @@ const DOWNLOAD_CATALOG_KEY_SET = new Set(DOWNLOAD_CATALOG_KEYS);
 const EXPECTED_PARAMETERS_BY_PAGE = Object.freeze({
   "/flashcards.html": Object.freeze(["deck"]),
   "/writing-practice.html": Object.freeze(["exercise"]),
-  "/writing-submission.html": Object.freeze(["exercise", "manualTopic"]),
+  "/writing-submission.html": Object.freeze(["exercise", "manualTopic", "speakingTopic"]),
   "/idiom-system.html": Object.freeze(["lesson"]),
   "/proverb-system.html": Object.freeze(["lesson"]),
   "/phrasal-verb-system.html": Object.freeze(["lesson"]),
@@ -319,6 +321,7 @@ export function normalizeHomeworkHref(value) {
     return null;
   }
   if (parsed.origin !== "https://edmundeducation.com" || parsed.username || parsed.password || parsed.hash) return null;
+  if (/^\/reading-logic-module-[1-6]\.html$/.test(parsed.pathname)) return parsed.search ? null : parsed.pathname.slice(1);
   if (!Object.hasOwn(EXPECTED_PARAMETERS_BY_PAGE, parsed.pathname)) return null;
   if (["/grammar-system.html", "/error-identifier-system.html", "/junior-exam-prep.html"].includes(parsed.pathname)) {
     const keys = [...parsed.searchParams.keys()];
@@ -351,6 +354,7 @@ export function normalizeHomeworkHref(value) {
     if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(parsed.searchParams.get(actualParameters[0]) || "")) return null;
     return `video-class.html?${parsed.searchParams.toString()}`;
   }
+  if (/^\/reading-logic-module-[1-6]\.html$/.test(parsed.pathname)) return parsed.search || parsed.hash ? null : parsed.pathname.slice(1);
   const expectedParameters = EXPECTED_PARAMETERS_BY_PAGE[parsed.pathname];
   const actualParameters = [...parsed.searchParams.keys()];
   // Older Schedule entries linked to the Writing Submission landing page
@@ -364,9 +368,11 @@ export function normalizeHomeworkHref(value) {
     return "synonyms-system.html";
   }
   if (parsed.pathname === "/writing-submission.html") {
-    if (actualParameters.length !== 1 || !["exercise", "manualTopic"].includes(actualParameters[0])) return null;
+    if (actualParameters.length !== 1 || !["exercise", "manualTopic", "speakingTopic"].includes(actualParameters[0])) return null;
     const exercise = parsed.searchParams.get("exercise") || "";
     const manualTopic = parsed.searchParams.get("manualTopic") || "";
+    const speakingTopic = parsed.searchParams.get("speakingTopic") || "";
+    if (speakingTopic && !/^[a-z0-9.-]{1,240}$/.test(speakingTopic)) return null;
     if (exercise && !/^[a-z0-9][a-z0-9._~-]{0,239}$/i.test(exercise)) return null;
     if (manualTopic && !/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(manualTopic)) return null;
     return `writing-submission.html?${parsed.searchParams.toString()}`;

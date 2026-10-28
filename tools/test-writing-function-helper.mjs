@@ -3,10 +3,10 @@ import assert from 'node:assert/strict';
 import { WRITING_FUNCTIONS, composeFunctionAnswer, normalizeFunctionHelper } from '../writing-function-helper.mjs';
 
 test('all supplied sentence functions are available in source order', () => {
-  assert.equal(WRITING_FUNCTIONS.length, 27);
+  assert.equal(WRITING_FUNCTIONS.length, 35);
   assert.equal(WRITING_FUNCTIONS[0].id, 'intro-background');
   assert.equal(WRITING_FUNCTIONS.at(-1).id, 'conclusion-closing');
-  assert.equal(new Set(WRITING_FUNCTIONS.map(item => item.id)).size, 27);
+  assert.equal(new Set(WRITING_FUNCTIONS.map(item => item.id)).size, 35);
 });
 
 test('turning off a function excludes it from the essay without discarding its text', () => {

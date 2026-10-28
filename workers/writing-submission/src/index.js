@@ -22,8 +22,8 @@ const CONTROL_RE = /[\u0000-\u001f\u007f]/;
 const TEXT_CONTROL_RE = /[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f]/;
 const MAX_LOGIN_BODY_BYTES = 4096;
 const MAX_GRAMMAR_CHECK_BODY_BYTES = 12 * 1024;
-const MAX_SUBMISSION_BODY_BYTES = 512 * 1024;
-const MAX_DRAFT_BODY_BYTES = 512 * 1024;
+const MAX_SUBMISSION_BODY_BYTES = 13 * 1024 * 1024;
+const MAX_DRAFT_BODY_BYTES = 13 * 1024 * 1024;
 const MAX_FEEDBACK_BODY_BYTES = 512 * 1024;
 const MAX_FEEDBACK_DELETE_BODY_BYTES = 1024;
 const MAX_FRAGMENT_COPY_BODY_BYTES = 96 * 1024;
@@ -901,6 +901,7 @@ function manualTopicResponse(row, includeDetails = false) {
     id: String(row.id || ""),
     title: String(row.title || ""),
     prompt: String(row.prompt || ""),
+    questionImages: row.question_images || [],
     createdAt: row.created_at ? String(row.created_at) : null,
     updatedAt: row.updated_at ? String(row.updated_at) : null
   };
@@ -919,7 +920,7 @@ async function listManualTopics(request, env) {
   if (!student) throw new HttpError(401, "STUDENT_AUTH_REQUIRED", "Student authentication required");
   const rows = await rpc(env, "writing_submission_student_list_manual_topics", { p_token: student.token });
   if (!Array.isArray(rows)) throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Manual topics returned an invalid response");
-  return json({ topics: rows.map(row => manualTopicResponse(row, true)) }, 200, request, env);
+  return json({ topics: (await attachWritingMaterials(env,"manual",rows)).map(row => manualTopicResponse(row, true)) }, 200, request, env);
 }
 
 async function listAdminManualTopics(request, env) {
@@ -927,7 +928,7 @@ async function listAdminManualTopics(request, env) {
   if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
   const rows = await rpc(env, "writing_submission_admin_list_manual_topics", { p_admin_token: admin.token });
   if (!Array.isArray(rows)) throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Manual topics returned an invalid response");
-  return json({ topics: rows.map(row => manualTopicResponse(row, true)) }, 200, request, env);
+  return json({ topics: (await attachWritingMaterials(env,"manual",rows)).map(row => manualTopicResponse(row, true)) }, 200, request, env);
 }
 
 async function createAdminManualTopics(request, env) {
@@ -948,13 +949,15 @@ async function createAdminManualTopics(request, env) {
 async function updateAdminManualTopic(request, env, id) {
   const admin = await authenticateAdmin(request, env);
   if (!admin) throw new HttpError(401, "ADMIN_AUTH_REQUIRED", "Administrator authentication required");
-  const body = await readLimitedJson(request, 30000);
-  const keys = ["title", "prompt", "flashcardUrl", "writingPracticeUrl", "modelEssayUrl", "wordList"];
-  if (!hasExactKeys(body, keys)) throw new HttpError(400, "INVALID_MANUAL_TOPIC", "Manual topic payload is invalid");
-  const rows = await rpc(env, "writing_submission_admin_update_manual_topic", {
+  const body = await readLimitedJson(request, 13 * 1024 * 1024);
+  const keys = ["title", "prompt", "flashcardUrl", "writingPracticeUrl", "modelEssayUrl", "wordList", "questionImages"];
+  if (!hasOnlyKeys(body, new Set(keys))) throw new HttpError(400, "INVALID_MANUAL_TOPIC", "Manual topic payload is invalid");
+  const existingImages = body.questionImages === undefined
+    ? (await attachWritingMaterials(env, "manual", [{id}]))[0]?.question_images || [] : body.questionImages;
+  const rows = await rpc(env, "writing_manual_topic_update_v2", {
     p_admin_token: admin.token, p_id: id, p_title: String(body.title || ""), p_prompt: String(body.prompt || ""),
     p_flashcard_url: String(body.flashcardUrl || ""), p_writing_practice_url: String(body.writingPracticeUrl || ""),
-    p_model_essay_url: String(body.modelEssayUrl || ""), p_word_list: String(body.wordList || "")
+    p_model_essay_url: String(body.modelEssayUrl || ""), p_word_list: String(body.wordList || ""), p_question_images: normalizeQuestionImages(existingImages)
   });
   const row = singleRow(rows);
   if (!row) throw new HttpError(404, "MANUAL_TOPIC_NOT_FOUND", "Manual topic not found");
@@ -1136,7 +1139,7 @@ function wordCount(value) {
 
 function normalizeSubmissionPayload(payload) {
   if (
-    !hasOnlyKeys(payload, new Set(["topic", "answer", "durationSeconds", "topicResource", "brainstorm", "proofreadChecklist"]))
+    !hasOnlyKeys(payload, new Set(["topic", "answer", "durationSeconds", "topicResource", "brainstorm", "proofreadChecklist", "questionImages", "functionHelper"]))
     || !Object.prototype.hasOwnProperty.call(payload, "topic")
     || !Object.prototype.hasOwnProperty.call(payload, "answer")
   ) {
@@ -1172,10 +1175,29 @@ function normalizeSubmissionPayload(payload) {
     wordCount: words,
     durationSeconds,
     brainstorm: normalizeBrainstorm(payload.brainstorm),
+    questionImages: normalizeQuestionImages(payload.questionImages),
+    functionHelper: normalizeDraftFunctionHelper(payload.functionHelper),
     topicResource: payload.topicResource === undefined || payload.topicResource === null
       ? null
       : normalizeDraftTopicResource(payload.topicResource)
   };
+}
+
+function normalizeQuestionImages(value) {
+  if (value === undefined) return [];
+  if (!Array.isArray(value) || value.length > 8 || utf8Length(JSON.stringify(value)) > 12000000) throw new HttpError(400,'INVALID_IMAGES','最多八張圖片，合共不可超過 9 MB。');
+  return value.map(image => {
+    if (!image || typeof image.src !== 'string' || typeof image.alt !== 'string' || image.alt.length > 300) throw new HttpError(400,'INVALID_IMAGES','Invalid image');
+    const src = image.src;
+    if (!/^data:image\/(?:png|jpeg|webp);base64,[A-Za-z0-9+/]+={0,2}$/.test(src) && !safeWritingPromptImage(src)) throw new HttpError(400,'INVALID_IMAGES','Unsupported image');
+    if (src.length > 1500000) throw new HttpError(400,'INVALID_IMAGES','圖片過大，請先縮小。');
+    return {src,alt:image.alt};
+  });
+}
+async function attachWritingMaterials(env, kind, rows) {
+  if (!rows.length) return rows;
+  const materials = await rpc(env,'writing_materials_get',{p_kind:kind,p_ids:rows.map(row=>row.id)});
+  return rows.map(row=>({...row,...materials?.[row.id]}));
 }
 
 function normalizeBrainstorm(value) {
@@ -1197,7 +1219,7 @@ function normalizeDraftFunctionHelper(value) {
     throw new HttpError(400, 'INVALID_DRAFT', 'functionHelper has an invalid shape');
   }
   const ids = /^(?:intro|body[12]|rebuttal-(?:opponent|your)|conclusion)-[a-z]+$/u;
-  if (value.enabled.length > 27 || Object.keys(value.values).length > 27
+  if (value.enabled.length > 35 || Object.keys(value.values).length > 35
     || value.enabled.some(id => typeof id !== 'string' || !ids.test(id))
     || Object.entries(value.values).some(([id, text]) => !ids.test(id) || typeof text !== 'string' || text.length > 100000)
     || value.unassigned.length > 100000
@@ -1412,7 +1434,7 @@ function normalizeDraftStopwatch(value) {
 function normalizeDraftPayload(payload) {
   const keys = new Set([
     "topic", "answer", "topicResource", "imageZoom", "countdown", "stopwatch",
-    "durationSeconds", "brainstorm", "functionHelper", "draftHelperOpen"
+    "durationSeconds", "brainstorm", "functionHelper", "draftHelperOpen", "questionImages"
   ]);
   if (!hasOnlyKeys(payload, keys)
     || ['topic','answer','topicResource','imageZoom','countdown','stopwatch','durationSeconds']
@@ -1440,6 +1462,7 @@ function normalizeDraftPayload(payload) {
     topic,
     answer,
     brainstorm,
+    questionImages: normalizeQuestionImages(payload.questionImages),
     functionHelper: normalizeDraftFunctionHelper(payload.functionHelper),
     draftHelperOpen: payload.draftHelperOpen === true,
     topicResource: normalizeDraftTopicResource(payload.topicResource),
@@ -1452,6 +1475,7 @@ function normalizeDraftPayload(payload) {
 
 function draftResponse(row) {
   const response = {
+    questionImages: row.question_images || [],
     id: String(row.id || ""),
     topic: String(row.topic || ""),
     answerPreview: String(row.answer_preview || ""),
@@ -1481,6 +1505,8 @@ function draftResponse(row) {
 
 function submissionResponse(row) {
   const response = {
+    questionImages: row.question_images || [],
+    functionHelper: row.function_helper || {},
     id: String(row.id || ""),
     topic: String(row.topic || ""),
     wordCount: Number(row.word_count || 0),
@@ -2276,7 +2302,7 @@ async function getDraft(request, env, draftId) {
   const planning = singleRow(await rpc(env, 'writing_submission_draft_planning_get', {
     p_student_id: student.id, p_id: draftId.toLowerCase()
   }));
-  return json({ draft: draftResponse({ ...row, ...planning }) }, 200, request, env);
+  return json({ draft: draftResponse((await attachWritingMaterials(env, "draft", [{ ...row, ...planning }]))[0]) }, 200, request, env);
 }
 
 async function putDraft(request, env, draftId) {
@@ -2292,7 +2318,7 @@ async function putDraft(request, env, draftId) {
   );
   const payload = normalizeDraftPayload(await readLimitedJson(request, MAX_DRAFT_BODY_BYTES));
   payload.topicResource = authorizeTopicResource(payload.topicResource, student);
-  const row = singleRow(await rpc(env, "writing_submission_save_draft_v2", {
+  const row = singleRow(await rpc(env, "writing_submission_save_draft_v3", {
     p_id: draftId.toLowerCase(),
     p_student_id: student.id,
     p_topic: payload.topic,
@@ -2304,6 +2330,7 @@ async function putDraft(request, env, draftId) {
     p_duration_seconds: payload.durationSeconds,
     p_brainstorm: payload.brainstorm,
     p_function_helper: payload.functionHelper,
+    p_question_images: payload.questionImages,
     p_draft_helper_open: payload.draftHelperOpen
   }));
   if (!row) throw new HttpError(409, "DRAFT_NOT_SAVED", "Draft could not be saved");
@@ -2353,7 +2380,7 @@ async function getSubmission(request, env, submissionId) {
     throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Grammar history returned an invalid response");
   }
   return json({
-    submission: submissionResponse({ ...row, brainstorm }),
+    submission: submissionResponse((await attachWritingMaterials(env, "submission", [{ ...row, brainstorm }]))[0]),
     grammarOccurrences: occurrenceRows.map(occurrenceResponse)
   }, 200, request, env);
 }
@@ -2375,7 +2402,7 @@ async function putSubmission(request, env, submissionId) {
     await readLimitedJson(request, MAX_SUBMISSION_BODY_BYTES)
   );
   payload.topicResource = authorizeTopicResource(payload.topicResource, student);
-  const row = singleRow(await rpc(env, "writing_submission_submit_v5", {
+  const row = singleRow(await rpc(env, "writing_submission_submit_v6", {
     p_id: submissionId.toLowerCase(),
     p_student_id: student.id,
     p_topic: payload.topic,
@@ -2383,7 +2410,9 @@ async function putSubmission(request, env, submissionId) {
     p_word_count: payload.wordCount,
     p_duration_seconds: payload.durationSeconds,
     p_topic_resource: payload.topicResource,
-    p_brainstorm: payload.brainstorm
+    p_brainstorm: payload.brainstorm,
+    p_question_images: payload.questionImages,
+    p_function_helper: payload.functionHelper
   }));
   if (!row) {
     throw new HttpError(409, "SUBMISSION_LIMIT_REACHED", "Submission could not be saved");
@@ -3227,7 +3256,7 @@ async function getAdminSubmission(request, env, submissionId) {
     throw new HttpError(502, "INVALID_UPSTREAM_RESPONSE", "Grammar history returned an invalid response");
   }
   return json({
-    submission: submissionResponse({ ...row, brainstorm }),
+    submission: submissionResponse((await attachWritingMaterials(env, "submission", [{ ...row, brainstorm }]))[0]),
     grammarOccurrences: occurrenceRows.map(occurrenceResponse)
   }, 200, request, env);
 }
@@ -3300,7 +3329,7 @@ async function putAdminSubmissionFeedback(request, env, submissionId) {
   const raw = await readLimitedJson(request, MAX_FEEDBACK_BODY_BYTES);
   const extensions = normalizeFeedbackExtensions(raw.extensions);
   delete raw.extensions;
-  if (extensions && !raw.overallComment?.trim() && (extensions.idiomParts.length || extensions.proverbParts.length)) raw.overallComment = "請參閱以下學習建議。";
+  if (extensions && !raw.overallComment?.trim() && (extensions.idiomParts.length || extensions.proverbParts.length || extensions.draftFeedback)) raw.overallComment = "請參閱以下學習建議。";
   const payload = normalizeFeedbackPayload(raw);
   const saveArgs = {
     p_admin_token: admin.token,
@@ -3410,7 +3439,7 @@ async function feedbackQuestions(request, env, submissionId, adminMode) {
 
 function normalizeFeedbackExtensions(value) {
   if(value === undefined) return null;
-  if(!value || !hasOnlyKeys(value,new Set(['idiomParts','proverbParts','moduleLinks']))) throw new HttpError(400,'INVALID_FEEDBACK','Invalid additional feedback');
+  if(!value || !hasOnlyKeys(value,new Set(['idiomParts','proverbParts','moduleLinks','draftFeedback']))) throw new HttpError(400,'INVALID_FEEDBACK','Invalid additional feedback');
   const moduleLinks = {};
   for(const [kind,path] of Object.entries({phrasal:'phrasal-verb-system.html',idiom:'idiom-system.html',proverb:'proverb-system.html'})) {
     const links=value.moduleLinks?.[kind] || [];
@@ -3421,5 +3450,5 @@ function normalizeFeedbackExtensions(value) {
       return {label:link.label,url:url.pathname.slice(1)+url.search};
     });
   }
-  return {idiomParts:normalizeFeedbackStructuredParts(value.idiomParts||[],'idiomParts'),proverbParts:normalizeFeedbackStructuredParts(value.proverbParts||[],'proverbParts'),moduleLinks};
+  return {draftFeedback:normalizeBrainstorm(value.draftFeedback),idiomParts:normalizeFeedbackStructuredParts(value.idiomParts||[],'idiomParts'),proverbParts:normalizeFeedbackStructuredParts(value.proverbParts||[],'proverbParts'),moduleLinks};
 }
