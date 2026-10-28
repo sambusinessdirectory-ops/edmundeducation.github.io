@@ -23,6 +23,20 @@ await page.locator('.song-card > button').last().click();await page.locator('[da
 await page.locator('[data-player-controls] [data-player-toggle]').click();await page.waitForFunction(()=>!document.querySelector('audio').paused);
 await page.evaluate(()=>{window.songQA.state.player.pauseVideo();window.songQA.state.player.seekTo(44);});await page.waitForFunction(()=>document.querySelector('tr[data-line-id="line-6"]')?.classList.contains('is-current-line'));
 await page.locator('[data-playback-rate]').first().selectOption('0.75');assert.equal(await page.locator('audio').evaluate(a=>a.playbackRate),.75);
+for (const width of [1280,390]) {
+ await page.setViewportSize({width,height:950});
+ await page.locator('[data-song-tab="exercise"]').click();
+ if (await page.locator('[data-change-mode]').isVisible()) await page.locator('[data-change-mode]').click();
+ await page.locator('[data-mode-grid] button').last().click();
+ const ready=page.locator('[data-skip-preparation]');await ready.scrollIntoViewIfNeeded();
+ const button=await ready.boundingBox(),panel=await page.locator('.player-card').boundingBox();
+ assert.ok(button.y>=panel.y&&button.y+button.height<=panel.y+panel.height,'ready button fits inside player');
+ assert.ok(await ready.evaluate(el=>{const r=el.getBoundingClientRect();return el.contains(document.elementFromPoint(r.x+r.width/2,r.y+r.height/2));}),'ready button is not clipped');
+ await page.screenshot({path:`/tmp/song-ready-${width}.png`});await ready.click();
+ await page.waitForFunction(()=>document.querySelector('[data-countdown]').hidden&&!document.querySelector('audio').paused);
+ await page.locator('[data-song-tab="translation"]').click();
+}
+await page.setViewportSize({width:1280,height:950});
 await page.locator('[data-song-tab="vocabulary"]').click();assert.equal(await page.locator('.vocabulary-option').count(),4);assert.equal(await page.locator('.vocabulary-feedback').textContent(),'');await page.locator('.vocabulary-option').nth(1).click();await page.waitForSelector('.vocabulary-option.is-correct');assert.match(await page.locator('.vocabulary-feedback').textContent(),/答案 B/);assert.equal(await page.locator('.vocabulary-feedback p').count(),5);await page.screenshot({path:'/tmp/song-photograph-vocabulary.png'});
 await page.locator('.vocabulary-navigation button').last().click();assert.match(await page.locator('.vocabulary-card h2').textContent(),/Feel alive/);
 await page.reload();await page.waitForSelector('.song-card');await page.locator('.song-card > button').last().click();await page.locator('[data-song-tab="vocabulary"]').click();await page.waitForSelector('.vocabulary-option.is-correct');

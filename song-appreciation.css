@@ -435,3 +435,11 @@ button { color: inherit; }
 [data-vocabulary] { scroll-margin-top:100px; }
 @media(max-width:640px) { .content-tabs { grid-template-columns:repeat(2,minmax(0,1fr)); } .vocabulary-options { grid-template-columns:1fr; } }
 .song-cover img, .song-card__thumb img { object-fit:contain; background:#e6eee7; }
+
+/* The preparation panel must size itself, even when the album player is short. */
+.player-card:has(.read-countdown:not([hidden])) > .youtube-shell,
+.player-card:has(.read-countdown:not([hidden])) > .player-controls { display:none; }
+.read-countdown:not([hidden]) { position:relative; inset:auto; gap:.8rem; padding:1.5rem; }
+.read-countdown:not([hidden]) strong { font-size:clamp(4rem,12vw,7rem); }
+.read-countdown:not([hidden]) p { margin:0; }
+.read-countdown [data-skip-preparation] { min-height:48px; padding:.8rem 1.4rem; background:#ee386d; border-color:#ee386d; font-weight:800; }
