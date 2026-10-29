@@ -1,14 +1,15 @@
 // Read saved choices without changing playback or writing duplicate drafts.
 export function createSongLiveSync({context,rpc,apply,environment=globalThis}) {
  const env=environment,doc=env.document,now=()=>Date.now();
- let key='',since='',busy=false,next=0,lastActivity=now(),failures=0,stopped=false;
+ let key='',since='',busy=false,next=0,lastActivity=now(),failures=0,stopped=false,wasPlaying=false;
  const identity=c=>c?.owner&&c?.token&&c?.song&&c?.mode?`${c.owner}:${c.token}:${c.song}:${c.mode}:${c.version}`:'';
- const activity=()=>{lastActivity=now();};
+ const activity=()=>{if(now()-lastActivity>=60000)next=0;lastActivity=now();};
  const resume=()=>{next=0;activity();void tick();};
  async function tick(){
   if(stopped||busy||doc.hidden)return;
   const c=context(),requestKey=identity(c);
   if(requestKey!==key){key=requestKey;since='';next=0;activity();}
+  if(c?.playing&&!wasPlaying)next=0;wasPlaying=Boolean(c?.playing);
   if(!key||now()<next)return;
   const started=now();busy=true;
   try{

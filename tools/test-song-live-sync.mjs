@@ -10,6 +10,7 @@ try{
  now+=61000;await sync.tick();now+=500;await sync.tick();assert.equal(calls,4,'music keeps passive viewer at half-second playback cadence');
  defer=true;row={revision:'2:',payload:{draft:{answers:{1:'rain'}}}};now+=1000;await sync.tick();assert.equal(applied.length,1);defer=false;now+=1000;await sync.tick();assert.equal(applied.length,2,'unsaved local edits defer rather than discard the remote revision');
  offline=true;now+=1000;await sync.tick();const before=calls;now+=1000;await sync.tick();assert.equal(calls,before);offline=false;now+=1000;await sync.tick();
+ c={...c,playing:false};now+=61000;await sync.tick();const idle=calls;now+=1000;await sync.tick();assert.equal(calls,idle);c={...c,playing:true};await sync.tick();assert.equal(calls,idle+1,'starting music resumes fast reads immediately');
  doc.hidden=true;now+=60000;const hidden=calls;await sync.tick();assert.equal(calls,hidden);doc.hidden=false;c={...c,song:null};await sync.tick();assert.equal(calls,hidden);c={...c,owner:null,song:'song'};await sync.tick();assert.equal(calls,hidden);
  console.log('PASS song live transport: half-second playback cadence, playback keeps it fast, unchanged payloads, pending-edit deferral, offline backoff, hidden/exit/logout cleanup.');
 }finally{sync.stop();Date.now=original;}
