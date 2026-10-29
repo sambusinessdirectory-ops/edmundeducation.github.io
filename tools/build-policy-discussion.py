@@ -1,5 +1,5 @@
 """Convert the supplied policy discussion manuscript, preserving all teaching content."""
-import json,re,sys
+import json,re,sys,tempfile
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 source=(root/'tools/content-sources/policy-construction-safety-b1-b2.md').read_text()
@@ -34,6 +34,6 @@ assert sum(len(a['glossary']) for side in ['for','against'] for a in q[side])==8
 assert len(re.findall(r'^\| \*\*',next(s for s in sections if s.startswith('七、')),re.M))==42
 ids=[a['id'] for side in ['for','against'] for a in q[side]]+[g['id'] for side in ['for','against'] for a in q[side] for g in a['glossary']]+[s['id'] for s in q['structures']]
 assert len(ids)==len(set(ids))
-target=Path(sys.argv[1] if len(sys.argv)>1 else '/private/tmp/policy-discussion-content.json')
+target=Path(sys.argv[1] if len(sys.argv)>1 else str(Path(tempfile.gettempdir())/'policy-discussion-content.json'))
 target.write_text(json.dumps(content,ensure_ascii=False,indent=2))
 print('Verified: 141 proposals, 25 objections, 830 glossary pairs, 20 structures, 42 vocabulary groups; all supplementary sections included.')
