@@ -46,3 +46,9 @@ export function cleanPolicyText(value) {
     return part;
   }).join('');
 }
+
+// Preserve punctuation and escape content before inserting layout-only markup.
+export function renderPolicyProse(value) {
+  return String(value ?? '').split(/(?<=[，。])\s*/u).filter(Boolean)
+    .map(clause => `<span class="policy-clause">${esc(clause)}</span>`).join('');
+}

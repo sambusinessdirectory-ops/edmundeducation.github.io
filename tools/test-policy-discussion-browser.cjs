@@ -28,6 +28,10 @@ const server=http.createServer((req,res)=>{const file=path.resolve(root,'.'+new 
  await page.locator('[name=username]').fill('student-a');await page.locator('[name=password]').fill('fixture');await page.locator('#login-form button').click();await page.locator('[data-open]').click();
  assert.equal(await page.locator('.article-hero h1').innerText(),'工人應否有權拒絕不安全的工作？');
  await page.locator('[data-question]').click();assert.equal(await page.locator('.side--for .argument').count(),141);assert.equal(await page.locator('.side--against .argument').count(),25);
+ const questionClauses=page.locator('.question-panel__top h2 .policy-clause');assert.equal(await questionClauses.count(),2);
+ assert.equal(await questionClauses.first().innerText(),'當地盤面對趕工壓力時，');
+ assert(await questionClauses.evaluateAll(nodes=>nodes.every(node=>{const range=document.createRange();range.selectNodeContents(node);return range.getClientRects().length===1;})));
+ await page.locator('.question-panel__top').screenshot({path:'/tmp/policy-clause-desktop.png'});
  assert.equal(await page.locator('.article-hero').innerText().then(t=>t.includes('2026-10-29')),false);
  assert(await page.locator('.policy-tag').count()>0);
  await page.locator('[data-toggle-all]').click();assert.equal(await page.locator('.argument-detail').count(),166);
