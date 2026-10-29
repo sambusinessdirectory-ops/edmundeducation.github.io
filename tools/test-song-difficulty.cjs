@@ -1,7 +1,7 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const root=path.resolve(__dirname,'..');const sandbox={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'song-difficulty-data.js'),'utf8'),sandbox);const profiles=sandbox.window.SONG_DIFFICULTY_DATA;
 assert.equal(Object.keys(profiles).length,38);
-for(const [slug,p] of Object.entries(profiles)){assert.equal(p.scores.length,6,slug);assert.ok(p.scores.every(v=>Number.isInteger(v)&&v>=1&&v<=10),slug);assert.ok(p.bpm>0&&p.year>=1960&&p.year<=2026,slug);assert.ok(p.genre&&p.note&&p.sources.length>=2,slug);assert.ok(p.sources.every(s=>new URL(s.url).protocol==='https:'),slug);}
+for(const [slug,p] of Object.entries(profiles)){assert.equal(p.scores.length,6,slug);assert.ok(p.scores.every(v=>Number.isInteger(v)&&v>=1&&v<=10),slug);assert.ok(p.bpm>0&&p.year>=1960&&p.year<=2026,slug);assert.ok(p.genre,slug);assert.equal(p.note,undefined);assert.equal(p.sources,undefined);}
 vm.runInNewContext(fs.readFileSync(path.join(root,'song-difficulty.js'),'utf8'),sandbox);for(const [score,stars] of [[6,1],[16,1],[17,2],[27,2],[28,3],[38,3],[39,4],[49,4],[50,5],[60,5]])assert.equal(sandbox.window.SongDifficulty.starLevel(score),stars);
 if(!process.env.PLAYWRIGHT_MODULE){console.log('38 difficulty profiles, metadata, six score ranges and star boundaries passed.');process.exit(0);}
 const {chromium}=require(process.env.PLAYWRIGHT_MODULE);
@@ -13,9 +13,21 @@ await page.route('**/*',async r=>{const u=new URL(r.request().url());if(u.pathna
 if(['/shared-system-nav.js','/eddy-global-dialogues.js'].includes(u.pathname))return r.fulfill({contentType:'text/javascript',body:''});const file=path.join(root,decodeURIComponent(u.pathname));if(!file.startsWith(root)||!fs.existsSync(file)||!fs.statSync(file).isFile())return r.abort();const ext=path.extname(file);return r.fulfill({body:fs.readFileSync(file),contentType:({'.js':'text/javascript','.css':'text/css','.html':'text/html','.svg':'image/svg+xml','.webp':'image/webp','.mp3':'audio/mpeg'})[ext]||'application/octet-stream'});});
 await page.goto('http://127.0.0.1:8766/song-appreciation.html');await page.waitForSelector('.song-card-difficulty');assert.equal(await page.locator('.song-card-difficulty').count(),38);await page.locator('.song-card').first().scrollIntoViewIfNeeded();await page.screenshot({path:'/tmp/song-difficulty-cards.png'});
 await page.locator('.song-card > button').last().click();await page.waitForSelector('.song-difficulty-panel');assert.equal(await page.locator('.difficulty-value').count(),6);assert.ok(await page.locator('[data-song-description]').evaluate(el=>el.getBoundingClientRect().top>document.querySelector('.song-difficulty-panel').getBoundingClientRect().bottom));
-await page.locator('.difficulty-chart').click();assert.ok(await page.locator('.radar-area').evaluate(el=>el.getAnimations().length>0));await page.waitForTimeout(800);assert.equal(await page.locator('.radar-area').evaluate(el=>el.getAnimations().length),0);
-await page.locator('.difficulty-chart').focus();await page.keyboard.press('Enter');assert.ok(await page.locator('.radar-area').evaluate(el=>el.getAnimations().length>0));await page.emulateMedia({reducedMotion:'reduce'});await page.locator('.difficulty-chart').click();assert.equal(await page.locator('.radar-area').evaluate(el=>el.getAnimations().length),0);
+const area=page.locator('.radar-area');
+const radius=()=>area.evaluate(el=>Math.max(...Array.from(el.points,p=>Math.hypot(p.x-220,p.y-175))));
+await page.locator('.difficulty-chart').scrollIntoViewIfNeeded();
+await page.waitForTimeout(1400);
+const full=await radius();assert.ok(full>30);
+await page.locator('.difficulty-chart').click();const early=await radius();
+await page.waitForTimeout(450);const middle=await radius();
+await page.waitForTimeout(850);const end=await radius();
+assert.ok(early<full*.2&&middle>early&&middle<full*.9&&Math.abs(end-full)<.01,'vertices visibly expand outward');
+await page.locator('.difficulty-chart').focus();await page.keyboard.press('Enter');assert.ok(await radius()<full*.2);
+await page.emulateMedia({reducedMotion:'reduce'});await page.locator('.difficulty-chart').click();assert.ok(await radius()<full*.2,'explicit replay works with reduced motion');
+await page.waitForTimeout(1300);
+assert.equal(await page.locator('.difficulty-scale,.difficulty-song-note,.difficulty-method,.difficulty-sources').count(),0);
+assert.equal(await page.locator('.difficulty-value dt[title]').count(),0);
 for(const width of [1280,768,390]){await page.setViewportSize({width,height:1000});await page.locator('.song-difficulty-panel').scrollIntoViewIfNeeded();assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,`overflow ${width}`);await page.screenshot({path:`/tmp/song-difficulty-${width}.png`});}
 // Render every published profile through the same component and check totals.
 assert.equal(await page.evaluate(()=>Object.entries(window.SONG_DIFFICULTY_DATA).filter(([slug,d])=>{const p=window.SongDifficulty.panel({slug});return p.querySelectorAll('.difficulty-value').length===6&&p.querySelector('.difficulty-summary').textContent.includes(d.scores.reduce((a,b)=>a+b,0)+' / 60');}).length),38);
-assert.deepEqual(errors,[]);console.log('38 cards and panels; totals; animation replay; keyboard; reduced motion; desktop/tablet/mobile; no page errors: PASS.');}finally{await browser.close();}})().catch(e=>{console.error(e);process.exit(1)});
+assert.deepEqual(errors,[]);console.log('38 cards and panels; totals; vertex expansion; keyboard; explicit reduced-motion replay; desktop/tablet/mobile; no page errors: PASS.');}finally{await browser.close();}})().catch(e=>{console.error(e);process.exit(1)});

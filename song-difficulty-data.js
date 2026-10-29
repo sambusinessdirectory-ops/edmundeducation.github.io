@@ -1,4 +1,3 @@
-// Teaching estimates, not validated learner scores. Higher values always mean harder.
 window.SONG_DIFFICULTY_DATA = {
   "stop-loving-you": {
     "scores": [
@@ -11,20 +10,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 102,
     "year": 1988,
-    "genre": "Pop rock",
-    "note": "主歌的短句接得較緊，搖滾人聲與伴奏重疊；留意句尾輔音及表達情緒的片語。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40toto/stop-loving-you"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Stop_Loving_You"
-      }
-    ]
+    "genre": "Pop rock"
   },
   "thinking-out-loud-ed-sheeran": {
     "scores": [
@@ -37,20 +23,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 79,
     "year": 2014,
-    "genre": "Pop / Soul",
-    "note": "節奏舒緩，但句子常跨越拍點；留意代名詞、助動詞的弱讀，以及比喻愛情的表達。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40ed-sheeran/thinking-out-loud"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Thinking_Out_Loud"
-      }
-    ]
+    "genre": "Pop / Soul"
   },
   "take-on-me": {
     "scores": [
@@ -63,20 +36,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 169,
     "year": 1985,
-    "genre": "Synth-pop",
-    "note": "快速節拍配合高音與拉長母音，字尾較難辨清；主歌與副歌的唱法差異亦增加難度。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "本課採 1985 年廣為流傳的重新錄製版本；最早版本於 1984 年推出。",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40a-ha/take-on-me"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Take_On_Me"
-      }
-    ]
+    "genre": "Synth-pop"
   },
   "with-or-without-you": {
     "scores": [
@@ -89,20 +49,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 110,
     "year": 1987,
-    "genre": "Rock",
-    "note": "歌詞量少且重複較多；長音和漸強人聲需要辨清，部分意象要結合上下文理解。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/u2/with-or-without-you"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/With_or_Without_You"
-      }
-    ]
+    "genre": "Rock"
   },
   "imagine": {
     "scores": [
@@ -115,20 +62,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 75,
     "year": 1971,
-    "genre": "Soft rock",
-    "note": "發音與句子間隔較清楚；挑戰主要來自宗教、社會與理想世界等抽象詞義。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://api.musicnotes.com/sheetmusic/john-lennon/imagine/MN0224259"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Imagine_%28song%29"
-      }
-    ]
+    "genre": "Soft rock"
   },
   "if-bread": {
     "scores": [
@@ -141,20 +75,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 98,
     "year": 1971,
-    "genre": "Soft rock",
-    "note": "唱詞疏落、旋律舒緩；條件句和詩意比喻比節奏更需要細讀。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40bread/if"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/If_%28Bread_song%29"
-      }
-    ]
+    "genre": "Soft rock"
   },
   "all-of-me": {
     "scores": [
@@ -167,20 +88,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 120,
     "year": 2013,
-    "genre": "Pop / Soul",
-    "note": "鋼琴伴奏讓人聲突出；句中連讀、反義對照和感情比喻是主要辨聽重點。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "節拍資料庫常列約 120–126 BPM；慢拍感亦可按半速理解。",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/john-legend/all-of-me"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/All_of_Me_%28John_Legend_song%29"
-      }
-    ]
+    "genre": "Pop / Soul"
   },
   "forever-young": {
     "scores": [
@@ -193,20 +101,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 137,
     "year": 1984,
-    "genre": "Synth-pop",
-    "note": "旋律留有空間，但抽象意象和合成人聲質感提高理解負擔；注意重複句中的細節。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "亦常按半速約 69 BPM 計拍。",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40alphaville/forever-young"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Forever_Young_%28Alphaville_song%29"
-      }
-    ]
+    "genre": "Synth-pop"
   },
   "a-thousand-years": {
     "scores": [
@@ -219,20 +114,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 50,
     "year": 2011,
-    "genre": "Pop ballad",
-    "note": "慢速複拍與重複副歌較易跟上；留意輕聲唱出的功能詞及長音之間的字界。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "6/8 拍，以附點四分音符的大拍約 50 BPM 計算。",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://www.musicnotes.com/sheetmusic/christina-perri/a-thousand-years/MN0113740"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/A_Thousand_Years"
-      }
-    ]
+    "genre": "Pop ballad"
   },
   "its-my-life": {
     "scores": [
@@ -245,20 +127,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 120,
     "year": 2000,
-    "genre": "Hard rock / Pop rock",
-    "note": "搖滾聲線、密集短句與口語縮略同時出現；慣用語和文化指涉也需要留意。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40bon-jovi/it-s-my-life"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/It%27s_My_Life_%28Bon_Jovi_song%29"
-      }
-    ]
+    "genre": "Hard rock / Pop rock"
   },
   "every-breath-you-take": {
     "scores": [
@@ -271,20 +140,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 117,
     "year": 1983,
-    "genre": "Pop rock",
-    "note": "平行句式與重複詞語有助預測；重點是分辨每行替換的動詞，避免只憑熟悉旋律作答。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40the-police/every-breath-you-take"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Every_Breath_You_Take"
-      }
-    ]
+    "genre": "Pop rock"
   },
   "happier": {
     "scores": [
@@ -297,20 +153,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 90,
     "year": 2017,
-    "genre": "Pop ballad",
-    "note": "敘事句與比較表達清楚，但輕聲連讀容易吞掉小詞；注意代名詞及時間線索。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "2017 年先收錄於專輯；2018 年發行單曲。",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40ed-sheeran/happier-AcRQ0Fr2PW"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Happier_%28Ed_Sheeran_song%29"
-      }
-    ]
+    "genre": "Pop ballad"
   },
   "nothings-gonna-stop-us-now": {
     "scores": [
@@ -323,20 +166,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 96,
     "year": 1987,
-    "genre": "Pop rock",
-    "note": "男女聲交替及合唱使字界更緊密；口語縮略與承諾類片語是主要挑戰。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40starship/nothing-s-gonna-stop-us-now"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Nothing%27s_Gonna_Stop_Us_Now"
-      }
-    ]
+    "genre": "Pop rock"
   },
   "somebody-that-i-used-to-know": {
     "scores": [
@@ -349,20 +179,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 129,
     "year": 2011,
-    "genre": "Art pop / Alternative",
-    "note": "主歌敘事密集，兩位歌手的咬字與語氣不同；長句、弱讀及關係類片語需要持續追蹤。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40gotye/somebody-that-i-used-to-know-mc7ja"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Somebody_That_I_Used_to_Know"
-      }
-    ]
+    "genre": "Art pop / Alternative"
   },
   "africa": {
     "scores": [
@@ -375,20 +192,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 93,
     "year": 1982,
-    "genre": "Soft rock",
-    "note": "地名、景物與抽象意象增加詞彙負擔；長句配合多層和聲，需仔細辨認重音以外的字。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40toto/africa-qfny0"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Africa_%28song%29"
-      }
-    ]
+    "genre": "Soft rock"
   },
   "somewhere-only-we-know": {
     "scores": [
@@ -401,20 +205,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 172,
     "year": 2004,
-    "genre": "Alternative rock",
-    "note": "鋼琴節拍推進較快，唱詞本身仍有空間；留意長母音、連讀及地景比喻。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40keane/somewhere-only-we-know-b91ac9e3-98d4-4961-8cae-ebe30edb7a63"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Somewhere_Only_We_Know"
-      }
-    ]
+    "genre": "Alternative rock"
   },
   "oops-i-did-it-again": {
     "scores": [
@@ -427,20 +218,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 95,
     "year": 2000,
-    "genre": "Dance-pop",
-    "note": "氣聲、節奏化唱法及口語對話交替；縮略語、弱讀和副歌的小幅變化容易混淆。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40britney-spears/oops-i-did-it-again"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Oops%21..._I_Did_It_Again_%28song%29"
-      }
-    ]
+    "genre": "Dance-pop"
   },
   "livin-on-a-prayer": {
     "scores": [
@@ -453,20 +231,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 123,
     "year": 1986,
-    "genre": "Hard rock",
-    "note": "故事主歌包含工作與生活片語，副歌有明顯省音；沙啞聲線和強勁伴奏增加辨聽負擔。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40bon-jovi/livin-on-a-prayer"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Livin%27_on_a_Prayer"
-      }
-    ]
+    "genre": "Hard rock"
   },
   "open-arms-journey": {
     "scores": [
@@ -479,20 +244,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 101,
     "year": 1981,
-    "genre": "Soft rock",
-    "note": "慢板情歌以拉長音節為主；需辨清句尾和較輕的連接詞，並理解關係修復的比喻。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "1981 年專輯版本；單曲於 1982 年發行。",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40journey/open-arms"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Open_Arms_%28Journey_song%29"
-      }
-    ]
+    "genre": "Soft rock"
   },
   "everything-i-own": {
     "scores": [
@@ -505,20 +257,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 79,
     "year": 1972,
-    "genre": "Soft rock",
-    "note": "人聲平穩、重複句多；留意回憶敘事中的動詞，以及珍惜與失去的片語。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40bread/everything-i-own-ers20oulIj"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Everything_I_Own"
-      }
-    ]
+    "genre": "Soft rock"
   },
   "fly-me-to-the-moon": {
     "scores": [
@@ -531,20 +270,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 119,
     "year": 1964,
-    "genre": "Jazz / Swing",
-    "note": "咬字清楚，但搖擺節奏會改變字與拍的對齊；想像性的表達與連讀值得留意。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "年份指 Sinatra 與 Count Basie 的 1964 年錄音；歌曲最早寫於 1954 年。",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40frank-sinatra/fly-me-to-the-moon---remastered"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Fly_Me_to_the_Moon"
-      }
-    ]
+    "genre": "Jazz / Swing"
   },
   "bohemian-rhapsody": {
     "scores": [
@@ -557,20 +283,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 72,
     "year": 1975,
-    "genre": "Progressive rock",
-    "note": "抒情、歌劇與搖滾段落快速轉換，含罕見詞語與多層合唱；整曲負擔遠高於開首慢拍所示。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "約 72 BPM 僅作慢段參考；全曲有多次速度與風格轉換。",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40queen/bohemian-rhapsody-fd0663b3-5925-4aa5-af8b-09911328240b"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Bohemian_Rhapsody"
-      }
-    ]
+    "genre": "Progressive rock"
   },
   "a-sky-full-of-stars": {
     "scores": [
@@ -583,20 +296,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 125,
     "year": 2014,
-    "genre": "EDM / Pop rock",
-    "note": "副歌短而重複，詞彙負擔較低；電子伴奏與高音會遮蓋部分字尾。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40coldplay/a-sky-full-of-stars"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/A_Sky_Full_of_Stars"
-      }
-    ]
+    "genre": "EDM / Pop rock"
   },
   "i-dont-want-to-miss-a-thing": {
     "scores": [
@@ -609,20 +309,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 121,
     "year": 1998,
-    "genre": "Rock ballad",
-    "note": "副歌句子較長，人聲由輕唱轉為強烈高音；留意省音和連續的否定表達。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40aerosmith/i-don-t-want-to-miss-a-thing"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/I_Don%27t_Want_to_Miss_a_Thing"
-      }
-    ]
+    "genre": "Rock ballad"
   },
   "i-want-it-that-way": {
     "scores": [
@@ -635,20 +322,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 99,
     "year": 1999,
-    "genre": "Pop",
-    "note": "短句及重複副歌較易掌握；和聲中的弱讀、代名詞與句子銜接仍需細聽。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40backstreet-boys/i-want-it-that-way"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/I_Want_It_That_Way"
-      }
-    ]
+    "genre": "Pop"
   },
   "dont-stop-believin": {
     "scores": [
@@ -661,20 +335,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 119,
     "year": 1981,
-    "genre": "Arena rock",
-    "note": "敘事主歌包含城市生活詞彙，句子接續較緊；注意省去字尾的唱法及比喻表達。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40journey/don-t-stop-believin"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Don%27t_Stop_Believin%27"
-      }
-    ]
+    "genre": "Arena rock"
   },
   "shake-it-off-taylor-swift": {
     "scores": [
@@ -687,20 +348,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 160,
     "year": 2014,
-    "genre": "Dance-pop",
-    "note": "快速節拍、口語橋段與大量俚語疊加；副歌雖重複，主歌及說唱式段落仍十分密集。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40taylor-swift/shake-it-off-0a2fa47c-83bc-4366-a144-7ff55880450f"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Shake_It_Off"
-      }
-    ]
+    "genre": "Dance-pop"
   },
   "photograph-ed-sheeran": {
     "scores": [
@@ -713,20 +361,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 108,
     "year": 2014,
-    "genre": "Folk-pop",
-    "note": "日常詞彙為主，但較長的句子把小詞連在一起；需追蹤時間、位置與代名詞。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "2014 年先收錄於專輯；2015 年發行單曲。",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40ed-sheeran/photograph-c0q5e"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Photograph_%28Ed_Sheeran_song%29"
-      }
-    ]
+    "genre": "Folk-pop"
   },
   "million-reasons": {
     "scores": [
@@ -739,20 +374,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 130,
     "year": 2016,
-    "genre": "Country-pop",
-    "note": "反覆句有助跟唱，口語縮略與帶情緒的延音仍會改變字界；注意條件句與轉折。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "亦可按半速約 65 BPM 感受慢拍。",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40lady-gaga/million-reasons"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Million_Reasons"
-      }
-    ]
+    "genre": "Country-pop"
   },
   "viva-la-vida": {
     "scores": [
@@ -765,20 +387,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 138,
     "year": 2008,
-    "genre": "Art rock / Baroque pop",
-    "note": "歷史、宗教與權力意象使詞義較抽象；密集敘事和連續重拍需要較快的處理速度。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://en.wikipedia.org/wiki/Viva_la_Vida"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Viva_la_Vida"
-      }
-    ]
+    "genre": "Art rock / Baroque pop"
   },
   "iris": {
     "scores": [
@@ -791,20 +400,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 51,
     "year": 1998,
-    "genre": "Alternative rock",
-    "note": "唱詞不算密集，但沙啞音色與高音會弱化輔音；抽象的自我表達需要上下文。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "複拍按大拍約 51 BPM；其他資料庫可按細拍列約 153–156。",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://api.hooktheory.com/theorytab/view/goo-goo-dolls/iris"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Iris_%28song%29"
-      }
-    ]
+    "genre": "Alternative rock"
   },
   "perfect": {
     "scores": [
@@ -817,20 +413,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 97,
     "year": 2017,
-    "genre": "Pop ballad",
-    "note": "故事線清楚、常用詞多；輕唱和連讀容易把短詞合在一起，長音亦會改變字的節奏。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "複拍歌曲的 BPM 會隨計拍方式不同；此處沿用資料庫約 97 的標示，唱詞速度另作教學評估。",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40ed-sheeran/perfect"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Perfect_%28Ed_Sheeran_song%29"
-      }
-    ]
+    "genre": "Pop ballad"
   },
   "everything-has-changed": {
     "scores": [
@@ -843,20 +426,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 80,
     "year": 2012,
-    "genre": "Folk-pop",
-    "note": "旋律溫和，主歌卻有多組連續短詞；雙人和聲及反覆句的小變化需要辨認。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "採 2012 年原版，單曲於 2013 年推出；2021 年重新錄製版本另計。",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40taylor-swift/everything-has-changed"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Everything_Has_Changed"
-      }
-    ]
+    "genre": "Folk-pop"
   },
   "always": {
     "scores": [
@@ -869,20 +439,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 72,
     "year": 1994,
-    "genre": "Soft rock",
-    "note": "情緒強烈的沙啞高音配合長句與比喻；功能詞常被壓短，字尾也容易融入伴奏。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "慢拍約 72 BPM，部分資料庫以雙倍拍約 144 標示。",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40bon-jovi/always"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/Always_%28Bon_Jovi_song%29"
-      }
-    ]
+    "genre": "Soft rock"
   },
   "my-way": {
     "scores": [
@@ -895,20 +452,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 76,
     "year": 1969,
-    "genre": "Traditional pop",
-    "note": "發音相對清楚，但回顧人生的慣用語和較正式詞彙較多；自由延音會改變句子的節奏。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "速度隨演唱推進有所變化，約 76 BPM 為參考慢拍。",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://www.bellandcomusic.com/my-way.html"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/My_Way"
-      }
-    ]
+    "genre": "Traditional pop"
   },
   "the-a-team": {
     "scores": [
@@ -921,20 +465,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 85,
     "year": 2011,
-    "genre": "Folk",
-    "note": "短句中包含隱喻與社會處境詞彙；輕聲連讀密集，表面簡單的詞也可能承載隱含意思。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40ed-sheeran/the-a-team-1ec626ff-b9fd-4c2c-9a90-cdd5fc587630"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/The_A_Team_%28Ed_Sheeran_song%29"
-      }
-    ]
+    "genre": "Folk"
   },
   "my-love": {
     "scores": [
@@ -947,20 +478,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 72,
     "year": 2000,
-    "genre": "Pop ballad",
-    "note": "旋律舒緩、句式重複；辨聽重點是較輕的功能詞，以及合唱中的字尾。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "慢拍約 72 BPM，亦有資料庫以雙倍拍約 144 標示。",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40westlife/my-love-uM-YAIg40Y"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/My_Love_%28Westlife_song%29"
-      }
-    ]
+    "genre": "Pop ballad"
   },
   "i-lay-my-love-on-you": {
     "scores": [
@@ -973,19 +491,6 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 103,
     "year": 2000,
-    "genre": "Pop",
-    "note": "中速節拍和重複副歌有助跟上；留意句內連讀、感情片語與和聲中的輔音。",
-    "ratingBasis": "editorial-estimate",
-    "metadataNote": "2000 年先收錄於專輯；單曲於 2001 年發行。",
-    "sources": [
-      {
-        "label": "節拍參考",
-        "url": "https://songbpm.com/%40westlife/i-lay-my-love-on-you-fxy8z"
-      },
-      {
-        "label": "發行與曲風",
-        "url": "https://en.wikipedia.org/wiki/I_Lay_My_Love_on_You"
-      }
-    ]
+    "genre": "Pop"
   }
 };
