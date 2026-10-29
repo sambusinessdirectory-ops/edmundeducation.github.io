@@ -32,7 +32,7 @@ const abbreviations = {
   KPI: ['Key Performance Indicator', '關鍵績效指標']
 };
 export function cleanPolicyText(value) {
-  let text = String(value ?? '').replace(/(?:\*\*)?(?:負責與操作：|理由／界線：)(?:\*\*)?/g, '').replace(/（截至 2026-10-29）/g, '');
+  let text = String(value ?? '').replace(/(?:\*\*)?(?:負責與操作：|理由／界線：)(?:\*\*)?/g, '').replace(/（截至 2026-10-29）|（產業推廣）/g, '');
   const seen = new Set();
   return text.split(/(https:\/\/[^\s<>]+)/g).map(part => {
     if (part.startsWith('https://')) return part;

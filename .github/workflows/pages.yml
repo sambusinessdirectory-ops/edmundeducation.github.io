@@ -273,6 +273,7 @@ jobs:
           node --check news-discussion/app.mjs
           node --check policy-discussion/app.mjs
           node --check policy-discussion/resources.mjs
+          node --check policy-discussion/departments.mjs
           python3 tools/build-policy-discussion.py
           node --check shared-system-nav.js
           node -e "const fs=require('fs'); const h=fs.readFileSync('index.html','utf8'); const p=fs.readFileSync('news-discussion.html','utf8'); if(!h.includes('href=\"news-discussion.html\"')||!p.includes('news-discussion/app.mjs')) throw Error('Card 75 is not linked')"

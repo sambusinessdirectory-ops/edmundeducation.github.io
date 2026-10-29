@@ -43,6 +43,16 @@ const server=http.createServer((req,res)=>{const file=path.resolve(root,'.'+new 
  await page.locator('[data-argument="arg:for:1"]').click();assert.equal(await page.locator('.glossary li').count(),5);
  await page.locator('[data-check="gloss:for:1:1"]').check();await page.locator('[data-star="arg:for:1"]').click();
  await page.locator('[data-structures]').click();assert.equal(await page.locator('.structure-row').count(),20);await page.locator('[data-close-structures]').click();
+ await page.locator('[data-departments]').click();const directory=page.locator('.department-float');assert(await directory.isVisible());assert.equal(await directory.locator('tbody tr').count(),96);assert.equal(await directory.locator('th').count(),2);
+ const departmentSearch=directory.locator('input');await departmentSearch.fill('路政');assert.equal(await directory.locator('tbody tr').count(),1);assert((await directory.locator('tbody').innerText()).includes('Highways Department'));
+ await departmentSearch.fill('observatory');assert((await directory.locator('tbody').innerText()).includes('香港天文台'));
+ await departmentSearch.fill('渠務署');assert((await directory.locator('tbody').innerText()).includes('Drainage Services Department'));
+ await departmentSearch.fill('water supplies');assert((await directory.locator('tbody').innerText()).includes('水務署'));
+ await departmentSearch.fill('no-such-department');assert((await directory.locator('tbody').innerText()).includes('找不到'));
+ await departmentSearch.fill('');const handle=directory.locator('.department-handle');const box=await handle.boundingBox();await page.mouse.move(box.x+50,box.y+15);await page.mouse.down();await page.mouse.move(box.x-90,box.y+70);await page.mouse.up();assert((await directory.boundingBox()).x<box.x);
+ await page.screenshot({path:'/tmp/policy-departments-desktop.png'});
+ await page.setViewportSize({width:390,height:844});await page.locator('[data-close-departments]').click();await page.locator('[data-departments]').click();assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));await page.screenshot({path:'/tmp/policy-departments-mobile.png'});
+ await page.locator('.department-float input').press('Escape');assert.equal(await page.locator('.department-float').count(),0);await page.setViewportSize({width:1440,height:1000});
  assert.equal(await page.locator('.policy-resources details').count(),8);
  await page.locator('.policy-resources summary').filter({hasText:'主題關鍵詞近義表達'}).click();assert.equal(await page.locator('.policy-resources details[open] tbody tr').count(),43);
  await page.screenshot({path:'/tmp/policy-discussion-desktop.png'});
