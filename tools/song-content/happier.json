@@ -1034,7 +1034,7 @@
           "promptZh": "因為寶貝，你看起來更快樂了，真的",
           "options": [
             "Because baby",
-            "'Cause baby",
+            "Stay, baby",
             "Cause baby"
           ],
           "answer": "Cause baby"
@@ -1615,7 +1615,7 @@
           "prompt": "{{blank}} you look happier, you do",
           "promptZh": "因為寶貝，你看起來更快樂了，真的",
           "options": [
-            "'Cause baby",
+            "Stay, baby",
             "Cause baby",
             "Because baby"
           ],
@@ -2258,7 +2258,7 @@
           "promptZh": "因為寶貝，你看起來更快樂了，真的",
           "options": [
             "Cause baby",
-            "'Cause baby",
+            "Stay, baby",
             "Because baby"
           ],
           "answer": "Cause baby"

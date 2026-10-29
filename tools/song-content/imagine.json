@@ -950,8 +950,8 @@
           "promptZh": "也沒有宗教",
           "options": [
             "too",
-            "to",
-            "two"
+            "now",
+            "soon"
           ],
           "answer": "too"
         },
@@ -1423,8 +1423,8 @@
           "prompt": "〔第 13 題〕 {{blank}}",
           "promptZh": "也沒有宗教",
           "options": [
-            "no religion, two",
-            "no religion to",
+            "no division, too",
+            "no religion now",
             "no religion, too"
           ],
           "answer": "no religion, too"
@@ -2065,8 +2065,8 @@
           "prompt": "〔第 17 題〕 {{blank}}",
           "promptZh": "也沒有宗教",
           "options": [
-            "no religion, two",
-            "no religion to",
+            "no division, too",
+            "no religion now",
             "no religion, too"
           ],
           "answer": "no religion, too"

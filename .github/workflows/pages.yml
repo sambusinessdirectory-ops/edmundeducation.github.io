@@ -29,6 +29,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
+      - name: Check song exercise quality
+        run: node tools/check-song-quality.mjs
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
