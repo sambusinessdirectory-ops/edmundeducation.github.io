@@ -485,9 +485,6 @@
     const progress=songProgress(song.id); if(progress)article.classList.add(`is-${progress}`);
     const thumb = document.createElement("div");
     thumb.className = "song-card__thumb";
-    const fallback = document.createElement("span");
-    fallback.append(songIcon("music"));
-    thumb.append(fallback);
     const source = thumbnailUrl(song);
     if (source) {
       const image = new Image();
