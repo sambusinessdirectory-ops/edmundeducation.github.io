@@ -19,7 +19,7 @@ if(name==='song_appreciation_lesson_extras')body=[{id:song.id,cover_url:song.cov
 if(name==='song_appreciation_admin_save_lesson'){Object.assign(song,{...a.p_details,exercises:a.p_details.modes,cover_url:a.p_details.cover_url});body=song;}
 if(name==='song_appreciation_vocabulary_answer'){const q=song.vocabulary[a.p_number-1];body={selected:a.p_selected,answer:q.answer,explanation:q.explanation,optionExplanations:q.optionExplanations};progress[a.p_number]=body;}
 return r.fulfill({contentType:'application/json',body:JSON.stringify(body)});});
-await page.goto('http://127.0.0.1:8766/song-appreciation.html');await page.waitForSelector('.song-card');assert.equal(await page.locator('.login-intro').count(),0);assert.match(await page.locator('.song-card img').getAttribute('src'),/cover.webp/);
+await page.goto('http://127.0.0.1:8766/song-appreciation.html');await page.waitForSelector('.song-card');assert.equal(await page.locator('.login-intro').count(),0);assert.equal(await page.locator('.song-card img').getAttribute('src'),original.cover_url);
 await page.locator('.song-card > button').last().click();await page.locator('[data-song-tab="translation"]').click();await page.waitForFunction(()=>window.songQA.state.playerReady);assert.ok(await page.evaluate(()=>window.songQA.state.player.getDuration()>130));
 await page.locator('[data-player-controls] [data-player-toggle]').click();await page.waitForFunction(()=>!document.querySelector('audio').paused);
 await page.evaluate(lessonTime=>{window.songQA.state.player.pauseVideo();window.songQA.state.player.seekTo(lessonTime);},(original.translations[5].startSeconds+original.translations[5].endSeconds)/2);await page.waitForFunction(()=>document.querySelector('tr[data-line-id="line-6"]')?.classList.contains('is-current-line'));
@@ -28,7 +28,7 @@ for (const width of [1280,390]) {
  await page.setViewportSize({width,height:950});
  await page.locator('[data-song-tab="exercise"]').click();
  if (await page.locator('[data-change-mode]').isVisible()) await page.locator('[data-change-mode]').click();
- await page.locator('[data-mode-grid] button').last().click();
+ await page.locator('[data-mode-grid] button').last().click();await page.waitForSelector('[data-lyric-flow]');
  assert.equal(await page.locator('[data-lyric-flow]').count(),original.translations.length);
  assert.equal(await page.locator('.exercise-line[data-question]').count(),50);
  assert.equal(await page.locator(`[data-lyric-flow="line-${original.translations.length}"]`).count(),1);

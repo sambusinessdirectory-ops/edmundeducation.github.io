@@ -1,0 +1,2817 @@
+{
+  "slug": "lea",
+  "title": "Lea",
+  "singer": "Toto",
+  "exercise_name": "Lea · Listening & Vocabulary",
+  "description": "《Lea》描寫一段充滿深情、依戀與不安的愛情。歌中的主角曾經毫無保留地付出真心，將所有的愛與希望寄託在 Lea 身上，相信她是生命中無可取代的人。然而，隨著兩人的關係逐漸變得不明朗，他開始懷疑自己的感情是否仍被珍惜，也不知道對方是否還願意接受這份愛。他試圖忽略外界的質疑，卻始終無法消除內心的不安。歌曲反覆詢問 Lea 是否仍希望自己繼續愛著她，流露出深深的眷戀與渴望。最終，《Lea》傳達的是愛情中的忠誠、脆弱與不確定：即使心中的愛意從未改變，當對方的心意變得模糊，最令人難",
+  "tags": [
+    "toto",
+    "lea"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "Here's to the few",
+      "chinese": "敬那些寥寥無幾的人",
+      "startSeconds": 22.98,
+      "endSeconds": 29.18
+    },
+    {
+      "lineId": "line-2",
+      "english": "Who fared, my love",
+      "chinese": "那些曾走過人生風雨的人啊，親愛的"
+    },
+    {
+      "lineId": "line-3",
+      "english": "Only for you I cared, my love",
+      "chinese": "可我真正牽掛的，始終只有妳，親愛的",
+      "startSeconds": 33.18,
+      "endSeconds": 39.82
+    },
+    {
+      "lineId": "line-4",
+      "english": "I've given it hope and I know it's only you",
+      "chinese": "我曾為這份感情寄予希望，而我知道，心中只有妳",
+      "startSeconds": 40.54,
+      "endSeconds": 46.56
+    },
+    {
+      "lineId": "line-5",
+      "english": "Encased in silence",
+      "chinese": "一切卻都深藏在沉默之中",
+      "startSeconds": 46.56,
+      "endSeconds": 48.58
+    },
+    {
+      "lineId": "line-6",
+      "english": "Here's to the you",
+      "chinese": "敬那個獨一無二的妳",
+      "startSeconds": 54.68,
+      "endSeconds": 56.52
+    },
+    {
+      "lineId": "line-7",
+      "english": "Who saved my love",
+      "chinese": "那個曾拯救我的愛的妳",
+      "startSeconds": 56.52,
+      "endSeconds": 60.26
+    },
+    {
+      "lineId": "line-8",
+      "english": "Only to you, I gave, my love",
+      "chinese": "我只將自己的愛，獻給了妳，親愛的",
+      "startSeconds": 60.54,
+      "endSeconds": 67.06
+    },
+    {
+      "lineId": "line-9",
+      "english": "I've given it thought and it's not all that appears",
+      "chinese": "我曾仔細思量，才發現一切並非表面看來那麼簡單"
+    },
+    {
+      "lineId": "line-10",
+      "english": "Lea, how long will you still want me to want you",
+      "chinese": "Lea，妳還會希望我繼續眷戀妳多久？",
+      "startSeconds": 81.22,
+      "endSeconds": 91.32
+    },
+    {
+      "lineId": "line-11",
+      "english": "In and around you",
+      "chinese": "讓我的心始終縈繞在妳身邊",
+      "startSeconds": 91.32,
+      "endSeconds": 94.64
+    },
+    {
+      "lineId": "line-12",
+      "english": "Lea, my concertina",
+      "chinese": "Lea，我心愛的小手風琴"
+    },
+    {
+      "lineId": "line-13",
+      "english": "Will you still want me to want you",
+      "chinese": "妳是否仍希望我繼續渴望著妳？"
+    },
+    {
+      "lineId": "line-14",
+      "english": "Here's to the you",
+      "chinese": "敬那個獨一無二的妳"
+    },
+    {
+      "lineId": "line-15",
+      "english": "Who dared, my love",
+      "chinese": "那個曾勇敢無畏的妳，親愛的"
+    },
+    {
+      "lineId": "line-16",
+      "english": "Only with you I shared my love",
+      "chinese": "我只曾與妳分享心中這份愛"
+    },
+    {
+      "lineId": "line-17",
+      "english": "I've given it thought and it's not all that appears",
+      "chinese": "我曾仔細思量，才發現一切並非表面看來那麼簡單"
+    },
+    {
+      "lineId": "line-18",
+      "english": "So I'm asking",
+      "chinese": "所以，我才忍不住問妳",
+      "startSeconds": 134.36,
+      "endSeconds": 136.44
+    },
+    {
+      "lineId": "line-19",
+      "english": "Lea, how long will you still want me to want you",
+      "chinese": "Lea，妳還會希望我繼續眷戀妳多久？",
+      "startSeconds": 136.5,
+      "endSeconds": 146.22
+    },
+    {
+      "lineId": "line-20",
+      "english": "In and around you",
+      "chinese": "讓我的心始終縈繞在妳身邊"
+    },
+    {
+      "lineId": "line-21",
+      "english": "Lea, my concertina",
+      "chinese": "Lea，我心愛的小手風琴",
+      "startSeconds": 149.96,
+      "endSeconds": 154.4
+    },
+    {
+      "lineId": "line-22",
+      "english": "Will you still want me to want you",
+      "chinese": "妳是否仍希望我繼續渴望著妳？",
+      "startSeconds": 155.02,
+      "endSeconds": 159.65
+    },
+    {
+      "lineId": "line-23",
+      "english": "Who cares what the cynics say",
+      "chinese": "誰又在乎那些憤世嫉俗的人說些什麼？",
+      "startSeconds": 163.92,
+      "endSeconds": 168.34
+    },
+    {
+      "lineId": "line-24",
+      "english": "I care, if only you're on your way",
+      "chinese": "可我在乎，只要妳仍在前來的路上",
+      "startSeconds": 170.76,
+      "endSeconds": 177.46
+    },
+    {
+      "lineId": "line-25",
+      "english": "My Lea, don't let the same be true",
+      "chinese": "我的Lea，別讓那些話也成為我們的現實"
+    },
+    {
+      "lineId": "line-26",
+      "english": "Lea, do you still want me to want you",
+      "chinese": "Lea，妳是否仍希望我繼續渴望著妳？"
+    },
+    {
+      "lineId": "line-27",
+      "english": "Lea, do you still want me to want you",
+      "chinese": "Lea，妳是否仍希望我繼續渴望著妳？"
+    },
+    {
+      "lineId": "line-28",
+      "english": "Lea, do you still want me to want you",
+      "chinese": "Lea，妳是否仍希望我繼續渴望著妳？"
+    },
+    {
+      "lineId": "line-29",
+      "english": "Lea, do you still want me to want you",
+      "chinese": "Lea，妳是否仍希望我繼續渴望著妳？"
+    },
+    {
+      "lineId": "line-30",
+      "english": "Lea, do you still want me to want you",
+      "chinese": "Lea，妳是否仍希望我繼續渴望著妳？"
+    },
+    {
+      "lineId": "line-31",
+      "english": "Lea, do you still want me to want you",
+      "chinese": "Lea，妳是否仍希望我繼續渴望著妳？",
+      "startSeconds": 196.36,
+      "endSeconds": 199.46
+    },
+    {
+      "lineId": "line-32",
+      "english": "Lea, do you still want me to want you",
+      "chinese": "Lea，妳是否仍希望我繼續渴望著妳？"
+    },
+    {
+      "lineId": "line-33",
+      "english": "Lea, do you still want me to want you",
+      "chinese": "Lea，妳是否仍希望我繼續渴望著妳？"
+    },
+    {
+      "lineId": "line-34",
+      "english": "Lea, do you still want me to want you",
+      "chinese": "Lea，妳是否仍希望我繼續渴望著妳？",
+      "startSeconds": 201.52,
+      "endSeconds": 204.56
+    },
+    {
+      "lineId": "line-35",
+      "english": "Lea, do you still want me to want you",
+      "chinese": "Lea，妳是否仍希望我繼續渴望著妳？"
+    },
+    {
+      "lineId": "line-36",
+      "english": "Lea, do you still want me to want you",
+      "chinese": "Lea，妳是否仍希望我繼續渴望著妳？"
+    },
+    {
+      "lineId": "line-37",
+      "english": "(Lea, do you still want me to want you)",
+      "chinese": "（Lea，妳是否仍希望我繼續渴望著妳？）"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Here's to {{blank}}",
+          "options": [
+            "the view",
+            "the few",
+            "a few"
+          ],
+          "answer": "the few",
+          "promptZh": "敬那些寥寥無幾的人"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "{{blank}}, my love",
+          "options": [
+            "Who fared",
+            "Who cared",
+            "Who feared"
+          ],
+          "answer": "Who fared",
+          "promptZh": "那些曾走過人生風雨的人啊，親愛的"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}} I cared, my love",
+          "options": [
+            "Only with you",
+            "Only for you",
+            "Only to you"
+          ],
+          "answer": "Only for you",
+          "promptZh": "可我真正牽掛的，始終只有妳，親愛的"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "{{blank}} and I know it's only you",
+          "options": [
+            "I've given it hope",
+            "I've given up hope",
+            "I've given you hope"
+          ],
+          "answer": "I've given it hope",
+          "promptZh": "我曾為這份感情寄予希望，而我知道，心中只有妳"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "{{blank}}",
+          "options": [
+            "Engaged in silence",
+            "Enclosed in sadness",
+            "Encased in silence"
+          ],
+          "answer": "Encased in silence",
+          "promptZh": "一切卻都深藏在沉默之中"
+        },
+        {
+          "number": 6,
+          "lineId": "line-7",
+          "prompt": "{{blank}} my love",
+          "options": [
+            "Who stayed",
+            "Who gave",
+            "Who saved"
+          ],
+          "answer": "Who saved",
+          "promptZh": "那個曾拯救我的愛的妳"
+        },
+        {
+          "number": 7,
+          "lineId": "line-8",
+          "prompt": "Only to you, {{blank}}, my love",
+          "options": [
+            "I saved",
+            "I gave",
+            "I made"
+          ],
+          "answer": "I gave",
+          "promptZh": "我只將自己的愛，獻給了妳，親愛的"
+        },
+        {
+          "number": 8,
+          "lineId": "line-9",
+          "prompt": "{{blank}} and it's not all that appears",
+          "options": [
+            "I've given it hope",
+            "I've given it thought",
+            "I've given a thought"
+          ],
+          "answer": "I've given it thought",
+          "promptZh": "我曾仔細思量，才發現一切並非表面看來那麼簡單"
+        },
+        {
+          "number": 9,
+          "lineId": "line-10",
+          "prompt": "Lea, {{blank}} will you still want me to want you",
+          "options": [
+            "how long",
+            "how far",
+            "how much"
+          ],
+          "answer": "how long",
+          "promptZh": "Lea，妳還會希望我繼續眷戀妳多久？"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "Lea, how long will you still want me {{blank}}",
+          "options": [
+            "to want you",
+            "to love you",
+            "to know you"
+          ],
+          "answer": "to want you",
+          "promptZh": "Lea，妳還會希望我繼續眷戀妳多久？"
+        },
+        {
+          "number": 11,
+          "lineId": "line-12",
+          "prompt": "Lea, {{blank}}",
+          "options": [
+            "my ballerina",
+            "my concert hall",
+            "my concertina"
+          ],
+          "answer": "my concertina",
+          "promptZh": "Lea，我心愛的小手風琴"
+        },
+        {
+          "number": 12,
+          "lineId": "line-13",
+          "prompt": "Will you still {{blank}}",
+          "options": [
+            "need me to love you",
+            "want me to want you",
+            "want you to want me"
+          ],
+          "answer": "want me to want you",
+          "promptZh": "妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 13,
+          "lineId": "line-16",
+          "prompt": "{{blank}} I shared my love",
+          "options": [
+            "Only with you",
+            "Only for you",
+            "Only to you"
+          ],
+          "answer": "Only with you",
+          "promptZh": "我只曾與妳分享心中這份愛"
+        },
+        {
+          "number": 14,
+          "lineId": "line-17",
+          "prompt": "{{blank}} and it's not all that appears",
+          "options": [
+            "I've given it hope",
+            "I've given a thought",
+            "I've given it thought"
+          ],
+          "answer": "I've given it thought",
+          "promptZh": "我曾仔細思量，才發現一切並非表面看來那麼簡單"
+        },
+        {
+          "number": 15,
+          "lineId": "line-18",
+          "prompt": "So {{blank}}",
+          "options": [
+            "I'm acting",
+            "I'm waiting",
+            "I'm asking"
+          ],
+          "answer": "I'm asking",
+          "promptZh": "所以，我才忍不住問妳"
+        },
+        {
+          "number": 16,
+          "lineId": "line-19",
+          "prompt": "Lea, how long will you still {{blank}}",
+          "options": [
+            "want me to want you",
+            "want you to want me",
+            "need me to love you"
+          ],
+          "answer": "want me to want you",
+          "promptZh": "Lea，妳還會希望我繼續眷戀妳多久？"
+        },
+        {
+          "number": 17,
+          "lineId": "line-23",
+          "prompt": "{{blank}} what the cynics say",
+          "options": [
+            "Who cares",
+            "Who knows",
+            "Who dares"
+          ],
+          "answer": "Who cares",
+          "promptZh": "誰又在乎那些憤世嫉俗的人說些什麼？"
+        },
+        {
+          "number": 18,
+          "lineId": "line-24",
+          "prompt": "{{blank}}, if only you're on your way",
+          "options": [
+            "I dare",
+            "I care",
+            "I swear"
+          ],
+          "answer": "I care",
+          "promptZh": "可我在乎，只要妳仍在前來的路上"
+        },
+        {
+          "number": 19,
+          "lineId": "line-25",
+          "prompt": "My Lea, {{blank}}",
+          "options": [
+            "don't let the dream come true",
+            "don't let the pain be true",
+            "don't let the same be true"
+          ],
+          "answer": "don't let the same be true",
+          "promptZh": "我的Lea，別讓那些話也成為我們的現實"
+        },
+        {
+          "number": 20,
+          "lineId": "line-26",
+          "prompt": "Lea, do you still {{blank}}",
+          "options": [
+            "want you to want me",
+            "want me to want you",
+            "need me to love you"
+          ],
+          "answer": "want me to want you",
+          "promptZh": "Lea，妳是否仍希望我繼續渴望著妳？"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Here's to {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}, my love"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}} I cared, my love"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:4}} and I know it's only you"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Here's to the you"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:6}} my love"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Only to you, {{q:7}}, my love"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:8}} and it's not all that appears"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Lea, {{q:9}} will you still want me {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "In and around you"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Lea, {{q:11}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Will you still {{q:12}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Here's to the you"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Who dared, my love"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:13}} I shared my love"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:14}} and it's not all that appears"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "So {{q:15}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Lea, how long will you still {{q:16}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "In and around you"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Lea, my concertina"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Will you still want me to want you"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:17}} what the cynics say"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:18}}, if only you're on your way"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "My Lea, {{q:19}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Lea, do you still {{q:20}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "(Lea, do you still want me to want you)"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Here's to {{blank}}",
+          "options": [
+            "the view",
+            "the few",
+            "a few"
+          ],
+          "answer": "the few",
+          "promptZh": "敬那些寥寥無幾的人"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "{{blank}}, my love",
+          "options": [
+            "Who cared",
+            "Who feared",
+            "Who fared"
+          ],
+          "answer": "Who fared",
+          "promptZh": "那些曾走過人生風雨的人啊，親愛的"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}} I cared, my love",
+          "options": [
+            "Only with you",
+            "Only for you",
+            "Only to you"
+          ],
+          "answer": "Only for you",
+          "promptZh": "可我真正牽掛的，始終只有妳，親愛的"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "Only for you {{blank}}, my love",
+          "options": [
+            "I shared",
+            "I cared",
+            "I dared"
+          ],
+          "answer": "I cared",
+          "promptZh": "可我真正牽掛的，始終只有妳，親愛的"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "{{blank}} and I know it's only you",
+          "options": [
+            "I've given it hope",
+            "I've given up hope",
+            "I've given you hope"
+          ],
+          "answer": "I've given it hope",
+          "promptZh": "我曾為這份感情寄予希望，而我知道，心中只有妳"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "I've given it hope and I know {{blank}}",
+          "options": [
+            "it's only you",
+            "it's all for you",
+            "it's not you"
+          ],
+          "answer": "it's only you",
+          "promptZh": "我曾為這份感情寄予希望，而我知道，心中只有妳"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "{{blank}}",
+          "options": [
+            "Engaged in silence",
+            "Encased in silence",
+            "Enclosed in sadness"
+          ],
+          "answer": "Encased in silence",
+          "promptZh": "一切卻都深藏在沉默之中"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "{{blank}}",
+          "options": [
+            "Here's to the few",
+            "Here's to the you",
+            "Here is the truth"
+          ],
+          "answer": "Here's to the you",
+          "promptZh": "敬那個獨一無二的妳"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "{{blank}} my love",
+          "options": [
+            "Who saved",
+            "Who stayed",
+            "Who gave"
+          ],
+          "answer": "Who saved",
+          "promptZh": "那個曾拯救我的愛的妳"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "{{blank}}, I gave, my love",
+          "options": [
+            "Only to you",
+            "Only for you",
+            "Only with you"
+          ],
+          "answer": "Only to you",
+          "promptZh": "我只將自己的愛，獻給了妳，親愛的"
+        },
+        {
+          "number": 11,
+          "lineId": "line-8",
+          "prompt": "Only to you, {{blank}}, my love",
+          "options": [
+            "I saved",
+            "I gave",
+            "I made"
+          ],
+          "answer": "I gave",
+          "promptZh": "我只將自己的愛，獻給了妳，親愛的"
+        },
+        {
+          "number": 12,
+          "lineId": "line-9",
+          "prompt": "{{blank}} and it's not all that appears",
+          "options": [
+            "I've given it hope",
+            "I've given it thought",
+            "I've given a thought"
+          ],
+          "answer": "I've given it thought",
+          "promptZh": "我曾仔細思量，才發現一切並非表面看來那麼簡單"
+        },
+        {
+          "number": 13,
+          "lineId": "line-9",
+          "prompt": "I've given it thought and it's {{blank}}",
+          "options": [
+            "not all that remains",
+            "all that it appears",
+            "not all that appears"
+          ],
+          "answer": "not all that appears",
+          "promptZh": "我曾仔細思量，才發現一切並非表面看來那麼簡單"
+        },
+        {
+          "number": 14,
+          "lineId": "line-10",
+          "prompt": "Lea, {{blank}} will you still want me to want you",
+          "options": [
+            "how far",
+            "how long",
+            "how much"
+          ],
+          "answer": "how long",
+          "promptZh": "Lea，妳還會希望我繼續眷戀妳多久？"
+        },
+        {
+          "number": 15,
+          "lineId": "line-10",
+          "prompt": "Lea, how long will you {{blank}} to want you",
+          "options": [
+            "still want me",
+            "still need me",
+            "will want me"
+          ],
+          "answer": "still want me",
+          "promptZh": "Lea，妳還會希望我繼續眷戀妳多久？"
+        },
+        {
+          "number": 16,
+          "lineId": "line-10",
+          "prompt": "Lea, how long will you still want me {{blank}}",
+          "options": [
+            "to love you",
+            "to know you",
+            "to want you"
+          ],
+          "answer": "to want you",
+          "promptZh": "Lea，妳還會希望我繼續眷戀妳多久？"
+        },
+        {
+          "number": 17,
+          "lineId": "line-11",
+          "prompt": "{{blank}}",
+          "options": [
+            "In and about you",
+            "Near and around you",
+            "In and around you"
+          ],
+          "answer": "In and around you",
+          "promptZh": "讓我的心始終縈繞在妳身邊"
+        },
+        {
+          "number": 18,
+          "lineId": "line-12",
+          "prompt": "Lea, {{blank}}",
+          "options": [
+            "my concertina",
+            "my ballerina",
+            "my concert hall"
+          ],
+          "answer": "my concertina",
+          "promptZh": "Lea，我心愛的小手風琴"
+        },
+        {
+          "number": 19,
+          "lineId": "line-13",
+          "prompt": "{{blank}} want me to want you",
+          "options": [
+            "Do you still",
+            "Would you ever",
+            "Will you still"
+          ],
+          "answer": "Will you still",
+          "promptZh": "妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 20,
+          "lineId": "line-13",
+          "prompt": "Will you still {{blank}}",
+          "options": [
+            "want me to want you",
+            "need me to love you",
+            "want you to want me"
+          ],
+          "answer": "want me to want you",
+          "promptZh": "妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 21,
+          "lineId": "line-15",
+          "prompt": "{{blank}}, my love",
+          "options": [
+            "Who cared",
+            "Who shared",
+            "Who dared"
+          ],
+          "answer": "Who dared",
+          "promptZh": "那個曾勇敢無畏的妳，親愛的"
+        },
+        {
+          "number": 22,
+          "lineId": "line-16",
+          "prompt": "{{blank}} I shared my love",
+          "options": [
+            "Only with you",
+            "Only for you",
+            "Only to you"
+          ],
+          "answer": "Only with you",
+          "promptZh": "我只曾與妳分享心中這份愛"
+        },
+        {
+          "number": 23,
+          "lineId": "line-17",
+          "prompt": "{{blank}} and it's not all that appears",
+          "options": [
+            "I've given it hope",
+            "I've given it thought",
+            "I've given a thought"
+          ],
+          "answer": "I've given it thought",
+          "promptZh": "我曾仔細思量，才發現一切並非表面看來那麼簡單"
+        },
+        {
+          "number": 24,
+          "lineId": "line-17",
+          "prompt": "I've given it thought and {{blank}}",
+          "options": [
+            "it's not all that appears",
+            "it's not what it appears",
+            "it's all that appears"
+          ],
+          "answer": "it's not all that appears",
+          "promptZh": "我曾仔細思量，才發現一切並非表面看來那麼簡單"
+        },
+        {
+          "number": 25,
+          "lineId": "line-18",
+          "prompt": "So {{blank}}",
+          "options": [
+            "I'm acting",
+            "I'm asking",
+            "I'm waiting"
+          ],
+          "answer": "I'm asking",
+          "promptZh": "所以，我才忍不住問妳"
+        },
+        {
+          "number": 26,
+          "lineId": "line-19",
+          "prompt": "Lea, how long will you still {{blank}}",
+          "options": [
+            "want you to want me",
+            "need me to love you",
+            "want me to want you"
+          ],
+          "answer": "want me to want you",
+          "promptZh": "Lea，妳還會希望我繼續眷戀妳多久？"
+        },
+        {
+          "number": 27,
+          "lineId": "line-23",
+          "prompt": "{{blank}} what the cynics say",
+          "options": [
+            "Who knows",
+            "Who dares",
+            "Who cares"
+          ],
+          "answer": "Who cares",
+          "promptZh": "誰又在乎那些憤世嫉俗的人說些什麼？"
+        },
+        {
+          "number": 28,
+          "lineId": "line-23",
+          "prompt": "Who cares what {{blank}}",
+          "options": [
+            "the critics say",
+            "the cynics say",
+            "the singers say"
+          ],
+          "answer": "the cynics say",
+          "promptZh": "誰又在乎那些憤世嫉俗的人說些什麼？"
+        },
+        {
+          "number": 29,
+          "lineId": "line-24",
+          "prompt": "{{blank}}, if only you're on your way",
+          "options": [
+            "I care",
+            "I dare",
+            "I swear"
+          ],
+          "answer": "I care",
+          "promptZh": "可我在乎，只要妳仍在前來的路上"
+        },
+        {
+          "number": 30,
+          "lineId": "line-25",
+          "prompt": "My Lea, {{blank}}",
+          "options": [
+            "don't let the same be true",
+            "don't let the dream come true",
+            "don't let the pain be true"
+          ],
+          "answer": "don't let the same be true",
+          "promptZh": "我的Lea，別讓那些話也成為我們的現實"
+        },
+        {
+          "number": 31,
+          "lineId": "line-26",
+          "prompt": "Lea, {{blank}} want me to want you",
+          "options": [
+            "will you still",
+            "did you still",
+            "do you still"
+          ],
+          "answer": "do you still",
+          "promptZh": "Lea，妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 32,
+          "lineId": "line-26",
+          "prompt": "Lea, do you still {{blank}}",
+          "options": [
+            "want you to want me",
+            "need me to love you",
+            "want me to want you"
+          ],
+          "answer": "want me to want you",
+          "promptZh": "Lea，妳是否仍希望我繼續渴望著妳？"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Here's to {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}, my love"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}} {{q:4}}, my love"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:5}} and I know {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:8}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:9}} my love"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:10}}, {{q:11}}, my love"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:12}} and it's {{q:13}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Lea, {{q:14}} will you {{q:15}} {{q:16}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Lea, {{q:18}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:19}} {{q:20}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Here's to the you"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:21}}, my love"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:22}} I shared my love"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:23}} and {{q:24}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "So {{q:25}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Lea, how long will you still {{q:26}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "In and around you"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Lea, my concertina"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Will you still want me to want you"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:27}} what {{q:28}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:29}}, if only you're on your way"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "My Lea, {{q:30}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Lea, {{q:31}} {{q:32}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "(Lea, do you still want me to want you)"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Here's to {{blank}}",
+          "options": [
+            "the view",
+            "the few",
+            "a few"
+          ],
+          "answer": "the few",
+          "promptZh": "敬那些寥寥無幾的人"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "{{blank}}, my love",
+          "options": [
+            "Who fared",
+            "Who cared",
+            "Who feared"
+          ],
+          "answer": "Who fared",
+          "promptZh": "那些曾走過人生風雨的人啊，親愛的"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}} I cared, my love",
+          "options": [
+            "Only with you",
+            "Only to you",
+            "Only for you"
+          ],
+          "answer": "Only for you",
+          "promptZh": "可我真正牽掛的，始終只有妳，親愛的"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "Only for you {{blank}}, my love",
+          "options": [
+            "I cared",
+            "I shared",
+            "I dared"
+          ],
+          "answer": "I cared",
+          "promptZh": "可我真正牽掛的，始終只有妳，親愛的"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "{{blank}} and I know it's only you",
+          "options": [
+            "I've given up hope",
+            "I've given you hope",
+            "I've given it hope"
+          ],
+          "answer": "I've given it hope",
+          "promptZh": "我曾為這份感情寄予希望，而我知道，心中只有妳"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "I've given it hope and I know {{blank}}",
+          "options": [
+            "it's only you",
+            "it's all for you",
+            "it's not you"
+          ],
+          "answer": "it's only you",
+          "promptZh": "我曾為這份感情寄予希望，而我知道，心中只有妳"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "{{blank}}",
+          "options": [
+            "Engaged in silence",
+            "Enclosed in sadness",
+            "Encased in silence"
+          ],
+          "answer": "Encased in silence",
+          "promptZh": "一切卻都深藏在沉默之中"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "{{blank}}",
+          "options": [
+            "Here's to the few",
+            "Here is the truth",
+            "Here's to the you"
+          ],
+          "answer": "Here's to the you",
+          "promptZh": "敬那個獨一無二的妳"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "{{blank}} my love",
+          "options": [
+            "Who stayed",
+            "Who saved",
+            "Who gave"
+          ],
+          "answer": "Who saved",
+          "promptZh": "那個曾拯救我的愛的妳"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "{{blank}}, I gave, my love",
+          "options": [
+            "Only for you",
+            "Only to you",
+            "Only with you"
+          ],
+          "answer": "Only to you",
+          "promptZh": "我只將自己的愛，獻給了妳，親愛的"
+        },
+        {
+          "number": 11,
+          "lineId": "line-8",
+          "prompt": "Only to you, {{blank}}, my love",
+          "options": [
+            "I gave",
+            "I saved",
+            "I made"
+          ],
+          "answer": "I gave",
+          "promptZh": "我只將自己的愛，獻給了妳，親愛的"
+        },
+        {
+          "number": 12,
+          "lineId": "line-9",
+          "prompt": "{{blank}} and it's not all that appears",
+          "options": [
+            "I've given it thought",
+            "I've given it hope",
+            "I've given a thought"
+          ],
+          "answer": "I've given it thought",
+          "promptZh": "我曾仔細思量，才發現一切並非表面看來那麼簡單"
+        },
+        {
+          "number": 13,
+          "lineId": "line-9",
+          "prompt": "I've given it thought and it's {{blank}}",
+          "options": [
+            "not all that remains",
+            "all that it appears",
+            "not all that appears"
+          ],
+          "answer": "not all that appears",
+          "promptZh": "我曾仔細思量，才發現一切並非表面看來那麼簡單"
+        },
+        {
+          "number": 14,
+          "lineId": "line-10",
+          "prompt": "Lea, {{blank}} will you still want me to want you",
+          "options": [
+            "how far",
+            "how long",
+            "how much"
+          ],
+          "answer": "how long",
+          "promptZh": "Lea，妳還會希望我繼續眷戀妳多久？"
+        },
+        {
+          "number": 15,
+          "lineId": "line-10",
+          "prompt": "Lea, how long will you {{blank}} to want you",
+          "options": [
+            "still want me",
+            "still need me",
+            "will want me"
+          ],
+          "answer": "still want me",
+          "promptZh": "Lea，妳還會希望我繼續眷戀妳多久？"
+        },
+        {
+          "number": 16,
+          "lineId": "line-10",
+          "prompt": "Lea, how long will you still want me {{blank}}",
+          "options": [
+            "to want you",
+            "to love you",
+            "to know you"
+          ],
+          "answer": "to want you",
+          "promptZh": "Lea，妳還會希望我繼續眷戀妳多久？"
+        },
+        {
+          "number": 17,
+          "lineId": "line-11",
+          "prompt": "{{blank}}",
+          "options": [
+            "In and about you",
+            "Near and around you",
+            "In and around you"
+          ],
+          "answer": "In and around you",
+          "promptZh": "讓我的心始終縈繞在妳身邊"
+        },
+        {
+          "number": 18,
+          "lineId": "line-12",
+          "prompt": "Lea, {{blank}}",
+          "options": [
+            "my concertina",
+            "my ballerina",
+            "my concert hall"
+          ],
+          "answer": "my concertina",
+          "promptZh": "Lea，我心愛的小手風琴"
+        },
+        {
+          "number": 19,
+          "lineId": "line-13",
+          "prompt": "{{blank}} want me to want you",
+          "options": [
+            "Do you still",
+            "Will you still",
+            "Would you ever"
+          ],
+          "answer": "Will you still",
+          "promptZh": "妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 20,
+          "lineId": "line-13",
+          "prompt": "Will you still {{blank}}",
+          "options": [
+            "need me to love you",
+            "want me to want you",
+            "want you to want me"
+          ],
+          "answer": "want me to want you",
+          "promptZh": "妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 21,
+          "lineId": "line-14",
+          "prompt": "{{blank}}",
+          "options": [
+            "Here's to the you",
+            "Here's to the few",
+            "Here is the truth"
+          ],
+          "answer": "Here's to the you",
+          "promptZh": "敬那個獨一無二的妳"
+        },
+        {
+          "number": 22,
+          "lineId": "line-15",
+          "prompt": "{{blank}}, my love",
+          "options": [
+            "Who cared",
+            "Who dared",
+            "Who shared"
+          ],
+          "answer": "Who dared",
+          "promptZh": "那個曾勇敢無畏的妳，親愛的"
+        },
+        {
+          "number": 23,
+          "lineId": "line-16",
+          "prompt": "{{blank}} I shared my love",
+          "options": [
+            "Only with you",
+            "Only for you",
+            "Only to you"
+          ],
+          "answer": "Only with you",
+          "promptZh": "我只曾與妳分享心中這份愛"
+        },
+        {
+          "number": 24,
+          "lineId": "line-16",
+          "prompt": "Only with you {{blank}}",
+          "options": [
+            "I shared my love",
+            "I saved my love",
+            "I gave my love"
+          ],
+          "answer": "I shared my love",
+          "promptZh": "我只曾與妳分享心中這份愛"
+        },
+        {
+          "number": 25,
+          "lineId": "line-17",
+          "prompt": "{{blank}} and it's not all that appears",
+          "options": [
+            "I've given it hope",
+            "I've given a thought",
+            "I've given it thought"
+          ],
+          "answer": "I've given it thought",
+          "promptZh": "我曾仔細思量，才發現一切並非表面看來那麼簡單"
+        },
+        {
+          "number": 26,
+          "lineId": "line-17",
+          "prompt": "I've given it thought and {{blank}}",
+          "options": [
+            "it's not what it appears",
+            "it's all that appears",
+            "it's not all that appears"
+          ],
+          "answer": "it's not all that appears",
+          "promptZh": "我曾仔細思量，才發現一切並非表面看來那麼簡單"
+        },
+        {
+          "number": 27,
+          "lineId": "line-18",
+          "prompt": "So {{blank}}",
+          "options": [
+            "I'm asking",
+            "I'm acting",
+            "I'm waiting"
+          ],
+          "answer": "I'm asking",
+          "promptZh": "所以，我才忍不住問妳"
+        },
+        {
+          "number": 28,
+          "lineId": "line-19",
+          "prompt": "Lea, {{blank}} still want me to want you",
+          "options": [
+            "how far will you",
+            "how long will you",
+            "how long would you"
+          ],
+          "answer": "how long will you",
+          "promptZh": "Lea，妳還會希望我繼續眷戀妳多久？"
+        },
+        {
+          "number": 29,
+          "lineId": "line-19",
+          "prompt": "Lea, how long will you still {{blank}}",
+          "options": [
+            "want you to want me",
+            "need me to love you",
+            "want me to want you"
+          ],
+          "answer": "want me to want you",
+          "promptZh": "Lea，妳還會希望我繼續眷戀妳多久？"
+        },
+        {
+          "number": 30,
+          "lineId": "line-20",
+          "prompt": "{{blank}}",
+          "options": [
+            "In and about you",
+            "Near and around you",
+            "In and around you"
+          ],
+          "answer": "In and around you",
+          "promptZh": "讓我的心始終縈繞在妳身邊"
+        },
+        {
+          "number": 31,
+          "lineId": "line-21",
+          "prompt": "Lea, {{blank}}",
+          "options": [
+            "my ballerina",
+            "my concertina",
+            "my concert hall"
+          ],
+          "answer": "my concertina",
+          "promptZh": "Lea，我心愛的小手風琴"
+        },
+        {
+          "number": 32,
+          "lineId": "line-22",
+          "prompt": "{{blank}} want me to want you",
+          "options": [
+            "Will you still",
+            "Do you still",
+            "Would you still"
+          ],
+          "answer": "Will you still",
+          "promptZh": "妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 33,
+          "lineId": "line-22",
+          "prompt": "Will you still {{blank}}",
+          "options": [
+            "want you to want me",
+            "want me to need you",
+            "want me to want you"
+          ],
+          "answer": "want me to want you",
+          "promptZh": "妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 34,
+          "lineId": "line-23",
+          "prompt": "{{blank}} what the cynics say",
+          "options": [
+            "Who knows",
+            "Who cares",
+            "Who dares"
+          ],
+          "answer": "Who cares",
+          "promptZh": "誰又在乎那些憤世嫉俗的人說些什麼？"
+        },
+        {
+          "number": 35,
+          "lineId": "line-23",
+          "prompt": "Who cares what {{blank}}",
+          "options": [
+            "the critics say",
+            "the cynics say",
+            "the singers say"
+          ],
+          "answer": "the cynics say",
+          "promptZh": "誰又在乎那些憤世嫉俗的人說些什麼？"
+        },
+        {
+          "number": 36,
+          "lineId": "line-24",
+          "prompt": "{{blank}}, if only you're on your way",
+          "options": [
+            "I dare",
+            "I swear",
+            "I care"
+          ],
+          "answer": "I care",
+          "promptZh": "可我在乎，只要妳仍在前來的路上"
+        },
+        {
+          "number": 37,
+          "lineId": "line-24",
+          "prompt": "I care, {{blank}}",
+          "options": [
+            "if only you're here to stay",
+            "if only you're on your way",
+            "if only you know the way"
+          ],
+          "answer": "if only you're on your way",
+          "promptZh": "可我在乎，只要妳仍在前來的路上"
+        },
+        {
+          "number": 38,
+          "lineId": "line-25",
+          "prompt": "My Lea, {{blank}}",
+          "options": [
+            "don't let the same be true",
+            "don't let the dream come true",
+            "don't let the pain be true"
+          ],
+          "answer": "don't let the same be true",
+          "promptZh": "我的Lea，別讓那些話也成為我們的現實"
+        },
+        {
+          "number": 39,
+          "lineId": "line-26",
+          "prompt": "Lea, {{blank}} want me to want you",
+          "options": [
+            "will you still",
+            "do you still",
+            "did you still"
+          ],
+          "answer": "do you still",
+          "promptZh": "Lea，妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 40,
+          "lineId": "line-26",
+          "prompt": "Lea, do you still {{blank}}",
+          "options": [
+            "want you to want me",
+            "need me to love you",
+            "want me to want you"
+          ],
+          "answer": "want me to want you",
+          "promptZh": "Lea，妳是否仍希望我繼續渴望著妳？"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Here's to {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}, my love"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}} {{q:4}}, my love"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:5}} and I know {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:8}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:9}} my love"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:10}}, {{q:11}}, my love"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:12}} and it's {{q:13}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Lea, {{q:14}} will you {{q:15}} {{q:16}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Lea, {{q:18}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:19}} {{q:20}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:21}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:22}}, my love"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:23}} {{q:24}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:25}} and {{q:26}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "So {{q:27}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Lea, {{q:28}} still {{q:29}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:30}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Lea, {{q:31}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:32}} {{q:33}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:34}} what {{q:35}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:36}}, {{q:37}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "My Lea, {{q:38}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Lea, {{q:39}} {{q:40}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Lea, do you still want me to want you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "(Lea, do you still want me to want you)"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Here's to {{blank}}",
+          "options": [
+            "the view",
+            "a few",
+            "the few"
+          ],
+          "answer": "the few",
+          "promptZh": "敬那些寥寥無幾的人"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "{{blank}}, my love",
+          "options": [
+            "Who fared",
+            "Who cared",
+            "Who feared"
+          ],
+          "answer": "Who fared",
+          "promptZh": "那些曾走過人生風雨的人啊，親愛的"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}} I cared, my love",
+          "options": [
+            "Only with you",
+            "Only for you",
+            "Only to you"
+          ],
+          "answer": "Only for you",
+          "promptZh": "可我真正牽掛的，始終只有妳，親愛的"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "Only for you {{blank}}, my love",
+          "options": [
+            "I shared",
+            "I dared",
+            "I cared"
+          ],
+          "answer": "I cared",
+          "promptZh": "可我真正牽掛的，始終只有妳，親愛的"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "{{blank}} and I know it's only you",
+          "options": [
+            "I've given up hope",
+            "I've given it hope",
+            "I've given you hope"
+          ],
+          "answer": "I've given it hope",
+          "promptZh": "我曾為這份感情寄予希望，而我知道，心中只有妳"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "I've given it hope and I know {{blank}}",
+          "options": [
+            "it's only you",
+            "it's all for you",
+            "it's not you"
+          ],
+          "answer": "it's only you",
+          "promptZh": "我曾為這份感情寄予希望，而我知道，心中只有妳"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "{{blank}}",
+          "options": [
+            "Engaged in silence",
+            "Enclosed in sadness",
+            "Encased in silence"
+          ],
+          "answer": "Encased in silence",
+          "promptZh": "一切卻都深藏在沉默之中"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "{{blank}}",
+          "options": [
+            "Here's to the few",
+            "Here is the truth",
+            "Here's to the you"
+          ],
+          "answer": "Here's to the you",
+          "promptZh": "敬那個獨一無二的妳"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "{{blank}} my love",
+          "options": [
+            "Who stayed",
+            "Who saved",
+            "Who gave"
+          ],
+          "answer": "Who saved",
+          "promptZh": "那個曾拯救我的愛的妳"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "{{blank}}, I gave, my love",
+          "options": [
+            "Only for you",
+            "Only to you",
+            "Only with you"
+          ],
+          "answer": "Only to you",
+          "promptZh": "我只將自己的愛，獻給了妳，親愛的"
+        },
+        {
+          "number": 11,
+          "lineId": "line-8",
+          "prompt": "Only to you, {{blank}}, my love",
+          "options": [
+            "I saved",
+            "I made",
+            "I gave"
+          ],
+          "answer": "I gave",
+          "promptZh": "我只將自己的愛，獻給了妳，親愛的"
+        },
+        {
+          "number": 12,
+          "lineId": "line-9",
+          "prompt": "{{blank}} and it's not all that appears",
+          "options": [
+            "I've given it thought",
+            "I've given it hope",
+            "I've given a thought"
+          ],
+          "answer": "I've given it thought",
+          "promptZh": "我曾仔細思量，才發現一切並非表面看來那麼簡單"
+        },
+        {
+          "number": 13,
+          "lineId": "line-9",
+          "prompt": "I've given it thought and it's {{blank}}",
+          "options": [
+            "not all that appears",
+            "not all that remains",
+            "all that it appears"
+          ],
+          "answer": "not all that appears",
+          "promptZh": "我曾仔細思量，才發現一切並非表面看來那麼簡單"
+        },
+        {
+          "number": 14,
+          "lineId": "line-10",
+          "prompt": "Lea, {{blank}} will you still want me to want you",
+          "options": [
+            "how far",
+            "how much",
+            "how long"
+          ],
+          "answer": "how long",
+          "promptZh": "Lea，妳還會希望我繼續眷戀妳多久？"
+        },
+        {
+          "number": 15,
+          "lineId": "line-10",
+          "prompt": "Lea, how long will you {{blank}} to want you",
+          "options": [
+            "still want me",
+            "still need me",
+            "will want me"
+          ],
+          "answer": "still want me",
+          "promptZh": "Lea，妳還會希望我繼續眷戀妳多久？"
+        },
+        {
+          "number": 16,
+          "lineId": "line-10",
+          "prompt": "Lea, how long will you still want me {{blank}}",
+          "options": [
+            "to love you",
+            "to want you",
+            "to know you"
+          ],
+          "answer": "to want you",
+          "promptZh": "Lea，妳還會希望我繼續眷戀妳多久？"
+        },
+        {
+          "number": 17,
+          "lineId": "line-11",
+          "prompt": "{{blank}}",
+          "options": [
+            "In and about you",
+            "Near and around you",
+            "In and around you"
+          ],
+          "answer": "In and around you",
+          "promptZh": "讓我的心始終縈繞在妳身邊"
+        },
+        {
+          "number": 18,
+          "lineId": "line-12",
+          "prompt": "Lea, {{blank}}",
+          "options": [
+            "my ballerina",
+            "my concertina",
+            "my concert hall"
+          ],
+          "answer": "my concertina",
+          "promptZh": "Lea，我心愛的小手風琴"
+        },
+        {
+          "number": 19,
+          "lineId": "line-13",
+          "prompt": "{{blank}} want me to want you",
+          "options": [
+            "Will you still",
+            "Do you still",
+            "Would you ever"
+          ],
+          "answer": "Will you still",
+          "promptZh": "妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 20,
+          "lineId": "line-13",
+          "prompt": "Will you still {{blank}}",
+          "options": [
+            "need me to love you",
+            "want me to want you",
+            "want you to want me"
+          ],
+          "answer": "want me to want you",
+          "promptZh": "妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 21,
+          "lineId": "line-14",
+          "prompt": "{{blank}}",
+          "options": [
+            "Here's to the few",
+            "Here is the truth",
+            "Here's to the you"
+          ],
+          "answer": "Here's to the you",
+          "promptZh": "敬那個獨一無二的妳"
+        },
+        {
+          "number": 22,
+          "lineId": "line-15",
+          "prompt": "{{blank}}, my love",
+          "options": [
+            "Who dared",
+            "Who cared",
+            "Who shared"
+          ],
+          "answer": "Who dared",
+          "promptZh": "那個曾勇敢無畏的妳，親愛的"
+        },
+        {
+          "number": 23,
+          "lineId": "line-16",
+          "prompt": "{{blank}} I shared my love",
+          "options": [
+            "Only for you",
+            "Only to you",
+            "Only with you"
+          ],
+          "answer": "Only with you",
+          "promptZh": "我只曾與妳分享心中這份愛"
+        },
+        {
+          "number": 24,
+          "lineId": "line-16",
+          "prompt": "Only with you {{blank}}",
+          "options": [
+            "I saved my love",
+            "I gave my love",
+            "I shared my love"
+          ],
+          "answer": "I shared my love",
+          "promptZh": "我只曾與妳分享心中這份愛"
+        },
+        {
+          "number": 25,
+          "lineId": "line-17",
+          "prompt": "{{blank}} and it's not all that appears",
+          "options": [
+            "I've given it hope",
+            "I've given it thought",
+            "I've given a thought"
+          ],
+          "answer": "I've given it thought",
+          "promptZh": "我曾仔細思量，才發現一切並非表面看來那麼簡單"
+        },
+        {
+          "number": 26,
+          "lineId": "line-17",
+          "prompt": "I've given it thought and {{blank}}",
+          "options": [
+            "it's not what it appears",
+            "it's all that appears",
+            "it's not all that appears"
+          ],
+          "answer": "it's not all that appears",
+          "promptZh": "我曾仔細思量，才發現一切並非表面看來那麼簡單"
+        },
+        {
+          "number": 27,
+          "lineId": "line-18",
+          "prompt": "So {{blank}}",
+          "options": [
+            "I'm asking",
+            "I'm acting",
+            "I'm waiting"
+          ],
+          "answer": "I'm asking",
+          "promptZh": "所以，我才忍不住問妳"
+        },
+        {
+          "number": 28,
+          "lineId": "line-19",
+          "prompt": "Lea, {{blank}} still want me to want you",
+          "options": [
+            "how far will you",
+            "how long would you",
+            "how long will you"
+          ],
+          "answer": "how long will you",
+          "promptZh": "Lea，妳還會希望我繼續眷戀妳多久？"
+        },
+        {
+          "number": 29,
+          "lineId": "line-19",
+          "prompt": "Lea, how long will you still {{blank}}",
+          "options": [
+            "want me to want you",
+            "want you to want me",
+            "need me to love you"
+          ],
+          "answer": "want me to want you",
+          "promptZh": "Lea，妳還會希望我繼續眷戀妳多久？"
+        },
+        {
+          "number": 30,
+          "lineId": "line-20",
+          "prompt": "{{blank}}",
+          "options": [
+            "In and about you",
+            "Near and around you",
+            "In and around you"
+          ],
+          "answer": "In and around you",
+          "promptZh": "讓我的心始終縈繞在妳身邊"
+        },
+        {
+          "number": 31,
+          "lineId": "line-21",
+          "prompt": "Lea, {{blank}}",
+          "options": [
+            "my concertina",
+            "my ballerina",
+            "my concert hall"
+          ],
+          "answer": "my concertina",
+          "promptZh": "Lea，我心愛的小手風琴"
+        },
+        {
+          "number": 32,
+          "lineId": "line-22",
+          "prompt": "{{blank}} want me to want you",
+          "options": [
+            "Do you still",
+            "Will you still",
+            "Would you still"
+          ],
+          "answer": "Will you still",
+          "promptZh": "妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 33,
+          "lineId": "line-22",
+          "prompt": "Will you still {{blank}}",
+          "options": [
+            "want you to want me",
+            "want me to need you",
+            "want me to want you"
+          ],
+          "answer": "want me to want you",
+          "promptZh": "妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 34,
+          "lineId": "line-23",
+          "prompt": "{{blank}} what the cynics say",
+          "options": [
+            "Who knows",
+            "Who cares",
+            "Who dares"
+          ],
+          "answer": "Who cares",
+          "promptZh": "誰又在乎那些憤世嫉俗的人說些什麼？"
+        },
+        {
+          "number": 35,
+          "lineId": "line-23",
+          "prompt": "Who cares what {{blank}}",
+          "options": [
+            "the critics say",
+            "the cynics say",
+            "the singers say"
+          ],
+          "answer": "the cynics say",
+          "promptZh": "誰又在乎那些憤世嫉俗的人說些什麼？"
+        },
+        {
+          "number": 36,
+          "lineId": "line-24",
+          "prompt": "{{blank}}, if only you're on your way",
+          "options": [
+            "I care",
+            "I dare",
+            "I swear"
+          ],
+          "answer": "I care",
+          "promptZh": "可我在乎，只要妳仍在前來的路上"
+        },
+        {
+          "number": 37,
+          "lineId": "line-24",
+          "prompt": "I care, {{blank}}",
+          "options": [
+            "if only you're on your way",
+            "if only you're here to stay",
+            "if only you know the way"
+          ],
+          "answer": "if only you're on your way",
+          "promptZh": "可我在乎，只要妳仍在前來的路上"
+        },
+        {
+          "number": 38,
+          "lineId": "line-25",
+          "prompt": "My Lea, {{blank}}",
+          "options": [
+            "don't let the dream come true",
+            "don't let the same be true",
+            "don't let the pain be true"
+          ],
+          "answer": "don't let the same be true",
+          "promptZh": "我的Lea，別讓那些話也成為我們的現實"
+        },
+        {
+          "number": 39,
+          "lineId": "line-26",
+          "prompt": "Lea, {{blank}} want me to want you",
+          "options": [
+            "do you still",
+            "will you still",
+            "did you still"
+          ],
+          "answer": "do you still",
+          "promptZh": "Lea，妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 40,
+          "lineId": "line-26",
+          "prompt": "Lea, do you still {{blank}}",
+          "options": [
+            "want you to want me",
+            "need me to love you",
+            "want me to want you"
+          ],
+          "answer": "want me to want you",
+          "promptZh": "Lea，妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 41,
+          "lineId": "line-27",
+          "prompt": "Lea, {{blank}} want me to want you",
+          "options": [
+            "will you still",
+            "do you still",
+            "did you still"
+          ],
+          "answer": "do you still",
+          "promptZh": "Lea，妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 42,
+          "lineId": "line-28",
+          "prompt": "Lea, do you still {{blank}}",
+          "options": [
+            "want me to want you",
+            "want you to want me",
+            "want me to love you"
+          ],
+          "answer": "want me to want you",
+          "promptZh": "Lea，妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 43,
+          "lineId": "line-29",
+          "prompt": "Lea, {{blank}} me to want you",
+          "options": [
+            "do you still want",
+            "will you still want",
+            "do you really want"
+          ],
+          "answer": "do you still want",
+          "promptZh": "Lea，妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 44,
+          "lineId": "line-30",
+          "prompt": "Lea, do you still want {{blank}}",
+          "options": [
+            "you to want me",
+            "me to want you",
+            "me to need you"
+          ],
+          "answer": "me to want you",
+          "promptZh": "Lea，妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 45,
+          "lineId": "line-31",
+          "prompt": "Lea, {{blank}} want me to want you",
+          "options": [
+            "do you still",
+            "will you still",
+            "do you ever"
+          ],
+          "answer": "do you still",
+          "promptZh": "Lea，妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 46,
+          "lineId": "line-32",
+          "prompt": "Lea, do you still {{blank}}",
+          "options": [
+            "want you to want me",
+            "need me to love you",
+            "want me to want you"
+          ],
+          "answer": "want me to want you",
+          "promptZh": "Lea，妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 47,
+          "lineId": "line-33",
+          "prompt": "Lea, {{blank}} me to want you",
+          "options": [
+            "do you really want",
+            "do you still want",
+            "will you still want"
+          ],
+          "answer": "do you still want",
+          "promptZh": "Lea，妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 48,
+          "lineId": "line-34",
+          "prompt": "Lea, do you still want {{blank}}",
+          "options": [
+            "me to want you",
+            "you to want me",
+            "me to love you"
+          ],
+          "answer": "me to want you",
+          "promptZh": "Lea，妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 49,
+          "lineId": "line-35",
+          "prompt": "Lea, {{blank}} to want you",
+          "options": [
+            "do you really want me",
+            "do you still want me",
+            "will you still want me"
+          ],
+          "answer": "do you still want me",
+          "promptZh": "Lea，妳是否仍希望我繼續渴望著妳？"
+        },
+        {
+          "number": 50,
+          "lineId": "line-36",
+          "prompt": "Lea, do you still {{blank}}",
+          "options": [
+            "want you to want me",
+            "want me to want you",
+            "want me to need you"
+          ],
+          "answer": "want me to want you",
+          "promptZh": "Lea，妳是否仍希望我繼續渴望著妳？"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Here's to {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}, my love"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}} {{q:4}}, my love"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:5}} and I know {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:8}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:9}} my love"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:10}}, {{q:11}}, my love"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:12}} and it's {{q:13}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Lea, {{q:14}} will you {{q:15}} {{q:16}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Lea, {{q:18}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:19}} {{q:20}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:21}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:22}}, my love"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:23}} {{q:24}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:25}} and {{q:26}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "So {{q:27}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Lea, {{q:28}} still {{q:29}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:30}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Lea, {{q:31}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:32}} {{q:33}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:34}} what {{q:35}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:36}}, {{q:37}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "My Lea, {{q:38}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Lea, {{q:39}} {{q:40}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Lea, {{q:41}} want me to want you"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Lea, do you still {{q:42}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Lea, {{q:43}} me to want you"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Lea, do you still want {{q:44}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Lea, {{q:45}} want me to want you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Lea, do you still {{q:46}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Lea, {{q:47}} me to want you"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Lea, do you still want {{q:48}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Lea, {{q:49}} to want you"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Lea, do you still {{q:50}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "(Lea, do you still want me to want you)"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Here’s to",
+      "meaning": "向……致敬；為……乾杯",
+      "usage": "在祝賀、感謝或舉杯慶祝某人、某事時使用。",
+      "prompt": "哪一句正確使用了「Here’s to」？",
+      "options": [
+        "Here’s to my shoes because they are under the bed.",
+        "I here’s to the bus every morning.",
+        "Here’s to our teacher! Thank you for helping us.",
+        "Please here’s to the door before you leave."
+      ],
+      "answer": 2,
+      "explanation": "正確，這是在向老師致敬並表達感謝。",
+      "optionExplanations": [
+        "錯誤，這裡只是說鞋子的位置，不是在祝賀或致敬。",
+        "錯誤，Here’s to 不能當作「搭乘」的動詞。",
+        "正確，這是在向老師致敬並表達感謝。",
+        "錯誤，開門或關門要用 open 或 close，不用 Here’s to。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Care for",
+      "meaning": "關心、照顧；在乎",
+      "usage": "用來說自己關心某人，或照顧動物、家人等。",
+      "prompt": "哪一句正確使用了「Care for」？",
+      "options": [
+        "I care for my homework with a blue pencil.",
+        "We care for the bus to school every day.",
+        "He cares for his sandwich into his bag.",
+        "She cares for her little brother when her parents are at work."
+      ],
+      "answer": 3,
+      "explanation": "正確，表示她在父母工作時照顧弟弟。",
+      "optionExplanations": [
+        "錯誤，這裡要說做功課，應用 do my homework。",
+        "錯誤，搭公車要用 take the bus。",
+        "錯誤，把三明治放進袋子要用 put。",
+        "正確，表示她在父母工作時照顧弟弟。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Give it some thought",
+      "meaning": "仔細考慮一下",
+      "usage": "當你還沒決定，希望花時間想清楚時使用；歌中是 given it thought。",
+      "prompt": "哪一句正確使用了「Give it some thought」？",
+      "options": [
+        "I give it some thought to make my shoes clean with water.",
+        "I need to give it some thought before I say yes.",
+        "She gave it some thought into the fridge.",
+        "They give it some thought at seven kilos."
+      ],
+      "answer": 1,
+      "explanation": "正確，表示答應之前需要先仔細考慮。",
+      "optionExplanations": [
+        "不恰當，這句要說清洗鞋子，沒有自然表達考慮決定的意思。",
+        "正確，表示答應之前需要先仔細考慮。",
+        "錯誤，放東西進冰箱要用 put，不用 gave it some thought。",
+        "錯誤，這個片語不能用來表示重量。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Appear",
+      "meaning": "出現、看起來似乎",
+      "usage": "可用來說人或物出現，也可用 appear + adjective 表示看起來如何。",
+      "prompt": "哪一句正確使用了「Appear」？",
+      "options": [
+        "My breakfast appears a bicycle to work.",
+        "A small cat appeared at our door this morning.",
+        "We appeared our homework after dinner.",
+        "He appears his sister at the station."
+      ],
+      "answer": 1,
+      "explanation": "正確，表示一隻小貓早上出現在門口。",
+      "optionExplanations": [
+        "錯誤，appear 不能表示騎腳踏車。",
+        "正確，表示一隻小貓早上出現在門口。",
+        "錯誤，完成作業要用 did 或 finished。",
+        "錯誤，迎接妹妹要用 meets，不用 appears。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "How long",
+      "meaning": "多久；多長",
+      "usage": "問時間長度或物品長度時使用。",
+      "prompt": "哪一句正確使用了「How long」？",
+      "options": [
+        "How long does it take to walk to school?",
+        "How long is your favorite color?",
+        "How long apples do you want?",
+        "How long is your birthday? It is in May."
+      ],
+      "answer": 0,
+      "explanation": "正確，這是在問走到學校需要多少時間。",
+      "optionExplanations": [
+        "正確，這是在問走到學校需要多少時間。",
+        "錯誤，顏色不是時間或長度；可問 What is your favorite color?。",
+        "錯誤，問蘋果數量要用 How many。",
+        "錯誤，問生日日期要用 When is your birthday?。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Want someone to",
+      "meaning": "希望某人做某事",
+      "usage": "使用 want + 人 + to + 原形動詞，表達對另一個人的希望。",
+      "prompt": "哪一句正確使用了「Want someone to」？",
+      "options": [
+        "I want you to help me with this bag.",
+        "I want my dog to a red hat.",
+        "She wants me to happy.",
+        "They want the cake to delicious."
+      ],
+      "answer": 0,
+      "explanation": "正確，want you to help 表示希望你幫忙。",
+      "optionExplanations": [
+        "正確，want you to help 表示希望你幫忙。",
+        "錯誤，to 後需要動詞，例如 wear a red hat。",
+        "錯誤，to 後要有 be，應說 wants me to be happy。",
+        "錯誤，應說 want the cake to be delicious。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Share with",
+      "meaning": "與……分享",
+      "usage": "用 share + 物品或想法 + with + 人，表示一起使用或告訴別人。",
+      "prompt": "哪一句正確使用了「Share with」？",
+      "options": [
+        "I share with my bicycle to the supermarket.",
+        "She shares her lunch with her friend.",
+        "He shares with a very tall mountain every day.",
+        "My shoes share with sleeping at night."
+      ],
+      "answer": 1,
+      "explanation": "正確，表示她和朋友分享午餐。",
+      "optionExplanations": [
+        "錯誤，這句要說騎腳踏車去超市，應使用 ride。",
+        "正確，表示她和朋友分享午餐。",
+        "錯誤，這裡缺少分享的東西，語意也不清楚。",
+        "錯誤，鞋子不會與睡覺分享東西。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Dare",
+      "meaning": "敢於、鼓起勇氣做",
+      "usage": "說某人有勇氣嘗試困難或害怕的事時使用，常見 dare to + 動詞。",
+      "prompt": "哪一句正確使用了「Dare」？",
+      "options": [
+        "I dare my breakfast with some milk.",
+        "She dares to a book before bed.",
+        "The bus dares at ten o’clock.",
+        "He dared to ask a question in front of everyone."
+      ],
+      "answer": 3,
+      "explanation": "正確，表示他鼓起勇氣在大家面前發問。",
+      "optionExplanations": [
+        "錯誤，吃早餐要用 have 或 eat，不用 dare。",
+        "錯誤，to 後要接動詞，例如 read a book。",
+        "錯誤，說公車到達應用 arrives。",
+        "正確，表示他鼓起勇氣在大家面前發問。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Who cares?",
+      "meaning": "誰在乎？；有什麼關係？",
+      "usage": "用來表示自己不太在意某件事；語氣有時較不客氣，對人說話要小心。",
+      "prompt": "哪一句正確使用了「Who cares?」？",
+      "options": [
+        "Who cares if my socks do not match? I like them!",
+        "Who cares is my new English teacher?",
+        "Who cares my phone in the kitchen?",
+        "Who cares to the park every Sunday?"
+      ],
+      "answer": 0,
+      "explanation": "正確，表示襪子不成對也無所謂。",
+      "optionExplanations": [
+        "正確，表示襪子不成對也無所謂。",
+        "錯誤，問老師是誰應說 Who is my new English teacher?。",
+        "錯誤，要問誰照顧手機，不能直接這樣使用 Who cares。",
+        "錯誤，問誰去公園應說 Who goes to the park?。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "On your way",
+      "meaning": "在路上、正在前往某處",
+      "usage": "表示某人正在去某個地方的路上，常說 on your way to + 地點。",
+      "prompt": "哪一句正確使用了「On your way」？",
+      "options": [
+        "Please on your way my homework after class.",
+        "I on your way a glass of water.",
+        "Are you on your way to school now?",
+        "My sandwich is on your way very hungry."
+      ],
+      "answer": 2,
+      "explanation": "正確，這是在問對方是否正在去學校的路上。",
+      "optionExplanations": [
+        "錯誤，這個片語不是「做功課」的動詞。",
+        "錯誤，片語不能表示喝水，也不能這樣接在 I 後面。",
+        "正確，這是在問對方是否正在去學校的路上。",
+        "錯誤，三明治不會感到肚子餓，句子結構也不對。"
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/lea/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/lea/user-cover-20261029.png",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 269.7066875,
+    "audioSha256": "671a794ac496ac28576209879d01eb531299402e66415afee32a71bda0e1c155",
+    "timedLines": 17,
+    "untimedLines": 20,
+    "reviewStatus": "Conservative automatic line alignment; unmatched lines remain bilingual without a guessed cue."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Lea_.pdf",
+      "sha256": "ffa710d6d551526cf0d4aff2fa1404c9d3fd2ac436ff562a3f7e4de0d5c076d1"
+    },
+    "docx": {
+      "filename": "Lea_Four_Level_Listening_Exercise.docx",
+      "sha256": "8dec93cc263e3245701a20d966915fee07441986ae324115f411a71565e640e3"
+    },
+    "md": {
+      "filename": "Lea_Vocabulary_Quiz.md",
+      "sha256": "a5d5a5ced008877b7815b1cf0b61df4859375716d016c0833c26adebe7e02168"
+    },
+    "mp3": {
+      "filename": "Lea [VXMbiiw6soM].mp3",
+      "sha256": "671a794ac496ac28576209879d01eb531299402e66415afee32a71bda0e1c155"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-27791e87-f5cb-4d5b-a65f-b99fa43242e5.png",
+    "sha256": "f96d5c8e883da002c99f42b57591ef8bbceb3ea5a9ca88a2e75e43a85ed4b337",
+    "transformations": "none",
+    "selectedOn": "2026-10-29"
+  }
+}

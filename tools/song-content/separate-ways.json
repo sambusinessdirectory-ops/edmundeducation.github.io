@@ -1,0 +1,3034 @@
+{
+  "slug": "separate-ways",
+  "title": "Separate Ways",
+  "singer": "Journey",
+  "exercise_name": "Separate Ways · Listening & Vocabulary",
+  "description": "《Separate Ways》描寫一段感情走向破裂後，仍然充滿思念、不捨與深愛的複雜心情。歌中的主角與愛人逐漸疏遠，曾經許下的承諾也無法實現，令他陷入心碎與失落之中。他曾努力挽回感情，卻明白自己無法改變對方的心意，只能接受兩人分道揚鑣的現實。即使如此，他仍然真心祝福對方，希望她能找到幸福，也承諾自己的愛不會輕易消失。歌曲反覆強調真正的愛不會拋棄對方，流露出深深的眷戀與守候。最終，《Separate Ways》傳達的是愛情中的失落、放手與無私的祝福：即使兩人無法繼續同行，曾經的深情依然值得珍惜，而真正的放手，也包含尊重對方的選擇，祝願彼此能在人生不同的道路上找到幸福。",
+  "tags": [
+    "journey",
+    "separate ways"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "Here we stand",
+      "chinese": "如今，我們就這樣佇立著"
+    },
+    {
+      "lineId": "line-2",
+      "english": "Worlds apart, hearts broken in two, two, two",
+      "chinese": "彷彿相隔兩個世界，兩顆心早已碎裂，碎裂，碎裂"
+    },
+    {
+      "lineId": "line-3",
+      "english": "Sleepless nights",
+      "chinese": "一個又一個無法成眠的夜晚"
+    },
+    {
+      "lineId": "line-4",
+      "english": "Losing ground, I'm reaching for you, you, you",
+      "chinese": "我漸漸失去了立足之地，卻仍拚命向妳伸出雙手，向妳，向妳"
+    },
+    {
+      "lineId": "line-5",
+      "english": "Feeling that it's gone",
+      "chinese": "感覺那份愛已悄然逝去",
+      "startSeconds": 55.78,
+      "endSeconds": 59.82
+    },
+    {
+      "lineId": "line-6",
+      "english": "Can't change your mind",
+      "chinese": "我已無法改變妳的心意",
+      "startSeconds": 59.82,
+      "endSeconds": 63.52
+    },
+    {
+      "lineId": "line-7",
+      "english": "If we can't go on",
+      "chinese": "如果我們再也無法繼續走下去"
+    },
+    {
+      "lineId": "line-8",
+      "english": "To survive the tide",
+      "chinese": "無法共同挺過這股洶湧的浪潮",
+      "startSeconds": 67.54,
+      "endSeconds": 70.64
+    },
+    {
+      "lineId": "line-9",
+      "english": "Love divides",
+      "chinese": "愛，終究也會使人分離"
+    },
+    {
+      "lineId": "line-10",
+      "english": "Someday love will find you",
+      "chinese": "總有一天，愛會再次找到妳",
+      "startSeconds": 74.64,
+      "endSeconds": 78.44
+    },
+    {
+      "lineId": "line-11",
+      "english": "Break those chains that bind you",
+      "chinese": "為妳掙脫那些束縛妳的枷鎖",
+      "startSeconds": 78.44,
+      "endSeconds": 82.32
+    },
+    {
+      "lineId": "line-12",
+      "english": "One night will remind you",
+      "chinese": "終有一夜，妳會再次想起",
+      "startSeconds": 82.32,
+      "endSeconds": 85.8
+    },
+    {
+      "lineId": "line-13",
+      "english": "How we touched and went our separate ways",
+      "chinese": "我們曾經如此親密，最後卻各奔東西"
+    },
+    {
+      "lineId": "line-14",
+      "english": "If he ever hurts you",
+      "chinese": "如果有一天，他傷害了妳",
+      "startSeconds": 89.6,
+      "endSeconds": 93.44
+    },
+    {
+      "lineId": "line-15",
+      "english": "True love won't desert you",
+      "chinese": "真正的愛，永遠不會拋棄妳",
+      "startSeconds": 93.44,
+      "endSeconds": 97.12
+    },
+    {
+      "lineId": "line-16",
+      "english": "You know I still love you",
+      "chinese": "妳知道，我依然深愛著妳",
+      "startSeconds": 97.12,
+      "endSeconds": 100.76
+    },
+    {
+      "lineId": "line-17",
+      "english": "Though we touched and went our separate ways",
+      "chinese": "儘管我們曾經相依，最終卻分道揚鑣"
+    },
+    {
+      "lineId": "line-18",
+      "english": "Troubled times",
+      "chinese": "那些動盪不安的日子",
+      "startSeconds": 119.44,
+      "endSeconds": 122.24
+    },
+    {
+      "lineId": "line-19",
+      "english": "Caught between confusion and pain, pain, pain",
+      "chinese": "深陷於迷惘與痛苦之間，痛苦，痛苦"
+    },
+    {
+      "lineId": "line-20",
+      "english": "Distant eyes",
+      "chinese": "妳的眼神已變得如此疏遠",
+      "startSeconds": 133.82,
+      "endSeconds": 136.44
+    },
+    {
+      "lineId": "line-21",
+      "english": "Promises we made were in vain, in vain, in vain",
+      "chinese": "我們曾許下的承諾，終究化為徒然，徒然，徒然"
+    },
+    {
+      "lineId": "line-22",
+      "english": "If you must go",
+      "chinese": "如果妳終究必須離開",
+      "startSeconds": 145.92,
+      "endSeconds": 149.78
+    },
+    {
+      "lineId": "line-23",
+      "english": "I wish you luck",
+      "chinese": "我衷心祝妳一切順遂",
+      "startSeconds": 149.82,
+      "endSeconds": 153.88
+    },
+    {
+      "lineId": "line-24",
+      "english": "You'll never walk alone",
+      "chinese": "妳永遠不必獨自面對人生的道路",
+      "startSeconds": 153.9,
+      "endSeconds": 156.94
+    },
+    {
+      "lineId": "line-25",
+      "english": "Take care, my love",
+      "chinese": "請好好照顧自己，我的愛",
+      "startSeconds": 158.54,
+      "endSeconds": 160.7
+    },
+    {
+      "lineId": "line-26",
+      "english": "Miss you, love",
+      "chinese": "我會想念妳的，親愛的",
+      "startSeconds": 161.16,
+      "endSeconds": 164.48
+    },
+    {
+      "lineId": "line-27",
+      "english": "Someday love will find you",
+      "chinese": "總有一天，愛會再次找到妳",
+      "startSeconds": 164.48,
+      "endSeconds": 168.3
+    },
+    {
+      "lineId": "line-28",
+      "english": "Break those chains that bind you",
+      "chinese": "為妳掙脫那些束縛妳的枷鎖",
+      "startSeconds": 168.3,
+      "endSeconds": 172.08
+    },
+    {
+      "lineId": "line-29",
+      "english": "One night will remind you",
+      "chinese": "終有一夜，妳會再次想起",
+      "startSeconds": 172.08,
+      "endSeconds": 175.66
+    },
+    {
+      "lineId": "line-30",
+      "english": "How we touched and went our separate ways",
+      "chinese": "我們曾經如此親密，最後卻各奔東西"
+    },
+    {
+      "lineId": "line-31",
+      "english": "If he ever hurts you",
+      "chinese": "如果有一天，他傷害了妳",
+      "startSeconds": 179.46,
+      "endSeconds": 183.0
+    },
+    {
+      "lineId": "line-32",
+      "english": "True love won't desert you",
+      "chinese": "真正的愛，永遠不會拋棄妳",
+      "startSeconds": 183.0,
+      "endSeconds": 186.64
+    },
+    {
+      "lineId": "line-33",
+      "english": "You know I still love you",
+      "chinese": "妳知道，我依然深愛著妳",
+      "startSeconds": 186.64,
+      "endSeconds": 190.34
+    },
+    {
+      "lineId": "line-34",
+      "english": "Though we touched and went our separate ways",
+      "chinese": "儘管我們曾經相依，最終卻分道揚鑣"
+    },
+    {
+      "lineId": "line-35",
+      "english": "Oh, someday love will find you",
+      "chinese": "噢，總有一天，愛會再次找到妳"
+    },
+    {
+      "lineId": "line-36",
+      "english": "Break those chains that bind you",
+      "chinese": "為妳掙脫那些束縛妳的枷鎖",
+      "startSeconds": 255.84,
+      "endSeconds": 259.4
+    },
+    {
+      "lineId": "line-37",
+      "english": "One night will remind you",
+      "chinese": "終有一夜，妳會再次想起",
+      "startSeconds": 259.52,
+      "endSeconds": 262.96
+    },
+    {
+      "lineId": "line-38",
+      "english": "If he ever hurts you",
+      "chinese": "如果有一天，他傷害了妳",
+      "startSeconds": 266.8,
+      "endSeconds": 270.06
+    },
+    {
+      "lineId": "line-39",
+      "english": "True love won't desert you",
+      "chinese": "真正的愛，永遠不會拋棄妳",
+      "startSeconds": 270.06,
+      "endSeconds": 273.84
+    },
+    {
+      "lineId": "line-40",
+      "english": "You know I still love you",
+      "chinese": "妳知道，我依然深愛著妳",
+      "startSeconds": 273.84,
+      "endSeconds": 278.22
+    },
+    {
+      "lineId": "line-41",
+      "english": "I still love you, girl",
+      "chinese": "我依然愛著妳，親愛的",
+      "startSeconds": 281.52,
+      "endSeconds": 284.68
+    },
+    {
+      "lineId": "line-42",
+      "english": "I really love you, girl",
+      "chinese": "我真的深深愛著妳，親愛的",
+      "startSeconds": 284.68,
+      "endSeconds": 289.26
+    },
+    {
+      "lineId": "line-43",
+      "english": "And if he ever hurts you",
+      "chinese": "而如果有一天，他傷害了妳"
+    },
+    {
+      "lineId": "line-44",
+      "english": "True love won't desert you",
+      "chinese": "真正的愛，永遠不會拋棄妳"
+    },
+    {
+      "lineId": "line-45",
+      "english": "No!",
+      "chinese": "不！",
+      "startSeconds": 309.36,
+      "endSeconds": 310.76
+    },
+    {
+      "lineId": "line-46",
+      "english": "No!",
+      "chinese": "不！",
+      "startSeconds": 316.76,
+      "endSeconds": 318.16
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}}",
+          "options": [
+            "Here I stand",
+            "Here we stay",
+            "Here we stand"
+          ],
+          "answer": "Here we stand",
+          "promptZh": "如今，我們就這樣佇立著"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "{{blank}}, hearts broken in two, two, two",
+          "options": [
+            "Worlds apart",
+            "Words apart",
+            "Worlds away"
+          ],
+          "answer": "Worlds apart",
+          "promptZh": "彷彿相隔兩個世界，兩顆心早已碎裂，碎裂，碎裂"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}}",
+          "options": [
+            "Sleepless nights",
+            "Sleepless eyes",
+            "Restless nights"
+          ],
+          "answer": "Sleepless nights",
+          "promptZh": "一個又一個無法成眠的夜晚"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "{{blank}}, I'm reaching for you, you, you",
+          "options": [
+            "Moving ground",
+            "Losing hope",
+            "Losing ground"
+          ],
+          "answer": "Losing ground",
+          "promptZh": "我漸漸失去了立足之地，卻仍拚命向妳伸出雙手，向妳，向妳"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "Feeling that {{blank}}",
+          "options": [
+            "it's gone",
+            "it's wrong",
+            "it's on"
+          ],
+          "answer": "it's gone",
+          "promptZh": "感覺那份愛已悄然逝去"
+        },
+        {
+          "number": 6,
+          "lineId": "line-7",
+          "prompt": "If we {{blank}}",
+          "options": [
+            "can go on",
+            "can't hold on",
+            "can't go on"
+          ],
+          "answer": "can't go on",
+          "promptZh": "如果我們再也無法繼續走下去"
+        },
+        {
+          "number": 7,
+          "lineId": "line-9",
+          "prompt": "{{blank}}",
+          "options": [
+            "Love survives",
+            "Love divides",
+            "Love decides"
+          ],
+          "answer": "Love divides",
+          "promptZh": "愛，終究也會使人分離"
+        },
+        {
+          "number": 8,
+          "lineId": "line-10",
+          "prompt": "Someday {{blank}}",
+          "options": [
+            "love will guide you",
+            "love will find you",
+            "love will bind you"
+          ],
+          "answer": "love will find you",
+          "promptZh": "總有一天，愛會再次找到妳"
+        },
+        {
+          "number": 9,
+          "lineId": "line-11",
+          "prompt": "Break those {{blank}}",
+          "options": [
+            "chains behind you",
+            "chains that find you",
+            "chains that bind you"
+          ],
+          "answer": "chains that bind you",
+          "promptZh": "為妳掙脫那些束縛妳的枷鎖"
+        },
+        {
+          "number": 10,
+          "lineId": "line-13",
+          "prompt": "How we touched and {{blank}}",
+          "options": [
+            "went our different ways",
+            "went our separate ways",
+            "went our separate days"
+          ],
+          "answer": "went our separate ways",
+          "promptZh": "我們曾經如此親密，最後卻各奔東西"
+        },
+        {
+          "number": 11,
+          "lineId": "line-14",
+          "prompt": "{{blank}}",
+          "options": [
+            "If she ever hurts you",
+            "If he ever hurts you",
+            "If he never hurts you"
+          ],
+          "answer": "If he ever hurts you",
+          "promptZh": "如果有一天，他傷害了妳"
+        },
+        {
+          "number": 12,
+          "lineId": "line-15",
+          "prompt": "{{blank}}",
+          "options": [
+            "True love won't forget you",
+            "True love will desert you",
+            "True love won't desert you"
+          ],
+          "answer": "True love won't desert you",
+          "promptZh": "真正的愛，永遠不會拋棄妳"
+        },
+        {
+          "number": 13,
+          "lineId": "line-18",
+          "prompt": "{{blank}}",
+          "options": [
+            "Troubled times",
+            "Troubled minds",
+            "Troubling times"
+          ],
+          "answer": "Troubled times",
+          "promptZh": "那些動盪不安的日子"
+        },
+        {
+          "number": 14,
+          "lineId": "line-19",
+          "prompt": "Caught between {{blank}}, pain, pain",
+          "options": [
+            "confusion and rain",
+            "confusion and pain",
+            "conclusion and pain"
+          ],
+          "answer": "confusion and pain",
+          "promptZh": "深陷於迷惘與痛苦之間，痛苦，痛苦"
+        },
+        {
+          "number": 15,
+          "lineId": "line-21",
+          "prompt": "{{blank}} were in vain, in vain, in vain",
+          "options": [
+            "Promises we made",
+            "Promises we kept",
+            "Promises you made"
+          ],
+          "answer": "Promises we made",
+          "promptZh": "我們曾許下的承諾，終究化為徒然，徒然，徒然"
+        },
+        {
+          "number": 16,
+          "lineId": "line-23",
+          "prompt": "{{blank}}",
+          "options": [
+            "I wish you luck",
+            "I wish you love",
+            "I wish you well"
+          ],
+          "answer": "I wish you luck",
+          "promptZh": "我衷心祝妳一切順遂"
+        },
+        {
+          "number": 17,
+          "lineId": "line-24",
+          "prompt": "{{blank}}",
+          "options": [
+            "You'll never work alone",
+            "You'll always walk alone",
+            "You'll never walk alone"
+          ],
+          "answer": "You'll never walk alone",
+          "promptZh": "妳永遠不必獨自面對人生的道路"
+        },
+        {
+          "number": 18,
+          "lineId": "line-27",
+          "prompt": "{{blank}}",
+          "options": [
+            "Some day life will find you",
+            "Someday love will find you",
+            "Someday love will guide you"
+          ],
+          "answer": "Someday love will find you",
+          "promptZh": "總有一天，愛會再次找到妳"
+        },
+        {
+          "number": 19,
+          "lineId": "line-31",
+          "prompt": "If he {{blank}}",
+          "options": [
+            "ever hurts you",
+            "ever leaves you",
+            "never hurts you"
+          ],
+          "answer": "ever hurts you",
+          "promptZh": "如果有一天，他傷害了妳"
+        },
+        {
+          "number": 20,
+          "lineId": "line-41",
+          "prompt": "{{blank}}",
+          "options": [
+            "I really love you, girl",
+            "I still love you, girl",
+            "I still need you, girl"
+          ],
+          "answer": "I still love you, girl",
+          "promptZh": "我依然愛著妳，親愛的"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}, hearts broken in two, two, two"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:4}}, I'm reaching for you, you, you"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Feeling that {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Can't change your mind"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "If we {{q:6}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "To survive the tide"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:7}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Someday {{q:8}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Break those {{q:9}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "One night will remind you"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "How we touched and {{q:10}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:11}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:12}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "You know I still love you"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Though we touched and went our separate ways"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:13}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Caught between {{q:14}}, pain, pain"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Distant eyes"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:15}} were in vain, in vain, in vain"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "If you must go"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:16}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Take care, my love"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Miss you, love"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:18}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Break those chains that bind you"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "One night will remind you"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "How we touched and went our separate ways"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "If he {{q:19}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "True love won't desert you"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "You know I still love you"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Though we touched and went our separate ways"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Oh, someday love will find you"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Break those chains that bind you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "One night will remind you"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "If he ever hurts you"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "True love won't desert you"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You know I still love you"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I really love you, girl"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "And if he ever hurts you"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "True love won't desert you"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "No!"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "No!"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}}",
+          "options": [
+            "Here I stand",
+            "Here we stay",
+            "Here we stand"
+          ],
+          "answer": "Here we stand",
+          "promptZh": "如今，我們就這樣佇立著"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "{{blank}}, hearts broken in two, two, two",
+          "options": [
+            "Worlds apart",
+            "Words apart",
+            "Worlds away"
+          ],
+          "answer": "Worlds apart",
+          "promptZh": "彷彿相隔兩個世界，兩顆心早已碎裂，碎裂，碎裂"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}}",
+          "options": [
+            "Sleepless eyes",
+            "Restless nights",
+            "Sleepless nights"
+          ],
+          "answer": "Sleepless nights",
+          "promptZh": "一個又一個無法成眠的夜晚"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "{{blank}}, I'm reaching for you, you, you",
+          "options": [
+            "Moving ground",
+            "Losing ground",
+            "Losing hope"
+          ],
+          "answer": "Losing ground",
+          "promptZh": "我漸漸失去了立足之地，卻仍拚命向妳伸出雙手，向妳，向妳"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "Feeling that {{blank}}",
+          "options": [
+            "it's wrong",
+            "it's gone",
+            "it's on"
+          ],
+          "answer": "it's gone",
+          "promptZh": "感覺那份愛已悄然逝去"
+        },
+        {
+          "number": 6,
+          "lineId": "line-7",
+          "prompt": "If we {{blank}}",
+          "options": [
+            "can go on",
+            "can't hold on",
+            "can't go on"
+          ],
+          "answer": "can't go on",
+          "promptZh": "如果我們再也無法繼續走下去"
+        },
+        {
+          "number": 7,
+          "lineId": "line-9",
+          "prompt": "{{blank}}",
+          "options": [
+            "Love survives",
+            "Love divides",
+            "Love decides"
+          ],
+          "answer": "Love divides",
+          "promptZh": "愛，終究也會使人分離"
+        },
+        {
+          "number": 8,
+          "lineId": "line-10",
+          "prompt": "Someday {{blank}}",
+          "options": [
+            "love will guide you",
+            "love will find you",
+            "love will bind you"
+          ],
+          "answer": "love will find you",
+          "promptZh": "總有一天，愛會再次找到妳"
+        },
+        {
+          "number": 9,
+          "lineId": "line-11",
+          "prompt": "Break those {{blank}}",
+          "options": [
+            "chains that bind you",
+            "chains behind you",
+            "chains that find you"
+          ],
+          "answer": "chains that bind you",
+          "promptZh": "為妳掙脫那些束縛妳的枷鎖"
+        },
+        {
+          "number": 10,
+          "lineId": "line-13",
+          "prompt": "How we touched and {{blank}}",
+          "options": [
+            "went our separate ways",
+            "went our different ways",
+            "went our separate days"
+          ],
+          "answer": "went our separate ways",
+          "promptZh": "我們曾經如此親密，最後卻各奔東西"
+        },
+        {
+          "number": 11,
+          "lineId": "line-14",
+          "prompt": "{{blank}}",
+          "options": [
+            "If she ever hurts you",
+            "If he never hurts you",
+            "If he ever hurts you"
+          ],
+          "answer": "If he ever hurts you",
+          "promptZh": "如果有一天，他傷害了妳"
+        },
+        {
+          "number": 12,
+          "lineId": "line-15",
+          "prompt": "{{blank}}",
+          "options": [
+            "True love won't forget you",
+            "True love will desert you",
+            "True love won't desert you"
+          ],
+          "answer": "True love won't desert you",
+          "promptZh": "真正的愛，永遠不會拋棄妳"
+        },
+        {
+          "number": 13,
+          "lineId": "line-18",
+          "prompt": "{{blank}}",
+          "options": [
+            "Troubled minds",
+            "Troubled times",
+            "Troubling times"
+          ],
+          "answer": "Troubled times",
+          "promptZh": "那些動盪不安的日子"
+        },
+        {
+          "number": 14,
+          "lineId": "line-19",
+          "prompt": "Caught between {{blank}}, pain, pain",
+          "options": [
+            "confusion and pain",
+            "confusion and rain",
+            "conclusion and pain"
+          ],
+          "answer": "confusion and pain",
+          "promptZh": "深陷於迷惘與痛苦之間，痛苦，痛苦"
+        },
+        {
+          "number": 15,
+          "lineId": "line-21",
+          "prompt": "{{blank}} were in vain, in vain, in vain",
+          "options": [
+            "Promises we made",
+            "Promises we kept",
+            "Promises you made"
+          ],
+          "answer": "Promises we made",
+          "promptZh": "我們曾許下的承諾，終究化為徒然，徒然，徒然"
+        },
+        {
+          "number": 16,
+          "lineId": "line-23",
+          "prompt": "{{blank}}",
+          "options": [
+            "I wish you love",
+            "I wish you well",
+            "I wish you luck"
+          ],
+          "answer": "I wish you luck",
+          "promptZh": "我衷心祝妳一切順遂"
+        },
+        {
+          "number": 17,
+          "lineId": "line-24",
+          "prompt": "{{blank}}",
+          "options": [
+            "You'll never walk alone",
+            "You'll never work alone",
+            "You'll always walk alone"
+          ],
+          "answer": "You'll never walk alone",
+          "promptZh": "妳永遠不必獨自面對人生的道路"
+        },
+        {
+          "number": 18,
+          "lineId": "line-27",
+          "prompt": "{{blank}}",
+          "options": [
+            "Some day life will find you",
+            "Someday love will guide you",
+            "Someday love will find you"
+          ],
+          "answer": "Someday love will find you",
+          "promptZh": "總有一天，愛會再次找到妳"
+        },
+        {
+          "number": 19,
+          "lineId": "line-31",
+          "prompt": "If he {{blank}}",
+          "options": [
+            "ever leaves you",
+            "ever hurts you",
+            "never hurts you"
+          ],
+          "answer": "ever hurts you",
+          "promptZh": "如果有一天，他傷害了妳"
+        },
+        {
+          "number": 20,
+          "lineId": "line-41",
+          "prompt": "{{blank}}",
+          "options": [
+            "I really love you, girl",
+            "I still love you, girl",
+            "I still need you, girl"
+          ],
+          "answer": "I still love you, girl",
+          "promptZh": "我依然愛著妳，親愛的"
+        },
+        {
+          "number": 21,
+          "lineId": "line-2",
+          "prompt": "Worlds apart, {{blank}}, two, two",
+          "options": [
+            "hearts frozen in two",
+            "hearts broken in time",
+            "hearts broken in two"
+          ],
+          "answer": "hearts broken in two",
+          "promptZh": "彷彿相隔兩個世界，兩顆心早已碎裂，碎裂，碎裂"
+        },
+        {
+          "number": 22,
+          "lineId": "line-4",
+          "prompt": "Losing ground, {{blank}}, you, you",
+          "options": [
+            "I'm reaching for you",
+            "I'm searching for you",
+            "I'm waiting for you"
+          ],
+          "answer": "I'm reaching for you",
+          "promptZh": "我漸漸失去了立足之地，卻仍拚命向妳伸出雙手，向妳，向妳"
+        },
+        {
+          "number": 23,
+          "lineId": "line-6",
+          "prompt": "Can't {{blank}}",
+          "options": [
+            "change my mind",
+            "change your mind",
+            "read your mind"
+          ],
+          "answer": "change your mind",
+          "promptZh": "我已無法改變妳的心意"
+        },
+        {
+          "number": 24,
+          "lineId": "line-8",
+          "prompt": "To {{blank}}",
+          "options": [
+            "survive the time",
+            "survive the tide",
+            "survive the night"
+          ],
+          "answer": "survive the tide",
+          "promptZh": "無法共同挺過這股洶湧的浪潮"
+        },
+        {
+          "number": 25,
+          "lineId": "line-12",
+          "prompt": "{{blank}}",
+          "options": [
+            "One night will remind you",
+            "One day will remind you",
+            "One night will find you"
+          ],
+          "answer": "One night will remind you",
+          "promptZh": "終有一夜，妳會再次想起"
+        },
+        {
+          "number": 26,
+          "lineId": "line-16",
+          "prompt": "You know {{blank}}",
+          "options": [
+            "I still love you",
+            "I will love you",
+            "I still need you"
+          ],
+          "answer": "I still love you",
+          "promptZh": "妳知道，我依然深愛著妳"
+        },
+        {
+          "number": 27,
+          "lineId": "line-17",
+          "prompt": "{{blank}} and went our separate ways",
+          "options": [
+            "Though we talked",
+            "Though we tried",
+            "Though we touched"
+          ],
+          "answer": "Though we touched",
+          "promptZh": "儘管我們曾經相依，最終卻分道揚鑣"
+        },
+        {
+          "number": 28,
+          "lineId": "line-20",
+          "prompt": "{{blank}}",
+          "options": [
+            "Distant eyes",
+            "Different eyes",
+            "Distant skies"
+          ],
+          "answer": "Distant eyes",
+          "promptZh": "妳的眼神已變得如此疏遠"
+        },
+        {
+          "number": 29,
+          "lineId": "line-21",
+          "prompt": "Promises we made {{blank}}, in vain, in vain",
+          "options": [
+            "were in pain",
+            "were in vain",
+            "were in time"
+          ],
+          "answer": "were in vain",
+          "promptZh": "我們曾許下的承諾，終究化為徒然，徒然，徒然"
+        },
+        {
+          "number": 30,
+          "lineId": "line-25",
+          "prompt": "{{blank}}",
+          "options": [
+            "Take care, my love",
+            "Take heart, my love",
+            "Take care, my life"
+          ],
+          "answer": "Take care, my love",
+          "promptZh": "請好好照顧自己，我的愛"
+        },
+        {
+          "number": 31,
+          "lineId": "line-29",
+          "prompt": "One night will {{blank}}",
+          "options": [
+            "find you",
+            "remind me",
+            "remind you"
+          ],
+          "answer": "remind you",
+          "promptZh": "終有一夜，妳會再次想起"
+        },
+        {
+          "number": 32,
+          "lineId": "line-33",
+          "prompt": "{{blank}}",
+          "options": [
+            "You know I will love you",
+            "You know I still love you",
+            "You know I still need you"
+          ],
+          "answer": "You know I still love you",
+          "promptZh": "妳知道，我依然深愛著妳"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}, {{q:21}}, two, two"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:4}}, {{q:22}}, you, you"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Feeling that {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Can't {{q:23}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "If we {{q:6}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "To {{q:24}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:7}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Someday {{q:8}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Break those {{q:9}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "How we touched and {{q:10}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:11}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:12}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "You know {{q:26}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:27}} and went our separate ways"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:13}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Caught between {{q:14}}, pain, pain"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:15}} {{q:29}}, in vain, in vain"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "If you must go"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:16}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:30}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Miss you, love"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:18}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Break those chains that bind you"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "One night will {{q:31}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "How we touched and went our separate ways"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "If he {{q:19}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "True love won't desert you"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Though we touched and went our separate ways"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Oh, someday love will find you"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Break those chains that bind you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "One night will remind you"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "If he ever hurts you"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "True love won't desert you"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You know I still love you"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I really love you, girl"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "And if he ever hurts you"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "True love won't desert you"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "No!"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "No!"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}}",
+          "options": [
+            "Here I stand",
+            "Here we stay",
+            "Here we stand"
+          ],
+          "answer": "Here we stand",
+          "promptZh": "如今，我們就這樣佇立著"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "{{blank}}, hearts broken in two, two, two",
+          "options": [
+            "Worlds apart",
+            "Words apart",
+            "Worlds away"
+          ],
+          "answer": "Worlds apart",
+          "promptZh": "彷彿相隔兩個世界，兩顆心早已碎裂，碎裂，碎裂"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}}",
+          "options": [
+            "Sleepless eyes",
+            "Restless nights",
+            "Sleepless nights"
+          ],
+          "answer": "Sleepless nights",
+          "promptZh": "一個又一個無法成眠的夜晚"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "{{blank}}, I'm reaching for you, you, you",
+          "options": [
+            "Moving ground",
+            "Losing ground",
+            "Losing hope"
+          ],
+          "answer": "Losing ground",
+          "promptZh": "我漸漸失去了立足之地，卻仍拚命向妳伸出雙手，向妳，向妳"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "Feeling that {{blank}}",
+          "options": [
+            "it's wrong",
+            "it's on",
+            "it's gone"
+          ],
+          "answer": "it's gone",
+          "promptZh": "感覺那份愛已悄然逝去"
+        },
+        {
+          "number": 6,
+          "lineId": "line-7",
+          "prompt": "If we {{blank}}",
+          "options": [
+            "can't go on",
+            "can go on",
+            "can't hold on"
+          ],
+          "answer": "can't go on",
+          "promptZh": "如果我們再也無法繼續走下去"
+        },
+        {
+          "number": 7,
+          "lineId": "line-9",
+          "prompt": "{{blank}}",
+          "options": [
+            "Love divides",
+            "Love survives",
+            "Love decides"
+          ],
+          "answer": "Love divides",
+          "promptZh": "愛，終究也會使人分離"
+        },
+        {
+          "number": 8,
+          "lineId": "line-10",
+          "prompt": "Someday {{blank}}",
+          "options": [
+            "love will guide you",
+            "love will bind you",
+            "love will find you"
+          ],
+          "answer": "love will find you",
+          "promptZh": "總有一天，愛會再次找到妳"
+        },
+        {
+          "number": 9,
+          "lineId": "line-11",
+          "prompt": "Break those {{blank}}",
+          "options": [
+            "chains that bind you",
+            "chains behind you",
+            "chains that find you"
+          ],
+          "answer": "chains that bind you",
+          "promptZh": "為妳掙脫那些束縛妳的枷鎖"
+        },
+        {
+          "number": 10,
+          "lineId": "line-13",
+          "prompt": "How we touched and {{blank}}",
+          "options": [
+            "went our separate ways",
+            "went our different ways",
+            "went our separate days"
+          ],
+          "answer": "went our separate ways",
+          "promptZh": "我們曾經如此親密，最後卻各奔東西"
+        },
+        {
+          "number": 11,
+          "lineId": "line-14",
+          "prompt": "{{blank}}",
+          "options": [
+            "If she ever hurts you",
+            "If he never hurts you",
+            "If he ever hurts you"
+          ],
+          "answer": "If he ever hurts you",
+          "promptZh": "如果有一天，他傷害了妳"
+        },
+        {
+          "number": 12,
+          "lineId": "line-15",
+          "prompt": "{{blank}}",
+          "options": [
+            "True love won't forget you",
+            "True love won't desert you",
+            "True love will desert you"
+          ],
+          "answer": "True love won't desert you",
+          "promptZh": "真正的愛，永遠不會拋棄妳"
+        },
+        {
+          "number": 13,
+          "lineId": "line-18",
+          "prompt": "{{blank}}",
+          "options": [
+            "Troubled times",
+            "Troubled minds",
+            "Troubling times"
+          ],
+          "answer": "Troubled times",
+          "promptZh": "那些動盪不安的日子"
+        },
+        {
+          "number": 14,
+          "lineId": "line-19",
+          "prompt": "Caught between {{blank}}, pain, pain",
+          "options": [
+            "confusion and rain",
+            "confusion and pain",
+            "conclusion and pain"
+          ],
+          "answer": "confusion and pain",
+          "promptZh": "深陷於迷惘與痛苦之間，痛苦，痛苦"
+        },
+        {
+          "number": 15,
+          "lineId": "line-21",
+          "prompt": "{{blank}} were in vain, in vain, in vain",
+          "options": [
+            "Promises we made",
+            "Promises we kept",
+            "Promises you made"
+          ],
+          "answer": "Promises we made",
+          "promptZh": "我們曾許下的承諾，終究化為徒然，徒然，徒然"
+        },
+        {
+          "number": 16,
+          "lineId": "line-23",
+          "prompt": "{{blank}}",
+          "options": [
+            "I wish you love",
+            "I wish you luck",
+            "I wish you well"
+          ],
+          "answer": "I wish you luck",
+          "promptZh": "我衷心祝妳一切順遂"
+        },
+        {
+          "number": 17,
+          "lineId": "line-24",
+          "prompt": "{{blank}}",
+          "options": [
+            "You'll never work alone",
+            "You'll always walk alone",
+            "You'll never walk alone"
+          ],
+          "answer": "You'll never walk alone",
+          "promptZh": "妳永遠不必獨自面對人生的道路"
+        },
+        {
+          "number": 18,
+          "lineId": "line-27",
+          "prompt": "{{blank}}",
+          "options": [
+            "Some day life will find you",
+            "Someday love will guide you",
+            "Someday love will find you"
+          ],
+          "answer": "Someday love will find you",
+          "promptZh": "總有一天，愛會再次找到妳"
+        },
+        {
+          "number": 19,
+          "lineId": "line-31",
+          "prompt": "If he {{blank}}",
+          "options": [
+            "ever leaves you",
+            "ever hurts you",
+            "never hurts you"
+          ],
+          "answer": "ever hurts you",
+          "promptZh": "如果有一天，他傷害了妳"
+        },
+        {
+          "number": 20,
+          "lineId": "line-41",
+          "prompt": "{{blank}}",
+          "options": [
+            "I really love you, girl",
+            "I still love you, girl",
+            "I still need you, girl"
+          ],
+          "answer": "I still love you, girl",
+          "promptZh": "我依然愛著妳，親愛的"
+        },
+        {
+          "number": 21,
+          "lineId": "line-2",
+          "prompt": "Worlds apart, {{blank}}, two, two",
+          "options": [
+            "hearts broken in two",
+            "hearts frozen in two",
+            "hearts broken in time"
+          ],
+          "answer": "hearts broken in two",
+          "promptZh": "彷彿相隔兩個世界，兩顆心早已碎裂，碎裂，碎裂"
+        },
+        {
+          "number": 22,
+          "lineId": "line-4",
+          "prompt": "Losing ground, {{blank}}, you, you",
+          "options": [
+            "I'm reaching for you",
+            "I'm searching for you",
+            "I'm waiting for you"
+          ],
+          "answer": "I'm reaching for you",
+          "promptZh": "我漸漸失去了立足之地，卻仍拚命向妳伸出雙手，向妳，向妳"
+        },
+        {
+          "number": 23,
+          "lineId": "line-6",
+          "prompt": "Can't {{blank}}",
+          "options": [
+            "change my mind",
+            "read your mind",
+            "change your mind"
+          ],
+          "answer": "change your mind",
+          "promptZh": "我已無法改變妳的心意"
+        },
+        {
+          "number": 24,
+          "lineId": "line-8",
+          "prompt": "To {{blank}}",
+          "options": [
+            "survive the time",
+            "survive the tide",
+            "survive the night"
+          ],
+          "answer": "survive the tide",
+          "promptZh": "無法共同挺過這股洶湧的浪潮"
+        },
+        {
+          "number": 25,
+          "lineId": "line-12",
+          "prompt": "{{blank}}",
+          "options": [
+            "One night will remind you",
+            "One day will remind you",
+            "One night will find you"
+          ],
+          "answer": "One night will remind you",
+          "promptZh": "終有一夜，妳會再次想起"
+        },
+        {
+          "number": 26,
+          "lineId": "line-16",
+          "prompt": "You know {{blank}}",
+          "options": [
+            "I still love you",
+            "I will love you",
+            "I still need you"
+          ],
+          "answer": "I still love you",
+          "promptZh": "妳知道，我依然深愛著妳"
+        },
+        {
+          "number": 27,
+          "lineId": "line-17",
+          "prompt": "{{blank}} and went our separate ways",
+          "options": [
+            "Though we talked",
+            "Though we tried",
+            "Though we touched"
+          ],
+          "answer": "Though we touched",
+          "promptZh": "儘管我們曾經相依，最終卻分道揚鑣"
+        },
+        {
+          "number": 28,
+          "lineId": "line-20",
+          "prompt": "{{blank}}",
+          "options": [
+            "Different eyes",
+            "Distant skies",
+            "Distant eyes"
+          ],
+          "answer": "Distant eyes",
+          "promptZh": "妳的眼神已變得如此疏遠"
+        },
+        {
+          "number": 29,
+          "lineId": "line-21",
+          "prompt": "Promises we made {{blank}}, in vain, in vain",
+          "options": [
+            "were in vain",
+            "were in pain",
+            "were in time"
+          ],
+          "answer": "were in vain",
+          "promptZh": "我們曾許下的承諾，終究化為徒然，徒然，徒然"
+        },
+        {
+          "number": 30,
+          "lineId": "line-25",
+          "prompt": "{{blank}}",
+          "options": [
+            "Take heart, my love",
+            "Take care, my love",
+            "Take care, my life"
+          ],
+          "answer": "Take care, my love",
+          "promptZh": "請好好照顧自己，我的愛"
+        },
+        {
+          "number": 31,
+          "lineId": "line-29",
+          "prompt": "One night will {{blank}}",
+          "options": [
+            "find you",
+            "remind me",
+            "remind you"
+          ],
+          "answer": "remind you",
+          "promptZh": "終有一夜，妳會再次想起"
+        },
+        {
+          "number": 32,
+          "lineId": "line-33",
+          "prompt": "{{blank}}",
+          "options": [
+            "You know I will love you",
+            "You know I still love you",
+            "You know I still need you"
+          ],
+          "answer": "You know I still love you",
+          "promptZh": "妳知道，我依然深愛著妳"
+        },
+        {
+          "number": 33,
+          "lineId": "line-22",
+          "prompt": "{{blank}}",
+          "options": [
+            "If you must know",
+            "If you just go",
+            "If you must go"
+          ],
+          "answer": "If you must go",
+          "promptZh": "如果妳終究必須離開"
+        },
+        {
+          "number": 34,
+          "lineId": "line-26",
+          "prompt": "{{blank}}",
+          "options": [
+            "Need you, love",
+            "Miss you, love",
+            "Miss your love"
+          ],
+          "answer": "Miss you, love",
+          "promptZh": "我會想念妳的，親愛的"
+        },
+        {
+          "number": 35,
+          "lineId": "line-28",
+          "prompt": "{{blank}} that bind you",
+          "options": [
+            "Break these chains",
+            "Break those chains",
+            "Shake those chains"
+          ],
+          "answer": "Break those chains",
+          "promptZh": "為妳掙脫那些束縛妳的枷鎖"
+        },
+        {
+          "number": 36,
+          "lineId": "line-30",
+          "prompt": "{{blank}} and went our separate ways",
+          "options": [
+            "How we touched",
+            "How we talked",
+            "How we loved"
+          ],
+          "answer": "How we touched",
+          "promptZh": "我們曾經如此親密，最後卻各奔東西"
+        },
+        {
+          "number": 37,
+          "lineId": "line-32",
+          "prompt": "True love {{blank}}",
+          "options": [
+            "won't deceive you",
+            "won't desert you",
+            "will desert you"
+          ],
+          "answer": "won't desert you",
+          "promptZh": "真正的愛，永遠不會拋棄妳"
+        },
+        {
+          "number": 38,
+          "lineId": "line-34",
+          "prompt": "Though we touched and went our {{blank}}",
+          "options": [
+            "different ways",
+            "separate ways",
+            "separate days"
+          ],
+          "answer": "separate ways",
+          "promptZh": "儘管我們曾經相依，最終卻分道揚鑣"
+        },
+        {
+          "number": 39,
+          "lineId": "line-36",
+          "prompt": "Break {{blank}}",
+          "options": [
+            "those chains that bind you",
+            "those chains behind you",
+            "these chains that bind you"
+          ],
+          "answer": "those chains that bind you",
+          "promptZh": "為妳掙脫那些束縛妳的枷鎖"
+        },
+        {
+          "number": 40,
+          "lineId": "line-38",
+          "prompt": "{{blank}}",
+          "options": [
+            "If he ever leaves you",
+            "If he never hurts you",
+            "If he ever hurts you"
+          ],
+          "answer": "If he ever hurts you",
+          "promptZh": "如果有一天，他傷害了妳"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}, {{q:21}}, two, two"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:4}}, {{q:22}}, you, you"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Feeling that {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Can't {{q:23}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "If we {{q:6}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "To {{q:24}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:7}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Someday {{q:8}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Break those {{q:9}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "How we touched and {{q:10}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:11}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:12}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "You know {{q:26}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:27}} and went our separate ways"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:13}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Caught between {{q:14}}, pain, pain"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:15}} {{q:29}}, in vain, in vain"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:33}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:16}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:30}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:34}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:18}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:35}} that bind you"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "One night will {{q:31}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:36}} and went our separate ways"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "If he {{q:19}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "True love {{q:37}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Though we touched and went our {{q:38}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Oh, someday love will find you"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Break {{q:39}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "One night will remind you"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:40}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "True love won't desert you"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You know I still love you"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I really love you, girl"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "And if he ever hurts you"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "True love won't desert you"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "No!"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "No!"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}}",
+          "options": [
+            "Here I stand",
+            "Here we stand",
+            "Here we stay"
+          ],
+          "answer": "Here we stand",
+          "promptZh": "如今，我們就這樣佇立著"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "{{blank}}, hearts broken in two, two, two",
+          "options": [
+            "Words apart",
+            "Worlds apart",
+            "Worlds away"
+          ],
+          "answer": "Worlds apart",
+          "promptZh": "彷彿相隔兩個世界，兩顆心早已碎裂，碎裂，碎裂"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Worlds apart, {{blank}}, two, two",
+          "options": [
+            "hearts frozen in two",
+            "hearts broken in time",
+            "hearts broken in two"
+          ],
+          "answer": "hearts broken in two",
+          "promptZh": "彷彿相隔兩個世界，兩顆心早已碎裂，碎裂，碎裂"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "{{blank}}",
+          "options": [
+            "Sleepless eyes",
+            "Restless nights",
+            "Sleepless nights"
+          ],
+          "answer": "Sleepless nights",
+          "promptZh": "一個又一個無法成眠的夜晚"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "{{blank}}, I'm reaching for you, you, you",
+          "options": [
+            "Moving ground",
+            "Losing ground",
+            "Losing hope"
+          ],
+          "answer": "Losing ground",
+          "promptZh": "我漸漸失去了立足之地，卻仍拚命向妳伸出雙手，向妳，向妳"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "Losing ground, {{blank}}, you, you",
+          "options": [
+            "I'm reaching for you",
+            "I'm searching for you",
+            "I'm waiting for you"
+          ],
+          "answer": "I'm reaching for you",
+          "promptZh": "我漸漸失去了立足之地，卻仍拚命向妳伸出雙手，向妳，向妳"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "Feeling that {{blank}}",
+          "options": [
+            "it's gone",
+            "it's wrong",
+            "it's on"
+          ],
+          "answer": "it's gone",
+          "promptZh": "感覺那份愛已悄然逝去"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "Can't {{blank}}",
+          "options": [
+            "change my mind",
+            "read your mind",
+            "change your mind"
+          ],
+          "answer": "change your mind",
+          "promptZh": "我已無法改變妳的心意"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "If we {{blank}}",
+          "options": [
+            "can't go on",
+            "can go on",
+            "can't hold on"
+          ],
+          "answer": "can't go on",
+          "promptZh": "如果我們再也無法繼續走下去"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "To {{blank}}",
+          "options": [
+            "survive the time",
+            "survive the tide",
+            "survive the night"
+          ],
+          "answer": "survive the tide",
+          "promptZh": "無法共同挺過這股洶湧的浪潮"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "{{blank}}",
+          "options": [
+            "Love survives",
+            "Love decides",
+            "Love divides"
+          ],
+          "answer": "Love divides",
+          "promptZh": "愛，終究也會使人分離"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "Someday {{blank}}",
+          "options": [
+            "love will find you",
+            "love will guide you",
+            "love will bind you"
+          ],
+          "answer": "love will find you",
+          "promptZh": "總有一天，愛會再次找到妳"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "Break those {{blank}}",
+          "options": [
+            "chains behind you",
+            "chains that find you",
+            "chains that bind you"
+          ],
+          "answer": "chains that bind you",
+          "promptZh": "為妳掙脫那些束縛妳的枷鎖"
+        },
+        {
+          "number": 14,
+          "lineId": "line-12",
+          "prompt": "{{blank}}",
+          "options": [
+            "One day will remind you",
+            "One night will find you",
+            "One night will remind you"
+          ],
+          "answer": "One night will remind you",
+          "promptZh": "終有一夜，妳會再次想起"
+        },
+        {
+          "number": 15,
+          "lineId": "line-13",
+          "prompt": "How we touched and {{blank}}",
+          "options": [
+            "went our different ways",
+            "went our separate ways",
+            "went our separate days"
+          ],
+          "answer": "went our separate ways",
+          "promptZh": "我們曾經如此親密，最後卻各奔東西"
+        },
+        {
+          "number": 16,
+          "lineId": "line-14",
+          "prompt": "{{blank}}",
+          "options": [
+            "If he ever hurts you",
+            "If she ever hurts you",
+            "If he never hurts you"
+          ],
+          "answer": "If he ever hurts you",
+          "promptZh": "如果有一天，他傷害了妳"
+        },
+        {
+          "number": 17,
+          "lineId": "line-15",
+          "prompt": "{{blank}}",
+          "options": [
+            "True love won't forget you",
+            "True love won't desert you",
+            "True love will desert you"
+          ],
+          "answer": "True love won't desert you",
+          "promptZh": "真正的愛，永遠不會拋棄妳"
+        },
+        {
+          "number": 18,
+          "lineId": "line-16",
+          "prompt": "You know {{blank}}",
+          "options": [
+            "I will love you",
+            "I still love you",
+            "I still need you"
+          ],
+          "answer": "I still love you",
+          "promptZh": "妳知道，我依然深愛著妳"
+        },
+        {
+          "number": 19,
+          "lineId": "line-17",
+          "prompt": "{{blank}} and went our separate ways",
+          "options": [
+            "Though we talked",
+            "Though we tried",
+            "Though we touched"
+          ],
+          "answer": "Though we touched",
+          "promptZh": "儘管我們曾經相依，最終卻分道揚鑣"
+        },
+        {
+          "number": 20,
+          "lineId": "line-18",
+          "prompt": "{{blank}}",
+          "options": [
+            "Troubled times",
+            "Troubled minds",
+            "Troubling times"
+          ],
+          "answer": "Troubled times",
+          "promptZh": "那些動盪不安的日子"
+        },
+        {
+          "number": 21,
+          "lineId": "line-19",
+          "prompt": "Caught between {{blank}}, pain, pain",
+          "options": [
+            "confusion and rain",
+            "conclusion and pain",
+            "confusion and pain"
+          ],
+          "answer": "confusion and pain",
+          "promptZh": "深陷於迷惘與痛苦之間，痛苦，痛苦"
+        },
+        {
+          "number": 22,
+          "lineId": "line-20",
+          "prompt": "{{blank}}",
+          "options": [
+            "Different eyes",
+            "Distant eyes",
+            "Distant skies"
+          ],
+          "answer": "Distant eyes",
+          "promptZh": "妳的眼神已變得如此疏遠"
+        },
+        {
+          "number": 23,
+          "lineId": "line-21",
+          "prompt": "{{blank}} were in vain, in vain, in vain",
+          "options": [
+            "Promises we kept",
+            "Promises you made",
+            "Promises we made"
+          ],
+          "answer": "Promises we made",
+          "promptZh": "我們曾許下的承諾，終究化為徒然，徒然，徒然"
+        },
+        {
+          "number": 24,
+          "lineId": "line-21",
+          "prompt": "Promises we made {{blank}}, in vain, in vain",
+          "options": [
+            "were in pain",
+            "were in vain",
+            "were in time"
+          ],
+          "answer": "were in vain",
+          "promptZh": "我們曾許下的承諾，終究化為徒然，徒然，徒然"
+        },
+        {
+          "number": 25,
+          "lineId": "line-22",
+          "prompt": "{{blank}}",
+          "options": [
+            "If you must go",
+            "If you must know",
+            "If you just go"
+          ],
+          "answer": "If you must go",
+          "promptZh": "如果妳終究必須離開"
+        },
+        {
+          "number": 26,
+          "lineId": "line-23",
+          "prompt": "{{blank}}",
+          "options": [
+            "I wish you luck",
+            "I wish you love",
+            "I wish you well"
+          ],
+          "answer": "I wish you luck",
+          "promptZh": "我衷心祝妳一切順遂"
+        },
+        {
+          "number": 27,
+          "lineId": "line-24",
+          "prompt": "{{blank}}",
+          "options": [
+            "You'll never work alone",
+            "You'll never walk alone",
+            "You'll always walk alone"
+          ],
+          "answer": "You'll never walk alone",
+          "promptZh": "妳永遠不必獨自面對人生的道路"
+        },
+        {
+          "number": 28,
+          "lineId": "line-25",
+          "prompt": "{{blank}}",
+          "options": [
+            "Take heart, my love",
+            "Take care, my love",
+            "Take care, my life"
+          ],
+          "answer": "Take care, my love",
+          "promptZh": "請好好照顧自己，我的愛"
+        },
+        {
+          "number": 29,
+          "lineId": "line-26",
+          "prompt": "{{blank}}",
+          "options": [
+            "Miss you, love",
+            "Need you, love",
+            "Miss your love"
+          ],
+          "answer": "Miss you, love",
+          "promptZh": "我會想念妳的，親愛的"
+        },
+        {
+          "number": 30,
+          "lineId": "line-27",
+          "prompt": "{{blank}}",
+          "options": [
+            "Some day life will find you",
+            "Someday love will guide you",
+            "Someday love will find you"
+          ],
+          "answer": "Someday love will find you",
+          "promptZh": "總有一天，愛會再次找到妳"
+        },
+        {
+          "number": 31,
+          "lineId": "line-28",
+          "prompt": "{{blank}} that bind you",
+          "options": [
+            "Break those chains",
+            "Break these chains",
+            "Shake those chains"
+          ],
+          "answer": "Break those chains",
+          "promptZh": "為妳掙脫那些束縛妳的枷鎖"
+        },
+        {
+          "number": 32,
+          "lineId": "line-29",
+          "prompt": "One night will {{blank}}",
+          "options": [
+            "find you",
+            "remind you",
+            "remind me"
+          ],
+          "answer": "remind you",
+          "promptZh": "終有一夜，妳會再次想起"
+        },
+        {
+          "number": 33,
+          "lineId": "line-30",
+          "prompt": "{{blank}} and went our separate ways",
+          "options": [
+            "How we talked",
+            "How we loved",
+            "How we touched"
+          ],
+          "answer": "How we touched",
+          "promptZh": "我們曾經如此親密，最後卻各奔東西"
+        },
+        {
+          "number": 34,
+          "lineId": "line-31",
+          "prompt": "If he {{blank}}",
+          "options": [
+            "ever hurts you",
+            "ever leaves you",
+            "never hurts you"
+          ],
+          "answer": "ever hurts you",
+          "promptZh": "如果有一天，他傷害了妳"
+        },
+        {
+          "number": 35,
+          "lineId": "line-32",
+          "prompt": "True love {{blank}}",
+          "options": [
+            "won't deceive you",
+            "will desert you",
+            "won't desert you"
+          ],
+          "answer": "won't desert you",
+          "promptZh": "真正的愛，永遠不會拋棄妳"
+        },
+        {
+          "number": 36,
+          "lineId": "line-33",
+          "prompt": "{{blank}}",
+          "options": [
+            "You know I still love you",
+            "You know I will love you",
+            "You know I still need you"
+          ],
+          "answer": "You know I still love you",
+          "promptZh": "妳知道，我依然深愛著妳"
+        },
+        {
+          "number": 37,
+          "lineId": "line-34",
+          "prompt": "Though we touched and went our {{blank}}",
+          "options": [
+            "different ways",
+            "separate ways",
+            "separate days"
+          ],
+          "answer": "separate ways",
+          "promptZh": "儘管我們曾經相依，最終卻分道揚鑣"
+        },
+        {
+          "number": 38,
+          "lineId": "line-35",
+          "prompt": "Oh, {{blank}}",
+          "options": [
+            "someday life will find you",
+            "someday love will find you",
+            "someday love will guide you"
+          ],
+          "answer": "someday love will find you",
+          "promptZh": "噢，總有一天，愛會再次找到妳"
+        },
+        {
+          "number": 39,
+          "lineId": "line-36",
+          "prompt": "Break {{blank}}",
+          "options": [
+            "those chains that bind you",
+            "those chains behind you",
+            "these chains that bind you"
+          ],
+          "answer": "those chains that bind you",
+          "promptZh": "為妳掙脫那些束縛妳的枷鎖"
+        },
+        {
+          "number": 40,
+          "lineId": "line-37",
+          "prompt": "{{blank}} will remind you",
+          "options": [
+            "All night",
+            "One time",
+            "One night"
+          ],
+          "answer": "One night",
+          "promptZh": "終有一夜，妳會再次想起"
+        },
+        {
+          "number": 41,
+          "lineId": "line-38",
+          "prompt": "{{blank}}",
+          "options": [
+            "If he ever leaves you",
+            "If he never hurts you",
+            "If he ever hurts you"
+          ],
+          "answer": "If he ever hurts you",
+          "promptZh": "如果有一天，他傷害了妳"
+        },
+        {
+          "number": 42,
+          "lineId": "line-39",
+          "prompt": "{{blank}} won't desert you",
+          "options": [
+            "True love",
+            "New love",
+            "Your love"
+          ],
+          "answer": "True love",
+          "promptZh": "真正的愛，永遠不會拋棄妳"
+        },
+        {
+          "number": 43,
+          "lineId": "line-40",
+          "prompt": "You know I {{blank}}",
+          "options": [
+            "still love you",
+            "still miss you",
+            "will love you"
+          ],
+          "answer": "still love you",
+          "promptZh": "妳知道，我依然深愛著妳"
+        },
+        {
+          "number": 44,
+          "lineId": "line-41",
+          "prompt": "{{blank}}",
+          "options": [
+            "I really love you, girl",
+            "I still need you, girl",
+            "I still love you, girl"
+          ],
+          "answer": "I still love you, girl",
+          "promptZh": "我依然愛著妳，親愛的"
+        },
+        {
+          "number": 45,
+          "lineId": "line-42",
+          "prompt": "{{blank}}",
+          "options": [
+            "I truly love you, girl",
+            "I really love you, girl",
+            "I really need you, girl"
+          ],
+          "answer": "I really love you, girl",
+          "promptZh": "我真的深深愛著妳，親愛的"
+        },
+        {
+          "number": 46,
+          "lineId": "line-43",
+          "prompt": "{{blank}}",
+          "options": [
+            "And if he ever leaves you",
+            "And if she ever hurts you",
+            "And if he ever hurts you"
+          ],
+          "answer": "And if he ever hurts you",
+          "promptZh": "而如果有一天，他傷害了妳"
+        },
+        {
+          "number": 47,
+          "lineId": "line-44",
+          "prompt": "{{blank}}",
+          "options": [
+            "True love won't desert you",
+            "True love won't forget you",
+            "True love will desert you"
+          ],
+          "answer": "True love won't desert you",
+          "promptZh": "真正的愛，永遠不會拋棄妳"
+        },
+        {
+          "number": 48,
+          "lineId": "line-13",
+          "prompt": "{{blank}} and went our separate ways",
+          "options": [
+            "How we talked",
+            "How we touched",
+            "How we tried"
+          ],
+          "answer": "How we touched",
+          "promptZh": "我們曾經如此親密，最後卻各奔東西"
+        },
+        {
+          "number": 49,
+          "lineId": "line-17",
+          "prompt": "Though we touched and {{blank}}",
+          "options": [
+            "went our separate ways",
+            "went our different ways",
+            "went our separate days"
+          ],
+          "answer": "went our separate ways",
+          "promptZh": "儘管我們曾經相依，最終卻分道揚鑣"
+        },
+        {
+          "number": 50,
+          "lineId": "line-30",
+          "prompt": "How we touched and {{blank}}",
+          "options": [
+            "went our different ways",
+            "went our separate ways",
+            "went our separate days"
+          ],
+          "answer": "went our separate ways",
+          "promptZh": "我們曾經如此親密，最後卻各奔東西"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}, {{q:3}}, two, two"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:5}}, {{q:6}}, you, you"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Feeling that {{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Can't {{q:8}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "If we {{q:9}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "To {{q:10}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:11}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Someday {{q:12}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Break those {{q:13}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:14}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:48}} and {{q:15}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:16}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "You know {{q:18}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:19}} and {{q:49}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Caught between {{q:21}}, pain, pain"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:22}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:23}} {{q:24}}, in vain, in vain"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:26}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:27}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:29}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:30}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:31}} that bind you"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "One night will {{q:32}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:33}} and {{q:50}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "If he {{q:34}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "True love {{q:35}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:36}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Though we touched and went our {{q:37}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Oh, {{q:38}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Break {{q:39}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "{{q:40}} will remind you"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:41}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "{{q:42}} won't desert you"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You know I {{q:43}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:44}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "{{q:45}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:46}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:47}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "No!"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "No!"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Worlds apart",
+      "meaning": "差距很大；彷彿在兩個不同世界",
+      "usage": "用來形容兩個人的想法、生活或感情差距很大。",
+      "prompt": "哪一句正確使用這個單字或片語？",
+      "options": [
+        "My sister likes the city, but I love the farm. We are worlds apart.",
+        "My shoes are worlds apart because they are under my bed.",
+        "I ate worlds apart for breakfast.",
+        "Please worlds apart the window."
+      ],
+      "answer": 0,
+      "explanation": "正確：兩人喜好差很多，可用 worlds apart。",
+      "optionExplanations": [
+        "正確：兩人喜好差很多，可用 worlds apart。",
+        "錯誤：鞋子放在床下，不表示想法或生活差異很大。",
+        "錯誤：worlds apart 不是食物，不能用 eat 搭配。",
+        "錯誤：worlds apart 不是動詞，不能表示開窗。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Sleepless night",
+      "meaning": "睡不著的一晚；失眠的夜晚",
+      "usage": "因為擔心、興奮或其他原因，晚上睡不好時使用。",
+      "prompt": "哪一句正確使用這個單字或片語？",
+      "options": [
+        "I bought a sleepless night at the toy shop.",
+        "I had a sleepless night before my big test.",
+        "My dog cooked a sleepless night for dinner.",
+        "She wears a sleepless night to school."
+      ],
+      "answer": 1,
+      "explanation": "正確：考試前一晚睡不著，可以這樣說。",
+      "optionExplanations": [
+        "錯誤：sleepless night 不是可以買的物品。",
+        "正確：考試前一晚睡不著，可以這樣說。",
+        "錯誤：它不是一道菜。",
+        "錯誤：sleepless night 不是衣服。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Change your mind",
+      "meaning": "改變主意",
+      "usage": "原本決定做一件事，後來想法或決定改變時使用。",
+      "prompt": "哪一句正確使用這個單字或片語？",
+      "options": [
+        "I changed my mind with blue paint.",
+        "My chair changed my mind into a table.",
+        "Please change your mind the door.",
+        "I wanted tea, but I changed my mind and got water."
+      ],
+      "answer": 3,
+      "explanation": "正確：原本想喝茶，後來改喝水。",
+      "optionExplanations": [
+        "錯誤：change your mind 不是用油漆改造東西。",
+        "錯誤：這個片語不表示把物品變形。",
+        "錯誤：change your mind 後不能直接接 the door 當開門指令。",
+        "正確：原本想喝茶，後來改喝水。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Go on",
+      "meaning": "繼續",
+      "usage": "事情或活動沒有停止、繼續進行時使用。",
+      "prompt": "哪一句正確使用這個單字或片語？",
+      "options": [
+        "We go on our shoes before bed.",
+        "The show will go on after a short break.",
+        "I go on my sandwich with milk.",
+        "She goes on blue at seven o’clock."
+      ],
+      "answer": 1,
+      "explanation": "正確：表示節目休息後會繼續。",
+      "optionExplanations": [
+        "錯誤：穿鞋應說 put on our shoes。",
+        "正確：表示節目休息後會繼續。",
+        "錯誤：不能用 go on 表示吃三明治。",
+        "錯誤：go on 不能直接用來表示變成藍色。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Remind someone of",
+      "meaning": "讓某人想起……",
+      "usage": "某個人、地方或東西讓你想到過去的人或事情時使用。",
+      "prompt": "哪一句正確使用這個單字或片語？",
+      "options": [
+        "I remind my lunch of a pencil.",
+        "She reminded the door of seven o’clock.",
+        "This song reminds me of my old school.",
+        "My shoes remind the rain of my teacher."
+      ],
+      "answer": 2,
+      "explanation": "正確：歌曲使我想起以前的學校。",
+      "optionExplanations": [
+        "錯誤：午餐不會像人一樣回想；這裡搭配不合理。",
+        "錯誤：門不會回想時間。",
+        "正確：歌曲使我想起以前的學校。",
+        "錯誤：雨不是會回想老師的人。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Go separate ways",
+      "meaning": "分道揚鑣；各走各的路",
+      "usage": "兩個人結束同行、合作或關係，各自走不同方向時使用。",
+      "prompt": "哪一句正確使用這個單字或片語？",
+      "options": [
+        "We went separate ways into one big sandwich.",
+        "My cat went separate ways with the moon.",
+        "After school, we went our separate ways and went home.",
+        "Please separate ways my homework."
+      ],
+      "answer": 2,
+      "explanation": "正確：放學後大家各自回家。",
+      "optionExplanations": [
+        "錯誤：不能用這個片語表示進到三明治裡。",
+        "錯誤：這裡沒有合理的同行或分開關係。",
+        "正確：放學後大家各自回家。",
+        "錯誤：go separate ways 不是這樣使用的及物動詞。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "In vain",
+      "meaning": "白費力氣；沒有達到想要的結果",
+      "usage": "付出努力，但最後沒有成功時使用。",
+      "prompt": "哪一句正確使用這個單字或片語？",
+      "options": [
+        "This cake tastes in vain and sweet.",
+        "She wore an in vain to the party.",
+        "We in vain the bus at eight.",
+        "I looked for my key all morning, but it was in vain."
+      ],
+      "answer": 3,
+      "explanation": "正確：找了一早上，卻沒有找到。",
+      "optionExplanations": [
+        "錯誤：in vain 不是味道形容詞。",
+        "錯誤：in vain 不是衣物名稱。",
+        "錯誤：in vain 不能直接當動詞使用。",
+        "正確：找了一早上，卻沒有找到。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Wish someone luck",
+      "meaning": "祝某人好運",
+      "usage": "別人要考試、比賽或做重要的事情時，可以用來祝福對方。",
+      "prompt": "哪一句正確使用這個單字或片語？",
+      "options": [
+        "I wished my friend luck before her test.",
+        "I wished the sandwich luck, so it became taller.",
+        "Can you luck my homework wish?",
+        "My shoes wished the rain luck in the kitchen."
+      ],
+      "answer": 0,
+      "explanation": "正確：朋友考試前祝她好運。",
+      "optionExplanations": [
+        "正確：朋友考試前祝她好運。",
+        "錯誤：用這句描述三明治長高，語意荒謬。",
+        "錯誤：語序不正確；應說 wish someone luck。",
+        "錯誤：鞋子不會向雨表達祝福。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Take care",
+      "meaning": "保重；照顧好自己",
+      "usage": "與人道別、希望對方平安時常用；也可表示照顧某人或某物（take care of）。",
+      "prompt": "哪一句正確使用這個單字或片語？",
+      "options": [
+        "Take care! See you next week!",
+        "I take care my shoes to school every day.",
+        "We take care blue for lunch.",
+        "Please take care the lights with your sandwich."
+      ],
+      "answer": 0,
+      "explanation": "正確：道別時用來說「保重」。",
+      "optionExplanations": [
+        "正確：道別時用來說「保重」。",
+        "錯誤：若指照顧鞋子要說 take care of my shoes；若指帶鞋子則用 take。",
+        "錯誤：take care 不能表示吃藍色的東西。",
+        "錯誤：take care 後缺少 of，整句意思也不合理。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Walk alone",
+      "meaning": "獨自走路；獨自面對",
+      "usage": "一個人走路時可以使用，也能比喻沒有別人的陪伴或支持。",
+      "prompt": "哪一句正確使用這個單字或片語？",
+      "options": [
+        "I walk alone my breakfast every Monday.",
+        "I walked alone to the shop because my friends were busy.",
+        "She walks alone the blue on her desk.",
+        "They walked alone together with twenty people."
+      ],
+      "answer": 1,
+      "explanation": "正確：朋友沒空，所以自己走去商店。",
+      "optionExplanations": [
+        "錯誤：walk alone 不能直接接 breakfast 當受詞。",
+        "正確：朋友沒空，所以自己走去商店。",
+        "錯誤：這個片語不是整理桌上物品的動作。",
+        "錯誤：alone 表示獨自一人，與 twenty people together 在此衝突。"
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/separate-ways/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/separate-ways/user-cover-20261029.png",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 326.2300625,
+    "audioSha256": "7aa3d4da60d84c585086caa235030ca69df6f8265881caeab3d9601d8479661f",
+    "timedLines": 31,
+    "untimedLines": 15,
+    "reviewStatus": "Conservative automatic line alignment; unmatched lines remain bilingual without a guessed cue."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Separate Ways_.pdf",
+      "sha256": "37fe39660865c94799e2035c819a67b770f8e32d90bf101edda79bbcf348b6c2"
+    },
+    "docx": {
+      "filename": "Separate_Ways_Four_Level_Listening_Exercise.docx",
+      "sha256": "5b2ceab793794ea7696e888adc216bbc88359f18378bda01d013943198ebb30c"
+    },
+    "md": {
+      "filename": "Separate_Ways_Vocabulary_Quiz.md",
+      "sha256": "562c832018bf053e978dca20e59e8182023e20b7f140e65e4b883724f6f84a5b"
+    },
+    "mp3": {
+      "filename": "Separate Ways (Worlds Apart)  [2024 Remaster] [UsdGgRL1xHc].mp3",
+      "sha256": "7aa3d4da60d84c585086caa235030ca69df6f8265881caeab3d9601d8479661f"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-f92e03cf-526a-42e5-abe2-6272684f0e8b.png",
+    "sha256": "e6ae52726b5470a1b0fe5d6c2483b6260ea3fe48d01607531b88842cefb40ad5",
+    "transformations": "none",
+    "selectedOn": "2026-10-29"
+  }
+}

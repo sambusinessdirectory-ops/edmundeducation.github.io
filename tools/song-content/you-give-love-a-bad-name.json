@@ -1,0 +1,2942 @@
+{
+  "slug": "you-give-love-a-bad-name",
+  "title": "You Give Love A Bad Name",
+  "singer": "Bon Jovi",
+  "exercise_name": "You Give Love A Bad Name · Listening & Vocabulary",
+  "description": "《You Give Love a Bad Name》描寫一段充滿誘惑、欺騙與背叛的愛情。歌中的主角曾經被對方天使般的笑容深深吸引，相信她能帶來幸福，卻發現那些甜蜜的承諾背後隱藏著謊言與傷害。他原本真心投入這段感情，對方卻將愛情當成遊戲，令他深陷其中，難以逃脫。歌曲以槍彈、枷鎖、天堂與地獄等強烈意象，表達愛情從美好變成痛苦的巨大反差。最終，《You Give Love a BadName》傳達的是愛情中的背叛、憤怒與失望：當真心遭到玩弄，曾經令人嚮往的愛情也可能變成傷害自己的牢籠，而那些虛假的承諾，更會讓人逐漸失去對愛情的信任。",
+  "tags": [
+    "bon jovi",
+    "you give love a bad name"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "Shot through the heart and you're to blame",
+      "chinese": "我的心被一槍射穿，而這一切都該怪你",
+      "startSeconds": 0.0,
+      "endSeconds": 3.72
+    },
+    {
+      "lineId": "line-2",
+      "english": "Darling, you give love a bad name",
+      "chinese": "親愛的，是你讓愛情蒙上了惡名",
+      "startSeconds": 3.72,
+      "endSeconds": 7.34
+    },
+    {
+      "lineId": "line-3",
+      "english": "An angel's smile is what you sell",
+      "chinese": "你以天使般的笑容，迷惑人心",
+      "startSeconds": 30.44,
+      "endSeconds": 34.82
+    },
+    {
+      "lineId": "line-4",
+      "english": "You promised me heaven, then put me through hell",
+      "chinese": "你曾許諾給我天堂，卻讓我受盡地獄般的折磨",
+      "startSeconds": 34.82,
+      "endSeconds": 38.8
+    },
+    {
+      "lineId": "line-5",
+      "english": "Chains of love got a hold on me",
+      "chinese": "愛情的枷鎖，早已將我緊緊束縛",
+      "startSeconds": 38.8,
+      "endSeconds": 42.74
+    },
+    {
+      "lineId": "line-6",
+      "english": "When passion's a prison, you can't break free",
+      "chinese": "當激情成了牢籠，便再也無法掙脫",
+      "startSeconds": 42.74,
+      "endSeconds": 46.84
+    },
+    {
+      "lineId": "line-7",
+      "english": "Whoa, you're a loaded gun, yeah",
+      "chinese": "噢，你就像一把上了膛的槍，耶",
+      "startSeconds": 46.84,
+      "endSeconds": 52.26
+    },
+    {
+      "lineId": "line-8",
+      "english": "Oh, there's nowhere to run",
+      "chinese": "噢，我已無處可逃",
+      "startSeconds": 54.5,
+      "endSeconds": 58.36
+    },
+    {
+      "lineId": "line-9",
+      "english": "No one can save me, the damage is done",
+      "chinese": "誰也救不了我，傷害早已造成",
+      "startSeconds": 58.36,
+      "endSeconds": 62.4
+    },
+    {
+      "lineId": "line-10",
+      "english": "Shot through the heart and you're to blame",
+      "chinese": "我的心被一槍射穿，而這一切都該怪你",
+      "startSeconds": 62.4,
+      "endSeconds": 66.24
+    },
+    {
+      "lineId": "line-11",
+      "english": "You give love a bad name (Bad name)",
+      "chinese": "是你讓愛情蒙上惡名（惡名）"
+    },
+    {
+      "lineId": "line-12",
+      "english": "I play my part and you play your game",
+      "chinese": "我真心扮演自己的角色，你卻只顧玩弄你的把戲",
+      "startSeconds": 70.62,
+      "endSeconds": 74.22
+    },
+    {
+      "lineId": "line-13",
+      "english": "You give love a bad name (Bad name)",
+      "chinese": "是你讓愛情蒙上惡名（惡名）"
+    },
+    {
+      "lineId": "line-14",
+      "english": "Yeah, you give love a bad name",
+      "chinese": "沒錯，是你讓愛情蒙上了惡名"
+    },
+    {
+      "lineId": "line-15",
+      "english": "Paint your smile on your lips",
+      "chinese": "你在唇邊描繪出一抹迷人的微笑",
+      "startSeconds": 91.12,
+      "endSeconds": 94.72
+    },
+    {
+      "lineId": "line-16",
+      "english": "Blood red nails on your fingertips",
+      "chinese": "指尖的指甲，塗著鮮血般的艷紅",
+      "startSeconds": 94.72,
+      "endSeconds": 98.04
+    },
+    {
+      "lineId": "line-17",
+      "english": "A school boy's dream, you act so shy",
+      "chinese": "你宛如少年夢中的情人，裝出一副羞澀的模樣",
+      "startSeconds": 98.04,
+      "endSeconds": 102.4
+    },
+    {
+      "lineId": "line-18",
+      "english": "Your very first kiss was your first kiss goodbye",
+      "chinese": "你的第一個吻，竟也是告別的第一個吻",
+      "startSeconds": 102.4,
+      "endSeconds": 106.26
+    },
+    {
+      "lineId": "line-19",
+      "english": "Whoa, you're a loaded gun",
+      "chinese": "噢，你就像一把上了膛的槍",
+      "startSeconds": 106.26,
+      "endSeconds": 110.26
+    },
+    {
+      "lineId": "line-20",
+      "english": "Oh, there's nowhere to run",
+      "chinese": "噢，我已無處可逃",
+      "startSeconds": 114.9,
+      "endSeconds": 118.06
+    },
+    {
+      "lineId": "line-21",
+      "english": "No one can save me, the damage is done",
+      "chinese": "誰也救不了我，傷害早已造成",
+      "startSeconds": 118.06,
+      "endSeconds": 121.98
+    },
+    {
+      "lineId": "line-22",
+      "english": "Shot through the heart and you're to blame",
+      "chinese": "我的心被一槍射穿，而這一切都該怪你",
+      "startSeconds": 121.98,
+      "endSeconds": 125.92
+    },
+    {
+      "lineId": "line-23",
+      "english": "You give love a bad name (Bad name)",
+      "chinese": "是你讓愛情蒙上惡名（惡名）"
+    },
+    {
+      "lineId": "line-24",
+      "english": "I play my part and you play your game",
+      "chinese": "我真心扮演自己的角色，你卻只顧玩弄你的把戲",
+      "startSeconds": 129.3,
+      "endSeconds": 133.74
+    },
+    {
+      "lineId": "line-25",
+      "english": "You give love a bad name (Bad name)",
+      "chinese": "是你讓愛情蒙上惡名（惡名）"
+    },
+    {
+      "lineId": "line-26",
+      "english": "You give love a—",
+      "chinese": "你讓愛情蒙上了——",
+      "startSeconds": 137.61,
+      "endSeconds": 140.76
+    },
+    {
+      "lineId": "line-27",
+      "english": "Oh, shot through the heart and you're to blame",
+      "chinese": "噢，我的心被一槍射穿，而這一切都該怪你",
+      "startSeconds": 158.19,
+      "endSeconds": 162.98
+    },
+    {
+      "lineId": "line-28",
+      "english": "You give love a bad name",
+      "chinese": "是你讓愛情蒙上了惡名",
+      "startSeconds": 162.98,
+      "endSeconds": 166.58
+    },
+    {
+      "lineId": "line-29",
+      "english": "I play my part and you play your game",
+      "chinese": "我真心扮演自己的角色，你卻只顧玩弄你的把戲",
+      "startSeconds": 166.58,
+      "endSeconds": 171.0
+    },
+    {
+      "lineId": "line-30",
+      "english": "You give love a bad name (Bad name)",
+      "chinese": "是你讓愛情蒙上惡名（惡名）"
+    },
+    {
+      "lineId": "line-31",
+      "english": "Shot through the heart and you're to blame",
+      "chinese": "我的心被一槍射穿，而這一切都該怪你",
+      "startSeconds": 175.16,
+      "endSeconds": 178.74
+    },
+    {
+      "lineId": "line-32",
+      "english": "You give love a bad name (Bad name)",
+      "chinese": "是你讓愛情蒙上惡名（惡名）"
+    },
+    {
+      "lineId": "line-33",
+      "english": "I play my part and you play your game",
+      "chinese": "我真心扮演自己的角色，你卻只顧玩弄你的把戲",
+      "startSeconds": 182.66,
+      "endSeconds": 186.68
+    },
+    {
+      "lineId": "line-34",
+      "english": "You give love a bad name (Bad name)",
+      "chinese": "是你讓愛情蒙上惡名（惡名）",
+      "startSeconds": 186.68,
+      "endSeconds": 190.76
+    },
+    {
+      "lineId": "line-35",
+      "english": "You give love",
+      "chinese": "你讓愛情"
+    },
+    {
+      "lineId": "line-36",
+      "english": "You give love, bad name",
+      "chinese": "你讓愛情，蒙上惡名"
+    },
+    {
+      "lineId": "line-37",
+      "english": "You give love",
+      "chinese": "你讓愛情"
+    },
+    {
+      "lineId": "line-38",
+      "english": "You give love, bad name",
+      "chinese": "你讓愛情，蒙上惡名"
+    },
+    {
+      "lineId": "line-39",
+      "english": "You give love",
+      "chinese": "你讓愛情"
+    },
+    {
+      "lineId": "line-40",
+      "english": "You give love, bad name",
+      "chinese": "你讓愛情，蒙上惡名"
+    },
+    {
+      "lineId": "line-41",
+      "english": "You give love",
+      "chinese": "你讓愛情"
+    },
+    {
+      "lineId": "line-42",
+      "english": "You give love, bad name",
+      "chinese": "你讓愛情，蒙上惡名"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} and you're to blame",
+          "options": [
+            "Shot through the heart",
+            "Shot into the dark",
+            "Shot straight to the heart"
+          ],
+          "answer": "Shot through the heart",
+          "promptZh": "我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Darling, you give love {{blank}}",
+          "options": [
+            "a sad name",
+            "a bad name",
+            "a new name"
+          ],
+          "answer": "a bad name",
+          "promptZh": "親愛的，是你讓愛情蒙上了惡名"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}} is what you sell",
+          "options": [
+            "An angel's eyes",
+            "A stranger's smile",
+            "An angel's smile"
+          ],
+          "answer": "An angel's smile",
+          "promptZh": "你以天使般的笑容，迷惑人心"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "You {{blank}}, then put me through hell",
+          "options": [
+            "promised me forever",
+            "promised me heaven",
+            "promised me happiness"
+          ],
+          "answer": "promised me heaven",
+          "promptZh": "你曾許諾給我天堂，卻讓我受盡地獄般的折磨"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "{{blank}} got a hold on me",
+          "options": [
+            "Change of love",
+            "Chains of lies",
+            "Chains of love"
+          ],
+          "answer": "Chains of love",
+          "promptZh": "愛情的枷鎖，早已將我緊緊束縛"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "When {{blank}}, you can't break free",
+          "options": [
+            "passion's a prison",
+            "passion is a reason",
+            "passion's a vision"
+          ],
+          "answer": "passion's a prison",
+          "promptZh": "當激情成了牢籠，便再也無法掙脫"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "Whoa, you're {{blank}}, yeah",
+          "options": [
+            "a loaded gun",
+            "a lonely gun",
+            "a smoking gun"
+          ],
+          "answer": "a loaded gun",
+          "promptZh": "噢，你就像一把上了膛的槍，耶"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "Oh, there's {{blank}}",
+          "options": [
+            "nowhere to hide",
+            "somewhere to run",
+            "nowhere to run"
+          ],
+          "answer": "nowhere to run",
+          "promptZh": "噢，我已無處可逃"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "{{blank}}, the damage is done",
+          "options": [
+            "No one can save me",
+            "No one can blame me",
+            "Someone can save me"
+          ],
+          "answer": "No one can save me",
+          "promptZh": "誰也救不了我，傷害早已造成"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "{{blank}} and you're to blame",
+          "options": [
+            "Shot into the dark",
+            "Shot straight to the heart",
+            "Shot through the heart"
+          ],
+          "answer": "Shot through the heart",
+          "promptZh": "我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 11,
+          "lineId": "line-11",
+          "prompt": "You give love {{blank}} (Bad name)",
+          "options": [
+            "a bad name",
+            "a sad name",
+            "a new name"
+          ],
+          "answer": "a bad name",
+          "promptZh": "是你讓愛情蒙上惡名（惡名）"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "{{blank}} and you play your game",
+          "options": [
+            "I play my cards",
+            "I play your part",
+            "I play my part"
+          ],
+          "answer": "I play my part",
+          "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
+        },
+        {
+          "number": 13,
+          "lineId": "line-15",
+          "prompt": "{{blank}} on your lips",
+          "options": [
+            "Paint your style",
+            "Paint your smile",
+            "Place your smile"
+          ],
+          "answer": "Paint your smile",
+          "promptZh": "你在唇邊描繪出一抹迷人的微笑"
+        },
+        {
+          "number": 14,
+          "lineId": "line-16",
+          "prompt": "{{blank}} on your fingertips",
+          "options": [
+            "Blood red nails",
+            "Bright red nails",
+            "Blood red eyes"
+          ],
+          "answer": "Blood red nails",
+          "promptZh": "指尖的指甲，塗著鮮血般的艷紅"
+        },
+        {
+          "number": 15,
+          "lineId": "line-17",
+          "prompt": "{{blank}}, you act so shy",
+          "options": [
+            "A school boy's dream",
+            "A school girl's dream",
+            "A school boy's game"
+          ],
+          "answer": "A school boy's dream",
+          "promptZh": "你宛如少年夢中的情人，裝出一副羞澀的模樣"
+        },
+        {
+          "number": 16,
+          "lineId": "line-18",
+          "prompt": "Your {{blank}} was your first kiss goodbye",
+          "options": [
+            "very last kiss",
+            "very first kiss",
+            "very first love"
+          ],
+          "answer": "very first kiss",
+          "promptZh": "你的第一個吻，竟也是告別的第一個吻"
+        },
+        {
+          "number": 17,
+          "lineId": "line-22",
+          "prompt": "{{blank}} and you're to blame",
+          "options": [
+            "Shot into the dark",
+            "Shot through the heart",
+            "Shot straight to the heart"
+          ],
+          "answer": "Shot through the heart",
+          "promptZh": "我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 18,
+          "lineId": "line-24",
+          "prompt": "{{blank}} and you play your game",
+          "options": [
+            "I play my cards",
+            "I play your part",
+            "I play my part"
+          ],
+          "answer": "I play my part",
+          "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
+        },
+        {
+          "number": 19,
+          "lineId": "line-31",
+          "prompt": "{{blank}} and you're to blame",
+          "options": [
+            "Shot into the dark",
+            "Shot through the heart",
+            "Shot straight to the heart"
+          ],
+          "answer": "Shot through the heart",
+          "promptZh": "我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 20,
+          "lineId": "line-36",
+          "prompt": "You give love, {{blank}}",
+          "options": [
+            "sad name",
+            "bad name",
+            "last name"
+          ],
+          "answer": "bad name",
+          "promptZh": "你讓愛情，蒙上惡名"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} and you're to blame"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Darling, you give love {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}} is what you sell"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You {{q:4}}, then put me through hell"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}} got a hold on me"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "When {{q:6}}, you can't break free"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Whoa, you're {{q:7}}, yeah"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Oh, there's {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:9}}, the damage is done"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:10}} and you're to blame"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "You give love {{q:11}} (Bad name)"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:12}} and you play your game"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "You give love a bad name (Bad name)"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Yeah, you give love a bad name"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:13}} on your lips"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:14}} on your fingertips"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:15}}, you act so shy"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Your {{q:16}} was your first kiss goodbye"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Whoa, you're a loaded gun"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Oh, there's nowhere to run"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "No one can save me, the damage is done"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:17}} and you're to blame"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You give love a bad name (Bad name)"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:18}} and you play your game"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You give love a bad name (Bad name)"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "You give love a—"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Oh, shot through the heart and you're to blame"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "You give love a bad name"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I play my part and you play your game"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You give love a bad name (Bad name)"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:19}} and you're to blame"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You give love a bad name (Bad name)"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I play my part and you play your game"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "You give love a bad name (Bad name)"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "You give love"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "You give love, {{q:20}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "You give love"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "You give love, bad name"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "You give love"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You give love, bad name"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "You give love"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "You give love, bad name"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} and you're to blame",
+          "options": [
+            "Shot into the dark",
+            "Shot straight to the heart",
+            "Shot through the heart"
+          ],
+          "answer": "Shot through the heart",
+          "promptZh": "我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Darling, you give love {{blank}}",
+          "options": [
+            "a bad name",
+            "a sad name",
+            "a new name"
+          ],
+          "answer": "a bad name",
+          "promptZh": "親愛的，是你讓愛情蒙上了惡名"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}} is what you sell",
+          "options": [
+            "An angel's smile",
+            "An angel's eyes",
+            "A stranger's smile"
+          ],
+          "answer": "An angel's smile",
+          "promptZh": "你以天使般的笑容，迷惑人心"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "You {{blank}}, then put me through hell",
+          "options": [
+            "promised me forever",
+            "promised me heaven",
+            "promised me happiness"
+          ],
+          "answer": "promised me heaven",
+          "promptZh": "你曾許諾給我天堂，卻讓我受盡地獄般的折磨"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "{{blank}} got a hold on me",
+          "options": [
+            "Change of love",
+            "Chains of lies",
+            "Chains of love"
+          ],
+          "answer": "Chains of love",
+          "promptZh": "愛情的枷鎖，早已將我緊緊束縛"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "When {{blank}}, you can't break free",
+          "options": [
+            "passion's a prison",
+            "passion is a reason",
+            "passion's a vision"
+          ],
+          "answer": "passion's a prison",
+          "promptZh": "當激情成了牢籠，便再也無法掙脫"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "Whoa, you're {{blank}}, yeah",
+          "options": [
+            "a lonely gun",
+            "a loaded gun",
+            "a smoking gun"
+          ],
+          "answer": "a loaded gun",
+          "promptZh": "噢，你就像一把上了膛的槍，耶"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "Oh, there's {{blank}}",
+          "options": [
+            "nowhere to run",
+            "nowhere to hide",
+            "somewhere to run"
+          ],
+          "answer": "nowhere to run",
+          "promptZh": "噢，我已無處可逃"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "{{blank}}, the damage is done",
+          "options": [
+            "No one can blame me",
+            "Someone can save me",
+            "No one can save me"
+          ],
+          "answer": "No one can save me",
+          "promptZh": "誰也救不了我，傷害早已造成"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "{{blank}} and you're to blame",
+          "options": [
+            "Shot into the dark",
+            "Shot straight to the heart",
+            "Shot through the heart"
+          ],
+          "answer": "Shot through the heart",
+          "promptZh": "我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 11,
+          "lineId": "line-11",
+          "prompt": "You give love {{blank}} (Bad name)",
+          "options": [
+            "a bad name",
+            "a sad name",
+            "a new name"
+          ],
+          "answer": "a bad name",
+          "promptZh": "是你讓愛情蒙上惡名（惡名）"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "{{blank}} and you play your game",
+          "options": [
+            "I play my part",
+            "I play my cards",
+            "I play your part"
+          ],
+          "answer": "I play my part",
+          "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
+        },
+        {
+          "number": 13,
+          "lineId": "line-15",
+          "prompt": "{{blank}} on your lips",
+          "options": [
+            "Paint your style",
+            "Paint your smile",
+            "Place your smile"
+          ],
+          "answer": "Paint your smile",
+          "promptZh": "你在唇邊描繪出一抹迷人的微笑"
+        },
+        {
+          "number": 14,
+          "lineId": "line-16",
+          "prompt": "{{blank}} on your fingertips",
+          "options": [
+            "Blood red nails",
+            "Bright red nails",
+            "Blood red eyes"
+          ],
+          "answer": "Blood red nails",
+          "promptZh": "指尖的指甲，塗著鮮血般的艷紅"
+        },
+        {
+          "number": 15,
+          "lineId": "line-17",
+          "prompt": "{{blank}}, you act so shy",
+          "options": [
+            "A school boy's dream",
+            "A school girl's dream",
+            "A school boy's game"
+          ],
+          "answer": "A school boy's dream",
+          "promptZh": "你宛如少年夢中的情人，裝出一副羞澀的模樣"
+        },
+        {
+          "number": 16,
+          "lineId": "line-18",
+          "prompt": "Your {{blank}} was your first kiss goodbye",
+          "options": [
+            "very last kiss",
+            "very first kiss",
+            "very first love"
+          ],
+          "answer": "very first kiss",
+          "promptZh": "你的第一個吻，竟也是告別的第一個吻"
+        },
+        {
+          "number": 17,
+          "lineId": "line-22",
+          "prompt": "{{blank}} and you're to blame",
+          "options": [
+            "Shot into the dark",
+            "Shot through the heart",
+            "Shot straight to the heart"
+          ],
+          "answer": "Shot through the heart",
+          "promptZh": "我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 18,
+          "lineId": "line-24",
+          "prompt": "{{blank}} and you play your game",
+          "options": [
+            "I play my cards",
+            "I play your part",
+            "I play my part"
+          ],
+          "answer": "I play my part",
+          "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
+        },
+        {
+          "number": 19,
+          "lineId": "line-31",
+          "prompt": "{{blank}} and you're to blame",
+          "options": [
+            "Shot into the dark",
+            "Shot straight to the heart",
+            "Shot through the heart"
+          ],
+          "answer": "Shot through the heart",
+          "promptZh": "我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 20,
+          "lineId": "line-36",
+          "prompt": "You give love, {{blank}}",
+          "options": [
+            "sad name",
+            "bad name",
+            "last name"
+          ],
+          "answer": "bad name",
+          "promptZh": "你讓愛情，蒙上惡名"
+        },
+        {
+          "number": 21,
+          "lineId": "line-1",
+          "prompt": "Shot through the heart and {{blank}}",
+          "options": [
+            "you're the same",
+            "you're to blame",
+            "you're to stay"
+          ],
+          "answer": "you're to blame",
+          "promptZh": "我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 22,
+          "lineId": "line-4",
+          "prompt": "You promised me heaven, then {{blank}}",
+          "options": [
+            "pulled me through hell",
+            "put me through pain",
+            "put me through hell"
+          ],
+          "answer": "put me through hell",
+          "promptZh": "你曾許諾給我天堂，卻讓我受盡地獄般的折磨"
+        },
+        {
+          "number": 23,
+          "lineId": "line-5",
+          "prompt": "Chains of love {{blank}}",
+          "options": [
+            "got a hold on me",
+            "got a hand on me",
+            "got a hold of me"
+          ],
+          "answer": "got a hold on me",
+          "promptZh": "愛情的枷鎖，早已將我緊緊束縛"
+        },
+        {
+          "number": 24,
+          "lineId": "line-6",
+          "prompt": "When passion's a prison, you {{blank}}",
+          "options": [
+            "can't be free",
+            "can't break through",
+            "can't break free"
+          ],
+          "answer": "can't break free",
+          "promptZh": "當激情成了牢籠，便再也無法掙脫"
+        },
+        {
+          "number": 25,
+          "lineId": "line-9",
+          "prompt": "No one can save me, {{blank}}",
+          "options": [
+            "the danger is gone",
+            "the damage is done",
+            "the damage has gone"
+          ],
+          "answer": "the damage is done",
+          "promptZh": "誰也救不了我，傷害早已造成"
+        },
+        {
+          "number": 26,
+          "lineId": "line-12",
+          "prompt": "I play my part and {{blank}}",
+          "options": [
+            "you play your game",
+            "you play my game",
+            "you play your part"
+          ],
+          "answer": "you play your game",
+          "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
+        },
+        {
+          "number": 27,
+          "lineId": "line-17",
+          "prompt": "A school boy's dream, {{blank}}",
+          "options": [
+            "you look so shy",
+            "you act so shy",
+            "you act so fine"
+          ],
+          "answer": "you act so shy",
+          "promptZh": "你宛如少年夢中的情人，裝出一副羞澀的模樣"
+        },
+        {
+          "number": 28,
+          "lineId": "line-18",
+          "prompt": "Your very first kiss was your {{blank}}",
+          "options": [
+            "first kiss goodnight",
+            "last kiss goodbye",
+            "first kiss goodbye"
+          ],
+          "answer": "first kiss goodbye",
+          "promptZh": "你的第一個吻，竟也是告別的第一個吻"
+        },
+        {
+          "number": 29,
+          "lineId": "line-19",
+          "prompt": "Whoa, you're {{blank}}",
+          "options": [
+            "a lonely gun",
+            "a loaded gun",
+            "a smoking gun"
+          ],
+          "answer": "a loaded gun",
+          "promptZh": "噢，你就像一把上了膛的槍"
+        },
+        {
+          "number": 30,
+          "lineId": "line-21",
+          "prompt": "No one can save me, {{blank}}",
+          "options": [
+            "the danger is gone",
+            "the damage is done",
+            "the damage has gone"
+          ],
+          "answer": "the damage is done",
+          "promptZh": "誰也救不了我，傷害早已造成"
+        },
+        {
+          "number": 31,
+          "lineId": "line-27",
+          "prompt": "Oh, {{blank}} and you're to blame",
+          "options": [
+            "shot into the dark",
+            "shot straight to the heart",
+            "shot through the heart"
+          ],
+          "answer": "shot through the heart",
+          "promptZh": "噢，我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 32,
+          "lineId": "line-33",
+          "prompt": "{{blank}} and you play your game",
+          "options": [
+            "I play my part",
+            "I play my cards",
+            "I play your part"
+          ],
+          "answer": "I play my part",
+          "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} and {{q:21}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Darling, you give love {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}} is what you sell"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You {{q:4}}, then {{q:22}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}} {{q:23}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "When {{q:6}}, you {{q:24}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Whoa, you're {{q:7}}, yeah"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Oh, there's {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:9}}, {{q:25}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:10}} and you're to blame"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "You give love {{q:11}} (Bad name)"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:12}} and {{q:26}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "You give love a bad name (Bad name)"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Yeah, you give love a bad name"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:13}} on your lips"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:14}} on your fingertips"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:15}}, {{q:27}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Your {{q:16}} was your {{q:28}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Whoa, you're {{q:29}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Oh, there's nowhere to run"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "No one can save me, {{q:30}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:17}} and you're to blame"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You give love a bad name (Bad name)"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:18}} and you play your game"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You give love a bad name (Bad name)"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "You give love a—"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Oh, {{q:31}} and you're to blame"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "You give love a bad name"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I play my part and you play your game"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You give love a bad name (Bad name)"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:19}} and you're to blame"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You give love a bad name (Bad name)"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:32}} and you play your game"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "You give love a bad name (Bad name)"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "You give love"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "You give love, {{q:20}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "You give love"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "You give love, bad name"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "You give love"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You give love, bad name"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "You give love"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "You give love, bad name"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} and you're to blame",
+          "options": [
+            "Shot into the dark",
+            "Shot straight to the heart",
+            "Shot through the heart"
+          ],
+          "answer": "Shot through the heart",
+          "promptZh": "我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Darling, you give love {{blank}}",
+          "options": [
+            "a bad name",
+            "a sad name",
+            "a new name"
+          ],
+          "answer": "a bad name",
+          "promptZh": "親愛的，是你讓愛情蒙上了惡名"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}} is what you sell",
+          "options": [
+            "An angel's eyes",
+            "An angel's smile",
+            "A stranger's smile"
+          ],
+          "answer": "An angel's smile",
+          "promptZh": "你以天使般的笑容，迷惑人心"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "You {{blank}}, then put me through hell",
+          "options": [
+            "promised me forever",
+            "promised me heaven",
+            "promised me happiness"
+          ],
+          "answer": "promised me heaven",
+          "promptZh": "你曾許諾給我天堂，卻讓我受盡地獄般的折磨"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "{{blank}} got a hold on me",
+          "options": [
+            "Change of love",
+            "Chains of lies",
+            "Chains of love"
+          ],
+          "answer": "Chains of love",
+          "promptZh": "愛情的枷鎖，早已將我緊緊束縛"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "When {{blank}}, you can't break free",
+          "options": [
+            "passion is a reason",
+            "passion's a vision",
+            "passion's a prison"
+          ],
+          "answer": "passion's a prison",
+          "promptZh": "當激情成了牢籠，便再也無法掙脫"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "Whoa, you're {{blank}}, yeah",
+          "options": [
+            "a loaded gun",
+            "a lonely gun",
+            "a smoking gun"
+          ],
+          "answer": "a loaded gun",
+          "promptZh": "噢，你就像一把上了膛的槍，耶"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "Oh, there's {{blank}}",
+          "options": [
+            "nowhere to run",
+            "nowhere to hide",
+            "somewhere to run"
+          ],
+          "answer": "nowhere to run",
+          "promptZh": "噢，我已無處可逃"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "{{blank}}, the damage is done",
+          "options": [
+            "No one can blame me",
+            "No one can save me",
+            "Someone can save me"
+          ],
+          "answer": "No one can save me",
+          "promptZh": "誰也救不了我，傷害早已造成"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "{{blank}} and you're to blame",
+          "options": [
+            "Shot through the heart",
+            "Shot into the dark",
+            "Shot straight to the heart"
+          ],
+          "answer": "Shot through the heart",
+          "promptZh": "我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 11,
+          "lineId": "line-11",
+          "prompt": "You give love {{blank}} (Bad name)",
+          "options": [
+            "a sad name",
+            "a bad name",
+            "a new name"
+          ],
+          "answer": "a bad name",
+          "promptZh": "是你讓愛情蒙上惡名（惡名）"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "{{blank}} and you play your game",
+          "options": [
+            "I play my part",
+            "I play my cards",
+            "I play your part"
+          ],
+          "answer": "I play my part",
+          "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
+        },
+        {
+          "number": 13,
+          "lineId": "line-15",
+          "prompt": "{{blank}} on your lips",
+          "options": [
+            "Paint your style",
+            "Paint your smile",
+            "Place your smile"
+          ],
+          "answer": "Paint your smile",
+          "promptZh": "你在唇邊描繪出一抹迷人的微笑"
+        },
+        {
+          "number": 14,
+          "lineId": "line-16",
+          "prompt": "{{blank}} on your fingertips",
+          "options": [
+            "Bright red nails",
+            "Blood red nails",
+            "Blood red eyes"
+          ],
+          "answer": "Blood red nails",
+          "promptZh": "指尖的指甲，塗著鮮血般的艷紅"
+        },
+        {
+          "number": 15,
+          "lineId": "line-17",
+          "prompt": "{{blank}}, you act so shy",
+          "options": [
+            "A school boy's dream",
+            "A school girl's dream",
+            "A school boy's game"
+          ],
+          "answer": "A school boy's dream",
+          "promptZh": "你宛如少年夢中的情人，裝出一副羞澀的模樣"
+        },
+        {
+          "number": 16,
+          "lineId": "line-18",
+          "prompt": "Your {{blank}} was your first kiss goodbye",
+          "options": [
+            "very last kiss",
+            "very first kiss",
+            "very first love"
+          ],
+          "answer": "very first kiss",
+          "promptZh": "你的第一個吻，竟也是告別的第一個吻"
+        },
+        {
+          "number": 17,
+          "lineId": "line-22",
+          "prompt": "{{blank}} and you're to blame",
+          "options": [
+            "Shot into the dark",
+            "Shot through the heart",
+            "Shot straight to the heart"
+          ],
+          "answer": "Shot through the heart",
+          "promptZh": "我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 18,
+          "lineId": "line-24",
+          "prompt": "{{blank}} and you play your game",
+          "options": [
+            "I play my cards",
+            "I play your part",
+            "I play my part"
+          ],
+          "answer": "I play my part",
+          "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
+        },
+        {
+          "number": 19,
+          "lineId": "line-31",
+          "prompt": "{{blank}} and you're to blame",
+          "options": [
+            "Shot into the dark",
+            "Shot through the heart",
+            "Shot straight to the heart"
+          ],
+          "answer": "Shot through the heart",
+          "promptZh": "我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 20,
+          "lineId": "line-36",
+          "prompt": "You give love, {{blank}}",
+          "options": [
+            "bad name",
+            "sad name",
+            "last name"
+          ],
+          "answer": "bad name",
+          "promptZh": "你讓愛情，蒙上惡名"
+        },
+        {
+          "number": 21,
+          "lineId": "line-1",
+          "prompt": "Shot through the heart and {{blank}}",
+          "options": [
+            "you're the same",
+            "you're to stay",
+            "you're to blame"
+          ],
+          "answer": "you're to blame",
+          "promptZh": "我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 22,
+          "lineId": "line-4",
+          "prompt": "You promised me heaven, then {{blank}}",
+          "options": [
+            "pulled me through hell",
+            "put me through hell",
+            "put me through pain"
+          ],
+          "answer": "put me through hell",
+          "promptZh": "你曾許諾給我天堂，卻讓我受盡地獄般的折磨"
+        },
+        {
+          "number": 23,
+          "lineId": "line-5",
+          "prompt": "Chains of love {{blank}}",
+          "options": [
+            "got a hand on me",
+            "got a hold of me",
+            "got a hold on me"
+          ],
+          "answer": "got a hold on me",
+          "promptZh": "愛情的枷鎖，早已將我緊緊束縛"
+        },
+        {
+          "number": 24,
+          "lineId": "line-6",
+          "prompt": "When passion's a prison, you {{blank}}",
+          "options": [
+            "can't break free",
+            "can't be free",
+            "can't break through"
+          ],
+          "answer": "can't break free",
+          "promptZh": "當激情成了牢籠，便再也無法掙脫"
+        },
+        {
+          "number": 25,
+          "lineId": "line-9",
+          "prompt": "No one can save me, {{blank}}",
+          "options": [
+            "the danger is gone",
+            "the damage has gone",
+            "the damage is done"
+          ],
+          "answer": "the damage is done",
+          "promptZh": "誰也救不了我，傷害早已造成"
+        },
+        {
+          "number": 26,
+          "lineId": "line-12",
+          "prompt": "I play my part and {{blank}}",
+          "options": [
+            "you play my game",
+            "you play your part",
+            "you play your game"
+          ],
+          "answer": "you play your game",
+          "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
+        },
+        {
+          "number": 27,
+          "lineId": "line-17",
+          "prompt": "A school boy's dream, {{blank}}",
+          "options": [
+            "you look so shy",
+            "you act so shy",
+            "you act so fine"
+          ],
+          "answer": "you act so shy",
+          "promptZh": "你宛如少年夢中的情人，裝出一副羞澀的模樣"
+        },
+        {
+          "number": 28,
+          "lineId": "line-18",
+          "prompt": "Your very first kiss was your {{blank}}",
+          "options": [
+            "first kiss goodnight",
+            "last kiss goodbye",
+            "first kiss goodbye"
+          ],
+          "answer": "first kiss goodbye",
+          "promptZh": "你的第一個吻，竟也是告別的第一個吻"
+        },
+        {
+          "number": 29,
+          "lineId": "line-19",
+          "prompt": "Whoa, you're {{blank}}",
+          "options": [
+            "a lonely gun",
+            "a smoking gun",
+            "a loaded gun"
+          ],
+          "answer": "a loaded gun",
+          "promptZh": "噢，你就像一把上了膛的槍"
+        },
+        {
+          "number": 30,
+          "lineId": "line-21",
+          "prompt": "No one can save me, {{blank}}",
+          "options": [
+            "the damage is done",
+            "the danger is gone",
+            "the damage has gone"
+          ],
+          "answer": "the damage is done",
+          "promptZh": "誰也救不了我，傷害早已造成"
+        },
+        {
+          "number": 31,
+          "lineId": "line-27",
+          "prompt": "Oh, {{blank}} and you're to blame",
+          "options": [
+            "shot through the heart",
+            "shot into the dark",
+            "shot straight to the heart"
+          ],
+          "answer": "shot through the heart",
+          "promptZh": "噢，我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 32,
+          "lineId": "line-33",
+          "prompt": "{{blank}} and you play your game",
+          "options": [
+            "I play my cards",
+            "I play your part",
+            "I play my part"
+          ],
+          "answer": "I play my part",
+          "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
+        },
+        {
+          "number": 33,
+          "lineId": "line-3",
+          "prompt": "An angel's smile is {{blank}}",
+          "options": [
+            "what you sell",
+            "what you say",
+            "what you tell"
+          ],
+          "answer": "what you sell",
+          "promptZh": "你以天使般的笑容，迷惑人心"
+        },
+        {
+          "number": 34,
+          "lineId": "line-14",
+          "prompt": "Yeah, you {{blank}}",
+          "options": [
+            "give love a sad name",
+            "give love a bad name",
+            "give love another name"
+          ],
+          "answer": "give love a bad name",
+          "promptZh": "沒錯，是你讓愛情蒙上了惡名"
+        },
+        {
+          "number": 35,
+          "lineId": "line-20",
+          "prompt": "Oh, there's {{blank}}",
+          "options": [
+            "nowhere to hide",
+            "somewhere to run",
+            "nowhere to run"
+          ],
+          "answer": "nowhere to run",
+          "promptZh": "噢，我已無處可逃"
+        },
+        {
+          "number": 36,
+          "lineId": "line-23",
+          "prompt": "You give love {{blank}} (Bad name)",
+          "options": [
+            "a bad name",
+            "a sad name",
+            "a new name"
+          ],
+          "answer": "a bad name",
+          "promptZh": "是你讓愛情蒙上惡名（惡名）"
+        },
+        {
+          "number": 37,
+          "lineId": "line-25",
+          "prompt": "You give love {{blank}} (Bad name)",
+          "options": [
+            "a bad name",
+            "a sad name",
+            "a new name"
+          ],
+          "answer": "a bad name",
+          "promptZh": "是你讓愛情蒙上惡名（惡名）"
+        },
+        {
+          "number": 38,
+          "lineId": "line-28",
+          "prompt": "You give love {{blank}}",
+          "options": [
+            "a sad name",
+            "a bad name",
+            "a new name"
+          ],
+          "answer": "a bad name",
+          "promptZh": "是你讓愛情蒙上了惡名"
+        },
+        {
+          "number": 39,
+          "lineId": "line-29",
+          "prompt": "{{blank}} and you play your game",
+          "options": [
+            "I play my part",
+            "I play my cards",
+            "I play your part"
+          ],
+          "answer": "I play my part",
+          "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
+        },
+        {
+          "number": 40,
+          "lineId": "line-34",
+          "prompt": "You give love {{blank}} (Bad name)",
+          "options": [
+            "a sad name",
+            "a new name",
+            "a bad name"
+          ],
+          "answer": "a bad name",
+          "promptZh": "是你讓愛情蒙上惡名（惡名）"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} and {{q:21}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Darling, you give love {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}} is {{q:33}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You {{q:4}}, then {{q:22}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}} {{q:23}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "When {{q:6}}, you {{q:24}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Whoa, you're {{q:7}}, yeah"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Oh, there's {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:9}}, {{q:25}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:10}} and you're to blame"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "You give love {{q:11}} (Bad name)"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:12}} and {{q:26}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "You give love a bad name (Bad name)"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Yeah, you {{q:34}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:13}} on your lips"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:14}} on your fingertips"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:15}}, {{q:27}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Your {{q:16}} was your {{q:28}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Whoa, you're {{q:29}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Oh, there's {{q:35}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "No one can save me, {{q:30}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:17}} and you're to blame"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You give love {{q:36}} (Bad name)"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:18}} and you play your game"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You give love {{q:37}} (Bad name)"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "You give love a—"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Oh, {{q:31}} and you're to blame"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "You give love {{q:38}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:39}} and you play your game"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You give love a bad name (Bad name)"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:19}} and you're to blame"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You give love a bad name (Bad name)"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:32}} and you play your game"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "You give love {{q:40}} (Bad name)"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "You give love"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "You give love, {{q:20}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "You give love"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "You give love, bad name"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "You give love"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You give love, bad name"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "You give love"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "You give love, bad name"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} and you're to blame",
+          "options": [
+            "Shot through the heart",
+            "Shot into the dark",
+            "Shot straight to the heart"
+          ],
+          "answer": "Shot through the heart",
+          "promptZh": "我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "Shot through the heart and {{blank}}",
+          "options": [
+            "you're the same",
+            "you're to stay",
+            "you're to blame"
+          ],
+          "answer": "you're to blame",
+          "promptZh": "我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Darling, you give love {{blank}}",
+          "options": [
+            "a bad name",
+            "a sad name",
+            "a new name"
+          ],
+          "answer": "a bad name",
+          "promptZh": "親愛的，是你讓愛情蒙上了惡名"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "{{blank}} is what you sell",
+          "options": [
+            "An angel's smile",
+            "An angel's eyes",
+            "A stranger's smile"
+          ],
+          "answer": "An angel's smile",
+          "promptZh": "你以天使般的笑容，迷惑人心"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "An angel's smile is {{blank}}",
+          "options": [
+            "what you say",
+            "what you sell",
+            "what you tell"
+          ],
+          "answer": "what you sell",
+          "promptZh": "你以天使般的笑容，迷惑人心"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "You {{blank}}, then put me through hell",
+          "options": [
+            "promised me forever",
+            "promised me heaven",
+            "promised me happiness"
+          ],
+          "answer": "promised me heaven",
+          "promptZh": "你曾許諾給我天堂，卻讓我受盡地獄般的折磨"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "You promised me heaven, then {{blank}}",
+          "options": [
+            "put me through hell",
+            "pulled me through hell",
+            "put me through pain"
+          ],
+          "answer": "put me through hell",
+          "promptZh": "你曾許諾給我天堂，卻讓我受盡地獄般的折磨"
+        },
+        {
+          "number": 8,
+          "lineId": "line-5",
+          "prompt": "{{blank}} got a hold on me",
+          "options": [
+            "Change of love",
+            "Chains of lies",
+            "Chains of love"
+          ],
+          "answer": "Chains of love",
+          "promptZh": "愛情的枷鎖，早已將我緊緊束縛"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "Chains of love {{blank}}",
+          "options": [
+            "got a hand on me",
+            "got a hold of me",
+            "got a hold on me"
+          ],
+          "answer": "got a hold on me",
+          "promptZh": "愛情的枷鎖，早已將我緊緊束縛"
+        },
+        {
+          "number": 10,
+          "lineId": "line-6",
+          "prompt": "When {{blank}}, you can't break free",
+          "options": [
+            "passion is a reason",
+            "passion's a prison",
+            "passion's a vision"
+          ],
+          "answer": "passion's a prison",
+          "promptZh": "當激情成了牢籠，便再也無法掙脫"
+        },
+        {
+          "number": 11,
+          "lineId": "line-6",
+          "prompt": "When passion's a prison, you {{blank}}",
+          "options": [
+            "can't be free",
+            "can't break free",
+            "can't break through"
+          ],
+          "answer": "can't break free",
+          "promptZh": "當激情成了牢籠，便再也無法掙脫"
+        },
+        {
+          "number": 12,
+          "lineId": "line-7",
+          "prompt": "Whoa, you're {{blank}}, yeah",
+          "options": [
+            "a lonely gun",
+            "a smoking gun",
+            "a loaded gun"
+          ],
+          "answer": "a loaded gun",
+          "promptZh": "噢，你就像一把上了膛的槍，耶"
+        },
+        {
+          "number": 13,
+          "lineId": "line-8",
+          "prompt": "Oh, there's {{blank}}",
+          "options": [
+            "nowhere to hide",
+            "somewhere to run",
+            "nowhere to run"
+          ],
+          "answer": "nowhere to run",
+          "promptZh": "噢，我已無處可逃"
+        },
+        {
+          "number": 14,
+          "lineId": "line-9",
+          "prompt": "{{blank}}, the damage is done",
+          "options": [
+            "No one can blame me",
+            "No one can save me",
+            "Someone can save me"
+          ],
+          "answer": "No one can save me",
+          "promptZh": "誰也救不了我，傷害早已造成"
+        },
+        {
+          "number": 15,
+          "lineId": "line-9",
+          "prompt": "No one can save me, {{blank}}",
+          "options": [
+            "the danger is gone",
+            "the damage is done",
+            "the damage has gone"
+          ],
+          "answer": "the damage is done",
+          "promptZh": "誰也救不了我，傷害早已造成"
+        },
+        {
+          "number": 16,
+          "lineId": "line-10",
+          "prompt": "{{blank}} and you're to blame",
+          "options": [
+            "Shot into the dark",
+            "Shot straight to the heart",
+            "Shot through the heart"
+          ],
+          "answer": "Shot through the heart",
+          "promptZh": "我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 17,
+          "lineId": "line-11",
+          "prompt": "You give love {{blank}} (Bad name)",
+          "options": [
+            "a bad name",
+            "a sad name",
+            "a new name"
+          ],
+          "answer": "a bad name",
+          "promptZh": "是你讓愛情蒙上惡名（惡名）"
+        },
+        {
+          "number": 18,
+          "lineId": "line-12",
+          "prompt": "{{blank}} and you play your game",
+          "options": [
+            "I play my cards",
+            "I play my part",
+            "I play your part"
+          ],
+          "answer": "I play my part",
+          "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
+        },
+        {
+          "number": 19,
+          "lineId": "line-12",
+          "prompt": "I play my part and {{blank}}",
+          "options": [
+            "you play my game",
+            "you play your game",
+            "you play your part"
+          ],
+          "answer": "you play your game",
+          "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
+        },
+        {
+          "number": 20,
+          "lineId": "line-14",
+          "prompt": "Yeah, you {{blank}}",
+          "options": [
+            "give love a sad name",
+            "give love another name",
+            "give love a bad name"
+          ],
+          "answer": "give love a bad name",
+          "promptZh": "沒錯，是你讓愛情蒙上了惡名"
+        },
+        {
+          "number": 21,
+          "lineId": "line-15",
+          "prompt": "{{blank}} on your lips",
+          "options": [
+            "Paint your style",
+            "Paint your smile",
+            "Place your smile"
+          ],
+          "answer": "Paint your smile",
+          "promptZh": "你在唇邊描繪出一抹迷人的微笑"
+        },
+        {
+          "number": 22,
+          "lineId": "line-15",
+          "prompt": "Paint your smile {{blank}}",
+          "options": [
+            "on your lips",
+            "on your face",
+            "on my lips"
+          ],
+          "answer": "on your lips",
+          "promptZh": "你在唇邊描繪出一抹迷人的微笑"
+        },
+        {
+          "number": 23,
+          "lineId": "line-16",
+          "prompt": "{{blank}} on your fingertips",
+          "options": [
+            "Bright red nails",
+            "Blood red eyes",
+            "Blood red nails"
+          ],
+          "answer": "Blood red nails",
+          "promptZh": "指尖的指甲，塗著鮮血般的艷紅"
+        },
+        {
+          "number": 24,
+          "lineId": "line-16",
+          "prompt": "Blood red nails {{blank}}",
+          "options": [
+            "on your fingertips",
+            "on your finger tips",
+            "at your fingertips"
+          ],
+          "answer": "on your fingertips",
+          "promptZh": "指尖的指甲，塗著鮮血般的艷紅"
+        },
+        {
+          "number": 25,
+          "lineId": "line-17",
+          "prompt": "{{blank}}, you act so shy",
+          "options": [
+            "A school girl's dream",
+            "A school boy's game",
+            "A school boy's dream"
+          ],
+          "answer": "A school boy's dream",
+          "promptZh": "你宛如少年夢中的情人，裝出一副羞澀的模樣"
+        },
+        {
+          "number": 26,
+          "lineId": "line-17",
+          "prompt": "A school boy's dream, {{blank}}",
+          "options": [
+            "you look so shy",
+            "you act so shy",
+            "you act so fine"
+          ],
+          "answer": "you act so shy",
+          "promptZh": "你宛如少年夢中的情人，裝出一副羞澀的模樣"
+        },
+        {
+          "number": 27,
+          "lineId": "line-18",
+          "prompt": "Your {{blank}} was your first kiss goodbye",
+          "options": [
+            "very last kiss",
+            "very first kiss",
+            "very first love"
+          ],
+          "answer": "very first kiss",
+          "promptZh": "你的第一個吻，竟也是告別的第一個吻"
+        },
+        {
+          "number": 28,
+          "lineId": "line-18",
+          "prompt": "Your very first kiss was your {{blank}}",
+          "options": [
+            "first kiss goodnight",
+            "last kiss goodbye",
+            "first kiss goodbye"
+          ],
+          "answer": "first kiss goodbye",
+          "promptZh": "你的第一個吻，竟也是告別的第一個吻"
+        },
+        {
+          "number": 29,
+          "lineId": "line-19",
+          "prompt": "Whoa, you're {{blank}}",
+          "options": [
+            "a loaded gun",
+            "a lonely gun",
+            "a smoking gun"
+          ],
+          "answer": "a loaded gun",
+          "promptZh": "噢，你就像一把上了膛的槍"
+        },
+        {
+          "number": 30,
+          "lineId": "line-20",
+          "prompt": "Oh, there's {{blank}}",
+          "options": [
+            "nowhere to run",
+            "nowhere to hide",
+            "somewhere to run"
+          ],
+          "answer": "nowhere to run",
+          "promptZh": "噢，我已無處可逃"
+        },
+        {
+          "number": 31,
+          "lineId": "line-21",
+          "prompt": "No one can save me, {{blank}}",
+          "options": [
+            "the danger is gone",
+            "the damage has gone",
+            "the damage is done"
+          ],
+          "answer": "the damage is done",
+          "promptZh": "誰也救不了我，傷害早已造成"
+        },
+        {
+          "number": 32,
+          "lineId": "line-22",
+          "prompt": "{{blank}} and you're to blame",
+          "options": [
+            "Shot through the heart",
+            "Shot into the dark",
+            "Shot straight to the heart"
+          ],
+          "answer": "Shot through the heart",
+          "promptZh": "我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 33,
+          "lineId": "line-23",
+          "prompt": "You give love {{blank}} (Bad name)",
+          "options": [
+            "a bad name",
+            "a sad name",
+            "a new name"
+          ],
+          "answer": "a bad name",
+          "promptZh": "是你讓愛情蒙上惡名（惡名）"
+        },
+        {
+          "number": 34,
+          "lineId": "line-24",
+          "prompt": "{{blank}} and you play your game",
+          "options": [
+            "I play my cards",
+            "I play your part",
+            "I play my part"
+          ],
+          "answer": "I play my part",
+          "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
+        },
+        {
+          "number": 35,
+          "lineId": "line-24",
+          "prompt": "I play my part and {{blank}}",
+          "options": [
+            "you play my game",
+            "you play your game",
+            "you play your part"
+          ],
+          "answer": "you play your game",
+          "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
+        },
+        {
+          "number": 36,
+          "lineId": "line-25",
+          "prompt": "You give love {{blank}} (Bad name)",
+          "options": [
+            "a sad name",
+            "a new name",
+            "a bad name"
+          ],
+          "answer": "a bad name",
+          "promptZh": "是你讓愛情蒙上惡名（惡名）"
+        },
+        {
+          "number": 37,
+          "lineId": "line-27",
+          "prompt": "Oh, {{blank}} and you're to blame",
+          "options": [
+            "shot into the dark",
+            "shot straight to the heart",
+            "shot through the heart"
+          ],
+          "answer": "shot through the heart",
+          "promptZh": "噢，我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 38,
+          "lineId": "line-28",
+          "prompt": "You give love {{blank}}",
+          "options": [
+            "a sad name",
+            "a bad name",
+            "a new name"
+          ],
+          "answer": "a bad name",
+          "promptZh": "是你讓愛情蒙上了惡名"
+        },
+        {
+          "number": 39,
+          "lineId": "line-29",
+          "prompt": "{{blank}} and you play your game",
+          "options": [
+            "I play my part",
+            "I play my cards",
+            "I play your part"
+          ],
+          "answer": "I play my part",
+          "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
+        },
+        {
+          "number": 40,
+          "lineId": "line-29",
+          "prompt": "I play my part and {{blank}}",
+          "options": [
+            "you play my game",
+            "you play your game",
+            "you play your part"
+          ],
+          "answer": "you play your game",
+          "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
+        },
+        {
+          "number": 41,
+          "lineId": "line-30",
+          "prompt": "You give love {{blank}} (Bad name)",
+          "options": [
+            "a sad name",
+            "a bad name",
+            "a new name"
+          ],
+          "answer": "a bad name",
+          "promptZh": "是你讓愛情蒙上惡名（惡名）"
+        },
+        {
+          "number": 42,
+          "lineId": "line-31",
+          "prompt": "{{blank}} and you're to blame",
+          "options": [
+            "Shot through the heart",
+            "Shot into the dark",
+            "Shot straight to the heart"
+          ],
+          "answer": "Shot through the heart",
+          "promptZh": "我的心被一槍射穿，而這一切都該怪你"
+        },
+        {
+          "number": 43,
+          "lineId": "line-32",
+          "prompt": "You give love {{blank}} (Bad name)",
+          "options": [
+            "a bad name",
+            "a sad name",
+            "a new name"
+          ],
+          "answer": "a bad name",
+          "promptZh": "是你讓愛情蒙上惡名（惡名）"
+        },
+        {
+          "number": 44,
+          "lineId": "line-33",
+          "prompt": "{{blank}} and you play your game",
+          "options": [
+            "I play my cards",
+            "I play your part",
+            "I play my part"
+          ],
+          "answer": "I play my part",
+          "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
+        },
+        {
+          "number": 45,
+          "lineId": "line-33",
+          "prompt": "I play my part and {{blank}}",
+          "options": [
+            "you play your game",
+            "you play my game",
+            "you play your part"
+          ],
+          "answer": "you play your game",
+          "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
+        },
+        {
+          "number": 46,
+          "lineId": "line-34",
+          "prompt": "You give love {{blank}} (Bad name)",
+          "options": [
+            "a bad name",
+            "a sad name",
+            "a new name"
+          ],
+          "answer": "a bad name",
+          "promptZh": "是你讓愛情蒙上惡名（惡名）"
+        },
+        {
+          "number": 47,
+          "lineId": "line-36",
+          "prompt": "You give love, {{blank}}",
+          "options": [
+            "sad name",
+            "bad name",
+            "last name"
+          ],
+          "answer": "bad name",
+          "promptZh": "你讓愛情，蒙上惡名"
+        },
+        {
+          "number": 48,
+          "lineId": "line-38",
+          "prompt": "You give love, {{blank}}",
+          "options": [
+            "sad name",
+            "bad name",
+            "last name"
+          ],
+          "answer": "bad name",
+          "promptZh": "你讓愛情，蒙上惡名"
+        },
+        {
+          "number": 49,
+          "lineId": "line-40",
+          "prompt": "You give love, {{blank}}",
+          "options": [
+            "sad name",
+            "last name",
+            "bad name"
+          ],
+          "answer": "bad name",
+          "promptZh": "你讓愛情，蒙上惡名"
+        },
+        {
+          "number": 50,
+          "lineId": "line-42",
+          "prompt": "You give love, {{blank}}",
+          "options": [
+            "bad name",
+            "sad name",
+            "last name"
+          ],
+          "answer": "bad name",
+          "promptZh": "你讓愛情，蒙上惡名"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} and {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Darling, you give love {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:4}} is {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You {{q:6}}, then {{q:7}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:8}} {{q:9}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "When {{q:10}}, you {{q:11}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Whoa, you're {{q:12}}, yeah"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Oh, there's {{q:13}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:14}}, {{q:15}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:16}} and you're to blame"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "You give love {{q:17}} (Bad name)"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:18}} and {{q:19}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "You give love a bad name (Bad name)"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Yeah, you {{q:20}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:21}} {{q:22}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:23}} {{q:24}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:25}}, {{q:26}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Your {{q:27}} was your {{q:28}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Whoa, you're {{q:29}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Oh, there's {{q:30}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "No one can save me, {{q:31}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:32}} and you're to blame"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You give love {{q:33}} (Bad name)"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:34}} and {{q:35}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You give love {{q:36}} (Bad name)"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "You give love a—"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Oh, {{q:37}} and you're to blame"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "You give love {{q:38}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:39}} and {{q:40}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You give love {{q:41}} (Bad name)"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:42}} and you're to blame"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You give love {{q:43}} (Bad name)"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:44}} and {{q:45}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "You give love {{q:46}} (Bad name)"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "You give love"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "You give love, {{q:47}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "You give love"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "You give love, {{q:48}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "You give love"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You give love, {{q:49}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "You give love"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "You give love, {{q:50}}"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Be to blame",
+      "meaning": "該負責、應受到責怪",
+      "usage": "當某人做錯事，或造成不好的結果時使用。",
+      "prompt": "哪一句正確使用了「Be to blame」？",
+      "options": [
+        "My bike is to blame because it is blue.",
+        "I am to blame my dinner at six.",
+        "She is to blame for winning the game fairly.",
+        "The cat is to blame for the broken cup because it pushed the cup off the table."
+      ],
+      "answer": 3,
+      "explanation": "正確：貓把杯子推下桌，所以要為打破杯子負責。",
+      "optionExplanations": [
+        "錯誤：藍色不是做錯事或造成壞結果的原因。",
+        "錯誤：be to blame 不是「吃晚餐」；應說 I eat dinner at six。",
+        "錯誤：公平贏得比賽通常不是需要責怪的事。",
+        "正確：貓把杯子推下桌，所以要為打破杯子負責。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Give something a bad name",
+      "meaning": "讓某件事名聲變差",
+      "usage": "當某人的不好行為讓一個團體、活動或事物被人看壞時使用。",
+      "prompt": "哪一句正確使用了「Give something a bad name」？",
+      "options": [
+        "I gave my dog a bad name because I called him Potato.",
+        "We give our shoes a bad name when we wash them.",
+        "She gave the cake a bad name by writing Happy Birthday on it.",
+        "One rude driver can give all bus drivers a bad name."
+      ],
+      "answer": 3,
+      "explanation": "正確：一名不禮貌的司機可能讓大家對其他公車司機也有壞印象。",
+      "optionExplanations": [
+        "錯誤：幫狗取搞笑名字不是這個片語的意思。",
+        "錯誤：洗鞋子並不是讓某件事名聲變差。",
+        "錯誤：在蛋糕上寫字不是破壞名聲。",
+        "正確：一名不禮貌的司機可能讓大家對其他公車司機也有壞印象。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Promise someone something",
+      "meaning": "答應給某人某物、向某人承諾某事",
+      "usage": "當你認真答應某人會給東西或做某事時使用。",
+      "prompt": "哪一句正確使用了「Promise someone something」？",
+      "options": [
+        "I promised my mother a phone call, so I called her tonight.",
+        "He promised his shoes very slowly.",
+        "I promised my sandwich to sing a song.",
+        "We promised the rain a new school bag."
+      ],
+      "answer": 0,
+      "explanation": "正確：答應媽媽打電話，後來真的打了。",
+      "optionExplanations": [
+        "正確：答應媽媽打電話，後來真的打了。",
+        "錯誤：promise 不能直接表示「慢慢穿鞋」。",
+        "錯誤：三明治不能接受唱歌的承諾。",
+        "錯誤：雨不是可以接受書包的對象。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Put someone through hell",
+      "meaning": "讓某人受盡折磨、吃很多苦",
+      "usage": "當一個人的行為使別人長時間非常痛苦時使用；語氣很強。",
+      "prompt": "哪一句正確使用了「Put someone through hell」？",
+      "options": [
+        "His cruel words put her through hell for many months.",
+        "The happy song put us through hell because we danced once.",
+        "My friend put me through hell by giving me a birthday card.",
+        "I put my pencil through hell to write my name."
+      ],
+      "answer": 0,
+      "explanation": "正確：傷人的話讓她痛苦了好幾個月。",
+      "optionExplanations": [
+        "正確：傷人的話讓她痛苦了好幾個月。",
+        "錯誤：跳一次舞不代表受盡折磨。",
+        "錯誤：收到生日卡片通常是好事，沒有受到折磨。",
+        "錯誤：這個片語用來形容人受苦，不是寫字。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Get a hold on someone",
+      "meaning": "控制某人、對某人有強烈影響",
+      "usage": "當某種情緒、習慣或事物讓人很難擺脫時使用。",
+      "prompt": "哪一句正確使用了「Get a hold on someone」？",
+      "options": [
+        "The chair got a hold on Friday at noon.",
+        "This game has got a hold on me; I play it every night and cannot stop.",
+        "I got a hold on my breakfast with a spoon.",
+        "My socks got a hold on the sky yesterday."
+      ],
+      "answer": 1,
+      "explanation": "正確：這個遊戲對我影響很強，讓我很難停止。",
+      "optionExplanations": [
+        "錯誤：椅子不會控制星期五。",
+        "正確：這個遊戲對我影響很強，讓我很難停止。",
+        "錯誤：用湯匙吃早餐不是這個比喻用法。",
+        "錯誤：襪子不能控制天空。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Break free",
+      "meaning": "掙脫、擺脫束縛",
+      "usage": "當人或動物從限制、困境或控制中成功離開時使用。",
+      "prompt": "哪一句正確使用了「Break free」？",
+      "options": [
+        "I break free my homework with a red pen.",
+        "She broke free a cake for her birthday.",
+        "The bird broke free from the box and flew away.",
+        "They broke free the bus ticket to go home."
+      ],
+      "answer": 2,
+      "explanation": "正確：鳥從盒子裡逃了出來。",
+      "optionExplanations": [
+        "錯誤：break free 不是寫作業，這裡的動詞搭配不對。",
+        "錯誤：做蛋糕不能用 break free。",
+        "正確：鳥從盒子裡逃了出來。",
+        "錯誤：買車票或使用車票不是「掙脫」。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Nowhere to run",
+      "meaning": "無處可逃、沒有地方可躲",
+      "usage": "當人遇到麻煩或危險，找不到安全地方離開時使用，也可作比喻。",
+      "prompt": "哪一句正確使用了「Nowhere to run」？",
+      "options": [
+        "I have nowhere to run because my new shoes are yellow.",
+        "The little mouse had nowhere to run when the door was closed.",
+        "She has nowhere to run because she can take any bus home.",
+        "There is nowhere to run my sandwich at school."
+      ],
+      "answer": 1,
+      "explanation": "正確：門關上後，老鼠找不到逃走的地方。",
+      "optionExplanations": [
+        "錯誤：鞋子的顏色不表示無處可逃。",
+        "正確：門關上後，老鼠找不到逃走的地方。",
+        "錯誤：能搭任何公車回家，並非無處可逃。",
+        "錯誤：nowhere to run 不能用來表示吃三明治。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "The damage is done",
+      "meaning": "傷害已造成、事情已無法挽回",
+      "usage": "當不好的事情已發生，不能當作沒事時使用。",
+      "prompt": "哪一句正確使用了「The damage is done」？",
+      "options": [
+        "The damage is done: I broke the window, and I cannot change what happened.",
+        "The damage is done because I might buy a red hat next year.",
+        "The damage is done every time I drink clean water.",
+        "The damage is done so I will start the race tomorrow."
+      ],
+      "answer": 0,
+      "explanation": "正確：窗戶已經被打破，事情發生了。",
+      "optionExplanations": [
+        "正確：窗戶已經被打破，事情發生了。",
+        "錯誤：尚未發生的買帽子計畫不是已造成的傷害。",
+        "錯誤：喝乾淨的水通常不是造成傷害。",
+        "錯誤：準備明天比賽並不表示傷害已發生。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Play your part",
+      "meaning": "做好自己的本分、扮演自己的角色",
+      "usage": "當一群人一起做事，而每個人負責自己的工作時使用。",
+      "prompt": "哪一句正確使用了「Play your part」？",
+      "options": [
+        "The rain plays its part by buying a bus ticket.",
+        "We can clean the park if everyone plays their part.",
+        "I play my part with a spoon after dinner.",
+        "My shoes play their part when they sleep at night."
+      ],
+      "answer": 1,
+      "explanation": "正確：每個人都做好自己負責的部分，就能清理公園。",
+      "optionExplanations": [
+        "錯誤：雨不會買車票，也不是這裡的團隊成員。",
+        "正確：每個人都做好自己負責的部分，就能清理公園。",
+        "錯誤：用湯匙不是「做好自己的本分」。",
+        "錯誤：鞋子不會睡覺，也無法承擔責任。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Act shy",
+      "meaning": "表現得害羞；裝出害羞的樣子",
+      "usage": "形容某人說話或行動很害羞；act 也可能表示刻意裝出某種樣子。",
+      "prompt": "哪一句正確使用了「Act shy」？",
+      "options": [
+        "She acted shy her homework on the desk.",
+        "The clock acted shy and became nine o’clock.",
+        "He acted shy at the party and spoke very little.",
+        "I acted shy my lunch with a fork."
+      ],
+      "answer": 2,
+      "explanation": "正確：他在派對上話很少，表現得害羞。",
+      "optionExplanations": [
+        "錯誤：act shy 不能直接表示把作業放桌上。",
+        "錯誤：時鐘顯示九點不是害羞的表現。",
+        "正確：他在派對上話很少，表現得害羞。",
+        "錯誤：吃午餐不能用 act shy 表達。"
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/you-give-love-a-bad-name/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/you-give-love-a-bad-name/user-cover-20261029.png",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 222.7066875,
+    "audioSha256": "0d4bebcace70bdb5c06a407af04b89762da6325d6e81aa160483ed92c2072a63",
+    "timedLines": 27,
+    "untimedLines": 15,
+    "reviewStatus": "Conservative automatic line alignment; unmatched lines remain bilingual without a guessed cue."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_You Give Love A Bad Name_.pdf",
+      "sha256": "8d40cbeb36cff7bcad2998b5a5ce2e33c126bda49ea8385b876a4798dc9aad4d"
+    },
+    "docx": {
+      "filename": "You_Give_Love_A_Bad_Name_Four_Level_Listening_Exercise.docx",
+      "sha256": "988a78000227db3f5c95c39b817d767d035c6f9b1223c873d85521858729a73a"
+    },
+    "md": {
+      "filename": "You_Give_Love_A_Bad_Name_Vocabulary_Quiz.md",
+      "sha256": "9e7214c14fca3c8760644ad6a3c2417245f5a3cd12b377e3099b1e3fbd8df199"
+    },
+    "mp3": {
+      "filename": "You Give Love A Bad Name [Aqc3VTpz9HQ].mp3",
+      "sha256": "0d4bebcace70bdb5c06a407af04b89762da6325d6e81aa160483ed92c2072a63"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-b9019505-c70c-4c2e-abd5-a58a0f0e42b0.png",
+    "sha256": "85f4220233c5ecaa9baba204cefc35958503df0b824075495cadd9e391d527b5",
+    "transformations": "none",
+    "selectedOn": "2026-10-29"
+  }
+}

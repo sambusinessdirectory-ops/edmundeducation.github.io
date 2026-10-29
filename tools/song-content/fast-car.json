@@ -1,0 +1,3518 @@
+{
+  "slug": "fast-car",
+  "title": "Fast Car",
+  "singer": "Tracy Chapman",
+  "exercise_name": "Fast Car · Listening & Vocabulary",
+  "description": "《Fast Car》描寫一個人渴望逃離貧困與家庭困境，卻在追尋幸福的過程中逐漸失去希望的故事。歌中的主角因父親酗酒而被迫放棄學業，承擔照顧家庭的責任。她原本相信，只要與心愛的人一起離開，就能重新開始，建立更美好的生活。然而，現實中的經濟壓力與伴侶的逃避責任，令她再次陷入熟悉的困境，曾經的夢想也逐漸破滅。歌曲中的快車象徵自由、希望與改變命運的機會，卻也見證了理想與現實的落差。最終，《Fast Car》傳達的是對貧困、家庭責任與人生選擇的深刻反思：即使努力追尋更好的未來，也可能難以擺脫過去的束縛，而真正令人心酸的，是曾經充滿希望的夢想，最終只能化為無奈與遺憾。",
+  "tags": [
+    "tracy chapman",
+    "fast car"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "You got a fast car",
+      "chinese": "你有一輛跑得飛快的車",
+      "startSeconds": 20.34,
+      "endSeconds": 22.3
+    },
+    {
+      "lineId": "line-2",
+      "english": "I want a ticket to anywhere",
+      "chinese": "我只想要一張能帶我去任何地方的車票",
+      "startSeconds": 23.2,
+      "endSeconds": 24.64
+    },
+    {
+      "lineId": "line-3",
+      "english": "Maybe we make a deal",
+      "chinese": "或許我們可以達成一個約定",
+      "startSeconds": 24.64,
+      "endSeconds": 26.88
+    },
+    {
+      "lineId": "line-4",
+      "english": "Maybe together we can get somewhere",
+      "chinese": "或許只要我們在一起，就能闖出一片天地",
+      "startSeconds": 27.62,
+      "endSeconds": 29.72
+    },
+    {
+      "lineId": "line-5",
+      "english": "Any place is better",
+      "chinese": "無論去哪裡，都會比這裡更好",
+      "startSeconds": 29.72,
+      "endSeconds": 31.48
+    },
+    {
+      "lineId": "line-6",
+      "english": "Starting from zero got nothing to lose",
+      "chinese": "反正一無所有，從零開始也沒什麼可失去的",
+      "startSeconds": 31.48,
+      "endSeconds": 34.64
+    },
+    {
+      "lineId": "line-7",
+      "english": "Maybe we'll make something",
+      "chinese": "或許我們能一起闖出些名堂",
+      "startSeconds": 34.64,
+      "endSeconds": 36.2
+    },
+    {
+      "lineId": "line-8",
+      "english": "Me myself I got nothing to prove",
+      "chinese": "至於我，已沒有什麼需要向誰證明",
+      "startSeconds": 36.2,
+      "endSeconds": 40.1
+    },
+    {
+      "lineId": "line-9",
+      "english": "You got a fast car",
+      "chinese": "你有一輛跑得飛快的車",
+      "startSeconds": 48.46,
+      "endSeconds": 50.22
+    },
+    {
+      "lineId": "line-10",
+      "english": "I got a plan to get us out of here",
+      "chinese": "而我有個計畫，能帶我們逃離這個地方",
+      "startSeconds": 50.22,
+      "endSeconds": 53.02
+    },
+    {
+      "lineId": "line-11",
+      "english": "I been working at the convenience store",
+      "chinese": "我一直在便利商店工作",
+      "startSeconds": 53.02,
+      "endSeconds": 55.14
+    },
+    {
+      "lineId": "line-12",
+      "english": "Managed to save just a little bit of money",
+      "chinese": "好不容易才存下了一點錢",
+      "startSeconds": 55.14,
+      "endSeconds": 57.64
+    },
+    {
+      "lineId": "line-13",
+      "english": "Won't have to drive too far",
+      "chinese": "我們不必開得太遠"
+    },
+    {
+      "lineId": "line-14",
+      "english": "Just 'cross the border and into the city",
+      "chinese": "只要越過邊界，進到城裡就好",
+      "startSeconds": 59.56,
+      "endSeconds": 62.26
+    },
+    {
+      "lineId": "line-15",
+      "english": "You and I can both get jobs",
+      "chinese": "你和我都能找到工作",
+      "startSeconds": 62.26,
+      "endSeconds": 64.64
+    },
+    {
+      "lineId": "line-16",
+      "english": "And finally see what it means to be living",
+      "chinese": "終於體會到，什麼才是真正的生活",
+      "startSeconds": 64.64,
+      "endSeconds": 67.1
+    },
+    {
+      "lineId": "line-17",
+      "english": "See my old man's got a problem",
+      "chinese": "你知道嗎，我父親有個難以擺脫的問題"
+    },
+    {
+      "lineId": "line-18",
+      "english": "He live with the bottle that's the way it is",
+      "chinese": "他整天與酒瓶為伴，生活就是這副模樣",
+      "startSeconds": 78.7,
+      "endSeconds": 80.62
+    },
+    {
+      "lineId": "line-19",
+      "english": "He says his body's too old for working",
+      "chinese": "他說自己的身體已經老得無法工作",
+      "startSeconds": 80.62,
+      "endSeconds": 82.62
+    },
+    {
+      "lineId": "line-20",
+      "english": "His body's too young to look like his",
+      "chinese": "可他明明還年輕，身體卻已衰敗得不像話",
+      "startSeconds": 82.62,
+      "endSeconds": 85.36
+    },
+    {
+      "lineId": "line-21",
+      "english": "My mama went off and left him",
+      "chinese": "我母親離開了他，頭也不回地走了",
+      "startSeconds": 85.36,
+      "endSeconds": 87.42
+    },
+    {
+      "lineId": "line-22",
+      "english": "She wanted more from life than he could give",
+      "chinese": "她渴望的生活，遠遠超過他所能給予的",
+      "startSeconds": 87.42,
+      "endSeconds": 89.72
+    },
+    {
+      "lineId": "line-23",
+      "english": "I said somebody's got to take care of him",
+      "chinese": "我心想，總得有人留下來照顧他",
+      "startSeconds": 89.72,
+      "endSeconds": 92.1
+    },
+    {
+      "lineId": "line-24",
+      "english": "So I quit school and that's what I did",
+      "chinese": "於是我輟了學，真的留下來照顧他",
+      "startSeconds": 92.1,
+      "endSeconds": 94.42
+    },
+    {
+      "lineId": "line-25",
+      "english": "You got a fast car",
+      "chinese": "你有一輛跑得飛快的車",
+      "startSeconds": 103.76,
+      "endSeconds": 105.02
+    },
+    {
+      "lineId": "line-26",
+      "english": "Is it fast enough so we can fly away?",
+      "chinese": "它夠快嗎？能帶著我們遠走高飛嗎？",
+      "startSeconds": 105.48,
+      "endSeconds": 108.22
+    },
+    {
+      "lineId": "line-27",
+      "english": "We gotta make a decision",
+      "chinese": "我們必須作出決定",
+      "startSeconds": 108.86,
+      "endSeconds": 110.08
+    },
+    {
+      "lineId": "line-28",
+      "english": "Leave tonight or live and die this way",
+      "chinese": "要麼今晚就離開，要麼一輩子困在這樣的生活裡，直到死去",
+      "startSeconds": 110.68,
+      "endSeconds": 113.04
+    },
+    {
+      "lineId": "line-29",
+      "english": "So remember when we were driving driving in your car",
+      "chinese": "還記得嗎？那時我們開著你的車，一路飛馳",
+      "startSeconds": 121.2,
+      "endSeconds": 124.38
+    },
+    {
+      "lineId": "line-30",
+      "english": "Speed so fast I felt like I was drunk",
+      "chinese": "車速快得讓我彷彿醉了一般",
+      "startSeconds": 124.38,
+      "endSeconds": 126.76
+    },
+    {
+      "lineId": "line-31",
+      "english": "City lights lay out before us",
+      "chinese": "城市的燈火在我們眼前鋪展開來",
+      "startSeconds": 127.18,
+      "endSeconds": 129.1
+    },
+    {
+      "lineId": "line-32",
+      "english": "And your arm felt nice wrapped 'round my shoulder",
+      "chinese": "而你的手臂環繞著我的肩膀，那感覺如此溫暖",
+      "startSeconds": 129.1,
+      "endSeconds": 131.28
+    },
+    {
+      "lineId": "line-33",
+      "english": "And I had a feeling that I belonged",
+      "chinese": "那一刻，我感覺自己終於有了歸屬",
+      "startSeconds": 131.28,
+      "endSeconds": 135.46
+    },
+    {
+      "lineId": "line-34",
+      "english": "I had a feeling I could be someone, be someone, be someone",
+      "chinese": "我感覺自己終於能活出個樣子，成為一個有出息的人，真正活出自己",
+      "startSeconds": 137.14,
+      "endSeconds": 142.56
+    },
+    {
+      "lineId": "line-35",
+      "english": "You got a fast car",
+      "chinese": "你有一輛跑得飛快的車",
+      "startSeconds": 152.62,
+      "endSeconds": 154.08
+    },
+    {
+      "lineId": "line-36",
+      "english": "We go cruising, entertain ourselves",
+      "chinese": "我們開著車四處兜風，享受片刻的快樂",
+      "startSeconds": 154.08,
+      "endSeconds": 156.64
+    },
+    {
+      "lineId": "line-37",
+      "english": "You still ain't got a job",
+      "chinese": "可你到現在還是沒有找到工作",
+      "startSeconds": 156.64,
+      "endSeconds": 158.46
+    },
+    {
+      "lineId": "line-38",
+      "english": "And I work in a market as a checkout girl",
+      "chinese": "而我在超市當收銀員",
+      "startSeconds": 158.46,
+      "endSeconds": 161.24
+    },
+    {
+      "lineId": "line-39",
+      "english": "I know things will get better",
+      "chinese": "我相信日子總會慢慢好起來",
+      "startSeconds": 161.24,
+      "endSeconds": 163.26
+    },
+    {
+      "lineId": "line-40",
+      "english": "You'll find work and I'll get promoted",
+      "chinese": "你會找到工作，而我也會獲得升遷",
+      "startSeconds": 163.26,
+      "endSeconds": 165.9
+    },
+    {
+      "lineId": "line-41",
+      "english": "We'll move out of the shelter",
+      "chinese": "到時我們就能搬離收容所",
+      "startSeconds": 166.2,
+      "endSeconds": 167.74
+    },
+    {
+      "lineId": "line-42",
+      "english": "Buy a bigger house and live in the suburbs",
+      "chinese": "買一棟更大的房子，搬到郊區生活",
+      "startSeconds": 167.74,
+      "endSeconds": 170.68
+    },
+    {
+      "lineId": "line-43",
+      "english": "So remember when we were driving driving in your car",
+      "chinese": "還記得嗎？那時我們開著你的車，一路飛馳",
+      "startSeconds": 178.82,
+      "endSeconds": 181.96
+    },
+    {
+      "lineId": "line-44",
+      "english": "Speed so fast I felt like I was drunk",
+      "chinese": "車速快得讓我彷彿醉了一般",
+      "startSeconds": 181.96,
+      "endSeconds": 184.32
+    },
+    {
+      "lineId": "line-45",
+      "english": "City lights lay out before us",
+      "chinese": "城市的燈火在我們眼前鋪展開來",
+      "startSeconds": 184.32,
+      "endSeconds": 186.28
+    },
+    {
+      "lineId": "line-46",
+      "english": "And your arm felt nice wrapped 'round my shoulder",
+      "chinese": "而你的手臂環繞著我的肩膀，那感覺如此溫暖",
+      "startSeconds": 186.28,
+      "endSeconds": 188.82
+    },
+    {
+      "lineId": "line-47",
+      "english": "And I had a feeling that I belonged",
+      "chinese": "那一刻，我感覺自己終於有了歸屬",
+      "startSeconds": 188.82,
+      "endSeconds": 193.14
+    },
+    {
+      "lineId": "line-48",
+      "english": "I had a feeling I could be someone, be someone, be someone",
+      "chinese": "我感覺自己終於能活出個樣子，成為一個有出息的人，真正活出自己",
+      "startSeconds": 193.14,
+      "endSeconds": 200.3
+    },
+    {
+      "lineId": "line-49",
+      "english": "You got a fast car",
+      "chinese": "你有一輛跑得飛快的車",
+      "startSeconds": 209.54,
+      "endSeconds": 211.28
+    },
+    {
+      "lineId": "line-50",
+      "english": "I got a job that pays all our bills",
+      "chinese": "我找到了一份工作，足以支付我們所有的生活開銷",
+      "startSeconds": 211.82,
+      "endSeconds": 214.02
+    },
+    {
+      "lineId": "line-51",
+      "english": "You stay out drinking late at the bar",
+      "chinese": "而你卻總是在酒吧喝酒，直到深夜才回家"
+    },
+    {
+      "lineId": "line-52",
+      "english": "See more of your friends than you do of your kids",
+      "chinese": "你見朋友的次數，甚至比見自己孩子還多",
+      "startSeconds": 216.32,
+      "endSeconds": 218.64
+    },
+    {
+      "lineId": "line-53",
+      "english": "I'd always hoped for better",
+      "chinese": "我一直盼望著能過上更好的生活",
+      "startSeconds": 218.64,
+      "endSeconds": 220.52
+    },
+    {
+      "lineId": "line-54",
+      "english": "Thought maybe together you and me would find it",
+      "chinese": "曾以為只要你我攜手，就能找到那樣的幸福",
+      "startSeconds": 220.52,
+      "endSeconds": 223.22
+    },
+    {
+      "lineId": "line-55",
+      "english": "I got no plans I ain't going nowhere",
+      "chinese": "如今我已沒有任何計畫，也不打算再離開",
+      "startSeconds": 223.46,
+      "endSeconds": 225.42
+    },
+    {
+      "lineId": "line-56",
+      "english": "So take your fast car and keep on driving",
+      "chinese": "所以，開著你的快車走吧，就這樣一直往前開",
+      "startSeconds": 225.42,
+      "endSeconds": 228.0
+    },
+    {
+      "lineId": "line-57",
+      "english": "So remember when we were driving driving in your car",
+      "chinese": "還記得嗎？那時我們開著你的車，一路飛馳",
+      "startSeconds": 235.7,
+      "endSeconds": 239.18
+    },
+    {
+      "lineId": "line-58",
+      "english": "Speed so fast I felt like I was drunk",
+      "chinese": "車速快得讓我彷彿醉了一般",
+      "startSeconds": 239.52,
+      "endSeconds": 241.5
+    },
+    {
+      "lineId": "line-59",
+      "english": "City lights lay out before us",
+      "chinese": "城市的燈火在我們眼前鋪展開來",
+      "startSeconds": 241.5,
+      "endSeconds": 243.9
+    },
+    {
+      "lineId": "line-60",
+      "english": "And your arm felt nice wrapped 'round my shoulder",
+      "chinese": "而你的手臂環繞著我的肩膀，那感覺如此溫暖",
+      "startSeconds": 243.9,
+      "endSeconds": 246.0
+    },
+    {
+      "lineId": "line-61",
+      "english": "And I had a feeling that I belonged",
+      "chinese": "那一刻，我感覺自己終於有了歸屬",
+      "startSeconds": 246.0,
+      "endSeconds": 250.34
+    },
+    {
+      "lineId": "line-62",
+      "english": "I had a feeling I could be someone, be someone, be someone",
+      "chinese": "我感覺自己終於能活出個樣子，成為一個有出息的人，真正活出自己",
+      "startSeconds": 251.38,
+      "endSeconds": 257.44
+    },
+    {
+      "lineId": "line-63",
+      "english": "You got a fast car",
+      "chinese": "你有一輛跑得飛快的車",
+      "startSeconds": 266.58,
+      "endSeconds": 267.92
+    },
+    {
+      "lineId": "line-64",
+      "english": "Is it fast enough so you can fly away?",
+      "chinese": "它夠快嗎？能讓你獨自遠走高飛嗎？",
+      "startSeconds": 268.56,
+      "endSeconds": 271.18
+    },
+    {
+      "lineId": "line-65",
+      "english": "You gotta make a decision",
+      "chinese": "你必須作出決定",
+      "startSeconds": 271.64,
+      "endSeconds": 273.06
+    },
+    {
+      "lineId": "line-66",
+      "english": "Leave tonight or live and die this way",
+      "chinese": "要麼今晚就離開，要麼一輩子困在這樣的生活裡，直到死去",
+      "startSeconds": 273.06,
+      "endSeconds": 276.02
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "You got a {{blank}}",
+          "options": [
+            "last car",
+            "fast car",
+            "fast train"
+          ],
+          "answer": "fast car",
+          "promptZh": "你有一輛跑得飛快的車"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "I want a {{blank}} to anywhere",
+          "options": [
+            "picture",
+            "ticket",
+            "letter"
+          ],
+          "answer": "ticket",
+          "promptZh": "我只想要一張能帶我去任何地方的車票"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "Maybe we {{blank}}",
+          "options": [
+            "make a deal",
+            "make a wish",
+            "make a plan"
+          ],
+          "answer": "make a deal",
+          "promptZh": "或許我們可以達成一個約定"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "Maybe together we can {{blank}}",
+          "options": [
+            "go somewhere",
+            "get somewhere",
+            "get nowhere"
+          ],
+          "answer": "get somewhere",
+          "promptZh": "或許只要我們在一起，就能闖出一片天地"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "Any place is {{blank}}",
+          "options": [
+            "bitter",
+            "better",
+            "bigger"
+          ],
+          "answer": "better",
+          "promptZh": "無論去哪裡，都會比這裡更好"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "Starting from zero got {{blank}}",
+          "options": [
+            "nothing to lose",
+            "something to lose",
+            "nothing to prove"
+          ],
+          "answer": "nothing to lose",
+          "promptZh": "反正一無所有，從零開始也沒什麼可失去的"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "Maybe we'll {{blank}}",
+          "options": [
+            "make money",
+            "make something",
+            "make nothing"
+          ],
+          "answer": "make something",
+          "promptZh": "或許我們能一起闖出些名堂"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "Me myself I got {{blank}}",
+          "options": [
+            "something to prove",
+            "nothing to lose",
+            "nothing to prove"
+          ],
+          "answer": "nothing to prove",
+          "promptZh": "至於我，已沒有什麼需要向誰證明"
+        },
+        {
+          "number": 9,
+          "lineId": "line-10",
+          "prompt": "I got a plan to {{blank}}",
+          "options": [
+            "get us over here",
+            "get me out of here",
+            "get us out of here"
+          ],
+          "answer": "get us out of here",
+          "promptZh": "而我有個計畫，能帶我們逃離這個地方"
+        },
+        {
+          "number": 10,
+          "lineId": "line-11",
+          "prompt": "I been working at the {{blank}}",
+          "options": [
+            "convenience store",
+            "grocery store",
+            "convenient store"
+          ],
+          "answer": "convenience store",
+          "promptZh": "我一直在便利商店工作"
+        },
+        {
+          "number": 11,
+          "lineId": "line-12",
+          "prompt": "Managed to save just a {{blank}}",
+          "options": [
+            "little bit of time",
+            "little bit of money",
+            "little bit of luck"
+          ],
+          "answer": "little bit of money",
+          "promptZh": "好不容易才存下了一點錢"
+        },
+        {
+          "number": 12,
+          "lineId": "line-14",
+          "prompt": "Just 'cross the {{blank}} and into the city",
+          "options": [
+            "border",
+            "corner",
+            "water"
+          ],
+          "answer": "border",
+          "promptZh": "只要越過邊界，進到城裡就好"
+        },
+        {
+          "number": 13,
+          "lineId": "line-15",
+          "prompt": "You and I can {{blank}}",
+          "options": [
+            "both get jobs",
+            "both have jobs",
+            "both find love"
+          ],
+          "answer": "both get jobs",
+          "promptZh": "你和我都能找到工作"
+        },
+        {
+          "number": 14,
+          "lineId": "line-16",
+          "prompt": "And finally see what it means to {{blank}}",
+          "options": [
+            "keep living",
+            "be leaving",
+            "be living"
+          ],
+          "answer": "be living",
+          "promptZh": "終於體會到，什麼才是真正的生活"
+        },
+        {
+          "number": 15,
+          "lineId": "line-17",
+          "prompt": "See my old man's {{blank}}",
+          "options": [
+            "had a problem",
+            "got a problem",
+            "got a promise"
+          ],
+          "answer": "got a problem",
+          "promptZh": "你知道嗎，我父親有個難以擺脫的問題"
+        },
+        {
+          "number": 16,
+          "lineId": "line-18",
+          "prompt": "He live with {{blank}} that's the way it is",
+          "options": [
+            "the trouble",
+            "a bottle",
+            "the bottle"
+          ],
+          "answer": "the bottle",
+          "promptZh": "他整天與酒瓶為伴，生活就是這副模樣"
+        },
+        {
+          "number": 17,
+          "lineId": "line-21",
+          "prompt": "My mama went off and {{blank}}",
+          "options": [
+            "met him",
+            "let him",
+            "left him"
+          ],
+          "answer": "left him",
+          "promptZh": "我母親離開了他，頭也不回地走了"
+        },
+        {
+          "number": 18,
+          "lineId": "line-24",
+          "prompt": "So I {{blank}} and that's what I did",
+          "options": [
+            "quit school",
+            "left town",
+            "missed school"
+          ],
+          "answer": "quit school",
+          "promptZh": "於是我輟了學，真的留下來照顧他"
+        },
+        {
+          "number": 19,
+          "lineId": "line-26",
+          "prompt": "Is it fast enough so we can {{blank}}?",
+          "options": [
+            "fly away",
+            "drive away",
+            "run away"
+          ],
+          "answer": "fly away",
+          "promptZh": "它夠快嗎？能帶著我們遠走高飛嗎？"
+        },
+        {
+          "number": 20,
+          "lineId": "line-28",
+          "prompt": "{{blank}} or live and die this way",
+          "options": [
+            "Leave tomorrow",
+            "Live tonight",
+            "Leave tonight"
+          ],
+          "answer": "Leave tonight",
+          "promptZh": "要麼今晚就離開，要麼一輩子困在這樣的生活裡，直到死去"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "You got a {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I want a {{q:2}} to anywhere"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Maybe we {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Maybe together we can {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Any place is {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Starting from zero got {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Maybe we'll {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Me myself I got {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "You got a fast car"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I got a plan to {{q:9}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I been working at the {{q:10}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Managed to save just a {{q:11}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Won't have to drive too far"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Just 'cross the {{q:12}} and into the city"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "You and I can {{q:13}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And finally see what it means to {{q:14}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "See my old man's {{q:15}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "He live with {{q:16}} that's the way it is"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "He says his body's too old for working"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "His body's too young to look like his"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "My mama went off and {{q:17}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "She wanted more from life than he could give"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I said somebody's got to take care of him"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "So I {{q:18}} and that's what I did"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You got a fast car"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Is it fast enough so we can {{q:19}}?"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "We gotta make a decision"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:20}} or live and die this way"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "So remember when we were driving driving in your car"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Speed so fast I felt like I was drunk"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "City lights lay out before us"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "And your arm felt nice wrapped 'round my shoulder"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And I had a feeling that I belonged"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I had a feeling I could be someone, be someone, be someone"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "You got a fast car"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "We go cruising, entertain ourselves"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "You still ain't got a job"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "And I work in a market as a checkout girl"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I know things will get better"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You'll find work and I'll get promoted"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "We'll move out of the shelter"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Buy a bigger house and live in the suburbs"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "So remember when we were driving driving in your car"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Speed so fast I felt like I was drunk"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "City lights lay out before us"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "And your arm felt nice wrapped 'round my shoulder"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "And I had a feeling that I belonged"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I had a feeling I could be someone, be someone, be someone"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "You got a fast car"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "I got a job that pays all our bills"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "You stay out drinking late at the bar"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "See more of your friends than you do of your kids"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "I'd always hoped for better"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Thought maybe together you and me would find it"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "I got no plans I ain't going nowhere"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "So take your fast car and keep on driving"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "So remember when we were driving driving in your car"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Speed so fast I felt like I was drunk"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "City lights lay out before us"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "And your arm felt nice wrapped 'round my shoulder"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "And I had a feeling that I belonged"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "I had a feeling I could be someone, be someone, be someone"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "You got a fast car"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "Is it fast enough so you can fly away?"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "You gotta make a decision"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "Leave tonight or live and die this way"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "You got a {{blank}}",
+          "options": [
+            "last car",
+            "fast train",
+            "fast car"
+          ],
+          "answer": "fast car",
+          "promptZh": "你有一輛跑得飛快的車"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "I want a {{blank}} to anywhere",
+          "options": [
+            "ticket",
+            "picture",
+            "letter"
+          ],
+          "answer": "ticket",
+          "promptZh": "我只想要一張能帶我去任何地方的車票"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "Maybe we {{blank}}",
+          "options": [
+            "make a wish",
+            "make a plan",
+            "make a deal"
+          ],
+          "answer": "make a deal",
+          "promptZh": "或許我們可以達成一個約定"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "Maybe together we can {{blank}}",
+          "options": [
+            "go somewhere",
+            "get somewhere",
+            "get nowhere"
+          ],
+          "answer": "get somewhere",
+          "promptZh": "或許只要我們在一起，就能闖出一片天地"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "Any place is {{blank}}",
+          "options": [
+            "better",
+            "bitter",
+            "bigger"
+          ],
+          "answer": "better",
+          "promptZh": "無論去哪裡，都會比這裡更好"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "Starting from zero got {{blank}}",
+          "options": [
+            "nothing to lose",
+            "something to lose",
+            "nothing to prove"
+          ],
+          "answer": "nothing to lose",
+          "promptZh": "反正一無所有，從零開始也沒什麼可失去的"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "Maybe we'll {{blank}}",
+          "options": [
+            "make money",
+            "make something",
+            "make nothing"
+          ],
+          "answer": "make something",
+          "promptZh": "或許我們能一起闖出些名堂"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "Me myself I got {{blank}}",
+          "options": [
+            "nothing to prove",
+            "something to prove",
+            "nothing to lose"
+          ],
+          "answer": "nothing to prove",
+          "promptZh": "至於我，已沒有什麼需要向誰證明"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "You got a {{blank}}",
+          "options": [
+            "last car",
+            "fast train",
+            "fast car"
+          ],
+          "answer": "fast car",
+          "promptZh": "你有一輛跑得飛快的車"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "I got a plan to {{blank}}",
+          "options": [
+            "get us out of here",
+            "get us over here",
+            "get me out of here"
+          ],
+          "answer": "get us out of here",
+          "promptZh": "而我有個計畫，能帶我們逃離這個地方"
+        },
+        {
+          "number": 11,
+          "lineId": "line-11",
+          "prompt": "I been working at the {{blank}}",
+          "options": [
+            "grocery store",
+            "convenience store",
+            "convenient store"
+          ],
+          "answer": "convenience store",
+          "promptZh": "我一直在便利商店工作"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "Managed to save just a {{blank}}",
+          "options": [
+            "little bit of time",
+            "little bit of money",
+            "little bit of luck"
+          ],
+          "answer": "little bit of money",
+          "promptZh": "好不容易才存下了一點錢"
+        },
+        {
+          "number": 13,
+          "lineId": "line-13",
+          "prompt": "Won't have to {{blank}}",
+          "options": [
+            "drive too far",
+            "drive so far",
+            "drive too fast"
+          ],
+          "answer": "drive too far",
+          "promptZh": "我們不必開得太遠"
+        },
+        {
+          "number": 14,
+          "lineId": "line-14",
+          "prompt": "Just 'cross the {{blank}} and into the city",
+          "options": [
+            "border",
+            "corner",
+            "water"
+          ],
+          "answer": "border",
+          "promptZh": "只要越過邊界，進到城裡就好"
+        },
+        {
+          "number": 15,
+          "lineId": "line-15",
+          "prompt": "You and I can {{blank}}",
+          "options": [
+            "both have jobs",
+            "both find love",
+            "both get jobs"
+          ],
+          "answer": "both get jobs",
+          "promptZh": "你和我都能找到工作"
+        },
+        {
+          "number": 16,
+          "lineId": "line-16",
+          "prompt": "And finally see what it means to {{blank}}",
+          "options": [
+            "keep living",
+            "be living",
+            "be leaving"
+          ],
+          "answer": "be living",
+          "promptZh": "終於體會到，什麼才是真正的生活"
+        },
+        {
+          "number": 17,
+          "lineId": "line-17",
+          "prompt": "See my old man's {{blank}}",
+          "options": [
+            "had a problem",
+            "got a promise",
+            "got a problem"
+          ],
+          "answer": "got a problem",
+          "promptZh": "你知道嗎，我父親有個難以擺脫的問題"
+        },
+        {
+          "number": 18,
+          "lineId": "line-18",
+          "prompt": "He live with {{blank}} that's the way it is",
+          "options": [
+            "the bottle",
+            "the trouble",
+            "a bottle"
+          ],
+          "answer": "the bottle",
+          "promptZh": "他整天與酒瓶為伴，生活就是這副模樣"
+        },
+        {
+          "number": 19,
+          "lineId": "line-19",
+          "prompt": "He says his body's {{blank}}",
+          "options": [
+            "too young for working",
+            "too old for working",
+            "too old for walking"
+          ],
+          "answer": "too old for working",
+          "promptZh": "他說自己的身體已經老得無法工作"
+        },
+        {
+          "number": 20,
+          "lineId": "line-20",
+          "prompt": "His body's {{blank}} to look like his",
+          "options": [
+            "too old",
+            "so young",
+            "too young"
+          ],
+          "answer": "too young",
+          "promptZh": "可他明明還年輕，身體卻已衰敗得不像話"
+        },
+        {
+          "number": 21,
+          "lineId": "line-21",
+          "prompt": "My mama went off and {{blank}}",
+          "options": [
+            "met him",
+            "left him",
+            "let him"
+          ],
+          "answer": "left him",
+          "promptZh": "我母親離開了他，頭也不回地走了"
+        },
+        {
+          "number": 22,
+          "lineId": "line-22",
+          "prompt": "She wanted {{blank}} than he could give",
+          "options": [
+            "more in life",
+            "less from life",
+            "more from life"
+          ],
+          "answer": "more from life",
+          "promptZh": "她渴望的生活，遠遠超過他所能給予的"
+        },
+        {
+          "number": 23,
+          "lineId": "line-23",
+          "prompt": "I said somebody's got to {{blank}}",
+          "options": [
+            "take care for him",
+            "take care of him",
+            "stay close to him"
+          ],
+          "answer": "take care of him",
+          "promptZh": "我心想，總得有人留下來照顧他"
+        },
+        {
+          "number": 24,
+          "lineId": "line-24",
+          "prompt": "So I {{blank}} and that's what I did",
+          "options": [
+            "quit school",
+            "left town",
+            "missed school"
+          ],
+          "answer": "quit school",
+          "promptZh": "於是我輟了學，真的留下來照顧他"
+        },
+        {
+          "number": 25,
+          "lineId": "line-26",
+          "prompt": "Is it fast enough so we can {{blank}}?",
+          "options": [
+            "drive away",
+            "run away",
+            "fly away"
+          ],
+          "answer": "fly away",
+          "promptZh": "它夠快嗎？能帶著我們遠走高飛嗎？"
+        },
+        {
+          "number": 26,
+          "lineId": "line-27",
+          "prompt": "We gotta {{blank}}",
+          "options": [
+            "make a decision",
+            "make a difference",
+            "take a decision"
+          ],
+          "answer": "make a decision",
+          "promptZh": "我們必須作出決定"
+        },
+        {
+          "number": 27,
+          "lineId": "line-28",
+          "prompt": "{{blank}} or live and die this way",
+          "options": [
+            "Leave tomorrow",
+            "Live tonight",
+            "Leave tonight"
+          ],
+          "answer": "Leave tonight",
+          "promptZh": "要麼今晚就離開，要麼一輩子困在這樣的生活裡，直到死去"
+        },
+        {
+          "number": 28,
+          "lineId": "line-29",
+          "prompt": "So remember when we were {{blank}} in your car",
+          "options": [
+            "driving slowly",
+            "driving driving",
+            "driving away"
+          ],
+          "answer": "driving driving",
+          "promptZh": "還記得嗎？那時我們開著你的車，一路飛馳"
+        },
+        {
+          "number": 29,
+          "lineId": "line-30",
+          "prompt": "Speed so fast I {{blank}}",
+          "options": [
+            "felt like I was dreaming",
+            "felt like I was young",
+            "felt like I was drunk"
+          ],
+          "answer": "felt like I was drunk",
+          "promptZh": "車速快得讓我彷彿醉了一般"
+        },
+        {
+          "number": 30,
+          "lineId": "line-31",
+          "prompt": "{{blank}} lay out before us",
+          "options": [
+            "City nights",
+            "City lights",
+            "Pretty lights"
+          ],
+          "answer": "City lights",
+          "promptZh": "城市的燈火在我們眼前鋪展開來"
+        },
+        {
+          "number": 31,
+          "lineId": "line-33",
+          "prompt": "And I had a feeling that {{blank}}",
+          "options": [
+            "I belonged",
+            "I was alone",
+            "I was strong"
+          ],
+          "answer": "I belonged",
+          "promptZh": "那一刻，我感覺自己終於有了歸屬"
+        },
+        {
+          "number": 32,
+          "lineId": "line-34",
+          "prompt": "I had a feeling I could {{blank}}, be someone, be someone",
+          "options": [
+            "see someone",
+            "be someone",
+            "need someone"
+          ],
+          "answer": "be someone",
+          "promptZh": "我感覺自己終於能活出個樣子，成為一個有出息的人，真正活出自己"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "You got a {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I want a {{q:2}} to anywhere"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Maybe we {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Maybe together we can {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Any place is {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Starting from zero got {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Maybe we'll {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Me myself I got {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "You got a {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I got a plan to {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I been working at the {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Managed to save just a {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Won't have to {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Just 'cross the {{q:14}} and into the city"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "You and I can {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And finally see what it means to {{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "See my old man's {{q:17}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "He live with {{q:18}} that's the way it is"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "He says his body's {{q:19}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "His body's {{q:20}} to look like his"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "My mama went off and {{q:21}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "She wanted {{q:22}} than he could give"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I said somebody's got to {{q:23}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "So I {{q:24}} and that's what I did"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You got a fast car"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Is it fast enough so we can {{q:25}}?"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "We gotta {{q:26}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:27}} or live and die this way"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "So remember when we were {{q:28}} in your car"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Speed so fast I {{q:29}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:30}} lay out before us"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "And your arm felt nice wrapped 'round my shoulder"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And I had a feeling that {{q:31}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I had a feeling I could {{q:32}}, be someone, be someone"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "You got a fast car"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "We go cruising, entertain ourselves"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "You still ain't got a job"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "And I work in a market as a checkout girl"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I know things will get better"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You'll find work and I'll get promoted"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "We'll move out of the shelter"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Buy a bigger house and live in the suburbs"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "So remember when we were driving driving in your car"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Speed so fast I felt like I was drunk"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "City lights lay out before us"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "And your arm felt nice wrapped 'round my shoulder"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "And I had a feeling that I belonged"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I had a feeling I could be someone, be someone, be someone"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "You got a fast car"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "I got a job that pays all our bills"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "You stay out drinking late at the bar"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "See more of your friends than you do of your kids"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "I'd always hoped for better"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Thought maybe together you and me would find it"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "I got no plans I ain't going nowhere"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "So take your fast car and keep on driving"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "So remember when we were driving driving in your car"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Speed so fast I felt like I was drunk"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "City lights lay out before us"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "And your arm felt nice wrapped 'round my shoulder"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "And I had a feeling that I belonged"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "I had a feeling I could be someone, be someone, be someone"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "You got a fast car"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "Is it fast enough so you can fly away?"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "You gotta make a decision"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "Leave tonight or live and die this way"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "You got a {{blank}}",
+          "options": [
+            "last car",
+            "fast train",
+            "fast car"
+          ],
+          "answer": "fast car",
+          "promptZh": "你有一輛跑得飛快的車"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "I want a {{blank}} to anywhere",
+          "options": [
+            "picture",
+            "ticket",
+            "letter"
+          ],
+          "answer": "ticket",
+          "promptZh": "我只想要一張能帶我去任何地方的車票"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "Maybe we {{blank}}",
+          "options": [
+            "make a wish",
+            "make a plan",
+            "make a deal"
+          ],
+          "answer": "make a deal",
+          "promptZh": "或許我們可以達成一個約定"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "Maybe together we can {{blank}}",
+          "options": [
+            "go somewhere",
+            "get somewhere",
+            "get nowhere"
+          ],
+          "answer": "get somewhere",
+          "promptZh": "或許只要我們在一起，就能闖出一片天地"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "Any place is {{blank}}",
+          "options": [
+            "better",
+            "bitter",
+            "bigger"
+          ],
+          "answer": "better",
+          "promptZh": "無論去哪裡，都會比這裡更好"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "Starting from zero got {{blank}}",
+          "options": [
+            "nothing to lose",
+            "something to lose",
+            "nothing to prove"
+          ],
+          "answer": "nothing to lose",
+          "promptZh": "反正一無所有，從零開始也沒什麼可失去的"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "Maybe we'll {{blank}}",
+          "options": [
+            "make money",
+            "make something",
+            "make nothing"
+          ],
+          "answer": "make something",
+          "promptZh": "或許我們能一起闖出些名堂"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "Me myself I got {{blank}}",
+          "options": [
+            "something to prove",
+            "nothing to prove",
+            "nothing to lose"
+          ],
+          "answer": "nothing to prove",
+          "promptZh": "至於我，已沒有什麼需要向誰證明"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "You got a {{blank}}",
+          "options": [
+            "last car",
+            "fast train",
+            "fast car"
+          ],
+          "answer": "fast car",
+          "promptZh": "你有一輛跑得飛快的車"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "I got a plan to {{blank}}",
+          "options": [
+            "get us over here",
+            "get us out of here",
+            "get me out of here"
+          ],
+          "answer": "get us out of here",
+          "promptZh": "而我有個計畫，能帶我們逃離這個地方"
+        },
+        {
+          "number": 11,
+          "lineId": "line-11",
+          "prompt": "I been working at the {{blank}}",
+          "options": [
+            "grocery store",
+            "convenience store",
+            "convenient store"
+          ],
+          "answer": "convenience store",
+          "promptZh": "我一直在便利商店工作"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "Managed to save just a {{blank}}",
+          "options": [
+            "little bit of time",
+            "little bit of luck",
+            "little bit of money"
+          ],
+          "answer": "little bit of money",
+          "promptZh": "好不容易才存下了一點錢"
+        },
+        {
+          "number": 13,
+          "lineId": "line-13",
+          "prompt": "Won't have to {{blank}}",
+          "options": [
+            "drive too far",
+            "drive so far",
+            "drive too fast"
+          ],
+          "answer": "drive too far",
+          "promptZh": "我們不必開得太遠"
+        },
+        {
+          "number": 14,
+          "lineId": "line-14",
+          "prompt": "Just 'cross the {{blank}} and into the city",
+          "options": [
+            "border",
+            "corner",
+            "water"
+          ],
+          "answer": "border",
+          "promptZh": "只要越過邊界，進到城裡就好"
+        },
+        {
+          "number": 15,
+          "lineId": "line-15",
+          "prompt": "You and I can {{blank}}",
+          "options": [
+            "both have jobs",
+            "both find love",
+            "both get jobs"
+          ],
+          "answer": "both get jobs",
+          "promptZh": "你和我都能找到工作"
+        },
+        {
+          "number": 16,
+          "lineId": "line-16",
+          "prompt": "And finally see what it means to {{blank}}",
+          "options": [
+            "keep living",
+            "be living",
+            "be leaving"
+          ],
+          "answer": "be living",
+          "promptZh": "終於體會到，什麼才是真正的生活"
+        },
+        {
+          "number": 17,
+          "lineId": "line-17",
+          "prompt": "See my old man's {{blank}}",
+          "options": [
+            "had a problem",
+            "got a problem",
+            "got a promise"
+          ],
+          "answer": "got a problem",
+          "promptZh": "你知道嗎，我父親有個難以擺脫的問題"
+        },
+        {
+          "number": 18,
+          "lineId": "line-18",
+          "prompt": "He live with {{blank}} that's the way it is",
+          "options": [
+            "the bottle",
+            "the trouble",
+            "a bottle"
+          ],
+          "answer": "the bottle",
+          "promptZh": "他整天與酒瓶為伴，生活就是這副模樣"
+        },
+        {
+          "number": 19,
+          "lineId": "line-19",
+          "prompt": "He says his body's {{blank}}",
+          "options": [
+            "too old for working",
+            "too young for working",
+            "too old for walking"
+          ],
+          "answer": "too old for working",
+          "promptZh": "他說自己的身體已經老得無法工作"
+        },
+        {
+          "number": 20,
+          "lineId": "line-20",
+          "prompt": "His body's {{blank}} to look like his",
+          "options": [
+            "too old",
+            "too young",
+            "so young"
+          ],
+          "answer": "too young",
+          "promptZh": "可他明明還年輕，身體卻已衰敗得不像話"
+        },
+        {
+          "number": 21,
+          "lineId": "line-21",
+          "prompt": "My mama went off and {{blank}}",
+          "options": [
+            "left him",
+            "met him",
+            "let him"
+          ],
+          "answer": "left him",
+          "promptZh": "我母親離開了他，頭也不回地走了"
+        },
+        {
+          "number": 22,
+          "lineId": "line-22",
+          "prompt": "She wanted {{blank}} than he could give",
+          "options": [
+            "more in life",
+            "more from life",
+            "less from life"
+          ],
+          "answer": "more from life",
+          "promptZh": "她渴望的生活，遠遠超過他所能給予的"
+        },
+        {
+          "number": 23,
+          "lineId": "line-23",
+          "prompt": "I said somebody's got to {{blank}}",
+          "options": [
+            "take care for him",
+            "stay close to him",
+            "take care of him"
+          ],
+          "answer": "take care of him",
+          "promptZh": "我心想，總得有人留下來照顧他"
+        },
+        {
+          "number": 24,
+          "lineId": "line-24",
+          "prompt": "So I {{blank}} and that's what I did",
+          "options": [
+            "left town",
+            "missed school",
+            "quit school"
+          ],
+          "answer": "quit school",
+          "promptZh": "於是我輟了學，真的留下來照顧他"
+        },
+        {
+          "number": 25,
+          "lineId": "line-26",
+          "prompt": "Is it fast enough so we can {{blank}}?",
+          "options": [
+            "drive away",
+            "fly away",
+            "run away"
+          ],
+          "answer": "fly away",
+          "promptZh": "它夠快嗎？能帶著我們遠走高飛嗎？"
+        },
+        {
+          "number": 26,
+          "lineId": "line-27",
+          "prompt": "We gotta {{blank}}",
+          "options": [
+            "make a difference",
+            "take a decision",
+            "make a decision"
+          ],
+          "answer": "make a decision",
+          "promptZh": "我們必須作出決定"
+        },
+        {
+          "number": 27,
+          "lineId": "line-28",
+          "prompt": "{{blank}} or live and die this way",
+          "options": [
+            "Leave tonight",
+            "Leave tomorrow",
+            "Live tonight"
+          ],
+          "answer": "Leave tonight",
+          "promptZh": "要麼今晚就離開，要麼一輩子困在這樣的生活裡，直到死去"
+        },
+        {
+          "number": 28,
+          "lineId": "line-29",
+          "prompt": "So remember when we were {{blank}} in your car",
+          "options": [
+            "driving slowly",
+            "driving away",
+            "driving driving"
+          ],
+          "answer": "driving driving",
+          "promptZh": "還記得嗎？那時我們開著你的車，一路飛馳"
+        },
+        {
+          "number": 29,
+          "lineId": "line-30",
+          "prompt": "Speed so fast I {{blank}}",
+          "options": [
+            "felt like I was drunk",
+            "felt like I was dreaming",
+            "felt like I was young"
+          ],
+          "answer": "felt like I was drunk",
+          "promptZh": "車速快得讓我彷彿醉了一般"
+        },
+        {
+          "number": 30,
+          "lineId": "line-31",
+          "prompt": "{{blank}} lay out before us",
+          "options": [
+            "City nights",
+            "City lights",
+            "Pretty lights"
+          ],
+          "answer": "City lights",
+          "promptZh": "城市的燈火在我們眼前鋪展開來"
+        },
+        {
+          "number": 31,
+          "lineId": "line-32",
+          "prompt": "And your arm felt nice {{blank}}",
+          "options": [
+            "wrapped 'round my shoulder",
+            "wrapped around my waist",
+            "resting on my shoulder"
+          ],
+          "answer": "wrapped 'round my shoulder",
+          "promptZh": "而你的手臂環繞著我的肩膀，那感覺如此溫暖"
+        },
+        {
+          "number": 32,
+          "lineId": "line-33",
+          "prompt": "And I had a feeling that {{blank}}",
+          "options": [
+            "I was alone",
+            "I was strong",
+            "I belonged"
+          ],
+          "answer": "I belonged",
+          "promptZh": "那一刻，我感覺自己終於有了歸屬"
+        },
+        {
+          "number": 33,
+          "lineId": "line-34",
+          "prompt": "I had a feeling I could {{blank}}, be someone, be someone",
+          "options": [
+            "be someone",
+            "see someone",
+            "need someone"
+          ],
+          "answer": "be someone",
+          "promptZh": "我感覺自己終於能活出個樣子，成為一個有出息的人，真正活出自己"
+        },
+        {
+          "number": 34,
+          "lineId": "line-36",
+          "prompt": "We {{blank}}, entertain ourselves",
+          "options": [
+            "go cruising",
+            "go running",
+            "keep cruising"
+          ],
+          "answer": "go cruising",
+          "promptZh": "我們開著車四處兜風，享受片刻的快樂"
+        },
+        {
+          "number": 35,
+          "lineId": "line-37",
+          "prompt": "You still {{blank}}",
+          "options": [
+            "haven't got a car",
+            "ain't got a job",
+            "ain't got a home"
+          ],
+          "answer": "ain't got a job",
+          "promptZh": "可你到現在還是沒有找到工作"
+        },
+        {
+          "number": 36,
+          "lineId": "line-38",
+          "prompt": "And I work in a market as a {{blank}}",
+          "options": [
+            "check-in girl",
+            "checkout clerk",
+            "checkout girl"
+          ],
+          "answer": "checkout girl",
+          "promptZh": "而我在超市當收銀員"
+        },
+        {
+          "number": 37,
+          "lineId": "line-39",
+          "prompt": "I know {{blank}}",
+          "options": [
+            "things will be different",
+            "things could get worse",
+            "things will get better"
+          ],
+          "answer": "things will get better",
+          "promptZh": "我相信日子總會慢慢好起來"
+        },
+        {
+          "number": 38,
+          "lineId": "line-40",
+          "prompt": "You'll find work and I'll {{blank}}",
+          "options": [
+            "get promoted",
+            "get demoted",
+            "get rewarded"
+          ],
+          "answer": "get promoted",
+          "promptZh": "你會找到工作，而我也會獲得升遷"
+        },
+        {
+          "number": 39,
+          "lineId": "line-41",
+          "prompt": "We'll move out of {{blank}}",
+          "options": [
+            "the shelter",
+            "the cellar",
+            "the station"
+          ],
+          "answer": "the shelter",
+          "promptZh": "到時我們就能搬離收容所"
+        },
+        {
+          "number": 40,
+          "lineId": "line-42",
+          "prompt": "Buy a bigger house and live in {{blank}}",
+          "options": [
+            "the city",
+            "the countryside",
+            "the suburbs"
+          ],
+          "answer": "the suburbs",
+          "promptZh": "買一棟更大的房子，搬到郊區生活"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "You got a {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I want a {{q:2}} to anywhere"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Maybe we {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Maybe together we can {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Any place is {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Starting from zero got {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Maybe we'll {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Me myself I got {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "You got a {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I got a plan to {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I been working at the {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Managed to save just a {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Won't have to {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Just 'cross the {{q:14}} and into the city"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "You and I can {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And finally see what it means to {{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "See my old man's {{q:17}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "He live with {{q:18}} that's the way it is"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "He says his body's {{q:19}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "His body's {{q:20}} to look like his"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "My mama went off and {{q:21}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "She wanted {{q:22}} than he could give"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I said somebody's got to {{q:23}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "So I {{q:24}} and that's what I did"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You got a fast car"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Is it fast enough so we can {{q:25}}?"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "We gotta {{q:26}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:27}} or live and die this way"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "So remember when we were {{q:28}} in your car"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Speed so fast I {{q:29}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:30}} lay out before us"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "And your arm felt nice {{q:31}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And I had a feeling that {{q:32}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I had a feeling I could {{q:33}}, be someone, be someone"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "You got a fast car"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "We {{q:34}}, entertain ourselves"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "You still {{q:35}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "And I work in a market as a {{q:36}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I know {{q:37}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You'll find work and I'll {{q:38}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "We'll move out of {{q:39}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Buy a bigger house and live in {{q:40}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "So remember when we were driving driving in your car"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Speed so fast I felt like I was drunk"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "City lights lay out before us"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "And your arm felt nice wrapped 'round my shoulder"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "And I had a feeling that I belonged"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I had a feeling I could be someone, be someone, be someone"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "You got a fast car"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "I got a job that pays all our bills"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "You stay out drinking late at the bar"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "See more of your friends than you do of your kids"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "I'd always hoped for better"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Thought maybe together you and me would find it"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "I got no plans I ain't going nowhere"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "So take your fast car and keep on driving"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "So remember when we were driving driving in your car"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Speed so fast I felt like I was drunk"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "City lights lay out before us"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "And your arm felt nice wrapped 'round my shoulder"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "And I had a feeling that I belonged"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "I had a feeling I could be someone, be someone, be someone"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "You got a fast car"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "Is it fast enough so you can fly away?"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "You gotta make a decision"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "Leave tonight or live and die this way"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "You got a {{blank}}",
+          "options": [
+            "last car",
+            "fast train",
+            "fast car"
+          ],
+          "answer": "fast car",
+          "promptZh": "你有一輛跑得飛快的車"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "I want a {{blank}} to anywhere",
+          "options": [
+            "picture",
+            "ticket",
+            "letter"
+          ],
+          "answer": "ticket",
+          "promptZh": "我只想要一張能帶我去任何地方的車票"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "Maybe we {{blank}}",
+          "options": [
+            "make a deal",
+            "make a wish",
+            "make a plan"
+          ],
+          "answer": "make a deal",
+          "promptZh": "或許我們可以達成一個約定"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "Maybe together we can {{blank}}",
+          "options": [
+            "go somewhere",
+            "get somewhere",
+            "get nowhere"
+          ],
+          "answer": "get somewhere",
+          "promptZh": "或許只要我們在一起，就能闖出一片天地"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "Any place is {{blank}}",
+          "options": [
+            "better",
+            "bitter",
+            "bigger"
+          ],
+          "answer": "better",
+          "promptZh": "無論去哪裡，都會比這裡更好"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "Starting from zero got {{blank}}",
+          "options": [
+            "nothing to lose",
+            "something to lose",
+            "nothing to prove"
+          ],
+          "answer": "nothing to lose",
+          "promptZh": "反正一無所有，從零開始也沒什麼可失去的"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "Maybe we'll {{blank}}",
+          "options": [
+            "make money",
+            "make something",
+            "make nothing"
+          ],
+          "answer": "make something",
+          "promptZh": "或許我們能一起闖出些名堂"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "Me myself I got {{blank}}",
+          "options": [
+            "nothing to prove",
+            "something to prove",
+            "nothing to lose"
+          ],
+          "answer": "nothing to prove",
+          "promptZh": "至於我，已沒有什麼需要向誰證明"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "You got a {{blank}}",
+          "options": [
+            "last car",
+            "fast car",
+            "fast train"
+          ],
+          "answer": "fast car",
+          "promptZh": "你有一輛跑得飛快的車"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "I got a plan to {{blank}}",
+          "options": [
+            "get us out of here",
+            "get us over here",
+            "get me out of here"
+          ],
+          "answer": "get us out of here",
+          "promptZh": "而我有個計畫，能帶我們逃離這個地方"
+        },
+        {
+          "number": 11,
+          "lineId": "line-11",
+          "prompt": "I been working at the {{blank}}",
+          "options": [
+            "convenience store",
+            "grocery store",
+            "convenient store"
+          ],
+          "answer": "convenience store",
+          "promptZh": "我一直在便利商店工作"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "Managed to save just a {{blank}}",
+          "options": [
+            "little bit of time",
+            "little bit of money",
+            "little bit of luck"
+          ],
+          "answer": "little bit of money",
+          "promptZh": "好不容易才存下了一點錢"
+        },
+        {
+          "number": 13,
+          "lineId": "line-13",
+          "prompt": "Won't have to {{blank}}",
+          "options": [
+            "drive too far",
+            "drive so far",
+            "drive too fast"
+          ],
+          "answer": "drive too far",
+          "promptZh": "我們不必開得太遠"
+        },
+        {
+          "number": 14,
+          "lineId": "line-14",
+          "prompt": "Just 'cross the {{blank}} and into the city",
+          "options": [
+            "corner",
+            "border",
+            "water"
+          ],
+          "answer": "border",
+          "promptZh": "只要越過邊界，進到城裡就好"
+        },
+        {
+          "number": 15,
+          "lineId": "line-15",
+          "prompt": "You and I can {{blank}}",
+          "options": [
+            "both have jobs",
+            "both find love",
+            "both get jobs"
+          ],
+          "answer": "both get jobs",
+          "promptZh": "你和我都能找到工作"
+        },
+        {
+          "number": 16,
+          "lineId": "line-16",
+          "prompt": "And finally see what it means to {{blank}}",
+          "options": [
+            "keep living",
+            "be living",
+            "be leaving"
+          ],
+          "answer": "be living",
+          "promptZh": "終於體會到，什麼才是真正的生活"
+        },
+        {
+          "number": 17,
+          "lineId": "line-17",
+          "prompt": "See my old man's {{blank}}",
+          "options": [
+            "had a problem",
+            "got a promise",
+            "got a problem"
+          ],
+          "answer": "got a problem",
+          "promptZh": "你知道嗎，我父親有個難以擺脫的問題"
+        },
+        {
+          "number": 18,
+          "lineId": "line-18",
+          "prompt": "He live with {{blank}} that's the way it is",
+          "options": [
+            "the trouble",
+            "a bottle",
+            "the bottle"
+          ],
+          "answer": "the bottle",
+          "promptZh": "他整天與酒瓶為伴，生活就是這副模樣"
+        },
+        {
+          "number": 19,
+          "lineId": "line-19",
+          "prompt": "He says his body's {{blank}}",
+          "options": [
+            "too young for working",
+            "too old for working",
+            "too old for walking"
+          ],
+          "answer": "too old for working",
+          "promptZh": "他說自己的身體已經老得無法工作"
+        },
+        {
+          "number": 20,
+          "lineId": "line-20",
+          "prompt": "His body's {{blank}} to look like his",
+          "options": [
+            "too old",
+            "so young",
+            "too young"
+          ],
+          "answer": "too young",
+          "promptZh": "可他明明還年輕，身體卻已衰敗得不像話"
+        },
+        {
+          "number": 21,
+          "lineId": "line-21",
+          "prompt": "My mama went off and {{blank}}",
+          "options": [
+            "met him",
+            "left him",
+            "let him"
+          ],
+          "answer": "left him",
+          "promptZh": "我母親離開了他，頭也不回地走了"
+        },
+        {
+          "number": 22,
+          "lineId": "line-22",
+          "prompt": "She wanted {{blank}} than he could give",
+          "options": [
+            "more from life",
+            "more in life",
+            "less from life"
+          ],
+          "answer": "more from life",
+          "promptZh": "她渴望的生活，遠遠超過他所能給予的"
+        },
+        {
+          "number": 23,
+          "lineId": "line-23",
+          "prompt": "I said somebody's got to {{blank}}",
+          "options": [
+            "take care for him",
+            "stay close to him",
+            "take care of him"
+          ],
+          "answer": "take care of him",
+          "promptZh": "我心想，總得有人留下來照顧他"
+        },
+        {
+          "number": 24,
+          "lineId": "line-24",
+          "prompt": "So I {{blank}} and that's what I did",
+          "options": [
+            "quit school",
+            "left town",
+            "missed school"
+          ],
+          "answer": "quit school",
+          "promptZh": "於是我輟了學，真的留下來照顧他"
+        },
+        {
+          "number": 25,
+          "lineId": "line-26",
+          "prompt": "Is it fast enough so we can {{blank}}?",
+          "options": [
+            "fly away",
+            "drive away",
+            "run away"
+          ],
+          "answer": "fly away",
+          "promptZh": "它夠快嗎？能帶著我們遠走高飛嗎？"
+        },
+        {
+          "number": 26,
+          "lineId": "line-27",
+          "prompt": "We gotta {{blank}}",
+          "options": [
+            "make a difference",
+            "take a decision",
+            "make a decision"
+          ],
+          "answer": "make a decision",
+          "promptZh": "我們必須作出決定"
+        },
+        {
+          "number": 27,
+          "lineId": "line-28",
+          "prompt": "{{blank}} or live and die this way",
+          "options": [
+            "Leave tonight",
+            "Leave tomorrow",
+            "Live tonight"
+          ],
+          "answer": "Leave tonight",
+          "promptZh": "要麼今晚就離開，要麼一輩子困在這樣的生活裡，直到死去"
+        },
+        {
+          "number": 28,
+          "lineId": "line-29",
+          "prompt": "So remember when we were {{blank}} in your car",
+          "options": [
+            "driving slowly",
+            "driving driving",
+            "driving away"
+          ],
+          "answer": "driving driving",
+          "promptZh": "還記得嗎？那時我們開著你的車，一路飛馳"
+        },
+        {
+          "number": 29,
+          "lineId": "line-30",
+          "prompt": "Speed so fast I {{blank}}",
+          "options": [
+            "felt like I was drunk",
+            "felt like I was dreaming",
+            "felt like I was young"
+          ],
+          "answer": "felt like I was drunk",
+          "promptZh": "車速快得讓我彷彿醉了一般"
+        },
+        {
+          "number": 30,
+          "lineId": "line-31",
+          "prompt": "{{blank}} lay out before us",
+          "options": [
+            "City nights",
+            "Pretty lights",
+            "City lights"
+          ],
+          "answer": "City lights",
+          "promptZh": "城市的燈火在我們眼前鋪展開來"
+        },
+        {
+          "number": 31,
+          "lineId": "line-32",
+          "prompt": "And your arm felt nice {{blank}}",
+          "options": [
+            "wrapped around my waist",
+            "resting on my shoulder",
+            "wrapped 'round my shoulder"
+          ],
+          "answer": "wrapped 'round my shoulder",
+          "promptZh": "而你的手臂環繞著我的肩膀，那感覺如此溫暖"
+        },
+        {
+          "number": 32,
+          "lineId": "line-33",
+          "prompt": "And I had a feeling that {{blank}}",
+          "options": [
+            "I was alone",
+            "I belonged",
+            "I was strong"
+          ],
+          "answer": "I belonged",
+          "promptZh": "那一刻，我感覺自己終於有了歸屬"
+        },
+        {
+          "number": 33,
+          "lineId": "line-34",
+          "prompt": "I had a feeling I could {{blank}}, be someone, be someone",
+          "options": [
+            "see someone",
+            "need someone",
+            "be someone"
+          ],
+          "answer": "be someone",
+          "promptZh": "我感覺自己終於能活出個樣子，成為一個有出息的人，真正活出自己"
+        },
+        {
+          "number": 34,
+          "lineId": "line-36",
+          "prompt": "We {{blank}}, entertain ourselves",
+          "options": [
+            "go cruising",
+            "go running",
+            "keep cruising"
+          ],
+          "answer": "go cruising",
+          "promptZh": "我們開著車四處兜風，享受片刻的快樂"
+        },
+        {
+          "number": 35,
+          "lineId": "line-37",
+          "prompt": "You still {{blank}}",
+          "options": [
+            "haven't got a car",
+            "ain't got a job",
+            "ain't got a home"
+          ],
+          "answer": "ain't got a job",
+          "promptZh": "可你到現在還是沒有找到工作"
+        },
+        {
+          "number": 36,
+          "lineId": "line-38",
+          "prompt": "And I work in a market as a {{blank}}",
+          "options": [
+            "check-in girl",
+            "checkout clerk",
+            "checkout girl"
+          ],
+          "answer": "checkout girl",
+          "promptZh": "而我在超市當收銀員"
+        },
+        {
+          "number": 37,
+          "lineId": "line-39",
+          "prompt": "I know {{blank}}",
+          "options": [
+            "things will be different",
+            "things will get better",
+            "things could get worse"
+          ],
+          "answer": "things will get better",
+          "promptZh": "我相信日子總會慢慢好起來"
+        },
+        {
+          "number": 38,
+          "lineId": "line-40",
+          "prompt": "You'll find work and I'll {{blank}}",
+          "options": [
+            "get demoted",
+            "get rewarded",
+            "get promoted"
+          ],
+          "answer": "get promoted",
+          "promptZh": "你會找到工作，而我也會獲得升遷"
+        },
+        {
+          "number": 39,
+          "lineId": "line-41",
+          "prompt": "We'll move out of {{blank}}",
+          "options": [
+            "the cellar",
+            "the shelter",
+            "the station"
+          ],
+          "answer": "the shelter",
+          "promptZh": "到時我們就能搬離收容所"
+        },
+        {
+          "number": 40,
+          "lineId": "line-42",
+          "prompt": "Buy a bigger house and live in {{blank}}",
+          "options": [
+            "the city",
+            "the countryside",
+            "the suburbs"
+          ],
+          "answer": "the suburbs",
+          "promptZh": "買一棟更大的房子，搬到郊區生活"
+        },
+        {
+          "number": 41,
+          "lineId": "line-44",
+          "prompt": "{{blank}} I felt like I was drunk",
+          "options": [
+            "Speed so fast",
+            "Speed too fast",
+            "Driving so fast"
+          ],
+          "answer": "Speed so fast",
+          "promptZh": "車速快得讓我彷彿醉了一般"
+        },
+        {
+          "number": 42,
+          "lineId": "line-47",
+          "prompt": "And I had {{blank}}",
+          "options": [
+            "a feeling I was alone",
+            "a feeling that I belonged",
+            "a feeling that I was strong"
+          ],
+          "answer": "a feeling that I belonged",
+          "promptZh": "那一刻，我感覺自己終於有了歸屬"
+        },
+        {
+          "number": 43,
+          "lineId": "line-50",
+          "prompt": "I got a job that {{blank}}",
+          "options": [
+            "pays for our meals",
+            "pays all my bills",
+            "pays all our bills"
+          ],
+          "answer": "pays all our bills",
+          "promptZh": "我找到了一份工作，足以支付我們所有的生活開銷"
+        },
+        {
+          "number": 44,
+          "lineId": "line-51",
+          "prompt": "You stay out {{blank}}",
+          "options": [
+            "drinking late at the bar",
+            "working late at the bar",
+            "drinking alone in the car"
+          ],
+          "answer": "drinking late at the bar",
+          "promptZh": "而你卻總是在酒吧喝酒，直到深夜才回家"
+        },
+        {
+          "number": 45,
+          "lineId": "line-52",
+          "prompt": "See more of {{blank}} than you do of your kids",
+          "options": [
+            "your family",
+            "our friends",
+            "your friends"
+          ],
+          "answer": "your friends",
+          "promptZh": "你見朋友的次數，甚至比見自己孩子還多"
+        },
+        {
+          "number": 46,
+          "lineId": "line-53",
+          "prompt": "I'd always {{blank}}",
+          "options": [
+            "looked for better",
+            "hoped for better",
+            "hoped for more"
+          ],
+          "answer": "hoped for better",
+          "promptZh": "我一直盼望著能過上更好的生活"
+        },
+        {
+          "number": 47,
+          "lineId": "line-54",
+          "prompt": "Thought maybe {{blank}} would find it",
+          "options": [
+            "together you and me",
+            "together we could",
+            "you and I together"
+          ],
+          "answer": "together you and me",
+          "promptZh": "曾以為只要你我攜手，就能找到那樣的幸福"
+        },
+        {
+          "number": 48,
+          "lineId": "line-55",
+          "prompt": "I got no plans I {{blank}}",
+          "options": [
+            "ain't going nowhere",
+            "ain't going anywhere",
+            "am going somewhere"
+          ],
+          "answer": "ain't going nowhere",
+          "promptZh": "如今我已沒有任何計畫，也不打算再離開"
+        },
+        {
+          "number": 49,
+          "lineId": "line-56",
+          "prompt": "So take your fast car and {{blank}}",
+          "options": [
+            "keep on trying",
+            "keep on driving",
+            "keep on running"
+          ],
+          "answer": "keep on driving",
+          "promptZh": "所以，開著你的快車走吧，就這樣一直往前開"
+        },
+        {
+          "number": 50,
+          "lineId": "line-64",
+          "prompt": "Is it fast enough so {{blank}}?",
+          "options": [
+            "we can fly away",
+            "you could drive away",
+            "you can fly away"
+          ],
+          "answer": "you can fly away",
+          "promptZh": "它夠快嗎？能讓你獨自遠走高飛嗎？"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "You got a {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I want a {{q:2}} to anywhere"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Maybe we {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Maybe together we can {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Any place is {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Starting from zero got {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Maybe we'll {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Me myself I got {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "You got a {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I got a plan to {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I been working at the {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Managed to save just a {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Won't have to {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Just 'cross the {{q:14}} and into the city"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "You and I can {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And finally see what it means to {{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "See my old man's {{q:17}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "He live with {{q:18}} that's the way it is"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "He says his body's {{q:19}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "His body's {{q:20}} to look like his"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "My mama went off and {{q:21}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "She wanted {{q:22}} than he could give"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I said somebody's got to {{q:23}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "So I {{q:24}} and that's what I did"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You got a fast car"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Is it fast enough so we can {{q:25}}?"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "We gotta {{q:26}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:27}} or live and die this way"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "So remember when we were {{q:28}} in your car"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Speed so fast I {{q:29}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:30}} lay out before us"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "And your arm felt nice {{q:31}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And I had a feeling that {{q:32}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I had a feeling I could {{q:33}}, be someone, be someone"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "You got a fast car"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "We {{q:34}}, entertain ourselves"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "You still {{q:35}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "And I work in a market as a {{q:36}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I know {{q:37}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You'll find work and I'll {{q:38}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "We'll move out of {{q:39}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Buy a bigger house and live in {{q:40}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "So remember when we were driving driving in your car"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:41}} I felt like I was drunk"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "City lights lay out before us"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "And your arm felt nice wrapped 'round my shoulder"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "And I had {{q:42}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I had a feeling I could be someone, be someone, be someone"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "You got a fast car"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "I got a job that {{q:43}}"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "You stay out {{q:44}}"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "See more of {{q:45}} than you do of your kids"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "I'd always {{q:46}}"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Thought maybe {{q:47}} would find it"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "I got no plans I {{q:48}}"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "So take your fast car and {{q:49}}"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "So remember when we were driving driving in your car"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Speed so fast I felt like I was drunk"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "City lights lay out before us"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "And your arm felt nice wrapped 'round my shoulder"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "And I had a feeling that I belonged"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "I had a feeling I could be someone, be someone, be someone"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "You got a fast car"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "Is it fast enough so {{q:50}}?"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "You gotta make a decision"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "Leave tonight or live and die this way"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Make a deal",
+      "meaning": "達成協議、說好一件事",
+      "usage": "當兩個人討論後，同意交換或一起做某件事時使用。",
+      "prompt": "哪一句正確使用「Make a deal」？",
+      "options": [
+        "I made a deal with my sandwich, but it did not answer.",
+        "My brother and I made a deal: I wash the cups, and he cleans the table.",
+        "She made a deal the bus to go faster.",
+        "We made a deal of water because we were thirsty."
+      ],
+      "answer": 1,
+      "explanation": "— 正確：兩人說好各自負責一項工作。",
+      "optionExplanations": [
+        "— 錯誤：三明治不能和人商量並達成協議。",
+        "— 正確：兩人說好各自負責一項工作。",
+        "— 錯誤：這裡缺少 with，而且公車不是談條件的對象。",
+        "— 錯誤：喝水不能用 make a deal 表達。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Get somewhere",
+      "meaning": "有所進展、取得成果；到達某處",
+      "usage": "談努力有成果，或真的到達某個地方時使用。",
+      "prompt": "哪一句正確使用「Get somewhere」？",
+      "options": [
+        "I get somewhere my shoes every day.",
+        "The soup got somewhere because it was too hot.",
+        "She got somewhere her pencil in her bag.",
+        "We studied every day, and now we are finally getting somewhere."
+      ],
+      "answer": 3,
+      "explanation": "— 正確：每天學習後終於有進步。",
+      "optionExplanations": [
+        "— 錯誤：不能用 get somewhere 表達穿鞋。",
+        "— 錯誤：湯很燙與取得進展沒有關係。",
+        "— 錯誤：這不能表示把筆放進包包。",
+        "— 正確：每天學習後終於有進步。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Nothing to lose",
+      "meaning": "沒什麼可失去的、可以放手試試",
+      "usage": "想嘗試一件風險不大、即使失敗也不會失去什麼的事時使用。",
+      "prompt": "哪一句正確使用「Nothing to lose」？",
+      "options": [
+        "I have nothing to lose, so I must buy three new shoes.",
+        "The game is free, so I have nothing to lose by trying it.",
+        "My dog has nothing to lose because he lost his ball yesterday.",
+        "There is nothing to lose on the ceiling, so I need a ladder."
+      ],
+      "answer": 1,
+      "explanation": "— 正確：遊戲免費，嘗試不會有明顯損失。",
+      "optionExplanations": [
+        "— 錯誤：買鞋會花錢，句子未說明為何沒有損失。",
+        "— 正確：遊戲免費，嘗試不會有明顯損失。",
+        "— 錯誤：這裡混淆字面上遺失東西與慣用語。",
+        "— 錯誤：這不是形容願意冒險嘗試的情況。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Nothing to prove",
+      "meaning": "不需要證明什麼",
+      "usage": "當你不想為了讓別人認同而展示自己的能力或價值時使用。",
+      "prompt": "哪一句正確使用「Nothing to prove」？",
+      "options": [
+        "My teacher has nothing to prove because the classroom has no windows.",
+        "There is nothing to prove in my soup, so I add salt.",
+        "I have nothing to prove, so I can enjoy singing even if I am not the best.",
+        "She has nothing to prove her bike to the shop."
+      ],
+      "answer": 2,
+      "explanation": "— 正確：不必向別人證明自己最厲害。",
+      "optionExplanations": [
+        "— 錯誤：教室沒有窗戶與是否需要證明自己無關。",
+        "— 錯誤：這個片語不能表示湯少了材料。",
+        "— 正確：不必向別人證明自己最厲害。",
+        "— 錯誤：不能這樣使用 prove 來表示騎車去商店。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Manage to",
+      "meaning": "設法做到、好不容易成功",
+      "usage": "當事情不容易，但最後還是完成了時使用；後面接原形動詞。",
+      "prompt": "哪一句正確使用「Manage to」？",
+      "options": [
+        "He managed to happy with the new game.",
+        "I managed to finish my homework before dinner.",
+        "We managed to a big sandwich at lunch.",
+        "My phone managed to blue yesterday."
+      ],
+      "answer": 1,
+      "explanation": "— 正確：雖然可能不容易，但成功完成了作業。",
+      "optionExplanations": [
+        "— 錯誤：to 後面需要動詞，可以說 managed to be happy。",
+        "— 正確：雖然可能不容易，但成功完成了作業。",
+        "— 錯誤：to 後面缺少動詞，例如 make 或 eat。",
+        "— 錯誤：to 後面缺少動詞，且顏色不表示成功完成的行動。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Take care of",
+      "meaning": "照顧；處理",
+      "usage": "談照顧家人、寵物，或負責處理事情時使用。",
+      "prompt": "哪一句正確使用「Take care of」？",
+      "options": [
+        "He takes care of his little sister after school.",
+        "I take care of my homework with a spoon.",
+        "She takes care of the rain so it will stop.",
+        "We take care of hungry by opening the door."
+      ],
+      "answer": 0,
+      "explanation": "— 正確：放學後照顧妹妹。",
+      "optionExplanations": [
+        "— 正確：放學後照顧妹妹。",
+        "— 錯誤：用湯匙處理作業不符合正常語境。",
+        "— 錯誤：人不能照顧雨來讓它停下。",
+        "— 錯誤：hungry 是形容詞，不能這樣作為照顧的對象。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Make a decision",
+      "meaning": "做決定",
+      "usage": "當你從幾個選擇中決定要做哪一個時使用。",
+      "prompt": "哪一句正確使用「Make a decision」？",
+      "options": [
+        "I made a decision in the fridge and it became cold.",
+        "My cat made a decision of blue yesterday.",
+        "We need to make a decision: take the bus or walk?",
+        "We made a decision because the clock was hungry."
+      ],
+      "answer": 2,
+      "explanation": "— 正確：必須在搭公車和步行之間做選擇。",
+      "optionExplanations": [
+        "— 錯誤：決定不是可以放進冰箱變冷的東西。",
+        "— 錯誤：of blue 不能清楚表達選擇了什麼。",
+        "— 正確：必須在搭公車和步行之間做選擇。",
+        "— 錯誤：時鐘不會肚子餓，原因不合理。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Belong",
+      "meaning": "屬於；有歸屬感",
+      "usage": "表示某物屬於某人，或自己覺得被某個團體接納時使用。",
+      "prompt": "哪一句正確使用「Belong」？",
+      "options": [
+        "I belong my dinner every evening.",
+        "The shoes belong in happy because they are red.",
+        "We belong the rain on Mondays.",
+        "This bag belongs to my sister."
+      ],
+      "answer": 3,
+      "explanation": "— 正確：用 belongs to 表示包包是姐姐或妹妹的。",
+      "optionExplanations": [
+        "— 錯誤：belong 不能直接接 dinner 來表示吃晚餐。",
+        "— 錯誤：in happy 不表示一個合理的位置或團體。",
+        "— 錯誤：belong 不能這樣用來描述天氣。",
+        "— 正確：用 belongs to 表示包包是姐姐或妹妹的。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Get promoted",
+      "meaning": "獲得升遷、被升職",
+      "usage": "工作表現受到肯定，得到更高職位時使用。",
+      "prompt": "哪一句正確使用「Get promoted」？",
+      "options": [
+        "She worked hard and got promoted to manager.",
+        "I got promoted when I bought a bigger lunch.",
+        "My bicycle got promoted because it has two wheels.",
+        "He got promoted his jacket on the wall."
+      ],
+      "answer": 0,
+      "explanation": "— 正確：努力工作後升任經理。",
+      "optionExplanations": [
+        "— 正確：努力工作後升任經理。",
+        "— 錯誤：買較大的午餐不表示工作升職。",
+        "— 錯誤：腳踏車不能得到工作職位。",
+        "— 錯誤：這不能表示把外套掛在牆上。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Pay the bills",
+      "meaning": "支付帳單、負擔生活開銷",
+      "usage": "談支付水電、房租等帳單或工作賺錢負擔日常開支時使用。",
+      "prompt": "哪一句正確使用「Pay the bills」？",
+      "options": [
+        "She works at a shop to pay the bills.",
+        "We pay the bills with our singing voices only.",
+        "I pay the bills by putting them in my shoes.",
+        "My dog paid the bills by barking at the moon."
+      ],
+      "answer": 0,
+      "explanation": "— 正確：靠商店工作所得支付生活開銷。",
+      "optionExplanations": [
+        "— 正確：靠商店工作所得支付生活開銷。",
+        "— 錯誤：唱歌聲音本身通常不能用來直接支付帳單。",
+        "— 錯誤：把帳單放進鞋裡並不是付款。",
+        "— 錯誤：對月亮叫不能支付帳單。"
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/fast-car/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/fast-car/user-cover-20261029.png",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 296.8,
+    "audioSha256": "5c51ace83d976449f6ebd2b170224f0e8065525ce39e81081644e92750dcb0ab",
+    "timedLines": 63,
+    "untimedLines": 3,
+    "reviewStatus": "Conservative automatic line alignment; unmatched lines remain bilingual without a guessed cue."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Fast Car_.pdf",
+      "sha256": "92d50ed41301481413f0e3a07eaa0f07d5f572110eb76566efacdc83fe8f534f"
+    },
+    "docx": {
+      "filename": "Fast_Car_Four_Level_Listening_Exercise.docx",
+      "sha256": "479567f7a98cb62255297aa18e5c57e1e4eaa6c089e86a6c303fbdcca806a946"
+    },
+    "md": {
+      "filename": "Fast_Car_Vocabulary_Quiz.md",
+      "sha256": "48cc9d84bc49ebe9ebd85dd3d8e4725c4cc19430ac8e8478229b7c1302bab667"
+    },
+    "mp3": {
+      "filename": "Fast Car [IJ8i49EqgYI].mp3",
+      "sha256": "5c51ace83d976449f6ebd2b170224f0e8065525ce39e81081644e92750dcb0ab"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-bdca0b6d-c997-4edb-928e-65c89013c8c4.png",
+    "sha256": "3654c7782d5194b0fe6745c14839fc28096e35006276352711991931e53b549e",
+    "transformations": "none",
+    "selectedOn": "2026-10-29"
+  }
+}

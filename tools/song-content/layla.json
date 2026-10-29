@@ -1,0 +1,2803 @@
+{
+  "slug": "layla",
+  "title": "Layla",
+  "singer": "Derek and the Dominos",
+  "exercise_name": "Layla · Listening & Vocabulary",
+  "description": "《Layla》描寫一段充滿渴望、執著與痛苦的單戀。歌中的主角原本只是想安慰感情受挫的 Layla，卻在相處過程中不知不覺深深愛上了她。這份感情令他的世界天翻地覆，甚至願意放下尊嚴，苦苦哀求對方回應自己的愛意。他認為 Layla 一直在逃避內心的感受，希望她能放下自尊，給彼此一個相愛的機會。然而，面對不確定的未來，他始終害怕自己的真心最終付諸流水。歌曲反覆呼喚 Layla 的名字，流露出強烈的思念與無助。最終，《Layla》傳達的是愛情中的脆弱、渴望與無奈：當一個人深陷於得不到回應的感情，即使願意付出一切，也未必能換來對方的愛，而這份無法掌握的心意，往往令人難以釋懷。",
+  "tags": [
+    "derek and the dominos",
+    "layla"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "What'll you do when you get lonely",
+      "chinese": "當寂寞襲上心頭時，妳該如何是好？"
+    },
+    {
+      "lineId": "line-2",
+      "english": "But nobody's waiting by your side?",
+      "chinese": "而身旁卻沒有一個人守候著妳？",
+      "startSeconds": 29.94,
+      "endSeconds": 32.38
+    },
+    {
+      "lineId": "line-3",
+      "english": "You've been running and hiding much too long",
+      "chinese": "妳已經逃避、躲藏得太久太久",
+      "startSeconds": 33.4,
+      "endSeconds": 37.0
+    },
+    {
+      "lineId": "line-4",
+      "english": "You know it's just your foolish pride",
+      "chinese": "妳心裡明白，那不過是妳不肯放下的無謂自尊",
+      "startSeconds": 37.79,
+      "endSeconds": 40.42
+    },
+    {
+      "lineId": "line-5",
+      "english": "Layla",
+      "chinese": "Layla"
+    },
+    {
+      "lineId": "line-6",
+      "english": "You've got me on my knees",
+      "chinese": "妳讓我屈膝在妳面前",
+      "startSeconds": 41.2,
+      "endSeconds": 45.14
+    },
+    {
+      "lineId": "line-7",
+      "english": "Layla",
+      "chinese": "Layla"
+    },
+    {
+      "lineId": "line-8",
+      "english": "I'm begging, darling, please",
+      "chinese": "我苦苦哀求著，親愛的，求求妳"
+    },
+    {
+      "lineId": "line-9",
+      "english": "Layla",
+      "chinese": "Layla"
+    },
+    {
+      "lineId": "line-10",
+      "english": "Darling, won't you ease my worried mind?",
+      "chinese": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+    },
+    {
+      "lineId": "line-11",
+      "english": "I tried to give you consolation",
+      "chinese": "我曾試著給予妳安慰",
+      "startSeconds": 57.58,
+      "endSeconds": 59.68
+    },
+    {
+      "lineId": "line-12",
+      "english": "When your old man had let you down",
+      "chinese": "當妳的男人讓妳失望、傷透妳的心時"
+    },
+    {
+      "lineId": "line-13",
+      "english": "Like a fool, I fell in love with you",
+      "chinese": "可我卻像個傻瓜一樣，深深愛上了妳"
+    },
+    {
+      "lineId": "line-14",
+      "english": "You turned my whole world upside down",
+      "chinese": "妳讓我的整個世界天翻地覆"
+    },
+    {
+      "lineId": "line-15",
+      "english": "Layla",
+      "chinese": "Layla"
+    },
+    {
+      "lineId": "line-16",
+      "english": "You've got me on my knees",
+      "chinese": "妳讓我屈膝在妳面前",
+      "startSeconds": 75.08,
+      "endSeconds": 77.46
+    },
+    {
+      "lineId": "line-17",
+      "english": "Layla",
+      "chinese": "Layla"
+    },
+    {
+      "lineId": "line-18",
+      "english": "I'm begging, darling, please",
+      "chinese": "我苦苦哀求著，親愛的，求求妳",
+      "startSeconds": 79.2,
+      "endSeconds": 81.56
+    },
+    {
+      "lineId": "line-19",
+      "english": "Layla",
+      "chinese": "Layla"
+    },
+    {
+      "lineId": "line-20",
+      "english": "Darling, won't you ease my worried mind?",
+      "chinese": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+    },
+    {
+      "lineId": "line-21",
+      "english": "Let's make the best of the situation",
+      "chinese": "讓我們在這樣的處境中，盡力尋找最好的出路吧",
+      "startSeconds": 89.42,
+      "endSeconds": 92.24
+    },
+    {
+      "lineId": "line-22",
+      "english": "Before I finally go insane",
+      "chinese": "在我終於被這份感情逼得失去理智之前",
+      "startSeconds": 93.82,
+      "endSeconds": 96.36
+    },
+    {
+      "lineId": "line-23",
+      "english": "Please don't say we'll never find a way",
+      "chinese": "求妳別說，我們永遠找不到一條能走下去的路",
+      "startSeconds": 97.96,
+      "endSeconds": 101.68
+    },
+    {
+      "lineId": "line-24",
+      "english": "And tell me all my love's in vain",
+      "chinese": "也別告訴我，我付出的所有愛意終究只是徒勞"
+    },
+    {
+      "lineId": "line-25",
+      "english": "Layla",
+      "chinese": "Layla"
+    },
+    {
+      "lineId": "line-26",
+      "english": "You've got me on my knees",
+      "chinese": "妳讓我屈膝在妳面前"
+    },
+    {
+      "lineId": "line-27",
+      "english": "Layla",
+      "chinese": "Layla"
+    },
+    {
+      "lineId": "line-28",
+      "english": "I'm begging, darling, please",
+      "chinese": "我苦苦哀求著，親愛的，求求妳"
+    },
+    {
+      "lineId": "line-29",
+      "english": "Layla",
+      "chinese": "Layla"
+    },
+    {
+      "lineId": "line-30",
+      "english": "Darling, won't you ease my worried mind?",
+      "chinese": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+    },
+    {
+      "lineId": "line-31",
+      "english": "Layla",
+      "chinese": "Layla"
+    },
+    {
+      "lineId": "line-32",
+      "english": "You've got me on my knees",
+      "chinese": "妳讓我屈膝在妳面前"
+    },
+    {
+      "lineId": "line-33",
+      "english": "Layla",
+      "chinese": "Layla"
+    },
+    {
+      "lineId": "line-34",
+      "english": "I'm begging, darling, please",
+      "chinese": "我苦苦哀求著，親愛的，求求妳"
+    },
+    {
+      "lineId": "line-35",
+      "english": "Layla",
+      "chinese": "Layla"
+    },
+    {
+      "lineId": "line-36",
+      "english": "Darling, won't you ease my worried mind?",
+      "chinese": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+    },
+    {
+      "lineId": "line-37",
+      "english": "Whoo, whoo, whoo...",
+      "chinese": "嗚，嗚，嗚……"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} when you get lonely",
+          "options": [
+            "What'll you do",
+            "What will you say",
+            "What can you do"
+          ],
+          "answer": "What'll you do",
+          "promptZh": "當寂寞襲上心頭時，妳該如何是好？"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "But {{blank}} by your side?",
+          "options": [
+            "somebody's waiting",
+            "nobody's waiting",
+            "nobody's watching"
+          ],
+          "answer": "nobody's waiting",
+          "promptZh": "而身旁卻沒有一個人守候著妳？"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "You've been {{blank}} much too long",
+          "options": [
+            "running and crying",
+            "running and hiding",
+            "hurrying and hiding"
+          ],
+          "answer": "running and hiding",
+          "promptZh": "妳已經逃避、躲藏得太久太久"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "You know it's just {{blank}}",
+          "options": [
+            "your foolish pride",
+            "your selfish pride",
+            "your foolish mind"
+          ],
+          "answer": "your foolish pride",
+          "promptZh": "妳心裡明白，那不過是妳不肯放下的無謂自尊"
+        },
+        {
+          "number": 5,
+          "lineId": "line-6",
+          "prompt": "You've got me {{blank}}",
+          "options": [
+            "on my feet",
+            "on your knees",
+            "on my knees"
+          ],
+          "answer": "on my knees",
+          "promptZh": "妳讓我屈膝在妳面前"
+        },
+        {
+          "number": 6,
+          "lineId": "line-8",
+          "prompt": "{{blank}}, darling, please",
+          "options": [
+            "I'm waiting",
+            "I'm begging",
+            "I'm breaking"
+          ],
+          "answer": "I'm begging",
+          "promptZh": "我苦苦哀求著，親愛的，求求妳"
+        },
+        {
+          "number": 7,
+          "lineId": "line-10",
+          "prompt": "Darling, won't you {{blank}}?",
+          "options": [
+            "ease my worried mind",
+            "read my worried mind",
+            "ease my weary mind"
+          ],
+          "answer": "ease my worried mind",
+          "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+        },
+        {
+          "number": 8,
+          "lineId": "line-11",
+          "prompt": "I tried to {{blank}}",
+          "options": [
+            "give you conversation",
+            "give you consolation",
+            "bring you consolation"
+          ],
+          "answer": "give you consolation",
+          "promptZh": "我曾試著給予妳安慰"
+        },
+        {
+          "number": 9,
+          "lineId": "line-12",
+          "prompt": "When {{blank}} had let you down",
+          "options": [
+            "your old man",
+            "your own man",
+            "your old friend"
+          ],
+          "answer": "your old man",
+          "promptZh": "當妳的男人讓妳失望、傷透妳的心時"
+        },
+        {
+          "number": 10,
+          "lineId": "line-13",
+          "prompt": "{{blank}}, I fell in love with you",
+          "options": [
+            "Like a friend",
+            "Like a fool",
+            "Like a rule"
+          ],
+          "answer": "Like a fool",
+          "promptZh": "可我卻像個傻瓜一樣，深深愛上了妳"
+        },
+        {
+          "number": 11,
+          "lineId": "line-14",
+          "prompt": "You turned my {{blank}}",
+          "options": [
+            "whole world upside down",
+            "whole life upside down",
+            "whole world inside out"
+          ],
+          "answer": "whole world upside down",
+          "promptZh": "妳讓我的整個世界天翻地覆"
+        },
+        {
+          "number": 12,
+          "lineId": "line-16",
+          "prompt": "You've got me {{blank}}",
+          "options": [
+            "on my knees",
+            "on my feet",
+            "on your knees"
+          ],
+          "answer": "on my knees",
+          "promptZh": "妳讓我屈膝在妳面前"
+        },
+        {
+          "number": 13,
+          "lineId": "line-18",
+          "prompt": "{{blank}}, darling, please",
+          "options": [
+            "I'm waiting",
+            "I'm breaking",
+            "I'm begging"
+          ],
+          "answer": "I'm begging",
+          "promptZh": "我苦苦哀求著，親愛的，求求妳"
+        },
+        {
+          "number": 14,
+          "lineId": "line-20",
+          "prompt": "Darling, won't you {{blank}}?",
+          "options": [
+            "ease my worried mind",
+            "read my worried mind",
+            "ease my weary mind"
+          ],
+          "answer": "ease my worried mind",
+          "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+        },
+        {
+          "number": 15,
+          "lineId": "line-21",
+          "prompt": "Let's {{blank}} of the situation",
+          "options": [
+            "make a mess",
+            "make the best",
+            "take the best"
+          ],
+          "answer": "make the best",
+          "promptZh": "讓我們在這樣的處境中，盡力尋找最好的出路吧"
+        },
+        {
+          "number": 16,
+          "lineId": "line-22",
+          "prompt": "Before I {{blank}}",
+          "options": [
+            "finally go away",
+            "suddenly go insane",
+            "finally go insane"
+          ],
+          "answer": "finally go insane",
+          "promptZh": "在我終於被這份感情逼得失去理智之前"
+        },
+        {
+          "number": 17,
+          "lineId": "line-23",
+          "prompt": "Please {{blank}} we'll never find a way",
+          "options": [
+            "don't stay",
+            "won't say",
+            "don't say"
+          ],
+          "answer": "don't say",
+          "promptZh": "求妳別說，我們永遠找不到一條能走下去的路"
+        },
+        {
+          "number": 18,
+          "lineId": "line-24",
+          "prompt": "And tell me {{blank}}",
+          "options": [
+            "all my love is gone",
+            "all my love's in vain",
+            "all your love's in vain"
+          ],
+          "answer": "all my love's in vain",
+          "promptZh": "也別告訴我，我付出的所有愛意終究只是徒勞"
+        },
+        {
+          "number": 19,
+          "lineId": "line-26",
+          "prompt": "You've got me {{blank}}",
+          "options": [
+            "on my feet",
+            "on your knees",
+            "on my knees"
+          ],
+          "answer": "on my knees",
+          "promptZh": "妳讓我屈膝在妳面前"
+        },
+        {
+          "number": 20,
+          "lineId": "line-32",
+          "prompt": "You've got me {{blank}}",
+          "options": [
+            "on my feet",
+            "on your knees",
+            "on my knees"
+          ],
+          "answer": "on my knees",
+          "promptZh": "妳讓我屈膝在妳面前"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} when you get lonely"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "But {{q:2}} by your side?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You've been {{q:3}} much too long"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You know it's just {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "You've got me {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:6}}, darling, please"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Darling, won't you {{q:7}}?"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I tried to {{q:8}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "When {{q:9}} had let you down"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:10}}, I fell in love with you"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "You turned my {{q:11}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "You've got me {{q:12}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:13}}, darling, please"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Darling, won't you {{q:14}}?"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Let's {{q:15}} of the situation"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Before I {{q:16}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Please {{q:17}} we'll never find a way"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And tell me {{q:18}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "You've got me {{q:19}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I'm begging, darling, please"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Darling, won't you ease my worried mind?"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You've got me {{q:20}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I'm begging, darling, please"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Darling, won't you ease my worried mind?"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Whoo, whoo, whoo..."
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} when you get lonely",
+          "options": [
+            "What will you say",
+            "What'll you do",
+            "What can you do"
+          ],
+          "answer": "What'll you do",
+          "promptZh": "當寂寞襲上心頭時，妳該如何是好？"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "But {{blank}} by your side?",
+          "options": [
+            "somebody's waiting",
+            "nobody's watching",
+            "nobody's waiting"
+          ],
+          "answer": "nobody's waiting",
+          "promptZh": "而身旁卻沒有一個人守候著妳？"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "You've been {{blank}} much too long",
+          "options": [
+            "running and hiding",
+            "running and crying",
+            "hurrying and hiding"
+          ],
+          "answer": "running and hiding",
+          "promptZh": "妳已經逃避、躲藏得太久太久"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "You know it's just {{blank}}",
+          "options": [
+            "your selfish pride",
+            "your foolish mind",
+            "your foolish pride"
+          ],
+          "answer": "your foolish pride",
+          "promptZh": "妳心裡明白，那不過是妳不肯放下的無謂自尊"
+        },
+        {
+          "number": 5,
+          "lineId": "line-6",
+          "prompt": "You've got me {{blank}}",
+          "options": [
+            "on my feet",
+            "on your knees",
+            "on my knees"
+          ],
+          "answer": "on my knees",
+          "promptZh": "妳讓我屈膝在妳面前"
+        },
+        {
+          "number": 6,
+          "lineId": "line-8",
+          "prompt": "{{blank}}, darling, please",
+          "options": [
+            "I'm begging",
+            "I'm waiting",
+            "I'm breaking"
+          ],
+          "answer": "I'm begging",
+          "promptZh": "我苦苦哀求著，親愛的，求求妳"
+        },
+        {
+          "number": 7,
+          "lineId": "line-10",
+          "prompt": "Darling, won't you {{blank}}?",
+          "options": [
+            "read my worried mind",
+            "ease my worried mind",
+            "ease my weary mind"
+          ],
+          "answer": "ease my worried mind",
+          "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+        },
+        {
+          "number": 8,
+          "lineId": "line-11",
+          "prompt": "I tried to {{blank}}",
+          "options": [
+            "give you conversation",
+            "give you consolation",
+            "bring you consolation"
+          ],
+          "answer": "give you consolation",
+          "promptZh": "我曾試著給予妳安慰"
+        },
+        {
+          "number": 9,
+          "lineId": "line-12",
+          "prompt": "When {{blank}} had let you down",
+          "options": [
+            "your own man",
+            "your old friend",
+            "your old man"
+          ],
+          "answer": "your old man",
+          "promptZh": "當妳的男人讓妳失望、傷透妳的心時"
+        },
+        {
+          "number": 10,
+          "lineId": "line-13",
+          "prompt": "{{blank}}, I fell in love with you",
+          "options": [
+            "Like a fool",
+            "Like a friend",
+            "Like a rule"
+          ],
+          "answer": "Like a fool",
+          "promptZh": "可我卻像個傻瓜一樣，深深愛上了妳"
+        },
+        {
+          "number": 11,
+          "lineId": "line-14",
+          "prompt": "You turned my {{blank}}",
+          "options": [
+            "whole life upside down",
+            "whole world inside out",
+            "whole world upside down"
+          ],
+          "answer": "whole world upside down",
+          "promptZh": "妳讓我的整個世界天翻地覆"
+        },
+        {
+          "number": 12,
+          "lineId": "line-16",
+          "prompt": "You've got me {{blank}}",
+          "options": [
+            "on my feet",
+            "on your knees",
+            "on my knees"
+          ],
+          "answer": "on my knees",
+          "promptZh": "妳讓我屈膝在妳面前"
+        },
+        {
+          "number": 13,
+          "lineId": "line-18",
+          "prompt": "{{blank}}, darling, please",
+          "options": [
+            "I'm waiting",
+            "I'm begging",
+            "I'm breaking"
+          ],
+          "answer": "I'm begging",
+          "promptZh": "我苦苦哀求著，親愛的，求求妳"
+        },
+        {
+          "number": 14,
+          "lineId": "line-20",
+          "prompt": "Darling, won't you {{blank}}?",
+          "options": [
+            "read my worried mind",
+            "ease my weary mind",
+            "ease my worried mind"
+          ],
+          "answer": "ease my worried mind",
+          "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+        },
+        {
+          "number": 15,
+          "lineId": "line-21",
+          "prompt": "Let's {{blank}} of the situation",
+          "options": [
+            "make a mess",
+            "make the best",
+            "take the best"
+          ],
+          "answer": "make the best",
+          "promptZh": "讓我們在這樣的處境中，盡力尋找最好的出路吧"
+        },
+        {
+          "number": 16,
+          "lineId": "line-22",
+          "prompt": "Before I {{blank}}",
+          "options": [
+            "finally go insane",
+            "finally go away",
+            "suddenly go insane"
+          ],
+          "answer": "finally go insane",
+          "promptZh": "在我終於被這份感情逼得失去理智之前"
+        },
+        {
+          "number": 17,
+          "lineId": "line-23",
+          "prompt": "Please {{blank}} we'll never find a way",
+          "options": [
+            "don't say",
+            "don't stay",
+            "won't say"
+          ],
+          "answer": "don't say",
+          "promptZh": "求妳別說，我們永遠找不到一條能走下去的路"
+        },
+        {
+          "number": 18,
+          "lineId": "line-24",
+          "prompt": "And tell me {{blank}}",
+          "options": [
+            "all my love is gone",
+            "all my love's in vain",
+            "all your love's in vain"
+          ],
+          "answer": "all my love's in vain",
+          "promptZh": "也別告訴我，我付出的所有愛意終究只是徒勞"
+        },
+        {
+          "number": 19,
+          "lineId": "line-26",
+          "prompt": "You've got me {{blank}}",
+          "options": [
+            "on my feet",
+            "on your knees",
+            "on my knees"
+          ],
+          "answer": "on my knees",
+          "promptZh": "妳讓我屈膝在妳面前"
+        },
+        {
+          "number": 20,
+          "lineId": "line-32",
+          "prompt": "You've got me {{blank}}",
+          "options": [
+            "on my feet",
+            "on my knees",
+            "on your knees"
+          ],
+          "answer": "on my knees",
+          "promptZh": "妳讓我屈膝在妳面前"
+        },
+        {
+          "number": 21,
+          "lineId": "line-1",
+          "prompt": "What'll you do when you {{blank}}",
+          "options": [
+            "get lonely",
+            "feel lovely",
+            "get lucky"
+          ],
+          "answer": "get lonely",
+          "promptZh": "當寂寞襲上心頭時，妳該如何是好？"
+        },
+        {
+          "number": 22,
+          "lineId": "line-2",
+          "prompt": "But nobody's waiting {{blank}}?",
+          "options": [
+            "on your side",
+            "by my side",
+            "by your side"
+          ],
+          "answer": "by your side",
+          "promptZh": "而身旁卻沒有一個人守候著妳？"
+        },
+        {
+          "number": 23,
+          "lineId": "line-3",
+          "prompt": "You've been running and hiding {{blank}}",
+          "options": [
+            "much too long",
+            "much too far",
+            "just too long"
+          ],
+          "answer": "much too long",
+          "promptZh": "妳已經逃避、躲藏得太久太久"
+        },
+        {
+          "number": 24,
+          "lineId": "line-4",
+          "prompt": "{{blank}} your foolish pride",
+          "options": [
+            "You know it's just",
+            "You know it's not",
+            "You think it's just"
+          ],
+          "answer": "You know it's just",
+          "promptZh": "妳心裡明白，那不過是妳不肯放下的無謂自尊"
+        },
+        {
+          "number": 25,
+          "lineId": "line-8",
+          "prompt": "I'm begging, {{blank}}",
+          "options": [
+            "darling, stay",
+            "darling, please",
+            "darling, believe"
+          ],
+          "answer": "darling, please",
+          "promptZh": "我苦苦哀求著，親愛的，求求妳"
+        },
+        {
+          "number": 26,
+          "lineId": "line-10",
+          "prompt": "Darling, {{blank}} ease my worried mind?",
+          "options": [
+            "won't you",
+            "will you",
+            "don't you"
+          ],
+          "answer": "won't you",
+          "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+        },
+        {
+          "number": 27,
+          "lineId": "line-11",
+          "prompt": "{{blank}} give you consolation",
+          "options": [
+            "I cried to",
+            "I tried to",
+            "I tried for"
+          ],
+          "answer": "I tried to",
+          "promptZh": "我曾試著給予妳安慰"
+        },
+        {
+          "number": 28,
+          "lineId": "line-12",
+          "prompt": "When your old man had {{blank}}",
+          "options": [
+            "let you down",
+            "left you down",
+            "let you go"
+          ],
+          "answer": "let you down",
+          "promptZh": "當妳的男人讓妳失望、傷透妳的心時"
+        },
+        {
+          "number": 29,
+          "lineId": "line-13",
+          "prompt": "Like a fool, I {{blank}}",
+          "options": [
+            "fell out of love with you",
+            "fell in love with you",
+            "fell in love for you"
+          ],
+          "answer": "fell in love with you",
+          "promptZh": "可我卻像個傻瓜一樣，深深愛上了妳"
+        },
+        {
+          "number": 30,
+          "lineId": "line-14",
+          "prompt": "{{blank}} my whole world upside down",
+          "options": [
+            "You turned",
+            "You burned",
+            "You changed"
+          ],
+          "answer": "You turned",
+          "promptZh": "妳讓我的整個世界天翻地覆"
+        },
+        {
+          "number": 31,
+          "lineId": "line-18",
+          "prompt": "I'm begging, {{blank}}",
+          "options": [
+            "darling, stay",
+            "darling, please",
+            "darling, believe"
+          ],
+          "answer": "darling, please",
+          "promptZh": "我苦苦哀求著，親愛的，求求妳"
+        },
+        {
+          "number": 32,
+          "lineId": "line-21",
+          "prompt": "Let's make the best {{blank}}",
+          "options": [
+            "of the separation",
+            "of this situation",
+            "of the situation"
+          ],
+          "answer": "of the situation",
+          "promptZh": "讓我們在這樣的處境中，盡力尋找最好的出路吧"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} when you {{q:21}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "But {{q:2}} {{q:22}}?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You've been {{q:3}} {{q:23}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:24}} {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "You've got me {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:6}}, {{q:25}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Darling, {{q:26}} {{q:7}}?"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:27}} {{q:8}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "When {{q:9}} had {{q:28}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:10}}, I {{q:29}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:30}} my {{q:11}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "You've got me {{q:12}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:13}}, {{q:31}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Darling, won't you {{q:14}}?"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Let's {{q:15}} {{q:32}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Before I {{q:16}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Please {{q:17}} we'll never find a way"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And tell me {{q:18}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "You've got me {{q:19}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I'm begging, darling, please"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Darling, won't you ease my worried mind?"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You've got me {{q:20}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I'm begging, darling, please"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Darling, won't you ease my worried mind?"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Whoo, whoo, whoo..."
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} when you get lonely",
+          "options": [
+            "What'll you do",
+            "What will you say",
+            "What can you do"
+          ],
+          "answer": "What'll you do",
+          "promptZh": "當寂寞襲上心頭時，妳該如何是好？"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "But {{blank}} by your side?",
+          "options": [
+            "somebody's waiting",
+            "nobody's waiting",
+            "nobody's watching"
+          ],
+          "answer": "nobody's waiting",
+          "promptZh": "而身旁卻沒有一個人守候著妳？"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "You've been {{blank}} much too long",
+          "options": [
+            "running and crying",
+            "running and hiding",
+            "hurrying and hiding"
+          ],
+          "answer": "running and hiding",
+          "promptZh": "妳已經逃避、躲藏得太久太久"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "You know it's just {{blank}}",
+          "options": [
+            "your foolish pride",
+            "your selfish pride",
+            "your foolish mind"
+          ],
+          "answer": "your foolish pride",
+          "promptZh": "妳心裡明白，那不過是妳不肯放下的無謂自尊"
+        },
+        {
+          "number": 5,
+          "lineId": "line-6",
+          "prompt": "You've got me {{blank}}",
+          "options": [
+            "on my feet",
+            "on my knees",
+            "on your knees"
+          ],
+          "answer": "on my knees",
+          "promptZh": "妳讓我屈膝在妳面前"
+        },
+        {
+          "number": 6,
+          "lineId": "line-8",
+          "prompt": "{{blank}}, darling, please",
+          "options": [
+            "I'm waiting",
+            "I'm begging",
+            "I'm breaking"
+          ],
+          "answer": "I'm begging",
+          "promptZh": "我苦苦哀求著，親愛的，求求妳"
+        },
+        {
+          "number": 7,
+          "lineId": "line-10",
+          "prompt": "Darling, won't you {{blank}}?",
+          "options": [
+            "ease my worried mind",
+            "read my worried mind",
+            "ease my weary mind"
+          ],
+          "answer": "ease my worried mind",
+          "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+        },
+        {
+          "number": 8,
+          "lineId": "line-11",
+          "prompt": "I tried to {{blank}}",
+          "options": [
+            "give you consolation",
+            "give you conversation",
+            "bring you consolation"
+          ],
+          "answer": "give you consolation",
+          "promptZh": "我曾試著給予妳安慰"
+        },
+        {
+          "number": 9,
+          "lineId": "line-12",
+          "prompt": "When {{blank}} had let you down",
+          "options": [
+            "your own man",
+            "your old man",
+            "your old friend"
+          ],
+          "answer": "your old man",
+          "promptZh": "當妳的男人讓妳失望、傷透妳的心時"
+        },
+        {
+          "number": 10,
+          "lineId": "line-13",
+          "prompt": "{{blank}}, I fell in love with you",
+          "options": [
+            "Like a friend",
+            "Like a rule",
+            "Like a fool"
+          ],
+          "answer": "Like a fool",
+          "promptZh": "可我卻像個傻瓜一樣，深深愛上了妳"
+        },
+        {
+          "number": 11,
+          "lineId": "line-14",
+          "prompt": "You turned my {{blank}}",
+          "options": [
+            "whole world upside down",
+            "whole life upside down",
+            "whole world inside out"
+          ],
+          "answer": "whole world upside down",
+          "promptZh": "妳讓我的整個世界天翻地覆"
+        },
+        {
+          "number": 12,
+          "lineId": "line-16",
+          "prompt": "You've got me {{blank}}",
+          "options": [
+            "on my feet",
+            "on my knees",
+            "on your knees"
+          ],
+          "answer": "on my knees",
+          "promptZh": "妳讓我屈膝在妳面前"
+        },
+        {
+          "number": 13,
+          "lineId": "line-18",
+          "prompt": "{{blank}}, darling, please",
+          "options": [
+            "I'm waiting",
+            "I'm breaking",
+            "I'm begging"
+          ],
+          "answer": "I'm begging",
+          "promptZh": "我苦苦哀求著，親愛的，求求妳"
+        },
+        {
+          "number": 14,
+          "lineId": "line-20",
+          "prompt": "Darling, won't you {{blank}}?",
+          "options": [
+            "read my worried mind",
+            "ease my weary mind",
+            "ease my worried mind"
+          ],
+          "answer": "ease my worried mind",
+          "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+        },
+        {
+          "number": 15,
+          "lineId": "line-21",
+          "prompt": "Let's {{blank}} of the situation",
+          "options": [
+            "make a mess",
+            "make the best",
+            "take the best"
+          ],
+          "answer": "make the best",
+          "promptZh": "讓我們在這樣的處境中，盡力尋找最好的出路吧"
+        },
+        {
+          "number": 16,
+          "lineId": "line-22",
+          "prompt": "Before I {{blank}}",
+          "options": [
+            "finally go insane",
+            "finally go away",
+            "suddenly go insane"
+          ],
+          "answer": "finally go insane",
+          "promptZh": "在我終於被這份感情逼得失去理智之前"
+        },
+        {
+          "number": 17,
+          "lineId": "line-23",
+          "prompt": "Please {{blank}} we'll never find a way",
+          "options": [
+            "don't say",
+            "don't stay",
+            "won't say"
+          ],
+          "answer": "don't say",
+          "promptZh": "求妳別說，我們永遠找不到一條能走下去的路"
+        },
+        {
+          "number": 18,
+          "lineId": "line-24",
+          "prompt": "And tell me {{blank}}",
+          "options": [
+            "all my love is gone",
+            "all my love's in vain",
+            "all your love's in vain"
+          ],
+          "answer": "all my love's in vain",
+          "promptZh": "也別告訴我，我付出的所有愛意終究只是徒勞"
+        },
+        {
+          "number": 19,
+          "lineId": "line-26",
+          "prompt": "You've got me {{blank}}",
+          "options": [
+            "on my knees",
+            "on my feet",
+            "on your knees"
+          ],
+          "answer": "on my knees",
+          "promptZh": "妳讓我屈膝在妳面前"
+        },
+        {
+          "number": 20,
+          "lineId": "line-32",
+          "prompt": "You've got me {{blank}}",
+          "options": [
+            "on my feet",
+            "on my knees",
+            "on your knees"
+          ],
+          "answer": "on my knees",
+          "promptZh": "妳讓我屈膝在妳面前"
+        },
+        {
+          "number": 21,
+          "lineId": "line-1",
+          "prompt": "What'll you do when you {{blank}}",
+          "options": [
+            "get lonely",
+            "feel lovely",
+            "get lucky"
+          ],
+          "answer": "get lonely",
+          "promptZh": "當寂寞襲上心頭時，妳該如何是好？"
+        },
+        {
+          "number": 22,
+          "lineId": "line-2",
+          "prompt": "But nobody's waiting {{blank}}?",
+          "options": [
+            "by your side",
+            "on your side",
+            "by my side"
+          ],
+          "answer": "by your side",
+          "promptZh": "而身旁卻沒有一個人守候著妳？"
+        },
+        {
+          "number": 23,
+          "lineId": "line-3",
+          "prompt": "You've been running and hiding {{blank}}",
+          "options": [
+            "much too far",
+            "just too long",
+            "much too long"
+          ],
+          "answer": "much too long",
+          "promptZh": "妳已經逃避、躲藏得太久太久"
+        },
+        {
+          "number": 24,
+          "lineId": "line-4",
+          "prompt": "{{blank}} your foolish pride",
+          "options": [
+            "You know it's not",
+            "You think it's just",
+            "You know it's just"
+          ],
+          "answer": "You know it's just",
+          "promptZh": "妳心裡明白，那不過是妳不肯放下的無謂自尊"
+        },
+        {
+          "number": 25,
+          "lineId": "line-8",
+          "prompt": "I'm begging, {{blank}}",
+          "options": [
+            "darling, please",
+            "darling, stay",
+            "darling, believe"
+          ],
+          "answer": "darling, please",
+          "promptZh": "我苦苦哀求著，親愛的，求求妳"
+        },
+        {
+          "number": 26,
+          "lineId": "line-10",
+          "prompt": "Darling, {{blank}} ease my worried mind?",
+          "options": [
+            "will you",
+            "don't you",
+            "won't you"
+          ],
+          "answer": "won't you",
+          "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+        },
+        {
+          "number": 27,
+          "lineId": "line-11",
+          "prompt": "{{blank}} give you consolation",
+          "options": [
+            "I cried to",
+            "I tried for",
+            "I tried to"
+          ],
+          "answer": "I tried to",
+          "promptZh": "我曾試著給予妳安慰"
+        },
+        {
+          "number": 28,
+          "lineId": "line-12",
+          "prompt": "When your old man had {{blank}}",
+          "options": [
+            "left you down",
+            "let you down",
+            "let you go"
+          ],
+          "answer": "let you down",
+          "promptZh": "當妳的男人讓妳失望、傷透妳的心時"
+        },
+        {
+          "number": 29,
+          "lineId": "line-13",
+          "prompt": "Like a fool, I {{blank}}",
+          "options": [
+            "fell out of love with you",
+            "fell in love for you",
+            "fell in love with you"
+          ],
+          "answer": "fell in love with you",
+          "promptZh": "可我卻像個傻瓜一樣，深深愛上了妳"
+        },
+        {
+          "number": 30,
+          "lineId": "line-14",
+          "prompt": "{{blank}} my whole world upside down",
+          "options": [
+            "You burned",
+            "You changed",
+            "You turned"
+          ],
+          "answer": "You turned",
+          "promptZh": "妳讓我的整個世界天翻地覆"
+        },
+        {
+          "number": 31,
+          "lineId": "line-18",
+          "prompt": "I'm begging, {{blank}}",
+          "options": [
+            "darling, stay",
+            "darling, please",
+            "darling, believe"
+          ],
+          "answer": "darling, please",
+          "promptZh": "我苦苦哀求著，親愛的，求求妳"
+        },
+        {
+          "number": 32,
+          "lineId": "line-21",
+          "prompt": "Let's make the best {{blank}}",
+          "options": [
+            "of the separation",
+            "of this situation",
+            "of the situation"
+          ],
+          "answer": "of the situation",
+          "promptZh": "讓我們在這樣的處境中，盡力尋找最好的出路吧"
+        },
+        {
+          "number": 33,
+          "lineId": "line-20",
+          "prompt": "Darling, {{blank}} ease my worried mind?",
+          "options": [
+            "will you",
+            "don't you",
+            "won't you"
+          ],
+          "answer": "won't you",
+          "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+        },
+        {
+          "number": 34,
+          "lineId": "line-22",
+          "prompt": "{{blank}} finally go insane",
+          "options": [
+            "Because I",
+            "Before I",
+            "Before you"
+          ],
+          "answer": "Before I",
+          "promptZh": "在我終於被這份感情逼得失去理智之前"
+        },
+        {
+          "number": 35,
+          "lineId": "line-23",
+          "prompt": "Please don't say we'll {{blank}}",
+          "options": [
+            "never find a way",
+            "ever find a way",
+            "never find the way"
+          ],
+          "answer": "never find a way",
+          "promptZh": "求妳別說，我們永遠找不到一條能走下去的路"
+        },
+        {
+          "number": 36,
+          "lineId": "line-24",
+          "prompt": "{{blank}} all my love's in vain",
+          "options": [
+            "And help me",
+            "And tell me",
+            "Don't tell me"
+          ],
+          "answer": "And tell me",
+          "promptZh": "也別告訴我，我付出的所有愛意終究只是徒勞"
+        },
+        {
+          "number": 37,
+          "lineId": "line-28",
+          "prompt": "{{blank}}, darling, please",
+          "options": [
+            "I'm begging",
+            "I'm waiting",
+            "I'm breaking"
+          ],
+          "answer": "I'm begging",
+          "promptZh": "我苦苦哀求著，親愛的，求求妳"
+        },
+        {
+          "number": 38,
+          "lineId": "line-28",
+          "prompt": "I'm begging, {{blank}}",
+          "options": [
+            "darling, stay",
+            "darling, believe",
+            "darling, please"
+          ],
+          "answer": "darling, please",
+          "promptZh": "我苦苦哀求著，親愛的，求求妳"
+        },
+        {
+          "number": 39,
+          "lineId": "line-30",
+          "prompt": "Darling, won't you {{blank}}?",
+          "options": [
+            "ease my worried mind",
+            "read my worried mind",
+            "ease my weary mind"
+          ],
+          "answer": "ease my worried mind",
+          "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+        },
+        {
+          "number": 40,
+          "lineId": "line-30",
+          "prompt": "Darling, {{blank}} ease my worried mind?",
+          "options": [
+            "will you",
+            "don't you",
+            "won't you"
+          ],
+          "answer": "won't you",
+          "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} when you {{q:21}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "But {{q:2}} {{q:22}}?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You've been {{q:3}} {{q:23}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:24}} {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "You've got me {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:6}}, {{q:25}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Darling, {{q:26}} {{q:7}}?"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:27}} {{q:8}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "When {{q:9}} had {{q:28}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:10}}, I {{q:29}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:30}} my {{q:11}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "You've got me {{q:12}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:13}}, {{q:31}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Darling, {{q:33}} {{q:14}}?"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Let's {{q:15}} {{q:32}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:34}} {{q:16}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Please {{q:17}} we'll {{q:35}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:36}} {{q:18}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "You've got me {{q:19}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:37}}, {{q:38}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Darling, {{q:40}} {{q:39}}?"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You've got me {{q:20}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I'm begging, darling, please"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Darling, won't you ease my worried mind?"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Whoo, whoo, whoo..."
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} when you get lonely",
+          "options": [
+            "What will you say",
+            "What'll you do",
+            "What can you do"
+          ],
+          "answer": "What'll you do",
+          "promptZh": "當寂寞襲上心頭時，妳該如何是好？"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "What'll you do when you {{blank}}",
+          "options": [
+            "feel lovely",
+            "get lucky",
+            "get lonely"
+          ],
+          "answer": "get lonely",
+          "promptZh": "當寂寞襲上心頭時，妳該如何是好？"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "But {{blank}} by your side?",
+          "options": [
+            "nobody's waiting",
+            "somebody's waiting",
+            "nobody's watching"
+          ],
+          "answer": "nobody's waiting",
+          "promptZh": "而身旁卻沒有一個人守候著妳？"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "But nobody's waiting {{blank}}?",
+          "options": [
+            "by your side",
+            "on your side",
+            "by my side"
+          ],
+          "answer": "by your side",
+          "promptZh": "而身旁卻沒有一個人守候著妳？"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "You've been {{blank}} much too long",
+          "options": [
+            "running and crying",
+            "hurrying and hiding",
+            "running and hiding"
+          ],
+          "answer": "running and hiding",
+          "promptZh": "妳已經逃避、躲藏得太久太久"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "You've been running and hiding {{blank}}",
+          "options": [
+            "much too far",
+            "much too long",
+            "just too long"
+          ],
+          "answer": "much too long",
+          "promptZh": "妳已經逃避、躲藏得太久太久"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "You know it's just {{blank}}",
+          "options": [
+            "your selfish pride",
+            "your foolish mind",
+            "your foolish pride"
+          ],
+          "answer": "your foolish pride",
+          "promptZh": "妳心裡明白，那不過是妳不肯放下的無謂自尊"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "{{blank}} your foolish pride",
+          "options": [
+            "You know it's not",
+            "You know it's just",
+            "You think it's just"
+          ],
+          "answer": "You know it's just",
+          "promptZh": "妳心裡明白，那不過是妳不肯放下的無謂自尊"
+        },
+        {
+          "number": 9,
+          "lineId": "line-6",
+          "prompt": "You've got me {{blank}}",
+          "options": [
+            "on my feet",
+            "on your knees",
+            "on my knees"
+          ],
+          "answer": "on my knees",
+          "promptZh": "妳讓我屈膝在妳面前"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "{{blank}}, darling, please",
+          "options": [
+            "I'm waiting",
+            "I'm begging",
+            "I'm breaking"
+          ],
+          "answer": "I'm begging",
+          "promptZh": "我苦苦哀求著，親愛的，求求妳"
+        },
+        {
+          "number": 11,
+          "lineId": "line-8",
+          "prompt": "I'm begging, {{blank}}",
+          "options": [
+            "darling, stay",
+            "darling, believe",
+            "darling, please"
+          ],
+          "answer": "darling, please",
+          "promptZh": "我苦苦哀求著，親愛的，求求妳"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "Darling, won't you {{blank}}?",
+          "options": [
+            "read my worried mind",
+            "ease my weary mind",
+            "ease my worried mind"
+          ],
+          "answer": "ease my worried mind",
+          "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+        },
+        {
+          "number": 13,
+          "lineId": "line-10",
+          "prompt": "Darling, {{blank}} ease my worried mind?",
+          "options": [
+            "will you",
+            "won't you",
+            "don't you"
+          ],
+          "answer": "won't you",
+          "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+        },
+        {
+          "number": 14,
+          "lineId": "line-11",
+          "prompt": "I tried to {{blank}}",
+          "options": [
+            "give you consolation",
+            "give you conversation",
+            "bring you consolation"
+          ],
+          "answer": "give you consolation",
+          "promptZh": "我曾試著給予妳安慰"
+        },
+        {
+          "number": 15,
+          "lineId": "line-11",
+          "prompt": "{{blank}} give you consolation",
+          "options": [
+            "I cried to",
+            "I tried for",
+            "I tried to"
+          ],
+          "answer": "I tried to",
+          "promptZh": "我曾試著給予妳安慰"
+        },
+        {
+          "number": 16,
+          "lineId": "line-12",
+          "prompt": "When {{blank}} had let you down",
+          "options": [
+            "your old man",
+            "your own man",
+            "your old friend"
+          ],
+          "answer": "your old man",
+          "promptZh": "當妳的男人讓妳失望、傷透妳的心時"
+        },
+        {
+          "number": 17,
+          "lineId": "line-12",
+          "prompt": "When your old man had {{blank}}",
+          "options": [
+            "let you down",
+            "left you down",
+            "let you go"
+          ],
+          "answer": "let you down",
+          "promptZh": "當妳的男人讓妳失望、傷透妳的心時"
+        },
+        {
+          "number": 18,
+          "lineId": "line-13",
+          "prompt": "{{blank}}, I fell in love with you",
+          "options": [
+            "Like a friend",
+            "Like a fool",
+            "Like a rule"
+          ],
+          "answer": "Like a fool",
+          "promptZh": "可我卻像個傻瓜一樣，深深愛上了妳"
+        },
+        {
+          "number": 19,
+          "lineId": "line-13",
+          "prompt": "Like a fool, I {{blank}}",
+          "options": [
+            "fell in love with you",
+            "fell out of love with you",
+            "fell in love for you"
+          ],
+          "answer": "fell in love with you",
+          "promptZh": "可我卻像個傻瓜一樣，深深愛上了妳"
+        },
+        {
+          "number": 20,
+          "lineId": "line-14",
+          "prompt": "You turned my {{blank}}",
+          "options": [
+            "whole life upside down",
+            "whole world inside out",
+            "whole world upside down"
+          ],
+          "answer": "whole world upside down",
+          "promptZh": "妳讓我的整個世界天翻地覆"
+        },
+        {
+          "number": 21,
+          "lineId": "line-14",
+          "prompt": "{{blank}} my whole world upside down",
+          "options": [
+            "You burned",
+            "You changed",
+            "You turned"
+          ],
+          "answer": "You turned",
+          "promptZh": "妳讓我的整個世界天翻地覆"
+        },
+        {
+          "number": 22,
+          "lineId": "line-16",
+          "prompt": "You've got me {{blank}}",
+          "options": [
+            "on my feet",
+            "on my knees",
+            "on your knees"
+          ],
+          "answer": "on my knees",
+          "promptZh": "妳讓我屈膝在妳面前"
+        },
+        {
+          "number": 23,
+          "lineId": "line-18",
+          "prompt": "{{blank}}, darling, please",
+          "options": [
+            "I'm begging",
+            "I'm waiting",
+            "I'm breaking"
+          ],
+          "answer": "I'm begging",
+          "promptZh": "我苦苦哀求著，親愛的，求求妳"
+        },
+        {
+          "number": 24,
+          "lineId": "line-18",
+          "prompt": "I'm begging, {{blank}}",
+          "options": [
+            "darling, stay",
+            "darling, believe",
+            "darling, please"
+          ],
+          "answer": "darling, please",
+          "promptZh": "我苦苦哀求著，親愛的，求求妳"
+        },
+        {
+          "number": 25,
+          "lineId": "line-20",
+          "prompt": "Darling, won't you {{blank}}?",
+          "options": [
+            "ease my worried mind",
+            "read my worried mind",
+            "ease my weary mind"
+          ],
+          "answer": "ease my worried mind",
+          "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+        },
+        {
+          "number": 26,
+          "lineId": "line-20",
+          "prompt": "Darling, {{blank}} ease my worried mind?",
+          "options": [
+            "will you",
+            "won't you",
+            "don't you"
+          ],
+          "answer": "won't you",
+          "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+        },
+        {
+          "number": 27,
+          "lineId": "line-21",
+          "prompt": "Let's {{blank}} of the situation",
+          "options": [
+            "make a mess",
+            "make the best",
+            "take the best"
+          ],
+          "answer": "make the best",
+          "promptZh": "讓我們在這樣的處境中，盡力尋找最好的出路吧"
+        },
+        {
+          "number": 28,
+          "lineId": "line-21",
+          "prompt": "Let's make the best {{blank}}",
+          "options": [
+            "of the situation",
+            "of the separation",
+            "of this situation"
+          ],
+          "answer": "of the situation",
+          "promptZh": "讓我們在這樣的處境中，盡力尋找最好的出路吧"
+        },
+        {
+          "number": 29,
+          "lineId": "line-22",
+          "prompt": "Before I {{blank}}",
+          "options": [
+            "finally go away",
+            "finally go insane",
+            "suddenly go insane"
+          ],
+          "answer": "finally go insane",
+          "promptZh": "在我終於被這份感情逼得失去理智之前"
+        },
+        {
+          "number": 30,
+          "lineId": "line-22",
+          "prompt": "{{blank}} finally go insane",
+          "options": [
+            "Because I",
+            "Before you",
+            "Before I"
+          ],
+          "answer": "Before I",
+          "promptZh": "在我終於被這份感情逼得失去理智之前"
+        },
+        {
+          "number": 31,
+          "lineId": "line-23",
+          "prompt": "Please {{blank}} we'll never find a way",
+          "options": [
+            "don't stay",
+            "don't say",
+            "won't say"
+          ],
+          "answer": "don't say",
+          "promptZh": "求妳別說，我們永遠找不到一條能走下去的路"
+        },
+        {
+          "number": 32,
+          "lineId": "line-23",
+          "prompt": "Please don't say we'll {{blank}}",
+          "options": [
+            "never find a way",
+            "ever find a way",
+            "never find the way"
+          ],
+          "answer": "never find a way",
+          "promptZh": "求妳別說，我們永遠找不到一條能走下去的路"
+        },
+        {
+          "number": 33,
+          "lineId": "line-24",
+          "prompt": "And tell me {{blank}}",
+          "options": [
+            "all my love is gone",
+            "all your love's in vain",
+            "all my love's in vain"
+          ],
+          "answer": "all my love's in vain",
+          "promptZh": "也別告訴我，我付出的所有愛意終究只是徒勞"
+        },
+        {
+          "number": 34,
+          "lineId": "line-24",
+          "prompt": "{{blank}} all my love's in vain",
+          "options": [
+            "And tell me",
+            "And help me",
+            "Don't tell me"
+          ],
+          "answer": "And tell me",
+          "promptZh": "也別告訴我，我付出的所有愛意終究只是徒勞"
+        },
+        {
+          "number": 35,
+          "lineId": "line-26",
+          "prompt": "You've got me {{blank}}",
+          "options": [
+            "on my feet",
+            "on your knees",
+            "on my knees"
+          ],
+          "answer": "on my knees",
+          "promptZh": "妳讓我屈膝在妳面前"
+        },
+        {
+          "number": 36,
+          "lineId": "line-28",
+          "prompt": "{{blank}}, darling, please",
+          "options": [
+            "I'm waiting",
+            "I'm breaking",
+            "I'm begging"
+          ],
+          "answer": "I'm begging",
+          "promptZh": "我苦苦哀求著，親愛的，求求妳"
+        },
+        {
+          "number": 37,
+          "lineId": "line-28",
+          "prompt": "I'm begging, {{blank}}",
+          "options": [
+            "darling, please",
+            "darling, stay",
+            "darling, believe"
+          ],
+          "answer": "darling, please",
+          "promptZh": "我苦苦哀求著，親愛的，求求妳"
+        },
+        {
+          "number": 38,
+          "lineId": "line-30",
+          "prompt": "Darling, won't you {{blank}}?",
+          "options": [
+            "read my worried mind",
+            "ease my weary mind",
+            "ease my worried mind"
+          ],
+          "answer": "ease my worried mind",
+          "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+        },
+        {
+          "number": 39,
+          "lineId": "line-30",
+          "prompt": "Darling, {{blank}} ease my worried mind?",
+          "options": [
+            "will you",
+            "won't you",
+            "don't you"
+          ],
+          "answer": "won't you",
+          "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+        },
+        {
+          "number": 40,
+          "lineId": "line-32",
+          "prompt": "You've got me {{blank}}",
+          "options": [
+            "on my feet",
+            "on my knees",
+            "on your knees"
+          ],
+          "answer": "on my knees",
+          "promptZh": "妳讓我屈膝在妳面前"
+        },
+        {
+          "number": 41,
+          "lineId": "line-34",
+          "prompt": "{{blank}}, darling, please",
+          "options": [
+            "I'm begging",
+            "I'm waiting",
+            "I'm breaking"
+          ],
+          "answer": "I'm begging",
+          "promptZh": "我苦苦哀求著，親愛的，求求妳"
+        },
+        {
+          "number": 42,
+          "lineId": "line-34",
+          "prompt": "I'm begging, {{blank}}",
+          "options": [
+            "darling, stay",
+            "darling, please",
+            "darling, believe"
+          ],
+          "answer": "darling, please",
+          "promptZh": "我苦苦哀求著，親愛的，求求妳"
+        },
+        {
+          "number": 43,
+          "lineId": "line-36",
+          "prompt": "Darling, won't you {{blank}}?",
+          "options": [
+            "read my worried mind",
+            "ease my worried mind",
+            "ease my weary mind"
+          ],
+          "answer": "ease my worried mind",
+          "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+        },
+        {
+          "number": 44,
+          "lineId": "line-36",
+          "prompt": "Darling, {{blank}} ease my worried mind?",
+          "options": [
+            "won't you",
+            "will you",
+            "don't you"
+          ],
+          "answer": "won't you",
+          "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+        },
+        {
+          "number": 45,
+          "lineId": "line-1",
+          "prompt": "What'll you do {{blank}} get lonely",
+          "options": [
+            "where you",
+            "when I",
+            "when you"
+          ],
+          "answer": "when you",
+          "promptZh": "當寂寞襲上心頭時，妳該如何是好？"
+        },
+        {
+          "number": 46,
+          "lineId": "line-2",
+          "prompt": "{{blank}} nobody's waiting by your side?",
+          "options": [
+            "And",
+            "But",
+            "So"
+          ],
+          "answer": "But",
+          "promptZh": "而身旁卻沒有一個人守候著妳？"
+        },
+        {
+          "number": 47,
+          "lineId": "line-3",
+          "prompt": "{{blank}} running and hiding much too long",
+          "options": [
+            "You've been",
+            "You have",
+            "You've seen"
+          ],
+          "answer": "You've been",
+          "promptZh": "妳已經逃避、躲藏得太久太久"
+        },
+        {
+          "number": 48,
+          "lineId": "line-6",
+          "prompt": "{{blank}} on my knees",
+          "options": [
+            "You've got me",
+            "You've lost me",
+            "You've brought me"
+          ],
+          "answer": "You've got me",
+          "promptZh": "妳讓我屈膝在妳面前"
+        },
+        {
+          "number": 49,
+          "lineId": "line-10",
+          "prompt": "{{blank}} won't you ease my worried mind?",
+          "options": [
+            "Baby,",
+            "Darling,",
+            "Honey,"
+          ],
+          "answer": "Darling,",
+          "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
+        },
+        {
+          "number": 50,
+          "lineId": "line-12",
+          "prompt": "{{blank}} your old man had let you down",
+          "options": [
+            "When",
+            "Then",
+            "Where"
+          ],
+          "answer": "When",
+          "promptZh": "當妳的男人讓妳失望、傷透妳的心時"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:45}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:46}} {{q:3}} {{q:4}}?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:47}} {{q:5}} {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:8}} {{q:7}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:48}} {{q:9}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:10}}, {{q:11}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:49}} {{q:13}} {{q:12}}?"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:15}} {{q:14}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:50}} {{q:16}} had {{q:17}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:18}}, I {{q:19}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:21}} my {{q:20}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "You've got me {{q:22}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:23}}, {{q:24}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Darling, {{q:26}} {{q:25}}?"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Let's {{q:27}} {{q:28}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:30}} {{q:29}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Please {{q:31}} we'll {{q:32}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:34}} {{q:33}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "You've got me {{q:35}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:36}}, {{q:37}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Darling, {{q:39}} {{q:38}}?"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You've got me {{q:40}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "{{q:41}}, {{q:42}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Layla"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Darling, {{q:44}} {{q:43}}?"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Whoo, whoo, whoo..."
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Get lonely",
+      "meaning": "感到孤單、寂寞",
+      "usage": "當一個人開始覺得沒有陪伴時使用。",
+      "prompt": "哪一句正確使用「Get lonely」？",
+      "options": [
+        "I get lonely my shoes before school.",
+        "The sandwich gets lonely in five minutes.",
+        "I get lonely when all my friends are away.",
+        "Please get lonely the window for me."
+      ],
+      "answer": 2,
+      "explanation": "正確：朋友都不在時，會感到孤單。",
+      "optionExplanations": [
+        "錯誤：get lonely 是感到寂寞，不能表示穿鞋；可以說 I put on my shoes.",
+        "錯誤：三明治通常不會有寂寞的感受；可說 The sandwich gets cold.",
+        "正確：朋友都不在時，會感到孤單。",
+        "錯誤：get lonely 不是打開窗戶；應說 Please open the window."
+      ]
+    },
+    {
+      "number": 2,
+      "word": "By your side",
+      "meaning": "在你身旁；支持你",
+      "usage": "描述人在旁邊，或在困難時支持對方。",
+      "prompt": "哪一句正確使用「By your side」？",
+      "options": [
+        "I put by your side in my soup.",
+        "I will stay by your side when you need help.",
+        "My phone is by your side of happy.",
+        "We went by your side at eight o’clock yesterday."
+      ],
+      "answer": 1,
+      "explanation": "正確：表示需要幫忙時會陪在對方身邊。",
+      "optionExplanations": [
+        "錯誤：by your side 不是食材；可以說 I put salt in my soup.",
+        "正確：表示需要幫忙時會陪在對方身邊。",
+        "錯誤：這個片語不能這樣連接形容詞；可說 My phone is next to you.",
+        "錯誤：by your side 不是時間或交通方式；可說 We went home at eight."
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Much too long",
+      "meaning": "實在太久了",
+      "usage": "當事情持續的時間比希望的長很多時使用。",
+      "prompt": "哪一句正確使用「Much too long」？",
+      "options": [
+        "My dog is much too long happy today.",
+        "She much too long her breakfast.",
+        "We bought much too long in the shop.",
+        "I waited much too long for the bus."
+      ],
+      "answer": 3,
+      "explanation": "正確：表示等公車等得太久。",
+      "optionExplanations": [
+        "錯誤：much too long 形容時間過長，不是這樣修飾 happy。",
+        "錯誤：不能把 much too long 當成動詞；可說 She took too long to eat breakfast.",
+        "錯誤：買東西要用商品或數量；可說 We stayed in the shop much too long.",
+        "正確：表示等公車等得太久。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "On my knees",
+      "meaning": "跪著、雙膝著地",
+      "usage": "跪在地上時使用；也可能比喻懇求。",
+      "prompt": "哪一句正確使用「On my knees」？",
+      "options": [
+        "I was on my knees to look for my lost key.",
+        "I ate on my knees with a blue pencil.",
+        "The bus was on my knees at the station.",
+        "I put my homework on my knees tomorrow."
+      ],
+      "answer": 0,
+      "explanation": "正確：表示跪下來找掉落的鑰匙。",
+      "optionExplanations": [
+        "正確：表示跪下來找掉落的鑰匙。",
+        "錯誤：這句將吃東西和鉛筆亂接在一起，沒有清楚表達片語用途。",
+        "錯誤：公車不能跪在人的膝蓋上；可說 The bus was at the station.",
+        "錯誤：這裡想說放在膝上應用 on my lap，且 tomorrow 不搭配過去式 put 的語境。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Beg someone to",
+      "meaning": "懇求某人做某事",
+      "usage": "非常希望對方答應時使用；後面接人和 to + 動詞。",
+      "prompt": "哪一句正確使用「Beg someone to」？",
+      "options": [
+        "I begged to my brother help my dog.",
+        "I begged my brother to help me find my dog.",
+        "She begged her sandwich to dance.",
+        "They begged happy to the football."
+      ],
+      "answer": 1,
+      "explanation": "正確：begged + 人 + to help，表示懇求哥哥幫忙。",
+      "optionExplanations": [
+        "錯誤：詞序錯誤；應說 I begged my brother to help my dog.",
+        "正確：begged + 人 + to help，表示懇求哥哥幫忙。",
+        "錯誤：通常不會對三明治懇求跳舞；可對人說 She begged her friend to dance.",
+        "錯誤：beg 後面需要合理的對象和動作；可說 They begged their dad to play football."
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Let someone down",
+      "meaning": "讓某人失望",
+      "usage": "答應的事沒做好，或沒達到別人的期待時使用。",
+      "prompt": "哪一句正確使用「Let someone down」？",
+      "options": [
+        "Please let my bag down a birthday cake.",
+        "I let the rain down in my pencil.",
+        "I promised to come, but I forgot. I let my friend down.",
+        "My teacher let down the classroom to Tuesday."
+      ],
+      "answer": 2,
+      "explanation": "正確：沒有履行約定，讓朋友失望。",
+      "optionExplanations": [
+        "錯誤：let someone down 是讓人失望，不是用來放蛋糕。",
+        "錯誤：這裡不能表示雨下來；可以說 It started to rain.",
+        "正確：沒有履行約定，讓朋友失望。",
+        "錯誤：這個句型不能表示移動教室或改日期。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Fall in love with",
+      "meaning": "愛上某人、某事",
+      "usage": "開始愛上一個人，也可以用來說非常喜歡某個地方或事物。",
+      "prompt": "哪一句正確使用「Fall in love with」？",
+      "options": [
+        "I fall in love with my homework at seven o’clock as a bus.",
+        "She fell in love with him when they met at school.",
+        "He fell in love the door with a spoon.",
+        "We fell in love to the supermarket yesterday."
+      ],
+      "answer": 1,
+      "explanation": "正確：表示兩人在學校認識時，她愛上了他。",
+      "optionExplanations": [
+        "錯誤：後半句 as a bus 讓意思不合理；可說 I fell in love with this book.",
+        "正確：表示兩人在學校認識時，她愛上了他。",
+        "錯誤：fall in love 後要接 with，且句意不合理。",
+        "錯誤：應用 with 表示愛上；去超市則說 We went to the supermarket."
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Turn upside down",
+      "meaning": "把……顛倒；使生活大變",
+      "usage": "可以表示物品倒過來，也可以表示生活出現很大的改變。",
+      "prompt": "哪一句正確使用「Turn upside down」？",
+      "options": [
+        "I turned upside down my breakfast for blue.",
+        "My sister turned upside down at five o’clock the song.",
+        "We turned the weather upside down in our pockets.",
+        "The baby turned the box upside down, and all the toys fell out."
+      ],
+      "answer": 3,
+      "explanation": "正確：把盒子倒過來，玩具都掉出來。",
+      "optionExplanations": [
+        "錯誤：for blue 沒有清楚意義；可說 I turned the box upside down.",
+        "錯誤：句子缺少合理的受詞和語序。",
+        "錯誤：不能真的把天氣放在口袋裡翻轉。",
+        "正確：把盒子倒過來，玩具都掉出來。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Make the best of",
+      "meaning": "在不理想的情況下盡力做好",
+      "usage": "事情不如預期時，努力利用現有條件。",
+      "prompt": "哪一句正確使用「Make the best of」？",
+      "options": [
+        "It rained on our trip, but we made the best of the day.",
+        "I made the best of my shoes into a banana.",
+        "She makes the best of to sleep at nine.",
+        "They made the best of loudly in the bus."
+      ],
+      "answer": 0,
+      "explanation": "正確：雖然下雨，還是努力讓這天過得開心。",
+      "optionExplanations": [
+        "正確：雖然下雨，還是努力讓這天過得開心。",
+        "錯誤：這個片語不是把東西變成香蕉；可說 I made a banana cake.",
+        "錯誤：make the best of 後面應接名詞或情況，不直接接 to sleep。",
+        "錯誤：loudly 是副詞，不能作為這個片語的受詞。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "In vain",
+      "meaning": "徒勞、白費力氣",
+      "usage": "努力過，但沒有達到希望的結果時使用。",
+      "prompt": "哪一句正確使用「In vain」？",
+      "options": [
+        "We looked for the lost cat in vain; we could not find it.",
+        "I put the sandwich in vain and ate the table.",
+        "She is in vain tall than her brother.",
+        "My bike in vain to school every morning."
+      ],
+      "answer": 0,
+      "explanation": "正確：表示找了貓卻沒有找到。",
+      "optionExplanations": [
+        "正確：表示找了貓卻沒有找到。",
+        "錯誤：in vain 不是實際的容器或位置。",
+        "錯誤：in vain 不表示身高比較；應說 She is taller than her brother.",
+        "錯誤：in vain 不能代替騎車這個動詞；可說 I ride my bike to school."
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/layla/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/layla/user-cover-20261029.png",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 423.84,
+    "audioSha256": "4e5aefb06adb587c1ea7a2a6b8cd5b71e984e44ec423638f3a7c43f0a7322084",
+    "timedLines": 10,
+    "untimedLines": 27,
+    "reviewStatus": "Conservative automatic line alignment; unmatched lines remain bilingual without a guessed cue."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Layla_.pdf",
+      "sha256": "ff75ede19d60779836828037fc360b6d03fe4253b826d03ca87e9dc21f5fa6d7"
+    },
+    "docx": {
+      "filename": "Layla_Four_Level_Listening_Exercise.docx",
+      "sha256": "3101becbed235d8d939dff1418928ce0488a86741613c8458418194bab3f3ba9"
+    },
+    "md": {
+      "filename": "Layla_Vocabulary_Quiz.md",
+      "sha256": "42eb3f96829400a352b4b451fa19050a76c155645d262b7999ae11e830099842"
+    },
+    "mp3": {
+      "filename": "Layla [TngViNw2pOo].mp3",
+      "sha256": "4e5aefb06adb587c1ea7a2a6b8cd5b71e984e44ec423638f3a7c43f0a7322084"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-3d364c04-25fe-4ebf-b037-557111fc4636.png",
+    "sha256": "8720fb55499d79a939ffdc4f2c5e8e793d022550970ffee01477a5dbd076ffed",
+    "transformations": "none",
+    "selectedOn": "2026-10-29"
+  }
+}

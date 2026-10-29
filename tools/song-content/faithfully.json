@@ -1,0 +1,2741 @@
+{
+  "slug": "faithfully",
+  "title": "Faithfully",
+  "singer": "Journey",
+  "exercise_name": "Faithfully · Listening & Vocabulary",
+  "description": "《Faithfully》描寫一段因長期分離而充滿思念，卻始終堅守承諾的真摯愛情。歌中的主角是一位經常四處巡演的音樂人，長時間奔波在公路上，雖然享受舞台生活，內心卻時刻牽掛著遠方的愛人。他明白聚少離多為感情帶來孤獨與考驗，也感激對方一直以來的理解、支持與等待。每次重逢，兩人都彷彿重新墜入愛河，再次感受到彼此的重要。歌曲中的「Faithfully」象徵忠誠、信任與永不改變的承諾。最終，《Faithfully》傳達的是愛情中的堅守、思念與珍惜：即使相隔千里、生活充滿變化，只要彼此真心相愛，願意共同承擔距離帶來的考驗，便能讓感情歷久彌新。",
+  "tags": [
+    "journey",
+    "faithfully"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "Highway run",
+      "chinese": "奔馳在漫長的公路上"
+    },
+    {
+      "lineId": "line-2",
+      "english": "Into the midnight sun",
+      "chinese": "一路駛向午夜的陽光"
+    },
+    {
+      "lineId": "line-3",
+      "english": "Wheels go round and round",
+      "chinese": "車輪不停地轉動，一圈又一圈"
+    },
+    {
+      "lineId": "line-4",
+      "english": "You're on my mind",
+      "chinese": "而我的心中，始終惦念著你"
+    },
+    {
+      "lineId": "line-5",
+      "english": "Restless hearts",
+      "chinese": "兩顆無法安定的心",
+      "startSeconds": 32.56,
+      "endSeconds": 34.64
+    },
+    {
+      "lineId": "line-6",
+      "english": "Sleep alone tonight",
+      "chinese": "今夜又得各自孤單入眠"
+    },
+    {
+      "lineId": "line-7",
+      "english": "Sending all my love",
+      "chinese": "我將滿腔的愛與思念",
+      "startSeconds": 38.16,
+      "endSeconds": 43.3
+    },
+    {
+      "lineId": "line-8",
+      "english": "Along the wire",
+      "chinese": "沿著電話線，傳送到你身邊",
+      "startSeconds": 43.3,
+      "endSeconds": 45.86
+    },
+    {
+      "lineId": "line-9",
+      "english": "They say that the road ain't no place to start a family",
+      "chinese": "人們總說，四處奔波的生活，不適合建立一個家",
+      "startSeconds": 47.64,
+      "endSeconds": 52.5
+    },
+    {
+      "lineId": "line-10",
+      "english": "Right down the line it's been you and me",
+      "chinese": "可一路走來，始終都是你與我攜手相伴",
+      "startSeconds": 55.44,
+      "endSeconds": 60.5
+    },
+    {
+      "lineId": "line-11",
+      "english": "And lovin' a music man ain't always what it's supposed to be",
+      "chinese": "而愛上一個四處巡演的音樂人，也未必如想像中那般美好",
+      "startSeconds": 62.28,
+      "endSeconds": 68.5
+    },
+    {
+      "lineId": "line-12",
+      "english": "Oh, girl, you stand by me",
+      "chinese": "噢，親愛的，你卻始終陪伴著我，堅定地支持我",
+      "startSeconds": 69.6,
+      "endSeconds": 75.48
+    },
+    {
+      "lineId": "line-13",
+      "english": "I'm forever yours",
+      "chinese": "我永遠屬於你",
+      "startSeconds": 75.48,
+      "endSeconds": 82.18
+    },
+    {
+      "lineId": "line-14",
+      "english": "Faithfully",
+      "chinese": "此心不渝，始終如一",
+      "startSeconds": 82.18,
+      "endSeconds": 85.2
+    },
+    {
+      "lineId": "line-15",
+      "english": "Circus life",
+      "chinese": "這如馬戲團般奔波的生活",
+      "startSeconds": 98.22,
+      "endSeconds": 101.02
+    },
+    {
+      "lineId": "line-16",
+      "english": "Under the big top world",
+      "chinese": "在這座如巨型馬戲帳篷般的世界裡"
+    },
+    {
+      "lineId": "line-17",
+      "english": "We all need the clowns",
+      "chinese": "我們都需要那些小丑",
+      "startSeconds": 106.92,
+      "endSeconds": 110.18
+    },
+    {
+      "lineId": "line-18",
+      "english": "To make us smile",
+      "chinese": "來逗我們展露笑容",
+      "startSeconds": 110.18,
+      "endSeconds": 112.9
+    },
+    {
+      "lineId": "line-19",
+      "english": "Through space and time",
+      "chinese": "跨越漫長的時空與距離",
+      "startSeconds": 117.0,
+      "endSeconds": 119.8
+    },
+    {
+      "lineId": "line-20",
+      "english": "Always another show",
+      "chinese": "總有下一場演出在等待",
+      "startSeconds": 122.1,
+      "endSeconds": 125.22
+    },
+    {
+      "lineId": "line-21",
+      "english": "Wondering where I am",
+      "chinese": "有時連自己身在何處都感到茫然",
+      "startSeconds": 125.22,
+      "endSeconds": 128.82
+    },
+    {
+      "lineId": "line-22",
+      "english": "I'm lost without you",
+      "chinese": "沒有你，我便迷失了方向",
+      "startSeconds": 128.82,
+      "endSeconds": 132.36
+    },
+    {
+      "lineId": "line-23",
+      "english": "And being apart ain't easy on this love affair",
+      "chinese": "而長久分離，對這段感情而言，實在不是件容易的事",
+      "startSeconds": 132.36,
+      "endSeconds": 138.52
+    },
+    {
+      "lineId": "line-24",
+      "english": "Two strangers learn to fall in love again",
+      "chinese": "兩個彷彿陌生的人，重新學習如何愛上彼此",
+      "startSeconds": 139.22,
+      "endSeconds": 145.46
+    },
+    {
+      "lineId": "line-25",
+      "english": "I get the joy of rediscovering you",
+      "chinese": "而我也再次體會到，重新認識你的喜悅",
+      "startSeconds": 148.3,
+      "endSeconds": 153.3
+    },
+    {
+      "lineId": "line-26",
+      "english": "Oh, girl, you stand by me",
+      "chinese": "噢，親愛的，你卻始終陪伴著我，堅定地支持我",
+      "startSeconds": 153.3,
+      "endSeconds": 160.38
+    },
+    {
+      "lineId": "line-27",
+      "english": "I'm forever yours",
+      "chinese": "我永遠屬於你",
+      "startSeconds": 161.3,
+      "endSeconds": 166.34
+    },
+    {
+      "lineId": "line-28",
+      "english": "Faithfully",
+      "chinese": "此心不渝，始終如一"
+    },
+    {
+      "lineId": "line-29",
+      "english": "Faithfully",
+      "chinese": "此心不渝，始終如一"
+    },
+    {
+      "lineId": "line-30",
+      "english": "I'm still yours",
+      "chinese": "我的心，依然屬於你"
+    },
+    {
+      "lineId": "line-31",
+      "english": "I'm forever yours",
+      "chinese": "我永遠屬於你"
+    },
+    {
+      "lineId": "line-32",
+      "english": "Ever yours",
+      "chinese": "永遠都是你的"
+    },
+    {
+      "lineId": "line-33",
+      "english": "Faithfully",
+      "chinese": "此心不渝，始終如一"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}}",
+          "options": [
+            "Highway road",
+            "Highway run",
+            "Highway ride"
+          ],
+          "answer": "Highway run",
+          "promptZh": "奔馳在漫長的公路上"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Into the {{blank}}",
+          "options": [
+            "midnight song",
+            "midnight sky",
+            "midnight sun"
+          ],
+          "answer": "midnight sun",
+          "promptZh": "一路駛向午夜的陽光"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}} and round",
+          "options": [
+            "Wheels go down",
+            "Wheels go round",
+            "We go round"
+          ],
+          "answer": "Wheels go round",
+          "promptZh": "車輪不停地轉動，一圈又一圈"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "{{blank}}",
+          "options": [
+            "You're in my mind",
+            "You're on my side",
+            "You're on my mind"
+          ],
+          "answer": "You're on my mind",
+          "promptZh": "而我的心中，始終惦念著你"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "{{blank}}",
+          "options": [
+            "Restless hearts",
+            "Restless nights",
+            "Breathless hearts"
+          ],
+          "answer": "Restless hearts",
+          "promptZh": "兩顆無法安定的心"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "{{blank}}",
+          "options": [
+            "Sleep at home tonight",
+            "Sleep alone tonight",
+            "Sleep alone all night"
+          ],
+          "answer": "Sleep alone tonight",
+          "promptZh": "今夜又得各自孤單入眠"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "{{blank}}",
+          "options": [
+            "Sending you my love",
+            "Sending all my love",
+            "Saving all my love"
+          ],
+          "answer": "Sending all my love",
+          "promptZh": "我將滿腔的愛與思念"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "{{blank}}",
+          "options": [
+            "Along the wire",
+            "Across the wire",
+            "Along the way"
+          ],
+          "answer": "Along the wire",
+          "promptZh": "沿著電話線，傳送到你身邊"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "They say that {{blank}} to start a family",
+          "options": [
+            "the road ain't our place",
+            "the road is no place",
+            "the road ain't no place"
+          ],
+          "answer": "the road ain't no place",
+          "promptZh": "人們總說，四處奔波的生活，不適合建立一個家"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "{{blank}} it's been you and me",
+          "options": [
+            "Right on the line",
+            "Right down the line",
+            "Right down the road"
+          ],
+          "answer": "Right down the line",
+          "promptZh": "可一路走來，始終都是你與我攜手相伴"
+        },
+        {
+          "number": 11,
+          "lineId": "line-11",
+          "prompt": "And {{blank}} ain't always what it's supposed to be",
+          "options": [
+            "lovin' a working man",
+            "lovin' a music man",
+            "lovin' a musician"
+          ],
+          "answer": "lovin' a music man",
+          "promptZh": "而愛上一個四處巡演的音樂人，也未必如想像中那般美好"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "Oh, girl, {{blank}}",
+          "options": [
+            "you stand by me",
+            "you stay with me",
+            "you stand beside me"
+          ],
+          "answer": "you stand by me",
+          "promptZh": "噢，親愛的，你卻始終陪伴著我，堅定地支持我"
+        },
+        {
+          "number": 13,
+          "lineId": "line-13",
+          "prompt": "{{blank}}",
+          "options": [
+            "I'm always yours",
+            "I'm forever yours",
+            "I'm forever young"
+          ],
+          "answer": "I'm forever yours",
+          "promptZh": "我永遠屬於你"
+        },
+        {
+          "number": 14,
+          "lineId": "line-15",
+          "prompt": "{{blank}}",
+          "options": [
+            "Circus life",
+            "Circus lights",
+            "Certain life"
+          ],
+          "answer": "Circus life",
+          "promptZh": "這如馬戲團般奔波的生活"
+        },
+        {
+          "number": 15,
+          "lineId": "line-17",
+          "prompt": "We all {{blank}}",
+          "options": [
+            "need the clowns",
+            "meet the clowns",
+            "need the crowds"
+          ],
+          "answer": "need the clowns",
+          "promptZh": "我們都需要那些小丑"
+        },
+        {
+          "number": 16,
+          "lineId": "line-19",
+          "prompt": "Through {{blank}}",
+          "options": [
+            "place and time",
+            "space in time",
+            "space and time"
+          ],
+          "answer": "space and time",
+          "promptZh": "跨越漫長的時空與距離"
+        },
+        {
+          "number": 17,
+          "lineId": "line-21",
+          "prompt": "{{blank}}",
+          "options": [
+            "Wondering where I am",
+            "Wondering who I am",
+            "Wandering where I am"
+          ],
+          "answer": "Wondering where I am",
+          "promptZh": "有時連自己身在何處都感到茫然"
+        },
+        {
+          "number": 18,
+          "lineId": "line-22",
+          "prompt": "{{blank}}",
+          "options": [
+            "I'm lost around you",
+            "I'm here without you",
+            "I'm lost without you"
+          ],
+          "answer": "I'm lost without you",
+          "promptZh": "沒有你，我便迷失了方向"
+        },
+        {
+          "number": 19,
+          "lineId": "line-24",
+          "prompt": "Two strangers learn to {{blank}}",
+          "options": [
+            "fall in love at last",
+            "find our love again",
+            "fall in love again"
+          ],
+          "answer": "fall in love again",
+          "promptZh": "兩個彷彿陌生的人，重新學習如何愛上彼此"
+        },
+        {
+          "number": 20,
+          "lineId": "line-30",
+          "prompt": "{{blank}}",
+          "options": [
+            "I'm still yours",
+            "I'm all yours",
+            "I'm still here"
+          ],
+          "answer": "I'm still yours",
+          "promptZh": "我的心，依然屬於你"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Into the {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}} and round"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "They say that {{q:9}} to start a family"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:10}} it's been you and me"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And {{q:11}} ain't always what it's supposed to be"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Oh, girl, {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Faithfully"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Under the big top world"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "We all {{q:15}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "To make us smile"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Through {{q:16}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Always another show"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:18}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And being apart ain't easy on this love affair"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Two strangers learn to {{q:19}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I get the joy of rediscovering you"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Oh, girl, you stand by me"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I'm forever yours"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Faithfully"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Faithfully"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I'm forever yours"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Ever yours"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Faithfully"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}}",
+          "options": [
+            "Highway road",
+            "Highway ride",
+            "Highway run"
+          ],
+          "answer": "Highway run",
+          "promptZh": "奔馳在漫長的公路上"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Into the {{blank}}",
+          "options": [
+            "midnight sun",
+            "midnight song",
+            "midnight sky"
+          ],
+          "answer": "midnight sun",
+          "promptZh": "一路駛向午夜的陽光"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}} and round",
+          "options": [
+            "Wheels go down",
+            "We go round",
+            "Wheels go round"
+          ],
+          "answer": "Wheels go round",
+          "promptZh": "車輪不停地轉動，一圈又一圈"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "Listening detail: {{blank}}",
+          "options": [
+            "round and down",
+            "round and around",
+            "round and round"
+          ],
+          "answer": "round and round",
+          "promptZh": "車輪不停地轉動，一圈又一圈"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "{{blank}}",
+          "options": [
+            "You're in my mind",
+            "You're on my mind",
+            "You're on my side"
+          ],
+          "answer": "You're on my mind",
+          "promptZh": "而我的心中，始終惦念著你"
+        },
+        {
+          "number": 6,
+          "lineId": "line-5",
+          "prompt": "{{blank}}",
+          "options": [
+            "Restless hearts",
+            "Restless nights",
+            "Breathless hearts"
+          ],
+          "answer": "Restless hearts",
+          "promptZh": "兩顆無法安定的心"
+        },
+        {
+          "number": 7,
+          "lineId": "line-6",
+          "prompt": "{{blank}}",
+          "options": [
+            "Sleep at home tonight",
+            "Sleep alone tonight",
+            "Sleep alone all night"
+          ],
+          "answer": "Sleep alone tonight",
+          "promptZh": "今夜又得各自孤單入眠"
+        },
+        {
+          "number": 8,
+          "lineId": "line-7",
+          "prompt": "{{blank}}",
+          "options": [
+            "Sending all my love",
+            "Sending you my love",
+            "Saving all my love"
+          ],
+          "answer": "Sending all my love",
+          "promptZh": "我將滿腔的愛與思念"
+        },
+        {
+          "number": 9,
+          "lineId": "line-8",
+          "prompt": "{{blank}}",
+          "options": [
+            "Across the wire",
+            "Along the wire",
+            "Along the way"
+          ],
+          "answer": "Along the wire",
+          "promptZh": "沿著電話線，傳送到你身邊"
+        },
+        {
+          "number": 10,
+          "lineId": "line-9",
+          "prompt": "They say that {{blank}} to start a family",
+          "options": [
+            "the road ain't no place",
+            "the road ain't our place",
+            "the road is no place"
+          ],
+          "answer": "the road ain't no place",
+          "promptZh": "人們總說，四處奔波的生活，不適合建立一個家"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "They say that the road ain't no place {{blank}}",
+          "options": [
+            "to start a family",
+            "to raise a family",
+            "to start a journey"
+          ],
+          "answer": "to start a family",
+          "promptZh": "人們總說，四處奔波的生活，不適合建立一個家"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "{{blank}} it's been you and me",
+          "options": [
+            "Right on the line",
+            "Right down the road",
+            "Right down the line"
+          ],
+          "answer": "Right down the line",
+          "promptZh": "可一路走來，始終都是你與我攜手相伴"
+        },
+        {
+          "number": 13,
+          "lineId": "line-10",
+          "prompt": "Right down the line {{blank}}",
+          "options": [
+            "it's been you and me",
+            "it's just you and me",
+            "it's been you and I"
+          ],
+          "answer": "it's been you and me",
+          "promptZh": "可一路走來，始終都是你與我攜手相伴"
+        },
+        {
+          "number": 14,
+          "lineId": "line-11",
+          "prompt": "And {{blank}} ain't always what it's supposed to be",
+          "options": [
+            "lovin' a working man",
+            "lovin' a music man",
+            "lovin' a musician"
+          ],
+          "answer": "lovin' a music man",
+          "promptZh": "而愛上一個四處巡演的音樂人，也未必如想像中那般美好"
+        },
+        {
+          "number": 15,
+          "lineId": "line-11",
+          "prompt": "And lovin' a music man {{blank}}",
+          "options": [
+            "ain't quite what it's supposed to be",
+            "ain't always what it's supposed to be",
+            "is always what it's supposed to be"
+          ],
+          "answer": "ain't always what it's supposed to be",
+          "promptZh": "而愛上一個四處巡演的音樂人，也未必如想像中那般美好"
+        },
+        {
+          "number": 16,
+          "lineId": "line-12",
+          "prompt": "Oh, girl, {{blank}}",
+          "options": [
+            "you stand by me",
+            "you stay with me",
+            "you stand beside me"
+          ],
+          "answer": "you stand by me",
+          "promptZh": "噢，親愛的，你卻始終陪伴著我，堅定地支持我"
+        },
+        {
+          "number": 17,
+          "lineId": "line-13",
+          "prompt": "{{blank}}",
+          "options": [
+            "I'm always yours",
+            "I'm forever young",
+            "I'm forever yours"
+          ],
+          "answer": "I'm forever yours",
+          "promptZh": "我永遠屬於你"
+        },
+        {
+          "number": 18,
+          "lineId": "line-14",
+          "prompt": "{{blank}}",
+          "options": [
+            "Thankfully",
+            "Faithfully",
+            "Faith in me"
+          ],
+          "answer": "Faithfully",
+          "promptZh": "此心不渝，始終如一"
+        },
+        {
+          "number": 19,
+          "lineId": "line-15",
+          "prompt": "{{blank}}",
+          "options": [
+            "Circus lights",
+            "Circus life",
+            "Certain life"
+          ],
+          "answer": "Circus life",
+          "promptZh": "這如馬戲團般奔波的生活"
+        },
+        {
+          "number": 20,
+          "lineId": "line-16",
+          "prompt": "Under the {{blank}}",
+          "options": [
+            "big top world",
+            "big wide world",
+            "big top show"
+          ],
+          "answer": "big top world",
+          "promptZh": "在這座如巨型馬戲帳篷般的世界裡"
+        },
+        {
+          "number": 21,
+          "lineId": "line-17",
+          "prompt": "We all {{blank}}",
+          "options": [
+            "meet the clowns",
+            "need the crowds",
+            "need the clowns"
+          ],
+          "answer": "need the clowns",
+          "promptZh": "我們都需要那些小丑"
+        },
+        {
+          "number": 22,
+          "lineId": "line-18",
+          "prompt": "To {{blank}}",
+          "options": [
+            "make us smile",
+            "make me smile",
+            "make us cry"
+          ],
+          "answer": "make us smile",
+          "promptZh": "來逗我們展露笑容"
+        },
+        {
+          "number": 23,
+          "lineId": "line-19",
+          "prompt": "Through {{blank}}",
+          "options": [
+            "space and time",
+            "place and time",
+            "space in time"
+          ],
+          "answer": "space and time",
+          "promptZh": "跨越漫長的時空與距離"
+        },
+        {
+          "number": 24,
+          "lineId": "line-20",
+          "prompt": "Always {{blank}}",
+          "options": [
+            "another road",
+            "another chance",
+            "another show"
+          ],
+          "answer": "another show",
+          "promptZh": "總有下一場演出在等待"
+        },
+        {
+          "number": 25,
+          "lineId": "line-21",
+          "prompt": "{{blank}}",
+          "options": [
+            "Wondering who I am",
+            "Wondering where I am",
+            "Wandering where I am"
+          ],
+          "answer": "Wondering where I am",
+          "promptZh": "有時連自己身在何處都感到茫然"
+        },
+        {
+          "number": 26,
+          "lineId": "line-22",
+          "prompt": "{{blank}}",
+          "options": [
+            "I'm lost around you",
+            "I'm here without you",
+            "I'm lost without you"
+          ],
+          "answer": "I'm lost without you",
+          "promptZh": "沒有你，我便迷失了方向"
+        },
+        {
+          "number": 27,
+          "lineId": "line-23",
+          "prompt": "And {{blank}} on this love affair",
+          "options": [
+            "being alone ain't easy",
+            "being apart ain't easy",
+            "being apart is easy"
+          ],
+          "answer": "being apart ain't easy",
+          "promptZh": "而長久分離，對這段感情而言，實在不是件容易的事"
+        },
+        {
+          "number": 28,
+          "lineId": "line-23",
+          "prompt": "And being apart ain't easy {{blank}}",
+          "options": [
+            "in this love affair",
+            "on this long affair",
+            "on this love affair"
+          ],
+          "answer": "on this love affair",
+          "promptZh": "而長久分離，對這段感情而言，實在不是件容易的事"
+        },
+        {
+          "number": 29,
+          "lineId": "line-24",
+          "prompt": "Two strangers learn to {{blank}}",
+          "options": [
+            "fall in love at last",
+            "find our love again",
+            "fall in love again"
+          ],
+          "answer": "fall in love again",
+          "promptZh": "兩個彷彿陌生的人，重新學習如何愛上彼此"
+        },
+        {
+          "number": 30,
+          "lineId": "line-25",
+          "prompt": "I get the {{blank}}",
+          "options": [
+            "joy of rediscovering you",
+            "joy of remembering you",
+            "joy of discovering love"
+          ],
+          "answer": "joy of rediscovering you",
+          "promptZh": "而我也再次體會到，重新認識你的喜悅"
+        },
+        {
+          "number": 31,
+          "lineId": "line-30",
+          "prompt": "{{blank}}",
+          "options": [
+            "I'm all yours",
+            "I'm still yours",
+            "I'm still here"
+          ],
+          "answer": "I'm still yours",
+          "promptZh": "我的心，依然屬於你"
+        },
+        {
+          "number": 32,
+          "lineId": "line-31",
+          "prompt": "{{blank}}",
+          "options": [
+            "I'm forever here",
+            "I'm forever yours",
+            "I'm always yours"
+          ],
+          "answer": "I'm forever yours",
+          "promptZh": "我永遠屬於你"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Into the {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}} and round  · 聆聽細節：{{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:5}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:6}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:7}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:8}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:9}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "They say that {{q:10}} {{q:11}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:12}} {{q:13}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And {{q:14}} {{q:15}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Oh, girl, {{q:16}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:18}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:19}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Under the {{q:20}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "We all {{q:21}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "To {{q:22}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Through {{q:23}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Always {{q:24}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:26}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And {{q:27}} {{q:28}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Two strangers learn to {{q:29}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I get the {{q:30}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Oh, girl, you stand by me"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I'm forever yours"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Faithfully"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Faithfully"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:31}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Ever yours"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Faithfully"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}}",
+          "options": [
+            "Highway road",
+            "Highway ride",
+            "Highway run"
+          ],
+          "answer": "Highway run",
+          "promptZh": "奔馳在漫長的公路上"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Into the {{blank}}",
+          "options": [
+            "midnight song",
+            "midnight sun",
+            "midnight sky"
+          ],
+          "answer": "midnight sun",
+          "promptZh": "一路駛向午夜的陽光"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}} and round",
+          "options": [
+            "Wheels go down",
+            "Wheels go round",
+            "We go round"
+          ],
+          "answer": "Wheels go round",
+          "promptZh": "車輪不停地轉動，一圈又一圈"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "Listening detail: {{blank}}",
+          "options": [
+            "round and down",
+            "round and around",
+            "round and round"
+          ],
+          "answer": "round and round",
+          "promptZh": "車輪不停地轉動，一圈又一圈"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "{{blank}}",
+          "options": [
+            "You're in my mind",
+            "You're on my mind",
+            "You're on my side"
+          ],
+          "answer": "You're on my mind",
+          "promptZh": "而我的心中，始終惦念著你"
+        },
+        {
+          "number": 6,
+          "lineId": "line-5",
+          "prompt": "{{blank}}",
+          "options": [
+            "Restless nights",
+            "Breathless hearts",
+            "Restless hearts"
+          ],
+          "answer": "Restless hearts",
+          "promptZh": "兩顆無法安定的心"
+        },
+        {
+          "number": 7,
+          "lineId": "line-6",
+          "prompt": "{{blank}}",
+          "options": [
+            "Sleep at home tonight",
+            "Sleep alone all night",
+            "Sleep alone tonight"
+          ],
+          "answer": "Sleep alone tonight",
+          "promptZh": "今夜又得各自孤單入眠"
+        },
+        {
+          "number": 8,
+          "lineId": "line-7",
+          "prompt": "{{blank}}",
+          "options": [
+            "Sending you my love",
+            "Sending all my love",
+            "Saving all my love"
+          ],
+          "answer": "Sending all my love",
+          "promptZh": "我將滿腔的愛與思念"
+        },
+        {
+          "number": 9,
+          "lineId": "line-8",
+          "prompt": "{{blank}}",
+          "options": [
+            "Along the wire",
+            "Across the wire",
+            "Along the way"
+          ],
+          "answer": "Along the wire",
+          "promptZh": "沿著電話線，傳送到你身邊"
+        },
+        {
+          "number": 10,
+          "lineId": "line-9",
+          "prompt": "They say that {{blank}} to start a family",
+          "options": [
+            "the road ain't our place",
+            "the road is no place",
+            "the road ain't no place"
+          ],
+          "answer": "the road ain't no place",
+          "promptZh": "人們總說，四處奔波的生活，不適合建立一個家"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "They say that the road ain't no place {{blank}}",
+          "options": [
+            "to raise a family",
+            "to start a family",
+            "to start a journey"
+          ],
+          "answer": "to start a family",
+          "promptZh": "人們總說，四處奔波的生活，不適合建立一個家"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "{{blank}} it's been you and me",
+          "options": [
+            "Right down the line",
+            "Right on the line",
+            "Right down the road"
+          ],
+          "answer": "Right down the line",
+          "promptZh": "可一路走來，始終都是你與我攜手相伴"
+        },
+        {
+          "number": 13,
+          "lineId": "line-10",
+          "prompt": "Right down the line {{blank}}",
+          "options": [
+            "it's just you and me",
+            "it's been you and me",
+            "it's been you and I"
+          ],
+          "answer": "it's been you and me",
+          "promptZh": "可一路走來，始終都是你與我攜手相伴"
+        },
+        {
+          "number": 14,
+          "lineId": "line-11",
+          "prompt": "And {{blank}} ain't always what it's supposed to be",
+          "options": [
+            "lovin' a working man",
+            "lovin' a music man",
+            "lovin' a musician"
+          ],
+          "answer": "lovin' a music man",
+          "promptZh": "而愛上一個四處巡演的音樂人，也未必如想像中那般美好"
+        },
+        {
+          "number": 15,
+          "lineId": "line-11",
+          "prompt": "And lovin' a music man {{blank}}",
+          "options": [
+            "ain't always what it's supposed to be",
+            "ain't quite what it's supposed to be",
+            "is always what it's supposed to be"
+          ],
+          "answer": "ain't always what it's supposed to be",
+          "promptZh": "而愛上一個四處巡演的音樂人，也未必如想像中那般美好"
+        },
+        {
+          "number": 16,
+          "lineId": "line-12",
+          "prompt": "Oh, girl, {{blank}}",
+          "options": [
+            "you stay with me",
+            "you stand beside me",
+            "you stand by me"
+          ],
+          "answer": "you stand by me",
+          "promptZh": "噢，親愛的，你卻始終陪伴著我，堅定地支持我"
+        },
+        {
+          "number": 17,
+          "lineId": "line-13",
+          "prompt": "{{blank}}",
+          "options": [
+            "I'm forever yours",
+            "I'm always yours",
+            "I'm forever young"
+          ],
+          "answer": "I'm forever yours",
+          "promptZh": "我永遠屬於你"
+        },
+        {
+          "number": 18,
+          "lineId": "line-14",
+          "prompt": "{{blank}}",
+          "options": [
+            "Thankfully",
+            "Faithfully",
+            "Faith in me"
+          ],
+          "answer": "Faithfully",
+          "promptZh": "此心不渝，始終如一"
+        },
+        {
+          "number": 19,
+          "lineId": "line-15",
+          "prompt": "{{blank}}",
+          "options": [
+            "Circus life",
+            "Circus lights",
+            "Certain life"
+          ],
+          "answer": "Circus life",
+          "promptZh": "這如馬戲團般奔波的生活"
+        },
+        {
+          "number": 20,
+          "lineId": "line-16",
+          "prompt": "Under the {{blank}}",
+          "options": [
+            "big wide world",
+            "big top show",
+            "big top world"
+          ],
+          "answer": "big top world",
+          "promptZh": "在這座如巨型馬戲帳篷般的世界裡"
+        },
+        {
+          "number": 21,
+          "lineId": "line-17",
+          "prompt": "We all {{blank}}",
+          "options": [
+            "meet the clowns",
+            "need the crowds",
+            "need the clowns"
+          ],
+          "answer": "need the clowns",
+          "promptZh": "我們都需要那些小丑"
+        },
+        {
+          "number": 22,
+          "lineId": "line-18",
+          "prompt": "To {{blank}}",
+          "options": [
+            "make us smile",
+            "make me smile",
+            "make us cry"
+          ],
+          "answer": "make us smile",
+          "promptZh": "來逗我們展露笑容"
+        },
+        {
+          "number": 23,
+          "lineId": "line-19",
+          "prompt": "Through {{blank}}",
+          "options": [
+            "place and time",
+            "space in time",
+            "space and time"
+          ],
+          "answer": "space and time",
+          "promptZh": "跨越漫長的時空與距離"
+        },
+        {
+          "number": 24,
+          "lineId": "line-20",
+          "prompt": "Always {{blank}}",
+          "options": [
+            "another show",
+            "another road",
+            "another chance"
+          ],
+          "answer": "another show",
+          "promptZh": "總有下一場演出在等待"
+        },
+        {
+          "number": 25,
+          "lineId": "line-21",
+          "prompt": "{{blank}}",
+          "options": [
+            "Wondering where I am",
+            "Wondering who I am",
+            "Wandering where I am"
+          ],
+          "answer": "Wondering where I am",
+          "promptZh": "有時連自己身在何處都感到茫然"
+        },
+        {
+          "number": 26,
+          "lineId": "line-22",
+          "prompt": "{{blank}}",
+          "options": [
+            "I'm lost around you",
+            "I'm lost without you",
+            "I'm here without you"
+          ],
+          "answer": "I'm lost without you",
+          "promptZh": "沒有你，我便迷失了方向"
+        },
+        {
+          "number": 27,
+          "lineId": "line-23",
+          "prompt": "And {{blank}} on this love affair",
+          "options": [
+            "being alone ain't easy",
+            "being apart ain't easy",
+            "being apart is easy"
+          ],
+          "answer": "being apart ain't easy",
+          "promptZh": "而長久分離，對這段感情而言，實在不是件容易的事"
+        },
+        {
+          "number": 28,
+          "lineId": "line-23",
+          "prompt": "And being apart ain't easy {{blank}}",
+          "options": [
+            "on this love affair",
+            "in this love affair",
+            "on this long affair"
+          ],
+          "answer": "on this love affair",
+          "promptZh": "而長久分離，對這段感情而言，實在不是件容易的事"
+        },
+        {
+          "number": 29,
+          "lineId": "line-24",
+          "prompt": "{{blank}} learn to fall in love again",
+          "options": [
+            "True strangers",
+            "Two lovers",
+            "Two strangers"
+          ],
+          "answer": "Two strangers",
+          "promptZh": "兩個彷彿陌生的人，重新學習如何愛上彼此"
+        },
+        {
+          "number": 30,
+          "lineId": "line-24",
+          "prompt": "Two strangers learn to {{blank}}",
+          "options": [
+            "fall in love again",
+            "fall in love at last",
+            "find our love again"
+          ],
+          "answer": "fall in love again",
+          "promptZh": "兩個彷彿陌生的人，重新學習如何愛上彼此"
+        },
+        {
+          "number": 31,
+          "lineId": "line-25",
+          "prompt": "I get the {{blank}}",
+          "options": [
+            "joy of rediscovering you",
+            "joy of remembering you",
+            "joy of discovering love"
+          ],
+          "answer": "joy of rediscovering you",
+          "promptZh": "而我也再次體會到，重新認識你的喜悅"
+        },
+        {
+          "number": 32,
+          "lineId": "line-26",
+          "prompt": "Oh, girl, {{blank}}",
+          "options": [
+            "you stay by me",
+            "you stand with me",
+            "you stand by me"
+          ],
+          "answer": "you stand by me",
+          "promptZh": "噢，親愛的，你卻始終陪伴著我，堅定地支持我"
+        },
+        {
+          "number": 33,
+          "lineId": "line-27",
+          "prompt": "{{blank}}",
+          "options": [
+            "I'm still forever yours",
+            "I'm forever yours",
+            "I'm forever young"
+          ],
+          "answer": "I'm forever yours",
+          "promptZh": "我永遠屬於你"
+        },
+        {
+          "number": 34,
+          "lineId": "line-28",
+          "prompt": "{{blank}}",
+          "options": [
+            "Faithfully",
+            "Faith in me",
+            "Thankfully"
+          ],
+          "answer": "Faithfully",
+          "promptZh": "此心不渝，始終如一"
+        },
+        {
+          "number": 35,
+          "lineId": "line-29",
+          "prompt": "{{blank}}",
+          "options": [
+            "Faithfulness",
+            "Thankfully",
+            "Faithfully"
+          ],
+          "answer": "Faithfully",
+          "promptZh": "此心不渝，始終如一"
+        },
+        {
+          "number": 36,
+          "lineId": "line-30",
+          "prompt": "{{blank}}",
+          "options": [
+            "I'm still yours",
+            "I'm all yours",
+            "I'm still here"
+          ],
+          "answer": "I'm still yours",
+          "promptZh": "我的心，依然屬於你"
+        },
+        {
+          "number": 37,
+          "lineId": "line-31",
+          "prompt": "{{blank}}",
+          "options": [
+            "I'm forever here",
+            "I'm forever yours",
+            "I'm always yours"
+          ],
+          "answer": "I'm forever yours",
+          "promptZh": "我永遠屬於你"
+        },
+        {
+          "number": 38,
+          "lineId": "line-32",
+          "prompt": "{{blank}}",
+          "options": [
+            "Never yours",
+            "Ever yours",
+            "Forever yours"
+          ],
+          "answer": "Ever yours",
+          "promptZh": "永遠都是你的"
+        },
+        {
+          "number": 39,
+          "lineId": "line-9",
+          "prompt": "Listening detail: {{blank}}",
+          "options": [
+            "They say that the road",
+            "They say down the road",
+            "They say that our road"
+          ],
+          "answer": "They say that the road",
+          "promptZh": "人們總說，四處奔波的生活，不適合建立一個家"
+        },
+        {
+          "number": 40,
+          "lineId": "line-12",
+          "prompt": "{{blank}}, you stand by me",
+          "options": [
+            "Oh, dear",
+            "Oh, love",
+            "Oh, girl"
+          ],
+          "answer": "Oh, girl",
+          "promptZh": "噢，親愛的，你卻始終陪伴著我，堅定地支持我"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Into the {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}} and round  · 聆聽細節：{{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:5}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:6}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:7}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:8}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:9}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "They say that {{q:10}} {{q:11}}  · 聆聽細節：{{q:39}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:12}} {{q:13}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And {{q:14}} {{q:15}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:40}}, {{q:16}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:18}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:19}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Under the {{q:20}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "We all {{q:21}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "To {{q:22}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Through {{q:23}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Always {{q:24}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:26}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And {{q:27}} {{q:28}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:29}} learn to {{q:30}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I get the {{q:31}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Oh, girl, {{q:32}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:33}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:34}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:35}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:36}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:37}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:38}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Faithfully"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}}",
+          "options": [
+            "Highway road",
+            "Highway ride",
+            "Highway run"
+          ],
+          "answer": "Highway run",
+          "promptZh": "奔馳在漫長的公路上"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Into the {{blank}}",
+          "options": [
+            "midnight song",
+            "midnight sky",
+            "midnight sun"
+          ],
+          "answer": "midnight sun",
+          "promptZh": "一路駛向午夜的陽光"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}} and round",
+          "options": [
+            "Wheels go round",
+            "Wheels go down",
+            "We go round"
+          ],
+          "answer": "Wheels go round",
+          "promptZh": "車輪不停地轉動，一圈又一圈"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "Listening detail: {{blank}}",
+          "options": [
+            "round and round",
+            "round and down",
+            "round and around"
+          ],
+          "answer": "round and round",
+          "promptZh": "車輪不停地轉動，一圈又一圈"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "{{blank}}",
+          "options": [
+            "You're in my mind",
+            "You're on my side",
+            "You're on my mind"
+          ],
+          "answer": "You're on my mind",
+          "promptZh": "而我的心中，始終惦念著你"
+        },
+        {
+          "number": 6,
+          "lineId": "line-5",
+          "prompt": "{{blank}}",
+          "options": [
+            "Restless hearts",
+            "Restless nights",
+            "Breathless hearts"
+          ],
+          "answer": "Restless hearts",
+          "promptZh": "兩顆無法安定的心"
+        },
+        {
+          "number": 7,
+          "lineId": "line-6",
+          "prompt": "{{blank}}",
+          "options": [
+            "Sleep at home tonight",
+            "Sleep alone tonight",
+            "Sleep alone all night"
+          ],
+          "answer": "Sleep alone tonight",
+          "promptZh": "今夜又得各自孤單入眠"
+        },
+        {
+          "number": 8,
+          "lineId": "line-7",
+          "prompt": "{{blank}}",
+          "options": [
+            "Sending all my love",
+            "Sending you my love",
+            "Saving all my love"
+          ],
+          "answer": "Sending all my love",
+          "promptZh": "我將滿腔的愛與思念"
+        },
+        {
+          "number": 9,
+          "lineId": "line-8",
+          "prompt": "{{blank}}",
+          "options": [
+            "Along the wire",
+            "Across the wire",
+            "Along the way"
+          ],
+          "answer": "Along the wire",
+          "promptZh": "沿著電話線，傳送到你身邊"
+        },
+        {
+          "number": 10,
+          "lineId": "line-9",
+          "prompt": "They say that {{blank}} to start a family",
+          "options": [
+            "the road ain't our place",
+            "the road ain't no place",
+            "the road is no place"
+          ],
+          "answer": "the road ain't no place",
+          "promptZh": "人們總說，四處奔波的生活，不適合建立一個家"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "They say that the road ain't no place {{blank}}",
+          "options": [
+            "to start a family",
+            "to raise a family",
+            "to start a journey"
+          ],
+          "answer": "to start a family",
+          "promptZh": "人們總說，四處奔波的生活，不適合建立一個家"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "Listening detail: {{blank}}",
+          "options": [
+            "Right on the line",
+            "Right down the road",
+            "Right down the line"
+          ],
+          "answer": "Right down the line",
+          "promptZh": "可一路走來，始終都是你與我攜手相伴"
+        },
+        {
+          "number": 13,
+          "lineId": "line-10",
+          "prompt": "Listening detail: {{blank}}",
+          "options": [
+            "it's been you and me",
+            "it's just you and me",
+            "it's been you and I"
+          ],
+          "answer": "it's been you and me",
+          "promptZh": "可一路走來，始終都是你與我攜手相伴"
+        },
+        {
+          "number": 14,
+          "lineId": "line-11",
+          "prompt": "And {{blank}} ain't always what it's supposed to be",
+          "options": [
+            "lovin' a music man",
+            "lovin' a working man",
+            "lovin' a musician"
+          ],
+          "answer": "lovin' a music man",
+          "promptZh": "而愛上一個四處巡演的音樂人，也未必如想像中那般美好"
+        },
+        {
+          "number": 15,
+          "lineId": "line-11",
+          "prompt": "And lovin' a music man {{blank}}",
+          "options": [
+            "ain't quite what it's supposed to be",
+            "is always what it's supposed to be",
+            "ain't always what it's supposed to be"
+          ],
+          "answer": "ain't always what it's supposed to be",
+          "promptZh": "而愛上一個四處巡演的音樂人，也未必如想像中那般美好"
+        },
+        {
+          "number": 16,
+          "lineId": "line-12",
+          "prompt": "Oh, girl, {{blank}}",
+          "options": [
+            "you stand by me",
+            "you stay with me",
+            "you stand beside me"
+          ],
+          "answer": "you stand by me",
+          "promptZh": "噢，親愛的，你卻始終陪伴著我，堅定地支持我"
+        },
+        {
+          "number": 17,
+          "lineId": "line-13",
+          "prompt": "{{blank}}",
+          "options": [
+            "I'm always yours",
+            "I'm forever yours",
+            "I'm forever young"
+          ],
+          "answer": "I'm forever yours",
+          "promptZh": "我永遠屬於你"
+        },
+        {
+          "number": 18,
+          "lineId": "line-14",
+          "prompt": "{{blank}}",
+          "options": [
+            "Thankfully",
+            "Faithfully",
+            "Faith in me"
+          ],
+          "answer": "Faithfully",
+          "promptZh": "此心不渝，始終如一"
+        },
+        {
+          "number": 19,
+          "lineId": "line-15",
+          "prompt": "{{blank}}",
+          "options": [
+            "Circus life",
+            "Circus lights",
+            "Certain life"
+          ],
+          "answer": "Circus life",
+          "promptZh": "這如馬戲團般奔波的生活"
+        },
+        {
+          "number": 20,
+          "lineId": "line-16",
+          "prompt": "Listening detail: {{blank}}",
+          "options": [
+            "big wide world",
+            "big top show",
+            "big top world"
+          ],
+          "answer": "big top world",
+          "promptZh": "在這座如巨型馬戲帳篷般的世界裡"
+        },
+        {
+          "number": 21,
+          "lineId": "line-17",
+          "prompt": "We all {{blank}}",
+          "options": [
+            "meet the clowns",
+            "need the clowns",
+            "need the crowds"
+          ],
+          "answer": "need the clowns",
+          "promptZh": "我們都需要那些小丑"
+        },
+        {
+          "number": 22,
+          "lineId": "line-18",
+          "prompt": "To {{blank}}",
+          "options": [
+            "make me smile",
+            "make us cry",
+            "make us smile"
+          ],
+          "answer": "make us smile",
+          "promptZh": "來逗我們展露笑容"
+        },
+        {
+          "number": 23,
+          "lineId": "line-19",
+          "prompt": "Listening detail: {{blank}}",
+          "options": [
+            "place and time",
+            "space and time",
+            "space in time"
+          ],
+          "answer": "space and time",
+          "promptZh": "跨越漫長的時空與距離"
+        },
+        {
+          "number": 24,
+          "lineId": "line-20",
+          "prompt": "Listening detail: {{blank}}",
+          "options": [
+            "another road",
+            "another chance",
+            "another show"
+          ],
+          "answer": "another show",
+          "promptZh": "總有下一場演出在等待"
+        },
+        {
+          "number": 25,
+          "lineId": "line-21",
+          "prompt": "{{blank}}",
+          "options": [
+            "Wondering where I am",
+            "Wondering who I am",
+            "Wandering where I am"
+          ],
+          "answer": "Wondering where I am",
+          "promptZh": "有時連自己身在何處都感到茫然"
+        },
+        {
+          "number": 26,
+          "lineId": "line-22",
+          "prompt": "{{blank}}",
+          "options": [
+            "I'm lost around you",
+            "I'm lost without you",
+            "I'm here without you"
+          ],
+          "answer": "I'm lost without you",
+          "promptZh": "沒有你，我便迷失了方向"
+        },
+        {
+          "number": 27,
+          "lineId": "line-23",
+          "prompt": "Listening detail: {{blank}}",
+          "options": [
+            "being apart ain't easy",
+            "being alone ain't easy",
+            "being apart is easy"
+          ],
+          "answer": "being apart ain't easy",
+          "promptZh": "而長久分離，對這段感情而言，實在不是件容易的事"
+        },
+        {
+          "number": 28,
+          "lineId": "line-23",
+          "prompt": "Listening detail: {{blank}}",
+          "options": [
+            "on this love affair",
+            "in this love affair",
+            "on this long affair"
+          ],
+          "answer": "on this love affair",
+          "promptZh": "而長久分離，對這段感情而言，實在不是件容易的事"
+        },
+        {
+          "number": 29,
+          "lineId": "line-24",
+          "prompt": "{{blank}} learn to fall in love again",
+          "options": [
+            "True strangers",
+            "Two strangers",
+            "Two lovers"
+          ],
+          "answer": "Two strangers",
+          "promptZh": "兩個彷彿陌生的人，重新學習如何愛上彼此"
+        },
+        {
+          "number": 30,
+          "lineId": "line-24",
+          "prompt": "Listening detail: {{blank}}",
+          "options": [
+            "fall in love at last",
+            "find our love again",
+            "fall in love again"
+          ],
+          "answer": "fall in love again",
+          "promptZh": "兩個彷彿陌生的人，重新學習如何愛上彼此"
+        },
+        {
+          "number": 31,
+          "lineId": "line-25",
+          "prompt": "I get the {{blank}}",
+          "options": [
+            "joy of remembering you",
+            "joy of discovering love",
+            "joy of rediscovering you"
+          ],
+          "answer": "joy of rediscovering you",
+          "promptZh": "而我也再次體會到，重新認識你的喜悅"
+        },
+        {
+          "number": 32,
+          "lineId": "line-26",
+          "prompt": "Oh, girl, {{blank}}",
+          "options": [
+            "you stay by me",
+            "you stand by me",
+            "you stand with me"
+          ],
+          "answer": "you stand by me",
+          "promptZh": "噢，親愛的，你卻始終陪伴著我，堅定地支持我"
+        },
+        {
+          "number": 33,
+          "lineId": "line-27",
+          "prompt": "{{blank}}",
+          "options": [
+            "I'm forever yours",
+            "I'm still forever yours",
+            "I'm forever young"
+          ],
+          "answer": "I'm forever yours",
+          "promptZh": "我永遠屬於你"
+        },
+        {
+          "number": 34,
+          "lineId": "line-28",
+          "prompt": "{{blank}}",
+          "options": [
+            "Faith in me",
+            "Faithfully",
+            "Thankfully"
+          ],
+          "answer": "Faithfully",
+          "promptZh": "此心不渝，始終如一"
+        },
+        {
+          "number": 35,
+          "lineId": "line-29",
+          "prompt": "{{blank}}",
+          "options": [
+            "Faithfulness",
+            "Thankfully",
+            "Faithfully"
+          ],
+          "answer": "Faithfully",
+          "promptZh": "此心不渝，始終如一"
+        },
+        {
+          "number": 36,
+          "lineId": "line-30",
+          "prompt": "{{blank}}",
+          "options": [
+            "I'm all yours",
+            "I'm still yours",
+            "I'm still here"
+          ],
+          "answer": "I'm still yours",
+          "promptZh": "我的心，依然屬於你"
+        },
+        {
+          "number": 37,
+          "lineId": "line-31",
+          "prompt": "{{blank}}",
+          "options": [
+            "I'm forever here",
+            "I'm always yours",
+            "I'm forever yours"
+          ],
+          "answer": "I'm forever yours",
+          "promptZh": "我永遠屬於你"
+        },
+        {
+          "number": 38,
+          "lineId": "line-32",
+          "prompt": "{{blank}}",
+          "options": [
+            "Ever yours",
+            "Never yours",
+            "Forever yours"
+          ],
+          "answer": "Ever yours",
+          "promptZh": "永遠都是你的"
+        },
+        {
+          "number": 39,
+          "lineId": "line-33",
+          "prompt": "{{blank}}",
+          "options": [
+            "Thankfully",
+            "Faithfully",
+            "Faithful me"
+          ],
+          "answer": "Faithfully",
+          "promptZh": "此心不渝，始終如一"
+        },
+        {
+          "number": 40,
+          "lineId": "line-9",
+          "prompt": "Listening detail: {{blank}}",
+          "options": [
+            "They say down the road",
+            "They say that our road",
+            "They say that the road"
+          ],
+          "answer": "They say that the road",
+          "promptZh": "人們總說，四處奔波的生活，不適合建立一個家"
+        },
+        {
+          "number": 41,
+          "lineId": "line-10",
+          "prompt": "{{blank}} you and me",
+          "options": [
+            "Right down the road it's been",
+            "Right down the line it is",
+            "Right down the line it's been"
+          ],
+          "answer": "Right down the line it's been",
+          "promptZh": "可一路走來，始終都是你與我攜手相伴"
+        },
+        {
+          "number": 42,
+          "lineId": "line-11",
+          "prompt": "Listening detail: {{blank}}",
+          "options": [
+            "what it's going to be",
+            "what it's supposed to be",
+            "what it was supposed to be"
+          ],
+          "answer": "what it's supposed to be",
+          "promptZh": "而愛上一個四處巡演的音樂人，也未必如想像中那般美好"
+        },
+        {
+          "number": 43,
+          "lineId": "line-12",
+          "prompt": "{{blank}}, you stand by me",
+          "options": [
+            "Oh, dear",
+            "Oh, girl",
+            "Oh, love"
+          ],
+          "answer": "Oh, girl",
+          "promptZh": "噢，親愛的，你卻始終陪伴著我，堅定地支持我"
+        },
+        {
+          "number": 44,
+          "lineId": "line-16",
+          "prompt": "{{blank}}",
+          "options": [
+            "Under the big top world",
+            "Under the bright top world",
+            "Under the big wide world"
+          ],
+          "answer": "Under the big top world",
+          "promptZh": "在這座如巨型馬戲帳篷般的世界裡"
+        },
+        {
+          "number": 45,
+          "lineId": "line-19",
+          "prompt": "{{blank}}",
+          "options": [
+            "Through place and time",
+            "Through space and time",
+            "Across space and time"
+          ],
+          "answer": "Through space and time",
+          "promptZh": "跨越漫長的時空與距離"
+        },
+        {
+          "number": 46,
+          "lineId": "line-20",
+          "prompt": "{{blank}}",
+          "options": [
+            "Always another road",
+            "Always another show",
+            "Almost another show"
+          ],
+          "answer": "Always another show",
+          "promptZh": "總有下一場演出在等待"
+        },
+        {
+          "number": 47,
+          "lineId": "line-21",
+          "prompt": "Listening detail: {{blank}}",
+          "options": [
+            "who I am",
+            "where you are",
+            "where I am"
+          ],
+          "answer": "where I am",
+          "promptZh": "有時連自己身在何處都感到茫然"
+        },
+        {
+          "number": 48,
+          "lineId": "line-23",
+          "prompt": "And being apart {{blank}}",
+          "options": [
+            "ain't easy in this love affair",
+            "ain't easy on this love affair",
+            "ain't simple on this love affair"
+          ],
+          "answer": "ain't easy on this love affair",
+          "promptZh": "而長久分離，對這段感情而言，實在不是件容易的事"
+        },
+        {
+          "number": 49,
+          "lineId": "line-24",
+          "prompt": "Two strangers {{blank}}",
+          "options": [
+            "learn to fall in love again",
+            "learn to find their love again",
+            "yearn to fall in love again"
+          ],
+          "answer": "learn to fall in love again",
+          "promptZh": "兩個彷彿陌生的人，重新學習如何愛上彼此"
+        },
+        {
+          "number": 50,
+          "lineId": "line-25",
+          "prompt": "Listening detail: {{blank}}",
+          "options": [
+            "remembering you",
+            "rediscovering love",
+            "rediscovering you"
+          ],
+          "answer": "rediscovering you",
+          "promptZh": "而我也再次體會到，重新認識你的喜悅"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Into the {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}} and round  · 聆聽細節：{{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:5}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:6}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:7}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:8}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:9}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "They say that {{q:10}} {{q:11}}  · 聆聽細節：{{q:40}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:41}} you and me  · 聆聽細節：{{q:12}}  · 聆聽細節：{{q:13}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And {{q:14}} {{q:15}}  · 聆聽細節：{{q:42}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:43}}, {{q:16}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:18}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:19}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:44}}  · 聆聽細節：{{q:20}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "We all {{q:21}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "To {{q:22}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:45}}  · 聆聽細節：{{q:23}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:46}}  · 聆聽細節：{{q:24}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:25}}  · 聆聽細節：{{q:47}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:26}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And being apart {{q:48}}  · 聆聽細節：{{q:27}}  · 聆聽細節：{{q:28}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:29}} {{q:49}}  · 聆聽細節：{{q:30}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I get the {{q:31}}  · 聆聽細節：{{q:50}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Oh, girl, {{q:32}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:33}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:34}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:35}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:36}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:37}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:38}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:39}}"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "On my mind",
+      "meaning": "一直想著、掛念著",
+      "usage": "當一件事或一個人一直在你心裡時使用。",
+      "prompt": "哪一句正確使用「On my mind」？",
+      "options": [
+        "I put my sandwich on my mind to eat it.",
+        "My test is on my mind because it is tomorrow.",
+        "My shoes are on my mind under the bed.",
+        "I go on my mind to the shop every day."
+      ],
+      "answer": 1,
+      "explanation": "正確：明天要考試，所以一直想著考試。",
+      "optionExplanations": [
+        "錯誤：on my mind 不是頭上的實際位置；可以說 I put my sandwich on the table.",
+        "正確：明天要考試，所以一直想著考試。",
+        "錯誤：鞋子放在床下應說 under the bed，不是 on my mind。",
+        "錯誤：這個片語不能表示交通方式；可以說 I walk to the shop."
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Round and round",
+      "meaning": "不停地轉圈、繞來繞去",
+      "usage": "形容輪子或人一直轉圈時使用。",
+      "prompt": "哪一句正確使用「Round and round」？",
+      "options": [
+        "The wheel goes round and round when I ride my bike.",
+        "My cat drinks round and round from a cup.",
+        "I am round and round years old.",
+        "She reads a round and round at school."
+      ],
+      "answer": 0,
+      "explanation": "正確：腳踏車輪子騎行時不停轉動。",
+      "optionExplanations": [
+        "正確：腳踏車輪子騎行時不停轉動。",
+        "錯誤：喝水不會用 round and round 表示；可以說 My cat drinks water.",
+        "錯誤：年齡不能用 round and round；可以說 I am twelve years old.",
+        "錯誤：round and round 不是一本書；可以說 She reads a book."
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Restless",
+      "meaning": "坐立不安的、難以平靜的",
+      "usage": "想動來動去、難以休息或睡覺時使用。",
+      "prompt": "哪一句正確使用「Restless」？",
+      "options": [
+        "The cake is restless because it has chocolate.",
+        "I felt restless and walked around my room all night.",
+        "I bought two restless at the shop.",
+        "She restless her phone before bed."
+      ],
+      "answer": 1,
+      "explanation": "正確：心裡不安，所以整晚在房間走來走去。",
+      "optionExplanations": [
+        "錯誤：蛋糕不會感到坐立不安；可以說 The cake is sweet.",
+        "正確：心裡不安，所以整晚在房間走來走去。",
+        "錯誤：restless 是形容詞，不是可數物品；可以說 two books.",
+        "錯誤：restless 不能當這裡的動詞；可以說 She checks her phone."
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Stand by someone",
+      "meaning": "支持某人、陪在某人身邊",
+      "usage": "朋友遇到困難，需要你支持時使用。",
+      "prompt": "哪一句正確使用「Stand by someone」？",
+      "options": [
+        "I stand by my homework with a pencil.",
+        "My sister stood by me when I was sad.",
+        "She stands by breakfast at seven every day.",
+        "The bus stands by me because it is blue."
+      ],
+      "answer": 1,
+      "explanation": "正確：姐姐在我難過時支持我。",
+      "optionExplanations": [
+        "錯誤：這裡不是支持某人；可以說 I do my homework with a pencil.",
+        "正確：姐姐在我難過時支持我。",
+        "錯誤：早餐不是要支持的人；可以說 She eats breakfast at seven.",
+        "錯誤：車子沒有因為顏色而支持人；可以說 The bus stops near me."
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Supposed to",
+      "meaning": "應該、照理說要",
+      "usage": "談規定、安排，或大家預期會發生的事時使用。",
+      "prompt": "哪一句正確使用「Supposed to」？",
+      "options": [
+        "I supposed to a new bike last week.",
+        "My soup is supposed to very delicious yesterday.",
+        "She supposed to the park every Friday.",
+        "We are supposed to be at school by eight."
+      ],
+      "answer": 3,
+      "explanation": "正確：表示照規定或安排，八點前應到學校。",
+      "optionExplanations": [
+        "錯誤：缺少 be，且後面需要動詞；可以說 I was supposed to buy a new bike.",
+        "錯誤：supposed to 後不能直接接 very delicious；可以說 My soup was supposed to be delicious.",
+        "錯誤：應說 She is supposed to go to the park.",
+        "正確：表示照規定或安排，八點前應到學校。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Make someone smile",
+      "meaning": "讓某人微笑",
+      "usage": "形容某件事讓人開心、露出笑容時使用。",
+      "prompt": "哪一句正確使用「Make someone smile」？",
+      "options": [
+        "I make my shoes smile before I run.",
+        "She makes smile her brother with a joke.",
+        "I make my dinner smile in the oven.",
+        "My dog makes me smile when he dances."
+      ],
+      "answer": 3,
+      "explanation": "正確：狗狗跳舞讓我開心微笑。",
+      "optionExplanations": [
+        "錯誤：鞋子不會真的微笑；可以說 I clean my shoes.",
+        "錯誤：語序應為 makes her brother smile。",
+        "錯誤：晚餐不是會微笑的人；可以說 I cook my dinner in the oven.",
+        "正確：狗狗跳舞讓我開心微笑。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Wonder where",
+      "meaning": "想知道……在哪裡",
+      "usage": "不知道人或東西的位置，心裡好奇時使用。",
+      "prompt": "哪一句正確使用「Wonder where」？",
+      "options": [
+        "I wonder where my keys are. I cannot find them.",
+        "I wonder where my lunch with a fork.",
+        "She wonders where blue her dress is.",
+        "We wonder where to happy every day."
+      ],
+      "answer": 0,
+      "explanation": "正確：找不到鑰匙，所以想知道它們在哪裡。",
+      "optionExplanations": [
+        "正確：找不到鑰匙，所以想知道它們在哪裡。",
+        "錯誤：where 後要有完整的子句；可以說 I wonder where my lunch is.",
+        "錯誤：間接問句語序不對；可以說 She wonders where her blue dress is.",
+        "錯誤：where to 後接動詞原形，不能接 happy；可以說 We wonder where to go."
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Be lost without someone",
+      "meaning": "沒有某人就不知所措、很不習慣",
+      "usage": "有人對你很重要，少了對方會不知道怎麼辦時使用。",
+      "prompt": "哪一句正確使用「Be lost without someone」？",
+      "options": [
+        "My phone is lost without a banana for dinner.",
+        "I lost without my pencil yesterday.",
+        "I would be lost without my best friend. She helps me a lot.",
+        "She is lost without blue on Tuesday."
+      ],
+      "answer": 2,
+      "explanation": "正確：表示好友很重要，沒有她就不知道怎麼辦。",
+      "optionExplanations": [
+        "錯誤：香蕉與手機不知所措無關；可以說 My phone is lost.",
+        "錯誤：這個片語要用 be；可以說 I was lost without my pencil.",
+        "正確：表示好友很重要，沒有她就不知道怎麼辦。",
+        "錯誤：without 後面的 blue 在此沒有清楚的意義；可以說 She feels sad on Tuesday."
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Be apart",
+      "meaning": "分開、相隔兩地",
+      "usage": "兩個人不在一起，尤其是因距離而分開時使用。",
+      "prompt": "哪一句正確使用「Be apart」？",
+      "options": [
+        "We are apart this week because I am in Taipei and she is in Tainan.",
+        "I apart my breakfast before school.",
+        "The book is apart very happy today.",
+        "She is apart to sing a song."
+      ],
+      "answer": 0,
+      "explanation": "正確：兩人分別在不同城市，所以暫時分開。",
+      "optionExplanations": [
+        "正確：兩人分別在不同城市，所以暫時分開。",
+        "錯誤：apart 不是這種用法的動詞；可以說 I eat my breakfast.",
+        "錯誤：apart 不能用來形容書本很開心；可以說 The book is on the table.",
+        "錯誤：be apart 不接 to + 動詞來表示準備；可以說 She is ready to sing."
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Fall in love again",
+      "meaning": "再次愛上、重新墜入愛河",
+      "usage": "描述再次產生愛意，或兩個人重新相愛時使用。",
+      "prompt": "哪一句正確使用「Fall in love again」？",
+      "options": [
+        "I fall in love again my homework at night.",
+        "My bike fell in love again to the bus stop.",
+        "After many years, they fell in love again.",
+        "She fall in love again yesterday with a cake."
+      ],
+      "answer": 2,
+      "explanation": "正確：形容多年後兩個人再次相愛。",
+      "optionExplanations": [
+        "錯誤：fall in love with 後可接對象，但這句缺少 with，意思也不自然；可以說 I do my homework at night.",
+        "錯誤：腳踏車不能這樣表示去公車站；可以說 I rode my bike to the bus stop.",
+        "正確：形容多年後兩個人再次相愛。",
+        "錯誤：過去式要用 fell，且這裡對蛋糕的感情表達不自然；可以說 She loved the cake."
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/faithfully/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/faithfully/user-cover-20261029.png",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 266.84275,
+    "audioSha256": "d4581ce053969c06ca59212735e21ab81bf978cdc1bf2a821f6a5597da684efe",
+    "timedLines": 21,
+    "untimedLines": 12,
+    "reviewStatus": "Conservative automatic line alignment; unmatched lines remain bilingual without a guessed cue."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Faithfully_.pdf",
+      "sha256": "8b462d096085945c4924d8e700aed66a16c2ab94a39af764e7ce4c0f6ac05a9d"
+    },
+    "docx": {
+      "filename": "Faithfully_Four_Level_Listening_Exercise.docx",
+      "sha256": "d126b9db1ad7b743c23ce005d3893d20de6e3601d3b3abf6424402d080b6a9b0"
+    },
+    "md": {
+      "filename": "Faithfully_Vocabulary_Quiz.md",
+      "sha256": "74c24a9eca94bace2c53871a30f468c5de6e14d39050a9335dd1783583880905"
+    },
+    "mp3": {
+      "filename": "Faithfully (2024 Remaster) [YalgKfrOdsI].mp3",
+      "sha256": "d4581ce053969c06ca59212735e21ab81bf978cdc1bf2a821f6a5597da684efe"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-ac95a08c-8cd2-41a2-aea1-1c54b9069f4a.png",
+    "sha256": "0d133ec61ac37f5d30f9b7819d6caf353450ec3494a698945c4490ae7d8fce07",
+    "transformations": "none",
+    "selectedOn": "2026-10-29"
+  }
+}
