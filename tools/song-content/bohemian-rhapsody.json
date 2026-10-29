@@ -1,0 +1,3324 @@
+{
+  "slug": "bohemian-rhapsody",
+  "title": "Bohemian Rhapsody",
+  "singer": "Queen",
+  "description": "《Bohemian Rhapsody》描寫一個人在罪疚、恐懼與命運之間掙扎的內心世界。歌中的主角像是在面對自己犯下的錯誤，既害怕承擔後果，又渴望逃離現實。他向母親告別，表達後悔與對死亡的恐懼，之後歌曲進入如歌劇般混亂而戲劇性的段落，象徵內心的審判、衝突與反抗。到了最後，他似乎逐漸放下掙扎，以「一切都不再重要」的態度接受命運。最終，《Bohemian Rhapsody》傳達的是對罪疚、自由、死亡與人生無常的深刻思考：人在面對無法改變的過去時，可能經歷恐懼、反抗與痛苦，最後只能學會接受自己的選擇與命運。",
+  "exercise_name": "Bohemian Rhapsody · Listening & Vocabulary",
+  "tags": [
+    "queen",
+    "bohemian rhapsody",
+    "fate",
+    "regret"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "Is this the real life?",
+      "chinese": "這是真實的人生嗎？",
+      "startSeconds": 0.0,
+      "endSeconds": 3.02
+    },
+    {
+      "lineId": "line-2",
+      "english": "Is this just fantasy?",
+      "chinese": "還是這一切只是一場幻夢？",
+      "startSeconds": 3.8,
+      "endSeconds": 6.06
+    },
+    {
+      "lineId": "line-3",
+      "english": "Caught in a landslide",
+      "chinese": "彷彿深陷山崩之中",
+      "startSeconds": 7.16,
+      "endSeconds": 9.84
+    },
+    {
+      "lineId": "line-4",
+      "english": "No escape from reality",
+      "chinese": "無處可逃，終究逃不出現實",
+      "startSeconds": 10.28,
+      "endSeconds": 13.26
+    },
+    {
+      "lineId": "line-5",
+      "english": "Open your eyes",
+      "chinese": "睜開你的雙眼",
+      "startSeconds": 14.74,
+      "endSeconds": 17.44
+    },
+    {
+      "lineId": "line-6",
+      "english": "Look up to the skies and see",
+      "chinese": "抬頭仰望蒼穹，仔細看看",
+      "startSeconds": 17.82,
+      "endSeconds": 22.64
+    },
+    {
+      "lineId": "line-7",
+      "english": "I'm just a poor boy, I need no sympathy",
+      "chinese": "我不過是個可憐的男孩，不需要任何人的憐憫"
+    },
+    {
+      "lineId": "line-8",
+      "english": "Because I'm easy come, easy go",
+      "chinese": "因為我向來隨遇而安，來去自如",
+      "startSeconds": 30.16,
+      "endSeconds": 34.84
+    },
+    {
+      "lineId": "line-9",
+      "english": "Little high, little low",
+      "chinese": "時而高昂，時而低落",
+      "startSeconds": 35.52,
+      "endSeconds": 38.26
+    },
+    {
+      "lineId": "line-10",
+      "english": "Any way the wind blows",
+      "chinese": "無論風往哪個方向吹",
+      "startSeconds": 38.26,
+      "endSeconds": 41.6
+    },
+    {
+      "lineId": "line-11",
+      "english": "Doesn't really matter to me, to me",
+      "chinese": "對我而言，都已無關緊要，無關緊要"
+    },
+    {
+      "lineId": "line-12",
+      "english": "Mama, just killed a man",
+      "chinese": "媽媽，我剛剛殺了一個人",
+      "startSeconds": 56.0,
+      "endSeconds": 60.9
+    },
+    {
+      "lineId": "line-13",
+      "english": "Put a gun against his head",
+      "chinese": "我將槍口抵住他的頭",
+      "startSeconds": 60.9,
+      "endSeconds": 64.5
+    },
+    {
+      "lineId": "line-14",
+      "english": "Pulled my trigger, now he's dead",
+      "chinese": "扣下扳機，如今他已死去",
+      "startSeconds": 64.5,
+      "endSeconds": 68.32
+    },
+    {
+      "lineId": "line-15",
+      "english": "Mama, life had just begun",
+      "chinese": "媽媽，我的人生才剛剛開始",
+      "startSeconds": 68.32,
+      "endSeconds": 74.2
+    },
+    {
+      "lineId": "line-16",
+      "english": "But now I've gone and thrown it all away",
+      "chinese": "可如今，我卻親手毀掉了這一切",
+      "startSeconds": 75.1,
+      "endSeconds": 80.96
+    },
+    {
+      "lineId": "line-17",
+      "english": "Mama, ooh",
+      "chinese": "媽媽，噢……",
+      "startSeconds": 86.18,
+      "endSeconds": 88.66
+    },
+    {
+      "lineId": "line-18",
+      "english": "Didn't mean to make you cry",
+      "chinese": "我並不是有意讓妳傷心落淚",
+      "startSeconds": 88.66,
+      "endSeconds": 91.78
+    },
+    {
+      "lineId": "line-19",
+      "english": "If I'm not back again this time tomorrow",
+      "chinese": "如果明天這個時候，我仍未歸來",
+      "startSeconds": 91.78,
+      "endSeconds": 96.96
+    },
+    {
+      "lineId": "line-20",
+      "english": "Carry on, carry on as if nothing really matters",
+      "chinese": "就繼續生活吧，繼續走下去，彷彿一切都無關緊要",
+      "startSeconds": 96.96,
+      "endSeconds": 104.72
+    },
+    {
+      "lineId": "line-21",
+      "english": "Too late, my time has come",
+      "chinese": "太遲了，我的時辰已經到了",
+      "startSeconds": 114.66,
+      "endSeconds": 119.9
+    },
+    {
+      "lineId": "line-22",
+      "english": "Sends shivers down my spine",
+      "chinese": "一陣寒顫沿著我的脊背襲來"
+    },
+    {
+      "lineId": "line-23",
+      "english": "Body's aching all the time",
+      "chinese": "全身無時無刻不在疼痛",
+      "startSeconds": 123.66,
+      "endSeconds": 127.4
+    },
+    {
+      "lineId": "line-24",
+      "english": "Goodbye, everybody, I've got to go",
+      "chinese": "再見了，各位，我必須離開了",
+      "startSeconds": 127.4,
+      "endSeconds": 134.06
+    },
+    {
+      "lineId": "line-25",
+      "english": "Gotta leave you all behind and face the truth",
+      "chinese": "我不得不將你們全都留在身後，獨自面對真相",
+      "startSeconds": 134.06,
+      "endSeconds": 140.86
+    },
+    {
+      "lineId": "line-26",
+      "english": "Mama, ooh (Any way the wind blows)",
+      "chinese": "媽媽，噢……（無論風往哪個方向吹）"
+    },
+    {
+      "lineId": "line-27",
+      "english": "I don't wanna die",
+      "chinese": "我不想死"
+    },
+    {
+      "lineId": "line-28",
+      "english": "I sometimes wish I'd never been born at all",
+      "chinese": "有時我甚至希望，自己從未來到這世上",
+      "startSeconds": 151.24,
+      "endSeconds": 156.7
+    },
+    {
+      "lineId": "line-29",
+      "english": "I see a little silhouetto of a man",
+      "chinese": "我看見一個男子小小的剪影",
+      "startSeconds": 185.64,
+      "endSeconds": 188.84
+    },
+    {
+      "lineId": "line-30",
+      "english": "Scaramouche, Scaramouche, will you do the Fandango?",
+      "chinese": "Scaramouche，Scaramouche，你願意跳一曲Fandango嗎？",
+      "startSeconds": 188.84,
+      "endSeconds": 192.3
+    },
+    {
+      "lineId": "line-31",
+      "english": "Thunderbolt and lightning very, very frightening me",
+      "chinese": "雷霆與閃電，令我萬分、萬分恐懼",
+      "startSeconds": 192.7,
+      "endSeconds": 196.18
+    },
+    {
+      "lineId": "line-32",
+      "english": "(Galileo) Galileo",
+      "chinese": "（Galileo）Galileo",
+      "startSeconds": 197.98,
+      "endSeconds": 199.26
+    },
+    {
+      "lineId": "line-33",
+      "english": "(Galileo) Galileo",
+      "chinese": "（Galileo）Galileo"
+    },
+    {
+      "lineId": "line-34",
+      "english": "Galileo Figaro",
+      "chinese": "GalileoFigaro"
+    },
+    {
+      "lineId": "line-35",
+      "english": "Magnifico-o-o-o-o",
+      "chinese": "多麼壯麗啊——"
+    },
+    {
+      "lineId": "line-36",
+      "english": "I'm just a poor boy, nobody loves me",
+      "chinese": "我不過是個可憐的男孩，沒有人愛我",
+      "startSeconds": 202.66,
+      "endSeconds": 205.94
+    },
+    {
+      "lineId": "line-37",
+      "english": "He's just a poor boy from a poor family",
+      "chinese": "他不過是個出身貧寒家庭的可憐男孩",
+      "startSeconds": 205.94,
+      "endSeconds": 208.72
+    },
+    {
+      "lineId": "line-38",
+      "english": "Spare him his life from this monstrosity",
+      "chinese": "求求你們饒他一命，讓他免受這可怕的厄運",
+      "startSeconds": 208.72,
+      "endSeconds": 211.94
+    },
+    {
+      "lineId": "line-39",
+      "english": "Easy come, easy go, will you let me go?",
+      "chinese": "來去本該自由，你們願意放我走嗎？",
+      "startSeconds": 213.74,
+      "endSeconds": 216.68
+    },
+    {
+      "lineId": "line-40",
+      "english": "Bismillah! No, we will not let you go (Let him go!)",
+      "chinese": "奉真主之名！不，我們絕不放你走！（放他走！）",
+      "startSeconds": 217.04,
+      "endSeconds": 220.66
+    },
+    {
+      "lineId": "line-41",
+      "english": "Bismillah! We will not let you go (Let him go!)",
+      "chinese": "奉真主之名！我們不會放你走！（放他走！）",
+      "startSeconds": 220.66,
+      "endSeconds": 223.82
+    },
+    {
+      "lineId": "line-42",
+      "english": "Bismillah! We will not let you go (Let me go!)",
+      "chinese": "奉真主之名！我們不會放你走！（放我走！）",
+      "startSeconds": 223.82,
+      "endSeconds": 226.68
+    },
+    {
+      "lineId": "line-43",
+      "english": "Will not let you go (Let me go!)",
+      "chinese": "絕不放你走！（放我走！）",
+      "startSeconds": 226.68,
+      "endSeconds": 228.24
+    },
+    {
+      "lineId": "line-44",
+      "english": "Never let you go (Never, never, never, never let me go)",
+      "chinese": "永遠不會放你走！（不，別這樣，別這樣，求你們放我走！）"
+    },
+    {
+      "lineId": "line-45",
+      "english": "Oh oh oh oh",
+      "chinese": "噢，噢，噢，噢"
+    },
+    {
+      "lineId": "line-46",
+      "english": "No, no, no, no, no, no, no",
+      "chinese": "不，不，不，不，不，不，不！"
+    },
+    {
+      "lineId": "line-47",
+      "english": "Oh, mamma mia, mamma mia (Mamma mia, let me go)",
+      "chinese": "噢，天哪，天哪！（天哪，放我走吧！）",
+      "startSeconds": 233.76,
+      "endSeconds": 237.14
+    },
+    {
+      "lineId": "line-48",
+      "english": "Beelzebub has a devil put aside for me, for me, for me",
+      "chinese": "Beelzebub早已為我預留了一個惡魔，專門等著我，等著我，等著我",
+      "startSeconds": 237.14,
+      "endSeconds": 246.68
+    },
+    {
+      "lineId": "line-49",
+      "english": "So you think you can stone me and spit in my eye?",
+      "chinese": "所以你以為，你能向我投石，還朝我臉上吐唾沫？",
+      "startSeconds": 254.54,
+      "endSeconds": 259.52
+    },
+    {
+      "lineId": "line-50",
+      "english": "So you think you can love me and leave me to die?",
+      "chinese": "所以你以為，你能愛過我之後，就任由我死去？",
+      "startSeconds": 259.52,
+      "endSeconds": 265.7
+    },
+    {
+      "lineId": "line-51",
+      "english": "Oh, baby, can't do this to me, baby",
+      "chinese": "噢，親愛的，妳不能這樣對我，親愛的",
+      "startSeconds": 265.7,
+      "endSeconds": 272.12
+    },
+    {
+      "lineId": "line-52",
+      "english": "Just gotta get out, just gotta get right outta here",
+      "chinese": "我一定得逃出去，一定得立刻逃離這個地方",
+      "startSeconds": 272.12,
+      "endSeconds": 277.06
+    },
+    {
+      "lineId": "line-53",
+      "english": "Ooh, ooh yeah, ooh yeah",
+      "chinese": "噢，噢，耶，噢，耶"
+    },
+    {
+      "lineId": "line-54",
+      "english": "Nothing really matters",
+      "chinese": "其實，一切都已無關緊要",
+      "startSeconds": 310.74,
+      "endSeconds": 314.58
+    },
+    {
+      "lineId": "line-55",
+      "english": "Anyone can see",
+      "chinese": "任誰都看得出來",
+      "startSeconds": 315.36,
+      "endSeconds": 317.86
+    },
+    {
+      "lineId": "line-56",
+      "english": "Nothing really matters",
+      "chinese": "其實，一切都已無關緊要",
+      "startSeconds": 317.86,
+      "endSeconds": 321.26
+    },
+    {
+      "lineId": "line-57",
+      "english": "Nothing really matters to me",
+      "chinese": "對我而言，一切都已無關緊要",
+      "startSeconds": 322.38,
+      "endSeconds": 328.56
+    },
+    {
+      "lineId": "line-58",
+      "english": "Any way the wind blows",
+      "chinese": "無論風往哪個方向吹"
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Fantasy",
+      "meaning": "幻想；想像出來、不是真實的事物",
+      "usage": "談夢想、故事或不可能發生的事情時，可以用 fantasy。",
+      "prompt": "哪一句正確使用了「Fantasy」？",
+      "options": [
+        "My fantasy is to have a pet dragon that can cook dinner.",
+        "I put my fantasy in the fridge to keep it cold.",
+        "Please fantasy the door before you leave.",
+        "My shoes are fantasy because they are size eight."
+      ],
+      "answer": 0,
+      "explanation": "正確：幻想養一隻會煮晚餐的龍，很符合 fantasy「幻想」的意思。",
+      "optionExplanations": [
+        "正確：幻想養一隻會煮晚餐的龍，很符合 fantasy「幻想」的意思。",
+        "錯誤：fantasy 是想像，不是能放進冰箱的食物。",
+        "錯誤：fantasy 通常是名詞，不能直接當「關門」的動詞。",
+        "錯誤：鞋子的尺寸不是「幻想」；可以說 My shoes are size eight。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Escape from",
+      "meaning": "逃離、擺脫……",
+      "usage": "想說從危險、困難的地方或情況離開時，可以用 escape from。",
+      "prompt": "哪一句正確使用了「Escape from」？",
+      "options": [
+        "I escape from my sandwich by eating it.",
+        "The cat escaped from the house through an open window.",
+        "She escaped from her shoes by buying a hat.",
+        "We escaped from our homework with a blue pencil."
+      ],
+      "answer": 1,
+      "explanation": "正確：貓從房子裡跑出去，就是 escape from。",
+      "optionExplanations": [
+        "錯誤：吃三明治不是從它「逃離」。",
+        "正確：貓從房子裡跑出去，就是 escape from。",
+        "錯誤：買帽子跟逃離鞋子沒有合理關係。",
+        "錯誤：藍色鉛筆不能讓人「逃離作業」；可說 We finished our homework。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Look up",
+      "meaning": "抬頭看；查找資料",
+      "usage": "要人抬頭看天空，或在字典、網路找資訊時，可以用 look up。",
+      "prompt": "哪一句正確使用了「Look up」？",
+      "options": [
+        "I looked up my soup and drank it.",
+        "He looks up his socks to make them clean.",
+        "She looked up her bike to ride to school.",
+        "Look up! There is a beautiful bird above us."
+      ],
+      "answer": 3,
+      "explanation": "正確：鳥在頭上，look up 表示「抬頭看」。",
+      "optionExplanations": [
+        "錯誤：喝湯不是「抬頭看」或「查找」湯。",
+        "錯誤：洗襪子應用 wash，不能用 look up。",
+        "錯誤：騎腳踏車用 ride，不能用 look up。",
+        "正確：鳥在頭上，look up 表示「抬頭看」。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Matter to",
+      "meaning": "對……重要；對……有影響",
+      "usage": "要說一個人、一件事對某人重要時，可以用 matter to。",
+      "prompt": "哪一句正確使用了「Matter to」？",
+      "options": [
+        "My phone matters to the sandwich because it is hungry.",
+        "Please matter to my bag before lunch.",
+        "My family matters to me more than my new phone.",
+        "This chair matters to blue at nine."
+      ],
+      "answer": 2,
+      "explanation": "正確：表示家人對我而言比新手機更重要。",
+      "optionExplanations": [
+        "錯誤：三明治沒有人的感受，也不會因為肚子餓而重視手機。",
+        "錯誤：matter to 不是叫人對袋子做的動作。",
+        "正確：表示家人對我而言比新手機更重要。",
+        "錯誤：blue 是顏色，句子沒有說清楚「對誰重要」。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Mean to",
+      "meaning": "有意要……；本來打算……",
+      "usage": "想說自己原本打算做什麼，或不是故意做錯事時，可以用 mean to + 動詞。",
+      "prompt": "哪一句正確使用了「Mean to」？",
+      "options": [
+        "I mean to a red apple on the table.",
+        "I didn't mean to wake the baby. I'm sorry.",
+        "She means to happy every Sunday.",
+        "We mean to the school bus yesterday."
+      ],
+      "answer": 1,
+      "explanation": "正確：mean to wake 表示「有意叫醒」，否定句是「不是故意的」。",
+      "optionExplanations": [
+        "錯誤：mean to 後面應接動詞原形，不能直接接 an apple。",
+        "正確：mean to wake 表示「有意叫醒」，否定句是「不是故意的」。",
+        "錯誤：happy 是形容詞，要說 means to be happy。",
+        "錯誤：to 後面少了動詞，且 yesterday 要配合過去式。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Throw away",
+      "meaning": "丟掉、扔掉",
+      "usage": "東西壞了或不需要了，要把它丟掉時，可以用 throw away。",
+      "prompt": "哪一句正確使用了「Throw away」？",
+      "options": [
+        "Dad threw away the old newspaper because nobody needed it.",
+        "I threw away my breakfast by eating two eggs.",
+        "She threw away the sun so it became night.",
+        "We throw away to the library after school."
+      ],
+      "answer": 0,
+      "explanation": "正確：把不用的舊報紙丟掉，正是 throw away。",
+      "optionExplanations": [
+        "正確：把不用的舊報紙丟掉，正是 throw away。",
+        "錯誤：吃早餐不是丟掉早餐。",
+        "錯誤：太陽不是人可以拿來丟掉的物品。",
+        "錯誤：去圖書館應說 go to the library。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Carry on",
+      "meaning": "繼續做某事",
+      "usage": "事情還沒結束、想請別人繼續時，可以用 carry on，也可以說 carry on + -ing。",
+      "prompt": "哪一句正確使用了「Carry on」？",
+      "options": [
+        "I carried on my sandwich in the fridge for an hour.",
+        "The teacher carried on the window to make it blue.",
+        "The music stopped, but we carried on dancing.",
+        "Carry on the bus with a spoon of soup."
+      ],
+      "answer": 2,
+      "explanation": "正確：音樂停了，但我們繼續跳舞。",
+      "optionExplanations": [
+        "錯誤：這裡像是把食物放進冰箱，不是「繼續做某件事」。",
+        "錯誤：carry on 不能表示「油漆窗戶」。",
+        "正確：音樂停了，但我們繼續跳舞。",
+        "錯誤：這裡若是「搭公車」，要用 get on the bus。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "As if",
+      "meaning": "好像、彷彿……",
+      "usage": "要說某個人看起來或做起事來「好像……一樣」時，可以用 as if + 子句。",
+      "prompt": "哪一句正確使用了「As if」？",
+      "options": [
+        "He talks as if he knows everything.",
+        "She bought an as if at the shop.",
+        "My dog is as if because he likes carrots.",
+        "I put as if under my bed."
+      ],
+      "answer": 0,
+      "explanation": "正確：表示他說話的樣子彷彿什麼都知道。",
+      "optionExplanations": [
+        "正確：表示他說話的樣子彷彿什麼都知道。",
+        "錯誤：as if 不是名詞，不能當作一件商品。",
+        "錯誤：as if 後面需要完整的比較情境，不能當形容詞。",
+        "錯誤：as if 是連接語，不是可以放在床下的東西。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Leave behind",
+      "meaning": "把……留下；離開時忘了帶……",
+      "usage": "出門時忘記帶東西，或把某個人／東西留在後面時，可以用 leave behind。",
+      "prompt": "哪一句正確使用了「Leave behind」？",
+      "options": [
+        "My pencil left behind the answer in my book.",
+        "She left behind to sing a song at lunch.",
+        "I left behind the cake by eating all of it.",
+        "I left my umbrella behind on the bus."
+      ],
+      "answer": 3,
+      "explanation": "正確：表示下車時把雨傘忘在公車上。",
+      "optionExplanations": [
+        "錯誤：鉛筆不會主動把答案留下，這裡搭配不自然。",
+        "錯誤：leave behind 應接被留下的對象，不能直接接 to sing。",
+        "錯誤：把蛋糕吃完，不是把蛋糕留下。",
+        "正確：表示下車時把雨傘忘在公車上。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Let someone go",
+      "meaning": "讓某人離開；放某人走",
+      "usage": "想說不阻止某人離開，或放下某段關係時，可以用 let + 人 + go。",
+      "prompt": "哪一句正確使用了「Let someone go」？",
+      "options": [
+        "The teacher let my sandwich go to the moon.",
+        "The teacher let us go home early after the test.",
+        "I let my homework go to sleep at ten.",
+        "She let the weather go because it was raining."
+      ],
+      "answer": 1,
+      "explanation": "正確：老師讓我們考完試提早回家。",
+      "optionExplanations": [
+        "錯誤：三明治不是會自己去月球的人，這裡不適合表示「放人走」。",
+        "正確：老師讓我們考完試提早回家。",
+        "錯誤：作業不會睡覺，不能當成要放走的人。",
+        "錯誤：人不能像放人離開那樣讓天氣「走」。"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Is this the {{blank}}?",
+          "promptZh": "這是真實的人生嗎？",
+          "options": [
+            "real light",
+            "real life",
+            "true life"
+          ],
+          "answer": "real life"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Is this just {{blank}}?",
+          "promptZh": "還是這一切只是一場幻夢？",
+          "options": [
+            "fantasy",
+            "memory",
+            "again"
+          ],
+          "answer": "fantasy"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "Caught in a {{blank}}",
+          "promptZh": "彷彿深陷山崩之中",
+          "options": [
+            "landline",
+            "again",
+            "landslide"
+          ],
+          "answer": "landslide"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "No escape from {{blank}}",
+          "promptZh": "無處可逃，終究逃不出現實",
+          "options": [
+            "reality",
+            "again",
+            "fantasy"
+          ],
+          "answer": "reality"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "{{blank}}",
+          "promptZh": "睜開你的雙眼",
+          "options": [
+            "Close your eyes",
+            "Open your eyes",
+            "Open your hands"
+          ],
+          "answer": "Open your eyes"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "Look up to the {{blank}} and see",
+          "promptZh": "抬頭仰望蒼穹，仔細看看",
+          "options": [
+            "stars",
+            "skies",
+            "again"
+          ],
+          "answer": "skies"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "I'm just a {{blank}}, I need no 〔第 8 題〕",
+          "promptZh": "我不過是個可憐的男孩，不需要任何人的憐憫",
+          "options": [
+            "poor boy",
+            "young boy",
+            "poor again"
+          ],
+          "answer": "poor boy"
+        },
+        {
+          "number": 8,
+          "lineId": "line-7",
+          "prompt": "I'm just a 〔第 7 題〕, I need no {{blank}}",
+          "promptZh": "我不過是個可憐的男孩，不需要任何人的憐憫",
+          "options": [
+            "again",
+            "company",
+            "sympathy"
+          ],
+          "answer": "sympathy"
+        },
+        {
+          "number": 9,
+          "lineId": "line-8",
+          "prompt": "Because I'm {{blank}}",
+          "promptZh": "因為我向來隨遇而安，來去自如",
+          "options": [
+            "freely come, easy go",
+            "easy come, easy go",
+            "easy come, easy stay"
+          ],
+          "answer": "easy come, easy go"
+        },
+        {
+          "number": 10,
+          "lineId": "line-9",
+          "prompt": "{{blank}}",
+          "promptZh": "時而高昂，時而低落",
+          "options": [
+            "Little high, little low",
+            "Little high, little again",
+            "Rather high, little low"
+          ],
+          "answer": "Little high, little low"
+        },
+        {
+          "number": 11,
+          "lineId": "line-10",
+          "prompt": "Any way the {{blank}}",
+          "promptZh": "無論風往哪個方向吹",
+          "options": [
+            "rain blows",
+            "wind goes",
+            "wind blows"
+          ],
+          "answer": "wind blows"
+        },
+        {
+          "number": 12,
+          "lineId": "line-11",
+          "prompt": "{{blank}} to me, to me",
+          "promptZh": "對我而言，都已無關緊要，無關緊要",
+          "options": [
+            "Didn't really matter",
+            "Doesn't really again",
+            "Doesn't really matter"
+          ],
+          "answer": "Doesn't really matter"
+        },
+        {
+          "number": 13,
+          "lineId": "line-12",
+          "prompt": "Mama, just {{blank}}",
+          "promptZh": "媽媽，我剛剛殺了一個人",
+          "options": [
+            "kissed a man",
+            "killed a man",
+            "killed a again"
+          ],
+          "answer": "killed a man"
+        },
+        {
+          "number": 14,
+          "lineId": "line-13",
+          "prompt": "Put a gun {{blank}}",
+          "promptZh": "我將槍口抵住他的頭",
+          "options": [
+            "against his head",
+            "against his again",
+            "above his head"
+          ],
+          "answer": "against his head"
+        },
+        {
+          "number": 15,
+          "lineId": "line-14",
+          "prompt": "{{blank}}, now 〔第 16 題〕",
+          "promptZh": "扣下扳機，如今他已死去",
+          "options": [
+            "Held my trigger",
+            "Pulled my trigger",
+            "Pulled my again"
+          ],
+          "answer": "Pulled my trigger"
+        },
+        {
+          "number": 16,
+          "lineId": "line-14",
+          "prompt": "〔第 15 題〕, now {{blank}}",
+          "promptZh": "扣下扳機，如今他已死去",
+          "options": [
+            "he's dead",
+            "he's again",
+            "he'ss dead"
+          ],
+          "answer": "he's dead"
+        },
+        {
+          "number": 17,
+          "lineId": "line-15",
+          "prompt": "Mama, life had {{blank}}",
+          "promptZh": "媽媽，我的人生才剛剛開始",
+          "options": [
+            "justs begun",
+            "just again",
+            "just begun"
+          ],
+          "answer": "just begun"
+        },
+        {
+          "number": 18,
+          "lineId": "line-16",
+          "prompt": "But now I've gone and {{blank}}",
+          "promptZh": "可如今，我卻親手毀掉了這一切",
+          "options": [
+            "thrown it all again",
+            "thrown it all away",
+            "given it all away"
+          ],
+          "answer": "thrown it all away"
+        },
+        {
+          "number": 19,
+          "lineId": "line-18",
+          "prompt": "Didn't mean to {{blank}}",
+          "promptZh": "我並不是有意讓妳傷心落淚",
+          "options": [
+            "make you cry",
+            "make you again",
+            "makes you cry"
+          ],
+          "answer": "make you cry"
+        },
+        {
+          "number": 20,
+          "lineId": "line-19",
+          "prompt": "If I'm not {{blank}} this time tomorrow",
+          "promptZh": "如果明天這個時候，我仍未歸來",
+          "options": [
+            "home again",
+            "back again tonight",
+            "back again"
+          ],
+          "answer": "back again"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Is this the {{q:1}}?"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Is this just {{q:2}}?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Caught in a {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "No escape from {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Look up to the {{q:6}} and see"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I'm just a {{q:7}}, I need no {{q:8}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Because I'm {{q:9}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:10}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Any way the {{q:11}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:12}} to me, to me"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Mama, just {{q:13}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Put a gun {{q:14}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:15}}, now {{q:16}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Mama, life had {{q:17}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "But now I've gone and {{q:18}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Mama, ooh"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Didn't mean to {{q:19}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "If I'm not {{q:20}} this time tomorrow"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Carry on, carry on as if nothing really matters"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Too late, my time has come"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Sends shivers down my spine"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Body's aching all the time"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Goodbye, everybody, I've got to go"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Gotta leave you all behind and face the truth"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Mama, ooh (Any way the wind blows)"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I don't wanna die"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I sometimes wish I'd never been born at all"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I see a little silhouetto of a man"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Scaramouche, Scaramouche, will you do the Fandango?"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Thunderbolt and lightning very, very frightening me"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "(Galileo) Galileo"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "(Galileo) Galileo"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Galileo Figaro"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Magnifico-o-o-o-o"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I'm just a poor boy, nobody loves me"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "He's just a poor boy from a poor family"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Spare him his life from this monstrosity"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Easy come, easy go, will you let me go?"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Bismillah! No, we will not let you go (Let him go!)"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Bismillah! We will not let you go (Let him go!)"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Bismillah! We will not let you go (Let me go!)"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Will not let you go (Let me go!)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Never let you go (Never, never, never, never let me go)"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Oh oh oh oh"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "No, no, no, no, no, no, no"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Oh, mamma mia, mamma mia (Mamma mia, let me go)"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Beelzebub has a devil put aside for me, for me, for me"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "So you think you can stone me and spit in my eye?"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "So you think you can love me and leave me to die?"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Oh, baby, can't do this to me, baby"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Just gotta get out, just gotta get right outta here"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Ooh, ooh yeah, ooh yeah"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Nothing really matters"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Anyone can see"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Nothing really matters"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Nothing really matters to me"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Any way the wind blows"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Is this the {{blank}}?",
+          "promptZh": "這是真實的人生嗎？",
+          "options": [
+            "true life",
+            "real life",
+            "real light"
+          ],
+          "answer": "real life"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Is this just {{blank}}?",
+          "promptZh": "還是這一切只是一場幻夢？",
+          "options": [
+            "fantasy",
+            "memory",
+            "again"
+          ],
+          "answer": "fantasy"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "Caught in a {{blank}}",
+          "promptZh": "彷彿深陷山崩之中",
+          "options": [
+            "landline",
+            "landslide",
+            "again"
+          ],
+          "answer": "landslide"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "No escape from {{blank}}",
+          "promptZh": "無處可逃，終究逃不出現實",
+          "options": [
+            "reality",
+            "fantasy",
+            "again"
+          ],
+          "answer": "reality"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "{{blank}}",
+          "promptZh": "睜開你的雙眼",
+          "options": [
+            "Open your hands",
+            "Close your eyes",
+            "Open your eyes"
+          ],
+          "answer": "Open your eyes"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "Look up to the {{blank}} and see",
+          "promptZh": "抬頭仰望蒼穹，仔細看看",
+          "options": [
+            "stars",
+            "again",
+            "skies"
+          ],
+          "answer": "skies"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "I'm just a {{blank}}, I need no 〔第 8 題〕",
+          "promptZh": "我不過是個可憐的男孩，不需要任何人的憐憫",
+          "options": [
+            "poor boy",
+            "poor again",
+            "young boy"
+          ],
+          "answer": "poor boy"
+        },
+        {
+          "number": 8,
+          "lineId": "line-7",
+          "prompt": "I'm just a 〔第 7 題〕, I need no {{blank}}",
+          "promptZh": "我不過是個可憐的男孩，不需要任何人的憐憫",
+          "options": [
+            "again",
+            "sympathy",
+            "company"
+          ],
+          "answer": "sympathy"
+        },
+        {
+          "number": 9,
+          "lineId": "line-8",
+          "prompt": "Because I'm {{blank}}",
+          "promptZh": "因為我向來隨遇而安，來去自如",
+          "options": [
+            "easy come, easy stay",
+            "easy come, easy go",
+            "freely come, easy go"
+          ],
+          "answer": "easy come, easy go"
+        },
+        {
+          "number": 10,
+          "lineId": "line-9",
+          "prompt": "{{blank}}",
+          "promptZh": "時而高昂，時而低落",
+          "options": [
+            "Little high, little low",
+            "Rather high, little low",
+            "Little high, little again"
+          ],
+          "answer": "Little high, little low"
+        },
+        {
+          "number": 11,
+          "lineId": "line-10",
+          "prompt": "Any way the {{blank}}",
+          "promptZh": "無論風往哪個方向吹",
+          "options": [
+            "rain blows",
+            "wind goes",
+            "wind blows"
+          ],
+          "answer": "wind blows"
+        },
+        {
+          "number": 12,
+          "lineId": "line-11",
+          "prompt": "{{blank}} to me, to me",
+          "promptZh": "對我而言，都已無關緊要，無關緊要",
+          "options": [
+            "Didn't really matter",
+            "Doesn't really again",
+            "Doesn't really matter"
+          ],
+          "answer": "Doesn't really matter"
+        },
+        {
+          "number": 13,
+          "lineId": "line-12",
+          "prompt": "Mama, just {{blank}}",
+          "promptZh": "媽媽，我剛剛殺了一個人",
+          "options": [
+            "killed a man",
+            "kissed a man",
+            "killed a again"
+          ],
+          "answer": "killed a man"
+        },
+        {
+          "number": 14,
+          "lineId": "line-13",
+          "prompt": "Put a gun {{blank}}",
+          "promptZh": "我將槍口抵住他的頭",
+          "options": [
+            "against his again",
+            "against his head",
+            "above his head"
+          ],
+          "answer": "against his head"
+        },
+        {
+          "number": 15,
+          "lineId": "line-14",
+          "prompt": "{{blank}}, now 〔第 16 題〕",
+          "promptZh": "扣下扳機，如今他已死去",
+          "options": [
+            "Pulled my trigger",
+            "Pulled my again",
+            "Held my trigger"
+          ],
+          "answer": "Pulled my trigger"
+        },
+        {
+          "number": 16,
+          "lineId": "line-14",
+          "prompt": "〔第 15 題〕, now {{blank}}",
+          "promptZh": "扣下扳機，如今他已死去",
+          "options": [
+            "he'ss dead",
+            "he's dead",
+            "he's again"
+          ],
+          "answer": "he's dead"
+        },
+        {
+          "number": 17,
+          "lineId": "line-15",
+          "prompt": "Mama, life had {{blank}}",
+          "promptZh": "媽媽，我的人生才剛剛開始",
+          "options": [
+            "just again",
+            "justs begun",
+            "just begun"
+          ],
+          "answer": "just begun"
+        },
+        {
+          "number": 18,
+          "lineId": "line-16",
+          "prompt": "But now I've gone and {{blank}}",
+          "promptZh": "可如今，我卻親手毀掉了這一切",
+          "options": [
+            "thrown it all again",
+            "given it all away",
+            "thrown it all away"
+          ],
+          "answer": "thrown it all away"
+        },
+        {
+          "number": 19,
+          "lineId": "line-18",
+          "prompt": "Didn't mean to {{blank}}",
+          "promptZh": "我並不是有意讓妳傷心落淚",
+          "options": [
+            "makes you cry",
+            "make you cry",
+            "make you again"
+          ],
+          "answer": "make you cry"
+        },
+        {
+          "number": 20,
+          "lineId": "line-19",
+          "prompt": "If I'm not {{blank}} 〔第 21 題〕",
+          "promptZh": "如果明天這個時候，我仍未歸來",
+          "options": [
+            "back again",
+            "back again tonight",
+            "home again"
+          ],
+          "answer": "back again"
+        },
+        {
+          "number": 21,
+          "lineId": "line-19",
+          "prompt": "If I'm not 〔第 20 題〕 {{blank}}",
+          "promptZh": "如果明天這個時候，我仍未歸來",
+          "options": [
+            "thiss time tomorrow",
+            "this time tomorrow",
+            "this time again"
+          ],
+          "answer": "this time tomorrow"
+        },
+        {
+          "number": 22,
+          "lineId": "line-20",
+          "prompt": "{{blank}}, carry on as if 〔第 23 題〕",
+          "promptZh": "就繼續生活吧，繼續走下去，彷彿一切都無關緊要",
+          "options": [
+            "Carry on",
+            "Hold on",
+            "Carry again"
+          ],
+          "answer": "Carry on"
+        },
+        {
+          "number": 23,
+          "lineId": "line-20",
+          "prompt": "〔第 22 題〕, carry on as if {{blank}}",
+          "promptZh": "就繼續生活吧，繼續走下去，彷彿一切都無關緊要",
+          "options": [
+            "nothing really changes",
+            "something really matters",
+            "nothing really matters"
+          ],
+          "answer": "nothing really matters"
+        },
+        {
+          "number": 24,
+          "lineId": "line-21",
+          "prompt": "Too late, {{blank}}",
+          "promptZh": "太遲了，我的時辰已經到了",
+          "options": [
+            "my time has come",
+            "my time has again",
+            "mys time has come"
+          ],
+          "answer": "my time has come"
+        },
+        {
+          "number": 25,
+          "lineId": "line-22",
+          "prompt": "Sends {{blank}}",
+          "promptZh": "一陣寒顫沿著我的脊背襲來",
+          "options": [
+            "shadows down my spine",
+            "shivers down my spine",
+            "shivers down my again"
+          ],
+          "answer": "shivers down my spine"
+        },
+        {
+          "number": 26,
+          "lineId": "line-23",
+          "prompt": "{{blank}} all the time",
+          "promptZh": "全身無時無刻不在疼痛",
+          "options": [
+            "Body'ss aching",
+            "Body's again",
+            "Body's aching"
+          ],
+          "answer": "Body's aching"
+        },
+        {
+          "number": 27,
+          "lineId": "line-24",
+          "prompt": "Goodbye, everybody, {{blank}}",
+          "promptZh": "再見了，各位，我必須離開了",
+          "options": [
+            "I've stayt to go",
+            "I'ves got to go",
+            "I've got to go"
+          ],
+          "answer": "I've got to go"
+        },
+        {
+          "number": 28,
+          "lineId": "line-25",
+          "prompt": "Gotta leave you all behind and {{blank}}",
+          "promptZh": "我不得不將你們全都留在身後，獨自面對真相",
+          "options": [
+            "face the past",
+            "face the truth",
+            "faces the truth"
+          ],
+          "answer": "face the truth"
+        },
+        {
+          "number": 29,
+          "lineId": "line-27",
+          "prompt": "I {{blank}}",
+          "promptZh": "我不想死",
+          "options": [
+            "don't wanna die",
+            "don't wanna cry",
+            "don'ts wanna die"
+          ],
+          "answer": "don't wanna die"
+        },
+        {
+          "number": 30,
+          "lineId": "line-28",
+          "prompt": "I sometimes wish I'd {{blank}} at all",
+          "promptZh": "有時我甚至希望，自己從未來到這世上",
+          "options": [
+            "nevers been born",
+            "never been born",
+            "never been again"
+          ],
+          "answer": "never been born"
+        },
+        {
+          "number": 31,
+          "lineId": "line-29",
+          "prompt": "I see a little {{blank}} of a man",
+          "promptZh": "我看見一個男子小小的剪影",
+          "options": [
+            "silhouetto",
+            "again",
+            "silhouette"
+          ],
+          "answer": "silhouetto"
+        },
+        {
+          "number": 32,
+          "lineId": "line-31",
+          "prompt": "{{blank}} very, very frightening me",
+          "promptZh": "雷霆與閃電，令我萬分、萬分恐懼",
+          "options": [
+            "Thunderstorm and lightning",
+            "Thunderbolt and again",
+            "Thunderbolt and lightning"
+          ],
+          "answer": "Thunderbolt and lightning"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Is this the {{q:1}}?"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Is this just {{q:2}}?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Caught in a {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "No escape from {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Look up to the {{q:6}} and see"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I'm just a {{q:7}}, I need no {{q:8}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Because I'm {{q:9}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:10}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Any way the {{q:11}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:12}} to me, to me"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Mama, just {{q:13}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Put a gun {{q:14}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:15}}, now {{q:16}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Mama, life had {{q:17}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "But now I've gone and {{q:18}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Mama, ooh"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Didn't mean to {{q:19}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "If I'm not {{q:20}} {{q:21}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:22}}, carry on as if {{q:23}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Too late, {{q:24}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Sends {{q:25}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:26}} all the time"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Goodbye, everybody, {{q:27}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Gotta leave you all behind and {{q:28}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Mama, ooh (Any way the wind blows)"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I {{q:29}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I sometimes wish I'd {{q:30}} at all"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I see a little {{q:31}} of a man"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Scaramouche, Scaramouche, will you do the Fandango?"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:32}} very, very frightening me"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "(Galileo) Galileo"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "(Galileo) Galileo"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Galileo Figaro"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Magnifico-o-o-o-o"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I'm just a poor boy, nobody loves me"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "He's just a poor boy from a poor family"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Spare him his life from this monstrosity"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Easy come, easy go, will you let me go?"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Bismillah! No, we will not let you go (Let him go!)"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Bismillah! We will not let you go (Let him go!)"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Bismillah! We will not let you go (Let me go!)"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Will not let you go (Let me go!)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Never let you go (Never, never, never, never let me go)"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Oh oh oh oh"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "No, no, no, no, no, no, no"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Oh, mamma mia, mamma mia (Mamma mia, let me go)"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Beelzebub has a devil put aside for me, for me, for me"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "So you think you can stone me and spit in my eye?"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "So you think you can love me and leave me to die?"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Oh, baby, can't do this to me, baby"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Just gotta get out, just gotta get right outta here"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Ooh, ooh yeah, ooh yeah"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Nothing really matters"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Anyone can see"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Nothing really matters"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Nothing really matters to me"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Any way the wind blows"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Is this the {{blank}}?",
+          "promptZh": "這是真實的人生嗎？",
+          "options": [
+            "real life",
+            "real light",
+            "true life"
+          ],
+          "answer": "real life"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Is this just {{blank}}?",
+          "promptZh": "還是這一切只是一場幻夢？",
+          "options": [
+            "again",
+            "fantasy",
+            "memory"
+          ],
+          "answer": "fantasy"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "Caught in a {{blank}}",
+          "promptZh": "彷彿深陷山崩之中",
+          "options": [
+            "landslide",
+            "again",
+            "landline"
+          ],
+          "answer": "landslide"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "No escape from {{blank}}",
+          "promptZh": "無處可逃，終究逃不出現實",
+          "options": [
+            "again",
+            "fantasy",
+            "reality"
+          ],
+          "answer": "reality"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "{{blank}}",
+          "promptZh": "睜開你的雙眼",
+          "options": [
+            "Open your eyes",
+            "Close your eyes",
+            "Open your hands"
+          ],
+          "answer": "Open your eyes"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "Look up to the {{blank}} and see",
+          "promptZh": "抬頭仰望蒼穹，仔細看看",
+          "options": [
+            "stars",
+            "again",
+            "skies"
+          ],
+          "answer": "skies"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "I'm just a {{blank}}, I need no 〔第 8 題〕",
+          "promptZh": "我不過是個可憐的男孩，不需要任何人的憐憫",
+          "options": [
+            "poor again",
+            "poor boy",
+            "young boy"
+          ],
+          "answer": "poor boy"
+        },
+        {
+          "number": 8,
+          "lineId": "line-7",
+          "prompt": "I'm just a 〔第 7 題〕, I need no {{blank}}",
+          "promptZh": "我不過是個可憐的男孩，不需要任何人的憐憫",
+          "options": [
+            "sympathy",
+            "company",
+            "again"
+          ],
+          "answer": "sympathy"
+        },
+        {
+          "number": 9,
+          "lineId": "line-8",
+          "prompt": "Because I'm {{blank}}",
+          "promptZh": "因為我向來隨遇而安，來去自如",
+          "options": [
+            "freely come, easy go",
+            "easy come, easy go",
+            "easy come, easy stay"
+          ],
+          "answer": "easy come, easy go"
+        },
+        {
+          "number": 10,
+          "lineId": "line-9",
+          "prompt": "{{blank}}",
+          "promptZh": "時而高昂，時而低落",
+          "options": [
+            "Little high, little again",
+            "Rather high, little low",
+            "Little high, little low"
+          ],
+          "answer": "Little high, little low"
+        },
+        {
+          "number": 11,
+          "lineId": "line-10",
+          "prompt": "Any way the {{blank}}",
+          "promptZh": "無論風往哪個方向吹",
+          "options": [
+            "rain blows",
+            "wind blows",
+            "wind goes"
+          ],
+          "answer": "wind blows"
+        },
+        {
+          "number": 12,
+          "lineId": "line-11",
+          "prompt": "{{blank}} to me, to me",
+          "promptZh": "對我而言，都已無關緊要，無關緊要",
+          "options": [
+            "Doesn't really matter",
+            "Didn't really matter",
+            "Doesn't really again"
+          ],
+          "answer": "Doesn't really matter"
+        },
+        {
+          "number": 13,
+          "lineId": "line-12",
+          "prompt": "Mama, just {{blank}}",
+          "promptZh": "媽媽，我剛剛殺了一個人",
+          "options": [
+            "kissed a man",
+            "killed a again",
+            "killed a man"
+          ],
+          "answer": "killed a man"
+        },
+        {
+          "number": 14,
+          "lineId": "line-13",
+          "prompt": "Put a gun {{blank}}",
+          "promptZh": "我將槍口抵住他的頭",
+          "options": [
+            "against his again",
+            "against his head",
+            "above his head"
+          ],
+          "answer": "against his head"
+        },
+        {
+          "number": 15,
+          "lineId": "line-14",
+          "prompt": "{{blank}}, now 〔第 16 題〕",
+          "promptZh": "扣下扳機，如今他已死去",
+          "options": [
+            "Pulled my trigger",
+            "Pulled my again",
+            "Held my trigger"
+          ],
+          "answer": "Pulled my trigger"
+        },
+        {
+          "number": 16,
+          "lineId": "line-14",
+          "prompt": "〔第 15 題〕, now {{blank}}",
+          "promptZh": "扣下扳機，如今他已死去",
+          "options": [
+            "he's again",
+            "he'ss dead",
+            "he's dead"
+          ],
+          "answer": "he's dead"
+        },
+        {
+          "number": 17,
+          "lineId": "line-15",
+          "prompt": "Mama, life had {{blank}}",
+          "promptZh": "媽媽，我的人生才剛剛開始",
+          "options": [
+            "just again",
+            "just begun",
+            "justs begun"
+          ],
+          "answer": "just begun"
+        },
+        {
+          "number": 18,
+          "lineId": "line-16",
+          "prompt": "But now I've gone and {{blank}}",
+          "promptZh": "可如今，我卻親手毀掉了這一切",
+          "options": [
+            "thrown it all away",
+            "given it all away",
+            "thrown it all again"
+          ],
+          "answer": "thrown it all away"
+        },
+        {
+          "number": 19,
+          "lineId": "line-18",
+          "prompt": "Didn't mean to {{blank}}",
+          "promptZh": "我並不是有意讓妳傷心落淚",
+          "options": [
+            "makes you cry",
+            "make you again",
+            "make you cry"
+          ],
+          "answer": "make you cry"
+        },
+        {
+          "number": 20,
+          "lineId": "line-19",
+          "prompt": "If I'm not {{blank}} 〔第 21 題〕",
+          "promptZh": "如果明天這個時候，我仍未歸來",
+          "options": [
+            "back again tonight",
+            "back again",
+            "home again"
+          ],
+          "answer": "back again"
+        },
+        {
+          "number": 21,
+          "lineId": "line-19",
+          "prompt": "If I'm not 〔第 20 題〕 {{blank}}",
+          "promptZh": "如果明天這個時候，我仍未歸來",
+          "options": [
+            "thiss time tomorrow",
+            "this time again",
+            "this time tomorrow"
+          ],
+          "answer": "this time tomorrow"
+        },
+        {
+          "number": 22,
+          "lineId": "line-20",
+          "prompt": "{{blank}}, carry on as if 〔第 23 題〕",
+          "promptZh": "就繼續生活吧，繼續走下去，彷彿一切都無關緊要",
+          "options": [
+            "Carry on",
+            "Carry again",
+            "Hold on"
+          ],
+          "answer": "Carry on"
+        },
+        {
+          "number": 23,
+          "lineId": "line-20",
+          "prompt": "〔第 22 題〕, carry on as if {{blank}}",
+          "promptZh": "就繼續生活吧，繼續走下去，彷彿一切都無關緊要",
+          "options": [
+            "something really matters",
+            "nothing really changes",
+            "nothing really matters"
+          ],
+          "answer": "nothing really matters"
+        },
+        {
+          "number": 24,
+          "lineId": "line-21",
+          "prompt": "Too late, {{blank}}",
+          "promptZh": "太遲了，我的時辰已經到了",
+          "options": [
+            "my time has come",
+            "my time has again",
+            "mys time has come"
+          ],
+          "answer": "my time has come"
+        },
+        {
+          "number": 25,
+          "lineId": "line-22",
+          "prompt": "Sends {{blank}}",
+          "promptZh": "一陣寒顫沿著我的脊背襲來",
+          "options": [
+            "shivers down my again",
+            "shivers down my spine",
+            "shadows down my spine"
+          ],
+          "answer": "shivers down my spine"
+        },
+        {
+          "number": 26,
+          "lineId": "line-23",
+          "prompt": "{{blank}} all the time",
+          "promptZh": "全身無時無刻不在疼痛",
+          "options": [
+            "Body'ss aching",
+            "Body's aching",
+            "Body's again"
+          ],
+          "answer": "Body's aching"
+        },
+        {
+          "number": 27,
+          "lineId": "line-24",
+          "prompt": "Goodbye, everybody, {{blank}}",
+          "promptZh": "再見了，各位，我必須離開了",
+          "options": [
+            "I've stayt to go",
+            "I'ves got to go",
+            "I've got to go"
+          ],
+          "answer": "I've got to go"
+        },
+        {
+          "number": 28,
+          "lineId": "line-25",
+          "prompt": "Gotta leave you all behind and {{blank}}",
+          "promptZh": "我不得不將你們全都留在身後，獨自面對真相",
+          "options": [
+            "face the truth",
+            "face the past",
+            "faces the truth"
+          ],
+          "answer": "face the truth"
+        },
+        {
+          "number": 29,
+          "lineId": "line-27",
+          "prompt": "I {{blank}}",
+          "promptZh": "我不想死",
+          "options": [
+            "don't wanna cry",
+            "don't wanna die",
+            "don'ts wanna die"
+          ],
+          "answer": "don't wanna die"
+        },
+        {
+          "number": 30,
+          "lineId": "line-28",
+          "prompt": "I sometimes wish I'd {{blank}} at all",
+          "promptZh": "有時我甚至希望，自己從未來到這世上",
+          "options": [
+            "never been born",
+            "never been again",
+            "nevers been born"
+          ],
+          "answer": "never been born"
+        },
+        {
+          "number": 31,
+          "lineId": "line-29",
+          "prompt": "I see a little {{blank}} of a man",
+          "promptZh": "我看見一個男子小小的剪影",
+          "options": [
+            "again",
+            "silhouette",
+            "silhouetto"
+          ],
+          "answer": "silhouetto"
+        },
+        {
+          "number": 32,
+          "lineId": "line-31",
+          "prompt": "{{blank}} very, very 〔第 33 題〕",
+          "promptZh": "雷霆與閃電，令我萬分、萬分恐懼",
+          "options": [
+            "Thunderbolt and again",
+            "Thunderstorm and lightning",
+            "Thunderbolt and lightning"
+          ],
+          "answer": "Thunderbolt and lightning"
+        },
+        {
+          "number": 33,
+          "lineId": "line-31",
+          "prompt": "〔第 32 題〕 very, very {{blank}}",
+          "promptZh": "雷霆與閃電，令我萬分、萬分恐懼",
+          "options": [
+            "frightening you",
+            "frightening me",
+            "following me"
+          ],
+          "answer": "frightening me"
+        },
+        {
+          "number": 34,
+          "lineId": "line-36",
+          "prompt": "I'm just a poor boy, {{blank}}",
+          "promptZh": "我不過是個可憐的男孩，沒有人愛我",
+          "options": [
+            "nobody loves me",
+            "somebody loves me",
+            "nobody loves you"
+          ],
+          "answer": "nobody loves me"
+        },
+        {
+          "number": 35,
+          "lineId": "line-37",
+          "prompt": "He's just a poor boy from a {{blank}}",
+          "promptZh": "他不過是個出身貧寒家庭的可憐男孩",
+          "options": [
+            "young family",
+            "poor family",
+            "poor again"
+          ],
+          "answer": "poor family"
+        },
+        {
+          "number": 36,
+          "lineId": "line-38",
+          "prompt": "{{blank}} from this 〔第 37 題〕",
+          "promptZh": "求求你們饒他一命，讓他免受這可怕的厄運",
+          "options": [
+            "Spare him his life",
+            "Spare him his light",
+            "Save him his life"
+          ],
+          "answer": "Spare him his life"
+        },
+        {
+          "number": 37,
+          "lineId": "line-38",
+          "prompt": "〔第 36 題〕 from this {{blank}}",
+          "promptZh": "求求你們饒他一命，讓他免受這可怕的厄運",
+          "options": [
+            "misery",
+            "again",
+            "monstrosity"
+          ],
+          "answer": "monstrosity"
+        },
+        {
+          "number": 38,
+          "lineId": "line-39",
+          "prompt": "Easy come, easy go, will you {{blank}}?",
+          "promptZh": "來去本該自由，你們願意放我走嗎？",
+          "options": [
+            "let me stay",
+            "let me go",
+            "lets me go"
+          ],
+          "answer": "let me go"
+        },
+        {
+          "number": 39,
+          "lineId": "line-40",
+          "prompt": "Bismillah! No, we {{blank}} (Let him go!)",
+          "promptZh": "奉真主之名！不，我們絕不放你走！（放他走！）",
+          "options": [
+            "will not let you go",
+            "will not let you stay",
+            "can not let you go"
+          ],
+          "answer": "will not let you go"
+        },
+        {
+          "number": 40,
+          "lineId": "line-43",
+          "prompt": "{{blank}} (Let me go!)",
+          "promptZh": "絕不放你走！（放我走！）",
+          "options": [
+            "Can not let you go",
+            "Will not let you stay",
+            "Will not let you go"
+          ],
+          "answer": "Will not let you go"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Is this the {{q:1}}?"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Is this just {{q:2}}?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Caught in a {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "No escape from {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Look up to the {{q:6}} and see"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I'm just a {{q:7}}, I need no {{q:8}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Because I'm {{q:9}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:10}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Any way the {{q:11}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:12}} to me, to me"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Mama, just {{q:13}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Put a gun {{q:14}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:15}}, now {{q:16}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Mama, life had {{q:17}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "But now I've gone and {{q:18}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Mama, ooh"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Didn't mean to {{q:19}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "If I'm not {{q:20}} {{q:21}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:22}}, carry on as if {{q:23}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Too late, {{q:24}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Sends {{q:25}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:26}} all the time"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Goodbye, everybody, {{q:27}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Gotta leave you all behind and {{q:28}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Mama, ooh (Any way the wind blows)"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I {{q:29}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I sometimes wish I'd {{q:30}} at all"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I see a little {{q:31}} of a man"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Scaramouche, Scaramouche, will you do the Fandango?"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:32}} very, very {{q:33}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "(Galileo) Galileo"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "(Galileo) Galileo"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Galileo Figaro"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Magnifico-o-o-o-o"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I'm just a poor boy, {{q:34}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "He's just a poor boy from a {{q:35}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:36}} from this {{q:37}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Easy come, easy go, will you {{q:38}}?"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Bismillah! No, we {{q:39}} (Let him go!)"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Bismillah! We will not let you go (Let him go!)"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Bismillah! We will not let you go (Let me go!)"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:40}} (Let me go!)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Never let you go (Never, never, never, never let me go)"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Oh oh oh oh"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "No, no, no, no, no, no, no"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Oh, mamma mia, mamma mia (Mamma mia, let me go)"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Beelzebub has a devil put aside for me, for me, for me"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "So you think you can stone me and spit in my eye?"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "So you think you can love me and leave me to die?"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Oh, baby, can't do this to me, baby"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Just gotta get out, just gotta get right outta here"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Ooh, ooh yeah, ooh yeah"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Nothing really matters"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Anyone can see"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Nothing really matters"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Nothing really matters to me"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Any way the wind blows"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Is this the {{blank}}?",
+          "promptZh": "這是真實的人生嗎？",
+          "options": [
+            "real life",
+            "real light",
+            "true life"
+          ],
+          "answer": "real life"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Is this just {{blank}}?",
+          "promptZh": "還是這一切只是一場幻夢？",
+          "options": [
+            "memory",
+            "fantasy",
+            "again"
+          ],
+          "answer": "fantasy"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "Caught in a {{blank}}",
+          "promptZh": "彷彿深陷山崩之中",
+          "options": [
+            "again",
+            "landslide",
+            "landline"
+          ],
+          "answer": "landslide"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "No escape from {{blank}}",
+          "promptZh": "無處可逃，終究逃不出現實",
+          "options": [
+            "again",
+            "fantasy",
+            "reality"
+          ],
+          "answer": "reality"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "{{blank}}",
+          "promptZh": "睜開你的雙眼",
+          "options": [
+            "Open your eyes",
+            "Open your hands",
+            "Close your eyes"
+          ],
+          "answer": "Open your eyes"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "Look up to the {{blank}} and see",
+          "promptZh": "抬頭仰望蒼穹，仔細看看",
+          "options": [
+            "skies",
+            "stars",
+            "again"
+          ],
+          "answer": "skies"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "I'm just a {{blank}}, I need no 〔第 8 題〕",
+          "promptZh": "我不過是個可憐的男孩，不需要任何人的憐憫",
+          "options": [
+            "poor again",
+            "young boy",
+            "poor boy"
+          ],
+          "answer": "poor boy"
+        },
+        {
+          "number": 8,
+          "lineId": "line-7",
+          "prompt": "I'm just a 〔第 7 題〕, I need no {{blank}}",
+          "promptZh": "我不過是個可憐的男孩，不需要任何人的憐憫",
+          "options": [
+            "company",
+            "sympathy",
+            "again"
+          ],
+          "answer": "sympathy"
+        },
+        {
+          "number": 9,
+          "lineId": "line-8",
+          "prompt": "Because I'm {{blank}}",
+          "promptZh": "因為我向來隨遇而安，來去自如",
+          "options": [
+            "easy come, easy go",
+            "freely come, easy go",
+            "easy come, easy stay"
+          ],
+          "answer": "easy come, easy go"
+        },
+        {
+          "number": 10,
+          "lineId": "line-9",
+          "prompt": "{{blank}}",
+          "promptZh": "時而高昂，時而低落",
+          "options": [
+            "Little high, little again",
+            "Rather high, little low",
+            "Little high, little low"
+          ],
+          "answer": "Little high, little low"
+        },
+        {
+          "number": 11,
+          "lineId": "line-10",
+          "prompt": "Any way the {{blank}}",
+          "promptZh": "無論風往哪個方向吹",
+          "options": [
+            "wind goes",
+            "wind blows",
+            "rain blows"
+          ],
+          "answer": "wind blows"
+        },
+        {
+          "number": 12,
+          "lineId": "line-11",
+          "prompt": "{{blank}} to me, to me",
+          "promptZh": "對我而言，都已無關緊要，無關緊要",
+          "options": [
+            "Didn't really matter",
+            "Doesn't really again",
+            "Doesn't really matter"
+          ],
+          "answer": "Doesn't really matter"
+        },
+        {
+          "number": 13,
+          "lineId": "line-12",
+          "prompt": "Mama, just {{blank}}",
+          "promptZh": "媽媽，我剛剛殺了一個人",
+          "options": [
+            "killed a again",
+            "killed a man",
+            "kissed a man"
+          ],
+          "answer": "killed a man"
+        },
+        {
+          "number": 14,
+          "lineId": "line-13",
+          "prompt": "Put a gun {{blank}}",
+          "promptZh": "我將槍口抵住他的頭",
+          "options": [
+            "against his head",
+            "above his head",
+            "against his again"
+          ],
+          "answer": "against his head"
+        },
+        {
+          "number": 15,
+          "lineId": "line-14",
+          "prompt": "{{blank}}, now 〔第 16 題〕",
+          "promptZh": "扣下扳機，如今他已死去",
+          "options": [
+            "Pulled my again",
+            "Held my trigger",
+            "Pulled my trigger"
+          ],
+          "answer": "Pulled my trigger"
+        },
+        {
+          "number": 16,
+          "lineId": "line-14",
+          "prompt": "〔第 15 題〕, now {{blank}}",
+          "promptZh": "扣下扳機，如今他已死去",
+          "options": [
+            "he's dead",
+            "he's again",
+            "he'ss dead"
+          ],
+          "answer": "he's dead"
+        },
+        {
+          "number": 17,
+          "lineId": "line-15",
+          "prompt": "Mama, life had {{blank}}",
+          "promptZh": "媽媽，我的人生才剛剛開始",
+          "options": [
+            "just again",
+            "just begun",
+            "justs begun"
+          ],
+          "answer": "just begun"
+        },
+        {
+          "number": 18,
+          "lineId": "line-16",
+          "prompt": "But now I've gone and {{blank}}",
+          "promptZh": "可如今，我卻親手毀掉了這一切",
+          "options": [
+            "thrown it all away",
+            "thrown it all again",
+            "given it all away"
+          ],
+          "answer": "thrown it all away"
+        },
+        {
+          "number": 19,
+          "lineId": "line-18",
+          "prompt": "Didn't mean to {{blank}}",
+          "promptZh": "我並不是有意讓妳傷心落淚",
+          "options": [
+            "makes you cry",
+            "make you cry",
+            "make you again"
+          ],
+          "answer": "make you cry"
+        },
+        {
+          "number": 20,
+          "lineId": "line-19",
+          "prompt": "If I'm not {{blank}} 〔第 21 題〕",
+          "promptZh": "如果明天這個時候，我仍未歸來",
+          "options": [
+            "back again tonight",
+            "home again",
+            "back again"
+          ],
+          "answer": "back again"
+        },
+        {
+          "number": 21,
+          "lineId": "line-19",
+          "prompt": "If I'm not 〔第 20 題〕 {{blank}}",
+          "promptZh": "如果明天這個時候，我仍未歸來",
+          "options": [
+            "thiss time tomorrow",
+            "this time again",
+            "this time tomorrow"
+          ],
+          "answer": "this time tomorrow"
+        },
+        {
+          "number": 22,
+          "lineId": "line-20",
+          "prompt": "{{blank}}, carry on as if 〔第 23 題〕",
+          "promptZh": "就繼續生活吧，繼續走下去，彷彿一切都無關緊要",
+          "options": [
+            "Carry again",
+            "Carry on",
+            "Hold on"
+          ],
+          "answer": "Carry on"
+        },
+        {
+          "number": 23,
+          "lineId": "line-20",
+          "prompt": "〔第 22 題〕, carry on as if {{blank}}",
+          "promptZh": "就繼續生活吧，繼續走下去，彷彿一切都無關緊要",
+          "options": [
+            "nothing really matters",
+            "something really matters",
+            "nothing really changes"
+          ],
+          "answer": "nothing really matters"
+        },
+        {
+          "number": 24,
+          "lineId": "line-21",
+          "prompt": "Too late, {{blank}}",
+          "promptZh": "太遲了，我的時辰已經到了",
+          "options": [
+            "my time has come",
+            "mys time has come",
+            "my time has again"
+          ],
+          "answer": "my time has come"
+        },
+        {
+          "number": 25,
+          "lineId": "line-22",
+          "prompt": "Sends {{blank}}",
+          "promptZh": "一陣寒顫沿著我的脊背襲來",
+          "options": [
+            "shadows down my spine",
+            "shivers down my spine",
+            "shivers down my again"
+          ],
+          "answer": "shivers down my spine"
+        },
+        {
+          "number": 26,
+          "lineId": "line-23",
+          "prompt": "{{blank}} all the time",
+          "promptZh": "全身無時無刻不在疼痛",
+          "options": [
+            "Body'ss aching",
+            "Body's again",
+            "Body's aching"
+          ],
+          "answer": "Body's aching"
+        },
+        {
+          "number": 27,
+          "lineId": "line-24",
+          "prompt": "Goodbye, everybody, {{blank}}",
+          "promptZh": "再見了，各位，我必須離開了",
+          "options": [
+            "I've stayt to go",
+            "I've got to go",
+            "I'ves got to go"
+          ],
+          "answer": "I've got to go"
+        },
+        {
+          "number": 28,
+          "lineId": "line-25",
+          "prompt": "Gotta leave you all behind and {{blank}}",
+          "promptZh": "我不得不將你們全都留在身後，獨自面對真相",
+          "options": [
+            "face the truth",
+            "face the past",
+            "faces the truth"
+          ],
+          "answer": "face the truth"
+        },
+        {
+          "number": 29,
+          "lineId": "line-27",
+          "prompt": "I {{blank}}",
+          "promptZh": "我不想死",
+          "options": [
+            "don'ts wanna die",
+            "don't wanna cry",
+            "don't wanna die"
+          ],
+          "answer": "don't wanna die"
+        },
+        {
+          "number": 30,
+          "lineId": "line-28",
+          "prompt": "I sometimes wish I'd {{blank}} at all",
+          "promptZh": "有時我甚至希望，自己從未來到這世上",
+          "options": [
+            "never been born",
+            "nevers been born",
+            "never been again"
+          ],
+          "answer": "never been born"
+        },
+        {
+          "number": 31,
+          "lineId": "line-29",
+          "prompt": "I see a little {{blank}} of a man",
+          "promptZh": "我看見一個男子小小的剪影",
+          "options": [
+            "silhouette",
+            "again",
+            "silhouetto"
+          ],
+          "answer": "silhouetto"
+        },
+        {
+          "number": 32,
+          "lineId": "line-31",
+          "prompt": "{{blank}} very, very 〔第 33 題〕",
+          "promptZh": "雷霆與閃電，令我萬分、萬分恐懼",
+          "options": [
+            "Thunderbolt and again",
+            "Thunderbolt and lightning",
+            "Thunderstorm and lightning"
+          ],
+          "answer": "Thunderbolt and lightning"
+        },
+        {
+          "number": 33,
+          "lineId": "line-31",
+          "prompt": "〔第 32 題〕 very, very {{blank}}",
+          "promptZh": "雷霆與閃電，令我萬分、萬分恐懼",
+          "options": [
+            "frightening you",
+            "frightening me",
+            "following me"
+          ],
+          "answer": "frightening me"
+        },
+        {
+          "number": 34,
+          "lineId": "line-36",
+          "prompt": "I'm just a poor boy, {{blank}}",
+          "promptZh": "我不過是個可憐的男孩，沒有人愛我",
+          "options": [
+            "somebody loves me",
+            "nobody loves you",
+            "nobody loves me"
+          ],
+          "answer": "nobody loves me"
+        },
+        {
+          "number": 35,
+          "lineId": "line-37",
+          "prompt": "He's just a poor boy from a {{blank}}",
+          "promptZh": "他不過是個出身貧寒家庭的可憐男孩",
+          "options": [
+            "poor family",
+            "young family",
+            "poor again"
+          ],
+          "answer": "poor family"
+        },
+        {
+          "number": 36,
+          "lineId": "line-38",
+          "prompt": "{{blank}} from this 〔第 37 題〕",
+          "promptZh": "求求你們饒他一命，讓他免受這可怕的厄運",
+          "options": [
+            "Spare him his light",
+            "Save him his life",
+            "Spare him his life"
+          ],
+          "answer": "Spare him his life"
+        },
+        {
+          "number": 37,
+          "lineId": "line-38",
+          "prompt": "〔第 36 題〕 from this {{blank}}",
+          "promptZh": "求求你們饒他一命，讓他免受這可怕的厄運",
+          "options": [
+            "again",
+            "monstrosity",
+            "misery"
+          ],
+          "answer": "monstrosity"
+        },
+        {
+          "number": 38,
+          "lineId": "line-39",
+          "prompt": "Easy come, easy go, will you {{blank}}?",
+          "promptZh": "來去本該自由，你們願意放我走嗎？",
+          "options": [
+            "let me go",
+            "lets me go",
+            "let me stay"
+          ],
+          "answer": "let me go"
+        },
+        {
+          "number": 39,
+          "lineId": "line-40",
+          "prompt": "Bismillah! No, we {{blank}} (Let him go!)",
+          "promptZh": "奉真主之名！不，我們絕不放你走！（放他走！）",
+          "options": [
+            "can not let you go",
+            "will not let you go",
+            "will not let you stay"
+          ],
+          "answer": "will not let you go"
+        },
+        {
+          "number": 40,
+          "lineId": "line-43",
+          "prompt": "{{blank}} (Let me go!)",
+          "promptZh": "絕不放你走！（放我走！）",
+          "options": [
+            "Can not let you go",
+            "Will not let you stay",
+            "Will not let you go"
+          ],
+          "answer": "Will not let you go"
+        },
+        {
+          "number": 41,
+          "lineId": "line-44",
+          "prompt": "{{blank}} (Never, never, never, never let me go)",
+          "promptZh": "永遠不會放你走！（不，別這樣，別這樣，求你們放我走！）",
+          "options": [
+            "Never let you go",
+            "Never let you stay",
+            "Always let you go"
+          ],
+          "answer": "Never let you go"
+        },
+        {
+          "number": 42,
+          "lineId": "line-48",
+          "prompt": "Beelzebub has a {{blank}} for me, for me, for me",
+          "promptZh": "Beelzebub早已為我預留了一個惡魔，專門等著我，等著我，等著我",
+          "options": [
+            "devil put again",
+            "devil put aside",
+            "demon put aside"
+          ],
+          "answer": "devil put aside"
+        },
+        {
+          "number": 43,
+          "lineId": "line-49",
+          "prompt": "So you think you can {{blank}} and 〔第 44 題〕?",
+          "promptZh": "所以你以為，你能向我投石，還朝我臉上吐唾沫？",
+          "options": [
+            "stone me",
+            "stone you",
+            "own me"
+          ],
+          "answer": "stone me"
+        },
+        {
+          "number": 44,
+          "lineId": "line-49",
+          "prompt": "So you think you can 〔第 43 題〕 and {{blank}}?",
+          "promptZh": "所以你以為，你能向我投石，還朝我臉上吐唾沫？",
+          "options": [
+            "look in my eye",
+            "spit in my again",
+            "spit in my eye"
+          ],
+          "answer": "spit in my eye"
+        },
+        {
+          "number": 45,
+          "lineId": "line-50",
+          "prompt": "So you think you can love me and {{blank}}?",
+          "promptZh": "所以你以為，你能愛過我之後，就任由我死去？",
+          "options": [
+            "leave me to cry",
+            "leave me to die",
+            "allow me to die"
+          ],
+          "answer": "leave me to die"
+        },
+        {
+          "number": 46,
+          "lineId": "line-51",
+          "prompt": "Oh, baby, {{blank}}, baby",
+          "promptZh": "噢，親愛的，妳不能這樣對我，親愛的",
+          "options": [
+            "can't do this to me",
+            "can't do this to you",
+            "won't do this to me"
+          ],
+          "answer": "can't do this to me"
+        },
+        {
+          "number": 47,
+          "lineId": "line-52",
+          "prompt": "Just gotta get out, just gotta {{blank}}",
+          "promptZh": "我一定得逃出去，一定得立刻逃離這個地方",
+          "options": [
+            "get right outta again",
+            "run right outta here",
+            "get right outta here"
+          ],
+          "answer": "get right outta here"
+        },
+        {
+          "number": 48,
+          "lineId": "line-54",
+          "prompt": "{{blank}}",
+          "promptZh": "其實，一切都已無關緊要",
+          "options": [
+            "Nothing really changes",
+            "Nothing really matters",
+            "Something really matters"
+          ],
+          "answer": "Nothing really matters"
+        },
+        {
+          "number": 49,
+          "lineId": "line-57",
+          "prompt": "Nothing really {{blank}}",
+          "promptZh": "對我而言，一切都已無關緊要",
+          "options": [
+            "matters to me",
+            "happens to me",
+            "matters to you"
+          ],
+          "answer": "matters to me"
+        },
+        {
+          "number": 50,
+          "lineId": "line-58",
+          "prompt": "Any way the {{blank}}",
+          "promptZh": "無論風往哪個方向吹",
+          "options": [
+            "wind goes",
+            "rain blows",
+            "wind blows"
+          ],
+          "answer": "wind blows"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Is this the {{q:1}}?"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Is this just {{q:2}}?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Caught in a {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "No escape from {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Look up to the {{q:6}} and see"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I'm just a {{q:7}}, I need no {{q:8}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Because I'm {{q:9}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:10}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Any way the {{q:11}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:12}} to me, to me"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Mama, just {{q:13}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Put a gun {{q:14}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:15}}, now {{q:16}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Mama, life had {{q:17}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "But now I've gone and {{q:18}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Mama, ooh"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Didn't mean to {{q:19}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "If I'm not {{q:20}} {{q:21}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:22}}, carry on as if {{q:23}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Too late, {{q:24}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Sends {{q:25}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:26}} all the time"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Goodbye, everybody, {{q:27}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Gotta leave you all behind and {{q:28}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Mama, ooh (Any way the wind blows)"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I {{q:29}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I sometimes wish I'd {{q:30}} at all"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I see a little {{q:31}} of a man"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Scaramouche, Scaramouche, will you do the Fandango?"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:32}} very, very {{q:33}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "(Galileo) Galileo"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "(Galileo) Galileo"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Galileo Figaro"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Magnifico-o-o-o-o"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I'm just a poor boy, {{q:34}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "He's just a poor boy from a {{q:35}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:36}} from this {{q:37}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Easy come, easy go, will you {{q:38}}?"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Bismillah! No, we {{q:39}} (Let him go!)"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Bismillah! We will not let you go (Let him go!)"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Bismillah! We will not let you go (Let me go!)"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:40}} (Let me go!)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:41}} (Never, never, never, never let me go)"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Oh oh oh oh"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "No, no, no, no, no, no, no"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Oh, mamma mia, mamma mia (Mamma mia, let me go)"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Beelzebub has a {{q:42}} for me, for me, for me"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "So you think you can {{q:43}} and {{q:44}}?"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "So you think you can love me and {{q:45}}?"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Oh, baby, {{q:46}}, baby"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Just gotta get out, just gotta {{q:47}}"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Ooh, ooh yeah, ooh yeah"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "{{q:48}}"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Anyone can see"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Nothing really matters"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Nothing really {{q:49}}"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Any way the {{q:50}}"
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/bohemian-rhapsody/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/bohemian-rhapsody/cover.webp",
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Bohemian Rhapsody_.pdf",
+      "sha256": "b0dc2439fc56de219586a430bb56d3ca3c9d9e4e461bb580616bb9528f5524aa"
+    },
+    "docx": {
+      "filename": "Bohemian_Rhapsody_Four_Level_Listening_Exercise.docx",
+      "sha256": "71c592d49cd033fbe51f2a0e8d035119a4242fea9f3b6c78adc20ae72526e2ee"
+    },
+    "md": {
+      "filename": "Bohemian_Rhapsody_Vocabulary_Quiz.md",
+      "sha256": "d8135e205b6a70375eecec931c04206ec4059c0fe7be7e4c841e4e73d708db26"
+    },
+    "mp3": {
+      "filename": "Bohemian Rhapsody [BSTsnWoslP4].mp3",
+      "sha256": "b85fd2f2c5f33d5a437737e40caf87b5757346757b63fe990e2164660178c734"
+    }
+  },
+  "audioAlignment": {
+    "duration": 354.32,
+    "audioSha256": "b85fd2f2c5f33d5a437737e40caf87b5757346757b63fe990e2164660178c734",
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "coverage": 0.8600419874037789,
+    "timedLines": 45,
+    "untimedLines": [
+      7,
+      11,
+      22,
+      26,
+      27,
+      33,
+      34,
+      35,
+      44,
+      45,
+      46,
+      53,
+      58
+    ],
+    "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  }
+}

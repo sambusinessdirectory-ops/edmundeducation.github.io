@@ -1,0 +1,2783 @@
+{
+  "slug": "take-on-me",
+  "title": "Take On Me",
+  "singer": "a-ha",
+  "description": "《Take On Me》描寫一段充滿期待、勇氣與不確定性的愛情。歌中的主角深深被對方吸引，雖然不太懂得如何表達自己的感情，仍然願意鼓起勇氣，主動追求心愛的人。面對對方的害羞與猶豫，他沒有輕易放棄，而是希望她能敞開心扉，給彼此一個相愛的機會。他明白人生短暫，機會稍縱即逝，因此不願因為害怕受傷而錯過幸福。歌曲中的「Take On Me」象徵勇敢接受愛情與未知的挑戰。最終，《Take On Me》傳達的是愛情中的勇氣、希望與冒險精神：與其因害怕失敗而選擇退縮，不如勇敢表達真心，把握眼前的機會，追尋屬於自己的幸福。",
+  "exercise_name": "Take On Me · Listening & Vocabulary",
+  "tags": [
+    "a-ha",
+    "take on me",
+    "love",
+    "courage"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "Talking away",
+      "chinese": "說個不停"
+    },
+    {
+      "lineId": "line-2",
+      "english": "I don't know what I'm to say",
+      "chinese": "我不知道自己該說些什麼",
+      "startSeconds": 35.7,
+      "endSeconds": 39.58
+    },
+    {
+      "lineId": "line-3",
+      "english": "I'll say it anyway",
+      "chinese": "但我還是會把它說出口",
+      "startSeconds": 39.58,
+      "endSeconds": 41.6
+    },
+    {
+      "lineId": "line-4",
+      "english": "Today is another day to find you",
+      "chinese": "今天又是另一個追尋你的日子",
+      "startSeconds": 41.6,
+      "endSeconds": 45.74
+    },
+    {
+      "lineId": "line-5",
+      "english": "Shying away",
+      "chinese": "退縮迴避",
+      "startSeconds": 45.74,
+      "endSeconds": 47.62
+    },
+    {
+      "lineId": "line-6",
+      "english": "I'll be coming for your love. OK?",
+      "chinese": "我還是會來爭取你的愛。好嗎？",
+      "startSeconds": 47.62,
+      "endSeconds": 49.98
+    },
+    {
+      "lineId": "line-7",
+      "english": "Take on me (take on me)",
+      "chinese": "接受我（接受我）",
+      "startSeconds": 50.0,
+      "endSeconds": 57.06
+    },
+    {
+      "lineId": "line-8",
+      "english": "Take me on (take on me)",
+      "chinese": "接納我（接受我）"
+    },
+    {
+      "lineId": "line-9",
+      "english": "I'll be gone",
+      "chinese": "我將離去"
+    },
+    {
+      "lineId": "line-10",
+      "english": "In a day or two",
+      "chinese": "在一兩天之後"
+    },
+    {
+      "lineId": "line-11",
+      "english": "So needless to say",
+      "chinese": "所以不用說"
+    },
+    {
+      "lineId": "line-12",
+      "english": "Of odds and ends",
+      "chinese": "那些零碎瑣事"
+    },
+    {
+      "lineId": "line-13",
+      "english": "But I'll be stumbling away",
+      "chinese": "但我會跌跌撞撞地離開"
+    },
+    {
+      "lineId": "line-14",
+      "english": "Slowly learning that life is OK.",
+      "chinese": "慢慢明白生活其實還過得去。"
+    },
+    {
+      "lineId": "line-15",
+      "english": "Say after me,",
+      "chinese": "跟著我唸，"
+    },
+    {
+      "lineId": "line-16",
+      "english": "\"It's no better to be safe than sorry.\"",
+      "chinese": "「小心謹慎並不比事後懊悔來得好。」"
+    },
+    {
+      "lineId": "line-17",
+      "english": "Take on me (take on me)",
+      "chinese": "接受我（接受我）"
+    },
+    {
+      "lineId": "line-18",
+      "english": "Take me on (take on me)",
+      "chinese": "接納我（接受我）"
+    },
+    {
+      "lineId": "line-19",
+      "english": "I'll be gone",
+      "chinese": "我將離去"
+    },
+    {
+      "lineId": "line-20",
+      "english": "In a day or two",
+      "chinese": "在一兩天之後"
+    },
+    {
+      "lineId": "line-21",
+      "english": "Oh, things that you say. Yeah.",
+      "chinese": "噢，你所說的那些話。耶。",
+      "startSeconds": 152.56,
+      "endSeconds": 156.3
+    },
+    {
+      "lineId": "line-22",
+      "english": "Is it life or just to play my worries away?",
+      "chinese": "這是真實的人生，還是只是為了排遣我的憂慮？",
+      "startSeconds": 156.46,
+      "endSeconds": 160.74
+    },
+    {
+      "lineId": "line-23",
+      "english": "You're all the things I've got to remember",
+      "chinese": "你是我必須銘記於心的一切",
+      "startSeconds": 160.74,
+      "endSeconds": 164.68
+    },
+    {
+      "lineId": "line-24",
+      "english": "You're shying away",
+      "chinese": "你正退縮迴避"
+    },
+    {
+      "lineId": "line-25",
+      "english": "I'll be coming for you anyway",
+      "chinese": "無論如何我還是會來找你",
+      "startSeconds": 167.58,
+      "endSeconds": 170.1
+    },
+    {
+      "lineId": "line-26",
+      "english": "Take on me (take on me)",
+      "chinese": "接受我（接受我）",
+      "startSeconds": 171.12,
+      "endSeconds": 176.34
+    },
+    {
+      "lineId": "line-27",
+      "english": "Take me on (take on me)",
+      "chinese": "接納我（接受我）"
+    },
+    {
+      "lineId": "line-28",
+      "english": "I'll be gone",
+      "chinese": "我將離去"
+    },
+    {
+      "lineId": "line-29",
+      "english": "In a day",
+      "chinese": "在一天之後"
+    },
+    {
+      "lineId": "line-30",
+      "english": "Take on me (take on me)",
+      "chinese": "接受我（接受我）"
+    },
+    {
+      "lineId": "line-31",
+      "english": "Take me on (take on me)",
+      "chinese": "接納我（接受我）",
+      "startSeconds": 197.3,
+      "endSeconds": 205.1
+    },
+    {
+      "lineId": "line-32",
+      "english": "I'll be gone",
+      "chinese": "我將離去"
+    },
+    {
+      "lineId": "line-33",
+      "english": "In a day",
+      "chinese": "在一天之後"
+    },
+    {
+      "lineId": "line-34",
+      "english": "Take on me (take on me)",
+      "chinese": "接受我（接受我）",
+      "startSeconds": 205.1,
+      "endSeconds": 213.1
+    },
+    {
+      "lineId": "line-35",
+      "english": "Take me on (take on me)",
+      "chinese": "接納我（接受我）",
+      "startSeconds": 216.92,
+      "endSeconds": 221.76
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Anyway",
+      "meaning": "不管怎樣；還是",
+      "usage": "當情況不理想，但你仍決定做某件事時使用。",
+      "prompt": "哪一句正確使用了「Anyway」？",
+      "options": [
+        "I put my anyway under the bed.",
+        "It is raining, but I will go to school anyway.",
+        "My cat is very anyway today.",
+        "She bought three anyways at the shop."
+      ],
+      "answer": 1,
+      "explanation": "正確：雖然下雨，還是要去上學。",
+      "optionExplanations": [
+        "錯誤：anyway 不是可以放在床下的物品。",
+        "正確：雖然下雨，還是要去上學。",
+        "錯誤：anyway 不是描述貓的形容詞。",
+        "錯誤：anyway 不是可以計數購買的東西。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Shy away from",
+      "meaning": "因害怕或沒信心而避開",
+      "usage": "當人因緊張或害怕而不敢做某件事時使用；後面常接名詞或動詞 ing。",
+      "prompt": "哪一句正確使用了「Shy away from」？",
+      "options": [
+        "He shies away from speaking in front of the class.",
+        "I shy away from my sandwich because it is delicious.",
+        "She shies away her bike to school.",
+        "We shied away the window to get fresh air."
+      ],
+      "answer": 0,
+      "explanation": "正確：他因緊張而不敢在全班面前說話。",
+      "optionExplanations": [
+        "正確：他因緊張而不敢在全班面前說話。",
+        "錯誤：因為三明治好吃而避開它，理由不符合一般用法。",
+        "錯誤：不能用 shy away 直接表示騎腳踏車。",
+        "錯誤：shy away 不是打開窗戶的意思。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Take someone on",
+      "meaning": "接受挑戰；與某人較量",
+      "usage": "在比賽、遊戲或挑戰中，願意和某人競爭時使用；歌曲中 take me on 也帶有「接受我」的意思。",
+      "prompt": "哪一句正確使用了「Take someone on」？",
+      "options": [
+        "I took on my shoes before running.",
+        "He takes on the lights before bed.",
+        "She took on a cake and ate it.",
+        "Our team will take on the best team tomorrow."
+      ],
+      "answer": 3,
+      "explanation": "正確：我們的隊伍明天要挑戰最強的隊伍。",
+      "optionExplanations": [
+        "錯誤：穿上鞋子要說 put on my shoes。",
+        "錯誤：開關燈要用 turn on 或 turn off。",
+        "錯誤：take on 不表示拿起蛋糕來吃。",
+        "正確：我們的隊伍明天要挑戰最強的隊伍。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Be gone",
+      "meaning": "離開了；不見了",
+      "usage": "當人已經離開，或東西不見時使用。",
+      "prompt": "哪一句正確使用了「Be gone」？",
+      "options": [
+        "My bag is be gone on the chair.",
+        "When I came back, the cake was gone!",
+        "I am gone my dinner now.",
+        "She gone to happy yesterday."
+      ],
+      "answer": 1,
+      "explanation": "正確：我回來時蛋糕已經不見了。",
+      "optionExplanations": [
+        "錯誤：is be gone 不能這樣連用。",
+        "正確：我回來時蛋糕已經不見了。",
+        "錯誤：gone 不表示正在吃晚餐。",
+        "錯誤：句子結構不對，gone 不能這樣接 happy。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "A day or two",
+      "meaning": "一兩天",
+      "usage": "當你不確定是一天還是兩天，想表示短時間時使用。",
+      "prompt": "哪一句正確使用了「A day or two」？",
+      "options": [
+        "I have a day or two apples in my bag.",
+        "This pizza is a day or two hungry.",
+        "I will call you in a day or two.",
+        "She runs a day or two blue."
+      ],
+      "answer": 2,
+      "explanation": "正確：我會在一兩天後打給你。",
+      "optionExplanations": [
+        "錯誤：a day or two 表示時間，不表示蘋果數量。",
+        "錯誤：這個片語不能形容披薩很餓。",
+        "正確：我會在一兩天後打給你。",
+        "錯誤：不能用這個片語表示顏色。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Needless to say",
+      "meaning": "不用說；當然",
+      "usage": "當接下來的事情很明顯，不需要特別解釋時使用。",
+      "prompt": "哪一句正確使用了「Needless to say」？",
+      "options": [
+        "Needless to say, everyone was happy when we won.",
+        "I needless to say my homework every night.",
+        "She bought a needless to say for her dog.",
+        "The soup is needless to say hotly."
+      ],
+      "answer": 0,
+      "explanation": "正確：贏了比賽，大家開心是很自然的事。",
+      "optionExplanations": [
+        "正確：贏了比賽，大家開心是很自然的事。",
+        "錯誤：這不是表示「寫功課」的動詞。",
+        "錯誤：這個片語不是可以購買的物品。",
+        "錯誤：不能用這個片語當成描述湯的形容詞。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Odds and ends",
+      "meaning": "零零碎碎的東西；雜物",
+      "usage": "整理房間或抽屜時，可以用來說各種小雜物。",
+      "prompt": "哪一句正確使用了「Odds and ends」？",
+      "options": [
+        "I ate odds and ends for breakfast because they were eggs.",
+        "She is odds and ends at seven years old.",
+        "There are pens, keys, and other odds and ends in this box.",
+        "We odds and ends to the park every Sunday."
+      ],
+      "answer": 2,
+      "explanation": "正確：盒子裡有筆、鑰匙等零碎物品。",
+      "optionExplanations": [
+        "錯誤：若直接指雞蛋，就不自然地稱為雜物。",
+        "錯誤：不能用這個片語表示年齡。",
+        "正確：盒子裡有筆、鑰匙等零碎物品。",
+        "錯誤：這個片語不是「去公園」的動詞。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Stumble",
+      "meaning": "絆到；跌跌撞撞",
+      "usage": "走路時腳沒踩穩、差點跌倒時使用。",
+      "prompt": "哪一句正確使用了「Stumble」？",
+      "options": [
+        "I stumbled my lunch at twelve.",
+        "I stumbled over a toy on the floor.",
+        "This book is very stumble.",
+        "She stumbled the door to open it."
+      ],
+      "answer": 1,
+      "explanation": "正確：我被地上的玩具絆了一下。",
+      "optionExplanations": [
+        "錯誤：stumble 不是吃午餐的意思。",
+        "正確：我被地上的玩具絆了一下。",
+        "錯誤：stumble 在這裡不能當描述書本的形容詞。",
+        "錯誤：stumble 不表示打開門。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Safe than sorry",
+      "meaning": "小心一點總比後悔好",
+      "usage": "常見完整說法是 better safe than sorry，用來表示事先小心比較好；歌曲刻意改動這句俗語。",
+      "prompt": "哪一句正確使用了「Safe than sorry」？",
+      "options": [
+        "I put safe than sorry in my school bag.",
+        "My brother is safe than sorry tall.",
+        "I safe than sorry my homework.",
+        "Take an umbrella. Better safe than sorry!"
+      ],
+      "answer": 3,
+      "explanation": "正確：帶把傘比較保險，以免後悔。",
+      "optionExplanations": [
+        "錯誤：這不是能放進書包的東西。",
+        "錯誤：這不是比較身高的方式。",
+        "錯誤：這個片語不能當動詞。",
+        "正確：帶把傘比較保險，以免後悔。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Worry",
+      "meaning": "擔心；煩惱",
+      "usage": "當你對考試、家人或未來感到不安時可以使用；可說 worry about。",
+      "prompt": "哪一句正確使用了「Worry」？",
+      "options": [
+        "Don't worry about the test. You studied hard.",
+        "I worry my sandwich with cheese.",
+        "She is a worry blue bicycle.",
+        "We went to worry at the new restaurant."
+      ],
+      "answer": 0,
+      "explanation": "正確：別擔心考試，你已經很認真準備。",
+      "optionExplanations": [
+        "正確：別擔心考試，你已經很認真準備。",
+        "錯誤：worry 不是製作三明治的動詞。",
+        "錯誤：不能這樣用 worry 描述腳踏車。",
+        "錯誤：worry 不是吃飯或去餐廳的意思。"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Talking {{blank}}",
+          "promptZh": "說個不停",
+          "options": [
+            "out",
+            "away",
+            "on"
+          ],
+          "answer": "away"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "I don't know what I'm {{blank}}",
+          "promptZh": "我不知道自己該說些什麼",
+          "options": [
+            "to say",
+            "to do",
+            "to be"
+          ],
+          "answer": "to say"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "I'll say it {{blank}}",
+          "promptZh": "但我還是會把它說出口",
+          "options": [
+            "anyway",
+            "anyhow",
+            "anyway now"
+          ],
+          "answer": "anyway"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "Today is another day to {{blank}}",
+          "promptZh": "今天又是另一個追尋你的日子",
+          "options": [
+            "see you",
+            "find you",
+            "know you"
+          ],
+          "answer": "find you"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "{{blank}}",
+          "promptZh": "退縮迴避",
+          "options": [
+            "Shying from",
+            "Shying out",
+            "Shying away"
+          ],
+          "answer": "Shying away"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "I'll be coming for your {{blank}}. OK?",
+          "promptZh": "我還是會來爭取你的愛。好嗎？",
+          "options": [
+            "soul",
+            "heart",
+            "love"
+          ],
+          "answer": "love"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "{{blank}} (take on me)",
+          "promptZh": "接受我（接受我）",
+          "options": [
+            "Take on me",
+            "Take me on",
+            "Take on it"
+          ],
+          "answer": "Take on me"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "{{blank}} (take on me)",
+          "promptZh": "接納我（接受我）",
+          "options": [
+            "Bring me on",
+            "Take me on",
+            "Take on me"
+          ],
+          "answer": "Take me on"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "I'll be {{blank}}",
+          "promptZh": "我將離去",
+          "options": [
+            "away",
+            "gone now",
+            "gone"
+          ],
+          "answer": "gone"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "In a {{blank}}",
+          "promptZh": "在一兩天之後",
+          "options": [
+            "day or two",
+            "day or three",
+            "week or two"
+          ],
+          "answer": "day or two"
+        },
+        {
+          "number": 11,
+          "lineId": "line-11",
+          "prompt": "So {{blank}}",
+          "promptZh": "所以不用說",
+          "options": [
+            "needless to tell",
+            "needless to say",
+            "useless to say"
+          ],
+          "answer": "needless to say"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "Of {{blank}}",
+          "promptZh": "那些零碎瑣事",
+          "options": [
+            "odds and ends",
+            "odds and evens",
+            "bits and ends"
+          ],
+          "answer": "odds and ends"
+        },
+        {
+          "number": 13,
+          "lineId": "line-13",
+          "prompt": "But I'll be {{blank}}",
+          "promptZh": "但我會跌跌撞撞地離開",
+          "options": [
+            "falling away",
+            "stumbling now",
+            "stumbling away"
+          ],
+          "answer": "stumbling away"
+        },
+        {
+          "number": 14,
+          "lineId": "line-14",
+          "prompt": "Slowly learning that {{blank}}.",
+          "promptZh": "慢慢明白生活其實還過得去。",
+          "options": [
+            "life is fine",
+            "life is OK",
+            "life is good"
+          ],
+          "answer": "life is OK"
+        },
+        {
+          "number": 15,
+          "lineId": "line-15",
+          "prompt": "Say {{blank}},",
+          "promptZh": "跟著我唸，",
+          "options": [
+            "to me",
+            "after me",
+            "with me"
+          ],
+          "answer": "after me"
+        },
+        {
+          "number": 16,
+          "lineId": "line-16",
+          "prompt": "\"It's no better to be {{blank}}.\"",
+          "promptZh": "「小心謹慎並不比事後懊悔來得好。」",
+          "options": [
+            "safe than sorry",
+            "safe than sad",
+            "sound than sorry"
+          ],
+          "answer": "safe than sorry"
+        },
+        {
+          "number": 17,
+          "lineId": "line-17",
+          "prompt": "{{blank}} (take on me)",
+          "promptZh": "接受我（接受我）",
+          "options": [
+            "Take on it",
+            "Take me on",
+            "Take on me"
+          ],
+          "answer": "Take on me"
+        },
+        {
+          "number": 18,
+          "lineId": "line-18",
+          "prompt": "{{blank}} (take on me)",
+          "promptZh": "接納我（接受我）",
+          "options": [
+            "Take me on",
+            "Bring me on",
+            "Take on me"
+          ],
+          "answer": "Take me on"
+        },
+        {
+          "number": 19,
+          "lineId": "line-19",
+          "prompt": "{{blank}}",
+          "promptZh": "我將離去",
+          "options": [
+            "I'll be away",
+            "I will be gone",
+            "I'll be gone"
+          ],
+          "answer": "I'll be gone"
+        },
+        {
+          "number": 20,
+          "lineId": "line-20",
+          "prompt": "In a {{blank}}",
+          "promptZh": "在一兩天之後",
+          "options": [
+            "day or three",
+            "day or two",
+            "week or two"
+          ],
+          "answer": "day or two"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Talking {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I don't know what I'm {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I'll say it {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Today is another day to {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I'll be coming for your {{q:6}}. OK?"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:7}} (take on me)"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:8}} (take on me)"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I'll be {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "In a {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "So {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Of {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "But I'll be {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Slowly learning that {{q:14}}."
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Say {{q:15}},"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "\"It's no better to be {{q:16}}.\""
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:17}} (take on me)"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:18}} (take on me)"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:19}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "In a {{q:20}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Oh, things that you say. Yeah."
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Is it life or just to play my worries away?"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You're all the things I've got to remember"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "You're shying away"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I'll be coming for you anyway"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Take on me (take on me)"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Take me on (take on me)"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I'll be gone"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "In a day"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Take on me (take on me)"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Take me on (take on me)"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I'll be gone"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "In a day"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Take on me (take on me)"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Take me on (take on me)"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 〔第 2 題〕",
+          "promptZh": "說個不停",
+          "options": [
+            "Speaking",
+            "Talking",
+            "Saying"
+          ],
+          "answer": "Talking"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 {{blank}}",
+          "promptZh": "說個不停",
+          "options": [
+            "away",
+            "out",
+            "on"
+          ],
+          "answer": "away"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} know what I'm 〔第 4 題〕",
+          "promptZh": "我不知道自己該說些什麼",
+          "options": [
+            "I never",
+            "I do not",
+            "I don't"
+          ],
+          "answer": "I don't"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 know what I'm {{blank}}",
+          "promptZh": "我不知道自己該說些什麼",
+          "options": [
+            "to do",
+            "to say",
+            "to be"
+          ],
+          "answer": "to say"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "{{blank}} it 〔第 6 題〕",
+          "promptZh": "但我還是會把它說出口",
+          "options": [
+            "I'll say",
+            "I will say",
+            "I'm gonna say"
+          ],
+          "answer": "I'll say"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "〔第 5 題〕 it {{blank}}",
+          "promptZh": "但我還是會把它說出口",
+          "options": [
+            "anyway now",
+            "anyhow",
+            "anyway"
+          ],
+          "answer": "anyway"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "{{blank}} another day to 〔第 8 題〕",
+          "promptZh": "今天又是另一個追尋你的日子",
+          "options": [
+            "Today is",
+            "Today's",
+            "Today will be"
+          ],
+          "answer": "Today is"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "〔第 7 題〕 another day to {{blank}}",
+          "promptZh": "今天又是另一個追尋你的日子",
+          "options": [
+            "see you",
+            "find you",
+            "know you"
+          ],
+          "answer": "find you"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "Shying {{blank}}",
+          "promptZh": "退縮迴避",
+          "options": [
+            "away",
+            "from it",
+            "out"
+          ],
+          "answer": "away"
+        },
+        {
+          "number": 10,
+          "lineId": "line-6",
+          "prompt": "I'll be {{blank}} for your 〔第 11 題〕. OK?",
+          "promptZh": "我還是會來爭取你的愛。好嗎？",
+          "options": [
+            "heading",
+            "running",
+            "coming"
+          ],
+          "answer": "coming"
+        },
+        {
+          "number": 11,
+          "lineId": "line-6",
+          "prompt": "I'll be 〔第 10 題〕 for your {{blank}}. OK?",
+          "promptZh": "我還是會來爭取你的愛。好嗎？",
+          "options": [
+            "heart",
+            "love",
+            "soul"
+          ],
+          "answer": "love"
+        },
+        {
+          "number": 12,
+          "lineId": "line-7",
+          "prompt": "Take {{blank}} (take on me)",
+          "promptZh": "接受我（接受我）",
+          "options": [
+            "on me",
+            "me on",
+            "on it"
+          ],
+          "answer": "on me"
+        },
+        {
+          "number": 13,
+          "lineId": "line-8",
+          "prompt": "{{blank}} (take on me)",
+          "promptZh": "接納我（接受我）",
+          "options": [
+            "Bring me on",
+            "Take me on",
+            "Take on me"
+          ],
+          "answer": "Take me on"
+        },
+        {
+          "number": 14,
+          "lineId": "line-9",
+          "prompt": "I'll be {{blank}}",
+          "promptZh": "我將離去",
+          "options": [
+            "away",
+            "gone now",
+            "gone"
+          ],
+          "answer": "gone"
+        },
+        {
+          "number": 15,
+          "lineId": "line-10",
+          "prompt": "In a {{blank}}",
+          "promptZh": "在一兩天之後",
+          "options": [
+            "day or two",
+            "day or three",
+            "week or two"
+          ],
+          "answer": "day or two"
+        },
+        {
+          "number": 16,
+          "lineId": "line-11",
+          "prompt": "{{blank}} to say",
+          "promptZh": "所以不用說",
+          "options": [
+            "So useless",
+            "So needless",
+            "So pointless"
+          ],
+          "answer": "So needless"
+        },
+        {
+          "number": 17,
+          "lineId": "line-12",
+          "prompt": "Of odds and {{blank}}",
+          "promptZh": "那些零碎瑣事",
+          "options": [
+            "pieces",
+            "evens",
+            "ends"
+          ],
+          "answer": "ends"
+        },
+        {
+          "number": 18,
+          "lineId": "line-13",
+          "prompt": "{{blank}} 〔第 19 題〕",
+          "promptZh": "但我會跌跌撞撞地離開",
+          "options": [
+            "But I'll be",
+            "And I'll be",
+            "But I am"
+          ],
+          "answer": "But I'll be"
+        },
+        {
+          "number": 19,
+          "lineId": "line-13",
+          "prompt": "〔第 18 題〕 {{blank}}",
+          "promptZh": "但我會跌跌撞撞地離開",
+          "options": [
+            "stumbling now",
+            "stumbling away",
+            "falling away"
+          ],
+          "answer": "stumbling away"
+        },
+        {
+          "number": 20,
+          "lineId": "line-14",
+          "prompt": "{{blank}} that 〔第 21 題〕.",
+          "promptZh": "慢慢明白生活其實還過得去。",
+          "options": [
+            "Slowly seeing",
+            "Slowly knowing",
+            "Slowly learning"
+          ],
+          "answer": "Slowly learning"
+        },
+        {
+          "number": 21,
+          "lineId": "line-14",
+          "prompt": "〔第 20 題〕 that {{blank}}.",
+          "promptZh": "慢慢明白生活其實還過得去。",
+          "options": [
+            "life is OK",
+            "life is fine",
+            "life is good"
+          ],
+          "answer": "life is OK"
+        },
+        {
+          "number": 22,
+          "lineId": "line-15",
+          "prompt": "Say {{blank}},",
+          "promptZh": "跟著我唸，",
+          "options": [
+            "with me",
+            "to me",
+            "after me"
+          ],
+          "answer": "after me"
+        },
+        {
+          "number": 23,
+          "lineId": "line-16",
+          "prompt": "\"It's no better to be {{blank}}.\"",
+          "promptZh": "「小心謹慎並不比事後懊悔來得好。」",
+          "options": [
+            "safe than sad",
+            "safe than sorry",
+            "sound than sorry"
+          ],
+          "answer": "safe than sorry"
+        },
+        {
+          "number": 24,
+          "lineId": "line-17",
+          "prompt": "{{blank}} (take on me)",
+          "promptZh": "接受我（接受我）",
+          "options": [
+            "Take me on",
+            "Take on me",
+            "Take on it"
+          ],
+          "answer": "Take on me"
+        },
+        {
+          "number": 25,
+          "lineId": "line-18",
+          "prompt": "{{blank}} (take on me)",
+          "promptZh": "接納我（接受我）",
+          "options": [
+            "Take on me",
+            "Bring me on",
+            "Take me on"
+          ],
+          "answer": "Take me on"
+        },
+        {
+          "number": 26,
+          "lineId": "line-19",
+          "prompt": "{{blank}}",
+          "promptZh": "我將離去",
+          "options": [
+            "I'll be gone",
+            "I will be gone",
+            "I'll be away"
+          ],
+          "answer": "I'll be gone"
+        },
+        {
+          "number": 27,
+          "lineId": "line-20",
+          "prompt": "In a {{blank}}",
+          "promptZh": "在一兩天之後",
+          "options": [
+            "day or three",
+            "day or two",
+            "week or two"
+          ],
+          "answer": "day or two"
+        },
+        {
+          "number": 28,
+          "lineId": "line-21",
+          "prompt": "{{blank}} that you say. Yeah.",
+          "promptZh": "噢，你所說的那些話。耶。",
+          "options": [
+            "Oh, all the things",
+            "Oh, the things",
+            "Oh, things"
+          ],
+          "answer": "Oh, things"
+        },
+        {
+          "number": 29,
+          "lineId": "line-22",
+          "prompt": "{{blank}} to play my worries away?",
+          "promptZh": "這是真實的人生，還是只是為了排遣我的憂慮？",
+          "options": [
+            "Is it life or just",
+            "Is it life or",
+            "Is it living or"
+          ],
+          "answer": "Is it life or just"
+        },
+        {
+          "number": 30,
+          "lineId": "line-23",
+          "prompt": "You're all the things {{blank}} to remember",
+          "promptZh": "你是我必須銘記於心的一切",
+          "options": [
+            "I want",
+            "I have",
+            "I've got"
+          ],
+          "answer": "I've got"
+        },
+        {
+          "number": 31,
+          "lineId": "line-24",
+          "prompt": "{{blank}}",
+          "promptZh": "你正退縮迴避",
+          "options": [
+            "You're shying away",
+            "You are shying away",
+            "You're shying from"
+          ],
+          "answer": "You're shying away"
+        },
+        {
+          "number": 32,
+          "lineId": "line-25",
+          "prompt": "I'll be coming for you {{blank}}",
+          "promptZh": "無論如何我還是會來找你",
+          "options": [
+            "anyhow",
+            "anyway",
+            "anyway now"
+          ],
+          "answer": "anyway"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} know what I'm {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}} it {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:7}} another day to {{q:8}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Shying {{q:9}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I'll be {{q:10}} for your {{q:11}}. OK?"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Take {{q:12}} (take on me)"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:13}} (take on me)"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I'll be {{q:14}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "In a {{q:15}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:16}} to say"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Of odds and {{q:17}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:18}} {{q:19}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:20}} that {{q:21}}."
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Say {{q:22}},"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "\"It's no better to be {{q:23}}.\""
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:24}} (take on me)"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:25}} (take on me)"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:26}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "In a {{q:27}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:28}} that you say. Yeah."
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:29}} to play my worries away?"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You're all the things {{q:30}} to remember"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:31}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I'll be coming for you {{q:32}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Take on me (take on me)"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Take me on (take on me)"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I'll be gone"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "In a day"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Take on me (take on me)"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Take me on (take on me)"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I'll be gone"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "In a day"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Take on me (take on me)"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Take me on (take on me)"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 〔第 2 題〕",
+          "promptZh": "說個不停",
+          "options": [
+            "Talking",
+            "Speaking",
+            "Saying"
+          ],
+          "answer": "Talking"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 {{blank}}",
+          "promptZh": "說個不停",
+          "options": [
+            "away",
+            "out",
+            "on"
+          ],
+          "answer": "away"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} know what I'm 〔第 4 題〕",
+          "promptZh": "我不知道自己該說些什麼",
+          "options": [
+            "I do not",
+            "I don't",
+            "I never"
+          ],
+          "answer": "I don't"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 know what I'm {{blank}}",
+          "promptZh": "我不知道自己該說些什麼",
+          "options": [
+            "to be",
+            "to do",
+            "to say"
+          ],
+          "answer": "to say"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "{{blank}} it 〔第 6 題〕",
+          "promptZh": "但我還是會把它說出口",
+          "options": [
+            "I'm gonna say",
+            "I will say",
+            "I'll say"
+          ],
+          "answer": "I'll say"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "〔第 5 題〕 it {{blank}}",
+          "promptZh": "但我還是會把它說出口",
+          "options": [
+            "anyway",
+            "anyhow",
+            "anyway now"
+          ],
+          "answer": "anyway"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "{{blank}} another day to 〔第 8 題〕",
+          "promptZh": "今天又是另一個追尋你的日子",
+          "options": [
+            "Today's",
+            "Today is",
+            "Today will be"
+          ],
+          "answer": "Today is"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "〔第 7 題〕 another day to {{blank}}",
+          "promptZh": "今天又是另一個追尋你的日子",
+          "options": [
+            "find you",
+            "see you",
+            "know you"
+          ],
+          "answer": "find you"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "{{blank}}",
+          "promptZh": "退縮迴避",
+          "options": [
+            "Shying out",
+            "Shying away",
+            "Shying from"
+          ],
+          "answer": "Shying away"
+        },
+        {
+          "number": 10,
+          "lineId": "line-6",
+          "prompt": "I'll be {{blank}} for your 〔第 11 題〕. OK?",
+          "promptZh": "我還是會來爭取你的愛。好嗎？",
+          "options": [
+            "heading",
+            "running",
+            "coming"
+          ],
+          "answer": "coming"
+        },
+        {
+          "number": 11,
+          "lineId": "line-6",
+          "prompt": "I'll be 〔第 10 題〕 for your {{blank}}. OK?",
+          "promptZh": "我還是會來爭取你的愛。好嗎？",
+          "options": [
+            "love",
+            "heart",
+            "soul"
+          ],
+          "answer": "love"
+        },
+        {
+          "number": 12,
+          "lineId": "line-7",
+          "prompt": "{{blank}} (〔第 13 題〕)",
+          "promptZh": "接受我（接受我）",
+          "options": [
+            "Take on it",
+            "Take me on",
+            "Take on me"
+          ],
+          "answer": "Take on me"
+        },
+        {
+          "number": 13,
+          "lineId": "line-7",
+          "prompt": "〔第 12 題〕 ({{blank}})",
+          "promptZh": "接受我（接受我）",
+          "options": [
+            "Take me on",
+            "take on me",
+            "Take on it"
+          ],
+          "answer": "take on me"
+        },
+        {
+          "number": 14,
+          "lineId": "line-8",
+          "prompt": "{{blank}} (take on me)",
+          "promptZh": "接納我（接受我）",
+          "options": [
+            "Take on me",
+            "Bring me on",
+            "Take me on"
+          ],
+          "answer": "Take me on"
+        },
+        {
+          "number": 15,
+          "lineId": "line-9",
+          "prompt": "I'll be {{blank}}",
+          "promptZh": "我將離去",
+          "options": [
+            "gone",
+            "gone now",
+            "away"
+          ],
+          "answer": "gone"
+        },
+        {
+          "number": 16,
+          "lineId": "line-10",
+          "prompt": "In a {{blank}}",
+          "promptZh": "在一兩天之後",
+          "options": [
+            "day or three",
+            "day or two",
+            "week or two"
+          ],
+          "answer": "day or two"
+        },
+        {
+          "number": 17,
+          "lineId": "line-11",
+          "prompt": "So {{blank}}",
+          "promptZh": "所以不用說",
+          "options": [
+            "needless to tell",
+            "needless to say",
+            "useless to say"
+          ],
+          "answer": "needless to say"
+        },
+        {
+          "number": 18,
+          "lineId": "line-12",
+          "prompt": "Of {{blank}}",
+          "promptZh": "那些零碎瑣事",
+          "options": [
+            "bits and ends",
+            "odds and evens",
+            "odds and ends"
+          ],
+          "answer": "odds and ends"
+        },
+        {
+          "number": 19,
+          "lineId": "line-13",
+          "prompt": "{{blank}} 〔第 20 題〕",
+          "promptZh": "但我會跌跌撞撞地離開",
+          "options": [
+            "But I'll be",
+            "And I'll be",
+            "But I am"
+          ],
+          "answer": "But I'll be"
+        },
+        {
+          "number": 20,
+          "lineId": "line-13",
+          "prompt": "〔第 19 題〕 {{blank}}",
+          "promptZh": "但我會跌跌撞撞地離開",
+          "options": [
+            "stumbling now",
+            "stumbling away",
+            "falling away"
+          ],
+          "answer": "stumbling away"
+        },
+        {
+          "number": 21,
+          "lineId": "line-14",
+          "prompt": "{{blank}} that 〔第 22 題〕.",
+          "promptZh": "慢慢明白生活其實還過得去。",
+          "options": [
+            "Slowly learning",
+            "Slowly knowing",
+            "Slowly seeing"
+          ],
+          "answer": "Slowly learning"
+        },
+        {
+          "number": 22,
+          "lineId": "line-14",
+          "prompt": "〔第 21 題〕 that {{blank}}.",
+          "promptZh": "慢慢明白生活其實還過得去。",
+          "options": [
+            "life is good",
+            "life is fine",
+            "life is OK"
+          ],
+          "answer": "life is OK"
+        },
+        {
+          "number": 23,
+          "lineId": "line-15",
+          "prompt": "{{blank}},",
+          "promptZh": "跟著我唸，",
+          "options": [
+            "Say after me",
+            "Say to me",
+            "Say with me"
+          ],
+          "answer": "Say after me"
+        },
+        {
+          "number": 24,
+          "lineId": "line-16",
+          "prompt": "\"It's no better to be {{blank}}.\"",
+          "promptZh": "「小心謹慎並不比事後懊悔來得好。」",
+          "options": [
+            "safe than sad",
+            "safe than sorry",
+            "sound than sorry"
+          ],
+          "answer": "safe than sorry"
+        },
+        {
+          "number": 25,
+          "lineId": "line-17",
+          "prompt": "{{blank}} (take on me)",
+          "promptZh": "接受我（接受我）",
+          "options": [
+            "Take on it",
+            "Take me on",
+            "Take on me"
+          ],
+          "answer": "Take on me"
+        },
+        {
+          "number": 26,
+          "lineId": "line-18",
+          "prompt": "{{blank}} (take on me)",
+          "promptZh": "接納我（接受我）",
+          "options": [
+            "Bring me on",
+            "Take me on",
+            "Take on me"
+          ],
+          "answer": "Take me on"
+        },
+        {
+          "number": 27,
+          "lineId": "line-19",
+          "prompt": "{{blank}}",
+          "promptZh": "我將離去",
+          "options": [
+            "I'll be gone",
+            "I will be gone",
+            "I'll be away"
+          ],
+          "answer": "I'll be gone"
+        },
+        {
+          "number": 28,
+          "lineId": "line-20",
+          "prompt": "In a {{blank}}",
+          "promptZh": "在一兩天之後",
+          "options": [
+            "week or two",
+            "day or three",
+            "day or two"
+          ],
+          "answer": "day or two"
+        },
+        {
+          "number": 29,
+          "lineId": "line-21",
+          "prompt": "{{blank}} that you say. Yeah.",
+          "promptZh": "噢，你所說的那些話。耶。",
+          "options": [
+            "Oh, things",
+            "Oh, the things",
+            "Oh, all the things"
+          ],
+          "answer": "Oh, things"
+        },
+        {
+          "number": 30,
+          "lineId": "line-22",
+          "prompt": "{{blank}} to play my worries 〔第 31 題〕?",
+          "promptZh": "這是真實的人生，還是只是為了排遣我的憂慮？",
+          "options": [
+            "Is it living or",
+            "Is it life or",
+            "Is it life or just"
+          ],
+          "answer": "Is it life or just"
+        },
+        {
+          "number": 31,
+          "lineId": "line-22",
+          "prompt": "〔第 30 題〕 to play my worries {{blank}}?",
+          "promptZh": "這是真實的人生，還是只是為了排遣我的憂慮？",
+          "options": [
+            "out",
+            "away",
+            "on"
+          ],
+          "answer": "away"
+        },
+        {
+          "number": 32,
+          "lineId": "line-23",
+          "prompt": "You're all the things {{blank}} to remember",
+          "promptZh": "你是我必須銘記於心的一切",
+          "options": [
+            "I want",
+            "I have",
+            "I've got"
+          ],
+          "answer": "I've got"
+        },
+        {
+          "number": 33,
+          "lineId": "line-24",
+          "prompt": "{{blank}}",
+          "promptZh": "你正退縮迴避",
+          "options": [
+            "You're shying away",
+            "You are shying away",
+            "You're shying from"
+          ],
+          "answer": "You're shying away"
+        },
+        {
+          "number": 34,
+          "lineId": "line-25",
+          "prompt": "I'll be coming for you {{blank}}",
+          "promptZh": "無論如何我還是會來找你",
+          "options": [
+            "anyhow",
+            "anyway",
+            "anyway now"
+          ],
+          "answer": "anyway"
+        },
+        {
+          "number": 35,
+          "lineId": "line-26",
+          "prompt": "{{blank}} (take on me)",
+          "promptZh": "接受我（接受我）",
+          "options": [
+            "Take on it",
+            "Take me on",
+            "Take on me"
+          ],
+          "answer": "Take on me"
+        },
+        {
+          "number": 36,
+          "lineId": "line-27",
+          "prompt": "{{blank}} (take on me)",
+          "promptZh": "接納我（接受我）",
+          "options": [
+            "Take me on",
+            "Bring me on",
+            "Take on me"
+          ],
+          "answer": "Take me on"
+        },
+        {
+          "number": 37,
+          "lineId": "line-28",
+          "prompt": "{{blank}}",
+          "promptZh": "我將離去",
+          "options": [
+            "I will be gone",
+            "I'll be gone",
+            "I'll be away"
+          ],
+          "answer": "I'll be gone"
+        },
+        {
+          "number": 38,
+          "lineId": "line-29",
+          "prompt": "In a {{blank}}",
+          "promptZh": "在一天之後",
+          "options": [
+            "day or two",
+            "day",
+            "week"
+          ],
+          "answer": "day"
+        },
+        {
+          "number": 39,
+          "lineId": "line-30",
+          "prompt": "{{blank}} (take on me)",
+          "promptZh": "接受我（接受我）",
+          "options": [
+            "Take on it",
+            "Take me on",
+            "Take on me"
+          ],
+          "answer": "Take on me"
+        },
+        {
+          "number": 40,
+          "lineId": "line-31",
+          "prompt": "{{blank}} (take on me)",
+          "promptZh": "接納我（接受我）",
+          "options": [
+            "Take me on",
+            "Bring me on",
+            "Take on me"
+          ],
+          "answer": "Take me on"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} know what I'm {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}} it {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:7}} another day to {{q:8}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:9}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I'll be {{q:10}} for your {{q:11}}. OK?"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:12}} ({{q:13}})"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:14}} (take on me)"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I'll be {{q:15}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "In a {{q:16}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "So {{q:17}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Of {{q:18}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:19}} {{q:20}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:21}} that {{q:22}}."
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:23}},"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "\"It's no better to be {{q:24}}.\""
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:25}} (take on me)"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:26}} (take on me)"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:27}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "In a {{q:28}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:29}} that you say. Yeah."
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:30}} to play my worries {{q:31}}?"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You're all the things {{q:32}} to remember"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:33}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I'll be coming for you {{q:34}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:35}} (take on me)"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:36}} (take on me)"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:37}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "In a {{q:38}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:39}} (take on me)"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:40}} (take on me)"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I'll be gone"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "In a day"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Take on me (take on me)"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Take me on (take on me)"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 〔第 2 題〕",
+          "promptZh": "說個不停",
+          "options": [
+            "Talking",
+            "Speaking",
+            "Saying"
+          ],
+          "answer": "Talking"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 {{blank}}",
+          "promptZh": "說個不停",
+          "options": [
+            "out",
+            "away",
+            "on"
+          ],
+          "answer": "away"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} know what I'm 〔第 4 題〕",
+          "promptZh": "我不知道自己該說些什麼",
+          "options": [
+            "I never",
+            "I do not",
+            "I don't"
+          ],
+          "answer": "I don't"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 know what I'm {{blank}}",
+          "promptZh": "我不知道自己該說些什麼",
+          "options": [
+            "to say",
+            "to do",
+            "to be"
+          ],
+          "answer": "to say"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "{{blank}} it 〔第 6 題〕",
+          "promptZh": "但我還是會把它說出口",
+          "options": [
+            "I will say",
+            "I'll say",
+            "I'm gonna say"
+          ],
+          "answer": "I'll say"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "〔第 5 題〕 it {{blank}}",
+          "promptZh": "但我還是會把它說出口",
+          "options": [
+            "anyway",
+            "anyhow",
+            "anyway now"
+          ],
+          "answer": "anyway"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "{{blank}} another day to 〔第 8 題〕",
+          "promptZh": "今天又是另一個追尋你的日子",
+          "options": [
+            "Today will be",
+            "Today's",
+            "Today is"
+          ],
+          "answer": "Today is"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "〔第 7 題〕 another day to {{blank}}",
+          "promptZh": "今天又是另一個追尋你的日子",
+          "options": [
+            "see you",
+            "find you",
+            "know you"
+          ],
+          "answer": "find you"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "{{blank}}",
+          "promptZh": "退縮迴避",
+          "options": [
+            "Shying away",
+            "Shying out",
+            "Shying from"
+          ],
+          "answer": "Shying away"
+        },
+        {
+          "number": 10,
+          "lineId": "line-6",
+          "prompt": "I'll be {{blank}} for your 〔第 11 題〕. OK?",
+          "promptZh": "我還是會來爭取你的愛。好嗎？",
+          "options": [
+            "heading",
+            "running",
+            "coming"
+          ],
+          "answer": "coming"
+        },
+        {
+          "number": 11,
+          "lineId": "line-6",
+          "prompt": "I'll be 〔第 10 題〕 for your {{blank}}. OK?",
+          "promptZh": "我還是會來爭取你的愛。好嗎？",
+          "options": [
+            "heart",
+            "love",
+            "soul"
+          ],
+          "answer": "love"
+        },
+        {
+          "number": 12,
+          "lineId": "line-7",
+          "prompt": "{{blank}} (〔第 13 題〕)",
+          "promptZh": "接受我（接受我）",
+          "options": [
+            "Take me on",
+            "Take on me",
+            "Take on it"
+          ],
+          "answer": "Take on me"
+        },
+        {
+          "number": 13,
+          "lineId": "line-7",
+          "prompt": "〔第 12 題〕 ({{blank}})",
+          "promptZh": "接受我（接受我）",
+          "options": [
+            "take on me",
+            "Take me on",
+            "Take on it"
+          ],
+          "answer": "take on me"
+        },
+        {
+          "number": 14,
+          "lineId": "line-8",
+          "prompt": "{{blank}} (〔第 15 題〕)",
+          "promptZh": "接納我（接受我）",
+          "options": [
+            "Take on me",
+            "Bring me on",
+            "Take me on"
+          ],
+          "answer": "Take me on"
+        },
+        {
+          "number": 15,
+          "lineId": "line-8",
+          "prompt": "〔第 14 題〕 ({{blank}})",
+          "promptZh": "接納我（接受我）",
+          "options": [
+            "Take on it",
+            "Take me on",
+            "take on me"
+          ],
+          "answer": "take on me"
+        },
+        {
+          "number": 16,
+          "lineId": "line-9",
+          "prompt": "I'll be {{blank}}",
+          "promptZh": "我將離去",
+          "options": [
+            "gone now",
+            "gone",
+            "away"
+          ],
+          "answer": "gone"
+        },
+        {
+          "number": 17,
+          "lineId": "line-10",
+          "prompt": "In a {{blank}}",
+          "promptZh": "在一兩天之後",
+          "options": [
+            "day or two",
+            "day or three",
+            "week or two"
+          ],
+          "answer": "day or two"
+        },
+        {
+          "number": 18,
+          "lineId": "line-11",
+          "prompt": "So {{blank}}",
+          "promptZh": "所以不用說",
+          "options": [
+            "useless to say",
+            "needless to tell",
+            "needless to say"
+          ],
+          "answer": "needless to say"
+        },
+        {
+          "number": 19,
+          "lineId": "line-12",
+          "prompt": "Of {{blank}}",
+          "promptZh": "那些零碎瑣事",
+          "options": [
+            "odds and evens",
+            "odds and ends",
+            "bits and ends"
+          ],
+          "answer": "odds and ends"
+        },
+        {
+          "number": 20,
+          "lineId": "line-13",
+          "prompt": "{{blank}} 〔第 21 題〕",
+          "promptZh": "但我會跌跌撞撞地離開",
+          "options": [
+            "But I'll be",
+            "And I'll be",
+            "But I am"
+          ],
+          "answer": "But I'll be"
+        },
+        {
+          "number": 21,
+          "lineId": "line-13",
+          "prompt": "〔第 20 題〕 {{blank}}",
+          "promptZh": "但我會跌跌撞撞地離開",
+          "options": [
+            "stumbling away",
+            "stumbling now",
+            "falling away"
+          ],
+          "answer": "stumbling away"
+        },
+        {
+          "number": 22,
+          "lineId": "line-14",
+          "prompt": "{{blank}} that 〔第 23 題〕.",
+          "promptZh": "慢慢明白生活其實還過得去。",
+          "options": [
+            "Slowly knowing",
+            "Slowly learning",
+            "Slowly seeing"
+          ],
+          "answer": "Slowly learning"
+        },
+        {
+          "number": 23,
+          "lineId": "line-14",
+          "prompt": "〔第 22 題〕 that {{blank}}.",
+          "promptZh": "慢慢明白生活其實還過得去。",
+          "options": [
+            "life is good",
+            "life is fine",
+            "life is OK"
+          ],
+          "answer": "life is OK"
+        },
+        {
+          "number": 24,
+          "lineId": "line-15",
+          "prompt": "Say {{blank}},",
+          "promptZh": "跟著我唸，",
+          "options": [
+            "with me",
+            "to me",
+            "after me"
+          ],
+          "answer": "after me"
+        },
+        {
+          "number": 25,
+          "lineId": "line-16",
+          "prompt": "\"It's no better to be {{blank}}.\"",
+          "promptZh": "「小心謹慎並不比事後懊悔來得好。」",
+          "options": [
+            "safe than sorry",
+            "safe than sad",
+            "sound than sorry"
+          ],
+          "answer": "safe than sorry"
+        },
+        {
+          "number": 26,
+          "lineId": "line-17",
+          "prompt": "{{blank}} (〔第 27 題〕)",
+          "promptZh": "接受我（接受我）",
+          "options": [
+            "Take me on",
+            "Take on me",
+            "Take on it"
+          ],
+          "answer": "Take on me"
+        },
+        {
+          "number": 27,
+          "lineId": "line-17",
+          "prompt": "〔第 26 題〕 ({{blank}})",
+          "promptZh": "接受我（接受我）",
+          "options": [
+            "take on me",
+            "Take me on",
+            "Take on it"
+          ],
+          "answer": "take on me"
+        },
+        {
+          "number": 28,
+          "lineId": "line-18",
+          "prompt": "{{blank}} (〔第 29 題〕)",
+          "promptZh": "接納我（接受我）",
+          "options": [
+            "Bring me on",
+            "Take me on",
+            "Take on me"
+          ],
+          "answer": "Take me on"
+        },
+        {
+          "number": 29,
+          "lineId": "line-18",
+          "prompt": "〔第 28 題〕 ({{blank}})",
+          "promptZh": "接納我（接受我）",
+          "options": [
+            "Take on it",
+            "Take me on",
+            "take on me"
+          ],
+          "answer": "take on me"
+        },
+        {
+          "number": 30,
+          "lineId": "line-19",
+          "prompt": "{{blank}}",
+          "promptZh": "我將離去",
+          "options": [
+            "I will be gone",
+            "I'll be gone",
+            "I'll be away"
+          ],
+          "answer": "I'll be gone"
+        },
+        {
+          "number": 31,
+          "lineId": "line-20",
+          "prompt": "In a {{blank}}",
+          "promptZh": "在一兩天之後",
+          "options": [
+            "day or two",
+            "day or three",
+            "week or two"
+          ],
+          "answer": "day or two"
+        },
+        {
+          "number": 32,
+          "lineId": "line-21",
+          "prompt": "{{blank}} that you say. Yeah.",
+          "promptZh": "噢，你所說的那些話。耶。",
+          "options": [
+            "Oh, all the things",
+            "Oh, the things",
+            "Oh, things"
+          ],
+          "answer": "Oh, things"
+        },
+        {
+          "number": 33,
+          "lineId": "line-22",
+          "prompt": "{{blank}} to play my worries 〔第 34 題〕?",
+          "promptZh": "這是真實的人生，還是只是為了排遣我的憂慮？",
+          "options": [
+            "Is it life or just",
+            "Is it life or",
+            "Is it living or"
+          ],
+          "answer": "Is it life or just"
+        },
+        {
+          "number": 34,
+          "lineId": "line-22",
+          "prompt": "〔第 33 題〕 to play my worries {{blank}}?",
+          "promptZh": "這是真實的人生，還是只是為了排遣我的憂慮？",
+          "options": [
+            "out",
+            "away",
+            "on"
+          ],
+          "answer": "away"
+        },
+        {
+          "number": 35,
+          "lineId": "line-23",
+          "prompt": "You're all the things {{blank}} to remember",
+          "promptZh": "你是我必須銘記於心的一切",
+          "options": [
+            "I want",
+            "I have",
+            "I've got"
+          ],
+          "answer": "I've got"
+        },
+        {
+          "number": 36,
+          "lineId": "line-24",
+          "prompt": "{{blank}}",
+          "promptZh": "你正退縮迴避",
+          "options": [
+            "You're shying away",
+            "You are shying away",
+            "You're shying from"
+          ],
+          "answer": "You're shying away"
+        },
+        {
+          "number": 37,
+          "lineId": "line-25",
+          "prompt": "I'll be coming for you {{blank}}",
+          "promptZh": "無論如何我還是會來找你",
+          "options": [
+            "anyhow",
+            "anyway",
+            "anyway now"
+          ],
+          "answer": "anyway"
+        },
+        {
+          "number": 38,
+          "lineId": "line-26",
+          "prompt": "{{blank}} (〔第 39 題〕)",
+          "promptZh": "接受我（接受我）",
+          "options": [
+            "Take on it",
+            "Take me on",
+            "Take on me"
+          ],
+          "answer": "Take on me"
+        },
+        {
+          "number": 39,
+          "lineId": "line-26",
+          "prompt": "〔第 38 題〕 ({{blank}})",
+          "promptZh": "接受我（接受我）",
+          "options": [
+            "Take me on",
+            "take on me",
+            "Take on it"
+          ],
+          "answer": "take on me"
+        },
+        {
+          "number": 40,
+          "lineId": "line-27",
+          "prompt": "{{blank}} (〔第 41 題〕)",
+          "promptZh": "接納我（接受我）",
+          "options": [
+            "Take on me",
+            "Bring me on",
+            "Take me on"
+          ],
+          "answer": "Take me on"
+        },
+        {
+          "number": 41,
+          "lineId": "line-27",
+          "prompt": "〔第 40 題〕 ({{blank}})",
+          "promptZh": "接納我（接受我）",
+          "options": [
+            "take on me",
+            "Take me on",
+            "Take on it"
+          ],
+          "answer": "take on me"
+        },
+        {
+          "number": 42,
+          "lineId": "line-28",
+          "prompt": "{{blank}}",
+          "promptZh": "我將離去",
+          "options": [
+            "I will be gone",
+            "I'll be gone",
+            "I'll be away"
+          ],
+          "answer": "I'll be gone"
+        },
+        {
+          "number": 43,
+          "lineId": "line-29",
+          "prompt": "In a {{blank}}",
+          "promptZh": "在一天之後",
+          "options": [
+            "day",
+            "day or two",
+            "week"
+          ],
+          "answer": "day"
+        },
+        {
+          "number": 44,
+          "lineId": "line-30",
+          "prompt": "{{blank}} (〔第 45 題〕)",
+          "promptZh": "接受我（接受我）",
+          "options": [
+            "Take on it",
+            "Take me on",
+            "Take on me"
+          ],
+          "answer": "Take on me"
+        },
+        {
+          "number": 45,
+          "lineId": "line-30",
+          "prompt": "〔第 44 題〕 ({{blank}})",
+          "promptZh": "接受我（接受我）",
+          "options": [
+            "Take me on",
+            "take on me",
+            "Take on it"
+          ],
+          "answer": "take on me"
+        },
+        {
+          "number": 46,
+          "lineId": "line-31",
+          "prompt": "{{blank}} (〔第 47 題〕)",
+          "promptZh": "接納我（接受我）",
+          "options": [
+            "Take on me",
+            "Bring me on",
+            "Take me on"
+          ],
+          "answer": "Take me on"
+        },
+        {
+          "number": 47,
+          "lineId": "line-31",
+          "prompt": "〔第 46 題〕 ({{blank}})",
+          "promptZh": "接納我（接受我）",
+          "options": [
+            "take on me",
+            "Take me on",
+            "Take on it"
+          ],
+          "answer": "take on me"
+        },
+        {
+          "number": 48,
+          "lineId": "line-34",
+          "prompt": "{{blank}} (〔第 49 題〕)",
+          "promptZh": "接受我（接受我）",
+          "options": [
+            "Take me on",
+            "Take on me",
+            "Take on it"
+          ],
+          "answer": "Take on me"
+        },
+        {
+          "number": 49,
+          "lineId": "line-34",
+          "prompt": "〔第 48 題〕 ({{blank}})",
+          "promptZh": "接受我（接受我）",
+          "options": [
+            "take on me",
+            "Take me on",
+            "Take on it"
+          ],
+          "answer": "take on me"
+        },
+        {
+          "number": 50,
+          "lineId": "line-35",
+          "prompt": "Take me on ({{blank}})",
+          "promptZh": "接納我（接受我）",
+          "options": [
+            "Take on it",
+            "Take me on",
+            "take on me"
+          ],
+          "answer": "take on me"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} know what I'm {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}} it {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:7}} another day to {{q:8}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:9}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I'll be {{q:10}} for your {{q:11}}. OK?"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:12}} ({{q:13}})"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:14}} ({{q:15}})"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I'll be {{q:16}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "In a {{q:17}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "So {{q:18}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Of {{q:19}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:20}} {{q:21}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:22}} that {{q:23}}."
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Say {{q:24}},"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "\"It's no better to be {{q:25}}.\""
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:26}} ({{q:27}})"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:28}} ({{q:29}})"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:30}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "In a {{q:31}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:32}} that you say. Yeah."
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:33}} to play my worries {{q:34}}?"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You're all the things {{q:35}} to remember"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:36}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I'll be coming for you {{q:37}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:38}} ({{q:39}})"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:40}} ({{q:41}})"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:42}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "In a {{q:43}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:44}} ({{q:45}})"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:46}} ({{q:47}})"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I'll be gone"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "In a day"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "{{q:48}} ({{q:49}})"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Take me on ({{q:50}})"
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/take-on-me/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/take-on-me/cover.webp",
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "《Take On Me.pdf",
+      "sha256": "686a17bbd1838f909acacb65ac58e822edfea0fb56e05320bebb0b80e354299f"
+    },
+    "md": {
+      "filename": "Take_On_Me_Vocabulary_Quiz.md",
+      "sha256": "df1f34dae1120109bf1098064c3182917e24a38591d4e0db204e67caa3a2218e"
+    },
+    "mp3": {
+      "filename": "Take on Me [HzdD8kbDzZA].mp3",
+      "sha256": "b7b2d33e50cbdef5c9fde4c40befe6cc86ff4291e7291ac3d2404bb70bd2379b"
+    }
+  },
+  "audioAlignment": {
+    "duration": 225.28,
+    "audioSha256": "b7b2d33e50cbdef5c9fde4c40befe6cc86ff4291e7291ac3d2404bb70bd2379b",
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "coverage": 0.6585365853658537,
+    "timedLines": 14,
+    "untimedLines": [
+      1,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      24,
+      27,
+      28,
+      29,
+      30,
+      32,
+      33
+    ],
+    "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  }
+}

@@ -1,0 +1,2870 @@
+{
+  "slug": "somewhere-only-we-know",
+  "title": "Somewhere Only We Know",
+  "singer": "Keane",
+  "description": "《Somewhere Only We Know》描寫隨著時間流逝，對過去美好回憶的懷念，以及渴望尋找心靈歸屬的心情。歌中的主角走過熟悉的小徑與河畔，回憶曾經簡單而幸福的時光，卻發現一切早已悄悄改變。隨著年歲增長，他逐漸感到疲憊與迷惘，希望找到一個可以依靠的地方，重新獲得安全感與生活的方向。歌曲中的「只有我們知道的地方」象徵珍貴的回憶、信任與心靈的避風港。最終，《Somewhere Only We Know》傳達的是懷念、成長與對歸屬感的渴望：即使世界不斷改變，我們仍然希望保留一個特別的地方，讓自己能夠找回曾經的純真、溫暖與內心的平靜。",
+  "exercise_name": "Somewhere Only We Know · Listening & Vocabulary",
+  "tags": [
+    "keane",
+    "somewhere only we know",
+    "memories",
+    "belonging"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "I walked across an empty land",
+      "chinese": "我走過一片空曠的土地",
+      "startSeconds": 22.54,
+      "endSeconds": 28.22
+    },
+    {
+      "lineId": "line-2",
+      "english": "I knew the pathway like the back of my hand",
+      "chinese": "我對那條小徑熟悉得如同自己的手背",
+      "startSeconds": 28.22,
+      "endSeconds": 34.3
+    },
+    {
+      "lineId": "line-3",
+      "english": "I felt the earth beneath my feet",
+      "chinese": "我感覺到大地的泥土在腳下",
+      "startSeconds": 34.3,
+      "endSeconds": 39.64
+    },
+    {
+      "lineId": "line-4",
+      "english": "Sat by the river and it made me complete",
+      "chinese": "坐在河畔，它讓我感到完整",
+      "startSeconds": 39.64,
+      "endSeconds": 45.0
+    },
+    {
+      "lineId": "line-5",
+      "english": "Oh simple thing where have you gone?",
+      "chinese": "噢，純粹的事物，你去了哪裡？",
+      "startSeconds": 45.0,
+      "endSeconds": 50.24
+    },
+    {
+      "lineId": "line-6",
+      "english": "I'm getting old and I need something to rely on",
+      "chinese": "我逐漸老去，需要一些可以依靠的東西",
+      "startSeconds": 51.58,
+      "endSeconds": 56.72
+    },
+    {
+      "lineId": "line-7",
+      "english": "So tell me when you're gonna let me in",
+      "chinese": "所以告訴我，你何時才會讓我進入",
+      "startSeconds": 56.72,
+      "endSeconds": 62.1
+    },
+    {
+      "lineId": "line-8",
+      "english": "I'm getting tired and I need somewhere to begin",
+      "chinese": "我逐漸疲憊，需要一個起點",
+      "startSeconds": 62.1,
+      "endSeconds": 67.18
+    },
+    {
+      "lineId": "line-9",
+      "english": "I came across a fallen tree",
+      "chinese": "我偶然遇見一棵倒下的樹",
+      "startSeconds": 67.72,
+      "endSeconds": 72.96
+    },
+    {
+      "lineId": "line-10",
+      "english": "I felt the branches of it looking at me",
+      "chinese": "我感覺到它的枝椏正望著我",
+      "startSeconds": 73.49,
+      "endSeconds": 78.7
+    },
+    {
+      "lineId": "line-11",
+      "english": "Is this the place we used to love?",
+      "chinese": "這是我們曾經愛過的地方嗎？",
+      "startSeconds": 78.7,
+      "endSeconds": 83.78
+    },
+    {
+      "lineId": "line-12",
+      "english": "Is this the place that I've been dreaming of?",
+      "chinese": "這是那個我一直在夢見的地方嗎？",
+      "startSeconds": 83.78,
+      "endSeconds": 90.06
+    },
+    {
+      "lineId": "line-13",
+      "english": "Oh simple thing where have you gone?",
+      "chinese": "噢，純粹的事物，你去了哪裡？",
+      "startSeconds": 90.82,
+      "endSeconds": 94.76
+    },
+    {
+      "lineId": "line-14",
+      "english": "I'm getting old and I need something to rely on",
+      "chinese": "我逐漸老去，需要一些可以依靠的東西",
+      "startSeconds": 96.04,
+      "endSeconds": 101.2
+    },
+    {
+      "lineId": "line-15",
+      "english": "So tell me when you're gonna let me in",
+      "chinese": "所以告訴我，你何時才會讓我進入",
+      "startSeconds": 101.2,
+      "endSeconds": 106.22
+    },
+    {
+      "lineId": "line-16",
+      "english": "I'm getting tired and I need somewhere to begin",
+      "chinese": "我逐漸疲憊，需要一個起點",
+      "startSeconds": 106.22,
+      "endSeconds": 111.68
+    },
+    {
+      "lineId": "line-17",
+      "english": "And if you have a minute why don't we go",
+      "chinese": "如果你有片刻時間，我們何不離去",
+      "startSeconds": 111.68,
+      "endSeconds": 118.06
+    },
+    {
+      "lineId": "line-18",
+      "english": "Talk about it somewhere only we know?",
+      "chinese": "在只有我們知道的地方談談這件事？"
+    },
+    {
+      "lineId": "line-19",
+      "english": "This could be the end of everything",
+      "chinese": "這可能是一切的終結",
+      "startSeconds": 123.54,
+      "endSeconds": 128.32
+    },
+    {
+      "lineId": "line-20",
+      "english": "So why don't we go",
+      "chinese": "所以我們何不離去",
+      "startSeconds": 128.32,
+      "endSeconds": 131.36
+    },
+    {
+      "lineId": "line-21",
+      "english": "Somewhere only we know?",
+      "chinese": "去那個只有我們知道的地方？",
+      "startSeconds": 131.86,
+      "endSeconds": 134.9
+    },
+    {
+      "lineId": "line-22",
+      "english": "Somewhere only we know?",
+      "chinese": "去那個只有我們知道的地方？",
+      "startSeconds": 137.04,
+      "endSeconds": 140.04
+    },
+    {
+      "lineId": "line-23",
+      "english": "Oh simple thing where have you gone?",
+      "chinese": "噢，純粹的事物，你去了哪裡？",
+      "startSeconds": 146.42,
+      "endSeconds": 150.82
+    },
+    {
+      "lineId": "line-24",
+      "english": "I'm getting old and I need something to rely on",
+      "chinese": "我逐漸老去，需要一些可以依靠的東西",
+      "startSeconds": 151.86,
+      "endSeconds": 157.08
+    },
+    {
+      "lineId": "line-25",
+      "english": "So tell me when you're gonna let me in",
+      "chinese": "所以告訴我，你何時才會讓我進入",
+      "startSeconds": 157.08,
+      "endSeconds": 162.32
+    },
+    {
+      "lineId": "line-26",
+      "english": "I'm getting tired and I need somewhere to begin",
+      "chinese": "我逐漸疲憊，需要一個起點",
+      "startSeconds": 162.32,
+      "endSeconds": 168.22
+    },
+    {
+      "lineId": "line-27",
+      "english": "And if you have a minute why don't we go",
+      "chinese": "如果你有片刻時間，我們何不離去",
+      "startSeconds": 168.22,
+      "endSeconds": 173.8
+    },
+    {
+      "lineId": "line-28",
+      "english": "Talk about it somewhere only we know?",
+      "chinese": "在只有我們知道的地方談談這件事？",
+      "startSeconds": 174.74,
+      "endSeconds": 179.4
+    },
+    {
+      "lineId": "line-29",
+      "english": "This could be the end of everything",
+      "chinese": "這可能是一切的終結",
+      "startSeconds": 180.22,
+      "endSeconds": 183.98
+    },
+    {
+      "lineId": "line-30",
+      "english": "So why don't we go?",
+      "chinese": "所以我們何不離去？",
+      "startSeconds": 183.98,
+      "endSeconds": 187.14
+    },
+    {
+      "lineId": "line-31",
+      "english": "So why don't we go?",
+      "chinese": "所以我們何不離去？",
+      "startSeconds": 187.64,
+      "endSeconds": 190.26
+    },
+    {
+      "lineId": "line-32",
+      "english": "Ah-ah-ah",
+      "chinese": "啊——啊——啊"
+    },
+    {
+      "lineId": "line-33",
+      "english": "Ah-ah-ah",
+      "chinese": "啊——啊——啊"
+    },
+    {
+      "lineId": "line-34",
+      "english": "This could be the end of everything",
+      "chinese": "這可能是一切的終結",
+      "startSeconds": 201.74,
+      "endSeconds": 206.56
+    },
+    {
+      "lineId": "line-35",
+      "english": "So why don't we go",
+      "chinese": "所以我們何不離去",
+      "startSeconds": 206.56,
+      "endSeconds": 209.44
+    },
+    {
+      "lineId": "line-36",
+      "english": "Somewhere only we know?",
+      "chinese": "去那個只有我們知道的地方？",
+      "startSeconds": 209.44,
+      "endSeconds": 212.82
+    },
+    {
+      "lineId": "line-37",
+      "english": "Somewhere only we know?",
+      "chinese": "去那個只有我們知道的地方？",
+      "startSeconds": 214.38,
+      "endSeconds": 218.22
+    },
+    {
+      "lineId": "line-38",
+      "english": "Somewhere only we know?",
+      "chinese": "去那個只有我們知道的地方？",
+      "startSeconds": 220.78,
+      "endSeconds": 224.16
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Like the back of my hand",
+      "meaning": "非常熟悉、瞭若指掌",
+      "usage": "形容你很熟悉一個地方或一件事，像熟悉自己的手一樣。",
+      "prompt": "哪一句正確使用「Like the back of my hand」？",
+      "options": [
+        "I know this street like the back of my hand. I walk here every day.",
+        "I eat pizza like the back of my hand for lunch.",
+        "My hand is cold, so I need a back of my hand.",
+        "Please put the milk like the back of my hand."
+      ],
+      "answer": 0,
+      "explanation": "正確：每天走同一條街，所以非常熟悉。",
+      "optionExplanations": [
+        "正確：每天走同一條街，所以非常熟悉。",
+        "錯誤：這個片語不是用來說吃東西的方式。",
+        "錯誤：這裡不是指手背這個物品，而是表示非常熟悉。",
+        "錯誤：不能用這個片語表示放東西的位置。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Beneath",
+      "meaning": "在……下面",
+      "usage": "描述某人或某物在另一個東西的下方；意思接近 under。",
+      "prompt": "哪一句正確使用「Beneath」？",
+      "options": [
+        "My friend is beneath happy today.",
+        "The cat is sleeping beneath the table.",
+        "I beneath my homework after dinner.",
+        "She bought a beneath at the shop."
+      ],
+      "answer": 1,
+      "explanation": "正確：貓睡在桌子下面。",
+      "optionExplanations": [
+        "錯誤：不能放在 happy 前表示非常開心。",
+        "正確：貓睡在桌子下面。",
+        "錯誤：beneath 不是表示做功課的動詞。",
+        "錯誤：beneath 不是可以購買的東西。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Rely on",
+      "meaning": "依靠、信賴",
+      "usage": "需要某個人的幫忙，或相信某個人或某物是可靠的時候使用。",
+      "prompt": "哪一句正確使用「Rely on」？",
+      "options": [
+        "I can rely on my sister when I need help.",
+        "She relies on very quickly to school.",
+        "I rely on a sandwich in my blue shoes.",
+        "We rely on the window because it is Tuesday."
+      ],
+      "answer": 0,
+      "explanation": "正確：需要幫忙時可以信任姊姊。",
+      "optionExplanations": [
+        "正確：需要幫忙時可以信任姊姊。",
+        "錯誤：rely on 後面需要接人或事物，不能這樣接副詞。",
+        "錯誤：句子沒有合理的依靠關係。",
+        "錯誤：這裡沒有說明窗戶能提供什麼幫助。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Let someone in",
+      "meaning": "讓某人進來",
+      "usage": "當你允許別人進入房間、房子或其他地方時使用。",
+      "prompt": "哪一句正確使用「Let someone in」？",
+      "options": [
+        "I let my homework in before breakfast.",
+        "She lets the weather in to eat cake.",
+        "It was cold outside, so I let my friend in.",
+        "He let in happy when he opened his bag."
+      ],
+      "answer": 2,
+      "explanation": "正確：朋友在外面，因此讓朋友進來。",
+      "optionExplanations": [
+        "錯誤：功課不是等待進門的人。",
+        "錯誤：天氣不能像人一樣進來吃蛋糕。",
+        "正確：朋友在外面，因此讓朋友進來。",
+        "錯誤：不能把 happy 當成進門的人。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Come across",
+      "meaning": "偶然遇見、無意間發現",
+      "usage": "沒有特別去找，卻剛好看到某人或找到某樣東西。",
+      "prompt": "哪一句正確使用「Come across」？",
+      "options": [
+        "We came across the door to close it loudly.",
+        "I came across my breakfast with a spoon.",
+        "She comes across to blue every morning.",
+        "I came across an old photo while cleaning my room."
+      ],
+      "answer": 3,
+      "explanation": "正確：打掃時意外找到舊照片。",
+      "optionExplanations": [
+        "錯誤：若是走到門邊，應說 walked to the door。",
+        "錯誤：吃早餐不能用 come across 表達。",
+        "錯誤：不能用 come across to blue 形容顏色。",
+        "正確：打掃時意外找到舊照片。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Used to",
+      "meaning": "以前常常；過去曾經",
+      "usage": "說明以前常做、但現在可能不再做的事情；後面接動詞原形。",
+      "prompt": "哪一句正確使用「Used to」？",
+      "options": [
+        "I used to playing football every Sunday.",
+        "I used to live near the sea, but now I live in the city.",
+        "She used to very hungry yesterday.",
+        "We used to ate cake after school."
+      ],
+      "answer": 1,
+      "explanation": "正確：表示過去住海邊，現在已經不同。",
+      "optionExplanations": [
+        "錯誤：used to 後面要接原形 play，不是 playing。",
+        "正確：表示過去住海邊，現在已經不同。",
+        "錯誤：used to 後面不能直接接 very hungry。",
+        "錯誤：used to 後面應用 eat，不是 ate。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Dream of",
+      "meaning": "夢想、夢見",
+      "usage": "談睡覺時夢見的人事物，或自己很想實現的願望。",
+      "prompt": "哪一句正確使用「Dream of」？",
+      "options": [
+        "I dream of my pencil to write my name.",
+        "He dreams of to go to school at eight.",
+        "She dreams of becoming a singer one day.",
+        "We dream of happy our dinner."
+      ],
+      "answer": 2,
+      "explanation": "正確：她夢想有一天成為歌手。",
+      "optionExplanations": [
+        "錯誤：這裡要表達用鉛筆寫字，不是夢想。",
+        "錯誤：dream of 後面應接名詞或動詞 ing 形式。",
+        "正確：她夢想有一天成為歌手。",
+        "錯誤：happy our dinner 不能接在 dream of 後面。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Have a minute",
+      "meaning": "有一點時間、有空一下",
+      "usage": "想簡短問人問題或找人談話時，可以問對方有沒有時間。",
+      "prompt": "哪一句正確使用「Have a minute」？",
+      "options": [
+        "I have a minute in my shoe, and it is very small.",
+        "Do you have a minute? I want to ask you something.",
+        "Please have a minute the blue door.",
+        "She has a minute very delicious for dinner."
+      ],
+      "answer": 1,
+      "explanation": "正確：想問別人事情時，先問對方是否有空。",
+      "optionExplanations": [
+        "錯誤：這裡不是指一個能放在鞋裡的物品。",
+        "正確：想問別人事情時，先問對方是否有空。",
+        "錯誤：have a minute 不是打開門的動作。",
+        "錯誤：minute 不是用來形容食物好吃。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Talk about",
+      "meaning": "談論……",
+      "usage": "說明你正在聊哪個話題；後面接話題、人物或事情。",
+      "prompt": "哪一句正確使用「Talk about」？",
+      "options": [
+        "He talked about his tea with a spoon to make it hot.",
+        "I talked about my shoes to the bus stop.",
+        "She talks about very fast to the kitchen.",
+        "We talked about our holiday at dinner."
+      ],
+      "answer": 3,
+      "explanation": "正確：晚餐時聊了假期的事。",
+      "optionExplanations": [
+        "錯誤：攪拌茶要用 stir，不是 talk about。",
+        "錯誤：不能用 talk about 表示走到公車站。",
+        "錯誤：talk about 後面需要話題；若表示說話很快，用 talks very fast。",
+        "正確：晚餐時聊了假期的事。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "The end of",
+      "meaning": "……的結尾、末端",
+      "usage": "指故事、電影、一天或一段時間的最後部分。",
+      "prompt": "哪一句正確使用「The end of」？",
+      "options": [
+        "At the end of the movie, everyone went home.",
+        "I put the end of in my bag for lunch.",
+        "She is the end of happily every day.",
+        "We cooked the end of with two eggs."
+      ],
+      "answer": 0,
+      "explanation": "正確：電影結束時，大家回家了。",
+      "optionExplanations": [
+        "正確：電影結束時，大家回家了。",
+        "錯誤：the end of 後面需要接一個事物。",
+        "錯誤：happily 不是這裡可接的名詞。",
+        "錯誤：the end of 不能當成一道食物。"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I walked across an {{blank}}",
+          "promptZh": "我走過一片空曠的土地",
+          "options": [
+            "empty land",
+            "open land",
+            "empty space"
+          ],
+          "answer": "empty land"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "I knew the pathway like the {{blank}}",
+          "promptZh": "我對那條小徑熟悉得如同自己的手背",
+          "options": [
+            "palm of my hand",
+            "back of my hand",
+            "back of my head"
+          ],
+          "answer": "back of my hand"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "I felt the earth {{blank}}",
+          "promptZh": "我感覺到大地的泥土在腳下",
+          "options": [
+            "beneath my feet",
+            "under my feet",
+            "below my feet"
+          ],
+          "answer": "beneath my feet"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "Sat by the river and it {{blank}}",
+          "promptZh": "坐在河畔，它讓我感到完整",
+          "options": [
+            "made me feel complete",
+            "made me complete",
+            "made me whole"
+          ],
+          "answer": "made me complete"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "Oh {{blank}} where have you gone?",
+          "promptZh": "噢，純粹的事物，你去了哪裡？",
+          "options": [
+            "sweet thing",
+            "simple things",
+            "simple thing"
+          ],
+          "answer": "simple thing"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "I'm {{blank}} and I need 〔第 7 題〕",
+          "promptZh": "我逐漸老去，需要一些可以依靠的東西",
+          "options": [
+            "getting old",
+            "growing old",
+            "feeling old"
+          ],
+          "answer": "getting old"
+        },
+        {
+          "number": 7,
+          "lineId": "line-6",
+          "prompt": "I'm 〔第 6 題〕 and I need {{blank}}",
+          "promptZh": "我逐漸老去，需要一些可以依靠的東西",
+          "options": [
+            "someone to rely on",
+            "something to rely on",
+            "something to lean on"
+          ],
+          "answer": "something to rely on"
+        },
+        {
+          "number": 8,
+          "lineId": "line-7",
+          "prompt": "So tell me when you're gonna {{blank}}",
+          "promptZh": "所以告訴我，你何時才會讓我進入",
+          "options": [
+            "let me know",
+            "let me go",
+            "let me in"
+          ],
+          "answer": "let me in"
+        },
+        {
+          "number": 9,
+          "lineId": "line-8",
+          "prompt": "I'm {{blank}} and I need 〔第 10 題〕",
+          "promptZh": "我逐漸疲憊，需要一個起點",
+          "options": [
+            "feeling tired",
+            "getting tired",
+            "growing tired"
+          ],
+          "answer": "getting tired"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "I'm 〔第 9 題〕 and I need {{blank}}",
+          "promptZh": "我逐漸疲憊，需要一個起點",
+          "options": [
+            "somewhere to begin",
+            "somewhere to start",
+            "a place to begin"
+          ],
+          "answer": "somewhere to begin"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "I {{blank}} a fallen tree",
+          "promptZh": "我偶然遇見一棵倒下的樹",
+          "options": [
+            "walked across",
+            "came upon",
+            "came across"
+          ],
+          "answer": "came across"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "I felt the {{blank}} of it 〔第 13 題〕",
+          "promptZh": "我感覺到它的枝椏正望著我",
+          "options": [
+            "roots",
+            "leaves",
+            "branches"
+          ],
+          "answer": "branches"
+        },
+        {
+          "number": 13,
+          "lineId": "line-10",
+          "prompt": "I felt the 〔第 12 題〕 of it {{blank}}",
+          "promptZh": "我感覺到它的枝椏正望著我",
+          "options": [
+            "looking at me",
+            "watching me",
+            "staring at me"
+          ],
+          "answer": "looking at me"
+        },
+        {
+          "number": 14,
+          "lineId": "line-11",
+          "prompt": "Is this the {{blank}}?",
+          "promptZh": "這是我們曾經愛過的地方嗎？",
+          "options": [
+            "place we used to know",
+            "place we used to love",
+            "place we used to go"
+          ],
+          "answer": "place we used to love"
+        },
+        {
+          "number": 15,
+          "lineId": "line-12",
+          "prompt": "Is this the place that I've been {{blank}}?",
+          "promptZh": "這是那個我一直在夢見的地方嗎？",
+          "options": [
+            "dreaming of",
+            "thinking of",
+            "dreaming about"
+          ],
+          "answer": "dreaming of"
+        },
+        {
+          "number": 16,
+          "lineId": "line-17",
+          "prompt": "And if you have {{blank}} why don't we go",
+          "promptZh": "如果你有片刻時間，我們何不離去",
+          "options": [
+            "a moment",
+            "a minute",
+            "a second"
+          ],
+          "answer": "a minute"
+        },
+        {
+          "number": 17,
+          "lineId": "line-18",
+          "prompt": "Talk about it somewhere {{blank}}?",
+          "promptZh": "在只有我們知道的地方談談這件事？",
+          "options": [
+            "just we know",
+            "only we go",
+            "only we know"
+          ],
+          "answer": "only we know"
+        },
+        {
+          "number": 18,
+          "lineId": "line-19",
+          "prompt": "This could be the {{blank}}",
+          "promptZh": "這可能是一切的終結",
+          "options": [
+            "end of the world",
+            "end of everything",
+            "end of it all"
+          ],
+          "answer": "end of everything"
+        },
+        {
+          "number": 19,
+          "lineId": "line-21",
+          "prompt": "{{blank}}?",
+          "promptZh": "去那個只有我們知道的地方？",
+          "options": [
+            "Somewhere only we go",
+            "Somewhere we only know",
+            "Somewhere only we know"
+          ],
+          "answer": "Somewhere only we know"
+        },
+        {
+          "number": 20,
+          "lineId": "line-30",
+          "prompt": "{{blank}}?",
+          "promptZh": "所以我們何不離去？",
+          "options": [
+            "So why don't we go",
+            "So why don't we leave",
+            "So why don't we stay"
+          ],
+          "answer": "So why don't we go"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I walked across an {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I knew the pathway like the {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I felt the earth {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Sat by the river and it {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Oh {{q:5}} where have you gone?"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I'm {{q:6}} and I need {{q:7}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "So tell me when you're gonna {{q:8}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I'm {{q:9}} and I need {{q:10}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I {{q:11}} a fallen tree"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I felt the {{q:12}} of it {{q:13}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Is this the {{q:14}}?"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Is this the place that I've been {{q:15}}?"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Oh simple thing where have you gone?"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I'm getting old and I need something to rely on"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "So tell me when you're gonna let me in"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I'm getting tired and I need somewhere to begin"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "And if you have {{q:16}} why don't we go"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Talk about it somewhere {{q:17}}?"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "This could be the {{q:18}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "So why don't we go"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:19}}?"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Somewhere only we know?"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Oh simple thing where have you gone?"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I'm getting old and I need something to rely on"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "So tell me when you're gonna let me in"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I'm getting tired and I need somewhere to begin"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And if you have a minute why don't we go"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Talk about it somewhere only we know?"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "This could be the end of everything"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:20}}?"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "So why don't we go?"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Ah-ah-ah"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Ah-ah-ah"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "This could be the end of everything"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "So why don't we go"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Somewhere only we know?"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Somewhere only we know?"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Somewhere only we know?"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} an 〔第 2 題〕",
+          "promptZh": "我走過一片空曠的土地",
+          "options": [
+            "I walked across",
+            "I walked over",
+            "I walked along"
+          ],
+          "answer": "I walked across"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 an {{blank}}",
+          "promptZh": "我走過一片空曠的土地",
+          "options": [
+            "open land",
+            "empty land",
+            "empty space"
+          ],
+          "answer": "empty land"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} like the 〔第 4 題〕",
+          "promptZh": "我對那條小徑熟悉得如同自己的手背",
+          "options": [
+            "I knew the way",
+            "I knew the path",
+            "I knew the pathway"
+          ],
+          "answer": "I knew the pathway"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 like the {{blank}}",
+          "promptZh": "我對那條小徑熟悉得如同自己的手背",
+          "options": [
+            "palm of my hand",
+            "back of my hand",
+            "back of my head"
+          ],
+          "answer": "back of my hand"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "{{blank}} 〔第 6 題〕",
+          "promptZh": "我感覺到大地的泥土在腳下",
+          "options": [
+            "I felt the earth",
+            "I felt the ground",
+            "I feel the earth"
+          ],
+          "answer": "I felt the earth"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "〔第 5 題〕 {{blank}}",
+          "promptZh": "我感覺到大地的泥土在腳下",
+          "options": [
+            "under my feet",
+            "beneath my feet",
+            "below my feet"
+          ],
+          "answer": "beneath my feet"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "{{blank}} and it 〔第 8 題〕",
+          "promptZh": "坐在河畔，它讓我感到完整",
+          "options": [
+            "Sat by the water",
+            "Sitting by the river",
+            "Sat by the river"
+          ],
+          "answer": "Sat by the river"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "〔第 7 題〕 and it {{blank}}",
+          "promptZh": "坐在河畔，它讓我感到完整",
+          "options": [
+            "made me complete",
+            "made me feel complete",
+            "made me whole"
+          ],
+          "answer": "made me complete"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "Oh {{blank}} 〔第 10 題〕?",
+          "promptZh": "噢，純粹的事物，你去了哪裡？",
+          "options": [
+            "simple things",
+            "simple thing",
+            "sweet thing"
+          ],
+          "answer": "simple thing"
+        },
+        {
+          "number": 10,
+          "lineId": "line-5",
+          "prompt": "Oh 〔第 9 題〕 {{blank}}?",
+          "promptZh": "噢，純粹的事物，你去了哪裡？",
+          "options": [
+            "where have you gone",
+            "where did you go",
+            "where have you been"
+          ],
+          "answer": "where have you gone"
+        },
+        {
+          "number": 11,
+          "lineId": "line-6",
+          "prompt": "I'm {{blank}} and I 〔第 12 題〕 〔第 13 題〕",
+          "promptZh": "我逐漸老去，需要一些可以依靠的東西",
+          "options": [
+            "feeling old",
+            "growing old",
+            "getting old"
+          ],
+          "answer": "getting old"
+        },
+        {
+          "number": 12,
+          "lineId": "line-6",
+          "prompt": "I'm 〔第 11 題〕 and I {{blank}} 〔第 13 題〕",
+          "promptZh": "我逐漸老去，需要一些可以依靠的東西",
+          "options": [
+            "want something",
+            "need someone",
+            "need something"
+          ],
+          "answer": "need something"
+        },
+        {
+          "number": 13,
+          "lineId": "line-6",
+          "prompt": "I'm 〔第 11 題〕 and I 〔第 12 題〕 {{blank}}",
+          "promptZh": "我逐漸老去，需要一些可以依靠的東西",
+          "options": [
+            "to rely on",
+            "to lean on",
+            "to count on"
+          ],
+          "answer": "to rely on"
+        },
+        {
+          "number": 14,
+          "lineId": "line-7",
+          "prompt": "{{blank}} you're gonna 〔第 15 題〕",
+          "promptZh": "所以告訴我，你何時才會讓我進入",
+          "options": [
+            "So tell me how",
+            "So tell me when",
+            "And tell me when"
+          ],
+          "answer": "So tell me when"
+        },
+        {
+          "number": 15,
+          "lineId": "line-7",
+          "prompt": "〔第 14 題〕 you're gonna {{blank}}",
+          "promptZh": "所以告訴我，你何時才會讓我進入",
+          "options": [
+            "let me go",
+            "let me in",
+            "let me know"
+          ],
+          "answer": "let me in"
+        },
+        {
+          "number": 16,
+          "lineId": "line-8",
+          "prompt": "I'm {{blank}} and I 〔第 17 題〕 to begin",
+          "promptZh": "我逐漸疲憊，需要一個起點",
+          "options": [
+            "growing tired",
+            "feeling tired",
+            "getting tired"
+          ],
+          "answer": "getting tired"
+        },
+        {
+          "number": 17,
+          "lineId": "line-8",
+          "prompt": "I'm 〔第 16 題〕 and I {{blank}} to begin",
+          "promptZh": "我逐漸疲憊，需要一個起點",
+          "options": [
+            "need somewhere",
+            "need a place",
+            "want somewhere"
+          ],
+          "answer": "need somewhere"
+        },
+        {
+          "number": 18,
+          "lineId": "line-9",
+          "prompt": "{{blank}} a 〔第 19 題〕",
+          "promptZh": "我偶然遇見一棵倒下的樹",
+          "options": [
+            "I walked across",
+            "I came upon",
+            "I came across"
+          ],
+          "answer": "I came across"
+        },
+        {
+          "number": 19,
+          "lineId": "line-9",
+          "prompt": "〔第 18 題〕 a {{blank}}",
+          "promptZh": "我偶然遇見一棵倒下的樹",
+          "options": [
+            "fallen tree",
+            "fallen branch",
+            "broken tree"
+          ],
+          "answer": "fallen tree"
+        },
+        {
+          "number": 20,
+          "lineId": "line-10",
+          "prompt": "I felt the {{blank}} of it 〔第 21 題〕",
+          "promptZh": "我感覺到它的枝椏正望著我",
+          "options": [
+            "leaves",
+            "branches",
+            "roots"
+          ],
+          "answer": "branches"
+        },
+        {
+          "number": 21,
+          "lineId": "line-10",
+          "prompt": "I felt the 〔第 20 題〕 of it {{blank}}",
+          "promptZh": "我感覺到它的枝椏正望著我",
+          "options": [
+            "staring at me",
+            "watching me",
+            "looking at me"
+          ],
+          "answer": "looking at me"
+        },
+        {
+          "number": 22,
+          "lineId": "line-11",
+          "prompt": "{{blank}} we 〔第 23 題〕?",
+          "promptZh": "這是我們曾經愛過的地方嗎？",
+          "options": [
+            "Is this the place",
+            "Is this the spot",
+            "Is this the place that"
+          ],
+          "answer": "Is this the place"
+        },
+        {
+          "number": 23,
+          "lineId": "line-11",
+          "prompt": "〔第 22 題〕 we {{blank}}?",
+          "promptZh": "這是我們曾經愛過的地方嗎？",
+          "options": [
+            "used to know",
+            "used to love",
+            "used to go"
+          ],
+          "answer": "used to love"
+        },
+        {
+          "number": 24,
+          "lineId": "line-12",
+          "prompt": "Is this the place that I've been {{blank}}?",
+          "promptZh": "這是那個我一直在夢見的地方嗎？",
+          "options": [
+            "thinking of",
+            "dreaming of",
+            "dreaming about"
+          ],
+          "answer": "dreaming of"
+        },
+        {
+          "number": 25,
+          "lineId": "line-17",
+          "prompt": "And if you have {{blank}} why don't we go",
+          "promptZh": "如果你有片刻時間，我們何不離去",
+          "options": [
+            "a minute",
+            "a moment",
+            "a second"
+          ],
+          "answer": "a minute"
+        },
+        {
+          "number": 26,
+          "lineId": "line-18",
+          "prompt": "{{blank}} somewhere 〔第 27 題〕?",
+          "promptZh": "在只有我們知道的地方談談這件事？",
+          "options": [
+            "Talk it over",
+            "Talk about this",
+            "Talk about it"
+          ],
+          "answer": "Talk about it"
+        },
+        {
+          "number": 27,
+          "lineId": "line-18",
+          "prompt": "〔第 26 題〕 somewhere {{blank}}?",
+          "promptZh": "在只有我們知道的地方談談這件事？",
+          "options": [
+            "just we know",
+            "only we go",
+            "only we know"
+          ],
+          "answer": "only we know"
+        },
+        {
+          "number": 28,
+          "lineId": "line-19",
+          "prompt": "{{blank}} the 〔第 29 題〕",
+          "promptZh": "這可能是一切的終結",
+          "options": [
+            "This might be",
+            "This could be",
+            "This will be"
+          ],
+          "answer": "This could be"
+        },
+        {
+          "number": 29,
+          "lineId": "line-19",
+          "prompt": "〔第 28 題〕 the {{blank}}",
+          "promptZh": "這可能是一切的終結",
+          "options": [
+            "end of everything",
+            "end of the world",
+            "end of it all"
+          ],
+          "answer": "end of everything"
+        },
+        {
+          "number": 30,
+          "lineId": "line-20",
+          "prompt": "{{blank}}",
+          "promptZh": "所以我們何不離去",
+          "options": [
+            "So why don't we stay",
+            "So why don't we leave",
+            "So why don't we go"
+          ],
+          "answer": "So why don't we go"
+        },
+        {
+          "number": 31,
+          "lineId": "line-21",
+          "prompt": "{{blank}}?",
+          "promptZh": "去那個只有我們知道的地方？",
+          "options": [
+            "Somewhere we only know",
+            "Somewhere only we know",
+            "Somewhere only we go"
+          ],
+          "answer": "Somewhere only we know"
+        },
+        {
+          "number": 32,
+          "lineId": "line-30",
+          "prompt": "{{blank}}?",
+          "promptZh": "所以我們何不離去？",
+          "options": [
+            "So why don't we go",
+            "So why don't we leave",
+            "So why don't we stay"
+          ],
+          "answer": "So why don't we go"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} an {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} like the {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}} {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:7}} and it {{q:8}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Oh {{q:9}} {{q:10}}?"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I'm {{q:11}} and I {{q:12}} {{q:13}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:14}} you're gonna {{q:15}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I'm {{q:16}} and I {{q:17}} to begin"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:18}} a {{q:19}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I felt the {{q:20}} of it {{q:21}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:22}} we {{q:23}}?"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Is this the place that I've been {{q:24}}?"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Oh simple thing where have you gone?"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I'm getting old and I need something to rely on"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "So tell me when you're gonna let me in"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I'm getting tired and I need somewhere to begin"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "And if you have {{q:25}} why don't we go"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:26}} somewhere {{q:27}}?"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:28}} the {{q:29}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:30}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:31}}?"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Somewhere only we know?"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Oh simple thing where have you gone?"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I'm getting old and I need something to rely on"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "So tell me when you're gonna let me in"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I'm getting tired and I need somewhere to begin"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And if you have a minute why don't we go"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Talk about it somewhere only we know?"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "This could be the end of everything"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:32}}?"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "So why don't we go?"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Ah-ah-ah"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Ah-ah-ah"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "This could be the end of everything"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "So why don't we go"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Somewhere only we know?"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Somewhere only we know?"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Somewhere only we know?"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} an 〔第 2 題〕",
+          "promptZh": "我走過一片空曠的土地",
+          "options": [
+            "I walked across",
+            "I walked over",
+            "I walked along"
+          ],
+          "answer": "I walked across"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 an {{blank}}",
+          "promptZh": "我走過一片空曠的土地",
+          "options": [
+            "empty land",
+            "open land",
+            "empty space"
+          ],
+          "answer": "empty land"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} like the 〔第 4 題〕",
+          "promptZh": "我對那條小徑熟悉得如同自己的手背",
+          "options": [
+            "I knew the way",
+            "I knew the path",
+            "I knew the pathway"
+          ],
+          "answer": "I knew the pathway"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 like the {{blank}}",
+          "promptZh": "我對那條小徑熟悉得如同自己的手背",
+          "options": [
+            "palm of my hand",
+            "back of my hand",
+            "back of my head"
+          ],
+          "answer": "back of my hand"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "{{blank}} 〔第 6 題〕",
+          "promptZh": "我感覺到大地的泥土在腳下",
+          "options": [
+            "I feel the earth",
+            "I felt the ground",
+            "I felt the earth"
+          ],
+          "answer": "I felt the earth"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "〔第 5 題〕 {{blank}}",
+          "promptZh": "我感覺到大地的泥土在腳下",
+          "options": [
+            "beneath my feet",
+            "under my feet",
+            "below my feet"
+          ],
+          "answer": "beneath my feet"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "{{blank}} and it 〔第 8 題〕",
+          "promptZh": "坐在河畔，它讓我感到完整",
+          "options": [
+            "Sitting by the river",
+            "Sat by the river",
+            "Sat by the water"
+          ],
+          "answer": "Sat by the river"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "〔第 7 題〕 and it {{blank}}",
+          "promptZh": "坐在河畔，它讓我感到完整",
+          "options": [
+            "made me whole",
+            "made me feel complete",
+            "made me complete"
+          ],
+          "answer": "made me complete"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "{{blank}} 〔第 10 題〕?",
+          "promptZh": "噢，純粹的事物，你去了哪裡？",
+          "options": [
+            "Oh simple thing",
+            "Oh simple things",
+            "Oh sweet thing"
+          ],
+          "answer": "Oh simple thing"
+        },
+        {
+          "number": 10,
+          "lineId": "line-5",
+          "prompt": "〔第 9 題〕 {{blank}}?",
+          "promptZh": "噢，純粹的事物，你去了哪裡？",
+          "options": [
+            "where did you go",
+            "where have you gone",
+            "where have you been"
+          ],
+          "answer": "where have you gone"
+        },
+        {
+          "number": 11,
+          "lineId": "line-6",
+          "prompt": "{{blank}} and I 〔第 12 題〕 〔第 13 題〕",
+          "promptZh": "我逐漸老去，需要一些可以依靠的東西",
+          "options": [
+            "I'm getting old",
+            "I am getting old",
+            "I'm growing old"
+          ],
+          "answer": "I'm getting old"
+        },
+        {
+          "number": 12,
+          "lineId": "line-6",
+          "prompt": "〔第 11 題〕 and I {{blank}} 〔第 13 題〕",
+          "promptZh": "我逐漸老去，需要一些可以依靠的東西",
+          "options": [
+            "want something",
+            "need someone",
+            "need something"
+          ],
+          "answer": "need something"
+        },
+        {
+          "number": 13,
+          "lineId": "line-6",
+          "prompt": "〔第 11 題〕 and I 〔第 12 題〕 {{blank}}",
+          "promptZh": "我逐漸老去，需要一些可以依靠的東西",
+          "options": [
+            "to lean on",
+            "to rely on",
+            "to count on"
+          ],
+          "answer": "to rely on"
+        },
+        {
+          "number": 14,
+          "lineId": "line-7",
+          "prompt": "{{blank}} you're gonna 〔第 15 題〕",
+          "promptZh": "所以告訴我，你何時才會讓我進入",
+          "options": [
+            "And tell me when",
+            "So tell me how",
+            "So tell me when"
+          ],
+          "answer": "So tell me when"
+        },
+        {
+          "number": 15,
+          "lineId": "line-7",
+          "prompt": "〔第 14 題〕 you're gonna {{blank}}",
+          "promptZh": "所以告訴我，你何時才會讓我進入",
+          "options": [
+            "let me go",
+            "let me in",
+            "let me know"
+          ],
+          "answer": "let me in"
+        },
+        {
+          "number": 16,
+          "lineId": "line-8",
+          "prompt": "{{blank}} and I 〔第 17 題〕 〔第 18 題〕",
+          "promptZh": "我逐漸疲憊，需要一個起點",
+          "options": [
+            "I'm getting tired",
+            "I am getting tired",
+            "I'm feeling tired"
+          ],
+          "answer": "I'm getting tired"
+        },
+        {
+          "number": 17,
+          "lineId": "line-8",
+          "prompt": "〔第 16 題〕 and I {{blank}} 〔第 18 題〕",
+          "promptZh": "我逐漸疲憊，需要一個起點",
+          "options": [
+            "need a place",
+            "need somewhere",
+            "want somewhere"
+          ],
+          "answer": "need somewhere"
+        },
+        {
+          "number": 18,
+          "lineId": "line-8",
+          "prompt": "〔第 16 題〕 and I 〔第 17 題〕 {{blank}}",
+          "promptZh": "我逐漸疲憊，需要一個起點",
+          "options": [
+            "to begin",
+            "to start",
+            "to begin now"
+          ],
+          "answer": "to begin"
+        },
+        {
+          "number": 19,
+          "lineId": "line-9",
+          "prompt": "{{blank}} a 〔第 20 題〕",
+          "promptZh": "我偶然遇見一棵倒下的樹",
+          "options": [
+            "I walked across",
+            "I came upon",
+            "I came across"
+          ],
+          "answer": "I came across"
+        },
+        {
+          "number": 20,
+          "lineId": "line-9",
+          "prompt": "〔第 19 題〕 a {{blank}}",
+          "promptZh": "我偶然遇見一棵倒下的樹",
+          "options": [
+            "fallen branch",
+            "fallen tree",
+            "broken tree"
+          ],
+          "answer": "fallen tree"
+        },
+        {
+          "number": 21,
+          "lineId": "line-10",
+          "prompt": "I felt the {{blank}} of it 〔第 22 題〕",
+          "promptZh": "我感覺到它的枝椏正望著我",
+          "options": [
+            "roots",
+            "leaves",
+            "branches"
+          ],
+          "answer": "branches"
+        },
+        {
+          "number": 22,
+          "lineId": "line-10",
+          "prompt": "I felt the 〔第 21 題〕 of it {{blank}}",
+          "promptZh": "我感覺到它的枝椏正望著我",
+          "options": [
+            "looking at me",
+            "watching me",
+            "staring at me"
+          ],
+          "answer": "looking at me"
+        },
+        {
+          "number": 23,
+          "lineId": "line-11",
+          "prompt": "{{blank}} we 〔第 24 題〕?",
+          "promptZh": "這是我們曾經愛過的地方嗎？",
+          "options": [
+            "Is this the spot",
+            "Is this the place",
+            "Is this the place that"
+          ],
+          "answer": "Is this the place"
+        },
+        {
+          "number": 24,
+          "lineId": "line-11",
+          "prompt": "〔第 23 題〕 we {{blank}}?",
+          "promptZh": "這是我們曾經愛過的地方嗎？",
+          "options": [
+            "used to go",
+            "used to know",
+            "used to love"
+          ],
+          "answer": "used to love"
+        },
+        {
+          "number": 25,
+          "lineId": "line-12",
+          "prompt": "Is this the place that I've been {{blank}}?",
+          "promptZh": "這是那個我一直在夢見的地方嗎？",
+          "options": [
+            "dreaming of",
+            "thinking of",
+            "dreaming about"
+          ],
+          "answer": "dreaming of"
+        },
+        {
+          "number": 26,
+          "lineId": "line-13",
+          "prompt": "Oh {{blank}} where have you gone?",
+          "promptZh": "噢，純粹的事物，你去了哪裡？",
+          "options": [
+            "simple thing",
+            "simple things",
+            "sweet thing"
+          ],
+          "answer": "simple thing"
+        },
+        {
+          "number": 27,
+          "lineId": "line-14",
+          "prompt": "I'm {{blank}} and I need 〔第 28 題〕",
+          "promptZh": "我逐漸老去，需要一些可以依靠的東西",
+          "options": [
+            "feeling old",
+            "growing old",
+            "getting old"
+          ],
+          "answer": "getting old"
+        },
+        {
+          "number": 28,
+          "lineId": "line-14",
+          "prompt": "I'm 〔第 27 題〕 and I need {{blank}}",
+          "promptZh": "我逐漸老去，需要一些可以依靠的東西",
+          "options": [
+            "someone to rely on",
+            "something to rely on",
+            "something to lean on"
+          ],
+          "answer": "something to rely on"
+        },
+        {
+          "number": 29,
+          "lineId": "line-17",
+          "prompt": "{{blank}} 〔第 30 題〕",
+          "promptZh": "如果你有片刻時間，我們何不離去",
+          "options": [
+            "If you have a minute",
+            "And if you've got a minute",
+            "And if you have a minute"
+          ],
+          "answer": "And if you have a minute"
+        },
+        {
+          "number": 30,
+          "lineId": "line-17",
+          "prompt": "〔第 29 題〕 {{blank}}",
+          "promptZh": "如果你有片刻時間，我們何不離去",
+          "options": [
+            "why don't we leave",
+            "why don't we go",
+            "why don't we stay"
+          ],
+          "answer": "why don't we go"
+        },
+        {
+          "number": 31,
+          "lineId": "line-18",
+          "prompt": "{{blank}} somewhere 〔第 32 題〕?",
+          "promptZh": "在只有我們知道的地方談談這件事？",
+          "options": [
+            "Talk about it",
+            "Talk about this",
+            "Talk it over"
+          ],
+          "answer": "Talk about it"
+        },
+        {
+          "number": 32,
+          "lineId": "line-18",
+          "prompt": "〔第 31 題〕 somewhere {{blank}}?",
+          "promptZh": "在只有我們知道的地方談談這件事？",
+          "options": [
+            "only we know",
+            "only we go",
+            "just we know"
+          ],
+          "answer": "only we know"
+        },
+        {
+          "number": 33,
+          "lineId": "line-19",
+          "prompt": "{{blank}} the 〔第 34 題〕",
+          "promptZh": "這可能是一切的終結",
+          "options": [
+            "This will be",
+            "This might be",
+            "This could be"
+          ],
+          "answer": "This could be"
+        },
+        {
+          "number": 34,
+          "lineId": "line-19",
+          "prompt": "〔第 33 題〕 the {{blank}}",
+          "promptZh": "這可能是一切的終結",
+          "options": [
+            "end of the world",
+            "end of everything",
+            "end of it all"
+          ],
+          "answer": "end of everything"
+        },
+        {
+          "number": 35,
+          "lineId": "line-20",
+          "prompt": "{{blank}}",
+          "promptZh": "所以我們何不離去",
+          "options": [
+            "So why don't we leave",
+            "So why don't we go",
+            "So why don't we stay"
+          ],
+          "answer": "So why don't we go"
+        },
+        {
+          "number": 36,
+          "lineId": "line-21",
+          "prompt": "{{blank}}?",
+          "promptZh": "去那個只有我們知道的地方？",
+          "options": [
+            "Somewhere only we go",
+            "Somewhere we only know",
+            "Somewhere only we know"
+          ],
+          "answer": "Somewhere only we know"
+        },
+        {
+          "number": 37,
+          "lineId": "line-23",
+          "prompt": "Oh {{blank}} where have you gone?",
+          "promptZh": "噢，純粹的事物，你去了哪裡？",
+          "options": [
+            "simple thing",
+            "simple things",
+            "sweet thing"
+          ],
+          "answer": "simple thing"
+        },
+        {
+          "number": 38,
+          "lineId": "line-24",
+          "prompt": "I'm {{blank}} and I need 〔第 39 題〕",
+          "promptZh": "我逐漸老去，需要一些可以依靠的東西",
+          "options": [
+            "getting old",
+            "growing old",
+            "feeling old"
+          ],
+          "answer": "getting old"
+        },
+        {
+          "number": 39,
+          "lineId": "line-24",
+          "prompt": "I'm 〔第 38 題〕 and I need {{blank}}",
+          "promptZh": "我逐漸老去，需要一些可以依靠的東西",
+          "options": [
+            "something to lean on",
+            "someone to rely on",
+            "something to rely on"
+          ],
+          "answer": "something to rely on"
+        },
+        {
+          "number": 40,
+          "lineId": "line-30",
+          "prompt": "{{blank}}?",
+          "promptZh": "所以我們何不離去？",
+          "options": [
+            "So why don't we leave",
+            "So why don't we go",
+            "So why don't we stay"
+          ],
+          "answer": "So why don't we go"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} an {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} like the {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}} {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:7}} and it {{q:8}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:9}} {{q:10}}?"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:11}} and I {{q:12}} {{q:13}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:14}} you're gonna {{q:15}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:16}} and I {{q:17}} {{q:18}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:19}} a {{q:20}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I felt the {{q:21}} of it {{q:22}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:23}} we {{q:24}}?"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Is this the place that I've been {{q:25}}?"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Oh {{q:26}} where have you gone?"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I'm {{q:27}} and I need {{q:28}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "So tell me when you're gonna let me in"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I'm getting tired and I need somewhere to begin"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:29}} {{q:30}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:31}} somewhere {{q:32}}?"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:33}} the {{q:34}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:35}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:36}}?"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Somewhere only we know?"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Oh {{q:37}} where have you gone?"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I'm {{q:38}} and I need {{q:39}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "So tell me when you're gonna let me in"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I'm getting tired and I need somewhere to begin"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And if you have a minute why don't we go"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Talk about it somewhere only we know?"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "This could be the end of everything"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:40}}?"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "So why don't we go?"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Ah-ah-ah"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Ah-ah-ah"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "This could be the end of everything"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "So why don't we go"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Somewhere only we know?"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Somewhere only we know?"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Somewhere only we know?"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} an 〔第 2 題〕",
+          "promptZh": "我走過一片空曠的土地",
+          "options": [
+            "I walked over",
+            "I walked across",
+            "I walked along"
+          ],
+          "answer": "I walked across"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 an {{blank}}",
+          "promptZh": "我走過一片空曠的土地",
+          "options": [
+            "empty land",
+            "open land",
+            "empty space"
+          ],
+          "answer": "empty land"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} 〔第 4 題〕",
+          "promptZh": "我對那條小徑熟悉得如同自己的手背",
+          "options": [
+            "I knew the path",
+            "I knew the pathway",
+            "I knew the way"
+          ],
+          "answer": "I knew the pathway"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 {{blank}}",
+          "promptZh": "我對那條小徑熟悉得如同自己的手背",
+          "options": [
+            "like the back of my head",
+            "like the palm of my hand",
+            "like the back of my hand"
+          ],
+          "answer": "like the back of my hand"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "{{blank}} 〔第 6 題〕",
+          "promptZh": "我感覺到大地的泥土在腳下",
+          "options": [
+            "I felt the earth",
+            "I felt the ground",
+            "I feel the earth"
+          ],
+          "answer": "I felt the earth"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "〔第 5 題〕 {{blank}}",
+          "promptZh": "我感覺到大地的泥土在腳下",
+          "options": [
+            "under my feet",
+            "beneath my feet",
+            "below my feet"
+          ],
+          "answer": "beneath my feet"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "{{blank}} and it 〔第 8 題〕",
+          "promptZh": "坐在河畔，它讓我感到完整",
+          "options": [
+            "Sat by the river",
+            "Sitting by the river",
+            "Sat by the water"
+          ],
+          "answer": "Sat by the river"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "〔第 7 題〕 and it {{blank}}",
+          "promptZh": "坐在河畔，它讓我感到完整",
+          "options": [
+            "made me whole",
+            "made me feel complete",
+            "made me complete"
+          ],
+          "answer": "made me complete"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "{{blank}} 〔第 10 題〕?",
+          "promptZh": "噢，純粹的事物，你去了哪裡？",
+          "options": [
+            "Oh sweet thing",
+            "Oh simple things",
+            "Oh simple thing"
+          ],
+          "answer": "Oh simple thing"
+        },
+        {
+          "number": 10,
+          "lineId": "line-5",
+          "prompt": "〔第 9 題〕 {{blank}}?",
+          "promptZh": "噢，純粹的事物，你去了哪裡？",
+          "options": [
+            "where did you go",
+            "where have you gone",
+            "where have you been"
+          ],
+          "answer": "where have you gone"
+        },
+        {
+          "number": 11,
+          "lineId": "line-6",
+          "prompt": "{{blank}} and 〔第 12 題〕 〔第 13 題〕",
+          "promptZh": "我逐漸老去，需要一些可以依靠的東西",
+          "options": [
+            "I'm getting old",
+            "I am getting old",
+            "I'm growing old"
+          ],
+          "answer": "I'm getting old"
+        },
+        {
+          "number": 12,
+          "lineId": "line-6",
+          "prompt": "〔第 11 題〕 and {{blank}} 〔第 13 題〕",
+          "promptZh": "我逐漸老去，需要一些可以依靠的東西",
+          "options": [
+            "I want something",
+            "I need someone",
+            "I need something"
+          ],
+          "answer": "I need something"
+        },
+        {
+          "number": 13,
+          "lineId": "line-6",
+          "prompt": "〔第 11 題〕 and 〔第 12 題〕 {{blank}}",
+          "promptZh": "我逐漸老去，需要一些可以依靠的東西",
+          "options": [
+            "to rely on",
+            "to lean on",
+            "to count on"
+          ],
+          "answer": "to rely on"
+        },
+        {
+          "number": 14,
+          "lineId": "line-7",
+          "prompt": "{{blank}} 〔第 15 題〕",
+          "promptZh": "所以告訴我，你何時才會讓我進入",
+          "options": [
+            "So tell me how",
+            "So tell me when",
+            "And tell me when"
+          ],
+          "answer": "So tell me when"
+        },
+        {
+          "number": 15,
+          "lineId": "line-7",
+          "prompt": "〔第 14 題〕 {{blank}}",
+          "promptZh": "所以告訴我，你何時才會讓我進入",
+          "options": [
+            "you're gonna let me in",
+            "you're going to let me in",
+            "you will let me in"
+          ],
+          "answer": "you're gonna let me in"
+        },
+        {
+          "number": 16,
+          "lineId": "line-8",
+          "prompt": "{{blank}} and 〔第 17 題〕 〔第 18 題〕",
+          "promptZh": "我逐漸疲憊，需要一個起點",
+          "options": [
+            "I'm feeling tired",
+            "I am getting tired",
+            "I'm getting tired"
+          ],
+          "answer": "I'm getting tired"
+        },
+        {
+          "number": 17,
+          "lineId": "line-8",
+          "prompt": "〔第 16 題〕 and {{blank}} 〔第 18 題〕",
+          "promptZh": "我逐漸疲憊，需要一個起點",
+          "options": [
+            "I need a place",
+            "I need somewhere",
+            "I want somewhere"
+          ],
+          "answer": "I need somewhere"
+        },
+        {
+          "number": 18,
+          "lineId": "line-8",
+          "prompt": "〔第 16 題〕 and 〔第 17 題〕 {{blank}}",
+          "promptZh": "我逐漸疲憊，需要一個起點",
+          "options": [
+            "to start",
+            "to begin",
+            "to begin now"
+          ],
+          "answer": "to begin"
+        },
+        {
+          "number": 19,
+          "lineId": "line-9",
+          "prompt": "{{blank}} a 〔第 20 題〕",
+          "promptZh": "我偶然遇見一棵倒下的樹",
+          "options": [
+            "I came across",
+            "I came upon",
+            "I walked across"
+          ],
+          "answer": "I came across"
+        },
+        {
+          "number": 20,
+          "lineId": "line-9",
+          "prompt": "〔第 19 題〕 a {{blank}}",
+          "promptZh": "我偶然遇見一棵倒下的樹",
+          "options": [
+            "broken tree",
+            "fallen branch",
+            "fallen tree"
+          ],
+          "answer": "fallen tree"
+        },
+        {
+          "number": 21,
+          "lineId": "line-10",
+          "prompt": "I felt the {{blank}} of it 〔第 22 題〕",
+          "promptZh": "我感覺到它的枝椏正望著我",
+          "options": [
+            "leaves",
+            "branches",
+            "roots"
+          ],
+          "answer": "branches"
+        },
+        {
+          "number": 22,
+          "lineId": "line-10",
+          "prompt": "I felt the 〔第 21 題〕 of it {{blank}}",
+          "promptZh": "我感覺到它的枝椏正望著我",
+          "options": [
+            "staring at me",
+            "watching me",
+            "looking at me"
+          ],
+          "answer": "looking at me"
+        },
+        {
+          "number": 23,
+          "lineId": "line-11",
+          "prompt": "{{blank}} we 〔第 24 題〕?",
+          "promptZh": "這是我們曾經愛過的地方嗎？",
+          "options": [
+            "Is this the place",
+            "Is this the spot",
+            "Is this the place that"
+          ],
+          "answer": "Is this the place"
+        },
+        {
+          "number": 24,
+          "lineId": "line-11",
+          "prompt": "〔第 23 題〕 we {{blank}}?",
+          "promptZh": "這是我們曾經愛過的地方嗎？",
+          "options": [
+            "used to go",
+            "used to know",
+            "used to love"
+          ],
+          "answer": "used to love"
+        },
+        {
+          "number": 25,
+          "lineId": "line-12",
+          "prompt": "Is this the place that I've been {{blank}}?",
+          "promptZh": "這是那個我一直在夢見的地方嗎？",
+          "options": [
+            "thinking of",
+            "dreaming of",
+            "dreaming about"
+          ],
+          "answer": "dreaming of"
+        },
+        {
+          "number": 26,
+          "lineId": "line-13",
+          "prompt": "Oh {{blank}} where have you gone?",
+          "promptZh": "噢，純粹的事物，你去了哪裡？",
+          "options": [
+            "simple thing",
+            "simple things",
+            "sweet thing"
+          ],
+          "answer": "simple thing"
+        },
+        {
+          "number": 27,
+          "lineId": "line-14",
+          "prompt": "I'm {{blank}} and I need 〔第 28 題〕",
+          "promptZh": "我逐漸老去，需要一些可以依靠的東西",
+          "options": [
+            "getting old",
+            "growing old",
+            "feeling old"
+          ],
+          "answer": "getting old"
+        },
+        {
+          "number": 28,
+          "lineId": "line-14",
+          "prompt": "I'm 〔第 27 題〕 and I need {{blank}}",
+          "promptZh": "我逐漸老去，需要一些可以依靠的東西",
+          "options": [
+            "something to lean on",
+            "someone to rely on",
+            "something to rely on"
+          ],
+          "answer": "something to rely on"
+        },
+        {
+          "number": 29,
+          "lineId": "line-15",
+          "prompt": "So tell me when you're gonna {{blank}}",
+          "promptZh": "所以告訴我，你何時才會讓我進入",
+          "options": [
+            "let me go",
+            "let me in",
+            "let me know"
+          ],
+          "answer": "let me in"
+        },
+        {
+          "number": 30,
+          "lineId": "line-16",
+          "prompt": "I'm {{blank}} and I need 〔第 31 題〕",
+          "promptZh": "我逐漸疲憊，需要一個起點",
+          "options": [
+            "getting tired",
+            "feeling tired",
+            "growing tired"
+          ],
+          "answer": "getting tired"
+        },
+        {
+          "number": 31,
+          "lineId": "line-16",
+          "prompt": "I'm 〔第 30 題〕 and I need {{blank}}",
+          "promptZh": "我逐漸疲憊，需要一個起點",
+          "options": [
+            "a place to begin",
+            "somewhere to start",
+            "somewhere to begin"
+          ],
+          "answer": "somewhere to begin"
+        },
+        {
+          "number": 32,
+          "lineId": "line-17",
+          "prompt": "{{blank}} 〔第 33 題〕",
+          "promptZh": "如果你有片刻時間，我們何不離去",
+          "options": [
+            "And if you've got a minute",
+            "And if you have a minute",
+            "If you have a minute"
+          ],
+          "answer": "And if you have a minute"
+        },
+        {
+          "number": 33,
+          "lineId": "line-17",
+          "prompt": "〔第 32 題〕 {{blank}}",
+          "promptZh": "如果你有片刻時間，我們何不離去",
+          "options": [
+            "why don't we stay",
+            "why don't we leave",
+            "why don't we go"
+          ],
+          "answer": "why don't we go"
+        },
+        {
+          "number": 34,
+          "lineId": "line-18",
+          "prompt": "{{blank}} 〔第 35 題〕?",
+          "promptZh": "在只有我們知道的地方談談這件事？",
+          "options": [
+            "Talk about this",
+            "Talk about it",
+            "Talk it over"
+          ],
+          "answer": "Talk about it"
+        },
+        {
+          "number": 35,
+          "lineId": "line-18",
+          "prompt": "〔第 34 題〕 {{blank}}?",
+          "promptZh": "在只有我們知道的地方談談這件事？",
+          "options": [
+            "somewhere only we know",
+            "somewhere we only know",
+            "somewhere only we go"
+          ],
+          "answer": "somewhere only we know"
+        },
+        {
+          "number": 36,
+          "lineId": "line-19",
+          "prompt": "{{blank}} 〔第 37 題〕",
+          "promptZh": "這可能是一切的終結",
+          "options": [
+            "This could be",
+            "This might be",
+            "This will be"
+          ],
+          "answer": "This could be"
+        },
+        {
+          "number": 37,
+          "lineId": "line-19",
+          "prompt": "〔第 36 題〕 {{blank}}",
+          "promptZh": "這可能是一切的終結",
+          "options": [
+            "the end of it all",
+            "the end of the world",
+            "the end of everything"
+          ],
+          "answer": "the end of everything"
+        },
+        {
+          "number": 38,
+          "lineId": "line-20",
+          "prompt": "{{blank}}",
+          "promptZh": "所以我們何不離去",
+          "options": [
+            "So why don't we leave",
+            "So why don't we go",
+            "So why don't we stay"
+          ],
+          "answer": "So why don't we go"
+        },
+        {
+          "number": 39,
+          "lineId": "line-21",
+          "prompt": "{{blank}}?",
+          "promptZh": "去那個只有我們知道的地方？",
+          "options": [
+            "Somewhere only we go",
+            "Somewhere we only know",
+            "Somewhere only we know"
+          ],
+          "answer": "Somewhere only we know"
+        },
+        {
+          "number": 40,
+          "lineId": "line-22",
+          "prompt": "Somewhere {{blank}}?",
+          "promptZh": "去那個只有我們知道的地方？",
+          "options": [
+            "only we know",
+            "only we go",
+            "just we know"
+          ],
+          "answer": "only we know"
+        },
+        {
+          "number": 41,
+          "lineId": "line-23",
+          "prompt": "Oh {{blank}} where have you gone?",
+          "promptZh": "噢，純粹的事物，你去了哪裡？",
+          "options": [
+            "simple things",
+            "simple thing",
+            "sweet thing"
+          ],
+          "answer": "simple thing"
+        },
+        {
+          "number": 42,
+          "lineId": "line-24",
+          "prompt": "I'm {{blank}} and I need 〔第 43 題〕",
+          "promptZh": "我逐漸老去，需要一些可以依靠的東西",
+          "options": [
+            "feeling old",
+            "growing old",
+            "getting old"
+          ],
+          "answer": "getting old"
+        },
+        {
+          "number": 43,
+          "lineId": "line-24",
+          "prompt": "I'm 〔第 42 題〕 and I need {{blank}}",
+          "promptZh": "我逐漸老去，需要一些可以依靠的東西",
+          "options": [
+            "someone to rely on",
+            "something to rely on",
+            "something to lean on"
+          ],
+          "answer": "something to rely on"
+        },
+        {
+          "number": 44,
+          "lineId": "line-25",
+          "prompt": "So tell me when you're gonna {{blank}}",
+          "promptZh": "所以告訴我，你何時才會讓我進入",
+          "options": [
+            "let me in",
+            "let me go",
+            "let me know"
+          ],
+          "answer": "let me in"
+        },
+        {
+          "number": 45,
+          "lineId": "line-26",
+          "prompt": "I'm {{blank}} and I need 〔第 46 題〕",
+          "promptZh": "我逐漸疲憊，需要一個起點",
+          "options": [
+            "feeling tired",
+            "getting tired",
+            "growing tired"
+          ],
+          "answer": "getting tired"
+        },
+        {
+          "number": 46,
+          "lineId": "line-26",
+          "prompt": "I'm 〔第 45 題〕 and I need {{blank}}",
+          "promptZh": "我逐漸疲憊，需要一個起點",
+          "options": [
+            "somewhere to begin",
+            "somewhere to start",
+            "a place to begin"
+          ],
+          "answer": "somewhere to begin"
+        },
+        {
+          "number": 47,
+          "lineId": "line-27",
+          "prompt": "And if you have {{blank}} why don't we go",
+          "promptZh": "如果你有片刻時間，我們何不離去",
+          "options": [
+            "a second",
+            "a moment",
+            "a minute"
+          ],
+          "answer": "a minute"
+        },
+        {
+          "number": 48,
+          "lineId": "line-28",
+          "prompt": "Talk about it somewhere {{blank}}?",
+          "promptZh": "在只有我們知道的地方談談這件事？",
+          "options": [
+            "only we go",
+            "only we know",
+            "just we know"
+          ],
+          "answer": "only we know"
+        },
+        {
+          "number": 49,
+          "lineId": "line-30",
+          "prompt": "{{blank}}?",
+          "promptZh": "所以我們何不離去？",
+          "options": [
+            "So why don't we go",
+            "So why don't we leave",
+            "So why don't we stay"
+          ],
+          "answer": "So why don't we go"
+        },
+        {
+          "number": 50,
+          "lineId": "line-36",
+          "prompt": "Somewhere {{blank}}?",
+          "promptZh": "去那個只有我們知道的地方？",
+          "options": [
+            "just we know",
+            "only we go",
+            "only we know"
+          ],
+          "answer": "only we know"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} an {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}} {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:7}} and it {{q:8}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:9}} {{q:10}}?"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:11}} and {{q:12}} {{q:13}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:14}} {{q:15}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:16}} and {{q:17}} {{q:18}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:19}} a {{q:20}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I felt the {{q:21}} of it {{q:22}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:23}} we {{q:24}}?"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Is this the place that I've been {{q:25}}?"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Oh {{q:26}} where have you gone?"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I'm {{q:27}} and I need {{q:28}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "So tell me when you're gonna {{q:29}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I'm {{q:30}} and I need {{q:31}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:32}} {{q:33}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:34}} {{q:35}}?"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:36}} {{q:37}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:38}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:39}}?"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Somewhere {{q:40}}?"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Oh {{q:41}} where have you gone?"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I'm {{q:42}} and I need {{q:43}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "So tell me when you're gonna {{q:44}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I'm {{q:45}} and I need {{q:46}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And if you have {{q:47}} why don't we go"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Talk about it somewhere {{q:48}}?"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "This could be the end of everything"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:49}}?"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "So why don't we go?"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Ah-ah-ah"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Ah-ah-ah"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "This could be the end of everything"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "So why don't we go"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Somewhere {{q:50}}?"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Somewhere only we know?"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Somewhere only we know?"
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/somewhere-only-we-know/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/somewhere-only-we-know/cover.webp",
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Somewhere Only We Know_.pdf",
+      "sha256": "7bb9aa1ac32e3b11ee8c8e9e6232cc6e886a4d98023371f9364b36ecfc3be5b1"
+    },
+    "md": {
+      "filename": "Somewhere_Only_We_Know_Vocabulary_Quiz.md",
+      "sha256": "953b2e49c516bfb43d999ddabbc0a75d9f07a121e159c1a23551dca111cc341b"
+    },
+    "mp3": {
+      "filename": "Somewhere Only We Know [q5sVys7jk2I].mp3",
+      "sha256": "0971a3d9c881eea944bf089722d0cfb15b52c6e3b4277dba361845fcf7d5ccd2"
+    }
+  },
+  "audioAlignment": {
+    "duration": 238.7866875,
+    "audioSha256": "0971a3d9c881eea944bf089722d0cfb15b52c6e3b4277dba361845fcf7d5ccd2",
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "coverage": 0.963819095477387,
+    "timedLines": 35,
+    "untimedLines": [
+      18,
+      32,
+      33
+    ],
+    "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  }
+}

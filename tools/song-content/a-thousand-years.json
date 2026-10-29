@@ -1,0 +1,2871 @@
+{
+  "slug": "a-thousand-years",
+  "title": "A Thousand Years",
+  "singer": "Christina Perri",
+  "description": "《A Thousand Years》描寫一份跨越時間、充滿等待與永恆承諾的真摯愛情。歌中的主角曾經害怕受傷，不敢輕易敞開心扉，但當她遇見心愛的人，內心的恐懼與疑慮便逐漸消失。她相信兩人的相遇是命中注定，即使經歷漫長的等待，也始終沒有放棄尋找對方。歌曲以「一千年」象徵愛情的永恆，表達無論時間如何流逝，都願意堅定地守護這份感情。最終，《A Thousand Years》傳達的是愛情中的勇氣、信念與承諾：真正深厚的愛能克服恐懼與等待，即使歲月變遷，依然願意相伴一生，永不分離。",
+  "exercise_name": "A Thousand Years · Listening & Vocabulary",
+  "tags": [
+    "christina perri",
+    "a thousand years",
+    "love",
+    "commitment"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "Heart beats fast",
+      "chinese": "心跳加速",
+      "startSeconds": 19.98,
+      "endSeconds": 24.36
+    },
+    {
+      "lineId": "line-2",
+      "english": "Colours and promises",
+      "chinese": "色彩與承諾",
+      "startSeconds": 24.7,
+      "endSeconds": 28.32
+    },
+    {
+      "lineId": "line-3",
+      "english": "How to be brave?",
+      "chinese": "該如何勇敢？",
+      "startSeconds": 28.32,
+      "endSeconds": 31.74
+    },
+    {
+      "lineId": "line-4",
+      "english": "How can I love when I'm afraid to fall?",
+      "chinese": "當我害怕墜落時，該如何去愛？",
+      "startSeconds": 31.74,
+      "endSeconds": 39.48
+    },
+    {
+      "lineId": "line-5",
+      "english": "But watching you stand alone",
+      "chinese": "但看著你獨自佇立",
+      "startSeconds": 39.48,
+      "endSeconds": 44.38
+    },
+    {
+      "lineId": "line-6",
+      "english": "All of my doubt",
+      "chinese": "我所有的疑慮",
+      "startSeconds": 44.38,
+      "endSeconds": 47.46
+    },
+    {
+      "lineId": "line-7",
+      "english": "Suddenly goes away somehow",
+      "chinese": "不知怎地，突然煙消雲散",
+      "startSeconds": 47.46,
+      "endSeconds": 52.38
+    },
+    {
+      "lineId": "line-8",
+      "english": "One step closer",
+      "chinese": "再靠近一步",
+      "startSeconds": 53.88,
+      "endSeconds": 59.46
+    },
+    {
+      "lineId": "line-9",
+      "english": "I have died every day waiting for you",
+      "chinese": "在等待你的每一天裡，我彷彿死去",
+      "startSeconds": 61.2,
+      "endSeconds": 66.91
+    },
+    {
+      "lineId": "line-10",
+      "english": "Darling, don't be afraid",
+      "chinese": "親愛的，別害怕",
+      "startSeconds": 67.1,
+      "endSeconds": 69.62
+    },
+    {
+      "lineId": "line-11",
+      "english": "I have loved you for a thousand years",
+      "chinese": "我已愛了你一千年",
+      "startSeconds": 69.62,
+      "endSeconds": 75.24
+    },
+    {
+      "lineId": "line-12",
+      "english": "I'll love you for a thousand more",
+      "chinese": "我會再愛你一千年",
+      "startSeconds": 75.24,
+      "endSeconds": 81.22
+    },
+    {
+      "lineId": "line-13",
+      "english": "Time stands still",
+      "chinese": "時間靜止",
+      "startSeconds": 87.12,
+      "endSeconds": 91.26
+    },
+    {
+      "lineId": "line-14",
+      "english": "Beauty in all she is",
+      "chinese": "在她身上盡是美麗",
+      "startSeconds": 91.98,
+      "endSeconds": 96.66
+    },
+    {
+      "lineId": "line-15",
+      "english": "I will be brave",
+      "chinese": "我會勇敢",
+      "startSeconds": 96.78,
+      "endSeconds": 98.92
+    },
+    {
+      "lineId": "line-16",
+      "english": "I will not let anything take away",
+      "chinese": "我不會讓任何事物奪走",
+      "startSeconds": 99.84,
+      "endSeconds": 106.46
+    },
+    {
+      "lineId": "line-17",
+      "english": "What's standing in front of me",
+      "chinese": "站在我面前的一切"
+    },
+    {
+      "lineId": "line-18",
+      "english": "Every breath",
+      "chinese": "每一次呼吸",
+      "startSeconds": 112.32,
+      "endSeconds": 114.38
+    },
+    {
+      "lineId": "line-19",
+      "english": "Every hour has come to this",
+      "chinese": "每一個小時都已匯聚於此",
+      "startSeconds": 115.24,
+      "endSeconds": 120.8
+    },
+    {
+      "lineId": "line-20",
+      "english": "One step closer",
+      "chinese": "再靠近一步",
+      "startSeconds": 120.8,
+      "endSeconds": 126.7
+    },
+    {
+      "lineId": "line-21",
+      "english": "I have died every day waiting for you",
+      "chinese": "在等待你的每一天裡，我彷彿死去",
+      "startSeconds": 128.26,
+      "endSeconds": 134.14
+    },
+    {
+      "lineId": "line-22",
+      "english": "Darling, don't be afraid",
+      "chinese": "親愛的，別害怕",
+      "startSeconds": 134.14,
+      "endSeconds": 136.8
+    },
+    {
+      "lineId": "line-23",
+      "english": "I have loved you for a thousand years",
+      "chinese": "我已愛了你一千年",
+      "startSeconds": 136.94,
+      "endSeconds": 142.34
+    },
+    {
+      "lineId": "line-24",
+      "english": "I'll love you for a thousand more",
+      "chinese": "我會再愛你一千年",
+      "startSeconds": 143.02,
+      "endSeconds": 148.88
+    },
+    {
+      "lineId": "line-25",
+      "english": "And all along I believed I would find you",
+      "chinese": "而一直以來，我堅信我會找到你",
+      "startSeconds": 148.88,
+      "endSeconds": 154.96
+    },
+    {
+      "lineId": "line-26",
+      "english": "Time has brought your heart to me",
+      "chinese": "時間已將你的心帶到我身邊",
+      "startSeconds": 154.96,
+      "endSeconds": 157.7
+    },
+    {
+      "lineId": "line-27",
+      "english": "I have loved you for a thousand years",
+      "chinese": "我已愛了你一千年",
+      "startSeconds": 157.7,
+      "endSeconds": 163.98
+    },
+    {
+      "lineId": "line-28",
+      "english": "I'll love you for a thousand more",
+      "chinese": "我會再愛你一千年",
+      "startSeconds": 163.98,
+      "endSeconds": 169.6
+    },
+    {
+      "lineId": "line-29",
+      "english": "One step closer",
+      "chinese": "再靠近一步",
+      "startSeconds": 193.38,
+      "endSeconds": 199.44
+    },
+    {
+      "lineId": "line-30",
+      "english": "One step closer",
+      "chinese": "再靠近一步",
+      "startSeconds": 203.8,
+      "endSeconds": 209.68
+    },
+    {
+      "lineId": "line-31",
+      "english": "I have died every day waiting for you",
+      "chinese": "在等待你的每一天裡，我彷彿死去",
+      "startSeconds": 211.12,
+      "endSeconds": 217.0
+    },
+    {
+      "lineId": "line-32",
+      "english": "Darling, don't be afraid",
+      "chinese": "親愛的，別害怕",
+      "startSeconds": 217.0,
+      "endSeconds": 219.7
+    },
+    {
+      "lineId": "line-33",
+      "english": "I have loved you for a thousand years",
+      "chinese": "我已愛了你一千年",
+      "startSeconds": 219.7,
+      "endSeconds": 225.24
+    },
+    {
+      "lineId": "line-34",
+      "english": "I'll love you for a thousand more",
+      "chinese": "我會再愛你一千年",
+      "startSeconds": 226.0,
+      "endSeconds": 232.28
+    },
+    {
+      "lineId": "line-35",
+      "english": "And all along I believed I would find you",
+      "chinese": "而一直以來，我堅信我會找到你",
+      "startSeconds": 232.66,
+      "endSeconds": 237.82
+    },
+    {
+      "lineId": "line-36",
+      "english": "Time has brought your heart to me",
+      "chinese": "時間已將你的心帶到我身邊",
+      "startSeconds": 238.1,
+      "endSeconds": 240.58
+    },
+    {
+      "lineId": "line-37",
+      "english": "I have loved you for a thousand years",
+      "chinese": "我已愛了你一千年",
+      "startSeconds": 240.58,
+      "endSeconds": 246.66
+    },
+    {
+      "lineId": "line-38",
+      "english": "I'll love you for a thousand more",
+      "chinese": "我會再愛你一千年"
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Heart beats fast",
+      "meaning": "心跳加速",
+      "usage": "緊張、興奮或運動後心跳變快時使用。",
+      "prompt": "哪一句正確使用「Heart beats fast」？",
+      "options": [
+        "My heart beats fast to the supermarket every Sunday.",
+        "My heart beats fast when I speak in front of the class.",
+        "I put my heart beats fast in the fridge.",
+        "The chair heart beats fast when I sit down."
+      ],
+      "answer": 1,
+      "explanation": "正確：在人前說話很緊張，心跳會加快。",
+      "optionExplanations": [
+        "錯誤：心不能「去超市」；要說 I go to the supermarket。",
+        "正確：在人前說話很緊張，心跳會加快。",
+        "錯誤：這是描述心跳的句子，不是一樣能放進冰箱的東西。",
+        "錯誤：椅子沒有心跳；這個片語用在有心跳的人或動物身上。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Be brave",
+      "meaning": "勇敢；有勇氣",
+      "usage": "害怕時仍願意嘗試或面對困難時使用。",
+      "prompt": "哪一句正確使用「Be brave」？",
+      "options": [
+        "She is brave because she tries again after she falls.",
+        "I brave my breakfast before school.",
+        "We are brave the window every morning.",
+        "He is brave at seven dollars."
+      ],
+      "answer": 0,
+      "explanation": "正確：跌倒後仍願意再試一次，是勇敢的表現。",
+      "optionExplanations": [
+        "正確：跌倒後仍願意再試一次，是勇敢的表現。",
+        "錯誤：brave 不是在這裡表示「吃」的動詞；要說 eat breakfast。",
+        "錯誤：be brave 不能直接接 window 當作動作；開窗要用 open。",
+        "錯誤：勇敢不能用價錢來表示；七美元不是勇敢的程度。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Be afraid to",
+      "meaning": "害怕做某事",
+      "usage": "擔心或害怕去做某個動作；後面接動詞原形。",
+      "prompt": "哪一句正確使用「Be afraid to」？",
+      "options": [
+        "I am afraid to my blue shoes.",
+        "He is afraid to ask the teacher a question.",
+        "She afraid to go home yesterday.",
+        "They are afraid to happy today."
+      ],
+      "answer": 1,
+      "explanation": "正確：be afraid to + 動詞，表示害怕做某事。",
+      "optionExplanations": [
+        "錯誤：to 後面需要動詞；不能直接接 my blue shoes。",
+        "正確：be afraid to + 動詞，表示害怕做某事。",
+        "錯誤：少了 be 動詞；應說 She was afraid to go home。",
+        "錯誤：happy 是形容詞；要說 afraid to be happy。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Go away",
+      "meaning": "離開；消失",
+      "usage": "人離開某地，或疼痛、煩惱等消失時使用。",
+      "prompt": "哪一句正確使用「Go away」？",
+      "options": [
+        "The red bag is go away on the table.",
+        "I go away my homework with a pencil.",
+        "She goes away a sandwich for lunch.",
+        "The rain went away, and we went outside."
+      ],
+      "answer": 3,
+      "explanation": "正確：這裡用 go away 表示雨停了、雨雲離開了。",
+      "optionExplanations": [
+        "錯誤：is go away 結構不正確；要描述袋子不見了可說 The bag is gone。",
+        "錯誤：go away 不能表示「寫功課」；要用 do my homework。",
+        "錯誤：go away 不是吃東西；應說 eats a sandwich。",
+        "正確：這裡用 go away 表示雨停了、雨雲離開了。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "One step closer",
+      "meaning": "又靠近一步；離目標更近一步",
+      "usage": "朝目標有一點進展，或真的往某個地方靠近一步時使用。",
+      "prompt": "哪一句正確使用「One step closer」？",
+      "options": [
+        "We are one step closer to finishing our school project.",
+        "I ate one step closer with my rice.",
+        "The cat is one step closer than yesterday is blue.",
+        "She bought one step closer at the shop."
+      ],
+      "answer": 0,
+      "explanation": "正確：表示完成學校作業的目標又更近了一點。",
+      "optionExplanations": [
+        "正確：表示完成學校作業的目標又更近了一點。",
+        "錯誤：one step closer 不是食物，不能搭配 ate。",
+        "錯誤：整個句子沒有清楚的比較對象，結構不自然。",
+        "錯誤：它不是可以在商店購買的物品。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Stand still",
+      "meaning": "站著不動；保持靜止",
+      "usage": "拍照、排隊或需要暫時不要移動時使用。",
+      "prompt": "哪一句正確使用「Stand still」？",
+      "options": [
+        "He stands still his breakfast every day.",
+        "We stand still the bus to school.",
+        "Please stand still while I take your photo.",
+        "My shoes stand still because they are hungry."
+      ],
+      "answer": 2,
+      "explanation": "正確：拍照時請對方站好不要動。",
+      "optionExplanations": [
+        "錯誤：stand still 不能表示吃早餐；應說 eats his breakfast。",
+        "錯誤：坐公車應說 take the bus；stand still 不表示交通方式。",
+        "正確：拍照時請對方站好不要動。",
+        "錯誤：鞋子不會餓；這裡的原因不合常理。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Take away",
+      "meaning": "拿走；帶走",
+      "usage": "把東西從原來的位置移開，或把某人的東西拿走時使用。",
+      "prompt": "哪一句正確使用「Take away」？",
+      "options": [
+        "She takes away very happy today.",
+        "I take away to English class at nine.",
+        "Please take away these empty cups.",
+        "The sky takes away blue every summer."
+      ],
+      "answer": 2,
+      "explanation": "正確：請把空杯子收走，符合 take away 的用法。",
+      "optionExplanations": [
+        "錯誤：take away 不是描述心情；要說 She is very happy。",
+        "錯誤：take away 不能表示「去上課」；應說 go to English class。",
+        "正確：請把空杯子收走，符合 take away 的用法。",
+        "錯誤：take away 需要合理的被拿走事物；這句語意不通。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "In front of",
+      "meaning": "在……前面",
+      "usage": "說明人或物所在的位置；後面通常接名詞。",
+      "prompt": "哪一句正確使用「In front of」？",
+      "options": [
+        "I in front of my homework every night.",
+        "The dog sleeps in front of the door.",
+        "We are in front of happy at school.",
+        "She drinks in front of yesterday."
+      ],
+      "answer": 1,
+      "explanation": "正確：狗睡在門前，表示位置。",
+      "optionExplanations": [
+        "錯誤：這不是完整的動作句；做功課應說 I do my homework。",
+        "正確：狗睡在門前，表示位置。",
+        "錯誤：in front of 後面通常接地點或物品，不能直接接 happy。",
+        "錯誤：yesterday 是時間，不是這裡可用的空間位置。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "All along",
+      "meaning": "一直以來；從一開始就",
+      "usage": "表示某個想法、感覺或事實從很早以前就存在。",
+      "prompt": "哪一句正確使用「All along」？",
+      "options": [
+        "I knew all along that you could do it.",
+        "He all along breakfast at eight.",
+        "I put all along inside my schoolbag.",
+        "The cake is all along because it is chocolate."
+      ],
+      "answer": 0,
+      "explanation": "正確：表示從一開始就相信對方做得到。",
+      "optionExplanations": [
+        "正確：表示從一開始就相信對方做得到。",
+        "錯誤：這不是正確句型；要說 He has breakfast at eight。",
+        "錯誤：all along 不是可以放進書包的物品。",
+        "錯誤：all along 不用來形容蛋糕的口味。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Bring someone to",
+      "meaning": "帶某人到……",
+      "usage": "帶一個人去某個地方；也可以比喻帶某人進入新情況。",
+      "prompt": "哪一句正確使用「Bring someone to」？",
+      "options": [
+        "The window brings my pencil to hungry.",
+        "I bring someone to my breakfast with milk.",
+        "She brings to happy me yesterday.",
+        "My sister brings me to the park on Sundays."
+      ],
+      "answer": 3,
+      "explanation": "正確：bring + 人 + to + 地點，表示帶某人去某處。",
+      "optionExplanations": [
+        "錯誤：hungry 不是地點，窗戶也不會主動帶鉛筆去某處。",
+        "錯誤：用法不自然；若要說帶人來吃早餐，可說 I bring my friend to breakfast。",
+        "錯誤：字序和時態都不對；要清楚說明帶誰到哪裡。",
+        "正確：bring + 人 + to + 地點，表示帶某人去某處。"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Heart beats {{blank}}",
+          "promptZh": "心跳加速",
+          "options": [
+            "fast",
+            "hard",
+            "slow"
+          ],
+          "answer": "fast"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Colours and {{blank}}",
+          "promptZh": "色彩與承諾",
+          "options": [
+            "memories",
+            "promises",
+            "dreams"
+          ],
+          "answer": "promises"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "How to be {{blank}}?",
+          "promptZh": "該如何勇敢？",
+          "options": [
+            "strong",
+            "brave",
+            "bold"
+          ],
+          "answer": "brave"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "How can I love when I'm afraid to {{blank}}?",
+          "promptZh": "當我害怕墜落時，該如何去愛？",
+          "options": [
+            "lose",
+            "fail",
+            "fall"
+          ],
+          "answer": "fall"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "But watching you {{blank}} alone",
+          "promptZh": "但看著你獨自佇立",
+          "options": [
+            "stand",
+            "wait",
+            "live"
+          ],
+          "answer": "stand"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "All of my {{blank}}",
+          "promptZh": "我所有的疑慮",
+          "options": [
+            "fear",
+            "doubt",
+            "pain"
+          ],
+          "answer": "doubt"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "Suddenly goes {{blank}} somehow",
+          "promptZh": "不知怎地，突然煙消雲散",
+          "options": [
+            "awry",
+            "astray",
+            "away"
+          ],
+          "answer": "away"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "One step {{blank}}",
+          "promptZh": "再靠近一步",
+          "options": [
+            "closer",
+            "nearer",
+            "forward"
+          ],
+          "answer": "closer"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "I have {{blank}} every day waiting for you",
+          "promptZh": "在等待你的每一天裡，我彷彿死去",
+          "options": [
+            "died",
+            "cried",
+            "tried"
+          ],
+          "answer": "died"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "Darling, don't be {{blank}}",
+          "promptZh": "親愛的，別害怕",
+          "options": [
+            "scared",
+            "afraid",
+            "worried"
+          ],
+          "answer": "afraid"
+        },
+        {
+          "number": 11,
+          "lineId": "line-11",
+          "prompt": "I have {{blank}} you for a thousand years",
+          "promptZh": "我已愛了你一千年",
+          "options": [
+            "known",
+            "missed",
+            "loved"
+          ],
+          "answer": "loved"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "I'll love you for a thousand {{blank}}",
+          "promptZh": "我會再愛你一千年",
+          "options": [
+            "years",
+            "more",
+            "days"
+          ],
+          "answer": "more"
+        },
+        {
+          "number": 13,
+          "lineId": "line-13",
+          "prompt": "Time stands {{blank}}",
+          "promptZh": "時間靜止",
+          "options": [
+            "near",
+            "by",
+            "still"
+          ],
+          "answer": "still"
+        },
+        {
+          "number": 14,
+          "lineId": "line-14",
+          "prompt": "{{blank}} in all she is",
+          "promptZh": "在她身上盡是美麗",
+          "options": [
+            "Beauty",
+            "Grace",
+            "Wonder"
+          ],
+          "answer": "Beauty"
+        },
+        {
+          "number": 15,
+          "lineId": "line-15",
+          "prompt": "I will be {{blank}}",
+          "promptZh": "我會勇敢",
+          "options": [
+            "true",
+            "strong",
+            "brave"
+          ],
+          "answer": "brave"
+        },
+        {
+          "number": 16,
+          "lineId": "line-16",
+          "prompt": "I will not let anything {{blank}}",
+          "promptZh": "我不會讓任何事物奪走",
+          "options": [
+            "take away",
+            "break away",
+            "fade away"
+          ],
+          "answer": "take away"
+        },
+        {
+          "number": 17,
+          "lineId": "line-17",
+          "prompt": "What's {{blank}} in front of me",
+          "promptZh": "站在我面前的一切",
+          "options": [
+            "waiting",
+            "standing",
+            "living"
+          ],
+          "answer": "standing"
+        },
+        {
+          "number": 18,
+          "lineId": "line-18",
+          "prompt": "Every {{blank}}",
+          "promptZh": "每一次呼吸",
+          "options": [
+            "step",
+            "breath",
+            "heartbeat"
+          ],
+          "answer": "breath"
+        },
+        {
+          "number": 19,
+          "lineId": "line-19",
+          "prompt": "Every {{blank}} has come to this",
+          "promptZh": "每一個小時都已匯聚於此",
+          "options": [
+            "moment",
+            "minute",
+            "hour"
+          ],
+          "answer": "hour"
+        },
+        {
+          "number": 20,
+          "lineId": "line-25",
+          "prompt": "And all along I {{blank}} I would find you",
+          "promptZh": "而一直以來，我堅信我會找到你",
+          "options": [
+            "believed",
+            "knew",
+            "thought"
+          ],
+          "answer": "believed"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Heart beats {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Colours and {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "How to be {{q:3}}?"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "How can I love when I'm afraid to {{q:4}}?"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "But watching you {{q:5}} alone"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "All of my {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Suddenly goes {{q:7}} somehow"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "One step {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I have {{q:9}} every day waiting for you"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Darling, don't be {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I have {{q:11}} you for a thousand years"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I'll love you for a thousand {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Time stands {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:14}} in all she is"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I will be {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I will not let anything {{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "What's {{q:17}} in front of me"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Every {{q:18}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Every {{q:19}} has come to this"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "One step closer"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I have died every day waiting for you"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Darling, don't be afraid"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I have loved you for a thousand years"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I'll love you for a thousand more"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And all along I {{q:20}} I would find you"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Time has brought your heart to me"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I have loved you for a thousand years"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I'll love you for a thousand more"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "One step closer"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "One step closer"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I have died every day waiting for you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Darling, don't be afraid"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I have loved you for a thousand years"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I'll love you for a thousand more"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "And all along I believed I would find you"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Time has brought your heart to me"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "I have loved you for a thousand years"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I'll love you for a thousand more"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Heart beats {{blank}}",
+          "promptZh": "心跳加速",
+          "options": [
+            "hard",
+            "fast",
+            "slow"
+          ],
+          "answer": "fast"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Colours and {{blank}}",
+          "promptZh": "色彩與承諾",
+          "options": [
+            "promises",
+            "memories",
+            "dreams"
+          ],
+          "answer": "promises"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "How to be {{blank}}?",
+          "promptZh": "該如何勇敢？",
+          "options": [
+            "bold",
+            "strong",
+            "brave"
+          ],
+          "answer": "brave"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "How can I love when I'm afraid to {{blank}}?",
+          "promptZh": "當我害怕墜落時，該如何去愛？",
+          "options": [
+            "fail",
+            "fall",
+            "lose"
+          ],
+          "answer": "fall"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "But watching you {{blank}} alone",
+          "promptZh": "但看著你獨自佇立",
+          "options": [
+            "stand",
+            "wait",
+            "live"
+          ],
+          "answer": "stand"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "All of my {{blank}}",
+          "promptZh": "我所有的疑慮",
+          "options": [
+            "doubt",
+            "fear",
+            "pain"
+          ],
+          "answer": "doubt"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "Suddenly goes {{blank}} somehow",
+          "promptZh": "不知怎地，突然煙消雲散",
+          "options": [
+            "astray",
+            "away",
+            "awry"
+          ],
+          "answer": "away"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "One step {{blank}}",
+          "promptZh": "再靠近一步",
+          "options": [
+            "forward",
+            "nearer",
+            "closer"
+          ],
+          "answer": "closer"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "I have {{blank}} every day waiting for you",
+          "promptZh": "在等待你的每一天裡，我彷彿死去",
+          "options": [
+            "cried",
+            "died",
+            "tried"
+          ],
+          "answer": "died"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "Darling, don't be {{blank}}",
+          "promptZh": "親愛的，別害怕",
+          "options": [
+            "afraid",
+            "scared",
+            "worried"
+          ],
+          "answer": "afraid"
+        },
+        {
+          "number": 11,
+          "lineId": "line-11",
+          "prompt": "I have {{blank}} you for a thousand years",
+          "promptZh": "我已愛了你一千年",
+          "options": [
+            "known",
+            "missed",
+            "loved"
+          ],
+          "answer": "loved"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "I'll love you for a thousand {{blank}}",
+          "promptZh": "我會再愛你一千年",
+          "options": [
+            "days",
+            "years",
+            "more"
+          ],
+          "answer": "more"
+        },
+        {
+          "number": 13,
+          "lineId": "line-13",
+          "prompt": "Time stands {{blank}}",
+          "promptZh": "時間靜止",
+          "options": [
+            "by",
+            "still",
+            "near"
+          ],
+          "answer": "still"
+        },
+        {
+          "number": 14,
+          "lineId": "line-14",
+          "prompt": "{{blank}} in all she is",
+          "promptZh": "在她身上盡是美麗",
+          "options": [
+            "Beauty",
+            "Grace",
+            "Wonder"
+          ],
+          "answer": "Beauty"
+        },
+        {
+          "number": 15,
+          "lineId": "line-15",
+          "prompt": "I will be {{blank}}",
+          "promptZh": "我會勇敢",
+          "options": [
+            "strong",
+            "brave",
+            "true"
+          ],
+          "answer": "brave"
+        },
+        {
+          "number": 16,
+          "lineId": "line-16",
+          "prompt": "I will not let anything {{blank}}",
+          "promptZh": "我不會讓任何事物奪走",
+          "options": [
+            "take away",
+            "break away",
+            "fade away"
+          ],
+          "answer": "take away"
+        },
+        {
+          "number": 17,
+          "lineId": "line-17",
+          "prompt": "What's {{blank}} in front of me",
+          "promptZh": "站在我面前的一切",
+          "options": [
+            "living",
+            "waiting",
+            "standing"
+          ],
+          "answer": "standing"
+        },
+        {
+          "number": 18,
+          "lineId": "line-18",
+          "prompt": "Every {{blank}}",
+          "promptZh": "每一次呼吸",
+          "options": [
+            "step",
+            "breath",
+            "heartbeat"
+          ],
+          "answer": "breath"
+        },
+        {
+          "number": 19,
+          "lineId": "line-19",
+          "prompt": "Every {{blank}} has come to this",
+          "promptZh": "每一個小時都已匯聚於此",
+          "options": [
+            "moment",
+            "minute",
+            "hour"
+          ],
+          "answer": "hour"
+        },
+        {
+          "number": 20,
+          "lineId": "line-20",
+          "prompt": "{{blank}}",
+          "promptZh": "再靠近一步",
+          "options": [
+            "One step closer",
+            "One step forward",
+            "One step nearer"
+          ],
+          "answer": "One step closer"
+        },
+        {
+          "number": 21,
+          "lineId": "line-21",
+          "prompt": "I have died every day {{blank}}",
+          "promptZh": "在等待你的每一天裡，我彷彿死去",
+          "options": [
+            "waiting to you",
+            "waiting on you",
+            "waiting for you"
+          ],
+          "answer": "waiting for you"
+        },
+        {
+          "number": 22,
+          "lineId": "line-25",
+          "prompt": "And all along I {{blank}} I would find you",
+          "promptZh": "而一直以來，我堅信我會找到你",
+          "options": [
+            "believed",
+            "knew",
+            "thought"
+          ],
+          "answer": "believed"
+        },
+        {
+          "number": 23,
+          "lineId": "line-26",
+          "prompt": "{{blank}} to me",
+          "promptZh": "時間已將你的心帶到我身邊",
+          "options": [
+            "Time has brought your love",
+            "Time has brought your heart",
+            "Time has taken your heart"
+          ],
+          "answer": "Time has brought your heart"
+        },
+        {
+          "number": 24,
+          "lineId": "line-27",
+          "prompt": "I have loved you for a thousand {{blank}}",
+          "promptZh": "我已愛了你一千年",
+          "options": [
+            "days",
+            "years",
+            "nights"
+          ],
+          "answer": "years"
+        },
+        {
+          "number": 25,
+          "lineId": "line-28",
+          "prompt": "I'll love you for a {{blank}}",
+          "promptZh": "我會再愛你一千年",
+          "options": [
+            "thousand more",
+            "million more",
+            "thousand years"
+          ],
+          "answer": "thousand more"
+        },
+        {
+          "number": 26,
+          "lineId": "line-29",
+          "prompt": "{{blank}}",
+          "promptZh": "再靠近一步",
+          "options": [
+            "One step nearer",
+            "One step forward",
+            "One step closer"
+          ],
+          "answer": "One step closer"
+        },
+        {
+          "number": 27,
+          "lineId": "line-30",
+          "prompt": "{{blank}}",
+          "promptZh": "再靠近一步",
+          "options": [
+            "One step forward",
+            "One step closer",
+            "One step nearer"
+          ],
+          "answer": "One step closer"
+        },
+        {
+          "number": 28,
+          "lineId": "line-31",
+          "prompt": "I have {{blank}} every day waiting for you",
+          "promptZh": "在等待你的每一天裡，我彷彿死去",
+          "options": [
+            "died",
+            "cried",
+            "tried"
+          ],
+          "answer": "died"
+        },
+        {
+          "number": 29,
+          "lineId": "line-32",
+          "prompt": "{{blank}}",
+          "promptZh": "親愛的，別害怕",
+          "options": [
+            "Darling, be not afraid",
+            "Darling, don't you fear",
+            "Darling, don't be afraid"
+          ],
+          "answer": "Darling, don't be afraid"
+        },
+        {
+          "number": 30,
+          "lineId": "line-33",
+          "prompt": "I have loved you {{blank}}",
+          "promptZh": "我已愛了你一千年",
+          "options": [
+            "for a thousand years",
+            "for a thousand days",
+            "for many years"
+          ],
+          "answer": "for a thousand years"
+        },
+        {
+          "number": 31,
+          "lineId": "line-34",
+          "prompt": "I'll love you {{blank}}",
+          "promptZh": "我會再愛你一千年",
+          "options": [
+            "for a million more",
+            "for a thousand years",
+            "for a thousand more"
+          ],
+          "answer": "for a thousand more"
+        },
+        {
+          "number": 32,
+          "lineId": "line-35",
+          "prompt": "And all along I believed {{blank}}",
+          "promptZh": "而一直以來，我堅信我會找到你",
+          "options": [
+            "I would see you",
+            "I would find you",
+            "I would meet you"
+          ],
+          "answer": "I would find you"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Heart beats {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Colours and {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "How to be {{q:3}}?"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "How can I love when I'm afraid to {{q:4}}?"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "But watching you {{q:5}} alone"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "All of my {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Suddenly goes {{q:7}} somehow"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "One step {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I have {{q:9}} every day waiting for you"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Darling, don't be {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I have {{q:11}} you for a thousand years"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I'll love you for a thousand {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Time stands {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:14}} in all she is"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I will be {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I will not let anything {{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "What's {{q:17}} in front of me"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Every {{q:18}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Every {{q:19}} has come to this"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I have died every day {{q:21}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Darling, don't be afraid"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I have loved you for a thousand years"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I'll love you for a thousand more"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And all along I {{q:22}} I would find you"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:23}} to me"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I have loved you for a thousand {{q:24}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I'll love you for a {{q:25}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:26}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:27}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I have {{q:28}} every day waiting for you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:29}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I have loved you {{q:30}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I'll love you {{q:31}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "And all along I believed {{q:32}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Time has brought your heart to me"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "I have loved you for a thousand years"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I'll love you for a thousand more"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}}",
+          "promptZh": "心跳加速",
+          "options": [
+            "Heart beats fast",
+            "Heart is beating fast",
+            "My heart beats fast"
+          ],
+          "answer": "Heart beats fast"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "{{blank}}",
+          "promptZh": "色彩與承諾",
+          "options": [
+            "Colours and promise",
+            "Colors and promises",
+            "Colours and promises"
+          ],
+          "answer": "Colours and promises"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}}?",
+          "promptZh": "該如何勇敢？",
+          "options": [
+            "How can I be brave",
+            "How to be brave",
+            "How to be strong"
+          ],
+          "answer": "How to be brave"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "{{blank}} when I'm afraid to 〔第 5 題〕?",
+          "promptZh": "當我害怕墜落時，該如何去愛？",
+          "options": [
+            "How can I love",
+            "How do I love",
+            "How will I love"
+          ],
+          "answer": "How can I love"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "〔第 4 題〕 when I'm afraid to {{blank}}?",
+          "promptZh": "當我害怕墜落時，該如何去愛？",
+          "options": [
+            "lose",
+            "fail",
+            "fall"
+          ],
+          "answer": "fall"
+        },
+        {
+          "number": 6,
+          "lineId": "line-5",
+          "prompt": "{{blank}} 〔第 7 題〕 alone",
+          "promptZh": "但看著你獨自佇立",
+          "options": [
+            "But seeing you",
+            "But watching you",
+            "But watching how you"
+          ],
+          "answer": "But watching you"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "〔第 6 題〕 {{blank}} alone",
+          "promptZh": "但看著你獨自佇立",
+          "options": [
+            "stand",
+            "wait",
+            "live"
+          ],
+          "answer": "stand"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "{{blank}}",
+          "promptZh": "我所有的疑慮",
+          "options": [
+            "All of my doubt",
+            "All my doubt",
+            "All of the doubt"
+          ],
+          "answer": "All of my doubt"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "{{blank}} somehow",
+          "promptZh": "不知怎地，突然煙消雲散",
+          "options": [
+            "Suddenly goes astray",
+            "Suddenly fades away",
+            "Suddenly goes away"
+          ],
+          "answer": "Suddenly goes away"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "One step {{blank}}",
+          "promptZh": "再靠近一步",
+          "options": [
+            "nearer",
+            "closer",
+            "forward"
+          ],
+          "answer": "closer"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "I have {{blank}} every day waiting for you",
+          "promptZh": "在等待你的每一天裡，我彷彿死去",
+          "options": [
+            "cried",
+            "died",
+            "tried"
+          ],
+          "answer": "died"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "Darling, don't be {{blank}}",
+          "promptZh": "親愛的，別害怕",
+          "options": [
+            "afraid",
+            "scared",
+            "worried"
+          ],
+          "answer": "afraid"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "I have {{blank}} you for a thousand years",
+          "promptZh": "我已愛了你一千年",
+          "options": [
+            "known",
+            "missed",
+            "loved"
+          ],
+          "answer": "loved"
+        },
+        {
+          "number": 14,
+          "lineId": "line-12",
+          "prompt": "I'll love you for a thousand {{blank}}",
+          "promptZh": "我會再愛你一千年",
+          "options": [
+            "more",
+            "years",
+            "days"
+          ],
+          "answer": "more"
+        },
+        {
+          "number": 15,
+          "lineId": "line-13",
+          "prompt": "Time stands {{blank}}",
+          "promptZh": "時間靜止",
+          "options": [
+            "near",
+            "by",
+            "still"
+          ],
+          "answer": "still"
+        },
+        {
+          "number": 16,
+          "lineId": "line-14",
+          "prompt": "{{blank}} in all she is",
+          "promptZh": "在她身上盡是美麗",
+          "options": [
+            "Grace",
+            "Beauty",
+            "Wonder"
+          ],
+          "answer": "Beauty"
+        },
+        {
+          "number": 17,
+          "lineId": "line-15",
+          "prompt": "I will be {{blank}}",
+          "promptZh": "我會勇敢",
+          "options": [
+            "brave",
+            "strong",
+            "true"
+          ],
+          "answer": "brave"
+        },
+        {
+          "number": 18,
+          "lineId": "line-16",
+          "prompt": "I will {{blank}} 〔第 19 題〕",
+          "promptZh": "我不會讓任何事物奪走",
+          "options": [
+            "never let anything",
+            "not let anything",
+            "not let a thing"
+          ],
+          "answer": "not let anything"
+        },
+        {
+          "number": 19,
+          "lineId": "line-16",
+          "prompt": "I will 〔第 18 題〕 {{blank}}",
+          "promptZh": "我不會讓任何事物奪走",
+          "options": [
+            "fade away",
+            "break away",
+            "take away"
+          ],
+          "answer": "take away"
+        },
+        {
+          "number": 20,
+          "lineId": "line-17",
+          "prompt": "What's {{blank}} in front of me",
+          "promptZh": "站在我面前的一切",
+          "options": [
+            "standing",
+            "waiting",
+            "living"
+          ],
+          "answer": "standing"
+        },
+        {
+          "number": 21,
+          "lineId": "line-18",
+          "prompt": "Every {{blank}}",
+          "promptZh": "每一次呼吸",
+          "options": [
+            "step",
+            "breath",
+            "heartbeat"
+          ],
+          "answer": "breath"
+        },
+        {
+          "number": 22,
+          "lineId": "line-19",
+          "prompt": "Every {{blank}} has come to this",
+          "promptZh": "每一個小時都已匯聚於此",
+          "options": [
+            "moment",
+            "minute",
+            "hour"
+          ],
+          "answer": "hour"
+        },
+        {
+          "number": 23,
+          "lineId": "line-20",
+          "prompt": "{{blank}}",
+          "promptZh": "再靠近一步",
+          "options": [
+            "One step forward",
+            "One step closer",
+            "One step nearer"
+          ],
+          "answer": "One step closer"
+        },
+        {
+          "number": 24,
+          "lineId": "line-21",
+          "prompt": "I have died every day {{blank}}",
+          "promptZh": "在等待你的每一天裡，我彷彿死去",
+          "options": [
+            "waiting for you",
+            "waiting on you",
+            "waiting to you"
+          ],
+          "answer": "waiting for you"
+        },
+        {
+          "number": 25,
+          "lineId": "line-22",
+          "prompt": "{{blank}}",
+          "promptZh": "親愛的，別害怕",
+          "options": [
+            "Darling, be not afraid",
+            "Darling, don't you fear",
+            "Darling, don't be afraid"
+          ],
+          "answer": "Darling, don't be afraid"
+        },
+        {
+          "number": 26,
+          "lineId": "line-23",
+          "prompt": "{{blank}}",
+          "promptZh": "我已愛了你一千年",
+          "options": [
+            "I have loved you for many years",
+            "I've loved you for a thousand years",
+            "I have loved you for a thousand years"
+          ],
+          "answer": "I have loved you for a thousand years"
+        },
+        {
+          "number": 27,
+          "lineId": "line-24",
+          "prompt": "{{blank}}",
+          "promptZh": "我會再愛你一千年",
+          "options": [
+            "I will love you for a thousand more",
+            "I'll love you for a thousand more",
+            "I'll love you for a million more"
+          ],
+          "answer": "I'll love you for a thousand more"
+        },
+        {
+          "number": 28,
+          "lineId": "line-25",
+          "prompt": "And all along I {{blank}} I would find you",
+          "promptZh": "而一直以來，我堅信我會找到你",
+          "options": [
+            "believed",
+            "knew",
+            "thought"
+          ],
+          "answer": "believed"
+        },
+        {
+          "number": 29,
+          "lineId": "line-26",
+          "prompt": "{{blank}} to me",
+          "promptZh": "時間已將你的心帶到我身邊",
+          "options": [
+            "Time has brought your love",
+            "Time has brought your heart",
+            "Time has taken your heart"
+          ],
+          "answer": "Time has brought your heart"
+        },
+        {
+          "number": 30,
+          "lineId": "line-27",
+          "prompt": "I have loved you for a thousand {{blank}}",
+          "promptZh": "我已愛了你一千年",
+          "options": [
+            "years",
+            "days",
+            "nights"
+          ],
+          "answer": "years"
+        },
+        {
+          "number": 31,
+          "lineId": "line-28",
+          "prompt": "I'll love you for a {{blank}}",
+          "promptZh": "我會再愛你一千年",
+          "options": [
+            "thousand years",
+            "million more",
+            "thousand more"
+          ],
+          "answer": "thousand more"
+        },
+        {
+          "number": 32,
+          "lineId": "line-29",
+          "prompt": "{{blank}}",
+          "promptZh": "再靠近一步",
+          "options": [
+            "One step nearer",
+            "One step forward",
+            "One step closer"
+          ],
+          "answer": "One step closer"
+        },
+        {
+          "number": 33,
+          "lineId": "line-30",
+          "prompt": "{{blank}}",
+          "promptZh": "再靠近一步",
+          "options": [
+            "One step closer",
+            "One step forward",
+            "One step nearer"
+          ],
+          "answer": "One step closer"
+        },
+        {
+          "number": 34,
+          "lineId": "line-31",
+          "prompt": "I have {{blank}} every day waiting for you",
+          "promptZh": "在等待你的每一天裡，我彷彿死去",
+          "options": [
+            "cried",
+            "died",
+            "tried"
+          ],
+          "answer": "died"
+        },
+        {
+          "number": 35,
+          "lineId": "line-32",
+          "prompt": "{{blank}}",
+          "promptZh": "親愛的，別害怕",
+          "options": [
+            "Darling, don't be afraid",
+            "Darling, don't you fear",
+            "Darling, be not afraid"
+          ],
+          "answer": "Darling, don't be afraid"
+        },
+        {
+          "number": 36,
+          "lineId": "line-33",
+          "prompt": "I have loved you {{blank}}",
+          "promptZh": "我已愛了你一千年",
+          "options": [
+            "for many years",
+            "for a thousand days",
+            "for a thousand years"
+          ],
+          "answer": "for a thousand years"
+        },
+        {
+          "number": 37,
+          "lineId": "line-34",
+          "prompt": "I'll love you {{blank}}",
+          "promptZh": "我會再愛你一千年",
+          "options": [
+            "for a thousand years",
+            "for a thousand more",
+            "for a million more"
+          ],
+          "answer": "for a thousand more"
+        },
+        {
+          "number": 38,
+          "lineId": "line-35",
+          "prompt": "And all along I believed {{blank}}",
+          "promptZh": "而一直以來，我堅信我會找到你",
+          "options": [
+            "I would find you",
+            "I would see you",
+            "I would meet you"
+          ],
+          "answer": "I would find you"
+        },
+        {
+          "number": 39,
+          "lineId": "line-37",
+          "prompt": "{{blank}}",
+          "promptZh": "我已愛了你一千年",
+          "options": [
+            "I've loved you for a thousand years",
+            "I have loved you for a thousand years",
+            "I have loved you for many years"
+          ],
+          "answer": "I have loved you for a thousand years"
+        },
+        {
+          "number": 40,
+          "lineId": "line-38",
+          "prompt": "{{blank}}",
+          "promptZh": "我會再愛你一千年",
+          "options": [
+            "I'll love you for a million more",
+            "I will love you for a thousand more",
+            "I'll love you for a thousand more"
+          ],
+          "answer": "I'll love you for a thousand more"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}}?"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:4}} when I'm afraid to {{q:5}}?"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:6}} {{q:7}} alone"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:8}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:9}} somehow"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "One step {{q:10}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I have {{q:11}} every day waiting for you"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Darling, don't be {{q:12}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I have {{q:13}} you for a thousand years"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I'll love you for a thousand {{q:14}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Time stands {{q:15}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:16}} in all she is"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I will be {{q:17}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I will {{q:18}} {{q:19}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "What's {{q:20}} in front of me"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Every {{q:21}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Every {{q:22}} has come to this"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:23}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I have died every day {{q:24}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:26}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:27}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And all along I {{q:28}} I would find you"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:29}} to me"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I have loved you for a thousand {{q:30}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I'll love you for a {{q:31}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:33}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I have {{q:34}} every day waiting for you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:35}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I have loved you {{q:36}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I'll love you {{q:37}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "And all along I believed {{q:38}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Time has brought your heart to me"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "{{q:39}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:40}}"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}}",
+          "promptZh": "心跳加速",
+          "options": [
+            "Heart is beating fast",
+            "Heart beats fast",
+            "My heart beats fast"
+          ],
+          "answer": "Heart beats fast"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "{{blank}}",
+          "promptZh": "色彩與承諾",
+          "options": [
+            "Colours and promises",
+            "Colors and promises",
+            "Colours and promise"
+          ],
+          "answer": "Colours and promises"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}}?",
+          "promptZh": "該如何勇敢？",
+          "options": [
+            "How can I be brave",
+            "How to be brave",
+            "How to be strong"
+          ],
+          "answer": "How to be brave"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "{{blank}} when I'm 〔第 5 題〕 to 〔第 6 題〕?",
+          "promptZh": "當我害怕墜落時，該如何去愛？",
+          "options": [
+            "How can I love",
+            "How do I love",
+            "How will I love"
+          ],
+          "answer": "How can I love"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "〔第 4 題〕 when I'm {{blank}} to 〔第 6 題〕?",
+          "promptZh": "當我害怕墜落時，該如何去愛？",
+          "options": [
+            "worried",
+            "scared",
+            "afraid"
+          ],
+          "answer": "afraid"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "〔第 4 題〕 when I'm 〔第 5 題〕 to {{blank}}?",
+          "promptZh": "當我害怕墜落時，該如何去愛？",
+          "options": [
+            "fall",
+            "fail",
+            "lose"
+          ],
+          "answer": "fall"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "{{blank}} 〔第 8 題〕 alone",
+          "promptZh": "但看著你獨自佇立",
+          "options": [
+            "But watching how you",
+            "But seeing you",
+            "But watching you"
+          ],
+          "answer": "But watching you"
+        },
+        {
+          "number": 8,
+          "lineId": "line-5",
+          "prompt": "〔第 7 題〕 {{blank}} alone",
+          "promptZh": "但看著你獨自佇立",
+          "options": [
+            "wait",
+            "stand",
+            "live"
+          ],
+          "answer": "stand"
+        },
+        {
+          "number": 9,
+          "lineId": "line-6",
+          "prompt": "{{blank}}",
+          "promptZh": "我所有的疑慮",
+          "options": [
+            "All of my doubt",
+            "All my doubt",
+            "All of the doubt"
+          ],
+          "answer": "All of my doubt"
+        },
+        {
+          "number": 10,
+          "lineId": "line-7",
+          "prompt": "{{blank}} somehow",
+          "promptZh": "不知怎地，突然煙消雲散",
+          "options": [
+            "Suddenly goes astray",
+            "Suddenly fades away",
+            "Suddenly goes away"
+          ],
+          "answer": "Suddenly goes away"
+        },
+        {
+          "number": 11,
+          "lineId": "line-8",
+          "prompt": "One step {{blank}}",
+          "promptZh": "再靠近一步",
+          "options": [
+            "nearer",
+            "closer",
+            "forward"
+          ],
+          "answer": "closer"
+        },
+        {
+          "number": 12,
+          "lineId": "line-9",
+          "prompt": "I have {{blank}} every day 〔第 13 題〕",
+          "promptZh": "在等待你的每一天裡，我彷彿死去",
+          "options": [
+            "cried",
+            "died",
+            "tried"
+          ],
+          "answer": "died"
+        },
+        {
+          "number": 13,
+          "lineId": "line-9",
+          "prompt": "I have 〔第 12 題〕 every day {{blank}}",
+          "promptZh": "在等待你的每一天裡，我彷彿死去",
+          "options": [
+            "waiting to you",
+            "waiting on you",
+            "waiting for you"
+          ],
+          "answer": "waiting for you"
+        },
+        {
+          "number": 14,
+          "lineId": "line-10",
+          "prompt": "Darling, don't be {{blank}}",
+          "promptZh": "親愛的，別害怕",
+          "options": [
+            "afraid",
+            "scared",
+            "worried"
+          ],
+          "answer": "afraid"
+        },
+        {
+          "number": 15,
+          "lineId": "line-11",
+          "prompt": "I have {{blank}} you for a thousand 〔第 16 題〕",
+          "promptZh": "我已愛了你一千年",
+          "options": [
+            "missed",
+            "loved",
+            "known"
+          ],
+          "answer": "loved"
+        },
+        {
+          "number": 16,
+          "lineId": "line-11",
+          "prompt": "I have 〔第 15 題〕 you for a thousand {{blank}}",
+          "promptZh": "我已愛了你一千年",
+          "options": [
+            "years",
+            "days",
+            "nights"
+          ],
+          "answer": "years"
+        },
+        {
+          "number": 17,
+          "lineId": "line-12",
+          "prompt": "I'll love you for a thousand {{blank}}",
+          "promptZh": "我會再愛你一千年",
+          "options": [
+            "days",
+            "years",
+            "more"
+          ],
+          "answer": "more"
+        },
+        {
+          "number": 18,
+          "lineId": "line-13",
+          "prompt": "{{blank}}",
+          "promptZh": "時間靜止",
+          "options": [
+            "Time just stands still",
+            "Time is standing still",
+            "Time stands still"
+          ],
+          "answer": "Time stands still"
+        },
+        {
+          "number": 19,
+          "lineId": "line-14",
+          "prompt": "{{blank}}",
+          "promptZh": "在她身上盡是美麗",
+          "options": [
+            "Beauty in all that she is",
+            "Beauty in all she is",
+            "Beauty in everything she is"
+          ],
+          "answer": "Beauty in all she is"
+        },
+        {
+          "number": 20,
+          "lineId": "line-15",
+          "prompt": "{{blank}}",
+          "promptZh": "我會勇敢",
+          "options": [
+            "I will be brave",
+            "I'll be brave",
+            "I will be strong"
+          ],
+          "answer": "I will be brave"
+        },
+        {
+          "number": 21,
+          "lineId": "line-16",
+          "prompt": "I will {{blank}} 〔第 22 題〕",
+          "promptZh": "我不會讓任何事物奪走",
+          "options": [
+            "not let anything",
+            "never let anything",
+            "not let a thing"
+          ],
+          "answer": "not let anything"
+        },
+        {
+          "number": 22,
+          "lineId": "line-16",
+          "prompt": "I will 〔第 21 題〕 {{blank}}",
+          "promptZh": "我不會讓任何事物奪走",
+          "options": [
+            "fade away",
+            "break away",
+            "take away"
+          ],
+          "answer": "take away"
+        },
+        {
+          "number": 23,
+          "lineId": "line-17",
+          "prompt": "{{blank}}",
+          "promptZh": "站在我面前的一切",
+          "options": [
+            "What is standing in front of me",
+            "What's standing in front of me",
+            "What's waiting in front of me"
+          ],
+          "answer": "What's standing in front of me"
+        },
+        {
+          "number": 24,
+          "lineId": "line-18",
+          "prompt": "{{blank}}",
+          "promptZh": "每一次呼吸",
+          "options": [
+            "Every step",
+            "Every single breath",
+            "Every breath"
+          ],
+          "answer": "Every breath"
+        },
+        {
+          "number": 25,
+          "lineId": "line-19",
+          "prompt": "{{blank}} has come to this",
+          "promptZh": "每一個小時都已匯聚於此",
+          "options": [
+            "Every minute",
+            "Every hour",
+            "Every moment"
+          ],
+          "answer": "Every hour"
+        },
+        {
+          "number": 26,
+          "lineId": "line-20",
+          "prompt": "{{blank}}",
+          "promptZh": "再靠近一步",
+          "options": [
+            "One step closer",
+            "One step forward",
+            "One step nearer"
+          ],
+          "answer": "One step closer"
+        },
+        {
+          "number": 27,
+          "lineId": "line-21",
+          "prompt": "I have {{blank}} every day 〔第 28 題〕",
+          "promptZh": "在等待你的每一天裡，我彷彿死去",
+          "options": [
+            "tried",
+            "cried",
+            "died"
+          ],
+          "answer": "died"
+        },
+        {
+          "number": 28,
+          "lineId": "line-21",
+          "prompt": "I have 〔第 27 題〕 every day {{blank}}",
+          "promptZh": "在等待你的每一天裡，我彷彿死去",
+          "options": [
+            "waiting on you",
+            "waiting for you",
+            "waiting to you"
+          ],
+          "answer": "waiting for you"
+        },
+        {
+          "number": 29,
+          "lineId": "line-22",
+          "prompt": "{{blank}}",
+          "promptZh": "親愛的，別害怕",
+          "options": [
+            "Darling, don't be afraid",
+            "Darling, don't you fear",
+            "Darling, be not afraid"
+          ],
+          "answer": "Darling, don't be afraid"
+        },
+        {
+          "number": 30,
+          "lineId": "line-23",
+          "prompt": "{{blank}}",
+          "promptZh": "我已愛了你一千年",
+          "options": [
+            "I have loved you for many years",
+            "I've loved you for a thousand years",
+            "I have loved you for a thousand years"
+          ],
+          "answer": "I have loved you for a thousand years"
+        },
+        {
+          "number": 31,
+          "lineId": "line-24",
+          "prompt": "{{blank}}",
+          "promptZh": "我會再愛你一千年",
+          "options": [
+            "I will love you for a thousand more",
+            "I'll love you for a thousand more",
+            "I'll love you for a million more"
+          ],
+          "answer": "I'll love you for a thousand more"
+        },
+        {
+          "number": 32,
+          "lineId": "line-25",
+          "prompt": "And all along I {{blank}} 〔第 33 題〕",
+          "promptZh": "而一直以來，我堅信我會找到你",
+          "options": [
+            "believed",
+            "knew",
+            "thought"
+          ],
+          "answer": "believed"
+        },
+        {
+          "number": 33,
+          "lineId": "line-25",
+          "prompt": "And all along I 〔第 32 題〕 {{blank}}",
+          "promptZh": "而一直以來，我堅信我會找到你",
+          "options": [
+            "I would see you",
+            "I would find you",
+            "I would meet you"
+          ],
+          "answer": "I would find you"
+        },
+        {
+          "number": 34,
+          "lineId": "line-26",
+          "prompt": "{{blank}} to me",
+          "promptZh": "時間已將你的心帶到我身邊",
+          "options": [
+            "Time has brought your heart",
+            "Time has brought your love",
+            "Time has taken your heart"
+          ],
+          "answer": "Time has brought your heart"
+        },
+        {
+          "number": 35,
+          "lineId": "line-27",
+          "prompt": "I have {{blank}} you for a thousand 〔第 36 題〕",
+          "promptZh": "我已愛了你一千年",
+          "options": [
+            "known",
+            "missed",
+            "loved"
+          ],
+          "answer": "loved"
+        },
+        {
+          "number": 36,
+          "lineId": "line-27",
+          "prompt": "I have 〔第 35 題〕 you for a thousand {{blank}}",
+          "promptZh": "我已愛了你一千年",
+          "options": [
+            "days",
+            "years",
+            "nights"
+          ],
+          "answer": "years"
+        },
+        {
+          "number": 37,
+          "lineId": "line-28",
+          "prompt": "I'll love you for a {{blank}}",
+          "promptZh": "我會再愛你一千年",
+          "options": [
+            "thousand more",
+            "million more",
+            "thousand years"
+          ],
+          "answer": "thousand more"
+        },
+        {
+          "number": 38,
+          "lineId": "line-29",
+          "prompt": "{{blank}}",
+          "promptZh": "再靠近一步",
+          "options": [
+            "One step nearer",
+            "One step forward",
+            "One step closer"
+          ],
+          "answer": "One step closer"
+        },
+        {
+          "number": 39,
+          "lineId": "line-30",
+          "prompt": "{{blank}}",
+          "promptZh": "再靠近一步",
+          "options": [
+            "One step closer",
+            "One step forward",
+            "One step nearer"
+          ],
+          "answer": "One step closer"
+        },
+        {
+          "number": 40,
+          "lineId": "line-31",
+          "prompt": "I have {{blank}} every day 〔第 41 題〕",
+          "promptZh": "在等待你的每一天裡，我彷彿死去",
+          "options": [
+            "tried",
+            "cried",
+            "died"
+          ],
+          "answer": "died"
+        },
+        {
+          "number": 41,
+          "lineId": "line-31",
+          "prompt": "I have 〔第 40 題〕 every day {{blank}}",
+          "promptZh": "在等待你的每一天裡，我彷彿死去",
+          "options": [
+            "waiting on you",
+            "waiting for you",
+            "waiting to you"
+          ],
+          "answer": "waiting for you"
+        },
+        {
+          "number": 42,
+          "lineId": "line-32",
+          "prompt": "{{blank}}",
+          "promptZh": "親愛的，別害怕",
+          "options": [
+            "Darling, don't be afraid",
+            "Darling, don't you fear",
+            "Darling, be not afraid"
+          ],
+          "answer": "Darling, don't be afraid"
+        },
+        {
+          "number": 43,
+          "lineId": "line-33",
+          "prompt": "I have {{blank}} you 〔第 44 題〕",
+          "promptZh": "我已愛了你一千年",
+          "options": [
+            "known",
+            "missed",
+            "loved"
+          ],
+          "answer": "loved"
+        },
+        {
+          "number": 44,
+          "lineId": "line-33",
+          "prompt": "I have 〔第 43 題〕 you {{blank}}",
+          "promptZh": "我已愛了你一千年",
+          "options": [
+            "for a thousand days",
+            "for a thousand years",
+            "for many years"
+          ],
+          "answer": "for a thousand years"
+        },
+        {
+          "number": 45,
+          "lineId": "line-34",
+          "prompt": "I'll love you {{blank}}",
+          "promptZh": "我會再愛你一千年",
+          "options": [
+            "for a thousand more",
+            "for a thousand years",
+            "for a million more"
+          ],
+          "answer": "for a thousand more"
+        },
+        {
+          "number": 46,
+          "lineId": "line-35",
+          "prompt": "And all along I {{blank}} 〔第 47 題〕",
+          "promptZh": "而一直以來，我堅信我會找到你",
+          "options": [
+            "thought",
+            "knew",
+            "believed"
+          ],
+          "answer": "believed"
+        },
+        {
+          "number": 47,
+          "lineId": "line-35",
+          "prompt": "And all along I 〔第 46 題〕 {{blank}}",
+          "promptZh": "而一直以來，我堅信我會找到你",
+          "options": [
+            "I would see you",
+            "I would find you",
+            "I would meet you"
+          ],
+          "answer": "I would find you"
+        },
+        {
+          "number": 48,
+          "lineId": "line-36",
+          "prompt": "{{blank}} to me",
+          "promptZh": "時間已將你的心帶到我身邊",
+          "options": [
+            "Time has brought your heart",
+            "Time has brought your love",
+            "Time has taken your heart"
+          ],
+          "answer": "Time has brought your heart"
+        },
+        {
+          "number": 49,
+          "lineId": "line-37",
+          "prompt": "{{blank}}",
+          "promptZh": "我已愛了你一千年",
+          "options": [
+            "I've loved you for a thousand years",
+            "I have loved you for a thousand years",
+            "I have loved you for many years"
+          ],
+          "answer": "I have loved you for a thousand years"
+        },
+        {
+          "number": 50,
+          "lineId": "line-38",
+          "prompt": "{{blank}}",
+          "promptZh": "我會再愛你一千年",
+          "options": [
+            "I'll love you for a million more",
+            "I will love you for a thousand more",
+            "I'll love you for a thousand more"
+          ],
+          "answer": "I'll love you for a thousand more"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}}?"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:4}} when I'm {{q:5}} to {{q:6}}?"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}} {{q:8}} alone"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:9}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:10}} somehow"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "One step {{q:11}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I have {{q:12}} every day {{q:13}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Darling, don't be {{q:14}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I have {{q:15}} you for a thousand {{q:16}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I'll love you for a thousand {{q:17}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:18}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:19}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I will {{q:21}} {{q:22}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:23}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:24}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:25}} has come to this"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:26}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I have {{q:27}} every day {{q:28}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:29}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:30}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:31}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And all along I {{q:32}} {{q:33}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:34}} to me"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I have {{q:35}} you for a thousand {{q:36}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I'll love you for a {{q:37}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:38}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:39}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I have {{q:40}} every day {{q:41}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:42}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I have {{q:43}} you {{q:44}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I'll love you {{q:45}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "And all along I {{q:46}} {{q:47}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "{{q:48}} to me"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "{{q:49}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:50}}"
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/a-thousand-years/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/a-thousand-years/cover.webp",
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_A Thousand Years_.pdf",
+      "sha256": "2c922a0a8d25a078f9bd72075ca189348ef8b64c8bca03aa0465dfcb9039a69f"
+    },
+    "md": {
+      "filename": "A_Thousand_Years_Vocabulary_Quiz.md",
+      "sha256": "bfc7b8be81f334b420bb13764cc0dcf0cee6fd3f3631bc47609716b1dfb4980f"
+    },
+    "mp3": {
+      "filename": "a thousand years [TA1W-pHNKl8].mp3",
+      "sha256": "8def7264c0558bda02ea983769c8816455c3e7fc10aadbe947a5c9bbe97b2748"
+    }
+  },
+  "audioAlignment": {
+    "duration": 285.12,
+    "audioSha256": "8def7264c0558bda02ea983769c8816455c3e7fc10aadbe947a5c9bbe97b2748",
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "coverage": 0.9568764568764568,
+    "timedLines": 36,
+    "untimedLines": [
+      17,
+      38
+    ],
+    "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  }
+}

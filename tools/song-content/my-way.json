@@ -1,0 +1,2780 @@
+{
+  "slug": "my-way",
+  "title": "My Way",
+  "singer": "Frank Sinatra",
+  "description": "《My Way》描寫一個人在生命接近終點時，回顧過去、坦然面對人生的深刻感受。歌中的主角回想自己走過的道路，曾經愛過、歡笑過、哭泣過，也經歷過失敗與遺憾，但他從不後悔按照自己的方式生活。即使面對困難、挫折與別人的質疑，他仍然堅持信念，勇敢承擔每一個選擇的後果。他明白人生不可能完美，但最重要的是忠於自己，不為迎合他人而放棄尊嚴與理想。最終，《My Way》傳達的是自信、勇氣與無悔的人生態度：真正的成功不在於獲得多少掌聲，而是能夠在生命的最後，坦然地說自己曾經勇敢活過，並按照自己的方式走完人生。",
+  "exercise_name": "My Way · Listening & Vocabulary",
+  "tags": [
+    "frank sinatra",
+    "my way",
+    "reflection",
+    "independence"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "And now, the end is near",
+      "chinese": "如今，終點已近",
+      "startSeconds": 4.98,
+      "endSeconds": 10.28
+    },
+    {
+      "lineId": "line-2",
+      "english": "And so I face the final curtain",
+      "chinese": "於是我面對最後的帷幕",
+      "startSeconds": 11.42,
+      "endSeconds": 16.56
+    },
+    {
+      "lineId": "line-3",
+      "english": "My friend, I'll say it clear",
+      "chinese": "我的朋友，我會說得明白",
+      "startSeconds": 18.4,
+      "endSeconds": 22.66
+    },
+    {
+      "lineId": "line-4",
+      "english": "I'll state my case, of which I'm certain",
+      "chinese": "我會陳述我的立場，對此我深信不疑",
+      "startSeconds": 22.66,
+      "endSeconds": 29.04
+    },
+    {
+      "lineId": "line-5",
+      "english": "I've lived a life that's full",
+      "chinese": "我已度過充實的一生",
+      "startSeconds": 29.04,
+      "endSeconds": 35.52
+    },
+    {
+      "lineId": "line-6",
+      "english": "I traveled each and every highway",
+      "chinese": "我走遍了每一條康莊大道",
+      "startSeconds": 36.48,
+      "endSeconds": 41.64
+    },
+    {
+      "lineId": "line-7",
+      "english": "And more, much more than this, I did it my way",
+      "chinese": "而除此之外，更多更多，我都用自己的方式做 到了",
+      "startSeconds": 41.64,
+      "endSeconds": 54.72
+    },
+    {
+      "lineId": "line-8",
+      "english": "Regrets, I've had a few",
+      "chinese": "遺憾，我也曾有過一些",
+      "startSeconds": 54.72,
+      "endSeconds": 60.3
+    },
+    {
+      "lineId": "line-9",
+      "english": "But then again, too few to mention",
+      "chinese": "但話說回來，少得不足掛齒",
+      "startSeconds": 61.04,
+      "endSeconds": 66.78
+    },
+    {
+      "lineId": "line-10",
+      "english": "I did what I had to do",
+      "chinese": "我做了我必須做的事",
+      "startSeconds": 68.04,
+      "endSeconds": 73.9
+    },
+    {
+      "lineId": "line-11",
+      "english": "And saw it through without exemption",
+      "chinese": "並且毫無例外地貫徹到底",
+      "startSeconds": 73.9,
+      "endSeconds": 79.3
+    },
+    {
+      "lineId": "line-12",
+      "english": "I planned each charted course",
+      "chinese": "我規劃了每一段既定的路線",
+      "startSeconds": 80.9,
+      "endSeconds": 85.54
+    },
+    {
+      "lineId": "line-13",
+      "english": "Each careful step along the byway",
+      "chinese": "沿著旁道謹慎踏出的每一步",
+      "startSeconds": 86.84,
+      "endSeconds": 92.28
+    },
+    {
+      "lineId": "line-14",
+      "english": "And more, much more than this, I did it my way",
+      "chinese": "而除此之外，更多更多，我都用自己的方式做 到了",
+      "startSeconds": 93.62,
+      "endSeconds": 104.52
+    },
+    {
+      "lineId": "line-15",
+      "english": "Yes, there were times, I'm sure you knew",
+      "chinese": "是的，有些時候，我相信你知道",
+      "startSeconds": 105.28,
+      "endSeconds": 110.88
+    },
+    {
+      "lineId": "line-16",
+      "english": "When I bit off more than I could chew",
+      "chinese": "當我好高騖遠，接下力所不及之事",
+      "startSeconds": 110.88,
+      "endSeconds": 117.02
+    },
+    {
+      "lineId": "line-17",
+      "english": "But through it all, when there was doubt",
+      "chinese": "但經歷這一切，每當有疑慮時",
+      "startSeconds": 117.02,
+      "endSeconds": 123.5
+    },
+    {
+      "lineId": "line-18",
+      "english": "I ate it up and spit it out",
+      "chinese": "我咬牙吞下，再狠狠吐掉",
+      "startSeconds": 123.5,
+      "endSeconds": 129.82
+    },
+    {
+      "lineId": "line-19",
+      "english": "I faced it all and I stood tall and did it my way",
+      "chinese": "我面對了一切，昂首挺立，並用自己的方式做到 了",
+      "startSeconds": 130.5,
+      "endSeconds": 142.9
+    },
+    {
+      "lineId": "line-20",
+      "english": "I've loved, I've laughed and cried",
+      "chinese": "我愛過，我笑過也哭過",
+      "startSeconds": 143.5,
+      "endSeconds": 148.56
+    },
+    {
+      "lineId": "line-21",
+      "english": "I've had my fill, my share of losing",
+      "chinese": "我已心滿意足，也嘗過失敗的滋味",
+      "startSeconds": 148.56,
+      "endSeconds": 155.58
+    },
+    {
+      "lineId": "line-22",
+      "english": "And now, as tears subside",
+      "chinese": "而現在，當淚水消退",
+      "startSeconds": 155.58,
+      "endSeconds": 161.62
+    },
+    {
+      "lineId": "line-23",
+      "english": "I find it all so amusing",
+      "chinese": "我覺得這一切如此有趣",
+      "startSeconds": 161.62,
+      "endSeconds": 167.82
+    },
+    {
+      "lineId": "line-24",
+      "english": "To think I did all that",
+      "chinese": "想想我竟然做了這一切",
+      "startSeconds": 168.56,
+      "endSeconds": 174.16
+    },
+    {
+      "lineId": "line-25",
+      "english": "And may I say, not in a shy way",
+      "chinese": "容我直言，毫不靦腆地說",
+      "startSeconds": 174.16,
+      "endSeconds": 181.04
+    },
+    {
+      "lineId": "line-26",
+      "english": "Oh, no, oh, no, not me, I did it my way",
+      "chinese": "噢，不，噢，不，不是我，我用自己的方式做到了",
+      "startSeconds": 181.04,
+      "endSeconds": 192.84
+    },
+    {
+      "lineId": "line-27",
+      "english": "For what is a man, what has he got?",
+      "chinese": "因為人究竟是什麼，他擁有什麼？",
+      "startSeconds": 192.84,
+      "endSeconds": 198.9
+    },
+    {
+      "lineId": "line-28",
+      "english": "If not himself, then he has naught",
+      "chinese": "如果他連自己都沒有，那他就一無所有",
+      "startSeconds": 198.9,
+      "endSeconds": 205.46
+    },
+    {
+      "lineId": "line-29",
+      "english": "To say the things he truly feels",
+      "chinese": "要說出他真心感受的事物",
+      "startSeconds": 205.46,
+      "endSeconds": 212.66
+    },
+    {
+      "lineId": "line-30",
+      "english": "And not the words of one who kneels",
+      "chinese": "而不是屈膝臣服者的言語",
+      "startSeconds": 212.66,
+      "endSeconds": 219.4
+    },
+    {
+      "lineId": "line-31",
+      "english": "The record shows",
+      "chinese": "紀錄清清楚楚地顯示",
+      "startSeconds": 219.4,
+      "endSeconds": 222.34
+    },
+    {
+      "lineId": "line-32",
+      "english": "I took the blows",
+      "chinese": "我承受了打擊",
+      "startSeconds": 222.34,
+      "endSeconds": 225.56
+    },
+    {
+      "lineId": "line-33",
+      "english": "And did it my way",
+      "chinese": "並用自己的方式做到了",
+      "startSeconds": 226.4,
+      "endSeconds": 233.2
+    },
+    {
+      "lineId": "line-34",
+      "english": "Yes, it was my way",
+      "chinese": "是的，那是我的方式"
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "The end is near",
+      "meaning": "結束快到了",
+      "usage": "當活動、故事或一段時間快結束時可以使用。",
+      "prompt": "哪一句正確使用了「The end is near」？",
+      "options": [
+        "I put the end is near in my sandwich.",
+        "The movie ends in five minutes. The end is near.",
+        "My shoes are the end is near and blue.",
+        "Please drink the end is near before school."
+      ],
+      "answer": 1,
+      "explanation": "電影再五分鐘就結束，這個說法很自然。",
+      "optionExplanations": [
+        "這是描述時間的句子，不是可以放進三明治的東西。",
+        "電影再五分鐘就結束，這個說法很自然。",
+        "不能用這個句子當作鞋子的顏色。",
+        "這個說法不是飲料，不能搭配 drink。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Face",
+      "meaning": "面對",
+      "usage": "遇到問題或困難時，決定不逃避，可以用 face。",
+      "prompt": "哪一句正確使用了「Face」？",
+      "options": [
+        "She faced a hard test and did her best.",
+        "I face my breakfast with a spoon of music.",
+        "He faced his socks into the refrigerator.",
+        "We faced happy yesterday very quickly."
+      ],
+      "answer": 0,
+      "explanation": "face a hard test 表示勇敢面對困難的考試。",
+      "optionExplanations": [
+        "face a hard test 表示勇敢面對困難的考試。",
+        "這個句子搭配奇怪；早餐不是這裡要面對的難題。",
+        "face 不能這樣表示把襪子放進冰箱。",
+        "face 後面不能這樣接 happy yesterday。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "My way",
+      "meaning": "用我的方式",
+      "usage": "想表達自己選擇的方法或做法時可以用。",
+      "prompt": "哪一句正確使用了「My way」？",
+      "options": [
+        "You can do it your way, and I will do it my way.",
+        "My way is sleeping under my shoes.",
+        "I cooked my way for breakfast and ate it.",
+        "Please open my way with a spoon."
+      ],
+      "answer": 0,
+      "explanation": "my way 表示按照我自己的方法做。",
+      "optionExplanations": [
+        "my way 表示按照我自己的方法做。",
+        "這裡的搭配無法表達清楚的做事方式。",
+        "my way 不是食物，不能這樣當成煮好的東西。",
+        "my way 不能像門一樣用湯匙打開。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Regret",
+      "meaning": "後悔；遺憾",
+      "usage": "想到過去做過或沒做的事，覺得可惜時可以用。",
+      "prompt": "哪一句正確使用了「Regret」？",
+      "options": [
+        "I put three regrets on my pizza.",
+        "She regrets her blue pencil into the bag.",
+        "I regret not calling my friend yesterday.",
+        "We regret at seven o’clock to the bus stop."
+      ],
+      "answer": 2,
+      "explanation": "regret + -ing 可表示後悔沒做某事。",
+      "optionExplanations": [
+        "regret 是遺憾，不是披薩配料。",
+        "regret 不表示把東西放進袋子。",
+        "regret + -ing 可表示後悔沒做某事。",
+        "regret 不能這樣表示前往公車站。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "See it through",
+      "meaning": "把事情做到底",
+      "usage": "即使事情困難，也要完成原本開始的工作時使用。",
+      "prompt": "哪一句正確使用了「See it through」？",
+      "options": [
+        "She is see it through very hungry.",
+        "I see it through with my new glasses to the moon.",
+        "I put see it through in my schoolbag.",
+        "The job is hard, but I will see it through."
+      ],
+      "answer": 3,
+      "explanation": "see it through 表示堅持到把事情完成。",
+      "optionExplanations": [
+        "be 後面不能直接這樣接動詞片語。",
+        "這裡不是「透過某物看」的意思，搭配不對。",
+        "這是動詞片語，不能當作物品放進書包。",
+        "see it through 表示堅持到把事情完成。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Bite off more than you can chew",
+      "meaning": "接下超過自己能力的事",
+      "usage": "一次答應做太多事情，結果忙不過來時使用。",
+      "prompt": "哪一句正確使用了「Bite off more than you can chew」？",
+      "options": [
+        "I bite off more than I can chew because the apple is red.",
+        "I said yes to five big jobs. I bit off more than I could chew.",
+        "My phone bit off more than it could chew and became a bus.",
+        "Please put more than you can chew under the chair."
+      ],
+      "answer": 1,
+      "explanation": "接了太多工作，超出自己的能力，符合這個片語。",
+      "optionExplanations": [
+        "這裡只在描述蘋果顏色，沒有表達工作太多。",
+        "接了太多工作，超出自己的能力，符合這個片語。",
+        "手機變公車和片語的意思無關。",
+        "這個片語不能當作一件物品放在椅子下。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Stand tall",
+      "meaning": "挺直站立；有自信地面對",
+      "usage": "感到勇敢、自信，不因困難退縮時可以使用。",
+      "prompt": "哪一句正確使用了「Stand tall」？",
+      "options": [
+        "I stand tall my homework with a red pen.",
+        "She stands tall because her lunch is made of music.",
+        "We stand tall the weather every morning.",
+        "Even after losing, he stood tall and smiled."
+      ],
+      "answer": 3,
+      "explanation": "即使失敗，他還是有自信地面對。",
+      "optionExplanations": [
+        "stand tall 不能直接接 homework 當受詞。",
+        "午餐是音樂無法合理表達自信或姿態。",
+        "stand tall 不能直接接 the weather。",
+        "即使失敗，他還是有自信地面對。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Have my fill",
+      "meaning": "已經享受夠了；已經得到足夠的量",
+      "usage": "吃飽、玩夠或經歷足夠多某件事時可以使用。",
+      "prompt": "哪一句正確使用了「Have my fill」？",
+      "options": [
+        "I have had my fill of cake. I do not want any more.",
+        "She has her fill the door with a yellow key.",
+        "We put our fill on the table and sang to it.",
+        "I have my fill in the blue clock yesterday."
+      ],
+      "answer": 0,
+      "explanation": "have had my fill of 表示已經吃夠，不想再要。",
+      "optionExplanations": [
+        "have had my fill of 表示已經吃夠，不想再要。",
+        "have my fill 不是開門的動作。",
+        "fill 不能這樣當作一件物品。",
+        "時間和文法不自然，且沒有說明夠了什麼。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Truly",
+      "meaning": "真正地；確實地",
+      "usage": "想強調感覺或說法是真的時可以使用。",
+      "prompt": "哪一句正確使用了「Truly」？",
+      "options": [
+        "I put truly on my head before going outside.",
+        "I truly love spending time with my family.",
+        "Please truly the window after lunch.",
+        "She bought a truly at the shop."
+      ],
+      "answer": 1,
+      "explanation": "truly 強調這份喜愛是真心的。",
+      "optionExplanations": [
+        "truly 不是帽子之類的物品。",
+        "truly 強調這份喜愛是真心的。",
+        "truly 是副詞，不能直接當開窗動詞。",
+        "truly 不是可以買的一件物品。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Take the blows",
+      "meaning": "承受打擊、面對挫折",
+      "usage": "遇到批評或失敗，仍然繼續努力時可以用；是比喻說法。",
+      "prompt": "哪一句正確使用了「Take the blows」？",
+      "options": [
+        "I took the blows to wash my blue socks.",
+        "She put the blows in her coffee and drank it.",
+        "The team lost twice, but they took the blows and kept trying.",
+        "We take the blows at seven dollars each."
+      ],
+      "answer": 2,
+      "explanation": "指隊伍承受失敗的打擊，繼續努力。",
+      "optionExplanations": [
+        "這個片語不表示用某種工具洗襪子。",
+        "blows 在這裡不是咖啡配料。",
+        "指隊伍承受失敗的打擊，繼續努力。",
+        "這個片語不表示用價格購買商品。"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "And now, the end is {{blank}}",
+          "promptZh": "如今，終點已近",
+          "options": [
+            "here",
+            "near",
+            "clear"
+          ],
+          "answer": "near"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "And so I face the {{blank}}",
+          "promptZh": "於是我面對最後的帷幕",
+          "options": [
+            "final curtain",
+            "final stage",
+            "final act"
+          ],
+          "answer": "final curtain"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "My friend, I'll {{blank}}",
+          "promptZh": "我的朋友，我會說得明白",
+          "options": [
+            "speak it clear",
+            "say it right",
+            "say it clear"
+          ],
+          "answer": "say it clear"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "I'll {{blank}}, of which I'm certain",
+          "promptZh": "我會陳述我的立場，對此我深信不疑",
+          "options": [
+            "state my case",
+            "make my case",
+            "tell my case"
+          ],
+          "answer": "state my case"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "I've lived a {{blank}}",
+          "promptZh": "我已度過充實的一生",
+          "options": [
+            "life that's good",
+            "life that's full",
+            "life so full"
+          ],
+          "answer": "life that's full"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "I {{blank}} and every highway",
+          "promptZh": "我走遍了每一條康莊大道",
+          "options": [
+            "walked each",
+            "traveled each",
+            "traveled every"
+          ],
+          "answer": "traveled each"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "And more, much more than this, I {{blank}}",
+          "promptZh": "而除此之外，更多更多，我都用自己的方式做 到了",
+          "options": [
+            "did it my way",
+            "made it my way",
+            "did it my own way"
+          ],
+          "answer": "did it my way"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "{{blank}}, I've had a few",
+          "promptZh": "遺憾，我也曾有過一些",
+          "options": [
+            "Sadness",
+            "Sorrows",
+            "Regrets"
+          ],
+          "answer": "Regrets"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "But then again, {{blank}}",
+          "promptZh": "但話說回來，少得不足掛齒",
+          "options": [
+            "too much to mention",
+            "too few to mention",
+            "so few to mention"
+          ],
+          "answer": "too few to mention"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "I {{blank}}",
+          "promptZh": "我做了我必須做的事",
+          "options": [
+            "did what I must do",
+            "did what I had to",
+            "did what I had to do"
+          ],
+          "answer": "did what I had to do"
+        },
+        {
+          "number": 11,
+          "lineId": "line-11",
+          "prompt": "And {{blank}} without exemption",
+          "promptZh": "並且毫無例外地貫徹到底",
+          "options": [
+            "saw it through",
+            "saw it out",
+            "saw it done"
+          ],
+          "answer": "saw it through"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "I planned each {{blank}}",
+          "promptZh": "我規劃了每一段既定的路線",
+          "options": [
+            "charted path",
+            "chosen course",
+            "charted course"
+          ],
+          "answer": "charted course"
+        },
+        {
+          "number": 13,
+          "lineId": "line-13",
+          "prompt": "Each careful {{blank}} the byway",
+          "promptZh": "沿著旁道謹慎踏出的每一步",
+          "options": [
+            "step along",
+            "step upon",
+            "step down"
+          ],
+          "answer": "step along"
+        },
+        {
+          "number": 14,
+          "lineId": "line-15",
+          "prompt": "Yes, there were times, I'm sure you {{blank}}",
+          "promptZh": "是的，有些時候，我相信你知道",
+          "options": [
+            "know",
+            "knew",
+            "knew it"
+          ],
+          "answer": "knew"
+        },
+        {
+          "number": 15,
+          "lineId": "line-16",
+          "prompt": "When I {{blank}} than I could chew",
+          "promptZh": "當我好高騖遠，接下力所不及之事",
+          "options": [
+            "took off more",
+            "bit off more",
+            "bit more"
+          ],
+          "answer": "bit off more"
+        },
+        {
+          "number": 16,
+          "lineId": "line-17",
+          "prompt": "But through it all, when there was {{blank}}",
+          "promptZh": "但經歷這一切，每當有疑慮時",
+          "options": [
+            "pain",
+            "fear",
+            "doubt"
+          ],
+          "answer": "doubt"
+        },
+        {
+          "number": 17,
+          "lineId": "line-18",
+          "prompt": "I ate it up and {{blank}}",
+          "promptZh": "我咬牙吞下，再狠狠吐掉",
+          "options": [
+            "spit it out",
+            "spat it out",
+            "spit it up"
+          ],
+          "answer": "spit it out"
+        },
+        {
+          "number": 18,
+          "lineId": "line-19",
+          "prompt": "I {{blank}} and I stood tall and did it my way",
+          "promptZh": "我面對了一切，昂首挺立，並用自己的方式做到 了",
+          "options": [
+            "faced it out",
+            "faced it all",
+            "took it all"
+          ],
+          "answer": "faced it all"
+        },
+        {
+          "number": 19,
+          "lineId": "line-20",
+          "prompt": "I've {{blank}}",
+          "promptZh": "我愛過，我笑過也哭過",
+          "options": [
+            "loved, I've laughed and cried",
+            "loved, laughed and cried",
+            "loved, I've laughed but cried"
+          ],
+          "answer": "loved, I've laughed and cried"
+        },
+        {
+          "number": 20,
+          "lineId": "line-21",
+          "prompt": "I've had my fill, my {{blank}}",
+          "promptZh": "我已心滿意足，也嘗過失敗的滋味",
+          "options": [
+            "part of losing",
+            "share of loss",
+            "share of losing"
+          ],
+          "answer": "share of losing"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "And now, the end is {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "And so I face the {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "My friend, I'll {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I'll {{q:4}}, of which I'm certain"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I've lived a {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I {{q:6}} and every highway"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And more, much more than this, I {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:8}}, I've had a few"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "But then again, {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And {{q:11}} without exemption"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I planned each {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Each careful {{q:13}} the byway"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And more, much more than this, I did it my way"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Yes, there were times, I'm sure you {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "When I {{q:15}} than I could chew"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "But through it all, when there was {{q:16}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I ate it up and {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I {{q:18}} and I stood tall and did it my way"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I've {{q:19}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I've had my fill, my {{q:20}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "And now, as tears subside"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I find it all so amusing"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "To think I did all that"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And may I say, not in a shy way"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Oh, no, oh, no, not me, I did it my way"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "For what is a man, what has he got?"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "If not himself, then he has naught"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "To say the things he truly feels"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "And not the words of one who kneels"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "The record shows"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I took the blows"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And did it my way"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Yes, it was my way"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "And now, the end is {{blank}}",
+          "promptZh": "如今，終點已近",
+          "options": [
+            "near",
+            "here",
+            "clear"
+          ],
+          "answer": "near"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "And so I face the {{blank}}",
+          "promptZh": "於是我面對最後的帷幕",
+          "options": [
+            "final stage",
+            "final curtain",
+            "final act"
+          ],
+          "answer": "final curtain"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "My friend, I'll {{blank}}",
+          "promptZh": "我的朋友，我會說得明白",
+          "options": [
+            "speak it clear",
+            "say it right",
+            "say it clear"
+          ],
+          "answer": "say it clear"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "I'll {{blank}}, of which I'm certain",
+          "promptZh": "我會陳述我的立場，對此我深信不疑",
+          "options": [
+            "state my case",
+            "make my case",
+            "tell my case"
+          ],
+          "answer": "state my case"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "I've lived a {{blank}}",
+          "promptZh": "我已度過充實的一生",
+          "options": [
+            "life that's good",
+            "life that's full",
+            "life so full"
+          ],
+          "answer": "life that's full"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "I {{blank}} and every highway",
+          "promptZh": "我走遍了每一條康莊大道",
+          "options": [
+            "traveled every",
+            "walked each",
+            "traveled each"
+          ],
+          "answer": "traveled each"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "And more, much more than this, I {{blank}}",
+          "promptZh": "而除此之外，更多更多，我都用自己的方式做 到了",
+          "options": [
+            "did it my way",
+            "made it my way",
+            "did it my own way"
+          ],
+          "answer": "did it my way"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "{{blank}}, I've had a few",
+          "promptZh": "遺憾，我也曾有過一些",
+          "options": [
+            "Sorrows",
+            "Regrets",
+            "Sadness"
+          ],
+          "answer": "Regrets"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "But then again, {{blank}}",
+          "promptZh": "但話說回來，少得不足掛齒",
+          "options": [
+            "too much to mention",
+            "too few to mention",
+            "so few to mention"
+          ],
+          "answer": "too few to mention"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "I {{blank}}",
+          "promptZh": "我做了我必須做的事",
+          "options": [
+            "did what I had to do",
+            "did what I had to",
+            "did what I must do"
+          ],
+          "answer": "did what I had to do"
+        },
+        {
+          "number": 11,
+          "lineId": "line-11",
+          "prompt": "And {{blank}} without exemption",
+          "promptZh": "並且毫無例外地貫徹到底",
+          "options": [
+            "saw it done",
+            "saw it out",
+            "saw it through"
+          ],
+          "answer": "saw it through"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "I planned each {{blank}}",
+          "promptZh": "我規劃了每一段既定的路線",
+          "options": [
+            "charted path",
+            "chosen course",
+            "charted course"
+          ],
+          "answer": "charted course"
+        },
+        {
+          "number": 13,
+          "lineId": "line-13",
+          "prompt": "Each careful {{blank}} the byway",
+          "promptZh": "沿著旁道謹慎踏出的每一步",
+          "options": [
+            "step upon",
+            "step along",
+            "step down"
+          ],
+          "answer": "step along"
+        },
+        {
+          "number": 14,
+          "lineId": "line-15",
+          "prompt": "Yes, there were times, I'm sure you {{blank}}",
+          "promptZh": "是的，有些時候，我相信你知道",
+          "options": [
+            "knew",
+            "know",
+            "knew it"
+          ],
+          "answer": "knew"
+        },
+        {
+          "number": 15,
+          "lineId": "line-16",
+          "prompt": "When I {{blank}} than I could chew",
+          "promptZh": "當我好高騖遠，接下力所不及之事",
+          "options": [
+            "bit off more",
+            "took off more",
+            "bit more"
+          ],
+          "answer": "bit off more"
+        },
+        {
+          "number": 16,
+          "lineId": "line-17",
+          "prompt": "But through it all, when there was {{blank}}",
+          "promptZh": "但經歷這一切，每當有疑慮時",
+          "options": [
+            "fear",
+            "doubt",
+            "pain"
+          ],
+          "answer": "doubt"
+        },
+        {
+          "number": 17,
+          "lineId": "line-18",
+          "prompt": "I ate it up and {{blank}}",
+          "promptZh": "我咬牙吞下，再狠狠吐掉",
+          "options": [
+            "spit it up",
+            "spat it out",
+            "spit it out"
+          ],
+          "answer": "spit it out"
+        },
+        {
+          "number": 18,
+          "lineId": "line-19",
+          "prompt": "I {{blank}} and I stood tall and did it my way",
+          "promptZh": "我面對了一切，昂首挺立，並用自己的方式做到 了",
+          "options": [
+            "took it all",
+            "faced it out",
+            "faced it all"
+          ],
+          "answer": "faced it all"
+        },
+        {
+          "number": 19,
+          "lineId": "line-20",
+          "prompt": "I've {{blank}}",
+          "promptZh": "我愛過，我笑過也哭過",
+          "options": [
+            "loved, I've laughed and cried",
+            "loved, laughed and cried",
+            "loved, I've laughed but cried"
+          ],
+          "answer": "loved, I've laughed and cried"
+        },
+        {
+          "number": 20,
+          "lineId": "line-21",
+          "prompt": "I've had my fill, my {{blank}}",
+          "promptZh": "我已心滿意足，也嘗過失敗的滋味",
+          "options": [
+            "share of loss",
+            "share of losing",
+            "part of losing"
+          ],
+          "answer": "share of losing"
+        },
+        {
+          "number": 21,
+          "lineId": "line-22",
+          "prompt": "And now, as {{blank}}",
+          "promptZh": "而現在，當淚水消退",
+          "options": [
+            "tears fall down",
+            "tears subside",
+            "tears subside now"
+          ],
+          "answer": "tears subside"
+        },
+        {
+          "number": 22,
+          "lineId": "line-23",
+          "prompt": "I find it all so {{blank}}",
+          "promptZh": "我覺得這一切如此有趣",
+          "options": [
+            "amusing",
+            "amazing",
+            "confusing"
+          ],
+          "answer": "amusing"
+        },
+        {
+          "number": 23,
+          "lineId": "line-24",
+          "prompt": "To think I {{blank}}",
+          "promptZh": "想想我竟然做了這一切",
+          "options": [
+            "made all that",
+            "did it all",
+            "did all that"
+          ],
+          "answer": "did all that"
+        },
+        {
+          "number": 24,
+          "lineId": "line-25",
+          "prompt": "And may I {{blank}}",
+          "promptZh": "容我直言，毫不靦腆地說",
+          "options": [
+            "say, not on a shy way",
+            "say it not in a shy way",
+            "say, not in a shy way"
+          ],
+          "answer": "say, not in a shy way"
+        },
+        {
+          "number": 25,
+          "lineId": "line-27",
+          "prompt": "For what is a {{blank}}?",
+          "promptZh": "因為人究竟是什麼，他擁有什麼？",
+          "options": [
+            "man, what has he got",
+            "man, what does he got",
+            "man, what has he got now"
+          ],
+          "answer": "man, what has he got"
+        },
+        {
+          "number": 26,
+          "lineId": "line-28",
+          "prompt": "If not himself, then he has {{blank}}",
+          "promptZh": "如果他連自己都沒有，那他就一無所有",
+          "options": [
+            "nothing",
+            "naught",
+            "none"
+          ],
+          "answer": "naught"
+        },
+        {
+          "number": 27,
+          "lineId": "line-29",
+          "prompt": "To say the {{blank}}",
+          "promptZh": "要說出他真心感受的事物",
+          "options": [
+            "things he really feels",
+            "things he truly feels",
+            "words he truly feels"
+          ],
+          "answer": "things he truly feels"
+        },
+        {
+          "number": 28,
+          "lineId": "line-30",
+          "prompt": "And not the {{blank}}",
+          "promptZh": "而不是屈膝臣服者的言語",
+          "options": [
+            "words of one who kneels",
+            "words of someone who kneels",
+            "words of one who kneel"
+          ],
+          "answer": "words of one who kneels"
+        },
+        {
+          "number": 29,
+          "lineId": "line-31",
+          "prompt": "The {{blank}}",
+          "promptZh": "紀錄清清楚楚地顯示",
+          "options": [
+            "record shows that",
+            "records show",
+            "record shows"
+          ],
+          "answer": "record shows"
+        },
+        {
+          "number": 30,
+          "lineId": "line-32",
+          "prompt": "I {{blank}}",
+          "promptZh": "我承受了打擊",
+          "options": [
+            "took the hits",
+            "took the blows",
+            "took the pain"
+          ],
+          "answer": "took the blows"
+        },
+        {
+          "number": 31,
+          "lineId": "line-33",
+          "prompt": "And {{blank}}",
+          "promptZh": "並用自己的方式做到了",
+          "options": [
+            "did it my way",
+            "made it my way",
+            "did it my own way"
+          ],
+          "answer": "did it my way"
+        },
+        {
+          "number": 32,
+          "lineId": "line-34",
+          "prompt": "Yes, it was {{blank}}",
+          "promptZh": "是的，那是我的方式",
+          "options": [
+            "my own way",
+            "the my way",
+            "my way"
+          ],
+          "answer": "my way"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "And now, the end is {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "And so I face the {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "My friend, I'll {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I'll {{q:4}}, of which I'm certain"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I've lived a {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I {{q:6}} and every highway"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And more, much more than this, I {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:8}}, I've had a few"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "But then again, {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And {{q:11}} without exemption"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I planned each {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Each careful {{q:13}} the byway"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And more, much more than this, I did it my way"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Yes, there were times, I'm sure you {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "When I {{q:15}} than I could chew"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "But through it all, when there was {{q:16}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I ate it up and {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I {{q:18}} and I stood tall and did it my way"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I've {{q:19}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I've had my fill, my {{q:20}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "And now, as {{q:21}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I find it all so {{q:22}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "To think I {{q:23}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And may I {{q:24}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Oh, no, oh, no, not me, I did it my way"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "For what is a {{q:25}}?"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "If not himself, then he has {{q:26}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "To say the {{q:27}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "And not the {{q:28}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "The {{q:29}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I {{q:30}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And {{q:31}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Yes, it was {{q:32}}"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}}, the end is 〔第 2 題〕",
+          "promptZh": "如今，終點已近",
+          "options": [
+            "And now",
+            "But now",
+            "And so"
+          ],
+          "answer": "And now"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕, the end is {{blank}}",
+          "promptZh": "如今，終點已近",
+          "options": [
+            "near",
+            "here",
+            "clear"
+          ],
+          "answer": "near"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} the 〔第 4 題〕",
+          "promptZh": "於是我面對最後的帷幕",
+          "options": [
+            "And now I face",
+            "And so I see",
+            "And so I face"
+          ],
+          "answer": "And so I face"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 the {{blank}}",
+          "promptZh": "於是我面對最後的帷幕",
+          "options": [
+            "final stage",
+            "final curtain",
+            "final act"
+          ],
+          "answer": "final curtain"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "{{blank}} it clear",
+          "promptZh": "我的朋友，我會說得明白",
+          "options": [
+            "My friend, I'll say",
+            "My friend, I will say",
+            "My friend, I'll speak"
+          ],
+          "answer": "My friend, I'll say"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "{{blank}}, 〔第 7 題〕",
+          "promptZh": "我會陳述我的立場，對此我深信不疑",
+          "options": [
+            "I will state my case",
+            "I'll state my case",
+            "I'll make my case"
+          ],
+          "answer": "I'll state my case"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "〔第 6 題〕, {{blank}}",
+          "promptZh": "我會陳述我的立場，對此我深信不疑",
+          "options": [
+            "of which I am certain",
+            "of that I'm certain",
+            "of which I'm certain"
+          ],
+          "answer": "of which I'm certain"
+        },
+        {
+          "number": 8,
+          "lineId": "line-5",
+          "prompt": "{{blank}} that's full",
+          "promptZh": "我已度過充實的一生",
+          "options": [
+            "I've had a life",
+            "I have lived a life",
+            "I've lived a life"
+          ],
+          "answer": "I've lived a life"
+        },
+        {
+          "number": 9,
+          "lineId": "line-6",
+          "prompt": "I {{blank}} and 〔第 10 題〕",
+          "promptZh": "我走遍了每一條康莊大道",
+          "options": [
+            "traveled each",
+            "walked each",
+            "traveled every"
+          ],
+          "answer": "traveled each"
+        },
+        {
+          "number": 10,
+          "lineId": "line-6",
+          "prompt": "I 〔第 9 題〕 and {{blank}}",
+          "promptZh": "我走遍了每一條康莊大道",
+          "options": [
+            "each highway",
+            "every highway",
+            "all highway"
+          ],
+          "answer": "every highway"
+        },
+        {
+          "number": 11,
+          "lineId": "line-7",
+          "prompt": "And more, much more than this, I {{blank}}",
+          "promptZh": "而除此之外，更多更多，我都用自己的方式做 到了",
+          "options": [
+            "made it my way",
+            "did it my way",
+            "did it my own way"
+          ],
+          "answer": "did it my way"
+        },
+        {
+          "number": 12,
+          "lineId": "line-8",
+          "prompt": "{{blank}}, 〔第 13 題〕",
+          "promptZh": "遺憾，我也曾有過一些",
+          "options": [
+            "Sadness",
+            "Sorrows",
+            "Regrets"
+          ],
+          "answer": "Regrets"
+        },
+        {
+          "number": 13,
+          "lineId": "line-8",
+          "prompt": "〔第 12 題〕, {{blank}}",
+          "promptZh": "遺憾，我也曾有過一些",
+          "options": [
+            "I've had a few",
+            "I have had a few",
+            "I had a few"
+          ],
+          "answer": "I've had a few"
+        },
+        {
+          "number": 14,
+          "lineId": "line-9",
+          "prompt": "But {{blank}}, 〔第 15 題〕",
+          "promptZh": "但話說回來，少得不足掛齒",
+          "options": [
+            "then again",
+            "then again now",
+            "then once more"
+          ],
+          "answer": "then again"
+        },
+        {
+          "number": 15,
+          "lineId": "line-9",
+          "prompt": "But 〔第 14 題〕, {{blank}}",
+          "promptZh": "但話說回來，少得不足掛齒",
+          "options": [
+            "so few to mention",
+            "too much to mention",
+            "too few to mention"
+          ],
+          "answer": "too few to mention"
+        },
+        {
+          "number": 16,
+          "lineId": "line-10",
+          "prompt": "I {{blank}}",
+          "promptZh": "我做了我必須做的事",
+          "options": [
+            "did what I had to",
+            "did what I had to do",
+            "did what I must do"
+          ],
+          "answer": "did what I had to do"
+        },
+        {
+          "number": 17,
+          "lineId": "line-11",
+          "prompt": "And {{blank}} 〔第 18 題〕",
+          "promptZh": "並且毫無例外地貫徹到底",
+          "options": [
+            "saw it out",
+            "saw it through",
+            "saw it done"
+          ],
+          "answer": "saw it through"
+        },
+        {
+          "number": 18,
+          "lineId": "line-11",
+          "prompt": "And 〔第 17 題〕 {{blank}}",
+          "promptZh": "並且毫無例外地貫徹到底",
+          "options": [
+            "without a doubt",
+            "without exception",
+            "without exemption"
+          ],
+          "answer": "without exemption"
+        },
+        {
+          "number": 19,
+          "lineId": "line-12",
+          "prompt": "I planned each {{blank}}",
+          "promptZh": "我規劃了每一段既定的路線",
+          "options": [
+            "charted course",
+            "chosen course",
+            "charted path"
+          ],
+          "answer": "charted course"
+        },
+        {
+          "number": 20,
+          "lineId": "line-13",
+          "prompt": "Each careful {{blank}} the byway",
+          "promptZh": "沿著旁道謹慎踏出的每一步",
+          "options": [
+            "step along",
+            "step upon",
+            "step down"
+          ],
+          "answer": "step along"
+        },
+        {
+          "number": 21,
+          "lineId": "line-15",
+          "prompt": "Yes, there were times, I'm sure you {{blank}}",
+          "promptZh": "是的，有些時候，我相信你知道",
+          "options": [
+            "knew it",
+            "know",
+            "knew"
+          ],
+          "answer": "knew"
+        },
+        {
+          "number": 22,
+          "lineId": "line-16",
+          "prompt": "When I {{blank}} than I could chew",
+          "promptZh": "當我好高騖遠，接下力所不及之事",
+          "options": [
+            "took off more",
+            "bit off more",
+            "bit more"
+          ],
+          "answer": "bit off more"
+        },
+        {
+          "number": 23,
+          "lineId": "line-17",
+          "prompt": "But through it all, {{blank}}",
+          "promptZh": "但經歷這一切，每當有疑慮時",
+          "options": [
+            "when there was fear",
+            "when there was doubt",
+            "when there was pain"
+          ],
+          "answer": "when there was doubt"
+        },
+        {
+          "number": 24,
+          "lineId": "line-18",
+          "prompt": "I ate it up and {{blank}}",
+          "promptZh": "我咬牙吞下，再狠狠吐掉",
+          "options": [
+            "spit it up",
+            "spat it out",
+            "spit it out"
+          ],
+          "answer": "spit it out"
+        },
+        {
+          "number": 25,
+          "lineId": "line-19",
+          "prompt": "I {{blank}} and I 〔第 26 題〕 and did it my way",
+          "promptZh": "我面對了一切，昂首挺立，並用自己的方式做到 了",
+          "options": [
+            "faced it all",
+            "faced it out",
+            "took it all"
+          ],
+          "answer": "faced it all"
+        },
+        {
+          "number": 26,
+          "lineId": "line-19",
+          "prompt": "I 〔第 25 題〕 and I {{blank}} and did it my way",
+          "promptZh": "我面對了一切，昂首挺立，並用自己的方式做到 了",
+          "options": [
+            "stood tall",
+            "stood strong",
+            "stood up tall"
+          ],
+          "answer": "stood tall"
+        },
+        {
+          "number": 27,
+          "lineId": "line-20",
+          "prompt": "I've {{blank}}",
+          "promptZh": "我愛過，我笑過也哭過",
+          "options": [
+            "loved, I've laughed but cried",
+            "loved, laughed and cried",
+            "loved, I've laughed and cried"
+          ],
+          "answer": "loved, I've laughed and cried"
+        },
+        {
+          "number": 28,
+          "lineId": "line-21",
+          "prompt": "I've had my fill, my {{blank}}",
+          "promptZh": "我已心滿意足，也嘗過失敗的滋味",
+          "options": [
+            "share of loss",
+            "share of losing",
+            "part of losing"
+          ],
+          "answer": "share of losing"
+        },
+        {
+          "number": 29,
+          "lineId": "line-22",
+          "prompt": "And now, as {{blank}}",
+          "promptZh": "而現在，當淚水消退",
+          "options": [
+            "tears fall down",
+            "tears subside",
+            "tears subside now"
+          ],
+          "answer": "tears subside"
+        },
+        {
+          "number": 30,
+          "lineId": "line-23",
+          "prompt": "I find it all so {{blank}}",
+          "promptZh": "我覺得這一切如此有趣",
+          "options": [
+            "amusing",
+            "amazing",
+            "confusing"
+          ],
+          "answer": "amusing"
+        },
+        {
+          "number": 31,
+          "lineId": "line-24",
+          "prompt": "To think I {{blank}}",
+          "promptZh": "想想我竟然做了這一切",
+          "options": [
+            "made all that",
+            "did it all",
+            "did all that"
+          ],
+          "answer": "did all that"
+        },
+        {
+          "number": 32,
+          "lineId": "line-25",
+          "prompt": "And may I {{blank}}",
+          "promptZh": "容我直言，毫不靦腆地說",
+          "options": [
+            "say, not in a shy way",
+            "say it not in a shy way",
+            "say, not on a shy way"
+          ],
+          "answer": "say, not in a shy way"
+        },
+        {
+          "number": 33,
+          "lineId": "line-27",
+          "prompt": "For what is a {{blank}}?",
+          "promptZh": "因為人究竟是什麼，他擁有什麼？",
+          "options": [
+            "man, what does he got",
+            "man, what has he got",
+            "man, what has he got now"
+          ],
+          "answer": "man, what has he got"
+        },
+        {
+          "number": 34,
+          "lineId": "line-28",
+          "prompt": "If not himself, then he has {{blank}}",
+          "promptZh": "如果他連自己都沒有，那他就一無所有",
+          "options": [
+            "none",
+            "nothing",
+            "naught"
+          ],
+          "answer": "naught"
+        },
+        {
+          "number": 35,
+          "lineId": "line-29",
+          "prompt": "To say the {{blank}}",
+          "promptZh": "要說出他真心感受的事物",
+          "options": [
+            "things he truly feels",
+            "things he really feels",
+            "words he truly feels"
+          ],
+          "answer": "things he truly feels"
+        },
+        {
+          "number": 36,
+          "lineId": "line-30",
+          "prompt": "And not the {{blank}}",
+          "promptZh": "而不是屈膝臣服者的言語",
+          "options": [
+            "words of one who kneel",
+            "words of someone who kneels",
+            "words of one who kneels"
+          ],
+          "answer": "words of one who kneels"
+        },
+        {
+          "number": 37,
+          "lineId": "line-31",
+          "prompt": "The {{blank}}",
+          "promptZh": "紀錄清清楚楚地顯示",
+          "options": [
+            "records show",
+            "record shows",
+            "record shows that"
+          ],
+          "answer": "record shows"
+        },
+        {
+          "number": 38,
+          "lineId": "line-32",
+          "prompt": "I {{blank}}",
+          "promptZh": "我承受了打擊",
+          "options": [
+            "took the blows",
+            "took the hits",
+            "took the pain"
+          ],
+          "answer": "took the blows"
+        },
+        {
+          "number": 39,
+          "lineId": "line-33",
+          "prompt": "And {{blank}}",
+          "promptZh": "並用自己的方式做到了",
+          "options": [
+            "made it my way",
+            "did it my way",
+            "did it my own way"
+          ],
+          "answer": "did it my way"
+        },
+        {
+          "number": 40,
+          "lineId": "line-34",
+          "prompt": "Yes, it was {{blank}}",
+          "promptZh": "是的，那是我的方式",
+          "options": [
+            "my own way",
+            "the my way",
+            "my way"
+          ],
+          "answer": "my way"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}, the end is {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} the {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}} it clear"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:6}}, {{q:7}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:8}} that's full"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I {{q:9}} and {{q:10}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And more, much more than this, I {{q:11}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:12}}, {{q:13}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "But {{q:14}}, {{q:15}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I {{q:16}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And {{q:17}} {{q:18}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I planned each {{q:19}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Each careful {{q:20}} the byway"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And more, much more than this, I did it my way"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Yes, there were times, I'm sure you {{q:21}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "When I {{q:22}} than I could chew"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "But through it all, {{q:23}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I ate it up and {{q:24}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I {{q:25}} and I {{q:26}} and did it my way"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I've {{q:27}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I've had my fill, my {{q:28}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "And now, as {{q:29}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I find it all so {{q:30}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "To think I {{q:31}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And may I {{q:32}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Oh, no, oh, no, not me, I did it my way"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "For what is a {{q:33}}?"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "If not himself, then he has {{q:34}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "To say the {{q:35}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "And not the {{q:36}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "The {{q:37}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I {{q:38}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And {{q:39}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Yes, it was {{q:40}}"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}}, 〔第 2 題〕",
+          "promptZh": "如今，終點已近",
+          "options": [
+            "And now",
+            "But now",
+            "And so"
+          ],
+          "answer": "And now"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕, {{blank}}",
+          "promptZh": "如今，終點已近",
+          "options": [
+            "the end is here",
+            "the end is near",
+            "the end is clear"
+          ],
+          "answer": "the end is near"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} 〔第 4 題〕",
+          "promptZh": "於是我面對最後的帷幕",
+          "options": [
+            "And now I face",
+            "And so I see",
+            "And so I face"
+          ],
+          "answer": "And so I face"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 {{blank}}",
+          "promptZh": "於是我面對最後的帷幕",
+          "options": [
+            "the final stage",
+            "the final curtain",
+            "the final act"
+          ],
+          "answer": "the final curtain"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "{{blank}} it clear",
+          "promptZh": "我的朋友，我會說得明白",
+          "options": [
+            "My friend, I'll say",
+            "My friend, I will say",
+            "My friend, I'll speak"
+          ],
+          "answer": "My friend, I'll say"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "{{blank}}, 〔第 7 題〕",
+          "promptZh": "我會陳述我的立場，對此我深信不疑",
+          "options": [
+            "I'll make my case",
+            "I will state my case",
+            "I'll state my case"
+          ],
+          "answer": "I'll state my case"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "〔第 6 題〕, {{blank}}",
+          "promptZh": "我會陳述我的立場，對此我深信不疑",
+          "options": [
+            "of which I'm certain",
+            "of that I'm certain",
+            "of which I am certain"
+          ],
+          "answer": "of which I'm certain"
+        },
+        {
+          "number": 8,
+          "lineId": "line-5",
+          "prompt": "{{blank}} that's full",
+          "promptZh": "我已度過充實的一生",
+          "options": [
+            "I have lived a life",
+            "I've lived a life",
+            "I've had a life"
+          ],
+          "answer": "I've lived a life"
+        },
+        {
+          "number": 9,
+          "lineId": "line-6",
+          "prompt": "I {{blank}} and 〔第 10 題〕",
+          "promptZh": "我走遍了每一條康莊大道",
+          "options": [
+            "walked each",
+            "traveled each",
+            "traveled every"
+          ],
+          "answer": "traveled each"
+        },
+        {
+          "number": 10,
+          "lineId": "line-6",
+          "prompt": "I 〔第 9 題〕 and {{blank}}",
+          "promptZh": "我走遍了每一條康莊大道",
+          "options": [
+            "every highway",
+            "each highway",
+            "all highway"
+          ],
+          "answer": "every highway"
+        },
+        {
+          "number": 11,
+          "lineId": "line-7",
+          "prompt": "And more, much more than this, I {{blank}}",
+          "promptZh": "而除此之外，更多更多，我都用自己的方式做 到了",
+          "options": [
+            "did it my own way",
+            "made it my way",
+            "did it my way"
+          ],
+          "answer": "did it my way"
+        },
+        {
+          "number": 12,
+          "lineId": "line-8",
+          "prompt": "{{blank}}, 〔第 13 題〕",
+          "promptZh": "遺憾，我也曾有過一些",
+          "options": [
+            "Regrets",
+            "Sorrows",
+            "Sadness"
+          ],
+          "answer": "Regrets"
+        },
+        {
+          "number": 13,
+          "lineId": "line-8",
+          "prompt": "〔第 12 題〕, {{blank}}",
+          "promptZh": "遺憾，我也曾有過一些",
+          "options": [
+            "I had a few",
+            "I have had a few",
+            "I've had a few"
+          ],
+          "answer": "I've had a few"
+        },
+        {
+          "number": 14,
+          "lineId": "line-9",
+          "prompt": "But {{blank}}, 〔第 15 題〕",
+          "promptZh": "但話說回來，少得不足掛齒",
+          "options": [
+            "then again now",
+            "then again",
+            "then once more"
+          ],
+          "answer": "then again"
+        },
+        {
+          "number": 15,
+          "lineId": "line-9",
+          "prompt": "But 〔第 14 題〕, {{blank}}",
+          "promptZh": "但話說回來，少得不足掛齒",
+          "options": [
+            "so few to mention",
+            "too much to mention",
+            "too few to mention"
+          ],
+          "answer": "too few to mention"
+        },
+        {
+          "number": 16,
+          "lineId": "line-10",
+          "prompt": "I {{blank}} 〔第 17 題〕",
+          "promptZh": "我做了我必須做的事",
+          "options": [
+            "did what I",
+            "never did what I",
+            "always did what I"
+          ],
+          "answer": "did what I"
+        },
+        {
+          "number": 17,
+          "lineId": "line-10",
+          "prompt": "I 〔第 16 題〕 {{blank}}",
+          "promptZh": "我做了我必須做的事",
+          "options": [
+            "had to",
+            "had to do",
+            "must do"
+          ],
+          "answer": "had to do"
+        },
+        {
+          "number": 18,
+          "lineId": "line-11",
+          "prompt": "And {{blank}} 〔第 19 題〕",
+          "promptZh": "並且毫無例外地貫徹到底",
+          "options": [
+            "saw it out",
+            "saw it through",
+            "saw it done"
+          ],
+          "answer": "saw it through"
+        },
+        {
+          "number": 19,
+          "lineId": "line-11",
+          "prompt": "And 〔第 18 題〕 {{blank}}",
+          "promptZh": "並且毫無例外地貫徹到底",
+          "options": [
+            "without a doubt",
+            "without exception",
+            "without exemption"
+          ],
+          "answer": "without exemption"
+        },
+        {
+          "number": 20,
+          "lineId": "line-12",
+          "prompt": "I {{blank}}",
+          "promptZh": "我規劃了每一段既定的路線",
+          "options": [
+            "planned each charted course",
+            "planned out each charted course",
+            "planned every charted course"
+          ],
+          "answer": "planned each charted course"
+        },
+        {
+          "number": 21,
+          "lineId": "line-13",
+          "prompt": "{{blank}} 〔第 22 題〕 the byway",
+          "promptZh": "沿著旁道謹慎踏出的每一步",
+          "options": [
+            "Every careful step",
+            "Each careful step",
+            "Each careful walk"
+          ],
+          "answer": "Each careful step"
+        },
+        {
+          "number": 22,
+          "lineId": "line-13",
+          "prompt": "〔第 21 題〕 {{blank}} the byway",
+          "promptZh": "沿著旁道謹慎踏出的每一步",
+          "options": [
+            "down",
+            "upon",
+            "along"
+          ],
+          "answer": "along"
+        },
+        {
+          "number": 23,
+          "lineId": "line-14",
+          "prompt": "And more, much more than this, I {{blank}}",
+          "promptZh": "而除此之外，更多更多，我都用自己的方式做 到了",
+          "options": [
+            "did it my way",
+            "made it my way",
+            "did it my own way"
+          ],
+          "answer": "did it my way"
+        },
+        {
+          "number": 24,
+          "lineId": "line-15",
+          "prompt": "Yes, there were times, {{blank}}",
+          "promptZh": "是的，有些時候，我相信你知道",
+          "options": [
+            "I'm sure you knew",
+            "I am sure you knew",
+            "I'm sure you know"
+          ],
+          "answer": "I'm sure you knew"
+        },
+        {
+          "number": 25,
+          "lineId": "line-16",
+          "prompt": "When I {{blank}} than I could chew",
+          "promptZh": "當我好高騖遠，接下力所不及之事",
+          "options": [
+            "bit more",
+            "took off more",
+            "bit off more"
+          ],
+          "answer": "bit off more"
+        },
+        {
+          "number": 26,
+          "lineId": "line-17",
+          "prompt": "But through it all, {{blank}}",
+          "promptZh": "但經歷這一切，每當有疑慮時",
+          "options": [
+            "when there was fear",
+            "when there was doubt",
+            "when there was pain"
+          ],
+          "answer": "when there was doubt"
+        },
+        {
+          "number": 27,
+          "lineId": "line-18",
+          "prompt": "{{blank}} and 〔第 28 題〕",
+          "promptZh": "我咬牙吞下，再狠狠吐掉",
+          "options": [
+            "I ate it up",
+            "I ate it all",
+            "I ate it up now"
+          ],
+          "answer": "I ate it up"
+        },
+        {
+          "number": 28,
+          "lineId": "line-18",
+          "prompt": "〔第 27 題〕 and {{blank}}",
+          "promptZh": "我咬牙吞下，再狠狠吐掉",
+          "options": [
+            "spit it up",
+            "spat it out",
+            "spit it out"
+          ],
+          "answer": "spit it out"
+        },
+        {
+          "number": 29,
+          "lineId": "line-19",
+          "prompt": "I {{blank}} and 〔第 30 題〕 and 〔第 31 題〕",
+          "promptZh": "我面對了一切，昂首挺立，並用自己的方式做到 了",
+          "options": [
+            "faced it out",
+            "faced it all",
+            "took it all"
+          ],
+          "answer": "faced it all"
+        },
+        {
+          "number": 30,
+          "lineId": "line-19",
+          "prompt": "I 〔第 29 題〕 and {{blank}} and 〔第 31 題〕",
+          "promptZh": "我面對了一切，昂首挺立，並用自己的方式做到 了",
+          "options": [
+            "I stood so tall",
+            "I stood up tall",
+            "I stood tall"
+          ],
+          "answer": "I stood tall"
+        },
+        {
+          "number": 31,
+          "lineId": "line-19",
+          "prompt": "I 〔第 29 題〕 and 〔第 30 題〕 and {{blank}}",
+          "promptZh": "我面對了一切，昂首挺立，並用自己的方式做到 了",
+          "options": [
+            "made it my way",
+            "did it my way",
+            "did it my own way"
+          ],
+          "answer": "did it my way"
+        },
+        {
+          "number": 32,
+          "lineId": "line-20",
+          "prompt": "I've {{blank}} 〔第 33 題〕",
+          "promptZh": "我愛過，我笑過也哭過",
+          "options": [
+            "loved, I've",
+            "loved, laughed",
+            "never loved, I've"
+          ],
+          "answer": "loved, I've"
+        },
+        {
+          "number": 33,
+          "lineId": "line-20",
+          "prompt": "I've 〔第 32 題〕 {{blank}}",
+          "promptZh": "我愛過，我笑過也哭過",
+          "options": [
+            "laughed but cried",
+            "and cried",
+            "laughed and cried"
+          ],
+          "answer": "laughed and cried"
+        },
+        {
+          "number": 34,
+          "lineId": "line-21",
+          "prompt": "I've had my fill, my {{blank}}",
+          "promptZh": "我已心滿意足，也嘗過失敗的滋味",
+          "options": [
+            "share of loss",
+            "share of losing",
+            "part of losing"
+          ],
+          "answer": "share of losing"
+        },
+        {
+          "number": 35,
+          "lineId": "line-22",
+          "prompt": "{{blank}}, as 〔第 36 題〕",
+          "promptZh": "而現在，當淚水消退",
+          "options": [
+            "And now",
+            "But now",
+            "And so"
+          ],
+          "answer": "And now"
+        },
+        {
+          "number": 36,
+          "lineId": "line-22",
+          "prompt": "〔第 35 題〕, as {{blank}}",
+          "promptZh": "而現在，當淚水消退",
+          "options": [
+            "tears subside",
+            "tears fall down",
+            "tears subside now"
+          ],
+          "answer": "tears subside"
+        },
+        {
+          "number": 37,
+          "lineId": "line-23",
+          "prompt": "I find it all so {{blank}}",
+          "promptZh": "我覺得這一切如此有趣",
+          "options": [
+            "confusing",
+            "amazing",
+            "amusing"
+          ],
+          "answer": "amusing"
+        },
+        {
+          "number": 38,
+          "lineId": "line-24",
+          "prompt": "To think I {{blank}}",
+          "promptZh": "想想我竟然做了這一切",
+          "options": [
+            "did it all",
+            "did all that",
+            "made all that"
+          ],
+          "answer": "did all that"
+        },
+        {
+          "number": 39,
+          "lineId": "line-25",
+          "prompt": "And may I {{blank}} 〔第 40 題〕",
+          "promptZh": "容我直言，毫不靦腆地說",
+          "options": [
+            "say it not",
+            "say, not in",
+            "say, not on"
+          ],
+          "answer": "say, not in"
+        },
+        {
+          "number": 40,
+          "lineId": "line-25",
+          "prompt": "And may I 〔第 39 題〕 {{blank}}",
+          "promptZh": "容我直言，毫不靦腆地說",
+          "options": [
+            "a shy way",
+            "in a shy way",
+            "the shy way"
+          ],
+          "answer": "a shy way"
+        },
+        {
+          "number": 41,
+          "lineId": "line-26",
+          "prompt": "Oh, no, oh, no, not me, I {{blank}}",
+          "promptZh": "噢，不，噢，不，不是我，我用自己的方式做到了",
+          "options": [
+            "did it my own way",
+            "made it my way",
+            "did it my way"
+          ],
+          "answer": "did it my way"
+        },
+        {
+          "number": 42,
+          "lineId": "line-27",
+          "prompt": "For what is a {{blank}} 〔第 43 題〕?",
+          "promptZh": "因為人究竟是什麼，他擁有什麼？",
+          "options": [
+            "man, what",
+            "never man, what",
+            "always man, what"
+          ],
+          "answer": "man, what"
+        },
+        {
+          "number": 43,
+          "lineId": "line-27",
+          "prompt": "For what is a 〔第 42 題〕 {{blank}}?",
+          "promptZh": "因為人究竟是什麼，他擁有什麼？",
+          "options": [
+            "has he got now",
+            "does he got",
+            "has he got"
+          ],
+          "answer": "has he got"
+        },
+        {
+          "number": 44,
+          "lineId": "line-28",
+          "prompt": "If not himself, then he has {{blank}}",
+          "promptZh": "如果他連自己都沒有，那他就一無所有",
+          "options": [
+            "nothing",
+            "naught",
+            "none"
+          ],
+          "answer": "naught"
+        },
+        {
+          "number": 45,
+          "lineId": "line-29",
+          "prompt": "To say the {{blank}}",
+          "promptZh": "要說出他真心感受的事物",
+          "options": [
+            "things he truly feels",
+            "things he really feels",
+            "words he truly feels"
+          ],
+          "answer": "things he truly feels"
+        },
+        {
+          "number": 46,
+          "lineId": "line-30",
+          "prompt": "And not the {{blank}}",
+          "promptZh": "而不是屈膝臣服者的言語",
+          "options": [
+            "words of someone who kneels",
+            "words of one who kneels",
+            "words of one who kneel"
+          ],
+          "answer": "words of one who kneels"
+        },
+        {
+          "number": 47,
+          "lineId": "line-31",
+          "prompt": "The {{blank}}",
+          "promptZh": "紀錄清清楚楚地顯示",
+          "options": [
+            "record shows that",
+            "records show",
+            "record shows"
+          ],
+          "answer": "record shows"
+        },
+        {
+          "number": 48,
+          "lineId": "line-32",
+          "prompt": "I {{blank}}",
+          "promptZh": "我承受了打擊",
+          "options": [
+            "took the pain",
+            "took the hits",
+            "took the blows"
+          ],
+          "answer": "took the blows"
+        },
+        {
+          "number": 49,
+          "lineId": "line-33",
+          "prompt": "And {{blank}}",
+          "promptZh": "並用自己的方式做到了",
+          "options": [
+            "did it my way",
+            "made it my way",
+            "did it my own way"
+          ],
+          "answer": "did it my way"
+        },
+        {
+          "number": 50,
+          "lineId": "line-34",
+          "prompt": "Yes, it was {{blank}}",
+          "promptZh": "是的，那是我的方式",
+          "options": [
+            "the my way",
+            "my way",
+            "my own way"
+          ],
+          "answer": "my way"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}, {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}} it clear"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:6}}, {{q:7}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:8}} that's full"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I {{q:9}} and {{q:10}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And more, much more than this, I {{q:11}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:12}}, {{q:13}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "But {{q:14}}, {{q:15}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I {{q:16}} {{q:17}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And {{q:18}} {{q:19}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I {{q:20}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:21}} {{q:22}} the byway"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And more, much more than this, I {{q:23}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Yes, there were times, {{q:24}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "When I {{q:25}} than I could chew"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "But through it all, {{q:26}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:27}} and {{q:28}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I {{q:29}} and {{q:30}} and {{q:31}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I've {{q:32}} {{q:33}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I've had my fill, my {{q:34}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:35}}, as {{q:36}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I find it all so {{q:37}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "To think I {{q:38}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And may I {{q:39}} {{q:40}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Oh, no, oh, no, not me, I {{q:41}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "For what is a {{q:42}} {{q:43}}?"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "If not himself, then he has {{q:44}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "To say the {{q:45}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "And not the {{q:46}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "The {{q:47}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I {{q:48}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And {{q:49}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Yes, it was {{q:50}}"
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/my-way/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/my-way/cover.webp",
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_My Way_.pdf",
+      "sha256": "dc4bd40989778beed74dc7b7a8c57bdeb8ee58c6119f3b449332abda1f30453a"
+    },
+    "md": {
+      "filename": "My_Way_Vocabulary_Quiz.md",
+      "sha256": "09e97ad5497d746c0cf532a419f2b82e090cfbd5c4c884601df57a25905b5f1c"
+    },
+    "mp3": {
+      "filename": "My Way (2008 Remastered) [qQzdAsjWGPg].mp3",
+      "sha256": "7c19306091aeeda0115520a0f3f00fafffc49d881879b63facb88d862b4d116a"
+    }
+  },
+  "audioAlignment": {
+    "duration": 276.2533125,
+    "audioSha256": "7c19306091aeeda0115520a0f3f00fafffc49d881879b63facb88d862b4d116a",
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "coverage": 0.989010989010989,
+    "timedLines": 33,
+    "untimedLines": [
+      34
+    ],
+    "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  }
+}

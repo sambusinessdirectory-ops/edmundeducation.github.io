@@ -1,0 +1,2595 @@
+{
+  "slug": "imagine",
+  "title": "Imagine",
+  "singer": "John Lennon",
+  "description": "《Imagine》描寫一個沒有戰爭、仇恨與分歧，人人能夠和平共處的理想世界。歌中的主角邀請人們放下國界、宗教與物質財富帶來的隔閡，想像一個不再因利益、信仰或權力而互相傷害的社會。他希望所有人都能珍惜當下，分享世界的資源，以平等、尊重與關懷對待彼此。雖然他明白這樣的理想可能被視為不切實際的夢想，但仍然相信只要更多人願意共同努力，改變便有可能發生。最終，《Imagine》傳達的是和平、團結與人類共同希望的理念：即使世界充滿矛盾與衝突，我們仍然可以透過理解、包容與合作，努力創造一個更加美好、公平與和諧的未來。",
+  "exercise_name": "Imagine · Listening & Vocabulary",
+  "tags": [
+    "john lennon",
+    "imagine",
+    "peace",
+    "hope"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "Imagine there's no heaven",
+      "chinese": "想像一下，如果沒有天堂",
+      "startSeconds": 13.62,
+      "endSeconds": 17.1
+    },
+    {
+      "lineId": "line-2",
+      "english": "It's easy if you try",
+      "chinese": "只要你試試，這很容易",
+      "startSeconds": 17.1,
+      "endSeconds": 23.48
+    },
+    {
+      "lineId": "line-3",
+      "english": "No hell below us",
+      "chinese": "我們腳下沒有地獄",
+      "startSeconds": 26.1,
+      "endSeconds": 32.06
+    },
+    {
+      "lineId": "line-4",
+      "english": "Above us only sky",
+      "chinese": "我們頭頂只有天空",
+      "startSeconds": 32.06,
+      "endSeconds": 36.62
+    },
+    {
+      "lineId": "line-5",
+      "english": "Imagine all the people",
+      "chinese": "想像一下所有的人們",
+      "startSeconds": 38.84,
+      "endSeconds": 43.2
+    },
+    {
+      "lineId": "line-6",
+      "english": "Living for today... Aha-ah...",
+      "chinese": "為今天而活……啊哈——啊……"
+    },
+    {
+      "lineId": "line-7",
+      "english": "Imagine there's no countries",
+      "chinese": "想像一下，如果沒有國界",
+      "startSeconds": 52.22,
+      "endSeconds": 55.56
+    },
+    {
+      "lineId": "line-8",
+      "english": "It isn't hard to do",
+      "chinese": "這並不難做到",
+      "startSeconds": 55.88,
+      "endSeconds": 63.24
+    },
+    {
+      "lineId": "line-9",
+      "english": "Nothing to kill or die for",
+      "chinese": "沒有殺戮，也沒有犧牲",
+      "startSeconds": 63.24,
+      "endSeconds": 69.94
+    },
+    {
+      "lineId": "line-10",
+      "english": "And no religion, too",
+      "chinese": "也沒有宗教",
+      "startSeconds": 70.36,
+      "endSeconds": 74.26
+    },
+    {
+      "lineId": "line-11",
+      "english": "Imagine all the people",
+      "chinese": "想像一下所有的人們",
+      "startSeconds": 77.08,
+      "endSeconds": 81.2
+    },
+    {
+      "lineId": "line-12",
+      "english": "Living life in peace... You...",
+      "chinese": "在和平中生活……你……",
+      "startSeconds": 81.2,
+      "endSeconds": 88.92
+    },
+    {
+      "lineId": "line-13",
+      "english": "You may say I'm a dreamer",
+      "chinese": "你可能會說我是個夢想家"
+    },
+    {
+      "lineId": "line-14",
+      "english": "But I'm not the only one",
+      "chinese": "但我不是唯一的一個",
+      "startSeconds": 96.34,
+      "endSeconds": 100.46
+    },
+    {
+      "lineId": "line-15",
+      "english": "I hope someday you'll join us",
+      "chinese": "我希望有一天你能加入我們",
+      "startSeconds": 102.2,
+      "endSeconds": 107.54
+    },
+    {
+      "lineId": "line-16",
+      "english": "And the world will be as one",
+      "chinese": "而世界將合而為一",
+      "startSeconds": 109.02,
+      "endSeconds": 113.34
+    },
+    {
+      "lineId": "line-17",
+      "english": "Imagine no possessions",
+      "chinese": "想像一下，如果沒有私產",
+      "startSeconds": 115.14,
+      "endSeconds": 118.64
+    },
+    {
+      "lineId": "line-18",
+      "english": "I wonder if you can",
+      "chinese": "我想知道你能否做到",
+      "startSeconds": 121.44,
+      "endSeconds": 125.24
+    },
+    {
+      "lineId": "line-19",
+      "english": "No need for greed or hunger",
+      "chinese": "不再需要貪婪或飢渴",
+      "startSeconds": 127.38,
+      "endSeconds": 131.98
+    },
+    {
+      "lineId": "line-20",
+      "english": "A brotherhood of man",
+      "chinese": "人類皆為兄弟",
+      "startSeconds": 131.98,
+      "endSeconds": 137.56
+    },
+    {
+      "lineId": "line-21",
+      "english": "Imagine all the people",
+      "chinese": "想像一下所有的人們",
+      "startSeconds": 140.1,
+      "endSeconds": 144.42
+    },
+    {
+      "lineId": "line-22",
+      "english": "Sharing all the world... You...",
+      "chinese": "共享整個世界……你……",
+      "startSeconds": 144.42,
+      "endSeconds": 151.94
+    },
+    {
+      "lineId": "line-23",
+      "english": "You may say I'm a dreamer",
+      "chinese": "你可能會說我是個夢想家",
+      "startSeconds": 153.14,
+      "endSeconds": 157.44
+    },
+    {
+      "lineId": "line-24",
+      "english": "But I'm not the only one",
+      "chinese": "但我不是唯一的一個",
+      "startSeconds": 160.14,
+      "endSeconds": 163.32
+    },
+    {
+      "lineId": "line-25",
+      "english": "I hope someday you'll join us",
+      "chinese": "我希望有一天你能加入我們",
+      "startSeconds": 166.14,
+      "endSeconds": 170.62
+    },
+    {
+      "lineId": "line-26",
+      "english": "And the world will live as one",
+      "chinese": "而世界將作為一體存活",
+      "startSeconds": 173.12,
+      "endSeconds": 177.22
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Imagine",
+      "meaning": "想像",
+      "usage": "當你想在腦中想出一個畫面或可能的情況時使用。",
+      "prompt": "哪一句正確使用「Imagine」？",
+      "options": [
+        "I imagine my shoes every morning to make them clean.",
+        "Imagine a cat driving a bus to school.",
+        "Please imagine the door before you leave.",
+        "She imagines to the supermarket every Friday."
+      ],
+      "answer": 1,
+      "explanation": "正確。imagine 後面接一個想像的畫面；貓開公車是一個有趣的想像。",
+      "optionExplanations": [
+        "錯誤。imagine 是「想像」，不能用來表示清潔鞋子；應說 I clean my shoes.",
+        "正確。imagine 後面接一個想像的畫面；貓開公車是一個有趣的想像。",
+        "錯誤。如果要說關門，應用 close the door，而不是 imagine the door。",
+        "錯誤。imagine 不能像 go 一樣直接接 to the supermarket；應說 She goes to the supermarket."
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Give it a try",
+      "meaning": "試試看",
+      "usage": "鼓勵別人嘗試一件事，即使他還不確定能不能成功時使用。",
+      "prompt": "哪一句正確使用「Give it a try」？",
+      "options": [
+        "This soup is new to me, but I will give it a try.",
+        "I give it a try my blue socks.",
+        "She gives it a try at seven years old.",
+        "We give it a try the door with a key."
+      ],
+      "answer": 0,
+      "explanation": "正確。第一次喝這種湯，願意試試看。",
+      "optionExplanations": [
+        "正確。第一次喝這種湯，願意試試看。",
+        "錯誤。give it a try 不是「把東西送出去」；襪子要用 wear 或 give。",
+        "錯誤。這句沒有清楚說要嘗試什麼；若指年齡，應說 She is seven years old。",
+        "錯誤。用鑰匙開門應說 open the door with a key。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Below",
+      "meaning": "在……下面；低於",
+      "usage": "描述位置或數字比較低時使用。",
+      "prompt": "哪一句正確使用「Below」？",
+      "options": [
+        "My brother below basketball on Sundays.",
+        "I below my homework after dinner.",
+        "The picture is below the clock on the wall.",
+        "She drinks below milk for breakfast."
+      ],
+      "answer": 2,
+      "explanation": "正確。below 表示圖片的位置比時鐘低。",
+      "optionExplanations": [
+        "錯誤。below 不是「打球」；應說 My brother plays basketball。",
+        "錯誤。below 不能當作 do（做）使用。",
+        "正確。below 表示圖片的位置比時鐘低。",
+        "錯誤。below 不能用來表示喝牛奶；應說 drinks milk。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Above",
+      "meaning": "在……上方；高於",
+      "usage": "描述某物在另一個東西的上方時使用。",
+      "prompt": "哪一句正確使用「Above」？",
+      "options": [
+        "The bird is flying above the house.",
+        "I above my lunch at school.",
+        "He above to bed at ten.",
+        "We above a new song yesterday."
+      ],
+      "answer": 0,
+      "explanation": "正確。above 表示鳥在房子的上方飛。",
+      "optionExplanations": [
+        "正確。above 表示鳥在房子的上方飛。",
+        "錯誤。above 不能表示「吃」；應說 I eat my lunch。",
+        "錯誤。上床睡覺要用 go to bed。",
+        "錯誤。above 不是「聽」或「唱」；可說 We heard a new song。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Live in peace",
+      "meaning": "和平地生活",
+      "usage": "談論人們沒有戰爭或打鬥、能安心生活的情況時使用。",
+      "prompt": "哪一句正確使用「Live in peace」？",
+      "options": [
+        "I live in peace my school bag every day.",
+        "We hope all people can live in peace.",
+        "We live in peace our dinner at six.",
+        "The children live in peace the bus stop."
+      ],
+      "answer": 1,
+      "explanation": "正確。表示希望所有人都可以和平地生活。",
+      "optionExplanations": [
+        "錯誤。live in peace 是生活狀態，不能表示帶書包。",
+        "正確。表示希望所有人都可以和平地生活。",
+        "錯誤。不能用這個片語表示吃晚餐。",
+        "錯誤。這個片語不能表示「走到公車站」；應用 walk to。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Dreamer",
+      "meaning": "夢想家；愛作夢的人",
+      "usage": "形容一個喜歡想像未來、懷抱夢想的人時使用。",
+      "prompt": "哪一句正確使用「Dreamer」？",
+      "options": [
+        "We dreamer to school by bus.",
+        "Please dreamer the window before you go.",
+        "I put a dreamer in my coffee.",
+        "My sister is a dreamer. She wants to visit the moon one day."
+      ],
+      "answer": 3,
+      "explanation": "正確。她有想去月球的夢想，因此可以稱為 dreamer。",
+      "optionExplanations": [
+        "錯誤。dreamer 不能用作「搭車去」的動詞。",
+        "錯誤。dreamer 是名詞，不是「關窗」的動詞。",
+        "錯誤。dreamer 指人，不是可以加進咖啡的東西。",
+        "正確。她有想去月球的夢想，因此可以稱為 dreamer。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "The only one",
+      "meaning": "唯一的一個",
+      "usage": "當一群人或物當中只有一個符合條件時使用。",
+      "prompt": "哪一句正確使用「The only one」？",
+      "options": [
+        "Tom is the only one in our class with a pet snake.",
+        "I only one my homework after school.",
+        "She is the only one very fast yesterday.",
+        "The only one is raining outside."
+      ],
+      "answer": 0,
+      "explanation": "正確。班上只有 Tom 養寵物蛇。",
+      "optionExplanations": [
+        "正確。班上只有 Tom 養寵物蛇。",
+        "錯誤。the only one 是名詞片語，不能代替 do。",
+        "錯誤。這句後半部缺少合適的動詞；可以說 She was the only one who ran fast。",
+        "錯誤。天氣下雨應說 It is raining outside。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Someday",
+      "meaning": "將來有一天",
+      "usage": "談到希望未來某一天會發生的事，但不知道確切日期時使用。",
+      "prompt": "哪一句正確使用「Someday」？",
+      "options": [
+        "I ate someday for breakfast.",
+        "Someday, I want to learn to fly a plane.",
+        "She put someday on the table.",
+        "My dog is a someday with four legs."
+      ],
+      "answer": 1,
+      "explanation": "正確。表示未來有一天想學開飛機。",
+      "optionExplanations": [
+        "錯誤。someday 是時間副詞，不是食物。",
+        "正確。表示未來有一天想學開飛機。",
+        "錯誤。someday 不是可以放在桌上的物品。",
+        "錯誤。someday 不能當作動物名稱。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Join us",
+      "meaning": "加入我們；和我們一起",
+      "usage": "邀請別人參加活動或加入團體時使用。",
+      "prompt": "哪一句正確使用「Join us」？",
+      "options": [
+        "Please join us the window is blue.",
+        "I join us my toothbrush every day.",
+        "This pizza joins us at eight years old.",
+        "We are playing a game. Do you want to join us?"
+      ],
+      "answer": 3,
+      "explanation": "正確。邀請別人一起玩遊戲。",
+      "optionExplanations": [
+        "錯誤。join us 是邀請加入，不是用來描述窗戶顏色。",
+        "錯誤。刷牙要說 brush my teeth，不能用 join us。",
+        "錯誤。披薩不是人在參加活動，也不能用 at eight years old 形容披薩年齡。",
+        "正確。邀請別人一起玩遊戲。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Share with",
+      "meaning": "與……分享",
+      "usage": "當你把食物、東西、想法或消息跟別人分享時使用。",
+      "prompt": "哪一句正確使用「Share with」？",
+      "options": [
+        "I share with the bed at nine o’clock.",
+        "We share with the sky because it is sunny.",
+        "She shared her cake with her friend.",
+        "He shared with a bicycle to the park."
+      ],
+      "answer": 2,
+      "explanation": "正確。share something with someone 表示和某人分享某物。",
+      "optionExplanations": [
+        "錯誤。這裡想說睡覺，應說 I go to bed at nine。",
+        "錯誤。share with 後面要有分享對象，這裡也沒有清楚說分享什麼。",
+        "正確。share something with someone 表示和某人分享某物。",
+        "錯誤。騎腳踏車去公園應說 He rode a bicycle to the park。"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} there's no heaven",
+          "promptZh": "想像一下，如果沒有天堂",
+          "options": [
+            "Imagine",
+            "Picture",
+            "See"
+          ],
+          "answer": "Imagine"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "It's {{blank}} if you try",
+          "promptZh": "只要你試試，這很容易",
+          "options": [
+            "simple",
+            "easy",
+            "hard"
+          ],
+          "answer": "easy"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "No {{blank}} below us",
+          "promptZh": "我們腳下沒有地獄",
+          "options": [
+            "pain",
+            "heaven",
+            "hell"
+          ],
+          "answer": "hell"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "Above us only {{blank}}",
+          "promptZh": "我們頭頂只有天空",
+          "options": [
+            "sky",
+            "air",
+            "space"
+          ],
+          "answer": "sky"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "Imagine all the {{blank}}",
+          "promptZh": "想像一下所有的人們",
+          "options": [
+            "children",
+            "people",
+            "world"
+          ],
+          "answer": "people"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "Living for {{blank}}... Aha-ah...",
+          "promptZh": "為今天而活……啊哈——啊……",
+          "options": [
+            "now",
+            "tomorrow",
+            "today"
+          ],
+          "answer": "today"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "Imagine there's no {{blank}}",
+          "promptZh": "想像一下，如果沒有國界",
+          "options": [
+            "borders",
+            "countries",
+            "nations"
+          ],
+          "answer": "countries"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "It isn't {{blank}} to do",
+          "promptZh": "這並不難做到",
+          "options": [
+            "hard",
+            "tough",
+            "difficult"
+          ],
+          "answer": "hard"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "Nothing to {{blank}} or die for",
+          "promptZh": "沒有殺戮，也沒有犧牲",
+          "options": [
+            "kill",
+            "fight",
+            "die"
+          ],
+          "answer": "kill"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "And no {{blank}}, too",
+          "promptZh": "也沒有宗教",
+          "options": [
+            "borders",
+            "politics",
+            "religion"
+          ],
+          "answer": "religion"
+        },
+        {
+          "number": 11,
+          "lineId": "line-12",
+          "prompt": "Living life in {{blank}}... You...",
+          "promptZh": "在和平中生活……你……",
+          "options": [
+            "harmony",
+            "peace",
+            "love"
+          ],
+          "answer": "peace"
+        },
+        {
+          "number": 12,
+          "lineId": "line-13",
+          "prompt": "You may say I'm a {{blank}}",
+          "promptZh": "你可能會說我是個夢想家",
+          "options": [
+            "schemer",
+            "believer",
+            "dreamer"
+          ],
+          "answer": "dreamer"
+        },
+        {
+          "number": 13,
+          "lineId": "line-14",
+          "prompt": "But I'm not the {{blank}}",
+          "promptZh": "但我不是唯一的一個",
+          "options": [
+            "only person",
+            "only one",
+            "lone one"
+          ],
+          "answer": "only one"
+        },
+        {
+          "number": 14,
+          "lineId": "line-15",
+          "prompt": "I hope someday you'll {{blank}}",
+          "promptZh": "我希望有一天你能加入我們",
+          "options": [
+            "join us",
+            "see us",
+            "help us"
+          ],
+          "answer": "join us"
+        },
+        {
+          "number": 15,
+          "lineId": "line-16",
+          "prompt": "And the world will be as {{blank}}",
+          "promptZh": "而世界將合而為一",
+          "options": [
+            "free",
+            "two",
+            "one"
+          ],
+          "answer": "one"
+        },
+        {
+          "number": 16,
+          "lineId": "line-17",
+          "prompt": "Imagine no {{blank}}",
+          "promptZh": "想像一下，如果沒有私產",
+          "options": [
+            "religion",
+            "possessions",
+            "countries"
+          ],
+          "answer": "possessions"
+        },
+        {
+          "number": 17,
+          "lineId": "line-18",
+          "prompt": "I {{blank}} if you can",
+          "promptZh": "我想知道你能否做到",
+          "options": [
+            "wonder",
+            "ponder",
+            "question"
+          ],
+          "answer": "wonder"
+        },
+        {
+          "number": 18,
+          "lineId": "line-19",
+          "prompt": "No need for {{blank}} or hunger",
+          "promptZh": "不再需要貪婪或飢渴",
+          "options": [
+            "war",
+            "hate",
+            "greed"
+          ],
+          "answer": "greed"
+        },
+        {
+          "number": 19,
+          "lineId": "line-20",
+          "prompt": "A {{blank}} of man",
+          "promptZh": "人類皆為兄弟",
+          "options": [
+            "brotherhood",
+            "sisterhood",
+            "neighborhood"
+          ],
+          "answer": "brotherhood"
+        },
+        {
+          "number": 20,
+          "lineId": "line-21",
+          "prompt": "Imagine all the {{blank}}",
+          "promptZh": "想像一下所有的人們",
+          "options": [
+            "children",
+            "people",
+            "world"
+          ],
+          "answer": "people"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} there's no heaven"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "It's {{q:2}} if you try"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "No {{q:3}} below us"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Above us only {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Imagine all the {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Living for {{q:6}}... Aha-ah..."
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Imagine there's no {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "It isn't {{q:8}} to do"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Nothing to {{q:9}} or die for"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And no {{q:10}}, too"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Imagine all the people"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Living life in {{q:11}}... You..."
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "You may say I'm a {{q:12}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "But I'm not the {{q:13}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I hope someday you'll {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And the world will be as {{q:15}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Imagine no {{q:16}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I {{q:17}} if you can"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "No need for {{q:18}} or hunger"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "A {{q:19}} of man"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Imagine all the {{q:20}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Sharing all the world... You..."
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You may say I'm a dreamer"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "But I'm not the only one"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I hope someday you'll join us"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "And the world will live as one"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 〔第 2 題〕",
+          "promptZh": "想像一下，如果沒有天堂",
+          "options": [
+            "Imagine that there's no",
+            "Imagine there's no",
+            "Imagine there is no"
+          ],
+          "answer": "Imagine there's no"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 {{blank}}",
+          "promptZh": "想像一下，如果沒有天堂",
+          "options": [
+            "heaven",
+            "hell",
+            "sky"
+          ],
+          "answer": "heaven"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} if you 〔第 4 題〕",
+          "promptZh": "只要你試試，這很容易",
+          "options": [
+            "It is easy",
+            "It's easy",
+            "It was easy"
+          ],
+          "answer": "It's easy"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 if you {{blank}}",
+          "promptZh": "只要你試試，這很容易",
+          "options": [
+            "fly",
+            "cry",
+            "try"
+          ],
+          "answer": "try"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "{{blank}} hell 〔第 6 題〕 us",
+          "promptZh": "我們腳下沒有地獄",
+          "options": [
+            "No",
+            "Not",
+            "None"
+          ],
+          "answer": "No"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "〔第 5 題〕 hell {{blank}} us",
+          "promptZh": "我們腳下沒有地獄",
+          "options": [
+            "beneath",
+            "below",
+            "under"
+          ],
+          "answer": "below"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "Above us {{blank}} 〔第 8 題〕",
+          "promptZh": "我們頭頂只有天空",
+          "options": [
+            "merely",
+            "just",
+            "only"
+          ],
+          "answer": "only"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "Above us 〔第 7 題〕 {{blank}}",
+          "promptZh": "我們頭頂只有天空",
+          "options": [
+            "sky",
+            "air",
+            "space"
+          ],
+          "answer": "sky"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "{{blank}} all the people",
+          "promptZh": "想像一下所有的人們",
+          "options": [
+            "Picture",
+            "Imagine",
+            "See"
+          ],
+          "answer": "Imagine"
+        },
+        {
+          "number": 10,
+          "lineId": "line-6",
+          "prompt": "{{blank}} for today... Aha-ah...",
+          "promptZh": "為今天而活……啊哈——啊……",
+          "options": [
+            "Livin'",
+            "Live",
+            "Living"
+          ],
+          "answer": "Living"
+        },
+        {
+          "number": 11,
+          "lineId": "line-7",
+          "prompt": "{{blank}} countries",
+          "promptZh": "想像一下，如果沒有國界",
+          "options": [
+            "Imagine there's no",
+            "Imagine no",
+            "Imagine there are no"
+          ],
+          "answer": "Imagine there's no"
+        },
+        {
+          "number": 12,
+          "lineId": "line-8",
+          "prompt": "It {{blank}} hard to do",
+          "promptZh": "這並不難做到",
+          "options": [
+            "won't",
+            "wasn't",
+            "isn't"
+          ],
+          "answer": "isn't"
+        },
+        {
+          "number": 13,
+          "lineId": "line-9",
+          "prompt": "{{blank}} to 〔第 14 題〕 or die for",
+          "promptZh": "沒有殺戮，也沒有犧牲",
+          "options": [
+            "None",
+            "Nothing",
+            "never Nothing"
+          ],
+          "answer": "Nothing"
+        },
+        {
+          "number": 14,
+          "lineId": "line-9",
+          "prompt": "〔第 13 題〕 to {{blank}} or die for",
+          "promptZh": "沒有殺戮，也沒有犧牲",
+          "options": [
+            "kill",
+            "fight",
+            "die"
+          ],
+          "answer": "kill"
+        },
+        {
+          "number": 15,
+          "lineId": "line-10",
+          "prompt": "And {{blank}} religion, 〔第 16 題〕",
+          "promptZh": "也沒有宗教",
+          "options": [
+            "not",
+            "no",
+            "none"
+          ],
+          "answer": "no"
+        },
+        {
+          "number": 16,
+          "lineId": "line-10",
+          "prompt": "And 〔第 15 題〕 religion, {{blank}}",
+          "promptZh": "也沒有宗教",
+          "options": [
+            "too",
+            "to",
+            "two"
+          ],
+          "answer": "too"
+        },
+        {
+          "number": 17,
+          "lineId": "line-11",
+          "prompt": "Imagine {{blank}} people",
+          "promptZh": "想像一下所有的人們",
+          "options": [
+            "of the",
+            "all of the",
+            "all the"
+          ],
+          "answer": "all the"
+        },
+        {
+          "number": 18,
+          "lineId": "line-12",
+          "prompt": "Living life {{blank}}... You...",
+          "promptZh": "在和平中生活……你……",
+          "options": [
+            "in harmony",
+            "with peace",
+            "in peace"
+          ],
+          "answer": "in peace"
+        },
+        {
+          "number": 19,
+          "lineId": "line-13",
+          "prompt": "{{blank}} I'm a dreamer",
+          "promptZh": "你可能會說我是個夢想家",
+          "options": [
+            "You might say",
+            "You may say",
+            "You could say"
+          ],
+          "answer": "You may say"
+        },
+        {
+          "number": 20,
+          "lineId": "line-14",
+          "prompt": "{{blank}} the only one",
+          "promptZh": "但我不是唯一的一個",
+          "options": [
+            "But I'm not",
+            "But I am not",
+            "And I'm not"
+          ],
+          "answer": "But I'm not"
+        },
+        {
+          "number": 21,
+          "lineId": "line-15",
+          "prompt": "I hope {{blank}} you'll join us",
+          "promptZh": "我希望有一天你能加入我們",
+          "options": [
+            "one day",
+            "someday",
+            "never someday"
+          ],
+          "answer": "someday"
+        },
+        {
+          "number": 22,
+          "lineId": "line-16",
+          "prompt": "And the world will {{blank}} as one",
+          "promptZh": "而世界將合而為一",
+          "options": [
+            "exist",
+            "live",
+            "be"
+          ],
+          "answer": "be"
+        },
+        {
+          "number": 23,
+          "lineId": "line-17",
+          "prompt": "{{blank}} possessions",
+          "promptZh": "想像一下，如果沒有私產",
+          "options": [
+            "Imagine no",
+            "Imagine not",
+            "Imagine none"
+          ],
+          "answer": "Imagine no"
+        },
+        {
+          "number": 24,
+          "lineId": "line-18",
+          "prompt": "I wonder {{blank}}",
+          "promptZh": "我想知道你能否做到",
+          "options": [
+            "if you could",
+            "if you can",
+            "if you might"
+          ],
+          "answer": "if you can"
+        },
+        {
+          "number": 25,
+          "lineId": "line-19",
+          "prompt": "{{blank}} for 〔第 26 題〕 or hunger",
+          "promptZh": "不再需要貪婪或飢渴",
+          "options": [
+            "No need",
+            "Not need",
+            "Don't need"
+          ],
+          "answer": "No need"
+        },
+        {
+          "number": 26,
+          "lineId": "line-19",
+          "prompt": "〔第 25 題〕 for {{blank}} or hunger",
+          "promptZh": "不再需要貪婪或飢渴",
+          "options": [
+            "war",
+            "hate",
+            "greed"
+          ],
+          "answer": "greed"
+        },
+        {
+          "number": 27,
+          "lineId": "line-20",
+          "prompt": "A {{blank}} of 〔第 28 題〕",
+          "promptZh": "人類皆為兄弟",
+          "options": [
+            "brotherhood",
+            "sisterhood",
+            "neighborhood"
+          ],
+          "answer": "brotherhood"
+        },
+        {
+          "number": 28,
+          "lineId": "line-20",
+          "prompt": "A 〔第 27 題〕 of {{blank}}",
+          "promptZh": "人類皆為兄弟",
+          "options": [
+            "men",
+            "man",
+            "men and women"
+          ],
+          "answer": "man"
+        },
+        {
+          "number": 29,
+          "lineId": "line-21",
+          "prompt": "{{blank}} all the people",
+          "promptZh": "想像一下所有的人們",
+          "options": [
+            "See",
+            "Picture",
+            "Imagine"
+          ],
+          "answer": "Imagine"
+        },
+        {
+          "number": 30,
+          "lineId": "line-22",
+          "prompt": "{{blank}} all the world... You...",
+          "promptZh": "共享整個世界……你……",
+          "options": [
+            "Shared",
+            "Share",
+            "Sharing"
+          ],
+          "answer": "Sharing"
+        },
+        {
+          "number": 31,
+          "lineId": "line-23",
+          "prompt": "{{blank}} I'm a dreamer",
+          "promptZh": "你可能會說我是個夢想家",
+          "options": [
+            "You might say",
+            "You may say",
+            "You could say"
+          ],
+          "answer": "You may say"
+        },
+        {
+          "number": 32,
+          "lineId": "line-24",
+          "prompt": "{{blank}} the only one",
+          "promptZh": "但我不是唯一的一個",
+          "options": [
+            "But I'm not",
+            "But I am not",
+            "And I'm not"
+          ],
+          "answer": "But I'm not"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} if you {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}} hell {{q:6}} us"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Above us {{q:7}} {{q:8}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:9}} all the people"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:10}} for today... Aha-ah..."
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:11}} countries"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "It {{q:12}} hard to do"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:13}} to {{q:14}} or die for"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And {{q:15}} religion, {{q:16}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Imagine {{q:17}} people"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Living life {{q:18}}... You..."
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:19}} I'm a dreamer"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:20}} the only one"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I hope {{q:21}} you'll join us"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And the world will {{q:22}} as one"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:23}} possessions"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I wonder {{q:24}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:25}} for {{q:26}} or hunger"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "A {{q:27}} of {{q:28}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:29}} all the people"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:30}} all the world... You..."
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:31}} I'm a dreamer"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:32}} the only one"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I hope someday you'll join us"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "And the world will live as one"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 〔第 2 題〕",
+          "promptZh": "想像一下，如果沒有天堂",
+          "options": [
+            "Imagine there's",
+            "Imagine there",
+            "Imagine no"
+          ],
+          "answer": "Imagine there's"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 {{blank}}",
+          "promptZh": "想像一下，如果沒有天堂",
+          "options": [
+            "heaven",
+            "is no heaven",
+            "no heaven"
+          ],
+          "answer": "no heaven"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} 〔第 4 題〕",
+          "promptZh": "只要你試試，這很容易",
+          "options": [
+            "It is",
+            "It's easy",
+            "never It's easy"
+          ],
+          "answer": "It's easy"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 {{blank}}",
+          "promptZh": "只要你試試，這很容易",
+          "options": [
+            "if you try",
+            "easy if you try",
+            "if you tried"
+          ],
+          "answer": "if you try"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "{{blank}}",
+          "promptZh": "我們腳下沒有地獄",
+          "options": [
+            "There's no hell below us",
+            "No hell beneath us",
+            "No hell below us"
+          ],
+          "answer": "No hell below us"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "{{blank}}",
+          "promptZh": "我們頭頂只有天空",
+          "options": [
+            "Above us just sky",
+            "Above us only sky",
+            "Above us only the sky"
+          ],
+          "answer": "Above us only sky"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "{{blank}}",
+          "promptZh": "想像一下所有的人們",
+          "options": [
+            "Imagine all the people",
+            "Imagine all of the people",
+            "Imagine all the people now"
+          ],
+          "answer": "Imagine all the people"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "{{blank}}... Aha-ah...",
+          "promptZh": "為今天而活……啊哈——啊……",
+          "options": [
+            "Living for the day",
+            "Living for today",
+            "Living from today"
+          ],
+          "answer": "Living for today"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "{{blank}}",
+          "promptZh": "想像一下，如果沒有國界",
+          "options": [
+            "Imagine no countries",
+            "Imagine there are no countries",
+            "Imagine there's no countries"
+          ],
+          "answer": "Imagine there's no countries"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "{{blank}} 〔第 11 題〕",
+          "promptZh": "這並不難做到",
+          "options": [
+            "It isn't",
+            "It is",
+            "never It isn't"
+          ],
+          "answer": "It isn't"
+        },
+        {
+          "number": 11,
+          "lineId": "line-8",
+          "prompt": "〔第 10 題〕 {{blank}}",
+          "promptZh": "這並不難做到",
+          "options": [
+            "hard to do now",
+            "not hard to do",
+            "hard to do"
+          ],
+          "answer": "hard to do"
+        },
+        {
+          "number": 12,
+          "lineId": "line-9",
+          "prompt": "{{blank}} or die for",
+          "promptZh": "沒有殺戮，也沒有犧牲",
+          "options": [
+            "Nothing to fight",
+            "Nothing to kill",
+            "Nothing to die"
+          ],
+          "answer": "Nothing to kill"
+        },
+        {
+          "number": 13,
+          "lineId": "line-10",
+          "prompt": "{{blank}} 〔第 14 題〕",
+          "promptZh": "也沒有宗教",
+          "options": [
+            "And",
+            "But",
+            "So"
+          ],
+          "answer": "And"
+        },
+        {
+          "number": 14,
+          "lineId": "line-10",
+          "prompt": "〔第 13 題〕 {{blank}}",
+          "promptZh": "也沒有宗教",
+          "options": [
+            "no religion, two",
+            "no religion to",
+            "no religion, too"
+          ],
+          "answer": "no religion, too"
+        },
+        {
+          "number": 15,
+          "lineId": "line-11",
+          "prompt": "{{blank}}",
+          "promptZh": "想像一下所有的人們",
+          "options": [
+            "Imagine all of the people",
+            "Imagine all the people",
+            "Imagine the people"
+          ],
+          "answer": "Imagine all the people"
+        },
+        {
+          "number": 16,
+          "lineId": "line-12",
+          "prompt": "{{blank}}... You...",
+          "promptZh": "在和平中生活……你……",
+          "options": [
+            "Living life in peace",
+            "Living a life in peace",
+            "Live life in peace"
+          ],
+          "answer": "Living life in peace"
+        },
+        {
+          "number": 17,
+          "lineId": "line-13",
+          "prompt": "{{blank}} 〔第 18 題〕",
+          "promptZh": "你可能會說我是個夢想家",
+          "options": [
+            "we may say",
+            "You might say",
+            "You may say"
+          ],
+          "answer": "You may say"
+        },
+        {
+          "number": 18,
+          "lineId": "line-13",
+          "prompt": "〔第 17 題〕 {{blank}}",
+          "promptZh": "你可能會說我是個夢想家",
+          "options": [
+            "that I'm a dreamer",
+            "I'm a dreamer",
+            "I'm the dreamer"
+          ],
+          "answer": "I'm a dreamer"
+        },
+        {
+          "number": 19,
+          "lineId": "line-14",
+          "prompt": "{{blank}} 〔第 20 題〕",
+          "promptZh": "但我不是唯一的一個",
+          "options": [
+            "But I'm not",
+            "But I am",
+            "And I'm not"
+          ],
+          "answer": "But I'm not"
+        },
+        {
+          "number": 20,
+          "lineId": "line-14",
+          "prompt": "〔第 19 題〕 {{blank}}",
+          "promptZh": "但我不是唯一的一個",
+          "options": [
+            "a only one",
+            "not the only one",
+            "the only one"
+          ],
+          "answer": "the only one"
+        },
+        {
+          "number": 21,
+          "lineId": "line-15",
+          "prompt": "{{blank}} 〔第 22 題〕",
+          "promptZh": "我希望有一天你能加入我們",
+          "options": [
+            "I hope one",
+            "I hope someday",
+            "never I hope"
+          ],
+          "answer": "I hope someday"
+        },
+        {
+          "number": 22,
+          "lineId": "line-15",
+          "prompt": "〔第 21 題〕 {{blank}}",
+          "promptZh": "我希望有一天你能加入我們",
+          "options": [
+            "you'll join us",
+            "day you'll join us",
+            "someday you'll join us"
+          ],
+          "answer": "you'll join us"
+        },
+        {
+          "number": 23,
+          "lineId": "line-16",
+          "prompt": "{{blank}} 〔第 24 題〕",
+          "promptZh": "而世界將合而為一",
+          "options": [
+            "but the world",
+            "And the world",
+            "And a world"
+          ],
+          "answer": "And the world"
+        },
+        {
+          "number": 24,
+          "lineId": "line-16",
+          "prompt": "〔第 23 題〕 {{blank}}",
+          "promptZh": "而世界將合而為一",
+          "options": [
+            "will be one",
+            "will live as one",
+            "will be as one"
+          ],
+          "answer": "will be as one"
+        },
+        {
+          "number": 25,
+          "lineId": "line-17",
+          "prompt": "{{blank}}",
+          "promptZh": "想像一下，如果沒有私產",
+          "options": [
+            "Imagine no possessions",
+            "Imagine not possessions",
+            "Imagine none possessions"
+          ],
+          "answer": "Imagine no possessions"
+        },
+        {
+          "number": 26,
+          "lineId": "line-18",
+          "prompt": "{{blank}} 〔第 27 題〕",
+          "promptZh": "我想知道你能否做到",
+          "options": [
+            "never I wonder",
+            "I wonder",
+            "always I wonder"
+          ],
+          "answer": "I wonder"
+        },
+        {
+          "number": 27,
+          "lineId": "line-18",
+          "prompt": "〔第 26 題〕 {{blank}}",
+          "promptZh": "我想知道你能否做到",
+          "options": [
+            "if you might",
+            "if you could",
+            "if you can"
+          ],
+          "answer": "if you can"
+        },
+        {
+          "number": 28,
+          "lineId": "line-19",
+          "prompt": "{{blank}} 〔第 29 題〕",
+          "promptZh": "不再需要貪婪或飢渴",
+          "options": [
+            "No need for",
+            "No need from",
+            "never No need for"
+          ],
+          "answer": "No need for"
+        },
+        {
+          "number": 29,
+          "lineId": "line-19",
+          "prompt": "〔第 28 題〕 {{blank}}",
+          "promptZh": "不再需要貪婪或飢渴",
+          "options": [
+            "greed and hunger",
+            "greed or hunger",
+            "hate or hunger"
+          ],
+          "answer": "greed or hunger"
+        },
+        {
+          "number": 30,
+          "lineId": "line-20",
+          "prompt": "{{blank}}",
+          "promptZh": "人類皆為兄弟",
+          "options": [
+            "A brotherhood of man",
+            "A brotherhood of men",
+            "The brotherhood of man"
+          ],
+          "answer": "A brotherhood of man"
+        },
+        {
+          "number": 31,
+          "lineId": "line-21",
+          "prompt": "{{blank}}",
+          "promptZh": "想像一下所有的人們",
+          "options": [
+            "Imagine the people",
+            "Imagine all of the people",
+            "Imagine all the people"
+          ],
+          "answer": "Imagine all the people"
+        },
+        {
+          "number": 32,
+          "lineId": "line-22",
+          "prompt": "{{blank}}... You...",
+          "promptZh": "共享整個世界……你……",
+          "options": [
+            "Sharing the world",
+            "Sharing all the world",
+            "Sharing all world"
+          ],
+          "answer": "Sharing all the world"
+        },
+        {
+          "number": 33,
+          "lineId": "line-23",
+          "prompt": "{{blank}} 〔第 34 題〕",
+          "promptZh": "你可能會說我是個夢想家",
+          "options": [
+            "we may say",
+            "You might say",
+            "You may say"
+          ],
+          "answer": "You may say"
+        },
+        {
+          "number": 34,
+          "lineId": "line-23",
+          "prompt": "〔第 33 題〕 {{blank}}",
+          "promptZh": "你可能會說我是個夢想家",
+          "options": [
+            "I'm a dreamer",
+            "that I'm a dreamer",
+            "I'm the dreamer"
+          ],
+          "answer": "I'm a dreamer"
+        },
+        {
+          "number": 35,
+          "lineId": "line-24",
+          "prompt": "{{blank}} 〔第 36 題〕",
+          "promptZh": "但我不是唯一的一個",
+          "options": [
+            "And I'm not",
+            "But I am",
+            "But I'm not"
+          ],
+          "answer": "But I'm not"
+        },
+        {
+          "number": 36,
+          "lineId": "line-24",
+          "prompt": "〔第 35 題〕 {{blank}}",
+          "promptZh": "但我不是唯一的一個",
+          "options": [
+            "not the only one",
+            "the only one",
+            "a only one"
+          ],
+          "answer": "the only one"
+        },
+        {
+          "number": 37,
+          "lineId": "line-25",
+          "prompt": "{{blank}} 〔第 38 題〕",
+          "promptZh": "我希望有一天你能加入我們",
+          "options": [
+            "I hope someday",
+            "I hope one",
+            "never I hope"
+          ],
+          "answer": "I hope someday"
+        },
+        {
+          "number": 38,
+          "lineId": "line-25",
+          "prompt": "〔第 37 題〕 {{blank}}",
+          "promptZh": "我希望有一天你能加入我們",
+          "options": [
+            "you'll join us",
+            "day you'll join us",
+            "someday you'll join us"
+          ],
+          "answer": "you'll join us"
+        },
+        {
+          "number": 39,
+          "lineId": "line-26",
+          "prompt": "{{blank}} 〔第 40 題〕",
+          "promptZh": "而世界將作為一體存活",
+          "options": [
+            "And a world",
+            "but the world",
+            "And the world"
+          ],
+          "answer": "And the world"
+        },
+        {
+          "number": 40,
+          "lineId": "line-26",
+          "prompt": "〔第 39 題〕 {{blank}}",
+          "promptZh": "而世界將作為一體存活",
+          "options": [
+            "will be as one",
+            "will live as one",
+            "will live as two"
+          ],
+          "answer": "will live as one"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:8}}... Aha-ah..."
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:9}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:10}} {{q:11}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:12}} or die for"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:13}} {{q:14}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:15}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:16}}... You..."
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:17}} {{q:18}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:19}} {{q:20}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:21}} {{q:22}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:23}} {{q:24}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:26}} {{q:27}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:28}} {{q:29}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:30}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:31}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:32}}... You..."
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:33}} {{q:34}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:35}} {{q:36}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:37}} {{q:38}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:39}} {{q:40}}"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 〔第 2 題〕",
+          "promptZh": "想像一下，如果沒有天堂",
+          "options": [
+            "Imagine there's",
+            "Imagine there",
+            "Imagine no"
+          ],
+          "answer": "Imagine there's"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 {{blank}}",
+          "promptZh": "想像一下，如果沒有天堂",
+          "options": [
+            "is no heaven",
+            "no heaven",
+            "heaven"
+          ],
+          "answer": "no heaven"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} 〔第 4 題〕",
+          "promptZh": "只要你試試，這很容易",
+          "options": [
+            "It's easy",
+            "It is",
+            "never It's easy"
+          ],
+          "answer": "It's easy"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 {{blank}}",
+          "promptZh": "只要你試試，這很容易",
+          "options": [
+            "if you tried",
+            "easy if you try",
+            "if you try"
+          ],
+          "answer": "if you try"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "{{blank}} 〔第 6 題〕",
+          "promptZh": "我們腳下沒有地獄",
+          "options": [
+            "There's no",
+            "No hell",
+            "never No hell"
+          ],
+          "answer": "No hell"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "〔第 5 題〕 {{blank}}",
+          "promptZh": "我們腳下沒有地獄",
+          "options": [
+            "beneath us",
+            "below us",
+            "hell below us"
+          ],
+          "answer": "below us"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "{{blank}} 〔第 8 題〕",
+          "promptZh": "我們頭頂只有天空",
+          "options": [
+            "Above us",
+            "never Above us",
+            "always Above us"
+          ],
+          "answer": "Above us"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "〔第 7 題〕 {{blank}}",
+          "promptZh": "我們頭頂只有天空",
+          "options": [
+            "only the sky",
+            "just sky",
+            "only sky"
+          ],
+          "answer": "only sky"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "{{blank}} 〔第 10 題〕",
+          "promptZh": "想像一下所有的人們",
+          "options": [
+            "always Imagine all",
+            "never Imagine all",
+            "Imagine all"
+          ],
+          "answer": "Imagine all"
+        },
+        {
+          "number": 10,
+          "lineId": "line-5",
+          "prompt": "〔第 9 題〕 {{blank}}",
+          "promptZh": "想像一下所有的人們",
+          "options": [
+            "the people",
+            "of the people",
+            "the people now"
+          ],
+          "answer": "the people"
+        },
+        {
+          "number": 11,
+          "lineId": "line-6",
+          "prompt": "{{blank}}... Aha-ah...",
+          "promptZh": "為今天而活……啊哈——啊……",
+          "options": [
+            "Living for the day",
+            "Living for today",
+            "Living from today"
+          ],
+          "answer": "Living for today"
+        },
+        {
+          "number": 12,
+          "lineId": "line-7",
+          "prompt": "{{blank}} 〔第 13 題〕",
+          "promptZh": "想像一下，如果沒有國界",
+          "options": [
+            "Imagine no",
+            "Imagine there",
+            "Imagine there's"
+          ],
+          "answer": "Imagine there's"
+        },
+        {
+          "number": 13,
+          "lineId": "line-7",
+          "prompt": "〔第 12 題〕 {{blank}}",
+          "promptZh": "想像一下，如果沒有國界",
+          "options": [
+            "are no countries",
+            "no countries",
+            "countries"
+          ],
+          "answer": "no countries"
+        },
+        {
+          "number": 14,
+          "lineId": "line-8",
+          "prompt": "{{blank}} 〔第 15 題〕",
+          "promptZh": "這並不難做到",
+          "options": [
+            "It isn't",
+            "It is",
+            "never It isn't"
+          ],
+          "answer": "It isn't"
+        },
+        {
+          "number": 15,
+          "lineId": "line-8",
+          "prompt": "〔第 14 題〕 {{blank}}",
+          "promptZh": "這並不難做到",
+          "options": [
+            "hard to do now",
+            "not hard to do",
+            "hard to do"
+          ],
+          "answer": "hard to do"
+        },
+        {
+          "number": 16,
+          "lineId": "line-9",
+          "prompt": "{{blank}} or die for",
+          "promptZh": "沒有殺戮，也沒有犧牲",
+          "options": [
+            "Nothing to fight",
+            "Nothing to kill",
+            "Nothing to die"
+          ],
+          "answer": "Nothing to kill"
+        },
+        {
+          "number": 17,
+          "lineId": "line-10",
+          "prompt": "{{blank}} 〔第 18 題〕",
+          "promptZh": "也沒有宗教",
+          "options": [
+            "And",
+            "But",
+            "So"
+          ],
+          "answer": "And"
+        },
+        {
+          "number": 18,
+          "lineId": "line-10",
+          "prompt": "〔第 17 題〕 {{blank}}",
+          "promptZh": "也沒有宗教",
+          "options": [
+            "no religion, two",
+            "no religion to",
+            "no religion, too"
+          ],
+          "answer": "no religion, too"
+        },
+        {
+          "number": 19,
+          "lineId": "line-11",
+          "prompt": "{{blank}} 〔第 20 題〕",
+          "promptZh": "想像一下所有的人們",
+          "options": [
+            "Imagine all",
+            "Imagine the",
+            "never Imagine all"
+          ],
+          "answer": "Imagine all"
+        },
+        {
+          "number": 20,
+          "lineId": "line-11",
+          "prompt": "〔第 19 題〕 {{blank}}",
+          "promptZh": "想像一下所有的人們",
+          "options": [
+            "of the people",
+            "the people",
+            "people"
+          ],
+          "answer": "the people"
+        },
+        {
+          "number": 21,
+          "lineId": "line-12",
+          "prompt": "{{blank}} 〔第 22 題〕... You...",
+          "promptZh": "在和平中生活……你……",
+          "options": [
+            "Live life",
+            "Living a",
+            "Living life"
+          ],
+          "answer": "Living life"
+        },
+        {
+          "number": 22,
+          "lineId": "line-12",
+          "prompt": "〔第 21 題〕 {{blank}}... You...",
+          "promptZh": "在和平中生活……你……",
+          "options": [
+            "in peace",
+            "life in peace",
+            "on peace"
+          ],
+          "answer": "in peace"
+        },
+        {
+          "number": 23,
+          "lineId": "line-13",
+          "prompt": "{{blank}} 〔第 24 題〕",
+          "promptZh": "你可能會說我是個夢想家",
+          "options": [
+            "You might say",
+            "You may say",
+            "we may say"
+          ],
+          "answer": "You may say"
+        },
+        {
+          "number": 24,
+          "lineId": "line-13",
+          "prompt": "〔第 23 題〕 {{blank}}",
+          "promptZh": "你可能會說我是個夢想家",
+          "options": [
+            "I'm a dreamer",
+            "that I'm a dreamer",
+            "I'm the dreamer"
+          ],
+          "answer": "I'm a dreamer"
+        },
+        {
+          "number": 25,
+          "lineId": "line-14",
+          "prompt": "{{blank}} 〔第 26 題〕",
+          "promptZh": "但我不是唯一的一個",
+          "options": [
+            "And I'm not",
+            "But I am",
+            "But I'm not"
+          ],
+          "answer": "But I'm not"
+        },
+        {
+          "number": 26,
+          "lineId": "line-14",
+          "prompt": "〔第 25 題〕 {{blank}}",
+          "promptZh": "但我不是唯一的一個",
+          "options": [
+            "not the only one",
+            "the only one",
+            "a only one"
+          ],
+          "answer": "the only one"
+        },
+        {
+          "number": 27,
+          "lineId": "line-15",
+          "prompt": "{{blank}} 〔第 28 題〕",
+          "promptZh": "我希望有一天你能加入我們",
+          "options": [
+            "never I hope",
+            "I hope one",
+            "I hope someday"
+          ],
+          "answer": "I hope someday"
+        },
+        {
+          "number": 28,
+          "lineId": "line-15",
+          "prompt": "〔第 27 題〕 {{blank}}",
+          "promptZh": "我希望有一天你能加入我們",
+          "options": [
+            "day you'll join us",
+            "you'll join us",
+            "someday you'll join us"
+          ],
+          "answer": "you'll join us"
+        },
+        {
+          "number": 29,
+          "lineId": "line-16",
+          "prompt": "{{blank}} 〔第 30 題〕 〔第 31 題〕",
+          "promptZh": "而世界將合而為一",
+          "options": [
+            "And the world",
+            "but the world",
+            "And a world"
+          ],
+          "answer": "And the world"
+        },
+        {
+          "number": 30,
+          "lineId": "line-16",
+          "prompt": "〔第 29 題〕 {{blank}} 〔第 31 題〕",
+          "promptZh": "而世界將合而為一",
+          "options": [
+            "will live",
+            "will be",
+            "would be"
+          ],
+          "answer": "will be"
+        },
+        {
+          "number": 31,
+          "lineId": "line-16",
+          "prompt": "〔第 29 題〕 〔第 30 題〕 {{blank}}",
+          "promptZh": "而世界將合而為一",
+          "options": [
+            "as one",
+            "one",
+            "never as one"
+          ],
+          "answer": "as one"
+        },
+        {
+          "number": 32,
+          "lineId": "line-17",
+          "prompt": "{{blank}}",
+          "promptZh": "想像一下，如果沒有私產",
+          "options": [
+            "Imagine none possessions",
+            "Imagine not possessions",
+            "Imagine no possessions"
+          ],
+          "answer": "Imagine no possessions"
+        },
+        {
+          "number": 33,
+          "lineId": "line-18",
+          "prompt": "{{blank}} 〔第 34 題〕",
+          "promptZh": "我想知道你能否做到",
+          "options": [
+            "always I wonder",
+            "never I wonder",
+            "I wonder"
+          ],
+          "answer": "I wonder"
+        },
+        {
+          "number": 34,
+          "lineId": "line-18",
+          "prompt": "〔第 33 題〕 {{blank}}",
+          "promptZh": "我想知道你能否做到",
+          "options": [
+            "if you could",
+            "if you can",
+            "if you might"
+          ],
+          "answer": "if you can"
+        },
+        {
+          "number": 35,
+          "lineId": "line-19",
+          "prompt": "{{blank}} 〔第 36 題〕",
+          "promptZh": "不再需要貪婪或飢渴",
+          "options": [
+            "No need for",
+            "No need from",
+            "never No need for"
+          ],
+          "answer": "No need for"
+        },
+        {
+          "number": 36,
+          "lineId": "line-19",
+          "prompt": "〔第 35 題〕 {{blank}}",
+          "promptZh": "不再需要貪婪或飢渴",
+          "options": [
+            "greed or hunger",
+            "greed and hunger",
+            "hate or hunger"
+          ],
+          "answer": "greed or hunger"
+        },
+        {
+          "number": 37,
+          "lineId": "line-20",
+          "prompt": "{{blank}} 〔第 38 題〕",
+          "promptZh": "人類皆為兄弟",
+          "options": [
+            "never A brotherhood",
+            "The brotherhood",
+            "A brotherhood"
+          ],
+          "answer": "A brotherhood"
+        },
+        {
+          "number": 38,
+          "lineId": "line-20",
+          "prompt": "〔第 37 題〕 {{blank}}",
+          "promptZh": "人類皆為兄弟",
+          "options": [
+            "of men",
+            "of man",
+            "with man"
+          ],
+          "answer": "of man"
+        },
+        {
+          "number": 39,
+          "lineId": "line-21",
+          "prompt": "{{blank}} 〔第 40 題〕",
+          "promptZh": "想像一下所有的人們",
+          "options": [
+            "Imagine all",
+            "Imagine the",
+            "never Imagine all"
+          ],
+          "answer": "Imagine all"
+        },
+        {
+          "number": 40,
+          "lineId": "line-21",
+          "prompt": "〔第 39 題〕 {{blank}}",
+          "promptZh": "想像一下所有的人們",
+          "options": [
+            "of the people",
+            "the people",
+            "people"
+          ],
+          "answer": "the people"
+        },
+        {
+          "number": 41,
+          "lineId": "line-22",
+          "prompt": "{{blank}} 〔第 42 題〕... You...",
+          "promptZh": "共享整個世界……你……",
+          "options": [
+            "never Sharing all",
+            "Sharing the",
+            "Sharing all"
+          ],
+          "answer": "Sharing all"
+        },
+        {
+          "number": 42,
+          "lineId": "line-22",
+          "prompt": "〔第 41 題〕 {{blank}}... You...",
+          "promptZh": "共享整個世界……你……",
+          "options": [
+            "a world",
+            "world",
+            "the world"
+          ],
+          "answer": "the world"
+        },
+        {
+          "number": 43,
+          "lineId": "line-23",
+          "prompt": "{{blank}} 〔第 44 題〕",
+          "promptZh": "你可能會說我是個夢想家",
+          "options": [
+            "You may say",
+            "You might say",
+            "we may say"
+          ],
+          "answer": "You may say"
+        },
+        {
+          "number": 44,
+          "lineId": "line-23",
+          "prompt": "〔第 43 題〕 {{blank}}",
+          "promptZh": "你可能會說我是個夢想家",
+          "options": [
+            "that I'm a dreamer",
+            "I'm a dreamer",
+            "I'm the dreamer"
+          ],
+          "answer": "I'm a dreamer"
+        },
+        {
+          "number": 45,
+          "lineId": "line-24",
+          "prompt": "{{blank}} 〔第 46 題〕",
+          "promptZh": "但我不是唯一的一個",
+          "options": [
+            "And I'm not",
+            "But I am",
+            "But I'm not"
+          ],
+          "answer": "But I'm not"
+        },
+        {
+          "number": 46,
+          "lineId": "line-24",
+          "prompt": "〔第 45 題〕 {{blank}}",
+          "promptZh": "但我不是唯一的一個",
+          "options": [
+            "the only one",
+            "not the only one",
+            "a only one"
+          ],
+          "answer": "the only one"
+        },
+        {
+          "number": 47,
+          "lineId": "line-25",
+          "prompt": "{{blank}} 〔第 48 題〕",
+          "promptZh": "我希望有一天你能加入我們",
+          "options": [
+            "I hope one",
+            "I hope someday",
+            "never I hope"
+          ],
+          "answer": "I hope someday"
+        },
+        {
+          "number": 48,
+          "lineId": "line-25",
+          "prompt": "〔第 47 題〕 {{blank}}",
+          "promptZh": "我希望有一天你能加入我們",
+          "options": [
+            "you'll join us",
+            "day you'll join us",
+            "someday you'll join us"
+          ],
+          "answer": "you'll join us"
+        },
+        {
+          "number": 49,
+          "lineId": "line-26",
+          "prompt": "{{blank}} 〔第 50 題〕",
+          "promptZh": "而世界將作為一體存活",
+          "options": [
+            "And a world",
+            "but the world",
+            "And the world"
+          ],
+          "answer": "And the world"
+        },
+        {
+          "number": 50,
+          "lineId": "line-26",
+          "prompt": "〔第 49 題〕 {{blank}}",
+          "promptZh": "而世界將作為一體存活",
+          "options": [
+            "will be as one",
+            "will live as one",
+            "will live as two"
+          ],
+          "answer": "will live as one"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}} {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:7}} {{q:8}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:9}} {{q:10}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:11}}... Aha-ah..."
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:12}} {{q:13}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:14}} {{q:15}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:16}} or die for"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:17}} {{q:18}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:19}} {{q:20}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:21}} {{q:22}}... You..."
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:23}} {{q:24}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:25}} {{q:26}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:27}} {{q:28}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:29}} {{q:30}} {{q:31}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:33}} {{q:34}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:35}} {{q:36}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:37}} {{q:38}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:39}} {{q:40}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:41}} {{q:42}}... You..."
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:43}} {{q:44}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:45}} {{q:46}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:47}} {{q:48}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:49}} {{q:50}}"
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/imagine/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/imagine/cover.webp",
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Imagine_.pdf",
+      "sha256": "c6d6f0fd340d95a08185e0e5dd9cf36be7ccfa2dd3d97e9eb7e1c233b6bec4c3"
+    },
+    "md": {
+      "filename": "Imagine_Vocabulary_Quiz.md",
+      "sha256": "88c5594c20519e4c5daf2ed10e3958319f6232e339af4ccccc87b93f58002df9"
+    },
+    "mp3": {
+      "filename": "Imagine (Remastered 2010) [rAn-AWXtHv0].mp3",
+      "sha256": "b59238e49b2243b7ce23d4a9e3980fe8f36979d1c42a6a633e92e32abfe5fe22"
+    }
+  },
+  "audioAlignment": {
+    "duration": 187.8666875,
+    "audioSha256": "b59238e49b2243b7ce23d4a9e3980fe8f36979d1c42a6a633e92e32abfe5fe22",
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "coverage": 0.9595959595959596,
+    "timedLines": 24,
+    "untimedLines": [
+      6,
+      13
+    ],
+    "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  }
+}

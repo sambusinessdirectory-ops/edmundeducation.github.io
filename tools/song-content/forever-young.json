@@ -1,0 +1,2778 @@
+{
+  "slug": "forever-young",
+  "title": "Forever Young",
+  "singer": "Alphaville",
+  "description": "《Forever Young》描寫對青春、生命與時間流逝的感慨，以及渴望永遠保持年輕的心情。歌中的主角面對充滿戰爭威脅與不確定性的世界，既希望未來美好，又害怕生命隨時結束。他明白青春短暫，人生無法永遠停留在最燦爛的時刻，因此更加珍惜眼前的自由、夢想與冒險。歌曲亦反思人們對永生的渴望，以及在歲月流逝中尋找人生意義的重要。最終，《Forever Young》傳達的是對青春的珍惜、對未來的希望與對生命無常的思考：真正的年輕不只是外表與年齡，而是即使面對未知與改變，仍然保持夢想、熱情與勇敢生活的心。",
+  "exercise_name": "Forever Young · Listening & Vocabulary",
+  "tags": [
+    "alphaville",
+    "forever young",
+    "youth",
+    "time"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "Let's dance in style, let's dance for a while",
+      "chinese": "讓我們姿態翩翩地起舞，跳上一會兒",
+      "startSeconds": 14.52,
+      "endSeconds": 17.9
+    },
+    {
+      "lineId": "line-2",
+      "english": "Heaven can wait, we're only watching the skies",
+      "chinese": "天堂可以等，我們只是仰望天空",
+      "startSeconds": 17.9,
+      "endSeconds": 21.32
+    },
+    {
+      "lineId": "line-3",
+      "english": "Hoping for the best but expecting the worst",
+      "chinese": "抱最好的希望，做最壞的打算",
+      "startSeconds": 21.32,
+      "endSeconds": 24.7
+    },
+    {
+      "lineId": "line-4",
+      "english": "Are you gonna drop the bomb or not?",
+      "chinese": "你到底要不要投下那顆炸彈？",
+      "startSeconds": 24.7,
+      "endSeconds": 26.9
+    },
+    {
+      "lineId": "line-5",
+      "english": "Let us die young or let us live forever",
+      "chinese": "讓我們英年早逝，或讓我們永生不死",
+      "startSeconds": 29.02,
+      "endSeconds": 31.96
+    },
+    {
+      "lineId": "line-6",
+      "english": "We don't have the power but we never say never",
+      "chinese": "我們沒有權力，但我們從不說絕不",
+      "startSeconds": 31.96,
+      "endSeconds": 35.5
+    },
+    {
+      "lineId": "line-7",
+      "english": "Sitting in a sandpit, life is a short trip",
+      "chinese": "坐在沙坑裡，人生是趟短暫的旅程",
+      "startSeconds": 35.5,
+      "endSeconds": 39.2
+    },
+    {
+      "lineId": "line-8",
+      "english": "The music's for the sad men",
+      "chinese": "這音樂是為悲傷的人們而奏",
+      "startSeconds": 39.2,
+      "endSeconds": 41.66
+    },
+    {
+      "lineId": "line-9",
+      "english": "Can you imagine when this race is won",
+      "chinese": "你能想像當這場競賽獲勝時",
+      "startSeconds": 42.52,
+      "endSeconds": 45.66
+    },
+    {
+      "lineId": "line-10",
+      "english": "Turn our golden faces into the sun",
+      "chinese": "將我們金色的容顏迎向太陽"
+    },
+    {
+      "lineId": "line-11",
+      "english": "Praising our leaders, we're getting in tune",
+      "chinese": "讚美著我們的領袖，我們逐漸步上正軌",
+      "startSeconds": 49.7,
+      "endSeconds": 52.66
+    },
+    {
+      "lineId": "line-12",
+      "english": "The music's played by the, the mad men",
+      "chinese": "這音樂是由那些，那些狂人所演奏",
+      "startSeconds": 52.66,
+      "endSeconds": 56.2
+    },
+    {
+      "lineId": "line-13",
+      "english": "Forever young, I want to be forever young",
+      "chinese": "永遠年輕，我想永遠年輕",
+      "startSeconds": 56.36,
+      "endSeconds": 61.76
+    },
+    {
+      "lineId": "line-14",
+      "english": "Do you really want to live forever, forever and ever?",
+      "chinese": "你真的想永遠活下去嗎，永遠永遠？",
+      "startSeconds": 63.44,
+      "endSeconds": 69.26
+    },
+    {
+      "lineId": "line-15",
+      "english": "Forever young, I want to be forever young",
+      "chinese": "永遠年輕，我想永遠年輕",
+      "startSeconds": 70.7,
+      "endSeconds": 75.82
+    },
+    {
+      "lineId": "line-16",
+      "english": "Do you really want to live forever? Forever young",
+      "chinese": "你真的想永遠活下去嗎？永遠年輕",
+      "startSeconds": 77.38,
+      "endSeconds": 85.0
+    },
+    {
+      "lineId": "line-17",
+      "english": "Some are like water, some are like the heat",
+      "chinese": "有些人如水般，有些人如熱浪",
+      "startSeconds": 88.43,
+      "endSeconds": 91.2
+    },
+    {
+      "lineId": "line-18",
+      "english": "Some are a melody and some are the beat",
+      "chinese": "有些人是旋律，有些人是節拍",
+      "startSeconds": 91.2,
+      "endSeconds": 94.92
+    },
+    {
+      "lineId": "line-19",
+      "english": "Sooner or later, they all will be gone",
+      "chinese": "遲早，他們都會消逝",
+      "startSeconds": 95.66,
+      "endSeconds": 98.32
+    },
+    {
+      "lineId": "line-20",
+      "english": "Why don't they stay young?",
+      "chinese": "為什麼他們不能保持年輕？",
+      "startSeconds": 98.32,
+      "endSeconds": 100.28
+    },
+    {
+      "lineId": "line-21",
+      "english": "It's so hard to get old without a cause",
+      "chinese": "毫無意義地老去是如此艱難",
+      "startSeconds": 102.08,
+      "endSeconds": 105.12
+    },
+    {
+      "lineId": "line-22",
+      "english": "I don't want to perish like a fading horse",
+      "chinese": "我不想如褪色的老馬般殞落",
+      "startSeconds": 105.66,
+      "endSeconds": 108.78
+    },
+    {
+      "lineId": "line-23",
+      "english": "Youth's like diamonds in the sun",
+      "chinese": "青春宛如陽光下的鑽石",
+      "startSeconds": 108.78,
+      "endSeconds": 112.04
+    },
+    {
+      "lineId": "line-24",
+      "english": "And diamonds are forever",
+      "chinese": "而鑽石是永恆的",
+      "startSeconds": 112.04,
+      "endSeconds": 114.42
+    },
+    {
+      "lineId": "line-25",
+      "english": "So many adventures couldn't happen today",
+      "chinese": "今天有太多冒險無法發生"
+    },
+    {
+      "lineId": "line-26",
+      "english": "So many songs we forgot to play",
+      "chinese": "有太多歌曲我們忘了去演奏",
+      "startSeconds": 119.56,
+      "endSeconds": 122.7
+    },
+    {
+      "lineId": "line-27",
+      "english": "So many dreams swinging out of the blue",
+      "chinese": "有太多夢想自虛空中搖曳而來",
+      "startSeconds": 122.7,
+      "endSeconds": 126.46
+    },
+    {
+      "lineId": "line-28",
+      "english": "We let them come true",
+      "chinese": "我們讓它們成真",
+      "startSeconds": 126.46,
+      "endSeconds": 129.26
+    },
+    {
+      "lineId": "line-29",
+      "english": "Forever young, I want to be forever young",
+      "chinese": "永遠年輕，我想永遠年輕",
+      "startSeconds": 130.1,
+      "endSeconds": 135.4
+    },
+    {
+      "lineId": "line-30",
+      "english": "Do you really want to live forever, forever and ever?",
+      "chinese": "你真的想永遠活下去嗎，永遠永遠？",
+      "startSeconds": 136.38,
+      "endSeconds": 143.44
+    },
+    {
+      "lineId": "line-31",
+      "english": "Forever young, I want to be forever young",
+      "chinese": "永遠年輕，我想永遠年輕",
+      "startSeconds": 144.0,
+      "endSeconds": 149.44
+    },
+    {
+      "lineId": "line-32",
+      "english": "Do you really want to live forever, forever and ever?",
+      "chinese": "你真的想永遠活下去嗎，永遠永遠？",
+      "startSeconds": 149.44,
+      "endSeconds": 156.5
+    },
+    {
+      "lineId": "line-33",
+      "english": "Forever young, I want to be forever young",
+      "chinese": "永遠年輕，我想永遠年輕",
+      "startSeconds": 156.5,
+      "endSeconds": 163.88
+    },
+    {
+      "lineId": "line-34",
+      "english": "Do you really want to live forever?",
+      "chinese": "你真的想永遠活下去嗎？"
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "For a while",
+      "meaning": "一會兒、一段短時間",
+      "usage": "想說某件事持續了一段不太長的時間時使用。",
+      "prompt": "哪一句正確使用了「For a while」？",
+      "options": [
+        "I bought for a while at the shop.",
+        "We sat in the park for a while and then went home.",
+        "My dog is a for a while.",
+        "Please put the for a while on the table."
+      ],
+      "answer": 1,
+      "explanation": "正確：for a while 表示一段時間，這裡是坐了一會兒。",
+      "optionExplanations": [
+        "錯誤：買東西要說 bought something，for a while 不能當商品。",
+        "正確：for a while 表示一段時間，這裡是坐了一會兒。",
+        "錯誤：for a while 是時間片語，不是動物的名字。",
+        "錯誤：for a while 不是可以放在桌上的東西。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Hope for the best",
+      "meaning": "抱持最好的希望",
+      "usage": "不確定結果時，仍希望事情有好結果。",
+      "prompt": "哪一句正確使用了「Hope for the best」？",
+      "options": [
+        "The test was hard, but I hope for the best.",
+        "I hope for the best my sandwich.",
+        "I hope for the best at seven o’clock yesterday.",
+        "She hopes for the best to open the window."
+      ],
+      "answer": 0,
+      "explanation": "正確：考試雖然難，仍希望有好結果。",
+      "optionExplanations": [
+        "正確：考試雖然難，仍希望有好結果。",
+        "錯誤：hope for the best 不能直接接 my sandwich 表示吃三明治。",
+        "錯誤：昨天的事應用過去式 hoped，且這裡的時間搭配不自然。",
+        "錯誤：這個片語不是表示開窗戶的方法。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Expect the worst",
+      "meaning": "預想最壞的情況",
+      "usage": "當結果不確定，先做好可能出問題的心理準備。",
+      "prompt": "哪一句正確使用了「Expect the worst」？",
+      "options": [
+        "I expect the worst my phone in my bag.",
+        "The worst expects my breakfast every morning.",
+        "It may rain on our trip, so we expect the worst.",
+        "Please expect the worst under the chair."
+      ],
+      "answer": 2,
+      "explanation": "正確：可能遇上下雨，因此先想到不好的情況。",
+      "optionExplanations": [
+        "錯誤：expect the worst 不是把手機放進包包的意思。",
+        "錯誤：the worst 不是會期待早餐的人。",
+        "正確：可能遇上下雨，因此先想到不好的情況。",
+        "錯誤：這是想法，不是可以放在椅子下的物品。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Never say never",
+      "meaning": "不要把話說死；不要認定絕不可能",
+      "usage": "鼓勵別人保持開放心態，未來可能會改變。",
+      "prompt": "哪一句正確使用了「Never say never」？",
+      "options": [
+        "Never say never is my new blue bag.",
+        "I never say never my homework yesterday.",
+        "She never say never a pizza for lunch.",
+        "I may try dancing one day. Never say never!"
+      ],
+      "answer": 3,
+      "explanation": "正確：表示現在不一定會跳舞，但將來有可能。",
+      "optionExplanations": [
+        "錯誤：這是勸人的說法，不是包包。",
+        "錯誤：不能直接把這個完整說法當動詞接 homework。",
+        "錯誤：句型不通，也不能拿來表示吃披薩。",
+        "正確：表示現在不一定會跳舞，但將來有可能。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Imagine",
+      "meaning": "想像",
+      "usage": "想在腦中描繪一個沒有發生或不在眼前的情況時使用。",
+      "prompt": "哪一句正確使用了「Imagine」？",
+      "options": [
+        "Can you imagine living on the moon?",
+        "I imagine to the bus stop at eight.",
+        "Please imagine the door with your key.",
+        "She imagines a sandwich to sleep."
+      ],
+      "answer": 0,
+      "explanation": "正確：imagine 後可接動名詞，表示想像住在月球上。",
+      "optionExplanations": [
+        "正確：imagine 後可接動名詞，表示想像住在月球上。",
+        "錯誤：這裡要用 go to the bus stop，imagine 不能直接代替 go。",
+        "錯誤：用鑰匙開門要說 open 或 unlock，不是 imagine。",
+        "錯誤：想像與讓三明治睡覺沒有合理的用法。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Get in tune",
+      "meaning": "合上音調；變得協調",
+      "usage": "唱歌、演奏時音準正確，或大家慢慢變得有默契時使用。",
+      "prompt": "哪一句正確使用了「Get in tune」？",
+      "options": [
+        "I get in tune my shoes before school.",
+        "The singers practise so they can get in tune.",
+        "My cat gets in tune a glass of milk.",
+        "We got in tune the bus at the next stop."
+      ],
+      "answer": 1,
+      "explanation": "正確：歌手練習，讓音調合得起來。",
+      "optionExplanations": [
+        "錯誤：get in tune 不能用來表示穿鞋。",
+        "正確：歌手練習，讓音調合得起來。",
+        "錯誤：這個片語不表示喝牛奶。",
+        "錯誤：搭公車應說 get on the bus，不是 get in tune。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Sooner or later",
+      "meaning": "遲早、總有一天",
+      "usage": "認為某件事情早晚會發生，但不知道確切時間。",
+      "prompt": "哪一句正確使用了「Sooner or later」？",
+      "options": [
+        "Keep practising. Sooner or later, you will get better.",
+        "Sooner or later is sitting next to my teacher.",
+        "I put sooner or later in my lunchbox.",
+        "She bought two sooner or laters at the store."
+      ],
+      "answer": 0,
+      "explanation": "正確：表示持續練習後，總有一天會進步。",
+      "optionExplanations": [
+        "正確：表示持續練習後，總有一天會進步。",
+        "錯誤：這個片語不是人，不能坐在老師旁邊。",
+        "錯誤：它是時間副詞片語，不是食物。",
+        "錯誤：不能把它當可數的商品。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Out of the blue",
+      "meaning": "突然地、出乎意料地",
+      "usage": "事情沒有預告就突然發生時使用。",
+      "prompt": "哪一句正確使用了「Out of the blue」？",
+      "options": [
+        "I painted the sky out of the blue with a spoon.",
+        "Out of the blue, my old friend called me.",
+        "Please put your shoes out of the blue.",
+        "My brother wears out of the blue to school."
+      ],
+      "answer": 1,
+      "explanation": "正確：老朋友突然打電話來，讓人意想不到。",
+      "optionExplanations": [
+        "錯誤：out of the blue 不是指拿藍色顏料畫天空。",
+        "正確：老朋友突然打電話來，讓人意想不到。",
+        "錯誤：這裡不是指一個能放鞋子的地點。",
+        "錯誤：這不是衣服名稱。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Come true",
+      "meaning": "（願望、夢想）成真",
+      "usage": "希望或夢想真的實現時使用。",
+      "prompt": "哪一句正確使用了「Come true」？",
+      "options": [
+        "Please come true the kitchen and wash your hands.",
+        "I came true my bike to school.",
+        "My dream of visiting Japan came true last year.",
+        "He comes true a banana every morning."
+      ],
+      "answer": 2,
+      "explanation": "正確：旅行夢想真的實現了。",
+      "optionExplanations": [
+        "錯誤：進廚房要說 come into the kitchen。",
+        "錯誤：騎腳踏車應說 rode my bike；come true 不是交通動詞。",
+        "正確：旅行夢想真的實現了。",
+        "錯誤：吃香蕉要用 eats；come true 不能表示吃東西。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Live forever",
+      "meaning": "永遠活著",
+      "usage": "談到永生、長久存在，或用誇張方式表達永遠不消失時使用。",
+      "prompt": "哪一句正確使用了「Live forever」？",
+      "options": [
+        "I live forever my homework at six.",
+        "We live forever to the cinema by bus.",
+        "She lives forever a cup of tea on the table.",
+        "No one can live forever, so enjoy today."
+      ],
+      "answer": 3,
+      "explanation": "正確：live forever 表示永遠活著。",
+      "optionExplanations": [
+        "錯誤：不能用 live forever 表示做功課。",
+        "錯誤：搭車去電影院要說 go to the cinema。",
+        "錯誤：放一杯茶要說 puts a cup of tea。",
+        "正確：live forever 表示永遠活著。"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Let's dance in {{blank}}, let's dance for a while",
+          "promptZh": "讓我們姿態翩翩地起舞，跳上一會兒",
+          "options": [
+            "space",
+            "style",
+            "time"
+          ],
+          "answer": "style"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Heaven can wait, we're only {{blank}}",
+          "promptZh": "天堂可以等，我們只是仰望天空",
+          "options": [
+            "watching the skies",
+            "looking at skies",
+            "watching the sky"
+          ],
+          "answer": "watching the skies"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "Hoping for the best but {{blank}}",
+          "promptZh": "抱最好的希望，做最壞的打算",
+          "options": [
+            "expecting the best",
+            "expecting the worst",
+            "wanting the worst"
+          ],
+          "answer": "expecting the worst"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "Are you gonna {{blank}} or not?",
+          "promptZh": "你到底要不要投下那顆炸彈？",
+          "options": [
+            "drop the ball",
+            "drop the beat",
+            "drop the bomb"
+          ],
+          "answer": "drop the bomb"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "Let us die young or let us {{blank}}",
+          "promptZh": "讓我們英年早逝，或讓我們永生不死",
+          "options": [
+            "live forever",
+            "live together",
+            "live for now"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "We don't have the power but we {{blank}}",
+          "promptZh": "我們沒有權力，但我們從不說絕不",
+          "options": [
+            "never say no",
+            "never say never",
+            "always say never"
+          ],
+          "answer": "never say never"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "Sitting in a sandpit, life is a {{blank}}",
+          "promptZh": "坐在沙坑裡，人生是趟短暫的旅程",
+          "options": [
+            "quick trip",
+            "long trip",
+            "short trip"
+          ],
+          "answer": "short trip"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "The music's for the {{blank}}",
+          "promptZh": "這音樂是為悲傷的人們而奏",
+          "options": [
+            "sad men",
+            "mad men",
+            "old men"
+          ],
+          "answer": "sad men"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "Can you imagine when this {{blank}}",
+          "promptZh": "你能想像當這場競賽獲勝時",
+          "options": [
+            "race is won",
+            "game is won",
+            "race is run"
+          ],
+          "answer": "race is won"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "Turn our {{blank}} into the sun",
+          "promptZh": "將我們金色的容顏迎向太陽",
+          "options": [
+            "happy faces",
+            "golden eyes",
+            "golden faces"
+          ],
+          "answer": "golden faces"
+        },
+        {
+          "number": 11,
+          "lineId": "line-11",
+          "prompt": "Praising our leaders, we're {{blank}}",
+          "promptZh": "讚美著我們的領袖，我們逐漸步上正軌",
+          "options": [
+            "getting in line",
+            "getting in tune",
+            "singing in tune"
+          ],
+          "answer": "getting in tune"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "The music's played by the, the {{blank}}",
+          "promptZh": "這音樂是由那些，那些狂人所演奏",
+          "options": [
+            "sad men",
+            "mad men",
+            "old men"
+          ],
+          "answer": "mad men"
+        },
+        {
+          "number": 13,
+          "lineId": "line-13",
+          "prompt": "{{blank}}, I want to be forever young",
+          "promptZh": "永遠年輕，我想永遠年輕",
+          "options": [
+            "Forever young",
+            "Forever strong",
+            "Forever free"
+          ],
+          "answer": "Forever young"
+        },
+        {
+          "number": 14,
+          "lineId": "line-14",
+          "prompt": "Do you really want to live forever, {{blank}}?",
+          "promptZh": "你真的想永遠活下去嗎，永遠永遠？",
+          "options": [
+            "ever and ever",
+            "forever and a day",
+            "forever and ever"
+          ],
+          "answer": "forever and ever"
+        },
+        {
+          "number": 15,
+          "lineId": "line-15",
+          "prompt": "Forever young, I {{blank}} forever young",
+          "promptZh": "永遠年輕，我想永遠年輕",
+          "options": [
+            "wanna be",
+            "want to be",
+            "need to be"
+          ],
+          "answer": "want to be"
+        },
+        {
+          "number": 16,
+          "lineId": "line-16",
+          "prompt": "Do you really want to {{blank}}? Forever young",
+          "promptZh": "你真的想永遠活下去嗎？永遠年輕",
+          "options": [
+            "live forever",
+            "live together",
+            "last forever"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 17,
+          "lineId": "line-17",
+          "prompt": "Some are like {{blank}}, some are like the heat",
+          "promptZh": "有些人如水般，有些人如熱浪",
+          "options": [
+            "wind",
+            "fire",
+            "water"
+          ],
+          "answer": "water"
+        },
+        {
+          "number": 18,
+          "lineId": "line-18",
+          "prompt": "Some are a melody and some are the {{blank}}",
+          "promptZh": "有些人是旋律，有些人是節拍",
+          "options": [
+            "tune",
+            "rhythm",
+            "beat"
+          ],
+          "answer": "beat"
+        },
+        {
+          "number": 19,
+          "lineId": "line-19",
+          "prompt": "{{blank}}, they all will be gone",
+          "promptZh": "遲早，他們都會消逝",
+          "options": [
+            "Sooner or later",
+            "Sooner or after",
+            "Later or sooner"
+          ],
+          "answer": "Sooner or later"
+        },
+        {
+          "number": 20,
+          "lineId": "line-20",
+          "prompt": "Why don't they {{blank}}?",
+          "promptZh": "為什麼他們不能保持年輕？",
+          "options": [
+            "get young",
+            "stay young",
+            "be young"
+          ],
+          "answer": "stay young"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Let's dance in {{q:1}}, let's dance for a while"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Heaven can wait, we're only {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Hoping for the best but {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Are you gonna {{q:4}} or not?"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Let us die young or let us {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "We don't have the power but we {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Sitting in a sandpit, life is a {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "The music's for the {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Can you imagine when this {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Turn our {{q:10}} into the sun"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Praising our leaders, we're {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "The music's played by the, the {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:13}}, I want to be forever young"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Do you really want to live forever, {{q:14}}?"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Forever young, I {{q:15}} forever young"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Do you really want to {{q:16}}? Forever young"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Some are like {{q:17}}, some are like the heat"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Some are a melody and some are the {{q:18}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:19}}, they all will be gone"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Why don't they {{q:20}}?"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "It's so hard to get old without a cause"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I don't want to perish like a fading horse"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Youth's like diamonds in the sun"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And diamonds are forever"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "So many adventures couldn't happen today"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "So many songs we forgot to play"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "So many dreams swinging out of the blue"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "We let them come true"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Forever young, I want to be forever young"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Do you really want to live forever, forever and ever?"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Forever young, I want to be forever young"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Do you really want to live forever, forever and ever?"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Forever young, I want to be forever young"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Do you really want to live forever?"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Let's dance in {{blank}}, let's dance for a while",
+          "promptZh": "讓我們姿態翩翩地起舞，跳上一會兒",
+          "options": [
+            "space",
+            "style",
+            "time"
+          ],
+          "answer": "style"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Heaven can wait, we're only {{blank}}",
+          "promptZh": "天堂可以等，我們只是仰望天空",
+          "options": [
+            "watching the skies",
+            "looking at skies",
+            "watching the sky"
+          ],
+          "answer": "watching the skies"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "Hoping for the best but {{blank}}",
+          "promptZh": "抱最好的希望，做最壞的打算",
+          "options": [
+            "expecting the worst",
+            "expecting the best",
+            "wanting the worst"
+          ],
+          "answer": "expecting the worst"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "Are you gonna {{blank}} or not?",
+          "promptZh": "你到底要不要投下那顆炸彈？",
+          "options": [
+            "drop the ball",
+            "drop the beat",
+            "drop the bomb"
+          ],
+          "answer": "drop the bomb"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "Let us die young or let us {{blank}}",
+          "promptZh": "讓我們英年早逝，或讓我們永生不死",
+          "options": [
+            "live together",
+            "live forever",
+            "live for now"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "We don't have the power but we {{blank}}",
+          "promptZh": "我們沒有權力，但我們從不說絕不",
+          "options": [
+            "always say never",
+            "never say no",
+            "never say never"
+          ],
+          "answer": "never say never"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "Sitting in a sandpit, life is a {{blank}}",
+          "promptZh": "坐在沙坑裡，人生是趟短暫的旅程",
+          "options": [
+            "long trip",
+            "short trip",
+            "quick trip"
+          ],
+          "answer": "short trip"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "The music's for the {{blank}}",
+          "promptZh": "這音樂是為悲傷的人們而奏",
+          "options": [
+            "sad men",
+            "mad men",
+            "old men"
+          ],
+          "answer": "sad men"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "Can you imagine when this {{blank}}",
+          "promptZh": "你能想像當這場競賽獲勝時",
+          "options": [
+            "race is won",
+            "game is won",
+            "race is run"
+          ],
+          "answer": "race is won"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "Turn our {{blank}} into the sun",
+          "promptZh": "將我們金色的容顏迎向太陽",
+          "options": [
+            "happy faces",
+            "golden eyes",
+            "golden faces"
+          ],
+          "answer": "golden faces"
+        },
+        {
+          "number": 11,
+          "lineId": "line-11",
+          "prompt": "Praising our leaders, we're {{blank}}",
+          "promptZh": "讚美著我們的領袖，我們逐漸步上正軌",
+          "options": [
+            "getting in line",
+            "getting in tune",
+            "singing in tune"
+          ],
+          "answer": "getting in tune"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "The music's played by the, the {{blank}}",
+          "promptZh": "這音樂是由那些，那些狂人所演奏",
+          "options": [
+            "mad men",
+            "sad men",
+            "old men"
+          ],
+          "answer": "mad men"
+        },
+        {
+          "number": 13,
+          "lineId": "line-13",
+          "prompt": "{{blank}}, I want to be forever young",
+          "promptZh": "永遠年輕，我想永遠年輕",
+          "options": [
+            "Forever strong",
+            "Forever young",
+            "Forever free"
+          ],
+          "answer": "Forever young"
+        },
+        {
+          "number": 14,
+          "lineId": "line-14",
+          "prompt": "Do you really want to live forever, {{blank}}?",
+          "promptZh": "你真的想永遠活下去嗎，永遠永遠？",
+          "options": [
+            "ever and ever",
+            "forever and a day",
+            "forever and ever"
+          ],
+          "answer": "forever and ever"
+        },
+        {
+          "number": 15,
+          "lineId": "line-15",
+          "prompt": "Forever young, I {{blank}} forever young",
+          "promptZh": "永遠年輕，我想永遠年輕",
+          "options": [
+            "want to be",
+            "wanna be",
+            "need to be"
+          ],
+          "answer": "want to be"
+        },
+        {
+          "number": 16,
+          "lineId": "line-16",
+          "prompt": "Do you really want to {{blank}}? Forever young",
+          "promptZh": "你真的想永遠活下去嗎？永遠年輕",
+          "options": [
+            "last forever",
+            "live together",
+            "live forever"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 17,
+          "lineId": "line-17",
+          "prompt": "Some are like {{blank}}, some are like the heat",
+          "promptZh": "有些人如水般，有些人如熱浪",
+          "options": [
+            "fire",
+            "water",
+            "wind"
+          ],
+          "answer": "water"
+        },
+        {
+          "number": 18,
+          "lineId": "line-18",
+          "prompt": "Some are a melody and some are the {{blank}}",
+          "promptZh": "有些人是旋律，有些人是節拍",
+          "options": [
+            "beat",
+            "rhythm",
+            "tune"
+          ],
+          "answer": "beat"
+        },
+        {
+          "number": 19,
+          "lineId": "line-19",
+          "prompt": "{{blank}}, they all will be gone",
+          "promptZh": "遲早，他們都會消逝",
+          "options": [
+            "Sooner or after",
+            "Sooner or later",
+            "Later or sooner"
+          ],
+          "answer": "Sooner or later"
+        },
+        {
+          "number": 20,
+          "lineId": "line-20",
+          "prompt": "Why don't they {{blank}}?",
+          "promptZh": "為什麼他們不能保持年輕？",
+          "options": [
+            "be young",
+            "get young",
+            "stay young"
+          ],
+          "answer": "stay young"
+        },
+        {
+          "number": 21,
+          "lineId": "line-21",
+          "prompt": "It's so hard to get old {{blank}}",
+          "promptZh": "毫無意義地老去是如此艱難",
+          "options": [
+            "without a reason",
+            "without a cause",
+            "without a point"
+          ],
+          "answer": "without a cause"
+        },
+        {
+          "number": 22,
+          "lineId": "line-22",
+          "prompt": "I don't want to perish like a {{blank}}",
+          "promptZh": "我不想如褪色的老馬般殞落",
+          "options": [
+            "fading horse",
+            "falling horse",
+            "dying horse"
+          ],
+          "answer": "fading horse"
+        },
+        {
+          "number": 23,
+          "lineId": "line-23",
+          "prompt": "Youth's like {{blank}} in the sun",
+          "promptZh": "青春宛如陽光下的鑽石",
+          "options": [
+            "stars",
+            "gold",
+            "diamonds"
+          ],
+          "answer": "diamonds"
+        },
+        {
+          "number": 24,
+          "lineId": "line-24",
+          "prompt": "And diamonds are {{blank}}",
+          "promptZh": "而鑽石是永恆的",
+          "options": [
+            "lasting",
+            "eternal",
+            "forever"
+          ],
+          "answer": "forever"
+        },
+        {
+          "number": 25,
+          "lineId": "line-25",
+          "prompt": "So many {{blank}} couldn't happen today",
+          "promptZh": "今天有太多冒險無法發生",
+          "options": [
+            "adventures",
+            "things",
+            "wonders"
+          ],
+          "answer": "adventures"
+        },
+        {
+          "number": 26,
+          "lineId": "line-26",
+          "prompt": "So many songs we {{blank}} to play",
+          "promptZh": "有太多歌曲我們忘了去演奏",
+          "options": [
+            "failed",
+            "forgot",
+            "lost"
+          ],
+          "answer": "forgot"
+        },
+        {
+          "number": 27,
+          "lineId": "line-27",
+          "prompt": "So many dreams {{blank}} out of the blue",
+          "promptZh": "有太多夢想自虛空中搖曳而來",
+          "options": [
+            "swinging",
+            "hanging",
+            "floating"
+          ],
+          "answer": "swinging"
+        },
+        {
+          "number": 28,
+          "lineId": "line-28",
+          "prompt": "We let them {{blank}} true",
+          "promptZh": "我們讓它們成真",
+          "options": [
+            "be",
+            "come",
+            "make"
+          ],
+          "answer": "come"
+        },
+        {
+          "number": 29,
+          "lineId": "line-29",
+          "prompt": "{{blank}}, I want to be forever young",
+          "promptZh": "永遠年輕，我想永遠年輕",
+          "options": [
+            "forever free",
+            "forever strong",
+            "Forever young"
+          ],
+          "answer": "Forever young"
+        },
+        {
+          "number": 30,
+          "lineId": "line-30",
+          "prompt": "Do you really want to live forever, {{blank}}?",
+          "promptZh": "你真的想永遠活下去嗎，永遠永遠？",
+          "options": [
+            "forever and a day",
+            "forever and ever",
+            "ever and ever"
+          ],
+          "answer": "forever and ever"
+        },
+        {
+          "number": 31,
+          "lineId": "line-31",
+          "prompt": "Forever young, I {{blank}} forever young",
+          "promptZh": "永遠年輕，我想永遠年輕",
+          "options": [
+            "want to be",
+            "wanna be",
+            "need to be"
+          ],
+          "answer": "want to be"
+        },
+        {
+          "number": 32,
+          "lineId": "line-32",
+          "prompt": "Do you really want to {{blank}}, forever and ever?",
+          "promptZh": "你真的想永遠活下去嗎，永遠永遠？",
+          "options": [
+            "last forever",
+            "live together",
+            "live forever"
+          ],
+          "answer": "live forever"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Let's dance in {{q:1}}, let's dance for a while"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Heaven can wait, we're only {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Hoping for the best but {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Are you gonna {{q:4}} or not?"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Let us die young or let us {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "We don't have the power but we {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Sitting in a sandpit, life is a {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "The music's for the {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Can you imagine when this {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Turn our {{q:10}} into the sun"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Praising our leaders, we're {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "The music's played by the, the {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:13}}, I want to be forever young"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Do you really want to live forever, {{q:14}}?"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Forever young, I {{q:15}} forever young"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Do you really want to {{q:16}}? Forever young"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Some are like {{q:17}}, some are like the heat"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Some are a melody and some are the {{q:18}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:19}}, they all will be gone"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Why don't they {{q:20}}?"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "It's so hard to get old {{q:21}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I don't want to perish like a {{q:22}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Youth's like {{q:23}} in the sun"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And diamonds are {{q:24}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "So many {{q:25}} couldn't happen today"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "So many songs we {{q:26}} to play"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "So many dreams {{q:27}} out of the blue"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "We let them {{q:28}} true"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:29}}, I want to be forever young"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Do you really want to live forever, {{q:30}}?"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Forever young, I {{q:31}} forever young"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Do you really want to {{q:32}}, forever and ever?"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Forever young, I want to be forever young"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Do you really want to live forever?"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} in 〔第 2 題〕, let's dance for a while",
+          "promptZh": "讓我們姿態翩翩地起舞，跳上一會兒",
+          "options": [
+            "Let's dance",
+            "We'll dance",
+            "Let us dance"
+          ],
+          "answer": "Let's dance"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 in {{blank}}, let's dance for a while",
+          "promptZh": "讓我們姿態翩翩地起舞，跳上一會兒",
+          "options": [
+            "style",
+            "space",
+            "time"
+          ],
+          "answer": "style"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Heaven can wait, we're only {{blank}}",
+          "promptZh": "天堂可以等，我們只是仰望天空",
+          "options": [
+            "looking at skies",
+            "watching the skies",
+            "watching the sky"
+          ],
+          "answer": "watching the skies"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "Hoping for the best but {{blank}}",
+          "promptZh": "抱最好的希望，做最壞的打算",
+          "options": [
+            "wanting the worst",
+            "expecting the best",
+            "expecting the worst"
+          ],
+          "answer": "expecting the worst"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "Are you {{blank}} 〔第 6 題〕 or not?",
+          "promptZh": "你到底要不要投下那顆炸彈？",
+          "options": [
+            "want to",
+            "going to",
+            "gonna"
+          ],
+          "answer": "gonna"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "Are you 〔第 5 題〕 {{blank}} or not?",
+          "promptZh": "你到底要不要投下那顆炸彈？",
+          "options": [
+            "drop the beat",
+            "drop the bomb",
+            "drop the ball"
+          ],
+          "answer": "drop the bomb"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "Let us die young or let us {{blank}}",
+          "promptZh": "讓我們英年早逝，或讓我們永生不死",
+          "options": [
+            "live forever",
+            "live together",
+            "live for now"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "We don't have the power but we {{blank}}",
+          "promptZh": "我們沒有權力，但我們從不說絕不",
+          "options": [
+            "never say no",
+            "never say never",
+            "always say never"
+          ],
+          "answer": "never say never"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "Sitting in a {{blank}}, life is a 〔第 10 題〕",
+          "promptZh": "坐在沙坑裡，人生是趟短暫的旅程",
+          "options": [
+            "sandpit",
+            "sandbox",
+            "box"
+          ],
+          "answer": "sandpit"
+        },
+        {
+          "number": 10,
+          "lineId": "line-7",
+          "prompt": "Sitting in a 〔第 9 題〕, life is a {{blank}}",
+          "promptZh": "坐在沙坑裡，人生是趟短暫的旅程",
+          "options": [
+            "quick trip",
+            "long trip",
+            "short trip"
+          ],
+          "answer": "short trip"
+        },
+        {
+          "number": 11,
+          "lineId": "line-8",
+          "prompt": "The {{blank}} for the 〔第 12 題〕",
+          "promptZh": "這音樂是為悲傷的人們而奏",
+          "options": [
+            "music's",
+            "song's",
+            "tune's"
+          ],
+          "answer": "music's"
+        },
+        {
+          "number": 12,
+          "lineId": "line-8",
+          "prompt": "The 〔第 11 題〕 for the {{blank}}",
+          "promptZh": "這音樂是為悲傷的人們而奏",
+          "options": [
+            "old men",
+            "mad men",
+            "sad men"
+          ],
+          "answer": "sad men"
+        },
+        {
+          "number": 13,
+          "lineId": "line-9",
+          "prompt": "Can you {{blank}} when this 〔第 14 題〕",
+          "promptZh": "你能想像當這場競賽獲勝時",
+          "options": [
+            "picture",
+            "imagine",
+            "see"
+          ],
+          "answer": "imagine"
+        },
+        {
+          "number": 14,
+          "lineId": "line-9",
+          "prompt": "Can you 〔第 13 題〕 when this {{blank}}",
+          "promptZh": "你能想像當這場競賽獲勝時",
+          "options": [
+            "game is won",
+            "race is won",
+            "race is run"
+          ],
+          "answer": "race is won"
+        },
+        {
+          "number": 15,
+          "lineId": "line-10",
+          "prompt": "Turn our {{blank}} into the sun",
+          "promptZh": "將我們金色的容顏迎向太陽",
+          "options": [
+            "happy faces",
+            "golden eyes",
+            "golden faces"
+          ],
+          "answer": "golden faces"
+        },
+        {
+          "number": 16,
+          "lineId": "line-11",
+          "prompt": "Praising our leaders, we're {{blank}}",
+          "promptZh": "讚美著我們的領袖，我們逐漸步上正軌",
+          "options": [
+            "getting in tune",
+            "getting in line",
+            "singing in tune"
+          ],
+          "answer": "getting in tune"
+        },
+        {
+          "number": 17,
+          "lineId": "line-12",
+          "prompt": "The music's played by the, the {{blank}}",
+          "promptZh": "這音樂是由那些，那些狂人所演奏",
+          "options": [
+            "sad men",
+            "mad men",
+            "old men"
+          ],
+          "answer": "mad men"
+        },
+        {
+          "number": 18,
+          "lineId": "line-13",
+          "prompt": "{{blank}}, I want to be forever young",
+          "promptZh": "永遠年輕，我想永遠年輕",
+          "options": [
+            "Forever young",
+            "Forever strong",
+            "Forever free"
+          ],
+          "answer": "Forever young"
+        },
+        {
+          "number": 19,
+          "lineId": "line-14",
+          "prompt": "Do you really want to live forever, {{blank}}?",
+          "promptZh": "你真的想永遠活下去嗎，永遠永遠？",
+          "options": [
+            "ever and ever",
+            "forever and a day",
+            "forever and ever"
+          ],
+          "answer": "forever and ever"
+        },
+        {
+          "number": 20,
+          "lineId": "line-15",
+          "prompt": "Forever young, I {{blank}} forever young",
+          "promptZh": "永遠年輕，我想永遠年輕",
+          "options": [
+            "need to be",
+            "wanna be",
+            "want to be"
+          ],
+          "answer": "want to be"
+        },
+        {
+          "number": 21,
+          "lineId": "line-16",
+          "prompt": "Do you really want to {{blank}}? Forever young",
+          "promptZh": "你真的想永遠活下去嗎？永遠年輕",
+          "options": [
+            "live forever",
+            "live together",
+            "last forever"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 22,
+          "lineId": "line-17",
+          "prompt": "Some are like {{blank}}, some are like the heat",
+          "promptZh": "有些人如水般，有些人如熱浪",
+          "options": [
+            "fire",
+            "water",
+            "wind"
+          ],
+          "answer": "water"
+        },
+        {
+          "number": 23,
+          "lineId": "line-18",
+          "prompt": "Some are a melody and some are the {{blank}}",
+          "promptZh": "有些人是旋律，有些人是節拍",
+          "options": [
+            "tune",
+            "rhythm",
+            "beat"
+          ],
+          "answer": "beat"
+        },
+        {
+          "number": 24,
+          "lineId": "line-19",
+          "prompt": "{{blank}}, they all will be gone",
+          "promptZh": "遲早，他們都會消逝",
+          "options": [
+            "Sooner or after",
+            "Sooner or later",
+            "Later or sooner"
+          ],
+          "answer": "Sooner or later"
+        },
+        {
+          "number": 25,
+          "lineId": "line-20",
+          "prompt": "Why don't they {{blank}}?",
+          "promptZh": "為什麼他們不能保持年輕？",
+          "options": [
+            "stay young",
+            "get young",
+            "be young"
+          ],
+          "answer": "stay young"
+        },
+        {
+          "number": 26,
+          "lineId": "line-21",
+          "prompt": "It's so hard to get old {{blank}}",
+          "promptZh": "毫無意義地老去是如此艱難",
+          "options": [
+            "without a cause",
+            "without a reason",
+            "without a point"
+          ],
+          "answer": "without a cause"
+        },
+        {
+          "number": 27,
+          "lineId": "line-22",
+          "prompt": "I don't want to perish like a {{blank}}",
+          "promptZh": "我不想如褪色的老馬般殞落",
+          "options": [
+            "dying horse",
+            "falling horse",
+            "fading horse"
+          ],
+          "answer": "fading horse"
+        },
+        {
+          "number": 28,
+          "lineId": "line-23",
+          "prompt": "Youth's like {{blank}} in the sun",
+          "promptZh": "青春宛如陽光下的鑽石",
+          "options": [
+            "gold",
+            "diamonds",
+            "stars"
+          ],
+          "answer": "diamonds"
+        },
+        {
+          "number": 29,
+          "lineId": "line-24",
+          "prompt": "And diamonds are {{blank}}",
+          "promptZh": "而鑽石是永恆的",
+          "options": [
+            "eternal",
+            "forever",
+            "lasting"
+          ],
+          "answer": "forever"
+        },
+        {
+          "number": 30,
+          "lineId": "line-25",
+          "prompt": "So many {{blank}} couldn't happen today",
+          "promptZh": "今天有太多冒險無法發生",
+          "options": [
+            "wonders",
+            "things",
+            "adventures"
+          ],
+          "answer": "adventures"
+        },
+        {
+          "number": 31,
+          "lineId": "line-26",
+          "prompt": "So many songs we {{blank}} to play",
+          "promptZh": "有太多歌曲我們忘了去演奏",
+          "options": [
+            "forgot",
+            "failed",
+            "lost"
+          ],
+          "answer": "forgot"
+        },
+        {
+          "number": 32,
+          "lineId": "line-27",
+          "prompt": "So many dreams {{blank}} out of the blue",
+          "promptZh": "有太多夢想自虛空中搖曳而來",
+          "options": [
+            "floating",
+            "hanging",
+            "swinging"
+          ],
+          "answer": "swinging"
+        },
+        {
+          "number": 33,
+          "lineId": "line-28",
+          "prompt": "We let them {{blank}} true",
+          "promptZh": "我們讓它們成真",
+          "options": [
+            "come",
+            "be",
+            "make"
+          ],
+          "answer": "come"
+        },
+        {
+          "number": 34,
+          "lineId": "line-29",
+          "prompt": "{{blank}}, I want to be forever young",
+          "promptZh": "永遠年輕，我想永遠年輕",
+          "options": [
+            "forever strong",
+            "Forever young",
+            "forever free"
+          ],
+          "answer": "Forever young"
+        },
+        {
+          "number": 35,
+          "lineId": "line-30",
+          "prompt": "Do you really want to live forever, {{blank}}?",
+          "promptZh": "你真的想永遠活下去嗎，永遠永遠？",
+          "options": [
+            "forever and ever",
+            "forever and a day",
+            "ever and ever"
+          ],
+          "answer": "forever and ever"
+        },
+        {
+          "number": 36,
+          "lineId": "line-31",
+          "prompt": "Forever young, I {{blank}} forever young",
+          "promptZh": "永遠年輕，我想永遠年輕",
+          "options": [
+            "wanna be",
+            "want to be",
+            "need to be"
+          ],
+          "answer": "want to be"
+        },
+        {
+          "number": 37,
+          "lineId": "line-32",
+          "prompt": "{{blank}} to 〔第 38 題〕, forever and ever?",
+          "promptZh": "你真的想永遠活下去嗎，永遠永遠？",
+          "options": [
+            "Do you really wish",
+            "Do you really need",
+            "Do you really want"
+          ],
+          "answer": "Do you really want"
+        },
+        {
+          "number": 38,
+          "lineId": "line-32",
+          "prompt": "〔第 37 題〕 to {{blank}}, forever and ever?",
+          "promptZh": "你真的想永遠活下去嗎，永遠永遠？",
+          "options": [
+            "last forever",
+            "live together",
+            "live forever"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 39,
+          "lineId": "line-33",
+          "prompt": "{{blank}}, I want to be forever young",
+          "promptZh": "永遠年輕，我想永遠年輕",
+          "options": [
+            "Forever strong",
+            "Forever young",
+            "Forever free"
+          ],
+          "answer": "Forever young"
+        },
+        {
+          "number": 40,
+          "lineId": "line-34",
+          "prompt": "{{blank}} want to live forever?",
+          "promptZh": "你真的想永遠活下去嗎？",
+          "options": [
+            "Do you really",
+            "Do you truly",
+            "Do you ever"
+          ],
+          "answer": "Do you really"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} in {{q:2}}, let's dance for a while"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Heaven can wait, we're only {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Hoping for the best but {{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Are you {{q:5}} {{q:6}} or not?"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Let us die young or let us {{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "We don't have the power but we {{q:8}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Sitting in a {{q:9}}, life is a {{q:10}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "The {{q:11}} for the {{q:12}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Can you {{q:13}} when this {{q:14}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Turn our {{q:15}} into the sun"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Praising our leaders, we're {{q:16}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "The music's played by the, the {{q:17}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:18}}, I want to be forever young"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Do you really want to live forever, {{q:19}}?"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Forever young, I {{q:20}} forever young"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Do you really want to {{q:21}}? Forever young"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Some are like {{q:22}}, some are like the heat"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Some are a melody and some are the {{q:23}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:24}}, they all will be gone"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Why don't they {{q:25}}?"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "It's so hard to get old {{q:26}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I don't want to perish like a {{q:27}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Youth's like {{q:28}} in the sun"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And diamonds are {{q:29}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "So many {{q:30}} couldn't happen today"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "So many songs we {{q:31}} to play"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "So many dreams {{q:32}} out of the blue"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "We let them {{q:33}} true"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:34}}, I want to be forever young"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Do you really want to live forever, {{q:35}}?"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Forever young, I {{q:36}} forever young"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:37}} to {{q:38}}, forever and ever?"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:39}}, I want to be forever young"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "{{q:40}} want to live forever?"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} in 〔第 2 題〕, let's dance for a while",
+          "promptZh": "讓我們姿態翩翩地起舞，跳上一會兒",
+          "options": [
+            "Let's dance",
+            "We'll dance",
+            "Let us dance"
+          ],
+          "answer": "Let's dance"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 in {{blank}}, let's dance for a while",
+          "promptZh": "讓我們姿態翩翩地起舞，跳上一會兒",
+          "options": [
+            "space",
+            "style",
+            "time"
+          ],
+          "answer": "style"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Heaven can wait, we're only {{blank}}",
+          "promptZh": "天堂可以等，我們只是仰望天空",
+          "options": [
+            "watching the sky",
+            "looking at skies",
+            "watching the skies"
+          ],
+          "answer": "watching the skies"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "Hoping for the best but {{blank}}",
+          "promptZh": "抱最好的希望，做最壞的打算",
+          "options": [
+            "expecting the best",
+            "expecting the worst",
+            "wanting the worst"
+          ],
+          "answer": "expecting the worst"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "Are you {{blank}} 〔第 6 題〕 or not?",
+          "promptZh": "你到底要不要投下那顆炸彈？",
+          "options": [
+            "gonna",
+            "going to",
+            "want to"
+          ],
+          "answer": "gonna"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "Are you 〔第 5 題〕 {{blank}} or not?",
+          "promptZh": "你到底要不要投下那顆炸彈？",
+          "options": [
+            "drop the bomb",
+            "drop the beat",
+            "drop the ball"
+          ],
+          "answer": "drop the bomb"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "Let us die young or let us {{blank}}",
+          "promptZh": "讓我們英年早逝，或讓我們永生不死",
+          "options": [
+            "live for now",
+            "live together",
+            "live forever"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "We don't have the power but we {{blank}}",
+          "promptZh": "我們沒有權力，但我們從不說絕不",
+          "options": [
+            "never say no",
+            "never say never",
+            "always say never"
+          ],
+          "answer": "never say never"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "Sitting in a {{blank}}, life is a 〔第 10 題〕",
+          "promptZh": "坐在沙坑裡，人生是趟短暫的旅程",
+          "options": [
+            "sandbox",
+            "sandpit",
+            "box"
+          ],
+          "answer": "sandpit"
+        },
+        {
+          "number": 10,
+          "lineId": "line-7",
+          "prompt": "Sitting in a 〔第 9 題〕, life is a {{blank}}",
+          "promptZh": "坐在沙坑裡，人生是趟短暫的旅程",
+          "options": [
+            "short trip",
+            "long trip",
+            "quick trip"
+          ],
+          "answer": "short trip"
+        },
+        {
+          "number": 11,
+          "lineId": "line-8",
+          "prompt": "The {{blank}} for the 〔第 12 題〕",
+          "promptZh": "這音樂是為悲傷的人們而奏",
+          "options": [
+            "tune's",
+            "song's",
+            "music's"
+          ],
+          "answer": "music's"
+        },
+        {
+          "number": 12,
+          "lineId": "line-8",
+          "prompt": "The 〔第 11 題〕 for the {{blank}}",
+          "promptZh": "這音樂是為悲傷的人們而奏",
+          "options": [
+            "mad men",
+            "sad men",
+            "old men"
+          ],
+          "answer": "sad men"
+        },
+        {
+          "number": 13,
+          "lineId": "line-9",
+          "prompt": "Can you {{blank}} when this 〔第 14 題〕",
+          "promptZh": "你能想像當這場競賽獲勝時",
+          "options": [
+            "see",
+            "picture",
+            "imagine"
+          ],
+          "answer": "imagine"
+        },
+        {
+          "number": 14,
+          "lineId": "line-9",
+          "prompt": "Can you 〔第 13 題〕 when this {{blank}}",
+          "promptZh": "你能想像當這場競賽獲勝時",
+          "options": [
+            "race is won",
+            "game is won",
+            "race is run"
+          ],
+          "answer": "race is won"
+        },
+        {
+          "number": 15,
+          "lineId": "line-10",
+          "prompt": "Turn our {{blank}} 〔第 16 題〕",
+          "promptZh": "將我們金色的容顏迎向太陽",
+          "options": [
+            "golden faces",
+            "golden eyes",
+            "happy faces"
+          ],
+          "answer": "golden faces"
+        },
+        {
+          "number": 16,
+          "lineId": "line-10",
+          "prompt": "Turn our 〔第 15 題〕 {{blank}}",
+          "promptZh": "將我們金色的容顏迎向太陽",
+          "options": [
+            "toward the sun",
+            "to the sun",
+            "into the sun"
+          ],
+          "answer": "into the sun"
+        },
+        {
+          "number": 17,
+          "lineId": "line-11",
+          "prompt": "{{blank}} our leaders, we're 〔第 18 題〕",
+          "promptZh": "讚美著我們的領袖，我們逐漸步上正軌",
+          "options": [
+            "Thanking",
+            "Praising",
+            "Loving"
+          ],
+          "answer": "Praising"
+        },
+        {
+          "number": 18,
+          "lineId": "line-11",
+          "prompt": "〔第 17 題〕 our leaders, we're {{blank}}",
+          "promptZh": "讚美著我們的領袖，我們逐漸步上正軌",
+          "options": [
+            "getting in tune",
+            "getting in line",
+            "singing in tune"
+          ],
+          "answer": "getting in tune"
+        },
+        {
+          "number": 19,
+          "lineId": "line-12",
+          "prompt": "The music's {{blank}} by the, the 〔第 20 題〕",
+          "promptZh": "這音樂是由那些，那些狂人所演奏",
+          "options": [
+            "sung",
+            "played",
+            "made"
+          ],
+          "answer": "played"
+        },
+        {
+          "number": 20,
+          "lineId": "line-12",
+          "prompt": "The music's 〔第 19 題〕 by the, the {{blank}}",
+          "promptZh": "這音樂是由那些，那些狂人所演奏",
+          "options": [
+            "old men",
+            "sad men",
+            "mad men"
+          ],
+          "answer": "mad men"
+        },
+        {
+          "number": 21,
+          "lineId": "line-13",
+          "prompt": "{{blank}}, I want to be 〔第 22 題〕",
+          "promptZh": "永遠年輕，我想永遠年輕",
+          "options": [
+            "Forever young",
+            "Forever strong",
+            "Forever free"
+          ],
+          "answer": "Forever young"
+        },
+        {
+          "number": 22,
+          "lineId": "line-13",
+          "prompt": "〔第 21 題〕, I want to be {{blank}}",
+          "promptZh": "永遠年輕，我想永遠年輕",
+          "options": [
+            "Forever free",
+            "Forever strong",
+            "forever young"
+          ],
+          "answer": "forever young"
+        },
+        {
+          "number": 23,
+          "lineId": "line-14",
+          "prompt": "Do you really want to {{blank}}, 〔第 24 題〕?",
+          "promptZh": "你真的想永遠活下去嗎，永遠永遠？",
+          "options": [
+            "live together",
+            "live forever",
+            "live for now"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 24,
+          "lineId": "line-14",
+          "prompt": "Do you really want to 〔第 23 題〕, {{blank}}?",
+          "promptZh": "你真的想永遠活下去嗎，永遠永遠？",
+          "options": [
+            "forever and ever",
+            "forever and a day",
+            "ever and ever"
+          ],
+          "answer": "forever and ever"
+        },
+        {
+          "number": 25,
+          "lineId": "line-15",
+          "prompt": "Forever young, I {{blank}} forever young",
+          "promptZh": "永遠年輕，我想永遠年輕",
+          "options": [
+            "need to be",
+            "wanna be",
+            "want to be"
+          ],
+          "answer": "want to be"
+        },
+        {
+          "number": 26,
+          "lineId": "line-16",
+          "prompt": "Do you really want to {{blank}}? Forever young",
+          "promptZh": "你真的想永遠活下去嗎？永遠年輕",
+          "options": [
+            "live together",
+            "live forever",
+            "last forever"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 27,
+          "lineId": "line-17",
+          "prompt": "Some are like {{blank}}, some are like the 〔第 28 題〕",
+          "promptZh": "有些人如水般，有些人如熱浪",
+          "options": [
+            "water",
+            "fire",
+            "wind"
+          ],
+          "answer": "water"
+        },
+        {
+          "number": 28,
+          "lineId": "line-17",
+          "prompt": "Some are like 〔第 27 題〕, some are like the {{blank}}",
+          "promptZh": "有些人如水般，有些人如熱浪",
+          "options": [
+            "sun",
+            "fire",
+            "heat"
+          ],
+          "answer": "heat"
+        },
+        {
+          "number": 29,
+          "lineId": "line-18",
+          "prompt": "Some are a {{blank}} and some are the 〔第 30 題〕",
+          "promptZh": "有些人是旋律，有些人是節拍",
+          "options": [
+            "harmony",
+            "melody",
+            "rhythm"
+          ],
+          "answer": "melody"
+        },
+        {
+          "number": 30,
+          "lineId": "line-18",
+          "prompt": "Some are a 〔第 29 題〕 and some are the {{blank}}",
+          "promptZh": "有些人是旋律，有些人是節拍",
+          "options": [
+            "beat",
+            "rhythm",
+            "tune"
+          ],
+          "answer": "beat"
+        },
+        {
+          "number": 31,
+          "lineId": "line-19",
+          "prompt": "{{blank}}, they all will be 〔第 32 題〕",
+          "promptZh": "遲早，他們都會消逝",
+          "options": [
+            "Later or sooner",
+            "Sooner or after",
+            "Sooner or later"
+          ],
+          "answer": "Sooner or later"
+        },
+        {
+          "number": 32,
+          "lineId": "line-19",
+          "prompt": "〔第 31 題〕, they all will be {{blank}}",
+          "promptZh": "遲早，他們都會消逝",
+          "options": [
+            "dead",
+            "gone",
+            "lost"
+          ],
+          "answer": "gone"
+        },
+        {
+          "number": 33,
+          "lineId": "line-20",
+          "prompt": "Why don't they {{blank}}?",
+          "promptZh": "為什麼他們不能保持年輕？",
+          "options": [
+            "be young",
+            "get young",
+            "stay young"
+          ],
+          "answer": "stay young"
+        },
+        {
+          "number": 34,
+          "lineId": "line-21",
+          "prompt": "It's so hard to get old {{blank}}",
+          "promptZh": "毫無意義地老去是如此艱難",
+          "options": [
+            "without a cause",
+            "without a reason",
+            "without a point"
+          ],
+          "answer": "without a cause"
+        },
+        {
+          "number": 35,
+          "lineId": "line-22",
+          "prompt": "I don't want to perish like a {{blank}}",
+          "promptZh": "我不想如褪色的老馬般殞落",
+          "options": [
+            "falling horse",
+            "fading horse",
+            "dying horse"
+          ],
+          "answer": "fading horse"
+        },
+        {
+          "number": 36,
+          "lineId": "line-23",
+          "prompt": "Youth's like {{blank}} in the sun",
+          "promptZh": "青春宛如陽光下的鑽石",
+          "options": [
+            "diamonds",
+            "gold",
+            "stars"
+          ],
+          "answer": "diamonds"
+        },
+        {
+          "number": 37,
+          "lineId": "line-24",
+          "prompt": "And diamonds are {{blank}}",
+          "promptZh": "而鑽石是永恆的",
+          "options": [
+            "lasting",
+            "eternal",
+            "forever"
+          ],
+          "answer": "forever"
+        },
+        {
+          "number": 38,
+          "lineId": "line-25",
+          "prompt": "So many {{blank}} couldn't happen today",
+          "promptZh": "今天有太多冒險無法發生",
+          "options": [
+            "things",
+            "adventures",
+            "wonders"
+          ],
+          "answer": "adventures"
+        },
+        {
+          "number": 39,
+          "lineId": "line-26",
+          "prompt": "So many songs we {{blank}} to play",
+          "promptZh": "有太多歌曲我們忘了去演奏",
+          "options": [
+            "failed",
+            "forgot",
+            "lost"
+          ],
+          "answer": "forgot"
+        },
+        {
+          "number": 40,
+          "lineId": "line-27",
+          "prompt": "So many dreams {{blank}} out of the blue",
+          "promptZh": "有太多夢想自虛空中搖曳而來",
+          "options": [
+            "swinging",
+            "hanging",
+            "floating"
+          ],
+          "answer": "swinging"
+        },
+        {
+          "number": 41,
+          "lineId": "line-28",
+          "prompt": "We let them {{blank}} true",
+          "promptZh": "我們讓它們成真",
+          "options": [
+            "make",
+            "be",
+            "come"
+          ],
+          "answer": "come"
+        },
+        {
+          "number": 42,
+          "lineId": "line-29",
+          "prompt": "{{blank}}, I want to be forever young",
+          "promptZh": "永遠年輕，我想永遠年輕",
+          "options": [
+            "forever free",
+            "forever strong",
+            "Forever young"
+          ],
+          "answer": "Forever young"
+        },
+        {
+          "number": 43,
+          "lineId": "line-30",
+          "prompt": "Do you really want to {{blank}}, 〔第 44 題〕?",
+          "promptZh": "你真的想永遠活下去嗎，永遠永遠？",
+          "options": [
+            "live together",
+            "live forever",
+            "live for now"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 44,
+          "lineId": "line-30",
+          "prompt": "Do you really want to 〔第 43 題〕, {{blank}}?",
+          "promptZh": "你真的想永遠活下去嗎，永遠永遠？",
+          "options": [
+            "forever and ever",
+            "forever and a day",
+            "ever and ever"
+          ],
+          "answer": "forever and ever"
+        },
+        {
+          "number": 45,
+          "lineId": "line-31",
+          "prompt": "Forever young, I {{blank}} forever young",
+          "promptZh": "永遠年輕，我想永遠年輕",
+          "options": [
+            "need to be",
+            "wanna be",
+            "want to be"
+          ],
+          "answer": "want to be"
+        },
+        {
+          "number": 46,
+          "lineId": "line-32",
+          "prompt": "{{blank}} to 〔第 47 題〕, forever and ever?",
+          "promptZh": "你真的想永遠活下去嗎，永遠永遠？",
+          "options": [
+            "Do you really want",
+            "Do you really need",
+            "Do you really wish"
+          ],
+          "answer": "Do you really want"
+        },
+        {
+          "number": 47,
+          "lineId": "line-32",
+          "prompt": "〔第 46 題〕 to {{blank}}, forever and ever?",
+          "promptZh": "你真的想永遠活下去嗎，永遠永遠？",
+          "options": [
+            "live together",
+            "live forever",
+            "last forever"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 48,
+          "lineId": "line-33",
+          "prompt": "{{blank}}, I want to be forever young",
+          "promptZh": "永遠年輕，我想永遠年輕",
+          "options": [
+            "Forever free",
+            "Forever strong",
+            "Forever young"
+          ],
+          "answer": "Forever young"
+        },
+        {
+          "number": 49,
+          "lineId": "line-34",
+          "prompt": "{{blank}} want to 〔第 50 題〕?",
+          "promptZh": "你真的想永遠活下去嗎？",
+          "options": [
+            "Do you truly",
+            "Do you really",
+            "Do you ever"
+          ],
+          "answer": "Do you really"
+        },
+        {
+          "number": 50,
+          "lineId": "line-34",
+          "prompt": "〔第 49 題〕 want to {{blank}}?",
+          "promptZh": "你真的想永遠活下去嗎？",
+          "options": [
+            "live forever",
+            "live together",
+            "last forever"
+          ],
+          "answer": "live forever"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} in {{q:2}}, let's dance for a while"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Heaven can wait, we're only {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Hoping for the best but {{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Are you {{q:5}} {{q:6}} or not?"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Let us die young or let us {{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "We don't have the power but we {{q:8}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Sitting in a {{q:9}}, life is a {{q:10}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "The {{q:11}} for the {{q:12}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Can you {{q:13}} when this {{q:14}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Turn our {{q:15}} {{q:16}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:17}} our leaders, we're {{q:18}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "The music's {{q:19}} by the, the {{q:20}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:21}}, I want to be {{q:22}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Do you really want to {{q:23}}, {{q:24}}?"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Forever young, I {{q:25}} forever young"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Do you really want to {{q:26}}? Forever young"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Some are like {{q:27}}, some are like the {{q:28}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Some are a {{q:29}} and some are the {{q:30}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:31}}, they all will be {{q:32}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Why don't they {{q:33}}?"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "It's so hard to get old {{q:34}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I don't want to perish like a {{q:35}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Youth's like {{q:36}} in the sun"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And diamonds are {{q:37}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "So many {{q:38}} couldn't happen today"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "So many songs we {{q:39}} to play"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "So many dreams {{q:40}} out of the blue"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "We let them {{q:41}} true"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:42}}, I want to be forever young"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Do you really want to {{q:43}}, {{q:44}}?"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Forever young, I {{q:45}} forever young"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:46}} to {{q:47}}, forever and ever?"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:48}}, I want to be forever young"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "{{q:49}} want to {{q:50}}?"
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/forever-young/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/forever-young/cover.webp",
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Forever Young_.pdf",
+      "sha256": "603b9f66de6742b8df40f02255eb799d6e88a83ae8934ec119cf835bcad3a21c"
+    },
+    "md": {
+      "filename": "Forever_Young_Vocabulary_Quiz.md",
+      "sha256": "afea77781803b1163385d04c9ba218ff66dd985ea2111cff518916c44221f6f8"
+    },
+    "mp3": {
+      "filename": "Forever Young (2019 Remaster) [9OUurVdRGsc].mp3",
+      "sha256": "d2566c812f10c789eb7a577116133bab5f7c3fbe6f6b4f277dfe68e75ff0cbd1"
+    }
+  },
+  "audioAlignment": {
+    "duration": 226.0,
+    "audioSha256": "d2566c812f10c789eb7a577116133bab5f7c3fbe6f6b4f277dfe68e75ff0cbd1",
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "coverage": 0.9335827876520112,
+    "timedLines": 31,
+    "untimedLines": [
+      10,
+      25,
+      34
+    ],
+    "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  }
+}

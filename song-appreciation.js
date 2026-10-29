@@ -164,7 +164,7 @@
         lineId: text(row?.lineId || row?.line_id || `line-${index + 1}`),
         english: text(row?.english),
         chinese: text(row?.chinese),
-        startSeconds: Number.isFinite(startSeconds) && startSeconds >= 0 ? startSeconds : null,
+        startSeconds: rawStart != null && Number.isFinite(startSeconds) && startSeconds >= 0 ? startSeconds : null,
         endSeconds: Number.isFinite(endSeconds) && endSeconds > startSeconds ? endSeconds : null
       };
     });
@@ -942,11 +942,12 @@
     const preset = SYNC_PRESETS[youtubeVideoId(song?.youtubeUrl)];
     if (preset?.length === lyricRows.length) return lyricRows.map((row, index) => ({ row, start: preset[index][0], end: preset[index][1] }));
     const explicitCount = lyricRows.filter(row => Number.isFinite(row.startSeconds)).length;
-    if (explicitCount === lyricRows.length) {
-      return lyricRows.map((row, index) => ({
+    if (explicitCount > 0) {
+      const timedRows = lyricRows.filter(row => Number.isFinite(row.startSeconds));
+      return timedRows.map((row, index) => ({
         row,
         start: row.startSeconds,
-        end: Number.isFinite(row.endSeconds) ? row.endSeconds : (lyricRows[index + 1]?.startSeconds ?? Math.min(duration || row.startSeconds + 5, row.startSeconds + 5))
+        end: Number.isFinite(row.endSeconds) ? row.endSeconds : (timedRows[index + 1]?.startSeconds ?? Math.min(duration || row.startSeconds + 5, row.startSeconds + 5))
       }));
     }
     if (!(duration > 0)) return [];
@@ -975,6 +976,7 @@
     return asArray(questions).map(question => {
       const explicit = question.lineId && timeline.find(item => item.row.lineId === question.lineId);
       if (explicit) return explicit;
+      if (question.lineId) return null;
       let index = previousIndex >= 0 && questionMatchesLine(question, timeline[previousIndex]?.row) ? previousIndex : -1;
       if (index < 0) index = timeline.findIndex((item, candidate) => candidate >= cursor && questionMatchesLine(question, item.row));
       if (index < 0) index = timeline.findIndex(item => questionMatchesLine(question, item.row));

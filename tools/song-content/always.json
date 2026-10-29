@@ -1,0 +1,3295 @@
+{
+  "slug": "always",
+  "title": "Always",
+  "singer": "Bon Jovi",
+  "description": "《Always》描寫一段感情結束後，仍然深愛對方、渴望挽回的痛苦與不捨。歌中的主角因愛人離去而陷入悲傷，過去共同留下的照片與回憶，令他更加難以放下。他承認自己曾經犯錯，也明白對方可能已經開始新的生活，但心中的愛意始終沒有改變。即使看見別人陪伴在她身旁，他仍然希望能再次得到機會，重新建立兩人的幸福。歌曲以「Always」象徵永不消逝的愛與承諾。最終，《Always》傳達的是愛情中的悔恨、執著與永恆的思念：即使無法改變過去，也無法確定未來，真正深刻的感情仍可能長久留在心中，難以忘懷。",
+  "exercise_name": "Always · Listening & Vocabulary",
+  "tags": [
+    "bon jovi",
+    "always",
+    "love",
+    "regret"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "This Romeo is bleeding",
+      "chinese": "這位 Romeo 正在流血",
+      "startSeconds": 20.76,
+      "endSeconds": 23.02
+    },
+    {
+      "lineId": "line-2",
+      "english": "But you can't see his blood",
+      "chinese": "但你看不見他的血",
+      "startSeconds": 23.02,
+      "endSeconds": 26.72
+    },
+    {
+      "lineId": "line-3",
+      "english": "It's nothing but some feelings",
+      "chinese": "只不過是些情緒罷了",
+      "startSeconds": 27.82,
+      "endSeconds": 30.04
+    },
+    {
+      "lineId": "line-4",
+      "english": "That this old dog kicked up",
+      "chinese": "被這隻老狗給翻攪了起來",
+      "startSeconds": 30.04,
+      "endSeconds": 33.44
+    },
+    {
+      "lineId": "line-5",
+      "english": "It's been raining since you left me",
+      "chinese": "自從你離開我之後，雨就一直下個不停",
+      "startSeconds": 34.42,
+      "endSeconds": 36.88
+    },
+    {
+      "lineId": "line-6",
+      "english": "Now I'm drowning in the flood",
+      "chinese": "現在我正溺斃在這場洪水中",
+      "startSeconds": 36.9,
+      "endSeconds": 40.52
+    },
+    {
+      "lineId": "line-7",
+      "english": "You see I've always been a fighter",
+      "chinese": "你看，我一直以來都是個鬥士",
+      "startSeconds": 40.52,
+      "endSeconds": 43.54
+    },
+    {
+      "lineId": "line-8",
+      "english": "But without you I give up",
+      "chinese": "但沒有你，我選擇放棄",
+      "startSeconds": 43.78,
+      "endSeconds": 47.58
+    },
+    {
+      "lineId": "line-9",
+      "english": "I can't sing a love song",
+      "chinese": "我唱不好情歌",
+      "startSeconds": 48.9,
+      "endSeconds": 50.64
+    },
+    {
+      "lineId": "line-10",
+      "english": "Like the way it's meant to be",
+      "chinese": "不像它原本該有的樣子",
+      "startSeconds": 50.64,
+      "endSeconds": 53.84
+    },
+    {
+      "lineId": "line-11",
+      "english": "Well, I guess I'm not that good anymore",
+      "chinese": "嗯，我想我不再那麼擅長了",
+      "startSeconds": 53.84,
+      "endSeconds": 57.64
+    },
+    {
+      "lineId": "line-12",
+      "english": "But, baby, that's just me",
+      "chinese": "但寶貝，這就是我",
+      "startSeconds": 57.64,
+      "endSeconds": 60.94
+    },
+    {
+      "lineId": "line-13",
+      "english": "Yeah, I will love you, baby, always",
+      "chinese": "耶，我會愛你，寶貝，永遠"
+    },
+    {
+      "lineId": "line-14",
+      "english": "And I'll be there forever and a day, always",
+      "chinese": "我會在那裡，比永遠多一天，永遠"
+    },
+    {
+      "lineId": "line-15",
+      "english": "I'll be there 'til the stars don't shine",
+      "chinese": "我會在那裡，直到星辰不再閃耀",
+      "startSeconds": 88.78,
+      "endSeconds": 92.04
+    },
+    {
+      "lineId": "line-16",
+      "english": "'Til the heavens burst and the words don't rhyme",
+      "chinese": "直到天崩地裂、詞句不再押韻",
+      "startSeconds": 92.04,
+      "endSeconds": 95.54
+    },
+    {
+      "lineId": "line-17",
+      "english": "And I know when I die",
+      "chinese": "我知道當我死去時",
+      "startSeconds": 95.54,
+      "endSeconds": 97.02
+    },
+    {
+      "lineId": "line-18",
+      "english": "You'll be on my mind",
+      "chinese": "你依然會在我心上",
+      "startSeconds": 97.02,
+      "endSeconds": 98.84
+    },
+    {
+      "lineId": "line-19",
+      "english": "And I'll love you always",
+      "chinese": "而我會永遠愛你",
+      "startSeconds": 98.84,
+      "endSeconds": 102.76
+    },
+    {
+      "lineId": "line-20",
+      "english": "Now your pictures that you left behind",
+      "chinese": "現在你留下的那些照片",
+      "startSeconds": 108.5,
+      "endSeconds": 112.38
+    },
+    {
+      "lineId": "line-21",
+      "english": "Are just memories of a different life",
+      "chinese": "只是另一段人生的回憶",
+      "startSeconds": 112.38,
+      "endSeconds": 115.82
+    },
+    {
+      "lineId": "line-22",
+      "english": "Some that made us laugh, some that made us cry",
+      "chinese": "有些讓我們笑，有些讓我們哭",
+      "startSeconds": 115.98,
+      "endSeconds": 119.08
+    },
+    {
+      "lineId": "line-23",
+      "english": "One that made you have to say goodbye",
+      "chinese": "還有一張讓你不得不說再見",
+      "startSeconds": 119.14,
+      "endSeconds": 122.38
+    },
+    {
+      "lineId": "line-24",
+      "english": "What I'd give to run my fingers through your hair",
+      "chinese": "我願付出一切，只為讓手指穿過你的髮絲",
+      "startSeconds": 122.38,
+      "endSeconds": 126.1
+    },
+    {
+      "lineId": "line-25",
+      "english": "To touch your lips, to hold you near",
+      "chinese": "輕觸你的唇，將你擁入懷中",
+      "startSeconds": 126.5,
+      "endSeconds": 129.32
+    },
+    {
+      "lineId": "line-26",
+      "english": "When you say your prayers, try to understand",
+      "chinese": "當你祈禱時，試著明白",
+      "startSeconds": 129.32,
+      "endSeconds": 132.42
+    },
+    {
+      "lineId": "line-27",
+      "english": "I've made mistakes, I'm just a man",
+      "chinese": "我犯過錯，我只是個凡人",
+      "startSeconds": 132.86,
+      "endSeconds": 136.0
+    },
+    {
+      "lineId": "line-28",
+      "english": "When he holds you close, when he pulls you near",
+      "chinese": "當他緊緊擁抱你，將你拉近",
+      "startSeconds": 136.0,
+      "endSeconds": 139.3
+    },
+    {
+      "lineId": "line-29",
+      "english": "When he says the words you've been needing to hear",
+      "chinese": "當他說出你一直渴望聽到的話",
+      "startSeconds": 139.3,
+      "endSeconds": 142.52
+    },
+    {
+      "lineId": "line-30",
+      "english": "I'll wish I was him 'cause those words are mine",
+      "chinese": "我會希望我是他，因為那些話本該是我的"
+    },
+    {
+      "lineId": "line-31",
+      "english": "To say to you 'til the end of time",
+      "chinese": "對你說，直到時間的盡頭",
+      "startSeconds": 146.14,
+      "endSeconds": 149.66
+    },
+    {
+      "lineId": "line-32",
+      "english": "Yeah, I will love you, baby, always",
+      "chinese": "耶，我會愛你，寶貝，永遠"
+    },
+    {
+      "lineId": "line-33",
+      "english": "And I'll be there forever and a day, always",
+      "chinese": "我會在那裡，比永遠多一天，永遠"
+    },
+    {
+      "lineId": "line-34",
+      "english": "If you told me to cry for you",
+      "chinese": "如果你要我為你哭泣",
+      "startSeconds": 177.3,
+      "endSeconds": 181.6
+    },
+    {
+      "lineId": "line-35",
+      "english": "I could",
+      "chinese": "我會哭",
+      "startSeconds": 181.6,
+      "endSeconds": 183.46
+    },
+    {
+      "lineId": "line-36",
+      "english": "If you told me to die for you",
+      "chinese": "如果你要我為你而死",
+      "startSeconds": 184.58,
+      "endSeconds": 188.6
+    },
+    {
+      "lineId": "line-37",
+      "english": "I would",
+      "chinese": "我會做",
+      "startSeconds": 188.6,
+      "endSeconds": 190.48
+    },
+    {
+      "lineId": "line-38",
+      "english": "Take a look at my face",
+      "chinese": "看著我的臉",
+      "startSeconds": 190.48,
+      "endSeconds": 193.6
+    },
+    {
+      "lineId": "line-39",
+      "english": "There's no price I won't pay",
+      "chinese": "沒有我付不起的代價",
+      "startSeconds": 193.6,
+      "endSeconds": 197.48
+    },
+    {
+      "lineId": "line-40",
+      "english": "To say these words to you",
+      "chinese": "只為了對你說出這些話"
+    },
+    {
+      "lineId": "line-41",
+      "english": "Well, there ain't no luck",
+      "chinese": "嗯，這副灌了鉛的骰子裡",
+      "startSeconds": 229.12,
+      "endSeconds": 231.0
+    },
+    {
+      "lineId": "line-42",
+      "english": "In these loaded dice",
+      "chinese": "沒有任何運氣可言",
+      "startSeconds": 231.0,
+      "endSeconds": 232.86
+    },
+    {
+      "lineId": "line-43",
+      "english": "But, baby, if you give me just one more try",
+      "chinese": "但寶貝，如果你再給我一次機會",
+      "startSeconds": 232.86,
+      "endSeconds": 235.92
+    },
+    {
+      "lineId": "line-44",
+      "english": "We can pack up our old dreams and our old lives",
+      "chinese": "我們可以打包起舊夢與舊生活",
+      "startSeconds": 235.92,
+      "endSeconds": 239.42
+    },
+    {
+      "lineId": "line-45",
+      "english": "We'll find a place where the sun still shines",
+      "chinese": "我們會找到一個陽光依然閃耀的地方",
+      "startSeconds": 239.42,
+      "endSeconds": 243.08
+    },
+    {
+      "lineId": "line-46",
+      "english": "And I will love you, baby, always",
+      "chinese": "而我會愛你，寶貝，永遠"
+    },
+    {
+      "lineId": "line-47",
+      "english": "And I'll be there forever and a day, always",
+      "chinese": "我會在那裡，比永遠多一天，永遠"
+    },
+    {
+      "lineId": "line-48",
+      "english": "I'll be there 'til the stars don't shine",
+      "chinese": "我會在那裡，直到星辰不再閃耀",
+      "startSeconds": 269.9,
+      "endSeconds": 273.02
+    },
+    {
+      "lineId": "line-49",
+      "english": "'Til the heavens burst and the words don't rhyme",
+      "chinese": "直到天崩地裂、詞句不再押韻"
+    },
+    {
+      "lineId": "line-50",
+      "english": "And I know when I die",
+      "chinese": "我知道當我死去時"
+    },
+    {
+      "lineId": "line-51",
+      "english": "You'll be on my mind",
+      "chinese": "你依然會在我心上",
+      "startSeconds": 277.92,
+      "endSeconds": 279.84
+    },
+    {
+      "lineId": "line-52",
+      "english": "And I'll love you, always",
+      "chinese": "而我會永遠愛你",
+      "startSeconds": 279.84,
+      "endSeconds": 283.38
+    },
+    {
+      "lineId": "line-53",
+      "english": "Always",
+      "chinese": "永遠"
+    },
+    {
+      "lineId": "line-54",
+      "english": "Oh baby, don't you do me no wrong",
+      "chinese": "噢寶貝，別對我做錯事"
+    },
+    {
+      "lineId": "line-55",
+      "english": "Baby, don't you do me no wrong",
+      "chinese": "寶貝，別對我做錯事"
+    },
+    {
+      "lineId": "line-56",
+      "english": "Oh baby, don't you do me no wrong, oh no",
+      "chinese": "噢寶貝，別對我做錯事，噢不"
+    },
+    {
+      "lineId": "line-57",
+      "english": "Oh, yeah, yeah yeah yeah",
+      "chinese": "噢，耶，耶耶耶"
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Nothing but",
+      "meaning": "只是、只不過是",
+      "usage": "想強調某件事只有一種內容或情況時，使用 nothing but + 名詞。",
+      "prompt": "哪一句正確使用「Nothing but」？",
+      "options": [
+        "I nothing but to school every day.",
+        "My lunch is nothing but a sandwich today.",
+        "She is nothing but very quickly.",
+        "We nothing but our homework at night."
+      ],
+      "answer": 1,
+      "explanation": "正確：午餐只有一個三明治，nothing but 後面接名詞。",
+      "optionExplanations": [
+        "錯誤：nothing but 不能代替 go；應說 I go to school every day。",
+        "正確：午餐只有一個三明治，nothing but 後面接名詞。",
+        "錯誤：very quickly 是副詞片語，不能直接當這裡的名詞內容。",
+        "錯誤：nothing but 不能當作 do 這個動詞。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Since",
+      "meaning": "自從……以來",
+      "usage": "說明一件事從過去某個時間開始，持續到現在時，常搭配現在完成式。",
+      "prompt": "哪一句正確使用「Since」？",
+      "options": [
+        "She has been happy since she got her new bike.",
+        "I have lived here since three hours.",
+        "We since eat pizza every Friday.",
+        "My cat has slept since two hours."
+      ],
+      "answer": 0,
+      "explanation": "正確：since 後面接過去發生的事情，表示從那時起。",
+      "optionExplanations": [
+        "正確：since 後面接過去發生的事情，表示從那時起。",
+        "錯誤：three hours 是一段時間，應用 for three hours。",
+        "錯誤：since 不能放在這裡當一般動詞。",
+        "錯誤：two hours 是時間長度，應用 for two hours。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Give up",
+      "meaning": "放棄、停止嘗試",
+      "usage": "遇到困難而不再繼續，或決定不再做某件事時可以使用。",
+      "prompt": "哪一句正確使用「Give up」？",
+      "options": [
+        "Please give up the window; it is cold.",
+        "I give up my soup with a spoon.",
+        "The game was hard, but I did not give up.",
+        "We give up to the library by bus."
+      ],
+      "answer": 2,
+      "explanation": "正確：遊戲很難，但我沒有放棄。",
+      "optionExplanations": [
+        "錯誤：關窗戶應說 close the window，不是 give up。",
+        "錯誤：喝湯應用 eat 或 drink，不能用 give up。",
+        "正確：遊戲很難，但我沒有放棄。",
+        "錯誤：搭車去圖書館應說 go to the library。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Meant to be",
+      "meaning": "本來應該如此；命中注定",
+      "usage": "談事情原本應有的樣子，或覺得兩個人特別適合在一起時使用。",
+      "prompt": "哪一句正確使用「Meant to be」？",
+      "options": [
+        "This cake is meant to be with a fork yesterday.",
+        "I meant to be my homework at six.",
+        "My shoes are meant to be at seven o’clock.",
+        "These two are so happy together. Maybe they are meant to be."
+      ],
+      "answer": 3,
+      "explanation": "正確：形容兩個人似乎天生就很適合在一起。",
+      "optionExplanations": [
+        "錯誤：時間和句子結構不合；要說吃蛋糕可用 eat。",
+        "錯誤：meant to be 不能代替 do；應說 I meant to do my homework。",
+        "錯誤：只說鞋子在某時間 meant to be，沒有清楚表達用途或狀態。",
+        "正確：形容兩個人似乎天生就很適合在一起。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Anymore",
+      "meaning": "（否定句中）不再",
+      "usage": "某件事以前會發生、現在卻不會了，常用 not ... anymore。",
+      "prompt": "哪一句正確使用「Anymore」？",
+      "options": [
+        "I do not play that game anymore.",
+        "I anymore go to bed at ten.",
+        "She is anymore my best friend yesterday.",
+        "We anymore a big pizza for lunch."
+      ],
+      "answer": 0,
+      "explanation": "正確：表示以前玩，現在不玩了。",
+      "optionExplanations": [
+        "正確：表示以前玩，現在不玩了。",
+        "錯誤：anymore 一般不能像這樣放在主詞與動詞之間。",
+        "錯誤：用法和時間都不自然；可說 She is not my best friend anymore。",
+        "錯誤：這句缺少動詞，anymore 也不能代替動詞。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "On my mind",
+      "meaning": "在我心上；一直想著",
+      "usage": "某個人或一件事經常出現在自己的想法中時使用。",
+      "prompt": "哪一句正確使用「On my mind」？",
+      "options": [
+        "I put my sandwich on my mind for lunch.",
+        "My exam is on my mind today. I feel worried.",
+        "She walks on my mind to the shop.",
+        "He washed on my mind with soap."
+      ],
+      "answer": 1,
+      "explanation": "正確：表示今天一直想著考試。",
+      "optionExplanations": [
+        "錯誤：on my mind 不是頭上的實際位置；三明治不能這樣放。",
+        "正確：表示今天一直想著考試。",
+        "錯誤：on my mind 不是能走路的道路。",
+        "錯誤：on my mind 不表示身體部位，也不能這樣搭配 wash。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Leave behind",
+      "meaning": "留下；忘了帶走",
+      "usage": "離開某個地方時，把物品留在原處，或把過去的事情放下。",
+      "prompt": "哪一句正確使用「Leave behind」？",
+      "options": [
+        "I left behind my breakfast with a knife.",
+        "She left behind to the bus at eight.",
+        "We left behind our song very loudly.",
+        "I left my bag behind on the train."
+      ],
+      "answer": 3,
+      "explanation": "正確：表示下車時把包包忘在火車上。",
+      "optionExplanations": [
+        "錯誤：這裡不能用 leave behind 表示用刀準備早餐。",
+        "錯誤：left behind 不能代替 went 或 took the bus。",
+        "錯誤：唱得大聲應說 sang our song loudly。",
+        "正確：表示下車時把包包忘在火車上。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Make someone laugh",
+      "meaning": "逗某人笑",
+      "usage": "一個笑話、動作或有趣的事讓別人笑出來時使用。",
+      "prompt": "哪一句正確使用「Make someone laugh」？",
+      "options": [
+        "The teacher made me laugh my homework.",
+        "My dog makes the door laugh at night.",
+        "My little brother makes me laugh with his funny faces.",
+        "I made my sandwich laugh before eating it."
+      ],
+      "answer": 2,
+      "explanation": "正確：弟弟做鬼臉，逗我笑。",
+      "optionExplanations": [
+        "錯誤：laugh 後不能直接接 my homework 表示做功課。",
+        "錯誤：門不會笑；這不是自然的使用對象。",
+        "正確：弟弟做鬼臉，逗我笑。",
+        "錯誤：三明治不會笑；這個搭配不自然。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Take a look at",
+      "meaning": "看一看、瞧一瞧",
+      "usage": "請別人看某個東西，或自己簡單查看時使用。",
+      "prompt": "哪一句正確使用「Take a look at」？",
+      "options": [
+        "I take a look at my lunch with a spoon.",
+        "Can you take a look at my new drawing?",
+        "She takes a look at to school by bike.",
+        "We took a look at sleeping at nine."
+      ],
+      "answer": 1,
+      "explanation": "正確：請別人看一下自己的新畫作。",
+      "optionExplanations": [
+        "錯誤：這句要表達用湯匙吃午餐，應用 eat，不是 take a look at。",
+        "正確：請別人看一下自己的新畫作。",
+        "錯誤：take a look at 後面要接查看的東西，不能直接接 to school。",
+        "錯誤：想表達九點睡覺，應說 We went to sleep at nine。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Pack up",
+      "meaning": "收拾、打包",
+      "usage": "旅行前整理行李，或把東西收進袋子、箱子時使用。",
+      "prompt": "哪一句正確使用「Pack up」？",
+      "options": [
+        "We packed up our clothes before the trip.",
+        "I pack up my homework with a blue song.",
+        "My brother packs up his breakfast by singing it.",
+        "She packed up to happy yesterday."
+      ],
+      "answer": 0,
+      "explanation": "正確：出發旅行之前收拾衣服。",
+      "optionExplanations": [
+        "正確：出發旅行之前收拾衣服。",
+        "錯誤：a blue song 不是合理的打包工具；句意不清。",
+        "錯誤：唱歌不能表示把早餐打包；搭配不自然。",
+        "錯誤：pack up 不能接 to happy 來表示變開心。"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-4",
+          "prompt": "That this {{blank}}",
+          "promptZh": "被這隻老狗給翻攪了起來",
+          "options": [
+            "old dog got up",
+            "old dog kicked up",
+            "old dog woke up"
+          ],
+          "answer": "old dog kicked up"
+        },
+        {
+          "number": 2,
+          "lineId": "line-5",
+          "prompt": "It's been {{blank}}",
+          "promptZh": "自從你離開我之後，雨就一直下個不停",
+          "options": [
+            "raining since you left me",
+            "raining since you went",
+            "raining when you left me"
+          ],
+          "answer": "raining since you left me"
+        },
+        {
+          "number": 3,
+          "lineId": "line-6",
+          "prompt": "Now I'm {{blank}}",
+          "promptZh": "現在我正溺斃在這場洪水中",
+          "options": [
+            "drowning in the flood",
+            "drowning in the rain",
+            "sinking in the flood"
+          ],
+          "answer": "drowning in the flood"
+        },
+        {
+          "number": 4,
+          "lineId": "line-8",
+          "prompt": "But {{blank}}",
+          "promptZh": "但沒有你，我選擇放棄",
+          "options": [
+            "without you I will give up",
+            "without you I gave up",
+            "without you I give up"
+          ],
+          "answer": "without you I give up"
+        },
+        {
+          "number": 5,
+          "lineId": "line-10",
+          "prompt": "Like the way it's {{blank}}",
+          "promptZh": "不像它原本該有的樣子",
+          "options": [
+            "meant for me",
+            "meant to be",
+            "supposed to be"
+          ],
+          "answer": "meant to be"
+        },
+        {
+          "number": 6,
+          "lineId": "line-11",
+          "prompt": "Well, I guess I'm {{blank}}",
+          "promptZh": "嗯，我想我不再那麼擅長了",
+          "options": [
+            "not that good now",
+            "not that good anymore",
+            "not so good anymore"
+          ],
+          "answer": "not that good anymore"
+        },
+        {
+          "number": 7,
+          "lineId": "line-12",
+          "prompt": "But, baby, {{blank}}",
+          "promptZh": "但寶貝，這就是我",
+          "options": [
+            "that is just me",
+            "that's just who I am",
+            "that's just me"
+          ],
+          "answer": "that's just me"
+        },
+        {
+          "number": 8,
+          "lineId": "line-13",
+          "prompt": "Yeah, I will {{blank}}",
+          "promptZh": "耶，我會愛你，寶貝，永遠",
+          "options": [
+            "love you, baby, always",
+            "love you, darling, always",
+            "love you, baby, now"
+          ],
+          "answer": "love you, baby, always"
+        },
+        {
+          "number": 9,
+          "lineId": "line-14",
+          "prompt": "And I'll be there {{blank}}, always",
+          "promptZh": "我會在那裡，比永遠多一天，永遠",
+          "options": [
+            "together and a day",
+            "forever and a night",
+            "forever and a day"
+          ],
+          "answer": "forever and a day"
+        },
+        {
+          "number": 10,
+          "lineId": "line-15",
+          "prompt": "I'll be there 'til the {{blank}}",
+          "promptZh": "我會在那裡，直到星辰不再閃耀",
+          "options": [
+            "stars won't shine",
+            "stars don't shine",
+            "stars don't glow"
+          ],
+          "answer": "stars don't shine"
+        },
+        {
+          "number": 11,
+          "lineId": "line-16",
+          "prompt": "'Til the {{blank}} and the 〔第 12 題〕",
+          "promptZh": "直到天崩地裂、詞句不再押韻",
+          "options": [
+            "heavens burst",
+            "heavens break",
+            "sky will burst"
+          ],
+          "answer": "heavens burst"
+        },
+        {
+          "number": 12,
+          "lineId": "line-16",
+          "prompt": "'Til the 〔第 11 題〕 and the {{blank}}",
+          "promptZh": "直到天崩地裂、詞句不再押韻",
+          "options": [
+            "words don't fit",
+            "words don't rhyme",
+            "words won't rhyme"
+          ],
+          "answer": "words don't rhyme"
+        },
+        {
+          "number": 13,
+          "lineId": "line-18",
+          "prompt": "You'll be {{blank}}",
+          "promptZh": "你依然會在我心上",
+          "options": [
+            "on my mind",
+            "in my mind",
+            "on my thoughts"
+          ],
+          "answer": "on my mind"
+        },
+        {
+          "number": 14,
+          "lineId": "line-21",
+          "prompt": "Are just {{blank}}",
+          "promptZh": "只是另一段人生的回憶",
+          "options": [
+            "memories from a different life",
+            "memories of a better life",
+            "memories of a different life"
+          ],
+          "answer": "memories of a different life"
+        },
+        {
+          "number": 15,
+          "lineId": "line-22",
+          "prompt": "Some that {{blank}}, some that made us cry",
+          "promptZh": "有些讓我們笑，有些讓我們哭",
+          "options": [
+            "made us smile",
+            "made us laugh",
+            "make us laugh"
+          ],
+          "answer": "made us laugh"
+        },
+        {
+          "number": 16,
+          "lineId": "line-24",
+          "prompt": "What I'd give to {{blank}}",
+          "promptZh": "我願付出一切，只為讓手指穿過你的髮絲",
+          "options": [
+            "run my fingers in your hair",
+            "run my hands through your hair",
+            "run my fingers through your hair"
+          ],
+          "answer": "run my fingers through your hair"
+        },
+        {
+          "number": 17,
+          "lineId": "line-25",
+          "prompt": "To touch your lips, to {{blank}}",
+          "promptZh": "輕觸你的唇，將你擁入懷中",
+          "options": [
+            "hold you near",
+            "hold you close",
+            "keep you near"
+          ],
+          "answer": "hold you near"
+        },
+        {
+          "number": 18,
+          "lineId": "line-26",
+          "prompt": "When you {{blank}}, try to understand",
+          "promptZh": "當你祈禱時，試著明白",
+          "options": [
+            "say a prayer",
+            "say your prayers",
+            "say your prayer"
+          ],
+          "answer": "say your prayers"
+        },
+        {
+          "number": 19,
+          "lineId": "line-27",
+          "prompt": "I've made mistakes, I'm {{blank}}",
+          "promptZh": "我犯過錯，我只是個凡人",
+          "options": [
+            "just a man",
+            "just a soul",
+            "only a man"
+          ],
+          "answer": "just a man"
+        },
+        {
+          "number": 20,
+          "lineId": "line-31",
+          "prompt": "To say to you 'til the {{blank}}",
+          "promptZh": "對你說，直到時間的盡頭",
+          "options": [
+            "end of the line",
+            "end of days",
+            "end of time"
+          ],
+          "answer": "end of time"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "This Romeo is bleeding"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "But you can't see his blood"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "It's nothing but some feelings"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "That this {{q:1}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "It's been {{q:2}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Now I'm {{q:3}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "You see I've always been a fighter"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "But {{q:4}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I can't sing a love song"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Like the way it's {{q:5}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Well, I guess I'm {{q:6}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "But, baby, {{q:7}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Yeah, I will {{q:8}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And I'll be there {{q:9}}, always"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I'll be there 'til the {{q:10}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "'Til the {{q:11}} and the {{q:12}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "And I know when I die"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "You'll be {{q:13}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "And I'll love you always"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Now your pictures that you left behind"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Are just {{q:14}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Some that {{q:15}}, some that made us cry"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "One that made you have to say goodbye"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "What I'd give to {{q:16}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "To touch your lips, to {{q:17}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "When you {{q:18}}, try to understand"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I've made mistakes, I'm {{q:19}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "When he holds you close, when he pulls you near"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "When he says the words you've been needing to hear"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I'll wish I was him 'cause those words are mine"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "To say to you 'til the {{q:20}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Yeah, I will love you, baby, always"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And I'll be there forever and a day, always"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "If you told me to cry for you"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I could"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "If you told me to die for you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "I would"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Take a look at my face"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "There's no price I won't pay"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "To say these words to you"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Well, there ain't no luck"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "In these loaded dice"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "But, baby, if you give me just one more try"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "We can pack up our old dreams and our old lives"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "We'll find a place where the sun still shines"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "And I will love you, baby, always"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "And I'll be there forever and a day, always"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I'll be there 'til the stars don't shine"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "'Til the heavens burst and the words don't rhyme"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "And I know when I die"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "You'll be on my mind"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "And I'll love you, always"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Always"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Oh baby, don't you do me no wrong"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Baby, don't you do me no wrong"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Oh baby, don't you do me no wrong, oh no"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Oh, yeah, yeah yeah yeah"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}}",
+          "promptZh": "這位 Romeo 正在流血",
+          "options": [
+            "This Romeo is bleeding",
+            "This Romeo is crying",
+            "The Romeo is bleeding"
+          ],
+          "answer": "This Romeo is bleeding"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "But you can't {{blank}}",
+          "promptZh": "但你看不見他的血",
+          "options": [
+            "see the blood",
+            "see his blood",
+            "see his tears"
+          ],
+          "answer": "see his blood"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "It's {{blank}}",
+          "promptZh": "只不過是些情緒罷了",
+          "options": [
+            "nothing but a feeling",
+            "only just some feelings",
+            "nothing but some feelings"
+          ],
+          "answer": "nothing but some feelings"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "That this {{blank}}",
+          "promptZh": "被這隻老狗給翻攪了起來",
+          "options": [
+            "old dog got up",
+            "old dog kicked up",
+            "old dog woke up"
+          ],
+          "answer": "old dog kicked up"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "It's been {{blank}}",
+          "promptZh": "自從你離開我之後，雨就一直下個不停",
+          "options": [
+            "raining since you left me",
+            "raining since you went",
+            "raining when you left me"
+          ],
+          "answer": "raining since you left me"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "Now I'm {{blank}}",
+          "promptZh": "現在我正溺斃在這場洪水中",
+          "options": [
+            "drowning in the flood",
+            "drowning in the rain",
+            "sinking in the flood"
+          ],
+          "answer": "drowning in the flood"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "You see I've {{blank}}",
+          "promptZh": "你看，我一直以來都是個鬥士",
+          "options": [
+            "always been a soldier",
+            "always been a lover",
+            "always been a fighter"
+          ],
+          "answer": "always been a fighter"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "But {{blank}}",
+          "promptZh": "但沒有你，我選擇放棄",
+          "options": [
+            "without you I gave up",
+            "without you I give up",
+            "without you I will give up"
+          ],
+          "answer": "without you I give up"
+        },
+        {
+          "number": 9,
+          "lineId": "line-10",
+          "prompt": "Like the way it's {{blank}}",
+          "promptZh": "不像它原本該有的樣子",
+          "options": [
+            "supposed to be",
+            "meant for me",
+            "meant to be"
+          ],
+          "answer": "meant to be"
+        },
+        {
+          "number": 10,
+          "lineId": "line-11",
+          "prompt": "Well, I guess I'm {{blank}}",
+          "promptZh": "嗯，我想我不再那麼擅長了",
+          "options": [
+            "not that good now",
+            "not that good anymore",
+            "not so good anymore"
+          ],
+          "answer": "not that good anymore"
+        },
+        {
+          "number": 11,
+          "lineId": "line-12",
+          "prompt": "But, baby, {{blank}}",
+          "promptZh": "但寶貝，這就是我",
+          "options": [
+            "that's just me",
+            "that's just who I am",
+            "that is just me"
+          ],
+          "answer": "that's just me"
+        },
+        {
+          "number": 12,
+          "lineId": "line-13",
+          "prompt": "Yeah, I will {{blank}}",
+          "promptZh": "耶，我會愛你，寶貝，永遠",
+          "options": [
+            "love you, baby, always",
+            "love you, darling, always",
+            "love you, baby, now"
+          ],
+          "answer": "love you, baby, always"
+        },
+        {
+          "number": 13,
+          "lineId": "line-14",
+          "prompt": "And I'll be there {{blank}}, always",
+          "promptZh": "我會在那裡，比永遠多一天，永遠",
+          "options": [
+            "forever and a night",
+            "forever and a day",
+            "together and a day"
+          ],
+          "answer": "forever and a day"
+        },
+        {
+          "number": 14,
+          "lineId": "line-15",
+          "prompt": "I'll be there 'til the {{blank}}",
+          "promptZh": "我會在那裡，直到星辰不再閃耀",
+          "options": [
+            "stars don't glow",
+            "stars won't shine",
+            "stars don't shine"
+          ],
+          "answer": "stars don't shine"
+        },
+        {
+          "number": 15,
+          "lineId": "line-16",
+          "prompt": "'Til the {{blank}} and the 〔第 16 題〕",
+          "promptZh": "直到天崩地裂、詞句不再押韻",
+          "options": [
+            "heavens burst",
+            "heavens break",
+            "sky will burst"
+          ],
+          "answer": "heavens burst"
+        },
+        {
+          "number": 16,
+          "lineId": "line-16",
+          "prompt": "'Til the 〔第 15 題〕 and the {{blank}}",
+          "promptZh": "直到天崩地裂、詞句不再押韻",
+          "options": [
+            "words won't rhyme",
+            "words don't fit",
+            "words don't rhyme"
+          ],
+          "answer": "words don't rhyme"
+        },
+        {
+          "number": 17,
+          "lineId": "line-18",
+          "prompt": "You'll be {{blank}}",
+          "promptZh": "你依然會在我心上",
+          "options": [
+            "in my mind",
+            "on my mind",
+            "on my thoughts"
+          ],
+          "answer": "on my mind"
+        },
+        {
+          "number": 18,
+          "lineId": "line-21",
+          "prompt": "Are just {{blank}}",
+          "promptZh": "只是另一段人生的回憶",
+          "options": [
+            "memories from a different life",
+            "memories of a better life",
+            "memories of a different life"
+          ],
+          "answer": "memories of a different life"
+        },
+        {
+          "number": 19,
+          "lineId": "line-22",
+          "prompt": "Some that {{blank}}, some that made us cry",
+          "promptZh": "有些讓我們笑，有些讓我們哭",
+          "options": [
+            "made us smile",
+            "made us laugh",
+            "make us laugh"
+          ],
+          "answer": "made us laugh"
+        },
+        {
+          "number": 20,
+          "lineId": "line-24",
+          "prompt": "What I'd give to {{blank}}",
+          "promptZh": "我願付出一切，只為讓手指穿過你的髮絲",
+          "options": [
+            "run my fingers through your hair",
+            "run my hands through your hair",
+            "run my fingers in your hair"
+          ],
+          "answer": "run my fingers through your hair"
+        },
+        {
+          "number": 21,
+          "lineId": "line-25",
+          "prompt": "To touch your lips, to {{blank}}",
+          "promptZh": "輕觸你的唇，將你擁入懷中",
+          "options": [
+            "hold you close",
+            "hold you near",
+            "keep you near"
+          ],
+          "answer": "hold you near"
+        },
+        {
+          "number": 22,
+          "lineId": "line-26",
+          "prompt": "When you {{blank}}, try to understand",
+          "promptZh": "當你祈禱時，試著明白",
+          "options": [
+            "say your prayer",
+            "say a prayer",
+            "say your prayers"
+          ],
+          "answer": "say your prayers"
+        },
+        {
+          "number": 23,
+          "lineId": "line-27",
+          "prompt": "I've made mistakes, I'm {{blank}}",
+          "promptZh": "我犯過錯，我只是個凡人",
+          "options": [
+            "just a man",
+            "just a soul",
+            "only a man"
+          ],
+          "answer": "just a man"
+        },
+        {
+          "number": 24,
+          "lineId": "line-31",
+          "prompt": "To say to you 'til the {{blank}}",
+          "promptZh": "對你說，直到時間的盡頭",
+          "options": [
+            "end of time",
+            "end of days",
+            "end of the line"
+          ],
+          "answer": "end of time"
+        },
+        {
+          "number": 25,
+          "lineId": "line-34",
+          "prompt": "If you told me to {{blank}}",
+          "promptZh": "如果你要我為你哭泣",
+          "options": [
+            "cry for love",
+            "cry for you",
+            "cry to you"
+          ],
+          "answer": "cry for you"
+        },
+        {
+          "number": 26,
+          "lineId": "line-36",
+          "prompt": "If you told me to {{blank}}",
+          "promptZh": "如果你要我為你而死",
+          "options": [
+            "die to you",
+            "die for love",
+            "die for you"
+          ],
+          "answer": "die for you"
+        },
+        {
+          "number": 27,
+          "lineId": "line-38",
+          "prompt": "{{blank}}",
+          "promptZh": "看著我的臉",
+          "options": [
+            "Take a look at my eyes",
+            "Take a look at my face",
+            "Take a good look at my face"
+          ],
+          "answer": "Take a look at my face"
+        },
+        {
+          "number": 28,
+          "lineId": "line-39",
+          "prompt": "There's {{blank}}",
+          "promptZh": "沒有我付不起的代價",
+          "options": [
+            "no price I will not pay",
+            "no price I wouldn't pay",
+            "no price I won't pay"
+          ],
+          "answer": "no price I won't pay"
+        },
+        {
+          "number": 29,
+          "lineId": "line-42",
+          "prompt": "In these {{blank}}",
+          "promptZh": "沒有任何運氣可言",
+          "options": [
+            "loaded dice",
+            "rolling dice",
+            "broken dice"
+          ],
+          "answer": "loaded dice"
+        },
+        {
+          "number": 30,
+          "lineId": "line-43",
+          "prompt": "But, baby, if you give me {{blank}}",
+          "promptZh": "但寶貝，如果你再給我一次機會",
+          "options": [
+            "just one more try",
+            "just one last try",
+            "one more chance"
+          ],
+          "answer": "just one more try"
+        },
+        {
+          "number": 31,
+          "lineId": "line-44",
+          "prompt": "We can {{blank}} and our old lives",
+          "promptZh": "我們可以打包起舊夢與舊生活",
+          "options": [
+            "pack up our old lives",
+            "pack up all our dreams",
+            "pack up our old dreams"
+          ],
+          "answer": "pack up our old dreams"
+        },
+        {
+          "number": 32,
+          "lineId": "line-45",
+          "prompt": "We'll find a place where the {{blank}}",
+          "promptZh": "我們會找到一個陽光依然閃耀的地方",
+          "options": [
+            "sun always shines",
+            "sun still shines",
+            "sun will shine"
+          ],
+          "answer": "sun still shines"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "But you can't {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "It's {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "That this {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "It's been {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Now I'm {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "You see I've {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "But {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I can't sing a love song"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Like the way it's {{q:9}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Well, I guess I'm {{q:10}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "But, baby, {{q:11}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Yeah, I will {{q:12}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And I'll be there {{q:13}}, always"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I'll be there 'til the {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "'Til the {{q:15}} and the {{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "And I know when I die"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "You'll be {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "And I'll love you always"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Now your pictures that you left behind"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Are just {{q:18}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Some that {{q:19}}, some that made us cry"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "One that made you have to say goodbye"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "What I'd give to {{q:20}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "To touch your lips, to {{q:21}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "When you {{q:22}}, try to understand"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I've made mistakes, I'm {{q:23}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "When he holds you close, when he pulls you near"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "When he says the words you've been needing to hear"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I'll wish I was him 'cause those words are mine"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "To say to you 'til the {{q:24}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Yeah, I will love you, baby, always"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And I'll be there forever and a day, always"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "If you told me to {{q:25}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I could"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "If you told me to {{q:26}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "I would"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:27}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "There's {{q:28}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "To say these words to you"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Well, there ain't no luck"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "In these {{q:29}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "But, baby, if you give me {{q:30}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "We can {{q:31}} and our old lives"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "We'll find a place where the {{q:32}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "And I will love you, baby, always"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "And I'll be there forever and a day, always"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I'll be there 'til the stars don't shine"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "'Til the heavens burst and the words don't rhyme"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "And I know when I die"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "You'll be on my mind"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "And I'll love you, always"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Always"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Oh baby, don't you do me no wrong"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Baby, don't you do me no wrong"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Oh baby, don't you do me no wrong, oh no"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Oh, yeah, yeah yeah yeah"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}}",
+          "promptZh": "這位 Romeo 正在流血",
+          "options": [
+            "This Romeo is bleeding",
+            "This Romeo is crying",
+            "The Romeo is bleeding"
+          ],
+          "answer": "This Romeo is bleeding"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "But you can't {{blank}}",
+          "promptZh": "但你看不見他的血",
+          "options": [
+            "see his blood",
+            "see the blood",
+            "see his tears"
+          ],
+          "answer": "see his blood"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "It's {{blank}}",
+          "promptZh": "只不過是些情緒罷了",
+          "options": [
+            "only just some feelings",
+            "nothing but some feelings",
+            "nothing but a feeling"
+          ],
+          "answer": "nothing but some feelings"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "That this {{blank}}",
+          "promptZh": "被這隻老狗給翻攪了起來",
+          "options": [
+            "old dog woke up",
+            "old dog got up",
+            "old dog kicked up"
+          ],
+          "answer": "old dog kicked up"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "It's been {{blank}}",
+          "promptZh": "自從你離開我之後，雨就一直下個不停",
+          "options": [
+            "raining since you left me",
+            "raining since you went",
+            "raining when you left me"
+          ],
+          "answer": "raining since you left me"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "Now I'm {{blank}}",
+          "promptZh": "現在我正溺斃在這場洪水中",
+          "options": [
+            "drowning in the rain",
+            "drowning in the flood",
+            "sinking in the flood"
+          ],
+          "answer": "drowning in the flood"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "You see I've {{blank}}",
+          "promptZh": "你看，我一直以來都是個鬥士",
+          "options": [
+            "always been a soldier",
+            "always been a lover",
+            "always been a fighter"
+          ],
+          "answer": "always been a fighter"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "But {{blank}}",
+          "promptZh": "但沒有你，我選擇放棄",
+          "options": [
+            "without you I will give up",
+            "without you I gave up",
+            "without you I give up"
+          ],
+          "answer": "without you I give up"
+        },
+        {
+          "number": 9,
+          "lineId": "line-10",
+          "prompt": "Like the way it's {{blank}}",
+          "promptZh": "不像它原本該有的樣子",
+          "options": [
+            "meant for me",
+            "meant to be",
+            "supposed to be"
+          ],
+          "answer": "meant to be"
+        },
+        {
+          "number": 10,
+          "lineId": "line-11",
+          "prompt": "Well, I guess I'm {{blank}}",
+          "promptZh": "嗯，我想我不再那麼擅長了",
+          "options": [
+            "not that good anymore",
+            "not that good now",
+            "not so good anymore"
+          ],
+          "answer": "not that good anymore"
+        },
+        {
+          "number": 11,
+          "lineId": "line-12",
+          "prompt": "But, baby, {{blank}}",
+          "promptZh": "但寶貝，這就是我",
+          "options": [
+            "that's just who I am",
+            "that's just me",
+            "that is just me"
+          ],
+          "answer": "that's just me"
+        },
+        {
+          "number": 12,
+          "lineId": "line-13",
+          "prompt": "Yeah, I will {{blank}}",
+          "promptZh": "耶，我會愛你，寶貝，永遠",
+          "options": [
+            "love you, baby, now",
+            "love you, darling, always",
+            "love you, baby, always"
+          ],
+          "answer": "love you, baby, always"
+        },
+        {
+          "number": 13,
+          "lineId": "line-14",
+          "prompt": "And I'll be there {{blank}}, always",
+          "promptZh": "我會在那裡，比永遠多一天，永遠",
+          "options": [
+            "forever and a day",
+            "forever and a night",
+            "together and a day"
+          ],
+          "answer": "forever and a day"
+        },
+        {
+          "number": 14,
+          "lineId": "line-15",
+          "prompt": "I'll be there 'til the {{blank}}",
+          "promptZh": "我會在那裡，直到星辰不再閃耀",
+          "options": [
+            "stars won't shine",
+            "stars don't shine",
+            "stars don't glow"
+          ],
+          "answer": "stars don't shine"
+        },
+        {
+          "number": 15,
+          "lineId": "line-16",
+          "prompt": "'Til the {{blank}} and the 〔第 16 題〕",
+          "promptZh": "直到天崩地裂、詞句不再押韻",
+          "options": [
+            "heavens burst",
+            "heavens break",
+            "sky will burst"
+          ],
+          "answer": "heavens burst"
+        },
+        {
+          "number": 16,
+          "lineId": "line-16",
+          "prompt": "'Til the 〔第 15 題〕 and the {{blank}}",
+          "promptZh": "直到天崩地裂、詞句不再押韻",
+          "options": [
+            "words won't rhyme",
+            "words don't fit",
+            "words don't rhyme"
+          ],
+          "answer": "words don't rhyme"
+        },
+        {
+          "number": 17,
+          "lineId": "line-18",
+          "prompt": "You'll be {{blank}}",
+          "promptZh": "你依然會在我心上",
+          "options": [
+            "on my thoughts",
+            "in my mind",
+            "on my mind"
+          ],
+          "answer": "on my mind"
+        },
+        {
+          "number": 18,
+          "lineId": "line-20",
+          "prompt": "Now your {{blank}}",
+          "promptZh": "現在你留下的那些照片",
+          "options": [
+            "pictures that you left me",
+            "pictures that you left behind",
+            "photos that you left behind"
+          ],
+          "answer": "pictures that you left behind"
+        },
+        {
+          "number": 19,
+          "lineId": "line-21",
+          "prompt": "Are just {{blank}}",
+          "promptZh": "只是另一段人生的回憶",
+          "options": [
+            "memories of a different life",
+            "memories of a better life",
+            "memories from a different life"
+          ],
+          "answer": "memories of a different life"
+        },
+        {
+          "number": 20,
+          "lineId": "line-22",
+          "prompt": "Some that {{blank}}, some that made us cry",
+          "promptZh": "有些讓我們笑，有些讓我們哭",
+          "options": [
+            "make us laugh",
+            "made us smile",
+            "made us laugh"
+          ],
+          "answer": "made us laugh"
+        },
+        {
+          "number": 21,
+          "lineId": "line-24",
+          "prompt": "What I'd give to {{blank}}",
+          "promptZh": "我願付出一切，只為讓手指穿過你的髮絲",
+          "options": [
+            "run my hands through your hair",
+            "run my fingers through your hair",
+            "run my fingers in your hair"
+          ],
+          "answer": "run my fingers through your hair"
+        },
+        {
+          "number": 22,
+          "lineId": "line-25",
+          "prompt": "To touch your lips, to {{blank}}",
+          "promptZh": "輕觸你的唇，將你擁入懷中",
+          "options": [
+            "hold you near",
+            "hold you close",
+            "keep you near"
+          ],
+          "answer": "hold you near"
+        },
+        {
+          "number": 23,
+          "lineId": "line-26",
+          "prompt": "When you {{blank}}, try to understand",
+          "promptZh": "當你祈禱時，試著明白",
+          "options": [
+            "say your prayer",
+            "say a prayer",
+            "say your prayers"
+          ],
+          "answer": "say your prayers"
+        },
+        {
+          "number": 24,
+          "lineId": "line-27",
+          "prompt": "I've made mistakes, I'm {{blank}}",
+          "promptZh": "我犯過錯，我只是個凡人",
+          "options": [
+            "just a soul",
+            "just a man",
+            "only a man"
+          ],
+          "answer": "just a man"
+        },
+        {
+          "number": 25,
+          "lineId": "line-28",
+          "prompt": "When he {{blank}}, when he 〔第 26 題〕",
+          "promptZh": "當他緊緊擁抱你，將你拉近",
+          "options": [
+            "holds you close",
+            "holds you tight",
+            "holds you near"
+          ],
+          "answer": "holds you close"
+        },
+        {
+          "number": 26,
+          "lineId": "line-28",
+          "prompt": "When he 〔第 25 題〕, when he {{blank}}",
+          "promptZh": "當他緊緊擁抱你，將你拉近",
+          "options": [
+            "pulls you in",
+            "pulls you close",
+            "pulls you near"
+          ],
+          "answer": "pulls you near"
+        },
+        {
+          "number": 27,
+          "lineId": "line-29",
+          "prompt": "When he says the words you've been {{blank}}",
+          "promptZh": "當他說出你一直渴望聽到的話",
+          "options": [
+            "wanting to hear",
+            "needing to hear",
+            "waiting to hear"
+          ],
+          "answer": "needing to hear"
+        },
+        {
+          "number": 28,
+          "lineId": "line-30",
+          "prompt": "I'll {{blank}} 'cause those 〔第 29 題〕",
+          "promptZh": "我會希望我是他，因為那些話本該是我的",
+          "options": [
+            "wish I was him",
+            "wish I were him",
+            "wish I could be him"
+          ],
+          "answer": "wish I was him"
+        },
+        {
+          "number": 29,
+          "lineId": "line-30",
+          "prompt": "I'll 〔第 28 題〕 'cause those {{blank}}",
+          "promptZh": "我會希望我是他，因為那些話本該是我的",
+          "options": [
+            "words are all mine",
+            "words were mine",
+            "words are mine"
+          ],
+          "answer": "words are mine"
+        },
+        {
+          "number": 30,
+          "lineId": "line-31",
+          "prompt": "To say to you 'til the {{blank}}",
+          "promptZh": "對你說，直到時間的盡頭",
+          "options": [
+            "end of time",
+            "end of days",
+            "end of the line"
+          ],
+          "answer": "end of time"
+        },
+        {
+          "number": 31,
+          "lineId": "line-34",
+          "prompt": "If you told me to {{blank}}",
+          "promptZh": "如果你要我為你哭泣",
+          "options": [
+            "cry for love",
+            "cry for you",
+            "cry to you"
+          ],
+          "answer": "cry for you"
+        },
+        {
+          "number": 32,
+          "lineId": "line-36",
+          "prompt": "If you told me to {{blank}}",
+          "promptZh": "如果你要我為你而死",
+          "options": [
+            "die for love",
+            "die for you",
+            "die to you"
+          ],
+          "answer": "die for you"
+        },
+        {
+          "number": 33,
+          "lineId": "line-38",
+          "prompt": "{{blank}}",
+          "promptZh": "看著我的臉",
+          "options": [
+            "Take a good look at my face",
+            "Take a look at my eyes",
+            "Take a look at my face"
+          ],
+          "answer": "Take a look at my face"
+        },
+        {
+          "number": 34,
+          "lineId": "line-39",
+          "prompt": "There's {{blank}}",
+          "promptZh": "沒有我付不起的代價",
+          "options": [
+            "no price I won't pay",
+            "no price I wouldn't pay",
+            "no price I will not pay"
+          ],
+          "answer": "no price I won't pay"
+        },
+        {
+          "number": 35,
+          "lineId": "line-41",
+          "prompt": "Well, there {{blank}}",
+          "promptZh": "嗯，這副灌了鉛的骰子裡",
+          "options": [
+            "ain't no luck",
+            "isn't no luck",
+            "is no luck"
+          ],
+          "answer": "ain't no luck"
+        },
+        {
+          "number": 36,
+          "lineId": "line-42",
+          "prompt": "In these {{blank}}",
+          "promptZh": "沒有任何運氣可言",
+          "options": [
+            "broken dice",
+            "rolling dice",
+            "loaded dice"
+          ],
+          "answer": "loaded dice"
+        },
+        {
+          "number": 37,
+          "lineId": "line-43",
+          "prompt": "But, baby, if you give me {{blank}}",
+          "promptZh": "但寶貝，如果你再給我一次機會",
+          "options": [
+            "just one last try",
+            "just one more try",
+            "one more chance"
+          ],
+          "answer": "just one more try"
+        },
+        {
+          "number": 38,
+          "lineId": "line-44",
+          "prompt": "We can {{blank}} and our old lives",
+          "promptZh": "我們可以打包起舊夢與舊生活",
+          "options": [
+            "pack up our old lives",
+            "pack up all our dreams",
+            "pack up our old dreams"
+          ],
+          "answer": "pack up our old dreams"
+        },
+        {
+          "number": 39,
+          "lineId": "line-45",
+          "prompt": "We'll find a place where the {{blank}}",
+          "promptZh": "我們會找到一個陽光依然閃耀的地方",
+          "options": [
+            "sun always shines",
+            "sun still shines",
+            "sun will shine"
+          ],
+          "answer": "sun still shines"
+        },
+        {
+          "number": 40,
+          "lineId": "line-54",
+          "prompt": "Oh baby, {{blank}}",
+          "promptZh": "噢寶貝，別對我做錯事",
+          "options": [
+            "don't you do me no wrong",
+            "don't you do me no harm",
+            "don't do me no wrong"
+          ],
+          "answer": "don't you do me no wrong"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "But you can't {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "It's {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "That this {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "It's been {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Now I'm {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "You see I've {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "But {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I can't sing a love song"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Like the way it's {{q:9}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Well, I guess I'm {{q:10}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "But, baby, {{q:11}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Yeah, I will {{q:12}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And I'll be there {{q:13}}, always"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I'll be there 'til the {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "'Til the {{q:15}} and the {{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "And I know when I die"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "You'll be {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "And I'll love you always"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Now your {{q:18}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Are just {{q:19}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Some that {{q:20}}, some that made us cry"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "One that made you have to say goodbye"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "What I'd give to {{q:21}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "To touch your lips, to {{q:22}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "When you {{q:23}}, try to understand"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I've made mistakes, I'm {{q:24}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "When he {{q:25}}, when he {{q:26}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "When he says the words you've been {{q:27}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I'll {{q:28}} 'cause those {{q:29}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "To say to you 'til the {{q:30}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Yeah, I will love you, baby, always"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And I'll be there forever and a day, always"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "If you told me to {{q:31}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I could"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "If you told me to {{q:32}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "I would"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:33}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "There's {{q:34}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "To say these words to you"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Well, there {{q:35}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "In these {{q:36}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "But, baby, if you give me {{q:37}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "We can {{q:38}} and our old lives"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "We'll find a place where the {{q:39}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "And I will love you, baby, always"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "And I'll be there forever and a day, always"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I'll be there 'til the stars don't shine"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "'Til the heavens burst and the words don't rhyme"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "And I know when I die"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "You'll be on my mind"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "And I'll love you, always"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Always"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Oh baby, {{q:40}}"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Baby, don't you do me no wrong"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Oh baby, don't you do me no wrong, oh no"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Oh, yeah, yeah yeah yeah"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}}",
+          "promptZh": "這位 Romeo 正在流血",
+          "options": [
+            "This Romeo is crying",
+            "This Romeo is bleeding",
+            "The Romeo is bleeding"
+          ],
+          "answer": "This Romeo is bleeding"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "But you can't {{blank}}",
+          "promptZh": "但你看不見他的血",
+          "options": [
+            "see his blood",
+            "see the blood",
+            "see his tears"
+          ],
+          "answer": "see his blood"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "It's {{blank}}",
+          "promptZh": "只不過是些情緒罷了",
+          "options": [
+            "nothing but a feeling",
+            "only just some feelings",
+            "nothing but some feelings"
+          ],
+          "answer": "nothing but some feelings"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "That this {{blank}}",
+          "promptZh": "被這隻老狗給翻攪了起來",
+          "options": [
+            "old dog kicked up",
+            "old dog got up",
+            "old dog woke up"
+          ],
+          "answer": "old dog kicked up"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "It's been {{blank}}",
+          "promptZh": "自從你離開我之後，雨就一直下個不停",
+          "options": [
+            "raining since you went",
+            "raining since you left me",
+            "raining when you left me"
+          ],
+          "answer": "raining since you left me"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "Now I'm {{blank}}",
+          "promptZh": "現在我正溺斃在這場洪水中",
+          "options": [
+            "drowning in the flood",
+            "drowning in the rain",
+            "sinking in the flood"
+          ],
+          "answer": "drowning in the flood"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "You see I've {{blank}}",
+          "promptZh": "你看，我一直以來都是個鬥士",
+          "options": [
+            "always been a lover",
+            "always been a fighter",
+            "always been a soldier"
+          ],
+          "answer": "always been a fighter"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "But {{blank}}",
+          "promptZh": "但沒有你，我選擇放棄",
+          "options": [
+            "without you I will give up",
+            "without you I gave up",
+            "without you I give up"
+          ],
+          "answer": "without you I give up"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "{{blank}}",
+          "promptZh": "我唱不好情歌",
+          "options": [
+            "I can't sing a love ballad",
+            "I can't sing a love song",
+            "I cannot sing a love song"
+          ],
+          "answer": "I can't sing a love song"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "{{blank}} it's 〔第 11 題〕",
+          "promptZh": "不像它原本該有的樣子",
+          "options": [
+            "The way",
+            "Just like the way",
+            "Like the way"
+          ],
+          "answer": "Like the way"
+        },
+        {
+          "number": 11,
+          "lineId": "line-10",
+          "prompt": "〔第 10 題〕 it's {{blank}}",
+          "promptZh": "不像它原本該有的樣子",
+          "options": [
+            "meant to be",
+            "meant for me",
+            "supposed to be"
+          ],
+          "answer": "meant to be"
+        },
+        {
+          "number": 12,
+          "lineId": "line-11",
+          "prompt": "Well, {{blank}} that good anymore",
+          "promptZh": "嗯，我想我不再那麼擅長了",
+          "options": [
+            "Well, I guess I'm not",
+            "I guess I am not",
+            "I guess I'm not"
+          ],
+          "answer": "I guess I'm not"
+        },
+        {
+          "number": 13,
+          "lineId": "line-12",
+          "prompt": "But, baby, {{blank}}",
+          "promptZh": "但寶貝，這就是我",
+          "options": [
+            "that's just who I am",
+            "that's just me",
+            "that is just me"
+          ],
+          "answer": "that's just me"
+        },
+        {
+          "number": 14,
+          "lineId": "line-13",
+          "prompt": "Yeah, I will {{blank}}",
+          "promptZh": "耶，我會愛你，寶貝，永遠",
+          "options": [
+            "love you, baby, always",
+            "love you, darling, always",
+            "love you, baby, now"
+          ],
+          "answer": "love you, baby, always"
+        },
+        {
+          "number": 15,
+          "lineId": "line-14",
+          "prompt": "And I'll {{blank}} and a day, always",
+          "promptZh": "我會在那裡，比永遠多一天，永遠",
+          "options": [
+            "stay there forever",
+            "be there forever",
+            "be here forever"
+          ],
+          "answer": "be there forever"
+        },
+        {
+          "number": 16,
+          "lineId": "line-15",
+          "prompt": "{{blank}} the 〔第 17 題〕",
+          "promptZh": "我會在那裡，直到星辰不再閃耀",
+          "options": [
+            "I'll be here 'til",
+            "I will be there 'til",
+            "I'll be there 'til"
+          ],
+          "answer": "I'll be there 'til"
+        },
+        {
+          "number": 17,
+          "lineId": "line-15",
+          "prompt": "〔第 16 題〕 the {{blank}}",
+          "promptZh": "我會在那裡，直到星辰不再閃耀",
+          "options": [
+            "stars don't shine",
+            "stars won't shine",
+            "stars don't glow"
+          ],
+          "answer": "stars don't shine"
+        },
+        {
+          "number": 18,
+          "lineId": "line-16",
+          "prompt": "'Til the {{blank}} and the 〔第 19 題〕",
+          "promptZh": "直到天崩地裂、詞句不再押韻",
+          "options": [
+            "heavens break",
+            "heavens burst",
+            "sky will burst"
+          ],
+          "answer": "heavens burst"
+        },
+        {
+          "number": 19,
+          "lineId": "line-16",
+          "prompt": "'Til the 〔第 18 題〕 and the {{blank}}",
+          "promptZh": "直到天崩地裂、詞句不再押韻",
+          "options": [
+            "words won't rhyme",
+            "words don't fit",
+            "words don't rhyme"
+          ],
+          "answer": "words don't rhyme"
+        },
+        {
+          "number": 20,
+          "lineId": "line-17",
+          "prompt": "And I {{blank}}",
+          "promptZh": "我知道當我死去時",
+          "options": [
+            "know when I die",
+            "know that when I die",
+            "know when I'll die"
+          ],
+          "answer": "know when I die"
+        },
+        {
+          "number": 21,
+          "lineId": "line-18",
+          "prompt": "You'll be {{blank}}",
+          "promptZh": "你依然會在我心上",
+          "options": [
+            "on my thoughts",
+            "in my mind",
+            "on my mind"
+          ],
+          "answer": "on my mind"
+        },
+        {
+          "number": 22,
+          "lineId": "line-20",
+          "prompt": "Now your {{blank}}",
+          "promptZh": "現在你留下的那些照片",
+          "options": [
+            "pictures that you left me",
+            "pictures that you left behind",
+            "photos that you left behind"
+          ],
+          "answer": "pictures that you left behind"
+        },
+        {
+          "number": 23,
+          "lineId": "line-21",
+          "prompt": "Are just {{blank}}",
+          "promptZh": "只是另一段人生的回憶",
+          "options": [
+            "memories of a different life",
+            "memories of a better life",
+            "memories from a different life"
+          ],
+          "answer": "memories of a different life"
+        },
+        {
+          "number": 24,
+          "lineId": "line-22",
+          "prompt": "Some that {{blank}}, some that made us cry",
+          "promptZh": "有些讓我們笑，有些讓我們哭",
+          "options": [
+            "made us smile",
+            "made us laugh",
+            "make us laugh"
+          ],
+          "answer": "made us laugh"
+        },
+        {
+          "number": 25,
+          "lineId": "line-24",
+          "prompt": "What I'd give to {{blank}}",
+          "promptZh": "我願付出一切，只為讓手指穿過你的髮絲",
+          "options": [
+            "run my fingers through your hair",
+            "run my hands through your hair",
+            "run my fingers in your hair"
+          ],
+          "answer": "run my fingers through your hair"
+        },
+        {
+          "number": 26,
+          "lineId": "line-25",
+          "prompt": "To touch your lips, to {{blank}}",
+          "promptZh": "輕觸你的唇，將你擁入懷中",
+          "options": [
+            "keep you near",
+            "hold you close",
+            "hold you near"
+          ],
+          "answer": "hold you near"
+        },
+        {
+          "number": 27,
+          "lineId": "line-26",
+          "prompt": "When you {{blank}}, try to understand",
+          "promptZh": "當你祈禱時，試著明白",
+          "options": [
+            "say a prayer",
+            "say your prayers",
+            "say your prayer"
+          ],
+          "answer": "say your prayers"
+        },
+        {
+          "number": 28,
+          "lineId": "line-27",
+          "prompt": "I've made mistakes, I'm {{blank}}",
+          "promptZh": "我犯過錯，我只是個凡人",
+          "options": [
+            "only a man",
+            "just a soul",
+            "just a man"
+          ],
+          "answer": "just a man"
+        },
+        {
+          "number": 29,
+          "lineId": "line-28",
+          "prompt": "When he {{blank}}, when he 〔第 30 題〕",
+          "promptZh": "當他緊緊擁抱你，將你拉近",
+          "options": [
+            "holds you close",
+            "holds you tight",
+            "holds you near"
+          ],
+          "answer": "holds you close"
+        },
+        {
+          "number": 30,
+          "lineId": "line-28",
+          "prompt": "When he 〔第 29 題〕, when he {{blank}}",
+          "promptZh": "當他緊緊擁抱你，將你拉近",
+          "options": [
+            "pulls you near",
+            "pulls you close",
+            "pulls you in"
+          ],
+          "answer": "pulls you near"
+        },
+        {
+          "number": 31,
+          "lineId": "line-29",
+          "prompt": "When he says the words you've been {{blank}}",
+          "promptZh": "當他說出你一直渴望聽到的話",
+          "options": [
+            "waiting to hear",
+            "wanting to hear",
+            "needing to hear"
+          ],
+          "answer": "needing to hear"
+        },
+        {
+          "number": 32,
+          "lineId": "line-30",
+          "prompt": "I'll {{blank}} 'cause those 〔第 33 題〕",
+          "promptZh": "我會希望我是他，因為那些話本該是我的",
+          "options": [
+            "wish I were him",
+            "wish I was him",
+            "wish I could be him"
+          ],
+          "answer": "wish I was him"
+        },
+        {
+          "number": 33,
+          "lineId": "line-30",
+          "prompt": "I'll 〔第 32 題〕 'cause those {{blank}}",
+          "promptZh": "我會希望我是他，因為那些話本該是我的",
+          "options": [
+            "words are all mine",
+            "words were mine",
+            "words are mine"
+          ],
+          "answer": "words are mine"
+        },
+        {
+          "number": 34,
+          "lineId": "line-31",
+          "prompt": "To say to you 'til the {{blank}}",
+          "promptZh": "對你說，直到時間的盡頭",
+          "options": [
+            "end of time",
+            "end of days",
+            "end of the line"
+          ],
+          "answer": "end of time"
+        },
+        {
+          "number": 35,
+          "lineId": "line-32",
+          "prompt": "Yeah, I will {{blank}}",
+          "promptZh": "耶，我會愛你，寶貝，永遠",
+          "options": [
+            "love you, darling, always",
+            "love you, baby, always",
+            "love you, baby, now"
+          ],
+          "answer": "love you, baby, always"
+        },
+        {
+          "number": 36,
+          "lineId": "line-34",
+          "prompt": "If you told me to {{blank}}",
+          "promptZh": "如果你要我為你哭泣",
+          "options": [
+            "cry to you",
+            "cry for love",
+            "cry for you"
+          ],
+          "answer": "cry for you"
+        },
+        {
+          "number": 37,
+          "lineId": "line-35",
+          "prompt": "{{blank}}",
+          "promptZh": "我會哭",
+          "options": [
+            "I could",
+            "I can",
+            "I will"
+          ],
+          "answer": "I could"
+        },
+        {
+          "number": 38,
+          "lineId": "line-36",
+          "prompt": "If you told me to {{blank}}",
+          "promptZh": "如果你要我為你而死",
+          "options": [
+            "die for love",
+            "die for you",
+            "die to you"
+          ],
+          "answer": "die for you"
+        },
+        {
+          "number": 39,
+          "lineId": "line-37",
+          "prompt": "{{blank}}",
+          "promptZh": "我會做",
+          "options": [
+            "I would",
+            "I will",
+            "I could"
+          ],
+          "answer": "I would"
+        },
+        {
+          "number": 40,
+          "lineId": "line-38",
+          "prompt": "{{blank}}",
+          "promptZh": "看著我的臉",
+          "options": [
+            "Take a look at my eyes",
+            "Take a look at my face",
+            "Take a good look at my face"
+          ],
+          "answer": "Take a look at my face"
+        },
+        {
+          "number": 41,
+          "lineId": "line-39",
+          "prompt": "There's {{blank}}",
+          "promptZh": "沒有我付不起的代價",
+          "options": [
+            "no price I will not pay",
+            "no price I wouldn't pay",
+            "no price I won't pay"
+          ],
+          "answer": "no price I won't pay"
+        },
+        {
+          "number": 42,
+          "lineId": "line-40",
+          "prompt": "To {{blank}}",
+          "promptZh": "只為了對你說出這些話",
+          "options": [
+            "speak these words to you",
+            "say the words to you",
+            "say these words to you"
+          ],
+          "answer": "say these words to you"
+        },
+        {
+          "number": 43,
+          "lineId": "line-41",
+          "prompt": "Well, there {{blank}}",
+          "promptZh": "嗯，這副灌了鉛的骰子裡",
+          "options": [
+            "isn't no luck",
+            "ain't no luck",
+            "is no luck"
+          ],
+          "answer": "ain't no luck"
+        },
+        {
+          "number": 44,
+          "lineId": "line-42",
+          "prompt": "In these {{blank}}",
+          "promptZh": "沒有任何運氣可言",
+          "options": [
+            "loaded dice",
+            "rolling dice",
+            "broken dice"
+          ],
+          "answer": "loaded dice"
+        },
+        {
+          "number": 45,
+          "lineId": "line-43",
+          "prompt": "But, baby, if you give me {{blank}}",
+          "promptZh": "但寶貝，如果你再給我一次機會",
+          "options": [
+            "one more chance",
+            "just one last try",
+            "just one more try"
+          ],
+          "answer": "just one more try"
+        },
+        {
+          "number": 46,
+          "lineId": "line-44",
+          "prompt": "We can {{blank}} and our old lives",
+          "promptZh": "我們可以打包起舊夢與舊生活",
+          "options": [
+            "pack up all our dreams",
+            "pack up our old dreams",
+            "pack up our old lives"
+          ],
+          "answer": "pack up our old dreams"
+        },
+        {
+          "number": 47,
+          "lineId": "line-45",
+          "prompt": "{{blank}} where the 〔第 48 題〕",
+          "promptZh": "我們會找到一個陽光依然閃耀的地方",
+          "options": [
+            "We'll find a place",
+            "We can find a place",
+            "We will find a place"
+          ],
+          "answer": "We'll find a place"
+        },
+        {
+          "number": 48,
+          "lineId": "line-45",
+          "prompt": "〔第 47 題〕 where the {{blank}}",
+          "promptZh": "我們會找到一個陽光依然閃耀的地方",
+          "options": [
+            "sun always shines",
+            "sun still shines",
+            "sun will shine"
+          ],
+          "answer": "sun still shines"
+        },
+        {
+          "number": 49,
+          "lineId": "line-46",
+          "prompt": "And I will {{blank}}",
+          "promptZh": "而我會愛你，寶貝，永遠",
+          "options": [
+            "love you, baby, now",
+            "love you, darling, always",
+            "love you, baby, always"
+          ],
+          "answer": "love you, baby, always"
+        },
+        {
+          "number": 50,
+          "lineId": "line-54",
+          "prompt": "Oh baby, {{blank}}",
+          "promptZh": "噢寶貝，別對我做錯事",
+          "options": [
+            "don't you do me no wrong",
+            "don't you do me no harm",
+            "don't do me no wrong"
+          ],
+          "answer": "don't you do me no wrong"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "But you can't {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "It's {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "That this {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "It's been {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Now I'm {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "You see I've {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "But {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:10}} it's {{q:11}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Well, {{q:12}} that good anymore"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "But, baby, {{q:13}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Yeah, I will {{q:14}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And I'll {{q:15}} and a day, always"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:16}} the {{q:17}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "'Til the {{q:18}} and the {{q:19}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "And I {{q:20}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "You'll be {{q:21}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "And I'll love you always"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Now your {{q:22}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Are just {{q:23}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Some that {{q:24}}, some that made us cry"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "One that made you have to say goodbye"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "What I'd give to {{q:25}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "To touch your lips, to {{q:26}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "When you {{q:27}}, try to understand"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I've made mistakes, I'm {{q:28}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "When he {{q:29}}, when he {{q:30}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "When he says the words you've been {{q:31}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I'll {{q:32}} 'cause those {{q:33}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "To say to you 'til the {{q:34}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Yeah, I will {{q:35}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And I'll be there forever and a day, always"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "If you told me to {{q:36}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "{{q:37}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "If you told me to {{q:38}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "{{q:39}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:40}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "There's {{q:41}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "To {{q:42}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Well, there {{q:43}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "In these {{q:44}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "But, baby, if you give me {{q:45}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "We can {{q:46}} and our old lives"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "{{q:47}} where the {{q:48}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "And I will {{q:49}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "And I'll be there forever and a day, always"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I'll be there 'til the stars don't shine"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "'Til the heavens burst and the words don't rhyme"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "And I know when I die"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "You'll be on my mind"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "And I'll love you, always"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Always"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Oh baby, {{q:50}}"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Baby, don't you do me no wrong"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Oh baby, don't you do me no wrong, oh no"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Oh, yeah, yeah yeah yeah"
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/always/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/always/cover.webp",
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Always_.pdf",
+      "sha256": "6426f769c26763b5c6fa79d5c7746fb0ff0b2ba861fa769b12d938eb79e3d1f0"
+    },
+    "md": {
+      "filename": "Always_Vocabulary_Quiz.md",
+      "sha256": "473a9ba85a1f35eb50ba82a06209576f8191bb7fed61e96fefe57e3075539406"
+    },
+    "mp3": {
+      "filename": "Always [p__81XMLRvA].mp3",
+      "sha256": "7c991ed9d5e999b261fc55c74081859c689e6b9290f7047f758d42f86ee7352f"
+    }
+  },
+  "audioAlignment": {
+    "duration": 353.0266875,
+    "audioSha256": "7c991ed9d5e999b261fc55c74081859c689e6b9290f7047f758d42f86ee7352f",
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "coverage": 0.8464759246336357,
+    "timedLines": 42,
+    "untimedLines": [
+      13,
+      14,
+      30,
+      32,
+      33,
+      40,
+      46,
+      47,
+      49,
+      50,
+      53,
+      54,
+      55,
+      56,
+      57
+    ],
+    "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  }
+}

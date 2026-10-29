@@ -1,0 +1,3060 @@
+{
+  "slug": "perfect",
+  "title": "Perfect",
+  "singer": "Ed Sheeran",
+  "description": "《Perfect》描寫一段從青澀初戀逐漸走向成熟承諾的真摯愛情。歌中的主角回想兩人年輕時相愛，當時還不懂愛情真正的意義，但隨著時間過去，他更加確定對方就是自己想共度一生的人。他欣賞她的美麗，也珍惜她的堅強、夢想與陪伴，甚至開始憧憬共同建立家庭、養育孩子的未來。歌曲中的跳舞、擁抱與熟悉的旋律，營造出溫柔而浪漫的畫面。最終，《Perfect》傳達的是珍惜、承諾與長久陪伴：真正的愛不只是心動，而是願意一起成長、面對困難，並在彼此眼中看見未來與幸福。",
+  "exercise_name": "Perfect · Listening & Vocabulary",
+  "tags": [
+    "ed sheeran",
+    "perfect",
+    "love",
+    "commitment"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "I found a love for me",
+      "chinese": "我終於找到了屬於自己的愛",
+      "startSeconds": 1.86,
+      "endSeconds": 8.26
+    },
+    {
+      "lineId": "line-2",
+      "english": "Darling, just dive right in and follow my lead",
+      "chinese": "親愛的，就勇敢地投入這份愛，跟隨我的腳步",
+      "startSeconds": 8.26,
+      "endSeconds": 16.02
+    },
+    {
+      "lineId": "line-3",
+      "english": "Well, I found a girl, beautiful and sweet",
+      "chinese": "我遇見了一個女孩，美麗而溫柔",
+      "startSeconds": 17.63,
+      "endSeconds": 23.84
+    },
+    {
+      "lineId": "line-4",
+      "english": "Oh, I never knew you were the someone waiting for me",
+      "chinese": "噢，我從未想過，原來妳就是那個一直等待著我的人",
+      "startSeconds": 23.84,
+      "endSeconds": 29.64
+    },
+    {
+      "lineId": "line-5",
+      "english": "'Cause we were just kids when we fell in love",
+      "chinese": "因為當我們墜入愛河時，都還只是懵懂的孩子",
+      "startSeconds": 29.64,
+      "endSeconds": 36.38
+    },
+    {
+      "lineId": "line-6",
+      "english": "Not knowing what it was",
+      "chinese": "那時的我們，還不懂愛究竟是什麼",
+      "startSeconds": 36.38,
+      "endSeconds": 40.26
+    },
+    {
+      "lineId": "line-7",
+      "english": "I will not give you up this time",
+      "chinese": "但這一次，我絕不會放棄妳",
+      "startSeconds": 40.26,
+      "endSeconds": 47.72
+    },
+    {
+      "lineId": "line-8",
+      "english": "But darling, just kiss me slow",
+      "chinese": "親愛的，就這樣輕輕地、緩緩地吻我吧",
+      "startSeconds": 47.72,
+      "endSeconds": 51.34
+    },
+    {
+      "lineId": "line-9",
+      "english": "Your heart is all I own",
+      "chinese": "妳的心，是我所擁有的一切",
+      "startSeconds": 51.34,
+      "endSeconds": 55.32
+    },
+    {
+      "lineId": "line-10",
+      "english": "And in your eyes you're holding mine",
+      "chinese": "而在妳的眼眸裡，我看見妳也將我的心珍藏",
+      "startSeconds": 55.32,
+      "endSeconds": 61.34
+    },
+    {
+      "lineId": "line-11",
+      "english": "Baby, I'm dancing in the dark",
+      "chinese": "寶貝，我正與妳在夜色中翩翩起舞",
+      "startSeconds": 61.92,
+      "endSeconds": 68.62
+    },
+    {
+      "lineId": "line-12",
+      "english": "With you between my arms",
+      "chinese": "將妳輕輕擁在懷裡",
+      "startSeconds": 68.62,
+      "endSeconds": 72.74
+    },
+    {
+      "lineId": "line-13",
+      "english": "Barefoot on the grass",
+      "chinese": "赤著雙腳，踏在青草地上",
+      "startSeconds": 73.34,
+      "endSeconds": 76.46
+    },
+    {
+      "lineId": "line-14",
+      "english": "Listening to our favourite song",
+      "chinese": "聆聽著我們最喜愛的那首歌",
+      "startSeconds": 77.6,
+      "endSeconds": 80.4
+    },
+    {
+      "lineId": "line-15",
+      "english": "When you said you looked a mess",
+      "chinese": "當妳說自己看起來狼狽不堪",
+      "startSeconds": 80.4,
+      "endSeconds": 83.76
+    },
+    {
+      "lineId": "line-16",
+      "english": "I whispered underneath my breath",
+      "chinese": "我便低聲呢喃，幾乎輕不可聞",
+      "startSeconds": 83.76,
+      "endSeconds": 87.64
+    },
+    {
+      "lineId": "line-17",
+      "english": "But you heard it,",
+      "chinese": "可妳還是聽見了",
+      "startSeconds": 87.64,
+      "endSeconds": 90.4
+    },
+    {
+      "lineId": "line-18",
+      "english": "Darling, you look perfect tonight",
+      "chinese": "親愛的，今晚的妳，美得無可挑剔",
+      "startSeconds": 90.7,
+      "endSeconds": 95.42
+    },
+    {
+      "lineId": "line-19",
+      "english": "Well, I found a woman, stronger than anyone I know",
+      "chinese": "我遇見了一位女子，她比我所認識的任何人都更加堅強",
+      "startSeconds": 99.94,
+      "endSeconds": 107.72
+    },
+    {
+      "lineId": "line-20",
+      "english": "She shares my dreams, I hope that someday I'll share her home",
+      "chinese": "她與我懷抱著共同的夢想，而我盼望有一天，能與她共築一個家",
+      "startSeconds": 107.72,
+      "endSeconds": 114.62
+    },
+    {
+      "lineId": "line-21",
+      "english": "I found a love to carry more than just my secrets",
+      "chinese": "我找到了一份愛，能與我共同承擔的，遠不只是心底的祕密",
+      "startSeconds": 115.7,
+      "endSeconds": 123.54
+    },
+    {
+      "lineId": "line-22",
+      "english": "To carry love, to carry children of our own",
+      "chinese": "更能與我一同承載愛，養育屬於我們的孩子",
+      "startSeconds": 123.54,
+      "endSeconds": 130.06
+    },
+    {
+      "lineId": "line-23",
+      "english": "We are still kids but we're so in love",
+      "chinese": "我們依然像孩子般青澀，卻如此深愛著彼此",
+      "startSeconds": 130.06,
+      "endSeconds": 134.88
+    },
+    {
+      "lineId": "line-24",
+      "english": "Fighting against all odds",
+      "chinese": "即使面對重重困難，也要攜手迎難而上",
+      "startSeconds": 134.88,
+      "endSeconds": 138.84
+    },
+    {
+      "lineId": "line-25",
+      "english": "I know we'll be alright this time",
+      "chinese": "我知道，這一次，我們一定能好好走下去",
+      "startSeconds": 138.84,
+      "endSeconds": 145.82
+    },
+    {
+      "lineId": "line-26",
+      "english": "Darling, just hold my hand",
+      "chinese": "親愛的，就這樣牽著我的手吧",
+      "startSeconds": 145.82,
+      "endSeconds": 149.96
+    },
+    {
+      "lineId": "line-27",
+      "english": "Be my girl, I'll be your man",
+      "chinese": "做我的女孩，而我會成為妳的男人",
+      "startSeconds": 149.96,
+      "endSeconds": 153.72
+    },
+    {
+      "lineId": "line-28",
+      "english": "I see my future in your eyes",
+      "chinese": "在妳的眼眸裡，我看見了自己的未來",
+      "startSeconds": 153.72,
+      "endSeconds": 159.88
+    },
+    {
+      "lineId": "line-29",
+      "english": "Baby, I'm dancing in the dark",
+      "chinese": "寶貝，我正與妳在夜色中翩翩起舞",
+      "startSeconds": 159.88,
+      "endSeconds": 167.28
+    },
+    {
+      "lineId": "line-30",
+      "english": "With you between my arms",
+      "chinese": "將妳輕輕擁在懷裡",
+      "startSeconds": 167.88,
+      "endSeconds": 171.44
+    },
+    {
+      "lineId": "line-31",
+      "english": "Barefoot on the grass",
+      "chinese": "赤著雙腳，踏在青草地上",
+      "startSeconds": 171.44,
+      "endSeconds": 175.04
+    },
+    {
+      "lineId": "line-32",
+      "english": "Listening to our favourite song",
+      "chinese": "聆聽著我們最喜愛的那首歌",
+      "startSeconds": 175.88,
+      "endSeconds": 178.94
+    },
+    {
+      "lineId": "line-33",
+      "english": "When I saw you in that dress",
+      "chinese": "當我看見妳穿著那件洋裝",
+      "startSeconds": 178.94,
+      "endSeconds": 182.35
+    },
+    {
+      "lineId": "line-34",
+      "english": "Looking so beautiful",
+      "chinese": "看起來是如此美麗動人",
+      "startSeconds": 182.44,
+      "endSeconds": 184.66
+    },
+    {
+      "lineId": "line-35",
+      "english": "I don't deserve this",
+      "chinese": "我何其幸運，竟能擁有這般美好",
+      "startSeconds": 184.66,
+      "endSeconds": 188.88
+    },
+    {
+      "lineId": "line-36",
+      "english": "Darling, you look perfect tonight",
+      "chinese": "親愛的，今晚的妳，美得無可挑剔",
+      "startSeconds": 188.88,
+      "endSeconds": 193.88
+    },
+    {
+      "lineId": "line-37",
+      "english": "No, no, no",
+      "chinese": "不，不，不"
+    },
+    {
+      "lineId": "line-38",
+      "english": "Baby, I'm dancing in the dark",
+      "chinese": "寶貝，我正與妳在夜色中翩翩起舞",
+      "startSeconds": 207.24,
+      "endSeconds": 212.78
+    },
+    {
+      "lineId": "line-39",
+      "english": "With you between my arms",
+      "chinese": "將妳輕輕擁在懷裡",
+      "startSeconds": 213.32,
+      "endSeconds": 216.86
+    },
+    {
+      "lineId": "line-40",
+      "english": "Barefoot on the grass",
+      "chinese": "赤著雙腳，踏在青草地上",
+      "startSeconds": 216.86,
+      "endSeconds": 220.44
+    },
+    {
+      "lineId": "line-41",
+      "english": "Listening to our favourite song",
+      "chinese": "聆聽著我們最喜愛的那首歌",
+      "startSeconds": 221.6,
+      "endSeconds": 224.42
+    },
+    {
+      "lineId": "line-42",
+      "english": "I have faith in what I see",
+      "chinese": "我深信眼前所見的一切",
+      "startSeconds": 224.42,
+      "endSeconds": 227.66
+    },
+    {
+      "lineId": "line-43",
+      "english": "Now I know I have met an angel in person ",
+      "chinese": "如今我終於明白，原來我真的遇見了一位降臨人間的天使",
+      "startSeconds": 227.66,
+      "endSeconds": 234.08
+    },
+    {
+      "lineId": "line-44",
+      "english": "And she looks perfect",
+      "chinese": "而她，是如此完美",
+      "startSeconds": 234.08,
+      "endSeconds": 237.56
+    },
+    {
+      "lineId": "line-45",
+      "english": "I don't deserve this ",
+      "chinese": "這份美好，讓我覺得自己何其幸運，甚至不敢奢求",
+      "startSeconds": 237.56,
+      "endSeconds": 241.98
+    },
+    {
+      "lineId": "line-46",
+      "english": "You look perfect tonight",
+      "chinese": "今晚的妳，美得無可挑剔",
+      "startSeconds": 241.98,
+      "endSeconds": 246.5
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Dive right in",
+      "meaning": "立刻投入、勇敢開始做某件事",
+      "usage": "當你想鼓勵朋友不要一直等，直接開始一件新事情時，可以使用。",
+      "prompt": "哪一句正確使用了「Dive right in」？",
+      "options": [
+        "I wanted to learn to swim, so I dived right in and joined a class.",
+        "We dived right in our breakfast with a pencil.",
+        "She dived right in the blue because it was Tuesday.",
+        "I dived right in my shoes because they were wet."
+      ],
+      "answer": 0,
+      "explanation": "正確：直接報名課程，表示勇敢開始學習。",
+      "optionExplanations": [
+        "正確：直接報名課程，表示勇敢開始學習。",
+        "錯誤：不能用鉛筆「投入」早餐；這個片語用來說開始活動。",
+        "錯誤：the blue 不能這樣接在 dive right in 後面。",
+        "錯誤：鞋子濕了不能用 dive right in 表示弄乾或穿鞋。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Follow my lead",
+      "meaning": "照我的方式做、跟著我做",
+      "usage": "當你正在示範舞步、遊戲或新工作，希望別人照著做時可以說。",
+      "prompt": "哪一句正確使用了「Follow my lead」？",
+      "options": [
+        "Follow my lead into a glass of water and drink it.",
+        "Follow my lead, and put the chairs in the same place as me.",
+        "I followed my lead to eat a blue window.",
+        "The dog followed my lead because the cake was loud."
+      ],
+      "answer": 1,
+      "explanation": "正確：請別人跟著自己的示範擺椅子。",
+      "optionExplanations": [
+        "錯誤：這裡不是請人模仿做事，而是把片語錯當成物品。",
+        "正確：請別人跟著自己的示範擺椅子。",
+        "錯誤：不能把窗戶當食物，也沒有清楚的示範對象。",
+        "錯誤：蛋糕不會很大聲，這句也沒有合理的帶領情境。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Fall in love",
+      "meaning": "愛上某人、墜入愛河",
+      "usage": "當你想說自己開始對某人產生愛情時使用，常接 with + 人。",
+      "prompt": "哪一句正確使用了「Fall in love」？",
+      "options": [
+        "Mia fell in love with Ben after they spent time together.",
+        "He falls in love to the bus stop every day.",
+        "I fell in love with my chair when it broke.",
+        "We fell in love the homework before dinner."
+      ],
+      "answer": 0,
+      "explanation": "正確：表示 Mia 漸漸愛上 Ben。",
+      "optionExplanations": [
+        "正確：表示 Mia 漸漸愛上 Ben。",
+        "錯誤：去公車站不能使用 fall in love to。",
+        "錯誤：椅子壞掉與愛情無關，這裡不符合一般用法。",
+        "錯誤：fall in love 後面需要 with 才能接對象。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Give someone up",
+      "meaning": "放棄某人、不再努力維持關係",
+      "usage": "談到不願放棄重要的人或感情時可以使用；代名詞要放在 give 和 up 中間。",
+      "prompt": "哪一句正確使用了「Give someone up」？",
+      "options": [
+        "They gave the rain up to make it sunny.",
+        "I gave my friend up a bottle of juice.",
+        "She gave up him a ticket yesterday.",
+        "I won’t give you up when things get difficult."
+      ],
+      "answer": 3,
+      "explanation": "正確：表示即使遇到困難，也不會放棄對方。",
+      "optionExplanations": [
+        "錯誤：人無法用 give up 控制雨停。",
+        "錯誤：給朋友果汁應說 gave my friend a bottle of juice。",
+        "錯誤：代名詞 him 應放在 give 和 up 中間，而且此句想表達給票。",
+        "正確：表示即使遇到困難，也不會放棄對方。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "In the dark",
+      "meaning": "在黑暗中；不知道某件事",
+      "usage": "當周圍沒有光，或自己不清楚事情的情況時可以使用。",
+      "prompt": "哪一句正確使用了「In the dark」？",
+      "options": [
+        "I ate in the dark of a blue idea.",
+        "We used a small light to read in the dark.",
+        "She in the dark to school at nine.",
+        "My phone is in the dark because it is hungry."
+      ],
+      "answer": 1,
+      "explanation": "正確：在沒有足夠光線的地方閱讀，所以需要小燈。",
+      "optionExplanations": [
+        "錯誤：dark of a blue idea 不是自然的英文搭配。",
+        "正確：在沒有足夠光線的地方閱讀，所以需要小燈。",
+        "錯誤：缺少動詞，而且片語不能直接表示去學校。",
+        "錯誤：手機不會餓，也不是用這片語描述電量。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Barefoot",
+      "meaning": "赤腳的、光著腳",
+      "usage": "在沙灘、草地或家裡沒有穿鞋襪時可以使用。",
+      "prompt": "哪一句正確使用了「Barefoot」？",
+      "options": [
+        "He bought a barefoot to wear to school.",
+        "My bag was barefoot because it had no books.",
+        "I walked barefoot on the beach.",
+        "We ate barefoot with a spoon of music."
+      ],
+      "answer": 2,
+      "explanation": "正確：表示在海灘上赤腳走路。",
+      "optionExplanations": [
+        "錯誤：barefoot 不是可以買來穿的鞋子。",
+        "錯誤：barefoot 描述人沒有穿鞋，不能描述空書包。",
+        "正確：表示在海灘上赤腳走路。",
+        "錯誤：音樂不能用湯匙吃；這也不是赤腳的情境。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Look a mess",
+      "meaning": "看起來很亂、很狼狽",
+      "usage": "當頭髮、衣服或整體外表不整齊時可以這樣說。",
+      "prompt": "哪一句正確使用了「Look a mess」？",
+      "options": [
+        "I look a mess after playing in the rain.",
+        "They look a mess their lunch at noon.",
+        "The clock looks a mess because it is three o’clock.",
+        "She looks a mess to the supermarket every Sunday."
+      ],
+      "answer": 0,
+      "explanation": "正確：淋雨後外表狼狽，很適合用這個片語。",
+      "optionExplanations": [
+        "正確：淋雨後外表狼狽，很適合用這個片語。",
+        "錯誤：look a mess 後面不能直接接 lunch 作受詞。",
+        "錯誤：三點鐘本身不能說明時鐘很亂。",
+        "錯誤：這個片語不能表示去超市。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Share a dream",
+      "meaning": "擁有共同的夢想、分享夢想",
+      "usage": "當朋友或家人希望達成同一個目標時可以使用。",
+      "prompt": "哪一句正確使用了「Share a dream」？",
+      "options": [
+        "I shared a dream with my sandwich, and it answered me.",
+        "She shared a dream into the kitchen with a shoe.",
+        "He shares a dream to wash the moon every Monday.",
+        "We share a dream to open a little café one day."
+      ],
+      "answer": 3,
+      "explanation": "正確：表示兩個人有開咖啡店的共同夢想。",
+      "optionExplanations": [
+        "錯誤：三明治無法分享夢想或回答問題。",
+        "錯誤：share a dream 不接 into the kitchen 表示移動。",
+        "錯誤：清洗月亮不是一般合理的共同目標。",
+        "正確：表示兩個人有開咖啡店的共同夢想。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Against all odds",
+      "meaning": "即使非常困難、儘管機會很小",
+      "usage": "當一個人面對很多困難，卻仍努力成功時使用。",
+      "prompt": "哪一句正確使用了「Against all odds」？",
+      "options": [
+        "Against all odds, my spoon became a bus at noon.",
+        "We walked against all odds to buy two apples.",
+        "Against all odds, she finished the long race after hurting her foot.",
+        "I put against all odds inside my bag."
+      ],
+      "answer": 2,
+      "explanation": "正確：腳受傷後仍完成長跑，表示克服很大的困難。",
+      "optionExplanations": [
+        "錯誤：湯匙變成公車不是現實中的困難或成功。",
+        "錯誤：平常買蘋果不算是克服極大的困難。",
+        "正確：腳受傷後仍完成長跑，表示克服很大的困難。",
+        "錯誤：against all odds 不是可以放進書包的物品。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Have faith in",
+      "meaning": "相信、對……有信心",
+      "usage": "當你相信某人的能力，或相信一件事情會有好結果時使用。",
+      "prompt": "哪一句正確使用了「Have faith in」？",
+      "options": [
+        "We had faith in a sandwich for breakfast and ate it.",
+        "I have faith in my brother because he always tries his best.",
+        "He has faith in loudly every Friday.",
+        "She has faith in to the park by bus."
+      ],
+      "answer": 1,
+      "explanation": "正確：表示相信弟弟的能力和努力。",
+      "optionExplanations": [
+        "錯誤：早餐吃三明治通常不需要用「有信心」來描述。",
+        "正確：表示相信弟弟的能力和努力。",
+        "錯誤：loudly 是副詞，不能直接當作這裡的信任對象。",
+        "錯誤：have faith in 後面不能接 to the park 表示交通方式。"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I found {{blank}} for me",
+          "promptZh": "我終於找到了屬於自己的愛",
+          "options": [
+            "a love",
+            "a life",
+            "a friend"
+          ],
+          "answer": "a love"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Darling, just {{blank}} and 〔第 3 題〕",
+          "promptZh": "親愛的，就勇敢地投入這份愛，跟隨我的腳步",
+          "options": [
+            "take your time",
+            "dive right in",
+            "drive right on"
+          ],
+          "answer": "dive right in"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Darling, just 〔第 2 題〕 and {{blank}}",
+          "promptZh": "親愛的，就勇敢地投入這份愛，跟隨我的腳步",
+          "options": [
+            "find your way",
+            "follow my lead",
+            "follow my heart"
+          ],
+          "answer": "follow my lead"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "Well, I found a girl, {{blank}}",
+          "promptZh": "我遇見了一個女孩，美麗而溫柔",
+          "options": [
+            "beautiful and free",
+            "wonderful and kind",
+            "beautiful and sweet"
+          ],
+          "answer": "beautiful and sweet"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "Oh, I never knew you were the someone {{blank}}",
+          "promptZh": "噢，我從未想過，原來妳就是那個一直等待著我的人",
+          "options": [
+            "waiting for me",
+            "looking for me",
+            "calling to me"
+          ],
+          "answer": "waiting for me"
+        },
+        {
+          "number": 6,
+          "lineId": "line-5",
+          "prompt": "'Cause we were {{blank}} when we fell in love",
+          "promptZh": "因為當我們墜入愛河時，都還只是懵懂的孩子",
+          "options": [
+            "two kids",
+            "young friends",
+            "just kids"
+          ],
+          "answer": "just kids"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "I will not {{blank}} this time",
+          "promptZh": "但這一次，我絕不會放棄妳",
+          "options": [
+            "give it up",
+            "give you up",
+            "let you down"
+          ],
+          "answer": "give you up"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "But darling, just {{blank}}",
+          "promptZh": "親愛的，就這樣輕輕地、緩緩地吻我吧",
+          "options": [
+            "kiss me slow",
+            "kiss me now",
+            "hold me close"
+          ],
+          "answer": "kiss me slow"
+        },
+        {
+          "number": 9,
+          "lineId": "line-11",
+          "prompt": "Baby, I'm {{blank}}",
+          "promptZh": "寶貝，我正與妳在夜色中翩翩起舞",
+          "options": [
+            "dancing in the dark",
+            "standing in the rain",
+            "dancing in the light"
+          ],
+          "answer": "dancing in the dark"
+        },
+        {
+          "number": 10,
+          "lineId": "line-13",
+          "prompt": "{{blank}} on the grass",
+          "promptZh": "赤著雙腳，踏在青草地上",
+          "options": [
+            "Carefree",
+            "Barely",
+            "Barefoot"
+          ],
+          "answer": "Barefoot"
+        },
+        {
+          "number": 11,
+          "lineId": "line-15",
+          "prompt": "When you said you {{blank}}",
+          "promptZh": "當妳說自己看起來狼狽不堪",
+          "options": [
+            "looked your best",
+            "looked a mess",
+            "felt a mess"
+          ],
+          "answer": "looked a mess"
+        },
+        {
+          "number": 12,
+          "lineId": "line-16",
+          "prompt": "I whispered {{blank}}",
+          "promptZh": "我便低聲呢喃，幾乎輕不可聞",
+          "options": [
+            "underneath the stars",
+            "underneath my breath",
+            "beneath my voice"
+          ],
+          "answer": "underneath my breath"
+        },
+        {
+          "number": 13,
+          "lineId": "line-18",
+          "prompt": "Darling, you look {{blank}}",
+          "promptZh": "親愛的，今晚的妳，美得無可挑剔",
+          "options": [
+            "perfect tonight",
+            "beautiful tonight",
+            "perfect for life"
+          ],
+          "answer": "perfect tonight"
+        },
+        {
+          "number": 14,
+          "lineId": "line-19",
+          "prompt": "Well, I found a woman, {{blank}} I know",
+          "promptZh": "我遇見了一位女子，她比我所認識的任何人都更加堅強",
+          "options": [
+            "stronger than ever",
+            "braver than anyone",
+            "stronger than anyone"
+          ],
+          "answer": "stronger than anyone"
+        },
+        {
+          "number": 15,
+          "lineId": "line-20",
+          "prompt": "She shares my dreams, I hope that someday I'll {{blank}}",
+          "promptZh": "她與我懷抱著共同的夢想，而我盼望有一天，能與她共築一個家",
+          "options": [
+            "share her home",
+            "share her heart",
+            "build our home"
+          ],
+          "answer": "share her home"
+        },
+        {
+          "number": 16,
+          "lineId": "line-22",
+          "prompt": "To carry love, to {{blank}} of our own",
+          "promptZh": "更能與我一同承載愛，養育屬於我們的孩子",
+          "options": [
+            "carry memories",
+            "raise children",
+            "carry children"
+          ],
+          "answer": "carry children"
+        },
+        {
+          "number": 17,
+          "lineId": "line-24",
+          "prompt": "Fighting against {{blank}}",
+          "promptZh": "即使面對重重困難，也要攜手迎難而上",
+          "options": [
+            "the odds",
+            "all odds",
+            "our fears"
+          ],
+          "answer": "all odds"
+        },
+        {
+          "number": 18,
+          "lineId": "line-26",
+          "prompt": "Darling, just {{blank}}",
+          "promptZh": "親愛的，就這樣牽著我的手吧",
+          "options": [
+            "take my hand",
+            "hold my hand",
+            "hold me close"
+          ],
+          "answer": "hold my hand"
+        },
+        {
+          "number": 19,
+          "lineId": "line-27",
+          "prompt": "{{blank}}, I'll be your man",
+          "promptZh": "做我的女孩，而我會成為妳的男人",
+          "options": [
+            "Be my girl",
+            "Be my world",
+            "Stay my girl"
+          ],
+          "answer": "Be my girl"
+        },
+        {
+          "number": 20,
+          "lineId": "line-28",
+          "prompt": "I see {{blank}} in your eyes",
+          "promptZh": "在妳的眼眸裡，我看見了自己的未來",
+          "options": [
+            "our future",
+            "my feelings",
+            "my future"
+          ],
+          "answer": "my future"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I found {{q:1}} for me"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Darling, just {{q:2}} and {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Well, I found a girl, {{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Oh, I never knew you were the someone {{q:5}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "'Cause we were {{q:6}} when we fell in love"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Not knowing what it was"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I will not {{q:7}} this time"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "But darling, just {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Your heart is all I own"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And in your eyes you're holding mine"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Baby, I'm {{q:9}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "With you between my arms"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:10}} on the grass"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Listening to our favourite song"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "When you said you {{q:11}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I whispered {{q:12}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "But you heard it,"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Darling, you look {{q:13}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Well, I found a woman, {{q:14}} I know"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "She shares my dreams, I hope that someday I'll {{q:15}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I found a love to carry more than just my secrets"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "To carry love, to {{q:16}} of our own"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "We are still kids but we're so in love"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Fighting against {{q:17}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I know we'll be alright this time"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Darling, just {{q:18}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:19}}, I'll be your man"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I see {{q:20}} in your eyes"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Baby, I'm dancing in the dark"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "With you between my arms"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Barefoot on the grass"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Listening to our favourite song"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "When I saw you in that dress"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Looking so beautiful"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I don't deserve this"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Darling, you look perfect tonight"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "No, no, no"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Baby, I'm dancing in the dark"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "With you between my arms"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Barefoot on the grass"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Listening to our favourite song"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I have faith in what I see"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Now I know I have met an angel in person "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "And she looks perfect"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I don't deserve this "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "You look perfect tonight"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I found {{blank}} for me",
+          "promptZh": "我終於找到了屬於自己的愛",
+          "options": [
+            "a friend",
+            "a love",
+            "a life"
+          ],
+          "answer": "a love"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Darling, just {{blank}} and 〔第 3 題〕",
+          "promptZh": "親愛的，就勇敢地投入這份愛，跟隨我的腳步",
+          "options": [
+            "dive right in",
+            "take your time",
+            "drive right on"
+          ],
+          "answer": "dive right in"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Darling, just 〔第 2 題〕 and {{blank}}",
+          "promptZh": "親愛的，就勇敢地投入這份愛，跟隨我的腳步",
+          "options": [
+            "find your way",
+            "follow my heart",
+            "follow my lead"
+          ],
+          "answer": "follow my lead"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "Well, I found a girl, {{blank}}",
+          "promptZh": "我遇見了一個女孩，美麗而溫柔",
+          "options": [
+            "beautiful and sweet",
+            "wonderful and kind",
+            "beautiful and free"
+          ],
+          "answer": "beautiful and sweet"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "Oh, I {{blank}} you were the someone 〔第 6 題〕",
+          "promptZh": "噢，我從未想過，原來妳就是那個一直等待著我的人",
+          "options": [
+            "never thought",
+            "never knew",
+            "always knew"
+          ],
+          "answer": "never knew"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "Oh, I 〔第 5 題〕 you were the someone {{blank}}",
+          "promptZh": "噢，我從未想過，原來妳就是那個一直等待著我的人",
+          "options": [
+            "calling to me",
+            "waiting for me",
+            "looking for me"
+          ],
+          "answer": "waiting for me"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "'Cause we were {{blank}} when we 〔第 8 題〕",
+          "promptZh": "因為當我們墜入愛河時，都還只是懵懂的孩子",
+          "options": [
+            "just kids",
+            "young friends",
+            "two kids"
+          ],
+          "answer": "just kids"
+        },
+        {
+          "number": 8,
+          "lineId": "line-5",
+          "prompt": "'Cause we were 〔第 7 題〕 when we {{blank}}",
+          "promptZh": "因為當我們墜入愛河時，都還只是懵懂的孩子",
+          "options": [
+            "found our way",
+            "fell apart",
+            "fell in love"
+          ],
+          "answer": "fell in love"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "I will not {{blank}} this time",
+          "promptZh": "但這一次，我絕不會放棄妳",
+          "options": [
+            "give it up",
+            "give you up",
+            "let you down"
+          ],
+          "answer": "give you up"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "But darling, just {{blank}}",
+          "promptZh": "親愛的，就這樣輕輕地、緩緩地吻我吧",
+          "options": [
+            "hold me close",
+            "kiss me now",
+            "kiss me slow"
+          ],
+          "answer": "kiss me slow"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "Your heart is {{blank}}",
+          "promptZh": "妳的心，是我所擁有的一切",
+          "options": [
+            "all I own",
+            "all I want",
+            "all I know"
+          ],
+          "answer": "all I own"
+        },
+        {
+          "number": 12,
+          "lineId": "line-11",
+          "prompt": "Baby, I'm {{blank}}",
+          "promptZh": "寶貝，我正與妳在夜色中翩翩起舞",
+          "options": [
+            "dancing in the dark",
+            "dancing in the light",
+            "standing in the rain"
+          ],
+          "answer": "dancing in the dark"
+        },
+        {
+          "number": 13,
+          "lineId": "line-12",
+          "prompt": "With you {{blank}}",
+          "promptZh": "將妳輕輕擁在懷裡",
+          "options": [
+            "within my arms",
+            "between my arms",
+            "inside my heart"
+          ],
+          "answer": "between my arms"
+        },
+        {
+          "number": 14,
+          "lineId": "line-13",
+          "prompt": "{{blank}} on the grass",
+          "promptZh": "赤著雙腳，踏在青草地上",
+          "options": [
+            "Carefree",
+            "Barely",
+            "Barefoot"
+          ],
+          "answer": "Barefoot"
+        },
+        {
+          "number": 15,
+          "lineId": "line-14",
+          "prompt": "Listening to our {{blank}}",
+          "promptZh": "聆聽著我們最喜愛的那首歌",
+          "options": [
+            "favourite sound",
+            "favourite song",
+            "latest song"
+          ],
+          "answer": "favourite song"
+        },
+        {
+          "number": 16,
+          "lineId": "line-15",
+          "prompt": "When you said you {{blank}}",
+          "promptZh": "當妳說自己看起來狼狽不堪",
+          "options": [
+            "looked a mess",
+            "looked your best",
+            "felt a mess"
+          ],
+          "answer": "looked a mess"
+        },
+        {
+          "number": 17,
+          "lineId": "line-16",
+          "prompt": "I whispered {{blank}}",
+          "promptZh": "我便低聲呢喃，幾乎輕不可聞",
+          "options": [
+            "beneath my voice",
+            "underneath the stars",
+            "underneath my breath"
+          ],
+          "answer": "underneath my breath"
+        },
+        {
+          "number": 18,
+          "lineId": "line-18",
+          "prompt": "Darling, you look {{blank}}",
+          "promptZh": "親愛的，今晚的妳，美得無可挑剔",
+          "options": [
+            "perfect for life",
+            "perfect tonight",
+            "beautiful tonight"
+          ],
+          "answer": "perfect tonight"
+        },
+        {
+          "number": 19,
+          "lineId": "line-19",
+          "prompt": "Well, I found a woman, {{blank}} I know",
+          "promptZh": "我遇見了一位女子，她比我所認識的任何人都更加堅強",
+          "options": [
+            "stronger than ever",
+            "braver than anyone",
+            "stronger than anyone"
+          ],
+          "answer": "stronger than anyone"
+        },
+        {
+          "number": 20,
+          "lineId": "line-20",
+          "prompt": "She {{blank}}, I hope that someday I'll 〔第 21 題〕",
+          "promptZh": "她與我懷抱著共同的夢想，而我盼望有一天，能與她共築一個家",
+          "options": [
+            "shares my dreams",
+            "knows my dreams",
+            "shares my hopes"
+          ],
+          "answer": "shares my dreams"
+        },
+        {
+          "number": 21,
+          "lineId": "line-20",
+          "prompt": "She 〔第 20 題〕, I hope that someday I'll {{blank}}",
+          "promptZh": "她與我懷抱著共同的夢想，而我盼望有一天，能與她共築一個家",
+          "options": [
+            "share her home",
+            "share her heart",
+            "build our home"
+          ],
+          "answer": "share her home"
+        },
+        {
+          "number": 22,
+          "lineId": "line-21",
+          "prompt": "I found a love to carry more than just {{blank}}",
+          "promptZh": "我找到了一份愛，能與我共同承擔的，遠不只是心底的祕密",
+          "options": [
+            "my feelings",
+            "our secrets",
+            "my secrets"
+          ],
+          "answer": "my secrets"
+        },
+        {
+          "number": 23,
+          "lineId": "line-22",
+          "prompt": "To carry love, to {{blank}} of our own",
+          "promptZh": "更能與我一同承載愛，養育屬於我們的孩子",
+          "options": [
+            "raise children",
+            "carry children",
+            "carry memories"
+          ],
+          "answer": "carry children"
+        },
+        {
+          "number": 24,
+          "lineId": "line-23",
+          "prompt": "We are {{blank}} but we're so in love",
+          "promptZh": "我們依然像孩子般青澀，卻如此深愛著彼此",
+          "options": [
+            "small kids",
+            "just friends",
+            "still kids"
+          ],
+          "answer": "still kids"
+        },
+        {
+          "number": 25,
+          "lineId": "line-24",
+          "prompt": "Fighting against {{blank}}",
+          "promptZh": "即使面對重重困難，也要攜手迎難而上",
+          "options": [
+            "our fears",
+            "all odds",
+            "the odds"
+          ],
+          "answer": "all odds"
+        },
+        {
+          "number": 26,
+          "lineId": "line-25",
+          "prompt": "I know {{blank}} this time",
+          "promptZh": "我知道，這一次，我們一定能好好走下去",
+          "options": [
+            "we'll be alright",
+            "we'll be alone",
+            "we'll be okay"
+          ],
+          "answer": "we'll be alright"
+        },
+        {
+          "number": 27,
+          "lineId": "line-26",
+          "prompt": "Darling, just {{blank}}",
+          "promptZh": "親愛的，就這樣牽著我的手吧",
+          "options": [
+            "hold me close",
+            "take my hand",
+            "hold my hand"
+          ],
+          "answer": "hold my hand"
+        },
+        {
+          "number": 28,
+          "lineId": "line-27",
+          "prompt": "{{blank}}, I'll be your man",
+          "promptZh": "做我的女孩，而我會成為妳的男人",
+          "options": [
+            "Be my girl",
+            "Be my world",
+            "Stay my girl"
+          ],
+          "answer": "Be my girl"
+        },
+        {
+          "number": 29,
+          "lineId": "line-28",
+          "prompt": "I see {{blank}} in your eyes",
+          "promptZh": "在妳的眼眸裡，我看見了自己的未來",
+          "options": [
+            "my feelings",
+            "my future",
+            "our future"
+          ],
+          "answer": "my future"
+        },
+        {
+          "number": 30,
+          "lineId": "line-33",
+          "prompt": "When I saw you {{blank}}",
+          "promptZh": "當我看見妳穿著那件洋裝",
+          "options": [
+            "in that dress",
+            "in the dress",
+            "in your arms"
+          ],
+          "answer": "in that dress"
+        },
+        {
+          "number": 31,
+          "lineId": "line-35",
+          "prompt": "I {{blank}}",
+          "promptZh": "我何其幸運，竟能擁有這般美好",
+          "options": [
+            "don't expect this",
+            "don't deserve this",
+            "can't believe this"
+          ],
+          "answer": "don't deserve this"
+        },
+        {
+          "number": 32,
+          "lineId": "line-43",
+          "prompt": "Now I know I have {{blank}} in person ",
+          "promptZh": "如今我終於明白，原來我真的遇見了一位降臨人間的天使",
+          "options": [
+            "seen an angel",
+            "met a stranger",
+            "met an angel"
+          ],
+          "answer": "met an angel"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I found {{q:1}} for me"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Darling, just {{q:2}} and {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Well, I found a girl, {{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Oh, I {{q:5}} you were the someone {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "'Cause we were {{q:7}} when we {{q:8}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Not knowing what it was"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I will not {{q:9}} this time"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "But darling, just {{q:10}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Your heart is {{q:11}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And in your eyes you're holding mine"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Baby, I'm {{q:12}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "With you {{q:13}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:14}} on the grass"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Listening to our {{q:15}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "When you said you {{q:16}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I whispered {{q:17}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "But you heard it,"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Darling, you look {{q:18}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Well, I found a woman, {{q:19}} I know"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "She {{q:20}}, I hope that someday I'll {{q:21}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I found a love to carry more than just {{q:22}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "To carry love, to {{q:23}} of our own"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "We are {{q:24}} but we're so in love"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Fighting against {{q:25}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I know {{q:26}} this time"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Darling, just {{q:27}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:28}}, I'll be your man"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I see {{q:29}} in your eyes"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Baby, I'm dancing in the dark"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "With you between my arms"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Barefoot on the grass"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Listening to our favourite song"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "When I saw you {{q:30}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Looking so beautiful"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I {{q:31}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Darling, you look perfect tonight"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "No, no, no"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Baby, I'm dancing in the dark"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "With you between my arms"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Barefoot on the grass"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Listening to our favourite song"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I have faith in what I see"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Now I know I have {{q:32}} in person "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "And she looks perfect"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I don't deserve this "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "You look perfect tonight"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I found {{blank}} for me",
+          "promptZh": "我終於找到了屬於自己的愛",
+          "options": [
+            "a love",
+            "a friend",
+            "a life"
+          ],
+          "answer": "a love"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Darling, just {{blank}} and 〔第 3 題〕",
+          "promptZh": "親愛的，就勇敢地投入這份愛，跟隨我的腳步",
+          "options": [
+            "dive right in",
+            "drive right on",
+            "take your time"
+          ],
+          "answer": "dive right in"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Darling, just 〔第 2 題〕 and {{blank}}",
+          "promptZh": "親愛的，就勇敢地投入這份愛，跟隨我的腳步",
+          "options": [
+            "follow my heart",
+            "find your way",
+            "follow my lead"
+          ],
+          "answer": "follow my lead"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "Well, I found a girl, {{blank}}",
+          "promptZh": "我遇見了一個女孩，美麗而溫柔",
+          "options": [
+            "wonderful and kind",
+            "beautiful and sweet",
+            "beautiful and free"
+          ],
+          "answer": "beautiful and sweet"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "Oh, I {{blank}} you were the someone 〔第 6 題〕",
+          "promptZh": "噢，我從未想過，原來妳就是那個一直等待著我的人",
+          "options": [
+            "never knew",
+            "never thought",
+            "always knew"
+          ],
+          "answer": "never knew"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "Oh, I 〔第 5 題〕 you were the someone {{blank}}",
+          "promptZh": "噢，我從未想過，原來妳就是那個一直等待著我的人",
+          "options": [
+            "calling to me",
+            "waiting for me",
+            "looking for me"
+          ],
+          "answer": "waiting for me"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "'Cause we were {{blank}} when we 〔第 8 題〕",
+          "promptZh": "因為當我們墜入愛河時，都還只是懵懂的孩子",
+          "options": [
+            "two kids",
+            "young friends",
+            "just kids"
+          ],
+          "answer": "just kids"
+        },
+        {
+          "number": 8,
+          "lineId": "line-5",
+          "prompt": "'Cause we were 〔第 7 題〕 when we {{blank}}",
+          "promptZh": "因為當我們墜入愛河時，都還只是懵懂的孩子",
+          "options": [
+            "fell apart",
+            "fell in love",
+            "found our way"
+          ],
+          "answer": "fell in love"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "I will not {{blank}} 〔第 10 題〕",
+          "promptZh": "但這一次，我絕不會放棄妳",
+          "options": [
+            "give it up",
+            "let you down",
+            "give you up"
+          ],
+          "answer": "give you up"
+        },
+        {
+          "number": 10,
+          "lineId": "line-7",
+          "prompt": "I will not 〔第 9 題〕 {{blank}}",
+          "promptZh": "但這一次，我絕不會放棄妳",
+          "options": [
+            "this time",
+            "some day",
+            "tonight"
+          ],
+          "answer": "this time"
+        },
+        {
+          "number": 11,
+          "lineId": "line-8",
+          "prompt": "But darling, just {{blank}}",
+          "promptZh": "親愛的，就這樣輕輕地、緩緩地吻我吧",
+          "options": [
+            "kiss me now",
+            "kiss me slow",
+            "hold me close"
+          ],
+          "answer": "kiss me slow"
+        },
+        {
+          "number": 12,
+          "lineId": "line-9",
+          "prompt": "Your heart is {{blank}}",
+          "promptZh": "妳的心，是我所擁有的一切",
+          "options": [
+            "all I want",
+            "all I know",
+            "all I own"
+          ],
+          "answer": "all I own"
+        },
+        {
+          "number": 13,
+          "lineId": "line-10",
+          "prompt": "And in your eyes {{blank}}",
+          "promptZh": "而在妳的眼眸裡，我看見妳也將我的心珍藏",
+          "options": [
+            "you're holding mine",
+            "you're holding on",
+            "you're reading mine"
+          ],
+          "answer": "you're holding mine"
+        },
+        {
+          "number": 14,
+          "lineId": "line-11",
+          "prompt": "Baby, I'm {{blank}}",
+          "promptZh": "寶貝，我正與妳在夜色中翩翩起舞",
+          "options": [
+            "standing in the rain",
+            "dancing in the dark",
+            "dancing in the light"
+          ],
+          "answer": "dancing in the dark"
+        },
+        {
+          "number": 15,
+          "lineId": "line-12",
+          "prompt": "With you {{blank}}",
+          "promptZh": "將妳輕輕擁在懷裡",
+          "options": [
+            "between my arms",
+            "within my arms",
+            "inside my heart"
+          ],
+          "answer": "between my arms"
+        },
+        {
+          "number": 16,
+          "lineId": "line-13",
+          "prompt": "{{blank}} 〔第 17 題〕",
+          "promptZh": "赤著雙腳，踏在青草地上",
+          "options": [
+            "Carefree",
+            "Barely",
+            "Barefoot"
+          ],
+          "answer": "Barefoot"
+        },
+        {
+          "number": 17,
+          "lineId": "line-13",
+          "prompt": "〔第 16 題〕 {{blank}}",
+          "promptZh": "赤著雙腳，踏在青草地上",
+          "options": [
+            "in the sand",
+            "on the grass",
+            "on the ground"
+          ],
+          "answer": "on the grass"
+        },
+        {
+          "number": 18,
+          "lineId": "line-14",
+          "prompt": "Listening to our {{blank}}",
+          "promptZh": "聆聽著我們最喜愛的那首歌",
+          "options": [
+            "favourite song",
+            "latest song",
+            "favourite sound"
+          ],
+          "answer": "favourite song"
+        },
+        {
+          "number": 19,
+          "lineId": "line-15",
+          "prompt": "When you said you {{blank}}",
+          "promptZh": "當妳說自己看起來狼狽不堪",
+          "options": [
+            "felt a mess",
+            "looked your best",
+            "looked a mess"
+          ],
+          "answer": "looked a mess"
+        },
+        {
+          "number": 20,
+          "lineId": "line-16",
+          "prompt": "I whispered {{blank}}",
+          "promptZh": "我便低聲呢喃，幾乎輕不可聞",
+          "options": [
+            "underneath my breath",
+            "underneath the stars",
+            "beneath my voice"
+          ],
+          "answer": "underneath my breath"
+        },
+        {
+          "number": 21,
+          "lineId": "line-17",
+          "prompt": "But you {{blank}},",
+          "promptZh": "可妳還是聽見了",
+          "options": [
+            "felt it",
+            "said it",
+            "heard it"
+          ],
+          "answer": "heard it"
+        },
+        {
+          "number": 22,
+          "lineId": "line-18",
+          "prompt": "Darling, you look {{blank}}",
+          "promptZh": "親愛的，今晚的妳，美得無可挑剔",
+          "options": [
+            "perfect for life",
+            "perfect tonight",
+            "beautiful tonight"
+          ],
+          "answer": "perfect tonight"
+        },
+        {
+          "number": 23,
+          "lineId": "line-19",
+          "prompt": "Well, I found a woman, {{blank}} I know",
+          "promptZh": "我遇見了一位女子，她比我所認識的任何人都更加堅強",
+          "options": [
+            "stronger than anyone",
+            "braver than anyone",
+            "stronger than ever"
+          ],
+          "answer": "stronger than anyone"
+        },
+        {
+          "number": 24,
+          "lineId": "line-20",
+          "prompt": "She {{blank}}, I hope that someday I'll 〔第 25 題〕",
+          "promptZh": "她與我懷抱著共同的夢想，而我盼望有一天，能與她共築一個家",
+          "options": [
+            "knows my dreams",
+            "shares my hopes",
+            "shares my dreams"
+          ],
+          "answer": "shares my dreams"
+        },
+        {
+          "number": 25,
+          "lineId": "line-20",
+          "prompt": "She 〔第 24 題〕, I hope that someday I'll {{blank}}",
+          "promptZh": "她與我懷抱著共同的夢想，而我盼望有一天，能與她共築一個家",
+          "options": [
+            "share her heart",
+            "share her home",
+            "build our home"
+          ],
+          "answer": "share her home"
+        },
+        {
+          "number": 26,
+          "lineId": "line-21",
+          "prompt": "I found a love to {{blank}} just 〔第 27 題〕",
+          "promptZh": "我找到了一份愛，能與我共同承擔的，遠不只是心底的祕密",
+          "options": [
+            "carry less than",
+            "care for more than",
+            "carry more than"
+          ],
+          "answer": "carry more than"
+        },
+        {
+          "number": 27,
+          "lineId": "line-21",
+          "prompt": "I found a love to 〔第 26 題〕 just {{blank}}",
+          "promptZh": "我找到了一份愛，能與我共同承擔的，遠不只是心底的祕密",
+          "options": [
+            "my feelings",
+            "my secrets",
+            "our secrets"
+          ],
+          "answer": "my secrets"
+        },
+        {
+          "number": 28,
+          "lineId": "line-22",
+          "prompt": "To carry love, to {{blank}} of our own",
+          "promptZh": "更能與我一同承載愛，養育屬於我們的孩子",
+          "options": [
+            "carry children",
+            "carry memories",
+            "raise children"
+          ],
+          "answer": "carry children"
+        },
+        {
+          "number": 29,
+          "lineId": "line-23",
+          "prompt": "We are {{blank}} but we're so in love",
+          "promptZh": "我們依然像孩子般青澀，卻如此深愛著彼此",
+          "options": [
+            "just friends",
+            "small kids",
+            "still kids"
+          ],
+          "answer": "still kids"
+        },
+        {
+          "number": 30,
+          "lineId": "line-24",
+          "prompt": "Fighting against {{blank}}",
+          "promptZh": "即使面對重重困難，也要攜手迎難而上",
+          "options": [
+            "all odds",
+            "our fears",
+            "the odds"
+          ],
+          "answer": "all odds"
+        },
+        {
+          "number": 31,
+          "lineId": "line-25",
+          "prompt": "I know {{blank}} this time",
+          "promptZh": "我知道，這一次，我們一定能好好走下去",
+          "options": [
+            "we'll be okay",
+            "we'll be alright",
+            "we'll be alone"
+          ],
+          "answer": "we'll be alright"
+        },
+        {
+          "number": 32,
+          "lineId": "line-26",
+          "prompt": "Darling, just {{blank}}",
+          "promptZh": "親愛的，就這樣牽著我的手吧",
+          "options": [
+            "take my hand",
+            "hold my hand",
+            "hold me close"
+          ],
+          "answer": "hold my hand"
+        },
+        {
+          "number": 33,
+          "lineId": "line-27",
+          "prompt": "{{blank}}, I'll be your man",
+          "promptZh": "做我的女孩，而我會成為妳的男人",
+          "options": [
+            "Be my girl",
+            "Stay my girl",
+            "Be my world"
+          ],
+          "answer": "Be my girl"
+        },
+        {
+          "number": 34,
+          "lineId": "line-28",
+          "prompt": "I see {{blank}} in your eyes",
+          "promptZh": "在妳的眼眸裡，我看見了自己的未來",
+          "options": [
+            "our future",
+            "my feelings",
+            "my future"
+          ],
+          "answer": "my future"
+        },
+        {
+          "number": 35,
+          "lineId": "line-33",
+          "prompt": "When I saw you {{blank}}",
+          "promptZh": "當我看見妳穿著那件洋裝",
+          "options": [
+            "in that dress",
+            "in the dress",
+            "in your arms"
+          ],
+          "answer": "in that dress"
+        },
+        {
+          "number": 36,
+          "lineId": "line-34",
+          "prompt": "Looking {{blank}}",
+          "promptZh": "看起來是如此美麗動人",
+          "options": [
+            "too beautiful",
+            "so wonderful",
+            "so beautiful"
+          ],
+          "answer": "so beautiful"
+        },
+        {
+          "number": 37,
+          "lineId": "line-35",
+          "prompt": "I {{blank}}",
+          "promptZh": "我何其幸運，竟能擁有這般美好",
+          "options": [
+            "can't believe this",
+            "don't deserve this",
+            "don't expect this"
+          ],
+          "answer": "don't deserve this"
+        },
+        {
+          "number": 38,
+          "lineId": "line-42",
+          "prompt": "I have {{blank}}",
+          "promptZh": "我深信眼前所見的一切",
+          "options": [
+            "faith in what you say",
+            "hope in what I feel",
+            "faith in what I see"
+          ],
+          "answer": "faith in what I see"
+        },
+        {
+          "number": 39,
+          "lineId": "line-43",
+          "prompt": "Now I know I have {{blank}} in person ",
+          "promptZh": "如今我終於明白，原來我真的遇見了一位降臨人間的天使",
+          "options": [
+            "met an angel",
+            "met a stranger",
+            "seen an angel"
+          ],
+          "answer": "met an angel"
+        },
+        {
+          "number": 40,
+          "lineId": "line-44",
+          "prompt": "And she {{blank}}",
+          "promptZh": "而她，是如此完美",
+          "options": [
+            "looks lovely",
+            "looks perfect",
+            "seems perfect"
+          ],
+          "answer": "looks perfect"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I found {{q:1}} for me"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Darling, just {{q:2}} and {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Well, I found a girl, {{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Oh, I {{q:5}} you were the someone {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "'Cause we were {{q:7}} when we {{q:8}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Not knowing what it was"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I will not {{q:9}} {{q:10}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "But darling, just {{q:11}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Your heart is {{q:12}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And in your eyes {{q:13}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Baby, I'm {{q:14}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "With you {{q:15}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:16}} {{q:17}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Listening to our {{q:18}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "When you said you {{q:19}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I whispered {{q:20}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "But you {{q:21}},"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Darling, you look {{q:22}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Well, I found a woman, {{q:23}} I know"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "She {{q:24}}, I hope that someday I'll {{q:25}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I found a love to {{q:26}} just {{q:27}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "To carry love, to {{q:28}} of our own"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "We are {{q:29}} but we're so in love"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Fighting against {{q:30}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I know {{q:31}} this time"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Darling, just {{q:32}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:33}}, I'll be your man"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I see {{q:34}} in your eyes"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Baby, I'm dancing in the dark"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "With you between my arms"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Barefoot on the grass"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Listening to our favourite song"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "When I saw you {{q:35}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Looking {{q:36}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I {{q:37}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Darling, you look perfect tonight"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "No, no, no"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Baby, I'm dancing in the dark"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "With you between my arms"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Barefoot on the grass"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Listening to our favourite song"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I have {{q:38}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Now I know I have {{q:39}} in person "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "And she {{q:40}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I don't deserve this "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "You look perfect tonight"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I found {{blank}} for me",
+          "promptZh": "我終於找到了屬於自己的愛",
+          "options": [
+            "a friend",
+            "a love",
+            "a life"
+          ],
+          "answer": "a love"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Darling, just {{blank}} and 〔第 3 題〕",
+          "promptZh": "親愛的，就勇敢地投入這份愛，跟隨我的腳步",
+          "options": [
+            "dive right in",
+            "take your time",
+            "drive right on"
+          ],
+          "answer": "dive right in"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Darling, just 〔第 2 題〕 and {{blank}}",
+          "promptZh": "親愛的，就勇敢地投入這份愛，跟隨我的腳步",
+          "options": [
+            "follow my heart",
+            "follow my lead",
+            "find your way"
+          ],
+          "answer": "follow my lead"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "Well, I found a girl, {{blank}}",
+          "promptZh": "我遇見了一個女孩，美麗而溫柔",
+          "options": [
+            "beautiful and sweet",
+            "wonderful and kind",
+            "beautiful and free"
+          ],
+          "answer": "beautiful and sweet"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "Oh, I {{blank}} you were the someone 〔第 6 題〕",
+          "promptZh": "噢，我從未想過，原來妳就是那個一直等待著我的人",
+          "options": [
+            "never thought",
+            "always knew",
+            "never knew"
+          ],
+          "answer": "never knew"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "Oh, I 〔第 5 題〕 you were the someone {{blank}}",
+          "promptZh": "噢，我從未想過，原來妳就是那個一直等待著我的人",
+          "options": [
+            "waiting for me",
+            "calling to me",
+            "looking for me"
+          ],
+          "answer": "waiting for me"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "'Cause we were {{blank}} when we 〔第 8 題〕",
+          "promptZh": "因為當我們墜入愛河時，都還只是懵懂的孩子",
+          "options": [
+            "young friends",
+            "just kids",
+            "two kids"
+          ],
+          "answer": "just kids"
+        },
+        {
+          "number": 8,
+          "lineId": "line-5",
+          "prompt": "'Cause we were 〔第 7 題〕 when we {{blank}}",
+          "promptZh": "因為當我們墜入愛河時，都還只是懵懂的孩子",
+          "options": [
+            "found our way",
+            "fell apart",
+            "fell in love"
+          ],
+          "answer": "fell in love"
+        },
+        {
+          "number": 9,
+          "lineId": "line-6",
+          "prompt": "{{blank}} what it was",
+          "promptZh": "那時的我們，還不懂愛究竟是什麼",
+          "options": [
+            "Still wondering",
+            "Not knowing",
+            "Not showing"
+          ],
+          "answer": "Not knowing"
+        },
+        {
+          "number": 10,
+          "lineId": "line-7",
+          "prompt": "I will not {{blank}} 〔第 11 題〕",
+          "promptZh": "但這一次，我絕不會放棄妳",
+          "options": [
+            "give you up",
+            "give it up",
+            "let you down"
+          ],
+          "answer": "give you up"
+        },
+        {
+          "number": 11,
+          "lineId": "line-7",
+          "prompt": "I will not 〔第 10 題〕 {{blank}}",
+          "promptZh": "但這一次，我絕不會放棄妳",
+          "options": [
+            "tonight",
+            "some day",
+            "this time"
+          ],
+          "answer": "this time"
+        },
+        {
+          "number": 12,
+          "lineId": "line-8",
+          "prompt": "But darling, just {{blank}}",
+          "promptZh": "親愛的，就這樣輕輕地、緩緩地吻我吧",
+          "options": [
+            "kiss me slow",
+            "kiss me now",
+            "hold me close"
+          ],
+          "answer": "kiss me slow"
+        },
+        {
+          "number": 13,
+          "lineId": "line-9",
+          "prompt": "Your heart is {{blank}}",
+          "promptZh": "妳的心，是我所擁有的一切",
+          "options": [
+            "all I want",
+            "all I know",
+            "all I own"
+          ],
+          "answer": "all I own"
+        },
+        {
+          "number": 14,
+          "lineId": "line-10",
+          "prompt": "And in your eyes {{blank}}",
+          "promptZh": "而在妳的眼眸裡，我看見妳也將我的心珍藏",
+          "options": [
+            "you're holding on",
+            "you're holding mine",
+            "you're reading mine"
+          ],
+          "answer": "you're holding mine"
+        },
+        {
+          "number": 15,
+          "lineId": "line-11",
+          "prompt": "Baby, I'm {{blank}}",
+          "promptZh": "寶貝，我正與妳在夜色中翩翩起舞",
+          "options": [
+            "standing in the rain",
+            "dancing in the light",
+            "dancing in the dark"
+          ],
+          "answer": "dancing in the dark"
+        },
+        {
+          "number": 16,
+          "lineId": "line-12",
+          "prompt": "With you {{blank}}",
+          "promptZh": "將妳輕輕擁在懷裡",
+          "options": [
+            "between my arms",
+            "inside my heart",
+            "within my arms"
+          ],
+          "answer": "between my arms"
+        },
+        {
+          "number": 17,
+          "lineId": "line-13",
+          "prompt": "{{blank}} 〔第 18 題〕",
+          "promptZh": "赤著雙腳，踏在青草地上",
+          "options": [
+            "Barely",
+            "Barefoot",
+            "Carefree"
+          ],
+          "answer": "Barefoot"
+        },
+        {
+          "number": 18,
+          "lineId": "line-13",
+          "prompt": "〔第 17 題〕 {{blank}}",
+          "promptZh": "赤著雙腳，踏在青草地上",
+          "options": [
+            "on the ground",
+            "on the grass",
+            "in the sand"
+          ],
+          "answer": "on the grass"
+        },
+        {
+          "number": 19,
+          "lineId": "line-14",
+          "prompt": "Listening to our {{blank}}",
+          "promptZh": "聆聽著我們最喜愛的那首歌",
+          "options": [
+            "favourite sound",
+            "latest song",
+            "favourite song"
+          ],
+          "answer": "favourite song"
+        },
+        {
+          "number": 20,
+          "lineId": "line-15",
+          "prompt": "When you said you {{blank}}",
+          "promptZh": "當妳說自己看起來狼狽不堪",
+          "options": [
+            "looked a mess",
+            "looked your best",
+            "felt a mess"
+          ],
+          "answer": "looked a mess"
+        },
+        {
+          "number": 21,
+          "lineId": "line-16",
+          "prompt": "I whispered {{blank}}",
+          "promptZh": "我便低聲呢喃，幾乎輕不可聞",
+          "options": [
+            "underneath my breath",
+            "underneath the stars",
+            "beneath my voice"
+          ],
+          "answer": "underneath my breath"
+        },
+        {
+          "number": 22,
+          "lineId": "line-17",
+          "prompt": "But you {{blank}},",
+          "promptZh": "可妳還是聽見了",
+          "options": [
+            "felt it",
+            "heard it",
+            "said it"
+          ],
+          "answer": "heard it"
+        },
+        {
+          "number": 23,
+          "lineId": "line-18",
+          "prompt": "Darling, you look {{blank}}",
+          "promptZh": "親愛的，今晚的妳，美得無可挑剔",
+          "options": [
+            "beautiful tonight",
+            "perfect for life",
+            "perfect tonight"
+          ],
+          "answer": "perfect tonight"
+        },
+        {
+          "number": 24,
+          "lineId": "line-19",
+          "prompt": "Well, I found a woman, {{blank}} 〔第 25 題〕",
+          "promptZh": "我遇見了一位女子，她比我所認識的任何人都更加堅強",
+          "options": [
+            "stronger than ever",
+            "stronger than anyone",
+            "braver than anyone"
+          ],
+          "answer": "stronger than anyone"
+        },
+        {
+          "number": 25,
+          "lineId": "line-19",
+          "prompt": "Well, I found a woman, 〔第 24 題〕 {{blank}}",
+          "promptZh": "我遇見了一位女子，她比我所認識的任何人都更加堅強",
+          "options": [
+            "I see",
+            "I love",
+            "I know"
+          ],
+          "answer": "I know"
+        },
+        {
+          "number": 26,
+          "lineId": "line-20",
+          "prompt": "She {{blank}}, I hope that 〔第 27 題〕 I'll 〔第 28 題〕",
+          "promptZh": "她與我懷抱著共同的夢想，而我盼望有一天，能與她共築一個家",
+          "options": [
+            "shares my dreams",
+            "shares my hopes",
+            "knows my dreams"
+          ],
+          "answer": "shares my dreams"
+        },
+        {
+          "number": 27,
+          "lineId": "line-20",
+          "prompt": "She 〔第 26 題〕, I hope that {{blank}} I'll 〔第 28 題〕",
+          "promptZh": "她與我懷抱著共同的夢想，而我盼望有一天，能與她共築一個家",
+          "options": [
+            "someday",
+            "somehow",
+            "one day"
+          ],
+          "answer": "someday"
+        },
+        {
+          "number": 28,
+          "lineId": "line-20",
+          "prompt": "She 〔第 26 題〕, I hope that 〔第 27 題〕 I'll {{blank}}",
+          "promptZh": "她與我懷抱著共同的夢想，而我盼望有一天，能與她共築一個家",
+          "options": [
+            "share her heart",
+            "share her home",
+            "build our home"
+          ],
+          "answer": "share her home"
+        },
+        {
+          "number": 29,
+          "lineId": "line-21",
+          "prompt": "I found a love to {{blank}} just 〔第 30 題〕",
+          "promptZh": "我找到了一份愛，能與我共同承擔的，遠不只是心底的祕密",
+          "options": [
+            "care for more than",
+            "carry less than",
+            "carry more than"
+          ],
+          "answer": "carry more than"
+        },
+        {
+          "number": 30,
+          "lineId": "line-21",
+          "prompt": "I found a love to 〔第 29 題〕 just {{blank}}",
+          "promptZh": "我找到了一份愛，能與我共同承擔的，遠不只是心底的祕密",
+          "options": [
+            "our secrets",
+            "my secrets",
+            "my feelings"
+          ],
+          "answer": "my secrets"
+        },
+        {
+          "number": 31,
+          "lineId": "line-22",
+          "prompt": "To carry love, to {{blank}} 〔第 32 題〕",
+          "promptZh": "更能與我一同承載愛，養育屬於我們的孩子",
+          "options": [
+            "carry children",
+            "raise children",
+            "carry memories"
+          ],
+          "answer": "carry children"
+        },
+        {
+          "number": 32,
+          "lineId": "line-22",
+          "prompt": "To carry love, to 〔第 31 題〕 {{blank}}",
+          "promptZh": "更能與我一同承載愛，養育屬於我們的孩子",
+          "options": [
+            "on our own",
+            "of my own",
+            "of our own"
+          ],
+          "answer": "of our own"
+        },
+        {
+          "number": 33,
+          "lineId": "line-23",
+          "prompt": "We are {{blank}} but we're 〔第 34 題〕",
+          "promptZh": "我們依然像孩子般青澀，卻如此深愛著彼此",
+          "options": [
+            "just friends",
+            "small kids",
+            "still kids"
+          ],
+          "answer": "still kids"
+        },
+        {
+          "number": 34,
+          "lineId": "line-23",
+          "prompt": "We are 〔第 33 題〕 but we're {{blank}}",
+          "promptZh": "我們依然像孩子般青澀，卻如此深愛著彼此",
+          "options": [
+            "falling apart",
+            "so in love",
+            "still in love"
+          ],
+          "answer": "so in love"
+        },
+        {
+          "number": 35,
+          "lineId": "line-24",
+          "prompt": "Fighting against {{blank}}",
+          "promptZh": "即使面對重重困難，也要攜手迎難而上",
+          "options": [
+            "all odds",
+            "our fears",
+            "the odds"
+          ],
+          "answer": "all odds"
+        },
+        {
+          "number": 36,
+          "lineId": "line-25",
+          "prompt": "I know {{blank}} 〔第 37 題〕",
+          "promptZh": "我知道，這一次，我們一定能好好走下去",
+          "options": [
+            "we'll be okay",
+            "we'll be alright",
+            "we'll be alone"
+          ],
+          "answer": "we'll be alright"
+        },
+        {
+          "number": 37,
+          "lineId": "line-25",
+          "prompt": "I know 〔第 36 題〕 {{blank}}",
+          "promptZh": "我知道，這一次，我們一定能好好走下去",
+          "options": [
+            "this time",
+            "tonight",
+            "someday"
+          ],
+          "answer": "this time"
+        },
+        {
+          "number": 38,
+          "lineId": "line-26",
+          "prompt": "Darling, just {{blank}}",
+          "promptZh": "親愛的，就這樣牽著我的手吧",
+          "options": [
+            "hold me close",
+            "take my hand",
+            "hold my hand"
+          ],
+          "answer": "hold my hand"
+        },
+        {
+          "number": 39,
+          "lineId": "line-27",
+          "prompt": "{{blank}}, 〔第 40 題〕",
+          "promptZh": "做我的女孩，而我會成為妳的男人",
+          "options": [
+            "Stay my girl",
+            "Be my world",
+            "Be my girl"
+          ],
+          "answer": "Be my girl"
+        },
+        {
+          "number": 40,
+          "lineId": "line-27",
+          "prompt": "〔第 39 題〕, {{blank}}",
+          "promptZh": "做我的女孩，而我會成為妳的男人",
+          "options": [
+            "I'll be your friend",
+            "I'll be your man",
+            "I'll be the one"
+          ],
+          "answer": "I'll be your man"
+        },
+        {
+          "number": 41,
+          "lineId": "line-28",
+          "prompt": "I see {{blank}} in your eyes",
+          "promptZh": "在妳的眼眸裡，我看見了自己的未來",
+          "options": [
+            "my future",
+            "our future",
+            "my feelings"
+          ],
+          "answer": "my future"
+        },
+        {
+          "number": 42,
+          "lineId": "line-33",
+          "prompt": "When I saw you {{blank}}",
+          "promptZh": "當我看見妳穿著那件洋裝",
+          "options": [
+            "in your arms",
+            "in that dress",
+            "in the dress"
+          ],
+          "answer": "in that dress"
+        },
+        {
+          "number": 43,
+          "lineId": "line-34",
+          "prompt": "Looking {{blank}}",
+          "promptZh": "看起來是如此美麗動人",
+          "options": [
+            "so beautiful",
+            "too beautiful",
+            "so wonderful"
+          ],
+          "answer": "so beautiful"
+        },
+        {
+          "number": 44,
+          "lineId": "line-35",
+          "prompt": "I {{blank}}",
+          "promptZh": "我何其幸運，竟能擁有這般美好",
+          "options": [
+            "can't believe this",
+            "don't expect this",
+            "don't deserve this"
+          ],
+          "answer": "don't deserve this"
+        },
+        {
+          "number": 45,
+          "lineId": "line-42",
+          "prompt": "I have {{blank}}",
+          "promptZh": "我深信眼前所見的一切",
+          "options": [
+            "faith in what you say",
+            "hope in what I feel",
+            "faith in what I see"
+          ],
+          "answer": "faith in what I see"
+        },
+        {
+          "number": 46,
+          "lineId": "line-43",
+          "prompt": "Now I know I have {{blank}} 〔第 47 題〕 ",
+          "promptZh": "如今我終於明白，原來我真的遇見了一位降臨人間的天使",
+          "options": [
+            "met an angel",
+            "met a stranger",
+            "seen an angel"
+          ],
+          "answer": "met an angel"
+        },
+        {
+          "number": 47,
+          "lineId": "line-43",
+          "prompt": "Now I know I have 〔第 46 題〕 {{blank}} ",
+          "promptZh": "如今我終於明白，原來我真的遇見了一位降臨人間的天使",
+          "options": [
+            "for certain",
+            "in person",
+            "in heaven"
+          ],
+          "answer": "in person"
+        },
+        {
+          "number": 48,
+          "lineId": "line-44",
+          "prompt": "And she {{blank}}",
+          "promptZh": "而她，是如此完美",
+          "options": [
+            "looks perfect",
+            "seems perfect",
+            "looks lovely"
+          ],
+          "answer": "looks perfect"
+        },
+        {
+          "number": 49,
+          "lineId": "line-45",
+          "prompt": "I {{blank}} ",
+          "promptZh": "這份美好，讓我覺得自己何其幸運，甚至不敢奢求",
+          "options": [
+            "don't expect this",
+            "can't believe this",
+            "don't deserve this"
+          ],
+          "answer": "don't deserve this"
+        },
+        {
+          "number": 50,
+          "lineId": "line-46",
+          "prompt": "You look {{blank}}",
+          "promptZh": "今晚的妳，美得無可挑剔",
+          "options": [
+            "beautiful tonight",
+            "perfect tonight",
+            "perfect for me"
+          ],
+          "answer": "perfect tonight"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I found {{q:1}} for me"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Darling, just {{q:2}} and {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Well, I found a girl, {{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Oh, I {{q:5}} you were the someone {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "'Cause we were {{q:7}} when we {{q:8}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:9}} what it was"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I will not {{q:10}} {{q:11}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "But darling, just {{q:12}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Your heart is {{q:13}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And in your eyes {{q:14}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Baby, I'm {{q:15}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "With you {{q:16}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:17}} {{q:18}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Listening to our {{q:19}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "When you said you {{q:20}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I whispered {{q:21}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "But you {{q:22}},"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Darling, you look {{q:23}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Well, I found a woman, {{q:24}} {{q:25}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "She {{q:26}}, I hope that {{q:27}} I'll {{q:28}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I found a love to {{q:29}} just {{q:30}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "To carry love, to {{q:31}} {{q:32}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "We are {{q:33}} but we're {{q:34}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Fighting against {{q:35}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I know {{q:36}} {{q:37}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Darling, just {{q:38}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:39}}, {{q:40}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I see {{q:41}} in your eyes"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Baby, I'm dancing in the dark"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "With you between my arms"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Barefoot on the grass"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Listening to our favourite song"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "When I saw you {{q:42}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Looking {{q:43}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I {{q:44}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Darling, you look perfect tonight"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "No, no, no"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Baby, I'm dancing in the dark"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "With you between my arms"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Barefoot on the grass"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Listening to our favourite song"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I have {{q:45}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Now I know I have {{q:46}} {{q:47}} "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "And she {{q:48}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I {{q:49}} "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "You look {{q:50}}"
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/perfect/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/perfect/cover.webp",
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Perfect_.pdf",
+      "sha256": "79e9b5bf3dbbc6cd3f7894bafc4ac124b5d13bbb44a899076addd6b74c2f06f0"
+    },
+    "docx": {
+      "filename": "Perfect_Four_Level_Listening_Exercise.docx",
+      "sha256": "a326bfa2669fac78d192d25317a9b380274e0a95523ad79580be0df428f6b6da"
+    },
+    "md": {
+      "filename": "Perfect_Vocabulary_Quiz.md",
+      "sha256": "76f6d60a016c7a1729e53ccec95552314095b53c664d753994663fd26a14e30e"
+    },
+    "mp3": {
+      "filename": "Perfect [ORrFJ63nlcA].mp3",
+      "sha256": "d781be87b40f6323e1c8e71c32d527bf4440f6da938c2beb3baf8696bb705a7d"
+    }
+  },
+  "audioAlignment": {
+    "duration": 263.4,
+    "audioSha256": "d781be87b40f6323e1c8e71c32d527bf4440f6da938c2beb3baf8696bb705a7d",
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "coverage": 0.9565217391304348,
+    "timedLines": 45,
+    "untimedLines": [
+      37
+    ],
+    "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  }
+}

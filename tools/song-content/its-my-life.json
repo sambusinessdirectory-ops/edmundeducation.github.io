@@ -1,0 +1,3151 @@
+{
+  "slug": "its-my-life",
+  "title": "It's My Life",
+  "singer": "Bon Jovi",
+  "description": "《It's My Life》描寫一種勇敢追求自由、堅持自我與掌握人生的積極態度。歌中的主角拒絕隨波逐流，不願成為人群中毫不起眼的一員，而是希望活出真正屬於自己的人生。他明白生命短暫，機會不會永遠等待，因此必須把握當下，勇敢追尋夢想。即使未來充滿困難與挑戰，他仍然選擇堅守信念，不向壓力低頭，也不依賴運氣，而是努力創造自己的機會。最終，《It's My Life》傳達的是自信、勇氣與永不放棄的精神：人生只有一次，與其活在別人的期望之中，不如勇敢做自己，按照自己的方式活出精彩而無悔的人生。This ain't a song for the broken-heartedNo silent prayer for the faith-departedI ain't gonna be just a face in the crowdYou're gonna hear my voiceWhen I shout it out loudIt's my lifeIt's now or neverI ain't gonna live foreverI just wanna live while I'm alive(It's my life)My heart is like an open highwayLike Frankie said,",
+  "exercise_name": "It's My Life · Listening & Vocabulary",
+  "tags": [
+    "bon jovi",
+    "it's my life",
+    "confidence",
+    "independence"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "This ain't a song for the broken-hearted",
+      "chinese": "這不是一首寫給心碎之人的歌",
+      "startSeconds": 7.82,
+      "endSeconds": 12.64
+    },
+    {
+      "lineId": "line-2",
+      "english": "No silent prayer for the faith-departed",
+      "chinese": "不為失去信仰的人默默祈禱",
+      "startSeconds": 15.98,
+      "endSeconds": 20.58
+    },
+    {
+      "lineId": "line-3",
+      "english": "I ain't gonna be just a face in the crowd",
+      "chinese": "我不會只是茫茫人海中的一張面孔",
+      "startSeconds": 23.86,
+      "endSeconds": 27.62
+    },
+    {
+      "lineId": "line-4",
+      "english": "You're gonna hear my voice",
+      "chinese": "你會聽見我的聲音",
+      "startSeconds": 27.62,
+      "endSeconds": 29.96
+    },
+    {
+      "lineId": "line-5",
+      "english": "When I shout it out loud",
+      "chinese": "當我大聲呼喊出來",
+      "startSeconds": 29.96,
+      "endSeconds": 32.54
+    },
+    {
+      "lineId": "line-6",
+      "english": "It's my life",
+      "chinese": "這是我的人生",
+      "startSeconds": 32.54,
+      "endSeconds": 35.9
+    },
+    {
+      "lineId": "line-7",
+      "english": "It's now or never",
+      "chinese": "就是現在，否則再也沒有機會",
+      "startSeconds": 35.9,
+      "endSeconds": 38.18
+    },
+    {
+      "lineId": "line-8",
+      "english": "I ain't gonna live forever",
+      "chinese": "我不會永生不死",
+      "startSeconds": 39.54,
+      "endSeconds": 42.18
+    },
+    {
+      "lineId": "line-9",
+      "english": "I just wanna live while I'm alive",
+      "chinese": "我只想在活著的時候好好活著"
+    },
+    {
+      "lineId": "line-10",
+      "english": "(It's my life)",
+      "chinese": "（這是我的人生）",
+      "startSeconds": 49.1,
+      "endSeconds": 51.06
+    },
+    {
+      "lineId": "line-11",
+      "english": "My heart is like an open highway",
+      "chinese": "我的心就像一條開闊的高速公路",
+      "startSeconds": 51.08,
+      "endSeconds": 53.96
+    },
+    {
+      "lineId": "line-12",
+      "english": "Like Frankie said,",
+      "chinese": "就像 Frankie 說的，"
+    },
+    {
+      "lineId": "line-13",
+      "english": "\"I did it my way.\"",
+      "chinese": "「我用自己的方式做到了。」",
+      "startSeconds": 56.3,
+      "endSeconds": 58.88
+    },
+    {
+      "lineId": "line-14",
+      "english": "I just wanna live while I'm alive",
+      "chinese": "我只想在活著的時候好好活著"
+    },
+    {
+      "lineId": "line-15",
+      "english": "It's my life",
+      "chinese": "這是我的人生",
+      "startSeconds": 63.8,
+      "endSeconds": 67.32
+    },
+    {
+      "lineId": "line-16",
+      "english": "This is for the ones who stood their ground",
+      "chinese": "這是獻給那些堅守陣地的人",
+      "startSeconds": 73.62,
+      "endSeconds": 77.96
+    },
+    {
+      "lineId": "line-17",
+      "english": "For Tommy and Gina who never backed down",
+      "chinese": "獻給從不退縮的 Tommy 和 Gina"
+    },
+    {
+      "lineId": "line-18",
+      "english": "Tomorrow's getting harder make no mistake",
+      "chinese": "明天會變得更加艱難，別搞錯了",
+      "startSeconds": 90.12,
+      "endSeconds": 93.74
+    },
+    {
+      "lineId": "line-19",
+      "english": "Luck ain't even lucky",
+      "chinese": "運氣甚至算不上幸運"
+    },
+    {
+      "lineId": "line-20",
+      "english": "Got to make your own breaks",
+      "chinese": "你必須自己創造機會",
+      "startSeconds": 95.94,
+      "endSeconds": 98.78
+    },
+    {
+      "lineId": "line-21",
+      "english": "It's my life",
+      "chinese": "這是我的人生",
+      "startSeconds": 98.78,
+      "endSeconds": 101.76
+    },
+    {
+      "lineId": "line-22",
+      "english": "And it's now or never",
+      "chinese": "而就是現在，否則再也沒有機會",
+      "startSeconds": 101.76,
+      "endSeconds": 104.1
+    },
+    {
+      "lineId": "line-23",
+      "english": "I ain't gonna live forever",
+      "chinese": "我不會永生不死",
+      "startSeconds": 104.1,
+      "endSeconds": 108.24
+    },
+    {
+      "lineId": "line-24",
+      "english": "I just wanna live while I'm alive",
+      "chinese": "我只想在活著的時候好好活著"
+    },
+    {
+      "lineId": "line-25",
+      "english": "(It's my life)",
+      "chinese": "（這是我的人生）",
+      "startSeconds": 115.1,
+      "endSeconds": 117.02
+    },
+    {
+      "lineId": "line-26",
+      "english": "My heart is like an open highway",
+      "chinese": "我的心就像一條開闊的高速公路",
+      "startSeconds": 117.02,
+      "endSeconds": 120.36
+    },
+    {
+      "lineId": "line-27",
+      "english": "Like Frankie said,",
+      "chinese": "就像 Frankie 說的，"
+    },
+    {
+      "lineId": "line-28",
+      "english": "\"I did it my way.\"",
+      "chinese": "「我用自己的方式做到了。」"
+    },
+    {
+      "lineId": "line-29",
+      "english": "I just wanna live while I'm alive",
+      "chinese": "我只想在活著的時候好好活著"
+    },
+    {
+      "lineId": "line-30",
+      "english": "'Cause it's my life",
+      "chinese": "因為這是我的人生"
+    },
+    {
+      "lineId": "line-31",
+      "english": "Better stand tall when they're calling you out",
+      "chinese": "當他們向你叫陣時，最好站得筆挺"
+    },
+    {
+      "lineId": "line-32",
+      "english": "Don't bend, don't break, baby, don't back down",
+      "chinese": "不要彎曲，不要折斷，寶貝，不要退縮"
+    },
+    {
+      "lineId": "line-33",
+      "english": "It's my life",
+      "chinese": "這是我的人生",
+      "startSeconds": 156.4,
+      "endSeconds": 159.66
+    },
+    {
+      "lineId": "line-34",
+      "english": "And it's now or never",
+      "chinese": "而就是現在，否則再也沒有機會",
+      "startSeconds": 159.66,
+      "endSeconds": 162.28
+    },
+    {
+      "lineId": "line-35",
+      "english": "'Cause I ain't gonna live forever",
+      "chinese": "因為我不會永生不死",
+      "startSeconds": 162.28,
+      "endSeconds": 166.22
+    },
+    {
+      "lineId": "line-36",
+      "english": "I just wanna live while I'm alive",
+      "chinese": "我只想在活著的時候好好活著"
+    },
+    {
+      "lineId": "line-37",
+      "english": "(It's my life)",
+      "chinese": "（這是我的人生）",
+      "startSeconds": 173.08,
+      "endSeconds": 175.04
+    },
+    {
+      "lineId": "line-38",
+      "english": "My heart is like an open highway",
+      "chinese": "我的心就像一條開闊的高速公路",
+      "startSeconds": 175.04,
+      "endSeconds": 178.38
+    },
+    {
+      "lineId": "line-39",
+      "english": "Like Frankie said,",
+      "chinese": "就像 Frankie 說的，"
+    },
+    {
+      "lineId": "line-40",
+      "english": "\"I did it my way.\"",
+      "chinese": "「我用自己的方式做到了。」"
+    },
+    {
+      "lineId": "line-41",
+      "english": "I just wanna live while I'm alive",
+      "chinese": "我只想在活著的時候好好活著"
+    },
+    {
+      "lineId": "line-42",
+      "english": "It's my life",
+      "chinese": "這是我的人生",
+      "startSeconds": 187.96,
+      "endSeconds": 191.08
+    },
+    {
+      "lineId": "line-43",
+      "english": "And it's now or never",
+      "chinese": "而就是現在，否則再也沒有機會",
+      "startSeconds": 191.08,
+      "endSeconds": 194.28
+    },
+    {
+      "lineId": "line-44",
+      "english": "'Cause I ain't gonna live forever",
+      "chinese": "因為我不會永生不死",
+      "startSeconds": 194.28,
+      "endSeconds": 198.3
+    },
+    {
+      "lineId": "line-45",
+      "english": "I just wanna live while I'm alive",
+      "chinese": "我只想在活著的時候好好活著"
+    },
+    {
+      "lineId": "line-46",
+      "english": "(It's my life)",
+      "chinese": "（這是我的人生）",
+      "startSeconds": 205.06,
+      "endSeconds": 207.04
+    },
+    {
+      "lineId": "line-47",
+      "english": "My heart is like an open highway",
+      "chinese": "我的心就像一條開闊的高速公路"
+    },
+    {
+      "lineId": "line-48",
+      "english": "Like Frankie said,",
+      "chinese": "就像 Frankie 說的，"
+    },
+    {
+      "lineId": "line-49",
+      "english": "\"I did it my way.\"",
+      "chinese": "「我用自己的方式做到了。」",
+      "startSeconds": 212.36,
+      "endSeconds": 214.96
+    },
+    {
+      "lineId": "line-50",
+      "english": "I just wanna live while I'm alive",
+      "chinese": "我只想在活著的時候好好活著"
+    },
+    {
+      "lineId": "line-51",
+      "english": "'Cause it's my life!",
+      "chinese": "因為這是我的人生！"
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "broken-hearted",
+      "meaning": "心碎的、因感情而難過的",
+      "usage": "當一個人因分手或失去愛情而很傷心時使用。",
+      "prompt": "哪一句正確使用了「broken-hearted」？",
+      "options": [
+        "After his girlfriend left, Ben felt broken-hearted.",
+        "My phone is broken-hearted, so I need a new screen.",
+        "I ate a broken-hearted sandwich for lunch.",
+        "Please broken-hearted the door before you leave."
+      ],
+      "answer": 0,
+      "explanation": "因為女友離開而傷心，符合 broken-hearted 的意思。",
+      "optionExplanations": [
+        "因為女友離開而傷心，符合 broken-hearted 的意思。",
+        "手機壞掉要說 broken，不會說 broken-hearted。",
+        "三明治不能因感情而心碎，這裡用錯對象。",
+        "broken-hearted 是形容詞，不能當作「關門」的動詞。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "a face in the crowd",
+      "meaning": "人群中不起眼的一個人",
+      "usage": "當你想說自己只是很多人當中的普通一員時使用。",
+      "prompt": "哪一句正確使用了「a face in the crowd」？",
+      "options": [
+        "I put a face in the crowd on my toast.",
+        "At the big concert, I was just a face in the crowd.",
+        "My dog ate a face in the crowd for dinner.",
+        "I face in the crowd to school every morning."
+      ],
+      "answer": 1,
+      "explanation": "演唱會有很多人，這裡表示自己只是人群中的一員。",
+      "optionExplanations": [
+        "這個片語是形容人，不是可以放在吐司上的東西。",
+        "演唱會有很多人，這裡表示自己只是人群中的一員。",
+        "這個片語不是食物，不能用 eat。",
+        "這個片語是名詞片語，不能直接當作「去上學」的動詞。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "out loud",
+      "meaning": "大聲地、發出聲音地",
+      "usage": "當你把心裡的話說出聲，或大聲讀出文字時使用。",
+      "prompt": "哪一句正確使用了「out loud」？",
+      "options": [
+        "Please read the story out loud so we can hear you.",
+        "I bought two out loud at the shop.",
+        "She put out loud in her bag.",
+        "He wore an out loud to the party."
+      ],
+      "answer": 0,
+      "explanation": "read out loud 是把文字讀出聲，讓別人聽見。",
+      "optionExplanations": [
+        "read out loud 是把文字讀出聲，讓別人聽見。",
+        "out loud 不是可數的物品。",
+        "out loud 是副詞片語，不是能放進包包的東西。",
+        "out loud 不是衣服，不能搭配 wear。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "now or never",
+      "meaning": "現在就做，否則可能再也沒機會",
+      "usage": "當某個機會很重要，必須立刻決定或行動時使用。",
+      "prompt": "哪一句正確使用了「now or never」？",
+      "options": [
+        "My breakfast is now or never with milk.",
+        "I bought a now or never at the supermarket.",
+        "She is now or never years old.",
+        "The bus is leaving! It is now or never!"
+      ],
+      "answer": 3,
+      "explanation": "公車快開了，這裡表示必須現在行動。",
+      "optionExplanations": [
+        "不能用這個片語來描述早餐加牛奶。",
+        "now or never 不是一件商品。",
+        "now or never 不能用來表示年齡。",
+        "公車快開了，這裡表示必須現在行動。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "my way",
+      "meaning": "用我的方式",
+      "usage": "當你想照自己的方法做某件事時使用。",
+      "prompt": "哪一句正確使用了「my way」？",
+      "options": [
+        "My way is sleeping under the bed now.",
+        "I have three my ways in my school bag.",
+        "You can cook it your way, and I will cook it my way.",
+        "Please my way the window before dinner."
+      ],
+      "answer": 2,
+      "explanation": "my way 表示按照自己的方法來做。",
+      "optionExplanations": [
+        "my way 不是人或動物，不能睡在床下。",
+        "my way 不是可以數的物品。",
+        "my way 表示按照自己的方法來做。",
+        "my way 不能直接當動詞使用。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "stand your ground",
+      "meaning": "堅持立場、不輕易退讓",
+      "usage": "當你認為自己是對的，即使有人反對也不退縮時使用。",
+      "prompt": "哪一句正確使用了「stand your ground」？",
+      "options": [
+        "I stand my ground in the fridge to keep it cold.",
+        "Everyone wanted me to lie, but I stood my ground and told the truth.",
+        "She stood her ground with a spoon and ate soup.",
+        "My bicycle stands its ground to the airport."
+      ],
+      "answer": 1,
+      "explanation": "即使其他人要求說謊，仍堅持自己的立場。",
+      "optionExplanations": [
+        "stand your ground 不是把東西放進冰箱。",
+        "即使其他人要求說謊，仍堅持自己的立場。",
+        "這裡只是吃湯，沒有堅持立場的情境。",
+        "這個片語通常形容人堅持立場，不表示交通工具移動。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "back down",
+      "meaning": "退讓、放棄原本的立場",
+      "usage": "當受到壓力或挑戰，決定不再堅持時使用。",
+      "prompt": "哪一句正確使用了「back down」？",
+      "options": [
+        "I backed down my homework with a blue pen.",
+        "They asked her to stop, but she would not back down.",
+        "The cat backed down a glass of milk.",
+        "We bought a back down for our new house."
+      ],
+      "answer": 1,
+      "explanation": "她受到要求仍不退讓，符合 back down 的意思。",
+      "optionExplanations": [
+        "back down 不表示寫作業。",
+        "她受到要求仍不退讓，符合 back down 的意思。",
+        "back down 不表示喝牛奶。",
+        "back down 是動詞片語，不是商品。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "make no mistake",
+      "meaning": "別搞錯了、要清楚知道",
+      "usage": "當你要強調一件事是真的，提醒對方不要誤會時使用。",
+      "prompt": "哪一句正確使用了「make no mistake」？",
+      "options": [
+        "Please make no mistake the cake in the oven.",
+        "I have two make no mistakes in my pocket.",
+        "Make no mistake: this test will be difficult.",
+        "My fish is make no mistake because it is hungry."
+      ],
+      "answer": 2,
+      "explanation": "用來強調考試真的會很難，不要誤會。",
+      "optionExplanations": [
+        "這個片語不能當作烤蛋糕的動詞。",
+        "make no mistake 在這裡不是可數物品。",
+        "用來強調考試真的會很難，不要誤會。",
+        "不能用這個片語來描述魚餓了。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "stand tall",
+      "meaning": "挺直站立；有自信地面對",
+      "usage": "當你想鼓勵一個人勇敢、有信心時使用。",
+      "prompt": "哪一句正確使用了「stand tall」？",
+      "options": [
+        "The teacher stood tall the homework into the bag.",
+        "I stand tall my lunch before school.",
+        "He bought a stand tall for his pet fish.",
+        "Even after losing the game, she stood tall and smiled."
+      ],
+      "answer": 3,
+      "explanation": "雖然輸了比賽，她仍有自信地面對。",
+      "optionExplanations": [
+        "不能用 stand tall 表示把作業放進包包。",
+        "stand tall 不能直接接 lunch 表示吃午餐。",
+        "stand tall 是動詞片語，不是商品。",
+        "雖然輸了比賽，她仍有自信地面對。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "live forever",
+      "meaning": "永遠活著",
+      "usage": "當談到生命永遠不會結束時使用，也可能用來誇張表達。",
+      "prompt": "哪一句正確使用了「live forever」？",
+      "options": [
+        "No one can live forever, so enjoy your time with family.",
+        "I live forever my bicycle to school.",
+        "She bought a live forever at the market.",
+        "Please live forever the lights before bed."
+      ],
+      "answer": 0,
+      "explanation": "這裡表示沒有人能永遠活著。",
+      "optionExplanations": [
+        "這裡表示沒有人能永遠活著。",
+        "live forever 不表示騎腳踏車。",
+        "live forever 是動詞片語，不是物品。",
+        "live forever 不能用來表示關燈。"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "This ain't a song for the {{blank}}",
+          "promptZh": "這不是一首寫給心碎之人的歌",
+          "options": [
+            "broken-hearted",
+            "broken-hearted ones",
+            "broken-hearted now"
+          ],
+          "answer": "broken-hearted"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "No silent prayer for the {{blank}}",
+          "promptZh": "不為失去信仰的人默默祈禱",
+          "options": [
+            "faithful departed",
+            "faith-departed",
+            "faithless-hearted"
+          ],
+          "answer": "faith-departed"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "I ain't gonna be just a {{blank}}",
+          "promptZh": "我不會只是茫茫人海中的一張面孔",
+          "options": [
+            "voice in the crowd",
+            "face in the crowd",
+            "face in the clouds"
+          ],
+          "answer": "face in the crowd"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "You're gonna {{blank}}",
+          "promptZh": "你會聽見我的聲音",
+          "options": [
+            "hear my voice",
+            "hear my call",
+            "hear my song"
+          ],
+          "answer": "hear my voice"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "When I {{blank}}",
+          "promptZh": "當我大聲呼喊出來",
+          "options": [
+            "shout it out now",
+            "scream it out loud",
+            "shout it out loud"
+          ],
+          "answer": "shout it out loud"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "{{blank}}",
+          "promptZh": "這是我的人生",
+          "options": [
+            "It's my life",
+            "It's your life",
+            "This is my life"
+          ],
+          "answer": "It's my life"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "It's {{blank}}",
+          "promptZh": "就是現在，否則再也沒有機會",
+          "options": [
+            "now and never",
+            "now or never",
+            "now or forever"
+          ],
+          "answer": "now or never"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "I ain't gonna {{blank}}",
+          "promptZh": "我不會永生不死",
+          "options": [
+            "stay forever",
+            "last forever",
+            "live forever"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "I just wanna {{blank}}",
+          "promptZh": "我只想在活著的時候好好活著",
+          "options": [
+            "live while I'm young",
+            "live while I can",
+            "live while I'm alive"
+          ],
+          "answer": "live while I'm alive"
+        },
+        {
+          "number": 10,
+          "lineId": "line-11",
+          "prompt": "My heart is like an {{blank}}",
+          "promptZh": "我的心就像一條開闊的高速公路",
+          "options": [
+            "open road",
+            "open highway",
+            "open freeway"
+          ],
+          "answer": "open highway"
+        },
+        {
+          "number": 11,
+          "lineId": "line-13",
+          "prompt": "\"I {{blank}}.\"",
+          "promptZh": "「我用自己的方式做到了。」",
+          "options": [
+            "did it my way",
+            "did it my own way",
+            "made it my way"
+          ],
+          "answer": "did it my way"
+        },
+        {
+          "number": 12,
+          "lineId": "line-16",
+          "prompt": "This is for the ones who {{blank}}",
+          "promptZh": "這是獻給那些堅守陣地的人",
+          "options": [
+            "held their ground",
+            "stood their ground",
+            "stood their land"
+          ],
+          "answer": "stood their ground"
+        },
+        {
+          "number": 13,
+          "lineId": "line-17",
+          "prompt": "For Tommy and Gina who {{blank}}",
+          "promptZh": "獻給從不退縮的 Tommy 和 Gina",
+          "options": [
+            "never backed out",
+            "never stepped down",
+            "never backed down"
+          ],
+          "answer": "never backed down"
+        },
+        {
+          "number": 14,
+          "lineId": "line-18",
+          "prompt": "Tomorrow's getting harder {{blank}}",
+          "promptZh": "明天會變得更加艱難，別搞錯了",
+          "options": [
+            "make no mistake",
+            "take no mistake",
+            "make no excuse"
+          ],
+          "answer": "make no mistake"
+        },
+        {
+          "number": 15,
+          "lineId": "line-19",
+          "prompt": "Luck {{blank}}",
+          "promptZh": "運氣甚至算不上幸運",
+          "options": [
+            "isn't even lucky",
+            "ain't even lucky",
+            "ain't so lucky"
+          ],
+          "answer": "ain't even lucky"
+        },
+        {
+          "number": 16,
+          "lineId": "line-20",
+          "prompt": "Got to {{blank}}",
+          "promptZh": "你必須自己創造機會",
+          "options": [
+            "make your own breaks",
+            "make your own luck",
+            "take your own breaks"
+          ],
+          "answer": "make your own breaks"
+        },
+        {
+          "number": 17,
+          "lineId": "line-22",
+          "prompt": "And it's {{blank}}",
+          "promptZh": "而就是現在，否則再也沒有機會",
+          "options": [
+            "now or forever",
+            "now and never",
+            "now or never"
+          ],
+          "answer": "now or never"
+        },
+        {
+          "number": 18,
+          "lineId": "line-23",
+          "prompt": "I ain't gonna {{blank}}",
+          "promptZh": "我不會永生不死",
+          "options": [
+            "stay forever",
+            "last forever",
+            "live forever"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 19,
+          "lineId": "line-31",
+          "prompt": "Better stand tall when they're {{blank}}",
+          "promptZh": "當他們向你叫陣時，最好站得筆挺",
+          "options": [
+            "calling you out",
+            "calling you down",
+            "calling you names"
+          ],
+          "answer": "calling you out"
+        },
+        {
+          "number": 20,
+          "lineId": "line-32",
+          "prompt": "Don't bend, don't break, baby, {{blank}}",
+          "promptZh": "不要彎曲，不要折斷，寶貝，不要退縮",
+          "options": [
+            "don't back out",
+            "don't back down",
+            "don't step down"
+          ],
+          "answer": "don't back down"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "This ain't a song for the {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "No silent prayer for the {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I ain't gonna be just a {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You're gonna {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "When I {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "It's {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I ain't gonna {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I just wanna {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "(It's my life)"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "My heart is like an {{q:10}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Like Frankie said,"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "\"I {{q:11}}.\""
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I just wanna live while I'm alive"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "It's my life"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "This is for the ones who {{q:12}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "For Tommy and Gina who {{q:13}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Tomorrow's getting harder {{q:14}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Luck {{q:15}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Got to {{q:16}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "It's my life"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "And it's {{q:17}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I ain't gonna {{q:18}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I just wanna live while I'm alive"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "(It's my life)"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "My heart is like an open highway"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Like Frankie said,"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "\"I did it my way.\""
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I just wanna live while I'm alive"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "'Cause it's my life"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Better stand tall when they're {{q:19}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Don't bend, don't break, baby, {{q:20}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "It's my life"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "And it's now or never"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "'Cause I ain't gonna live forever"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I just wanna live while I'm alive"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "(It's my life)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "My heart is like an open highway"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Like Frankie said,"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "\"I did it my way.\""
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "I just wanna live while I'm alive"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "It's my life"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "And it's now or never"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "'Cause I ain't gonna live forever"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I just wanna live while I'm alive"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "(It's my life)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "My heart is like an open highway"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Like Frankie said,"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "\"I did it my way.\""
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "I just wanna live while I'm alive"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "'Cause it's my life!"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} for the 〔第 2 題〕",
+          "promptZh": "這不是一首寫給心碎之人的歌",
+          "options": [
+            "This ain't a song",
+            "This is a song",
+            "This isn't a song"
+          ],
+          "answer": "This ain't a song"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 for the {{blank}}",
+          "promptZh": "這不是一首寫給心碎之人的歌",
+          "options": [
+            "broken-hearted ones",
+            "broken-hearted",
+            "broken-hearted now"
+          ],
+          "answer": "broken-hearted"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} for the 〔第 4 題〕",
+          "promptZh": "不為失去信仰的人默默祈禱",
+          "options": [
+            "No silent prayer",
+            "No quiet prayer",
+            "Not a silent prayer"
+          ],
+          "answer": "No silent prayer"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 for the {{blank}}",
+          "promptZh": "不為失去信仰的人默默祈禱",
+          "options": [
+            "faithless-hearted",
+            "faithful departed",
+            "faith-departed"
+          ],
+          "answer": "faith-departed"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "I ain't gonna be just a {{blank}}",
+          "promptZh": "我不會只是茫茫人海中的一張面孔",
+          "options": [
+            "voice in the crowd",
+            "face in the crowd",
+            "face in the clouds"
+          ],
+          "answer": "face in the crowd"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "{{blank}} my voice",
+          "promptZh": "你會聽見我的聲音",
+          "options": [
+            "You will hear",
+            "You're gonna hear",
+            "You're going to hear"
+          ],
+          "answer": "You're gonna hear"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "{{blank}} it out loud",
+          "promptZh": "當我大聲呼喊出來",
+          "options": [
+            "When I shout",
+            "When I scream",
+            "When I yell"
+          ],
+          "answer": "When I shout"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "{{blank}}",
+          "promptZh": "這是我的人生",
+          "options": [
+            "This is my life",
+            "It's your life",
+            "It's my life"
+          ],
+          "answer": "It's my life"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "{{blank}}",
+          "promptZh": "就是現在，否則再也沒有機會",
+          "options": [
+            "It's now or never",
+            "It's now and never",
+            "It's now or forever"
+          ],
+          "answer": "It's now or never"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "{{blank}} forever",
+          "promptZh": "我不會永生不死",
+          "options": [
+            "I won't live",
+            "I ain't gonna live",
+            "I am not gonna live"
+          ],
+          "answer": "I ain't gonna live"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "I just wanna {{blank}}",
+          "promptZh": "我只想在活著的時候好好活著",
+          "options": [
+            "live while I'm young",
+            "live while I can",
+            "live while I'm alive"
+          ],
+          "answer": "live while I'm alive"
+        },
+        {
+          "number": 12,
+          "lineId": "line-11",
+          "prompt": "{{blank}} an 〔第 13 題〕",
+          "promptZh": "我的心就像一條開闊的高速公路",
+          "options": [
+            "My heart is just like",
+            "My heart is like",
+            "My heart feels like"
+          ],
+          "answer": "My heart is like"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "〔第 12 題〕 an {{blank}}",
+          "promptZh": "我的心就像一條開闊的高速公路",
+          "options": [
+            "open freeway",
+            "open road",
+            "open highway"
+          ],
+          "answer": "open highway"
+        },
+        {
+          "number": 14,
+          "lineId": "line-13",
+          "prompt": "\"I {{blank}}.\"",
+          "promptZh": "「我用自己的方式做到了。」",
+          "options": [
+            "did it my way",
+            "did it my own way",
+            "made it my way"
+          ],
+          "answer": "did it my way"
+        },
+        {
+          "number": 15,
+          "lineId": "line-14",
+          "prompt": "I just wanna {{blank}}",
+          "promptZh": "我只想在活著的時候好好活著",
+          "options": [
+            "live while I'm alive",
+            "live while I can",
+            "live while I'm young"
+          ],
+          "answer": "live while I'm alive"
+        },
+        {
+          "number": 16,
+          "lineId": "line-15",
+          "prompt": "{{blank}}",
+          "promptZh": "這是我的人生",
+          "options": [
+            "This is my life",
+            "It's my life",
+            "It's your life"
+          ],
+          "answer": "It's my life"
+        },
+        {
+          "number": 17,
+          "lineId": "line-16",
+          "prompt": "This is for the ones who {{blank}}",
+          "promptZh": "這是獻給那些堅守陣地的人",
+          "options": [
+            "stood their land",
+            "held their ground",
+            "stood their ground"
+          ],
+          "answer": "stood their ground"
+        },
+        {
+          "number": 18,
+          "lineId": "line-17",
+          "prompt": "For Tommy and Gina who {{blank}}",
+          "promptZh": "獻給從不退縮的 Tommy 和 Gina",
+          "options": [
+            "never stepped down",
+            "never backed down",
+            "never backed out"
+          ],
+          "answer": "never backed down"
+        },
+        {
+          "number": 19,
+          "lineId": "line-18",
+          "prompt": "Tomorrow's getting harder {{blank}}",
+          "promptZh": "明天會變得更加艱難，別搞錯了",
+          "options": [
+            "make no excuse",
+            "take no mistake",
+            "make no mistake"
+          ],
+          "answer": "make no mistake"
+        },
+        {
+          "number": 20,
+          "lineId": "line-19",
+          "prompt": "Luck {{blank}}",
+          "promptZh": "運氣甚至算不上幸運",
+          "options": [
+            "ain't even lucky",
+            "isn't even lucky",
+            "ain't so lucky"
+          ],
+          "answer": "ain't even lucky"
+        },
+        {
+          "number": 21,
+          "lineId": "line-20",
+          "prompt": "Got to {{blank}}",
+          "promptZh": "你必須自己創造機會",
+          "options": [
+            "make your own breaks",
+            "make your own luck",
+            "take your own breaks"
+          ],
+          "answer": "make your own breaks"
+        },
+        {
+          "number": 22,
+          "lineId": "line-21",
+          "prompt": "{{blank}}",
+          "promptZh": "這是我的人生",
+          "options": [
+            "It's your life",
+            "This is my life",
+            "It's my life"
+          ],
+          "answer": "It's my life"
+        },
+        {
+          "number": 23,
+          "lineId": "line-22",
+          "prompt": "And it's {{blank}}",
+          "promptZh": "而就是現在，否則再也沒有機會",
+          "options": [
+            "now and never",
+            "now or never",
+            "now or forever"
+          ],
+          "answer": "now or never"
+        },
+        {
+          "number": 24,
+          "lineId": "line-23",
+          "prompt": "I ain't gonna {{blank}}",
+          "promptZh": "我不會永生不死",
+          "options": [
+            "live forever",
+            "last forever",
+            "stay forever"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 25,
+          "lineId": "line-26",
+          "prompt": "My heart is like an {{blank}}",
+          "promptZh": "我的心就像一條開闊的高速公路",
+          "options": [
+            "open road",
+            "open highway",
+            "open freeway"
+          ],
+          "answer": "open highway"
+        },
+        {
+          "number": 26,
+          "lineId": "line-28",
+          "prompt": "\"I {{blank}}.\"",
+          "promptZh": "「我用自己的方式做到了。」",
+          "options": [
+            "made it my way",
+            "did it my own way",
+            "did it my way"
+          ],
+          "answer": "did it my way"
+        },
+        {
+          "number": 27,
+          "lineId": "line-30",
+          "prompt": "{{blank}}",
+          "promptZh": "因為這是我的人生",
+          "options": [
+            "'Cause it's your life",
+            "Because it's my life",
+            "'Cause it's my life"
+          ],
+          "answer": "'Cause it's my life"
+        },
+        {
+          "number": 28,
+          "lineId": "line-31",
+          "prompt": "Better stand tall when they're {{blank}}",
+          "promptZh": "當他們向你叫陣時，最好站得筆挺",
+          "options": [
+            "calling you down",
+            "calling you out",
+            "calling you names"
+          ],
+          "answer": "calling you out"
+        },
+        {
+          "number": 29,
+          "lineId": "line-32",
+          "prompt": "Don't bend, don't break, baby, {{blank}}",
+          "promptZh": "不要彎曲，不要折斷，寶貝，不要退縮",
+          "options": [
+            "don't back down",
+            "don't back out",
+            "don't step down"
+          ],
+          "answer": "don't back down"
+        },
+        {
+          "number": 30,
+          "lineId": "line-33",
+          "prompt": "{{blank}}",
+          "promptZh": "這是我的人生",
+          "options": [
+            "This is my life",
+            "It's my life",
+            "It's your life"
+          ],
+          "answer": "It's my life"
+        },
+        {
+          "number": 31,
+          "lineId": "line-37",
+          "prompt": "({{blank}})",
+          "promptZh": "（這是我的人生）",
+          "options": [
+            "It's my life",
+            "This is my life",
+            "It's your life"
+          ],
+          "answer": "It's my life"
+        },
+        {
+          "number": 32,
+          "lineId": "line-43",
+          "prompt": "{{blank}}",
+          "promptZh": "而就是現在，否則再也沒有機會",
+          "options": [
+            "And it's now or forever",
+            "And it's now and never",
+            "And it's now or never"
+          ],
+          "answer": "And it's now or never"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} for the {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} for the {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I ain't gonna be just a {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:6}} my voice"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}} it out loud"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:8}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:9}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:10}} forever"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I just wanna {{q:11}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "(It's my life)"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:12}} an {{q:13}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Like Frankie said,"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "\"I {{q:14}}.\""
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I just wanna {{q:15}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:16}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "This is for the ones who {{q:17}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "For Tommy and Gina who {{q:18}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Tomorrow's getting harder {{q:19}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Luck {{q:20}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Got to {{q:21}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:22}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "And it's {{q:23}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I ain't gonna {{q:24}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I just wanna live while I'm alive"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "(It's my life)"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "My heart is like an {{q:25}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Like Frankie said,"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "\"I {{q:26}}.\""
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I just wanna live while I'm alive"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:27}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Better stand tall when they're {{q:28}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Don't bend, don't break, baby, {{q:29}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:30}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "And it's now or never"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "'Cause I ain't gonna live forever"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I just wanna live while I'm alive"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "({{q:31}})"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "My heart is like an open highway"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Like Frankie said,"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "\"I did it my way.\""
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "I just wanna live while I'm alive"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "It's my life"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "'Cause I ain't gonna live forever"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I just wanna live while I'm alive"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "(It's my life)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "My heart is like an open highway"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Like Frankie said,"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "\"I did it my way.\""
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "I just wanna live while I'm alive"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "'Cause it's my life!"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} for the 〔第 2 題〕",
+          "promptZh": "這不是一首寫給心碎之人的歌",
+          "options": [
+            "This ain't a song",
+            "This is a song",
+            "This isn't a song"
+          ],
+          "answer": "This ain't a song"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 for the {{blank}}",
+          "promptZh": "這不是一首寫給心碎之人的歌",
+          "options": [
+            "broken-hearted",
+            "broken-hearted ones",
+            "broken-hearted now"
+          ],
+          "answer": "broken-hearted"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} for the 〔第 4 題〕",
+          "promptZh": "不為失去信仰的人默默祈禱",
+          "options": [
+            "No quiet prayer",
+            "No silent prayer",
+            "Not a silent prayer"
+          ],
+          "answer": "No silent prayer"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 for the {{blank}}",
+          "promptZh": "不為失去信仰的人默默祈禱",
+          "options": [
+            "faithless-hearted",
+            "faithful departed",
+            "faith-departed"
+          ],
+          "answer": "faith-departed"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "I ain't gonna be just a {{blank}}",
+          "promptZh": "我不會只是茫茫人海中的一張面孔",
+          "options": [
+            "face in the crowd",
+            "voice in the crowd",
+            "face in the clouds"
+          ],
+          "answer": "face in the crowd"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "You're gonna {{blank}}",
+          "promptZh": "你會聽見我的聲音",
+          "options": [
+            "hear my song",
+            "hear my call",
+            "hear my voice"
+          ],
+          "answer": "hear my voice"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "When I {{blank}}",
+          "promptZh": "當我大聲呼喊出來",
+          "options": [
+            "scream it out loud",
+            "shout it out loud",
+            "shout it out now"
+          ],
+          "answer": "shout it out loud"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "{{blank}}",
+          "promptZh": "這是我的人生",
+          "options": [
+            "This is my life",
+            "It's your life",
+            "It's my life"
+          ],
+          "answer": "It's my life"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "It's {{blank}}",
+          "promptZh": "就是現在，否則再也沒有機會",
+          "options": [
+            "now and never",
+            "now or never",
+            "now or forever"
+          ],
+          "answer": "now or never"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "I ain't gonna {{blank}}",
+          "promptZh": "我不會永生不死",
+          "options": [
+            "live forever",
+            "last forever",
+            "stay forever"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "I just wanna {{blank}}",
+          "promptZh": "我只想在活著的時候好好活著",
+          "options": [
+            "live while I can",
+            "live while I'm alive",
+            "live while I'm young"
+          ],
+          "answer": "live while I'm alive"
+        },
+        {
+          "number": 12,
+          "lineId": "line-11",
+          "prompt": "{{blank}} an 〔第 13 題〕",
+          "promptZh": "我的心就像一條開闊的高速公路",
+          "options": [
+            "My heart is like",
+            "My heart is just like",
+            "My heart feels like"
+          ],
+          "answer": "My heart is like"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "〔第 12 題〕 an {{blank}}",
+          "promptZh": "我的心就像一條開闊的高速公路",
+          "options": [
+            "open freeway",
+            "open road",
+            "open highway"
+          ],
+          "answer": "open highway"
+        },
+        {
+          "number": 14,
+          "lineId": "line-13",
+          "prompt": "\"I {{blank}}.\"",
+          "promptZh": "「我用自己的方式做到了。」",
+          "options": [
+            "made it my way",
+            "did it my own way",
+            "did it my way"
+          ],
+          "answer": "did it my way"
+        },
+        {
+          "number": 15,
+          "lineId": "line-14",
+          "prompt": "I just wanna {{blank}}",
+          "promptZh": "我只想在活著的時候好好活著",
+          "options": [
+            "live while I'm alive",
+            "live while I can",
+            "live while I'm young"
+          ],
+          "answer": "live while I'm alive"
+        },
+        {
+          "number": 16,
+          "lineId": "line-15",
+          "prompt": "{{blank}}",
+          "promptZh": "這是我的人生",
+          "options": [
+            "This is my life",
+            "It's my life",
+            "It's your life"
+          ],
+          "answer": "It's my life"
+        },
+        {
+          "number": 17,
+          "lineId": "line-16",
+          "prompt": "This is for the ones who {{blank}}",
+          "promptZh": "這是獻給那些堅守陣地的人",
+          "options": [
+            "stood their ground",
+            "held their ground",
+            "stood their land"
+          ],
+          "answer": "stood their ground"
+        },
+        {
+          "number": 18,
+          "lineId": "line-17",
+          "prompt": "For Tommy and Gina who {{blank}}",
+          "promptZh": "獻給從不退縮的 Tommy 和 Gina",
+          "options": [
+            "never stepped down",
+            "never backed down",
+            "never backed out"
+          ],
+          "answer": "never backed down"
+        },
+        {
+          "number": 19,
+          "lineId": "line-18",
+          "prompt": "Tomorrow's getting harder {{blank}}",
+          "promptZh": "明天會變得更加艱難，別搞錯了",
+          "options": [
+            "make no excuse",
+            "take no mistake",
+            "make no mistake"
+          ],
+          "answer": "make no mistake"
+        },
+        {
+          "number": 20,
+          "lineId": "line-19",
+          "prompt": "Luck {{blank}}",
+          "promptZh": "運氣甚至算不上幸運",
+          "options": [
+            "isn't even lucky",
+            "ain't even lucky",
+            "ain't so lucky"
+          ],
+          "answer": "ain't even lucky"
+        },
+        {
+          "number": 21,
+          "lineId": "line-20",
+          "prompt": "Got to {{blank}}",
+          "promptZh": "你必須自己創造機會",
+          "options": [
+            "take your own breaks",
+            "make your own luck",
+            "make your own breaks"
+          ],
+          "answer": "make your own breaks"
+        },
+        {
+          "number": 22,
+          "lineId": "line-21",
+          "prompt": "{{blank}}",
+          "promptZh": "這是我的人生",
+          "options": [
+            "It's my life",
+            "This is my life",
+            "It's your life"
+          ],
+          "answer": "It's my life"
+        },
+        {
+          "number": 23,
+          "lineId": "line-22",
+          "prompt": "And it's {{blank}}",
+          "promptZh": "而就是現在，否則再也沒有機會",
+          "options": [
+            "now and never",
+            "now or never",
+            "now or forever"
+          ],
+          "answer": "now or never"
+        },
+        {
+          "number": 24,
+          "lineId": "line-23",
+          "prompt": "I ain't gonna {{blank}}",
+          "promptZh": "我不會永生不死",
+          "options": [
+            "live forever",
+            "last forever",
+            "stay forever"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 25,
+          "lineId": "line-24",
+          "prompt": "I just wanna {{blank}}",
+          "promptZh": "我只想在活著的時候好好活著",
+          "options": [
+            "live while I'm young",
+            "live while I can",
+            "live while I'm alive"
+          ],
+          "answer": "live while I'm alive"
+        },
+        {
+          "number": 26,
+          "lineId": "line-26",
+          "prompt": "My heart is like an {{blank}}",
+          "promptZh": "我的心就像一條開闊的高速公路",
+          "options": [
+            "open road",
+            "open highway",
+            "open freeway"
+          ],
+          "answer": "open highway"
+        },
+        {
+          "number": 27,
+          "lineId": "line-27",
+          "prompt": "Like {{blank}},",
+          "promptZh": "就像 Frankie 說的，",
+          "options": [
+            "Frankie said",
+            "Frankie says",
+            "Frank said"
+          ],
+          "answer": "Frankie said"
+        },
+        {
+          "number": 28,
+          "lineId": "line-28",
+          "prompt": "\"I {{blank}}.\"",
+          "promptZh": "「我用自己的方式做到了。」",
+          "options": [
+            "made it my way",
+            "did it my own way",
+            "did it my way"
+          ],
+          "answer": "did it my way"
+        },
+        {
+          "number": 29,
+          "lineId": "line-29",
+          "prompt": "I just wanna {{blank}}",
+          "promptZh": "我只想在活著的時候好好活著",
+          "options": [
+            "live while I can",
+            "live while I'm alive",
+            "live while I'm young"
+          ],
+          "answer": "live while I'm alive"
+        },
+        {
+          "number": 30,
+          "lineId": "line-30",
+          "prompt": "'Cause it's {{blank}}",
+          "promptZh": "因為這是我的人生",
+          "options": [
+            "my life",
+            "your life",
+            "this life"
+          ],
+          "answer": "my life"
+        },
+        {
+          "number": 31,
+          "lineId": "line-31",
+          "prompt": "{{blank}} when they're 〔第 32 題〕",
+          "promptZh": "當他們向你叫陣時，最好站得筆挺",
+          "options": [
+            "Better stand firm",
+            "Better stand up",
+            "Better stand tall"
+          ],
+          "answer": "Better stand tall"
+        },
+        {
+          "number": 32,
+          "lineId": "line-31",
+          "prompt": "〔第 31 題〕 when they're {{blank}}",
+          "promptZh": "當他們向你叫陣時，最好站得筆挺",
+          "options": [
+            "calling you names",
+            "calling you down",
+            "calling you out"
+          ],
+          "answer": "calling you out"
+        },
+        {
+          "number": 33,
+          "lineId": "line-32",
+          "prompt": "Don't bend, don't break, baby, {{blank}}",
+          "promptZh": "不要彎曲，不要折斷，寶貝，不要退縮",
+          "options": [
+            "don't back out",
+            "don't back down",
+            "don't step down"
+          ],
+          "answer": "don't back down"
+        },
+        {
+          "number": 34,
+          "lineId": "line-33",
+          "prompt": "{{blank}}",
+          "promptZh": "這是我的人生",
+          "options": [
+            "It's my life",
+            "This is my life",
+            "It's your life"
+          ],
+          "answer": "It's my life"
+        },
+        {
+          "number": 35,
+          "lineId": "line-34",
+          "prompt": "And it's {{blank}}",
+          "promptZh": "而就是現在，否則再也沒有機會",
+          "options": [
+            "now and never",
+            "now or never",
+            "now or forever"
+          ],
+          "answer": "now or never"
+        },
+        {
+          "number": 36,
+          "lineId": "line-35",
+          "prompt": "'Cause I ain't gonna {{blank}}",
+          "promptZh": "因為我不會永生不死",
+          "options": [
+            "stay forever",
+            "last forever",
+            "live forever"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 37,
+          "lineId": "line-36",
+          "prompt": "I just wanna {{blank}}",
+          "promptZh": "我只想在活著的時候好好活著",
+          "options": [
+            "live while I'm alive",
+            "live while I can",
+            "live while I'm young"
+          ],
+          "answer": "live while I'm alive"
+        },
+        {
+          "number": 38,
+          "lineId": "line-37",
+          "prompt": "({{blank}})",
+          "promptZh": "（這是我的人生）",
+          "options": [
+            "It's your life",
+            "This is my life",
+            "It's my life"
+          ],
+          "answer": "It's my life"
+        },
+        {
+          "number": 39,
+          "lineId": "line-38",
+          "prompt": "My heart is like an {{blank}}",
+          "promptZh": "我的心就像一條開闊的高速公路",
+          "options": [
+            "open road",
+            "open highway",
+            "open freeway"
+          ],
+          "answer": "open highway"
+        },
+        {
+          "number": 40,
+          "lineId": "line-43",
+          "prompt": "{{blank}}",
+          "promptZh": "而就是現在，否則再也沒有機會",
+          "options": [
+            "And it's now or never",
+            "And it's now and never",
+            "And it's now or forever"
+          ],
+          "answer": "And it's now or never"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} for the {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} for the {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I ain't gonna be just a {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You're gonna {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "When I {{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:8}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "It's {{q:9}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I ain't gonna {{q:10}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I just wanna {{q:11}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "(It's my life)"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:12}} an {{q:13}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Like Frankie said,"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "\"I {{q:14}}.\""
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I just wanna {{q:15}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:16}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "This is for the ones who {{q:17}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "For Tommy and Gina who {{q:18}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Tomorrow's getting harder {{q:19}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Luck {{q:20}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Got to {{q:21}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:22}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "And it's {{q:23}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I ain't gonna {{q:24}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I just wanna {{q:25}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "(It's my life)"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "My heart is like an {{q:26}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Like {{q:27}},"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "\"I {{q:28}}.\""
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I just wanna {{q:29}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "'Cause it's {{q:30}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:31}} when they're {{q:32}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Don't bend, don't break, baby, {{q:33}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:34}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "And it's {{q:35}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "'Cause I ain't gonna {{q:36}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I just wanna {{q:37}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "({{q:38}})"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "My heart is like an {{q:39}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Like Frankie said,"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "\"I did it my way.\""
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "I just wanna live while I'm alive"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "It's my life"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:40}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "'Cause I ain't gonna live forever"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I just wanna live while I'm alive"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "(It's my life)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "My heart is like an open highway"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Like Frankie said,"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "\"I did it my way.\""
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "I just wanna live while I'm alive"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "'Cause it's my life!"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} for the 〔第 2 題〕",
+          "promptZh": "這不是一首寫給心碎之人的歌",
+          "options": [
+            "This is a song",
+            "This ain't a song",
+            "This isn't a song"
+          ],
+          "answer": "This ain't a song"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 for the {{blank}}",
+          "promptZh": "這不是一首寫給心碎之人的歌",
+          "options": [
+            "broken-hearted",
+            "broken-hearted ones",
+            "broken-hearted now"
+          ],
+          "answer": "broken-hearted"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} for the 〔第 4 題〕",
+          "promptZh": "不為失去信仰的人默默祈禱",
+          "options": [
+            "Not a silent prayer",
+            "No quiet prayer",
+            "No silent prayer"
+          ],
+          "answer": "No silent prayer"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 for the {{blank}}",
+          "promptZh": "不為失去信仰的人默默祈禱",
+          "options": [
+            "faith-departed",
+            "faithful departed",
+            "faithless-hearted"
+          ],
+          "answer": "faith-departed"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "I ain't gonna be just a {{blank}}",
+          "promptZh": "我不會只是茫茫人海中的一張面孔",
+          "options": [
+            "voice in the crowd",
+            "face in the crowd",
+            "face in the clouds"
+          ],
+          "answer": "face in the crowd"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "You're gonna {{blank}}",
+          "promptZh": "你會聽見我的聲音",
+          "options": [
+            "hear my song",
+            "hear my call",
+            "hear my voice"
+          ],
+          "answer": "hear my voice"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "When I {{blank}}",
+          "promptZh": "當我大聲呼喊出來",
+          "options": [
+            "shout it out loud",
+            "scream it out loud",
+            "shout it out now"
+          ],
+          "answer": "shout it out loud"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "{{blank}}",
+          "promptZh": "這是我的人生",
+          "options": [
+            "It's your life",
+            "It's my life",
+            "This is my life"
+          ],
+          "answer": "It's my life"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "It's {{blank}}",
+          "promptZh": "就是現在，否則再也沒有機會",
+          "options": [
+            "now or forever",
+            "now and never",
+            "now or never"
+          ],
+          "answer": "now or never"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "I ain't gonna {{blank}}",
+          "promptZh": "我不會永生不死",
+          "options": [
+            "last forever",
+            "live forever",
+            "stay forever"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "I just wanna {{blank}}",
+          "promptZh": "我只想在活著的時候好好活著",
+          "options": [
+            "live while I'm alive",
+            "live while I can",
+            "live while I'm young"
+          ],
+          "answer": "live while I'm alive"
+        },
+        {
+          "number": 12,
+          "lineId": "line-11",
+          "prompt": "{{blank}} an 〔第 13 題〕",
+          "promptZh": "我的心就像一條開闊的高速公路",
+          "options": [
+            "My heart is like",
+            "My heart is just like",
+            "My heart feels like"
+          ],
+          "answer": "My heart is like"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "〔第 12 題〕 an {{blank}}",
+          "promptZh": "我的心就像一條開闊的高速公路",
+          "options": [
+            "open freeway",
+            "open road",
+            "open highway"
+          ],
+          "answer": "open highway"
+        },
+        {
+          "number": 14,
+          "lineId": "line-13",
+          "prompt": "\"I {{blank}}.\"",
+          "promptZh": "「我用自己的方式做到了。」",
+          "options": [
+            "did it my own way",
+            "did it my way",
+            "made it my way"
+          ],
+          "answer": "did it my way"
+        },
+        {
+          "number": 15,
+          "lineId": "line-14",
+          "prompt": "I just wanna {{blank}}",
+          "promptZh": "我只想在活著的時候好好活著",
+          "options": [
+            "live while I can",
+            "live while I'm alive",
+            "live while I'm young"
+          ],
+          "answer": "live while I'm alive"
+        },
+        {
+          "number": 16,
+          "lineId": "line-15",
+          "prompt": "{{blank}}",
+          "promptZh": "這是我的人生",
+          "options": [
+            "It's your life",
+            "This is my life",
+            "It's my life"
+          ],
+          "answer": "It's my life"
+        },
+        {
+          "number": 17,
+          "lineId": "line-16",
+          "prompt": "This is for the ones who {{blank}}",
+          "promptZh": "這是獻給那些堅守陣地的人",
+          "options": [
+            "stood their ground",
+            "held their ground",
+            "stood their land"
+          ],
+          "answer": "stood their ground"
+        },
+        {
+          "number": 18,
+          "lineId": "line-17",
+          "prompt": "For Tommy and Gina who {{blank}}",
+          "promptZh": "獻給從不退縮的 Tommy 和 Gina",
+          "options": [
+            "never backed out",
+            "never stepped down",
+            "never backed down"
+          ],
+          "answer": "never backed down"
+        },
+        {
+          "number": 19,
+          "lineId": "line-18",
+          "prompt": "Tomorrow's getting harder {{blank}}",
+          "promptZh": "明天會變得更加艱難，別搞錯了",
+          "options": [
+            "take no mistake",
+            "make no mistake",
+            "make no excuse"
+          ],
+          "answer": "make no mistake"
+        },
+        {
+          "number": 20,
+          "lineId": "line-19",
+          "prompt": "Luck {{blank}}",
+          "promptZh": "運氣甚至算不上幸運",
+          "options": [
+            "ain't even lucky",
+            "isn't even lucky",
+            "ain't so lucky"
+          ],
+          "answer": "ain't even lucky"
+        },
+        {
+          "number": 21,
+          "lineId": "line-20",
+          "prompt": "Got to {{blank}}",
+          "promptZh": "你必須自己創造機會",
+          "options": [
+            "make your own breaks",
+            "make your own luck",
+            "take your own breaks"
+          ],
+          "answer": "make your own breaks"
+        },
+        {
+          "number": 22,
+          "lineId": "line-21",
+          "prompt": "{{blank}}",
+          "promptZh": "這是我的人生",
+          "options": [
+            "It's your life",
+            "This is my life",
+            "It's my life"
+          ],
+          "answer": "It's my life"
+        },
+        {
+          "number": 23,
+          "lineId": "line-22",
+          "prompt": "And it's {{blank}}",
+          "promptZh": "而就是現在，否則再也沒有機會",
+          "options": [
+            "now and never",
+            "now or never",
+            "now or forever"
+          ],
+          "answer": "now or never"
+        },
+        {
+          "number": 24,
+          "lineId": "line-23",
+          "prompt": "I ain't gonna {{blank}}",
+          "promptZh": "我不會永生不死",
+          "options": [
+            "stay forever",
+            "last forever",
+            "live forever"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 25,
+          "lineId": "line-24",
+          "prompt": "I just wanna {{blank}}",
+          "promptZh": "我只想在活著的時候好好活著",
+          "options": [
+            "live while I'm alive",
+            "live while I can",
+            "live while I'm young"
+          ],
+          "answer": "live while I'm alive"
+        },
+        {
+          "number": 26,
+          "lineId": "line-26",
+          "prompt": "My heart is like an {{blank}}",
+          "promptZh": "我的心就像一條開闊的高速公路",
+          "options": [
+            "open road",
+            "open highway",
+            "open freeway"
+          ],
+          "answer": "open highway"
+        },
+        {
+          "number": 27,
+          "lineId": "line-27",
+          "prompt": "Like {{blank}},",
+          "promptZh": "就像 Frankie 說的，",
+          "options": [
+            "Frankie says",
+            "Frankie said",
+            "Frank said"
+          ],
+          "answer": "Frankie said"
+        },
+        {
+          "number": 28,
+          "lineId": "line-28",
+          "prompt": "\"I {{blank}}.\"",
+          "promptZh": "「我用自己的方式做到了。」",
+          "options": [
+            "made it my way",
+            "did it my own way",
+            "did it my way"
+          ],
+          "answer": "did it my way"
+        },
+        {
+          "number": 29,
+          "lineId": "line-29",
+          "prompt": "I just wanna {{blank}}",
+          "promptZh": "我只想在活著的時候好好活著",
+          "options": [
+            "live while I'm alive",
+            "live while I can",
+            "live while I'm young"
+          ],
+          "answer": "live while I'm alive"
+        },
+        {
+          "number": 30,
+          "lineId": "line-30",
+          "prompt": "'Cause it's {{blank}}",
+          "promptZh": "因為這是我的人生",
+          "options": [
+            "your life",
+            "my life",
+            "this life"
+          ],
+          "answer": "my life"
+        },
+        {
+          "number": 31,
+          "lineId": "line-31",
+          "prompt": "{{blank}} when they're 〔第 32 題〕",
+          "promptZh": "當他們向你叫陣時，最好站得筆挺",
+          "options": [
+            "Better stand firm",
+            "Better stand up",
+            "Better stand tall"
+          ],
+          "answer": "Better stand tall"
+        },
+        {
+          "number": 32,
+          "lineId": "line-31",
+          "prompt": "〔第 31 題〕 when they're {{blank}}",
+          "promptZh": "當他們向你叫陣時，最好站得筆挺",
+          "options": [
+            "calling you out",
+            "calling you down",
+            "calling you names"
+          ],
+          "answer": "calling you out"
+        },
+        {
+          "number": 33,
+          "lineId": "line-32",
+          "prompt": "Don't bend, don't break, baby, {{blank}}",
+          "promptZh": "不要彎曲，不要折斷，寶貝，不要退縮",
+          "options": [
+            "don't back out",
+            "don't back down",
+            "don't step down"
+          ],
+          "answer": "don't back down"
+        },
+        {
+          "number": 34,
+          "lineId": "line-33",
+          "prompt": "{{blank}}",
+          "promptZh": "這是我的人生",
+          "options": [
+            "It's your life",
+            "This is my life",
+            "It's my life"
+          ],
+          "answer": "It's my life"
+        },
+        {
+          "number": 35,
+          "lineId": "line-34",
+          "prompt": "And it's {{blank}}",
+          "promptZh": "而就是現在，否則再也沒有機會",
+          "options": [
+            "now or never",
+            "now and never",
+            "now or forever"
+          ],
+          "answer": "now or never"
+        },
+        {
+          "number": 36,
+          "lineId": "line-35",
+          "prompt": "'Cause I ain't gonna {{blank}}",
+          "promptZh": "因為我不會永生不死",
+          "options": [
+            "stay forever",
+            "last forever",
+            "live forever"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 37,
+          "lineId": "line-36",
+          "prompt": "I just wanna {{blank}}",
+          "promptZh": "我只想在活著的時候好好活著",
+          "options": [
+            "live while I'm alive",
+            "live while I can",
+            "live while I'm young"
+          ],
+          "answer": "live while I'm alive"
+        },
+        {
+          "number": 38,
+          "lineId": "line-38",
+          "prompt": "My heart is like an {{blank}}",
+          "promptZh": "我的心就像一條開闊的高速公路",
+          "options": [
+            "open road",
+            "open highway",
+            "open freeway"
+          ],
+          "answer": "open highway"
+        },
+        {
+          "number": 39,
+          "lineId": "line-39",
+          "prompt": "Like {{blank}},",
+          "promptZh": "就像 Frankie 說的，",
+          "options": [
+            "Frankie said",
+            "Frankie says",
+            "Frank said"
+          ],
+          "answer": "Frankie said"
+        },
+        {
+          "number": 40,
+          "lineId": "line-40",
+          "prompt": "\"I {{blank}}.\"",
+          "promptZh": "「我用自己的方式做到了。」",
+          "options": [
+            "did it my own way",
+            "did it my way",
+            "made it my way"
+          ],
+          "answer": "did it my way"
+        },
+        {
+          "number": 41,
+          "lineId": "line-41",
+          "prompt": "I just wanna {{blank}}",
+          "promptZh": "我只想在活著的時候好好活著",
+          "options": [
+            "live while I'm young",
+            "live while I can",
+            "live while I'm alive"
+          ],
+          "answer": "live while I'm alive"
+        },
+        {
+          "number": 42,
+          "lineId": "line-42",
+          "prompt": "{{blank}}",
+          "promptZh": "這是我的人生",
+          "options": [
+            "This is my life",
+            "It's my life",
+            "It's your life"
+          ],
+          "answer": "It's my life"
+        },
+        {
+          "number": 43,
+          "lineId": "line-43",
+          "prompt": "And it's {{blank}}",
+          "promptZh": "而就是現在，否則再也沒有機會",
+          "options": [
+            "now or never",
+            "now and never",
+            "now or forever"
+          ],
+          "answer": "now or never"
+        },
+        {
+          "number": 44,
+          "lineId": "line-44",
+          "prompt": "'Cause I ain't gonna {{blank}}",
+          "promptZh": "因為我不會永生不死",
+          "options": [
+            "stay forever",
+            "last forever",
+            "live forever"
+          ],
+          "answer": "live forever"
+        },
+        {
+          "number": 45,
+          "lineId": "line-45",
+          "prompt": "I just wanna {{blank}}",
+          "promptZh": "我只想在活著的時候好好活著",
+          "options": [
+            "live while I'm alive",
+            "live while I can",
+            "live while I'm young"
+          ],
+          "answer": "live while I'm alive"
+        },
+        {
+          "number": 46,
+          "lineId": "line-47",
+          "prompt": "My heart is like an {{blank}}",
+          "promptZh": "我的心就像一條開闊的高速公路",
+          "options": [
+            "open road",
+            "open highway",
+            "open freeway"
+          ],
+          "answer": "open highway"
+        },
+        {
+          "number": 47,
+          "lineId": "line-48",
+          "prompt": "Like {{blank}},",
+          "promptZh": "就像 Frankie 說的，",
+          "options": [
+            "Frank said",
+            "Frankie says",
+            "Frankie said"
+          ],
+          "answer": "Frankie said"
+        },
+        {
+          "number": 48,
+          "lineId": "line-49",
+          "prompt": "\"I {{blank}}.\"",
+          "promptZh": "「我用自己的方式做到了。」",
+          "options": [
+            "did it my own way",
+            "did it my way",
+            "made it my way"
+          ],
+          "answer": "did it my way"
+        },
+        {
+          "number": 49,
+          "lineId": "line-50",
+          "prompt": "I just wanna {{blank}}",
+          "promptZh": "我只想在活著的時候好好活著",
+          "options": [
+            "live while I'm young",
+            "live while I can",
+            "live while I'm alive"
+          ],
+          "answer": "live while I'm alive"
+        },
+        {
+          "number": 50,
+          "lineId": "line-51",
+          "prompt": "'Cause it's {{blank}}",
+          "promptZh": "因為這是我的人生！",
+          "options": [
+            "my life!",
+            "your life!",
+            "this life!"
+          ],
+          "answer": "my life!"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} for the {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} for the {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I ain't gonna be just a {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You're gonna {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "When I {{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:8}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "It's {{q:9}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I ain't gonna {{q:10}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I just wanna {{q:11}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "(It's my life)"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:12}} an {{q:13}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Like Frankie said,"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "\"I {{q:14}}.\""
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I just wanna {{q:15}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:16}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "This is for the ones who {{q:17}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "For Tommy and Gina who {{q:18}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Tomorrow's getting harder {{q:19}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Luck {{q:20}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Got to {{q:21}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:22}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "And it's {{q:23}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I ain't gonna {{q:24}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I just wanna {{q:25}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "(It's my life)"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "My heart is like an {{q:26}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Like {{q:27}},"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "\"I {{q:28}}.\""
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I just wanna {{q:29}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "'Cause it's {{q:30}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:31}} when they're {{q:32}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Don't bend, don't break, baby, {{q:33}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:34}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "And it's {{q:35}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "'Cause I ain't gonna {{q:36}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I just wanna {{q:37}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "(It's my life)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "My heart is like an {{q:38}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Like {{q:39}},"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "\"I {{q:40}}.\""
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "I just wanna {{q:41}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "{{q:42}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "And it's {{q:43}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "'Cause I ain't gonna {{q:44}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I just wanna {{q:45}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "(It's my life)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "My heart is like an {{q:46}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Like {{q:47}},"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "\"I {{q:48}}.\""
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "I just wanna {{q:49}}"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "'Cause it's {{q:50}}"
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/its-my-life/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/its-my-life/cover.webp",
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "It's my life.pdf",
+      "sha256": "60f5b6ffcdaed049248c7c475645f083f3fe4fe56de8d8267a54ecf86bb36aef"
+    },
+    "md": {
+      "filename": "Its_My_Life_Vocabulary_Quiz.md",
+      "sha256": "30feb11f0cacc107a5029da1c63113ded51e142657e12d70496892ff2b3fa624"
+    },
+    "mp3": {
+      "filename": "It's My Life [bY3vXr7fm8k].mp3",
+      "sha256": "33e417a50285e99d3257e8bfe156b126dcfa7f56073772d649b1e685dca57ea6"
+    }
+  },
+  "audioAlignment": {
+    "duration": 224.4933125,
+    "audioSha256": "33e417a50285e99d3257e8bfe156b126dcfa7f56073772d649b1e685dca57ea6",
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "coverage": 0.8202137998056366,
+    "timedLines": 30,
+    "untimedLines": [
+      9,
+      12,
+      14,
+      17,
+      19,
+      24,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      36,
+      39,
+      40,
+      41,
+      45,
+      47,
+      48,
+      50,
+      51
+    ],
+    "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  }
+}

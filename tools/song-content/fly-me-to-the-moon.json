@@ -1,0 +1,2412 @@
+{
+  "slug": "fly-me-to-the-moon",
+  "title": "Fly Me To The Moon",
+  "singer": "Frank Sinatra",
+  "description": "《Fly Me To The Moon》描寫一份充滿浪漫、幻想與甜蜜的真摯愛情。歌中的主角以飛向月球、漫遊星空作為比喻，表達戀愛時內心的喜悅與興奮，彷彿整個宇宙都因為心愛的人而變得更加美麗。他渴望與對方牽手、親吻，享受兩人相處的幸福時光，也希望這份愛能永遠延續。雖然歌詞充滿天馬行空的想像，但他真正想表達的，其實只是簡單而深刻的愛意。最終，《Fly Me To TheMoon》傳達的是愛情中的浪漫、真誠與幸福：真正動人的愛不一定需要華麗的言語，有時一句簡單的「我愛你」，便足以表達心中最深厚的感情。",
+  "exercise_name": "Fly Me To The Moon · Listening & Vocabulary",
+  "tags": [
+    "frank sinatra",
+    "fly me to the moon",
+    "love",
+    "romance"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "Fly me to the moon",
+      "chinese": "帶我飛向月球",
+      "startSeconds": 7.04,
+      "endSeconds": 10.2
+    },
+    {
+      "lineId": "line-2",
+      "english": "Let me play among the stars",
+      "chinese": "讓我在群星之間嬉戲",
+      "startSeconds": 10.9,
+      "endSeconds": 14.62
+    },
+    {
+      "lineId": "line-3",
+      "english": "Let me see what spring is like",
+      "chinese": "讓我看看春天的模樣",
+      "startSeconds": 15.82,
+      "endSeconds": 19.08
+    },
+    {
+      "lineId": "line-4",
+      "english": "On a-Jupiter and Mars",
+      "chinese": "在木星與火星之上",
+      "startSeconds": 19.08,
+      "endSeconds": 22.74
+    },
+    {
+      "lineId": "line-5",
+      "english": "In other words: hold my hand",
+      "chinese": "換句話說：牽著我的手",
+      "startSeconds": 23.58,
+      "endSeconds": 30.16
+    },
+    {
+      "lineId": "line-6",
+      "english": "In other words: baby, kiss me",
+      "chinese": "換句話說：寶貝，吻我",
+      "startSeconds": 31.1,
+      "endSeconds": 37.14
+    },
+    {
+      "lineId": "line-7",
+      "english": "Fill my heart with song",
+      "chinese": "用歌聲填滿我的心",
+      "startSeconds": 39.44,
+      "endSeconds": 42.18
+    },
+    {
+      "lineId": "line-8",
+      "english": "And let me sing for ever more",
+      "chinese": "讓我永遠歌唱下去",
+      "startSeconds": 42.18,
+      "endSeconds": 46.3
+    },
+    {
+      "lineId": "line-9",
+      "english": "You are all I long for",
+      "chinese": "你是我唯一的渴望",
+      "startSeconds": 46.3,
+      "endSeconds": 50.7
+    },
+    {
+      "lineId": "line-10",
+      "english": "All I worship and adore",
+      "chinese": "我所有的崇拜與愛慕",
+      "startSeconds": 51.1,
+      "endSeconds": 54.22
+    },
+    {
+      "lineId": "line-11",
+      "english": "In other words: please, be true",
+      "chinese": "換句話說：請對我真心",
+      "startSeconds": 55.16,
+      "endSeconds": 60.28
+    },
+    {
+      "lineId": "line-12",
+      "english": "In other words: I love you",
+      "chinese": "換句話說：我愛你",
+      "startSeconds": 62.52,
+      "endSeconds": 68.5
+    },
+    {
+      "lineId": "line-13",
+      "english": "Fill my heart with song",
+      "chinese": "用歌聲填滿我的心",
+      "startSeconds": 103.6,
+      "endSeconds": 106.28
+    },
+    {
+      "lineId": "line-14",
+      "english": "Let me sing for ever more",
+      "chinese": "讓我永遠歌唱下去",
+      "startSeconds": 106.28,
+      "endSeconds": 110.68
+    },
+    {
+      "lineId": "line-15",
+      "english": "You are all I long for",
+      "chinese": "你是我唯一的渴望",
+      "startSeconds": 111.16,
+      "endSeconds": 115.14
+    },
+    {
+      "lineId": "line-16",
+      "english": "All I worship and adore",
+      "chinese": "我所有的崇拜與愛慕",
+      "startSeconds": 115.42,
+      "endSeconds": 118.7
+    },
+    {
+      "lineId": "line-17",
+      "english": "In other words: please, be true",
+      "chinese": "換句話說：請對我真心",
+      "startSeconds": 120.04,
+      "endSeconds": 125.66
+    },
+    {
+      "lineId": "line-18",
+      "english": "In other words, in other words: I love you",
+      "chinese": "換句話說，換句話說：我愛你"
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Fly me to",
+      "meaning": "帶我飛往……",
+      "usage": "想請某人帶你飛去某個地方時使用；這首歌是浪漫、想像的說法。",
+      "prompt": "哪一句正確使用了「Fly me to」？",
+      "options": [
+        "Please fly me to Taipei on your bicycle.",
+        "The pilot can fly me to Japan tomorrow.",
+        "I fly me to school every day.",
+        "My sandwich will fly me to the kitchen."
+      ],
+      "answer": 1,
+      "explanation": "正確：飛行員可以開飛機載我去日本。",
+      "optionExplanations": [
+        "腳踏車不能「飛」去台北；一般會說 take me to Taipei。",
+        "正確：飛行員可以開飛機載我去日本。",
+        "自己去學校不能說 fly me；可以說 I go to school。",
+        "三明治不會載人飛行；主詞不合理。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Among",
+      "meaning": "在……之中（通常是三個或更多）",
+      "usage": "說人或物位在一群人或許多東西之間時使用。",
+      "prompt": "哪一句正確使用了「Among」？",
+      "options": [
+        "She sat among her friends at lunch.",
+        "The moon is among my breakfast.",
+        "I put my shoes among to the door.",
+        "I among my homework after school."
+      ],
+      "answer": 0,
+      "explanation": "正確：她午餐時坐在朋友們之中。",
+      "optionExplanations": [
+        "正確：她午餐時坐在朋友們之中。",
+        "月亮不會在早餐之中，語意不合理。",
+        "among 後面要直接接名詞，不能接 to the door。",
+        "among 是介系詞，不能當成動詞使用。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "What ... is like",
+      "meaning": "……是什麼樣子",
+      "usage": "想問一個地方、事物或經驗的特色時使用。",
+      "prompt": "哪一句正確使用了「What ... is like」？",
+      "options": [
+        "What is the chair like to run?",
+        "What my pencil is like blue?",
+        "What is like you eat for lunch?",
+        "What is your new school like?"
+      ],
+      "answer": 3,
+      "explanation": "正確：是在詢問新學校是什麼樣子。",
+      "optionExplanations": [
+        "問椅子如何跑步不合常理；like 在此不是「喜歡」。",
+        "這個問句的字序錯誤，也混淆了 like 和顏色描述。",
+        "想問午餐吃什麼，應說 What do you eat for lunch?",
+        "正確：是在詢問新學校是什麼樣子。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "In other words",
+      "meaning": "換句話說",
+      "usage": "想把剛說過的事情用更簡單或不同的方式重新說明時使用。",
+      "prompt": "哪一句正確使用了「In other words」？",
+      "options": [
+        "The shop is closed. In other words, we cannot go in.",
+        "In other words my shoes under bed.",
+        "I went in other words to the park.",
+        "I eat in other words for breakfast."
+      ],
+      "answer": 0,
+      "explanation": "正確：第二句用不同方式說明商店關門的結果。",
+      "optionExplanations": [
+        "正確：第二句用不同方式說明商店關門的結果。",
+        "片語後要有完整句子，且鞋子在床下要用 are。",
+        "這個片語不能用來表示去了另一個地方。",
+        "這個片語不是食物，不能當早餐吃。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Hold my hand",
+      "meaning": "牽著我的手",
+      "usage": "一起走路、過馬路或想安慰對方時，可以請對方牽手。",
+      "prompt": "哪一句正確使用了「Hold my hand」？",
+      "options": [
+        "Please hold my hand in the fridge for dinner.",
+        "Please hold my hand when we cross the road.",
+        "I hold my hand with a sandwich to drink it.",
+        "The bus held my hand to the library."
+      ],
+      "answer": 1,
+      "explanation": "正確：過馬路時請對方牽著自己的手。",
+      "optionExplanations": [
+        "手不是要放進冰箱的晚餐，情境不合理。",
+        "正確：過馬路時請對方牽著自己的手。",
+        "三明治不能喝，而且這樣說不表示牽手。",
+        "公車不會牽手；要說公車載我去圖書館。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Fill ... with",
+      "meaning": "用……裝滿……",
+      "usage": "想表達把杯子、盒子或空間裝滿某物時使用，也可用於感情比喻。",
+      "prompt": "哪一句正確使用了「Fill ... with」？",
+      "options": [
+        "I fill with my book the table.",
+        "We filled happy with the sandwich.",
+        "He filled the glass with water.",
+        "She filled to the cup with singing."
+      ],
+      "answer": 2,
+      "explanation": "正確：他把水倒進杯子裡。",
+      "optionExplanations": [
+        "自然語序是 fill the table with ...，但書放在桌上也不等於裝滿。",
+        "happy 是形容詞，不能當作要裝滿的容器。",
+        "正確：他把水倒進杯子裡。",
+        "fill 後直接接容器，不應用 to the cup。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Forever more",
+      "meaning": "從今以後永遠、永遠地",
+      "usage": "想用比較詩意的方式表達某件事會一直繼續時使用；日常會話較常說 forever。",
+      "prompt": "哪一句正確使用了「Forever more」？",
+      "options": [
+        "I forever more my homework on Monday.",
+        "My bike is forever more in the kitchen yesterday.",
+        "She has a forever more apple for breakfast.",
+        "I will remember this happy day forever more."
+      ],
+      "answer": 3,
+      "explanation": "正確：表示從此會一直記得這一天。",
+      "optionExplanations": [
+        "forever more 不是動詞，不能代替 do。",
+        "yesterday 與「從今以後永遠」的時間意思衝突。",
+        "forever more 不能自然地當作 apple 的形容詞。",
+        "正確：表示從此會一直記得這一天。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Long for",
+      "meaning": "渴望、非常想要",
+      "usage": "強烈想念某人或渴望某件事時使用，比 want 更有情感。",
+      "prompt": "哪一句正確使用了「Long for」？",
+      "options": [
+        "My brother longs for a day at the beach.",
+        "I long for my shoes with a spoon.",
+        "She longs for to eat a pizza.",
+        "We long for happy every day."
+      ],
+      "answer": 0,
+      "explanation": "正確：弟弟很渴望去海邊玩一天。",
+      "optionExplanations": [
+        "正確：弟弟很渴望去海邊玩一天。",
+        "long for 是渴望，不是用湯匙處理鞋子。",
+        "long for 後接名詞；想接動詞可以說 longs to eat。",
+        "for 後面不能直接接形容詞 happy；可說 long for happiness。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Adore",
+      "meaning": "非常喜愛、疼愛",
+      "usage": "想說自己非常喜歡某個人或事物時使用，感情比 like 更強烈。",
+      "prompt": "哪一句正確使用了「Adore」？",
+      "options": [
+        "I adore to the bus at eight.",
+        "My sister adores blue with a pencil.",
+        "She adores her little dog.",
+        "We adore our homework on the desk with water."
+      ],
+      "answer": 2,
+      "explanation": "正確：她非常疼愛自己的小狗。",
+      "optionExplanations": [
+        "adore 不表示搭公車，後面也不能這樣接 to。",
+        "這裡的 with a pencil 與 adore 的意思不搭配。",
+        "正確：她非常疼愛自己的小狗。",
+        "adore 表示非常喜愛，不是用水處理作業。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Be true to",
+      "meaning": "對……忠誠、真誠對待……",
+      "usage": "說一個人忠於朋友、承諾或自己時使用；歌中的 be true 帶有真心的意思。",
+      "prompt": "哪一句正確使用了「Be true to」？",
+      "options": [
+        "I am true to my lunch, so it tastes blue.",
+        "She is true to her friends and never lies to them.",
+        "He is true to run at seven.",
+        "We are true to the door with a spoon."
+      ],
+      "answer": 1,
+      "explanation": "正確：她真誠對待朋友，不對他們說謊。",
+      "optionExplanations": [
+        "對午餐忠誠無法讓食物有藍色味道，語意不合理。",
+        "正確：她真誠對待朋友，不對他們說謊。",
+        "be true to 不能這樣接動詞 run 表示跑步。",
+        "這不是用湯匙開門的說法，片語使用不合理。"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} me to the 〔第 2 題〕",
+          "promptZh": "帶我飛向月球",
+          "options": [
+            "Take",
+            "Fly",
+            "Send"
+          ],
+          "answer": "Fly"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 me to the {{blank}}",
+          "promptZh": "帶我飛向月球",
+          "options": [
+            "moon",
+            "sun",
+            "stars"
+          ],
+          "answer": "moon"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Let me {{blank}} among the 〔第 4 題〕",
+          "promptZh": "讓我在群星之間嬉戲",
+          "options": [
+            "sing",
+            "dance",
+            "play"
+          ],
+          "answer": "play"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "Let me 〔第 3 題〕 among the {{blank}}",
+          "promptZh": "讓我在群星之間嬉戲",
+          "options": [
+            "stars",
+            "clouds",
+            "skies"
+          ],
+          "answer": "stars"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "Let me see what {{blank}} is like",
+          "promptZh": "讓我看看春天的模樣",
+          "options": [
+            "life",
+            "spring",
+            "love"
+          ],
+          "answer": "spring"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "On a-Jupiter and {{blank}}",
+          "promptZh": "在木星與火星之上",
+          "options": [
+            "Venus",
+            "Mars",
+            "Earth"
+          ],
+          "answer": "Mars"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "In other words: {{blank}}",
+          "promptZh": "換句話說：牽著我的手",
+          "options": [
+            "hold my heart",
+            "take my hand",
+            "hold my hand"
+          ],
+          "answer": "hold my hand"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "In other words: baby, {{blank}}",
+          "promptZh": "換句話說：寶貝，吻我",
+          "options": [
+            "kiss me",
+            "hold me",
+            "love me"
+          ],
+          "answer": "kiss me"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "Fill my {{blank}}",
+          "promptZh": "用歌聲填滿我的心",
+          "options": [
+            "soul with song",
+            "heart with song",
+            "heart with love"
+          ],
+          "answer": "heart with song"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "And let me {{blank}}",
+          "promptZh": "讓我永遠歌唱下去",
+          "options": [
+            "sing for ever more",
+            "sing for ever",
+            "sing from ever more"
+          ],
+          "answer": "sing for ever more"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "You are all I {{blank}}",
+          "promptZh": "你是我唯一的渴望",
+          "options": [
+            "wait for",
+            "dream of",
+            "long for"
+          ],
+          "answer": "long for"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "All I {{blank}}",
+          "promptZh": "我所有的崇拜與愛慕",
+          "options": [
+            "worship and adore",
+            "want and adore",
+            "worship and love"
+          ],
+          "answer": "worship and adore"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "In other words: {{blank}}",
+          "promptZh": "換句話說：請對我真心",
+          "options": [
+            "please, be mine",
+            "please, be true",
+            "please, be kind"
+          ],
+          "answer": "please, be true"
+        },
+        {
+          "number": 14,
+          "lineId": "line-12",
+          "prompt": "In other words: {{blank}}",
+          "promptZh": "換句話說：我愛你",
+          "options": [
+            "I want you",
+            "I need you",
+            "I love you"
+          ],
+          "answer": "I love you"
+        },
+        {
+          "number": 15,
+          "lineId": "line-13",
+          "prompt": "Fill my {{blank}}",
+          "promptZh": "用歌聲填滿我的心",
+          "options": [
+            "soul with song",
+            "heart with song",
+            "heart with love"
+          ],
+          "answer": "heart with song"
+        },
+        {
+          "number": 16,
+          "lineId": "line-14",
+          "prompt": "Let me {{blank}}",
+          "promptZh": "讓我永遠歌唱下去",
+          "options": [
+            "sing from ever more",
+            "sing for ever",
+            "sing for ever more"
+          ],
+          "answer": "sing for ever more"
+        },
+        {
+          "number": 17,
+          "lineId": "line-15",
+          "prompt": "You are all I {{blank}}",
+          "promptZh": "你是我唯一的渴望",
+          "options": [
+            "long for",
+            "dream of",
+            "wait for"
+          ],
+          "answer": "long for"
+        },
+        {
+          "number": 18,
+          "lineId": "line-16",
+          "prompt": "All I {{blank}}",
+          "promptZh": "我所有的崇拜與愛慕",
+          "options": [
+            "want and adore",
+            "worship and adore",
+            "worship and love"
+          ],
+          "answer": "worship and adore"
+        },
+        {
+          "number": 19,
+          "lineId": "line-17",
+          "prompt": "In other words: {{blank}}",
+          "promptZh": "換句話說：請對我真心",
+          "options": [
+            "please, be kind",
+            "please, be mine",
+            "please, be true"
+          ],
+          "answer": "please, be true"
+        },
+        {
+          "number": 20,
+          "lineId": "line-18",
+          "prompt": "In other words, in other words: {{blank}}",
+          "promptZh": "換句話說，換句話說：我愛你",
+          "options": [
+            "I love you",
+            "I need you",
+            "I want you"
+          ],
+          "answer": "I love you"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} me to the {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Let me {{q:3}} among the {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Let me see what {{q:5}} is like"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "On a-Jupiter and {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "In other words: {{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "In other words: baby, {{q:8}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Fill my {{q:9}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And let me {{q:10}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "You are all I {{q:11}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "All I {{q:12}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "In other words: {{q:13}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "In other words: {{q:14}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Fill my {{q:15}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Let me {{q:16}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "You are all I {{q:17}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "All I {{q:18}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "In other words: {{q:19}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "In other words, in other words: {{q:20}}"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} me to the 〔第 2 題〕",
+          "promptZh": "帶我飛向月球",
+          "options": [
+            "Take",
+            "Fly",
+            "Send"
+          ],
+          "answer": "Fly"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 me to the {{blank}}",
+          "promptZh": "帶我飛向月球",
+          "options": [
+            "moon",
+            "sun",
+            "stars"
+          ],
+          "answer": "moon"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Let me {{blank}} 〔第 4 題〕 the 〔第 5 題〕",
+          "promptZh": "讓我在群星之間嬉戲",
+          "options": [
+            "dance",
+            "play",
+            "sing"
+          ],
+          "answer": "play"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "Let me 〔第 3 題〕 {{blank}} the 〔第 5 題〕",
+          "promptZh": "讓我在群星之間嬉戲",
+          "options": [
+            "among",
+            "between",
+            "amidst"
+          ],
+          "answer": "among"
+        },
+        {
+          "number": 5,
+          "lineId": "line-2",
+          "prompt": "Let me 〔第 3 題〕 〔第 4 題〕 the {{blank}}",
+          "promptZh": "讓我在群星之間嬉戲",
+          "options": [
+            "skies",
+            "clouds",
+            "stars"
+          ],
+          "answer": "stars"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "{{blank}} 〔第 7 題〕 what 〔第 8 題〕 is like",
+          "promptZh": "讓我看看春天的模樣",
+          "options": [
+            "Let him",
+            "Help me",
+            "Let me"
+          ],
+          "answer": "Let me"
+        },
+        {
+          "number": 7,
+          "lineId": "line-3",
+          "prompt": "〔第 6 題〕 {{blank}} what 〔第 8 題〕 is like",
+          "promptZh": "讓我看看春天的模樣",
+          "options": [
+            "know",
+            "see",
+            "feel"
+          ],
+          "answer": "see"
+        },
+        {
+          "number": 8,
+          "lineId": "line-3",
+          "prompt": "〔第 6 題〕 〔第 7 題〕 what {{blank}} is like",
+          "promptZh": "讓我看看春天的模樣",
+          "options": [
+            "spring",
+            "life",
+            "love"
+          ],
+          "answer": "spring"
+        },
+        {
+          "number": 9,
+          "lineId": "line-4",
+          "prompt": "On {{blank}} 〔第 10 題〕",
+          "promptZh": "在木星與火星之上",
+          "options": [
+            "the Jupiter",
+            "Jupiter",
+            "a-Jupiter"
+          ],
+          "answer": "a-Jupiter"
+        },
+        {
+          "number": 10,
+          "lineId": "line-4",
+          "prompt": "On 〔第 9 題〕 {{blank}}",
+          "promptZh": "在木星與火星之上",
+          "options": [
+            "and the Mars",
+            "and Mars",
+            "and a-Mars"
+          ],
+          "answer": "and Mars"
+        },
+        {
+          "number": 11,
+          "lineId": "line-5",
+          "prompt": "{{blank}}: 〔第 12 題〕",
+          "promptZh": "換句話說：牽著我的手",
+          "options": [
+            "In other words",
+            "In simpler words",
+            "on other words"
+          ],
+          "answer": "In other words"
+        },
+        {
+          "number": 12,
+          "lineId": "line-5",
+          "prompt": "〔第 11 題〕: {{blank}}",
+          "promptZh": "換句話說：牽著我的手",
+          "options": [
+            "hold my heart",
+            "take my hand",
+            "hold my hand"
+          ],
+          "answer": "hold my hand"
+        },
+        {
+          "number": 13,
+          "lineId": "line-6",
+          "prompt": "{{blank}}: baby, 〔第 14 題〕",
+          "promptZh": "換句話說：寶貝，吻我",
+          "options": [
+            "In other words",
+            "In simpler words",
+            "on other words"
+          ],
+          "answer": "In other words"
+        },
+        {
+          "number": 14,
+          "lineId": "line-6",
+          "prompt": "〔第 13 題〕: baby, {{blank}}",
+          "promptZh": "換句話說：寶貝，吻我",
+          "options": [
+            "hold me",
+            "kiss me",
+            "love me"
+          ],
+          "answer": "kiss me"
+        },
+        {
+          "number": 15,
+          "lineId": "line-7",
+          "prompt": "{{blank}} 〔第 16 題〕",
+          "promptZh": "用歌聲填滿我的心",
+          "options": [
+            "Fill my soul",
+            "Fill my heart",
+            "Fill your heart"
+          ],
+          "answer": "Fill my heart"
+        },
+        {
+          "number": 16,
+          "lineId": "line-7",
+          "prompt": "〔第 15 題〕 {{blank}}",
+          "promptZh": "用歌聲填滿我的心",
+          "options": [
+            "with song",
+            "with love",
+            "with music"
+          ],
+          "answer": "with song"
+        },
+        {
+          "number": 17,
+          "lineId": "line-8",
+          "prompt": "{{blank}} 〔第 18 題〕",
+          "promptZh": "讓我永遠歌唱下去",
+          "options": [
+            "but let me",
+            "Let me",
+            "And let me"
+          ],
+          "answer": "And let me"
+        },
+        {
+          "number": 18,
+          "lineId": "line-8",
+          "prompt": "〔第 17 題〕 {{blank}}",
+          "promptZh": "讓我永遠歌唱下去",
+          "options": [
+            "sing from ever more",
+            "sing for ever",
+            "sing for ever more"
+          ],
+          "answer": "sing for ever more"
+        },
+        {
+          "number": 19,
+          "lineId": "line-9",
+          "prompt": "You are all I {{blank}}",
+          "promptZh": "你是我唯一的渴望",
+          "options": [
+            "long for",
+            "yearn for",
+            "dream of"
+          ],
+          "answer": "long for"
+        },
+        {
+          "number": 20,
+          "lineId": "line-10",
+          "prompt": "All I worship {{blank}}",
+          "promptZh": "我所有的崇拜與愛慕",
+          "options": [
+            "and love",
+            "and adore",
+            "and need"
+          ],
+          "answer": "and adore"
+        },
+        {
+          "number": 21,
+          "lineId": "line-11",
+          "prompt": "{{blank}}: 〔第 22 題〕",
+          "promptZh": "換句話說：請對我真心",
+          "options": [
+            "In other words",
+            "In simpler words",
+            "on other words"
+          ],
+          "answer": "In other words"
+        },
+        {
+          "number": 22,
+          "lineId": "line-11",
+          "prompt": "〔第 21 題〕: {{blank}}",
+          "promptZh": "換句話說：請對我真心",
+          "options": [
+            "please, be kind",
+            "please, be mine",
+            "please, be true"
+          ],
+          "answer": "please, be true"
+        },
+        {
+          "number": 23,
+          "lineId": "line-12",
+          "prompt": "{{blank}}: 〔第 24 題〕",
+          "promptZh": "換句話說：我愛你",
+          "options": [
+            "In simpler words",
+            "In other words",
+            "on other words"
+          ],
+          "answer": "In other words"
+        },
+        {
+          "number": 24,
+          "lineId": "line-12",
+          "prompt": "〔第 23 題〕: {{blank}}",
+          "promptZh": "換句話說：我愛你",
+          "options": [
+            "I need you",
+            "I adore you",
+            "I love you"
+          ],
+          "answer": "I love you"
+        },
+        {
+          "number": 25,
+          "lineId": "line-13",
+          "prompt": "Fill my {{blank}}",
+          "promptZh": "用歌聲填滿我的心",
+          "options": [
+            "heart with song",
+            "soul with song",
+            "heart with love"
+          ],
+          "answer": "heart with song"
+        },
+        {
+          "number": 26,
+          "lineId": "line-14",
+          "prompt": "Let me {{blank}}",
+          "promptZh": "讓我永遠歌唱下去",
+          "options": [
+            "sing for ever",
+            "sing for ever more",
+            "sing from ever more"
+          ],
+          "answer": "sing for ever more"
+        },
+        {
+          "number": 27,
+          "lineId": "line-15",
+          "prompt": "You are all I {{blank}}",
+          "promptZh": "你是我唯一的渴望",
+          "options": [
+            "long for",
+            "dream of",
+            "wait for"
+          ],
+          "answer": "long for"
+        },
+        {
+          "number": 28,
+          "lineId": "line-16",
+          "prompt": "All I {{blank}}",
+          "promptZh": "我所有的崇拜與愛慕",
+          "options": [
+            "want and adore",
+            "worship and adore",
+            "worship and love"
+          ],
+          "answer": "worship and adore"
+        },
+        {
+          "number": 29,
+          "lineId": "line-17",
+          "prompt": "{{blank}}: 〔第 30 題〕",
+          "promptZh": "換句話說：請對我真心",
+          "options": [
+            "on other words",
+            "In simpler words",
+            "In other words"
+          ],
+          "answer": "In other words"
+        },
+        {
+          "number": 30,
+          "lineId": "line-17",
+          "prompt": "〔第 29 題〕: {{blank}}",
+          "promptZh": "換句話說：請對我真心",
+          "options": [
+            "please, be true",
+            "please, be mine",
+            "please, be kind"
+          ],
+          "answer": "please, be true"
+        },
+        {
+          "number": 31,
+          "lineId": "line-18",
+          "prompt": "{{blank}}, in other words: 〔第 32 題〕",
+          "promptZh": "換句話說，換句話說：我愛你",
+          "options": [
+            "in simpler words",
+            "In other words",
+            "in other terms"
+          ],
+          "answer": "In other words"
+        },
+        {
+          "number": 32,
+          "lineId": "line-18",
+          "prompt": "〔第 31 題〕, in other words: {{blank}}",
+          "promptZh": "換句話說，換句話說：我愛你",
+          "options": [
+            "I want you",
+            "I need you",
+            "I love you"
+          ],
+          "answer": "I love you"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} me to the {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Let me {{q:3}} {{q:4}} the {{q:5}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:6}} {{q:7}} what {{q:8}} is like"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "On {{q:9}} {{q:10}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:11}}: {{q:12}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:13}}: baby, {{q:14}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:15}} {{q:16}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:17}} {{q:18}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "You are all I {{q:19}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "All I worship {{q:20}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:21}}: {{q:22}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:23}}: {{q:24}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Fill my {{q:25}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Let me {{q:26}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "You are all I {{q:27}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "All I {{q:28}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:29}}: {{q:30}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:31}}, in other words: {{q:32}}"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} to the 〔第 2 題〕",
+          "promptZh": "帶我飛向月球",
+          "options": [
+            "Fly me",
+            "Take me",
+            "Send me"
+          ],
+          "answer": "Fly me"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 to the {{blank}}",
+          "promptZh": "帶我飛向月球",
+          "options": [
+            "moon",
+            "sun",
+            "stars"
+          ],
+          "answer": "moon"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} 〔第 4 題〕 〔第 5 題〕 the 〔第 6 題〕",
+          "promptZh": "讓我在群星之間嬉戲",
+          "options": [
+            "Help me",
+            "Let me",
+            "Let him"
+          ],
+          "answer": "Let me"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 {{blank}} 〔第 5 題〕 the 〔第 6 題〕",
+          "promptZh": "讓我在群星之間嬉戲",
+          "options": [
+            "sing",
+            "dance",
+            "play"
+          ],
+          "answer": "play"
+        },
+        {
+          "number": 5,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 〔第 4 題〕 {{blank}} the 〔第 6 題〕",
+          "promptZh": "讓我在群星之間嬉戲",
+          "options": [
+            "between",
+            "among",
+            "amidst"
+          ],
+          "answer": "among"
+        },
+        {
+          "number": 6,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 〔第 4 題〕 〔第 5 題〕 the {{blank}}",
+          "promptZh": "讓我在群星之間嬉戲",
+          "options": [
+            "stars",
+            "clouds",
+            "skies"
+          ],
+          "answer": "stars"
+        },
+        {
+          "number": 7,
+          "lineId": "line-3",
+          "prompt": "{{blank}} 〔第 8 題〕 what 〔第 9 題〕 is like",
+          "promptZh": "讓我看看春天的模樣",
+          "options": [
+            "Let him",
+            "Help me",
+            "Let me"
+          ],
+          "answer": "Let me"
+        },
+        {
+          "number": 8,
+          "lineId": "line-3",
+          "prompt": "〔第 7 題〕 {{blank}} what 〔第 9 題〕 is like",
+          "promptZh": "讓我看看春天的模樣",
+          "options": [
+            "see",
+            "know",
+            "feel"
+          ],
+          "answer": "see"
+        },
+        {
+          "number": 9,
+          "lineId": "line-3",
+          "prompt": "〔第 7 題〕 〔第 8 題〕 what {{blank}} is like",
+          "promptZh": "讓我看看春天的模樣",
+          "options": [
+            "love",
+            "life",
+            "spring"
+          ],
+          "answer": "spring"
+        },
+        {
+          "number": 10,
+          "lineId": "line-4",
+          "prompt": "On {{blank}} 〔第 11 題〕",
+          "promptZh": "在木星與火星之上",
+          "options": [
+            "Jupiter",
+            "a-Jupiter",
+            "the Jupiter"
+          ],
+          "answer": "a-Jupiter"
+        },
+        {
+          "number": 11,
+          "lineId": "line-4",
+          "prompt": "On 〔第 10 題〕 {{blank}}",
+          "promptZh": "在木星與火星之上",
+          "options": [
+            "and a-Mars",
+            "and the Mars",
+            "and Mars"
+          ],
+          "answer": "and Mars"
+        },
+        {
+          "number": 12,
+          "lineId": "line-5",
+          "prompt": "{{blank}} 〔第 13 題〕: 〔第 14 題〕 〔第 15 題〕",
+          "promptZh": "換句話說：牽著我的手",
+          "options": [
+            "on",
+            "In",
+            "never In"
+          ],
+          "answer": "In"
+        },
+        {
+          "number": 13,
+          "lineId": "line-5",
+          "prompt": "〔第 12 題〕 {{blank}}: 〔第 14 題〕 〔第 15 題〕",
+          "promptZh": "換句話說：牽著我的手",
+          "options": [
+            "other words",
+            "simpler words",
+            "never other words"
+          ],
+          "answer": "other words"
+        },
+        {
+          "number": 14,
+          "lineId": "line-5",
+          "prompt": "〔第 12 題〕 〔第 13 題〕: {{blank}} 〔第 15 題〕",
+          "promptZh": "換句話說：牽著我的手",
+          "options": [
+            "hold",
+            "take",
+            "never hold"
+          ],
+          "answer": "hold"
+        },
+        {
+          "number": 15,
+          "lineId": "line-5",
+          "prompt": "〔第 12 題〕 〔第 13 題〕: 〔第 14 題〕 {{blank}}",
+          "promptZh": "換句話說：牽著我的手",
+          "options": [
+            "my heart",
+            "my hand",
+            "your hand"
+          ],
+          "answer": "my hand"
+        },
+        {
+          "number": 16,
+          "lineId": "line-6",
+          "prompt": "{{blank}}: baby, 〔第 17 題〕",
+          "promptZh": "換句話說：寶貝，吻我",
+          "options": [
+            "on other words",
+            "In simpler words",
+            "In other words"
+          ],
+          "answer": "In other words"
+        },
+        {
+          "number": 17,
+          "lineId": "line-6",
+          "prompt": "〔第 16 題〕: baby, {{blank}}",
+          "promptZh": "換句話說：寶貝，吻我",
+          "options": [
+            "hold me",
+            "kiss me",
+            "love me"
+          ],
+          "answer": "kiss me"
+        },
+        {
+          "number": 18,
+          "lineId": "line-7",
+          "prompt": "{{blank}} 〔第 19 題〕",
+          "promptZh": "用歌聲填滿我的心",
+          "options": [
+            "Fill your heart",
+            "Fill my soul",
+            "Fill my heart"
+          ],
+          "answer": "Fill my heart"
+        },
+        {
+          "number": 19,
+          "lineId": "line-7",
+          "prompt": "〔第 18 題〕 {{blank}}",
+          "promptZh": "用歌聲填滿我的心",
+          "options": [
+            "with song",
+            "with love",
+            "with music"
+          ],
+          "answer": "with song"
+        },
+        {
+          "number": 20,
+          "lineId": "line-8",
+          "prompt": "{{blank}} 〔第 21 題〕 〔第 22 題〕",
+          "promptZh": "讓我永遠歌唱下去",
+          "options": [
+            "but let me",
+            "Let me",
+            "And let me"
+          ],
+          "answer": "And let me"
+        },
+        {
+          "number": 21,
+          "lineId": "line-8",
+          "prompt": "〔第 20 題〕 {{blank}} 〔第 22 題〕",
+          "promptZh": "讓我永遠歌唱下去",
+          "options": [
+            "sing for",
+            "sing from",
+            "never sing for"
+          ],
+          "answer": "sing for"
+        },
+        {
+          "number": 22,
+          "lineId": "line-8",
+          "prompt": "〔第 20 題〕 〔第 21 題〕 {{blank}}",
+          "promptZh": "讓我永遠歌唱下去",
+          "options": [
+            "ever",
+            "ever more",
+            "never ever more"
+          ],
+          "answer": "ever more"
+        },
+        {
+          "number": 23,
+          "lineId": "line-9",
+          "prompt": "You are all I {{blank}}",
+          "promptZh": "你是我唯一的渴望",
+          "options": [
+            "dream of",
+            "yearn for",
+            "long for"
+          ],
+          "answer": "long for"
+        },
+        {
+          "number": 24,
+          "lineId": "line-10",
+          "prompt": "All I worship {{blank}}",
+          "promptZh": "我所有的崇拜與愛慕",
+          "options": [
+            "and adore",
+            "and love",
+            "and need"
+          ],
+          "answer": "and adore"
+        },
+        {
+          "number": 25,
+          "lineId": "line-11",
+          "prompt": "{{blank}}: 〔第 26 題〕",
+          "promptZh": "換句話說：請對我真心",
+          "options": [
+            "In simpler words",
+            "In other words",
+            "on other words"
+          ],
+          "answer": "In other words"
+        },
+        {
+          "number": 26,
+          "lineId": "line-11",
+          "prompt": "〔第 25 題〕: {{blank}}",
+          "promptZh": "換句話說：請對我真心",
+          "options": [
+            "please, be mine",
+            "please, be true",
+            "please, be kind"
+          ],
+          "answer": "please, be true"
+        },
+        {
+          "number": 27,
+          "lineId": "line-12",
+          "prompt": "{{blank}}: 〔第 28 題〕",
+          "promptZh": "換句話說：我愛你",
+          "options": [
+            "In other words",
+            "In simpler words",
+            "on other words"
+          ],
+          "answer": "In other words"
+        },
+        {
+          "number": 28,
+          "lineId": "line-12",
+          "prompt": "〔第 27 題〕: {{blank}}",
+          "promptZh": "換句話說：我愛你",
+          "options": [
+            "I need you",
+            "I adore you",
+            "I love you"
+          ],
+          "answer": "I love you"
+        },
+        {
+          "number": 29,
+          "lineId": "line-13",
+          "prompt": "{{blank}} 〔第 30 題〕",
+          "promptZh": "用歌聲填滿我的心",
+          "options": [
+            "Fill my heart",
+            "Fill my soul",
+            "Fill your heart"
+          ],
+          "answer": "Fill my heart"
+        },
+        {
+          "number": 30,
+          "lineId": "line-13",
+          "prompt": "〔第 29 題〕 {{blank}}",
+          "promptZh": "用歌聲填滿我的心",
+          "options": [
+            "with love",
+            "with song",
+            "with music"
+          ],
+          "answer": "with song"
+        },
+        {
+          "number": 31,
+          "lineId": "line-14",
+          "prompt": "{{blank}} 〔第 32 題〕 〔第 33 題〕",
+          "promptZh": "讓我永遠歌唱下去",
+          "options": [
+            "Let him",
+            "Help me",
+            "Let me"
+          ],
+          "answer": "Let me"
+        },
+        {
+          "number": 32,
+          "lineId": "line-14",
+          "prompt": "〔第 31 題〕 {{blank}} 〔第 33 題〕",
+          "promptZh": "讓我永遠歌唱下去",
+          "options": [
+            "sing from",
+            "sing for",
+            "never sing for"
+          ],
+          "answer": "sing for"
+        },
+        {
+          "number": 33,
+          "lineId": "line-14",
+          "prompt": "〔第 31 題〕 〔第 32 題〕 {{blank}}",
+          "promptZh": "讓我永遠歌唱下去",
+          "options": [
+            "never ever more",
+            "ever",
+            "ever more"
+          ],
+          "answer": "ever more"
+        },
+        {
+          "number": 34,
+          "lineId": "line-15",
+          "prompt": "You are all I {{blank}}",
+          "promptZh": "你是我唯一的渴望",
+          "options": [
+            "long for",
+            "yearn for",
+            "dream of"
+          ],
+          "answer": "long for"
+        },
+        {
+          "number": 35,
+          "lineId": "line-16",
+          "prompt": "All I worship {{blank}}",
+          "promptZh": "我所有的崇拜與愛慕",
+          "options": [
+            "and love",
+            "and adore",
+            "and need"
+          ],
+          "answer": "and adore"
+        },
+        {
+          "number": 36,
+          "lineId": "line-17",
+          "prompt": "{{blank}}: 〔第 37 題〕",
+          "promptZh": "換句話說：請對我真心",
+          "options": [
+            "on other words",
+            "In simpler words",
+            "In other words"
+          ],
+          "answer": "In other words"
+        },
+        {
+          "number": 37,
+          "lineId": "line-17",
+          "prompt": "〔第 36 題〕: {{blank}}",
+          "promptZh": "換句話說：請對我真心",
+          "options": [
+            "please, be true",
+            "please, be mine",
+            "please, be kind"
+          ],
+          "answer": "please, be true"
+        },
+        {
+          "number": 38,
+          "lineId": "line-18",
+          "prompt": "{{blank}}, 〔第 39 題〕: 〔第 40 題〕",
+          "promptZh": "換句話說，換句話說：我愛你",
+          "options": [
+            "in simpler words",
+            "In other words",
+            "in other terms"
+          ],
+          "answer": "In other words"
+        },
+        {
+          "number": 39,
+          "lineId": "line-18",
+          "prompt": "〔第 38 題〕, {{blank}}: 〔第 40 題〕",
+          "promptZh": "換句話說，換句話說：我愛你",
+          "options": [
+            "on other words",
+            "In simpler words",
+            "in other words"
+          ],
+          "answer": "in other words"
+        },
+        {
+          "number": 40,
+          "lineId": "line-18",
+          "prompt": "〔第 38 題〕, 〔第 39 題〕: {{blank}}",
+          "promptZh": "換句話說，換句話說：我愛你",
+          "options": [
+            "I love you",
+            "I adore you",
+            "I need you"
+          ],
+          "answer": "I love you"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} to the {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} {{q:4}} {{q:5}} the {{q:6}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:7}} {{q:8}} what {{q:9}} is like"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "On {{q:10}} {{q:11}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:12}} {{q:13}}: {{q:14}} {{q:15}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:16}}: baby, {{q:17}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:18}} {{q:19}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:20}} {{q:21}} {{q:22}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "You are all I {{q:23}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "All I worship {{q:24}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:25}}: {{q:26}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:27}}: {{q:28}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:29}} {{q:30}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:31}} {{q:32}} {{q:33}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "You are all I {{q:34}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "All I worship {{q:35}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:36}}: {{q:37}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:38}}, {{q:39}}: {{q:40}}"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} to the 〔第 2 題〕",
+          "promptZh": "帶我飛向月球",
+          "options": [
+            "Fly me",
+            "Take me",
+            "Send me"
+          ],
+          "answer": "Fly me"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 to the {{blank}}",
+          "promptZh": "帶我飛向月球",
+          "options": [
+            "sun",
+            "moon",
+            "stars"
+          ],
+          "answer": "moon"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} 〔第 4 題〕 〔第 5 題〕 the 〔第 6 題〕",
+          "promptZh": "讓我在群星之間嬉戲",
+          "options": [
+            "Let me",
+            "Help me",
+            "Let him"
+          ],
+          "answer": "Let me"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 {{blank}} 〔第 5 題〕 the 〔第 6 題〕",
+          "promptZh": "讓我在群星之間嬉戲",
+          "options": [
+            "dance",
+            "play",
+            "sing"
+          ],
+          "answer": "play"
+        },
+        {
+          "number": 5,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 〔第 4 題〕 {{blank}} the 〔第 6 題〕",
+          "promptZh": "讓我在群星之間嬉戲",
+          "options": [
+            "amidst",
+            "between",
+            "among"
+          ],
+          "answer": "among"
+        },
+        {
+          "number": 6,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 〔第 4 題〕 〔第 5 題〕 the {{blank}}",
+          "promptZh": "讓我在群星之間嬉戲",
+          "options": [
+            "clouds",
+            "stars",
+            "skies"
+          ],
+          "answer": "stars"
+        },
+        {
+          "number": 7,
+          "lineId": "line-3",
+          "prompt": "{{blank}} 〔第 8 題〕 what 〔第 9 題〕 is like",
+          "promptZh": "讓我看看春天的模樣",
+          "options": [
+            "Let me",
+            "Help me",
+            "Let him"
+          ],
+          "answer": "Let me"
+        },
+        {
+          "number": 8,
+          "lineId": "line-3",
+          "prompt": "〔第 7 題〕 {{blank}} what 〔第 9 題〕 is like",
+          "promptZh": "讓我看看春天的模樣",
+          "options": [
+            "feel",
+            "know",
+            "see"
+          ],
+          "answer": "see"
+        },
+        {
+          "number": 9,
+          "lineId": "line-3",
+          "prompt": "〔第 7 題〕 〔第 8 題〕 what {{blank}} is like",
+          "promptZh": "讓我看看春天的模樣",
+          "options": [
+            "life",
+            "spring",
+            "love"
+          ],
+          "answer": "spring"
+        },
+        {
+          "number": 10,
+          "lineId": "line-4",
+          "prompt": "On {{blank}} 〔第 11 題〕",
+          "promptZh": "在木星與火星之上",
+          "options": [
+            "the Jupiter",
+            "Jupiter",
+            "a-Jupiter"
+          ],
+          "answer": "a-Jupiter"
+        },
+        {
+          "number": 11,
+          "lineId": "line-4",
+          "prompt": "On 〔第 10 題〕 {{blank}}",
+          "promptZh": "在木星與火星之上",
+          "options": [
+            "and Mars",
+            "and the Mars",
+            "and a-Mars"
+          ],
+          "answer": "and Mars"
+        },
+        {
+          "number": 12,
+          "lineId": "line-5",
+          "prompt": "{{blank}} 〔第 13 題〕: 〔第 14 題〕 〔第 15 題〕",
+          "promptZh": "換句話說：牽著我的手",
+          "options": [
+            "In",
+            "on",
+            "never In"
+          ],
+          "answer": "In"
+        },
+        {
+          "number": 13,
+          "lineId": "line-5",
+          "prompt": "〔第 12 題〕 {{blank}}: 〔第 14 題〕 〔第 15 題〕",
+          "promptZh": "換句話說：牽著我的手",
+          "options": [
+            "simpler words",
+            "other words",
+            "never other words"
+          ],
+          "answer": "other words"
+        },
+        {
+          "number": 14,
+          "lineId": "line-5",
+          "prompt": "〔第 12 題〕 〔第 13 題〕: {{blank}} 〔第 15 題〕",
+          "promptZh": "換句話說：牽著我的手",
+          "options": [
+            "never hold",
+            "take",
+            "hold"
+          ],
+          "answer": "hold"
+        },
+        {
+          "number": 15,
+          "lineId": "line-5",
+          "prompt": "〔第 12 題〕 〔第 13 題〕: 〔第 14 題〕 {{blank}}",
+          "promptZh": "換句話說：牽著我的手",
+          "options": [
+            "my heart",
+            "my hand",
+            "your hand"
+          ],
+          "answer": "my hand"
+        },
+        {
+          "number": 16,
+          "lineId": "line-6",
+          "prompt": "{{blank}} 〔第 17 題〕: 〔第 18 題〕 〔第 19 題〕",
+          "promptZh": "換句話說：寶貝，吻我",
+          "options": [
+            "never In",
+            "on",
+            "In"
+          ],
+          "answer": "In"
+        },
+        {
+          "number": 17,
+          "lineId": "line-6",
+          "prompt": "〔第 16 題〕 {{blank}}: 〔第 18 題〕 〔第 19 題〕",
+          "promptZh": "換句話說：寶貝，吻我",
+          "options": [
+            "other words",
+            "simpler words",
+            "never other words"
+          ],
+          "answer": "other words"
+        },
+        {
+          "number": 18,
+          "lineId": "line-6",
+          "prompt": "〔第 16 題〕 〔第 17 題〕: {{blank}} 〔第 19 題〕",
+          "promptZh": "換句話說：寶貝，吻我",
+          "options": [
+            "never baby,",
+            "baby,",
+            "always baby,"
+          ],
+          "answer": "baby,"
+        },
+        {
+          "number": 19,
+          "lineId": "line-6",
+          "prompt": "〔第 16 題〕 〔第 17 題〕: 〔第 18 題〕 {{blank}}",
+          "promptZh": "換句話說：寶貝，吻我",
+          "options": [
+            "love me",
+            "hold me",
+            "kiss me"
+          ],
+          "answer": "kiss me"
+        },
+        {
+          "number": 20,
+          "lineId": "line-7",
+          "prompt": "{{blank}} 〔第 21 題〕 〔第 22 題〕",
+          "promptZh": "用歌聲填滿我的心",
+          "options": [
+            "Fill",
+            "never Fill",
+            "always Fill"
+          ],
+          "answer": "Fill"
+        },
+        {
+          "number": 21,
+          "lineId": "line-7",
+          "prompt": "〔第 20 題〕 {{blank}} 〔第 22 題〕",
+          "promptZh": "用歌聲填滿我的心",
+          "options": [
+            "my heart",
+            "my soul",
+            "my mind"
+          ],
+          "answer": "my heart"
+        },
+        {
+          "number": 22,
+          "lineId": "line-7",
+          "prompt": "〔第 20 題〕 〔第 21 題〕 {{blank}}",
+          "promptZh": "用歌聲填滿我的心",
+          "options": [
+            "with love",
+            "with song",
+            "with music"
+          ],
+          "answer": "with song"
+        },
+        {
+          "number": 23,
+          "lineId": "line-8",
+          "prompt": "{{blank}} 〔第 24 題〕 〔第 25 題〕 〔第 26 題〕",
+          "promptZh": "讓我永遠歌唱下去",
+          "options": [
+            "but",
+            "Let",
+            "And"
+          ],
+          "answer": "And"
+        },
+        {
+          "number": 24,
+          "lineId": "line-8",
+          "prompt": "〔第 23 題〕 {{blank}} 〔第 25 題〕 〔第 26 題〕",
+          "promptZh": "讓我永遠歌唱下去",
+          "options": [
+            "let him",
+            "me",
+            "let me"
+          ],
+          "answer": "let me"
+        },
+        {
+          "number": 25,
+          "lineId": "line-8",
+          "prompt": "〔第 23 題〕 〔第 24 題〕 {{blank}} 〔第 26 題〕",
+          "promptZh": "讓我永遠歌唱下去",
+          "options": [
+            "sing from",
+            "sing for",
+            "never sing for"
+          ],
+          "answer": "sing for"
+        },
+        {
+          "number": 26,
+          "lineId": "line-8",
+          "prompt": "〔第 23 題〕 〔第 24 題〕 〔第 25 題〕 {{blank}}",
+          "promptZh": "讓我永遠歌唱下去",
+          "options": [
+            "ever more",
+            "ever",
+            "never ever more"
+          ],
+          "answer": "ever more"
+        },
+        {
+          "number": 27,
+          "lineId": "line-9",
+          "prompt": "You are {{blank}} 〔第 28 題〕",
+          "promptZh": "你是我唯一的渴望",
+          "options": [
+            "never all I",
+            "all that",
+            "all I"
+          ],
+          "answer": "all I"
+        },
+        {
+          "number": 28,
+          "lineId": "line-9",
+          "prompt": "You are 〔第 27 題〕 {{blank}}",
+          "promptZh": "你是我唯一的渴望",
+          "options": [
+            "I long for",
+            "long for",
+            "dream of"
+          ],
+          "answer": "long for"
+        },
+        {
+          "number": 29,
+          "lineId": "line-10",
+          "prompt": "All I worship {{blank}}",
+          "promptZh": "我所有的崇拜與愛慕",
+          "options": [
+            "and adore",
+            "and love",
+            "and need"
+          ],
+          "answer": "and adore"
+        },
+        {
+          "number": 30,
+          "lineId": "line-11",
+          "prompt": "{{blank}} 〔第 31 題〕: 〔第 32 題〕 〔第 33 題〕",
+          "promptZh": "換句話說：請對我真心",
+          "options": [
+            "In",
+            "on",
+            "never In"
+          ],
+          "answer": "In"
+        },
+        {
+          "number": 31,
+          "lineId": "line-11",
+          "prompt": "〔第 30 題〕 {{blank}}: 〔第 32 題〕 〔第 33 題〕",
+          "promptZh": "換句話說：請對我真心",
+          "options": [
+            "never other words",
+            "simpler words",
+            "other words"
+          ],
+          "answer": "other words"
+        },
+        {
+          "number": 32,
+          "lineId": "line-11",
+          "prompt": "〔第 30 題〕 〔第 31 題〕: {{blank}} 〔第 33 題〕",
+          "promptZh": "換句話說：請對我真心",
+          "options": [
+            "never please,",
+            "please,",
+            "always please,"
+          ],
+          "answer": "please,"
+        },
+        {
+          "number": 33,
+          "lineId": "line-11",
+          "prompt": "〔第 30 題〕 〔第 31 題〕: 〔第 32 題〕 {{blank}}",
+          "promptZh": "換句話說：請對我真心",
+          "options": [
+            "be mine",
+            "be true",
+            "be kind"
+          ],
+          "answer": "be true"
+        },
+        {
+          "number": 34,
+          "lineId": "line-12",
+          "prompt": "{{blank}} 〔第 35 題〕: 〔第 36 題〕 〔第 37 題〕",
+          "promptZh": "換句話說：我愛你",
+          "options": [
+            "never In",
+            "on",
+            "In"
+          ],
+          "answer": "In"
+        },
+        {
+          "number": 35,
+          "lineId": "line-12",
+          "prompt": "〔第 34 題〕 {{blank}}: 〔第 36 題〕 〔第 37 題〕",
+          "promptZh": "換句話說：我愛你",
+          "options": [
+            "other words",
+            "simpler words",
+            "never other words"
+          ],
+          "answer": "other words"
+        },
+        {
+          "number": 36,
+          "lineId": "line-12",
+          "prompt": "〔第 34 題〕 〔第 35 題〕: {{blank}} 〔第 37 題〕",
+          "promptZh": "換句話說：我愛你",
+          "options": [
+            "I",
+            "never I",
+            "always I"
+          ],
+          "answer": "I"
+        },
+        {
+          "number": 37,
+          "lineId": "line-12",
+          "prompt": "〔第 34 題〕 〔第 35 題〕: 〔第 36 題〕 {{blank}}",
+          "promptZh": "換句話說：我愛你",
+          "options": [
+            "need you",
+            "adore you",
+            "love you"
+          ],
+          "answer": "love you"
+        },
+        {
+          "number": 38,
+          "lineId": "line-13",
+          "prompt": "{{blank}} 〔第 39 題〕",
+          "promptZh": "用歌聲填滿我的心",
+          "options": [
+            "Fill my soul",
+            "Fill my heart",
+            "Fill your heart"
+          ],
+          "answer": "Fill my heart"
+        },
+        {
+          "number": 39,
+          "lineId": "line-13",
+          "prompt": "〔第 38 題〕 {{blank}}",
+          "promptZh": "用歌聲填滿我的心",
+          "options": [
+            "with song",
+            "with love",
+            "with music"
+          ],
+          "answer": "with song"
+        },
+        {
+          "number": 40,
+          "lineId": "line-14",
+          "prompt": "{{blank}} 〔第 41 題〕 〔第 42 題〕",
+          "promptZh": "讓我永遠歌唱下去",
+          "options": [
+            "Help me",
+            "Let me",
+            "Let him"
+          ],
+          "answer": "Let me"
+        },
+        {
+          "number": 41,
+          "lineId": "line-14",
+          "prompt": "〔第 40 題〕 {{blank}} 〔第 42 題〕",
+          "promptZh": "讓我永遠歌唱下去",
+          "options": [
+            "never sing for",
+            "sing from",
+            "sing for"
+          ],
+          "answer": "sing for"
+        },
+        {
+          "number": 42,
+          "lineId": "line-14",
+          "prompt": "〔第 40 題〕 〔第 41 題〕 {{blank}}",
+          "promptZh": "讓我永遠歌唱下去",
+          "options": [
+            "ever more",
+            "ever",
+            "never ever more"
+          ],
+          "answer": "ever more"
+        },
+        {
+          "number": 43,
+          "lineId": "line-15",
+          "prompt": "{{blank}} 〔第 44 題〕",
+          "promptZh": "你是我唯一的渴望",
+          "options": [
+            "we are all",
+            "You're all I",
+            "You are all"
+          ],
+          "answer": "You are all"
+        },
+        {
+          "number": 44,
+          "lineId": "line-15",
+          "prompt": "〔第 43 題〕 {{blank}}",
+          "promptZh": "你是我唯一的渴望",
+          "options": [
+            "that I long for",
+            "I long for",
+            "long for"
+          ],
+          "answer": "I long for"
+        },
+        {
+          "number": 45,
+          "lineId": "line-16",
+          "prompt": "All I worship {{blank}}",
+          "promptZh": "我所有的崇拜與愛慕",
+          "options": [
+            "and adore",
+            "and love",
+            "and need"
+          ],
+          "answer": "and adore"
+        },
+        {
+          "number": 46,
+          "lineId": "line-17",
+          "prompt": "{{blank}}: 〔第 47 題〕",
+          "promptZh": "換句話說：請對我真心",
+          "options": [
+            "on other words",
+            "In simpler words",
+            "In other words"
+          ],
+          "answer": "In other words"
+        },
+        {
+          "number": 47,
+          "lineId": "line-17",
+          "prompt": "〔第 46 題〕: {{blank}}",
+          "promptZh": "換句話說：請對我真心",
+          "options": [
+            "please, be mine",
+            "please, be true",
+            "please, be kind"
+          ],
+          "answer": "please, be true"
+        },
+        {
+          "number": 48,
+          "lineId": "line-18",
+          "prompt": "{{blank}}, 〔第 49 題〕: 〔第 50 題〕",
+          "promptZh": "換句話說，換句話說：我愛你",
+          "options": [
+            "in simpler words",
+            "In other words",
+            "in other terms"
+          ],
+          "answer": "In other words"
+        },
+        {
+          "number": 49,
+          "lineId": "line-18",
+          "prompt": "〔第 48 題〕, {{blank}}: 〔第 50 題〕",
+          "promptZh": "換句話說，換句話說：我愛你",
+          "options": [
+            "on other words",
+            "In simpler words",
+            "in other words"
+          ],
+          "answer": "in other words"
+        },
+        {
+          "number": 50,
+          "lineId": "line-18",
+          "prompt": "〔第 48 題〕, 〔第 49 題〕: {{blank}}",
+          "promptZh": "換句話說，換句話說：我愛你",
+          "options": [
+            "I love you",
+            "I adore you",
+            "I need you"
+          ],
+          "answer": "I love you"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} to the {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} {{q:4}} {{q:5}} the {{q:6}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:7}} {{q:8}} what {{q:9}} is like"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "On {{q:10}} {{q:11}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:12}} {{q:13}}: {{q:14}} {{q:15}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:16}} {{q:17}}: {{q:18}} {{q:19}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:20}} {{q:21}} {{q:22}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:23}} {{q:24}} {{q:25}} {{q:26}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "You are {{q:27}} {{q:28}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "All I worship {{q:29}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:30}} {{q:31}}: {{q:32}} {{q:33}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:34}} {{q:35}}: {{q:36}} {{q:37}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:38}} {{q:39}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:40}} {{q:41}} {{q:42}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:43}} {{q:44}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "All I worship {{q:45}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:46}}: {{q:47}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:48}}, {{q:49}}: {{q:50}}"
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/fly-me-to-the-moon/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/fly-me-to-the-moon/cover.webp",
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Fly Me To The Moon (In Other Words)_.pdf",
+      "sha256": "822a2942c97653eb563a99800171ff0c0b893e89b9d767d43532fdbcde3b417e"
+    },
+    "md": {
+      "filename": "Fly_Me_To_The_Moon_Vocabulary_Quiz.md",
+      "sha256": "22b952d96e2e06aef71a56527a7e53211dc88efab322adc8609145f8ae0bf3a0"
+    },
+    "mp3": {
+      "filename": "Fly Me To The Moon (2008 Remastered) [ZEcqHA7dbwM].mp3",
+      "sha256": "9afa405e97fd454aad8d0b689e408921a2ec7db38b8713afe04c0521702516e4"
+    }
+  },
+  "audioAlignment": {
+    "duration": 147.52,
+    "audioSha256": "9afa405e97fd454aad8d0b689e408921a2ec7db38b8713afe04c0521702516e4",
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "coverage": 0.9973262032085561,
+    "timedLines": 17,
+    "untimedLines": [
+      18
+    ],
+    "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  }
+}

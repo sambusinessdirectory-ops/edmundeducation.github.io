@@ -1,0 +1,2756 @@
+[
+  {
+    "slug": "bohemian-rhapsody",
+    "counts": [
+      20,
+      32,
+      40,
+      50
+    ],
+    "repairs": []
+  },
+  {
+    "slug": "viva-la-vida",
+    "counts": [
+      20,
+      32,
+      40,
+      50
+    ],
+    "repairs": []
+  },
+  {
+    "slug": "perfect",
+    "counts": [
+      20,
+      32,
+      40,
+      50
+    ],
+    "repairs": []
+  },
+  {
+    "slug": "somebody-that-i-used-to-know",
+    "counts": [
+      20,
+      32,
+      40,
+      50
+    ],
+    "repairs": []
+  },
+  {
+    "slug": "imagine",
+    "counts": [
+      20,
+      32,
+      40,
+      50
+    ],
+    "repairs": [
+      [
+        "option-repair",
+        "Nothing",
+        [
+          "Nothing",
+          "No thing",
+          "None"
+        ],
+        [
+          "Nothing",
+          "None",
+          "never Nothing"
+        ]
+      ],
+      [
+        "option-repair",
+        "someday",
+        [
+          "someday",
+          "some day",
+          "one day"
+        ],
+        [
+          "someday",
+          "one day",
+          "never someday"
+        ]
+      ],
+      [
+        "option-repair",
+        "Living for today",
+        [
+          "Living for today",
+          "Living for today...",
+          "Living for the day"
+        ],
+        [
+          "Living for today",
+          "Living for the day",
+          "Living from today"
+        ]
+      ],
+      [
+        "option-repair",
+        "I hope someday you'll join us",
+        [
+          "I hope someday you'll join us",
+          "I hope some day you'll join us",
+          "I hope one day you'll join us"
+        ],
+        [
+          "I hope someday you'll join us",
+          "I hope one day you'll join us",
+          "never I hope someday you'll join us"
+        ]
+      ],
+      [
+        "option-repair",
+        "I hope someday you'll join us",
+        [
+          "I hope someday you'll join us",
+          "I hope some day you'll join us",
+          "I hope one day you'll join us"
+        ],
+        [
+          "I hope someday you'll join us",
+          "I hope one day you'll join us",
+          "never I hope someday you'll join us"
+        ]
+      ],
+      [
+        "option-repair",
+        "Nothing",
+        [
+          "Nothing",
+          "No thing",
+          "None"
+        ],
+        [
+          "Nothing",
+          "None",
+          "never Nothing"
+        ]
+      ],
+      [
+        "option-repair",
+        "Living for today",
+        [
+          "Living for today",
+          "Living for today...",
+          "Living for the day"
+        ],
+        [
+          "Living for today",
+          "Living for the day",
+          "Living from today"
+        ]
+      ],
+      [
+        "option-repair",
+        "I hope someday you'll join us",
+        [
+          "I hope someday you'll join us",
+          "I hope some day you'll join us",
+          "I hope one day you'll join us"
+        ],
+        [
+          "I hope someday you'll join us",
+          "I hope one day you'll join us",
+          "never I hope someday you'll join us"
+        ]
+      ],
+      [
+        "option-repair",
+        "I hope someday you'll join us",
+        [
+          "I hope someday you'll join us",
+          "I hope some day you'll join us",
+          "I hope one day you'll join us"
+        ],
+        [
+          "I hope someday you'll join us",
+          "I hope one day you'll join us",
+          "never I hope someday you'll join us"
+        ]
+      ],
+      [
+        "option-repair",
+        "Nothing",
+        [
+          "Nothing",
+          "No thing",
+          "None"
+        ],
+        [
+          "Nothing",
+          "None",
+          "never Nothing"
+        ]
+      ],
+      [
+        "option-repair",
+        "And the world",
+        [
+          "And the world",
+          "And the world",
+          "And the world"
+        ],
+        [
+          "And the world",
+          "but the world",
+          "And a world"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hard",
+        "And the world will be as one",
+        "And the world",
+        "will be as one"
+      ],
+      [
+        "option-repair",
+        "And the world",
+        [
+          "And the world",
+          "And the world",
+          "And the world"
+        ],
+        [
+          "And the world",
+          "but the world",
+          "And a world"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hard",
+        "And the world will live as one",
+        "And the world",
+        "will live as one"
+      ],
+      [
+        "option-repair",
+        "You may say",
+        [
+          "You may say",
+          "You may say",
+          "You might say"
+        ],
+        [
+          "You may say",
+          "You might say",
+          "we may say"
+        ]
+      ],
+      [
+        "option-repair",
+        "I'm a dreamer",
+        [
+          "I'm a dreamer",
+          "that I'm a dreamer",
+          "I'm a dreamer"
+        ],
+        [
+          "I'm a dreamer",
+          "that I'm a dreamer",
+          "I'm the dreamer"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hard",
+        "You may say I'm a dreamer",
+        "You may say",
+        "I'm a dreamer"
+      ],
+      [
+        "option-repair",
+        "the only one",
+        [
+          "the only one",
+          "not the only one",
+          "the only one"
+        ],
+        [
+          "the only one",
+          "not the only one",
+          "a only one"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hard",
+        "But I'm not the only one",
+        "But I'm not",
+        "the only one"
+      ],
+      [
+        "split-phrase",
+        "hard",
+        "I hope someday you'll join us",
+        "I hope someday",
+        "you'll join us"
+      ],
+      [
+        "option-repair",
+        "No need for",
+        [
+          "No need for",
+          "No need for",
+          "No need for"
+        ],
+        [
+          "No need for",
+          "No need from",
+          "never No need for"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hard",
+        "No need for greed or hunger",
+        "No need for",
+        "greed or hunger"
+      ],
+      [
+        "option-repair",
+        "You may say",
+        [
+          "You may say",
+          "You may say",
+          "You might say"
+        ],
+        [
+          "You may say",
+          "You might say",
+          "we may say"
+        ]
+      ],
+      [
+        "option-repair",
+        "I'm a dreamer",
+        [
+          "I'm a dreamer",
+          "that I'm a dreamer",
+          "I'm a dreamer"
+        ],
+        [
+          "I'm a dreamer",
+          "that I'm a dreamer",
+          "I'm the dreamer"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hard",
+        "You may say I'm a dreamer",
+        "You may say",
+        "I'm a dreamer"
+      ],
+      [
+        "option-repair",
+        "the only one",
+        [
+          "the only one",
+          "not the only one",
+          "the only one"
+        ],
+        [
+          "the only one",
+          "not the only one",
+          "a only one"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hard",
+        "But I'm not the only one",
+        "But I'm not",
+        "the only one"
+      ],
+      [
+        "split-phrase",
+        "hard",
+        "I hope someday you'll join us",
+        "I hope someday",
+        "you'll join us"
+      ],
+      [
+        "option-repair",
+        "It's easy",
+        [
+          "It's easy",
+          "It is",
+          "It's easy"
+        ],
+        [
+          "It's easy",
+          "It is",
+          "never It's easy"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hard",
+        "It's easy if you try",
+        "It's easy",
+        "if you try"
+      ],
+      [
+        "option-repair",
+        "It isn't",
+        [
+          "It isn't",
+          "It is",
+          "It isn't"
+        ],
+        [
+          "It isn't",
+          "It is",
+          "never It isn't"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hard",
+        "It isn't hard to do",
+        "It isn't",
+        "hard to do"
+      ],
+      [
+        "option-repair",
+        "I wonder",
+        [
+          "I wonder",
+          "I wonder",
+          "I wonder"
+        ],
+        [
+          "I wonder",
+          "never I wonder",
+          "always I wonder"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hard",
+        "I wonder if you can",
+        "I wonder",
+        "if you can"
+      ],
+      [
+        "split-phrase",
+        "hard",
+        "Imagine there's no heaven",
+        "Imagine there's",
+        "no heaven"
+      ],
+      [
+        "option-repair",
+        "And the world",
+        [
+          "And the world",
+          "And the world",
+          "And the world"
+        ],
+        [
+          "And the world",
+          "but the world",
+          "And a world"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "And the world will be as one",
+        "And the world",
+        "will be as one"
+      ],
+      [
+        "option-repair",
+        "And the world",
+        [
+          "And the world",
+          "And the world",
+          "And the world"
+        ],
+        [
+          "And the world",
+          "but the world",
+          "And a world"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "And the world will live as one",
+        "And the world",
+        "will live as one"
+      ],
+      [
+        "option-repair",
+        "You may say",
+        [
+          "You may say",
+          "You may say",
+          "You might say"
+        ],
+        [
+          "You may say",
+          "You might say",
+          "we may say"
+        ]
+      ],
+      [
+        "option-repair",
+        "I'm a dreamer",
+        [
+          "I'm a dreamer",
+          "that I'm a dreamer",
+          "I'm a dreamer"
+        ],
+        [
+          "I'm a dreamer",
+          "that I'm a dreamer",
+          "I'm the dreamer"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "You may say I'm a dreamer",
+        "You may say",
+        "I'm a dreamer"
+      ],
+      [
+        "option-repair",
+        "the only one",
+        [
+          "the only one",
+          "not the only one",
+          "the only one"
+        ],
+        [
+          "the only one",
+          "not the only one",
+          "a only one"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "But I'm not the only one",
+        "But I'm not",
+        "the only one"
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "I hope someday you'll join us",
+        "I hope someday",
+        "you'll join us"
+      ],
+      [
+        "option-repair",
+        "No need for",
+        [
+          "No need for",
+          "No need for",
+          "No need for"
+        ],
+        [
+          "No need for",
+          "No need from",
+          "never No need for"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "No need for greed or hunger",
+        "No need for",
+        "greed or hunger"
+      ],
+      [
+        "option-repair",
+        "You may say",
+        [
+          "You may say",
+          "You may say",
+          "You might say"
+        ],
+        [
+          "You may say",
+          "You might say",
+          "we may say"
+        ]
+      ],
+      [
+        "option-repair",
+        "I'm a dreamer",
+        [
+          "I'm a dreamer",
+          "that I'm a dreamer",
+          "I'm a dreamer"
+        ],
+        [
+          "I'm a dreamer",
+          "that I'm a dreamer",
+          "I'm the dreamer"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "You may say I'm a dreamer",
+        "You may say",
+        "I'm a dreamer"
+      ],
+      [
+        "option-repair",
+        "the only one",
+        [
+          "the only one",
+          "not the only one",
+          "the only one"
+        ],
+        [
+          "the only one",
+          "not the only one",
+          "a only one"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "But I'm not the only one",
+        "But I'm not",
+        "the only one"
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "I hope someday you'll join us",
+        "I hope someday",
+        "you'll join us"
+      ],
+      [
+        "option-repair",
+        "It's easy",
+        [
+          "It's easy",
+          "It is",
+          "It's easy"
+        ],
+        [
+          "It's easy",
+          "It is",
+          "never It's easy"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "It's easy if you try",
+        "It's easy",
+        "if you try"
+      ],
+      [
+        "option-repair",
+        "It isn't",
+        [
+          "It isn't",
+          "It is",
+          "It isn't"
+        ],
+        [
+          "It isn't",
+          "It is",
+          "never It isn't"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "It isn't hard to do",
+        "It isn't",
+        "hard to do"
+      ],
+      [
+        "option-repair",
+        "I wonder",
+        [
+          "I wonder",
+          "I wonder",
+          "I wonder"
+        ],
+        [
+          "I wonder",
+          "never I wonder",
+          "always I wonder"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "I wonder if you can",
+        "I wonder",
+        "if you can"
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "Imagine there's no heaven",
+        "Imagine there's",
+        "no heaven"
+      ],
+      [
+        "option-repair",
+        "No hell",
+        [
+          "No hell",
+          "No hell",
+          "There's no"
+        ],
+        [
+          "No hell",
+          "There's no",
+          "never No hell"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "No hell below us",
+        "No hell",
+        "below us"
+      ],
+      [
+        "option-repair",
+        "Above us",
+        [
+          "Above us",
+          "Above us",
+          "Above us"
+        ],
+        [
+          "Above us",
+          "never Above us",
+          "always Above us"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "Above us only sky",
+        "Above us",
+        "only sky"
+      ],
+      [
+        "option-repair",
+        "Imagine all",
+        [
+          "Imagine all",
+          "Imagine all",
+          "Imagine all"
+        ],
+        [
+          "Imagine all",
+          "never Imagine all",
+          "always Imagine all"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "Imagine all the people",
+        "Imagine all",
+        "the people"
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "Imagine there's no countries",
+        "Imagine there's",
+        "no countries"
+      ],
+      [
+        "option-repair",
+        "Imagine all",
+        [
+          "Imagine all",
+          "Imagine all",
+          "Imagine the"
+        ],
+        [
+          "Imagine all",
+          "Imagine the",
+          "never Imagine all"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "Imagine all the people",
+        "Imagine all",
+        "the people"
+      ],
+      [
+        "option-repair",
+        "in peace",
+        [
+          "in peace",
+          "life in peace",
+          "in peace"
+        ],
+        [
+          "in peace",
+          "life in peace",
+          "on peace"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "Living life in peace",
+        "Living life",
+        "in peace"
+      ],
+      [
+        "option-repair",
+        "A brotherhood",
+        [
+          "A brotherhood",
+          "A brotherhood",
+          "The brotherhood"
+        ],
+        [
+          "A brotherhood",
+          "The brotherhood",
+          "never A brotherhood"
+        ]
+      ],
+      [
+        "option-repair",
+        "of man",
+        [
+          "of man",
+          "of men",
+          "of man"
+        ],
+        [
+          "of man",
+          "of men",
+          "with man"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "A brotherhood of man",
+        "A brotherhood",
+        "of man"
+      ],
+      [
+        "option-repair",
+        "Imagine all",
+        [
+          "Imagine all",
+          "Imagine all",
+          "Imagine the"
+        ],
+        [
+          "Imagine all",
+          "Imagine the",
+          "never Imagine all"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "Imagine all the people",
+        "Imagine all",
+        "the people"
+      ],
+      [
+        "option-repair",
+        "Sharing all",
+        [
+          "Sharing all",
+          "Sharing the",
+          "Sharing all"
+        ],
+        [
+          "Sharing all",
+          "Sharing the",
+          "never Sharing all"
+        ]
+      ],
+      [
+        "option-repair",
+        "the world",
+        [
+          "the world",
+          "world",
+          "world"
+        ],
+        [
+          "the world",
+          "world",
+          "a world"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "Sharing all the world",
+        "Sharing all",
+        "the world"
+      ],
+      [
+        "option-repair",
+        "will be",
+        [
+          "will be",
+          "will live",
+          "will be"
+        ],
+        [
+          "will be",
+          "will live",
+          "would be"
+        ]
+      ],
+      [
+        "option-repair",
+        "as one",
+        [
+          "as one",
+          "as one",
+          "one"
+        ],
+        [
+          "as one",
+          "one",
+          "never as one"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "will be as one",
+        "will be",
+        "as one"
+      ]
+    ]
+  },
+  {
+    "slug": "fly-me-to-the-moon",
+    "counts": [
+      20,
+      32,
+      40,
+      50
+    ],
+    "repairs": [
+      [
+        "option-repair",
+        "sing for ever more",
+        [
+          "sing for ever more",
+          "sing forevermore",
+          "sing for ever"
+        ],
+        [
+          "sing for ever more",
+          "sing for ever",
+          "sing from ever more"
+        ]
+      ],
+      [
+        "option-repair",
+        "sing for ever more",
+        [
+          "sing for ever more",
+          "sing forevermore",
+          "sing for ever"
+        ],
+        [
+          "sing for ever more",
+          "sing for ever",
+          "sing from ever more"
+        ]
+      ],
+      [
+        "option-repair",
+        "Let me",
+        [
+          "Let me",
+          "Help me"
+        ],
+        [
+          "Let me",
+          "Help me",
+          "Let him"
+        ]
+      ],
+      [
+        "option-repair",
+        "In other words",
+        [
+          "In other words",
+          "In simpler words"
+        ],
+        [
+          "In other words",
+          "In simpler words",
+          "on other words"
+        ]
+      ],
+      [
+        "option-repair",
+        "In other words",
+        [
+          "In other words",
+          "In simpler words"
+        ],
+        [
+          "In other words",
+          "In simpler words",
+          "on other words"
+        ]
+      ],
+      [
+        "option-repair",
+        "Fill my heart",
+        [
+          "Fill my heart",
+          "Fill my soul"
+        ],
+        [
+          "Fill my heart",
+          "Fill my soul",
+          "Fill your heart"
+        ]
+      ],
+      [
+        "option-repair",
+        "sing for ever more",
+        [
+          "sing for ever more",
+          "sing forevermore",
+          "sing for ever"
+        ],
+        [
+          "sing for ever more",
+          "sing for ever",
+          "sing from ever more"
+        ]
+      ],
+      [
+        "option-repair",
+        "sing for ever more",
+        [
+          "sing for ever more",
+          "sing forevermore",
+          "sing for ever"
+        ],
+        [
+          "sing for ever more",
+          "sing for ever",
+          "sing from ever more"
+        ]
+      ],
+      [
+        "option-repair",
+        "In other words",
+        [
+          "In other words",
+          "In simpler words"
+        ],
+        [
+          "In other words",
+          "In simpler words",
+          "on other words"
+        ]
+      ],
+      [
+        "option-repair",
+        "In other words",
+        [
+          "In other words",
+          "In simpler words"
+        ],
+        [
+          "In other words",
+          "In simpler words",
+          "on other words"
+        ]
+      ],
+      [
+        "option-repair",
+        "Fill my heart",
+        [
+          "Fill my heart",
+          "Fill my soul"
+        ],
+        [
+          "Fill my heart",
+          "Fill my soul",
+          "Fill your heart"
+        ]
+      ],
+      [
+        "option-repair",
+        "sing for ever more",
+        [
+          "sing for ever more",
+          "sing forevermore",
+          "sing for ever"
+        ],
+        [
+          "sing for ever more",
+          "sing for ever",
+          "sing from ever more"
+        ]
+      ],
+      [
+        "option-repair",
+        "In other words",
+        [
+          "In other words",
+          "In simpler words"
+        ],
+        [
+          "In other words",
+          "In simpler words",
+          "on other words"
+        ]
+      ],
+      [
+        "option-repair",
+        "In other words",
+        [
+          "In other words",
+          "In simpler words"
+        ],
+        [
+          "In other words",
+          "In simpler words",
+          "on other words"
+        ]
+      ],
+      [
+        "option-repair",
+        "Fill my heart",
+        [
+          "Fill my heart",
+          "Fill my soul"
+        ],
+        [
+          "Fill my heart",
+          "Fill my soul",
+          "Fill your heart"
+        ]
+      ],
+      [
+        "option-repair",
+        "sing for ever more",
+        [
+          "sing for ever more",
+          "sing forevermore",
+          "sing for ever"
+        ],
+        [
+          "sing for ever more",
+          "sing for ever",
+          "sing from ever more"
+        ]
+      ],
+      [
+        "option-repair",
+        "In other words",
+        [
+          "In other words",
+          "In simpler words"
+        ],
+        [
+          "In other words",
+          "In simpler words",
+          "on other words"
+        ]
+      ],
+      [
+        "option-repair",
+        "In other words",
+        [
+          "In other words",
+          "In simpler words"
+        ],
+        [
+          "In other words",
+          "In simpler words",
+          "on other words"
+        ]
+      ],
+      [
+        "option-repair",
+        "In other words",
+        [
+          "In other words",
+          "In simpler words"
+        ],
+        [
+          "In other words",
+          "In simpler words",
+          "on other words"
+        ]
+      ],
+      [
+        "option-repair",
+        "And let me",
+        [
+          "And let me",
+          "Let me"
+        ],
+        [
+          "And let me",
+          "Let me",
+          "but let me"
+        ]
+      ],
+      [
+        "option-repair",
+        "sing for ever more",
+        [
+          "sing for ever more",
+          "sing forevermore",
+          "sing for ever"
+        ],
+        [
+          "sing for ever more",
+          "sing for ever",
+          "sing from ever more"
+        ]
+      ],
+      [
+        "option-repair",
+        "In other words",
+        [
+          "In other words",
+          "In simpler words"
+        ],
+        [
+          "In other words",
+          "In simpler words",
+          "on other words"
+        ]
+      ],
+      [
+        "option-repair",
+        "In other words",
+        [
+          "In other words",
+          "In simpler words"
+        ],
+        [
+          "In other words",
+          "In simpler words",
+          "on other words"
+        ]
+      ],
+      [
+        "option-repair",
+        "Fill my heart",
+        [
+          "Fill my heart",
+          "Fill my soul"
+        ],
+        [
+          "Fill my heart",
+          "Fill my soul",
+          "Fill your heart"
+        ]
+      ],
+      [
+        "option-repair",
+        "sing for ever more",
+        [
+          "sing for ever more",
+          "sing forevermore",
+          "sing for ever"
+        ],
+        [
+          "sing for ever more",
+          "sing for ever",
+          "sing from ever more"
+        ]
+      ],
+      [
+        "option-repair",
+        "In other words",
+        [
+          "In other words",
+          "In simpler words"
+        ],
+        [
+          "In other words",
+          "In simpler words",
+          "on other words"
+        ]
+      ],
+      [
+        "option-repair",
+        "sing for",
+        [
+          "sing for",
+          "sing for",
+          "sing from"
+        ],
+        [
+          "sing for",
+          "sing from",
+          "never sing for"
+        ]
+      ],
+      [
+        "option-repair",
+        "ever more",
+        [
+          "ever more",
+          "ever",
+          "ever more"
+        ],
+        [
+          "ever more",
+          "ever",
+          "never ever more"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hard",
+        "sing for ever more",
+        "sing for",
+        "ever more"
+      ],
+      [
+        "option-repair",
+        "sing for",
+        [
+          "sing for",
+          "sing for",
+          "sing from"
+        ],
+        [
+          "sing for",
+          "sing from",
+          "never sing for"
+        ]
+      ],
+      [
+        "option-repair",
+        "ever more",
+        [
+          "ever more",
+          "ever",
+          "ever more"
+        ],
+        [
+          "ever more",
+          "ever",
+          "never ever more"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hard",
+        "sing for ever more",
+        "sing for",
+        "ever more"
+      ],
+      [
+        "option-repair",
+        "In",
+        [
+          "In",
+          "In",
+          "on"
+        ],
+        [
+          "In",
+          "on",
+          "never In"
+        ]
+      ],
+      [
+        "option-repair",
+        "other words",
+        [
+          "other words",
+          "simpler words",
+          "other words"
+        ],
+        [
+          "other words",
+          "simpler words",
+          "never other words"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hard",
+        "In other words",
+        "In",
+        "other words"
+      ],
+      [
+        "option-repair",
+        "hold",
+        [
+          "hold",
+          "take",
+          "hold"
+        ],
+        [
+          "hold",
+          "take",
+          "never hold"
+        ]
+      ],
+      [
+        "option-repair",
+        "my hand",
+        [
+          "my hand",
+          "my hand",
+          "my heart"
+        ],
+        [
+          "my hand",
+          "my heart",
+          "your hand"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hard",
+        "hold my hand",
+        "hold",
+        "my hand"
+      ],
+      [
+        "option-repair",
+        "You are all",
+        [
+          "You are all",
+          "You are all",
+          "You're all I"
+        ],
+        [
+          "You are all",
+          "You're all I",
+          "we are all"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "You are all I long for",
+        "You are all",
+        "I long for"
+      ],
+      [
+        "option-repair",
+        "sing for",
+        [
+          "sing for",
+          "sing for",
+          "sing from"
+        ],
+        [
+          "sing for",
+          "sing from",
+          "never sing for"
+        ]
+      ],
+      [
+        "option-repair",
+        "ever more",
+        [
+          "ever more",
+          "ever",
+          "ever more"
+        ],
+        [
+          "ever more",
+          "ever",
+          "never ever more"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "sing for ever more",
+        "sing for",
+        "ever more"
+      ],
+      [
+        "option-repair",
+        "all I",
+        [
+          "all I",
+          "all that",
+          "all I"
+        ],
+        [
+          "all I",
+          "all that",
+          "never all I"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "all I long for",
+        "all I",
+        "long for"
+      ],
+      [
+        "option-repair",
+        "sing for",
+        [
+          "sing for",
+          "sing for",
+          "sing from"
+        ],
+        [
+          "sing for",
+          "sing from",
+          "never sing for"
+        ]
+      ],
+      [
+        "option-repair",
+        "ever more",
+        [
+          "ever more",
+          "ever",
+          "ever more"
+        ],
+        [
+          "ever more",
+          "ever",
+          "never ever more"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "sing for ever more",
+        "sing for",
+        "ever more"
+      ],
+      [
+        "option-repair",
+        "In",
+        [
+          "In",
+          "In",
+          "on"
+        ],
+        [
+          "In",
+          "on",
+          "never In"
+        ]
+      ],
+      [
+        "option-repair",
+        "other words",
+        [
+          "other words",
+          "simpler words",
+          "other words"
+        ],
+        [
+          "other words",
+          "simpler words",
+          "never other words"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "In other words",
+        "In",
+        "other words"
+      ],
+      [
+        "option-repair",
+        "hold",
+        [
+          "hold",
+          "take",
+          "hold"
+        ],
+        [
+          "hold",
+          "take",
+          "never hold"
+        ]
+      ],
+      [
+        "option-repair",
+        "my hand",
+        [
+          "my hand",
+          "my hand",
+          "my heart"
+        ],
+        [
+          "my hand",
+          "my heart",
+          "your hand"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "hold my hand",
+        "hold",
+        "my hand"
+      ],
+      [
+        "option-repair",
+        "In",
+        [
+          "In",
+          "In",
+          "on"
+        ],
+        [
+          "In",
+          "on",
+          "never In"
+        ]
+      ],
+      [
+        "option-repair",
+        "other words",
+        [
+          "other words",
+          "simpler words",
+          "other words"
+        ],
+        [
+          "other words",
+          "simpler words",
+          "never other words"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "In other words",
+        "In",
+        "other words"
+      ],
+      [
+        "option-repair",
+        "baby,",
+        [
+          "baby,",
+          "baby,",
+          "baby,"
+        ],
+        [
+          "baby,",
+          "never baby,",
+          "always baby,"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "baby, kiss me",
+        "baby,",
+        "kiss me"
+      ],
+      [
+        "option-repair",
+        "Fill",
+        [
+          "Fill",
+          "Fill",
+          "Fill"
+        ],
+        [
+          "Fill",
+          "never Fill",
+          "always Fill"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "Fill my heart",
+        "Fill",
+        "my heart"
+      ],
+      [
+        "option-repair",
+        "let me",
+        [
+          "let me",
+          "me",
+          "let me"
+        ],
+        [
+          "let me",
+          "me",
+          "let him"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "And let me",
+        "And",
+        "let me"
+      ],
+      [
+        "option-repair",
+        "In",
+        [
+          "In",
+          "In",
+          "on"
+        ],
+        [
+          "In",
+          "on",
+          "never In"
+        ]
+      ],
+      [
+        "option-repair",
+        "other words",
+        [
+          "other words",
+          "simpler words",
+          "other words"
+        ],
+        [
+          "other words",
+          "simpler words",
+          "never other words"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "In other words",
+        "In",
+        "other words"
+      ],
+      [
+        "option-repair",
+        "please,",
+        [
+          "please,",
+          "please,",
+          "please,"
+        ],
+        [
+          "please,",
+          "never please,",
+          "always please,"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "please, be true",
+        "please,",
+        "be true"
+      ],
+      [
+        "option-repair",
+        "In",
+        [
+          "In",
+          "In",
+          "on"
+        ],
+        [
+          "In",
+          "on",
+          "never In"
+        ]
+      ],
+      [
+        "option-repair",
+        "other words",
+        [
+          "other words",
+          "simpler words",
+          "other words"
+        ],
+        [
+          "other words",
+          "simpler words",
+          "never other words"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "In other words",
+        "In",
+        "other words"
+      ],
+      [
+        "option-repair",
+        "I",
+        [
+          "I",
+          "I",
+          "I"
+        ],
+        [
+          "I",
+          "never I",
+          "always I"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "I love you",
+        "I",
+        "love you"
+      ]
+    ]
+  },
+  {
+    "slug": "my-way",
+    "counts": [
+      20,
+      32,
+      40,
+      50
+    ],
+    "repairs": [
+      [
+        "option-repair",
+        "loved, I've laughed and cried",
+        [
+          "loved, I've laughed and cried",
+          "loved, laughed and cried",
+          "loved, I've laughed, and cried"
+        ],
+        [
+          "loved, I've laughed and cried",
+          "loved, laughed and cried",
+          "loved, I've laughed but cried"
+        ]
+      ],
+      [
+        "option-repair",
+        "loved, I've laughed and cried",
+        [
+          "loved, I've laughed and cried",
+          "loved, laughed and cried",
+          "loved, I've laughed, and cried"
+        ],
+        [
+          "loved, I've laughed and cried",
+          "loved, laughed and cried",
+          "loved, I've laughed but cried"
+        ]
+      ],
+      [
+        "option-repair",
+        "say, not in a shy way",
+        [
+          "say, not in a shy way",
+          "say it not in a shy way",
+          "say not in a shy way"
+        ],
+        [
+          "say, not in a shy way",
+          "say it not in a shy way",
+          "say, not on a shy way"
+        ]
+      ],
+      [
+        "option-repair",
+        "loved, I've laughed and cried",
+        [
+          "loved, I've laughed and cried",
+          "loved, laughed and cried",
+          "loved, I've laughed, and cried"
+        ],
+        [
+          "loved, I've laughed and cried",
+          "loved, laughed and cried",
+          "loved, I've laughed but cried"
+        ]
+      ],
+      [
+        "option-repair",
+        "say, not in a shy way",
+        [
+          "say, not in a shy way",
+          "say it not in a shy way",
+          "say not in a shy way"
+        ],
+        [
+          "say, not in a shy way",
+          "say it not in a shy way",
+          "say, not on a shy way"
+        ]
+      ],
+      [
+        "option-repair",
+        "loved, I've laughed and cried",
+        [
+          "loved, I've laughed and cried",
+          "loved, laughed and cried",
+          "loved, I've laughed, and cried"
+        ],
+        [
+          "loved, I've laughed and cried",
+          "loved, laughed and cried",
+          "loved, I've laughed but cried"
+        ]
+      ],
+      [
+        "option-repair",
+        "say, not in a shy way",
+        [
+          "say, not in a shy way",
+          "say it not in a shy way",
+          "say not in a shy way"
+        ],
+        [
+          "say, not in a shy way",
+          "say it not in a shy way",
+          "say, not on a shy way"
+        ]
+      ],
+      [
+        "option-repair",
+        "did what I",
+        [
+          "did what I",
+          "did what I",
+          "did what I"
+        ],
+        [
+          "did what I",
+          "never did what I",
+          "always did what I"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "did what I had to do",
+        "did what I",
+        "had to do"
+      ],
+      [
+        "option-repair",
+        "a shy way",
+        [
+          "a shy way",
+          "in a shy way",
+          "a shy way"
+        ],
+        [
+          "a shy way",
+          "in a shy way",
+          "the shy way"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "say, not in a shy way",
+        "say, not in",
+        "a shy way"
+      ],
+      [
+        "option-repair",
+        "loved, I've",
+        [
+          "loved, I've",
+          "loved, laughed",
+          "loved, I've"
+        ],
+        [
+          "loved, I've",
+          "loved, laughed",
+          "never loved, I've"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "loved, I've laughed and cried",
+        "loved, I've",
+        "laughed and cried"
+      ],
+      [
+        "option-repair",
+        "man, what",
+        [
+          "man, what",
+          "man, what",
+          "man, what"
+        ],
+        [
+          "man, what",
+          "never man, what",
+          "always man, what"
+        ]
+      ],
+      [
+        "split-phrase",
+        "hell",
+        "man, what has he got",
+        "man, what",
+        "has he got"
+      ]
+    ]
+  },
+  {
+    "slug": "forever-young",
+    "counts": [
+      20,
+      32,
+      40,
+      50
+    ],
+    "repairs": []
+  },
+  {
+    "slug": "nothings-gonna-stop-us-now",
+    "counts": [
+      20,
+      32,
+      40,
+      50
+    ],
+    "repairs": []
+  },
+  {
+    "slug": "take-on-me",
+    "counts": [
+      20,
+      32,
+      40,
+      50
+    ],
+    "repairs": [
+      [
+        "unplaceable-target",
+        "medium",
+        29,
+        "in a day"
+      ]
+    ]
+  },
+  {
+    "slug": "somewhere-only-we-know",
+    "counts": [
+      20,
+      32,
+      40,
+      50
+    ],
+    "repairs": []
+  },
+  {
+    "slug": "every-breath-you-take",
+    "counts": [
+      20,
+      32,
+      40,
+      50
+    ],
+    "repairs": []
+  },
+  {
+    "slug": "with-or-without-you",
+    "counts": [
+      20,
+      32,
+      40,
+      50
+    ],
+    "repairs": [
+      [
+        "option-repair",
+        "With or",
+        [
+          "With or",
+          "With or without"
+        ],
+        [
+          "With or",
+          "With or without",
+          "without or"
+        ]
+      ],
+      [
+        "option-repair",
+        "And you",
+        [
+          "And you",
+          "And you just"
+        ],
+        [
+          "And you",
+          "And you just",
+          "but you"
+        ]
+      ],
+      [
+        "option-repair",
+        "With or",
+        [
+          "With or",
+          "With or without"
+        ],
+        [
+          "With or",
+          "With or without",
+          "without or"
+        ]
+      ],
+      [
+        "option-repair",
+        "See the stone",
+        [
+          "See the stone",
+          "See the rock"
+        ],
+        [
+          "See the stone",
+          "See the rock",
+          "See a stone"
+        ]
+      ],
+      [
+        "option-repair",
+        "See the thorn",
+        [
+          "See the thorn",
+          "See the thorns"
+        ],
+        [
+          "See the thorn",
+          "See the thorns",
+          "See a thorn"
+        ]
+      ],
+      [
+        "option-repair",
+        "I'll",
+        [
+          "I'll",
+          "I will"
+        ],
+        [
+          "I'll",
+          "I will",
+          "never I'll"
+        ]
+      ],
+      [
+        "option-repair",
+        "Sleight of hand",
+        [
+          "Sleight of hand",
+          "Slight of hand"
+        ],
+        [
+          "Sleight of hand",
+          "Slight of hand",
+          "Sleight with hand"
+        ]
+      ],
+      [
+        "option-repair",
+        "On a bed of nails",
+        [
+          "On a bed of nails",
+          "On a bed of stone"
+        ],
+        [
+          "On a bed of nails",
+          "On a bed of stone",
+          "at a bed of nails"
+        ]
+      ],
+      [
+        "option-repair",
+        "And I",
+        [
+          "And I",
+          "And I'll"
+        ],
+        [
+          "And I",
+          "And I'll",
+          "but I"
+        ]
+      ],
+      [
+        "option-repair",
+        "Through the storm",
+        [
+          "Through the storm",
+          "In the storm"
+        ],
+        [
+          "Through the storm",
+          "In the storm",
+          "Through a storm"
+        ]
+      ],
+      [
+        "option-repair",
+        "You give it all",
+        [
+          "You give it all",
+          "You give it up"
+        ],
+        [
+          "You give it all",
+          "You give it up",
+          "we give it all"
+        ]
+      ],
+      [
+        "option-repair",
+        "With or",
+        [
+          "With or",
+          "With or without"
+        ],
+        [
+          "With or",
+          "With or without",
+          "without or"
+        ]
+      ],
+      [
+        "option-repair",
+        "And you give",
+        [
+          "And you give",
+          "And you keep"
+        ],
+        [
+          "And you give",
+          "And you keep",
+          "but you give"
+        ]
+      ],
+      [
+        "option-repair",
+        "My hands are tied",
+        [
+          "My hands are tied",
+          "My hands are bound"
+        ],
+        [
+          "My hands are tied",
+          "My hands are bound",
+          "your hands are tied"
+        ]
+      ],
+      [
+        "option-repair",
+        "She got me",
+        [
+          "She got me",
+          "She's got me"
+        ],
+        [
+          "She got me",
+          "She's got me",
+          "She got him"
+        ]
+      ],
+      [
+        "option-repair",
+        "And nothing",
+        [
+          "And nothing",
+          "And there's nothing"
+        ],
+        [
+          "And nothing",
+          "And there's nothing",
+          "but nothing"
+        ]
+      ],
+      [
+        "option-repair",
+        "And you",
+        [
+          "And you",
+          "And you just"
+        ],
+        [
+          "And you",
+          "And you just",
+          "but you"
+        ]
+      ],
+      [
+        "option-repair",
+        "With or",
+        [
+          "With or",
+          "With or without"
+        ],
+        [
+          "With or",
+          "With or without",
+          "without or"
+        ]
+      ],
+      [
+        "option-repair",
+        "See the stone",
+        [
+          "See the stone",
+          "See the rock"
+        ],
+        [
+          "See the stone",
+          "See the rock",
+          "See a stone"
+        ]
+      ],
+      [
+        "option-repair",
+        "See the thorn",
+        [
+          "See the thorn",
+          "See the thorns"
+        ],
+        [
+          "See the thorn",
+          "See the thorns",
+          "See a thorn"
+        ]
+      ],
+      [
+        "option-repair",
+        "I'll",
+        [
+          "I'll",
+          "I will"
+        ],
+        [
+          "I'll",
+          "I will",
+          "never I'll"
+        ]
+      ],
+      [
+        "option-repair",
+        "Sleight of hand",
+        [
+          "Sleight of hand",
+          "Slight of hand"
+        ],
+        [
+          "Sleight of hand",
+          "Slight of hand",
+          "Sleight with hand"
+        ]
+      ],
+      [
+        "option-repair",
+        "On a bed of nails",
+        [
+          "On a bed of nails",
+          "On a bed of stone"
+        ],
+        [
+          "On a bed of nails",
+          "On a bed of stone",
+          "at a bed of nails"
+        ]
+      ],
+      [
+        "option-repair",
+        "And I",
+        [
+          "And I",
+          "And I'll"
+        ],
+        [
+          "And I",
+          "And I'll",
+          "but I"
+        ]
+      ],
+      [
+        "option-repair",
+        "With or",
+        [
+          "With or",
+          "With or without"
+        ],
+        [
+          "With or",
+          "With or without",
+          "without or"
+        ]
+      ],
+      [
+        "option-repair",
+        "With or",
+        [
+          "With or",
+          "With or without"
+        ],
+        [
+          "With or",
+          "With or without",
+          "without or"
+        ]
+      ],
+      [
+        "option-repair",
+        "Through the storm",
+        [
+          "Through the storm",
+          "In the storm"
+        ],
+        [
+          "Through the storm",
+          "In the storm",
+          "Through a storm"
+        ]
+      ],
+      [
+        "option-repair",
+        "You give it all",
+        [
+          "You give it all",
+          "You give it up"
+        ],
+        [
+          "You give it all",
+          "You give it up",
+          "we give it all"
+        ]
+      ],
+      [
+        "option-repair",
+        "With or",
+        [
+          "With or",
+          "With or without"
+        ],
+        [
+          "With or",
+          "With or without",
+          "without or"
+        ]
+      ],
+      [
+        "option-repair",
+        "I can't live",
+        [
+          "I can't live",
+          "I cannot live"
+        ],
+        [
+          "I can't live",
+          "I cannot live",
+          "never I can't live"
+        ]
+      ],
+      [
+        "option-repair",
+        "And you give",
+        [
+          "And you give",
+          "And you keep"
+        ],
+        [
+          "And you give",
+          "And you keep",
+          "but you give"
+        ]
+      ],
+      [
+        "option-repair",
+        "My hands are tied",
+        [
+          "My hands are tied",
+          "My hands are bound"
+        ],
+        [
+          "My hands are tied",
+          "My hands are bound",
+          "your hands are tied"
+        ]
+      ],
+      [
+        "option-repair",
+        "She got me",
+        [
+          "She got me",
+          "She's got me"
+        ],
+        [
+          "She got me",
+          "She's got me",
+          "She got him"
+        ]
+      ],
+      [
+        "option-repair",
+        "And nothing",
+        [
+          "And nothing",
+          "And there's nothing"
+        ],
+        [
+          "And nothing",
+          "And there's nothing",
+          "but nothing"
+        ]
+      ],
+      [
+        "option-repair",
+        "And you",
+        [
+          "And you",
+          "And you just"
+        ],
+        [
+          "And you",
+          "And you just",
+          "but you"
+        ]
+      ],
+      [
+        "option-repair",
+        "With or",
+        [
+          "With or",
+          "With or without"
+        ],
+        [
+          "With or",
+          "With or without",
+          "without or"
+        ]
+      ],
+      [
+        "option-repair",
+        "I can't live",
+        [
+          "I can't live",
+          "I cannot live"
+        ],
+        [
+          "I can't live",
+          "I cannot live",
+          "never I can't live"
+        ]
+      ],
+      [
+        "option-repair",
+        "With or",
+        [
+          "With or",
+          "With or without"
+        ],
+        [
+          "With or",
+          "With or without",
+          "without or"
+        ]
+      ],
+      [
+        "option-repair",
+        "I can't live",
+        [
+          "I can't live",
+          "I cannot live"
+        ],
+        [
+          "I can't live",
+          "I cannot live",
+          "never I can't live"
+        ]
+      ],
+      [
+        "option-repair",
+        "With or without",
+        [
+          "With or",
+          "With or without"
+        ],
+        [
+          "With or without",
+          "With or",
+          "without or without"
+        ]
+      ]
+    ]
+  },
+  {
+    "slug": "always",
+    "counts": [
+      20,
+      32,
+      40,
+      50
+    ],
+    "repairs": [
+      [
+        "option-repair",
+        "forever and a day",
+        [
+          "forever and a day",
+          "forever and a night",
+          "for ever and a day"
+        ],
+        [
+          "forever and a day",
+          "forever and a night",
+          "together and a day"
+        ]
+      ]
+    ]
+  },
+  {
+    "slug": "livin-on-a-prayer",
+    "counts": [
+      20,
+      32,
+      40,
+      50
+    ],
+    "repairs": [
+      [
+        "option-repair",
+        "halfway there",
+        [
+          "halfway there",
+          "halfway home",
+          "half way there"
+        ],
+        [
+          "halfway there",
+          "halfway home",
+          "never halfway there"
+        ]
+      ],
+      [
+        "option-repair",
+        "halfway there",
+        [
+          "halfway there",
+          "halfway home",
+          "half way there"
+        ],
+        [
+          "halfway there",
+          "halfway home",
+          "never halfway there"
+        ]
+      ],
+      [
+        "option-repair",
+        "Take my hand, we'll make it I swear",
+        [
+          "Take my hand, we'll make it I swear",
+          "Take my hand, we'll make it, I swear",
+          "Take my hand, we will make it I swear"
+        ],
+        [
+          "Take my hand, we'll make it I swear",
+          "Take my hand, we will make it I swear",
+          "Take your hand, we'll make it I swear"
+        ]
+      ],
+      [
+        "option-repair",
+        "Take my hand and we'll make it, I swear",
+        [
+          "Take my hand and we'll make it, I swear",
+          "Take my hand and we'll make it I swear",
+          "Take my hand, we'll make it, I swear"
+        ],
+        [
+          "Take my hand and we'll make it, I swear",
+          "Take my hand, we'll make it, I swear",
+          "Take your hand and we'll make it, I swear"
+        ]
+      ]
+    ]
+  },
+  {
+    "slug": "its-my-life",
+    "counts": [
+      20,
+      32,
+      40,
+      50
+    ],
+    "repairs": []
+  },
+  {
+    "slug": "a-thousand-years",
+    "counts": [
+      20,
+      32,
+      40,
+      50
+    ],
+    "repairs": []
+  },
+  {
+    "slug": "oops-i-did-it-again",
+    "counts": [
+      20,
+      32,
+      40,
+      50
+    ],
+    "repairs": [
+      [
+        "option-repair",
+        "Oops!... I",
+        [
+          "Oops!... I",
+          "Oops, I",
+          "Oops! I"
+        ],
+        [
+          "Oops!... I",
+          "never Oops!... I",
+          "always Oops!... I"
+        ]
+      ]
+    ]
+  }
+]
