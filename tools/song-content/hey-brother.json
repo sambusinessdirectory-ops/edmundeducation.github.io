@@ -1,0 +1,2560 @@
+{
+  "slug": "hey-brother",
+  "title": "Hey Brother",
+  "singer": "Avicii",
+  "exercise_name": "Hey Brother · Listening & Vocabulary",
+  "description": "《Hey Brother》描寫兄弟姊妹之間深厚的情誼，以及無論面對多少困難，都願意互相扶持的堅定承諾。歌中的主角相信，即使人生道路漫長、未來充滿未知，家人之間的愛與信任依然能成為重要的依靠。他不斷詢問兄弟姊妹是否仍然相信彼此，並承諾即使相隔千里，或遭遇失去一切的困境，也會毫不猶豫地伸出援手。歌曲以「天空崩塌」象徵人生中的巨大挑戰，強調親情能帶來勇氣與希望。最終，《Hey Brother》傳達的是親情、忠誠與無條件的支持：真正珍貴的情誼不會因距離或時間而消失，無論人生遭遇多少風雨，只要彼此信任、互相守護，便能在最艱難的時刻找到繼續前進的力量。",
+  "tags": [
+    "avicii",
+    "hey brother",
+    "family",
+    "support",
+    "loyalty"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "Hey, brother, there's an endless road to re-discover",
+      "chinese": "嘿，兄弟，前方還有一條漫長無盡的道路，等待我們重新探索",
+      "startSeconds": 3.56,
+      "endSeconds": 11.16
+    },
+    {
+      "lineId": "line-2",
+      "english": "Hey, sister, know the water's sweet but blood is thicker",
+      "chinese": "嘿，姊妹，要知道，水雖甘甜，血緣之情卻更加深厚",
+      "startSeconds": 12.0,
+      "endSeconds": 20.38
+    },
+    {
+      "lineId": "line-3",
+      "english": "Oh, if the sky comes falling down for you",
+      "chinese": "噢，即使有一天，整片天空都為你崩塌",
+      "startSeconds": 21.0,
+      "endSeconds": 27.74
+    },
+    {
+      "lineId": "line-4",
+      "english": "There's nothing in this world I wouldn't do",
+      "chinese": "這世上沒有什麼事，是我不願為你做的",
+      "startSeconds": 27.74,
+      "endSeconds": 33.02
+    },
+    {
+      "lineId": "line-5",
+      "english": "Hey, brother, do you still believe in one another?",
+      "chinese": "嘿，兄弟，你是否依然相信我們能彼此信任、相互扶持？",
+      "startSeconds": 34.9,
+      "endSeconds": 42.14
+    },
+    {
+      "lineId": "line-6",
+      "english": "Hey, sister, do you still believe in love? I wonder",
+      "chinese": "嘿，姊妹，我不禁想問，妳是否依然相信愛？",
+      "startSeconds": 43.5,
+      "endSeconds": 51.04
+    },
+    {
+      "lineId": "line-7",
+      "english": "Oh, if the sky comes falling down for you",
+      "chinese": "噢，即使有一天，整片天空都為你崩塌",
+      "startSeconds": 52.26,
+      "endSeconds": 58.5
+    },
+    {
+      "lineId": "line-8",
+      "english": "There's nothing in this world I wouldn't do",
+      "chinese": "這世上沒有什麼事，是我不願為你做的",
+      "startSeconds": 59.04,
+      "endSeconds": 62.42
+    },
+    {
+      "lineId": "line-9",
+      "english": "What if I'm far from home?",
+      "chinese": "倘若我遠離家鄉，又該如何？",
+      "startSeconds": 65.6,
+      "endSeconds": 69.76
+    },
+    {
+      "lineId": "line-10",
+      "english": "Oh, brother, I will hear you call",
+      "chinese": "噢，兄弟，我依然會聽見你的呼喚",
+      "startSeconds": 69.76,
+      "endSeconds": 72.2
+    },
+    {
+      "lineId": "line-11",
+      "english": "What if I lose it all?",
+      "chinese": "倘若我失去了一切，又該如何？",
+      "startSeconds": 73.04,
+      "endSeconds": 76.04
+    },
+    {
+      "lineId": "line-12",
+      "english": "Oh, sister, I will help you out!",
+      "chinese": "噢，姊妹，我一定會伸出援手，助妳渡過難關！",
+      "startSeconds": 76.54,
+      "endSeconds": 78.88
+    },
+    {
+      "lineId": "line-13",
+      "english": "Oh, if the sky comes falling down for you",
+      "chinese": "噢，即使有一天，整片天空都為你崩塌",
+      "startSeconds": 78.88,
+      "endSeconds": 85.26
+    },
+    {
+      "lineId": "line-14",
+      "english": "There's nothing in this world I wouldn't do",
+      "chinese": "這世上沒有什麼事，是我不願為你做的"
+    },
+    {
+      "lineId": "line-15",
+      "english": "Hey, brother, there's an endless road to re-discover",
+      "chinese": "嘿，兄弟，前方還有一條漫長無盡的道路，等待我們重新探索",
+      "startSeconds": 141.58,
+      "endSeconds": 149.4
+    },
+    {
+      "lineId": "line-16",
+      "english": "Hey, sister, do you still believe in love? I wonder",
+      "chinese": "嘿，姊妹，我不禁想問，妳是否依然相信愛？",
+      "startSeconds": 149.4,
+      "endSeconds": 158.76
+    },
+    {
+      "lineId": "line-17",
+      "english": "Oh, if the sky comes falling down for you",
+      "chinese": "噢，即使有一天，整片天空都為你崩塌",
+      "startSeconds": 158.76,
+      "endSeconds": 166.02
+    },
+    {
+      "lineId": "line-18",
+      "english": "There's nothing in this world I wouldn't do",
+      "chinese": "這世上沒有什麼事，是我不願為你做的",
+      "startSeconds": 166.02,
+      "endSeconds": 169.02
+    },
+    {
+      "lineId": "line-19",
+      "english": "What if I'm far from home?",
+      "chinese": "倘若我遠離家鄉，又該如何？",
+      "startSeconds": 173.18,
+      "endSeconds": 177.28
+    },
+    {
+      "lineId": "line-20",
+      "english": "Oh, brother, I will hear you call",
+      "chinese": "噢，兄弟，我依然會聽見你的呼喚",
+      "startSeconds": 177.28,
+      "endSeconds": 179.64
+    },
+    {
+      "lineId": "line-21",
+      "english": "What if I lose it all?",
+      "chinese": "倘若我失去了一切，又該如何？",
+      "startSeconds": 180.44,
+      "endSeconds": 183.03
+    },
+    {
+      "lineId": "line-22",
+      "english": "Oh, sister, I will help you out!",
+      "chinese": "噢，姊妹，我一定會伸出援手，助妳渡過難關！",
+      "startSeconds": 183.96,
+      "endSeconds": 186.4
+    },
+    {
+      "lineId": "line-23",
+      "english": "Oh, if the sky comes falling down for you",
+      "chinese": "噢，即使有一天，整片天空都為你崩塌",
+      "startSeconds": 186.4,
+      "endSeconds": 192.74
+    },
+    {
+      "lineId": "line-24",
+      "english": "There's nothing in this world I wouldn't do",
+      "chinese": "這世上沒有什麼事，是我不願為你做的",
+      "startSeconds": 193.56,
+      "endSeconds": 196.42
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Hey, brother, there's an {{blank}} to re-discover",
+          "options": [
+            "endless ride",
+            "endless route",
+            "endless road"
+          ],
+          "answer": "endless road",
+          "promptZh": "嘿，兄弟，前方還有一條漫長無盡的道路，等待我們重新探索"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Hey, sister, know the water's sweet but {{blank}}",
+          "options": [
+            "love is thicker",
+            "blood is quicker",
+            "blood is thicker"
+          ],
+          "answer": "blood is thicker",
+          "promptZh": "嘿，姊妹，要知道，水雖甘甜，血緣之情卻更加深厚"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "Oh, if the {{blank}} for you",
+          "options": [
+            "sky comes falling down",
+            "sky keeps falling down",
+            "sky comes crashing down"
+          ],
+          "answer": "sky comes falling down",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 4,
+          "lineId": "line-5",
+          "prompt": "Hey, brother, do you {{blank}} in one another?",
+          "options": [
+            "still believe",
+            "truly believe",
+            "still belong"
+          ],
+          "answer": "still believe",
+          "promptZh": "嘿，兄弟，你是否依然相信我們能彼此信任、相互扶持？"
+        },
+        {
+          "number": 5,
+          "lineId": "line-6",
+          "prompt": "Hey, sister, do you still {{blank}}? I wonder",
+          "options": [
+            "believe in life",
+            "believe in luck",
+            "believe in love"
+          ],
+          "answer": "believe in love",
+          "promptZh": "嘿，姊妹，我不禁想問，妳是否依然相信愛？"
+        },
+        {
+          "number": 6,
+          "lineId": "line-7",
+          "prompt": "Oh, if the {{blank}} for you",
+          "options": [
+            "sky comes calling down",
+            "sky comes falling down",
+            "sky keeps falling down"
+          ],
+          "answer": "sky comes falling down",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 7,
+          "lineId": "line-8",
+          "prompt": "There's {{blank}} I wouldn't do",
+          "options": [
+            "nothing in the world",
+            "nothing in this world",
+            "something in this world"
+          ],
+          "answer": "nothing in this world",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 8,
+          "lineId": "line-10",
+          "prompt": "Oh, brother, I {{blank}}",
+          "options": [
+            "will hear you call",
+            "will feel you call",
+            "will hear your call"
+          ],
+          "answer": "will hear you call",
+          "promptZh": "噢，兄弟，我依然會聽見你的呼喚"
+        },
+        {
+          "number": 9,
+          "lineId": "line-11",
+          "prompt": "What if I {{blank}}?",
+          "options": [
+            "lost it all",
+            "lose them all",
+            "lose it all"
+          ],
+          "answer": "lose it all",
+          "promptZh": "倘若我失去了一切，又該如何？"
+        },
+        {
+          "number": 10,
+          "lineId": "line-12",
+          "prompt": "Oh, sister, I will {{blank}}!",
+          "options": [
+            "help you out",
+            "hear you out",
+            "help you up"
+          ],
+          "answer": "help you out",
+          "promptZh": "噢，姊妹，我一定會伸出援手，助妳渡過難關！"
+        },
+        {
+          "number": 11,
+          "lineId": "line-13",
+          "prompt": "Oh, if the sky {{blank}} for you",
+          "options": [
+            "keeps falling down",
+            "comes calling down",
+            "comes falling down"
+          ],
+          "answer": "comes falling down",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 12,
+          "lineId": "line-14",
+          "prompt": "There's nothing {{blank}} I wouldn't do",
+          "options": [
+            "in the world",
+            "in this world",
+            "in your world"
+          ],
+          "answer": "in this world",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 13,
+          "lineId": "line-15",
+          "prompt": "Hey, brother, there's an endless road {{blank}}",
+          "options": [
+            "to rediscover it",
+            "to re-discover",
+            "to recover"
+          ],
+          "answer": "to re-discover",
+          "promptZh": "嘿，兄弟，前方還有一條漫長無盡的道路，等待我們重新探索"
+        },
+        {
+          "number": 14,
+          "lineId": "line-17",
+          "prompt": "Oh, if the sky comes {{blank}} for you",
+          "options": [
+            "falling down",
+            "calling down",
+            "coming down"
+          ],
+          "answer": "falling down",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 15,
+          "lineId": "line-18",
+          "prompt": "{{blank}} in this world I wouldn't do",
+          "options": [
+            "There's something",
+            "There's nothing",
+            "There is someone"
+          ],
+          "answer": "There's nothing",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 16,
+          "lineId": "line-19",
+          "prompt": "What if I'm far {{blank}}?",
+          "options": [
+            "from home",
+            "from hope",
+            "for home"
+          ],
+          "answer": "from home",
+          "promptZh": "倘若我遠離家鄉，又該如何？"
+        },
+        {
+          "number": 17,
+          "lineId": "line-20",
+          "prompt": "Oh, brother, {{blank}} you call",
+          "options": [
+            "I can hear",
+            "I will feel",
+            "I will hear"
+          ],
+          "answer": "I will hear",
+          "promptZh": "噢，兄弟，我依然會聽見你的呼喚"
+        },
+        {
+          "number": 18,
+          "lineId": "line-22",
+          "prompt": "Oh, sister, I will {{blank}}!",
+          "options": [
+            "help you up",
+            "help you out",
+            "hold you out"
+          ],
+          "answer": "help you out",
+          "promptZh": "噢，姊妹，我一定會伸出援手，助妳渡過難關！"
+        },
+        {
+          "number": 19,
+          "lineId": "line-23",
+          "prompt": "Oh, if the {{blank}} down for you",
+          "options": [
+            "sky comes calling",
+            "sky comes falling",
+            "sky keeps falling"
+          ],
+          "answer": "sky comes falling",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 20,
+          "lineId": "line-24",
+          "prompt": "There's {{blank}} I wouldn't do",
+          "options": [
+            "nothing in this world",
+            "nothing in the world",
+            "something in this world"
+          ],
+          "answer": "nothing in this world",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Hey, brother, there's an {{q:1}} to re-discover"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Hey, sister, know the water's sweet but {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Oh, if the {{q:3}} for you"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "There's nothing in this world I wouldn't do"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Hey, brother, do you {{q:4}} in one another?"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Hey, sister, do you still {{q:5}}? I wonder"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Oh, if the {{q:6}} for you"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "There's {{q:7}} I wouldn't do"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "What if I'm far from home?"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Oh, brother, I {{q:8}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "What if I {{q:9}}?"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Oh, sister, I will {{q:10}}!"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Oh, if the sky {{q:11}} for you"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "There's nothing {{q:12}} I wouldn't do"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Hey, brother, there's an endless road {{q:13}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Hey, sister, do you still believe in love? I wonder"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Oh, if the sky comes {{q:14}} for you"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:15}} in this world I wouldn't do"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "What if I'm far {{q:16}}?"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Oh, brother, {{q:17}} you call"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "What if I lose it all?"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Oh, sister, I will {{q:18}}!"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Oh, if the {{q:19}} down for you"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "There's {{q:20}} I wouldn't do"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Hey, brother, there's an {{blank}} to re-discover",
+          "options": [
+            "endless ride",
+            "endless route",
+            "endless road"
+          ],
+          "answer": "endless road",
+          "promptZh": "嘿，兄弟，前方還有一條漫長無盡的道路，等待我們重新探索"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Hey, sister, know the water's sweet but {{blank}}",
+          "options": [
+            "blood is quicker",
+            "love is thicker",
+            "blood is thicker"
+          ],
+          "answer": "blood is thicker",
+          "promptZh": "嘿，姊妹，要知道，水雖甘甜，血緣之情卻更加深厚"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "Oh, if the {{blank}} for you",
+          "options": [
+            "sky comes falling down",
+            "sky keeps falling down",
+            "sky comes crashing down"
+          ],
+          "answer": "sky comes falling down",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "There's {{blank}} I wouldn't do",
+          "options": [
+            "nothing in this world",
+            "something in this world",
+            "nothing in the world"
+          ],
+          "answer": "nothing in this world",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "Hey, brother, do you {{blank}} in one another?",
+          "options": [
+            "still belong",
+            "still believe",
+            "truly believe"
+          ],
+          "answer": "still believe",
+          "promptZh": "嘿，兄弟，你是否依然相信我們能彼此信任、相互扶持？"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "Hey, sister, do you still {{blank}}? I wonder",
+          "options": [
+            "believe in love",
+            "believe in luck",
+            "believe in life"
+          ],
+          "answer": "believe in love",
+          "promptZh": "嘿，姊妹，我不禁想問，妳是否依然相信愛？"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "Oh, if the {{blank}} for you",
+          "options": [
+            "sky keeps falling down",
+            "sky comes falling down",
+            "sky comes calling down"
+          ],
+          "answer": "sky comes falling down",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "There's {{blank}} I wouldn't do",
+          "options": [
+            "nothing in this world",
+            "nothing in the world",
+            "something in this world"
+          ],
+          "answer": "nothing in this world",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "What if I'm {{blank}}?",
+          "options": [
+            "far from hope",
+            "far away home",
+            "far from home"
+          ],
+          "answer": "far from home",
+          "promptZh": "倘若我遠離家鄉，又該如何？"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "Oh, brother, I {{blank}}",
+          "options": [
+            "will hear your call",
+            "will hear you call",
+            "will feel you call"
+          ],
+          "answer": "will hear you call",
+          "promptZh": "噢，兄弟，我依然會聽見你的呼喚"
+        },
+        {
+          "number": 11,
+          "lineId": "line-11",
+          "prompt": "What if I {{blank}}?",
+          "options": [
+            "lose them all",
+            "lose it all",
+            "lost it all"
+          ],
+          "answer": "lose it all",
+          "promptZh": "倘若我失去了一切，又該如何？"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "Oh, sister, I will {{blank}}!",
+          "options": [
+            "help you up",
+            "hear you out",
+            "help you out"
+          ],
+          "answer": "help you out",
+          "promptZh": "噢，姊妹，我一定會伸出援手，助妳渡過難關！"
+        },
+        {
+          "number": 13,
+          "lineId": "line-13",
+          "prompt": "Oh, if the sky {{blank}} for you",
+          "options": [
+            "comes calling down",
+            "comes falling down",
+            "keeps falling down"
+          ],
+          "answer": "comes falling down",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 14,
+          "lineId": "line-14",
+          "prompt": "There's nothing {{blank}} I wouldn't do",
+          "options": [
+            "in the world",
+            "in your world",
+            "in this world"
+          ],
+          "answer": "in this world",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 15,
+          "lineId": "line-15",
+          "prompt": "Hey, brother, there's an endless road {{blank}}",
+          "options": [
+            "to re-discover",
+            "to recover",
+            "to rediscover it"
+          ],
+          "answer": "to re-discover",
+          "promptZh": "嘿，兄弟，前方還有一條漫長無盡的道路，等待我們重新探索"
+        },
+        {
+          "number": 16,
+          "lineId": "line-16",
+          "prompt": "Hey, sister, do you {{blank}} in love? I wonder",
+          "options": [
+            "still belong",
+            "truly believe",
+            "still believe"
+          ],
+          "answer": "still believe",
+          "promptZh": "嘿，姊妹，我不禁想問，妳是否依然相信愛？"
+        },
+        {
+          "number": 17,
+          "lineId": "line-17",
+          "prompt": "Oh, if the sky comes {{blank}} for you",
+          "options": [
+            "coming down",
+            "falling down",
+            "calling down"
+          ],
+          "answer": "falling down",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 18,
+          "lineId": "line-17",
+          "prompt": "Oh, if the sky comes falling down {{blank}}",
+          "options": [
+            "from you",
+            "for you",
+            "to you"
+          ],
+          "answer": "for you",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 19,
+          "lineId": "line-18",
+          "prompt": "{{blank}} in this world I wouldn't do",
+          "options": [
+            "There's nothing",
+            "There's something",
+            "There is someone"
+          ],
+          "answer": "There's nothing",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 20,
+          "lineId": "line-18",
+          "prompt": "There's nothing in this world {{blank}}",
+          "options": [
+            "I won't do",
+            "I couldn't do",
+            "I wouldn't do"
+          ],
+          "answer": "I wouldn't do",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 21,
+          "lineId": "line-19",
+          "prompt": "What if {{blank}} from home?",
+          "options": [
+            "I'm far",
+            "I've gone",
+            "I'm free"
+          ],
+          "answer": "I'm far",
+          "promptZh": "倘若我遠離家鄉，又該如何？"
+        },
+        {
+          "number": 22,
+          "lineId": "line-19",
+          "prompt": "What if I'm far {{blank}}?",
+          "options": [
+            "from home",
+            "from hope",
+            "for home"
+          ],
+          "answer": "from home",
+          "promptZh": "倘若我遠離家鄉，又該如何？"
+        },
+        {
+          "number": 23,
+          "lineId": "line-20",
+          "prompt": "Oh, brother, {{blank}} you call",
+          "options": [
+            "I can hear",
+            "I will feel",
+            "I will hear"
+          ],
+          "answer": "I will hear",
+          "promptZh": "噢，兄弟，我依然會聽見你的呼喚"
+        },
+        {
+          "number": 24,
+          "lineId": "line-20",
+          "prompt": "Oh, brother, I will hear {{blank}}",
+          "options": [
+            "you fall",
+            "you call",
+            "your call"
+          ],
+          "answer": "you call",
+          "promptZh": "噢，兄弟，我依然會聽見你的呼喚"
+        },
+        {
+          "number": 25,
+          "lineId": "line-21",
+          "prompt": "{{blank}} I lose it all?",
+          "options": [
+            "What now",
+            "What if",
+            "What when"
+          ],
+          "answer": "What if",
+          "promptZh": "倘若我失去了一切，又該如何？"
+        },
+        {
+          "number": 26,
+          "lineId": "line-21",
+          "prompt": "What if I {{blank}}?",
+          "options": [
+            "lose it all",
+            "lose it now",
+            "lost it all"
+          ],
+          "answer": "lose it all",
+          "promptZh": "倘若我失去了一切，又該如何？"
+        },
+        {
+          "number": 27,
+          "lineId": "line-22",
+          "prompt": "Oh, sister, {{blank}} help you out!",
+          "options": [
+            "I will",
+            "I can",
+            "I would"
+          ],
+          "answer": "I will",
+          "promptZh": "噢，姊妹，我一定會伸出援手，助妳渡過難關！"
+        },
+        {
+          "number": 28,
+          "lineId": "line-22",
+          "prompt": "Oh, sister, I will {{blank}}!",
+          "options": [
+            "hold you out",
+            "help you out",
+            "help you up"
+          ],
+          "answer": "help you out",
+          "promptZh": "噢，姊妹，我一定會伸出援手，助妳渡過難關！"
+        },
+        {
+          "number": 29,
+          "lineId": "line-23",
+          "prompt": "Oh, if the {{blank}} down for you",
+          "options": [
+            "sky comes calling",
+            "sky comes falling",
+            "sky keeps falling"
+          ],
+          "answer": "sky comes falling",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 30,
+          "lineId": "line-23",
+          "prompt": "Oh, if the sky comes falling {{blank}}",
+          "options": [
+            "down for you",
+            "down to you",
+            "down from you"
+          ],
+          "answer": "down for you",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 31,
+          "lineId": "line-24",
+          "prompt": "There's {{blank}} I wouldn't do",
+          "options": [
+            "nothing in the world",
+            "something in this world",
+            "nothing in this world"
+          ],
+          "answer": "nothing in this world",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 32,
+          "lineId": "line-24",
+          "prompt": "There's nothing in this world I {{blank}}",
+          "options": [
+            "won't do",
+            "couldn't do",
+            "wouldn't do"
+          ],
+          "answer": "wouldn't do",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Hey, brother, there's an {{q:1}} to re-discover"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Hey, sister, know the water's sweet but {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Oh, if the {{q:3}} for you"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "There's {{q:4}} I wouldn't do"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Hey, brother, do you {{q:5}} in one another?"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Hey, sister, do you still {{q:6}}? I wonder"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Oh, if the {{q:7}} for you"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "There's {{q:8}} I wouldn't do"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "What if I'm {{q:9}}?"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Oh, brother, I {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "What if I {{q:11}}?"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Oh, sister, I will {{q:12}}!"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Oh, if the sky {{q:13}} for you"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "There's nothing {{q:14}} I wouldn't do"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Hey, brother, there's an endless road {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Hey, sister, do you {{q:16}} in love? I wonder"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Oh, if the sky comes {{q:17}} {{q:18}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:19}} in this world {{q:20}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "What if {{q:21}} {{q:22}}?"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Oh, brother, {{q:23}} {{q:24}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:25}} I {{q:26}}?"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Oh, sister, {{q:27}} {{q:28}}!"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Oh, if the {{q:29}} {{q:30}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "There's {{q:31}} I {{q:32}}"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Hey, brother, there's an {{blank}} to re-discover",
+          "options": [
+            "endless route",
+            "endless road",
+            "endless ride"
+          ],
+          "answer": "endless road",
+          "promptZh": "嘿，兄弟，前方還有一條漫長無盡的道路，等待我們重新探索"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Hey, sister, know the water's sweet but {{blank}}",
+          "options": [
+            "blood is thicker",
+            "blood is quicker",
+            "love is thicker"
+          ],
+          "answer": "blood is thicker",
+          "promptZh": "嘿，姊妹，要知道，水雖甘甜，血緣之情卻更加深厚"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "Oh, if the {{blank}} for you",
+          "options": [
+            "sky comes falling down",
+            "sky comes crashing down",
+            "sky keeps falling down"
+          ],
+          "answer": "sky comes falling down",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "There's {{blank}} I wouldn't do",
+          "options": [
+            "nothing in the world",
+            "something in this world",
+            "nothing in this world"
+          ],
+          "answer": "nothing in this world",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "Hey, brother, do you {{blank}} in one another?",
+          "options": [
+            "still belong",
+            "still believe",
+            "truly believe"
+          ],
+          "answer": "still believe",
+          "promptZh": "嘿，兄弟，你是否依然相信我們能彼此信任、相互扶持？"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "Hey, sister, do you still {{blank}}? I wonder",
+          "options": [
+            "believe in life",
+            "believe in love",
+            "believe in luck"
+          ],
+          "answer": "believe in love",
+          "promptZh": "嘿，姊妹，我不禁想問，妳是否依然相信愛？"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "Oh, if the {{blank}} for you",
+          "options": [
+            "sky comes falling down",
+            "sky keeps falling down",
+            "sky comes calling down"
+          ],
+          "answer": "sky comes falling down",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "There's {{blank}} I wouldn't do",
+          "options": [
+            "nothing in this world",
+            "nothing in the world",
+            "something in this world"
+          ],
+          "answer": "nothing in this world",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "{{blank}} far from home?",
+          "options": [
+            "What if I've",
+            "What if I'm",
+            "What if you're"
+          ],
+          "answer": "What if I'm",
+          "promptZh": "倘若我遠離家鄉，又該如何？"
+        },
+        {
+          "number": 10,
+          "lineId": "line-9",
+          "prompt": "What if I'm {{blank}}?",
+          "options": [
+            "far away home",
+            "far from hope",
+            "far from home"
+          ],
+          "answer": "far from home",
+          "promptZh": "倘若我遠離家鄉，又該如何？"
+        },
+        {
+          "number": 11,
+          "lineId": "line-10",
+          "prompt": "Oh, {{blank}}, I will hear you call",
+          "options": [
+            "brother",
+            "mother",
+            "sister"
+          ],
+          "answer": "brother",
+          "promptZh": "噢，兄弟，我依然會聽見你的呼喚"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "Oh, brother, I {{blank}}",
+          "options": [
+            "will hear your call",
+            "will feel you call",
+            "will hear you call"
+          ],
+          "answer": "will hear you call",
+          "promptZh": "噢，兄弟，我依然會聽見你的呼喚"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "{{blank}} I lose it all?",
+          "options": [
+            "What when",
+            "What if",
+            "What now"
+          ],
+          "answer": "What if",
+          "promptZh": "倘若我失去了一切，又該如何？"
+        },
+        {
+          "number": 14,
+          "lineId": "line-11",
+          "prompt": "What if I {{blank}}?",
+          "options": [
+            "lose it all",
+            "lose them all",
+            "lost it all"
+          ],
+          "answer": "lose it all",
+          "promptZh": "倘若我失去了一切，又該如何？"
+        },
+        {
+          "number": 15,
+          "lineId": "line-12",
+          "prompt": "Oh, sister, {{blank}} help you out!",
+          "options": [
+            "I can",
+            "I would",
+            "I will"
+          ],
+          "answer": "I will",
+          "promptZh": "噢，姊妹，我一定會伸出援手，助妳渡過難關！"
+        },
+        {
+          "number": 16,
+          "lineId": "line-12",
+          "prompt": "Oh, sister, I will {{blank}}!",
+          "options": [
+            "hear you out",
+            "help you out",
+            "help you up"
+          ],
+          "answer": "help you out",
+          "promptZh": "噢，姊妹，我一定會伸出援手，助妳渡過難關！"
+        },
+        {
+          "number": 17,
+          "lineId": "line-13",
+          "prompt": "Oh, if the {{blank}} comes falling down for you",
+          "options": [
+            "sun",
+            "sky",
+            "stars"
+          ],
+          "answer": "sky",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 18,
+          "lineId": "line-13",
+          "prompt": "Oh, if the sky {{blank}} for you",
+          "options": [
+            "keeps falling down",
+            "comes calling down",
+            "comes falling down"
+          ],
+          "answer": "comes falling down",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 19,
+          "lineId": "line-14",
+          "prompt": "There's nothing {{blank}} I wouldn't do",
+          "options": [
+            "in your world",
+            "in the world",
+            "in this world"
+          ],
+          "answer": "in this world",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 20,
+          "lineId": "line-14",
+          "prompt": "There's nothing in this world I {{blank}}",
+          "options": [
+            "wouldn't do",
+            "won't do",
+            "couldn't do"
+          ],
+          "answer": "wouldn't do",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 21,
+          "lineId": "line-15",
+          "prompt": "Hey, brother, there's an {{blank}} to re-discover",
+          "options": [
+            "endless route",
+            "endless ride",
+            "endless road"
+          ],
+          "answer": "endless road",
+          "promptZh": "嘿，兄弟，前方還有一條漫長無盡的道路，等待我們重新探索"
+        },
+        {
+          "number": 22,
+          "lineId": "line-15",
+          "prompt": "Hey, brother, there's an endless road {{blank}}",
+          "options": [
+            "to rediscover it",
+            "to recover",
+            "to re-discover"
+          ],
+          "answer": "to re-discover",
+          "promptZh": "嘿，兄弟，前方還有一條漫長無盡的道路，等待我們重新探索"
+        },
+        {
+          "number": 23,
+          "lineId": "line-16",
+          "prompt": "Hey, sister, do you {{blank}} in love? I wonder",
+          "options": [
+            "still believe",
+            "still belong",
+            "truly believe"
+          ],
+          "answer": "still believe",
+          "promptZh": "嘿，姊妹，我不禁想問，妳是否依然相信愛？"
+        },
+        {
+          "number": 24,
+          "lineId": "line-16",
+          "prompt": "Hey, sister, do you still believe {{blank}}? I wonder",
+          "options": [
+            "in luck",
+            "in life",
+            "in love"
+          ],
+          "answer": "in love",
+          "promptZh": "嘿，姊妹，我不禁想問，妳是否依然相信愛？"
+        },
+        {
+          "number": 25,
+          "lineId": "line-17",
+          "prompt": "Oh, if the sky comes {{blank}} for you",
+          "options": [
+            "calling down",
+            "coming down",
+            "falling down"
+          ],
+          "answer": "falling down",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 26,
+          "lineId": "line-17",
+          "prompt": "Oh, if the sky comes falling down {{blank}}",
+          "options": [
+            "from you",
+            "for you",
+            "to you"
+          ],
+          "answer": "for you",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 27,
+          "lineId": "line-18",
+          "prompt": "{{blank}} in this world I wouldn't do",
+          "options": [
+            "There is someone",
+            "There's nothing",
+            "There's something"
+          ],
+          "answer": "There's nothing",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 28,
+          "lineId": "line-18",
+          "prompt": "There's nothing in this world {{blank}}",
+          "options": [
+            "I wouldn't do",
+            "I won't do",
+            "I couldn't do"
+          ],
+          "answer": "I wouldn't do",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 29,
+          "lineId": "line-19",
+          "prompt": "What if {{blank}} from home?",
+          "options": [
+            "I've gone",
+            "I'm far",
+            "I'm free"
+          ],
+          "answer": "I'm far",
+          "promptZh": "倘若我遠離家鄉，又該如何？"
+        },
+        {
+          "number": 30,
+          "lineId": "line-19",
+          "prompt": "What if I'm far {{blank}}?",
+          "options": [
+            "from home",
+            "from hope",
+            "for home"
+          ],
+          "answer": "from home",
+          "promptZh": "倘若我遠離家鄉，又該如何？"
+        },
+        {
+          "number": 31,
+          "lineId": "line-20",
+          "prompt": "Oh, brother, {{blank}} you call",
+          "options": [
+            "I will hear",
+            "I will feel",
+            "I can hear"
+          ],
+          "answer": "I will hear",
+          "promptZh": "噢，兄弟，我依然會聽見你的呼喚"
+        },
+        {
+          "number": 32,
+          "lineId": "line-20",
+          "prompt": "Oh, brother, I will hear {{blank}}",
+          "options": [
+            "your call",
+            "you fall",
+            "you call"
+          ],
+          "answer": "you call",
+          "promptZh": "噢，兄弟，我依然會聽見你的呼喚"
+        },
+        {
+          "number": 33,
+          "lineId": "line-21",
+          "prompt": "{{blank}} I lose it all?",
+          "options": [
+            "What if",
+            "What now",
+            "What when"
+          ],
+          "answer": "What if",
+          "promptZh": "倘若我失去了一切，又該如何？"
+        },
+        {
+          "number": 34,
+          "lineId": "line-21",
+          "prompt": "What if I {{blank}}?",
+          "options": [
+            "lost it all",
+            "lose it now",
+            "lose it all"
+          ],
+          "answer": "lose it all",
+          "promptZh": "倘若我失去了一切，又該如何？"
+        },
+        {
+          "number": 35,
+          "lineId": "line-22",
+          "prompt": "Oh, sister, {{blank}} help you out!",
+          "options": [
+            "I would",
+            "I will",
+            "I can"
+          ],
+          "answer": "I will",
+          "promptZh": "噢，姊妹，我一定會伸出援手，助妳渡過難關！"
+        },
+        {
+          "number": 36,
+          "lineId": "line-22",
+          "prompt": "Oh, sister, I will {{blank}}!",
+          "options": [
+            "help you out",
+            "help you up",
+            "hold you out"
+          ],
+          "answer": "help you out",
+          "promptZh": "噢，姊妹，我一定會伸出援手，助妳渡過難關！"
+        },
+        {
+          "number": 37,
+          "lineId": "line-23",
+          "prompt": "Oh, if the {{blank}} down for you",
+          "options": [
+            "sky comes calling",
+            "sky comes falling",
+            "sky keeps falling"
+          ],
+          "answer": "sky comes falling",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 38,
+          "lineId": "line-23",
+          "prompt": "Oh, if the sky comes falling {{blank}}",
+          "options": [
+            "down to you",
+            "down from you",
+            "down for you"
+          ],
+          "answer": "down for you",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 39,
+          "lineId": "line-24",
+          "prompt": "There's {{blank}} I wouldn't do",
+          "options": [
+            "nothing in this world",
+            "nothing in the world",
+            "something in this world"
+          ],
+          "answer": "nothing in this world",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 40,
+          "lineId": "line-24",
+          "prompt": "There's nothing in this world I {{blank}}",
+          "options": [
+            "won't do",
+            "wouldn't do",
+            "couldn't do"
+          ],
+          "answer": "wouldn't do",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Hey, brother, there's an {{q:1}} to re-discover"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Hey, sister, know the water's sweet but {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Oh, if the {{q:3}} for you"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "There's {{q:4}} I wouldn't do"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Hey, brother, do you {{q:5}} in one another?"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Hey, sister, do you still {{q:6}}? I wonder"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Oh, if the {{q:7}} for you"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "There's {{q:8}} I wouldn't do"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:9}} {{q:10}}?"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Oh, {{q:11}}, I {{q:12}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:13}} I {{q:14}}?"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Oh, sister, {{q:15}} {{q:16}}!"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Oh, if the {{q:17}} {{q:18}} for you"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "There's nothing {{q:19}} I {{q:20}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Hey, brother, there's an {{q:21}} {{q:22}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Hey, sister, do you {{q:23}} {{q:24}}? I wonder"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Oh, if the sky comes {{q:25}} {{q:26}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:27}} in this world {{q:28}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "What if {{q:29}} {{q:30}}?"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Oh, brother, {{q:31}} {{q:32}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:33}} I {{q:34}}?"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Oh, sister, {{q:35}} {{q:36}}!"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Oh, if the {{q:37}} {{q:38}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "There's {{q:39}} I {{q:40}}"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Hey, brother, {{blank}} endless road to re-discover",
+          "options": [
+            "there's a",
+            "there's an",
+            "there is no"
+          ],
+          "answer": "there's an",
+          "promptZh": "嘿，兄弟，前方還有一條漫長無盡的道路，等待我們重新探索"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "Hey, brother, there's an {{blank}} to re-discover",
+          "options": [
+            "endless ride",
+            "endless road",
+            "endless route"
+          ],
+          "answer": "endless road",
+          "promptZh": "嘿，兄弟，前方還有一條漫長無盡的道路，等待我們重新探索"
+        },
+        {
+          "number": 3,
+          "lineId": "line-1",
+          "prompt": "Hey, brother, there's an endless road to {{blank}}",
+          "options": [
+            "recover",
+            "rediscovering",
+            "re-discover"
+          ],
+          "answer": "re-discover",
+          "promptZh": "嘿，兄弟，前方還有一條漫長無盡的道路，等待我們重新探索"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "Hey, sister, {{blank}} water's sweet but blood is thicker",
+          "options": [
+            "know the",
+            "show the",
+            "know that"
+          ],
+          "answer": "know the",
+          "promptZh": "嘿，姊妹，要知道，水雖甘甜，血緣之情卻更加深厚"
+        },
+        {
+          "number": 5,
+          "lineId": "line-2",
+          "prompt": "Hey, sister, know the {{blank}} but blood is thicker",
+          "options": [
+            "water's deep",
+            "water's clear",
+            "water's sweet"
+          ],
+          "answer": "water's sweet",
+          "promptZh": "嘿，姊妹，要知道，水雖甘甜，血緣之情卻更加深厚"
+        },
+        {
+          "number": 6,
+          "lineId": "line-2",
+          "prompt": "Hey, sister, know the water's sweet but {{blank}}",
+          "options": [
+            "blood is thicker",
+            "love is thicker",
+            "blood is quicker"
+          ],
+          "answer": "blood is thicker",
+          "promptZh": "嘿，姊妹，要知道，水雖甘甜，血緣之情卻更加深厚"
+        },
+        {
+          "number": 7,
+          "lineId": "line-3",
+          "prompt": "Oh, if the {{blank}} for you",
+          "options": [
+            "sky keeps falling down",
+            "sky comes crashing down",
+            "sky comes falling down"
+          ],
+          "answer": "sky comes falling down",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 8,
+          "lineId": "line-3",
+          "prompt": "Oh, if the sky comes falling down {{blank}}",
+          "options": [
+            "to you",
+            "from you",
+            "for you"
+          ],
+          "answer": "for you",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 9,
+          "lineId": "line-4",
+          "prompt": "There's {{blank}} I wouldn't do",
+          "options": [
+            "nothing in this world",
+            "nothing in the world",
+            "something in this world"
+          ],
+          "answer": "nothing in this world",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 10,
+          "lineId": "line-4",
+          "prompt": "There's nothing in this world I {{blank}}",
+          "options": [
+            "couldn't do",
+            "wouldn't do",
+            "won't do"
+          ],
+          "answer": "wouldn't do",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 11,
+          "lineId": "line-5",
+          "prompt": "Hey, brother, do you {{blank}} in one another?",
+          "options": [
+            "still belong",
+            "truly believe",
+            "still believe"
+          ],
+          "answer": "still believe",
+          "promptZh": "嘿，兄弟，你是否依然相信我們能彼此信任、相互扶持？"
+        },
+        {
+          "number": 12,
+          "lineId": "line-5",
+          "prompt": "Hey, brother, do you still believe in {{blank}}?",
+          "options": [
+            "one another",
+            "each other",
+            "one and other"
+          ],
+          "answer": "one another",
+          "promptZh": "嘿，兄弟，你是否依然相信我們能彼此信任、相互扶持？"
+        },
+        {
+          "number": 13,
+          "lineId": "line-6",
+          "prompt": "Hey, sister, do you still {{blank}}? I wonder",
+          "options": [
+            "believe in love",
+            "believe in luck",
+            "believe in life"
+          ],
+          "answer": "believe in love",
+          "promptZh": "嘿，姊妹，我不禁想問，妳是否依然相信愛？"
+        },
+        {
+          "number": 14,
+          "lineId": "line-6",
+          "prompt": "Hey, sister, do you still believe in love? {{blank}}",
+          "options": [
+            "I worry",
+            "I wonder",
+            "I wander"
+          ],
+          "answer": "I wonder",
+          "promptZh": "嘿，姊妹，我不禁想問，妳是否依然相信愛？"
+        },
+        {
+          "number": 15,
+          "lineId": "line-7",
+          "prompt": "Oh, if the {{blank}} for you",
+          "options": [
+            "sky comes falling down",
+            "sky keeps falling down",
+            "sky comes calling down"
+          ],
+          "answer": "sky comes falling down",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 16,
+          "lineId": "line-7",
+          "prompt": "Oh, if the sky comes falling down {{blank}}",
+          "options": [
+            "from you",
+            "to you",
+            "for you"
+          ],
+          "answer": "for you",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 17,
+          "lineId": "line-8",
+          "prompt": "There's {{blank}} I wouldn't do",
+          "options": [
+            "nothing in this world",
+            "nothing in the world",
+            "something in this world"
+          ],
+          "answer": "nothing in this world",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 18,
+          "lineId": "line-8",
+          "prompt": "There's nothing in this world I {{blank}}",
+          "options": [
+            "would do",
+            "wouldn't do",
+            "couldn't do"
+          ],
+          "answer": "wouldn't do",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 19,
+          "lineId": "line-9",
+          "prompt": "{{blank}} far from home?",
+          "options": [
+            "What if I've",
+            "What if you're",
+            "What if I'm"
+          ],
+          "answer": "What if I'm",
+          "promptZh": "倘若我遠離家鄉，又該如何？"
+        },
+        {
+          "number": 20,
+          "lineId": "line-9",
+          "prompt": "What if I'm {{blank}}?",
+          "options": [
+            "far away home",
+            "far from home",
+            "far from hope"
+          ],
+          "answer": "far from home",
+          "promptZh": "倘若我遠離家鄉，又該如何？"
+        },
+        {
+          "number": 21,
+          "lineId": "line-10",
+          "prompt": "Oh, {{blank}}, I will hear you call",
+          "options": [
+            "sister",
+            "brother",
+            "mother"
+          ],
+          "answer": "brother",
+          "promptZh": "噢，兄弟，我依然會聽見你的呼喚"
+        },
+        {
+          "number": 22,
+          "lineId": "line-10",
+          "prompt": "Oh, brother, I {{blank}}",
+          "options": [
+            "will feel you call",
+            "will hear your call",
+            "will hear you call"
+          ],
+          "answer": "will hear you call",
+          "promptZh": "噢，兄弟，我依然會聽見你的呼喚"
+        },
+        {
+          "number": 23,
+          "lineId": "line-11",
+          "prompt": "{{blank}} I lose it all?",
+          "options": [
+            "What when",
+            "What if",
+            "What now"
+          ],
+          "answer": "What if",
+          "promptZh": "倘若我失去了一切，又該如何？"
+        },
+        {
+          "number": 24,
+          "lineId": "line-11",
+          "prompt": "What if I {{blank}}?",
+          "options": [
+            "lost it all",
+            "lose it all",
+            "lose them all"
+          ],
+          "answer": "lose it all",
+          "promptZh": "倘若我失去了一切，又該如何？"
+        },
+        {
+          "number": 25,
+          "lineId": "line-12",
+          "prompt": "Oh, sister, {{blank}} help you out!",
+          "options": [
+            "I can",
+            "I would",
+            "I will"
+          ],
+          "answer": "I will",
+          "promptZh": "噢，姊妹，我一定會伸出援手，助妳渡過難關！"
+        },
+        {
+          "number": 26,
+          "lineId": "line-12",
+          "prompt": "Oh, sister, I will {{blank}}!",
+          "options": [
+            "hear you out",
+            "help you up",
+            "help you out"
+          ],
+          "answer": "help you out",
+          "promptZh": "噢，姊妹，我一定會伸出援手，助妳渡過難關！"
+        },
+        {
+          "number": 27,
+          "lineId": "line-13",
+          "prompt": "Oh, if the {{blank}} comes falling down for you",
+          "options": [
+            "sky",
+            "stars",
+            "sun"
+          ],
+          "answer": "sky",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 28,
+          "lineId": "line-13",
+          "prompt": "Oh, if the sky {{blank}} for you",
+          "options": [
+            "comes falling down",
+            "comes calling down",
+            "keeps falling down"
+          ],
+          "answer": "comes falling down",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 29,
+          "lineId": "line-14",
+          "prompt": "There's nothing {{blank}} I wouldn't do",
+          "options": [
+            "in your world",
+            "in the world",
+            "in this world"
+          ],
+          "answer": "in this world",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 30,
+          "lineId": "line-14",
+          "prompt": "There's nothing in this world I {{blank}}",
+          "options": [
+            "couldn't do",
+            "wouldn't do",
+            "won't do"
+          ],
+          "answer": "wouldn't do",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 31,
+          "lineId": "line-15",
+          "prompt": "Hey, brother, there's an {{blank}} to re-discover",
+          "options": [
+            "endless ride",
+            "endless route",
+            "endless road"
+          ],
+          "answer": "endless road",
+          "promptZh": "嘿，兄弟，前方還有一條漫長無盡的道路，等待我們重新探索"
+        },
+        {
+          "number": 32,
+          "lineId": "line-15",
+          "prompt": "Hey, brother, there's an endless road {{blank}}",
+          "options": [
+            "to rediscover it",
+            "to recover",
+            "to re-discover"
+          ],
+          "answer": "to re-discover",
+          "promptZh": "嘿，兄弟，前方還有一條漫長無盡的道路，等待我們重新探索"
+        },
+        {
+          "number": 33,
+          "lineId": "line-16",
+          "prompt": "Hey, sister, do you {{blank}} in love? I wonder",
+          "options": [
+            "truly believe",
+            "still believe",
+            "still belong"
+          ],
+          "answer": "still believe",
+          "promptZh": "嘿，姊妹，我不禁想問，妳是否依然相信愛？"
+        },
+        {
+          "number": 34,
+          "lineId": "line-16",
+          "prompt": "Hey, sister, do you still believe {{blank}}? I wonder",
+          "options": [
+            "in love",
+            "in life",
+            "in luck"
+          ],
+          "answer": "in love",
+          "promptZh": "嘿，姊妹，我不禁想問，妳是否依然相信愛？"
+        },
+        {
+          "number": 35,
+          "lineId": "line-17",
+          "prompt": "Oh, if the sky comes {{blank}} for you",
+          "options": [
+            "calling down",
+            "falling down",
+            "coming down"
+          ],
+          "answer": "falling down",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 36,
+          "lineId": "line-17",
+          "prompt": "Oh, if the sky comes falling down {{blank}}",
+          "options": [
+            "from you",
+            "to you",
+            "for you"
+          ],
+          "answer": "for you",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 37,
+          "lineId": "line-18",
+          "prompt": "{{blank}} in this world I wouldn't do",
+          "options": [
+            "There's nothing",
+            "There's something",
+            "There is someone"
+          ],
+          "answer": "There's nothing",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 38,
+          "lineId": "line-18",
+          "prompt": "There's nothing in this world {{blank}}",
+          "options": [
+            "I won't do",
+            "I couldn't do",
+            "I wouldn't do"
+          ],
+          "answer": "I wouldn't do",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 39,
+          "lineId": "line-19",
+          "prompt": "What if {{blank}} from home?",
+          "options": [
+            "I'm far",
+            "I'm free",
+            "I've gone"
+          ],
+          "answer": "I'm far",
+          "promptZh": "倘若我遠離家鄉，又該如何？"
+        },
+        {
+          "number": 40,
+          "lineId": "line-19",
+          "prompt": "What if I'm far {{blank}}?",
+          "options": [
+            "from home",
+            "from hope",
+            "for home"
+          ],
+          "answer": "from home",
+          "promptZh": "倘若我遠離家鄉，又該如何？"
+        },
+        {
+          "number": 41,
+          "lineId": "line-20",
+          "prompt": "Oh, brother, {{blank}} you call",
+          "options": [
+            "I can hear",
+            "I will hear",
+            "I will feel"
+          ],
+          "answer": "I will hear",
+          "promptZh": "噢，兄弟，我依然會聽見你的呼喚"
+        },
+        {
+          "number": 42,
+          "lineId": "line-20",
+          "prompt": "Oh, brother, I will hear {{blank}}",
+          "options": [
+            "you fall",
+            "your call",
+            "you call"
+          ],
+          "answer": "you call",
+          "promptZh": "噢，兄弟，我依然會聽見你的呼喚"
+        },
+        {
+          "number": 43,
+          "lineId": "line-21",
+          "prompt": "{{blank}} I lose it all?",
+          "options": [
+            "What if",
+            "What when",
+            "What now"
+          ],
+          "answer": "What if",
+          "promptZh": "倘若我失去了一切，又該如何？"
+        },
+        {
+          "number": 44,
+          "lineId": "line-21",
+          "prompt": "What if I {{blank}}?",
+          "options": [
+            "lost it all",
+            "lose it all",
+            "lose it now"
+          ],
+          "answer": "lose it all",
+          "promptZh": "倘若我失去了一切，又該如何？"
+        },
+        {
+          "number": 45,
+          "lineId": "line-22",
+          "prompt": "Oh, sister, {{blank}} help you out!",
+          "options": [
+            "I can",
+            "I will",
+            "I would"
+          ],
+          "answer": "I will",
+          "promptZh": "噢，姊妹，我一定會伸出援手，助妳渡過難關！"
+        },
+        {
+          "number": 46,
+          "lineId": "line-22",
+          "prompt": "Oh, sister, I will {{blank}}!",
+          "options": [
+            "help you out",
+            "hold you out",
+            "help you up"
+          ],
+          "answer": "help you out",
+          "promptZh": "噢，姊妹，我一定會伸出援手，助妳渡過難關！"
+        },
+        {
+          "number": 47,
+          "lineId": "line-23",
+          "prompt": "Oh, if the {{blank}} down for you",
+          "options": [
+            "sky keeps falling",
+            "sky comes falling",
+            "sky comes calling"
+          ],
+          "answer": "sky comes falling",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 48,
+          "lineId": "line-23",
+          "prompt": "Oh, if the sky comes falling {{blank}}",
+          "options": [
+            "down to you",
+            "down for you",
+            "down from you"
+          ],
+          "answer": "down for you",
+          "promptZh": "噢，即使有一天，整片天空都為你崩塌"
+        },
+        {
+          "number": 49,
+          "lineId": "line-24",
+          "prompt": "There's {{blank}} I wouldn't do",
+          "options": [
+            "nothing in this world",
+            "nothing in the world",
+            "something in this world"
+          ],
+          "answer": "nothing in this world",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        },
+        {
+          "number": 50,
+          "lineId": "line-24",
+          "prompt": "There's nothing in this world I {{blank}}",
+          "options": [
+            "wouldn't do",
+            "couldn't do",
+            "won't do"
+          ],
+          "answer": "wouldn't do",
+          "promptZh": "這世上沒有什麼事，是我不願為你做的"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Hey, brother, {{q:1}} {{q:2}} to {{q:3}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Hey, sister, {{q:4}} {{q:5}} but {{q:6}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Oh, if the {{q:7}} {{q:8}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "There's {{q:9}} I {{q:10}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Hey, brother, do you {{q:11}} in {{q:12}}?"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Hey, sister, do you still {{q:13}}? {{q:14}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Oh, if the {{q:15}} {{q:16}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "There's {{q:17}} I {{q:18}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:19}} {{q:20}}?"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Oh, {{q:21}}, I {{q:22}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:23}} I {{q:24}}?"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Oh, sister, {{q:25}} {{q:26}}!"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Oh, if the {{q:27}} {{q:28}} for you"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "There's nothing {{q:29}} I {{q:30}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Hey, brother, there's an {{q:31}} {{q:32}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Hey, sister, do you {{q:33}} {{q:34}}? I wonder"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Oh, if the sky comes {{q:35}} {{q:36}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:37}} in this world {{q:38}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "What if {{q:39}} {{q:40}}?"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Oh, brother, {{q:41}} {{q:42}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:43}} I {{q:44}}?"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Oh, sister, {{q:45}} {{q:46}}!"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Oh, if the {{q:47}} {{q:48}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "There's {{q:49}} I {{q:50}}"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Endless",
+      "meaning": "無止盡的、沒有盡頭的",
+      "usage": "形容道路、工作或等待等，好像一直不會結束。",
+      "prompt": "哪一句正確使用了「Endless」？",
+      "options": [
+        "The road is endless; we drive for hours and still cannot see the end.",
+        "I ate an endless for breakfast.",
+        "My shoes are endless because they are red.",
+        "She endless to school every day."
+      ],
+      "answer": 0,
+      "explanation": "endless 形容路很長、看不到終點，使用正確。",
+      "optionExplanations": [
+        "endless 形容路很長、看不到終點，使用正確。",
+        "endless 是形容詞，不能當成早餐食物的名稱。",
+        "紅色不代表沒有盡頭，這裡用 endless 不合意思。",
+        "endless 不是動詞，不能接在 she 後面表示去學校。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Discover",
+      "meaning": "發現、找到原本不知道的事",
+      "usage": "發現新地方、新資訊或原本不知道的事情時使用。",
+      "prompt": "哪一句正確使用了「Discover」？",
+      "options": [
+        "We discovered a small shop behind the school.",
+        "I discover my lunch with a spoon every day.",
+        "He discovered very loudly at the party.",
+        "This chair is discover and blue."
+      ],
+      "answer": 0,
+      "explanation": "discovered 表示發現原本不知道的小店，使用正確。",
+      "optionExplanations": [
+        "discovered 表示發現原本不知道的小店，使用正確。",
+        "discover 不是「吃」，這裡應說 eat my lunch。",
+        "discover 不是唱歌或說話的方式，不能這樣用。",
+        "discover 是動詞，不是描述椅子的形容詞。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Believe in",
+      "meaning": "相信、信任；對……有信心",
+      "usage": "談相信某人、某種價值或某件事有可能實現時使用。",
+      "prompt": "哪一句正確使用了「Believe in」？",
+      "options": [
+        "I believe in my socks because they are wet.",
+        "She believes in to the library after class.",
+        "I believe in my sister; she can do it.",
+        "They believe in the window with a pencil."
+      ],
+      "answer": 2,
+      "explanation": "believe in my sister 表示相信姊姊的能力，使用正確。",
+      "optionExplanations": [
+        "襪子濕了與信任無關，這裡意思不自然。",
+        "believe in 後面接人或事物，不接 to the library 表示移動。",
+        "believe in my sister 表示相信姊姊的能力，使用正確。",
+        "believe in 不是在窗戶上寫字，應說 write on the window。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "One another",
+      "meaning": "彼此、互相",
+      "usage": "兩個或更多人相互幫忙、信任或關心時使用。",
+      "prompt": "哪一句正確使用了「One another」？",
+      "options": [
+        "My dog is one another under the table.",
+        "I bought one another at the shop.",
+        "She sleeps one another every night.",
+        "The two friends help one another with homework."
+      ],
+      "answer": 3,
+      "explanation": "help one another 表示兩個朋友互相幫忙，使用正確。",
+      "optionExplanations": [
+        "one another 指人與人之間互相做事，不能描述狗的位置。",
+        "one another 不是可以買的東西。",
+        "這裡缺少能表示互相動作的用法，不能這樣說。",
+        "help one another 表示兩個朋友互相幫忙，使用正確。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "What if",
+      "meaning": "如果……怎麼辦？",
+      "usage": "想像某件事可能發生，並詢問結果或辦法時使用。",
+      "prompt": "哪一句正確使用了「What if」？",
+      "options": [
+        "What if it rains tomorrow? Can we play inside?",
+        "I what if my bag every morning.",
+        "She bought a what if at the market.",
+        "What if the blue is very sandwich?"
+      ],
+      "answer": 0,
+      "explanation": "What if 引出可能發生的情況，這裡問下雨怎麼辦，使用正確。",
+      "optionExplanations": [
+        "What if 引出可能發生的情況，這裡問下雨怎麼辦，使用正確。",
+        "what if 不是動詞，不能用來描述整理書包。",
+        "what if 是問句用語，不是商品名稱。",
+        "句子中的 blue 和 sandwich 無法組成合理情況，意思不通。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Far from",
+      "meaning": "離……很遠",
+      "usage": "說明兩個地方距離很遠，或某種情況與另一件事差很多時使用。",
+      "prompt": "哪一句正確使用了「Far from」？",
+      "options": [
+        "My cake is far from because it is sweet.",
+        "He far from his homework at eight.",
+        "I put far from in my cup.",
+        "Our house is far from the train station, so we take a bus."
+      ],
+      "answer": 3,
+      "explanation": "far from the train station 表示房子離車站很遠，使用正確。",
+      "optionExplanations": [
+        "far from 要接距離的對象，不能這樣形容蛋糕甜。",
+        "far from 不是動詞，不能用來表示做作業。",
+        "far from 不是可以放進杯子的東西。",
+        "far from the train station 表示房子離車站很遠，使用正確。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Lose it all",
+      "meaning": "失去一切",
+      "usage": "談可能失去金錢、重要東西或原本擁有的一切時使用。",
+      "prompt": "哪一句正確使用了「Lose it all」？",
+      "options": [
+        "I lose it all my shoes every Sunday.",
+        "If we lose the house and all our money, we could lose it all.",
+        "He loses it all because the soup is hot.",
+        "My phone loses it all to the supermarket."
+      ],
+      "answer": 1,
+      "explanation": "失去房子與所有錢可稱 lose it all，使用正確。",
+      "optionExplanations": [
+        "lose it all 不能直接接 my shoes；可說 lose all my shoes。",
+        "失去房子與所有錢可稱 lose it all，使用正確。",
+        "湯很燙不等於失去一切，這裡意思不符。",
+        "手機不能用這個片語表示前往超市。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Help someone out",
+      "meaning": "幫某人一個忙、協助度過困難",
+      "usage": "當朋友、家人有問題或需要幫手時使用。",
+      "prompt": "哪一句正確使用了「Help someone out」？",
+      "options": [
+        "I helped the pizza out with cheese.",
+        "We help out the weather with an umbrella.",
+        "My brother helped me out when my bike broke.",
+        "She helps the floor out every night."
+      ],
+      "answer": 2,
+      "explanation": "哥哥在腳踏車壞掉時幫忙，helped me out 使用正確。",
+      "optionExplanations": [
+        "披薩不是遇到困難的人，這裡應說 put cheese on the pizza。",
+        "天氣不是可以被幫忙解決問題的人。",
+        "哥哥在腳踏車壞掉時幫忙，helped me out 使用正確。",
+        "地板不是需要協助的人，這裡可說 clean the floor。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Fall down",
+      "meaning": "跌倒、掉落、倒下",
+      "usage": "形容人跌倒或物品從上方掉下來時使用。",
+      "prompt": "哪一句正確使用了「Fall down」？",
+      "options": [
+        "I fall down my dinner with a fork.",
+        "Be careful! The books may fall down from the shelf.",
+        "She is fall down happy today.",
+        "We fall down to the movies on Friday."
+      ],
+      "answer": 1,
+      "explanation": "書可能從架上掉下來，fall down 使用正確。",
+      "optionExplanations": [
+        "fall down 不是吃飯的動作。",
+        "書可能從架上掉下來，fall down 使用正確。",
+        "fall down 不能這樣連接 happy 來表示快樂。",
+        "fall down 不是去電影院的意思，應說 go to the movies。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "There is nothing ... I wouldn’t do",
+      "meaning": "沒有什麼事是我不願做的（強烈表示願意幫忙）",
+      "usage": "想強調自己願意盡全力幫助重要的人時使用。",
+      "prompt": "哪一句正確使用了「There is nothing ... I wouldn’t do」？",
+      "options": [
+        "There is nothing I wouldn’t do my breakfast at seven.",
+        "There is nothing I wouldn’t do to help my family.",
+        "There is nothing I wouldn’t do is a blue chair.",
+        "There is nothing I wouldn’t do inside my shoe for lunch."
+      ],
+      "answer": 1,
+      "explanation": "這個句子表示願意盡一切努力幫家人，使用正確。",
+      "optionExplanations": [
+        "這個句型後面不能直接接 my breakfast 來表示吃早餐。",
+        "這個句子表示願意盡一切努力幫家人，使用正確。",
+        "這個表達不是物品名稱，不能用 is a blue chair 來定義。",
+        "把午餐放鞋子裡與願意為人做事的意思不符。"
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/hey-brother/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/hey-brother/user-cover-20261030.png",
+  "editorialRepairs": [],
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 255.0933125,
+    "audioSha256": "d8de4a05e7755b4d2bb5d07d8b2b4a03a5c037d88720777a0832ee1c721c9e17",
+    "timedLines": 23,
+    "untimedLines": 1,
+    "reviewStatus": "Conservative automatic line alignment; unmatched lines remain bilingual without a guessed cue."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Hey Brother_.pdf",
+      "sha256": "698c86fb55b3b1e6a71567e72ea205caf61dc22216e191bea4770ea7a9a76bf4"
+    },
+    "docx": {
+      "filename": "Hey_Brother_Four_Level_Listening_Exercise.docx",
+      "sha256": "91b796bef98a3a37bba73de6e805eec4bfb74cf4987057bae1ed2beba7c9bb46"
+    },
+    "md": {
+      "filename": "Hey_Brother_Vocabulary_Quiz.md",
+      "sha256": "0e29a3362eb188548ee6be68f5ea01ed1ae5655ef81cbce8c5265ee2f3520d2a"
+    },
+    "mp3": {
+      "filename": "Hey Brother [OjpX8ILe2N4].mp3",
+      "sha256": "d8de4a05e7755b4d2bb5d07d8b2b4a03a5c037d88720777a0832ee1c721c9e17"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-1d9cc55f-ff73-47bd-8dc2-642b793aac4b.png",
+    "sha256": "297e3e627f21165080b62cc1dfa0d4f8303af20b89b90a20ccea193a02839ff9",
+    "transformations": "none",
+    "selectedOn": "2026-10-30"
+  }
+}

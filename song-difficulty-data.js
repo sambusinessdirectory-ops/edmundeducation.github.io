@@ -650,5 +650,50 @@ window.SONG_DIFFICULTY_DATA = {
     "genre": "Folk rock",
     "vocals": "female",
     "assessment": "Editorial listening estimate; BPM approximate; year is original song release."
+  },
+  "hey-brother": {
+    "scores": [
+      4,
+      4,
+      6,
+      4,
+      5,
+      4
+    ],
+    "bpm": 125,
+    "year": 2013,
+    "genre": "Progressive house",
+    "vocals": "male",
+    "assessment": "Editorial listening estimate; BPM approximate; year is original song release."
+  },
+  "bad-romance": {
+    "scores": [
+      5,
+      7,
+      6,
+      5,
+      7,
+      5
+    ],
+    "bpm": 119,
+    "year": 2009,
+    "genre": "Dance pop",
+    "vocals": "female",
+    "assessment": "Editorial listening estimate; BPM approximate; year is original song release."
+  },
+  "poker-face": {
+    "scores": [
+      6,
+      7,
+      6,
+      5,
+      7,
+      7
+    ],
+    "bpm": 120,
+    "year": 2008,
+    "genre": "Dance pop",
+    "vocals": "female",
+    "assessment": "Editorial listening estimate; BPM approximate; year is original song release."
   }
 };

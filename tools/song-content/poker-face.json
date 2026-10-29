@@ -1,0 +1,3851 @@
+{
+  "slug": "poker-face",
+  "title": "Poker Face",
+  "singer": "Lady Gaga",
+  "exercise_name": "Poker Face · Listening & Vocabulary",
+  "description": "《Poker Face》描寫一場充滿誘惑、慾望與心理博弈的愛情遊戲。歌中的主角將戀愛比喻為撲克牌賭局，透過魅力與挑逗吸引對方，卻刻意隱藏自己的真實感受，讓對方無法看穿她的心思。她享受曖昧帶來的刺激，也善於運用虛張聲勢與心理策略掌握主導權。歌曲中的「撲克臉」象徵情感上的偽裝與自我控制，同時暗示外在表現與內心慾望之間的差異。最終，《Poker Face》傳達的是愛情中的誘惑、神祕與掌控：當感情變成一場充滿試探的遊戲，表面的親密未必代表真心，而真正隱藏的情感與慾望，往往比展現出來的更加複雜。",
+  "tags": [
+    "lady gaga",
+    "poker face",
+    "love",
+    "secrets"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "Mum mum mum mah",
+      "chinese": "嗯、嗯、嗯、嘛"
+    },
+    {
+      "lineId": "line-2",
+      "english": "Mum mum mum mah",
+      "chinese": "嗯、嗯、嗯、嘛"
+    },
+    {
+      "lineId": "line-3",
+      "english": "Mum mum mum mah",
+      "chinese": "嗯、嗯、嗯、嘛"
+    },
+    {
+      "lineId": "line-4",
+      "english": "Mum mum mum mah",
+      "chinese": "嗯、嗯、嗯、嘛"
+    },
+    {
+      "lineId": "line-5",
+      "english": "Mum mum mum mah",
+      "chinese": "嗯、嗯、嗯、嘛"
+    },
+    {
+      "lineId": "line-6",
+      "english": "I wanna hold 'em like they do in Texas, please (Woo)",
+      "chinese": "我想像德州撲克玩家那樣，緊握手中的牌（嗚！）",
+      "startSeconds": 23.86,
+      "endSeconds": 27.82
+    },
+    {
+      "lineId": "line-7",
+      "english": "Fold 'em, let 'em hit me, raise it, baby, stay with me (I love it)",
+      "chinese": "棄牌也好，讓他們出招也罷，再加注吧，寶貝，陪我玩下去（我愛這感覺）",
+      "startSeconds": 27.82,
+      "endSeconds": 32.28
+    },
+    {
+      "lineId": "line-8",
+      "english": "LoveGame intuition, play the cards with spades to start",
+      "chinese": "憑著愛情遊戲中的直覺，先從黑桃牌開始出手",
+      "startSeconds": 32.28,
+      "endSeconds": 35.8
+    },
+    {
+      "lineId": "line-9",
+      "english": "And after he's been hooked, I'll play the one that's on his heart",
+      "chinese": "等他徹底上鉤，我便打出那張直指他內心的牌",
+      "startSeconds": 35.8,
+      "endSeconds": 40.02
+    },
+    {
+      "lineId": "line-10",
+      "english": "Oh, whoa-oh, oh, oh",
+      "chinese": "噢，喔——噢，噢，噢"
+    },
+    {
+      "lineId": "line-11",
+      "english": "Oh-oh-oh-oh-oh-oh",
+      "chinese": "噢——噢——噢——噢——噢——噢"
+    },
+    {
+      "lineId": "line-12",
+      "english": "I'll get him hot, show him what I've got",
+      "chinese": "我要撩得他慾火難耐，讓他見識我的魅力",
+      "startSeconds": 44.66,
+      "endSeconds": 48.0
+    },
+    {
+      "lineId": "line-13",
+      "english": "Oh, whoa-oh, oh, oh",
+      "chinese": "噢，喔——噢，噢，噢"
+    },
+    {
+      "lineId": "line-14",
+      "english": "Oh-oh-oh-oh-oh-oh",
+      "chinese": "噢——噢——噢——噢——噢——噢"
+    },
+    {
+      "lineId": "line-15",
+      "english": "I'll get him hot, show him what I've got",
+      "chinese": "我要撩得他慾火難耐，讓他見識我的魅力",
+      "startSeconds": 52.72,
+      "endSeconds": 56.12
+    },
+    {
+      "lineId": "line-16",
+      "english": "Can't read my, can't read my",
+      "chinese": "看不穿我，看不穿我"
+    },
+    {
+      "lineId": "line-17",
+      "english": "No, he can't read my poker face",
+      "chinese": "不，他看不透我那張毫無破綻的撲克臉"
+    },
+    {
+      "lineId": "line-18",
+      "english": "(She's got me like nobody)",
+      "chinese": "（她讓我如此著迷，無人能及）",
+      "startSeconds": 62.86,
+      "endSeconds": 64.44
+    },
+    {
+      "lineId": "line-19",
+      "english": "Can't read my, can't read my",
+      "chinese": "看不穿我，看不穿我"
+    },
+    {
+      "lineId": "line-20",
+      "english": "No, he can't read my poker face",
+      "chinese": "不，他看不透我那張毫無破綻的撲克臉"
+    },
+    {
+      "lineId": "line-21",
+      "english": "(She's got me like nobody)",
+      "chinese": "（她讓我如此著迷，無人能及）",
+      "startSeconds": 70.72,
+      "endSeconds": 72.6
+    },
+    {
+      "lineId": "line-22",
+      "english": "P-p-p-poker face, f-f-fuck her face",
+      "chinese": "撲、撲、撲克臉；幹、幹、幹她的臉"
+    },
+    {
+      "lineId": "line-23",
+      "english": "(Mum mum mum mah)",
+      "chinese": "（嗯、嗯、嗯、嘛）"
+    },
+    {
+      "lineId": "line-24",
+      "english": "P-p-p-poker face, f-f-fuck her face",
+      "chinese": "撲、撲、撲克臉；幹、幹、幹她的臉"
+    },
+    {
+      "lineId": "line-25",
+      "english": "(Mum mum mum mah)",
+      "chinese": "（嗯、嗯、嗯、嘛）"
+    },
+    {
+      "lineId": "line-26",
+      "english": "I wanna roll with him, a hard pair we will be (Woo)",
+      "chinese": "我想與他一同放手一搏，我們會是難以擊敗的一對（嗚！）",
+      "startSeconds": 80.64,
+      "endSeconds": 84.3
+    },
+    {
+      "lineId": "line-27",
+      "english": "A little gamblin' is fun when you're with me (I love it, woo)",
+      "chinese": "有我陪在身邊，小賭一場也格外刺激有趣（我愛這感覺，嗚！）",
+      "startSeconds": 84.82,
+      "endSeconds": 88.08
+    },
+    {
+      "lineId": "line-28",
+      "english": "Russian roulette is not the same without a gun",
+      "chinese": "沒有槍的俄羅斯輪盤賭，就失去了原本的刺激",
+      "startSeconds": 88.86,
+      "endSeconds": 92.18
+    },
+    {
+      "lineId": "line-29",
+      "english": "And baby, when it's love, if it's not rough, it isn't fun, fun",
+      "chinese": "寶貝，愛情若不帶點狂野與激烈，就不夠刺激，不夠有趣",
+      "startSeconds": 92.18,
+      "endSeconds": 96.44
+    },
+    {
+      "lineId": "line-30",
+      "english": "Oh, whoa-oh, oh, oh",
+      "chinese": "噢，喔——噢，噢，噢",
+      "startSeconds": 96.44,
+      "endSeconds": 99.68
+    },
+    {
+      "lineId": "line-31",
+      "english": "Oh-oh-oh-oh-oh-oh",
+      "chinese": "噢——噢——噢——噢——噢——噢"
+    },
+    {
+      "lineId": "line-32",
+      "english": "I'll get him hot, show him what I've got",
+      "chinese": "我要撩得他慾火難耐，讓他見識我的魅力",
+      "startSeconds": 101.18,
+      "endSeconds": 104.1
+    },
+    {
+      "lineId": "line-33",
+      "english": "Oh, whoa-oh, oh, oh",
+      "chinese": "噢，喔——噢，噢，噢"
+    },
+    {
+      "lineId": "line-34",
+      "english": "Oh-oh-oh-oh-oh-oh",
+      "chinese": "噢——噢——噢——噢——噢——噢",
+      "startSeconds": 107.0,
+      "endSeconds": 109.22
+    },
+    {
+      "lineId": "line-35",
+      "english": "I'll get him hot, show him what I've got",
+      "chinese": "我要撩得他慾火難耐，讓他見識我的魅力",
+      "startSeconds": 109.22,
+      "endSeconds": 112.7
+    },
+    {
+      "lineId": "line-36",
+      "english": "Can't read my, can't read my",
+      "chinese": "看不穿我，看不穿我",
+      "startSeconds": 113.24,
+      "endSeconds": 115.12
+    },
+    {
+      "lineId": "line-37",
+      "english": "No, he can't read my poker face",
+      "chinese": "不，他看不透我那張毫無破綻的撲克臉",
+      "startSeconds": 115.12,
+      "endSeconds": 118.4
+    },
+    {
+      "lineId": "line-38",
+      "english": "(She's got me like nobody)",
+      "chinese": "（她讓我如此著迷，無人能及）"
+    },
+    {
+      "lineId": "line-39",
+      "english": "Can't read my, can't read my",
+      "chinese": "看不穿我，看不穿我",
+      "startSeconds": 121.18,
+      "endSeconds": 123.2
+    },
+    {
+      "lineId": "line-40",
+      "english": "No, he can't read my poker face",
+      "chinese": "不，他看不透我那張毫無破綻的撲克臉",
+      "startSeconds": 123.2,
+      "endSeconds": 126.52
+    },
+    {
+      "lineId": "line-41",
+      "english": "(She's got me like nobody)",
+      "chinese": "（她讓我如此著迷，無人能及）"
+    },
+    {
+      "lineId": "line-42",
+      "english": "P-p-p-poker face, f-f-fuck her face",
+      "chinese": "撲、撲、撲克臉；幹、幹、幹她的臉"
+    },
+    {
+      "lineId": "line-43",
+      "english": "(Mum mum mum mah)",
+      "chinese": "（嗯、嗯、嗯、嘛）"
+    },
+    {
+      "lineId": "line-44",
+      "english": "P-p-p-poker face, f-f-fuck her face",
+      "chinese": "撲、撲、撲克臉；幹、幹、幹她的臉"
+    },
+    {
+      "lineId": "line-45",
+      "english": "(Mum mum mum mah)",
+      "chinese": "（嗯、嗯、嗯、嘛）"
+    },
+    {
+      "lineId": "line-46",
+      "english": "(Mum mum mum mah)",
+      "chinese": "（嗯、嗯、嗯、嘛）"
+    },
+    {
+      "lineId": "line-47",
+      "english": "(Mum mum mum mah)",
+      "chinese": "（嗯、嗯、嗯、嘛）"
+    },
+    {
+      "lineId": "line-48",
+      "english": "I won't tell you that I love you",
+      "chinese": "我不會告訴你，我愛你"
+    },
+    {
+      "lineId": "line-49",
+      "english": "Kiss or hug you",
+      "chinese": "也不會親吻你，或將你擁入懷中",
+      "startSeconds": 146.74,
+      "endSeconds": 147.78
+    },
+    {
+      "lineId": "line-50",
+      "english": "'Cause I'm bluffin' with my muffin",
+      "chinese": "因為我正拿自己的私密魅力作掩護，虛張聲勢",
+      "startSeconds": 147.78,
+      "endSeconds": 149.72
+    },
+    {
+      "lineId": "line-51",
+      "english": "I'm not lyin', I'm just stunnin' with my love-glue-gunnin'",
+      "chinese": "我不是在說謊，只是用愛情那如膠槍般的黏人攻勢，讓你目眩神迷",
+      "startSeconds": 149.72,
+      "endSeconds": 153.34
+    },
+    {
+      "lineId": "line-52",
+      "english": "Just like a chick in the casino",
+      "chinese": "就像賭場裡的一個女孩",
+      "startSeconds": 153.34,
+      "endSeconds": 155.54
+    },
+    {
+      "lineId": "line-53",
+      "english": "Take your bank before I pay you out",
+      "chinese": "在付給你任何回報之前，先把你的賭本贏個精光",
+      "startSeconds": 155.54,
+      "endSeconds": 158.08
+    },
+    {
+      "lineId": "line-54",
+      "english": "I promise this, promise this",
+      "chinese": "我向你保證，向你保證",
+      "startSeconds": 158.08,
+      "endSeconds": 159.54
+    },
+    {
+      "lineId": "line-55",
+      "english": "Check this hand 'cause I'm marvelous",
+      "chinese": "看清我手中的這副牌，因為我的手段可高明得很"
+    },
+    {
+      "lineId": "line-56",
+      "english": "Can't read my, can't read my",
+      "chinese": "看不穿我，看不穿我",
+      "startSeconds": 161.56,
+      "endSeconds": 163.52
+    },
+    {
+      "lineId": "line-57",
+      "english": "No, he can't read my poker face",
+      "chinese": "不，他看不透我那張毫無破綻的撲克臉",
+      "startSeconds": 163.52,
+      "endSeconds": 166.88
+    },
+    {
+      "lineId": "line-58",
+      "english": "(She's got me like nobody)",
+      "chinese": "（她讓我如此著迷，無人能及）"
+    },
+    {
+      "lineId": "line-59",
+      "english": "Can't read my, can't read my",
+      "chinese": "看不穿我，看不穿我",
+      "startSeconds": 169.14,
+      "endSeconds": 171.6
+    },
+    {
+      "lineId": "line-60",
+      "english": "No, he can't read my poker face",
+      "chinese": "不，他看不透我那張毫無破綻的撲克臉",
+      "startSeconds": 171.6,
+      "endSeconds": 174.96
+    },
+    {
+      "lineId": "line-61",
+      "english": "(She's got me like nobody)",
+      "chinese": "（她讓我如此著迷，無人能及）"
+    },
+    {
+      "lineId": "line-62",
+      "english": "Can't read my, can't read my",
+      "chinese": "看不穿我，看不穿我",
+      "startSeconds": 177.34,
+      "endSeconds": 179.68
+    },
+    {
+      "lineId": "line-63",
+      "english": "No, he can't read my poker face",
+      "chinese": "不，他看不透我那張毫無破綻的撲克臉",
+      "startSeconds": 179.68,
+      "endSeconds": 183.14
+    },
+    {
+      "lineId": "line-64",
+      "english": "(She's got me like nobody)",
+      "chinese": "（她讓我如此著迷，無人能及）"
+    },
+    {
+      "lineId": "line-65",
+      "english": "Can't read my, can't read my",
+      "chinese": "看不穿我，看不穿我",
+      "startSeconds": 185.56,
+      "endSeconds": 187.74
+    },
+    {
+      "lineId": "line-66",
+      "english": "No, he can't read my poker face",
+      "chinese": "不，他看不透我那張毫無破綻的撲克臉",
+      "startSeconds": 187.74,
+      "endSeconds": 191.06
+    },
+    {
+      "lineId": "line-67",
+      "english": "(She's got me like nobody)",
+      "chinese": "（她讓我如此著迷，無人能及）"
+    },
+    {
+      "lineId": "line-68",
+      "english": "Can't read my, can't read my",
+      "chinese": "看不穿我，看不穿我"
+    },
+    {
+      "lineId": "line-69",
+      "english": "No, he can't read my poker face",
+      "chinese": "不，他看不透我那張毫無破綻的撲克臉",
+      "startSeconds": 195.8,
+      "endSeconds": 199.14
+    },
+    {
+      "lineId": "line-70",
+      "english": "(She's got me like nobody)",
+      "chinese": "（她讓我如此著迷，無人能及）"
+    },
+    {
+      "lineId": "line-71",
+      "english": "Can't read my, can't read my",
+      "chinese": "看不穿我，看不穿我"
+    },
+    {
+      "lineId": "line-72",
+      "english": "No, he can't read my poker face",
+      "chinese": "不，他看不透我那張毫無破綻的撲克臉"
+    },
+    {
+      "lineId": "line-73",
+      "english": "(She's got me like nobody)",
+      "chinese": "（她讓我如此著迷，無人能及）"
+    },
+    {
+      "lineId": "line-74",
+      "english": "P-p-p-poker face, f-f-fuck her face",
+      "chinese": "撲、撲、撲克臉；幹、幹、幹她的臉"
+    },
+    {
+      "lineId": "line-75",
+      "english": "P-p-p-poker face, f-f-fuck her face",
+      "chinese": "撲、撲、撲克臉；幹、幹、幹她的臉"
+    },
+    {
+      "lineId": "line-76",
+      "english": "(She's got me like nobody)",
+      "chinese": "（她讓我如此著迷，無人能及）"
+    },
+    {
+      "lineId": "line-77",
+      "english": "P-p-p-poker face, f-f-fuck her face",
+      "chinese": "撲、撲、撲克臉；幹、幹、幹她的臉"
+    },
+    {
+      "lineId": "line-78",
+      "english": "(Mum mum mum mah)",
+      "chinese": "（嗯、嗯、嗯、嘛）"
+    },
+    {
+      "lineId": "line-79",
+      "english": "P-p-p-poker face, f-f-fuck her face",
+      "chinese": "撲、撲、撲克臉；幹、幹、幹她的臉"
+    },
+    {
+      "lineId": "line-80",
+      "english": "(Mum mum mum mah)",
+      "chinese": "（嗯、嗯、嗯、嘛）"
+    },
+    {
+      "lineId": "line-81",
+      "english": "P-p-p-poker face, f-f-fuck her face",
+      "chinese": "撲、撲、撲克臉；幹、幹、幹她的臉"
+    },
+    {
+      "lineId": "line-82",
+      "english": "(Mum mum mum mah)",
+      "chinese": "（嗯、嗯、嗯、嘛）"
+    },
+    {
+      "lineId": "line-83",
+      "english": "P-p-p-poker face, f-f-fuck her face",
+      "chinese": "撲、撲、撲克臉；幹、幹、幹她的臉"
+    },
+    {
+      "lineId": "line-84",
+      "english": "(Mum mum mum mah)",
+      "chinese": "（嗯、嗯、嗯、嘛）"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-9",
+          "prompt": "And after he's {{blank}}, I'll play the one that's on his heart",
+          "options": [
+            "been booked",
+            "been hooked",
+            "been hurt"
+          ],
+          "answer": "been hooked",
+          "promptZh": "等他徹底上鉤，我便打出那張直指他內心的牌"
+        },
+        {
+          "number": 2,
+          "lineId": "line-16",
+          "prompt": "{{blank}}, can't read my",
+          "options": [
+            "Can't read my",
+            "Can't reach my",
+            "Can read my"
+          ],
+          "answer": "Can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 3,
+          "lineId": "line-19",
+          "prompt": "Can't read my, {{blank}}",
+          "options": [
+            "can read my",
+            "can't read my",
+            "can't see my"
+          ],
+          "answer": "can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 4,
+          "lineId": "line-20",
+          "prompt": "No, {{blank}} my poker face",
+          "options": [
+            "he can read",
+            "she can't read",
+            "he can't read"
+          ],
+          "answer": "he can't read",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 5,
+          "lineId": "line-27",
+          "prompt": "A little {{blank}} is fun when you're with me (I love it, woo)",
+          "options": [
+            "ramblin'",
+            "gamblin'",
+            "gambling"
+          ],
+          "answer": "gamblin'",
+          "promptZh": "有我陪在身邊，小賭一場也格外刺激有趣（我愛這感覺，嗚！）"
+        },
+        {
+          "number": 6,
+          "lineId": "line-29",
+          "prompt": "And baby, when it's love, if it's {{blank}}, it isn't fun, fun",
+          "options": [
+            "not rough",
+            "not tough",
+            "too rough"
+          ],
+          "answer": "not rough",
+          "promptZh": "寶貝，愛情若不帶點狂野與激烈，就不夠刺激，不夠有趣"
+        },
+        {
+          "number": 7,
+          "lineId": "line-32",
+          "prompt": "I'll get him hot, {{blank}} what I've got",
+          "options": [
+            "show him",
+            "know him",
+            "show them"
+          ],
+          "answer": "show him",
+          "promptZh": "我要撩得他慾火難耐，讓他見識我的魅力"
+        },
+        {
+          "number": 8,
+          "lineId": "line-37",
+          "prompt": "No, he can't read my {{blank}}",
+          "options": [
+            "poker hand",
+            "poker place",
+            "poker face"
+          ],
+          "answer": "poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 9,
+          "lineId": "line-39",
+          "prompt": "Can't read my, {{blank}}",
+          "options": [
+            "can't reach my",
+            "can't read my",
+            "can read my"
+          ],
+          "answer": "can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 10,
+          "lineId": "line-40",
+          "prompt": "No, he {{blank}}",
+          "options": [
+            "can read my poker face",
+            "can't see my poker face",
+            "can't read my poker face"
+          ],
+          "answer": "can't read my poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 11,
+          "lineId": "line-48",
+          "prompt": "I {{blank}} that I love you",
+          "options": [
+            "won't tell you",
+            "won't show you",
+            "will tell you"
+          ],
+          "answer": "won't tell you",
+          "promptZh": "我不會告訴你，我愛你"
+        },
+        {
+          "number": 12,
+          "lineId": "line-56",
+          "prompt": "{{blank}}, can't read my",
+          "options": [
+            "Can't read my",
+            "Can't reach my",
+            "Can read my"
+          ],
+          "answer": "Can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 13,
+          "lineId": "line-63",
+          "prompt": "No, he {{blank}}",
+          "options": [
+            "can read my poker face",
+            "can't read my poker face",
+            "can't see my poker face"
+          ],
+          "answer": "can't read my poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 14,
+          "lineId": "line-64",
+          "prompt": "(She's got me {{blank}})",
+          "options": [
+            "like nobody",
+            "like no one",
+            "like somebody"
+          ],
+          "answer": "like nobody",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 15,
+          "lineId": "line-66",
+          "prompt": "No, he can't read my {{blank}}",
+          "options": [
+            "poker hand",
+            "poker place",
+            "poker face"
+          ],
+          "answer": "poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 16,
+          "lineId": "line-68",
+          "prompt": "{{blank}}, can't read my",
+          "options": [
+            "Can't read my",
+            "Can't reach my",
+            "Can read my"
+          ],
+          "answer": "Can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 17,
+          "lineId": "line-69",
+          "prompt": "No, {{blank}} my poker face",
+          "options": [
+            "she can't read",
+            "he can read",
+            "he can't read"
+          ],
+          "answer": "he can't read",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 18,
+          "lineId": "line-71",
+          "prompt": "Can't read my, {{blank}}",
+          "options": [
+            "can't see my",
+            "can read my",
+            "can't read my"
+          ],
+          "answer": "can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 19,
+          "lineId": "line-72",
+          "prompt": "No, he can't read my {{blank}}",
+          "options": [
+            "poker place",
+            "poker face",
+            "poker game"
+          ],
+          "answer": "poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 20,
+          "lineId": "line-73",
+          "prompt": "({{blank}} like nobody)",
+          "options": [
+            "He's got me",
+            "She's got me",
+            "She's got him"
+          ],
+          "answer": "She's got me",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Mum mum mum mah"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Mum mum mum mah"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Mum mum mum mah"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Mum mum mum mah"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Mum mum mum mah"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I wanna hold 'em like they do in Texas, please (Woo)"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Fold 'em, let 'em hit me, raise it, baby, stay with me (I love it)"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "LoveGame intuition, play the cards with spades to start"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "And after he's {{q:1}}, I'll play the one that's on his heart"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Oh, whoa-oh, oh, oh"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Oh-oh-oh-oh-oh-oh"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I'll get him hot, show him what I've got"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Oh, whoa-oh, oh, oh"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Oh-oh-oh-oh-oh-oh"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I'll get him hot, show him what I've got"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:2}}, can't read my"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "No, he can't read my poker face"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "(She's got me like nobody)"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Can't read my, {{q:3}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "No, {{q:4}} my poker face"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "(She's got me like nobody)"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I wanna roll with him, a hard pair we will be (Woo)"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "A little {{q:5}} is fun when you're with me (I love it, woo)"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Russian roulette is not the same without a gun"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "And baby, when it's love, if it's {{q:6}}, it isn't fun, fun"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Oh, whoa-oh, oh, oh"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Oh-oh-oh-oh-oh-oh"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I'll get him hot, {{q:7}} what I've got"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Oh, whoa-oh, oh, oh"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Oh-oh-oh-oh-oh-oh"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I'll get him hot, show him what I've got"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Can't read my, can't read my"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "No, he can't read my {{q:8}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "(She's got me like nobody)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Can't read my, {{q:9}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "No, he {{q:10}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "(She's got me like nobody)"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I {{q:11}} that I love you"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Kiss or hug you"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "'Cause I'm bluffin' with my muffin"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "I'm not lyin', I'm just stunnin' with my love-glue-gunnin'"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Just like a chick in the casino"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Take your bank before I pay you out"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "I promise this, promise this"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Check this hand 'cause I'm marvelous"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "{{q:12}}, can't read my"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "No, he can't read my poker face"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "(She's got me like nobody)"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Can't read my, can't read my"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "No, he can't read my poker face"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "(She's got me like nobody)"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Can't read my, can't read my"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "No, he {{q:13}}"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "(She's got me {{q:14}})"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Can't read my, can't read my"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "No, he can't read my {{q:15}}"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "(She's got me like nobody)"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "{{q:16}}, can't read my"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "No, {{q:17}} my poker face"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "(She's got me like nobody)"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "Can't read my, {{q:18}}"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "No, he can't read my {{q:19}}"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "({{q:20}} like nobody)"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "(She's got me like nobody)"
+        },
+        {
+          "lineId": "line-77",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-78",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-79",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-80",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-81",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-82",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-83",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-84",
+          "prompt": "(Mum mum mum mah)"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-9",
+          "prompt": "And after he's {{blank}}, I'll play the one that's on his heart",
+          "options": [
+            "been hooked",
+            "been booked",
+            "been hurt"
+          ],
+          "answer": "been hooked",
+          "promptZh": "等他徹底上鉤，我便打出那張直指他內心的牌"
+        },
+        {
+          "number": 2,
+          "lineId": "line-16",
+          "prompt": "{{blank}}, can't read my",
+          "options": [
+            "Can't reach my",
+            "Can read my",
+            "Can't read my"
+          ],
+          "answer": "Can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 3,
+          "lineId": "line-18",
+          "prompt": "(She's got me {{blank}})",
+          "options": [
+            "like somebody",
+            "like no one",
+            "like nobody"
+          ],
+          "answer": "like nobody",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 4,
+          "lineId": "line-19",
+          "prompt": "Can't read my, {{blank}}",
+          "options": [
+            "can't read my",
+            "can read my",
+            "can't see my"
+          ],
+          "answer": "can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 5,
+          "lineId": "line-20",
+          "prompt": "No, {{blank}} my poker face",
+          "options": [
+            "he can read",
+            "she can't read",
+            "he can't read"
+          ],
+          "answer": "he can't read",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 6,
+          "lineId": "line-22",
+          "prompt": "P-p-p-{{blank}}, f-f-fuck her face",
+          "options": [
+            "poker place",
+            "poker game",
+            "poker face"
+          ],
+          "answer": "poker face",
+          "promptZh": "撲、撲、撲克臉；幹、幹、幹她的臉"
+        },
+        {
+          "number": 7,
+          "lineId": "line-26",
+          "prompt": "I wanna {{blank}}, a hard pair we will be (Woo)",
+          "options": [
+            "run with him",
+            "roll with him",
+            "roll with them"
+          ],
+          "answer": "roll with him",
+          "promptZh": "我想與他一同放手一搏，我們會是難以擊敗的一對（嗚！）"
+        },
+        {
+          "number": 8,
+          "lineId": "line-27",
+          "prompt": "A little {{blank}} is fun when you're with me (I love it, woo)",
+          "options": [
+            "ramblin'",
+            "gambling",
+            "gamblin'"
+          ],
+          "answer": "gamblin'",
+          "promptZh": "有我陪在身邊，小賭一場也格外刺激有趣（我愛這感覺，嗚！）"
+        },
+        {
+          "number": 9,
+          "lineId": "line-28",
+          "prompt": "{{blank}} is not the same without a gun",
+          "options": [
+            "Russian roulette",
+            "Russian romance",
+            "rushing roulette"
+          ],
+          "answer": "Russian roulette",
+          "promptZh": "沒有槍的俄羅斯輪盤賭，就失去了原本的刺激"
+        },
+        {
+          "number": 10,
+          "lineId": "line-29",
+          "prompt": "And baby, when it's love, if it's {{blank}}, it isn't fun, fun",
+          "options": [
+            "not tough",
+            "too rough",
+            "not rough"
+          ],
+          "answer": "not rough",
+          "promptZh": "寶貝，愛情若不帶點狂野與激烈，就不夠刺激，不夠有趣"
+        },
+        {
+          "number": 11,
+          "lineId": "line-32",
+          "prompt": "I'll get him hot, {{blank}} what I've got",
+          "options": [
+            "know him",
+            "show him",
+            "show them"
+          ],
+          "answer": "show him",
+          "promptZh": "我要撩得他慾火難耐，讓他見識我的魅力"
+        },
+        {
+          "number": 12,
+          "lineId": "line-37",
+          "prompt": "No, he can't read my {{blank}}",
+          "options": [
+            "poker hand",
+            "poker face",
+            "poker place"
+          ],
+          "answer": "poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 13,
+          "lineId": "line-38",
+          "prompt": "(She's {{blank}} like nobody)",
+          "options": [
+            "got me",
+            "caught me",
+            "got him"
+          ],
+          "answer": "got me",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 14,
+          "lineId": "line-39",
+          "prompt": "Can't read my, {{blank}}",
+          "options": [
+            "can't reach my",
+            "can't read my",
+            "can read my"
+          ],
+          "answer": "can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 15,
+          "lineId": "line-40",
+          "prompt": "No, he {{blank}}",
+          "options": [
+            "can't read my poker face",
+            "can read my poker face",
+            "can't see my poker face"
+          ],
+          "answer": "can't read my poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 16,
+          "lineId": "line-48",
+          "prompt": "I {{blank}} that I love you",
+          "options": [
+            "won't show you",
+            "won't tell you",
+            "will tell you"
+          ],
+          "answer": "won't tell you",
+          "promptZh": "我不會告訴你，我愛你"
+        },
+        {
+          "number": 17,
+          "lineId": "line-53",
+          "prompt": "{{blank}} before I pay you out",
+          "options": [
+            "Take your hand",
+            "Take your bank",
+            "Make your bank"
+          ],
+          "answer": "Take your bank",
+          "promptZh": "在付給你任何回報之前，先把你的賭本贏個精光"
+        },
+        {
+          "number": 18,
+          "lineId": "line-56",
+          "prompt": "{{blank}}, can't read my",
+          "options": [
+            "Can't reach my",
+            "Can read my",
+            "Can't read my"
+          ],
+          "answer": "Can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 19,
+          "lineId": "line-58",
+          "prompt": "(She's got me {{blank}})",
+          "options": [
+            "like nobody",
+            "like somebody",
+            "like no one"
+          ],
+          "answer": "like nobody",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 20,
+          "lineId": "line-59",
+          "prompt": "Can't read my, {{blank}}",
+          "options": [
+            "can't read my",
+            "can't see my",
+            "can read my"
+          ],
+          "answer": "can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 21,
+          "lineId": "line-62",
+          "prompt": "{{blank}}, can't read my",
+          "options": [
+            "Can't reach my",
+            "Can't read my",
+            "Can read my"
+          ],
+          "answer": "Can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 22,
+          "lineId": "line-63",
+          "prompt": "No, he {{blank}}",
+          "options": [
+            "can read my poker face",
+            "can't read my poker face",
+            "can't see my poker face"
+          ],
+          "answer": "can't read my poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 23,
+          "lineId": "line-64",
+          "prompt": "(She's got me {{blank}})",
+          "options": [
+            "like no one",
+            "like somebody",
+            "like nobody"
+          ],
+          "answer": "like nobody",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 24,
+          "lineId": "line-65",
+          "prompt": "Can't read my, {{blank}}",
+          "options": [
+            "can't see my",
+            "can't read my",
+            "can read my"
+          ],
+          "answer": "can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 25,
+          "lineId": "line-66",
+          "prompt": "No, he can't read my {{blank}}",
+          "options": [
+            "poker hand",
+            "poker place",
+            "poker face"
+          ],
+          "answer": "poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 26,
+          "lineId": "line-68",
+          "prompt": "{{blank}}, can't read my",
+          "options": [
+            "Can't read my",
+            "Can't reach my",
+            "Can read my"
+          ],
+          "answer": "Can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 27,
+          "lineId": "line-69",
+          "prompt": "No, {{blank}} my poker face",
+          "options": [
+            "she can't read",
+            "he can't read",
+            "he can read"
+          ],
+          "answer": "he can't read",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 28,
+          "lineId": "line-70",
+          "prompt": "(She's got me {{blank}})",
+          "options": [
+            "like nobody",
+            "like no one",
+            "like somebody"
+          ],
+          "answer": "like nobody",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 29,
+          "lineId": "line-71",
+          "prompt": "Can't read my, {{blank}}",
+          "options": [
+            "can't read my",
+            "can't see my",
+            "can read my"
+          ],
+          "answer": "can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 30,
+          "lineId": "line-72",
+          "prompt": "No, he can't read my {{blank}}",
+          "options": [
+            "poker place",
+            "poker face",
+            "poker game"
+          ],
+          "answer": "poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 31,
+          "lineId": "line-73",
+          "prompt": "({{blank}} like nobody)",
+          "options": [
+            "He's got me",
+            "She's got him",
+            "She's got me"
+          ],
+          "answer": "She's got me",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 32,
+          "lineId": "line-74",
+          "prompt": "P-p-p-{{blank}}, f-f-fuck her face",
+          "options": [
+            "poker face",
+            "poker place",
+            "poker game"
+          ],
+          "answer": "poker face",
+          "promptZh": "撲、撲、撲克臉；幹、幹、幹她的臉"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Mum mum mum mah"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Mum mum mum mah"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Mum mum mum mah"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Mum mum mum mah"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Mum mum mum mah"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I wanna hold 'em like they do in Texas, please (Woo)"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Fold 'em, let 'em hit me, raise it, baby, stay with me (I love it)"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "LoveGame intuition, play the cards with spades to start"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "And after he's {{q:1}}, I'll play the one that's on his heart"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Oh, whoa-oh, oh, oh"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Oh-oh-oh-oh-oh-oh"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I'll get him hot, show him what I've got"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Oh, whoa-oh, oh, oh"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Oh-oh-oh-oh-oh-oh"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I'll get him hot, show him what I've got"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:2}}, can't read my"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "No, he can't read my poker face"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "(She's got me {{q:3}})"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Can't read my, {{q:4}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "No, {{q:5}} my poker face"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "(She's got me like nobody)"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "P-p-p-{{q:6}}, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I wanna {{q:7}}, a hard pair we will be (Woo)"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "A little {{q:8}} is fun when you're with me (I love it, woo)"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:9}} is not the same without a gun"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "And baby, when it's love, if it's {{q:10}}, it isn't fun, fun"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Oh, whoa-oh, oh, oh"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Oh-oh-oh-oh-oh-oh"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I'll get him hot, {{q:11}} what I've got"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Oh, whoa-oh, oh, oh"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Oh-oh-oh-oh-oh-oh"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I'll get him hot, show him what I've got"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Can't read my, can't read my"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "No, he can't read my {{q:12}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "(She's {{q:13}} like nobody)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Can't read my, {{q:14}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "No, he {{q:15}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "(She's got me like nobody)"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I {{q:16}} that I love you"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Kiss or hug you"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "'Cause I'm bluffin' with my muffin"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "I'm not lyin', I'm just stunnin' with my love-glue-gunnin'"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Just like a chick in the casino"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "{{q:17}} before I pay you out"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "I promise this, promise this"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Check this hand 'cause I'm marvelous"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "{{q:18}}, can't read my"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "No, he can't read my poker face"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "(She's got me {{q:19}})"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Can't read my, {{q:20}}"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "No, he can't read my poker face"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "(She's got me like nobody)"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "{{q:21}}, can't read my"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "No, he {{q:22}}"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "(She's got me {{q:23}})"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Can't read my, {{q:24}}"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "No, he can't read my {{q:25}}"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "(She's got me like nobody)"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "{{q:26}}, can't read my"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "No, {{q:27}} my poker face"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "(She's got me {{q:28}})"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "Can't read my, {{q:29}}"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "No, he can't read my {{q:30}}"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "({{q:31}} like nobody)"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "P-p-p-{{q:32}}, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "(She's got me like nobody)"
+        },
+        {
+          "lineId": "line-77",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-78",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-79",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-80",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-81",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-82",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-83",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-84",
+          "prompt": "(Mum mum mum mah)"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-6",
+          "prompt": "I wanna {{blank}} like they do in Texas, please (Woo)",
+          "options": [
+            "hold 'em",
+            "hold him",
+            "fold 'em"
+          ],
+          "answer": "hold 'em",
+          "promptZh": "我想像德州撲克玩家那樣，緊握手中的牌（嗚！）"
+        },
+        {
+          "number": 2,
+          "lineId": "line-7",
+          "prompt": "Fold 'em, let 'em hit me, {{blank}}, baby, stay with me (I love it)",
+          "options": [
+            "raise him",
+            "raise it",
+            "race it"
+          ],
+          "answer": "raise it",
+          "promptZh": "棄牌也好，讓他們出招也罷，再加注吧，寶貝，陪我玩下去（我愛這感覺）"
+        },
+        {
+          "number": 3,
+          "lineId": "line-8",
+          "prompt": "LoveGame intuition, play the cards with {{blank}} to start",
+          "options": [
+            "spades",
+            "hearts",
+            "shades"
+          ],
+          "answer": "spades",
+          "promptZh": "憑著愛情遊戲中的直覺，先從黑桃牌開始出手"
+        },
+        {
+          "number": 4,
+          "lineId": "line-9",
+          "prompt": "And after he's {{blank}}, I'll play the one that's on his heart",
+          "options": [
+            "been booked",
+            "been hurt",
+            "been hooked"
+          ],
+          "answer": "been hooked",
+          "promptZh": "等他徹底上鉤，我便打出那張直指他內心的牌"
+        },
+        {
+          "number": 5,
+          "lineId": "line-16",
+          "prompt": "{{blank}}, can't read my",
+          "options": [
+            "Can't read my",
+            "Can't reach my",
+            "Can read my"
+          ],
+          "answer": "Can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 6,
+          "lineId": "line-17",
+          "prompt": "No, he can't read my {{blank}}",
+          "options": [
+            "poker face",
+            "poker game",
+            "broken face"
+          ],
+          "answer": "poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 7,
+          "lineId": "line-18",
+          "prompt": "(She's got me {{blank}})",
+          "options": [
+            "like somebody",
+            "like no one",
+            "like nobody"
+          ],
+          "answer": "like nobody",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 8,
+          "lineId": "line-19",
+          "prompt": "Can't read my, {{blank}}",
+          "options": [
+            "can read my",
+            "can't see my",
+            "can't read my"
+          ],
+          "answer": "can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 9,
+          "lineId": "line-20",
+          "prompt": "No, {{blank}} my poker face",
+          "options": [
+            "he can't read",
+            "he can read",
+            "she can't read"
+          ],
+          "answer": "he can't read",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 10,
+          "lineId": "line-22",
+          "prompt": "P-p-p-{{blank}}, f-f-fuck her face",
+          "options": [
+            "poker place",
+            "poker game",
+            "poker face"
+          ],
+          "answer": "poker face",
+          "promptZh": "撲、撲、撲克臉；幹、幹、幹她的臉"
+        },
+        {
+          "number": 11,
+          "lineId": "line-26",
+          "prompt": "I wanna {{blank}}, a hard pair we will be (Woo)",
+          "options": [
+            "run with him",
+            "roll with them",
+            "roll with him"
+          ],
+          "answer": "roll with him",
+          "promptZh": "我想與他一同放手一搏，我們會是難以擊敗的一對（嗚！）"
+        },
+        {
+          "number": 12,
+          "lineId": "line-27",
+          "prompt": "A little {{blank}} is fun when you're with me (I love it, woo)",
+          "options": [
+            "ramblin'",
+            "gamblin'",
+            "gambling"
+          ],
+          "answer": "gamblin'",
+          "promptZh": "有我陪在身邊，小賭一場也格外刺激有趣（我愛這感覺，嗚！）"
+        },
+        {
+          "number": 13,
+          "lineId": "line-28",
+          "prompt": "{{blank}} is not the same without a gun",
+          "options": [
+            "Russian romance",
+            "Russian roulette",
+            "rushing roulette"
+          ],
+          "answer": "Russian roulette",
+          "promptZh": "沒有槍的俄羅斯輪盤賭，就失去了原本的刺激"
+        },
+        {
+          "number": 14,
+          "lineId": "line-29",
+          "prompt": "And baby, when it's love, if it's {{blank}}, it isn't fun, fun",
+          "options": [
+            "not rough",
+            "not tough",
+            "too rough"
+          ],
+          "answer": "not rough",
+          "promptZh": "寶貝，愛情若不帶點狂野與激烈，就不夠刺激，不夠有趣"
+        },
+        {
+          "number": 15,
+          "lineId": "line-32",
+          "prompt": "I'll get him hot, {{blank}} what I've got",
+          "options": [
+            "know him",
+            "show him",
+            "show them"
+          ],
+          "answer": "show him",
+          "promptZh": "我要撩得他慾火難耐，讓他見識我的魅力"
+        },
+        {
+          "number": 16,
+          "lineId": "line-37",
+          "prompt": "No, he can't read my {{blank}}",
+          "options": [
+            "poker face",
+            "poker hand",
+            "poker place"
+          ],
+          "answer": "poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 17,
+          "lineId": "line-38",
+          "prompt": "(She's {{blank}} like nobody)",
+          "options": [
+            "caught me",
+            "got me",
+            "got him"
+          ],
+          "answer": "got me",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 18,
+          "lineId": "line-39",
+          "prompt": "Can't read my, {{blank}}",
+          "options": [
+            "can't reach my",
+            "can read my",
+            "can't read my"
+          ],
+          "answer": "can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 19,
+          "lineId": "line-40",
+          "prompt": "No, he {{blank}}",
+          "options": [
+            "can read my poker face",
+            "can't see my poker face",
+            "can't read my poker face"
+          ],
+          "answer": "can't read my poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 20,
+          "lineId": "line-48",
+          "prompt": "I {{blank}} that I love you",
+          "options": [
+            "won't tell you",
+            "won't show you",
+            "will tell you"
+          ],
+          "answer": "won't tell you",
+          "promptZh": "我不會告訴你，我愛你"
+        },
+        {
+          "number": 21,
+          "lineId": "line-50",
+          "prompt": "'Cause I'm {{blank}} with my muffin",
+          "options": [
+            "laughin'",
+            "bluffin'",
+            "blushing"
+          ],
+          "answer": "bluffin'",
+          "promptZh": "因為我正拿自己的私密魅力作掩護，虛張聲勢"
+        },
+        {
+          "number": 22,
+          "lineId": "line-51",
+          "prompt": "I'm {{blank}}, I'm just stunnin' with my love-glue-gunnin'",
+          "options": [
+            "not lyin'",
+            "not tryin'",
+            "now lyin'"
+          ],
+          "answer": "not lyin'",
+          "promptZh": "我不是在說謊，只是用愛情那如膠槍般的黏人攻勢，讓你目眩神迷"
+        },
+        {
+          "number": 23,
+          "lineId": "line-53",
+          "prompt": "{{blank}} before I pay you out",
+          "options": [
+            "Take your hand",
+            "Make your bank",
+            "Take your bank"
+          ],
+          "answer": "Take your bank",
+          "promptZh": "在付給你任何回報之前，先把你的賭本贏個精光"
+        },
+        {
+          "number": 24,
+          "lineId": "line-55",
+          "prompt": "{{blank}} 'cause I'm marvelous",
+          "options": [
+            "Check your hand",
+            "Check this hand",
+            "Take this hand"
+          ],
+          "answer": "Check this hand",
+          "promptZh": "看清我手中的這副牌，因為我的手段可高明得很"
+        },
+        {
+          "number": 25,
+          "lineId": "line-56",
+          "prompt": "{{blank}}, can't read my",
+          "options": [
+            "Can't reach my",
+            "Can't read my",
+            "Can read my"
+          ],
+          "answer": "Can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 26,
+          "lineId": "line-58",
+          "prompt": "(She's got me {{blank}})",
+          "options": [
+            "like nobody",
+            "like somebody",
+            "like no one"
+          ],
+          "answer": "like nobody",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 27,
+          "lineId": "line-59",
+          "prompt": "Can't read my, {{blank}}",
+          "options": [
+            "can't see my",
+            "can't read my",
+            "can read my"
+          ],
+          "answer": "can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 28,
+          "lineId": "line-62",
+          "prompt": "{{blank}}, can't read my",
+          "options": [
+            "Can't read my",
+            "Can't reach my",
+            "Can read my"
+          ],
+          "answer": "Can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 29,
+          "lineId": "line-63",
+          "prompt": "No, he {{blank}}",
+          "options": [
+            "can read my poker face",
+            "can't see my poker face",
+            "can't read my poker face"
+          ],
+          "answer": "can't read my poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 30,
+          "lineId": "line-64",
+          "prompt": "(She's got me {{blank}})",
+          "options": [
+            "like nobody",
+            "like no one",
+            "like somebody"
+          ],
+          "answer": "like nobody",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 31,
+          "lineId": "line-65",
+          "prompt": "Can't read my, {{blank}}",
+          "options": [
+            "can't see my",
+            "can't read my",
+            "can read my"
+          ],
+          "answer": "can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 32,
+          "lineId": "line-66",
+          "prompt": "No, he can't read my {{blank}}",
+          "options": [
+            "poker hand",
+            "poker face",
+            "poker place"
+          ],
+          "answer": "poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 33,
+          "lineId": "line-67",
+          "prompt": "({{blank}} like nobody)",
+          "options": [
+            "She's got him",
+            "He's got me",
+            "She's got me"
+          ],
+          "answer": "She's got me",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 34,
+          "lineId": "line-68",
+          "prompt": "{{blank}}, can't read my",
+          "options": [
+            "Can't read my",
+            "Can't reach my",
+            "Can read my"
+          ],
+          "answer": "Can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 35,
+          "lineId": "line-69",
+          "prompt": "No, {{blank}} my poker face",
+          "options": [
+            "she can't read",
+            "he can't read",
+            "he can read"
+          ],
+          "answer": "he can't read",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 36,
+          "lineId": "line-70",
+          "prompt": "(She's got me {{blank}})",
+          "options": [
+            "like no one",
+            "like somebody",
+            "like nobody"
+          ],
+          "answer": "like nobody",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 37,
+          "lineId": "line-71",
+          "prompt": "Can't read my, {{blank}}",
+          "options": [
+            "can't see my",
+            "can't read my",
+            "can read my"
+          ],
+          "answer": "can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 38,
+          "lineId": "line-72",
+          "prompt": "No, he can't read my {{blank}}",
+          "options": [
+            "poker place",
+            "poker game",
+            "poker face"
+          ],
+          "answer": "poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 39,
+          "lineId": "line-73",
+          "prompt": "({{blank}} like nobody)",
+          "options": [
+            "She's got me",
+            "He's got me",
+            "She's got him"
+          ],
+          "answer": "She's got me",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 40,
+          "lineId": "line-74",
+          "prompt": "P-p-p-{{blank}}, f-f-fuck her face",
+          "options": [
+            "poker place",
+            "poker game",
+            "poker face"
+          ],
+          "answer": "poker face",
+          "promptZh": "撲、撲、撲克臉；幹、幹、幹她的臉"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Mum mum mum mah"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Mum mum mum mah"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Mum mum mum mah"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Mum mum mum mah"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Mum mum mum mah"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I wanna {{q:1}} like they do in Texas, please (Woo)"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Fold 'em, let 'em hit me, {{q:2}}, baby, stay with me (I love it)"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "LoveGame intuition, play the cards with {{q:3}} to start"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "And after he's {{q:4}}, I'll play the one that's on his heart"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Oh, whoa-oh, oh, oh"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Oh-oh-oh-oh-oh-oh"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I'll get him hot, show him what I've got"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Oh, whoa-oh, oh, oh"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Oh-oh-oh-oh-oh-oh"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I'll get him hot, show him what I've got"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:5}}, can't read my"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "No, he can't read my {{q:6}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "(She's got me {{q:7}})"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Can't read my, {{q:8}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "No, {{q:9}} my poker face"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "(She's got me like nobody)"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "P-p-p-{{q:10}}, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I wanna {{q:11}}, a hard pair we will be (Woo)"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "A little {{q:12}} is fun when you're with me (I love it, woo)"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:13}} is not the same without a gun"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "And baby, when it's love, if it's {{q:14}}, it isn't fun, fun"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Oh, whoa-oh, oh, oh"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Oh-oh-oh-oh-oh-oh"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I'll get him hot, {{q:15}} what I've got"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Oh, whoa-oh, oh, oh"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Oh-oh-oh-oh-oh-oh"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I'll get him hot, show him what I've got"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Can't read my, can't read my"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "No, he can't read my {{q:16}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "(She's {{q:17}} like nobody)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Can't read my, {{q:18}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "No, he {{q:19}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "(She's got me like nobody)"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I {{q:20}} that I love you"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Kiss or hug you"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "'Cause I'm {{q:21}} with my muffin"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "I'm {{q:22}}, I'm just stunnin' with my love-glue-gunnin'"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Just like a chick in the casino"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "{{q:23}} before I pay you out"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "I promise this, promise this"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "{{q:24}} 'cause I'm marvelous"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "{{q:25}}, can't read my"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "No, he can't read my poker face"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "(She's got me {{q:26}})"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Can't read my, {{q:27}}"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "No, he can't read my poker face"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "(She's got me like nobody)"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "{{q:28}}, can't read my"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "No, he {{q:29}}"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "(She's got me {{q:30}})"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Can't read my, {{q:31}}"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "No, he can't read my {{q:32}}"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "({{q:33}} like nobody)"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "{{q:34}}, can't read my"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "No, {{q:35}} my poker face"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "(She's got me {{q:36}})"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "Can't read my, {{q:37}}"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "No, he can't read my {{q:38}}"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "({{q:39}} like nobody)"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "P-p-p-{{q:40}}, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "(She's got me like nobody)"
+        },
+        {
+          "lineId": "line-77",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-78",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-79",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-80",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-81",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-82",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-83",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-84",
+          "prompt": "(Mum mum mum mah)"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-6",
+          "prompt": "I wanna {{blank}} like they do in Texas, please (Woo)",
+          "options": [
+            "hold 'em",
+            "hold him",
+            "fold 'em"
+          ],
+          "answer": "hold 'em",
+          "promptZh": "我想像德州撲克玩家那樣，緊握手中的牌（嗚！）"
+        },
+        {
+          "number": 2,
+          "lineId": "line-7",
+          "prompt": "Fold 'em, let 'em hit me, {{blank}}, baby, stay with me (I love it)",
+          "options": [
+            "raise him",
+            "race it",
+            "raise it"
+          ],
+          "answer": "raise it",
+          "promptZh": "棄牌也好，讓他們出招也罷，再加注吧，寶貝，陪我玩下去（我愛這感覺）"
+        },
+        {
+          "number": 3,
+          "lineId": "line-8",
+          "prompt": "LoveGame intuition, play the cards with {{blank}} to start",
+          "options": [
+            "hearts",
+            "shades",
+            "spades"
+          ],
+          "answer": "spades",
+          "promptZh": "憑著愛情遊戲中的直覺，先從黑桃牌開始出手"
+        },
+        {
+          "number": 4,
+          "lineId": "line-9",
+          "prompt": "And after he's {{blank}}, I'll play the one that's on his heart",
+          "options": [
+            "been booked",
+            "been hooked",
+            "been hurt"
+          ],
+          "answer": "been hooked",
+          "promptZh": "等他徹底上鉤，我便打出那張直指他內心的牌"
+        },
+        {
+          "number": 5,
+          "lineId": "line-12",
+          "prompt": "I'll {{blank}}, show him what I've got",
+          "options": [
+            "get him hooked",
+            "get him hot",
+            "get him home"
+          ],
+          "answer": "get him hot",
+          "promptZh": "我要撩得他慾火難耐，讓他見識我的魅力"
+        },
+        {
+          "number": 6,
+          "lineId": "line-16",
+          "prompt": "{{blank}}, can't read my",
+          "options": [
+            "Can't read my",
+            "Can't reach my",
+            "Can read my"
+          ],
+          "answer": "Can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 7,
+          "lineId": "line-17",
+          "prompt": "No, he can't read my {{blank}}",
+          "options": [
+            "poker game",
+            "broken face",
+            "poker face"
+          ],
+          "answer": "poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 8,
+          "lineId": "line-18",
+          "prompt": "(She's got me {{blank}})",
+          "options": [
+            "like nobody",
+            "like somebody",
+            "like no one"
+          ],
+          "answer": "like nobody",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 9,
+          "lineId": "line-19",
+          "prompt": "Can't read my, {{blank}}",
+          "options": [
+            "can read my",
+            "can't see my",
+            "can't read my"
+          ],
+          "answer": "can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 10,
+          "lineId": "line-20",
+          "prompt": "No, {{blank}} my poker face",
+          "options": [
+            "he can read",
+            "he can't read",
+            "she can't read"
+          ],
+          "answer": "he can't read",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 11,
+          "lineId": "line-22",
+          "prompt": "P-p-p-{{blank}}, f-f-fuck her face",
+          "options": [
+            "poker place",
+            "poker face",
+            "poker game"
+          ],
+          "answer": "poker face",
+          "promptZh": "撲、撲、撲克臉；幹、幹、幹她的臉"
+        },
+        {
+          "number": 12,
+          "lineId": "line-26",
+          "prompt": "I wanna {{blank}}, a hard pair we will be (Woo)",
+          "options": [
+            "roll with him",
+            "run with him",
+            "roll with them"
+          ],
+          "answer": "roll with him",
+          "promptZh": "我想與他一同放手一搏，我們會是難以擊敗的一對（嗚！）"
+        },
+        {
+          "number": 13,
+          "lineId": "line-27",
+          "prompt": "A little {{blank}} is fun when you're with me (I love it, woo)",
+          "options": [
+            "ramblin'",
+            "gambling",
+            "gamblin'"
+          ],
+          "answer": "gamblin'",
+          "promptZh": "有我陪在身邊，小賭一場也格外刺激有趣（我愛這感覺，嗚！）"
+        },
+        {
+          "number": 14,
+          "lineId": "line-28",
+          "prompt": "{{blank}} is not the same without a gun",
+          "options": [
+            "Russian romance",
+            "Russian roulette",
+            "rushing roulette"
+          ],
+          "answer": "Russian roulette",
+          "promptZh": "沒有槍的俄羅斯輪盤賭，就失去了原本的刺激"
+        },
+        {
+          "number": 15,
+          "lineId": "line-29",
+          "prompt": "And baby, when it's love, if it's {{blank}}, it isn't fun, fun",
+          "options": [
+            "not rough",
+            "not tough",
+            "too rough"
+          ],
+          "answer": "not rough",
+          "promptZh": "寶貝，愛情若不帶點狂野與激烈，就不夠刺激，不夠有趣"
+        },
+        {
+          "number": 16,
+          "lineId": "line-32",
+          "prompt": "I'll get him hot, {{blank}} what I've got",
+          "options": [
+            "know him",
+            "show them",
+            "show him"
+          ],
+          "answer": "show him",
+          "promptZh": "我要撩得他慾火難耐，讓他見識我的魅力"
+        },
+        {
+          "number": 17,
+          "lineId": "line-36",
+          "prompt": "{{blank}}, can't read my",
+          "options": [
+            "Can't read my",
+            "Can read my",
+            "Can't see my"
+          ],
+          "answer": "Can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 18,
+          "lineId": "line-37",
+          "prompt": "No, he can't read my {{blank}}",
+          "options": [
+            "poker hand",
+            "poker place",
+            "poker face"
+          ],
+          "answer": "poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 19,
+          "lineId": "line-38",
+          "prompt": "(She's {{blank}} like nobody)",
+          "options": [
+            "got me",
+            "caught me",
+            "got him"
+          ],
+          "answer": "got me",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 20,
+          "lineId": "line-39",
+          "prompt": "Can't read my, {{blank}}",
+          "options": [
+            "can't reach my",
+            "can read my",
+            "can't read my"
+          ],
+          "answer": "can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 21,
+          "lineId": "line-40",
+          "prompt": "No, he {{blank}}",
+          "options": [
+            "can read my poker face",
+            "can't read my poker face",
+            "can't see my poker face"
+          ],
+          "answer": "can't read my poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 22,
+          "lineId": "line-41",
+          "prompt": "(She's got me {{blank}})",
+          "options": [
+            "like nobody",
+            "like somebody",
+            "like anybody"
+          ],
+          "answer": "like nobody",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 23,
+          "lineId": "line-42",
+          "prompt": "P-p-p-{{blank}}, f-f-fuck her face",
+          "options": [
+            "poker place",
+            "poker face",
+            "poker game"
+          ],
+          "answer": "poker face",
+          "promptZh": "撲、撲、撲克臉；幹、幹、幹她的臉"
+        },
+        {
+          "number": 24,
+          "lineId": "line-48",
+          "prompt": "I {{blank}} that I love you",
+          "options": [
+            "won't show you",
+            "will tell you",
+            "won't tell you"
+          ],
+          "answer": "won't tell you",
+          "promptZh": "我不會告訴你，我愛你"
+        },
+        {
+          "number": 25,
+          "lineId": "line-49",
+          "prompt": "{{blank}} you",
+          "options": [
+            "Kiss or hug",
+            "Kiss and hug",
+            "Miss or hug"
+          ],
+          "answer": "Kiss or hug",
+          "promptZh": "也不會親吻你，或將你擁入懷中"
+        },
+        {
+          "number": 26,
+          "lineId": "line-50",
+          "prompt": "'Cause I'm {{blank}} with my muffin",
+          "options": [
+            "laughin'",
+            "bluffin'",
+            "blushing"
+          ],
+          "answer": "bluffin'",
+          "promptZh": "因為我正拿自己的私密魅力作掩護，虛張聲勢"
+        },
+        {
+          "number": 27,
+          "lineId": "line-51",
+          "prompt": "I'm {{blank}}, I'm just stunnin' with my love-glue-gunnin'",
+          "options": [
+            "not lyin'",
+            "not tryin'",
+            "now lyin'"
+          ],
+          "answer": "not lyin'",
+          "promptZh": "我不是在說謊，只是用愛情那如膠槍般的黏人攻勢，讓你目眩神迷"
+        },
+        {
+          "number": 28,
+          "lineId": "line-52",
+          "prompt": "Just like a chick {{blank}}",
+          "options": [
+            "at the casino",
+            "in the casino",
+            "in a casino"
+          ],
+          "answer": "in the casino",
+          "promptZh": "就像賭場裡的一個女孩"
+        },
+        {
+          "number": 29,
+          "lineId": "line-53",
+          "prompt": "{{blank}} before I pay you out",
+          "options": [
+            "Take your hand",
+            "Take your bank",
+            "Make your bank"
+          ],
+          "answer": "Take your bank",
+          "promptZh": "在付給你任何回報之前，先把你的賭本贏個精光"
+        },
+        {
+          "number": 30,
+          "lineId": "line-54",
+          "prompt": "I {{blank}}, promise this",
+          "options": [
+            "promised this",
+            "promise that",
+            "promise this"
+          ],
+          "answer": "promise this",
+          "promptZh": "我向你保證，向你保證"
+        },
+        {
+          "number": 31,
+          "lineId": "line-55",
+          "prompt": "{{blank}} 'cause I'm marvelous",
+          "options": [
+            "Check this hand",
+            "Check your hand",
+            "Take this hand"
+          ],
+          "answer": "Check this hand",
+          "promptZh": "看清我手中的這副牌，因為我的手段可高明得很"
+        },
+        {
+          "number": 32,
+          "lineId": "line-56",
+          "prompt": "{{blank}}, can't read my",
+          "options": [
+            "Can't read my",
+            "Can't reach my",
+            "Can read my"
+          ],
+          "answer": "Can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 33,
+          "lineId": "line-57",
+          "prompt": "No, {{blank}} my poker face",
+          "options": [
+            "he can read",
+            "he can't read",
+            "she can't read"
+          ],
+          "answer": "he can't read",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 34,
+          "lineId": "line-58",
+          "prompt": "(She's got me {{blank}})",
+          "options": [
+            "like somebody",
+            "like nobody",
+            "like no one"
+          ],
+          "answer": "like nobody",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 35,
+          "lineId": "line-59",
+          "prompt": "Can't read my, {{blank}}",
+          "options": [
+            "can't see my",
+            "can read my",
+            "can't read my"
+          ],
+          "answer": "can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 36,
+          "lineId": "line-60",
+          "prompt": "No, he can't read my {{blank}}",
+          "options": [
+            "poker face",
+            "poker game",
+            "poker place"
+          ],
+          "answer": "poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 37,
+          "lineId": "line-61",
+          "prompt": "({{blank}} like nobody)",
+          "options": [
+            "He's got me",
+            "She's got him",
+            "She's got me"
+          ],
+          "answer": "She's got me",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 38,
+          "lineId": "line-62",
+          "prompt": "{{blank}}, can't read my",
+          "options": [
+            "Can't reach my",
+            "Can read my",
+            "Can't read my"
+          ],
+          "answer": "Can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 39,
+          "lineId": "line-63",
+          "prompt": "No, he {{blank}}",
+          "options": [
+            "can't read my poker face",
+            "can read my poker face",
+            "can't see my poker face"
+          ],
+          "answer": "can't read my poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 40,
+          "lineId": "line-64",
+          "prompt": "(She's got me {{blank}})",
+          "options": [
+            "like nobody",
+            "like no one",
+            "like somebody"
+          ],
+          "answer": "like nobody",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 41,
+          "lineId": "line-65",
+          "prompt": "Can't read my, {{blank}}",
+          "options": [
+            "can't see my",
+            "can't read my",
+            "can read my"
+          ],
+          "answer": "can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 42,
+          "lineId": "line-66",
+          "prompt": "No, he can't read my {{blank}}",
+          "options": [
+            "poker hand",
+            "poker place",
+            "poker face"
+          ],
+          "answer": "poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 43,
+          "lineId": "line-67",
+          "prompt": "({{blank}} like nobody)",
+          "options": [
+            "She's got me",
+            "She's got him",
+            "He's got me"
+          ],
+          "answer": "She's got me",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 44,
+          "lineId": "line-68",
+          "prompt": "{{blank}}, can't read my",
+          "options": [
+            "Can't reach my",
+            "Can't read my",
+            "Can read my"
+          ],
+          "answer": "Can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 45,
+          "lineId": "line-69",
+          "prompt": "No, {{blank}} my poker face",
+          "options": [
+            "she can't read",
+            "he can read",
+            "he can't read"
+          ],
+          "answer": "he can't read",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 46,
+          "lineId": "line-70",
+          "prompt": "(She's got me {{blank}})",
+          "options": [
+            "like no one",
+            "like nobody",
+            "like somebody"
+          ],
+          "answer": "like nobody",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 47,
+          "lineId": "line-71",
+          "prompt": "Can't read my, {{blank}}",
+          "options": [
+            "can't see my",
+            "can read my",
+            "can't read my"
+          ],
+          "answer": "can't read my",
+          "promptZh": "看不穿我，看不穿我"
+        },
+        {
+          "number": 48,
+          "lineId": "line-72",
+          "prompt": "No, he can't read my {{blank}}",
+          "options": [
+            "poker place",
+            "poker face",
+            "poker game"
+          ],
+          "answer": "poker face",
+          "promptZh": "不，他看不透我那張毫無破綻的撲克臉"
+        },
+        {
+          "number": 49,
+          "lineId": "line-73",
+          "prompt": "({{blank}} like nobody)",
+          "options": [
+            "She's got me",
+            "He's got me",
+            "She's got him"
+          ],
+          "answer": "She's got me",
+          "promptZh": "（她讓我如此著迷，無人能及）"
+        },
+        {
+          "number": 50,
+          "lineId": "line-74",
+          "prompt": "P-p-p-{{blank}}, f-f-fuck her face",
+          "options": [
+            "poker place",
+            "poker face",
+            "poker game"
+          ],
+          "answer": "poker face",
+          "promptZh": "撲、撲、撲克臉；幹、幹、幹她的臉"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Mum mum mum mah"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Mum mum mum mah"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Mum mum mum mah"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Mum mum mum mah"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Mum mum mum mah"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I wanna {{q:1}} like they do in Texas, please (Woo)"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Fold 'em, let 'em hit me, {{q:2}}, baby, stay with me (I love it)"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "LoveGame intuition, play the cards with {{q:3}} to start"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "And after he's {{q:4}}, I'll play the one that's on his heart"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Oh, whoa-oh, oh, oh"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Oh-oh-oh-oh-oh-oh"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I'll {{q:5}}, show him what I've got"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Oh, whoa-oh, oh, oh"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Oh-oh-oh-oh-oh-oh"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I'll get him hot, show him what I've got"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:6}}, can't read my"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "No, he can't read my {{q:7}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "(She's got me {{q:8}})"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Can't read my, {{q:9}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "No, {{q:10}} my poker face"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "(She's got me like nobody)"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "P-p-p-{{q:11}}, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I wanna {{q:12}}, a hard pair we will be (Woo)"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "A little {{q:13}} is fun when you're with me (I love it, woo)"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:14}} is not the same without a gun"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "And baby, when it's love, if it's {{q:15}}, it isn't fun, fun"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Oh, whoa-oh, oh, oh"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Oh-oh-oh-oh-oh-oh"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I'll get him hot, {{q:16}} what I've got"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Oh, whoa-oh, oh, oh"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Oh-oh-oh-oh-oh-oh"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I'll get him hot, show him what I've got"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "{{q:17}}, can't read my"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "No, he can't read my {{q:18}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "(She's {{q:19}} like nobody)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Can't read my, {{q:20}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "No, he {{q:21}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "(She's got me {{q:22}})"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "P-p-p-{{q:23}}, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I {{q:24}} that I love you"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "{{q:25}} you"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "'Cause I'm {{q:26}} with my muffin"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "I'm {{q:27}}, I'm just stunnin' with my love-glue-gunnin'"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Just like a chick {{q:28}}"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "{{q:29}} before I pay you out"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "I {{q:30}}, promise this"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "{{q:31}} 'cause I'm marvelous"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "{{q:32}}, can't read my"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "No, {{q:33}} my poker face"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "(She's got me {{q:34}})"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Can't read my, {{q:35}}"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "No, he can't read my {{q:36}}"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "({{q:37}} like nobody)"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "{{q:38}}, can't read my"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "No, he {{q:39}}"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "(She's got me {{q:40}})"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Can't read my, {{q:41}}"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "No, he can't read my {{q:42}}"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "({{q:43}} like nobody)"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "{{q:44}}, can't read my"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "No, {{q:45}} my poker face"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "(She's got me {{q:46}})"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "Can't read my, {{q:47}}"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "No, he can't read my {{q:48}}"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "({{q:49}} like nobody)"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "P-p-p-{{q:50}}, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "(She's got me like nobody)"
+        },
+        {
+          "lineId": "line-77",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-78",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-79",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-80",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-81",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-82",
+          "prompt": "(Mum mum mum mah)"
+        },
+        {
+          "lineId": "line-83",
+          "prompt": "P-p-p-poker face, f-f-fuck her face"
+        },
+        {
+          "lineId": "line-84",
+          "prompt": "(Mum mum mum mah)"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Poker face",
+      "meaning": "面無表情，讓人看不出自己的想法。",
+      "usage": "玩遊戲、收到驚喜，或想藏住情緒時可以用。",
+      "prompt": "哪一句正確使用了「Poker face」？",
+      "options": [
+        "I put my poker face in the fridge to keep it cold.",
+        "My poker face is hungry, so I made it a sandwich.",
+        "We drove our poker face to the beach.",
+        "I kept a poker face when my friends gave me a surprise."
+      ],
+      "answer": 3,
+      "explanation": "正確：雖然收到驚喜，仍保持面無表情。",
+      "optionExplanations": [
+        "錯誤：poker face 是表情，不是可以放進冰箱的物品。",
+        "錯誤：表情不會餓，不能當成一個人。",
+        "錯誤：poker face 不是交通工具。",
+        "正確：雖然收到驚喜，仍保持面無表情。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Stay with me",
+      "meaning": "留在我身邊；陪著我。",
+      "usage": "想請朋友或家人留下來陪伴時使用。",
+      "prompt": "哪一句正確使用了「Stay with me」？",
+      "options": [
+        "Please stay with me this math question.",
+        "Stay with me is my favorite kind of pizza.",
+        "Please stay with me until the bus comes.",
+        "I stay with me my shoes every morning."
+      ],
+      "answer": 2,
+      "explanation": "正確：請對方陪自己等公車。",
+      "optionExplanations": [
+        "錯誤：不能用 stay with me 直接接題目；可以說 help me with this question。",
+        "錯誤：stay with me 是請人陪伴，不是披薩口味。",
+        "正確：請對方陪自己等公車。",
+        "錯誤：這個片語不是穿鞋的意思。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Get hooked on",
+      "meaning": "開始非常喜歡某事，變得很著迷。",
+      "usage": "形容很喜歡一首歌、遊戲或活動時使用。",
+      "prompt": "哪一句正確使用了「Get hooked on」？",
+      "options": [
+        "I got hooked on this song and played it all day.",
+        "I got hooked on my chair because it has four legs.",
+        "I got hooked on the door to open it with my key.",
+        "I got hooked on the rain, so my shoes became wet."
+      ],
+      "answer": 0,
+      "explanation": "正確：一直播放同一首歌，表示非常喜歡。",
+      "optionExplanations": [
+        "正確：一直播放同一首歌，表示非常喜歡。",
+        "錯誤：椅子有四隻腳，不代表你對它著迷。",
+        "錯誤：開門不會用 get hooked on 表達。",
+        "錯誤：鞋子被淋濕與「著迷」沒有關係。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Show what you have got",
+      "meaning": "展現你有的能力或本事。",
+      "usage": "表演、比賽或展示自己的技能時可以使用。",
+      "prompt": "哪一句正確使用了「Show what you have got」？",
+      "options": [
+        "Come on stage and show us what you have got!",
+        "I showed what I have got by sleeping all afternoon.",
+        "Show what you have got the window is very blue.",
+        "My sandwich showed what I have got and walked home."
+      ],
+      "answer": 0,
+      "explanation": "正確：請對方上台展現自己的本事。",
+      "optionExplanations": [
+        "正確：請對方上台展現自己的本事。",
+        "錯誤：睡整個下午沒有展示任何能力。",
+        "錯誤：這樣接句子不合文法，也沒有表達展示能力。",
+        "錯誤：三明治不能自己展示本事或走路。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Roll with someone",
+      "meaning": "和某人一起行動、一起玩。（口語）",
+      "usage": "跟朋友一起出去玩或參加活動時使用。",
+      "prompt": "哪一句正確使用了「Roll with someone」？",
+      "options": [
+        "I roll with my homework to make it smell better.",
+        "I roll with my friends when we go to the park.",
+        "I roll with the clock to know the time.",
+        "My breakfast rolls with me because it can speak."
+      ],
+      "answer": 1,
+      "explanation": "正確：表示和朋友一起行動。",
+      "optionExplanations": [
+        "錯誤：這個片語不是讓作業變香的方法。",
+        "正確：表示和朋友一起行動。",
+        "錯誤：看時間不會用 roll with。",
+        "錯誤：早餐不會說話，也不是這個口語片語的自然用法。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "A little",
+      "meaning": "一點點、少量的。",
+      "usage": "形容少量的水、食物或一點點感受時使用。",
+      "prompt": "哪一句正確使用了「A little」？",
+      "options": [
+        "I have a little three brothers at home.",
+        "I need a little water after running.",
+        "She bought a little five big cars yesterday.",
+        "A little is driving the bus to school."
+      ],
+      "answer": 1,
+      "explanation": "正確：water 不可數，a little 表示少量。",
+      "optionExplanations": [
+        "錯誤：three brothers 是明確的三個人，不能這樣搭配 a little。",
+        "正確：water 不可數，a little 表示少量。",
+        "錯誤：a little 不能直接修飾 five big cars。",
+        "錯誤：a little 不是能開公車的人。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Just like",
+      "meaning": "就像……一樣。",
+      "usage": "比較兩個相似的人、東西或行為時使用。",
+      "prompt": "哪一句正確使用了「Just like」？",
+      "options": [
+        "I just like my homework at seven o’clock.",
+        "Just like is sleeping under my bed.",
+        "I put just like into my soup for lunch.",
+        "This little dog looks just like my dog."
+      ],
+      "answer": 3,
+      "explanation": "正確：比較兩隻狗長得很像。",
+      "optionExplanations": [
+        "錯誤：這句把 just like 當成動作片語，但不能表達「做作業」。",
+        "錯誤：just like 不是人或動物，不能當主詞睡覺。",
+        "錯誤：just like 不是食材。",
+        "正確：比較兩隻狗長得很像。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Bluff",
+      "meaning": "虛張聲勢；假裝自己很有把握。",
+      "usage": "玩牌或想讓別人以為自己很有信心時使用。",
+      "prompt": "哪一句正確使用了「Bluff」？",
+      "options": [
+        "I bluffed my bike to school in ten minutes.",
+        "He bluffed about knowing the answer, but he was only guessing.",
+        "Please bluff the light because the room is dark.",
+        "She put her bluff in the oven to make bread."
+      ],
+      "answer": 1,
+      "explanation": "正確：他假裝知道答案，其實只是在猜。",
+      "optionExplanations": [
+        "錯誤：騎腳踏車不能用 bluff 表達。",
+        "正確：他假裝知道答案，其實只是在猜。",
+        "錯誤：開燈不能用 bluff；應說 turn on the light。",
+        "錯誤：bluff 不是做麵包的材料。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "I promise",
+      "meaning": "我保證；我答應。",
+      "usage": "認真承諾會做某事，或強調自己說的是真的時使用。",
+      "prompt": "哪一句正確使用了「I promise」？",
+      "options": [
+        "I promise my pencil is eating a large pizza.",
+        "I promise the chair to swim very fast.",
+        "I promise I will call you after school.",
+        "I promise yesterday is tomorrow morning."
+      ],
+      "answer": 2,
+      "explanation": "正確：保證放學後會打電話。",
+      "optionExplanations": [
+        "錯誤：鉛筆不會吃披薩，這不是合理的承諾。",
+        "錯誤：椅子不能游泳，句子搭配也不自然。",
+        "正確：保證放學後會打電話。",
+        "錯誤：昨天不可能是明天早上。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Read someone’s face",
+      "meaning": "從某人的表情看出他的想法或感受。",
+      "usage": "猜別人開心、難過或緊張時使用。",
+      "prompt": "哪一句正確使用了「Read someone’s face」？",
+      "options": [
+        "It was easy to read her face because she had a big smile.",
+        "I read my teacher’s face with a dictionary every day.",
+        "I read my friend’s face and found page twenty.",
+        "The cat read my face into a cup of tea."
+      ],
+      "answer": 0,
+      "explanation": "正確：從大大的笑容看出她的心情。",
+      "optionExplanations": [
+        "正確：從大大的笑容看出她的心情。",
+        "錯誤：這裡不是查字典讀文字，而是觀察表情。",
+        "錯誤：臉不是書，沒有第二十頁。",
+        "錯誤：read someone’s face 不表示把臉放進茶裡。"
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/poker-face/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/poker-face/user-cover-20261030.png",
+  "editorialRepairs": [
+    {
+      "mode": "hell",
+      "number": 22,
+      "old": "like no body",
+      "new": "like anybody",
+      "reason": "Audibly indistinguishable spacing-only distractor"
+    }
+  ],
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 237.2,
+    "audioSha256": "41f4a7e792a97778ddccf9db358a6f6624c62b2756a77c7b560d913e2a580d5b",
+    "timedLines": 35,
+    "untimedLines": 49,
+    "reviewStatus": "Conservative automatic line alignment; unmatched lines remain bilingual without a guessed cue."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Poker Face_.pdf",
+      "sha256": "ba157d8bed22d97c9e28cab4d8c0d19923bc4cd1b153ac238db0dd14b8136cb5"
+    },
+    "docx": {
+      "filename": "Poker_Face_Four_Level_Listening_Exercise.docx",
+      "sha256": "a8ac640758279ab953b92c945164bc9bf3aa1afad05f253f58d75b94b7f5901c"
+    },
+    "md": {
+      "filename": "Poker_Face_Vocabulary_Quiz.md",
+      "sha256": "6bd57a0e7d9e9e26863ed6c331cd022be8665886b87ce53b54261ed8a03a52d9"
+    },
+    "mp3": {
+      "filename": "Poker Face [oG-4Uvhm4lI].mp3",
+      "sha256": "41f4a7e792a97778ddccf9db358a6f6624c62b2756a77c7b560d913e2a580d5b"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-de2943ea-f6af-42b7-8c72-8b80c2bd66b9.png",
+    "sha256": "f333b12ecfc269ef79e8ec82545c8fcfd8d6ad392bbdbef7530f0ad133fc9286",
+    "transformations": "none",
+    "selectedOn": "2026-10-30"
+  }
+}

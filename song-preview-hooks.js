@@ -229,5 +229,20 @@ window.SONG_PREVIEW_HOOKS = {
     "lineId": "line-9",
     "start": 48.46,
     "duration": 24
+  },
+  "hey-brother": {
+    "lineId": "line-3",
+    "start": 21.0,
+    "duration": 24
+  },
+  "bad-romance": {
+    "lineId": "line-15",
+    "start": 40.6,
+    "duration": 24
+  },
+  "poker-face": {
+    "lineId": "line-36",
+    "start": 113.24,
+    "duration": 24
   }
 };
