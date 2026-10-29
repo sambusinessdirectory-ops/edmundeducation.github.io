@@ -530,5 +530,125 @@ window.SONG_DIFFICULTY_DATA = {
     "year": 2000,
     "genre": "Pop",
     "vocals": "male"
+  },
+  "layla": {
+    "scores": [
+      5,
+      4,
+      6,
+      8,
+      7,
+      5
+    ],
+    "bpm": 115,
+    "year": 1970,
+    "genre": "Blues rock",
+    "vocals": "male",
+    "assessment": "Editorial listening estimate; BPM approximate; year is original song release."
+  },
+  "maneater": {
+    "scores": [
+      6,
+      6,
+      5,
+      5,
+      6,
+      6
+    ],
+    "bpm": 88,
+    "year": 1982,
+    "genre": "Pop rock",
+    "vocals": "male",
+    "assessment": "Editorial listening estimate; BPM approximate; year is original song release."
+  },
+  "separate-ways": {
+    "scores": [
+      5,
+      5,
+      7,
+      6,
+      6,
+      5
+    ],
+    "bpm": 132,
+    "year": 1983,
+    "genre": "Hard rock",
+    "vocals": "male",
+    "assessment": "Editorial listening estimate; BPM approximate; year is original song release."
+  },
+  "faithfully": {
+    "scores": [
+      5,
+      4,
+      3,
+      4,
+      5,
+      5
+    ],
+    "bpm": 65,
+    "year": 1983,
+    "genre": "Soft rock",
+    "vocals": "male",
+    "assessment": "Editorial listening estimate; BPM approximate; year is original song release."
+  },
+  "i-will-remember": {
+    "scores": [
+      6,
+      5,
+      5,
+      4,
+      5,
+      5
+    ],
+    "bpm": 98,
+    "year": 1995,
+    "genre": "Pop rock",
+    "vocals": "male",
+    "assessment": "Editorial listening estimate; BPM approximate; year is original song release."
+  },
+  "lea": {
+    "scores": [
+      7,
+      4,
+      4,
+      5,
+      5,
+      4
+    ],
+    "bpm": 83,
+    "year": 1986,
+    "genre": "Soft rock",
+    "vocals": "male",
+    "assessment": "Editorial listening estimate; BPM approximate; year is original song release."
+  },
+  "you-give-love-a-bad-name": {
+    "scores": [
+      5,
+      5,
+      7,
+      6,
+      6,
+      6
+    ],
+    "bpm": 123,
+    "year": 1986,
+    "genre": "Hard rock",
+    "vocals": "male",
+    "assessment": "Editorial listening estimate; BPM approximate; year is original song release."
+  },
+  "fast-car": {
+    "scores": [
+      4,
+      8,
+      5,
+      3,
+      7,
+      5
+    ],
+    "bpm": 104,
+    "year": 1988,
+    "genre": "Folk rock",
+    "vocals": "female",
+    "assessment": "Editorial listening estimate; BPM approximate; year is original song release."
   }
 };

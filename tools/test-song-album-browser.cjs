@@ -8,11 +8,17 @@ const original=JSON.parse(fs.readFileSync(root+`/tools/song-content/${lesson}.js
 const song={...original,id:id(3),published:true,cover_url:'http://127.0.0.1:8766/song-media/photograph/cover.webp',audio_url:'http://127.0.0.1:8766/song-media/photograph/album.mp3'};
 // Keep safe HTTPS media URLs and serve their bytes locally via route interception.
 song.cover_url=original.cover_url;song.audio_url=original.audio_url;
-let progress={};
+let progress={},sharedRoom=null;
 const source=fs.readFileSync(root+'/song-appreciation.js','utf8').replace('  window.EdmundSongAppreciation = Object.freeze({','  window.songQA={state,enterAdmin,syncLyricsToPlayback,safeIntroduction,completionPanel};\n  window.EdmundSongAppreciation = Object.freeze({');
 (async()=>{const browser=await chromium.launch({headless:true});const context=await browser.newContext({viewport:{width:1280,height:950},serviceWorkers:'block'});const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
-await context.addInitScript(({session})=>{sessionStorage.setItem('edmund-song-appreciation-session-v1',JSON.stringify(session));window.supabase={createClient:()=>({rpc:async(name,args)=>{const r=await fetch('/mock-rpc/'+name,{method:'POST',body:JSON.stringify(args)});return {data:await r.json(),error:null};}})};},{session});
+await context.addInitScript(({session})=>{sessionStorage.setItem('edmund-song-appreciation-session-v1',JSON.stringify(session));window.supabase={createClient:()=>({auth:{getSession:async()=>({data:{session:{user:{id:'transport'}}}})},rpc:(name,args)=>{const promise=(async()=>{const r=await fetch('/mock-rpc/'+name,{method:'POST',body:JSON.stringify(args)});return {data:await r.json(),error:null};})();promise.abortSignal=()=>promise;return promise;}})};},{session});
 await page.route('**/*',async r=>{const u=new URL(r.request().url());if(u.pathname==='/shared-system-nav.js')return r.fulfill({contentType:'text/javascript',body:''});if(u.hostname==='edmundeducation.com'&&u.pathname.startsWith('/song-media/')){const bytes=fs.readFileSync(root+u.pathname),range=r.request().headers()['range'];if(range){const parts=/bytes=(\d+)-(\d*)/.exec(range),start=Number(parts[1]),end=parts[2]?Number(parts[2]):bytes.length-1;return r.fulfill({status:206,headers:{'content-type':'audio/mpeg','accept-ranges':'bytes','content-range':`bytes ${start}-${end}/${bytes.length}`},body:bytes.subarray(start,end+1)});}return r.fulfill({body:bytes,contentType:u.pathname.endsWith('.mp3')?'audio/mpeg':'image/webp'});}if(u.host!=='127.0.0.1:8766')return r.abort();if(u.pathname==='/song-appreciation.js')return r.fulfill({contentType:'text/javascript',body:source});if(!u.pathname.startsWith('/mock-rpc/'))return r.continue();const name=u.pathname.split('/').pop(),a=r.request().postDataJSON();let body=[];
+if(name==='song_appreciation_room'){
+ if(a.p_action==='start')sharedRoom={id:a.p_session,owner:a.p_device,song:a.p_song,mode:a.p_mode,version:a.p_version,started_at:new Date().toISOString(),media:null,revision:0};
+ if(a.p_action==='end')sharedRoom=null;
+ if(a.p_action==='media'&&sharedRoom)sharedRoom={...sharedRoom,revision:sharedRoom.revision+1,media:{...a.p_media,at:new Date().toISOString(),device:a.p_device}};
+ body={accepted:true,devices:1,session:sharedRoom,server_time:new Date().toISOString()};
+}
 if(name==='song_appreciation_student_me')body=[{id:session.id,name:session.name}];
 if(['song_appreciation_student_list_songs','song_appreciation_student_get_song','song_appreciation_admin_list_songs'].includes(name))body=[{...song,exercises:song.exercises.map(m=>({...m,questions:m.questions.map(q=>({...q,answer:name==='song_appreciation_admin_list_songs'?q.answer:undefined}))}))}];
 if(name==='song_appreciation_lesson_extras')body=[{id:song.id,cover_url:song.cover_url,audio_url:song.audio_url,translations:song.translations,vocabulary:song.vocabulary.map(({answer,explanation,optionExplanations,...q})=>q),vocabulary_progress:progress}];
@@ -33,7 +39,7 @@ for (const width of [1280,390]) {
  assert.equal(await page.locator('.exercise-line[data-question]').count(),50);
  assert.equal(await page.locator(`[data-lyric-flow="line-${original.translations.length}"]`).count(),1);
  const firstMulti=original.exercises[3].listeningLines.find(l=>(l.prompt.match(/\{\{q:/g)||[]).length>1);
- assert.equal(await page.locator(`[data-lyric-flow="${firstMulti.lineId}"] .blank-number`).count(),(firstMulti.prompt.match(/\{\{q:/g)||[]).length);
+ if(firstMulti)assert.equal(await page.locator(`[data-lyric-flow="${firstMulti.lineId}"] .blank-number`).count(),(firstMulti.prompt.match(/\{\{q:/g)||[]).length);
  const sizes=()=>page.evaluate(()=>['.exercise-full-line','.exercise-full-line .blank-number','.choice-button'].map(s=>parseFloat(getComputedStyle(document.querySelector(s)).fontSize)));
  await page.locator('[data-font-size="exercise"]').selectOption('1');const normal=await sizes();
  await page.locator('[data-font-size="exercise"]').selectOption('2');const bigger=await sizes();

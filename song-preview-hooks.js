@@ -189,5 +189,45 @@ window.SONG_PREVIEW_HOOKS = {
     "lineId": "line-11",
     "start": 48.02,
     "duration": 24
+  },
+  "layla": {
+    "lineId": "line-6",
+    "start": 41.2,
+    "duration": 24
+  },
+  "maneater": {
+    "lineId": "line-11",
+    "start": 87.58,
+    "duration": 24
+  },
+  "separate-ways": {
+    "lineId": "line-10",
+    "start": 74.64,
+    "duration": 24
+  },
+  "faithfully": {
+    "lineId": "line-13",
+    "start": 75.48,
+    "duration": 24
+  },
+  "i-will-remember": {
+    "lineId": "line-23",
+    "start": 133.46,
+    "duration": 24
+  },
+  "lea": {
+    "lineId": "line-10",
+    "start": 81.22,
+    "duration": 24
+  },
+  "you-give-love-a-bad-name": {
+    "lineId": "line-2",
+    "start": 3.72,
+    "duration": 24
+  },
+  "fast-car": {
+    "lineId": "line-9",
+    "start": 48.46,
+    "duration": 24
   }
 };
