@@ -789,7 +789,11 @@ jobs:
         if: ${{ contains(github.event.head_commit.message, '[song-release]') }}
         run: |
           node --check song-appreciation.js
+          node --check song-appreciation-live.mjs
           node tools/test-song-appreciation.mjs
+          node tools/test-song-live-sync.mjs
+          npm ci --prefix tools/email-qa --ignore-scripts
+          node tools/test-song-live-sql.mjs
           test -s song-media/photograph/album.mp3
           test -s song-media/photograph/cover.webp
 

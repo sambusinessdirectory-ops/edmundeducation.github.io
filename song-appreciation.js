@@ -19,6 +19,7 @@
       [224.84,229.06],[229.06,231.05]
     ])
   });
+  let liveSync, liveClient;
   const state = {
     client: null,
     session: null,
@@ -389,7 +390,7 @@
     state.drafts = {};
     state.exercise = null;
     state.selectedPhrase = null;
-    clearTimeout(state.draftSaveTimer);
+    clearTimeout(state.draftSaveTimer);state.draftSaveTimer=0;
     updateFloatingPlayer();
     $("[data-signed-in-user]").hidden = true;
     $("[data-logout]").hidden = true;
@@ -1073,7 +1074,7 @@
 
   function resetExercise() {
     stopMistakeNavigation();
-    storeLocalDraft(); clearTimeout(state.draftSaveTimer);
+    storeLocalDraft(); clearTimeout(state.draftSaveTimer);state.draftSaveTimer=0;
     stopExerciseTimers();
     state.exercise = null;
     $("[data-mode-grid]").hidden = false;
@@ -1094,7 +1095,7 @@
   }
 
   function startExerciseClock() {
-    if (!state.exercise || state.exercise.submitted || state.exercise.clockStarted) return;
+    if (!state.exercise || state.exercise.liveFollowing || state.exercise.submitted || state.exercise.clockStarted) return;
     state.exercise.clockStarted = performance.now();
     state.exerciseTimer = window.setInterval(() => { updateExerciseProgress();const e=state.exercise;if(e && Object.keys(e.answers).length && Date.now()-(e.lastDraftTick||0)>15000){e.lastDraftTick=Date.now();queueDraftSave();}}, 1000);
   }
@@ -1141,6 +1142,8 @@
   function chooseAnswer(number, option) {
     const exercise = state.exercise;
     if (!exercise || exercise.locked || exercise.submitted || exercise.submitting || exercise.checking || exercise.pendingSubmission || exercise.results?.[number] || exercise.conflict) return;
+    exercise.liveFollowing=false;
+    startExerciseClock();
     exercise.answers[number] = option;
     queueDraftSave();
     const card = $(`[data-question="${number}"]`);
@@ -1276,7 +1279,7 @@
   function draftIdentity(songId, modeId) { return `${songId}/${modeId}`; }
   function readLocalDrafts() { try { return JSON.parse(localStorage.getItem(studyStorageKey()) || '{}'); } catch { return {}; } }
   function storeLocalDraft(exercise = state.exercise) {
-    if (!exercise || exercise.submitted || !state.session?.id || exercise.ownerId !== state.session.id) return;
+    if (!exercise || exercise.liveFollowing || exercise.submitted || !state.session?.id || exercise.ownerId !== state.session.id) return;
     const drafts = readLocalDrafts();
     drafts[draftIdentity(exercise.songId, exercise.mode.id)] = {
       song_id: exercise.songId, mode_id: exercise.mode.id, exercise_version: exercise.mode.version,
@@ -1303,14 +1306,17 @@
   }
   function queueDraftSave() {
     const exercise=state.exercise;
-    if(!exercise || exercise.submitted) return;
+    if(!exercise || exercise.liveFollowing || exercise.submitted) return;
     exercise.dirty=true; exercise.editSequence+=1; storeLocalDraft(exercise);
-    setDraftStatus('正在儲存…'); clearTimeout(state.draftSaveTimer);
-    state.draftSaveTimer=setTimeout(()=>flushDraft().catch(()=>{}),350);
+    setDraftStatus('正在儲存…');
+    // Bound the wait even when a student keeps choosing answers rapidly.
+    if(!state.draftSaveTimer)state.draftSaveTimer=setTimeout(()=>{state.draftSaveTimer=0;void flushDraft().catch(()=>{});},350);
   }
   async function flushDraft(action='save') {
     const exercise=state.exercise, session=state.session;
     if(!exercise || exercise.submitted || session?.role!=='student')return;
+    if(exercise.liveFollowing && action==='save')return;
+    if(action!=='save')exercise.liveFollowing=false;
     while(exercise.savePromise) { await exercise.savePromise; if(state.exercise!==exercise)return; }
     if(exercise.conflict) {setDraftStatus('其他裝置有較新的進度。請重新載入雲端進度後再繼續。',true);throw new Error('Draft conflict');}
     const current=()=>state.session?.id===session.id && state.session?.token===session.token && state.exercise===exercise;
@@ -1341,7 +1347,7 @@
     exercise.savePromise=run().catch(error=>{
       if(current()) { if(error.code==='40001')exercise.conflict=true;storeLocalDraft(exercise);setDraftStatus(error.code==='40001'?'另一裝置已更新進度；請載入雲端版本。':'尚未同步；答案已保留在此裝置，連線後會重試。',true); }
       throw error;
-    }).finally(()=>{exercise.savePromise=null;if(current() && exercise.dirty && !exercise.pendingDraft && !exercise.conflict) {clearTimeout(state.draftSaveTimer);state.draftSaveTimer=setTimeout(()=>flushDraft().catch(()=>{}),350);}});
+    }).finally(()=>{exercise.savePromise=null;if(current() && exercise.dirty && !exercise.pendingDraft && !exercise.conflict) {clearTimeout(state.draftSaveTimer);state.draftSaveTimer=0;state.draftSaveTimer=setTimeout(()=>{state.draftSaveTimer=0;void flushDraft().catch(()=>{});},350);}});
     return exercise.savePromise;
   }
   function applyCheckedResults() {
@@ -1366,7 +1372,7 @@
     if(!window.confirm('重設這次尚未完成的答案及核對結果？已完成的練習紀錄會保留。'))return;
     try {
       await flushDraft();
-      exercise.checking=true;exercise.answers={};exercise.results={};exercise.pendingSubmission=null;exercise.editSequence+=1;exercise.dirty=true;exercise.activeSeconds=0;exercise.startedAt=new Date().toISOString();exercise.clockStarted=performance.now();
+      exercise.liveFollowing=false;exercise.checking=true;exercise.answers={};exercise.results={};exercise.pendingSubmission=null;exercise.editSequence+=1;exercise.dirty=true;exercise.activeSeconds=0;exercise.startedAt=new Date().toISOString();exercise.clockStarted=performance.now();
       storeLocalDraft(exercise);await flushDraft('reset');toast('未完成答案已重設。');
     } catch(error){toast(error.message||'未能重設，請連線後重試。','error');}
     finally{exercise.checking=false;if(state.exercise===exercise)renderExerciseQuestions();}
@@ -1986,6 +1992,53 @@
       offerUniversalSession();
     }
   }
+
+  async function readLiveExercise(args) {
+    liveClient ||= window.supabase.createClient(SUPABASE.url,SUPABASE.anonKey,{auth:{persistSession:true,storage:sessionStorage,storageKey:'edmund-song-live-auth-v1',autoRefreshToken:true,detectSessionInUrl:false}});
+    const session=await liveClient.auth.getSession();if(session.error)throw session.error;
+    if(!session.data?.session){const login=await liveClient.auth.signInAnonymously();if(login.error)throw login.error;}
+    const {data,error}=await liveClient.rpc('song_appreciation_live_snapshot',args).abortSignal(AbortSignal.timeout(15000));
+    if(error)throw error;return data;
+  }
+  function applyLiveExercise(payload) {
+    const e=state.exercise,d=payload?.draft;
+    if(!e||!d||d.song_id!==e.songId||d.mode_id!==e.mode.id||d.exercise_version!==e.mode.version)return true;
+    // Preserve unsaved local answers and existing conflict/retry handling.
+    if(e.dirty||e.pendingDraft||e.savePromise||e.submitting||e.checking||e.pendingSubmission&&!e.submitted||e.conflict)return false;
+    if(Number(d.revision)<e.revision)return true;
+    const answers=d.answers||{},results=d.result||{};
+    for(const [number,value] of Object.entries(answers)){const q=e.mode.questions.find(q=>String(q.number)===number);if(!q||!q.options.includes(value))return true;}
+    for(const [number,r] of Object.entries(results)){const q=e.mode.questions.find(q=>String(q.number)===number);if(!q||r.selected!==answers[number]||!q.options.includes(r.answer)||typeof r.correct!=='boolean'||r.correct!==(r.selected===r.answer))return true;}
+    const attempt=payload.attempt?validateSavedAttempt(payload.attempt,{attemptId:payload.attempt.id,songId:e.songId,modeId:e.mode.id,exerciseVersion:e.mode.version,questionCount:e.mode.questionCount,questions:e.mode.questions,answers}):null;
+    if(e.revision===Number(d.revision)&&JSON.stringify(e.answers)===JSON.stringify(answers)&&JSON.stringify(e.results)===JSON.stringify(attempt?.results||results)&&e.submitted===Boolean(attempt))return true;
+    e.liveFollowing=true;pauseExerciseClock();
+    clearTimeout(state.draftSaveTimer);state.draftSaveTimer=0;window.clearInterval(state.countdownTimer);state.countdownTimer=0;$('[data-countdown]').hidden=true;
+    Object.assign(e,{answers:{...answers},results:attempt?.results||results,revision:Number(d.revision),startedAt:d.started_at,activeSeconds:Number(d.duration_ms||0)/1000,locked:false,submitted:Boolean(attempt),pendingSubmission:null});
+    state.drafts[draftIdentity(e.songId,e.mode.id)]=d;
+    // Patch choices in place: do not remount media, seek, scroll or rebuild lyrics.
+    e.mode.questions.forEach(q=>{
+      const card=$(`[data-question="${q.number}"]`);if(!card)return;
+      card.classList.toggle('is-answered',Object.hasOwn(e.answers,q.number));card.classList.remove('is-correct','is-incorrect');$('.answer-feedback',card)?.remove();
+      $$('[data-option]',card).forEach(button=>{const selected=button.dataset.option===e.answers[q.number];button.classList.toggle('is-selected',selected);button.classList.remove('is-correct','is-wrong');button.setAttribute('aria-checked',String(selected));button.disabled=e.submitted||Boolean(e.results[q.number]);});
+    });
+    applyCheckedResults();updateExerciseProgress();
+    $('[data-result-card]').hidden=!attempt;
+    if(attempt){
+      // revealServerResult also adds feedback, so remove the partial-check labels first.
+      $$('.answer-feedback',$('[data-lyrics-exercise]')).forEach(node=>node.remove());revealServerResult(e,attempt);
+      if(!state.attempts.some(row=>row.id===attempt.id))state.attempts.unshift({...attempt,songTitle:state.activeSong.title});
+      renderAttempts();renderDashboard();
+    }
+    renderLibrary();setDraftStatus('已同步另一裝置的進度');return true;
+  }
+  import('./song-appreciation-live.mjs?v=20261029-1').then(({createSongLiveSync})=>{
+    liveSync=createSongLiveSync({
+      context:()=>({owner:state.session?.role==='student'?state.session.id:null,token:state.session?.token,
+        song:state.activeRoute==='song'&&state.activeTab==='exercise'?state.exercise?.songId:null,
+        mode:state.exercise?.mode.id,version:state.exercise?.mode.version,playing:state.playerState===1&&!state.exercise?.submitted}),
+      rpc:readLiveExercise,apply:applyLiveExercise
+    });
+  }).catch(error=>console.warn('Song live synchronization unavailable',error));
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot, { once: true });
   else boot();
