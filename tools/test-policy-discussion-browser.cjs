@@ -1,0 +1,45 @@
+const fs=require('fs'),path=require('path'),http=require('http'),assert=require('node:assert/strict'),{execFileSync}=require('child_process');
+const {chromium}=require(process.env.HOME+'/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const root=path.resolve(__dirname,'..');execFileSync('python3',[path.join(root,'tools/build-policy-discussion.py')]);const content=JSON.parse(fs.readFileSync('/private/tmp/policy-discussion-content.json'));
+const server=http.createServer((req,res)=>{const file=path.resolve(root,'.'+new URL(req.url,'http://local').pathname);if(!file.startsWith(root+'/'))return res.writeHead(403).end();fs.readFile(file,(e,b)=>{res.writeHead(e?404:200,{'Content-Type':({'.js':'text/javascript','.mjs':'text/javascript','.css':'text/css','.webp':'image/webp','.png':'image/png'})[path.extname(file)]||'text/html'});res.end(e?'':b);});});
+(async()=>{await new Promise(r=>server.listen(0,'127.0.0.1',r));const browser=await chromium.launch({headless:true});try{
+ const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ for(const pattern of ['https://cdn.jsdelivr.net/**','**/shared-system-nav.js*','**/eddy-global-dialogues.js*','**/pwa-register.js'])await page.route(pattern,r=>r.fulfill({contentType:'text/javascript',body:''}));
+ await page.addInitScript(content=>{
+  const article={id:'policy-fixture',title:'工人應否有權拒絕不安全的工作？',brief:'根據所提供的新聞背景，事故原因仍有待調查。本教材討論一般政策方案，不推斷趕工是事故原因。',created_at:'2026-10-29',has_image:false,content};
+  window.fixtureCalls=[];window.EDMUND_SUPABASE={};window.EdmundSystemNav={rememberStudentSession(){},forgetStudentSession(){}};
+  window.supabase={createClient:()=>({auth:{getSession:async()=>({data:{session:{user:{id:'fixture'}}}})},rpc:async(name,args)=>{
+   fixtureCalls.push(name);let data=null;const key='fixture-progress-'+(args.p_student_token||args.p_admin_token),saved=JSON.parse(localStorage.getItem(key)||'{}');
+   if(name==='flashcard_student_login')data=[{session_token:args.p_name}];
+   else if(name==='flashcard_student_session_profile')data=[{id:args.p_token,name:args.p_token}];
+   else if(name==='news_discussion_admin_login')data={name:'Teacher',token:'admin-fixture'};
+   else if(name==='news_discussion_admin_me')data='Teacher';
+   else if(name==='news_discussion_admin_logout')data=null;
+   else if(name==='policy_discussion_list')data=[{...article,question_count:1}];
+   else if(name==='policy_discussion_get')data=article;
+   else if(name==='policy_discussion_state')data=saved;
+   else if(name==='policy_discussion_save_state'){saved[args.p_item_id]={checked:args.p_checked,bookmarked:args.p_bookmarked};localStorage.setItem(key,JSON.stringify(saved));}
+   else if(name.startsWith('policy_discussion_admin_'))data='created-fixture';
+   else throw Error('Unexpected RPC '+name);
+   return {data,error:null};
+  }})};
+ },content);
+ const url='http://127.0.0.1:'+server.address().port+'/policy-discussion.html';await page.goto(url);
+ await page.locator('[name=username]').fill('student-a');await page.locator('[name=password]').fill('fixture');await page.locator('#login-form button').click();await page.locator('[data-open]').click();
+ assert.equal(await page.locator('.article-hero h1').innerText(),'工人應否有權拒絕不安全的工作？');
+ await page.locator('[data-question]').click();assert.equal(await page.locator('.side--for .argument').count(),141);assert.equal(await page.locator('.side--against .argument').count(),25);
+ await page.locator('[data-argument="arg:for:1"]').click();assert.equal(await page.locator('.glossary li').count(),5);
+ await page.locator('[data-check="gloss:for:1:1"]').check();await page.locator('[data-star="arg:for:1"]').click();
+ await page.locator('[data-structures]').click();assert.equal(await page.locator('.structure-row').count(),20);await page.locator('[data-close-structures]').click();
+ assert.equal(await page.locator('.policy-resources details').count(),8);
+ await page.locator('.policy-resources summary').filter({hasText:'主題關鍵詞近義表達'}).click();assert.equal(await page.locator('.policy-resources details[open] tbody tr').count(),43);
+ await page.screenshot({path:'/tmp/policy-discussion-desktop.png'});
+ await page.locator('[data-start-pick]').click();await page.locator('[data-pick-id="arg:for:1"]').click();await page.locator('[data-pick-next]').click();await page.locator('[data-pick-id="arg:against:142"]').click();await page.locator('[data-pick-next]').click();assert.equal(await page.locator('.comparison-picker').count(),2);assert.equal(await page.locator('.picked-argument').count(),2);
+ await page.locator('[data-pick-end]').click();await page.locator('[data-bookmarks]').click();assert.equal(await page.locator('[data-bookmark-open]').count(),1);await page.locator('[data-bookmark-open]').click();assert(await page.locator('[data-check="gloss:for:1:1"]').isChecked());
+ await page.reload();await page.locator('[data-open]').click();await page.locator('[data-question]').click();await page.locator('[data-argument="arg:for:1"]').click();assert(await page.locator('[data-check="gloss:for:1:1"]').isChecked());
+ await page.setViewportSize({width:390,height:844});await page.screenshot({path:'/tmp/policy-discussion-mobile.png',fullPage:false});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));
+ await page.locator('#logout').click();await page.locator('[name=username]').fill('student-b');await page.locator('[name=password]').fill('fixture');await page.locator('#login-form button').click();await page.locator('[data-open]').click();await page.locator('[data-question]').click();await page.locator('[data-argument="arg:for:1"]').click();assert.equal(await page.locator('[data-check="gloss:for:1:1"]').isChecked(),false);
+ await page.locator('#logout').click();await page.locator('#admin-tab').click();await page.locator('[name=username]').fill('Teacher');await page.locator('[name=password]').fill('fixture');await page.locator('#login-form button').click();await page.locator('#create-card').waitFor();await page.locator('#create-card input').fill('New policy');await page.locator('#create-card button').click();await page.waitForFunction(()=>fixtureCalls.includes('policy_discussion_admin_create'));
+ assert.deepEqual(errors,[]);assert.equal(await page.evaluate(()=>fixtureCalls.some(n=>n.startsWith('news_discussion_')&&!n.startsWith('news_discussion_admin_'))),false);
+ console.log('PASS: login, 166 arguments, glossaries, 20 structures, 42 vocabulary groups, Pick Mode, bookmarks, saved checks, reload, account isolation, admin creation, mobile layout.');
+}finally{await browser.close();server.close();}})().catch(e=>{console.error(e);process.exitCode=1;server.close();});

@@ -75,6 +75,7 @@
     { id: "junior-exam-prep", href: "junior-exam-prep.html", zh: "初中考試溫習系統", en: "Junior Exam Preparation", homepageCard: 71 },
     { id: "junior-quiz-review", href: "junior-quiz-review.html", zh: "初中測驗溫習系統", en: "Junior Quiz Review", homepageCard: 72 },
     { id: "news-discussion", href: "news-discussion.html", zh: "熱議新聞討論", en: "News Discussion", homepageCard: 75 },
+    { id: "policy-discussion", href: "policy-discussion.html", zh: "政策討論", en: "Policy Discussion", homepageCard: 77 },
     { id: "dse-argument-bank", href: "dse-argument-bank.html", zh: "DSE 論點大全", en: "DSE Speaking Argument Bank", homepageCard: 76 },
     { id: "excellent-learning", href: "excellent-learning-system.html", zh: "英文口音學習系統", en: "English Accent Learning System" },
     { id: "polysemy-lab", href: "polysemy-lab.html", zh: "一詞多義學習室", en: "Polysemy Lab" },

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="EdmundEducation 政策討論：政策方案、反對與限制、詞彙和討論句式。">
+  <meta name="theme-color" content="#173d39">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co; object-src 'none'; frame-src 'none'; base-uri 'self'; form-action 'self'">
+  <title>Policy Discussion · 政策討論｜EdmundEducation</title>
+  <link rel="canonical" href="https://edmundeducation.com/policy-discussion.html">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20261022-character-coins1">
+  <link rel="stylesheet" href="policy-discussion/style.css?v=20261029-policy1">
+  <script defer src="/pwa-register.js"></script>
+<link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261028-hover-guard1">
+</head>
+<body>
+  <a class="skip" href="#policy-main">跳至主要內容</a>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="返回 EdmundEducation 首頁"><span class="brand-mark">E</span><span>EdmundEducation<small>POLICY DISCUSSION</small></span></a>
+    <div class="edmund-system-switcher" data-edmund-system-switcher data-system="policy-discussion">
+      <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換"><span class="edmund-system-switcher__copy"><strong>系統導航</strong><small>Policy Discussion</small></span><span aria-hidden="true">⌄</span></button>
+    </div>
+    <div class="header-actions"><span id="account-name" hidden></span><button id="logout" class="text-button" type="button" hidden>登出</button></div>
+  </header>
+  <main id="policy-main" class="shell">
+    <section id="login-view" class="login-layout">
+      <div class="login-hero"><span class="eyebrow">EDMUND POLICY LEARNING SYSTEM</span><h1>Policy Discussion<span>政策討論</span></h1><p>從新聞出發，比較政策方案、執行限制、精選詞彙及實用句式。每一項的勾選和書籤都保存在您的帳戶。</p><div class="hero-ornament" aria-hidden="true"><i></i><i></i><i></i></div></div>
+      <div class="login-card"><div class="login-tabs" role="tablist" aria-label="登入身分"><button type="button" id="student-tab" role="tab" aria-selected="true">學生登入</button><button type="button" id="admin-tab" role="tab" aria-selected="false">管理員登入</button></div><h2 id="login-title">登入學生帳戶</h2><form id="login-form"><label>用戶名稱<input name="username" autocomplete="username" maxlength="100" required></label><label>密碼<input name="password" type="password" autocomplete="current-password" maxlength="200" required></label><button class="primary-button" type="submit">進入討論室</button></form><p id="login-status" role="status" aria-live="polite"></p></div>
+    </section>
+    <section id="app-view" hidden><div id="app"></div></section>
+  </main>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
+  <script src="supabase-config.js"></script>
+  <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script><script src="shared-system-nav.js?v=20261026-daily-visit1"></script>
+  <script type="module" src="policy-discussion/app.mjs?v=20261029-policy1"></script>
+</body>
+</html>
