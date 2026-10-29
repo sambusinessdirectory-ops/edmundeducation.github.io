@@ -2038,7 +2038,7 @@
     }
   }
 
-  const classroom={device:crypto.randomUUID(),joined:null,room:null,revision:-1,busy:false,joining:false,commands:0,chain:Promise.resolve(),next:0,token:null};
+  const classroom={devices:0,device:crypto.randomUUID(),joined:null,room:null,revision:-1,busy:false,joining:false,commands:0,chain:Promise.resolve(),next:0,token:null};
   function roomMatches(){return classroom.joined&&classroom.room?.id===classroom.joined&&state.activeRoute==='song'&&state.exercise?.songId===classroom.room.song&&state.exercise?.mode.id===classroom.room.mode;}
   async function roomRequest(action='poll',extra={}){
     const token=state.session?.token;
@@ -2051,7 +2051,7 @@
   }
   function renderClassroom(message){
     let bar=$('[data-classroom-bar]');if(!bar){bar=document.createElement('aside');bar.dataset.classroomBar='';bar.className='song-classroom-bar';bar.setAttribute('aria-label','同步課堂');document.body.append(bar);}
-    bar.hidden=state.session?.role!=='student';if(bar.hidden)return;
+    bar.hidden=state.session?.role!=='student'||classroom.token!==state.session?.token||classroom.devices<=1;if(bar.hidden)return;
     const r=classroom.room;const signature=JSON.stringify([r?.id,Boolean(roomMatches()),message]);if(bar.dataset.signature===signature)return;bar.dataset.signature=signature;bar.replaceChildren();const label=document.createElement('span');label.setAttribute('role','status');label.textContent=message||(r?(roomMatches()?'已加入同步課堂 · 雙方可作答及控制音樂':'另一裝置已開始練習，請加入同一課堂'):'同步課堂已連線 · 選擇難度開始練習');bar.append(label);
     if(r&&!roomMatches())bar.append(makeButton('加入練習',()=>void joinClassroom(),'primary-button'));
     if(roomMatches()){
@@ -2060,6 +2060,7 @@
     }
   }
   function acceptRoom(data){
+    classroom.devices=Number(data.devices)||0;
     classroom.room=data.session;
     if(classroom.joined&&classroom.joined!==data.session?.id){classroom.joined=null;classroom.revision=-1;cancelReadCountdown();pausePlayer();}
     renderClassroom(!data.session&&data.devices>1?`${data.devices} 部裝置已連線 · 由學生選擇難度開始，另一部裝置再加入`:undefined);
@@ -2099,8 +2100,8 @@
   }
   async function pollClassroom(){
     if(classroom.busy||classroom.joining||document.hidden||Date.now()<classroom.next)return;
-    if(state.session?.role!=='student'){classroom.joined=null;classroom.room=null;renderClassroom();return;}
-    if(classroom.token!==state.session.token){classroom.token=state.session.token;classroom.joined=null;classroom.room=null;classroom.revision=-1;}
+    if(state.session?.role!=='student'){classroom.devices=0;classroom.joined=null;classroom.room=null;renderClassroom();return;}
+    if(classroom.token!==state.session.token){classroom.devices=0;classroom.token=state.session.token;classroom.joined=null;classroom.room=null;classroom.revision=-1;}
     classroom.busy=true;
     try{const epoch=classroom.epoch,begin=Date.now(),data=await roomRequest();if(epoch!==classroom.epoch)return;classroom.serverOffset=(begin+Date.now())/2-Date.parse(data.server_time);acceptRoom(data);classroom.next=Date.now()+(roomMatches()?500:2000);}
     catch{classroom.next=Date.now()+5000;renderClassroom('同步連線中斷 · 暫時無法開始或加入課堂');}
