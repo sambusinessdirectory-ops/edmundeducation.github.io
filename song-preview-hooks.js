@@ -1,4 +1,4 @@
-// Editorial hook selections anchored to existing lesson audio timestamps. No lyrics.
+// Editorial hook selections anchored to lesson audio, with explicit optional lead-in. No lyrics.
 window.SONG_PREVIEW_HOOKS = {
   "stop-loving-you": {
     "lineId": "line-14",
@@ -226,9 +226,10 @@ window.SONG_PREVIEW_HOOKS = {
     "duration": 24
   },
   "fast-car": {
-    "lineId": "line-9",
-    "start": 48.46,
-    "duration": 24
+    "lineId": "line-29",
+    "start": 120.4,
+    "duration": 24,
+    "leadInSeconds": 0.8
   },
   "hey-brother": {
     "lineId": "line-3",
@@ -236,9 +237,10 @@ window.SONG_PREVIEW_HOOKS = {
     "duration": 24
   },
   "bad-romance": {
-    "lineId": "line-15",
-    "start": 40.6,
-    "duration": 24
+    "lineId": "line-26",
+    "start": 73.42,
+    "duration": 24,
+    "leadInSeconds": 0.2
   },
   "poker-face": {
     "lineId": "line-36",
