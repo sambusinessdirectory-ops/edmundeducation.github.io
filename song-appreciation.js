@@ -376,6 +376,7 @@
   }
 
   async function logout() {
+    window.SongPreview?.stop();
     if (state.exercise && !state.exercise.submitted) { pauseExerciseClock(); storeLocalDraft(); try { await flushDraft(); } catch { /* Scoped local backup retries on return. */ } }
     if (state.session?.role === "admin") {
       try { await rpc(CONFIG.rpc.adminLogout, { p_admin_token: state.session.token }); } catch { /* Local logout still applies. */ }
@@ -442,6 +443,7 @@
   }
 
   function routeStudent(route) {
+    window.SongPreview?.stop();
     stopMistakeNavigation();
     if (state.session?.role !== "student") return;
     const valid = pages[route] ? route : "library";
@@ -463,6 +465,7 @@
   }
 
   function renderLibrary() {
+    window.SongPreview?.stop();
     const query = normalizeSpace($("[data-song-search]")?.value).toLocaleLowerCase("en");
     const songs = state.songs.filter(song => (!query || songHaystack(song).includes(query)) && (!state.favoritesOnly || songIsFavorite(song.id)) && (!state.selectedTags.length || state.selectedTags.some(tag => song.tags.includes(tag))));
     renderSelectedTags();
@@ -482,7 +485,7 @@
     article.setAttribute("role", "link");
     article.setAttribute("aria-label", `開啟 ${song.title}`);
     article.addEventListener("click", event => { if (!event.target.closest("button")) openSong(song.id); });
-    article.addEventListener("keydown", event => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openSong(song.id); } });
+    article.addEventListener("keydown", event => { if (event.target === article && (event.key === "Enter" || event.key === " ")) { event.preventDefault(); openSong(song.id); } });
     const progress=songProgress(song.id); if(progress)article.classList.add(`is-${progress}`);
     const thumb = document.createElement("div");
     thumb.className = "song-card__thumb";
@@ -513,10 +516,22 @@
     setLabel(open,"開始賞析 →");
     open.addEventListener("click", event => { event.stopPropagation(); openSong(song.id); });
     article.append(thumb, favorite, body, open);
+    window.SongPreview?.bind(article, song, {
+      allowed: () => state.session?.role === 'student' && state.activeRoute === 'library',
+      pause: pausePlayer,
+      load: async () => {
+        const token = state.session?.token;
+        if (!token || state.session?.role !== 'student') throw new Error('請先登入。');
+        const row = firstRow(await rpc(CONFIG.rpc.getSong, {p_student_token:token,p_song_id:song.id}));
+        if (!row || state.session?.token !== token) throw new Error('未能載入歌曲。');
+        return normalizeSong(withLessonExtras(row), {includeAnswers:false});
+      }
+    });
     return article;
   }
 
   async function openSong(songId, tab = "description") {
+    window.SongPreview?.stop();
     stopMistakeNavigation();
     const requestId=state.songOpenGeneration=(state.songOpenGeneration||0)+1;
     if (state.session?.role !== "student" || !state.session.token) {

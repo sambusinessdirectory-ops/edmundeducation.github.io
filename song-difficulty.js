@@ -24,9 +24,10 @@
     const ns='http://www.w3.org/2000/svg';const svg=document.createElementNS(ns,'svg');svg.setAttribute('viewBox','0 0 440 360');svg.setAttribute('aria-hidden','true');
     const point=(i,r)=>[220+Math.cos(-Math.PI/2+i*Math.PI/3)*r,175+Math.sin(-Math.PI/2+i*Math.PI/3)*r];
     const polygon=r=>scores.map((v,i)=>point(i,typeof r==='number'?r:r[i]).join(',')).join(' ');
-    for(let ring=1;ring<=5;ring++){const el=document.createElementNS(ns,'polygon');el.setAttribute('points',polygon(ring*22));el.setAttribute('class','radar-grid');svg.append(el);}
+    for(let ring=5;ring<=5;ring++){const el=document.createElementNS(ns,'polygon');el.setAttribute('points',polygon(ring*22));el.setAttribute('class','radar-grid');svg.append(el);}
+    for(let i=0;i<6;i++){const face=document.createElementNS(ns,'polygon');face.setAttribute('points',[[220,175],point(i,110),point((i+1)%6,110)].map(p=>p.join(',')).join(' '));face.setAttribute('class','radar-face radar-face-'+(i%2));svg.append(face);}
     scores.forEach((v,i)=>{const xy=point(i,110);const line=document.createElementNS(ns,'line');for(const [k,n] of Object.entries({x1:220,y1:175,x2:xy[0],y2:xy[1]}))line.setAttribute(k,n);line.setAttribute('class','radar-grid');svg.append(line);const t=document.createElementNS(ns,'text'),pos=point(i,147);t.setAttribute('x',pos[0]);t.setAttribute('y',pos[1]);t.setAttribute('text-anchor','middle');t.textContent=labels[i];const score=document.createElementNS(ns,'tspan');score.setAttribute('x',pos[0]);score.setAttribute('dy','19');score.textContent=v+' / 10';t.append(score);svg.append(t);});
-    const shape=document.createElementNS(ns,'polygon');shape.setAttribute('points',polygon(scores.map(v=>v*11)));shape.setAttribute('class','radar-area');svg.append(shape);button.append(svg,element('span','difficulty-replay','↻ 點擊圖表，展開難度輪廓'));section.append(button);
+    const shape=document.createElementNS(ns,'polygon');shape.setAttribute('points',polygon(scores.map(v=>v*11)));shape.setAttribute('class','radar-area');svg.append(shape);button.append(svg);section.append(button);
     // Animate SVG vertices directly: Safari and reduced-motion CSS can suppress transforms.
     let frame = 0;
     const finalPoints = polygon(scores.map(v=>v*11));
@@ -36,7 +37,7 @@
       const started = performance.now();
       const draw = now => {
         if (!shape.isConnected) return;
-        const progress = Math.min(1,(now-started)/1200);
+        const progress = Math.max(0,Math.min(1,(now-started)/1200));
         const eased = progress*progress*(3-2*progress);
         shape.setAttribute('points',polygon(scores.map(v=>v*11*eased)));
         if(progress<1) frame=requestAnimationFrame(draw);

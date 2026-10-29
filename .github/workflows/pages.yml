@@ -794,6 +794,8 @@ jobs:
           node --check song-appreciation.js
           node --check song-appreciation-live.mjs
           node tools/test-song-difficulty.cjs
+          node --check song-preview.js
+          node tools/test-song-preview.cjs
           node tools/test-song-appreciation.mjs
           node tools/test-song-live-sync.mjs
           npm ci --prefix tools/email-qa --ignore-scripts
