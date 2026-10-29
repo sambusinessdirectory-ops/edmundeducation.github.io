@@ -1,6 +1,6 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const root=path.resolve(__dirname,'..');const sandbox={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'song-difficulty-data.js'),'utf8'),sandbox);const profiles=sandbox.window.SONG_DIFFICULTY_DATA;
-assert.equal(Object.keys(profiles).length,38);
+const profileCount=46;assert.equal(Object.keys(profiles).length,profileCount);
 for(const [slug,p] of Object.entries(profiles)){assert.equal(p.scores.length,6,slug);assert.ok(p.scores.every(v=>Number.isInteger(v)&&v>=1&&v<=10),slug);assert.ok(p.bpm>0&&p.year>=1960&&p.year<=2026,slug);assert.ok(p.genre,slug);assert.equal(p.note,undefined);assert.equal(p.sources,undefined);}
 vm.runInNewContext(fs.readFileSync(path.join(root,'song-difficulty.js'),'utf8'),sandbox);for(const [score,stars] of [[6,1],[16,1],[17,2],[27,2],[28,3],[38,3],[39,4],[49,4],[50,5],[60,5]])assert.equal(sandbox.window.SongDifficulty.starLevel(score),stars);
 
@@ -11,16 +11,16 @@ for(const field of ['bpm','year','difficulty','genre','voice'])for(const directi
  const ordered=sortSongs([...sample,{slug:'unknown'}],field+':'+direction);
  assert.equal(ordered.at(-1).slug,'unknown');
  ordered.slice(0,-2).forEach((song,i)=>assert.ok((value(ordered[i+1])-value(song))*(direction==='desc'?-1:1)>=0,field+direction));
- assert.equal(new Set(ordered.map(s=>s.slug)).size,39);
+ assert.equal(new Set(ordered.map(s=>s.slug)).size,profileCount+1);
 }
 assert.deepEqual(sortSongs(sample,'default').map(s=>s.slug),sample.map(s=>s.slug));
 vm.runInNewContext(fs.readFileSync(path.join(root,'song-preview-hooks.js'),'utf8'),sandbox);
-const hooks=sandbox.window.SONG_PREVIEW_HOOKS;assert.equal(Object.keys(hooks).length,38);
+const hooks=sandbox.window.SONG_PREVIEW_HOOKS;assert.equal(Object.keys(hooks).length,profileCount);
 const sources=fs.readdirSync(path.join(root,'tools/song-content')).filter(f=>f.endsWith('.json')).map(f=>JSON.parse(fs.readFileSync(path.join(root,'tools/song-content',f))));
 for(const [slug,hook] of Object.entries(hooks)){const source=sources.find(s=>s.slug===slug);assert.ok(source,slug);const line=source.translations.find(r=>r.lineId===hook.lineId);assert.equal(line.startSeconds,hook.start,slug);assert.equal(hook.duration,24);assert.deepEqual(Object.keys(hook).sort(),['duration','lineId','start']);}
-if(!process.env.PLAYWRIGHT_MODULE){console.log('38 difficulty profiles, metadata, six score ranges and star boundaries passed.');process.exit(0);}
+if(!process.env.PLAYWRIGHT_MODULE){console.log('46 difficulty profiles, metadata, six score ranges and star boundaries passed.');process.exit(0);}
 const {chromium}=require(process.env.PLAYWRIGHT_MODULE);
-const files=fs.readdirSync(path.join(root,'tools/song-content')).filter(f=>f.endsWith('.json'));const songs=files.map(f=>JSON.parse(fs.readFileSync(path.join(root,'tools/song-content',f)))).filter(s=>profiles[s.slug]);const seen=new Set();const catalogue=songs.filter(s=>!seen.has(s.slug)&&seen.add(s.slug)).map((s,i)=>({...s,id:`00000000-0000-4000-8000-${String(i+1).padStart(12,'0')}`,published:true}));assert.equal(catalogue.length,38);
+const files=fs.readdirSync(path.join(root,'tools/song-content')).filter(f=>f.endsWith('.json'));const songs=files.map(f=>JSON.parse(fs.readFileSync(path.join(root,'tools/song-content',f)))).filter(s=>profiles[s.slug]);const seen=new Set();const catalogue=songs.filter(s=>!seen.has(s.slug)&&seen.add(s.slug)).map((s,i)=>({...s,id:`00000000-0000-4000-8000-${String(i+1).padStart(12,'0')}`,published:true}));assert.equal(catalogue.length,profileCount);
 const session={id:'00000000-0000-4000-8000-999999999999',name:'Synthetic Student',role:'student',token:'00000000-0000-4000-8000-888888888888'};
 (async()=>{const browser=await chromium.launch({headless:true});try{const context=await browser.newContext({viewport:{width:1280,height:1000},serviceWorkers:'block'});const page=await context.newPage();let protectedLoads=0;const errors=[];page.on('pageerror',e=>errors.push(e.message));
 await context.addInitScript(({session})=>{window.qaAudios=[];const NativeAudio=window.Audio;window.Audio=function(...args){const a=new NativeAudio(...args);const nativePlay=a.play.bind(a);a.play=()=>{if(window.qaBlockOnce){window.qaBlockOnce=false;return Promise.reject(new DOMException('Blocked for test','NotAllowedError'));}return nativePlay();};window.qaAudios.push(a);return a;};sessionStorage.setItem('edmund-song-appreciation-session-v1',JSON.stringify(session));window.supabase={createClient:()=>({rpc:async(name,args)=>{const r=await fetch('/mock-rpc/'+name,{method:'POST',body:JSON.stringify(args)});return {data:await r.json(),error:null};}})};},{session});
@@ -34,7 +34,7 @@ for(const order of ['bpm:asc','bpm:desc','year:asc','year:desc','genre:asc','gen
  assert.deepEqual(titles,Array.from(sortSongs(catalogue,order),s=>s.title));
 }
 await page.locator('[data-song-search]').fill('Ed Sheeran');await sort.selectOption('year:desc');
-assert.ok(await page.locator('.song-card').count()>0);assert.ok(await page.locator('.song-card').count()<38);
+assert.ok(await page.locator('.song-card').count()>0);assert.ok(await page.locator('.song-card').count()<profileCount);
 await page.locator('[data-song-search]').fill('');await sort.selectOption('default');
 const cards=page.locator('.song-card');await cards.first().scrollIntoViewIfNeeded();
 await cards.first().hover();await page.waitForTimeout(200);assert.equal(await page.locator('.song-hook-panel').count(),0);assert.equal(protectedLoads,0,'no protected fetch before dwell');
