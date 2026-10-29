@@ -3604,7 +3604,7 @@
     }
   ],
   "audio_url": "https://edmundeducation.com/song-media/every-breath-you-take/album.mp3",
-  "cover_url": "https://edmundeducation.com/song-media/every-breath-you-take/cover.webp",
+  "cover_url": "https://edmundeducation.com/song-media/every-breath-you-take/user-cover-20261029.png",
   "sourceProvenance": {
     "pdf": {
       "filename": "_Every Breath You Take_.pdf",
@@ -3674,5 +3674,12 @@
       75
     ],
     "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-5c4f5176-9465-416f-9c76-d087f7f5bdb1.png",
+    "sha256": "8ed8be88316dde2d59ab043749f77907fa1884b3139301de76caf9bffc95c0df",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
   }
 }

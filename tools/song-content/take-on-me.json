@@ -2734,7 +2734,7 @@
     }
   ],
   "audio_url": "https://edmundeducation.com/song-media/take-on-me/album.mp3",
-  "cover_url": "https://edmundeducation.com/song-media/take-on-me/cover.webp",
+  "cover_url": "https://edmundeducation.com/song-media/take-on-me/user-cover-20261029.png",
   "sourceProvenance": {
     "pdf": {
       "filename": "《Take On Me.pdf",
@@ -2779,5 +2779,12 @@
       33
     ],
     "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-5f2f031a-d2d4-4336-a75e-75dc091882d1.png",
+    "sha256": "68d72579452282170a7620b88d873ef8423431e776f2b8de13f9f4c39022f66e",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
   }
 }

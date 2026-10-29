@@ -3279,7 +3279,7 @@
     }
   ],
   "audio_url": "https://edmundeducation.com/song-media/bohemian-rhapsody/album.mp3",
-  "cover_url": "https://edmundeducation.com/song-media/bohemian-rhapsody/cover.webp",
+  "cover_url": "https://edmundeducation.com/song-media/bohemian-rhapsody/user-cover-20261029.png",
   "sourceProvenance": {
     "pdf": {
       "filename": "_Bohemian Rhapsody_.pdf",
@@ -3320,5 +3320,12 @@
       58
     ],
     "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "Screenshot 2026-10-29 at 4.47.27 PM.png",
+    "sha256": "775b95d0771c0b08e2b63186d0531e68d5f07400746c9c5c7380d7bfd7db01c4",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
   }
 }

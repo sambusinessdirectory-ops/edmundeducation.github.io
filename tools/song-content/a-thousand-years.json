@@ -2841,7 +2841,7 @@
     }
   ],
   "audio_url": "https://edmundeducation.com/song-media/a-thousand-years/album.mp3",
-  "cover_url": "https://edmundeducation.com/song-media/a-thousand-years/cover.webp",
+  "cover_url": "https://edmundeducation.com/song-media/a-thousand-years/user-cover-20261029.png",
   "sourceProvenance": {
     "pdf": {
       "filename": "_A Thousand Years_.pdf",
@@ -2867,5 +2867,12 @@
       38
     ],
     "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "Screenshot 2026-10-29 at 4.53.38 PM.png",
+    "sha256": "5872ded6095df1b80254f643d5584df5247a2771c6ab2654c295f24bd28d5756",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
   }
 }

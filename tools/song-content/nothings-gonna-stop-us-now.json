@@ -3643,7 +3643,7 @@
     }
   ],
   "audio_url": "https://edmundeducation.com/song-media/nothings-gonna-stop-us-now/album.mp3",
-  "cover_url": "https://edmundeducation.com/song-media/nothings-gonna-stop-us-now/cover.webp",
+  "cover_url": "https://edmundeducation.com/song-media/nothings-gonna-stop-us-now/user-cover-20261029.png",
   "sourceProvenance": {
     "pdf": {
       "filename": "_Nothing's Gonna Stop Us Now_.pdf",
@@ -3682,5 +3682,12 @@
       73
     ],
     "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-14bee3a6-07f5-442d-be4e-69a2ba4f73e2.png",
+    "sha256": "541a043a6032acd98a19c6873df19af0b87bae9cf9855dce44a58a0665d9d2d9",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
   }
 }

@@ -2747,7 +2747,7 @@
     }
   ],
   "audio_url": "https://edmundeducation.com/song-media/forever-young/album.mp3",
-  "cover_url": "https://edmundeducation.com/song-media/forever-young/cover.webp",
+  "cover_url": "https://edmundeducation.com/song-media/forever-young/user-cover-20261029.png",
   "sourceProvenance": {
     "pdf": {
       "filename": "_Forever Young_.pdf",
@@ -2774,5 +2774,12 @@
       34
     ],
     "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-d55bd6ce-6a79-4ce0-9440-1b4225dba408.png",
+    "sha256": "65680ed3409d51477e8fedb3a15e97a913e6c10c1deca73f4a5f89eb58928293",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
   }
 }

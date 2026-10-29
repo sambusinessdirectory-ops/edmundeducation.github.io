@@ -2839,7 +2839,7 @@
     }
   ],
   "audio_url": "https://edmundeducation.com/song-media/somewhere-only-we-know/album.mp3",
-  "cover_url": "https://edmundeducation.com/song-media/somewhere-only-we-know/cover.webp",
+  "cover_url": "https://edmundeducation.com/song-media/somewhere-only-we-know/user-cover-20261029.png",
   "sourceProvenance": {
     "pdf": {
       "filename": "_Somewhere Only We Know_.pdf",
@@ -2866,5 +2866,12 @@
       33
     ],
     "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "Screenshot 2026-10-29 at 4.50.21 PM.png",
+    "sha256": "637a3d7bce02cb34c8f0f3c886ffc286ec60f394b768e307f638789a00693dfc",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
   }
 }

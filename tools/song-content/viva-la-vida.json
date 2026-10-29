@@ -2986,7 +2986,7 @@
     }
   ],
   "audio_url": "https://edmundeducation.com/song-media/viva-la-vida/album.mp3",
-  "cover_url": "https://edmundeducation.com/song-media/viva-la-vida/cover.webp",
+  "cover_url": "https://edmundeducation.com/song-media/viva-la-vida/user-cover-20261029.png",
   "sourceProvenance": {
     "pdf": {
       "filename": "Viva La Vida.pdf",
@@ -3024,5 +3024,12 @@
       43
     ],
     "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-e4ce8a1a-55cc-4e32-bb33-9034eb621038.png",
+    "sha256": "e5d93a4aa28dcfe0b613dd54c0d47087ef639c99c01b35138de7b018b25b214f",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
   }
 }

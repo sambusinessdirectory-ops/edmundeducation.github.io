@@ -2751,7 +2751,7 @@
     }
   ],
   "audio_url": "https://edmundeducation.com/song-media/my-way/album.mp3",
-  "cover_url": "https://edmundeducation.com/song-media/my-way/cover.webp",
+  "cover_url": "https://edmundeducation.com/song-media/my-way/user-cover-20261029.png",
   "sourceProvenance": {
     "pdf": {
       "filename": "_My Way_.pdf",
@@ -2776,5 +2776,12 @@
       34
     ],
     "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-07bf5072-65e0-4657-bcc0-db57b1d2a948.png",
+    "sha256": "5478ff45b49194c665e725c2d053adb03b29decc3dc6408ca730bdee53e04e8b",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
   }
 }

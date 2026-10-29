@@ -2996,7 +2996,7 @@
     }
   ],
   "audio_url": "https://edmundeducation.com/song-media/livin-on-a-prayer/album.mp3",
-  "cover_url": "https://edmundeducation.com/song-media/livin-on-a-prayer/cover.webp",
+  "cover_url": "https://edmundeducation.com/song-media/livin-on-a-prayer/user-cover-20261029.png",
   "sourceProvenance": {
     "pdf": {
       "filename": "_Livin' On A Prayer_.pdf",
@@ -3048,5 +3048,12 @@
       47
     ],
     "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-24334f32-edaa-46bc-8dd1-03d419ea4ec9.png",
+    "sha256": "d1f4142dd5886ff5edb5bf7833a42ccaa6048ab1c59f676d8222c461cfedfbb3",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
   }
 }

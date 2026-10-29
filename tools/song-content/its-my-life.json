@@ -3102,7 +3102,7 @@
     }
   ],
   "audio_url": "https://edmundeducation.com/song-media/its-my-life/album.mp3",
-  "cover_url": "https://edmundeducation.com/song-media/its-my-life/cover.webp",
+  "cover_url": "https://edmundeducation.com/song-media/its-my-life/user-cover-20261029.png",
   "sourceProvenance": {
     "pdf": {
       "filename": "It's my life.pdf",
@@ -3147,5 +3147,12 @@
       51
     ],
     "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-b1371364-0f69-4240-b845-a84bb94cb96f.png",
+    "sha256": "17d852cab6119ae37a6b62c5f936a5f4ab3a1bbdb99d63c2a035060a91ce5c7d",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
   }
 }

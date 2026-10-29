@@ -2691,7 +2691,7 @@
     }
   ],
   "audio_url": "https://edmundeducation.com/song-media/with-or-without-you/album.mp3",
-  "cover_url": "https://edmundeducation.com/song-media/with-or-without-you/cover.webp",
+  "cover_url": "https://edmundeducation.com/song-media/with-or-without-you/user-cover-20261029.png",
   "sourceProvenance": {
     "pdf": {
       "filename": "_With Or Without You_.pdf",
@@ -2723,5 +2723,12 @@
       32
     ],
     "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-bf619d97-7638-4966-a0c4-36687c8d4b08.png",
+    "sha256": "9d652b286f33340f38c2ef4b9b2b72c9dcd84cc13d01fce20b5187a0bc23b5df",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
   }
 }

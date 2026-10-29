@@ -3027,7 +3027,7 @@
     }
   ],
   "audio_url": "https://edmundeducation.com/song-media/perfect/album.mp3",
-  "cover_url": "https://edmundeducation.com/song-media/perfect/cover.webp",
+  "cover_url": "https://edmundeducation.com/song-media/perfect/user-cover-20261029.png",
   "sourceProvenance": {
     "pdf": {
       "filename": "_Perfect_.pdf",
@@ -3056,5 +3056,12 @@
       37
     ],
     "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-8b22ce69-0cc4-438f-9c97-fa8617efd0ad.png",
+    "sha256": "86ebe7025e6b93725072227f658215be200afdb91d35b8dc07d0b5485ebeaecd",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
   }
 }

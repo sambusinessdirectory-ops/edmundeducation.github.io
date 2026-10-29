@@ -3213,7 +3213,7 @@
     }
   ],
   "audio_url": "https://edmundeducation.com/song-media/oops-i-did-it-again/album.mp3",
-  "cover_url": "https://edmundeducation.com/song-media/oops-i-did-it-again/cover.webp",
+  "cover_url": "https://edmundeducation.com/song-media/oops-i-did-it-again/user-cover-20261029.png",
   "sourceProvenance": {
     "pdf": {
       "filename": "_Oops! ...I Did It Again_.pdf",
@@ -3260,5 +3260,12 @@
       55
     ],
     "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-de5f7169-788d-4e83-9dc1-8f95223b2c27.png",
+    "sha256": "3577a6dddba2c1d8bab3095c755982a2eed765a73c0360dfc3445cf3556790d0",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
   }
 }

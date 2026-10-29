@@ -722,7 +722,7 @@
     }
   ],
   "audio_url": "https://edmundeducation.com/song-media/the-a-team/album.mp3",
-  "cover_url": "https://edmundeducation.com/song-media/the-a-team/artist.webp",
+  "cover_url": "https://edmundeducation.com/song-media/the-a-team/user-cover-20261029.png",
   "exercises": [
     {
       "id": "standard",
@@ -3609,5 +3609,12 @@
     "method": "faster-whisper-word-alignment-with-targeted-section-review",
     "audioSha256": "4299226245cc26fbf35524ef7aaa487b5c2e5357e6963b5a1c654173be4e3aba",
     "duration": 258.7399375
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-94fca833-06c9-401f-bfc5-a8146aeeda1d.png",
+    "sha256": "8261c11568faaebf990346a1400d6a702dae13d37b547f2d659824ad89fabb8a",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
   }
 }

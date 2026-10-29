@@ -3252,7 +3252,7 @@
     }
   ],
   "audio_url": "https://edmundeducation.com/song-media/always/album.mp3",
-  "cover_url": "https://edmundeducation.com/song-media/always/cover.webp",
+  "cover_url": "https://edmundeducation.com/song-media/always/user-cover-20261029.png",
   "sourceProvenance": {
     "pdf": {
       "filename": "_Always_.pdf",
@@ -3291,5 +3291,12 @@
       57
     ],
     "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-c708be85-1ac8-4e64-8b73-a181f1c6afef.png",
+    "sha256": "9302488c7f6dbfb9318b3ed5bb0fa8424339fcb4eaa1785f7a99a73b2e4d044f",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
   }
 }
