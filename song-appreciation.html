@@ -21,8 +21,8 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="shared-system-nav.css?v=20261022-character-coins1">
-  <link rel="stylesheet" href="song-preview.css?v=20261029-preview1">
-  <link rel="stylesheet" href="song-difficulty.css?v=20261029-preview1">
+  <link rel="stylesheet" href="song-preview.css?v=20261029-preview2">
+  <link rel="stylesheet" href="song-difficulty.css?v=20261029-preview2">
   <link rel="stylesheet" href="song-appreciation.css?v=20261028-five-lessons">
   <script defer src="/pwa-register.js"></script>
 <link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261028-hover-guard1">
@@ -118,7 +118,7 @@
         </div>
         <p class="search-status" data-search-status role="status" aria-live="polite"></p>
         <div class="inline-state" data-library-state><span class="spinner" aria-hidden="true"></span><p>正在載入歌曲⋯</p></div>
-        <div class="library-filters"><button class="filter-chip" type="button" data-open-tags><svg class="song-icon" aria-hidden="true" focusable="false"><use href="/song-icons.svg#tag"></use></svg> 選擇標籤</button><span data-selected-tags></span><button class="filter-chip" type="button" data-favorites-only aria-pressed="false"><svg class="song-icon" aria-hidden="true" focusable="false"><use href="/song-icons.svg#star"></use></svg> 只看收藏歌曲</button></div><div class="song-grid" data-song-grid hidden></div>
+        <div class="library-filters"><button class="filter-chip" type="button" data-open-tags><svg class="song-icon" aria-hidden="true" focusable="false"><use href="/song-icons.svg#tag"></use></svg> 選擇標籤</button><span data-selected-tags></span><button class="filter-chip" type="button" data-favorites-only aria-pressed="false"><svg class="song-icon" aria-hidden="true" focusable="false"><use href="/song-icons.svg#star"></use></svg> 只看收藏歌曲</button><label class="song-sort-control"><span>排序</span><select data-song-sort aria-label="歌曲排序"><option value="default">原來順序</option><option value="bpm:asc">BPM · 慢 → 快</option><option value="bpm:desc">BPM · 快 → 慢</option><option value="year:asc">年份 · 舊 → 新</option><option value="year:desc">年份 · 新 → 舊</option><option value="genre:asc">曲風 · Pop 優先</option><option value="genre:desc">曲風 · 其他曲風優先</option><option value="difficulty:asc">難度 · 低分 → 高分</option><option value="difficulty:desc">難度 · 高分 → 低分</option><option value="voice:asc">人聲 · 女聲 → 合唱 → 男聲</option><option value="voice:desc">人聲 · 男聲 → 合唱 → 女聲</option></select></label></div><div class="song-grid" data-song-grid hidden></div>
       </section>
 
       <section class="student-page" data-page="song" hidden>
@@ -241,10 +241,10 @@
   <script src="supabase-config.js?v=20260909-study1"></script>
   <script src="song-appreciation-config.js?v=20260909-human1"></script>
   <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script><script src="shared-system-nav.js?v=20261026-daily-visit1"></script>
-  <script src="song-preview-hooks.js?v=20261029-preview1"></script>
-  <script src="song-preview.js?v=20261029-preview1"></script>
-  <script src="song-difficulty-data.js?v=20261029-preview1"></script>
-  <script src="song-difficulty.js?v=20261029-preview1"></script>
-  <script src="song-appreciation.js?v=20261029-preview1"></script>
+  <script src="song-preview-hooks.js?v=20261029-preview2"></script>
+  <script src="song-preview.js?v=20261029-preview2"></script>
+  <script src="song-difficulty-data.js?v=20261029-preview2"></script>
+  <script src="song-difficulty.js?v=20261029-preview2"></script>
+  <script src="song-appreciation.js?v=20261029-preview2"></script>
 </body>
 </html>

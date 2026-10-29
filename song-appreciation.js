@@ -467,7 +467,8 @@
   function renderLibrary() {
     window.SongPreview?.stop();
     const query = normalizeSpace($("[data-song-search]")?.value).toLocaleLowerCase("en");
-    const songs = state.songs.filter(song => (!query || songHaystack(song).includes(query)) && (!state.favoritesOnly || songIsFavorite(song.id)) && (!state.selectedTags.length || state.selectedTags.some(tag => song.tags.includes(tag))));
+    let songs = state.songs.filter(song => (!query || songHaystack(song).includes(query)) && (!state.favoritesOnly || songIsFavorite(song.id)) && (!state.selectedTags.length || state.selectedTags.some(tag => song.tags.includes(tag))));
+    songs = window.SongDifficulty?.sortSongs(songs, $("[data-song-sort]")?.value) || songs;
     renderSelectedTags();
     const grid = $("[data-song-grid]");
     grid.replaceChildren();
@@ -1967,6 +1968,7 @@
     $$("[data-route]").forEach(button => button.addEventListener("click", () => routeStudent(button.dataset.route)));
     $$("[data-song-tab]").forEach(button => button.addEventListener("click", () => switchSongTab(button.dataset.songTab)));
     $$("[data-open-tab]").forEach(button => button.addEventListener("click", () => switchSongTab(button.dataset.openTab)));
+    $("[data-song-sort]").addEventListener("change", renderLibrary);
     $("[data-song-search]").addEventListener("input", event => { $("[data-clear-search]").hidden = !event.target.value; renderLibrary(); });
     $("[data-clear-search]").addEventListener("click", () => { $("[data-song-search]").value = ""; $("[data-clear-search]").hidden = true; renderLibrary(); $("[data-song-search]").focus(); });
     $("[data-dashboard-toggle]").addEventListener("click", () => setDashboardExpanded($("[data-dashboard-toggle]").getAttribute("aria-expanded") !== "true"));

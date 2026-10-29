@@ -10,7 +10,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 102,
     "year": 1988,
-    "genre": "Pop rock"
+    "genre": "Pop rock",
+    "vocals": "male"
   },
   "thinking-out-loud-ed-sheeran": {
     "scores": [
@@ -23,7 +24,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 79,
     "year": 2014,
-    "genre": "Pop / Soul"
+    "genre": "Pop / Soul",
+    "vocals": "male"
   },
   "take-on-me": {
     "scores": [
@@ -36,7 +38,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 169,
     "year": 1985,
-    "genre": "Synth-pop"
+    "genre": "Synth-pop",
+    "vocals": "male"
   },
   "with-or-without-you": {
     "scores": [
@@ -49,7 +52,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 110,
     "year": 1987,
-    "genre": "Rock"
+    "genre": "Rock",
+    "vocals": "male"
   },
   "imagine": {
     "scores": [
@@ -62,7 +66,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 75,
     "year": 1971,
-    "genre": "Soft rock"
+    "genre": "Soft rock",
+    "vocals": "male"
   },
   "if-bread": {
     "scores": [
@@ -75,7 +80,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 98,
     "year": 1971,
-    "genre": "Soft rock"
+    "genre": "Soft rock",
+    "vocals": "male"
   },
   "all-of-me": {
     "scores": [
@@ -88,7 +94,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 120,
     "year": 2013,
-    "genre": "Pop / Soul"
+    "genre": "Pop / Soul",
+    "vocals": "male"
   },
   "forever-young": {
     "scores": [
@@ -101,7 +108,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 137,
     "year": 1984,
-    "genre": "Synth-pop"
+    "genre": "Synth-pop",
+    "vocals": "male"
   },
   "a-thousand-years": {
     "scores": [
@@ -114,7 +122,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 50,
     "year": 2011,
-    "genre": "Pop ballad"
+    "genre": "Pop ballad",
+    "vocals": "female"
   },
   "its-my-life": {
     "scores": [
@@ -127,7 +136,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 120,
     "year": 2000,
-    "genre": "Hard rock / Pop rock"
+    "genre": "Hard rock / Pop rock",
+    "vocals": "male"
   },
   "every-breath-you-take": {
     "scores": [
@@ -140,7 +150,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 117,
     "year": 1983,
-    "genre": "Pop rock"
+    "genre": "Pop rock",
+    "vocals": "male"
   },
   "happier": {
     "scores": [
@@ -153,7 +164,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 90,
     "year": 2017,
-    "genre": "Pop ballad"
+    "genre": "Pop ballad",
+    "vocals": "male"
   },
   "nothings-gonna-stop-us-now": {
     "scores": [
@@ -166,7 +178,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 96,
     "year": 1987,
-    "genre": "Pop rock"
+    "genre": "Pop rock",
+    "vocals": "mixed"
   },
   "somebody-that-i-used-to-know": {
     "scores": [
@@ -179,7 +192,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 129,
     "year": 2011,
-    "genre": "Art pop / Alternative"
+    "genre": "Art pop / Alternative",
+    "vocals": "mixed"
   },
   "africa": {
     "scores": [
@@ -192,7 +206,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 93,
     "year": 1982,
-    "genre": "Soft rock"
+    "genre": "Soft rock",
+    "vocals": "male"
   },
   "somewhere-only-we-know": {
     "scores": [
@@ -205,7 +220,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 172,
     "year": 2004,
-    "genre": "Alternative rock"
+    "genre": "Alternative rock",
+    "vocals": "male"
   },
   "oops-i-did-it-again": {
     "scores": [
@@ -218,7 +234,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 95,
     "year": 2000,
-    "genre": "Dance-pop"
+    "genre": "Dance-pop",
+    "vocals": "female"
   },
   "livin-on-a-prayer": {
     "scores": [
@@ -231,7 +248,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 123,
     "year": 1986,
-    "genre": "Hard rock"
+    "genre": "Hard rock",
+    "vocals": "male"
   },
   "open-arms-journey": {
     "scores": [
@@ -244,7 +262,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 101,
     "year": 1981,
-    "genre": "Soft rock"
+    "genre": "Soft rock",
+    "vocals": "male"
   },
   "everything-i-own": {
     "scores": [
@@ -257,7 +276,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 79,
     "year": 1972,
-    "genre": "Soft rock"
+    "genre": "Soft rock",
+    "vocals": "male"
   },
   "fly-me-to-the-moon": {
     "scores": [
@@ -270,7 +290,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 119,
     "year": 1964,
-    "genre": "Jazz / Swing"
+    "genre": "Jazz / Swing",
+    "vocals": "male"
   },
   "bohemian-rhapsody": {
     "scores": [
@@ -283,7 +304,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 72,
     "year": 1975,
-    "genre": "Progressive rock"
+    "genre": "Progressive rock",
+    "vocals": "male"
   },
   "a-sky-full-of-stars": {
     "scores": [
@@ -296,7 +318,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 125,
     "year": 2014,
-    "genre": "EDM / Pop rock"
+    "genre": "EDM / Pop rock",
+    "vocals": "male"
   },
   "i-dont-want-to-miss-a-thing": {
     "scores": [
@@ -309,7 +332,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 121,
     "year": 1998,
-    "genre": "Rock ballad"
+    "genre": "Rock ballad",
+    "vocals": "male"
   },
   "i-want-it-that-way": {
     "scores": [
@@ -322,7 +346,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 99,
     "year": 1999,
-    "genre": "Pop"
+    "genre": "Pop",
+    "vocals": "male"
   },
   "dont-stop-believin": {
     "scores": [
@@ -335,7 +360,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 119,
     "year": 1981,
-    "genre": "Arena rock"
+    "genre": "Arena rock",
+    "vocals": "male"
   },
   "shake-it-off-taylor-swift": {
     "scores": [
@@ -348,7 +374,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 160,
     "year": 2014,
-    "genre": "Dance-pop"
+    "genre": "Dance-pop",
+    "vocals": "female"
   },
   "photograph-ed-sheeran": {
     "scores": [
@@ -361,7 +388,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 108,
     "year": 2014,
-    "genre": "Folk-pop"
+    "genre": "Folk-pop",
+    "vocals": "male"
   },
   "million-reasons": {
     "scores": [
@@ -374,7 +402,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 130,
     "year": 2016,
-    "genre": "Country-pop"
+    "genre": "Country-pop",
+    "vocals": "female"
   },
   "viva-la-vida": {
     "scores": [
@@ -387,7 +416,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 138,
     "year": 2008,
-    "genre": "Art rock / Baroque pop"
+    "genre": "Art rock / Baroque pop",
+    "vocals": "male"
   },
   "iris": {
     "scores": [
@@ -400,7 +430,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 51,
     "year": 1998,
-    "genre": "Alternative rock"
+    "genre": "Alternative rock",
+    "vocals": "male"
   },
   "perfect": {
     "scores": [
@@ -413,7 +444,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 97,
     "year": 2017,
-    "genre": "Pop ballad"
+    "genre": "Pop ballad",
+    "vocals": "male"
   },
   "everything-has-changed": {
     "scores": [
@@ -426,7 +458,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 80,
     "year": 2012,
-    "genre": "Folk-pop"
+    "genre": "Folk-pop",
+    "vocals": "mixed"
   },
   "always": {
     "scores": [
@@ -439,7 +472,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 72,
     "year": 1994,
-    "genre": "Soft rock"
+    "genre": "Soft rock",
+    "vocals": "male"
   },
   "my-way": {
     "scores": [
@@ -452,7 +486,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 76,
     "year": 1969,
-    "genre": "Traditional pop"
+    "genre": "Traditional pop",
+    "vocals": "male"
   },
   "the-a-team": {
     "scores": [
@@ -465,7 +500,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 85,
     "year": 2011,
-    "genre": "Folk"
+    "genre": "Folk",
+    "vocals": "male"
   },
   "my-love": {
     "scores": [
@@ -478,7 +514,8 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 72,
     "year": 2000,
-    "genre": "Pop ballad"
+    "genre": "Pop ballad",
+    "vocals": "male"
   },
   "i-lay-my-love-on-you": {
     "scores": [
@@ -491,6 +528,7 @@ window.SONG_DIFFICULTY_DATA = {
     ],
     "bpm": 103,
     "year": 2000,
-    "genre": "Pop"
+    "genre": "Pop",
+    "vocals": "male"
   }
 };

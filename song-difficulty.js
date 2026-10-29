@@ -6,6 +6,22 @@
   const starLevel = total => total<=16?1:total<=27?2:total<=38?3:total<=49?4:5;
   const getData = song => window.SONG_DIFFICULTY_DATA?.[song.slug];
   const element = (tag, className, text) => {const el=document.createElement(tag);if(className)el.className=className;if(text!==undefined)el.textContent=text;return el;};
+  // Missing metadata always stays last; ties keep the catalogue's original order.
+  function sortSongs(songs, order) {
+    const keys={bpm:'bpm',year:'year',difficulty:'scores',genre:'genre',voice:'vocals'};
+    const [field,direction]=String(order).split(':');
+    if(!keys[field])return songs.slice();
+    const value=song=>{const d=getData(song);if(!d)return null;
+      if(field==='difficulty')return Array.isArray(d.scores)?d.scores.reduce((a,b)=>a+b,0):null;
+      if(field==='genre')return d.genre?(/pop/i.test(d.genre)?0:1):null;
+      if(field==='voice')return ({female:0,mixed:1,male:2})[d.vocals]??null;
+      return Number.isFinite(d[field])?d[field]:null;
+    };
+    return songs.map((song,index)=>({song,index,value:value(song)})).sort((a,b)=>{
+      if(a.value===null||b.value===null)return a.value===b.value?a.index-b.index:a.value===null?1:-1;
+      return (a.value-b.value)*(direction==='desc'?-1:1)||a.index-b.index;
+    }).map(entry=>entry.song);
+  }
   function stars(data) {const total=data.scores.reduce((a,b)=>a+b,0), level=starLevel(total);const el=element('span','difficulty-stars','★'.repeat(level)+'☆'.repeat(5-level));el.setAttribute('aria-label',`難度 ${level} / 5 星，${total} / 60 分`);return el;}
   function card(song) {
     const data=getData(song);if(!data)return null;
@@ -58,5 +74,5 @@
     const list=element('dl','difficulty-values');scores.forEach((v,i)=>{const row=element('div','difficulty-value');const dt=element('dt');dt.append(element('span','',labels[i]),element('small','',english[i]));const dd=element('dd','',v+' / 10');const meter=element('div','difficulty-meter');meter.setAttribute('aria-hidden','true');const fill=element('span');fill.style.width=(v*10)+'%';meter.append(fill);row.append(dt,dd,meter);list.append(row);});section.append(list);
     return section;
   }
-  window.SongDifficulty=Object.freeze({panel,card,starLevel});
+  window.SongDifficulty=Object.freeze({panel,card,starLevel,sortSongs});
 })();
