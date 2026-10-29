@@ -1,7 +1,8 @@
 (() => {
   'use strict';
-  const labels = ['用字','字量','速度','清晰度','連讀與弱讀','俚語與俗語'];
-  const english = ['Lexical resources','Lyrical density','Speed / BPM','Vocal clarity','Connected speech & reductions','Slang & idioms'];
+  // Every score measures difficulty: higher vocal-decoding scores mean harder to hear.
+  const labels = ['用字','字量','速度','辨音難度','連讀與弱讀','俚語與俗語'];
+  const english = ['Lexical resources','Lyrical density','Speed / BPM','Vocal decoding difficulty','Connected speech & reductions','Slang & idioms'];
   let entranceObserver;
   const starLevel = total => total<=16?1:total<=27?2:total<=38?3:total<=49?4:5;
   const getData = song => window.SONG_DIFFICULTY_DATA?.[song.slug];
