@@ -1,6 +1,6 @@
 const fs=require('fs'),path=require('path'),http=require('http'),assert=require('node:assert/strict'),{execFileSync}=require('child_process');
 const {chromium}=require(process.env.HOME+'/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
-const root=path.resolve(__dirname,'..');execFileSync('python3',[path.join(root,'tools/build-policy-discussion.py')]);const content=JSON.parse(fs.readFileSync('/private/tmp/policy-discussion-content.json'));
+const root=path.resolve(__dirname,'..'),contentPath=path.join(require('os').tmpdir(),'policy-discussion-content.json');execFileSync('python3',[path.join(root,'tools/build-policy-discussion.py'),contentPath]);const content=JSON.parse(fs.readFileSync(contentPath));
 const server=http.createServer((req,res)=>{const file=path.resolve(root,'.'+new URL(req.url,'http://local').pathname);if(!file.startsWith(root+'/'))return res.writeHead(403).end();fs.readFile(file,(e,b)=>{res.writeHead(e?404:200,{'Content-Type':({'.js':'text/javascript','.mjs':'text/javascript','.css':'text/css','.webp':'image/webp','.png':'image/png'})[path.extname(file)]||'text/html'});res.end(e?'':b);});});
 (async()=>{await new Promise(r=>server.listen(0,'127.0.0.1',r));const browser=await chromium.launch({headless:true});try{
  const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
