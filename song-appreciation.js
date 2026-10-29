@@ -1064,31 +1064,38 @@
     updateExerciseProgress();
   }
 
-  async function startExercise(modeId) {
+  async function startExercise(modeId, joining = false) {
     const startGeneration=state.exerciseStartGeneration=(state.exerciseStartGeneration||0)+1;
     const song = state.activeSong;
     const mode = song?.modes.find(item => item.id === modeId);
     if (!song || !mode) return;
     if(state.exercise && !state.exercise.submitted){try{await flushDraft();}catch(error){toast("請先同步或載入雲端進度，再切換難度。","error");return;}}
     if(state.activeSong!==song || state.exerciseStartGeneration!==startGeneration)return;
+    if(!joining){
+      try{const data=await roomRequest('start',{p_session:crypto.randomUUID(),p_song:song.id,p_mode:mode.id,p_version:mode.version});acceptRoom(data);if(!data.accepted){toast('已有進行中的課堂，請按下方「加入練習」。');return;}classroom.joined=data.session.id;classroom.revision=-1;}
+      catch(e){toast('未能建立同步課堂，請檢查連線後重試。','error');return;}
+    }
     resetExercise();
-    const draft=draftForMode(song.id,mode);
-    state.exercise = { songId:song.id,ownerId:state.session.id,mode, answers: {...(draft?.answers||{})},results:draft?.result||{},revision:Number(draft?.revision||0),dirty:Boolean(draft?.dirty),pendingDraft:draft?.pending||null,pendingSubmission:draft?.pendingSubmission||null,editSequence:draft?.editSequence||0,conflict:Boolean(draft?.conflict), locked: hasSongAudio(song), submitted: false, startedAt: draft?.started_at||new Date().toISOString(), activeSeconds: Number(draft?.duration_ms||0)/1000, clockStarted: 0 };
+    const savedLocal=readLocalDrafts()[draftIdentity(song.id,mode.id)];
+    const draft=joining&&!(savedLocal?.dirty||savedLocal?.pending||savedLocal?.pendingSubmission)?state.drafts[draftIdentity(song.id,mode.id)]:draftForMode(song.id,mode);
+    state.exercise = { songId:song.id,ownerId:state.session.id,mode, answers: {...(draft?.answers||{})},results:draft?.result||{},revision:Number(draft?.revision||0),dirty:Boolean(draft?.dirty),pendingDraft:draft?.pending||null,pendingSubmission:draft?.pendingSubmission||null,editSequence:draft?.editSequence||0,localEdits:draft?.localEdits||{},conflict:Boolean(draft?.conflict), locked: hasSongAudio(song), submitted: false, startedAt: draft?.started_at||classroom.room?.started_at||new Date().toISOString(), activeSeconds: Number(draft?.duration_ms||0)/1000, clockStarted: 0 };
     $("[data-mode-grid]").hidden = true;
     $("[data-exercise-stage]").hidden = false;
     $("[data-mode-title]").textContent = `${mode.label} · ${mode.questionCount} 題`;
     $("[data-relisten]").hidden = false;
     renderExerciseQuestions();
     if(draft?.needsReset){state.exercise.dirty=true;try{await flushDraft("reset");}catch{toast("請連線後重設已完成的練習。","error");return;}}
+    if(joining){state.exercise.liveFollowing=!(draft?.dirty||draft?.pending||draft?.pendingSubmission);state.exercise.locked=false;}
     startExerciseClock();
     setDraftStatus(draft?"已恢復上次的練習進度":"選擇答案後會自動儲存。");
     if(state.exercise.dirty || state.exercise.pendingDraft)void flushDraft().catch(()=>{});
-    if (hasSongAudio(song)) {
+    if (hasSongAudio(song) && !joining) {
       startReadCountdown();
     } else {
       state.exercise.locked = false;
       renderExerciseQuestions();
     }
+    renderClassroom();
     $("[data-exercise-stage]").scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
@@ -1117,7 +1124,7 @@
   function startExerciseClock() {
     if (!state.exercise || state.exercise.liveFollowing || state.exercise.submitted || state.exercise.clockStarted) return;
     state.exercise.clockStarted = performance.now();
-    state.exerciseTimer = window.setInterval(() => { updateExerciseProgress();const e=state.exercise;if(e && Object.keys(e.answers).length && Date.now()-(e.lastDraftTick||0)>15000){e.lastDraftTick=Date.now();queueDraftSave();}}, 1000);
+    state.exerciseTimer = window.setInterval(() => { updateExerciseProgress();const e=state.exercise;if(e && !roomMatches() && Object.keys(e.answers).length && Date.now()-(e.lastDraftTick||0)>15000){e.lastDraftTick=Date.now();queueDraftSave();}}, 1000);
   }
 
   function pauseExerciseClock() {
@@ -1125,7 +1132,7 @@
     state.exercise.activeSeconds += Math.max(0, (performance.now() - state.exercise.clockStarted) / 1000);
     state.exercise.clockStarted = 0;
     window.clearInterval(state.exerciseTimer); state.exerciseTimer = 0;
-    if(Object.keys(state.exercise.answers).length && !state.exercise.submitted)queueDraftSave();
+    if(!roomMatches() && Object.keys(state.exercise.answers).length && !state.exercise.submitted)queueDraftSave();
   }
 
   function startReadCountdown() {
@@ -1157,6 +1164,7 @@
     if (state.exercise) state.exercise.locked = false;
     renderExerciseQuestions();
     playPlayer(true);
+    setTimeout(()=>publishRoomMedia(true),100);
   }
 
   function chooseAnswer(number, option) {
@@ -1164,6 +1172,7 @@
     if (!exercise || exercise.locked || exercise.submitted || exercise.submitting || exercise.checking || exercise.pendingSubmission || exercise.results?.[number] || exercise.conflict) return;
     exercise.liveFollowing=false;
     startExerciseClock();
+    exercise.localEdits ||= {};exercise.localEdits[number]=option;
     exercise.answers[number] = option;
     queueDraftSave();
     const card = $(`[data-question="${number}"]`);
@@ -1247,7 +1256,7 @@
     pauseExerciseClock();
     exercise.submitting = true;
     exercise.pendingSubmission ||= {
-      attemptId: crypto.randomUUID(),
+      attemptId: roomMatches()?classroom.joined:crypto.randomUUID(),
       songId: song.id,
       modeId: exercise.mode.id,
       exerciseVersion: exercise.mode.version,
@@ -1306,7 +1315,7 @@
       answers: exercise.answers, result: exercise.results, revision: exercise.revision,
       duration_ms: Math.round(elapsedExerciseSeconds(exercise) * 1000), started_at: exercise.startedAt,
       dirty: exercise.dirty, pending: exercise.pendingDraft ? {...exercise.pendingDraft,args:{...exercise.pendingDraft.args,p_student_token:undefined}} : null, pendingSubmission: exercise.pendingSubmission,
-      editSequence: exercise.editSequence
+      localEdits:exercise.localEdits,editSequence: exercise.editSequence
     };
     try { localStorage.setItem(studyStorageKey(), JSON.stringify(drafts)); }
     catch { /* Cloud saving continues when local storage is unavailable. */ }
@@ -1341,22 +1350,34 @@
     if(exercise.conflict) {setDraftStatus('其他裝置有較新的進度。請重新載入雲端進度後再繼續。',true);throw new Error('Draft conflict');}
     const current=()=>state.session?.id===session.id && state.session?.token===session.token && state.exercise===exercise;
     const send=async pending=>{
-      const row=firstRow(await rpc(CONFIG.rpc.saveDraft,{...pending.args,p_student_token:session.token}));
+      let row;
+      try{row=firstRow(await rpc(CONFIG.rpc.saveDraft,{...pending.args,p_student_token:session.token}));}
+      catch(error){
+        if(error.code!=='40001'||!roomMatches()||pending.args.p_action!=='save'||(pending.retries||0)>=2)throw error;
+        const snapshot=await readLiveExercise({p_student_token:session.token,p_song_id:exercise.songId,p_mode_id:exercise.mode.id,p_exercise_version:exercise.mode.version,p_since:''});
+        const remote=snapshot?.payload?.draft;if(!remote||snapshot.payload.attempt||!current())throw error;
+        const edits=pending.edits||{};const merged={...remote.answers};for(const [key,value] of Object.entries(edits))if(!remote.result?.[key])merged[key]=value;
+        pending.args={...pending.args,p_answers:merged,p_expected_revision:Number(remote.revision),p_mutation_id:crypto.randomUUID()};pending.retries=(pending.retries||0)+1;
+        exercise.answers={...merged,...exercise.localEdits};for(const [key,result] of Object.entries(remote.result||{}))exercise.answers[key]=result.selected;
+        storeLocalDraft(exercise);return send(pending);
+      }
       if(!row || row.song_id!==exercise.songId || row.mode_id!==exercise.mode.id || row.mutation_id!==pending.args.p_mutation_id || !Number.isFinite(Number(row.revision)))throw new Error('資料服務未確認進度已儲存。');
       if(Object.keys(row.answers||{}).length!==Object.keys(pending.args.p_answers).length || Object.entries(pending.args.p_answers).some(([k,v])=>row.answers?.[k]!==v))throw new Error('儲存回應的答案不一致。');
       for(const [k,result] of Object.entries(row.result||{})) {const q=exercise.mode.questions.find(q=>String(q.number)===k);if(!q||result.selected!==pending.args.p_answers[k]||!q.options.includes(result.answer)||typeof result.correct!=='boolean'||result.correct!==(result.selected===result.answer))throw new Error('核對回應無效。');}
       if(!current())return;
+      for(const [key,value] of Object.entries(pending.edits||{}))if(exercise.localEdits?.[key]===value)delete exercise.localEdits[key];
       exercise.revision=Number(row.revision);exercise.results=row.result||{};exercise.pendingDraft=null;
       exercise.dirty=exercise.editSequence!==pending.sequence;
       state.drafts[draftIdentity(exercise.songId,exercise.mode.id)]=row;
       storeLocalDraft(exercise);
+      if(pending.retries)renderExerciseQuestions();
       setDraftStatus(exercise.dirty?'正在儲存最新選擇…':'進度已儲存，可登出後繼續');
     };
     const run=async()=>{
       if(exercise.pendingDraft) await send(exercise.pendingDraft);
       if(!current())return;
       if(!exercise.dirty && action==='save')return;
-      const pending={sequence:exercise.editSequence,args:{
+      const pending={sequence:exercise.editSequence,edits:{...exercise.localEdits},args:{
         p_student_token:session.token,p_song_id:exercise.songId,p_mode_id:exercise.mode.id,
         p_exercise_version:exercise.mode.version,p_answers:{...exercise.answers},
         p_duration_ms:Math.round(elapsedExerciseSeconds(exercise)*1000),p_started_at:exercise.startedAt,
@@ -1400,7 +1421,7 @@
   async function reloadCloudDraft() {
     const exercise=state.exercise;if(!exercise)return;
     if(!window.confirm('載入雲端版本？此裝置尚未同步的選擇將被雲端進度取代。'))return;
-    try{const rows=await rpc(CONFIG.rpc.listDrafts,{p_student_token:state.session.token});state.drafts=Object.fromEntries(asArray(rows).map(row=>[draftIdentity(row.song_id,row.mode_id),row]));const saved=readLocalDrafts();delete saved[draftIdentity(exercise.songId,exercise.mode.id)];localStorage.setItem(studyStorageKey(),JSON.stringify(saved));exercise.submitted=true;startExercise(exercise.mode.id);}catch(error){toast(error.message,'error');}
+    try{const rows=await rpc(CONFIG.rpc.listDrafts,{p_student_token:state.session.token});state.drafts=Object.fromEntries(asArray(rows).map(row=>[draftIdentity(row.song_id,row.mode_id),row]));const saved=readLocalDrafts();delete saved[draftIdentity(exercise.songId,exercise.mode.id)];localStorage.setItem(studyStorageKey(),JSON.stringify(saved));exercise.submitted=true;startExercise(exercise.mode.id,Boolean(roomMatches()));}catch(error){toast(error.message,'error');}
   }
   function songIsFavorite(songId) { return state.bookmarks.some(b=>b.kind==='song' && b.songId===songId); }
   async function toggleFavorite(song) {
@@ -1448,7 +1469,7 @@
   }
   function capturePlaybackChunk() {
     if(!state.playbackStarted)return;
-    state.playbackPending+=Math.max(0,(performance.now()-state.playbackStarted)/1000);state.playbackStarted=performance.now();
+    if(!roomMatches()||classroom.room.owner===classroom.device)state.playbackPending+=Math.max(0,(performance.now()-state.playbackStarted)/1000);state.playbackStarted=performance.now();
   }
   function flushPlayback() {
     capturePlaybackChunk();
@@ -1481,7 +1502,7 @@
     const original=$('[data-player-controls]');
     bar.hidden=!(state.playerReady&&$('[data-countdown]').hidden&&state.activeRoute==='song'&&['translation','exercise','vocabulary'].includes(state.activeTab)&&original.getBoundingClientRect().bottom<=top);
   }
-  function setPlaybackRate(value) {if(!state.playerReady)return;const rates=state.player.getAvailablePlaybackRates?.()||[1];if(rates.includes(Number(value)))state.player.setPlaybackRate(Number(value));}
+  function setPlaybackRate(value) {if(!state.playerReady)return;const rates=state.player.getAvailablePlaybackRates?.()||[1];if(rates.includes(Number(value)))state.player.setPlaybackRate(Number(value));setTimeout(publishRoomMedia,100);}
 
   function mountAudioPlayer(song) {
     const generation = ++state.playerGeneration;
@@ -1779,14 +1800,16 @@
   function pausePlayer() { try { state.player?.pauseVideo?.(); } catch { /* Best effort. */ } }
   function togglePlayer() {
     if (!state.playerReady) return;
-    if (state.playerState === 1) pausePlayer(); else playPlayer();
+    const playing=state.playerState!==1;
+    if (!playing) pausePlayer(); else playPlayer();
+    setTimeout(()=>publishRoomMedia(playing),100);
   }
   function seekPlayer(delta) {
     if (!state.playerReady) return;
-    try { const current = Number(state.player.getCurrentTime()) || 0; const duration = Number(state.player.getDuration()) || Infinity; state.player.seekTo(clamp(current + delta, 0, duration), true); } catch { /* Player may be transitioning. */ }
+    try { const current = Number(state.player.getCurrentTime()) || 0; const duration = Number(state.player.getDuration()) || Infinity; state.player.seekTo(clamp(current + delta, 0, duration), true);setTimeout(publishRoomMedia,100); } catch { /* Player may be transitioning. */ }
   }
-  function seekPlayerTo(value) { if(!state.playerReady)return;try{state.player.seekTo(clamp(Number(value),0,Number(state.player.getDuration())||0),true);syncLyricsToPlayback();}catch{/* Player may be transitioning. */} }
-  function relisten() { if (!state.playerReady) return; try { state.player.seekTo(0, true); state.player.playVideo(); $("[data-autoplay-note]").hidden = true; } catch { /* Best effort. */ } }
+  function seekPlayerTo(value) { if(!state.playerReady)return;try{state.player.seekTo(clamp(Number(value),0,Number(state.player.getDuration())||0),true);syncLyricsToPlayback();clearTimeout(classroom.seekTimer);classroom.seekTimer=setTimeout(publishRoomMedia,150);}catch{/* Player may be transitioning. */} }
+  function relisten() { if (!state.playerReady) return; try { state.player.seekTo(0, true); state.player.playVideo(); $("[data-autoplay-note]").hidden = true;setTimeout(()=>publishRoomMedia(true),100); } catch { /* Best effort. */ } }
 
   async function enterAdmin() {
     showAuthenticatedHeader(state.session);
@@ -2013,10 +2036,82 @@
     }
   }
 
+  const classroom={device:crypto.randomUUID(),joined:null,room:null,revision:-1,busy:false,joining:false,commands:0,chain:Promise.resolve(),next:0,token:null};
+  function roomMatches(){return classroom.joined&&classroom.room?.id===classroom.joined&&state.activeRoute==='song'&&state.exercise?.songId===classroom.room.song&&state.exercise?.mode.id===classroom.room.mode;}
+  async function roomRequest(action='poll',extra={}){
+    const token=state.session?.token;
+    if(!token||state.session?.role!=='student')throw Error('請先登入');
+    if(action!=='poll')classroom.epoch=(classroom.epoch||0)+1;
+    classroom.token=token;
+    await readLiveExercise(null); // Establish the authenticated transport, without reading a draft.
+    const {data,error}=await liveClient.rpc('song_appreciation_room',{p_token:token,p_device:classroom.device,p_action:action,p_session:classroom.joined,...extra}).abortSignal(AbortSignal.timeout(15000));
+    if(error)throw error;if(token!==state.session?.token)throw Error('登入已變更');return data;
+  }
+  function renderClassroom(message){
+    let bar=$('[data-classroom-bar]');if(!bar){bar=document.createElement('aside');bar.dataset.classroomBar='';bar.className='song-classroom-bar';bar.setAttribute('aria-label','同步課堂');document.body.append(bar);}
+    bar.hidden=state.session?.role!=='student';if(bar.hidden)return;
+    const r=classroom.room;const signature=JSON.stringify([r?.id,Boolean(roomMatches()),message]);if(bar.dataset.signature===signature)return;bar.dataset.signature=signature;bar.replaceChildren();const label=document.createElement('span');label.setAttribute('role','status');label.textContent=message||(r?(roomMatches()?'已加入同步課堂 · 雙方可作答及控制音樂':'另一裝置已開始練習，請加入同一課堂'):'同步課堂已連線 · 選擇難度開始練習');bar.append(label);
+    if(r&&!roomMatches())bar.append(makeButton('加入練習',()=>void joinClassroom(),'primary-button'));
+    if(roomMatches()){
+      bar.append(makeButton('開啟本機聲音',()=>{applyRoomMedia(true);},'secondary-button'));
+      bar.append(makeButton('結束同步課堂',async()=>{if(!confirm('結束兩部裝置的同步課堂？已儲存的答案會保留。'))return;try{await flushDraft();const data=await roomRequest('end');acceptRoom(data);}catch(e){renderClassroom(e.message);}},'secondary-button'));
+    }
+  }
+  function acceptRoom(data){
+    classroom.room=data.session;
+    if(classroom.joined&&classroom.joined!==data.session?.id){classroom.joined=null;classroom.revision=-1;cancelReadCountdown();pausePlayer();}
+    renderClassroom(!data.session&&data.devices>1?`${data.devices} 部裝置已連線 · 由學生選擇難度開始，另一部裝置再加入`:undefined);
+    applyRoomMedia();
+  }
+  function applyRoomMedia(force=false){
+    const r=classroom.room,m=r?.media;
+    if(!roomMatches()||!m||!state.playerReady||classroom.commands||(!force&&r.revision<=classroom.revision))return;
+    classroom.revision=r.revision;
+    const elapsed=Math.max(0,(Date.now()-(classroom.serverOffset||0)-Date.parse(m.at))/1000);
+    const position=Math.min(Number(state.player.getDuration())||86400,Number(m.position)+(m.playing?elapsed*Number(m.rate):0));
+    window.clearInterval(state.countdownTimer);state.countdownTimer=0;$('[data-countdown]').hidden=true;
+    if(state.exercise.locked){state.exercise.locked=false;renderExerciseQuestions();}
+    try{state.player.setPlaybackRate?.(Number(m.rate));state.player.seekTo(position,true);if(m.playing){state.player.playVideo();setTimeout(()=>{if(roomMatches()&&state.playerState!==1)renderClassroom('瀏覽器尚未允許聲音，請按「開啟本機聲音」。');},1200);}else state.player.pauseVideo();}catch{renderClassroom('請按「開啟本機聲音」啟用播放。');}
+  }
+  function publishRoomMedia(intent){
+    if(!roomMatches()||!state.playerReady)return;
+    const token=state.session.token,session=classroom.joined;
+    const media={position:Number(state.player.getCurrentTime())||0,playing:typeof intent==='boolean'?intent:state.playerState===1,rate:Number(state.player.getPlaybackRate?.())||1};
+    classroom.commands++;
+    classroom.chain=classroom.chain.catch(()=>{}).then(async()=>{
+      if(token!==state.session?.token||session!==classroom.joined)return;
+      const data=await roomRequest('media',{p_session:session,p_media:media});classroom.revision=Math.max(classroom.revision,data.session?.revision||0);classroom.room=data.session;
+    }).catch(()=>renderClassroom('音樂控制尚未同步，請檢查連線後再按一次。')).finally(()=>{classroom.commands--;});
+  }
+  async function joinClassroom(){
+    if(classroom.joining||!classroom.room)return;classroom.joining=true;
+    const target=classroom.room;
+    try{
+      if(state.exercise?.dirty)await flushDraft();
+      const data=await roomRequest('join',{p_session:target.id});classroom.joined=target.id;classroom.room=data.session;classroom.revision=-1;
+      await openSong(target.song,'exercise');
+      if(state.activeSong?.id!==target.song)throw Error('無法開啟課堂歌曲');
+      const rows=await rpc(CONFIG.rpc.listDrafts,{p_student_token:state.session.token});state.drafts=Object.fromEntries(asArray(rows).map(row=>[draftIdentity(row.song_id,row.mode_id),row]));
+      await startExercise(target.mode,true);renderClassroom();applyRoomMedia(true);
+    }catch(e){classroom.joined=null;renderClassroom(e.message);}finally{classroom.joining=false;}
+  }
+  async function pollClassroom(){
+    if(classroom.busy||classroom.joining||document.hidden||Date.now()<classroom.next)return;
+    if(state.session?.role!=='student'){classroom.joined=null;classroom.room=null;renderClassroom();return;}
+    if(classroom.token!==state.session.token){classroom.token=state.session.token;classroom.joined=null;classroom.room=null;classroom.revision=-1;}
+    classroom.busy=true;
+    try{const epoch=classroom.epoch,begin=Date.now(),data=await roomRequest();if(epoch!==classroom.epoch)return;classroom.serverOffset=(begin+Date.now())/2-Date.parse(data.server_time);acceptRoom(data);classroom.next=Date.now()+(roomMatches()?500:2000);}
+    catch{classroom.next=Date.now()+5000;renderClassroom('同步連線中斷 · 暫時無法開始或加入課堂');}
+    finally{classroom.busy=false;}
+  }
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden){classroom.revision=-1;classroom.next=0;}});
+  setInterval(()=>void pollClassroom(),250);
+
   async function readLiveExercise(args) {
     liveClient ||= window.supabase.createClient(SUPABASE.url,SUPABASE.anonKey,{auth:{persistSession:true,storage:sessionStorage,storageKey:'edmund-song-live-auth-v1',autoRefreshToken:true,detectSessionInUrl:false}});
     const session=await liveClient.auth.getSession();if(session.error)throw session.error;
     if(!session.data?.session){const login=await liveClient.auth.signInAnonymously();if(login.error)throw login.error;}
+    if(!args)return;
     const {data,error}=await liveClient.rpc('song_appreciation_live_snapshot',args).abortSignal(AbortSignal.timeout(15000));
     if(error)throw error;return data;
   }

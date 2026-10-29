@@ -800,6 +800,7 @@ jobs:
           node tools/test-song-live-sync.mjs
           npm ci --prefix tools/email-qa --ignore-scripts
           node tools/test-song-live-sql.mjs
+          node tools/test-song-room-sql.mjs
           test -s song-media/photograph/album.mp3
           test -s song-media/photograph/cover.webp
 

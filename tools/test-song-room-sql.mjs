@@ -1,0 +1,26 @@
+import assert from 'node:assert/strict';import fs from 'node:fs';import {createRequire} from 'node:module';
+const require=createRequire(new URL('./email-qa/package.json',import.meta.url));const {PGlite}=require('@electric-sql/pglite');const db=new PGlite();
+const a='aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa',b='bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb',song='11111111-1111-4111-8111-111111111111',attempt='22222222-2222-4222-8222-222222222222';
+await db.exec(`create role anon;create role authenticated;create schema auth;create function auth.uid() returns uuid language sql as $$select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid$$;create function public._song_appreciation_student_id(uuid) returns uuid language sql as $$select case when $1 in ('${a}'::uuid,'${b}'::uuid) then $1 end$$;create function public._song_appreciation_student_can_access(uuid,uuid) returns boolean language sql as $$select $2='${song}'::uuid$$;
+create table song_appreciation_drafts(student_id uuid,song_id uuid,mode_id text,exercise_version integer,revision bigint,answers jsonb,result jsonb,duration_ms bigint,started_at timestamptz,primary key(student_id,song_id,mode_id));
+create table song_appreciation_attempts(id uuid,student_id uuid,song_id uuid,mode_id text,exercise_version integer,answers jsonb,result jsonb,correct_count int,total_count int,duration_ms bigint,started_at timestamptz,completed_at timestamptz);`);
+await db.exec(fs.readFileSync(new URL('../supabase/migrations/20261029093539_song_appreciation_live_snapshot.sql',import.meta.url),'utf8'));
+
+await db.exec(fs.readFileSync(new URL('../supabase/migrations/20261029110700_song_shared_classroom.sql',import.meta.url),'utf8'));
+const deviceA=a,deviceB=b,roomId=attempt;
+const room=async(device,action='poll',session=null,token=a,media=null)=>(await db.query('select song_appreciation_room($1,$2,$3,$4,$5,$6,$7,$8) result',[token,device,action,session,song,'standard',1,media])).rows[0].result;
+await assert.rejects(room(a),/Sign in/);await db.query("select set_config('request.jwt.claim.sub',$1,false)",[a]);
+await assert.rejects(room(a,'poll',null,attempt),/Student sign in/);
+assert.equal((await room(a)).devices,1);assert.equal((await room(b)).devices,2);
+assert.equal((await room(a,'start',roomId)).accepted,true);
+assert.equal((await room(b,'start',song)).accepted,false,'only one start accepted');
+await assert.rejects(room(b,'media',roomId,a,{playing:true,position:0,rate:1}),/Join/);
+await room(b,'join',roomId);
+let playing=await room(b,'media',roomId,a,{playing:true,position:10,rate:1});assert.equal(playing.session.media.playing,true);
+const rev=playing.session.revision;const pause=await room(a,'media',roomId,a,{playing:false,position:15,rate:1});assert.equal(pause.session.revision,rev+1);assert.equal(pause.session.media.position,15);
+assert.equal((await room(a,'poll',null,b)).session,null,'other account isolated');
+await room(a,'end',roomId);assert.equal((await room(b)).session,null);await assert.rejects(room(b,'media',roomId,a,{playing:true,position:0,rate:1}),/ended/);
+assert.equal((await room(b,'start',song)).accepted,true);
+await db.exec("update song_live_private.rooms set expires_at=now()-interval '1 minute'");assert.equal((await room(b)).session,null);
+assert.equal((await db.query("select has_function_privilege('anon','public.song_appreciation_room(uuid,uuid,text,uuid,uuid,text,integer,jsonb)','execute') allowed")).rows[0].allowed,false);
+console.log('PASS shared Song room: authenticated account isolation, atomic start claim, explicit join, bidirectional playback, ordered revisions, end and expiry.');await db.close();
