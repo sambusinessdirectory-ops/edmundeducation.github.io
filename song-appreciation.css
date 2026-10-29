@@ -527,3 +527,7 @@ button { color: inherit; }
 .song-discovery.is-manual{overflow-x:auto;overscroll-behavior-x:contain}
 .song-discovery.is-manual .song-discovery-track{animation:none;transform:none}
 .song-discovery img{-webkit-user-drag:none;user-select:none}
+
+.song-discovery.is-resumed:not(.is-paused):not(.is-manual) .song-discovery-track{animation-play-state:running}
+.song-reread{margin:1.2rem 0;padding:1rem;border-top:1px solid #d9cbd6;border-bottom:1px solid #d9cbd6}
+.song-reread p{margin:0 0 .8rem}

@@ -1729,6 +1729,9 @@
       if(state.activeSong.vocabulary?.length)section.append(makeButton('開始字彙練習 →',()=>{switchSongTab('vocabulary');$('[data-vocabulary]').scrollIntoView({behavior:'smooth',block:'start'});},'primary-button'));
       if(next)section.append(makeButton(`挑戰 ${next.label} →`,()=>startExercise(next.id),"primary-button"));
     }
+    const reread=document.createElement('div');reread.className='song-reread';
+    const rereadText=document.createElement('p');rereadText.textContent='聽懂更多，再讀一次歌曲故事，看看你有甚麼新發現。';
+    reread.append(rereadText,makeButton('重讀歌曲介紹 →',()=>{switchSongTab('description');$('[data-song-description]').scrollIntoView({behavior:'smooth',block:'start'});},'secondary-button'));section.append(reread);
     section.append(makeButton("返回歌曲主頁 →",()=>routeStudent("library"),"primary-button"));
     const songs=state.songs.filter(song=>song.id!==state.activeSong?.id);
     if(songs.length){
@@ -1737,17 +1740,31 @@
         const tiles=Array.from({length:Math.max(8,songs.length)},(_,i)=>songs[i%songs.length]);
         tiles.forEach((song,index)=>{const button=makeButton("",()=>openSong(song.id),"discovery-song");if(copy || index>=songs.length){button.tabIndex=-1;button.setAttribute("aria-hidden","true");}const cover=thumbnailUrl(song);if(cover){const image=new Image();image.src=cover;image.alt="";button.append(image);}const label=document.createElement("strong");label.textContent=song.title;const artist=document.createElement("span");artist.textContent=song.singer;button.append(label,artist);group.append(button);});track.append(group);
       }
-      const pause=makeButton("暫停動畫",()=>{const paused=view.classList.toggle("is-paused");pause.textContent=paused?"繼續動畫":"暫停動畫";pause.setAttribute("aria-pressed",String(paused));});pause.setAttribute("aria-pressed","false");view.append(track);
+      let userPaused=false,touching=false,resumeTimer;
+      const pause=makeButton('暫停動畫',()=>{
+        userPaused=!userPaused;view.classList.toggle('is-paused',userPaused);
+        pause.textContent=userPaused?'繼續動畫':'暫停動畫';pause.setAttribute('aria-pressed',String(userPaused));
+        if(!userPaused)resumeLoop();
+      });pause.setAttribute('aria-pressed','false');view.append(track);
       view.tabIndex=0;view.setAttribute('aria-label','左右滑動瀏覽歌曲');
+      const resumeLoop=()=>{
+        if(!view.isConnected||touching||userPaused||!view.classList.contains('is-manual')||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+        const width=track.getBoundingClientRect().width/2;
+        const offset=width?view.scrollLeft%width:0;
+        track.style.animationDelay=`-${width?offset/width*65:0}s`;
+        view.classList.remove('is-manual','is-paused');view.classList.add('is-resumed');view.scrollLeft=0;
+      };
+      const scheduleResume=()=>{clearTimeout(resumeTimer);if(!touching&&!userPaused)resumeTimer=setTimeout(resumeLoop,1600);};
       const enableSwipe=()=>{
+        clearTimeout(resumeTimer);
         if(view.classList.contains('is-manual'))return;
         const x=new DOMMatrixReadOnly(getComputedStyle(track).transform).m41;
-        view.classList.add('is-manual','is-paused');view.scrollLeft=Math.max(0,-x);
-        pause.textContent='繼續動畫';pause.setAttribute('aria-pressed','true');
+        view.classList.add('is-manual');view.scrollLeft=Math.max(0,-x);
       };
-      view.addEventListener('touchstart',enableSwipe,{passive:true});
-      view.addEventListener('keydown',event=>{if(event.key==='ArrowLeft'||event.key==='ArrowRight'){enableSwipe();view.scrollBy({left:event.key==='ArrowRight'?220:-220,behavior:'smooth'});event.preventDefault();}});
-      pause.addEventListener('click',()=>{if(view.classList.contains('is-manual')){view.classList.remove('is-manual','is-paused');view.scrollLeft=0;pause.textContent='暫停動畫';pause.setAttribute('aria-pressed','false');}});
+      view.addEventListener('touchstart',()=>{touching=true;enableSwipe();},{passive:true});
+      for(const event of ['touchend','touchcancel'])view.addEventListener(event,()=>{touching=false;scheduleResume();},{passive:true});
+      view.addEventListener('scroll',()=>{if(view.classList.contains('is-manual'))scheduleResume();},{passive:true});
+      view.addEventListener('keydown',event=>{if(event.key==='ArrowLeft'||event.key==='ArrowRight'){enableSwipe();view.scrollBy({left:event.key==='ArrowRight'?220:-220,behavior:'smooth'});scheduleResume();event.preventDefault();}});
       section.append(title,view,pause);
     }return section;
   }
@@ -2091,7 +2108,7 @@
   function acceptRoom(data){
     classroom.devices=Number(data.devices)||0;
     classroom.room=data.session;
-    if(classroom.joined&&classroom.joined!==data.session?.id){classroom.joined=null;classroom.revision=-1;cancelReadCountdown();pausePlayer();}
+    if(classroom.joined&&classroom.joined!==data.session?.id){classroom.joined=null;classroom.revision=-1;cancelReadCountdown();}
     renderClassroom(!data.session&&data.devices>1?`${data.devices} 部裝置已連線 · 由學生選擇難度開始，另一部裝置再加入`:undefined);
     applyRoomMedia();
   }
