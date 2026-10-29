@@ -1,4 +1,4 @@
-import {renderResourceMarkdown} from './resources.mjs?v=20261029-policy1';
+import {renderResourceMarkdown, cleanPolicyText} from './resources.mjs?v=20261029-policy2';
 const $ = (selector, root = document) => root.querySelector(selector);
 const app = $('#app');
 const config = window.EDMUND_SUPABASE || {};
@@ -9,7 +9,7 @@ const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp
 const arrowIcon = '<svg class="arrow-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 19 19 5M8 5h11v11"/></svg>';
 const adminStorageKey = 'edmund-policy-discussion-admin-v1';
 const studentStorageKey = 'edmund-policy-discussion-student-v1';
-const state = { role: null, name: '', token: '', cards: [], article: null, progress: {}, view: 'home', question: null, argument: null, pick: null, images: new Map(), structureOpen: false, structurePosition: null };
+const state = { role: null, name: '', token: '', cards: [], article: null, progress: {}, view: 'home', question: null, argument: null, openArguments: new Set(), pick: null, images: new Map(), structureOpen: false, structurePosition: null };
 let loginMode = 'student';
 let busy = false;
 let toastTimer;
@@ -164,7 +164,7 @@ function hydrateImages() {
 function renderHome() {
   state.view = 'home'; state.article = null; state.structureOpen = false; state.pick = null;
   const admin = state.role === 'admin';
-  app.innerHTML = `<div class="section-head"><div><span class="eyebrow">THE POLICY ROOM</span><h1>政策討論</h1><p>選一個政策議題，比較具體方案與執行限制，再收藏值得重用的論點與語句。</p></div><button class="outline-button" type="button" data-bookmarks>☆ 我的書籤</button></div>
+  app.innerHTML = `<div class="section-head"><div><span class="eyebrow">THE POLICY ROOM</span><h1>政策討論</h1></div><button class="outline-button" type="button" data-bookmarks>☆ 我的書籤</button></div>
     ${admin ? `<form id="create-card" class="admin-create"><label>新增政策議題卡<input name="title" required maxlength="160" placeholder="輸入政策議題標題"></label><button class="primary-button" type="submit">＋ 建立卡片</button></form>` : ''}
     <div class="news-grid">${state.cards.map((card, index) => `<article class="news-card ${card.hidden ? 'is-hidden' : ''}"><button type="button" class="news-card__open" data-open="${esc(card.id)}"><span class="news-card__image">${card.has_image ? `<img data-image-id="${esc(card.id)}" alt="${esc(card.title)}" loading="lazy">` : '<span class="news-card__placeholder" aria-hidden="true"><b>EDMUND</b><em>POLICY ARCHIVE</em><i>✦</i></span>'}</span><span class="news-card__body"><small>POLICY ${String(index + 1).padStart(2, '0')}${card.hidden ? ' · 已隱藏' : ''}</small><strong>${esc(card.title)}</strong><span>${esc(card.brief || '點擊進入，查看新聞摘要、論點與討論句式。')}</span><span class="news-card__foot">${card.question_count} 個討論問題 <b aria-hidden="true">${arrowIcon}</b></span></span></button>${admin ? `<div class="admin-card-tools"><label class="upload-button">上載圖片<input type="file" data-upload="${esc(card.id)}" accept="image/png,image/jpeg,image/webp" hidden></label><form data-url-form="${esc(card.id)}"><input type="url" name="url" placeholder="新聞原文 URL" value="${esc(card.source_url || '')}" aria-label="新聞原文 URL"><button type="submit">儲存連結</button></form><div><button type="button" data-hide="${esc(card.id)}">${card.hidden ? '重新顯示' : '隱藏'}</button><button type="button" class="danger" data-remove="${esc(card.id)}">移除</button></div></div>` : ''}</article>`).join('')}</div>${state.cards.length ? '' : '<div class="empty-state">目前沒有可閱讀的政策議題。</div>'}`;
   hydrateImages();
@@ -177,19 +177,34 @@ function itemTools(id, label = '') {
 }
 
 function question() { return state.article?.content?.questions?.find(item => item.id === state.question); }
+function argumentTitle(title) {
+  const tags = [...String(title).matchAll(/\[([^\[\]]+)\]/g)].map(match => match[1]);
+  const text = String(title).replace(/\[[^\[\]]+\]/g, '').replace(/\*\*/g, '').trim();
+  return esc(text) + (tags.length ? `<span class="policy-tags">${tags.map(tag => `<span class="policy-tag">${esc(tag)}</span>`).join('')}</span>` : '');
+}
+function expandAllButton() {
+  const items = [...(question()?.for || []), ...(question()?.against || [])];
+  if (state.view === 'comparison') {
+    const allOpen = state.pick.collapsed.every(set => set.size === 0);
+    return `<button type="button" class="outline-button expand-all" data-toggle-all aria-expanded="${allOpen}">${allOpen ? '全部收起' : '全部展開'}</button>`;
+  }
+  const allOpen = items.length > 0 && items.every(a => state.argument === a.id || state.openArguments.has(a.id));
+  return `<button type="button" class="outline-button expand-all" data-toggle-all aria-expanded="${allOpen}">${allOpen ? '全部收起' : '全部展開'}</button>`;
+}
+
 function glossaryMarkup(argument, prefix = '') {
-  return `<div class="argument-detail"><p>${esc(argument.description)}</p><h4>Glossary · 關鍵詞彙</h4><ul class="glossary">${(argument.glossary || []).map(entry => `<li id="${esc(prefix + entry.id)}"><div class="glossary-copy"><strong>${esc(entry.english)}</strong><span>${esc(entry.chinese)}</span></div>${itemTools(entry.id, entry.english)}</li>`).join('')}</ul></div>`;
+  return `<div class="argument-detail"><p>${esc(cleanPolicyText(argument.description))}</p><h4>Glossary · 關鍵詞彙</h4><ul class="glossary">${(argument.glossary || []).map(entry => `<li id="${esc(prefix + entry.id)}"><div class="glossary-copy"><strong>${esc(entry.english)}</strong><span>${esc(entry.chinese)}</span></div>${itemTools(entry.id, entry.english)}</li>`).join('')}</ul></div>`;
 }
 
 function renderArgument(argument, side, picker = null) {
-  const open = state.argument === argument.id;
+  const open = state.argument === argument.id || state.openArguments.has(argument.id);
   const picked = picker !== null && state.pick?.selected[picker]?.has(argument.id);
-  return `<article class="argument ${open ? 'is-open' : ''} ${picked ? 'is-picked' : ''}" id="${esc(argument.id)}"><div class="argument-head"><button type="button" data-argument="${esc(argument.id)}" aria-expanded="${open}"><small>${String(argument.number).padStart(2, '0')} · ${esc(argument.angle)}</small><strong>${esc(argument.title)}</strong><span class="disclosure">${open ? '−' : '+'}</span></button>${picker !== null ? `<button class="pick-toggle ${picked ? 'is-picked' : ''}" type="button" data-pick-id="${esc(argument.id)}" aria-pressed="${Boolean(picked)}" aria-label="${picked ? '取消選取' : '選取'}：${esc(argument.title)}">${picked ? '✓ 已選' : '＋ 選取'}</button>` : ''}${itemTools(argument.id, argument.title)}</div>${open ? glossaryMarkup(argument) : ''}</article>`;
+  return `<article class="argument ${open ? 'is-open' : ''} ${picked ? 'is-picked' : ''}" id="${esc(argument.id)}"><div class="argument-head"><button type="button" data-argument="${esc(argument.id)}" aria-expanded="${open}"><small>${String(argument.number).padStart(2, '0')} · ${esc(argument.angle)}</small><strong>${argumentTitle(argument.title)}</strong><span class="disclosure">${open ? '−' : '+'}</span></button>${picker !== null ? `<button class="pick-toggle ${picked ? 'is-picked' : ''}" type="button" data-pick-id="${esc(argument.id)}" aria-pressed="${Boolean(picked)}" aria-label="${picked ? '取消選取' : '選取'}：${esc(argument.title)}">${picked ? '✓ 已選' : '＋ 選取'}</button>` : ''}${itemTools(argument.id, argument.title)}</div>${open ? glossaryMarkup(argument) : ''}</article>`;
 }
 
 function renderPickedArgument(argument, index) {
   const collapsed = state.pick.collapsed[index].has(argument.id);
-  return `<article class="argument picked-argument ${collapsed ? 'is-collapsed' : ''}" id="picker-${index + 1}-${esc(argument.id)}"><div class="picked-argument__head"><button type="button" data-collapse-pick="${esc(argument.id)}" data-picker="${index}" aria-expanded="${!collapsed}" aria-label="${collapsed ? '展開' : '收起'}：${esc(argument.title)}"><small>${String(argument.number).padStart(2, '0')} · ${esc(argument.angle)}</small><strong>${esc(argument.title)}</strong><span aria-hidden="true">${collapsed ? '+' : '−'}</span></button>${itemTools(argument.id, argument.title)}</div>${collapsed ? '' : glossaryMarkup(argument, `picker-${index + 1}-`)}</article>`;
+  return `<article class="argument picked-argument ${collapsed ? 'is-collapsed' : ''}" id="picker-${index + 1}-${esc(argument.id)}"><div class="picked-argument__head"><button type="button" data-collapse-pick="${esc(argument.id)}" data-picker="${index}" aria-expanded="${!collapsed}" aria-label="${collapsed ? '展開' : '收起'}：${esc(argument.title)}"><small>${String(argument.number).padStart(2, '0')} · ${esc(argument.angle)}</small><strong>${argumentTitle(argument.title)}</strong><span aria-hidden="true">${collapsed ? '+' : '−'}</span></button>${itemTools(argument.id, argument.title)}</div>${collapsed ? '' : glossaryMarkup(argument, `picker-${index + 1}-`)}</article>`;
 }
 
 function pickCounts(index) {
@@ -205,7 +220,7 @@ function renderPickPage(preserveScroll = false) {
   const index = state.pick.phase - 1;
   const counts = pickCounts(index);
   state.view = 'pick';
-  app.innerHTML = `<div class="pick-page"><div class="pick-intro"><span class="eyebrow">PICK MODE · ${state.pick.phase} / 3</span><h1>選論點 · Picker ${state.pick.phase}</h1><p>${esc(q.text)}</p><p class="pick-instruction">從方案及限制挑選想討論的論點。按論點可查看簡述和詞彙；勾選與書籤仍會儲存於您的帳戶。</p></div><div class="argument-grid pick-grid"><section class="side side--for"><header><span>PROPOSALS · 政策方案</span><h3>${esc(q.for_label)}</h3><small>已選 ${counts.for} / ${q.for?.length || 0}</small></header><div>${(q.for || []).map(a => renderArgument(a, 'for', index)).join('')}</div></section><section class="side side--against"><header><span>LIMITS · 反對與限制</span><h3>${esc(q.against_label)}</h3><small>已選 ${counts.against} / ${q.against?.length || 0}</small></header><div>${(q.against || []).map(a => renderArgument(a, 'against', index)).join('')}</div></section></div></div><div class="pick-bottom-bar" role="navigation" aria-label="選論點步驟"><div><strong>Picker ${state.pick.phase}</strong><span>方案 ${counts.for} · 限制 ${counts.against}</span></div><div class="pick-bottom-bar__actions"><button type="button" class="outline-button" data-structures>句式表</button><button type="button" class="outline-button" data-pick-back>${state.pick.phase === 1 ? '退出選取' : '返回 Picker 1'}</button><button type="button" class="primary-button" data-pick-next ${counts.for + counts.against ? '' : 'disabled'}>${state.pick.phase === 1 ? '下一頁 · Picker 2 →' : '查看雙人比較 →'}</button></div></div>${renderStructures()}`;
+  app.innerHTML = `<div class="pick-page"><div class="pick-intro"><span class="eyebrow">PICK MODE · ${state.pick.phase} / 3</span><h1>選論點 · Picker ${state.pick.phase}</h1><p>${esc(q.text)}</p><p class="pick-instruction">從方案及限制挑選想討論的論點。按論點可查看簡述和詞彙；勾選與書籤仍會儲存於您的帳戶。</p></div><div class="argument-grid pick-grid"><section class="side side--for"><header><span>PROPOSALS · 政策方案</span><h3>${esc(q.for_label)}</h3><small>已選 ${counts.for} / ${q.for?.length || 0}</small></header><div>${(q.for || []).map(a => renderArgument(a, 'for', index)).join('')}</div></section><section class="side side--against"><header><span>LIMITS · 反對與限制</span><h3>${esc(q.against_label)}</h3><small>已選 ${counts.against} / ${q.against?.length || 0}</small></header><div>${(q.against || []).map(a => renderArgument(a, 'against', index)).join('')}</div></section></div></div><div class="pick-bottom-bar" role="navigation" aria-label="選論點步驟"><div><strong>Picker ${state.pick.phase}</strong><span>方案 ${counts.for} · 限制 ${counts.against}</span></div><div class="pick-bottom-bar__actions">${expandAllButton()}<button type="button" class="outline-button" data-structures>句式表</button><button type="button" class="outline-button" data-pick-back>${state.pick.phase === 1 ? '退出選取' : '返回 Picker 1'}</button><button type="button" class="primary-button" data-pick-next ${counts.for + counts.against ? '' : 'disabled'}>${state.pick.phase === 1 ? '下一頁 · Picker 2 →' : '查看雙人比較 →'}</button></div></div>${renderStructures()}`;
   if (preserveScroll) window.scrollTo({ top: priorScroll, behavior: 'instant' });
   else window.scrollTo({ top: 0, behavior: 'instant' });
 }
@@ -224,7 +239,7 @@ function renderComparison(preserveScroll = false) {
     const againstFirst = state.pick.order[index] === 'against';
     return `<section class="comparison-picker"><div class="comparison-picker__title"><h2>Picker ${index + 1}</h2><div class="side-order" role="group" aria-label="Picker ${index + 1} 論點順序"><button type="button" data-pick-order="for" data-picker="${index}" aria-pressed="${!againstFirst}">方案先</button><button type="button" data-pick-order="against" data-picker="${index}" aria-pressed="${againstFirst}">限制先</button></div></div>${againstFirst ? side('against', q.against_label) + side('for', q.for_label) : side('for', q.for_label) + side('against', q.against_label)}</section>`;
   };
-  app.innerHTML = `<div class="comparison-page"><div class="pick-top-bar" role="navigation" aria-label="結束選論點練習"><div><span class="eyebrow">PICK MODE · 3 / 3</span><strong>雙人論點比較</strong></div><button type="button" class="outline-button" data-structures>句式表</button><button type="button" class="outline-button" data-pick-back>← 返回選取</button><button type="button" class="primary-button" data-pick-end>結束練習</button></div><div class="comparison-intro"><h1>雙人論點比較</h1><p>${esc(q.text)}</p></div><div class="comparison-grid">${column(0)}${column(1)}</div></div>${renderStructures()}`;
+  app.innerHTML = `<div class="comparison-page"><div class="pick-top-bar" role="navigation" aria-label="結束選論點練習"><div><span class="eyebrow">PICK MODE · 3 / 3</span><strong>雙人論點比較</strong></div>${expandAllButton()}<button type="button" class="outline-button" data-structures>句式表</button><button type="button" class="outline-button" data-pick-back>← 返回選取</button><button type="button" class="primary-button" data-pick-end>結束練習</button></div><div class="comparison-intro"><h1>雙人論點比較</h1><p>${esc(q.text)}</p></div><div class="comparison-grid">${column(0)}${column(1)}</div></div>${renderStructures()}`;
   window.scrollTo({ top: preserveScroll ? priorScroll : 0, behavior: 'instant' });
 }
 
@@ -232,21 +247,21 @@ function startPickMode() {
   if (!state.question) state.question = state.article?.content?.questions?.[0]?.id || null;
   if (!question()) return;
   state.pick = { phase: 1, selected: [new Set(), new Set()], collapsed: [new Set(), new Set()], order: ['for', 'for'] };
-  state.argument = null;
+  state.argument = null; state.openArguments.clear();
   state.structureOpen = false;
   renderPickPage();
 }
 
 function endPickMode() {
   state.pick = null;
-  state.argument = null;
+  state.argument = null; state.openArguments.clear();
   renderArticle(true);
 }
 
 function renderQuestion() {
   const q = question();
   if (!q) return '';
-  return `<section class="question-panel"><div class="question-panel__top"><div><span class="eyebrow">DISCUSSION DESK</span><h2>${esc(q.text)}</h2><p>選擇一個論點，展開簡述及詞彙；展開內容不會自動勾選；請自行勾選已學習的項目，或按星號收藏。</p></div><button class="structure-launch" type="button" data-structures>句式表 <span>${arrowIcon}</span></button></div><div class="argument-grid"><section class="side side--for"><header><span>PROPOSALS · 政策方案</span><h3>${esc(q.for_label)}</h3><small>${q.for?.length || 0} 個論點</small></header><div>${(q.for || []).map(a => renderArgument(a, 'for')).join('')}</div></section><section class="side side--against"><header><span>LIMITS · 反對與限制</span><h3>${esc(q.against_label)}</h3><small>${q.against?.length || 0} 個論點</small></header><div>${(q.against || []).map(a => renderArgument(a, 'against')).join('')}</div></section></div></section>`;
+  return `<section class="question-panel"><div class="question-panel__top"><div><span class="eyebrow">DISCUSSION DESK</span><h2>${esc(q.text)}</h2></div><div class="discussion-controls">${expandAllButton()}<button class="structure-launch" type="button" data-structures>句式表 <span>${arrowIcon}</span></button></div></div><div class="argument-grid"><section class="side side--for"><header><span>PROPOSALS · 政策方案</span><h3>${esc(q.for_label)}</h3><small>${q.for?.length || 0} 個論點</small></header><div>${(q.for || []).map(a => renderArgument(a, 'for')).join('')}</div></section><section class="side side--against"><header><span>LIMITS · 反對與限制</span><h3>${esc(q.against_label)}</h3><small>${q.against?.length || 0} 個論點</small></header><div>${(q.against || []).map(a => renderArgument(a, 'against')).join('')}</div></section></div></section>`;
 }
 
 function renderStructures() {
@@ -268,7 +283,7 @@ function renderArticle(scroll = false) {
   state.view = 'article';
   const priorScroll = window.scrollY;
   const hasQ = Boolean(question());
-  app.innerHTML = `<div class="article-top"><button type="button" class="back-button" data-home>← 返回政策議題</button><div class="article-top__actions">${(article.content?.questions || []).length ? `<button type="button" class="primary-button" data-start-pick>Pick Mode · 選論點</button>` : ''}<button type="button" class="outline-button" data-bookmarks>☆ 我的書籤</button></div></div><article class="article-shell"><div class="article-hero"><div class="article-hero__text"><span class="eyebrow">POLICY DISCUSSION · ${esc(article.created_at?.slice(0,10) || '')}</span><h1>${esc(article.title)}</h1><span class="source-chip">新聞背景與政策討論素材</span></div>${article.has_image ? `<img data-image-id="${esc(article.id)}" alt="${esc(article.title)}">` : ''}</div><div class="source-row"><strong>新聞原文</strong>${article.source_url ? `<a href="${esc(article.source_url)}" target="_blank" rel="noopener noreferrer">${esc(article.source_url)} <span aria-hidden="true">${arrowIcon}</span></a>` : '<span>原文連結稍後補上</span>'}</div><section class="brief"><span class="eyebrow">BRIEF NEWS CONTENT · 新聞摘要</span><p>${esc(article.brief || '新聞摘要稍後補上。')}</p></section><section class="questions"><div class="section-title"><span class="eyebrow">DISCUSSION QUESTIONS</span><h2>討論問題</h2></div>${(article.content?.questions || []).length ? article.content.questions.map((q, index) => `<button class="question-button ${state.question === q.id ? 'is-active' : ''}" type="button" data-question="${esc(q.id)}" aria-expanded="${state.question === q.id}"><span>${String(index + 1).padStart(2, '0')}</span><strong>${esc(q.text)}</strong><span aria-hidden="true">${state.question === q.id ? '−' : '+'}</span></button>`).join('') : '<p class="empty-state">這個政策議題的討論內容稍後加入。</p>'}</section>${hasQ ? renderQuestion() : ''}${renderResources()}</article>${renderStructures()}`;
+  app.innerHTML = `<div class="article-top"><button type="button" class="back-button" data-home>← 返回政策議題</button><div class="article-top__actions">${(article.content?.questions || []).length ? `<button type="button" class="primary-button" data-start-pick>Pick Mode · 選論點</button>` : ''}<button type="button" class="outline-button" data-bookmarks>☆ 我的書籤</button></div></div><article class="article-shell"><div class="article-hero"><div class="article-hero__text"><span class="eyebrow">POLICY DISCUSSION</span><h1>${esc(article.title)}</h1></div>${article.has_image ? `<img data-image-id="${esc(article.id)}" alt="${esc(article.title)}">` : ''}</div><div class="source-row"><strong>新聞原文</strong>${article.source_url ? `<a href="${esc(article.source_url)}" target="_blank" rel="noopener noreferrer">${esc(article.source_url)} <span aria-hidden="true">${arrowIcon}</span></a>` : '<span>原文連結稍後補上</span>'}</div><section class="brief"><span class="eyebrow">BRIEF NEWS CONTENT · 新聞摘要</span><p>${esc(article.brief || '新聞摘要稍後補上。')}</p></section><section class="questions"><div class="section-title"><span class="eyebrow">DISCUSSION QUESTIONS</span><h2>討論問題</h2></div>${(article.content?.questions || []).length ? article.content.questions.map((q, index) => `<button class="question-button ${state.question === q.id ? 'is-active' : ''}" type="button" data-question="${esc(q.id)}" aria-expanded="${state.question === q.id}"><span>${String(index + 1).padStart(2, '0')}</span><strong>${esc(q.text)}</strong><span aria-hidden="true">${state.question === q.id ? '−' : '+'}</span></button>`).join('') : '<p class="empty-state">這個政策議題的討論內容稍後加入。</p>'}</section>${hasQ ? renderQuestion() : ''}${renderResources()}</article>${renderStructures()}`;
   hydrateImages();
   if (scroll) $('.questions')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   else window.scrollTo({ top: priorScroll, behavior: 'auto' });
@@ -281,7 +296,7 @@ async function openArticle(id) {
       rpc('policy_discussion_get', { p_article_id: id, ...tokens() }),
       rpc('policy_discussion_state', { p_article_id: id, ...tokens() })
     ]);
-    state.article = article; state.progress = progress || {}; state.question = null; state.argument = null; state.pick = null; state.structureOpen = false; state.structurePosition = null;
+    state.article = article; state.progress = progress || {}; state.question = null; state.argument = null; state.openArguments.clear(); state.pick = null; state.structureOpen = false; state.structurePosition = null;
     renderArticle();
     window.scrollTo({ top: 0, behavior: 'smooth' });
   } catch (error) { toast(`無法開啟政策議題：${error.message}`, true); await loadCards(); }
@@ -440,7 +455,7 @@ app.addEventListener('click', async event => {
   }
   if (button.matches('[data-question]')) {
     state.question = state.question === button.dataset.question ? null : button.dataset.question;
-    state.argument = null; state.structureOpen = false;
+    state.argument = null; state.openArguments.clear(); state.structureOpen = false;
     renderArticle();
     return;
   }
@@ -455,14 +470,14 @@ app.addEventListener('click', async event => {
   }
   if (button.matches('[data-pick-next]') && state.pick) {
     if (state.pick.selected[state.pick.phase - 1].size === 0) return;
-    state.argument = null;
+    state.argument = null; state.openArguments.clear();
     state.pick.phase += 1;
     if (state.pick.phase === 3) renderComparison(); else renderPickPage();
     return;
   }
   if (button.matches('[data-pick-back]') && state.pick) {
     if (state.pick.phase === 1) endPickMode();
-    else { state.pick.phase -= 1; state.argument = null; renderPickPage(); }
+    else { state.pick.phase -= 1; state.argument = null; state.openArguments.clear(); renderPickPage(); }
     return;
   }
   if (button.matches('[data-pick-end]') && state.pick) { endPickMode(); return; }
@@ -480,8 +495,28 @@ app.addEventListener('click', async event => {
     app.querySelector(`[data-picker="${index}"][data-collapse-pick="${CSS.escape(id)}"]`)?.focus({ preventScroll: true });
     return;
   }
+  if (button.matches('[data-toggle-all]')) {
+    if (state.view === 'comparison') {
+      const allOpen = state.pick.collapsed.every(set => set.size === 0);
+      state.pick.collapsed = state.pick.selected.map(set => new Set(allOpen ? set : []));
+      renderComparison(true);
+      app.querySelector('[data-toggle-all]')?.focus({preventScroll:true});
+      return;
+    }
+    const items = [...(question()?.for || []), ...(question()?.against || [])];
+    const allOpen = items.every(a => state.argument === a.id || state.openArguments.has(a.id));
+    state.argument = null;
+    state.openArguments = new Set(allOpen ? [] : items.map(a => a.id));
+    if (state.view === 'pick') renderPickPage(true); else renderArticle();
+    app.querySelector('[data-toggle-all]')?.focus({preventScroll: true});
+    return;
+  }
   if (button.matches('[data-argument]')) {
-    state.argument = state.argument === button.dataset.argument ? null : button.dataset.argument;
+    const id = button.dataset.argument;
+    const open = state.argument === id || state.openArguments.has(id);
+    if (state.argument) state.openArguments.add(state.argument);
+    state.argument = null;
+    if (open) state.openArguments.delete(id); else state.openArguments.add(id);
     if (state.pick && state.view === 'pick') renderPickPage(true); else renderArticle();
     return;
   }

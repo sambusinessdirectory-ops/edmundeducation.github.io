@@ -28,6 +28,14 @@ const server=http.createServer((req,res)=>{const file=path.resolve(root,'.'+new 
  await page.locator('[name=username]').fill('student-a');await page.locator('[name=password]').fill('fixture');await page.locator('#login-form button').click();await page.locator('[data-open]').click();
  assert.equal(await page.locator('.article-hero h1').innerText(),'工人應否有權拒絕不安全的工作？');
  await page.locator('[data-question]').click();assert.equal(await page.locator('.side--for .argument').count(),141);assert.equal(await page.locator('.side--against .argument').count(),25);
+ assert.equal(await page.locator('.article-hero').innerText().then(t=>t.includes('2026-10-29')),false);
+ assert(await page.locator('.policy-tag').count()>0);
+ await page.locator('[data-toggle-all]').click();assert.equal(await page.locator('.argument-detail').count(),166);
+ assert.equal(await page.locator('[data-check]:checked').count(),0);
+ const details=await page.locator('.argument-detail').allTextContents();assert(!details.join('').includes('負責與操作：'));assert(!details.join('').includes('理由／界線：'));assert(details.join('').includes('Construction Industry Council（CIC）建造業議會'));
+ await page.locator('[data-argument="arg:for:1"]').click();assert.equal(await page.locator('.argument-detail').count(),165);
+ await page.locator('[data-toggle-all]').click();assert.equal(await page.locator('.argument-detail').count(),166);
+ await page.locator('[data-toggle-all]').click();assert.equal(await page.locator('.argument-detail').count(),0);
  await page.locator('[data-argument="arg:for:1"]').click();assert.equal(await page.locator('.glossary li').count(),5);
  await page.locator('[data-check="gloss:for:1:1"]').check();await page.locator('[data-star="arg:for:1"]').click();
  await page.locator('[data-structures]').click();assert.equal(await page.locator('.structure-row').count(),20);await page.locator('[data-close-structures]').click();
