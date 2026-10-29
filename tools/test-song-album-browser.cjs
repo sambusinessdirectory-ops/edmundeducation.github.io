@@ -28,14 +28,14 @@ return r.fulfill({contentType:'application/json',body:JSON.stringify(body)});});
 await page.goto('http://127.0.0.1:8766/song-appreciation.html');await page.waitForSelector('.song-card');assert.equal(await page.locator('.login-intro').count(),0);assert.equal(await page.locator('.song-card img').getAttribute('src'),original.cover_url);
 await page.locator('.song-card > button').last().click();await page.locator('[data-song-tab="translation"]').click();await page.waitForFunction(()=>window.songQA.state.playerReady);assert.ok(await page.evaluate(()=>window.songQA.state.player.getDuration()>130));
 await page.locator('[data-player-controls] [data-player-toggle]').click();await page.waitForFunction(()=>!document.querySelector('audio').paused);
-await page.evaluate(lessonTime=>{window.songQA.state.player.pauseVideo();window.songQA.state.player.seekTo(lessonTime);},(original.translations[5].startSeconds+original.translations[5].endSeconds)/2);await page.waitForFunction(()=>document.querySelector('tr[data-line-id="line-6"]')?.classList.contains('is-current-line'));
+const timedRow=original.translations.find(r=>Number.isFinite(r.startSeconds));await page.evaluate(lessonTime=>{window.songQA.state.player.pauseVideo();window.songQA.state.player.seekTo(lessonTime);},(timedRow.startSeconds+timedRow.endSeconds)/2);await page.waitForFunction(lineId=>document.querySelector('tr[data-line-id="'+lineId+'"]')?.classList.contains('is-current-line'),timedRow.lineId);
 await page.locator('[data-speed-trigger]').first().click();await page.getByRole('menuitemradio').filter({hasText:'0.75×'}).click();assert.equal(await page.locator('audio').evaluate(a=>a.playbackRate),.75);
 for (const width of [1280,390]) {
  await page.setViewportSize({width,height:950});
  await page.locator('[data-song-tab="exercise"]').click();
  if (await page.locator('[data-change-mode]').isVisible()) await page.locator('[data-change-mode]').click();
  await page.locator('[data-mode-grid] button').last().click();await page.waitForSelector('[data-lyric-flow]');
- assert.equal(await page.locator('[data-lyric-flow]').count(),original.translations.length);
+ assert.equal(await page.locator('[data-lyric-flow]').count(),original.translations.length);if(await page.locator('[data-toggle-chinese]').getAttribute('aria-pressed')!=='true')await page.locator('[data-toggle-chinese]').click();assert.deepEqual(await page.locator('[data-lyric-flow] > .question-translation').allTextContents(),original.translations.map(r=>r.chinese));
  assert.equal(await page.locator('.exercise-line[data-question]').count(),50);
  assert.equal(await page.locator(`[data-lyric-flow="line-${original.translations.length}"]`).count(),1);
  const firstMulti=original.exercises[3].listeningLines.find(l=>(l.prompt.match(/\{\{q:/g)||[]).length>1);
