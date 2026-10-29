@@ -61,6 +61,7 @@ jobs:
           node --check idiom-system.js
           node --check proverb-system.js
           node --check phrasal-verb-system.js
+          node tools/test-flashcard-attempt-sync-isolation.mjs
           node tools/test-classroom-live-sync.mjs
           node tools/test-classroom-live-sync-sql.mjs
           node tools/test-sentence-structure-system.mjs
@@ -76,6 +77,7 @@ jobs:
       - name: Validate focused flashcard release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[flashcard-release]') }}
         run: |
+          node tools/test-flashcard-attempt-sync-isolation.mjs
           node --check flashcards-core-data.js
           node --check flashcards-audio-manifest.js
           node tools/build-flashcard-lazy-startup.mjs --check
