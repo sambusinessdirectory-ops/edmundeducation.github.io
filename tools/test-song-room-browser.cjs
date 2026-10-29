@@ -4,8 +4,8 @@ const root=require('node:path').resolve(__dirname,'..');
 const id=n=>`00000000-0000-4000-8000-${String(n).padStart(12,'0')}`;
 const session={id:id(1),name:'Synthetic Student',role:'student',token:id(99)};
 const song={id:id(3),title:'Synthetic Song',singer:'Test Artist',youtube_url:'https://www.youtube.com/watch?v=dQw4w9WgXcQ',description:'Test description',tags:[],translations:[{lineId:'line-1',english:'Morning light fills this room.',chinese:'晨光照亮這房間。',startSeconds:10,endSeconds:20},{lineId:'line-2',english:'We sing together every day.',chinese:'我們每天一起唱歌。',startSeconds:24,endSeconds:34}],exercises:[{id:'standard',label:'Standard',version:1,questionCount:6,questions:Array.from({length:6},(_,i)=>({number:i+1,prompt:i<3?'Morning {{blank}} fills this room.':'We sing {{blank}} every day.',promptZh:i<3?'晨光照亮這房間。':'我們每天一起唱歌。',options:['light','rain','snow'],optionsZh:['光','雨','雪'],answer:'light'}))}]};
-let sharedRoom=null,devices=new Set(),joined=new Set();let drafts={},bookmarks=[],attempts=[],calls=[],failDraft=false,dropReply=false,delayDraft=0;
-const source=fs.readFileSync(root+'/song-appreciation.js','utf8').replace('  window.EdmundSongAppreciation = Object.freeze({','  window.songQA={state,openSong,startExercise,flushDraft,chooseAnswer,showView,renderLibrary,resetDraftAnswers,checkPartialAnswers,routeStudent,finishReadCountdown,live:()=>liveSync,classroom,joinClassroom,togglePlayer,seekPlayer,relisten};\n  window.EdmundSongAppreciation = Object.freeze({');
+let sharedRoom=null,devices=new Set(),joined=new Set(),ejected=new Set();let drafts={},bookmarks=[],attempts=[],calls=[],failDraft=false,dropReply=false,delayDraft=0;
+const source=fs.readFileSync(root+'/song-appreciation.js','utf8').replace('  window.EdmundSongAppreciation = Object.freeze({','  window.songQA={state,openSong,startExercise,flushDraft,chooseAnswer,showView,renderLibrary,resetDraftAnswers,checkPartialAnswers,routeStudent,finishReadCountdown,live:()=>liveSync,classroom,completionPanel,switchSongTab,joinClassroom,togglePlayer,seekPlayer,relisten};\n  window.EdmundSongAppreciation = Object.freeze({');
 
 (async()=>{
  const browser=await chromium.launch({headless:true}),errors=[];let liveOffline=false;
@@ -15,7 +15,10 @@ await context.addInitScript(({session})=>{sessionStorage.setItem('edmund-song-ap
 await page.route('**/*',async r=>{const u=new URL(r.request().url());if(u.host!=='127.0.0.1:8768')return r.abort();if(u.pathname==='/song-appreciation.js')return r.fulfill({contentType:'text/javascript',body:source});if(!u.pathname.startsWith('/mock-rpc/'))return r.continue();
 const name=u.pathname.split('/').pop(),a=r.request().postDataJSON();calls.push({name,args:a,label,at:Date.now()});let body=[];
 if(name==='song_appreciation_room'){
+ if(ejected.has(a.p_device))return r.fulfill({json:{ejected:true,accepted:false,devices:0,session:null}});
  devices.add(a.p_device);let accepted=true;
+ if(sharedRoom&&attempts.some(t=>t.id===sharedRoom.id))sharedRoom=null;
+ if(a.p_action==='eject'){for(const d of devices)if(d!==a.p_device){ejected.add(d);devices.delete(d);joined.delete(d);}}
  if(a.p_action==='start'){if(sharedRoom)accepted=false;else{sharedRoom={id:a.p_session,owner:a.p_device,song:a.p_song,mode:a.p_mode,version:a.p_version,started_at:new Date().toISOString(),media:null,revision:0};joined.add(a.p_device);}}
  if(a.p_action==='join')joined.add(a.p_device);
  if(a.p_action==='media'){assert.ok(joined.has(a.p_device));sharedRoom={...sharedRoom,revision:sharedRoom.revision+1,media:{...a.p_media,at:new Date().toISOString(),device:a.p_device}};}
@@ -78,6 +81,24 @@ return r.fulfill({contentType:'application/json',body:JSON.stringify(body)});});
  for(let n=3;n<=6;n++)await a.page.evaluate(n=>songQA.chooseAnswer(n,'light'),n);await a.page.locator('[data-submit-exercise]').click();await b.page.waitForFunction(()=>songQA.state.exercise.submitted);assert.equal(await b.page.locator('[data-result-score]').innerText(),'6 / 6');assert.equal(attempts.length,1,'observing a result does not create a second attempt');
  await b.page.evaluate(()=>Object.defineProperty(document,'hidden',{configurable:true,get:()=>true}));await b.page.waitForTimeout(400);const hidden=calls.filter(c=>c.label==='tutor'&&c.name==='song_appreciation_live_snapshot').length;await b.page.waitForTimeout(1300);assert.equal(calls.filter(c=>c.label==='tutor'&&c.name==='song_appreciation_live_snapshot').length,hidden);
  await b.page.evaluate(()=>{delete document.hidden;songQA.routeStudent('library');});const left=calls.filter(c=>c.label==='tutor'&&c.name==='song_appreciation_live_snapshot').length;await b.page.waitForTimeout(1300);assert.equal(calls.filter(c=>c.label==='tutor'&&c.name==='song_appreciation_live_snapshot').length,left);
- assert.deepEqual(errors,[]);console.log(JSON.stringify({passed:true,choiceLatencyMs:latency,checks:['exclusive start','join without countdown','two-way playback','no playback echo','two-way answers','concurrent edits merge','two devices','half-second playback refresh','continuous rapid input','selected choices','checked results','submitted scores','unchanged audio and lyric DOM','no duplicate observer saves','offline recovery','hidden and leaving stop polling']}));
+
+ await a.page.evaluate(()=>{const q=songQA;q.state.activeSong.vocabulary=[{word:'test',options:['a','b','c','d'],number:1}];q.state.songs.push({...q.state.songs[0],id:'other',title:'Another Song'});document.querySelector('[data-result-card] .lesson-complete')?.remove();document.querySelector('[data-result-card]').append(q.completionPanel('完成！'));});
+ await a.page.getByRole('button',{name:/開始字彙練習/}).click();assert.equal(await a.page.locator('[data-song-tab="vocabulary"]').getAttribute('aria-selected'),'true');
+ await a.page.evaluate(()=>songQA.switchSongTab('exercise'));
+ const rail=a.page.locator('[data-result-card] .song-discovery');await rail.scrollIntoViewIfNeeded();
+ await rail.dispatchEvent('touchstart');assert.equal(await rail.evaluate(el=>getComputedStyle(el).overflowX),'auto');
+ await rail.evaluate(el=>el.scrollLeft=200);assert.ok(await rail.evaluate(el=>el.scrollLeft)>0,'touch rail can scroll right');await rail.evaluate(el=>el.scrollLeft=50);assert.ok(await rail.evaluate(el=>el.scrollLeft)<200,'touch rail can scroll left');
+ await a.page.setViewportSize({width:820,height:1180});await rail.scrollIntoViewIfNeeded();
+ const touch=await a.context.newCDPSession(a.page);await touch.send('Emulation.setTouchEmulationEnabled',{enabled:true});
+ await rail.evaluate(el=>el.scrollLeft=250);const box=await rail.boundingBox(),y=box.y+box.height/2,x=box.x+box.width*.7;
+ const swipe=async delta=>{await touch.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x,y}]});for(let i=1;i<=8;i++){await touch.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:x+delta*i/8,y}]});await a.page.waitForTimeout(25);}await touch.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await a.page.waitForTimeout(350);};
+ const beforeSwipe=await rail.evaluate(el=>el.scrollLeft);await swipe(-160);const afterSwipe=await rail.evaluate(el=>el.scrollLeft);assert.ok(afterSwipe>beforeSwipe,'native touch swipe advances recommendations');await swipe(160);assert.ok(await rail.evaluate(el=>el.scrollLeft)<afterSwipe,'reverse touch swipe goes back');
+ await a.page.screenshot({path:'/tmp/song-completion-tablet.png'});
+ assert.equal(await a.page.locator('footer a[href*="image-credits"]').count(),0);
+ await a.page.evaluate(()=>songQA.startExercise('standard'));assert.equal(await a.page.evaluate(()=>songQA.state.exercise.submitted),false,'next exercise starts after completed room');
+ await a.page.getByRole('button',{name:'中斷其他裝置連線',exact:true}).click();
+ await b.page.waitForFunction(()=>songQA.state.session===null);assert.equal(await a.page.evaluate(()=>songQA.classroom.devices),1);assert.equal(await a.page.locator('[data-classroom-bar]').isVisible(),false);
+
+ assert.deepEqual(errors,[]);console.log(JSON.stringify({passed:true,choiceLatencyMs:latency,checks:['exclusive start','join without countdown','two-way playback','no playback echo','two-way answers','concurrent edits merge','two devices','half-second playback refresh','continuous rapid input','selected choices','checked results','submitted scores','unchanged audio and lyric DOM','no duplicate observer saves','offline recovery','hidden and leaving stop polling','completion unlock','vocabulary shortcut','native touch swipe both directions','eject peer and hide bar']}));
  }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exit(1)});

@@ -375,9 +375,9 @@
     }));
   }
 
-  async function logout() {
+  async function logout(skipSave = false) {
     window.SongPreview?.stop();
-    if (state.exercise && !state.exercise.submitted) { pauseExerciseClock(); storeLocalDraft(); try { await flushDraft(); } catch { /* Scoped local backup retries on return. */ } }
+    if (skipSave !== true && state.exercise && !state.exercise.submitted) { pauseExerciseClock(); storeLocalDraft(); try { await flushDraft(); } catch { /* Scoped local backup retries on return. */ } }
     if (state.session?.role === "admin") {
       try { await rpc(CONFIG.rpc.adminLogout, { p_admin_token: state.session.token }); } catch { /* Local logout still applies. */ }
     }
@@ -1726,6 +1726,7 @@
       const levels=["standard","medium","hard","hell"],index=levels.indexOf(state.exercise.mode.id);
       const next=index>=0?state.activeSong.modes.find(m=>m.id===levels[index+1]):null;
       const note=document.createElement("p");note.textContent=next?`完成得好！準備好挑戰更高一級的 ${next.label} 嗎？`:"太棒了！你已完成最高難度，可以再挑戰一次，讓聆聽更穩固。";section.append(note);
+      if(state.activeSong.vocabulary?.length)section.append(makeButton('開始字彙練習 →',()=>{switchSongTab('vocabulary');$('[data-vocabulary]').scrollIntoView({behavior:'smooth',block:'start'});},'primary-button'));
       if(next)section.append(makeButton(`挑戰 ${next.label} →`,()=>startExercise(next.id),"primary-button"));
     }
     section.append(makeButton("返回歌曲主頁 →",()=>routeStudent("library"),"primary-button"));
@@ -1736,7 +1737,18 @@
         const tiles=Array.from({length:Math.max(8,songs.length)},(_,i)=>songs[i%songs.length]);
         tiles.forEach((song,index)=>{const button=makeButton("",()=>openSong(song.id),"discovery-song");if(copy || index>=songs.length){button.tabIndex=-1;button.setAttribute("aria-hidden","true");}const cover=thumbnailUrl(song);if(cover){const image=new Image();image.src=cover;image.alt="";button.append(image);}const label=document.createElement("strong");label.textContent=song.title;const artist=document.createElement("span");artist.textContent=song.singer;button.append(label,artist);group.append(button);});track.append(group);
       }
-      const pause=makeButton("暫停動畫",()=>{const paused=view.classList.toggle("is-paused");pause.textContent=paused?"繼續動畫":"暫停動畫";pause.setAttribute("aria-pressed",String(paused));});pause.setAttribute("aria-pressed","false");view.append(track);section.append(title,view,pause);
+      const pause=makeButton("暫停動畫",()=>{const paused=view.classList.toggle("is-paused");pause.textContent=paused?"繼續動畫":"暫停動畫";pause.setAttribute("aria-pressed",String(paused));});pause.setAttribute("aria-pressed","false");view.append(track);
+      view.tabIndex=0;view.setAttribute('aria-label','左右滑動瀏覽歌曲');
+      const enableSwipe=()=>{
+        if(view.classList.contains('is-manual'))return;
+        const x=new DOMMatrixReadOnly(getComputedStyle(track).transform).m41;
+        view.classList.add('is-manual','is-paused');view.scrollLeft=Math.max(0,-x);
+        pause.textContent='繼續動畫';pause.setAttribute('aria-pressed','true');
+      };
+      view.addEventListener('touchstart',enableSwipe,{passive:true});
+      view.addEventListener('keydown',event=>{if(event.key==='ArrowLeft'||event.key==='ArrowRight'){enableSwipe();view.scrollBy({left:event.key==='ArrowRight'?220:-220,behavior:'smooth'});event.preventDefault();}});
+      pause.addEventListener('click',()=>{if(view.classList.contains('is-manual')){view.classList.remove('is-manual','is-paused');view.scrollLeft=0;pause.textContent='暫停動畫';pause.setAttribute('aria-pressed','false');}});
+      section.append(title,view,pause);
     }return section;
   }
 
@@ -2044,15 +2056,32 @@
     const token=state.session?.token;
     if(!token||state.session?.role!=='student')throw Error('請先登入');
     if(action!=='poll')classroom.epoch=(classroom.epoch||0)+1;
+    if(classroom.token!==token){
+      const key=`edmund-song-device:${token}`;
+      try{classroom.device=sessionStorage.getItem(key)||crypto.randomUUID();sessionStorage.setItem(key,classroom.device);}catch{classroom.device=crypto.randomUUID();}
+      classroom.devices=0;
+    }
     classroom.token=token;
     await readLiveExercise(null); // Establish the authenticated transport, without reading a draft.
     const {data,error}=await liveClient.rpc('song_appreciation_room',{p_token:token,p_device:classroom.device,p_action:action,p_session:classroom.joined,...extra}).abortSignal(AbortSignal.timeout(15000));
-    if(error)throw error;if(token!==state.session?.token)throw Error('登入已變更');return data;
+    if(error)throw error;if(token!==state.session?.token)throw Error('登入已變更');
+    if(data?.ejected){
+      pauseExerciseClock();storeLocalDraft();classroom.joined=null;classroom.room=null;classroom.devices=0;
+      await logout(true);renderClassroom();toast('另一部裝置已中斷本機連線，請重新登入。','error');
+      throw Error('本機已中斷連線');
+    }
+    return data;
   }
   function renderClassroom(message){
     let bar=$('[data-classroom-bar]');if(!bar){bar=document.createElement('aside');bar.dataset.classroomBar='';bar.className='song-classroom-bar';bar.setAttribute('aria-label','同步課堂');document.body.append(bar);}
     bar.hidden=state.session?.role!=='student'||classroom.token!==state.session?.token||classroom.devices<=1;if(bar.hidden)return;
-    const r=classroom.room;const signature=JSON.stringify([r?.id,Boolean(roomMatches()),message]);if(bar.dataset.signature===signature)return;bar.dataset.signature=signature;bar.replaceChildren();const label=document.createElement('span');label.setAttribute('role','status');label.textContent=message||(r?(roomMatches()?'已加入同步課堂 · 雙方可作答及控制音樂':'另一裝置已開始練習，請加入同一課堂'):'同步課堂已連線 · 選擇難度開始練習');bar.append(label);
+    const r=classroom.room;const signature=JSON.stringify([r?.id,Boolean(roomMatches()),classroom.devices,message]);if(bar.dataset.signature===signature)return;bar.dataset.signature=signature;bar.replaceChildren();const label=document.createElement('span');label.setAttribute('role','status');label.textContent=message||(r?(roomMatches()?'已加入同步課堂 · 雙方可作答及控制音樂':'另一裝置已開始練習，請加入同一課堂'):'同步課堂已連線 · 選擇難度開始練習');bar.append(label);
+    bar.append(makeButton('中斷其他裝置連線',async()=>{
+      if(!confirm('中斷其他裝置的歌曲練習連線？已儲存的進度會保留。'))return;
+      storeLocalDraft();
+      try{await flushDraft();}catch{ /* Recovery must remain available during a draft conflict. */ }
+      try{acceptRoom(await roomRequest('eject'));toast('其他裝置已中斷連線。');}catch(e){toast(e.message,'error');}
+    },'secondary-button'));
     if(r&&!roomMatches())bar.append(makeButton('加入練習',()=>void joinClassroom(),'primary-button'));
     if(roomMatches()){
       bar.append(makeButton('開啟本機聲音',()=>{applyRoomMedia(true);},'secondary-button'));
@@ -2101,7 +2130,7 @@
   async function pollClassroom(){
     if(classroom.busy||classroom.joining||document.hidden||Date.now()<classroom.next)return;
     if(state.session?.role!=='student'){classroom.devices=0;classroom.joined=null;classroom.room=null;renderClassroom();return;}
-    if(classroom.token!==state.session.token){classroom.devices=0;classroom.token=state.session.token;classroom.joined=null;classroom.room=null;classroom.revision=-1;}
+    if(classroom.token!==state.session.token){classroom.devices=0;classroom.joined=null;classroom.room=null;classroom.revision=-1;}
     classroom.busy=true;
     try{const epoch=classroom.epoch,begin=Date.now(),data=await roomRequest();if(epoch!==classroom.epoch)return;classroom.serverOffset=(begin+Date.now())/2-Date.parse(data.server_time);acceptRoom(data);classroom.next=Date.now()+(roomMatches()?500:2000);}
     catch{classroom.next=Date.now()+5000;renderClassroom('同步連線中斷 · 暫時無法開始或加入課堂');}

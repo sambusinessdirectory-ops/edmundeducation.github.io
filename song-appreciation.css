@@ -521,3 +521,9 @@ button { color: inherit; }
  .player-controls .speed-picker [data-speed-trigger]{width:100%;justify-content:center;gap:5px}
  .player-controls .speed-picker [data-speed-trigger]>span{display:none}
 }
+
+/* Freeze at the current tile before handing horizontal motion to native touch scrolling. */
+.song-discovery{touch-action:pan-x pan-y;-webkit-overflow-scrolling:touch}
+.song-discovery.is-manual{overflow-x:auto;overscroll-behavior-x:contain}
+.song-discovery.is-manual .song-discovery-track{animation:none;transform:none}
+.song-discovery img{-webkit-user-drag:none;user-select:none}

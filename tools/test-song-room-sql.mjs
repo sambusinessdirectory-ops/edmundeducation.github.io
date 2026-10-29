@@ -7,6 +7,7 @@ create table song_appreciation_attempts(id uuid,student_id uuid,song_id uuid,mod
 await db.exec(fs.readFileSync(new URL('../supabase/migrations/20261029093539_song_appreciation_live_snapshot.sql',import.meta.url),'utf8'));
 
 await db.exec(fs.readFileSync(new URL('../supabase/migrations/20261029110700_song_shared_classroom.sql',import.meta.url),'utf8'));
+await db.exec(fs.readFileSync(new URL('../supabase/migrations/20261029161316_song_room_completion_and_ejection.sql',import.meta.url),'utf8'));
 const deviceA=a,deviceB=b,roomId=attempt;
 const room=async(device,action='poll',session=null,token=a,media=null)=>(await db.query('select song_appreciation_room($1,$2,$3,$4,$5,$6,$7,$8) result',[token,device,action,session,song,'standard',1,media])).rows[0].result;
 await assert.rejects(room(a),/Sign in/);await db.query("select set_config('request.jwt.claim.sub',$1,false)",[a]);
@@ -23,4 +24,15 @@ await room(a,'end',roomId);assert.equal((await room(b)).session,null);await asse
 assert.equal((await room(b,'start',song)).accepted,true);
 await db.exec("update song_live_private.rooms set expires_at=now()-interval '1 minute'");assert.equal((await room(b)).session,null);
 assert.equal((await db.query("select has_function_privilege('anon','public.song_appreciation_room(uuid,uuid,text,uuid,uuid,text,integer,jsonb)','execute') allowed")).rows[0].allowed,false);
+// A saved result releases its classroom without a second client-side request.
+await room(a,'start',roomId);
+await db.query('insert into song_appreciation_attempts(id,student_id) values($1,$2)',[roomId,a]);
+assert.equal((await room(b)).session,null,'completion releases classroom');
+assert.equal((await room(b,'start',song)).accepted,true,'next exercise starts');
+await room(a,'join',song);
+assert.equal((await room(a,'eject',song)).devices,1,'either peer can eject others');
+assert.equal((await room(b)).ejected,true,'ejected peer cannot return by polling');
+assert.equal((await room(b,'start',roomId)).ejected,true,'ejected peer cannot start');
+assert.equal((await room(a,'start',attempt)).accepted,true,'remaining device can switch');
+assert.equal((await room(b,'poll',null,b)).ejected,undefined,'ejection is account scoped');
 console.log('PASS shared Song room: authenticated account isolation, atomic start claim, explicit join, bidirectional playback, ordered revisions, end and expiry.');await db.close();
