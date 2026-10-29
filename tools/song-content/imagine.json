@@ -2565,7 +2565,7 @@
     }
   ],
   "audio_url": "https://edmundeducation.com/song-media/imagine/album.mp3",
-  "cover_url": "https://edmundeducation.com/song-media/imagine/cover.webp",
+  "cover_url": "https://edmundeducation.com/song-media/imagine/user-cover-20261029.png",
   "sourceProvenance": {
     "pdf": {
       "filename": "_Imagine_.pdf",
@@ -2591,5 +2591,12 @@
       13
     ],
     "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-904c5ce3-1405-405e-8946-e3dcb62e34bd.png",
+    "sha256": "f3bf8bcd203712ecefdcf65f02421a7e7f84db17e77380000748111c8f1354d1",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
   }
 }

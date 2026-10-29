@@ -3078,7 +3078,7 @@
     }
   ],
   "audio_url": "https://edmundeducation.com/song-media/somebody-that-i-used-to-know/album.mp3",
-  "cover_url": "https://edmundeducation.com/song-media/somebody-that-i-used-to-know/cover.webp",
+  "cover_url": "https://edmundeducation.com/song-media/somebody-that-i-used-to-know/user-cover-20261029.png",
   "sourceProvenance": {
     "pdf": {
       "filename": "_Somebody That I Used To Know_.pdf",
@@ -3116,5 +3116,12 @@
       45
     ],
     "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-339e575f-5184-446a-93fe-e16476bc7d40.png",
+    "sha256": "e3258e20483632f741e4c546062d51085b7de219a972aeb0e7c9e5b4e94bcf73",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
   }
 }
