@@ -502,7 +502,10 @@
     const title = document.createElement("h3"); title.textContent = song.title;
     const singer = document.createElement("p"); singer.textContent = song.singer;
     const tags = document.createElement("div"); tags.className = "tag-row"; tagElements(song.tags.slice(0, 4), tags);
-    body.append(lesson, title, singer, tags);
+    body.append(lesson, title, singer);
+    const difficulty = window.SongDifficulty?.card(song);
+    if (difficulty) body.append(difficulty);
+    body.append(tags);
     if(progress){const status=document.createElement("small");status.className="song-card__status";setLabel(status,progress==="completed"?"✓ 已完成練習":"◷ 練習進行中");body.append(status);}
     const favorite=document.createElement("button");favorite.type="button";favorite.className="song-favorite";setLabel(favorite,songIsFavorite(song.id)?"★ 已收藏":"☆ 收藏歌曲");favorite.setAttribute("aria-pressed",String(songIsFavorite(song.id)));favorite.addEventListener("click",event=>{event.stopPropagation();toggleFavorite(song);});
     const open = document.createElement("button");
@@ -545,6 +548,8 @@
     $("[data-song-singer]").textContent = song.singer;
     $("[data-exercise-name]").textContent = song.exerciseName;
     $("[data-song-description]").replaceChildren(safeIntroduction(song.description));
+    const difficultyPanel = window.SongDifficulty?.panel(song);
+    $("[data-song-difficulty]").replaceChildren(...(difficultyPanel ? [difficultyPanel] : []));
     tagElements(song.tags, $("[data-song-tags]"));
     const cover = $("[data-song-cover]");
     $("img", cover)?.remove();

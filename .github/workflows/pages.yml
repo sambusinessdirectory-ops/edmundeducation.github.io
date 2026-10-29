@@ -790,6 +790,7 @@ jobs:
         run: |
           node --check song-appreciation.js
           node --check song-appreciation-live.mjs
+          node tools/test-song-difficulty.cjs
           node tools/test-song-appreciation.mjs
           node tools/test-song-live-sync.mjs
           npm ci --prefix tools/email-qa --ignore-scripts
