@@ -1,6 +1,6 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const root=path.resolve(__dirname,'..');const sandbox={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'song-difficulty-data.js'),'utf8'),sandbox);const profiles=sandbox.window.SONG_DIFFICULTY_DATA;
-const profileCount=49;assert.equal(Object.keys(profiles).length,profileCount);
+const sourceSlugs=fs.readdirSync(path.join(root,'tools/song-content')).filter(f=>f.endsWith('.json')).map(f=>JSON.parse(fs.readFileSync(path.join(root,'tools/song-content',f))).slug);const profileCount=new Set(sourceSlugs).size;assert.deepEqual(Object.keys(profiles).sort(),[...new Set(sourceSlugs)].sort());assert.equal(Object.keys(profiles).length,profileCount);
 for(const [slug,p] of Object.entries(profiles)){assert.equal(p.scores.length,6,slug);assert.ok(p.scores.every(v=>Number.isInteger(v)&&v>=1&&v<=10),slug);assert.ok(p.bpm>0&&p.year>=1960&&p.year<=2026,slug);assert.ok(p.genre,slug);assert.equal(p.note,undefined);assert.equal(p.sources,undefined);}
 vm.runInNewContext(fs.readFileSync(path.join(root,'song-difficulty.js'),'utf8'),sandbox);for(const [score,stars] of [[6,1],[16,1],[17,2],[27,2],[28,3],[38,3],[39,4],[49,4],[50,5],[60,5]])assert.equal(sandbox.window.SongDifficulty.starLevel(score),stars);
 
@@ -18,7 +18,7 @@ vm.runInNewContext(fs.readFileSync(path.join(root,'song-preview-hooks.js'),'utf8
 const hooks=sandbox.window.SONG_PREVIEW_HOOKS;assert.equal(Object.keys(hooks).length,profileCount);
 const sources=fs.readdirSync(path.join(root,'tools/song-content')).filter(f=>f.endsWith('.json')).map(f=>JSON.parse(fs.readFileSync(path.join(root,'tools/song-content',f))));
 for(const [slug,hook] of Object.entries(hooks)){const source=sources.find(s=>s.slug===slug);assert.ok(source,slug);const line=source.translations.find(r=>r.lineId===hook.lineId);assert.ok(Math.abs(line.startSeconds-hook.start-(hook.leadInSeconds||0))<.01,slug);assert.ok((hook.leadInSeconds||0)>=0&&(hook.leadInSeconds||0)<=1,slug);assert.equal(hook.duration,24);assert.deepEqual(Object.keys(hook).filter(k=>k!=='leadInSeconds').sort(),['duration','lineId','start']);}
-if(!process.env.PLAYWRIGHT_MODULE){console.log('46 difficulty profiles, metadata, six score ranges and star boundaries passed.');process.exit(0);}
+if(!process.env.PLAYWRIGHT_MODULE){console.log(profileCount+' difficulty profiles, metadata, six score ranges and star boundaries passed.');process.exit(0);}
 const {chromium}=require(process.env.PLAYWRIGHT_MODULE);
 const files=fs.readdirSync(path.join(root,'tools/song-content')).filter(f=>f.endsWith('.json'));const songs=files.map(f=>JSON.parse(fs.readFileSync(path.join(root,'tools/song-content',f)))).filter(s=>profiles[s.slug]);const seen=new Set();const catalogue=songs.filter(s=>!seen.has(s.slug)&&seen.add(s.slug)).map((s,i)=>({...s,id:`00000000-0000-4000-8000-${String(i+1).padStart(12,'0')}`,published:true}));assert.equal(catalogue.length,profileCount);
 const session={id:'00000000-0000-4000-8000-999999999999',name:'Synthetic Student',role:'student',token:'00000000-0000-4000-8000-888888888888'};
