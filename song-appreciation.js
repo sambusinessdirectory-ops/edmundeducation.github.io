@@ -991,6 +991,7 @@
     const timing = questionTimeline(exercise.mode.questions, lyricTimeline(state.activeSong, Number(state.player?.getDuration?.()) || 0));
     const groups = new Map();
     const timeline = lyricTimeline(state.activeSong, Number(state.player?.getDuration?.()) || 0);
+    const translationRows = new Map(state.activeSong.translations.filter(row => !row.break).map(row => [row.lineId, row]));
     exercise.mode.listeningLines.forEach(line => {
       const section = document.createElement("section"); section.className = "exercise-lyric-group";
       section.dataset.lyricFlow = line.lineId;
@@ -1007,7 +1008,8 @@
         else { const blank = document.createElement("span"); blank.className = "blank-number"; blank.textContent = match[1]; heading.append(blank); }
       });
       section.append(heading);
-      if (state.showChinese && cue?.row.chinese) { const zh = document.createElement("p"); zh.className="question-translation"; zh.textContent=cue.row.chinese; section.append(zh); }
+      const translation = translationRows.get(line.lineId)?.chinese;
+      if (state.showChinese && translation) { const zh = document.createElement("p"); zh.className="question-translation"; zh.textContent=translation; section.append(zh); }
       section.classList.toggle("is-support-line", !/\{\{q:/.test(line.prompt));
       groups.set(line.lineId, section); holder.append(section);
     });
