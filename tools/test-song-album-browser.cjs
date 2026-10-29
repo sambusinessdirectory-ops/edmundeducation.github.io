@@ -37,6 +37,14 @@ for (const width of [1280,390]) {
  await page.locator('[data-mode-grid] button').last().click();await page.waitForSelector('[data-lyric-flow]');
  assert.equal(await page.locator('[data-lyric-flow]').count(),original.translations.length);if(await page.locator('[data-toggle-chinese]').getAttribute('aria-pressed')!=='true')await page.locator('[data-toggle-chinese]').click();assert.deepEqual(await page.locator('[data-lyric-flow] > .question-translation').allTextContents(),original.translations.map(r=>r.chinese));
  assert.equal(await page.locator('.exercise-line[data-question]').count(),50);
+ assert.deepEqual(await page.locator('[data-lyric-flow] > .exercise-full-line .blank-number').allTextContents(),Array.from({length:50},(_,i)=>String(i+1)));
+ assert.deepEqual(await page.locator('.exercise-line > .exercise-prompt').allTextContents(),Array.from({length:50},(_,i)=>`第 ${i+1} 題`));
+ const sourceRoute=original.exercises[3].listeningLines.flatMap(l=>[...l.prompt.matchAll(/\{\{q:(\d+)\}\}/g)].map(x=>x[1]));
+ assert.deepEqual(await page.locator('.exercise-line[data-question]').evaluateAll(nodes=>nodes.map(n=>n.dataset.question)),sourceRoute);
+ await page.evaluate(()=>window.songQA.syncLyricsToPlayback());
+ assert.equal(await page.locator('.exercise-line').evaluateAll(nodes=>nodes.every(n=>n.classList.contains('is-current-line') === (n.dataset.startSeconds!==undefined && document.querySelector('audio').currentTime>=Number(n.dataset.startSeconds) && document.querySelector('audio').currentTime<Number(n.dataset.endSeconds)))),true,'highlighting follows stable question identity after display reordering');
+
+
  assert.equal(await page.locator(`[data-lyric-flow="line-${original.translations.length}"]`).count(),1);
  const firstMulti=original.exercises[3].listeningLines.find(l=>(l.prompt.match(/\{\{q:/g)||[]).length>1);
  if(firstMulti)assert.equal(await page.locator(`[data-lyric-flow="${firstMulti.lineId}"] .blank-number`).count(),(firstMulti.prompt.match(/\{\{q:/g)||[]).length);

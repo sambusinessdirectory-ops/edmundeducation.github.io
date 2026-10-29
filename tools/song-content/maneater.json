@@ -872,8 +872,8 @@
           "prompt": "She'll only {{blank}}",
           "options": [
             "come out at nine",
-            "come out in the light",
-            "come out at night"
+            "come out at night",
+            "come out in the light"
           ],
           "answer": "come out at night",
           "promptZh": "她只會在夜幕降臨後現身"
@@ -883,8 +883,8 @@
           "lineId": "line-2",
           "prompt": "The {{blank}} type",
           "options": [
-            "mean and angry",
             "lean and hungry",
+            "mean and angry",
             "lean and lovely"
           ],
           "answer": "lean and hungry",
@@ -895,9 +895,9 @@
           "lineId": "line-3",
           "prompt": "{{blank}}",
           "options": [
-            "Nothing is true",
+            "Nothing is new",
             "Something is new",
-            "Nothing is new"
+            "Nothing is true"
           ],
           "answer": "Nothing is new",
           "promptZh": "這一切早已不足為奇"
@@ -907,9 +907,9 @@
           "lineId": "line-4",
           "prompt": "I've {{blank}}",
           "options": [
-            "seen her here before",
+            "seen her here no more",
             "seen her there before",
-            "seen her here no more"
+            "seen her here before"
           ],
           "answer": "seen her here before",
           "promptZh": "我以前就曾在這裡見過她"
@@ -920,8 +920,8 @@
           "prompt": "{{blank}}",
           "options": [
             "Walking and waiting",
-            "Watching and waving",
-            "Watching and waiting"
+            "Watching and waiting",
+            "Watching and waving"
           ],
           "answer": "Watching and waiting",
           "promptZh": "她靜靜觀察，伺機而動"
@@ -968,8 +968,8 @@
           "prompt": "{{blank}}",
           "options": [
             "Money's the answer",
-            "Money doesn't matter",
-            "Money's the matter"
+            "Money's the matter",
+            "Money doesn't matter"
           ],
           "answer": "Money's the matter",
           "promptZh": "說到底，金錢才是她在乎的事"
@@ -980,8 +980,8 @@
           "prompt": "If you're {{blank}}, you ain't gonna get too far",
           "options": [
             "in it for luck",
-            "in it for love",
-            "in it for fun"
+            "in it for fun",
+            "in it for love"
           ],
           "answer": "in it for love",
           "promptZh": "如果你是為了愛情而來，那你恐怕走不了多遠"
@@ -1003,9 +1003,9 @@
           "lineId": "line-14",
           "prompt": "She's {{blank}}",
           "options": [
-            "a maneater",
+            "a dreamer",
             "a man-hater",
-            "a dreamer"
+            "a maneater"
           ],
           "answer": "a maneater",
           "promptZh": "她是個吞噬男人的女人"
@@ -1028,8 +1028,8 @@
           "prompt": "I know {{blank}}",
           "options": [
             "what she will do",
-            "what she can do",
-            "what she can't do"
+            "what she can't do",
+            "what she can do"
           ],
           "answer": "what she can do",
           "promptZh": "我很清楚她有多大的能耐"
@@ -1039,9 +1039,9 @@
           "lineId": "line-21",
           "prompt": "{{blank}}, man",
           "options": [
-            "She's ready",
+            "She's deadly",
             "She's lovely",
-            "She's deadly"
+            "She's ready"
           ],
           "answer": "She's deadly",
           "promptZh": "老兄，她可是個致命的危險人物"
@@ -1051,9 +1051,9 @@
           "lineId": "line-22",
           "prompt": "She could really {{blank}}",
           "options": [
-            "tear your world apart",
+            "rip your world apart",
             "rip your heart apart",
-            "rip your world apart"
+            "tear your world apart"
           ],
           "answer": "rip your world apart",
           "promptZh": "她真的能將你的整個世界撕得粉碎"
@@ -1063,9 +1063,9 @@
           "lineId": "line-23",
           "prompt": "{{blank}}",
           "options": [
-            "Mind over matter",
+            "Time over matter",
             "Mind over money",
-            "Time over matter"
+            "Mind over matter"
           ],
           "answer": "Mind over matter",
           "promptZh": "她懂得以心智掌控局面"
@@ -1076,8 +1076,8 @@
           "prompt": "Ooh, the {{blank}} but a beast is in the heart",
           "options": [
             "beauty is rare",
-            "beauty is here",
-            "beauty is there"
+            "beauty is there",
+            "beauty is here"
           ],
           "answer": "beauty is there",
           "promptZh": "噢，她雖有美麗的外表，心中卻藏著一頭猛獸"
@@ -1111,9 +1111,9 @@
           "lineId": "line-6",
           "prompt": "Ooh, she's sitting with you, but her {{blank}}",
           "options": [
-            "eyes are on the door",
+            "eyes are on you",
             "eyes are on the floor",
-            "eyes are on you"
+            "eyes are on the door"
           ],
           "answer": "eyes are on the door",
           "promptZh": "噢，她雖坐在你身旁，目光卻始終盯著門口"
@@ -1124,8 +1124,8 @@
           "prompt": "So many have paid to see what you think you're {{blank}}",
           "options": [
             "getting from me",
-            "getting for free",
-            "getting a fee"
+            "getting a fee",
+            "getting for free"
           ],
           "answer": "getting for free",
           "promptZh": "你以為自己能不費代價地得到她，可早已有無數人為此付出了代價"
@@ -1147,9 +1147,9 @@
           "lineId": "line-10",
           "prompt": "If you're in it for love, you {{blank}}",
           "options": [
-            "ain't gonna go too far",
+            "ain't gonna get too far",
             "ain't gonna get too high",
-            "ain't gonna get too far"
+            "ain't gonna go too far"
           ],
           "answer": "ain't gonna get too far",
           "promptZh": "如果你是為了愛情而來，那你恐怕走不了多遠"
@@ -1159,9 +1159,9 @@
           "lineId": "line-12",
           "prompt": "Watch out, boy, she'll {{blank}}",
           "options": [
-            "chew you up",
+            "chase you out",
             "cheer you up",
-            "chase you out"
+            "chew you up"
           ],
           "answer": "chew you up",
           "promptZh": "小子，當心！她會把你吞噬殆盡"
@@ -1171,8 +1171,8 @@
           "lineId": "line-16",
           "prompt": "Watch out, boy, she'll {{blank}}",
           "options": [
-            "chew you up",
             "cheer you up",
+            "chew you up",
             "chase you out"
           ],
           "answer": "chew you up",
@@ -1195,8 +1195,8 @@
           "lineId": "line-24",
           "prompt": "Ooh, the beauty is there but {{blank}}",
           "options": [
-            "a beast is in her heart",
             "a beast is in the heart",
+            "a beast is in her heart",
             "a beat is in the heart"
           ],
           "answer": "a beast is in the heart",
@@ -1207,8 +1207,8 @@
           "lineId": "line-26",
           "prompt": "{{blank}}, she'll chew you up",
           "options": [
-            "Look out, boy",
             "Watch out, boy",
+            "Look out, boy",
             "Watch it, boy"
           ],
           "answer": "Watch out, boy",
@@ -1219,8 +1219,8 @@
           "lineId": "line-28",
           "prompt": "She's {{blank}}",
           "options": [
-            "a maneater",
             "a man-hater",
+            "a maneater",
             "a dreamer"
           ],
           "answer": "a maneater",
@@ -1232,8 +1232,8 @@
           "prompt": "Watch out, boy, she'll {{blank}}",
           "options": [
             "cheer you up",
-            "chew you up",
-            "chase you out"
+            "chase you out",
+            "chew you up"
           ],
           "answer": "chew you up",
           "promptZh": "小子，當心！她會把你吞噬殆盡"
@@ -1244,8 +1244,8 @@
           "prompt": "She's {{blank}}",
           "options": [
             "a man-hater",
-            "a dreamer",
-            "a maneater"
+            "a maneater",
+            "a dreamer"
           ],
           "answer": "a maneater",
           "promptZh": "她是個吞噬男人的女人"
@@ -1505,8 +1505,8 @@
           "lineId": "line-2",
           "prompt": "The {{blank}} type",
           "options": [
-            "lean and hungry",
             "mean and angry",
+            "lean and hungry",
             "lean and lovely"
           ],
           "answer": "lean and hungry",
@@ -1517,8 +1517,8 @@
           "lineId": "line-3",
           "prompt": "{{blank}}",
           "options": [
-            "Nothing is true",
             "Nothing is new",
+            "Nothing is true",
             "Something is new"
           ],
           "answer": "Nothing is new",
@@ -1529,8 +1529,8 @@
           "lineId": "line-4",
           "prompt": "I've {{blank}}",
           "options": [
-            "seen her here before",
             "seen her there before",
+            "seen her here before",
             "seen her here no more"
           ],
           "answer": "seen her here before",
@@ -1565,8 +1565,8 @@
           "lineId": "line-7",
           "prompt": "So many {{blank}} what you think you're getting for free",
           "options": [
-            "have paid to see",
             "have prayed to see",
+            "have paid to see",
             "have played to see"
           ],
           "answer": "have paid to see",
@@ -1577,9 +1577,9 @@
           "lineId": "line-8",
           "prompt": "{{blank}}, a she-cat tamed by the purr of a Jaguar",
           "options": [
-            "The woman is wild",
+            "The woman is mild",
             "The woman is wise",
-            "The woman is mild"
+            "The woman is wild"
           ],
           "answer": "The woman is wild",
           "promptZh": "這女人野性難馴，卻會被Jaguar的低沉引擎聲馴服，宛如一隻野貓"
@@ -1590,8 +1590,8 @@
           "prompt": "{{blank}}",
           "options": [
             "Money's the answer",
-            "Money's the matter",
-            "Money doesn't matter"
+            "Money doesn't matter",
+            "Money's the matter"
           ],
           "answer": "Money's the matter",
           "promptZh": "說到底，金錢才是她在乎的事"
@@ -1614,8 +1614,8 @@
           "prompt": "{{blank}}, she'll chew you up",
           "options": [
             "Look out, boy",
-            "Watch it, boy",
-            "Watch out, boy"
+            "Watch out, boy",
+            "Watch it, boy"
           ],
           "answer": "Watch out, boy",
           "promptZh": "小子，當心！她會把你吞噬殆盡"
@@ -1626,8 +1626,8 @@
           "prompt": "She's {{blank}}",
           "options": [
             "a man-hater",
-            "a dreamer",
-            "a maneater"
+            "a maneater",
+            "a dreamer"
           ],
           "answer": "a maneater",
           "promptZh": "她是個吞噬男人的女人"
@@ -1649,9 +1649,9 @@
           "lineId": "line-20",
           "prompt": "I know {{blank}}",
           "options": [
-            "what she can do",
+            "what she can't do",
             "what she will do",
-            "what she can't do"
+            "what she can do"
           ],
           "answer": "what she can do",
           "promptZh": "我很清楚她有多大的能耐"
@@ -1662,8 +1662,8 @@
           "prompt": "{{blank}}, man",
           "options": [
             "She's ready",
-            "She's deadly",
-            "She's lovely"
+            "She's lovely",
+            "She's deadly"
           ],
           "answer": "She's deadly",
           "promptZh": "老兄，她可是個致命的危險人物"
@@ -1673,9 +1673,9 @@
           "lineId": "line-22",
           "prompt": "She could really {{blank}}",
           "options": [
-            "tear your world apart",
+            "rip your world apart",
             "rip your heart apart",
-            "rip your world apart"
+            "tear your world apart"
           ],
           "answer": "rip your world apart",
           "promptZh": "她真的能將你的整個世界撕得粉碎"
@@ -1685,9 +1685,9 @@
           "lineId": "line-23",
           "prompt": "{{blank}}",
           "options": [
-            "Mind over matter",
+            "Time over matter",
             "Mind over money",
-            "Time over matter"
+            "Mind over matter"
           ],
           "answer": "Mind over matter",
           "promptZh": "她懂得以心智掌控局面"
@@ -1698,8 +1698,8 @@
           "prompt": "Ooh, the {{blank}} but a beast is in the heart",
           "options": [
             "beauty is rare",
-            "beauty is here",
-            "beauty is there"
+            "beauty is there",
+            "beauty is here"
           ],
           "answer": "beauty is there",
           "promptZh": "噢，她雖有美麗的外表，心中卻藏著一頭猛獸"
@@ -1709,8 +1709,8 @@
           "lineId": "line-35",
           "prompt": "{{blank}}, watch out, boy, she'll chew you up",
           "options": [
-            "Here he comes",
             "Here she comes",
+            "Here he comes",
             "There she goes"
           ],
           "answer": "Here she comes",
@@ -1734,8 +1734,8 @@
           "prompt": "Ooh, she's sitting with you, but her {{blank}}",
           "options": [
             "eyes are on the floor",
-            "eyes are on the door",
-            "eyes are on you"
+            "eyes are on you",
+            "eyes are on the door"
           ],
           "answer": "eyes are on the door",
           "promptZh": "噢，她雖坐在你身旁，目光卻始終盯著門口"
@@ -1757,8 +1757,8 @@
           "lineId": "line-8",
           "prompt": "The woman is wild, {{blank}} by the purr of a Jaguar",
           "options": [
-            "a she-cat tamed",
             "a she-cat named",
+            "a she-cat tamed",
             "a wild cat tamed"
           ],
           "answer": "a she-cat tamed",
@@ -1770,8 +1770,8 @@
           "prompt": "If you're in it for love, you {{blank}}",
           "options": [
             "ain't gonna go too far",
-            "ain't gonna get too high",
-            "ain't gonna get too far"
+            "ain't gonna get too far",
+            "ain't gonna get too high"
           ],
           "answer": "ain't gonna get too far",
           "promptZh": "如果你是為了愛情而來，那你恐怕走不了多遠"
@@ -1781,8 +1781,8 @@
           "lineId": "line-12",
           "prompt": "Watch out, boy, she'll {{blank}}",
           "options": [
-            "cheer you up",
             "chew you up",
+            "cheer you up",
             "chase you out"
           ],
           "answer": "chew you up",
@@ -1794,8 +1794,8 @@
           "prompt": "Watch out, boy, she'll {{blank}}",
           "options": [
             "cheer you up",
-            "chew you up",
-            "chase you out"
+            "chase you out",
+            "chew you up"
           ],
           "answer": "chew you up",
           "promptZh": "小子，當心！她會把你吞噬殆盡"
@@ -1805,9 +1805,9 @@
           "lineId": "line-18",
           "prompt": "She's {{blank}}",
           "options": [
-            "a man-hater",
+            "a maneater",
             "a dreamer",
-            "a maneater"
+            "a man-hater"
           ],
           "answer": "a maneater",
           "promptZh": "她是個吞噬男人的女人"
@@ -1842,8 +1842,8 @@
           "prompt": "She's {{blank}}",
           "options": [
             "a man-hater",
-            "a dreamer",
-            "a maneater"
+            "a maneater",
+            "a dreamer"
           ],
           "answer": "a maneater",
           "promptZh": "她是個吞噬男人的女人"
@@ -1865,8 +1865,8 @@
           "lineId": "line-32",
           "prompt": "She's {{blank}}",
           "options": [
-            "a man-hater",
             "a maneater",
+            "a man-hater",
             "a dreamer"
           ],
           "answer": "a maneater",
@@ -1877,8 +1877,8 @@
           "lineId": "line-35",
           "prompt": "Here she comes, {{blank}}, she'll chew you up",
           "options": [
-            "watch out, boy",
             "look out, boy",
+            "watch out, boy",
             "watch it, boy"
           ],
           "answer": "watch out, boy",
@@ -1901,8 +1901,8 @@
           "lineId": "line-26",
           "prompt": "Watch out, boy, she'll {{blank}}",
           "options": [
-            "cheer you up",
             "chew you up",
+            "cheer you up",
             "chase you out"
           ],
           "answer": "chew you up",
@@ -1938,8 +1938,8 @@
           "prompt": "(Oh-oh, here she comes, {{blank}})",
           "options": [
             "walk out",
-            "watch out",
-            "look out"
+            "look out",
+            "watch out"
           ],
           "answer": "watch out",
           "promptZh": "（噢——噢，她來了，當心！）"
@@ -1949,9 +1949,9 @@
           "lineId": "line-45",
           "prompt": "{{blank}}, she's a maneater",
           "options": [
-            "Here he comes",
+            "Here she comes",
             "There she goes",
-            "Here she comes"
+            "Here he comes"
           ],
           "answer": "Here she comes",
           "promptZh": "她來了，她是個吞噬男人的女人"

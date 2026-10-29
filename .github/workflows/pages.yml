@@ -30,7 +30,9 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Check song exercise quality
-        run: node tools/check-song-quality.mjs
+        run: |
+          node tools/check-song-quality.mjs
+          node tools/test-song-route.mjs
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

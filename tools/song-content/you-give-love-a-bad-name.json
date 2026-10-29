@@ -728,8 +728,8 @@
           "lineId": "line-3",
           "prompt": "{{blank}} is what you sell",
           "options": [
-            "An angel's smile",
             "An angel's eyes",
+            "An angel's smile",
             "A stranger's smile"
           ],
           "answer": "An angel's smile",
@@ -752,9 +752,9 @@
           "lineId": "line-5",
           "prompt": "{{blank}} got a hold on me",
           "options": [
-            "Change of love",
+            "Chains of love",
             "Chains of lies",
-            "Chains of love"
+            "Change of love"
           ],
           "answer": "Chains of love",
           "promptZh": "愛情的枷鎖，早已將我緊緊束縛"
@@ -777,8 +777,8 @@
           "prompt": "Whoa, you're {{blank}}, yeah",
           "options": [
             "a lonely gun",
-            "a loaded gun",
-            "a smoking gun"
+            "a smoking gun",
+            "a loaded gun"
           ],
           "answer": "a loaded gun",
           "promptZh": "噢，你就像一把上了膛的槍，耶"
@@ -788,8 +788,8 @@
           "lineId": "line-8",
           "prompt": "Oh, there's {{blank}}",
           "options": [
-            "nowhere to run",
             "nowhere to hide",
+            "nowhere to run",
             "somewhere to run"
           ],
           "answer": "nowhere to run",
@@ -800,9 +800,9 @@
           "lineId": "line-9",
           "prompt": "{{blank}}, the damage is done",
           "options": [
-            "No one can blame me",
+            "No one can save me",
             "Someone can save me",
-            "No one can save me"
+            "No one can blame me"
           ],
           "answer": "No one can save me",
           "promptZh": "誰也救不了我，傷害早已造成"
@@ -824,9 +824,9 @@
           "lineId": "line-11",
           "prompt": "You give love {{blank}} (Bad name)",
           "options": [
-            "a bad name",
+            "a new name",
             "a sad name",
-            "a new name"
+            "a bad name"
           ],
           "answer": "a bad name",
           "promptZh": "是你讓愛情蒙上惡名（惡名）"
@@ -848,8 +848,8 @@
           "lineId": "line-15",
           "prompt": "{{blank}} on your lips",
           "options": [
-            "Paint your style",
             "Paint your smile",
+            "Paint your style",
             "Place your smile"
           ],
           "answer": "Paint your smile",
@@ -860,9 +860,9 @@
           "lineId": "line-16",
           "prompt": "{{blank}} on your fingertips",
           "options": [
-            "Blood red nails",
+            "Blood red eyes",
             "Bright red nails",
-            "Blood red eyes"
+            "Blood red nails"
           ],
           "answer": "Blood red nails",
           "promptZh": "指尖的指甲，塗著鮮血般的艷紅"
@@ -872,8 +872,8 @@
           "lineId": "line-17",
           "prompt": "{{blank}}, you act so shy",
           "options": [
-            "A school boy's dream",
             "A school girl's dream",
+            "A school boy's dream",
             "A school boy's game"
           ],
           "answer": "A school boy's dream",
@@ -885,8 +885,8 @@
           "prompt": "Your {{blank}} was your first kiss goodbye",
           "options": [
             "very last kiss",
-            "very first kiss",
-            "very first love"
+            "very first love",
+            "very first kiss"
           ],
           "answer": "very first kiss",
           "promptZh": "你的第一個吻，竟也是告別的第一個吻"
@@ -897,8 +897,8 @@
           "prompt": "{{blank}} and you're to blame",
           "options": [
             "Shot into the dark",
-            "Shot through the heart",
-            "Shot straight to the heart"
+            "Shot straight to the heart",
+            "Shot through the heart"
           ],
           "answer": "Shot through the heart",
           "promptZh": "我的心被一槍射穿，而這一切都該怪你"
@@ -908,9 +908,9 @@
           "lineId": "line-24",
           "prompt": "{{blank}} and you play your game",
           "options": [
-            "I play my cards",
+            "I play my part",
             "I play your part",
-            "I play my part"
+            "I play my cards"
           ],
           "answer": "I play my part",
           "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
@@ -921,8 +921,8 @@
           "prompt": "{{blank}} and you're to blame",
           "options": [
             "Shot into the dark",
-            "Shot straight to the heart",
-            "Shot through the heart"
+            "Shot through the heart",
+            "Shot straight to the heart"
           ],
           "answer": "Shot through the heart",
           "promptZh": "我的心被一槍射穿，而這一切都該怪你"
@@ -933,8 +933,8 @@
           "prompt": "You give love, {{blank}}",
           "options": [
             "sad name",
-            "bad name",
-            "last name"
+            "last name",
+            "bad name"
           ],
           "answer": "bad name",
           "promptZh": "你讓愛情，蒙上惡名"
@@ -956,9 +956,9 @@
           "lineId": "line-4",
           "prompt": "You promised me heaven, then {{blank}}",
           "options": [
-            "pulled me through hell",
+            "put me through hell",
             "put me through pain",
-            "put me through hell"
+            "pulled me through hell"
           ],
           "answer": "put me through hell",
           "promptZh": "你曾許諾給我天堂，卻讓我受盡地獄般的折磨"
@@ -968,9 +968,9 @@
           "lineId": "line-5",
           "prompt": "Chains of love {{blank}}",
           "options": [
-            "got a hold on me",
+            "got a hold of me",
             "got a hand on me",
-            "got a hold of me"
+            "got a hold on me"
           ],
           "answer": "got a hold on me",
           "promptZh": "愛情的枷鎖，早已將我緊緊束縛"
@@ -981,8 +981,8 @@
           "prompt": "When passion's a prison, you {{blank}}",
           "options": [
             "can't be free",
-            "can't break through",
-            "can't break free"
+            "can't break free",
+            "can't break through"
           ],
           "answer": "can't break free",
           "promptZh": "當激情成了牢籠，便再也無法掙脫"
@@ -992,8 +992,8 @@
           "lineId": "line-9",
           "prompt": "No one can save me, {{blank}}",
           "options": [
-            "the danger is gone",
             "the damage is done",
+            "the danger is gone",
             "the damage has gone"
           ],
           "answer": "the damage is done",
@@ -1004,8 +1004,8 @@
           "lineId": "line-12",
           "prompt": "I play my part and {{blank}}",
           "options": [
-            "you play your game",
             "you play my game",
+            "you play your game",
             "you play your part"
           ],
           "answer": "you play your game",
@@ -1028,9 +1028,9 @@
           "lineId": "line-18",
           "prompt": "Your very first kiss was your {{blank}}",
           "options": [
-            "first kiss goodnight",
+            "first kiss goodbye",
             "last kiss goodbye",
-            "first kiss goodbye"
+            "first kiss goodnight"
           ],
           "answer": "first kiss goodbye",
           "promptZh": "你的第一個吻，竟也是告別的第一個吻"
@@ -1041,8 +1041,8 @@
           "prompt": "Whoa, you're {{blank}}",
           "options": [
             "a lonely gun",
-            "a loaded gun",
-            "a smoking gun"
+            "a smoking gun",
+            "a loaded gun"
           ],
           "answer": "a loaded gun",
           "promptZh": "噢，你就像一把上了膛的槍"
@@ -1065,8 +1065,8 @@
           "prompt": "Oh, {{blank}} and you're to blame",
           "options": [
             "shot into the dark",
-            "shot straight to the heart",
-            "shot through the heart"
+            "shot through the heart",
+            "shot straight to the heart"
           ],
           "answer": "shot through the heart",
           "promptZh": "噢，我的心被一槍射穿，而這一切都該怪你"
@@ -1267,8 +1267,8 @@
           "prompt": "{{blank}} and you're to blame",
           "options": [
             "Shot into the dark",
-            "Shot straight to the heart",
-            "Shot through the heart"
+            "Shot through the heart",
+            "Shot straight to the heart"
           ],
           "answer": "Shot through the heart",
           "promptZh": "我的心被一槍射穿，而這一切都該怪你"
@@ -1291,8 +1291,8 @@
           "prompt": "{{blank}} is what you sell",
           "options": [
             "An angel's eyes",
-            "An angel's smile",
-            "A stranger's smile"
+            "A stranger's smile",
+            "An angel's smile"
           ],
           "answer": "An angel's smile",
           "promptZh": "你以天使般的笑容，迷惑人心"
@@ -1326,9 +1326,9 @@
           "lineId": "line-6",
           "prompt": "When {{blank}}, you can't break free",
           "options": [
-            "passion is a reason",
+            "passion's a prison",
             "passion's a vision",
-            "passion's a prison"
+            "passion is a reason"
           ],
           "answer": "passion's a prison",
           "promptZh": "當激情成了牢籠，便再也無法掙脫"
@@ -1338,9 +1338,9 @@
           "lineId": "line-7",
           "prompt": "Whoa, you're {{blank}}, yeah",
           "options": [
-            "a loaded gun",
+            "a smoking gun",
             "a lonely gun",
-            "a smoking gun"
+            "a loaded gun"
           ],
           "answer": "a loaded gun",
           "promptZh": "噢，你就像一把上了膛的槍，耶"
@@ -1350,8 +1350,8 @@
           "lineId": "line-8",
           "prompt": "Oh, there's {{blank}}",
           "options": [
-            "nowhere to run",
             "nowhere to hide",
+            "nowhere to run",
             "somewhere to run"
           ],
           "answer": "nowhere to run",
@@ -1362,8 +1362,8 @@
           "lineId": "line-9",
           "prompt": "{{blank}}, the damage is done",
           "options": [
-            "No one can blame me",
             "No one can save me",
+            "No one can blame me",
             "Someone can save me"
           ],
           "answer": "No one can save me",
@@ -1387,8 +1387,8 @@
           "prompt": "You give love {{blank}} (Bad name)",
           "options": [
             "a sad name",
-            "a bad name",
-            "a new name"
+            "a new name",
+            "a bad name"
           ],
           "answer": "a bad name",
           "promptZh": "是你讓愛情蒙上惡名（惡名）"
@@ -1411,8 +1411,8 @@
           "prompt": "{{blank}} on your lips",
           "options": [
             "Paint your style",
-            "Paint your smile",
-            "Place your smile"
+            "Place your smile",
+            "Paint your smile"
           ],
           "answer": "Paint your smile",
           "promptZh": "你在唇邊描繪出一抹迷人的微笑"
@@ -1423,8 +1423,8 @@
           "prompt": "{{blank}} on your fingertips",
           "options": [
             "Bright red nails",
-            "Blood red nails",
-            "Blood red eyes"
+            "Blood red eyes",
+            "Blood red nails"
           ],
           "answer": "Blood red nails",
           "promptZh": "指尖的指甲，塗著鮮血般的艷紅"
@@ -1447,8 +1447,8 @@
           "prompt": "Your {{blank}} was your first kiss goodbye",
           "options": [
             "very last kiss",
-            "very first kiss",
-            "very first love"
+            "very first love",
+            "very first kiss"
           ],
           "answer": "very first kiss",
           "promptZh": "你的第一個吻，竟也是告別的第一個吻"
@@ -1458,8 +1458,8 @@
           "lineId": "line-22",
           "prompt": "{{blank}} and you're to blame",
           "options": [
-            "Shot into the dark",
             "Shot through the heart",
+            "Shot into the dark",
             "Shot straight to the heart"
           ],
           "answer": "Shot through the heart",
@@ -1470,9 +1470,9 @@
           "lineId": "line-24",
           "prompt": "{{blank}} and you play your game",
           "options": [
-            "I play my cards",
+            "I play my part",
             "I play your part",
-            "I play my part"
+            "I play my cards"
           ],
           "answer": "I play my part",
           "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
@@ -1483,8 +1483,8 @@
           "prompt": "{{blank}} and you're to blame",
           "options": [
             "Shot into the dark",
-            "Shot through the heart",
-            "Shot straight to the heart"
+            "Shot straight to the heart",
+            "Shot through the heart"
           ],
           "answer": "Shot through the heart",
           "promptZh": "我的心被一槍射穿，而這一切都該怪你"
@@ -1494,8 +1494,8 @@
           "lineId": "line-36",
           "prompt": "You give love, {{blank}}",
           "options": [
-            "bad name",
             "sad name",
+            "bad name",
             "last name"
           ],
           "answer": "bad name",
@@ -1507,8 +1507,8 @@
           "prompt": "Shot through the heart and {{blank}}",
           "options": [
             "you're the same",
-            "you're to stay",
-            "you're to blame"
+            "you're to blame",
+            "you're to stay"
           ],
           "answer": "you're to blame",
           "promptZh": "我的心被一槍射穿，而這一切都該怪你"
@@ -1518,8 +1518,8 @@
           "lineId": "line-4",
           "prompt": "You promised me heaven, then {{blank}}",
           "options": [
-            "pulled me through hell",
             "put me through hell",
+            "pulled me through hell",
             "put me through pain"
           ],
           "answer": "put me through hell",
@@ -1542,8 +1542,8 @@
           "lineId": "line-6",
           "prompt": "When passion's a prison, you {{blank}}",
           "options": [
-            "can't break free",
             "can't be free",
+            "can't break free",
             "can't break through"
           ],
           "answer": "can't break free",
@@ -1567,8 +1567,8 @@
           "prompt": "I play my part and {{blank}}",
           "options": [
             "you play my game",
-            "you play your part",
-            "you play your game"
+            "you play your game",
+            "you play your part"
           ],
           "answer": "you play your game",
           "promptZh": "我真心扮演自己的角色，你卻只顧玩弄你的把戲"
@@ -1578,8 +1578,8 @@
           "lineId": "line-17",
           "prompt": "A school boy's dream, {{blank}}",
           "options": [
-            "you look so shy",
             "you act so shy",
+            "you look so shy",
             "you act so fine"
           ],
           "answer": "you act so shy",
@@ -1591,8 +1591,8 @@
           "prompt": "Your very first kiss was your {{blank}}",
           "options": [
             "first kiss goodnight",
-            "last kiss goodbye",
-            "first kiss goodbye"
+            "first kiss goodbye",
+            "last kiss goodbye"
           ],
           "answer": "first kiss goodbye",
           "promptZh": "你的第一個吻，竟也是告別的第一個吻"
@@ -1603,8 +1603,8 @@
           "prompt": "Whoa, you're {{blank}}",
           "options": [
             "a lonely gun",
-            "a smoking gun",
-            "a loaded gun"
+            "a loaded gun",
+            "a smoking gun"
           ],
           "answer": "a loaded gun",
           "promptZh": "噢，你就像一把上了膛的槍"
@@ -1626,8 +1626,8 @@
           "lineId": "line-27",
           "prompt": "Oh, {{blank}} and you're to blame",
           "options": [
-            "shot through the heart",
             "shot into the dark",
+            "shot through the heart",
             "shot straight to the heart"
           ],
           "answer": "shot through the heart",
@@ -1650,8 +1650,8 @@
           "lineId": "line-3",
           "prompt": "An angel's smile is {{blank}}",
           "options": [
-            "what you sell",
             "what you say",
+            "what you sell",
             "what you tell"
           ],
           "answer": "what you sell",
@@ -1686,9 +1686,9 @@
           "lineId": "line-23",
           "prompt": "You give love {{blank}} (Bad name)",
           "options": [
-            "a bad name",
+            "a new name",
             "a sad name",
-            "a new name"
+            "a bad name"
           ],
           "answer": "a bad name",
           "promptZh": "是你讓愛情蒙上惡名（惡名）"
@@ -1734,9 +1734,9 @@
           "lineId": "line-34",
           "prompt": "You give love {{blank}} (Bad name)",
           "options": [
-            "a sad name",
+            "a bad name",
             "a new name",
-            "a bad name"
+            "a sad name"
           ],
           "answer": "a bad name",
           "promptZh": "是你讓愛情蒙上惡名（惡名）"

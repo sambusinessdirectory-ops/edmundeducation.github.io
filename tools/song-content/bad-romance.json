@@ -1227,8 +1227,8 @@
           "lineId": "line-2",
           "prompt": "Caught in a {{blank}}",
           "options": [
-            "sad romance",
             "bad romance",
+            "sad romance",
             "bad romances"
           ],
           "answer": "bad romance",
@@ -1251,9 +1251,9 @@
           "lineId": "line-13",
           "prompt": "I want your ugly, I want {{blank}}",
           "options": [
-            "your disease",
+            "your release",
             "your desire",
-            "your release"
+            "your disease"
           ],
           "answer": "your disease",
           "promptZh": "我要你醜陋的一面，也要你身上的病態"
@@ -1276,8 +1276,8 @@
           "prompt": "I want {{blank}}, the touch of your hand (Hey!)",
           "options": [
             "your trauma",
-            "your drama",
-            "your dreams"
+            "your dreams",
+            "your drama"
           ],
           "answer": "your drama",
           "promptZh": "我要你那些戲劇化的糾葛，也渴望你雙手的觸碰（嘿！）"
@@ -1287,8 +1287,8 @@
           "lineId": "line-17",
           "prompt": "I want your drama, {{blank}} (Hey!)",
           "options": [
-            "the touch of your heart",
             "the touch of your hand",
+            "the touch of your heart",
             "the rush of your hand"
           ],
           "answer": "the touch of your hand",
@@ -1299,8 +1299,8 @@
           "lineId": "line-18",
           "prompt": "I want your leather-studded kiss {{blank}}",
           "options": [
-            "in the sand",
             "on the sand",
+            "in the sand",
             "in my hand"
           ],
           "answer": "in the sand",
@@ -1324,8 +1324,8 @@
           "prompt": "And you know that {{blank}}",
           "options": [
             "I see you",
-            "I need you",
-            "I leave you"
+            "I leave you",
+            "I need you"
           ],
           "answer": "I need you",
           "promptZh": "你也知道，我需要你"
@@ -1347,9 +1347,9 @@
           "lineId": "line-27",
           "prompt": "You and me {{blank}} a bad romance (Oh-oh-oh-oh-oh)",
           "options": [
-            "could write",
+            "would write",
             "could ride",
-            "would write"
+            "could write"
           ],
           "answer": "could write",
           "promptZh": "你和我，足以共同譜寫一段危險的愛情故事（噢——噢）"
@@ -1371,8 +1371,8 @@
           "lineId": "line-38",
           "prompt": "I want {{blank}}, I want your design",
           "options": [
-            "your horror",
             "your honour",
+            "your horror",
             "your sorrow"
           ],
           "answer": "your horror",
@@ -1383,9 +1383,9 @@
           "lineId": "line-39",
           "prompt": "'Cause {{blank}} as long as you're mine",
           "options": [
-            "you're a miracle",
+            "you're a criminal",
             "you're a cynic",
-            "you're a criminal"
+            "you're a miracle"
           ],
           "answer": "you're a criminal",
           "promptZh": "因為只要你屬於我，即使你是罪犯，我也願意接受"
@@ -1431,8 +1431,8 @@
           "lineId": "line-67",
           "prompt": "{{blank}}, baby",
           "options": [
-            "Walk, walk, fashion",
             "Walk, walk, passion",
+            "Walk, walk, fashion",
             "Work, work, fashion"
           ],
           "answer": "Walk, walk, fashion",
@@ -1443,8 +1443,8 @@
           "lineId": "line-73",
           "prompt": "{{blank}}, baby",
           "options": [
-            "Walk, walk, fashion",
             "Walk, walk, passion",
+            "Walk, walk, fashion",
             "Walk, walk, action"
           ],
           "answer": "Walk, walk, passion",
@@ -1456,8 +1456,8 @@
           "prompt": "I want your love, {{blank}}",
           "options": [
             "I just wanna be friends",
-            "I don't wanna be free",
-            "I don't wanna be friends"
+            "I don't wanna be friends",
+            "I don't wanna be free"
           ],
           "answer": "I don't wanna be friends",
           "promptZh": "我要你的愛，我不願只和你做朋友"
@@ -1468,8 +1468,8 @@
           "prompt": "{{blank}}",
           "options": [
             "Want your sad romance",
-            "Want that bad romance",
-            "Want your bad romance"
+            "Want your bad romance",
+            "Want that bad romance"
           ],
           "answer": "Want your bad romance",
           "promptZh": "我渴望你那危險的愛戀"
@@ -1479,9 +1479,9 @@
           "lineId": "line-14",
           "prompt": "I want your everything {{blank}}",
           "options": [
-            "as long as it's free",
+            "as long as it's real",
             "as soon as it's free",
-            "as long as it's real"
+            "as long as it's free"
           ],
           "answer": "as long as it's free",
           "promptZh": "只要不必付出代價，我就想擁有你的一切"
@@ -1491,8 +1491,8 @@
           "lineId": "line-18",
           "prompt": "I want your {{blank}} in the sand",
           "options": [
-            "leather-studded kiss",
             "leather-covered kiss",
+            "leather-studded kiss",
             "leather-studded lips"
           ],
           "answer": "leather-studded kiss",
@@ -1503,9 +1503,9 @@
           "lineId": "line-24",
           "prompt": "{{blank}}",
           "options": [
-            "I want it back",
+            "I want it bad",
             "I want it now",
-            "I want it bad"
+            "I want it back"
           ],
           "answer": "I want it bad",
           "promptZh": "我渴望得近乎無法自制"
@@ -1516,8 +1516,8 @@
           "prompt": "You and me could write {{blank}} (Oh-oh-oh-oh-oh)",
           "options": [
             "a sad romance",
-            "a bad romance",
-            "a bad response"
+            "a bad response",
+            "a bad romance"
           ],
           "answer": "a bad romance",
           "promptZh": "你和我，足以共同譜寫一段危險的愛情故事（噢——噢）"
@@ -1527,9 +1527,9 @@
           "lineId": "line-38",
           "prompt": "I want your horror, I want {{blank}}",
           "options": [
-            "your desire",
+            "your design",
             "your disguise",
-            "your design"
+            "your desire"
           ],
           "answer": "your design",
           "promptZh": "我要你令人恐懼的一面，也要你精心塑造的模樣"
@@ -1539,9 +1539,9 @@
           "lineId": "line-42",
           "prompt": "I want {{blank}}, your vertigo schtick (Schtick, hey!)",
           "options": [
-            "your psycho",
+            "your shadow",
             "your cycle",
-            "your shadow"
+            "your psycho"
           ],
           "answer": "your psycho",
           "promptZh": "我要你瘋狂的一面，也要你那令人暈眩的把戲（把戲，嘿！）"
@@ -1551,8 +1551,8 @@
           "lineId": "line-47",
           "prompt": "You know {{blank}}",
           "options": [
-            "that I need you",
             "that I want you",
+            "that I need you",
             "that I know you"
           ],
           "answer": "that I want you",
@@ -1564,8 +1564,8 @@
           "prompt": "{{blank}} could write a bad romance (Oh-oh-oh-oh-oh)",
           "options": [
             "You and I",
-            "You with me",
-            "You and me"
+            "You and me",
+            "You with me"
           ],
           "answer": "You and me",
           "promptZh": "你和我，足以共同譜寫一段危險的愛情故事（噢——噢）"
@@ -1576,8 +1576,8 @@
           "prompt": "{{blank}}, move that bitch crazy",
           "options": [
             "Walk it",
-            "Work it",
-            "Worth it"
+            "Worth it",
+            "Work it"
           ],
           "answer": "Work it",
           "promptZh": "盡情展現魅力，讓那女人瘋狂舞動"
@@ -1587,9 +1587,9 @@
           "lineId": "line-75",
           "prompt": "I want your love, and {{blank}}",
           "options": [
-            "I want your respect",
+            "I want your revenge",
             "I want your return",
-            "I want your revenge"
+            "I want your respect"
           ],
           "answer": "I want your revenge",
           "promptZh": "我要你的愛，也要你的報復"
@@ -1600,8 +1600,8 @@
           "prompt": "(Caught in a bad romance) {{blank}}",
           "options": [
             "Want your mad romance",
-            "Want your last romance",
-            "Want your bad romance"
+            "Want your bad romance",
+            "Want your last romance"
           ],
           "answer": "Want your bad romance",
           "promptZh": "（深陷一段糟糕的愛情）我渴望你那危險的愛戀"
@@ -2009,9 +2009,9 @@
           "lineId": "line-2",
           "prompt": "Caught in a {{blank}}",
           "options": [
-            "bad romance",
+            "bad romances",
             "sad romance",
-            "bad romances"
+            "bad romance"
           ],
           "answer": "bad romance",
           "promptZh": "深陷一段糟糕的愛情，無法自拔"
@@ -2034,8 +2034,8 @@
           "prompt": "I want your ugly, I want {{blank}}",
           "options": [
             "your desire",
-            "your disease",
-            "your release"
+            "your release",
+            "your disease"
           ],
           "answer": "your disease",
           "promptZh": "我要你醜陋的一面，也要你身上的病態"
@@ -2057,9 +2057,9 @@
           "lineId": "line-17",
           "prompt": "I want {{blank}}, the touch of your hand (Hey!)",
           "options": [
-            "your trauma",
+            "your drama",
             "your dreams",
-            "your drama"
+            "your trauma"
           ],
           "answer": "your drama",
           "promptZh": "我要你那些戲劇化的糾葛，也渴望你雙手的觸碰（嘿！）"
@@ -2093,9 +2093,9 @@
           "lineId": "line-19",
           "prompt": "{{blank}}",
           "options": [
-            "I need your love",
+            "I want your love",
             "I want your heart",
-            "I want your love"
+            "I need your love"
           ],
           "answer": "I want your love",
           "promptZh": "我要你的愛"
@@ -2106,8 +2106,8 @@
           "prompt": "And you know that {{blank}}",
           "options": [
             "I see you",
-            "I leave you",
-            "I need you"
+            "I need you",
+            "I leave you"
           ],
           "answer": "I need you",
           "promptZh": "你也知道，我需要你"
@@ -2117,9 +2117,9 @@
           "lineId": "line-26",
           "prompt": "I want your love, and I want {{blank}}",
           "options": [
-            "your revenge",
+            "your respect",
             "your return",
-            "your respect"
+            "your revenge"
           ],
           "answer": "your revenge",
           "promptZh": "我要你的愛，也要你的報復"
@@ -2129,8 +2129,8 @@
           "lineId": "line-27",
           "prompt": "You and me {{blank}} a bad romance (Oh-oh-oh-oh-oh)",
           "options": [
-            "could ride",
             "could write",
+            "could ride",
             "would write"
           ],
           "answer": "could write",
@@ -2141,9 +2141,9 @@
           "lineId": "line-31",
           "prompt": "{{blank}}",
           "options": [
-            "Lost in a bad romance",
+            "Caught in a bad romance",
             "Caught in a mad romance",
-            "Caught in a bad romance"
+            "Lost in a bad romance"
           ],
           "answer": "Caught in a bad romance",
           "promptZh": "深陷一段糟糕的愛情，無法自拔"
@@ -2165,9 +2165,9 @@
           "lineId": "line-39",
           "prompt": "'Cause {{blank}} as long as you're mine",
           "options": [
-            "you're a criminal",
+            "you're a cynic",
             "you're a miracle",
-            "you're a cynic"
+            "you're a criminal"
           ],
           "answer": "you're a criminal",
           "promptZh": "因為只要你屬於我，即使你是罪犯，我也願意接受"
@@ -2190,8 +2190,8 @@
           "prompt": "I want your psycho, {{blank}} (Schtick, hey!)",
           "options": [
             "your vertical trick",
-            "your vertigo schtick",
-            "your vertigo trick"
+            "your vertigo trick",
+            "your vertigo schtick"
           ],
           "answer": "your vertigo schtick",
           "promptZh": "我要你瘋狂的一面，也要你那令人暈眩的把戲（把戲，嘿！）"
@@ -2202,8 +2202,8 @@
           "prompt": "Want you in my rear window, baby, {{blank}}",
           "options": [
             "you're slick",
-            "you're sweet",
-            "you're sick"
+            "you're sick",
+            "you're sweet"
           ],
           "answer": "you're sick",
           "promptZh": "我要你出現在我的後窗視野裡，寶貝，你真是病態得迷人"
@@ -2214,8 +2214,8 @@
           "prompt": "{{blank}}, baby",
           "options": [
             "Walk, walk, passion",
-            "Walk, walk, fashion",
-            "Work, work, fashion"
+            "Work, work, fashion",
+            "Walk, walk, fashion"
           ],
           "answer": "Walk, walk, fashion",
           "promptZh": "走吧，走吧，展現時尚的姿態，寶貝"
@@ -2226,8 +2226,8 @@
           "prompt": "{{blank}}, baby",
           "options": [
             "Walk, walk, fashion",
-            "Walk, walk, action",
-            "Walk, walk, passion"
+            "Walk, walk, passion",
+            "Walk, walk, action"
           ],
           "answer": "Walk, walk, passion",
           "promptZh": "走吧，走吧，釋放滿腔激情，寶貝"
@@ -2237,9 +2237,9 @@
           "lineId": "line-76",
           "prompt": "I want your love, {{blank}}",
           "options": [
-            "I don't wanna be friends",
+            "I don't wanna be free",
             "I just wanna be friends",
-            "I don't wanna be free"
+            "I don't wanna be friends"
           ],
           "answer": "I don't wanna be friends",
           "promptZh": "我要你的愛，我不願只和你做朋友"
@@ -2249,9 +2249,9 @@
           "lineId": "line-8",
           "prompt": "{{blank}}",
           "options": [
-            "Want your bad romance",
+            "Want that bad romance",
             "Want your sad romance",
-            "Want that bad romance"
+            "Want your bad romance"
           ],
           "answer": "Want your bad romance",
           "promptZh": "我渴望你那危險的愛戀"
@@ -2262,8 +2262,8 @@
           "prompt": "I want your everything {{blank}}",
           "options": [
             "as soon as it's free",
-            "as long as it's real",
-            "as long as it's free"
+            "as long as it's free",
+            "as long as it's real"
           ],
           "answer": "as long as it's free",
           "promptZh": "只要不必付出代價，我就想擁有你的一切"
@@ -2273,8 +2273,8 @@
           "lineId": "line-18",
           "prompt": "I want your {{blank}} in the sand",
           "options": [
-            "leather-covered kiss",
             "leather-studded kiss",
+            "leather-covered kiss",
             "leather-studded lips"
           ],
           "answer": "leather-studded kiss",
@@ -2285,9 +2285,9 @@
           "lineId": "line-24",
           "prompt": "{{blank}}",
           "options": [
-            "I want it bad",
+            "I want it now",
             "I want it back",
-            "I want it now"
+            "I want it bad"
           ],
           "answer": "I want it bad",
           "promptZh": "我渴望得近乎無法自制"
@@ -2309,9 +2309,9 @@
           "lineId": "line-38",
           "prompt": "I want your horror, I want {{blank}}",
           "options": [
-            "your desire",
+            "your design",
             "your disguise",
-            "your design"
+            "your desire"
           ],
           "answer": "your design",
           "promptZh": "我要你令人恐懼的一面，也要你精心塑造的模樣"
@@ -2322,8 +2322,8 @@
           "prompt": "I want {{blank}}, your vertigo schtick (Schtick, hey!)",
           "options": [
             "your cycle",
-            "your shadow",
-            "your psycho"
+            "your psycho",
+            "your shadow"
           ],
           "answer": "your psycho",
           "promptZh": "我要你瘋狂的一面，也要你那令人暈眩的把戲（把戲，嘿！）"
@@ -2334,8 +2334,8 @@
           "prompt": "You know {{blank}}",
           "options": [
             "that I need you",
-            "that I want you",
-            "that I know you"
+            "that I know you",
+            "that I want you"
           ],
           "answer": "that I want you",
           "promptZh": "你知道，我渴望著你"
@@ -2346,8 +2346,8 @@
           "prompt": "{{blank}} could write a bad romance (Oh-oh-oh-oh-oh)",
           "options": [
             "You and I",
-            "You with me",
-            "You and me"
+            "You and me",
+            "You with me"
           ],
           "answer": "You and me",
           "promptZh": "你和我，足以共同譜寫一段危險的愛情故事（噢——噢）"
@@ -2357,8 +2357,8 @@
           "lineId": "line-68",
           "prompt": "{{blank}}, move that bitch crazy",
           "options": [
-            "Walk it",
             "Work it",
+            "Walk it",
             "Worth it"
           ],
           "answer": "Work it",
@@ -2369,9 +2369,9 @@
           "lineId": "line-75",
           "prompt": "I want your love, and {{blank}}",
           "options": [
-            "I want your revenge",
+            "I want your return",
             "I want your respect",
-            "I want your return"
+            "I want your revenge"
           ],
           "answer": "I want your revenge",
           "promptZh": "我要你的愛，也要你的報復"
@@ -2393,9 +2393,9 @@
           "lineId": "line-28",
           "prompt": "I want your love, and {{blank}}",
           "options": [
-            "all your lover's revenge",
+            "all your lover's respect",
             "all your lovers return",
-            "all your lover's respect"
+            "all your lover's revenge"
           ],
           "answer": "all your lover's revenge",
           "promptZh": "我要你的愛，也要你那情人式的所有報復"
@@ -2405,8 +2405,8 @@
           "lineId": "line-43",
           "prompt": "Want you in {{blank}}, baby, you're sick",
           "options": [
-            "my rear window",
             "my real window",
+            "my rear window",
             "your rear window"
           ],
           "answer": "my rear window",
@@ -2417,8 +2417,8 @@
           "lineId": "line-48",
           "prompt": "And you know that I need you ('Cause {{blank}})",
           "options": [
-            "I'm a real bitch, baby",
             "I'm a free bitch, baby",
+            "I'm a real bitch, baby",
             "I'm a free girl, baby"
           ],
           "answer": "I'm a free bitch, baby",
@@ -2429,9 +2429,9 @@
           "lineId": "line-52",
           "prompt": "You and me could {{blank}} (Oh-oh-oh-oh-oh)",
           "options": [
-            "ride a bad romance",
+            "write a bad romance",
             "write a sad romance",
-            "write a bad romance"
+            "ride a bad romance"
           ],
           "answer": "write a bad romance",
           "promptZh": "你和我，足以共同譜寫一段危險的愛情故事（噢——噢）"
@@ -2441,8 +2441,8 @@
           "lineId": "line-68",
           "prompt": "Work it, {{blank}}",
           "options": [
-            "move that bitch crazy",
             "make that bitch crazy",
+            "move that bitch crazy",
             "move that beat crazy"
           ],
           "answer": "move that bitch crazy",
@@ -2465,9 +2465,9 @@
           "lineId": "line-90",
           "prompt": "{{blank}} (Want your bad romance)",
           "options": [
-            "Caught in a sad romance",
+            "Caught in a bad romance",
             "Lost in a bad romance",
-            "Caught in a bad romance"
+            "Caught in a sad romance"
           ],
           "answer": "Caught in a bad romance",
           "promptZh": "深陷一段糟糕的愛情，無法自拔（我渴望你那危險的愛戀）"
@@ -2888,8 +2888,8 @@
           "prompt": "Caught in a {{blank}}",
           "options": [
             "sad romance",
-            "bad romance",
-            "bad romances"
+            "bad romances",
+            "bad romance"
           ],
           "answer": "bad romance",
           "promptZh": "深陷一段糟糕的愛情，無法自拔"
@@ -2899,9 +2899,9 @@
           "lineId": "line-8",
           "prompt": "{{blank}}",
           "options": [
-            "Want your bad romance",
+            "Want that bad romance",
             "Want your sad romance",
-            "Want that bad romance"
+            "Want your bad romance"
           ],
           "answer": "Want your bad romance",
           "promptZh": "我渴望你那危險的愛戀"
@@ -2912,8 +2912,8 @@
           "prompt": "I want {{blank}}, I want your disease",
           "options": [
             "your anger",
-            "your beauty",
-            "your ugly"
+            "your ugly",
+            "your beauty"
           ],
           "answer": "your ugly",
           "promptZh": "我要你醜陋的一面，也要你身上的病態"
@@ -2923,8 +2923,8 @@
           "lineId": "line-13",
           "prompt": "I want your ugly, I want {{blank}}",
           "options": [
-            "your disease",
             "your desire",
+            "your disease",
             "your release"
           ],
           "answer": "your disease",
@@ -2935,9 +2935,9 @@
           "lineId": "line-14",
           "prompt": "I want {{blank}} as long as it's free",
           "options": [
-            "your every dream",
+            "your everything",
             "your anything",
-            "your everything"
+            "your every dream"
           ],
           "answer": "your everything",
           "promptZh": "只要不必付出代價，我就想擁有你的一切"
@@ -2947,9 +2947,9 @@
           "lineId": "line-14",
           "prompt": "I want your everything {{blank}}",
           "options": [
-            "as soon as it's free",
+            "as long as it's free",
             "as long as it's real",
-            "as long as it's free"
+            "as soon as it's free"
           ],
           "answer": "as long as it's free",
           "promptZh": "只要不必付出代價，我就想擁有你的一切"
@@ -2959,8 +2959,8 @@
           "lineId": "line-17",
           "prompt": "I want {{blank}}, the touch of your hand (Hey!)",
           "options": [
-            "your drama",
             "your trauma",
+            "your drama",
             "your dreams"
           ],
           "answer": "your drama",
@@ -2971,9 +2971,9 @@
           "lineId": "line-17",
           "prompt": "I want your drama, {{blank}} (Hey!)",
           "options": [
-            "the touch of your hand",
+            "the rush of your hand",
             "the touch of your heart",
-            "the rush of your hand"
+            "the touch of your hand"
           ],
           "answer": "the touch of your hand",
           "promptZh": "我要你那些戲劇化的糾葛，也渴望你雙手的觸碰（嘿！）"
@@ -3031,8 +3031,8 @@
           "lineId": "line-24",
           "prompt": "{{blank}}",
           "options": [
-            "I want it bad",
             "I want it back",
+            "I want it bad",
             "I want it now"
           ],
           "answer": "I want it bad",
@@ -3067,9 +3067,9 @@
           "lineId": "line-27",
           "prompt": "You and me could write {{blank}} (Oh-oh-oh-oh-oh)",
           "options": [
-            "a sad romance",
+            "a bad romance",
             "a bad response",
-            "a bad romance"
+            "a sad romance"
           ],
           "answer": "a bad romance",
           "promptZh": "你和我，足以共同譜寫一段危險的愛情故事（噢——噢）"
@@ -3079,9 +3079,9 @@
           "lineId": "line-28",
           "prompt": "I want your love, and {{blank}}",
           "options": [
-            "all your lovers return",
+            "all your lover's revenge",
             "all your lover's respect",
-            "all your lover's revenge"
+            "all your lovers return"
           ],
           "answer": "all your lover's revenge",
           "promptZh": "我要你的愛，也要你那情人式的所有報復"
@@ -3092,8 +3092,8 @@
           "prompt": "{{blank}}",
           "options": [
             "Lost in a bad romance",
-            "Caught in a bad romance",
-            "Caught in a mad romance"
+            "Caught in a mad romance",
+            "Caught in a bad romance"
           ],
           "answer": "Caught in a bad romance",
           "promptZh": "深陷一段糟糕的愛情，無法自拔"
@@ -3115,9 +3115,9 @@
           "lineId": "line-38",
           "prompt": "I want your horror, I want {{blank}}",
           "options": [
-            "your design",
+            "your disguise",
             "your desire",
-            "your disguise"
+            "your design"
           ],
           "answer": "your design",
           "promptZh": "我要你令人恐懼的一面，也要你精心塑造的模樣"
@@ -3139,8 +3139,8 @@
           "lineId": "line-39",
           "prompt": "'Cause you're a criminal {{blank}}",
           "options": [
-            "as long as you're mine",
             "as soon as you're mine",
+            "as long as you're mine",
             "as long as you're fine"
           ],
           "answer": "as long as you're mine",
@@ -3199,8 +3199,8 @@
           "lineId": "line-47",
           "prompt": "You know {{blank}}",
           "options": [
-            "that I need you",
             "that I want you",
+            "that I need you",
             "that I know you"
           ],
           "answer": "that I want you",
@@ -3211,8 +3211,8 @@
           "lineId": "line-48",
           "prompt": "And you know that I need you ('Cause {{blank}})",
           "options": [
-            "I'm a free bitch, baby",
             "I'm a real bitch, baby",
+            "I'm a free bitch, baby",
             "I'm a free girl, baby"
           ],
           "answer": "I'm a free bitch, baby",
@@ -3223,8 +3223,8 @@
           "lineId": "line-52",
           "prompt": "{{blank}} could write a bad romance (Oh-oh-oh-oh-oh)",
           "options": [
-            "You and I",
             "You and me",
+            "You and I",
             "You with me"
           ],
           "answer": "You and me",
@@ -3236,8 +3236,8 @@
           "prompt": "You and me could {{blank}} (Oh-oh-oh-oh-oh)",
           "options": [
             "ride a bad romance",
-            "write a bad romance",
-            "write a sad romance"
+            "write a sad romance",
+            "write a bad romance"
           ],
           "answer": "write a bad romance",
           "promptZh": "你和我，足以共同譜寫一段危險的愛情故事（噢——噢）"
@@ -3272,8 +3272,8 @@
           "prompt": "{{blank}}, move that bitch crazy",
           "options": [
             "Walk it",
-            "Work it",
-            "Worth it"
+            "Worth it",
+            "Work it"
           ],
           "answer": "Work it",
           "promptZh": "盡情展現魅力，讓那女人瘋狂舞動"
@@ -3283,8 +3283,8 @@
           "lineId": "line-68",
           "prompt": "Work it, {{blank}}",
           "options": [
-            "move that bitch crazy",
             "make that bitch crazy",
+            "move that bitch crazy",
             "move that beat crazy"
           ],
           "answer": "move that bitch crazy",
@@ -3295,9 +3295,9 @@
           "lineId": "line-73",
           "prompt": "{{blank}}, baby",
           "options": [
-            "Walk, walk, fashion",
+            "Walk, walk, passion",
             "Walk, walk, action",
-            "Walk, walk, passion"
+            "Walk, walk, fashion"
           ],
           "answer": "Walk, walk, passion",
           "promptZh": "走吧，走吧，釋放滿腔激情，寶貝"
@@ -3331,8 +3331,8 @@
           "lineId": "line-80",
           "prompt": "({{blank}}) No, I don't wanna be friends",
           "options": [
-            "I want you back",
             "I want you bad",
+            "I want you back",
             "I want your back"
           ],
           "answer": "I want you back",
@@ -3343,9 +3343,9 @@
           "lineId": "line-80",
           "prompt": "(I want you back) {{blank}}",
           "options": [
-            "No, I just wanna be friends",
+            "No, I don't wanna be friends",
             "No, I don't wanna pretend",
-            "No, I don't wanna be friends"
+            "No, I just wanna be friends"
           ],
           "answer": "No, I don't wanna be friends",
           "promptZh": "（我想要你回到我身邊）不，我不願只和你做朋友"
@@ -3356,8 +3356,8 @@
           "prompt": "(Caught in a bad romance) {{blank}}",
           "options": [
             "Want your mad romance",
-            "Want your bad romance",
-            "Want your last romance"
+            "Want your last romance",
+            "Want your bad romance"
           ],
           "answer": "Want your bad romance",
           "promptZh": "（深陷一段糟糕的愛情）我渴望你那危險的愛戀"
@@ -3367,9 +3367,9 @@
           "lineId": "line-90",
           "prompt": "{{blank}} (Want your bad romance)",
           "options": [
-            "Caught in a sad romance",
+            "Caught in a bad romance",
             "Lost in a bad romance",
-            "Caught in a bad romance"
+            "Caught in a sad romance"
           ],
           "answer": "Caught in a bad romance",
           "promptZh": "深陷一段糟糕的愛情，無法自拔（我渴望你那危險的愛戀）"
@@ -3380,8 +3380,8 @@
           "prompt": "I want {{blank}}",
           "options": [
             "your luck",
-            "your love",
-            "your life"
+            "your life",
+            "your love"
           ],
           "answer": "your love",
           "promptZh": "我要你的愛"
@@ -3391,9 +3391,9 @@
           "lineId": "line-22",
           "prompt": "{{blank}} I want you",
           "options": [
-            "You know that",
+            "You show that",
             "I know that",
-            "You show that"
+            "You know that"
           ],
           "answer": "You know that",
           "promptZh": "你知道，我渴望著你"
@@ -3415,9 +3415,9 @@
           "lineId": "line-51",
           "prompt": "{{blank}}",
           "options": [
-            "I want your love, but I want your revenge",
+            "I want your love, and I want your revenge",
             "I want your love, and I want your respect",
-            "I want your love, and I want your revenge"
+            "I want your love, but I want your revenge"
           ],
           "answer": "I want your love, and I want your revenge",
           "promptZh": "我要你的愛，也要你的報復"
@@ -3428,8 +3428,8 @@
           "prompt": "I want your love, and all {{blank}}",
           "options": [
             "your lover's return",
-            "your lover's regrets",
-            "your lover's revenge"
+            "your lover's revenge",
+            "your lover's regrets"
           ],
           "answer": "your lover's revenge",
           "promptZh": "我要你的愛，也要你那情人式的所有報復"
@@ -3439,8 +3439,8 @@
           "lineId": "line-78",
           "prompt": "Je veux ton amour, {{blank}}",
           "options": [
-            "I just wanna be friends",
             "I don't wanna be friends",
+            "I just wanna be friends",
             "I don't wanna pretend"
           ],
           "answer": "I don't wanna be friends",

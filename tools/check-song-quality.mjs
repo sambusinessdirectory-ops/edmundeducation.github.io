@@ -7,6 +7,14 @@ export function audibleKey(s){
 export function checkSong(d){
  const errors=[];
  for(const m of d.exercises||[]){
+  const ids=(d.translations||[]).filter(r=>!r.break).map(r=>r.lineId);
+  const lines=m.listeningLines||[];
+  if(new Set(ids).size!==ids.length || JSON.stringify(lines.map(l=>l.lineId))!==JSON.stringify(ids))errors.push(m.id+': lyric occurrences missing, merged or reordered');
+  const byNumber=new Map(m.questions.map(q=>[q.number,q]));
+  const route=lines.flatMap(l=>[...l.prompt.matchAll(/\{\{q:(\d+)\}\}/g)].map(x=>{const n=Number(x[1]);if(byNumber.get(n)?.lineId!==l.lineId)errors.push(m.id+': misplaced question '+n);return n;}));
+  if(JSON.stringify([...route].sort((a,b)=>a-b))!==JSON.stringify([...byNumber.keys()].sort((a,b)=>a-b)))errors.push(m.id+': missing or duplicated question marker');
+  const flowPositions=route.map(n=>{const q=byNumber.get(n);return q?.options.indexOf(q.answer);});
+  flowPositions.forEach((p,i)=>{if(i>1&&p===flowPositions[i-1]&&p===flowPositions[i-2])errors.push(m.id+': three identical answer positions in song order');});
   const positions=[];
   for(const q of [...m.questions].sort((a,b)=>a.number-b.number)){
    const keys=q.options.map(audibleKey);if(new Set(keys).size!==keys.length)errors.push(m.id+' Q'+q.number+': indistinguishable choices');

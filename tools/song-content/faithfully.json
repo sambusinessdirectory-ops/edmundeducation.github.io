@@ -1760,8 +1760,8 @@
           "prompt": "{{blank}}",
           "options": [
             "Highway road",
-            "Highway ride",
-            "Highway run"
+            "Highway run",
+            "Highway ride"
           ],
           "answer": "Highway run",
           "promptZh": "奔馳在漫長的公路上"
@@ -1795,9 +1795,9 @@
           "lineId": "line-3",
           "prompt": "Listening detail: {{blank}}",
           "options": [
-            "round and round",
+            "round and around",
             "round and down",
-            "round and around"
+            "round and round"
           ],
           "answer": "round and round",
           "promptZh": "車輪不停地轉動，一圈又一圈"
@@ -1808,8 +1808,8 @@
           "prompt": "{{blank}}",
           "options": [
             "You're in my mind",
-            "You're on my side",
-            "You're on my mind"
+            "You're on my mind",
+            "You're on my side"
           ],
           "answer": "You're on my mind",
           "promptZh": "而我的心中，始終惦念著你"
@@ -1819,8 +1819,8 @@
           "lineId": "line-5",
           "prompt": "{{blank}}",
           "options": [
-            "Restless hearts",
             "Restless nights",
+            "Restless hearts",
             "Breathless hearts"
           ],
           "answer": "Restless hearts",
@@ -1831,8 +1831,8 @@
           "lineId": "line-6",
           "prompt": "{{blank}}",
           "options": [
-            "Sleep at home tonight",
             "Sleep alone tonight",
+            "Sleep at home tonight",
             "Sleep alone all night"
           ],
           "answer": "Sleep alone tonight",
@@ -1855,9 +1855,9 @@
           "lineId": "line-8",
           "prompt": "{{blank}}",
           "options": [
-            "Along the wire",
+            "Along the way",
             "Across the wire",
-            "Along the way"
+            "Along the wire"
           ],
           "answer": "Along the wire",
           "promptZh": "沿著電話線，傳送到你身邊"
@@ -1867,8 +1867,8 @@
           "lineId": "line-9",
           "prompt": "They say that {{blank}} to start a family",
           "options": [
-            "the road ain't our place",
             "the road ain't no place",
+            "the road ain't our place",
             "the road is no place"
           ],
           "answer": "the road ain't no place",
@@ -1879,8 +1879,8 @@
           "lineId": "line-9",
           "prompt": "They say that the road ain't no place {{blank}}",
           "options": [
-            "to start a family",
             "to raise a family",
+            "to start a family",
             "to start a journey"
           ],
           "answer": "to start a family",
@@ -1891,9 +1891,9 @@
           "lineId": "line-10",
           "prompt": "Listening detail: {{blank}}",
           "options": [
-            "Right on the line",
+            "Right down the line",
             "Right down the road",
-            "Right down the line"
+            "Right on the line"
           ],
           "answer": "Right down the line",
           "promptZh": "可一路走來，始終都是你與我攜手相伴"
@@ -1903,8 +1903,8 @@
           "lineId": "line-10",
           "prompt": "Listening detail: {{blank}}",
           "options": [
-            "it's been you and me",
             "it's just you and me",
+            "it's been you and me",
             "it's been you and I"
           ],
           "answer": "it's been you and me",
@@ -1915,9 +1915,9 @@
           "lineId": "line-11",
           "prompt": "And {{blank}} ain't always what it's supposed to be",
           "options": [
-            "lovin' a music man",
+            "lovin' a musician",
             "lovin' a working man",
-            "lovin' a musician"
+            "lovin' a music man"
           ],
           "answer": "lovin' a music man",
           "promptZh": "而愛上一個四處巡演的音樂人，也未必如想像中那般美好"
@@ -1927,9 +1927,9 @@
           "lineId": "line-11",
           "prompt": "And lovin' a music man {{blank}}",
           "options": [
-            "ain't quite what it's supposed to be",
+            "ain't always what it's supposed to be",
             "is always what it's supposed to be",
-            "ain't always what it's supposed to be"
+            "ain't quite what it's supposed to be"
           ],
           "answer": "ain't always what it's supposed to be",
           "promptZh": "而愛上一個四處巡演的音樂人，也未必如想像中那般美好"
@@ -1939,8 +1939,8 @@
           "lineId": "line-12",
           "prompt": "Oh, girl, {{blank}}",
           "options": [
-            "you stand by me",
             "you stay with me",
+            "you stand by me",
             "you stand beside me"
           ],
           "answer": "you stand by me",
@@ -1952,8 +1952,8 @@
           "prompt": "{{blank}}",
           "options": [
             "I'm always yours",
-            "I'm forever yours",
-            "I'm forever young"
+            "I'm forever young",
+            "I'm forever yours"
           ],
           "answer": "I'm forever yours",
           "promptZh": "我永遠屬於你"
@@ -1975,9 +1975,9 @@
           "lineId": "line-15",
           "prompt": "{{blank}}",
           "options": [
-            "Circus life",
+            "Certain life",
             "Circus lights",
-            "Certain life"
+            "Circus life"
           ],
           "answer": "Circus life",
           "promptZh": "這如馬戲團般奔波的生活"
@@ -1987,9 +1987,9 @@
           "lineId": "line-16",
           "prompt": "Listening detail: {{blank}}",
           "options": [
-            "big wide world",
+            "big top world",
             "big top show",
-            "big top world"
+            "big wide world"
           ],
           "answer": "big top world",
           "promptZh": "在這座如巨型馬戲帳篷般的世界裡"
@@ -2047,8 +2047,8 @@
           "lineId": "line-21",
           "prompt": "{{blank}}",
           "options": [
-            "Wondering where I am",
             "Wondering who I am",
+            "Wondering where I am",
             "Wandering where I am"
           ],
           "answer": "Wondering where I am",
@@ -2059,8 +2059,8 @@
           "lineId": "line-22",
           "prompt": "{{blank}}",
           "options": [
-            "I'm lost around you",
             "I'm lost without you",
+            "I'm lost around you",
             "I'm here without you"
           ],
           "answer": "I'm lost without you",
@@ -2083,9 +2083,9 @@
           "lineId": "line-23",
           "prompt": "Listening detail: {{blank}}",
           "options": [
-            "on this love affair",
+            "on this long affair",
             "in this love affair",
-            "on this long affair"
+            "on this love affair"
           ],
           "answer": "on this love affair",
           "promptZh": "而長久分離，對這段感情而言，實在不是件容易的事"
@@ -2107,9 +2107,9 @@
           "lineId": "line-24",
           "prompt": "Listening detail: {{blank}}",
           "options": [
-            "fall in love at last",
+            "fall in love again",
             "find our love again",
-            "fall in love again"
+            "fall in love at last"
           ],
           "answer": "fall in love again",
           "promptZh": "兩個彷彿陌生的人，重新學習如何愛上彼此"
@@ -2120,8 +2120,8 @@
           "prompt": "I get the {{blank}}",
           "options": [
             "joy of remembering you",
-            "joy of discovering love",
-            "joy of rediscovering you"
+            "joy of rediscovering you",
+            "joy of discovering love"
           ],
           "answer": "joy of rediscovering you",
           "promptZh": "而我也再次體會到，重新認識你的喜悅"
@@ -2132,8 +2132,8 @@
           "prompt": "Oh, girl, {{blank}}",
           "options": [
             "you stay by me",
-            "you stand by me",
-            "you stand with me"
+            "you stand with me",
+            "you stand by me"
           ],
           "answer": "you stand by me",
           "promptZh": "噢，親愛的，你卻始終陪伴著我，堅定地支持我"
@@ -2143,8 +2143,8 @@
           "lineId": "line-27",
           "prompt": "{{blank}}",
           "options": [
-            "I'm forever yours",
             "I'm still forever yours",
+            "I'm forever yours",
             "I'm forever young"
           ],
           "answer": "I'm forever yours",
@@ -2167,9 +2167,9 @@
           "lineId": "line-29",
           "prompt": "{{blank}}",
           "options": [
-            "Faithfulness",
+            "Faithfully",
             "Thankfully",
-            "Faithfully"
+            "Faithfulness"
           ],
           "answer": "Faithfully",
           "promptZh": "此心不渝，始終如一"
@@ -2191,9 +2191,9 @@
           "lineId": "line-31",
           "prompt": "{{blank}}",
           "options": [
-            "I'm forever here",
+            "I'm forever yours",
             "I'm always yours",
-            "I'm forever yours"
+            "I'm forever here"
           ],
           "answer": "I'm forever yours",
           "promptZh": "我永遠屬於你"
@@ -2203,8 +2203,8 @@
           "lineId": "line-32",
           "prompt": "{{blank}}",
           "options": [
-            "Ever yours",
             "Never yours",
+            "Ever yours",
             "Forever yours"
           ],
           "answer": "Ever yours",
@@ -2215,8 +2215,8 @@
           "lineId": "line-33",
           "prompt": "{{blank}}",
           "options": [
-            "Thankfully",
             "Faithfully",
+            "Thankfully",
             "Faithful me"
           ],
           "answer": "Faithfully",
@@ -2239,9 +2239,9 @@
           "lineId": "line-10",
           "prompt": "{{blank}} you and me",
           "options": [
-            "Right down the road it's been",
+            "Right down the line it's been",
             "Right down the line it is",
-            "Right down the line it's been"
+            "Right down the road it's been"
           ],
           "answer": "Right down the line it's been",
           "promptZh": "可一路走來，始終都是你與我攜手相伴"
@@ -2252,8 +2252,8 @@
           "prompt": "Listening detail: {{blank}}",
           "options": [
             "what it's going to be",
-            "what it's supposed to be",
-            "what it was supposed to be"
+            "what it was supposed to be",
+            "what it's supposed to be"
           ],
           "answer": "what it's supposed to be",
           "promptZh": "而愛上一個四處巡演的音樂人，也未必如想像中那般美好"
@@ -2264,8 +2264,8 @@
           "prompt": "{{blank}}, you stand by me",
           "options": [
             "Oh, dear",
-            "Oh, girl",
-            "Oh, love"
+            "Oh, love",
+            "Oh, girl"
           ],
           "answer": "Oh, girl",
           "promptZh": "噢，親愛的，你卻始終陪伴著我，堅定地支持我"
@@ -2288,8 +2288,8 @@
           "prompt": "{{blank}}",
           "options": [
             "Through place and time",
-            "Through space and time",
-            "Across space and time"
+            "Across space and time",
+            "Through space and time"
           ],
           "answer": "Through space and time",
           "promptZh": "跨越漫長的時空與距離"
@@ -2300,8 +2300,8 @@
           "prompt": "{{blank}}",
           "options": [
             "Always another road",
-            "Always another show",
-            "Almost another show"
+            "Almost another show",
+            "Always another show"
           ],
           "answer": "Always another show",
           "promptZh": "總有下一場演出在等待"
@@ -2311,9 +2311,9 @@
           "lineId": "line-21",
           "prompt": "Listening detail: {{blank}}",
           "options": [
-            "who I am",
+            "where I am",
             "where you are",
-            "where I am"
+            "who I am"
           ],
           "answer": "where I am",
           "promptZh": "有時連自己身在何處都感到茫然"
@@ -2324,8 +2324,8 @@
           "prompt": "And being apart {{blank}}",
           "options": [
             "ain't easy in this love affair",
-            "ain't easy on this love affair",
-            "ain't simple on this love affair"
+            "ain't simple on this love affair",
+            "ain't easy on this love affair"
           ],
           "answer": "ain't easy on this love affair",
           "promptZh": "而長久分離，對這段感情而言，實在不是件容易的事"
@@ -2335,8 +2335,8 @@
           "lineId": "line-24",
           "prompt": "Two strangers {{blank}}",
           "options": [
-            "learn to fall in love again",
             "learn to find their love again",
+            "learn to fall in love again",
             "yearn to fall in love again"
           ],
           "answer": "learn to fall in love again",
@@ -2347,9 +2347,9 @@
           "lineId": "line-25",
           "prompt": "Listening detail: {{blank}}",
           "options": [
-            "remembering you",
+            "rediscovering you",
             "rediscovering love",
-            "rediscovering you"
+            "remembering you"
           ],
           "answer": "rediscovering you",
           "promptZh": "而我也再次體會到，重新認識你的喜悅"

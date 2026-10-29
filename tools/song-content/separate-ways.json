@@ -748,9 +748,9 @@
           "lineId": "line-1",
           "prompt": "{{blank}}",
           "options": [
-            "Here I stand",
+            "Here we stand",
             "Here we stay",
-            "Here we stand"
+            "Here I stand"
           ],
           "answer": "Here we stand",
           "promptZh": "如今，我們就這樣佇立著"
@@ -784,8 +784,8 @@
           "lineId": "line-4",
           "prompt": "{{blank}}, I'm reaching for you, you, you",
           "options": [
-            "Moving ground",
             "Losing ground",
+            "Moving ground",
             "Losing hope"
           ],
           "answer": "Losing ground",
@@ -844,9 +844,9 @@
           "lineId": "line-11",
           "prompt": "Break those {{blank}}",
           "options": [
-            "chains that bind you",
+            "chains that find you",
             "chains behind you",
-            "chains that find you"
+            "chains that bind you"
           ],
           "answer": "chains that bind you",
           "promptZh": "為妳掙脫那些束縛妳的枷鎖"
@@ -856,8 +856,8 @@
           "lineId": "line-13",
           "prompt": "How we touched and {{blank}}",
           "options": [
-            "went our separate ways",
             "went our different ways",
+            "went our separate ways",
             "went our separate days"
           ],
           "answer": "went our separate ways",
@@ -868,9 +868,9 @@
           "lineId": "line-14",
           "prompt": "{{blank}}",
           "options": [
-            "If she ever hurts you",
+            "If he ever hurts you",
             "If he never hurts you",
-            "If he ever hurts you"
+            "If she ever hurts you"
           ],
           "answer": "If he ever hurts you",
           "promptZh": "如果有一天，他傷害了妳"
@@ -940,8 +940,8 @@
           "lineId": "line-24",
           "prompt": "{{blank}}",
           "options": [
-            "You'll never walk alone",
             "You'll never work alone",
+            "You'll never walk alone",
             "You'll always walk alone"
           ],
           "answer": "You'll never walk alone",
@@ -952,9 +952,9 @@
           "lineId": "line-27",
           "prompt": "{{blank}}",
           "options": [
-            "Some day life will find you",
+            "Someday love will find you",
             "Someday love will guide you",
-            "Someday love will find you"
+            "Some day life will find you"
           ],
           "answer": "Someday love will find you",
           "promptZh": "總有一天，愛會再次找到妳"
@@ -965,8 +965,8 @@
           "prompt": "If he {{blank}}",
           "options": [
             "ever leaves you",
-            "ever hurts you",
-            "never hurts you"
+            "never hurts you",
+            "ever hurts you"
           ],
           "answer": "ever hurts you",
           "promptZh": "如果有一天，他傷害了妳"
@@ -977,8 +977,8 @@
           "prompt": "{{blank}}",
           "options": [
             "I really love you, girl",
-            "I still love you, girl",
-            "I still need you, girl"
+            "I still need you, girl",
+            "I still love you, girl"
           ],
           "answer": "I still love you, girl",
           "promptZh": "我依然愛著妳，親愛的"
@@ -989,8 +989,8 @@
           "prompt": "Worlds apart, {{blank}}, two, two",
           "options": [
             "hearts frozen in two",
-            "hearts broken in time",
-            "hearts broken in two"
+            "hearts broken in two",
+            "hearts broken in time"
           ],
           "answer": "hearts broken in two",
           "promptZh": "彷彿相隔兩個世界，兩顆心早已碎裂，碎裂，碎裂"
@@ -1000,9 +1000,9 @@
           "lineId": "line-4",
           "prompt": "Losing ground, {{blank}}, you, you",
           "options": [
-            "I'm reaching for you",
+            "I'm waiting for you",
             "I'm searching for you",
-            "I'm waiting for you"
+            "I'm reaching for you"
           ],
           "answer": "I'm reaching for you",
           "promptZh": "我漸漸失去了立足之地，卻仍拚命向妳伸出雙手，向妳，向妳"
@@ -1024,8 +1024,8 @@
           "lineId": "line-8",
           "prompt": "To {{blank}}",
           "options": [
-            "survive the time",
             "survive the tide",
+            "survive the time",
             "survive the night"
           ],
           "answer": "survive the tide",
@@ -1048,8 +1048,8 @@
           "lineId": "line-16",
           "prompt": "You know {{blank}}",
           "options": [
-            "I still love you",
             "I will love you",
+            "I still love you",
             "I still need you"
           ],
           "answer": "I still love you",
@@ -1072,8 +1072,8 @@
           "lineId": "line-20",
           "prompt": "{{blank}}",
           "options": [
-            "Distant eyes",
             "Different eyes",
+            "Distant eyes",
             "Distant skies"
           ],
           "answer": "Distant eyes",
@@ -1096,9 +1096,9 @@
           "lineId": "line-25",
           "prompt": "{{blank}}",
           "options": [
-            "Take care, my love",
+            "Take care, my life",
             "Take heart, my love",
-            "Take care, my life"
+            "Take care, my love"
           ],
           "answer": "Take care, my love",
           "promptZh": "請好好照顧自己，我的愛"
@@ -1108,9 +1108,9 @@
           "lineId": "line-29",
           "prompt": "One night will {{blank}}",
           "options": [
-            "find you",
+            "remind you",
             "remind me",
-            "remind you"
+            "find you"
           ],
           "answer": "remind you",
           "promptZh": "終有一夜，妳會再次想起"
@@ -1120,8 +1120,8 @@
           "lineId": "line-33",
           "prompt": "{{blank}}",
           "options": [
-            "You know I will love you",
             "You know I still love you",
+            "You know I will love you",
             "You know I still need you"
           ],
           "answer": "You know I still love you",
@@ -1375,8 +1375,8 @@
           "prompt": "Feeling that {{blank}}",
           "options": [
             "it's wrong",
-            "it's on",
-            "it's gone"
+            "it's gone",
+            "it's on"
           ],
           "answer": "it's gone",
           "promptZh": "感覺那份愛已悄然逝去"
@@ -1398,8 +1398,8 @@
           "lineId": "line-9",
           "prompt": "{{blank}}",
           "options": [
-            "Love divides",
             "Love survives",
+            "Love divides",
             "Love decides"
           ],
           "answer": "Love divides",
@@ -1422,9 +1422,9 @@
           "lineId": "line-11",
           "prompt": "Break those {{blank}}",
           "options": [
-            "chains that bind you",
+            "chains that find you",
             "chains behind you",
-            "chains that find you"
+            "chains that bind you"
           ],
           "answer": "chains that bind you",
           "promptZh": "為妳掙脫那些束縛妳的枷鎖"
@@ -1447,8 +1447,8 @@
           "prompt": "{{blank}}",
           "options": [
             "If she ever hurts you",
-            "If he never hurts you",
-            "If he ever hurts you"
+            "If he ever hurts you",
+            "If he never hurts you"
           ],
           "answer": "If he ever hurts you",
           "promptZh": "如果有一天，他傷害了妳"
@@ -1458,8 +1458,8 @@
           "lineId": "line-15",
           "prompt": "{{blank}}",
           "options": [
-            "True love won't forget you",
             "True love won't desert you",
+            "True love won't forget you",
             "True love will desert you"
           ],
           "answer": "True love won't desert you",
@@ -1483,8 +1483,8 @@
           "prompt": "Caught between {{blank}}, pain, pain",
           "options": [
             "confusion and rain",
-            "confusion and pain",
-            "conclusion and pain"
+            "conclusion and pain",
+            "confusion and pain"
           ],
           "answer": "confusion and pain",
           "promptZh": "深陷於迷惘與痛苦之間，痛苦，痛苦"
@@ -1507,8 +1507,8 @@
           "prompt": "{{blank}}",
           "options": [
             "I wish you love",
-            "I wish you luck",
-            "I wish you well"
+            "I wish you well",
+            "I wish you luck"
           ],
           "answer": "I wish you luck",
           "promptZh": "我衷心祝妳一切順遂"
@@ -1519,8 +1519,8 @@
           "prompt": "{{blank}}",
           "options": [
             "You'll never work alone",
-            "You'll always walk alone",
-            "You'll never walk alone"
+            "You'll never walk alone",
+            "You'll always walk alone"
           ],
           "answer": "You'll never walk alone",
           "promptZh": "妳永遠不必獨自面對人生的道路"
@@ -1543,8 +1543,8 @@
           "prompt": "If he {{blank}}",
           "options": [
             "ever leaves you",
-            "ever hurts you",
-            "never hurts you"
+            "never hurts you",
+            "ever hurts you"
           ],
           "answer": "ever hurts you",
           "promptZh": "如果有一天，他傷害了妳"
@@ -1554,8 +1554,8 @@
           "lineId": "line-41",
           "prompt": "{{blank}}",
           "options": [
-            "I really love you, girl",
             "I still love you, girl",
+            "I really love you, girl",
             "I still need you, girl"
           ],
           "answer": "I still love you, girl",
@@ -1566,8 +1566,8 @@
           "lineId": "line-2",
           "prompt": "Worlds apart, {{blank}}, two, two",
           "options": [
-            "hearts broken in two",
             "hearts frozen in two",
+            "hearts broken in two",
             "hearts broken in time"
           ],
           "answer": "hearts broken in two",
@@ -1578,9 +1578,9 @@
           "lineId": "line-4",
           "prompt": "Losing ground, {{blank}}, you, you",
           "options": [
-            "I'm reaching for you",
+            "I'm waiting for you",
             "I'm searching for you",
-            "I'm waiting for you"
+            "I'm reaching for you"
           ],
           "answer": "I'm reaching for you",
           "promptZh": "我漸漸失去了立足之地，卻仍拚命向妳伸出雙手，向妳，向妳"
@@ -1602,8 +1602,8 @@
           "lineId": "line-8",
           "prompt": "To {{blank}}",
           "options": [
-            "survive the time",
             "survive the tide",
+            "survive the time",
             "survive the night"
           ],
           "answer": "survive the tide",
@@ -1626,8 +1626,8 @@
           "lineId": "line-16",
           "prompt": "You know {{blank}}",
           "options": [
-            "I still love you",
             "I will love you",
+            "I still love you",
             "I still need you"
           ],
           "answer": "I still love you",
@@ -1651,8 +1651,8 @@
           "prompt": "{{blank}}",
           "options": [
             "Different eyes",
-            "Distant skies",
-            "Distant eyes"
+            "Distant eyes",
+            "Distant skies"
           ],
           "answer": "Distant eyes",
           "promptZh": "妳的眼神已變得如此疏遠"
@@ -1662,8 +1662,8 @@
           "lineId": "line-21",
           "prompt": "Promises we made {{blank}}, in vain, in vain",
           "options": [
-            "were in vain",
             "were in pain",
+            "were in vain",
             "were in time"
           ],
           "answer": "were in vain",
@@ -1674,8 +1674,8 @@
           "lineId": "line-25",
           "prompt": "{{blank}}",
           "options": [
-            "Take heart, my love",
             "Take care, my love",
+            "Take heart, my love",
             "Take care, my life"
           ],
           "answer": "Take care, my love",
@@ -1686,9 +1686,9 @@
           "lineId": "line-29",
           "prompt": "One night will {{blank}}",
           "options": [
-            "find you",
+            "remind you",
             "remind me",
-            "remind you"
+            "find you"
           ],
           "answer": "remind you",
           "promptZh": "終有一夜，妳會再次想起"
@@ -1699,8 +1699,8 @@
           "prompt": "{{blank}}",
           "options": [
             "You know I will love you",
-            "You know I still love you",
-            "You know I still need you"
+            "You know I still need you",
+            "You know I still love you"
           ],
           "answer": "You know I still love you",
           "promptZh": "妳知道，我依然深愛著妳"
@@ -1710,9 +1710,9 @@
           "lineId": "line-22",
           "prompt": "{{blank}}",
           "options": [
-            "If you must know",
+            "If you must go",
             "If you just go",
-            "If you must go"
+            "If you must know"
           ],
           "answer": "If you must go",
           "promptZh": "如果妳終究必須離開"
@@ -1735,8 +1735,8 @@
           "prompt": "{{blank}} that bind you",
           "options": [
             "Break these chains",
-            "Break those chains",
-            "Shake those chains"
+            "Shake those chains",
+            "Break those chains"
           ],
           "answer": "Break those chains",
           "promptZh": "為妳掙脫那些束縛妳的枷鎖"
@@ -1746,8 +1746,8 @@
           "lineId": "line-30",
           "prompt": "{{blank}} and went our separate ways",
           "options": [
-            "How we touched",
             "How we talked",
+            "How we touched",
             "How we loved"
           ],
           "answer": "How we touched",
@@ -1758,8 +1758,8 @@
           "lineId": "line-32",
           "prompt": "True love {{blank}}",
           "options": [
-            "won't deceive you",
             "won't desert you",
+            "won't deceive you",
             "will desert you"
           ],
           "answer": "won't desert you",
@@ -1782,8 +1782,8 @@
           "lineId": "line-36",
           "prompt": "Break {{blank}}",
           "options": [
-            "those chains that bind you",
             "those chains behind you",
+            "those chains that bind you",
             "these chains that bind you"
           ],
           "answer": "those chains that bind you",
@@ -1794,9 +1794,9 @@
           "lineId": "line-38",
           "prompt": "{{blank}}",
           "options": [
-            "If he ever leaves you",
+            "If he ever hurts you",
             "If he never hurts you",
-            "If he ever hurts you"
+            "If he ever leaves you"
           ],
           "answer": "If he ever hurts you",
           "promptZh": "如果有一天，他傷害了妳"

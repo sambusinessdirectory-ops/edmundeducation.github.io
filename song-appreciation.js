@@ -1006,11 +1006,27 @@
     });
   }
 
+  // Stable question numbers remain storage keys; visible numbering follows lyric occurrences.
+  function listeningRoute(mode) {
+    const byNumber = new Map(mode.questions.map(q => [q.number, q]));
+    const ordered = [], seen = new Set();
+    for (const line of mode.listeningLines) {
+      for (const match of line.prompt.matchAll(/\{\{q:(\d+)\}\}/g)) {
+        const number = Number(match[1]);
+        if (byNumber.has(number) && !seen.has(number)) { ordered.push(byNumber.get(number)); seen.add(number); }
+      }
+    }
+    for (const question of mode.questions) if (!seen.has(question.number)) ordered.push(question);
+    return ordered;
+  }
+
   function renderExerciseQuestions() {
     const holder = $("[data-lyrics-exercise]"); holder.replaceChildren();
     const exercise = state.exercise;
     if (!exercise) return;
     const timing = questionTimeline(exercise.mode.questions, lyricTimeline(state.activeSong, Number(state.player?.getDuration?.()) || 0));
+    const route = listeningRoute(exercise.mode);
+    const displayNumbers = new Map(route.map((q, index) => [q.number, index + 1]));
     const groups = new Map();
     const timeline = lyricTimeline(state.activeSong, Number(state.player?.getDuration?.()) || 0);
     const translationRows = new Map(state.activeSong.translations.filter(row => !row.break).map(row => [row.lineId, row]));
@@ -1027,7 +1043,7 @@
       line.prompt.split(/(\{\{q:\d+\}\})/).forEach(part => {
         const match = part.match(/^\{\{q:(\d+)\}\}$/);
         if (!match) heading.append(document.createTextNode(part));
-        else { const blank = document.createElement("span"); blank.className = "blank-number"; blank.textContent = match[1]; heading.append(blank); }
+        else { const blank = document.createElement("span"); blank.className = "blank-number"; blank.textContent = String(displayNumbers.get(Number(match[1]))); heading.append(blank); }
       });
       section.append(heading);
       const translation = translationRows.get(line.lineId)?.chinese;
@@ -1035,7 +1051,9 @@
       section.classList.toggle("is-support-line", !/\{\{q:/.test(line.prompt));
       groups.set(line.lineId, section); holder.append(section);
     });
-    exercise.mode.questions.forEach((question, questionIndex) => {
+    route.forEach(question => {
+      const questionIndex = exercise.mode.questions.indexOf(question);
+      const displayNumber = displayNumbers.get(question.number);
       const card = document.createElement("article"); card.className = "exercise-line"; card.dataset.question = String(question.number);
       const questionTiming = timing[questionIndex];
       if (questionTiming) {
@@ -1046,8 +1064,8 @@
       if (Object.prototype.hasOwnProperty.call(exercise.answers, question.number)) card.classList.add("is-answered");
       const prompt = document.createElement("div"); prompt.className = "exercise-prompt";
       const [before, after] = promptParts(question.prompt); prompt.append(document.createTextNode(before));
-      const blank = document.createElement("span"); blank.className = "blank-number"; blank.textContent = String(question.number); prompt.append(blank, document.createTextNode(after));
-      const choices = document.createElement("div"); choices.className = "choice-grid"; choices.setAttribute("role", "radiogroup"); choices.setAttribute("aria-label", `第 ${question.number} 題`);
+      const blank = document.createElement("span"); blank.className = "blank-number"; blank.textContent = String(displayNumber); prompt.append(blank, document.createTextNode(after));
+      const choices = document.createElement("div"); choices.className = "choice-grid"; choices.setAttribute("role", "radiogroup"); choices.setAttribute("aria-label", `第 ${displayNumber} 題`);
       question.options.forEach((option, index) => {
         const selected = exercise.answers[question.number] === option;
         const button = document.createElement("button"); button.type = "button"; button.className = "choice-button"; button.classList.toggle("is-selected", selected); button.dataset.option = option; button.setAttribute("role", "radio"); button.setAttribute("aria-checked", String(selected)); button.disabled = exercise.locked || exercise.submitted || exercise.submitting || exercise.checking || Boolean(exercise.pendingSubmission) || exercise.conflict || Boolean(exercise.results?.[question.number]);
@@ -1055,7 +1073,7 @@
         if(state.showChinese && question.optionsZh[index]){const zh=document.createElement("small");zh.className="choice-translation";zh.textContent=question.optionsZh[index];label.append(zh);}
         button.addEventListener("click", () => chooseAnswer(question.number, option)); choices.append(button);
       });
-      if (groups.has(question.lineId)) prompt.textContent = `第 ${question.number} 題`;
+      if (groups.has(question.lineId)) prompt.textContent = `第 ${displayNumber} 題`;
       card.append(prompt);
       if(state.showChinese && question.promptZh && !groups.has(question.lineId)){const zh=document.createElement("p");zh.className="question-translation";zh.textContent=question.promptZh;card.append(zh);}
       card.append(choices); (groups.get(question.lineId) || holder).append(card);
@@ -1459,8 +1477,9 @@
     }
     const questions=$$('.exercise-line');
     const exerciseTimeline=questionTimeline(state.exercise?.mode?.questions,timeline);
-    questions.forEach((row,index)=>{
-      const timing=exerciseTimeline[index];
+    const timingByNumber=new Map((state.exercise?.mode?.questions||[]).map((q,index)=>[String(q.number),exerciseTimeline[index]]));
+    questions.forEach(row=>{
+      const timing=timingByNumber.get(row.dataset.question);
       row.classList.toggle('is-current-line',Boolean(timing&&current>=timing.start&&current<timing.end));
     });
   }
@@ -1708,14 +1727,14 @@
     target.classList.add("is-review-target");
     document.querySelector(".mistake-navigation")?.remove();
     const bar=document.createElement("aside");bar.className="mistake-navigation";bar.setAttribute("aria-label","錯題導覽");
-    const count=document.createElement("strong");count.setAttribute("role","status");count.textContent=`錯題 ${nav.index+1} / ${nav.items.length} · 第 ${item.number} 題`;
+    const count=document.createElement("strong");count.setAttribute("role","status");count.textContent=`錯題 ${nav.index+1} / ${nav.items.length} · 第 ${item.displayNumber || item.number} 題`;
     const prev=makeButton("← 上一個",()=>{nav.index--;jumpToMistake();});prev.disabled=nav.index===0;
     const next=makeButton(nav.index===nav.items.length-1?"完成檢視 ✓":"下一個錯誤 →",()=>{if(nav.index===nav.items.length-1){stopMistakeNavigation();toast("已查看所有錯題。");}else{nav.index++;jumpToMistake();}},"primary-button");
     bar.append(count,prev,next,makeButton("關閉 ×",stopMistakeNavigation));document.body.append(bar);next.focus({preventScroll:true});
     target.scrollIntoView({behavior:"smooth",block:"center"});
   }
   function listeningMistakes(results) {
-    return Object.entries(results||{}).filter(([,r])=>r&&typeof r.correct==="boolean").map(([n,r])=>({number:Number(n),title:`第 ${n} 題`,selected:r.selected,answer:r.answer}));
+    return listeningRoute(state.exercise.mode).flatMap((q, index) => { const r=results?.[q.number]; return r && typeof r.correct === "boolean" ? [{number:q.number,displayNumber:index+1,title:`第 ${index+1} 題`,selected:r.selected,answer:r.answer}] : []; });
   }
 
   function completionPanel(message) {

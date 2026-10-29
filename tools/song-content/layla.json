@@ -625,8 +625,8 @@
           "lineId": "line-1",
           "prompt": "{{blank}} when you get lonely",
           "options": [
-            "What will you say",
             "What'll you do",
+            "What will you say",
             "What can you do"
           ],
           "answer": "What'll you do",
@@ -638,8 +638,8 @@
           "prompt": "But {{blank}} by your side?",
           "options": [
             "somebody's waiting",
-            "nobody's watching",
-            "nobody's waiting"
+            "nobody's waiting",
+            "nobody's watching"
           ],
           "answer": "nobody's waiting",
           "promptZh": "而身旁卻沒有一個人守候著妳？"
@@ -673,9 +673,9 @@
           "lineId": "line-6",
           "prompt": "You've got me {{blank}}",
           "options": [
-            "on my feet",
+            "on my knees",
             "on your knees",
-            "on my knees"
+            "on my feet"
           ],
           "answer": "on my knees",
           "promptZh": "妳讓我屈膝在妳面前"
@@ -698,8 +698,8 @@
           "prompt": "Darling, won't you {{blank}}?",
           "options": [
             "read my worried mind",
-            "ease my worried mind",
-            "ease my weary mind"
+            "ease my weary mind",
+            "ease my worried mind"
           ],
           "answer": "ease my worried mind",
           "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
@@ -733,9 +733,9 @@
           "lineId": "line-13",
           "prompt": "{{blank}}, I fell in love with you",
           "options": [
-            "Like a fool",
+            "Like a rule",
             "Like a friend",
-            "Like a rule"
+            "Like a fool"
           ],
           "answer": "Like a fool",
           "promptZh": "可我卻像個傻瓜一樣，深深愛上了妳"
@@ -746,8 +746,8 @@
           "prompt": "You turned my {{blank}}",
           "options": [
             "whole life upside down",
-            "whole world inside out",
-            "whole world upside down"
+            "whole world upside down",
+            "whole world inside out"
           ],
           "answer": "whole world upside down",
           "promptZh": "妳讓我的整個世界天翻地覆"
@@ -757,9 +757,9 @@
           "lineId": "line-16",
           "prompt": "You've got me {{blank}}",
           "options": [
-            "on my feet",
+            "on my knees",
             "on your knees",
-            "on my knees"
+            "on my feet"
           ],
           "answer": "on my knees",
           "promptZh": "妳讓我屈膝在妳面前"
@@ -781,9 +781,9 @@
           "lineId": "line-20",
           "prompt": "Darling, won't you {{blank}}?",
           "options": [
-            "read my worried mind",
+            "ease my worried mind",
             "ease my weary mind",
-            "ease my worried mind"
+            "read my worried mind"
           ],
           "answer": "ease my worried mind",
           "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
@@ -805,9 +805,9 @@
           "lineId": "line-22",
           "prompt": "Before I {{blank}}",
           "options": [
-            "finally go insane",
+            "suddenly go insane",
             "finally go away",
-            "suddenly go insane"
+            "finally go insane"
           ],
           "answer": "finally go insane",
           "promptZh": "在我終於被這份感情逼得失去理智之前"
@@ -817,9 +817,9 @@
           "lineId": "line-23",
           "prompt": "Please {{blank}} we'll never find a way",
           "options": [
-            "don't say",
+            "won't say",
             "don't stay",
-            "won't say"
+            "don't say"
           ],
           "answer": "don't say",
           "promptZh": "求妳別說，我們永遠找不到一條能走下去的路"
@@ -841,9 +841,9 @@
           "lineId": "line-26",
           "prompt": "You've got me {{blank}}",
           "options": [
-            "on my feet",
+            "on my knees",
             "on your knees",
-            "on my knees"
+            "on my feet"
           ],
           "answer": "on my knees",
           "promptZh": "妳讓我屈膝在妳面前"
@@ -853,8 +853,8 @@
           "lineId": "line-32",
           "prompt": "You've got me {{blank}}",
           "options": [
-            "on my feet",
             "on my knees",
+            "on my feet",
             "on your knees"
           ],
           "answer": "on my knees",
@@ -865,9 +865,9 @@
           "lineId": "line-1",
           "prompt": "What'll you do when you {{blank}}",
           "options": [
-            "get lonely",
+            "get lucky",
             "feel lovely",
-            "get lucky"
+            "get lonely"
           ],
           "answer": "get lonely",
           "promptZh": "當寂寞襲上心頭時，妳該如何是好？"
@@ -878,8 +878,8 @@
           "prompt": "But nobody's waiting {{blank}}?",
           "options": [
             "on your side",
-            "by my side",
-            "by your side"
+            "by your side",
+            "by my side"
           ],
           "answer": "by your side",
           "promptZh": "而身旁卻沒有一個人守候著妳？"
@@ -889,9 +889,9 @@
           "lineId": "line-3",
           "prompt": "You've been running and hiding {{blank}}",
           "options": [
-            "much too long",
+            "just too long",
             "much too far",
-            "just too long"
+            "much too long"
           ],
           "answer": "much too long",
           "promptZh": "妳已經逃避、躲藏得太久太久"
@@ -901,8 +901,8 @@
           "lineId": "line-4",
           "prompt": "{{blank}} your foolish pride",
           "options": [
-            "You know it's just",
             "You know it's not",
+            "You know it's just",
             "You think it's just"
           ],
           "answer": "You know it's just",
@@ -914,8 +914,8 @@
           "prompt": "I'm begging, {{blank}}",
           "options": [
             "darling, stay",
-            "darling, please",
-            "darling, believe"
+            "darling, believe",
+            "darling, please"
           ],
           "answer": "darling, please",
           "promptZh": "我苦苦哀求著，親愛的，求求妳"
@@ -962,8 +962,8 @@
           "prompt": "Like a fool, I {{blank}}",
           "options": [
             "fell out of love with you",
-            "fell in love with you",
-            "fell in love for you"
+            "fell in love for you",
+            "fell in love with you"
           ],
           "answer": "fell in love with you",
           "promptZh": "可我卻像個傻瓜一樣，深深愛上了妳"
@@ -973,8 +973,8 @@
           "lineId": "line-14",
           "prompt": "{{blank}} my whole world upside down",
           "options": [
-            "You turned",
             "You burned",
+            "You turned",
             "You changed"
           ],
           "answer": "You turned",
@@ -997,9 +997,9 @@
           "lineId": "line-21",
           "prompt": "Let's make the best {{blank}}",
           "options": [
-            "of the separation",
+            "of the situation",
             "of this situation",
-            "of the situation"
+            "of the separation"
           ],
           "answer": "of the situation",
           "promptZh": "讓我們在這樣的處境中，盡力尋找最好的出路吧"
@@ -1180,8 +1180,8 @@
           "prompt": "But {{blank}} by your side?",
           "options": [
             "somebody's waiting",
-            "nobody's waiting",
-            "nobody's watching"
+            "nobody's watching",
+            "nobody's waiting"
           ],
           "answer": "nobody's waiting",
           "promptZh": "而身旁卻沒有一個人守候著妳？"
@@ -1203,9 +1203,9 @@
           "lineId": "line-4",
           "prompt": "You know it's just {{blank}}",
           "options": [
-            "your foolish pride",
+            "your foolish mind",
             "your selfish pride",
-            "your foolish mind"
+            "your foolish pride"
           ],
           "answer": "your foolish pride",
           "promptZh": "妳心裡明白，那不過是妳不肯放下的無謂自尊"
@@ -1228,8 +1228,8 @@
           "prompt": "{{blank}}, darling, please",
           "options": [
             "I'm waiting",
-            "I'm begging",
-            "I'm breaking"
+            "I'm breaking",
+            "I'm begging"
           ],
           "answer": "I'm begging",
           "promptZh": "我苦苦哀求著，親愛的，求求妳"
@@ -1275,9 +1275,9 @@
           "lineId": "line-13",
           "prompt": "{{blank}}, I fell in love with you",
           "options": [
-            "Like a friend",
+            "Like a fool",
             "Like a rule",
-            "Like a fool"
+            "Like a friend"
           ],
           "answer": "Like a fool",
           "promptZh": "可我卻像個傻瓜一樣，深深愛上了妳"
@@ -1300,8 +1300,8 @@
           "prompt": "You've got me {{blank}}",
           "options": [
             "on my feet",
-            "on my knees",
-            "on your knees"
+            "on your knees",
+            "on my knees"
           ],
           "answer": "on my knees",
           "promptZh": "妳讓我屈膝在妳面前"
@@ -1312,8 +1312,8 @@
           "prompt": "{{blank}}, darling, please",
           "options": [
             "I'm waiting",
-            "I'm breaking",
-            "I'm begging"
+            "I'm begging",
+            "I'm breaking"
           ],
           "answer": "I'm begging",
           "promptZh": "我苦苦哀求著，親愛的，求求妳"
@@ -1323,9 +1323,9 @@
           "lineId": "line-20",
           "prompt": "Darling, won't you {{blank}}?",
           "options": [
-            "read my worried mind",
+            "ease my worried mind",
             "ease my weary mind",
-            "ease my worried mind"
+            "read my worried mind"
           ],
           "answer": "ease my worried mind",
           "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
@@ -1335,8 +1335,8 @@
           "lineId": "line-21",
           "prompt": "Let's {{blank}} of the situation",
           "options": [
-            "make a mess",
             "make the best",
+            "make a mess",
             "take the best"
           ],
           "answer": "make the best",
@@ -1347,8 +1347,8 @@
           "lineId": "line-22",
           "prompt": "Before I {{blank}}",
           "options": [
-            "finally go insane",
             "finally go away",
+            "finally go insane",
             "suddenly go insane"
           ],
           "answer": "finally go insane",
@@ -1359,9 +1359,9 @@
           "lineId": "line-23",
           "prompt": "Please {{blank}} we'll never find a way",
           "options": [
-            "don't say",
+            "won't say",
             "don't stay",
-            "won't say"
+            "don't say"
           ],
           "answer": "don't say",
           "promptZh": "求妳別說，我們永遠找不到一條能走下去的路"
@@ -1371,8 +1371,8 @@
           "lineId": "line-24",
           "prompt": "And tell me {{blank}}",
           "options": [
-            "all my love is gone",
             "all my love's in vain",
+            "all my love is gone",
             "all your love's in vain"
           ],
           "answer": "all my love's in vain",
@@ -1383,8 +1383,8 @@
           "lineId": "line-26",
           "prompt": "You've got me {{blank}}",
           "options": [
-            "on my knees",
             "on my feet",
+            "on my knees",
             "on your knees"
           ],
           "answer": "on my knees",
@@ -1395,8 +1395,8 @@
           "lineId": "line-32",
           "prompt": "You've got me {{blank}}",
           "options": [
-            "on my feet",
             "on my knees",
+            "on my feet",
             "on your knees"
           ],
           "answer": "on my knees",
@@ -1407,8 +1407,8 @@
           "lineId": "line-1",
           "prompt": "What'll you do when you {{blank}}",
           "options": [
-            "get lonely",
             "feel lovely",
+            "get lonely",
             "get lucky"
           ],
           "answer": "get lonely",
@@ -1419,8 +1419,8 @@
           "lineId": "line-2",
           "prompt": "But nobody's waiting {{blank}}?",
           "options": [
-            "by your side",
             "on your side",
+            "by your side",
             "by my side"
           ],
           "answer": "by your side",
@@ -1431,9 +1431,9 @@
           "lineId": "line-3",
           "prompt": "You've been running and hiding {{blank}}",
           "options": [
-            "much too far",
+            "much too long",
             "just too long",
-            "much too long"
+            "much too far"
           ],
           "answer": "much too long",
           "promptZh": "妳已經逃避、躲藏得太久太久"
@@ -1444,8 +1444,8 @@
           "prompt": "{{blank}} your foolish pride",
           "options": [
             "You know it's not",
-            "You think it's just",
-            "You know it's just"
+            "You know it's just",
+            "You think it's just"
           ],
           "answer": "You know it's just",
           "promptZh": "妳心裡明白，那不過是妳不肯放下的無謂自尊"
@@ -1491,8 +1491,8 @@
           "lineId": "line-12",
           "prompt": "When your old man had {{blank}}",
           "options": [
-            "left you down",
             "let you down",
+            "left you down",
             "let you go"
           ],
           "answer": "let you down",
@@ -1515,9 +1515,9 @@
           "lineId": "line-14",
           "prompt": "{{blank}} my whole world upside down",
           "options": [
-            "You burned",
+            "You turned",
             "You changed",
-            "You turned"
+            "You burned"
           ],
           "answer": "You turned",
           "promptZh": "妳讓我的整個世界天翻地覆"
@@ -1528,8 +1528,8 @@
           "prompt": "I'm begging, {{blank}}",
           "options": [
             "darling, stay",
-            "darling, please",
-            "darling, believe"
+            "darling, believe",
+            "darling, please"
           ],
           "answer": "darling, please",
           "promptZh": "我苦苦哀求著，親愛的，求求妳"
@@ -1552,8 +1552,8 @@
           "prompt": "Darling, {{blank}} ease my worried mind?",
           "options": [
             "will you",
-            "don't you",
-            "won't you"
+            "won't you",
+            "don't you"
           ],
           "answer": "won't you",
           "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
@@ -1575,9 +1575,9 @@
           "lineId": "line-23",
           "prompt": "Please don't say we'll {{blank}}",
           "options": [
-            "never find a way",
+            "never find the way",
             "ever find a way",
-            "never find the way"
+            "never find a way"
           ],
           "answer": "never find a way",
           "promptZh": "求妳別說，我們永遠找不到一條能走下去的路"
@@ -1587,8 +1587,8 @@
           "lineId": "line-24",
           "prompt": "{{blank}} all my love's in vain",
           "options": [
-            "And help me",
             "And tell me",
+            "And help me",
             "Don't tell me"
           ],
           "answer": "And tell me",
@@ -1599,9 +1599,9 @@
           "lineId": "line-28",
           "prompt": "{{blank}}, darling, please",
           "options": [
-            "I'm begging",
+            "I'm breaking",
             "I'm waiting",
-            "I'm breaking"
+            "I'm begging"
           ],
           "answer": "I'm begging",
           "promptZh": "我苦苦哀求著，親愛的，求求妳"
@@ -1612,8 +1612,8 @@
           "prompt": "I'm begging, {{blank}}",
           "options": [
             "darling, stay",
-            "darling, believe",
-            "darling, please"
+            "darling, please",
+            "darling, believe"
           ],
           "answer": "darling, please",
           "promptZh": "我苦苦哀求著，親愛的，求求妳"
@@ -1623,9 +1623,9 @@
           "lineId": "line-30",
           "prompt": "Darling, won't you {{blank}}?",
           "options": [
-            "ease my worried mind",
+            "ease my weary mind",
             "read my worried mind",
-            "ease my weary mind"
+            "ease my worried mind"
           ],
           "answer": "ease my worried mind",
           "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
@@ -1636,8 +1636,8 @@
           "prompt": "Darling, {{blank}} ease my worried mind?",
           "options": [
             "will you",
-            "don't you",
-            "won't you"
+            "won't you",
+            "don't you"
           ],
           "answer": "won't you",
           "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
@@ -1818,8 +1818,8 @@
           "prompt": "What'll you do when you {{blank}}",
           "options": [
             "feel lovely",
-            "get lucky",
-            "get lonely"
+            "get lonely",
+            "get lucky"
           ],
           "answer": "get lonely",
           "promptZh": "當寂寞襲上心頭時，妳該如何是好？"
@@ -1841,9 +1841,9 @@
           "lineId": "line-2",
           "prompt": "But nobody's waiting {{blank}}?",
           "options": [
-            "by your side",
+            "by my side",
             "on your side",
-            "by my side"
+            "by your side"
           ],
           "answer": "by your side",
           "promptZh": "而身旁卻沒有一個人守候著妳？"
@@ -1854,8 +1854,8 @@
           "prompt": "You've been {{blank}} much too long",
           "options": [
             "running and crying",
-            "hurrying and hiding",
-            "running and hiding"
+            "running and hiding",
+            "hurrying and hiding"
           ],
           "answer": "running and hiding",
           "promptZh": "妳已經逃避、躲藏得太久太久"
@@ -1865,8 +1865,8 @@
           "lineId": "line-3",
           "prompt": "You've been running and hiding {{blank}}",
           "options": [
-            "much too far",
             "much too long",
+            "much too far",
             "just too long"
           ],
           "answer": "much too long",
@@ -1878,8 +1878,8 @@
           "prompt": "You know it's just {{blank}}",
           "options": [
             "your selfish pride",
-            "your foolish mind",
-            "your foolish pride"
+            "your foolish pride",
+            "your foolish mind"
           ],
           "answer": "your foolish pride",
           "promptZh": "妳心裡明白，那不過是妳不肯放下的無謂自尊"
@@ -1901,9 +1901,9 @@
           "lineId": "line-6",
           "prompt": "You've got me {{blank}}",
           "options": [
-            "on my feet",
+            "on my knees",
             "on your knees",
-            "on my knees"
+            "on my feet"
           ],
           "answer": "on my knees",
           "promptZh": "妳讓我屈膝在妳面前"
@@ -1925,9 +1925,9 @@
           "lineId": "line-8",
           "prompt": "I'm begging, {{blank}}",
           "options": [
-            "darling, stay",
+            "darling, please",
             "darling, believe",
-            "darling, please"
+            "darling, stay"
           ],
           "answer": "darling, please",
           "promptZh": "我苦苦哀求著，親愛的，求求妳"
@@ -1938,8 +1938,8 @@
           "prompt": "Darling, won't you {{blank}}?",
           "options": [
             "read my worried mind",
-            "ease my weary mind",
-            "ease my worried mind"
+            "ease my worried mind",
+            "ease my weary mind"
           ],
           "answer": "ease my worried mind",
           "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
@@ -1950,8 +1950,8 @@
           "prompt": "Darling, {{blank}} ease my worried mind?",
           "options": [
             "will you",
-            "won't you",
-            "don't you"
+            "don't you",
+            "won't you"
           ],
           "answer": "won't you",
           "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
@@ -1961,8 +1961,8 @@
           "lineId": "line-11",
           "prompt": "I tried to {{blank}}",
           "options": [
-            "give you consolation",
             "give you conversation",
+            "give you consolation",
             "bring you consolation"
           ],
           "answer": "give you consolation",
@@ -1997,9 +1997,9 @@
           "lineId": "line-12",
           "prompt": "When your old man had {{blank}}",
           "options": [
-            "let you down",
+            "let you go",
             "left you down",
-            "let you go"
+            "let you down"
           ],
           "answer": "let you down",
           "promptZh": "當妳的男人讓妳失望、傷透妳的心時"
@@ -2010,8 +2010,8 @@
           "prompt": "{{blank}}, I fell in love with you",
           "options": [
             "Like a friend",
-            "Like a fool",
-            "Like a rule"
+            "Like a rule",
+            "Like a fool"
           ],
           "answer": "Like a fool",
           "promptZh": "可我卻像個傻瓜一樣，深深愛上了妳"
@@ -2046,8 +2046,8 @@
           "prompt": "{{blank}} my whole world upside down",
           "options": [
             "You burned",
-            "You changed",
-            "You turned"
+            "You turned",
+            "You changed"
           ],
           "answer": "You turned",
           "promptZh": "妳讓我的整個世界天翻地覆"
@@ -2057,8 +2057,8 @@
           "lineId": "line-16",
           "prompt": "You've got me {{blank}}",
           "options": [
-            "on my feet",
             "on my knees",
+            "on my feet",
             "on your knees"
           ],
           "answer": "on my knees",
@@ -2093,8 +2093,8 @@
           "lineId": "line-20",
           "prompt": "Darling, won't you {{blank}}?",
           "options": [
-            "ease my worried mind",
             "read my worried mind",
+            "ease my worried mind",
             "ease my weary mind"
           ],
           "answer": "ease my worried mind",
@@ -2106,8 +2106,8 @@
           "prompt": "Darling, {{blank}} ease my worried mind?",
           "options": [
             "will you",
-            "won't you",
-            "don't you"
+            "don't you",
+            "won't you"
           ],
           "answer": "won't you",
           "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
@@ -2117,8 +2117,8 @@
           "lineId": "line-21",
           "prompt": "Let's {{blank}} of the situation",
           "options": [
-            "make a mess",
             "make the best",
+            "make a mess",
             "take the best"
           ],
           "answer": "make the best",
@@ -2129,9 +2129,9 @@
           "lineId": "line-21",
           "prompt": "Let's make the best {{blank}}",
           "options": [
-            "of the situation",
+            "of this situation",
             "of the separation",
-            "of this situation"
+            "of the situation"
           ],
           "answer": "of the situation",
           "promptZh": "讓我們在這樣的處境中，盡力尋找最好的出路吧"
@@ -2142,8 +2142,8 @@
           "prompt": "Before I {{blank}}",
           "options": [
             "finally go away",
-            "finally go insane",
-            "suddenly go insane"
+            "suddenly go insane",
+            "finally go insane"
           ],
           "answer": "finally go insane",
           "promptZh": "在我終於被這份感情逼得失去理智之前"
@@ -2154,8 +2154,8 @@
           "prompt": "{{blank}} finally go insane",
           "options": [
             "Because I",
-            "Before you",
-            "Before I"
+            "Before I",
+            "Before you"
           ],
           "answer": "Before I",
           "promptZh": "在我終於被這份感情逼得失去理智之前"
@@ -2165,8 +2165,8 @@
           "lineId": "line-23",
           "prompt": "Please {{blank}} we'll never find a way",
           "options": [
-            "don't stay",
             "don't say",
+            "don't stay",
             "won't say"
           ],
           "answer": "don't say",
@@ -2190,8 +2190,8 @@
           "prompt": "And tell me {{blank}}",
           "options": [
             "all my love is gone",
-            "all your love's in vain",
-            "all my love's in vain"
+            "all my love's in vain",
+            "all your love's in vain"
           ],
           "answer": "all my love's in vain",
           "promptZh": "也別告訴我，我付出的所有愛意終究只是徒勞"
@@ -2201,8 +2201,8 @@
           "lineId": "line-24",
           "prompt": "{{blank}} all my love's in vain",
           "options": [
-            "And tell me",
             "And help me",
+            "And tell me",
             "Don't tell me"
           ],
           "answer": "And tell me",
@@ -2213,9 +2213,9 @@
           "lineId": "line-26",
           "prompt": "You've got me {{blank}}",
           "options": [
-            "on my feet",
+            "on my knees",
             "on your knees",
-            "on my knees"
+            "on my feet"
           ],
           "answer": "on my knees",
           "promptZh": "妳讓我屈膝在妳面前"
@@ -2225,9 +2225,9 @@
           "lineId": "line-28",
           "prompt": "{{blank}}, darling, please",
           "options": [
-            "I'm waiting",
+            "I'm begging",
             "I'm breaking",
-            "I'm begging"
+            "I'm waiting"
           ],
           "answer": "I'm begging",
           "promptZh": "我苦苦哀求著，親愛的，求求妳"
@@ -2237,8 +2237,8 @@
           "lineId": "line-28",
           "prompt": "I'm begging, {{blank}}",
           "options": [
-            "darling, please",
             "darling, stay",
+            "darling, please",
             "darling, believe"
           ],
           "answer": "darling, please",
@@ -2250,8 +2250,8 @@
           "prompt": "Darling, won't you {{blank}}?",
           "options": [
             "read my worried mind",
-            "ease my weary mind",
-            "ease my worried mind"
+            "ease my worried mind",
+            "ease my weary mind"
           ],
           "answer": "ease my worried mind",
           "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
@@ -2262,8 +2262,8 @@
           "prompt": "Darling, {{blank}} ease my worried mind?",
           "options": [
             "will you",
-            "won't you",
-            "don't you"
+            "don't you",
+            "won't you"
           ],
           "answer": "won't you",
           "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
@@ -2273,8 +2273,8 @@
           "lineId": "line-32",
           "prompt": "You've got me {{blank}}",
           "options": [
-            "on my feet",
             "on my knees",
+            "on my feet",
             "on your knees"
           ],
           "answer": "on my knees",
@@ -2285,8 +2285,8 @@
           "lineId": "line-34",
           "prompt": "{{blank}}, darling, please",
           "options": [
-            "I'm begging",
             "I'm waiting",
+            "I'm begging",
             "I'm breaking"
           ],
           "answer": "I'm begging",
@@ -2298,8 +2298,8 @@
           "prompt": "I'm begging, {{blank}}",
           "options": [
             "darling, stay",
-            "darling, please",
-            "darling, believe"
+            "darling, believe",
+            "darling, please"
           ],
           "answer": "darling, please",
           "promptZh": "我苦苦哀求著，親愛的，求求妳"
@@ -2309,8 +2309,8 @@
           "lineId": "line-36",
           "prompt": "Darling, won't you {{blank}}?",
           "options": [
-            "read my worried mind",
             "ease my worried mind",
+            "read my worried mind",
             "ease my weary mind"
           ],
           "answer": "ease my worried mind",
@@ -2321,9 +2321,9 @@
           "lineId": "line-36",
           "prompt": "Darling, {{blank}} ease my worried mind?",
           "options": [
-            "won't you",
+            "don't you",
             "will you",
-            "don't you"
+            "won't you"
           ],
           "answer": "won't you",
           "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
@@ -2333,9 +2333,9 @@
           "lineId": "line-1",
           "prompt": "What'll you do {{blank}} get lonely",
           "options": [
-            "where you",
+            "when you",
             "when I",
-            "when you"
+            "where you"
           ],
           "answer": "when you",
           "promptZh": "當寂寞襲上心頭時，妳該如何是好？"
@@ -2346,8 +2346,8 @@
           "prompt": "{{blank}} nobody's waiting by your side?",
           "options": [
             "And",
-            "But",
-            "So"
+            "So",
+            "But"
           ],
           "answer": "But",
           "promptZh": "而身旁卻沒有一個人守候著妳？"
@@ -2357,8 +2357,8 @@
           "lineId": "line-3",
           "prompt": "{{blank}} running and hiding much too long",
           "options": [
-            "You've been",
             "You have",
+            "You've been",
             "You've seen"
           ],
           "answer": "You've been",
@@ -2369,9 +2369,9 @@
           "lineId": "line-6",
           "prompt": "{{blank}} on my knees",
           "options": [
-            "You've got me",
+            "You've brought me",
             "You've lost me",
-            "You've brought me"
+            "You've got me"
           ],
           "answer": "You've got me",
           "promptZh": "妳讓我屈膝在妳面前"
@@ -2382,8 +2382,8 @@
           "prompt": "{{blank}} won't you ease my worried mind?",
           "options": [
             "Baby,",
-            "Darling,",
-            "Honey,"
+            "Honey,",
+            "Darling,"
           ],
           "answer": "Darling,",
           "promptZh": "親愛的，妳難道不能撫慰我這顆憂慮不安的心嗎？"
