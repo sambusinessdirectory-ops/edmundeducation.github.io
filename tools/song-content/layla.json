@@ -2561,16 +2561,16 @@
       "usage": "當一個人開始覺得沒有陪伴時使用。",
       "prompt": "哪一句正確使用「Get lonely」？",
       "options": [
-        "I get lonely my shoes before school.",
-        "The sandwich gets lonely in five minutes.",
+        "I get lonely my first job in the city.",
+        "She gets lonely to visited her parents.",
         "I get lonely when all my friends are away.",
         "Please get lonely the window for me."
       ],
       "answer": 2,
       "explanation": "正確：朋友都不在時，會感到孤單。",
       "optionExplanations": [
-        "錯誤：get lonely 是感到寂寞，不能表示穿鞋；可以說 I put on my shoes.",
-        "錯誤：三明治通常不會有寂寞的感受；可說 The sandwich gets cold.",
+        "get lonely 表示感到寂寞，不能直接接 my first job。",
+        "to 後不能接 visited；此句沒有完整表達感到寂寞的原因。",
         "正確：朋友都不在時，會感到孤單。",
         "錯誤：get lonely 不是打開窗戶；應說 Please open the window."
       ]
@@ -2582,18 +2582,18 @@
       "usage": "描述人在旁邊，或在困難時支持對方。",
       "prompt": "哪一句正確使用「By your side」？",
       "options": [
-        "I put by your side in my soup.",
+        "I by your side the next dance.",
         "I will stay by your side when you need help.",
         "My phone is by your side of happy.",
-        "We went by your side at eight o’clock yesterday."
+        "I will stay by your side yesterday."
       ],
       "answer": 1,
       "explanation": "正確：表示需要幫忙時會陪在對方身邊。",
       "optionExplanations": [
-        "錯誤：by your side 不是食材；可以說 I put salt in my soup.",
+        "by your side 是位置片語，不能單獨作動詞。",
         "正確：表示需要幫忙時會陪在對方身邊。",
         "錯誤：這個片語不能這樣連接形容詞；可說 My phone is next to you.",
-        "錯誤：by your side 不是時間或交通方式；可說 We went home at eight."
+        "will 表示未來，與 yesterday 不配合。"
       ]
     },
     {
@@ -2603,16 +2603,16 @@
       "usage": "當事情持續的時間比希望的長很多時使用。",
       "prompt": "哪一句正確使用「Much too long」？",
       "options": [
-        "My dog is much too long happy today.",
-        "She much too long her breakfast.",
+        "My cousin is much too long excited today.",
+        "She much too long the interview.",
         "We bought much too long in the shop.",
         "I waited much too long for the bus."
       ],
       "answer": 3,
       "explanation": "正確：表示等公車等得太久。",
       "optionExplanations": [
-        "錯誤：much too long 形容時間過長，不是這樣修飾 happy。",
-        "錯誤：不能把 much too long 當成動詞；可說 She took too long to eat breakfast.",
+        "much too long 描述時間或長度，不能用來加強 excited。",
+        "much too long 不能單獨作動詞。",
         "錯誤：買東西要用商品或數量；可說 We stayed in the shop much too long.",
         "正確：表示等公車等得太久。"
       ]
@@ -2625,17 +2625,17 @@
       "prompt": "哪一句正確使用「On my knees」？",
       "options": [
         "I was on my knees to look for my lost key.",
-        "I ate on my knees with a blue pencil.",
-        "The bus was on my knees at the station.",
-        "I put my homework on my knees tomorrow."
+        "I was on my knees to looked under the stage.",
+        "I was on my knees to the hotel by taxi.",
+        "I was on my knees to finding my lost ring."
       ],
       "answer": 0,
       "explanation": "正確：表示跪下來找掉落的鑰匙。",
       "optionExplanations": [
         "正確：表示跪下來找掉落的鑰匙。",
-        "錯誤：這句將吃東西和鉛筆亂接在一起，沒有清楚表達片語用途。",
-        "錯誤：公車不能跪在人的膝蓋上；可說 The bus was at the station.",
-        "錯誤：這裡想說放在膝上應用 on my lap，且 tomorrow 不搭配過去式 put 的語境。"
+        "to 後須用原形 look，不能接 looked。",
+        "on my knees 表示跪著，不能表示交通方式。",
+        "表示目的的 to 後接 find，不能接 finding。"
       ]
     },
     {
@@ -2645,17 +2645,17 @@
       "usage": "非常希望對方答應時使用；後面接人和 to + 動詞。",
       "prompt": "哪一句正確使用「Beg someone to」？",
       "options": [
-        "I begged to my brother help my dog.",
-        "I begged my brother to help me find my dog.",
-        "She begged her sandwich to dance.",
+        "I begged to my brother lend me his car.",
+        "I begged my sister to stop sharing my baby photos.",
+        "She begged her neighbour to turning down the music.",
         "They begged happy to the football."
       ],
       "answer": 1,
-      "explanation": "正確：begged + 人 + to help，表示懇求哥哥幫忙。",
+      "explanation": "beg someone to do something 表示懇求某人做事。",
       "optionExplanations": [
-        "錯誤：詞序錯誤；應說 I begged my brother to help my dog.",
-        "正確：begged + 人 + to help，表示懇求哥哥幫忙。",
-        "錯誤：通常不會對三明治懇求跳舞；可對人說 She begged her friend to dance.",
+        "beg 後直接接人，再用 to lend；這裡的 to 位置錯誤。",
+        "beg someone to do something 表示懇求某人做事。",
+        "to 後用原形 turn，不能接 turning。",
         "錯誤：beg 後面需要合理的對象和動作；可說 They begged their dad to play football."
       ]
     },
@@ -2666,17 +2666,17 @@
       "usage": "答應的事沒做好，或沒達到別人的期待時使用。",
       "prompt": "哪一句正確使用「Let someone down」？",
       "options": [
-        "Please let my bag down a birthday cake.",
+        "Please let my brother down to arrived yesterday.",
         "I let the rain down in my pencil.",
-        "I promised to come, but I forgot. I let my friend down.",
+        "I forgot our date. I really let her down.",
         "My teacher let down the classroom to Tuesday."
       ],
       "answer": 2,
-      "explanation": "正確：沒有履行約定，讓朋友失望。",
+      "explanation": "let someone down 表示使人失望。",
       "optionExplanations": [
-        "錯誤：let someone down 是讓人失望，不是用來放蛋糕。",
+        "to arrived 的形式錯誤，句子也沒有完整表達使人失望的意思。",
         "錯誤：這裡不能表示雨下來；可以說 It started to rain.",
-        "正確：沒有履行約定，讓朋友失望。",
+        "let someone down 表示使人失望。",
         "錯誤：這個句型不能表示移動教室或改日期。"
       ]
     },
@@ -2687,17 +2687,17 @@
       "usage": "開始愛上一個人，也可以用來說非常喜歡某個地方或事物。",
       "prompt": "哪一句正確使用「Fall in love with」？",
       "options": [
-        "I fall in love with my homework at seven o’clock as a bus.",
+        "I fall in love to my neighbour.",
         "She fell in love with him when they met at school.",
-        "He fell in love the door with a spoon.",
+        "He fell in love with to meeting her.",
         "We fell in love to the supermarket yesterday."
       ],
       "answer": 1,
       "explanation": "正確：表示兩人在學校認識時，她愛上了他。",
       "optionExplanations": [
-        "錯誤：後半句 as a bus 讓意思不合理；可說 I fell in love with this book.",
+        "fall in love 後接對象用 with，不能用 to。",
         "正確：表示兩人在學校認識時，她愛上了他。",
-        "錯誤：fall in love 後要接 with，且句意不合理。",
+        "with 後不能接 to meeting；愛上某人可直接接人名或代名詞。",
         "錯誤：應用 with 表示愛上；去超市則說 We went to the supermarket."
       ]
     },
@@ -2708,18 +2708,18 @@
       "usage": "可以表示物品倒過來，也可以表示生活出現很大的改變。",
       "prompt": "哪一句正確使用「Turn upside down」？",
       "options": [
-        "I turned upside down my breakfast for blue.",
+        "I turned upside down to the hotel by taxi.",
         "My sister turned upside down at five o’clock the song.",
         "We turned the weather upside down in our pockets.",
-        "The baby turned the box upside down, and all the toys fell out."
+        "He turned the map upside down and found our hotel."
       ],
       "answer": 3,
-      "explanation": "正確：把盒子倒過來，玩具都掉出來。",
+      "explanation": "turn upside down 表示上下翻轉。",
       "optionExplanations": [
-        "錯誤：for blue 沒有清楚意義；可說 I turned the box upside down.",
+        "turn upside down 指翻轉，不能表示乘的士前往酒店。",
         "錯誤：句子缺少合理的受詞和語序。",
         "錯誤：不能真的把天氣放在口袋裡翻轉。",
-        "正確：把盒子倒過來，玩具都掉出來。"
+        "turn upside down 表示上下翻轉。"
       ]
     },
     {
@@ -2730,7 +2730,7 @@
       "prompt": "哪一句正確使用「Make the best of」？",
       "options": [
         "It rained on our trip, but we made the best of the day.",
-        "I made the best of my shoes into a banana.",
+        "I made the best of to lose the race.",
         "She makes the best of to sleep at nine.",
         "They made the best of loudly in the bus."
       ],
@@ -2738,7 +2738,7 @@
       "explanation": "正確：雖然下雨，還是努力讓這天過得開心。",
       "optionExplanations": [
         "正確：雖然下雨，還是努力讓這天過得開心。",
-        "錯誤：這個片語不是把東西變成香蕉；可說 I made a banana cake.",
+        "of 後不能接 to lose；可說 made the best of a bad day。",
         "錯誤：make the best of 後面應接名詞或情況，不直接接 to sleep。",
         "錯誤：loudly 是副詞，不能作為這個片語的受詞。"
       ]
@@ -2750,16 +2750,16 @@
       "usage": "努力過，但沒有達到希望的結果時使用。",
       "prompt": "哪一句正確使用「In vain」？",
       "options": [
-        "We looked for the lost cat in vain; we could not find it.",
-        "I put the sandwich in vain and ate the table.",
+        "We searched in vain. Dad already had the ring.",
+        "I in vain my first driving lesson yesterday.",
         "She is in vain tall than her brother.",
         "My bike in vain to school every morning."
       ],
       "answer": 0,
-      "explanation": "正確：表示找了貓卻沒有找到。",
+      "explanation": "in vain 表示徒勞；戒指早在爸爸手中。",
       "optionExplanations": [
-        "正確：表示找了貓卻沒有找到。",
-        "錯誤：in vain 不是實際的容器或位置。",
+        "in vain 表示徒勞；戒指早在爸爸手中。",
+        "in vain 是副詞片語，不能當作主要動詞。",
         "錯誤：in vain 不表示身高比較；應說 She is taller than her brother.",
         "錯誤：in vain 不能代替騎車這個動詞；可說 I ride my bike to school."
       ]

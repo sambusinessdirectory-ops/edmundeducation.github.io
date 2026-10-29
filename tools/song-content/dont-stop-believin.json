@@ -288,16 +288,16 @@
       "meaning": "小鎮的；來自小地方的",
       "options": [
         "She grew up in a small-town near the mountains.",
-        "He is a small-town boy who knows everyone in his town.",
-        "I small-town my homework every night.",
-        "My coffee is small-town because it is too hot."
+        "He's a small-town boy with a big-city haircut.",
+        "I small-town my new job every Monday.",
+        "My video call is small-town because it lasts ten minutes."
       ],
-      "explanation": "正確！small-town 放在 boy 前，表示來自小鎮的男孩。",
+      "explanation": "small-town 作形容詞修飾 boy，表示來自小鎮。",
       "optionExplanations": [
-        "small-town 放在名詞前時通常用來形容小鎮，但此句冠詞不對，應說 a small town。",
-        "正確！small-town 放在 boy 前，表示來自小鎮的男孩。",
-        "small-town 是形容詞，不是「做功課」的動詞。",
-        "small-town 不表示溫度，熱咖啡應用 hot。"
+        "這裡 town 是名詞，應寫 a small town；small-town 用來修飾另一個名詞。",
+        "small-town 作形容詞修飾 boy，表示來自小鎮。",
+        "small-town 是形容詞，不能代替上班的動詞。",
+        "small-town 表示小鎮的，不能形容通話時間短。"
       ]
     },
     {
@@ -310,14 +310,14 @@
       "options": [
         "I was born and raised in a small town.",
         "My new phone was born and raised in my bag.",
-        "She born and raised her lunch at school.",
+        "She born and raised her concert ticket yesterday.",
         "He is born and raised his bike every day."
       ],
       "explanation": "正確！was born and raised in 接成長的地方。",
       "optionExplanations": [
         "正確！was born and raised in 接成長的地方。",
         "通常用來介紹人的成長背景，不適合描述手機。",
-        "這個片語不是「準備午餐」，也不能直接當一般動詞使用。",
+        "born and raised 描述人的成長背景，不能表示買票。",
         "這裡不表示騎腳踏車，應說 rides his bike。"
       ]
     },
@@ -329,16 +329,16 @@
       "prompt": "哪一句正確使用「anywhere」？",
       "meaning": "任何地方；隨便哪裡",
       "options": [
-        "We can eat anywhere you like.",
-        "I anywhere my shoes before school.",
-        "The apple is anywhere red and sweet.",
+        "Sit anywhere. The front seats cost nothing today.",
+        "I anywhere my invitation before the wedding.",
+        "The new shop is anywhere bright and busy.",
         "She has an anywhere in her bag."
       ],
-      "explanation": "正確！anywhere 表示任何你想去的地方。",
+      "explanation": "anywhere 表示任何地方，這裡可自由選座。",
       "optionExplanations": [
-        "正確！anywhere 表示任何你想去的地方。",
-        "anywhere 是表示地點的副詞，不是穿鞋子的動詞。",
-        "anywhere 不表示顏色或味道。",
+        "anywhere 表示任何地方，這裡可自由選座。",
+        "anywhere 是地點副詞，不能作閱讀或寄送的動詞。",
+        "anywhere 不能放在此處修飾 bright and busy。",
         "anywhere 不是可數名詞，前面不能加 an。"
       ]
     },
@@ -350,17 +350,17 @@
       "prompt": "哪一句正確使用「go on and on」？",
       "meaning": "持續不停；說個沒完",
       "options": [
-        "I go on and on my shoes every day.",
+        "I go on and on my camera before every trip.",
         "She goes on and on at seven years old.",
-        "The soup went on and on because it was hot.",
-        "My friend went on and on about his new cat."
+        "The film went on and on because it lasted one second.",
+        "The guide went on and on. We missed the last train."
       ],
-      "explanation": "正確！表示朋友一直談他的新貓。",
+      "explanation": "go on and on 強調說個不停。",
       "optionExplanations": [
-        "不能用這個片語表示穿鞋，應說 put on my shoes。",
+        "準備相機需要動詞；go on and on 不能直接這樣接 camera。",
         "這個片語不表示年齡。",
-        "片語不表示食物很燙。",
-        "正確！表示朋友一直談他的新貓。"
+        "一秒鐘無法支持持續很久的意思。",
+        "go on and on 強調說個不停。"
       ]
     },
     {
@@ -371,16 +371,16 @@
       "prompt": "哪一句正確使用「stranger」？",
       "meaning": "陌生人",
       "options": [
-        "I put a stranger in my sandwich.",
+        "I added a stranger to my phone to make its battery last longer.",
         "A stranger asked me where the train station was.",
-        "My dog is a stranger because it is hungry.",
+        "My umbrella is a stranger because it is wet.",
         "I stranger the bus to school."
       ],
       "explanation": "正確！指一位不認識的人來問路。",
       "optionExplanations": [
-        "stranger 是陌生人，不是三明治配料。",
+        "stranger 指陌生人，無法當成增加電量的零件。",
         "正確！指一位不認識的人來問路。",
-        "stranger 指不認識的人，不表示餓。",
+        "stranger 通常指不認識的人，雨傘濕了不會變成陌生人。",
         "stranger 是名詞，不是搭公車的動詞。"
       ]
     },
@@ -393,15 +393,15 @@
       "meaning": "上上下下；來回地",
       "options": [
         "My bag is up and down because it is blue.",
-        "I ate up and down for breakfast.",
-        "The dog walked up and down the street.",
+        "I paid up and down for the cinema ticket.",
+        "Ben walked up and down, practising his interview smile.",
         "She up and down her phone every day."
       ],
-      "explanation": "正確！表示狗沿著街道來回走。",
+      "explanation": "up and down 在此表示來回踱步。",
       "optionExplanations": [
         "這個片語不表示顏色。",
-        "不能表示早餐吃了什麼。",
-        "正確！表示狗沿著街道來回走。",
+        "up and down 無法在這裡表示票價或付款方式。",
+        "up and down 在此表示來回踱步。",
         "不能直接當動詞表示使用手機。"
       ]
     },
@@ -413,14 +413,14 @@
       "prompt": "哪一句正確使用「work hard」？",
       "meaning": "努力工作；認真用功",
       "options": [
-        "He works hard his sandwich for lunch.",
+        "He works hard his holiday photos into an album.",
         "I work hard my jacket when it is cold.",
         "The chair works hard because it is old.",
         "They work hard at school to learn English."
       ],
       "explanation": "正確！表示為了學英文而認真努力。",
       "optionExplanations": [
-        "work hard 不表示製作三明治，應說 makes a sandwich。",
+        "整理照片需要 puts 等動詞；works hard 後面不能直接接照片。",
         "不表示穿外套，應說 wear my jacket。",
         "椅子不會像人一樣認真努力。",
         "正確！表示為了學英文而認真努力。"
@@ -436,14 +436,14 @@
       "options": [
         "I wear a thrill when it rains.",
         "I got a thrill when I went on the fast ride.",
-        "There is a thrill in my soup, so it tastes good.",
+        "There is a thrill in my bank card, so it can pay the rent.",
         "My teacher thrilled a chair to the door."
       ],
       "explanation": "正確！坐速度很快的遊樂設施讓人感到刺激。",
       "optionExplanations": [
         "thrill 是一種感覺，不是可以穿的衣服。",
         "正確！坐速度很快的遊樂設施讓人感到刺激。",
-        "thrill 不是食物的材料。",
+        "a thrill 指興奮的感覺，無法表示卡內的錢。",
         "thrill 不表示搬椅子，應說 moved a chair。"
       ]
     },
@@ -457,15 +457,15 @@
       "options": [
         "Roll the dice and see what number you get.",
         "I roll the dice to wash my face.",
-        "She rolls the dice into her shoes to make them clean.",
-        "We rolled the dice because the cake was too sweet."
+        "She rolls the dice into her hair to make it shorter.",
+        "We rolled the dice to make the lift doors open."
       ],
       "explanation": "正確！表示擲骰子並看出現什麼數字。",
       "optionExplanations": [
         "正確！表示擲骰子並看出現什麼數字。",
         "擲骰子不是洗臉的方法。",
-        "擲骰子不能讓鞋子變乾淨。",
-        "骰子與蛋糕太甜沒有合理關係。"
+        "擲骰子無法表示剪短頭髮。",
+        "一般電梯要按鍵，roll the dice 無法代替這個動作。"
       ]
     },
     {
@@ -476,15 +476,15 @@
       "prompt": "哪一句正確使用「hold on to」？",
       "meaning": "抓緊；保留；不放棄",
       "options": [
-        "Please hold on to the bus with your breakfast.",
-        "I hold on to my dinner by eating it fast.",
+        "Please hold on to yesterday with your bus ticket.",
+        "I hold on to my money by spending all of it.",
         "She holds on to happy memories from school.",
         "He held on to the music with his ears to make it louder."
       ],
       "explanation": "正確！表示她一直珍惜、保留學校的快樂回憶。",
       "optionExplanations": [
-        "這句把公車當成可抓住的物品，意思不自然；應說 hold on to the handrail。",
-        "吃快一點不是「抓緊／保留」晚餐的意思。",
+        "這句把時間當成可拿住的物件，缺少合理語境。",
+        "把錢全部花掉與保留金錢的意思相反。",
         "正確！表示她一直珍惜、保留學校的快樂回憶。",
         "hold on to 不表示用耳朵把音樂變大聲。"
       ]

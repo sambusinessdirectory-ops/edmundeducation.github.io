@@ -315,7 +315,7 @@
       "usage": "談以前常做、但現在不再做的事情。",
       "prompt": "哪一句正確使用了「Used to」？",
       "options": [
-        "I used to eating pizza every Friday.",
+        "I used to visiting art shows every Friday.",
         "I used to ride my bike to school, but now I take the bus.",
         "I used to go to school tomorrow.",
         "She used to is my teacher."
@@ -323,7 +323,7 @@
       "answer": 1,
       "explanation": "正確：以前騎車上學，現在改搭公車。",
       "optionExplanations": [
-        "錯誤：used to 後面要接原形動詞 eat，不能接 eating。",
+        "used to 後用原形 visit，不能接 visiting。",
         "正確：以前騎車上學，現在改搭公車。",
         "錯誤：used to 談過去，不能搭配 tomorrow 說未來的安排。",
         "錯誤：used to 後面要接 be，不能接 is。"
@@ -337,16 +337,16 @@
       "prompt": "哪一句正確使用了「Rule」？",
       "options": [
         "The queen rules the country.",
-        "I rule a sandwich for lunch.",
-        "He rules his shoes before bed.",
+        "I rule to the small country.",
+        "He rules the island yesterday.",
         "We rule at the bus every morning."
       ],
       "answer": 0,
       "explanation": "正確：女王統治這個國家。",
       "optionExplanations": [
         "正確：女王統治這個國家。",
-        "錯誤：rule 不表示吃東西，應說 eat a sandwich。",
-        "錯誤：rule 不表示脫鞋，應說 takes off his shoes。",
+        "rule 表示統治時直接接國家，不加 to。",
+        "過去事件須用 ruled。",
         "錯誤：rule 不能表示等公車，應說 wait for the bus。"
       ]
     },
@@ -358,7 +358,7 @@
       "prompt": "哪一句正確使用了「Give the word」？",
       "options": [
         "When the coach gives the word, we start running.",
-        "The cake gave the word and went into the oven.",
+        "The coach give the word yesterday.",
         "I give the word my book to Anna.",
         "She gives the word in her bag with her keys."
       ],
@@ -366,7 +366,7 @@
       "explanation": "正確：教練一下令，大家就開始跑。",
       "optionExplanations": [
         "正確：教練一下令，大家就開始跑。",
-        "錯誤：蛋糕不會發出命令；這個片語通常用於有決定權的人。",
+        "過去事件須用 gave the word。",
         "錯誤：若是把書交給 Anna，應說 give my book to Anna。",
         "錯誤：give the word 不是把「字」放進包包。"
       ]
@@ -378,17 +378,17 @@
       "usage": "玩桌遊時，或在不知道結果的情況下決定試一試。",
       "prompt": "哪一句正確使用了「Roll the dice」？",
       "options": [
-        "I rolled the dice with a spoon to eat soup.",
-        "My cat rolled the dice because it wanted milk.",
-        "We rolled the dice into our homework to finish it.",
+        "I rolled the dice to chose who starts.",
+        "My cousin roll the dice yesterday.",
+        "We rolled to the dice before the game.",
         "Let’s roll the dice and see who goes first."
       ],
       "answer": 3,
       "explanation": "正確：用擲骰子決定誰先開始。",
       "optionExplanations": [
-        "錯誤：這個片語不表示用湯匙喝湯。",
-        "錯誤：想喝牛奶和擲骰子沒有自然關係。",
-        "錯誤：不能用 roll the dice 表示完成作業。",
+        "to 後用 choose，不能接 chose。",
+        "過去事件須用 rolled。",
+        "roll the dice 直接接 dice，不加 to。",
         "正確：用擲骰子決定誰先開始。"
       ]
     },
@@ -401,16 +401,16 @@
       "options": [
         "I drank a crowd of water after running.",
         "A big crowd waited outside the shop.",
-        "She put a crowd on her feet before school.",
-        "The crowd is one small apple in my bag."
+        "She crowd to the concert yesterday.",
+        "A crowd are one person waiting alone."
       ],
       "answer": 1,
       "explanation": "正確：很多人在商店外面等。",
       "optionExplanations": [
         "錯誤：crowd 是人群，不是水的量。",
         "正確：很多人在商店外面等。",
-        "錯誤：穿在腳上的是 shoes，不是 crowd。",
-        "錯誤：crowd 指一群人，不能指一顆蘋果。"
+        "此處需要描述人群的完整結構，不能用 crowd to 表示前往演唱會。",
+        "crowd 指一群人，與 one person waiting alone 的意思衝突。"
       ]
     },
     {
@@ -420,17 +420,17 @@
       "usage": "表示某人或某件事對成功或解決問題非常重要；也可指真的拿著鑰匙。",
       "prompt": "哪一句正確使用了「Hold the key」？",
       "options": [
-        "I hold the key with my breakfast every day.",
-        "The chair holds the key because it is blue.",
-        "Good practice may hold the key to passing the test.",
+        "Practice holds the key to passed the test.",
+        "Good sleep hold the key to feeling better.",
+        "Practice holds the key to winning this game.",
         "She hold the key to be very tall yesterday."
       ],
       "answer": 2,
-      "explanation": "正確：好好練習可能是通過考試的關鍵。",
+      "explanation": "hold the key to 指掌握達成某事的關鍵。",
       "optionExplanations": [
-        "錯誤：早餐不會自然地和「掌握關鍵」搭配。",
-        "錯誤：椅子的顏色不是解決問題的關鍵。",
-        "正確：好好練習可能是通過考試的關鍵。",
+        "to 在此是介詞，後接 passing，不能用 passed。",
+        "單數主詞 good sleep 配 holds。",
+        "hold the key to 指掌握達成某事的關鍵。",
         "錯誤：主詞和動詞不一致，句子意思也不自然。"
       ]
     },
@@ -441,7 +441,7 @@
       "usage": "找到新地方，或知道以前不知道的事情時。",
       "prompt": "哪一句正確使用了「Discover」？",
       "options": [
-        "I discover my shoes onto my feet every morning.",
+        "I discover to a quiet beach on our trip.",
         "We discovered a small café near our school.",
         "He discovered to dinner at seven.",
         "She discovers the door closed with a pencil."
@@ -449,7 +449,7 @@
       "answer": 1,
       "explanation": "正確：我們發現學校附近有一間小咖啡館。",
       "optionExplanations": [
-        "錯誤：穿鞋要用 put on，不是 discover。",
+        "discover 直接接發現的事物，不加 to。",
         "正確：我們發現學校附近有一間小咖啡館。",
         "錯誤：discover 不能表示去吃晚餐。",
         "錯誤：discover 不是把門關起來的動作。"
@@ -463,7 +463,7 @@
       "prompt": "哪一句正確使用了「For some reason」？",
       "options": [
         "For some reason, my phone stopped working.",
-        "I ate for some reason two sandwiches.",
+        "For some reason, my uncle forget his name yesterday.",
         "She bought for some reason in the market.",
         "For some reason is my new pencil."
       ],
@@ -471,7 +471,7 @@
       "explanation": "正確：手機不知為什麼突然不能用了。",
       "optionExplanations": [
         "正確：手機不知為什麼突然不能用了。",
-        "錯誤：若要說吃了兩個三明治，不能把片語放在動詞和受詞中間。",
+        "過去事件須用 forgot。",
         "錯誤：bought 後面缺少買的東西；片語不能代替受詞。",
         "錯誤：這個片語不能直接當成「我的新鉛筆」的主詞。"
       ]
@@ -484,7 +484,7 @@
       "prompt": "哪一句正確使用了「Blow down」？",
       "options": [
         "We blow down to the library by bus.",
-        "I blew down my breakfast because I was hungry.",
+        "I blew down to the airport yesterday.",
         "She blows down the song on the radio.",
         "The strong wind blew down an old tree."
       ],
@@ -492,7 +492,7 @@
       "explanation": "正確：強風吹倒了一棵老樹。",
       "optionExplanations": [
         "錯誤：搭公車去圖書館要說 go to，不是 blow down。",
-        "錯誤：blow down 不表示吃早餐。",
+        "blow down 指風吹倒某物，不能表示前往機場。",
         "錯誤：不能用 blow down 表示播放或聽歌曲。",
         "正確：強風吹倒了一棵老樹。"
       ]
@@ -505,7 +505,7 @@
       "prompt": "哪一句正確使用了「Honest」？",
       "options": [
         "I put an honest on my head when it rains.",
-        "My sandwich is honest because it has cheese.",
+        "My cousin honest about the broken camera.",
         "Please be honest with me about what happened.",
         "He honest the window before leaving."
       ],
@@ -513,7 +513,7 @@
       "explanation": "正確：請誠實告訴我發生了什麼事。",
       "optionExplanations": [
         "錯誤：honest 是形容詞，不是可以戴在頭上的東西。",
-        "錯誤：三明治不能因為有起司就變得誠實。",
+        "honest 是形容詞，前面需要 was 等動詞。",
         "正確：請誠實告訴我發生了什麼事。",
         "錯誤：honest 不是動詞，不能表示關窗。"
       ]

@@ -225,7 +225,7 @@
       "options": [
         "I put my anyway under the bed.",
         "It is raining, but I will go to school anyway.",
-        "My cat is very anyway today.",
+        "My cousin is very anyway about the trip.",
         "She bought three anyways at the shop."
       ],
       "answer": 1,
@@ -233,7 +233,7 @@
       "optionExplanations": [
         "錯誤：anyway 不是可以放在床下的物品。",
         "正確：雖然下雨，還是要去上學。",
-        "錯誤：anyway 不是描述貓的形容詞。",
+        "anyway 是副詞，不能當作情緒形容詞。",
         "錯誤：anyway 不是可以計數購買的東西。"
       ]
     },
@@ -245,7 +245,7 @@
       "prompt": "哪一句正確使用了「Shy away from」？",
       "options": [
         "He shies away from speaking in front of the class.",
-        "I shy away from my sandwich because it is delicious.",
+        "I shy away to speaking in public.",
         "She shies away her bike to school.",
         "We shied away the window to get fresh air."
       ],
@@ -253,7 +253,7 @@
       "explanation": "正確：他因緊張而不敢在全班面前說話。",
       "optionExplanations": [
         "正確：他因緊張而不敢在全班面前說話。",
-        "錯誤：因為三明治好吃而避開它，理由不符合一般用法。",
+        "shy away from 後可接 speaking，不能用 to。",
         "錯誤：不能用 shy away 直接表示騎腳踏車。",
         "錯誤：shy away 不是打開窗戶的意思。"
       ]
@@ -265,17 +265,17 @@
       "usage": "在比賽、遊戲或挑戰中，願意和某人競爭時使用；歌曲中 take me on 也帶有「接受我」的意思。",
       "prompt": "哪一句正確使用了「Take someone on」？",
       "options": [
-        "I took on my shoes before running.",
+        "I took on to the other player in the final.",
         "He takes on the lights before bed.",
-        "She took on a cake and ate it.",
+        "She took on the champion to played tennis.",
         "Our team will take on the best team tomorrow."
       ],
       "answer": 3,
       "explanation": "正確：我們的隊伍明天要挑戰最強的隊伍。",
       "optionExplanations": [
-        "錯誤：穿上鞋子要說 put on my shoes。",
+        "take someone on 直接接對手，不加 to。",
         "錯誤：開關燈要用 turn on 或 turn off。",
-        "錯誤：take on 不表示拿起蛋糕來吃。",
+        "to 後用 play，不能接 played。",
         "正確：我們的隊伍明天要挑戰最強的隊伍。"
       ]
     },
@@ -287,16 +287,16 @@
       "prompt": "哪一句正確使用了「Be gone」？",
       "options": [
         "My bag is be gone on the chair.",
-        "When I came back, the cake was gone!",
-        "I am gone my dinner now.",
+        "My seat was gone. Grandpa was enjoying the view.",
+        "I am gone my suitcase at the airport.",
         "She gone to happy yesterday."
       ],
       "answer": 1,
-      "explanation": "正確：我回來時蛋糕已經不見了。",
+      "explanation": "be gone 表示已經沒有或不見了。",
       "optionExplanations": [
         "錯誤：is be gone 不能這樣連用。",
-        "正確：我回來時蛋糕已經不見了。",
-        "錯誤：gone 不表示正在吃晚餐。",
+        "be gone 表示已經沒有或不見了。",
+        "be gone 描述離開或不見，不能直接接 suitcase 作受詞。",
         "錯誤：句子結構不對，gone 不能這樣接 happy。"
       ]
     },
@@ -307,16 +307,16 @@
       "usage": "當你不確定是一天還是兩天，想表示短時間時使用。",
       "prompt": "哪一句正確使用了「A day or two」？",
       "options": [
-        "I have a day or two apples in my bag.",
-        "This pizza is a day or two hungry.",
+        "I will return in a day or two yesterday.",
+        "She a day or two at the art show.",
         "I will call you in a day or two.",
         "She runs a day or two blue."
       ],
       "answer": 2,
       "explanation": "正確：我會在一兩天後打給你。",
       "optionExplanations": [
-        "錯誤：a day or two 表示時間，不表示蘋果數量。",
-        "錯誤：這個片語不能形容披薩很餓。",
+        "will return 是未來，與 yesterday 不配合。",
+        "a day or two 是時間名詞片語，句子缺少動詞。",
         "正確：我會在一兩天後打給你。",
         "錯誤：不能用這個片語表示顏色。"
       ]
@@ -329,17 +329,17 @@
       "prompt": "哪一句正確使用了「Needless to say」？",
       "options": [
         "Needless to say, everyone was happy when we won.",
-        "I needless to say my homework every night.",
-        "She bought a needless to say for her dog.",
-        "The soup is needless to say hotly."
+        "I needless to say my first job.",
+        "Needless to say, we was happy to win.",
+        "Needless to say to everyone cheered."
       ],
       "answer": 0,
       "explanation": "正確：贏了比賽，大家開心是很自然的事。",
       "optionExplanations": [
         "正確：贏了比賽，大家開心是很自然的事。",
-        "錯誤：這不是表示「寫功課」的動詞。",
-        "錯誤：這個片語不是可以購買的物品。",
-        "錯誤：不能用這個片語當成描述湯的形容詞。"
+        "needless to say 是插入語，不能當作主要動詞。",
+        "主詞 we 配 were，不能用 was。",
+        "needless to say 後接完整子句，不加 to。"
       ]
     },
     {
@@ -349,17 +349,17 @@
       "usage": "整理房間或抽屜時，可以用來說各種小雜物。",
       "prompt": "哪一句正確使用了「Odds and ends」？",
       "options": [
-        "I ate odds and ends for breakfast because they were eggs.",
+        "I odds and ends my desk before the meeting.",
         "She is odds and ends at seven years old.",
-        "There are pens, keys, and other odds and ends in this box.",
+        "This box holds keys, stamps and other odds and ends.",
         "We odds and ends to the park every Sunday."
       ],
       "answer": 2,
-      "explanation": "正確：盒子裡有筆、鑰匙等零碎物品。",
+      "explanation": "odds and ends 指各種零碎的小物品。",
       "optionExplanations": [
-        "錯誤：若直接指雞蛋，就不自然地稱為雜物。",
+        "odds and ends 是零碎物品的名詞，不能當作整理的動詞。",
         "錯誤：不能用這個片語表示年齡。",
-        "正確：盒子裡有筆、鑰匙等零碎物品。",
+        "odds and ends 指各種零碎的小物品。",
         "錯誤：這個片語不是「去公園」的動詞。"
       ]
     },
@@ -370,7 +370,7 @@
       "usage": "走路時腳沒踩穩、差點跌倒時使用。",
       "prompt": "哪一句正確使用了「Stumble」？",
       "options": [
-        "I stumbled my lunch at twelve.",
+        "I stumbled to my suitcase with a pen.",
         "I stumbled over a toy on the floor.",
         "This book is very stumble.",
         "She stumbled the door to open it."
@@ -378,7 +378,7 @@
       "answer": 1,
       "explanation": "正確：我被地上的玩具絆了一下。",
       "optionExplanations": [
-        "錯誤：stumble 不是吃午餐的意思。",
+        "stumble 指絆倒或踉蹌，不能用此句表達處理行李。",
         "正確：我被地上的玩具絆了一下。",
         "錯誤：stumble 在這裡不能當描述書本的形容詞。",
         "錯誤：stumble 不表示打開門。"
@@ -393,7 +393,7 @@
       "options": [
         "I put safe than sorry in my school bag.",
         "My brother is safe than sorry tall.",
-        "I safe than sorry my homework.",
+        "I safe than sorry my travel insurance.",
         "Take an umbrella. Better safe than sorry!"
       ],
       "answer": 3,
@@ -401,7 +401,7 @@
       "optionExplanations": [
         "錯誤：這不是能放進書包的東西。",
         "錯誤：這不是比較身高的方式。",
-        "錯誤：這個片語不能當動詞。",
+        "safe than sorry 不是動詞，不能直接接 insurance。",
         "正確：帶把傘比較保險，以免後悔。"
       ]
     },
@@ -413,17 +413,17 @@
       "prompt": "哪一句正確使用了「Worry」？",
       "options": [
         "Don't worry about the test. You studied hard.",
-        "I worry my sandwich with cheese.",
-        "She is a worry blue bicycle.",
-        "We went to worry at the new restaurant."
+        "I worry to my first interview.",
+        "She worry about the bill yesterday.",
+        "We worried about to miss the flight."
       ],
       "answer": 0,
       "explanation": "正確：別擔心考試，你已經很認真準備。",
       "optionExplanations": [
         "正確：別擔心考試，你已經很認真準備。",
-        "錯誤：worry 不是製作三明治的動詞。",
-        "錯誤：不能這樣用 worry 描述腳踏車。",
-        "錯誤：worry 不是吃飯或去餐廳的意思。"
+        "worry about 表示擔心，不能用 worry to。",
+        "過去事件須用 worried。",
+        "about 後用 missing，不能接 to miss。"
       ]
     }
   ],

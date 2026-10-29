@@ -2700,18 +2700,18 @@
       "usage": "當某人做錯事，或造成不好的結果時使用。",
       "prompt": "哪一句正確使用了「Be to blame」？",
       "options": [
-        "My bike is to blame because it is blue.",
-        "I am to blame my dinner at six.",
-        "She is to blame for winning the game fairly.",
-        "The cat is to blame for the broken cup because it pushed the cup off the table."
+        "My cousin is to blame to the broken radio.",
+        "I am to blame my missed flight.",
+        "She to blame for the lost money.",
+        "I am to blame. I gave the band our address."
       ],
       "answer": 3,
-      "explanation": "正確：貓把杯子推下桌，所以要為打破杯子負責。",
+      "explanation": "be to blame 表示應負責，這裡樂隊找到家門的原因是自己提供地址。",
       "optionExplanations": [
-        "錯誤：藍色不是做錯事或造成壞結果的原因。",
-        "錯誤：be to blame 不是「吃晚餐」；應說 I eat dinner at six。",
-        "錯誤：公平贏得比賽通常不是需要責怪的事。",
-        "正確：貓把杯子推下桌，所以要為打破杯子負責。"
+        "be to blame 後接原因用 for，不能用 to。",
+        "be to blame 後要加 for，再接原因。",
+        "be to blame 需要 be 動詞，這裡缺少 is。",
+        "be to blame 表示應負責，這裡樂隊找到家門的原因是自己提供地址。"
       ]
     },
     {
@@ -2721,17 +2721,17 @@
       "usage": "當某人的不好行為讓一個團體、活動或事物被人看壞時使用。",
       "prompt": "哪一句正確使用了「Give something a bad name」？",
       "options": [
-        "I gave my dog a bad name because I called him Potato.",
-        "We give our shoes a bad name when we wash them.",
-        "She gave the cake a bad name by writing Happy Birthday on it.",
+        "I gave to the club a bad name by cheating.",
+        "We give our club a bad name to won fairly.",
+        "She gave the show a bad name to arrived early.",
         "One rude driver can give all bus drivers a bad name."
       ],
       "answer": 3,
       "explanation": "正確：一名不禮貌的司機可能讓大家對其他公車司機也有壞印象。",
       "optionExplanations": [
-        "錯誤：幫狗取搞笑名字不是這個片語的意思。",
-        "錯誤：洗鞋子並不是讓某件事名聲變差。",
-        "錯誤：在蛋糕上寫字不是破壞名聲。",
+        "give something a bad name 直接接 club，不在前面加 to。",
+        "to won 的形式錯誤；公平獲勝也沒有表達損害名聲的原因。",
+        "to arrived 的形式錯誤，提早到場也不等於損害節目名聲。",
         "正確：一名不禮貌的司機可能讓大家對其他公車司機也有壞印象。"
       ]
     },
@@ -2743,17 +2743,17 @@
       "prompt": "哪一句正確使用了「Promise someone something」？",
       "options": [
         "I promised my mother a phone call, so I called her tonight.",
-        "He promised his shoes very slowly.",
-        "I promised my sandwich to sing a song.",
-        "We promised the rain a new school bag."
+        "He promised to his cousin a visit.",
+        "I promised my friend to called tonight.",
+        "We promised our parents to visiting soon."
       ],
       "answer": 0,
       "explanation": "正確：答應媽媽打電話，後來真的打了。",
       "optionExplanations": [
         "正確：答應媽媽打電話，後來真的打了。",
-        "錯誤：promise 不能直接表示「慢慢穿鞋」。",
-        "錯誤：三明治不能接受唱歌的承諾。",
-        "錯誤：雨不是可以接受書包的對象。"
+        "promise someone something 直接接人，不在 cousin 前加 to。",
+        "to 後用 call，不能接 called。",
+        "to 後用 visit，不能接 visiting。"
       ]
     },
     {
@@ -2764,17 +2764,17 @@
       "prompt": "哪一句正確使用了「Put someone through hell」？",
       "options": [
         "His cruel words put her through hell for many months.",
-        "The happy song put us through hell because we danced once.",
-        "My friend put me through hell by giving me a birthday card.",
-        "I put my pencil through hell to write my name."
+        "The delay put us through hell to missed our flight.",
+        "My boss put me through hell to working every night.",
+        "I put to my cousin through hell."
       ],
       "answer": 0,
       "explanation": "正確：傷人的話讓她痛苦了好幾個月。",
       "optionExplanations": [
         "正確：傷人的話讓她痛苦了好幾個月。",
-        "錯誤：跳一次舞不代表受盡折磨。",
-        "錯誤：收到生日卡片通常是好事，沒有受到折磨。",
-        "錯誤：這個片語用來形容人受苦，不是寫字。"
+        "to missed 的連接錯誤；可用 after we missed our flight。",
+        "to working 的連接錯誤；可用 by making me work every night。",
+        "put someone through hell 直接接人，不加 to。"
       ]
     },
     {
@@ -2784,18 +2784,18 @@
       "usage": "當某種情緒、習慣或事物讓人很難擺脫時使用。",
       "prompt": "哪一句正確使用了「Get a hold on someone」？",
       "options": [
-        "The chair got a hold on Friday at noon.",
-        "This game has got a hold on me; I play it every night and cannot stop.",
-        "I got a hold on my breakfast with a spoon.",
-        "My socks got a hold on the sky yesterday."
+        "The game got a hold to me.",
+        "This game has got a hold on me; I can't stop.",
+        "I got a hold on very excited about the film.",
+        "The music get a hold on me yesterday."
       ],
       "answer": 1,
-      "explanation": "正確：這個遊戲對我影響很強，讓我很難停止。",
+      "explanation": "get a hold on someone 在此指對某人有強大的吸引或控制力。",
       "optionExplanations": [
-        "錯誤：椅子不會控制星期五。",
-        "正確：這個遊戲對我影響很強，讓我很難停止。",
-        "錯誤：用湯匙吃早餐不是這個比喻用法。",
-        "錯誤：襪子不能控制天空。"
+        "get a hold on someone 的介詞是 on，不能換成 to。",
+        "get a hold on someone 在此指對某人有強大的吸引或控制力。",
+        "on 後需要對象，不能接 very excited。",
+        "過去事件須用 got。"
       ]
     },
     {
@@ -2805,16 +2805,16 @@
       "usage": "當人或動物從限制、困境或控制中成功離開時使用。",
       "prompt": "哪一句正確使用了「Break free」？",
       "options": [
-        "I break free my homework with a red pen.",
-        "She broke free a cake for her birthday.",
+        "I broke free to the long meeting.",
+        "She broke free from to the old rules.",
         "The bird broke free from the box and flew away.",
         "They broke free the bus ticket to go home."
       ],
       "answer": 2,
       "explanation": "正確：鳥從盒子裡逃了出來。",
       "optionExplanations": [
-        "錯誤：break free 不是寫作業，這裡的動詞搭配不對。",
-        "錯誤：做蛋糕不能用 break free。",
+        "break free 表示擺脫時可接 from，不能用 to。",
+        "from 後直接接 the old rules，不加 to。",
         "正確：鳥從盒子裡逃了出來。",
         "錯誤：買車票或使用車票不是「掙脫」。"
       ]
@@ -2826,18 +2826,18 @@
       "usage": "當人遇到麻煩或危險，找不到安全地方離開時使用，也可作比喻。",
       "prompt": "哪一句正確使用了「Nowhere to run」？",
       "options": [
-        "I have nowhere to run because my new shoes are yellow.",
+        "I nowhere to run when the door closed.",
         "The little mouse had nowhere to run when the door was closed.",
-        "She has nowhere to run because she can take any bus home.",
-        "There is nowhere to run my sandwich at school."
+        "She has nowhere to run to escaped the crowd.",
+        "There is nowhere to runned."
       ],
       "answer": 1,
       "explanation": "正確：門關上後，老鼠找不到逃走的地方。",
       "optionExplanations": [
-        "錯誤：鞋子的顏色不表示無處可逃。",
+        "nowhere to run 是名詞片語，前面需要 had 等動詞。",
         "正確：門關上後，老鼠找不到逃走的地方。",
-        "錯誤：能搭任何公車回家，並非無處可逃。",
-        "錯誤：nowhere to run 不能用來表示吃三明治。"
+        "to 後用 escape，不能接 escaped。",
+        "to 後用原形 run；runned 也不是 run 的正確過去式。"
       ]
     },
     {
@@ -2848,17 +2848,17 @@
       "prompt": "哪一句正確使用了「The damage is done」？",
       "options": [
         "The damage is done: I broke the window, and I cannot change what happened.",
-        "The damage is done because I might buy a red hat next year.",
-        "The damage is done every time I drink clean water.",
-        "The damage is done so I will start the race tomorrow."
+        "The damage is done to broke the window.",
+        "The damage are done after the storm.",
+        "The damage is done yesterday tomorrow."
       ],
       "answer": 0,
       "explanation": "正確：窗戶已經被打破，事情發生了。",
       "optionExplanations": [
         "正確：窗戶已經被打破，事情發生了。",
-        "錯誤：尚未發生的買帽子計畫不是已造成的傷害。",
-        "錯誤：喝乾淨的水通常不是造成傷害。",
-        "錯誤：準備明天比賽並不表示傷害已發生。"
+        "to broke 的形式錯誤，句子未清楚連接已發生的損害。",
+        "damage 在此不可數，配 is，不能用 are。",
+        "同一事件同時配 yesterday 與 tomorrow，時間互相衝突。"
       ]
     },
     {
@@ -2868,18 +2868,18 @@
       "usage": "當一群人一起做事，而每個人負責自己的工作時使用。",
       "prompt": "哪一句正確使用了「Play your part」？",
       "options": [
-        "The rain plays its part by buying a bus ticket.",
+        "The team play its part yesterday.",
         "We can clean the park if everyone plays their part.",
-        "I play my part with a spoon after dinner.",
-        "My shoes play their part when they sleep at night."
+        "I play my part to helped the neighbours.",
+        "My cousin plays his part to organised the party."
       ],
       "answer": 1,
       "explanation": "正確：每個人都做好自己負責的部分，就能清理公園。",
       "optionExplanations": [
-        "錯誤：雨不會買車票，也不是這裡的團隊成員。",
+        "過去事件應用 played。",
         "正確：每個人都做好自己負責的部分，就能清理公園。",
-        "錯誤：用湯匙不是「做好自己的本分」。",
-        "錯誤：鞋子不會睡覺，也無法承擔責任。"
+        "to 後用 help，不能接 helped。",
+        "to 後用 organise，不能接 organised。"
       ]
     },
     {
@@ -2889,18 +2889,18 @@
       "usage": "形容某人說話或行動很害羞；act 也可能表示刻意裝出某種樣子。",
       "prompt": "哪一句正確使用了「Act shy」？",
       "options": [
-        "She acted shy her homework on the desk.",
-        "The clock acted shy and became nine o’clock.",
+        "She acted shy to met the singer.",
+        "He act shy yesterday at the party.",
         "He acted shy at the party and spoke very little.",
-        "I acted shy my lunch with a fork."
+        "I acted shy my new neighbour."
       ],
       "answer": 2,
       "explanation": "正確：他在派對上話很少，表現得害羞。",
       "optionExplanations": [
-        "錯誤：act shy 不能直接表示把作業放桌上。",
-        "錯誤：時鐘顯示九點不是害羞的表現。",
+        "to met 的形式錯誤；可用 when she met the singer。",
+        "過去事件須用 acted。",
         "正確：他在派對上話很少，表現得害羞。",
-        "錯誤：吃午餐不能用 act shy 表達。"
+        "act shy 不及物，不能直接接 my new neighbour。"
       ]
     }
   ],

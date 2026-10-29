@@ -390,17 +390,17 @@
       "prompt": "哪一句正確使用「Nothing but」？",
       "options": [
         "I nothing but to school every day.",
-        "My lunch is nothing but a sandwich today.",
+        "His great plan is nothing but a name.",
         "She is nothing but very quickly.",
-        "We nothing but our homework at night."
+        "We nothing but our bus tickets at the station."
       ],
       "answer": 1,
-      "explanation": "正確：午餐只有一個三明治，nothing but 後面接名詞。",
+      "explanation": "nothing but 表示只有；計劃除了名字還沒有內容。",
       "optionExplanations": [
         "錯誤：nothing but 不能代替 go；應說 I go to school every day。",
-        "正確：午餐只有一個三明治，nothing but 後面接名詞。",
+        "nothing but 表示只有；計劃除了名字還沒有內容。",
         "錯誤：very quickly 是副詞片語，不能直接當這裡的名詞內容。",
-        "錯誤：nothing but 不能當作 do 這個動詞。"
+        "nothing but 不能代替買票的動詞。"
       ]
     },
     {
@@ -412,16 +412,16 @@
       "options": [
         "She has been happy since she got her new bike.",
         "I have lived here since three hours.",
-        "We since eat pizza every Friday.",
-        "My cat has slept since two hours."
+        "We since go to the cinema every Friday.",
+        "The meeting has lasted since two hours."
       ],
       "answer": 0,
       "explanation": "正確：since 後面接過去發生的事情，表示從那時起。",
       "optionExplanations": [
         "正確：since 後面接過去發生的事情，表示從那時起。",
         "錯誤：three hours 是一段時間，應用 for three hours。",
-        "錯誤：since 不能放在這裡當一般動詞。",
-        "錯誤：two hours 是時間長度，應用 for two hours。"
+        "since 不能這樣放在主語與動詞之間。",
+        "two hours 是時長，應用 for two hours。"
       ]
     },
     {
@@ -432,7 +432,7 @@
       "prompt": "哪一句正確使用「Give up」？",
       "options": [
         "Please give up the window; it is cold.",
-        "I give up my soup with a spoon.",
+        "I give up my password into the login box.",
         "The game was hard, but I did not give up.",
         "We give up to the library by bus."
       ],
@@ -440,7 +440,7 @@
       "explanation": "正確：遊戲很難，但我沒有放棄。",
       "optionExplanations": [
         "錯誤：關窗戶應說 close the window，不是 give up。",
-        "錯誤：喝湯應用 eat 或 drink，不能用 give up。",
+        "輸入密碼應用 type；give up 表示放棄。",
         "正確：遊戲很難，但我沒有放棄。",
         "錯誤：搭車去圖書館應說 go to the library。"
       ]
@@ -452,18 +452,18 @@
       "usage": "談事情原本應有的樣子，或覺得兩個人特別適合在一起時使用。",
       "prompt": "哪一句正確使用「Meant to be」？",
       "options": [
-        "This cake is meant to be with a fork yesterday.",
-        "I meant to be my homework at six.",
-        "My shoes are meant to be at seven o’clock.",
-        "These two are so happy together. Maybe they are meant to be."
+        "This ticket is meant to be with a phone yesterday.",
+        "I meant to be my video call at six.",
+        "My tickets are meant to be at ten dollars yesterday.",
+        "They both collect old maps. Perhaps they're meant to be."
       ],
       "answer": 3,
-      "explanation": "正確：形容兩個人似乎天生就很適合在一起。",
+      "explanation": "meant to be 在此表示兩人像是天生一對。",
       "optionExplanations": [
-        "錯誤：時間和句子結構不合；要說吃蛋糕可用 eat。",
-        "錯誤：meant to be 不能代替 do；應說 I meant to do my homework。",
-        "錯誤：只說鞋子在某時間 meant to be，沒有清楚表達用途或狀態。",
-        "正確：形容兩個人似乎天生就很適合在一起。"
+        "這個句子沒有完整表達用途或命定關係，時間搭配也不成立。",
+        "meant to 後面需要動詞；可以說 meant to join。",
+        "票價可說 cost ten dollars；meant to be 無法這樣表示售價。",
+        "meant to be 在此表示兩人像是天生一對。"
       ]
     },
     {
@@ -476,7 +476,7 @@
         "I do not play that game anymore.",
         "I anymore go to bed at ten.",
         "She is anymore my best friend yesterday.",
-        "We anymore a big pizza for lunch."
+        "We anymore a long meeting on Monday."
       ],
       "answer": 0,
       "explanation": "正確：表示以前玩，現在不玩了。",
@@ -484,7 +484,7 @@
         "正確：表示以前玩，現在不玩了。",
         "錯誤：anymore 一般不能像這樣放在主詞與動詞之間。",
         "錯誤：用法和時間都不自然；可說 She is not my best friend anymore。",
-        "錯誤：這句缺少動詞，anymore 也不能代替動詞。"
+        "anymore 是副詞，不能代替開會的動詞。"
       ]
     },
     {
@@ -494,16 +494,16 @@
       "usage": "某個人或一件事經常出現在自己的想法中時使用。",
       "prompt": "哪一句正確使用「On my mind」？",
       "options": [
-        "I put my sandwich on my mind for lunch.",
-        "My exam is on my mind today. I feel worried.",
+        "I put my phone on my mind to charge it.",
+        "That unpaid bill is on my mind again.",
         "She walks on my mind to the shop.",
         "He washed on my mind with soap."
       ],
       "answer": 1,
-      "explanation": "正確：表示今天一直想著考試。",
+      "explanation": "on my mind 表示一直惦記；這裡擔心未付帳單。",
       "optionExplanations": [
-        "錯誤：on my mind 不是頭上的實際位置；三明治不能這樣放。",
-        "正確：表示今天一直想著考試。",
+        "on my mind 表示心裡惦記；充電需要接上電源。",
+        "on my mind 表示一直惦記；這裡擔心未付帳單。",
         "錯誤：on my mind 不是能走路的道路。",
         "錯誤：on my mind 不表示身體部位，也不能這樣搭配 wash。"
       ]
@@ -515,7 +515,7 @@
       "usage": "離開某個地方時，把物品留在原處，或把過去的事情放下。",
       "prompt": "哪一句正確使用「Leave behind」？",
       "options": [
-        "I left behind my breakfast with a knife.",
+        "I left behind my password to make the letters bigger.",
         "She left behind to the bus at eight.",
         "We left behind our song very loudly.",
         "I left my bag behind on the train."
@@ -523,7 +523,7 @@
       "answer": 3,
       "explanation": "正確：表示下車時把包包忘在火車上。",
       "optionExplanations": [
-        "錯誤：這裡不能用 leave behind 表示用刀準備早餐。",
+        "放大文字應調整字體；leave behind 表示遺留或留下。",
         "錯誤：left behind 不能代替 went 或 took the bus。",
         "錯誤：唱得大聲應說 sang our song loudly。",
         "正確：表示下車時把包包忘在火車上。"
@@ -536,18 +536,18 @@
       "usage": "一個笑話、動作或有趣的事讓別人笑出來時使用。",
       "prompt": "哪一句正確使用「Make someone laugh」？",
       "options": [
-        "The teacher made me laugh my homework.",
-        "My dog makes the door laugh at night.",
+        "The teacher made me laugh my train ticket.",
+        "My brother makes the password laugh before logging in.",
         "My little brother makes me laugh with his funny faces.",
-        "I made my sandwich laugh before eating it."
+        "I made my hotel key laugh to open the room."
       ],
       "answer": 2,
       "explanation": "正確：弟弟做鬼臉，逗我笑。",
       "optionExplanations": [
-        "錯誤：laugh 後不能直接接 my homework 表示做功課。",
-        "錯誤：門不會笑；這不是自然的使用對象。",
+        "make me laugh 後面不能直接接 my train ticket。",
+        "密碼沒有笑的能力；make someone laugh 的對象應是人。",
         "正確：弟弟做鬼臉，逗我笑。",
-        "錯誤：三明治不會笑；這個搭配不自然。"
+        "開房門要使用鑰匙；鑰匙不會被逗笑。"
       ]
     },
     {
@@ -557,7 +557,7 @@
       "usage": "請別人看某個東西，或自己簡單查看時使用。",
       "prompt": "哪一句正確使用「Take a look at」？",
       "options": [
-        "I take a look at my lunch with a spoon.",
+        "I take a look to my train ticket before boarding.",
         "Can you take a look at my new drawing?",
         "She takes a look at to school by bike.",
         "We took a look at sleeping at nine."
@@ -565,7 +565,7 @@
       "answer": 1,
       "explanation": "正確：請別人看一下自己的新畫作。",
       "optionExplanations": [
-        "錯誤：這句要表達用湯匙吃午餐，應用 eat，不是 take a look at。",
+        "take a look at 的介詞是 at，不能用 to。",
         "正確：請別人看一下自己的新畫作。",
         "錯誤：take a look at 後面要接查看的東西，不能直接接 to school。",
         "錯誤：想表達九點睡覺，應說 We went to sleep at nine。"
@@ -579,16 +579,16 @@
       "prompt": "哪一句正確使用「Pack up」？",
       "options": [
         "We packed up our clothes before the trip.",
-        "I pack up my homework with a blue song.",
-        "My brother packs up his breakfast by singing it.",
+        "I pack up my video call with a loud song.",
+        "My brother packs up his password by singing it.",
         "She packed up to happy yesterday."
       ],
       "answer": 0,
       "explanation": "正確：出發旅行之前收拾衣服。",
       "optionExplanations": [
         "正確：出發旅行之前收拾衣服。",
-        "錯誤：a blue song 不是合理的打包工具；句意不清。",
-        "錯誤：唱歌不能表示把早餐打包；搭配不自然。",
+        "pack up 表示收拾物品，不能用來結束通話。",
+        "密碼可以更改或記下；pack up 無法表達這些動作。",
         "錯誤：pack up 不能接 to happy 來表示變開心。"
       ]
     }

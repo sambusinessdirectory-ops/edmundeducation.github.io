@@ -237,16 +237,16 @@
       "usage": "當你決定不再做某件事，或不再保留某樣東西時使用。",
       "prompt": "哪一句正確使用了這個字／片語？",
       "options": [
-        "I gave up my homework to the sky.",
-        "I gave up eating candy because my teeth hurt.",
+        "I gave up to playing the drums at midnight.",
+        "I gave up midnight drumming. My neighbours celebrated.",
         "She gives up to the bus every morning.",
         "We gave up the music very loud."
       ],
       "answer": 1,
-      "explanation": "正確。give up 後面可以接 V-ing，表示停止做某件事。",
+      "explanation": "give up doing something 表示停止某項行為。",
       "optionExplanations": [
-        "錯誤。give up 不是把東西往天空丟；這句想說丟出去應用 threw。",
-        "正確。give up 後面可以接 V-ing，表示停止做某件事。",
+        "give up 後接 playing，不能加 to。",
+        "give up doing something 表示停止某項行為。",
         "錯誤。搭公車用 takes the bus，不是 gives up。",
         "錯誤。把音樂調大聲用 turned up，不是 gave up。"
       ]
@@ -258,16 +258,16 @@
       "usage": "知道事情發生了，但不清楚是怎麼做到的時候使用。",
       "prompt": "哪一句正確使用了這個字／片語？",
       "options": [
-        "Somehow, my cat opened the door by itself.",
-        "I somehow my shoes before school.",
+        "Somehow, Grandpa joined the video call twice.",
+        "I somehow my interview before lunch.",
         "She bought a somehow at the shop.",
         "He is a somehow boy with blue hair."
       ],
       "answer": 0,
-      "explanation": "正確。說話的人不知道貓是怎麼開門的。",
+      "explanation": "somehow 表示以某種不清楚的方式；這裡不知道祖父怎樣重複加入通話。",
       "optionExplanations": [
-        "正確。說話的人不知道貓是怎麼開門的。",
-        "錯誤。somehow 是副詞，不能取代動詞 put on。",
+        "somehow 表示以某種不清楚的方式；這裡不知道祖父怎樣重複加入通話。",
+        "somehow 是副詞，不能單獨作動詞。",
         "錯誤。somehow 不是可以購買的物品。",
         "錯誤。somehow 不能直接當形容詞來修飾 boy。"
       ]
@@ -280,17 +280,17 @@
       "prompt": "哪一句正確使用了這個字／片語？",
       "options": [
         "I ate right now yesterday morning.",
-        "We put right now in the fridge.",
-        "This cake tastes very right now.",
-        "I am doing my homework right now."
+        "We right now the concert on our tablet.",
+        "This painting is very right now years old.",
+        "I'm fixing the radio right now. It has other plans."
       ],
       "answer": 3,
-      "explanation": "正確。right now 表示此時此刻正在寫功課。",
+      "explanation": "right now 指現在這一刻；收音機好像不肯合作是輕鬆擬人。",
       "optionExplanations": [
         "錯誤。right now 指現在，不能用來表示昨天早上。",
-        "錯誤。right now 是時間片語，不是可以放進冰箱的東西。",
-        "錯誤。right now 不是形容味道的形容詞。",
-        "正確。right now 表示此時此刻正在寫功課。"
+        "right now 表示現在，不能取代 watch 等主要動詞。",
+        "right now 不能用作年齡數字。",
+        "right now 指現在這一刻；收音機好像不肯合作是輕鬆擬人。"
       ]
     },
     {
@@ -300,16 +300,16 @@
       "usage": "相信某件事未來一定會發生，但不確定什麼時候時使用。",
       "prompt": "哪一句正確使用了這個字／片語？",
       "options": [
-        "Sooner or later, my little brother will learn to swim.",
-        "She put sooner or later in her tea.",
+        "Sooner or later, this rain will stop. I hope.",
+        "She sooner or later her first driving lesson.",
         "I have three sooner or laters in my room.",
         "My bag is sooner or later than yours."
       ],
       "answer": 0,
-      "explanation": "正確。表示弟弟遲早會學會游泳。",
+      "explanation": "sooner or later 表示遲早會發生。",
       "optionExplanations": [
-        "正確。表示弟弟遲早會學會游泳。",
-        "錯誤。這是時間片語，不是茶裡的材料。",
+        "sooner or later 表示遲早會發生。",
+        "sooner or later 是時間片語，不能單獨作動詞。",
         "錯誤。這不是可以數的物品。",
         "錯誤。比較大小應說 bigger 或 smaller。"
       ]
@@ -321,18 +321,18 @@
       "usage": "表示電影、考試、遊戲、活動或一段關係已經結束。",
       "prompt": "哪一句正確使用了這個字／片語？",
       "options": [
-        "I am over my lunch with a spoon.",
+        "I am over to visited the museum.",
         "The game is over, so we can go home.",
         "She over to school at eight.",
-        "My shoes are over because they are red."
+        "The meeting be over yesterday."
       ],
       "answer": 1,
       "explanation": "正確。be over 在這裡表示比賽結束。",
       "optionExplanations": [
-        "錯誤。吃午餐應說 eat my lunch；這裡不能用 be over 表示吃。",
+        "be over 不能接 to visited；此句也沒有表達結束的狀態。",
         "正確。be over 在這裡表示比賽結束。",
         "錯誤。over 不能當作 go 的替代動詞。",
-        "錯誤。紅色鞋子和「結束」沒有關係。"
+        "過去的單數主詞 the meeting 應配 was，不能直接用 be。"
       ]
     },
     {
@@ -342,7 +342,7 @@
       "usage": "想見一個不在身邊的人時使用；miss 也能表示錯過，但這裡教想念。",
       "prompt": "哪一句正確使用了這個字／片語？",
       "options": [
-        "I miss my pizza to the classroom.",
+        "I miss to my sister when she travels.",
         "We miss the chair very blue.",
         "I miss my sister when she is away.",
         "He misses happy every morning."
@@ -350,7 +350,7 @@
       "answer": 2,
       "explanation": "正確。姐姐不在身邊時會想念她。",
       "optionExplanations": [
-        "錯誤。miss 不是把披薩送到教室；應使用 bring 或 take。",
+        "miss someone 直接接人，不加 to。",
         "錯誤。miss 不表示把椅子變成藍色。",
         "正確。姐姐不在身邊時會想念她。",
         "錯誤。表示感到快樂用 feels happy。"
@@ -363,7 +363,7 @@
       "usage": "當你聽懂別人的話、想法或某個問題時使用。",
       "prompt": "哪一句正確使用了這個字／片語？",
       "options": [
-        "I understand my sandwich for lunch.",
+        "I understand to the rules now.",
         "She understands to the park by bus.",
         "I understand the question now.",
         "They understand the window with a ball."
@@ -371,7 +371,7 @@
       "answer": 2,
       "explanation": "正確。表示現在明白題目的意思。",
       "optionExplanations": [
-        "錯誤。understand 不是吃三明治；用 eat。",
+        "understand 直接接 the rules，不加 to。",
         "錯誤。到公園應用 goes to the park。",
         "正確。表示現在明白題目的意思。",
         "錯誤。用球打破窗戶應用 break，不是 understand。"
@@ -384,17 +384,17 @@
       "usage": "表示某樣東西被製造或設計來做某事；有時也用來談命運。",
       "prompt": "哪一句正確使用了這個字／片語？",
       "options": [
-        "I made to be my breakfast at seven.",
+        "I made to be my birthday party at seven.",
         "This chair is made to be used outside.",
-        "My dog made to be a pencil on Monday.",
+        "This jacket made to be worn in heavy rain.",
         "She is made to be at the bus stop yesterday."
       ],
       "answer": 1,
       "explanation": "正確。表示椅子是設計給戶外使用的。",
       "optionExplanations": [
-        "錯誤。這不是說「做早餐」的句型；應用 I made breakfast。",
+        "made to be 不能表示舉辦派對；此句也缺少所需結構。",
         "正確。表示椅子是設計給戶外使用的。",
-        "錯誤。狗不能用這個片語表達變成鉛筆。",
+        "被動式缺少 is；完整形式是 is made to be worn。",
         "錯誤。句型和過去時間不合，也沒有說明用途。"
       ]
     },
@@ -406,17 +406,17 @@
       "prompt": "哪一句正確使用了這個字／片語？",
       "options": [
         "We feel like at seven in the morning.",
-        "I feel like to eat ice cream today.",
+        "I feel like to visit the art show today.",
         "She feels like her bag into the river.",
-        "I feel like eating ice cream today."
+        "I feel like visiting the gallery in my bright yellow hat."
       ],
       "answer": 3,
-      "explanation": "正確。feel like + V-ing 表示現在想做的事。",
+      "explanation": "feel like doing something 表示想做某事。",
       "optionExplanations": [
         "錯誤。這裡缺少感受或想做的事情。",
-        "錯誤。這個意思要接 eating，不能接 to eat。",
+        "feel like 後接 visiting，不能接 to visit。",
         "錯誤。feel like 不能直接代替 throws。",
-        "正確。feel like + V-ing 表示現在想做的事。"
+        "feel like doing something 表示想做某事。"
       ]
     },
     {
@@ -427,16 +427,16 @@
       "prompt": "哪一句正確使用了這個字／片語？",
       "options": [
         "I want my friends to know who I am.",
-        "I put who I am on my bread.",
-        "Who I am are three apples.",
+        "I who I am my new manager yesterday.",
+        "Who I am are the winner of the race.",
         "She walks who I am to school."
       ],
       "answer": 0,
       "explanation": "正確。表示希望朋友了解真正的自己。",
       "optionExplanations": [
         "正確。表示希望朋友了解真正的自己。",
-        "錯誤。who I am 不是可以塗在麵包上的東西。",
-        "錯誤。who I am 不能用來指三顆蘋果。",
+        "who I am 是名詞子句，不能取代句子的主要動詞。",
+        "who I am 作主詞時不能配 are；此句結構不成立。",
         "錯誤。這個片語不是走路的方式或交通工具。"
       ]
     }

@@ -237,17 +237,17 @@
       "usage": "聲音在山谷、大房間或空曠地方傳開，並再次被聽到。",
       "prompt": "哪一句正確使用「echo」？",
       "options": [
-        "I echo my lunch because I am hungry.",
-        "The drum made a loud sound, and we heard it echo in the big room.",
-        "She put an echo on her feet before going out.",
+        "I echo my passport because the guard needs to see it.",
+        "Dad shouted “Hello!” and heard it echo inside the cave.",
+        "She put an echo on her desk to charge her phone.",
         "We echo to school by bus every day."
       ],
       "answer": 1,
-      "explanation": "正確：鼓聲在大房間裡回響，echo 用來表示聲音的回音。",
+      "explanation": "echo 表示聲音迴響；洞內的回音符合用法。",
       "optionExplanations": [
-        "錯誤：echo 不是「吃」，應說 eat my lunch。",
-        "正確：鼓聲在大房間裡回響，echo 用來表示聲音的回音。",
-        "錯誤：echo 不是鞋子，應說 shoes。",
+        "出示護照應用 show；echo 表示聲音迴響。",
+        "echo 表示聲音迴響；洞內的回音符合用法。",
+        "充電需要充電器；echo 指回音。",
         "錯誤：echo 不是「搭車去」，應說 go to school。"
       ]
     },
@@ -259,16 +259,16 @@
       "prompt": "哪一句正確使用「whisper」？",
       "options": [
         "Please whisper because the baby is sleeping.",
-        "My brother whispered his breakfast at seven.",
-        "She whispered her shoes to the door.",
+        "My brother whispered his suitcase onto the train.",
+        "She whispered her phone to make the screen brighter.",
         "The teacher whispered very loudly so the whole school heard."
       ],
       "answer": 0,
       "explanation": "正確：寶寶在睡覺，所以請輕聲說話。",
       "optionExplanations": [
         "正確：寶寶在睡覺，所以請輕聲說話。",
-        "錯誤：whisper 不能表示吃早餐，應說 ate his breakfast。",
-        "錯誤：whisper 不是移動鞋子的動作。",
+        "把行李搬上車應用 carried；whisper 指小聲說話。",
+        "調亮螢幕應用 turn up the brightness；whisper 無法表達操作手機。",
         "錯誤：whisper 是低聲說，與 very loudly 矛盾。"
       ]
     },
@@ -279,18 +279,18 @@
       "usage": "描述從某地到另一地時，途中發生的事。",
       "prompt": "哪一句正確使用「along the way」？",
       "options": [
-        "I put some milk along the way in my coffee.",
+        "I put ten dollars along the way in my bank account.",
         "She is along the way tall and happy.",
-        "We stopped for ice cream along the way to the beach.",
-        "My cat slept along the way of Tuesday."
+        "We found a tiny museum along the way to our hotel.",
+        "My boss was along the way of Friday."
       ],
       "answer": 2,
-      "explanation": "正確：去海邊的路上停下來買冰淇淋。",
+      "explanation": "along the way 表示途中；去酒店途中發現博物館。",
       "optionExplanations": [
-        "錯誤：這裡需要 into my coffee，而不是表示路途的 along the way。",
+        "存錢可說 put money in an account；along the way 表示途中。",
         "錯誤：along the way 不能放在形容身高的地方。",
-        "正確：去海邊的路上停下來買冰淇淋。",
-        "錯誤：along the way 不是用來表示星期幾。"
+        "along the way 表示途中；去酒店途中發現博物館。",
+        "along the way 描述途中，不能接 of Friday。"
       ]
     },
     {
@@ -303,15 +303,15 @@
         "I drink as if a glass of water after school.",
         "My bag is as if under the chair.",
         "He walked as if to the supermarket at six.",
-        "She looked at the cake as if she wanted to eat it all."
+        "He waves as if he knows the star. She is looking at someone else."
       ],
       "answer": 3,
-      "explanation": "正確：她看著蛋糕，好像想把整個吃光。",
+      "explanation": "as if 引出看起來像真的情況；他以為明星在看自己。",
       "optionExplanations": [
         "錯誤：as if 不能代替 drink 後面的受詞。",
         "錯誤：表示位置直接說 My bag is under the chair。",
         "錯誤：單純說去超市不需要 as if，應說 walked to the supermarket。",
-        "正確：她看著蛋糕，好像想把整個吃光。"
+        "as if 引出看起來像真的情況；他以為明星在看自己。"
       ]
     },
     {
@@ -321,18 +321,18 @@
       "usage": "時間不夠、快遲到，或需要別人加快動作時。",
       "prompt": "哪一句正確使用「hurry」？",
       "options": [
-        "I put my hurry in the fridge to keep it cold.",
+        "I put my hurry in the lift and pressed floor three.",
         "Hurry! The bus is leaving in one minute!",
         "He hurried his blue shirt on the chair.",
-        "We ate a hurry for dinner last night."
+        "We booked a hurry for two nights in London."
       ],
       "answer": 1,
       "explanation": "正確：公車快開了，所以要趕快。",
       "optionExplanations": [
-        "錯誤：hurry 在這裡不是可以放進冰箱的食物。",
+        "hurry 不能當作可以放進電梯的物件。",
         "正確：公車快開了，所以要趕快。",
         "錯誤：hurry 不能表示把衣服放在椅子上。",
-        "錯誤：hurry 不是一道料理。"
+        "訂住宿應說 booked a room；hurry 無法作房型名稱。"
       ]
     },
     {
@@ -343,16 +343,16 @@
       "prompt": "哪一句正確使用「take some time」？",
       "options": [
         "Learning a new song can take some time.",
-        "I take some time into my cup and drink it.",
-        "My dog takes some time for a walk with four shoes.",
+        "I take some time into my phone and press send.",
+        "My brother takes some time his train ticket at the gate.",
         "Please take some time the window because it is hot."
       ],
       "answer": 0,
       "explanation": "正確：學會一首新歌可能需要一段時間。",
       "optionExplanations": [
         "正確：學會一首新歌可能需要一段時間。",
-        "錯誤：time 不是能倒進杯子喝的東西。",
-        "錯誤：這裡想說帶狗散步，應說 take my dog for a walk。",
+        "take some time 表示需要一段時間，不能當成可傳送的訊息。",
+        "這裡需要 checks 或 shows；take some time 後面不能直接這樣接車票。",
         "錯誤：take some time 後面不能直接接 the window 來表示開窗。"
       ]
     },
@@ -363,16 +363,16 @@
       "usage": "因為害怕、痛苦、驚訝，或需要幫忙而大聲喊叫時。",
       "prompt": "哪一句正確使用「cry out」？",
       "options": [
-        "I cry out my homework with a pencil.",
-        "She cried out a sandwich for lunch.",
+        "I cry out my bank card to pay for the film.",
+        "She cried out a hotel room for Saturday.",
         "The boy cried out for help when he fell.",
         "They cried out the lights before bed."
       ],
       "answer": 2,
       "explanation": "正確：男孩跌倒時大聲呼救，cry out for help 用法自然。",
       "optionExplanations": [
-        "錯誤：cry out 不是寫作業。",
-        "錯誤：cry out 不是點餐或吃三明治。",
+        "付款用銀行卡應說 use my bank card。",
+        "預訂房間應用 booked；cried out 表示大叫。",
         "正確：男孩跌倒時大聲呼救，cry out for help 用法自然。",
         "錯誤：關燈應說 turned off the lights。"
       ]
@@ -385,16 +385,16 @@
       "prompt": "哪一句正確使用「long for」？",
       "options": [
         "After a month away, I longed for home.",
-        "He longed for his shoes under the table.",
-        "We long for our dinner in the oven at 200 degrees.",
+        "He longed for his phone to make the battery full.",
+        "We long for the lift by pressing floor five.",
         "I long for my pencil with a ruler."
       ],
       "answer": 0,
       "explanation": "正確：離家一個月後，非常想念家。",
       "optionExplanations": [
         "正確：離家一個月後，非常想念家。",
-        "錯誤：如果只是找鞋子，應說 looked for his shoes。",
-        "錯誤：long for 不表示烤食物，應說 cook。",
+        "long for 表示渴望；想念手機不等於替它充電。",
+        "按樓層鍵是在操作電梯；long for 無法表達這個動作。",
         "錯誤：這裡不能用 long for 表示用尺和鉛筆做事。"
       ]
     },
@@ -406,17 +406,17 @@
       "prompt": "哪一句正確使用「do what is right」？",
       "options": [
         "We do what is right our bags on the floor.",
-        "I did what was right with my left shoe because it was blue.",
+        "I did what was right my password, so it had eight letters.",
         "She did what is right to cook the music.",
-        "I found a lost phone and did what was right: I gave it to the teacher."
+        "I returned the extra money. I did what was right."
       ],
       "answer": 3,
-      "explanation": "正確：撿到手機後交給老師，是做正確的事。",
+      "explanation": "do what is right 表示做正確、誠實的事。",
       "optionExplanations": [
         "錯誤：句子缺少必要的動詞連接方式，片語也用得不自然。",
-        "錯誤：what is right 不是指右邊的鞋子，而是「正確的事」。",
+        "do what is right 後面不能直接接 my password；改密碼可用 changed。",
         "錯誤：cook the music 不合語意，也沒有表達正確的選擇。",
-        "正確：撿到手機後交給老師，是做正確的事。"
+        "do what is right 表示做正確、誠實的事。"
       ]
     },
     {
@@ -426,16 +426,16 @@
       "usage": "描述害怕某個人、動物、東西或事情。",
       "prompt": "哪一句正確使用「be frightened of」？",
       "options": [
-        "I am frightened of quickly my lunch.",
-        "The little boy is frightened of big dogs.",
+        "I am frightened of quickly my job interview.",
+        "Ben is frightened of lifts. He takes the stairs and calls it exercise.",
         "I am frightened of to go the school.",
         "He frightened of his bike yesterday."
       ],
       "answer": 1,
-      "explanation": "正確：小男孩害怕大狗，be frightened of 後面接害怕的對象。",
+      "explanation": "be frightened of 表示害怕；Ben 用運動來解釋走樓梯。",
       "optionExplanations": [
-        "錯誤：of 後不能這樣接副詞和名詞；應說 I am frightened of ... 加上害怕的對象。",
-        "正確：小男孩害怕大狗，be frightened of 後面接害怕的對象。",
+        "of 後面要接名詞或動名詞；quickly 放在這裡不成立。",
+        "be frightened of 表示害怕；Ben 用運動來解釋走樓梯。",
         "錯誤：of 後不能直接接 to go；可說 frightened of going to school。",
         "錯誤：缺少 be 動詞，應說 He was frightened of his bike。"
       ]

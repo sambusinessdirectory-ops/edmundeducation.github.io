@@ -229,7 +229,7 @@
       "prompt": "哪一句正確使用了「With or without」？",
       "options": [
         "I will go to the park with or without my brother.",
-        "I with or without my homework at night.",
+        "I with or without my cousin to the concert.",
         "She is with or without very hungry today.",
         "We ate with or without yesterday at six."
       ],
@@ -237,7 +237,7 @@
       "explanation": "不管哥哥來不來，我都會去公園，兩種情況都可以。",
       "optionExplanations": [
         "不管哥哥來不來，我都會去公園，兩種情況都可以。",
-        "片語不能直接當「做功課」的動詞；可以說 I do my homework at night.",
+        "with or without 是介詞片語，句子缺少主要動詞。",
         "不能接在 very hungry 前面表示「非常」；可以說 She is very hungry.",
         "yesterday 是時間，這裡不能用 with or without 表達吃飯時間。"
       ]
@@ -249,7 +249,7 @@
       "usage": "等人、車或事情時使用；wait for 後面接等待的對象。",
       "prompt": "哪一句正確使用了「Wait for」？",
       "options": [
-        "My cat waits for a sandwich to sing.",
+        "I wait for to my neighbour outside.",
         "Please wait for me outside the school.",
         "I wait for happy every Tuesday.",
         "She waits for to the door."
@@ -257,7 +257,7 @@
       "answer": 1,
       "explanation": "wait for me 表示等我，是自然的日常說法。",
       "optionExplanations": [
-        "三明治不會唱歌；這裡等待的事件不合理。",
+        "wait for 後直接接人，不加 to。",
         "wait for me 表示等我，是自然的日常說法。",
         "happy 是形容詞，不能直接當 wait for 的對象；可說 I wait for good news.",
         "wait for 後不能直接接 to the door；可說 She waits by the door."
@@ -270,7 +270,7 @@
       "usage": "說明意想不到的事情改變了人生或計畫。屬於比喻片語。",
       "prompt": "哪一句正確使用了「Twist of fate」？",
       "options": [
-        "I put a twist of fate in my tea.",
+        "I twist of fate my old friend at the airport.",
         "By a twist of fate, we met again in another city.",
         "She wears a twist of fate on her head.",
         "I bought two twists of fate at the shop."
@@ -278,7 +278,7 @@
       "answer": 1,
       "explanation": "在另一個城市意外重逢，很適合用 twist of fate。",
       "optionExplanations": [
-        "twist of fate 不是可以放進茶裡的東西。",
+        "a twist of fate 是名詞片語，不能單獨作動詞。",
         "在另一個城市意外重逢，很適合用 twist of fate。",
         "這不是帽子或衣服，不能用 wear。",
         "它不是商店裡能買到、能數量化的商品。"
@@ -291,16 +291,16 @@
       "usage": "當某人或某事造成別人等待時使用。句型：make + 人 + wait。",
       "prompt": "哪一句正確使用了「Make someone wait」？",
       "options": [
-        "We make hungry wait at lunch.",
-        "I made my shoes wait in the rain.",
+        "We make to our cousin wait outside.",
+        "I made my colleague to wait for me.",
         "She made wait her friend after class.",
         "The bus made me wait for an hour."
       ],
       "answer": 3,
       "explanation": "公車遲遲沒來，讓我等了一小時，語意正確。",
       "optionExplanations": [
-        "hungry 是形容詞，不能放在「人」的位置；可說 We made Tom wait.",
-        "鞋子不會「等待」；可以說 I left my shoes in the rain.",
+        "make someone wait 直接接人，不加 to。",
+        "make someone 後接原形 wait，不加 to。",
         "語序錯誤，應說 She made her friend wait after class.",
         "公車遲遲沒來，讓我等了一小時，語意正確。"
       ]
@@ -312,18 +312,18 @@
       "usage": "從某個空間或困難的情況中穿越、經歷時使用。",
       "prompt": "哪一句正確使用了「Through」？",
       "options": [
-        "I through my breakfast every day.",
-        "My dog is through very small.",
+        "I through the museum yesterday.",
+        "We walked through to the park to get home.",
         "We walked through the park to get home.",
-        "She put through on her new shoes."
+        "She through her old messages last night."
       ],
       "answer": 2,
       "explanation": "表示從公園裡面穿過去，使用正確。",
       "optionExplanations": [
-        "through 不能當吃早餐的動詞；應說 I eat breakfast.",
-        "不能用 through 表示「非常」；應說 My dog is very small.",
+        "through 是介詞，句子缺少 walked 等動詞。",
+        "表示穿過公園用 through the park，不加 to。",
         "表示從公園裡面穿過去，使用正確。",
-        "穿鞋用 put on，不能把 through 放在中間。"
+        "through 不能單獨作翻看訊息的動詞。"
       ]
     },
     {
@@ -335,7 +335,7 @@
       "options": [
         "We reached the beach before lunch.",
         "I reached to the school at eight.",
-        "She reached her soup with a spoon to be happy.",
+        "She reached to the hotel before midnight.",
         "He is very reach after dinner."
       ],
       "answer": 0,
@@ -343,7 +343,7 @@
       "optionExplanations": [
         "reach the beach 表示到達海灘，不需要加 to。",
         "表示抵達學校時，通常說 I reached the school 或 I got to the school。",
-        "這裡若指喝湯，應說 She ate her soup with a spoon，reach 不是「吃」。",
+        "reach 表示到達時直接接地點，不加 to。",
         "reach 不是形容詞，不能放在 very 後形容人。"
       ]
     },
@@ -355,16 +355,16 @@
       "prompt": "哪一句正確使用了「Give it all」？",
       "options": [
         "I gave it all to win the school race.",
-        "She gave it all her blue pencil.",
-        "The table gives it all at seven.",
+        "She gave it all to won the final.",
+        "We gives it all at every rehearsal.",
         "He is give it all very tall."
       ],
       "answer": 0,
       "explanation": "表示為了校內比賽全力以赴。",
       "optionExplanations": [
         "表示為了校內比賽全力以赴。",
-        "若要說把鉛筆給別人，應說 She gave him her blue pencil。",
-        "桌子不會為某件事全力以赴。",
+        "to 後用 win，不能接 won。",
+        "主詞 we 配 give，不能加 s。",
         "句型不通；形容身高應說 He is very tall。"
       ]
     },
@@ -377,15 +377,15 @@
       "options": [
         "She wants more very tired.",
         "My brother wants more to yesterday.",
-        "I want more of this cake, please.",
+        "I want more time on stage. My family wants less.",
         "We want more the bus is red."
       ],
       "answer": 2,
-      "explanation": "已經吃了一些蛋糕，還想再吃一點，使用正確。",
+      "explanation": "want more 表示想要更多，這裡與家人的反應形成對比。",
       "optionExplanations": [
         "want more 不能取代 be 的結構；應說 She is very tired。",
         "yesterday 不能當作這裡想多要的東西。",
-        "已經吃了一些蛋糕，還想再吃一點，使用正確。",
+        "want more 表示想要更多，這裡與家人的反應形成對比。",
         "句子把兩個不相連的想法接在一起，語法不通。"
       ]
     },
@@ -397,16 +397,16 @@
       "prompt": "哪一句正確使用了「My hands are tied」？",
       "options": [
         "I bought my hands are tied at the market.",
-        "My hands are tied, so I can fly like a bird.",
-        "My hands are tied in a cup of tea.",
+        "My hands are tied to changed the rule.",
+        "My hands is tied by the new rules.",
         "I cannot change the rule. My hands are tied."
       ],
       "answer": 3,
       "explanation": "因為規定而無法改變事情，符合這個比喻的意思。",
       "optionExplanations": [
         "它不是可以買到的物品。",
-        "這個片語不是表示會飛；語意不合理。",
-        "不能用這個比喻描述手在茶杯裡。",
+        "to changed 形式錯誤；my hands are tied 表示無法自由行動。",
+        "複數主詞 hands 配 are，不能用 is。",
         "因為規定而無法改變事情，符合這個比喻的意思。"
       ]
     },
@@ -417,18 +417,18 @@
       "usage": "已經失去很多或沒有風險可顧慮，因此決定勇敢嘗試時使用。",
       "prompt": "哪一句正確使用了「Nothing left to lose」？",
       "options": [
-        "I put nothing left to lose in the fridge.",
+        "I nothing left to lose after the failed business.",
         "I have nothing left to lose, so I will try again.",
-        "My cat is nothing left to lose and very orange.",
-        "We ate nothing left to lose for breakfast."
+        "My cousin has nothing left to lose to tried again.",
+        "We has nothing left to lose now."
       ],
       "answer": 1,
       "explanation": "表示自己已經沒有什麼可失去，所以決定再試一次。",
       "optionExplanations": [
-        "這不是食物，不能放進冰箱。",
+        "nothing left to lose 前需要 have，不能單獨作動詞。",
         "表示自己已經沒有什麼可失去，所以決定再試一次。",
-        "片語不能當形容貓顏色的詞。",
-        "這不是早餐名稱，不能當作食物來吃。"
+        "to tried 形式錯誤；可用 so he will try again。",
+        "主詞 we 配 have，不能用 has。"
       ]
     }
   ],

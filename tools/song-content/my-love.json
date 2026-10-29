@@ -419,17 +419,17 @@
       "usage": "當身邊沒有其他人，或覺得自己孤單時可以用。",
       "prompt": "哪一句正確使用「All alone」？",
       "options": [
-        "I ate all alone three apples after lunch.",
-        "I was all alone at home, so I called my friend.",
-        "My shoes are all alone because they are red.",
+        "I all alone at the art show last night.",
+        "I was all alone until Grandma called, again.",
+        "My cousin is all alone to waited outside.",
         "Please all alone the window before you leave."
       ],
       "answer": 1,
-      "explanation": "正確。all alone 表示身邊沒有其他人。",
+      "explanation": "all alone 表示獨自一人。",
       "optionExplanations": [
-        "錯誤。all alone 不能放在數字前表示「全部」；可以說 I ate three apples.",
-        "正確。all alone 表示身邊沒有其他人。",
-        "錯誤。鞋子的顏色與獨自一人無關；這裡應說 My shoes are red.",
+        "all alone 描述獨自一人，句子需要 was 等動詞。",
+        "all alone 表示獨自一人。",
+        "to waited 的形式錯誤；可說 is all alone outside。",
         "錯誤。all alone 不是動詞，不能表示關窗；應說 Please close the window."
       ]
     },
@@ -441,7 +441,7 @@
       "prompt": "哪一句正確使用「I wonder why」？",
       "options": [
         "I wonder why the bus is late today.",
-        "I wonder why my homework with a spoon.",
+        "I wonder why my manager so quiet today.",
         "I wonder why to my school every morning.",
         "She wonder why is the door open."
       ],
@@ -449,7 +449,7 @@
       "explanation": "正確。對公車遲到的原因感到好奇，可以說 I wonder why。",
       "optionExplanations": [
         "正確。對公車遲到的原因感到好奇，可以說 I wonder why。",
-        "錯誤。why 後面需要完整的句子，不能直接接 my homework with a spoon。",
+        "why 後的子句缺少 is；應為 why my manager is so quiet。",
         "錯誤。why 後面不能直接接 to my school；需要完整的子句。",
         "錯誤。主詞 she 要用 wonders，間接問句語序應為 why the door is open。"
       ]
@@ -461,17 +461,17 @@
       "usage": "叫人稍等、抓住某物，或鼓勵別人不要放棄時使用。",
       "prompt": "哪一句正確使用「Hold on」？",
       "options": [
-        "I hold on my homework with a pencil.",
-        "The soup holds on delicious today.",
-        "She holds on at seven every morning.",
+        "I hold on my report into the printer.",
+        "She hold on yesterday while I found the address.",
+        "He holds on to arrived at the station.",
         "Hold on a minute. I need to find my keys."
       ],
       "answer": 3,
       "explanation": "正確。Hold on a minute 表示「等我一下」。",
       "optionExplanations": [
-        "錯誤。hold on 不能表示「做功課」；可以說 I do my homework.",
-        "錯誤。hold on 不能形容食物好吃；可以說 The soup tastes good.",
-        "錯誤。hold on 不能表示起床；應說 She gets up at seven.",
+        "hold on 不能表示列印報告；也不能這樣接 report。",
+        "過去事件應用 held on。",
+        "to arrived 的形式錯誤，句子沒有清楚表達等候或抓緊。",
         "正確。Hold on a minute 表示「等我一下」。"
       ]
     },
@@ -482,18 +482,18 @@
       "usage": "想拿到靠近或稍遠的東西，伸出手去拿時使用。",
       "prompt": "哪一句正確使用「Reach for」？",
       "options": [
-        "I reach for happy when I see my dog.",
+        "I reach for to my camera during the parade.",
         "She reached for her phone on the table.",
         "We reach for to school by bus.",
-        "He reached for the music and ate it."
+        "He reached for very excited about the concert."
       ],
       "answer": 1,
       "explanation": "正確。reached for 表示伸手去拿桌上的手機。",
       "optionExplanations": [
-        "錯誤。reach for 後面通常接想伸手拿的東西，不直接接 happy。",
+        "reach for 後直接接 camera，不加 to。",
         "正確。reached for 表示伸手去拿桌上的手機。",
         "錯誤。reach for 不能表示搭車去學校；應說 We go to school by bus.",
-        "錯誤。music 不是可以拿來吃的物品，句子意思不自然。"
+        "reach for 後接伸手拿的物品，不能接 very excited。"
       ]
     },
     {
@@ -503,17 +503,17 @@
       "usage": "談某個地方、目標或心願似乎離自己很遠時使用。",
       "prompt": "哪一句正確使用「Seem so far」？",
       "options": [
-        "The school seems so far, but it is only a short walk.",
-        "I seem so far my socks every morning.",
-        "This cake seems so far because it tastes sweet.",
+        "The station seems so far when your suitcase has no wheels.",
+        "I seem so far my new office every day.",
+        "The hotel seem so far yesterday.",
         "Please seem so far the door when you leave."
       ],
       "answer": 0,
-      "explanation": "正確。seems so far 表示感覺很遠，即使實際距離不遠。",
+      "explanation": "seem so far 表示感覺距離很遠。",
       "optionExplanations": [
-        "正確。seems so far 表示感覺很遠，即使實際距離不遠。",
-        "錯誤。seem so far 不能表示「穿襪子」。",
-        "錯誤。甜不甜和距離遠近無關；可說 This cake tastes sweet.",
+        "seem so far 表示感覺距離很遠。",
+        "seem so far 不能直接接 my new office 作受詞。",
+        "過去情況應用 seemed；此處 seem 與時間及主詞不配合。",
         "錯誤。seem so far 不是關門的動作；應說 Please close the door."
       ]
     },
@@ -524,16 +524,16 @@
       "usage": "希望某人平安、希望事情順利，或在宗教情境中祈禱時使用。",
       "prompt": "哪一句正確使用「Say a prayer」？",
       "options": [
-        "I say a prayer to wash my car.",
-        "He said a prayer into two pieces of bread.",
+        "I say a prayer to passed my driving test.",
+        "He said a prayer to his sick friend recovered.",
         "She said a prayer for her sick friend.",
         "We say a prayer at five kilometers."
       ],
       "answer": 2,
       "explanation": "正確。為生病的朋友祈禱，是自然的用法。",
       "optionExplanations": [
-        "錯誤。say a prayer 不是洗車的方法；應說 I wash my car.",
-        "錯誤。prayer 不是可以放進麵包裡的東西。",
+        "to passed 的形式錯誤；可說 say a prayer before my driving test。",
+        "後半需要完整連接，例如 that his sick friend would recover。",
         "正確。為生病的朋友祈禱，是自然的用法。",
         "錯誤。at five kilometers 不能自然說明祈禱時間或情境。"
       ]
@@ -546,7 +546,7 @@
       "prompt": "哪一句正確使用「Once again」？",
       "options": [
         "Can you say that once again? I did not hear you.",
-        "This apple is once again and very sweet.",
+        "My aunt once again the same story at the party.",
         "I once again my new bag to the shop.",
         "My brother is six once again years old."
       ],
@@ -554,7 +554,7 @@
       "explanation": "正確。請對方再說一次時，可以用 once again。",
       "optionExplanations": [
         "正確。請對方再說一次時，可以用 once again。",
-        "錯誤。once again 不能表示蘋果的特徵。",
+        "once again 是副詞片語，句子仍需要 told 等動詞。",
         "錯誤。once again 是副詞片語，不能直接當動詞。",
         "錯誤。once again 不能放在數字和 years old 中間。"
       ]
@@ -566,18 +566,18 @@
       "usage": "描述跨越很大的地區、從國家一端到另一端時使用。",
       "prompt": "哪一句正確使用「From coast to coast」？",
       "options": [
-        "My cat ate from coast to coast for breakfast.",
+        "I from coast to coast the country last year.",
         "I walked from coast to coast of my bedroom.",
-        "They traveled from coast to coast across the country.",
-        "She wears from coast to coast on her feet."
+        "They travelled from coast to coast, collecting terrible postcards.",
+        "She travelled from coast to coast to visited every town."
       ],
       "answer": 2,
-      "explanation": "正確。指從國家的一端旅行到另一端。",
+      "explanation": "from coast to coast 指從一邊海岸到另一邊海岸。",
       "optionExplanations": [
-        "錯誤。這個片語表示橫跨地區，不是食物。",
+        "from coast to coast 是地點片語，不能當作主要動詞。",
         "錯誤。臥室沒有「海岸到海岸」，不適合使用這個片語。",
-        "正確。指從國家的一端旅行到另一端。",
-        "錯誤。這個片語不是鞋子或衣物。"
+        "from coast to coast 指從一邊海岸到另一邊海岸。",
+        "to 後須用 visit，不能接 visited。"
       ]
     },
     {
@@ -587,17 +587,17 @@
       "usage": "想控制自己的行為，例如不笑、不吃零食，或不去想某件事時使用；後接動詞 -ing。",
       "prompt": "哪一句正確使用「Keep myself from」？",
       "options": [
-        "I keep myself from to eat all the cake.",
+        "I keep myself from to laugh during the speech.",
         "I tried to keep myself from laughing in class.",
-        "I keep myself from the bus at eight.",
+        "He keeps myself from laughing at the meeting.",
         "She keeps myself from crying."
       ],
       "answer": 1,
       "explanation": "正確。keep myself from laughing 表示忍住不笑。",
       "optionExplanations": [
-        "錯誤。from 後面要接動詞 -ing；應說 from eating。",
+        "from 後接 laughing，不能接 to laugh。",
         "正確。keep myself from laughing 表示忍住不笑。",
-        "錯誤。這裡不能用來表示搭公車；應說 I take the bus at eight.",
+        "主詞是 he，反身代名詞須用 himself。",
         "錯誤。主詞是 she，反身代名詞要用 herself。"
       ]
     },
@@ -608,17 +608,17 @@
       "usage": "說出真心話，或表達真誠的感謝與感情時使用。",
       "prompt": "哪一句正確使用「From the heart」？",
       "options": [
-        "I cooked the rice from the heart of the fridge.",
+        "I from the heart my apology yesterday.",
         "The bus goes from the heart at nine o’clock.",
-        "He put from the heart into his shoes.",
+        "He spoke from the heart to thanked his parents.",
         "Her thank-you message came from the heart."
       ],
       "answer": 3,
       "explanation": "正確。表示她的感謝是真心的。",
       "optionExplanations": [
-        "錯誤。from the heart 不是「冰箱中心」的意思。",
+        "from the heart 表示真誠，不能單獨作道歉的動詞。",
         "錯誤。from the heart 不表示公車站或出發地。",
-        "錯誤。這個片語不是可以放進鞋裡的物品。",
+        "to 後用 thank，不能用 thanked。",
         "正確。表示她的感謝是真心的。"
       ]
     }

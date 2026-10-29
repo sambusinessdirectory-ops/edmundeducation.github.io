@@ -3883,16 +3883,16 @@
       "usage": "當某人遇到麻煩、塞車，或無法輕易離開某種情況時使用。",
       "prompt": "哪一句正確使用了「Be caught in」？",
       "options": [
-        "I am caught in heavy traffic, so I will be late.",
-        "I caught in my breakfast with a spoon.",
+        "We're caught in traffic. Even the walkers are winning.",
+        "I caught in the exam with a black pen.",
         "My brother is caught in very tall today.",
         "We are caught in the music at seven o’clock to play it."
       ],
       "answer": 0,
-      "explanation": "正確：caught in traffic 表示被塞車困住。",
+      "explanation": "be caught in traffic 指困在車龍；行人走得更快是輕鬆比較。",
       "optionExplanations": [
-        "正確：caught in traffic 表示被塞車困住。",
-        "錯誤：吃早餐不能用 caught in；可說 I ate my breakfast with a spoon.",
+        "be caught in traffic 指困在車龍；行人走得更快是輕鬆比較。",
+        "caught in 前面缺少 be；作答可說 did the exam。",
         "錯誤：tall 是身高，不是能陷入的情況；可說 My brother is very tall.",
         "錯誤：這裡要說播放音樂，不是被困在音樂裡；可說 We play music at seven."
       ]
@@ -3904,18 +3904,18 @@
       "usage": "要說明「某件事成立的條件」時使用，後面通常接完整句子。",
       "prompt": "哪一句正確使用了「As long as」？",
       "options": [
-        "As long as my shoes, I can open the door.",
-        "You can use my bike as long as you bring it back today.",
+        "As long as my brother, I can borrow the car.",
+        "Borrow my camera as long as you return it.",
         "As long as hungry, the window is blue.",
-        "I as long as my dog every morning."
+        "I as long as my neighbour every morning."
       ],
       "answer": 1,
-      "explanation": "正確：只要今天把腳踏車還回來，就可以借用。",
+      "explanation": "as long as 表示條件：只要歸還便可借用。",
       "optionExplanations": [
-        "錯誤：as long as 後面缺少完整的條件句；可說 As long as I have my keys, I can open the door.",
-        "正確：只要今天把腳踏車還回來，就可以借用。",
+        "這裡需要完整條件，如 as long as my brother agrees。",
+        "as long as 表示條件：只要歸還便可借用。",
         "錯誤：hungry 前缺少主詞與動詞，而且前後意思不連貫；可說 As long as you are hungry, you can eat here.",
-        "錯誤：as long as 不是動詞，不能這樣放在主詞後；可說 I walk my dog every morning."
+        "as long as 不能代替打招呼的動詞。"
       ]
     },
     {
@@ -3925,17 +3925,17 @@
       "usage": "可以指電視劇、舞臺劇，也能口語描述朋友間的爭執。",
       "prompt": "哪一句正確使用了「Drama」？",
       "options": [
-        "I drank a glass of drama after school.",
+        "I put a drama in my pocket to pay the bus fare.",
         "Please drama the door before you leave.",
-        "My drama is sleeping in the fridge.",
+        "My drama is charging beside the sofa.",
         "There is too much drama between those two friends."
       ],
       "answer": 3,
       "explanation": "正確：drama 可以指朋友間太多爭吵或情緒糾紛。",
       "optionExplanations": [
-        "錯誤：drama 不是飲料；可說 I drank a glass of water.",
+        "drama 指戲劇或情緒化事件，無法當作付車資的錢。",
         "錯誤：drama 不是「關門」的動詞；可說 Please close the door.",
-        "錯誤：drama 不是會在冰箱睡覺的動物或人；可說 My cat is sleeping on the sofa.",
+        "drama 無法表示正在充電的裝置。",
         "正確：drama 可以指朋友間太多爭吵或情緒糾紛。"
       ]
     },
@@ -3946,17 +3946,17 @@
       "usage": "當某人因為受傷害，而想用行動回頭傷害對方時使用；通常帶有負面意思。",
       "prompt": "哪一句正確使用了「Revenge」？",
       "options": [
-        "He wanted revenge after his friend told lies about him.",
-        "I bought three revenges at the fruit shop.",
-        "She put revenge in her tea to make it sweet.",
+        "His revenge was simple: he hid his brother's drumsticks.",
+        "I booked three revenges for the front row.",
+        "She used revenge to make her hair shorter.",
         "I revenge to school by bus every day."
       ],
       "answer": 0,
-      "explanation": "正確：朋友說了他的壞話，他因此想報復。",
+      "explanation": "revenge 指報復；藏起鼓棍是回敬兄弟的小動作。",
       "optionExplanations": [
-        "正確：朋友說了他的壞話，他因此想報復。",
-        "錯誤：revenge 不是水果或可數商品；可說 I bought three apples.",
-        "錯誤：revenge 不是可以加進茶裡的糖；可說 She put sugar in her tea.",
+        "revenge 指報復；藏起鼓棍是回敬兄弟的小動作。",
+        "前排座位要說 three seats；revenge 表示報復。",
+        "剪頭髮需要剪刀；revenge 沒有工具的意思。",
         "錯誤：revenge 在這裡不能代替 go；可說 I go to school by bus."
       ]
     },
@@ -3967,18 +3967,18 @@
       "usage": "談論犯法的人，或形容與犯罪有關的事情時使用。",
       "prompt": "哪一句正確使用了「Criminal」？",
       "options": [
-        "My criminal is a yellow banana on the desk.",
-        "We criminal our homework at night.",
+        "My criminal is a purple button on the screen.",
+        "We criminal our team before the match.",
         "The police caught the criminal after the robbery.",
-        "This soup tastes very criminal and sweet."
+        "This birthday card feels criminal and soft."
       ],
       "answer": 2,
       "explanation": "正確：criminal 在這裡指犯下搶劫罪的人。",
       "optionExplanations": [
-        "錯誤：criminal 指罪犯，不是香蕉；可說 My banana is on the desk.",
-        "錯誤：criminal 不能當作「做功課」的動詞；可說 We do our homework at night.",
+        "criminal 指罪犯；按鈕不能因顏色而被叫作罪犯。",
+        "鼓勵隊伍可用 support；criminal 不能在此作動詞。",
         "正確：criminal 在這裡指犯下搶劫罪的人。",
-        "錯誤：criminal 不是味道形容詞；可說 This soup tastes sweet."
+        "criminal 無法用來描述生日卡的觸感。"
       ]
     },
     {
@@ -3988,18 +3988,18 @@
       "usage": "常用在戀愛告白中，表示希望對方和自己在一起；語氣偏浪漫。",
       "prompt": "哪一句正確使用了「Be mine」？",
       "options": [
-        "My new shoes be mine the bus tomorrow.",
-        "Please be mine the homework before lunch.",
+        "My cousin be mine the train tomorrow.",
+        "Please be mine the report before the meeting.",
         "I like you a lot. Will you be mine?",
-        "The chicken will be mine very loudly at six."
+        "The singer will be mine very loudly at six."
       ],
       "answer": 2,
       "explanation": "正確：這是向喜歡的人表達希望交往的常見說法。",
       "optionExplanations": [
-        "錯誤：be mine 不能表示搭公車；可說 My new shoes are in my bag.",
-        "錯誤：be mine 不能代替 finish；可說 Please finish the homework before lunch.",
+        "be mine 表示屬於我，不能用來說搭火車。",
+        "閱讀報告應用 read；be mine 無法表達這個動作。",
         "正確：這是向喜歡的人表達希望交往的常見說法。",
-        "錯誤：be mine 不能表達「大聲叫」；可說 The chicken will make a loud noise."
+        "要說大聲唱歌，應用 sing；be mine 沒有唱歌的意思。"
       ]
     },
     {
@@ -4010,7 +4010,7 @@
       "prompt": "哪一句正確使用了「Work it」？",
       "options": [
         "I work it my teeth with a blue pencil.",
-        "We work it the pizza at the bus stop.",
+        "We work it the invitation at the wedding.",
         "The rain is work it because Monday is long.",
         "You look great on stage! Work it!"
       ],
@@ -4018,7 +4018,7 @@
       "explanation": "正確：這是在鼓勵表演者自信地展現自己。",
       "optionExplanations": [
         "錯誤：work it 不能表示刷牙；可說 I brush my teeth.",
-        "錯誤：work it 不能代替 eat；可說 We eat pizza at the bus stop.",
+        "work it 在此鼓勵自信表現，不能代替閱讀請帖的動詞。",
         "錯誤：work it 不表示下雨或星期一很長；可說 It is raining today.",
         "正確：這是在鼓勵表演者自信地展現自己。"
       ]
@@ -4031,7 +4031,7 @@
       "prompt": "哪一句正確使用了「Want someone back」？",
       "options": [
         "I miss my old friend, and I want her back in my life.",
-        "I want the weather back into my sandwich.",
+        "I want the weather back into my phone screen.",
         "She want someone back to the moon with a spoon.",
         "My brother wants back the school very blue."
       ],
@@ -4039,7 +4039,7 @@
       "explanation": "正確：表示想念老朋友，希望她重新回到自己的生活。",
       "optionExplanations": [
         "正確：表示想念老朋友，希望她重新回到自己的生活。",
-        "錯誤：weather 不是可放進三明治的東西；可說 I want cheese in my sandwich.",
+        "want someone back 的對象是希望重返生活的人，這裡的結構不合。",
         "錯誤：主詞 she 要接 wants，而且句子意思不自然；可說 She wants her friend to come back.",
         "錯誤：語序和語意都不正確；可說 My brother wants to go back to school."
       ]
@@ -4051,16 +4051,16 @@
       "usage": "表示兩人是朋友，或希望與某人建立友誼時使用。",
       "prompt": "哪一句正確使用了「Be friends」？",
       "options": [
-        "I be friends my breakfast on the table.",
-        "We have been friends since we were six.",
+        "I be friends my new boss on Monday.",
+        "We've been friends since our first terrible dance class.",
         "The chair is be friends very quickly.",
         "She friends be the window in the morning."
       ],
       "answer": 1,
-      "explanation": "正確：have been friends 表示從六歲起一直是朋友。",
+      "explanation": "be friends 表示是朋友；since 說明友誼的起點。",
       "optionExplanations": [
-        "錯誤：be friends 不能表示放早餐；可說 I put my breakfast on the table.",
-        "正確：have been friends 表示從六歲起一直是朋友。",
+        "be friends 後面要用 with 連接對象，主語 I 也需要 am。",
+        "be friends 表示是朋友；since 說明友誼的起點。",
         "錯誤：不能在 is 後直接接 be friends，也不能用它形容椅子移動；可說 The chair is moving quickly.",
         "錯誤：字序錯誤，也不表示開窗；可說 She opens the window in the morning."
       ]
@@ -4072,17 +4072,17 @@
       "usage": "形容不用付錢的東西，或一個人有自由、沒有被限制時使用。",
       "prompt": "哪一句正確使用了「Free」？",
       "options": [
-        "I free my homework with a glass of milk.",
+        "I free my guitar with a small painting.",
         "The museum is free on Sundays, so we do not pay.",
-        "She is free five apples on the bus.",
+        "She is free five tickets at the concert.",
         "We free loudly in the kitchen at night."
       ],
       "answer": 1,
       "explanation": "正確：free 表示不需要付門票錢。",
       "optionExplanations": [
-        "錯誤：free 不能這樣代替 do；可說 I do my homework.",
+        "這裡無法表達免費或自由的意思，句意不成立。",
         "正確：free 表示不需要付門票錢。",
-        "錯誤：free 不能代替 have；可說 She has five apples.",
+        "若票免費，應說 The tickets are free；不能這樣把票接在 free 後。",
         "錯誤：free 不能表示大聲唱歌；可說 We sing loudly in the kitchen."
       ]
     }

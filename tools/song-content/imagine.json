@@ -198,16 +198,16 @@
       "usage": "當你想在腦中想出一個畫面或可能的情況時使用。",
       "prompt": "哪一句正確使用「Imagine」？",
       "options": [
-        "I imagine my shoes every morning to make them clean.",
-        "Imagine a cat driving a bus to school.",
+        "I imagine to becoming a famous actor.",
+        "Imagine your quiet uncle singing on a huge stage.",
         "Please imagine the door before you leave.",
         "She imagines to the supermarket every Friday."
       ],
       "answer": 1,
-      "explanation": "正確。imagine 後面接一個想像的畫面；貓開公車是一個有趣的想像。",
+      "explanation": "imagine 後接一個想像的場面；這裡想像叔叔上台唱歌。",
       "optionExplanations": [
-        "錯誤。imagine 是「想像」，不能用來表示清潔鞋子；應說 I clean my shoes.",
-        "正確。imagine 後面接一個想像的畫面；貓開公車是一個有趣的想像。",
+        "imagine 後可用 becoming，不能用 to becoming。",
+        "imagine 後接一個想像的場面；這裡想像叔叔上台唱歌。",
         "錯誤。如果要說關門，應用 close the door，而不是 imagine the door。",
         "錯誤。imagine 不能像 go 一樣直接接 to the supermarket；應說 She goes to the supermarket."
       ]
@@ -219,16 +219,16 @@
       "usage": "鼓勵別人嘗試一件事，即使他還不確定能不能成功時使用。",
       "prompt": "哪一句正確使用「Give it a try」？",
       "options": [
-        "This soup is new to me, but I will give it a try.",
-        "I give it a try my blue socks.",
+        "I have never danced on stage, but I will give it a try.",
+        "I give it a try to the museum by tram.",
         "She gives it a try at seven years old.",
         "We give it a try the door with a key."
       ],
       "answer": 0,
-      "explanation": "正確。第一次喝這種湯，願意試試看。",
+      "explanation": "give it a try 表示試一試；第一次上台跳舞正是嘗試新事物。",
       "optionExplanations": [
-        "正確。第一次喝這種湯，願意試試看。",
-        "錯誤。give it a try 不是「把東西送出去」；襪子要用 wear 或 give。",
+        "give it a try 表示試一試；第一次上台跳舞正是嘗試新事物。",
+        "give it a try 不能表示乘電車前往博物館。",
         "錯誤。這句沒有清楚說要嘗試什麼；若指年齡，應說 She is seven years old。",
         "錯誤。用鑰匙開門應說 open the door with a key。"
       ]
@@ -241,17 +241,17 @@
       "prompt": "哪一句正確使用「Below」？",
       "options": [
         "My brother below basketball on Sundays.",
-        "I below my homework after dinner.",
+        "I below my voice during the meeting.",
         "The picture is below the clock on the wall.",
-        "She drinks below milk for breakfast."
+        "She below to the next floor in the lift."
       ],
       "answer": 2,
       "explanation": "正確。below 表示圖片的位置比時鐘低。",
       "optionExplanations": [
         "錯誤。below 不是「打球」；應說 My brother plays basketball。",
-        "錯誤。below 不能當作 do（做）使用。",
+        "below 是介詞或副詞，降低聲量要用 lower my voice。",
         "正確。below 表示圖片的位置比時鐘低。",
-        "錯誤。below 不能用來表示喝牛奶；應說 drinks milk。"
+        "below 不能單獨作動詞；可說 went down to the next floor。"
       ]
     },
     {
@@ -262,7 +262,7 @@
       "prompt": "哪一句正確使用「Above」？",
       "options": [
         "The bird is flying above the house.",
-        "I above my lunch at school.",
+        "I above my painting on the wall.",
         "He above to bed at ten.",
         "We above a new song yesterday."
       ],
@@ -270,7 +270,7 @@
       "explanation": "正確。above 表示鳥在房子的上方飛。",
       "optionExplanations": [
         "正確。above 表示鳥在房子的上方飛。",
-        "錯誤。above 不能表示「吃」；應說 I eat my lunch。",
+        "above 不能作掛畫的動詞；可用 hang my painting。",
         "錯誤。上床睡覺要用 go to bed。",
         "錯誤。above 不是「聽」或「唱」；可說 We heard a new song。"
       ]
@@ -282,17 +282,17 @@
       "usage": "談論人們沒有戰爭或打鬥、能安心生活的情況時使用。",
       "prompt": "哪一句正確使用「Live in peace」？",
       "options": [
-        "I live in peace my school bag every day.",
+        "I live in peace my noisy neighbour yesterday.",
         "We hope all people can live in peace.",
-        "We live in peace our dinner at six.",
+        "We live in peace to argued every night.",
         "The children live in peace the bus stop."
       ],
       "answer": 1,
       "explanation": "正確。表示希望所有人都可以和平地生活。",
       "optionExplanations": [
-        "錯誤。live in peace 是生活狀態，不能表示帶書包。",
+        "live in peace 不能直接接 my noisy neighbour；可用 lived in peace with。",
         "正確。表示希望所有人都可以和平地生活。",
-        "錯誤。不能用這個片語表示吃晚餐。",
+        "to argued 形式錯誤；每晚爭吵也不符合和平共處的意思。",
         "錯誤。這個片語不能表示「走到公車站」；應用 walk to。"
       ]
     },
@@ -305,16 +305,16 @@
       "options": [
         "We dreamer to school by bus.",
         "Please dreamer the window before you go.",
-        "I put a dreamer in my coffee.",
-        "My sister is a dreamer. She wants to visit the moon one day."
+        "I dreamer about winning the race.",
+        "She's a dreamer: she wants a home on the moon."
       ],
       "answer": 3,
-      "explanation": "正確。她有想去月球的夢想，因此可以稱為 dreamer。",
+      "explanation": "dreamer 指愛懷抱夢想的人。",
       "optionExplanations": [
         "錯誤。dreamer 不能用作「搭車去」的動詞。",
         "錯誤。dreamer 是名詞，不是「關窗」的動詞。",
-        "錯誤。dreamer 指人，不是可以加進咖啡的東西。",
-        "正確。她有想去月球的夢想，因此可以稱為 dreamer。"
+        "dreamer 是名詞；這裡需要動詞 dream。",
+        "dreamer 指愛懷抱夢想的人。"
       ]
     },
     {
@@ -324,16 +324,16 @@
       "usage": "當一群人或物當中只有一個符合條件時使用。",
       "prompt": "哪一句正確使用「The only one」？",
       "options": [
-        "Tom is the only one in our class with a pet snake.",
-        "I only one my homework after school.",
+        "Tom is the only one wearing a crown here.",
+        "I the only one my first job last summer.",
         "She is the only one very fast yesterday.",
         "The only one is raining outside."
       ],
       "answer": 0,
-      "explanation": "正確。班上只有 Tom 養寵物蛇。",
+      "explanation": "the only one 表示唯一的一人。",
       "optionExplanations": [
-        "正確。班上只有 Tom 養寵物蛇。",
-        "錯誤。the only one 是名詞片語，不能代替 do。",
+        "the only one 表示唯一的一人。",
+        "the only one 不能單獨作動詞。",
         "錯誤。這句後半部缺少合適的動詞；可以說 She was the only one who ran fast。",
         "錯誤。天氣下雨應說 It is raining outside。"
       ]
@@ -345,18 +345,18 @@
       "usage": "談到希望未來某一天會發生的事，但不知道確切日期時使用。",
       "prompt": "哪一句正確使用「Someday」？",
       "options": [
-        "I ate someday for breakfast.",
+        "I someday to the museum last night.",
         "Someday, I want to learn to fly a plane.",
         "She put someday on the table.",
-        "My dog is a someday with four legs."
+        "My cousin someday very proud of his new bike."
       ],
       "answer": 1,
       "explanation": "正確。表示未來有一天想學開飛機。",
       "optionExplanations": [
-        "錯誤。someday 是時間副詞，不是食物。",
+        "someday 表示將來某一天，不能當作動詞或配合 last night。",
         "正確。表示未來有一天想學開飛機。",
         "錯誤。someday 不是可以放在桌上的物品。",
-        "錯誤。someday 不能當作動物名稱。"
+        "someday 是時間副詞，句子仍需要動詞。"
       ]
     },
     {
@@ -367,16 +367,16 @@
       "prompt": "哪一句正確使用「Join us」？",
       "options": [
         "Please join us the window is blue.",
-        "I join us my toothbrush every day.",
-        "This pizza joins us at eight years old.",
+        "I join us my first interview at nine.",
+        "Please join us to played music in the park.",
         "We are playing a game. Do you want to join us?"
       ],
       "answer": 3,
       "explanation": "正確。邀請別人一起玩遊戲。",
       "optionExplanations": [
         "錯誤。join us 是邀請加入，不是用來描述窗戶顏色。",
-        "錯誤。刷牙要說 brush my teeth，不能用 join us。",
-        "錯誤。披薩不是人在參加活動，也不能用 at eight years old 形容披薩年齡。",
+        "join us 指加入我們，不能再直接接 my first interview。",
+        "to 後用原形 play，不能接 played。",
         "正確。邀請別人一起玩遊戲。"
       ]
     },
@@ -387,17 +387,17 @@
       "usage": "當你把食物、東西、想法或消息跟別人分享時使用。",
       "prompt": "哪一句正確使用「Share with」？",
       "options": [
-        "I share with the bed at nine o’clock.",
+        "I shared with to my neighbour my umbrella.",
         "We share with the sky because it is sunny.",
-        "She shared her cake with her friend.",
+        "She shared her umbrella with our forgetful neighbour.",
         "He shared with a bicycle to the park."
       ],
       "answer": 2,
-      "explanation": "正確。share something with someone 表示和某人分享某物。",
+      "explanation": "share something with someone 表示與人共用。",
       "optionExplanations": [
-        "錯誤。這裡想說睡覺，應說 I go to bed at nine。",
+        "share something with someone 的受詞及介詞位置錯誤。",
         "錯誤。share with 後面要有分享對象，這裡也沒有清楚說分享什麼。",
-        "正確。share something with someone 表示和某人分享某物。",
+        "share something with someone 表示與人共用。",
         "錯誤。騎腳踏車去公園應說 He rode a bicycle to the park。"
       ]
     }

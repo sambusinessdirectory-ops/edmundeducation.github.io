@@ -283,14 +283,14 @@
         "My phone is beside you on the table.",
         "I beside you at school every day.",
         "She beside you very happy.",
-        "We go beside you to eat dinner."
+        "I sat beside you to watched the show."
       ],
       "explanation": "手機在你旁邊的桌上，正確表示位置。",
       "optionExplanations": [
         "手機在你旁邊的桌上，正確表示位置。",
         "beside you 是位置片語，不能直接當動詞；可說 I sit beside you at school every day.",
         "缺少動詞，而且 beside you 不能表示「很開心」；可說 She is very happy beside you.",
-        "要說一起去吃飯，通常用 go with you，不是 go beside you；可說 We go with you to eat dinner."
+        "to 後須用 watch，不能接 watched。"
       ]
     },
     {
@@ -301,14 +301,14 @@
       "prompt": "哪一句正確使用了「in the dark」？",
       "meaning": "在黑暗中、在沒有光的地方。",
       "options": [
-        "I drink in the dark for breakfast.",
+        "I in the dark my lost ring.",
         "We cannot see well in the dark.",
         "She is in the dark years old.",
         "This book is in the dark very good."
       ],
       "explanation": "在黑暗中看不清楚，使用正確。",
       "optionExplanations": [
-        "in the dark 說的是光線，不是飲料；可說 I drink milk for breakfast.",
+        "in the dark 是介詞片語，不能單獨作動詞。",
         "在黑暗中看不清楚，使用正確。",
         "年齡不能用 in the dark 表示；可說 She is ten years old.",
         "in the dark 不能直接表示一本書很好；可說 This book is very good."
@@ -322,15 +322,15 @@
       "prompt": "哪一句正確使用了「whisper」？",
       "meaning": "低聲說、輕聲說。",
       "options": [
-        "She whispers very loudly so everyone can hear.",
-        "I whisper my shoes before school.",
+        "She whispers to said the secret.",
+        "I whisper to asked the time.",
         "We whisper the bus at seven.",
         "Please whisper. The baby is sleeping."
       ],
       "explanation": "寶寶正在睡覺，所以請人小聲說話，使用正確。",
       "optionExplanations": [
-        "whisper 是小聲說，與 very loudly so everyone can hear 意思相反；可說 She speaks very loudly so everyone can hear.",
-        "whisper 是說話的方式，不能用來表示穿鞋；可說 I put on my shoes before school.",
+        "to 後用 say，不能接 said。",
+        "to 後須用 ask，不能接 asked。",
         "不能用 whisper 表示搭公車；可說 We take the bus at seven.",
         "寶寶正在睡覺，所以請人小聲說話，使用正確。"
       ]
@@ -344,14 +344,14 @@
       "meaning": "真誠的、真心的。",
       "options": [
         "I sincere to the park every day.",
-        "The soup is sincere because it is hot.",
+        "He sincere his apology to the neighbour.",
         "He said sorry, and I know he was sincere.",
         "She sincere a new bag yesterday."
       ],
       "explanation": "他道歉是真心的，所以用 sincere 正確。",
       "optionExplanations": [
         "sincere 是形容詞，不能當「去」的動詞；可說 I go to the park every day.",
-        "sincere 形容真心，不形容湯的溫度；可說 The soup is hot.",
+        "sincere 是形容詞，不能當作道歉的動詞。",
         "他道歉是真心的，所以用 sincere 正確。",
         "sincere 不能當「買」的動詞；可說 She bought a new bag yesterday."
       ]
@@ -364,17 +364,17 @@
       "prompt": "哪一句正確使用了「drift apart」？",
       "meaning": "漸漸疏遠、慢慢不再親近。",
       "options": [
-        "We were good friends, but we drifted apart after school.",
-        "I drift apart my lunch at noon.",
+        "We drifted apart after moving to different cities.",
+        "I drift apart to my old friends.",
         "She drifts apart the window every morning.",
-        "They drift apart together at the same table every day."
+        "They drift apart yesterday after the argument."
       ],
-      "explanation": "原本是朋友，後來慢慢疏遠，正確表達關係的改變。",
+      "explanation": "drift apart 指關係逐漸疏遠。",
       "optionExplanations": [
-        "原本是朋友，後來慢慢疏遠，正確表達關係的改變。",
-        "drift apart 不是吃午餐的動作；可說 I eat my lunch at noon.",
+        "drift apart 指關係逐漸疏遠。",
+        "drift apart 不能這樣接 to my old friends；可說 My friends and I drift apart。",
         "drift apart 不是打開窗戶；可說 She opens the window every morning.",
-        "每天坐在一起沒有表達「漸漸疏遠」，此處不合意思；可說 They sit together at the same table every day."
+        "過去事件須用 drifted apart。"
       ]
     },
     {
@@ -388,14 +388,14 @@
         "I by my side English every day.",
         "My brother is by my side when I need help.",
         "We buy my side at the shop.",
-        "This apple tastes by my side."
+        "My cousin by my side at the wedding."
       ],
       "explanation": "哥哥在我需要幫忙時陪伴我，使用正確。",
       "optionExplanations": [
         "by my side 不是動詞，不能表示學英文；可說 I study English every day.",
         "哥哥在我需要幫忙時陪伴我，使用正確。",
         "buy 和 by 不同；不能把 by my side 當作購物的東西；可說 We buy food at the shop.",
-        "by my side 不能表示蘋果的味道；可說 This apple tastes sweet."
+        "by my side 是介詞片語，前面需要 was 等動詞。"
       ]
     },
     {
@@ -406,17 +406,17 @@
       "prompt": "哪一句正確使用了「with open arms」？",
       "meaning": "張開雙臂（迎接）；熱情歡迎。",
       "options": [
-        "I write with open arms using a blue pen.",
+        "I with open arms the new neighbour.",
         "My family welcomed me home with open arms.",
-        "She cooks rice with open arms in a pot.",
-        "The door is with open arms because it is not closed."
+        "She welcomed us with open arms to arrived yesterday.",
+        "They welcomes us with open arms."
       ],
       "explanation": "家人熱情迎接我回家，這正是片語的常見意思。",
       "optionExplanations": [
-        "with open arms 不是寫字的工具或方式；可說 I write with a blue pen.",
+        "with open arms 不能單獨作動詞；可用 welcomed。",
         "家人熱情迎接我回家，這正是片語的常見意思。",
-        "with open arms 不是煮飯的方法；可說 She cooks rice in a pot.",
-        "open arms 指雙臂，不是打開的門；可說 The door is open."
+        "to arrived 的連接錯誤；可直接說 welcomed us with open arms yesterday。",
+        "主詞 they 配 welcome，不能加 s。"
       ]
     },
     {
@@ -428,16 +428,16 @@
       "meaning": "沒有事情要隱瞞、沒有秘密要藏。",
       "options": [
         "I have nothing to hide, so I will tell you the truth.",
-        "There is nothing to hide for dinner, so I am hungry.",
+        "I nothing to hide about the missing money.",
         "She nothing to hide to school every morning.",
-        "My phone has nothing to hide because its screen is big."
+        "He has nothing to hide to told the truth."
       ],
       "explanation": "沒有事要隱瞞，因此願意說實話，意思正確。",
       "optionExplanations": [
         "沒有事要隱瞞，因此願意說實話，意思正確。",
-        "想表示沒有東西吃，應說 There is nothing to eat for dinner.",
+        "nothing to hide 前缺少 have，句子不完整。",
         "缺少正確的動詞結構，nothing to hide 也不是「去上學」；可說 She goes to school every morning.",
-        "手機螢幕大，與「沒有秘密」沒有關係；可說 My phone has a big screen."
+        "to told 的形式不成立；可用 and told the truth 連接。"
       ]
     },
     {
@@ -450,15 +450,15 @@
       "options": [
         "I mean to me at seven o'clock.",
         "The train means to me very fast.",
-        "She means to me a sandwich for lunch.",
-        "This photo means a lot to me because it is from my friend."
+        "This photo mean a lot to me yesterday.",
+        "This old photo means a lot to me."
       ],
-      "explanation": "這張照片對我很有意義，means a lot to me 使用正確。",
+      "explanation": "mean a lot to someone 指對某人很重要。",
       "optionExplanations": [
         "mean to me 不能表示時間或起床；可說 I get up at seven o'clock.",
         "mean ... to me 表示意義，不是速度；可說 The train is very fast.",
-        "means to me 不是準備食物的動詞；可說 She makes me a sandwich for lunch.",
-        "這張照片對我很有意義，means a lot to me 使用正確。"
+        "過去事件應用 meant，不能用 mean。",
+        "mean a lot to someone 指對某人很重要。"
       ]
     },
     {
@@ -469,15 +469,15 @@
       "prompt": "哪一句正確使用了「stay」？",
       "meaning": "留下、待在某個地方。",
       "options": [
-        "I stay my homework every night.",
-        "She stays a cake for her birthday.",
+        "I stay to my uncle at the weekend.",
+        "She stays to arrived early at the hotel.",
         "Please stay here until I come back.",
         "We stay the bus to the city."
       ],
       "explanation": "請對方留在這裡直到我回來，使用正確。",
       "optionExplanations": [
-        "stay 不是做功課；可說 I do my homework every night.",
-        "stay 不是做蛋糕；可說 She makes a cake for her birthday.",
+        "暫住親人家可說 stay with my uncle；不能用 stay to。",
+        "to arrived 的形式錯誤；stay 也不表示到達。",
         "請對方留在這裡直到我回來，使用正確。",
         "搭公車應用 take the bus；可說 We take the bus to the city."
       ]

@@ -3600,18 +3600,18 @@
       "usage": "玩遊戲、收到驚喜，或想藏住情緒時可以用。",
       "prompt": "哪一句正確使用了「Poker face」？",
       "options": [
-        "I put my poker face in the fridge to keep it cold.",
-        "My poker face is hungry, so I made it a sandwich.",
-        "We drove our poker face to the beach.",
-        "I kept a poker face when my friends gave me a surprise."
+        "I poker face my birthday surprise.",
+        "She kept a poker face to showed her feelings.",
+        "He keep a poker face yesterday at the meeting.",
+        "I kept a poker face when my boss called me “Dad”."
       ],
       "answer": 3,
-      "explanation": "正確：雖然收到驚喜，仍保持面無表情。",
+      "explanation": "keep a poker face 表示不流露情緒，這裡忍住被叫錯稱呼的反應。",
       "optionExplanations": [
-        "錯誤：poker face 是表情，不是可以放進冰箱的物品。",
-        "錯誤：表情不會餓，不能當成一個人。",
-        "錯誤：poker face 不是交通工具。",
-        "正確：雖然收到驚喜，仍保持面無表情。"
+        "poker face 是名詞，不能單獨作動詞。",
+        "to showed 的形式錯誤；poker face 也強調不露聲色。",
+        "過去事件須用 kept。",
+        "keep a poker face 表示不流露情緒，這裡忍住被叫錯稱呼的反應。"
       ]
     },
     {
@@ -3622,17 +3622,17 @@
       "prompt": "哪一句正確使用了「Stay with me」？",
       "options": [
         "Please stay with me this math question.",
-        "Stay with me is my favorite kind of pizza.",
+        "Stay with me to waited for the train.",
         "Please stay with me until the bus comes.",
-        "I stay with me my shoes every morning."
+        "I stay with me at my cousin's wedding."
       ],
       "answer": 2,
       "explanation": "正確：請對方陪自己等公車。",
       "optionExplanations": [
         "錯誤：不能用 stay with me 直接接題目；可以說 help me with this question。",
-        "錯誤：stay with me 是請人陪伴，不是披薩口味。",
+        "to 後用 wait，不能接 waited。",
         "正確：請對方陪自己等公車。",
-        "錯誤：這個片語不是穿鞋的意思。"
+        "stay with me 是請別人留下陪自己，這裡 I 與 me 的安排不合理。"
       ]
     },
     {
@@ -3643,17 +3643,17 @@
       "prompt": "哪一句正確使用了「Get hooked on」？",
       "options": [
         "I got hooked on this song and played it all day.",
-        "I got hooked on my chair because it has four legs.",
-        "I got hooked on the door to open it with my key.",
-        "I got hooked on the rain, so my shoes became wet."
+        "I got hooked on to watch that new show.",
+        "She get hooked on the game last week.",
+        "We got hooked on very exciting about the festival."
       ],
       "answer": 0,
       "explanation": "正確：一直播放同一首歌，表示非常喜歡。",
       "optionExplanations": [
         "正確：一直播放同一首歌，表示非常喜歡。",
-        "錯誤：椅子有四隻腳，不代表你對它著迷。",
-        "錯誤：開門不會用 get hooked on 表達。",
-        "錯誤：鞋子被淋濕與「著迷」沒有關係。"
+        "on 後用 watching，不能用 to watch。",
+        "過去事件應用 got hooked on。",
+        "on 後需要名詞或動名詞，不能接 very exciting about。"
       ]
     },
     {
@@ -3664,17 +3664,17 @@
       "prompt": "哪一句正確使用了「Show what you have got」？",
       "options": [
         "Come on stage and show us what you have got!",
-        "I showed what I have got by sleeping all afternoon.",
+        "I showed what I have got to danced on stage.",
         "Show what you have got the window is very blue.",
-        "My sandwich showed what I have got and walked home."
+        "She show what she has got yesterday at the art fair."
       ],
       "answer": 0,
       "explanation": "正確：請對方上台展現自己的本事。",
       "optionExplanations": [
         "正確：請對方上台展現自己的本事。",
-        "錯誤：睡整個下午沒有展示任何能力。",
+        "to danced 的形式不成立。",
         "錯誤：這樣接句子不合文法，也沒有表達展示能力。",
-        "錯誤：三明治不能自己展示本事或走路。"
+        "過去事件須用 showed。"
       ]
     },
     {
@@ -3684,18 +3684,18 @@
       "usage": "跟朋友一起出去玩或參加活動時使用。",
       "prompt": "哪一句正確使用了「Roll with someone」？",
       "options": [
-        "I roll with my homework to make it smell better.",
+        "I roll with to my cousins after work.",
         "I roll with my friends when we go to the park.",
-        "I roll with the clock to know the time.",
-        "My breakfast rolls with me because it can speak."
+        "She rolls with her friends to watched the match.",
+        "We roll with our friends yesterday at the festival."
       ],
       "answer": 1,
       "explanation": "正確：表示和朋友一起行動。",
       "optionExplanations": [
-        "錯誤：這個片語不是讓作業變香的方法。",
+        "roll with 後直接接相處的對象，不加 to。",
         "正確：表示和朋友一起行動。",
-        "錯誤：看時間不會用 roll with。",
-        "錯誤：早餐不會說話，也不是這個口語片語的自然用法。"
+        "to 後用 watch，不能接 watched。",
+        "過去事件須用 rolled。"
       ]
     },
     {
@@ -3726,18 +3726,18 @@
       "usage": "比較兩個相似的人、東西或行為時使用。",
       "prompt": "哪一句正確使用了「Just like」？",
       "options": [
-        "I just like my homework at seven o’clock.",
+        "I just like to my cousin in this photo.",
         "Just like is sleeping under my bed.",
-        "I put just like into my soup for lunch.",
-        "This little dog looks just like my dog."
+        "She looks just like to her grandmother.",
+        "My new haircut looks just like the mayor's. Help!"
       ],
       "answer": 3,
-      "explanation": "正確：比較兩隻狗長得很像。",
+      "explanation": "just like 表示十分相似。",
       "optionExplanations": [
-        "錯誤：這句把 just like 當成動作片語，但不能表達「做作業」。",
+        "表示像某人需要 look 等動詞；just like 後也不加 to。",
         "錯誤：just like 不是人或動物，不能當主詞睡覺。",
-        "錯誤：just like 不是食材。",
-        "正確：比較兩隻狗長得很像。"
+        "just like 後直接接 her grandmother，不加 to。",
+        "just like 表示十分相似。"
       ]
     },
     {
@@ -3748,17 +3748,17 @@
       "prompt": "哪一句正確使用了「Bluff」？",
       "options": [
         "I bluffed my bike to school in ten minutes.",
-        "He bluffed about knowing the answer, but he was only guessing.",
+        "He bluffed about knowing the answer. He had no idea.",
         "Please bluff the light because the room is dark.",
-        "She put her bluff in the oven to make bread."
+        "She bluffed to knew the answer."
       ],
       "answer": 1,
-      "explanation": "正確：他假裝知道答案，其實只是在猜。",
+      "explanation": "bluff 指假裝知道或有把握，以蒙混對方。",
       "optionExplanations": [
         "錯誤：騎腳踏車不能用 bluff 表達。",
-        "正確：他假裝知道答案，其實只是在猜。",
+        "bluff 指假裝知道或有把握，以蒙混對方。",
         "錯誤：開燈不能用 bluff；應說 turn on the light。",
-        "錯誤：bluff 不是做麵包的材料。"
+        "to knew 的形式錯誤；可說 bluffed about knowing the answer。"
       ]
     },
     {
@@ -3768,18 +3768,18 @@
       "usage": "認真承諾會做某事，或強調自己說的是真的時使用。",
       "prompt": "哪一句正確使用了「I promise」？",
       "options": [
-        "I promise my pencil is eating a large pizza.",
-        "I promise the chair to swim very fast.",
+        "I promise to called before the train leaves.",
+        "I promise my cousin to happy.",
         "I promise I will call you after school.",
-        "I promise yesterday is tomorrow morning."
+        "I promised I will called after the meeting."
       ],
       "answer": 2,
       "explanation": "正確：保證放學後會打電話。",
       "optionExplanations": [
-        "錯誤：鉛筆不會吃披薩，這不是合理的承諾。",
-        "錯誤：椅子不能游泳，句子搭配也不自然。",
+        "promise to 後用 call，不能接 called。",
+        "to 後需要動詞，不能直接接 happy。",
         "正確：保證放學後會打電話。",
-        "錯誤：昨天不可能是明天早上。"
+        "will 後用 call，不能接 called。"
       ]
     },
     {
@@ -3789,18 +3789,18 @@
       "usage": "猜別人開心、難過或緊張時使用。",
       "prompt": "哪一句正確使用了「Read someone’s face」？",
       "options": [
-        "It was easy to read her face because she had a big smile.",
-        "I read my teacher’s face with a dictionary every day.",
+        "I could read her face. She hated the new plan.",
+        "I read to her face and knew she was upset.",
         "I read my friend’s face and found page twenty.",
-        "The cat read my face into a cup of tea."
+        "She read my face to knew I was worried."
       ],
       "answer": 0,
-      "explanation": "正確：從大大的笑容看出她的心情。",
+      "explanation": "read someone's face 指從表情看出心情。",
       "optionExplanations": [
-        "正確：從大大的笑容看出她的心情。",
-        "錯誤：這裡不是查字典讀文字，而是觀察表情。",
+        "read someone's face 指從表情看出心情。",
+        "read someone's face 直接接 her face，不加 to。",
         "錯誤：臉不是書，沒有第二十頁。",
-        "錯誤：read someone’s face 不表示把臉放進茶裡。"
+        "to 後用 know，不能接 knew。"
       ]
     }
   ],

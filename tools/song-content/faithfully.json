@@ -2499,17 +2499,17 @@
       "usage": "當一件事或一個人一直在你心裡時使用。",
       "prompt": "哪一句正確使用「On my mind」？",
       "options": [
-        "I put my sandwich on my mind to eat it.",
+        "I put my invitation on my mind to send it by post.",
         "My test is on my mind because it is tomorrow.",
-        "My shoes are on my mind under the bed.",
+        "My train is on my mind at platform four to carry people.",
         "I go on my mind to the shop every day."
       ],
       "answer": 1,
       "explanation": "正確：明天要考試，所以一直想著考試。",
       "optionExplanations": [
-        "錯誤：on my mind 不是頭上的實際位置；可以說 I put my sandwich on the table.",
+        "on my mind 表示心裡惦記，不能當成寄信的位置。",
         "正確：明天要考試，所以一直想著考試。",
-        "錯誤：鞋子放在床下應說 under the bed，不是 on my mind。",
+        "實際停車位置應用 at platform four；on my mind 無法代替。",
         "錯誤：這個片語不能表示交通方式；可以說 I walk to the shop."
       ]
     },
@@ -2521,7 +2521,7 @@
       "prompt": "哪一句正確使用「Round and round」？",
       "options": [
         "The wheel goes round and round when I ride my bike.",
-        "My cat drinks round and round from a cup.",
+        "My cousin pays round and round from his wallet.",
         "I am round and round years old.",
         "She reads a round and round at school."
       ],
@@ -2529,7 +2529,7 @@
       "explanation": "正確：腳踏車輪子騎行時不停轉動。",
       "optionExplanations": [
         "正確：腳踏車輪子騎行時不停轉動。",
-        "錯誤：喝水不會用 round and round 表示；可以說 My cat drinks water.",
+        "round and round 描述旋轉或繞圈，不能當付款金額。",
         "錯誤：年齡不能用 round and round；可以說 I am twelve years old.",
         "錯誤：round and round 不是一本書；可以說 She reads a book."
       ]
@@ -2541,7 +2541,7 @@
       "usage": "想動來動去、難以休息或睡覺時使用。",
       "prompt": "哪一句正確使用「Restless」？",
       "options": [
-        "The cake is restless because it has chocolate.",
+        "The password is restless because it has six letters.",
         "I felt restless and walked around my room all night.",
         "I bought two restless at the shop.",
         "She restless her phone before bed."
@@ -2549,7 +2549,7 @@
       "answer": 1,
       "explanation": "正確：心裡不安，所以整晚在房間走來走去。",
       "optionExplanations": [
-        "錯誤：蛋糕不會感到坐立不安；可以說 The cake is sweet.",
+        "restless 形容人難以安定，不能用密碼長度來解釋。",
         "正確：心裡不安，所以整晚在房間走來走去。",
         "錯誤：restless 是形容詞，不是可數物品；可以說 two books.",
         "錯誤：restless 不能當這裡的動詞；可以說 She checks her phone."
@@ -2562,17 +2562,17 @@
       "usage": "朋友遇到困難，需要你支持時使用。",
       "prompt": "哪一句正確使用「Stand by someone」？",
       "options": [
-        "I stand by my homework with a pencil.",
-        "My sister stood by me when I was sad.",
-        "She stands by breakfast at seven every day.",
+        "I stand by my speech with a black pen to write it.",
+        "My sister stood by me after my terrible performance.",
+        "She stands by the family photo to make everyone taller.",
         "The bus stands by me because it is blue."
       ],
       "answer": 1,
-      "explanation": "正確：姐姐在我難過時支持我。",
+      "explanation": "stand by someone 指支持某人，尤其在困難時。",
       "optionExplanations": [
-        "錯誤：這裡不是支持某人；可以說 I do my homework with a pencil.",
-        "正確：姐姐在我難過時支持我。",
-        "錯誤：早餐不是要支持的人；可以說 She eats breakfast at seven.",
+        "寫演說稿應用 write；stand by 無法表達書寫。",
+        "stand by someone 指支持某人，尤其在困難時。",
+        "站在照片旁不會改變照片中人物的身高，句意不合。",
         "錯誤：車子沒有因為顏色而支持人；可以說 The bus stops near me."
       ]
     },
@@ -2584,7 +2584,7 @@
       "prompt": "哪一句正確使用「Supposed to」？",
       "options": [
         "I supposed to a new bike last week.",
-        "My soup is supposed to very delicious yesterday.",
+        "My interview is supposed to very easy yesterday.",
         "She supposed to the park every Friday.",
         "We are supposed to be at school by eight."
       ],
@@ -2592,7 +2592,7 @@
       "explanation": "正確：表示照規定或安排，八點前應到學校。",
       "optionExplanations": [
         "錯誤：缺少 be，且後面需要動詞；可以說 I was supposed to buy a new bike.",
-        "錯誤：supposed to 後不能直接接 very delicious；可以說 My soup was supposed to be delicious.",
+        "supposed to 後面缺少 be，時態也應配合 yesterday。",
         "錯誤：應說 She is supposed to go to the park.",
         "正確：表示照規定或安排，八點前應到學校。"
       ]
@@ -2604,18 +2604,18 @@
       "usage": "形容某件事讓人開心、露出笑容時使用。",
       "prompt": "哪一句正確使用「Make someone smile」？",
       "options": [
-        "I make my shoes smile before I run.",
+        "I make my calendar smile before booking a trip.",
         "She makes smile her brother with a joke.",
-        "I make my dinner smile in the oven.",
-        "My dog makes me smile when he dances."
+        "I make my bank card smile inside the cash machine.",
+        "My little cousin makes me smile with her funny drawings."
       ],
       "answer": 3,
-      "explanation": "正確：狗狗跳舞讓我開心微笑。",
+      "explanation": "make someone smile 表示使人微笑。",
       "optionExplanations": [
-        "錯誤：鞋子不會真的微笑；可以說 I clean my shoes.",
+        "日曆沒有笑的能力，無法作 make someone smile 的對象。",
         "錯誤：語序應為 makes her brother smile。",
-        "錯誤：晚餐不是會微笑的人；可以說 I cook my dinner in the oven.",
-        "正確：狗狗跳舞讓我開心微笑。"
+        "銀行卡無法微笑；這句沒有人的情緒反應。",
+        "make someone smile 表示使人微笑。"
       ]
     },
     {
@@ -2626,7 +2626,7 @@
       "prompt": "哪一句正確使用「Wonder where」？",
       "options": [
         "I wonder where my keys are. I cannot find them.",
-        "I wonder where my lunch with a fork.",
+        "I wonder where my interview with a new jacket.",
         "She wonders where blue her dress is.",
         "We wonder where to happy every day."
       ],
@@ -2634,7 +2634,7 @@
       "explanation": "正確：找不到鑰匙，所以想知道它們在哪裡。",
       "optionExplanations": [
         "正確：找不到鑰匙，所以想知道它們在哪裡。",
-        "錯誤：where 後要有完整的子句；可以說 I wonder where my lunch is.",
+        "wonder where 後面缺少完整子句，如 my interview is。",
         "錯誤：間接問句語序不對；可以說 She wonders where her blue dress is.",
         "錯誤：where to 後接動詞原形，不能接 happy；可以說 We wonder where to go."
       ]
@@ -2646,17 +2646,17 @@
       "usage": "有人對你很重要，少了對方會不知道怎麼辦時使用。",
       "prompt": "哪一句正確使用「Be lost without someone」？",
       "options": [
-        "My phone is lost without a banana for dinner.",
+        "My phone is lost without a haircut before the party.",
         "I lost without my pencil yesterday.",
-        "I would be lost without my best friend. She helps me a lot.",
+        "I'd be lost without Mia. She reads every map.",
         "She is lost without blue on Tuesday."
       ],
       "answer": 2,
-      "explanation": "正確：表示好友很重要，沒有她就不知道怎麼辦。",
+      "explanation": "be lost without someone 表示沒有那人幫忙就不知如何應付。",
       "optionExplanations": [
-        "錯誤：香蕉與手機不知所措無關；可以說 My phone is lost.",
+        "手機不需要理髮，無法支持沒有某人便不知所措的意思。",
         "錯誤：這個片語要用 be；可以說 I was lost without my pencil.",
-        "正確：表示好友很重要，沒有她就不知道怎麼辦。",
+        "be lost without someone 表示沒有那人幫忙就不知如何應付。",
         "錯誤：without 後面的 blue 在此沒有清楚的意義；可以說 She feels sad on Tuesday."
       ]
     },
@@ -2667,16 +2667,16 @@
       "usage": "兩個人不在一起，尤其是因距離而分開時使用。",
       "prompt": "哪一句正確使用「Be apart」？",
       "options": [
-        "We are apart this week because I am in Taipei and she is in Tainan.",
-        "I apart my breakfast before school.",
+        "We're apart this week. His dancing can wait.",
+        "I apart my classmates before the school trip.",
         "The book is apart very happy today.",
         "She is apart to sing a song."
       ],
       "answer": 0,
-      "explanation": "正確：兩人分別在不同城市，所以暫時分開。",
+      "explanation": "be apart 指彼此分開，這裡暫時不能一起跳舞。",
       "optionExplanations": [
-        "正確：兩人分別在不同城市，所以暫時分開。",
-        "錯誤：apart 不是這種用法的動詞；可以說 I eat my breakfast.",
+        "be apart 指彼此分開，這裡暫時不能一起跳舞。",
+        "apart 是副詞，不能代替聯絡或集合的動詞。",
         "錯誤：apart 不能用來形容書本很開心；可以說 The book is on the table.",
         "錯誤：be apart 不接 to + 動詞來表示準備；可以說 She is ready to sing."
       ]
@@ -2688,18 +2688,18 @@
       "usage": "描述再次產生愛意，或兩個人重新相愛時使用。",
       "prompt": "哪一句正確使用「Fall in love again」？",
       "options": [
-        "I fall in love again my homework at night.",
+        "I fall in love again my old guitar after the concert.",
         "My bike fell in love again to the bus stop.",
         "After many years, they fell in love again.",
-        "She fall in love again yesterday with a cake."
+        "She fall in love again yesterday with her old friend."
       ],
       "answer": 2,
       "explanation": "正確：形容多年後兩個人再次相愛。",
       "optionExplanations": [
-        "錯誤：fall in love with 後可接對象，但這句缺少 with，意思也不自然；可以說 I do my homework at night.",
+        "愛上某人或某物要用 fall in love with，這裡缺少 with。",
         "錯誤：腳踏車不能這樣表示去公車站；可以說 I rode my bike to the bus stop.",
         "正確：形容多年後兩個人再次相愛。",
-        "錯誤：過去式要用 fell，且這裡對蛋糕的感情表達不自然；可以說 She loved the cake."
+        "yesterday 表示過去，應用 fell；主語與原形 fall 也不搭配。"
       ]
     }
   ],

@@ -427,16 +427,16 @@
       "prompt": "哪一句正確使用「Stay awake」？",
       "options": [
         "I stayed awake to finish my book.",
-        "I stayed awake my shoes before school.",
-        "My sandwich stayed awake in the fridge.",
+        "I stayed awake my calendar before the meeting.",
+        "She stayed awake to watched the final song.",
         "I stayed awake the door with a key."
       ],
       "answer": 0,
       "explanation": "正確：stay awake 表示保持清醒，讀完書之前不睡。",
       "optionExplanations": [
         "正確：stay awake 表示保持清醒，讀完書之前不睡。",
-        "錯誤：不能用 stay awake 表示穿鞋；應說 put on my shoes。",
-        "錯誤：三明治不會保持清醒；這個片語通常形容人。",
+        "stay awake 指保持清醒，不能直接接 calendar 作受詞。",
+        "表示目的的 to 後接 watch，不能接 watched。",
         "錯誤：開門應說 opened the door，不能用 stayed awake。"
       ]
     },
@@ -447,18 +447,18 @@
       "usage": "形容人或地方距離很遠時使用。",
       "prompt": "哪一句正確使用「Far away」？",
       "options": [
-        "I ate far away for breakfast.",
-        "My uncle lives far away, so I call him.",
-        "She put far away on her feet.",
-        "This soup is far away because it is hot."
+        "I booked a far away at the travel office.",
+        "My uncle lives far away but calls during every film.",
+        "She far away her cousin every weekend.",
+        "The concert is far away yesterday."
       ],
       "answer": 1,
-      "explanation": "正確：叔叔住得很遠，所以用電話聯絡。",
+      "explanation": "far away 表示相距遙遠。",
       "optionExplanations": [
-        "錯誤：far away 形容距離，不是食物。",
-        "正確：叔叔住得很遠，所以用電話聯絡。",
-        "錯誤：far away 不是可以穿的東西。",
-        "錯誤：湯很燙應說 hot，far away 不形容溫度。"
+        "far away 表示遙遠，不能單獨當作訂購的東西。",
+        "far away 表示相距遙遠。",
+        "far away 不能單獨作探望親人的動詞。",
+        "這句混用了現在式 is 與過去時間 yesterday。"
       ]
     },
     {
@@ -468,18 +468,18 @@
       "usage": "談和朋友、家人一起度過時間時使用。",
       "prompt": "哪一句正確使用「Spend time with」？",
       "options": [
-        "I like to spend time with my grandparents on Sundays.",
+        "I spend time with Grandpa; he teaches me new games.",
         "We spent time with the rain to stop it.",
-        "I spend time with my homework into a box.",
-        "He spent time with his sandwich to eat a chair."
+        "I spend time with to visit my aunt.",
+        "He spent time with his friend tomorrow."
       ],
       "answer": 0,
-      "explanation": "正確：表示星期天喜歡和祖父母相處。",
+      "explanation": "spend time with someone 表示花時間與人相處。",
       "optionExplanations": [
-        "正確：表示星期天喜歡和祖父母相處。",
+        "spend time with someone 表示花時間與人相處。",
         "錯誤：不能藉由 spend time with 讓雨停止。",
-        "錯誤：放作業進盒子應說 put my homework in a box。",
-        "錯誤：句子動作與意思不合理；吃三明治應說 eat a sandwich。"
+        "with 後應接相處的對象；花時間做事可說 spend time visiting my aunt。",
+        "spent 表示過去，與此句的未來時間 tomorrow 不配合。"
       ]
     },
     {
@@ -492,7 +492,7 @@
         "She treasures the window to get fresh air.",
         "I treasure to the bus stop every morning.",
         "I treasure my photos from our family trip.",
-        "We treasure our pizza at 200 degrees."
+        "We treasure to the theatre every Friday."
       ],
       "answer": 2,
       "explanation": "正確：treasure 表示很珍惜旅行照片。",
@@ -500,7 +500,7 @@
         "錯誤：打開窗戶應說 opens the window。",
         "錯誤：到公車站應說 walk to the bus stop。",
         "正確：treasure 表示很珍惜旅行照片。",
-        "錯誤：用溫度烤披薩應說 bake，不是 treasure。"
+        "treasure 表示珍惜，不能表示前往劇院。"
       ]
     },
     {
@@ -511,7 +511,7 @@
       "prompt": "哪一句正確使用「Fall asleep」？",
       "options": [
         "I fall asleep my jacket when it is cold.",
-        "The train fell asleep at the station.",
+        "I fell asleep to watched the late film.",
         "He fell asleep the music very loudly.",
         "I fell asleep on the sofa after dinner."
       ],
@@ -519,7 +519,7 @@
       "explanation": "正確：表示晚餐後在沙發上睡著了。",
       "optionExplanations": [
         "錯誤：穿外套應說 put on my jacket。",
-        "錯誤：火車不能睡著；可說 the train stopped。",
+        "to watched 的形式不成立；可說 while watching the late film。",
         "錯誤：fall asleep 不能直接接 music；可說 fell asleep while listening to music。",
         "正確：表示晚餐後在沙發上睡著了。"
       ]
@@ -531,18 +531,18 @@
       "usage": "希望看見、聽見或參與所有事情時使用。",
       "prompt": "哪一句正確使用「Miss a thing」？",
       "options": [
-        "I missed a thing my shoes before running.",
-        "I sat in the front because I didn't want to miss a thing.",
+        "I missed a thing my manager at the meeting.",
+        "I sat in front so I wouldn't miss a thing.",
         "She missed a thing into her school bag.",
-        "We miss a thing for lunch every day."
+        "We miss a thing very excited about the trip."
       ],
       "answer": 1,
-      "explanation": "正確：坐前面是為了不錯過任何精彩內容。",
+      "explanation": "miss a thing 表示錯過任何細節。",
       "optionExplanations": [
-        "錯誤：穿鞋與 miss a thing 無關。",
-        "正確：坐前面是為了不錯過任何精彩內容。",
+        "miss a thing 已有受詞 a thing，不能再直接加 my manager。",
+        "miss a thing 表示錯過任何細節。",
         "錯誤：放東西進書包應說 put something in her bag。",
-        "錯誤：這裡不是指錯過事情；吃午餐應說 have lunch。"
+        "miss a thing 不能接 very excited 當作感到興奮的結構。"
       ]
     },
     {
@@ -553,7 +553,7 @@
       "prompt": "哪一句正確使用「Dream of」？",
       "options": [
         "He dreams of becoming a singer.",
-        "She dreams of her coat when it rains.",
+        "She dreams of to become a dancer.",
         "I dream of my bike to work.",
         "They dream of the door with a key."
       ],
@@ -561,7 +561,7 @@
       "explanation": "正確：dream of + -ing 可以表示夢想成為歌手。",
       "optionExplanations": [
         "正確：dream of + -ing 可以表示夢想成為歌手。",
-        "錯誤：下雨穿外套應說 wears her coat。",
+        "of 後接 becoming；不能接 to become。",
         "錯誤：騎腳踏車上班應說 ride my bike to work。",
         "錯誤：用鑰匙開門應說 open the door with a key。"
       ]
@@ -573,18 +573,18 @@
       "usage": "有問題、不確定答案，心裡想著時使用。",
       "prompt": "哪一句正確使用「Wonder」？",
       "options": [
-        "He wondered his socks in the washing machine.",
-        "I wonder my breakfast with a spoon.",
+        "He wondered his suitcase to the hotel.",
+        "I wonder very nervous at the interview.",
         "She wonders the bus at eight every day.",
-        "I wonder where my cat is hiding."
+        "I wonder why Grandma has three wedding dresses."
       ],
       "answer": 3,
-      "explanation": "正確：表示好奇貓躲在哪裡。",
+      "explanation": "I wonder why 提出心中的疑問；這裡好奇祖母為何有三件婚紗。",
       "optionExplanations": [
-        "錯誤：洗襪子應說 washed his socks。",
-        "錯誤：吃早餐應說 eat my breakfast。",
+        "wonder 指感到疑惑，不能表示搬行李。",
+        "表示緊張要用 feel nervous；wonder 後不能直接接 very nervous。",
         "錯誤：搭公車應說 takes the bus。",
-        "正確：表示好奇貓躲在哪裡。"
+        "I wonder why 提出心中的疑問；這裡好奇祖母為何有三件婚紗。"
       ]
     },
     {
@@ -594,17 +594,17 @@
       "usage": "想安慰、保護或表達愛意時使用。",
       "prompt": "哪一句正確使用「Hold someone close」？",
       "options": [
-        "I held my math test close to get a better score.",
+        "I held to my little brother close.",
         "He held the weather close because it was raining.",
-        "She held her little brother close when he was scared.",
+        "She held her brother close during the scary film.",
         "We held the door close to learn English."
       ],
       "answer": 2,
-      "explanation": "正確：弟弟害怕時緊緊抱著他，表示安慰。",
+      "explanation": "hold someone close 表示把人緊緊抱在身邊。",
       "optionExplanations": [
-        "錯誤：抱著考卷不會讓分數變好；這裡不是安慰某人。",
+        "hold someone close 直接接人，不加 to。",
         "錯誤：天氣不是可以擁抱的人。",
-        "正確：弟弟害怕時緊緊抱著他，表示安慰。",
+        "hold someone close 表示把人緊緊抱在身邊。",
         "錯誤：關門可說 closed the door；這裡不能套用 hold someone close。"
       ]
     },
@@ -615,16 +615,16 @@
       "usage": "說一段時間或一群東西裡剩餘的部分時使用。",
       "prompt": "哪一句正確使用「The rest of」？",
       "options": [
-        "I rest of my shoes before I leave.",
-        "We ate the rest of the cake after dinner.",
+        "I rest of my money into the bank.",
+        "We spent the rest of the trip looking for Dad's camera.",
         "She is the rest of happy at school.",
         "He walked the rest of blue to the shop."
       ],
       "answer": 1,
-      "explanation": "正確：表示晚餐後吃掉剩下的蛋糕。",
+      "explanation": "the rest of the trip 指旅程餘下的時間；用法自然完整。",
       "optionExplanations": [
-        "錯誤：the rest of 不是動詞；穿鞋應說 put on my shoes。",
-        "正確：表示晚餐後吃掉剩下的蛋糕。",
+        "the rest of 表示剩餘部分，不能省略 the 並當作存款的動詞。",
+        "the rest of the trip 指旅程餘下的時間；用法自然完整。",
         "錯誤：不能用 the rest of 修飾 happy。",
         "錯誤：the rest of 後面應接可以有「剩餘部分」的名詞。"
       ]

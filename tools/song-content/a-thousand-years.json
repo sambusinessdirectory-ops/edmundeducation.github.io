@@ -283,15 +283,15 @@
       "prompt": "哪一句正確使用「Heart beats fast」？",
       "options": [
         "My heart beats fast to the supermarket every Sunday.",
-        "My heart beats fast when I speak in front of the class.",
+        "My heart beats fast before every driving lesson.",
         "I put my heart beats fast in the fridge.",
         "The chair heart beats fast when I sit down."
       ],
       "answer": 1,
-      "explanation": "正確：在人前說話很緊張，心跳會加快。",
+      "explanation": "heart beats fast 描述心跳加速；學開車前緊張符合情境。",
       "optionExplanations": [
         "錯誤：心不能「去超市」；要說 I go to the supermarket。",
-        "正確：在人前說話很緊張，心跳會加快。",
+        "heart beats fast 描述心跳加速；學開車前緊張符合情境。",
         "錯誤：這是描述心跳的句子，不是一樣能放進冰箱的東西。",
         "錯誤：椅子沒有心跳；這個片語用在有心跳的人或動物身上。"
       ]
@@ -303,16 +303,16 @@
       "usage": "害怕時仍願意嘗試或面對困難時使用。",
       "prompt": "哪一句正確使用「Be brave」？",
       "options": [
-        "She is brave because she tries again after she falls.",
-        "I brave my breakfast before school.",
+        "Be brave. Your first driving lesson has only one student!",
+        "I brave my ticket before I get on the train.",
         "We are brave the window every morning.",
         "He is brave at seven dollars."
       ],
       "answer": 0,
-      "explanation": "正確：跌倒後仍願意再試一次，是勇敢的表現。",
+      "explanation": "be brave 鼓勵人勇敢；這裡打趣學車時無須面對一大群人。",
       "optionExplanations": [
-        "正確：跌倒後仍願意再試一次，是勇敢的表現。",
-        "錯誤：brave 不是在這裡表示「吃」的動詞；要說 eat breakfast。",
+        "be brave 鼓勵人勇敢；這裡打趣學車時無須面對一大群人。",
+        "這裡要表達出示車票，應說 show my ticket。",
         "錯誤：be brave 不能直接接 window 當作動作；開窗要用 open。",
         "錯誤：勇敢不能用價錢來表示；七美元不是勇敢的程度。"
       ]
@@ -324,7 +324,7 @@
       "usage": "擔心或害怕去做某個動作；後面接動詞原形。",
       "prompt": "哪一句正確使用「Be afraid to」？",
       "options": [
-        "I am afraid to my blue shoes.",
+        "I am afraid to my first job interview.",
         "He is afraid to ask the teacher a question.",
         "She afraid to go home yesterday.",
         "They are afraid to happy today."
@@ -332,7 +332,7 @@
       "answer": 1,
       "explanation": "正確：be afraid to + 動詞，表示害怕做某事。",
       "optionExplanations": [
-        "錯誤：to 後面需要動詞；不能直接接 my blue shoes。",
+        "to 後面缺少動詞；可說 afraid to attend。",
         "正確：be afraid to + 動詞，表示害怕做某事。",
         "錯誤：少了 be 動詞；應說 She was afraid to go home。",
         "錯誤：happy 是形容詞；要說 afraid to be happy。"
@@ -346,16 +346,16 @@
       "prompt": "哪一句正確使用「Go away」？",
       "options": [
         "The red bag is go away on the table.",
-        "I go away my homework with a pencil.",
-        "She goes away a sandwich for lunch.",
+        "I go away my email with a new password.",
+        "She goes away a new dress for the party.",
         "The rain went away, and we went outside."
       ],
       "answer": 3,
       "explanation": "正確：這裡用 go away 表示雨停了、雨雲離開了。",
       "optionExplanations": [
         "錯誤：is go away 結構不正確；要描述袋子不見了可說 The bag is gone。",
-        "錯誤：go away 不能表示「寫功課」；要用 do my homework。",
-        "錯誤：go away 不是吃東西；應說 eats a sandwich。",
+        "登入郵箱應用 log in；go away 表示離開。",
+        "這裡想表達穿裙子，應用 wears。",
         "正確：這裡用 go away 表示雨停了、雨雲離開了。"
       ]
     },
@@ -366,17 +366,17 @@
       "usage": "朝目標有一點進展，或真的往某個地方靠近一步時使用。",
       "prompt": "哪一句正確使用「One step closer」？",
       "options": [
-        "We are one step closer to finishing our school project.",
-        "I ate one step closer with my rice.",
-        "The cat is one step closer than yesterday is blue.",
+        "One more lesson! We're one step closer to the show.",
+        "I paid one step closer for the concert ticket.",
+        "The bus is one step closer than tomorrow is late.",
         "She bought one step closer at the shop."
       ],
       "answer": 0,
-      "explanation": "正確：表示完成學校作業的目標又更近了一點。",
+      "explanation": "one step closer 表示向目標再接近一步。",
       "optionExplanations": [
-        "正確：表示完成學校作業的目標又更近了一點。",
-        "錯誤：one step closer 不是食物，不能搭配 ate。",
-        "錯誤：整個句子沒有清楚的比較對象，結構不自然。",
+        "one step closer 表示向目標再接近一步。",
+        "one step closer 表示更接近目標，不能當票價。",
+        "比較的對象和句子結構不成立，無法表達接近目標。",
         "錯誤：它不是可以在商店購買的物品。"
       ]
     },
@@ -387,18 +387,18 @@
       "usage": "拍照、排隊或需要暫時不要移動時使用。",
       "prompt": "哪一句正確使用「Stand still」？",
       "options": [
-        "He stands still his breakfast every day.",
+        "He stands still his new password every week.",
         "We stand still the bus to school.",
         "Please stand still while I take your photo.",
-        "My shoes stand still because they are hungry."
+        "My phone stands still because it wants a holiday."
       ],
       "answer": 2,
       "explanation": "正確：拍照時請對方站好不要動。",
       "optionExplanations": [
-        "錯誤：stand still 不能表示吃早餐；應說 eats his breakfast。",
+        "更改密碼應用 changes；stand still 表示站著不動。",
         "錯誤：坐公車應說 take the bus；stand still 不表示交通方式。",
         "正確：拍照時請對方站好不要動。",
-        "錯誤：鞋子不會餓；這裡的原因不合常理。"
+        "stand still 通常描述人停止走動；這裡也無法解釋手機的狀態。"
       ]
     },
     {
@@ -429,16 +429,16 @@
       "usage": "說明人或物所在的位置；後面通常接名詞。",
       "prompt": "哪一句正確使用「In front of」？",
       "options": [
-        "I in front of my homework every night.",
-        "The dog sleeps in front of the door.",
+        "I in front of my train ticket every morning.",
+        "Dad stands in front of the TV and misses his own goal.",
         "We are in front of happy at school.",
         "She drinks in front of yesterday."
       ],
       "answer": 1,
-      "explanation": "正確：狗睡在門前，表示位置。",
+      "explanation": "in front of 表示在前面；爸爸擋住了自己的視線。",
       "optionExplanations": [
-        "錯誤：這不是完整的動作句；做功課應說 I do my homework。",
-        "正確：狗睡在門前，表示位置。",
+        "in front of 是位置片語，不能代替句中的動詞。",
+        "in front of 表示在前面；爸爸擋住了自己的視線。",
         "錯誤：in front of 後面通常接地點或物品，不能直接接 happy。",
         "錯誤：yesterday 是時間，不是這裡可用的空間位置。"
       ]
@@ -451,17 +451,17 @@
       "prompt": "哪一句正確使用「All along」？",
       "options": [
         "I knew all along that you could do it.",
-        "He all along breakfast at eight.",
+        "He all along the office at nine.",
         "I put all along inside my schoolbag.",
-        "The cake is all along because it is chocolate."
+        "The hotel is all along because it has a pool."
       ],
       "answer": 0,
       "explanation": "正確：表示從一開始就相信對方做得到。",
       "optionExplanations": [
         "正確：表示從一開始就相信對方做得到。",
-        "錯誤：這不是正確句型；要說 He has breakfast at eight。",
+        "all along 表示一直，不能代替 arrived at 等動詞片語。",
         "錯誤：all along 不是可以放進書包的物品。",
-        "錯誤：all along 不用來形容蛋糕的口味。"
+        "all along 表示始終；有泳池無法讓旅館變成「一直」。"
       ]
     },
     {
@@ -472,7 +472,7 @@
       "prompt": "哪一句正確使用「Bring someone to」？",
       "options": [
         "The window brings my pencil to hungry.",
-        "I bring someone to my breakfast with milk.",
+        "I bring someone to my phone with a charger.",
         "She brings to happy me yesterday.",
         "My sister brings me to the park on Sundays."
       ],
@@ -480,7 +480,7 @@
       "explanation": "正確：bring + 人 + to + 地點，表示帶某人去某處。",
       "optionExplanations": [
         "錯誤：hungry 不是地點，窗戶也不會主動帶鉛筆去某處。",
-        "錯誤：用法不自然；若要說帶人來吃早餐，可說 I bring my friend to breakfast。",
+        "這裡要說替手機充電，bring someone to 無法表達這個意思。",
         "錯誤：字序和時態都不對；要清楚說明帶誰到哪裡。",
         "正確：bring + 人 + to + 地點，表示帶某人去某處。"
       ]

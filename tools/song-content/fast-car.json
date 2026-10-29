@@ -3276,18 +3276,18 @@
       "usage": "當兩個人討論後，同意交換或一起做某件事時使用。",
       "prompt": "哪一句正確使用「Make a deal」？",
       "options": [
-        "I made a deal with my sandwich, but it did not answer.",
-        "My brother and I made a deal: I wash the cups, and he cleans the table.",
+        "I made a deal of my train ticket to put it in my bag.",
+        "We made a deal: I drive, you choose the music.",
         "She made a deal the bus to go faster.",
-        "We made a deal of water because we were thirsty."
+        "We made a deal of music because the room was quiet."
       ],
       "answer": 1,
-      "explanation": "— 正確：兩人說好各自負責一項工作。",
+      "explanation": "make a deal 表示達成協議，這裡分配開車及選歌的工作。",
       "optionExplanations": [
-        "— 錯誤：三明治不能和人商量並達成協議。",
-        "— 正確：兩人說好各自負責一項工作。",
+        "make a deal 指達成協議，不能表示把車票放進袋裡。",
+        "make a deal 表示達成協議，這裡分配開車及選歌的工作。",
         "— 錯誤：這裡缺少 with，而且公車不是談條件的對象。",
-        "— 錯誤：喝水不能用 make a deal 表達。"
+        "播放音樂應用 played；make a deal 無法表達播放。"
       ]
     },
     {
@@ -3297,16 +3297,16 @@
       "usage": "談努力有成果，或真的到達某個地方時使用。",
       "prompt": "哪一句正確使用「Get somewhere」？",
       "options": [
-        "I get somewhere my shoes every day.",
-        "The soup got somewhere because it was too hot.",
+        "I get somewhere my first interview on Tuesday.",
+        "The meeting got somewhere by ending before it began.",
         "She got somewhere her pencil in her bag.",
         "We studied every day, and now we are finally getting somewhere."
       ],
       "answer": 3,
       "explanation": "— 正確：每天學習後終於有進步。",
       "optionExplanations": [
-        "— 錯誤：不能用 get somewhere 表達穿鞋。",
-        "— 錯誤：湯很燙與取得進展沒有關係。",
+        "get somewhere 後面不能直接接 interview；到場可說 get to。",
+        "結束早於開始不合邏輯，無法表達取得進展。",
         "— 錯誤：這不能表示把筆放進包包。",
         "— 正確：每天學習後終於有進步。"
       ]
@@ -3318,17 +3318,17 @@
       "usage": "想嘗試一件風險不大、即使失敗也不會失去什麼的事時使用。",
       "prompt": "哪一句正確使用「Nothing to lose」？",
       "options": [
-        "I have nothing to lose, so I must buy three new shoes.",
-        "The game is free, so I have nothing to lose by trying it.",
-        "My dog has nothing to lose because he lost his ball yesterday.",
+        "I have nothing to lose my photos into the new folder.",
+        "The trial is free; I've nothing to lose.",
+        "My uncle has nothing to lose, including all his savings if the plan fails.",
         "There is nothing to lose on the ceiling, so I need a ladder."
       ],
       "answer": 1,
-      "explanation": "— 正確：遊戲免費，嘗試不會有明顯損失。",
+      "explanation": "nothing to lose 表示試一試也沒有損失。",
       "optionExplanations": [
-        "— 錯誤：買鞋會花錢，句子未說明為何沒有損失。",
-        "— 正確：遊戲免費，嘗試不會有明顯損失。",
-        "— 錯誤：這裡混淆字面上遺失東西與慣用語。",
+        "nothing to lose 後面不能直接這樣接 photos；移動檔案可用 move。",
+        "nothing to lose 表示試一試也沒有損失。",
+        "句子說失敗會失去全部積蓄，與 nothing to lose 的意思矛盾。",
         "— 錯誤：這不是形容願意冒險嘗試的情況。"
       ]
     },
@@ -3340,16 +3340,16 @@
       "prompt": "哪一句正確使用「Nothing to prove」？",
       "options": [
         "My teacher has nothing to prove because the classroom has no windows.",
-        "There is nothing to prove in my soup, so I add salt.",
-        "I have nothing to prove, so I can enjoy singing even if I am not the best.",
+        "There is nothing to prove in my wallet, so I pay with it.",
+        "I've nothing to prove. I can dance badly in peace.",
         "She has nothing to prove her bike to the shop."
       ],
       "answer": 2,
-      "explanation": "— 正確：不必向別人證明自己最厲害。",
+      "explanation": "nothing to prove 表示無須向人證明自己，便可自在跳舞。",
       "optionExplanations": [
         "— 錯誤：教室沒有窗戶與是否需要證明自己無關。",
-        "— 錯誤：這個片語不能表示湯少了材料。",
-        "— 正確：不必向別人證明自己最厲害。",
+        "nothing to prove 表示不用證明自己，不能當作金錢。",
+        "nothing to prove 表示無須向人證明自己，便可自在跳舞。",
         "— 錯誤：不能這樣使用 prove 來表示騎車去商店。"
       ]
     },
@@ -3361,16 +3361,16 @@
       "prompt": "哪一句正確使用「Manage to」？",
       "options": [
         "He managed to happy with the new game.",
-        "I managed to finish my homework before dinner.",
-        "We managed to a big sandwich at lunch.",
+        "I managed to get a seat. It was next to my boss.",
+        "We managed to a long video call at nine.",
         "My phone managed to blue yesterday."
       ],
       "answer": 1,
-      "explanation": "— 正確：雖然可能不容易，但成功完成了作業。",
+      "explanation": "managed to 表示成功做到；座位偏偏在老闆旁，帶來小反差。",
       "optionExplanations": [
         "— 錯誤：to 後面需要動詞，可以說 managed to be happy。",
-        "— 正確：雖然可能不容易，但成功完成了作業。",
-        "— 錯誤：to 後面缺少動詞，例如 make 或 eat。",
+        "managed to 表示成功做到；座位偏偏在老闆旁，帶來小反差。",
+        "managed to 後面要接動詞原形，如 arrange。",
         "— 錯誤：to 後面缺少動詞，且顏色不表示成功完成的行動。"
       ]
     },
@@ -3382,7 +3382,7 @@
       "prompt": "哪一句正確使用「Take care of」？",
       "options": [
         "He takes care of his little sister after school.",
-        "I take care of my homework with a spoon.",
+        "I take care of my exam with a microphone to make it louder.",
         "She takes care of the rain so it will stop.",
         "We take care of hungry by opening the door."
       ],
@@ -3390,7 +3390,7 @@
       "explanation": "— 正確：放學後照顧妹妹。",
       "optionExplanations": [
         "— 正確：放學後照顧妹妹。",
-        "— 錯誤：用湯匙處理作業不符合正常語境。",
+        "take care of 表示照顧或處理，無法表示把考試音量調高。",
         "— 錯誤：人不能照顧雨來讓它停下。",
         "— 錯誤：hungry 是形容詞，不能這樣作為照顧的對象。"
       ]
@@ -3402,17 +3402,17 @@
       "usage": "當你從幾個選擇中決定要做哪一個時使用。",
       "prompt": "哪一句正確使用「Make a decision」？",
       "options": [
-        "I made a decision in the fridge and it became cold.",
-        "My cat made a decision of blue yesterday.",
-        "We need to make a decision: take the bus or walk?",
+        "I made a decision inside the printer to get a colour copy.",
+        "My cousin made a decision of purple yesterday.",
+        "Make a decision: beach holiday or another museum?",
         "We made a decision because the clock was hungry."
       ],
       "answer": 2,
-      "explanation": "— 正確：必須在搭公車和步行之間做選擇。",
+      "explanation": "make a decision 表示作出選擇。",
       "optionExplanations": [
-        "— 錯誤：決定不是可以放進冰箱變冷的東西。",
-        "— 錯誤：of blue 不能清楚表達選擇了什麼。",
-        "— 正確：必須在搭公車和步行之間做選擇。",
+        "列印彩色文件應用 print；make a decision 無法代替列印。",
+        "make a decision 後面不能用 of purple 表示選擇顏色。",
+        "make a decision 表示作出選擇。",
         "— 錯誤：時鐘不會肚子餓，原因不合理。"
       ]
     },
@@ -3423,16 +3423,16 @@
       "usage": "表示某物屬於某人，或自己覺得被某個團體接納時使用。",
       "prompt": "哪一句正確使用「Belong」？",
       "options": [
-        "I belong my dinner every evening.",
-        "The shoes belong in happy because they are red.",
+        "I belong my concert ticket every Friday.",
+        "The new office belongs in happy because it has large windows.",
         "We belong the rain on Mondays.",
         "This bag belongs to my sister."
       ],
       "answer": 3,
       "explanation": "— 正確：用 belongs to 表示包包是姐姐或妹妹的。",
       "optionExplanations": [
-        "— 錯誤：belong 不能直接接 dinner 來表示吃晚餐。",
-        "— 錯誤：in happy 不表示一個合理的位置或團體。",
+        "belong 不能直接接物件；表示所屬通常需要 to。",
+        "belongs in 後面需要地方或類別，不能直接接 happy。",
         "— 錯誤：belong 不能這樣用來描述天氣。",
         "— 正確：用 belongs to 表示包包是姐姐或妹妹的。"
       ]
@@ -3445,7 +3445,7 @@
       "prompt": "哪一句正確使用「Get promoted」？",
       "options": [
         "She worked hard and got promoted to manager.",
-        "I got promoted when I bought a bigger lunch.",
+        "I got promoted by turning my phone's sound up.",
         "My bicycle got promoted because it has two wheels.",
         "He got promoted his jacket on the wall."
       ],
@@ -3453,7 +3453,7 @@
       "explanation": "— 正確：努力工作後升任經理。",
       "optionExplanations": [
         "— 正確：努力工作後升任經理。",
-        "— 錯誤：買較大的午餐不表示工作升職。",
+        "調高手機音量與工作升職沒有相同意思。",
         "— 錯誤：腳踏車不能得到工作職位。",
         "— 錯誤：這不能表示把外套掛在牆上。"
       ]
@@ -3467,16 +3467,16 @@
       "options": [
         "She works at a shop to pay the bills.",
         "We pay the bills with our singing voices only.",
-        "I pay the bills by putting them in my shoes.",
-        "My dog paid the bills by barking at the moon."
+        "I pay the bills by putting them under my pillow and sleeping.",
+        "My brother paid the bills by calling the numbers on them pretty."
       ],
       "answer": 0,
       "explanation": "— 正確：靠商店工作所得支付生活開銷。",
       "optionExplanations": [
         "— 正確：靠商店工作所得支付生活開銷。",
         "— 錯誤：唱歌聲音本身通常不能用來直接支付帳單。",
-        "— 錯誤：把帳單放進鞋裡並不是付款。",
-        "— 錯誤：對月亮叫不能支付帳單。"
+        "把帳單放在枕頭下沒有完成付款，與 pay the bills 不符。",
+        "稱讚帳單上的數字沒有付錢，無法表達 pay the bills。"
       ]
     }
   ],

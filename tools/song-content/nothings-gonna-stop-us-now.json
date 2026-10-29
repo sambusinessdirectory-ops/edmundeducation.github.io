@@ -508,18 +508,18 @@
       "usage": "當事情太美好，讓人覺得不敢相信時使用。",
       "prompt": "哪一句正確使用「Too good to be true」？",
       "options": [
-        "The hotel is so nice and cheap. It seems too good to be true.",
-        "My sandwich is too good to be true because it is on the table.",
-        "I too good to be true my shoes before school.",
-        "The bus is too good to be true because it has four wheels."
+        "A free holiday? That sounds too good to be true.",
+        "I too good to be true the holiday offer.",
+        "She seems too good to be true to won the prize.",
+        "The free trip seem too good to be true yesterday."
       ],
       "answer": 0,
-      "explanation": "飯店又好又便宜，好得讓人不敢相信。",
+      "explanation": "too good to be true 指好得令人難以置信。",
       "optionExplanations": [
-        "飯店又好又便宜，好得讓人不敢相信。",
-        "三明治放在桌上，並不代表好得難以置信。",
-        "這個片語不能當動詞來表示穿鞋。",
-        "公車有四個輪子是普通事實，不是驚人的好事。"
+        "too good to be true 指好得令人難以置信。",
+        "too good to be true 是形容詞片語，不能作主要動詞。",
+        "to won 的形式不成立；此句沒有清楚表達好得令人難以置信的事情。",
+        "過去事件須用 seemed。"
       ]
     },
     {
@@ -529,17 +529,17 @@
       "usage": "說明人或物的位置，常用 beside + 人／物。",
       "prompt": "哪一句正確使用「Beside」？",
       "options": [
-        "I beside my homework after dinner.",
-        "The cat is sleeping beside my bag.",
-        "She drinks beside for breakfast.",
+        "I beside my manager at the concert.",
+        "I sat beside a famous actor and asked his name.",
+        "She beside to the hotel after the show.",
         "We beside to the park on Sunday."
       ],
       "answer": 1,
-      "explanation": "貓睡在我的包包旁邊，位置用法正確。",
+      "explanation": "beside 表示在旁邊，這裡不知道鄰座是名人。",
       "optionExplanations": [
-        "beside 是介系詞，不是「做功課」的動詞。",
-        "貓睡在我的包包旁邊，位置用法正確。",
-        "beside 後面需要有對象，不能單獨表示飲料。",
+        "beside 是介詞，句子需要 sat 等動詞。",
+        "beside 表示在旁邊，這裡不知道鄰座是名人。",
+        "beside 不能當作前往酒店的動詞。",
         "beside 不能當成「去」的動詞。"
       ]
     },
@@ -551,17 +551,17 @@
       "prompt": "哪一句正確使用「I don't care」？",
       "options": [
         "You can choose the movie. I don't care which one.",
-        "I don't care a cake for my birthday.",
+        "I don't care to which film you choose.",
         "I don't care my bike to school.",
-        "I don't care at seven every morning."
+        "He don't care which seat he gets."
       ],
       "answer": 0,
       "explanation": "表示對選哪部電影沒有特別意見。",
       "optionExplanations": [
         "表示對選哪部電影沒有特別意見。",
-        "不能用它代替「想要」蛋糕。",
+        "care 後接 which 子句時不加 to。",
         "不能用這個片語表示騎腳踏車。",
-        "不能拿來表示早上七點起床。"
+        "主詞 he 配 doesn't care，不能用 don't care。"
       ]
     },
     {
@@ -571,18 +571,18 @@
       "usage": "可以指真的向後看，也能指回顧過去的事。",
       "prompt": "哪一句正確使用「Look back」？",
       "options": [
-        "I look back my breakfast with orange juice.",
+        "I look back my holiday to remembered the beach.",
         "She looks back a new coat at the shop.",
         "When I look back on last summer, I smile.",
-        "We look back to our homework with a pencil."
+        "We looked back on to our first concert."
       ],
       "answer": 2,
       "explanation": "look back on 可以表示回想以前的經歷。",
       "optionExplanations": [
-        "不能用 look back 表示吃早餐。",
+        "回顧某事用 look back on；to remembered 也不正確。",
         "不能用它表示買衣服。",
         "look back on 可以表示回想以前的經歷。",
-        "這裡要說 do our homework，不能用 look back。"
+        "look back on 後直接接 our first concert，不加 to。"
       ]
     },
     {
@@ -592,7 +592,7 @@
       "usage": "物品破裂、散開時可用，也能形容計畫或關係出問題。",
       "prompt": "哪一句正確使用「Fall apart」？",
       "options": [
-        "I fall apart my lunch at twelve.",
+        "I fall apart the old stage with a hammer.",
         "My old chair fell apart when I sat on it.",
         "She falls apart to the library every day.",
         "My phone falls apart the music loudly."
@@ -600,7 +600,7 @@
       "answer": 1,
       "explanation": "椅子一坐就散掉，符合 fall apart 的意思。",
       "optionExplanations": [
-        "不能用來表示吃午餐。",
+        "fall apart 不及物；主動拆開可用 take apart。",
         "椅子一坐就散掉，符合 fall apart 的意思。",
         "不能用來表示走到圖書館。",
         "不能用來表示播放音樂。"
@@ -613,7 +613,7 @@
       "usage": "在遇到困難後成功，或準時到某個地方時使用。",
       "prompt": "哪一句正確使用「Make it」？",
       "options": [
-        "Please make it my soup with a spoon.",
+        "Please make it to arrived before the show.",
         "She makes it the window when it rains.",
         "I make it blue with my ears.",
         "The bus leaves in five minutes, but we can make it!"
@@ -621,7 +621,7 @@
       "answer": 3,
       "explanation": "表示即使時間緊，仍能及時趕上。",
       "optionExplanations": [
-        "這裡應該說 stir my soup，不能用 make it。",
+        "to 後不能接 arrived；可說 make it to the show。",
         "不能用 make it 代替關窗戶。",
         "這個句子沒有合理的動作或意思。",
         "表示即使時間緊，仍能及時趕上。"
@@ -634,18 +634,18 @@
       "usage": "通常用 have a heart-to-heart (talk) 表示兩人真誠談心。",
       "prompt": "哪一句正確使用「Heart to heart」？",
       "options": [
-        "I eat heart to heart with a fork.",
+        "I heart to heart my cousin about his new job.",
         "My sister and I had a heart-to-heart talk about school.",
         "The bus drives heart to heart at six.",
-        "I heart to heart my shoes before bed."
+        "We had a heart-to-heart to discussed our plans."
       ],
       "answer": 1,
       "explanation": "表示姊妹之間真誠談論學校的事情。",
       "optionExplanations": [
-        "不能把這個片語當成食物。",
+        "heart-to-heart 是名詞或形容詞，不能單獨作動詞。",
         "表示姊妹之間真誠談論學校的事情。",
         "不能用來形容公車行駛的時間。",
-        "不能把 heart to heart 當成穿鞋的動詞。"
+        "to 後用 discuss，不能接 discussed。"
       ]
     },
     {
@@ -657,16 +657,16 @@
       "options": [
         "I run out of to the beach every week.",
         "We run out of our bags on the chair.",
-        "We ran out of milk, so I went to the shop.",
-        "He runs out of his shoes to school."
+        "We ran out of money after one ride at the fair.",
+        "He ran out of to buy the concert tickets."
       ],
       "answer": 2,
-      "explanation": "牛奶喝完了，所以去商店買，意思正確。",
+      "explanation": "run out of 指用光，這裡很快花光錢。",
       "optionExplanations": [
         "run out of 不是跑到某個地方。",
         "這裡要用 put，並不是「用完包包」。",
-        "牛奶喝完了，所以去商店買，意思正確。",
-        "不能用它表示穿鞋去上學。"
+        "run out of 指用光，這裡很快花光錢。",
+        "run out of 後需要說明用光甚麼，不能直接接 to buy。"
       ]
     },
     {
@@ -679,7 +679,7 @@
         "I will study every day. I will do whatever it takes to pass.",
         "Whatever it takes is my new blue pencil.",
         "I whatever it takes my hair in the morning.",
-        "The dog is whatever it takes under the table."
+        "My cousin whatever it takes to win the race."
       ],
       "answer": 0,
       "explanation": "表示願意付出需要的努力以通過考試。",
@@ -687,7 +687,7 @@
         "表示願意付出需要的努力以通過考試。",
         "它不是物品名稱，不能表示鉛筆。",
         "不能把整個片語直接當成梳頭的動詞。",
-        "它不是表示狗位置的形容詞。"
+        "whatever it takes 不能單獨作主要動詞；可加 will do。"
       ]
     },
     {
@@ -697,17 +697,17 @@
       "usage": "可以指鬆開手中的東西，也可以指不再執著於過去。",
       "prompt": "哪一句正確使用「Let go」？",
       "options": [
-        "I let go my breakfast at eight.",
+        "I let go of to my suitcase.",
         "We let go the TV to watch a film.",
-        "She let go to the shop for some bread.",
+        "She let go the station by taxi.",
         "The balloon flew away when I let go of it."
       ],
       "answer": 3,
       "explanation": "鬆開氣球後它飛走了，搭配 let go of 正確。",
       "optionExplanations": [
-        "不能用 let go 表示吃早餐。",
+        "let go of 後直接接 suitcase，不加 to。",
         "這裡需要 turn on the TV，不是 let go。",
-        "這裡應用 went，let go 不能表示出門買東西。",
+        "let go 不能表示乘的士去車站。",
         "鬆開氣球後它飛走了，搭配 let go of 正確。"
       ]
     }

@@ -253,16 +253,16 @@
       "prompt": "哪一句正確使用了「For a while」？",
       "options": [
         "I bought for a while at the shop.",
-        "We sat in the park for a while and then went home.",
-        "My dog is a for a while.",
+        "We waited for a while. Dad was choosing a seat.",
+        "My new neighbour is a for a while.",
         "Please put the for a while on the table."
       ],
       "answer": 1,
-      "explanation": "正確：for a while 表示一段時間，這裡是坐了一會兒。",
+      "explanation": "for a while 表示一段時間。",
       "optionExplanations": [
         "錯誤：買東西要說 bought something，for a while 不能當商品。",
-        "正確：for a while 表示一段時間，這裡是坐了一會兒。",
-        "錯誤：for a while 是時間片語，不是動物的名字。",
+        "for a while 表示一段時間。",
+        "for a while 表示一段時間，無法當作一個人的稱呼。",
         "錯誤：for a while 不是可以放在桌上的東西。"
       ]
     },
@@ -274,7 +274,7 @@
       "prompt": "哪一句正確使用了「Hope for the best」？",
       "options": [
         "The test was hard, but I hope for the best.",
-        "I hope for the best my sandwich.",
+        "I hope for the best my interview on Monday.",
         "I hope for the best at seven o’clock yesterday.",
         "She hopes for the best to open the window."
       ],
@@ -282,7 +282,7 @@
       "explanation": "正確：考試雖然難，仍希望有好結果。",
       "optionExplanations": [
         "正確：考試雖然難，仍希望有好結果。",
-        "錯誤：hope for the best 不能直接接 my sandwich 表示吃三明治。",
+        "hope for the best 後面不能直接接 interview，應另用 for 等適當連接。",
         "錯誤：昨天的事應用過去式 hoped，且這裡的時間搭配不自然。",
         "錯誤：這個片語不是表示開窗戶的方法。"
       ]
@@ -295,16 +295,16 @@
       "prompt": "哪一句正確使用了「Expect the worst」？",
       "options": [
         "I expect the worst my phone in my bag.",
-        "The worst expects my breakfast every morning.",
-        "It may rain on our trip, so we expect the worst.",
+        "The worst expects my family photo every year.",
+        "Dad is singing tonight. Expect the worst.",
         "Please expect the worst under the chair."
       ],
       "answer": 2,
-      "explanation": "正確：可能遇上下雨，因此先想到不好的情況。",
+      "explanation": "expect the worst 指預料最壞情況，這裡以爸爸的歌聲開玩笑。",
       "optionExplanations": [
         "錯誤：expect the worst 不是把手機放進包包的意思。",
-        "錯誤：the worst 不是會期待早餐的人。",
-        "正確：可能遇上下雨，因此先想到不好的情況。",
+        "expect the worst 以人作主語，這裡把 worst 放在主語位置，意思不合。",
+        "expect the worst 指預料最壞情況，這裡以爸爸的歌聲開玩笑。",
         "錯誤：這是想法，不是可以放在椅子下的物品。"
       ]
     },
@@ -316,17 +316,17 @@
       "prompt": "哪一句正確使用了「Never say never」？",
       "options": [
         "Never say never is my new blue bag.",
-        "I never say never my homework yesterday.",
-        "She never say never a pizza for lunch.",
-        "I may try dancing one day. Never say never!"
+        "I never say never my passport yesterday.",
+        "She never say never a concert on Sunday.",
+        "Grandma might become a DJ. Never say never!"
       ],
       "answer": 3,
-      "explanation": "正確：表示現在不一定會跳舞，但將來有可能。",
+      "explanation": "never say never 表示別斷言事情絕不可能發生。",
       "optionExplanations": [
         "錯誤：這是勸人的說法，不是包包。",
-        "錯誤：不能直接把這個完整說法當動詞接 homework。",
-        "錯誤：句型不通，也不能拿來表示吃披薩。",
-        "正確：表示現在不一定會跳舞，但將來有可能。"
+        "never say never 不能直接接 passport；時間也與句中的動詞形式不合。",
+        "這個片語不能代替參加演唱會的動詞，主語搭配也不正確。",
+        "never say never 表示別斷言事情絕不可能發生。"
       ]
     },
     {
@@ -339,7 +339,7 @@
         "Can you imagine living on the moon?",
         "I imagine to the bus stop at eight.",
         "Please imagine the door with your key.",
-        "She imagines a sandwich to sleep."
+        "She imagines a timetable to sleep."
       ],
       "answer": 0,
       "explanation": "正確：imagine 後可接動名詞，表示想像住在月球上。",
@@ -347,7 +347,7 @@
         "正確：imagine 後可接動名詞，表示想像住在月球上。",
         "錯誤：這裡要用 go to the bus stop，imagine 不能直接代替 go。",
         "錯誤：用鑰匙開門要說 open 或 unlock，不是 imagine。",
-        "錯誤：想像與讓三明治睡覺沒有合理的用法。"
+        "這裡要說想像某物睡覺，應用 sleeping；目前結構不合。"
       ]
     },
     {
@@ -357,17 +357,17 @@
       "usage": "唱歌、演奏時音準正確，或大家慢慢變得有默契時使用。",
       "prompt": "哪一句正確使用了「Get in tune」？",
       "options": [
-        "I get in tune my shoes before school.",
+        "I get in tune my calendar before the meeting.",
         "The singers practise so they can get in tune.",
-        "My cat gets in tune a glass of milk.",
+        "My cousin gets in tune a birthday card.",
         "We got in tune the bus at the next stop."
       ],
       "answer": 1,
       "explanation": "正確：歌手練習，讓音調合得起來。",
       "optionExplanations": [
-        "錯誤：get in tune 不能用來表示穿鞋。",
+        "get in tune 表示調準音調或配合，不能直接接日曆作這個動作。",
         "正確：歌手練習，讓音調合得起來。",
-        "錯誤：這個片語不表示喝牛奶。",
+        "get in tune 後面不能直接接 birthday card。",
         "錯誤：搭公車應說 get on the bus，不是 get in tune。"
       ]
     },
@@ -380,7 +380,7 @@
       "options": [
         "Keep practising. Sooner or later, you will get better.",
         "Sooner or later is sitting next to my teacher.",
-        "I put sooner or later in my lunchbox.",
+        "I put sooner or later into the cash machine.",
         "She bought two sooner or laters at the store."
       ],
       "answer": 0,
@@ -388,7 +388,7 @@
       "optionExplanations": [
         "正確：表示持續練習後，總有一天會進步。",
         "錯誤：這個片語不是人，不能坐在老師旁邊。",
-        "錯誤：它是時間副詞片語，不是食物。",
+        "sooner or later 表示遲早，無法當成提款卡。",
         "錯誤：不能把它當可數的商品。"
       ]
     },
@@ -401,7 +401,7 @@
       "options": [
         "I painted the sky out of the blue with a spoon.",
         "Out of the blue, my old friend called me.",
-        "Please put your shoes out of the blue.",
+        "Please put your invitation out of the blue into the postbox.",
         "My brother wears out of the blue to school."
       ],
       "answer": 1,
@@ -409,7 +409,7 @@
       "optionExplanations": [
         "錯誤：out of the blue 不是指拿藍色顏料畫天空。",
         "正確：老朋友突然打電話來，讓人意想不到。",
-        "錯誤：這裡不是指一個能放鞋子的地點。",
+        "out of the blue 表示出乎意料，不能用來指郵筒的位置。",
         "錯誤：這不是衣服名稱。"
       ]
     },
@@ -423,7 +423,7 @@
         "Please come true the kitchen and wash your hands.",
         "I came true my bike to school.",
         "My dream of visiting Japan came true last year.",
-        "He comes true a banana every morning."
+        "He comes true a new haircut every month."
       ],
       "answer": 2,
       "explanation": "正確：旅行夢想真的實現了。",
@@ -431,7 +431,7 @@
         "錯誤：進廚房要說 come into the kitchen。",
         "錯誤：騎腳踏車應說 rode my bike；come true 不是交通動詞。",
         "正確：旅行夢想真的實現了。",
-        "錯誤：吃香蕉要用 eats；come true 不能表示吃東西。"
+        "come true 表示願望成真，不能代替理髮的動詞。"
       ]
     },
     {
@@ -441,7 +441,7 @@
       "usage": "談到永生、長久存在，或用誇張方式表達永遠不消失時使用。",
       "prompt": "哪一句正確使用了「Live forever」？",
       "options": [
-        "I live forever my homework at six.",
+        "I live forever my interview at six.",
         "We live forever to the cinema by bus.",
         "She lives forever a cup of tea on the table.",
         "No one can live forever, so enjoy today."
@@ -449,7 +449,7 @@
       "answer": 3,
       "explanation": "正確：live forever 表示永遠活著。",
       "optionExplanations": [
-        "錯誤：不能用 live forever 表示做功課。",
+        "live forever 後面不能直接接 interview；這裡缺少適當動詞。",
         "錯誤：搭車去電影院要說 go to the cinema。",
         "錯誤：放一杯茶要說 puts a cup of tea。",
         "正確：live forever 表示永遠活著。"

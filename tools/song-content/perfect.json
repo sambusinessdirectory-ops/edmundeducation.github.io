@@ -340,18 +340,18 @@
       "usage": "當你想鼓勵朋友不要一直等，直接開始一件新事情時，可以使用。",
       "prompt": "哪一句正確使用了「Dive right in」？",
       "options": [
-        "I wanted to learn to swim, so I dived right in and joined a class.",
-        "We dived right in our breakfast with a pencil.",
+        "I dived right in and joined the acting class.",
+        "We dived right in to started our first project.",
         "She dived right in the blue because it was Tuesday.",
-        "I dived right in my shoes because they were wet."
+        "I dive right in yesterday at the dance class."
       ],
       "answer": 0,
-      "explanation": "正確：直接報名課程，表示勇敢開始學習。",
+      "explanation": "dive right in 表示毫不拖延地投入或開始。",
       "optionExplanations": [
-        "正確：直接報名課程，表示勇敢開始學習。",
-        "錯誤：不能用鉛筆「投入」早餐；這個片語用來說開始活動。",
+        "dive right in 表示毫不拖延地投入或開始。",
+        "to 後用 start，不能接 started。",
         "錯誤：the blue 不能這樣接在 dive right in 後面。",
-        "錯誤：鞋子濕了不能用 dive right in 表示弄乾或穿鞋。"
+        "過去事件須用 dived right in。"
       ]
     },
     {
@@ -361,18 +361,18 @@
       "usage": "當你正在示範舞步、遊戲或新工作，希望別人照著做時可以說。",
       "prompt": "哪一句正確使用了「Follow my lead」？",
       "options": [
-        "Follow my lead into a glass of water and drink it.",
-        "Follow my lead, and put the chairs in the same place as me.",
-        "I followed my lead to eat a blue window.",
-        "The dog followed my lead because the cake was loud."
+        "Follow my lead to copied the dance steps.",
+        "Follow my lead; copy these very silly dance steps.",
+        "I followed my lead to his advice yesterday.",
+        "She follow my lead at yesterday's rehearsal."
       ],
       "answer": 1,
-      "explanation": "正確：請別人跟著自己的示範擺椅子。",
+      "explanation": "follow my lead 表示跟隨我的示範。",
       "optionExplanations": [
-        "錯誤：這裡不是請人模仿做事，而是把片語錯當成物品。",
-        "正確：請別人跟著自己的示範擺椅子。",
-        "錯誤：不能把窗戶當食物，也沒有清楚的示範對象。",
-        "錯誤：蛋糕不會很大聲，這句也沒有合理的帶領情境。"
+        "to 後用 copy，不能接 copied。",
+        "follow my lead 表示跟隨我的示範。",
+        "follow my lead 指讓別人跟隨自己，不能用此結構表示自己聽從他的意見。",
+        "過去事件應用 followed my lead。"
       ]
     },
     {
@@ -384,16 +384,16 @@
       "options": [
         "Mia fell in love with Ben after they spent time together.",
         "He falls in love to the bus stop every day.",
-        "I fell in love with my chair when it broke.",
-        "We fell in love the homework before dinner."
+        "I fell in love to my new neighbour.",
+        "We fell in love to met at the concert."
       ],
       "answer": 0,
       "explanation": "正確：表示 Mia 漸漸愛上 Ben。",
       "optionExplanations": [
         "正確：表示 Mia 漸漸愛上 Ben。",
         "錯誤：去公車站不能使用 fall in love to。",
-        "錯誤：椅子壞掉與愛情無關，這裡不符合一般用法。",
-        "錯誤：fall in love 後面需要 with 才能接對象。"
+        "fall in love 後接對象用 with，不能用 to。",
+        "to met 的連接不成立；可說 after meeting at the concert。"
       ]
     },
     {
@@ -404,7 +404,7 @@
       "prompt": "哪一句正確使用了「Give someone up」？",
       "options": [
         "They gave the rain up to make it sunny.",
-        "I gave my friend up a bottle of juice.",
+        "I gave my friend up to helped her.",
         "She gave up him a ticket yesterday.",
         "I won’t give you up when things get difficult."
       ],
@@ -412,7 +412,7 @@
       "explanation": "正確：表示即使遇到困難，也不會放棄對方。",
       "optionExplanations": [
         "錯誤：人無法用 give up 控制雨停。",
-        "錯誤：給朋友果汁應說 gave my friend a bottle of juice。",
+        "to helped 的形式錯誤；give someone up 也不表示提供幫助。",
         "錯誤：代名詞 him 應放在 give 和 up 中間，而且此句想表達給票。",
         "正確：表示即使遇到困難，也不會放棄對方。"
       ]
@@ -424,18 +424,18 @@
       "usage": "當周圍沒有光，或自己不清楚事情的情況時可以使用。",
       "prompt": "哪一句正確使用了「In the dark」？",
       "options": [
-        "I ate in the dark of a blue idea.",
+        "I in the dark to found my lost ring.",
         "We used a small light to read in the dark.",
         "She in the dark to school at nine.",
-        "My phone is in the dark because it is hungry."
+        "We waited in the dark tomorrow."
       ],
       "answer": 1,
       "explanation": "正確：在沒有足夠光線的地方閱讀，所以需要小燈。",
       "optionExplanations": [
-        "錯誤：dark of a blue idea 不是自然的英文搭配。",
+        "in the dark 不能單獨作動詞；to found 也不正確。",
         "正確：在沒有足夠光線的地方閱讀，所以需要小燈。",
         "錯誤：缺少動詞，而且片語不能直接表示去學校。",
-        "錯誤：手機不會餓，也不是用這片語描述電量。"
+        "waited 是過去式，與 tomorrow 不配合。"
       ]
     },
     {
@@ -446,17 +446,17 @@
       "prompt": "哪一句正確使用了「Barefoot」？",
       "options": [
         "He bought a barefoot to wear to school.",
-        "My bag was barefoot because it had no books.",
+        "My uncle barefoot across the stage.",
         "I walked barefoot on the beach.",
-        "We ate barefoot with a spoon of music."
+        "She walked barefoot to danced on the beach."
       ],
       "answer": 2,
       "explanation": "正確：表示在海灘上赤腳走路。",
       "optionExplanations": [
         "錯誤：barefoot 不是可以買來穿的鞋子。",
-        "錯誤：barefoot 描述人沒有穿鞋，不能描述空書包。",
+        "barefoot 是形容詞或副詞，句子仍需要 walked 等動詞。",
         "正確：表示在海灘上赤腳走路。",
-        "錯誤：音樂不能用湯匙吃；這也不是赤腳的情境。"
+        "to 後用 dance，不能接 danced。"
       ]
     },
     {
@@ -467,16 +467,16 @@
       "prompt": "哪一句正確使用了「Look a mess」？",
       "options": [
         "I look a mess after playing in the rain.",
-        "They look a mess their lunch at noon.",
-        "The clock looks a mess because it is three o’clock.",
+        "They look a mess to arrived at the wedding.",
+        "I look a mess yesterday after painting the wall.",
         "She looks a mess to the supermarket every Sunday."
       ],
       "answer": 0,
       "explanation": "正確：淋雨後外表狼狽，很適合用這個片語。",
       "optionExplanations": [
         "正確：淋雨後外表狼狽，很適合用這個片語。",
-        "錯誤：look a mess 後面不能直接接 lunch 作受詞。",
-        "錯誤：三點鐘本身不能說明時鐘很亂。",
+        "to arrived 的形式不成立。",
+        "過去事件須用 looked a mess。",
         "錯誤：這個片語不能表示去超市。"
       ]
     },
@@ -487,17 +487,17 @@
       "usage": "當朋友或家人希望達成同一個目標時可以使用。",
       "prompt": "哪一句正確使用了「Share a dream」？",
       "options": [
-        "I shared a dream with my sandwich, and it answered me.",
-        "She shared a dream into the kitchen with a shoe.",
-        "He shares a dream to wash the moon every Monday.",
+        "I shared a dream to my cousin.",
+        "She share a dream with her partner last year.",
+        "He shares a dream to opened a theatre.",
         "We share a dream to open a little café one day."
       ],
       "answer": 3,
       "explanation": "正確：表示兩個人有開咖啡店的共同夢想。",
       "optionExplanations": [
-        "錯誤：三明治無法分享夢想或回答問題。",
-        "錯誤：share a dream 不接 into the kitchen 表示移動。",
-        "錯誤：清洗月亮不是一般合理的共同目標。",
+        "share something with someone 的介詞要用 with。",
+        "過去事件須用 shared a dream。",
+        "to 後用 open，不能接 opened。",
         "正確：表示兩個人有開咖啡店的共同夢想。"
       ]
     },
@@ -508,17 +508,17 @@
       "usage": "當一個人面對很多困難，卻仍努力成功時使用。",
       "prompt": "哪一句正確使用了「Against all odds」？",
       "options": [
-        "Against all odds, my spoon became a bus at noon.",
-        "We walked against all odds to buy two apples.",
-        "Against all odds, she finished the long race after hurting her foot.",
+        "Against all odds to won the race.",
+        "She won against all odds yesterday tomorrow.",
+        "Against all odds, Grandma won her first singing contest.",
         "I put against all odds inside my bag."
       ],
       "answer": 2,
-      "explanation": "正確：腳受傷後仍完成長跑，表示克服很大的困難。",
+      "explanation": "against all odds 表示克服重重困難或在不被看好的情況下成功。",
       "optionExplanations": [
-        "錯誤：湯匙變成公車不是現實中的困難或成功。",
-        "錯誤：平常買蘋果不算是克服極大的困難。",
-        "正確：腳受傷後仍完成長跑，表示克服很大的困難。",
+        "句子缺少主詞與主要動詞；to won 也不正確。",
+        "同一事件同時配 yesterday 與 tomorrow，時間互相衝突。",
+        "against all odds 表示克服重重困難或在不被看好的情況下成功。",
         "錯誤：against all odds 不是可以放進書包的物品。"
       ]
     },
@@ -529,7 +529,7 @@
       "usage": "當你相信某人的能力，或相信一件事情會有好結果時使用。",
       "prompt": "哪一句正確使用了「Have faith in」？",
       "options": [
-        "We had faith in a sandwich for breakfast and ate it.",
+        "We had faith to our coach.",
         "I have faith in my brother because he always tries his best.",
         "He has faith in loudly every Friday.",
         "She has faith in to the park by bus."
@@ -537,7 +537,7 @@
       "answer": 1,
       "explanation": "正確：表示相信弟弟的能力和努力。",
       "optionExplanations": [
-        "錯誤：早餐吃三明治通常不需要用「有信心」來描述。",
+        "have faith in 的介詞是 in，不能換成 to。",
         "正確：表示相信弟弟的能力和努力。",
         "錯誤：loudly 是副詞，不能直接當作這裡的信任對象。",
         "錯誤：have faith in 後面不能接 to the park 表示交通方式。"

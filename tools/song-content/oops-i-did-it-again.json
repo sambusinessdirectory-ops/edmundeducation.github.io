@@ -366,18 +366,18 @@
       "usage": "當某件事情已經做過，現在又重複做時，可以使用。",
       "prompt": "哪一句正確使用了「Do it again」？",
       "options": [
-        "I ate five cakes yesterday, and I did it again today.",
-        "I did it again for my brother, so he is now ten years old.",
-        "I did it again in my bag, so I found my pencil.",
-        "My lunch did it again because it was very hot."
+        "I called my boss “Mum” again. Yes, I did it again.",
+        "I did it again to called the wrong number.",
+        "She do it again yesterday at the dance class.",
+        "We did it again very ten years old."
       ],
       "answer": 0,
-      "explanation": "正確。昨天吃了五個蛋糕，今天又做一樣的事，表示「再次做」。",
+      "explanation": "do it again 表示再次做了同一件事。",
       "optionExplanations": [
-        "正確。昨天吃了五個蛋糕，今天又做一樣的事，表示「再次做」。",
-        "錯誤。do it again 不能表示「讓某人長大」；可以說 My brother is ten now.",
-        "錯誤。找東西不能直接用 do it again 表示；應說 I looked in my bag again.",
-        "錯誤。午餐不會自己「再做一次」；要說 My lunch was very hot."
+        "do it again 表示再次做了同一件事。",
+        "to 後用 call，不能接 called。",
+        "過去事件須用 did it again。",
+        "did it again 不能接 very ten years old 描述年齡。"
       ]
     },
     {
@@ -387,18 +387,18 @@
       "usage": "當兩人的關係可能是戀愛關係，而不只是朋友時，可以使用。",
       "prompt": "哪一句正確使用了「More than just friends」？",
       "options": [
-        "My shoes are more than just friends because they are new.",
+        "They more than just friends after the trip.",
         "Tom and Mia are more than just friends. They are dating.",
-        "I ate more than just friends for breakfast.",
-        "Our bus is more than just friends because it is late."
+        "I more than just friends my neighbour.",
+        "We are more than just friends to dated for a year."
       ],
       "answer": 1,
       "explanation": "正確。兩人正在約會，關係不只是普通朋友。",
       "optionExplanations": [
-        "錯誤。鞋子不是朋友；這個片語是用來描述人與人的關係。",
+        "more than just friends 是名詞片語，句子缺少 are 等動詞。",
         "正確。兩人正在約會，關係不只是普通朋友。",
-        "錯誤。friends 是人，不能當早餐吃；可說 I ate more than just bread.",
-        "錯誤。公車遲到和朋友關係沒有關係；可說 Our bus is late."
+        "more than just friends 不能單獨作動詞。",
+        "to dated 的連接不成立；可另說 We have dated for a year。"
       ]
     },
     {
@@ -408,17 +408,17 @@
       "usage": "當你喜歡某人，但還不是正式交往時，可以使用 have a crush on + 人。",
       "prompt": "哪一句正確使用了「Have a crush on」？",
       "options": [
-        "I have a crush on my math test, so I failed it.",
-        "She has a crush on the door, so it is open.",
-        "We have a crush on the soup because it is too hot.",
+        "I have a crush to the new singer.",
+        "She has a crush on to her neighbour.",
+        "We has a crush on the same actor.",
         "I have a crush on Sam, but I am too shy to tell him."
       ],
       "answer": 3,
       "explanation": "正確。對 Sam 有好感，但害羞不敢說，符合「暗戀」。",
       "optionExplanations": [
-        "錯誤。這裡不是在說喜歡某個人；可以說 My math test was hard.",
-        "錯誤。開門不能用 crush on；可以說 She opened the door.",
-        "錯誤。湯太燙不表示暗戀；可說 The soup is too hot.",
+        "have a crush 後接對象用 on，不能用 to。",
+        "on 後直接接 her neighbour，不加 to。",
+        "主詞 we 配 have，不能用 has。",
         "正確。對 Sam 有好感，但害羞不敢說，符合「暗戀」。"
       ]
     },
@@ -431,16 +431,16 @@
       "options": [
         "That seems like a good idea. Let’s try it!",
         "She seems like to go home at six.",
-        "The rain seems like a sandwich today.",
-        "I seem like my homework on the table every day."
+        "The plan seems like to a good idea.",
+        "I seem like to danced on stage."
       ],
       "answer": 0,
       "explanation": "正確。用 seem like 表示「聽起來／看起來是個好主意」。",
       "optionExplanations": [
         "正確。用 seem like 表示「聽起來／看起來是個好主意」。",
         "錯誤。seem like 後面不能直接接 to + 動詞；可以說 She seems to want to go home.",
-        "錯誤。雨和三明治沒有合理的相似之處；可說 The cloud looks like a sandwich.",
-        "錯誤。seem like 不是「放」的意思；可說 I put my homework on the table."
+        "seems like 後直接接名詞片語，不加 to。",
+        "seem like 後不能接 to danced。"
       ]
     },
     {
@@ -450,16 +450,16 @@
       "usage": "當你想表明你是真的這樣想，不是在開玩笑時，可以使用。",
       "prompt": "哪一句正確使用了「Be serious」？",
       "options": [
-        "I am serious my breakfast every morning.",
-        "Are you serious? You really bought ten hats for your cat?",
+        "I am serious to my first interview yesterday.",
+        "Are you serious? You invited the whole street?",
         "He is serious the window because it is cold.",
         "Please serious the music before bed."
       ],
       "answer": 1,
-      "explanation": "正確。聽到很驚訝的事情時，用 Are you serious? 確認對方是不是認真的。",
+      "explanation": "Are you serious? 用來確認令人驚訝的消息。",
       "optionExplanations": [
-        "錯誤。be serious 不能直接當作「吃早餐」；應說 I eat breakfast every morning.",
-        "正確。聽到很驚訝的事情時，用 Are you serious? 確認對方是不是認真的。",
+        "serious 後可用 about；現在式 am 也不配 yesterday。",
+        "Are you serious? 用來確認令人驚訝的消息。",
         "錯誤。serious 不是「關窗戶」；應說 He closes the window.",
         "錯誤。serious 不是動詞，不能這樣使用；可說 Please turn off the music."
       ]
@@ -471,16 +471,16 @@
       "usage": "當人不知道自己在哪裡，或不知道該往哪裡走時，可以使用。",
       "prompt": "哪一句正確使用了「Get lost」？",
       "options": [
-        "I got lost in my sandwich and ate it at noon.",
-        "My phone got lost at speaking English.",
+        "I got lost to the hotel yesterday.",
+        "We get lost yesterday near the museum.",
         "We got lost in the city, so we asked a man for help.",
         "She got lost the TV because it was funny."
       ],
       "answer": 2,
       "explanation": "正確。在城市中找不到方向，所以向人求助。",
       "optionExplanations": [
-        "錯誤。吃三明治不能說迷路在三明治裡；應說 I ate my sandwich at noon.",
-        "錯誤。get lost 不是「學會說英文」；可說 My phone can speak English.",
+        "迷路於某地用 got lost in；got lost to 不表示前往某地。",
+        "過去事件應用 got lost。",
         "正確。在城市中找不到方向，所以向人求助。",
         "錯誤。get lost 不能這樣接電視；可說 She watched the funny show."
       ]
@@ -492,18 +492,18 @@
       "usage": "當一個人對另一個人有深厚的愛情時，可以使用 be in love (with someone)。",
       "prompt": "哪一句正確使用了「In love」？",
       "options": [
-        "I am in love my school bag with a pen.",
+        "I am in love to the new actor.",
         "Nina is in love with Alex. She smiles whenever she sees him.",
         "They are in love the bus at eight.",
-        "The pizza is in love because it has cheese."
+        "They in love after their first date."
       ],
       "answer": 1,
       "explanation": "正確。in love with + 人，表示 Nina 愛上 Alex。",
       "optionExplanations": [
-        "錯誤。in love 不是把筆放進書包；應說 I put a pen in my school bag.",
+        "in love 後接對象用 with，不能用 to。",
         "正確。in love with + 人，表示 Nina 愛上 Alex。",
         "錯誤。搭公車不會用 in love；應說 They are on the bus at eight.",
-        "錯誤。有起司不表示披薩在戀愛；應說 The pizza has cheese."
+        "in love 描述狀態，前面需要 are 等動詞。"
       ]
     },
     {
@@ -516,7 +516,7 @@
         "Leo did not take the money. He is innocent.",
         "I innocent my bike to the park after lunch.",
         "She has an innocent on her desk for writing.",
-        "My soup is innocent because I made it with milk."
+        "My cousin innocent to the missing money."
       ],
       "answer": 0,
       "explanation": "正確。Leo 沒有拿走錢，所以是無辜的。",
@@ -524,7 +524,7 @@
         "正確。Leo 沒有拿走錢，所以是無辜的。",
         "錯誤。innocent 是形容詞，不是騎車的動詞；應說 I rode my bike to the park.",
         "錯誤。innocent 不是文具名稱；可說 She has a pencil on her desk.",
-        "錯誤。湯裡有牛奶，不表示湯「無辜」；innocent 通常用來說人。"
+        "innocent 是形容詞，不能單獨作動詞；此句的介詞也不合適。"
       ]
     },
     {
@@ -534,16 +534,16 @@
       "usage": "當你想請對方暫停，或突然想到一件事時，可以使用。",
       "prompt": "哪一句正確使用了「Wait a minute」？",
       "options": [
-        "The cake waited a minute and became a dog.",
-        "I wait a minute my shoes before school.",
+        "Wait a minute to checked the address.",
+        "I wait a minute my manager yesterday.",
         "Wait a minute! I left my phone at home.",
         "We wait a minute the door so it stays open."
       ],
       "answer": 2,
       "explanation": "正確。突然想起手機忘在家裡，用這句請人稍等。",
       "optionExplanations": [
-        "錯誤。蛋糕不會因為等一下就變成狗；這個片語是用來要求暫停。",
-        "錯誤。wait a minute 不能當作穿鞋；應說 I put on my shoes.",
+        "to 後用 check，不能接 checked。",
+        "wait a minute 不能直接接 my manager；過去事件也須用 waited。",
         "正確。突然想起手機忘在家裡，用這句請人稍等。",
         "錯誤。要說「扶住門」應用 hold the door，而不是 wait a minute."
       ]
@@ -555,18 +555,18 @@
       "usage": "別人送你禮物或特別幫你做了好事時，可以用來表示驚喜與感謝。",
       "prompt": "哪一句正確使用了「You shouldn’t have」？",
       "options": [
-        "You shouldn’t have! My pencil is under the desk.",
-        "I you shouldn’t have my homework every Monday.",
-        "You shouldn’t have the bus because it is yellow.",
-        "You bought me flowers? You shouldn’t have! Thank you!"
+        "You shouldn't have to bought me a gift.",
+        "I you shouldn't have my birthday present.",
+        "You shouldn't have buy me flowers!",
+        "You bought me flowers? You shouldn't have! Thank you!"
       ],
       "answer": 3,
-      "explanation": "正確。收到花時客氣地表達感謝，這是很自然的用法。",
+      "explanation": "You shouldn't have! 可用來客氣地感謝別人的禮物。",
       "optionExplanations": [
-        "錯誤。鉛筆在桌下不涉及收到禮物；可以說 My pencil is under the desk.",
-        "錯誤。You shouldn’t have 是固定句型，不可直接當一般動詞使用。",
-        "錯誤。這裡不是說對方做了貼心的事；不能用這句表示公車是黃色。",
-        "正確。收到花時客氣地表達感謝，這是很自然的用法。"
+        "shouldn't have 後接過去分詞 bought，不加 to。",
+        "You shouldn't have 是完整說法，不能插在 I 與受詞之間當動詞。",
+        "shouldn't have 後要用過去分詞 bought，不能用 buy。",
+        "You shouldn't have! 可用來客氣地感謝別人的禮物。"
       ]
     }
   ],

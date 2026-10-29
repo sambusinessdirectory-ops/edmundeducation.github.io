@@ -3010,17 +3010,17 @@
       "prompt": "哪一句正確使用了「Come to pass」？",
       "options": [
         "I come to pass my school every morning.",
-        "She came to pass a glass of water.",
+        "She came to pass to the cinema by taxi.",
         "We came to pass at seven o’clock for dinner.",
-        "No one knows how this strange thing came to pass."
+        "How did this strange mix-up come to pass?"
       ],
       "answer": 3,
-      "explanation": "正確：come to pass 表示事情發生了。",
+      "explanation": "come to pass 表示發生，這裡問這場誤會如何發生。",
       "optionExplanations": [
         "錯誤：這裡是「經過學校」，應說 I pass my school。",
-        "錯誤：遞水給別人用 pass a glass of water，不用 come to pass。",
+        "come to pass 指事情發生，不能表示乘的士前往戲院。",
         "錯誤：說約好吃飯要用 met，不能用 come to pass。",
-        "正確：come to pass 表示事情發生了。"
+        "come to pass 表示發生，這裡問這場誤會如何發生。"
       ]
     },
     {
@@ -3030,17 +3030,17 @@
       "usage": "談身邊的人或事物，例如朋友、書、音樂。",
       "prompt": "哪一句正確使用了「Surround yourself with」？",
       "options": [
-        "I surround myself with my shoes at eight.",
-        "He surrounds himself to a red apple.",
-        "She surrounds herself with kind friends.",
+        "I surround myself with to meet new people.",
+        "He surrounds himself to friendly neighbours.",
+        "She surrounds herself with friends who enjoy terrible jokes.",
         "We surround ourselves from the bus stop."
       ],
       "answer": 2,
-      "explanation": "正確：表示她讓自己身邊有善良的朋友。",
+      "explanation": "surround yourself with 指讓某些人常在自己身邊。",
       "optionExplanations": [
-        "錯誤：這句把鞋子當成時間活動，意思不自然。",
-        "錯誤：應使用 with，而不是 to。",
-        "正確：表示她讓自己身邊有善良的朋友。",
+        "with 後要接名詞或動名詞，不能接 to meet。",
+        "surround yourself with 的介詞是 with，不能換成 to。",
+        "surround yourself with 指讓某些人常在自己身邊。",
         "錯誤：應使用 with，而不是 from。"
       ]
     },
@@ -3052,7 +3052,7 @@
       "prompt": "哪一句正確使用了「All to myself」？",
       "options": [
         "I had the whole beach all to myself.",
-        "I all to myself my breakfast every day.",
+        "I all to myself the swimming pool today.",
         "She has all to myself a new book.",
         "They are all to myself at school."
       ],
@@ -3060,7 +3060,7 @@
       "explanation": "正確：表示整片海灘只有我一個人享受。",
       "optionExplanations": [
         "正確：表示整片海灘只有我一個人享受。",
-        "錯誤：all to myself 不能放在動詞前當一般動詞用。",
+        "all to myself 不能單獨作動詞；可說 have the swimming pool all to myself。",
         "錯誤：主詞是 she，應用 all to herself，且位置不自然。",
         "錯誤：they 與 myself 不搭配，這句也沒有清楚表示獨享什麼。"
       ]
@@ -3072,18 +3072,18 @@
       "usage": "事情發展後出現了某個結果，常用 end up + -ing 或 end up + 地點。",
       "prompt": "哪一句正確使用了「End up」？",
       "options": [
-        "I end up my shoes before school.",
+        "I end up my interview into the lift.",
         "We missed the bus and ended up walking home.",
         "She ended up to sing at the party.",
-        "We end up happy the pizza yesterday."
+        "We end up missed the last train yesterday."
       ],
       "answer": 1,
       "explanation": "正確：表示最後只好走路回家。",
       "optionExplanations": [
-        "錯誤：穿鞋用 put on my shoes，end up 不是「穿上」。",
+        "end up 表示最後到達某處或處於某狀態，不能這樣接 my interview。",
         "正確：表示最後只好走路回家。",
         "錯誤：要說 ended up singing，不用 to sing。",
-        "錯誤：缺少清楚的結構，而且 yesterday 要搭配過去式。"
+        "過去事件須用 ended up；後接動作要用 missing。"
       ]
     },
     {
@@ -3093,18 +3093,18 @@
       "usage": "答應別人一件事卻沒有做到時。",
       "prompt": "哪一句正確使用了「Break a promise」？",
       "options": [
-        "I broke a promise into two pieces with a knife.",
-        "He broke his promise and did not come to my party.",
-        "She broke a promise to turn on the TV.",
-        "We break a promise because the window is open."
+        "I break a promise my cousin very tall.",
+        "He broke his promise and missed our anniversary again.",
+        "She broke a promise to meeting us at six.",
+        "We break a promise yesterday about the money."
       ],
       "answer": 1,
-      "explanation": "正確：他答應要來卻沒來，就是違背承諾。",
+      "explanation": "break a promise 指沒有履行承諾。",
       "optionExplanations": [
-        "錯誤：promise 是承諾，不是能用刀切開的物品。",
-        "正確：他答應要來卻沒來，就是違背承諾。",
-        "錯誤：如果只是開電視，不是在說違背承諾。",
-        "錯誤：窗戶開著與違背承諾沒有關係。"
+        "break a promise 指違背承諾，不能接 my cousin very tall 描述身高。",
+        "break a promise 指沒有履行承諾。",
+        "promise 後接 to meet；to meeting 的形式不正確。",
+        "yesterday 是過去時間，這裡須用 broke。"
       ]
     },
     {
@@ -3115,16 +3115,16 @@
       "prompt": "哪一句正確使用了「Move along」？",
       "options": [
         "After the show, people moved along to the next room.",
-        "I moved along my homework with a spoon.",
-        "She moved along her blue shoes on Monday.",
+        "I moved along to waited outside the theatre.",
+        "She moved along very three years old.",
         "He moved along to sleeping at nine."
       ],
       "answer": 0,
       "explanation": "正確：表示人們繼續往下一個房間走。",
       "optionExplanations": [
         "正確：表示人們繼續往下一個房間走。",
-        "錯誤：move along 不能表示用湯匙做作業。",
-        "錯誤：這裡不像在說繼續前進，也缺乏自然句意。",
+        "to 後用原形 wait，不能接 waited。",
+        "move along 不能接年齡片語 very three years old。",
         "錯誤：這裡應說 went to sleep，不是 moved along to sleeping。"
       ]
     },
@@ -3137,16 +3137,16 @@
       "options": [
         "There was a time when we played together every day.",
         "There was a time when my bag is under the chair tomorrow.",
-        "There was a time when to eat lunch at school.",
-        "There was a time when blue and very table."
+        "There was a time when to visit that old cinema.",
+        "There was a time when my uncle are a dancer."
       ],
       "answer": 0,
       "explanation": "正確：描述以前曾有一段天天一起玩的日子。",
       "optionExplanations": [
         "正確：描述以前曾有一段天天一起玩的日子。",
         "錯誤：was 與 tomorrow 的未來時間不一致。",
-        "錯誤：when 後面需要完整的子句，例如 I ate lunch。",
-        "錯誤：when 後面不是完整、有意思的句子。"
+        "when 後缺少主詞與完整動詞，例如 we visited。",
+        "過去時間的單數主詞 my uncle 應配 was。"
       ]
     },
     {
@@ -3177,16 +3177,16 @@
       "usage": "可以指真的往前拉，也可以比喻幫助人向前走。",
       "prompt": "哪一句正確使用了「Pull someone forward」？",
       "options": [
-        "I pulled forward my dinner with my mouth.",
-        "My friend pulled me forward when I was too tired to walk.",
+        "I pulled forward to my brother the crowded room.",
+        "My friend pulled me forward through the crowd.",
         "She pulled me forward yesterday’s weather.",
         "We pulled forward at my pencil on the desk."
       ],
       "answer": 1,
-      "explanation": "正確：朋友拉著我向前走。",
+      "explanation": "pull someone forward 表示把某人往前拉。",
       "optionExplanations": [
-        "錯誤：吃晚餐用 eat dinner，不能這樣用 pull forward。",
-        "正確：朋友拉著我向前走。",
+        "此句的受詞及介詞位置不成立；可說 pulled my brother forward。",
+        "pull someone forward 表示把某人往前拉。",
         "錯誤：句子把天氣接在後面，沒有自然或清楚的意思。",
         "錯誤：這裡的介系詞和受詞位置不正確。"
       ]
@@ -3198,7 +3198,7 @@
       "usage": "回想以前認識的人，或說自己不會忘記某人。",
       "prompt": "哪一句正確使用了「Remember someone」？",
       "options": [
-        "I remember my tea with two sugars quickly.",
+        "I remember to my first boss very well.",
         "She remembers to her friend from school.",
         "We remembered the music to blue yesterday.",
         "I still remember my first teacher."
@@ -3206,7 +3206,7 @@
       "answer": 3,
       "explanation": "正確：表示我還記得第一位老師。",
       "optionExplanations": [
-        "錯誤：這句像是在說喝茶，remember 不是喝的意思。",
+        "remember someone 直接接人，不加 to。",
         "錯誤：直接說 remembers her friend，不加 to。",
         "錯誤：後面的 to blue 不自然，也無法表達記得誰。",
         "正確：表示我還記得第一位老師。"

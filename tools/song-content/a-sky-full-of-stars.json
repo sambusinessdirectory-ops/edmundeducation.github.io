@@ -160,18 +160,18 @@
       "usage": "形容一個地方或東西有很多某種事物。",
       "prompt": "哪一句正確使用「full of」？",
       "options": [
-        "My bag is full of books, so it is heavy.",
+        "The lift is full of actors in giant hats.",
         "My bag full of is books.",
         "I full of to school every day.",
-        "The cat is full of at seven."
+        "The hotel is full of at midnight."
       ],
       "answer": 0,
-      "explanation": "正確：full of 後面接名詞，表示書包裡裝滿書。",
+      "explanation": "full of 表示裝滿；電梯裡都是戴大帽子的演員。",
       "optionExplanations": [
-        "正確：full of 後面接名詞，表示書包裡裝滿書。",
+        "full of 表示裝滿；電梯裡都是戴大帽子的演員。",
         "錯誤：full of 的位置不對；應說 My bag is full of books.",
         "錯誤：full of 不是「去」的意思；應說 I go to school every day.",
-        "錯誤：full of 後面不能直接接 at seven；可以說 The cat is full of energy."
+        "full of 後面要接人或物，at midnight 只表示時間。"
       ]
     },
     {
@@ -181,18 +181,18 @@
       "usage": "用在聊天或歌曲中，說自己接下來打算做的事；正式寫作宜用 going to。",
       "prompt": "哪一句正確使用「gonna」？",
       "options": [
-        "I gonna my homework after dinner.",
+        "I gonna call the boss after the meeting.",
         "We are gonna watch a movie tonight.",
         "She is gonna goes home now.",
-        "My sandwich is gonna very happy."
+        "My new phone is gonna very clever."
       ],
       "answer": 1,
       "explanation": "正確：be gonna 加原形動詞，表示今晚打算看電影。",
       "optionExplanations": [
-        "錯誤：gonna 後面需要動詞；應說 I am gonna do my homework.",
+        "gonna 前面缺少 am；應說 I am gonna call。",
         "正確：be gonna 加原形動詞，表示今晚打算看電影。",
         "錯誤：gonna 後面要用原形動詞 go，不是 goes。",
-        "錯誤：gonna 後面不能直接接形容詞；應說 My sandwich is going to be very big."
+        "gonna 後面要接動詞原形，不能直接接 very clever。"
       ]
     },
     {
@@ -202,18 +202,18 @@
       "usage": "燈光照亮房間或道路時使用，也可比喻讓人開心。",
       "prompt": "哪一句正確使用「light up」？",
       "options": [
-        "I light up my shoes with a spoon.",
+        "I light up my bus ticket to pay the driver.",
         "The small lamp lights up my room.",
         "She light up to the bus at eight.",
-        "The dark turns light up my coffee."
+        "The screen turns light up my message."
       ],
       "answer": 1,
       "explanation": "正確：小燈讓房間變亮。",
       "optionExplanations": [
-        "錯誤：湯匙不能照亮鞋子；可說 I clean my shoes with a cloth.",
+        "買車票或付款應用 buy 或 pay；light up 表示照亮。",
         "正確：小燈讓房間變亮。",
         "錯誤：light up 不是搭車；應說 She takes the bus at eight.",
-        "錯誤：句子結構與意思不自然；可以說 The lamp lights up the table."
+        "這個語序不成立；可說 The screen lights up。"
       ]
     },
     {
@@ -225,15 +225,15 @@
       "options": [
         "I don't care my bag on the chair.",
         "I don't care to blue the sky.",
-        "You can choose the red cup or the blue cup. I don't care.",
+        "Choose any film. I don't care; I love them all.",
         "I don't care is seven o'clock."
       ],
       "answer": 2,
-      "explanation": "正確：兩個杯子選哪個都可以，表示不介意。",
+      "explanation": "I don't care 表示不介意選哪一部電影。",
       "optionExplanations": [
         "錯誤：care 不能這樣直接接物品；若要說放包包，可說 I put my bag on the chair.",
         "錯誤：blue 不是這裡可用的動詞；可以說 I don't care if the sky is grey.",
-        "正確：兩個杯子選哪個都可以，表示不介意。",
+        "I don't care 表示不介意選哪一部電影。",
         "錯誤：缺少 if 或 that 等連接方式；可說 I don't care if it is late."
       ]
     },
@@ -245,17 +245,17 @@
       "prompt": "哪一句正確使用「go on」？",
       "options": [
         "Go on the window because it is cold.",
-        "I go on my pizza with cheese.",
+        "I go on my bank card to buy a ticket.",
         "She goes on a happy yesterday.",
-        "Please go on. I want to hear the end of your story."
+        "Go on. Your story is better than this film."
       ],
       "answer": 3,
-      "explanation": "正確：go on 表示請繼續說下去。",
+      "explanation": "go on 是請對方繼續，這裡請他繼續說故事。",
       "optionExplanations": [
         "錯誤：這裡應使用 close the window，而不是 go on the window.",
-        "錯誤：go on 不能用來表示把起司加到披薩上；應說 I put cheese on my pizza.",
+        "使用銀行卡應用 use；go on 沒有這種用法。",
         "錯誤：go on 後面不能這樣接形容詞和 yesterday；可說 She was happy yesterday.",
-        "正確：go on 表示請繼續說下去。"
+        "go on 是請對方繼續，這裡請他繼續說故事。"
       ]
     },
     {
@@ -286,16 +286,16 @@
       "usage": "形容一個人被另一個人抱住，常見於親密或安慰的情境。",
       "prompt": "哪一句正確使用「in your arms」？",
       "options": [
-        "My phone is in your arms at six o’clock.",
-        "We eat in your arms a big dinner.",
+        "I in your arms the train to work.",
+        "We book in your arms a room for two.",
         "I walk in your arms to the shop alone.",
         "The baby is sleeping in her dad’s arms."
       ],
       "answer": 3,
       "explanation": "正確：寶寶在爸爸懷裡睡覺。",
       "optionExplanations": [
-        "錯誤：時間與情境不自然；說手機被拿著可以用 You are holding my phone.",
-        "錯誤：吃晚餐不使用 in your arms；可說 We eat dinner together.",
+        "in your arms 是位置片語，不能當作乘火車的動詞。",
+        "訂房可說 book a room；in your arms 表示在懷裡。",
         "錯誤：一個人走去商店，不適合用 in your arms；應說 I walk to the shop alone.",
         "正確：寶寶在爸爸懷裡睡覺。"
       ]
@@ -331,7 +331,7 @@
         "I such a go home now.",
         "She is such a very happily.",
         "It is such a beautiful day!",
-        "These are such a nice shoes."
+        "These are such a funny films."
       ],
       "answer": 2,
       "explanation": "正確：such a 後接 beautiful day，表示今天真美好。",
@@ -339,7 +339,7 @@
         "錯誤：such a 不能用在 go home 前；應說 I go home now.",
         "錯誤：such a 後面需要單數可數名詞，happily 是副詞。",
         "正確：such a 後接 beautiful day，表示今天真美好。",
-        "錯誤：shoes 是複數，要用 such nice shoes，不用 a。"
+        "films 是複數，such 後面應省去 a。"
       ]
     },
     {
@@ -349,16 +349,16 @@
       "usage": "讚美風景、食物或聲音非常美好時使用。這個字較進階，但例句保持簡單。",
       "prompt": "哪一句正確使用「heavenly」？",
       "options": [
-        "The cake tastes heavenly.",
-        "I heavenly my lunch at school.",
+        "Her voice sounds heavenly; even Dad stops talking.",
+        "I heavenly my screen before a video call.",
         "He goes heavenly to work at eight.",
         "This heavenly is my new red bag."
       ],
       "answer": 0,
-      "explanation": "正確：形容蛋糕美味得像天堂一般。",
+      "explanation": "heavenly 形容聲音美妙；爸爸都安靜下來了。",
       "optionExplanations": [
-        "正確：形容蛋糕美味得像天堂一般。",
-        "錯誤：heavenly 是形容詞，不是「吃」的動詞；應說 I eat lunch at school.",
+        "heavenly 形容聲音美妙；爸爸都安靜下來了。",
+        "heavenly 是形容詞，不能作「清潔」的動詞。",
         "錯誤：heavenly 不用來表示去上班；應說 He goes to work at eight.",
         "錯誤：heavenly 不能單獨當成這裡的名詞；可說 This is my beautiful new red bag."
       ]

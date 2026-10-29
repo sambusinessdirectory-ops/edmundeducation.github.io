@@ -245,16 +245,16 @@
       "prompt": "哪一句正確使用「Shelter someone from」？",
       "options": [
         "The big tree sheltered us from the rain.",
-        "My brother sheltered from his sandwich at lunch.",
-        "I sheltered my homework from seven o’clock.",
+        "My brother sheltered to me from the storm.",
+        "I sheltered my guitar from seven o'clock.",
         "She sheltered the music from happy."
       ],
       "answer": 0,
       "explanation": "正確。shelter someone from something 表示保護某人免受某事影響。",
       "optionExplanations": [
         "正確。shelter someone from something 表示保護某人免受某事影響。",
-        "錯誤。三明治是食物，這裡沒有說清楚保護誰免受什麼傷害。",
-        "錯誤。時間不能這樣接在 from 後表示保護；這句想表達做功課的時間。",
+        "shelter someone from 直接接人，不加 to。",
+        "from 後面要指出要避開的影響，如 rain；這裡只寫時間，意思不完整。",
         "錯誤。happy 是形容詞，不是這裡要防止的危險或傷害。"
       ]
     },
@@ -266,17 +266,17 @@
       "prompt": "哪一句正確使用「Keep someone warm」？",
       "options": [
         "I kept the door warm by closing my book.",
-        "This coat keeps me warm in winter.",
-        "He keeps warm his dinner with a blue song.",
-        "We kept the bus warm with our homework."
+        "This jacket keeps me warm during Dad's outdoor speeches.",
+        "He keeps warm his speech with a blue song.",
+        "We kept the lift warm with our exam marks."
       ],
       "answer": 1,
-      "explanation": "正確。外套能讓人在冬天保持溫暖。",
+      "explanation": "keep someone warm 表示使人保持溫暖。",
       "optionExplanations": [
         "錯誤。關書不能讓門保暖，句意不合理。",
-        "正確。外套能讓人在冬天保持溫暖。",
-        "錯誤。keep someone warm 的語序不對，而且歌也不能保暖晚餐。",
-        "錯誤。功課不能合理地用來讓公車保暖。"
+        "keep someone warm 表示使人保持溫暖。",
+        "演說沒有需要保暖的身體，這句無法表達 keep someone warm。",
+        "分數無法用來提供熱量，句意不合理。"
       ]
     },
     {
@@ -286,18 +286,18 @@
       "usage": "當一個人或動物不再被關住、限制時使用；也可形容不再受束縛。",
       "prompt": "哪一句正確使用「Set someone free」？",
       "options": [
-        "I set my pizza free in the oven.",
+        "I set my haircut free by making it shorter.",
         "They opened the cage and set the bird free.",
-        "She set free her breakfast at eight.",
-        "My shoes set me free a new chair."
+        "She set free her phone call by speaking louder.",
+        "My cousins set me free a new invitation."
       ],
       "answer": 1,
       "explanation": "正確。打開籠子讓鳥飛走，就是讓牠自由。",
       "optionExplanations": [
-        "錯誤。披薩放進烤箱不是讓它自由。",
+        "剪短頭髮與釋放某人或動物無關。",
         "正確。打開籠子讓鳥飛走，就是讓牠自由。",
-        "錯誤。早餐不會被限制自由，句意不通順。",
-        "錯誤。set someone free 不能直接接 a new chair 當成「給一張椅子」。"
+        "提高聲量不等於釋放，set free 無法表示這個動作。",
+        "set someone free 後面不能直接再接一份請帖。"
       ]
     },
     {
@@ -307,16 +307,16 @@
       "usage": "當你決定不再繼續某件事、習慣或嘗試時使用。",
       "prompt": "哪一句正確使用「Give up」？",
       "options": [
-        "The game was hard, but I did not give up.",
-        "She gives up her dog a birthday cake.",
+        "I won't give up. One day, this radio will work.",
+        "She gives up her brother a birthday card.",
         "We give up to school every day.",
         "I gave up the window to make it sunny."
       ],
       "answer": 0,
-      "explanation": "正確。雖然遊戲困難，還是沒有放棄。",
+      "explanation": "give up 表示放棄；這裡堅持修好收音機。",
       "optionExplanations": [
-        "正確。雖然遊戲困難，還是沒有放棄。",
-        "錯誤。這句想說給狗蛋糕，應該用 give，不是 give up。",
+        "give up 表示放棄；這裡堅持修好收音機。",
+        "送卡片應說 gives her brother a card；加上 up 會改變意思與結構。",
         "錯誤。give up 不表示去某個地方，應該用 go to school。",
         "錯誤。give up 不表示打開窗戶讓天氣變好。"
       ]
@@ -329,17 +329,17 @@
       "prompt": "哪一句正確使用「Have someone back」？",
       "options": [
         "We have back the bus because it is yellow.",
-        "I have my pencil back to breakfast.",
-        "He had the moon back in his shoes.",
-        "I miss my friend and want to have her back."
+        "I have my neighbour back to the price of ten dollars.",
+        "He had the moon back inside his small wallet.",
+        "I'd love to have my old manager back. She understood jokes."
       ],
       "answer": 3,
-      "explanation": "正確。表示想念朋友，希望她重新回到生活中。",
+      "explanation": "have someone back 表示讓某人回來，這裡希望舊經理回來工作。",
       "optionExplanations": [
         "錯誤。這裡沒有「想讓某人回來」的意思，語序也不自然。",
-        "錯誤。have someone back 的 someone 指人，不是鉛筆；to breakfast 也不自然。",
-        "錯誤。月亮不能像人一樣回到鞋子裡，句意不合理。",
-        "正確。表示想念朋友，希望她重新回到生活中。"
+        "have someone back 表示讓人回來，不能這樣接價格。",
+        "這句把月亮當作錢包內的物件，無法表達想讓某人回來。",
+        "have someone back 表示讓某人回來，這裡希望舊經理回來工作。"
       ]
     },
     {
@@ -349,16 +349,16 @@
       "usage": "當你幫人找到地方，或教人如何做某件事時使用。",
       "prompt": "哪一句正確使用「Show the way」？",
       "options": [
-        "The teacher showed the way of a sandwich to sleep.",
-        "I showed the way my shoes are hungry.",
+        "The teacher showed the way of a timetable to sleep.",
+        "I showed the way my cousins are tomorrow.",
         "Can you show me the way to the station?",
         "She shows the way a glass of water every morning."
       ],
       "answer": 2,
       "explanation": "正確。請別人指引到車站的路。",
       "optionExplanations": [
-        "錯誤。三明治沒有「去睡覺的路」，意思不合理。",
-        "錯誤。這個句子沒有要指的路或做事的方法。",
+        "show the way 表示指路，不能讓時間表睡覺。",
+        "這句缺少合理的地點或做事方法，結構不完整。",
         "正確。請別人指引到車站的路。",
         "錯誤。show the way 不是「給一杯水」；這裡應用 gives。"
       ]
@@ -370,18 +370,18 @@
       "usage": "真的鬆開手裡的東西，或不再抓住過去的事，都可以使用。",
       "prompt": "哪一句正確使用「Let go」？",
       "options": [
-        "Please let go the cake to my birthday.",
-        "I let go my breakfast with a spoon.",
+        "Please let go the concert to my birthday.",
+        "I let go my bank account with a microphone.",
         "He let go to the shop at five.",
-        "The balloon flew away when I let go of it."
+        "Let go of my arm; I'm only going to the dentist."
       ],
       "answer": 3,
-      "explanation": "正確。let go of something 表示鬆開抓著的東西。",
+      "explanation": "let go of 表示鬆開抓住的東西。",
       "optionExplanations": [
-        "錯誤。這樣不能表示把蛋糕送給我；應說 give me the cake。",
-        "錯誤。這裡想表達吃早餐，let go 不適合。",
+        "let go 後面通常用 of 連接受詞；這裡的搭配不成立。",
+        "這個搭配無法表達放手，麥克風也與銀行帳戶無關。",
         "錯誤。let go 不表示「去商店」，應使用 went to the shop。",
-        "正確。let go of something 表示鬆開抓著的東西。"
+        "let go of 表示鬆開抓住的東西。"
       ]
     },
     {
@@ -391,17 +391,17 @@
       "usage": "當別人一直幫你，但你不再感謝或珍惜他時使用。",
       "prompt": "哪一句正確使用「Take someone for granted」？",
       "options": [
-        "My mum helps me every day, but I should not take her for granted.",
-        "She took the sandwich for granted with cheese.",
-        "We take our teacher for granted because it is raining.",
+        "I shouldn't take Mum for granted. She does so much.",
+        "She took the invitation for granted into the postbox.",
+        "We take our teacher for granted by thanking her for every lesson.",
         "I took my brother for granted to the bus stop."
       ],
       "answer": 0,
-      "explanation": "正確。媽媽每天幫忙，不應把她的付出視為理所當然。",
+      "explanation": "take someone for granted 指把別人的付出視為理所當然。",
       "optionExplanations": [
-        "正確。媽媽每天幫忙，不應把她的付出視為理所當然。",
-        "錯誤。這句是在講食物，並未表達把某人的付出當作理所當然。",
-        "錯誤。下雨不能說明忽略老師的付出；這裡沒有合理的關係。",
+        "take someone for granted 指把別人的付出視為理所當然。",
+        "把請帖投進郵筒應用 put；take for granted 無法表達這個動作。",
+        "每課都感謝老師，表達的是重視；與視為理所當然的意思相反。",
         "錯誤。這不是「帶哥哥去車站」的說法；take for granted 是固定片語。"
       ]
     },
@@ -433,17 +433,17 @@
       "usage": "當某件事情已經發生過，現在再次發生或希望再做一次時使用。",
       "prompt": "哪一句正確使用「Once again」？",
       "options": [
-        "I once again my new shoes for lunch.",
+        "I once again my new haircut before the party.",
         "Can you say that once again, please?",
-        "She once again is a sandwich on the table.",
+        "She once again is a station on the map.",
         "He bought a once again at the shop."
       ],
       "answer": 1,
       "explanation": "正確。請對方再說一次，使用自然。",
       "optionExplanations": [
-        "錯誤。once again 不是動詞，不能直接接 shoes 來表示穿鞋。",
+        "once again 表示再次，不能代替整理髮型的動詞。",
         "正確。請對方再說一次，使用自然。",
-        "錯誤。這句語意不合理，也沒有清楚表達再次發生的動作。",
+        "人不會因 once again 而成為地圖上的車站，句意不成立。",
         "錯誤。once again 是副詞片語，不是可以購買的物品。"
       ]
     }

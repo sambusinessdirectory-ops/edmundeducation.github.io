@@ -336,16 +336,16 @@
       "prompt": "哪一句正確使用了「broken-hearted」？",
       "options": [
         "After his girlfriend left, Ben felt broken-hearted.",
-        "My phone is broken-hearted, so I need a new screen.",
-        "I ate a broken-hearted sandwich for lunch.",
+        "My uncle broken-hearted after the breakup.",
+        "I am broken-hearted to the station by bus.",
         "Please broken-hearted the door before you leave."
       ],
       "answer": 0,
       "explanation": "因為女友離開而傷心，符合 broken-hearted 的意思。",
       "optionExplanations": [
         "因為女友離開而傷心，符合 broken-hearted 的意思。",
-        "手機壞掉要說 broken，不會說 broken-hearted。",
-        "三明治不能因感情而心碎，這裡用錯對象。",
+        "broken-hearted 是形容詞，前面需要 was 等動詞。",
+        "broken-hearted 描述傷心，不能表示交通方式。",
         "broken-hearted 是形容詞，不能當作「關門」的動詞。"
       ]
     },
@@ -356,17 +356,17 @@
       "usage": "當你想說自己只是很多人當中的普通一員時使用。",
       "prompt": "哪一句正確使用了「a face in the crowd」？",
       "options": [
-        "I put a face in the crowd on my toast.",
-        "At the big concert, I was just a face in the crowd.",
-        "My dog ate a face in the crowd for dinner.",
+        "I a face in the crowd my interview at nine.",
+        "At the concert, I was a face in the crowd.",
+        "She was a face in the crowd to arrived late.",
         "I face in the crowd to school every morning."
       ],
       "answer": 1,
-      "explanation": "演唱會有很多人，這裡表示自己只是人群中的一員。",
+      "explanation": "a face in the crowd 指人群中不起眼的一員。",
       "optionExplanations": [
-        "這個片語是形容人，不是可以放在吐司上的東西。",
-        "演唱會有很多人，這裡表示自己只是人群中的一員。",
-        "這個片語不是食物，不能用 eat。",
+        "a face in the crowd 是名詞片語，不能單獨作動詞。",
+        "a face in the crowd 指人群中不起眼的一員。",
+        "to arrived 形式不正確，整句也沒有完整的關係。",
         "這個片語是名詞片語，不能直接當作「去上學」的動詞。"
       ]
     },
@@ -398,7 +398,7 @@
       "usage": "當某個機會很重要，必須立刻決定或行動時使用。",
       "prompt": "哪一句正確使用了「now or never」？",
       "options": [
-        "My breakfast is now or never with milk.",
+        "My interview now or never yesterday.",
         "I bought a now or never at the supermarket.",
         "She is now or never years old.",
         "The bus is leaving! It is now or never!"
@@ -406,7 +406,7 @@
       "answer": 3,
       "explanation": "公車快開了，這裡表示必須現在行動。",
       "optionExplanations": [
-        "不能用這個片語來描述早餐加牛奶。",
+        "now or never 不能單獨作動詞，也與 yesterday 不配合。",
         "now or never 不是一件商品。",
         "now or never 不能用來表示年齡。",
         "公車快開了，這裡表示必須現在行動。"
@@ -420,16 +420,16 @@
       "prompt": "哪一句正確使用了「my way」？",
       "options": [
         "My way is sleeping under the bed now.",
-        "I have three my ways in my school bag.",
-        "You can cook it your way, and I will cook it my way.",
+        "I my way the new dance for the show.",
+        "You paint it your way, and I will paint it my way.",
         "Please my way the window before dinner."
       ],
       "answer": 2,
-      "explanation": "my way 表示按照自己的方法來做。",
+      "explanation": "my way 表示按自己的方式；兩人可以用各自的方法畫畫。",
       "optionExplanations": [
         "my way 不是人或動物，不能睡在床下。",
-        "my way 不是可以數的物品。",
-        "my way 表示按照自己的方法來做。",
+        "my way 是名詞片語，不能當作學舞的動詞。",
+        "my way 表示按自己的方式；兩人可以用各自的方法畫畫。",
         "my way 不能直接當動詞使用。"
       ]
     },
@@ -440,17 +440,17 @@
       "usage": "當你認為自己是對的，即使有人反對也不退縮時使用。",
       "prompt": "哪一句正確使用了「stand your ground」？",
       "options": [
-        "I stand my ground in the fridge to keep it cold.",
-        "Everyone wanted me to lie, but I stood my ground and told the truth.",
-        "She stood her ground with a spoon and ate soup.",
+        "I stand my ground to the station by tram.",
+        "They wanted me to cheat, but I stood my ground.",
+        "She stood her ground to refusing the unfair plan.",
         "My bicycle stands its ground to the airport."
       ],
       "answer": 1,
-      "explanation": "即使其他人要求說謊，仍堅持自己的立場。",
+      "explanation": "stand your ground 指堅持自己的立場。",
       "optionExplanations": [
-        "stand your ground 不是把東西放進冰箱。",
-        "即使其他人要求說謊，仍堅持自己的立場。",
-        "這裡只是吃湯，沒有堅持立場的情境。",
+        "stand your ground 指堅持立場，不能表示乘電車。",
+        "stand your ground 指堅持自己的立場。",
+        "to refusing 的形式不成立；可用 and refused 連接行動。",
         "這個片語通常形容人堅持立場，不表示交通工具移動。"
       ]
     },
@@ -461,17 +461,17 @@
       "usage": "當受到壓力或挑戰，決定不再堅持時使用。",
       "prompt": "哪一句正確使用了「back down」？",
       "options": [
-        "I backed down my homework with a blue pen.",
+        "I backed down my report into the printer.",
         "They asked her to stop, but she would not back down.",
-        "The cat backed down a glass of milk.",
+        "She backed down to agreed with the manager.",
         "We bought a back down for our new house."
       ],
       "answer": 1,
       "explanation": "她受到要求仍不退讓，符合 back down 的意思。",
       "optionExplanations": [
-        "back down 不表示寫作業。",
+        "back down 指讓步，不能直接接 my report 表示列印。",
         "她受到要求仍不退讓，符合 back down 的意思。",
-        "back down 不表示喝牛奶。",
+        "to 後不能接 agreed；可說 backed down and agreed。",
         "back down 是動詞片語，不是商品。"
       ]
     },
@@ -482,18 +482,18 @@
       "usage": "當你要強調一件事是真的，提醒對方不要誤會時使用。",
       "prompt": "哪一句正確使用了「make no mistake」？",
       "options": [
-        "Please make no mistake the cake in the oven.",
+        "Please make no mistake to the theatre by bus.",
         "I have two make no mistakes in my pocket.",
         "Make no mistake: this test will be difficult.",
-        "My fish is make no mistake because it is hungry."
+        "My cousin make no mistake very five years old."
       ],
       "answer": 2,
       "explanation": "用來強調考試真的會很難，不要誤會。",
       "optionExplanations": [
-        "這個片語不能當作烤蛋糕的動詞。",
+        "make no mistake 用來強調提醒，不能表示交通方式。",
         "make no mistake 在這裡不是可數物品。",
         "用來強調考試真的會很難，不要誤會。",
-        "不能用這個片語來描述魚餓了。"
+        "make no mistake 不能插入年齡結構；此句缺少合適動詞。"
       ]
     },
     {
@@ -503,18 +503,18 @@
       "usage": "當你想鼓勵一個人勇敢、有信心時使用。",
       "prompt": "哪一句正確使用了「stand tall」？",
       "options": [
-        "The teacher stood tall the homework into the bag.",
-        "I stand tall my lunch before school.",
-        "He bought a stand tall for his pet fish.",
-        "Even after losing the game, she stood tall and smiled."
+        "The actor stood tall to bowed to the crowd.",
+        "I stand tall my savings into the bank.",
+        "He stood tall to the station by train.",
+        "After losing the race, she still stood tall."
       ],
       "answer": 3,
-      "explanation": "雖然輸了比賽，她仍有自信地面對。",
+      "explanation": "stand tall 在此表示保持自信和尊嚴。",
       "optionExplanations": [
-        "不能用 stand tall 表示把作業放進包包。",
-        "stand tall 不能直接接 lunch 表示吃午餐。",
-        "stand tall 是動詞片語，不是商品。",
-        "雖然輸了比賽，她仍有自信地面對。"
+        "to 後須用原形 bow，不能用 bowed。",
+        "stand tall 不能直接接 my savings 表示存錢。",
+        "stand tall 不能表示乘火車前往車站。",
+        "stand tall 在此表示保持自信和尊嚴。"
       ]
     },
     {

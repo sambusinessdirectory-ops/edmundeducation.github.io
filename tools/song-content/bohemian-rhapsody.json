@@ -400,18 +400,18 @@
       "usage": "談夢想、故事或不可能發生的事情時，可以用 fantasy。",
       "prompt": "哪一句正確使用了「Fantasy」？",
       "options": [
-        "My fantasy is to have a pet dragon that can cook dinner.",
-        "I put my fantasy in the fridge to keep it cold.",
+        "My fantasy is a robot that attends meetings for me.",
+        "I charge my fantasy for an hour to make it work.",
         "Please fantasy the door before you leave.",
-        "My shoes are fantasy because they are size eight."
+        "My train ticket is fantasy because it costs eight dollars."
       ],
       "answer": 0,
-      "explanation": "正確：幻想養一隻會煮晚餐的龍，很符合 fantasy「幻想」的意思。",
+      "explanation": "fantasy 指想像中的情景；這裡想由機械人代開會。",
       "optionExplanations": [
-        "正確：幻想養一隻會煮晚餐的龍，很符合 fantasy「幻想」的意思。",
-        "錯誤：fantasy 是想像，不是能放進冰箱的食物。",
+        "fantasy 指想像中的情景；這裡想由機械人代開會。",
+        "fantasy 指幻想，無法像電器一樣充電。",
         "錯誤：fantasy 通常是名詞，不能直接當「關門」的動詞。",
-        "錯誤：鞋子的尺寸不是「幻想」；可以說 My shoes are size eight。"
+        "票價與幻想沒有直接關係；這裡也需要不同的句子結構。"
       ]
     },
     {
@@ -421,18 +421,18 @@
       "usage": "想說從危險、困難的地方或情況離開時，可以用 escape from。",
       "prompt": "哪一句正確使用了「Escape from」？",
       "options": [
-        "I escape from my sandwich by eating it.",
-        "The cat escaped from the house through an open window.",
-        "She escaped from her shoes by buying a hat.",
-        "We escaped from our homework with a blue pencil."
+        "I escape from my exam by writing my name on it.",
+        "We escaped from the lift, still holding our party balloons.",
+        "She escaped from her haircut by sitting in the salon chair.",
+        "We escaped from our family photo by standing in the middle."
       ],
       "answer": 1,
-      "explanation": "正確：貓從房子裡跑出去，就是 escape from。",
+      "explanation": "escape from 表示逃離被困的地方。",
       "optionExplanations": [
-        "錯誤：吃三明治不是從它「逃離」。",
-        "正確：貓從房子裡跑出去，就是 escape from。",
-        "錯誤：買帽子跟逃離鞋子沒有合理關係。",
-        "錯誤：藍色鉛筆不能讓人「逃離作業」；可說 We finished our homework。"
+        "寫名字是在開始作答，不能表達逃離考試。",
+        "escape from 表示逃離被困的地方。",
+        "坐上理髮椅通常是在準備剪髮，無法支持逃離的意思。",
+        "站在合照中間是在參與，與逃離的意思相反。"
       ]
     },
     {
@@ -442,16 +442,16 @@
       "usage": "要人抬頭看天空，或在字典、網路找資訊時，可以用 look up。",
       "prompt": "哪一句正確使用了「Look up」？",
       "options": [
-        "I looked up my soup and drank it.",
-        "He looks up his socks to make them clean.",
+        "I looked up the lift button to travel to floor ten.",
+        "He looks up his guitar to make the strings tighter.",
         "She looked up her bike to ride to school.",
         "Look up! There is a beautiful bird above us."
       ],
       "answer": 3,
       "explanation": "正確：鳥在頭上，look up 表示「抬頭看」。",
       "optionExplanations": [
-        "錯誤：喝湯不是「抬頭看」或「查找」湯。",
-        "錯誤：洗襪子應用 wash，不能用 look up。",
+        "搭電梯要按按鈕；look up 無法代替 press。",
+        "調整琴弦應用 tune；look up 無法表達調音。",
         "錯誤：騎腳踏車用 ride，不能用 look up。",
         "正確：鳥在頭上，look up 表示「抬頭看」。"
       ]
@@ -463,7 +463,7 @@
       "usage": "要說一個人、一件事對某人重要時，可以用 matter to。",
       "prompt": "哪一句正確使用了「Matter to」？",
       "options": [
-        "My phone matters to the sandwich because it is hungry.",
+        "My phone matters to the timetable because it feels lonely.",
         "Please matter to my bag before lunch.",
         "My family matters to me more than my new phone.",
         "This chair matters to blue at nine."
@@ -471,7 +471,7 @@
       "answer": 2,
       "explanation": "正確：表示家人對我而言比新手機更重要。",
       "optionExplanations": [
-        "錯誤：三明治沒有人的感受，也不會因為肚子餓而重視手機。",
+        "timetable 沒有感受，這句無法表達對某人重要。",
         "錯誤：matter to 不是叫人對袋子做的動作。",
         "正確：表示家人對我而言比新手機更重要。",
         "錯誤：blue 是顏色，句子沒有說清楚「對誰重要」。"
@@ -484,7 +484,7 @@
       "usage": "想說自己原本打算做什麼，或不是故意做錯事時，可以用 mean to + 動詞。",
       "prompt": "哪一句正確使用了「Mean to」？",
       "options": [
-        "I mean to a red apple on the table.",
+        "I mean to a new job at the bank.",
         "I didn't mean to wake the baby. I'm sorry.",
         "She means to happy every Sunday.",
         "We mean to the school bus yesterday."
@@ -492,7 +492,7 @@
       "answer": 1,
       "explanation": "正確：mean to wake 表示「有意叫醒」，否定句是「不是故意的」。",
       "optionExplanations": [
-        "錯誤：mean to 後面應接動詞原形，不能直接接 an apple。",
+        "mean to 後面要接動詞原形，例如 apply for。",
         "正確：mean to wake 表示「有意叫醒」，否定句是「不是故意的」。",
         "錯誤：happy 是形容詞，要說 means to be happy。",
         "錯誤：to 後面少了動詞，且 yesterday 要配合過去式。"
@@ -506,7 +506,7 @@
       "prompt": "哪一句正確使用了「Throw away」？",
       "options": [
         "Dad threw away the old newspaper because nobody needed it.",
-        "I threw away my breakfast by eating two eggs.",
+        "I threw away the invitation by reading every word.",
         "She threw away the sun so it became night.",
         "We throw away to the library after school."
       ],
@@ -514,7 +514,7 @@
       "explanation": "正確：把不用的舊報紙丟掉，正是 throw away。",
       "optionExplanations": [
         "正確：把不用的舊報紙丟掉，正是 throw away。",
-        "錯誤：吃早餐不是丟掉早餐。",
+        "閱讀請帖與丟棄請帖是不同動作。",
         "錯誤：太陽不是人可以拿來丟掉的物品。",
         "錯誤：去圖書館應說 go to the library。"
       ]
@@ -526,18 +526,18 @@
       "usage": "事情還沒結束、想請別人繼續時，可以用 carry on，也可以說 carry on + -ing。",
       "prompt": "哪一句正確使用了「Carry on」？",
       "options": [
-        "I carried on my sandwich in the fridge for an hour.",
+        "I carried on my report in the printer for an hour.",
         "The teacher carried on the window to make it blue.",
         "The music stopped, but we carried on dancing.",
-        "Carry on the bus with a spoon of soup."
+        "Carry on the train with a minute of music."
       ],
       "answer": 2,
       "explanation": "正確：音樂停了，但我們繼續跳舞。",
       "optionExplanations": [
-        "錯誤：這裡像是把食物放進冰箱，不是「繼續做某件事」。",
+        "列印報告應用 printed；carry on 無法這樣接報告與印表機。",
         "錯誤：carry on 不能表示「油漆窗戶」。",
         "正確：音樂停了，但我們繼續跳舞。",
-        "錯誤：這裡若是「搭公車」，要用 get on the bus。"
+        "若要叫人上車，應用 get on；這個搭配不成立。"
       ]
     },
     {
@@ -549,7 +549,7 @@
       "options": [
         "He talks as if he knows everything.",
         "She bought an as if at the shop.",
-        "My dog is as if because he likes carrots.",
+        "My uncle is as if because he likes films.",
         "I put as if under my bed."
       ],
       "answer": 0,
@@ -557,7 +557,7 @@
       "optionExplanations": [
         "正確：表示他說話的樣子彷彿什麼都知道。",
         "錯誤：as if 不是名詞，不能當作一件商品。",
-        "錯誤：as if 後面需要完整的比較情境，不能當形容詞。",
+        "as if 後面缺少要比較的情況，整句沒有完整意思。",
         "錯誤：as if 是連接語，不是可以放在床下的東西。"
       ]
     },
@@ -570,16 +570,16 @@
       "options": [
         "My pencil left behind the answer in my book.",
         "She left behind to sing a song at lunch.",
-        "I left behind the cake by eating all of it.",
-        "I left my umbrella behind on the bus."
+        "I left behind my ticket by showing it to the guard.",
+        "I left my map behind. Our guide looked worried."
       ],
       "answer": 3,
-      "explanation": "正確：表示下車時把雨傘忘在公車上。",
+      "explanation": "leave behind 指把東西遺留在原處。",
       "optionExplanations": [
         "錯誤：鉛筆不會主動把答案留下，這裡搭配不自然。",
         "錯誤：leave behind 應接被留下的對象，不能直接接 to sing。",
-        "錯誤：把蛋糕吃完，不是把蛋糕留下。",
-        "正確：表示下車時把雨傘忘在公車上。"
+        "出示車票沒有表示把車票遺留在某處。",
+        "leave behind 指把東西遺留在原處。"
       ]
     },
     {
@@ -589,17 +589,17 @@
       "usage": "想說不阻止某人離開，或放下某段關係時，可以用 let + 人 + go。",
       "prompt": "哪一句正確使用了「Let someone go」？",
       "options": [
-        "The teacher let my sandwich go to the moon.",
+        "The teacher let my timetable go to sleep.",
         "The teacher let us go home early after the test.",
-        "I let my homework go to sleep at ten.",
+        "I let my bank account go to the theatre alone.",
         "She let the weather go because it was raining."
       ],
       "answer": 1,
       "explanation": "正確：老師讓我們考完試提早回家。",
       "optionExplanations": [
-        "錯誤：三明治不是會自己去月球的人，這裡不適合表示「放人走」。",
+        "timetable 沒有睡覺的能力，無法作這個動作的對象。",
         "正確：老師讓我們考完試提早回家。",
-        "錯誤：作業不會睡覺，不能當成要放走的人。",
+        "銀行帳戶無法獨自去劇院，這裡用法不合。",
         "錯誤：人不能像放人離開那樣讓天氣「走」。"
       ]
     }

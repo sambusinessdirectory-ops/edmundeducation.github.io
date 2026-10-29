@@ -293,18 +293,18 @@
       "usage": "說故事的開頭，常用來介紹過去發生的事。",
       "prompt": "哪一句正確使用「Once upon a time」？",
       "options": [
-        "I eat once upon a time for breakfast.",
-        "Once upon a time, a cat lived in a small house.",
+        "I once upon a time the lift to work.",
+        "Once upon a time, a king feared his own shadow.",
         "Please open the once upon a time.",
-        "My shoes are once upon a time today."
+        "My holiday is once upon a time tomorrow."
       ],
       "answer": 1,
-      "explanation": "正確：用來開始講一個過去的故事。",
+      "explanation": "once upon a time 用來開始一個發生在從前的故事。",
       "optionExplanations": [
-        "錯誤：這不是食物，不能當早餐吃。",
-        "正確：用來開始講一個過去的故事。",
+        "once upon a time 是故事開場語，不能當作乘電梯的動詞。",
+        "once upon a time 用來開始一個發生在從前的故事。",
         "錯誤：它不是門或物品，不能打開。",
-        "錯誤：它不是形容鞋子的形容詞。"
+        "once upon a time 指從前，與 tomorrow 的未來時間衝突。"
       ]
     },
     {
@@ -335,18 +335,18 @@
       "usage": "員工停止工作，通常是為了爭取更好的待遇。",
       "prompt": "哪一句正確使用「On strike」？",
       "options": [
-        "My sandwich is on strike in my bag.",
+        "The drivers are on strike to demanded better pay.",
         "I put on strike before bed.",
         "The workers are on strike today.",
-        "The sky is on strike because it is blue."
+        "The workers on strike the manager yesterday."
       ],
       "answer": 2,
       "explanation": "正確：表示工人今天正在罷工。",
       "optionExplanations": [
-        "錯誤：三明治不會參加罷工。",
+        "to 後用原形 demand，不能接 demanded。",
         "錯誤：on strike 不是可穿上的衣服。",
         "正確：表示工人今天正在罷工。",
-        "錯誤：天空不會因顏色而罷工。"
+        "on strike 不是動詞，不能直接接 the manager 作受詞。"
       ]
     },
     {
@@ -357,17 +357,17 @@
       "prompt": "哪一句正確使用「Down on your luck」？",
       "options": [
         "I put my luck down on the chair.",
-        "The cake is down on your luck and tastes sweet.",
-        "She is down on her luck because her new hat is green.",
-        "Ben is down on his luck. He lost his job and his bike."
+        "She down on her luck to the station.",
+        "He is down on his luck to losing his job.",
+        "Ben lost his job and wallet. He's down on his luck."
       ],
       "answer": 3,
-      "explanation": "正確：工作和腳踏車都失去，表示最近很不順。",
+      "explanation": "down on your luck 指正在遭遇不順。",
       "optionExplanations": [
         "錯誤：這不是把運氣放到椅子上的意思。",
-        "錯誤：這個片語形容人處境不順，不是蛋糕口味。",
-        "錯誤：帽子是綠色不表示運氣不好。",
-        "正確：工作和腳踏車都失去，表示最近很不順。"
+        "down on her luck 是狀態片語，不能單獨作動詞。",
+        "to losing 的連接不成立；可說 after losing his job。",
+        "down on your luck 指正在遭遇不順。"
       ]
     },
     {
@@ -378,7 +378,7 @@
       "prompt": "哪一句正確使用「Hold on to」？",
       "options": [
         "Hold on to my hand when we cross the street.",
-        "I hold on to my dinner with a spoon every day.",
+        "I hold on to to climbing the ladder.",
         "She holds on to quickly to school.",
         "We hold on to happy in the park."
       ],
@@ -386,7 +386,7 @@
       "explanation": "正確：表示過馬路時抓住我的手。",
       "optionExplanations": [
         "正確：表示過馬路時抓住我的手。",
-        "錯誤：吃晚餐應用 eat，不是 hold on to dinner。",
+        "hold on to 後不能接 to climbing；可接 the ladder。",
         "錯誤：後面需要名詞或代名詞，這裡句型不完整。",
         "錯誤：happy 是形容詞，不能直接接在這個片語後。"
       ]
@@ -398,17 +398,17 @@
       "usage": "某件事讓情況變得不一樣時使用。",
       "prompt": "哪一句正確使用「Make a difference」？",
       "options": [
-        "I make a difference with a pencil on my paper.",
+        "I make a difference to helped my neighbour.",
         "A kind word can make a difference to someone.",
-        "My dog makes a difference of three sandwiches.",
+        "We made a difference to saved the old theatre.",
         "She makes a difference to seven o’clock."
       ],
       "answer": 1,
       "explanation": "正確：一句好話可能對別人帶來正面影響。",
       "optionExplanations": [
-        "錯誤：不是用鉛筆「製造一個差異」的字面動作。",
+        "to 後不能接 helped；可說 make a difference by helping。",
         "正確：一句好話可能對別人帶來正面影響。",
-        "錯誤：不能用這片語表示三明治的數量。",
+        "to saved 的形式錯誤；可說 helped save the old theatre。",
         "錯誤：不能用這片語表示時間。"
       ]
     },
@@ -419,18 +419,18 @@
       "usage": "鼓勵自己或別人嘗試某件事時使用。",
       "prompt": "哪一句正確使用「Give it a shot」？",
       "options": [
-        "I give my soup a shot with a fork.",
-        "We give it a shot under the bed every night.",
-        "She gives it a shot because the window is open.",
-        "I have never danced before, but I will give it a shot."
+        "I give it a shot to learned the drums.",
+        "We gave it a shot tomorrow at the dance class.",
+        "She give it a shot yesterday at the art class.",
+        "I've never acted, but I'll give it a shot."
       ],
       "answer": 3,
-      "explanation": "正確：沒跳過舞，但願意試試看。",
+      "explanation": "give it a shot 表示試一試。",
       "optionExplanations": [
-        "錯誤：這裡不是用叉子處理湯的意思。",
-        "錯誤：這片語不表示把東西放到床底下。",
-        "錯誤：開窗與嘗試某件事沒有合理關係。",
-        "正確：沒跳過舞，但願意試試看。"
+        "to 後用 learn，不能接 learned。",
+        "gave 是過去式，與 tomorrow 不配合。",
+        "過去事件須用 gave it a shot。",
+        "give it a shot 表示試一試。"
       ]
     },
     {
@@ -440,18 +440,18 @@
       "usage": "做事或走路已經到達中間階段時使用。",
       "prompt": "哪一句正確使用「Halfway there」？",
       "options": [
-        "My breakfast is halfway there because it is yellow.",
+        "My cousin halfway there the trip yesterday.",
         "We have walked for one hour. We are halfway there.",
-        "I halfway there my homework every day.",
-        "He is halfway there his new shoes."
+        "I halfway there my first interview.",
+        "He is halfway there to finished the painting."
       ],
       "answer": 1,
       "explanation": "正確：表示路程已經走了一半。",
       "optionExplanations": [
-        "錯誤：黃色與進度到一半無關。",
+        "halfway there 不能單獨作動詞；需要 was 等動詞。",
         "正確：表示路程已經走了一半。",
-        "錯誤：halfway there 不能直接當動詞使用。",
-        "錯誤：句子結構不完整，也沒有表達進度。"
+        "halfway there 不能直接作動詞接 my first interview。",
+        "to finished 形式錯誤；可說 halfway through the painting。"
       ]
     },
     {
@@ -462,16 +462,16 @@
       "prompt": "哪一句正確使用「Run away」？",
       "options": [
         "She ran away the music louder.",
-        "I run away my lunch at school.",
-        "The little dog ran away when the door opened.",
+        "I run away my suitcase before the flight.",
+        "The thief ran away, but left his name on the bag.",
         "He runs away a new phone every year."
       ],
       "answer": 2,
-      "explanation": "正確：門開了，小狗就跑走。",
+      "explanation": "run away 表示逃跑；小偷逃走卻留下姓名，情節清楚。",
       "optionExplanations": [
         "錯誤：要說把音樂調大，應使用 turn up。",
-        "錯誤：run away 不表示吃掉午餐。",
-        "正確：門開了，小狗就跑走。",
+        "run away 不及物，不能接 suitcase 表示整理行李。",
+        "run away 表示逃跑；小偷逃走卻留下姓名，情節清楚。",
         "錯誤：購買手機應使用 buy，不是 run away。"
       ]
     },
@@ -484,16 +484,16 @@
       "options": [
         "The test was hard, but I made it!",
         "She makes it blue to the bus every day.",
-        "I make it a sandwich with yesterday.",
-        "We make it under the table for breakfast."
+        "I make it to caught the last train.",
+        "We made it tomorrow before the show."
       ],
       "answer": 0,
       "explanation": "正確：考試很難，但我成功了。",
       "optionExplanations": [
         "正確：考試很難，但我成功了。",
         "錯誤：句型混亂，不能用 blue 表達成功搭車。",
-        "錯誤：如果表示做三明治，應說 make a sandwich。",
-        "錯誤：這片語不是表示在桌下準備早餐。"
+        "to caught 的形式錯誤；可說 made it onto the last train。",
+        "made 是過去式，與 tomorrow 不配合。"
       ]
     }
   ],

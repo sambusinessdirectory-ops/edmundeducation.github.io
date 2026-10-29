@@ -2732,16 +2732,16 @@
       "meaning": "愛上某人；墜入愛河。",
       "options": [
         "I fell in love with her when we met at school.",
-        "I fall in love my new shoes under the bed.",
+        "I fall in love to my new neighbour.",
         "He fell in love to his teacher yesterday.",
-        "She fell in love her homework before dinner."
+        "She fell in love with to her best friend."
       ],
       "explanation": "fall in love with someone 表示愛上某人；fell 是 fall 的過去式。",
       "optionExplanations": [
         "fall in love with someone 表示愛上某人；fell 是 fall 的過去式。",
-        "缺少介系詞 with；這裡也不適合用它描述鞋子放在哪裡。",
+        "fall in love 後接對象用 with，不能用 to。",
         "愛上某人要說 fall in love with，不是 to。",
-        "要接 with；而且這個句子想說「做功課」，不該用 fall in love。"
+        "with 後直接接 her best friend，不加 to。"
       ]
     },
     {
@@ -2755,14 +2755,14 @@
         "She calls her mother every single day.",
         "We every single day are a big house.",
         "I go to the shop every single day last year.",
-        "I every single day my school bag."
+        "I every single day my guitar before the show."
       ],
       "explanation": "表示她每天都會打電話給媽媽。",
       "optionExplanations": [
         "表示她每天都會打電話給媽媽。",
         "這裡的句子不完整，不能用 every single day 代替動詞。",
         "last year 是過去時間，動詞應用過去式 went；如 I went to the shop every single day last year.",
-        "缺少動詞，例如 I carry my school bag every single day."
+        "every single day 是時間片語，不能當作練習的動詞。"
       ]
     },
     {
@@ -2773,14 +2773,14 @@
       "prompt": "哪一句正確使用「think out loud」？",
       "meaning": "把正在想的事情直接說出來。",
       "options": [
-        "I think out loud my dinner with a spoon.",
+        "I think out loud to explained my plan.",
         "She thinks out loud a blue coat to school.",
         "I'm just thinking out loud, so I may change my idea.",
         "We think out loud the door every night."
       ],
       "explanation": "說話者把當下的想法說出來，也表示想法可能改變。",
       "optionExplanations": [
-        "think out loud 不是「吃東西」的意思。",
+        "to 後用 explain，不能接 explained。",
         "這個片語不能用來表示穿衣服；可以說 She wears a blue coat to school.",
         "說話者把當下的想法說出來，也表示想法可能改變。",
         "這個片語不能表示關門；可以說 We close the door every night."
@@ -2794,14 +2794,14 @@
       "prompt": "哪一句正確使用「fade」？",
       "meaning": "慢慢變淡；逐漸消失。",
       "options": [
-        "I fade my lunch at one o'clock.",
+        "I fade to my old concert poster.",
         "She fades to school on her bike.",
         "Please fade the door when you leave.",
         "The color of my old shirt is starting to fade."
       ],
       "explanation": "舊衣服的顏色開始慢慢變淡，很適合用 fade。",
       "optionExplanations": [
-        "fade 不能表示吃午餐；應說 I eat lunch at one o'clock.",
+        "fade 不能用此結構表示海報褪色；可說 My old poster fades。",
         "騎腳踏車去學校應說 She rides to school on her bike.",
         "這裡應用 close（關門），不是 fade。",
         "舊衣服的顏色開始慢慢變淡，很適合用 fade。"
@@ -2816,14 +2816,14 @@
       "meaning": "用同樣的方式。",
       "options": [
         "I bought the same way at the shop.",
-        "We both make tea the same way: with milk and sugar.",
+        "We fold maps the same way: badly.",
         "She is the same way years old as me.",
         "The same way is sleeping under the table."
       ],
-      "explanation": "兩人都用加牛奶和糖的方式泡茶。",
+      "explanation": "the same way 表示用同樣方式，這裡打趣兩人都不會摺地圖。",
       "optionExplanations": [
         "the same way 不是可以購買的物品；應說自己買了什麼。",
-        "兩人都用加牛奶和糖的方式泡茶。",
+        "the same way 表示用同樣方式，這裡打趣兩人都不會摺地圖。",
         "比較年齡可說 She is the same age as me.",
         "the same way 是「同樣的方式」，不是會睡覺的人或動物。"
       ]
@@ -2837,14 +2837,14 @@
       "meaning": "繼續做某件事。",
       "options": [
         "He keeps on to play the piano every day.",
-        "I keep on my new shoes in the box.",
+        "I keep on to practise the guitar.",
         "She kept on reading after dinner.",
         "We keep on the bus stop at six."
       ],
       "explanation": "表示她晚餐後繼續閱讀。",
       "optionExplanations": [
         "keep on 後面應接 playing，不是 to play。",
-        "這裡是在說把鞋子放在盒子裡，應說 I keep my new shoes in the box.",
+        "keep on 後用 practising，不能接 to practise。",
         "表示她晚餐後繼續閱讀。",
         "keep on 不能表示在公車站等車；可以說 We wait at the bus stop at six."
       ]
@@ -2857,16 +2857,16 @@
       "prompt": "哪一句正確使用「make a mistake」？",
       "meaning": "犯錯、做錯事。",
       "options": [
-        "I made a mistake my breakfast this morning.",
-        "I made a mistake in my homework, so I fixed it.",
-        "We made a mistake with the window because it was cold.",
+        "I made a mistake to booked the wrong hotel.",
+        "I made a mistake: my holiday photo reached the whole office.",
+        "We makes a mistake on the invitation.",
         "She makes a mistake to the park on Sundays."
       ],
-      "explanation": "表示作業做錯了一個地方，後來把它改好。",
+      "explanation": "make a mistake 表示犯錯，這裡誤寄照片。",
       "optionExplanations": [
-        "缺少適當介系詞，而且想說做早餐應用 made breakfast。",
-        "表示作業做錯了一個地方，後來把它改好。",
-        "這句沒有說明做錯了什麼；例如 We made a mistake and left the window open. 才清楚。",
+        "to booked 形式錯誤；可說 made a mistake and booked the wrong hotel。",
+        "make a mistake 表示犯錯，這裡誤寄照片。",
+        "主詞 we 配 make，不能加 s。",
         "這個片語不能表示去公園；可以說 She goes to the park on Sundays."
       ]
     },
@@ -2878,15 +2878,15 @@
       "prompt": "哪一句正確使用「part of a plan」？",
       "meaning": "計畫的一部分。",
       "options": [
-        "I part of a plan my shoes before school.",
-        "The milk is part of a plan because it is cold.",
+        "I part of a plan my summer trip.",
+        "The visit is part of a plan to saved money.",
         "She part of a plan very fast to the station.",
         "Our visit to the park is part of a plan for the weekend."
       ],
       "explanation": "去公園是週末安排的一部分。",
       "optionExplanations": [
-        "part of a plan 是名詞片語，不能拿來代替「穿鞋」等動詞。",
-        "牛奶很冷，不代表它是計畫的一部分；前後沒有合理關係。",
+        "part of a plan 是名詞片語，不能單獨作動詞。",
+        "to 後用 save，不能接 saved。",
         "這個片語不能表示走路或跑步；可以說 She runs very fast to the station.",
         "去公園是週末安排的一部分。"
       ]
@@ -2900,14 +2900,14 @@
       "meaning": "就在我們現在所在的地方。",
       "options": [
         "We can sit right where we are; we don't need to move.",
-        "I right where we are my lunch at school.",
+        "I right where we are my first interview.",
         "She will right where we are a new bag.",
         "Right where we are is seven years old."
       ],
       "explanation": "表示可以繼續坐在現在的位置，不用移動。",
       "optionExplanations": [
         "表示可以繼續坐在現在的位置，不用移動。",
-        "這個片語不能當作「吃」的動詞使用；可以說 I eat my lunch at school.",
+        "right where we are 是位置子句，不能當作主要動詞。",
         "這個片語不能代替「買」；可以說 She will buy a new bag.",
         "這個片語表示地點，不能用來說年齡。"
       ]

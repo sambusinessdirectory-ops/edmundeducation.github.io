@@ -453,17 +453,17 @@
       "usage": "強調每天都發生，沒有一天例外。",
       "prompt": "哪一句正確使用「Every single day」？",
       "options": [
-        "I brush my teeth every single day.",
-        "I ate every single day for breakfast.",
-        "My shoes are every single day blue.",
+        "Grandma sends me a new dance video every single day.",
+        "I bought every single day for the front row.",
+        "My new job is every single day interesting.",
         "She bought an every single day at the shop."
       ],
       "answer": 0,
-      "explanation": "正確：每天刷牙，是每天都做的事。",
+      "explanation": "every single day 強調每天都發生。",
       "optionExplanations": [
-        "正確：每天刷牙，是每天都做的事。",
-        "錯誤：片語是時間用法，不能拿來當早餐食物。",
-        "錯誤：不能把時間片語當成顏色的形容詞。",
+        "every single day 強調每天都發生。",
+        "every single day 表示每天，不能當作座位或票。",
+        "這個語序不自然；可說 My new job is interesting every single day。",
         "錯誤：這不是可購買的物品。"
       ]
     },
@@ -474,17 +474,17 @@
       "usage": "形容走路時的一步，也可說完成事情的一小步。",
       "prompt": "哪一句正確使用「Take a step」？",
       "options": [
-        "I take a step of milk in my coffee.",
-        "The cat took a step toward the fish.",
-        "We took a step our homework at night.",
+        "I take a step of money from the cash machine.",
+        "The actor took a step onto the king's coat.",
+        "We took a step our family photo on Sunday.",
         "She takes a step with her ears to listen."
       ],
       "answer": 1,
-      "explanation": "正確：貓朝魚的方向走了一步。",
+      "explanation": "take a step 表示踏出一步；這裡不小心踩上戲服。",
       "optionExplanations": [
-        "錯誤：牛奶要用 add 或 put，不能說 take a step of milk。",
-        "正確：貓朝魚的方向走了一步。",
-        "錯誤：take a step 後面不能直接接 homework。",
+        "a step 不能當成錢的量詞。",
+        "take a step 表示踏出一步；這裡不小心踩上戲服。",
+        "take a step 後面不能直接接 family photo。",
         "錯誤：聽聲音用耳朵，不是「踏出一步」。"
       ]
     },
@@ -497,7 +497,7 @@
       "options": [
         "This bag belongs for my sister.",
         "These keys belong to my dad.",
-        "I belong to my breakfast at eight.",
+        "I belong to my haircut at three o'clock.",
         "The rain belongs to quickly today."
       ],
       "answer": 1,
@@ -505,7 +505,7 @@
       "optionExplanations": [
         "錯誤：正確介系詞是 to，不是 for。",
         "正確：表示這些鑰匙是爸爸的。",
-        "錯誤：不能用 belong to 來表示吃早餐。",
+        "belong to 表示屬於，不能用來說預約理髮。",
         "錯誤：belong to 不能表示雨下得快。"
       ]
     },
@@ -516,16 +516,16 @@
       "usage": "答應了某件事，後來卻沒有做到。",
       "prompt": "哪一句正確使用「Break a promise」？",
       "options": [
-        "I break a promise to open the window every morning.",
-        "She broke a promise with a spoon to eat soup.",
+        "I break to a promise every week.",
+        "She broke a promise with a microphone to make her voice louder.",
         "He broke a promise when he did not call me.",
         "We bought two promises at the market."
       ],
       "answer": 2,
       "explanation": "正確：答應要打電話卻沒有打，就是違背承諾。",
       "optionExplanations": [
-        "錯誤：開窗不代表違背承諾，句子缺少答應卻沒做到的情境。",
-        "錯誤：吃湯時的湯匙和承諾無關。",
+        "break a promise 直接接 promise，不加 to。",
+        "提高音量可用麥克風；break a promise 表示沒有守約。",
         "正確：答應要打電話卻沒有打，就是違背承諾。",
         "錯誤：promise 是承諾，不是市場裡可買的東西。"
       ]
@@ -537,18 +537,18 @@
       "usage": "不是真的開心，但仍然做出微笑的表情。",
       "prompt": "哪一句正確使用「Fake a smile」？",
       "options": [
-        "I faked a smile to cook the rice.",
+        "I faked a smile to print the report without a printer.",
         "The bus faked a smile at the bus stop.",
         "My phone fakes a smile when it is out of power.",
-        "She faked a smile because she was sad but did not want to show it."
+        "I faked a smile at my third surprise meeting."
       ],
       "answer": 3,
-      "explanation": "正確：雖然難過，卻裝出笑容。",
+      "explanation": "fake a smile 表示裝出笑容，未必真的開心。",
       "optionExplanations": [
-        "錯誤：fake a smile 不是煮飯的方法。",
+        "fake a smile 表示裝出笑容，無法表示列印文件。",
         "錯誤：公車不會做出人的笑容。",
         "錯誤：手機沒電不會假裝微笑。",
-        "正確：雖然難過，卻裝出笑容。"
+        "fake a smile 表示裝出笑容，未必真的開心。"
       ]
     },
     {
@@ -560,7 +560,7 @@
       "options": [
         "I have lived here since 2020.",
         "She has been here since three hours.",
-        "Since is my favorite sandwich.",
+        "Since is the person sitting next to me on the plane.",
         "He went since the school on Tuesday."
       ],
       "answer": 0,
@@ -568,7 +568,7 @@
       "optionExplanations": [
         "正確：從 2020 年開始一直住在這裡。",
         "錯誤：三小時是一段時間，應用 for three hours。",
-        "錯誤：since 不是三明治的名稱。",
+        "since 無法當成指乘客的普通名詞。",
         "錯誤：since 不能代替 to 表示去某處。"
       ]
     },
@@ -579,17 +579,17 @@
       "usage": "形容人或東西消失了，找不到任何線索。",
       "prompt": "哪一句正確使用「Without a trace」？",
       "options": [
-        "The cake is without a trace delicious.",
+        "The interview is without a trace difficult.",
         "I wear without a trace to school.",
-        "My pen was on the desk, but now it is gone without a trace.",
+        "My concert ticket vanished without a trace.",
         "We played without a trace loudly."
       ],
       "answer": 2,
-      "explanation": "正確：筆不見了，也找不到任何線索。",
+      "explanation": "without a trace 表示沒有留下蹤跡。",
       "optionExplanations": [
-        "錯誤：不能用這個片語表示非常好吃。",
+        "without a trace 表示不留痕跡，不能在此修飾 difficult。",
         "錯誤：這不是可以穿的衣物。",
-        "正確：筆不見了，也找不到任何線索。",
+        "without a trace 表示沒有留下蹤跡。",
         "錯誤：這個片語不能直接表示玩得很大聲。"
       ]
     },
@@ -601,7 +601,7 @@
       "prompt": "哪一句正確使用「Look around」？",
       "options": [
         "We look around a song with our feet.",
-        "She looked around her soup to make it hot.",
+        "She looked around her bank card to put more money on it.",
         "My teacher looked around the test with a pencil.",
         "I looked around the room for my phone."
       ],
@@ -609,7 +609,7 @@
       "explanation": "正確：在房間四處找手機。",
       "optionExplanations": [
         "錯誤：不能用腳四處看一首歌。",
-        "錯誤：環顧四周不能讓湯變熱。",
+        "look around 指四處查看，無法表示存款。",
         "錯誤：批改考卷不應用 look around the test。",
         "正確：在房間四處找手機。"
       ]
@@ -621,18 +621,18 @@
       "usage": "用新的人或東西來代替原本的人或東西。",
       "prompt": "哪一句正確使用「Replace」？",
       "options": [
-        "I replaced my lunch with the color green.",
+        "I replaced my brother with the number seven to make him taller.",
         "My old phone broke, so I replaced it with a new one.",
         "She replaced to the park at noon.",
-        "The dog replaced very happy yesterday."
+        "The actor replaced very excited yesterday."
       ],
       "answer": 1,
       "explanation": "正確：用新手機取代壞掉的舊手機。",
       "optionExplanations": [
-        "錯誤：綠色不能當成一頓午餐。",
+        "replace 表示替換，不能用數字讓一個人長高。",
         "正確：用新手機取代壞掉的舊手機。",
         "錯誤：replace 不是「前往」，不能這樣接 to。",
-        "錯誤：replace 是動詞，不能像 become 一樣表示變得開心。"
+        "replace 是動詞，不能直接接 very excited 表示情緒。"
       ]
     },
     {
@@ -643,16 +643,16 @@
       "prompt": "哪一句正確使用「Long for」？",
       "options": [
         "I long for some quiet time after a busy day.",
-        "She long for the bus with her shoes.",
-        "We long for our dinner in five minutes.",
+        "She long for the interview with her invitation.",
+        "We long for the lift by pressing the button twice.",
         "My bag is long for the table."
       ],
       "answer": 0,
       "explanation": "正確：忙了一天，很渴望有安靜時間。",
       "optionExplanations": [
         "正確：忙了一天，很渴望有安靜時間。",
-        "錯誤：主詞 she 要用 longs，而且鞋子不是這裡的表達方式。",
-        "錯誤：這裡若指五分鐘後吃晚餐，應說 will have dinner。",
+        "主語 she 後面要用 longs；此句的動詞形式錯誤。",
+        "按電梯鍵無法直接用 long for 表達；它指強烈渴望。",
         "錯誤：long for 不是表示包包的長度或位置。"
       ]
     }

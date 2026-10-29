@@ -378,16 +378,16 @@
       "prompt": "哪一句正確使用了「A million reasons」？",
       "options": [
         "I have a million reasons to be happy today.",
-        "I put a million reasons in my shoes before school.",
-        "My dog ate a million reasons for breakfast.",
+        "I a million reasons my holiday next week.",
+        "My cousin has a million reasons to stayed home.",
         "Please open the million reasons to let in some air."
       ],
       "answer": 0,
       "explanation": "正確：用來誇張地表示有很多開心的理由。",
       "optionExplanations": [
         "正確：用來誇張地表示有很多開心的理由。",
-        "錯誤：reason 是理由，不是能放進鞋子的物品。",
-        "錯誤：理由不是能當早餐吃的東西。",
+        "a million reasons 是名詞片語，不能單獨作動詞。",
+        "to 後用 stay，不能接 stayed。",
         "錯誤：理由不是可以打開通風的窗戶。"
       ]
     },
@@ -398,18 +398,18 @@
       "usage": "當你不再要求某人留下，或允許對方離開時。",
       "prompt": "哪一句正確使用了「Let someone go」？",
       "options": [
-        "I let my soup go because it was too hot.",
-        "I was sad, but I let him go when he wanted to leave.",
+        "I let my colleague go to left early.",
+        "He wanted to leave, so I let him go.",
         "My phone let my teacher go to blue.",
-        "She lets her birthday go in the fridge."
+        "She lets her brother go yesterday."
       ],
       "answer": 1,
-      "explanation": "正確：雖然難過，仍讓對方離開，符合放手的意思。",
+      "explanation": "let someone go 表示允許某人離開。",
       "optionExplanations": [
-        "錯誤：湯不是這裡要說的『某人』；可說 I let my soup cool.。",
-        "正確：雖然難過，仍讓對方離開，符合放手的意思。",
+        "let someone go 後不能接 to left；可說 let my colleague leave early。",
+        "let someone go 表示允許某人離開。",
         "錯誤：let someone go 後面需要指人，這句的結構和意思都不通。",
-        "錯誤：生日不是一個人，也不能放進冰箱。"
+        "yesterday 是過去時間，這裡應用 let。"
       ]
     },
     {
@@ -419,18 +419,18 @@
       "usage": "想說不再做某件事，或退出一項活動時。",
       "prompt": "哪一句正確使用了「Quit」？",
       "options": [
-        "I quit my sandwich with two tomatoes.",
+        "I quit to working at the shop.",
         "She quit the school team because she had no time.",
         "We quit to the bus stop at eight.",
-        "He quit his hat on the kitchen table."
+        "He quit his plan into the calendar."
       ],
       "answer": 1,
       "explanation": "正確：quit the team 是退出隊伍。",
       "optionExplanations": [
-        "錯誤：quit 不是『做三明治』；可說 I made a sandwich.。",
+        "quit 後用 working，不能加 to。",
         "正確：quit the team 是退出隊伍。",
         "錯誤：quit 不是移動到某地；可說 We went to the bus stop.。",
-        "錯誤：quit 不是『放下』；可說 He put his hat on the table.。"
+        "quit 表示停止或退出，不能表示把計劃寫進月曆。"
       ]
     },
     {
@@ -441,17 +441,17 @@
       "prompt": "哪一句正確使用了「Run for the hills」？",
       "options": [
         "I run for the hills to make my bed every day.",
-        "She ran for the hills in her cup of tea.",
-        "When I saw the big angry dog, I wanted to run for the hills.",
-        "We ran for the hills because our homework was red."
+        "She ran for the hills to avoided the meeting.",
+        "They wanted me to sing. I wanted to run for the hills.",
+        "We run for the hills yesterday before the speech."
       ],
       "answer": 2,
-      "explanation": "正確：看到大隻又生氣的狗，想趕快逃開，符合片語意思。",
+      "explanation": "run for the hills 誇張地表示想趕快逃走。",
       "optionExplanations": [
         "錯誤：整理床鋪不等於逃離麻煩；這裡用 make my bed 就好。",
-        "錯誤：人不能在茶杯裡逃跑，句意不合理。",
-        "正確：看到大隻又生氣的狗，想趕快逃開，符合片語意思。",
-        "錯誤：作業是紅色不一定代表危險或麻煩，片語用得不自然。"
+        "to 後須用 avoid，不能用 avoided。",
+        "run for the hills 誇張地表示想趕快逃走。",
+        "過去事件應用 ran for the hills。"
       ]
     },
     {
@@ -462,17 +462,17 @@
       "prompt": "哪一句正確使用了「Bow down」？",
       "options": [
         "They bowed down the bus to arrive early.",
-        "I bowed down my lunch with a fork.",
+        "I bowed down my report into the printer.",
         "She bowed down the TV to make it louder.",
-        "He bowed down to pick up his phone from the floor."
+        "The actor bowed down before the king in the play."
       ],
       "answer": 3,
-      "explanation": "正確：描述身體往下彎的動作；日常也常說 bent down。",
+      "explanation": "bow down 表示低頭或彎身致敬；戲中向國王行禮符合用法。",
       "optionExplanations": [
         "錯誤：不能用 bow down 表示讓公車提早到。",
-        "錯誤：bow down 不是吃東西的動詞。",
+        "bow down 不能直接接 report 表示列印。",
         "錯誤：調大電視音量要用 turn up，不是 bow down。",
-        "正確：描述身體往下彎的動作；日常也常說 bent down。"
+        "bow down 表示低頭或彎身致敬；戲中向國王行禮符合用法。"
       ]
     },
     {
@@ -483,17 +483,17 @@
       "prompt": "哪一句正確使用了「Show me the way」？",
       "options": [
         "Can you show me the way to the train station?",
-        "Show me the way my pizza is sleeping.",
-        "My shoes showed me the way to taste sweet.",
-        "I showed the way my lunch in a blue bag."
+        "Show me the way to arrived at the hotel.",
+        "My cousin showed me the way to the museum tomorrow.",
+        "I show me the way very nervous at the interview."
       ],
       "answer": 0,
       "explanation": "正確：請別人告訴你去車站的路。",
       "optionExplanations": [
         "正確：請別人告訴你去車站的路。",
-        "錯誤：pizza 不會睡覺，句子也沒有清楚的方向。",
-        "錯誤：鞋子不能告訴你『怎樣嚐起來甜』，意思不通。",
-        "錯誤：show the way 通常要說明對誰指路、去哪裡，這句搭配不對。"
+        "to 後接地點或原形動詞，不能用 arrived。",
+        "showed 是過去式，與 tomorrow 不配合。",
+        "show me the way 不能連接 very nervous 描述心情。"
       ]
     },
     {
@@ -503,18 +503,18 @@
       "usage": "物品用很久、快壞了，或人非常疲倦時。",
       "prompt": "哪一句正確使用了「Worn out」？",
       "options": [
-        "These shoes are worn out, so I need new ones.",
-        "I wore out my water before bed.",
-        "My dad wore out the window to eat dinner.",
-        "She is worn out in the fridge next to the milk."
+        "Dad was worn out after dancing all night.",
+        "I was worn out to danced all night.",
+        "My dad worn out the long journey yesterday.",
+        "She is worn out to the office by tram."
       ],
       "answer": 0,
-      "explanation": "正確：鞋子用久、磨壞了，可以說 worn out。",
+      "explanation": "worn out 在此表示筋疲力盡。",
       "optionExplanations": [
-        "正確：鞋子用久、磨壞了，可以說 worn out。",
-        "錯誤：水不會因為使用而磨損；可說 I drank my water.。",
-        "錯誤：wear out 不是用窗戶吃飯，搭配不合理。",
-        "錯誤：人不會待在冰箱裡『累壞了』，語境不合理。"
+        "worn out 在此表示筋疲力盡。",
+        "to danced 的形式錯誤；原因可用 after dancing all night。",
+        "worn out 不能在此單獨作動詞；可說 was worn out after the journey。",
+        "worn out 形容疲累，不能表示交通方式。"
       ]
     },
     {
@@ -524,7 +524,7 @@
       "usage": "不想繼續爭吵，或決定離開某個情況時。",
       "prompt": "哪一句正確使用了「Walk away」？",
       "options": [
-        "I walked away my breakfast with some bread.",
+        "I walked away my suitcase at the airport.",
         "She walked away the song on her phone.",
         "He walked away the blue color from the wall.",
         "I was angry, so I walked away and took a break."
@@ -532,7 +532,7 @@
       "answer": 3,
       "explanation": "正確：生氣時先離開、休息一下，很自然。",
       "optionExplanations": [
-        "錯誤：walk away 不是準備或吃早餐。",
+        "walk away 不及物，不能直接接 suitcase 表示搬行李。",
         "錯誤：walk away 不是用手機播放歌曲。",
         "錯誤：walk away 不能表示把顏色從牆上移除。",
         "正確：生氣時先離開、休息一下，很自然。"
@@ -545,17 +545,17 @@
       "usage": "描述同一個問題不斷發生、很難改變時。",
       "prompt": "哪一句正確使用了「Stuck in a cycle」？",
       "options": [
-        "My sandwich is stuck in a cycle of the music.",
-        "I am stuck in a cycle because my bike has two wheels.",
-        "I am stuck in a cycle: I sleep late and feel tired every morning.",
+        "I stuck in a cycle my report every day.",
+        "I am stuck in a cycle to checking my phone.",
+        "I'm stuck in a cycle of late nights and tired mornings.",
         "We stuck in a cycle the teacher's red pen."
       ],
       "answer": 2,
-      "explanation": "正確：晚睡、隔天累，反覆發生的問題就是一種循環。",
+      "explanation": "stuck in a cycle 指困在不斷重複的模式中。",
       "optionExplanations": [
-        "錯誤：三明治與音樂的『循環』沒有合理的關係。",
-        "錯誤：cycle 在這個片語中是『循環』，不是指腳踏車。",
-        "正確：晚睡、隔天累，反覆發生的問題就是一種循環。",
+        "stuck in a cycle 是狀態片語，需要 am 等動詞，不能直接接 report。",
+        "cycle of 後可接 checking；to checking 在此不成立。",
+        "stuck in a cycle 指困在不斷重複的模式中。",
         "錯誤：句子缺少 be 動詞，也沒有清楚表達重複的情況。"
       ]
     },
@@ -566,17 +566,17 @@
       "usage": "遇到困難但仍想相信事情會變好時。",
       "prompt": "哪一句正確使用了「Keep the faith」？",
       "options": [
-        "I keep the faith in my pocket with my keys.",
+        "I keep the faith to practised every day.",
         "The exam was hard, but I tried to keep the faith.",
-        "She keeps the faith in the oven for ten minutes.",
+        "She keep the faith yesterday before the concert.",
         "Please keep the faith blue before you wash it."
       ],
       "answer": 1,
       "explanation": "正確：考試很難，但仍保持信心，符合用法。",
       "optionExplanations": [
-        "錯誤：faith 是信心或信念，不是可放口袋的物品。",
+        "to 後用 practise，不能接 practised。",
         "正確：考試很難，但仍保持信心，符合用法。",
-        "錯誤：信心不是能放進烤箱烤的東西。",
+        "過去事件應用 kept the faith。",
         "錯誤：keep the faith 不是『保持藍色』。"
       ]
     }

@@ -1,0 +1,7732 @@
+{
+  "baseline": "94e979713",
+  "scope": "49 songs / all 490 vocabulary items; thematic and wording editorial review",
+  "counts": {
+    "questions": 490,
+    "changedQuestions": 473,
+    "changedOptions": 1012,
+    "beforeMotifOptions": 550,
+    "afterMotifOptions": 0,
+    "beforeUniqueLongestKey": 244,
+    "afterUniqueLongestKey": 194
+  },
+  "checks": "Automated checks establish structure and preservation, not CEFR certification or semantic uniqueness. Editorial reading supplies the latter judgement. Target song expressions are retained even when above A2; surrounding language aims at A2.",
+  "items": [
+    {
+      "slug": "a-sky-full-of-stars",
+      "number": 1,
+      "word": "full of",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "a-sky-full-of-stars",
+      "number": 2,
+      "word": "gonna",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "technology",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "a-sky-full-of-stars",
+      "number": 3,
+      "word": "light up",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "technology",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "a-sky-full-of-stars",
+      "number": 4,
+      "word": "I don't care",
+      "answer": 2,
+      "changedOptions": [
+        2
+      ],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "a-sky-full-of-stars",
+      "number": 5,
+      "word": "go on",
+      "answer": 3,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "money"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "a-sky-full-of-stars",
+      "number": 6,
+      "word": "tear apart",
+      "answer": 0,
+      "changedOptions": [],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "a-sky-full-of-stars",
+      "number": 7,
+      "word": "in your arms",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "action",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "a-sky-full-of-stars",
+      "number": 8,
+      "word": "the more..., the more...",
+      "answer": 1,
+      "changedOptions": [],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "a-sky-full-of-stars",
+      "number": 9,
+      "word": "such a",
+      "answer": 2,
+      "changedOptions": [
+        3
+      ],
+      "editedThemes": [
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "a-sky-full-of-stars",
+      "number": 10,
+      "word": "heavenly",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "entertainment",
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "a-thousand-years",
+      "number": 1,
+      "word": "Heart beats fast",
+      "answer": 1,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "a-thousand-years",
+      "number": 2,
+      "word": "Be brave",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "a-thousand-years",
+      "number": 3,
+      "word": "Be afraid to",
+      "answer": 1,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "a-thousand-years",
+      "number": 4,
+      "word": "Go away",
+      "answer": 3,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "shopping",
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "a-thousand-years",
+      "number": 5,
+      "word": "One step closer",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "a-thousand-years",
+      "number": 6,
+      "word": "Stand still",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "a-thousand-years",
+      "number": 7,
+      "word": "Take away",
+      "answer": 2,
+      "changedOptions": [],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "a-thousand-years",
+      "number": 8,
+      "word": "In front of",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "family",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "a-thousand-years",
+      "number": 9,
+      "word": "All along",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "a-thousand-years",
+      "number": 10,
+      "word": "Bring someone to",
+      "answer": 3,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "africa",
+      "number": 1,
+      "word": "echo",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "technology",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "africa",
+      "number": 2,
+      "word": "whisper",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "technology",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "africa",
+      "number": 3,
+      "word": "along the way",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "money",
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "africa",
+      "number": 4,
+      "word": "as if",
+      "answer": 3,
+      "changedOptions": [
+        3
+      ],
+      "editedThemes": [
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "africa",
+      "number": 5,
+      "word": "hurry",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "africa",
+      "number": 6,
+      "word": "take some time",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "technology",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "africa",
+      "number": 7,
+      "word": "cry out",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "money",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "africa",
+      "number": 8,
+      "word": "long for",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "technology",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "africa",
+      "number": 9,
+      "word": "do what is right",
+      "answer": 3,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "africa",
+      "number": 10,
+      "word": "be frightened of",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "everyday",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "all-of-me",
+      "number": 1,
+      "word": "Smart mouth",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "money",
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "all-of-me",
+      "number": 2,
+      "word": "Draw someone in",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "reading",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "all-of-me",
+      "number": 3,
+      "word": "No kidding",
+      "answer": 1,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "all-of-me",
+      "number": 4,
+      "word": "Pin someone down",
+      "answer": 2,
+      "changedOptions": [
+        2
+      ],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "all-of-me",
+      "number": 5,
+      "word": "Dizzy",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "technology",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "all-of-me",
+      "number": 6,
+      "word": "Out of my mind",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "all-of-me",
+      "number": 7,
+      "word": "Give my all",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "all-of-me",
+      "number": 8,
+      "word": "Beat someone down",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "technology",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "all-of-me",
+      "number": 9,
+      "word": "Around",
+      "answer": 2,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "all-of-me",
+      "number": 10,
+      "word": "Risk it all",
+      "answer": 1,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "always",
+      "number": 1,
+      "word": "Nothing but",
+      "answer": 1,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "always",
+      "number": 2,
+      "word": "Since",
+      "answer": 0,
+      "changedOptions": [
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "always",
+      "number": 3,
+      "word": "Give up",
+      "answer": 2,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "always",
+      "number": 4,
+      "word": "Meant to be",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "money",
+        "technology",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "always",
+      "number": 5,
+      "word": "Anymore",
+      "answer": 0,
+      "changedOptions": [
+        3
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "always",
+      "number": 6,
+      "word": "On my mind",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "always",
+      "number": 7,
+      "word": "Leave behind",
+      "answer": 3,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "always",
+      "number": 8,
+      "word": "Make someone laugh",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "technology",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "always",
+      "number": 9,
+      "word": "Take a look at",
+      "answer": 1,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "money",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "always",
+      "number": 10,
+      "word": "Pack up",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "bad-romance",
+      "number": 1,
+      "word": "Be caught in",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "school"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "bad-romance",
+      "number": 2,
+      "word": "As long as",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "neighbours"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "bad-romance",
+      "number": 3,
+      "word": "Drama",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "technology",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "bad-romance",
+      "number": 4,
+      "word": "Revenge",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "appearance",
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "bad-romance",
+      "number": 5,
+      "word": "Criminal",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "sport",
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "bad-romance",
+      "number": 6,
+      "word": "Be mine",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "family",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "bad-romance",
+      "number": 7,
+      "word": "Work it",
+      "answer": 3,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "bad-romance",
+      "number": 8,
+      "word": "Want someone back",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "bad-romance",
+      "number": 9,
+      "word": "Be friends",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "bad-romance",
+      "number": 10,
+      "word": "Free",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "money"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "bohemian-rhapsody",
+      "number": 1,
+      "word": "Fantasy",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "money",
+        "technology",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "bohemian-rhapsody",
+      "number": 2,
+      "word": "Escape from",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "appearance",
+        "entertainment",
+        "family",
+        "school"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "bohemian-rhapsody",
+      "number": 3,
+      "word": "Look up",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "entertainment",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "bohemian-rhapsody",
+      "number": 4,
+      "word": "Matter to",
+      "answer": 2,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "bohemian-rhapsody",
+      "number": 5,
+      "word": "Mean to",
+      "answer": 1,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "bohemian-rhapsody",
+      "number": 6,
+      "word": "Throw away",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "bohemian-rhapsody",
+      "number": 7,
+      "word": "Carry on",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "bohemian-rhapsody",
+      "number": 8,
+      "word": "As if",
+      "answer": 0,
+      "changedOptions": [
+        2
+      ],
+      "editedThemes": [
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "bohemian-rhapsody",
+      "number": 9,
+      "word": "Leave behind",
+      "answer": 3,
+      "changedOptions": [
+        2,
+        3
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "bohemian-rhapsody",
+      "number": 10,
+      "word": "Let someone go",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "money",
+        "school"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "dont-stop-believin",
+      "number": 1,
+      "word": "small-town",
+      "answer": 1,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "community",
+        "technology",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "dont-stop-believin",
+      "number": 2,
+      "word": "born and raised",
+      "answer": 0,
+      "changedOptions": [
+        2
+      ],
+      "editedThemes": [
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "dont-stop-believin",
+      "number": 3,
+      "word": "anywhere",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "family",
+        "relationships",
+        "shopping"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "dont-stop-believin",
+      "number": 4,
+      "word": "go on and on",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "relationships",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "dont-stop-believin",
+      "number": 5,
+      "word": "stranger",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "everyday",
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "dont-stop-believin",
+      "number": 6,
+      "word": "up and down",
+      "answer": 2,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "money",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "dont-stop-believin",
+      "number": 7,
+      "word": "work hard",
+      "answer": 3,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "dont-stop-believin",
+      "number": 8,
+      "word": "a thrill",
+      "answer": 1,
+      "changedOptions": [
+        2
+      ],
+      "editedThemes": [
+        "money"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "dont-stop-believin",
+      "number": 9,
+      "word": "roll the dice",
+      "answer": 0,
+      "changedOptions": [
+        2,
+        3
+      ],
+      "editedThemes": [
+        "appearance",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "dont-stop-believin",
+      "number": 10,
+      "word": "hold on to",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "money",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "every-breath-you-take",
+      "number": 1,
+      "word": "Every single day",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "every-breath-you-take",
+      "number": 2,
+      "word": "Take a step",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "family",
+        "money"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "every-breath-you-take",
+      "number": 3,
+      "word": "Belong to",
+      "answer": 1,
+      "changedOptions": [
+        2
+      ],
+      "editedThemes": [
+        "appearance"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "every-breath-you-take",
+      "number": 4,
+      "word": "Break a promise",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "entertainment",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "every-breath-you-take",
+      "number": 5,
+      "word": "Fake a smile",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "every-breath-you-take",
+      "number": 6,
+      "word": "Since",
+      "answer": 0,
+      "changedOptions": [
+        2
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "every-breath-you-take",
+      "number": 7,
+      "word": "Without a trace",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "every-breath-you-take",
+      "number": 8,
+      "word": "Look around",
+      "answer": 3,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "money"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "every-breath-you-take",
+      "number": 9,
+      "word": "Replace",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "every-breath-you-take",
+      "number": 10,
+      "word": "Long for",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "everyday",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "everything-has-changed",
+      "number": 1,
+      "word": "Good to go",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "family",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "everything-has-changed",
+      "number": 2,
+      "word": "Know someone better",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "community",
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "everything-has-changed",
+      "number": 3,
+      "word": "In the back of my mind",
+      "answer": 1,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "family",
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "everything-has-changed",
+      "number": 4,
+      "word": "Hold the door",
+      "answer": 0,
+      "changedOptions": [
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "everything-has-changed",
+      "number": 5,
+      "word": "Take down",
+      "answer": 2,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "appearance",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "everything-has-changed",
+      "number": 6,
+      "word": "Open up",
+      "answer": 3,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "school"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "everything-has-changed",
+      "number": 7,
+      "word": "Butterflies in my stomach",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "emotions",
+        "school"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "everything-has-changed",
+      "number": 8,
+      "word": "Make up for lost time",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "everyday"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "everything-has-changed",
+      "number": 9,
+      "word": "All in my mind",
+      "answer": 3,
+      "changedOptions": [
+        3
+      ],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "everything-has-changed",
+      "number": 10,
+      "word": "Pouring rain",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "everything-i-own",
+      "number": 1,
+      "word": "Shelter someone from",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "weather",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "everything-i-own",
+      "number": 2,
+      "word": "Keep someone warm",
+      "answer": 1,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "school",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "everything-i-own",
+      "number": 3,
+      "word": "Set someone free",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "appearance",
+        "family",
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "everything-i-own",
+      "number": 4,
+      "word": "Give up",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "family",
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "everything-i-own",
+      "number": 5,
+      "word": "Have someone back",
+      "answer": 3,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "community",
+        "money",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "everything-i-own",
+      "number": 6,
+      "word": "Show the way",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "family",
+        "school"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "everything-i-own",
+      "number": 7,
+      "word": "Let go",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "health",
+        "money"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "everything-i-own",
+      "number": 8,
+      "word": "Take someone for granted",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "relationships",
+        "school"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "everything-i-own",
+      "number": 9,
+      "word": "Long to",
+      "answer": 2,
+      "changedOptions": [],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "everything-i-own",
+      "number": 10,
+      "word": "Once again",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "appearance",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "faithfully",
+      "number": 1,
+      "word": "On my mind",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "relationships",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "faithfully",
+      "number": 2,
+      "word": "Round and round",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "money"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "faithfully",
+      "number": 3,
+      "word": "Restless",
+      "answer": 1,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "faithfully",
+      "number": 4,
+      "word": "Stand by someone",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "family",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "faithfully",
+      "number": 5,
+      "word": "Supposed to",
+      "answer": 3,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "faithfully",
+      "number": 6,
+      "word": "Make someone smile",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "money",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "faithfully",
+      "number": 7,
+      "word": "Wonder where",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "faithfully",
+      "number": 8,
+      "word": "Be lost without someone",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "appearance"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "faithfully",
+      "number": 9,
+      "word": "Be apart",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "school"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "faithfully",
+      "number": 10,
+      "word": "Fall in love again",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "fast-car",
+      "number": 1,
+      "word": "Make a deal",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "fast-car",
+      "number": 2,
+      "word": "Get somewhere",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "fast-car",
+      "number": 3,
+      "word": "Nothing to lose",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "money",
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "fast-car",
+      "number": 4,
+      "word": "Nothing to prove",
+      "answer": 2,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "money"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "fast-car",
+      "number": 5,
+      "word": "Manage to",
+      "answer": 1,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "technology",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "fast-car",
+      "number": 6,
+      "word": "Take care of",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "school"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "fast-car",
+      "number": 7,
+      "word": "Make a decision",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "family",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "fast-car",
+      "number": 8,
+      "word": "Belong",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "entertainment",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "fast-car",
+      "number": 9,
+      "word": "Get promoted",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "fast-car",
+      "number": 10,
+      "word": "Pay the bills",
+      "answer": 0,
+      "changedOptions": [
+        2,
+        3
+      ],
+      "editedThemes": [
+        "everyday",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "fly-me-to-the-moon",
+      "number": 1,
+      "word": "Fly me to",
+      "answer": 1,
+      "changedOptions": [
+        3
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "fly-me-to-the-moon",
+      "number": 2,
+      "word": "Among",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "money",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "fly-me-to-the-moon",
+      "number": 3,
+      "word": "What ... is like",
+      "answer": 3,
+      "changedOptions": [
+        2
+      ],
+      "editedThemes": [
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "fly-me-to-the-moon",
+      "number": 4,
+      "word": "In other words",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "fly-me-to-the-moon",
+      "number": 5,
+      "word": "Hold my hand",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "fly-me-to-the-moon",
+      "number": 6,
+      "word": "Fill ... with",
+      "answer": 2,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "fly-me-to-the-moon",
+      "number": 7,
+      "word": "Forever more",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "fly-me-to-the-moon",
+      "number": 8,
+      "word": "Long for",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "appearance",
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "fly-me-to-the-moon",
+      "number": 9,
+      "word": "Adore",
+      "answer": 2,
+      "changedOptions": [
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "fly-me-to-the-moon",
+      "number": 10,
+      "word": "Be true to",
+      "answer": 1,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "appearance"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "forever-young",
+      "number": 1,
+      "word": "For a while",
+      "answer": 1,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "community"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "forever-young",
+      "number": 2,
+      "word": "Hope for the best",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "forever-young",
+      "number": 3,
+      "word": "Expect the worst",
+      "answer": 2,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "forever-young",
+      "number": 4,
+      "word": "Never say never",
+      "answer": 3,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "forever-young",
+      "number": 5,
+      "word": "Imagine",
+      "answer": 0,
+      "changedOptions": [
+        3
+      ],
+      "editedThemes": [
+        "school"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "forever-young",
+      "number": 6,
+      "word": "Get in tune",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "family",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "forever-young",
+      "number": 7,
+      "word": "Sooner or later",
+      "answer": 0,
+      "changedOptions": [
+        2
+      ],
+      "editedThemes": [
+        "money"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "forever-young",
+      "number": 8,
+      "word": "Out of the blue",
+      "answer": 1,
+      "changedOptions": [
+        2
+      ],
+      "editedThemes": [
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "forever-young",
+      "number": 9,
+      "word": "Come true",
+      "answer": 2,
+      "changedOptions": [
+        3
+      ],
+      "editedThemes": [
+        "appearance"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "forever-young",
+      "number": 10,
+      "word": "Live forever",
+      "answer": 3,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "happier",
+      "number": 1,
+      "word": "be apart",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "buildings",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "happier",
+      "number": 2,
+      "word": "make someone laugh",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "family",
+        "money"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "happier",
+      "number": 3,
+      "word": "twice as ... as",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "buildings",
+        "entertainment",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "happier",
+      "number": 4,
+      "word": "take it personally",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "art",
+        "emotions",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "happier",
+      "number": 5,
+      "word": "move on",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "time",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "happier",
+      "number": 6,
+      "word": "hide the truth",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "family",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "happier",
+      "number": 7,
+      "word": "remind someone of",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "community",
+        "music",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "happier",
+      "number": 8,
+      "word": "deserve",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "achievement",
+        "art",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "happier",
+      "number": 9,
+      "word": "fall for someone",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "accidents",
+        "technology",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "happier",
+      "number": 10,
+      "word": "break someone’s heart",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "technology",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "hey-brother",
+      "number": 1,
+      "word": "Endless",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "hey-brother",
+      "number": 2,
+      "word": "Discover",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "hey-brother",
+      "number": 3,
+      "word": "Believe in",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "hey-brother",
+      "number": 4,
+      "word": "One another",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "hey-brother",
+      "number": 5,
+      "word": "What if",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "buildings",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "hey-brother",
+      "number": 6,
+      "word": "Far from",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "money",
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "hey-brother",
+      "number": 7,
+      "word": "Lose it all",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "possessions"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "hey-brother",
+      "number": 8,
+      "word": "Help someone out",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "family",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "hey-brother",
+      "number": 9,
+      "word": "Fall down",
+      "answer": 1,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "hey-brother",
+      "number": 10,
+      "word": "There is nothing ... I wouldn’t do",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-dont-want-to-miss-a-thing",
+      "number": 1,
+      "word": "Stay awake",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-dont-want-to-miss-a-thing",
+      "number": 2,
+      "word": "Far away",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "family",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-dont-want-to-miss-a-thing",
+      "number": 3,
+      "word": "Spend time with",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-dont-want-to-miss-a-thing",
+      "number": 4,
+      "word": "Treasure",
+      "answer": 2,
+      "changedOptions": [
+        3
+      ],
+      "editedThemes": [
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-dont-want-to-miss-a-thing",
+      "number": 5,
+      "word": "Fall asleep",
+      "answer": 3,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-dont-want-to-miss-a-thing",
+      "number": 6,
+      "word": "Miss a thing",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-dont-want-to-miss-a-thing",
+      "number": 7,
+      "word": "Dream of",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-dont-want-to-miss-a-thing",
+      "number": 8,
+      "word": "Wonder",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-dont-want-to-miss-a-thing",
+      "number": 9,
+      "word": "Hold someone close",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-dont-want-to-miss-a-thing",
+      "number": 10,
+      "word": "The rest of",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "money",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-lay-my-love-on-you",
+      "number": 1,
+      "word": "Hardly believe it",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-lay-my-love-on-you",
+      "number": 2,
+      "word": "Next to",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "relationships",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-lay-my-love-on-you",
+      "number": 3,
+      "word": "Reach for",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-lay-my-love-on-you",
+      "number": 4,
+      "word": "No way back",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-lay-my-love-on-you",
+      "number": 5,
+      "word": "Be okay",
+      "answer": 2,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-lay-my-love-on-you",
+      "number": 6,
+      "word": "Brand new",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "art",
+        "money",
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-lay-my-love-on-you",
+      "number": 7,
+      "word": "Open up",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "family",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-lay-my-love-on-you",
+      "number": 8,
+      "word": "Hold on to",
+      "answer": 1,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "money"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-lay-my-love-on-you",
+      "number": 9,
+      "word": "Too long",
+      "answer": 2,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-lay-my-love-on-you",
+      "number": 10,
+      "word": "Once in a lifetime",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-want-it-that-way",
+      "number": 1,
+      "word": "Desire",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "buildings",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-want-it-that-way",
+      "number": 2,
+      "word": "Two worlds apart",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-want-it-that-way",
+      "number": 3,
+      "word": "Reach",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-want-it-that-way",
+      "number": 4,
+      "word": "Heartache",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-want-it-that-way",
+      "number": 5,
+      "word": "Mistake",
+      "answer": 3,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "money"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-want-it-that-way",
+      "number": 6,
+      "word": "Too late",
+      "answer": 2,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-want-it-that-way",
+      "number": 7,
+      "word": "Fall apart",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "art",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-want-it-that-way",
+      "number": 8,
+      "word": "Used to",
+      "answer": 1,
+      "changedOptions": [],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-want-it-that-way",
+      "number": 9,
+      "word": "No matter",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-want-it-that-way",
+      "number": 10,
+      "word": "Deep down",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "art",
+        "family",
+        "money"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-will-remember",
+      "number": 1,
+      "word": "Come to pass",
+      "answer": 3,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-will-remember",
+      "number": 2,
+      "word": "Surround yourself with",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "community",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-will-remember",
+      "number": 3,
+      "word": "All to myself",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "leisure"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-will-remember",
+      "number": 4,
+      "word": "End up",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-will-remember",
+      "number": 5,
+      "word": "Break a promise",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "money",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-will-remember",
+      "number": 6,
+      "word": "Move along",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-will-remember",
+      "number": 7,
+      "word": "There was a time when",
+      "answer": 0,
+      "changedOptions": [
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-will-remember",
+      "number": 8,
+      "word": "Whisper",
+      "answer": 2,
+      "changedOptions": [],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-will-remember",
+      "number": 9,
+      "word": "Pull someone forward",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "community"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "i-will-remember",
+      "number": 10,
+      "word": "Remember someone",
+      "answer": 3,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "if-bread",
+      "number": 1,
+      "word": "a thousand",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "art",
+        "family",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "if-bread",
+      "number": 2,
+      "word": "come to know",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "community",
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "if-bread",
+      "number": 3,
+      "word": "no one but",
+      "answer": 0,
+      "changedOptions": [
+        3
+      ],
+      "editedThemes": [
+        "art",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "if-bread",
+      "number": 4,
+      "word": "run dry",
+      "answer": 1,
+      "changedOptions": [
+        2
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "if-bread",
+      "number": 5,
+      "word": "at one time",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "art",
+        "entertainment",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "if-bread",
+      "number": 6,
+      "word": "all the way",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "transport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "if-bread",
+      "number": 7,
+      "word": "spend time with",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "music",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "if-bread",
+      "number": 8,
+      "word": "one by one",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "family",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "if-bread",
+      "number": 9,
+      "word": "go out",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "art",
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "if-bread",
+      "number": 10,
+      "word": "fly away",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "family",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "imagine",
+      "number": 1,
+      "word": "Imagine",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "entertainment",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "imagine",
+      "number": 2,
+      "word": "Give it a try",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "entertainment",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "imagine",
+      "number": 3,
+      "word": "Below",
+      "answer": 2,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "buildings",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "imagine",
+      "number": 4,
+      "word": "Above",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "art"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "imagine",
+      "number": 5,
+      "word": "Live in peace",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "community",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "imagine",
+      "number": 6,
+      "word": "Dreamer",
+      "answer": 3,
+      "changedOptions": [
+        2,
+        3
+      ],
+      "editedThemes": [
+        "sport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "imagine",
+      "number": 7,
+      "word": "The only one",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "entertainment",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "imagine",
+      "number": 8,
+      "word": "Someday",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "art",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "imagine",
+      "number": 9,
+      "word": "Join us",
+      "answer": 3,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "music",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "imagine",
+      "number": 10,
+      "word": "Share with",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "community"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "iris",
+      "number": 1,
+      "word": "Give up",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "community",
+        "music"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "iris",
+      "number": 2,
+      "word": "Somehow",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "technology",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "iris",
+      "number": 3,
+      "word": "Right now",
+      "answer": 3,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "art",
+        "entertainment",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "iris",
+      "number": 4,
+      "word": "Sooner or later",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "transport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "iris",
+      "number": 5,
+      "word": "Be over",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "art",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "iris",
+      "number": 6,
+      "word": "Miss someone",
+      "answer": 2,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "iris",
+      "number": 7,
+      "word": "Understand",
+      "answer": 2,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "sport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "iris",
+      "number": 8,
+      "word": "Made to be",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "family",
+        "weather"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "iris",
+      "number": 9,
+      "word": "Feel like",
+      "answer": 3,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "art",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "iris",
+      "number": 10,
+      "word": "Who I am",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "sport",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "its-my-life",
+      "number": 1,
+      "word": "broken-hearted",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "relationships",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "its-my-life",
+      "number": 2,
+      "word": "a face in the crowd",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "events",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "its-my-life",
+      "number": 3,
+      "word": "out loud",
+      "answer": 0,
+      "changedOptions": [],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "its-my-life",
+      "number": 4,
+      "word": "now or never",
+      "answer": 3,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "its-my-life",
+      "number": 5,
+      "word": "my way",
+      "answer": 2,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "art",
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "its-my-life",
+      "number": 6,
+      "word": "stand your ground",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "its-my-life",
+      "number": 7,
+      "word": "back down",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "technology",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "its-my-life",
+      "number": 8,
+      "word": "make no mistake",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "its-my-life",
+      "number": 9,
+      "word": "stand tall",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "money",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "its-my-life",
+      "number": 10,
+      "word": "live forever",
+      "answer": 0,
+      "changedOptions": [],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "layla",
+      "number": 1,
+      "word": "Get lonely",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "family",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "layla",
+      "number": 2,
+      "word": "By your side",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "layla",
+      "number": 3,
+      "word": "Much too long",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "family",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "layla",
+      "number": 4,
+      "word": "On my knees",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "relationships",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "layla",
+      "number": 5,
+      "word": "Beg someone to",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "community",
+        "family",
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "layla",
+      "number": 6,
+      "word": "Let someone down",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "layla",
+      "number": 7,
+      "word": "Fall in love with",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "layla",
+      "number": 8,
+      "word": "Turn upside down",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "layla",
+      "number": 9,
+      "word": "Make the best of",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "sport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "layla",
+      "number": 10,
+      "word": "In vain",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "family",
+        "transport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "lea",
+      "number": 1,
+      "word": "Here’s to",
+      "answer": 2,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "sport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "lea",
+      "number": 2,
+      "word": "Care for",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "community",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "lea",
+      "number": 3,
+      "word": "Give it some thought",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "lea",
+      "number": 4,
+      "word": "Appear",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "community",
+        "entertainment",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "lea",
+      "number": 5,
+      "word": "How long",
+      "answer": 0,
+      "changedOptions": [
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "lea",
+      "number": 6,
+      "word": "Want someone to",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "lea",
+      "number": 7,
+      "word": "Share with",
+      "answer": 1,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "community",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "lea",
+      "number": 8,
+      "word": "Dare",
+      "answer": 3,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "lea",
+      "number": 9,
+      "word": "Who cares?",
+      "answer": 0,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "lea",
+      "number": 10,
+      "word": "On your way",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "livin-on-a-prayer",
+      "number": 1,
+      "word": "Once upon a time",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "stories",
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "livin-on-a-prayer",
+      "number": 2,
+      "word": "Used to",
+      "answer": 0,
+      "changedOptions": [],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "livin-on-a-prayer",
+      "number": 3,
+      "word": "On strike",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "livin-on-a-prayer",
+      "number": 4,
+      "word": "Down on your luck",
+      "answer": 3,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "livin-on-a-prayer",
+      "number": 5,
+      "word": "Hold on to",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "practical"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "livin-on-a-prayer",
+      "number": 6,
+      "word": "Make a difference",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "community",
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "livin-on-a-prayer",
+      "number": 7,
+      "word": "Give it a shot",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "art",
+        "entertainment",
+        "music"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "livin-on-a-prayer",
+      "number": 8,
+      "word": "Halfway there",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "art",
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "livin-on-a-prayer",
+      "number": 9,
+      "word": "Run away",
+      "answer": 2,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "community",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "livin-on-a-prayer",
+      "number": 10,
+      "word": "Make it",
+      "answer": 0,
+      "changedOptions": [
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "maneater",
+      "number": 1,
+      "word": "Come out at night",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "nature",
+        "photography"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "maneater",
+      "number": 2,
+      "word": "Watch and wait",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "entertainment",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "maneater",
+      "number": 3,
+      "word": "For free",
+      "answer": 2,
+      "changedOptions": [],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "maneater",
+      "number": 4,
+      "word": "Be in it for",
+      "answer": 1,
+      "changedOptions": [
+        2
+      ],
+      "editedThemes": [
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "maneater",
+      "number": 5,
+      "word": "Watch out",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "maneater",
+      "number": 6,
+      "word": "If I were you",
+      "answer": 2,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "money",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "maneater",
+      "number": 7,
+      "word": "Rip apart",
+      "answer": 1,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "maneater",
+      "number": 8,
+      "word": "Mind over matter",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "maneater",
+      "number": 9,
+      "word": "Get far",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "art",
+        "transport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "maneater",
+      "number": 10,
+      "word": "Chew someone up",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "sport",
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "million-reasons",
+      "number": 1,
+      "word": "A million reasons",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "family",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "million-reasons",
+      "number": 2,
+      "word": "Let someone go",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "million-reasons",
+      "number": 3,
+      "word": "Quit",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "planning",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "million-reasons",
+      "number": 4,
+      "word": "Run for the hills",
+      "answer": 2,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "events",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "million-reasons",
+      "number": 5,
+      "word": "Bow down",
+      "answer": 3,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "million-reasons",
+      "number": 6,
+      "word": "Show me the way",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "million-reasons",
+      "number": 7,
+      "word": "Worn out",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "family",
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "million-reasons",
+      "number": 8,
+      "word": "Walk away",
+      "answer": 3,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "million-reasons",
+      "number": 9,
+      "word": "Stuck in a cycle",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "technology",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "million-reasons",
+      "number": 10,
+      "word": "Keep the faith",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "music",
+        "sport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "my-love",
+      "number": 1,
+      "word": "All alone",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "art",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "my-love",
+      "number": 2,
+      "word": "I wonder why",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "my-love",
+      "number": 3,
+      "word": "Hold on",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "technology",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "my-love",
+      "number": 4,
+      "word": "Reach for",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "photography"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "my-love",
+      "number": 5,
+      "word": "Seem so far",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "my-love",
+      "number": 6,
+      "word": "Say a prayer",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "relationships",
+        "transport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "my-love",
+      "number": 7,
+      "word": "Once again",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "my-love",
+      "number": 8,
+      "word": "From coast to coast",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "my-love",
+      "number": 9,
+      "word": "Keep myself from",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "events",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "my-love",
+      "number": 10,
+      "word": "From the heart",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "family",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "my-way",
+      "number": 1,
+      "word": "The end is near",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "my-way",
+      "number": 2,
+      "word": "Face",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "money",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "my-way",
+      "number": 3,
+      "word": "My way",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "art",
+        "music",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "my-way",
+      "number": 4,
+      "word": "Regret",
+      "answer": 2,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "my-way",
+      "number": 5,
+      "word": "See it through",
+      "answer": 3,
+      "changedOptions": [],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "my-way",
+      "number": 6,
+      "word": "Bite off more than you can chew",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "my-way",
+      "number": 7,
+      "word": "Stand tall",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "family",
+        "sport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "my-way",
+      "number": 8,
+      "word": "Have my fill",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "my-way",
+      "number": 9,
+      "word": "Truly",
+      "answer": 1,
+      "changedOptions": [],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "my-way",
+      "number": 10,
+      "word": "Take the blows",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "emotions",
+        "sport",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "nothings-gonna-stop-us-now",
+      "number": 1,
+      "word": "Too good to be true",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "achievement",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "nothings-gonna-stop-us-now",
+      "number": 2,
+      "word": "Beside",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "nothings-gonna-stop-us-now",
+      "number": 3,
+      "word": "I don't care",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "nothings-gonna-stop-us-now",
+      "number": 4,
+      "word": "Look back",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "music",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "nothings-gonna-stop-us-now",
+      "number": 5,
+      "word": "Fall apart",
+      "answer": 1,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "nothings-gonna-stop-us-now",
+      "number": 6,
+      "word": "Make it",
+      "answer": 3,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "nothings-gonna-stop-us-now",
+      "number": 7,
+      "word": "Heart to heart",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "nothings-gonna-stop-us-now",
+      "number": 8,
+      "word": "Run out of",
+      "answer": 2,
+      "changedOptions": [
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "money"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "nothings-gonna-stop-us-now",
+      "number": 9,
+      "word": "Whatever it takes",
+      "answer": 0,
+      "changedOptions": [
+        3
+      ],
+      "editedThemes": [
+        "sport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "nothings-gonna-stop-us-now",
+      "number": 10,
+      "word": "Let go",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "oops-i-did-it-again",
+      "number": 1,
+      "word": "Do it again",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "family",
+        "technology",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "oops-i-did-it-again",
+      "number": 2,
+      "word": "More than just friends",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "community",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "oops-i-did-it-again",
+      "number": 3,
+      "word": "Have a crush on",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "community",
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "oops-i-did-it-again",
+      "number": 4,
+      "word": "Seem like",
+      "answer": 0,
+      "changedOptions": [
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "planning"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "oops-i-did-it-again",
+      "number": 5,
+      "word": "Be serious",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "community",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "oops-i-did-it-again",
+      "number": 6,
+      "word": "Get lost",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "art",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "oops-i-did-it-again",
+      "number": 7,
+      "word": "In love",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "oops-i-did-it-again",
+      "number": 8,
+      "word": "Innocent",
+      "answer": 0,
+      "changedOptions": [
+        3
+      ],
+      "editedThemes": [
+        "money"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "oops-i-did-it-again",
+      "number": 9,
+      "word": "Wait a minute",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "oops-i-did-it-again",
+      "number": 10,
+      "word": "You shouldn’t have",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "open-arms-journey",
+      "number": 1,
+      "word": "Beside you",
+      "answer": 0,
+      "changedOptions": [
+        3
+      ],
+      "editedThemes": [
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "open-arms-journey",
+      "number": 2,
+      "word": "In the dark",
+      "answer": 1,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "open-arms-journey",
+      "number": 3,
+      "word": "Whisper",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "everyday",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "open-arms-journey",
+      "number": 4,
+      "word": "Sincere",
+      "answer": 2,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "community"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "open-arms-journey",
+      "number": 5,
+      "word": "Drift apart",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "open-arms-journey",
+      "number": 6,
+      "word": "By my side",
+      "answer": 1,
+      "changedOptions": [
+        3
+      ],
+      "editedThemes": [
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "open-arms-journey",
+      "number": 7,
+      "word": "With open arms",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "community",
+        "relationships",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "open-arms-journey",
+      "number": 8,
+      "word": "Nothing to hide",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "money",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "open-arms-journey",
+      "number": 9,
+      "word": "Mean to me",
+      "answer": 3,
+      "changedOptions": [
+        2,
+        3
+      ],
+      "editedThemes": [
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "open-arms-journey",
+      "number": 10,
+      "word": "Stay",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "family",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "perfect",
+      "number": 1,
+      "word": "Dive right in",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "perfect",
+      "number": 2,
+      "word": "Follow my lead",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "music",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "perfect",
+      "number": 3,
+      "word": "Fall in love",
+      "answer": 0,
+      "changedOptions": [
+        2,
+        3
+      ],
+      "editedThemes": [
+        "community",
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "perfect",
+      "number": 4,
+      "word": "Give someone up",
+      "answer": 3,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "perfect",
+      "number": 5,
+      "word": "In the dark",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "relationships",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "perfect",
+      "number": 6,
+      "word": "Barefoot",
+      "answer": 2,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "perfect",
+      "number": 7,
+      "word": "Look a mess",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "art",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "perfect",
+      "number": 8,
+      "word": "Share a dream",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "family",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "perfect",
+      "number": 9,
+      "word": "Against all odds",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "sport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "perfect",
+      "number": 10,
+      "word": "Have faith in",
+      "answer": 1,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "sport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "photograph-ed-sheeran",
+      "number": 1,
+      "word": "Get hard",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "art",
+        "games",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "photograph-ed-sheeran",
+      "number": 2,
+      "word": "Feel alive",
+      "answer": 1,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "photograph-ed-sheeran",
+      "number": 3,
+      "word": "Make memories",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "community",
+        "family",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "photograph-ed-sheeran",
+      "number": 4,
+      "word": "Frozen in time",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "family",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "photograph-ed-sheeran",
+      "number": 5,
+      "word": "Hold someone close",
+      "answer": 3,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "sport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "photograph-ed-sheeran",
+      "number": 6,
+      "word": "Mend",
+      "answer": 0,
+      "changedOptions": [
+        2,
+        3
+      ],
+      "editedThemes": [
+        "community",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "photograph-ed-sheeran",
+      "number": 7,
+      "word": "I swear",
+      "answer": 3,
+      "changedOptions": [],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "photograph-ed-sheeran",
+      "number": 8,
+      "word": "Let someone go",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "sport",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "photograph-ed-sheeran",
+      "number": 9,
+      "word": "Deep within",
+      "answer": 1,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "emotions"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "photograph-ed-sheeran",
+      "number": 10,
+      "word": "Whisper",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "poker-face",
+      "number": 1,
+      "word": "Poker face",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "emotions",
+        "family",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "poker-face",
+      "number": 2,
+      "word": "Stay with me",
+      "answer": 2,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "poker-face",
+      "number": 3,
+      "word": "Get hooked on",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "community",
+        "entertainment",
+        "games"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "poker-face",
+      "number": 4,
+      "word": "Show what you have got",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "art",
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "poker-face",
+      "number": 5,
+      "word": "Roll with someone",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "community",
+        "family",
+        "sport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "poker-face",
+      "number": 6,
+      "word": "A little",
+      "answer": 1,
+      "changedOptions": [],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "poker-face",
+      "number": 7,
+      "word": "Just like",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "poker-face",
+      "number": 8,
+      "word": "Bluff",
+      "answer": 1,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "games"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "poker-face",
+      "number": 9,
+      "word": "I promise",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "poker-face",
+      "number": 10,
+      "word": "Read someone’s face",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "emotions"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "separate-ways",
+      "number": 1,
+      "word": "Worlds apart",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "music",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "separate-ways",
+      "number": 2,
+      "word": "Sleepless night",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "separate-ways",
+      "number": 3,
+      "word": "Change your mind",
+      "answer": 3,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "separate-ways",
+      "number": 4,
+      "word": "Go on",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "music"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "separate-ways",
+      "number": 5,
+      "word": "Remind someone of",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "art",
+        "family",
+        "music",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "separate-ways",
+      "number": 6,
+      "word": "Go separate ways",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "relationships",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "separate-ways",
+      "number": 7,
+      "word": "In vain",
+      "answer": 3,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "separate-ways",
+      "number": 8,
+      "word": "Wish someone luck",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "achievement",
+        "family",
+        "sport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "separate-ways",
+      "number": 9,
+      "word": "Take care",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "community",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "separate-ways",
+      "number": 10,
+      "word": "Walk alone",
+      "answer": 1,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "shake-it-off-taylor-swift",
+      "number": 1,
+      "word": "stay out too late",
+      "answer": 0,
+      "changedOptions": [
+        3
+      ],
+      "editedThemes": [
+        "music"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "shake-it-off-taylor-swift",
+      "number": 2,
+      "word": "at least",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "money",
+        "sport",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "shake-it-off-taylor-swift",
+      "number": 3,
+      "word": "keep moving",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "family",
+        "sport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "shake-it-off-taylor-swift",
+      "number": 4,
+      "word": "gonna",
+      "answer": 0,
+      "changedOptions": [
+        2
+      ],
+      "editedThemes": [
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "shake-it-off-taylor-swift",
+      "number": 5,
+      "word": "shake it off",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "relationships",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "shake-it-off-taylor-swift",
+      "number": 6,
+      "word": "on my own",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "art",
+        "practical",
+        "technology"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "shake-it-off-taylor-swift",
+      "number": 7,
+      "word": "make it up as I go",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "events",
+        "planning"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "shake-it-off-taylor-swift",
+      "number": 8,
+      "word": "miss a beat",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "music"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "shake-it-off-taylor-swift",
+      "number": 9,
+      "word": "ex",
+      "answer": 3,
+      "changedOptions": [
+        2,
+        3
+      ],
+      "editedThemes": [
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "shake-it-off-taylor-swift",
+      "number": 10,
+      "word": "come on over",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "community",
+        "family",
+        "relationships",
+        "sport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "somebody-that-i-used-to-know",
+      "number": 1,
+      "word": "Now and then",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "somebody-that-i-used-to-know",
+      "number": 2,
+      "word": "Think of",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "art",
+        "community"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "somebody-that-i-used-to-know",
+      "number": 3,
+      "word": "Right for someone",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "learning",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "somebody-that-i-used-to-know",
+      "number": 4,
+      "word": "Make sense",
+      "answer": 2,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "somebody-that-i-used-to-know",
+      "number": 5,
+      "word": "Be over",
+      "answer": 3,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "somebody-that-i-used-to-know",
+      "number": 6,
+      "word": "Cut someone off",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "relationships",
+        "technology",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "somebody-that-i-used-to-know",
+      "number": 7,
+      "word": "Treat someone like",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "community",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "somebody-that-i-used-to-know",
+      "number": 8,
+      "word": "Let it go",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "somebody-that-i-used-to-know",
+      "number": 9,
+      "word": "Used to",
+      "answer": 3,
+      "changedOptions": [],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "somebody-that-i-used-to-know",
+      "number": 10,
+      "word": "Be hung up on someone",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "emotions",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "somewhere-only-we-know",
+      "number": 1,
+      "word": "Like the back of my hand",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "art",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "somewhere-only-we-know",
+      "number": 2,
+      "word": "Beneath",
+      "answer": 1,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "somewhere-only-we-know",
+      "number": 3,
+      "word": "Rely on",
+      "answer": 0,
+      "changedOptions": [
+        2,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "somewhere-only-we-know",
+      "number": 4,
+      "word": "Let someone in",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "community",
+        "weather"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "somewhere-only-we-know",
+      "number": 5,
+      "word": "Come across",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "art",
+        "learning"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "somewhere-only-we-know",
+      "number": 6,
+      "word": "Used to",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "art",
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "somewhere-only-we-know",
+      "number": 7,
+      "word": "Dream of",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "somewhere-only-we-know",
+      "number": 8,
+      "word": "Have a minute",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "relationships",
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "somewhere-only-we-know",
+      "number": 9,
+      "word": "Talk about",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "family",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "somewhere-only-we-know",
+      "number": 10,
+      "word": "The end of",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "stop-loving-you",
+      "number": 1,
+      "word": "My heart is racing",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "stop-loving-you",
+      "number": 2,
+      "word": "Go on",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "music"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "stop-loving-you",
+      "number": 3,
+      "word": "Almost",
+      "answer": 3,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "stop-loving-you",
+      "number": 4,
+      "word": "Blame",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "stop-loving-you",
+      "number": 5,
+      "word": "Even though",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "stop-loving-you",
+      "number": 6,
+      "word": "Deep inside",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "emotions",
+        "family",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "stop-loving-you",
+      "number": 7,
+      "word": "Pass quickly",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "stop-loving-you",
+      "number": 8,
+      "word": "Look through",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "stop-loving-you",
+      "number": 9,
+      "word": "Point of view",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "money",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "stop-loving-you",
+      "number": 10,
+      "word": "Shooting star",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "nature"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "take-on-me",
+      "number": 1,
+      "word": "Anyway",
+      "answer": 1,
+      "changedOptions": [
+        2
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "take-on-me",
+      "number": 2,
+      "word": "Shy away from",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "events"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "take-on-me",
+      "number": 3,
+      "word": "Take someone on",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "sport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "take-on-me",
+      "number": 4,
+      "word": "Be gone",
+      "answer": 1,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "family",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "take-on-me",
+      "number": 5,
+      "word": "A day or two",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "art",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "take-on-me",
+      "number": 6,
+      "word": "Needless to say",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "sport",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "take-on-me",
+      "number": 7,
+      "word": "Odds and ends",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        2
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "take-on-me",
+      "number": 8,
+      "word": "Stumble",
+      "answer": 1,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "take-on-me",
+      "number": 9,
+      "word": "Safe than sorry",
+      "answer": 3,
+      "changedOptions": [
+        2
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "take-on-me",
+      "number": 10,
+      "word": "Worry",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "money",
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "the-a-team",
+      "number": 1,
+      "word": "Pale",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "art",
+        "emotions"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "the-a-team",
+      "number": 2,
+      "word": "Struggle to",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "the-a-team",
+      "number": 3,
+      "word": "Pay rent",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "housing",
+        "money"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "the-a-team",
+      "number": 4,
+      "word": "Be stuck in",
+      "answer": 0,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "buildings"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "the-a-team",
+      "number": 5,
+      "word": "Lately",
+      "answer": 1,
+      "changedOptions": [],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "the-a-team",
+      "number": 6,
+      "word": "A couple of",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "the-a-team",
+      "number": 7,
+      "word": "Go outside",
+      "answer": 3,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "community"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "the-a-team",
+      "number": 8,
+      "word": "Stay afloat",
+      "answer": 0,
+      "changedOptions": [
+        2,
+        3
+      ],
+      "editedThemes": [
+        "travel",
+        "weather"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "the-a-team",
+      "number": 9,
+      "word": "Loose change",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "money",
+        "transport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "the-a-team",
+      "number": 10,
+      "word": "Hope for",
+      "answer": 1,
+      "changedOptions": [
+        2
+      ],
+      "editedThemes": [
+        "transport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "thinking-out-loud-ed-sheeran",
+      "number": 1,
+      "word": "Used to",
+      "answer": 1,
+      "changedOptions": [],
+      "editedThemes": [],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "thinking-out-loud-ed-sheeran",
+      "number": 2,
+      "word": "Fall in love",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        3
+      ],
+      "editedThemes": [
+        "community",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "thinking-out-loud-ed-sheeran",
+      "number": 3,
+      "word": "Every single day",
+      "answer": 0,
+      "changedOptions": [
+        3
+      ],
+      "editedThemes": [
+        "music"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "thinking-out-loud-ed-sheeran",
+      "number": 4,
+      "word": "Think out loud",
+      "answer": 2,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "planning"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "thinking-out-loud-ed-sheeran",
+      "number": 5,
+      "word": "Fade",
+      "answer": 3,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "music"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "thinking-out-loud-ed-sheeran",
+      "number": 6,
+      "word": "The same way",
+      "answer": 1,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "thinking-out-loud-ed-sheeran",
+      "number": 7,
+      "word": "Keep on",
+      "answer": 2,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "music"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "thinking-out-loud-ed-sheeran",
+      "number": 8,
+      "word": "Make a mistake",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "events",
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "thinking-out-loud-ed-sheeran",
+      "number": 9,
+      "word": "Part of a plan",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "money",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "thinking-out-loud-ed-sheeran",
+      "number": 10,
+      "word": "Right where we are",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "viva-la-vida",
+      "number": 1,
+      "word": "Used to",
+      "answer": 1,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "art"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "viva-la-vida",
+      "number": 2,
+      "word": "Rule",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "politics"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "viva-la-vida",
+      "number": 3,
+      "word": "Give the word",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "sport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "viva-la-vida",
+      "number": 4,
+      "word": "Roll the dice",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "family",
+        "games"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "viva-la-vida",
+      "number": 5,
+      "word": "Crowd",
+      "answer": 1,
+      "changedOptions": [
+        2,
+        3
+      ],
+      "editedThemes": [
+        "community",
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "viva-la-vida",
+      "number": 6,
+      "word": "Hold the key",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "health",
+        "learning"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "viva-la-vida",
+      "number": 7,
+      "word": "Discover",
+      "answer": 1,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "viva-la-vida",
+      "number": 8,
+      "word": "For some reason",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "viva-la-vida",
+      "number": 9,
+      "word": "Blow down",
+      "answer": 3,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "viva-la-vida",
+      "number": 10,
+      "word": "Honest",
+      "answer": 2,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "family"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "with-or-without-you",
+      "number": 1,
+      "word": "With or without",
+      "answer": 0,
+      "changedOptions": [
+        1
+      ],
+      "editedThemes": [
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "with-or-without-you",
+      "number": 2,
+      "word": "Wait for",
+      "answer": 1,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "community"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "with-or-without-you",
+      "number": 3,
+      "word": "Twist of fate",
+      "answer": 1,
+      "changedOptions": [
+        0
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "with-or-without-you",
+      "number": 4,
+      "word": "Make someone wait",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "family",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "with-or-without-you",
+      "number": 5,
+      "word": "Through",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "art",
+        "technology",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "with-or-without-you",
+      "number": 6,
+      "word": "Reach",
+      "answer": 0,
+      "changedOptions": [
+        2
+      ],
+      "editedThemes": [
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "with-or-without-you",
+      "number": 7,
+      "word": "Give it all",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "music",
+        "sport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "with-or-without-you",
+      "number": 8,
+      "word": "Want more",
+      "answer": 2,
+      "changedOptions": [
+        2
+      ],
+      "editedThemes": [
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "with-or-without-you",
+      "number": 9,
+      "word": "My hands are tied",
+      "answer": 3,
+      "changedOptions": [
+        1,
+        2
+      ],
+      "editedThemes": [
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "with-or-without-you",
+      "number": 10,
+      "word": "Nothing left to lose",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "relationships",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "you-give-love-a-bad-name",
+      "number": 1,
+      "word": "Be to blame",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "money",
+        "travel"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "you-give-love-a-bad-name",
+      "number": 2,
+      "word": "Give something a bad name",
+      "answer": 3,
+      "changedOptions": [
+        0,
+        1,
+        2
+      ],
+      "editedThemes": [
+        "entertainment",
+        "music",
+        "sport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "you-give-love-a-bad-name",
+      "number": 3,
+      "word": "Promise someone something",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "you-give-love-a-bad-name",
+      "number": 4,
+      "word": "Put someone through hell",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "family",
+        "travel",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "you-give-love-a-bad-name",
+      "number": 5,
+      "word": "Get a hold on someone",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "entertainment",
+        "games",
+        "music"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "you-give-love-a-bad-name",
+      "number": 6,
+      "word": "Break free",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1
+      ],
+      "editedThemes": [
+        "community",
+        "work"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "you-give-love-a-bad-name",
+      "number": 7,
+      "word": "Nowhere to run",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "accidents",
+        "entertainment"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "you-give-love-a-bad-name",
+      "number": 8,
+      "word": "The damage is done",
+      "answer": 0,
+      "changedOptions": [
+        1,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "accidents",
+        "weather"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "you-give-love-a-bad-name",
+      "number": 9,
+      "word": "Play your part",
+      "answer": 1,
+      "changedOptions": [
+        0,
+        2,
+        3
+      ],
+      "editedThemes": [
+        "community",
+        "family",
+        "sport"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    },
+    {
+      "slug": "you-give-love-a-bad-name",
+      "number": 10,
+      "word": "Act shy",
+      "answer": 2,
+      "changedOptions": [
+        0,
+        1,
+        3
+      ],
+      "editedThemes": [
+        "community",
+        "entertainment",
+        "relationships"
+      ],
+      "identityPreserved": true,
+      "fourOptionsAndReasons": true
+    }
+  ]
+}

@@ -405,17 +405,17 @@
       "usage": "當一個人總是很會回嘴、說話有點不客氣時使用；不單純是指聰明。",
       "prompt": "哪一句正確使用了「Smart mouth」？",
       "options": [
-        "My brother has a smart mouth; he always talks back to Mom.",
-        "My smart mouth is hungry, so it needs two pizzas.",
-        "I put a smart mouth on my desk to do homework.",
+        "His smart mouth gets him into trouble at every meeting.",
+        "My smart mouth costs five dollars a month to use.",
+        "I put a smart mouth in my phone to save photos.",
         "We took a smart mouth to the station at eight."
       ],
       "answer": 0,
-      "explanation": "正確。smart mouth 表示很會頂嘴，後面用 talks back 說明。",
+      "explanation": "smart mouth 指愛頂嘴或說話放肆，這裡因此在會議上惹麻煩。",
       "optionExplanations": [
-        "正確。smart mouth 表示很會頂嘴，後面用 talks back 說明。",
-        "錯誤。這裡是指嘴巴吃東西，不是愛頂嘴的個性。",
-        "錯誤。smart mouth 不是可以放在桌上的物品。",
+        "smart mouth 指愛頂嘴或說話放肆，這裡因此在會議上惹麻煩。",
+        "a smart mouth 形容愛頂嘴的說話方式，沒有月費的意思。",
+        "儲存照片需要記憶空間；smart mouth 無法表示這種功能。",
         "錯誤。smart mouth 不能當作交通工具。"
       ]
     },
@@ -426,18 +426,18 @@
       "usage": "看到一本好書、好電影或遇到有魅力的人，被吸引時可以用。",
       "prompt": "哪一句正確使用了「Draw someone in」？",
       "options": [
-        "I drew my sister in with a blue pencil on paper.",
+        "I drew my sister in to interested in the story.",
         "The book drew me in because the story was exciting.",
         "The teacher drew in the window to make it cold.",
-        "I draw someone in my lunch every afternoon."
+        "I draw someone in my passport before a flight."
       ],
       "answer": 1,
       "explanation": "正確。精彩的故事吸引了我。",
       "optionExplanations": [
-        "錯誤。這是在畫妹妹，應說 I drew a picture of my sister。",
+        "to interested 的形式不成立；可說 drew my sister in with the story。",
         "正確。精彩的故事吸引了我。",
         "錯誤。這裡想說開窗，應用 opened the window。",
-        "錯誤。draw someone in 不是把人放進午餐。"
+        "這裡說的是在護照上畫畫，語法應用 draw on；draw someone in 表示吸引人。"
       ]
     },
     {
@@ -448,15 +448,15 @@
       "prompt": "哪一句正確使用了「No kidding」？",
       "options": [
         "I bought three no kidding at the shop.",
-        "No kidding! I really saw a cat on the bus.",
+        "No kidding! Our quiet teacher is the singer in that band.",
         "My no kidding is taller than my brother.",
         "Please no kidding the door before you leave."
       ],
       "answer": 1,
-      "explanation": "正確。no kidding 用來強調事情真的發生了。",
+      "explanation": "No kidding 表示驚訝或強調事情是真的。",
       "optionExplanations": [
         "錯誤。no kidding 不是可以購買的東西。",
-        "正確。no kidding 用來強調事情真的發生了。",
+        "No kidding 表示驚訝或強調事情是真的。",
         "錯誤。no kidding 不是人或物品的名稱。",
         "錯誤。no kidding 不是關門的動詞。"
       ]
@@ -470,15 +470,15 @@
       "options": [
         "I pinned Tom down with my phone to call him.",
         "Can you pin me down a glass of water?",
-        "I tried to pin Tom down about the meeting time, but he wasn't sure.",
+        "I finally pinned Dad down about our holiday dates.",
         "She pinned the music down because it was too loud."
       ],
       "answer": 2,
-      "explanation": "正確。表示想請 Tom 說清楚開會時間。",
+      "explanation": "pin someone down 指追問並取得明確答案。",
       "optionExplanations": [
         "錯誤。用手機打電話不叫 pin someone down。",
         "錯誤。要請人拿水應說 Can you get me a glass of water?",
-        "正確。表示想請 Tom 說清楚開會時間。",
+        "pin someone down 指追問並取得明確答案。",
         "錯誤。要說調低音量可用 turned the music down。"
       ]
     },
@@ -489,17 +489,17 @@
       "usage": "坐旋轉遊樂設施、轉圈後或身體不舒服而頭暈時使用。",
       "prompt": "哪一句正確使用了「Dizzy」？",
       "options": [
-        "This sandwich is dizzy because it has cheese.",
-        "I dizzy my homework before dinner.",
-        "Please give me two dizzies and a cup of tea.",
+        "This password is dizzy because it has eight letters.",
+        "I dizzy my phone before a video call.",
+        "Please book two dizzies for the late train.",
         "I feel dizzy after spinning around ten times."
       ],
       "answer": 3,
       "explanation": "正確。轉很多圈後感到頭暈。",
       "optionExplanations": [
-        "錯誤。三明治不會因為有起司而頭暈。",
-        "錯誤。dizzy 是形容詞，不能當成做作業的動詞。",
-        "錯誤。dizzy 不是可數的食物或商品。",
+        "dizzy 表示暈眩，不能用來描述密碼長度。",
+        "dizzy 不能當成操作或設定手機的動詞。",
+        "dizzy 是形容詞，不能當成車票的名稱。",
         "正確。轉很多圈後感到頭暈。"
       ]
     },
@@ -510,17 +510,17 @@
       "usage": "形容非常激動、擔心，或做了別人覺得瘋狂的事時使用。",
       "prompt": "哪一句正確使用了「Out of my mind」？",
       "options": [
-        "I must be out of my mind to go swimming in this cold weather!",
+        "Am I out of my mind to enter this race?",
         "I put my keys out of my mind on the table.",
-        "My dog is out of my mind under the chair.",
+        "My train is out of my mind at platform two.",
         "We walked out of my mind to the supermarket."
       ],
       "answer": 0,
-      "explanation": "正確。用來說自己做的事很瘋狂。",
+      "explanation": "out of my mind 誇張地表示失去理智，這裡懷疑自己是否應參賽。",
       "optionExplanations": [
-        "正確。用來說自己做的事很瘋狂。",
+        "out of my mind 誇張地表示失去理智，這裡懷疑自己是否應參賽。",
         "錯誤。鑰匙是放在桌上，不是放到『心智外面』。",
-        "錯誤。形容狗的位置應說 under the chair。",
+        "車子停在月台應用 at；out of my mind 形容人的瘋狂想法或狀態。",
         "錯誤。out of my mind 不是一個可以走出去的地方。"
       ]
     },
@@ -532,7 +532,7 @@
       "prompt": "哪一句正確使用了「Give my all」？",
       "options": [
         "I gave my all in the race, but I didn't win.",
-        "I gave my all three apples to the dog.",
+        "I gave my all the hotel key to the man at the desk.",
         "She gives her all a new pencil every day.",
         "Please give my all in the fridge."
       ],
@@ -540,7 +540,7 @@
       "explanation": "正確。即使沒贏，還是全力以赴。",
       "optionExplanations": [
         "正確。即使沒贏，還是全力以赴。",
-        "錯誤。要說『我把三顆蘋果全給狗』應用 I gave all three apples to the dog。",
+        "交回鑰匙應說 gave the hotel key；my all 無法放在這裡。",
         "錯誤。give one's all 不是把東西送給『她的全部』。",
         "錯誤。give my all 不是放東西進冰箱的意思。"
       ]
@@ -552,16 +552,16 @@
       "usage": "困難、壓力或不斷的批評讓人感到沮喪時使用。",
       "prompt": "哪一句正確使用了「Beat someone down」？",
       "options": [
-        "I beat my sandwich down with a spoon for lunch.",
-        "She beat down her shoes because they were red.",
+        "I beat my password down to open the bank app.",
+        "She beat down her train ticket because it was late.",
         "We beat the bus down at the station to go home.",
         "The bad news beat him down, but his friends helped him."
       ],
       "answer": 3,
       "explanation": "正確。壞消息讓他很難過、失去精神。",
       "optionExplanations": [
-        "錯誤。這個片語不是用湯匙處理三明治。",
-        "錯誤。鞋子是紅色跟這個片語的意思無關。",
+        "輸入密碼應用 type in；beat someone down 表示打擊一個人。",
+        "車票不能因此被打擊；這裡無法用 beat someone down。",
         "錯誤。搭公車應說 take the bus。",
         "正確。壞消息讓他很難過、失去精神。"
       ]
@@ -573,7 +573,7 @@
       "usage": "想說自己在附近，能陪伴或幫助某人時，可以用 be around。",
       "prompt": "哪一句正確使用了「Around」？",
       "options": [
-        "I around my breakfast at seven every day.",
+        "I around my video call at seven every day.",
         "She bought an around at the bookshop.",
         "Don't worry. I'll be around if you need help.",
         "Please around the light before bed."
@@ -581,7 +581,7 @@
       "answer": 2,
       "explanation": "正確。表示自己會在附近，有需要可以幫忙。",
       "optionExplanations": [
-        "錯誤。around 不能直接當成『吃』的動詞。",
+        "around 不能代替開始或參加通話的動詞。",
         "錯誤。around 不是一個可以買的物品。",
         "正確。表示自己會在附近，有需要可以幫忙。",
         "錯誤。關燈應說 turn off the light。"
@@ -594,7 +594,7 @@
       "usage": "做重要但風險很高的決定時使用，例如投入全部積蓄開店。",
       "prompt": "哪一句正確使用了「Risk it all」？",
       "options": [
-        "I risked it all because my socks were blue.",
+        "I risked it all my password into the small box.",
         "He risked it all to start his own shop.",
         "Can you risk it all the window?",
         "She bought a risk it all at the market."
@@ -602,7 +602,7 @@
       "answer": 1,
       "explanation": "正確。開店可能失去很多，所以是冒大風險。",
       "optionExplanations": [
-        "錯誤。襪子是藍色通常沒有很大的風險。",
+        "輸入密碼應用 typed；risk it all 後面不能直接這樣接 my password。",
         "正確。開店可能失去很多，所以是冒大風險。",
         "錯誤。risk it all 不能用來表示開窗或關窗。",
         "錯誤。risk it all 是動作片語，不是商品。"

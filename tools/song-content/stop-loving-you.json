@@ -301,16 +301,16 @@
       "prompt": "哪一句正確使用「My heart is racing」？",
       "options": [
         "My heart is racing because I have a big test today.",
-        "My heart is racing to the bus stop with my bag.",
-        "My heart is racing a cake for my birthday.",
+        "My heart is racing to the station by taxi.",
+        "My heart is racing to heard my name on stage.",
         "My heart is racing blue because I like the sky."
       ],
       "answer": 0,
       "explanation": "大考前緊張，心跳加快，使用正確。",
       "optionExplanations": [
         "大考前緊張，心跳加快，使用正確。",
-        "心臟不能跑去車站；要說 I am running to the bus stop。",
-        "racing 不是做蛋糕；要說 I am making a cake。",
+        "my heart is racing 描述心跳加快，不能表示自己乘的士。",
+        "to heard 的形式錯誤；原因可用 because I heard my name。",
         "這個片語描述心跳快，不是顏色。"
       ]
     },
@@ -321,18 +321,18 @@
       "usage": "故事、活動或某件事繼續進行時使用。",
       "prompt": "哪一句正確使用「Go on」？",
       "options": [
-        "I go on my sandwich with cheese.",
+        "I go on to watched the next film.",
         "The movie goes on, even when I close my eyes.",
         "She goes on a red shirt every morning.",
-        "The dog goes on very happy today."
+        "The concert go on yesterday after the rain."
       ],
       "answer": 1,
       "explanation": "電影持續播放，go on 用法正確。",
       "optionExplanations": [
-        "不能用 go on 表示吃三明治；應說 I eat my sandwich。",
+        "to 後用 watch，不能接 watched。",
         "電影持續播放，go on 用法正確。",
         "穿衣服要用 put on，不是 go on。",
-        "形容狗很開心，應說 The dog is very happy。"
+        "過去事件須用 went on。"
       ]
     },
     {
@@ -343,16 +343,16 @@
       "prompt": "哪一句正確使用「Almost」？",
       "options": [
         "I almost to the shop after school.",
-        "I almost happy because the pizza is big.",
-        "My shoes are almost on the table yesterday.",
+        "I almost very excited about the trip.",
+        "We almost misses the train yesterday.",
         "We almost missed the bus, but we got on in time."
       ],
       "answer": 3,
       "explanation": "差一點錯過公車，almost 用得正確。",
       "optionExplanations": [
         "almost 是副詞，不能取代 go；應說 I almost went to the shop。",
-        "almost 後不能直接用 happy 這樣表達；可說 I am almost ready。",
-        "時間與動詞不合；而且 almost 需要清楚表達『差一點』。",
+        "almost 是副詞，句子缺少主要動詞。",
+        "過去事件須用 missed，不能用 misses。",
         "差一點錯過公車，almost 用得正確。"
       ]
     },
@@ -363,18 +363,18 @@
       "usage": "某件壞事發生，認為是某人的錯時使用。",
       "prompt": "哪一句正確使用「Blame」？",
       "options": [
-        "I blame a song with my guitar.",
+        "I blame to my cousin for the broken radio.",
         "Please don't blame me for the broken glass.",
         "She blames to the park after lunch.",
-        "He blames his tea because it is too hot to dance."
+        "He blames to his cousin for the broken radio."
       ],
       "answer": 1,
       "explanation": "blame someone for something 表示因某件事責怪某人。",
       "optionExplanations": [
-        "彈奏歌曲要用 play，不是 blame。",
+        "blame someone for 直接接人，不加 to。",
         "blame someone for something 表示因某件事責怪某人。",
         "blame 不是去某地；應說 She goes to the park。",
-        "茶不會跳舞；這句沒有合理的責怪對象與原因。"
+        "blame someone for something 直接接人，不加 to。"
       ]
     },
     {
@@ -385,16 +385,16 @@
       "prompt": "哪一句正確使用「Even though」？",
       "options": [
         "Even though it is raining, we are going for a walk.",
-        "Even though my breakfast with two eggs.",
-        "I even though my homework before dinner.",
+        "Even though to the concert yesterday.",
+        "I even though my first interview.",
         "She is even though a blue bicycle."
       ],
       "answer": 0,
       "explanation": "雖然下雨，仍要散步，正確表達反差。",
       "optionExplanations": [
         "雖然下雨，仍要散步，正確表達反差。",
-        "even though 後面需要完整子句，這裡缺少動詞。",
-        "even though 不是動詞，不能代替 finish。",
+        "Even though 後需要完整子句，不能只接地點片語。",
+        "even though 是連接詞，不能當作主要動詞。",
         "even though 是連接語，不是形容詞或物品名稱。"
       ]
     },
@@ -405,18 +405,18 @@
       "usage": "談藏在心裡、不容易說出口的想法或感覺時使用。",
       "prompt": "哪一句正確使用「Deep inside」？",
       "options": [
-        "My lunch deep inside is very delicious.",
-        "I deep inside my shoes before school.",
+        "I deep inside my feelings about the race.",
+        "She deep inside to missed her family.",
         "Deep inside, I still miss my old friend.",
-        "Deep inside, the bus is at five o'clock."
+        "Deep inside, I knows I need to say sorry."
       ],
       "answer": 2,
       "explanation": "指心裡深處仍想念朋友，使用自然。",
       "optionExplanations": [
-        "這個語序不自然；談食物味道不需要 deep inside。",
-        "deep inside 不是穿鞋的動詞；應說 I put on my shoes。",
+        "deep inside 不能單獨作動詞。",
+        "句子缺少主要動詞；to missed 的形式也不正確。",
         "指心裡深處仍想念朋友，使用自然。",
-        "公車時間是事實資訊，不是內心深處的感受。"
+        "主詞 I 配 know，不能加 s。"
       ]
     },
     {
@@ -426,16 +426,16 @@
       "usage": "描述時間過得很快時使用。",
       "prompt": "哪一句正確使用「Pass quickly」？",
       "options": [
-        "My shoes pass quickly because they are red.",
-        "I pass quickly my sandwich to be happy.",
+        "The holidays passes quickly every year.",
+        "I pass quickly my interview to the hotel.",
         "The holidays pass quickly when I am having fun.",
         "She passes quickly a beautiful weather."
       ],
       "answer": 2,
       "explanation": "快樂時覺得假期很快過去，符合片語意思。",
       "optionExplanations": [
-        "鞋子不會像時間一樣『流逝』。",
-        "這是傳遞三明治，不是時間流逝的意思。",
+        "複數主詞 holidays 配 pass，不能加 es。",
+        "pass quickly 不能用此結構表示完成面試再去酒店。",
         "快樂時覺得假期很快過去，符合片語意思。",
         "weather 不能用這種句型；片語通常描述時間。"
       ]
@@ -447,16 +447,16 @@
       "usage": "從窗戶向外看，或翻看書本、照片和資料時使用。",
       "prompt": "哪一句正確使用「Look through」？",
       "options": [
-        "I look through my breakfast before I eat it with a spoon.",
-        "I look through the window and see a cat outside.",
+        "I look through to my old photos.",
+        "I looked through the window and saw the wrong city.",
         "She looks through to school every day.",
         "We look through very happy at the party."
       ],
       "answer": 1,
-      "explanation": "透過窗戶往外看，look through 正確。",
+      "explanation": "look through the window 表示透過窗戶往外看。",
       "optionExplanations": [
-        "吃早餐不需要用 look through；可說 I look at my breakfast。",
-        "透過窗戶往外看，look through 正確。",
+        "look through 表示翻看時直接接 photos，不加 to。",
+        "look through the window 表示透過窗戶往外看。",
         "去學校應用 go to，不能用 look through。",
         "look through 不是表達心情的動詞。"
       ]
@@ -469,17 +469,17 @@
       "prompt": "哪一句正確使用「Point of view」？",
       "options": [
         "From my point of view, this game is too hard.",
-        "I eat a point of view with rice.",
-        "She puts her point of view in the fridge to keep it cold.",
-        "My point of view is sleeping under the bed."
+        "I point of view the new film.",
+        "From my point of view, he are right.",
+        "From my point of view to the plan is too costly."
       ],
       "answer": 0,
       "explanation": "用 from my point of view 表達個人看法，正確。",
       "optionExplanations": [
         "用 from my point of view 表達個人看法，正確。",
-        "觀點不是食物，不能拿來吃。",
-        "觀點不是能放進冰箱的物品。",
-        "觀點不會睡覺；應談某人的看法。"
+        "point of view 是名詞片語，不能當作評論電影的動詞。",
+        "主詞 he 配 is，不能用 are。",
+        "From my point of view 後接完整子句，不加 to。"
       ]
     },
     {
@@ -489,17 +489,17 @@
       "usage": "看到夜空中快速劃過的亮光時使用，也常用於許願的故事。",
       "prompt": "哪一句正確使用「Shooting star」？",
       "options": [
-        "I wear two shooting stars on my feet to school.",
-        "I ate a shooting star with my noodles.",
-        "My shooting star is barking at the mailman.",
+        "I shooting star the sky last night.",
+        "We saw a shooting star to flew across the sky.",
+        "She see a shooting star yesterday.",
         "I saw a shooting star in the sky last night."
       ],
       "answer": 3,
       "explanation": "在夜空看見流星，使用正確。",
       "optionExplanations": [
-        "腳上穿的是鞋子，shooting star 不是鞋子。",
-        "流星不是食物，不能和麵一起吃。",
-        "會對郵差吠叫的是狗，不是流星。",
+        "shooting star 是名詞，不能作觀看天空的動詞。",
+        "to flew 的形式錯誤；可說 a shooting star fly across the sky。",
+        "過去事件須用 saw。",
         "在夜空看見流星，使用正確。"
       ]
     }

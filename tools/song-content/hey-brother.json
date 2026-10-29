@@ -2317,17 +2317,17 @@
       "usage": "形容道路、工作或等待等，好像一直不會結束。",
       "prompt": "哪一句正確使用了「Endless」？",
       "options": [
-        "The road is endless; we drive for hours and still cannot see the end.",
-        "I ate an endless for breakfast.",
-        "My shoes are endless because they are red.",
+        "This meeting feels endless. Even the clock looks tired.",
+        "I bought an endless at the station.",
+        "The queue is endless to waited for hours.",
         "She endless to school every day."
       ],
       "answer": 0,
-      "explanation": "endless 形容路很長、看不到終點，使用正確。",
+      "explanation": "endless 誇張地形容漫長得像沒盡頭的會議。",
       "optionExplanations": [
-        "endless 形容路很長、看不到終點，使用正確。",
-        "endless 是形容詞，不能當成早餐食物的名稱。",
-        "紅色不代表沒有盡頭，這裡用 endless 不合意思。",
+        "endless 誇張地形容漫長得像沒盡頭的會議。",
+        "endless 是形容詞，不能單獨當作買到的物品。",
+        "to waited 的形式不成立；可說 seems endless after hours of waiting。",
         "endless 不是動詞，不能接在 she 後面表示去學校。"
       ]
     },
@@ -2339,7 +2339,7 @@
       "prompt": "哪一句正確使用了「Discover」？",
       "options": [
         "We discovered a small shop behind the school.",
-        "I discover my lunch with a spoon every day.",
+        "I discover to the airport at six.",
         "He discovered very loudly at the party.",
         "This chair is discover and blue."
       ],
@@ -2347,7 +2347,7 @@
       "explanation": "discovered 表示發現原本不知道的小店，使用正確。",
       "optionExplanations": [
         "discovered 表示發現原本不知道的小店，使用正確。",
-        "discover 不是「吃」，這裡應說 eat my lunch。",
+        "discover 指發現，不能表示前往機場。",
         "discover 不是唱歌或說話的方式，不能這樣用。",
         "discover 是動詞，不是描述椅子的形容詞。"
       ]
@@ -2359,17 +2359,17 @@
       "usage": "談相信某人、某種價值或某件事有可能實現時使用。",
       "prompt": "哪一句正確使用了「Believe in」？",
       "options": [
-        "I believe in my socks because they are wet.",
+        "I believe in very nervous before my first date.",
         "She believes in to the library after class.",
-        "I believe in my sister; she can do it.",
+        "I believe in Grandma. She can win this race.",
         "They believe in the window with a pencil."
       ],
       "answer": 2,
-      "explanation": "believe in my sister 表示相信姊姊的能力，使用正確。",
+      "explanation": "believe in someone 指相信對方的能力。",
       "optionExplanations": [
-        "襪子濕了與信任無關，這裡意思不自然。",
+        "believe in 後不能直接接 very nervous；感到緊張可用 feel nervous。",
         "believe in 後面接人或事物，不接 to the library 表示移動。",
-        "believe in my sister 表示相信姊姊的能力，使用正確。",
+        "believe in someone 指相信對方的能力。",
         "believe in 不是在窗戶上寫字，應說 write on the window。"
       ]
     },
@@ -2380,18 +2380,18 @@
       "usage": "兩個或更多人相互幫忙、信任或關心時使用。",
       "prompt": "哪一句正確使用了「One another」？",
       "options": [
-        "My dog is one another under the table.",
+        "My cousin is one another at the concert.",
         "I bought one another at the shop.",
         "She sleeps one another every night.",
-        "The two friends help one another with homework."
+        "The two actors help one another remember their lines."
       ],
       "answer": 3,
-      "explanation": "help one another 表示兩個朋友互相幫忙，使用正確。",
+      "explanation": "the two actors 是兩人；help one another 表示互相幫助記住台詞。",
       "optionExplanations": [
-        "one another 指人與人之間互相做事，不能描述狗的位置。",
+        "one another 表示彼此，不能當作一人的狀態或位置。",
         "one another 不是可以買的東西。",
         "這裡缺少能表示互相動作的用法，不能這樣說。",
-        "help one another 表示兩個朋友互相幫忙，使用正確。"
+        "the two actors 是兩人；help one another 表示互相幫助記住台詞。"
       ]
     },
     {
@@ -2402,17 +2402,17 @@
       "prompt": "哪一句正確使用了「What if」？",
       "options": [
         "What if it rains tomorrow? Can we play inside?",
-        "I what if my bag every morning.",
+        "I what if the lift to the top floor.",
         "She bought a what if at the market.",
-        "What if the blue is very sandwich?"
+        "What if to borrow my jacket yesterday?"
       ],
       "answer": 0,
       "explanation": "What if 引出可能發生的情況，這裡問下雨怎麼辦，使用正確。",
       "optionExplanations": [
         "What if 引出可能發生的情況，這裡問下雨怎麼辦，使用正確。",
-        "what if 不是動詞，不能用來描述整理書包。",
+        "what if 用來提出假設，不能當作乘電梯的動詞。",
         "what if 是問句用語，不是商品名稱。",
-        "句子中的 blue 和 sandwich 無法組成合理情況，意思不通。"
+        "What if 後需要完整情況，例如 What if he borrows my jacket?"
       ]
     },
     {
@@ -2422,18 +2422,18 @@
       "usage": "說明兩個地方距離很遠，或某種情況與另一件事差很多時使用。",
       "prompt": "哪一句正確使用了「Far from」？",
       "options": [
-        "My cake is far from because it is sweet.",
-        "He far from his homework at eight.",
-        "I put far from in my cup.",
-        "Our house is far from the train station, so we take a bus."
+        "My holiday is far from because it is sunny.",
+        "He far from his manager at nine.",
+        "I put far from in my savings account.",
+        "Our hotel is far from the beach. Dad calls it exercise."
       ],
       "answer": 3,
-      "explanation": "far from the train station 表示房子離車站很遠，使用正確。",
+      "explanation": "far from 表示距離遠；爸爸把長路打趣說成運動。",
       "optionExplanations": [
-        "far from 要接距離的對象，不能這樣形容蛋糕甜。",
-        "far from 不是動詞，不能用來表示做作業。",
-        "far from 不是可以放進杯子的東西。",
-        "far from the train station 表示房子離車站很遠，使用正確。"
+        "far from 後缺少比較的位置或狀態，句子未完整。",
+        "far from 不能單獨作動詞；可說 He is far from his manager。",
+        "far from 是表示距離的片語，不能當作存入戶口的東西。",
+        "far from 表示距離遠；爸爸把長路打趣說成運動。"
       ]
     },
     {
@@ -2443,17 +2443,17 @@
       "usage": "談可能失去金錢、重要東西或原本擁有的一切時使用。",
       "prompt": "哪一句正確使用了「Lose it all」？",
       "options": [
-        "I lose it all my shoes every Sunday.",
+        "I lose it all my glasses every weekend.",
         "If we lose the house and all our money, we could lose it all.",
-        "He loses it all because the soup is hot.",
+        "He loses it all to the concert by train.",
         "My phone loses it all to the supermarket."
       ],
       "answer": 1,
       "explanation": "失去房子與所有錢可稱 lose it all，使用正確。",
       "optionExplanations": [
-        "lose it all 不能直接接 my shoes；可說 lose all my shoes。",
+        "lose it all 已有受詞 it，不能再接 my glasses。",
         "失去房子與所有錢可稱 lose it all，使用正確。",
-        "湯很燙不等於失去一切，這裡意思不符。",
+        "lose it all 指失去一切，不能表示交通方式。",
         "手機不能用這個片語表示前往超市。"
       ]
     },
@@ -2464,18 +2464,18 @@
       "usage": "當朋友、家人有問題或需要幫手時使用。",
       "prompt": "哪一句正確使用了「Help someone out」？",
       "options": [
-        "I helped the pizza out with cheese.",
-        "We help out the weather with an umbrella.",
+        "I helped the film out very interesting.",
+        "We help out to the museum by bus.",
         "My brother helped me out when my bike broke.",
-        "She helps the floor out every night."
+        "She helps out her sister yesterday at ten."
       ],
       "answer": 2,
       "explanation": "哥哥在腳踏車壞掉時幫忙，helped me out 使用正確。",
       "optionExplanations": [
-        "披薩不是遇到困難的人，這裡應說 put cheese on the pizza。",
-        "天氣不是可以被幫忙解決問題的人。",
+        "help someone out 指幫人解困；此句也缺少可成立的結構。",
+        "help out 不能表示乘巴士前往博物館。",
         "哥哥在腳踏車壞掉時幫忙，helped me out 使用正確。",
-        "地板不是需要協助的人，這裡可說 clean the floor。"
+        "事情發生在 yesterday，這裡須用 helped out。"
       ]
     },
     {
@@ -2485,7 +2485,7 @@
       "usage": "形容人跌倒或物品從上方掉下來時使用。",
       "prompt": "哪一句正確使用了「Fall down」？",
       "options": [
-        "I fall down my dinner with a fork.",
+        "I fall down my report before the meeting.",
         "Be careful! The books may fall down from the shelf.",
         "She is fall down happy today.",
         "We fall down to the movies on Friday."
@@ -2493,7 +2493,7 @@
       "answer": 1,
       "explanation": "書可能從架上掉下來，fall down 使用正確。",
       "optionExplanations": [
-        "fall down 不是吃飯的動作。",
+        "fall down 不及物，不能直接接 my report 表示完成報告。",
         "書可能從架上掉下來，fall down 使用正確。",
         "fall down 不能這樣連接 happy 來表示快樂。",
         "fall down 不是去電影院的意思，應說 go to the movies。"
@@ -2506,18 +2506,18 @@
       "usage": "想強調自己願意盡全力幫助重要的人時使用。",
       "prompt": "哪一句正確使用了「There is nothing ... I wouldn’t do」？",
       "options": [
-        "There is nothing I wouldn’t do my breakfast at seven.",
-        "There is nothing I wouldn’t do to help my family.",
+        "There is nothing I wouldn’t do my interview at nine.",
+        "There's nothing I wouldn't do to help my family.",
         "There is nothing I wouldn’t do is a blue chair.",
-        "There is nothing I wouldn’t do inside my shoe for lunch."
+        "There is nothing I wouldn’t do to helping my cousin."
       ],
       "answer": 1,
-      "explanation": "這個句子表示願意盡一切努力幫家人，使用正確。",
+      "explanation": "雙重否定強調願意盡力幫助家人。",
       "optionExplanations": [
-        "這個句型後面不能直接接 my breakfast 來表示吃早餐。",
-        "這個句子表示願意盡一切努力幫家人，使用正確。",
+        "do 後不能這樣接 my interview；可用 to prepare for my interview 說明目的。",
+        "雙重否定強調願意盡力幫助家人。",
         "這個表達不是物品名稱，不能用 is a blue chair 來定義。",
-        "把午餐放鞋子裡與願意為人做事的意思不符。"
+        "to 表示目的時後接原形 help，不能接 helping。"
       ]
     }
   ],

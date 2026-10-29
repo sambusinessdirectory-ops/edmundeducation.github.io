@@ -256,18 +256,18 @@
       "usage": "當活動、故事或一段時間快結束時可以使用。",
       "prompt": "哪一句正確使用了「The end is near」？",
       "options": [
-        "I put the end is near in my sandwich.",
+        "I the end is near my holiday photos.",
         "The movie ends in five minutes. The end is near.",
-        "My shoes are the end is near and blue.",
-        "Please drink the end is near before school."
+        "My meeting the end is near yesterday.",
+        "Please the end is near the concert at ten."
       ],
       "answer": 1,
       "explanation": "電影再五分鐘就結束，這個說法很自然。",
       "optionExplanations": [
-        "這是描述時間的句子，不是可以放進三明治的東西。",
+        "The end is near 是完整句子，不能這樣插入另一句作動詞。",
         "電影再五分鐘就結束，這個說法很自然。",
-        "不能用這個句子當作鞋子的顏色。",
-        "這個說法不是飲料，不能搭配 drink。"
+        "句子混合兩個主詞，缺少合理連接；過去時間也須配 was。",
+        "The end is near 不能作祈使句的動詞。"
       ]
     },
     {
@@ -278,16 +278,16 @@
       "prompt": "哪一句正確使用了「Face」？",
       "options": [
         "She faced a hard test and did her best.",
-        "I face my breakfast with a spoon of music.",
-        "He faced his socks into the refrigerator.",
+        "I face to a difficult interview tomorrow.",
+        "He faced to very worried about the bill.",
         "We faced happy yesterday very quickly."
       ],
       "answer": 0,
       "explanation": "face a hard test 表示勇敢面對困難的考試。",
       "optionExplanations": [
         "face a hard test 表示勇敢面對困難的考試。",
-        "這個句子搭配奇怪；早餐不是這裡要面對的難題。",
-        "face 不能這樣表示把襪子放進冰箱。",
+        "face 表示面對時直接接 a difficult interview，不加 to。",
+        "face 不能接 to very worried 表示擔心。",
         "face 後面不能這樣接 happy yesterday。"
       ]
     },
@@ -299,17 +299,17 @@
       "prompt": "哪一句正確使用了「My way」？",
       "options": [
         "You can do it your way, and I will do it my way.",
-        "My way is sleeping under my shoes.",
-        "I cooked my way for breakfast and ate it.",
-        "Please open my way with a spoon."
+        "I my way the new painting yesterday.",
+        "She did it my way to followed my advice.",
+        "We do it my way yesterday at the rehearsal."
       ],
       "answer": 0,
       "explanation": "my way 表示按照我自己的方法做。",
       "optionExplanations": [
         "my way 表示按照我自己的方法做。",
-        "這裡的搭配無法表達清楚的做事方式。",
-        "my way 不是食物，不能這樣當成煮好的東西。",
-        "my way 不能像門一樣用湯匙打開。"
+        "my way 是名詞片語，不能單獨作畫畫的動詞。",
+        "to 後用 follow，不能接 followed。",
+        "過去事件應用 did it my way。"
       ]
     },
     {
@@ -319,7 +319,7 @@
       "usage": "想到過去做過或沒做的事，覺得可惜時可以用。",
       "prompt": "哪一句正確使用了「Regret」？",
       "options": [
-        "I put three regrets on my pizza.",
+        "I regret to missing the last train.",
         "She regrets her blue pencil into the bag.",
         "I regret not calling my friend yesterday.",
         "We regret at seven o’clock to the bus stop."
@@ -327,7 +327,7 @@
       "answer": 2,
       "explanation": "regret + -ing 可表示後悔沒做某事。",
       "optionExplanations": [
-        "regret 是遺憾，不是披薩配料。",
+        "regret 後可用 missing，不能用 to missing。",
         "regret 不表示把東西放進袋子。",
         "regret + -ing 可表示後悔沒做某事。",
         "regret 不能這樣表示前往公車站。"
@@ -361,18 +361,18 @@
       "usage": "一次答應做太多事情，結果忙不過來時使用。",
       "prompt": "哪一句正確使用了「Bite off more than you can chew」？",
       "options": [
-        "I bite off more than I can chew because the apple is red.",
-        "I said yes to five big jobs. I bit off more than I could chew.",
-        "My phone bit off more than it could chew and became a bus.",
-        "Please put more than you can chew under the chair."
+        "I bit off more than I could chew to accepted six jobs.",
+        "Five jobs? I've bitten off more than I can chew.",
+        "She bite off more than she can chew last week.",
+        "He bit off more than could chew he."
       ],
       "answer": 1,
-      "explanation": "接了太多工作，超出自己的能力，符合這個片語。",
+      "explanation": "bite off more than you can chew 指承擔超出能力的工作。",
       "optionExplanations": [
-        "這裡只在描述蘋果顏色，沒有表達工作太多。",
-        "接了太多工作，超出自己的能力，符合這個片語。",
-        "手機變公車和片語的意思無關。",
-        "這個片語不能當作一件物品放在椅子下。"
+        "to accepted 的形式錯誤；可用 by accepting six jobs 表明原因。",
+        "bite off more than you can chew 指承擔超出能力的工作。",
+        "過去事件應用 bit，後半通常配 could。",
+        "子句主詞 he 必須放在 could 前面。"
       ]
     },
     {
@@ -382,16 +382,16 @@
       "usage": "感到勇敢、自信，不因困難退縮時可以使用。",
       "prompt": "哪一句正確使用了「Stand tall」？",
       "options": [
-        "I stand tall my homework with a red pen.",
-        "She stands tall because her lunch is made of music.",
+        "I stand tall to finished the race yesterday.",
+        "She stood tall very ten years old.",
         "We stand tall the weather every morning.",
         "Even after losing, he stood tall and smiled."
       ],
       "answer": 3,
       "explanation": "即使失敗，他還是有自信地面對。",
       "optionExplanations": [
-        "stand tall 不能直接接 homework 當受詞。",
-        "午餐是音樂無法合理表達自信或姿態。",
+        "to finished 的形式錯誤，過去事件也須配 stood。",
+        "stand tall 不能連接 very ten years old 表示年齡。",
         "stand tall 不能直接接 the weather。",
         "即使失敗，他還是有自信地面對。"
       ]
@@ -403,17 +403,17 @@
       "usage": "吃飽、玩夠或經歷足夠多某件事時可以使用。",
       "prompt": "哪一句正確使用了「Have my fill」？",
       "options": [
-        "I have had my fill of cake. I do not want any more.",
+        "I've had my fill of meetings. Even my calendar looks tired.",
         "She has her fill the door with a yellow key.",
-        "We put our fill on the table and sang to it.",
+        "We have had our fill to waiting for the train.",
         "I have my fill in the blue clock yesterday."
       ],
       "answer": 0,
-      "explanation": "have had my fill of 表示已經吃夠，不想再要。",
+      "explanation": "have had my fill of 在此表示已經受夠。",
       "optionExplanations": [
-        "have had my fill of 表示已經吃夠，不想再要。",
+        "have had my fill of 在此表示已經受夠。",
         "have my fill 不是開門的動作。",
-        "fill 不能這樣當作一件物品。",
+        "have your fill of 後接名詞或動名詞，這裡要用 of waiting。",
         "時間和文法不自然，且沒有說明夠了什麼。"
       ]
     },
@@ -445,18 +445,18 @@
       "usage": "遇到批評或失敗，仍然繼續努力時可以用；是比喻說法。",
       "prompt": "哪一句正確使用了「Take the blows」？",
       "options": [
-        "I took the blows to wash my blue socks.",
-        "She put the blows in her coffee and drank it.",
-        "The team lost twice, but they took the blows and kept trying.",
-        "We take the blows at seven dollars each."
+        "I took the blows to kept the business open.",
+        "She took the blows very proud yesterday.",
+        "We took the blows and kept our little business open.",
+        "We take the blows yesterday after losing the final."
       ],
       "answer": 2,
-      "explanation": "指隊伍承受失敗的打擊，繼續努力。",
+      "explanation": "take the blows 指承受打擊，這裡仍努力經營。",
       "optionExplanations": [
-        "這個片語不表示用某種工具洗襪子。",
-        "blows 在這裡不是咖啡配料。",
-        "指隊伍承受失敗的打擊，繼續努力。",
-        "這個片語不表示用價格購買商品。"
+        "to 後須用 keep，不能接 kept。",
+        "very proud 不能直接接在 took the blows 後；需要完整句子說明感受。",
+        "take the blows 指承受打擊，這裡仍努力經營。",
+        "過去事件須用 took the blows。"
       ]
     }
   ],

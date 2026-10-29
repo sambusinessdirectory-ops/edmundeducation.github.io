@@ -2792,17 +2792,17 @@
       "usage": "用來形容兩個人的想法、生活或感情差距很大。",
       "prompt": "哪一句正確使用這個單字或片語？",
       "options": [
-        "My sister likes the city, but I love the farm. We are worlds apart.",
-        "My shoes are worlds apart because they are under my bed.",
-        "I ate worlds apart for breakfast.",
+        "I love noise; she loves silence. We're worlds apart.",
+        "We worlds apart about our holiday plans.",
+        "They are worlds apart to liked different music.",
         "Please worlds apart the window."
       ],
       "answer": 0,
-      "explanation": "正確：兩人喜好差很多，可用 worlds apart。",
+      "explanation": "worlds apart 形容兩者差異很大。",
       "optionExplanations": [
-        "正確：兩人喜好差很多，可用 worlds apart。",
-        "錯誤：鞋子放在床下，不表示想法或生活差異很大。",
-        "錯誤：worlds apart 不是食物，不能用 eat 搭配。",
+        "worlds apart 形容兩者差異很大。",
+        "worlds apart 不能單獨作動詞，前面需要 are 等動詞。",
+        "to liked 的形式錯誤；可用 because they like different music。",
         "錯誤：worlds apart 不是動詞，不能表示開窗。"
       ]
     },
@@ -2813,17 +2813,17 @@
       "usage": "因為擔心、興奮或其他原因，晚上睡不好時使用。",
       "prompt": "哪一句正確使用這個單字或片語？",
       "options": [
-        "I bought a sleepless night at the toy shop.",
+        "I sleepless night before my first interview.",
         "I had a sleepless night before my big test.",
-        "My dog cooked a sleepless night for dinner.",
+        "She had a sleepless night to worried about the flight.",
         "She wears a sleepless night to school."
       ],
       "answer": 1,
       "explanation": "正確：考試前一晚睡不著，可以這樣說。",
       "optionExplanations": [
-        "錯誤：sleepless night 不是可以買的物品。",
+        "sleepless night 是名詞片語，句子需要 had a 等成分。",
         "正確：考試前一晚睡不著，可以這樣說。",
-        "錯誤：它不是一道菜。",
+        "to worried 的形式不成立；可用 worrying about the flight。",
         "錯誤：sleepless night 不是衣服。"
       ]
     },
@@ -2835,17 +2835,17 @@
       "prompt": "哪一句正確使用這個單字或片語？",
       "options": [
         "I changed my mind with blue paint.",
-        "My chair changed my mind into a table.",
+        "She changed her mind to chose the later train.",
         "Please change your mind the door.",
-        "I wanted tea, but I changed my mind and got water."
+        "I saw the crowd and changed my mind about singing."
       ],
       "answer": 3,
-      "explanation": "正確：原本想喝茶，後來改喝水。",
+      "explanation": "change your mind 表示改變主意。",
       "optionExplanations": [
         "錯誤：change your mind 不是用油漆改造東西。",
-        "錯誤：這個片語不表示把物品變形。",
+        "to chose 的形式錯誤；可說 and chose the later train。",
         "錯誤：change your mind 後不能直接接 the door 當開門指令。",
-        "正確：原本想喝茶，後來改喝水。"
+        "change your mind 表示改變主意。"
       ]
     },
     {
@@ -2855,17 +2855,17 @@
       "usage": "事情或活動沒有停止、繼續進行時使用。",
       "prompt": "哪一句正確使用這個單字或片語？",
       "options": [
-        "We go on our shoes before bed.",
+        "We go on to played the final song.",
         "The show will go on after a short break.",
-        "I go on my sandwich with milk.",
+        "The show go on yesterday after the rain stopped.",
         "She goes on blue at seven o’clock."
       ],
       "answer": 1,
       "explanation": "正確：表示節目休息後會繼續。",
       "optionExplanations": [
-        "錯誤：穿鞋應說 put on our shoes。",
+        "to 後須用 play，不能接 played。",
         "正確：表示節目休息後會繼續。",
-        "錯誤：不能用 go on 表示吃三明治。",
+        "過去事件須用 went on。",
         "錯誤：go on 不能直接用來表示變成藍色。"
       ]
     },
@@ -2876,18 +2876,18 @@
       "usage": "某個人、地方或東西讓你想到過去的人或事情時使用。",
       "prompt": "哪一句正確使用這個單字或片語？",
       "options": [
-        "I remind my lunch of a pencil.",
-        "She reminded the door of seven o’clock.",
-        "This song reminds me of my old school.",
-        "My shoes remind the rain of my teacher."
+        "This painting reminds to me of our trip.",
+        "The music reminds me to my first dance.",
+        "That perfume reminds me of my first date.",
+        "The photo remind me of Dad yesterday."
       ],
       "answer": 2,
-      "explanation": "正確：歌曲使我想起以前的學校。",
+      "explanation": "remind someone of 表示使人想起某人或某事。",
       "optionExplanations": [
-        "錯誤：午餐不會像人一樣回想；這裡搭配不合理。",
-        "錯誤：門不會回想時間。",
-        "正確：歌曲使我想起以前的學校。",
-        "錯誤：雨不是會回想老師的人。"
+        "remind someone of 直接接人，不在 me 前加 to。",
+        "使人想起某事用 reminds me of，不能用 to。",
+        "remind someone of 表示使人想起某人或某事。",
+        "過去事件須用 reminded。"
       ]
     },
     {
@@ -2897,18 +2897,18 @@
       "usage": "兩個人結束同行、合作或關係，各自走不同方向時使用。",
       "prompt": "哪一句正確使用這個單字或片語？",
       "options": [
-        "We went separate ways into one big sandwich.",
-        "My cat went separate ways with the moon.",
-        "After school, we went our separate ways and went home.",
-        "Please separate ways my homework."
+        "We went our separate ways to caught different trains.",
+        "She went our separate ways alone with herself.",
+        "After the party, we went our separate ways.",
+        "Please separate ways my cousin after the concert."
       ],
       "answer": 2,
-      "explanation": "正確：放學後大家各自回家。",
+      "explanation": "go separate ways 表示各自離開或走不同的路。",
       "optionExplanations": [
-        "錯誤：不能用這個片語表示進到三明治裡。",
-        "錯誤：這裡沒有合理的同行或分開關係。",
-        "正確：放學後大家各自回家。",
-        "錯誤：go separate ways 不是這樣使用的及物動詞。"
+        "to 後用 catch，不能接 caught。",
+        "our separate ways 需要涉及多人的分開，這裡的人稱及情境不成立。",
+        "go separate ways 表示各自離開或走不同的路。",
+        "go separate ways 不能省略 go 並直接接人作受詞。"
       ]
     },
     {
@@ -2918,7 +2918,7 @@
       "usage": "付出努力，但最後沒有成功時使用。",
       "prompt": "哪一句正確使用這個單字或片語？",
       "options": [
-        "This cake tastes in vain and sweet.",
+        "I in vain to find my lost passport.",
         "She wore an in vain to the party.",
         "We in vain the bus at eight.",
         "I looked for my key all morning, but it was in vain."
@@ -2926,7 +2926,7 @@
       "answer": 3,
       "explanation": "正確：找了一早上，卻沒有找到。",
       "optionExplanations": [
-        "錯誤：in vain 不是味道形容詞。",
+        "in vain 是副詞片語，不能單獨作動詞。",
         "錯誤：in vain 不是衣物名稱。",
         "錯誤：in vain 不能直接當動詞使用。",
         "正確：找了一早上，卻沒有找到。"
@@ -2940,17 +2940,17 @@
       "prompt": "哪一句正確使用這個單字或片語？",
       "options": [
         "I wished my friend luck before her test.",
-        "I wished the sandwich luck, so it became taller.",
-        "Can you luck my homework wish?",
-        "My shoes wished the rain luck in the kitchen."
+        "I wished to my cousin luck before the race.",
+        "Can you wished my sister luck?",
+        "She wished her friend luck to won the prize."
       ],
       "answer": 0,
       "explanation": "正確：朋友考試前祝她好運。",
       "optionExplanations": [
         "正確：朋友考試前祝她好運。",
-        "錯誤：用這句描述三明治長高，語意荒謬。",
-        "錯誤：語序不正確；應說 wish someone luck。",
-        "錯誤：鞋子不會向雨表達祝福。"
+        "wish someone luck 直接接人，不加 to。",
+        "can 後用原形 wish，不能用 wished。",
+        "to won 的形式錯誤；可說 before the competition。"
       ]
     },
     {
@@ -2961,17 +2961,17 @@
       "prompt": "哪一句正確使用這個單字或片語？",
       "options": [
         "Take care! See you next week!",
-        "I take care my shoes to school every day.",
-        "We take care blue for lunch.",
-        "Please take care the lights with your sandwich."
+        "I take care to my grandmother every week.",
+        "We take care very the new neighbour.",
+        "Please take care of to your little cousin."
       ],
       "answer": 0,
       "explanation": "正確：道別時用來說「保重」。",
       "optionExplanations": [
         "正確：道別時用來說「保重」。",
-        "錯誤：若指照顧鞋子要說 take care of my shoes；若指帶鞋子則用 take。",
-        "錯誤：take care 不能表示吃藍色的東西。",
-        "錯誤：take care 後缺少 of，整句意思也不合理。"
+        "照顧某人用 take care of，不能用 take care to。",
+        "very 不能插在 take care 與照顧對象之間；也缺少 of。",
+        "of 後直接接對象，不加 to。"
       ]
     },
     {
@@ -2981,7 +2981,7 @@
       "usage": "一個人走路時可以使用，也能比喻沒有別人的陪伴或支持。",
       "prompt": "哪一句正確使用這個單字或片語？",
       "options": [
-        "I walk alone my breakfast every Monday.",
+        "I walk alone my suitcase to the hotel.",
         "I walked alone to the shop because my friends were busy.",
         "She walks alone the blue on her desk.",
         "They walked alone together with twenty people."
@@ -2989,7 +2989,7 @@
       "answer": 1,
       "explanation": "正確：朋友沒空，所以自己走去商店。",
       "optionExplanations": [
-        "錯誤：walk alone 不能直接接 breakfast 當受詞。",
+        "walk alone 不及物，不能直接接 suitcase 作受詞。",
         "正確：朋友沒空，所以自己走去商店。",
         "錯誤：這個片語不是整理桌上物品的動作。",
         "錯誤：alone 表示獨自一人，與 twenty people together 在此衝突。"

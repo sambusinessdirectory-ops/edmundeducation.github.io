@@ -280,18 +280,18 @@
       "usage": "形容你很熟悉一個地方或一件事，像熟悉自己的手一樣。",
       "prompt": "哪一句正確使用「Like the back of my hand」？",
       "options": [
-        "I know this street like the back of my hand. I walk here every day.",
-        "I eat pizza like the back of my hand for lunch.",
-        "My hand is cold, so I need a back of my hand.",
-        "Please put the milk like the back of my hand."
+        "I know this theatre like the back of my hand.",
+        "I know this museum like the back to my hand.",
+        "She knows the town like the back of hand my.",
+        "We knows the route like the back of our hands."
       ],
       "answer": 0,
-      "explanation": "正確：每天走同一條街，所以非常熟悉。",
+      "explanation": "like the back of my hand 表示非常熟悉。",
       "optionExplanations": [
-        "正確：每天走同一條街，所以非常熟悉。",
-        "錯誤：這個片語不是用來說吃東西的方式。",
-        "錯誤：這裡不是指手背這個物品，而是表示非常熟悉。",
-        "錯誤：不能用這個片語表示放東西的位置。"
+        "like the back of my hand 表示非常熟悉。",
+        "固定片語是 like the back of my hand，這裡的 to 不正確。",
+        "所有格 my 要放在 hand 前面。",
+        "主詞 we 配 know，不能加 s。"
       ]
     },
     {
@@ -302,16 +302,16 @@
       "prompt": "哪一句正確使用「Beneath」？",
       "options": [
         "My friend is beneath happy today.",
-        "The cat is sleeping beneath the table.",
-        "I beneath my homework after dinner.",
+        "Dad's glasses were beneath the newspaper he was reading.",
+        "I beneath the stage after the show.",
         "She bought a beneath at the shop."
       ],
       "answer": 1,
-      "explanation": "正確：貓睡在桌子下面。",
+      "explanation": "beneath 表示在下面。",
       "optionExplanations": [
         "錯誤：不能放在 happy 前表示非常開心。",
-        "正確：貓睡在桌子下面。",
-        "錯誤：beneath 不是表示做功課的動詞。",
+        "beneath 表示在下面。",
+        "beneath 是介詞，句子缺少 stood 等動詞。",
         "錯誤：beneath 不是可以購買的東西。"
       ]
     },
@@ -324,16 +324,16 @@
       "options": [
         "I can rely on my sister when I need help.",
         "She relies on very quickly to school.",
-        "I rely on a sandwich in my blue shoes.",
-        "We rely on the window because it is Tuesday."
+        "I rely to my cousin for help.",
+        "We relies on the guide during the trip."
       ],
       "answer": 0,
       "explanation": "正確：需要幫忙時可以信任姊姊。",
       "optionExplanations": [
         "正確：需要幫忙時可以信任姊姊。",
         "錯誤：rely on 後面需要接人或事物，不能這樣接副詞。",
-        "錯誤：句子沒有合理的依靠關係。",
-        "錯誤：這裡沒有說明窗戶能提供什麼幫助。"
+        "rely on 的介詞是 on，不能換成 to。",
+        "主詞 we 配 rely，不能加 s。"
       ]
     },
     {
@@ -343,16 +343,16 @@
       "usage": "當你允許別人進入房間、房子或其他地方時使用。",
       "prompt": "哪一句正確使用「Let someone in」？",
       "options": [
-        "I let my homework in before breakfast.",
-        "She lets the weather in to eat cake.",
+        "I let to my neighbour in.",
+        "She lets him in to waited for the rain to stop.",
         "It was cold outside, so I let my friend in.",
         "He let in happy when he opened his bag."
       ],
       "answer": 2,
       "explanation": "正確：朋友在外面，因此讓朋友進來。",
       "optionExplanations": [
-        "錯誤：功課不是等待進門的人。",
-        "錯誤：天氣不能像人一樣進來吃蛋糕。",
+        "let someone in 直接接人，不加 to。",
+        "to 後用 wait，不能接 waited。",
         "正確：朋友在外面，因此讓朋友進來。",
         "錯誤：不能把 happy 當成進門的人。"
       ]
@@ -364,16 +364,16 @@
       "usage": "沒有特別去找，卻剛好看到某人或找到某樣東西。",
       "prompt": "哪一句正確使用「Come across」？",
       "options": [
-        "We came across the door to close it loudly.",
-        "I came across my breakfast with a spoon.",
+        "We came across to an old painting at the market.",
+        "I come across my old teacher yesterday.",
         "She comes across to blue every morning.",
         "I came across an old photo while cleaning my room."
       ],
       "answer": 3,
       "explanation": "正確：打掃時意外找到舊照片。",
       "optionExplanations": [
-        "錯誤：若是走到門邊，應說 walked to the door。",
-        "錯誤：吃早餐不能用 come across 表達。",
+        "come across 表示偶然發現時直接接受詞，不加 to。",
+        "過去事件須用 came across。",
         "錯誤：不能用 come across to blue 形容顏色。",
         "正確：打掃時意外找到舊照片。"
       ]
@@ -385,18 +385,18 @@
       "usage": "說明以前常做、但現在可能不再做的事情；後面接動詞原形。",
       "prompt": "哪一句正確使用「Used to」？",
       "options": [
-        "I used to playing football every Sunday.",
-        "I used to live near the sea, but now I live in the city.",
+        "I used to visiting my cousins every summer.",
+        "I used to live here, before the noisy band arrived.",
         "She used to very hungry yesterday.",
-        "We used to ate cake after school."
+        "We used to visited museums on Sundays."
       ],
       "answer": 1,
-      "explanation": "正確：表示過去住海邊，現在已經不同。",
+      "explanation": "used to 表示過去的習慣或狀態，現在已有改變。",
       "optionExplanations": [
-        "錯誤：used to 後面要接原形 play，不是 playing。",
-        "正確：表示過去住海邊，現在已經不同。",
+        "used to 後接原形 visit，不能接 visiting。",
+        "used to 表示過去的習慣或狀態，現在已有改變。",
         "錯誤：used to 後面不能直接接 very hungry。",
-        "錯誤：used to 後面應用 eat，不是 ate。"
+        "used to 後接原形 visit，不能用 visited。"
       ]
     },
     {
@@ -406,18 +406,18 @@
       "usage": "談睡覺時夢見的人事物，或自己很想實現的願望。",
       "prompt": "哪一句正確使用「Dream of」？",
       "options": [
-        "I dream of my pencil to write my name.",
+        "I dream of to become an actor.",
         "He dreams of to go to school at eight.",
         "She dreams of becoming a singer one day.",
-        "We dream of happy our dinner."
+        "We dreams of travelling together."
       ],
       "answer": 2,
       "explanation": "正確：她夢想有一天成為歌手。",
       "optionExplanations": [
-        "錯誤：這裡要表達用鉛筆寫字，不是夢想。",
+        "of 後接 becoming，不能用 to become。",
         "錯誤：dream of 後面應接名詞或動詞 ing 形式。",
         "正確：她夢想有一天成為歌手。",
-        "錯誤：happy our dinner 不能接在 dream of 後面。"
+        "主詞 we 配 dream，不能加 s。"
       ]
     },
     {
@@ -427,18 +427,18 @@
       "usage": "想簡短問人問題或找人談話時，可以問對方有沒有時間。",
       "prompt": "哪一句正確使用「Have a minute」？",
       "options": [
-        "I have a minute in my shoe, and it is very small.",
+        "I have a minute to checked the address.",
         "Do you have a minute? I want to ask you something.",
-        "Please have a minute the blue door.",
-        "She has a minute very delicious for dinner."
+        "Please have a minute to listened to me.",
+        "She have a minute before the meeting."
       ],
       "answer": 1,
       "explanation": "正確：想問別人事情時，先問對方是否有空。",
       "optionExplanations": [
-        "錯誤：這裡不是指一個能放在鞋裡的物品。",
+        "to 後用 check，不能接 checked。",
         "正確：想問別人事情時，先問對方是否有空。",
-        "錯誤：have a minute 不是打開門的動作。",
-        "錯誤：minute 不是用來形容食物好吃。"
+        "to 後用 listen，不能接 listened。",
+        "主詞 she 配 has，不能用 have。"
       ]
     },
     {
@@ -448,16 +448,16 @@
       "usage": "說明你正在聊哪個話題；後面接話題、人物或事情。",
       "prompt": "哪一句正確使用「Talk about」？",
       "options": [
-        "He talked about his tea with a spoon to make it hot.",
-        "I talked about my shoes to the bus stop.",
+        "He talked about to his new job.",
+        "I talked about to visit my cousin.",
         "She talks about very fast to the kitchen.",
         "We talked about our holiday at dinner."
       ],
       "answer": 3,
       "explanation": "正確：晚餐時聊了假期的事。",
       "optionExplanations": [
-        "錯誤：攪拌茶要用 stir，不是 talk about。",
-        "錯誤：不能用 talk about 表示走到公車站。",
+        "about 後直接接 his new job，不加 to。",
+        "about 後用 visiting，不能接 to visit。",
         "錯誤：talk about 後面需要話題；若表示說話很快，用 talks very fast。",
         "正確：晚餐時聊了假期的事。"
       ]
@@ -470,17 +470,17 @@
       "prompt": "哪一句正確使用「The end of」？",
       "options": [
         "At the end of the movie, everyone went home.",
-        "I put the end of in my bag for lunch.",
+        "I the end of my holiday yesterday.",
         "She is the end of happily every day.",
-        "We cooked the end of with two eggs."
+        "We arrived at the end to the concert."
       ],
       "answer": 0,
       "explanation": "正確：電影結束時，大家回家了。",
       "optionExplanations": [
         "正確：電影結束時，大家回家了。",
-        "錯誤：the end of 後面需要接一個事物。",
+        "the end of 是名詞片語，不能單獨作動詞。",
         "錯誤：happily 不是這裡可接的名詞。",
-        "錯誤：the end of 不能當成一道食物。"
+        "the end of 的介詞是 of，不能換成 to。"
       ]
     }
   ],

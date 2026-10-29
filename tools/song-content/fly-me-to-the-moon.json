@@ -147,7 +147,7 @@
         "Please fly me to Taipei on your bicycle.",
         "The pilot can fly me to Japan tomorrow.",
         "I fly me to school every day.",
-        "My sandwich will fly me to the kitchen."
+        "My calendar will fly me to the meeting room."
       ],
       "answer": 1,
       "explanation": "正確：飛行員可以開飛機載我去日本。",
@@ -155,7 +155,7 @@
         "腳踏車不能「飛」去台北；一般會說 take me to Taipei。",
         "正確：飛行員可以開飛機載我去日本。",
         "自己去學校不能說 fly me；可以說 I go to school。",
-        "三明治不會載人飛行；主詞不合理。"
+        "日曆無法帶人飛行，這個主語與動作不合。"
       ]
     },
     {
@@ -166,17 +166,17 @@
       "prompt": "哪一句正確使用了「Among」？",
       "options": [
         "She sat among her friends at lunch.",
-        "The moon is among my breakfast.",
-        "I put my shoes among to the door.",
-        "I among my homework after school."
+        "The moon is among my bank account.",
+        "I put my invitation among to the other letters.",
+        "I among my family photos after the trip."
       ],
       "answer": 0,
       "explanation": "正確：她午餐時坐在朋友們之中。",
       "optionExplanations": [
         "正確：她午餐時坐在朋友們之中。",
-        "月亮不會在早餐之中，語意不合理。",
-        "among 後面要直接接名詞，不能接 to the door。",
-        "among 是介系詞，不能當成動詞使用。"
+        "among 需要一群人或多個物件，這個受詞不合。",
+        "among 後面不用 to，直接接 the other letters。",
+        "among 是介詞，不能作整理照片的動詞。"
       ]
     },
     {
@@ -188,7 +188,7 @@
       "options": [
         "What is the chair like to run?",
         "What my pencil is like blue?",
-        "What is like you eat for lunch?",
+        "What is like you watch at the cinema?",
         "What is your new school like?"
       ],
       "answer": 3,
@@ -196,7 +196,7 @@
       "optionExplanations": [
         "問椅子如何跑步不合常理；like 在此不是「喜歡」。",
         "這個問句的字序錯誤，也混淆了 like 和顏色描述。",
-        "想問午餐吃什麼，應說 What do you eat for lunch?",
+        "詢問觀影內容應說 What do you watch；這個語序錯誤。",
         "正確：是在詢問新學校是什麼樣子。"
       ]
     },
@@ -207,18 +207,18 @@
       "usage": "想把剛說過的事情用更簡單或不同的方式重新說明時使用。",
       "prompt": "哪一句正確使用了「In other words」？",
       "options": [
-        "The shop is closed. In other words, we cannot go in.",
-        "In other words my shoes under bed.",
+        "We're late. In other words, we missed the parade.",
+        "In other words my cousins next to the station.",
         "I went in other words to the park.",
-        "I eat in other words for breakfast."
+        "I wear in other words for my job interview."
       ],
       "answer": 0,
-      "explanation": "正確：第二句用不同方式說明商店關門的結果。",
+      "explanation": "in other words 用另一種說法解釋前面的意思。",
       "optionExplanations": [
-        "正確：第二句用不同方式說明商店關門的結果。",
-        "片語後要有完整句子，且鞋子在床下要用 are。",
+        "in other words 用另一種說法解釋前面的意思。",
+        "in other words 後面需要完整句子，這裡缺少動詞。",
         "這個片語不能用來表示去了另一個地方。",
-        "這個片語不是食物，不能當早餐吃。"
+        "in other words 是轉述用語，無法當作服裝。"
       ]
     },
     {
@@ -228,17 +228,17 @@
       "usage": "一起走路、過馬路或想安慰對方時，可以請對方牽手。",
       "prompt": "哪一句正確使用了「Hold my hand」？",
       "options": [
-        "Please hold my hand in the fridge for dinner.",
+        "Please hold my hand inside the email and send it.",
         "Please hold my hand when we cross the road.",
-        "I hold my hand with a sandwich to drink it.",
+        "I hold my hand with a ticket to read the film.",
         "The bus held my hand to the library."
       ],
       "answer": 1,
       "explanation": "正確：過馬路時請對方牽著自己的手。",
       "optionExplanations": [
-        "手不是要放進冰箱的晚餐，情境不合理。",
+        "手無法放進電郵寄送，句意不成立。",
         "正確：過馬路時請對方牽著自己的手。",
-        "三明治不能喝，而且這樣說不表示牽手。",
+        "hold my hand 表示握手；這句無法表達看電影。",
         "公車不會牽手；要說公車載我去圖書館。"
       ]
     },
@@ -250,16 +250,16 @@
       "prompt": "哪一句正確使用了「Fill ... with」？",
       "options": [
         "I fill with my book the table.",
-        "We filled happy with the sandwich.",
-        "He filled the glass with water.",
+        "We filled excited with the wedding invitation.",
+        "Dad filled the room with balloons, then couldn't enter.",
         "She filled to the cup with singing."
       ],
       "answer": 2,
-      "explanation": "正確：他把水倒進杯子裡。",
+      "explanation": "fill something with 表示用某物填滿；房間裝滿氣球。",
       "optionExplanations": [
         "自然語序是 fill the table with ...，但書放在桌上也不等於裝滿。",
-        "happy 是形容詞，不能當作要裝滿的容器。",
-        "正確：他把水倒進杯子裡。",
+        "fill something with something 需要名詞受詞，excited 無法放在此處。",
+        "fill something with 表示用某物填滿；房間裝滿氣球。",
         "fill 後直接接容器，不應用 to the cup。"
       ]
     },
@@ -270,17 +270,17 @@
       "usage": "想用比較詩意的方式表達某件事會一直繼續時使用；日常會話較常說 forever。",
       "prompt": "哪一句正確使用了「Forever more」？",
       "options": [
-        "I forever more my homework on Monday.",
+        "I forever more my report on Monday.",
         "My bike is forever more in the kitchen yesterday.",
-        "She has a forever more apple for breakfast.",
+        "She has a forever more train ticket at nine.",
         "I will remember this happy day forever more."
       ],
       "answer": 3,
       "explanation": "正確：表示從此會一直記得這一天。",
       "optionExplanations": [
-        "forever more 不是動詞，不能代替 do。",
+        "forever more 表示永遠，不能代替完成報告的動詞。",
         "yesterday 與「從今以後永遠」的時間意思衝突。",
-        "forever more 不能自然地當作 apple 的形容詞。",
+        "forever more 不能在此直接作 ticket 前的形容詞。",
         "正確：表示從此會一直記得這一天。"
       ]
     },
@@ -292,16 +292,16 @@
       "prompt": "哪一句正確使用了「Long for」？",
       "options": [
         "My brother longs for a day at the beach.",
-        "I long for my shoes with a spoon.",
-        "She longs for to eat a pizza.",
+        "I long for my haircut with a pair of scissors to cut it.",
+        "She longs for to see her favourite singer.",
         "We long for happy every day."
       ],
       "answer": 0,
       "explanation": "正確：弟弟很渴望去海邊玩一天。",
       "optionExplanations": [
         "正確：弟弟很渴望去海邊玩一天。",
-        "long for 是渴望，不是用湯匙處理鞋子。",
-        "long for 後接名詞；想接動詞可以說 longs to eat。",
+        "剪髮應用 cut；long for 指渴望，無法表達剪的動作。",
+        "long for 後面不能直接接 to see；可說 longs to see。",
         "for 後面不能直接接形容詞 happy；可說 long for happiness。"
       ]
     },
@@ -314,16 +314,16 @@
       "options": [
         "I adore to the bus at eight.",
         "My sister adores blue with a pencil.",
-        "She adores her little dog.",
-        "We adore our homework on the desk with water."
+        "Mum adores that actor, even in his boring films.",
+        "We adore our report into the printer to copy it."
       ],
       "answer": 2,
-      "explanation": "正確：她非常疼愛自己的小狗。",
+      "explanation": "adore 表示非常喜愛；媽媽連他的悶電影也看。",
       "optionExplanations": [
         "adore 不表示搭公車，後面也不能這樣接 to。",
         "這裡的 with a pencil 與 adore 的意思不搭配。",
-        "正確：她非常疼愛自己的小狗。",
-        "adore 表示非常喜愛，不是用水處理作業。"
+        "adore 表示非常喜愛；媽媽連他的悶電影也看。",
+        "adore 表示喜愛，無法代替把文件放進機器的動詞。"
       ]
     },
     {
@@ -333,7 +333,7 @@
       "usage": "說一個人忠於朋友、承諾或自己時使用；歌中的 be true 帶有真心的意思。",
       "prompt": "哪一句正確使用了「Be true to」？",
       "options": [
-        "I am true to my lunch, so it tastes blue.",
+        "I am true to my new haircut, so it becomes longer.",
         "She is true to her friends and never lies to them.",
         "He is true to run at seven.",
         "We are true to the door with a spoon."
@@ -341,7 +341,7 @@
       "answer": 1,
       "explanation": "正確：她真誠對待朋友，不對他們說謊。",
       "optionExplanations": [
-        "對午餐忠誠無法讓食物有藍色味道，語意不合理。",
+        "be true to 表示忠於，無法讓頭髮變長。",
         "正確：她真誠對待朋友，不對他們說謊。",
         "be true to 不能這樣接動詞 run 表示跑步。",
         "這不是用湯匙開門的說法，片語使用不合理。"

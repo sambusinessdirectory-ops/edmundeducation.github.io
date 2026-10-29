@@ -340,21 +340,21 @@
       "number": 1,
       "word": "Now and then",
       "meaning": "偶爾、有時候",
-      "usage": "談到不是每天發生，而是偶爾會做的事。",
+      "usage": "談到偶爾會做或間中發生的事。",
       "prompt": "哪一句正確使用了「Now and then」？",
       "options": [
-        "I eat now and then with a spoon every morning.",
+        "I now and then my old family photos.",
         "Now and then, I call my old friend to say hello.",
         "Please put the now and then in my bag.",
-        "My new shoes are very now and then."
+        "My cousin is very now and then about the concert."
       ],
       "answer": 1,
       "explanation": "正確：表示偶爾打電話給老朋友。",
       "optionExplanations": [
-        "錯誤：every morning 表示每天，和「偶爾」矛盾。",
+        "now and then 是頻率片語，不能單獨作動詞。",
         "正確：表示偶爾打電話給老朋友。",
         "錯誤：這是時間片語，不是可以放進包包的物品。",
-        "錯誤：不能用這個片語形容鞋子的樣子。"
+        "now and then 表示偶爾，不能當作描述情緒的形容詞。"
       ]
     },
     {
@@ -365,16 +365,16 @@
       "prompt": "哪一句正確使用了「Think of」？",
       "options": [
         "This photo makes me think of my grandmother.",
-        "I think of my tea with hot water.",
-        "Please think of the window to open it.",
+        "I think of to visit that museum.",
+        "Please think of to your neighbour's advice.",
         "She thinks of her bike to school every day."
       ],
       "answer": 0,
       "explanation": "正確：照片讓我想起奶奶。",
       "optionExplanations": [
         "正確：照片讓我想起奶奶。",
-        "錯誤：泡茶應說 make tea，不是 think of tea with water。",
-        "錯誤：要開窗應直接說 open the window。",
+        "of 後用 visiting，不能接 to visit。",
+        "of 後直接接 advice，不加 to。",
         "錯誤：騎車上學應說 rides her bike to school。"
       ]
     },
@@ -385,18 +385,18 @@
       "usage": "談論一個選擇、工作或人是否適合某人。",
       "prompt": "哪一句正確使用了「Right for someone」？",
       "options": [
-        "These shoes are right for my soup.",
-        "This job is right for me because I love working with children.",
-        "I right for my homework after dinner.",
-        "The bus is right for Tuesday at six apples."
+        "This course right for me last year.",
+        "This job is right for me; I love helping children.",
+        "I right for this new job.",
+        "The plan is right for to our family."
       ],
       "answer": 1,
-      "explanation": "正確：工作內容符合自己的喜好。",
+      "explanation": "right for someone 表示適合某人。",
       "optionExplanations": [
-        "錯誤：鞋子和湯之間沒有合理的「適合」關係。",
-        "正確：工作內容符合自己的喜好。",
-        "錯誤：right for 不是動詞，不能代替 do。",
-        "錯誤：時間和數量的搭配不合理。"
+        "right for me 是形容詞片語，前面需要 was 等動詞。",
+        "right for someone 表示適合某人。",
+        "right for 不能單獨作動詞；需要 am。",
+        "for 後直接接 our family，不加 to。"
       ]
     },
     {
@@ -407,7 +407,7 @@
       "prompt": "哪一句正確使用了「Make sense」？",
       "options": [
         "I make sense my bed before school.",
-        "The dog makes sense with three sandwiches.",
+        "The map makes sense to understood the route.",
         "Your answer makes sense. I understand it now.",
         "We make sense to the supermarket by bus."
       ],
@@ -415,7 +415,7 @@
       "explanation": "正確：答案合理，所以聽得懂。",
       "optionExplanations": [
         "錯誤：整理床鋪是 make my bed。",
-        "錯誤：這個片語不能用來表示吃三明治。",
+        "to understood 的形式錯誤；可說 helps us understand the route。",
         "正確：答案合理，所以聽得懂。",
         "錯誤：去超市應說 go to the supermarket。"
       ]
@@ -428,16 +428,16 @@
       "prompt": "哪一句正確使用了「Be over」？",
       "options": [
         "My phone is over the happy yesterday.",
-        "I am over my shoes to the park.",
-        "She is over breakfast with a spoon.",
+        "I over my first interview yesterday.",
+        "The concert is over to finished at ten.",
         "The movie is over, so we can go home."
       ],
       "answer": 3,
       "explanation": "正確：電影已經結束。",
       "optionExplanations": [
         "錯誤：over 不能這樣搭配形容詞和時間。",
-        "錯誤：這裡不能用 be over 表示穿鞋去公園。",
-        "錯誤：想表示吃早餐，應說 she is eating breakfast。",
+        "be over 表示結束或走出某種情緒，需要適當的 be 動詞。",
+        "to finished 的連接不成立。",
         "正確：電影已經結束。"
       ]
     },
@@ -448,18 +448,18 @@
       "usage": "談到不再聯絡某人，或對方說話時被打斷。",
       "prompt": "哪一句正確使用了「Cut someone off」？",
       "options": [
-        "He cut me off while I was talking, so I could not finish.",
-        "I cut my friend off with a pizza knife to share lunch.",
-        "We cut our teacher off to make the classroom clean.",
-        "My sister cut me off because my shoes were wet."
+        "He cut me off before I finished my story.",
+        "I cut to my colleague off while she was talking.",
+        "We cut him off to stopped his story.",
+        "My sister cuts me off yesterday during the call."
       ],
       "answer": 0,
-      "explanation": "正確：他在我說話時打斷了我。",
+      "explanation": "cut someone off 在此表示打斷別人說話。",
       "optionExplanations": [
-        "正確：他在我說話時打斷了我。",
-        "錯誤：分披薩是 cut the pizza，不是 cut someone off。",
-        "錯誤：打掃教室應說 clean the classroom。",
-        "錯誤：鞋子濕了並不足以清楚表達「打斷／斷聯」，語意不合理。"
+        "cut someone off 在此表示打斷別人說話。",
+        "cut someone off 直接接人，不加 to。",
+        "to 後用 stop，不能接 stopped。",
+        "過去事件須用 cut，不能用 cuts。"
       ]
     },
     {
@@ -469,18 +469,18 @@
       "usage": "描述別人如何對待你或其他人。",
       "prompt": "哪一句正確使用了「Treat someone like」？",
       "options": [
-        "I treat my homework like at seven o’clock.",
-        "He treats his dog like a family member.",
+        "I treat my neighbour like to a brother.",
+        "Grandma treats every visitor like a famous guest.",
         "She treats the bus like to school.",
-        "We treat like our dinner in the kitchen."
+        "We treats our cousin like a king on his birthday."
       ],
       "answer": 1,
-      "explanation": "正確：他像對待家人一樣對待狗狗。",
+      "explanation": "treat someone like 表示以某種方式對待人。",
       "optionExplanations": [
-        "錯誤：like 後需要接比較的對象，這裡搭配錯誤。",
-        "正確：他像對待家人一樣對待狗狗。",
+        "like 後直接接 a brother，不加 to。",
+        "treat someone like 表示以某種方式對待人。",
         "錯誤：like 後的結構不完整。",
-        "錯誤：treat 後缺少被對待的人或事物。"
+        "主詞 we 配 treat，不能加 s。"
       ]
     },
     {
@@ -491,16 +491,16 @@
       "prompt": "哪一句正確使用了「Let it go」？",
       "options": [
         "It was a small mistake. Just let it go.",
-        "She lets it go to the bus every morning.",
-        "We let it go a sandwich for lunch.",
+        "She lets it go to forgot the rude comment.",
+        "We let it go to forgot the argument.",
         "I let it go my English book in the bag."
       ],
       "answer": 0,
       "explanation": "正確：只是小錯誤，不用一直放在心上。",
       "optionExplanations": [
         "正確：只是小錯誤，不用一直放在心上。",
-        "錯誤：搭公車應說 takes the bus。",
-        "錯誤：這個片語不能表示做或吃午餐。",
+        "to 後用 forget，不能接 forgot。",
+        "to 後用 forget，不能接 forgot。",
         "錯誤：把書放進包包應說 put my book in the bag。"
       ]
     },
@@ -532,18 +532,18 @@
       "usage": "談論一段關係已結束，但心裡仍然很在意對方。",
       "prompt": "哪一句正確使用了「Be hung up on someone」？",
       "options": [
-        "I am hung up on my chair to reach the table.",
-        "She hung up on her soup because it was hot.",
-        "He is still hung up on his ex and talks about her every day.",
-        "We are hung up on the bus at eight tomorrow."
+        "I am hung up on to my ex.",
+        "She is hung up on very sad about him.",
+        "He's still hung up on his ex after three years.",
+        "He be hung up on his old partner."
       ],
       "answer": 2,
-      "explanation": "正確：他仍然放不下前任。",
+      "explanation": "be hung up on someone 表示仍念念不忘某人。",
       "optionExplanations": [
-        "錯誤：這裡不能表示站在椅子上。",
-        "錯誤：hung up on someone 是情感上的放不下，不能用在湯上。",
-        "正確：他仍然放不下前任。",
-        "錯誤：這個片語不能表示搭公車或預定時間。"
+        "be hung up on someone 直接接人，不加 to。",
+        "on 後需要對象，不能直接接 very sad。",
+        "be hung up on someone 表示仍念念不忘某人。",
+        "主詞 he 配 is，不能直接用 be。"
       ]
     }
   ],

@@ -393,17 +393,17 @@
       "usage": "出發、開始活動前，確認自己或別人是否準備好。",
       "prompt": "哪一句正確使用了「Good to go」？",
       "options": [
-        "I am good to go my sandwich.",
+        "I am good to go my job interview.",
         "Are you good to go? The bus is here.",
-        "My shoes are good to go at seven years old.",
+        "My cousins are good to go at seven years old yesterday.",
         "She good to go the door every night."
       ],
       "answer": 1,
       "explanation": "正確：公車來了，詢問對方是否準備好出發。",
       "optionExplanations": [
-        "錯誤：不能把 good to go 當成「吃」的動詞。",
+        "good to go 表示準備好了，後面不能直接接 interview。",
         "正確：公車來了，詢問對方是否準備好出發。",
-        "錯誤：這裡的年齡跟「準備好了」沒有合理關係。",
+        "表示準備好不能這樣接年齡與 yesterday，時態也不一致。",
         "錯誤：缺少 is，而且不能用它表示關門。"
       ]
     },
@@ -414,17 +414,17 @@
       "usage": "想更認識朋友、同學或喜歡的人時。",
       "prompt": "哪一句正確使用了「Know someone better」？",
       "options": [
-        "We talk every day to know each other better.",
-        "I know better my pencil after lunch.",
-        "He knows better his cake with a spoon.",
+        "Talking after rehearsal helps us know each other better.",
+        "I know better my guitar after the concert.",
+        "He knows better his neighbour with a microphone.",
         "She knows me better a new bicycle."
       ],
       "answer": 0,
-      "explanation": "正確：每天聊天可以讓彼此更了解對方。",
+      "explanation": "know someone better 表示更了解某人；聊天有助增進了解。",
       "optionExplanations": [
-        "正確：每天聊天可以讓彼此更了解對方。",
-        "錯誤：know someone better 不是用來描述鉛筆吃午餐。",
-        "錯誤：不能用 know better 表示用湯匙吃蛋糕。",
+        "know someone better 表示更了解某人；聊天有助增進了解。",
+        "受詞應放在 better 前面，如 know my guitar better。",
+        "know someone better 的受詞應放在 better 前面。",
         "錯誤：後面不能直接接 a new bicycle 來表示更了解我。"
       ]
     },
@@ -436,16 +436,16 @@
       "prompt": "哪一句正確使用了「In the back of my mind」？",
       "options": [
         "My phone is in the back of my mind on the desk.",
-        "In the back of my mind, I knew I had homework to do.",
-        "I put milk in the back of my mind to keep it cold.",
+        "Dad's birthday was in the back of my mind.",
+        "I put my spare battery in the back of my mind to charge it.",
         "She walked in the back of my mind to get home."
       ],
       "answer": 1,
-      "explanation": "正確：表示心裡一直記得還有作業。",
+      "explanation": "in the back of my mind 表示隱約記得或惦記某事。",
       "optionExplanations": [
         "錯誤：桌上的手機是實物，不是在想法裡。",
-        "正確：表示心裡一直記得還有作業。",
-        "錯誤：不能把這個片語當成冰箱。",
+        "in the back of my mind 表示隱約記得或惦記某事。",
+        "這個片語指心裡隱約的想法，無法當作充電位置。",
         "錯誤：這不是實際可以走路的地方。"
       ]
     },
@@ -458,16 +458,16 @@
       "options": [
         "She held the door open for an old man.",
         "He held the door in his school bag.",
-        "We held the door to eat it for breakfast.",
-        "I held the door because my soup was hot."
+        "We held the door to play it like a violin.",
+        "I held the door to make my train arrive earlier."
       ],
       "answer": 0,
       "explanation": "正確：她為一位老人扶著門，讓他通過。",
       "optionExplanations": [
         "正確：她為一位老人扶著門，讓他通過。",
         "錯誤：一般的門無法放進書包。",
-        "錯誤：門不是食物，不能拿來吃。",
-        "錯誤：湯很燙並不是扶門的合理原因。"
+        "hold the door 在此指扶住門；門無法像小提琴一樣演奏。",
+        "扶住門無法讓火車提早到站，語意不合。"
       ]
     },
     {
@@ -478,17 +478,17 @@
       "prompt": "哪一句正確使用了「Take down」？",
       "options": [
         "She took down to the library by bus.",
-        "I took down my breakfast with orange juice.",
+        "I took down my new haircut with a bus ticket.",
         "We took down the old picture from the wall.",
-        "My cat took down happy on Monday."
+        "My uncle took down happy on Monday."
       ],
       "answer": 2,
       "explanation": "正確：把舊照片從牆上取下來。",
       "optionExplanations": [
         "錯誤：搭公車去圖書館應用 went 或 took the bus。",
-        "錯誤：不能用 take down 表示吃早餐。",
+        "take down 無法表示整理髮型，車票也不支持這個動作。",
         "正確：把舊照片從牆上取下來。",
-        "錯誤：take down 不能直接接 happy 表示開心。"
+        "take down 後面不能直接接 happy 表示心情。"
       ]
     },
     {
@@ -498,7 +498,7 @@
       "usage": "描述打開東西，或願意跟信任的人分享心事。",
       "prompt": "哪一句正確使用了「Open up」？",
       "options": [
-        "I open up my lunch with a football game.",
+        "I open up my exam with a loud concert.",
         "We open up at seven years old every morning.",
         "She opened up the rain to make it sunny.",
         "He opened up to his friend about his bad day."
@@ -506,7 +506,7 @@
       "answer": 3,
       "explanation": "正確：他向朋友敞開心房，說出今天不開心的事。",
       "optionExplanations": [
-        "錯誤：片語與這個句子的意思不搭。",
+        "這句無法表達開始考試；open up 在此的用法不成立。",
         "錯誤：這裡沒有清楚的打開對象或分享感受的意思。",
         "錯誤：不能把雨「打開」來讓天氣變晴。",
         "正確：他向朋友敞開心房，說出今天不開心的事。"
@@ -519,16 +519,16 @@
       "usage": "考試、上台或見到喜歡的人之前，感到緊張時。",
       "prompt": "哪一句正確使用了「Butterflies in my stomach」？",
       "options": [
-        "I put butterflies in my stomach with a spoon.",
-        "My stomach has butterflies because I ate blue rice.",
+        "I bought butterflies in my stomach for the school trip.",
+        "I have butterflies in my stomach because I put a photo inside it.",
         "I had butterflies in my stomach before my first show.",
         "She bought butterflies in my stomach at the shop."
       ],
       "answer": 2,
       "explanation": "正確：第一次上台表演前很緊張。",
       "optionExplanations": [
-        "錯誤：這個片語通常是比喻，不是真的吃蝴蝶。",
-        "錯誤：不能用這個片語描述食物顏色造成的狀況。",
+        "這個片語表示緊張，無法當作可購買的物品。",
+        "這個片語指緊張感，不能把照片放進肚子作解釋。",
         "正確：第一次上台表演前很緊張。",
         "錯誤：緊張的感覺不是商店可以買的商品。"
       ]
@@ -540,16 +540,16 @@
       "usage": "好久沒見的朋友重聚，想多花時間相處時。",
       "prompt": "哪一句正確使用了「Make up for lost time」？",
       "options": [
-        "After a year apart, we spent all day together to make up for lost time.",
-        "He made up for lost time with a new pair of socks.",
+        "We talked all night to make up for lost time.",
+        "He made up for lost time by making every clock slower.",
         "We make up for lost time because our chairs are tall.",
         "I make up for lost time by turning my clock blue."
       ],
       "answer": 0,
-      "explanation": "正確：分開一年後，多花時間相處來彌補錯過的日子。",
+      "explanation": "make up for lost time 表示彌補錯過的相處時間。",
       "optionExplanations": [
-        "正確：分開一年後，多花時間相處來彌補錯過的日子。",
-        "錯誤：買襪子沒有表達把錯過的時間補回來。",
+        "make up for lost time 表示彌補錯過的相處時間。",
+        "把鐘調慢不會補回錯過的相處或活動時間。",
         "錯誤：椅子很高和補回失去的時間沒有關聯。",
         "錯誤：改變時鐘顏色不等於彌補失去的時間。"
       ]
@@ -564,15 +564,15 @@
         "She went all in my mind by train yesterday.",
         "My school is all in my mind next to the bank.",
         "I put all in my mind into a glass of water.",
-        "I thought everyone was angry, but it was all in my mind."
+        "Nobody hated my speech. It was all in my mind."
       ],
       "answer": 3,
-      "explanation": "正確：原來大家並沒有生氣，是自己想太多。",
+      "explanation": "all in my mind 表示只是自己的想像。",
       "optionExplanations": [
         "錯誤：不能把它當成搭火車前往的地點。",
         "錯誤：學校的實際位置不是想像出來的感覺。",
         "錯誤：想法不能像水一樣倒進杯子裡。",
-        "正確：原來大家並沒有生氣，是自己想太多。"
+        "all in my mind 表示只是自己的想像。"
       ]
     },
     {
@@ -582,17 +582,17 @@
       "usage": "天氣非常差、雨很大時可以說 it is pouring rain。",
       "prompt": "哪一句正確使用了「Pouring rain」？",
       "options": [
-        "I drank pouring rain from my blue shoe.",
+        "I wore pouring rain to look smart at the interview.",
         "It was pouring rain, so we stayed inside.",
-        "She is pouring rain her homework at school.",
+        "She is pouring rain her speech at the meeting.",
         "My brother wore a pouring rain to the party."
       ],
       "answer": 1,
       "explanation": "正確：因為下大雨，所以我們待在室內。",
       "optionExplanations": [
-        "錯誤：這個片語用來描述大雨，不是飲料名稱。",
+        "pouring rain 指大雨，無法當作服裝。",
         "正確：因為下大雨，所以我們待在室內。",
-        "錯誤：不能用 pouring rain 表示寫作業。",
+        "pouring rain 描述下大雨，不能代替發表演說。",
         "錯誤：pouring rain 不是可以穿的衣服。"
       ]
     }

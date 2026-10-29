@@ -161,17 +161,17 @@
       "prompt": "哪一句正確使用「a thousand」？",
       "meaning": "一千；也常用來形容非常多。",
       "options": [
-        "I have a thousand cat in my pencil case.",
-        "There are a thousand people at the big game.",
-        "She has a thousand of book on her desk.",
-        "My dog is a thousand happy today."
+        "A thousand visitor came to the museum today.",
+        "A thousand fans waited. The singer took another exit.",
+        "She has a thousand of photo from her trip.",
+        "My uncle is a thousand excited about his new car."
       ],
-      "explanation": "正確：a thousand 後接複數名詞 people，表示大約一千人。",
+      "explanation": "a thousand 表示一千，後接複數 fans。",
       "optionExplanations": [
-        "錯誤：a thousand 後面要接複數名詞 cats，不是 cat。",
-        "正確：a thousand 後接複數名詞 people，表示大約一千人。",
-        "錯誤：應說 a thousand books，不說 a thousand of book。",
-        "錯誤：a thousand 是數量，不能直接放在 happy 前表示「非常」。"
+        "a thousand 後的可數名詞要用複數 visitors。",
+        "a thousand 表示一千，後接複數 fans。",
+        "a thousand 後直接接複數 photos，不加 of。",
+        "a thousand 表示數量，不能用來加強 excited。"
       ]
     },
     {
@@ -182,17 +182,17 @@
       "prompt": "哪一句正確使用「come to know」？",
       "meaning": "漸漸認識、逐漸了解。",
       "options": [
-        "I came to know my new friend after we talked every day.",
-        "I come to know my shoes on the table.",
+        "I came to know my neighbour through our noisy rehearsals.",
+        "I came to know to my new neighbour.",
         "She came to know to the bus stop at eight.",
-        "He came to know a sandwich for lunch."
+        "He come to knew the singer after several shows."
       ],
-      "explanation": "正確：表示經過每天聊天，慢慢了解新朋友。",
+      "explanation": "come to know 表示漸漸認識或了解。",
       "optionExplanations": [
-        "正確：表示經過每天聊天，慢慢了解新朋友。",
-        "錯誤：鞋子通常不能用 come to know 表示「放在桌上」。",
+        "come to know 表示漸漸認識或了解。",
+        "come to know 後直接接認識的對象，不加第二個 to。",
         "錯誤：到公車站要說 came to the bus stop，不用 come to know。",
-        "錯誤：吃午餐應用 ate 或 had，不能用 came to know。"
+        "come to know 的動詞形式用錯；過去式可說 came to know。"
       ]
     },
     {
@@ -206,14 +206,14 @@
         "No one but Mia knows the answer.",
         "I put no one but in my schoolbag.",
         "No one but my teacher are in the classroom.",
-        "No one but apples can drive the bus."
+        "No one but Mia know the way to the museum."
       ],
       "explanation": "正確：除了 Mia，沒有人知道答案。",
       "optionExplanations": [
         "正確：除了 Mia，沒有人知道答案。",
         "錯誤：no one but 用來說人，不是放進書包的物品。",
         "錯誤：主詞 no one 用單數動詞 is，不是 are。",
-        "錯誤：apples 是蘋果，不能當開公車的人。"
+        "主詞 no one 配 knows，不能用 know。"
       ]
     },
     {
@@ -226,14 +226,14 @@
       "options": [
         "I run dry to school every morning.",
         "The river ran dry after many hot days.",
-        "My sister ran dry her blue hat.",
+        "My sister ran dry her travel plan last night.",
         "We run dry the music at the party."
       ],
       "explanation": "正確：河流在很多炎熱日子後乾涸。",
       "optionExplanations": [
         "錯誤：跑去學校要說 run to school，run dry 不是跑步的方式。",
         "正確：河流在很多炎熱日子後乾涸。",
-        "錯誤：run dry 不能直接表示「把帽子戴上」。",
+        "run dry 指乾涸或耗盡，不能直接接 travel plan 表示完成計劃。",
         "錯誤：放音樂要說 play music，不能用 run dry。"
       ]
     },
@@ -245,16 +245,16 @@
       "prompt": "哪一句正確使用「at one time」？",
       "meaning": "同一時間；有時也表示曾經。",
       "options": [
-        "I eat three breakfasts at one time yesterday.",
+        "At one time, my uncle are a famous actor.",
         "She puts at one time in her pocket.",
-        "The chair is at one time very hungry.",
+        "At one time, my grandfather is a young actor yesterday.",
         "At one time, my dad was a teacher."
       ],
       "explanation": "正確：表示爸爸以前曾經當過老師。",
       "optionExplanations": [
-        "錯誤：yesterday 是過去時間，eat 應改為 ate。",
+        "回顧過去的單數主詞 my uncle 應配 was。",
         "錯誤：at one time 是時間片語，不是可以放進口袋的物品。",
-        "錯誤：椅子不會餓，at one time 也不能讓句子變得合理。",
+        "回顧祖父年輕時的職業應用 was，不能用 is。",
         "正確：表示爸爸以前曾經當過老師。"
       ]
     },
@@ -266,17 +266,17 @@
       "prompt": "哪一句正確使用「all the way」？",
       "meaning": "全程、一路上。",
       "options": [
-        "She is all the way of a sandwich.",
+        "She all the way her first driving lesson.",
         "I all the way a new phone yesterday.",
         "We sang all the way home.",
-        "My cat is all the way seven years old."
+        "My uncle is all the way years old today."
       ],
       "explanation": "正確：表示回家路上一路都在唱歌。",
       "optionExplanations": [
-        "錯誤：all the way 不能用來表示三明治的材料。",
+        "all the way 是副詞片語，不能單獨作動詞。",
         "錯誤：all the way 不是動詞；買手機要說 bought a new phone。",
         "正確：表示回家路上一路都在唱歌。",
-        "錯誤：說年齡不需要 all the way；可說 My cat is seven years old。"
+        "all the way 不能取代年齡數字。"
       ]
     },
     {
@@ -287,15 +287,15 @@
       "prompt": "哪一句正確使用「spend time with」？",
       "meaning": "花時間與……相處。",
       "options": [
-        "I spend time with my homework to the park.",
-        "We spend time with to eat a door.",
+        "I spend time with to practise the guitar.",
+        "We spend time with our friends yesterday.",
         "She spends time with her grandparents on Sundays.",
         "He spends time with blue very quickly."
       ],
       "explanation": "正確：表示星期天花時間陪祖父母。",
       "optionExplanations": [
-        "錯誤：homework 不是一起去公園的人；而且句子結構不自然。",
-        "錯誤：with 後面缺少人或事物，而且 eat a door 不合理。",
+        "with 後不能接 to practise；可說 spend time practising the guitar。",
+        "yesterday 是過去時間，這裡應用 spent。",
         "正確：表示星期天花時間陪祖父母。",
         "錯誤：blue 是顏色，這裡不能直接當作相處對象。"
       ]
@@ -308,16 +308,16 @@
       "prompt": "哪一句正確使用「one by one」？",
       "meaning": "一個接著一個、逐一。",
       "options": [
-        "I eat one by one happy in the kitchen.",
+        "I one by one the guests at the wedding.",
         "The students went into the room one by one.",
-        "She wears one by one on her feet.",
+        "She is one by one years old today.",
         "We are one by one years old."
       ],
       "explanation": "正確：學生一個接著一個進入房間。",
       "optionExplanations": [
-        "錯誤：one by one 不能這樣修飾 happy，句子結構不完整。",
+        "one by one 表示逐一，不能單獨作動詞。",
         "正確：學生一個接著一個進入房間。",
-        "錯誤：one by one 不是鞋子，不能直接說穿在腳上。",
+        "one by one 不能用作年齡數字。",
         "錯誤：表達年齡不能用 one by one 代替數字。"
       ]
     },
@@ -330,15 +330,15 @@
       "meaning": "熄滅；也可指外出。",
       "options": [
         "The lights went out, so the room was dark.",
-        "My new shoes go out the math test.",
-        "I go out my sandwich for breakfast.",
+        "My cousin goes out to visited the museum.",
+        "I go out my concert ticket from the printer.",
         "She goes out the pencil to write."
       ],
       "explanation": "正確：went out 表示燈熄滅了。",
       "optionExplanations": [
         "正確：went out 表示燈熄滅了。",
-        "錯誤：鞋子不能「外出考數學」，go out 用在這裡不自然。",
-        "錯誤：吃三明治要說 eat，不用 go out。",
+        "to 後用原形 visit，不能用 visited。",
+        "go out 不及物，不能直接接 ticket 表示列印。",
         "錯誤：拿出鉛筆應用 takes out，而不是 goes out。"
       ]
     },
@@ -350,16 +350,16 @@
       "prompt": "哪一句正確使用「fly away」？",
       "meaning": "飛走、飛向遠方。",
       "options": [
-        "The table flew away to sleep at nine.",
-        "I fly away my homework before dinner.",
-        "She flew away a glass of water.",
+        "The plane fly away yesterday morning.",
+        "I fly away my passport before the trip.",
+        "She flew away to visited her cousin.",
         "The bird flew away when I opened the window."
       ],
       "explanation": "正確：鳥在窗戶打開時飛走了。",
       "optionExplanations": [
-        "錯誤：桌子不會自己飛去睡覺，這裡不符合一般情境。",
-        "錯誤：fly away 不表示完成作業；可以說 finish my homework。",
-        "錯誤：水不能當成 fly away 的直接受詞；喝水要說 drank。",
+        "過去事件須用 flew away。",
+        "fly away 不能直接接 passport 表示準備證件。",
+        "to 後用原形 visit，不能用 visited。",
         "正確：鳥在窗戶打開時飛走了。"
       ]
     }

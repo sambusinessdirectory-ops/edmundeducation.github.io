@@ -3047,18 +3047,18 @@
       "usage": "說人或動物習慣在晚上出來，也可以描述晚上的活動。",
       "prompt": "哪一句正確使用了「Come out at night」？",
       "options": [
-        "My breakfast comes out at night at seven in the morning.",
-        "I come out at night my blue pencil every day.",
+        "The stars come out at night every morning at noon.",
+        "I come out at night my camera.",
         "The sun comes out at night at lunchtime.",
-        "Some cats come out at night and sleep all day."
+        "The owls come out at night, just when our town goes quiet."
       ],
       "answer": 3,
-      "explanation": "正確：貓可能晚上出來、白天睡覺，符合片語意思。",
+      "explanation": "come out at night 表示晚上出來活動；貓頭鷹的情境自然。",
       "optionExplanations": [
-        "錯誤：at seven in the morning 是早上，不能說是 at night。",
-        "錯誤：come out at night 不能直接接 my blue pencil 當受詞。",
+        "at night 指晚上，與每早及正午的時間互相衝突。",
+        "come out at night 不及物，不能直接接 my camera。",
         "錯誤：午餐時間不是夜晚，而且太陽一般在白天出現。",
-        "正確：貓可能晚上出來、白天睡覺，符合片語意思。"
+        "come out at night 表示晚上出來活動；貓頭鷹的情境自然。"
       ]
     },
     {
@@ -3068,16 +3068,16 @@
       "usage": "先仔細看情況，等待適合的時間行動。",
       "prompt": "哪一句正確使用了「Watch and wait」？",
       "options": [
-        "The dog watches and waits by the door for its owner.",
-        "I watch and wait my lunch with a spoon.",
+        "Fans watch and wait; the singer uses another exit.",
+        "I watch and wait to arrived at the airport.",
         "She watches and waits yesterday at school.",
         "We watch and wait very fast to the bus stop."
       ],
       "answer": 0,
-      "explanation": "正確：狗在門邊觀察、等待主人回來。",
+      "explanation": "watch and wait 表示一邊留意一邊等候。",
       "optionExplanations": [
-        "正確：狗在門邊觀察、等待主人回來。",
-        "錯誤：watch and wait 不能這樣直接接 my lunch；可說 wait for my lunch。",
+        "watch and wait 表示一邊留意一邊等候。",
+        "to 後用 arrive，不能接 arrived。",
         "錯誤：yesterday 是過去時間，動詞應使用過去式 watched and waited。",
         "錯誤：watch and wait 不是「快速跑到」某處，應使用 run。"
       ]
@@ -3112,7 +3112,7 @@
       "options": [
         "I am in it for to the bus stop every day.",
         "I'm in it for the fun, not the money.",
-        "The cake is in it for the oven at six.",
+        "My cousin is in it for to became famous.",
         "She is in it for very happy today."
       ],
       "answer": 1,
@@ -3120,7 +3120,7 @@
       "optionExplanations": [
         "錯誤：be in it for 後面應接目的，例如 fun 或 money，而不是 for to the bus stop。",
         "正確：說話者參與這件事是為了樂趣，不是金錢。",
-        "錯誤：此處是在說蛋糕放在哪裡，應說 the cake is in the oven。",
+        "for 後不能接 to became；可說 in it for fame。",
         "錯誤：for 後面不能直接放 very happy 來描述她的心情。"
       ]
     },
@@ -3131,16 +3131,16 @@
       "usage": "提醒別人注意眼前的危險，通常是很緊急的警告。",
       "prompt": "哪一句正確使用了「Watch out」？",
       "options": [
-        "Watch out! Your ice cream is very delicious.",
-        "I watch out my homework every evening.",
+        "Watch out the stage to the hotel yesterday.",
+        "I watch out my report before the meeting.",
         "She watches out a song with her friends.",
         "Watch out! A bike is coming!"
       ],
       "answer": 3,
       "explanation": "正確：腳踏車正過來，提醒別人小心很自然。",
       "optionExplanations": [
-        "錯誤：冰淇淋很好吃不是危險，不適合用 watch out 警告。",
-        "錯誤：watch out 不能這樣接 homework；做作業應說 do my homework。",
+        "Watch out 是警告用語，此句後半沒有成立的結構。",
+        "watch out 不能直接接 my report 表示查看報告。",
         "錯誤：watch out 不是「唱歌」，應使用 sings。",
         "正確：腳踏車正過來，提醒別人小心很自然。"
       ]
@@ -3153,17 +3153,17 @@
       "prompt": "哪一句正確使用了「If I were you」？",
       "options": [
         "If I were you, my bag is on the chair.",
-        "If I were you, yesterday I am a small dog.",
+        "If I were you, I will asked the manager.",
         "If I were you, I'd ask the teacher for help.",
-        "If I were you, the window eats a sandwich."
+        "If I were you, I to save more money."
       ],
       "answer": 2,
       "explanation": "正確：用假設「我是你」來提出向老師求助的建議。",
       "optionExplanations": [
         "錯誤：後面只是在說書包的位置，沒有提出建議。",
-        "錯誤：時間與動詞不一致，也不是合理的建議。",
+        "此假設句的建議可用 I would ask；will asked 形式錯誤。",
         "正確：用假設「我是你」來提出向老師求助的建議。",
-        "錯誤：窗戶不會吃三明治，也沒有提供有意義的建議。"
+        "I 後缺少主要動詞；可用 I would save more money。"
       ]
     },
     {
@@ -3173,7 +3173,7 @@
       "usage": "描述把紙或東西撕開，或用比喻說某件事帶來很大破壞。",
       "prompt": "哪一句正確使用了「Rip apart」？",
       "options": [
-        "I rip apart the water before I drink it.",
+        "I rip apart to the museum by train.",
         "The little boy ripped apart the old paper.",
         "She rips apart the music with her ears.",
         "We rip apart the sky to make it blue."
@@ -3181,7 +3181,7 @@
       "answer": 1,
       "explanation": "正確：小男孩把舊紙撕開，符合 rip apart 的字面用法。",
       "optionExplanations": [
-        "錯誤：水是液體，不能像紙一樣被撕碎。",
+        "rip apart 指撕開或拆散，不能表示乘火車。",
         "正確：小男孩把舊紙撕開，符合 rip apart 的字面用法。",
         "錯誤：耳朵是用來聽音樂，不是用來撕開音樂。",
         "錯誤：天空不能像紙一樣撕開，這裡也沒有合理的比喻。"
@@ -3194,17 +3194,17 @@
       "usage": "在累、冷或困難的時候，強調用意志力幫助自己堅持。",
       "prompt": "哪一句正確使用了「Mind over matter」？",
       "options": [
-        "Mind over matter helped me finish the long walk when I was tired.",
+        "Mind over matter helped me finish the freezing swim.",
         "I bought two mind over matters at the shop.",
-        "My cat is mind over matter under the table.",
+        "My uncle mind over matter very nervous.",
         "Please mind over matter the door before you leave."
       ],
       "answer": 0,
-      "explanation": "正確：雖然累，仍用意志力走完路。",
+      "explanation": "mind over matter 指用意志克服身體的不適。",
       "optionExplanations": [
-        "正確：雖然累，仍用意志力走完路。",
+        "mind over matter 指用意志克服身體的不適。",
         "錯誤：mind over matter 是固定表達，不是可以買的兩件物品。",
-        "錯誤：這個片語不能用來表示貓的位置。",
+        "mind over matter 是名詞片語，不能直接作主要動詞。",
         "錯誤：mind over matter 不是「關門」的動詞，應說 close the door。"
       ]
     },
@@ -3216,16 +3216,16 @@
       "prompt": "哪一句正確使用了「Get far」？",
       "options": [
         "You won't get far if you never practise.",
-        "I can't get far this soup with a fork.",
-        "My shoes get far because they are red.",
+        "I can't get far to passed my driving test.",
+        "She gets far her new painting for the show.",
         "She gets far her brother every Sunday."
       ],
       "answer": 0,
       "explanation": "正確：如果從不練習，就不會取得太大進展。",
       "optionExplanations": [
         "正確：如果從不練習，就不會取得太大進展。",
-        "錯誤：get far 不能直接接 this soup 作受詞；也不表示用叉子喝湯。",
-        "錯誤：鞋子是紅色並不表示「取得進展」。",
+        "to passed 的形式不成立；此句也沒有清楚表達進展。",
+        "get far 指取得進展，不能直接接 painting 作受詞。",
         "錯誤：get far 不能直接接 her brother；這裡缺少合理結構。"
       ]
     },
@@ -3236,18 +3236,18 @@
       "usage": "形容艱難的工作、競爭或處境讓人受到很大打擊；不是指真的吃人。",
       "prompt": "哪一句正確使用了「Chew someone up」？",
       "options": [
-        "My pencil chewed me up because it was yellow.",
-        "That very hard job chewed him up, so he needed a long rest.",
-        "The soup chewed her up with a spoon.",
-        "I chewed up my shoes because they were on the floor."
+        "I chewed him up to the station by tram.",
+        "That awful job chewed him up. He needed rest.",
+        "The job chewed her up to working every night.",
+        "I chewed up to very tired after the race."
       ],
       "answer": 1,
-      "explanation": "正確：艱難的工作把他累垮，符合比喻用法。",
+      "explanation": "chew someone up 在此形容工作使人身心俱疲。",
       "optionExplanations": [
-        "錯誤：黃色鉛筆不會因為顏色把人擊垮。",
-        "正確：艱難的工作把他累垮，符合比喻用法。",
-        "錯誤：湯不能拿湯匙「咀嚼」一個人，意思混亂。",
-        "錯誤：這裡是字面咬鞋子，不是本題教的 chew someone up「擊垮某人」。"
+        "chew someone up 可指使人身心俱疲，不能表示交通方式。",
+        "chew someone up 在此形容工作使人身心俱疲。",
+        "to working 的連接錯誤；可說 because she worked every night。",
+        "chew up 需要受詞；to very tired 也不能表示結果。"
       ]
     }
   ],

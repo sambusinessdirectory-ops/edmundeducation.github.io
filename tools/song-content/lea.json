@@ -2575,7 +2575,7 @@
       "usage": "在祝賀、感謝或舉杯慶祝某人、某事時使用。",
       "prompt": "哪一句正確使用了「Here’s to」？",
       "options": [
-        "Here’s to my shoes because they are under the bed.",
+        "Here's to our team won yesterday.",
         "I here’s to the bus every morning.",
         "Here’s to our teacher! Thank you for helping us.",
         "Please here’s to the door before you leave."
@@ -2583,7 +2583,7 @@
       "answer": 2,
       "explanation": "正確，這是在向老師致敬並表達感謝。",
       "optionExplanations": [
-        "錯誤，這裡只是說鞋子的位置，不是在祝賀或致敬。",
+        "Here's to 後可接 our team；won yesterday 不能直接這樣接上。",
         "錯誤，Here’s to 不能當作「搭乘」的動詞。",
         "正確，這是在向老師致敬並表達感謝。",
         "錯誤，開門或關門要用 open 或 close，不用 Here’s to。"
@@ -2596,18 +2596,18 @@
       "usage": "用來說自己關心某人，或照顧動物、家人等。",
       "prompt": "哪一句正確使用了「Care for」？",
       "options": [
-        "I care for my homework with a blue pencil.",
+        "I care for to my younger cousin.",
         "We care for the bus to school every day.",
-        "He cares for his sandwich into his bag.",
-        "She cares for her little brother when her parents are at work."
+        "He cares for his neighbour yesterday.",
+        "She cares for her cousin while his parents travel."
       ],
       "answer": 3,
-      "explanation": "正確，表示她在父母工作時照顧弟弟。",
+      "explanation": "care for someone 在此表示照顧某人。",
       "optionExplanations": [
-        "錯誤，這裡要說做功課，應用 do my homework。",
+        "care for 直接接照顧的對象，不加 to。",
         "錯誤，搭公車要用 take the bus。",
-        "錯誤，把三明治放進袋子要用 put。",
-        "正確，表示她在父母工作時照顧弟弟。"
+        "yesterday 是過去時間，這裡須用 cared for。",
+        "care for someone 在此表示照顧某人。"
       ]
     },
     {
@@ -2617,16 +2617,16 @@
       "usage": "當你還沒決定，希望花時間想清楚時使用；歌中是 given it thought。",
       "prompt": "哪一句正確使用了「Give it some thought」？",
       "options": [
-        "I give it some thought to make my shoes clean with water.",
-        "I need to give it some thought before I say yes.",
+        "I give it some thought to the station by train.",
+        "Marry you? Please let me give it some thought.",
         "She gave it some thought into the fridge.",
         "They give it some thought at seven kilos."
       ],
       "answer": 1,
-      "explanation": "正確，表示答應之前需要先仔細考慮。",
+      "explanation": "give it some thought 表示認真考慮一下。",
       "optionExplanations": [
-        "不恰當，這句要說清洗鞋子，沒有自然表達考慮決定的意思。",
-        "正確，表示答應之前需要先仔細考慮。",
+        "give it some thought 表示認真考慮，不能表示乘火車。",
+        "give it some thought 表示認真考慮一下。",
         "錯誤，放東西進冰箱要用 put，不用 gave it some thought。",
         "錯誤，這個片語不能用來表示重量。"
       ]
@@ -2638,17 +2638,17 @@
       "usage": "可用來說人或物出現，也可用 appear + adjective 表示看起來如何。",
       "prompt": "哪一句正確使用了「Appear」？",
       "options": [
-        "My breakfast appears a bicycle to work.",
-        "A small cat appeared at our door this morning.",
-        "We appeared our homework after dinner.",
+        "My aunt appear at the party yesterday.",
+        "A famous actor appeared at our tiny town's concert.",
+        "We appeared to watching the parade.",
         "He appears his sister at the station."
       ],
       "answer": 1,
-      "explanation": "正確，表示一隻小貓早上出現在門口。",
+      "explanation": "appear 表示出現；這裡說明演員現身音樂會。",
       "optionExplanations": [
-        "錯誤，appear 不能表示騎腳踏車。",
-        "正確，表示一隻小貓早上出現在門口。",
-        "錯誤，完成作業要用 did 或 finished。",
+        "過去事件須用 appeared。",
+        "appear 表示出現；這裡說明演員現身音樂會。",
+        "to 後用原形 watch；to watching 不成立。",
         "錯誤，迎接妹妹要用 meets，不用 appears。"
       ]
     },
@@ -2661,16 +2661,16 @@
       "options": [
         "How long does it take to walk to school?",
         "How long is your favorite color?",
-        "How long apples do you want?",
-        "How long is your birthday? It is in May."
+        "How long people came to the concert?",
+        "How long is your birthday date? It's in May."
       ],
       "answer": 0,
       "explanation": "正確，這是在問走到學校需要多少時間。",
       "optionExplanations": [
         "正確，這是在問走到學校需要多少時間。",
         "錯誤，顏色不是時間或長度；可問 What is your favorite color?。",
-        "錯誤，問蘋果數量要用 How many。",
-        "錯誤，問生日日期要用 When is your birthday?。"
+        "詢問人數用 How many people；How long 詢問時間或長度。",
+        "問日期用 When；How long 問持續時間或長度。"
       ]
     },
     {
@@ -2681,17 +2681,17 @@
       "prompt": "哪一句正確使用了「Want someone to」？",
       "options": [
         "I want you to help me with this bag.",
-        "I want my dog to a red hat.",
+        "I want my cousin to a famous dancer.",
         "She wants me to happy.",
-        "They want the cake to delicious."
+        "They want the concert to exciting."
       ],
       "answer": 0,
       "explanation": "正確，want you to help 表示希望你幫忙。",
       "optionExplanations": [
         "正確，want you to help 表示希望你幫忙。",
-        "錯誤，to 後需要動詞，例如 wear a red hat。",
+        "want someone to 後需要動詞；可說 to become a famous dancer。",
         "錯誤，to 後要有 be，應說 wants me to be happy。",
-        "錯誤，應說 want the cake to be delicious。"
+        "to 後缺少 be；完整形式是 to be exciting。"
       ]
     },
     {
@@ -2702,17 +2702,17 @@
       "prompt": "哪一句正確使用了「Share with」？",
       "options": [
         "I share with my bicycle to the supermarket.",
-        "She shares her lunch with her friend.",
+        "She shares her taxi with a friend after the late show.",
         "He shares with a very tall mountain every day.",
-        "My shoes share with sleeping at night."
+        "My aunt shares with to read the map."
       ],
       "answer": 1,
-      "explanation": "正確，表示她和朋友分享午餐。",
+      "explanation": "share something with someone 表示與人共用某物。",
       "optionExplanations": [
         "錯誤，這句要說騎腳踏車去超市，應使用 ride。",
-        "正確，表示她和朋友分享午餐。",
+        "share something with someone 表示與人共用某物。",
         "錯誤，這裡缺少分享的東西，語意也不清楚。",
-        "錯誤，鞋子不會與睡覺分享東西。"
+        "share with 不能接 to read；需要說明分享的東西及對象。"
       ]
     },
     {
@@ -2722,7 +2722,7 @@
       "usage": "說某人有勇氣嘗試困難或害怕的事時使用，常見 dare to + 動詞。",
       "prompt": "哪一句正確使用了「Dare」？",
       "options": [
-        "I dare my breakfast with some milk.",
+        "I dare to asked for a higher pay.",
         "She dares to a book before bed.",
         "The bus dares at ten o’clock.",
         "He dared to ask a question in front of everyone."
@@ -2730,7 +2730,7 @@
       "answer": 3,
       "explanation": "正確，表示他鼓起勇氣在大家面前發問。",
       "optionExplanations": [
-        "錯誤，吃早餐要用 have 或 eat，不用 dare。",
+        "dare to 後用原形 ask，不能接 asked。",
         "錯誤，to 後要接動詞，例如 read a book。",
         "錯誤，說公車到達應用 arrives。",
         "正確，表示他鼓起勇氣在大家面前發問。"
@@ -2743,15 +2743,15 @@
       "usage": "用來表示自己不太在意某件事；語氣有時較不客氣，對人說話要小心。",
       "prompt": "哪一句正確使用了「Who cares?」？",
       "options": [
-        "Who cares if my socks do not match? I like them!",
+        "Who cares if my dance looks silly? It's fun!",
         "Who cares is my new English teacher?",
         "Who cares my phone in the kitchen?",
         "Who cares to the park every Sunday?"
       ],
       "answer": 0,
-      "explanation": "正確，表示襪子不成對也無所謂。",
+      "explanation": "Who cares? 在此表示不在乎別人的看法。",
       "optionExplanations": [
-        "正確，表示襪子不成對也無所謂。",
+        "Who cares? 在此表示不在乎別人的看法。",
         "錯誤，問老師是誰應說 Who is my new English teacher?。",
         "錯誤，要問誰照顧手機，不能直接這樣使用 Who cares。",
         "錯誤，問誰去公園應說 Who goes to the park?。"
@@ -2764,18 +2764,18 @@
       "usage": "表示某人正在去某個地方的路上，常說 on your way to + 地點。",
       "prompt": "哪一句正確使用了「On your way」？",
       "options": [
-        "Please on your way my homework after class.",
+        "Please on your way the meeting before nine.",
         "I on your way a glass of water.",
         "Are you on your way to school now?",
-        "My sandwich is on your way very hungry."
+        "My cousin is on your way very nervous."
       ],
       "answer": 2,
       "explanation": "正確，這是在問對方是否正在去學校的路上。",
       "optionExplanations": [
-        "錯誤，這個片語不是「做功課」的動詞。",
+        "on your way 是介詞片語，不能單獨作動詞。",
         "錯誤，片語不能表示喝水，也不能這樣接在 I 後面。",
         "正確，這是在問對方是否正在去學校的路上。",
-        "錯誤，三明治不會感到肚子餓，句子結構也不對。"
+        "on your way 不能連接 very nervous 描述緊張。"
       ]
     }
   ],

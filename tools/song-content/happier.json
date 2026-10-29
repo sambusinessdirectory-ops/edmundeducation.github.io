@@ -244,17 +244,17 @@
       "usage": "當朋友、家人或情侶不在一起，或住在不同地方時使用。",
       "prompt": "哪一句正確使用「be apart」？",
       "options": [
-        "I am apart my breakfast at seven.",
+        "I am apart the lift because I press the wrong button.",
         "My sister and I live in different cities, so we are apart.",
-        "She is apart a new blue bag.",
+        "She is apart a job interview at nine.",
         "We apart to the park every Sunday."
       ],
       "answer": 1,
       "explanation": "正確。be apart 表示兩個人分開或相隔。",
       "optionExplanations": [
-        "錯誤。apart 不能當成「吃」；應說 I eat breakfast at seven.",
+        "be apart 表示彼此分開，不能接 the lift 當作按電梯的動作。",
         "正確。be apart 表示兩個人分開或相隔。",
-        "錯誤。apart 不能表示「買了」；應說 She bought a new blue bag.",
+        "be apart 不能表示參加面試；可用 have a job interview。",
         "錯誤。apart 不是「去」的動詞；應說 We go to the park every Sunday."
       ]
     },
@@ -265,18 +265,18 @@
       "usage": "當你說笑話或做有趣的事，讓別人笑出來時使用。",
       "prompt": "哪一句正確使用「make someone laugh」？",
       "options": [
-        "My teacher made us laugh with a funny story.",
-        "I made my dog laugh a sandwich.",
-        "She made laugh her new shoes.",
-        "I make my homework laugh after school."
+        "The manager's tiny party hat made everyone laugh.",
+        "The clown made the children laugh a balloon.",
+        "She made laugh her brother with a silly dance.",
+        "I make my bank account laugh when I check it."
       ],
       "answer": 0,
-      "explanation": "正確。make someone laugh 表示讓某人笑。",
+      "explanation": "make someone laugh 表示使人發笑，這裡是小派對帽的效果。",
       "optionExplanations": [
-        "正確。make someone laugh 表示讓某人笑。",
-        "錯誤。這句把 laugh 當成做三明治；應說 I made my dog a sandwich.",
-        "錯誤。make someone laugh 中間要放「人」，不能這樣接鞋子。",
-        "錯誤。作業不會笑；應說 I do my homework after school."
+        "make someone laugh 表示使人發笑，這裡是小派對帽的效果。",
+        "make someone laugh 後不能直接加 a balloon；氣球的用途須另外說明。",
+        "受詞 her brother 要放在 made 與 laugh 之間。",
+        "銀行戶口無法發笑；此處需要一個會笑的人作受詞。"
       ]
     },
     {
@@ -286,18 +286,18 @@
       "usage": "比較兩個東西的大小、長度或價格等，表示其中一個是另一個的兩倍時使用。",
       "prompt": "哪一句正確使用「twice as ... as」？",
       "options": [
-        "This cake is twice as my brother.",
-        "I go twice as school on Monday.",
+        "This lift is twice as the other lift.",
+        "I go twice as to the cinema each month.",
         "This bag is twice as heavy as that bag.",
-        "My cat is twice as yesterday at home."
+        "My holiday is twice as last year."
       ],
       "answer": 2,
       "explanation": "正確。twice as heavy as 表示重量是另一個的兩倍。",
       "optionExplanations": [
-        "錯誤。as 後需要形容詞與比較對象，不能直接這樣接。",
-        "錯誤。這個片語不能代替 go to；應說 I go to school on Monday.",
+        "比較結構缺少形容詞及第二個 as，例如 twice as fast as。",
+        "表示每月兩次可說 twice a month，不能用 twice as。",
         "正確。twice as heavy as 表示重量是另一個的兩倍。",
-        "錯誤。沒有形容詞，句子也沒有清楚的比較意思。"
+        "比較長度可用 twice as long as last year's holiday；此句缺少必要成分。"
       ]
     },
     {
@@ -307,18 +307,18 @@
       "usage": "當別人的批評或行為讓你覺得自己被針對時使用；常用在勸人不要太在意。",
       "prompt": "哪一句正確使用「take it personally」？",
       "options": [
-        "I take it personally to the bus stop.",
-        "My phone takes it personally in my bag.",
-        "I take personally my lunch with rice.",
-        "My friend did not invite me, but I tried not to take it personally."
+        "I take it personally the train to work.",
+        "I take it personally to very upset about the comment.",
+        "I take personally my painting to the gallery.",
+        "He forgot my name; I tried not to take it personally."
       ],
       "answer": 3,
-      "explanation": "正確。表示努力不把沒收到邀請當成對自己的否定。",
+      "explanation": "take it personally 表示把事情視為針對自己；這裡盡量不介意。",
       "optionExplanations": [
-        "錯誤。這不是「帶東西去」的意思。",
-        "錯誤。這個片語通常形容人的感受，不能表示手機在包包裡。",
-        "錯誤。take it personally 不是「帶午餐」的意思。",
-        "正確。表示努力不把沒收到邀請當成對自己的否定。"
+        "take it personally 指把事情視為針對自己，不能表示乘火車。",
+        "to very upset 不能接在此；感到不快可另用 I feel upset。",
+        "親自把畫帶去可說 personally take my painting；這不是 take it personally 的用法。",
+        "take it personally 表示把事情視為針對自己；這裡盡量不介意。"
       ]
     },
     {
@@ -329,16 +329,16 @@
       "prompt": "哪一句正確使用「move on」？",
       "options": [
         "After the bad day, I went home and tried to move on.",
-        "I move on my shoes before I go out.",
-        "She moved on a pizza for dinner.",
+        "I move on my watch to check the time.",
+        "She moved on a ticket at the station.",
         "We move on the window when it is hot."
       ],
       "answer": 0,
       "explanation": "正確。move on 表示不再一直想著壞事，繼續生活。",
       "optionExplanations": [
         "正確。move on 表示不再一直想著壞事，繼續生活。",
-        "錯誤。穿鞋應說 put on my shoes。",
-        "錯誤。move on 不是「點餐」；應說 She ordered a pizza.",
+        "move on 不能表示看手錶；可用 look at my watch。",
+        "買票可用 bought a ticket；move on 不能直接接 ticket 表示購買。",
         "錯誤。開窗應說 open the window。"
       ]
     },
@@ -349,17 +349,17 @@
       "usage": "當一個人不告訴別人真正發生的事情，或不讓別人知道真實感受時使用。",
       "prompt": "哪一句正確使用「hide the truth」？",
       "options": [
-        "I hide the truth in the oven at 180 degrees.",
-        "He said he was fine to hide the truth that he was sad.",
-        "She hides the truth with a spoon and eats it.",
+        "I hide the truth to the meeting by taxi.",
+        "He smiled to hide the truth: he'd forgotten our anniversary.",
+        "She hides the truth very tall beside her cousin.",
         "We hide the truth to the beach by train."
       ],
       "answer": 1,
-      "explanation": "正確。他說自己沒事，來隱藏難過的真實感受。",
+      "explanation": "hide the truth 指隱瞞真相；他笑著掩飾忘記紀念日。",
       "optionExplanations": [
-        "錯誤。這裡談的是烤東西，不是隱瞞真相。",
-        "正確。他說自己沒事，來隱藏難過的真實感受。",
-        "錯誤。truth 不是能用湯匙吃的食物。",
+        "hide the truth 指隱瞞真相，不能表示乘的士前往會議。",
+        "hide the truth 指隱瞞真相；他笑著掩飾忘記紀念日。",
+        "hide the truth 不能描述身高；very tall 不能這樣接在後面。",
         "錯誤。去海邊應說 go to the beach。"
       ]
     },
@@ -371,17 +371,17 @@
       "prompt": "哪一句正確使用「remind someone of」？",
       "options": [
         "This song reminds me of my old school.",
-        "She reminds the door of my key.",
-        "I remind of my book on the table.",
-        "My breakfast reminds me to a chair."
+        "She reminds to me of our old neighbour.",
+        "I remind of my cousin when I hear this song.",
+        "This perfume reminds me to my first date."
       ],
       "answer": 0,
       "explanation": "正確。這首歌讓我想起以前的學校。",
       "optionExplanations": [
         "正確。這首歌讓我想起以前的學校。",
-        "錯誤。門不能在此當作被喚起回憶的人。",
-        "錯誤。remind someone of 需要指出「讓誰想起什麼」。",
-        "錯誤。表示「想起某物」應用 remind someone of，不是 to a chair。"
+        "remind someone of 直接接人，不加 to。",
+        "使人想起某人可說 This song reminds me of my cousin；此句缺少受詞且主詞安排不合。",
+        "使人想起某人或某事用 remind someone of，這裡要用 of。"
       ]
     },
     {
@@ -391,18 +391,18 @@
       "usage": "當某人因為努力或表現，應該得到好的東西或好的對待時使用。",
       "prompt": "哪一句正確使用「deserve」？",
       "options": [
-        "I deserve to my shoes every morning.",
-        "He deserves a table with four legs to sleep.",
-        "She deserves to the supermarket now.",
-        "You worked hard today. You deserve a good rest."
+        "I deserve to a quiet holiday after this busy month.",
+        "He deserves win the prize after so much practice.",
+        "She deserves to won the art prize.",
+        "You survived three interviews. You deserve a rest."
       ],
       "answer": 3,
-      "explanation": "正確。努力工作之後，值得好好休息。",
+      "explanation": "deserve 表示值得得到；應付多場面試後值得休息。",
       "optionExplanations": [
-        "錯誤。deserve 不能代替「穿」；應說 I put on my shoes.",
-        "錯誤。這句把桌子當床，語意不合理。",
-        "錯誤。deserve 後若接動作，要用 to 加原形動詞，如 deserves to rest。",
-        "正確。努力工作之後，值得好好休息。"
+        "deserve to 後接動詞；接 a quiet holiday 時不用 to。",
+        "deserve 後接動作要用 to win。",
+        "deserve to 後用 win，不能用 won。",
+        "deserve 表示值得得到；應付多場面試後值得休息。"
       ]
     },
     {
@@ -412,18 +412,18 @@
       "usage": "當你開始對一個人有戀愛的感覺時使用。",
       "prompt": "哪一句正確使用「fall for someone」？",
       "options": [
-        "I fell for the floor when I dropped my pen.",
+        "I fell for the stairs and hurt my knee.",
         "I think I am falling for my best friend.",
-        "She falls for a bus at eight every day.",
-        "My cat fell for a blue sandwich and became a chair."
+        "She falls for to work at eight.",
+        "I fell for my alarm to make it ring."
       ],
       "answer": 1,
       "explanation": "正確。fall for someone 可以表示慢慢愛上一個人。",
       "optionExplanations": [
-        "錯誤。跌倒應說 fall on the floor 或 fall to the floor。",
+        "跌落樓梯可說 fell down the stairs；fall for someone 指愛上某人。",
         "正確。fall for someone 可以表示慢慢愛上一個人。",
-        "錯誤。搭公車應說 take a bus。",
-        "錯誤。這句的動作和意思都不合理。"
+        "fall for 不能表示上班；to work 在此也接不上。",
+        "fall for 不能表示設定鬧鐘；可用 set my alarm。"
       ]
     },
     {
@@ -433,18 +433,18 @@
       "usage": "當某人的行為，尤其是感情上的事，讓另一個人非常難過時使用。",
       "prompt": "哪一句正確使用「break someone’s heart」？",
       "options": [
-        "He broke my heart with a spoon to eat soup.",
-        "I break my heart to open the bedroom door.",
+        "He broke my heart into a new password.",
+        "I break my heart to the station by taxi.",
         "It broke her heart when her boyfriend said goodbye.",
-        "She broke the heart of her pencil to write faster."
+        "She broke my heart very two years old."
       ],
       "answer": 2,
       "explanation": "正確。男友說再見讓她非常傷心。",
       "optionExplanations": [
-        "錯誤。這個片語不是用湯匙打破真的心臟。",
-        "錯誤。開門應使用 open the door，不是 break my heart。",
+        "break someone's heart 指使人心碎，不能表示建立密碼。",
+        "break my heart 不能表示交通方式或前往車站。",
         "正確。男友說再見讓她非常傷心。",
-        "錯誤。鉛筆沒有這種可以受傷的「心」。"
+        "心碎的說法後不能接 very two years old；年齡需要獨立句子。"
       ]
     }
   ],

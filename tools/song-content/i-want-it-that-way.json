@@ -399,16 +399,16 @@
       "prompt": "哪一句正確使用了「Desire」？",
       "meaning": "渴望；很想要的東西",
       "options": [
-        "I desire my homework on the table yesterday.",
-        "My biggest desire is to travel around the world.",
-        "She put a desire in her soup for lunch.",
+        "I desire to visited Paris last year.",
+        "My biggest desire is a holiday without work calls.",
+        "She put a desire in the lift and pressed seven.",
         "The desire is sleeping on my sofa."
       ],
-      "explanation": "正確：desire 在這裡是「很想實現的願望」。",
+      "explanation": "desire 是強烈願望；這裡希望假期不受工作電話打擾。",
       "optionExplanations": [
-        "錯誤：desire 不是「放置」，不能這樣描述放作業。",
-        "正確：desire 在這裡是「很想實現的願望」。",
-        "錯誤：desire 不是食物材料，不能放進湯裡。",
+        "desire to 後用原形 visit；此句也須配合過去時間。",
+        "desire 是強烈願望；這裡希望假期不受工作電話打擾。",
+        "desire 是願望，不能當作放進電梯的實物。",
         "錯誤：desire 是願望，不是會睡覺的人或動物。"
       ]
     },
@@ -420,17 +420,17 @@
       "prompt": "哪一句正確使用了「Two worlds apart」？",
       "meaning": "差距很大；想法或生活非常不同",
       "options": [
-        "I love big cities, but she loves quiet towns. We are two worlds apart.",
-        "Our shoes are two worlds apart because they are under the bed.",
+        "I love crowds; she loves silence. We're two worlds apart.",
+        "We are two worlds apart to the cinema by bus.",
         "I put two worlds apart in my school bag.",
-        "Please cook two worlds apart for dinner."
+        "Please two worlds apart the meeting before five."
       ],
-      "explanation": "正確：兩個人的喜好非常不同，適合用這個片語。",
+      "explanation": "two worlds apart 形容喜好或想法差異很大。",
       "optionExplanations": [
-        "正確：兩個人的喜好非常不同，適合用這個片語。",
-        "錯誤：鞋子放在床下，不代表兩者想法或生活差很多。",
+        "two worlds apart 形容喜好或想法差異很大。",
+        "two worlds apart 描述差異很大，不能表示交通方式。",
         "錯誤：這是形容差距的片語，不是可以放進書包的東西。",
-        "錯誤：這個片語不是一道菜，不能當作食物來煮。"
+        "two worlds apart 不是動詞，不能這樣作請求。"
       ]
     },
     {
@@ -441,16 +441,16 @@
       "prompt": "哪一句正確使用了「Reach」？",
       "meaning": "到達；伸手碰到",
       "options": [
-        "I reached my breakfast with some milk.",
+        "I reached to the hotel at midnight.",
         "The tall boy can reach the top shelf.",
-        "My dog reached a song in the kitchen.",
+        "My brother reached very excited about the concert.",
         "She reaches happy every Friday."
       ],
       "explanation": "正確：reach 表示伸手可以碰到高處的架子。",
       "optionExplanations": [
-        "錯誤：reach 不是「準備」或「吃」早餐的意思。",
+        "reach 表示到達時直接接地點，不加 to。",
         "正確：reach 表示伸手可以碰到高處的架子。",
-        "錯誤：reach 不表示唱歌，也不能這樣接 a song。",
+        "reach 不能直接接 very excited 表示情緒。",
         "錯誤：reach 不能直接接 happy 來表示變開心。"
       ]
     },
@@ -463,14 +463,14 @@
       "meaning": "心痛；難過（常因感情而起）",
       "options": [
         "After they said goodbye, he felt a lot of heartache.",
-        "I washed my heartache with hot water.",
+        "I heartache my holiday photos every night.",
         "The heartache drove our bus to school.",
         "Please buy three heartaches at the shop."
       ],
       "explanation": "正確：道別後的難過可以用 heartache 表達。",
       "optionExplanations": [
         "正確：道別後的難過可以用 heartache 表達。",
-        "錯誤：heartache 不是可以用水洗的物品。",
+        "heartache 是名詞，不能當作查看照片的動詞。",
         "錯誤：heartache 是心痛的感覺，不會開車。",
         "錯誤：heartache 是感受，不是商店裡可以買的商品。"
       ]
@@ -484,14 +484,14 @@
       "meaning": "錯誤",
       "options": [
         "He wore a mistake because it was cold.",
-        "She drank a mistake after lunch.",
+        "She mistake her savings into the bank.",
         "We took the mistake to the zoo to see lions.",
         "I made a mistake and wrote the wrong date."
       ],
       "explanation": "正確：make a mistake 是「犯錯」的自然說法。",
       "optionExplanations": [
         "錯誤：mistake 不是衣服，不能穿在身上。",
-        "錯誤：mistake 不是飲料，不能用 drink。",
+        "mistake 不能在此表示存款；可用 put her savings into the bank。",
         "錯誤：mistake 不是人或動物，不能帶去動物園。",
         "正確：make a mistake 是「犯錯」的自然說法。"
       ]
@@ -505,16 +505,16 @@
       "meaning": "太晚；已經來不及",
       "options": [
         "I put too late next to the window.",
-        "She ate too late with rice and eggs.",
-        "It is too late to catch the bus. It has already left.",
-        "My new shoes are too late and blue."
+        "She too late the last train yesterday.",
+        "Too late! The film ended while Dad found his glasses.",
+        "My cousin arrived too late tomorrow."
       ],
-      "explanation": "正確：公車已離開，所以現在趕不上了。",
+      "explanation": "too late 表示已經錯過時機。",
       "optionExplanations": [
         "錯誤：too late 表示時間，不是可以放在窗邊的東西。",
-        "錯誤：too late 不是食物；這句也沒有清楚表達吃飯時間太晚。",
-        "正確：公車已離開，所以現在趕不上了。",
-        "錯誤：too late 不能形容鞋子的顏色或外觀。"
+        "too late 不能單獨作動詞；錯過列車可說 missed the last train。",
+        "too late 表示已經錯過時機。",
+        "arrived 是過去式，與 tomorrow 不配合。"
       ]
     },
     {
@@ -525,15 +525,15 @@
       "prompt": "哪一句正確使用了「Fall apart」？",
       "meaning": "散開、壞掉；（關係）破裂",
       "options": [
-        "I fell apart my homework at seven.",
-        "She fell apart a sandwich for breakfast.",
+        "I fell apart my report before the meeting.",
+        "She fell apart to the gallery by taxi.",
         "We fall apart to school by bus.",
         "My old bag is falling apart. I need a new one."
       ],
       "explanation": "正確：舊包包快壞掉了，可以用 falling apart。",
       "optionExplanations": [
-        "錯誤：fall apart 不能直接接 homework 當受詞。",
-        "錯誤：fall apart 不是「做三明治」的意思。",
+        "fall apart 不及物，不能直接接 my report 表示拆開報告。",
+        "fall apart 不能表示乘的士前往畫廊。",
         "錯誤：fall apart 不表示搭車或去某地。",
         "正確：舊包包快壞掉了，可以用 falling apart。"
       ]
@@ -568,16 +568,16 @@
       "meaning": "無論；不管",
       "options": [
         "No matter how busy I am, I call my mom every day.",
-        "I no matter my shoes before school.",
+        "I no matter my first date at seven.",
         "She bought a no matter at the market.",
-        "The cat is no matter under the chair."
+        "The singer is no matter very famous."
       ],
       "explanation": "正確：無論多忙，都會打電話給媽媽。",
       "optionExplanations": [
         "正確：無論多忙，都會打電話給媽媽。",
-        "錯誤：no matter 不是一般動詞，不能當「穿鞋」使用。",
+        "no matter 不能單獨作動詞；後面通常接 how、what 等引導的內容。",
         "錯誤：no matter 不是可以購買的物品。",
-        "錯誤：no matter 不能用來表示貓的位置。"
+        "no matter 不能直接插在 is 與 very famous 之間。"
       ]
     },
     {
@@ -588,17 +588,17 @@
       "prompt": "哪一句正確使用了「Deep down」？",
       "meaning": "在內心深處；其實心裡知道",
       "options": [
-        "I put deep down in my water bottle.",
-        "My shoes are deep down and very hungry.",
+        "I deep down my money at the bank.",
+        "My cousin is deep down years old today.",
         "Deep down, I know my friend is right.",
-        "She deep down her homework after dinner."
+        "She deep down her painting for the art show."
       ],
       "explanation": "正確：表示雖然可能不想承認，但心裡知道朋友是對的。",
       "optionExplanations": [
-        "錯誤：deep down 不是可以放進水瓶的物品。",
-        "錯誤：deep down 在這裡不能表示鞋子餓了。",
+        "deep down 指內心深處，不能當作存錢的動詞。",
+        "deep down 不能表示年齡數字。",
         "正確：表示雖然可能不想承認，但心裡知道朋友是對的。",
-        "錯誤：deep down 不是動詞，不能表示做作業。"
+        "deep down 是副詞片語，不能代替準備畫作的動詞。"
       ]
     }
   ],

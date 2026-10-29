@@ -517,18 +517,18 @@
       "usage": "可以形容一個人的臉色，也可以形容很淡的顏色。",
       "prompt": "哪一句正確使用了這個單字／片語？",
       "options": [
-        "I pale my homework before dinner.",
+        "I pale my portrait before the art show.",
         "After he was sick, his face looked pale.",
         "The bus arrived pale at six.",
-        "She put two pales in her tea."
+        "She looked pale to heard the bad news."
       ],
       "answer": 1,
       "explanation": "正確。pale 可以形容生病後臉色蒼白。",
       "optionExplanations": [
-        "錯誤。pale 不是「做功課」的動詞，應說 do my homework。",
+        "pale 是形容詞或表示變蒼白的動詞，不能在此表示畫肖像。",
         "正確。pale 可以形容生病後臉色蒼白。",
         "錯誤。pale 不能表示準時，應說 at six 或 on time。",
-        "錯誤。pale 不是可數的糖或茶材料。"
+        "to heard 形式錯誤；可用 after hearing the bad news。"
       ]
     },
     {
@@ -539,16 +539,16 @@
       "prompt": "哪一句正確使用了這個單字／片語？",
       "options": [
         "She struggles to understand this long book.",
-        "I struggle to my new shoes on the floor.",
-        "We struggle to a red apple every morning.",
+        "I struggle to my first interview.",
+        "We struggle to understood the map.",
         "My brother struggles to very happy today."
       ],
       "answer": 0,
       "explanation": "正確。struggle to understand 表示很努力卻不容易看懂。",
       "optionExplanations": [
         "正確。struggle to understand 表示很努力卻不容易看懂。",
-        "錯誤。struggle to 後面要接原形動詞，不是直接接名詞。",
-        "錯誤。to 後面缺少動詞，不能直接接 a red apple。",
+        "struggle to 後需要動詞，例如 answer；不能直接接 interview。",
+        "to 後用 understand，不能接 understood。",
         "錯誤。to 後面要有動詞，例如 to feel happy。"
       ]
     },
@@ -559,18 +559,18 @@
       "usage": "住在租來的房子或房間時，通常需要定期 pay rent。",
       "prompt": "哪一句正確使用了這個單字／片語？",
       "options": [
-        "She pays rent to her sandwich every day.",
-        "I pay rent when I brush my teeth.",
+        "She pays rent to lived in the flat.",
+        "I pay rent yesterday for the small studio.",
         "We pay rent for our small apartment every month.",
-        "He paid rent to turn on the moon."
+        "He paid rent to very expensive."
       ],
       "answer": 2,
       "explanation": "正確。pay rent 指支付租住房子的費用。",
       "optionExplanations": [
-        "錯誤。三明治不是收房租的對象。",
-        "錯誤。刷牙和付房租沒有這種關係。",
+        "to 後用 live，不能接 lived。",
+        "過去事件須用 paid rent。",
         "正確。pay rent 指支付租住房子的費用。",
-        "錯誤。pay rent 不是讓月亮開燈的意思。"
+        "to very expensive 不能作完整子句或受詞。"
       ]
     },
     {
@@ -580,16 +580,16 @@
       "usage": "無法離開某個地方，或難以擺脫某種情況時使用。",
       "prompt": "哪一句正確使用了這個單字／片語？",
       "options": [
-        "The cat is stuck in the box and cannot get out.",
-        "I am stuck in delicious pizza for lunch.",
+        "We're stuck in the lift. Dad has started singing.",
+        "I am stuck in to the lift.",
         "She is stuck in to go shopping today.",
         "We stuck in the song very loudly."
       ],
       "answer": 0,
-      "explanation": "正確。貓無法從盒子出來，所以可以用 stuck in。",
+      "explanation": "be stuck in 表示困在某處。",
       "optionExplanations": [
-        "正確。貓無法從盒子出來，所以可以用 stuck in。",
-        "錯誤。這裡不是被困在某個地方或情況中。",
+        "be stuck in 表示困在某處。",
+        "be stuck in 後直接接 the lift，不加 to。",
         "錯誤。stuck in 後不能直接接 to go 這種結構。",
         "錯誤。stuck in 不能用來表示唱歌很大聲。"
       ]
@@ -622,18 +622,18 @@
       "usage": "日常聊天想說數量不多，常用 a couple of + 複數名詞。",
       "prompt": "哪一句正確使用了這個單字／片語？",
       "options": [
-        "I ate a couple of rice for breakfast.",
+        "I booked a couple of room for the trip.",
         "She runs a couple of quickly every day.",
         "My teacher is a couple of happy.",
-        "I bought a couple of apples for our trip."
+        "I bought a couple of tickets. Grandma invited five friends."
       ],
       "answer": 3,
-      "explanation": "正確。a couple of apples 指兩個或幾個蘋果。",
+      "explanation": "a couple of 指兩個或少數幾個；票數與邀請人數形成反差。",
       "optionExplanations": [
-        "錯誤。rice 通常不可數，不能直接說 a couple of rice。",
+        "a couple of 後接複數 rooms。",
         "錯誤。quickly 是副詞，不能直接接在 a couple of 後面。",
         "錯誤。a couple of 後面通常接複數名詞，不能接 happy。",
-        "正確。a couple of apples 指兩個或幾個蘋果。"
+        "a couple of 指兩個或少數幾個；票數與邀請人數形成反差。"
       ]
     },
     {
@@ -644,7 +644,7 @@
       "prompt": "哪一句正確使用了這個單字／片語？",
       "options": [
         "The weather goes outside with a red hat.",
-        "I go outside my breakfast with milk.",
+        "I go outside to watched the parade.",
         "She goes outside the English very well.",
         "It is sunny, so let’s go outside and play."
       ],
@@ -652,7 +652,7 @@
       "explanation": "正確。天氣好時出去玩，正是 go outside 的用法。",
       "optionExplanations": [
         "錯誤。天氣不能像人一樣戴帽子走出去。",
-        "錯誤。go outside 不能用來表示吃早餐。",
+        "to 後用 watch，不能接 watched。",
         "錯誤。go outside 不能表示英文說得很好。",
         "正確。天氣好時出去玩，正是 go outside 的用法。"
       ]
@@ -666,16 +666,16 @@
       "options": [
         "He moved his arms to stay afloat in the water.",
         "I stayed afloat the door with my key.",
-        "My sandwich stayed afloat because it was funny.",
-        "She stays afloat to make her shoes blue."
+        "The boat stay afloat yesterday during the storm.",
+        "She stayed afloat to swam towards the boat."
       ],
       "answer": 0,
       "explanation": "正確。用手臂活動，讓身體保持在水面上。",
       "optionExplanations": [
         "正確。用手臂活動，讓身體保持在水面上。",
         "錯誤。開門不用 stay afloat，應說 opened the door。",
-        "錯誤。句子沒有合理的水上漂浮情境。",
-        "錯誤。stay afloat 不表示把鞋子染成藍色。"
+        "過去事件須用 stayed afloat。",
+        "to 後用 swim，不能用 swam。"
       ]
     },
     {
@@ -685,18 +685,18 @@
       "usage": "指口袋、包包裡的硬幣等小額零錢。",
       "prompt": "哪一句正確使用了這個單字／片語？",
       "options": [
-        "I loose change my homework at school.",
-        "He bought a loose change for his birthday.",
+        "I loose change my savings account.",
+        "He found a loose change in his coat.",
         "I found some loose change in my old bag.",
-        "My dog loose changes very quickly."
+        "My cousin loose changes the bus fare."
       ],
       "answer": 2,
       "explanation": "正確。包包裡找到一些硬幣，就是 loose change。",
       "optionExplanations": [
-        "錯誤。loose change 是名詞片語，不是做功課的動詞。",
-        "錯誤。loose change 是零錢，不是一般可數的單件禮物。",
+        "loose change 是名詞，不能當作存款的動詞。",
+        "loose change 是不可數名詞，不能加 a。",
         "正確。包包裡找到一些硬幣，就是 loose change。",
-        "錯誤。不能把 loose change 當成狗的動作。"
+        "loose change 不是付款的動詞，不能加 s 作此用法。"
       ]
     },
     {
@@ -708,7 +708,7 @@
       "options": [
         "I hope for to see my friend tomorrow.",
         "They hope for good weather on Saturday.",
-        "She hopes for eats a cake tonight.",
+        "She hopes for to pass the driving test.",
         "We hope for very quickly to school."
       ],
       "answer": 1,
@@ -716,7 +716,7 @@
       "optionExplanations": [
         "錯誤。hope for 後面不直接接 to see；應說 hope to see。",
         "正確。hope for good weather 表示希望星期六有好天氣。",
-        "錯誤。hope for 後不能直接接 eats，應說 hopes to eat。",
+        "可說 hopes to pass；hope for 後不能接 to pass。",
         "錯誤。hope for 後需要適當名詞，而不是這種副詞片語。"
       ]
     }
