@@ -13,6 +13,8 @@ create function _song_appreciation_student_can_access(uuid,uuid) returns boolean
 await db.exec(fs.readFileSync('supabase/migrations/20261030080000_song_learning_sections_pilot.sql','utf8'));
 const id=n=>`00000000-0000-4000-8000-${String(n).padStart(12,'0')}`;
 const data=JSON.parse(fs.readFileSync('tools/song-content/too-good-at-goodbyes.json'));
+// Use fixture versions so the isolation test is independent of content releases.
+for (const name of ['advanced','structure']) data.learning_sections[name].version=1;
 await db.query('insert into flashcard_students values($1),($2)',[id(1),id(2)]);
 await db.query('insert into song_appreciation_songs(id,title,published,learning_sections) values($1,$2,true,$3),($4,$5,false,$3)',[id(3),'Pilot',JSON.stringify(data.learning_sections),id(4),'Draft']);
 const read=async(token,admin=false)=>(await db.query('select song_appreciation_learning_sections($1,$2) as data',[token,admin])).rows[0].data;

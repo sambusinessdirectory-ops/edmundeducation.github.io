@@ -3347,311 +3347,273 @@
   },
   "learning_sections": {
     "advanced": {
-      "version": 1,
+      "version": 2,
       "title": "進階字彙",
-      "note": "詞彙程度為教學參考；例句保留簡單句型，集中練習詞義與搭配。",
+      "note": "依本次提供的核對版材料編排；程度標籤為教學參考。",
       "questions": [
         {
           "number": 1,
-          "word": "Let someone down — B1",
-          "meaning": "讓某人失望；辜負某人的期待。",
-          "usage": "當別人信任你、期待你做到某件事，而你沒有做到時使用。",
-          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "word": "seen this all before (B2)",
+          "meaning": "以前就見識過這種情況",
+          "usage": "當問題、藉口或手法再次出現，表示自己並不陌生。",
+          "prompt": "哪一句最自然、最正確地使用「seen this all before」（依上述意思）？",
           "options": [
-            "I forgot my promise to Mia, and I really let her down.",
-            "The new lift let me down to the lobby after lunch.",
-            "I let my sandwich down because it looked rather sad.",
-            "The rain let the mountain down on a cold morning."
+            "I have seen this all before; today is my first day alive.",
+            "I have seen this all before; the moon has turned into cheese.",
+            "I have seen this all before; no one has ever tried this sport.",
+            "I have seen this all before; that same trick failed last year."
           ],
-          "answer": 0,
+          "answer": 3,
           "optionExplanations": [
-            "正確。忘記對 Mia 的承諾，讓她失望了。",
-            "錯誤。電梯載人下樓應說 took me down；此處不是「讓人失望」。",
-            "錯誤。三明治不是對你有期待的人；若是把它放下，可說 put my sandwich down。",
-            "錯誤。雨不會以這個意思「辜負」一座山。"
+            "錯誤。「第一次活著」與已見識過不合，情境荒誕。",
+            "錯誤。月亮變乳酪與熟悉的經驗無關。",
+            "錯誤。若從未有人嘗試，便不是早已見識的情況。",
+            "正確。同樣的把戲以前就發生過，符合「早已見識」。"
           ],
-          "explanation": "正確。忘記對 Mia 的承諾，讓她失望了。"
+          "sourceFile": "Too_Good_at_Goodbyes_B1-C2_VERIFIED.md",
+          "sourceItem": 1,
+          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：seen this all before）。",
+          "cue": "seen this all before",
+          "explanation": "正確。同樣的把戲以前就發生過，符合「早已見識」。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
         },
         {
           "number": 2,
-          "word": "Get close to someone — B1",
-          "meaning": "與某人變親近；建立親密關係。",
-          "usage": "談友情或感情逐漸加深，而不只是身體距離變近時使用。",
-          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "word": "open up (B2)",
+          "meaning": "敞開心扉；坦誠分享感受",
+          "usage": "談信任、心事或願意說出不容易公開的感受。",
+          "prompt": "哪一句最自然、最正確地使用「open up」（依上述意思）？",
           "options": [
-            "I got close to my soup by adding a little salt.",
-            "She got close to Tuesday when the clock turned blue.",
-            "We got close on the trip and became good friends.",
-            "The bus got close to my homework and finished it."
+            "After months of silence, Nina opened up to her friend.",
+            "The fridge opened up about its dreams during lunch.",
+            "The railway opened up about the shape of its tickets.",
+            "My sandwich opened up about its dislike of mustard."
           ],
-          "answer": 2,
+          "answer": 0,
           "optionExplanations": [
-            "錯誤。加鹽是調味，不是建立人際關係。",
-            "錯誤。星期二不是可以建立親密關係的人。",
-            "正確。旅行讓兩個人更熟悉，建立了友誼。",
-            "錯誤。公車不會與作業建立友誼，更不會幫忙寫完。"
+            "正確。原本沉默的人向朋友吐露感受，最自然。",
+            "錯誤。冰箱沒有個人心事，屬幽默的語義錯置。",
+            "錯誤。票形狀的資訊不等於吐露內心。",
+            "錯誤。三明治不會分享私密感受。"
           ],
-          "explanation": "正確。旅行讓兩個人更熟悉，建立了友誼。"
+          "sourceFile": "Too_Good_at_Goodbyes_B1-C2_VERIFIED.md",
+          "sourceItem": 2,
+          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：open up）。",
+          "cue": "open up",
+          "explanation": "正確。原本沉默的人向朋友吐露感受，最自然。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
         },
         {
           "number": 3,
-          "word": "Vulnerable — B2",
-          "meaning": "脆弱的；容易受到傷害的（身體上或情感上）。",
-          "usage": "當一個人坦露心事、缺少保護，或容易被傷害時使用。",
-          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "word": "leave me in the dirt (B2–C1)",
+          "meaning": "拋下我不管；讓我陷入狼狽處境",
+          "usage": "在關係或合作中被背棄、被甩下，尤其遇到困難時。",
+          "prompt": "哪一句最自然、最正確地使用「leave me in the dirt」（依上述意思）？",
           "options": [
-            "My pizza is vulnerable because it has too much cheese.",
-            "I vulnerable my bike to school on rainy mornings.",
-            "She felt vulnerable after sharing a very personal secret.",
-            "We bought three vulnerables at the shop near school."
+            "He left me in the dirt after taking our money.",
+            "They left me in the dirt by helping me finish the report.",
+            "The guide left me in the dirt by sharing a clean towel.",
+            "Our team left me in the dirt by giving me extra support."
           ],
-          "answer": 2,
+          "answer": 0,
           "optionExplanations": [
-            "錯誤。起司多不代表披薩容易受到傷害。",
-            "錯誤。vulnerable 是形容詞，不能代替 ride。",
-            "正確。說出秘密後擔心被批評，正是情感上感到脆弱的情境。",
-            "錯誤。vulnerable 不是可數商品。"
+            "正確。拿錢逃跑並留下對方承擔後果，符合比喻。",
+            "錯誤。幫忙完成工作不是拋棄。",
+            "錯誤。給毛巾是協助，不是背棄。",
+            "錯誤。增加支持與「拋下」相反。"
           ],
-          "explanation": "正確。說出秘密後擔心被批評，正是情感上感到脆弱的情境。"
+          "sourceFile": "Too_Good_at_Goodbyes_B1-C2_VERIFIED.md",
+          "sourceItem": 3,
+          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：leave me in the dirt）。",
+          "cue": "leave me in the dirt",
+          "explanation": "正確。拿錢逃跑並留下對方承擔後果，符合比喻。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
         },
         {
           "number": 4,
-          "word": "Guard your heart — B2（比喻表達）",
-          "meaning": "保護自己的感情；避免輕易受到情感傷害。",
-          "usage": "曾經受傷後，對新關係保持謹慎時使用。",
-          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "word": "heartless (B2)",
+          "meaning": "無情的；缺乏同理心的",
+          "usage": "指對他人困境漠不關心，不只是安靜或嚴肅。",
+          "prompt": "哪一句最自然、最正確地使用「heartless」（依上述意思）？",
           "options": [
-            "I guard my heart by keeping it inside the fridge.",
-            "After the breakup, he guarded his heart around new people.",
-            "The guard guarded my heart near the museum entrance.",
-            "My heart guards the bus stop every Friday morning."
+            "Offering the child help was a heartless thing to do.",
+            "Ignoring the lost child was a heartless thing to do.",
+            "Sharing food with the child was a heartless thing to do.",
+            "Finding the child’s parents was a heartless thing to do."
           ],
           "answer": 1,
           "optionExplanations": [
-            "錯誤。這裡的 heart 是感情的比喻，不是可以放進冰箱的物品。",
-            "正確。分手受傷後慢慢建立新關係，是在保護自己的感情。",
-            "錯誤。博物館警衛的工作不是替人保管感情。",
-            "錯誤。心臟不會去公車站站崗。"
+            "錯誤。主動幫忙是體貼的行為。",
+            "正確。漠視迷路的小孩，確實缺乏同情心。",
+            "錯誤。分享食物不是無情。",
+            "錯誤。幫忙找父母顯示關懷。"
           ],
-          "explanation": "正確。分手受傷後慢慢建立新關係，是在保護自己的感情。"
+          "sourceFile": "Too_Good_at_Goodbyes_B1-C2_VERIFIED.md",
+          "sourceItem": 4,
+          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：heartless）。",
+          "cue": "heartless",
+          "explanation": "正確。漠視迷路的小孩，確實缺乏同情心。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
         },
         {
           "number": 5,
-          "word": "Take advantage of someone — B2",
-          "meaning": "利用某人；占某人的便宜。",
-          "usage": "當某人利用別人的善良、信任或弱點獲取好處時使用。",
-          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "word": "innocence (B2)",
+          "meaning": "純真；無辜；清白",
+          "usage": "談兒童的純真或某人並未做錯事時使用；兩種義項須看語境。",
+          "prompt": "哪一句最自然、最正確地使用「innocence」（依上述意思）？",
           "options": [
-            "He took advantage of her kindness and borrowed money again.",
-            "I took advantage of my shoes by tying them tightly.",
-            "She took advantage of the clock to make it hungry.",
-            "We took advantage of our teacher into the library."
+            "The pilot poured innocence into the plane before take-off.",
+            "Her innocence was clear when the video proved she was elsewhere.",
+            "The cook measured innocence with a spoon at breakfast.",
+            "The gardener planted innocence next to the tomatoes in spring."
           ],
-          "answer": 0,
+          "answer": 1,
           "optionExplanations": [
-            "正確。他利用她的善良，不斷要求她付錢。",
-            "錯誤。綁鞋帶不是利用別人的善意。",
-            "錯誤。時鐘不會餓；語意不合。",
-            "錯誤。這個片語不是「帶老師去圖書館」。"
+            "錯誤。純真或清白不能像燃料一樣倒入飛機。",
+            "正確。影片證實她不在現場，支持「清白」的意思。",
+            "錯誤。innocence 是抽象概念，不能用湯匙量。",
+            "錯誤。它不是能種在土裡的植物。"
           ],
-          "explanation": "正確。他利用她的善良，不斷要求她付錢。"
+          "sourceFile": "Too_Good_at_Goodbyes_B1-C2_VERIFIED.md",
+          "sourceItem": 5,
+          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：innocence）。",
+          "cue": "innocence",
+          "explanation": "正確。影片證實她不在現場，支持「清白」的意思。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
         },
         {
           "number": 6,
-          "word": "Wear someone down — C1",
-          "meaning": "逐漸使某人筋疲力盡；慢慢消磨某人的耐心或抵抗力。",
-          "usage": "壓力、批評或反覆要求持續很久，讓人越來越累或終於妥協時使用。",
-          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "word": "cold (B2)",
+          "meaning": "冷漠的；缺乏溫情的",
+          "usage": "本題測歌曲中的情感義，而非氣溫或物品觸感。",
+          "prompt": "哪一句最自然、最正確地使用「cold」（依上述意思）？",
           "options": [
-            "I wore my shoes down to the beach for a swim.",
-            "Weeks of arguments wore him down and left him tired.",
-            "She wore the window down with her winter jacket.",
-            "The singer wore the microphone down like a funny hat."
-          ],
-          "answer": 1,
-          "optionExplanations": [
-            "錯誤。穿鞋去海邊應說 wore my shoes to the beach；不是消磨人的精力。",
-            "正確。幾個月的爭吵慢慢耗盡了他的精力。",
-            "錯誤。外套不能這樣讓窗戶「筋疲力盡」。",
-            "錯誤。麥克風不是帽子；也不是被壓力消磨的人。"
-          ],
-          "explanation": "正確。幾個月的爭吵慢慢耗盡了他的精力。"
-        },
-        {
-          "number": 7,
-          "word": "Leave someone high and dry — C1（慣用語）",
-          "meaning": "在某人需要幫助時丟下他不管；讓某人陷入困境。",
-          "usage": "別人答應幫忙卻突然退出，讓你獨自面對問題時使用。",
-          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
-          "options": [
-            "I left my towel high and dry on the top shelf.",
-            "The team left the ball high and dry after the match.",
-            "She left her ice cream high and dry in the freezer.",
-            "My partner quit suddenly and left me high and dry."
-          ],
-          "answer": 3,
-          "optionExplanations": [
-            "錯誤。這裡只是字面上的高處和乾燥，沒有「丟下人不管」的意思。",
-            "錯誤。球是圓的與被拋下無關。",
-            "錯誤。冰淇淋放冷凍庫不是讓人孤立無援。",
-            "正確。截止前一天退出，讓搭檔獨自收拾殘局。"
-          ],
-          "explanation": "正確。截止前一天退出，讓搭檔獨自收拾殘局。"
-        },
-        {
-          "number": 8,
-          "word": "Put up a front — C1（慣用語）",
-          "meaning": "裝出某種樣子；掩飾真正的感受。",
-          "usage": "明明難過、害怕或沒有自信，卻故意表現得很堅強或沒事時使用。",
-          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
-          "options": [
-            "He put up a front door with his morning breakfast.",
-            "I put up a front in my soup to make it sweet.",
-            "The cat put up a front ticket for the late train.",
-            "She put up a brave front, although she felt scared."
-          ],
-          "answer": 3,
-          "optionExplanations": [
-            "錯誤。這裡把 front 當作實體前門；不是掩飾情緒。",
-            "錯誤。這個片語不是加糖或調味的方法。",
-            "錯誤。車票不是可以「裝出來」的情緒外表。",
-            "正確。工作時故作堅強，回家才哭，表示隱藏真實情緒。"
-          ],
-          "explanation": "正確。工作時故作堅強，回家才哭，表示隱藏真實情緒。"
-        },
-        {
-          "number": 9,
-          "word": "Emotional baggage — C1（比喻表達）",
-          "meaning": "過去經驗留下的情感包袱；尚未放下的心理負擔。",
-          "usage": "過去的傷害、失望或關係問題影響現在的生活與感情時使用。",
-          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
-          "options": [
-            "I checked my emotional baggage at the airport desk.",
-            "The suitcase had emotional baggage because it was purple.",
-            "He carried emotional baggage into his next relationship.",
-            "We packed three emotional baggages for our long holiday."
+            "Her greeting felt cold because she welcomed everyone warmly.",
+            "His letter felt cold because it praised everyone kindly.",
+            "The boss sounded cold when he dismissed her worries.",
+            "The waiter felt cold because he offered a warm smile."
           ],
           "answer": 2,
           "optionExplanations": [
-            "錯誤。機場托運的是實體行李；此處要考的是情感包袱。",
-            "錯誤。行李箱的顏色不代表有過去的情感創傷。",
-            "正確。上一段關係的負面經驗影響了新的感情。",
-            "錯誤。這裡不是可打包、逐件計數的旅行用品；baggage 在此通常不可數。"
+            "錯誤。熱情歡迎與冷淡不合。",
+            "錯誤。親切稱讚不足以支持冷漠義。",
+            "正確。不理會他人憂慮，態度顯得冷漠。",
+            "錯誤。溫暖的微笑不表示冷酷。"
           ],
-          "explanation": "正確。上一段關係的負面經驗影響了新的感情。"
-        },
-        {
-          "number": 10,
-          "word": "Become desensitized to — C1",
-          "meaning": "對某事逐漸麻木；因反覆接觸而不再有強烈反應。",
-          "usage": "不斷經歷相似的壓力、悲傷或刺激後，感受變得遲鈍時使用。",
-          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
-          "options": [
-            "I became desensitized to my sandwich after cutting it.",
-            "She became desensitized to the bus after buying a ticket.",
-            "The clock became desensitized to seven on a Tuesday.",
-            "After years of cruel jokes, he became desensitized to them."
-          ],
-          "answer": 3,
-          "optionExplanations": [
-            "錯誤。切三明治不是因反覆刺激而失去感受。",
-            "錯誤。買車票不表示對某事逐漸麻木。",
-            "錯誤。時鐘不會因為反覆經歷而產生這種心理反應。",
-            "正確。每天聽到相同的惡意玩笑，久了反應變得麻木。"
-          ],
-          "explanation": "正確。每天聽到相同的惡意玩笑，久了反應變得麻木。"
-        },
-        {
-          "number": 11,
-          "word": "A coping mechanism — C1",
-          "meaning": "應對機制；面對壓力或痛苦時用來保護自己的習慣或方法。",
-          "usage": "談一個人如何處理焦慮、失望或難過時使用；這些方法可能健康，也可能不健康。",
-          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
-          "options": [
-            "Making jokes was his coping mechanism when he felt nervous.",
-            "I bought a coping mechanism at the local bike shop.",
-            "The toaster used a coping mechanism to brown the bread.",
-            "Her coping mechanism was a hat that spoke French."
-          ],
-          "answer": 0,
-          "optionExplanations": [
-            "正確。緊張時用開玩笑來應對，是一種應對機制。",
-            "錯誤。coping mechanism 不是腳踏車或機械零件。",
-            "錯誤。烤麵包機的運作方式不是心理上的應對機制。",
-            "錯誤。會說法文的帽子不是處理情緒的習慣或策略。"
-          ],
-          "explanation": "正確。緊張時用開玩笑來應對，是一種應對機制。"
-        },
-        {
-          "number": 12,
-          "word": "Build up a tolerance to — C1（延伸表達）",
-          "meaning": "逐漸對某種刺激產生耐受性；原本的影響變弱。",
-          "usage": "反覆接觸某種刺激後，身體或情緒的反應減弱時使用；與 desensitized 相關，但並不完全相同。",
-          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
-          "options": [
-            "I built up a tolerance to homework by shelving it.",
-            "She built up a tolerance to the taste of black coffee.",
-            "The train built up a tolerance to Tuesday last week.",
-            "We built up a tolerance to the window with a hammer."
-          ],
-          "answer": 1,
-          "optionExplanations": [
-            "錯誤。把作業放到架上，不會因此對某種刺激產生耐受性。",
-            "正確。喝久了黑咖啡，逐漸能接受原本覺得苦的味道。",
-            "錯誤。火車和星期二沒有這種生理或感受上的耐受關係。",
-            "錯誤。用鐵鎚敲窗戶不是建立耐受性。"
-          ],
-          "explanation": "正確。喝久了黑咖啡，逐漸能接受原本覺得苦的味道。"
+          "sourceFile": "Too_Good_at_Goodbyes_B1-C2_VERIFIED.md",
+          "sourceItem": 6,
+          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：cold）。",
+          "cue": "cold",
+          "explanation": "正確。不理會他人憂慮，態度顯得冷漠。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
         }
       ]
     },
     "structure": {
-      "version": 1,
+      "version": 2,
       "title": "句型研習",
-      "note": "依歌曲語句整理，應用例句為新寫；延伸句型已在使用說明中標示。",
+      "note": "依本次提供的核對版材料編排；歌曲線索與教學改寫分開呈現。",
       "questions": [
         {
           "number": 1,
-          "word": "must + base verb",
-          "cue": "You must think",
-          "example": "She must be tired after that long walk.",
+          "word": "must think (that) + clause",
+          "meaning": "說話者認為對方很可能抱有某個想法。",
+          "usage": "想推測別人怎樣看自己或某件事時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "You must think that I am a bus. I go to school by bus.",
+            "You must think that I am hungry. I have just eaten a big meal and I am full.",
+            "You must think that I am at home. You can see me here at school.",
+            "You must think that I am tired. I went to bed at seven."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "搭公車不代表自己是一輛公車，推測內容不合理。",
+            "剛吃飽與「我很餓」的推測不一致。",
+            "對方在學校看見我，便不應推測我正在家中。",
+            "早睡可讓對方合理推測我很累，符合 must think 的功能。"
+          ],
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "sourceWitness": "You must think that · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "You must think that",
+          "example": "You must think that I am angry.",
           "pattern": [
             {
-              "text": "[根據線索作出的推斷]",
+              "text": "[推測對方的想法]",
               "fixed": false
             },
             {
-              "text": "must",
+              "text": "must think (that)",
               "fixed": true
             },
             {
-              "text": "[原形動詞]",
+              "text": "[對方心中的判斷]",
               "fixed": false
             }
           ],
-          "meaning": "表示根據線索作出的強烈推斷。",
-          "usage": "看見明確線索，推測某種情況很可能成立時。",
-          "prompt": "哪一句正確運用了上面的句型及其功能？",
-          "options": [
-            "The lights are off; they must be asleep.",
-            "The lights are off; they must asleep.",
-            "They must be asleep, but I know they are awake.",
-            "They must to be asleep because it is late."
-          ],
-          "answer": 0,
-          "optionExplanations": [
-            "正確。熄燈是推斷已入睡的線索。",
-            "錯誤。asleep 是形容詞，前面需要 be。",
-            "錯誤。已確定清醒，便不能據此推斷睡著。",
-            "錯誤。must 後直接接 be。"
-          ],
-          "explanation": "正確。熄燈是推斷已入睡的線索。"
+          "explanation": "早睡可讓對方合理推測我很累，符合 must think 的功能。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
         },
         {
           "number": 2,
-          "word": "be new to + noun",
+          "word": "be new to + noun / -ing",
+          "meaning": "某人剛接觸一件事，還不熟悉。",
+          "usage": "介紹新經驗或解釋為何需要幫助時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "I am new to cooking, so I make dinner for my family every day and know every recipe.",
+            "I am new to swimming, so my teacher helps me in the pool.",
+            "I am new to walking, so I have walked to school every day for ten years.",
+            "I am new to English, so I have taught it for twenty years."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "每天煮飯又熟悉食譜，與剛開始學煮食的說法不符。",
+            "剛學游泳而需要老師幫助，符合 new to 的意思。",
+            "已步行上學十年，與剛開始學走路不符。",
+            "教英文二十年，與剛接觸英文不符。"
+          ],
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "sourceWitness": "new to this · supplied song PDF, lyric page(s) 2–3.",
           "cue": "new to this",
-          "example": "I am new to this school.",
+          "example": "I am new to cooking.",
           "pattern": [
             {
               "text": "[人]",
@@ -3662,81 +3624,191 @@
               "fixed": true
             },
             {
-              "text": "[事情或環境]",
+              "text": "[活動或事物]",
               "fixed": false
             }
           ],
-          "meaning": "對某件事或某個環境缺乏經驗。",
-          "usage": "介紹自己剛接觸的工作、地方或活動時。",
-          "prompt": "哪一句正確運用了上面的句型及其功能？",
-          "options": [
-            "I am new this school and need a map.",
-            "I am new to this school and need a map.",
-            "I am new to this school; I have taught here for twenty years.",
-            "I am new for this school and need a map."
-          ],
-          "answer": 1,
-          "optionExplanations": [
-            "錯誤。new to 後接環境或事物。",
-            "正確。剛到學校，所以需要地圖。",
-            "錯誤。已任教二十年，與此處初到學校的意思衝突。",
-            "錯誤。此處搭配用 to。"
-          ],
-          "explanation": "正確。剛到學校，所以需要地圖。"
+          "explanation": "剛學游泳而需要老師幫助，符合 new to 的意思。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
         },
         {
           "number": 3,
-          "word": "have + past participle + before",
-          "cue": "seen this all before",
-          "example": "We have visited this museum before.",
+          "word": "but + contrasting clause",
+          "meaning": "前後兩件事形成反差。",
+          "usage": "先說一個情況，再指出不同或相反的另一面。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "The room is small, but it is not big.",
+            "I like apples, but I like apples.",
+            "The door is open, but it is not closed.",
+            "It was cold, but we went swimming."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "small 與 not big 表達相同意思，沒有真正轉折。",
+            "前後都說喜歡蘋果，只是重複而非對比。",
+            "open 與 not closed 意思相近，沒有真正轉折。",
+            "天氣寒冷卻仍去游泳，前後形成合理反差。"
+          ],
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "sourceWitness": "But I have seen · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "But I have seen",
+          "example": "I was tired, but I went out.",
+          "pattern": [
+            {
+              "text": "[先提出的情況]",
+              "fixed": false
+            },
+            {
+              "text": "but",
+              "fixed": true
+            },
+            {
+              "text": "[形成轉折的情況]",
+              "fixed": false
+            }
+          ],
+          "explanation": "天氣寒冷卻仍去游泳，前後形成合理反差。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "have + past participle + before (present perfect)",
+          "meaning": "說明到現在為止曾有某種經驗。",
+          "usage": "想表達這不是第一次經歷某件事時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "I have visited Paris before. Tomorrow will be my first time there.",
+            "She has never tried tea before. She drinks it every morning.",
+            "I have watched this film before, so I know the ending.",
+            "We have eaten here before. This restaurant opened for the first time today."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "已去過巴黎卻說明天是第一次，兩個說法衝突。",
+            "從未喝過茶卻每天喝，經驗描述矛盾。",
+            "以前看過電影，所以知道結局，符合現在完成式的經驗用法。",
+            "餐廳今天才第一次開業，不可能之前已在此用餐。"
+          ],
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "sourceWitness": "have seen this all before · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "have seen this all before",
+          "example": "I have seen this before.",
           "pattern": [
             {
               "text": "[人]",
               "fixed": false
             },
             {
-              "text": "have / has",
+              "text": "have/has + 過去分詞",
               "fixed": true
-            },
-            {
-              "text": "[過去分詞]",
-              "fixed": false
             },
             {
               "text": "before",
               "fixed": true
             }
           ],
-          "meaning": "談截至現在已有的經驗。",
-          "usage": "說明某件事以前經歷過，並與現在有關時。",
-          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "explanation": "以前看過電影，所以知道結局，符合現在完成式的經驗用法。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "be never going to + base verb",
+          "meaning": "表示現在決定將來絕不做某件事。",
+          "usage": "想強調堅定的未來決定時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
           "options": [
-            "We have visit this museum before.",
-            "We has visited this museum before.",
-            "We have visited this museum before.",
-            "We have visited this museum before; this is our first visit ever."
+            "I am never going to eat fish again. I will eat fish tonight.",
+            "She is never going to call him. She calls him every night and plans to call tonight.",
+            "I am never going to eat fish again. It made me ill yesterday.",
+            "We are never going to visit that park. We have tickets to go tomorrow."
           ],
           "answer": 2,
           "optionExplanations": [
-            "錯誤。have 後需要過去分詞 visited。",
-            "錯誤。we 搭配 have。",
-            "正確。visited 與 before 表示過去已有參觀經驗。",
-            "錯誤。已有參觀經驗與首次到訪互相衝突。"
+            "說永不再吃魚卻打算今晚吃，未來安排互相矛盾。",
+            "說絕不打電話卻計劃今晚打，決定與行動衝突。",
+            "昨天吃魚後生病，支持以後絕不再吃的決定。",
+            "說絕不去公園卻已有明天的入場安排，前後不符。"
           ],
-          "explanation": "正確。visited 與 before 表示過去已有參觀經驗。"
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "sourceWitness": "never gonna · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "never gonna",
+          "example": "I am never going to tell him.",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "am/is/are never going to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "昨天吃魚後生病，支持以後絕不再吃的決定。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
         },
         {
-          "number": 4,
+          "number": 6,
           "word": "let + object + base verb",
+          "meaning": "讓某人做某件事，不用 to。",
+          "usage": "談允許或不允許別人做事時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "The teacher lets us to leave early when we finish.",
+            "My mum lets me use her phone, but she never allows me to touch it.",
+            "The shop lets children buy things, but nobody can buy anything there.",
+            "Dad lets me use his bike when mine is broken."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "let 後要接人再接動詞原形 leave，不加 to。",
+            "說媽媽允許用手機，卻又完全不准碰手機，前後衝突。",
+            "說店舖允許孩子買東西，卻說任何人都不能購買，前後矛盾。",
+            "爸爸允許我在單車壞掉時借用他的車，句型和情境都合理。"
+          ],
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "sourceWitness": "let you close to me · supplied song PDF, lyric page(s) 2–3.",
           "cue": "let you close to me",
-          "example": "Please let me explain.",
+          "example": "My mum lets me go out.",
           "pattern": [
+            {
+              "text": "[允許者]",
+              "fixed": false
+            },
             {
               "text": "let",
               "fixed": true
             },
             {
-              "text": "[動作執行者]",
+              "text": "[人]",
               "fixed": false
             },
             {
@@ -3744,143 +3816,317 @@
               "fixed": false
             }
           ],
-          "meaning": "讓某人做某事。",
-          "usage": "說明允許的行動時。歌曲 let you close to me 省略了 get；這裡練習 let + 受詞 + 原形動詞的完整形式。",
-          "prompt": "哪一句正確運用了上面的句型及其功能？",
-          "options": [
-            "Please let me to explain.",
-            "Please let I explain.",
-            "Please let me explaining.",
-            "Please let me explain."
-          ],
-          "answer": 3,
-          "optionExplanations": [
-            "錯誤。let 後的動詞用原形，省去 to。",
-            "錯誤。let 後的人稱代詞要用受格 me。",
-            "錯誤。此句型使用 explain。",
-            "正確。let + me + explain 完整。"
-          ],
-          "explanation": "正確。let + me + explain 完整。"
+          "explanation": "爸爸允許我在單車壞掉時借用他的車，句型和情境都合理。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
         },
         {
-          "number": 5,
+          "number": 7,
           "word": "even though + clause",
-          "cue": "Even though you mean the most to me",
-          "example": "Even though it was cold, we went out.",
+          "meaning": "雖然有一個阻礙，另一件事仍然發生。",
+          "usage": "想強調「即使如此，結果仍不同於預期」時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "Even though she was afraid, she spoke to the class.",
+            "Even though I was hungry, I ate lunch because I was hungry.",
+            "Even though the sun was hot, it was hot outside.",
+            "Even though he slept all night, he was asleep all night."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "雖然害怕仍在全班面前發言，清楚表達讓步。",
+            "肚餓而吃午餐是自然因果，不是 even though 的反差。",
+            "陽光猛烈與天氣炎熱方向一致，沒有讓步關係。",
+            "睡了一整夜與整夜在睡覺是同一情況，沒有反差。"
+          ],
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "sourceWitness": "Even though · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "Even though",
+          "example": "Even though it rained, we played.",
           "pattern": [
             {
               "text": "Even though",
               "fixed": true
             },
             {
-              "text": "[已成立的情況]",
+              "text": "[讓步情況]",
               "fixed": false
             },
             {
-              "text": "[出乎預期的結果]",
+              "text": "[仍然發生的事]",
               "fixed": false
             }
           ],
-          "meaning": "承認一項事實，再帶出與預期不同的結果。",
-          "usage": "兩項事實形成讓步關係時。",
-          "prompt": "哪一句正確運用了上面的句型及其功能？",
-          "options": [
-            "Even though she was tired, she finished the work.",
-            "Even though she was tired, she was tired.",
-            "Even though she tired, she finished the work.",
-            "Even though she was tired, so she finished the work."
-          ],
-          "answer": 0,
-          "optionExplanations": [
-            "正確。疲累通常令人停下，她卻完成工作。",
-            "錯誤。重述疲累，沒有呈現題目要求的讓步關係。",
-            "錯誤。she 後缺少 was。",
-            "錯誤。even though 已引出讓步從句，主句前應省去 so；so 會誤帶出因果關係。"
-          ],
-          "explanation": "正確。疲累通常令人停下，她卻完成工作。"
+          "explanation": "雖然害怕仍在全班面前發言，清楚表達讓步。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
         },
         {
-          "number": 6,
-          "word": "mean a lot / the most to someone",
+          "number": 8,
+          "word": "mean the most to + person",
+          "meaning": "在某人心中最重要。",
+          "usage": "比較人或事物對自己的重要性時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "My old photo means the most to me because I have never seen it and do not care about it.",
+            "The blue cup means the most to me because every cup is exactly the same to me.",
+            "My little sister means the most to me. I always help her when she needs me.",
+            "My dog means the most to me, but I do not care if I ever see it again."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "完全不在乎照片，與照片最重要的說法矛盾。",
+            "每個杯子都同樣重要，不能合理突出藍杯最重要。",
+            "經常照顧有需要的妹妹，支持她對自己最重要的說法。",
+            "說狗最重要卻不在乎能否再見牠，情感不一致。"
+          ],
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "sourceWitness": "mean the most to me · supplied song PDF, lyric page(s) 2–3.",
           "cue": "mean the most to me",
-          "example": "Your support means a lot to me.",
+          "example": "My family means the most to me.",
           "pattern": [
             {
-              "text": "[重要的人或事]",
+              "text": "[人或事物]",
               "fixed": false
             },
             {
-              "text": "mean a lot / the most to",
+              "text": "mean the most to",
               "fixed": true
             },
             {
-              "text": "[感受者]",
+              "text": "[某人]",
               "fixed": false
             }
           ],
-          "meaning": "表示某人或某事對一個人非常重要。",
-          "usage": "表達重視、感激或情感分量時。",
-          "prompt": "哪一句正確運用了上面的句型及其功能？",
-          "options": [
-            "Your support mean a lot to me.",
-            "Your support means a lot to me.",
-            "Your support means a lot at me.",
-            "Your support means a lot me."
-          ],
-          "answer": 1,
-          "optionExplanations": [
-            "錯誤。單數主語 support 配 means。",
-            "正確。完整表達支持對我的重要性。",
-            "錯誤。此搭配用 to。",
-            "錯誤。感受者前需要 to。"
-          ],
-          "explanation": "正確。完整表達支持對我的重要性。"
+          "explanation": "經常照顧有需要的妹妹，支持她對自己最重要的說法。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
         },
         {
-          "number": 7,
-          "word": "every time + clause",
+          "number": 9,
+          "word": "every time + clause, clause",
+          "meaning": "每當某件事發生，就會出現另一個結果。",
+          "usage": "描述反覆出現的情況與反應時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "Every time it rains, I take my umbrella. I have never taken it on a rainy day.",
+            "Every time she calls, I answer. She has called ten times, but I never answer.",
+            "Every time I see him, I smile. I have seen him many times and have never smiled.",
+            "Every time it rains, I take my umbrella. I do this on every rainy day."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "說每次下雨帶傘，卻說從未在雨天帶傘，前後矛盾。",
+            "說每次都接電話，卻說十次都沒有接，互相衝突。",
+            "說每次見面都微笑，卻說從未微笑，互相衝突。",
+            "每逢下雨都帶傘，後句也確認每次如此，符合重複關係。"
+          ],
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "sourceWitness": "every time I open up · supplied song PDF, lyric page(s) 2–3.",
           "cue": "every time I open up",
-          "example": "Every time it rains, this path gets wet.",
+          "example": "Every time it rains, I take a bus.",
           "pattern": [
             {
               "text": "Every time",
               "fixed": true
             },
             {
-              "text": "[反覆發生的事情]",
+              "text": "[重複發生的情況]",
               "fixed": false
             },
             {
-              "text": "[隨之出現的結果]",
+              "text": "[每次的結果]",
               "fixed": false
             }
           ],
-          "meaning": "每當某件事發生，某個結果便會出現。",
-          "usage": "描述重複的經驗或規律時。",
-          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "explanation": "每逢下雨都帶傘，後句也確認每次如此，符合重複關係。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "because / ’cause + reason",
+          "meaning": "後面解釋前面情況的原因。",
+          "usage": "先說結果或選擇，再解釋為甚麼時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
           "options": [
-            "Every time it rain, this path gets wet.",
-            "Every time rains, this path gets wet.",
-            "Every time it rains, this path gets wet.",
-            "Every time it rains, this path always stays dry and gets wet."
+            "I wore a coat because I wanted to feel cold. It was already hot.",
+            "I drank water because I wanted to stay thirsty.",
+            "I stayed inside because it was raining hard.",
+            "I went to bed early because I wanted to stay awake all night."
           ],
           "answer": 2,
           "optionExplanations": [
-            "錯誤。it 配 rains。",
-            "錯誤。天氣動詞需要主語 it。",
-            "正確。每次下雨與路面變濕形成固定關係。",
-            "錯誤。一直乾燥與同時變濕互相矛盾。"
+            "想感到寒冷卻在炎熱時穿外套，未提供合理原因。",
+            "喝水通常會減少口渴，不能合理解釋為想繼續口渴。",
+            "下大雨所以留在室內，原因與結果相符。",
+            "想整夜清醒卻提早睡覺，行動與原因相反。"
           ],
-          "explanation": "正確。每次下雨與路面變濕形成固定關係。"
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "sourceWitness": "’Cause every time · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "’Cause every time",
+          "example": "I stayed home because I was ill.",
+          "pattern": [
+            {
+              "text": "[結果或決定]",
+              "fixed": false
+            },
+            {
+              "text": "because",
+              "fixed": true
+            },
+            {
+              "text": "[原因]",
+              "fixed": false
+            }
+          ],
+          "explanation": "下大雨所以留在室內，原因與結果相符。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
         },
         {
-          "number": 8,
+          "number": 11,
+          "word": "so + result",
+          "meaning": "先說原因，再說由此帶來的結果。",
+          "usage": "解釋某件事如何導致下一件事時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "I lost my key, so I asked Mum to open the door.",
+            "I was thirsty, so I threw away all my water and drank nothing.",
+            "It was dark, so I turned off the only light to see better.",
+            "I missed the bus, so I arrived before the bus that I missed."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "遺失鑰匙後請媽媽開門，是合理的因果結果。",
+            "口渴卻丟掉所有水並完全不喝，結果不合理。",
+            "想看得更清楚卻關掉唯一的燈，結果與目的相反。",
+            "錯過巴士不能直接推論比那班巴士更早到達。"
+          ],
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "sourceWitness": "So I’m never · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "So I’m never",
+          "example": "I was cold, so I closed the window.",
+          "pattern": [
+            {
+              "text": "[原因]",
+              "fixed": false
+            },
+            {
+              "text": "so",
+              "fixed": true
+            },
+            {
+              "text": "[因此出現的結果]",
+              "fixed": false
+            }
+          ],
+          "explanation": "遺失鑰匙後請媽媽開門，是合理的因果結果。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "get + adjective",
+          "meaning": "某人或事物變得處於某種狀態。",
+          "usage": "描述情況逐漸改變時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "The water gets hot when I put it in the fridge.",
+            "The room gets warm when we turn on the heater.",
+            "He gets tired after he sleeps well all day and feels full of energy.",
+            "The room gets darker when I turn on all the lights."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "把水放入雪櫃通常會使它變冷，不是變熱。",
+            "打開暖氣後房間變暖，符合 get 加形容詞表示狀態改變。",
+            "睡得好又充滿精神，與因此變疲倦的描述不符。",
+            "開亮所有燈通常使房間更明亮，而不是更暗。"
+          ],
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "sourceWitness": "get too close · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "get too close",
+          "example": "It gets cold at night.",
+          "pattern": [
+            {
+              "text": "[人或事物]",
+              "fixed": false
+            },
+            {
+              "text": "get",
+              "fixed": true
+            },
+            {
+              "text": "[形容詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "打開暖氣後房間變暖，符合 get 加形容詞表示狀態改變。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
           "word": "in case + clause",
-          "cue": "In case you go",
+          "meaning": "為防止某件事發生時措手不及，先做好準備。",
+          "usage": "擔心未來可能出現問題而提前行動時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "I brought a coat in case it was cold yesterday, but I bought the coat today.",
+            "I took an umbrella in case it rained later.",
+            "I took a map in case I was hungry, so I could eat it.",
+            "I drank water in case the bus arrived, so I would not need a ticket."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "今天才買外套，卻說之前已為昨天的寒冷帶上，時間不合。",
+            "預先帶傘以防稍後下雨，符合 in case 的預防功能。",
+            "地圖不能當食物解決肚餓，預防措施不對應風險。",
+            "喝水不能代替車票，行動與所擔心的情況無關。"
+          ],
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "sourceWitness": "In case · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "In case",
           "example": "Take a coat in case it gets cold.",
           "pattern": [
             {
-              "text": "[預先採取的措施]",
+              "text": "[預先採取的行動]",
               "fixed": false
             },
             {
@@ -3888,115 +4134,234 @@
               "fixed": true
             },
             {
-              "text": "[可能發生的情況]",
+              "text": "[可能發生的問題]",
               "fixed": false
             }
           ],
-          "meaning": "為可能發生的事情預先準備。",
-          "usage": "提出預防措施時。",
-          "prompt": "哪一句正確運用了上面的句型及其功能？",
-          "options": [
-            "Take a coat in case it get cold.",
-            "Take a coat in case of it gets cold.",
-            "Take a coat in case to get cold.",
-            "Take a coat in case it gets cold."
-          ],
-          "answer": 3,
-          "optionExplanations": [
-            "錯誤。it 配 gets。",
-            "錯誤。in case of 接名詞，此處是完整從句。",
-            "錯誤。in case 後接此處的完整從句。",
-            "正確。帶外套是為可能變冷預先準備。"
-          ],
-          "explanation": "正確。帶外套是為可能變冷預先準備。"
+          "explanation": "預先帶傘以防稍後下雨，符合 in case 的預防功能。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
         },
         {
-          "number": 9,
-          "word": "the + comparative, the + comparative",
-          "cue": "the less that I cry",
-          "example": "The more we practise, the easier it gets.",
-          "pattern": [
-            {
-              "text": "The",
-              "fixed": true
-            },
-            {
-              "text": "[比較級與情況]",
-              "fixed": false
-            },
-            {
-              "text": "the",
-              "fixed": true
-            },
-            {
-              "text": "[隨之變化的比較級與結果]",
-              "fixed": false
-            }
-          ],
-          "meaning": "一種變化伴隨另一種變化。",
-          "usage": "說明兩個程度如何一起改變時；歌詞的比較句可延伸至這個完整句型。",
-          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "number": 14,
+          "word": "the + comparative ..., the + comparative ...",
+          "meaning": "一個情況改變時，另一個情況也隨之改變。",
+          "usage": "描述兩種變化如何互相連動時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
           "options": [
-            "The more we practise, the easier it gets.",
-            "The more we practise, easier it gets.",
-            "The much we practise, the easier it gets.",
-            "The more we practise, the easy it gets."
+            "The more I practise the song, the better I sing it.",
+            "The more I sleep, the more my red bag becomes my brother.",
+            "The more I study, the less I know, because I remember every new word.",
+            "The more water I drink, the drier my mouth gets, because water always makes it wet."
           ],
           "answer": 0,
           "optionExplanations": [
-            "正確。more 與 easier 都是比較級，兩邊均有 the。",
-            "錯誤。後半句缺少 the。",
-            "錯誤。前半句需要比較級 more。",
-            "錯誤。後半句需要比較級 easier。"
+            "練歌越多唱得越好，兩種變化有合理連動。",
+            "睡眠增加不會讓紅書包變成弟弟，兩種變化沒有合理關係。",
+            "記住更多生字通常表示懂得更多，與懂得更少的說法不符。",
+            "喝水通常使口腔較濕潤，與越喝越乾的解釋衝突。"
           ],
-          "explanation": "正確。more 與 easier 都是比較級，兩邊均有 the。"
-        },
-        {
-          "number": 10,
-          "word": "too + adjective + to-infinitive",
-          "cue": "too close to you",
-          "example": "The box is too heavy to lift.",
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "sourceWitness": "every time you hurt me, the less · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "every time you hurt me, the less",
+          "example": "The more I practise, the better I get.",
           "pattern": [
             {
-              "text": "too",
+              "text": "The more/less...",
+              "fixed": true
+            },
+            {
+              "text": "[變化一]",
+              "fixed": false
+            },
+            {
+              "text": "the more/less...",
+              "fixed": true
+            },
+            {
+              "text": "[連動變化二]",
+              "fixed": false
+            }
+          ],
+          "explanation": "練歌越多唱得越好，兩種變化有合理連動。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "do not stand a chance (of + -ing)",
+          "meaning": "沒有成功的機會。",
+          "usage": "想表達某個目標幾乎不可能達成時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "We do not stand a chance of winning because the game ended and we lost.",
+            "We do not stand a chance of winning; our team has already won the game.",
+            "We do not stand a chance of winning, so we are sure to win tomorrow.",
+            "We do not stand a chance of winning because we won every game, including the final."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "比賽已結束且輸了，確實已沒有獲勝的機會。",
+            "比賽已經贏了，不宜再說完全沒有贏的機會。",
+            "說沒有獲勝機會，卻肯定明天會贏，前後矛盾。",
+            "連決賽都贏了，與完全沒有獲勝機會不符。"
+          ],
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "sourceWitness": "stand a chance · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "stand a chance",
+          "example": "We do not stand a chance of winning.",
+          "pattern": [
+            {
+              "text": "[人或團隊]",
+              "fixed": false
+            },
+            {
+              "text": "do not stand a chance",
+              "fixed": true
+            },
+            {
+              "text": "[可選：of + -ing]",
+              "fixed": false
+            }
+          ],
+          "explanation": "比賽已結束且輸了，確實已沒有獲勝的機會。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "it is + adjective + but + clause",
+          "meaning": "承認某種感受，同時指出不能忽視的事實。",
+          "usage": "表達一件事令人難過，但仍然是真的時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "It is sad, but it is unhappy.",
+            "It is hard, but I can finish it if I try.",
+            "It is cold, but the weather is not warm.",
+            "It is easy, but it is not difficult."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "sad 與 unhappy 意思接近，沒有明顯轉折。",
+            "雖然事情困難，但努力仍可完成，前後有合理對比。",
+            "cold 與 not warm 意思相近，沒有明顯轉折。",
+            "easy 與 not difficult 只是同義重述，沒有轉折。"
+          ],
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "sourceWitness": "sad but it’s true · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "sad but it’s true",
+          "example": "It is sad, but it is true.",
+          "pattern": [
+            {
+              "text": "It is",
+              "fixed": true
+            },
+            {
+              "text": "[評價]",
+              "fixed": false
+            },
+            {
+              "text": "but",
+              "fixed": true
+            },
+            {
+              "text": "[相反或不想接受的事實]",
+              "fixed": false
+            }
+          ],
+          "explanation": "雖然事情困難，但努力仍可完成，前後有合理對比。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "way too + adjective",
+          "meaning": "強調某個程度遠遠超過合適的水平。",
+          "usage": "想強烈表達「實在太……」時；口語較常用。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "This bag is way too heavy for me, so I ask my brother to carry it.",
+            "This soup is way too hot, so it is cold enough to drink.",
+            "This room is way too small, so it has more than enough space for everyone.",
+            "These shoes are way too big, so they fit my feet exactly."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "袋子重得過分，所以請哥哥幫忙拿，情況合理。",
+            "說湯太熱，卻又說冷得足以飲用，前後矛盾。",
+            "說房間太小，卻又說空間非常充足，前後衝突。",
+            "說鞋子太大，卻又說完全合腳，程度判斷矛盾。"
+          ],
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "sourceWitness": "way too good · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "way too good",
+          "example": "This bag is way too heavy.",
+          "pattern": [
+            {
+              "text": "[人或事物]",
+              "fixed": false
+            },
+            {
+              "text": "way too",
               "fixed": true
             },
             {
               "text": "[形容詞]",
               "fixed": false
-            },
-            {
-              "text": "to",
-              "fixed": true
-            },
-            {
-              "text": "[原形動詞]",
-              "fixed": false
             }
           ],
-          "meaning": "程度過高，令後面的動作難以做到。",
-          "usage": "說明某種程度造成限制時；這是由歌中 too 的程度意思延伸的句型。",
-          "prompt": "哪一句正確運用了上面的句型及其功能？",
-          "options": [
-            "The box is too heavy lift.",
-            "The box is too heavy to lift.",
-            "The box is too heavily to lift.",
-            "The box is too heavy to lifting."
-          ],
-          "answer": 1,
-          "optionExplanations": [
-            "錯誤。lift 前需要 to。",
-            "正確。箱子過重，難以抬起。",
-            "錯誤。描述箱子用形容詞 heavy。",
-            "錯誤。to 後用原形 lift。"
-          ],
-          "explanation": "正確。箱子過重，難以抬起。"
+          "explanation": "袋子重得過分，所以請哥哥幫忙拿，情況合理。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
         },
         {
-          "number": 11,
+          "number": 18,
           "word": "be good at + noun / -ing",
+          "meaning": "擅長某種技能或活動。",
+          "usage": "介紹能力、優點或熟練的事情時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "My brother is good at cooking, but he has never cooked and cannot make anything.",
+            "She is good at to draw pictures, so everyone likes them.",
+            "My brother is good at cooking. His food tastes great, and he cooks every day.",
+            "I am good at swim because I swim every day."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "從未煮食又完全不會做，不能支持擅長烹飪。",
+            "good at 後接 drawing，不接 to draw。",
+            "經常煮出美味食物，能支持擅長烹飪的說法。",
+            "good at 後應用 swimming，而不是 swim。"
+          ],
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "sourceWitness": "good at goodbyes · supplied song PDF, lyric page(s) 2–3.",
           "cue": "good at goodbyes",
-          "example": "Mia is good at solving puzzles.",
+          "example": "She is good at drawing.",
           "pattern": [
             {
               "text": "[人]",
@@ -4007,40 +4372,280 @@
               "fixed": true
             },
             {
-              "text": "[名詞或動名詞]",
+              "text": "[活動或 -ing]",
               "fixed": false
             }
           ],
-          "meaning": "擅長某件事或某項活動。",
-          "usage": "說明能力時；歌中把告別寫成一項被迫練熟的能力。",
-          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "explanation": "經常煮出美味食物，能支持擅長烹飪的說法。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "know (that) + clause",
+          "meaning": "表示知道某件事是真的。",
+          "usage": "說明自己知道的事實或想法時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
           "options": [
-            "Mia is good at solve puzzles.",
-            "Mia is good to solving puzzles.",
-            "Mia is good at solving puzzles.",
-            "Mia good at solving puzzles."
+            "I know that the shop is closed, but I have no idea if it is open or closed.",
+            "I know that it is raining, but I have not checked and I have no information.",
+            "I know that Tom is at school because I can see him in class.",
+            "I know that she is twelve, but I do not know her age at all."
           ],
           "answer": 2,
           "optionExplanations": [
-            "錯誤。介詞 at 後用 solving。",
-            "錯誤。此搭配使用 at。",
-            "正確。be good at 後接動名詞。",
-            "錯誤。主語後需要 is。"
+            "聲稱知道店舖關門，卻又說不知道是否營業，互相矛盾。",
+            "沒有查看也沒有任何資料，不能合理聲稱確定正在下雨。",
+            "在課室親眼見到 Tom，因此知道他在學校，符合 know 的用法。",
+            "聲稱知道她十二歲，卻又說完全不知道年齡，互相矛盾。"
           ],
-          "explanation": "正確。be good at 後接動名詞。"
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "sourceWitness": "I know · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "I know",
+          "example": "I know that she is at home.",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "know (that)",
+              "fixed": true
+            },
+            {
+              "text": "[完整句子]",
+              "fixed": false
+            }
+          ],
+          "explanation": "在課室親眼見到 Tom，因此知道他在學校，符合 know 的用法。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
         },
         {
-          "number": 12,
+          "number": 20,
+          "word": "think + (that) + clause",
+          "meaning": "說出自己的看法，不一定是確定的事實。",
+          "usage": "想表達推測、意見或對別人想法的理解時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "I think the test is easy because I cannot understand any question and cannot answer any of them.",
+            "I think my sister is at home, and I can see her standing beside me at school.",
+            "I think he is asleep, but he is talking to me on the phone right now.",
+            "I think it will rain because the sky is very dark."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。完全看不懂題目又無法作答，無法支持試卷容易的判斷。",
+            "妹妹就在身旁的學校，卻猜她在家，與眼前證據不符。",
+            "對方正與自己通電話，卻推測他在睡覺，證據不符。",
+            "天空很暗，因此推測快下雨，符合 think 表達判斷。"
+          ],
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "sourceWitness": "you’re thinking · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "you’re thinking",
+          "example": "I think that he is busy.",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "think (that)",
+              "fixed": true
+            },
+            {
+              "text": "[自己的判斷]",
+              "fixed": false
+            }
+          ],
+          "explanation": "天空很暗，因此推測快下雨，符合 think 表達判斷。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ],
+          "editorialCorrections": "Replaced ambiguous source option A, whose rationale acknowledged it could be correct, with a contradictory judgement using the same think-clause target."
+        },
+        {
+          "number": 21,
+          "word": "be + verb-ing (present continuous)",
+          "meaning": "描述現在正在進行的動作或暫時的活動。",
+          "usage": "想強調動作正在發生時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "He is sleeping now, and he is running around the room at the same time.",
+            "My sister is studying now, so I will talk to her after she finishes.",
+            "She is eating lunch now, but she has not started and will eat tomorrow.",
+            "I am walking home now, but I am sitting at home and have not gone out."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "正在睡覺與同時在房間跑動，按一般情況互相矛盾。",
+            "妹妹現在正在溫習，所以等她完成後才交談，情境合理。",
+            "說現在正在吃午餐，卻又說明天才開始，時間衝突。",
+            "說現在正在步行回家，卻又說仍在家中未出門，前後矛盾。"
+          ],
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "sourceWitness": "I’m ... protecting · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "I’m ... protecting",
+          "example": "She is reading a book now.",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "am/is/are + -ing",
+              "fixed": true
+            },
+            {
+              "text": "[正在做的事]",
+              "fixed": false
+            }
+          ],
+          "explanation": "妹妹現在正在溫習，所以等她完成後才交談，情境合理。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "just + verb (limiting reason)",
+          "meaning": "強調自己只是做某件事，沒有其他意思。",
+          "usage": "想澄清動機、減少別人誤會時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "I am just helping you with your bag. I do not want anything back.",
+            "I am just helping you with your bag, and I am also taking your money without asking.",
+            "I am just protecting my dog, so I leave it outside in the snow without a coat.",
+            "I am just cleaning the room, so I make every table dirty."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "只是幫忙拿袋又不求回報，符合 just 用來澄清動機。",
+            "說只是幫忙，卻又擅自拿錢，與所聲稱的單純目的不符。",
+            "說只是保護狗，卻把牠留在雪地受冷，行動與目的相反。",
+            "說只是清潔房間，卻弄髒所有桌子，與目的相反。"
+          ],
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "sourceWitness": "I’m just · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "I’m just",
+          "example": "I am just trying to help.",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "am/is/are just + -ing",
+              "fixed": true
+            },
+            {
+              "text": "[真正目的]",
+              "fixed": false
+            }
+          ],
+          "explanation": "只是幫忙拿袋又不求回報，符合 just 用來澄清動機。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "no way + (that) clause",
+          "meaning": "強烈表示某件事不可能發生或自己絕不接受。",
+          "usage": "想表達堅定拒絕或否定時；多見於口語。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "No way I will go to the party! I have already decided to go and cannot wait.",
+            "No way I will give you my password. It is private.",
+            "No way she can win! She has already won the game.",
+            "No way I will eat that cake! I am eating it happily now."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "強烈表示不去派對，卻已決定去且十分期待，前後矛盾。",
+            "密碼是私人資料，所以堅決拒絕交出，符合 no way 的強烈否定。",
+            "她已贏得比賽，不能再說她絕不可能獲勝。",
+            "說絕不吃蛋糕，卻正開心地吃，前後矛盾。"
+          ],
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "sourceWitness": "No way that · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "No way that",
+          "example": "No way I will miss the game!",
+          "pattern": [
+            {
+              "text": "No way (that)",
+              "fixed": true
+            },
+            {
+              "text": "[某件事會發生]",
+              "fixed": false
+            }
+          ],
+          "explanation": "密碼是私人資料，所以堅決拒絕交出，符合 no way 的強烈否定。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 24,
           "word": "see + object + base verb",
+          "meaning": "看見某人做某件事（把動作當作整體）。",
+          "usage": "想說自己目睹別人的動作時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "I saw my brother to open the door and come in.",
+            "I saw the baby to smile at her mum.",
+            "I saw my friend opening the door, but I did not see her at all.",
+            "I saw my dad fix the bike, so I know how he did it."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "see + 人 + 原形動詞，不應使用 to open。",
+            "see + 人 + 原形動詞，不應使用 to smile。",
+            "雖然 opening 形式本身可用，但後句否認曾看見她。",
+            "看見爸爸修理單車，因而知道方法，句型與情境合理。"
+          ],
+          "sourceFile": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "sourceWitness": "see me cry · supplied song PDF, lyric page(s) 2–3.",
           "cue": "see me cry",
           "example": "I saw him cross the road.",
           "pattern": [
             {
-              "text": "see / saw",
+              "text": "[看見的人]",
+              "fixed": false
+            },
+            {
+              "text": "see",
               "fixed": true
             },
             {
-              "text": "[人]",
+              "text": "[對象]",
               "fixed": false
             },
             {
@@ -4048,23 +4653,13 @@
               "fixed": false
             }
           ],
-          "meaning": "看見某人做某個動作；原形常呈現整個事件。",
-          "usage": "描述親眼看見的動作時。",
-          "prompt": "哪一句正確運用了上面的句型及其功能？",
-          "options": [
-            "I saw he cross the road.",
-            "I saw him to cross the road.",
-            "I saw him crossed the road.",
-            "I saw him cross the road."
-          ],
-          "answer": 3,
-          "optionExplanations": [
-            "錯誤。saw 後需要受格 him。",
-            "錯誤。此句型的動詞原形前省去 to。",
-            "錯誤。saw 已表示過去，後面用原形 cross。",
-            "正確。saw + him + cross 完整。"
-          ],
-          "explanation": "正確。saw + him + cross 完整。"
+          "explanation": "看見爸爸修理單車，因而知道方法，句型與情境合理。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
         }
       ]
     },
@@ -4195,8 +4790,14 @@
   },
   "extensionProvenance": [
     {
-      "filename": "Too_Good_at_Goodbyes_B1-C2_Vocabulary_Quiz_Rebalanced.md",
-      "sha256": "d5d09e4b4f70a5042c43948fb6fa80bbaf0d0c5ee85ba2b19c8cec183550a159"
+      "filename": "Too_Good_at_Goodbyes_B1-C2_VERIFIED.md",
+      "sha256": "e7ecb5051b262b49a57cb81847d0873e0da29ff118688354b08cbc116f700bb7",
+      "section": "advanced"
+    },
+    {
+      "filename": "Too_Good_At_Goodbyes_SOURCE_VERIFIED.md",
+      "sha256": "bdd3de7e413553327672328c8ece051ad1d83d1e73cd2f8c2ba9d33501ec244a",
+      "section": "structure"
     }
   ]
 }

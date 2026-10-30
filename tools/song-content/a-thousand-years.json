@@ -2874,5 +2874,1588 @@
     "sha256": "5872ded6095df1b80254f643d5584df5247a2771c6ab2654c295f24bd28d5756",
     "selectedOn": "2026-10-29",
     "transformations": "none"
-  }
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依本次提供的核對版材料編排；程度標籤為教學參考。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "doubt (B1)",
+          "meaning": "懷疑；疑慮",
+          "usage": "對事情的真實性、成功機會或自己的決定感到不確定。",
+          "prompt": "哪一句最自然、最正確地使用「doubt」（依上述意思）？",
+          "options": [
+            "The bright yellow coat removed all doubt about the taste of soup.",
+            "The quiet library removed all doubt about tomorrow’s weather.",
+            "The new evidence removed all doubt about who had won.",
+            "The red pencil removed all doubt about the price of a house."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。外套顏色不能解決湯的味道疑問。",
+            "錯誤。安靜的圖書館無法證明天氣。",
+            "正確。新證據排除了對結果的疑慮。",
+            "錯誤。紅鉛筆不會證明房價。"
+          ],
+          "sourceFile": "A_Thousand_Years_B1-C2_VERIFIED.md",
+          "sourceItem": 1,
+          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：doubt）。",
+          "cue": "doubt",
+          "explanation": "正確。新證據排除了對結果的疑慮。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "somehow (B1–B2)",
+          "meaning": "不知怎麼地；以某種未知方式",
+          "usage": "知道結果發生了，但不清楚是如何做到的。",
+          "prompt": "哪一句最自然、最正確地使用「somehow」（依上述意思）？",
+          "options": [
+            "Somehow, our tiny team managed to win the final match.",
+            "Somehow, the clock has twelve hours written on its face.",
+            "Somehow, the train left at six because the schedule said so.",
+            "Somehow, the ice melted because we heated it all morning."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。小隊意外獲勝，過程令人驚訝而不明。",
+            "錯誤。普通鐘面有數字不構成未知的達成方式。",
+            "錯誤。按時刻表發車，原因十分明確。",
+            "錯誤。加熱讓冰融化，原因已明說，不需 somehow。"
+          ],
+          "sourceFile": "A_Thousand_Years_B1-C2_VERIFIED.md",
+          "sourceItem": 2,
+          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：somehow）。",
+          "cue": "somehow",
+          "explanation": "正確。小隊意外獲勝，過程令人驚訝而不明。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "one step closer (B1–B2)",
+          "meaning": "又更接近目標一步",
+          "usage": "描述逐步推進的進展，尤其目標尚未完成。",
+          "prompt": "哪一句最自然、最正確地使用「one step closer」（依上述意思）？",
+          "options": [
+            "We are one step closer because the deadline moved backwards.",
+            "We are one step closer because nobody started the project.",
+            "We are one step closer because our map has lost every road.",
+            "We are one step closer after finishing the final interview."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。期限延後本身不一定表示取得進展。",
+            "錯誤。沒開始做並不更接近完成。",
+            "錯誤。地圖道路消失無助於前進。",
+            "正確。完成最後面試，離目標更近一步。"
+          ],
+          "sourceFile": "A_Thousand_Years_B1-C2_VERIFIED.md",
+          "sourceItem": 3,
+          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：one step closer）。",
+          "cue": "one step closer",
+          "explanation": "正確。完成最後面試，離目標更近一步。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "stand still (B1–B2)",
+          "meaning": "保持不動；（時間）彷彿靜止",
+          "usage": "歌曲讓 time 擬人化；這裡測時間似乎停下的比喻義。",
+          "prompt": "哪一句最自然、最正確地使用「stand still」（依上述意思）？",
+          "options": [
+            "Time seemed to stand still because my watch was on sale.",
+            "Time seemed to stand still while we waited for the result.",
+            "Time seemed to stand still because the calendar was purple.",
+            "Time seemed to stand still when the clock was newly polished."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。手錶特價與時間感知無關。",
+            "正確。焦急等待時覺得時間停住，符合比喻。",
+            "錯誤。月曆顏色不支持時間靜止的感受。",
+            "錯誤。擦亮時鐘不等於時間變慢。"
+          ],
+          "sourceFile": "A_Thousand_Years_B1-C2_VERIFIED.md",
+          "sourceItem": 4,
+          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：stands still）。",
+          "cue": "stands still",
+          "explanation": "正確。焦急等待時覺得時間停住，符合比喻。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "come to this (B2)",
+          "meaning": "演變到這一步；最終走到這個局面",
+          "usage": "歌曲中 every hour has come to this，指此前所有時刻匯聚至此；也可含無奈語氣。",
+          "prompt": "哪一句最自然、最正確地使用「come to this」（依上述意思）？",
+          "options": [
+            "All our hard work has come to this: a new blue stapler.",
+            "All the weather has come to this: a square wooden spoon.",
+            "Months of training have come to this: our first big performance.",
+            "Years of study have come to this: the library closes at noon."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。只有藍色訂書機難以支撐辛苦努力的重大結果。",
+            "錯誤。木湯匙與天氣沒有自然的進展連結。",
+            "正確。多月訓練最終迎來演出，語意完整。",
+            "錯誤。圖書館中午關門不代表多年學習的成果。"
+          ],
+          "sourceFile": "A_Thousand_Years_B1-C2_VERIFIED.md",
+          "sourceItem": 5,
+          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：come to this）。",
+          "cue": "come to this",
+          "explanation": "正確。多月訓練最終迎來演出，語意完整。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "all along (B2)",
+          "meaning": "從一開始就；一直以來",
+          "usage": "表示某件事在整段期間都是真實、已知或相信的。",
+          "prompt": "哪一句最自然、最正確地使用「all along」（依上述意思）？",
+          "options": [
+            "I knew all along that next winter would have twelve months.",
+            "I knew all along that she was the person behind the kind letters.",
+            "I knew all along that the sandwich had started to sing today.",
+            "I knew all along that yesterday would happen next Thursday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。冬季並沒有十二個月，陳述失準。",
+            "正確。從一開始就知道匿名寫信人的身分，符合用法。",
+            "錯誤。三明治唱歌是荒誕情境，不能作為合理認知。",
+            "錯誤。昨天不會在下週四發生，時間自相矛盾。"
+          ],
+          "sourceFile": "A_Thousand_Years_B1-C2_VERIFIED.md",
+          "sourceItem": 6,
+          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：all along）。",
+          "cue": "all along",
+          "explanation": "正確。從一開始就知道匿名寫信人的身分，符合用法。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "take away (B1–B2)",
+          "meaning": "奪走；使失去（抽象或具體）",
+          "usage": "歌曲中指不願讓任何東西奪去重要的人事物；這題測抽象的失去。",
+          "prompt": "哪一句最自然、最正確地使用「take away」（依上述意思）？",
+          "options": [
+            "The accident took away his confidence, though he recovered later.",
+            "The prize took away her confidence by showing how skilled she was.",
+            "The good news took away his hope by proving the plan would work.",
+            "The compliment took away her joy by making her feel appreciated."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。事故使他失去信心，符合抽象用法。",
+            "錯誤。得獎通常提升信心，與被奪走相反。",
+            "錯誤。好消息證明計畫可行，通常帶來希望。",
+            "錯誤。受到讚美、感到被賞識與失去喜悅不合。"
+          ],
+          "sourceFile": "A_Thousand_Years_B1-C2_VERIFIED.md",
+          "sourceItem": 7,
+          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：take away）。",
+          "cue": "take away",
+          "explanation": "正確。事故使他失去信心，符合抽象用法。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依本次提供的核對版材料編排；歌曲線索與教學改寫分開呈現。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "How to + base verb（詢問做法）",
+          "meaning": "詢問或提出某件事的做法；常見於標題、筆記或口語省略句。",
+          "usage": "寫說明標題或簡短提出「該怎樣做」的問題時；完整問句通常用 How do I...?。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "“How to clean a bike” is a story about a fish that never sees a bike.",
+            "“How to make tea” is the name of a list of places with no instructions.",
+            "The guide is called “How to grow a tomato.” It shows each step.",
+            "The guide is called “How to sleep a sandwich.” It teaches lunch."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：標題承諾教清潔單車，內容卻完全無關。",
+            "錯誤：標題表示教泡茶的方法，內容卻沒有步驟。",
+            "正確：標題提出種番茄的方法，而內容也逐步說明。",
+            "錯誤：三明治不是會睡覺的對象，動作不合理。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "sourceWitness": "How to be brave? · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "How to be brave?",
+          "example": "How to open this box?",
+          "pattern": [
+            {
+              "text": "How to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞＋要完成的事]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：標題提出種番茄的方法，而內容也逐步說明。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "How can + subject + verb...?（能力／可能性）",
+          "meaning": "詢問一件事情有沒有可能做到，或可以怎樣做到。",
+          "usage": "遇到障礙，想找可行方法時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "How can we cross this river? There is a bridge nearby.",
+            "How can I open the box? It is already open and empty, so I must open it.",
+            "How can I find the museum? I am standing inside it and have found it.",
+            "How can I wake up? I am awake and talking to you right now."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：河流帶來問題，而橋提供可行方法。",
+            "錯誤：盒子已經打開，不需要再想如何打開。",
+            "錯誤：說話者已在博物館內，找尋的目標已完成。",
+            "錯誤：說話者已經醒來，問題與現況矛盾。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "sourceWitness": "How can I love · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "How can I love",
+          "example": "How can we reach the island?",
+          "pattern": [
+            {
+              "text": "How can",
+              "fixed": true
+            },
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "[原形動詞＋目標]?",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：河流帶來問題，而橋提供可行方法。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "when + clause（交代同時情況）",
+          "meaning": "交代某事在甚麼時間或情況下發生。",
+          "usage": "想指出一個動作與另一個時刻或情況的關係時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "When the music starts, the dancers begin to move.",
+            "When the music starts, the dancers begin before any music plays, because “when” means before.",
+            "I put on my boots when I finish swimming because I need them under water.",
+            "When the lights go out, the room gets brighter because there are no other lights."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：音樂開始時舞者也開始動，時間關係清楚。",
+            "錯誤：when 通常表示「當……時」，不是必然「在……之前」。",
+            "錯誤：游泳完才穿靴子，卻說是為了水中使用，前後不合。",
+            "錯誤：沒有其他光源時熄燈，不會因此更亮。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "sourceWitness": "when I’m afraid · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "when I’m afraid",
+          "example": "I smile when my plant grows.",
+          "pattern": [
+            {
+              "text": "[主要情況]",
+              "fixed": false
+            },
+            {
+              "text": "when",
+              "fixed": true
+            },
+            {
+              "text": "[發生的時間或情況]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：音樂開始時舞者也開始動，時間關係清楚。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "be afraid to + base verb（害怕採取行動）",
+          "meaning": "因為害怕或擔心而不敢做某個動作。",
+          "usage": "想說明某人不願嘗試、接近或進行某事的心理原因時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "I am afraid to speak, so I have no fear of speaking and love doing it on stage.",
+            "Mia is afraid to touch the snake, so she holds it at once without any fear.",
+            "The dog is afraid to run, so it wins every race by running without stopping.",
+            "Mia is afraid to touch the snake, so she stays behind the glass."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：前後對說話是否害怕作出相反描述。",
+            "錯誤：明說害怕，卻又說完全不怕，語意矛盾。",
+            "錯誤：害怕跑步與不斷跑步的情況沒有合理交代。",
+            "正確：因為怕蛇而保持距離，行動符合害怕的心情。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "sourceWitness": "afraid to fall · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "afraid to fall",
+          "example": "The boy is afraid to dive.",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "be afraid to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：因為怕蛇而保持距離，行動符合害怕的心情。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "but + clause（形成轉折）",
+          "meaning": "連接兩個帶有差異、意外或反差的情況。",
+          "usage": "想承認一件事，同時補充與預期不同的另一面時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "The sky is blue, but the sky is blue.",
+            "The path was long, but it was not short.",
+            "The cookie was sweet, but it had sugar in it.",
+            "The path was long, but the children still wanted to walk."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：前後完全重複，沒有對比。",
+            "錯誤：long 與 not short 重述相同意思。",
+            "錯誤：有糖通常能解釋甜味，不是明顯轉折。",
+            "正確：路很長卻仍想繼續走，構成合理轉折。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "sourceWitness": "But watching · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "But watching",
+          "example": "The tent is small, but it is warm.",
+          "pattern": [
+            {
+              "text": "[先提出的情況]",
+              "fixed": false
+            },
+            {
+              "text": "but",
+              "fixed": true
+            },
+            {
+              "text": "[相反或不同的一面]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：路很長卻仍想繼續走，構成合理轉折。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "watch + object + base verb（看見完整動作）",
+          "meaning": "表示觀察某人或某物做一個動作，著重動作整體。",
+          "usage": "看比賽、表演或目睹某個動作時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "We watched the chef cut the cake and put it on a plate.",
+            "We watched the chef to cut the cake and put it on a plate.",
+            "I watched the clock sing a song because it was hungry.",
+            "I watched the train leave, but I was asleep with my eyes closed for the whole trip."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：watch 後接對象及原形動詞，描述親眼看見切蛋糕。",
+            "錯誤：這個句型不在 cut 前加 to。",
+            "錯誤：一般時鐘不會因肚餓而唱歌，情境不合理。",
+            "錯誤：聲稱一直睡著，卻又說親眼看見火車離開。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "sourceWitness": "watching you stand · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "watching you stand",
+          "example": "We watched the bird fly away.",
+          "pattern": [
+            {
+              "text": "[觀察者]",
+              "fixed": false
+            },
+            {
+              "text": "watch",
+              "fixed": true
+            },
+            {
+              "text": "[對象]",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：watch 後接對象及原形動詞，描述親眼看見切蛋糕。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "all of + possessive + noun（全部）",
+          "meaning": "強調一組人或事物中的全部，而非部分。",
+          "usage": "要指出全部物品、想法或感受時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "All of our lanterns are on, so the whole street is bright.",
+            "All of my five coins are here, but I can only find two of them.",
+            "All of the chairs are ready, but no chair is ready.",
+            "All of our lanterns are on, but every lantern is off."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：所有燈籠都亮著，符合 all of 的全部範圍。",
+            "錯誤：聲稱五枚都在，卻只找到兩枚，內容衝突。",
+            "錯誤：全部準備好與沒有一張準備好互相矛盾。",
+            "錯誤：同時說全部亮和全部不亮。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "sourceWitness": "All of my doubt · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "All of my doubt",
+          "example": "All of my tickets are wet.",
+          "pattern": [
+            {
+              "text": "all of",
+              "fixed": true
+            },
+            {
+              "text": "[物主詞＋名詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：所有燈籠都亮著，符合 all of 的全部範圍。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "go away（消失／離開）",
+          "meaning": "表示離開某地，也可以表示感覺或問題逐漸消失。",
+          "usage": "描述噪音、氣味、疼痛或麻煩結束時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "The bad smell went away, so the room smelled worse than ever for the same reason.",
+            "The bad smell went away after we opened the windows.",
+            "The noise went away, and the same loud noise did not stop for one second.",
+            "The crowd went away, but every person stayed in exactly the same place."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：氣味消失與仍因此更難聞未能對應。",
+            "正確：開窗後難聞氣味消失，前後合理。",
+            "錯誤：噪音消失卻從未停止，說法矛盾。",
+            "錯誤：人群離開與每個人都沒有移動互相衝突。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "sourceWitness": "goes away · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "goes away",
+          "example": "The smell went away after an hour.",
+          "pattern": [
+            {
+              "text": "[人或情況]",
+              "fixed": false
+            },
+            {
+              "text": "go away",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：開窗後難聞氣味消失，前後合理。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "one step + comparative（更接近目標）",
+          "meaning": "表示距離某地或達成某事又近了一小步。",
+          "usage": "想鼓勵別人，說明計畫或學習有進展時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "We are one step closer to our goal, but we have made no progress at all and moved backward.",
+            "We have fixed one part of the boat, so we are one step closer to sailing.",
+            "We are one step closer to the top because we walked down the hill all day.",
+            "We are one step closer to finishing the picture because we erased all our work."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：宣稱更接近目標，卻又說只在倒退。",
+            "正確：修好一個部分代表完成出海準備又前進一步。",
+            "錯誤：一直往山下走，通常不會更接近山頂。",
+            "錯誤：把所有已完成的畫擦掉，通常不是接近完成。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "sourceWitness": "One step closer · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "One step closer",
+          "example": "We are one step closer to the finish line.",
+          "pattern": [
+            {
+              "text": "one step",
+              "fixed": true
+            },
+            {
+              "text": "closer",
+              "fixed": true
+            },
+            {
+              "text": "[to＋目標]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：修好一個部分代表完成出海準備又前進一步。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "present perfect: have/has + past participle（過去連到現在）",
+          "meaning": "強調過去發生的事情與現在仍有關聯。",
+          "usage": "想說明到現在為止已經完成、經歷或產生的改變時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "I have lost my hat, so it is still on my head and I never lost it.",
+            "We have cleaned the beach, but we have not done any cleaning at all.",
+            "The artist has finished the picture, but she has not started drawing it yet.",
+            "The artist has finished the picture, so we can see it now."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：說遺失帽子卻又說從未遺失。",
+            "錯誤：宣稱已清潔與完全沒有清潔矛盾。",
+            "錯誤：已完成與尚未開始不能同時成立。",
+            "正確：已完成的畫現在可以觀看，結果與現在相連。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "sourceWitness": "Time has brought · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "Time has brought",
+          "example": "The team has finished the bridge.",
+          "pattern": [
+            {
+              "text": "[人或事物]",
+              "fixed": false
+            },
+            {
+              "text": "have/has + 過去分詞",
+              "fixed": true
+            },
+            {
+              "text": "[事情]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：已完成的畫現在可以觀看，結果與現在相連。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "have/has + past participle + for + duration（持續多久）",
+          "meaning": "表示一種情況從過去延續到現在，並交代持續時間。",
+          "usage": "說住了多久、認識了多久或某個狀態持續了多久時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "The family has lived near the lake for five years, but they arrived there for the first time today.",
+            "The family has lived near the lake for five years and still lives there.",
+            "I have worked at this shop for ten years, but I was born last year.",
+            "She has known him for four years, but they met for the first time this morning."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：住了五年與今天才首次抵達互相矛盾。",
+            "正確：五年前開始居住而現在仍住在湖邊，符合持續用法。",
+            "錯誤：一歲的人不可能已工作十年。",
+            "錯誤：認識四年與今天首次相識互相衝突。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "sourceWitness": "I have loved ... for · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "I have loved ... for",
+          "example": "They have lived here for six years.",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "have/has + 過去分詞",
+              "fixed": true
+            },
+            {
+              "text": "for",
+              "fixed": true
+            },
+            {
+              "text": "[一段時間]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：五年前開始居住而現在仍住在湖邊，符合持續用法。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "for + quantity + more（再多一段／一些）",
+          "meaning": "表示在原本數量或時間之外再增加一些。",
+          "usage": "想表達延長停留、等待或再做幾次時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "We need three more chairs, but we already have all the chairs we need and need none.",
+            "We will stay for one more hour, which means we must leave one hour ago.",
+            "The fair is fun, so we will stay for one more hour.",
+            "I asked for two more tickets, so I asked for zero extra tickets."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：需要再加三張與完全不需要矛盾。",
+            "錯誤：增加一小時不代表一小時前已離開。",
+            "正確：希望再逗留一小時，more 清楚表示額外增加。",
+            "錯誤：two more 與 zero extra 意思相反。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "sourceWitness": "a thousand more · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "a thousand more",
+          "example": "We can stay for two more days.",
+          "pattern": [
+            {
+              "text": "for",
+              "fixed": true
+            },
+            {
+              "text": "[數量／時間]",
+              "fixed": false
+            },
+            {
+              "text": "more",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：希望再逗留一小時，more 清楚表示額外增加。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "will + base verb（未來承諾／決定）",
+          "meaning": "表達對未來的承諾、決定或預測。",
+          "usage": "答應幫忙、決定下一步或說明未來打算時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "I will bring the maps tomorrow, but I brought them tomorrow yesterday.",
+            "I will visit the farm next week, and next week was last month.",
+            "I will send you the photo tonight, but I promise never to send it at any time.",
+            "I will bring the maps tomorrow, so we can plan our walk."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：把 tomorrow 當成昨天發生的時間。",
+            "錯誤：next week 不可能等於上個月。",
+            "錯誤：答應今晚傳照片與永遠不傳的承諾衝突。",
+            "正確：說話者承諾明天帶地圖，時間與計畫一致。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "sourceWitness": "I will be brave · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "I will be brave",
+          "example": "I will help you tomorrow.",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "will",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞＋未來事情]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：說話者承諾明天帶地圖，時間與計畫一致。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "Don’t + base verb（否定祈使句）",
+          "meaning": "提醒、要求或勸告別人不要做某件事。",
+          "usage": "為安全、禮貌或避免犯錯而提出禁止或提醒時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "Don’t running near the pool; walk slowly.",
+            "Don’t open the gate, so please open it now.",
+            "Don’t feed the birds here; the sign says they need their own food.",
+            "Don’t to feed the birds here; the sign says stop."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：Don’t 後面應接 run，而不是 running。",
+            "錯誤：同時叫人不要開門又立即開門，指示矛盾。",
+            "正確：禁止餵鳥的提醒配合告示和原因。",
+            "錯誤：否定祈使句用原形 feed，不能加 to。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "sourceWitness": "don’t be afraid · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "don’t be afraid",
+          "example": "Don’t touch the wet paint.",
+          "pattern": [
+            {
+              "text": "Don’t",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞＋不應做的事]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：禁止餵鳥的提醒配合告示和原因。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "be + adjective（表達狀態）",
+          "meaning": "描述某人或某物所處的狀態或特質。",
+          "usage": "直接說明人、物或情況是怎樣時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "The little horse is calm and waits quietly beside its owner.",
+            "The little horse is asleep, and it is running and jumping at the same moment.",
+            "The lake is dry, so it is full of deep water everywhere.",
+            "The hall is empty, and three hundred guests are sitting inside it."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：安靜等待符合 calm 的狀態。",
+            "錯誤：睡著與同時跑跳的敘述互相矛盾。",
+            "錯誤：乾涸與處處深水互相衝突。",
+            "錯誤：空無一人與坐滿賓客不一致。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "sourceWitness": "I will be brave · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "I will be brave",
+          "example": "The climber is brave.",
+          "pattern": [
+            {
+              "text": "[人或事物]",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "[形容詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：安靜等待符合 calm 的狀態。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "let + object + base verb（允許／讓某人做）",
+          "meaning": "表示讓某人做某事，let 後面不用 to。",
+          "usage": "描述允許、阻止（not let）或給別人機會採取行動時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "The keeper let the penguins to swim after checking the water.",
+            "The keeper let the penguins swimming after checking the water.",
+            "The keeper let the penguins swim after checking the water.",
+            "The keeper did not let anyone enter, so everyone entered with his permission."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：let someone do 不用 to swim。",
+            "錯誤：此句型應用 swim，不用 swimming。",
+            "正確：let 後直接接對象與原形動詞 swim。",
+            "錯誤：禁止入內與所有人獲准入內互相矛盾。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "sourceWitness": "let anything take away · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "let anything take away",
+          "example": "The coach let us rest.",
+          "pattern": [
+            {
+              "text": "[允許者]",
+              "fixed": false
+            },
+            {
+              "text": "let",
+              "fixed": true
+            },
+            {
+              "text": "[對象]",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：let 後直接接對象與原形動詞 swim。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "not let + object + base verb（決定不讓）",
+          "meaning": "強調決心阻止某人或某件事帶來某種結果。",
+          "usage": "想保護目標、提出決心或設下限制時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "We will not let one small mistake stop our show; we will try again.",
+            "I will not let the rain stop our picnic, so I have cancelled it only because of rain.",
+            "They will not let the cold stop the race, so the race was cancelled only because it was cold.",
+            "We will not let one small mistake stop our show, so we have stopped the show forever because of it."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：有錯仍繼續表演，符合不讓小錯阻礙的決心。",
+            "錯誤：說不讓下雨影響，卻只因下雨取消活動。",
+            "錯誤：宣稱不受寒冷影響，卻正因寒冷取消比賽。",
+            "錯誤：說不讓錯誤阻止，卻因此永遠停演。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "sourceWitness": "will not let anything · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "will not let anything",
+          "example": "I will not let the wind ruin our game.",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "will not let",
+              "fixed": true
+            },
+            {
+              "text": "[對象]",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：有錯仍繼續表演，符合不讓小錯阻礙的決心。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "anything + singular verb（任何事物）",
+          "meaning": "表示任何一件事或任何事物；作主詞時通常視為單數。",
+          "usage": "強調沒有例外，或不讓任何事情發生時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "You can choose anything, but you may not choose any item at all.",
+            "Anything in this box are broken, so we cannot use it.",
+            "Nothing in this bag is mine, so you can take anything you need.",
+            "I did not bring anything, but I brought five things and nothing else."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：說任選卻又禁止選任何一樣，語意衝突。",
+            "錯誤：anything 作主詞要用 is，而不是 are。",
+            "正確：anything 指袋中的任意物品，使用語境合理。",
+            "錯誤：說沒帶任何東西，卻又說帶了五樣。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "sourceWitness": "anything take away · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "anything take away",
+          "example": "Anything is possible in this game.",
+          "pattern": [
+            {
+              "text": "anything",
+              "fixed": true
+            },
+            {
+              "text": "[單數動詞／相關敘述]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：anything 指袋中的任意物品，使用語境合理。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "take + object + away（拿走）",
+          "meaning": "把某物從原來的地方移走。",
+          "usage": "清理、搬走或要求某物不要留在眼前時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "After the market, workers took the boxes away, but every box stayed there.",
+            "The chef took the soup away by leaving it in exactly the same place.",
+            "After the market, workers took the empty boxes away.",
+            "The farmer took the old gate away, so the same gate was still in its old place."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：已搬走與全部留下互相矛盾。",
+            "錯誤：原封不動留在原處並非拿走。",
+            "正確：工作人員把空箱搬離，符合 take ... away。",
+            "錯誤：宣稱搬走卻仍在原位，情況不一致。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "sourceWitness": "take away · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "take away",
+          "example": "Please take the broken chair away.",
+          "pattern": [
+            {
+              "text": "[動作者]",
+              "fixed": false
+            },
+            {
+              "text": "take",
+              "fixed": true
+            },
+            {
+              "text": "[物品]",
+              "fixed": false
+            },
+            {
+              "text": "away",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：工作人員把空箱搬離，符合 take ... away。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "what + clause（名詞性關係子句）",
+          "meaning": "把「……的事情／東西」整體當作名詞使用。",
+          "usage": "想強調自己需要、看見或想知道的事物時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "What I want is some water, but I do not want any water at all.",
+            "What she found was an empty nest, but she found nothing and saw no nest.",
+            "What we need are a ladder because the window is very high.",
+            "What we need is a ladder because the window is very high."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：說想要水卻又說完全不想要。",
+            "錯誤：聲稱發現鳥巢又說甚麼也沒發現。",
+            "錯誤：以單一需求作整體主詞時，這裡應用 is。",
+            "正確：What we need 作整體主詞，後面清楚指出所需物品。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "sourceWitness": "What’s standing · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "What’s standing",
+          "example": "What we need is a dry map.",
+          "pattern": [
+            {
+              "text": "what",
+              "fixed": true
+            },
+            {
+              "text": "[完整子句的其餘部分]",
+              "fixed": false
+            },
+            {
+              "text": "[句中功能／結果]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：What we need 作整體主詞，後面清楚指出所需物品。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "be + -ing（現在進行的動作）",
+          "meaning": "表示目前正在進行的活動或暫時情況。",
+          "usage": "描述眼前正在發生的動作時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "The robot is moving now, but it has never moved and is completely still now.",
+            "The dancers are practising now, but practice will not start until next year.",
+            "The baby is sleeping now, and is playing football awake at this exact moment.",
+            "The robot is moving across the floor now, so we must stay clear."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：同一時間說正在移動又完全靜止。",
+            "錯誤：目前正在練習與明年才開始互相衝突。",
+            "錯誤：同一時刻睡著與清醒踢球不合常理。",
+            "正確：機械人現在移動，提醒旁人保持距離合理。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "sourceWitness": "What’s standing · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "What’s standing",
+          "example": "The robot is carrying a small box.",
+          "pattern": [
+            {
+              "text": "[人或事物]",
+              "fixed": false
+            },
+            {
+              "text": "am/is/are + -ing",
+              "fixed": true
+            },
+            {
+              "text": "[進行中的動作]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：機械人現在移動，提醒旁人保持距離合理。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "in front of + noun（位置）",
+          "meaning": "表示位置在另一個人或物的前方。",
+          "usage": "描述座位、隊伍、路線或物品位置時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "The guide stood in front of the group so everyone could see her.",
+            "The guide stood in front of the group, directly behind every person in it.",
+            "The sign is in front of the shop, but it is ten streets behind the shop.",
+            "I stood in front of the mirror, but the mirror was far away in another country."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：領隊在隊伍前方，方便大家看見。",
+            "錯誤：同時在隊伍前與每人身後，位置矛盾。",
+            "錯誤：招牌不能同時在店前與相隔十條街的店後。",
+            "錯誤：鏡子遠在另一國，難以同時站在它前面。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "sourceWitness": "in front of me · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "in front of me",
+          "example": "The drummer is in front of the stage.",
+          "pattern": [
+            {
+              "text": "[人或物的位置]",
+              "fixed": false
+            },
+            {
+              "text": "in front of",
+              "fixed": true
+            },
+            {
+              "text": "[參照物]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：領隊在隊伍前方，方便大家看見。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "every + singular noun（每一個）",
+          "meaning": "逐一指整組中的每個成員；名詞通常用單數。",
+          "usage": "想強調每次、每人、每一天或每個物品都包括在內時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "Every child got a gift, but half of the children got no gift.",
+            "Every player has a number on the back of their shirt.",
+            "Every players has a number on the back of their shirt.",
+            "Every boat have a light, and each boat has one light."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：每個孩子都收到與一半沒有收到相矛盾。",
+            "正確：every 後接單數 player，has 也與主詞一致。",
+            "錯誤：every 後面的可數名詞通常用單數 player。",
+            "錯誤：every boat 作單數主詞，應用 has。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "sourceWitness": "Every hour · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "Every hour",
+          "example": "Every window has a blue star.",
+          "pattern": [
+            {
+              "text": "every",
+              "fixed": true
+            },
+            {
+              "text": "[單數名詞]",
+              "fixed": false
+            },
+            {
+              "text": "[單數動詞及敘述]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：every 後接單數 player，has 也與主詞一致。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "come to + noun（走到某個階段／結果）",
+          "meaning": "表示一件事情經過發展後到達某個結果或階段。",
+          "usage": "回顧活動如何走到現在這一步時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "The show has come to its final song, and the first song has not begun yet.",
+            "After months of work, our new garden has come to life.",
+            "Our trip has come to an end, so it has not started yet and has no end.",
+            "The long wait has come to an end, but we still have exactly the same wait ahead."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：已到最後一首但第一首尚未開始，情況不合。",
+            "正確：花園經過數月努力終於有生氣，表示發展的結果。",
+            "錯誤：已到終點與尚未開始並列而未作合理解釋。",
+            "錯誤：等待已結束卻仍完全未結束，語意衝突。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "sourceWitness": "has come to this · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "has come to this",
+          "example": "Our long trip has come to an end.",
+          "pattern": [
+            {
+              "text": "[事情／過程]",
+              "fixed": false
+            },
+            {
+              "text": "come to",
+              "fixed": true
+            },
+            {
+              "text": "[結果或階段]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：花園經過數月努力終於有生氣，表示發展的結果。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "all along + clause（一直以來）",
+          "meaning": "從很早以前到現在或某個後來時點一直如此。",
+          "usage": "想說自己早就知道、相信或懷疑某事時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "All along, Dad knew where the kite was, but he learned its place only just now and had no idea before.",
+            "All along, I thought the museum was closed, but I never had that thought until this second.",
+            "All along, Dad knew where the missing kite was; he put it in the shed.",
+            "All along, she had the key, but she did not get it until tomorrow for the first time."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：一直知道與剛剛才第一次知道相反。",
+            "錯誤：一直這樣想與此刻才首次想到互相矛盾。",
+            "正確：爸爸早已把風箏收起，因而一直知道位置。",
+            "錯誤：一直持有與直到明天才取得不能同時成立。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "sourceWitness": "all along · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "all along",
+          "example": "All along, I knew the answer.",
+          "pattern": [
+            {
+              "text": "all along",
+              "fixed": true
+            },
+            {
+              "text": "[一直成立的想法或事實]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：爸爸早已把風箏收起，因而一直知道位置。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "believe (that) + clause（相信一件事）",
+          "meaning": "說明某人相信某個判斷或結果。",
+          "usage": "表達信心、希望或對未知結果的想法時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "I believed the bridge was safe, but I was certain it was not safe at that same time.",
+            "I believed our small boat could reach the island because the sea was calm.",
+            "She believes her dog can talk, because it says words every day, although it never makes a sound.",
+            "I believed the box was empty because I looked inside and saw it was full of toys."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：同時完全相信安全又確定不安全，沒有合理區分。",
+            "正確：平靜海面支持對小船能到島上的信心。",
+            "錯誤：以每天說話作證據，卻又說從未發聲。",
+            "錯誤：親眼看到滿盒玩具，卻用它支持「盒子是空的」。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "sourceWitness": "I believed · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "I believed",
+          "example": "I believed that the plan would work.",
+          "pattern": [
+            {
+              "text": "[相信的人]",
+              "fixed": false
+            },
+            {
+              "text": "believe (that)",
+              "fixed": true
+            },
+            {
+              "text": "[相信的內容]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：平靜海面支持對小船能到島上的信心。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "would + base verb（過去視角的未來）",
+          "meaning": "從過去某一刻看，談當時尚未發生的將來事情。",
+          "usage": "轉述以前的希望、承諾或預測時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "Yesterday, I knew the train would arrive today, but today happened ten years ago.",
+            "She said yesterday that the light would turn on tonight, but she said it after tonight ended next week.",
+            "Last Monday, I believed the seeds would grow, and Monday is tomorrow for the first time.",
+            "Last Monday, I believed the seeds would grow, and today I can see small leaves."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：昨天、今天與十年前的時間設定互相衝突。",
+            "錯誤：昨天的說話時間不可能發生在下星期今晚結束之後。",
+            "錯誤：把已過的星期一又說成第一次的明天。",
+            "正確：星期一的預測指向後來的發芽，時間順序清楚。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "sourceWitness": "I would find you · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "I would find you",
+          "example": "I knew the train would arrive soon.",
+          "pattern": [
+            {
+              "text": "[過去的想法或說法]",
+              "fixed": false
+            },
+            {
+              "text": "would",
+              "fixed": true
+            },
+            {
+              "text": "[當時仍屬未來的動作]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：星期一的預測指向後來的發芽，時間順序清楚。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "bring + object + to + person/place（帶來）",
+          "meaning": "將某人或某物帶到另一人身邊或某個地方。",
+          "usage": "說明東西如何到達、由誰帶來或交給誰時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "The baker brought fresh bread to the market before sunrise.",
+            "The baker brought bread to the market, but the bread never left his kitchen.",
+            "She brought the map to us, but nobody carried or sent any map to us.",
+            "The wind brought the boat to shore, but the boat stayed far out at sea."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：麵包師把麵包送到市場，目的地清楚。",
+            "錯誤：已帶到市場與從未離開廚房互相矛盾。",
+            "錯誤：說帶來地圖又說沒有人送來任何地圖。",
+            "錯誤：說船已靠岸卻仍在遠海，結果矛盾。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "sourceWitness": "has brought your heart to me · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "has brought your heart to me",
+          "example": "The postman brought a letter to our house.",
+          "pattern": [
+            {
+              "text": "[帶來者]",
+              "fixed": false
+            },
+            {
+              "text": "bring/brought",
+              "fixed": true
+            },
+            {
+              "text": "[物品]",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "[接受者／地點]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：麵包師把麵包送到市場，目的地清楚。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 29,
+          "word": "verb + -ing adjunct（同時進行／背景動作）",
+          "meaning": "用 -ing 片語補充主要動作發生時的伴隨情況。",
+          "usage": "想在一句話中描寫邊走邊做、邊等邊看等情況時。",
+          "prompt": "哪一句正確運用了以上的句型及其功能？",
+          "options": [
+            "He cooked dinner, sleeping deeply in a bed in another town at the same time.",
+            "The children waited outside, holding paper stars for the show.",
+            "She watched the race, looking at nothing because she had never gone near it.",
+            "The children waited outside, holding stars that they had left at home and never touched."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：在另一城鎮熟睡與同時親自煮晚餐不合常理。",
+            "正確：等候時手持紙星星，-ing 交代伴隨動作。",
+            "錯誤：聲稱觀看比賽，卻完全沒有接近或看見比賽。",
+            "錯誤：星星一直留在家中而未碰過，不可能同時拿著。"
+          ],
+          "sourceFile": "A_Thousand_Years_SOURCE_VERIFIED.md",
+          "sourceItem": 29,
+          "sourceWitness": "every day waiting for you · supplied song PDF, lyric page(s) 2–3.",
+          "cue": "every day waiting for you",
+          "example": "She walked home holding a red balloon.",
+          "pattern": [
+            {
+              "text": "[主要動作]",
+              "fixed": false
+            },
+            {
+              "text": "動詞 -ing",
+              "fixed": true
+            },
+            {
+              "text": "[同時進行／伴隨的事情]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：等候時手持紙星星，-ing 交代伴隨動作。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "filename": "A_Thousand_Years_B1-C2_VERIFIED.md",
+      "sha256": "e18ad502de14a5a904dc9c449a291a4c32b457091207982b5a25942f27964509",
+      "section": "advanced"
+    },
+    {
+      "filename": "A_Thousand_Years_SOURCE_VERIFIED.md",
+      "sha256": "840ceeb7dfcf3a49b713a070a2f1b8808aeaaf2beaa1bffb7f75f94ad414b59e",
+      "section": "structure"
+    }
+  ]
 }

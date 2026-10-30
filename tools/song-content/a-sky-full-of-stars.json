@@ -2436,5 +2436,987 @@
     "method": "faster-whisper-word-alignment-with-targeted-section-review",
     "audioSha256": "fc7e37c3e37b1d8aeffd1779b8feb3ef2eac5d91a405995797b8cf53990296a0",
     "duration": 274.576
-  }
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依本次提供的核對版材料編排；程度標籤為教學參考。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "light up the path (B1–B2)",
+          "meaning": "照亮道路；比喻提供方向",
+          "usage": "可用於照明，也能比喻某個人或建議指引前路。",
+          "prompt": "哪一句最自然、最正確地使用「light up the path」（依上述意思）？",
+          "options": [
+            "Her clear advice lit up the path when the plan felt confusing.",
+            "The new rule lit up the path by hiding the directions.",
+            "The empty map lit up the path by removing every street name.",
+            "The broken sign lit up the path by pointing in four wrong ways."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。清晰建議讓人找到方向，符合比喻。",
+            "錯誤。隱藏方向與指引相反。",
+            "錯誤。刪掉街名不會提供方向。",
+            "錯誤。錯誤指示不等於照亮道路。"
+          ],
+          "sourceFile": "A_Sky_Full_of_Stars_B1-C2_VERIFIED.md",
+          "sourceItem": 1,
+          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：light up the path）。",
+          "cue": "light up the path",
+          "explanation": "正確。清晰建議讓人找到方向，符合比喻。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "tear me apart (B2)",
+          "meaning": "使我痛苦不堪；讓我心碎",
+          "usage": "本題測感情受創的比喻義，不是撕紙的字面義。",
+          "prompt": "哪一句最自然、最正確地使用「tear me apart」（依上述意思）？",
+          "options": [
+            "The sad news tore me apart, and I could hardly speak.",
+            "The warm tea tore me apart, and I felt calm at once.",
+            "The funny joke tore me apart, and I slept peacefully.",
+            "The free ticket tore me apart, and I danced with joy."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。傷心消息令說話者極度痛苦，最符合此義。",
+            "錯誤。平靜的茶與痛苦不堪相矛盾。",
+            "錯誤。開心的笑話及安睡不支持悲痛義。",
+            "錯誤。喜悅跳舞與「心碎」相反。"
+          ],
+          "sourceFile": "A_Sky_Full_of_Stars_B1-C2_VERIFIED.md",
+          "sourceItem": 2,
+          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：tear me apart）。",
+          "cue": "tear me apart",
+          "explanation": "正確。傷心消息令說話者極度痛苦，最符合此義。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "give you my heart (B2)",
+          "meaning": "把真心交給你；全心信任或愛你",
+          "usage": "以心象徵深情與投入；不表示真的交出身體器官。",
+          "prompt": "哪一句最自然、最正確地使用「give you my heart」（依上述意思）？",
+          "options": [
+            "The nurse gave you my heart inside a paper shopping bag.",
+            "The builder gave you my heart with a hammer and nails.",
+            "I gave you my heart because I trusted you completely.",
+            "The waiter gave you my heart with two plates of pasta."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。把心臟當商品交付，不是本題比喻義。",
+            "錯誤。錘子和釘子無法表達情感投入。",
+            "正確。全然信任並交付感情，符合比喻。",
+            "錯誤。餐點服務不能自然表示付出真心。"
+          ],
+          "sourceFile": "A_Sky_Full_of_Stars_B1-C2_VERIFIED.md",
+          "sourceItem": 3,
+          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：give you my heart）。",
+          "cue": "give you my heart",
+          "explanation": "正確。全然信任並交付感情，符合比喻。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "get lighter (B1–B2)",
+          "meaning": "變得更明亮；變得較輕",
+          "usage": "歌曲中是黑暗中越發明亮；本題選「亮度變強」的意思。",
+          "prompt": "哪一句最自然、最正確地使用「get lighter」（依上述意思）？",
+          "options": [
+            "The bag got lighter when we painted it a deeper black.",
+            "The sky got lighter as the sun began to rise.",
+            "The road got lighter when the streetlamps went out.",
+            "The room got lighter when we closed every curtain."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。塗深黑可能談色彩，但此處不自然表示變亮。",
+            "正確。日出後天空逐漸明亮，符合語義。",
+            "錯誤。路燈熄滅通常讓路更暗。",
+            "錯誤。關緊窗簾通常使室內更暗。"
+          ],
+          "sourceFile": "A_Sky_Full_of_Stars_B1-C2_VERIFIED.md",
+          "sourceItem": 4,
+          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：get lighter）。",
+          "cue": "get lighter",
+          "explanation": "正確。日出後天空逐漸明亮，符合語義。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "heavenly (C1)",
+          "meaning": "美妙得像天堂一樣；極其美好",
+          "usage": "可讚賞食物、聲音、風景或氣氛；不是字面上「位於天堂」。",
+          "prompt": "哪一句最自然、最正確地使用「heavenly」（依上述意思）？",
+          "options": [
+            "The burnt soup tasted heavenly because everyone spat it out.",
+            "The broken alarm sounded heavenly, and everyone covered their ears.",
+            "The muddy water tasted heavenly because it smelled of petrol.",
+            "The choir sounded heavenly, and the hall fell silent."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。難吃到吐出來的湯不適合讚為 heavenly。",
+            "錯誤。刺耳警報與美妙的聲音相反。",
+            "錯誤。汽油味的泥水不符合美好的讚賞。",
+            "正確。合唱美妙動聽，令人屏息，使用自然。"
+          ],
+          "sourceFile": "A_Sky_Full_of_Stars_B1-C2_VERIFIED.md",
+          "sourceItem": 5,
+          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：heavenly）。",
+          "cue": "heavenly",
+          "explanation": "正確。合唱美妙動聽，令人屏息，使用自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依本次提供的核對版材料編排；歌曲線索與教學改寫分開呈現。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "because / ’cause + reason",
+          "meaning": "用後面的原因解釋前面的事；’cause 是歌曲中的口語縮寫。",
+          "usage": "想回答「為甚麼？」或解釋一個結果時。",
+          "prompt": "哪一句最正確地運用了以上的句型及其功能？",
+          "options": [
+            "The flowers grew because we forgot to plant any flowers.",
+            "The flowers grew because we watered them every day.",
+            "I wore sunglasses because I wanted the sun to shine inside my eyes.",
+            "The fish can fly because it has a bicycle."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：連花也沒有種，不能用這個原因解釋花朵生長。",
+            "正確：每天澆水能解釋花朵生長，因果關係合理。",
+            "錯誤：戴太陽眼鏡是為了減少陽光入眼，所說目的相反。",
+            "錯誤：魚擁有單車並不能解釋牠會飛，因果不成立。"
+          ],
+          "sourceFile": "A_Sky_Full_Of_Stars_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "sourceWitness": "’Cause · supplied song PDF, lyric page(s) 2.",
+          "cue": "’Cause you light up the path",
+          "example": "The plants grew because we gave them water.",
+          "pattern": [
+            {
+              "text": "[先說的情況或結果]",
+              "fixed": false
+            },
+            {
+              "text": "because",
+              "fixed": true
+            },
+            {
+              "text": "[原因]",
+              "fixed": false
+            }
+          ],
+          "context": "社區花園",
+          "explanation": "正確：每天澆水能解釋花朵生長，因果關係合理。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "subject + be + noun (metaphorical identification)",
+          "meaning": "用一個名詞比喻另一個人或事物，表達相似的特質，而非字面身份。",
+          "usage": "想用簡單而有畫面感的方式讚美、形容或表達感受時。",
+          "prompt": "哪一句最正確地運用了以上的句型及其功能？",
+          "options": [
+            "My uncle is a real train; he has wheels and runs on the railway every morning.",
+            "The new teacher is a warm light for us; she helps us feel safe.",
+            "My sister is the moon because she lives on the moon and is made of rock.",
+            "Our football coach is a clock, so we must put batteries in his back."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：句子把人描述成真的火車，沒有建立合理的比喻。",
+            "正確：把老師比作溫暖的光，是形容她令人安心的比喻。",
+            "錯誤：句子主張妹妹真的住在月球且由岩石構成，並非恰當比喻。",
+            "錯誤：把教練當成要裝電池的時鐘，沒有合理的比喻關係。"
+          ],
+          "sourceFile": "A_Sky_Full_Of_Stars_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "sourceWitness": "you’re a sky · supplied song PDF, lyric page(s) 2.",
+          "cue": "you’re a sky",
+          "example": "My grandma is the sun in our family.",
+          "pattern": [
+            {
+              "text": "[要形容的人或事]",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "[用作比喻的名詞]",
+              "fixed": false
+            }
+          ],
+          "context": "兒童圖書館",
+          "explanation": "正確：把老師比作溫暖的光，是形容她令人安心的比喻。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "noun + full of + noun",
+          "meaning": "表示某處或某物充滿某種東西。",
+          "usage": "想具體描述一個地方、容器或畫面裏有很多甚麼時。",
+          "prompt": "哪一句最正確地運用了以上的句型及其功能？",
+          "options": [
+            "The beach was full of people on the sunny holiday.",
+            "The tank is full of fish, but there are no fish in it at all.",
+            "The empty basket was full of apples, but nobody had put anything in it.",
+            "This glass is full of songs, so I can drink the music."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：晴天假期沙灘有很多人，full of 的描述合理。",
+            "錯誤：前後同時說魚缸有很多魚和完全沒有魚，互相矛盾。",
+            "錯誤：籃子既是空的又裝滿蘋果，說法矛盾。",
+            "錯誤：歌曲不能像飲料一樣裝在玻璃杯中供人喝。"
+          ],
+          "sourceFile": "A_Sky_Full_Of_Stars_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "sourceWitness": "sky full of stars · supplied song PDF, lyric page(s) 2.",
+          "cue": "sky full of stars",
+          "example": "We found a box full of old letters.",
+          "pattern": [
+            {
+              "text": "[容器／地方／事物]",
+              "fixed": false
+            },
+            {
+              "text": "full of",
+              "fixed": true
+            },
+            {
+              "text": "[大量存在的東西]",
+              "fixed": false
+            }
+          ],
+          "context": "海洋展覽",
+          "explanation": "正確：晴天假期沙灘有很多人，full of 的描述合理。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "be going to + base verb (intention)",
+          "meaning": "說明已打算在將來做的事；gonna 是非正式口語。",
+          "usage": "談已決定的計畫，或根據眼前情況作預測時。",
+          "prompt": "哪一句最正確地運用了以上的句型及其功能？",
+          "options": [
+            "Our class is going to make a large paper bird for the festival on Saturday.",
+            "We are going to paint the wall tomorrow, but we finished it last year and will never paint it again.",
+            "The band is going to sing tomorrow, but the concert ended forever yesterday.",
+            "She is going to danced on stage next week."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：班級已計畫星期六為節日製作紙鳥，時間與目的清楚。",
+            "錯誤：明天的計畫與早已完成且不再做的說法直接衝突。",
+            "錯誤：演唱會已永久結束，與明天演出的計畫不一致。",
+            "錯誤：going to 後應接原形 dance，不能用 danced。"
+          ],
+          "sourceFile": "A_Sky_Full_Of_Stars_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "sourceWitness": "I’m gonna give · supplied song PDF, lyric page(s) 2.",
+          "cue": "I’m gonna",
+          "example": "We are going to paint the old gate.",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "am/is/are going to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞及計畫]",
+              "fixed": false
+            }
+          ],
+          "context": "街頭藝術節",
+          "explanation": "正確：班級已計畫星期六為節日製作紙鳥，時間與目的清楚。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "give + person + thing (two objects)",
+          "meaning": "先說收取的人，再說給予的東西；可改寫成 give something to someone。",
+          "usage": "送禮物、傳遞物品或表達付出時。",
+          "prompt": "哪一句最正確地運用了以上的句型及其功能？",
+          "options": [
+            "The baker gave a cake his neighbour to say thanks.",
+            "The guide gave the map to us a river.",
+            "The artist gave the visitors small pictures after the show.",
+            "The robot gave the children nothing, so they each received a new toy from it."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：若先說東西，應用 gave a cake to his neighbour。",
+            "錯誤：句尾多出 a river，不能這樣接在雙受詞結構後。",
+            "正確：畫家把小畫送給參觀者，收取者和禮物位置正確。",
+            "錯誤：機器人既沒有給東西，又被說成送了每人玩具，前後不一致。"
+          ],
+          "sourceFile": "A_Sky_Full_Of_Stars_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "sourceWitness": "give you my heart · supplied song PDF, lyric page(s) 2.",
+          "cue": "give you my heart",
+          "example": "Dad gave me a small camera.",
+          "pattern": [
+            {
+              "text": "[給予者]",
+              "fixed": false
+            },
+            {
+              "text": "give",
+              "fixed": true
+            },
+            {
+              "text": "[收取者]",
+              "fixed": false
+            },
+            {
+              "text": "[給予的東西]",
+              "fixed": false
+            }
+          ],
+          "context": "手作禮物市集",
+          "explanation": "正確：畫家把小畫送給參觀者，收取者和禮物位置正確。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "light + object + up / light up + object",
+          "meaning": "使地方變亮；也可比喻讓某人的表情變得開心。",
+          "usage": "描寫燈光、節日或讓人精神一振的事時。",
+          "prompt": "哪一句最正確地運用了以上的句型及其功能？",
+          "options": [
+            "The lights lit up the dark road because every light was switched off.",
+            "The paper fish lit up the room with its loud singing, though it had no lights.",
+            "The candles lit up the sea from a town a thousand miles away.",
+            "The lights on the boats lit up the river at night."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：所有燈都關掉，便不能以亮光照亮道路。",
+            "錯誤：沒有光源的紙魚靠唱歌令房間變亮，與字面用法不符。",
+            "錯誤：遠處城鎮的蠟燭無法照亮相隔千里的海面。",
+            "正確：船燈在夜裏照亮河面，使用和情境都自然。"
+          ],
+          "sourceFile": "A_Sky_Full_Of_Stars_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "sourceWitness": "light up the path · supplied song PDF, lyric page(s) 2.",
+          "cue": "light up the path",
+          "example": "The lanterns lit up the bridge.",
+          "pattern": [
+            {
+              "text": "[光源或令人開心的事]",
+              "fixed": false
+            },
+            {
+              "text": "light up",
+              "fixed": true
+            },
+            {
+              "text": "[被照亮的地方／人]",
+              "fixed": false
+            }
+          ],
+          "context": "夜間船遊",
+          "explanation": "正確：船燈在夜裏照亮河面，使用和情境都自然。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "I don’t care (independent response)",
+          "meaning": "表達自己對選擇沒有強烈偏好；語氣較直接。",
+          "usage": "別人問你要選甚麼，而兩個選擇對你都可以時。",
+          "prompt": "哪一句最正確地運用了以上的句型及其功能？",
+          "options": [
+            "We can use the green tent or the yellow one. I don’t care; both are fine.",
+            "The only safe boat has a hole in it, but I don’t care; we must use it.",
+            "The museum is on fire, but I don’t care because fire is always safe.",
+            "I don’t care which cake we choose, but I will only accept the blue cake."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：兩個帳篷都可以，表達沒有偏好。",
+            "錯誤：船有洞涉及安全，不適合以不在乎作為使用理由。",
+            "錯誤：火災有危險，並非合理的無所謂選擇。",
+            "錯誤：說不介意選哪個，卻只接受一個選項，意思衝突。"
+          ],
+          "sourceFile": "A_Sky_Full_Of_Stars_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "sourceWitness": "I don’t care · supplied song PDF, lyric page(s) 2.",
+          "cue": "I don’t care",
+          "example": "We can sit near the door or the window. I don’t care.",
+          "pattern": [
+            {
+              "text": "[兩個選擇或某件事]",
+              "fixed": false
+            },
+            {
+              "text": "I don’t care.",
+              "fixed": true
+            }
+          ],
+          "context": "露營座位",
+          "explanation": "正確：兩個帳篷都可以，表達沒有偏好。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "go on and + base verb (encouraging command)",
+          "meaning": "叫對方繼續做或放心做某事；可帶鼓勵、挑戰或不耐煩語氣。",
+          "usage": "鼓勵別人採取行動、接著說下去，或提出挑戰時。",
+          "prompt": "哪一句最正確地運用了以上的句型及其功能？",
+          "options": [
+            "Go on and open the box, but you must keep it closed forever.",
+            "Go on and tell your story; I never want to hear any of it.",
+            "Go on and show us your trick! We are ready to watch.",
+            "Go on and take the next step while standing still and not moving at all."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：叫人打開盒子，卻要求永遠保持關閉，指示相反。",
+            "錯誤：鼓勵繼續說故事，卻表示完全不想聽，語意不一致。",
+            "正確：觀眾準備好後鼓勵魔術師表演，符合指令功能。",
+            "錯誤：要求往前走一步，同時完全不移動，動作矛盾。"
+          ],
+          "sourceFile": "A_Sky_Full_Of_Stars_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "sourceWitness": "go on and tear · supplied song PDF, lyric page(s) 2.",
+          "cue": "go on and tear",
+          "example": "Go on and try the puzzle.",
+          "pattern": [
+            {
+              "text": "Go on and",
+              "fixed": true
+            },
+            {
+              "text": "[鼓勵對方繼續／開始做的動作]",
+              "fixed": false
+            }
+          ],
+          "context": "魔術表演",
+          "explanation": "正確：觀眾準備好後鼓勵魔術師表演，符合指令功能。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "tear + object + apart (separable phrasal verb)",
+          "meaning": "字面指撕成碎片；比喻可指令人十分難過。",
+          "usage": "描述紙張被撕碎，或情感受到強烈傷害時。",
+          "prompt": "哪一句最正確地運用了以上的句型及其功能？",
+          "options": [
+            "She tore the paper apart by putting it safely in a box without touching it.",
+            "The chef tore the water apart and served it in a cup.",
+            "The children tore the old paper apart to make small pieces for their art.",
+            "The old map was torn apart, but it was still one perfect piece."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：紙只是被好好放著，不能因此說已經撕碎。",
+            "錯誤：水不能像紙一樣被撕成碎片。",
+            "正確：把舊紙撕成小片做美勞，符合 tear ... apart 的字面用法。",
+            "錯誤：地圖既被撕碎又完全是一張完好的紙，互相矛盾。"
+          ],
+          "sourceFile": "A_Sky_Full_Of_Stars_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "sourceWitness": "tear me apart · supplied song PDF, lyric page(s) 2.",
+          "cue": "tear me apart",
+          "example": "The child tore the old map apart.",
+          "pattern": [
+            {
+              "text": "[行動者]",
+              "fixed": false
+            },
+            {
+              "text": "tear",
+              "fixed": true
+            },
+            {
+              "text": "[受影響的人／物]",
+              "fixed": false
+            },
+            {
+              "text": "apart",
+              "fixed": true
+            }
+          ],
+          "context": "探險地圖",
+          "explanation": "正確：把舊紙撕成小片做美勞，符合 tear ... apart 的字面用法。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "I don’t care if + clause (concession)",
+          "meaning": "即使某種情況出現，說話者也不在意或不打算改變決定。",
+          "usage": "想表示某個條件不會影響自己的態度或選擇時。",
+          "prompt": "哪一句最正確地運用了以上的句型及其功能？",
+          "options": [
+            "I don’t care if the seats are wet, so I will only sit on a dry seat and will leave otherwise.",
+            "I don’t care if the gate is closed, because I must see it open before I can go in.",
+            "I don’t care if I lose my ticket, but losing it is the only thing that will stop me.",
+            "I don’t care if the chairs are old; I can still enjoy the film."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：聲稱不介意座位濕，卻把乾座位當成唯一條件。",
+            "錯誤：句子承認閘門是否關閉會影響能否入內，與不在意的用法衝突。",
+            "錯誤：聲稱不在意遺失門票，卻說這是唯一會阻止自己的事。",
+            "正確：椅子雖然舊，仍可享受電影，條件不影響態度。"
+          ],
+          "sourceFile": "A_Sky_Full_Of_Stars_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "sourceWitness": "I don’t care if · supplied song PDF, lyric page(s) 2.",
+          "cue": "I don’t care if you do",
+          "example": "I don’t care if it is cold; I still want to swim.",
+          "pattern": [
+            {
+              "text": "I don’t care if",
+              "fixed": true
+            },
+            {
+              "text": "[可能發生／已知的情況]",
+              "fixed": false
+            },
+            {
+              "text": "[仍然不改變的態度]",
+              "fixed": false
+            }
+          ],
+          "context": "戶外電影",
+          "explanation": "正確：椅子雖然舊，仍可享受電影，條件不影響態度。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "do as a substitute for an earlier action",
+          "meaning": "用 do 等形式代替前面已提到的動作，避免重複。",
+          "usage": "上句已清楚交代動作，下一句要再提同一動作時。",
+          "prompt": "哪一句最正確地運用了以上的句型及其功能？",
+          "options": [
+            "Please send the photo. If you do, I will never receive the photo you send.",
+            "If you do, I will bring it; I have not mentioned any action and nobody knows what do means.",
+            "The dog can read a book. If it do, it will tell me the ending.",
+            "You can send me a photo. If you do, I will show it to my grandma."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：寄出照片與「永遠收不到已寄出的同一照片」互相矛盾。",
+            "錯誤：前文沒有可代替的動作，do 的指涉不清楚。",
+            "錯誤：主詞 it 在現在式應使用 does；整個情境也不自然。",
+            "正確：do 代替前句的 send me a photo，避免重複。"
+          ],
+          "sourceFile": "A_Sky_Full_Of_Stars_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "sourceWitness": "if you do · supplied song PDF, lyric page(s) 2.",
+          "cue": "if you do",
+          "example": "You may call me tonight. If you do, I will answer.",
+          "pattern": [
+            {
+              "text": "[先提過的動作]",
+              "fixed": false
+            },
+            {
+              "text": "if + 人 + do/does/did",
+              "fixed": true
+            },
+            {
+              "text": "[接續反應]",
+              "fixed": false
+            }
+          ],
+          "context": "朋友的秘密訊息",
+          "explanation": "正確：do 代替前句的 send me a photo，避免重複。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "I think (that) + clause (uncertain judgement)",
+          "meaning": "表達想法或推測，不表示已經完全證實。",
+          "usage": "根據線索提出判斷、但仍保留不確定性時。",
+          "prompt": "哪一句最正確地運用了以上的句型及其功能？",
+          "options": [
+            "I think the key is in my shoe, because I can see it on the table in front of me.",
+            "I think I left my hat on the train; I cannot find it after the trip.",
+            "I think we are at sea, but we are standing in the middle of a desert with no water.",
+            "I think the box is empty because I have counted the ten books inside it."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：明明看見鑰匙在桌上，卻推測在鞋裏，證據不支持。",
+            "正確：旅程後找不到帽子，因此推測留在火車上。",
+            "錯誤：人在沙漠中央，沒有合理線索支持身處海上。",
+            "錯誤：已數到盒內十本書，就不能合理推測盒子是空的。"
+          ],
+          "sourceFile": "A_Sky_Full_Of_Stars_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "sourceWitness": "I think I see · supplied song PDF, lyric page(s) 2.",
+          "cue": "I think I see you",
+          "example": "I think the museum is open today.",
+          "pattern": [
+            {
+              "text": "[說話者]",
+              "fixed": false
+            },
+            {
+              "text": "think (that)",
+              "fixed": true
+            },
+            {
+              "text": "[推測／意見的完整句子]",
+              "fixed": false
+            }
+          ],
+          "context": "尋找失物",
+          "explanation": "正確：旅程後找不到帽子，因此推測留在火車上。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "I think + past-tense clause (a past guess)",
+          "meaning": "現在回想過去的事，表示不太肯定自己當時看到或聽到甚麼。",
+          "usage": "對先前發生的事只有模糊記憶時。",
+          "prompt": "哪一句最正確地運用了以上的句型及其功能？",
+          "options": [
+            "I think I saw the bird yesterday, so I am watching it fly right now for the first time.",
+            "I think I saw a whale yesterday, but yesterday has not happened yet.",
+            "I think I saw the lights last night, though I know I was asleep the entire night and saw nothing.",
+            "I think I saw a deer near the trees this morning, but I am not sure."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：前句說昨天可能看過，後句卻把現在當作第一次見到，前後不順。",
+            "錯誤：昨天已經過去，不能說它尚未發生。",
+            "錯誤：已確定整夜沒有看到任何東西，不能據此合理推測看見燈。",
+            "正確：用現在的推測回想早上的可能所見，時間與不確定語氣合理。"
+          ],
+          "sourceFile": "A_Sky_Full_Of_Stars_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "sourceWitness": "I think I saw · supplied song PDF, lyric page(s) 2.",
+          "cue": "I think I saw you",
+          "example": "I think I saw a fox near the trees yesterday.",
+          "pattern": [
+            {
+              "text": "I think",
+              "fixed": true
+            },
+            {
+              "text": "[過去式動作與時間]",
+              "fixed": false
+            }
+          ],
+          "context": "野生動物觀察",
+          "explanation": "正確：用現在的推測回想早上的可能所見，時間與不確定語氣合理。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "want to + base verb (desire)",
+          "meaning": "表示希望或想要做某件事；wanna 是口語縮寫。",
+          "usage": "分享自己的願望、請求或計畫時。",
+          "prompt": "哪一句最正確地運用了以上的句型及其功能？",
+          "options": [
+            "I want to learn to bake bread, so I have joined a baking class.",
+            "I want to bake bread, so I will never go near an oven or learn how to make it.",
+            "She wants to baking bread with her aunt on Sunday.",
+            "I want to taste the cake, so I promise I will not taste any cake."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：想學焗麵包而報名課堂，願望和行動一致。",
+            "錯誤：想學焗麵包，卻拒絕一切學習和使用焗爐，行動不合。",
+            "錯誤：want to 後應接原形 bake，而非 baking。",
+            "錯誤：想試食蛋糕卻保證完全不試食，意思矛盾。"
+          ],
+          "sourceFile": "A_Sky_Full_Of_Stars_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "sourceWitness": "I wanna · supplied song PDF, lyric page(s) 2.",
+          "cue": "I wanna",
+          "example": "I want to learn how to make bread.",
+          "pattern": [
+            {
+              "text": "[想做某事的人]",
+              "fixed": false
+            },
+            {
+              "text": "want to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞及願望]",
+              "fixed": false
+            }
+          ],
+          "context": "烘焙工作坊",
+          "explanation": "正確：想學焗麵包而報名課堂，願望和行動一致。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "get + comparative adjective (change of degree)",
+          "meaning": "描述程度發生變化，如變得更亮、更冷、更快。",
+          "usage": "想說明一個狀態隨時間改變時。",
+          "prompt": "哪一句最正確地運用了以上的句型及其功能？",
+          "options": [
+            "The ice gets colder when it lies in the hot sun for hours without any ice left.",
+            "The room gets brighter when we cover every window and switch off every light.",
+            "The snow gets smaller as the warm sun melts it.",
+            "The music gets louder when we turn its sound down to zero."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：冰在烈日下全部融掉後，不能以此說明它變得更冷。",
+            "錯誤：遮住窗戶並關燈，不會使房間更亮。",
+            "正確：太陽融化積雪，積雪逐漸變少，變化合理。",
+            "錯誤：聲音調至零應變得更安靜，不會更響。"
+          ],
+          "sourceFile": "A_Sky_Full_Of_Stars_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "sourceWitness": "get lighter · supplied song PDF, lyric page(s) 2.",
+          "cue": "get lighter",
+          "example": "The sky gets brighter in the morning.",
+          "pattern": [
+            {
+              "text": "[人或事物]",
+              "fixed": false
+            },
+            {
+              "text": "get",
+              "fixed": true
+            },
+            {
+              "text": "[比較級形容詞]",
+              "fixed": false
+            }
+          ],
+          "context": "冰雕展覽",
+          "explanation": "正確：太陽融化積雪，積雪逐漸變少，變化合理。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "the + comparative ..., the + comparative ... (linked changes)",
+          "meaning": "表示某一情況越……，另一情況就越……；兩個變化有連動關係。",
+          "usage": "想解釋兩種程度如何一起改變時。",
+          "prompt": "哪一句最正確地運用了以上的句型及其功能？",
+          "options": [
+            "The more air we put into the balloon, the bigger it becomes.",
+            "The higher the balloon goes, the closer it gets to the ground every second.",
+            "The more tickets we sell, the fewer people have bought tickets, although nobody gets a refund.",
+            "The longer the ice sits in the sun, the harder it becomes because it melts into water."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：充入更多空氣使氣球變大，兩種變化合理連動。",
+            "錯誤：熱氣球越升越高，通常不會同時越靠近地面。",
+            "錯誤：沒有退票下賣出更多票，不會使購票人數減少。",
+            "錯誤：冰在陽光下融化通常變成水，不是越來越硬。"
+          ],
+          "sourceFile": "A_Sky_Full_Of_Stars_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "sourceWitness": "the more it gets dark · supplied song PDF, lyric page(s) 2.",
+          "cue": "the more it gets dark",
+          "example": "The longer we wait, the colder the food gets.",
+          "pattern": [
+            {
+              "text": "The + 比較級",
+              "fixed": true
+            },
+            {
+              "text": "[第一個變化]",
+              "fixed": false
+            },
+            {
+              "text": "the + 比較級",
+              "fixed": true
+            },
+            {
+              "text": "[相應的第二個變化]",
+              "fixed": false
+            }
+          ],
+          "context": "熱氣球起飛",
+          "explanation": "正確：充入更多空氣使氣球變大，兩種變化合理連動。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "such a + adjective + singular noun (emphasis)",
+          "meaning": "強調某個人或事物非常具有某種特質，可表示驚喜、讚賞或感嘆。",
+          "usage": "覺得一場表演、一份禮物或一個景象特別令人印象深刻時。",
+          "prompt": "哪一句最正確地運用了以上的句型及其功能？",
+          "options": [
+            "It was such a funny shows that everyone laughed.",
+            "It was such a funny show that even the quiet baby laughed.",
+            "It was such a fun that all the children clapped.",
+            "It was such a loudly play that we covered our ears."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：shows 是複數，不能與 such a 連用。",
+            "正確：such a funny show 強調木偶劇非常有趣，形式和情境都吻合。",
+            "錯誤：fun 在這個意思下不是可數單數名詞，應說 such fun。",
+            "錯誤：loudly 是副詞，應用形容詞 loud 修飾 play。"
+          ],
+          "sourceFile": "A_Sky_Full_Of_Stars_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "sourceWitness": "such a heavenly view · supplied song PDF, lyric page(s) 2.",
+          "cue": "such a heavenly view",
+          "example": "It was such a funny show!",
+          "pattern": [
+            {
+              "text": "such a",
+              "fixed": true
+            },
+            {
+              "text": "[形容詞]",
+              "fixed": false
+            },
+            {
+              "text": "[單數可數名詞]",
+              "fixed": false
+            }
+          ],
+          "context": "街頭木偶劇",
+          "explanation": "正確：such a funny show 強調木偶劇非常有趣，形式和情境都吻合。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "filename": "A_Sky_Full_of_Stars_B1-C2_VERIFIED.md",
+      "sha256": "e4e85289bdc81fe08f82c2978a20f261f2b6d23f5c8735e0353b6c85f562df3d",
+      "section": "advanced"
+    },
+    {
+      "filename": "A_Sky_Full_Of_Stars_SOURCE_VERIFIED.md",
+      "sha256": "7102c470f82e27494c59a180474f56db7597599013eeece134c73d7c423d2190",
+      "section": "structure"
+    }
+  ]
 }

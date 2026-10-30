@@ -29,7 +29,7 @@ if(name==='song_appreciation_vocabulary_answer'){const q=song.vocabulary[a.p_num
 return r.fulfill({contentType:'application/json',body:JSON.stringify(body)});});
 await page.goto('http://127.0.0.1:8766/song-appreciation.html');await page.waitForSelector('.song-card');await page.locator('.song-card > button').last().click();
 await page.locator('[data-song-tab="advanced"]').waitFor({state:'visible'});
-for(const name of ['advanced','structure','analysis'])assert.equal(await page.locator(`[data-song-tab="${name}"]`).isVisible(),true);
+for(const name of ['advanced','structure','analysis'])assert.equal(await page.locator(`[data-song-tab="${name}"]`).isVisible(),Boolean(original.learning_sections[name]));
 await page.locator('[data-song-tab="translation"]').click();await page.waitForFunction(()=>window.songQA.state.playerReady);
 await page.locator('[data-player-controls] [data-player-toggle]').click();await page.waitForFunction(()=>!document.querySelector('audio').paused);
 for(const name of ['advanced','structure']) {
@@ -41,7 +41,7 @@ for(const name of ['advanced','structure']) {
  await panel.locator('select').selectOption('0');assert.equal(await panel.locator('.vocabulary-option.is-correct').count(),1);
  for(const width of [1280,768,390]){await page.setViewportSize({width,height:950});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,name+' overflow '+width);await panel.scrollIntoViewIfNeeded();await page.screenshot({path:`/tmp/song-${lesson}-${name}-${width}.png`,fullPage:true});}
 }
-await page.locator('[data-song-tab="analysis"]').click();assert.equal(await page.locator('.analysis-card').count(),original.learning_sections.analysis.items.length);assert.equal(await page.locator('audio').evaluate(a=>a.paused),false);
-assert.ok(!/不是[^。！？\n]{0,180}而是/.test(await page.locator('[data-learning-section="analysis"]').textContent()));
+if(original.learning_sections.analysis){await page.locator('[data-song-tab="analysis"]').click();assert.equal(await page.locator('.analysis-card').count(),original.learning_sections.analysis.items.length);assert.equal(await page.locator('audio').evaluate(a=>a.paused),false);
+assert.ok(!/不是[^。！？\n]{0,180}而是/.test(await page.locator('[data-learning-section="analysis"]').textContent()));}
 await page.reload();await page.waitForSelector('.song-card');await page.locator('.song-card > button').last().click();await page.locator('[data-song-tab="advanced"]').click();await page.locator('[data-learning-section="advanced"] .vocabulary-option.is-correct').waitFor();
-assert.deepEqual(errors,[]);await browser.close();console.log('PASS '+lesson+': 7 tabs, grading, rationales, saved reload, continuous audio, 3 widths, Chinese style.');})().catch(e=>{console.error(e);process.exit(1)});
+assert.deepEqual(errors,[]);await browser.close();console.log('PASS '+lesson+': available section tabs, grading, rationales, saved reload, continuous audio, 3 widths, Chinese style.');})().catch(e=>{console.error(e);process.exit(1)});
