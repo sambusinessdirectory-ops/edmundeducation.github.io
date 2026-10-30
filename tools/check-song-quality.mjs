@@ -1,11 +1,12 @@
 import fs from 'node:fs';
+import {editorialIssues} from './song-editorial/quality.mjs';
 export function audibleKey(s){
  s=s.toLowerCase().replace(/’/g,"'");
  for(const group of [["to", "too", "two"], ["there", "their", "they're"], ["your", "you're"], ["hear", "here"], ["its", "it's"], ["no", "know"], ["new", "knew"], ["right", "write"], ["one", "won"], ["weather", "whether"], ["grey", "gray"], ["travelling", "traveling"]])for(const word of group)s=s.replace(new RegExp('\\b'+word+'\\b','g'),group[0]);
  return s.replace(/colours?/g,x=>x.replace('u','')).replace(/favourite/g,'favorite').replace(/honour/g,'honor').replace(/centre/g,'center').replace(/recognise/g,'recognize').replace(/realise/g,'realize').replace(/[^a-z0-9]/g,'');
 }
 export function checkSong(d){
- const errors=[];
+ const errors=editorialIssues(d);
  for(const m of d.exercises||[]){
   const ids=(d.translations||[]).filter(r=>!r.break).map(r=>r.lineId);
   const lines=m.listeningLines||[];

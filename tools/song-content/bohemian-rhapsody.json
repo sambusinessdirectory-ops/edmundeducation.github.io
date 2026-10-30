@@ -608,7 +608,7 @@
     {
       "id": "standard",
       "label": "Standard",
-      "version": 1,
+      "version": 2,
       "questionCount": 20,
       "questions": [
         {
@@ -619,7 +619,7 @@
           "options": [
             "real light",
             "real life",
-            "true life"
+            "real love"
           ],
           "answer": "real life"
         },
@@ -630,8 +630,8 @@
           "promptZh": "還是這一切只是一場幻夢？",
           "options": [
             "fantasy",
-            "memory",
-            "again"
+            "tragedy",
+            "memory"
           ],
           "answer": "fantasy"
         },
@@ -641,8 +641,8 @@
           "prompt": "Caught in a {{blank}}",
           "promptZh": "彷彿深陷山崩之中",
           "options": [
+            "landmine",
             "landline",
-            "again",
             "landslide"
           ],
           "answer": "landslide"
@@ -654,7 +654,7 @@
           "promptZh": "無處可逃，終究逃不出現實",
           "options": [
             "reality",
-            "again",
+            "eternity",
             "fantasy"
           ],
           "answer": "reality"
@@ -665,9 +665,9 @@
           "prompt": "{{blank}}",
           "promptZh": "睜開你的雙眼",
           "options": [
-            "Close your eyes",
+            "Open your arms",
             "Open your eyes",
-            "Open your hands"
+            "Close your eyes"
           ],
           "answer": "Open your eyes"
         },
@@ -679,7 +679,7 @@
           "options": [
             "stars",
             "skies",
-            "again"
+            "signs"
           ],
           "answer": "skies"
         },
@@ -691,7 +691,7 @@
           "options": [
             "poor boy",
             "young boy",
-            "poor again"
+            "poor man"
           ],
           "answer": "poor boy"
         },
@@ -701,8 +701,8 @@
           "prompt": "I'm just a 〔第 7 題〕, I need no {{blank}}",
           "promptZh": "我不過是個可憐的男孩，不需要任何人的憐憫",
           "options": [
-            "again",
             "company",
+            "harmony",
             "sympathy"
           ],
           "answer": "sympathy"
@@ -713,9 +713,9 @@
           "prompt": "Because I'm {{blank}}",
           "promptZh": "因為我向來隨遇而安，來去自如",
           "options": [
-            "freely come, easy go",
+            "easy come, easy stay",
             "easy come, easy go",
-            "easy come, easy stay"
+            "easy run, easy go"
           ],
           "answer": "easy come, easy go"
         },
@@ -726,8 +726,8 @@
           "promptZh": "時而高昂，時而低落",
           "options": [
             "Little high, little low",
-            "Little high, little again",
-            "Rather high, little low"
+            "Little high, little slow",
+            "Little shy, little low"
           ],
           "answer": "Little high, little low"
         },
@@ -737,8 +737,8 @@
           "prompt": "Any way the {{blank}}",
           "promptZh": "無論風往哪個方向吹",
           "options": [
-            "rain blows",
             "wind goes",
+            "rain falls",
             "wind blows"
           ],
           "answer": "wind blows"
@@ -749,8 +749,8 @@
           "prompt": "{{blank}} to me, to me",
           "promptZh": "對我而言，都已無關緊要，無關緊要",
           "options": [
+            "Doesn't really happen",
             "Didn't really matter",
-            "Doesn't really again",
             "Doesn't really matter"
           ],
           "answer": "Doesn't really matter"
@@ -763,7 +763,7 @@
           "options": [
             "kissed a man",
             "killed a man",
-            "killed a again"
+            "killed a friend"
           ],
           "answer": "killed a man"
         },
@@ -774,7 +774,7 @@
           "promptZh": "我將槍口抵住他的頭",
           "options": [
             "against his head",
-            "against his again",
+            "against his chest",
             "above his head"
           ],
           "answer": "against his head"
@@ -787,7 +787,7 @@
           "options": [
             "Held my trigger",
             "Pulled my trigger",
-            "Pulled my again"
+            "Pulled my finger"
           ],
           "answer": "Pulled my trigger"
         },
@@ -798,8 +798,8 @@
           "promptZh": "扣下扳機，如今他已死去",
           "options": [
             "he's dead",
-            "he's again",
-            "he'ss dead"
+            "he's gone",
+            "he's scared"
           ],
           "answer": "he's dead"
         },
@@ -809,8 +809,8 @@
           "prompt": "Mama, life had {{blank}}",
           "promptZh": "媽媽，我的人生才剛剛開始",
           "options": [
-            "justs begun",
-            "just again",
+            "just been done",
+            "just gone wrong",
             "just begun"
           ],
           "answer": "just begun"
@@ -821,9 +821,9 @@
           "prompt": "But now I've gone and {{blank}}",
           "promptZh": "可如今，我卻親手毀掉了這一切",
           "options": [
-            "thrown it all again",
+            "given it all away",
             "thrown it all away",
-            "given it all away"
+            "thrown it all aside"
           ],
           "answer": "thrown it all away"
         },
@@ -834,8 +834,8 @@
           "promptZh": "我並不是有意讓妳傷心落淚",
           "options": [
             "make you cry",
-            "make you again",
-            "makes you cry"
+            "make you lie",
+            "watch you cry"
           ],
           "answer": "make you cry"
         },
@@ -846,7 +846,7 @@
           "promptZh": "如果明天這個時候，我仍未歸來",
           "options": [
             "home again",
-            "back again tonight",
+            "back by then",
             "back again"
           ],
           "answer": "back again"
@@ -1090,7 +1090,7 @@
     {
       "id": "medium",
       "label": "Medium",
-      "version": 1,
+      "version": 2,
       "questionCount": 32,
       "questions": [
         {
@@ -1099,9 +1099,9 @@
           "prompt": "Is this the {{blank}}?",
           "promptZh": "這是真實的人生嗎？",
           "options": [
-            "true life",
+            "real light",
             "real life",
-            "real light"
+            "real love"
           ],
           "answer": "real life"
         },
@@ -1112,8 +1112,8 @@
           "promptZh": "還是這一切只是一場幻夢？",
           "options": [
             "fantasy",
-            "memory",
-            "again"
+            "tragedy",
+            "memory"
           ],
           "answer": "fantasy"
         },
@@ -1123,9 +1123,9 @@
           "prompt": "Caught in a {{blank}}",
           "promptZh": "彷彿深陷山崩之中",
           "options": [
-            "landline",
+            "landmine",
             "landslide",
-            "again"
+            "landline"
           ],
           "answer": "landslide"
         },
@@ -1136,8 +1136,8 @@
           "promptZh": "無處可逃，終究逃不出現實",
           "options": [
             "reality",
-            "fantasy",
-            "again"
+            "eternity",
+            "fantasy"
           ],
           "answer": "reality"
         },
@@ -1147,7 +1147,7 @@
           "prompt": "{{blank}}",
           "promptZh": "睜開你的雙眼",
           "options": [
-            "Open your hands",
+            "Open your arms",
             "Close your eyes",
             "Open your eyes"
           ],
@@ -1160,7 +1160,7 @@
           "promptZh": "抬頭仰望蒼穹，仔細看看",
           "options": [
             "stars",
-            "again",
+            "signs",
             "skies"
           ],
           "answer": "skies"
@@ -1172,8 +1172,8 @@
           "promptZh": "我不過是個可憐的男孩，不需要任何人的憐憫",
           "options": [
             "poor boy",
-            "poor again",
-            "young boy"
+            "young boy",
+            "poor man"
           ],
           "answer": "poor boy"
         },
@@ -1183,9 +1183,9 @@
           "prompt": "I'm just a 〔第 7 題〕, I need no {{blank}}",
           "promptZh": "我不過是個可憐的男孩，不需要任何人的憐憫",
           "options": [
-            "again",
+            "company",
             "sympathy",
-            "company"
+            "harmony"
           ],
           "answer": "sympathy"
         },
@@ -1197,7 +1197,7 @@
           "options": [
             "easy come, easy stay",
             "easy come, easy go",
-            "freely come, easy go"
+            "easy run, easy go"
           ],
           "answer": "easy come, easy go"
         },
@@ -1208,8 +1208,8 @@
           "promptZh": "時而高昂，時而低落",
           "options": [
             "Little high, little low",
-            "Rather high, little low",
-            "Little high, little again"
+            "Little high, little slow",
+            "Little shy, little low"
           ],
           "answer": "Little high, little low"
         },
@@ -1219,8 +1219,8 @@
           "prompt": "Any way the {{blank}}",
           "promptZh": "無論風往哪個方向吹",
           "options": [
-            "rain blows",
             "wind goes",
+            "rain falls",
             "wind blows"
           ],
           "answer": "wind blows"
@@ -1231,8 +1231,8 @@
           "prompt": "{{blank}} to me, to me",
           "promptZh": "對我而言，都已無關緊要，無關緊要",
           "options": [
+            "Doesn't really happen",
             "Didn't really matter",
-            "Doesn't really again",
             "Doesn't really matter"
           ],
           "answer": "Doesn't really matter"
@@ -1245,7 +1245,7 @@
           "options": [
             "killed a man",
             "kissed a man",
-            "killed a again"
+            "killed a friend"
           ],
           "answer": "killed a man"
         },
@@ -1255,7 +1255,7 @@
           "prompt": "Put a gun {{blank}}",
           "promptZh": "我將槍口抵住他的頭",
           "options": [
-            "against his again",
+            "against his chest",
             "against his head",
             "above his head"
           ],
@@ -1268,8 +1268,8 @@
           "promptZh": "扣下扳機，如今他已死去",
           "options": [
             "Pulled my trigger",
-            "Pulled my again",
-            "Held my trigger"
+            "Held my trigger",
+            "Pulled my finger"
           ],
           "answer": "Pulled my trigger"
         },
@@ -1279,9 +1279,9 @@
           "prompt": "〔第 15 題〕, now {{blank}}",
           "promptZh": "扣下扳機，如今他已死去",
           "options": [
-            "he'ss dead",
+            "he's gone",
             "he's dead",
-            "he's again"
+            "he's scared"
           ],
           "answer": "he's dead"
         },
@@ -1291,8 +1291,8 @@
           "prompt": "Mama, life had {{blank}}",
           "promptZh": "媽媽，我的人生才剛剛開始",
           "options": [
-            "just again",
-            "justs begun",
+            "just been done",
+            "just gone wrong",
             "just begun"
           ],
           "answer": "just begun"
@@ -1303,8 +1303,8 @@
           "prompt": "But now I've gone and {{blank}}",
           "promptZh": "可如今，我卻親手毀掉了這一切",
           "options": [
-            "thrown it all again",
             "given it all away",
+            "thrown it all aside",
             "thrown it all away"
           ],
           "answer": "thrown it all away"
@@ -1315,9 +1315,9 @@
           "prompt": "Didn't mean to {{blank}}",
           "promptZh": "我並不是有意讓妳傷心落淚",
           "options": [
-            "makes you cry",
+            "make you lie",
             "make you cry",
-            "make you again"
+            "watch you cry"
           ],
           "answer": "make you cry"
         },
@@ -1328,8 +1328,8 @@
           "promptZh": "如果明天這個時候，我仍未歸來",
           "options": [
             "back again",
-            "back again tonight",
-            "home again"
+            "home again",
+            "back by then"
           ],
           "answer": "back again"
         },
@@ -1339,9 +1339,9 @@
           "prompt": "If I'm not 〔第 20 題〕 {{blank}}",
           "promptZh": "如果明天這個時候，我仍未歸來",
           "options": [
-            "thiss time tomorrow",
+            "this time tonight",
             "this time tomorrow",
-            "this time again"
+            "same time tomorrow"
           ],
           "answer": "this time tomorrow"
         },
@@ -1353,7 +1353,7 @@
           "options": [
             "Carry on",
             "Hold on",
-            "Carry again"
+            "Carry through"
           ],
           "answer": "Carry on"
         },
@@ -1376,8 +1376,8 @@
           "promptZh": "太遲了，我的時辰已經到了",
           "options": [
             "my time has come",
-            "my time has again",
-            "mys time has come"
+            "my time has gone",
+            "my turn has come"
           ],
           "answer": "my time has come"
         },
@@ -1389,7 +1389,7 @@
           "options": [
             "shadows down my spine",
             "shivers down my spine",
-            "shivers down my again"
+            "shivers through my mind"
           ],
           "answer": "shivers down my spine"
         },
@@ -1399,8 +1399,8 @@
           "prompt": "{{blank}} all the time",
           "promptZh": "全身無時無刻不在疼痛",
           "options": [
-            "Body'ss aching",
-            "Body's again",
+            "Body's shaking",
+            "Body's breaking",
             "Body's aching"
           ],
           "answer": "Body's aching"
@@ -1411,8 +1411,8 @@
           "prompt": "Goodbye, everybody, {{blank}}",
           "promptZh": "再見了，各位，我必須離開了",
           "options": [
-            "I've stayt to go",
-            "I'ves got to go",
+            "I've got to know",
+            "I want to go",
             "I've got to go"
           ],
           "answer": "I've got to go"
@@ -1425,7 +1425,7 @@
           "options": [
             "face the past",
             "face the truth",
-            "faces the truth"
+            "tell the truth"
           ],
           "answer": "face the truth"
         },
@@ -1437,7 +1437,7 @@
           "options": [
             "don't wanna die",
             "don't wanna cry",
-            "don'ts wanna die"
+            "don't wanna lie"
           ],
           "answer": "don't wanna die"
         },
@@ -1447,9 +1447,9 @@
           "prompt": "I sometimes wish I'd {{blank}} at all",
           "promptZh": "有時我甚至希望，自己從未來到這世上",
           "options": [
-            "nevers been born",
+            "never been loved",
             "never been born",
-            "never been again"
+            "ever been born"
           ],
           "answer": "never been born"
         },
@@ -1460,8 +1460,8 @@
           "promptZh": "我看見一個男子小小的剪影",
           "options": [
             "silhouetto",
-            "again",
-            "silhouette"
+            "little shadow",
+            "silver echo"
           ],
           "answer": "silhouetto"
         },
@@ -1472,7 +1472,7 @@
           "promptZh": "雷霆與閃電，令我萬分、萬分恐懼",
           "options": [
             "Thunderstorm and lightning",
-            "Thunderbolt and again",
+            "Thunderbolt and fighting",
             "Thunderbolt and lightning"
           ],
           "answer": "Thunderbolt and lightning"
@@ -1716,7 +1716,7 @@
     {
       "id": "hard",
       "label": "Hard",
-      "version": 1,
+      "version": 2,
       "questionCount": 40,
       "questions": [
         {
@@ -1727,7 +1727,7 @@
           "options": [
             "real life",
             "real light",
-            "true life"
+            "real love"
           ],
           "answer": "real life"
         },
@@ -1737,7 +1737,7 @@
           "prompt": "Is this just {{blank}}?",
           "promptZh": "還是這一切只是一場幻夢？",
           "options": [
-            "again",
+            "tragedy",
             "fantasy",
             "memory"
           ],
@@ -1750,7 +1750,7 @@
           "promptZh": "彷彿深陷山崩之中",
           "options": [
             "landslide",
-            "again",
+            "landmine",
             "landline"
           ],
           "answer": "landslide"
@@ -1761,7 +1761,7 @@
           "prompt": "No escape from {{blank}}",
           "promptZh": "無處可逃，終究逃不出現實",
           "options": [
-            "again",
+            "eternity",
             "fantasy",
             "reality"
           ],
@@ -1774,8 +1774,8 @@
           "promptZh": "睜開你的雙眼",
           "options": [
             "Open your eyes",
-            "Close your eyes",
-            "Open your hands"
+            "Open your arms",
+            "Close your eyes"
           ],
           "answer": "Open your eyes"
         },
@@ -1786,7 +1786,7 @@
           "promptZh": "抬頭仰望蒼穹，仔細看看",
           "options": [
             "stars",
-            "again",
+            "signs",
             "skies"
           ],
           "answer": "skies"
@@ -1797,9 +1797,9 @@
           "prompt": "I'm just a {{blank}}, I need no 〔第 8 題〕",
           "promptZh": "我不過是個可憐的男孩，不需要任何人的憐憫",
           "options": [
-            "poor again",
+            "young boy",
             "poor boy",
-            "young boy"
+            "poor man"
           ],
           "answer": "poor boy"
         },
@@ -1811,7 +1811,7 @@
           "options": [
             "sympathy",
             "company",
-            "again"
+            "harmony"
           ],
           "answer": "sympathy"
         },
@@ -1821,9 +1821,9 @@
           "prompt": "Because I'm {{blank}}",
           "promptZh": "因為我向來隨遇而安，來去自如",
           "options": [
-            "freely come, easy go",
+            "easy come, easy stay",
             "easy come, easy go",
-            "easy come, easy stay"
+            "easy run, easy go"
           ],
           "answer": "easy come, easy go"
         },
@@ -1833,8 +1833,8 @@
           "prompt": "{{blank}}",
           "promptZh": "時而高昂，時而低落",
           "options": [
-            "Little high, little again",
-            "Rather high, little low",
+            "Little high, little slow",
+            "Little shy, little low",
             "Little high, little low"
           ],
           "answer": "Little high, little low"
@@ -1845,9 +1845,9 @@
           "prompt": "Any way the {{blank}}",
           "promptZh": "無論風往哪個方向吹",
           "options": [
-            "rain blows",
+            "wind goes",
             "wind blows",
-            "wind goes"
+            "rain falls"
           ],
           "answer": "wind blows"
         },
@@ -1858,8 +1858,8 @@
           "promptZh": "對我而言，都已無關緊要，無關緊要",
           "options": [
             "Doesn't really matter",
-            "Didn't really matter",
-            "Doesn't really again"
+            "Doesn't really happen",
+            "Didn't really matter"
           ],
           "answer": "Doesn't really matter"
         },
@@ -1870,7 +1870,7 @@
           "promptZh": "媽媽，我剛剛殺了一個人",
           "options": [
             "kissed a man",
-            "killed a again",
+            "killed a friend",
             "killed a man"
           ],
           "answer": "killed a man"
@@ -1881,7 +1881,7 @@
           "prompt": "Put a gun {{blank}}",
           "promptZh": "我將槍口抵住他的頭",
           "options": [
-            "against his again",
+            "against his chest",
             "against his head",
             "above his head"
           ],
@@ -1894,8 +1894,8 @@
           "promptZh": "扣下扳機，如今他已死去",
           "options": [
             "Pulled my trigger",
-            "Pulled my again",
-            "Held my trigger"
+            "Held my trigger",
+            "Pulled my finger"
           ],
           "answer": "Pulled my trigger"
         },
@@ -1905,8 +1905,8 @@
           "prompt": "〔第 15 題〕, now {{blank}}",
           "promptZh": "扣下扳機，如今他已死去",
           "options": [
-            "he's again",
-            "he'ss dead",
+            "he's gone",
+            "he's scared",
             "he's dead"
           ],
           "answer": "he's dead"
@@ -1917,9 +1917,9 @@
           "prompt": "Mama, life had {{blank}}",
           "promptZh": "媽媽，我的人生才剛剛開始",
           "options": [
-            "just again",
+            "just been done",
             "just begun",
-            "justs begun"
+            "just gone wrong"
           ],
           "answer": "just begun"
         },
@@ -1931,7 +1931,7 @@
           "options": [
             "thrown it all away",
             "given it all away",
-            "thrown it all again"
+            "thrown it all aside"
           ],
           "answer": "thrown it all away"
         },
@@ -1941,8 +1941,8 @@
           "prompt": "Didn't mean to {{blank}}",
           "promptZh": "我並不是有意讓妳傷心落淚",
           "options": [
-            "makes you cry",
-            "make you again",
+            "make you lie",
+            "watch you cry",
             "make you cry"
           ],
           "answer": "make you cry"
@@ -1953,9 +1953,9 @@
           "prompt": "If I'm not {{blank}} 〔第 21 題〕",
           "promptZh": "如果明天這個時候，我仍未歸來",
           "options": [
-            "back again tonight",
+            "home again",
             "back again",
-            "home again"
+            "back by then"
           ],
           "answer": "back again"
         },
@@ -1965,8 +1965,8 @@
           "prompt": "If I'm not 〔第 20 題〕 {{blank}}",
           "promptZh": "如果明天這個時候，我仍未歸來",
           "options": [
-            "thiss time tomorrow",
-            "this time again",
+            "this time tonight",
+            "same time tomorrow",
             "this time tomorrow"
           ],
           "answer": "this time tomorrow"
@@ -1978,8 +1978,8 @@
           "promptZh": "就繼續生活吧，繼續走下去，彷彿一切都無關緊要",
           "options": [
             "Carry on",
-            "Carry again",
-            "Hold on"
+            "Hold on",
+            "Carry through"
           ],
           "answer": "Carry on"
         },
@@ -1989,8 +1989,8 @@
           "prompt": "〔第 22 題〕, carry on as if {{blank}}",
           "promptZh": "就繼續生活吧，繼續走下去，彷彿一切都無關緊要",
           "options": [
-            "something really matters",
             "nothing really changes",
+            "something really matters",
             "nothing really matters"
           ],
           "answer": "nothing really matters"
@@ -2002,8 +2002,8 @@
           "promptZh": "太遲了，我的時辰已經到了",
           "options": [
             "my time has come",
-            "my time has again",
-            "mys time has come"
+            "my time has gone",
+            "my turn has come"
           ],
           "answer": "my time has come"
         },
@@ -2013,9 +2013,9 @@
           "prompt": "Sends {{blank}}",
           "promptZh": "一陣寒顫沿著我的脊背襲來",
           "options": [
-            "shivers down my again",
+            "shadows down my spine",
             "shivers down my spine",
-            "shadows down my spine"
+            "shivers through my mind"
           ],
           "answer": "shivers down my spine"
         },
@@ -2025,9 +2025,9 @@
           "prompt": "{{blank}} all the time",
           "promptZh": "全身無時無刻不在疼痛",
           "options": [
-            "Body'ss aching",
+            "Body's shaking",
             "Body's aching",
-            "Body's again"
+            "Body's breaking"
           ],
           "answer": "Body's aching"
         },
@@ -2037,8 +2037,8 @@
           "prompt": "Goodbye, everybody, {{blank}}",
           "promptZh": "再見了，各位，我必須離開了",
           "options": [
-            "I've stayt to go",
-            "I'ves got to go",
+            "I've got to know",
+            "I want to go",
             "I've got to go"
           ],
           "answer": "I've got to go"
@@ -2051,7 +2051,7 @@
           "options": [
             "face the truth",
             "face the past",
-            "faces the truth"
+            "tell the truth"
           ],
           "answer": "face the truth"
         },
@@ -2063,7 +2063,7 @@
           "options": [
             "don't wanna cry",
             "don't wanna die",
-            "don'ts wanna die"
+            "don't wanna lie"
           ],
           "answer": "don't wanna die"
         },
@@ -2074,8 +2074,8 @@
           "promptZh": "有時我甚至希望，自己從未來到這世上",
           "options": [
             "never been born",
-            "never been again",
-            "nevers been born"
+            "never been loved",
+            "ever been born"
           ],
           "answer": "never been born"
         },
@@ -2085,8 +2085,8 @@
           "prompt": "I see a little {{blank}} of a man",
           "promptZh": "我看見一個男子小小的剪影",
           "options": [
-            "again",
-            "silhouette",
+            "little shadow",
+            "silver echo",
             "silhouetto"
           ],
           "answer": "silhouetto"
@@ -2097,8 +2097,8 @@
           "prompt": "{{blank}} very, very 〔第 33 題〕",
           "promptZh": "雷霆與閃電，令我萬分、萬分恐懼",
           "options": [
-            "Thunderbolt and again",
             "Thunderstorm and lightning",
+            "Thunderbolt and fighting",
             "Thunderbolt and lightning"
           ],
           "answer": "Thunderbolt and lightning"
@@ -2123,7 +2123,7 @@
           "options": [
             "nobody loves me",
             "somebody loves me",
-            "nobody loves you"
+            "nobody knows me"
           ],
           "answer": "nobody loves me"
         },
@@ -2135,7 +2135,7 @@
           "options": [
             "young family",
             "poor family",
-            "poor again"
+            "poor company"
           ],
           "answer": "poor family"
         },
@@ -2146,8 +2146,8 @@
           "promptZh": "求求你們饒他一命，讓他免受這可怕的厄運",
           "options": [
             "Spare him his life",
-            "Spare him his light",
-            "Save him his life"
+            "Spare him this fight",
+            "Save him tonight"
           ],
           "answer": "Spare him his life"
         },
@@ -2157,8 +2157,8 @@
           "prompt": "〔第 36 題〕 from this {{blank}}",
           "promptZh": "求求你們饒他一命，讓他免受這可怕的厄運",
           "options": [
-            "misery",
-            "again",
+            "atrocity",
+            "hypocrisy",
             "monstrosity"
           ],
           "answer": "monstrosity"
@@ -2171,7 +2171,7 @@
           "options": [
             "let me stay",
             "let me go",
-            "lets me go"
+            "let them go"
           ],
           "answer": "let me go"
         },
@@ -2182,8 +2182,8 @@
           "promptZh": "奉真主之名！不，我們絕不放你走！（放他走！）",
           "options": [
             "will not let you go",
-            "will not let you stay",
-            "can not let you go"
+            "cannot let you go",
+            "will not let you stay"
           ],
           "answer": "will not let you go"
         },
@@ -2193,7 +2193,7 @@
           "prompt": "{{blank}} (Let me go!)",
           "promptZh": "絕不放你走！（放我走！）",
           "options": [
-            "Can not let you go",
+            "Cannot let you go",
             "Will not let you stay",
             "Will not let you go"
           ],
@@ -2438,7 +2438,7 @@
     {
       "id": "hell",
       "label": "Hell",
-      "version": 1,
+      "version": 2,
       "questionCount": 50,
       "questions": [
         {
@@ -2449,7 +2449,7 @@
           "options": [
             "real life",
             "real light",
-            "true life"
+            "real love"
           ],
           "answer": "real life"
         },
@@ -2459,9 +2459,9 @@
           "prompt": "Is this just {{blank}}?",
           "promptZh": "還是這一切只是一場幻夢？",
           "options": [
-            "memory",
+            "tragedy",
             "fantasy",
-            "again"
+            "memory"
           ],
           "answer": "fantasy"
         },
@@ -2471,7 +2471,7 @@
           "prompt": "Caught in a {{blank}}",
           "promptZh": "彷彿深陷山崩之中",
           "options": [
-            "again",
+            "landmine",
             "landslide",
             "landline"
           ],
@@ -2483,7 +2483,7 @@
           "prompt": "No escape from {{blank}}",
           "promptZh": "無處可逃，終究逃不出現實",
           "options": [
-            "again",
+            "eternity",
             "fantasy",
             "reality"
           ],
@@ -2496,7 +2496,7 @@
           "promptZh": "睜開你的雙眼",
           "options": [
             "Open your eyes",
-            "Open your hands",
+            "Open your arms",
             "Close your eyes"
           ],
           "answer": "Open your eyes"
@@ -2509,7 +2509,7 @@
           "options": [
             "skies",
             "stars",
-            "again"
+            "signs"
           ],
           "answer": "skies"
         },
@@ -2519,8 +2519,8 @@
           "prompt": "I'm just a {{blank}}, I need no 〔第 8 題〕",
           "promptZh": "我不過是個可憐的男孩，不需要任何人的憐憫",
           "options": [
-            "poor again",
             "young boy",
+            "poor man",
             "poor boy"
           ],
           "answer": "poor boy"
@@ -2533,7 +2533,7 @@
           "options": [
             "company",
             "sympathy",
-            "again"
+            "harmony"
           ],
           "answer": "sympathy"
         },
@@ -2544,8 +2544,8 @@
           "promptZh": "因為我向來隨遇而安，來去自如",
           "options": [
             "easy come, easy go",
-            "freely come, easy go",
-            "easy come, easy stay"
+            "easy come, easy stay",
+            "easy run, easy go"
           ],
           "answer": "easy come, easy go"
         },
@@ -2555,8 +2555,8 @@
           "prompt": "{{blank}}",
           "promptZh": "時而高昂，時而低落",
           "options": [
-            "Little high, little again",
-            "Rather high, little low",
+            "Little high, little slow",
+            "Little shy, little low",
             "Little high, little low"
           ],
           "answer": "Little high, little low"
@@ -2569,7 +2569,7 @@
           "options": [
             "wind goes",
             "wind blows",
-            "rain blows"
+            "rain falls"
           ],
           "answer": "wind blows"
         },
@@ -2579,8 +2579,8 @@
           "prompt": "{{blank}} to me, to me",
           "promptZh": "對我而言，都已無關緊要，無關緊要",
           "options": [
+            "Doesn't really happen",
             "Didn't really matter",
-            "Doesn't really again",
             "Doesn't really matter"
           ],
           "answer": "Doesn't really matter"
@@ -2591,9 +2591,9 @@
           "prompt": "Mama, just {{blank}}",
           "promptZh": "媽媽，我剛剛殺了一個人",
           "options": [
-            "killed a again",
+            "kissed a man",
             "killed a man",
-            "kissed a man"
+            "killed a friend"
           ],
           "answer": "killed a man"
         },
@@ -2604,8 +2604,8 @@
           "promptZh": "我將槍口抵住他的頭",
           "options": [
             "against his head",
-            "above his head",
-            "against his again"
+            "against his chest",
+            "above his head"
           ],
           "answer": "against his head"
         },
@@ -2615,8 +2615,8 @@
           "prompt": "{{blank}}, now 〔第 16 題〕",
           "promptZh": "扣下扳機，如今他已死去",
           "options": [
-            "Pulled my again",
             "Held my trigger",
+            "Pulled my finger",
             "Pulled my trigger"
           ],
           "answer": "Pulled my trigger"
@@ -2628,8 +2628,8 @@
           "promptZh": "扣下扳機，如今他已死去",
           "options": [
             "he's dead",
-            "he's again",
-            "he'ss dead"
+            "he's gone",
+            "he's scared"
           ],
           "answer": "he's dead"
         },
@@ -2639,9 +2639,9 @@
           "prompt": "Mama, life had {{blank}}",
           "promptZh": "媽媽，我的人生才剛剛開始",
           "options": [
-            "just again",
+            "just been done",
             "just begun",
-            "justs begun"
+            "just gone wrong"
           ],
           "answer": "just begun"
         },
@@ -2652,8 +2652,8 @@
           "promptZh": "可如今，我卻親手毀掉了這一切",
           "options": [
             "thrown it all away",
-            "thrown it all again",
-            "given it all away"
+            "given it all away",
+            "thrown it all aside"
           ],
           "answer": "thrown it all away"
         },
@@ -2663,9 +2663,9 @@
           "prompt": "Didn't mean to {{blank}}",
           "promptZh": "我並不是有意讓妳傷心落淚",
           "options": [
-            "makes you cry",
+            "make you lie",
             "make you cry",
-            "make you again"
+            "watch you cry"
           ],
           "answer": "make you cry"
         },
@@ -2675,8 +2675,8 @@
           "prompt": "If I'm not {{blank}} 〔第 21 題〕",
           "promptZh": "如果明天這個時候，我仍未歸來",
           "options": [
-            "back again tonight",
             "home again",
+            "back by then",
             "back again"
           ],
           "answer": "back again"
@@ -2687,8 +2687,8 @@
           "prompt": "If I'm not 〔第 20 題〕 {{blank}}",
           "promptZh": "如果明天這個時候，我仍未歸來",
           "options": [
-            "thiss time tomorrow",
-            "this time again",
+            "this time tonight",
+            "same time tomorrow",
             "this time tomorrow"
           ],
           "answer": "this time tomorrow"
@@ -2699,9 +2699,9 @@
           "prompt": "{{blank}}, carry on as if 〔第 23 題〕",
           "promptZh": "就繼續生活吧，繼續走下去，彷彿一切都無關緊要",
           "options": [
-            "Carry again",
+            "Hold on",
             "Carry on",
-            "Hold on"
+            "Carry through"
           ],
           "answer": "Carry on"
         },
@@ -2712,8 +2712,8 @@
           "promptZh": "就繼續生活吧，繼續走下去，彷彿一切都無關緊要",
           "options": [
             "nothing really matters",
-            "something really matters",
-            "nothing really changes"
+            "nothing really changes",
+            "something really matters"
           ],
           "answer": "nothing really matters"
         },
@@ -2724,8 +2724,8 @@
           "promptZh": "太遲了，我的時辰已經到了",
           "options": [
             "my time has come",
-            "mys time has come",
-            "my time has again"
+            "my time has gone",
+            "my turn has come"
           ],
           "answer": "my time has come"
         },
@@ -2737,7 +2737,7 @@
           "options": [
             "shadows down my spine",
             "shivers down my spine",
-            "shivers down my again"
+            "shivers through my mind"
           ],
           "answer": "shivers down my spine"
         },
@@ -2747,8 +2747,8 @@
           "prompt": "{{blank}} all the time",
           "promptZh": "全身無時無刻不在疼痛",
           "options": [
-            "Body'ss aching",
-            "Body's again",
+            "Body's shaking",
+            "Body's breaking",
             "Body's aching"
           ],
           "answer": "Body's aching"
@@ -2759,9 +2759,9 @@
           "prompt": "Goodbye, everybody, {{blank}}",
           "promptZh": "再見了，各位，我必須離開了",
           "options": [
-            "I've stayt to go",
+            "I've got to know",
             "I've got to go",
-            "I'ves got to go"
+            "I want to go"
           ],
           "answer": "I've got to go"
         },
@@ -2773,7 +2773,7 @@
           "options": [
             "face the truth",
             "face the past",
-            "faces the truth"
+            "tell the truth"
           ],
           "answer": "face the truth"
         },
@@ -2783,8 +2783,8 @@
           "prompt": "I {{blank}}",
           "promptZh": "我不想死",
           "options": [
-            "don'ts wanna die",
             "don't wanna cry",
+            "don't wanna lie",
             "don't wanna die"
           ],
           "answer": "don't wanna die"
@@ -2796,8 +2796,8 @@
           "promptZh": "有時我甚至希望，自己從未來到這世上",
           "options": [
             "never been born",
-            "nevers been born",
-            "never been again"
+            "never been loved",
+            "ever been born"
           ],
           "answer": "never been born"
         },
@@ -2807,8 +2807,8 @@
           "prompt": "I see a little {{blank}} of a man",
           "promptZh": "我看見一個男子小小的剪影",
           "options": [
-            "silhouette",
-            "again",
+            "little shadow",
+            "silver echo",
             "silhouetto"
           ],
           "answer": "silhouetto"
@@ -2819,9 +2819,9 @@
           "prompt": "{{blank}} very, very 〔第 33 題〕",
           "promptZh": "雷霆與閃電，令我萬分、萬分恐懼",
           "options": [
-            "Thunderbolt and again",
+            "Thunderstorm and lightning",
             "Thunderbolt and lightning",
-            "Thunderstorm and lightning"
+            "Thunderbolt and fighting"
           ],
           "answer": "Thunderbolt and lightning"
         },
@@ -2844,7 +2844,7 @@
           "promptZh": "我不過是個可憐的男孩，沒有人愛我",
           "options": [
             "somebody loves me",
-            "nobody loves you",
+            "nobody knows me",
             "nobody loves me"
           ],
           "answer": "nobody loves me"
@@ -2857,7 +2857,7 @@
           "options": [
             "poor family",
             "young family",
-            "poor again"
+            "poor company"
           ],
           "answer": "poor family"
         },
@@ -2867,8 +2867,8 @@
           "prompt": "{{blank}} from this 〔第 37 題〕",
           "promptZh": "求求你們饒他一命，讓他免受這可怕的厄運",
           "options": [
-            "Spare him his light",
-            "Save him his life",
+            "Spare him this fight",
+            "Save him tonight",
             "Spare him his life"
           ],
           "answer": "Spare him his life"
@@ -2879,9 +2879,9 @@
           "prompt": "〔第 36 題〕 from this {{blank}}",
           "promptZh": "求求你們饒他一命，讓他免受這可怕的厄運",
           "options": [
-            "again",
+            "atrocity",
             "monstrosity",
-            "misery"
+            "hypocrisy"
           ],
           "answer": "monstrosity"
         },
@@ -2892,8 +2892,8 @@
           "promptZh": "來去本該自由，你們願意放我走嗎？",
           "options": [
             "let me go",
-            "lets me go",
-            "let me stay"
+            "let me stay",
+            "let them go"
           ],
           "answer": "let me go"
         },
@@ -2903,7 +2903,7 @@
           "prompt": "Bismillah! No, we {{blank}} (Let him go!)",
           "promptZh": "奉真主之名！不，我們絕不放你走！（放他走！）",
           "options": [
-            "can not let you go",
+            "cannot let you go",
             "will not let you go",
             "will not let you stay"
           ],
@@ -2915,7 +2915,7 @@
           "prompt": "{{blank}} (Let me go!)",
           "promptZh": "絕不放你走！（放我走！）",
           "options": [
-            "Can not let you go",
+            "Cannot let you go",
             "Will not let you stay",
             "Will not let you go"
           ],
@@ -2939,9 +2939,9 @@
           "prompt": "Beelzebub has a {{blank}} for me, for me, for me",
           "promptZh": "Beelzebub早已為我預留了一個惡魔，專門等著我，等著我，等著我",
           "options": [
-            "devil put again",
+            "demon put aside",
             "devil put aside",
-            "demon put aside"
+            "devil left behind"
           ],
           "answer": "devil put aside"
         },
@@ -2952,8 +2952,8 @@
           "promptZh": "所以你以為，你能向我投石，還朝我臉上吐唾沫？",
           "options": [
             "stone me",
-            "stone you",
-            "own me"
+            "own me",
+            "stop me"
           ],
           "answer": "stone me"
         },
@@ -2964,7 +2964,7 @@
           "promptZh": "所以你以為，你能向我投石，還朝我臉上吐唾沫？",
           "options": [
             "look in my eye",
-            "spit in my again",
+            "spit in my face",
             "spit in my eye"
           ],
           "answer": "spit in my eye"
@@ -2999,8 +2999,8 @@
           "prompt": "Just gotta get out, just gotta {{blank}}",
           "promptZh": "我一定得逃出去，一定得立刻逃離這個地方",
           "options": [
-            "get right outta again",
             "run right outta here",
+            "get far outta here",
             "get right outta here"
           ],
           "answer": "get right outta here"
@@ -3036,7 +3036,7 @@
           "promptZh": "無論風往哪個方向吹",
           "options": [
             "wind goes",
-            "rain blows",
+            "rain falls",
             "wind blows"
           ],
           "answer": "wind blows"
@@ -3327,5 +3327,12 @@
     "sha256": "775b95d0771c0b08e2b63186d0531e68d5f07400746c9c5c7380d7bfd7db01c4",
     "selectedOn": "2026-10-29",
     "transformations": "none"
-  }
+  },
+  "editorialRepairs": [
+    {
+      "date": "2026-10-30",
+      "scope": "All four listening levels",
+      "reason": "Replace mechanically malformed spellings and generic fallback distractors with real, audible alternatives. Correct answers, positions and question IDs unchanged."
+    }
+  ]
 }

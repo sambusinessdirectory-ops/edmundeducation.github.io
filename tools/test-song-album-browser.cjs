@@ -72,6 +72,23 @@ await page.locator('.vocabulary-navigation button').last().click();assert.ok((aw
 await page.reload();await page.waitForSelector('.song-card');await page.locator('.song-card > button').last().click();await page.locator('[data-song-tab="vocabulary"]').click();await page.waitForSelector('.vocabulary-option.is-correct');
 await page.setViewportSize({width:390,height:844});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);await page.screenshot({path:'/tmp/song-photograph-mobile.png'});
 }
+// All stored introductions must survive rendering and remain unclipped at tablet and phone widths.
+await page.locator('[data-song-tab="description"]').click();
+const introductions=fs.readdirSync(root+'/tools/song-content').filter(f=>f.endsWith('.json')).map(f=>JSON.parse(fs.readFileSync(root+'/tools/song-content/'+f)));
+for(const width of [1024,390]){
+ await page.setViewportSize({width,height:950});
+ for(const item of introductions){
+  const check=await page.evaluate(item=>{
+   const el=document.querySelector('[data-song-description]');el.replaceChildren(window.songQA.safeIntroduction(item.description));
+   const text=document.createElement('div');text.innerHTML=item.description;
+   const tree=document.createTreeWalker(el,NodeFilter.SHOW_TEXT);let last,n;while(n=tree.nextNode())if(n.textContent.trim())last=n;
+   const range=document.createRange();range.setStart(last,last.length-1);range.setEnd(last,last.length);
+   const end=range.getBoundingClientRect(),box=el.getBoundingClientRect();
+   return {same:el.textContent===text.textContent,visible:end.bottom<=box.bottom+1&&end.right<=box.right+1,overflow:el.scrollHeight>el.clientHeight+1};
+  },item);
+  assert.deepEqual(check,{same:true,visible:true,overflow:false},item.slug+' complete introduction at '+width);
+ }
+}
 await page.setViewportSize({width:1280,height:950});await page.evaluate(async()=>{window.songQA.state.session.role='admin';await window.songQA.enterAdmin();});await page.waitForSelector('[data-song-form]');
 await page.locator('input[name="coverFile"]').setInputFiles(root+'/song-media/photograph/cover.webp');await page.waitForFunction(()=>document.querySelector('input[name="coverUrl"]').value.startsWith('data:image/webp'));await page.locator('[data-song-form] button[type="submit"]').click();await page.waitForFunction(()=>document.querySelector('[data-admin-save-status]').textContent==='已儲存');assert.match(song.cover_url,/^data:image\/webp/);
 

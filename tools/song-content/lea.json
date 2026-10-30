@@ -3,7 +3,7 @@
   "title": "Lea",
   "singer": "Toto",
   "exercise_name": "Lea · Listening & Vocabulary",
-  "description": "《Lea》描寫一段充滿深情、依戀與不安的愛情。歌中的主角曾經毫無保留地付出真心，將所有的愛與希望寄託在 Lea 身上，相信她是生命中無可取代的人。然而，隨著兩人的關係逐漸變得不明朗，他開始懷疑自己的感情是否仍被珍惜，也不知道對方是否還願意接受這份愛。他試圖忽略外界的質疑，卻始終無法消除內心的不安。歌曲反覆詢問 Lea 是否仍希望自己繼續愛著她，流露出深深的眷戀與渴望。最終，《Lea》傳達的是愛情中的忠誠、脆弱與不確定：即使心中的愛意從未改變，當對方的心意變得模糊，最令人難",
+  "description": "《Lea》描寫一段充滿深情、依戀與不安的愛情。歌中的主角曾經毫無保留地付出真心，將所有的愛與希望寄託在 Lea 身上，相信她是生命中無可取代的人。然而，隨著兩人的關係逐漸變得不明朗，他開始懷疑自己的感情是否仍被珍惜，也不知道對方是否還願意接受這份愛。他試圖忽略外界的質疑，卻始終無法消除內心的不安。歌曲反覆詢問 Lea 是否仍希望自己繼續愛著她，流露出深深的眷戀與渴望。最終，《Lea》傳達的是愛情中的忠誠、脆弱與不確定：即使心中的愛意從未改變，當對方的心意變得模糊，最令人難受的，是無法確定這份愛是否仍被需要。",
   "tags": [
     "toto",
     "lea"
@@ -2813,5 +2813,14 @@
     "sha256": "f96d5c8e883da002c99f42b57591ef8bbceb3ea5a9ca88a2e75e43a85ed4b337",
     "transformations": "none",
     "selectedOn": "2026-10-29"
-  }
+  },
+  "editorialRepairs": [
+    {
+      "date": "2026-10-30",
+      "scope": "description",
+      "sourceIssue": "The supplied PDF itself ends mid-sentence at 最令人難.",
+      "resolution": "Editorial completion of the final sentence; not recovered source text.",
+      "addedText": "受的，是無法確定這份愛是否仍被需要。"
+    }
+  ]
 }

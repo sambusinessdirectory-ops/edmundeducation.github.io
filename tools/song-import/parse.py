@@ -105,6 +105,7 @@ for d in specs:
   for q in mode['questions']:q.pop('_oldId',None)
   mode['questions'].sort(key=lambda q:q['number'])
  s=(O/(slug+'.txt')).read_text();intro=s.split('\n"')[0].replace('\n','')
+ if not re.search(r'[。！？.!?][」』”\"’\')）]*$',intro.strip()):raise ValueError(f'{slug}: introduction ends mid-sentence; compare the PDF and supply a reviewed complete introduction before import')
  lesson=dict(slug=slug,title=d['title'],singer=d['singer'],exercise_name=d['title']+' · Listening & Vocabulary',description=intro,tags=[d['singer'].lower(),d['title'].lower()],translations=translated,exercises=modes,vocabulary=vocab(d),audio_url=f'https://edmundeducation.com/song-media/{slug}/album.mp3',cover_url=f'https://edmundeducation.com/song-media/{slug}/user-cover-20261030.png')
  (O/(slug+'.parsed.json')).write_text(json.dumps(lesson,ensure_ascii=False,indent=2));report.append(dict(slug=slug,rows=len(translated),tableRows=len(table),issues=issues));print(slug,len(translated),len(table),len(issues),flush=True)
 (O/'parse-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2))

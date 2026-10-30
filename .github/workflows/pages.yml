@@ -33,6 +33,7 @@ jobs:
         run: |
           node tools/check-song-quality.mjs
           node tools/test-song-route.mjs
+          node tools/test-song-editorial.mjs
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
