@@ -1,0 +1,482 @@
+[
+  {
+    "id": "T1-001",
+    "sourceId": "model-essay-1-ielts-task1-bar-charts",
+    "type": "Bar Charts",
+    "title": "Bar Charts · 1",
+    "prompt": "The chart below shows the number of households in the US by their annual income in 2007, 2011 and 2015.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-1-ielts-task1-bar-charts.webp"
+  },
+  {
+    "id": "T1-002",
+    "sourceId": "model-essay-2-ielts-task1-bar-charts",
+    "type": "Bar Charts",
+    "title": "Bar Charts · 2",
+    "prompt": "The chart below gives information about how families in one country spent their weekly income in 1968 and in 2018.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-2-ielts-task1-bar-charts.webp"
+  },
+  {
+    "id": "T1-003",
+    "sourceId": "model-essay-3-ielts-task1-bar-charts",
+    "type": "Bar Charts",
+    "title": "Bar Charts · 3",
+    "prompt": "The chart below shows the results of a survey about people's coffee and tea buying and drinking habits in five Australian cities.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-3-ielts-task1-bar-charts.webp"
+  },
+  {
+    "id": "T1-004",
+    "sourceId": "model-essay-4-ielts-task1-bar-charts",
+    "type": "Bar Charts",
+    "title": "Bar Charts · 4",
+    "prompt": "The chart below shows the percentage of households in owned and rented accommodation in England and Wales between 1918 and 2011.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-4-ielts-task1-bar-charts.webp"
+  },
+  {
+    "id": "T1-005",
+    "sourceId": "model-essay-5-ielts-task1-bar-charts",
+    "type": "Bar Charts",
+    "title": "Bar Charts · 5",
+    "prompt": "The bar chart below shows the top ten countries for the production and consumption of electricity in 2014.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-5-ielts-task1-bar-charts.webp"
+  },
+  {
+    "id": "T1-006",
+    "sourceId": "model-essay-6-ielts-task1-bar-charts",
+    "type": "Bar Charts",
+    "title": "Bar Charts · 6",
+    "prompt": "The bar chart below shows the percentage of Australian men and women in different age groups who did regular physical activity in 2010.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-6-ielts-task1-bar-charts.webp"
+  },
+  {
+    "id": "T1-007",
+    "sourceId": "model-essay-7-ielts-task1-bar-charts",
+    "type": "Bar Charts",
+    "title": "Bar Charts · 7",
+    "prompt": "The charts below show what UK graduate and postgraduate students who did not go into full-time work did after leaving college in 2008.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-7-ielts-task1-bar-charts.webp"
+  },
+  {
+    "id": "T1-008",
+    "sourceId": "model-essay-8-ielts-task1-bar-charts",
+    "type": "Bar Charts",
+    "title": "Bar Charts · 8",
+    "prompt": "The chart below shows the total number of minutes (in billions) of telephone calls in the UK, divided into three categories, from 1995—2002.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-8-ielts-task1-bar-charts.webp"
+  },
+  {
+    "id": "T1-009",
+    "sourceId": "model-essay-1-ielts-task1-line-graph",
+    "type": "Line Graph",
+    "title": "Line Graph · 1",
+    "prompt": "The graph below gives information on the numbers of participants for different activities at one social centre in Melbourne, Australia for the period 2000 to 2020.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-1-ielts-task1-line-graph.webp"
+  },
+  {
+    "id": "T1-010",
+    "sourceId": "model-essay-2-ielts-task1-line-graph",
+    "type": "Line Graph",
+    "title": "Line Graph · 2",
+    "prompt": "The graph below gives information about the percentage of the population in four Asian countries living in cities from 1970 to 2020, with predictions for 2030 and 2040.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-2-ielts-task1-line-graph.webp"
+  },
+  {
+    "id": "T1-011",
+    "sourceId": "model-essay-3-ielts-task1-line-graph",
+    "type": "Line Graph",
+    "title": "Line Graph · 3",
+    "prompt": "The graph below shows the average monthly change in the prices of three metals during 2014.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-3-ielts-task1-line-graph.webp"
+  },
+  {
+    "id": "T1-012",
+    "sourceId": "model-essay-4-ielts-task1-line-graph",
+    "type": "Line Graph",
+    "title": "Line Graph · 4",
+    "prompt": "The graph below shows the number of shops that closed and the number of new shops that opened in one country between 2011 and 2018.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-4-ielts-task1-line-graph.webp"
+  },
+  {
+    "id": "T1-013",
+    "sourceId": "model-essay-5-ielts-task1-line-graph",
+    "type": "Line Graph",
+    "title": "Line Graph · 5",
+    "prompt": "The charts below show the changes in ownership of electrical appliances and amount of time spent doing housework in households in one country between 1920 and 2019.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-5-ielts-task1-line-graph.webp"
+  },
+  {
+    "id": "T1-014",
+    "sourceId": "model-essay-6-ielts-task1-line-graph",
+    "type": "Line Graph",
+    "title": "Line Graph · 6",
+    "prompt": "The graph below shows the number of tourists visiting a particular Caribbean island between 2010 and 2017.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-6-ielts-task1-line-graph.webp"
+  },
+  {
+    "id": "T1-015",
+    "sourceId": "model-essay-7-ielts-task1-line-graph",
+    "type": "Line Graph",
+    "title": "Line Graph · 7",
+    "prompt": "The graph below shows average carbon dioxide (CO2) emissions per person in the United Kingdom, Sweden, Italy and Portugal between 1967 and 2007.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-7-ielts-task1-line-graph.webp"
+  },
+  {
+    "id": "T1-016",
+    "sourceId": "model-essay-8-ielts-task1-line-graph",
+    "type": "Line Graph",
+    "title": "Line Graph · 8",
+    "prompt": "The graph below gives information from a 2008 report about consumption of energy in the USA since 1980 with projections until 2030.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-8-ielts-task1-line-graph.webp"
+  },
+  {
+    "id": "T1-017",
+    "sourceId": "model-essay-9-ielts-task1-line-graph",
+    "type": "Line Graph",
+    "title": "Line Graph · 9",
+    "prompt": "The graph below shows the quantities of goods transported in the UK between 1974 and 2002 by four different modes of transport.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-9-ielts-task1-line-graph.webp"
+  },
+  {
+    "id": "T1-018",
+    "sourceId": "model-essay-1-ielts-task1-pie-charts",
+    "type": "Pie Charts",
+    "title": "Pie Charts · 1",
+    "prompt": "The charts below show the average percentages in typical meals of three types of nutrients, all of which may be unhealthy if eaten too much.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-1-ielts-task1-pie-charts.webp"
+  },
+  {
+    "id": "T1-019",
+    "sourceId": "model-essay-2-ielts-task1-pie-charts",
+    "type": "Pie Charts",
+    "title": "Pie Charts · 2",
+    "prompt": "The charts below show the percentage of water used for different purposes in six areas of the world.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-2-ielts-task1-pie-charts.webp"
+  },
+  {
+    "id": "T1-020",
+    "sourceId": "model-essay-3-ielts-task1-pie-charts",
+    "type": "Pie Charts",
+    "title": "Pie Charts · 3",
+    "prompt": "The charts below show the proportions of British students at one university in England who were able to speak other languages in addition to English, in 2000 and 2010.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-3-ielts-task1-pie-charts.webp"
+  },
+  {
+    "id": "T1-021",
+    "sourceId": "model-essay-4-ielts-task1-pie-charts",
+    "type": "Pie Charts",
+    "title": "Pie Charts · 4",
+    "prompt": "The first chart below shows how energy is used in an average Australian household. The second chart shows the greenhouse gas emissions which result from this energy use.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-4-ielts-task1-pie-charts.webp"
+  },
+  {
+    "id": "T1-022",
+    "sourceId": "model-essay-5-ielts-task1-pie-charts",
+    "type": "Pie Charts",
+    "title": "Pie Charts · 5",
+    "prompt": "The charts below give information on the ages of the populations of Yemen and Italy in 2000 and projections for 2050.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-5-ielts-task1-pie-charts.webp"
+  },
+  {
+    "id": "T1-023",
+    "sourceId": "model-essay-6-ielts-task1-pie-charts",
+    "type": "Pie Charts",
+    "title": "Pie Charts · 6",
+    "prompt": "The three pie charts below show the changes in annual spending by a particular UK school in 1981, 1991 and 2001.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-6-ielts-task1-pie-charts.webp"
+  },
+  {
+    "id": "T1-024",
+    "sourceId": "model-essay-1-ielts-task1-process-diagram",
+    "type": "Process Diagram",
+    "title": "Process Diagram · 1",
+    "prompt": "The diagram below shows how fabric is manufactured from bamboo.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-1-ielts-task1-process-diagram.webp"
+  },
+  {
+    "id": "T1-025",
+    "sourceId": "model-essay-2-ielts-task1-process-diagram",
+    "type": "Process Diagram",
+    "title": "Process Diagram · 2",
+    "prompt": "The diagram below shows how a biofuel called ethanol is produced.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-2-ielts-task1-process-diagram.webp"
+  },
+  {
+    "id": "T1-026",
+    "sourceId": "model-essay-3-ielts-task1-process-diagram",
+    "type": "Process Diagram",
+    "title": "Process Diagram · 3",
+    "prompt": "The diagram below shows the manufacturing process for making sugar from sugar cane.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-3-ielts-task1-process-diagram.webp"
+  },
+  {
+    "id": "T1-027",
+    "sourceId": "model-essay-4-ielts-task1-process-diagram",
+    "type": "Process Diagram",
+    "title": "Process Diagram · 4",
+    "prompt": "The diagram below shows the process for recycling plastic bottles.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-4-ielts-task1-process-diagram.webp"
+  },
+  {
+    "id": "T1-028",
+    "sourceId": "model-essay-5-ielts-task1-process-diagram",
+    "type": "Process Diagram",
+    "title": "Process Diagram · 5",
+    "prompt": "The diagram below shows how instant noodles are manufactured.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-5-ielts-task1-process-diagram.webp"
+  },
+  {
+    "id": "T1-029",
+    "sourceId": "model-essay-6-ielts-task1-process-diagram",
+    "type": "Process Diagram",
+    "title": "Process Diagram · 6",
+    "prompt": "The diagram below shows how electricity is generated in a hydroelectric power station.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-6-ielts-task1-process-diagram.webp"
+  },
+  {
+    "id": "T1-030",
+    "sourceId": "model-essay-7-ielts-task1-process-diagram",
+    "type": "Process Diagram",
+    "title": "Process Diagram · 7",
+    "prompt": "The diagram below shows how geothermal energy is used to produce electricity.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-7-ielts-task1-process-diagram.webp"
+  },
+  {
+    "id": "T1-031",
+    "sourceId": "model-essay-8-ielts-task1-process-diagram",
+    "type": "Process Diagram",
+    "title": "Process Diagram · 8",
+    "prompt": "The diagrams below show the life cycle of a species of large fish called the salmon.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-8-ielts-task1-process-diagram.webp"
+  },
+  {
+    "id": "T1-032",
+    "sourceId": "model-essay-9-ielts-task1-process-diagram",
+    "type": "Process Diagram",
+    "title": "Process Diagram · 9",
+    "prompt": "The diagrams below show the stages and equipment used in the cement-making process, and how cement is used to produce concrete for building purposes.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-9-ielts-task1-process-diagram.webp"
+  },
+  {
+    "id": "T1-033",
+    "sourceId": "model-essay-1-ielts-task1-maps",
+    "type": "Maps",
+    "title": "Maps · 1",
+    "prompt": "The plans below show the site ofa farm in 1950 and the same site today.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-1-ielts-task1-maps.webp"
+  },
+  {
+    "id": "T1-034",
+    "sourceId": "model-essay-2-ielts-task1-maps",
+    "type": "Maps",
+    "title": "Maps · 2",
+    "prompt": "The plans below show a harbour in 2000 and how it looks today.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-2-ielts-task1-maps.webp"
+  },
+  {
+    "id": "T1-035",
+    "sourceId": "model-essay-3-ielts-task1-maps",
+    "type": "Maps",
+    "title": "Maps · 3",
+    "prompt": "The diagram below shows the floor plan of a public library 20 years ago and how it looks now.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-3-ielts-task1-maps.webp"
+  },
+  {
+    "id": "T1-036",
+    "sourceId": "model-essay-4-ielts-task1-maps",
+    "type": "Maps",
+    "title": "Maps · 4",
+    "prompt": "The maps below show an industrial area in the town of Norbiton, and planned future development of the site.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-4-ielts-task1-maps.webp"
+  },
+  {
+    "id": "T1-037",
+    "sourceId": "model-essay-5-ielts-task1-maps",
+    "type": "Maps",
+    "title": "Maps · 5",
+    "prompt": "The plans below show the site of anairport now and how it will look after redevelopment next year.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-5-ielts-task1-maps.webp"
+  },
+  {
+    "id": "T1-038",
+    "sourceId": "model-essay-6-ielts-task1-maps",
+    "type": "Maps",
+    "title": "Maps · 6",
+    "prompt": "The plans below show a public park when it first opened in 1920 and the same park today.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-6-ielts-task1-maps.webp"
+  },
+  {
+    "id": "T1-039",
+    "sourceId": "model-essay-7-ielts-task1-maps",
+    "type": "Maps",
+    "title": "Maps · 7",
+    "prompt": "The two maps below show road access to a city hospital in 2007 and in 2010.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-7-ielts-task1-maps.webp"
+  },
+  {
+    "id": "T1-040",
+    "sourceId": "model-essay-8-ielts-task1-maps",
+    "type": "Maps",
+    "title": "Maps · 8",
+    "prompt": "The plans below show the layout of a university’s sports centre now, and how it will look after redevelopment.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-8-ielts-task1-maps.webp"
+  },
+  {
+    "id": "T1-041",
+    "sourceId": "model-essay-9-ielts-task1-maps",
+    "type": "Maps",
+    "title": "Maps · 9",
+    "prompt": "The plans below show a public park when it first opened in 1920 and the same park today.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-9-ielts-task1-maps.webp"
+  },
+  {
+    "id": "T1-042",
+    "sourceId": "model-essay-10-ielts-task1-maps",
+    "type": "Maps",
+    "title": "Maps · 10",
+    "prompt": "The two maps below show an island, before and after the construction of some tourist facilities.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-10-ielts-task1-maps.webp"
+  },
+  {
+    "id": "T1-043",
+    "sourceId": "model-essay-1-ielts-task1-tables",
+    "type": "Tables",
+    "title": "Tables · 1",
+    "prompt": "The first table below shows changes in the total population of New York City from 1800 to 2000. The second and third tablesshow changes in the population of the five districts of the city (Manhattan, Brooklyn, Bronx, Queens, Staten lsland) over the same period.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-1-ielts-task1-tables.webp"
+  },
+  {
+    "id": "T1-044",
+    "sourceId": "model-essay-2-ielts-task1-tables",
+    "type": "Tables",
+    "title": "Tables · 2",
+    "prompt": "The tables below give information about sales of Fairtrade*-labelled coffee and bananas in 1999 and 2004 in five European countries.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-2-ielts-task1-tables.webp"
+  },
+  {
+    "id": "T1-045",
+    "sourceId": "model-essay-3-ielts-task1-tables",
+    "type": "Tables",
+    "title": "Tables · 3",
+    "prompt": "The table below provides statistics on several major metro (MRT) systems around the world.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-3-ielts-task1-tables.webp"
+  },
+  {
+    "id": "T1-046",
+    "sourceId": "model-essay-4-ielts-task1-tables",
+    "type": "Tables",
+    "title": "Tables · 4",
+    "prompt": "The table chart below shows the number of nights spent by domestic and international tourists in Germany from 2016 to 2022 (in millions).",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-4-ielts-task1-tables.webp"
+  },
+  {
+    "id": "T1-047",
+    "sourceId": "model-essay-5-ielts-task1-tables",
+    "type": "Tables",
+    "title": "Tables · 5",
+    "prompt": "The table shows the worldwide market share of the mobile phone market for manufactures in the years 2005 and 2006.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-5-ielts-task1-tables.webp"
+  },
+  {
+    "id": "T1-048",
+    "sourceId": "model-essay-6-ielts-task1-tables",
+    "type": "Tables",
+    "title": "Tables · 6",
+    "prompt": "The table below shows the results of a survey of first-year students taking various courses at a particular university. It shows how many of the students considered various aspects of their course 'very good'.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-6-ielts-task1-tables.webp"
+  },
+  {
+    "id": "T1-049",
+    "sourceId": "model-essay-7-ielts-task1-tables",
+    "type": "Tables",
+    "title": "Tables · 7",
+    "prompt": "The table details the international tourist arrivals in millions in 8 countries in 2009 and 2010 and the changes (in percentages).",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-7-ielts-task1-tables.webp"
+  },
+  {
+    "id": "T1-050",
+    "sourceId": "model-essay-8-ielts-task1-tables",
+    "type": "Tables",
+    "title": "Tables · 8",
+    "prompt": "The table below gives information about management positions held by women in a European country in 2006.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-8-ielts-task1-tables.webp"
+  },
+  {
+    "id": "T1-051",
+    "sourceId": "model-essay-9-ielts-task1-tables",
+    "type": "Tables",
+    "title": "Tables · 9",
+    "prompt": "The table below shows the consumption of three basic foods (wheat, maize, rice) by people in four different countries.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-9-ielts-task1-tables.webp"
+  },
+  {
+    "id": "T1-052",
+    "sourceId": "model-essay-10-ielts-task1-tables",
+    "type": "Tables",
+    "title": "Tables · 10",
+    "prompt": "The table shows the Proportions of Pupils Attending Four Secondary School Types Between 2000 and 2009.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-10-ielts-task1-tables.webp"
+  },
+  {
+    "id": "T1-053",
+    "sourceId": "model-essay-11-ielts-task1-tables",
+    "type": "Tables",
+    "title": "Tables · 11",
+    "prompt": "The table below gives information about the daily cost of water per person in five different countries.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-11-ielts-task1-tables.webp"
+  },
+  {
+    "id": "T1-054",
+    "sourceId": "model-essay-1-ielts-task1-mixed-charts",
+    "type": "Mixed Charts",
+    "title": "Mixed Charts · 1",
+    "prompt": "The charts below give information about a public library in a town called Little Chalfont.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-1-ielts-task1-mixed-charts.webp"
+  },
+  {
+    "id": "T1-055",
+    "sourceId": "model-essay-2-ielts-task1-mixed-charts",
+    "type": "Mixed Charts",
+    "title": "Mixed Charts · 2",
+    "prompt": "The charts below give information on the location and types of dance classes young people in a town in Australia are currently attending.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-2-ielts-task1-mixed-charts.webp"
+  },
+  {
+    "id": "T1-056",
+    "sourceId": "model-essay-3-ielts-task1-mixed-charts",
+    "type": "Mixed Charts",
+    "title": "Mixed Charts · 3",
+    "prompt": "The table and charts below give information on the police budget for 2017 and 2018 in one area of Britain. The table shows where the money came from and the charts show how it was distributed.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-3-ielts-task1-mixed-charts.webp"
+  },
+  {
+    "id": "T1-057",
+    "sourceId": "model-essay-4-ielts-task1-mixed-charts",
+    "type": "Mixed Charts",
+    "title": "Mixed Charts · 4",
+    "prompt": "The chart below shows the value of one country's exports in various categories during 2015 and 2016.Thetable shows the percentage change in each category of exports in 2016 compared with 2015.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-4-ielts-task1-mixed-charts.webp"
+  },
+  {
+    "id": "T1-058",
+    "sourceId": "model-essay-5-ielts-task1-mixed-charts",
+    "type": "Mixed Charts",
+    "title": "Mixed Charts · 5",
+    "prompt": "The chart below shows the value of one country's exports in various categories during 2015 and 2016.Thetable shows the percentage change in each category of exports in 2016 compared with 2015.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-5-ielts-task1-mixed-charts.webp"
+  },
+  {
+    "id": "T1-059",
+    "sourceId": "model-essay-6-ielts-task1-mixed-charts",
+    "type": "Mixed Charts",
+    "title": "Mixed Charts · 6",
+    "prompt": "The table below shows the number of visitors to Ashdown Museum during the year before and the year after it was refurbished. The charts show the result of surveys asking visitors how satisfied they were with their visit, during the same two periods.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-6-ielts-task1-mixed-charts.webp"
+  },
+  {
+    "id": "T1-060",
+    "sourceId": "model-essay-7-ielts-task1-mixed-charts",
+    "type": "Mixed Charts",
+    "title": "Mixed Charts · 7",
+    "prompt": "The table below shows the number of visitors to Ashdown Museum during the year before and the year after it was refurbished. The charts show the result of surveys asking visitors how satisfied they were with their visit, during the same two periods.",
+    "image": "assets/writing-practice/questions/ielts-task1/model-essay-7-ielts-task1-mixed-charts.webp"
+  }
+]
