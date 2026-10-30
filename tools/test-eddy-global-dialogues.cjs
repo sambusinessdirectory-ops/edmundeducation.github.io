@@ -15,13 +15,13 @@ for (const [, href] of systemList.matchAll(/href:\s*"([^"]+\.html)"/g)) {
     assert.match(html, /eddy-global-dialogues\.css\?v=20261028-hover-guard1/, `${href} must load its stylesheet`);
   }
 }
-assert.match(fs.readFileSync(path.join(root, 'index.html'), 'utf8'), /eddy-global-dialogues\.js\?v=20261028-morning1/, 'the homepage loads the morning version');
+assert.match(fs.readFileSync(path.join(root, 'index.html'), 'utf8'), /eddy-global-dialogues\.js\?v=20261030-weekday1/, 'the homepage loads the morning version');
 assert.match(nav, /queuePomodoroBreak\(pomodoroOwnerKey \|\| currentPomodoroStorageKey\(\), pomodoroState\.endsAt\)/);
 assert.match(nav, /element\.hasAttribute\("data-eddy-global-dialogue"\)/);
 for (const file of fs.readdirSync(root).filter((name) => name.endsWith('.html'))) {
   const html = fs.readFileSync(path.join(root, file), 'utf8');
   if (!/<script[^>]+shared-system-nav\.js/.test(html)) continue;
-  const globalAt = html.search(/<script[^>]*src="\/?eddy-global-dialogues\.js\?v=202610(?:27-homeonly1|28-morning1)"/);
+  const globalAt = html.search(/<script[^>]*src="\/?eddy-global-dialogues\.js\?v=202610(?:27-homeonly1|30-weekday1)"/);
   const navAt = html.search(/<script[^>]*src="\/?shared-system-nav\.js\?v=20261026-daily-visit1"/);
   assert.ok(globalAt >= 0 && navAt > globalAt, `${file} must load Eddy before navigation`);
 }
@@ -214,7 +214,7 @@ const server = http.createServer((req, res) => {
       if (await afterArt.count()) assert.doesNotMatch(await afterArt.getAttribute('src'), new RegExp(image), `${label} ends at ${hour + 1}:00 Hong Kong time`);
       await after.close();
       for (let variant = 0; variant < variants; variant += 1) {
-        const day = String(10 + variant).padStart(2, '0');
+        const day = [10, 11, 14, 15, 16, 17, 18][variant];
         const sample = await pageAt(`2026-12-${day}T${String(utcHour).padStart(2, '0')}:30:00Z`, { width: 375, height: 667 }, (variant + .01) / variants);
         const sampleArt = sample.locator('.eddy-global-art img');
         await sampleArt.evaluate((img) => img.decode());
@@ -277,9 +277,22 @@ const server = http.createServer((req, res) => {
     await sunday.keyboard.press('Tab');
     await sunday.close();
     const sundayAgain = await pageAt('2026-11-01T08:00:00Z');
-    assert.match(await sundayAgain.locator('.eddy-global-art img').getAttribute('src'), /coffee-break/, 'the new coffee window starts after the once-per-day Sunday greeting');
+    assert.equal(await sundayAgain.locator('.eddy-global-overlay').count(), 0, 'Sunday coffee break stays disabled after the weekend greeting');
     await sundayAgain.close();
-    const longSunday = await pageAt('2026-11-08T06:00:00Z', { width: 375, height: 667 });
+    for (const [date, label] of [['2026-11-07', 'Saturday'], ['2026-11-08', 'Sunday']]) {
+      for (const [utcHour, moment] of [[8, 'coffee'], [10, 'finishing work']]) {
+        const weekendPage = await pageAt(`${date}T${String(utcHour).padStart(2, '0')}:30:00Z`);
+        const weekendOverlay = weekendPage.locator('.eddy-global-overlay');
+        if (await weekendOverlay.count()) {
+          assert.match(await weekendPage.locator('.eddy-global-art img').getAttribute('src'), /(?:saturday-plant|sunday-hobbies)/, `${label} can still show its weekend greeting`);
+          await weekendPage.keyboard.press('Tab');
+        }
+        await weekendPage.evaluate(() => window.EdmundEddyGlobalDialogue.checkNewTimedMoments());
+        assert.equal(await weekendOverlay.count(), 0, `${moment} stays disabled on ${label}`);
+        await weekendPage.close();
+      }
+    }
+    const longSunday = await pageAt('2026-11-15T06:00:00Z', { width: 375, height: 667 });
     assert.match(await longSunday.locator('.eddy-global-art img').getAttribute('src'), /sunday-hobbies/);
     const longSundayFit = await longSunday.locator('.eddy-global-copy').evaluate((node) => ({ scroll: node.scrollHeight, visible: node.clientHeight }));
     assert.ok(longSundayFit.scroll <= longSundayFit.visible + 1, `long Sunday copy fits mobile: ${JSON.stringify(longSundayFit)}`);

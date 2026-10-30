@@ -110,8 +110,8 @@
   const timedMoments = Object.freeze({
     midnightSnack: { startMinute: 120, endMinute: 350, lines: midnightSnackLines, image: '/eddy-midnight-snack-dialogue.png', label: 'Eddy 的深夜餅乾時間', storageKey: 'edmund-eddy-midnight-snack-day-v1' },
     morningCoffee: { startMinute: 360, endMinute: 480, lines: morningCoffeeLines, image: '/eddy-morning-coffee-dialogue.png', label: 'Eddy 的清晨咖啡時間', storageKey: 'edmund-eddy-morning-coffee-day-v1' },
-    coffee: { hour: 16, lines: coffeeLines, image: '/eddy-coffee-break-dialogue.png', label: 'Eddy 的午後咖啡時間', storageKey: 'edmund-eddy-coffee-break-day-v1' },
-    finishingWork: { hour: 18, lines: finishingWorkLines, image: '/eddy-finishing-work-dialogue.png', label: 'Eddy 的下班前問候', storageKey: 'edmund-eddy-finishing-work-day-v1' },
+    coffee: { hour: 16, weekdaysOnly: true, lines: coffeeLines, image: '/eddy-coffee-break-dialogue.png', label: 'Eddy 的午後咖啡時間', storageKey: 'edmund-eddy-coffee-break-day-v1' },
+    finishingWork: { hour: 18, weekdaysOnly: true, lines: finishingWorkLines, image: '/eddy-finishing-work-dialogue.png', label: 'Eddy 的下班前問候', storageKey: 'edmund-eddy-finishing-work-day-v1' },
     gaming: { hour: 20, lines: gamingLines, image: '/eddy-gaming-time-dialogue.png', label: 'Eddy 的遊戲時間', storageKey: 'edmund-eddy-gaming-time-day-v1' }
   });
   const breakStoragePrefix = 'edmund-eddy-pomodoro-break-v1:';
@@ -139,6 +139,7 @@
   }
 
   function momentIsActive(moment, now) {
+    if (moment.weekdaysOnly && ['Saturday', 'Sunday'].includes(now.weekday)) return false;
     const minuteOfDay = now.hour * 60 + now.minute;
     return moment.startMinute === undefined ? now.hour === moment.hour
       : minuteOfDay >= moment.startMinute && minuteOfDay < moment.endMinute;
