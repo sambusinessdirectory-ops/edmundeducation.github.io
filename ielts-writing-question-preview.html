@@ -10,10 +10,10 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="/shared-system-nav.css">
-  <link rel="stylesheet" href="/ielts-writing-preview/style.css?v=20261030-2">
+  <link rel="stylesheet" href="/ielts-writing-preview/style.css?v=20261030-3">
   <script defer src="/pwa-register.js"></script>
   <script defer src="/shared-system-nav.js"></script>
-  <script defer src="/ielts-writing-preview/app.js?v=20261030-2"></script>
+  <script defer src="/ielts-writing-preview/app.js?v=20261030-3"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">跳至題目列表</a>
@@ -36,9 +36,9 @@
       <button class="tab" id="tab-task2" type="button" role="tab" aria-controls="panel-task2" aria-selected="false" data-tab="task2"><span class="tab-index">02</span><span><strong>Task 2</strong><small>Essays · 作文</small></span></button>
     </nav>
     <section id="panel-task1" class="panel" role="tabpanel" aria-labelledby="tab-task1">
-      <div class="panel-heading"><div><p class="eyebrow">TASK 1 · DIAGRAMS</p><h2>圖表題目</h2><p>選擇圖表，查看完整題圖與英文題目。</p></div><span class="count" id="task1-count">載入中</span></div>
-      <div class="toolbar"><label class="search"><span>搜尋圖表</span><input id="task1-search" type="search" placeholder="搜尋圖表題目或類型" autocomplete="off"></label><div class="filter"><span class="control-label">圖表類型</span><button id="task1-type" class="menu-trigger" type="button" aria-haspopup="menu" aria-expanded="false"><span>所有類型</span><span class="menu-chevron" aria-hidden="true"></span></button></div></div>
-      <div class="table-scroll" id="task1-scroll" tabindex="0" aria-label="Task 1 圖表題目列表"><table><thead><tr><th scope="col">編號</th><th scope="col">題目與圖表類型</th><th scope="col">題圖</th></tr></thead><tbody id="task1-rows"></tbody></table></div>
+      <div class="panel-heading"><div><p class="eyebrow">TASK 1 · DIAGRAMS</p><h2>圖表題目</h2><p>看題目與圖表，再選擇圖表類型、動態或靜態，以及適用時態。</p></div><span class="count" id="task1-count">載入中</span></div>
+      <div class="toolbar"><label class="search"><span>搜尋圖表</span><input id="task1-search" type="search" placeholder="搜尋英文題目" autocomplete="off"></label></div>
+      <div class="table-scroll" id="task1-scroll" tabindex="0" aria-label="Task 1 圖表題目列表"><table><thead><tr><th scope="col">題目與圖表</th><th scope="col">圖表類型</th><th scope="col">動態 / 靜態</th><th scope="col">適用時態（可多選）</th></tr></thead><tbody id="task1-rows"></tbody></table></div>
     </section>
     <section id="panel-task2" class="panel" role="tabpanel" aria-labelledby="tab-task2" hidden>
       <div class="panel-heading"><div><p class="eyebrow">TASK 2 · ESSAYS</p><h2>作文題目</h2><p>瀏覽完整題目，並在右邊選擇你判斷的題型。</p></div><span class="count" id="task2-count">載入中</span></div>

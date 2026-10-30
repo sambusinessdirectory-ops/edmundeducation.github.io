@@ -1,9 +1,11 @@
 import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
 import { readFileSync, existsSync } from 'node:fs';
 
 const read = (path) => readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
 const task1 = JSON.parse(read('ielts-writing-preview/task1-diagrams.json'));
 const task2 = JSON.parse(read('ielts-writing-preview/task2-questions.json'));
+const narration = JSON.parse(read('ielts-writing-preview/question-audio.json'));
 const homepage = read('index.html');
 const page = read('ielts-writing-question-preview.html');
 const app = read('ielts-writing-preview/app.js');
@@ -20,9 +22,20 @@ assert.equal(new Set(task1.map((item) => item.id)).size, 60);
 assert.equal(new Set(task2.map((item) => item.id)).size, 242);
 assert.equal(new Set(task2.map((item) => item.topic)).size, 20);
 assert.equal(new Set(task2.map((item) => item.sourcePage)).size, 39);
+assert.equal(Object.keys(narration).length, 302, 'Every Task 1 and Task 2 question has narration');
+const voiceCycle = ['british-male', 'british-female', 'american-female'];
+for (const [index, item] of [...task1.map((item) => ['task1', item]), ...task2.map((item) => ['task2', item])].entries()) {
+  const [section, question] = item;
+  const clip = narration[`${section}:${question.id}`];
+  assert.ok(clip?.path && existsSync(new URL(`../${clip.path}`, import.meta.url)), `${question.id} audio file exists`);
+  assert.equal(clip.voice, voiceCycle[index % 3], `${question.id} follows the three-voice rotation`);
+  const spoken = section === 'task1' ? question.quizPrompt : question.en;
+  assert.equal(clip.sourceSha256, createHash('sha256').update(spoken).digest('hex'), `${question.id} audio matches visible question text`);
+}
 for (const item of task1) {
-  assert.ok(item.prompt && item.image && item.type, `${item.id} has a complete diagram record`);
+  assert.ok(item.prompt && item.quizPrompt && item.image && item.type, `${item.id} has a complete diagram record and quiz wording`);
   assert.ok(existsSync(new URL(`../${item.image}`, import.meta.url)), `${item.id} image exists`);
+  assert.doesNotMatch(item.quizPrompt, /\b(?:bar chart|pie chart|line graph|table chart|maps|tables)\b/i, `${item.id} does not say its graph type`);
 }
 for (const item of task2) {
   assert.ok(item.en && item.zh && item.topic, `${item.id} has English, Traditional Chinese and a topic`);
@@ -37,7 +50,17 @@ assert.match(app, /translationsShown = false/, 'Translations start hidden');
 assert.match(app, /safeStorage\('localStorage'\)\?\.setItem\(activeStorageKey/, 'Dropdown choices persist on this device');
 assert.match(app, /edmund-universal-student-session-v1/, 'Signed-in students have separate saved choices');
 assert.match(app, /storage\.removeItem\(LEGACY_STORAGE_KEY\)/, 'Existing saved choices migrate without loss');
-assert.match(app, /role', 'menuitemradio'/, 'Question choices use an accessible custom menu');
+assert.match(app, /menuitemradio/, 'Single question choices use an accessible custom menu');
+assert.match(app, /menuitemcheckbox/, 'Tense selections use an accessible multi-select menu');
+assert.match(app, /task1Answer\(item\.id\)/, 'Task 1 choices are restored per question');
+assert.match(app, /:task1`, JSON\.stringify\(savedTask1\)/, 'Task 1 choices persist locally per student');
+assert.match(app, /quizPrompt\(item\)/, 'Task 1 text uses the neutral quiz wording');
+assert.match(app, /task1-diagrams\.json\?v=/, 'Task 1 data cache is refreshed with the new quiz wording');
+assert.match(page, /適用時態（可多選）/, 'Task 1 has a separate tense column');
+assert.match(page, /動態 \/ 靜態/, 'Task 1 has a separate dynamic/static column');
+for (const tense of ['Past Tense', 'Present Tense', 'Future Tense', 'Present Perfect Tense', 'Past Perfect Tense']) {
+  assert.ok(app.includes(tense), `${tense} is selectable`);
+}
 assert.match(page, /class="site-header edmund-system-header"/, 'The standard system head beam is used');
 assert.doesNotMatch(page, /class="intro"/, 'The oversized hero is removed');
 assert.match(page, /href="\/pwa-ui\.css"/, 'The existing PWA update notice is styled');
@@ -45,4 +68,4 @@ assert.match(style, /--cement: #d9dbda/, 'The page uses the cement-gray palette'
 for (const type of ['Opinions', 'Discuss both views + Opinions', 'Advantages & Disadvantages', 'Cause & Solution', 'Direct question']) {
   assert.ok(app.includes(type), `${type} is available in the dropdown`);
 }
-console.log('IELTS preview: 60 diagrams, 242 bilingual essays, card 77, all five choices verified.');
+console.log('IELTS preview: 60 diagrams, 242 bilingual essays, 302 three-voice clips, three Task 1 answer columns verified.');
