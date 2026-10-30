@@ -25,6 +25,33 @@
     ['早安……Eddy 的精神，還在這杯咖啡裡泡著呢……', ''],
     ['唔……早上六點的世界……原來長這個樣子啊……呼啊～～', '']
   ];
+  const middayMealLines = [
+    ['嘿嘿……終於到午餐時間啦！', '光是想到香噴噴的飯菜，口水就快流下來了……不行不行，Eddy 已經等不及啦！'],
+    ['嘿嘿……炸雞、漢堡、咖哩飯……吸溜！糟糕，光用想的就餓得受不了啦！', ''],
+    ['咕嚕嚕……唔！肚子又開始抗議啦！好啦好啦，馬上就帶你去吃好料！', ''],
+    ['咦？你剛才說什麼？……啊，抱歉！Eddy 滿腦子都在想午餐要吃什麼啦！', ''],
+    ['唔～今天要吃拉麵，還是咖哩飯呢？可惡！這比解任務還難選啊！', ''],
+    ['好！午餐時間到！Eddy 的肚子可是早就準備好了！……咦？口水怎麼自己流出來了！？', ''],
+    ['吸溜……午餐還沒來，Eddy 的口水就先報到了！', '']
+  ];
+  const saturdayGroceryLines = [
+    ['週末的大採購開始啦！\n嗯嗯……牛奶、雞蛋、還有麵包……', '好！該買的東西都記下來了！……咦？零食區在那邊啊？嘿嘿，去看看好了！'],
+    ['週末的大採購開始啦！\n牛奶、雞蛋、蔬菜……嗯？購物清單上怎麼多了一項「超大布丁」？……嘿嘿，真奇怪呢！', ''],
+    ['週末的大採購開始啦！\n哼哼！今天可是有備而來的喔！只要照著這張清單買，就絕對不會漏掉任何東西啦！', ''],
+    ['週末的大採購開始啦！\n不行不行！今天只買清單上的東西！……可是那包餅乾看起來真的好好吃喔……', ''],
+    ['週末的大採購開始啦！今天要買些什麼好呢？嘿嘿，光想就覺得有趣！', ''],
+    ['週末的大採購開始啦！\n清單上的東西都買齊了！……啊！等等！Eddy 怎麼把購物袋忘在家裡啦！？', ''],
+    ['週末的大採購開始啦！\n購物清單確認完畢！好，今天可不能亂買東西喔！', '']
+  ];
+  const sundayCouchLines = [
+    ['啊～～星期天下午就是要這樣過嘛！', '沙發軟綿綿的，抱枕也暖呼呼的……嘿嘿，今天誰也別想叫 Eddy 起來！'],
+    ['奇怪……這張沙發是不是施了什麼魔法啊？Eddy 怎麼樣都爬不起來啦……', ''],
+    ['嘿嘿，今天的計畫就是……什麼都不做！怎麼樣？計畫是不是很完美啊？', ''],
+    ['遙控器拿到了，零食也準備好了……嗯！接下來只要一整個下午都不動就行啦！', ''],
+    ['唔～本來只是想坐一下的……怎麼一回過神，就已經過了兩個小時啦？', ''],
+    ['不行了……Eddy 已經跟沙發融為一體了……有什麼事就明天再說吧……', ''],
+    ['星期天下午嘛……當然是跟沙發培養感情的時間啦！', '']
+  ];
   const coffeeLines = [
     ['呼～這個時間來杯咖啡，真是再幸福不過了！', '嗯～光是聞到香味，就覺得整個人都活過來了呢！'],
     ['啊～咖啡真香！要是能一直坐在這裡，什麼都不做就好了……', ''],
@@ -110,6 +137,9 @@
   const timedMoments = Object.freeze({
     midnightSnack: { startMinute: 120, endMinute: 350, lines: midnightSnackLines, image: '/eddy-midnight-snack-dialogue.png', label: 'Eddy 的深夜餅乾時間', storageKey: 'edmund-eddy-midnight-snack-day-v1' },
     morningCoffee: { startMinute: 360, endMinute: 480, lines: morningCoffeeLines, image: '/eddy-morning-coffee-dialogue.png', label: 'Eddy 的清晨咖啡時間', storageKey: 'edmund-eddy-morning-coffee-day-v1' },
+    middayMeal: { hour: 12, lines: middayMealLines, image: '/eddy-lunchtime-dialogue.png', label: 'Eddy 的午餐時間', storageKey: 'edmund-eddy-lunchtime-day-v1' },
+    saturdayGrocery: { startMinute: 780, endMinute: 900, weekday: 'Saturday', lines: saturdayGroceryLines, image: '/eddy-saturday-grocery-dialogue.png', label: 'Eddy 的星期六採購時間', storageKey: 'edmund-eddy-saturday-grocery-day-v1' },
+    sundayCouch: { startMinute: 780, endMinute: 900, weekday: 'Sunday', lines: sundayCouchLines, image: '/eddy-sunday-couch-dialogue.png', label: 'Eddy 的星期天下午', storageKey: 'edmund-eddy-sunday-couch-day-v1' },
     coffee: { hour: 16, weekdaysOnly: true, lines: coffeeLines, image: '/eddy-coffee-break-dialogue.png', label: 'Eddy 的午後咖啡時間', storageKey: 'edmund-eddy-coffee-break-day-v1' },
     finishingWork: { hour: 18, weekdaysOnly: true, lines: finishingWorkLines, image: '/eddy-finishing-work-dialogue.png', label: 'Eddy 的下班前問候', storageKey: 'edmund-eddy-finishing-work-day-v1' },
     gaming: { hour: 20, lines: gamingLines, image: '/eddy-gaming-time-dialogue.png', label: 'Eddy 的遊戲時間', storageKey: 'edmund-eddy-gaming-time-day-v1' }
@@ -140,6 +170,7 @@
 
   function momentIsActive(moment, now) {
     if (moment.weekdaysOnly && ['Saturday', 'Sunday'].includes(now.weekday)) return false;
+    if (moment.weekday && moment.weekday !== now.weekday) return false;
     const minuteOfDay = now.hour * 60 + now.minute;
     return moment.startMinute === undefined ? now.hour === moment.hour
       : minuteOfDay >= moment.startMinute && minuteOfDay < moment.endMinute;
@@ -226,7 +257,7 @@
         remember(timedMoment.storageKey, now.day);
       } else if (next.kind === 'lunch') {
         const now = hongKongNow();
-        if (now.hour !== 13 || now.day !== next.day || shownLunchDay === now.day || stored(lunchStorageKey) === now.day) continue;
+        if (now.hour !== 13 || ['Saturday', 'Sunday'].includes(now.weekday) || now.day !== next.day || shownLunchDay === now.day || stored(lunchStorageKey) === now.day) continue;
         shownLunchDay = now.day;
         remember(lunchStorageKey, now.day);
       } else if (next.kind === 'tea') {
@@ -296,7 +327,8 @@
 
   function checkLunch() {
     if (document.hidden || !isMainPage()) return;
-    const { day, hour } = hongKongNow();
+    const { day, hour, weekday } = hongKongNow();
+    if (['Saturday', 'Sunday'].includes(weekday)) return;
     if (hour !== 13 || shownLunchDay === day || stored(lunchStorageKey) === day
       || queue.some((item) => item.kind === 'lunch' && item.day === day)) return;
     queue.unshift({ kind: 'lunch', day });
