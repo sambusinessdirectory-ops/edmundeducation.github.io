@@ -531,3 +531,21 @@ button { color: inherit; }
 .song-discovery.is-resumed:not(.is-paused):not(.is-manual) .song-discovery-track{animation-play-state:running}
 .song-reread{margin:1.2rem 0;padding:1rem;border-top:1px solid #d9cbd6;border-bottom:1px solid #d9cbd6}
 .song-reread p{margin:0 0 .8rem}
+
+/* Optional pilot sections preserve the original four-tab lessons. */
+.content-tabs:has([data-song-tab="advanced"]:not([hidden])) {display:flex;flex-wrap:wrap;}
+.content-tabs:has([data-song-tab="advanced"]:not([hidden])) [data-song-tab] {flex:1 1 180px;font-size:clamp(16px,1.6vw,24px);}
+[data-song-tab][hidden] {display:none!important;}
+.song-learning-section {padding:clamp(20px,4vw,48px);scroll-margin-top:220px;}
+.song-learning-section select {width:100%;padding:14px;border:1px solid #cbd8e6;border-radius:10px;background:#fff;color:#26354b;margin-bottom:24px;font:inherit;}
+.structure-pattern {display:flex;flex-wrap:wrap;gap:12px;margin:20px 0;}
+.structure-pattern span {padding:18px;border:1px solid;border-radius:5px;}
+.pattern-fixed {background:#eee8fa;color:#69449b;border-color:#cdbce9!important;}
+.pattern-slot {background:#fff4d9;color:#735518;border-color:#efd18a!important;}
+.structure-example {padding:20px;background:#f0f5fc;border-left:4px solid #93b5df;color:#29476d;margin:20px 0;}
+.structure-help {display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0;}
+.structure-help>div {padding:20px;background:#f0faf5;border-top:3px solid #268c74;color:#29476d;}
+.structure-help>div+div {background:#f7f2fc;border-color:#8b65bc;}
+.analysis-card {border:1px solid #e8dce4;border-radius:18px;padding:clamp(20px,3vw,36px);margin:24px 0;background:white;color:#302936;line-height:1.85;}
+.analysis-card blockquote {border-left:3px solid #d63a72;padding-left:18px;margin:18px 0;}
+@media(max-width:640px){.structure-help{grid-template-columns:1fr;}}

@@ -24,6 +24,20 @@ export function checkSong(d){
   positions.forEach((p,i)=>{if(p<0)errors.push(m.id+': answer absent');if(i>1&&p===positions[i-1]&&p===positions[i-2])errors.push(m.id+' Q'+(i+1)+': three identical answer positions');});
  }
  const v=d.vocabulary||[];v.forEach((q,i)=>{if(i>1&&q.answer===v[i-1].answer&&q.answer===v[i-2].answer)errors.push('vocabulary Q'+q.number+': three identical answer positions');});
+ for(const [name,section] of Object.entries(d.learning_sections||{})) {
+  if(/不是[^。！？\n]{0,180}而是/.test(JSON.stringify(section)))errors.push(name+': prohibited Chinese contrast pattern');
+  if(name==='analysis'){if(!section.items?.length)errors.push('analysis: missing notes');continue;}
+  const questions=section.questions||[], positions=questions.map(q=>q.answer);
+  if(!Number.isInteger(section.version)||!questions.length)errors.push(name+': missing version/questions');
+  questions.forEach((q,i)=>{
+   if(q.number!==i+1||q.options?.length!==4||q.optionExplanations?.length!==4||!Number.isInteger(q.answer)||q.answer<0||q.answer>3)errors.push(name+': invalid question '+(i+1));
+   for(const k of ['word','meaning','usage','prompt','explanation'])if(!q[k]?.trim())errors.push(name+' Q'+(i+1)+': missing '+k);
+   if(new Set(q.options).size!==4)errors.push(name+' Q'+(i+1)+': duplicate choices');
+   if(i>1&&positions[i]===positions[i-1]&&positions[i]===positions[i-2])errors.push(name+': answer-position triplet');
+  });
+  const counts=[0,1,2,3].map(p=>positions.filter(x=>x===p).length);
+  if(Math.max(...counts)-Math.min(...counts)>1)errors.push(name+': unbalanced answers');
+ }
  return errors;
 }
 let failures=0,count=0;

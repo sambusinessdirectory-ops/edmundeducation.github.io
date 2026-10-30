@@ -1,0 +1,4438 @@
+{
+  "slug": "heal-the-world",
+  "title": "Heal The World",
+  "singer": "Michael Jackson",
+  "translations": [
+    {
+      "english": "Think about—um—the generations and they say we wanna make it a better place for our children, and our children's children, so that they they they know it's a better world for them, and think if they can make it a better place",
+      "chinese": "想想我們的世世代代……我們都說，希望為自己的孩子，以及孩子的下一代，創造一個更美好的地方，讓他們知道，這個世界對他們而言可以更加美好，也讓他們思考，自己是否也能讓世界變得更好。",
+      "lineId": "line-1",
+      "startSeconds": 11.8,
+      "endSeconds": 61.34
+    },
+    {
+      "english": "There's a place in your heart",
+      "chinese": "在你的心中，有一個地方",
+      "lineId": "line-2"
+    },
+    {
+      "english": "And I know that it is love",
+      "chinese": "而我知道，那就是愛",
+      "lineId": "line-3"
+    },
+    {
+      "english": "And this place could be much brighter than tomorrow",
+      "chinese": "這個地方，可以比明日更加光明燦爛",
+      "lineId": "line-4"
+    },
+    {
+      "english": "And if you really try",
+      "chinese": "只要你真心願意付出努力",
+      "lineId": "line-5"
+    },
+    {
+      "english": "You'll find there's no need to cry",
+      "chinese": "你便會發現，再也沒有哭泣的必要",
+      "lineId": "line-6"
+    },
+    {
+      "english": "In this place you'll feel there's no hurt or sorrow",
+      "chinese": "在這個地方，你將感受到沒有傷害，也沒有悲傷",
+      "lineId": "line-7"
+    },
+    {
+      "english": "There are ways to get there",
+      "chinese": "我們總有辦法抵達那樣的境地",
+      "lineId": "line-8"
+    },
+    {
+      "english": "If you care enough for the living",
+      "chinese": "只要你真心關懷世間每一個生命",
+      "lineId": "line-9",
+      "startSeconds": 95.76,
+      "endSeconds": 98.52
+    },
+    {
+      "english": "Make a little space",
+      "chinese": "騰出一點空間",
+      "lineId": "line-10",
+      "startSeconds": 98.88,
+      "endSeconds": 101.12
+    },
+    {
+      "english": "Make a better place",
+      "chinese": "創造一個更美好的地方",
+      "lineId": "line-11",
+      "startSeconds": 101.12,
+      "endSeconds": 103.52
+    },
+    {
+      "english": "Heal the world",
+      "chinese": "治癒這個世界",
+      "lineId": "line-12",
+      "startSeconds": 103.6,
+      "endSeconds": 106.3
+    },
+    {
+      "english": "Make it a better place",
+      "chinese": "讓它成為一個更美好的地方",
+      "lineId": "line-13",
+      "startSeconds": 107.14,
+      "endSeconds": 110.28
+    },
+    {
+      "english": "For you and for me",
+      "chinese": "為了你，也為了我",
+      "lineId": "line-14",
+      "startSeconds": 110.6,
+      "endSeconds": 113.12
+    },
+    {
+      "english": "And the entire human race",
+      "chinese": "也為了全人類",
+      "lineId": "line-15",
+      "startSeconds": 113.12,
+      "endSeconds": 115.92
+    },
+    {
+      "english": "There are people dying",
+      "chinese": "此刻，正有人在失去生命",
+      "lineId": "line-16"
+    },
+    {
+      "english": "If you care enough for the living",
+      "chinese": "只要你真心關懷世間每一個生命",
+      "lineId": "line-17",
+      "startSeconds": 118.9,
+      "endSeconds": 121.7
+    },
+    {
+      "english": "Make a better place",
+      "chinese": "就創造一個更美好的地方",
+      "lineId": "line-18",
+      "startSeconds": 121.7,
+      "endSeconds": 124.1
+    },
+    {
+      "english": "For you and for me",
+      "chinese": "為了你，也為了我",
+      "lineId": "line-19",
+      "startSeconds": 124.1,
+      "endSeconds": 127.26
+    },
+    {
+      "english": "If you want to know why",
+      "chinese": "如果你想知道其中的緣由",
+      "lineId": "line-20",
+      "startSeconds": 129.86,
+      "endSeconds": 133.8
+    },
+    {
+      "english": "There's a love that cannot lie",
+      "chinese": "因為有一種愛，真誠得不容虛假",
+      "lineId": "line-21",
+      "startSeconds": 133.8,
+      "endSeconds": 136.86
+    },
+    {
+      "english": "Love is strong",
+      "chinese": "愛是堅強而有力量的",
+      "lineId": "line-22",
+      "startSeconds": 136.86,
+      "endSeconds": 138.24
+    },
+    {
+      "english": "It only cares for joyful giving",
+      "chinese": "它所求的，只是滿懷喜悅地付出",
+      "lineId": "line-23",
+      "startSeconds": 138.74,
+      "endSeconds": 141.66
+    },
+    {
+      "english": "If we try we shall see",
+      "chinese": "只要我們願意嘗試，終將明白",
+      "lineId": "line-24",
+      "startSeconds": 141.66,
+      "endSeconds": 145.52
+    },
+    {
+      "english": "In this bliss we cannot feel",
+      "chinese": "在這份幸福之中，我們再也感受不到",
+      "lineId": "line-25",
+      "startSeconds": 145.52,
+      "endSeconds": 148.62
+    },
+    {
+      "english": "Fear or dread",
+      "chinese": "恐懼，或深深的畏懼",
+      "lineId": "line-26"
+    },
+    {
+      "english": "We stop existing and start living",
+      "chinese": "我們不再只是生存，而是真正開始生活",
+      "lineId": "line-27",
+      "startSeconds": 149.9,
+      "endSeconds": 153.48
+    },
+    {
+      "english": "Then it feels that always",
+      "chinese": "那時我們便會感受到，原來一直以來",
+      "lineId": "line-28",
+      "startSeconds": 154.74,
+      "endSeconds": 158.36
+    },
+    {
+      "english": "Love's enough for us growing",
+      "chinese": "愛就足以讓我們成長茁壯",
+      "lineId": "line-29",
+      "startSeconds": 158.7,
+      "endSeconds": 160.7
+    },
+    {
+      "english": "Make a better world",
+      "chinese": "創造一個更美好的世界",
+      "lineId": "line-30",
+      "startSeconds": 160.7,
+      "endSeconds": 163.24
+    },
+    {
+      "english": "To make a better world",
+      "chinese": "為了創造一個更美好的世界",
+      "lineId": "line-31",
+      "startSeconds": 163.74,
+      "endSeconds": 166.66
+    },
+    {
+      "english": "Heal the world",
+      "chinese": "治癒這個世界",
+      "lineId": "line-32",
+      "startSeconds": 166.66,
+      "endSeconds": 168.4
+    },
+    {
+      "english": "Make it a better place",
+      "chinese": "讓它成為一個更美好的地方",
+      "lineId": "line-33",
+      "startSeconds": 168.4,
+      "endSeconds": 172.42
+    },
+    {
+      "english": "For you and for me",
+      "chinese": "為了你，也為了我",
+      "lineId": "line-34",
+      "startSeconds": 172.42,
+      "endSeconds": 175.42
+    },
+    {
+      "english": "And the entire human race",
+      "chinese": "也為了全人類",
+      "lineId": "line-35",
+      "startSeconds": 175.42,
+      "endSeconds": 178.2
+    },
+    {
+      "english": "There are people dying",
+      "chinese": "此刻，正有人在失去生命",
+      "lineId": "line-36",
+      "startSeconds": 178.2,
+      "endSeconds": 181.22
+    },
+    {
+      "english": "If you care enough for the living",
+      "chinese": "只要你真心關懷世間每一個生命",
+      "lineId": "line-37",
+      "startSeconds": 181.22,
+      "endSeconds": 184.38
+    },
+    {
+      "english": "Make a better place",
+      "chinese": "就創造一個更美好的地方",
+      "lineId": "line-38",
+      "startSeconds": 184.38,
+      "endSeconds": 186.32
+    },
+    {
+      "english": "For you and for me",
+      "chinese": "為了你，也為了我",
+      "lineId": "line-39",
+      "startSeconds": 186.32,
+      "endSeconds": 188.98
+    },
+    {
+      "english": "And the dream we were conceived in",
+      "chinese": "而那個孕育我們生命的夢想",
+      "lineId": "line-40",
+      "startSeconds": 190.36,
+      "endSeconds": 193.22
+    },
+    {
+      "english": "Will reveal a joyful face",
+      "chinese": "終將展露出喜悅的面容",
+      "lineId": "line-41",
+      "startSeconds": 193.22,
+      "endSeconds": 196.08
+    },
+    {
+      "english": "And the world we once believed in",
+      "chinese": "而那個我們曾經深信的世界",
+      "lineId": "line-42",
+      "startSeconds": 196.08,
+      "endSeconds": 199.18
+    },
+    {
+      "english": "Will shine again in grace",
+      "chinese": "也將再次綻放恩典與光輝",
+      "lineId": "line-43",
+      "startSeconds": 199.5,
+      "endSeconds": 201.72
+    },
+    {
+      "english": "Then why do we keep strangling life",
+      "chinese": "那麼，為何我們仍不斷扼殺生命",
+      "lineId": "line-44",
+      "startSeconds": 201.72,
+      "endSeconds": 205.02
+    },
+    {
+      "english": "Wound this Earth, crucify its soul?",
+      "chinese": "傷害這片大地，甚至將它的靈魂釘上十字架？",
+      "lineId": "line-45",
+      "startSeconds": 205.84,
+      "endSeconds": 208.0
+    },
+    {
+      "english": "Though it's plain to see",
+      "chinese": "儘管一切如此顯而易見",
+      "lineId": "line-46",
+      "startSeconds": 208.0,
+      "endSeconds": 209.88
+    },
+    {
+      "english": "This world is heavenly",
+      "chinese": "這個世界原本就如天堂般美好",
+      "lineId": "line-47"
+    },
+    {
+      "english": "Be God's glow",
+      "chinese": "讓我們成為上帝的光輝",
+      "lineId": "line-48"
+    },
+    {
+      "english": "We could fly so high",
+      "chinese": "我們本可以飛得如此高遠",
+      "lineId": "line-49",
+      "startSeconds": 211.68,
+      "endSeconds": 216.74
+    },
+    {
+      "english": "Let our spirits never die",
+      "chinese": "讓我們的精神永不消逝",
+      "lineId": "line-50",
+      "startSeconds": 216.74,
+      "endSeconds": 219.88
+    },
+    {
+      "english": "In my heart I feel you are all my brothers",
+      "chinese": "在我心中，我深深感到，你們都是我的手足",
+      "lineId": "line-51",
+      "startSeconds": 219.88,
+      "endSeconds": 225.1
+    },
+    {
+      "english": "Create a world with no fear",
+      "chinese": "創造一個沒有恐懼的世界",
+      "lineId": "line-52",
+      "startSeconds": 225.74,
+      "endSeconds": 228.64
+    },
+    {
+      "english": "Together we'll cry happy tears",
+      "chinese": "讓我們一同流下幸福的淚水",
+      "lineId": "line-53",
+      "startSeconds": 228.64,
+      "endSeconds": 231.74
+    },
+    {
+      "english": "See the nations turn their swords into plowshares",
+      "chinese": "見證各國將刀劍鑄成犁頭",
+      "lineId": "line-54",
+      "startSeconds": 232.24,
+      "endSeconds": 238.64
+    },
+    {
+      "english": "We could really get there",
+      "chinese": "我們真的能夠實現這樣的理想",
+      "lineId": "line-55"
+    },
+    {
+      "english": "If you cared enough for the living",
+      "chinese": "只要你真心關懷世間每一個生命",
+      "lineId": "line-56"
+    },
+    {
+      "english": "Make a little space",
+      "chinese": "騰出一點空間",
+      "lineId": "line-57",
+      "startSeconds": 243.74,
+      "endSeconds": 245.78
+    },
+    {
+      "english": "To make a better place",
+      "chinese": "為了創造一個更美好的地方",
+      "lineId": "line-58",
+      "startSeconds": 245.78,
+      "endSeconds": 249.24
+    },
+    {
+      "english": "Heal the world",
+      "chinese": "治癒這個世界",
+      "lineId": "line-59",
+      "startSeconds": 249.24,
+      "endSeconds": 251.36
+    },
+    {
+      "english": "Make it a better place",
+      "chinese": "讓它成為一個更美好的地方",
+      "lineId": "line-60",
+      "startSeconds": 251.36,
+      "endSeconds": 255.64
+    },
+    {
+      "english": "For you and for me",
+      "chinese": "為了你，也為了我",
+      "lineId": "line-61",
+      "startSeconds": 255.64,
+      "endSeconds": 258.44
+    },
+    {
+      "english": "And the entire human race",
+      "chinese": "也為了全人類",
+      "lineId": "line-62",
+      "startSeconds": 258.44,
+      "endSeconds": 261.2
+    },
+    {
+      "english": "There are people dying",
+      "chinese": "此刻，正有人在失去生命",
+      "lineId": "line-63"
+    },
+    {
+      "english": "If you care enough for the living",
+      "chinese": "只要你真心關懷世間每一個生命",
+      "lineId": "line-64",
+      "startSeconds": 264.3,
+      "endSeconds": 267.28
+    },
+    {
+      "english": "Make a better place",
+      "chinese": "就創造一個更美好的地方",
+      "lineId": "line-65",
+      "startSeconds": 267.28,
+      "endSeconds": 269.38
+    },
+    {
+      "english": "For you and for me",
+      "chinese": "為了你，也為了我",
+      "lineId": "line-66",
+      "startSeconds": 269.38,
+      "endSeconds": 271.9
+    },
+    {
+      "english": "Heal the world",
+      "chinese": "治癒這個世界",
+      "lineId": "line-67"
+    },
+    {
+      "english": "Make it a better place",
+      "chinese": "讓它成為一個更美好的地方",
+      "lineId": "line-68",
+      "startSeconds": 276.64,
+      "endSeconds": 278.86
+    },
+    {
+      "english": "For you and for me",
+      "chinese": "為了你，也為了我",
+      "lineId": "line-69",
+      "startSeconds": 278.86,
+      "endSeconds": 282.2
+    },
+    {
+      "english": "And the entire human race",
+      "chinese": "也為了全人類",
+      "lineId": "line-70",
+      "startSeconds": 282.2,
+      "endSeconds": 285.02
+    },
+    {
+      "english": "There are people dying",
+      "chinese": "此刻，正有人在失去生命",
+      "lineId": "line-71"
+    },
+    {
+      "english": "If you care enough for the living",
+      "chinese": "只要你真心關懷世間每一個生命",
+      "lineId": "line-72"
+    },
+    {
+      "english": "Make a better place",
+      "chinese": "就創造一個更美好的地方",
+      "lineId": "line-73",
+      "startSeconds": 290.92,
+      "endSeconds": 293.08
+    },
+    {
+      "english": "For you and for me",
+      "chinese": "為了你，也為了我",
+      "lineId": "line-74",
+      "startSeconds": 293.08,
+      "endSeconds": 296.3
+    },
+    {
+      "english": "Heal the world (Heal the world)",
+      "chinese": "治癒這個世界（治癒這個世界）",
+      "lineId": "line-75"
+    },
+    {
+      "english": "Make it a better place",
+      "chinese": "讓它成為一個更美好的地方",
+      "lineId": "line-76",
+      "startSeconds": 300.18,
+      "endSeconds": 302.66
+    },
+    {
+      "english": "For you and for me",
+      "chinese": "為了你，也為了我",
+      "lineId": "line-77",
+      "startSeconds": 302.66,
+      "endSeconds": 305.96
+    },
+    {
+      "english": "And the entire human race",
+      "chinese": "也為了全人類",
+      "lineId": "line-78",
+      "startSeconds": 305.96,
+      "endSeconds": 308.64
+    },
+    {
+      "english": "There are people dying",
+      "chinese": "此刻，正有人在失去生命",
+      "lineId": "line-79"
+    },
+    {
+      "english": "If you care enough for the living",
+      "chinese": "只要你真心關懷世間每一個生命",
+      "lineId": "line-80"
+    },
+    {
+      "english": "Make a better place",
+      "chinese": "就創造一個更美好的地方",
+      "lineId": "line-81"
+    },
+    {
+      "english": "For you and for me",
+      "chinese": "為了你，也為了我",
+      "lineId": "line-82"
+    },
+    {
+      "english": "There are people dying",
+      "chinese": "此刻，正有人在失去生命",
+      "lineId": "line-83"
+    },
+    {
+      "english": "If you care enough for the living",
+      "chinese": "只要你真心關懷世間每一個生命",
+      "lineId": "line-84"
+    },
+    {
+      "english": "Make a better place",
+      "chinese": "就創造一個更美好的地方",
+      "lineId": "line-85",
+      "startSeconds": 315.08,
+      "endSeconds": 316.82
+    },
+    {
+      "english": "For you and for me",
+      "chinese": "為了你，也為了我",
+      "lineId": "line-86",
+      "startSeconds": 316.82,
+      "endSeconds": 320.2
+    },
+    {
+      "english": "There are people dying",
+      "chinese": "此刻，正有人在失去生命",
+      "lineId": "line-87"
+    },
+    {
+      "english": "If you care enough for the living",
+      "chinese": "只要你真心關懷世間每一個生命",
+      "lineId": "line-88"
+    },
+    {
+      "english": "Make a better place",
+      "chinese": "就創造一個更美好的地方",
+      "lineId": "line-89"
+    },
+    {
+      "english": "For you and for me",
+      "chinese": "為了你，也為了我",
+      "lineId": "line-90"
+    },
+    {
+      "english": "You and for me",
+      "chinese": "為了你，也為了我",
+      "lineId": "line-91"
+    },
+    {
+      "english": "Make a better place (You and for me)",
+      "chinese": "創造一個更美好的地方（為了你，也為了我）",
+      "lineId": "line-92"
+    },
+    {
+      "english": "Make a better place (You and for me)",
+      "chinese": "創造一個更美好的地方（為了你，也為了我）",
+      "lineId": "line-93"
+    },
+    {
+      "english": "Make a better place (You and for me)",
+      "chinese": "創造一個更美好的地方（為了你，也為了我）",
+      "lineId": "line-94"
+    },
+    {
+      "english": "(You and for me)",
+      "chinese": "（為了你，也為了我）",
+      "lineId": "line-95",
+      "startSeconds": 329.02,
+      "endSeconds": 331.48
+    },
+    {
+      "english": "Heal the world we live in (You and for me)",
+      "chinese": "治癒我們所生活的世界（為了你，也為了我）",
+      "lineId": "line-96"
+    },
+    {
+      "english": "Save it for our children (You and for me)",
+      "chinese": "為我們的孩子守護這個世界（為了你，也為了我）",
+      "lineId": "line-97"
+    },
+    {
+      "english": "Heal the world we live in (You and for me)",
+      "chinese": "治癒我們所生活的世界（為了你，也為了我）",
+      "lineId": "line-98"
+    },
+    {
+      "english": "Save it for our children (You and for me)",
+      "chinese": "為我們的孩子守護這個世界（為了你，也為了我）",
+      "lineId": "line-99"
+    },
+    {
+      "english": "Heal the world we live in (You and for me)",
+      "chinese": "治癒我們所生活的世界（為了你，也為了我）",
+      "lineId": "line-100"
+    },
+    {
+      "english": "Save it for our children (You and for me)",
+      "chinese": "為我們的孩子守護這個世界（為了你，也為了我）",
+      "lineId": "line-101"
+    },
+    {
+      "english": "Heal the world we live in (You and for me)",
+      "chinese": "治癒我們所生活的世界（為了你，也為了我）",
+      "lineId": "line-102"
+    },
+    {
+      "english": "Save it for our children",
+      "chinese": "為我們的孩子守護這個世界",
+      "lineId": "line-103"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-2",
+          "answer": "your heart",
+          "options": [
+            "your mind",
+            "your heart",
+            "your home"
+          ],
+          "prompt": "There's a place in {{blank}}",
+          "promptZh": "在你的心中，有一個地方"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "love",
+          "options": [
+            "hope",
+            "love",
+            "life"
+          ],
+          "prompt": "And I know that it is {{blank}}",
+          "promptZh": "而我知道，那就是愛"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-4",
+          "answer": "brighter",
+          "options": [
+            "brighter",
+            "better",
+            "lighter"
+          ],
+          "prompt": "And this place could be much {{blank}} than tomorrow",
+          "promptZh": "這個地方，可以比明日更加光明燦爛"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-5",
+          "answer": "really try",
+          "options": [
+            "really care",
+            "really try",
+            "simply cry"
+          ],
+          "prompt": "And if you {{blank}}",
+          "promptZh": "只要你真心願意付出努力"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-6",
+          "answer": "no need to cry",
+          "options": [
+            "no reason to hide",
+            "no time to try",
+            "no need to cry"
+          ],
+          "prompt": "You'll find there's {{blank}}",
+          "promptZh": "你便會發現，再也沒有哭泣的必要"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "hurt or sorrow",
+          "options": [
+            "fear or anger",
+            "hurt or sorrow",
+            "pain or worry"
+          ],
+          "prompt": "In this place you'll feel there's no {{blank}}",
+          "promptZh": "在這個地方，你將感受到沒有傷害，也沒有悲傷"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-9",
+          "answer": "care enough",
+          "options": [
+            "care enough",
+            "give enough",
+            "share enough"
+          ],
+          "prompt": "If you {{blank}} for the living",
+          "promptZh": "只要你真心關懷世間每一個生命"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-10",
+          "answer": "a little space",
+          "options": [
+            "a little time",
+            "a little space",
+            "a better chance"
+          ],
+          "prompt": "Make {{blank}}",
+          "promptZh": "騰出一點空間"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-12",
+          "answer": "Heal the world",
+          "options": [
+            "Help the world",
+            "Heal the world",
+            "Save the world"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "治癒這個世界"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-15",
+          "answer": "human race",
+          "options": [
+            "human race",
+            "human face",
+            "human place"
+          ],
+          "prompt": "And the entire {{blank}}",
+          "promptZh": "也為了全人類"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-16",
+          "answer": "people dying",
+          "options": [
+            "people crying",
+            "children trying",
+            "people dying"
+          ],
+          "prompt": "There are {{blank}}",
+          "promptZh": "此刻，正有人在失去生命"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-21",
+          "answer": "cannot lie",
+          "options": [
+            "cannot lie",
+            "cannot hide",
+            "will not die"
+          ],
+          "prompt": "There's a love that {{blank}}",
+          "promptZh": "因為有一種愛，真誠得不容虛假"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-22",
+          "answer": "strong",
+          "options": [
+            "wrong",
+            "long",
+            "strong"
+          ],
+          "prompt": "Love is {{blank}}",
+          "promptZh": "愛是堅強而有力量的"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-23",
+          "answer": "joyful giving",
+          "options": [
+            "joyful giving",
+            "joyful living",
+            "hopeful sharing"
+          ],
+          "prompt": "It only cares for {{blank}}",
+          "promptZh": "它所求的，只是滿懷喜悅地付出"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-27",
+          "answer": "start living",
+          "options": [
+            "keep giving",
+            "stop trying",
+            "start living"
+          ],
+          "prompt": "We stop existing and {{blank}}",
+          "promptZh": "我們不再只是生存，而是真正開始生活"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-30",
+          "answer": "better world",
+          "options": [
+            "better world",
+            "brighter world",
+            "better life"
+          ],
+          "prompt": "Make a {{blank}}",
+          "promptZh": "創造一個更美好的世界"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-40",
+          "answer": "dream",
+          "options": [
+            "hope",
+            "world",
+            "dream"
+          ],
+          "prompt": "And the {{blank}} we were conceived in",
+          "promptZh": "而那個孕育我們生命的夢想"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-44",
+          "answer": "strangling life",
+          "options": [
+            "changing lives",
+            "strangling life",
+            "struggling hard"
+          ],
+          "prompt": "Then why do we keep {{blank}}",
+          "promptZh": "那麼，為何我們仍不斷扼殺生命"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-51",
+          "answer": "brothers",
+          "options": [
+            "brothers",
+            "sisters",
+            "friends"
+          ],
+          "prompt": "In my heart I feel you are all my {{blank}}",
+          "promptZh": "在我心中，我深深感到，你們都是我的手足"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-53",
+          "answer": "happy tears",
+          "options": [
+            "happy years",
+            "silent fears",
+            "happy tears"
+          ],
+          "prompt": "Together we'll cry {{blank}}",
+          "promptZh": "讓我們一同流下幸福的淚水"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Think about—um—the generations and they say we wanna make it a better place for our children, and our children's children, so that they they they know it's a better world for them, and think if they can make it a better place"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "There's a place in {{q:1}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "And I know that it is {{q:2}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "And this place could be much {{q:3}} than tomorrow"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "And if you {{q:4}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "You'll find there's {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "In this place you'll feel there's no {{q:6}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "There are ways to get there"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "If you {{q:7}} for the living"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Make {{q:8}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:9}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Make it a better place"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And the entire {{q:10}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "There are {{q:11}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "If you want to know why"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "There's a love that {{q:12}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Love is {{q:13}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "It only cares for {{q:14}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "If we try we shall see"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "In this bliss we cannot feel"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Fear or dread"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "We stop existing and {{q:15}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Then it feels that always"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Love's enough for us growing"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Make a {{q:16}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "To make a better world"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Heal the world"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Make it a better place"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "And the entire human race"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "And the {{q:17}} we were conceived in"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Will reveal a joyful face"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "And the world we once believed in"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Will shine again in grace"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Then why do we keep {{q:18}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Wound this Earth, crucify its soul?"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Though it's plain to see"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "This world is heavenly"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Be God's glow"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "We could fly so high"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Let our spirits never die"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "In my heart I feel you are all my {{q:19}}"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Create a world with no fear"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Together we'll cry {{q:20}}"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "See the nations turn their swords into plowshares"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "We could really get there"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "If you cared enough for the living"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Make a little space"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "To make a better place"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Heal the world"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Make it a better place"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "And the entire human race"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Heal the world"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Make it a better place"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "And the entire human race"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "Heal the world (Heal the world)"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "Make it a better place"
+        },
+        {
+          "lineId": "line-77",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-78",
+          "prompt": "And the entire human race"
+        },
+        {
+          "lineId": "line-79",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-80",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-81",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-82",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-83",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-84",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-85",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-86",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-87",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-88",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-89",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-90",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-91",
+          "prompt": "You and for me"
+        },
+        {
+          "lineId": "line-92",
+          "prompt": "Make a better place (You and for me)"
+        },
+        {
+          "lineId": "line-93",
+          "prompt": "Make a better place (You and for me)"
+        },
+        {
+          "lineId": "line-94",
+          "prompt": "Make a better place (You and for me)"
+        },
+        {
+          "lineId": "line-95",
+          "prompt": "(You and for me)"
+        },
+        {
+          "lineId": "line-96",
+          "prompt": "Heal the world we live in (You and for me)"
+        },
+        {
+          "lineId": "line-97",
+          "prompt": "Save it for our children (You and for me)"
+        },
+        {
+          "lineId": "line-98",
+          "prompt": "Heal the world we live in (You and for me)"
+        },
+        {
+          "lineId": "line-99",
+          "prompt": "Save it for our children (You and for me)"
+        },
+        {
+          "lineId": "line-100",
+          "prompt": "Heal the world we live in (You and for me)"
+        },
+        {
+          "lineId": "line-101",
+          "prompt": "Save it for our children (You and for me)"
+        },
+        {
+          "lineId": "line-102",
+          "prompt": "Heal the world we live in (You and for me)"
+        },
+        {
+          "lineId": "line-103",
+          "prompt": "Save it for our children"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-2",
+          "answer": "your heart",
+          "options": [
+            "your mind",
+            "your heart",
+            "your home"
+          ],
+          "prompt": "There's a place in {{blank}}",
+          "promptZh": "在你的心中，有一個地方"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "love",
+          "options": [
+            "love",
+            "hope",
+            "life"
+          ],
+          "prompt": "And I know that it is {{blank}}",
+          "promptZh": "而我知道，那就是愛"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-4",
+          "answer": "brighter",
+          "options": [
+            "better",
+            "lighter",
+            "brighter"
+          ],
+          "prompt": "And this place could be much {{blank}} than tomorrow",
+          "promptZh": "這個地方，可以比明日更加光明燦爛"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-5",
+          "answer": "really try",
+          "options": [
+            "really care",
+            "simply cry",
+            "really try"
+          ],
+          "prompt": "And if you {{blank}}",
+          "promptZh": "只要你真心願意付出努力"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-6",
+          "answer": "no need to cry",
+          "options": [
+            "no reason to hide",
+            "no need to cry",
+            "no time to try"
+          ],
+          "prompt": "You'll find there's {{blank}}",
+          "promptZh": "你便會發現，再也沒有哭泣的必要"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "hurt or sorrow",
+          "options": [
+            "fear or anger",
+            "hurt or sorrow",
+            "pain or worry"
+          ],
+          "prompt": "In this place you'll feel there's no {{blank}}",
+          "promptZh": "在這個地方，你將感受到沒有傷害，也沒有悲傷"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "ways to get there",
+          "options": [
+            "ways to get there",
+            "days to get there",
+            "ways to stay here"
+          ],
+          "prompt": "There are {{blank}}",
+          "promptZh": "我們總有辦法抵達那樣的境地"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-9",
+          "answer": "care enough",
+          "options": [
+            "give enough",
+            "share enough",
+            "care enough"
+          ],
+          "prompt": "If you {{blank}} for the living",
+          "promptZh": "只要你真心關懷世間每一個生命"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-10",
+          "answer": "a little space",
+          "options": [
+            "a little time",
+            "a little space",
+            "a better chance"
+          ],
+          "prompt": "Make {{blank}}",
+          "promptZh": "騰出一點空間"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-11",
+          "answer": "better place",
+          "options": [
+            "brighter day",
+            "better place",
+            "safer space"
+          ],
+          "prompt": "Make a {{blank}}",
+          "promptZh": "創造一個更美好的地方"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-12",
+          "answer": "Heal the world",
+          "options": [
+            "Heal the world",
+            "Help the world",
+            "Save the world"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "治癒這個世界"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-13",
+          "answer": "a better place",
+          "options": [
+            "a brighter day",
+            "a better place",
+            "another place"
+          ],
+          "prompt": "Make it {{blank}}",
+          "promptZh": "讓它成為一個更美好的地方"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-14",
+          "answer": "you and for me",
+          "options": [
+            "you and for me",
+            "you and for them",
+            "me and for you"
+          ],
+          "prompt": "For {{blank}}",
+          "promptZh": "為了你，也為了我"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-15",
+          "answer": "human race",
+          "options": [
+            "human face",
+            "human race",
+            "human place"
+          ],
+          "prompt": "And the entire {{blank}}",
+          "promptZh": "也為了全人類"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-16",
+          "answer": "people dying",
+          "options": [
+            "people crying",
+            "people dying",
+            "children trying"
+          ],
+          "prompt": "There are {{blank}}",
+          "promptZh": "此刻，正有人在失去生命"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-20",
+          "answer": "want to know why",
+          "options": [
+            "want to know why",
+            "need to know how",
+            "want to go home"
+          ],
+          "prompt": "If you {{blank}}",
+          "promptZh": "如果你想知道其中的緣由"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-21",
+          "answer": "cannot lie",
+          "options": [
+            "cannot lie",
+            "cannot hide",
+            "will not die"
+          ],
+          "prompt": "There's a love that {{blank}}",
+          "promptZh": "因為有一種愛，真誠得不容虛假"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-22",
+          "answer": "strong",
+          "options": [
+            "wrong",
+            "long",
+            "strong"
+          ],
+          "prompt": "Love is {{blank}}",
+          "promptZh": "愛是堅強而有力量的"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-23",
+          "answer": "joyful giving",
+          "options": [
+            "joyful living",
+            "hopeful sharing",
+            "joyful giving"
+          ],
+          "prompt": "It only cares for {{blank}}",
+          "promptZh": "它所求的，只是滿懷喜悅地付出"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-24",
+          "answer": "we shall see",
+          "options": [
+            "we might know",
+            "we shall see",
+            "we can be"
+          ],
+          "prompt": "If we try {{blank}}",
+          "promptZh": "只要我們願意嘗試，終將明白"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-25",
+          "answer": "this bliss",
+          "options": [
+            "this bliss",
+            "this place",
+            "such peace"
+          ],
+          "prompt": "In {{blank}} we cannot feel",
+          "promptZh": "在這份幸福之中，我們再也感受不到"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-26",
+          "answer": "Fear or dread",
+          "options": [
+            "Fear or pain",
+            "Hope or joy",
+            "Fear or dread"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "恐懼，或深深的畏懼"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-27",
+          "answer": "start living",
+          "options": [
+            "keep giving",
+            "stop trying",
+            "start living"
+          ],
+          "prompt": "We stop existing and {{blank}}",
+          "promptZh": "我們不再只是生存，而是真正開始生活"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-28",
+          "answer": "feels that always",
+          "options": [
+            "feels that always",
+            "seems that sometimes",
+            "means that someday"
+          ],
+          "prompt": "Then it {{blank}}",
+          "promptZh": "那時我們便會感受到，原來一直以來"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-29",
+          "answer": "Love's enough",
+          "options": [
+            "Hope's enough",
+            "Life's enough",
+            "Love's enough"
+          ],
+          "prompt": "{{blank}} for us growing",
+          "promptZh": "愛就足以讓我們成長茁壯"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-30",
+          "answer": "better world",
+          "options": [
+            "better world",
+            "brighter world",
+            "better life"
+          ],
+          "prompt": "Make a {{blank}}",
+          "promptZh": "創造一個更美好的世界"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-40",
+          "answer": "dream",
+          "options": [
+            "hope",
+            "dream",
+            "world"
+          ],
+          "prompt": "And the {{blank}} we were conceived in",
+          "promptZh": "而那個孕育我們生命的夢想"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-41",
+          "answer": "joyful face",
+          "options": [
+            "gentle face",
+            "joyful place",
+            "joyful face"
+          ],
+          "prompt": "Will reveal a {{blank}}",
+          "promptZh": "終將展露出喜悅的面容"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-42",
+          "answer": "believed in",
+          "options": [
+            "believed in",
+            "dreamed of",
+            "lived in"
+          ],
+          "prompt": "And the world we once {{blank}}",
+          "promptZh": "而那個我們曾經深信的世界"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-44",
+          "answer": "strangling life",
+          "options": [
+            "changing lives",
+            "struggling hard",
+            "strangling life"
+          ],
+          "prompt": "Then why do we keep {{blank}}",
+          "promptZh": "那麼，為何我們仍不斷扼殺生命"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-51",
+          "answer": "brothers",
+          "options": [
+            "sisters",
+            "brothers",
+            "friends"
+          ],
+          "prompt": "In my heart I feel you are all my {{blank}}",
+          "promptZh": "在我心中，我深深感到，你們都是我的手足"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-53",
+          "answer": "happy tears",
+          "options": [
+            "happy tears",
+            "happy years",
+            "silent fears"
+          ],
+          "prompt": "Together we'll cry {{blank}}",
+          "promptZh": "讓我們一同流下幸福的淚水"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Think about—um—the generations and they say we wanna make it a better place for our children, and our children's children, so that they they they know it's a better world for them, and think if they can make it a better place"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "There's a place in {{q:1}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "And I know that it is {{q:2}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "And this place could be much {{q:3}} than tomorrow"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "And if you {{q:4}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "You'll find there's {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "In this place you'll feel there's no {{q:6}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "There are {{q:7}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "If you {{q:8}} for the living"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Make {{q:9}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Make a {{q:10}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:11}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Make it {{q:12}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "For {{q:13}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And the entire {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "There are {{q:15}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "If you {{q:16}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "There's a love that {{q:17}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Love is {{q:18}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "It only cares for {{q:19}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "If we try {{q:20}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "In {{q:21}} we cannot feel"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:22}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "We stop existing and {{q:23}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Then it {{q:24}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:25}} for us growing"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Make a {{q:26}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "To make a better world"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Heal the world"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Make it a better place"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "And the entire human race"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "And the {{q:27}} we were conceived in"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Will reveal a {{q:28}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "And the world we once {{q:29}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Will shine again in grace"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Then why do we keep {{q:30}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Wound this Earth, crucify its soul?"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Though it's plain to see"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "This world is heavenly"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Be God's glow"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "We could fly so high"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Let our spirits never die"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "In my heart I feel you are all my {{q:31}}"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Create a world with no fear"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Together we'll cry {{q:32}}"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "See the nations turn their swords into plowshares"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "We could really get there"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "If you cared enough for the living"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Make a little space"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "To make a better place"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Heal the world"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Make it a better place"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "And the entire human race"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Heal the world"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Make it a better place"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "And the entire human race"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "Heal the world (Heal the world)"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "Make it a better place"
+        },
+        {
+          "lineId": "line-77",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-78",
+          "prompt": "And the entire human race"
+        },
+        {
+          "lineId": "line-79",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-80",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-81",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-82",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-83",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-84",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-85",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-86",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-87",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-88",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-89",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-90",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-91",
+          "prompt": "You and for me"
+        },
+        {
+          "lineId": "line-92",
+          "prompt": "Make a better place (You and for me)"
+        },
+        {
+          "lineId": "line-93",
+          "prompt": "Make a better place (You and for me)"
+        },
+        {
+          "lineId": "line-94",
+          "prompt": "Make a better place (You and for me)"
+        },
+        {
+          "lineId": "line-95",
+          "prompt": "(You and for me)"
+        },
+        {
+          "lineId": "line-96",
+          "prompt": "Heal the world we live in (You and for me)"
+        },
+        {
+          "lineId": "line-97",
+          "prompt": "Save it for our children (You and for me)"
+        },
+        {
+          "lineId": "line-98",
+          "prompt": "Heal the world we live in (You and for me)"
+        },
+        {
+          "lineId": "line-99",
+          "prompt": "Save it for our children (You and for me)"
+        },
+        {
+          "lineId": "line-100",
+          "prompt": "Heal the world we live in (You and for me)"
+        },
+        {
+          "lineId": "line-101",
+          "prompt": "Save it for our children (You and for me)"
+        },
+        {
+          "lineId": "line-102",
+          "prompt": "Heal the world we live in (You and for me)"
+        },
+        {
+          "lineId": "line-103",
+          "prompt": "Save it for our children"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-2",
+          "answer": "your heart",
+          "options": [
+            "your mind",
+            "your home",
+            "your heart"
+          ],
+          "prompt": "There's a place in {{blank}}",
+          "promptZh": "在你的心中，有一個地方"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "love",
+          "options": [
+            "hope",
+            "life",
+            "love"
+          ],
+          "prompt": "And I know that it is {{blank}}",
+          "promptZh": "而我知道，那就是愛"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-4",
+          "answer": "brighter",
+          "options": [
+            "brighter",
+            "better",
+            "lighter"
+          ],
+          "prompt": "And this place could be much {{blank}} than tomorrow",
+          "promptZh": "這個地方，可以比明日更加光明燦爛"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-5",
+          "answer": "really try",
+          "options": [
+            "really care",
+            "really try",
+            "simply cry"
+          ],
+          "prompt": "And if you {{blank}}",
+          "promptZh": "只要你真心願意付出努力"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-6",
+          "answer": "no need to cry",
+          "options": [
+            "no need to cry",
+            "no reason to hide",
+            "no time to try"
+          ],
+          "prompt": "You'll find there's {{blank}}",
+          "promptZh": "你便會發現，再也沒有哭泣的必要"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "hurt or sorrow",
+          "options": [
+            "fear or anger",
+            "hurt or sorrow",
+            "pain or worry"
+          ],
+          "prompt": "In this place you'll feel there's no {{blank}}",
+          "promptZh": "在這個地方，你將感受到沒有傷害，也沒有悲傷"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "ways to get there",
+          "options": [
+            "days to get there",
+            "ways to stay here",
+            "ways to get there"
+          ],
+          "prompt": "There are {{blank}}",
+          "promptZh": "我們總有辦法抵達那樣的境地"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-9",
+          "answer": "care enough",
+          "options": [
+            "give enough",
+            "care enough",
+            "share enough"
+          ],
+          "prompt": "If you {{blank}} for the living",
+          "promptZh": "只要你真心關懷世間每一個生命"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-10",
+          "answer": "a little space",
+          "options": [
+            "a little space",
+            "a little time",
+            "a better chance"
+          ],
+          "prompt": "Make {{blank}}",
+          "promptZh": "騰出一點空間"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-11",
+          "answer": "better place",
+          "options": [
+            "brighter day",
+            "safer space",
+            "better place"
+          ],
+          "prompt": "Make a {{blank}}",
+          "promptZh": "創造一個更美好的地方"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-12",
+          "answer": "Heal the world",
+          "options": [
+            "Help the world",
+            "Heal the world",
+            "Save the world"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "治癒這個世界"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-13",
+          "answer": "a better place",
+          "options": [
+            "a better place",
+            "a brighter day",
+            "another place"
+          ],
+          "prompt": "Make it {{blank}}",
+          "promptZh": "讓它成為一個更美好的地方"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-14",
+          "answer": "you and for me",
+          "options": [
+            "you and for me",
+            "you and for them",
+            "me and for you"
+          ],
+          "prompt": "For {{blank}}",
+          "promptZh": "為了你，也為了我"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-15",
+          "answer": "human race",
+          "options": [
+            "human face",
+            "human place",
+            "human race"
+          ],
+          "prompt": "And the entire {{blank}}",
+          "promptZh": "也為了全人類"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-16",
+          "answer": "people dying",
+          "options": [
+            "people crying",
+            "people dying",
+            "children trying"
+          ],
+          "prompt": "There are {{blank}}",
+          "promptZh": "此刻，正有人在失去生命"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-20",
+          "answer": "want to know why",
+          "options": [
+            "need to know how",
+            "want to know why",
+            "want to go home"
+          ],
+          "prompt": "If you {{blank}}",
+          "promptZh": "如果你想知道其中的緣由"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-21",
+          "answer": "cannot lie",
+          "options": [
+            "cannot hide",
+            "will not die",
+            "cannot lie"
+          ],
+          "prompt": "There's a love that {{blank}}",
+          "promptZh": "因為有一種愛，真誠得不容虛假"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-22",
+          "answer": "strong",
+          "options": [
+            "wrong",
+            "strong",
+            "long"
+          ],
+          "prompt": "Love is {{blank}}",
+          "promptZh": "愛是堅強而有力量的"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-23",
+          "answer": "joyful giving",
+          "options": [
+            "joyful living",
+            "hopeful sharing",
+            "joyful giving"
+          ],
+          "prompt": "It only cares for {{blank}}",
+          "promptZh": "它所求的，只是滿懷喜悅地付出"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-24",
+          "answer": "we shall see",
+          "options": [
+            "we might know",
+            "we shall see",
+            "we can be"
+          ],
+          "prompt": "If we try {{blank}}",
+          "promptZh": "只要我們願意嘗試，終將明白"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-25",
+          "answer": "this bliss",
+          "options": [
+            "this place",
+            "this bliss",
+            "such peace"
+          ],
+          "prompt": "In {{blank}} we cannot feel",
+          "promptZh": "在這份幸福之中，我們再也感受不到"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-26",
+          "answer": "Fear or dread",
+          "options": [
+            "Fear or pain",
+            "Hope or joy",
+            "Fear or dread"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "恐懼，或深深的畏懼"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-27",
+          "answer": "start living",
+          "options": [
+            "start living",
+            "keep giving",
+            "stop trying"
+          ],
+          "prompt": "We stop existing and {{blank}}",
+          "promptZh": "我們不再只是生存，而是真正開始生活"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-28",
+          "answer": "feels that always",
+          "options": [
+            "seems that sometimes",
+            "means that someday",
+            "feels that always"
+          ],
+          "prompt": "Then it {{blank}}",
+          "promptZh": "那時我們便會感受到，原來一直以來"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-29",
+          "answer": "Love's enough",
+          "options": [
+            "Hope's enough",
+            "Love's enough",
+            "Life's enough"
+          ],
+          "prompt": "{{blank}} for us growing",
+          "promptZh": "愛就足以讓我們成長茁壯"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-30",
+          "answer": "better world",
+          "options": [
+            "brighter world",
+            "better life",
+            "better world"
+          ],
+          "prompt": "Make a {{blank}}",
+          "promptZh": "創造一個更美好的世界"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-40",
+          "answer": "dream",
+          "options": [
+            "dream",
+            "hope",
+            "world"
+          ],
+          "prompt": "And the {{blank}} we were conceived in",
+          "promptZh": "而那個孕育我們生命的夢想"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-41",
+          "answer": "joyful face",
+          "options": [
+            "gentle face",
+            "joyful place",
+            "joyful face"
+          ],
+          "prompt": "Will reveal a {{blank}}",
+          "promptZh": "終將展露出喜悅的面容"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-42",
+          "answer": "believed in",
+          "options": [
+            "believed in",
+            "dreamed of",
+            "lived in"
+          ],
+          "prompt": "And the world we once {{blank}}",
+          "promptZh": "而那個我們曾經深信的世界"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-43",
+          "answer": "shine again in grace",
+          "options": [
+            "rise again in peace",
+            "shine again in light",
+            "shine again in grace"
+          ],
+          "prompt": "Will {{blank}}",
+          "promptZh": "也將再次綻放恩典與光輝"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-44",
+          "answer": "strangling life",
+          "options": [
+            "strangling life",
+            "changing lives",
+            "struggling hard"
+          ],
+          "prompt": "Then why do we keep {{blank}}",
+          "promptZh": "那麼，為何我們仍不斷扼殺生命"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-45",
+          "answer": "crucify its soul",
+          "options": [
+            "crucify its soul",
+            "terrify its soul",
+            "destroy all its hope"
+          ],
+          "prompt": "Wound this Earth, {{blank}}?",
+          "promptZh": "傷害這片大地，甚至將它的靈魂釘上十字架？"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-46",
+          "answer": "plain to see",
+          "options": [
+            "hard to see",
+            "clear to me",
+            "plain to see"
+          ],
+          "prompt": "Though it's {{blank}}",
+          "promptZh": "儘管一切如此顯而易見"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-47",
+          "answer": "heavenly",
+          "options": [
+            "heavenly",
+            "beautiful",
+            "wonderful"
+          ],
+          "prompt": "This world is {{blank}}",
+          "promptZh": "這個世界原本就如天堂般美好"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-49",
+          "answer": "fly so high",
+          "options": [
+            "fly so high",
+            "rise so far",
+            "fly so free"
+          ],
+          "prompt": "We could {{blank}}",
+          "promptZh": "我們本可以飛得如此高遠"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-50",
+          "answer": "spirits never die",
+          "options": [
+            "dreams never fade",
+            "spirits never die",
+            "hearts never cry"
+          ],
+          "prompt": "Let our {{blank}}",
+          "promptZh": "讓我們的精神永不消逝"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-51",
+          "answer": "brothers",
+          "options": [
+            "sisters",
+            "brothers",
+            "friends"
+          ],
+          "prompt": "In my heart I feel you are all my {{blank}}",
+          "promptZh": "在我心中，我深深感到，你們都是我的手足"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-52",
+          "answer": "no fear",
+          "options": [
+            "no fear",
+            "no pain",
+            "no tears"
+          ],
+          "prompt": "Create a world with {{blank}}",
+          "promptZh": "創造一個沒有恐懼的世界"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-53",
+          "answer": "happy tears",
+          "options": [
+            "happy tears",
+            "happy years",
+            "silent fears"
+          ],
+          "prompt": "Together we'll cry {{blank}}",
+          "promptZh": "讓我們一同流下幸福的淚水"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-54",
+          "answer": "swords into plowshares",
+          "options": [
+            "words into prayers",
+            "swords into plowshares",
+            "swords into flowers"
+          ],
+          "prompt": "See the nations turn their {{blank}}",
+          "promptZh": "見證各國將刀劍鑄成犁頭"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Think about—um—the generations and they say we wanna make it a better place for our children, and our children's children, so that they they they know it's a better world for them, and think if they can make it a better place"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "There's a place in {{q:1}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "And I know that it is {{q:2}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "And this place could be much {{q:3}} than tomorrow"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "And if you {{q:4}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "You'll find there's {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "In this place you'll feel there's no {{q:6}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "There are {{q:7}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "If you {{q:8}} for the living"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Make {{q:9}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Make a {{q:10}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:11}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Make it {{q:12}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "For {{q:13}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And the entire {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "There are {{q:15}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "If you {{q:16}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "There's a love that {{q:17}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Love is {{q:18}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "It only cares for {{q:19}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "If we try {{q:20}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "In {{q:21}} we cannot feel"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:22}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "We stop existing and {{q:23}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Then it {{q:24}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:25}} for us growing"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Make a {{q:26}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "To make a better world"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Heal the world"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Make it a better place"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "And the entire human race"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "And the {{q:27}} we were conceived in"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Will reveal a {{q:28}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "And the world we once {{q:29}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Will {{q:30}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Then why do we keep {{q:31}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Wound this Earth, {{q:32}}?"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Though it's {{q:33}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "This world is {{q:34}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Be God's glow"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "We could {{q:35}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Let our {{q:36}}"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "In my heart I feel you are all my {{q:37}}"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Create a world with {{q:38}}"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Together we'll cry {{q:39}}"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "See the nations turn their {{q:40}}"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "We could really get there"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "If you cared enough for the living"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Make a little space"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "To make a better place"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Heal the world"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Make it a better place"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "And the entire human race"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Heal the world"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Make it a better place"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "And the entire human race"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "Heal the world (Heal the world)"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "Make it a better place"
+        },
+        {
+          "lineId": "line-77",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-78",
+          "prompt": "And the entire human race"
+        },
+        {
+          "lineId": "line-79",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-80",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-81",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-82",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-83",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-84",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-85",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-86",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-87",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-88",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-89",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-90",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-91",
+          "prompt": "You and for me"
+        },
+        {
+          "lineId": "line-92",
+          "prompt": "Make a better place (You and for me)"
+        },
+        {
+          "lineId": "line-93",
+          "prompt": "Make a better place (You and for me)"
+        },
+        {
+          "lineId": "line-94",
+          "prompt": "Make a better place (You and for me)"
+        },
+        {
+          "lineId": "line-95",
+          "prompt": "(You and for me)"
+        },
+        {
+          "lineId": "line-96",
+          "prompt": "Heal the world we live in (You and for me)"
+        },
+        {
+          "lineId": "line-97",
+          "prompt": "Save it for our children (You and for me)"
+        },
+        {
+          "lineId": "line-98",
+          "prompt": "Heal the world we live in (You and for me)"
+        },
+        {
+          "lineId": "line-99",
+          "prompt": "Save it for our children (You and for me)"
+        },
+        {
+          "lineId": "line-100",
+          "prompt": "Heal the world we live in (You and for me)"
+        },
+        {
+          "lineId": "line-101",
+          "prompt": "Save it for our children (You and for me)"
+        },
+        {
+          "lineId": "line-102",
+          "prompt": "Heal the world we live in (You and for me)"
+        },
+        {
+          "lineId": "line-103",
+          "prompt": "Save it for our children"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "a better place for our children",
+          "options": [
+            "a safer home for our children",
+            "a better place for our children",
+            "a brighter future for our children"
+          ],
+          "prompt": "Think about—um—the generations and they say we wanna make it {{blank}}, and our children's children, so that they they they know it's a better world for them, and think if they can make it a better place",
+          "promptZh": "想想我們的世世代代……我們都說，希望為自己的孩子，以及孩子的下一代，創造一個更美好的地方，讓他們知道，這個世界對他們而言可以更加美好，也讓他們思考，自己是否也能讓世界變得更好。"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "your heart",
+          "options": [
+            "your mind",
+            "your home",
+            "your heart"
+          ],
+          "prompt": "There's a place in {{blank}}",
+          "promptZh": "在你的心中，有一個地方"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "love",
+          "options": [
+            "love",
+            "hope",
+            "life"
+          ],
+          "prompt": "And I know that it is {{blank}}",
+          "promptZh": "而我知道，那就是愛"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "brighter",
+          "options": [
+            "better",
+            "brighter",
+            "lighter"
+          ],
+          "prompt": "And this place could be much {{blank}} than tomorrow",
+          "promptZh": "這個地方，可以比明日更加光明燦爛"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "really try",
+          "options": [
+            "really care",
+            "really try",
+            "simply cry"
+          ],
+          "prompt": "And if you {{blank}}",
+          "promptZh": "只要你真心願意付出努力"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "no need to cry",
+          "options": [
+            "no reason to hide",
+            "no time to try",
+            "no need to cry"
+          ],
+          "prompt": "You'll find there's {{blank}}",
+          "promptZh": "你便會發現，再也沒有哭泣的必要"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "hurt or sorrow",
+          "options": [
+            "hurt or sorrow",
+            "fear or anger",
+            "pain or worry"
+          ],
+          "prompt": "In this place you'll feel there's no {{blank}}",
+          "promptZh": "在這個地方，你將感受到沒有傷害，也沒有悲傷"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "ways to get there",
+          "options": [
+            "days to get there",
+            "ways to get there",
+            "ways to stay here"
+          ],
+          "prompt": "There are {{blank}}",
+          "promptZh": "我們總有辦法抵達那樣的境地"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "care enough",
+          "options": [
+            "care enough",
+            "give enough",
+            "share enough"
+          ],
+          "prompt": "If you {{blank}} for the living",
+          "promptZh": "只要你真心關懷世間每一個生命"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "a little space",
+          "options": [
+            "a little time",
+            "a better chance",
+            "a little space"
+          ],
+          "prompt": "Make {{blank}}",
+          "promptZh": "騰出一點空間"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "better place",
+          "options": [
+            "brighter day",
+            "better place",
+            "safer space"
+          ],
+          "prompt": "Make a {{blank}}",
+          "promptZh": "創造一個更美好的地方"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "Heal the world",
+          "options": [
+            "Heal the world",
+            "Help the world",
+            "Save the world"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "治癒這個世界"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "a better place",
+          "options": [
+            "a brighter day",
+            "a better place",
+            "another place"
+          ],
+          "prompt": "Make it {{blank}}",
+          "promptZh": "讓它成為一個更美好的地方"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "you and for me",
+          "options": [
+            "you and for them",
+            "me and for you",
+            "you and for me"
+          ],
+          "prompt": "For {{blank}}",
+          "promptZh": "為了你，也為了我"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "human race",
+          "options": [
+            "human face",
+            "human race",
+            "human place"
+          ],
+          "prompt": "And the entire {{blank}}",
+          "promptZh": "也為了全人類"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "people dying",
+          "options": [
+            "people crying",
+            "children trying",
+            "people dying"
+          ],
+          "prompt": "There are {{blank}}",
+          "promptZh": "此刻，正有人在失去生命"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-17",
+          "answer": "care enough for the living",
+          "options": [
+            "pray enough for the living",
+            "care enough for the living",
+            "care enough for the children"
+          ],
+          "prompt": "If you {{blank}}",
+          "promptZh": "只要你真心關懷世間每一個生命"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-18",
+          "answer": "better place",
+          "options": [
+            "better life",
+            "better place",
+            "brighter space"
+          ],
+          "prompt": "Make a {{blank}}",
+          "promptZh": "就創造一個更美好的地方"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-20",
+          "answer": "want to know why",
+          "options": [
+            "want to know why",
+            "need to know how",
+            "want to go home"
+          ],
+          "prompt": "If you {{blank}}",
+          "promptZh": "如果你想知道其中的緣由"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-21",
+          "answer": "cannot lie",
+          "options": [
+            "cannot hide",
+            "will not die",
+            "cannot lie"
+          ],
+          "prompt": "There's a love that {{blank}}",
+          "promptZh": "因為有一種愛，真誠得不容虛假"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-22",
+          "answer": "strong",
+          "options": [
+            "wrong",
+            "strong",
+            "long"
+          ],
+          "prompt": "Love is {{blank}}",
+          "promptZh": "愛是堅強而有力量的"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-23",
+          "answer": "joyful giving",
+          "options": [
+            "joyful living",
+            "joyful giving",
+            "hopeful sharing"
+          ],
+          "prompt": "It only cares for {{blank}}",
+          "promptZh": "它所求的，只是滿懷喜悅地付出"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-24",
+          "answer": "we shall see",
+          "options": [
+            "we might know",
+            "we can be",
+            "we shall see"
+          ],
+          "prompt": "If we try {{blank}}",
+          "promptZh": "只要我們願意嘗試，終將明白"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-25",
+          "answer": "this bliss",
+          "options": [
+            "this place",
+            "such peace",
+            "this bliss"
+          ],
+          "prompt": "In {{blank}} we cannot feel",
+          "promptZh": "在這份幸福之中，我們再也感受不到"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-26",
+          "answer": "Fear or dread",
+          "options": [
+            "Fear or dread",
+            "Fear or pain",
+            "Hope or joy"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "恐懼，或深深的畏懼"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-27",
+          "answer": "start living",
+          "options": [
+            "start living",
+            "keep giving",
+            "stop trying"
+          ],
+          "prompt": "We stop existing and {{blank}}",
+          "promptZh": "我們不再只是生存，而是真正開始生活"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-28",
+          "answer": "feels that always",
+          "options": [
+            "seems that sometimes",
+            "feels that always",
+            "means that someday"
+          ],
+          "prompt": "Then it {{blank}}",
+          "promptZh": "那時我們便會感受到，原來一直以來"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-29",
+          "answer": "Love's enough",
+          "options": [
+            "Hope's enough",
+            "Love's enough",
+            "Life's enough"
+          ],
+          "prompt": "{{blank}} for us growing",
+          "promptZh": "愛就足以讓我們成長茁壯"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-30",
+          "answer": "better world",
+          "options": [
+            "better world",
+            "brighter world",
+            "better life"
+          ],
+          "prompt": "Make a {{blank}}",
+          "promptZh": "創造一個更美好的世界"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-31",
+          "answer": "make a better world",
+          "options": [
+            "build a better world",
+            "make a brighter world",
+            "make a better world"
+          ],
+          "prompt": "To {{blank}}",
+          "promptZh": "為了創造一個更美好的世界"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-34",
+          "answer": "For you and for me",
+          "options": [
+            "For us and for them",
+            "For you and for me",
+            "For me and for you"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "為了你，也為了我"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-40",
+          "answer": "dream",
+          "options": [
+            "dream",
+            "hope",
+            "world"
+          ],
+          "prompt": "And the {{blank}} we were conceived in",
+          "promptZh": "而那個孕育我們生命的夢想"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-41",
+          "answer": "joyful face",
+          "options": [
+            "gentle face",
+            "joyful place",
+            "joyful face"
+          ],
+          "prompt": "Will reveal a {{blank}}",
+          "promptZh": "終將展露出喜悅的面容"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-42",
+          "answer": "believed in",
+          "options": [
+            "dreamed of",
+            "believed in",
+            "lived in"
+          ],
+          "prompt": "And the world we once {{blank}}",
+          "promptZh": "而那個我們曾經深信的世界"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-43",
+          "answer": "shine again in grace",
+          "options": [
+            "shine again in grace",
+            "rise again in peace",
+            "shine again in light"
+          ],
+          "prompt": "Will {{blank}}",
+          "promptZh": "也將再次綻放恩典與光輝"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-44",
+          "answer": "strangling life",
+          "options": [
+            "changing lives",
+            "struggling hard",
+            "strangling life"
+          ],
+          "prompt": "Then why do we keep {{blank}}",
+          "promptZh": "那麼，為何我們仍不斷扼殺生命"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-45",
+          "answer": "crucify its soul",
+          "options": [
+            "terrify its soul",
+            "destroy all its hope",
+            "crucify its soul"
+          ],
+          "prompt": "Wound this Earth, {{blank}}?",
+          "promptZh": "傷害這片大地，甚至將它的靈魂釘上十字架？"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-46",
+          "answer": "plain to see",
+          "options": [
+            "plain to see",
+            "hard to see",
+            "clear to me"
+          ],
+          "prompt": "Though it's {{blank}}",
+          "promptZh": "儘管一切如此顯而易見"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-47",
+          "answer": "heavenly",
+          "options": [
+            "beautiful",
+            "wonderful",
+            "heavenly"
+          ],
+          "prompt": "This world is {{blank}}",
+          "promptZh": "這個世界原本就如天堂般美好"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-48",
+          "answer": "God's glow",
+          "options": [
+            "God's glow",
+            "God's love",
+            "golden glow"
+          ],
+          "prompt": "Be {{blank}}",
+          "promptZh": "讓我們成為上帝的光輝"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-49",
+          "answer": "fly so high",
+          "options": [
+            "fly so high",
+            "rise so far",
+            "fly so free"
+          ],
+          "prompt": "We could {{blank}}",
+          "promptZh": "我們本可以飛得如此高遠"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-50",
+          "answer": "spirits never die",
+          "options": [
+            "dreams never fade",
+            "spirits never die",
+            "hearts never cry"
+          ],
+          "prompt": "Let our {{blank}}",
+          "promptZh": "讓我們的精神永不消逝"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-51",
+          "answer": "brothers",
+          "options": [
+            "brothers",
+            "sisters",
+            "friends"
+          ],
+          "prompt": "In my heart I feel you are all my {{blank}}",
+          "promptZh": "在我心中，我深深感到，你們都是我的手足"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-52",
+          "answer": "no fear",
+          "options": [
+            "no pain",
+            "no tears",
+            "no fear"
+          ],
+          "prompt": "Create a world with {{blank}}",
+          "promptZh": "創造一個沒有恐懼的世界"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-53",
+          "answer": "happy tears",
+          "options": [
+            "happy tears",
+            "happy years",
+            "silent fears"
+          ],
+          "prompt": "Together we'll cry {{blank}}",
+          "promptZh": "讓我們一同流下幸福的淚水"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-54",
+          "answer": "swords into plowshares",
+          "options": [
+            "words into prayers",
+            "swords into plowshares",
+            "swords into flowers"
+          ],
+          "prompt": "See the nations turn their {{blank}}",
+          "promptZh": "見證各國將刀劍鑄成犁頭"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-55",
+          "answer": "really get there",
+          "options": [
+            "really get there",
+            "finally get there",
+            "really stay here"
+          ],
+          "prompt": "We could {{blank}}",
+          "promptZh": "我們真的能夠實現這樣的理想"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-56",
+          "answer": "cared enough",
+          "options": [
+            "shared enough",
+            "tried enough",
+            "cared enough"
+          ],
+          "prompt": "If you {{blank}} for the living",
+          "promptZh": "只要你真心關懷世間每一個生命"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-57",
+          "answer": "little space",
+          "options": [
+            "little space",
+            "little place",
+            "little time"
+          ],
+          "prompt": "Make a {{blank}}",
+          "promptZh": "騰出一點空間"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-96",
+          "answer": "Heal the world we live in",
+          "options": [
+            "Help the world we live in",
+            "Save the world we believe in",
+            "Heal the world we live in"
+          ],
+          "prompt": "{{blank}} (You and for me)",
+          "promptZh": "治癒我們所生活的世界（為了你，也為了我）"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Think about—um—the generations and they say we wanna make it {{q:1}}, and our children's children, so that they they they know it's a better world for them, and think if they can make it a better place"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "There's a place in {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "And I know that it is {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "And this place could be much {{q:4}} than tomorrow"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "And if you {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "You'll find there's {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "In this place you'll feel there's no {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "There are {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "If you {{q:9}} for the living"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Make {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Make a {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Make it {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "For {{q:14}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And the entire {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "There are {{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "If you {{q:17}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Make a {{q:18}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "If you {{q:19}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "There's a love that {{q:20}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Love is {{q:21}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "It only cares for {{q:22}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "If we try {{q:23}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "In {{q:24}} we cannot feel"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "We stop existing and {{q:26}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Then it {{q:27}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:28}} for us growing"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Make a {{q:29}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "To {{q:30}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Heal the world"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Make it a better place"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "{{q:31}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "And the entire human race"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "And the {{q:32}} we were conceived in"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Will reveal a {{q:33}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "And the world we once {{q:34}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Will {{q:35}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Then why do we keep {{q:36}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Wound this Earth, {{q:37}}?"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Though it's {{q:38}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "This world is {{q:39}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Be {{q:40}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "We could {{q:41}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Let our {{q:42}}"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "In my heart I feel you are all my {{q:43}}"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Create a world with {{q:44}}"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Together we'll cry {{q:45}}"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "See the nations turn their {{q:46}}"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "We could {{q:47}}"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "If you {{q:48}} for the living"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Make a {{q:49}}"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "To make a better place"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Heal the world"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Make it a better place"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "And the entire human race"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Heal the world"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Make it a better place"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "And the entire human race"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "Heal the world (Heal the world)"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "Make it a better place"
+        },
+        {
+          "lineId": "line-77",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-78",
+          "prompt": "And the entire human race"
+        },
+        {
+          "lineId": "line-79",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-80",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-81",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-82",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-83",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-84",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-85",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-86",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-87",
+          "prompt": "There are people dying"
+        },
+        {
+          "lineId": "line-88",
+          "prompt": "If you care enough for the living"
+        },
+        {
+          "lineId": "line-89",
+          "prompt": "Make a better place"
+        },
+        {
+          "lineId": "line-90",
+          "prompt": "For you and for me"
+        },
+        {
+          "lineId": "line-91",
+          "prompt": "You and for me"
+        },
+        {
+          "lineId": "line-92",
+          "prompt": "Make a better place (You and for me)"
+        },
+        {
+          "lineId": "line-93",
+          "prompt": "Make a better place (You and for me)"
+        },
+        {
+          "lineId": "line-94",
+          "prompt": "Make a better place (You and for me)"
+        },
+        {
+          "lineId": "line-95",
+          "prompt": "(You and for me)"
+        },
+        {
+          "lineId": "line-96",
+          "prompt": "{{q:50}} (You and for me)"
+        },
+        {
+          "lineId": "line-97",
+          "prompt": "Save it for our children (You and for me)"
+        },
+        {
+          "lineId": "line-98",
+          "prompt": "Heal the world we live in (You and for me)"
+        },
+        {
+          "lineId": "line-99",
+          "prompt": "Save it for our children (You and for me)"
+        },
+        {
+          "lineId": "line-100",
+          "prompt": "Heal the world we live in (You and for me)"
+        },
+        {
+          "lineId": "line-101",
+          "prompt": "Save it for our children (You and for me)"
+        },
+        {
+          "lineId": "line-102",
+          "prompt": "Heal the world we live in (You and for me)"
+        },
+        {
+          "lineId": "line-103",
+          "prompt": "Save it for our children"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Heal The World · Listening & Vocabulary",
+  "description": "《Heal the World》描寫人類對和平、愛與美好未來的渴望，呼籲每個人以關懷和行動改變世界。歌曲提醒我們，世界上仍有許多人遭受戰爭、貧困與苦難，因此不應對他人的痛苦視而不見，而應主動伸出援手，讓生命得到尊重與保護。它強調愛能消除恐懼與仇恨，讓不同國家和背景的人團結起來，共同建立沒有戰爭與傷害的世界。歌曲亦提醒我們珍惜地球，為下一代留下更美好的環境。最終，《Heal the World》傳達的是愛、和平、同理心與共同責任：真正的改變始於每個人的善意與付出，只要願意攜手努力，便能治癒世界的傷痛，讓未來充滿希望與溫暖。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Think about",
+      "meaning": "想一想、考慮……",
+      "usage": "當你要別人思考一個問題、計畫或人時，可以用 **think about + 人／事情**。",
+      "prompt": "哪一句正確使用了「Think about」？",
+      "options": [
+        "I think about to my sandwich every morning.",
+        "I think about my homework before I go to bed.",
+        "My dog thinks about very blue today.",
+        "I think about my socks on my feet."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "❌ 錯誤。 think about 後面不能這樣接 to；可說 I think about my sandwich。",
+        "✅ 正確。 think about 後面接事情，表示睡前想一想作業。",
+        "❌ 錯誤。 think about 後面需要思考的對象；very blue 不是自然的受詞用法。",
+        "❌ 錯誤。 這裡想表達「穿襪子」，應用 put on my socks，不是 think about。"
+      ],
+      "explanation": "✅ 正確。 think about 後面接事情，表示睡前想一想作業。"
+    },
+    {
+      "number": 2,
+      "word": "No need to",
+      "meaning": "不需要……、不用……",
+      "usage": "當你想告訴別人某件事不必做時，用 **no need to + 原形動詞**。",
+      "prompt": "哪一句正確使用了「No need to」？",
+      "options": [
+        "No need to a big umbrella today.",
+        "No need to happy because it is Friday.",
+        "There is no need to hurry. We have lots of time.",
+        "No need to my cat at seven o’clock."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "❌ 錯誤。 to 後面要接動詞；可說 No need to bring a big umbrella。",
+        "❌ 錯誤。 happy 是形容詞，應說 No need to be happy；但這個情境通常不會這樣勸人。",
+        "✅ 正確。 no need to hurry 表示「不用急」。",
+        "❌ 錯誤。 my cat 是名詞，to 後面缺少動詞；可以說 No need to feed my cat。"
+      ],
+      "explanation": "✅ 正確。 no need to hurry 表示「不用急」。"
+    },
+    {
+      "number": 3,
+      "word": "Care for",
+      "meaning": "照顧、關心；在意……",
+      "usage": "當你要說照顧人、動物，或關心某人的需要時，可以用 **care for + 人／動物**。",
+      "prompt": "哪一句正確使用了「Care for」？",
+      "options": [
+        "My brother cares for our dog when I am away.",
+        "I care for my pencil by eating it.",
+        "She cares for to the park every day.",
+        "We care for a pizza into eight pieces."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "✅ 正確。 cares for our dog 表示哥哥在我不在時照顧狗狗。",
+        "❌ 錯誤。 吃鉛筆不是照顧它；care for 應搭配真正的照顧行為。",
+        "❌ 錯誤。 care for 後面不能用 to the park 表達「去公園」；應說 She goes to the park。",
+        "❌ 錯誤。 把披薩切成八塊要用 cut a pizza into eight pieces。"
+      ],
+      "explanation": "✅ 正確。 cares for our dog 表示哥哥在我不在時照顧狗狗。"
+    },
+    {
+      "number": 4,
+      "word": "Make space",
+      "meaning": "騰出空間、留出位置",
+      "usage": "當你需要移開東西、空出位置讓人或物進來時，可以用 **make space (for ...)**。",
+      "prompt": "哪一句正確使用了「Make space」？",
+      "options": [
+        "Please move your bag and make space for Grandma.",
+        "I make space my teeth with a toothbrush.",
+        "She makes space because her phone is hungry.",
+        "We make space the cake at seven o’clock."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "✅ 正確。 移開包包，替奶奶騰出位置。",
+        "❌ 錯誤。 刷牙應說 brush my teeth，不能用 make space。",
+        "❌ 錯誤。 手機不會餓；make space 是騰出空間，不是餵東西吃。",
+        "❌ 錯誤。 make space 後接對象通常需要 for；可說 make space for the cake。"
+      ],
+      "explanation": "✅ 正確。 移開包包，替奶奶騰出位置。"
+    },
+    {
+      "number": 5,
+      "word": "Make ... better",
+      "meaning": "讓……變得更好",
+      "usage": "當你希望改善生活、地方或一件事時，可以說 **make + 受詞 + better**。",
+      "prompt": "哪一句正確使用了「Make ... better」？",
+      "options": [
+        "I make better my shoes with an apple.",
+        "A good night’s sleep can make you feel better.",
+        "She makes the rain better into a sandwich.",
+        "We make the bus better to school at eight."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "❌ 錯誤。 常見語序是 make + 受詞 + better；這句也沒有合理的改善方式。",
+        "✅ 正確。 make you feel better 表示讓你感覺好一些，是常見延伸句型。",
+        "❌ 錯誤。 make ... better 表示改善，不是把雨變成三明治。",
+        "❌ 錯誤。 想說搭公車上學，應用 take the bus to school。"
+      ],
+      "explanation": "✅ 正確。 make you feel better 表示讓你感覺好一些，是常見延伸句型。"
+    },
+    {
+      "number": 6,
+      "word": "Entire",
+      "meaning": "全部的、整個的",
+      "usage": "當你要強調某件事情從頭到尾、所有部分都包括時，可用 **the entire + 名詞**。",
+      "prompt": "哪一句正確使用了「Entire」？",
+      "options": [
+        "I entire my breakfast in five minutes.",
+        "We watched the entire movie, from start to finish.",
+        "My cat is entirely a chair every Monday.",
+        "He walks entire to the library."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "❌ 錯誤。 entire 是形容詞，不能當作動詞「吃完」。",
+        "✅ 正確。 the entire movie 指整部電影，從頭看到尾。",
+        "❌ 錯誤。 entirely 也不能表示「變成椅子」；這裡既不自然也不合語意。",
+        "❌ 錯誤。 entire 不是這樣修飾 walk 的副詞；可以說 He walks all the way to the library。"
+      ],
+      "explanation": "✅ 正確。 the entire movie 指整部電影，從頭看到尾。"
+    },
+    {
+      "number": 7,
+      "word": "Believe in",
+      "meaning": "相信、信任……；相信……的價值",
+      "usage": "當你相信某個人有能力，或相信某個理念時，可以用 **believe in + 人／事物**。",
+      "prompt": "哪一句正確使用了「Believe in」？",
+      "options": [
+        "I believe in my shoes to the station.",
+        "He believes in to eat five clocks.",
+        "We believe in the lights with a blue pen.",
+        "My teacher believes in me, even when I make mistakes."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "❌ 錯誤。 想說穿鞋去車站，應說 I wear my shoes to the station。",
+        "❌ 錯誤。 believe in 後不能直接接 to eat；而且「吃五個時鐘」不合理。",
+        "❌ 錯誤。 用藍筆不能「相信燈」；這句沒有自然的語意。",
+        "✅ 正確。 believes in me 表示老師信任我的能力。"
+      ],
+      "explanation": "✅ 正確。 believes in me 表示老師信任我的能力。"
+    },
+    {
+      "number": 8,
+      "word": "Plain to see",
+      "meaning": "很明顯、很容易看出來",
+      "usage": "當一個事實很清楚、大家容易看出來時，可以說 **It is plain to see that ...**。",
+      "prompt": "哪一句正確使用了「Plain to see」？",
+      "options": [
+        "It is plain to see that Ben is tired. He keeps sleeping in class.",
+        "I plain to see my dinner every Tuesday.",
+        "My bag is plain to see a bicycle.",
+        "It is plain to see the milk with a spoon."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "✅ 正確。 Ben 一直在課堂上睡覺，所以「很明顯」他累了。",
+        "❌ 錯誤。 plain to see 不是動詞「看晚餐」；這裡缺少正確句型。",
+        "❌ 錯誤。 plain to see 不能這樣接 a bicycle；它用來表示事實很明顯。",
+        "❌ 錯誤。 這裡像是在說用湯匙看牛奶，不符合 plain to see 的用法。"
+      ],
+      "explanation": "✅ 正確。 Ben 一直在課堂上睡覺，所以「很明顯」他累了。"
+    },
+    {
+      "number": 9,
+      "word": "Turn ... into",
+      "meaning": "把……變成……",
+      "usage": "當一樣東西改變成另一樣東西時，可以用 **turn + A + into + B**。",
+      "prompt": "哪一句正確使用了「Turn ... into」？",
+      "options": [
+        "I turned my homework into at seven.",
+        "She turned into the cake with her pencil.",
+        "We turned the empty box into a little house for our cat.",
+        "My shoes turned the bus into school every day."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "❌ 錯誤。 into 後面要接變成的東西；交作業應說 handed in my homework。",
+        "❌ 錯誤。 turn into 不是「用鉛筆切蛋糕」；可以說 cut the cake。",
+        "✅ 正確。 turn A into B 表示把空盒子改造成貓咪的小房子。",
+        "❌ 錯誤。 這句表示鞋子把公車變成學校，不符合原本想說的上學動作。"
+      ],
+      "explanation": "✅ 正確。 turn A into B 表示把空盒子改造成貓咪的小房子。"
+    },
+    {
+      "number": 10,
+      "word": "Save ... for",
+      "meaning": "把……留給……；為……保存",
+      "usage": "當你要留下一樣東西，之後給某人或在某時使用時，可以用 **save + 東西 + for + 人／時間**。",
+      "prompt": "哪一句正確使用了「Save ... for」？",
+      "options": [
+        "I save for my socks to dance a song.",
+        "He saves the school for at eight o’clock.",
+        "My dog saves for the rain with a banana.",
+        "Please save a piece of cake for me."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "❌ 錯誤。 要說保留襪子，應說 save my socks for ...；目前語序不對。",
+        "❌ 錯誤。 for 後面不能直接接 at；若要說為八點留某物，需要改寫句子。",
+        "❌ 錯誤。 這句沒有說清楚狗要保存什麼，整體語意也不自然。",
+        "✅ 正確。 save a piece of cake for me 表示留一塊蛋糕給我。"
+      ],
+      "explanation": "✅ 正確。 save a piece of cake for me 表示留一塊蛋糕給我。"
+    }
+  ],
+  "tags": [
+    "michael jackson",
+    "heal the world",
+    "compassion",
+    "peace"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/heal-the-world/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/heal-the-world/user-cover-20261030.png",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 384.3066875,
+    "audioSha256": "62f8dfb142aa807444746c73478efb184d5191562b98390b3310e7b5fd3e618d",
+    "timedLines": 63,
+    "untimedLines": 40,
+    "reviewStatus": "Conservative automatic cues; uncertain background or unmatched lines remain visible without guessed timing."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Heal The World_.pdf",
+      "sha256": "40f1e374891a5460f6583b5de060c40eb46845da34dd750500ab9b75f5a42b72"
+    },
+    "chosenListening": {
+      "filename": "Heal_The_World_Four_Level_Listening_Exercise.docx",
+      "sha256": "50cba3210d121bf8bb4822df25c7443eb68639a68e087582e358de3c44d41526"
+    },
+    "chosenVocabulary": {
+      "filename": "Heal_The_World_Vocabulary_Quiz.md",
+      "sha256": "e015511afc91f7af55707569fb4041ddcfcb6c2683a8eb7cb5d4f39d9c771703"
+    },
+    "audio": {
+      "filename": "Heal the World [cyCMuCFCkdk].mp3",
+      "sha256": "62f8dfb142aa807444746c73478efb184d5191562b98390b3310e7b5fd3e618d"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-637a4d85-9eaf-4505-a14e-a55f56fbf111.png",
+    "sha256": "6ce2bacd8307071f108583a9b3d759530ae0773c1c016b812229860c862219f8",
+    "transformations": "none"
+  }
+}

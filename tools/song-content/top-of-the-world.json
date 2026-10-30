@@ -1,0 +1,2793 @@
+{
+  "slug": "top-of-the-world",
+  "title": "Top Of The World",
+  "singer": "Carpenters",
+  "translations": [
+    {
+      "english": "Such a feelin's comin' over me",
+      "chinese": "一股難以言喻的美好感覺，正漸漸湧上心頭",
+      "lineId": "line-1",
+      "startSeconds": 16.56,
+      "endSeconds": 21.18
+    },
+    {
+      "english": "There is wonder in most every thing I see",
+      "chinese": "眼前所見的幾乎每一件事物，都充滿了奇妙與驚喜",
+      "lineId": "line-2",
+      "startSeconds": 21.18,
+      "endSeconds": 26.68
+    },
+    {
+      "english": "Not a cloud in the sky, got the sun in my eyes",
+      "chinese": "天空萬里無雲，陽光映照在我的眼眸裡",
+      "lineId": "line-3",
+      "startSeconds": 26.68,
+      "endSeconds": 32.6
+    },
+    {
+      "english": "And I won't be surprised if it's a dream",
+      "chinese": "即使這一切只是場夢，我也不會感到意外",
+      "lineId": "line-4",
+      "startSeconds": 32.6,
+      "endSeconds": 36.8
+    },
+    {
+      "english": "Everything I want the world to be",
+      "chinese": "我曾盼望這世界呈現的一切美好模樣",
+      "lineId": "line-5",
+      "startSeconds": 38.04,
+      "endSeconds": 41.8
+    },
+    {
+      "english": "Is now comin' true especially for me",
+      "chinese": "如今正一一實現，尤其對我而言，更是如此",
+      "lineId": "line-6",
+      "startSeconds": 42.68,
+      "endSeconds": 47.24
+    },
+    {
+      "english": "And the reason is clear, it's because you are here",
+      "chinese": "而原因再清楚不過，只因有你陪伴在我身邊",
+      "lineId": "line-7",
+      "startSeconds": 47.24,
+      "endSeconds": 53.36
+    },
+    {
+      "english": "You're the nearest thing to Heaven that I've seen",
+      "chinese": "你是我此生所見，最接近天堂的美好存在",
+      "lineId": "line-8",
+      "startSeconds": 53.36,
+      "endSeconds": 57.58
+    },
+    {
+      "english": "I'm on the top of the world lookin' down on creation",
+      "chinese": "我彷彿站在世界之巔，俯瞰世間萬物",
+      "lineId": "line-9",
+      "startSeconds": 58.24,
+      "endSeconds": 63.32
+    },
+    {
+      "english": "And the only explanation I can find",
+      "chinese": "而我所能找到的唯一解釋",
+      "lineId": "line-10",
+      "startSeconds": 63.32,
+      "endSeconds": 68.22
+    },
+    {
+      "english": "Is the love that I've found ever since you've been around",
+      "chinese": "就是自從有你相伴以來，我所尋得的這份愛",
+      "lineId": "line-11",
+      "startSeconds": 68.22,
+      "endSeconds": 73.64
+    },
+    {
+      "english": "Your love's put me at the top of the world",
+      "chinese": "是你的愛，讓我彷彿置身世界之巔",
+      "lineId": "line-12",
+      "startSeconds": 74.12,
+      "endSeconds": 78.34
+    },
+    {
+      "english": "Somethin' in the wind has learned my name",
+      "chinese": "風中彷彿有什麼，已悄悄記住了我的名字",
+      "lineId": "line-13",
+      "startSeconds": 84.56,
+      "endSeconds": 89.28
+    },
+    {
+      "english": "And it's tellin' me that things are not the same",
+      "chinese": "它正輕聲告訴我，一切都已不同於往昔",
+      "lineId": "line-14",
+      "startSeconds": 89.28,
+      "endSeconds": 94.0
+    },
+    {
+      "english": "In the leaves on the trees and the touch of the breeze",
+      "chinese": "在枝頭的片片綠葉間，在微風輕柔的觸碰裡",
+      "lineId": "line-15",
+      "startSeconds": 94.0,
+      "endSeconds": 99.9
+    },
+    {
+      "english": "There's a pleasin' sense of happiness for me",
+      "chinese": "我感受到一份令人心曠神怡的幸福",
+      "lineId": "line-16",
+      "startSeconds": 99.9,
+      "endSeconds": 104.64
+    },
+    {
+      "english": "There is only one wish on my mind",
+      "chinese": "此刻，我心中只有一個願望",
+      "lineId": "line-17",
+      "startSeconds": 105.36,
+      "endSeconds": 109.9
+    },
+    {
+      "english": "When this day is through I hope that I will find",
+      "chinese": "當今天悄然結束，我盼望自己能夠發現",
+      "lineId": "line-18",
+      "startSeconds": 109.9,
+      "endSeconds": 115.02
+    },
+    {
+      "english": "That tomorrow will be just the same for you and me",
+      "chinese": "明天對你我而言，依然能像今天一樣美好",
+      "lineId": "line-19",
+      "startSeconds": 115.02,
+      "endSeconds": 120.78
+    },
+    {
+      "english": "All I need will be mine if you are here",
+      "chinese": "只要你在我身邊，我便擁有了所需要的一切",
+      "lineId": "line-20",
+      "startSeconds": 120.78,
+      "endSeconds": 124.9
+    },
+    {
+      "english": "I'm on the top of the world lookin' down on creation",
+      "chinese": "我彷彿站在世界之巔，俯瞰世間萬物",
+      "lineId": "line-21",
+      "startSeconds": 125.42,
+      "endSeconds": 131.1
+    },
+    {
+      "english": "And the only explanation I can find",
+      "chinese": "而我所能找到的唯一解釋",
+      "lineId": "line-22",
+      "startSeconds": 131.1,
+      "endSeconds": 135.68
+    },
+    {
+      "english": "Is the love that I've found ever since you've been around",
+      "chinese": "就是自從有你相伴以來，我所尋得的這份愛",
+      "lineId": "line-23",
+      "startSeconds": 135.68,
+      "endSeconds": 141.16
+    },
+    {
+      "english": "Your love's put me at the top of the world",
+      "chinese": "是你的愛，讓我彷彿置身世界之巔",
+      "lineId": "line-24",
+      "startSeconds": 141.16,
+      "endSeconds": 145.72
+    },
+    {
+      "english": "I'm on the top of the world lookin' down on creation",
+      "chinese": "我彷彿站在世界之巔，俯瞰世間萬物",
+      "lineId": "line-25",
+      "startSeconds": 145.72,
+      "endSeconds": 151.62
+    },
+    {
+      "english": "And the only explanation I can find",
+      "chinese": "而我所能找到的唯一解釋",
+      "lineId": "line-26",
+      "startSeconds": 151.62,
+      "endSeconds": 156.1
+    },
+    {
+      "english": "Is the love that I've found ever since you've been around",
+      "chinese": "就是自從有你相伴以來，我所尋得的這份愛",
+      "lineId": "line-27",
+      "startSeconds": 156.1,
+      "endSeconds": 161.72
+    },
+    {
+      "english": "Your love's put me at the top of the world",
+      "chinese": "是你的愛，讓我彷彿置身世界之巔",
+      "lineId": "line-28",
+      "startSeconds": 161.72,
+      "endSeconds": 166.52
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "feelin's",
+          "options": [
+            "feeling was",
+            "feelin's",
+            "dream's"
+          ],
+          "prompt": "Such a {{blank}} comin' over me",
+          "promptZh": "一股難以言喻的美好感覺，正漸漸湧上心頭"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "comin' over me",
+          "options": [
+            "comin' over me",
+            "coming after me",
+            "falling over me"
+          ],
+          "prompt": "Such a feelin's {{blank}}",
+          "promptZh": "一股難以言喻的美好感覺，正漸漸湧上心頭"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "wonder",
+          "options": [
+            "wonder",
+            "thunder",
+            "beauty"
+          ],
+          "prompt": "There is {{blank}} in most every thing I see",
+          "promptZh": "眼前所見的幾乎每一件事物，都充滿了奇妙與驚喜"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-2",
+          "answer": "most every thing",
+          "options": [
+            "almost anything",
+            "most every thing",
+            "nearly everything"
+          ],
+          "prompt": "There is wonder in {{blank}} I see",
+          "promptZh": "眼前所見的幾乎每一件事物，都充滿了奇妙與驚喜"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-3",
+          "answer": "Not a cloud",
+          "options": [
+            "Just a cloud",
+            "Not a sound",
+            "Not a cloud"
+          ],
+          "prompt": "{{blank}} in the sky, got the sun in my eyes",
+          "promptZh": "天空萬里無雲，陽光映照在我的眼眸裡"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-3",
+          "answer": "sun in my eyes",
+          "options": [
+            "light in my eyes",
+            "sun in my eyes",
+            "sun in the skies"
+          ],
+          "prompt": "Not a cloud in the sky, got the {{blank}}",
+          "promptZh": "天空萬里無雲，陽光映照在我的眼眸裡"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-4",
+          "answer": "surprised",
+          "options": [
+            "amazed",
+            "disguised",
+            "surprised"
+          ],
+          "prompt": "And I won't be {{blank}} if it's a dream",
+          "promptZh": "即使這一切只是場夢，我也不會感到意外"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-6",
+          "answer": "comin' true",
+          "options": [
+            "falling through",
+            "coming soon",
+            "comin' true"
+          ],
+          "prompt": "Is now {{blank}} especially for me",
+          "promptZh": "如今正一一實現，尤其對我而言，更是如此"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-7",
+          "answer": "you are here",
+          "options": [
+            "you are here",
+            "you are near",
+            "we are here"
+          ],
+          "prompt": "And the reason is clear, it's because {{blank}}",
+          "promptZh": "而原因再清楚不過，只因有你陪伴在我身邊"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-8",
+          "answer": "nearest thing",
+          "options": [
+            "nearest thing",
+            "dearest thing",
+            "greatest thing"
+          ],
+          "prompt": "You're the {{blank}} to Heaven that I've seen",
+          "promptZh": "你是我此生所見，最接近天堂的美好存在"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-9",
+          "answer": "top of the world",
+          "options": [
+            "edge of the world",
+            "top of the hill",
+            "top of the world"
+          ],
+          "prompt": "I'm on the {{blank}} lookin' down on creation",
+          "promptZh": "我彷彿站在世界之巔，俯瞰世間萬物"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-10",
+          "answer": "only explanation",
+          "options": [
+            "simple explanation",
+            "only explanation",
+            "only expectation"
+          ],
+          "prompt": "And the {{blank}} I can find",
+          "promptZh": "而我所能找到的唯一解釋"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-12",
+          "answer": "Your love's put me",
+          "options": [
+            "Your love has found me",
+            "Your love's put me",
+            "Your smile puts me"
+          ],
+          "prompt": "{{blank}} at the top of the world",
+          "promptZh": "是你的愛，讓我彷彿置身世界之巔"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-13",
+          "answer": "in the wind",
+          "options": [
+            "in the wind",
+            "in the rain",
+            "on the wind"
+          ],
+          "prompt": "Somethin' {{blank}} has learned my name",
+          "promptZh": "風中彷彿有什麼，已悄悄記住了我的名字"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-14",
+          "answer": "not the same",
+          "options": [
+            "not the same",
+            "just the same",
+            "not to blame"
+          ],
+          "prompt": "And it's tellin' me that things are {{blank}}",
+          "promptZh": "它正輕聲告訴我，一切都已不同於往昔"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-15",
+          "answer": "leaves on the trees",
+          "options": [
+            "birds in the trees",
+            "leaves in the breeze",
+            "leaves on the trees"
+          ],
+          "prompt": "In the {{blank}} and the touch of the breeze",
+          "promptZh": "在枝頭的片片綠葉間，在微風輕柔的觸碰裡"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-16",
+          "answer": "happiness",
+          "options": [
+            "tenderness",
+            "happiness",
+            "loneliness"
+          ],
+          "prompt": "There's a pleasin' sense of {{blank}} for me",
+          "promptZh": "我感受到一份令人心曠神怡的幸福"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-17",
+          "answer": "only one wish",
+          "options": [
+            "only one thing",
+            "only one wish",
+            "just one wish"
+          ],
+          "prompt": "There is {{blank}} on my mind",
+          "promptZh": "此刻，我心中只有一個願望"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-19",
+          "answer": "tomorrow",
+          "options": [
+            "tomorrow",
+            "today",
+            "forever"
+          ],
+          "prompt": "That {{blank}} will be just the same for you and me",
+          "promptZh": "明天對你我而言，依然能像今天一樣美好"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-20",
+          "answer": "All I need",
+          "options": [
+            "All I want",
+            "All I see",
+            "All I need"
+          ],
+          "prompt": "{{blank}} will be mine if you are here",
+          "promptZh": "只要你在我身邊，我便擁有了所需要的一切"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Such a {{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "There is {{q:3}} in {{q:4}} I see"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}} in the sky, got the {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "And I won't be {{q:7}} if it's a dream"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Everything I want the world to be"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Is now {{q:8}} especially for me"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And the reason is clear, it's because {{q:9}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "You're the {{q:10}} to Heaven that I've seen"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I'm on the {{q:11}} lookin' down on creation"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And the {{q:12}} I can find"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Is the love that I've found ever since you've been around"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:13}} at the top of the world"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Somethin' {{q:14}} has learned my name"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And it's tellin' me that things are {{q:15}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "In the {{q:16}} and the touch of the breeze"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "There's a pleasin' sense of {{q:17}} for me"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "There is {{q:18}} on my mind"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "When this day is through I hope that I will find"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "That {{q:19}} will be just the same for you and me"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:20}} will be mine if you are here"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I'm on the top of the world lookin' down on creation"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "And the only explanation I can find"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Is the love that I've found ever since you've been around"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Your love's put me at the top of the world"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I'm on the top of the world lookin' down on creation"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "And the only explanation I can find"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Is the love that I've found ever since you've been around"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Your love's put me at the top of the world"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "feelin's",
+          "options": [
+            "feeling was",
+            "feelin's",
+            "dream's"
+          ],
+          "prompt": "Such a {{blank}} comin' over me",
+          "promptZh": "一股難以言喻的美好感覺，正漸漸湧上心頭"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "comin' over me",
+          "options": [
+            "comin' over me",
+            "coming after me",
+            "falling over me"
+          ],
+          "prompt": "Such a feelin's {{blank}}",
+          "promptZh": "一股難以言喻的美好感覺，正漸漸湧上心頭"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "wonder",
+          "options": [
+            "thunder",
+            "beauty",
+            "wonder"
+          ],
+          "prompt": "There is {{blank}} in most every thing I see",
+          "promptZh": "眼前所見的幾乎每一件事物，都充滿了奇妙與驚喜"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-2",
+          "answer": "most every thing",
+          "options": [
+            "most every thing",
+            "almost anything",
+            "nearly everything"
+          ],
+          "prompt": "There is wonder in {{blank}} I see",
+          "promptZh": "眼前所見的幾乎每一件事物，都充滿了奇妙與驚喜"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-3",
+          "answer": "Not a cloud",
+          "options": [
+            "Just a cloud",
+            "Not a sound",
+            "Not a cloud"
+          ],
+          "prompt": "{{blank}} in the sky, got the sun in my eyes",
+          "promptZh": "天空萬里無雲，陽光映照在我的眼眸裡"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-3",
+          "answer": "sun in my eyes",
+          "options": [
+            "sun in my eyes",
+            "light in my eyes",
+            "sun in the skies"
+          ],
+          "prompt": "Not a cloud in the sky, got the {{blank}}",
+          "promptZh": "天空萬里無雲，陽光映照在我的眼眸裡"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-4",
+          "answer": "surprised",
+          "options": [
+            "amazed",
+            "surprised",
+            "disguised"
+          ],
+          "prompt": "And I won't be {{blank}} if it's a dream",
+          "promptZh": "即使這一切只是場夢，我也不會感到意外"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-5",
+          "answer": "Everything I want",
+          "options": [
+            "Everything I want",
+            "Everything I need",
+            "Everywhere I go"
+          ],
+          "prompt": "{{blank}} the world to be",
+          "promptZh": "我曾盼望這世界呈現的一切美好模樣"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-6",
+          "answer": "comin' true",
+          "options": [
+            "falling through",
+            "coming soon",
+            "comin' true"
+          ],
+          "prompt": "Is now {{blank}} especially for me",
+          "promptZh": "如今正一一實現，尤其對我而言，更是如此"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-7",
+          "answer": "reason is clear",
+          "options": [
+            "reason is here",
+            "answer is clear",
+            "reason is clear"
+          ],
+          "prompt": "And the {{blank}}, it's because you are here",
+          "promptZh": "而原因再清楚不過，只因有你陪伴在我身邊"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-7",
+          "answer": "you are here",
+          "options": [
+            "you are here",
+            "you are near",
+            "we are here"
+          ],
+          "prompt": "And the reason is clear, it's because {{blank}}",
+          "promptZh": "而原因再清楚不過，只因有你陪伴在我身邊"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-8",
+          "answer": "nearest thing",
+          "options": [
+            "dearest thing",
+            "nearest thing",
+            "greatest thing"
+          ],
+          "prompt": "You're the {{blank}} to Heaven that I've seen",
+          "promptZh": "你是我此生所見，最接近天堂的美好存在"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-8",
+          "answer": "Heaven",
+          "options": [
+            "happiness",
+            "Heaven",
+            "paradise"
+          ],
+          "prompt": "You're the nearest thing to {{blank}} that I've seen",
+          "promptZh": "你是我此生所見，最接近天堂的美好存在"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-9",
+          "answer": "top of the world",
+          "options": [
+            "edge of the world",
+            "top of the hill",
+            "top of the world"
+          ],
+          "prompt": "I'm on the {{blank}} lookin' down on creation",
+          "promptZh": "我彷彿站在世界之巔，俯瞰世間萬物"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-10",
+          "answer": "only explanation",
+          "options": [
+            "simple explanation",
+            "only explanation",
+            "only expectation"
+          ],
+          "prompt": "And the {{blank}} I can find",
+          "promptZh": "而我所能找到的唯一解釋"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-11",
+          "answer": "love that I've found",
+          "options": [
+            "love that I've found",
+            "love that I've known",
+            "hope that I've found"
+          ],
+          "prompt": "Is the {{blank}} ever since you've been around",
+          "promptZh": "就是自從有你相伴以來，我所尋得的這份愛"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-12",
+          "answer": "Your love's put me",
+          "options": [
+            "Your love has found me",
+            "Your love's put me",
+            "Your smile puts me"
+          ],
+          "prompt": "{{blank}} at the top of the world",
+          "promptZh": "是你的愛，讓我彷彿置身世界之巔"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-12",
+          "answer": "top of the world",
+          "options": [
+            "top of the world",
+            "heart of the world",
+            "top of the hill"
+          ],
+          "prompt": "Your love's put me at the {{blank}}",
+          "promptZh": "是你的愛，讓我彷彿置身世界之巔"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-13",
+          "answer": "in the wind",
+          "options": [
+            "in the rain",
+            "in the wind",
+            "on the wind"
+          ],
+          "prompt": "Somethin' {{blank}} has learned my name",
+          "promptZh": "風中彷彿有什麼，已悄悄記住了我的名字"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-13",
+          "answer": "learned my name",
+          "options": [
+            "heard my name",
+            "called my name",
+            "learned my name"
+          ],
+          "prompt": "Somethin' in the wind has {{blank}}",
+          "promptZh": "風中彷彿有什麼，已悄悄記住了我的名字"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-14",
+          "answer": "tellin' me",
+          "options": [
+            "tellin' me",
+            "calling me",
+            "telling you"
+          ],
+          "prompt": "And it's {{blank}} that things are not the same",
+          "promptZh": "它正輕聲告訴我，一切都已不同於往昔"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-14",
+          "answer": "not the same",
+          "options": [
+            "just the same",
+            "not to blame",
+            "not the same"
+          ],
+          "prompt": "And it's tellin' me that things are {{blank}}",
+          "promptZh": "它正輕聲告訴我，一切都已不同於往昔"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-15",
+          "answer": "leaves on the trees",
+          "options": [
+            "birds in the trees",
+            "leaves on the trees",
+            "leaves in the breeze"
+          ],
+          "prompt": "In the {{blank}} and the touch of the breeze",
+          "promptZh": "在枝頭的片片綠葉間，在微風輕柔的觸碰裡"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-16",
+          "answer": "pleasin' sense",
+          "options": [
+            "peaceful sense",
+            "pleasing sound",
+            "pleasin' sense"
+          ],
+          "prompt": "There's a {{blank}} of happiness for me",
+          "promptZh": "我感受到一份令人心曠神怡的幸福"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-16",
+          "answer": "happiness",
+          "options": [
+            "tenderness",
+            "happiness",
+            "loneliness"
+          ],
+          "prompt": "There's a pleasin' sense of {{blank}} for me",
+          "promptZh": "我感受到一份令人心曠神怡的幸福"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-17",
+          "answer": "only one wish",
+          "options": [
+            "only one wish",
+            "only one thing",
+            "just one wish"
+          ],
+          "prompt": "There is {{blank}} on my mind",
+          "promptZh": "此刻，我心中只有一個願望"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-18",
+          "answer": "this day is through",
+          "options": [
+            "this night is through",
+            "this day is through",
+            "this day is new"
+          ],
+          "prompt": "When {{blank}} I hope that I will find",
+          "promptZh": "當今天悄然結束，我盼望自己能夠發現"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-19",
+          "answer": "tomorrow",
+          "options": [
+            "today",
+            "forever",
+            "tomorrow"
+          ],
+          "prompt": "That {{blank}} will be just the same for you and me",
+          "promptZh": "明天對你我而言，依然能像今天一樣美好"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-19",
+          "answer": "just the same",
+          "options": [
+            "just the same",
+            "not the same",
+            "much the same"
+          ],
+          "prompt": "That tomorrow will be {{blank}} for you and me",
+          "promptZh": "明天對你我而言，依然能像今天一樣美好"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-20",
+          "answer": "All I need",
+          "options": [
+            "All I need",
+            "All I want",
+            "All I see"
+          ],
+          "prompt": "{{blank}} will be mine if you are here",
+          "promptZh": "只要你在我身邊，我便擁有了所需要的一切"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-21",
+          "answer": "lookin' down",
+          "options": [
+            "looking up",
+            "lookin' down",
+            "looking around"
+          ],
+          "prompt": "I'm on the top of the world {{blank}} on creation",
+          "promptZh": "我彷彿站在世界之巔，俯瞰世間萬物"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-24",
+          "answer": "Your love's put me",
+          "options": [
+            "Your love's brought me",
+            "Your love has left me",
+            "Your love's put me"
+          ],
+          "prompt": "{{blank}} at the top of the world",
+          "promptZh": "是你的愛，讓我彷彿置身世界之巔"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Such a {{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "There is {{q:3}} in {{q:4}} I see"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}} in the sky, got the {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "And I won't be {{q:7}} if it's a dream"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:8}} the world to be"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Is now {{q:9}} especially for me"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And the {{q:10}}, it's because {{q:11}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "You're the {{q:12}} to {{q:13}} that I've seen"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I'm on the {{q:14}} lookin' down on creation"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And the {{q:15}} I can find"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Is the {{q:16}} ever since you've been around"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:17}} at the {{q:18}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Somethin' {{q:19}} has {{q:20}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And it's {{q:21}} that things are {{q:22}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "In the {{q:23}} and the touch of the breeze"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "There's a {{q:24}} of {{q:25}} for me"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "There is {{q:26}} on my mind"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "When {{q:27}} I hope that I will find"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "That {{q:28}} will be {{q:29}} for you and me"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:30}} will be mine if you are here"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I'm on the top of the world {{q:31}} on creation"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "And the only explanation I can find"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Is the love that I've found ever since you've been around"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:32}} at the top of the world"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I'm on the top of the world lookin' down on creation"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "And the only explanation I can find"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Is the love that I've found ever since you've been around"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Your love's put me at the top of the world"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "feelin's",
+          "options": [
+            "feeling was",
+            "dream's",
+            "feelin's"
+          ],
+          "prompt": "Such a {{blank}} comin' over me",
+          "promptZh": "一股難以言喻的美好感覺，正漸漸湧上心頭"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "comin' over me",
+          "options": [
+            "coming after me",
+            "falling over me",
+            "comin' over me"
+          ],
+          "prompt": "Such a feelin's {{blank}}",
+          "promptZh": "一股難以言喻的美好感覺，正漸漸湧上心頭"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "wonder",
+          "options": [
+            "wonder",
+            "thunder",
+            "beauty"
+          ],
+          "prompt": "There is {{blank}} in most every thing I see",
+          "promptZh": "眼前所見的幾乎每一件事物，都充滿了奇妙與驚喜"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-2",
+          "answer": "most every thing",
+          "options": [
+            "almost anything",
+            "nearly everything",
+            "most every thing"
+          ],
+          "prompt": "There is wonder in {{blank}} I see",
+          "promptZh": "眼前所見的幾乎每一件事物，都充滿了奇妙與驚喜"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-3",
+          "answer": "Not a cloud",
+          "options": [
+            "Just a cloud",
+            "Not a cloud",
+            "Not a sound"
+          ],
+          "prompt": "{{blank}} in the sky, got the sun in my eyes",
+          "promptZh": "天空萬里無雲，陽光映照在我的眼眸裡"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-3",
+          "answer": "sun in my eyes",
+          "options": [
+            "light in my eyes",
+            "sun in the skies",
+            "sun in my eyes"
+          ],
+          "prompt": "Not a cloud in the sky, got the {{blank}}",
+          "promptZh": "天空萬里無雲，陽光映照在我的眼眸裡"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-4",
+          "answer": "surprised",
+          "options": [
+            "amazed",
+            "surprised",
+            "disguised"
+          ],
+          "prompt": "And I won't be {{blank}} if it's a dream",
+          "promptZh": "即使這一切只是場夢，我也不會感到意外"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-4",
+          "answer": "if it's a dream",
+          "options": [
+            "if it's for real",
+            "if I'm asleep",
+            "if it's a dream"
+          ],
+          "prompt": "And I won't be surprised {{blank}}",
+          "promptZh": "即使這一切只是場夢，我也不會感到意外"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-5",
+          "answer": "Everything I want",
+          "options": [
+            "Everything I need",
+            "Everywhere I go",
+            "Everything I want"
+          ],
+          "prompt": "{{blank}} the world to be",
+          "promptZh": "我曾盼望這世界呈現的一切美好模樣"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-6",
+          "answer": "comin' true",
+          "options": [
+            "falling through",
+            "comin' true",
+            "coming soon"
+          ],
+          "prompt": "Is now {{blank}} especially for me",
+          "promptZh": "如今正一一實現，尤其對我而言，更是如此"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-6",
+          "answer": "especially for me",
+          "options": [
+            "especially for you",
+            "just because of me",
+            "especially for me"
+          ],
+          "prompt": "Is now comin' true {{blank}}",
+          "promptZh": "如今正一一實現，尤其對我而言，更是如此"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-7",
+          "answer": "reason is clear",
+          "options": [
+            "reason is clear",
+            "reason is here",
+            "answer is clear"
+          ],
+          "prompt": "And the {{blank}}, it's because you are here",
+          "promptZh": "而原因再清楚不過，只因有你陪伴在我身邊"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-7",
+          "answer": "you are here",
+          "options": [
+            "you are near",
+            "we are here",
+            "you are here"
+          ],
+          "prompt": "And the reason is clear, it's because {{blank}}",
+          "promptZh": "而原因再清楚不過，只因有你陪伴在我身邊"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-8",
+          "answer": "nearest thing",
+          "options": [
+            "nearest thing",
+            "dearest thing",
+            "greatest thing"
+          ],
+          "prompt": "You're the {{blank}} to Heaven that I've seen",
+          "promptZh": "你是我此生所見，最接近天堂的美好存在"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-8",
+          "answer": "Heaven",
+          "options": [
+            "happiness",
+            "Heaven",
+            "paradise"
+          ],
+          "prompt": "You're the nearest thing to {{blank}} that I've seen",
+          "promptZh": "你是我此生所見，最接近天堂的美好存在"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-9",
+          "answer": "top of the world",
+          "options": [
+            "top of the world",
+            "edge of the world",
+            "top of the hill"
+          ],
+          "prompt": "I'm on the {{blank}} lookin' down on creation",
+          "promptZh": "我彷彿站在世界之巔，俯瞰世間萬物"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-9",
+          "answer": "lookin' down",
+          "options": [
+            "looking around",
+            "lookin' down",
+            "looking up"
+          ],
+          "prompt": "I'm on the top of the world {{blank}} on creation",
+          "promptZh": "我彷彿站在世界之巔，俯瞰世間萬物"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-10",
+          "answer": "only explanation",
+          "options": [
+            "only explanation",
+            "simple explanation",
+            "only expectation"
+          ],
+          "prompt": "And the {{blank}} I can find",
+          "promptZh": "而我所能找到的唯一解釋"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-11",
+          "answer": "love that I've found",
+          "options": [
+            "love that I've known",
+            "love that I've found",
+            "hope that I've found"
+          ],
+          "prompt": "Is the {{blank}} ever since you've been around",
+          "promptZh": "就是自從有你相伴以來，我所尋得的這份愛"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-11",
+          "answer": "ever since",
+          "options": [
+            "even when",
+            "ever after",
+            "ever since"
+          ],
+          "prompt": "Is the love that I've found {{blank}} you've been around",
+          "promptZh": "就是自從有你相伴以來，我所尋得的這份愛"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-12",
+          "answer": "Your love's put me",
+          "options": [
+            "Your love has found me",
+            "Your love's put me",
+            "Your smile puts me"
+          ],
+          "prompt": "{{blank}} at the top of the world",
+          "promptZh": "是你的愛，讓我彷彿置身世界之巔"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-12",
+          "answer": "top of the world",
+          "options": [
+            "heart of the world",
+            "top of the world",
+            "top of the hill"
+          ],
+          "prompt": "Your love's put me at the {{blank}}",
+          "promptZh": "是你的愛，讓我彷彿置身世界之巔"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-13",
+          "answer": "in the wind",
+          "options": [
+            "in the wind",
+            "in the rain",
+            "on the wind"
+          ],
+          "prompt": "Somethin' {{blank}} has learned my name",
+          "promptZh": "風中彷彿有什麼，已悄悄記住了我的名字"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-13",
+          "answer": "learned my name",
+          "options": [
+            "heard my name",
+            "learned my name",
+            "called my name"
+          ],
+          "prompt": "Somethin' in the wind has {{blank}}",
+          "promptZh": "風中彷彿有什麼，已悄悄記住了我的名字"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-14",
+          "answer": "tellin' me",
+          "options": [
+            "tellin' me",
+            "calling me",
+            "telling you"
+          ],
+          "prompt": "And it's {{blank}} that things are not the same",
+          "promptZh": "它正輕聲告訴我，一切都已不同於往昔"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-14",
+          "answer": "not the same",
+          "options": [
+            "just the same",
+            "not to blame",
+            "not the same"
+          ],
+          "prompt": "And it's tellin' me that things are {{blank}}",
+          "promptZh": "它正輕聲告訴我，一切都已不同於往昔"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-15",
+          "answer": "leaves on the trees",
+          "options": [
+            "birds in the trees",
+            "leaves in the breeze",
+            "leaves on the trees"
+          ],
+          "prompt": "In the {{blank}} and the touch of the breeze",
+          "promptZh": "在枝頭的片片綠葉間，在微風輕柔的觸碰裡"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-15",
+          "answer": "touch of the breeze",
+          "options": [
+            "touch of the breeze",
+            "rush of the breeze",
+            "touch of the wind"
+          ],
+          "prompt": "In the leaves on the trees and the {{blank}}",
+          "promptZh": "在枝頭的片片綠葉間，在微風輕柔的觸碰裡"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-16",
+          "answer": "pleasin' sense",
+          "options": [
+            "pleasin' sense",
+            "peaceful sense",
+            "pleasing sound"
+          ],
+          "prompt": "There's a {{blank}} of happiness for me",
+          "promptZh": "我感受到一份令人心曠神怡的幸福"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-16",
+          "answer": "happiness",
+          "options": [
+            "tenderness",
+            "happiness",
+            "loneliness"
+          ],
+          "prompt": "There's a pleasin' sense of {{blank}} for me",
+          "promptZh": "我感受到一份令人心曠神怡的幸福"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-17",
+          "answer": "only one wish",
+          "options": [
+            "only one wish",
+            "only one thing",
+            "just one wish"
+          ],
+          "prompt": "There is {{blank}} on my mind",
+          "promptZh": "此刻，我心中只有一個願望"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-17",
+          "answer": "on my mind",
+          "options": [
+            "in my mind",
+            "on my side",
+            "on my mind"
+          ],
+          "prompt": "There is only one wish {{blank}}",
+          "promptZh": "此刻，我心中只有一個願望"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-18",
+          "answer": "this day is through",
+          "options": [
+            "this day is through",
+            "this night is through",
+            "this day is new"
+          ],
+          "prompt": "When {{blank}} I hope that I will find",
+          "promptZh": "當今天悄然結束，我盼望自己能夠發現"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-19",
+          "answer": "tomorrow",
+          "options": [
+            "today",
+            "tomorrow",
+            "forever"
+          ],
+          "prompt": "That {{blank}} will be just the same for you and me",
+          "promptZh": "明天對你我而言，依然能像今天一樣美好"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-19",
+          "answer": "just the same",
+          "options": [
+            "just the same",
+            "not the same",
+            "much the same"
+          ],
+          "prompt": "That tomorrow will be {{blank}} for you and me",
+          "promptZh": "明天對你我而言，依然能像今天一樣美好"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-20",
+          "answer": "All I need",
+          "options": [
+            "All I need",
+            "All I want",
+            "All I see"
+          ],
+          "prompt": "{{blank}} will be mine if you are here",
+          "promptZh": "只要你在我身邊，我便擁有了所需要的一切"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-20",
+          "answer": "will be mine",
+          "options": [
+            "will be fine",
+            "can be mine",
+            "will be mine"
+          ],
+          "prompt": "All I need {{blank}} if you are here",
+          "promptZh": "只要你在我身邊，我便擁有了所需要的一切"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-21",
+          "answer": "lookin' down",
+          "options": [
+            "looking up",
+            "lookin' down",
+            "looking around"
+          ],
+          "prompt": "I'm on the top of the world {{blank}} on creation",
+          "promptZh": "我彷彿站在世界之巔，俯瞰世間萬物"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-22",
+          "answer": "explanation",
+          "options": [
+            "expectation",
+            "explanation",
+            "inspiration"
+          ],
+          "prompt": "And the only {{blank}} I can find",
+          "promptZh": "而我所能找到的唯一解釋"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-24",
+          "answer": "Your love's put me",
+          "options": [
+            "Your love's put me",
+            "Your love's brought me",
+            "Your love has left me"
+          ],
+          "prompt": "{{blank}} at the top of the world",
+          "promptZh": "是你的愛，讓我彷彿置身世界之巔"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Such a {{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "There is {{q:3}} in {{q:4}} I see"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}} in the sky, got the {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "And I won't be {{q:7}} {{q:8}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:9}} the world to be"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Is now {{q:10}} {{q:11}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And the {{q:12}}, it's because {{q:13}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "You're the {{q:14}} to {{q:15}} that I've seen"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I'm on the {{q:16}} {{q:17}} on creation"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And the {{q:18}} I can find"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Is the {{q:19}} {{q:20}} you've been around"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:21}} at the {{q:22}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Somethin' {{q:23}} has {{q:24}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And it's {{q:25}} that things are {{q:26}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "In the {{q:27}} and the {{q:28}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "There's a {{q:29}} of {{q:30}} for me"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "There is {{q:31}} {{q:32}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "When {{q:33}} I hope that I will find"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "That {{q:34}} will be {{q:35}} for you and me"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:36}} {{q:37}} if you are here"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I'm on the top of the world {{q:38}} on creation"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "And the only {{q:39}} I can find"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Is the love that I've found ever since you've been around"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:40}} at the top of the world"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I'm on the top of the world lookin' down on creation"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "And the only explanation I can find"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Is the love that I've found ever since you've been around"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Your love's put me at the top of the world"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "feelin's",
+          "options": [
+            "feeling was",
+            "feelin's",
+            "dream's"
+          ],
+          "prompt": "Such a {{blank}} comin' over me",
+          "promptZh": "一股難以言喻的美好感覺，正漸漸湧上心頭"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "comin' over me",
+          "options": [
+            "coming after me",
+            "falling over me",
+            "comin' over me"
+          ],
+          "prompt": "Such a feelin's {{blank}}",
+          "promptZh": "一股難以言喻的美好感覺，正漸漸湧上心頭"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "wonder",
+          "options": [
+            "thunder",
+            "wonder",
+            "beauty"
+          ],
+          "prompt": "There is {{blank}} in most every thing I see",
+          "promptZh": "眼前所見的幾乎每一件事物，都充滿了奇妙與驚喜"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-2",
+          "answer": "most every thing",
+          "options": [
+            "almost anything",
+            "nearly everything",
+            "most every thing"
+          ],
+          "prompt": "There is wonder in {{blank}} I see",
+          "promptZh": "眼前所見的幾乎每一件事物，都充滿了奇妙與驚喜"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-3",
+          "answer": "Not a cloud",
+          "options": [
+            "Just a cloud",
+            "Not a cloud",
+            "Not a sound"
+          ],
+          "prompt": "{{blank}} in the sky, got the sun in my eyes",
+          "promptZh": "天空萬里無雲，陽光映照在我的眼眸裡"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-3",
+          "answer": "sun in my eyes",
+          "options": [
+            "sun in my eyes",
+            "light in my eyes",
+            "sun in the skies"
+          ],
+          "prompt": "Not a cloud in the sky, got the {{blank}}",
+          "promptZh": "天空萬里無雲，陽光映照在我的眼眸裡"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-4",
+          "answer": "surprised",
+          "options": [
+            "amazed",
+            "disguised",
+            "surprised"
+          ],
+          "prompt": "And I won't be {{blank}} if it's a dream",
+          "promptZh": "即使這一切只是場夢，我也不會感到意外"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-4",
+          "answer": "if it's a dream",
+          "options": [
+            "if it's a dream",
+            "if it's for real",
+            "if I'm asleep"
+          ],
+          "prompt": "And I won't be surprised {{blank}}",
+          "promptZh": "即使這一切只是場夢，我也不會感到意外"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-5",
+          "answer": "Everything I want",
+          "options": [
+            "Everything I want",
+            "Everything I need",
+            "Everywhere I go"
+          ],
+          "prompt": "{{blank}} the world to be",
+          "promptZh": "我曾盼望這世界呈現的一切美好模樣"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-5",
+          "answer": "the world to be",
+          "options": [
+            "my life to be",
+            "the world to be",
+            "the world to see"
+          ],
+          "prompt": "Everything I want {{blank}}",
+          "promptZh": "我曾盼望這世界呈現的一切美好模樣"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-6",
+          "answer": "comin' true",
+          "options": [
+            "comin' true",
+            "falling through",
+            "coming soon"
+          ],
+          "prompt": "Is now {{blank}} especially for me",
+          "promptZh": "如今正一一實現，尤其對我而言，更是如此"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-6",
+          "answer": "especially for me",
+          "options": [
+            "especially for you",
+            "especially for me",
+            "just because of me"
+          ],
+          "prompt": "Is now comin' true {{blank}}",
+          "promptZh": "如今正一一實現，尤其對我而言，更是如此"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-7",
+          "answer": "reason is clear",
+          "options": [
+            "reason is here",
+            "answer is clear",
+            "reason is clear"
+          ],
+          "prompt": "And the {{blank}}, it's because you are here",
+          "promptZh": "而原因再清楚不過，只因有你陪伴在我身邊"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-7",
+          "answer": "you are here",
+          "options": [
+            "you are near",
+            "you are here",
+            "we are here"
+          ],
+          "prompt": "And the reason is clear, it's because {{blank}}",
+          "promptZh": "而原因再清楚不過，只因有你陪伴在我身邊"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-8",
+          "answer": "nearest thing",
+          "options": [
+            "dearest thing",
+            "greatest thing",
+            "nearest thing"
+          ],
+          "prompt": "You're the {{blank}} to Heaven that I've seen",
+          "promptZh": "你是我此生所見，最接近天堂的美好存在"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-8",
+          "answer": "Heaven",
+          "options": [
+            "happiness",
+            "Heaven",
+            "paradise"
+          ],
+          "prompt": "You're the nearest thing to {{blank}} that I've seen",
+          "promptZh": "你是我此生所見，最接近天堂的美好存在"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-9",
+          "answer": "top of the world",
+          "options": [
+            "top of the world",
+            "edge of the world",
+            "top of the hill"
+          ],
+          "prompt": "I'm on the {{blank}} lookin' down on creation",
+          "promptZh": "我彷彿站在世界之巔，俯瞰世間萬物"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-9",
+          "answer": "lookin' down",
+          "options": [
+            "looking around",
+            "looking up",
+            "lookin' down"
+          ],
+          "prompt": "I'm on the top of the world {{blank}} on creation",
+          "promptZh": "我彷彿站在世界之巔，俯瞰世間萬物"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-9",
+          "answer": "creation",
+          "options": [
+            "the ocean",
+            "the nation",
+            "creation"
+          ],
+          "prompt": "I'm on the top of the world lookin' down on {{blank}}",
+          "promptZh": "我彷彿站在世界之巔，俯瞰世間萬物"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-10",
+          "answer": "only explanation",
+          "options": [
+            "only explanation",
+            "simple explanation",
+            "only expectation"
+          ],
+          "prompt": "And the {{blank}} I can find",
+          "promptZh": "而我所能找到的唯一解釋"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-10",
+          "answer": "I can find",
+          "options": [
+            "I could find",
+            "I can find",
+            "you can find"
+          ],
+          "prompt": "And the only explanation {{blank}}",
+          "promptZh": "而我所能找到的唯一解釋"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-11",
+          "answer": "love that I've found",
+          "options": [
+            "love that I've known",
+            "love that I've found",
+            "hope that I've found"
+          ],
+          "prompt": "Is the {{blank}} ever since you've been around",
+          "promptZh": "就是自從有你相伴以來，我所尋得的這份愛"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-11",
+          "answer": "ever since",
+          "options": [
+            "even when",
+            "ever after",
+            "ever since"
+          ],
+          "prompt": "Is the love that I've found {{blank}} you've been around",
+          "promptZh": "就是自從有你相伴以來，我所尋得的這份愛"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-11",
+          "answer": "you've been around",
+          "options": [
+            "you've been around",
+            "you've been away",
+            "you've come around"
+          ],
+          "prompt": "Is the love that I've found ever since {{blank}}",
+          "promptZh": "就是自從有你相伴以來，我所尋得的這份愛"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-12",
+          "answer": "Your love's put me",
+          "options": [
+            "Your love has found me",
+            "Your love's put me",
+            "Your smile puts me"
+          ],
+          "prompt": "{{blank}} at the top of the world",
+          "promptZh": "是你的愛，讓我彷彿置身世界之巔"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-12",
+          "answer": "top of the world",
+          "options": [
+            "top of the world",
+            "heart of the world",
+            "top of the hill"
+          ],
+          "prompt": "Your love's put me at the {{blank}}",
+          "promptZh": "是你的愛，讓我彷彿置身世界之巔"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-13",
+          "answer": "Somethin'",
+          "options": [
+            "Somethin'",
+            "Someone",
+            "Nothing"
+          ],
+          "prompt": "{{blank}} in the wind has learned my name",
+          "promptZh": "風中彷彿有什麼，已悄悄記住了我的名字"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-13",
+          "answer": "in the wind",
+          "options": [
+            "in the rain",
+            "in the wind",
+            "on the wind"
+          ],
+          "prompt": "Somethin' {{blank}} has learned my name",
+          "promptZh": "風中彷彿有什麼，已悄悄記住了我的名字"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-13",
+          "answer": "learned my name",
+          "options": [
+            "heard my name",
+            "called my name",
+            "learned my name"
+          ],
+          "prompt": "Somethin' in the wind has {{blank}}",
+          "promptZh": "風中彷彿有什麼，已悄悄記住了我的名字"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-14",
+          "answer": "tellin' me",
+          "options": [
+            "tellin' me",
+            "calling me",
+            "telling you"
+          ],
+          "prompt": "And it's {{blank}} that things are not the same",
+          "promptZh": "它正輕聲告訴我，一切都已不同於往昔"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-14",
+          "answer": "not the same",
+          "options": [
+            "just the same",
+            "not to blame",
+            "not the same"
+          ],
+          "prompt": "And it's tellin' me that things are {{blank}}",
+          "promptZh": "它正輕聲告訴我，一切都已不同於往昔"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-15",
+          "answer": "leaves on the trees",
+          "options": [
+            "birds in the trees",
+            "leaves in the breeze",
+            "leaves on the trees"
+          ],
+          "prompt": "In the {{blank}} and the touch of the breeze",
+          "promptZh": "在枝頭的片片綠葉間，在微風輕柔的觸碰裡"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-15",
+          "answer": "touch of the breeze",
+          "options": [
+            "rush of the breeze",
+            "touch of the breeze",
+            "touch of the wind"
+          ],
+          "prompt": "In the leaves on the trees and the {{blank}}",
+          "promptZh": "在枝頭的片片綠葉間，在微風輕柔的觸碰裡"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-16",
+          "answer": "pleasin' sense",
+          "options": [
+            "peaceful sense",
+            "pleasin' sense",
+            "pleasing sound"
+          ],
+          "prompt": "There's a {{blank}} of happiness for me",
+          "promptZh": "我感受到一份令人心曠神怡的幸福"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-16",
+          "answer": "happiness",
+          "options": [
+            "tenderness",
+            "loneliness",
+            "happiness"
+          ],
+          "prompt": "There's a pleasin' sense of {{blank}} for me",
+          "promptZh": "我感受到一份令人心曠神怡的幸福"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-17",
+          "answer": "only one wish",
+          "options": [
+            "only one wish",
+            "only one thing",
+            "just one wish"
+          ],
+          "prompt": "There is {{blank}} on my mind",
+          "promptZh": "此刻，我心中只有一個願望"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-17",
+          "answer": "on my mind",
+          "options": [
+            "on my mind",
+            "in my mind",
+            "on my side"
+          ],
+          "prompt": "There is only one wish {{blank}}",
+          "promptZh": "此刻，我心中只有一個願望"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-18",
+          "answer": "this day is through",
+          "options": [
+            "this night is through",
+            "this day is new",
+            "this day is through"
+          ],
+          "prompt": "When {{blank}} I hope that I will find",
+          "promptZh": "當今天悄然結束，我盼望自己能夠發現"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-18",
+          "answer": "I hope that I will find",
+          "options": [
+            "I hope that I will find",
+            "I know that I will find",
+            "I hope that you will find"
+          ],
+          "prompt": "When this day is through {{blank}}",
+          "promptZh": "當今天悄然結束，我盼望自己能夠發現"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-19",
+          "answer": "tomorrow",
+          "options": [
+            "today",
+            "tomorrow",
+            "forever"
+          ],
+          "prompt": "That {{blank}} will be just the same for you and me",
+          "promptZh": "明天對你我而言，依然能像今天一樣美好"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-19",
+          "answer": "just the same",
+          "options": [
+            "not the same",
+            "just the same",
+            "much the same"
+          ],
+          "prompt": "That tomorrow will be {{blank}} for you and me",
+          "promptZh": "明天對你我而言，依然能像今天一樣美好"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-19",
+          "answer": "you and me",
+          "options": [
+            "you and I",
+            "me and you",
+            "you and me"
+          ],
+          "prompt": "That tomorrow will be just the same for {{blank}}",
+          "promptZh": "明天對你我而言，依然能像今天一樣美好"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-20",
+          "answer": "All I need",
+          "options": [
+            "All I need",
+            "All I want",
+            "All I see"
+          ],
+          "prompt": "{{blank}} will be mine if you are here",
+          "promptZh": "只要你在我身邊，我便擁有了所需要的一切"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-20",
+          "answer": "will be mine",
+          "options": [
+            "will be mine",
+            "will be fine",
+            "can be mine"
+          ],
+          "prompt": "All I need {{blank}} if you are here",
+          "promptZh": "只要你在我身邊，我便擁有了所需要的一切"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-20",
+          "answer": "if you are here",
+          "options": [
+            "if you stay near",
+            "when you are here",
+            "if you are here"
+          ],
+          "prompt": "All I need will be mine {{blank}}",
+          "promptZh": "只要你在我身邊，我便擁有了所需要的一切"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-21",
+          "answer": "lookin' down",
+          "options": [
+            "looking up",
+            "looking around",
+            "lookin' down"
+          ],
+          "prompt": "I'm on the top of the world {{blank}} on creation",
+          "promptZh": "我彷彿站在世界之巔，俯瞰世間萬物"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-22",
+          "answer": "explanation",
+          "options": [
+            "explanation",
+            "expectation",
+            "inspiration"
+          ],
+          "prompt": "And the only {{blank}} I can find",
+          "promptZh": "而我所能找到的唯一解釋"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-23",
+          "answer": "love that I've found",
+          "options": [
+            "love that I've found",
+            "love that I lost",
+            "hope that I've found"
+          ],
+          "prompt": "Is the {{blank}} ever since you've been around",
+          "promptZh": "就是自從有你相伴以來，我所尋得的這份愛"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-24",
+          "answer": "Your love's put me",
+          "options": [
+            "Your love's brought me",
+            "Your love's put me",
+            "Your love has left me"
+          ],
+          "prompt": "{{blank}} at the top of the world",
+          "promptZh": "是你的愛，讓我彷彿置身世界之巔"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-25",
+          "answer": "top of the world",
+          "options": [
+            "top of the hill",
+            "top of the world",
+            "end of the world"
+          ],
+          "prompt": "I'm on the {{blank}} lookin' down on creation",
+          "promptZh": "我彷彿站在世界之巔，俯瞰世間萬物"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Such a {{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "There is {{q:3}} in {{q:4}} I see"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}} in the sky, got the {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "And I won't be {{q:7}} {{q:8}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:9}} {{q:10}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Is now {{q:11}} {{q:12}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And the {{q:13}}, it's because {{q:14}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "You're the {{q:15}} to {{q:16}} that I've seen"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I'm on the {{q:17}} {{q:18}} on {{q:19}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And the {{q:20}} {{q:21}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Is the {{q:22}} {{q:23}} {{q:24}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:25}} at the {{q:26}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:27}} {{q:28}} has {{q:29}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And it's {{q:30}} that things are {{q:31}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "In the {{q:32}} and the {{q:33}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "There's a {{q:34}} of {{q:35}} for me"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "There is {{q:36}} {{q:37}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "When {{q:38}} {{q:39}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "That {{q:40}} will be {{q:41}} for {{q:42}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:43}} {{q:44}} {{q:45}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I'm on the top of the world {{q:46}} on creation"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "And the only {{q:47}} I can find"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Is the {{q:48}} ever since you've been around"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:49}} at the top of the world"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I'm on the {{q:50}} lookin' down on creation"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "And the only explanation I can find"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Is the love that I've found ever since you've been around"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Your love's put me at the top of the world"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Top Of The World · Listening & Vocabulary",
+  "description": "《Top of the World》描寫一份因愛情而產生的幸福、喜悅與滿足感。歌中的主角因為心愛的人陪伴在身旁，感覺整個世界都變得美好，彷彿置身於世界之巔。原本平凡的陽光、微風與樹葉，如今都充滿奇妙與驚喜，讓她感受到前所未有的快樂。她將愛人比喻為最接近天堂的存在，因為對方的愛讓生活變得更加明亮而有意義。她唯一的願望，就是希望這份幸福能夠一直延續。最終，《Top of the World》傳達的是愛情中的感恩、喜悅與珍惜：真正的幸福不一定來自財富或成就，而是有心愛的人陪伴，讓每個平凡的日子都變得特別而美好。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Come over someone",
+      "meaning": "（感覺）突然湧上心頭",
+      "usage": "當開心、害怕、難過等感覺突然出現時使用。常說 a feeling came over me。",
+      "prompt": "哪一句正確使用這個單字／片語？",
+      "options": [
+        "My breakfast came over me, so I ate it with a spoon.",
+        "The bus came over me at eight, so I got on.",
+        "A happy feeling came over me when I saw my old friend.",
+        "I came over me to the shop to buy milk."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤；早餐不是一種湧上心頭的感覺，應說 I ate my breakfast。",
+        "錯誤；公車抵達要說 The bus arrived，不用 come over me。",
+        "正確；看到老朋友時，開心的感覺突然湧上心頭。",
+        "錯誤；去商店可以說 I went to the shop；come over me 不能這樣用。"
+      ],
+      "explanation": "正確；看到老朋友時，開心的感覺突然湧上心頭。"
+    },
+    {
+      "number": 2,
+      "word": "Wonder",
+      "meaning": "驚奇、奇妙；也可作動詞「想知道」",
+      "usage": "名詞 wonder 可以表示讓人驚喜的奇妙之處；動詞 I wonder 表示想知道。",
+      "prompt": "哪一句正確使用這個單字／片語？",
+      "options": [
+        "I wonder my shoes every day before school.",
+        "She wonders the door when she leaves home.",
+        "I wonder why my cat sleeps in my bag.",
+        "We wonder our dinner in the kitchen."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤；穿鞋要說 I put on my shoes，wonder 不能當作「穿」。",
+        "錯誤；關門要用 closes the door，不是 wonders the door。",
+        "正確；I wonder why 用來表示「我想知道為什麼」。",
+        "錯誤；煮晚餐可以說 We cook dinner，wonder 不是「煮」。"
+      ],
+      "explanation": "正確；I wonder why 用來表示「我想知道為什麼」。"
+    },
+    {
+      "number": 3,
+      "word": "Be surprised",
+      "meaning": "感到驚訝",
+      "usage": "發生出乎意料的事情時，可以說 be surprised；常接 at、by 或 if。",
+      "prompt": "哪一句正確使用這個單字／片語？",
+      "options": [
+        "I was surprised when my little brother made breakfast for me.",
+        "I am surprised my homework with a blue pen.",
+        "She is surprised to the library every Monday.",
+        "They are surprised the football across the park."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確；弟弟幫忙做早餐是意料外的事情，所以感到驚訝。",
+        "錯誤；寫作業要說 I do my homework，surprised 不是「寫」。",
+        "錯誤；去圖書館要說 She goes to the library。",
+        "錯誤；踢足球要用 kick，不能用 surprised 當動作。"
+      ],
+      "explanation": "正確；弟弟幫忙做早餐是意料外的事情，所以感到驚訝。"
+    },
+    {
+      "number": 4,
+      "word": "Come true",
+      "meaning": "（夢想、願望）成真",
+      "usage": "當願望或夢想真的實現時，常說 a dream comes true。",
+      "prompt": "哪一句正確使用這個單字／片語？",
+      "options": [
+        "My sandwich came true because I put it in the fridge.",
+        "My dream of visiting Japan came true last year.",
+        "I come true to school by bike every morning.",
+        "The teacher came true the window after class."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤；三明治不會「夢想成真」，應說 I put my sandwich in the fridge。",
+        "正確；去日本旅行的夢想去年實現了。",
+        "錯誤；騎車上學要說 I go to school by bike。",
+        "錯誤；關窗要說 closed the window，不能說 came true the window。"
+      ],
+      "explanation": "正確；去日本旅行的夢想去年實現了。"
+    },
+    {
+      "number": 5,
+      "word": "Especially",
+      "meaning": "尤其、特別是",
+      "usage": "當你想強調許多人或事物當中的某一個時使用。",
+      "prompt": "哪一句正確使用這個單字／片語？",
+      "options": [
+        "I like fruit, especially apples.",
+        "I especially my bike to school every day.",
+        "My dog is an especially under the table.",
+        "Please especially the door before you leave."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確；在水果中，特別強調自己喜歡蘋果。",
+        "錯誤；especially 是副詞，不能直接當「騎」的動詞使用。",
+        "錯誤；especially 不是名詞，不能說 an especially。",
+        "錯誤；especially 不是「關上」，應說 Please close the door。"
+      ],
+      "explanation": "正確；在水果中，特別強調自己喜歡蘋果。"
+    },
+    {
+      "number": 6,
+      "word": "On top of the world",
+      "meaning": "開心極了、幸福得不得了",
+      "usage": "當你非常開心、興奮或滿足時，可以用這個片語，不是真的站在世界頂端。",
+      "prompt": "哪一句正確使用這個單字／片語？",
+      "options": [
+        "I am on top of the world because I cannot find my homework.",
+        "I put my sandwich on top of the world in the fridge.",
+        "The bus is on top of the world at six o’clock.",
+        "I felt on top of the world when I passed my driving test."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤；找不到作業通常不是極度開心的事情，不符合這個片語的意思。",
+        "錯誤；描述位置應說 on the top shelf，這裡不能用這個表示快樂的慣用語。",
+        "錯誤；這個片語描述人的開心心情，不表示公車到站時間。",
+        "正確；通過駕照考試讓人非常高興。"
+      ],
+      "explanation": "正確；通過駕照考試讓人非常高興。"
+    },
+    {
+      "number": 7,
+      "word": "Ever since",
+      "meaning": "自從……以後一直",
+      "usage": "用來表示某件事從過去一個時間點開始，一直持續到現在。",
+      "prompt": "哪一句正確使用這個單字／片語？",
+      "options": [
+        "I have loved this song ever since I first heard it.",
+        "I ever since my lunch at twelve every day.",
+        "She is ever since tall than her brother.",
+        "Ever since is sleeping under my bed tonight."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確；從第一次聽到這首歌開始，就一直喜歡它。",
+        "錯誤；ever since 不是「吃」，應說 I eat lunch at twelve。",
+        "錯誤；比較身高要用 taller，ever since 不能取代比較級。",
+        "錯誤；ever since 不是人或動物，不能當作睡在床下的主詞。"
+      ],
+      "explanation": "正確；從第一次聽到這首歌開始，就一直喜歡它。"
+    },
+    {
+      "number": 8,
+      "word": "Breeze",
+      "meaning": "微風",
+      "usage": "形容輕輕吹過、不太強的風，常用於天氣或戶外活動。",
+      "prompt": "哪一句正確使用這個單字／片語？",
+      "options": [
+        "My breeze is hungry and wants pizza.",
+        "A cool breeze came through the open window.",
+        "I wore a breeze on my feet because it was cold.",
+        "Please put two breezes in my tea."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤；breeze 是微風，不會肚子餓或想吃披薩。",
+        "正確；清涼的微風從開著的窗戶吹進來。",
+        "錯誤；穿在腳上的應是 shoes 或 socks，不是 breeze。",
+        "錯誤；breeze 不是能放進茶裡的食物或飲料。"
+      ],
+      "explanation": "正確；清涼的微風從開著的窗戶吹進來。"
+    },
+    {
+      "number": 9,
+      "word": "On my mind",
+      "meaning": "在心裡惦記著、一直想著",
+      "usage": "當某個人或某件事一直讓你想到、放在心上時使用。",
+      "prompt": "哪一句正確使用這個單字／片語？",
+      "options": [
+        "I put my shoes on my mind before going out.",
+        "My English test is on my mind because it is tomorrow.",
+        "The orange is on my mind, next to the milk in the fridge.",
+        "I on my mind to school at seven."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤；鞋子要穿在腳上，應說 I put on my shoes。",
+        "正確；明天要考英文，所以一直想著這件事。",
+        "錯誤；若是描述實際位置，應說 on the shelf 等，不用 on my mind。",
+        "錯誤；on my mind 不能當作「去」的動詞，應說 I go to school。"
+      ],
+      "explanation": "正確；明天要考英文，所以一直想著這件事。"
+    },
+    {
+      "number": 10,
+      "word": "Be through",
+      "meaning": "結束、完成",
+      "usage": "說某件事結束了，常用 be through；例如 when the day is through 表示一天結束時。",
+      "prompt": "哪一句正確使用這個單字／片語？",
+      "options": [
+        "I am through my orange with a knife every morning.",
+        "The dog is through hungry and wants dinner.",
+        "She through the piano at six every day.",
+        "When the film is through, we can go home."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤；切柳橙應說 I cut my orange，be through 不是「切」。",
+        "錯誤；through 不是 very，不能用來表示「非常餓」。",
+        "錯誤；彈鋼琴要說 She plays the piano。",
+        "正確；電影結束後，我們就可以回家。"
+      ],
+      "explanation": "正確；電影結束後，我們就可以回家。"
+    }
+  ],
+  "tags": [
+    "carpenters",
+    "top of the world",
+    "love",
+    "joy"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/top-of-the-world/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/top-of-the-world/user-cover-20261030.png",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 178.5733125,
+    "audioSha256": "7dbbdcd25f1ba07ecf1a16ace4cff16c7f47114b4f818b2ee5601e520b7610f0",
+    "timedLines": 28,
+    "untimedLines": 0,
+    "reviewStatus": "Conservative automatic cues; uncertain background or unmatched lines remain visible without guessed timing."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Top Of The World_.pdf",
+      "sha256": "bcfe1874fdb5d45933a3f6a059f65b1ad9ae9dc7392dc435aa9f11de2e8c849e"
+    },
+    "chosenListening": {
+      "filename": "Top_Of_The_World_Four_Level_Listening_Exercise.docx",
+      "sha256": "07979792f13731852a50ed2c35753e8869ce285f1c02303475a33b41f6b44f49"
+    },
+    "chosenVocabulary": {
+      "filename": "Top_Of_The_World_Vocabulary_Quiz.md",
+      "sha256": "477bd2c53fe23cac965cabcaef2ed6d01e63cf69d098079f9178306afbf774a1"
+    },
+    "audio": {
+      "filename": "Top Of The World [vupwAFMXLkA].mp3",
+      "sha256": "7dbbdcd25f1ba07ecf1a16ace4cff16c7f47114b4f818b2ee5601e520b7610f0"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-b3c1f203-97a4-4f79-9d3f-14c00d226d62.png",
+    "sha256": "25eb7b1ccd858e0c49dbf6f50ee61ec606b1c345649070aca17a99361f49146c",
+    "transformations": "none"
+  }
+}

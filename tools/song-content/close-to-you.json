@@ -1,0 +1,2950 @@
+{
+  "slug": "close-to-you",
+  "title": "Close To You",
+  "singer": "Carpenters",
+  "translations": [
+    {
+      "english": "Why do birds suddenly appear",
+      "chinese": "為何鳥兒總會突然出現",
+      "lineId": "line-1",
+      "startSeconds": 8.76,
+      "endSeconds": 14.98
+    },
+    {
+      "english": "Every time you are near?",
+      "chinese": "每當你來到身邊？",
+      "lineId": "line-2",
+      "startSeconds": 14.98,
+      "endSeconds": 19.96
+    },
+    {
+      "english": "Just like me,",
+      "chinese": "就像我一樣，",
+      "lineId": "line-3",
+      "startSeconds": 19.96,
+      "endSeconds": 23.52
+    },
+    {
+      "english": "They long to be",
+      "chinese": "牠們也渴望",
+      "lineId": "line-4",
+      "startSeconds": 24.76,
+      "endSeconds": 26.78
+    },
+    {
+      "english": "Close to you.",
+      "chinese": "與你親近。",
+      "lineId": "line-5",
+      "startSeconds": 26.78,
+      "endSeconds": 30.08
+    },
+    {
+      "english": "Why do stars fall down from the sky",
+      "chinese": "為何星辰會從天際墜落",
+      "lineId": "line-6",
+      "startSeconds": 30.96,
+      "endSeconds": 36.74
+    },
+    {
+      "english": "Every time you walk by?",
+      "chinese": "每當你從身旁走過？",
+      "lineId": "line-7",
+      "startSeconds": 37.7,
+      "endSeconds": 42.22
+    },
+    {
+      "english": "Just like me,",
+      "chinese": "就像我一樣，",
+      "lineId": "line-8",
+      "startSeconds": 42.96,
+      "endSeconds": 45.62
+    },
+    {
+      "english": "They long to be",
+      "chinese": "它們也渴望",
+      "lineId": "line-9",
+      "startSeconds": 46.16,
+      "endSeconds": 48.5
+    },
+    {
+      "english": "Close to you.",
+      "chinese": "與你親近。",
+      "lineId": "line-10",
+      "startSeconds": 48.5,
+      "endSeconds": 51.38
+    },
+    {
+      "english": "On the day that you were born the angels got together",
+      "chinese": "在你誕生的那一天，天使們齊聚一堂",
+      "lineId": "line-11",
+      "startSeconds": 54.42,
+      "endSeconds": 59.16
+    },
+    {
+      "english": "And decided to create a dream come true.",
+      "chinese": "決定讓一個美夢化為現實。",
+      "lineId": "line-12",
+      "startSeconds": 59.16,
+      "endSeconds": 63.62
+    },
+    {
+      "english": "So, they sprinkled moon dust in your hair of gold",
+      "chinese": "於是，祂們將月光的微塵，輕輕灑進你金色的髮絲",
+      "lineId": "line-13",
+      "startSeconds": 64.5,
+      "endSeconds": 68.48
+    },
+    {
+      "english": "And star light in your eyes of blue.",
+      "chinese": "又將璀璨的星光，點綴在你湛藍的眼眸裡。",
+      "lineId": "line-14"
+    },
+    {
+      "english": "That is why all the girls in town",
+      "chinese": "這就是為何鎮上的女孩們",
+      "lineId": "line-15",
+      "startSeconds": 73.64,
+      "endSeconds": 80.16
+    },
+    {
+      "english": "Follow you all around.",
+      "chinese": "總是追隨著你的身影。",
+      "lineId": "line-16",
+      "startSeconds": 80.16,
+      "endSeconds": 85.58
+    },
+    {
+      "english": "Just like me,",
+      "chinese": "就像我一樣，",
+      "lineId": "line-17",
+      "startSeconds": 86.44,
+      "endSeconds": 88.62
+    },
+    {
+      "english": "They long to be",
+      "chinese": "她們也渴望",
+      "lineId": "line-18",
+      "startSeconds": 88.62,
+      "endSeconds": 91.76
+    },
+    {
+      "english": "Close to you.",
+      "chinese": "與你親近。",
+      "lineId": "line-19",
+      "startSeconds": 91.76,
+      "endSeconds": 93.82
+    },
+    {
+      "english": "On the day that you were born the angels got together",
+      "chinese": "在你誕生的那一天，天使們齊聚一堂",
+      "lineId": "line-20",
+      "startSeconds": 118.6,
+      "endSeconds": 123.8
+    },
+    {
+      "english": "And decided to create a dream come true.",
+      "chinese": "決定讓一個美夢化為現實。",
+      "lineId": "line-21",
+      "startSeconds": 123.8,
+      "endSeconds": 128.32
+    },
+    {
+      "english": "So, they sprinkled moon dust in your hair of gold",
+      "chinese": "於是，祂們將月光的微塵，輕輕灑進你金色的髮絲",
+      "lineId": "line-22",
+      "startSeconds": 128.32,
+      "endSeconds": 133.18
+    },
+    {
+      "english": "And star light in your eyes of blue.",
+      "chinese": "又將璀璨的星光，點綴在你湛藍的眼眸裡。",
+      "lineId": "line-23"
+    },
+    {
+      "english": "That is why all the girls in town",
+      "chinese": "這就是為何鎮上的女孩們",
+      "lineId": "line-24",
+      "startSeconds": 138.44,
+      "endSeconds": 144.72
+    },
+    {
+      "english": "Follow you all around.",
+      "chinese": "總是追隨著你的身影。",
+      "lineId": "line-25",
+      "startSeconds": 144.72,
+      "endSeconds": 149.86
+    },
+    {
+      "english": "Just like me,",
+      "chinese": "就像我一樣，",
+      "lineId": "line-26",
+      "startSeconds": 149.86,
+      "endSeconds": 153.28
+    },
+    {
+      "english": "They long to be",
+      "chinese": "她們也渴望",
+      "lineId": "line-27",
+      "startSeconds": 154.5,
+      "endSeconds": 156.3
+    },
+    {
+      "english": "Close to you.",
+      "chinese": "與你親近。",
+      "lineId": "line-28",
+      "startSeconds": 156.3,
+      "endSeconds": 159.0
+    },
+    {
+      "english": "Just like me,",
+      "chinese": "就像我一樣，",
+      "lineId": "line-29",
+      "startSeconds": 161.7,
+      "endSeconds": 163.62
+    },
+    {
+      "english": "They long to be",
+      "chinese": "她們也渴望",
+      "lineId": "line-30",
+      "startSeconds": 163.72,
+      "endSeconds": 168.34
+    },
+    {
+      "english": "Close to you.",
+      "chinese": "與你親近。",
+      "lineId": "line-31",
+      "startSeconds": 168.34,
+      "endSeconds": 171.58
+    },
+    {
+      "english": "Why? Close to you",
+      "chinese": "為什麼？只因想與你親近",
+      "lineId": "line-32",
+      "startSeconds": 179.72,
+      "endSeconds": 187.0
+    },
+    {
+      "english": "Why? Close to you",
+      "chinese": "為什麼？只因想與你親近",
+      "lineId": "line-33",
+      "startSeconds": 190.6,
+      "endSeconds": 197.92
+    },
+    {
+      "english": "Ha, close to you",
+      "chinese": "啊，與你親近",
+      "lineId": "line-34",
+      "startSeconds": 206.68,
+      "endSeconds": 208.68
+    },
+    {
+      "english": "Why? Close to you",
+      "chinese": "為什麼？只因想與你親近",
+      "lineId": "line-35",
+      "startSeconds": 216.06,
+      "endSeconds": 219.5
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "suddenly",
+          "options": [
+            "suddenly",
+            "silently",
+            "softly"
+          ],
+          "prompt": "Why do birds {{blank}} appear",
+          "promptZh": "為何鳥兒總會突然出現"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "appear",
+          "options": [
+            "appear",
+            "disappear",
+            "come near"
+          ],
+          "prompt": "Why do birds suddenly {{blank}}",
+          "promptZh": "為何鳥兒總會突然出現"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "Every time",
+          "options": [
+            "Any time",
+            "Every time",
+            "The next time"
+          ],
+          "prompt": "{{blank}} you are near?",
+          "promptZh": "每當你來到身邊？"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-3",
+          "answer": "Just like me",
+          "options": [
+            "Unlike me",
+            "Just for me",
+            "Just like me"
+          ],
+          "prompt": "{{blank}},",
+          "promptZh": "就像我一樣，"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "Close to you",
+          "options": [
+            "Close to you",
+            "Next to you",
+            "Far from you"
+          ],
+          "prompt": "{{blank}}.",
+          "promptZh": "與你親近。"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "stars",
+          "options": [
+            "clouds",
+            "stars",
+            "sparks"
+          ],
+          "prompt": "Why do {{blank}} fall down from the sky",
+          "promptZh": "為何星辰會從天際墜落"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-6",
+          "answer": "fall down",
+          "options": [
+            "shine down",
+            "come down",
+            "fall down"
+          ],
+          "prompt": "Why do stars {{blank}} from the sky",
+          "promptZh": "為何星辰會從天際墜落"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-7",
+          "answer": "walk by",
+          "options": [
+            "pass by",
+            "walk away",
+            "walk by"
+          ],
+          "prompt": "Every time you {{blank}}?",
+          "promptZh": "每當你從身旁走過？"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "long to be",
+          "options": [
+            "love to stay",
+            "long to be",
+            "want to be"
+          ],
+          "prompt": "They {{blank}}",
+          "promptZh": "它們也渴望"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-11",
+          "answer": "On the day",
+          "options": [
+            "On the day",
+            "On the night",
+            "From the day"
+          ],
+          "prompt": "{{blank}} that you were born the angels got together",
+          "promptZh": "在你誕生的那一天，天使們齊聚一堂"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-12",
+          "answer": "decided to create",
+          "options": [
+            "wanted to create",
+            "decided to create",
+            "decided to make"
+          ],
+          "prompt": "And {{blank}} a dream come true.",
+          "promptZh": "決定讓一個美夢化為現實。"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-13",
+          "answer": "sprinkled",
+          "options": [
+            "sprinkled",
+            "scattered",
+            "sparkled"
+          ],
+          "prompt": "So, they {{blank}} moon dust in your hair of gold",
+          "promptZh": "於是，祂們將月光的微塵，輕輕灑進你金色的髮絲"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "moon dust",
+          "options": [
+            "star dust",
+            "moon dust",
+            "gold dust"
+          ],
+          "prompt": "So, they sprinkled {{blank}} in your hair of gold",
+          "promptZh": "於是，祂們將月光的微塵，輕輕灑進你金色的髮絲"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "star light",
+          "options": [
+            "moon light",
+            "sun light",
+            "star light"
+          ],
+          "prompt": "And {{blank}} in your eyes of blue.",
+          "promptZh": "又將璀璨的星光，點綴在你湛藍的眼眸裡。"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "all the girls",
+          "options": [
+            "all the girls",
+            "all the boys",
+            "all the people"
+          ],
+          "prompt": "That is why {{blank}} in town",
+          "promptZh": "這就是為何鎮上的女孩們"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "Follow you",
+          "options": [
+            "Follow you",
+            "Call for you",
+            "Wait for you"
+          ],
+          "prompt": "{{blank}} all around.",
+          "promptZh": "總是追隨著你的身影。"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "They long to be",
+          "options": [
+            "They want to see",
+            "They love to be",
+            "They long to be"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "她們也渴望"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-20",
+          "answer": "angels got together",
+          "options": [
+            "angels came together",
+            "angels got together",
+            "angels sang together"
+          ],
+          "prompt": "On the day that you were born the {{blank}}",
+          "promptZh": "在你誕生的那一天，天使們齊聚一堂"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-21",
+          "answer": "a dream come true",
+          "options": [
+            "a wish come true",
+            "a dream come true",
+            "a dream for two"
+          ],
+          "prompt": "And decided to create {{blank}}.",
+          "promptZh": "決定讓一個美夢化為現實。"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-23",
+          "answer": "eyes of blue",
+          "options": [
+            "eyes of gold",
+            "eyes of green",
+            "eyes of blue"
+          ],
+          "prompt": "And star light in your {{blank}}.",
+          "promptZh": "又將璀璨的星光，點綴在你湛藍的眼眸裡。"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Why do birds {{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} you are near?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:4}},"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "They long to be"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}}."
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Why do {{q:6}} {{q:7}} from the sky"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Every time you {{q:8}}?"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Just like me,"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "They {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Close to you."
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:10}} that you were born the angels got together"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And {{q:11}} a dream come true."
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "So, they {{q:12}} {{q:13}} in your hair of gold"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And {{q:14}} in your eyes of blue."
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "That is why {{q:15}} in town"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:16}} all around."
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Just like me,"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Close to you."
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "On the day that you were born the {{q:18}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And decided to create {{q:19}}."
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "So, they sprinkled moon dust in your hair of gold"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And star light in your {{q:20}}."
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "That is why all the girls in town"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Follow you all around."
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Just like me,"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "They long to be"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Close to you."
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Just like me,"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "They long to be"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Close to you."
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Why? Close to you"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Why? Close to you"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Ha, close to you"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Why? Close to you"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "suddenly",
+          "options": [
+            "silently",
+            "suddenly",
+            "softly"
+          ],
+          "prompt": "Why do birds {{blank}} appear",
+          "promptZh": "為何鳥兒總會突然出現"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "appear",
+          "options": [
+            "appear",
+            "disappear",
+            "come near"
+          ],
+          "prompt": "Why do birds suddenly {{blank}}",
+          "promptZh": "為何鳥兒總會突然出現"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "Every time",
+          "options": [
+            "Any time",
+            "The next time",
+            "Every time"
+          ],
+          "prompt": "{{blank}} you are near?",
+          "promptZh": "每當你來到身邊？"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-3",
+          "answer": "Just like me",
+          "options": [
+            "Just like me",
+            "Unlike me",
+            "Just for me"
+          ],
+          "prompt": "{{blank}},",
+          "promptZh": "就像我一樣，"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-4",
+          "answer": "long to be",
+          "options": [
+            "want to stay",
+            "long to be",
+            "hope to be"
+          ],
+          "prompt": "They {{blank}}",
+          "promptZh": "牠們也渴望"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-5",
+          "answer": "Close to you",
+          "options": [
+            "Close to you",
+            "Next to you",
+            "Far from you"
+          ],
+          "prompt": "{{blank}}.",
+          "promptZh": "與你親近。"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-6",
+          "answer": "stars",
+          "options": [
+            "clouds",
+            "sparks",
+            "stars"
+          ],
+          "prompt": "Why do {{blank}} fall down from the sky",
+          "promptZh": "為何星辰會從天際墜落"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-6",
+          "answer": "fall down",
+          "options": [
+            "shine down",
+            "fall down",
+            "come down"
+          ],
+          "prompt": "Why do stars {{blank}} from the sky",
+          "promptZh": "為何星辰會從天際墜落"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-7",
+          "answer": "walk by",
+          "options": [
+            "pass by",
+            "walk by",
+            "walk away"
+          ],
+          "prompt": "Every time you {{blank}}?",
+          "promptZh": "每當你從身旁走過？"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-9",
+          "answer": "long to be",
+          "options": [
+            "long to be",
+            "love to stay",
+            "want to be"
+          ],
+          "prompt": "They {{blank}}",
+          "promptZh": "它們也渴望"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-10",
+          "answer": "Close to you",
+          "options": [
+            "Close to you",
+            "Near to you",
+            "Far from you"
+          ],
+          "prompt": "{{blank}}.",
+          "promptZh": "與你親近。"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-11",
+          "answer": "On the day",
+          "options": [
+            "On the night",
+            "From the day",
+            "On the day"
+          ],
+          "prompt": "{{blank}} that you were born the angels got together",
+          "promptZh": "在你誕生的那一天，天使們齊聚一堂"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-11",
+          "answer": "you were born",
+          "options": [
+            "you were young",
+            "we were born",
+            "you were born"
+          ],
+          "prompt": "On the day that {{blank}} the angels got together",
+          "promptZh": "在你誕生的那一天，天使們齊聚一堂"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-11",
+          "answer": "angels got together",
+          "options": [
+            "angels got together",
+            "angels sang together",
+            "people got together"
+          ],
+          "prompt": "On the day that you were born the {{blank}}",
+          "promptZh": "在你誕生的那一天，天使們齊聚一堂"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-12",
+          "answer": "decided to create",
+          "options": [
+            "wanted to create",
+            "decided to make",
+            "decided to create"
+          ],
+          "prompt": "And {{blank}} a dream come true.",
+          "promptZh": "決定讓一個美夢化為現實。"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-12",
+          "answer": "a dream come true",
+          "options": [
+            "a wish come true",
+            "a dream for you",
+            "a dream come true"
+          ],
+          "prompt": "And decided to create {{blank}}.",
+          "promptZh": "決定讓一個美夢化為現實。"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-13",
+          "answer": "sprinkled",
+          "options": [
+            "sprinkled",
+            "scattered",
+            "sparkled"
+          ],
+          "prompt": "So, they {{blank}} moon dust in your hair of gold",
+          "promptZh": "於是，祂們將月光的微塵，輕輕灑進你金色的髮絲"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-13",
+          "answer": "moon dust",
+          "options": [
+            "star dust",
+            "moon dust",
+            "gold dust"
+          ],
+          "prompt": "So, they sprinkled {{blank}} in your hair of gold",
+          "promptZh": "於是，祂們將月光的微塵，輕輕灑進你金色的髮絲"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-14",
+          "answer": "star light",
+          "options": [
+            "moon light",
+            "star light",
+            "sun light"
+          ],
+          "prompt": "And {{blank}} in your eyes of blue.",
+          "promptZh": "又將璀璨的星光，點綴在你湛藍的眼眸裡。"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-14",
+          "answer": "eyes of blue",
+          "options": [
+            "eyes of green",
+            "skies of blue",
+            "eyes of blue"
+          ],
+          "prompt": "And star light in your {{blank}}.",
+          "promptZh": "又將璀璨的星光，點綴在你湛藍的眼眸裡。"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-15",
+          "answer": "all the girls",
+          "options": [
+            "all the boys",
+            "all the people",
+            "all the girls"
+          ],
+          "prompt": "That is why {{blank}} in town",
+          "promptZh": "這就是為何鎮上的女孩們"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-16",
+          "answer": "Follow you",
+          "options": [
+            "Call for you",
+            "Follow you",
+            "Wait for you"
+          ],
+          "prompt": "{{blank}} all around.",
+          "promptZh": "總是追隨著你的身影。"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-16",
+          "answer": "all around",
+          "options": [
+            "up and down",
+            "all the time",
+            "all around"
+          ],
+          "prompt": "Follow you {{blank}}.",
+          "promptZh": "總是追隨著你的身影。"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-18",
+          "answer": "They long to be",
+          "options": [
+            "They long to be",
+            "They want to see",
+            "They love to be"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "她們也渴望"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-19",
+          "answer": "Close to you",
+          "options": [
+            "Close to you",
+            "Close by you",
+            "Next to you"
+          ],
+          "prompt": "{{blank}}.",
+          "promptZh": "與你親近。"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-20",
+          "answer": "angels got together",
+          "options": [
+            "angels came together",
+            "angels got together",
+            "angels sang together"
+          ],
+          "prompt": "On the day that you were born the {{blank}}",
+          "promptZh": "在你誕生的那一天，天使們齊聚一堂"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-21",
+          "answer": "a dream come true",
+          "options": [
+            "a dream come true",
+            "a wish come true",
+            "a dream for two"
+          ],
+          "prompt": "And decided to create {{blank}}.",
+          "promptZh": "決定讓一個美夢化為現實。"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-22",
+          "answer": "moon dust",
+          "options": [
+            "star dust",
+            "moon dust",
+            "fine dust"
+          ],
+          "prompt": "So, they sprinkled {{blank}} in your hair of gold",
+          "promptZh": "於是，祂們將月光的微塵，輕輕灑進你金色的髮絲"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-23",
+          "answer": "eyes of blue",
+          "options": [
+            "eyes of gold",
+            "eyes of blue",
+            "eyes of green"
+          ],
+          "prompt": "And star light in your {{blank}}.",
+          "promptZh": "又將璀璨的星光，點綴在你湛藍的眼眸裡。"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-24",
+          "answer": "all the girls",
+          "options": [
+            "all the stars",
+            "all the boys",
+            "all the girls"
+          ],
+          "prompt": "That is why {{blank}} in town",
+          "promptZh": "這就是為何鎮上的女孩們"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-25",
+          "answer": "Follow you",
+          "options": [
+            "Follow me",
+            "Follow you",
+            "Call for you"
+          ],
+          "prompt": "{{blank}} all around.",
+          "promptZh": "總是追隨著你的身影。"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-27",
+          "answer": "long to be",
+          "options": [
+            "long to be",
+            "love to be",
+            "want to see"
+          ],
+          "prompt": "They {{blank}}",
+          "promptZh": "她們也渴望"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Why do birds {{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} you are near?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:4}},"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "They {{q:5}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:6}}."
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Why do {{q:7}} {{q:8}} from the sky"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Every time you {{q:9}}?"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Just like me,"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "They {{q:10}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:11}}."
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:12}} that {{q:13}} the {{q:14}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And {{q:15}} {{q:16}}."
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "So, they {{q:17}} {{q:18}} in your hair of gold"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And {{q:19}} in your {{q:20}}."
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "That is why {{q:21}} in town"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:22}} {{q:23}}."
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Just like me,"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:24}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:25}}."
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "On the day that you were born the {{q:26}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And decided to create {{q:27}}."
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "So, they sprinkled {{q:28}} in your hair of gold"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And star light in your {{q:29}}."
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "That is why {{q:30}} in town"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:31}} all around."
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Just like me,"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "They {{q:32}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Close to you."
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Just like me,"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "They long to be"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Close to you."
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Why? Close to you"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Why? Close to you"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Ha, close to you"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Why? Close to you"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "suddenly",
+          "options": [
+            "silently",
+            "softly",
+            "suddenly"
+          ],
+          "prompt": "Why do birds {{blank}} appear",
+          "promptZh": "為何鳥兒總會突然出現"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "appear",
+          "options": [
+            "disappear",
+            "appear",
+            "come near"
+          ],
+          "prompt": "Why do birds suddenly {{blank}}",
+          "promptZh": "為何鳥兒總會突然出現"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "Every time",
+          "options": [
+            "Any time",
+            "The next time",
+            "Every time"
+          ],
+          "prompt": "{{blank}} you are near?",
+          "promptZh": "每當你來到身邊？"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-2",
+          "answer": "near",
+          "options": [
+            "near",
+            "here",
+            "there"
+          ],
+          "prompt": "Every time you are {{blank}}?",
+          "promptZh": "每當你來到身邊？"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-3",
+          "answer": "Just like me",
+          "options": [
+            "Just like me",
+            "Unlike me",
+            "Just for me"
+          ],
+          "prompt": "{{blank}},",
+          "promptZh": "就像我一樣，"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-4",
+          "answer": "long to be",
+          "options": [
+            "want to stay",
+            "long to be",
+            "hope to be"
+          ],
+          "prompt": "They {{blank}}",
+          "promptZh": "牠們也渴望"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-5",
+          "answer": "Close to you",
+          "options": [
+            "Next to you",
+            "Far from you",
+            "Close to you"
+          ],
+          "prompt": "{{blank}}.",
+          "promptZh": "與你親近。"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-6",
+          "answer": "stars",
+          "options": [
+            "stars",
+            "clouds",
+            "sparks"
+          ],
+          "prompt": "Why do {{blank}} fall down from the sky",
+          "promptZh": "為何星辰會從天際墜落"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-6",
+          "answer": "fall down",
+          "options": [
+            "shine down",
+            "come down",
+            "fall down"
+          ],
+          "prompt": "Why do stars {{blank}} from the sky",
+          "promptZh": "為何星辰會從天際墜落"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-6",
+          "answer": "from the sky",
+          "options": [
+            "from the night",
+            "through the sky",
+            "from the sky"
+          ],
+          "prompt": "Why do stars fall down {{blank}}",
+          "promptZh": "為何星辰會從天際墜落"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-7",
+          "answer": "walk by",
+          "options": [
+            "walk by",
+            "pass by",
+            "walk away"
+          ],
+          "prompt": "Every time you {{blank}}?",
+          "promptZh": "每當你從身旁走過？"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-8",
+          "answer": "Just like me",
+          "options": [
+            "Just for me",
+            "Just like me",
+            "Unlike me"
+          ],
+          "prompt": "{{blank}},",
+          "promptZh": "就像我一樣，"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-9",
+          "answer": "long to be",
+          "options": [
+            "love to stay",
+            "want to be",
+            "long to be"
+          ],
+          "prompt": "They {{blank}}",
+          "promptZh": "它們也渴望"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-10",
+          "answer": "Close to you",
+          "options": [
+            "Near to you",
+            "Close to you",
+            "Far from you"
+          ],
+          "prompt": "{{blank}}.",
+          "promptZh": "與你親近。"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-11",
+          "answer": "On the day",
+          "options": [
+            "On the night",
+            "On the day",
+            "From the day"
+          ],
+          "prompt": "{{blank}} that you were born the angels got together",
+          "promptZh": "在你誕生的那一天，天使們齊聚一堂"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-11",
+          "answer": "you were born",
+          "options": [
+            "you were young",
+            "we were born",
+            "you were born"
+          ],
+          "prompt": "On the day that {{blank}} the angels got together",
+          "promptZh": "在你誕生的那一天，天使們齊聚一堂"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-11",
+          "answer": "angels got together",
+          "options": [
+            "angels sang together",
+            "people got together",
+            "angels got together"
+          ],
+          "prompt": "On the day that you were born the {{blank}}",
+          "promptZh": "在你誕生的那一天，天使們齊聚一堂"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-12",
+          "answer": "decided to create",
+          "options": [
+            "wanted to create",
+            "decided to create",
+            "decided to make"
+          ],
+          "prompt": "And {{blank}} a dream come true.",
+          "promptZh": "決定讓一個美夢化為現實。"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-12",
+          "answer": "a dream come true",
+          "options": [
+            "a dream come true",
+            "a wish come true",
+            "a dream for you"
+          ],
+          "prompt": "And decided to create {{blank}}.",
+          "promptZh": "決定讓一個美夢化為現實。"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-13",
+          "answer": "sprinkled",
+          "options": [
+            "scattered",
+            "sprinkled",
+            "sparkled"
+          ],
+          "prompt": "So, they {{blank}} moon dust in your hair of gold",
+          "promptZh": "於是，祂們將月光的微塵，輕輕灑進你金色的髮絲"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-13",
+          "answer": "moon dust",
+          "options": [
+            "star dust",
+            "moon dust",
+            "gold dust"
+          ],
+          "prompt": "So, they sprinkled {{blank}} in your hair of gold",
+          "promptZh": "於是，祂們將月光的微塵，輕輕灑進你金色的髮絲"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-13",
+          "answer": "hair of gold",
+          "options": [
+            "hair of gold",
+            "hair of brown",
+            "eyes of gold"
+          ],
+          "prompt": "So, they sprinkled moon dust in your {{blank}}",
+          "promptZh": "於是，祂們將月光的微塵，輕輕灑進你金色的髮絲"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-14",
+          "answer": "star light",
+          "options": [
+            "star light",
+            "moon light",
+            "sun light"
+          ],
+          "prompt": "And {{blank}} in your eyes of blue.",
+          "promptZh": "又將璀璨的星光，點綴在你湛藍的眼眸裡。"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-14",
+          "answer": "eyes of blue",
+          "options": [
+            "eyes of green",
+            "skies of blue",
+            "eyes of blue"
+          ],
+          "prompt": "And star light in your {{blank}}.",
+          "promptZh": "又將璀璨的星光，點綴在你湛藍的眼眸裡。"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-15",
+          "answer": "all the girls",
+          "options": [
+            "all the girls",
+            "all the boys",
+            "all the people"
+          ],
+          "prompt": "That is why {{blank}} in town",
+          "promptZh": "這就是為何鎮上的女孩們"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-16",
+          "answer": "Follow you",
+          "options": [
+            "Call for you",
+            "Follow you",
+            "Wait for you"
+          ],
+          "prompt": "{{blank}} all around.",
+          "promptZh": "總是追隨著你的身影。"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-16",
+          "answer": "all around",
+          "options": [
+            "all around",
+            "up and down",
+            "all the time"
+          ],
+          "prompt": "Follow you {{blank}}.",
+          "promptZh": "總是追隨著你的身影。"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-18",
+          "answer": "They long to be",
+          "options": [
+            "They want to see",
+            "They love to be",
+            "They long to be"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "她們也渴望"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-19",
+          "answer": "Close to you",
+          "options": [
+            "Close by you",
+            "Close to you",
+            "Next to you"
+          ],
+          "prompt": "{{blank}}.",
+          "promptZh": "與你親近。"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-20",
+          "answer": "On the day",
+          "options": [
+            "On the day",
+            "On that day",
+            "On the night"
+          ],
+          "prompt": "{{blank}} that you were born the angels got together",
+          "promptZh": "在你誕生的那一天，天使們齊聚一堂"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-20",
+          "answer": "angels got together",
+          "options": [
+            "angels came together",
+            "angels sang together",
+            "angels got together"
+          ],
+          "prompt": "On the day that you were born the {{blank}}",
+          "promptZh": "在你誕生的那一天，天使們齊聚一堂"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-21",
+          "answer": "decided to create",
+          "options": [
+            "decided to create",
+            "decided to believe",
+            "wanted to create"
+          ],
+          "prompt": "And {{blank}} a dream come true.",
+          "promptZh": "決定讓一個美夢化為現實。"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-21",
+          "answer": "a dream come true",
+          "options": [
+            "a wish come true",
+            "a dream come true",
+            "a dream for two"
+          ],
+          "prompt": "And decided to create {{blank}}.",
+          "promptZh": "決定讓一個美夢化為現實。"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-22",
+          "answer": "moon dust",
+          "options": [
+            "moon dust",
+            "star dust",
+            "fine dust"
+          ],
+          "prompt": "So, they sprinkled {{blank}} in your hair of gold",
+          "promptZh": "於是，祂們將月光的微塵，輕輕灑進你金色的髮絲"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-23",
+          "answer": "eyes of blue",
+          "options": [
+            "eyes of gold",
+            "eyes of blue",
+            "eyes of green"
+          ],
+          "prompt": "And star light in your {{blank}}.",
+          "promptZh": "又將璀璨的星光，點綴在你湛藍的眼眸裡。"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-24",
+          "answer": "all the girls",
+          "options": [
+            "all the stars",
+            "all the girls",
+            "all the boys"
+          ],
+          "prompt": "That is why {{blank}} in town",
+          "promptZh": "這就是為何鎮上的女孩們"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-25",
+          "answer": "Follow you",
+          "options": [
+            "Follow me",
+            "Call for you",
+            "Follow you"
+          ],
+          "prompt": "{{blank}} all around.",
+          "promptZh": "總是追隨著你的身影。"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-27",
+          "answer": "long to be",
+          "options": [
+            "love to be",
+            "want to see",
+            "long to be"
+          ],
+          "prompt": "They {{blank}}",
+          "promptZh": "她們也渴望"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-28",
+          "answer": "Close to you",
+          "options": [
+            "Close to you",
+            "Next to you",
+            "Near to you"
+          ],
+          "prompt": "{{blank}}.",
+          "promptZh": "與你親近。"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-30",
+          "answer": "long to be",
+          "options": [
+            "long to be",
+            "want to be",
+            "love to see"
+          ],
+          "prompt": "They {{blank}}",
+          "promptZh": "她們也渴望"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Why do birds {{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} you are {{q:4}}?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}},"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "They {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}}."
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Why do {{q:8}} {{q:9}} {{q:10}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Every time you {{q:11}}?"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:12}},"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "They {{q:13}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:14}}."
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:15}} that {{q:16}} the {{q:17}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And {{q:18}} {{q:19}}."
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "So, they {{q:20}} {{q:21}} in your {{q:22}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And {{q:23}} in your {{q:24}}."
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "That is why {{q:25}} in town"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:26}} {{q:27}}."
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Just like me,"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:29}}."
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:30}} that you were born the {{q:31}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And {{q:32}} {{q:33}}."
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "So, they sprinkled {{q:34}} in your hair of gold"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And star light in your {{q:35}}."
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "That is why {{q:36}} in town"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:37}} all around."
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Just like me,"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "They {{q:38}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:39}}."
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Just like me,"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "They {{q:40}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Close to you."
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Why? Close to you"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Why? Close to you"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Ha, close to you"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Why? Close to you"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "suddenly",
+          "options": [
+            "silently",
+            "softly",
+            "suddenly"
+          ],
+          "prompt": "Why do birds {{blank}} appear",
+          "promptZh": "為何鳥兒總會突然出現"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "appear",
+          "options": [
+            "appear",
+            "disappear",
+            "come near"
+          ],
+          "prompt": "Why do birds suddenly {{blank}}",
+          "promptZh": "為何鳥兒總會突然出現"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "Every time",
+          "options": [
+            "Every time",
+            "Any time",
+            "The next time"
+          ],
+          "prompt": "{{blank}} you are near?",
+          "promptZh": "每當你來到身邊？"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-2",
+          "answer": "near",
+          "options": [
+            "here",
+            "near",
+            "there"
+          ],
+          "prompt": "Every time you are {{blank}}?",
+          "promptZh": "每當你來到身邊？"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-3",
+          "answer": "Just like me",
+          "options": [
+            "Unlike me",
+            "Just like me",
+            "Just for me"
+          ],
+          "prompt": "{{blank}},",
+          "promptZh": "就像我一樣，"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-4",
+          "answer": "long to be",
+          "options": [
+            "want to stay",
+            "hope to be",
+            "long to be"
+          ],
+          "prompt": "They {{blank}}",
+          "promptZh": "牠們也渴望"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-5",
+          "answer": "Close to you",
+          "options": [
+            "Next to you",
+            "Close to you",
+            "Far from you"
+          ],
+          "prompt": "{{blank}}.",
+          "promptZh": "與你親近。"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-6",
+          "answer": "stars",
+          "options": [
+            "clouds",
+            "stars",
+            "sparks"
+          ],
+          "prompt": "Why do {{blank}} fall down from the sky",
+          "promptZh": "為何星辰會從天際墜落"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-6",
+          "answer": "fall down",
+          "options": [
+            "shine down",
+            "come down",
+            "fall down"
+          ],
+          "prompt": "Why do stars {{blank}} from the sky",
+          "promptZh": "為何星辰會從天際墜落"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-6",
+          "answer": "from the sky",
+          "options": [
+            "from the night",
+            "from the sky",
+            "through the sky"
+          ],
+          "prompt": "Why do stars fall down {{blank}}",
+          "promptZh": "為何星辰會從天際墜落"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-7",
+          "answer": "Every time",
+          "options": [
+            "Any time",
+            "Each night",
+            "Every time"
+          ],
+          "prompt": "{{blank}} you walk by?",
+          "promptZh": "每當你從身旁走過？"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-7",
+          "answer": "walk by",
+          "options": [
+            "walk by",
+            "pass by",
+            "walk away"
+          ],
+          "prompt": "Every time you {{blank}}?",
+          "promptZh": "每當你從身旁走過？"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-8",
+          "answer": "Just like me",
+          "options": [
+            "Just for me",
+            "Unlike me",
+            "Just like me"
+          ],
+          "prompt": "{{blank}},",
+          "promptZh": "就像我一樣，"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-9",
+          "answer": "long to be",
+          "options": [
+            "long to be",
+            "love to stay",
+            "want to be"
+          ],
+          "prompt": "They {{blank}}",
+          "promptZh": "它們也渴望"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-10",
+          "answer": "Close to you",
+          "options": [
+            "Near to you",
+            "Far from you",
+            "Close to you"
+          ],
+          "prompt": "{{blank}}.",
+          "promptZh": "與你親近。"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-11",
+          "answer": "On the day",
+          "options": [
+            "On the day",
+            "On the night",
+            "From the day"
+          ],
+          "prompt": "{{blank}} that you were born the angels got together",
+          "promptZh": "在你誕生的那一天，天使們齊聚一堂"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-11",
+          "answer": "you were born",
+          "options": [
+            "you were young",
+            "you were born",
+            "we were born"
+          ],
+          "prompt": "On the day that {{blank}} the angels got together",
+          "promptZh": "在你誕生的那一天，天使們齊聚一堂"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-11",
+          "answer": "angels got together",
+          "options": [
+            "angels sang together",
+            "people got together",
+            "angels got together"
+          ],
+          "prompt": "On the day that you were born the {{blank}}",
+          "promptZh": "在你誕生的那一天，天使們齊聚一堂"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-12",
+          "answer": "decided to create",
+          "options": [
+            "decided to create",
+            "wanted to create",
+            "decided to make"
+          ],
+          "prompt": "And {{blank}} a dream come true.",
+          "promptZh": "決定讓一個美夢化為現實。"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-12",
+          "answer": "a dream come true",
+          "options": [
+            "a wish come true",
+            "a dream for you",
+            "a dream come true"
+          ],
+          "prompt": "And decided to create {{blank}}.",
+          "promptZh": "決定讓一個美夢化為現實。"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-13",
+          "answer": "sprinkled",
+          "options": [
+            "sprinkled",
+            "scattered",
+            "sparkled"
+          ],
+          "prompt": "So, they {{blank}} moon dust in your hair of gold",
+          "promptZh": "於是，祂們將月光的微塵，輕輕灑進你金色的髮絲"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-13",
+          "answer": "moon dust",
+          "options": [
+            "star dust",
+            "moon dust",
+            "gold dust"
+          ],
+          "prompt": "So, they sprinkled {{blank}} in your hair of gold",
+          "promptZh": "於是，祂們將月光的微塵，輕輕灑進你金色的髮絲"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-13",
+          "answer": "hair of gold",
+          "options": [
+            "hair of brown",
+            "hair of gold",
+            "eyes of gold"
+          ],
+          "prompt": "So, they sprinkled moon dust in your {{blank}}",
+          "promptZh": "於是，祂們將月光的微塵，輕輕灑進你金色的髮絲"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-14",
+          "answer": "star light",
+          "options": [
+            "star light",
+            "moon light",
+            "sun light"
+          ],
+          "prompt": "And {{blank}} in your eyes of blue.",
+          "promptZh": "又將璀璨的星光，點綴在你湛藍的眼眸裡。"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-14",
+          "answer": "eyes of blue",
+          "options": [
+            "eyes of blue",
+            "eyes of green",
+            "skies of blue"
+          ],
+          "prompt": "And star light in your {{blank}}.",
+          "promptZh": "又將璀璨的星光，點綴在你湛藍的眼眸裡。"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-15",
+          "answer": "all the girls",
+          "options": [
+            "all the boys",
+            "all the girls",
+            "all the people"
+          ],
+          "prompt": "That is why {{blank}} in town",
+          "promptZh": "這就是為何鎮上的女孩們"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-15",
+          "answer": "in town",
+          "options": [
+            "around town",
+            "in time",
+            "in town"
+          ],
+          "prompt": "That is why all the girls {{blank}}",
+          "promptZh": "這就是為何鎮上的女孩們"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-16",
+          "answer": "Follow you",
+          "options": [
+            "Call for you",
+            "Wait for you",
+            "Follow you"
+          ],
+          "prompt": "{{blank}} all around.",
+          "promptZh": "總是追隨著你的身影。"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-16",
+          "answer": "all around",
+          "options": [
+            "all around",
+            "up and down",
+            "all the time"
+          ],
+          "prompt": "Follow you {{blank}}.",
+          "promptZh": "總是追隨著你的身影。"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-17",
+          "answer": "Just like me",
+          "options": [
+            "Just like me",
+            "Just for me",
+            "Unlike me"
+          ],
+          "prompt": "{{blank}},",
+          "promptZh": "就像我一樣，"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-18",
+          "answer": "They long to be",
+          "options": [
+            "They want to see",
+            "They love to be",
+            "They long to be"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "她們也渴望"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-19",
+          "answer": "Close to you",
+          "options": [
+            "Close to you",
+            "Close by you",
+            "Next to you"
+          ],
+          "prompt": "{{blank}}.",
+          "promptZh": "與你親近。"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-20",
+          "answer": "On the day",
+          "options": [
+            "On that day",
+            "On the day",
+            "On the night"
+          ],
+          "prompt": "{{blank}} that you were born the angels got together",
+          "promptZh": "在你誕生的那一天，天使們齊聚一堂"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-20",
+          "answer": "angels got together",
+          "options": [
+            "angels came together",
+            "angels got together",
+            "angels sang together"
+          ],
+          "prompt": "On the day that you were born the {{blank}}",
+          "promptZh": "在你誕生的那一天，天使們齊聚一堂"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-21",
+          "answer": "decided to create",
+          "options": [
+            "decided to believe",
+            "wanted to create",
+            "decided to create"
+          ],
+          "prompt": "And {{blank}} a dream come true.",
+          "promptZh": "決定讓一個美夢化為現實。"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-21",
+          "answer": "a dream come true",
+          "options": [
+            "a wish come true",
+            "a dream come true",
+            "a dream for two"
+          ],
+          "prompt": "And decided to create {{blank}}.",
+          "promptZh": "決定讓一個美夢化為現實。"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-22",
+          "answer": "sprinkled",
+          "options": [
+            "sparkled",
+            "sprinkled",
+            "scattered"
+          ],
+          "prompt": "So, they {{blank}} moon dust in your hair of gold",
+          "promptZh": "於是，祂們將月光的微塵，輕輕灑進你金色的髮絲"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-22",
+          "answer": "moon dust",
+          "options": [
+            "star dust",
+            "fine dust",
+            "moon dust"
+          ],
+          "prompt": "So, they sprinkled {{blank}} in your hair of gold",
+          "promptZh": "於是，祂們將月光的微塵，輕輕灑進你金色的髮絲"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-23",
+          "answer": "star light",
+          "options": [
+            "star light",
+            "sun light",
+            "moon light"
+          ],
+          "prompt": "And {{blank}} in your eyes of blue.",
+          "promptZh": "又將璀璨的星光，點綴在你湛藍的眼眸裡。"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-23",
+          "answer": "eyes of blue",
+          "options": [
+            "eyes of gold",
+            "eyes of green",
+            "eyes of blue"
+          ],
+          "prompt": "And star light in your {{blank}}.",
+          "promptZh": "又將璀璨的星光，點綴在你湛藍的眼眸裡。"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-24",
+          "answer": "all the girls",
+          "options": [
+            "all the stars",
+            "all the girls",
+            "all the boys"
+          ],
+          "prompt": "That is why {{blank}} in town",
+          "promptZh": "這就是為何鎮上的女孩們"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-24",
+          "answer": "in town",
+          "options": [
+            "in time",
+            "around town",
+            "in town"
+          ],
+          "prompt": "That is why all the girls {{blank}}",
+          "promptZh": "這就是為何鎮上的女孩們"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-25",
+          "answer": "Follow you",
+          "options": [
+            "Follow me",
+            "Follow you",
+            "Call for you"
+          ],
+          "prompt": "{{blank}} all around.",
+          "promptZh": "總是追隨著你的身影。"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-25",
+          "answer": "all around",
+          "options": [
+            "all around",
+            "all the way",
+            "up and down"
+          ],
+          "prompt": "Follow you {{blank}}.",
+          "promptZh": "總是追隨著你的身影。"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-26",
+          "answer": "Just like me",
+          "options": [
+            "Just like me",
+            "Just for me",
+            "Unlike me"
+          ],
+          "prompt": "{{blank}},",
+          "promptZh": "就像我一樣，"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-27",
+          "answer": "long to be",
+          "options": [
+            "love to be",
+            "long to be",
+            "want to see"
+          ],
+          "prompt": "They {{blank}}",
+          "promptZh": "她們也渴望"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-28",
+          "answer": "Close to you",
+          "options": [
+            "Close to you",
+            "Next to you",
+            "Near to you"
+          ],
+          "prompt": "{{blank}}.",
+          "promptZh": "與你親近。"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-29",
+          "answer": "Just like me",
+          "options": [
+            "Just for me",
+            "Unlike me",
+            "Just like me"
+          ],
+          "prompt": "{{blank}},",
+          "promptZh": "就像我一樣，"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-30",
+          "answer": "long to be",
+          "options": [
+            "long to be",
+            "want to be",
+            "love to see"
+          ],
+          "prompt": "They {{blank}}",
+          "promptZh": "她們也渴望"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-31",
+          "answer": "Close to you",
+          "options": [
+            "Near to you",
+            "Close to you",
+            "Far from you"
+          ],
+          "prompt": "{{blank}}.",
+          "promptZh": "與你親近。"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Why do birds {{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} you are {{q:4}}?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}},"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "They {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}}."
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Why do {{q:8}} {{q:9}} {{q:10}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:11}} you {{q:12}}?"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:13}},"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "They {{q:14}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:15}}."
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:16}} that {{q:17}} the {{q:18}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And {{q:19}} {{q:20}}."
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "So, they {{q:21}} {{q:22}} in your {{q:23}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And {{q:24}} in your {{q:25}}."
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "That is why {{q:26}} {{q:27}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:28}} {{q:29}}."
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:30}},"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:31}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:32}}."
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:33}} that you were born the {{q:34}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And {{q:35}} {{q:36}}."
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "So, they {{q:37}} {{q:38}} in your hair of gold"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And {{q:39}} in your {{q:40}}."
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "That is why {{q:41}} {{q:42}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:43}} {{q:44}}."
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:45}},"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "They {{q:46}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:47}}."
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:48}},"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "They {{q:49}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:50}}."
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Why? Close to you"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Why? Close to you"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Ha, close to you"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Why? Close to you"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Close To You · Listening & Vocabulary",
+  "description": "《(They Long to Be) Close to You》以近乎童話的方式，表達歌者對心上人的深深傾慕。在歌者眼中，心愛的人擁有不可思議的魅力：鳥兒為他而來，星辰為他墜落，天使為他灑下月塵與星光，所有人都渴望與他親近。這些美麗的意象，最終都回到同一個簡單而真摯的心願：盼望陪伴在心愛之人身邊。歌曲以溫柔、俏皮的語氣，呈現一份純粹的欣賞與愛慕，讓平凡的相伴成為最珍貴的幸福。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Suddenly",
+      "meaning": "突然、忽然",
+      "usage": "事情沒有預告就發生時，可以用 suddenly，通常放在動詞前或句首。",
+      "prompt": "哪一句正確使用「Suddenly」？",
+      "options": [
+        "I bought a suddenly at the shop.",
+        "My brother is very suddenly today.",
+        "Please put the suddenly in the box.",
+        "Suddenly, a cat jumped onto my desk."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：suddenly 是副詞，不是可以買的東西。",
+        "錯誤：suddenly 不是形容人的形容詞；可說 My brother is very quiet today。",
+        "錯誤：suddenly 不是物品，不能放進盒子。",
+        "正確：貓突然跳到桌上，suddenly 用來描述突然發生的動作。"
+      ],
+      "explanation": "正確：貓突然跳到桌上，suddenly 用來描述突然發生的動作。"
+    },
+    {
+      "number": 2,
+      "word": "Every time",
+      "meaning": "每次、每當",
+      "usage": "某件事每次發生，另一件事也會發生時，可以用 every time + 句子。",
+      "prompt": "哪一句正確使用「Every time」？",
+      "options": [
+        "Every time I open the fridge, my cat comes running.",
+        "Every time is a blue pencil in my bag.",
+        "I every time my dog before breakfast.",
+        "She put every time on the chair."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：每次我打開冰箱，貓就跑過來。",
+        "錯誤：every time 不能當成「每一支」來形容鉛筆。",
+        "錯誤：every time 不能直接當動詞使用。",
+        "錯誤：every time 不是一個可以放在椅子上的物品。"
+      ],
+      "explanation": "正確：每次我打開冰箱，貓就跑過來。"
+    },
+    {
+      "number": 3,
+      "word": "Long to",
+      "meaning": "渴望、非常想要",
+      "usage": "想做某件事、而且心裡很期待時，用 long to + 原形動詞。",
+      "prompt": "哪一句正確使用「Long to」？",
+      "options": [
+        "I long to my lunch at twelve.",
+        "She longs to a new dress.",
+        "After a long trip, I long to see my family.",
+        "We long to happy on Monday."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：long to 後面要接動詞，不能直接接 my lunch。",
+        "錯誤：longs to 後面缺少動詞；可以說 longs to buy a new dress。",
+        "正確：long to see 表示非常想見到家人。",
+        "錯誤：happy 是形容詞，應說 long to be happy。"
+      ],
+      "explanation": "正確：long to see 表示非常想見到家人。"
+    },
+    {
+      "number": 4,
+      "word": "Close to",
+      "meaning": "靠近……；與……親近",
+      "usage": "可以說位置很近，也可以說與某人的關係很親近；後面接名詞或代名詞。",
+      "prompt": "哪一句正確使用「Close to」？",
+      "options": [
+        "I close to my breakfast every morning.",
+        "She is close to sings every day.",
+        "My school is close to the park.",
+        "Please close to the window now."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：close to 不能在這裡當作「吃早餐」的動詞。",
+        "錯誤：close to 後面不能直接接 sings 這樣的動詞形式。",
+        "正確：close to the park 表示學校就在公園附近。",
+        "錯誤：如果要說「關窗」，應說 Please close the window。"
+      ],
+      "explanation": "正確：close to the park 表示學校就在公園附近。"
+    },
+    {
+      "number": 5,
+      "word": "Walk by",
+      "meaning": "從旁邊走過、經過",
+      "usage": "有人從你的身邊或某個地方旁邊走過時，可以用 walk by。",
+      "prompt": "哪一句正確使用「Walk by」？",
+      "options": [
+        "Please walk by your homework tonight.",
+        "I saw my teacher walk by the shop.",
+        "I walk by my sandwich at lunch.",
+        "My shoes are walk by and red."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：homework 不是可以用 walk by 表達完成的事情。",
+        "正確：老師從商店旁邊走過，walk by 用法自然。",
+        "錯誤：不能用 walk by 表示吃三明治。",
+        "錯誤：walk by 是動作片語，不能當作鞋子的顏色或特徵。"
+      ],
+      "explanation": "正確：老師從商店旁邊走過，walk by 用法自然。"
+    },
+    {
+      "number": 6,
+      "word": "Get together",
+      "meaning": "聚在一起、碰面",
+      "usage": "朋友、家人或一群人約好聚會或一起做事時，可以用 get together。",
+      "prompt": "哪一句正確使用「Get together」？",
+      "options": [
+        "I get together my shoes before school.",
+        "My friends and I get together on Sundays.",
+        "She gets together the door every night.",
+        "This apple is very get together."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：這裡應說 put on my shoes；get together 不表示穿鞋。",
+        "正確：表示朋友們星期日會聚在一起。",
+        "錯誤：get together 不能表示關門，應說 closes the door。",
+        "錯誤：get together 不是描述蘋果味道的形容詞。"
+      ],
+      "explanation": "正確：表示朋友們星期日會聚在一起。"
+    },
+    {
+      "number": 7,
+      "word": "Decide to",
+      "meaning": "決定做……",
+      "usage": "做出選擇或決定下一步要做什麼時，用 decide to + 原形動詞。",
+      "prompt": "哪一句正確使用「Decide to」？",
+      "options": [
+        "I decided to a new bike yesterday.",
+        "She decided to happy after lunch.",
+        "My dog decided to the kitchen.",
+        "We decided to take the bus because it was raining."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：to 後面要有動詞，例如 decided to buy a new bike。",
+        "錯誤：happy 是形容詞，應說 decided to be happy。",
+        "錯誤：the kitchen 是地點，需加動詞，例如 decided to go to the kitchen。",
+        "正確：decided to take 表示決定搭公車。"
+      ],
+      "explanation": "正確：decided to take 表示決定搭公車。"
+    },
+    {
+      "number": 8,
+      "word": "Come true",
+      "meaning": "（願望或夢想）成真",
+      "usage": "希望或夢想真的實現時，可以說 dream / wish comes true。",
+      "prompt": "哪一句正確使用「Come true」？",
+      "options": [
+        "Her dream of visiting Japan came true last year.",
+        "I come true my shoes every Friday.",
+        "Can you come true the light, please?",
+        "The soup came true because it was hot."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：表示她去日本的夢想去年實現了。",
+        "錯誤：come true 不是清洗鞋子的動作。",
+        "錯誤：開燈應說 turn on the light。",
+        "錯誤：come true 通常用在夢想或願望，不用來形容湯。"
+      ],
+      "explanation": "正確：表示她去日本的夢想去年實現了。"
+    },
+    {
+      "number": 9,
+      "word": "Sprinkle",
+      "meaning": "灑、撒（少量的東西）",
+      "usage": "把少量鹽、糖或水等灑在食物或物品上時，可以用 sprinkle。",
+      "prompt": "哪一句正確使用「Sprinkle」？",
+      "options": [
+        "I sprinkle to the bus stop at seven.",
+        "I sprinkled some sugar on my cake.",
+        "She sprinkled her homework with a pencil.",
+        "The chair is very sprinkle today."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：去公車站應用 walk 或 go，sprinkle 不表示走路。",
+        "正確：sprinkle some sugar on 表示在蛋糕上撒一點糖。",
+        "錯誤：寫作業應用 do 或 write，sprinkle 是撒東西。",
+        "錯誤：sprinkle 不是形容椅子的形容詞。"
+      ],
+      "explanation": "正確：sprinkle some sugar on 表示在蛋糕上撒一點糖。"
+    },
+    {
+      "number": 10,
+      "word": "Follow someone around",
+      "meaning": "到處跟著某人",
+      "usage": "一個人或動物一直跟在另一個人後面、到不同地方都跟著時使用。",
+      "prompt": "哪一句正確使用「Follow someone around」？",
+      "options": [
+        "My little dog follows me around the house.",
+        "My mum follows around the dinner every night.",
+        "I follow around my phone to make a call.",
+        "He is follow someone around blue today."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：小狗在家裡到處跟著我。",
+        "錯誤：follow someone around 的對象通常是人，不能表示煮晚餐。",
+        "錯誤：打電話不會用 follow around 表達。",
+        "錯誤：follow someone around 是動作，不是顏色形容詞，句子結構也不正確。"
+      ],
+      "explanation": "正確：小狗在家裡到處跟著我。"
+    }
+  ],
+  "tags": [
+    "carpenters",
+    "close to you",
+    "love",
+    "admiration"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/close-to-you/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/close-to-you/user-cover-20261030.png",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 220.7066875,
+    "audioSha256": "bbc81f20ac27f9fbd59bddedea321d0f0fbc05bd6f90386e103ecc03bb3d7a47",
+    "timedLines": 33,
+    "untimedLines": 2,
+    "reviewStatus": "Conservative automatic cues; uncertain background or unmatched lines remain visible without guessed timing."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_(They Long To Be) Close To You_.pdf",
+      "sha256": "f70a72ba8f756cc94319b59f69c01af6551cba03ab8768b9fa323f1efef66784"
+    },
+    "chosenListening": {
+      "filename": "Close_To_You_Four_Level_Listening_Exercise.docx",
+      "sha256": "767ee052f8ff61545509a2180cd7bda0406d5ad0d048ed68fbe0f5433555c5f2"
+    },
+    "chosenVocabulary": {
+      "filename": "Close_To_You_Vocabulary_Quiz.md",
+      "sha256": "36fe08e6c0181f862bd2a4e3a2e35c27202c141e0eec2b76f168dd2a733d88da"
+    },
+    "audio": {
+      "filename": "(They Long To Be) Close To You [6yUq_-_v4rI].mp3",
+      "sha256": "bbc81f20ac27f9fbd59bddedea321d0f0fbc05bd6f90386e103ecc03bb3d7a47"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-98b98e31-05b6-4eea-b9c5-68b9cbaa40c8.png",
+    "sha256": "76d3fb6484b4e1a2302c9782592c2da3f0a6252aeda8278c76f5ea7fd48837c5",
+    "transformations": "none"
+  }
+}

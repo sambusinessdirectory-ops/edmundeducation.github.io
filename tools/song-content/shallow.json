@@ -1,0 +1,2882 @@
+{
+  "slug": "shallow",
+  "title": "Shallow",
+  "singer": "Lady Gaga & Bradley Cooper",
+  "translations": [
+    {
+      "english": "Tell me somethin', girl",
+      "chinese": "告訴我吧，女孩",
+      "lineId": "line-1",
+      "startSeconds": 14.82,
+      "endSeconds": 17.96
+    },
+    {
+      "english": "Are you happy in this modern world?",
+      "chinese": "在這個現代世界裡，妳真的幸福嗎？",
+      "lineId": "line-2",
+      "startSeconds": 18.42,
+      "endSeconds": 24.22
+    },
+    {
+      "english": "Or do you need more?",
+      "chinese": "還是妳渴望得到更多？",
+      "lineId": "line-3",
+      "startSeconds": 25.5,
+      "endSeconds": 27.82
+    },
+    {
+      "english": "Is there somethin' else you're searchin' for?",
+      "chinese": "是否還有什麼，是妳一直在尋找的？",
+      "lineId": "line-4",
+      "startSeconds": 29.8,
+      "endSeconds": 34.4
+    },
+    {
+      "english": "I'm falling",
+      "chinese": "我正漸漸沉淪",
+      "lineId": "line-5"
+    },
+    {
+      "english": "In all the good times I find myself longin' for change",
+      "chinese": "即使身處美好的時光，我仍發現自己渴望改變",
+      "lineId": "line-6",
+      "startSeconds": 39.54,
+      "endSeconds": 48.06
+    },
+    {
+      "english": "And, in the bad times, I fear myself",
+      "chinese": "而在艱難的時刻，我卻害怕面對自己",
+      "lineId": "line-7",
+      "startSeconds": 49.52,
+      "endSeconds": 54.04
+    },
+    {
+      "english": "Tell me something, boy",
+      "chinese": "告訴我吧，男孩",
+      "lineId": "line-8",
+      "startSeconds": 64.68,
+      "endSeconds": 68.04
+    },
+    {
+      "english": "Aren't you tired tryna fill that void?",
+      "chinese": "你難道不曾厭倦，一再試圖填補心中的空虛？",
+      "lineId": "line-9",
+      "startSeconds": 68.04,
+      "endSeconds": 74.2
+    },
+    {
+      "english": "Or do you need more?",
+      "chinese": "還是你仍渴望得到更多？",
+      "lineId": "line-10",
+      "startSeconds": 75.32,
+      "endSeconds": 78.8
+    },
+    {
+      "english": "Ain't it hard keeping it so hardcore?",
+      "chinese": "一直強撐著那副強硬的模樣，難道不累嗎？",
+      "lineId": "line-11",
+      "startSeconds": 78.8,
+      "endSeconds": 83.8
+    },
+    {
+      "english": "I'm falling",
+      "chinese": "我正漸漸沉淪",
+      "lineId": "line-12",
+      "startSeconds": 83.8,
+      "endSeconds": 87.52
+    },
+    {
+      "english": "In all the good times I find myself longin' for change",
+      "chinese": "即使身處美好的時光，我仍發現自己渴望改變",
+      "lineId": "line-13",
+      "startSeconds": 89.56,
+      "endSeconds": 98.16
+    },
+    {
+      "english": "And, in the bad times, I fear myself",
+      "chinese": "而在艱難的時刻，我卻害怕面對自己",
+      "lineId": "line-14",
+      "startSeconds": 99.58,
+      "endSeconds": 104.08
+    },
+    {
+      "english": "I'm off the deep end, watch as I dive in",
+      "chinese": "我已躍向深水的盡頭，看著我縱身躍入其中",
+      "lineId": "line-15",
+      "startSeconds": 104.8,
+      "endSeconds": 109.78
+    },
+    {
+      "english": "I'll never meet the ground",
+      "chinese": "我將永遠不會觸及水底",
+      "lineId": "line-16",
+      "startSeconds": 109.78,
+      "endSeconds": 113.84
+    },
+    {
+      "english": "Crash through the surface where they can't hurt us",
+      "chinese": "衝破水面，潛入那個他人再也無法傷害我們的地方",
+      "lineId": "line-17"
+    },
+    {
+      "english": "We're far from the shallow now",
+      "chinese": "如今，我們已遠離那片淺灘",
+      "lineId": "line-18",
+      "startSeconds": 119.66,
+      "endSeconds": 123.5
+    },
+    {
+      "english": "In the sha-ha-sha-ha-low",
+      "chinese": "在那片淺——淺——淺灘",
+      "lineId": "line-19",
+      "startSeconds": 124.86,
+      "endSeconds": 128.94
+    },
+    {
+      "english": "In the sha-ha-sha-la-la-la-low",
+      "chinese": "在那片淺——淺——淺灘",
+      "lineId": "line-20"
+    },
+    {
+      "english": "In the sha-ha-sha-ha-ha-low",
+      "chinese": "在那片淺——淺——淺灘",
+      "lineId": "line-21"
+    },
+    {
+      "english": "We're far from the shallow now",
+      "chinese": "如今，我們已遠離那片淺灘",
+      "lineId": "line-22",
+      "startSeconds": 139.44,
+      "endSeconds": 143.82
+    },
+    {
+      "english": "Oh, ha, ah, ha",
+      "chinese": "噢，哈，啊，哈",
+      "lineId": "line-23"
+    },
+    {
+      "english": "Oh-ah, ha",
+      "chinese": "噢——啊，哈",
+      "lineId": "line-24"
+    },
+    {
+      "english": "Oh, ha, ah, ha",
+      "chinese": "噢，哈，啊，哈",
+      "lineId": "line-25"
+    },
+    {
+      "english": "I'm off the deep end, watch as I dive in",
+      "chinese": "我已躍向深水的盡頭，看著我縱身躍入其中",
+      "lineId": "line-26",
+      "startSeconds": 164.66,
+      "endSeconds": 169.72
+    },
+    {
+      "english": "I'll never meet the ground",
+      "chinese": "我將永遠不會觸及水底",
+      "lineId": "line-27"
+    },
+    {
+      "english": "Crash through the surface where they can't hurt us",
+      "chinese": "衝破水面，潛入那個他人再也無法傷害我們的地方",
+      "lineId": "line-28"
+    },
+    {
+      "english": "We're far from the shallow now",
+      "chinese": "如今，我們已遠離那片淺灘",
+      "lineId": "line-29"
+    },
+    {
+      "english": "In the sha-ha-sha-ha-low",
+      "chinese": "在那片淺——淺——淺灘",
+      "lineId": "line-30"
+    },
+    {
+      "english": "In the sha-ha-sha-la-la-la-low",
+      "chinese": "在那片淺——淺——淺灘",
+      "lineId": "line-31"
+    },
+    {
+      "english": "In the sha-ha-sha-ha-ha-low",
+      "chinese": "在那片淺——淺——淺灘",
+      "lineId": "line-32"
+    },
+    {
+      "english": "We're far from the shallow now",
+      "chinese": "如今，我們已遠離那片淺灘",
+      "lineId": "line-33",
+      "startSeconds": 199.3,
+      "endSeconds": 203.14
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "somethin'",
+          "options": [
+            "anything",
+            "somethin'",
+            "nothing"
+          ],
+          "prompt": "Tell me {{blank}}, girl",
+          "promptZh": "告訴我吧，女孩"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "happy",
+          "options": [
+            "happy",
+            "lonely",
+            "ready"
+          ],
+          "prompt": "Are you {{blank}} in this modern world?",
+          "promptZh": "在這個現代世界裡，妳真的幸福嗎？"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "modern world",
+          "options": [
+            "modern world",
+            "different world",
+            "changing world"
+          ],
+          "prompt": "Are you happy in this {{blank}}?",
+          "promptZh": "在這個現代世界裡，妳真的幸福嗎？"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-3",
+          "answer": "need more",
+          "options": [
+            "feel more",
+            "need more",
+            "want less"
+          ],
+          "prompt": "Or do you {{blank}}?",
+          "promptZh": "還是妳渴望得到更多？"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-4",
+          "answer": "searchin' for",
+          "options": [
+            "searchin' for",
+            "waiting for",
+            "looking at"
+          ],
+          "prompt": "Is there somethin' else you're {{blank}}?",
+          "promptZh": "是否還有什麼，是妳一直在尋找的？"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-5",
+          "answer": "falling",
+          "options": [
+            "calling",
+            "failing",
+            "falling"
+          ],
+          "prompt": "I'm {{blank}}",
+          "promptZh": "我正漸漸沉淪"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-6",
+          "answer": "good times",
+          "options": [
+            "good times",
+            "hard times",
+            "old days"
+          ],
+          "prompt": "In all the {{blank}} I find myself longin' for change",
+          "promptZh": "即使身處美好的時光，我仍發現自己渴望改變"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-6",
+          "answer": "longin' for change",
+          "options": [
+            "looking for love",
+            "waiting for change",
+            "longin' for change"
+          ],
+          "prompt": "In all the good times I find myself {{blank}}",
+          "promptZh": "即使身處美好的時光，我仍發現自己渴望改變"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-7",
+          "answer": "bad times",
+          "options": [
+            "sad times",
+            "bad times",
+            "hard days"
+          ],
+          "prompt": "And, in the {{blank}}, I fear myself",
+          "promptZh": "而在艱難的時刻，我卻害怕面對自己"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-7",
+          "answer": "fear myself",
+          "options": [
+            "fear myself",
+            "hear myself",
+            "lose myself"
+          ],
+          "prompt": "And, in the bad times, I {{blank}}",
+          "promptZh": "而在艱難的時刻，我卻害怕面對自己"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-9",
+          "answer": "tired",
+          "options": [
+            "trying",
+            "scared",
+            "tired"
+          ],
+          "prompt": "Aren't you {{blank}} tryna fill that void?",
+          "promptZh": "你難道不曾厭倦，一再試圖填補心中的空虛？"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-9",
+          "answer": "fill that void",
+          "options": [
+            "feel that pain",
+            "fill that void",
+            "hide that fear"
+          ],
+          "prompt": "Aren't you tired tryna {{blank}}?",
+          "promptZh": "你難道不曾厭倦，一再試圖填補心中的空虛？"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-11",
+          "answer": "hardcore",
+          "options": [
+            "so sure",
+            "hardcore",
+            "hard work"
+          ],
+          "prompt": "Ain't it hard keeping it so {{blank}}?",
+          "promptZh": "一直強撐著那副強硬的模樣，難道不累嗎？"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-15",
+          "answer": "deep end",
+          "options": [
+            "deep down",
+            "dark end",
+            "deep end"
+          ],
+          "prompt": "I'm off the {{blank}}, watch as I dive in",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "watch as I",
+          "options": [
+            "watch as I",
+            "wait while I",
+            "look as I"
+          ],
+          "prompt": "I'm off the deep end, {{blank}} dive in",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-15",
+          "answer": "dive in",
+          "options": [
+            "give in",
+            "dive in",
+            "drive in"
+          ],
+          "prompt": "I'm off the deep end, watch as I {{blank}}",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-16",
+          "answer": "meet the ground",
+          "options": [
+            "meet the ground",
+            "hit the ground",
+            "reach the sky"
+          ],
+          "prompt": "I'll never {{blank}}",
+          "promptZh": "我將永遠不會觸及水底"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-17",
+          "answer": "Crash through",
+          "options": [
+            "Break through",
+            "Fall through",
+            "Crash through"
+          ],
+          "prompt": "{{blank}} the surface where they can't hurt us",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-17",
+          "answer": "surface",
+          "options": [
+            "silence",
+            "current",
+            "surface"
+          ],
+          "prompt": "Crash through the {{blank}} where they can't hurt us",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-18",
+          "answer": "shallow",
+          "options": [
+            "shadow",
+            "shallow",
+            "hollow"
+          ],
+          "prompt": "We're far from the {{blank}} now",
+          "promptZh": "如今，我們已遠離那片淺灘"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Tell me {{q:1}}, girl"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Are you {{q:2}} in this {{q:3}}?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Or do you {{q:4}}?"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Is there somethin' else you're {{q:5}}?"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I'm {{q:6}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "In all the {{q:7}} I find myself {{q:8}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And, in the {{q:9}}, I {{q:10}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Tell me something, boy"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Aren't you {{q:11}} tryna {{q:12}}?"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Or do you need more?"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Ain't it hard keeping it so {{q:13}}?"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I'm falling"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "In all the good times I find myself longin' for change"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And, in the bad times, I fear myself"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I'm off the {{q:14}}, {{q:15}} {{q:16}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I'll never {{q:17}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:18}} the {{q:19}} where they can't hurt us"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "We're far from the {{q:20}} now"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "In the sha-ha-sha-ha-low"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "In the sha-ha-sha-la-la-la-low"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "In the sha-ha-sha-ha-ha-low"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "We're far from the shallow now"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Oh, ha, ah, ha"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Oh-ah, ha"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Oh, ha, ah, ha"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I'm off the deep end, watch as I dive in"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I'll never meet the ground"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Crash through the surface where they can't hurt us"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "We're far from the shallow now"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "In the sha-ha-sha-ha-low"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "In the sha-ha-sha-la-la-la-low"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "In the sha-ha-sha-ha-ha-low"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "We're far from the shallow now"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "somethin'",
+          "options": [
+            "anything",
+            "nothing",
+            "somethin'"
+          ],
+          "prompt": "Tell me {{blank}}, girl",
+          "promptZh": "告訴我吧，女孩"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "happy",
+          "options": [
+            "lonely",
+            "happy",
+            "ready"
+          ],
+          "prompt": "Are you {{blank}} in this modern world?",
+          "promptZh": "在這個現代世界裡，妳真的幸福嗎？"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "modern world",
+          "options": [
+            "modern world",
+            "different world",
+            "changing world"
+          ],
+          "prompt": "Are you happy in this {{blank}}?",
+          "promptZh": "在這個現代世界裡，妳真的幸福嗎？"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-3",
+          "answer": "need more",
+          "options": [
+            "feel more",
+            "need more",
+            "want less"
+          ],
+          "prompt": "Or do you {{blank}}?",
+          "promptZh": "還是妳渴望得到更多？"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-4",
+          "answer": "searchin' for",
+          "options": [
+            "waiting for",
+            "looking at",
+            "searchin' for"
+          ],
+          "prompt": "Is there somethin' else you're {{blank}}?",
+          "promptZh": "是否還有什麼，是妳一直在尋找的？"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-5",
+          "answer": "falling",
+          "options": [
+            "calling",
+            "failing",
+            "falling"
+          ],
+          "prompt": "I'm {{blank}}",
+          "promptZh": "我正漸漸沉淪"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-6",
+          "answer": "good times",
+          "options": [
+            "good times",
+            "hard times",
+            "old days"
+          ],
+          "prompt": "In all the {{blank}} I find myself longin' for change",
+          "promptZh": "即使身處美好的時光，我仍發現自己渴望改變"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-6",
+          "answer": "find myself",
+          "options": [
+            "find myself",
+            "feel myself",
+            "remind myself"
+          ],
+          "prompt": "In all the good times I {{blank}} longin' for change",
+          "promptZh": "即使身處美好的時光，我仍發現自己渴望改變"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-6",
+          "answer": "longin' for change",
+          "options": [
+            "looking for love",
+            "waiting for change",
+            "longin' for change"
+          ],
+          "prompt": "In all the good times I find myself {{blank}}",
+          "promptZh": "即使身處美好的時光，我仍發現自己渴望改變"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-7",
+          "answer": "bad times",
+          "options": [
+            "sad times",
+            "hard days",
+            "bad times"
+          ],
+          "prompt": "And, in the {{blank}}, I fear myself",
+          "promptZh": "而在艱難的時刻，我卻害怕面對自己"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-7",
+          "answer": "fear myself",
+          "options": [
+            "hear myself",
+            "fear myself",
+            "lose myself"
+          ],
+          "prompt": "And, in the bad times, I {{blank}}",
+          "promptZh": "而在艱難的時刻，我卻害怕面對自己"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-8",
+          "answer": "something",
+          "options": [
+            "nothing",
+            "something",
+            "someone"
+          ],
+          "prompt": "Tell me {{blank}}, boy",
+          "promptZh": "告訴我吧，男孩"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-9",
+          "answer": "tired",
+          "options": [
+            "tired",
+            "trying",
+            "scared"
+          ],
+          "prompt": "Aren't you {{blank}} tryna fill that void?",
+          "promptZh": "你難道不曾厭倦，一再試圖填補心中的空虛？"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-9",
+          "answer": "fill that void",
+          "options": [
+            "feel that pain",
+            "fill that void",
+            "hide that fear"
+          ],
+          "prompt": "Aren't you tired tryna {{blank}}?",
+          "promptZh": "你難道不曾厭倦，一再試圖填補心中的空虛？"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-11",
+          "answer": "keeping it",
+          "options": [
+            "making it",
+            "keeping it",
+            "taking it"
+          ],
+          "prompt": "Ain't it hard {{blank}} so hardcore?",
+          "promptZh": "一直強撐著那副強硬的模樣，難道不累嗎？"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-11",
+          "answer": "hardcore",
+          "options": [
+            "hardcore",
+            "so sure",
+            "hard work"
+          ],
+          "prompt": "Ain't it hard keeping it so {{blank}}?",
+          "promptZh": "一直強撐著那副強硬的模樣，難道不累嗎？"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-15",
+          "answer": "I'm off",
+          "options": [
+            "I fall",
+            "I'm off",
+            "I'm lost"
+          ],
+          "prompt": "{{blank}} the deep end, watch as I dive in",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-15",
+          "answer": "deep end",
+          "options": [
+            "deep down",
+            "dark end",
+            "deep end"
+          ],
+          "prompt": "I'm off the {{blank}}, watch as I dive in",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-15",
+          "answer": "watch as I",
+          "options": [
+            "wait while I",
+            "watch as I",
+            "look as I"
+          ],
+          "prompt": "I'm off the deep end, {{blank}} dive in",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-15",
+          "answer": "dive in",
+          "options": [
+            "dive in",
+            "give in",
+            "drive in"
+          ],
+          "prompt": "I'm off the deep end, watch as I {{blank}}",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-16",
+          "answer": "never",
+          "options": [
+            "ever",
+            "never",
+            "really"
+          ],
+          "prompt": "I'll {{blank}} meet the ground",
+          "promptZh": "我將永遠不會觸及水底"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-16",
+          "answer": "meet the ground",
+          "options": [
+            "hit the ground",
+            "reach the sky",
+            "meet the ground"
+          ],
+          "prompt": "I'll never {{blank}}",
+          "promptZh": "我將永遠不會觸及水底"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-17",
+          "answer": "Crash through",
+          "options": [
+            "Crash through",
+            "Break through",
+            "Fall through"
+          ],
+          "prompt": "{{blank}} the surface where they can't hurt us",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-17",
+          "answer": "surface",
+          "options": [
+            "surface",
+            "silence",
+            "current"
+          ],
+          "prompt": "Crash through the {{blank}} where they can't hurt us",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-17",
+          "answer": "where they can't",
+          "options": [
+            "where we can't",
+            "where they can't",
+            "when they don't"
+          ],
+          "prompt": "Crash through the surface {{blank}} hurt us",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-17",
+          "answer": "hurt us",
+          "options": [
+            "find us",
+            "stop us",
+            "hurt us"
+          ],
+          "prompt": "Crash through the surface where they can't {{blank}}",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-18",
+          "answer": "far from",
+          "options": [
+            "far from",
+            "free from",
+            "close to"
+          ],
+          "prompt": "We're {{blank}} the shallow now",
+          "promptZh": "如今，我們已遠離那片淺灘"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-18",
+          "answer": "shallow",
+          "options": [
+            "shallow",
+            "shadow",
+            "hollow"
+          ],
+          "prompt": "We're far from the {{blank}} now",
+          "promptZh": "如今，我們已遠離那片淺灘"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-26",
+          "answer": "deep end",
+          "options": [
+            "deep down",
+            "dark end",
+            "deep end"
+          ],
+          "prompt": "I'm off the {{blank}}, watch as I dive in",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-26",
+          "answer": "dive in",
+          "options": [
+            "dive in",
+            "give in",
+            "drive in"
+          ],
+          "prompt": "I'm off the deep end, watch as I {{blank}}",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-27",
+          "answer": "meet the ground",
+          "options": [
+            "hit the ground",
+            "meet the ground",
+            "reach the sky"
+          ],
+          "prompt": "I'll never {{blank}}",
+          "promptZh": "我將永遠不會觸及水底"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-28",
+          "answer": "Crash through",
+          "options": [
+            "Break through",
+            "Fall through",
+            "Crash through"
+          ],
+          "prompt": "{{blank}} the surface where they can't hurt us",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Tell me {{q:1}}, girl"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Are you {{q:2}} in this {{q:3}}?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Or do you {{q:4}}?"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Is there somethin' else you're {{q:5}}?"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I'm {{q:6}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "In all the {{q:7}} I {{q:8}} {{q:9}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And, in the {{q:10}}, I {{q:11}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Tell me {{q:12}}, boy"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Aren't you {{q:13}} tryna {{q:14}}?"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Or do you need more?"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Ain't it hard {{q:15}} so {{q:16}}?"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I'm falling"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "In all the good times I find myself longin' for change"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And, in the bad times, I fear myself"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:17}} the {{q:18}}, {{q:19}} {{q:20}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I'll {{q:21}} {{q:22}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:23}} the {{q:24}} {{q:25}} {{q:26}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "We're {{q:27}} the {{q:28}} now"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "In the sha-ha-sha-ha-low"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "In the sha-ha-sha-la-la-la-low"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "In the sha-ha-sha-ha-ha-low"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "We're far from the shallow now"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Oh, ha, ah, ha"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Oh-ah, ha"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Oh, ha, ah, ha"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I'm off the {{q:29}}, watch as I {{q:30}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I'll never {{q:31}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:32}} the surface where they can't hurt us"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "We're far from the shallow now"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "In the sha-ha-sha-ha-low"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "In the sha-ha-sha-la-la-la-low"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "In the sha-ha-sha-ha-ha-low"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "We're far from the shallow now"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "somethin'",
+          "options": [
+            "anything",
+            "somethin'",
+            "nothing"
+          ],
+          "prompt": "Tell me {{blank}}, girl",
+          "promptZh": "告訴我吧，女孩"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "happy",
+          "options": [
+            "lonely",
+            "ready",
+            "happy"
+          ],
+          "prompt": "Are you {{blank}} in this modern world?",
+          "promptZh": "在這個現代世界裡，妳真的幸福嗎？"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "modern world",
+          "options": [
+            "different world",
+            "modern world",
+            "changing world"
+          ],
+          "prompt": "Are you happy in this {{blank}}?",
+          "promptZh": "在這個現代世界裡，妳真的幸福嗎？"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-3",
+          "answer": "need more",
+          "options": [
+            "feel more",
+            "need more",
+            "want less"
+          ],
+          "prompt": "Or do you {{blank}}?",
+          "promptZh": "還是妳渴望得到更多？"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-4",
+          "answer": "searchin' for",
+          "options": [
+            "searchin' for",
+            "waiting for",
+            "looking at"
+          ],
+          "prompt": "Is there somethin' else you're {{blank}}?",
+          "promptZh": "是否還有什麼，是妳一直在尋找的？"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-5",
+          "answer": "falling",
+          "options": [
+            "calling",
+            "failing",
+            "falling"
+          ],
+          "prompt": "I'm {{blank}}",
+          "promptZh": "我正漸漸沉淪"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-6",
+          "answer": "good times",
+          "options": [
+            "good times",
+            "hard times",
+            "old days"
+          ],
+          "prompt": "In all the {{blank}} I find myself longin' for change",
+          "promptZh": "即使身處美好的時光，我仍發現自己渴望改變"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-6",
+          "answer": "find myself",
+          "options": [
+            "find myself",
+            "feel myself",
+            "remind myself"
+          ],
+          "prompt": "In all the good times I {{blank}} longin' for change",
+          "promptZh": "即使身處美好的時光，我仍發現自己渴望改變"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-6",
+          "answer": "longin' for change",
+          "options": [
+            "looking for love",
+            "waiting for change",
+            "longin' for change"
+          ],
+          "prompt": "In all the good times I find myself {{blank}}",
+          "promptZh": "即使身處美好的時光，我仍發現自己渴望改變"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-7",
+          "answer": "bad times",
+          "options": [
+            "bad times",
+            "sad times",
+            "hard days"
+          ],
+          "prompt": "And, in the {{blank}}, I fear myself",
+          "promptZh": "而在艱難的時刻，我卻害怕面對自己"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-7",
+          "answer": "fear myself",
+          "options": [
+            "fear myself",
+            "hear myself",
+            "lose myself"
+          ],
+          "prompt": "And, in the bad times, I {{blank}}",
+          "promptZh": "而在艱難的時刻，我卻害怕面對自己"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-8",
+          "answer": "something",
+          "options": [
+            "nothing",
+            "someone",
+            "something"
+          ],
+          "prompt": "Tell me {{blank}}, boy",
+          "promptZh": "告訴我吧，男孩"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-9",
+          "answer": "tired",
+          "options": [
+            "trying",
+            "tired",
+            "scared"
+          ],
+          "prompt": "Aren't you {{blank}} tryna fill that void?",
+          "promptZh": "你難道不曾厭倦，一再試圖填補心中的空虛？"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-9",
+          "answer": "tryna",
+          "options": [
+            "tryna",
+            "trying to",
+            "gonna"
+          ],
+          "prompt": "Aren't you tired {{blank}} fill that void?",
+          "promptZh": "你難道不曾厭倦，一再試圖填補心中的空虛？"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-9",
+          "answer": "fill that void",
+          "options": [
+            "feel that pain",
+            "fill that void",
+            "hide that fear"
+          ],
+          "prompt": "Aren't you tired tryna {{blank}}?",
+          "promptZh": "你難道不曾厭倦，一再試圖填補心中的空虛？"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-10",
+          "answer": "need more",
+          "options": [
+            "want more",
+            "feel more",
+            "need more"
+          ],
+          "prompt": "Or do you {{blank}}?",
+          "promptZh": "還是你仍渴望得到更多？"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-11",
+          "answer": "Ain't it hard",
+          "options": [
+            "Isn't it strange",
+            "Ain't it hard",
+            "Ain't it sad"
+          ],
+          "prompt": "{{blank}} keeping it so hardcore?",
+          "promptZh": "一直強撐著那副強硬的模樣，難道不累嗎？"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-11",
+          "answer": "keeping it",
+          "options": [
+            "making it",
+            "taking it",
+            "keeping it"
+          ],
+          "prompt": "Ain't it hard {{blank}} so hardcore?",
+          "promptZh": "一直強撐著那副強硬的模樣，難道不累嗎？"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-11",
+          "answer": "hardcore",
+          "options": [
+            "so sure",
+            "hard work",
+            "hardcore"
+          ],
+          "prompt": "Ain't it hard keeping it so {{blank}}?",
+          "promptZh": "一直強撐著那副強硬的模樣，難道不累嗎？"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-12",
+          "answer": "falling",
+          "options": [
+            "calling",
+            "falling",
+            "failing"
+          ],
+          "prompt": "I'm {{blank}}",
+          "promptZh": "我正漸漸沉淪"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-13",
+          "answer": "longin' for change",
+          "options": [
+            "looking for love",
+            "waiting for change",
+            "longin' for change"
+          ],
+          "prompt": "In all the good times I find myself {{blank}}",
+          "promptZh": "即使身處美好的時光，我仍發現自己渴望改變"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-15",
+          "answer": "I'm off",
+          "options": [
+            "I'm off",
+            "I fall",
+            "I'm lost"
+          ],
+          "prompt": "{{blank}} the deep end, watch as I dive in",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-15",
+          "answer": "deep end",
+          "options": [
+            "deep down",
+            "deep end",
+            "dark end"
+          ],
+          "prompt": "I'm off the {{blank}}, watch as I dive in",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-15",
+          "answer": "watch as I",
+          "options": [
+            "watch as I",
+            "wait while I",
+            "look as I"
+          ],
+          "prompt": "I'm off the deep end, {{blank}} dive in",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-15",
+          "answer": "dive in",
+          "options": [
+            "give in",
+            "dive in",
+            "drive in"
+          ],
+          "prompt": "I'm off the deep end, watch as I {{blank}}",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-16",
+          "answer": "never",
+          "options": [
+            "ever",
+            "never",
+            "really"
+          ],
+          "prompt": "I'll {{blank}} meet the ground",
+          "promptZh": "我將永遠不會觸及水底"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-16",
+          "answer": "meet the ground",
+          "options": [
+            "hit the ground",
+            "reach the sky",
+            "meet the ground"
+          ],
+          "prompt": "I'll never {{blank}}",
+          "promptZh": "我將永遠不會觸及水底"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-17",
+          "answer": "Crash through",
+          "options": [
+            "Break through",
+            "Crash through",
+            "Fall through"
+          ],
+          "prompt": "{{blank}} the surface where they can't hurt us",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-17",
+          "answer": "surface",
+          "options": [
+            "silence",
+            "surface",
+            "current"
+          ],
+          "prompt": "Crash through the {{blank}} where they can't hurt us",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-17",
+          "answer": "where they can't",
+          "options": [
+            "where we can't",
+            "when they don't",
+            "where they can't"
+          ],
+          "prompt": "Crash through the surface {{blank}} hurt us",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-17",
+          "answer": "hurt us",
+          "options": [
+            "hurt us",
+            "find us",
+            "stop us"
+          ],
+          "prompt": "Crash through the surface where they can't {{blank}}",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-18",
+          "answer": "far from",
+          "options": [
+            "far from",
+            "free from",
+            "close to"
+          ],
+          "prompt": "We're {{blank}} the shallow now",
+          "promptZh": "如今，我們已遠離那片淺灘"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-18",
+          "answer": "shallow",
+          "options": [
+            "shadow",
+            "shallow",
+            "hollow"
+          ],
+          "prompt": "We're far from the {{blank}} now",
+          "promptZh": "如今，我們已遠離那片淺灘"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-26",
+          "answer": "deep end",
+          "options": [
+            "deep end",
+            "deep down",
+            "dark end"
+          ],
+          "prompt": "I'm off the {{blank}}, watch as I dive in",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-26",
+          "answer": "dive in",
+          "options": [
+            "dive in",
+            "give in",
+            "drive in"
+          ],
+          "prompt": "I'm off the deep end, watch as I {{blank}}",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-27",
+          "answer": "meet the ground",
+          "options": [
+            "hit the ground",
+            "reach the sky",
+            "meet the ground"
+          ],
+          "prompt": "I'll never {{blank}}",
+          "promptZh": "我將永遠不會觸及水底"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-28",
+          "answer": "Crash through",
+          "options": [
+            "Break through",
+            "Fall through",
+            "Crash through"
+          ],
+          "prompt": "{{blank}} the surface where they can't hurt us",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-28",
+          "answer": "surface",
+          "options": [
+            "surface",
+            "silence",
+            "current"
+          ],
+          "prompt": "Crash through the {{blank}} where they can't hurt us",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-28",
+          "answer": "hurt us",
+          "options": [
+            "find us",
+            "stop us",
+            "hurt us"
+          ],
+          "prompt": "Crash through the surface where they can't {{blank}}",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-29",
+          "answer": "shallow",
+          "options": [
+            "shallow",
+            "shadow",
+            "hollow"
+          ],
+          "prompt": "We're far from the {{blank}} now",
+          "promptZh": "如今，我們已遠離那片淺灘"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Tell me {{q:1}}, girl"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Are you {{q:2}} in this {{q:3}}?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Or do you {{q:4}}?"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Is there somethin' else you're {{q:5}}?"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I'm {{q:6}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "In all the {{q:7}} I {{q:8}} {{q:9}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And, in the {{q:10}}, I {{q:11}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Tell me {{q:12}}, boy"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Aren't you {{q:13}} {{q:14}} {{q:15}}?"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Or do you {{q:16}}?"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:17}} {{q:18}} so {{q:19}}?"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I'm {{q:20}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "In all the good times I find myself {{q:21}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And, in the bad times, I fear myself"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:22}} the {{q:23}}, {{q:24}} {{q:25}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I'll {{q:26}} {{q:27}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:28}} the {{q:29}} {{q:30}} {{q:31}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "We're {{q:32}} the {{q:33}} now"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "In the sha-ha-sha-ha-low"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "In the sha-ha-sha-la-la-la-low"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "In the sha-ha-sha-ha-ha-low"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "We're far from the shallow now"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Oh, ha, ah, ha"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Oh-ah, ha"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Oh, ha, ah, ha"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I'm off the {{q:34}}, watch as I {{q:35}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I'll never {{q:36}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:37}} the {{q:38}} where they can't {{q:39}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "We're far from the {{q:40}} now"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "In the sha-ha-sha-ha-low"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "In the sha-ha-sha-la-la-la-low"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "In the sha-ha-sha-ha-ha-low"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "We're far from the shallow now"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "somethin'",
+          "options": [
+            "anything",
+            "somethin'",
+            "nothing"
+          ],
+          "prompt": "Tell me {{blank}}, girl",
+          "promptZh": "告訴我吧，女孩"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "happy",
+          "options": [
+            "lonely",
+            "ready",
+            "happy"
+          ],
+          "prompt": "Are you {{blank}} in this modern world?",
+          "promptZh": "在這個現代世界裡，妳真的幸福嗎？"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "modern world",
+          "options": [
+            "different world",
+            "changing world",
+            "modern world"
+          ],
+          "prompt": "Are you happy in this {{blank}}?",
+          "promptZh": "在這個現代世界裡，妳真的幸福嗎？"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-3",
+          "answer": "need more",
+          "options": [
+            "need more",
+            "feel more",
+            "want less"
+          ],
+          "prompt": "Or do you {{blank}}?",
+          "promptZh": "還是妳渴望得到更多？"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-4",
+          "answer": "somethin' else",
+          "options": [
+            "somethin' else",
+            "something new",
+            "someone else"
+          ],
+          "prompt": "Is there {{blank}} you're searchin' for?",
+          "promptZh": "是否還有什麼，是妳一直在尋找的？"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-4",
+          "answer": "searchin' for",
+          "options": [
+            "waiting for",
+            "searchin' for",
+            "looking at"
+          ],
+          "prompt": "Is there somethin' else you're {{blank}}?",
+          "promptZh": "是否還有什麼，是妳一直在尋找的？"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-5",
+          "answer": "falling",
+          "options": [
+            "calling",
+            "falling",
+            "failing"
+          ],
+          "prompt": "I'm {{blank}}",
+          "promptZh": "我正漸漸沉淪"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-6",
+          "answer": "good times",
+          "options": [
+            "good times",
+            "hard times",
+            "old days"
+          ],
+          "prompt": "In all the {{blank}} I find myself longin' for change",
+          "promptZh": "即使身處美好的時光，我仍發現自己渴望改變"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-6",
+          "answer": "find myself",
+          "options": [
+            "feel myself",
+            "remind myself",
+            "find myself"
+          ],
+          "prompt": "In all the good times I {{blank}} longin' for change",
+          "promptZh": "即使身處美好的時光，我仍發現自己渴望改變"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-6",
+          "answer": "longin' for change",
+          "options": [
+            "longin' for change",
+            "looking for love",
+            "waiting for change"
+          ],
+          "prompt": "In all the good times I find myself {{blank}}",
+          "promptZh": "即使身處美好的時光，我仍發現自己渴望改變"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-7",
+          "answer": "bad times",
+          "options": [
+            "sad times",
+            "hard days",
+            "bad times"
+          ],
+          "prompt": "And, in the {{blank}}, I fear myself",
+          "promptZh": "而在艱難的時刻，我卻害怕面對自己"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-7",
+          "answer": "fear myself",
+          "options": [
+            "hear myself",
+            "fear myself",
+            "lose myself"
+          ],
+          "prompt": "And, in the bad times, I {{blank}}",
+          "promptZh": "而在艱難的時刻，我卻害怕面對自己"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-8",
+          "answer": "Tell me",
+          "options": [
+            "Show me",
+            "Tell me",
+            "Help me"
+          ],
+          "prompt": "{{blank}} something, boy",
+          "promptZh": "告訴我吧，男孩"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-8",
+          "answer": "something",
+          "options": [
+            "nothing",
+            "someone",
+            "something"
+          ],
+          "prompt": "Tell me {{blank}}, boy",
+          "promptZh": "告訴我吧，男孩"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-9",
+          "answer": "tired",
+          "options": [
+            "trying",
+            "scared",
+            "tired"
+          ],
+          "prompt": "Aren't you {{blank}} tryna fill that void?",
+          "promptZh": "你難道不曾厭倦，一再試圖填補心中的空虛？"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-9",
+          "answer": "tryna",
+          "options": [
+            "tryna",
+            "trying to",
+            "gonna"
+          ],
+          "prompt": "Aren't you tired {{blank}} fill that void?",
+          "promptZh": "你難道不曾厭倦，一再試圖填補心中的空虛？"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-9",
+          "answer": "fill that void",
+          "options": [
+            "feel that pain",
+            "hide that fear",
+            "fill that void"
+          ],
+          "prompt": "Aren't you tired tryna {{blank}}?",
+          "promptZh": "你難道不曾厭倦，一再試圖填補心中的空虛？"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-10",
+          "answer": "need more",
+          "options": [
+            "need more",
+            "want more",
+            "feel more"
+          ],
+          "prompt": "Or do you {{blank}}?",
+          "promptZh": "還是你仍渴望得到更多？"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-11",
+          "answer": "Ain't it hard",
+          "options": [
+            "Ain't it hard",
+            "Isn't it strange",
+            "Ain't it sad"
+          ],
+          "prompt": "{{blank}} keeping it so hardcore?",
+          "promptZh": "一直強撐著那副強硬的模樣，難道不累嗎？"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-11",
+          "answer": "keeping it",
+          "options": [
+            "making it",
+            "keeping it",
+            "taking it"
+          ],
+          "prompt": "Ain't it hard {{blank}} so hardcore?",
+          "promptZh": "一直強撐著那副強硬的模樣，難道不累嗎？"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-11",
+          "answer": "hardcore",
+          "options": [
+            "so sure",
+            "hardcore",
+            "hard work"
+          ],
+          "prompt": "Ain't it hard keeping it so {{blank}}?",
+          "promptZh": "一直強撐著那副強硬的模樣，難道不累嗎？"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-12",
+          "answer": "falling",
+          "options": [
+            "falling",
+            "calling",
+            "failing"
+          ],
+          "prompt": "I'm {{blank}}",
+          "promptZh": "我正漸漸沉淪"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-13",
+          "answer": "good times",
+          "options": [
+            "bad times",
+            "old days",
+            "good times"
+          ],
+          "prompt": "In all the {{blank}} I find myself longin' for change",
+          "promptZh": "即使身處美好的時光，我仍發現自己渴望改變"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-13",
+          "answer": "longin' for change",
+          "options": [
+            "longin' for change",
+            "looking for love",
+            "waiting for change"
+          ],
+          "prompt": "In all the good times I find myself {{blank}}",
+          "promptZh": "即使身處美好的時光，我仍發現自己渴望改變"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-14",
+          "answer": "fear myself",
+          "options": [
+            "hear myself",
+            "lose myself",
+            "fear myself"
+          ],
+          "prompt": "And, in the bad times, I {{blank}}",
+          "promptZh": "而在艱難的時刻，我卻害怕面對自己"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-15",
+          "answer": "I'm off",
+          "options": [
+            "I'm off",
+            "I fall",
+            "I'm lost"
+          ],
+          "prompt": "{{blank}} the deep end, watch as I dive in",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-15",
+          "answer": "deep end",
+          "options": [
+            "deep down",
+            "dark end",
+            "deep end"
+          ],
+          "prompt": "I'm off the {{blank}}, watch as I dive in",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-15",
+          "answer": "watch as I",
+          "options": [
+            "watch as I",
+            "wait while I",
+            "look as I"
+          ],
+          "prompt": "I'm off the deep end, {{blank}} dive in",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-15",
+          "answer": "dive in",
+          "options": [
+            "give in",
+            "drive in",
+            "dive in"
+          ],
+          "prompt": "I'm off the deep end, watch as I {{blank}}",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-16",
+          "answer": "never",
+          "options": [
+            "never",
+            "ever",
+            "really"
+          ],
+          "prompt": "I'll {{blank}} meet the ground",
+          "promptZh": "我將永遠不會觸及水底"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-16",
+          "answer": "meet the ground",
+          "options": [
+            "hit the ground",
+            "meet the ground",
+            "reach the sky"
+          ],
+          "prompt": "I'll never {{blank}}",
+          "promptZh": "我將永遠不會觸及水底"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-17",
+          "answer": "Crash through",
+          "options": [
+            "Crash through",
+            "Break through",
+            "Fall through"
+          ],
+          "prompt": "{{blank}} the surface where they can't hurt us",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-17",
+          "answer": "surface",
+          "options": [
+            "silence",
+            "surface",
+            "current"
+          ],
+          "prompt": "Crash through the {{blank}} where they can't hurt us",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-17",
+          "answer": "where they can't",
+          "options": [
+            "where we can't",
+            "where they can't",
+            "when they don't"
+          ],
+          "prompt": "Crash through the surface {{blank}} hurt us",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-17",
+          "answer": "hurt us",
+          "options": [
+            "find us",
+            "stop us",
+            "hurt us"
+          ],
+          "prompt": "Crash through the surface where they can't {{blank}}",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-18",
+          "answer": "far from",
+          "options": [
+            "far from",
+            "free from",
+            "close to"
+          ],
+          "prompt": "We're {{blank}} the shallow now",
+          "promptZh": "如今，我們已遠離那片淺灘"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-18",
+          "answer": "shallow",
+          "options": [
+            "shadow",
+            "shallow",
+            "hollow"
+          ],
+          "prompt": "We're far from the {{blank}} now",
+          "promptZh": "如今，我們已遠離那片淺灘"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-22",
+          "answer": "shallow",
+          "options": [
+            "shallow",
+            "shadow",
+            "hollow"
+          ],
+          "prompt": "We're far from the {{blank}} now",
+          "promptZh": "如今，我們已遠離那片淺灘"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-26",
+          "answer": "deep end",
+          "options": [
+            "deep down",
+            "deep end",
+            "dark end"
+          ],
+          "prompt": "I'm off the {{blank}}, watch as I dive in",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-26",
+          "answer": "watch as I",
+          "options": [
+            "wait while I",
+            "watch as I",
+            "look as I"
+          ],
+          "prompt": "I'm off the deep end, {{blank}} dive in",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-26",
+          "answer": "dive in",
+          "options": [
+            "give in",
+            "drive in",
+            "dive in"
+          ],
+          "prompt": "I'm off the deep end, watch as I {{blank}}",
+          "promptZh": "我已躍向深水的盡頭，看著我縱身躍入其中"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-27",
+          "answer": "never",
+          "options": [
+            "ever",
+            "never",
+            "really"
+          ],
+          "prompt": "I'll {{blank}} meet the ground",
+          "promptZh": "我將永遠不會觸及水底"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-27",
+          "answer": "meet the ground",
+          "options": [
+            "meet the ground",
+            "hit the ground",
+            "reach the sky"
+          ],
+          "prompt": "I'll never {{blank}}",
+          "promptZh": "我將永遠不會觸及水底"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-28",
+          "answer": "Crash through",
+          "options": [
+            "Break through",
+            "Fall through",
+            "Crash through"
+          ],
+          "prompt": "{{blank}} the surface where they can't hurt us",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-28",
+          "answer": "surface",
+          "options": [
+            "silence",
+            "current",
+            "surface"
+          ],
+          "prompt": "Crash through the {{blank}} where they can't hurt us",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-28",
+          "answer": "where they can't",
+          "options": [
+            "where we can't",
+            "where they can't",
+            "when they don't"
+          ],
+          "prompt": "Crash through the surface {{blank}} hurt us",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-28",
+          "answer": "hurt us",
+          "options": [
+            "find us",
+            "stop us",
+            "hurt us"
+          ],
+          "prompt": "Crash through the surface where they can't {{blank}}",
+          "promptZh": "衝破水面，潛入那個他人再也無法傷害我們的地方"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-29",
+          "answer": "far from",
+          "options": [
+            "free from",
+            "far from",
+            "close to"
+          ],
+          "prompt": "We're {{blank}} the shallow now",
+          "promptZh": "如今，我們已遠離那片淺灘"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-29",
+          "answer": "shallow",
+          "options": [
+            "shallow",
+            "shadow",
+            "hollow"
+          ],
+          "prompt": "We're far from the {{blank}} now",
+          "promptZh": "如今，我們已遠離那片淺灘"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-33",
+          "answer": "shallow",
+          "options": [
+            "shadow",
+            "shallow",
+            "hollow"
+          ],
+          "prompt": "We're far from the {{blank}} now",
+          "promptZh": "如今，我們已遠離那片淺灘"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Tell me {{q:1}}, girl"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Are you {{q:2}} in this {{q:3}}?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Or do you {{q:4}}?"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Is there {{q:5}} you're {{q:6}}?"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I'm {{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "In all the {{q:8}} I {{q:9}} {{q:10}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And, in the {{q:11}}, I {{q:12}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:13}} {{q:14}}, boy"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Aren't you {{q:15}} {{q:16}} {{q:17}}?"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Or do you {{q:18}}?"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:19}} {{q:20}} so {{q:21}}?"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I'm {{q:22}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "In all the {{q:23}} I find myself {{q:24}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And, in the bad times, I {{q:25}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:26}} the {{q:27}}, {{q:28}} {{q:29}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I'll {{q:30}} {{q:31}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:32}} the {{q:33}} {{q:34}} {{q:35}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "We're {{q:36}} the {{q:37}} now"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "In the sha-ha-sha-ha-low"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "In the sha-ha-sha-la-la-la-low"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "In the sha-ha-sha-ha-ha-low"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "We're far from the {{q:38}} now"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Oh, ha, ah, ha"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Oh-ah, ha"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Oh, ha, ah, ha"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I'm off the {{q:39}}, {{q:40}} {{q:41}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I'll {{q:42}} {{q:43}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:44}} the {{q:45}} {{q:46}} {{q:47}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "We're {{q:48}} the {{q:49}} now"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "In the sha-ha-sha-ha-low"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "In the sha-ha-sha-la-la-la-low"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "In the sha-ha-sha-ha-ha-low"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "We're far from the {{q:50}} now"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Shallow · Listening & Vocabulary",
+  "description": "《Shallow》描寫兩個內心充滿空虛與迷惘的人，渴望擺脫表面生活、尋找真實情感的故事。歌曲透過男女雙方的對話，表達他們對現實生活的不滿足，以及對改變與幸福的渴望。即使身處美好的時光，他們仍然感到不安，害怕面對內心的脆弱與恐懼。然而，當兩人逐漸敞開心扉，便決定勇敢跨越原有的界限，投入更深刻的感情。歌曲中的「淺灘」象徵膚淺的生活與外界的束縛，而「深水」則代表未知、真誠與冒險。最終，《Shallow》傳達的是勇氣、自我探索與真愛的力量：真正的幸福不在於表面的光鮮，而是願意放下防備，勇敢面對自己，與重要的人建立真實而深厚的連結。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Search for",
+      "meaning": "尋找……",
+      "usage": "當你正在找人、物品或答案時使用。",
+      "prompt": "哪一句正確使用這個單字／片語？",
+      "options": [
+        "I am searching for my keys. Have you seen them?",
+        "I search for my sandwich with cheese to eat it.",
+        "She searches for happy every Sunday.",
+        "We searched for the bus to school by riding it."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：search for 表示尋找，後面接要找的東西。",
+        "錯誤：這裡是想吃三明治，不是尋找它；可以說 I want to eat my sandwich.",
+        "錯誤：happy 是形容詞，不能直接作為 search for 的受詞；可說 She searches for happiness.",
+        "錯誤：這裡描述搭公車，不是尋找公車；可說 We took the bus to school."
+      ],
+      "explanation": "正確：search for 表示尋找，後面接要找的東西。"
+    },
+    {
+      "number": 2,
+      "word": "Long for",
+      "meaning": "渴望、非常想要",
+      "usage": "想念某人或非常希望某件事發生時使用，語氣比 want 強。",
+      "prompt": "哪一句正確使用這個單字／片語？",
+      "options": [
+        "I long for my homework with a blue pen.",
+        "After a long trip, I long for my own bed.",
+        "She longs for to eat a pizza.",
+        "He longs for the window to close it with his hand."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：這裡是寫作業，不是渴望作業；可說 I do my homework with a blue pen.",
+        "正確：旅行後很想念自己的床，適合用 long for。",
+        "錯誤：long for 後接名詞或 -ing；可說 She longs for pizza，或 She longs to eat pizza.",
+        "錯誤：只是要關窗戶，不是在表達渴望；可說 He wants to close the window."
+      ],
+      "explanation": "正確：旅行後很想念自己的床，適合用 long for。"
+    },
+    {
+      "number": 3,
+      "word": "Fill a void",
+      "meaning": "填補空虛、填補心中的空缺",
+      "usage": "談到孤單或生活中少了某種重要感受時使用。",
+      "prompt": "哪一句正確使用這個單字／片語？",
+      "options": [
+        "I fill a void with water before I drink it.",
+        "After my dog died, a new pet helped fill the void.",
+        "My mum fills a void in the cake with milk.",
+        "I fill a void to the supermarket every day."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：裝水應說 fill a glass with water；void 不是杯子。",
+        "正確：新寵物幫助減輕失去寵物後的空虛感。",
+        "錯誤：蛋糕中的洞較自然說 a hole；fill a void 通常指內心空缺。",
+        "錯誤：fill a void 不能表示去某個地方；可說 I go to the supermarket."
+      ],
+      "explanation": "正確：新寵物幫助減輕失去寵物後的空虛感。"
+    },
+    {
+      "number": 4,
+      "word": "Find myself + -ing",
+      "meaning": "發現自己不知不覺正在做某事",
+      "usage": "當你注意到自己常常或不自覺地做某事時使用。",
+      "prompt": "哪一句正確使用這個單字／片語？",
+      "options": [
+        "I find myself to sleep at eight every day.",
+        "She finds herself a new bag in the shop every week.",
+        "We find ourselves are eating breakfast.",
+        "I find myself smiling when I see my cat."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：此句型後接動詞 -ing；可說 I find myself sleeping early.",
+        "錯誤：這句是為自己找到包包，不是 find myself + -ing 的目標句型。",
+        "錯誤：find ourselves 後面不需要 are；可說 We find ourselves eating breakfast.",
+        "正確：表示看到貓時，發現自己會不自覺微笑。"
+      ],
+      "explanation": "正確：表示看到貓時，發現自己會不自覺微笑。"
+    },
+    {
+      "number": 5,
+      "word": "Be tired of",
+      "meaning": "對……感到厭倦、受夠了",
+      "usage": "某件事一直發生，讓你不想再繼續時使用。",
+      "prompt": "哪一句正確使用這個單字／片語？",
+      "options": [
+        "I am tired of eating the same lunch every day.",
+        "I am tired of to go school.",
+        "My shoes are tired of under the bed.",
+        "She is tired of very sleepy today."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：表示每天吃同樣午餐，已經吃膩了。",
+        "錯誤：of 後面用名詞或 -ing；可說 I am tired of going to school.",
+        "錯誤：鞋子不會對位置感到厭倦；可說 My shoes are under the bed.",
+        "錯誤：形容今天很累應說 She is very tired today。"
+      ],
+      "explanation": "正確：表示每天吃同樣午餐，已經吃膩了。"
+    },
+    {
+      "number": 6,
+      "word": "Dive in",
+      "meaning": "跳入水中；立刻投入一件事",
+      "usage": "可以描述跳水，也可以形容勇敢開始做某事。",
+      "prompt": "哪一句正確使用這個單字／片語？",
+      "options": [
+        "I dive in my phone to call my friend.",
+        "The water looks great. Let’s dive in!",
+        "She dives in her dinner with a spoon.",
+        "We dive in to the clock at nine."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：打電話不使用 dive in；可說 I use my phone to call my friend.",
+        "正確：表示水看起來很棒，一起跳進水裡。",
+        "錯誤：吃晚餐不能這樣使用；可說 She eats dinner with a spoon.",
+        "錯誤：dive in 不能表示看時間；可說 We look at the clock."
+      ],
+      "explanation": "正確：表示水看起來很棒，一起跳進水裡。"
+    },
+    {
+      "number": 7,
+      "word": "Off the deep end",
+      "meaning": "情緒失控；（字面）深水區一端",
+      "usage": "常見片語 go off the deep end 表示反應過度或失去冷靜；歌詞也借用了深水的畫面。",
+      "prompt": "哪一句正確使用這個單字／片語？",
+      "options": [
+        "Dad went off the deep end when he saw paint on the sofa.",
+        "I put my sandwich off the deep end of the plate.",
+        "My bus goes off the deep end to the station.",
+        "She is off the deep end happy with ice cream."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：表示爸爸看到沙發沾上油漆後，反應非常激動。",
+        "錯誤：這不是餐盤邊緣的說法；可說 at the edge of the plate.",
+        "錯誤：不能用它表示公車開往車站；可說 My bus goes to the station.",
+        "錯誤：此片語不能直接表示非常開心；可說 She is very happy."
+      ],
+      "explanation": "正確：表示爸爸看到沙發沾上油漆後，反應非常激動。"
+    },
+    {
+      "number": 8,
+      "word": "Crash through",
+      "meaning": "猛烈撞破、衝破……",
+      "usage": "東西用很大的力量撞破門、窗或其他表面時使用。",
+      "prompt": "哪一句正確使用這個單字／片語？",
+      "options": [
+        "I crash through my homework with a pencil.",
+        "He crashed through a song on the radio.",
+        "The ball crashed through the window and broke it.",
+        "We crash through dinner at six every night."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：寫作業不能用 crash through；可說 I do my homework.",
+        "錯誤：這裡應用 listen to 表示聽歌；不是撞破歌曲。",
+        "正確：球猛烈撞破窗戶，符合 crash through 的意思。",
+        "錯誤：吃飯不能用這個片語；可說 We eat dinner at six."
+      ],
+      "explanation": "正確：球猛烈撞破窗戶，符合 crash through 的意思。"
+    },
+    {
+      "number": 9,
+      "word": "Far from",
+      "meaning": "離……很遠；遠非……",
+      "usage": "描述距離很遠，或某件事與預期非常不同時使用。",
+      "prompt": "哪一句正確使用這個單字／片語？",
+      "options": [
+        "I am far from my dinner because I am hungry.",
+        "She far from loves her dog.",
+        "My school is far from my home, so I take the bus.",
+        "We far from to the park every day."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：這裡是說肚子餓，不是距離；可說 I am hungry and want dinner.",
+        "錯誤：far from 不能直接這樣修飾 loves；可說 She loves her dog very much.",
+        "正確：學校離家很遠，所以需要搭公車。",
+        "錯誤：far from 不是表示前往某處的動詞；可說 We go to the park."
+      ],
+      "explanation": "正確：學校離家很遠，所以需要搭公車。"
+    },
+    {
+      "number": 10,
+      "word": "Surface",
+      "meaning": "表面；水面",
+      "usage": "談到水面、桌面或物體最外層時使用。",
+      "prompt": "哪一句正確使用這個單字／片語？",
+      "options": [
+        "I surface my breakfast at seven.",
+        "She put a surface in her shoes to walk.",
+        "We went surface to our grandparents yesterday.",
+        "The duck is swimming on the surface of the lake."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：surface 不能代替 eat；可說 I eat breakfast at seven.",
+        "錯誤：surface 不是鞋子內的可數物品；可說 She put on her shoes.",
+        "錯誤：surface 不能作為探望人的動詞；可說 We visited our grandparents.",
+        "正確：鴨子在湖面游泳，surface 表示水面。"
+      ],
+      "explanation": "正確：鴨子在湖面游泳，surface 表示水面。"
+    }
+  ],
+  "tags": [
+    "lady gaga & bradley cooper",
+    "shallow",
+    "connection",
+    "vulnerability"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/shallow/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/shallow/user-cover-20261030.png",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 217.2125625,
+    "audioSha256": "9b5801b85a1e22e2324d464b684af2de6bd724f095167342700d4b76e1c1b7a0",
+    "timedLines": 20,
+    "untimedLines": 13,
+    "reviewStatus": "Conservative automatic cues; uncertain background or unmatched lines remain visible without guessed timing."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Shallow_.pdf",
+      "sha256": "6c6a73607e78c04d8a50059cb7da52330f9f0f160b476469b19181d8ac967ab5"
+    },
+    "chosenListening": {
+      "filename": "Shallow_Four_Level_Listening_Exercise.docx",
+      "sha256": "b604655cc2867e9813c1d0c3b6bb1b06fc300523ddae82e3bedf5228833b0cab"
+    },
+    "chosenVocabulary": {
+      "filename": "Shallow_Vocabulary_Quiz.md",
+      "sha256": "3254a9ed243b86fcf63d4b60f9e0810250be7d0eccd111434a580684f9f6e89c"
+    },
+    "audio": {
+      "filename": "Shallow (Radio Edit) [BpIf43m2ZQI].mp3",
+      "sha256": "9b5801b85a1e22e2324d464b684af2de6bd724f095167342700d4b76e1c1b7a0"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-196a038f-9de7-4235-b508-b4a3cc046a42.png",
+    "sha256": "2bee483fd2e58337d41c8696256f7749ae4662a6da42f54cb904a9434858b581",
+    "transformations": "none"
+  }
+}

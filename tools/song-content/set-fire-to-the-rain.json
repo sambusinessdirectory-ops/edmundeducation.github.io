@@ -1,0 +1,5022 @@
+{
+  "slug": "set-fire-to-the-rain",
+  "title": "Set Fire To The Rain",
+  "singer": "Adele",
+  "translations": [
+    {
+      "english": "I let it fall, my heart",
+      "chinese": "我任由自己的心墜落",
+      "lineId": "line-1",
+      "startSeconds": 7.5,
+      "endSeconds": 12.1
+    },
+    {
+      "english": "And as it fell, you rose to claim it",
+      "chinese": "就在它墜落之際，你卻出現，將它據為己有",
+      "lineId": "line-2",
+      "startSeconds": 12.88,
+      "endSeconds": 16.6
+    },
+    {
+      "english": "It was dark, and I was over",
+      "chinese": "那時四周一片黑暗，而我早已瀕臨崩潰",
+      "lineId": "line-3",
+      "startSeconds": 16.6,
+      "endSeconds": 20.6
+    },
+    {
+      "english": "Until you kissed my lips and you saved me",
+      "chinese": "直到你吻上我的雙唇，將我從絕望中拯救出來",
+      "lineId": "line-4",
+      "startSeconds": 20.6,
+      "endSeconds": 26.0
+    },
+    {
+      "english": "My hands, they were strong",
+      "chinese": "我的雙手，曾是如此堅強",
+      "lineId": "line-5",
+      "startSeconds": 26.0,
+      "endSeconds": 29.8
+    },
+    {
+      "english": "But my knees were far too weak",
+      "chinese": "可我的雙膝，卻軟弱得無法支撐",
+      "lineId": "line-6",
+      "startSeconds": 30.32,
+      "endSeconds": 34.66
+    },
+    {
+      "english": "To stand in your arms",
+      "chinese": "讓我安然站立在你的懷抱裡",
+      "lineId": "line-7",
+      "startSeconds": 34.66,
+      "endSeconds": 38.68
+    },
+    {
+      "english": "Without falling to your feet",
+      "chinese": "而不至於癱軟在你的腳邊",
+      "lineId": "line-8",
+      "startSeconds": 38.68,
+      "endSeconds": 42.82
+    },
+    {
+      "english": "But there's a side to you",
+      "chinese": "可你卻有著不為人知的另一面",
+      "lineId": "line-9",
+      "startSeconds": 42.82,
+      "endSeconds": 46.32
+    },
+    {
+      "english": "That I never knew, never knew",
+      "chinese": "是我從未了解、從未察覺的一面",
+      "lineId": "line-10",
+      "startSeconds": 46.32,
+      "endSeconds": 48.46
+    },
+    {
+      "english": "All the things you'd say",
+      "chinese": "你曾說過的每一句話",
+      "lineId": "line-11",
+      "startSeconds": 48.46,
+      "endSeconds": 50.62
+    },
+    {
+      "english": "They were never true, never true",
+      "chinese": "原來從不真實，從來都只是謊言",
+      "lineId": "line-12",
+      "startSeconds": 50.62,
+      "endSeconds": 52.98
+    },
+    {
+      "english": "And the games you'd play",
+      "chinese": "而你所玩弄的那些感情遊戲",
+      "lineId": "line-13",
+      "startSeconds": 52.98,
+      "endSeconds": 55.04
+    },
+    {
+      "english": "You would always win, always win",
+      "chinese": "你總是贏家，永遠都是贏家",
+      "lineId": "line-14",
+      "startSeconds": 55.46,
+      "endSeconds": 58.04
+    },
+    {
+      "english": "But I set fire to the rain",
+      "chinese": "可我卻點燃了漫天的雨",
+      "lineId": "line-15",
+      "startSeconds": 58.04,
+      "endSeconds": 63.56
+    },
+    {
+      "english": "Watched it pour as I touched your face",
+      "chinese": "當我輕撫你的臉龐，望著雨水傾瀉而下",
+      "lineId": "line-16"
+    },
+    {
+      "english": "Well, it burned while I cried",
+      "chinese": "雨在燃燒，而我卻淚流不止",
+      "lineId": "line-17"
+    },
+    {
+      "english": "'Cause I heard it screaming out your name, your name!",
+      "chinese": "因為我聽見那火雨，正聲嘶力竭地呼喊你的名字，你的名字！",
+      "lineId": "line-18",
+      "startSeconds": 70.66,
+      "endSeconds": 76.64
+    },
+    {
+      "english": "When I lay with you",
+      "chinese": "當我與你相依而臥",
+      "lineId": "line-19"
+    },
+    {
+      "english": "I could stay there",
+      "chinese": "我真想就這樣一直停留",
+      "lineId": "line-20",
+      "startSeconds": 81.1,
+      "endSeconds": 83.78
+    },
+    {
+      "english": "Close my eyes",
+      "chinese": "輕輕閉上雙眼",
+      "lineId": "line-21",
+      "startSeconds": 83.8,
+      "endSeconds": 86.02
+    },
+    {
+      "english": "Feel you here forever",
+      "chinese": "感受你永遠陪伴在我身邊",
+      "lineId": "line-22",
+      "startSeconds": 86.02,
+      "endSeconds": 89.36
+    },
+    {
+      "english": "You and me together",
+      "chinese": "你與我，永遠相依",
+      "lineId": "line-23",
+      "startSeconds": 90.06,
+      "endSeconds": 92.32
+    },
+    {
+      "english": "Nothing is better",
+      "chinese": "再沒有比這更美好的事了",
+      "lineId": "line-24",
+      "startSeconds": 92.32,
+      "endSeconds": 94.44
+    },
+    {
+      "english": "'Cause there's a side to you",
+      "chinese": "可你卻有著不為人知的另一面",
+      "lineId": "line-25",
+      "startSeconds": 94.44,
+      "endSeconds": 97.34
+    },
+    {
+      "english": "That I never knew, never knew",
+      "chinese": "是我從未了解、從未察覺的一面",
+      "lineId": "line-26",
+      "startSeconds": 97.34,
+      "endSeconds": 99.62
+    },
+    {
+      "english": "All the things you'd say",
+      "chinese": "你曾說過的每一句話",
+      "lineId": "line-27",
+      "startSeconds": 99.62,
+      "endSeconds": 101.76
+    },
+    {
+      "english": "They were never true, never true",
+      "chinese": "原來從不真實，從來都只是謊言",
+      "lineId": "line-28",
+      "startSeconds": 101.76,
+      "endSeconds": 104.1
+    },
+    {
+      "english": "And the games you'd play",
+      "chinese": "而你所玩弄的那些感情遊戲",
+      "lineId": "line-29",
+      "startSeconds": 104.1,
+      "endSeconds": 106.12
+    },
+    {
+      "english": "You would always win, always win",
+      "chinese": "你總是贏家，永遠都是贏家",
+      "lineId": "line-30",
+      "startSeconds": 106.4,
+      "endSeconds": 109.1
+    },
+    {
+      "english": "But I set fire to the rain",
+      "chinese": "可我卻點燃了漫天的雨",
+      "lineId": "line-31",
+      "startSeconds": 109.1,
+      "endSeconds": 114.4
+    },
+    {
+      "english": "Watched it pour as I touched your face",
+      "chinese": "當我輕撫你的臉龐，望著雨水傾瀉而下",
+      "lineId": "line-32",
+      "startSeconds": 114.4,
+      "endSeconds": 118.3
+    },
+    {
+      "english": "Well, it burned while I cried",
+      "chinese": "雨在燃燒，而我卻淚流不止",
+      "lineId": "line-33"
+    },
+    {
+      "english": "'Cause I heard it screaming out your name, your name!",
+      "chinese": "因為我聽見那火雨，正聲嘶力竭地呼喊你的名字，你的名字！",
+      "lineId": "line-34",
+      "startSeconds": 121.42,
+      "endSeconds": 127.48
+    },
+    {
+      "english": "I set fire to the rain",
+      "chinese": "我點燃了漫天的雨",
+      "lineId": "line-35",
+      "startSeconds": 128.22,
+      "endSeconds": 132.44
+    },
+    {
+      "english": "And I threw us into the flames",
+      "chinese": "也將你我一同投入熊熊烈焰之中",
+      "lineId": "line-36"
+    },
+    {
+      "english": "When it fell, something died",
+      "chinese": "當雨水落下，有些東西也隨之消逝",
+      "lineId": "line-37",
+      "startSeconds": 136.2,
+      "endSeconds": 139.34
+    },
+    {
+      "english": "'Cause I knew that that was the last time, the last time!",
+      "chinese": "因為我知道，那就是最後一次，真正的最後一次！",
+      "lineId": "line-38",
+      "startSeconds": 139.34,
+      "endSeconds": 145.56
+    },
+    {
+      "english": "Sometimes I wake up by the door",
+      "chinese": "有時，我會在門邊醒來",
+      "lineId": "line-39",
+      "startSeconds": 145.56,
+      "endSeconds": 149.44
+    },
+    {
+      "english": "That heart you caught must be waiting for you",
+      "chinese": "那顆曾被你接住的心，想必仍在等候著你",
+      "lineId": "line-40",
+      "startSeconds": 149.44,
+      "endSeconds": 153.86
+    },
+    {
+      "english": "Even now, when we're already over",
+      "chinese": "即使如今，我們早已結束",
+      "lineId": "line-41",
+      "startSeconds": 153.86,
+      "endSeconds": 158.54
+    },
+    {
+      "english": "I can't help myself from looking for you",
+      "chinese": "我卻仍情不自禁地尋找你的身影",
+      "lineId": "line-42",
+      "startSeconds": 158.54,
+      "endSeconds": 162.56
+    },
+    {
+      "english": "I set fire to the rain",
+      "chinese": "我點燃了漫天的雨",
+      "lineId": "line-43",
+      "startSeconds": 163.08,
+      "endSeconds": 167.94
+    },
+    {
+      "english": "Watched it pour as I touched your face",
+      "chinese": "當我輕撫你的臉龐，望著雨水傾瀉而下",
+      "lineId": "line-44",
+      "startSeconds": 167.94,
+      "endSeconds": 172.0
+    },
+    {
+      "english": "Well, it burned while I cried",
+      "chinese": "雨在燃燒，而我卻淚流不止",
+      "lineId": "line-45"
+    },
+    {
+      "english": "'Cause I heard it screaming out your name, your name",
+      "chinese": "因為我聽見那火雨，正聲嘶力竭地呼喊你的名字，你的名字",
+      "lineId": "line-46",
+      "startSeconds": 175.04,
+      "endSeconds": 180.84
+    },
+    {
+      "english": "I set fire to the rain",
+      "chinese": "我點燃了漫天的雨",
+      "lineId": "line-47",
+      "startSeconds": 180.84,
+      "endSeconds": 185.82
+    },
+    {
+      "english": "And I threw us into the flames",
+      "chinese": "也將你我一同投入熊熊烈焰之中",
+      "lineId": "line-48"
+    },
+    {
+      "english": "When it fell, something died",
+      "chinese": "當雨水落下，有些東西也隨之消逝",
+      "lineId": "line-49",
+      "startSeconds": 189.9,
+      "endSeconds": 192.66
+    },
+    {
+      "english": "'Cause I knew that that was the last time, the last time, oh!",
+      "chinese": "因為我知道，那就是最後一次，真正的最後一次，噢！",
+      "lineId": "line-50",
+      "startSeconds": 192.66,
+      "endSeconds": 200.06
+    },
+    {
+      "english": "Oh, no",
+      "chinese": "噢，不……",
+      "lineId": "line-51"
+    },
+    {
+      "english": "Let it burn, oh",
+      "chinese": "就讓它燃燒吧，噢",
+      "lineId": "line-52"
+    },
+    {
+      "english": "Let it burn",
+      "chinese": "就讓它燃燒吧",
+      "lineId": "line-53"
+    },
+    {
+      "english": "Let it burn",
+      "chinese": "就讓它燃燒吧",
+      "lineId": "line-54"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "my heart",
+          "options": [
+            "my heart",
+            "my hand",
+            "my love"
+          ],
+          "prompt": "I let it fall, {{blank}}",
+          "promptZh": "我任由自己的心墜落"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "rose to claim it",
+          "options": [
+            "came to save it",
+            "ran to catch it",
+            "rose to claim it"
+          ],
+          "prompt": "And as it fell, you {{blank}}",
+          "promptZh": "就在它墜落之際，你卻出現，將它據為己有"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-4",
+          "answer": "saved me",
+          "options": [
+            "held me",
+            "saved me",
+            "changed me"
+          ],
+          "prompt": "Until you kissed my lips and you {{blank}}",
+          "promptZh": "直到你吻上我的雙唇，將我從絕望中拯救出來"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-6",
+          "answer": "far too weak",
+          "options": [
+            "much too tired",
+            "far too young",
+            "far too weak"
+          ],
+          "prompt": "But my knees were {{blank}}",
+          "promptZh": "可我的雙膝，卻軟弱得無法支撐"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-9",
+          "answer": "a side to you",
+          "options": [
+            "a lie from you",
+            "a side to you",
+            "a sign for you"
+          ],
+          "prompt": "But there's {{blank}}",
+          "promptZh": "可你卻有著不為人知的另一面"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-10",
+          "answer": "never knew",
+          "options": [
+            "never knew",
+            "never saw",
+            "always knew"
+          ],
+          "prompt": "That I {{blank}}, never knew",
+          "promptZh": "是我從未了解、從未察覺的一面"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-12",
+          "answer": "never true",
+          "options": [
+            "always new",
+            "never knew",
+            "never true"
+          ],
+          "prompt": "They were {{blank}}, never true",
+          "promptZh": "原來從不真實，從來都只是謊言"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-14",
+          "answer": "always win",
+          "options": [
+            "always leave",
+            "always win",
+            "never win"
+          ],
+          "prompt": "You would {{blank}}, always win",
+          "promptZh": "你總是贏家，永遠都是贏家"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-15",
+          "answer": "set fire to the rain",
+          "options": [
+            "set fire to the rain",
+            "set light to the sky",
+            "set fire to the night"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "可我卻點燃了漫天的雨"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-16",
+          "answer": "touched your face",
+          "options": [
+            "held your hand",
+            "touched your face",
+            "saw your face"
+          ],
+          "prompt": "Watched it pour as I {{blank}}",
+          "promptZh": "當我輕撫你的臉龐，望著雨水傾瀉而下"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-18",
+          "answer": "screaming out your name",
+          "options": [
+            "calling out your name",
+            "shouting out my name",
+            "screaming out your name"
+          ],
+          "prompt": "'Cause I heard it {{blank}}, your name!",
+          "promptZh": "因為我聽見那火雨，正聲嘶力竭地呼喊你的名字，你的名字！"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-19",
+          "answer": "lay with you",
+          "options": [
+            "lay with you",
+            "stayed with you",
+            "played with you"
+          ],
+          "prompt": "When I {{blank}}",
+          "promptZh": "當我與你相依而臥"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-22",
+          "answer": "here forever",
+          "options": [
+            "near forever",
+            "here forever",
+            "here together"
+          ],
+          "prompt": "Feel you {{blank}}",
+          "promptZh": "感受你永遠陪伴在我身邊"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-24",
+          "answer": "better",
+          "options": [
+            "better",
+            "over",
+            "greater"
+          ],
+          "prompt": "Nothing is {{blank}}",
+          "promptZh": "再沒有比這更美好的事了"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-31",
+          "answer": "set fire to the rain",
+          "options": [
+            "set fire to the rain",
+            "set light to the sky",
+            "set fire to the night"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "可我卻點燃了漫天的雨"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-36",
+          "answer": "threw us into the flames",
+          "options": [
+            "drew us into the night",
+            "threw you into the fire",
+            "threw us into the flames"
+          ],
+          "prompt": "And I {{blank}}",
+          "promptZh": "也將你我一同投入熊熊烈焰之中"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-37",
+          "answer": "something died",
+          "options": [
+            "something changed",
+            "something died",
+            "someone cried"
+          ],
+          "prompt": "When it fell, {{blank}}",
+          "promptZh": "當雨水落下，有些東西也隨之消逝"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-39",
+          "answer": "wake up by the door",
+          "options": [
+            "wake up by the door",
+            "wait out by the door",
+            "wake up on the floor"
+          ],
+          "prompt": "Sometimes I {{blank}}",
+          "promptZh": "有時，我會在門邊醒來"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-41",
+          "answer": "already over",
+          "options": [
+            "almost over",
+            "finally older",
+            "already over"
+          ],
+          "prompt": "Even now, when we're {{blank}}",
+          "promptZh": "即使如今，我們早已結束"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-50",
+          "answer": "the last time",
+          "options": [
+            "the first time",
+            "the last time",
+            "the right time"
+          ],
+          "prompt": "'Cause I knew that that was {{blank}}, the last time, oh!",
+          "promptZh": "因為我知道，那就是最後一次，真正的最後一次，噢！"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I let it fall, {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "And as it fell, you {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "It was dark, and I was over"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Until you kissed my lips and you {{q:3}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "My hands, they were strong"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "But my knees were {{q:4}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "To stand in your arms"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Without falling to your feet"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "But there's {{q:5}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "That I {{q:6}}, never knew"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "All the things you'd say"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "They were {{q:7}}, never true"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "And the games you'd play"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "You would {{q:8}}, always win"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "But I {{q:9}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Watched it pour as I {{q:10}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Well, it burned while I cried"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "'Cause I heard it {{q:11}}, your name!"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "When I {{q:12}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I could stay there"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Close my eyes"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Feel you {{q:13}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You and me together"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Nothing is {{q:14}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "'Cause there's a side to you"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "That I never knew, never knew"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "All the things you'd say"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "They were never true, never true"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "And the games you'd play"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You would always win, always win"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "But I {{q:15}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Watched it pour as I touched your face"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Well, it burned while I cried"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "'Cause I heard it screaming out your name, your name!"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I set fire to the rain"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "And I {{q:16}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "When it fell, {{q:17}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "'Cause I knew that that was the last time, the last time!"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Sometimes I {{q:18}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "That heart you caught must be waiting for you"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Even now, when we're {{q:19}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I can't help myself from looking for you"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I set fire to the rain"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Watched it pour as I touched your face"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Well, it burned while I cried"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "'Cause I heard it screaming out your name, your name"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "I set fire to the rain"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "And I threw us into the flames"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "When it fell, something died"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "'Cause I knew that that was {{q:20}}, the last time, oh!"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Oh, no"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Let it burn, oh"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Let it burn"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Let it burn"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "my heart",
+          "options": [
+            "my heart",
+            "my hand",
+            "my love"
+          ],
+          "prompt": "I let it fall, {{blank}}",
+          "promptZh": "我任由自己的心墜落"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "rose to claim it",
+          "options": [
+            "came to save it",
+            "rose to claim it",
+            "ran to catch it"
+          ],
+          "prompt": "And as it fell, you {{blank}}",
+          "promptZh": "就在它墜落之際，你卻出現，將它據為己有"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "dark",
+          "options": [
+            "cold",
+            "dark",
+            "hard"
+          ],
+          "prompt": "It was {{blank}}, and I was over",
+          "promptZh": "那時四周一片黑暗，而我早已瀕臨崩潰"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "saved me",
+          "options": [
+            "held me",
+            "changed me",
+            "saved me"
+          ],
+          "prompt": "Until you kissed my lips and you {{blank}}",
+          "promptZh": "直到你吻上我的雙唇，將我從絕望中拯救出來"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "strong",
+          "options": [
+            "strong",
+            "wrong",
+            "long"
+          ],
+          "prompt": "My hands, they were {{blank}}",
+          "promptZh": "我的雙手，曾是如此堅強"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "far too weak",
+          "options": [
+            "much too tired",
+            "far too weak",
+            "far too young"
+          ],
+          "prompt": "But my knees were {{blank}}",
+          "promptZh": "可我的雙膝，卻軟弱得無法支撐"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "in your arms",
+          "options": [
+            "by your side",
+            "in your arms",
+            "in your eyes"
+          ],
+          "prompt": "To stand {{blank}}",
+          "promptZh": "讓我安然站立在你的懷抱裡"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-9",
+          "answer": "a side to you",
+          "options": [
+            "a side to you",
+            "a lie from you",
+            "a sign for you"
+          ],
+          "prompt": "But there's {{blank}}",
+          "promptZh": "可你卻有著不為人知的另一面"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-10",
+          "answer": "never knew",
+          "options": [
+            "never saw",
+            "always knew",
+            "never knew"
+          ],
+          "prompt": "That I {{blank}}, never knew",
+          "promptZh": "是我從未了解、從未察覺的一面"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-11",
+          "answer": "you'd say",
+          "options": [
+            "you'd say",
+            "you would do",
+            "you could say"
+          ],
+          "prompt": "All the things {{blank}}",
+          "promptZh": "你曾說過的每一句話"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-12",
+          "answer": "never true",
+          "options": [
+            "always new",
+            "never true",
+            "never knew"
+          ],
+          "prompt": "They were {{blank}}, never true",
+          "promptZh": "原來從不真實，從來都只是謊言"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-13",
+          "answer": "games you'd play",
+          "options": [
+            "lies you'd tell",
+            "tricks you'd try",
+            "games you'd play"
+          ],
+          "prompt": "And the {{blank}}",
+          "promptZh": "而你所玩弄的那些感情遊戲"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-14",
+          "answer": "always win",
+          "options": [
+            "always leave",
+            "always win",
+            "never win"
+          ],
+          "prompt": "You would {{blank}}, always win",
+          "promptZh": "你總是贏家，永遠都是贏家"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-15",
+          "answer": "set fire to the rain",
+          "options": [
+            "set light to the sky",
+            "set fire to the night",
+            "set fire to the rain"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "可我卻點燃了漫天的雨"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-16",
+          "answer": "touched your face",
+          "options": [
+            "touched your face",
+            "held your hand",
+            "saw your face"
+          ],
+          "prompt": "Watched it pour as I {{blank}}",
+          "promptZh": "當我輕撫你的臉龐，望著雨水傾瀉而下"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-17",
+          "answer": "burned while I cried",
+          "options": [
+            "hurt while I tried",
+            "burned when I smiled",
+            "burned while I cried"
+          ],
+          "prompt": "Well, it {{blank}}",
+          "promptZh": "雨在燃燒，而我卻淚流不止"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "screaming out your name",
+          "options": [
+            "calling out your name",
+            "shouting out my name",
+            "screaming out your name"
+          ],
+          "prompt": "'Cause I heard it {{blank}}, your name!",
+          "promptZh": "因為我聽見那火雨，正聲嘶力竭地呼喊你的名字，你的名字！"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "lay with you",
+          "options": [
+            "stayed with you",
+            "lay with you",
+            "played with you"
+          ],
+          "prompt": "When I {{blank}}",
+          "promptZh": "當我與你相依而臥"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-20",
+          "answer": "stay there",
+          "options": [
+            "stay there",
+            "wait there",
+            "stand there"
+          ],
+          "prompt": "I could {{blank}}",
+          "promptZh": "我真想就這樣一直停留"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-21",
+          "answer": "Close my eyes",
+          "options": [
+            "Close my eyes",
+            "Hold my breath",
+            "Open my eyes"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "輕輕閉上雙眼"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-22",
+          "answer": "here forever",
+          "options": [
+            "near forever",
+            "here forever",
+            "here together"
+          ],
+          "prompt": "Feel you {{blank}}",
+          "promptZh": "感受你永遠陪伴在我身邊"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-24",
+          "answer": "better",
+          "options": [
+            "better",
+            "over",
+            "greater"
+          ],
+          "prompt": "Nothing is {{blank}}",
+          "promptZh": "再沒有比這更美好的事了"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-25",
+          "answer": "a side to you",
+          "options": [
+            "a lie from you",
+            "a sign for you",
+            "a side to you"
+          ],
+          "prompt": "'Cause there's {{blank}}",
+          "promptZh": "可你卻有著不為人知的另一面"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-31",
+          "answer": "set fire to the rain",
+          "options": [
+            "set light to the sky",
+            "set fire to the night",
+            "set fire to the rain"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "可我卻點燃了漫天的雨"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-32",
+          "answer": "pour",
+          "options": [
+            "pour",
+            "roar",
+            "fall"
+          ],
+          "prompt": "Watched it {{blank}} as I touched your face",
+          "promptZh": "當我輕撫你的臉龐，望著雨水傾瀉而下"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-36",
+          "answer": "threw us into the flames",
+          "options": [
+            "drew us into the night",
+            "threw us into the flames",
+            "threw you into the fire"
+          ],
+          "prompt": "And I {{blank}}",
+          "promptZh": "也將你我一同投入熊熊烈焰之中"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-37",
+          "answer": "something died",
+          "options": [
+            "something changed",
+            "something died",
+            "someone cried"
+          ],
+          "prompt": "When it fell, {{blank}}",
+          "promptZh": "當雨水落下，有些東西也隨之消逝"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-39",
+          "answer": "wake up by the door",
+          "options": [
+            "wait out by the door",
+            "wake up on the floor",
+            "wake up by the door"
+          ],
+          "prompt": "Sometimes I {{blank}}",
+          "promptZh": "有時，我會在門邊醒來"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-40",
+          "answer": "must be waiting for you",
+          "options": [
+            "must be waiting for you",
+            "might be calling for you",
+            "must be looking for me"
+          ],
+          "prompt": "That heart you caught {{blank}}",
+          "promptZh": "那顆曾被你接住的心，想必仍在等候著你"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-41",
+          "answer": "already over",
+          "options": [
+            "almost over",
+            "finally older",
+            "already over"
+          ],
+          "prompt": "Even now, when we're {{blank}}",
+          "promptZh": "即使如今，我們早已結束"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-42",
+          "answer": "looking for you",
+          "options": [
+            "waiting for you",
+            "looking for you",
+            "calling to you"
+          ],
+          "prompt": "I can't help myself from {{blank}}",
+          "promptZh": "我卻仍情不自禁地尋找你的身影"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-50",
+          "answer": "the last time",
+          "options": [
+            "the last time",
+            "the first time",
+            "the right time"
+          ],
+          "prompt": "'Cause I knew that that was {{blank}}, the last time, oh!",
+          "promptZh": "因為我知道，那就是最後一次，真正的最後一次，噢！"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I let it fall, {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "And as it fell, you {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "It was {{q:3}}, and I was over"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Until you kissed my lips and you {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "My hands, they were {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "But my knees were {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "To stand {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Without falling to your feet"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "But there's {{q:8}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "That I {{q:9}}, never knew"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "All the things {{q:10}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "They were {{q:11}}, never true"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "And the {{q:12}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "You would {{q:13}}, always win"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "But I {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Watched it pour as I {{q:15}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Well, it {{q:16}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "'Cause I heard it {{q:17}}, your name!"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "When I {{q:18}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I could {{q:19}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Feel you {{q:21}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You and me together"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Nothing is {{q:22}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "'Cause there's {{q:23}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "That I never knew, never knew"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "All the things you'd say"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "They were never true, never true"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "And the games you'd play"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You would always win, always win"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "But I {{q:24}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Watched it {{q:25}} as I touched your face"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Well, it burned while I cried"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "'Cause I heard it screaming out your name, your name!"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I set fire to the rain"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "And I {{q:26}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "When it fell, {{q:27}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "'Cause I knew that that was the last time, the last time!"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Sometimes I {{q:28}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "That heart you caught {{q:29}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Even now, when we're {{q:30}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I can't help myself from {{q:31}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I set fire to the rain"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Watched it pour as I touched your face"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Well, it burned while I cried"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "'Cause I heard it screaming out your name, your name"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "I set fire to the rain"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "And I threw us into the flames"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "When it fell, something died"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "'Cause I knew that that was {{q:32}}, the last time, oh!"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Oh, no"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Let it burn, oh"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Let it burn"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Let it burn"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "my heart",
+          "options": [
+            "my hand",
+            "my heart",
+            "my love"
+          ],
+          "prompt": "I let it fall, {{blank}}",
+          "promptZh": "我任由自己的心墜落"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "rose to claim it",
+          "options": [
+            "rose to claim it",
+            "came to save it",
+            "ran to catch it"
+          ],
+          "prompt": "And as it fell, you {{blank}}",
+          "promptZh": "就在它墜落之際，你卻出現，將它據為己有"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "dark",
+          "options": [
+            "cold",
+            "hard",
+            "dark"
+          ],
+          "prompt": "It was {{blank}}, and I was over",
+          "promptZh": "那時四周一片黑暗，而我早已瀕臨崩潰"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "saved me",
+          "options": [
+            "held me",
+            "saved me",
+            "changed me"
+          ],
+          "prompt": "Until you kissed my lips and you {{blank}}",
+          "promptZh": "直到你吻上我的雙唇，將我從絕望中拯救出來"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "strong",
+          "options": [
+            "strong",
+            "wrong",
+            "long"
+          ],
+          "prompt": "My hands, they were {{blank}}",
+          "promptZh": "我的雙手，曾是如此堅強"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "far too weak",
+          "options": [
+            "much too tired",
+            "far too weak",
+            "far too young"
+          ],
+          "prompt": "But my knees were {{blank}}",
+          "promptZh": "可我的雙膝，卻軟弱得無法支撐"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "in your arms",
+          "options": [
+            "by your side",
+            "in your arms",
+            "in your eyes"
+          ],
+          "prompt": "To stand {{blank}}",
+          "promptZh": "讓我安然站立在你的懷抱裡"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "falling to your feet",
+          "options": [
+            "falling on my knees",
+            "running to your side",
+            "falling to your feet"
+          ],
+          "prompt": "Without {{blank}}",
+          "promptZh": "而不至於癱軟在你的腳邊"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "a side to you",
+          "options": [
+            "a lie from you",
+            "a sign for you",
+            "a side to you"
+          ],
+          "prompt": "But there's {{blank}}",
+          "promptZh": "可你卻有著不為人知的另一面"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "never knew",
+          "options": [
+            "never knew",
+            "never saw",
+            "always knew"
+          ],
+          "prompt": "That I {{blank}}, never knew",
+          "promptZh": "是我從未了解、從未察覺的一面"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "you'd say",
+          "options": [
+            "you'd say",
+            "you would do",
+            "you could say"
+          ],
+          "prompt": "All the things {{blank}}",
+          "promptZh": "你曾說過的每一句話"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "never true",
+          "options": [
+            "always new",
+            "never knew",
+            "never true"
+          ],
+          "prompt": "They were {{blank}}, never true",
+          "promptZh": "原來從不真實，從來都只是謊言"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "games you'd play",
+          "options": [
+            "games you'd play",
+            "lies you'd tell",
+            "tricks you'd try"
+          ],
+          "prompt": "And the {{blank}}",
+          "promptZh": "而你所玩弄的那些感情遊戲"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "always win",
+          "options": [
+            "always leave",
+            "always win",
+            "never win"
+          ],
+          "prompt": "You would {{blank}}, always win",
+          "promptZh": "你總是贏家，永遠都是贏家"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "set fire to the rain",
+          "options": [
+            "set light to the sky",
+            "set fire to the night",
+            "set fire to the rain"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "可我卻點燃了漫天的雨"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "touched your face",
+          "options": [
+            "held your hand",
+            "touched your face",
+            "saw your face"
+          ],
+          "prompt": "Watched it pour as I {{blank}}",
+          "promptZh": "當我輕撫你的臉龐，望著雨水傾瀉而下"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-17",
+          "answer": "burned while I cried",
+          "options": [
+            "hurt while I tried",
+            "burned when I smiled",
+            "burned while I cried"
+          ],
+          "prompt": "Well, it {{blank}}",
+          "promptZh": "雨在燃燒，而我卻淚流不止"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-18",
+          "answer": "screaming out your name",
+          "options": [
+            "screaming out your name",
+            "calling out your name",
+            "shouting out my name"
+          ],
+          "prompt": "'Cause I heard it {{blank}}, your name!",
+          "promptZh": "因為我聽見那火雨，正聲嘶力竭地呼喊你的名字，你的名字！"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-19",
+          "answer": "lay with you",
+          "options": [
+            "stayed with you",
+            "lay with you",
+            "played with you"
+          ],
+          "prompt": "When I {{blank}}",
+          "promptZh": "當我與你相依而臥"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-20",
+          "answer": "stay there",
+          "options": [
+            "wait there",
+            "stand there",
+            "stay there"
+          ],
+          "prompt": "I could {{blank}}",
+          "promptZh": "我真想就這樣一直停留"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-21",
+          "answer": "Close my eyes",
+          "options": [
+            "Hold my breath",
+            "Close my eyes",
+            "Open my eyes"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "輕輕閉上雙眼"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-22",
+          "answer": "here forever",
+          "options": [
+            "here forever",
+            "near forever",
+            "here together"
+          ],
+          "prompt": "Feel you {{blank}}",
+          "promptZh": "感受你永遠陪伴在我身邊"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-23",
+          "answer": "together",
+          "options": [
+            "forever",
+            "together",
+            "whatever"
+          ],
+          "prompt": "You and me {{blank}}",
+          "promptZh": "你與我，永遠相依"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-24",
+          "answer": "better",
+          "options": [
+            "over",
+            "greater",
+            "better"
+          ],
+          "prompt": "Nothing is {{blank}}",
+          "promptZh": "再沒有比這更美好的事了"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-25",
+          "answer": "a side to you",
+          "options": [
+            "a side to you",
+            "a lie from you",
+            "a sign for you"
+          ],
+          "prompt": "'Cause there's {{blank}}",
+          "promptZh": "可你卻有著不為人知的另一面"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-26",
+          "answer": "never knew",
+          "options": [
+            "never knew",
+            "never saw",
+            "always knew"
+          ],
+          "prompt": "That I {{blank}}, never knew",
+          "promptZh": "是我從未了解、從未察覺的一面"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-28",
+          "answer": "never true",
+          "options": [
+            "always new",
+            "never knew",
+            "never true"
+          ],
+          "prompt": "They were {{blank}}, never true",
+          "promptZh": "原來從不真實，從來都只是謊言"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-29",
+          "answer": "games you'd play",
+          "options": [
+            "lies you'd tell",
+            "games you'd play",
+            "tricks you'd try"
+          ],
+          "prompt": "And the {{blank}}",
+          "promptZh": "而你所玩弄的那些感情遊戲"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-31",
+          "answer": "set fire to the rain",
+          "options": [
+            "set fire to the rain",
+            "set light to the sky",
+            "set fire to the night"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "可我卻點燃了漫天的雨"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-32",
+          "answer": "pour",
+          "options": [
+            "roar",
+            "pour",
+            "fall"
+          ],
+          "prompt": "Watched it {{blank}} as I touched your face",
+          "promptZh": "當我輕撫你的臉龐，望著雨水傾瀉而下"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-33",
+          "answer": "burned",
+          "options": [
+            "turned",
+            "hurt",
+            "burned"
+          ],
+          "prompt": "Well, it {{blank}} while I cried",
+          "promptZh": "雨在燃燒，而我卻淚流不止"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-36",
+          "answer": "threw us into the flames",
+          "options": [
+            "drew us into the night",
+            "threw you into the fire",
+            "threw us into the flames"
+          ],
+          "prompt": "And I {{blank}}",
+          "promptZh": "也將你我一同投入熊熊烈焰之中"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-37",
+          "answer": "something died",
+          "options": [
+            "something changed",
+            "something died",
+            "someone cried"
+          ],
+          "prompt": "When it fell, {{blank}}",
+          "promptZh": "當雨水落下，有些東西也隨之消逝"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-38",
+          "answer": "the last time",
+          "options": [
+            "the last time",
+            "the first time",
+            "the right time"
+          ],
+          "prompt": "'Cause I knew that that was {{blank}}, the last time!",
+          "promptZh": "因為我知道，那就是最後一次，真正的最後一次！"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-39",
+          "answer": "wake up by the door",
+          "options": [
+            "wake up by the door",
+            "wait out by the door",
+            "wake up on the floor"
+          ],
+          "prompt": "Sometimes I {{blank}}",
+          "promptZh": "有時，我會在門邊醒來"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-40",
+          "answer": "must be waiting for you",
+          "options": [
+            "might be calling for you",
+            "must be waiting for you",
+            "must be looking for me"
+          ],
+          "prompt": "That heart you caught {{blank}}",
+          "promptZh": "那顆曾被你接住的心，想必仍在等候著你"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-41",
+          "answer": "already over",
+          "options": [
+            "already over",
+            "almost over",
+            "finally older"
+          ],
+          "prompt": "Even now, when we're {{blank}}",
+          "promptZh": "即使如今，我們早已結束"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-42",
+          "answer": "looking for you",
+          "options": [
+            "waiting for you",
+            "calling to you",
+            "looking for you"
+          ],
+          "prompt": "I can't help myself from {{blank}}",
+          "promptZh": "我卻仍情不自禁地尋找你的身影"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-44",
+          "answer": "touched your face",
+          "options": [
+            "held your hand",
+            "saw your face",
+            "touched your face"
+          ],
+          "prompt": "Watched it pour as I {{blank}}",
+          "promptZh": "當我輕撫你的臉龐，望著雨水傾瀉而下"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-50",
+          "answer": "the last time",
+          "options": [
+            "the last time",
+            "the first time",
+            "the right time"
+          ],
+          "prompt": "'Cause I knew that that was {{blank}}, the last time, oh!",
+          "promptZh": "因為我知道，那就是最後一次，真正的最後一次，噢！"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I let it fall, {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "And as it fell, you {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "It was {{q:3}}, and I was over"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Until you kissed my lips and you {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "My hands, they were {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "But my knees were {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "To stand {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Without {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "But there's {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "That I {{q:10}}, never knew"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "All the things {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "They were {{q:12}}, never true"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "And the {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "You would {{q:14}}, always win"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "But I {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Watched it pour as I {{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Well, it {{q:17}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "'Cause I heard it {{q:18}}, your name!"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "When I {{q:19}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I could {{q:20}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:21}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Feel you {{q:22}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You and me {{q:23}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Nothing is {{q:24}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "'Cause there's {{q:25}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "That I {{q:26}}, never knew"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "All the things you'd say"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "They were {{q:27}}, never true"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "And the {{q:28}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You would always win, always win"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "But I {{q:29}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Watched it {{q:30}} as I touched your face"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Well, it {{q:31}} while I cried"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "'Cause I heard it screaming out your name, your name!"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I set fire to the rain"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "And I {{q:32}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "When it fell, {{q:33}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "'Cause I knew that that was {{q:34}}, the last time!"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Sometimes I {{q:35}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "That heart you caught {{q:36}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Even now, when we're {{q:37}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I can't help myself from {{q:38}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I set fire to the rain"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Watched it pour as I {{q:39}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Well, it burned while I cried"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "'Cause I heard it screaming out your name, your name"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "I set fire to the rain"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "And I threw us into the flames"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "When it fell, something died"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "'Cause I knew that that was {{q:40}}, the last time, oh!"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Oh, no"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Let it burn, oh"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Let it burn"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Let it burn"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "my heart",
+          "options": [
+            "my hand",
+            "my heart",
+            "my love"
+          ],
+          "prompt": "I let it fall, {{blank}}",
+          "promptZh": "我任由自己的心墜落"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "rose to claim it",
+          "options": [
+            "came to save it",
+            "rose to claim it",
+            "ran to catch it"
+          ],
+          "prompt": "And as it fell, you {{blank}}",
+          "promptZh": "就在它墜落之際，你卻出現，將它據為己有"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "dark",
+          "options": [
+            "cold",
+            "hard",
+            "dark"
+          ],
+          "prompt": "It was {{blank}}, and I was over",
+          "promptZh": "那時四周一片黑暗，而我早已瀕臨崩潰"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "saved me",
+          "options": [
+            "saved me",
+            "held me",
+            "changed me"
+          ],
+          "prompt": "Until you kissed my lips and you {{blank}}",
+          "promptZh": "直到你吻上我的雙唇，將我從絕望中拯救出來"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "strong",
+          "options": [
+            "wrong",
+            "strong",
+            "long"
+          ],
+          "prompt": "My hands, they were {{blank}}",
+          "promptZh": "我的雙手，曾是如此堅強"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "far too weak",
+          "options": [
+            "far too weak",
+            "much too tired",
+            "far too young"
+          ],
+          "prompt": "But my knees were {{blank}}",
+          "promptZh": "可我的雙膝，卻軟弱得無法支撐"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "in your arms",
+          "options": [
+            "by your side",
+            "in your eyes",
+            "in your arms"
+          ],
+          "prompt": "To stand {{blank}}",
+          "promptZh": "讓我安然站立在你的懷抱裡"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "falling to your feet",
+          "options": [
+            "falling on my knees",
+            "running to your side",
+            "falling to your feet"
+          ],
+          "prompt": "Without {{blank}}",
+          "promptZh": "而不至於癱軟在你的腳邊"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "a side to you",
+          "options": [
+            "a lie from you",
+            "a side to you",
+            "a sign for you"
+          ],
+          "prompt": "But there's {{blank}}",
+          "promptZh": "可你卻有著不為人知的另一面"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "never knew",
+          "options": [
+            "never knew",
+            "never saw",
+            "always knew"
+          ],
+          "prompt": "That I {{blank}}, never knew",
+          "promptZh": "是我從未了解、從未察覺的一面"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "you'd say",
+          "options": [
+            "you would do",
+            "you'd say",
+            "you could say"
+          ],
+          "prompt": "All the things {{blank}}",
+          "promptZh": "你曾說過的每一句話"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "never true",
+          "options": [
+            "always new",
+            "never knew",
+            "never true"
+          ],
+          "prompt": "They were {{blank}}, never true",
+          "promptZh": "原來從不真實，從來都只是謊言"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "games you'd play",
+          "options": [
+            "games you'd play",
+            "lies you'd tell",
+            "tricks you'd try"
+          ],
+          "prompt": "And the {{blank}}",
+          "promptZh": "而你所玩弄的那些感情遊戲"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "always win",
+          "options": [
+            "always leave",
+            "always win",
+            "never win"
+          ],
+          "prompt": "You would {{blank}}, always win",
+          "promptZh": "你總是贏家，永遠都是贏家"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "set fire to the rain",
+          "options": [
+            "set light to the sky",
+            "set fire to the night",
+            "set fire to the rain"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "可我卻點燃了漫天的雨"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "touched your face",
+          "options": [
+            "held your hand",
+            "saw your face",
+            "touched your face"
+          ],
+          "prompt": "Watched it pour as I {{blank}}",
+          "promptZh": "當我輕撫你的臉龐，望著雨水傾瀉而下"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-17",
+          "answer": "burned while I cried",
+          "options": [
+            "burned while I cried",
+            "hurt while I tried",
+            "burned when I smiled"
+          ],
+          "prompt": "Well, it {{blank}}",
+          "promptZh": "雨在燃燒，而我卻淚流不止"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-18",
+          "answer": "screaming out your name",
+          "options": [
+            "calling out your name",
+            "shouting out my name",
+            "screaming out your name"
+          ],
+          "prompt": "'Cause I heard it {{blank}}, your name!",
+          "promptZh": "因為我聽見那火雨，正聲嘶力竭地呼喊你的名字，你的名字！"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-19",
+          "answer": "lay with you",
+          "options": [
+            "lay with you",
+            "stayed with you",
+            "played with you"
+          ],
+          "prompt": "When I {{blank}}",
+          "promptZh": "當我與你相依而臥"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-20",
+          "answer": "stay there",
+          "options": [
+            "wait there",
+            "stay there",
+            "stand there"
+          ],
+          "prompt": "I could {{blank}}",
+          "promptZh": "我真想就這樣一直停留"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-21",
+          "answer": "Close my eyes",
+          "options": [
+            "Close my eyes",
+            "Hold my breath",
+            "Open my eyes"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "輕輕閉上雙眼"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-22",
+          "answer": "here forever",
+          "options": [
+            "near forever",
+            "here together",
+            "here forever"
+          ],
+          "prompt": "Feel you {{blank}}",
+          "promptZh": "感受你永遠陪伴在我身邊"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-23",
+          "answer": "together",
+          "options": [
+            "together",
+            "forever",
+            "whatever"
+          ],
+          "prompt": "You and me {{blank}}",
+          "promptZh": "你與我，永遠相依"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-24",
+          "answer": "better",
+          "options": [
+            "over",
+            "greater",
+            "better"
+          ],
+          "prompt": "Nothing is {{blank}}",
+          "promptZh": "再沒有比這更美好的事了"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-25",
+          "answer": "a side to you",
+          "options": [
+            "a lie from you",
+            "a side to you",
+            "a sign for you"
+          ],
+          "prompt": "'Cause there's {{blank}}",
+          "promptZh": "可你卻有著不為人知的另一面"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-26",
+          "answer": "never knew",
+          "options": [
+            "never saw",
+            "never knew",
+            "always knew"
+          ],
+          "prompt": "That I {{blank}}, never knew",
+          "promptZh": "是我從未了解、從未察覺的一面"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-27",
+          "answer": "you'd say",
+          "options": [
+            "you'd say",
+            "you would do",
+            "you could say"
+          ],
+          "prompt": "All the things {{blank}}",
+          "promptZh": "你曾說過的每一句話"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-28",
+          "answer": "never true",
+          "options": [
+            "always new",
+            "never true",
+            "never knew"
+          ],
+          "prompt": "They were {{blank}}, never true",
+          "promptZh": "原來從不真實，從來都只是謊言"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-29",
+          "answer": "games you'd play",
+          "options": [
+            "games you'd play",
+            "lies you'd tell",
+            "tricks you'd try"
+          ],
+          "prompt": "And the {{blank}}",
+          "promptZh": "而你所玩弄的那些感情遊戲"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-30",
+          "answer": "always win",
+          "options": [
+            "always leave",
+            "always win",
+            "never win"
+          ],
+          "prompt": "You would {{blank}}, always win",
+          "promptZh": "你總是贏家，永遠都是贏家"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-31",
+          "answer": "set fire to the rain",
+          "options": [
+            "set light to the sky",
+            "set fire to the rain",
+            "set fire to the night"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "可我卻點燃了漫天的雨"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-32",
+          "answer": "pour",
+          "options": [
+            "roar",
+            "fall",
+            "pour"
+          ],
+          "prompt": "Watched it {{blank}} as I touched your face",
+          "promptZh": "當我輕撫你的臉龐，望著雨水傾瀉而下"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-33",
+          "answer": "burned",
+          "options": [
+            "turned",
+            "burned",
+            "hurt"
+          ],
+          "prompt": "Well, it {{blank}} while I cried",
+          "promptZh": "雨在燃燒，而我卻淚流不止"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-34",
+          "answer": "your name",
+          "options": [
+            "my name",
+            "her name",
+            "your name"
+          ],
+          "prompt": "'Cause I heard it screaming out {{blank}}, your name!",
+          "promptZh": "因為我聽見那火雨，正聲嘶力竭地呼喊你的名字，你的名字！"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-35",
+          "answer": "set fire to the rain",
+          "options": [
+            "set fire to the rain",
+            "set light to the sky",
+            "set fire to the night"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我點燃了漫天的雨"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-36",
+          "answer": "threw us into the flames",
+          "options": [
+            "threw us into the flames",
+            "drew us into the night",
+            "threw you into the fire"
+          ],
+          "prompt": "And I {{blank}}",
+          "promptZh": "也將你我一同投入熊熊烈焰之中"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-37",
+          "answer": "something died",
+          "options": [
+            "something changed",
+            "something died",
+            "someone cried"
+          ],
+          "prompt": "When it fell, {{blank}}",
+          "promptZh": "當雨水落下，有些東西也隨之消逝"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-38",
+          "answer": "the last time",
+          "options": [
+            "the last time",
+            "the first time",
+            "the right time"
+          ],
+          "prompt": "'Cause I knew that that was {{blank}}, the last time!",
+          "promptZh": "因為我知道，那就是最後一次，真正的最後一次！"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-39",
+          "answer": "wake up by the door",
+          "options": [
+            "wait out by the door",
+            "wake up on the floor",
+            "wake up by the door"
+          ],
+          "prompt": "Sometimes I {{blank}}",
+          "promptZh": "有時，我會在門邊醒來"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-40",
+          "answer": "must be waiting for you",
+          "options": [
+            "might be calling for you",
+            "must be looking for me",
+            "must be waiting for you"
+          ],
+          "prompt": "That heart you caught {{blank}}",
+          "promptZh": "那顆曾被你接住的心，想必仍在等候著你"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-41",
+          "answer": "already over",
+          "options": [
+            "already over",
+            "almost over",
+            "finally older"
+          ],
+          "prompt": "Even now, when we're {{blank}}",
+          "promptZh": "即使如今，我們早已結束"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-42",
+          "answer": "looking for you",
+          "options": [
+            "waiting for you",
+            "calling to you",
+            "looking for you"
+          ],
+          "prompt": "I can't help myself from {{blank}}",
+          "promptZh": "我卻仍情不自禁地尋找你的身影"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-43",
+          "answer": "set fire to the rain",
+          "options": [
+            "set fire to the rain",
+            "set light to the sky",
+            "set fire to the night"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我點燃了漫天的雨"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-44",
+          "answer": "touched your face",
+          "options": [
+            "held your hand",
+            "touched your face",
+            "saw your face"
+          ],
+          "prompt": "Watched it pour as I {{blank}}",
+          "promptZh": "當我輕撫你的臉龐，望著雨水傾瀉而下"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-45",
+          "answer": "while I cried",
+          "options": [
+            "when I tried",
+            "while I cried",
+            "while I smiled"
+          ],
+          "prompt": "Well, it burned {{blank}}",
+          "promptZh": "雨在燃燒，而我卻淚流不止"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-46",
+          "answer": "screaming out your name",
+          "options": [
+            "calling out your name",
+            "shouting out my name",
+            "screaming out your name"
+          ],
+          "prompt": "'Cause I heard it {{blank}}, your name",
+          "promptZh": "因為我聽見那火雨，正聲嘶力竭地呼喊你的名字，你的名字"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-47",
+          "answer": "set fire to the rain",
+          "options": [
+            "set fire to the rain",
+            "set light to the sky",
+            "set fire to the night"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我點燃了漫天的雨"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-48",
+          "answer": "into the flames",
+          "options": [
+            "into the flames",
+            "into the night",
+            "into the rain"
+          ],
+          "prompt": "And I threw us {{blank}}",
+          "promptZh": "也將你我一同投入熊熊烈焰之中"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-49",
+          "answer": "something died",
+          "options": [
+            "something changed",
+            "someone cried",
+            "something died"
+          ],
+          "prompt": "When it fell, {{blank}}",
+          "promptZh": "當雨水落下，有些東西也隨之消逝"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-50",
+          "answer": "the last time",
+          "options": [
+            "the first time",
+            "the last time",
+            "the right time"
+          ],
+          "prompt": "'Cause I knew that that was {{blank}}, the last time, oh!",
+          "promptZh": "因為我知道，那就是最後一次，真正的最後一次，噢！"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I let it fall, {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "And as it fell, you {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "It was {{q:3}}, and I was over"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Until you kissed my lips and you {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "My hands, they were {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "But my knees were {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "To stand {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Without {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "But there's {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "That I {{q:10}}, never knew"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "All the things {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "They were {{q:12}}, never true"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "And the {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "You would {{q:14}}, always win"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "But I {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Watched it pour as I {{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Well, it {{q:17}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "'Cause I heard it {{q:18}}, your name!"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "When I {{q:19}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I could {{q:20}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:21}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Feel you {{q:22}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You and me {{q:23}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Nothing is {{q:24}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "'Cause there's {{q:25}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "That I {{q:26}}, never knew"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "All the things {{q:27}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "They were {{q:28}}, never true"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "And the {{q:29}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You would {{q:30}}, always win"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "But I {{q:31}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Watched it {{q:32}} as I touched your face"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Well, it {{q:33}} while I cried"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "'Cause I heard it screaming out {{q:34}}, your name!"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I {{q:35}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "And I {{q:36}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "When it fell, {{q:37}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "'Cause I knew that that was {{q:38}}, the last time!"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Sometimes I {{q:39}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "That heart you caught {{q:40}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Even now, when we're {{q:41}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I can't help myself from {{q:42}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I {{q:43}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Watched it pour as I {{q:44}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Well, it burned {{q:45}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "'Cause I heard it {{q:46}}, your name"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "I {{q:47}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "And I threw us {{q:48}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "When it fell, {{q:49}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "'Cause I knew that that was {{q:50}}, the last time, oh!"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Oh, no"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Let it burn, oh"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Let it burn"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Let it burn"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Set Fire To The Rain · Listening & Vocabulary",
+  "description": "《Set Fire to the Rain》描寫一段從深愛與信任，逐漸走向欺騙、心碎與決裂的愛情。歌中的主角曾經將自己的心交給對方，相信他的出現拯救了自己，卻慢慢發現他隱藏著不為人知的一面，曾經的承諾與甜言蜜語原來充滿謊言。即使她仍然眷戀過去的美好時光，也明白這段感情已經無法繼續。歌曲中的「點燃雨水」象徵悲傷與憤怒交織，以及決心結束這段關係的勇氣。最終，《Set Fire to the Rain》傳達的是愛情中的背叛、痛苦與放手：即使理智知道必須離開，內心仍可能充滿思念，但唯有勇敢面對傷痛，才能逐漸走出過去，重新找回自己。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Let something fall",
+      "meaning": "讓某個東西掉下、落下。",
+      "usage": "當手上的東西落下，或讓東西掉下去時使用。常用句型：let + 東西 + fall。",
+      "prompt": "哪一句正確使用了「Let something fall」？",
+      "options": [
+        "I let the apple fall from my hand.",
+        "I let my breakfast fall in the morning to eat it.",
+        "She let the music fall because she wanted to hear it.",
+        "We let the bus fall to school every day."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：蘋果從手中掉下來，符合 let + 物品 + fall。",
+        "錯誤：吃早餐不是讓早餐掉下來；應說 I eat breakfast in the morning。",
+        "錯誤：想聽音樂不會用 fall；應說 She played the music。",
+        "錯誤：搭公車不能用 let ... fall；應說 We take the bus to school。"
+      ],
+      "explanation": "正確：蘋果從手中掉下來，符合 let + 物品 + fall。"
+    },
+    {
+      "number": 2,
+      "word": "Save someone",
+      "meaning": "救某人；幫助某人脫離危險。",
+      "usage": "有人遇到危險，需要其他人幫助時可以使用；也可說 save someone from + 危險。",
+      "prompt": "哪一句正確使用了「Save someone」？",
+      "options": [
+        "She saved her homework with a sandwich.",
+        "The boy saved his friend from the cold river.",
+        "I saved my shoes to the cinema last night.",
+        "He saved his lunch by singing to it."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：三明治不能用來「救」作業；若是完成作業，可說 She finished her homework。",
+        "正確：朋友遇到危險，男孩把他救起來。",
+        "錯誤：去電影院不是 save 的意思；應說 I wore my shoes to the cinema。",
+        "錯誤：唱歌給午餐聽不是正常的救援情境；可以說 He ate his lunch。"
+      ],
+      "explanation": "正確：朋友遇到危險，男孩把他救起來。"
+    },
+    {
+      "number": 3,
+      "word": "Far too",
+      "meaning": "實在太……、過於……。",
+      "usage": "想強調某事超過適當程度時使用，後面常接形容詞，例如 far too hot。",
+      "prompt": "哪一句正確使用了「Far too」？",
+      "options": [
+        "My dog is far too on the sofa.",
+        "I far too my bag before school.",
+        "This box is far too heavy for me to carry.",
+        "She has far too three sisters."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：far too 後面不能直接接 on the sofa；可說 My dog is far too big for the sofa。",
+        "錯誤：far too 不是動詞，不能表示整理書包；應說 I pack my bag。",
+        "正確：far too heavy 強調箱子重得過頭。",
+        "錯誤：far too 不能直接放在數字前；要說 She has three sisters。"
+      ],
+      "explanation": "正確：far too heavy 強調箱子重得過頭。"
+    },
+    {
+      "number": 4,
+      "word": "A side to someone",
+      "meaning": "某人性格中的一面；某人不容易被看見的特質。",
+      "usage": "發現朋友或家人有不同的個性或表現時使用，常說 a different side to someone。",
+      "prompt": "哪一句正確使用了「A side to someone」？",
+      "options": [
+        "I saw a funny side to my quiet friend today.",
+        "I put a side to my brother on the table.",
+        "We ate a side to our teacher for lunch.",
+        "She drove a side to her friend to school."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：原本安靜的朋友展現出幽默的一面。",
+        "錯誤：這個片語不是可以放到桌上的東西；要放東西可說 I put a book on the table。",
+        "錯誤：個性的一面不是食物；可說 We ate lunch with our teacher。",
+        "錯誤：這個片語不能表示開車載人；可說 She drove her friend to school。"
+      ],
+      "explanation": "正確：原本安靜的朋友展現出幽默的一面。"
+    },
+    {
+      "number": 5,
+      "word": "Be true",
+      "meaning": "是真的；真實的。",
+      "usage": "想表示一句話、消息或故事是真的時使用；常說 It is true 或 That is not true。",
+      "prompt": "哪一句正確使用了「Be true」？",
+      "options": [
+        "The story is true. It really happened.",
+        "I am true my homework after dinner.",
+        "She trued her bike to the park.",
+        "The soup is true because it is hot."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：故事真的發生過，因此可以用 true。",
+        "錯誤：true 不是「做」的動詞；應說 I do my homework。",
+        "錯誤：true 不能當作一般動詞表示騎車；應說 She rode her bike。",
+        "錯誤：熱度不能用 true 描述；應說 The soup is hot。"
+      ],
+      "explanation": "正確：故事真的發生過，因此可以用 true。"
+    },
+    {
+      "number": 6,
+      "word": "Set fire to",
+      "meaning": "點燃、放火燒某物。",
+      "usage": "談到火把東西燒起來時使用，結構是 set fire to + 物品；歌曲將它用在不可能燃燒的雨上，是比喻。",
+      "prompt": "哪一句正確使用了「Set fire to」？",
+      "options": [
+        "He set fire to his sandwich by eating it.",
+        "I set fire to the bus because I was late.",
+        "Someone set fire to the old house, and it burned.",
+        "She set fire to her homework with a pencil."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：吃三明治不是點火；應說 He ate his sandwich。",
+        "錯誤：遲到時搭車不叫點火；應說 I took the bus。",
+        "正確：房子被人放火燒了，符合 set fire to。",
+        "錯誤：用鉛筆寫作業不是點火；應說 She did her homework with a pencil。"
+      ],
+      "explanation": "正確：房子被人放火燒了，符合 set fire to。"
+    },
+    {
+      "number": 7,
+      "word": "Pour",
+      "meaning": "（液體）倒出、傾倒；（雨）下得很大。",
+      "usage": "倒水、牛奶等液體時可用 pour；雨下很大時可以說 It is pouring。",
+      "prompt": "哪一句正確使用了「Pour」？",
+      "options": [
+        "I poured my shoes onto my feet.",
+        "We poured the door before going out.",
+        "She poured a song into her phone to call me.",
+        "It is pouring outside, so take an umbrella."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：鞋子不是液體；應說 I put on my shoes。",
+        "錯誤：門不是液體；應說 We opened the door。",
+        "錯誤：歌曲不能像水一樣用 pour 來表示打電話；應說 She called me。",
+        "正確：It is pouring 表示外面正在下大雨。"
+      ],
+      "explanation": "正確：It is pouring 表示外面正在下大雨。"
+    },
+    {
+      "number": 8,
+      "word": "The last time",
+      "meaning": "最後一次；上一次（要看上下文）。",
+      "usage": "談某件事最後一次發生，或回想上一次做某件事時使用。",
+      "prompt": "哪一句正確使用了「The last time」？",
+      "options": [
+        "The last time is very hungry now.",
+        "The last time I saw him was on Monday.",
+        "I put the last time in my school bag.",
+        "She cooked the last time for breakfast."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：the last time 不是人，不能肚子餓；可說 I am very hungry now。",
+        "正確：用來說明上一次見到他是在星期一。",
+        "錯誤：時間不是可以放進書包的物品；可說 I put my book in my bag。",
+        "錯誤：the last time 不是早餐食物；可說 She cooked eggs for breakfast。"
+      ],
+      "explanation": "正確：用來說明上一次見到他是在星期一。"
+    },
+    {
+      "number": 9,
+      "word": "Be over",
+      "meaning": "結束了。",
+      "usage": "用來說明電影、比賽、課程或感情關係已經結束。",
+      "prompt": "哪一句正確使用了「Be over」？",
+      "options": [
+        "I am over my sandwich for lunch.",
+        "The cat is over because it is black.",
+        "We over our books every evening.",
+        "The game is over. We can go home now."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：be over 不能直接表示吃午餐；應說 I am eating my sandwich。",
+        "錯誤：顏色與「結束」無關；應說 The cat is black。",
+        "錯誤：over 在這裡不能直接當動詞；應說 We read our books。",
+        "正確：比賽結束了，所以可以回家。"
+      ],
+      "explanation": "正確：比賽結束了，所以可以回家。"
+    },
+    {
+      "number": 10,
+      "word": "Can't help + -ing",
+      "meaning": "忍不住做某事；無法控制自己不去做。",
+      "usage": "當你明明想停下，卻忍不住笑、哭或看某個東西時使用。help 後面的動詞要加 -ing。",
+      "prompt": "哪一句正確使用了「Can't help + -ing」？",
+      "options": [
+        "I can't help laugh when I see that funny dog.",
+        "I can't help laughing when my dog wears my hat.",
+        "She can't help to crying at the movie.",
+        "We can't help our dancing when we hear music."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：這個句型要用動詞 -ing；應說 I can’t help laughing。",
+        "正確：忍不住笑，且 help 後接 laughing。",
+        "錯誤：不能用 to crying；應說 She can’t help crying。",
+        "錯誤：這裡不需要 our；應說 We can’t help dancing。"
+      ],
+      "explanation": "正確：忍不住笑，且 help 後接 laughing。"
+    }
+  ],
+  "tags": [
+    "adele",
+    "set fire to the rain",
+    "heartbreak",
+    "betrayal"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/set-fire-to-the-rain/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/set-fire-to-the-rain/user-cover-20261030.png",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 242.973625,
+    "audioSha256": "61fd500d66e6a1c40328001e8ea1b6d88930522c75308bf69edd657bb33b1c44",
+    "timedLines": 43,
+    "untimedLines": 11,
+    "reviewStatus": "Conservative automatic cues; uncertain background or unmatched lines remain visible without guessed timing."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Set Fire To The Rain_.pdf",
+      "sha256": "2de1043b4e35f1fad9f2b49c5d79ad8433c4daab1fadc462ed9840c7c1e032de"
+    },
+    "chosenListening": {
+      "filename": "Set_Fire_To_The_Rain_Four_Level_Listening_Exercise.docx",
+      "sha256": "3fe7663b571e7338a2dc2c3afc822d99dd691d99d653b667a1bec873538c552d"
+    },
+    "chosenVocabulary": {
+      "filename": "Set_Fire_To_The_Rain_Vocabulary_Quiz.md",
+      "sha256": "b23211b719af4d2d6fd2156ceb79b39aab4331efb803bbe91f2f2fd8caeb62a7"
+    },
+    "audio": {
+      "filename": "Set Fire to the Rain [uJdu4Lfy8aI].mp3",
+      "sha256": "61fd500d66e6a1c40328001e8ea1b6d88930522c75308bf69edd657bb33b1c44"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-8f0fea2a-8226-4a52-b238-9b89e5ad2036.png",
+    "sha256": "79ef249409586d8340daa379522206c298438285d016eaccde71402ef2014e28",
+    "transformations": "none"
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "詞彙程度為教學參考；例句保留簡單句型，集中練習詞義與搭配。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Fall for someone’s charm — B2",
+          "meaning": "被某人的魅力迷住；輕易相信對方",
+          "usage": "形容被迷人的言行吸引，有時暗示判斷力受到影響。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "The baker fell for the oven and baked six chairs.",
+            "The reporter fell for his charm and ignored the warning.",
+            "The swimmer fell for the pool to check its depth.",
+            "The driver fell for the traffic light to turn left."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：烤箱不是這裡使人著迷的對象；烤椅子也不合理。",
+            "正確：記者被他的魅力迷住，忽略警告。",
+            "錯誤：測量泳池深度不叫 fall for someone’s charm。",
+            "錯誤：交通號誌不是用魅力吸引人的人。"
+          ],
+          "explanation": "正確：記者被他的魅力迷住，忽略警告。"
+        },
+        {
+          "number": 2,
+          "word": "Reveal one’s true colours — B2",
+          "meaning": "露出真面目；顯露真正的性格",
+          "usage": "當某人的行為終於讓大家看清其真正個性時使用。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "The artist revealed true colours by buying new paint.",
+            "The gardener revealed true colours by watering yellow flowers.",
+            "The photographer revealed true colours by cleaning his camera.",
+            "The manager revealed her true colours by blaming her team."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：這裡只是在買顏料，沒有揭露個性。",
+            "錯誤：花的顏色不是人的真實性格。",
+            "錯誤：清潔相機不能表達露出真面目。",
+            "正確：主管推卸責任，顯露真實個性。"
+          ],
+          "explanation": "正確：主管推卸責任，顯露真實個性。"
+        },
+        {
+          "number": 3,
+          "word": "Deceptive — C1",
+          "meaning": "具有欺騙性的；容易使人誤判的",
+          "usage": "形容外表、說法或數據讓人產生錯誤印象。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "The staircase was deceptive because it needed fresh paint.",
+            "The soup was deceptive because the chef used a large spoon.",
+            "The advert was deceptive; the tiny room looked enormous.",
+            "The orchestra was deceptive because it played after lunch."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：需要油漆不等於具有誤導性。",
+            "錯誤：湯匙大小本身不表示欺騙。",
+            "正確：廣告讓小房間看起來很大，具有誤導性。",
+            "錯誤：演出時間與誤導沒有關係。"
+          ],
+          "explanation": "正確：廣告讓小房間看起來很大，具有誤導性。"
+        },
+        {
+          "number": 4,
+          "word": "Contradict — B2",
+          "meaning": "與……矛盾；反駁",
+          "usage": "當兩個說法、證據或行為彼此不一致時使用。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "The weather contradicted my umbrella by making it wet.",
+            "The witness contradicted the report about the accident.",
+            "The chef contradicted the soup by adding extra carrots.",
+            "The dancer contradicted the music by wearing purple shoes."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：雨傘濕掉不是兩項說法互相矛盾。",
+            "正確：證人的說法與事故報告不一致。",
+            "錯誤：加胡蘿蔔不是在反駁一項說法。",
+            "錯誤：鞋子的顏色不構成清楚的矛盾。"
+          ],
+          "explanation": "正確：證人的說法與事故報告不一致。"
+        },
+        {
+          "number": 5,
+          "word": "Ignite — C1",
+          "meaning": "點燃；激起（興趣、爭論、情緒）",
+          "usage": "既可指真的點火，也可比喻引發熱情或爭論。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "The discovery ignited a debate among the scientists.",
+            "The librarian ignited the books by putting them in order.",
+            "The cyclist ignited the hill by riding down it slowly.",
+            "The dentist ignited the tooth by checking it carefully."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：新發現引起科學家之間的討論。",
+            "錯誤：整理書籍不是點燃或激起討論。",
+            "錯誤：騎下山坡不叫 ignite。",
+            "錯誤：檢查牙齒不表示點燃或激起。"
+          ],
+          "explanation": "正確：新發現引起科學家之間的討論。"
+        },
+        {
+          "number": 6,
+          "word": "Engulf — C1",
+          "meaning": "吞沒；完全包圍",
+          "usage": "常形容火焰、洪水、濃煙或強烈情緒完全包圍某物。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "The chef engulfed the cake by cutting it into slices.",
+            "The singer engulfed the microphone by singing one note.",
+            "Thick smoke engulfed the station within minutes.",
+            "The student engulfed the pencil by sharpening its tip."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：切蛋糕不等於吞沒蛋糕。",
+            "錯誤：唱一個音不表示完全包圍麥克風。",
+            "正確：濃煙很快籠罩整座車站。",
+            "錯誤：削鉛筆不符合 engulf 的意思。"
+          ],
+          "explanation": "正確：濃煙很快籠罩整座車站。"
+        },
+        {
+          "number": 7,
+          "word": "Extinguish — C1",
+          "meaning": "撲滅；使希望或熱情消失",
+          "usage": "可指滅火，也可比喻消除某種希望或熱情。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "The referee extinguished the whistle by blowing it twice.",
+            "The firefighters extinguished the flames before sunrise.",
+            "The baker extinguished the bread by leaving it to cool.",
+            "The pianist extinguished the piano by playing softly."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：吹哨子不是撲滅哨子。",
+            "正確：消防員在日出前撲滅火焰。",
+            "錯誤：麵包放涼不叫 extinguish。",
+            "錯誤：輕聲彈琴不是撲滅鋼琴。"
+          ],
+          "explanation": "正確：消防員在日出前撲滅火焰。"
+        },
+        {
+          "number": 8,
+          "word": "Downpour — B2",
+          "meaning": "傾盆大雨",
+          "usage": "形容短時間內非常猛烈的降雨，而非普通小雨。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "The downpour was so bright that we needed sunglasses.",
+            "The downpour arrived by train with two suitcases.",
+            "The downpour tasted sweet after the chef added sugar.",
+            "A sudden downpour flooded the outdoor market."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：傾盆大雨不以亮度來定義。",
+            "錯誤：大雨不是搭火車的旅客。",
+            "錯誤：這裡把大雨當成飲料。",
+            "正確：突如其來的大雨淹了露天市場。"
+          ],
+          "explanation": "正確：突如其來的大雨淹了露天市場。"
+        },
+        {
+          "number": 9,
+          "word": "Echo — B2",
+          "meaning": "迴響；回音；引起共鳴",
+          "usage": "可指聲音反射，也可指某種想法或情緒被再次表達。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "The museum echoed the tickets by selling them online.",
+            "The gardener echoed the roses by trimming their leaves.",
+            "Her footsteps echoed through the empty museum.",
+            "The waiter echoed the plates by washing them after dinner."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：賣票不是聲音迴響或重述觀點。",
+            "錯誤：修剪玫瑰不等於產生回音。",
+            "正確：腳步聲在空蕩的博物館裡迴響。",
+            "錯誤：洗盤子不符合 echo 的意思。"
+          ],
+          "explanation": "正確：腳步聲在空蕩的博物館裡迴響。"
+        },
+        {
+          "number": 10,
+          "word": "Hollow promises — C1",
+          "meaning": "空洞的承諾；沒有誠意的保證",
+          "usage": "指聽起來很好，卻沒有實際行動支持的承諾。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "The company made hollow promises but changed nothing.",
+            "The mayor made hollow promises and then repaired every road.",
+            "The singer made hollow promises by using an empty microphone.",
+            "The carpenter made hollow promises by building wooden boxes."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：公司說了漂亮話，卻沒有採取行動。",
+            "錯誤：若承諾全部履行，不能因此說是空洞的。",
+            "錯誤：hollow promises 不是指麥克風裡面是空的。",
+            "錯誤：製作中空木盒不等於做空洞承諾。"
+          ],
+          "explanation": "正確：公司說了漂亮話，卻沒有採取行動。"
+        },
+        {
+          "number": 11,
+          "word": "Unravel — C1",
+          "meaning": "逐漸瓦解；解開複雜的事",
+          "usage": "可指線散開、計畫崩解，或逐步釐清一個謎團。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "The plan began to unravel when the money disappeared.",
+            "The detective unravelled the sandwich by eating it slowly.",
+            "The musician unravelled the trumpet by polishing its surface.",
+            "The gardener unravelled the tree by collecting fallen apples."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：資金不見後，計畫開始逐漸瓦解。",
+            "錯誤：吃三明治不是破解謎團或解開線團。",
+            "錯誤：擦亮樂器不表示瓦解或釐清。",
+            "錯誤：撿蘋果不是使樹瓦解。"
+          ],
+          "explanation": "正確：資金不見後，計畫開始逐漸瓦解。"
+        },
+        {
+          "number": 12,
+          "word": "Bittersweet — C1",
+          "meaning": "苦樂參半的；甜蜜又感傷的",
+          "usage": "形容同時帶有快樂與難過的回憶、告別或成就。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "The coffee was bittersweet because it had no spoon.",
+            "The suitcase was bittersweet because its wheels were broken.",
+            "The forecast was bittersweet because Tuesday came after Monday.",
+            "Graduation felt bittersweet: we were proud but sad to leave."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：沒有湯匙不能說明情緒上的苦樂參半。",
+            "錯誤：輪子壞掉不表示又開心又感傷。",
+            "錯誤：星期順序不構成複雜的感受。",
+            "正確：畢業既令人驕傲，也讓人不捨。"
+          ],
+          "explanation": "正確：畢業既令人驕傲，也讓人不捨。"
+        },
+        {
+          "number": 13,
+          "word": "Disillusioned — C1",
+          "meaning": "幻想破滅的；理想幻滅的",
+          "usage": "原本相信某人或某事，後來因現實而失望時使用。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "Fans felt disillusioned when their hero admitted cheating.",
+            "Fans felt disillusioned when the concert started on time.",
+            "Fans felt disillusioned when the singer wore green shoes.",
+            "Fans felt disillusioned when they found their seats easily."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：偶像承認作弊，粉絲的美好印象破滅。",
+            "錯誤：準時開演本身不表示信念破滅。",
+            "錯誤：綠鞋子通常不足以構成理想幻滅。",
+            "錯誤：順利找到座位不是理想破滅。"
+          ],
+          "explanation": "正確：偶像承認作弊，粉絲的美好印象破滅。"
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "questions": [
+        {
+          "number": 1,
+          "word": "let + object + base verb",
+          "meaning": "讓某人或某物做某事；let 後不加 to。",
+          "usage": "容許動作發生，或不阻止它時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "The boy let his kite to fly in the wind.",
+            "The boy let his kite fly, but he kept it locked in a box all day.",
+            "The boy let his kite fly because he wanted it to stay on the ground.",
+            "The boy let his kite fly in the wind."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤，let 後應接 fly，不用 to fly。",
+            "錯誤，風箏一直鎖在盒內，並沒有讓它飛。",
+            "錯誤，想讓風箏留在地上，與讓它飛的目的相反。",
+            "正確，放開風箏讓它在風中飛，動作和情境一致。"
+          ],
+          "cue": "let it fall",
+          "example": "Let the balloon fly.",
+          "pattern": [
+            {
+              "text": "[允許者]",
+              "fixed": false
+            },
+            {
+              "text": "let",
+              "fixed": true
+            },
+            {
+              "text": "[對象]",
+              "fixed": false
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "context": "風箏節",
+          "explanation": "正確，放開風箏讓它在風中飛，動作和情境一致。"
+        },
+        {
+          "number": 2,
+          "word": "as + clause, clause (simultaneous events)",
+          "meaning": "當……之際；兩個動作在同一段時間發生。",
+          "usage": "想把兩件同時發生的事情連在一起時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "As the film started, we left the cinema three days earlier.",
+            "As the sun rose, it was still midnight in the same town.",
+            "As I opened my gift, I had not received it yet.",
+            "As the bell rang, the students went into class."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤，離開發生在三天前，並非電影開始之際。",
+            "錯誤，同一地方日出時不會仍是午夜。",
+            "錯誤，未收到禮物便不能同時打開它。",
+            "正確，鐘響時學生進課室，時間關係自然。"
+          ],
+          "cue": "as it fell",
+          "example": "As the train arrived, we stood up.",
+          "pattern": [
+            {
+              "text": "As",
+              "fixed": true
+            },
+            {
+              "text": "[一件事正在發生]",
+              "fixed": false
+            },
+            {
+              "text": "[同時發生的另一件事]",
+              "fixed": false
+            }
+          ],
+          "context": "校園鐘聲",
+          "explanation": "正確，鐘響時學生進課室，時間關係自然。"
+        },
+        {
+          "number": 3,
+          "word": "rise / move + to + base verb (purpose)",
+          "meaning": "用 to 加動詞原形交代行動的目的。",
+          "usage": "想解釋某人為甚麼起身、走近或移動時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "The actor stood up to thank the people after the show.",
+            "The bird flew away to stay in the same cage.",
+            "He ran to the kitchen to buy a train ticket from his bed.",
+            "She went to the library to swim in the pool there, but it has no pool."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確，演員站起來是為了向觀眾道謝。",
+            "錯誤，飛走與留在同一個籠內互相矛盾。",
+            "錯誤，從床上買車票與跑進廚房的目的不相符。",
+            "錯誤，圖書館沒有泳池，目的與地點不配合。"
+          ],
+          "cue": "rose to claim it",
+          "example": "She stood up to answer the question.",
+          "pattern": [
+            {
+              "text": "[動作]",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "[做該動作的目的]",
+              "fixed": false
+            }
+          ],
+          "context": "舞台謝幕",
+          "explanation": "正確，演員站起來是為了向觀眾道謝。"
+        },
+        {
+          "number": 4,
+          "word": "and + clause (sequence / addition)",
+          "meaning": "把兩件相關的事情連接起來。",
+          "usage": "描述連續動作或兩件相關事實時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "I put on my shoes, and my shoes were never on my feet.",
+            "I found a small key, and I used it to open the old door.",
+            "I washed my hands, and I washed my hands, so these are opposite ideas.",
+            "The baker made bread, and the moon became a bicycle."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤，已穿鞋卻說鞋從未在腳上，前後矛盾。",
+            "正確，找到鑰匙後用它開門，兩個動作自然連接。",
+            "錯誤，兩句相同，不是相反的意思。",
+            "錯誤，做麵包與月亮變單車沒有合理關聯。"
+          ],
+          "cue": "kissed ... and ... saved",
+          "example": "I opened the box, and I found a toy.",
+          "pattern": [
+            {
+              "text": "[第一件事]",
+              "fixed": false
+            },
+            {
+              "text": "and",
+              "fixed": true
+            },
+            {
+              "text": "[接續或補充的事]",
+              "fixed": false
+            }
+          ],
+          "context": "古屋鑰匙",
+          "explanation": "正確，找到鑰匙後用它開門，兩個動作自然連接。"
+        },
+        {
+          "number": 5,
+          "word": "until + clause",
+          "meaning": "一直到某件事發生為止。",
+          "usage": "說明等待或某個狀態持續到甚麼時候時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "The shop stayed open until the last customer left.",
+            "I slept until six, so I woke up at four and stayed awake.",
+            "We waited until the bus came, but we left two hours before it arrived.",
+            "The music played until it began, because it had not started yet."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確，商店一直開到最後一位客人離開。",
+            "錯誤，四時已醒便不是睡到六時。",
+            "錯誤，車還未到便離開，並非等到車來。",
+            "錯誤，音樂尚未開始，不可能已播放到開始那刻。"
+          ],
+          "cue": "until you kissed",
+          "example": "We waited until the rain stopped.",
+          "pattern": [
+            {
+              "text": "[持續的情況]",
+              "fixed": false
+            },
+            {
+              "text": "until",
+              "fixed": true
+            },
+            {
+              "text": "[終止或轉變的時間點]",
+              "fixed": false
+            }
+          ],
+          "context": "夜間商店",
+          "explanation": "正確，商店一直開到最後一位客人離開。"
+        },
+        {
+          "number": 6,
+          "word": "but + contrasting clause",
+          "meaning": "前後形成對比或出乎意料的轉折。",
+          "usage": "想表達「雖然如此，結果卻不同」時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "The robot is metal, but it is made of metal.",
+            "The river is long, but it is not short.",
+            "The clown looked scary, but the children laughed with him.",
+            "I like the blue hat, but I like the blue hat."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤，前後重複同一事實，沒有轉折。",
+            "錯誤，長與不短是相同意思。",
+            "正確，看似可怕的表演者卻令孩子開心，形成反差。",
+            "錯誤，兩句完全重複，沒有對比。"
+          ],
+          "cue": "but my knees",
+          "example": "The cake looked bad, but it tasted good.",
+          "pattern": [
+            {
+              "text": "[原先情況]",
+              "fixed": false
+            },
+            {
+              "text": "but",
+              "fixed": true
+            },
+            {
+              "text": "[出乎意料的另一面]",
+              "fixed": false
+            }
+          ],
+          "context": "馬戲團",
+          "explanation": "正確，看似可怕的表演者卻令孩子開心，形成反差。"
+        },
+        {
+          "number": 7,
+          "word": "far too + adjective",
+          "meaning": "強調程度遠超過合適水平。",
+          "usage": "抱怨或指出某事過度時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "This hat is far too small, so it fits my big head perfectly.",
+            "The ice is far too cold, so it is warmer than my hot tea.",
+            "The suitcase is far too heavy, so we need two people to lift it.",
+            "The ticket is far too expensive, so it costs nothing."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤，太小卻剛好合頭形，語意不合。",
+            "錯誤，極冷的冰不會比熱茶更暖。",
+            "正確，行李太重，因此需要兩個人抬。",
+            "錯誤，免費的票不會太貴。"
+          ],
+          "cue": "far too weak",
+          "example": "The music is far too loud.",
+          "pattern": [
+            {
+              "text": "[人／事物]",
+              "fixed": false
+            },
+            {
+              "text": "far too",
+              "fixed": true
+            },
+            {
+              "text": "[形容詞]",
+              "fixed": false
+            }
+          ],
+          "context": "機場行李",
+          "explanation": "正確，行李太重，因此需要兩個人抬。"
+        },
+        {
+          "number": 8,
+          "word": "too + adjective + to + base verb",
+          "meaning": "太……以致不能做某事。",
+          "usage": "想說明某個程度造成限制時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "The ladder is too short to reach the roof, so we get a longer one.",
+            "The water is too deep to walk through, so we walked through it easily.",
+            "The test is too hard to finish, so everyone finished it in one minute.",
+            "The box is too big to fit inside, so it fits with lots of room."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確，梯子太短到不了屋頂，所以換長梯。",
+            "錯誤，水太深卻輕易走過，與限制相反。",
+            "錯誤，太難完成卻人人一分鐘完成，互相矛盾。",
+            "錯誤，箱子太大卻仍有大量空間，不合意思。"
+          ],
+          "cue": "far too weak / to stand",
+          "example": "The wall is too high to climb.",
+          "pattern": [
+            {
+              "text": "[程度過高]",
+              "fixed": false
+            },
+            {
+              "text": "too + 形容詞 + to",
+              "fixed": true
+            },
+            {
+              "text": "[受阻的動作]",
+              "fixed": false
+            }
+          ],
+          "context": "屋頂修理",
+          "explanation": "正確，梯子太短到不了屋頂，所以換長梯。"
+        },
+        {
+          "number": 9,
+          "word": "without + verb-ing",
+          "meaning": "做一件事時沒有做另一件事。",
+          "usage": "描述省略某個步驟或動作時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "The chef made the soup without using salt, so it had no salt in it.",
+            "He went out without taking his keys, but he took them in his hand.",
+            "She finished the race without running, but she ran the whole way.",
+            "I ate the cake without tasting it, and I know its taste from eating it."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確，煮湯時沒用鹽，結果也沒有鹽。",
+            "錯誤，說沒帶鑰匙卻又說拿在手中。",
+            "錯誤，沒跑步與全程跑步互相矛盾。",
+            "錯誤，吃蛋糕時一般會嚐到味道，後文亦承認嚐過。"
+          ],
+          "cue": "without falling",
+          "example": "She left without saying goodbye.",
+          "pattern": [
+            {
+              "text": "[主要動作]",
+              "fixed": false
+            },
+            {
+              "text": "without + -ing",
+              "fixed": true
+            },
+            {
+              "text": "[沒有做的事]",
+              "fixed": false
+            }
+          ],
+          "context": "廚房實驗",
+          "explanation": "正確，煮湯時沒用鹽，結果也沒有鹽。"
+        },
+        {
+          "number": 10,
+          "word": "there is / there are + noun",
+          "meaning": "指出某個地方有甚麼。",
+          "usage": "介紹新出現或新發現的人或事物時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "There are a small boat on the lake.",
+            "There is three singers on the stage.",
+            "There is a tiny frog in my shoe!",
+            "There are one book on the desk."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤，a small boat 是單數，應用 there is。",
+            "錯誤，three singers 是複數，應用 there are。",
+            "正確，用 there is 指出鞋內有一隻小青蛙。",
+            "錯誤，one book 是單數，應用 there is。"
+          ],
+          "cue": "there’s a side",
+          "example": "There is a mouse in the cupboard.",
+          "pattern": [
+            {
+              "text": "There is / are",
+              "fixed": true
+            },
+            {
+              "text": "[存在的東西]",
+              "fixed": false
+            },
+            {
+              "text": "[地點]",
+              "fixed": false
+            }
+          ],
+          "context": "鞋中青蛙",
+          "explanation": "正確，用 there is 指出鞋內有一隻小青蛙。"
+        },
+        {
+          "number": 11,
+          "word": "noun + (that) + subject + verb (relative clause)",
+          "meaning": "補充說明是哪一個人或物。",
+          "usage": "想清楚指出某個特定對象時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "The girl that she won the race is my cousin.",
+            "The song that we heard on the radio is my favourite.",
+            "The book that I bought it yesterday is funny.",
+            "The house that it is next to the sea is blue."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤，that 已代表 girl，不應再加 she 作同一主語。",
+            "正確，關係子句說明是哪一首歌。",
+            "錯誤，that 已代表 book，不需要再加 it。",
+            "錯誤，that 已代表 house，不應再加 it。"
+          ],
+          "cue": "a side ... that I never knew",
+          "example": "This is the cake that Dad made.",
+          "pattern": [
+            {
+              "text": "[名詞]",
+              "fixed": false
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "[進一步描述名詞的句子]",
+              "fixed": false
+            }
+          ],
+          "context": "電台歌曲",
+          "explanation": "正確，關係子句說明是哪一首歌。"
+        },
+        {
+          "number": 12,
+          "word": "all the + plural noun + (that) + clause",
+          "meaning": "指某一組當中的全部事物。",
+          "usage": "想強調沒有遺漏某一類東西時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "All the cards I made is in this box.",
+            "All the apples I bought was red.",
+            "All the stories she told it were funny.",
+            "All the chairs we painted are yellow now."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤，cards 是複數，應用 are。",
+            "錯誤，apples 是複數，應用 were。",
+            "錯誤，stories 已是 told 的受詞，不需要 it。",
+            "正確，表示我們油漆過的椅子全部變成黃色。"
+          ],
+          "cue": "all the things you’d say",
+          "example": "All the pictures I took are on my phone.",
+          "pattern": [
+            {
+              "text": "All the",
+              "fixed": true
+            },
+            {
+              "text": "[複數名詞]",
+              "fixed": false
+            },
+            {
+              "text": "[限定它們的描述]",
+              "fixed": false
+            }
+          ],
+          "context": "家具改色",
+          "explanation": "正確，表示我們油漆過的椅子全部變成黃色。"
+        },
+        {
+          "number": 13,
+          "word": "would + base verb (repeated past behaviour)",
+          "meaning": "表示過去經常做的事，不是現在的習慣。",
+          "usage": "回憶以前反覆出現的動作時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "Yesterday I would eat one apple at exactly noon, and it happened once.",
+            "Tomorrow I would visit my aunt every day last year.",
+            "When I was little, I would be tall every Monday and short every Tuesday.",
+            "When we were young, we would build small houses from sand each summer."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤，單一次明確完成的動作通常用 ate。",
+            "錯誤，明天與去年混在一起，時間不一致。",
+            "錯誤，身高不會每週如此反覆改變。",
+            "正確，描述童年每年夏天反覆做的事。"
+          ],
+          "cue": "you would always win",
+          "example": "Every summer, Grandpa would tell us stories.",
+          "pattern": [
+            {
+              "text": "[過去的時間背景]",
+              "fixed": false
+            },
+            {
+              "text": "would + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "[反覆做的事]",
+              "fixed": false
+            }
+          ],
+          "context": "童年沙堡",
+          "explanation": "正確，描述童年每年夏天反覆做的事。"
+        },
+        {
+          "number": 14,
+          "word": "never + adjective / verb (negative frequency)",
+          "meaning": "強調一次也沒有或從不如此。",
+          "usage": "想否定一貫行為或某件事的真實性時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "She never eats fish; she has fish for dinner every night.",
+            "My phone never works underwater, so I keep it dry.",
+            "He never goes to school, but he attends every class each day.",
+            "This story was never true, and every part of it really happened exactly as told."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤，每晚吃魚與 never eats 矛盾。",
+            "正確，手機不能在水下運作，所以保持乾燥。",
+            "錯誤，每天上課與從不上學矛盾。",
+            "錯誤，從不真實與完全真實互相衝突。"
+          ],
+          "cue": "never true / never knew",
+          "example": "He never forgets his sister’s birthday.",
+          "pattern": [
+            {
+              "text": "[人／事物]",
+              "fixed": false
+            },
+            {
+              "text": "never",
+              "fixed": true
+            },
+            {
+              "text": "[動詞／形容詞描述]",
+              "fixed": false
+            }
+          ],
+          "context": "水下手機",
+          "explanation": "正確，手機不能在水下運作，所以保持乾燥。"
+        },
+        {
+          "number": 15,
+          "word": "set + noun + on fire / set fire to + noun",
+          "meaning": "使某物燃燒；歌曲把它用作不可能的意象。",
+          "usage": "描述火災或分析歌曲的誇張比喻時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "The artist set fire to the rain, so every drop became a real candle.",
+            "She set fire to her ice cream by putting it in the freezer.",
+            "The dry leaves caught fire, and the firefighters came quickly.",
+            "He set fire to his lunch by eating it with a spoon."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤，雨滴不會真的變蠟燭；這只適合作比喻。",
+            "錯誤，放進冰箱不能點燃雪糕。",
+            "正確，乾葉起火後消防員到場，情境合理。",
+            "錯誤，用湯匙吃飯不等於點火。"
+          ],
+          "cue": "set fire to the rain",
+          "example": "The old paper caught fire, so we called for help.",
+          "pattern": [
+            {
+              "text": "set fire to",
+              "fixed": true
+            },
+            {
+              "text": "[可燃燒的東西]",
+              "fixed": false
+            }
+          ],
+          "context": "消防演習",
+          "explanation": "正確，乾葉起火後消防員到場，情境合理。"
+        },
+        {
+          "number": 16,
+          "word": "watch + object + base verb",
+          "meaning": "看見一個動作發生；後面不加 to。",
+          "usage": "描述親眼觀看某個動作時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "We watched the little duck cross the road safely.",
+            "I watched the dancer to turn around.",
+            "We watched the rabbit to run away.",
+            "She watched the chef to cut the bread."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確，watch + duck + cross 表示看著鴨子過馬路。",
+            "錯誤，watch 後不接 to turn。",
+            "錯誤，應說 watched the rabbit run away。",
+            "錯誤，應說 watched the chef cut the bread。"
+          ],
+          "cue": "watched it pour",
+          "example": "We watched the cat jump over the box.",
+          "pattern": [
+            {
+              "text": "[觀看者]",
+              "fixed": false
+            },
+            {
+              "text": "watch",
+              "fixed": true
+            },
+            {
+              "text": "[對象]",
+              "fixed": false
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "context": "小鴨過馬路",
+          "explanation": "正確，watch + duck + cross 表示看著鴨子過馬路。"
+        },
+        {
+          "number": 17,
+          "word": "as + clause (two actions at the same time)",
+          "meaning": "兩件事情在同一時間進行。",
+          "usage": "想把兩個同步發生的動作放在同一句時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "I waved as the plane landed, but I waved one week before it landed.",
+            "He smiled as the photo was taken, but he was not there for the photo.",
+            "She sang as the music played, but the song had ended hours earlier.",
+            "The crowd cheered as the runner reached the finish line."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤，揮手早了一星期，不是同時。",
+            "錯誤，人不在拍照現場，無法在拍照時微笑入鏡。",
+            "錯誤，音樂早已停止，不能同時唱歌。",
+            "正確，跑手到終點時觀眾歡呼，兩件事同時發生。"
+          ],
+          "cue": "as I touched",
+          "example": "I waved as the bus left.",
+          "pattern": [
+            {
+              "text": "[主要動作]",
+              "fixed": false
+            },
+            {
+              "text": "as",
+              "fixed": true
+            },
+            {
+              "text": "[同時發生的動作]",
+              "fixed": false
+            }
+          ],
+          "context": "終點線",
+          "explanation": "正確，跑手到終點時觀眾歡呼，兩件事同時發生。"
+        },
+        {
+          "number": 18,
+          "word": "while + clause (overlapping actions)",
+          "meaning": "強調兩件事在一段時間內同時進行。",
+          "usage": "描述兩個持續動作的時間重疊時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "I studied while I was born, although I am ten now.",
+            "I watched TV while the TV was switched off all day.",
+            "The nurse talked to the child while she cleaned his knee.",
+            "He slept while he was awake the whole night."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤，出生時不能像十歲孩子一樣溫習。",
+            "錯誤，電視整天關掉便不能觀看節目。",
+            "正確，護士清潔傷口的同時與孩子說話。",
+            "錯誤，睡著與整晚清醒互相矛盾。"
+          ],
+          "cue": "while I cried",
+          "example": "I read while my brother cooked.",
+          "pattern": [
+            {
+              "text": "[動作一]",
+              "fixed": false
+            },
+            {
+              "text": "while",
+              "fixed": true
+            },
+            {
+              "text": "[同時進行的動作二]",
+              "fixed": false
+            }
+          ],
+          "context": "診所",
+          "explanation": "正確，護士清潔傷口的同時與孩子說話。"
+        },
+        {
+          "number": 19,
+          "word": "because / ’cause + clause (reason)",
+          "meaning": "解釋前面發生某事的原因。",
+          "usage": "想交代選擇背後的理由時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "The fish stayed in water because it wanted to fly in the sky.",
+            "I opened the umbrella because I wanted to get wet.",
+            "We moved the picnic inside because a storm was coming.",
+            "He turned the lamp on because he wanted the room to be darker."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤，魚留在水中與想在天上飛的理由不配合。",
+            "錯誤，打傘通常是為了不被淋濕。",
+            "正確，暴風雨將至，所以把野餐移到室內。",
+            "錯誤，開燈會變亮，與想變暗相反。"
+          ],
+          "cue": "’cause I heard",
+          "example": "I left early because I felt ill.",
+          "pattern": [
+            {
+              "text": "[結果]",
+              "fixed": false
+            },
+            {
+              "text": "because",
+              "fixed": true
+            },
+            {
+              "text": "[原因]",
+              "fixed": false
+            }
+          ],
+          "context": "室內野餐",
+          "explanation": "正確，暴風雨將至，所以把野餐移到室內。"
+        },
+        {
+          "number": 20,
+          "word": "hear + object + -ing",
+          "meaning": "聽見某個動作正在進行。",
+          "usage": "想強調聽到聲音持續出現時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "I heard the dog to barking next door.",
+            "The guard heard someone knocking on the museum door.",
+            "She heard the child to laughing.",
+            "We heard the baby cryinging in the next room."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤，hear 後不能接 to barking。",
+            "正確，保安聽到有人正在敲博物館的門。",
+            "錯誤，應說 heard the child laughing。",
+            "錯誤，cryinging 拼法錯誤，應用 crying。"
+          ],
+          "cue": "heard it screaming",
+          "example": "I heard someone singing outside.",
+          "pattern": [
+            {
+              "text": "[聽者]",
+              "fixed": false
+            },
+            {
+              "text": "hear",
+              "fixed": true
+            },
+            {
+              "text": "[對象]",
+              "fixed": false
+            },
+            {
+              "text": "-ing",
+              "fixed": true
+            }
+          ],
+          "context": "博物館保安",
+          "explanation": "正確，保安聽到有人正在敲博物館的門。"
+        },
+        {
+          "number": 21,
+          "word": "when + past clause, past clause",
+          "meaning": "指出某事發生時，另一件事也發生。",
+          "usage": "敘述故事中的關鍵時刻時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "When the door opened, I walked in three days before it opened.",
+            "When the lights went out, the dancers stopped because they could not see.",
+            "When the match ended, the players were still waiting for it to begin for the first time.",
+            "When the bell rang, I heard it before anyone rang it."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤，進門早於開門三天，不符合 when。",
+            "正確，燈熄滅時舞者因看不見而停下。",
+            "錯誤，比賽已結束卻仍首次等開賽，時間矛盾。",
+            "錯誤，鐘未響之前不可能已聽見那次鐘聲。"
+          ],
+          "cue": "when I lay / when it fell",
+          "example": "When the lights went out, we stopped dancing.",
+          "pattern": [
+            {
+              "text": "When",
+              "fixed": true
+            },
+            {
+              "text": "[發生的時間／事件]",
+              "fixed": false
+            },
+            {
+              "text": "[當時的反應]",
+              "fixed": false
+            }
+          ],
+          "context": "舞蹈停電",
+          "explanation": "正確，燈熄滅時舞者因看不見而停下。"
+        },
+        {
+          "number": 22,
+          "word": "could + base verb (past ability / possibility)",
+          "meaning": "表示過去有能力做某事，或某種可能。",
+          "usage": "談以前能做的事，或想像可行的情況時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "When I was six, I could swim, but I had never learned and could not swim at all.",
+            "I could to read when I was five.",
+            "We could played chess yesterday.",
+            "When I lived near the sea, I could walk to the beach in five minutes."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤，說以前能游泳，卻又說完全不會。",
+            "錯誤，could 後接 read，不加 to。",
+            "錯誤，could 後接 play，不用 played。",
+            "正確，過去住海邊時可以步行到海灘。"
+          ],
+          "cue": "I could stay",
+          "example": "At eight, I could ride a bike.",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "could",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "context": "海邊童年",
+          "explanation": "正確，過去住海邊時可以步行到海灘。"
+        },
+        {
+          "number": 23,
+          "word": "imperative: base verb (+ object)",
+          "meaning": "直接提出指示、邀請或要求。",
+          "usage": "告訴別人現在做甚麼時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "To close your eyes before the photo!",
+            "Smile for the photo, everyone!",
+            "Closed your eyes before the photo!",
+            "You smiling for the photo, everyone!"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤，祈使句通常直接用 Close 開始。",
+            "正確，直接用 Smile 邀請大家拍照時微笑。",
+            "錯誤，祈使句應用 Close，不用 Closed。",
+            "錯誤，You smiling 不是正確的祈使句。"
+          ],
+          "cue": "close my eyes / let it burn",
+          "example": "Please close the gate.",
+          "pattern": [
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            },
+            {
+              "text": "[對象／補充資料]",
+              "fixed": false
+            }
+          ],
+          "context": "團體合照",
+          "explanation": "正確，直接用 Smile 邀請大家拍照時微笑。"
+        },
+        {
+          "number": 24,
+          "word": "nothing + be + comparative adjective",
+          "meaning": "表示沒有其他東西比某事更……。",
+          "usage": "強調自己最喜歡或最看重的選擇時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "After a long walk, nothing is better than a glass of cold water.",
+            "Nothing is better than this cake, but I like every other cake more.",
+            "Nothing is cheaper than this free ticket, but the other tickets cost less than zero.",
+            "Nothing is faster than this train, but every train is faster than it."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確，走很久後用比較級強調冷水最令人滿足。",
+            "錯誤，所有其他蛋糕都更喜歡，便不是最好。",
+            "錯誤，免費票已是零元，其他票不可能正常地更便宜。",
+            "錯誤，所有火車都更快，便不是最快。"
+          ],
+          "cue": "nothing is better",
+          "example": "Nothing is better than a warm bed tonight.",
+          "pattern": [
+            {
+              "text": "Nothing",
+              "fixed": true
+            },
+            {
+              "text": "is",
+              "fixed": true
+            },
+            {
+              "text": "[比較級形容詞]",
+              "fixed": false
+            },
+            {
+              "text": "[可選：than...]",
+              "fixed": false
+            }
+          ],
+          "context": "遠足補水",
+          "explanation": "正確，走很久後用比較級強調冷水最令人滿足。"
+        },
+        {
+          "number": 25,
+          "word": "throw + object + into + place",
+          "meaning": "把某物拋進另一個空間或容器。",
+          "usage": "描述物件由外面移動到裡面時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "He threw the letter into the box, but the letter stayed in his hand.",
+            "The player threw the ball into the basket and scored.",
+            "She threw the stone into the pond, but it never left her pocket.",
+            "I threw my hat into the air, so it stayed on my head the whole time."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤，信仍在手上便沒有被投進箱內。",
+            "正確，球被投進籃框，方向與結果一致。",
+            "錯誤，石頭未離開口袋，便沒有投進池塘。",
+            "錯誤，帽子一直戴著便沒有被拋到空中。"
+          ],
+          "cue": "threw us into the flames",
+          "example": "She threw the ball into the basket.",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "throw",
+              "fixed": true
+            },
+            {
+              "text": "[物件]",
+              "fixed": false
+            },
+            {
+              "text": "into",
+              "fixed": true
+            },
+            {
+              "text": "[進入的地方]",
+              "fixed": false
+            }
+          ],
+          "context": "籃球場",
+          "explanation": "正確，球被投進籃框，方向與結果一致。"
+        },
+        {
+          "number": 26,
+          "word": "know + that + clause",
+          "meaning": "表達自己知道或確認的事實。",
+          "usage": "想告訴別人自己已掌握甚麼資訊時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "I know that this train goes north, but I have no idea where it goes.",
+            "I know that the key is here, but I do not know whether it is here or not.",
+            "I know that the museum is free because the sign says “Free Entry.”",
+            "I know that she is eleven, but I do not know her age at all."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤，知道列車向北與完全不知道方向矛盾。",
+            "錯誤，同時說知道與不知道鑰匙是否在這裡。",
+            "正確，告示提供證據支持說話者知道的事。",
+            "錯誤，知道十一歲便已知道年齡。"
+          ],
+          "cue": "I knew that that was",
+          "example": "I know that the shop closes at six.",
+          "pattern": [
+            {
+              "text": "[知道的人]",
+              "fixed": false
+            },
+            {
+              "text": "know that",
+              "fixed": true
+            },
+            {
+              "text": "[完整句子]",
+              "fixed": false
+            }
+          ],
+          "context": "博物館告示",
+          "explanation": "正確，告示提供證據支持說話者知道的事。"
+        },
+        {
+          "number": 27,
+          "word": "that + noun + (that) + clause (demonstrative + relative)",
+          "meaning": "先指出某個特定對象，再加上限定資料。",
+          "usage": "想指向大家知道的那一個人或物時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "That boy who he won the race is my cousin.",
+            "That cake you made for the party looks great.",
+            "That song you heard it yesterday is new.",
+            "That picture which it is on the wall is mine."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤，who 已代替 boy，不需再加 he。",
+            "正確，that 指特定蛋糕，後面說明是為派對做的。",
+            "錯誤，song 已是 heard 的受詞，不需 it。",
+            "錯誤，which 已代替 picture，不需 it。"
+          ],
+          "cue": "that heart you caught",
+          "example": "That painting you chose is lovely.",
+          "pattern": [
+            {
+              "text": "That",
+              "fixed": true
+            },
+            {
+              "text": "[特定名詞]",
+              "fixed": false
+            },
+            {
+              "text": "[描述該名詞的子句]",
+              "fixed": false
+            }
+          ],
+          "context": "生日蛋糕",
+          "explanation": "正確，that 指特定蛋糕，後面說明是為派對做的。"
+        },
+        {
+          "number": 28,
+          "word": "must be + -ing (strong guess)",
+          "meaning": "根據線索強烈推測某人正在做甚麼。",
+          "usage": "有明顯證據，但不是親眼確認時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "I can hear water in the bathroom; my brother must be taking a shower.",
+            "The room is silent, so the band must be playing loud music there now.",
+            "The bus is empty, so fifty people must be sitting inside it.",
+            "The shop is closed, so the workers must be serving customers there now."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確，聽見浴室水聲，合理推測弟弟正在洗澡。",
+            "錯誤，房間完全安靜，與大聲演奏不合。",
+            "錯誤，空車不可能同時坐著五十人。",
+            "錯誤，商店已關門，不能據此推測正在招待顧客。"
+          ],
+          "cue": "must be waiting",
+          "example": "The door is open; Dad must be working outside.",
+          "pattern": [
+            {
+              "text": "[推測對象]",
+              "fixed": false
+            },
+            {
+              "text": "must be + -ing",
+              "fixed": true
+            },
+            {
+              "text": "[推測中的動作]",
+              "fixed": false
+            }
+          ],
+          "context": "浴室水聲",
+          "explanation": "正確，聽見浴室水聲，合理推測弟弟正在洗澡。"
+        },
+        {
+          "number": 29,
+          "word": "sometimes + present simple",
+          "meaning": "某件事偶爾發生，但不是每次。",
+          "usage": "描述不固定的日常習慣時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "Sometimes I go fishing, which means I go every single day without a break.",
+            "Sometimes she eats rice, but she has never eaten rice in her life.",
+            "Sometimes our cat sleeps in the sink, but not every day.",
+            "Sometimes he walks to school, but he has never walked there once."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤，每天都做應用 always 或 every day。",
+            "錯誤，從未吃過與偶爾吃矛盾。",
+            "正確，貓偶爾睡在洗手盆，符合 sometimes。",
+            "錯誤，從未步行過與偶爾步行矛盾。"
+          ],
+          "cue": "sometimes I wake up",
+          "example": "Sometimes I take a different road home.",
+          "pattern": [
+            {
+              "text": "Sometimes",
+              "fixed": true
+            },
+            {
+              "text": "[主語]",
+              "fixed": false
+            },
+            {
+              "text": "[現在式習慣動作]",
+              "fixed": false
+            }
+          ],
+          "context": "貓咪洗手盆",
+          "explanation": "正確，貓偶爾睡在洗手盆，符合 sometimes。"
+        },
+        {
+          "number": 30,
+          "word": "even now + clause (unexpected continuation)",
+          "meaning": "即使到了現在，某件事仍然沒有改變。",
+          "usage": "強調時間已過但情況依舊時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "Even now, I remember the trip, but I have forgotten every part of it.",
+            "Even now, the snow is falling, but it stopped forever last year.",
+            "Even now, I can see the old tower, but it was taken away before I was born.",
+            "Even now, Grandma still keeps the postcard I sent ten years ago."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤，記得旅程與忘記所有內容矛盾。",
+            "錯誤，去年已永遠停止與現在仍下雪不符。",
+            "錯誤，出生前已拆掉的塔不可能仍看見。",
+            "正確，十年前寄的明信片至今仍被保存。"
+          ],
+          "cue": "even now",
+          "example": "Even now, I remember my first teacher.",
+          "pattern": [
+            {
+              "text": "Even now",
+              "fixed": true
+            },
+            {
+              "text": "[至今仍然成立的事]",
+              "fixed": false
+            }
+          ],
+          "context": "舊明信片",
+          "explanation": "正確，十年前寄的明信片至今仍被保存。"
+        },
+        {
+          "number": 31,
+          "word": "when + clause (background circumstance)",
+          "meaning": "在某種情況出現時，另一件事成立。",
+          "usage": "交代某個感受或行動的背景時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "When I am alone, I talk to my five friends who are sitting next to me.",
+            "When the water is frozen, I can easily swim through the solid ice.",
+            "When the room is empty, twenty people are sitting in it.",
+            "When the market is busy, the sellers have many customers."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤，獨處與五位朋友坐在旁邊矛盾。",
+            "錯誤，結冰的固體不能像水一樣游過。",
+            "錯誤，空房間不會同時坐著二十人。",
+            "正確，市場繁忙時攤販有很多顧客。"
+          ],
+          "cue": "when we’re already over",
+          "example": "When the class is quiet, I can think clearly.",
+          "pattern": [
+            {
+              "text": "When",
+              "fixed": true
+            },
+            {
+              "text": "[背景情況]",
+              "fixed": false
+            },
+            {
+              "text": "[在該情況下發生的事]",
+              "fixed": false
+            }
+          ],
+          "context": "週末市場",
+          "explanation": "正確，市場繁忙時攤販有很多顧客。"
+        },
+        {
+          "number": 32,
+          "word": "can’t help + -ing / can’t help oneself from + -ing",
+          "meaning": "忍不住做某件事，難以控制自己。",
+          "usage": "某種反應自然而然發生、很難停下時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "I cannot help smiling when the baby waves at me.",
+            "I cannot help to laugh at the joke.",
+            "I cannot help laugh when the dog dances.",
+            "I cannot help myself from to smile when I see the puppy."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確，看到寶寶揮手忍不住微笑，形式也正確。",
+            "錯誤，can’t help 後要用 laughing。",
+            "錯誤，can’t help 後不用原形 laugh。",
+            "錯誤，from 後應接 smiling，不加 to。"
+          ],
+          "cue": "can’t help myself from looking",
+          "example": "I can’t help laughing at that silly dance.",
+          "pattern": [
+            {
+              "text": "can’t help + -ing ／ can’t help oneself from + -ing",
+              "fixed": true
+            }
+          ],
+          "context": "寶寶揮手",
+          "explanation": "正確，看到寶寶揮手忍不住微笑，形式也正確。"
+        },
+        {
+          "number": 33,
+          "word": "let + object + base verb (instruction / release)",
+          "meaning": "讓某個過程自然繼續，不去阻止。",
+          "usage": "提醒別人先等一個過程完成時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "Let the bread cool before you eat it, or it may burn your mouth.",
+            "Let the bread to cool before you eat it.",
+            "Let the paint dry, so touch it every second while it is wet.",
+            "Let the ice melt, so put it in the freezer to keep it hard."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確，先讓麵包放涼再吃，情況合理。",
+            "錯誤，let 後不加 to。",
+            "錯誤，不斷觸摸未乾油漆，與讓它自然乾燥相反。",
+            "錯誤，放入冰箱保持結冰，與讓冰融化相反。"
+          ],
+          "cue": "let it burn (imperative extension of let)",
+          "example": "Let the paint dry before you touch it.",
+          "pattern": [
+            {
+              "text": "Let",
+              "fixed": true
+            },
+            {
+              "text": "[物件]",
+              "fixed": false
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "context": "烘焙麵包",
+          "explanation": "正確，先讓麵包放涼再吃，情況合理。"
+        }
+      ]
+    },
+    "analysis": {
+      "version": 1,
+      "title": "翻譯細讀",
+      "note": "根據使用者 PDF 的雙語歌詞新增的編輯解說；比喻解讀均保留推論分寸。",
+      "items": [
+        {
+          "title": "標題的矛盾意象",
+          "cue": "set fire to the rain",
+          "translation": "為雨點燃烈火",
+          "paragraphs": [
+            "fire 與 rain 放在同一畫面，形成強烈而難以實現的動作意象。直譯保留衝突，讓讀者感受感情中的激烈與失控。",
+            "可把這個畫面理解為愛與痛苦交纏；這屬詮釋，歌詞沒有把雨和火逐一指定為單一象徵。"
+          ]
+        },
+        {
+          "title": "心墜落與對方的動作",
+          "cue": "I let it fall, my heart",
+          "translation": "我任由自己的心墜落",
+          "paragraphs": [
+            "my heart 延後出現，補明 it 的所指。中文可把「心」提早放入句子，讓指代清楚。",
+            "rose to claim it 的 to 表目的；claim 帶有取得、認領的意味。選用「接住」較柔和，會減弱原字的佔有色彩，分析時要說明這個取捨。"
+          ]
+        },
+        {
+          "title": "身體力量與脆弱",
+          "cue": "my hands / my knees",
+          "translation": "雙手強壯，雙膝卻無力支撐",
+          "paragraphs": [
+            "hands 與 knees 形成身體部位的對照。保留這組具體形象，可呈現外在力量與情感脆弱的並存。",
+            "falling to your feet 有屈服或拜倒的聯想；應結合前句雙膝無力閱讀，避免把它限制為普通跌倒。"
+          ]
+        },
+        {
+          "title": "揭露不為人知的一面",
+          "cue": "a side to you",
+          "translation": "你還有我從未認識的一面",
+          "paragraphs": [
+            "side 在此指性格或行為的一面。「你的一邊」會令中文失去人物描寫的意思。",
+            "never knew 的反覆加重驚訝與失望。逐句翻譯仍須保留每次反覆，分析可以合併討論其效果。"
+          ]
+        },
+        {
+          "title": "言語與操控",
+          "cue": "never true / always win",
+          "translation": "話語從不真實；遊戲總由你取勝",
+          "paragraphs": [
+            "never 與 always 的絕對程度構成強烈控訴。中文應保留歌者的主觀語氣。",
+            "games 可在關係中理解為操控或捉弄。「遊戲」保留原比喻；「感情把戲」使中文更明確，也增加了詮釋。"
+          ]
+        },
+        {
+          "title": "動作同時發生",
+          "cue": "as I touched your face / while I cried",
+          "translation": "觸碰你臉龐時；流淚之際",
+          "paragraphs": [
+            "as 與 while 在這兩處把動作放在同一時間畫面。中文可用「當……時」「一邊……一邊……」等自然句式。",
+            "不能僅憑連接詞把時間關係改寫成因果。觸碰、燃燒與哭泣的並置讓畫面更濃烈。"
+          ]
+        },
+        {
+          "title": "火雨中的聲音",
+          "cue": "screaming out your name",
+          "translation": "高聲呼喊你的名字",
+          "paragraphs": [
+            "screaming out 比一般 saying 更激烈；「呼喊」或「嘶喊」要配合整段中文的強度。",
+            "it 的指代與前面的雨、燃燒畫面相連，帶有擬人效果。保留意象可避免過早把每個代詞改寫成明確人物。"
+          ]
+        },
+        {
+          "title": "倒下、消逝與最後一次",
+          "cue": "something died",
+          "translation": "有些東西就此消逝",
+          "paragraphs": [
+            "something 刻意保留不確定。譯作「有些東西」或「某種感覺」各有取捨，後者把範圍收窄至感情。",
+            "若直接寫成某人死亡，會增加原句未有的具體事件。分析可討論信任或關係破裂的聯想，並標明推論。"
+          ]
+        },
+        {
+          "title": "習慣仍留在身體裡",
+          "cue": "wake up by the door",
+          "translation": "在門旁醒來",
+          "paragraphs": [
+            "by 表示位置接近。把它譯成「走到門前」會改變原來的動作。",
+            "後文仍在尋找對方，呈現分開後殘留的期待。這是段落連貫性的讀法，單句翻譯仍應先交代動作與位置。"
+          ]
+        },
+        {
+          "title": "無法停止尋找",
+          "cue": "can’t help myself from looking for you",
+          "translation": "我仍忍不住尋找你",
+          "paragraphs": [
+            "整句表達難以控制的衝動。中文用「忍不住」能自然連接動作。",
+            "歌詞形式帶有口語和創作自由；正式寫作可練習 can’t help + -ing。教學應把歌曲原句與可遷移的標準句型分別說清楚。"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "filename": "Set_Fire_to_the_Rain_B1-C2_Vocabulary_Quiz.md",
+      "sha256": "eff456289d4c76f0f6cb5f564eb27597c24cd6dba755cfdaa7c595222fe3c8c1"
+    },
+    {
+      "filename": "Set_Fire_to_the_Rain_Sentence_Structure_Lab.md",
+      "sha256": "b8909e71388bcc24c3892ccc9a0a0d6a6ba2c7f8bea2970207adafc9ffe0af01"
+    }
+  ]
+}

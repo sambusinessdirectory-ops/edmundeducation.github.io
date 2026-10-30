@@ -950,5 +950,125 @@ window.SONG_DIFFICULTY_DATA = {
     "genre": "Soft rock",
     "vocals": "male",
     "assessment": "Editorial listening estimate; approximate BPM (principal pulse; songs may change tempo); original release year."
+  },
+  "too-good-at-goodbyes": {
+    "scores": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "bpm": 92,
+    "year": 2017,
+    "genre": "Soul pop",
+    "vocals": "male",
+    "assessment": "Editorial listening estimate; approximate principal BPM; original recording release year, not remaster."
+  },
+  "shallow": {
+    "scores": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "bpm": 96,
+    "year": 2018,
+    "genre": "Folk rock",
+    "vocals": "mixed",
+    "assessment": "Editorial listening estimate; approximate principal BPM; original recording release year, not remaster."
+  },
+  "rolling-in-the-deep": {
+    "scores": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "bpm": 105,
+    "year": 2010,
+    "genre": "Soul pop",
+    "vocals": "female",
+    "assessment": "Editorial listening estimate; approximate principal BPM; original recording release year, not remaster."
+  },
+  "set-fire-to-the-rain": {
+    "scores": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "bpm": 108,
+    "year": 2011,
+    "genre": "Pop ballad",
+    "vocals": "female",
+    "assessment": "Editorial listening estimate; approximate principal BPM; original recording release year, not remaster."
+  },
+  "top-of-the-world": {
+    "scores": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "bpm": 92,
+    "year": 1972,
+    "genre": "Country pop",
+    "vocals": "female",
+    "assessment": "Editorial listening estimate; approximate principal BPM; original recording release year, not remaster."
+  },
+  "close-to-you": {
+    "scores": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "bpm": 116,
+    "year": 1970,
+    "genre": "Soft pop",
+    "vocals": "female",
+    "assessment": "Editorial listening estimate; approximate principal BPM; original recording release year, not remaster."
+  },
+  "heal-the-world": {
+    "scores": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "bpm": 80,
+    "year": 1991,
+    "genre": "Pop ballad",
+    "vocals": "male",
+    "assessment": "Editorial listening estimate; approximate principal BPM; original recording release year, not remaster."
+  },
+  "we-are-the-world": {
+    "scores": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "bpm": 73,
+    "year": 1985,
+    "genre": "Pop gospel",
+    "vocals": "mixed",
+    "assessment": "Editorial listening estimate; approximate principal BPM; original recording release year, not remaster."
   }
 };

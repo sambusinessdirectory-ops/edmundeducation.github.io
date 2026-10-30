@@ -23,7 +23,7 @@
   <link rel="stylesheet" href="shared-system-nav.css?v=20261022-character-coins1">
   <link rel="stylesheet" href="song-preview.css?v=20261029-preview2">
   <link rel="stylesheet" href="song-difficulty.css?v=20261029-preview2">
-  <link rel="stylesheet" href="song-appreciation.css?v=20261030-continuity">
+  <link rel="stylesheet" href="song-appreciation.css?v=20261030-seven-sections">
   <script defer src="/pwa-register.js"></script>
 <link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261028-hover-guard1">
 <style>.song-classroom-bar{position:fixed;bottom:0;left:0;right:0;z-index:1200;display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;padding:10px 16px;background:#172a29;color:white;box-shadow:0 -2px 12px #0002;font-size:14px}.song-classroom-bar[hidden]{display:none}body:has(.song-classroom-bar:not([hidden])){padding-bottom:105px}.song-classroom-bar button{padding:8px 12px}</style></head>
@@ -133,6 +133,10 @@
             <button id="translation-tab" type="button" role="tab" aria-selected="false" aria-controls="translation-panel" data-song-tab="translation" tabindex="-1">Translation<span>逐句翻譯</span></button>
             <button id="exercise-tab" type="button" role="tab" aria-selected="false" aria-controls="exercise-panel" data-song-tab="exercise" tabindex="-1">Exercise time<span>聆聽練習</span></button>
             <button id="vocabulary-tab" type="button" role="tab" aria-selected="false" aria-controls="vocabulary-panel" data-song-tab="vocabulary" tabindex="-1">Vocabulary<span>04 · 字彙練習</span></button>
+<button id="advanced-tab" type="button" role="tab" data-song-tab="advanced" aria-selected="false" aria-controls="advanced-panel" tabindex="-1" hidden>Advanced Vocabulary<span>05 · 進階字彙</span></button>
+<button id="structure-tab" type="button" role="tab" data-song-tab="structure" aria-selected="false" aria-controls="structure-panel" tabindex="-1" hidden>Sentence Structure<span>06 · 句型研習</span></button>
+<button id="analysis-tab" type="button" role="tab" data-song-tab="analysis" aria-selected="false" aria-controls="analysis-panel" tabindex="-1" hidden>Deeper Analysis<span>07 · 翻譯細讀</span></button>
+
           </nav>
 
           <section class="song-player" data-song-player hidden aria-label="歌曲播放器">
@@ -177,6 +181,9 @@
             </div>
           </section>
           <section class="tab-panel" id="vocabulary-panel" role="tabpanel" aria-labelledby="vocabulary-tab" data-tab-panel="vocabulary" hidden><div data-vocabulary></div></section>
+<section id="advanced-panel" class="tab-panel" role="tabpanel" aria-labelledby="advanced-tab" data-tab-panel="advanced" hidden><div class="song-learning-section" data-learning-section="advanced"></div></section>
+<section id="structure-panel" class="tab-panel" role="tabpanel" aria-labelledby="structure-tab" data-tab-panel="structure" hidden><div class="song-learning-section" data-learning-section="structure"></div></section>
+<section id="analysis-panel" class="tab-panel" role="tabpanel" aria-labelledby="analysis-tab" data-tab-panel="analysis" hidden><div class="song-learning-section" data-learning-section="analysis"></div></section>
         </article>
       </section>
 
@@ -240,10 +247,10 @@
   <script src="supabase-config.js?v=20260909-study1"></script>
   <script src="song-appreciation-config.js?v=20260909-human1"></script>
   <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script><script src="shared-system-nav.js?v=20261026-daily-visit1"></script>
-  <script src="song-preview-hooks.js?v=20261030-batch17"></script>
+  <script src="song-preview-hooks.js?v=20261030-seven-sections"></script>
   <script src="song-preview.js?v=20261029-preview2"></script>
-  <script src="song-difficulty-data.js?v=20261030-batch17"></script>
+  <script src="song-difficulty-data.js?v=20261030-seven-sections"></script>
   <script src="song-difficulty.js?v=20261030-axis-direction"></script>
-  <script src="song-appreciation.js?v=20261030-lyric-order"></script>
+  <script src="song-appreciation.js?v=20261030-seven-sections"></script>
 </body>
 </html>

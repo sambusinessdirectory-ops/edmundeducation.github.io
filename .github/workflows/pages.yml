@@ -808,6 +808,8 @@ jobs:
           npm ci --prefix tools/email-qa --ignore-scripts
           node tools/test-song-live-sql.mjs
           node tools/test-song-room-sql.mjs
+          node tools/test-song-learning-sections-db.mjs
+          node tools/test-song-recovery-eight.mjs
           test -s song-media/photograph/album.mp3
           test -s song-media/photograph/cover.webp
 

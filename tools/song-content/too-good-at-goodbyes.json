@@ -1,0 +1,4202 @@
+{
+  "slug": "too-good-at-goodbyes",
+  "title": "Too Good At Goodbyes",
+  "singer": "Sam Smith",
+  "translations": [
+    {
+      "english": "You must think that I'm stupid",
+      "chinese": "你一定以為我很愚蠢",
+      "lineId": "line-1",
+      "startSeconds": 0.0,
+      "endSeconds": 3.2
+    },
+    {
+      "english": "You must think that I'm a fool",
+      "chinese": "你一定以為我是個傻瓜",
+      "lineId": "line-2",
+      "startSeconds": 3.2,
+      "endSeconds": 8.32
+    },
+    {
+      "english": "You must think that I'm new to this",
+      "chinese": "你一定以為我從未經歷過這一切",
+      "lineId": "line-3",
+      "startSeconds": 10.48,
+      "endSeconds": 14.28
+    },
+    {
+      "english": "But I have seen this all before",
+      "chinese": "可這樣的事，我早已經歷過了",
+      "lineId": "line-4",
+      "startSeconds": 14.28,
+      "endSeconds": 18.78
+    },
+    {
+      "english": "I'm never gonna let you close to me",
+      "chinese": "我再也不會讓你走近我的心",
+      "lineId": "line-5",
+      "startSeconds": 20.04,
+      "endSeconds": 22.92
+    },
+    {
+      "english": "Even though you mean the most to me",
+      "chinese": "即使你對我而言，比任何人都重要",
+      "lineId": "line-6",
+      "startSeconds": 22.92,
+      "endSeconds": 25.68
+    },
+    {
+      "english": "'Cause every time I open up, it hurts",
+      "chinese": "因為每當我敞開心扉，換來的總是傷痛",
+      "lineId": "line-7",
+      "startSeconds": 25.68,
+      "endSeconds": 29.96
+    },
+    {
+      "english": "So I'm never gonna get too close to you",
+      "chinese": "所以，我再也不會讓自己與你太過親近",
+      "lineId": "line-8",
+      "startSeconds": 30.68,
+      "endSeconds": 33.5
+    },
+    {
+      "english": "Even when I mean the most to you",
+      "chinese": "即使我也是你心中最重要的人",
+      "lineId": "line-9",
+      "startSeconds": 33.5,
+      "endSeconds": 36.24
+    },
+    {
+      "english": "In case you go and leave me in the dirt",
+      "chinese": "只怕有一天，你會轉身離去，任由我狼狽地被遺棄",
+      "lineId": "line-10",
+      "startSeconds": 36.24,
+      "endSeconds": 39.72
+    },
+    {
+      "english": "But every time you hurt me, the less that I cry",
+      "chinese": "可你每傷害我一次，我流下的眼淚便少一些",
+      "lineId": "line-11",
+      "startSeconds": 40.4,
+      "endSeconds": 44.56
+    },
+    {
+      "english": "And every time you leave me, the quicker these tears dry",
+      "chinese": "而你每離開我一次，我的眼淚便乾得更快",
+      "lineId": "line-12",
+      "startSeconds": 44.56,
+      "endSeconds": 50.22
+    },
+    {
+      "english": "And every time you walk out, the less I love you",
+      "chinese": "你每一次轉身離去，我對你的愛便淡去幾分",
+      "lineId": "line-13",
+      "startSeconds": 50.22,
+      "endSeconds": 55.08
+    },
+    {
+      "english": "Baby, we don't stand a chance, it's sad but it's true",
+      "chinese": "親愛的，我們已沒有走下去的可能，這令人心碎，卻是事實",
+      "lineId": "line-14",
+      "startSeconds": 55.08,
+      "endSeconds": 60.14
+    },
+    {
+      "english": "I'm way too good at goodbyes",
+      "chinese": "我早已太過擅長說再見",
+      "lineId": "line-15",
+      "startSeconds": 60.14,
+      "endSeconds": 62.78
+    },
+    {
+      "english": "(I'm way too good at goodbyes)",
+      "chinese": "（我早已太過擅長說再見）",
+      "lineId": "line-16",
+      "startSeconds": 62.78,
+      "endSeconds": 65.46
+    },
+    {
+      "english": "I'm way too good at goodbyes",
+      "chinese": "我早已太過擅長說再見",
+      "lineId": "line-17",
+      "startSeconds": 65.46,
+      "endSeconds": 68.16
+    },
+    {
+      "english": "(I'm way too good at goodbyes)",
+      "chinese": "（我早已太過擅長說再見）",
+      "lineId": "line-18",
+      "startSeconds": 68.16,
+      "endSeconds": 70.64
+    },
+    {
+      "english": "I know you're thinking I'm heartless",
+      "chinese": "我知道，你一定覺得我冷酷無情",
+      "lineId": "line-19",
+      "startSeconds": 72.74,
+      "endSeconds": 76.74
+    },
+    {
+      "english": "I know you're thinking I'm cold",
+      "chinese": "我知道，你一定覺得我冷漠如冰",
+      "lineId": "line-20",
+      "startSeconds": 77.98,
+      "endSeconds": 81.36
+    },
+    {
+      "english": "I'm just protecting my innocence",
+      "chinese": "可我只是想守護自己尚存的純真",
+      "lineId": "line-21",
+      "startSeconds": 83.32,
+      "endSeconds": 86.94
+    },
+    {
+      "english": "I'm just protecting my soul",
+      "chinese": "我只是想保護自己傷痕累累的靈魂",
+      "lineId": "line-22",
+      "startSeconds": 88.56,
+      "endSeconds": 91.52
+    },
+    {
+      "english": "I'm never gonna let you close to me",
+      "chinese": "我再也不會讓你走近我的心",
+      "lineId": "line-23",
+      "startSeconds": 93.14,
+      "endSeconds": 96.0
+    },
+    {
+      "english": "Even though you mean the most to me",
+      "chinese": "即使你對我而言，比任何人都重要",
+      "lineId": "line-24",
+      "startSeconds": 96.0,
+      "endSeconds": 98.64
+    },
+    {
+      "english": "'Cause every time I open up, it hurts",
+      "chinese": "因為每當我敞開心扉，換來的總是傷痛",
+      "lineId": "line-25",
+      "startSeconds": 98.64,
+      "endSeconds": 103.08
+    },
+    {
+      "english": "So I'm never gonna get too close to you",
+      "chinese": "所以，我再也不會讓自己與你太過親近",
+      "lineId": "line-26",
+      "startSeconds": 103.08,
+      "endSeconds": 106.52
+    },
+    {
+      "english": "Even when I mean the most to you",
+      "chinese": "即使我也是你心中最重要的人",
+      "lineId": "line-27",
+      "startSeconds": 106.52,
+      "endSeconds": 109.18
+    },
+    {
+      "english": "In case you go and leave me in the dirt",
+      "chinese": "只怕有一天，你會轉身離去，任由我狼狽地被遺棄",
+      "lineId": "line-28",
+      "startSeconds": 109.18,
+      "endSeconds": 112.7
+    },
+    {
+      "english": "But every time you hurt me, the less that I cry",
+      "chinese": "可你每傷害我一次，我流下的眼淚便少一些",
+      "lineId": "line-29",
+      "startSeconds": 112.7,
+      "endSeconds": 117.62
+    },
+    {
+      "english": "And every time you leave me, the quicker these tears dry",
+      "chinese": "而你每離開我一次，我的眼淚便乾得更快",
+      "lineId": "line-30",
+      "startSeconds": 118.18,
+      "endSeconds": 123.24
+    },
+    {
+      "english": "And every time you walk out, the less I love you",
+      "chinese": "你每一次轉身離去，我對你的愛便淡去幾分",
+      "lineId": "line-31",
+      "startSeconds": 123.24,
+      "endSeconds": 128.2
+    },
+    {
+      "english": "Baby, we don't stand a chance, it's sad but it's true",
+      "chinese": "親愛的，我們已沒有走下去的可能，這令人心碎，卻是事實",
+      "lineId": "line-32",
+      "startSeconds": 128.2,
+      "endSeconds": 133.14
+    },
+    {
+      "english": "I'm way too good at goodbyes",
+      "chinese": "我早已太過擅長說再見",
+      "lineId": "line-33",
+      "startSeconds": 133.14,
+      "endSeconds": 135.94
+    },
+    {
+      "english": "(I'm way too good at goodbyes)",
+      "chinese": "（我早已太過擅長說再見）",
+      "lineId": "line-34",
+      "startSeconds": 135.94,
+      "endSeconds": 138.28
+    },
+    {
+      "english": "I'm way too good at goodbyes",
+      "chinese": "我早已太過擅長說再見",
+      "lineId": "line-35"
+    },
+    {
+      "english": "(I'm way too good at goodbyes)",
+      "chinese": "（我早已太過擅長說再見）",
+      "lineId": "line-36"
+    },
+    {
+      "english": "No way that you'll see me cry",
+      "chinese": "我絕不會再讓你看見我流淚",
+      "lineId": "line-37"
+    },
+    {
+      "english": "(No way that you'll see me cry)",
+      "chinese": "（我絕不會再讓你看見我流淚）",
+      "lineId": "line-38"
+    },
+    {
+      "english": "I'm way too good at goodbyes",
+      "chinese": "我早已太過擅長說再見",
+      "lineId": "line-39"
+    },
+    {
+      "english": "(I'm way too good at goodbyes)",
+      "chinese": "（我早已太過擅長說再見）",
+      "lineId": "line-40"
+    },
+    {
+      "english": "No",
+      "chinese": "不",
+      "lineId": "line-41",
+      "startSeconds": 153.24,
+      "endSeconds": 154.02
+    },
+    {
+      "english": "No, no, no, no, no",
+      "chinese": "不，不，不，不，不",
+      "lineId": "line-42",
+      "startSeconds": 154.1,
+      "endSeconds": 161.96
+    },
+    {
+      "english": "(I'm way too good at goodbyes)",
+      "chinese": "（我早已太過擅長說再見）",
+      "lineId": "line-43"
+    },
+    {
+      "english": "No, no, no, no",
+      "chinese": "不，不，不，不",
+      "lineId": "line-44",
+      "startSeconds": 162.54,
+      "endSeconds": 167.5
+    },
+    {
+      "english": "No, no, no",
+      "chinese": "不，不，不",
+      "lineId": "line-45"
+    },
+    {
+      "english": "(I'm way too good at goodbyes)",
+      "chinese": "（我早已太過擅長說再見）",
+      "lineId": "line-46"
+    },
+    {
+      "english": "(No way that you'll see me cry)",
+      "chinese": "（我絕不會再讓你看見我流淚）",
+      "lineId": "line-47"
+    },
+    {
+      "english": "(I'm way too good at goodbyes)",
+      "chinese": "（我早已太過擅長說再見）",
+      "lineId": "line-48",
+      "startSeconds": 172.0,
+      "endSeconds": 174.48
+    },
+    {
+      "english": "'Cause every time you hurt me, the less that I cry",
+      "chinese": "因為你每傷害我一次，我流下的眼淚便少一些",
+      "lineId": "line-49",
+      "startSeconds": 175.46,
+      "endSeconds": 180.26
+    },
+    {
+      "english": "And every time you leave me, the quicker these tears dry",
+      "chinese": "而你每離開我一次，我的眼淚便乾得更快",
+      "lineId": "line-50",
+      "startSeconds": 180.26,
+      "endSeconds": 185.84
+    },
+    {
+      "english": "And every time you walk out, the less I love you",
+      "chinese": "你每一次轉身離去，我對你的愛便淡去幾分",
+      "lineId": "line-51",
+      "startSeconds": 185.84,
+      "endSeconds": 190.6
+    },
+    {
+      "english": "Baby, we don't stand a chance, it's sad but it's true",
+      "chinese": "親愛的，我們已沒有走下去的可能，這令人心碎，卻是事實",
+      "lineId": "line-52",
+      "startSeconds": 191.08,
+      "endSeconds": 195.72
+    },
+    {
+      "english": "I'm way too good at goodbyes",
+      "chinese": "我早已太過擅長說再見",
+      "lineId": "line-53",
+      "startSeconds": 195.72,
+      "endSeconds": 200.06
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "stupid",
+          "options": [
+            "stubborn",
+            "silent",
+            "stupid"
+          ],
+          "prompt": "You must think that I'm {{blank}}",
+          "promptZh": "你一定以為我很愚蠢"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "fool",
+          "options": [
+            "fool",
+            "friend",
+            "tool"
+          ],
+          "prompt": "You must think that I'm a {{blank}}",
+          "promptZh": "你一定以為我是個傻瓜"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "new to this",
+          "options": [
+            "used to this",
+            "new to this",
+            "through with this"
+          ],
+          "prompt": "You must think that I'm {{blank}}",
+          "promptZh": "你一定以為我從未經歷過這一切"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "seen this all before",
+          "options": [
+            "heard it all before",
+            "seen this all before",
+            "felt this once before"
+          ],
+          "prompt": "But I have {{blank}}",
+          "promptZh": "可這樣的事，我早已經歷過了"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "never gonna",
+          "options": [
+            "never gonna",
+            "always gonna",
+            "ever gonna"
+          ],
+          "prompt": "I'm {{blank}} let you close to me",
+          "promptZh": "我再也不會讓你走近我的心"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-5",
+          "answer": "close to me",
+          "options": [
+            "next to me",
+            "close to me",
+            "far from me"
+          ],
+          "prompt": "I'm never gonna let you {{blank}}",
+          "promptZh": "我再也不會讓你走近我的心"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-6",
+          "answer": "mean the most",
+          "options": [
+            "mean the most",
+            "need the most",
+            "mean so much"
+          ],
+          "prompt": "Even though you {{blank}} to me",
+          "promptZh": "即使你對我而言，比任何人都重要"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-7",
+          "answer": "open up",
+          "options": [
+            "open up",
+            "give up",
+            "grow up"
+          ],
+          "prompt": "'Cause every time I {{blank}}, it hurts",
+          "promptZh": "因為每當我敞開心扉，換來的總是傷痛"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-7",
+          "answer": "it hurts",
+          "options": [
+            "it works",
+            "it hurts",
+            "it burns"
+          ],
+          "prompt": "'Cause every time I open up, {{blank}}",
+          "promptZh": "因為每當我敞開心扉，換來的總是傷痛"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-8",
+          "answer": "never gonna",
+          "options": [
+            "always gonna",
+            "ever gonna",
+            "never gonna"
+          ],
+          "prompt": "So I'm {{blank}} get too close to you",
+          "promptZh": "所以，我再也不會讓自己與你太過親近"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-8",
+          "answer": "too close",
+          "options": [
+            "so close",
+            "that close",
+            "too close"
+          ],
+          "prompt": "So I'm never gonna get {{blank}} to you",
+          "promptZh": "所以，我再也不會讓自己與你太過親近"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-9",
+          "answer": "mean the most",
+          "options": [
+            "need the most",
+            "mean the most",
+            "mean so much"
+          ],
+          "prompt": "Even when I {{blank}} to you",
+          "promptZh": "即使我也是你心中最重要的人"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-10",
+          "answer": "leave me in the dirt",
+          "options": [
+            "leave me in the dirt",
+            "leave me in the dark",
+            "leave me on the road"
+          ],
+          "prompt": "In case you go and {{blank}}",
+          "promptZh": "只怕有一天，你會轉身離去，任由我狼狽地被遺棄"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-11",
+          "answer": "hurt me",
+          "options": [
+            "hold me",
+            "heard me",
+            "hurt me"
+          ],
+          "prompt": "But every time you {{blank}}, the less that I cry",
+          "promptZh": "可你每傷害我一次，我流下的眼淚便少一些"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-11",
+          "answer": "less that I cry",
+          "options": [
+            "less that I cry",
+            "more that I cry",
+            "less that I try"
+          ],
+          "prompt": "But every time you hurt me, the {{blank}}",
+          "promptZh": "可你每傷害我一次，我流下的眼淚便少一些"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-12",
+          "answer": "leave me",
+          "options": [
+            "need me",
+            "love me",
+            "leave me"
+          ],
+          "prompt": "And every time you {{blank}}, the quicker these tears dry",
+          "promptZh": "而你每離開我一次，我的眼淚便乾得更快"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-12",
+          "answer": "quicker these tears dry",
+          "options": [
+            "slower these tears dry",
+            "quicker the years fly",
+            "quicker these tears dry"
+          ],
+          "prompt": "And every time you leave me, the {{blank}}",
+          "promptZh": "而你每離開我一次，我的眼淚便乾得更快"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-13",
+          "answer": "walk out",
+          "options": [
+            "work out",
+            "walk out",
+            "look out"
+          ],
+          "prompt": "And every time you {{blank}}, the less I love you",
+          "promptZh": "你每一次轉身離去，我對你的愛便淡去幾分"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-13",
+          "answer": "less I love you",
+          "options": [
+            "less I love you",
+            "more I love you",
+            "less I trust you"
+          ],
+          "prompt": "And every time you walk out, the {{blank}}",
+          "promptZh": "你每一次轉身離去，我對你的愛便淡去幾分"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-14",
+          "answer": "stand a chance",
+          "options": [
+            "take a chance",
+            "stand a chance",
+            "stand a change"
+          ],
+          "prompt": "Baby, we don't {{blank}}, it's sad but it's true",
+          "promptZh": "親愛的，我們已沒有走下去的可能，這令人心碎，卻是事實"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "You must think that I'm {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "You must think that I'm a {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You must think that I'm {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "But I have {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I'm {{q:5}} let you {{q:6}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Even though you {{q:7}} to me"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "'Cause every time I {{q:8}}, {{q:9}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "So I'm {{q:10}} get {{q:11}} to you"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Even when I {{q:12}} to you"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "In case you go and {{q:13}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "But every time you {{q:14}}, the {{q:15}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And every time you {{q:16}}, the {{q:17}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "And every time you {{q:18}}, the {{q:19}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Baby, we don't {{q:20}}, it's sad but it's true"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I'm way too good at goodbyes"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I'm way too good at goodbyes"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I know you're thinking I'm heartless"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I know you're thinking I'm cold"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I'm just protecting my innocence"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I'm just protecting my soul"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I'm never gonna let you close to me"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Even though you mean the most to me"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "'Cause every time I open up, it hurts"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "So I'm never gonna get too close to you"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Even when I mean the most to you"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "In case you go and leave me in the dirt"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "But every time you hurt me, the less that I cry"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "And every time you leave me, the quicker these tears dry"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "And every time you walk out, the less I love you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Baby, we don't stand a chance, it's sad but it's true"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I'm way too good at goodbyes"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I'm way too good at goodbyes"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "No way that you'll see me cry"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "(No way that you'll see me cry)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I'm way too good at goodbyes"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "No"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "No, no, no, no, no"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "No, no, no, no"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "No, no, no"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "(No way that you'll see me cry)"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "'Cause every time you hurt me, the less that I cry"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "And every time you leave me, the quicker these tears dry"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "And every time you walk out, the less I love you"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Baby, we don't stand a chance, it's sad but it's true"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "I'm way too good at goodbyes"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "stupid",
+          "options": [
+            "stubborn",
+            "silent",
+            "stupid"
+          ],
+          "prompt": "You must think that I'm {{blank}}",
+          "promptZh": "你一定以為我很愚蠢"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "fool",
+          "options": [
+            "friend",
+            "fool",
+            "tool"
+          ],
+          "prompt": "You must think that I'm a {{blank}}",
+          "promptZh": "你一定以為我是個傻瓜"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "new to this",
+          "options": [
+            "new to this",
+            "used to this",
+            "through with this"
+          ],
+          "prompt": "You must think that I'm {{blank}}",
+          "promptZh": "你一定以為我從未經歷過這一切"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "seen this all before",
+          "options": [
+            "heard it all before",
+            "felt this once before",
+            "seen this all before"
+          ],
+          "prompt": "But I have {{blank}}",
+          "promptZh": "可這樣的事，我早已經歷過了"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "never gonna",
+          "options": [
+            "always gonna",
+            "never gonna",
+            "ever gonna"
+          ],
+          "prompt": "I'm {{blank}} let you close to me",
+          "promptZh": "我再也不會讓你走近我的心"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-5",
+          "answer": "close to me",
+          "options": [
+            "next to me",
+            "far from me",
+            "close to me"
+          ],
+          "prompt": "I'm never gonna let you {{blank}}",
+          "promptZh": "我再也不會讓你走近我的心"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-6",
+          "answer": "mean the most",
+          "options": [
+            "need the most",
+            "mean so much",
+            "mean the most"
+          ],
+          "prompt": "Even though you {{blank}} to me",
+          "promptZh": "即使你對我而言，比任何人都重要"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-7",
+          "answer": "open up",
+          "options": [
+            "open up",
+            "give up",
+            "grow up"
+          ],
+          "prompt": "'Cause every time I {{blank}}, it hurts",
+          "promptZh": "因為每當我敞開心扉，換來的總是傷痛"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-7",
+          "answer": "it hurts",
+          "options": [
+            "it works",
+            "it burns",
+            "it hurts"
+          ],
+          "prompt": "'Cause every time I open up, {{blank}}",
+          "promptZh": "因為每當我敞開心扉，換來的總是傷痛"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-8",
+          "answer": "never gonna",
+          "options": [
+            "always gonna",
+            "never gonna",
+            "ever gonna"
+          ],
+          "prompt": "So I'm {{blank}} get too close to you",
+          "promptZh": "所以，我再也不會讓自己與你太過親近"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-8",
+          "answer": "too close",
+          "options": [
+            "too close",
+            "so close",
+            "that close"
+          ],
+          "prompt": "So I'm never gonna get {{blank}} to you",
+          "promptZh": "所以，我再也不會讓自己與你太過親近"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-9",
+          "answer": "mean the most",
+          "options": [
+            "need the most",
+            "mean so much",
+            "mean the most"
+          ],
+          "prompt": "Even when I {{blank}} to you",
+          "promptZh": "即使我也是你心中最重要的人"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-10",
+          "answer": "leave me in the dirt",
+          "options": [
+            "leave me in the dirt",
+            "leave me in the dark",
+            "leave me on the road"
+          ],
+          "prompt": "In case you go and {{blank}}",
+          "promptZh": "只怕有一天，你會轉身離去，任由我狼狽地被遺棄"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-11",
+          "answer": "hurt me",
+          "options": [
+            "hold me",
+            "heard me",
+            "hurt me"
+          ],
+          "prompt": "But every time you {{blank}}, the less that I cry",
+          "promptZh": "可你每傷害我一次，我流下的眼淚便少一些"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-11",
+          "answer": "less that I cry",
+          "options": [
+            "less that I cry",
+            "more that I cry",
+            "less that I try"
+          ],
+          "prompt": "But every time you hurt me, the {{blank}}",
+          "promptZh": "可你每傷害我一次，我流下的眼淚便少一些"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-12",
+          "answer": "leave me",
+          "options": [
+            "leave me",
+            "need me",
+            "love me"
+          ],
+          "prompt": "And every time you {{blank}}, the quicker these tears dry",
+          "promptZh": "而你每離開我一次，我的眼淚便乾得更快"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-12",
+          "answer": "quicker these tears dry",
+          "options": [
+            "slower these tears dry",
+            "quicker these tears dry",
+            "quicker the years fly"
+          ],
+          "prompt": "And every time you leave me, the {{blank}}",
+          "promptZh": "而你每離開我一次，我的眼淚便乾得更快"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-13",
+          "answer": "walk out",
+          "options": [
+            "walk out",
+            "work out",
+            "look out"
+          ],
+          "prompt": "And every time you {{blank}}, the less I love you",
+          "promptZh": "你每一次轉身離去，我對你的愛便淡去幾分"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-13",
+          "answer": "less I love you",
+          "options": [
+            "less I love you",
+            "more I love you",
+            "less I trust you"
+          ],
+          "prompt": "And every time you walk out, the {{blank}}",
+          "promptZh": "你每一次轉身離去，我對你的愛便淡去幾分"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-14",
+          "answer": "stand a chance",
+          "options": [
+            "take a chance",
+            "stand a chance",
+            "stand a change"
+          ],
+          "prompt": "Baby, we don't {{blank}}, it's sad but it's true",
+          "promptZh": "親愛的，我們已沒有走下去的可能，這令人心碎，卻是事實"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-14",
+          "answer": "sad but it's true",
+          "options": [
+            "hard but it's true",
+            "sad but it's true",
+            "sad but it's new"
+          ],
+          "prompt": "Baby, we don't stand a chance, it's {{blank}}",
+          "promptZh": "親愛的，我們已沒有走下去的可能，這令人心碎，卻是事實"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-15",
+          "answer": "good at goodbyes",
+          "options": [
+            "good with goodbyes",
+            "used to goodbyes",
+            "good at goodbyes"
+          ],
+          "prompt": "I'm way too {{blank}}",
+          "promptZh": "我早已太過擅長說再見"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-16",
+          "answer": "good at goodbyes",
+          "options": [
+            "good with goodbyes",
+            "good at goodbyes",
+            "used to goodbyes"
+          ],
+          "prompt": "(I'm way too {{blank}})",
+          "promptZh": "（我早已太過擅長說再見）"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-17",
+          "answer": "good at goodbyes",
+          "options": [
+            "good with goodbyes",
+            "good at goodbyes",
+            "used to goodbyes"
+          ],
+          "prompt": "I'm way too {{blank}}",
+          "promptZh": "我早已太過擅長說再見"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-18",
+          "answer": "good at goodbyes",
+          "options": [
+            "good at goodbyes",
+            "good with goodbyes",
+            "used to goodbyes"
+          ],
+          "prompt": "(I'm way too {{blank}})",
+          "promptZh": "（我早已太過擅長說再見）"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-19",
+          "answer": "thinking I'm heartless",
+          "options": [
+            "thinking I'm heartless",
+            "thinking I'm harmless",
+            "thinking I'm helpless"
+          ],
+          "prompt": "I know you're {{blank}}",
+          "promptZh": "我知道，你一定覺得我冷酷無情"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-20",
+          "answer": "thinking I'm cold",
+          "options": [
+            "thinking I'm old",
+            "thinking I'm cold",
+            "thinking I'm cruel"
+          ],
+          "prompt": "I know you're {{blank}}",
+          "promptZh": "我知道，你一定覺得我冷漠如冰"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-21",
+          "answer": "protecting my innocence",
+          "options": [
+            "rejecting my innocence",
+            "protecting my confidence",
+            "protecting my innocence"
+          ],
+          "prompt": "I'm just {{blank}}",
+          "promptZh": "可我只是想守護自己尚存的純真"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-22",
+          "answer": "protecting my soul",
+          "options": [
+            "protecting my soul",
+            "protecting my role",
+            "collecting my soul"
+          ],
+          "prompt": "I'm just {{blank}}",
+          "promptZh": "我只是想保護自己傷痕累累的靈魂"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-23",
+          "answer": "never gonna",
+          "options": [
+            "always gonna",
+            "ever gonna",
+            "never gonna"
+          ],
+          "prompt": "I'm {{blank}} let you close to me",
+          "promptZh": "我再也不會讓你走近我的心"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-23",
+          "answer": "close to me",
+          "options": [
+            "next to me",
+            "close to me",
+            "far from me"
+          ],
+          "prompt": "I'm never gonna let you {{blank}}",
+          "promptZh": "我再也不會讓你走近我的心"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-24",
+          "answer": "mean the most",
+          "options": [
+            "need the most",
+            "mean the most",
+            "mean so much"
+          ],
+          "prompt": "Even though you {{blank}} to me",
+          "promptZh": "即使你對我而言，比任何人都重要"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "You must think that I'm {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "You must think that I'm a {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You must think that I'm {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "But I have {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I'm {{q:5}} let you {{q:6}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Even though you {{q:7}} to me"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "'Cause every time I {{q:8}}, {{q:9}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "So I'm {{q:10}} get {{q:11}} to you"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Even when I {{q:12}} to you"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "In case you go and {{q:13}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "But every time you {{q:14}}, the {{q:15}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And every time you {{q:16}}, the {{q:17}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "And every time you {{q:18}}, the {{q:19}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Baby, we don't {{q:20}}, it's {{q:21}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I'm way too {{q:22}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "(I'm way too {{q:23}})"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I'm way too {{q:24}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "(I'm way too {{q:25}})"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I know you're {{q:26}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I know you're {{q:27}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I'm just {{q:28}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I'm just {{q:29}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I'm {{q:30}} let you {{q:31}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Even though you {{q:32}} to me"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "'Cause every time I open up, it hurts"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "So I'm never gonna get too close to you"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Even when I mean the most to you"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "In case you go and leave me in the dirt"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "But every time you hurt me, the less that I cry"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "And every time you leave me, the quicker these tears dry"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "And every time you walk out, the less I love you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Baby, we don't stand a chance, it's sad but it's true"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I'm way too good at goodbyes"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I'm way too good at goodbyes"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "No way that you'll see me cry"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "(No way that you'll see me cry)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I'm way too good at goodbyes"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "No"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "No, no, no, no, no"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "No, no, no, no"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "No, no, no"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "(No way that you'll see me cry)"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "'Cause every time you hurt me, the less that I cry"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "And every time you leave me, the quicker these tears dry"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "And every time you walk out, the less I love you"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Baby, we don't stand a chance, it's sad but it's true"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "I'm way too good at goodbyes"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "stupid",
+          "options": [
+            "stubborn",
+            "silent",
+            "stupid"
+          ],
+          "prompt": "You must think that I'm {{blank}}",
+          "promptZh": "你一定以為我很愚蠢"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "fool",
+          "options": [
+            "fool",
+            "friend",
+            "tool"
+          ],
+          "prompt": "You must think that I'm a {{blank}}",
+          "promptZh": "你一定以為我是個傻瓜"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "new to this",
+          "options": [
+            "used to this",
+            "new to this",
+            "through with this"
+          ],
+          "prompt": "You must think that I'm {{blank}}",
+          "promptZh": "你一定以為我從未經歷過這一切"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "seen this all before",
+          "options": [
+            "seen this all before",
+            "heard it all before",
+            "felt this once before"
+          ],
+          "prompt": "But I have {{blank}}",
+          "promptZh": "可這樣的事，我早已經歷過了"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "never gonna",
+          "options": [
+            "always gonna",
+            "ever gonna",
+            "never gonna"
+          ],
+          "prompt": "I'm {{blank}} let you close to me",
+          "promptZh": "我再也不會讓你走近我的心"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-5",
+          "answer": "close to me",
+          "options": [
+            "close to me",
+            "next to me",
+            "far from me"
+          ],
+          "prompt": "I'm never gonna let you {{blank}}",
+          "promptZh": "我再也不會讓你走近我的心"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-6",
+          "answer": "mean the most",
+          "options": [
+            "mean the most",
+            "need the most",
+            "mean so much"
+          ],
+          "prompt": "Even though you {{blank}} to me",
+          "promptZh": "即使你對我而言，比任何人都重要"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-7",
+          "answer": "open up",
+          "options": [
+            "give up",
+            "open up",
+            "grow up"
+          ],
+          "prompt": "'Cause every time I {{blank}}, it hurts",
+          "promptZh": "因為每當我敞開心扉，換來的總是傷痛"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-7",
+          "answer": "it hurts",
+          "options": [
+            "it works",
+            "it hurts",
+            "it burns"
+          ],
+          "prompt": "'Cause every time I open up, {{blank}}",
+          "promptZh": "因為每當我敞開心扉，換來的總是傷痛"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-8",
+          "answer": "never gonna",
+          "options": [
+            "always gonna",
+            "ever gonna",
+            "never gonna"
+          ],
+          "prompt": "So I'm {{blank}} get too close to you",
+          "promptZh": "所以，我再也不會讓自己與你太過親近"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-8",
+          "answer": "too close",
+          "options": [
+            "too close",
+            "so close",
+            "that close"
+          ],
+          "prompt": "So I'm never gonna get {{blank}} to you",
+          "promptZh": "所以，我再也不會讓自己與你太過親近"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-9",
+          "answer": "mean the most",
+          "options": [
+            "mean the most",
+            "need the most",
+            "mean so much"
+          ],
+          "prompt": "Even when I {{blank}} to you",
+          "promptZh": "即使我也是你心中最重要的人"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-10",
+          "answer": "leave me in the dirt",
+          "options": [
+            "leave me in the dark",
+            "leave me in the dirt",
+            "leave me on the road"
+          ],
+          "prompt": "In case you go and {{blank}}",
+          "promptZh": "只怕有一天，你會轉身離去，任由我狼狽地被遺棄"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-11",
+          "answer": "hurt me",
+          "options": [
+            "hold me",
+            "hurt me",
+            "heard me"
+          ],
+          "prompt": "But every time you {{blank}}, the less that I cry",
+          "promptZh": "可你每傷害我一次，我流下的眼淚便少一些"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-11",
+          "answer": "less that I cry",
+          "options": [
+            "more that I cry",
+            "less that I try",
+            "less that I cry"
+          ],
+          "prompt": "But every time you hurt me, the {{blank}}",
+          "promptZh": "可你每傷害我一次，我流下的眼淚便少一些"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-12",
+          "answer": "leave me",
+          "options": [
+            "need me",
+            "love me",
+            "leave me"
+          ],
+          "prompt": "And every time you {{blank}}, the quicker these tears dry",
+          "promptZh": "而你每離開我一次，我的眼淚便乾得更快"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-12",
+          "answer": "quicker these tears dry",
+          "options": [
+            "slower these tears dry",
+            "quicker these tears dry",
+            "quicker the years fly"
+          ],
+          "prompt": "And every time you leave me, the {{blank}}",
+          "promptZh": "而你每離開我一次，我的眼淚便乾得更快"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-13",
+          "answer": "walk out",
+          "options": [
+            "walk out",
+            "work out",
+            "look out"
+          ],
+          "prompt": "And every time you {{blank}}, the less I love you",
+          "promptZh": "你每一次轉身離去，我對你的愛便淡去幾分"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-13",
+          "answer": "less I love you",
+          "options": [
+            "more I love you",
+            "less I love you",
+            "less I trust you"
+          ],
+          "prompt": "And every time you walk out, the {{blank}}",
+          "promptZh": "你每一次轉身離去，我對你的愛便淡去幾分"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-14",
+          "answer": "stand a chance",
+          "options": [
+            "take a chance",
+            "stand a change",
+            "stand a chance"
+          ],
+          "prompt": "Baby, we don't {{blank}}, it's sad but it's true",
+          "promptZh": "親愛的，我們已沒有走下去的可能，這令人心碎，卻是事實"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-14",
+          "answer": "sad but it's true",
+          "options": [
+            "sad but it's true",
+            "hard but it's true",
+            "sad but it's new"
+          ],
+          "prompt": "Baby, we don't stand a chance, it's {{blank}}",
+          "promptZh": "親愛的，我們已沒有走下去的可能，這令人心碎，卻是事實"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-15",
+          "answer": "good at goodbyes",
+          "options": [
+            "good with goodbyes",
+            "good at goodbyes",
+            "used to goodbyes"
+          ],
+          "prompt": "I'm way too {{blank}}",
+          "promptZh": "我早已太過擅長說再見"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-16",
+          "answer": "good at goodbyes",
+          "options": [
+            "good with goodbyes",
+            "used to goodbyes",
+            "good at goodbyes"
+          ],
+          "prompt": "(I'm way too {{blank}})",
+          "promptZh": "（我早已太過擅長說再見）"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-17",
+          "answer": "good at goodbyes",
+          "options": [
+            "good with goodbyes",
+            "used to goodbyes",
+            "good at goodbyes"
+          ],
+          "prompt": "I'm way too {{blank}}",
+          "promptZh": "我早已太過擅長說再見"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-18",
+          "answer": "good at goodbyes",
+          "options": [
+            "good at goodbyes",
+            "good with goodbyes",
+            "used to goodbyes"
+          ],
+          "prompt": "(I'm way too {{blank}})",
+          "promptZh": "（我早已太過擅長說再見）"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-19",
+          "answer": "thinking I'm heartless",
+          "options": [
+            "thinking I'm heartless",
+            "thinking I'm harmless",
+            "thinking I'm helpless"
+          ],
+          "prompt": "I know you're {{blank}}",
+          "promptZh": "我知道，你一定覺得我冷酷無情"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-20",
+          "answer": "thinking I'm cold",
+          "options": [
+            "thinking I'm old",
+            "thinking I'm cold",
+            "thinking I'm cruel"
+          ],
+          "prompt": "I know you're {{blank}}",
+          "promptZh": "我知道，你一定覺得我冷漠如冰"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-21",
+          "answer": "protecting my innocence",
+          "options": [
+            "rejecting my innocence",
+            "protecting my confidence",
+            "protecting my innocence"
+          ],
+          "prompt": "I'm just {{blank}}",
+          "promptZh": "可我只是想守護自己尚存的純真"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-22",
+          "answer": "protecting my soul",
+          "options": [
+            "protecting my role",
+            "collecting my soul",
+            "protecting my soul"
+          ],
+          "prompt": "I'm just {{blank}}",
+          "promptZh": "我只是想保護自己傷痕累累的靈魂"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-23",
+          "answer": "never gonna",
+          "options": [
+            "always gonna",
+            "never gonna",
+            "ever gonna"
+          ],
+          "prompt": "I'm {{blank}} let you close to me",
+          "promptZh": "我再也不會讓你走近我的心"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-23",
+          "answer": "close to me",
+          "options": [
+            "next to me",
+            "far from me",
+            "close to me"
+          ],
+          "prompt": "I'm never gonna let you {{blank}}",
+          "promptZh": "我再也不會讓你走近我的心"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-24",
+          "answer": "mean the most",
+          "options": [
+            "need the most",
+            "mean the most",
+            "mean so much"
+          ],
+          "prompt": "Even though you {{blank}} to me",
+          "promptZh": "即使你對我而言，比任何人都重要"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-25",
+          "answer": "open up",
+          "options": [
+            "give up",
+            "grow up",
+            "open up"
+          ],
+          "prompt": "'Cause every time I {{blank}}, it hurts",
+          "promptZh": "因為每當我敞開心扉，換來的總是傷痛"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-25",
+          "answer": "it hurts",
+          "options": [
+            "it hurts",
+            "it works",
+            "it burns"
+          ],
+          "prompt": "'Cause every time I open up, {{blank}}",
+          "promptZh": "因為每當我敞開心扉，換來的總是傷痛"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-26",
+          "answer": "never gonna",
+          "options": [
+            "always gonna",
+            "never gonna",
+            "ever gonna"
+          ],
+          "prompt": "So I'm {{blank}} get too close to you",
+          "promptZh": "所以，我再也不會讓自己與你太過親近"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-26",
+          "answer": "too close",
+          "options": [
+            "too close",
+            "so close",
+            "that close"
+          ],
+          "prompt": "So I'm never gonna get {{blank}} to you",
+          "promptZh": "所以，我再也不會讓自己與你太過親近"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-27",
+          "answer": "mean the most",
+          "options": [
+            "need the most",
+            "mean the most",
+            "mean so much"
+          ],
+          "prompt": "Even when I {{blank}} to you",
+          "promptZh": "即使我也是你心中最重要的人"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-28",
+          "answer": "leave me in the dirt",
+          "options": [
+            "leave me in the dirt",
+            "leave me in the dark",
+            "leave me on the road"
+          ],
+          "prompt": "In case you go and {{blank}}",
+          "promptZh": "只怕有一天，你會轉身離去，任由我狼狽地被遺棄"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-29",
+          "answer": "hurt me",
+          "options": [
+            "hold me",
+            "heard me",
+            "hurt me"
+          ],
+          "prompt": "But every time you {{blank}}, the less that I cry",
+          "promptZh": "可你每傷害我一次，我流下的眼淚便少一些"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-29",
+          "answer": "less that I cry",
+          "options": [
+            "less that I cry",
+            "more that I cry",
+            "less that I try"
+          ],
+          "prompt": "But every time you hurt me, the {{blank}}",
+          "promptZh": "可你每傷害我一次，我流下的眼淚便少一些"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "You must think that I'm {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "You must think that I'm a {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You must think that I'm {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "But I have {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I'm {{q:5}} let you {{q:6}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Even though you {{q:7}} to me"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "'Cause every time I {{q:8}}, {{q:9}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "So I'm {{q:10}} get {{q:11}} to you"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Even when I {{q:12}} to you"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "In case you go and {{q:13}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "But every time you {{q:14}}, the {{q:15}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And every time you {{q:16}}, the {{q:17}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "And every time you {{q:18}}, the {{q:19}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Baby, we don't {{q:20}}, it's {{q:21}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I'm way too {{q:22}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "(I'm way too {{q:23}})"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I'm way too {{q:24}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "(I'm way too {{q:25}})"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I know you're {{q:26}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I know you're {{q:27}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I'm just {{q:28}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I'm just {{q:29}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I'm {{q:30}} let you {{q:31}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Even though you {{q:32}} to me"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "'Cause every time I {{q:33}}, {{q:34}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "So I'm {{q:35}} get {{q:36}} to you"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Even when I {{q:37}} to you"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "In case you go and {{q:38}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "But every time you {{q:39}}, the {{q:40}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "And every time you leave me, the quicker these tears dry"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "And every time you walk out, the less I love you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Baby, we don't stand a chance, it's sad but it's true"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I'm way too good at goodbyes"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I'm way too good at goodbyes"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "No way that you'll see me cry"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "(No way that you'll see me cry)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I'm way too good at goodbyes"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "No"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "No, no, no, no, no"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "No, no, no, no"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "No, no, no"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "(No way that you'll see me cry)"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "'Cause every time you hurt me, the less that I cry"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "And every time you leave me, the quicker these tears dry"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "And every time you walk out, the less I love you"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Baby, we don't stand a chance, it's sad but it's true"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "I'm way too good at goodbyes"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "stupid",
+          "options": [
+            "stubborn",
+            "stupid",
+            "silent"
+          ],
+          "prompt": "You must think that I'm {{blank}}",
+          "promptZh": "你一定以為我很愚蠢"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "fool",
+          "options": [
+            "friend",
+            "tool",
+            "fool"
+          ],
+          "prompt": "You must think that I'm a {{blank}}",
+          "promptZh": "你一定以為我是個傻瓜"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "new to this",
+          "options": [
+            "used to this",
+            "through with this",
+            "new to this"
+          ],
+          "prompt": "You must think that I'm {{blank}}",
+          "promptZh": "你一定以為我從未經歷過這一切"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "seen this all before",
+          "options": [
+            "heard it all before",
+            "seen this all before",
+            "felt this once before"
+          ],
+          "prompt": "But I have {{blank}}",
+          "promptZh": "可這樣的事，我早已經歷過了"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "never gonna",
+          "options": [
+            "never gonna",
+            "always gonna",
+            "ever gonna"
+          ],
+          "prompt": "I'm {{blank}} let you close to me",
+          "promptZh": "我再也不會讓你走近我的心"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-5",
+          "answer": "close to me",
+          "options": [
+            "next to me",
+            "far from me",
+            "close to me"
+          ],
+          "prompt": "I'm never gonna let you {{blank}}",
+          "promptZh": "我再也不會讓你走近我的心"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-6",
+          "answer": "mean the most",
+          "options": [
+            "need the most",
+            "mean the most",
+            "mean so much"
+          ],
+          "prompt": "Even though you {{blank}} to me",
+          "promptZh": "即使你對我而言，比任何人都重要"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-7",
+          "answer": "open up",
+          "options": [
+            "open up",
+            "give up",
+            "grow up"
+          ],
+          "prompt": "'Cause every time I {{blank}}, it hurts",
+          "promptZh": "因為每當我敞開心扉，換來的總是傷痛"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-7",
+          "answer": "it hurts",
+          "options": [
+            "it works",
+            "it hurts",
+            "it burns"
+          ],
+          "prompt": "'Cause every time I open up, {{blank}}",
+          "promptZh": "因為每當我敞開心扉，換來的總是傷痛"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-8",
+          "answer": "never gonna",
+          "options": [
+            "never gonna",
+            "always gonna",
+            "ever gonna"
+          ],
+          "prompt": "So I'm {{blank}} get too close to you",
+          "promptZh": "所以，我再也不會讓自己與你太過親近"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-8",
+          "answer": "too close",
+          "options": [
+            "so close",
+            "that close",
+            "too close"
+          ],
+          "prompt": "So I'm never gonna get {{blank}} to you",
+          "promptZh": "所以，我再也不會讓自己與你太過親近"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-9",
+          "answer": "mean the most",
+          "options": [
+            "mean the most",
+            "need the most",
+            "mean so much"
+          ],
+          "prompt": "Even when I {{blank}} to you",
+          "promptZh": "即使我也是你心中最重要的人"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-10",
+          "answer": "leave me in the dirt",
+          "options": [
+            "leave me in the dark",
+            "leave me on the road",
+            "leave me in the dirt"
+          ],
+          "prompt": "In case you go and {{blank}}",
+          "promptZh": "只怕有一天，你會轉身離去，任由我狼狽地被遺棄"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-11",
+          "answer": "hurt me",
+          "options": [
+            "hold me",
+            "hurt me",
+            "heard me"
+          ],
+          "prompt": "But every time you {{blank}}, the less that I cry",
+          "promptZh": "可你每傷害我一次，我流下的眼淚便少一些"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-11",
+          "answer": "less that I cry",
+          "options": [
+            "less that I cry",
+            "more that I cry",
+            "less that I try"
+          ],
+          "prompt": "But every time you hurt me, the {{blank}}",
+          "promptZh": "可你每傷害我一次，我流下的眼淚便少一些"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-12",
+          "answer": "leave me",
+          "options": [
+            "need me",
+            "love me",
+            "leave me"
+          ],
+          "prompt": "And every time you {{blank}}, the quicker these tears dry",
+          "promptZh": "而你每離開我一次，我的眼淚便乾得更快"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-12",
+          "answer": "quicker these tears dry",
+          "options": [
+            "slower these tears dry",
+            "quicker these tears dry",
+            "quicker the years fly"
+          ],
+          "prompt": "And every time you leave me, the {{blank}}",
+          "promptZh": "而你每離開我一次，我的眼淚便乾得更快"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-13",
+          "answer": "walk out",
+          "options": [
+            "work out",
+            "look out",
+            "walk out"
+          ],
+          "prompt": "And every time you {{blank}}, the less I love you",
+          "promptZh": "你每一次轉身離去，我對你的愛便淡去幾分"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-13",
+          "answer": "less I love you",
+          "options": [
+            "more I love you",
+            "less I love you",
+            "less I trust you"
+          ],
+          "prompt": "And every time you walk out, the {{blank}}",
+          "promptZh": "你每一次轉身離去，我對你的愛便淡去幾分"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-14",
+          "answer": "stand a chance",
+          "options": [
+            "take a chance",
+            "stand a chance",
+            "stand a change"
+          ],
+          "prompt": "Baby, we don't {{blank}}, it's sad but it's true",
+          "promptZh": "親愛的，我們已沒有走下去的可能，這令人心碎，卻是事實"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-14",
+          "answer": "sad but it's true",
+          "options": [
+            "hard but it's true",
+            "sad but it's new",
+            "sad but it's true"
+          ],
+          "prompt": "Baby, we don't stand a chance, it's {{blank}}",
+          "promptZh": "親愛的，我們已沒有走下去的可能，這令人心碎，卻是事實"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-15",
+          "answer": "good at goodbyes",
+          "options": [
+            "good at goodbyes",
+            "good with goodbyes",
+            "used to goodbyes"
+          ],
+          "prompt": "I'm way too {{blank}}",
+          "promptZh": "我早已太過擅長說再見"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-16",
+          "answer": "good at goodbyes",
+          "options": [
+            "good at goodbyes",
+            "good with goodbyes",
+            "used to goodbyes"
+          ],
+          "prompt": "(I'm way too {{blank}})",
+          "promptZh": "（我早已太過擅長說再見）"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-17",
+          "answer": "good at goodbyes",
+          "options": [
+            "good with goodbyes",
+            "good at goodbyes",
+            "used to goodbyes"
+          ],
+          "prompt": "I'm way too {{blank}}",
+          "promptZh": "我早已太過擅長說再見"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-18",
+          "answer": "good at goodbyes",
+          "options": [
+            "good at goodbyes",
+            "good with goodbyes",
+            "used to goodbyes"
+          ],
+          "prompt": "(I'm way too {{blank}})",
+          "promptZh": "（我早已太過擅長說再見）"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-19",
+          "answer": "thinking I'm heartless",
+          "options": [
+            "thinking I'm heartless",
+            "thinking I'm harmless",
+            "thinking I'm helpless"
+          ],
+          "prompt": "I know you're {{blank}}",
+          "promptZh": "我知道，你一定覺得我冷酷無情"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-20",
+          "answer": "thinking I'm cold",
+          "options": [
+            "thinking I'm old",
+            "thinking I'm cruel",
+            "thinking I'm cold"
+          ],
+          "prompt": "I know you're {{blank}}",
+          "promptZh": "我知道，你一定覺得我冷漠如冰"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-21",
+          "answer": "protecting my innocence",
+          "options": [
+            "protecting my innocence",
+            "rejecting my innocence",
+            "protecting my confidence"
+          ],
+          "prompt": "I'm just {{blank}}",
+          "promptZh": "可我只是想守護自己尚存的純真"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-22",
+          "answer": "protecting my soul",
+          "options": [
+            "protecting my role",
+            "protecting my soul",
+            "collecting my soul"
+          ],
+          "prompt": "I'm just {{blank}}",
+          "promptZh": "我只是想保護自己傷痕累累的靈魂"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-23",
+          "answer": "never gonna",
+          "options": [
+            "never gonna",
+            "always gonna",
+            "ever gonna"
+          ],
+          "prompt": "I'm {{blank}} let you close to me",
+          "promptZh": "我再也不會讓你走近我的心"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-23",
+          "answer": "close to me",
+          "options": [
+            "next to me",
+            "close to me",
+            "far from me"
+          ],
+          "prompt": "I'm never gonna let you {{blank}}",
+          "promptZh": "我再也不會讓你走近我的心"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-24",
+          "answer": "mean the most",
+          "options": [
+            "need the most",
+            "mean the most",
+            "mean so much"
+          ],
+          "prompt": "Even though you {{blank}} to me",
+          "promptZh": "即使你對我而言，比任何人都重要"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-25",
+          "answer": "open up",
+          "options": [
+            "give up",
+            "grow up",
+            "open up"
+          ],
+          "prompt": "'Cause every time I {{blank}}, it hurts",
+          "promptZh": "因為每當我敞開心扉，換來的總是傷痛"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-25",
+          "answer": "it hurts",
+          "options": [
+            "it works",
+            "it hurts",
+            "it burns"
+          ],
+          "prompt": "'Cause every time I open up, {{blank}}",
+          "promptZh": "因為每當我敞開心扉，換來的總是傷痛"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-26",
+          "answer": "never gonna",
+          "options": [
+            "always gonna",
+            "never gonna",
+            "ever gonna"
+          ],
+          "prompt": "So I'm {{blank}} get too close to you",
+          "promptZh": "所以，我再也不會讓自己與你太過親近"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-26",
+          "answer": "too close",
+          "options": [
+            "so close",
+            "that close",
+            "too close"
+          ],
+          "prompt": "So I'm never gonna get {{blank}} to you",
+          "promptZh": "所以，我再也不會讓自己與你太過親近"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-27",
+          "answer": "mean the most",
+          "options": [
+            "mean the most",
+            "need the most",
+            "mean so much"
+          ],
+          "prompt": "Even when I {{blank}} to you",
+          "promptZh": "即使我也是你心中最重要的人"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-28",
+          "answer": "leave me in the dirt",
+          "options": [
+            "leave me in the dirt",
+            "leave me in the dark",
+            "leave me on the road"
+          ],
+          "prompt": "In case you go and {{blank}}",
+          "promptZh": "只怕有一天，你會轉身離去，任由我狼狽地被遺棄"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-29",
+          "answer": "hurt me",
+          "options": [
+            "hold me",
+            "heard me",
+            "hurt me"
+          ],
+          "prompt": "But every time you {{blank}}, the less that I cry",
+          "promptZh": "可你每傷害我一次，我流下的眼淚便少一些"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-29",
+          "answer": "less that I cry",
+          "options": [
+            "less that I cry",
+            "more that I cry",
+            "less that I try"
+          ],
+          "prompt": "But every time you hurt me, the {{blank}}",
+          "promptZh": "可你每傷害我一次，我流下的眼淚便少一些"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-30",
+          "answer": "leave me",
+          "options": [
+            "need me",
+            "love me",
+            "leave me"
+          ],
+          "prompt": "And every time you {{blank}}, the quicker these tears dry",
+          "promptZh": "而你每離開我一次，我的眼淚便乾得更快"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-30",
+          "answer": "quicker these tears dry",
+          "options": [
+            "slower these tears dry",
+            "quicker the years fly",
+            "quicker these tears dry"
+          ],
+          "prompt": "And every time you leave me, the {{blank}}",
+          "promptZh": "而你每離開我一次，我的眼淚便乾得更快"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-31",
+          "answer": "walk out",
+          "options": [
+            "work out",
+            "walk out",
+            "look out"
+          ],
+          "prompt": "And every time you {{blank}}, the less I love you",
+          "promptZh": "你每一次轉身離去，我對你的愛便淡去幾分"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-31",
+          "answer": "less I love you",
+          "options": [
+            "more I love you",
+            "less I trust you",
+            "less I love you"
+          ],
+          "prompt": "And every time you walk out, the {{blank}}",
+          "promptZh": "你每一次轉身離去，我對你的愛便淡去幾分"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-32",
+          "answer": "stand a chance",
+          "options": [
+            "stand a chance",
+            "take a chance",
+            "stand a change"
+          ],
+          "prompt": "Baby, we don't {{blank}}, it's sad but it's true",
+          "promptZh": "親愛的，我們已沒有走下去的可能，這令人心碎，卻是事實"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-32",
+          "answer": "sad but it's true",
+          "options": [
+            "hard but it's true",
+            "sad but it's new",
+            "sad but it's true"
+          ],
+          "prompt": "Baby, we don't stand a chance, it's {{blank}}",
+          "promptZh": "親愛的，我們已沒有走下去的可能，這令人心碎，卻是事實"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-33",
+          "answer": "good at goodbyes",
+          "options": [
+            "good with goodbyes",
+            "good at goodbyes",
+            "used to goodbyes"
+          ],
+          "prompt": "I'm way too {{blank}}",
+          "promptZh": "我早已太過擅長說再見"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-34",
+          "answer": "good at goodbyes",
+          "options": [
+            "good with goodbyes",
+            "good at goodbyes",
+            "used to goodbyes"
+          ],
+          "prompt": "(I'm way too {{blank}})",
+          "promptZh": "（我早已太過擅長說再見）"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-35",
+          "answer": "good at goodbyes",
+          "options": [
+            "good at goodbyes",
+            "good with goodbyes",
+            "used to goodbyes"
+          ],
+          "prompt": "I'm way too {{blank}}",
+          "promptZh": "我早已太過擅長說再見"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-36",
+          "answer": "good at goodbyes",
+          "options": [
+            "good at goodbyes",
+            "good with goodbyes",
+            "used to goodbyes"
+          ],
+          "prompt": "(I'm way too {{blank}})",
+          "promptZh": "（我早已太過擅長說再見）"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "You must think that I'm {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "You must think that I'm a {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You must think that I'm {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "But I have {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I'm {{q:5}} let you {{q:6}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Even though you {{q:7}} to me"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "'Cause every time I {{q:8}}, {{q:9}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "So I'm {{q:10}} get {{q:11}} to you"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Even when I {{q:12}} to you"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "In case you go and {{q:13}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "But every time you {{q:14}}, the {{q:15}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And every time you {{q:16}}, the {{q:17}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "And every time you {{q:18}}, the {{q:19}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Baby, we don't {{q:20}}, it's {{q:21}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I'm way too {{q:22}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "(I'm way too {{q:23}})"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I'm way too {{q:24}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "(I'm way too {{q:25}})"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I know you're {{q:26}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I know you're {{q:27}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I'm just {{q:28}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I'm just {{q:29}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I'm {{q:30}} let you {{q:31}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Even though you {{q:32}} to me"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "'Cause every time I {{q:33}}, {{q:34}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "So I'm {{q:35}} get {{q:36}} to you"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Even when I {{q:37}} to you"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "In case you go and {{q:38}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "But every time you {{q:39}}, the {{q:40}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "And every time you {{q:41}}, the {{q:42}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "And every time you {{q:43}}, the {{q:44}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Baby, we don't {{q:45}}, it's {{q:46}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I'm way too {{q:47}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "(I'm way too {{q:48}})"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I'm way too {{q:49}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "(I'm way too {{q:50}})"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "No way that you'll see me cry"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "(No way that you'll see me cry)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I'm way too good at goodbyes"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "No"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "No, no, no, no, no"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "No, no, no, no"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "No, no, no"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "(No way that you'll see me cry)"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "(I'm way too good at goodbyes)"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "'Cause every time you hurt me, the less that I cry"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "And every time you leave me, the quicker these tears dry"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "And every time you walk out, the less I love you"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Baby, we don't stand a chance, it's sad but it's true"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "I'm way too good at goodbyes"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Too Good At Goodbyes · Listening & Vocabulary",
+  "description": "《Too Good at Goodbyes》描寫一個人在愛情中反覆受到傷害後，逐漸築起心牆、害怕再次付出的矛盾心情。歌中的主角曾經深愛著對方，卻因一次又一次的失望與離別，開始失去信任，不敢再輕易敞開心扉。他仍然渴望被愛，但為了保護自己，只能選擇保持距離，隱藏內心的脆弱。隨著傷害不斷累積，他流下的眼淚越來越少，對對方的感情也逐漸淡去。最終，《Too Good at Goodbyes》傳達的是愛情中的失望、無奈與自我保護：當一個人經歷太多次心碎，便可能逐漸習慣離別，甚至將冷漠當成保護自己的方式。那些看似平靜的告別背後，其實隱藏著無數次受傷後留下的傷痕。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Be new to",
+      "meaning": "剛接觸……；對……沒有經驗",
+      "usage": "剛開始學習、做某件事，或第一次接觸某種活動。",
+      "prompt": "哪一句正確使用了「Be new to」？",
+      "options": [
+        "I am new to cook, so my cake looks funny.",
+        "I am new to cooking, so my first cake looks funny.",
+        "I new to cooking every Sunday.",
+        "My cake is new to happy."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤。to 在這裡是介系詞，要用 cooking，不是 cook。",
+        "正確。be new to 後面接名詞或動名詞，表示對做蛋糕還沒有經驗。",
+        "錯誤。形容詞 new 前面需要 be 動詞，應說 I am new to cooking。",
+        "錯誤。happy 是形容詞，不是某人新接觸的事情。"
+      ],
+      "explanation": "正確。be new to 後面接名詞或動名詞，表示對做蛋糕還沒有經驗。"
+    },
+    {
+      "number": 2,
+      "word": "Even though",
+      "meaning": "即使；雖然",
+      "usage": "當兩件事情有反差時使用，後面接完整句子。",
+      "prompt": "哪一句正確使用了「Even though」？",
+      "options": [
+        "Even though it was raining, but we went out.",
+        "Even though hungry, I eat a sandwich.",
+        "Even though the cat is orange yesterday.",
+        "Even though I was tired, I finished my homework."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤。even though 和 but 通常不要在同一句結構中一起使用。",
+        "錯誤。這裡需要完整子句，例如 Even though I was hungry。",
+        "錯誤。yesterday 要配合適當的過去式，例如 was。",
+        "正確。雖然很累，仍完成作業，前後有反差。"
+      ],
+      "explanation": "正確。雖然很累，仍完成作業，前後有反差。"
+    },
+    {
+      "number": 3,
+      "word": "Mean a lot to someone",
+      "meaning": "對某人很重要",
+      "usage": "談家人、朋友、禮物或某件特別有意義的事時使用。",
+      "prompt": "哪一句正確使用了「Mean a lot to someone」？",
+      "options": [
+        "This photo means a lot my sister.",
+        "My friends mean a lot to me.",
+        "I mean a lot to my soup with a spoon.",
+        "My phone means a lot at ten o’clock."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤。mean a lot 後面要用 to 接人。",
+        "正確。朋友對我非常重要，句型正確。",
+        "錯誤。這個片語表達重要性，不是用湯匙攪湯。",
+        "錯誤。at ten o’clock 是時間，不能代替 to someone。"
+      ],
+      "explanation": "正確。朋友對我非常重要，句型正確。"
+    },
+    {
+      "number": 4,
+      "word": "Open up",
+      "meaning": "敞開心扉；說出內心感受",
+      "usage": "當你開始信任別人，願意分享感受或秘密時使用。",
+      "prompt": "哪一句正確使用了「Open up」？",
+      "options": [
+        "I open up my shoes to the music.",
+        "She opened up her homework at seven o’clock.",
+        "He opened up to his friend about his worries.",
+        "We open up the bus to sleep early."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤。這裡無法表達敞開心扉；鞋子也不是分享心事的人。",
+        "錯誤。這裡若指開始做作業，應說 started her homework。",
+        "正確。open up to someone about something 表示對某人說出心事。",
+        "錯誤。此句的 open up 沒有合理的使用情境。"
+      ],
+      "explanation": "正確。open up to someone about something 表示對某人說出心事。"
+    },
+    {
+      "number": 5,
+      "word": "In case",
+      "meaning": "以防萬一；以免",
+      "usage": "擔心某件事可能發生，所以先做好準備時使用。",
+      "prompt": "哪一句正確使用了「In case」？",
+      "options": [
+        "Take an umbrella in case it rains.",
+        "I wear a hat in case yesterday was hot.",
+        "In case I like pizza, I eat it every week.",
+        "She is in case the kitchen with her dog."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確。先帶傘，以防等一下下雨。",
+        "錯誤。昨天已經過去，不是尚未發生的風險。",
+        "錯誤。這裡是因為喜歡而常吃，應用 because。",
+        "錯誤。in case 不是表示地點的介系詞。"
+      ],
+      "explanation": "正確。先帶傘，以防等一下下雨。"
+    },
+    {
+      "number": 6,
+      "word": "Walk out",
+      "meaning": "走出去；（生氣地）離開",
+      "usage": "描述走出房間，或在爭吵中突然離開某個地方。",
+      "prompt": "哪一句正確使用了「Walk out」？",
+      "options": [
+        "My pencil walked out of my bag and sang.",
+        "We walked out a delicious sandwich for lunch.",
+        "She was angry and walked out of the room.",
+        "He walked out in the blue very sandwich."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤。鉛筆不會自己走出去，也不會唱歌。",
+        "錯誤。walk out 不是製作或吃三明治的動作。",
+        "正確。生氣後走出房間，walk out of + 地點 很自然。",
+        "錯誤。句子結構不通順，無法正確表達 walk out。"
+      ],
+      "explanation": "正確。生氣後走出房間，walk out of + 地點 很自然。"
+    },
+    {
+      "number": 7,
+      "word": "Stand a chance",
+      "meaning": "有機會成功；有希望",
+      "usage": "談比賽、考試、計畫或某件事情能否成功時使用。",
+      "prompt": "哪一句正確使用了「Stand a chance」？",
+      "options": [
+        "Our team stands a chance of winning the game.",
+        "I stand a chance on the chair to get taller.",
+        "She stands a chance of blue every morning.",
+        "I stand a chance the bus at nine."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確。stand a chance of + -ing 表示有機會成功。",
+        "錯誤。這個片語不是站在椅子上；應說 stand on a chair。",
+        "錯誤。of 後面需接有意義的名詞或動名詞，不是 blue。",
+        "錯誤。這個片語不是等公車；應說 wait for the bus。"
+      ],
+      "explanation": "正確。stand a chance of + -ing 表示有機會成功。"
+    },
+    {
+      "number": 8,
+      "word": "Be good at",
+      "meaning": "擅長……",
+      "usage": "介紹自己的長處，例如唱歌、運動或畫畫；at 後接名詞或 -ing。",
+      "prompt": "哪一句正確使用了「Be good at」？",
+      "options": [
+        "She is good at drawing funny cats.",
+        "My dog is good at a purple Tuesday.",
+        "I am good at to swim in the sea.",
+        "He good at dance every day."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確。good at + drawing 表示擅長畫畫。",
+        "錯誤。這個片語後面需要合理的能力或活動。",
+        "錯誤。at 後面應用 swimming，不用 to swim。",
+        "錯誤。要加 is，而且 dance 要改成 dancing。"
+      ],
+      "explanation": "正確。good at + drawing 表示擅長畫畫。"
+    },
+    {
+      "number": 9,
+      "word": "Protect",
+      "meaning": "保護",
+      "usage": "想讓某人、動物或東西免於受傷、危險或損壞時使用。",
+      "prompt": "哪一句正確使用了「Protect」？",
+      "options": [
+        "I protect my lunch with eating it fast.",
+        "This coat protects me from the cold.",
+        "She protects to her brother from rain.",
+        "Our teacher protects the homework into the window."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤。吃得快不是自然的 protect 用法；可以說 I eat my lunch quickly。",
+        "正確。protect someone from something 表示保護某人免受影響。",
+        "錯誤。protect 後面直接接保護對象，不用 to。",
+        "錯誤。protect 不能在這裡表示把作業移到窗戶裡。"
+      ],
+      "explanation": "正確。protect someone from something 表示保護某人免受影響。"
+    },
+    {
+      "number": 10,
+      "word": "No way",
+      "meaning": "不可能；絕對不要；不會吧",
+      "usage": "強烈拒絕某件事，或對一件不可思議的事表示驚訝時使用。",
+      "prompt": "哪一句正確使用了「No way」？",
+      "options": [
+        "I no way my breakfast at seven.",
+        "No way the door is blue with happy.",
+        "She buys no way three oranges.",
+        "“Can I borrow your toothbrush?” “No way!”"
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤。no way 不是表示吃早餐的動詞。",
+        "錯誤。這裡句子不完整，也沒有合理的拒絕或驚訝語境。",
+        "錯誤。no way 不能這樣修飾數量或購買動作。",
+        "正確。No way! 可以直接用來強烈拒絕。"
+      ],
+      "explanation": "正確。No way! 可以直接用來強烈拒絕。"
+    }
+  ],
+  "tags": [
+    "sam smith",
+    "too good at goodbyes",
+    "heartbreak",
+    "self-protection"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/too-good-at-goodbyes/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/too-good-at-goodbyes/user-cover-20261030.png",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 201.0,
+    "audioSha256": "356a4075dc44fb66562feec452645d4839959867e5dc3a601005a17a45241487",
+    "timedLines": 43,
+    "untimedLines": 10,
+    "reviewStatus": "Conservative automatic cues; uncertain background or unmatched lines remain visible without guessed timing."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Too Good At Goodbyes_.pdf",
+      "sha256": "14748a9020161113bc1ef8c91f6526a910214effc556814a9a529605b48b5320"
+    },
+    "chosenListening": {
+      "filename": "Too_Good_At_Goodbyes_Listening_Exercise_Resent.docx",
+      "sha256": "0256d3e1af38665b51530bd34642b7826fffcefeb4ad8a6eb4fd1185986e4c32"
+    },
+    "chosenVocabulary": {
+      "filename": "Too_Good_At_Goodbyes_Vocabulary_Quiz.md",
+      "sha256": "10ae09f8e84de1d1031696915801a806b329a173f8b5c4fad1e9340e19b68241"
+    },
+    "audio": {
+      "filename": "Too Good At Goodbyes [pmc93sA80HI].mp3",
+      "sha256": "356a4075dc44fb66562feec452645d4839959867e5dc3a601005a17a45241487"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-6e5c9499-4235-4203-8dde-0a9c5341c3f0.png",
+    "sha256": "9ff12ae509c782b79db631c8cba9be5e02d3730738f895db15612f3a8d7ee82d",
+    "transformations": "none"
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "詞彙程度為教學參考；例句保留簡單句型，集中練習詞義與搭配。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Let someone down — B1",
+          "meaning": "讓某人失望；辜負某人的期待。",
+          "usage": "當別人信任你、期待你做到某件事，而你沒有做到時使用。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "I forgot my promise to Mia, and I really let her down.",
+            "The new lift let me down to the lobby after lunch.",
+            "I let my sandwich down because it looked rather sad.",
+            "The rain let the mountain down on a cold morning."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。忘記對 Mia 的承諾，讓她失望了。",
+            "錯誤。電梯載人下樓應說 took me down；此處不是「讓人失望」。",
+            "錯誤。三明治不是對你有期待的人；若是把它放下，可說 put my sandwich down。",
+            "錯誤。雨不會以這個意思「辜負」一座山。"
+          ],
+          "explanation": "正確。忘記對 Mia 的承諾，讓她失望了。"
+        },
+        {
+          "number": 2,
+          "word": "Get close to someone — B1",
+          "meaning": "與某人變親近；建立親密關係。",
+          "usage": "談友情或感情逐漸加深，而不只是身體距離變近時使用。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "I got close to my soup by adding a little salt.",
+            "She got close to Tuesday when the clock turned blue.",
+            "We got close on the trip and became good friends.",
+            "The bus got close to my homework and finished it."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。加鹽是調味，不是建立人際關係。",
+            "錯誤。星期二不是可以建立親密關係的人。",
+            "正確。旅行讓兩個人更熟悉，建立了友誼。",
+            "錯誤。公車不會與作業建立友誼，更不會幫忙寫完。"
+          ],
+          "explanation": "正確。旅行讓兩個人更熟悉，建立了友誼。"
+        },
+        {
+          "number": 3,
+          "word": "Vulnerable — B2",
+          "meaning": "脆弱的；容易受到傷害的（身體上或情感上）。",
+          "usage": "當一個人坦露心事、缺少保護，或容易被傷害時使用。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "My pizza is vulnerable because it has too much cheese.",
+            "I vulnerable my bike to school on rainy mornings.",
+            "She felt vulnerable after sharing a very personal secret.",
+            "We bought three vulnerables at the shop near school."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。起司多不代表披薩容易受到傷害。",
+            "錯誤。vulnerable 是形容詞，不能代替 ride。",
+            "正確。說出秘密後擔心被批評，正是情感上感到脆弱的情境。",
+            "錯誤。vulnerable 不是可數商品。"
+          ],
+          "explanation": "正確。說出秘密後擔心被批評，正是情感上感到脆弱的情境。"
+        },
+        {
+          "number": 4,
+          "word": "Guard your heart — B2（比喻表達）",
+          "meaning": "保護自己的感情；避免輕易受到情感傷害。",
+          "usage": "曾經受傷後，對新關係保持謹慎時使用。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "I guard my heart by keeping it inside the fridge.",
+            "After the breakup, he guarded his heart around new people.",
+            "The guard guarded my heart near the museum entrance.",
+            "My heart guards the bus stop every Friday morning."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。這裡的 heart 是感情的比喻，不是可以放進冰箱的物品。",
+            "正確。分手受傷後慢慢建立新關係，是在保護自己的感情。",
+            "錯誤。博物館警衛的工作不是替人保管感情。",
+            "錯誤。心臟不會去公車站站崗。"
+          ],
+          "explanation": "正確。分手受傷後慢慢建立新關係，是在保護自己的感情。"
+        },
+        {
+          "number": 5,
+          "word": "Take advantage of someone — B2",
+          "meaning": "利用某人；占某人的便宜。",
+          "usage": "當某人利用別人的善良、信任或弱點獲取好處時使用。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "He took advantage of her kindness and borrowed money again.",
+            "I took advantage of my shoes by tying them tightly.",
+            "She took advantage of the clock to make it hungry.",
+            "We took advantage of our teacher into the library."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。他利用她的善良，不斷要求她付錢。",
+            "錯誤。綁鞋帶不是利用別人的善意。",
+            "錯誤。時鐘不會餓；語意不合。",
+            "錯誤。這個片語不是「帶老師去圖書館」。"
+          ],
+          "explanation": "正確。他利用她的善良，不斷要求她付錢。"
+        },
+        {
+          "number": 6,
+          "word": "Wear someone down — C1",
+          "meaning": "逐漸使某人筋疲力盡；慢慢消磨某人的耐心或抵抗力。",
+          "usage": "壓力、批評或反覆要求持續很久，讓人越來越累或終於妥協時使用。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "I wore my shoes down to the beach for a swim.",
+            "Weeks of arguments wore him down and left him tired.",
+            "She wore the window down with her winter jacket.",
+            "The singer wore the microphone down like a funny hat."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。穿鞋去海邊應說 wore my shoes to the beach；不是消磨人的精力。",
+            "正確。幾個月的爭吵慢慢耗盡了他的精力。",
+            "錯誤。外套不能這樣讓窗戶「筋疲力盡」。",
+            "錯誤。麥克風不是帽子；也不是被壓力消磨的人。"
+          ],
+          "explanation": "正確。幾個月的爭吵慢慢耗盡了他的精力。"
+        },
+        {
+          "number": 7,
+          "word": "Leave someone high and dry — C1（慣用語）",
+          "meaning": "在某人需要幫助時丟下他不管；讓某人陷入困境。",
+          "usage": "別人答應幫忙卻突然退出，讓你獨自面對問題時使用。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "I left my towel high and dry on the top shelf.",
+            "The team left the ball high and dry after the match.",
+            "She left her ice cream high and dry in the freezer.",
+            "My partner quit suddenly and left me high and dry."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。這裡只是字面上的高處和乾燥，沒有「丟下人不管」的意思。",
+            "錯誤。球是圓的與被拋下無關。",
+            "錯誤。冰淇淋放冷凍庫不是讓人孤立無援。",
+            "正確。截止前一天退出，讓搭檔獨自收拾殘局。"
+          ],
+          "explanation": "正確。截止前一天退出，讓搭檔獨自收拾殘局。"
+        },
+        {
+          "number": 8,
+          "word": "Put up a front — C1（慣用語）",
+          "meaning": "裝出某種樣子；掩飾真正的感受。",
+          "usage": "明明難過、害怕或沒有自信，卻故意表現得很堅強或沒事時使用。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "He put up a front door with his morning breakfast.",
+            "I put up a front in my soup to make it sweet.",
+            "The cat put up a front ticket for the late train.",
+            "She put up a brave front, although she felt scared."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。這裡把 front 當作實體前門；不是掩飾情緒。",
+            "錯誤。這個片語不是加糖或調味的方法。",
+            "錯誤。車票不是可以「裝出來」的情緒外表。",
+            "正確。工作時故作堅強，回家才哭，表示隱藏真實情緒。"
+          ],
+          "explanation": "正確。工作時故作堅強，回家才哭，表示隱藏真實情緒。"
+        },
+        {
+          "number": 9,
+          "word": "Emotional baggage — C1（比喻表達）",
+          "meaning": "過去經驗留下的情感包袱；尚未放下的心理負擔。",
+          "usage": "過去的傷害、失望或關係問題影響現在的生活與感情時使用。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "I checked my emotional baggage at the airport desk.",
+            "The suitcase had emotional baggage because it was purple.",
+            "He carried emotional baggage into his next relationship.",
+            "We packed three emotional baggages for our long holiday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。機場托運的是實體行李；此處要考的是情感包袱。",
+            "錯誤。行李箱的顏色不代表有過去的情感創傷。",
+            "正確。上一段關係的負面經驗影響了新的感情。",
+            "錯誤。這裡不是可打包、逐件計數的旅行用品；baggage 在此通常不可數。"
+          ],
+          "explanation": "正確。上一段關係的負面經驗影響了新的感情。"
+        },
+        {
+          "number": 10,
+          "word": "Become desensitized to — C1",
+          "meaning": "對某事逐漸麻木；因反覆接觸而不再有強烈反應。",
+          "usage": "不斷經歷相似的壓力、悲傷或刺激後，感受變得遲鈍時使用。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "I became desensitized to my sandwich after cutting it.",
+            "She became desensitized to the bus after buying a ticket.",
+            "The clock became desensitized to seven on a Tuesday.",
+            "After years of cruel jokes, he became desensitized to them."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。切三明治不是因反覆刺激而失去感受。",
+            "錯誤。買車票不表示對某事逐漸麻木。",
+            "錯誤。時鐘不會因為反覆經歷而產生這種心理反應。",
+            "正確。每天聽到相同的惡意玩笑，久了反應變得麻木。"
+          ],
+          "explanation": "正確。每天聽到相同的惡意玩笑，久了反應變得麻木。"
+        },
+        {
+          "number": 11,
+          "word": "A coping mechanism — C1",
+          "meaning": "應對機制；面對壓力或痛苦時用來保護自己的習慣或方法。",
+          "usage": "談一個人如何處理焦慮、失望或難過時使用；這些方法可能健康，也可能不健康。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "Making jokes was his coping mechanism when he felt nervous.",
+            "I bought a coping mechanism at the local bike shop.",
+            "The toaster used a coping mechanism to brown the bread.",
+            "Her coping mechanism was a hat that spoke French."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。緊張時用開玩笑來應對，是一種應對機制。",
+            "錯誤。coping mechanism 不是腳踏車或機械零件。",
+            "錯誤。烤麵包機的運作方式不是心理上的應對機制。",
+            "錯誤。會說法文的帽子不是處理情緒的習慣或策略。"
+          ],
+          "explanation": "正確。緊張時用開玩笑來應對，是一種應對機制。"
+        },
+        {
+          "number": 12,
+          "word": "Build up a tolerance to — C1（延伸表達）",
+          "meaning": "逐漸對某種刺激產生耐受性；原本的影響變弱。",
+          "usage": "反覆接觸某種刺激後，身體或情緒的反應減弱時使用；與 desensitized 相關，但並不完全相同。",
+          "prompt": "哪一句最符合這個詞語的指定意思與用法？",
+          "options": [
+            "I built up a tolerance to homework by shelving it.",
+            "She built up a tolerance to the taste of black coffee.",
+            "The train built up a tolerance to Tuesday last week.",
+            "We built up a tolerance to the window with a hammer."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。把作業放到架上，不會因此對某種刺激產生耐受性。",
+            "正確。喝久了黑咖啡，逐漸能接受原本覺得苦的味道。",
+            "錯誤。火車和星期二沒有這種生理或感受上的耐受關係。",
+            "錯誤。用鐵鎚敲窗戶不是建立耐受性。"
+          ],
+          "explanation": "正確。喝久了黑咖啡，逐漸能接受原本覺得苦的味道。"
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依歌曲語句整理，應用例句為新寫；延伸句型已在使用說明中標示。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "must + base verb",
+          "cue": "You must think",
+          "example": "She must be tired after that long walk.",
+          "pattern": [
+            {
+              "text": "[根據線索作出的推斷]",
+              "fixed": false
+            },
+            {
+              "text": "must",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "meaning": "表示根據線索作出的強烈推斷。",
+          "usage": "看見明確線索，推測某種情況很可能成立時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "The lights are off; they must be asleep.",
+            "The lights are off; they must asleep.",
+            "They must be asleep, but I know they are awake.",
+            "They must to be asleep because it is late."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。熄燈是推斷已入睡的線索。",
+            "錯誤。asleep 是形容詞，前面需要 be。",
+            "錯誤。已確定清醒，便不能據此推斷睡著。",
+            "錯誤。must 後直接接 be。"
+          ],
+          "explanation": "正確。熄燈是推斷已入睡的線索。"
+        },
+        {
+          "number": 2,
+          "word": "be new to + noun",
+          "cue": "new to this",
+          "example": "I am new to this school.",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "be new to",
+              "fixed": true
+            },
+            {
+              "text": "[事情或環境]",
+              "fixed": false
+            }
+          ],
+          "meaning": "對某件事或某個環境缺乏經驗。",
+          "usage": "介紹自己剛接觸的工作、地方或活動時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "I am new this school and need a map.",
+            "I am new to this school and need a map.",
+            "I am new to this school; I have taught here for twenty years.",
+            "I am new for this school and need a map."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。new to 後接環境或事物。",
+            "正確。剛到學校，所以需要地圖。",
+            "錯誤。已任教二十年，與此處初到學校的意思衝突。",
+            "錯誤。此處搭配用 to。"
+          ],
+          "explanation": "正確。剛到學校，所以需要地圖。"
+        },
+        {
+          "number": 3,
+          "word": "have + past participle + before",
+          "cue": "seen this all before",
+          "example": "We have visited this museum before.",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "have / has",
+              "fixed": true
+            },
+            {
+              "text": "[過去分詞]",
+              "fixed": false
+            },
+            {
+              "text": "before",
+              "fixed": true
+            }
+          ],
+          "meaning": "談截至現在已有的經驗。",
+          "usage": "說明某件事以前經歷過，並與現在有關時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "We have visit this museum before.",
+            "We has visited this museum before.",
+            "We have visited this museum before.",
+            "We have visited this museum before; this is our first visit ever."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。have 後需要過去分詞 visited。",
+            "錯誤。we 搭配 have。",
+            "正確。visited 與 before 表示過去已有參觀經驗。",
+            "錯誤。已有參觀經驗與首次到訪互相衝突。"
+          ],
+          "explanation": "正確。visited 與 before 表示過去已有參觀經驗。"
+        },
+        {
+          "number": 4,
+          "word": "let + object + base verb",
+          "cue": "let you close to me",
+          "example": "Please let me explain.",
+          "pattern": [
+            {
+              "text": "let",
+              "fixed": true
+            },
+            {
+              "text": "[動作執行者]",
+              "fixed": false
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "meaning": "讓某人做某事。",
+          "usage": "說明允許的行動時。歌曲 let you close to me 省略了 get；這裡練習 let + 受詞 + 原形動詞的完整形式。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "Please let me to explain.",
+            "Please let I explain.",
+            "Please let me explaining.",
+            "Please let me explain."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。let 後的動詞用原形，省去 to。",
+            "錯誤。let 後的人稱代詞要用受格 me。",
+            "錯誤。此句型使用 explain。",
+            "正確。let + me + explain 完整。"
+          ],
+          "explanation": "正確。let + me + explain 完整。"
+        },
+        {
+          "number": 5,
+          "word": "even though + clause",
+          "cue": "Even though you mean the most to me",
+          "example": "Even though it was cold, we went out.",
+          "pattern": [
+            {
+              "text": "Even though",
+              "fixed": true
+            },
+            {
+              "text": "[已成立的情況]",
+              "fixed": false
+            },
+            {
+              "text": "[出乎預期的結果]",
+              "fixed": false
+            }
+          ],
+          "meaning": "承認一項事實，再帶出與預期不同的結果。",
+          "usage": "兩項事實形成讓步關係時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "Even though she was tired, she finished the work.",
+            "Even though she was tired, she was tired.",
+            "Even though she tired, she finished the work.",
+            "Even though she was tired, so she finished the work."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。疲累通常令人停下，她卻完成工作。",
+            "錯誤。重述疲累，沒有呈現題目要求的讓步關係。",
+            "錯誤。she 後缺少 was。",
+            "錯誤。even though 已引出讓步從句，主句前應省去 so；so 會誤帶出因果關係。"
+          ],
+          "explanation": "正確。疲累通常令人停下，她卻完成工作。"
+        },
+        {
+          "number": 6,
+          "word": "mean a lot / the most to someone",
+          "cue": "mean the most to me",
+          "example": "Your support means a lot to me.",
+          "pattern": [
+            {
+              "text": "[重要的人或事]",
+              "fixed": false
+            },
+            {
+              "text": "mean a lot / the most to",
+              "fixed": true
+            },
+            {
+              "text": "[感受者]",
+              "fixed": false
+            }
+          ],
+          "meaning": "表示某人或某事對一個人非常重要。",
+          "usage": "表達重視、感激或情感分量時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "Your support mean a lot to me.",
+            "Your support means a lot to me.",
+            "Your support means a lot at me.",
+            "Your support means a lot me."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。單數主語 support 配 means。",
+            "正確。完整表達支持對我的重要性。",
+            "錯誤。此搭配用 to。",
+            "錯誤。感受者前需要 to。"
+          ],
+          "explanation": "正確。完整表達支持對我的重要性。"
+        },
+        {
+          "number": 7,
+          "word": "every time + clause",
+          "cue": "every time I open up",
+          "example": "Every time it rains, this path gets wet.",
+          "pattern": [
+            {
+              "text": "Every time",
+              "fixed": true
+            },
+            {
+              "text": "[反覆發生的事情]",
+              "fixed": false
+            },
+            {
+              "text": "[隨之出現的結果]",
+              "fixed": false
+            }
+          ],
+          "meaning": "每當某件事發生，某個結果便會出現。",
+          "usage": "描述重複的經驗或規律時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "Every time it rain, this path gets wet.",
+            "Every time rains, this path gets wet.",
+            "Every time it rains, this path gets wet.",
+            "Every time it rains, this path always stays dry and gets wet."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。it 配 rains。",
+            "錯誤。天氣動詞需要主語 it。",
+            "正確。每次下雨與路面變濕形成固定關係。",
+            "錯誤。一直乾燥與同時變濕互相矛盾。"
+          ],
+          "explanation": "正確。每次下雨與路面變濕形成固定關係。"
+        },
+        {
+          "number": 8,
+          "word": "in case + clause",
+          "cue": "In case you go",
+          "example": "Take a coat in case it gets cold.",
+          "pattern": [
+            {
+              "text": "[預先採取的措施]",
+              "fixed": false
+            },
+            {
+              "text": "in case",
+              "fixed": true
+            },
+            {
+              "text": "[可能發生的情況]",
+              "fixed": false
+            }
+          ],
+          "meaning": "為可能發生的事情預先準備。",
+          "usage": "提出預防措施時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "Take a coat in case it get cold.",
+            "Take a coat in case of it gets cold.",
+            "Take a coat in case to get cold.",
+            "Take a coat in case it gets cold."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。it 配 gets。",
+            "錯誤。in case of 接名詞，此處是完整從句。",
+            "錯誤。in case 後接此處的完整從句。",
+            "正確。帶外套是為可能變冷預先準備。"
+          ],
+          "explanation": "正確。帶外套是為可能變冷預先準備。"
+        },
+        {
+          "number": 9,
+          "word": "the + comparative, the + comparative",
+          "cue": "the less that I cry",
+          "example": "The more we practise, the easier it gets.",
+          "pattern": [
+            {
+              "text": "The",
+              "fixed": true
+            },
+            {
+              "text": "[比較級與情況]",
+              "fixed": false
+            },
+            {
+              "text": "the",
+              "fixed": true
+            },
+            {
+              "text": "[隨之變化的比較級與結果]",
+              "fixed": false
+            }
+          ],
+          "meaning": "一種變化伴隨另一種變化。",
+          "usage": "說明兩個程度如何一起改變時；歌詞的比較句可延伸至這個完整句型。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "The more we practise, the easier it gets.",
+            "The more we practise, easier it gets.",
+            "The much we practise, the easier it gets.",
+            "The more we practise, the easy it gets."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。more 與 easier 都是比較級，兩邊均有 the。",
+            "錯誤。後半句缺少 the。",
+            "錯誤。前半句需要比較級 more。",
+            "錯誤。後半句需要比較級 easier。"
+          ],
+          "explanation": "正確。more 與 easier 都是比較級，兩邊均有 the。"
+        },
+        {
+          "number": 10,
+          "word": "too + adjective + to-infinitive",
+          "cue": "too close to you",
+          "example": "The box is too heavy to lift.",
+          "pattern": [
+            {
+              "text": "too",
+              "fixed": true
+            },
+            {
+              "text": "[形容詞]",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "meaning": "程度過高，令後面的動作難以做到。",
+          "usage": "說明某種程度造成限制時；這是由歌中 too 的程度意思延伸的句型。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "The box is too heavy lift.",
+            "The box is too heavy to lift.",
+            "The box is too heavily to lift.",
+            "The box is too heavy to lifting."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。lift 前需要 to。",
+            "正確。箱子過重，難以抬起。",
+            "錯誤。描述箱子用形容詞 heavy。",
+            "錯誤。to 後用原形 lift。"
+          ],
+          "explanation": "正確。箱子過重，難以抬起。"
+        },
+        {
+          "number": 11,
+          "word": "be good at + noun / -ing",
+          "cue": "good at goodbyes",
+          "example": "Mia is good at solving puzzles.",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "be good at",
+              "fixed": true
+            },
+            {
+              "text": "[名詞或動名詞]",
+              "fixed": false
+            }
+          ],
+          "meaning": "擅長某件事或某項活動。",
+          "usage": "說明能力時；歌中把告別寫成一項被迫練熟的能力。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "Mia is good at solve puzzles.",
+            "Mia is good to solving puzzles.",
+            "Mia is good at solving puzzles.",
+            "Mia good at solving puzzles."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。介詞 at 後用 solving。",
+            "錯誤。此搭配使用 at。",
+            "正確。be good at 後接動名詞。",
+            "錯誤。主語後需要 is。"
+          ],
+          "explanation": "正確。be good at 後接動名詞。"
+        },
+        {
+          "number": 12,
+          "word": "see + object + base verb",
+          "cue": "see me cry",
+          "example": "I saw him cross the road.",
+          "pattern": [
+            {
+              "text": "see / saw",
+              "fixed": true
+            },
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "meaning": "看見某人做某個動作；原形常呈現整個事件。",
+          "usage": "描述親眼看見的動作時。",
+          "prompt": "哪一句正確運用了上面的句型及其功能？",
+          "options": [
+            "I saw he cross the road.",
+            "I saw him to cross the road.",
+            "I saw him crossed the road.",
+            "I saw him cross the road."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。saw 後需要受格 him。",
+            "錯誤。此句型的動詞原形前省去 to。",
+            "錯誤。saw 已表示過去，後面用原形 cross。",
+            "正確。saw + him + cross 完整。"
+          ],
+          "explanation": "正確。saw + him + cross 完整。"
+        }
+      ]
+    },
+    "analysis": {
+      "version": 1,
+      "title": "翻譯細讀",
+      "note": "依使用者 PDF 的十三則翻譯說明重新編輯；保留原意、語境與詩意補充之間的界線。",
+      "items": [
+        {
+          "title": "推斷中的戒備",
+          "cue": "must think",
+          "translation": "你一定以為……",
+          "paragraphs": [
+            "must 在此表達強烈推斷。歌者猜測對方如何看待自己；譯文應保留這種主觀判斷，避免寫成對方已經說過的話。",
+            "stupid 偏向判斷力不足；a fool 在這段關係中也帶出被愚弄的感受。「愚蠢」與「傻瓜」保留了重複中的細微差別。"
+          ]
+        },
+        {
+          "title": "經驗與指代",
+          "cue": "new to this",
+          "translation": "你一定以為我從未經歷過這一切",
+          "paragraphs": [
+            "new to 表示缺乏相關經驗。this 的具體內容由前後文補足，可理解為感情中的傷害與離別。",
+            "「從未經歷過這一切」把隱含語境帶入中文，讀來自然；討論原文字義時，也應指出 this 本身沒有列明每一種經歷。"
+          ]
+        },
+        {
+          "title": "親近的情感距離",
+          "cue": "let you close to me",
+          "translation": "讓你走近我的心",
+          "paragraphs": [
+            "close to me 在此可指情感上的親近。「走近我的心」把抽象關係化為中文意象。",
+            "拒絕親近與仍然在乎對方同時存在，形成歌曲的張力。害怕再次受傷是合理的語境解讀，宜保留解讀的分寸。"
+          ]
+        },
+        {
+          "title": "重要性的最高程度",
+          "cue": "mean the most to me",
+          "translation": "你對我而言，比任何人都重要",
+          "paragraphs": [
+            "mean 在此表達重要性；the most 把程度推至最高。譯成「很重要」會減弱原句的力度。",
+            "even though 引出的讓步凸顯兩種感受：對方地位特殊，歌者仍選擇保持距離。"
+          ]
+        },
+        {
+          "title": "坦露內心",
+          "cue": "open up",
+          "translation": "敞開心扉",
+          "paragraphs": [
+            "open up 在感情語境中指分享內心感受、願意信任對方。",
+            "every time 帶出反覆的經驗。「每當……總是……」可以保留這個模式，但毋須在每句中文重複增加「總是」。"
+          ]
+        },
+        {
+          "title": "預防與未來風險",
+          "cue": "in case",
+          "translation": "只怕有一天，你會轉身離去",
+          "paragraphs": [
+            "in case 連接預防措施與可能發生的事。歌者因擔心被拋下而先設防，尚未把未來寫成定局。",
+            "leave me in the dirt 帶有被棄置、狼狽的意味。「任由我狼狽地被遺棄」是語境化的譯法；直譯泥土會分散焦點。"
+          ]
+        },
+        {
+          "title": "眼淚減少的留白",
+          "cue": "the less that I cry",
+          "translation": "我流下的眼淚便少一些",
+          "paragraphs": [
+            "比較級 less 表示程度逐次減少。保留「少一些」能呈現變化的過程。",
+            "眼淚變少可以令人聯想到麻木、壓抑或習慣失望。原句沒有確認已經痊癒，譯文應留下這份複雜性。"
+          ]
+        },
+        {
+          "title": "平行句與意象",
+          "cue": "the quicker these tears dry",
+          "translation": "我的眼淚便乾得更快",
+          "paragraphs": [
+            "quicker 與前句 less 形成平行的程度變化。保留「眼淚乾得更快」可維持原來的具體意象。",
+            "這種表面平靜可能來自成長，也可能來自情感麻木；分析可提出兩種可能，翻譯則不必替讀者定論。"
+          ]
+        },
+        {
+          "title": "愛意逐次消磨",
+          "cue": "walk out",
+          "translation": "你每一次轉身離去，我對你的愛便淡去幾分",
+          "paragraphs": [
+            "walk out 在關係中含有拋下對方的意味。「轉身離去」比單純「走出去」貼近情境。",
+            "「淡去幾分」呈現逐次減少的愛意，與眼淚變少、乾得更快構成遞進。"
+          ]
+        },
+        {
+          "title": "關係的前景",
+          "cue": "stand a chance",
+          "translation": "我們已沒有走下去的可能",
+          "paragraphs": [
+            "stand a chance 表示有成功的機會。這裡的成功指關係得以維持。",
+            "「走下去」是中文感情語境的自然說法。這項判斷涉及未來，不能據此推論兩人從未相愛。"
+          ]
+        },
+        {
+          "title": "標題的反諷",
+          "cue": "way too good at goodbyes",
+          "translation": "我早已太過擅長說再見",
+          "paragraphs": [
+            "be good at 通常用來談能力；把告別當成能力，帶出無奈。way 加強 too 的過度感。",
+            "「太過擅長」保留這種不值得慶祝的熟練。「早已」屬中文語氣上的補足，原短語沒有直接給出時間點。"
+          ]
+        },
+        {
+          "title": "詩意補充的界線",
+          "cue": "protecting my innocence / protecting my soul",
+          "translation": "守護自己的純真；保護自己的靈魂",
+          "paragraphs": [
+            "innocence 可結合語境理解為仍願意信任他人的純真；soul 指內在自我。",
+            "原譯文中的「尚存」與「傷痕累累」加強傷痛背景，屬詩意補充。精讀時應清楚標出，避免把新增的形容當成英文原字。"
+          ]
+        },
+        {
+          "title": "誰能看見脆弱",
+          "cue": "see me cry",
+          "translation": "我絕不會再讓你看見我流淚",
+          "paragraphs": [
+            "焦點落在對方能否看見。歌者決定隱藏脆弱，原句容許他在別處流淚。",
+            "「再也不會哭」會把範圍擴大到所有場合；保留「讓你看見」才能維持人物之間的界線。"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "filename": "Too_Good_at_Goodbyes_B1-C2_Vocabulary_Quiz_Rebalanced.md",
+      "sha256": "d5d09e4b4f70a5042c43948fb6fa80bbaf0d0c5ee85ba2b19c8cec183550a159"
+    }
+  ]
+}

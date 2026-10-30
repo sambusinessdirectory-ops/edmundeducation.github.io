@@ -1,3 +1,4 @@
+// Editorial hook selections anchored to lesson audio timestamps. No lyrics.
 window.SONG_PREVIEW_HOOKS = {
   "stop-loving-you": {
     "lineId": "line-14",
@@ -329,6 +330,46 @@ window.SONG_PREVIEW_HOOKS = {
   "another-day-in-paradise": {
     "lineId": "line-20",
     "start": 148.1,
+    "duration": 24
+  },
+  "too-good-at-goodbyes": {
+    "lineId": "line-15",
+    "start": 60.14,
+    "duration": 24
+  },
+  "shallow": {
+    "lineId": "line-15",
+    "start": 104.8,
+    "duration": 24
+  },
+  "rolling-in-the-deep": {
+    "lineId": "line-14",
+    "start": 58.44,
+    "duration": 24
+  },
+  "set-fire-to-the-rain": {
+    "lineId": "line-15",
+    "start": 58.04,
+    "duration": 24
+  },
+  "top-of-the-world": {
+    "lineId": "line-9",
+    "start": 58.24,
+    "duration": 24
+  },
+  "close-to-you": {
+    "lineId": "line-3",
+    "start": 19.96,
+    "duration": 24
+  },
+  "heal-the-world": {
+    "lineId": "line-12",
+    "start": 103.6,
+    "duration": 24
+  },
+  "we-are-the-world": {
+    "lineId": "line-23",
+    "start": 133.86,
     "duration": 24
   }
 };

@@ -212,6 +212,8 @@
       coverUrl: safeMediaUrl(raw?.coverUrl || raw?.cover_url, true),
       audioUrl: safeMediaUrl(raw?.audioUrl || raw?.audio_url),
       vocabulary: asArray(raw?.vocabulary),
+      learningSections: raw?.learning_sections || {},
+      sectionProgress: raw?.section_progress || {},
       vocabularyProgress: raw?.vocabularyProgress || raw?.vocabulary_progress || {},
       tags: asArray(raw?.tags).map(text).filter(Boolean),
       translations: normalizeTranslationRows(translations),
@@ -266,7 +268,9 @@
     const session = state.session;
     const rows = await rpc("song_appreciation_lesson_extras", {p_token:session.token, p_admin:session.role === "admin"});
     if (state.session !== session) return;
-    state.lessonExtras = Object.fromEntries(asArray(rows).map(row => [row.id, row]));
+    const extensions = await rpc("song_appreciation_learning_sections", {p_token:session.token,p_admin:session.role === "admin"});
+    if (state.session !== session) return;
+    state.lessonExtras = Object.fromEntries(asArray(rows).map(row => [row.id, {...row,...asArray(extensions).find(item=>item.id===row.id)}]));
   }
   function withLessonExtras(row) { const song = row.song || row; return {...song, ...state.lessonExtras[song.id]}; }
 
@@ -578,6 +582,12 @@
     renderTranslations(song);
     renderModes(song);
     state.vocabularyIndex = 0;
+    state.sectionIndexes = {};
+    for(const name of ["advanced","structure","analysis"]) {
+      const tab = $(`[data-song-tab="${name}"]`);
+      if(tab) tab.hidden = !song.learningSections[name];
+      renderLearningSection(name);
+    }
     renderVocabulary();
     resetExercise();
     destroyPlayer();
@@ -587,7 +597,7 @@
 
   function switchSongTab(tab) {
     stopMistakeNavigation();
-    const valid = ["description", "translation", "exercise", "vocabulary"].includes(tab) ? tab : "description";
+    const valid = ["description", "translation", "exercise", "vocabulary", "advanced", "structure", "analysis"].includes(tab) ? tab : "description";
     state.activeTab = valid;
     $$("[data-song-tab]").forEach(button => {
       const active = button.dataset.songTab === valid;
@@ -597,7 +607,7 @@
     $$("[data-tab-panel]").forEach(panel => { panel.hidden = panel.dataset.tabPanel !== valid; });
     $("[data-song-player]").hidden = valid === "description";
     if (valid === "description") { cancelReadCountdown(); pausePlayer(); pauseExerciseClock(); storeLocalDraft(); void flushDraft().catch(()=>{}); }
-    else if (valid === "translation" || valid === "vocabulary") { cancelReadCountdown(); pauseExerciseClock(); storeLocalDraft(); void flushDraft().catch(()=>{}); }
+    else if (valid !== "exercise") { cancelReadCountdown(); pauseExerciseClock(); storeLocalDraft(); void flushDraft().catch(()=>{}); }
     else {
       if (state.exercise?.locked && hasSongAudio(state.activeSong) && !state.countdownTimer) startReadCountdown();
       startExerciseClock();
@@ -1520,7 +1530,7 @@
     const top=header?Math.max(0,header.getBoundingClientRect().bottom):0;
     document.documentElement.style.setProperty('--song-header-height',`${top}px`);
     const original=$('[data-player-controls]');
-    bar.hidden=!(state.playerReady&&$('[data-countdown]').hidden&&state.activeRoute==='song'&&['translation','exercise','vocabulary'].includes(state.activeTab)&&original.getBoundingClientRect().bottom<=top);
+    bar.hidden=!(state.playerReady&&$('[data-countdown]').hidden&&state.activeRoute==='song'&&['translation','exercise','vocabulary','advanced','structure','analysis'].includes(state.activeTab)&&original.getBoundingClientRect().bottom<=top);
   }
   function setPlaybackRate(value) {if(!state.playerReady)return;const rates=state.player.getAvailablePlaybackRates?.()||[1];if(rates.includes(Number(value)))state.player.setPlaybackRate(Number(value));setTimeout(publishRoomMedia,100);}
 
@@ -1546,6 +1556,71 @@
     audio.addEventListener("seeked", () => { if (current()) syncLyricsToPlayback(); });
     audio.addEventListener("ratechange", () => { if (current()) syncPlaybackControls(); });
     audio.addEventListener("error", () => { if (current()) toast("未能載入歌曲音訊，請重試或聯絡老師。", "error"); });
+  }
+
+
+  function renderLearningSection(name) {
+    const holder = document.querySelector(`[data-learning-section="${name}"]`);
+    if(!holder) return;
+    holder.replaceChildren();
+    const song=state.activeSong, section=song?.learningSections?.[name];
+    if(!section) return;
+    const el=(tag,value,cls)=>{const n=document.createElement(tag);n.textContent=value||"";if(cls)n.className=cls;return n;};
+    holder.append(el("h2",section.title));
+    if(section.note) holder.append(el("p",section.note,"section-note"));
+    if(name==="analysis") {
+      for(const item of section.items||[]) {
+        const card=el("article","","analysis-card");card.append(el("h3",item.title));
+        if(item.cue) card.append(el("blockquote",item.cue));
+        if(item.translation) card.append(el("p",item.translation,"vocabulary-meaning"));
+        for(const paragraph of item.paragraphs||[])card.append(el("p",paragraph));
+        holder.append(card);
+      }
+      return;
+    }
+    const questions=section.questions||[];if(!questions.length)return;
+    state.sectionIndexes ||= {};
+    const index=Math.min(state.sectionIndexes[name]||0,questions.length-1), q=questions[index];
+    const key=n=>`${name}:${section.version}:${n}`, saved=song.sectionProgress[key(q.number)];
+    holder.append(el("p",`${index+1} / ${questions.length} · 已完成 ${questions.filter(x=>song.sectionProgress[key(x.number)]).length} 題`,"vocabulary-progress"));
+    const jump=el("select");jump.setAttribute("aria-label","選擇研讀步驟");
+    questions.forEach((x,i)=>{const o=el("option",`${i+1}. ${x.word}`);o.value=i;o.selected=i===index;jump.append(o);});
+    jump.onchange=()=>{state.sectionIndexes[name]=Number(jump.value);renderLearningSection(name);};holder.append(jump);
+    const card=el("article","","vocabulary-card structure-card");card.append(el("h3",q.word));
+    if(q.cue)card.append(el("p",`歌曲線索：${q.cue}`,"section-cue"));
+    if(q.example)card.append(el("blockquote",q.example,"structure-example"));
+    if(q.pattern) {
+      const pattern=el("div","","structure-pattern");
+      for(const part of q.pattern)pattern.append(el("span",part.text,part.fixed?"pattern-fixed":"pattern-slot"));
+      card.append(pattern);
+    }
+    const help=el("div","","structure-help");
+    for(const [title,value] of [["01 · 意思",q.meaning],["02 · 甚麼時候用？",q.usage]]) {const box=el("div");box.append(el("h4",title),el("p",value));help.append(box);}card.append(help);
+    if(q.context)card.append(el("p",`情境：${q.context}`));card.append(el("h3",q.prompt));
+    const options=el("div","","vocabulary-options"),feedback=el("div","","vocabulary-feedback");feedback.setAttribute("role","status");
+    q.options.forEach((value,selected)=>{
+      const button=el("button","","vocabulary-option");button.type="button";button.append(el("b","ABCD"[selected]),el("span",value));
+      if(saved){button.disabled=true;button.classList.toggle("is-correct",selected===saved.answer);button.classList.toggle("is-wrong",selected===saved.selected&&selected!==saved.answer);}
+      button.onclick=async()=>{
+        options.querySelectorAll("button").forEach(b=>b.disabled=true);feedback.textContent="正在核對並儲存…";prepareAnswerAudio();
+        const token=state.session.token;
+        try{
+          const result=state.session.role==="admin" ? {selected,answer:q.answer,explanation:q.explanation,optionExplanations:q.optionExplanations} : await rpc("song_appreciation_section_answer",{p_student_token:token,p_song_id:song.id,p_section:name,p_version:section.version,p_number:q.number,p_selected:selected});
+          if(state.session?.token!==token)return;
+          song.sectionProgress[key(q.number)]=result;
+          if(state.lessonExtras[song.id])state.lessonExtras[song.id].section_progress=song.sectionProgress;
+          if(state.activeSong===song){playAnswerSound(selected===result.answer);renderLearningSection(name);}
+        }catch {feedback.textContent="未能儲存，請重試；若課程已更新，請重新載入。";options.querySelectorAll("button").forEach(b=>b.disabled=false);}
+      };options.append(button);
+    });
+    if(saved){feedback.append(el("h4",`${saved.selected===saved.answer?"答對了！":"再看看用法："}答案 ${"ABCD"[saved.answer]}`));for(const [i,value]of asArray(saved.optionExplanations).entries())feedback.append(el("p",`${"ABCD"[i]} · ${displayText(value)}`));}
+    card.append(options,feedback);holder.append(card);
+    const nav=el("div","","vocabulary-navigation");
+    for(const [label,delta] of [["上一題",-1],["下一題",1]]){const b=el("button",label,"secondary-button");b.disabled=index+delta<0||index+delta>=questions.length;b.onclick=()=>{state.sectionIndexes[name]=index+delta;renderLearningSection(name);holder.scrollIntoView({behavior:"smooth",block:"start"});};nav.append(b);}
+    const wrong=questions.filter(x=>{const r=song.sectionProgress[key(x.number)];return r&&r.answer!==r.selected;});
+    if(wrong.length){const b=el("button",`下一道錯題（${wrong.length} 題）`,"secondary-button");b.onclick=()=>{const next=wrong.find(x=>questions.indexOf(x)>index)||wrong[0];state.sectionIndexes[name]=questions.indexOf(next);renderLearningSection(name);holder.scrollIntoView({behavior:"smooth",block:"start"});};nav.append(b);}
+    holder.append(nav);
+    if(questions.every(x=>song.sectionProgress[key(x.number)]))holder.append(completionPanel(`${section.title}全部完成！`));
   }
 
   function renderVocabulary() {
