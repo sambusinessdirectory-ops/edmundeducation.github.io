@@ -51544,6 +51544,78 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "proverb-system.html?lesson=proverb-03"
   },
   {
+    "id": "proverb:proverb-04",
+    "type": "proverb",
+    "ordinal": 4,
+    "label": "#4 · 小別勝新婚",
+    "detail": "Proverb #4 · Absence Makes the Heart Grow Fonder",
+    "url": "proverb-system.html?lesson=proverb-04"
+  },
+  {
+    "id": "proverb:proverb-05",
+    "type": "proverb",
+    "ordinal": 5,
+    "label": "#5 · 人不在場，容易被怪責",
+    "detail": "Proverb #5 · He Who Is Absent Is Always in the Wrong",
+    "url": "proverb-system.html?lesson=proverb-05"
+  },
+  {
+    "id": "proverb:proverb-06",
+    "type": "proverb",
+    "ordinal": 6,
+    "label": "#6 · 再好的朋友也有分別時",
+    "detail": "Proverb #6 · The Best of Friends Must Part",
+    "url": "proverb-system.html?lesson=proverb-06"
+  },
+  {
+    "id": "proverb:proverb-07",
+    "type": "proverb",
+    "ordinal": 7,
+    "label": "#7 · 遠山看來格外美",
+    "detail": "Proverb #7 · Blue Are the Hills That Are Far Away",
+    "url": "proverb-system.html?lesson=proverb-07"
+  },
+  {
+    "id": "proverb:proverb-08",
+    "type": "proverb",
+    "ordinal": 8,
+    "label": "#8 · 距離使景物更迷人",
+    "detail": "Proverb #8 · Distance Lends Enchantment to the View",
+    "url": "proverb-system.html?lesson=proverb-08"
+  },
+  {
+    "id": "proverb:proverb-09",
+    "type": "proverb",
+    "ordinal": 9,
+    "label": "#9 · 享樂之後，還得算帳",
+    "detail": "Proverb #9 · After the Feast Comes the Reckoning",
+    "url": "proverb-system.html?lesson=proverb-09"
+  },
+  {
+    "id": "proverb:proverb-10",
+    "type": "proverb",
+    "ordinal": 10,
+    "label": "#10 · 又過一天，又賺一份工錢",
+    "detail": "Proverb #10 · Another Day, Another Dollar",
+    "url": "proverb-system.html?lesson=proverb-10"
+  },
+  {
+    "id": "proverb:proverb-11",
+    "type": "proverb",
+    "ordinal": 11,
+    "label": "#11 · 問得無聊，答得滑稽",
+    "detail": "Proverb #11 · Ask a Silly Question and You Get a Silly Answer",
+    "url": "proverb-system.html?lesson=proverb-11"
+  },
+  {
+    "id": "proverb:proverb-12",
+    "type": "proverb",
+    "ordinal": 12,
+    "label": "#12 · 怎樣做，便承受怎樣的結果",
+    "detail": "Proverb #12 · As You Bake, So Shall You Brew",
+    "url": "proverb-system.html?lesson=proverb-12"
+  },
+  {
     "id": "reading-analysis:p3-105-talented-or-gifted",
     "type": "reading-analysis",
     "ordinal": 105,
