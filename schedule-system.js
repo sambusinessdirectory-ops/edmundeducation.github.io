@@ -6062,6 +6062,11 @@ function stageDailyWellbeingRating(rawMetric, scheduleDate, rawRating) {
   state.ratingPulse = null;
   restoreSelfRatingFocus(metric, scheduleDate, rating);
   updateWellbeingPanelSelection(metric, scheduleDate, "將於 2 秒後自動儲存…");
+  if (state.currentUser.role === "student") {
+    document.dispatchEvent(new CustomEvent("edmund:schedule-self-rating-selected", {
+      detail: { studentId: String(student.id), date: scheduleDate, metric, rating }
+    }));
+  }
 
   const key = `${student.id}:${scheduleDate}:${metric}`;
   window.clearTimeout(state.wellbeingSaveTimers.get(key));

@@ -41,3 +41,33 @@
 @media (max-width: 520px) {
   .site-announcement-actions { grid-template-columns: 1fr; }
 }
+
+/* Eddy belongs to the announcement card and scrolls with its message. */
+.site-announcement-eddy {
+  position: relative;
+  display: block;
+  width: min(100%, 520px);
+  aspect-ratio: 1672 / 941;
+  margin: 14px auto 0;
+  padding: 0;
+  border: 0;
+  background: transparent !important;
+  cursor: pointer;
+}
+.site-announcement-eddy[hidden] { display: none; }
+.site-announcement-eddy img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.site-announcement-eddy-copy {
+  position: absolute;
+  left: 5.2%; right: 13%; top: 73%; bottom: 7%;
+  display: flex; align-items: center;
+  padding: 0 1.4%;
+  border-radius: 1em;
+  background: linear-gradient(180deg, #fff0c9, #ffedc2);
+  color: #30120c;
+  font: 700 clamp(11px, 2vw, 14px)/1.3 'Noto Sans TC', 'PingFang TC', sans-serif;
+  text-align: left;
+}
+.site-announcement-eddy:focus-visible { outline: 3px solid #237bc1; outline-offset: 3px; border-radius: 8px; }
+@media (max-width: 520px) {
+  .site-announcement-eddy-copy { top: 71%; bottom: 5%; font-size: clamp(10px, 3vw, 12px); line-height: 1.25; }
+}
