@@ -5,7 +5,9 @@ const read = (path) => readFileSync(new URL(`../${path}`, import.meta.url), 'utf
 const task1 = JSON.parse(read('ielts-writing-preview/task1-diagrams.json'));
 const task2 = JSON.parse(read('ielts-writing-preview/task2-questions.json'));
 const homepage = read('index.html');
+const page = read('ielts-writing-question-preview.html');
 const app = read('ielts-writing-preview/app.js');
+const style = read('ielts-writing-preview/style.css');
 const imageUrlSource = app.match(/^  const imageUrl = (.+);$/m)?.[1];
 assert.ok(imageUrlSource, 'Task 1 image URL resolver exists');
 const imageUrl = new Function(`return ${imageUrlSource}`)();
@@ -32,7 +34,14 @@ const links = [...homepage.matchAll(/<a[^>]*class="category [^>]*href="([^"]+)"/
 assert.equal(links[76], 'ielts-writing-question-preview.html', 'Card 77 opens the new preview');
 assert.equal(links.length, 78, 'All existing cards remain present');
 assert.match(app, /translationsShown = false/, 'Translations start hidden');
-assert.match(app, /localStorage\.setItem\(STORAGE_KEY/, 'Dropdown choices persist on this device');
+assert.match(app, /safeStorage\('localStorage'\)\?\.setItem\(activeStorageKey/, 'Dropdown choices persist on this device');
+assert.match(app, /edmund-universal-student-session-v1/, 'Signed-in students have separate saved choices');
+assert.match(app, /storage\.removeItem\(LEGACY_STORAGE_KEY\)/, 'Existing saved choices migrate without loss');
+assert.match(app, /role', 'menuitemradio'/, 'Question choices use an accessible custom menu');
+assert.match(page, /class="site-header edmund-system-header"/, 'The standard system head beam is used');
+assert.doesNotMatch(page, /class="intro"/, 'The oversized hero is removed');
+assert.match(page, /href="\/pwa-ui\.css"/, 'The existing PWA update notice is styled');
+assert.match(style, /--cement: #d9dbda/, 'The page uses the cement-gray palette');
 for (const type of ['Opinions', 'Discuss both views + Opinions', 'Advantages & Disadvantages', 'Cause & Solution', 'Direct question']) {
   assert.ok(app.includes(type), `${type} is available in the dropdown`);
 }

@@ -8,7 +8,8 @@
     'Cause & Solution',
     'Direct question'
   ];
-  const STORAGE_KEY = 'edmund-ielts-writing-preview-types-v1';
+  const LEGACY_STORAGE_KEY = 'edmund-ielts-writing-preview-types-v1';
+  const STUDENT_STORAGE_PREFIX = 'edmund-ielts-writing-preview-types-v2:';
   const imageUrl = (path) => /^https?:\/\//i.test(path) ? path : `/${path.replace(/^\//, '')}`;
   const $ = (id) => document.getElementById(id);
   const node = (name, className, text) => {
@@ -18,14 +19,109 @@
     return element;
   };
 
-  let savedTypes = {};
-  try { savedTypes = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}') || {}; }
-  catch { savedTypes = {}; }
+  const readStoredObject = (storage, key) => {
+    try {
+      const value = JSON.parse(storage.getItem(key) || 'null');
+      return value && typeof value === 'object' && !Array.isArray(value) ? value : {};
+    } catch { return {}; }
+  };
+  const safeStorage = (kind) => {
+    try { return window[kind]; } catch { return null; }
+  };
+  function storageKey() {
+    const universal = readStoredObject(safeStorage('sessionStorage'), 'edmund-universal-student-session-v1');
+    const writing = readStoredObject(safeStorage('localStorage'), 'edmundWritingSession');
+    const student = universal.role === 'student' ? universal : writing.role === 'student' ? writing : null;
+    const identity = String(student?.id || student?.name || '').trim().toLocaleLowerCase();
+    return identity ? `${STUDENT_STORAGE_PREFIX}${encodeURIComponent(identity)}` : LEGACY_STORAGE_KEY;
+  }
+  function readSavedTypes(key) {
+    const storage = safeStorage('localStorage');
+    const values = readStoredObject(storage, key);
+    if (key === LEGACY_STORAGE_KEY || Object.keys(values).length) return values;
+    const legacy = readStoredObject(storage, LEGACY_STORAGE_KEY);
+    if (!Object.keys(legacy).length) return values;
+    try {
+      storage.setItem(key, JSON.stringify(legacy));
+      storage.removeItem(LEGACY_STORAGE_KEY);
+    } catch { /* Keep the choices in memory if storage is unavailable. */ }
+    return legacy;
+  }
+  let activeStorageKey = storageKey();
+  let savedTypes = readSavedTypes(activeStorageKey);
   let task1 = [];
   let task2 = [];
   let translationsShown = false;
+  let task1Type = '';
+  let task2Topic = '';
+  let activeMenuTrigger = null;
+  const menu = $('choice-menu');
+
+  function closeMenu(restoreFocus = false) {
+    if (!activeMenuTrigger) return;
+    const trigger = activeMenuTrigger;
+    activeMenuTrigger = null;
+    menu.hidden = true;
+    menu.replaceChildren();
+    trigger.setAttribute('aria-expanded', 'false');
+    if (restoreFocus) trigger.focus();
+  }
+
+  function openMenu(trigger, options, selected, choose) {
+    if (activeMenuTrigger === trigger) { closeMenu(); return; }
+    closeMenu();
+    menu.replaceChildren();
+    for (const option of options) {
+      const item = node('button', 'choice-menu__option');
+      item.type = 'button';
+      item.setAttribute('role', 'menuitemradio');
+      item.setAttribute('aria-checked', String(option.value === selected));
+      item.dataset.value = option.value;
+      item.append(node('span', 'choice-menu__check', option.value === selected ? '✓' : ''), node('span', '', option.label));
+      item.addEventListener('click', () => { choose(option.value); closeMenu(true); });
+      menu.append(item);
+    }
+    activeMenuTrigger = trigger;
+    trigger.setAttribute('aria-expanded', 'true');
+    menu.hidden = false;
+    const rect = trigger.getBoundingClientRect();
+    const viewportWidth = document.documentElement.clientWidth;
+    const width = Math.min(Math.max(rect.width, 282), viewportWidth - 24);
+    menu.style.width = `${width}px`;
+    menu.style.left = `${Math.max(12, Math.min(rect.left, viewportWidth - width - 12))}px`;
+    menu.style.maxHeight = `${Math.min(360, Math.max(180, window.innerHeight - 32))}px`;
+    const height = menu.getBoundingClientRect().height;
+    const below = window.innerHeight - rect.bottom;
+    const above = rect.top;
+    menu.style.top = `${below < height + 12 && above > below ? Math.max(12, rect.top - height - 8) : Math.min(window.innerHeight - height - 12, rect.bottom + 8)}px`;
+    const buttons = [...menu.querySelectorAll('button')];
+    (buttons.find((item) => item.dataset.value === selected) || buttons[0])?.focus();
+  }
+
+  menu.addEventListener('keydown', (event) => {
+    const buttons = [...menu.querySelectorAll('button')];
+    const index = buttons.indexOf(document.activeElement);
+    let next = index;
+    if (event.key === 'ArrowDown') next = (index + 1) % buttons.length;
+    else if (event.key === 'ArrowUp') next = (index - 1 + buttons.length) % buttons.length;
+    else if (event.key === 'Home') next = 0;
+    else if (event.key === 'End') next = buttons.length - 1;
+    else if (event.key === 'Escape') { event.preventDefault(); closeMenu(true); return; }
+    else if (event.key === 'Tab') { closeMenu(); return; }
+    else return;
+    event.preventDefault();
+    buttons[next]?.focus();
+  });
+  document.addEventListener('pointerdown', (event) => {
+    if (activeMenuTrigger && !menu.contains(event.target) && !activeMenuTrigger.contains(event.target)) closeMenu();
+  });
+  document.addEventListener('scroll', (event) => {
+    if (activeMenuTrigger && !menu.contains(event.target)) closeMenu();
+  }, true);
+  window.addEventListener('resize', () => closeMenu());
 
   function showTab(tab) {
+    closeMenu();
     for (const name of ['task1', 'task2']) {
       const active = name === tab;
       $(`panel-${name}`).hidden = !active;
@@ -35,13 +131,23 @@
     history.replaceState(null, '', tab === 'task2' ? '#task2' : '#task1');
   }
 
-  function fillFilter(id, values) {
-    const select = $(id);
-    for (const value of values) {
-      const option = node('option', '', value);
-      option.value = value;
-      select.append(option);
+  function setFilterButton(id, label) { $(id).querySelector('span').textContent = label; }
+
+  function setAnswerButton(button, value) {
+    button.dataset.value = value;
+    button.classList.toggle('is-selected', Boolean(value));
+    button.querySelector('.answer-label').textContent = value || '選擇題型';
+  }
+
+  function refreshStorageOwner() {
+    const nextKey = storageKey();
+    if (nextKey === activeStorageKey) return;
+    activeStorageKey = nextKey;
+    savedTypes = readSavedTypes(nextKey);
+    for (const button of document.querySelectorAll('.answer-trigger')) {
+      setAnswerButton(button, TYPES.includes(savedTypes[button.dataset.questionId]) ? savedTypes[button.dataset.questionId] : '');
     }
+    closeMenu();
   }
 
   function openDiagram(item) {
@@ -98,23 +204,25 @@
       translation.lang = 'zh-Hant';
       promptCell.append(translation);
       const typeCell = node('td');
-      const select = node('select', 'type-select');
-      select.setAttribute('aria-label', `${item.id} 題型`);
-      const placeholder = node('option', '', '選擇題型');
-      placeholder.value = '';
-      select.append(placeholder);
-      for (const type of TYPES) {
-        const option = node('option', '', type);
-        option.value = type;
-        select.append(option);
-      }
-      select.value = TYPES.includes(savedTypes[item.id]) ? savedTypes[item.id] : '';
-      select.addEventListener('change', () => {
-        if (select.value) savedTypes[item.id] = select.value;
+      const trigger = node('button', 'answer-trigger');
+      trigger.type = 'button';
+      trigger.dataset.questionId = item.id;
+      trigger.setAttribute('aria-label', `${item.id} 題型`);
+      trigger.setAttribute('aria-haspopup', 'menu');
+      trigger.setAttribute('aria-expanded', 'false');
+      trigger.append(node('span', 'answer-marker', '●'), node('span', 'answer-label'), node('span', 'menu-chevron'));
+      setAnswerButton(trigger, TYPES.includes(savedTypes[item.id]) ? savedTypes[item.id] : '');
+      trigger.addEventListener('click', () => openMenu(trigger, [
+        { value: '', label: '清除選擇' },
+        ...TYPES.map((type) => ({ value: type, label: type }))
+      ], trigger.dataset.value, (value) => {
+        refreshStorageOwner();
+        if (value) savedTypes[item.id] = value;
         else delete savedTypes[item.id];
-        try { localStorage.setItem(STORAGE_KEY, JSON.stringify(savedTypes)); } catch { /* private browsing */ }
-      });
-      typeCell.append(select);
+        setAnswerButton(trigger, value);
+        try { safeStorage('localStorage')?.setItem(activeStorageKey, JSON.stringify(savedTypes)); } catch { /* private browsing */ }
+      }));
+      typeCell.append(trigger);
       row.append(idCell, promptCell, typeCell);
       fragment.append(row);
     }
@@ -124,7 +232,7 @@
 
   function filterTask1() {
     const search = $('task1-search').value.trim().toLocaleLowerCase();
-    const type = $('task1-type').value;
+    const type = task1Type;
     let visible = 0;
     for (const row of $('task1-rows').rows) {
       row.hidden = !(row.dataset.search.includes(search) && (!type || row.dataset.type === type));
@@ -135,7 +243,7 @@
 
   function filterTask2() {
     const search = $('task2-search').value.trim().toLocaleLowerCase();
-    const topic = $('task2-topic').value;
+    const topic = task2Topic;
     let visible = 0;
     for (const row of $('task2-rows').rows) {
       row.hidden = !(row.dataset.search.includes(search) && (!topic || row.dataset.topic === topic));
@@ -150,9 +258,32 @@
     }
     showTab(location.hash === '#task2' ? 'task2' : 'task1');
     $('task1-search').addEventListener('input', filterTask1);
-    $('task1-type').addEventListener('change', filterTask1);
+    $('task1-type').addEventListener('click', () => openMenu($('task1-type'), [
+      { value: '', label: '所有類型' },
+      ...[...new Set(task1.map((item) => item.type))].map((type) => ({ value: type, label: type }))
+    ], task1Type, (value) => {
+      task1Type = value;
+      setFilterButton('task1-type', value || '所有類型');
+      filterTask1();
+    }));
     $('task2-search').addEventListener('input', filterTask2);
-    $('task2-topic').addEventListener('change', filterTask2);
+    $('task2-topic').addEventListener('click', () => openMenu($('task2-topic'), [
+      { value: '', label: '所有主題' },
+      ...[...new Set(task2.map((item) => item.topic))].map((topic) => ({ value: topic, label: topic }))
+    ], task2Topic, (value) => {
+      task2Topic = value;
+      setFilterButton('task2-topic', value || '所有主題');
+      filterTask2();
+    }));
+    window.addEventListener('edmund-student-session-change', refreshStorageOwner);
+    window.addEventListener('focus', refreshStorageOwner);
+    window.addEventListener('storage', (event) => {
+      if (event.key !== activeStorageKey) return;
+      savedTypes = readSavedTypes(activeStorageKey);
+      for (const button of document.querySelectorAll('.answer-trigger')) {
+        setAnswerButton(button, TYPES.includes(savedTypes[button.dataset.questionId]) ? savedTypes[button.dataset.questionId] : '');
+      }
+    });
     $('translation-toggle').addEventListener('click', () => {
       translationsShown = !translationsShown;
       $('translation-toggle').setAttribute('aria-pressed', String(translationsShown));
@@ -170,8 +301,6 @@
       ]);
       if (!task1Response.ok || !task2Response.ok) throw new Error('Question data unavailable');
       [task1, task2] = await Promise.all([task1Response.json(), task2Response.json()]);
-      fillFilter('task1-type', [...new Set(task1.map((item) => item.type))]);
-      fillFilter('task2-topic', [...new Set(task2.map((item) => item.topic))]);
       renderTask1();
       renderTask2();
     } catch {

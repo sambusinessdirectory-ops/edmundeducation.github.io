@@ -3,44 +3,50 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#173f46">
+  <meta name="theme-color" content="#d9dbda">
   <meta name="description" content="IELTS Writing Task 1 圖表與 Task 2 作文題目預覽。瀏覽題目、按需顯示繁體中文翻譯，並選擇作文題型。">
   <title>IELTS 寫作問題預覽系統｜EdmundEducation</title>
   <link rel="canonical" href="https://edmundeducation.com/ielts-writing-question-preview.html">
   <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="/shared-system-nav.css">
-  <link rel="stylesheet" href="/ielts-writing-preview/style.css?v=20261030-1">
+  <link rel="stylesheet" href="/ielts-writing-preview/style.css?v=20261030-2">
   <script defer src="/pwa-register.js"></script>
   <script defer src="/shared-system-nav.js"></script>
-  <script defer src="/ielts-writing-preview/app.js?v=20261030-1"></script>
+  <script defer src="/ielts-writing-preview/app.js?v=20261030-2"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">跳至題目列表</a>
-  <header class="site-header">
-    <a class="brand" href="/" aria-label="返回 EdmundEducation 首頁"><span class="brand-mark">E</span><span>EdmundEducation<small>IELTS WRITING PREVIEW</small></span></a>
-    <div class="edmund-system-switcher" data-edmund-system-switcher data-system="ielts-writing-preview"><button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換"><span class="edmund-system-switcher__copy"><strong>系統導航</strong><small>IELTS Writing Preview</small></span><span aria-hidden="true">⌄</span></button></div>
+  <header class="site-header edmund-system-header">
+    <div class="header-inner edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="ielts-writing-preview">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>IELTS 寫作問題預覽系統</small></span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <span class="header-context">IELTS WRITING <span aria-hidden="true">/</span> QUESTION PREVIEW</span>
+    </div>
   </header>
   <main id="main" class="shell">
-    <section class="intro" aria-labelledby="page-title">
-      <p class="eyebrow">CARD 77 · IELTS WRITING</p>
-      <h1 id="page-title">IELTS 寫作問題<span>預覽系統</span></h1>
-      <p>先看題目，再判斷寫作方向。Task 1 提供圖表預覽；Task 2 可選擇題型，按需要顯示繁體中文翻譯。</p>
-    </section>
+    <h1 class="visually-hidden">IELTS 寫作問題預覽系統</h1>
     <nav class="tabs" aria-label="寫作任務">
       <button class="tab is-active" id="tab-task1" type="button" role="tab" aria-controls="panel-task1" aria-selected="true" data-tab="task1"><span class="tab-index">01</span><span><strong>Task 1</strong><small>Diagrams · 圖表</small></span></button>
       <button class="tab" id="tab-task2" type="button" role="tab" aria-controls="panel-task2" aria-selected="false" data-tab="task2"><span class="tab-index">02</span><span><strong>Task 2</strong><small>Essays · 作文</small></span></button>
     </nav>
     <section id="panel-task1" class="panel" role="tabpanel" aria-labelledby="tab-task1">
       <div class="panel-heading"><div><p class="eyebrow">TASK 1 · DIAGRAMS</p><h2>圖表題目</h2><p>選擇圖表，查看完整題圖與英文題目。</p></div><span class="count" id="task1-count">載入中</span></div>
-      <div class="toolbar"><label class="search"><span>搜尋圖表</span><input id="task1-search" type="search" placeholder="搜尋圖表題目或類型" autocomplete="off"></label><label class="filter"><span>圖表類型</span><select id="task1-type"><option value="">所有類型</option></select></label></div>
+      <div class="toolbar"><label class="search"><span>搜尋圖表</span><input id="task1-search" type="search" placeholder="搜尋圖表題目或類型" autocomplete="off"></label><div class="filter"><span class="control-label">圖表類型</span><button id="task1-type" class="menu-trigger" type="button" aria-haspopup="menu" aria-expanded="false"><span>所有類型</span><span class="menu-chevron" aria-hidden="true"></span></button></div></div>
       <div class="table-scroll" id="task1-scroll" tabindex="0" aria-label="Task 1 圖表題目列表"><table><thead><tr><th scope="col">編號</th><th scope="col">題目與圖表類型</th><th scope="col">題圖</th></tr></thead><tbody id="task1-rows"></tbody></table></div>
     </section>
     <section id="panel-task2" class="panel" role="tabpanel" aria-labelledby="tab-task2" hidden>
       <div class="panel-heading"><div><p class="eyebrow">TASK 2 · ESSAYS</p><h2>作文題目</h2><p>瀏覽完整題目，並在右邊選擇你判斷的題型。</p></div><span class="count" id="task2-count">載入中</span></div>
-      <div class="toolbar"><label class="search"><span>搜尋題目</span><input id="task2-search" type="search" placeholder="搜尋題目英文或中文" autocomplete="off"></label><label class="filter"><span>主題</span><select id="task2-topic"><option value="">所有主題</option></select></label><button id="translation-toggle" class="translation-toggle" type="button" aria-pressed="false">顯示繁體中文翻譯</button></div>
+      <div class="toolbar"><label class="search"><span>搜尋題目</span><input id="task2-search" type="search" placeholder="搜尋題目英文或中文" autocomplete="off"></label><div class="filter"><span class="control-label">主題</span><button id="task2-topic" class="menu-trigger" type="button" aria-haspopup="menu" aria-expanded="false"><span>所有主題</span><span class="menu-chevron" aria-hidden="true"></span></button></div><button id="translation-toggle" class="translation-toggle" type="button" aria-pressed="false">顯示繁體中文翻譯</button></div>
       <div class="table-scroll" id="task2-scroll" tabindex="0" aria-label="Task 2 作文題目列表"><table><thead><tr><th scope="col">編號 / 主題</th><th scope="col">完整作文題目</th><th scope="col">選擇題型</th></tr></thead><tbody id="task2-rows"></tbody></table></div>
     </section>
   </main>
   <dialog id="diagram-dialog" aria-label="Task 1 題圖"><div class="dialog-inner"><button id="dialog-close" class="dialog-close" type="button" aria-label="關閉題圖">×</button><p class="eyebrow" id="dialog-type"></p><h2 id="dialog-title"></h2><p id="dialog-prompt"></p><img id="dialog-image" alt=""><p>Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.</p></div></dialog>
+  <div id="choice-menu" class="choice-menu" role="menu" hidden></div>
 </body>
 </html>
