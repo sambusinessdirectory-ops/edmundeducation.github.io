@@ -6,6 +6,11 @@ const task1 = JSON.parse(read('ielts-writing-preview/task1-diagrams.json'));
 const task2 = JSON.parse(read('ielts-writing-preview/task2-questions.json'));
 const homepage = read('index.html');
 const app = read('ielts-writing-preview/app.js');
+const imageUrlSource = app.match(/^  const imageUrl = (.+);$/m)?.[1];
+assert.ok(imageUrlSource, 'Task 1 image URL resolver exists');
+const imageUrl = new Function(`return ${imageUrlSource}`)();
+assert.equal(imageUrl('assets/writing-practice/questions/example.webp'), '/assets/writing-practice/questions/example.webp');
+assert.equal(imageUrl('https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/example.webp'), 'https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/assets/example.webp', 'published R2 assets must remain absolute URLs');
 
 assert.equal(task1.length, 60, 'All existing Task 1 diagrams should be available');
 assert.equal(task2.length, 242, 'All 242 essay prompts extracted from the 39-page source should be available');

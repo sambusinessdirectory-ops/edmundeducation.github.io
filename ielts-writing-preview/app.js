@@ -9,6 +9,7 @@
     'Direct question'
   ];
   const STORAGE_KEY = 'edmund-ielts-writing-preview-types-v1';
+  const imageUrl = (path) => /^https?:\/\//i.test(path) ? path : `/${path.replace(/^\//, '')}`;
   const $ = (id) => document.getElementById(id);
   const node = (name, className, text) => {
     const element = document.createElement(name);
@@ -47,7 +48,7 @@
     $('dialog-type').textContent = `TASK 1 · ${item.type}`;
     $('dialog-title').textContent = item.title;
     $('dialog-prompt').textContent = item.prompt;
-    $('dialog-image').src = `/${item.image.replace(/^\//, '')}`;
+    $('dialog-image').src = imageUrl(item.image);
     $('dialog-image').alt = `${item.title} 題圖`;
     $('diagram-dialog').showModal();
   }
@@ -68,7 +69,7 @@
       button.type = 'button';
       button.setAttribute('aria-label', `查看 ${item.id} 題圖`);
       const image = node('img');
-      image.src = `/${item.image.replace(/^\//, '')}`;
+      image.src = imageUrl(item.image);
       image.alt = '';
       image.loading = 'lazy';
       button.append(image, node('span', '', '放大題圖'));
