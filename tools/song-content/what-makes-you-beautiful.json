@@ -1,0 +1,4055 @@
+{
+  "slug": "what-makes-you-beautiful",
+  "title": "What Makes You Beautiful",
+  "singer": "One Direction",
+  "translations": [
+    {
+      "english": "[Liam:]",
+      "chinese": "[Liam：]",
+      "lineId": "line-1"
+    },
+    {
+      "english": "You're insecure",
+      "chinese": "妳總是對自己缺乏自信",
+      "lineId": "line-2",
+      "startSeconds": 7.06,
+      "endSeconds": 8.46
+    },
+    {
+      "english": "Don't know what for",
+      "chinese": "我真不明白，妳究竟為何如此",
+      "lineId": "line-3",
+      "startSeconds": 8.78,
+      "endSeconds": 10.54
+    },
+    {
+      "english": "You're turning heads when you walk through the door",
+      "chinese": "每當妳走進門來，總會引得眾人紛紛回頭注目",
+      "lineId": "line-4",
+      "startSeconds": 10.54,
+      "endSeconds": 14.36
+    },
+    {
+      "english": "Don't need make-up",
+      "chinese": "妳根本不需要化妝",
+      "lineId": "line-5",
+      "startSeconds": 15.04,
+      "endSeconds": 16.42
+    },
+    {
+      "english": "To cover up",
+      "chinese": "來掩飾自己的模樣",
+      "lineId": "line-6",
+      "startSeconds": 16.42,
+      "endSeconds": 18.6
+    },
+    {
+      "english": "Being the way that you are is enough",
+      "chinese": "只要做最真實的自己，就已經足夠美麗",
+      "lineId": "line-7",
+      "startSeconds": 18.6,
+      "endSeconds": 22.68
+    },
+    {
+      "english": "[Harry:]",
+      "chinese": "[Harry：]",
+      "lineId": "line-8"
+    },
+    {
+      "english": "Everyone else in the room can see it",
+      "chinese": "房間裡的每個人，都看得出妳有多麼美麗",
+      "lineId": "line-9",
+      "startSeconds": 23.5,
+      "endSeconds": 27.24
+    },
+    {
+      "english": "Everyone else but you",
+      "chinese": "所有人都知道，唯獨妳自己不知道",
+      "lineId": "line-10",
+      "startSeconds": 27.24,
+      "endSeconds": 29.88
+    },
+    {
+      "english": "[All:]",
+      "chinese": "[全體合唱：]",
+      "lineId": "line-11"
+    },
+    {
+      "english": "Baby you light up my world like nobody else",
+      "chinese": "寶貝，妳照亮了我的世界，無人能像妳一樣",
+      "lineId": "line-12",
+      "startSeconds": 29.88,
+      "endSeconds": 34.36
+    },
+    {
+      "english": "The way that you flip your hair gets me overwhelmed",
+      "chinese": "妳輕輕甩動秀髮的模樣，就讓我心動得難以自持",
+      "lineId": "line-13",
+      "startSeconds": 34.36,
+      "endSeconds": 38.02
+    },
+    {
+      "english": "But when you smile at the ground it ain't hard to tell",
+      "chinese": "可當妳低頭望著地面、羞澀地微笑時，任誰都看得出來",
+      "lineId": "line-14",
+      "startSeconds": 38.02,
+      "endSeconds": 42.06
+    },
+    {
+      "english": "You don't know",
+      "chinese": "妳不知道",
+      "lineId": "line-15",
+      "startSeconds": 42.06,
+      "endSeconds": 43.34
+    },
+    {
+      "english": "Oh, oh",
+      "chinese": "噢，噢",
+      "lineId": "line-16"
+    },
+    {
+      "english": "You don't know you're beautiful",
+      "chinese": "妳不知道自己有多麼美麗",
+      "lineId": "line-17",
+      "startSeconds": 43.34,
+      "endSeconds": 46.44
+    },
+    {
+      "english": "If only you saw what I can see",
+      "chinese": "要是妳也能看見我眼中的妳",
+      "lineId": "line-18",
+      "startSeconds": 46.44,
+      "endSeconds": 49.62
+    },
+    {
+      "english": "You'd understand why I want you so desperately",
+      "chinese": "妳就會明白，為何我如此渴望與妳在一起",
+      "lineId": "line-19",
+      "startSeconds": 49.62,
+      "endSeconds": 53.1
+    },
+    {
+      "english": "Right now I'm looking at you and I can't believe",
+      "chinese": "此刻，我望著妳，實在難以相信",
+      "lineId": "line-20",
+      "startSeconds": 53.1,
+      "endSeconds": 57.3
+    },
+    {
+      "english": "You don't know",
+      "chinese": "妳竟然不知道",
+      "lineId": "line-21"
+    },
+    {
+      "english": "Oh, oh",
+      "chinese": "噢，噢",
+      "lineId": "line-22"
+    },
+    {
+      "english": "You don't know you're beautiful",
+      "chinese": "妳不知道自己有多麼美麗",
+      "lineId": "line-23",
+      "startSeconds": 59.72,
+      "endSeconds": 61.82
+    },
+    {
+      "english": "Oh, oh",
+      "chinese": "噢，噢",
+      "lineId": "line-24"
+    },
+    {
+      "english": "That's what makes you beautiful",
+      "chinese": "而這，正是妳如此美麗的原因",
+      "lineId": "line-25",
+      "startSeconds": 63.64,
+      "endSeconds": 66.12
+    },
+    {
+      "english": "[Zayn:]",
+      "chinese": "[Zayn：]",
+      "lineId": "line-26"
+    },
+    {
+      "english": "So c-come on",
+      "chinese": "所以，來、來吧",
+      "lineId": "line-27",
+      "startSeconds": 68.5,
+      "endSeconds": 70.2
+    },
+    {
+      "english": "You got it wrong",
+      "chinese": "妳真的想錯了",
+      "lineId": "line-28",
+      "startSeconds": 70.46,
+      "endSeconds": 72.1
+    },
+    {
+      "english": "To prove I'm right",
+      "chinese": "為了證明我說得沒錯",
+      "lineId": "line-29",
+      "startSeconds": 72.68,
+      "endSeconds": 73.88
+    },
+    {
+      "english": "I put it in a song",
+      "chinese": "我把這份心意寫進了一首歌",
+      "lineId": "line-30",
+      "startSeconds": 74.18,
+      "endSeconds": 75.76
+    },
+    {
+      "english": "I don't know why",
+      "chinese": "我真不明白為什麼",
+      "lineId": "line-31",
+      "startSeconds": 76.56,
+      "endSeconds": 77.86
+    },
+    {
+      "english": "You're being shy",
+      "chinese": "妳總是如此害羞",
+      "lineId": "line-32",
+      "startSeconds": 77.86,
+      "endSeconds": 79.78
+    },
+    {
+      "english": "And turn away when I look into your eye-eye-eyes",
+      "chinese": "每當我凝望妳的雙、雙、雙眼，妳就羞澀地轉過頭去",
+      "lineId": "line-33"
+    },
+    {
+      "english": "[Harry:]",
+      "chinese": "[Harry：]",
+      "lineId": "line-34"
+    },
+    {
+      "english": "Everyone else in the room can see it",
+      "chinese": "房間裡的每個人，都看得出妳有多麼美麗",
+      "lineId": "line-35",
+      "startSeconds": 84.48,
+      "endSeconds": 88.68
+    },
+    {
+      "english": "Everyone else but you",
+      "chinese": "所有人都知道，唯獨妳自己不知道",
+      "lineId": "line-36",
+      "startSeconds": 88.68,
+      "endSeconds": 91.6
+    },
+    {
+      "english": "[All:]",
+      "chinese": "[全體合唱：]",
+      "lineId": "line-37"
+    },
+    {
+      "english": "Baby you light up my world like nobody else",
+      "chinese": "寶貝，妳照亮了我的世界，無人能像妳一樣",
+      "lineId": "line-38",
+      "startSeconds": 91.6,
+      "endSeconds": 95.78
+    },
+    {
+      "english": "The way that you flip your hair gets me overwhelmed",
+      "chinese": "妳輕輕甩動秀髮的模樣，就讓我心動得難以自持",
+      "lineId": "line-39",
+      "startSeconds": 95.78,
+      "endSeconds": 99.46
+    },
+    {
+      "english": "But when you smile at the ground it ain't hard to tell",
+      "chinese": "可當妳低頭望著地面、羞澀地微笑時，任誰都看得出來",
+      "lineId": "line-40",
+      "startSeconds": 99.46,
+      "endSeconds": 103.5
+    },
+    {
+      "english": "You don't know",
+      "chinese": "妳不知道",
+      "lineId": "line-41",
+      "startSeconds": 103.5,
+      "endSeconds": 104.98
+    },
+    {
+      "english": "Oh oh",
+      "chinese": "噢，噢",
+      "lineId": "line-42"
+    },
+    {
+      "english": "You don't know you're beautiful",
+      "chinese": "妳不知道自己有多麼美麗",
+      "lineId": "line-43",
+      "startSeconds": 105.72,
+      "endSeconds": 108.02
+    },
+    {
+      "english": "If only you saw what I can see",
+      "chinese": "要是妳也能看見我眼中的妳",
+      "lineId": "line-44",
+      "startSeconds": 108.02,
+      "endSeconds": 111.06
+    },
+    {
+      "english": "You'll understand why I want you so desperately",
+      "chinese": "妳就會明白，為何我如此渴望與妳在一起",
+      "lineId": "line-45",
+      "startSeconds": 111.06,
+      "endSeconds": 114.58
+    },
+    {
+      "english": "Right now I'm looking at you and I can't believe",
+      "chinese": "此刻，我望著妳，實在難以相信",
+      "lineId": "line-46",
+      "startSeconds": 114.58,
+      "endSeconds": 118.72
+    },
+    {
+      "english": "You don't know",
+      "chinese": "妳竟然不知道",
+      "lineId": "line-47"
+    },
+    {
+      "english": "Oh oh",
+      "chinese": "噢，噢",
+      "lineId": "line-48"
+    },
+    {
+      "english": "You don't know you're beautiful",
+      "chinese": "妳不知道自己有多麼美麗",
+      "lineId": "line-49",
+      "startSeconds": 121.06,
+      "endSeconds": 123.44
+    },
+    {
+      "english": "Oh oh",
+      "chinese": "噢，噢",
+      "lineId": "line-50"
+    },
+    {
+      "english": "[Harry:]",
+      "chinese": "[Harry：]",
+      "lineId": "line-51"
+    },
+    {
+      "english": "That's what makes you beautiful",
+      "chinese": "而這，正是妳如此美麗的原因",
+      "lineId": "line-52",
+      "startSeconds": 124.88,
+      "endSeconds": 127.28
+    },
+    {
+      "english": "Nana nana nana nana",
+      "chinese": "啦啦，啦啦，啦啦，啦啦",
+      "lineId": "line-53"
+    },
+    {
+      "english": "Nana nana nana nana",
+      "chinese": "啦啦，啦啦，啦啦，啦啦",
+      "lineId": "line-54"
+    },
+    {
+      "english": "Nana nana nana nana",
+      "chinese": "啦啦，啦啦，啦啦，啦啦",
+      "lineId": "line-55"
+    },
+    {
+      "english": "[Harry:]",
+      "chinese": "[Harry：]",
+      "lineId": "line-56"
+    },
+    {
+      "english": "Baby you light up my world like nobody else",
+      "chinese": "寶貝，妳照亮了我的世界，無人能像妳一樣",
+      "lineId": "line-57",
+      "startSeconds": 141.62,
+      "endSeconds": 145.68
+    },
+    {
+      "english": "The way that you flip your hair gets me overwhelmed",
+      "chinese": "妳輕輕甩動秀髮的模樣，就讓我心動得難以自持",
+      "lineId": "line-58",
+      "startSeconds": 145.68,
+      "endSeconds": 149.38
+    },
+    {
+      "english": "But when you smile at the ground it ain't hard to tell",
+      "chinese": "可當妳低頭望著地面、羞澀地微笑時，任誰都看得出來",
+      "lineId": "line-59",
+      "startSeconds": 149.9,
+      "endSeconds": 153.5
+    },
+    {
+      "english": "[All:]",
+      "chinese": "[全體合唱：]",
+      "lineId": "line-60"
+    },
+    {
+      "english": "You don't know",
+      "chinese": "妳不知道",
+      "lineId": "line-61",
+      "startSeconds": 153.5,
+      "endSeconds": 154.6
+    },
+    {
+      "english": "Oh oh",
+      "chinese": "噢，噢",
+      "lineId": "line-62"
+    },
+    {
+      "english": "You don't know you're beautiful",
+      "chinese": "妳不知道自己有多麼美麗",
+      "lineId": "line-63"
+    },
+    {
+      "english": "Baby, you light up my world like nobody else",
+      "chinese": "寶貝，妳照亮了我的世界，無人能像妳一樣",
+      "lineId": "line-64",
+      "startSeconds": 157.4,
+      "endSeconds": 161.14
+    },
+    {
+      "english": "The way that you flip your hair gets me overwhelmed",
+      "chinese": "妳輕輕甩動秀髮的模樣，就讓我心動得難以自持",
+      "lineId": "line-65",
+      "startSeconds": 161.14,
+      "endSeconds": 164.72
+    },
+    {
+      "english": "But when you smile at the ground it ain't hard to tell",
+      "chinese": "可當妳低頭望著地面、羞澀地微笑時，任誰都看得出來",
+      "lineId": "line-66",
+      "startSeconds": 164.72,
+      "endSeconds": 168.86
+    },
+    {
+      "english": "You don't know",
+      "chinese": "妳不知道",
+      "lineId": "line-67",
+      "startSeconds": 168.86,
+      "endSeconds": 169.88
+    },
+    {
+      "english": "Oh oh",
+      "chinese": "噢，噢",
+      "lineId": "line-68",
+      "startSeconds": 170.1,
+      "endSeconds": 171.3
+    },
+    {
+      "english": "You don't know you're beautiful (Oh)",
+      "chinese": "妳不知道自己有多麼美麗（噢）",
+      "lineId": "line-69",
+      "startSeconds": 171.3,
+      "endSeconds": 172.94
+    },
+    {
+      "english": "If only you saw what I can see",
+      "chinese": "要是妳也能看見我眼中的妳",
+      "lineId": "line-70",
+      "startSeconds": 173.23,
+      "endSeconds": 176.34
+    },
+    {
+      "english": "You'll understand why I want you so desperately",
+      "chinese": "妳就會明白，為何我如此渴望與妳在一起",
+      "lineId": "line-71",
+      "startSeconds": 176.34,
+      "endSeconds": 180.0
+    },
+    {
+      "english": "([Harry:] desperately) （[Harry：]",
+      "chinese": "如此渴望）",
+      "lineId": "line-72"
+    },
+    {
+      "english": "Right now I'm looking at you and I can't believe",
+      "chinese": "此刻，我望著妳，實在難以相信",
+      "lineId": "line-73",
+      "startSeconds": 180.0,
+      "endSeconds": 183.98
+    },
+    {
+      "english": "You don't know",
+      "chinese": "妳竟然不知道",
+      "lineId": "line-74",
+      "startSeconds": 183.98,
+      "endSeconds": 185.38
+    },
+    {
+      "english": "Oh oh",
+      "chinese": "噢，噢",
+      "lineId": "line-75",
+      "startSeconds": 185.52,
+      "endSeconds": 186.66
+    },
+    {
+      "english": "You don't know you're beautiful",
+      "chinese": "妳不知道自己有多麼美麗",
+      "lineId": "line-76",
+      "startSeconds": 186.66,
+      "endSeconds": 188.4
+    },
+    {
+      "english": "Oh oh",
+      "chinese": "噢，噢",
+      "lineId": "line-77",
+      "startSeconds": 188.4,
+      "endSeconds": 190.42
+    },
+    {
+      "english": "You don't know you're beautiful",
+      "chinese": "妳不知道自己有多麼美麗",
+      "lineId": "line-78",
+      "startSeconds": 190.42,
+      "endSeconds": 192.24
+    },
+    {
+      "english": "Oh oh",
+      "chinese": "噢，噢",
+      "lineId": "line-79",
+      "startSeconds": 192.24,
+      "endSeconds": 194.36
+    },
+    {
+      "english": "[Harry:]",
+      "chinese": "[Harry：]",
+      "lineId": "line-80"
+    },
+    {
+      "english": "That's what makes you beautiful",
+      "chinese": "而這，正是妳如此美麗的原因",
+      "lineId": "line-81",
+      "startSeconds": 194.36,
+      "endSeconds": 196.12
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-2",
+          "answer": "insecure",
+          "options": [
+            "unsure",
+            "insecure",
+            "confident"
+          ],
+          "prompt": "You're {{blank}}",
+          "promptZh": "妳總是對自己缺乏自信"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "what for",
+          "options": [
+            "what for",
+            "how come",
+            "why now"
+          ],
+          "prompt": "Don't know {{blank}}",
+          "promptZh": "我真不明白，妳究竟為何如此"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-5",
+          "answer": "make-up",
+          "options": [
+            "make-up",
+            "new clothes",
+            "a haircut"
+          ],
+          "prompt": "Don't need {{blank}}",
+          "promptZh": "妳根本不需要化妝"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-9",
+          "answer": "in the room",
+          "options": [
+            "at the party",
+            "on the street",
+            "in the room"
+          ],
+          "prompt": "Everyone else {{blank}} can see it",
+          "promptZh": "房間裡的每個人，都看得出妳有多麼美麗"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-12",
+          "answer": "light up my world",
+          "options": [
+            "change all my plans",
+            "light up my world",
+            "brighten my day"
+          ],
+          "prompt": "Baby you {{blank}} like nobody else",
+          "promptZh": "寶貝，妳照亮了我的世界，無人能像妳一樣"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-15",
+          "answer": "don't know",
+          "options": [
+            "can’t see",
+            "don't know",
+            "won’t say"
+          ],
+          "prompt": "You {{blank}}",
+          "promptZh": "妳不知道"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-19",
+          "answer": "so desperately",
+          "options": [
+            "so desperately",
+            "so quietly",
+            "very suddenly"
+          ],
+          "prompt": "You'd understand why I want you {{blank}}",
+          "promptZh": "妳就會明白，為何我如此渴望與妳在一起"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-21",
+          "answer": "You don't know",
+          "options": [
+            "You cannot see",
+            "You never say",
+            "You don't know"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳竟然不知道"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-23",
+          "answer": "you're beautiful",
+          "options": [
+            "you look worried",
+            "you seem tired",
+            "you're beautiful"
+          ],
+          "prompt": "You don't know {{blank}}",
+          "promptZh": "妳不知道自己有多麼美麗"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-29",
+          "answer": "I'm right",
+          "options": [
+            "you know",
+            "I'm right",
+            "we care"
+          ],
+          "prompt": "To prove {{blank}}",
+          "promptZh": "為了證明我說得沒錯"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-32",
+          "answer": "being shy",
+          "options": [
+            "being shy",
+            "feeling sad",
+            "acting brave"
+          ],
+          "prompt": "You're {{blank}}",
+          "promptZh": "妳總是如此害羞"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-35",
+          "answer": "can see it",
+          "options": [
+            "will hear it",
+            "can feel that",
+            "can see it"
+          ],
+          "prompt": "Everyone else in the room {{blank}}",
+          "promptZh": "房間裡的每個人，都看得出妳有多麼美麗"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-40",
+          "answer": "ain't hard to tell",
+          "options": [
+            "is hard to say",
+            "ain't hard to tell",
+            "will take some time"
+          ],
+          "prompt": "But when you smile at the ground it {{blank}}",
+          "promptZh": "可當妳低頭望著地面、羞澀地微笑時，任誰都看得出來"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-41",
+          "answer": "You don't know",
+          "options": [
+            "You cannot see",
+            "You don't know",
+            "You never say"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳不知道"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-44",
+          "answer": "what I can see",
+          "options": [
+            "what I can see",
+            "how you behave",
+            "where we should go"
+          ],
+          "prompt": "If only you saw {{blank}}",
+          "promptZh": "要是妳也能看見我眼中的妳"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-49",
+          "answer": "you're beautiful",
+          "options": [
+            "you are happy",
+            "you seem worried",
+            "you're beautiful"
+          ],
+          "prompt": "You don't know {{blank}}",
+          "promptZh": "妳不知道自己有多麼美麗"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-58",
+          "answer": "your hair",
+          "options": [
+            "your hair",
+            "your hands",
+            "your coat"
+          ],
+          "prompt": "The way that you flip {{blank}} gets me overwhelmed",
+          "promptZh": "妳輕輕甩動秀髮的模樣，就讓我心動得難以自持"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-63",
+          "answer": "beautiful",
+          "options": [
+            "in trouble",
+            "beautiful",
+            "so sleepy"
+          ],
+          "prompt": "You don't know you're {{blank}}",
+          "promptZh": "妳不知道自己有多麼美麗"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-69",
+          "answer": "you're beautiful",
+          "options": [
+            "you're beautiful",
+            "you are lonely",
+            "you look tired"
+          ],
+          "prompt": "You don't know {{blank}} (Oh)",
+          "promptZh": "妳不知道自己有多麼美麗（噢）"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-73",
+          "answer": "looking at you",
+          "options": [
+            "thinking of home",
+            "walking with friends",
+            "looking at you"
+          ],
+          "prompt": "Right now I'm {{blank}} and I can't believe",
+          "promptZh": "此刻，我望著妳，實在難以相信"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "[Liam:]"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "You're {{q:1}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Don't know {{q:2}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You're turning heads when you walk through the door"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Don't need {{q:3}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "To cover up"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Being the way that you are is enough"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "[Harry:]"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Everyone else {{q:4}} can see it"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Everyone else but you"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "[All:]"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Baby you {{q:5}} like nobody else"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "The way that you flip your hair gets me overwhelmed"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "But when you smile at the ground it ain't hard to tell"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "You {{q:6}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Oh, oh"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "You don't know you're beautiful"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "If only you saw what I can see"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "You'd understand why I want you {{q:7}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Right now I'm looking at you and I can't believe"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:8}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Oh, oh"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You don't know {{q:9}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Oh, oh"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "That's what makes you beautiful"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "[Zayn:]"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "So c-come on"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "You got it wrong"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "To prove {{q:10}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I put it in a song"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I don't know why"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You're {{q:11}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And turn away when I look into your eye-eye-eyes"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "[Harry:]"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Everyone else in the room {{q:12}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Everyone else but you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "[All:]"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Baby you light up my world like nobody else"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "The way that you flip your hair gets me overwhelmed"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "But when you smile at the ground it {{q:13}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:14}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "You don't know you're beautiful"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "If only you saw {{q:15}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "You'll understand why I want you so desperately"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Right now I'm looking at you and I can't believe"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "You don't know"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "You don't know {{q:16}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "[Harry:]"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "That's what makes you beautiful"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Nana nana nana nana"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Nana nana nana nana"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Nana nana nana nana"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "[Harry:]"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Baby you light up my world like nobody else"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "The way that you flip {{q:17}} gets me overwhelmed"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "But when you smile at the ground it ain't hard to tell"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "[All:]"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "You don't know"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "You don't know you're {{q:18}}"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "Baby, you light up my world like nobody else"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "The way that you flip your hair gets me overwhelmed"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "But when you smile at the ground it ain't hard to tell"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "You don't know"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "You don't know {{q:19}} (Oh)"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "If only you saw what I can see"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "You'll understand why I want you so desperately"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "([Harry:] desperately) （[Harry：]"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "Right now I'm {{q:20}} and I can't believe"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "You don't know"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "You don't know you're beautiful"
+        },
+        {
+          "lineId": "line-77",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-78",
+          "prompt": "You don't know you're beautiful"
+        },
+        {
+          "lineId": "line-79",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-80",
+          "prompt": "[Harry:]"
+        },
+        {
+          "lineId": "line-81",
+          "prompt": "That's what makes you beautiful"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-2",
+          "answer": "insecure",
+          "options": [
+            "insecure",
+            "unsure",
+            "confident"
+          ],
+          "prompt": "You're {{blank}}",
+          "promptZh": "妳總是對自己缺乏自信"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "what for",
+          "options": [
+            "how come",
+            "what for",
+            "why now"
+          ],
+          "prompt": "Don't know {{blank}}",
+          "promptZh": "我真不明白，妳究竟為何如此"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-5",
+          "answer": "make-up",
+          "options": [
+            "new clothes",
+            "make-up",
+            "a haircut"
+          ],
+          "prompt": "Don't need {{blank}}",
+          "promptZh": "妳根本不需要化妝"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-6",
+          "answer": "cover up",
+          "options": [
+            "cover up",
+            "dress it up",
+            "hide away"
+          ],
+          "prompt": "To {{blank}}",
+          "promptZh": "來掩飾自己的模樣"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-9",
+          "answer": "in the room",
+          "options": [
+            "at the party",
+            "on the street",
+            "in the room"
+          ],
+          "prompt": "Everyone else {{blank}} can see it",
+          "promptZh": "房間裡的每個人，都看得出妳有多麼美麗"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-12",
+          "answer": "light up my world",
+          "options": [
+            "change all my plans",
+            "brighten my day",
+            "light up my world"
+          ],
+          "prompt": "Baby you {{blank}} like nobody else",
+          "promptZh": "寶貝，妳照亮了我的世界，無人能像妳一樣"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-13",
+          "answer": "flip your hair",
+          "options": [
+            "close your eyes",
+            "flip your hair",
+            "shake your head"
+          ],
+          "prompt": "The way that you {{blank}} gets me overwhelmed",
+          "promptZh": "妳輕輕甩動秀髮的模樣，就讓我心動得難以自持"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-15",
+          "answer": "don't know",
+          "options": [
+            "don't know",
+            "can’t see",
+            "won’t say"
+          ],
+          "prompt": "You {{blank}}",
+          "promptZh": "妳不知道"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-17",
+          "answer": "you're beautiful",
+          "options": [
+            "you're beautiful",
+            "you are wonderful",
+            "you look happy"
+          ],
+          "prompt": "You don't know {{blank}}",
+          "promptZh": "妳不知道自己有多麼美麗"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-19",
+          "answer": "so desperately",
+          "options": [
+            "so quietly",
+            "so desperately",
+            "very suddenly"
+          ],
+          "prompt": "You'd understand why I want you {{blank}}",
+          "promptZh": "妳就會明白，為何我如此渴望與妳在一起"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-21",
+          "answer": "You don't know",
+          "options": [
+            "You don't know",
+            "You cannot see",
+            "You never say"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳竟然不知道"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-23",
+          "answer": "you're beautiful",
+          "options": [
+            "you look worried",
+            "you're beautiful",
+            "you seem tired"
+          ],
+          "prompt": "You don't know {{blank}}",
+          "promptZh": "妳不知道自己有多麼美麗"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-25",
+          "answer": "what makes you beautiful",
+          "options": [
+            "what makes you beautiful",
+            "why you seem so happy",
+            "what keeps you smiling"
+          ],
+          "prompt": "That's {{blank}}",
+          "promptZh": "而這，正是妳如此美麗的原因"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-27",
+          "answer": "So c-come on",
+          "options": [
+            "So move along",
+            "So c-come on",
+            "Please carry on"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "所以，來、來吧"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-29",
+          "answer": "I'm right",
+          "options": [
+            "I'm right",
+            "you know",
+            "we care"
+          ],
+          "prompt": "To prove {{blank}}",
+          "promptZh": "為了證明我說得沒錯"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-30",
+          "answer": "in a song",
+          "options": [
+            "in a song",
+            "on a page",
+            "with a smile"
+          ],
+          "prompt": "I put it {{blank}}",
+          "promptZh": "我把這份心意寫進了一首歌"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-32",
+          "answer": "being shy",
+          "options": [
+            "feeling sad",
+            "acting brave",
+            "being shy"
+          ],
+          "prompt": "You're {{blank}}",
+          "promptZh": "妳總是如此害羞"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-35",
+          "answer": "can see it",
+          "options": [
+            "will hear it",
+            "can feel that",
+            "can see it"
+          ],
+          "prompt": "Everyone else in the room {{blank}}",
+          "promptZh": "房間裡的每個人，都看得出妳有多麼美麗"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-38",
+          "answer": "like nobody else",
+          "options": [
+            "like anyone before",
+            "like nobody else",
+            "in a different way"
+          ],
+          "prompt": "Baby you light up my world {{blank}}",
+          "promptZh": "寶貝，妳照亮了我的世界，無人能像妳一樣"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-40",
+          "answer": "ain't hard to tell",
+          "options": [
+            "is hard to say",
+            "will take some time",
+            "ain't hard to tell"
+          ],
+          "prompt": "But when you smile at the ground it {{blank}}",
+          "promptZh": "可當妳低頭望著地面、羞澀地微笑時，任誰都看得出來"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-41",
+          "answer": "You don't know",
+          "options": [
+            "You cannot see",
+            "You never say",
+            "You don't know"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳不知道"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-44",
+          "answer": "what I can see",
+          "options": [
+            "what I can see",
+            "how you behave",
+            "where we should go"
+          ],
+          "prompt": "If only you saw {{blank}}",
+          "promptZh": "要是妳也能看見我眼中的妳"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-45",
+          "answer": "want you",
+          "options": [
+            "need help",
+            "miss home",
+            "want you"
+          ],
+          "prompt": "You'll understand why I {{blank}} so desperately",
+          "promptZh": "妳就會明白，為何我如此渴望與妳在一起"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-47",
+          "answer": "You don't know",
+          "options": [
+            "You don't know",
+            "You cannot see",
+            "You never say"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳竟然不知道"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-49",
+          "answer": "you're beautiful",
+          "options": [
+            "you are happy",
+            "you seem worried",
+            "you're beautiful"
+          ],
+          "prompt": "You don't know {{blank}}",
+          "promptZh": "妳不知道自己有多麼美麗"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-52",
+          "answer": "makes you beautiful",
+          "options": [
+            "keeps you awake",
+            "makes you beautiful",
+            "makes me nervous"
+          ],
+          "prompt": "That's what {{blank}}",
+          "promptZh": "而這，正是妳如此美麗的原因"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-58",
+          "answer": "your hair",
+          "options": [
+            "your hands",
+            "your coat",
+            "your hair"
+          ],
+          "prompt": "The way that you flip {{blank}} gets me overwhelmed",
+          "promptZh": "妳輕輕甩動秀髮的模樣，就讓我心動得難以自持"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-63",
+          "answer": "beautiful",
+          "options": [
+            "in trouble",
+            "beautiful",
+            "so sleepy"
+          ],
+          "prompt": "You don't know you're {{blank}}",
+          "promptZh": "妳不知道自己有多麼美麗"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-65",
+          "answer": "gets me overwhelmed",
+          "options": [
+            "gets me overwhelmed",
+            "makes me turn around",
+            "keeps me up at night"
+          ],
+          "prompt": "The way that you flip your hair {{blank}}",
+          "promptZh": "妳輕輕甩動秀髮的模樣，就讓我心動得難以自持"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-69",
+          "answer": "you're beautiful",
+          "options": [
+            "you are lonely",
+            "you're beautiful",
+            "you look tired"
+          ],
+          "prompt": "You don't know {{blank}} (Oh)",
+          "promptZh": "妳不知道自己有多麼美麗（噢）"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-70",
+          "answer": "what I can see",
+          "options": [
+            "what others say",
+            "what people need",
+            "what I can see"
+          ],
+          "prompt": "If only you saw {{blank}}",
+          "promptZh": "要是妳也能看見我眼中的妳"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-73",
+          "answer": "looking at you",
+          "options": [
+            "thinking of home",
+            "looking at you",
+            "walking with friends"
+          ],
+          "prompt": "Right now I'm {{blank}} and I can't believe",
+          "promptZh": "此刻，我望著妳，實在難以相信"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "[Liam:]"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "You're {{q:1}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Don't know {{q:2}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You're turning heads when you walk through the door"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Don't need {{q:3}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "To {{q:4}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Being the way that you are is enough"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "[Harry:]"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Everyone else {{q:5}} can see it"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Everyone else but you"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "[All:]"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Baby you {{q:6}} like nobody else"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "The way that you {{q:7}} gets me overwhelmed"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "But when you smile at the ground it ain't hard to tell"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "You {{q:8}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Oh, oh"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "You don't know {{q:9}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "If only you saw what I can see"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "You'd understand why I want you {{q:10}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Right now I'm looking at you and I can't believe"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:11}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Oh, oh"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You don't know {{q:12}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Oh, oh"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "That's {{q:13}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "[Zayn:]"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:14}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "You got it wrong"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "To prove {{q:15}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I put it {{q:16}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I don't know why"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You're {{q:17}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And turn away when I look into your eye-eye-eyes"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "[Harry:]"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Everyone else in the room {{q:18}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Everyone else but you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "[All:]"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Baby you light up my world {{q:19}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "The way that you flip your hair gets me overwhelmed"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "But when you smile at the ground it {{q:20}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:21}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "You don't know you're beautiful"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "If only you saw {{q:22}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "You'll understand why I {{q:23}} so desperately"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Right now I'm looking at you and I can't believe"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "{{q:24}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "You don't know {{q:25}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "[Harry:]"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "That's what {{q:26}}"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Nana nana nana nana"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Nana nana nana nana"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Nana nana nana nana"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "[Harry:]"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Baby you light up my world like nobody else"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "The way that you flip {{q:27}} gets me overwhelmed"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "But when you smile at the ground it ain't hard to tell"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "[All:]"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "You don't know"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "You don't know you're {{q:28}}"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "Baby, you light up my world like nobody else"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "The way that you flip your hair {{q:29}}"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "But when you smile at the ground it ain't hard to tell"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "You don't know"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "You don't know {{q:30}} (Oh)"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "If only you saw {{q:31}}"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "You'll understand why I want you so desperately"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "([Harry:] desperately) （[Harry：]"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "Right now I'm {{q:32}} and I can't believe"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "You don't know"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "You don't know you're beautiful"
+        },
+        {
+          "lineId": "line-77",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-78",
+          "prompt": "You don't know you're beautiful"
+        },
+        {
+          "lineId": "line-79",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-80",
+          "prompt": "[Harry:]"
+        },
+        {
+          "lineId": "line-81",
+          "prompt": "That's what makes you beautiful"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-2",
+          "answer": "insecure",
+          "options": [
+            "insecure",
+            "unsure",
+            "confident"
+          ],
+          "prompt": "You're {{blank}}",
+          "promptZh": "妳總是對自己缺乏自信"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "what for",
+          "options": [
+            "what for",
+            "how come",
+            "why now"
+          ],
+          "prompt": "Don't know {{blank}}",
+          "promptZh": "我真不明白，妳究竟為何如此"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-4",
+          "answer": "turning heads",
+          "options": [
+            "breaking hearts",
+            "turning heads",
+            "making plans"
+          ],
+          "prompt": "You're {{blank}} when you walk through the door",
+          "promptZh": "每當妳走進門來，總會引得眾人紛紛回頭注目"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-5",
+          "answer": "make-up",
+          "options": [
+            "make-up",
+            "new clothes",
+            "a haircut"
+          ],
+          "prompt": "Don't need {{blank}}",
+          "promptZh": "妳根本不需要化妝"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-6",
+          "answer": "cover up",
+          "options": [
+            "dress it up",
+            "hide away",
+            "cover up"
+          ],
+          "prompt": "To {{blank}}",
+          "promptZh": "來掩飾自己的模樣"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-9",
+          "answer": "in the room",
+          "options": [
+            "at the party",
+            "on the street",
+            "in the room"
+          ],
+          "prompt": "Everyone else {{blank}} can see it",
+          "promptZh": "房間裡的每個人，都看得出妳有多麼美麗"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-10",
+          "answer": "but you",
+          "options": [
+            "but you",
+            "except me",
+            "not him"
+          ],
+          "prompt": "Everyone else {{blank}}",
+          "promptZh": "所有人都知道，唯獨妳自己不知道"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-12",
+          "answer": "light up my world",
+          "options": [
+            "light up my world",
+            "change all my plans",
+            "brighten my day"
+          ],
+          "prompt": "Baby you {{blank}} like nobody else",
+          "promptZh": "寶貝，妳照亮了我的世界，無人能像妳一樣"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-13",
+          "answer": "flip your hair",
+          "options": [
+            "close your eyes",
+            "shake your head",
+            "flip your hair"
+          ],
+          "prompt": "The way that you {{blank}} gets me overwhelmed",
+          "promptZh": "妳輕輕甩動秀髮的模樣，就讓我心動得難以自持"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-15",
+          "answer": "don't know",
+          "options": [
+            "can’t see",
+            "don't know",
+            "won’t say"
+          ],
+          "prompt": "You {{blank}}",
+          "promptZh": "妳不知道"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-17",
+          "answer": "you're beautiful",
+          "options": [
+            "you are wonderful",
+            "you look happy",
+            "you're beautiful"
+          ],
+          "prompt": "You don't know {{blank}}",
+          "promptZh": "妳不知道自己有多麼美麗"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-19",
+          "answer": "so desperately",
+          "options": [
+            "so quietly",
+            "so desperately",
+            "very suddenly"
+          ],
+          "prompt": "You'd understand why I want you {{blank}}",
+          "promptZh": "妳就會明白，為何我如此渴望與妳在一起"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-20",
+          "answer": "can't believe",
+          "options": [
+            "can't believe",
+            "cannot explain",
+            "want to leave"
+          ],
+          "prompt": "Right now I'm looking at you and I {{blank}}",
+          "promptZh": "此刻，我望著妳，實在難以相信"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-21",
+          "answer": "You don't know",
+          "options": [
+            "You cannot see",
+            "You never say",
+            "You don't know"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳竟然不知道"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-23",
+          "answer": "you're beautiful",
+          "options": [
+            "you're beautiful",
+            "you look worried",
+            "you seem tired"
+          ],
+          "prompt": "You don't know {{blank}}",
+          "promptZh": "妳不知道自己有多麼美麗"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-25",
+          "answer": "what makes you beautiful",
+          "options": [
+            "why you seem so happy",
+            "what makes you beautiful",
+            "what keeps you smiling"
+          ],
+          "prompt": "That's {{blank}}",
+          "promptZh": "而這，正是妳如此美麗的原因"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-27",
+          "answer": "So c-come on",
+          "options": [
+            "So move along",
+            "So c-come on",
+            "Please carry on"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "所以，來、來吧"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-29",
+          "answer": "I'm right",
+          "options": [
+            "you know",
+            "we care",
+            "I'm right"
+          ],
+          "prompt": "To prove {{blank}}",
+          "promptZh": "為了證明我說得沒錯"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-30",
+          "answer": "in a song",
+          "options": [
+            "on a page",
+            "with a smile",
+            "in a song"
+          ],
+          "prompt": "I put it {{blank}}",
+          "promptZh": "我把這份心意寫進了一首歌"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-32",
+          "answer": "being shy",
+          "options": [
+            "feeling sad",
+            "being shy",
+            "acting brave"
+          ],
+          "prompt": "You're {{blank}}",
+          "promptZh": "妳總是如此害羞"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-33",
+          "answer": "turn away",
+          "options": [
+            "turn away",
+            "look ahead",
+            "move closer"
+          ],
+          "prompt": "And {{blank}} when I look into your eye-eye-eyes",
+          "promptZh": "每當我凝望妳的雙、雙、雙眼，妳就羞澀地轉過頭去"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-35",
+          "answer": "can see it",
+          "options": [
+            "will hear it",
+            "can see it",
+            "can feel that"
+          ],
+          "prompt": "Everyone else in the room {{blank}}",
+          "promptZh": "房間裡的每個人，都看得出妳有多麼美麗"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-38",
+          "answer": "like nobody else",
+          "options": [
+            "like anyone before",
+            "in a different way",
+            "like nobody else"
+          ],
+          "prompt": "Baby you light up my world {{blank}}",
+          "promptZh": "寶貝，妳照亮了我的世界，無人能像妳一樣"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-40",
+          "answer": "ain't hard to tell",
+          "options": [
+            "is hard to say",
+            "will take some time",
+            "ain't hard to tell"
+          ],
+          "prompt": "But when you smile at the ground it {{blank}}",
+          "promptZh": "可當妳低頭望著地面、羞澀地微笑時，任誰都看得出來"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-41",
+          "answer": "You don't know",
+          "options": [
+            "You cannot see",
+            "You don't know",
+            "You never say"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳不知道"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-43",
+          "answer": "beautiful",
+          "options": [
+            "beautiful",
+            "so nervous",
+            "quite lonely"
+          ],
+          "prompt": "You don't know you're {{blank}}",
+          "promptZh": "妳不知道自己有多麼美麗"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-44",
+          "answer": "what I can see",
+          "options": [
+            "how you behave",
+            "what I can see",
+            "where we should go"
+          ],
+          "prompt": "If only you saw {{blank}}",
+          "promptZh": "要是妳也能看見我眼中的妳"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-45",
+          "answer": "want you",
+          "options": [
+            "need help",
+            "want you",
+            "miss home"
+          ],
+          "prompt": "You'll understand why I {{blank}} so desperately",
+          "promptZh": "妳就會明白，為何我如此渴望與妳在一起"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-46",
+          "answer": "looking at you",
+          "options": [
+            "waiting for you",
+            "talking to him",
+            "looking at you"
+          ],
+          "prompt": "Right now I'm {{blank}} and I can't believe",
+          "promptZh": "此刻，我望著妳，實在難以相信"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-47",
+          "answer": "You don't know",
+          "options": [
+            "You don't know",
+            "You cannot see",
+            "You never say"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳竟然不知道"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-49",
+          "answer": "you're beautiful",
+          "options": [
+            "you're beautiful",
+            "you are happy",
+            "you seem worried"
+          ],
+          "prompt": "You don't know {{blank}}",
+          "promptZh": "妳不知道自己有多麼美麗"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-52",
+          "answer": "makes you beautiful",
+          "options": [
+            "keeps you awake",
+            "makes you beautiful",
+            "makes me nervous"
+          ],
+          "prompt": "That's what {{blank}}",
+          "promptZh": "而這，正是妳如此美麗的原因"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-58",
+          "answer": "your hair",
+          "options": [
+            "your hair",
+            "your hands",
+            "your coat"
+          ],
+          "prompt": "The way that you flip {{blank}} gets me overwhelmed",
+          "promptZh": "妳輕輕甩動秀髮的模樣，就讓我心動得難以自持"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-59",
+          "answer": "at the ground",
+          "options": [
+            "at the ground",
+            "through the window",
+            "toward the door"
+          ],
+          "prompt": "But when you smile {{blank}} it ain't hard to tell",
+          "promptZh": "可當妳低頭望著地面、羞澀地微笑時，任誰都看得出來"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-63",
+          "answer": "beautiful",
+          "options": [
+            "in trouble",
+            "beautiful",
+            "so sleepy"
+          ],
+          "prompt": "You don't know you're {{blank}}",
+          "promptZh": "妳不知道自己有多麼美麗"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-65",
+          "answer": "gets me overwhelmed",
+          "options": [
+            "makes me turn around",
+            "keeps me up at night",
+            "gets me overwhelmed"
+          ],
+          "prompt": "The way that you flip your hair {{blank}}",
+          "promptZh": "妳輕輕甩動秀髮的模樣，就讓我心動得難以自持"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-69",
+          "answer": "you're beautiful",
+          "options": [
+            "you are lonely",
+            "you're beautiful",
+            "you look tired"
+          ],
+          "prompt": "You don't know {{blank}} (Oh)",
+          "promptZh": "妳不知道自己有多麼美麗（噢）"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-70",
+          "answer": "what I can see",
+          "options": [
+            "what others say",
+            "what people need",
+            "what I can see"
+          ],
+          "prompt": "If only you saw {{blank}}",
+          "promptZh": "要是妳也能看見我眼中的妳"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-73",
+          "answer": "looking at you",
+          "options": [
+            "thinking of home",
+            "walking with friends",
+            "looking at you"
+          ],
+          "prompt": "Right now I'm {{blank}} and I can't believe",
+          "promptZh": "此刻，我望著妳，實在難以相信"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-81",
+          "answer": "makes you beautiful",
+          "options": [
+            "makes you beautiful",
+            "makes us feel better",
+            "keeps the lights shining"
+          ],
+          "prompt": "That's what {{blank}}",
+          "promptZh": "而這，正是妳如此美麗的原因"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "[Liam:]"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "You're {{q:1}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Don't know {{q:2}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You're {{q:3}} when you walk through the door"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Don't need {{q:4}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "To {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Being the way that you are is enough"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "[Harry:]"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Everyone else {{q:6}} can see it"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Everyone else {{q:7}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "[All:]"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Baby you {{q:8}} like nobody else"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "The way that you {{q:9}} gets me overwhelmed"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "But when you smile at the ground it ain't hard to tell"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "You {{q:10}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Oh, oh"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "You don't know {{q:11}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "If only you saw what I can see"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "You'd understand why I want you {{q:12}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Right now I'm looking at you and I {{q:13}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:14}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Oh, oh"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You don't know {{q:15}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Oh, oh"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "That's {{q:16}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "[Zayn:]"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "You got it wrong"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "To prove {{q:18}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I put it {{q:19}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I don't know why"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You're {{q:20}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And {{q:21}} when I look into your eye-eye-eyes"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "[Harry:]"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Everyone else in the room {{q:22}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Everyone else but you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "[All:]"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Baby you light up my world {{q:23}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "The way that you flip your hair gets me overwhelmed"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "But when you smile at the ground it {{q:24}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "You don't know you're {{q:26}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "If only you saw {{q:27}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "You'll understand why I {{q:28}} so desperately"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Right now I'm {{q:29}} and I can't believe"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "{{q:30}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "You don't know {{q:31}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "[Harry:]"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "That's what {{q:32}}"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Nana nana nana nana"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Nana nana nana nana"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Nana nana nana nana"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "[Harry:]"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Baby you light up my world like nobody else"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "The way that you flip {{q:33}} gets me overwhelmed"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "But when you smile {{q:34}} it ain't hard to tell"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "[All:]"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "You don't know"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "You don't know you're {{q:35}}"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "Baby, you light up my world like nobody else"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "The way that you flip your hair {{q:36}}"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "But when you smile at the ground it ain't hard to tell"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "You don't know"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "You don't know {{q:37}} (Oh)"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "If only you saw {{q:38}}"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "You'll understand why I want you so desperately"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "([Harry:] desperately) （[Harry：]"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "Right now I'm {{q:39}} and I can't believe"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "You don't know"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "You don't know you're beautiful"
+        },
+        {
+          "lineId": "line-77",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-78",
+          "prompt": "You don't know you're beautiful"
+        },
+        {
+          "lineId": "line-79",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-80",
+          "prompt": "[Harry:]"
+        },
+        {
+          "lineId": "line-81",
+          "prompt": "That's what {{q:40}}"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-2",
+          "answer": "insecure",
+          "options": [
+            "insecure",
+            "unsure",
+            "confident"
+          ],
+          "prompt": "You're {{blank}}",
+          "promptZh": "妳總是對自己缺乏自信"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "what for",
+          "options": [
+            "how come",
+            "why now",
+            "what for"
+          ],
+          "prompt": "Don't know {{blank}}",
+          "promptZh": "我真不明白，妳究竟為何如此"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-4",
+          "answer": "turning heads",
+          "options": [
+            "breaking hearts",
+            "turning heads",
+            "making plans"
+          ],
+          "prompt": "You're {{blank}} when you walk through the door",
+          "promptZh": "每當妳走進門來，總會引得眾人紛紛回頭注目"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-5",
+          "answer": "make-up",
+          "options": [
+            "new clothes",
+            "make-up",
+            "a haircut"
+          ],
+          "prompt": "Don't need {{blank}}",
+          "promptZh": "妳根本不需要化妝"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-6",
+          "answer": "cover up",
+          "options": [
+            "dress it up",
+            "hide away",
+            "cover up"
+          ],
+          "prompt": "To {{blank}}",
+          "promptZh": "來掩飾自己的模樣"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "the way that you are",
+          "options": [
+            "the way that you are",
+            "the things that you say",
+            "the clothes that you wear"
+          ],
+          "prompt": "Being {{blank}} is enough",
+          "promptZh": "只要做最真實的自己，就已經足夠美麗"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-9",
+          "answer": "in the room",
+          "options": [
+            "in the room",
+            "at the party",
+            "on the street"
+          ],
+          "prompt": "Everyone else {{blank}} can see it",
+          "promptZh": "房間裡的每個人，都看得出妳有多麼美麗"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-10",
+          "answer": "but you",
+          "options": [
+            "except me",
+            "not him",
+            "but you"
+          ],
+          "prompt": "Everyone else {{blank}}",
+          "promptZh": "所有人都知道，唯獨妳自己不知道"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-12",
+          "answer": "light up my world",
+          "options": [
+            "change all my plans",
+            "light up my world",
+            "brighten my day"
+          ],
+          "prompt": "Baby you {{blank}} like nobody else",
+          "promptZh": "寶貝，妳照亮了我的世界，無人能像妳一樣"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-13",
+          "answer": "flip your hair",
+          "options": [
+            "close your eyes",
+            "flip your hair",
+            "shake your head"
+          ],
+          "prompt": "The way that you {{blank}} gets me overwhelmed",
+          "promptZh": "妳輕輕甩動秀髮的模樣，就讓我心動得難以自持"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-14",
+          "answer": "smile at the ground",
+          "options": [
+            "look up at the sky",
+            "laugh at the crowd",
+            "smile at the ground"
+          ],
+          "prompt": "But when you {{blank}} it ain't hard to tell",
+          "promptZh": "可當妳低頭望著地面、羞澀地微笑時，任誰都看得出來"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-15",
+          "answer": "don't know",
+          "options": [
+            "can’t see",
+            "won’t say",
+            "don't know"
+          ],
+          "prompt": "You {{blank}}",
+          "promptZh": "妳不知道"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-17",
+          "answer": "you're beautiful",
+          "options": [
+            "you are wonderful",
+            "you're beautiful",
+            "you look happy"
+          ],
+          "prompt": "You don't know {{blank}}",
+          "promptZh": "妳不知道自己有多麼美麗"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-18",
+          "answer": "what I can see",
+          "options": [
+            "how I feel now",
+            "where I could be",
+            "what I can see"
+          ],
+          "prompt": "If only you saw {{blank}}",
+          "promptZh": "要是妳也能看見我眼中的妳"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-19",
+          "answer": "so desperately",
+          "options": [
+            "so quietly",
+            "so desperately",
+            "very suddenly"
+          ],
+          "prompt": "You'd understand why I want you {{blank}}",
+          "promptZh": "妳就會明白，為何我如此渴望與妳在一起"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-20",
+          "answer": "can't believe",
+          "options": [
+            "cannot explain",
+            "can't believe",
+            "want to leave"
+          ],
+          "prompt": "Right now I'm looking at you and I {{blank}}",
+          "promptZh": "此刻，我望著妳，實在難以相信"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-21",
+          "answer": "You don't know",
+          "options": [
+            "You don't know",
+            "You cannot see",
+            "You never say"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳竟然不知道"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-23",
+          "answer": "you're beautiful",
+          "options": [
+            "you look worried",
+            "you seem tired",
+            "you're beautiful"
+          ],
+          "prompt": "You don't know {{blank}}",
+          "promptZh": "妳不知道自己有多麼美麗"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-25",
+          "answer": "what makes you beautiful",
+          "options": [
+            "what makes you beautiful",
+            "why you seem so happy",
+            "what keeps you smiling"
+          ],
+          "prompt": "That's {{blank}}",
+          "promptZh": "而這，正是妳如此美麗的原因"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-27",
+          "answer": "So c-come on",
+          "options": [
+            "So c-come on",
+            "So move along",
+            "Please carry on"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "所以，來、來吧"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-28",
+          "answer": "got it wrong",
+          "options": [
+            "made it right",
+            "got it wrong",
+            "lost your way"
+          ],
+          "prompt": "You {{blank}}",
+          "promptZh": "妳真的想錯了"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-29",
+          "answer": "I'm right",
+          "options": [
+            "you know",
+            "I'm right",
+            "we care"
+          ],
+          "prompt": "To prove {{blank}}",
+          "promptZh": "為了證明我說得沒錯"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-30",
+          "answer": "in a song",
+          "options": [
+            "on a page",
+            "with a smile",
+            "in a song"
+          ],
+          "prompt": "I put it {{blank}}",
+          "promptZh": "我把這份心意寫進了一首歌"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-31",
+          "answer": "don't know why",
+          "options": [
+            "don't know why",
+            "can’t say when",
+            "wonder how"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我真不明白為什麼"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-32",
+          "answer": "being shy",
+          "options": [
+            "feeling sad",
+            "being shy",
+            "acting brave"
+          ],
+          "prompt": "You're {{blank}}",
+          "promptZh": "妳總是如此害羞"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-33",
+          "answer": "turn away",
+          "options": [
+            "turn away",
+            "look ahead",
+            "move closer"
+          ],
+          "prompt": "And {{blank}} when I look into your eye-eye-eyes",
+          "promptZh": "每當我凝望妳的雙、雙、雙眼，妳就羞澀地轉過頭去"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-35",
+          "answer": "can see it",
+          "options": [
+            "will hear it",
+            "can feel that",
+            "can see it"
+          ],
+          "prompt": "Everyone else in the room {{blank}}",
+          "promptZh": "房間裡的每個人，都看得出妳有多麼美麗"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-36",
+          "answer": "else but you",
+          "options": [
+            "here with me",
+            "else but you",
+            "there with him"
+          ],
+          "prompt": "Everyone {{blank}}",
+          "promptZh": "所有人都知道，唯獨妳自己不知道"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-38",
+          "answer": "like nobody else",
+          "options": [
+            "like nobody else",
+            "like anyone before",
+            "in a different way"
+          ],
+          "prompt": "Baby you light up my world {{blank}}",
+          "promptZh": "寶貝，妳照亮了我的世界，無人能像妳一樣"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-39",
+          "answer": "gets me overwhelmed",
+          "options": [
+            "makes me feel at home",
+            "leaves me feeling cold",
+            "gets me overwhelmed"
+          ],
+          "prompt": "The way that you flip your hair {{blank}}",
+          "promptZh": "妳輕輕甩動秀髮的模樣，就讓我心動得難以自持"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-40",
+          "answer": "ain't hard to tell",
+          "options": [
+            "is hard to say",
+            "ain't hard to tell",
+            "will take some time"
+          ],
+          "prompt": "But when you smile at the ground it {{blank}}",
+          "promptZh": "可當妳低頭望著地面、羞澀地微笑時，任誰都看得出來"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-41",
+          "answer": "You don't know",
+          "options": [
+            "You cannot see",
+            "You don't know",
+            "You never say"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳不知道"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-43",
+          "answer": "beautiful",
+          "options": [
+            "beautiful",
+            "so nervous",
+            "quite lonely"
+          ],
+          "prompt": "You don't know you're {{blank}}",
+          "promptZh": "妳不知道自己有多麼美麗"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-44",
+          "answer": "what I can see",
+          "options": [
+            "how you behave",
+            "where we should go",
+            "what I can see"
+          ],
+          "prompt": "If only you saw {{blank}}",
+          "promptZh": "要是妳也能看見我眼中的妳"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-45",
+          "answer": "want you",
+          "options": [
+            "want you",
+            "need help",
+            "miss home"
+          ],
+          "prompt": "You'll understand why I {{blank}} so desperately",
+          "promptZh": "妳就會明白，為何我如此渴望與妳在一起"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-46",
+          "answer": "looking at you",
+          "options": [
+            "waiting for you",
+            "talking to him",
+            "looking at you"
+          ],
+          "prompt": "Right now I'm {{blank}} and I can't believe",
+          "promptZh": "此刻，我望著妳，實在難以相信"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-47",
+          "answer": "You don't know",
+          "options": [
+            "You don't know",
+            "You cannot see",
+            "You never say"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳竟然不知道"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-49",
+          "answer": "you're beautiful",
+          "options": [
+            "you are happy",
+            "you're beautiful",
+            "you seem worried"
+          ],
+          "prompt": "You don't know {{blank}}",
+          "promptZh": "妳不知道自己有多麼美麗"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-52",
+          "answer": "makes you beautiful",
+          "options": [
+            "makes you beautiful",
+            "keeps you awake",
+            "makes me nervous"
+          ],
+          "prompt": "That's what {{blank}}",
+          "promptZh": "而這，正是妳如此美麗的原因"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-57",
+          "answer": "my world",
+          "options": [
+            "my dreams",
+            "the night",
+            "my world"
+          ],
+          "prompt": "Baby you light up {{blank}} like nobody else",
+          "promptZh": "寶貝，妳照亮了我的世界，無人能像妳一樣"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-58",
+          "answer": "your hair",
+          "options": [
+            "your hands",
+            "your hair",
+            "your coat"
+          ],
+          "prompt": "The way that you flip {{blank}} gets me overwhelmed",
+          "promptZh": "妳輕輕甩動秀髮的模樣，就讓我心動得難以自持"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-59",
+          "answer": "at the ground",
+          "options": [
+            "at the ground",
+            "through the window",
+            "toward the door"
+          ],
+          "prompt": "But when you smile {{blank}} it ain't hard to tell",
+          "promptZh": "可當妳低頭望著地面、羞澀地微笑時，任誰都看得出來"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-63",
+          "answer": "beautiful",
+          "options": [
+            "in trouble",
+            "so sleepy",
+            "beautiful"
+          ],
+          "prompt": "You don't know you're {{blank}}",
+          "promptZh": "妳不知道自己有多麼美麗"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-65",
+          "answer": "gets me overwhelmed",
+          "options": [
+            "makes me turn around",
+            "gets me overwhelmed",
+            "keeps me up at night"
+          ],
+          "prompt": "The way that you flip your hair {{blank}}",
+          "promptZh": "妳輕輕甩動秀髮的模樣，就讓我心動得難以自持"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-66",
+          "answer": "smile at the ground",
+          "options": [
+            "smile at the ground",
+            "wave to the crowd",
+            "stare at the moon"
+          ],
+          "prompt": "But when you {{blank}} it ain't hard to tell",
+          "promptZh": "可當妳低頭望著地面、羞澀地微笑時，任誰都看得出來"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-69",
+          "answer": "you're beautiful",
+          "options": [
+            "you are lonely",
+            "you look tired",
+            "you're beautiful"
+          ],
+          "prompt": "You don't know {{blank}} (Oh)",
+          "promptZh": "妳不知道自己有多麼美麗（噢）"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-70",
+          "answer": "what I can see",
+          "options": [
+            "what others say",
+            "what people need",
+            "what I can see"
+          ],
+          "prompt": "If only you saw {{blank}}",
+          "promptZh": "要是妳也能看見我眼中的妳"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-71",
+          "answer": "so desperately",
+          "options": [
+            "so desperately",
+            "very carefully",
+            "quite differently"
+          ],
+          "prompt": "You'll understand why I want you {{blank}}",
+          "promptZh": "妳就會明白，為何我如此渴望與妳在一起"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-73",
+          "answer": "looking at you",
+          "options": [
+            "looking at you",
+            "thinking of home",
+            "walking with friends"
+          ],
+          "prompt": "Right now I'm {{blank}} and I can't believe",
+          "promptZh": "此刻，我望著妳，實在難以相信"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-81",
+          "answer": "makes you beautiful",
+          "options": [
+            "makes us feel better",
+            "makes you beautiful",
+            "keeps the lights shining"
+          ],
+          "prompt": "That's what {{blank}}",
+          "promptZh": "而這，正是妳如此美麗的原因"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "[Liam:]"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "You're {{q:1}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Don't know {{q:2}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You're {{q:3}} when you walk through the door"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Don't need {{q:4}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "To {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Being {{q:6}} is enough"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "[Harry:]"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Everyone else {{q:7}} can see it"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Everyone else {{q:8}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "[All:]"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Baby you {{q:9}} like nobody else"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "The way that you {{q:10}} gets me overwhelmed"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "But when you {{q:11}} it ain't hard to tell"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "You {{q:12}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Oh, oh"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "You don't know {{q:13}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "If only you saw {{q:14}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "You'd understand why I want you {{q:15}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Right now I'm looking at you and I {{q:16}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Oh, oh"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You don't know {{q:18}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Oh, oh"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "That's {{q:19}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "[Zayn:]"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "You {{q:21}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "To prove {{q:22}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I put it {{q:23}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I {{q:24}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You're {{q:25}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And {{q:26}} when I look into your eye-eye-eyes"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "[Harry:]"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Everyone else in the room {{q:27}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Everyone {{q:28}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "[All:]"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Baby you light up my world {{q:29}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "The way that you flip your hair {{q:30}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "But when you smile at the ground it {{q:31}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "You don't know you're {{q:33}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "If only you saw {{q:34}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "You'll understand why I {{q:35}} so desperately"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Right now I'm {{q:36}} and I can't believe"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "{{q:37}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "You don't know {{q:38}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "[Harry:]"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "That's what {{q:39}}"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Nana nana nana nana"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Nana nana nana nana"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Nana nana nana nana"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "[Harry:]"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Baby you light up {{q:40}} like nobody else"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "The way that you flip {{q:41}} gets me overwhelmed"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "But when you smile {{q:42}} it ain't hard to tell"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "[All:]"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "You don't know"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "You don't know you're {{q:43}}"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "Baby, you light up my world like nobody else"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "The way that you flip your hair {{q:44}}"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "But when you {{q:45}} it ain't hard to tell"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "You don't know"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "You don't know {{q:46}} (Oh)"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "If only you saw {{q:47}}"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "You'll understand why I want you {{q:48}}"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "([Harry:] desperately) （[Harry：]"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "Right now I'm {{q:49}} and I can't believe"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "You don't know"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "You don't know you're beautiful"
+        },
+        {
+          "lineId": "line-77",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-78",
+          "prompt": "You don't know you're beautiful"
+        },
+        {
+          "lineId": "line-79",
+          "prompt": "Oh oh"
+        },
+        {
+          "lineId": "line-80",
+          "prompt": "[Harry:]"
+        },
+        {
+          "lineId": "line-81",
+          "prompt": "That's what {{q:50}}"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "What Makes You Beautiful · Listening & Vocabulary",
+  "description": "《What Makes You Beautiful》描寫一份充滿青春氣息、甜蜜與真誠欣賞的愛情。歌中的主角深深被一位女孩吸引，認為她的笑容、舉止與自然流露的魅力都令人心動。然而，女孩對自己缺乏信心，總是害羞地低下頭，甚至沒有察覺自己有多麼美麗。他希望透過歌曲讓她明白，無須依靠化妝或刻意改變外表，也能展現獨特的吸引力。女孩那份純真與不自覺的美麗，反而令她更加迷人。最終，《What Makes You Beautiful》傳達的是自信、純真與欣賞自我的重要：每個人都有獨特的美麗，無須迎合別人的標準，只要自然地展現真實的自己，便能散發令人心動的光芒。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Insecure",
+      "meaning": "沒有安全感的；缺乏自信的",
+      "usage": "當一個人對自己的能力、外表或人際關係沒有信心時使用。",
+      "prompt": "哪一句正確使用「Insecure」？",
+      "options": [
+        "Before her first speech, Mia felt insecure about speaking in front of 200 people.",
+        "The city built an insecure bridge because it was very strong.",
+        "Our train arrived insecure at half past nine.",
+        "He insecure his ticket before entering the museum."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：insecure about 表示對公開演講感到沒有信心。",
+        "錯誤：橋樑很堅固應用 safe 或 strong；insecure 不表示堅固。",
+        "錯誤：這裡要描述火車到達的方式，insecure 不能直接這樣當副詞使用。",
+        "錯誤：insecure 是形容詞，不能直接當「檢查車票」的動詞。"
+      ],
+      "explanation": "正確：insecure about 表示對公開演講感到沒有信心。"
+    },
+    {
+      "number": 2,
+      "word": "Turn heads",
+      "meaning": "引人注目；讓人忍不住回頭看",
+      "usage": "當某人的外表、表演或特別的舉動吸引大家注意時使用。",
+      "prompt": "哪一句正確使用「Turn heads」？",
+      "options": [
+        "The driver turned heads at the traffic light to make the car faster.",
+        "Her bright silver costume turned heads at the science fair.",
+        "I turned heads into my bag before the concert.",
+        "The librarian turned heads to tell everyone the library was closing."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：turn heads 在此不是讓汽車加速的方法。",
+        "正確：特別的服裝吸引了大家的目光。",
+        "錯誤：heads 不是能放進包包的物品，這樣不符合片語的意思。",
+        "錯誤：通知閉館可用 told everyone；turn heads 不表示通知。"
+      ],
+      "explanation": "正確：特別的服裝吸引了大家的目光。"
+    },
+    {
+      "number": 3,
+      "word": "Cover up",
+      "meaning": "遮住；掩蓋（事實或錯誤）",
+      "usage": "可描述遮蓋東西，也可表示刻意隱瞞問題或錯誤。",
+      "prompt": "哪一句正確使用「Cover up」？",
+      "options": [
+        "The company tried to cover up its mistake, but the news reported it.",
+        "The coach covered up the score by winning the match.",
+        "We covered up to the airport at six.",
+        "My friend covered up a song on her guitar."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：cover up a mistake 表示隱瞞錯誤。",
+        "錯誤：贏得比賽不是遮蓋比數。",
+        "錯誤：去機場應說 went to the airport；cover up 不表示移動。",
+        "錯誤：演奏歌曲可以說 played a song；cover up 不是「翻唱」的標準說法。"
+      ],
+      "explanation": "正確：cover up a mistake 表示隱瞞錯誤。"
+    },
+    {
+      "number": 4,
+      "word": "Light up",
+      "meaning": "照亮；使某人露出開心的表情",
+      "usage": "可以描述燈光照亮空間，也可描述臉上突然出現笑容。",
+      "prompt": "哪一句正確使用「Light up」？",
+      "options": [
+        "The bank lit up my money because I saved ten dollars.",
+        "Our guide lit up a bus ticket to learn its price.",
+        "I lit up my appointment by arriving early.",
+        "The empty stage lit up when the dancers turned on the lights."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：存錢不叫 light up；可說 the bank kept my money safe。",
+        "錯誤：查詢價格不是 light up 的意思。",
+        "錯誤：提早到達不會讓預約「亮起來」，搭配不自然。",
+        "正確：舞台因燈光而亮起。"
+      ],
+      "explanation": "正確：舞台因燈光而亮起。"
+    },
+    {
+      "number": 5,
+      "word": "Overwhelmed",
+      "meaning": "不知所措的；情緒太強烈而難以承受的",
+      "usage": "當事情太多，或情緒太強烈，讓人一下子難以應付時使用。",
+      "prompt": "哪一句正確使用「Overwhelmed」？",
+      "options": [
+        "The singer felt overwhelmed when thousands of fans cheered her name.",
+        "I was overwhelmed because the lift went to the fifth floor.",
+        "The painter overwhelmed a pencil to draw a straight line.",
+        "The phone was overwhelmed blue because its screen was small."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：大量觀眾的歡呼讓歌手激動得難以承受。",
+        "錯誤：一般搭電梯上樓不會自然地表示「不知所措」，情境沒有交代強烈情緒。",
+        "錯誤：overwhelmed 不是畫線用的動詞。",
+        "錯誤：overwhelmed blue 的用法不自然，也不能用來表示螢幕小。"
+      ],
+      "explanation": "正確：大量觀眾的歡呼讓歌手激動得難以承受。"
+    },
+    {
+      "number": 6,
+      "word": "It is hard to tell",
+      "meaning": "很難判斷；不容易看出來",
+      "usage": "當資訊不足、不確定某件事的真相或結果時使用。",
+      "prompt": "哪一句正確使用「It is hard to tell」？",
+      "options": [
+        "It is hard to tell the meeting because it starts at noon.",
+        "It is hard to tell my suitcase when it weighs twelve kilos.",
+        "It is hard to tell who won because the race was so close.",
+        "It is hard to tell the door so I used a key."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：tell the meeting 不能表示「參加會議」。",
+        "錯誤：稱行李重量不說 tell my suitcase。",
+        "正確：比賽結果很接近，所以難以判斷誰贏。",
+        "錯誤：用鑰匙開門應說 unlock the door。"
+      ],
+      "explanation": "正確：比賽結果很接近，所以難以判斷誰贏。"
+    },
+    {
+      "number": 7,
+      "word": "If only",
+      "meaning": "要是……就好了（表達願望或遺憾）",
+      "usage": "想像與現況不同的情況，尤其是希望現況能改變時使用。",
+      "prompt": "哪一句正確使用「If only」？",
+      "options": [
+        "If only the museum opens at nine every Saturday.",
+        "If only I can bought a ticket yesterday.",
+        "If only I had more time, I could learn to play the piano.",
+        "If only the bus is red, it will arrive tomorrow."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：單純陳述固定開放時間，不適合用 if only 表達願望。",
+        "錯誤：can bought 不是正確動詞結構；過去遺憾可說 If only I had bought a ticket。",
+        "正確：用 if only 加過去式，表達目前希望有更多時間。",
+        "錯誤：這是一般條件句的想法，應用 if；不是 if only 的願望語氣。"
+      ],
+      "explanation": "正確：用 if only 加過去式，表達目前希望有更多時間。"
+    },
+    {
+      "number": 8,
+      "word": "Desperately",
+      "meaning": "非常迫切地；極度地",
+      "usage": "當一個人很急切地想得到某物、完成某事或獲得幫助時使用。",
+      "prompt": "哪一句正確使用「Desperately」？",
+      "options": [
+        "The artist desperately painted her canvas a light blue colour every Tuesday.",
+        "After losing his passport abroad, Ben desperately needed help.",
+        "We desperately arrived at the museum at exactly ten as planned.",
+        "She desperately her phone before the interview."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：只描述固定畫畫習慣，沒有迫切需要或強烈情緒。",
+        "正確：護照在國外遺失，急需幫助很符合 desperately 的意思。",
+        "錯誤：如期抵達不能自然地用 desperately 修飾。",
+        "錯誤：desperately 是副詞，不能直接當動詞。"
+      ],
+      "explanation": "正確：護照在國外遺失，急需幫助很符合 desperately 的意思。"
+    },
+    {
+      "number": 9,
+      "word": "Prove someone wrong",
+      "meaning": "證明某人的看法是錯的",
+      "usage": "當別人不相信你能做到某事，而你以事實或結果反駁時使用。",
+      "prompt": "哪一句正確使用「Prove someone wrong」？",
+      "options": [
+        "He proved his neighbour wrong by asking the time.",
+        "The chef proved the menu wrong by putting it near the window.",
+        "We proved the weather wrong by taking an umbrella.",
+        "People said Ava could not finish the marathon, but she proved them wrong."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：詢問時間並未提供證據證明對方看法錯誤。",
+        "錯誤：放菜單的位置不能證明菜單「錯了」。",
+        "錯誤：帶傘不會直接證明天氣預報錯誤；應指明錯誤的預測和實際結果。",
+        "正確：Ava 完成馬拉松，證明別人的預測不對。"
+      ],
+      "explanation": "正確：Ava 完成馬拉松，證明別人的預測不對。"
+    },
+    {
+      "number": 10,
+      "word": "Turn away",
+      "meaning": "轉過身去；拒絕讓某人進入",
+      "usage": "可指因害羞而把頭轉開，也可以指拒絕某人進入或參與。",
+      "prompt": "哪一句正確使用「Turn away」？",
+      "options": [
+        "The airport turned away my flight because I was excited.",
+        "The guard turned away visitors who did not have tickets.",
+        "She turned away her homework by writing every answer.",
+        "I turned away my favourite movie to watch it twice."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：不能用 turned away a flight 來表示乘客興奮。",
+        "正確：警衛拒絕沒有票的訪客入內。",
+        "錯誤：完成作業應用 finished；turn away 不是完成的意思。",
+        "錯誤：turn away 不是重看電影的意思。"
+      ],
+      "explanation": "正確：警衛拒絕沒有票的訪客入內。"
+    }
+  ],
+  "tags": [
+    "one direction",
+    "what makes you beautiful",
+    "confidence",
+    "love"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/what-makes-you-beautiful/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/what-makes-you-beautiful/user-cover-20261030.png",
+  "editorialRepairs": [
+    [
+      "what-makes-you-beautiful",
+      "standard",
+      8,
+      "Replace generic alternatives with target-specific audible phrases"
+    ],
+    [
+      "what-makes-you-beautiful",
+      "standard",
+      14,
+      "Replace generic alternatives with target-specific audible phrases"
+    ],
+    [
+      "what-makes-you-beautiful",
+      "medium",
+      11,
+      "Replace generic alternatives with target-specific audible phrases"
+    ],
+    [
+      "what-makes-you-beautiful",
+      "medium",
+      14,
+      "Replace generic alternatives with target-specific audible phrases"
+    ],
+    [
+      "what-makes-you-beautiful",
+      "medium",
+      21,
+      "Replace generic alternatives with target-specific audible phrases"
+    ],
+    [
+      "what-makes-you-beautiful",
+      "medium",
+      24,
+      "Replace generic alternatives with target-specific audible phrases"
+    ],
+    [
+      "what-makes-you-beautiful",
+      "hard",
+      14,
+      "Replace generic alternatives with target-specific audible phrases"
+    ],
+    [
+      "what-makes-you-beautiful",
+      "hard",
+      17,
+      "Replace generic alternatives with target-specific audible phrases"
+    ],
+    [
+      "what-makes-you-beautiful",
+      "hard",
+      25,
+      "Replace generic alternatives with target-specific audible phrases"
+    ],
+    [
+      "what-makes-you-beautiful",
+      "hard",
+      30,
+      "Replace generic alternatives with target-specific audible phrases"
+    ],
+    [
+      "what-makes-you-beautiful",
+      "hell",
+      17,
+      "Replace generic alternatives with target-specific audible phrases"
+    ],
+    [
+      "what-makes-you-beautiful",
+      "hell",
+      20,
+      "Replace generic alternatives with target-specific audible phrases"
+    ],
+    [
+      "what-makes-you-beautiful",
+      "hell",
+      28,
+      "Replace generic alternatives with target-specific audible phrases"
+    ],
+    [
+      "what-makes-you-beautiful",
+      "hell",
+      32,
+      "Replace generic alternatives with target-specific audible phrases"
+    ],
+    [
+      "what-makes-you-beautiful",
+      "hell",
+      37,
+      "Replace generic alternatives with target-specific audible phrases"
+    ]
+  ],
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 199.9866875,
+    "audioSha256": "36f6de0cde5d3886daedc1b402ba96f5256c1209621d27b4dca3a57c345deeca",
+    "timedLines": 56,
+    "untimedLines": 25,
+    "reviewStatus": "Conservative automatic line alignment. Unmatched/overlapping background lines remain bilingual without guessed timestamps; not a full manual timing certification."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_What Makes You Beautiful_.pdf",
+      "sha256": "8a8d384567c56ba8cedaa81937a74d04156195a634a55bb609e02a9b6d0c156d"
+    },
+    "chosenListening": {
+      "filename": "What_Makes_You_Beautiful_Four_Level_Listening_Exercise.docx",
+      "sha256": "2bbd4ce8a4b7d8fa13182913571db1b641a985859f6939e5616ae6df1bc7bdf8"
+    },
+    "chosenVocabulary": {
+      "filename": "What_Makes_You_Beautiful_Vocabulary_Quiz.md",
+      "sha256": "65550885d77d7a5c298e9ae82caec8daa895a4f0a15e6466d1bfcbf129811b08"
+    },
+    "mp3": {
+      "filename": "What Makes You Beautiful [d57qSDCxVA4].mp3",
+      "sha256": "36f6de0cde5d3886daedc1b402ba96f5256c1209621d27b4dca3a57c345deeca"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-4ccb0ca5-4155-47e5-bccc-a11da89b9a19.png",
+    "sha256": "78c34f55a342b5fc8e063a4324acf875a56ea4b2a9d1b4bd510bc90efabf2c9f",
+    "transformations": "none",
+    "selectedOn": "2026-10-30"
+  }
+}

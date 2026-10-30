@@ -1,0 +1,3436 @@
+{
+  "slug": "we-are-young",
+  "title": "We Are Young",
+  "singer": "fun. feat. Janelle Monáe",
+  "translations": [
+    {
+      "english": "Give me a second I",
+      "chinese": "給我一點時間，我……",
+      "lineId": "line-1",
+      "startSeconds": 7.78,
+      "endSeconds": 9.74
+    },
+    {
+      "english": "I need to get my story straight",
+      "chinese": "我得先把事情的來龍去脈理清楚",
+      "lineId": "line-2",
+      "startSeconds": 10.02,
+      "endSeconds": 12.18
+    },
+    {
+      "english": "My friends are in the bathroom getting higher than the Empire State",
+      "chinese": "我的朋友們正在洗手間裡，嗨得彷彿比帝國大廈還高",
+      "lineId": "line-3",
+      "startSeconds": 12.18,
+      "endSeconds": 16.34
+    },
+    {
+      "english": "My lover she's waiting for me just across the bar",
+      "chinese": "我的愛人，她正在酒吧的另一頭等著我",
+      "lineId": "line-4",
+      "startSeconds": 16.34,
+      "endSeconds": 19.82
+    },
+    {
+      "english": "My seat's been taken by some sunglasses asking 'bout a scar, and",
+      "chinese": "我的座位被一個戴墨鏡的傢伙佔了，他還問起那道傷疤，而……",
+      "lineId": "line-5",
+      "startSeconds": 19.82,
+      "endSeconds": 24.7
+    },
+    {
+      "english": "I know I gave it to you months ago",
+      "chinese": "我知道，那道傷是幾個月前我留給妳的",
+      "lineId": "line-6",
+      "startSeconds": 24.7,
+      "endSeconds": 27.68
+    },
+    {
+      "english": "I know you're trying to forget",
+      "chinese": "我知道，妳正努力想將那一切遺忘",
+      "lineId": "line-7",
+      "startSeconds": 28.7,
+      "endSeconds": 31.5
+    },
+    {
+      "english": "But between the drinks and subtle things",
+      "chinese": "可在酒精與那些難以言明的細微心事之間",
+      "lineId": "line-8",
+      "startSeconds": 31.5,
+      "endSeconds": 34.86
+    },
+    {
+      "english": "The holes in my apologies, you know",
+      "chinese": "還有我那些漏洞百出的道歉，妳知道的",
+      "lineId": "line-9",
+      "startSeconds": 34.86,
+      "endSeconds": 37.32
+    },
+    {
+      "english": "I'm trying hard to take it back",
+      "chinese": "我正竭盡所能，想收回當初造成的傷害",
+      "lineId": "line-10",
+      "startSeconds": 37.32,
+      "endSeconds": 40.06
+    },
+    {
+      "english": "So if by the time the bar closes",
+      "chinese": "所以，倘若到了酒吧打烊的時候",
+      "lineId": "line-11",
+      "startSeconds": 40.06,
+      "endSeconds": 43.28
+    },
+    {
+      "english": "And you feel like falling down",
+      "chinese": "妳已經疲憊得快要站不穩",
+      "lineId": "line-12",
+      "startSeconds": 43.28,
+      "endSeconds": 45.86
+    },
+    {
+      "english": "I'll carry you home",
+      "chinese": "我會帶妳回家",
+      "lineId": "line-13",
+      "startSeconds": 45.86,
+      "endSeconds": 48.7
+    },
+    {
+      "english": "Tonight",
+      "chinese": "就在今夜",
+      "lineId": "line-14",
+      "startSeconds": 48.7,
+      "endSeconds": 50.04
+    },
+    {
+      "english": "We are young",
+      "chinese": "我們正值青春年華",
+      "lineId": "line-15",
+      "startSeconds": 52.8,
+      "endSeconds": 55.68
+    },
+    {
+      "english": "So let's set the world on fire",
+      "chinese": "所以，讓我們點燃整個世界吧",
+      "lineId": "line-16",
+      "startSeconds": 57.3,
+      "endSeconds": 60.64
+    },
+    {
+      "english": "We can burn brighter than the sun",
+      "chinese": "讓我們燃燒得比太陽更加耀眼",
+      "lineId": "line-17",
+      "startSeconds": 60.64,
+      "endSeconds": 66.36
+    },
+    {
+      "english": "Tonight",
+      "chinese": "就在今夜",
+      "lineId": "line-18",
+      "startSeconds": 73.06,
+      "endSeconds": 73.86
+    },
+    {
+      "english": "We are young",
+      "chinese": "我們正值青春年華",
+      "lineId": "line-19",
+      "startSeconds": 73.86,
+      "endSeconds": 76.76
+    },
+    {
+      "english": "So let's set the world on fire",
+      "chinese": "所以，讓我們點燃整個世界吧",
+      "lineId": "line-20",
+      "startSeconds": 76.76,
+      "endSeconds": 81.64
+    },
+    {
+      "english": "We can burn brighter than the sun",
+      "chinese": "讓我們燃燒得比太陽更加耀眼",
+      "lineId": "line-21",
+      "startSeconds": 81.64,
+      "endSeconds": 88.08
+    },
+    {
+      "english": "Now I know that I'm not",
+      "chinese": "如今，我終於明白，我並不是",
+      "lineId": "line-22",
+      "startSeconds": 89.88,
+      "endSeconds": 93.02
+    },
+    {
+      "english": "All that you got",
+      "chinese": "妳生命中所擁有的一切",
+      "lineId": "line-23",
+      "startSeconds": 93.02,
+      "endSeconds": 95.88
+    },
+    {
+      "english": "I guess that I, I just thought",
+      "chinese": "我想，我……我只是曾經以為",
+      "lineId": "line-24"
+    },
+    {
+      "english": "Maybe we could find new ways to fall apart ",
+      "chinese": "或許我們還能找到另一種方式，讓彼此漸漸分離",
+      "lineId": "line-25",
+      "startSeconds": 98.56,
+      "endSeconds": 101.2
+    },
+    {
+      "english": "But our friends are back",
+      "chinese": "但我們的朋友都回來了",
+      "lineId": "line-26",
+      "startSeconds": 101.2,
+      "endSeconds": 103.42
+    },
+    {
+      "english": "So let's raise a toast",
+      "chinese": "所以，讓我們舉杯吧",
+      "lineId": "line-27"
+    },
+    {
+      "english": "'Cause I found someone to carry me home",
+      "chinese": "因為我終於找到了一個願意帶我回家的人",
+      "lineId": "line-28",
+      "startSeconds": 105.52,
+      "endSeconds": 110.44
+    },
+    {
+      "english": "Tonight",
+      "chinese": "就在今夜",
+      "lineId": "line-29",
+      "startSeconds": 110.44,
+      "endSeconds": 111.52
+    },
+    {
+      "english": "We are young",
+      "chinese": "我們正值青春年華",
+      "lineId": "line-30",
+      "startSeconds": 114.4,
+      "endSeconds": 117.54
+    },
+    {
+      "english": "So let's set the world on fire",
+      "chinese": "所以，讓我們點燃整個世界吧",
+      "lineId": "line-31",
+      "startSeconds": 118.96,
+      "endSeconds": 122.7
+    },
+    {
+      "english": "We can burn brighter than the sun",
+      "chinese": "讓我們燃燒得比太陽更加耀眼",
+      "lineId": "line-32",
+      "startSeconds": 122.7,
+      "endSeconds": 128.98
+    },
+    {
+      "english": "Tonight",
+      "chinese": "就在今夜",
+      "lineId": "line-33"
+    },
+    {
+      "english": "We are young",
+      "chinese": "我們正值青春年華",
+      "lineId": "line-34",
+      "startSeconds": 134.92,
+      "endSeconds": 138.56
+    },
+    {
+      "english": "So let's set the world on fire",
+      "chinese": "所以，讓我們點燃整個世界吧",
+      "lineId": "line-35",
+      "startSeconds": 138.56,
+      "endSeconds": 143.36
+    },
+    {
+      "english": "We can burn brighter than the sun",
+      "chinese": "讓我們燃燒得比太陽更加耀眼",
+      "lineId": "line-36",
+      "startSeconds": 143.36,
+      "endSeconds": 150.06
+    },
+    {
+      "english": "Carry me home tonight (Nananananana)",
+      "chinese": "今夜，帶我回家吧（啦啦啦啦啦）",
+      "lineId": "line-37"
+    },
+    {
+      "english": "Just carry me home tonight (Nananananana)",
+      "chinese": "今夜，只求有人能帶我回家（啦啦啦啦啦）",
+      "lineId": "line-38"
+    },
+    {
+      "english": "Carry me home tonight (Nananananana)",
+      "chinese": "今夜，帶我回家吧（啦啦啦啦啦）",
+      "lineId": "line-39"
+    },
+    {
+      "english": "Just carry me home tonight (Nananananana)",
+      "chinese": "今夜，只求有人能帶我回家（啦啦啦啦啦）",
+      "lineId": "line-40"
+    },
+    {
+      "english": "The moon is on my side (Nananananana)",
+      "chinese": "今夜，連月亮都站在我這一邊（啦啦啦啦啦）",
+      "lineId": "line-41"
+    },
+    {
+      "english": "I have no reason to run (Nananananana)",
+      "chinese": "我已沒有理由再逃避（啦啦啦啦啦）",
+      "lineId": "line-42"
+    },
+    {
+      "english": "So will someone come and carry me home tonight (Nananananana)",
+      "chinese": "所以，今夜會有人前來，帶我回家嗎？（啦啦啦啦啦）",
+      "lineId": "line-43"
+    },
+    {
+      "english": "The angels never arrived (Nananananana)",
+      "chinese": "天使始終沒有降臨（啦啦啦啦啦）",
+      "lineId": "line-44"
+    },
+    {
+      "english": "But I can hear the choir (Nananananana)",
+      "chinese": "但我仍能聽見合唱團的歌聲（啦啦啦啦啦）",
+      "lineId": "line-45"
+    },
+    {
+      "english": "So will someone come and carry me home (Nananananana)",
+      "chinese": "所以，會有人前來，帶我回家嗎？（啦啦啦啦啦）",
+      "lineId": "line-46"
+    },
+    {
+      "english": "Tonight",
+      "chinese": "就在今夜",
+      "lineId": "line-47",
+      "startSeconds": 193.98,
+      "endSeconds": 196.5
+    },
+    {
+      "english": "We are young",
+      "chinese": "我們正值青春年華",
+      "lineId": "line-48",
+      "startSeconds": 197.82,
+      "endSeconds": 201.52
+    },
+    {
+      "english": "So let's set the world on fire",
+      "chinese": "所以，讓我們點燃整個世界吧",
+      "lineId": "line-49",
+      "startSeconds": 202.06,
+      "endSeconds": 206.02
+    },
+    {
+      "english": "We can burn brighter than the sun",
+      "chinese": "讓我們燃燒得比太陽更加耀眼",
+      "lineId": "line-50",
+      "startSeconds": 206.02,
+      "endSeconds": 212.46
+    },
+    {
+      "english": "Tonight",
+      "chinese": "就在今夜",
+      "lineId": "line-51",
+      "startSeconds": 214.74,
+      "endSeconds": 216.14
+    },
+    {
+      "english": "We are young",
+      "chinese": "我們正值青春年華",
+      "lineId": "line-52",
+      "startSeconds": 219.02,
+      "endSeconds": 222.04
+    },
+    {
+      "english": "So let's set the world on fire",
+      "chinese": "所以，讓我們點燃整個世界吧",
+      "lineId": "line-53",
+      "startSeconds": 223.02,
+      "endSeconds": 226.86
+    },
+    {
+      "english": "We can burn brighter than the sun",
+      "chinese": "讓我們燃燒得比太陽更加耀眼",
+      "lineId": "line-54",
+      "startSeconds": 226.86,
+      "endSeconds": 233.2
+    },
+    {
+      "english": "So if by the time the bar closes",
+      "chinese": "所以，倘若到了酒吧打烊的時候",
+      "lineId": "line-55",
+      "startSeconds": 234.28,
+      "endSeconds": 238.14
+    },
+    {
+      "english": "And you feel like falling down",
+      "chinese": "妳已經疲憊得快要站不穩",
+      "lineId": "line-56",
+      "startSeconds": 238.14,
+      "endSeconds": 240.88
+    },
+    {
+      "english": "I'll carry you home tonight",
+      "chinese": "今夜，我會帶妳回家",
+      "lineId": "line-57",
+      "startSeconds": 240.88,
+      "endSeconds": 244.96
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "Give me a second",
+          "options": [
+            "Give me a second",
+            "Give me a minute",
+            "Give me a chance"
+          ],
+          "prompt": "{{blank}} I",
+          "promptZh": "給我一點時間，我……"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "getting higher",
+          "options": [
+            "getting louder",
+            "feeling better",
+            "getting higher"
+          ],
+          "prompt": "My friends are in the bathroom {{blank}} than the Empire State",
+          "promptZh": "我的朋友們正在洗手間裡，嗨得彷彿比帝國大廈還高"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-4",
+          "answer": "across the bar",
+          "options": [
+            "across the bar",
+            "outside the door",
+            "behind the stairs"
+          ],
+          "prompt": "My lover she's waiting for me just {{blank}}",
+          "promptZh": "我的愛人，她正在酒吧的另一頭等著我"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-6",
+          "answer": "months ago",
+          "options": [
+            "years before",
+            "months ago",
+            "days ago"
+          ],
+          "prompt": "I know I gave it to you {{blank}}",
+          "promptZh": "我知道，那道傷是幾個月前我留給妳的"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-8",
+          "answer": "between the drinks",
+          "options": [
+            "beneath the lights",
+            "behind the smiles",
+            "between the drinks"
+          ],
+          "prompt": "But {{blank}} and subtle things",
+          "promptZh": "可在酒精與那些難以言明的細微心事之間"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-11",
+          "answer": "the bar closes",
+          "options": [
+            "the sun rises",
+            "the night passes",
+            "the bar closes"
+          ],
+          "prompt": "So if by the time {{blank}}",
+          "promptZh": "所以，倘若到了酒吧打烊的時候"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-13",
+          "answer": "carry you home",
+          "options": [
+            "take you outside",
+            "carry you home",
+            "follow you there"
+          ],
+          "prompt": "I'll {{blank}}",
+          "promptZh": "我會帶妳回家"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-17",
+          "answer": "brighter than the sun",
+          "options": [
+            "faster than the wind",
+            "higher than the moon",
+            "brighter than the sun"
+          ],
+          "prompt": "We can burn {{blank}}",
+          "promptZh": "讓我們燃燒得比太陽更加耀眼"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-20",
+          "answer": "world on fire",
+          "options": [
+            "world on fire",
+            "sky on fire",
+            "night alive"
+          ],
+          "prompt": "So let's set the {{blank}}",
+          "promptZh": "所以，讓我們點燃整個世界吧"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-22",
+          "answer": "I'm not",
+          "options": [
+            "I am",
+            "I'm not",
+            "you're not"
+          ],
+          "prompt": "Now I know that {{blank}}",
+          "promptZh": "如今，我終於明白，我並不是"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-25",
+          "answer": "new ways to fall apart",
+          "options": [
+            "new ways to start again",
+            "new ways to fall apart",
+            "good reasons to stay apart"
+          ],
+          "prompt": "Maybe we could find {{blank}} ",
+          "promptZh": "或許我們還能找到另一種方式，讓彼此漸漸分離"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-27",
+          "answer": "raise a toast",
+          "options": [
+            "raise a toast",
+            "make a wish",
+            "sing a song"
+          ],
+          "prompt": "So let's {{blank}}",
+          "promptZh": "所以，讓我們舉杯吧"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-30",
+          "answer": "We are young",
+          "options": [
+            "We are brave",
+            "We are one",
+            "We are young"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我們正值青春年華"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-33",
+          "answer": "Tonight",
+          "options": [
+            "One day",
+            "This time",
+            "Tonight"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "就在今夜"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-35",
+          "answer": "the world on fire",
+          "options": [
+            "the sky alight",
+            "the world on fire",
+            "our hearts on fire"
+          ],
+          "prompt": "So let's set {{blank}}",
+          "promptZh": "所以，讓我們點燃整個世界吧"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-38",
+          "answer": "Just carry me home tonight",
+          "options": [
+            "Just carry me home tonight",
+            "Just leave me here tonight",
+            "Please take me home tomorrow"
+          ],
+          "prompt": "{{blank}} (Nananananana)",
+          "promptZh": "今夜，只求有人能帶我回家（啦啦啦啦啦）"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-40",
+          "answer": "Just carry me home tonight",
+          "options": [
+            "Just give me one more night",
+            "Just carry me home tonight",
+            "Please help me find my way"
+          ],
+          "prompt": "{{blank}} (Nananananana)",
+          "promptZh": "今夜，只求有人能帶我回家（啦啦啦啦啦）"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-43",
+          "answer": "someone come and carry me home",
+          "options": [
+            "someone stay and wait for me here",
+            "someone come and carry me home",
+            "anyone come and take me away"
+          ],
+          "prompt": "So will {{blank}} tonight (Nananananana)",
+          "promptZh": "所以，今夜會有人前來，帶我回家嗎？（啦啦啦啦啦）"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-45",
+          "answer": "hear the choir",
+          "options": [
+            "hear the choir",
+            "see the fire",
+            "feel the silence"
+          ],
+          "prompt": "But I can {{blank}} (Nananananana)",
+          "promptZh": "但我仍能聽見合唱團的歌聲（啦啦啦啦啦）"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-50",
+          "answer": "burn brighter than the sun",
+          "options": [
+            "burn brighter than the sun",
+            "shine brighter than the stars",
+            "run faster than the wind"
+          ],
+          "prompt": "We can {{blank}}",
+          "promptZh": "讓我們燃燒得比太陽更加耀眼"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} I"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I need to get my story straight"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "My friends are in the bathroom {{q:2}} than the Empire State"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "My lover she's waiting for me just {{q:3}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "My seat's been taken by some sunglasses asking 'bout a scar, and"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I know I gave it to you {{q:4}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I know you're trying to forget"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "But {{q:5}} and subtle things"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "The holes in my apologies, you know"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I'm trying hard to take it back"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "So if by the time {{q:6}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And you feel like falling down"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I'll {{q:7}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "We are young"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "So let's set the world on fire"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "We can burn {{q:8}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "We are young"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "So let's set the {{q:9}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "We can burn brighter than the sun"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Now I know that {{q:10}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "All that you got"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I guess that I, I just thought"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Maybe we could find {{q:11}} "
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "But our friends are back"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "So let's {{q:12}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "'Cause I found someone to carry me home"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:13}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "So let's set the world on fire"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "We can burn brighter than the sun"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:14}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "We are young"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "So let's set {{q:15}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "We can burn brighter than the sun"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Carry me home tonight (Nananananana)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:16}} (Nananananana)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Carry me home tonight (Nananananana)"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "{{q:17}} (Nananananana)"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "The moon is on my side (Nananananana)"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I have no reason to run (Nananananana)"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "So will {{q:18}} tonight (Nananananana)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "The angels never arrived (Nananananana)"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "But I can {{q:19}} (Nananananana)"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "So will someone come and carry me home (Nananananana)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "We are young"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "So let's set the world on fire"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "We can {{q:20}}"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "We are young"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "So let's set the world on fire"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "We can burn brighter than the sun"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "So if by the time the bar closes"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "And you feel like falling down"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "I'll carry you home tonight"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "Give me a second",
+          "options": [
+            "Give me a minute",
+            "Give me a second",
+            "Give me a chance"
+          ],
+          "prompt": "{{blank}} I",
+          "promptZh": "給我一點時間，我……"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "get my story straight",
+          "options": [
+            "make my story clear",
+            "tell my story first",
+            "get my story straight"
+          ],
+          "prompt": "I need to {{blank}}",
+          "promptZh": "我得先把事情的來龍去脈理清楚"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "in the bathroom",
+          "options": [
+            "at the counter",
+            "near the doorway",
+            "in the bathroom"
+          ],
+          "prompt": "My friends are {{blank}} getting higher than the Empire State",
+          "promptZh": "我的朋友們正在洗手間裡，嗨得彷彿比帝國大廈還高"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-3",
+          "answer": "getting higher",
+          "options": [
+            "getting higher",
+            "getting louder",
+            "feeling better"
+          ],
+          "prompt": "My friends are in the bathroom {{blank}} than the Empire State",
+          "promptZh": "我的朋友們正在洗手間裡，嗨得彷彿比帝國大廈還高"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-4",
+          "answer": "she's waiting for me",
+          "options": [
+            "she's looking for me",
+            "she's waiting for me",
+            "she's calling to me"
+          ],
+          "prompt": "My lover {{blank}} just across the bar",
+          "promptZh": "我的愛人，她正在酒吧的另一頭等著我"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-4",
+          "answer": "across the bar",
+          "options": [
+            "outside the door",
+            "behind the stairs",
+            "across the bar"
+          ],
+          "prompt": "My lover she's waiting for me just {{blank}}",
+          "promptZh": "我的愛人，她正在酒吧的另一頭等著我"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-5",
+          "answer": "My seat's been taken",
+          "options": [
+            "My coat has fallen",
+            "My seat's been taken",
+            "My drink is missing"
+          ],
+          "prompt": "{{blank}} by some sunglasses asking 'bout a scar, and",
+          "promptZh": "我的座位被一個戴墨鏡的傢伙佔了，他還問起那道傷疤，而……"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-5",
+          "answer": "asking 'bout a scar",
+          "options": [
+            "asking 'bout a scar",
+            "talking about a car",
+            "asking for a drink"
+          ],
+          "prompt": "My seat's been taken by some sunglasses {{blank}}, and",
+          "promptZh": "我的座位被一個戴墨鏡的傢伙佔了，他還問起那道傷疤，而……"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-6",
+          "answer": "months ago",
+          "options": [
+            "years before",
+            "days ago",
+            "months ago"
+          ],
+          "prompt": "I know I gave it to you {{blank}}",
+          "promptZh": "我知道，那道傷是幾個月前我留給妳的"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-7",
+          "answer": "trying to forget",
+          "options": [
+            "trying to forgive",
+            "trying to forget",
+            "learning to regret"
+          ],
+          "prompt": "I know you're {{blank}}",
+          "promptZh": "我知道，妳正努力想將那一切遺忘"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-8",
+          "answer": "between the drinks",
+          "options": [
+            "between the drinks",
+            "beneath the lights",
+            "behind the smiles"
+          ],
+          "prompt": "But {{blank}} and subtle things",
+          "promptZh": "可在酒精與那些難以言明的細微心事之間"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-9",
+          "answer": "holes in my apologies",
+          "options": [
+            "truth in my memories",
+            "holes in my apologies",
+            "words in my promises"
+          ],
+          "prompt": "The {{blank}}, you know",
+          "promptZh": "還有我那些漏洞百出的道歉，妳知道的"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-10",
+          "answer": "take it back",
+          "options": [
+            "make it right",
+            "let it go",
+            "take it back"
+          ],
+          "prompt": "I'm trying hard to {{blank}}",
+          "promptZh": "我正竭盡所能，想收回當初造成的傷害"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-11",
+          "answer": "the bar closes",
+          "options": [
+            "the bar closes",
+            "the sun rises",
+            "the night passes"
+          ],
+          "prompt": "So if by the time {{blank}}",
+          "promptZh": "所以，倘若到了酒吧打烊的時候"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-12",
+          "answer": "falling down",
+          "options": [
+            "running away",
+            "falling down",
+            "breaking free"
+          ],
+          "prompt": "And you feel like {{blank}}",
+          "promptZh": "妳已經疲憊得快要站不穩"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-13",
+          "answer": "carry you home",
+          "options": [
+            "carry you home",
+            "take you outside",
+            "follow you there"
+          ],
+          "prompt": "I'll {{blank}}",
+          "promptZh": "我會帶妳回家"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-15",
+          "answer": "We are young",
+          "options": [
+            "We are strong",
+            "We are young",
+            "We belong"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我們正值青春年華"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-16",
+          "answer": "set the world on fire",
+          "options": [
+            "set the world on fire",
+            "turn the lights up higher",
+            "make the whole world brighter"
+          ],
+          "prompt": "So let's {{blank}}",
+          "promptZh": "所以，讓我們點燃整個世界吧"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-17",
+          "answer": "brighter than the sun",
+          "options": [
+            "faster than the wind",
+            "higher than the moon",
+            "brighter than the sun"
+          ],
+          "prompt": "We can burn {{blank}}",
+          "promptZh": "讓我們燃燒得比太陽更加耀眼"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-18",
+          "answer": "Tonight",
+          "options": [
+            "Someday",
+            "Tomorrow",
+            "Tonight"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "就在今夜"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-20",
+          "answer": "world on fire",
+          "options": [
+            "world on fire",
+            "sky on fire",
+            "night alive"
+          ],
+          "prompt": "So let's set the {{blank}}",
+          "promptZh": "所以，讓我們點燃整個世界吧"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-22",
+          "answer": "I'm not",
+          "options": [
+            "I'm not",
+            "I am",
+            "you're not"
+          ],
+          "prompt": "Now I know that {{blank}}",
+          "promptZh": "如今，我終於明白，我並不是"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-25",
+          "answer": "new ways to fall apart",
+          "options": [
+            "new ways to start again",
+            "new ways to fall apart",
+            "good reasons to stay apart"
+          ],
+          "prompt": "Maybe we could find {{blank}} ",
+          "promptZh": "或許我們還能找到另一種方式，讓彼此漸漸分離"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-27",
+          "answer": "raise a toast",
+          "options": [
+            "make a wish",
+            "raise a toast",
+            "sing a song"
+          ],
+          "prompt": "So let's {{blank}}",
+          "promptZh": "所以，讓我們舉杯吧"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-30",
+          "answer": "We are young",
+          "options": [
+            "We are brave",
+            "We are one",
+            "We are young"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我們正值青春年華"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-33",
+          "answer": "Tonight",
+          "options": [
+            "One day",
+            "This time",
+            "Tonight"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "就在今夜"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-35",
+          "answer": "the world on fire",
+          "options": [
+            "the world on fire",
+            "the sky alight",
+            "our hearts on fire"
+          ],
+          "prompt": "So let's set {{blank}}",
+          "promptZh": "所以，讓我們點燃整個世界吧"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-38",
+          "answer": "Just carry me home tonight",
+          "options": [
+            "Just leave me here tonight",
+            "Just carry me home tonight",
+            "Please take me home tomorrow"
+          ],
+          "prompt": "{{blank}} (Nananananana)",
+          "promptZh": "今夜，只求有人能帶我回家（啦啦啦啦啦）"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-40",
+          "answer": "Just carry me home tonight",
+          "options": [
+            "Just carry me home tonight",
+            "Just give me one more night",
+            "Please help me find my way"
+          ],
+          "prompt": "{{blank}} (Nananananana)",
+          "promptZh": "今夜，只求有人能帶我回家（啦啦啦啦啦）"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-43",
+          "answer": "someone come and carry me home",
+          "options": [
+            "someone stay and wait for me here",
+            "someone come and carry me home",
+            "anyone come and take me away"
+          ],
+          "prompt": "So will {{blank}} tonight (Nananananana)",
+          "promptZh": "所以，今夜會有人前來，帶我回家嗎？（啦啦啦啦啦）"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-45",
+          "answer": "hear the choir",
+          "options": [
+            "see the fire",
+            "feel the silence",
+            "hear the choir"
+          ],
+          "prompt": "But I can {{blank}} (Nananananana)",
+          "promptZh": "但我仍能聽見合唱團的歌聲（啦啦啦啦啦）"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-50",
+          "answer": "burn brighter than the sun",
+          "options": [
+            "burn brighter than the sun",
+            "shine brighter than the stars",
+            "run faster than the wind"
+          ],
+          "prompt": "We can {{blank}}",
+          "promptZh": "讓我們燃燒得比太陽更加耀眼"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} I"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I need to {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "My friends are {{q:3}} {{q:4}} than the Empire State"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "My lover {{q:5}} just {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}} by some sunglasses {{q:8}}, and"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I know I gave it to you {{q:9}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I know you're {{q:10}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "But {{q:11}} and subtle things"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "The {{q:12}}, you know"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I'm trying hard to {{q:13}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "So if by the time {{q:14}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And you feel like {{q:15}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I'll {{q:16}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "So let's {{q:18}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "We can burn {{q:19}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "We are young"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "So let's set the {{q:21}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "We can burn brighter than the sun"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Now I know that {{q:22}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "All that you got"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I guess that I, I just thought"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Maybe we could find {{q:23}} "
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "But our friends are back"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "So let's {{q:24}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "'Cause I found someone to carry me home"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "So let's set the world on fire"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "We can burn brighter than the sun"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:26}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "We are young"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "So let's set {{q:27}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "We can burn brighter than the sun"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Carry me home tonight (Nananananana)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:28}} (Nananananana)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Carry me home tonight (Nananananana)"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "{{q:29}} (Nananananana)"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "The moon is on my side (Nananananana)"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I have no reason to run (Nananananana)"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "So will {{q:30}} tonight (Nananananana)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "The angels never arrived (Nananananana)"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "But I can {{q:31}} (Nananananana)"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "So will someone come and carry me home (Nananananana)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "We are young"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "So let's set the world on fire"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "We can {{q:32}}"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "We are young"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "So let's set the world on fire"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "We can burn brighter than the sun"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "So if by the time the bar closes"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "And you feel like falling down"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "I'll carry you home tonight"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "Give me a second",
+          "options": [
+            "Give me a minute",
+            "Give me a chance",
+            "Give me a second"
+          ],
+          "prompt": "{{blank}} I",
+          "promptZh": "給我一點時間，我……"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "get my story straight",
+          "options": [
+            "make my story clear",
+            "tell my story first",
+            "get my story straight"
+          ],
+          "prompt": "I need to {{blank}}",
+          "promptZh": "我得先把事情的來龍去脈理清楚"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "in the bathroom",
+          "options": [
+            "in the bathroom",
+            "at the counter",
+            "near the doorway"
+          ],
+          "prompt": "My friends are {{blank}} getting higher than the Empire State",
+          "promptZh": "我的朋友們正在洗手間裡，嗨得彷彿比帝國大廈還高"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-3",
+          "answer": "getting higher",
+          "options": [
+            "getting higher",
+            "getting louder",
+            "feeling better"
+          ],
+          "prompt": "My friends are in the bathroom {{blank}} than the Empire State",
+          "promptZh": "我的朋友們正在洗手間裡，嗨得彷彿比帝國大廈還高"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-4",
+          "answer": "she's waiting for me",
+          "options": [
+            "she's looking for me",
+            "she's waiting for me",
+            "she's calling to me"
+          ],
+          "prompt": "My lover {{blank}} just across the bar",
+          "promptZh": "我的愛人，她正在酒吧的另一頭等著我"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-4",
+          "answer": "across the bar",
+          "options": [
+            "outside the door",
+            "behind the stairs",
+            "across the bar"
+          ],
+          "prompt": "My lover she's waiting for me just {{blank}}",
+          "promptZh": "我的愛人，她正在酒吧的另一頭等著我"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-5",
+          "answer": "My seat's been taken",
+          "options": [
+            "My seat's been taken",
+            "My coat has fallen",
+            "My drink is missing"
+          ],
+          "prompt": "{{blank}} by some sunglasses asking 'bout a scar, and",
+          "promptZh": "我的座位被一個戴墨鏡的傢伙佔了，他還問起那道傷疤，而……"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-5",
+          "answer": "asking 'bout a scar",
+          "options": [
+            "talking about a car",
+            "asking for a drink",
+            "asking 'bout a scar"
+          ],
+          "prompt": "My seat's been taken by some sunglasses {{blank}}, and",
+          "promptZh": "我的座位被一個戴墨鏡的傢伙佔了，他還問起那道傷疤，而……"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-6",
+          "answer": "months ago",
+          "options": [
+            "years before",
+            "months ago",
+            "days ago"
+          ],
+          "prompt": "I know I gave it to you {{blank}}",
+          "promptZh": "我知道，那道傷是幾個月前我留給妳的"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-7",
+          "answer": "trying to forget",
+          "options": [
+            "trying to forget",
+            "trying to forgive",
+            "learning to regret"
+          ],
+          "prompt": "I know you're {{blank}}",
+          "promptZh": "我知道，妳正努力想將那一切遺忘"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-8",
+          "answer": "between the drinks",
+          "options": [
+            "between the drinks",
+            "beneath the lights",
+            "behind the smiles"
+          ],
+          "prompt": "But {{blank}} and subtle things",
+          "promptZh": "可在酒精與那些難以言明的細微心事之間"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-9",
+          "answer": "holes in my apologies",
+          "options": [
+            "truth in my memories",
+            "holes in my apologies",
+            "words in my promises"
+          ],
+          "prompt": "The {{blank}}, you know",
+          "promptZh": "還有我那些漏洞百出的道歉，妳知道的"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-10",
+          "answer": "take it back",
+          "options": [
+            "take it back",
+            "make it right",
+            "let it go"
+          ],
+          "prompt": "I'm trying hard to {{blank}}",
+          "promptZh": "我正竭盡所能，想收回當初造成的傷害"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-11",
+          "answer": "the bar closes",
+          "options": [
+            "the bar closes",
+            "the sun rises",
+            "the night passes"
+          ],
+          "prompt": "So if by the time {{blank}}",
+          "promptZh": "所以，倘若到了酒吧打烊的時候"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-12",
+          "answer": "falling down",
+          "options": [
+            "running away",
+            "falling down",
+            "breaking free"
+          ],
+          "prompt": "And you feel like {{blank}}",
+          "promptZh": "妳已經疲憊得快要站不穩"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-13",
+          "answer": "carry you home",
+          "options": [
+            "carry you home",
+            "take you outside",
+            "follow you there"
+          ],
+          "prompt": "I'll {{blank}}",
+          "promptZh": "我會帶妳回家"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-15",
+          "answer": "We are young",
+          "options": [
+            "We are strong",
+            "We belong",
+            "We are young"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我們正值青春年華"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-16",
+          "answer": "set the world on fire",
+          "options": [
+            "set the world on fire",
+            "turn the lights up higher",
+            "make the whole world brighter"
+          ],
+          "prompt": "So let's {{blank}}",
+          "promptZh": "所以，讓我們點燃整個世界吧"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-17",
+          "answer": "brighter than the sun",
+          "options": [
+            "faster than the wind",
+            "brighter than the sun",
+            "higher than the moon"
+          ],
+          "prompt": "We can burn {{blank}}",
+          "promptZh": "讓我們燃燒得比太陽更加耀眼"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-18",
+          "answer": "Tonight",
+          "options": [
+            "Someday",
+            "Tomorrow",
+            "Tonight"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "就在今夜"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-19",
+          "answer": "We are young",
+          "options": [
+            "We are free",
+            "We are young",
+            "We are lost"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我們正值青春年華"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-20",
+          "answer": "world on fire",
+          "options": [
+            "world on fire",
+            "sky on fire",
+            "night alive"
+          ],
+          "prompt": "So let's set the {{blank}}",
+          "promptZh": "所以，讓我們點燃整個世界吧"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-21",
+          "answer": "burn brighter",
+          "options": [
+            "shine longer",
+            "rise higher",
+            "burn brighter"
+          ],
+          "prompt": "We can {{blank}} than the sun",
+          "promptZh": "讓我們燃燒得比太陽更加耀眼"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-22",
+          "answer": "I'm not",
+          "options": [
+            "I'm not",
+            "I am",
+            "you're not"
+          ],
+          "prompt": "Now I know that {{blank}}",
+          "promptZh": "如今，我終於明白，我並不是"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-23",
+          "answer": "All that you got",
+          "options": [
+            "All that you need",
+            "Everything you lost",
+            "All that you got"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳生命中所擁有的一切"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-24",
+          "answer": "I just thought",
+          "options": [
+            "I once hoped",
+            "I just thought",
+            "I always knew"
+          ],
+          "prompt": "I guess that I, {{blank}}",
+          "promptZh": "我想，我……我只是曾經以為"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-25",
+          "answer": "new ways to fall apart",
+          "options": [
+            "new ways to start again",
+            "new ways to fall apart",
+            "good reasons to stay apart"
+          ],
+          "prompt": "Maybe we could find {{blank}} ",
+          "promptZh": "或許我們還能找到另一種方式，讓彼此漸漸分離"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-26",
+          "answer": "friends are back",
+          "options": [
+            "friends are back",
+            "friends have gone",
+            "dreams are gone"
+          ],
+          "prompt": "But our {{blank}}",
+          "promptZh": "但我們的朋友都回來了"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-27",
+          "answer": "raise a toast",
+          "options": [
+            "make a wish",
+            "sing a song",
+            "raise a toast"
+          ],
+          "prompt": "So let's {{blank}}",
+          "promptZh": "所以，讓我們舉杯吧"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-28",
+          "answer": "someone to carry me home",
+          "options": [
+            "someone to hold me tonight",
+            "someone to carry me home",
+            "somewhere to stay till dawn"
+          ],
+          "prompt": "'Cause I found {{blank}}",
+          "promptZh": "因為我終於找到了一個願意帶我回家的人"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-29",
+          "answer": "Tonight",
+          "options": [
+            "Tomorrow",
+            "This morning",
+            "Tonight"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "就在今夜"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-30",
+          "answer": "We are young",
+          "options": [
+            "We are brave",
+            "We are one",
+            "We are young"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我們正值青春年華"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-31",
+          "answer": "set the world on fire",
+          "options": [
+            "take the world by storm",
+            "set the world on fire",
+            "make the night last longer"
+          ],
+          "prompt": "So let's {{blank}}",
+          "promptZh": "所以，讓我們點燃整個世界吧"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-33",
+          "answer": "Tonight",
+          "options": [
+            "One day",
+            "Tonight",
+            "This time"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "就在今夜"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-35",
+          "answer": "the world on fire",
+          "options": [
+            "the sky alight",
+            "our hearts on fire",
+            "the world on fire"
+          ],
+          "prompt": "So let's set {{blank}}",
+          "promptZh": "所以，讓我們點燃整個世界吧"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-38",
+          "answer": "Just carry me home tonight",
+          "options": [
+            "Just carry me home tonight",
+            "Just leave me here tonight",
+            "Please take me home tomorrow"
+          ],
+          "prompt": "{{blank}} (Nananananana)",
+          "promptZh": "今夜，只求有人能帶我回家（啦啦啦啦啦）"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-40",
+          "answer": "Just carry me home tonight",
+          "options": [
+            "Just give me one more night",
+            "Just carry me home tonight",
+            "Please help me find my way"
+          ],
+          "prompt": "{{blank}} (Nananananana)",
+          "promptZh": "今夜，只求有人能帶我回家（啦啦啦啦啦）"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-43",
+          "answer": "someone come and carry me home",
+          "options": [
+            "someone stay and wait for me here",
+            "someone come and carry me home",
+            "anyone come and take me away"
+          ],
+          "prompt": "So will {{blank}} tonight (Nananananana)",
+          "promptZh": "所以，今夜會有人前來，帶我回家嗎？（啦啦啦啦啦）"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-45",
+          "answer": "hear the choir",
+          "options": [
+            "see the fire",
+            "feel the silence",
+            "hear the choir"
+          ],
+          "prompt": "But I can {{blank}} (Nananananana)",
+          "promptZh": "但我仍能聽見合唱團的歌聲（啦啦啦啦啦）"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-50",
+          "answer": "burn brighter than the sun",
+          "options": [
+            "burn brighter than the sun",
+            "shine brighter than the stars",
+            "run faster than the wind"
+          ],
+          "prompt": "We can {{blank}}",
+          "promptZh": "讓我們燃燒得比太陽更加耀眼"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} I"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I need to {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "My friends are {{q:3}} {{q:4}} than the Empire State"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "My lover {{q:5}} just {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}} by some sunglasses {{q:8}}, and"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I know I gave it to you {{q:9}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I know you're {{q:10}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "But {{q:11}} and subtle things"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "The {{q:12}}, you know"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I'm trying hard to {{q:13}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "So if by the time {{q:14}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And you feel like {{q:15}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I'll {{q:16}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "So let's {{q:18}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "We can burn {{q:19}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:21}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "So let's set the {{q:22}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "We can {{q:23}} than the sun"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Now I know that {{q:24}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I guess that I, {{q:26}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Maybe we could find {{q:27}} "
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "But our {{q:28}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "So let's {{q:29}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "'Cause I found {{q:30}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:31}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "So let's {{q:33}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "We can burn brighter than the sun"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:34}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "We are young"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "So let's set {{q:35}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "We can burn brighter than the sun"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Carry me home tonight (Nananananana)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:36}} (Nananananana)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Carry me home tonight (Nananananana)"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "{{q:37}} (Nananananana)"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "The moon is on my side (Nananananana)"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I have no reason to run (Nananananana)"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "So will {{q:38}} tonight (Nananananana)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "The angels never arrived (Nananananana)"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "But I can {{q:39}} (Nananananana)"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "So will someone come and carry me home (Nananananana)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "We are young"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "So let's set the world on fire"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "We can {{q:40}}"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "We are young"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "So let's set the world on fire"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "We can burn brighter than the sun"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "So if by the time the bar closes"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "And you feel like falling down"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "I'll carry you home tonight"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "Give me a second",
+          "options": [
+            "Give me a second",
+            "Give me a minute",
+            "Give me a chance"
+          ],
+          "prompt": "{{blank}} I",
+          "promptZh": "給我一點時間，我……"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "get my story straight",
+          "options": [
+            "make my story clear",
+            "tell my story first",
+            "get my story straight"
+          ],
+          "prompt": "I need to {{blank}}",
+          "promptZh": "我得先把事情的來龍去脈理清楚"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "in the bathroom",
+          "options": [
+            "at the counter",
+            "in the bathroom",
+            "near the doorway"
+          ],
+          "prompt": "My friends are {{blank}} getting higher than the Empire State",
+          "promptZh": "我的朋友們正在洗手間裡，嗨得彷彿比帝國大廈還高"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-3",
+          "answer": "getting higher",
+          "options": [
+            "getting higher",
+            "getting louder",
+            "feeling better"
+          ],
+          "prompt": "My friends are in the bathroom {{blank}} than the Empire State",
+          "promptZh": "我的朋友們正在洗手間裡，嗨得彷彿比帝國大廈還高"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-4",
+          "answer": "she's waiting for me",
+          "options": [
+            "she's waiting for me",
+            "she's looking for me",
+            "she's calling to me"
+          ],
+          "prompt": "My lover {{blank}} just across the bar",
+          "promptZh": "我的愛人，她正在酒吧的另一頭等著我"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-4",
+          "answer": "across the bar",
+          "options": [
+            "outside the door",
+            "across the bar",
+            "behind the stairs"
+          ],
+          "prompt": "My lover she's waiting for me just {{blank}}",
+          "promptZh": "我的愛人，她正在酒吧的另一頭等著我"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-5",
+          "answer": "My seat's been taken",
+          "options": [
+            "My coat has fallen",
+            "My drink is missing",
+            "My seat's been taken"
+          ],
+          "prompt": "{{blank}} by some sunglasses asking 'bout a scar, and",
+          "promptZh": "我的座位被一個戴墨鏡的傢伙佔了，他還問起那道傷疤，而……"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-5",
+          "answer": "asking 'bout a scar",
+          "options": [
+            "talking about a car",
+            "asking 'bout a scar",
+            "asking for a drink"
+          ],
+          "prompt": "My seat's been taken by some sunglasses {{blank}}, and",
+          "promptZh": "我的座位被一個戴墨鏡的傢伙佔了，他還問起那道傷疤，而……"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-6",
+          "answer": "months ago",
+          "options": [
+            "years before",
+            "months ago",
+            "days ago"
+          ],
+          "prompt": "I know I gave it to you {{blank}}",
+          "promptZh": "我知道，那道傷是幾個月前我留給妳的"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-7",
+          "answer": "trying to forget",
+          "options": [
+            "trying to forget",
+            "trying to forgive",
+            "learning to regret"
+          ],
+          "prompt": "I know you're {{blank}}",
+          "promptZh": "我知道，妳正努力想將那一切遺忘"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-8",
+          "answer": "between the drinks",
+          "options": [
+            "beneath the lights",
+            "between the drinks",
+            "behind the smiles"
+          ],
+          "prompt": "But {{blank}} and subtle things",
+          "promptZh": "可在酒精與那些難以言明的細微心事之間"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-9",
+          "answer": "holes in my apologies",
+          "options": [
+            "truth in my memories",
+            "words in my promises",
+            "holes in my apologies"
+          ],
+          "prompt": "The {{blank}}, you know",
+          "promptZh": "還有我那些漏洞百出的道歉，妳知道的"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-10",
+          "answer": "take it back",
+          "options": [
+            "take it back",
+            "make it right",
+            "let it go"
+          ],
+          "prompt": "I'm trying hard to {{blank}}",
+          "promptZh": "我正竭盡所能，想收回當初造成的傷害"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-11",
+          "answer": "the bar closes",
+          "options": [
+            "the sun rises",
+            "the night passes",
+            "the bar closes"
+          ],
+          "prompt": "So if by the time {{blank}}",
+          "promptZh": "所以，倘若到了酒吧打烊的時候"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-12",
+          "answer": "falling down",
+          "options": [
+            "running away",
+            "breaking free",
+            "falling down"
+          ],
+          "prompt": "And you feel like {{blank}}",
+          "promptZh": "妳已經疲憊得快要站不穩"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-13",
+          "answer": "carry you home",
+          "options": [
+            "take you outside",
+            "carry you home",
+            "follow you there"
+          ],
+          "prompt": "I'll {{blank}}",
+          "promptZh": "我會帶妳回家"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-15",
+          "answer": "We are young",
+          "options": [
+            "We are young",
+            "We are strong",
+            "We belong"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我們正值青春年華"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-16",
+          "answer": "set the world on fire",
+          "options": [
+            "turn the lights up higher",
+            "set the world on fire",
+            "make the whole world brighter"
+          ],
+          "prompt": "So let's {{blank}}",
+          "promptZh": "所以，讓我們點燃整個世界吧"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-17",
+          "answer": "brighter than the sun",
+          "options": [
+            "brighter than the sun",
+            "faster than the wind",
+            "higher than the moon"
+          ],
+          "prompt": "We can burn {{blank}}",
+          "promptZh": "讓我們燃燒得比太陽更加耀眼"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-18",
+          "answer": "Tonight",
+          "options": [
+            "Someday",
+            "Tonight",
+            "Tomorrow"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "就在今夜"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-19",
+          "answer": "We are young",
+          "options": [
+            "We are free",
+            "We are lost",
+            "We are young"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我們正值青春年華"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-20",
+          "answer": "world on fire",
+          "options": [
+            "sky on fire",
+            "night alive",
+            "world on fire"
+          ],
+          "prompt": "So let's set the {{blank}}",
+          "promptZh": "所以，讓我們點燃整個世界吧"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-21",
+          "answer": "burn brighter",
+          "options": [
+            "burn brighter",
+            "shine longer",
+            "rise higher"
+          ],
+          "prompt": "We can {{blank}} than the sun",
+          "promptZh": "讓我們燃燒得比太陽更加耀眼"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-22",
+          "answer": "I'm not",
+          "options": [
+            "I am",
+            "I'm not",
+            "you're not"
+          ],
+          "prompt": "Now I know that {{blank}}",
+          "promptZh": "如今，我終於明白，我並不是"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-23",
+          "answer": "All that you got",
+          "options": [
+            "All that you need",
+            "Everything you lost",
+            "All that you got"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳生命中所擁有的一切"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-24",
+          "answer": "I just thought",
+          "options": [
+            "I just thought",
+            "I once hoped",
+            "I always knew"
+          ],
+          "prompt": "I guess that I, {{blank}}",
+          "promptZh": "我想，我……我只是曾經以為"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-25",
+          "answer": "new ways to fall apart",
+          "options": [
+            "new ways to start again",
+            "good reasons to stay apart",
+            "new ways to fall apart"
+          ],
+          "prompt": "Maybe we could find {{blank}} ",
+          "promptZh": "或許我們還能找到另一種方式，讓彼此漸漸分離"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-26",
+          "answer": "friends are back",
+          "options": [
+            "friends have gone",
+            "friends are back",
+            "dreams are gone"
+          ],
+          "prompt": "But our {{blank}}",
+          "promptZh": "但我們的朋友都回來了"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-27",
+          "answer": "raise a toast",
+          "options": [
+            "raise a toast",
+            "make a wish",
+            "sing a song"
+          ],
+          "prompt": "So let's {{blank}}",
+          "promptZh": "所以，讓我們舉杯吧"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-28",
+          "answer": "someone to carry me home",
+          "options": [
+            "someone to hold me tonight",
+            "someone to carry me home",
+            "somewhere to stay till dawn"
+          ],
+          "prompt": "'Cause I found {{blank}}",
+          "promptZh": "因為我終於找到了一個願意帶我回家的人"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-29",
+          "answer": "Tonight",
+          "options": [
+            "Tomorrow",
+            "Tonight",
+            "This morning"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "就在今夜"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-30",
+          "answer": "We are young",
+          "options": [
+            "We are brave",
+            "We are one",
+            "We are young"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我們正值青春年華"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-31",
+          "answer": "set the world on fire",
+          "options": [
+            "take the world by storm",
+            "set the world on fire",
+            "make the night last longer"
+          ],
+          "prompt": "So let's {{blank}}",
+          "promptZh": "所以，讓我們點燃整個世界吧"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-32",
+          "answer": "brighter than the sun",
+          "options": [
+            "higher than the stars",
+            "louder than the crowd",
+            "brighter than the sun"
+          ],
+          "prompt": "We can burn {{blank}}",
+          "promptZh": "讓我們燃燒得比太陽更加耀眼"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-33",
+          "answer": "Tonight",
+          "options": [
+            "One day",
+            "Tonight",
+            "This time"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "就在今夜"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-34",
+          "answer": "We are young",
+          "options": [
+            "We are here",
+            "We are strong",
+            "We are young"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我們正值青春年華"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-35",
+          "answer": "the world on fire",
+          "options": [
+            "the world on fire",
+            "the sky alight",
+            "our hearts on fire"
+          ],
+          "prompt": "So let's set {{blank}}",
+          "promptZh": "所以，讓我們點燃整個世界吧"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-36",
+          "answer": "than the sun",
+          "options": [
+            "than the moon",
+            "than the stars",
+            "than the sun"
+          ],
+          "prompt": "We can burn brighter {{blank}}",
+          "promptZh": "讓我們燃燒得比太陽更加耀眼"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-37",
+          "answer": "Carry me home tonight",
+          "options": [
+            "Carry me home tonight",
+            "Take me away tonight",
+            "Bring me back tomorrow"
+          ],
+          "prompt": "{{blank}} (Nananananana)",
+          "promptZh": "今夜，帶我回家吧（啦啦啦啦啦）"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-38",
+          "answer": "Just carry me home tonight",
+          "options": [
+            "Just leave me here tonight",
+            "Please take me home tomorrow",
+            "Just carry me home tonight"
+          ],
+          "prompt": "{{blank}} (Nananananana)",
+          "promptZh": "今夜，只求有人能帶我回家（啦啦啦啦啦）"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-39",
+          "answer": "Carry me home tonight",
+          "options": [
+            "Follow me home tonight",
+            "Carry me home tonight",
+            "Let me go home alone"
+          ],
+          "prompt": "{{blank}} (Nananananana)",
+          "promptZh": "今夜，帶我回家吧（啦啦啦啦啦）"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-40",
+          "answer": "Just carry me home tonight",
+          "options": [
+            "Just carry me home tonight",
+            "Just give me one more night",
+            "Please help me find my way"
+          ],
+          "prompt": "{{blank}} (Nananananana)",
+          "promptZh": "今夜，只求有人能帶我回家（啦啦啦啦啦）"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-41",
+          "answer": "moon is on my side",
+          "options": [
+            "stars are in my eyes",
+            "moon is on my side",
+            "sun is on its way"
+          ],
+          "prompt": "The {{blank}} (Nananananana)",
+          "promptZh": "今夜，連月亮都站在我這一邊（啦啦啦啦啦）"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-42",
+          "answer": "no reason to run",
+          "options": [
+            "no place left to hide",
+            "no reason to stay",
+            "no reason to run"
+          ],
+          "prompt": "I have {{blank}} (Nananananana)",
+          "promptZh": "我已沒有理由再逃避（啦啦啦啦啦）"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-43",
+          "answer": "someone come and carry me home",
+          "options": [
+            "someone come and carry me home",
+            "someone stay and wait for me here",
+            "anyone come and take me away"
+          ],
+          "prompt": "So will {{blank}} tonight (Nananananana)",
+          "promptZh": "所以，今夜會有人前來，帶我回家嗎？（啦啦啦啦啦）"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-44",
+          "answer": "angels never arrived",
+          "options": [
+            "angels never arrived",
+            "people never returned",
+            "dreamers never survived"
+          ],
+          "prompt": "The {{blank}} (Nananananana)",
+          "promptZh": "天使始終沒有降臨（啦啦啦啦啦）"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-45",
+          "answer": "hear the choir",
+          "options": [
+            "see the fire",
+            "hear the choir",
+            "feel the silence"
+          ],
+          "prompt": "But I can {{blank}} (Nananananana)",
+          "promptZh": "但我仍能聽見合唱團的歌聲（啦啦啦啦啦）"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-46",
+          "answer": "someone come and carry me home",
+          "options": [
+            "someone stay and listen to me",
+            "someone wait and call me back",
+            "someone come and carry me home"
+          ],
+          "prompt": "So will {{blank}} (Nananananana)",
+          "promptZh": "所以，會有人前來，帶我回家嗎？（啦啦啦啦啦）"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-49",
+          "answer": "set the world on fire",
+          "options": [
+            "set the world on fire",
+            "paint the sky with color",
+            "turn the lights up higher"
+          ],
+          "prompt": "So let's {{blank}}",
+          "promptZh": "所以，讓我們點燃整個世界吧"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-50",
+          "answer": "burn brighter than the sun",
+          "options": [
+            "burn brighter than the sun",
+            "shine brighter than the stars",
+            "run faster than the wind"
+          ],
+          "prompt": "We can {{blank}}",
+          "promptZh": "讓我們燃燒得比太陽更加耀眼"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} I"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I need to {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "My friends are {{q:3}} {{q:4}} than the Empire State"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "My lover {{q:5}} just {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}} by some sunglasses {{q:8}}, and"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I know I gave it to you {{q:9}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I know you're {{q:10}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "But {{q:11}} and subtle things"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "The {{q:12}}, you know"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I'm trying hard to {{q:13}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "So if by the time {{q:14}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And you feel like {{q:15}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I'll {{q:16}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "So let's {{q:18}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "We can burn {{q:19}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:21}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "So let's set the {{q:22}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "We can {{q:23}} than the sun"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Now I know that {{q:24}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I guess that I, {{q:26}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Maybe we could find {{q:27}} "
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "But our {{q:28}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "So let's {{q:29}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "'Cause I found {{q:30}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:31}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "So let's {{q:33}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "We can burn {{q:34}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:35}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "{{q:36}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "So let's set {{q:37}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "We can burn brighter {{q:38}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "{{q:39}} (Nananananana)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:40}} (Nananananana)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "{{q:41}} (Nananananana)"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "{{q:42}} (Nananananana)"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "The {{q:43}} (Nananananana)"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I have {{q:44}} (Nananananana)"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "So will {{q:45}} tonight (Nananananana)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "The {{q:46}} (Nananananana)"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "But I can {{q:47}} (Nananananana)"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "So will {{q:48}} (Nananananana)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "We are young"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "So let's {{q:49}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "We can {{q:50}}"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "We are young"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "So let's set the world on fire"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "We can burn brighter than the sun"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "So if by the time the bar closes"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "And you feel like falling down"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "I'll carry you home tonight"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "We Are Young · Listening & Vocabulary",
+  "description": "《We Are Young》描寫青春歲月中的衝動、遺憾與渴望被理解的心情。歌中的主角在熱鬧的酒吧裡，試圖挽回一段因過去的錯誤而受傷的感情。他明白自己曾經傷害對方，也希望能彌補過錯，卻不知道兩人是否還有重新開始的機會。面對愛情的失落與生活的混亂，他與朋友舉杯狂歡，試圖在短暫的青春中尋找自由與慰藉。歌曲中的火焰與太陽象徵年輕時強烈的熱情，以及不願向現實低頭的勇氣。最終，《We Are Young》傳達的是青春中的迷惘、友情與珍惜當下：即使年輕時難免犯錯、受傷與失去方向，我們仍然渴望有人陪伴，在脆弱的時刻互相扶持，共同走過那些難忘的歲月。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "get my story straight",
+      "meaning": "把事情的經過理清楚；想清楚要怎麼解釋",
+      "usage": "通常在說明一件複雜的事、接受詢問或澄清誤會前使用。",
+      "prompt": "哪一句正確使用這個詞語？",
+      "options": [
+        "The train got my story straight and arrived at platform two.",
+        "Before the interview, I need a minute to get my story straight.",
+        "I bought three story straights at the bookshop yesterday.",
+        "Please get my story straight into the blue recycling bin."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：火車會到月台，但不會替人「理清說法」。",
+        "正確：面試前先整理好要說明的事情，符合片語意思。",
+        "錯誤：story straight 不是可以購買的書籍種類。",
+        "錯誤：此片語表示理清敘述，不是把故事當垃圾丟掉。"
+      ],
+      "explanation": "正確：面試前先整理好要說明的事情，符合片語意思。"
+    },
+    {
+      "number": 2,
+      "word": "subtle",
+      "meaning": "細微的、不容易察覺的",
+      "usage": "常用來描述微小的變化、暗示、氣味或差異。",
+      "prompt": "哪一句正確使用這個詞語？",
+      "options": [
+        "The actor gave a subtle smile, and only the front row noticed it.",
+        "The fire alarm was so subtle that everyone ran outside at once.",
+        "Please subtle the door before the meeting starts.",
+        "Our bus arrived subtle at six o’clock."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：只有前排注意到的微笑可以形容為 subtle。",
+        "錯誤：讓所有人立刻衝出去的警報並非細微、不易察覺。",
+        "錯誤：subtle 是形容詞，不能直接當動詞使用。",
+        "錯誤：不能用形容詞 subtle 直接修飾動詞 arrived。"
+      ],
+      "explanation": "正確：只有前排注意到的微笑可以形容為 subtle。"
+    },
+    {
+      "number": 3,
+      "word": "apology",
+      "meaning": "道歉；表示歉意的話",
+      "usage": "做錯事後承認錯誤、表達歉意時使用；常說 make an apology 或 offer an apology。",
+      "prompt": "哪一句正確使用這個詞語？",
+      "options": [
+        "The weather forecast gave an apology of heavy rain tomorrow.",
+        "After breaking the museum sign, Leo offered a sincere apology.",
+        "We took the apology to the airport because our flight was late.",
+        "Mina was very apology when she missed the meeting."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：天氣預報會預測降雨，不會用 apology 表示預報。",
+        "正確：弄壞標示後真誠道歉，搭配與意思都自然。",
+        "錯誤：apology 是道歉，不是可搭乘的交通工具。",
+        "錯誤：apology 是名詞；這裡應用 sorry 或 apologetic。"
+      ],
+      "explanation": "正確：弄壞標示後真誠道歉，搭配與意思都自然。"
+    },
+    {
+      "number": 4,
+      "word": "take it back",
+      "meaning": "收回剛說的話；撤回某個說法",
+      "usage": "當你發現自己說錯、誤會別人，或不想再堅持原來的話時使用。",
+      "prompt": "哪一句正確使用這個詞語？",
+      "options": [
+        "The moon took it back because the sky was too crowded.",
+        "I take it back my old opinion about this film.",
+        "I said the new singer was terrible, but she was amazing. I take it back.",
+        "She took it back that she would tomorrow call."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：月亮不能收回先前的評論；句意不符合此片語。",
+        "錯誤：take it back 已含受詞 it，不能再直接加 my old opinion。",
+        "正確：改變評價並收回先前的話，正是 take it back 的用法。",
+        "錯誤：這裡的語序不自然；應說 she took back what she said。"
+      ],
+      "explanation": "正確：改變評價並收回先前的話，正是 take it back 的用法。"
+    },
+    {
+      "number": 5,
+      "word": "by the time",
+      "meaning": "到……的時候（另一件事已經發生）",
+      "usage": "用來說明時間先後，常搭配過去完成式或未來完成式。",
+      "prompt": "哪一句正確使用這個詞語？",
+      "options": [
+        "By the time we reached the station, the last train had left.",
+        "By the time is my favourite colour this year.",
+        "We bought two by the times for the school concert.",
+        "By the time of quickly, I opened the window."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：到達車站前，末班車就已離開，時間先後清楚。",
+        "錯誤：by the time 是時間連接語，不是顏色名稱。",
+        "錯誤：這個片語不能當可數物品來購買。",
+        "錯誤：by the time 後不能接 of quickly 這種不合文法的結構。"
+      ],
+      "explanation": "正確：到達車站前，末班車就已離開，時間先後清楚。"
+    },
+    {
+      "number": 6,
+      "word": "fall apart",
+      "meaning": "散架、破裂；（關係或計畫）瓦解",
+      "usage": "可形容物品壞掉，也能形容計畫、團隊或關係逐漸崩潰。",
+      "prompt": "哪一句正確使用這個詞語？",
+      "options": [
+        "My sister fell apart the window to let in some air.",
+        "Our plan fell apart when the guide missed the boat.",
+        "The coach fell apart a new team last summer.",
+        "Please fall apart the lights before leaving the lab."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：fall apart 是不及物片語，不能這樣接 window 當受詞。",
+        "正確：嚮導沒搭上船導致計畫泡湯，可以說 fell apart。",
+        "錯誤：組成新隊伍應說 formed a team，不能用 fell apart。",
+        "錯誤：關燈應說 turn off the lights，fall apart 不表示關閉。"
+      ],
+      "explanation": "正確：嚮導沒搭上船導致計畫泡湯，可以說 fell apart。"
+    },
+    {
+      "number": 7,
+      "word": "raise a toast",
+      "meaning": "舉杯祝賀、敬酒",
+      "usage": "在婚禮、聚會、慶祝成功等場合，舉杯為人或事祝賀。",
+      "prompt": "哪一句正確使用這個詞語？",
+      "options": [
+        "The scientist raised a toast to measure the temperature.",
+        "The taxi raised a toast and turned left at the bridge.",
+        "At the graduation dinner, we raised a toast to our teachers.",
+        "I raised a toast into my phone to send a photo."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：量溫度應用溫度計；raise a toast 表示敬酒。",
+        "錯誤：計程車轉彎不會用舉杯祝賀來描述。",
+        "正確：畢業餐會向老師舉杯致意，符合片語意思。",
+        "錯誤：傳照片不用 raise a toast；這個片語是祝酒。"
+      ],
+      "explanation": "正確：畢業餐會向老師舉杯致意，符合片語意思。"
+    },
+    {
+      "number": 8,
+      "word": "on my side",
+      "meaning": "支持我、站在我這邊",
+      "usage": "當某人幫助你、支持你的立場時，或運氣對你有利時使用。",
+      "prompt": "哪一句正確使用這個詞語？",
+      "options": [
+        "The printer was on my side because it had four buttons.",
+        "We on my side to the museum every Monday.",
+        "My teacher gave me an on my side for the test.",
+        "I was nervous about the debate, but my best friend was on my side."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：印表機有四個按鈕不代表它支持某人的立場。",
+        "錯誤：on my side 不是動詞，不能取代 go 等動詞。",
+        "錯誤：on my side 是片語，不是可數的考試用品。",
+        "正確：朋友在辯論時支持我，就是 on my side。"
+      ],
+      "explanation": "正確：朋友在辯論時支持我，就是 on my side。"
+    },
+    {
+      "number": 9,
+      "word": "carry someone home",
+      "meaning": "把某人抱／背／抬回家",
+      "usage": "當對方受傷、太累或無法自行走路時，實際帶對方回家。",
+      "prompt": "哪一句正確使用這個詞語？",
+      "options": [
+        "After the long hike, Dad carried his sleepy child home.",
+        "I carried the sunset home by sending it an email.",
+        "The bus carried home the idea that Tuesday is blue.",
+        "Can you carry me home the next meeting at noon?"
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：健行後把睡著的孩子抱回家，搭配自然。",
+        "錯誤：寄電子郵件不等於實際把某人抱回家。",
+        "錯誤：這個句子沒有合理的被帶回家的人，語意混亂。",
+        "錯誤：carry someone home 指帶人回家，不用來安排會議。"
+      ],
+      "explanation": "正確：健行後把睡著的孩子抱回家，搭配自然。"
+    },
+    {
+      "number": 10,
+      "word": "set the world on fire",
+      "meaning": "大放異彩；做出令人驚豔的成就",
+      "usage": "常用誇飾語氣形容某人表現突出、造成很大影響；不是真的放火。",
+      "prompt": "哪一句正確使用這個詞語？",
+      "options": [
+        "I set the world on fire by turning down my computer screen.",
+        "The museum set the world on fire by closing five minutes early.",
+        "Please set the world on fire with this small parking ticket.",
+        "With her first album, the young musician seemed ready to set the world on fire."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：調暗螢幕不代表做出震撼世界的成就。",
+        "錯誤：提早五分鐘關門並非大放異彩的表現。",
+        "錯誤：一張停車票不適合用來表示非凡成就。",
+        "正確：形容新歌手可能一鳴驚人，是常見的比喻用法。"
+      ],
+      "explanation": "正確：形容新歌手可能一鳴驚人，是常見的比喻用法。"
+    }
+  ],
+  "tags": [
+    "fun. feat. janelle monáe",
+    "we are young",
+    "youth",
+    "friendship"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/we-are-young/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/we-are-young/user-cover-20261030.png",
+  "editorialRepairs": [],
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 250.6266875,
+    "audioSha256": "af9bb8c0181f5bd52742034f4d1e44a37d2aa72f8dd6c642187847415b451415",
+    "timedLines": 44,
+    "untimedLines": 13,
+    "reviewStatus": "Conservative automatic line alignment. Unmatched/overlapping background lines remain bilingual without guessed timestamps; not a full manual timing certification."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_We Are Young_.pdf",
+      "sha256": "87f8e35a0c68de6ff8fae29fae364d755a53b9dafc425a7f1090646ab32e8611"
+    },
+    "chosenListening": {
+      "filename": "We_Are_Young_Four_Level_Listening_Exercise.docx",
+      "sha256": "a00b1777d1b4245dfbbcee6d3f5fc69018efa8bfe9b3afb1103580f7d3939fb6"
+    },
+    "chosenVocabulary": {
+      "filename": "We_Are_Young_Vocabulary_Quiz.md",
+      "sha256": "33cb85d822b817e648bb9c5acfc88b801858fe452b4a60b8b1114c3382f64efb"
+    },
+    "mp3": {
+      "filename": "We Are Young (feat. Janelle Monáe) [f_K_0SNaRk0].mp3",
+      "sha256": "af9bb8c0181f5bd52742034f4d1e44a37d2aa72f8dd6c642187847415b451415"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-b7cc7916-0e9a-444a-b73d-086068f80de6.png",
+    "sha256": "cb6e2c50e277983a3ee7d6d70a2de0c4a7e0e7f2acbd64ea1769fb660616b927",
+    "transformations": "none",
+    "selectedOn": "2026-10-30"
+  }
+}

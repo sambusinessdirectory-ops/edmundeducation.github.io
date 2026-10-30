@@ -1,0 +1,3320 @@
+{
+  "slug": "never-enough",
+  "title": "Never Enough",
+  "singer": "Loren Allred",
+  "translations": [
+    {
+      "english": "I'm tryin' to hold my breath",
+      "chinese": "我努力屏住呼吸",
+      "lineId": "line-1",
+      "startSeconds": 14.4,
+      "endSeconds": 19.46
+    },
+    {
+      "english": "Let it stay this way",
+      "chinese": "只願這一刻能永遠停留",
+      "lineId": "line-2",
+      "startSeconds": 19.46,
+      "endSeconds": 24.68
+    },
+    {
+      "english": "Can't let this moment end",
+      "chinese": "我捨不得讓這一刻就此結束",
+      "lineId": "line-3",
+      "startSeconds": 24.68,
+      "endSeconds": 29.64
+    },
+    {
+      "english": "You set off a dream in me",
+      "chinese": "是你點燃了我心中的夢想",
+      "lineId": "line-4",
+      "startSeconds": 29.64,
+      "endSeconds": 34.86
+    },
+    {
+      "english": "Gettin' louder now",
+      "chinese": "如今，那夢想的聲音愈來愈響亮",
+      "lineId": "line-5",
+      "startSeconds": 34.86,
+      "endSeconds": 39.1
+    },
+    {
+      "english": "Can you hear it echoing?",
+      "chinese": "你可聽見它正不斷迴盪？",
+      "lineId": "line-6",
+      "startSeconds": 39.1,
+      "endSeconds": 43.38
+    },
+    {
+      "english": "Take my hand",
+      "chinese": "牽起我的手吧",
+      "lineId": "line-7",
+      "startSeconds": 45.26,
+      "endSeconds": 48.1
+    },
+    {
+      "english": "Will you share this with me?",
+      "chinese": "你願意與我一同分享這一切嗎？",
+      "lineId": "line-8",
+      "startSeconds": 48.68,
+      "endSeconds": 52.84
+    },
+    {
+      "english": "'Cause darling without you",
+      "chinese": "因為，親愛的，若沒有你",
+      "lineId": "line-9",
+      "startSeconds": 52.84,
+      "endSeconds": 56.5
+    },
+    {
+      "english": "All the shine of a thousand spotlights",
+      "chinese": "即使擁有千盞聚光燈的璀璨光芒",
+      "lineId": "line-10",
+      "startSeconds": 58.72,
+      "endSeconds": 62.8
+    },
+    {
+      "english": "All the stars we steal from the night sky",
+      "chinese": "即使摘下夜空中所有的繁星",
+      "lineId": "line-11",
+      "startSeconds": 62.8,
+      "endSeconds": 66.54
+    },
+    {
+      "english": "Will never be enough",
+      "chinese": "也永遠無法讓我滿足",
+      "lineId": "line-12",
+      "startSeconds": 66.54,
+      "endSeconds": 69.64
+    },
+    {
+      "english": "Never be enough",
+      "chinese": "永遠都不夠",
+      "lineId": "line-13",
+      "startSeconds": 69.64,
+      "endSeconds": 73.64
+    },
+    {
+      "english": "Towers of gold are still too little",
+      "chinese": "即使黃金堆積成高塔，依然微不足道",
+      "lineId": "line-14",
+      "startSeconds": 73.64,
+      "endSeconds": 77.44
+    },
+    {
+      "english": "These hands could hold the world but it'll",
+      "chinese": "即使這雙手能將整個世界擁入懷中，卻依然……",
+      "lineId": "line-15",
+      "startSeconds": 77.44,
+      "endSeconds": 81.46
+    },
+    {
+      "english": "Never be enough",
+      "chinese": "永遠都不夠",
+      "lineId": "line-16",
+      "startSeconds": 81.46,
+      "endSeconds": 84.52
+    },
+    {
+      "english": "Never be enough",
+      "chinese": "永遠都不夠",
+      "lineId": "line-17",
+      "startSeconds": 84.52,
+      "endSeconds": 88.98
+    },
+    {
+      "english": "For me",
+      "chinese": "對我而言",
+      "lineId": "line-18",
+      "startSeconds": 89.88,
+      "endSeconds": 91.74
+    },
+    {
+      "english": "Never, never",
+      "chinese": "永遠不夠，永遠不夠",
+      "lineId": "line-19",
+      "startSeconds": 92.36,
+      "endSeconds": 94.2
+    },
+    {
+      "english": "Never, never",
+      "chinese": "永遠不夠，永遠不夠",
+      "lineId": "line-20",
+      "startSeconds": 95.88,
+      "endSeconds": 98.16
+    },
+    {
+      "english": "Never, for me",
+      "chinese": "對我而言，永遠都不夠",
+      "lineId": "line-21",
+      "startSeconds": 99.54,
+      "endSeconds": 102.28
+    },
+    {
+      "english": "For me",
+      "chinese": "對我而言",
+      "lineId": "line-22",
+      "startSeconds": 102.6,
+      "endSeconds": 104.76
+    },
+    {
+      "english": "Never enough",
+      "chinese": "永遠都不夠",
+      "lineId": "line-23",
+      "startSeconds": 104.76,
+      "endSeconds": 106.7
+    },
+    {
+      "english": "Never enough",
+      "chinese": "永遠都不夠",
+      "lineId": "line-24",
+      "startSeconds": 108.1,
+      "endSeconds": 110.26
+    },
+    {
+      "english": "Never enough",
+      "chinese": "永遠都不夠",
+      "lineId": "line-25",
+      "startSeconds": 110.26,
+      "endSeconds": 114.74
+    },
+    {
+      "english": "For me",
+      "chinese": "對我而言",
+      "lineId": "line-26",
+      "startSeconds": 114.74,
+      "endSeconds": 116.8
+    },
+    {
+      "english": "For me",
+      "chinese": "對我而言",
+      "lineId": "line-27",
+      "startSeconds": 117.04,
+      "endSeconds": 118.82
+    },
+    {
+      "english": "For me",
+      "chinese": "對我而言",
+      "lineId": "line-28",
+      "startSeconds": 118.82,
+      "endSeconds": 123.02
+    },
+    {
+      "english": "All the shine of a thousand spotlights",
+      "chinese": "即使擁有千盞聚光燈的璀璨光芒",
+      "lineId": "line-29",
+      "startSeconds": 123.52,
+      "endSeconds": 126.94
+    },
+    {
+      "english": "All the stars we steal from the night sky",
+      "chinese": "即使摘下夜空中所有的繁星",
+      "lineId": "line-30",
+      "startSeconds": 126.94,
+      "endSeconds": 130.48
+    },
+    {
+      "english": "Will never be enough",
+      "chinese": "也永遠無法讓我滿足",
+      "lineId": "line-31",
+      "startSeconds": 130.64,
+      "endSeconds": 133.54
+    },
+    {
+      "english": "Never be enough",
+      "chinese": "永遠都不夠",
+      "lineId": "line-32",
+      "startSeconds": 134.42,
+      "endSeconds": 137.28
+    },
+    {
+      "english": "Towers of gold are still too little",
+      "chinese": "即使黃金堆積成高塔，依然微不足道",
+      "lineId": "line-33",
+      "startSeconds": 137.28,
+      "endSeconds": 141.04
+    },
+    {
+      "english": "These hands could hold the world but it'll",
+      "chinese": "即使這雙手能將整個世界擁入懷中，卻依然……",
+      "lineId": "line-34",
+      "startSeconds": 141.04,
+      "endSeconds": 145.12
+    },
+    {
+      "english": "Never be enough",
+      "chinese": "永遠都不夠",
+      "lineId": "line-35",
+      "startSeconds": 145.12,
+      "endSeconds": 148.12
+    },
+    {
+      "english": "Never be enough",
+      "chinese": "永遠都不夠",
+      "lineId": "line-36",
+      "startSeconds": 148.12,
+      "endSeconds": 153.72
+    },
+    {
+      "english": "For me",
+      "chinese": "對我而言",
+      "lineId": "line-37",
+      "startSeconds": 156.08,
+      "endSeconds": 157.9
+    },
+    {
+      "english": "Never, never",
+      "chinese": "永遠不夠，永遠不夠",
+      "lineId": "line-38",
+      "startSeconds": 158.02,
+      "endSeconds": 160.94
+    },
+    {
+      "english": "Never, never",
+      "chinese": "永遠不夠，永遠不夠",
+      "lineId": "line-39",
+      "startSeconds": 160.94,
+      "endSeconds": 163.48
+    },
+    {
+      "english": "Never, for me",
+      "chinese": "對我而言，永遠都不夠",
+      "lineId": "line-40",
+      "startSeconds": 163.74,
+      "endSeconds": 167.58
+    },
+    {
+      "english": "For me",
+      "chinese": "對我而言",
+      "lineId": "line-41",
+      "startSeconds": 167.84,
+      "endSeconds": 170.06
+    },
+    {
+      "english": "Never enough",
+      "chinese": "永遠都不夠",
+      "lineId": "line-42",
+      "startSeconds": 170.52,
+      "endSeconds": 172.06
+    },
+    {
+      "english": "Never, never",
+      "chinese": "永遠不夠，永遠不夠",
+      "lineId": "line-43",
+      "startSeconds": 172.06,
+      "endSeconds": 174.56
+    },
+    {
+      "english": "Never enough",
+      "chinese": "永遠都不夠",
+      "lineId": "line-44",
+      "startSeconds": 174.56,
+      "endSeconds": 176.0
+    },
+    {
+      "english": "Never, never",
+      "chinese": "永遠不夠，永遠不夠",
+      "lineId": "line-45",
+      "startSeconds": 176.0,
+      "endSeconds": 177.96
+    },
+    {
+      "english": "Never enough",
+      "chinese": "永遠都不夠",
+      "lineId": "line-46",
+      "startSeconds": 177.96,
+      "endSeconds": 179.18
+    },
+    {
+      "english": "For me",
+      "chinese": "對我而言",
+      "lineId": "line-47",
+      "startSeconds": 180.78,
+      "endSeconds": 182.3
+    },
+    {
+      "english": "For me",
+      "chinese": "對我而言",
+      "lineId": "line-48",
+      "startSeconds": 182.56,
+      "endSeconds": 184.2
+    },
+    {
+      "english": "For me",
+      "chinese": "對我而言",
+      "lineId": "line-49",
+      "startSeconds": 184.42,
+      "endSeconds": 189.52
+    },
+    {
+      "english": "For me",
+      "chinese": "對我而言",
+      "lineId": "line-50",
+      "startSeconds": 193.52,
+      "endSeconds": 195.04
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "hold my breath",
+          "options": [
+            "close my eyes",
+            "hold my breath",
+            "catch my breath"
+          ],
+          "prompt": "I'm tryin' to {{blank}}",
+          "promptZh": "我努力屏住呼吸"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "stay this way",
+          "options": [
+            "start again",
+            "fade away",
+            "stay this way"
+          ],
+          "prompt": "Let it {{blank}}",
+          "promptZh": "只願這一刻能永遠停留"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "moment end",
+          "options": [
+            "moment end",
+            "music end",
+            "night begin"
+          ],
+          "prompt": "Can't let this {{blank}}",
+          "promptZh": "我捨不得讓這一刻就此結束"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "a dream in me",
+          "options": [
+            "a fire in me",
+            "a dream in me",
+            "a song for me"
+          ],
+          "prompt": "You set off {{blank}}",
+          "promptZh": "是你點燃了我心中的夢想"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "louder now",
+          "options": [
+            "louder now",
+            "slower now",
+            "softer now"
+          ],
+          "prompt": "Gettin' {{blank}}",
+          "promptZh": "如今，那夢想的聲音愈來愈響亮"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "hear it echoing",
+          "options": [
+            "feel it changing",
+            "hear it echoing",
+            "see it glowing"
+          ],
+          "prompt": "Can you {{blank}}?",
+          "promptZh": "你可聽見它正不斷迴盪？"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "Take my hand",
+          "options": [
+            "Stay with me",
+            "Hold my heart",
+            "Take my hand"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "牽起我的手吧"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "share this with me",
+          "options": [
+            "share this with me",
+            "dance here with me",
+            "stay close to me"
+          ],
+          "prompt": "Will you {{blank}}?",
+          "promptZh": "你願意與我一同分享這一切嗎？"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "without you",
+          "options": [
+            "beside you",
+            "around you",
+            "without you"
+          ],
+          "prompt": "'Cause darling {{blank}}",
+          "promptZh": "因為，親愛的，若沒有你"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "a thousand spotlights",
+          "options": [
+            "a thousand spotlights",
+            "a hundred candles",
+            "a million streetlights"
+          ],
+          "prompt": "All the shine of {{blank}}",
+          "promptZh": "即使擁有千盞聚光燈的璀璨光芒"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "the night sky",
+          "options": [
+            "the blue sea",
+            "the night sky",
+            "the sunrise"
+          ],
+          "prompt": "All the stars we steal from {{blank}}",
+          "promptZh": "即使摘下夜空中所有的繁星"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "never be enough",
+          "options": [
+            "never be enough",
+            "always be enough",
+            "never feel the same"
+          ],
+          "prompt": "Will {{blank}}",
+          "promptZh": "也永遠無法讓我滿足"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "Never be enough",
+          "options": [
+            "Always be enough",
+            "Never be enough",
+            "Never feel alive"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "Towers of gold",
+          "options": [
+            "Rivers of light",
+            "Towers of gold",
+            "Mountains of silver"
+          ],
+          "prompt": "{{blank}} are still too little",
+          "promptZh": "即使黃金堆積成高塔，依然微不足道"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "hold the world",
+          "options": [
+            "hold the world",
+            "touch the stars",
+            "change the world"
+          ],
+          "prompt": "These hands could {{blank}} but it'll",
+          "promptZh": "即使這雙手能將整個世界擁入懷中，卻依然……"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "Never be enough",
+          "options": [
+            "Never feel right",
+            "Always be enough",
+            "Never be enough"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-17",
+          "answer": "Never be enough",
+          "options": [
+            "Always be mine",
+            "Never come back",
+            "Never be enough"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-18",
+          "answer": "For me",
+          "options": [
+            "For me",
+            "For us",
+            "With you"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "對我而言"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-19",
+          "answer": "Never, never",
+          "options": [
+            "Forever, forever",
+            "Never, never",
+            "Always, always"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠不夠，永遠不夠"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-21",
+          "answer": "Never, for me",
+          "options": [
+            "Always, for you",
+            "Forever, with you",
+            "Never, for me"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "對我而言，永遠都不夠"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I'm tryin' to {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Let it {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Can't let this {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You set off {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Gettin' {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Can you {{q:6}}?"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Will you {{q:8}}?"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "'Cause darling {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "All the shine of {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "All the stars we steal from {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Will {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:14}} are still too little"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "These hands could {{q:15}} but it'll"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:18}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:19}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Never, never"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Never enough"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Never enough"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Never enough"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "All the shine of a thousand spotlights"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "All the stars we steal from the night sky"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Will never be enough"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Never be enough"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Towers of gold are still too little"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "These hands could hold the world but it'll"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Never be enough"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Never be enough"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Never, never"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Never, never"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Never, for me"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Never enough"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Never, never"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Never enough"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Never, never"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Never enough"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "For me"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 21,
+          "lineId": "line-1",
+          "answer": "tryin' to",
+          "options": [
+            "waiting to",
+            "tryin' to",
+            "hoping to"
+          ],
+          "prompt": "I'm {{blank}} hold my breath",
+          "promptZh": "我努力屏住呼吸"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "hold my breath",
+          "options": [
+            "hold my breath",
+            "catch my breath",
+            "close my eyes"
+          ],
+          "prompt": "I'm tryin' to {{blank}}",
+          "promptZh": "我努力屏住呼吸"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "stay this way",
+          "options": [
+            "start again",
+            "stay this way",
+            "fade away"
+          ],
+          "prompt": "Let it {{blank}}",
+          "promptZh": "只願這一刻能永遠停留"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 22,
+          "lineId": "line-3",
+          "answer": "Can't let",
+          "options": [
+            "Don't need",
+            "Can't let",
+            "Won't take"
+          ],
+          "prompt": "{{blank}} this moment end",
+          "promptZh": "我捨不得讓這一刻就此結束"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "moment end",
+          "options": [
+            "moment end",
+            "night begin",
+            "music end"
+          ],
+          "prompt": "Can't let this {{blank}}",
+          "promptZh": "我捨不得讓這一刻就此結束"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 23,
+          "lineId": "line-4",
+          "answer": "set off",
+          "options": [
+            "held back",
+            "turned down",
+            "set off"
+          ],
+          "prompt": "You {{blank}} a dream in me",
+          "promptZh": "是你點燃了我心中的夢想"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "a dream in me",
+          "options": [
+            "a song for me",
+            "a dream in me",
+            "a fire in me"
+          ],
+          "prompt": "You set off {{blank}}",
+          "promptZh": "是你點燃了我心中的夢想"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "louder now",
+          "options": [
+            "slower now",
+            "softer now",
+            "louder now"
+          ],
+          "prompt": "Gettin' {{blank}}",
+          "promptZh": "如今，那夢想的聲音愈來愈響亮"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "hear it",
+          "options": [
+            "see it",
+            "feel it",
+            "hear it"
+          ],
+          "prompt": "Can you {{blank}} echoing?",
+          "promptZh": "你可聽見它正不斷迴盪？"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 24,
+          "lineId": "line-6",
+          "answer": "echoing",
+          "options": [
+            "disappearing",
+            "echoing",
+            "awakening"
+          ],
+          "prompt": "Can you hear it {{blank}}?",
+          "promptZh": "你可聽見它正不斷迴盪？"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "Take my hand",
+          "options": [
+            "Stay with me",
+            "Hold my heart",
+            "Take my hand"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "牽起我的手吧"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 25,
+          "lineId": "line-8",
+          "answer": "Will you",
+          "options": [
+            "Will you",
+            "Would he",
+            "Can they"
+          ],
+          "prompt": "{{blank}} share this with me?",
+          "promptZh": "你願意與我一同分享這一切嗎？"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "share this with me",
+          "options": [
+            "stay close to me",
+            "share this with me",
+            "dance here with me"
+          ],
+          "prompt": "Will you {{blank}}?",
+          "promptZh": "你願意與我一同分享這一切嗎？"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "without you",
+          "options": [
+            "without you",
+            "around you",
+            "beside you"
+          ],
+          "prompt": "'Cause darling {{blank}}",
+          "promptZh": "因為，親愛的，若沒有你"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 26,
+          "lineId": "line-10",
+          "answer": "All the shine",
+          "options": [
+            "All the sound",
+            "All the shine",
+            "All the rain"
+          ],
+          "prompt": "{{blank}} of a thousand spotlights",
+          "promptZh": "即使擁有千盞聚光燈的璀璨光芒"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "a thousand spotlights",
+          "options": [
+            "a hundred candles",
+            "a million streetlights",
+            "a thousand spotlights"
+          ],
+          "prompt": "All the shine of {{blank}}",
+          "promptZh": "即使擁有千盞聚光燈的璀璨光芒"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 27,
+          "lineId": "line-11",
+          "answer": "we steal",
+          "options": [
+            "we follow",
+            "we steal",
+            "we see"
+          ],
+          "prompt": "All the stars {{blank}} from the night sky",
+          "promptZh": "即使摘下夜空中所有的繁星"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "the night sky",
+          "options": [
+            "the night sky",
+            "the blue sea",
+            "the sunrise"
+          ],
+          "prompt": "All the stars we steal from {{blank}}",
+          "promptZh": "即使摘下夜空中所有的繁星"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "never be enough",
+          "options": [
+            "never be enough",
+            "always be enough",
+            "never feel the same"
+          ],
+          "prompt": "Will {{blank}}",
+          "promptZh": "也永遠無法讓我滿足"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "Never be enough",
+          "options": [
+            "Never feel alive",
+            "Always be enough",
+            "Never be enough"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "Towers of gold",
+          "options": [
+            "Mountains of silver",
+            "Rivers of light",
+            "Towers of gold"
+          ],
+          "prompt": "{{blank}} are still too little",
+          "promptZh": "即使黃金堆積成高塔，依然微不足道"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 28,
+          "lineId": "line-14",
+          "answer": "still too little",
+          "options": [
+            "more than enough",
+            "still too little",
+            "far too heavy"
+          ],
+          "prompt": "Towers of gold are {{blank}}",
+          "promptZh": "即使黃金堆積成高塔，依然微不足道"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 29,
+          "lineId": "line-15",
+          "answer": "These hands",
+          "options": [
+            "These hands",
+            "Our dreams",
+            "Those lights"
+          ],
+          "prompt": "{{blank}} could hold the world but it'll",
+          "promptZh": "即使這雙手能將整個世界擁入懷中，卻依然……"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "hold the world",
+          "options": [
+            "touch the stars",
+            "change the world",
+            "hold the world"
+          ],
+          "prompt": "These hands could {{blank}} but it'll",
+          "promptZh": "即使這雙手能將整個世界擁入懷中，卻依然……"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "Never be enough",
+          "options": [
+            "Always be enough",
+            "Never be enough",
+            "Never feel right"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 17,
+          "lineId": "line-17",
+          "answer": "Never be enough",
+          "options": [
+            "Never be enough",
+            "Never come back",
+            "Always be mine"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 18,
+          "lineId": "line-18",
+          "answer": "For me",
+          "options": [
+            "For me",
+            "For us",
+            "With you"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "對我而言"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 19,
+          "lineId": "line-19",
+          "answer": "Never, never",
+          "options": [
+            "Forever, forever",
+            "Always, always",
+            "Never, never"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠不夠，永遠不夠"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 20,
+          "lineId": "line-21",
+          "answer": "Never, for me",
+          "options": [
+            "Never, for me",
+            "Always, for you",
+            "Forever, with you"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "對我而言，永遠都不夠"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-22",
+          "answer": "For me",
+          "options": [
+            "For them",
+            "With us",
+            "For me"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "對我而言"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-23",
+          "answer": "Never enough",
+          "options": [
+            "Never enough",
+            "Always enough",
+            "Almost over"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-24",
+          "answer": "Never enough",
+          "options": [
+            "Never alone",
+            "Never enough",
+            "Forever young"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I'm {{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Let it {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:4}} this {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You {{q:6}} {{q:7}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Gettin' {{q:8}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Can you {{q:9}} {{q:10}}?"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:11}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:12}} {{q:13}}?"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "'Cause darling {{q:14}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:15}} of {{q:16}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "All the stars {{q:17}} from {{q:18}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Will {{q:19}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:21}} are {{q:22}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:23}} could {{q:24}} but it'll"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:26}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:27}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Never, never"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:29}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:30}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:31}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Never enough"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "All the shine of a thousand spotlights"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "All the stars we steal from the night sky"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Will never be enough"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Never be enough"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Towers of gold are still too little"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "These hands could hold the world but it'll"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Never be enough"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Never be enough"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Never, never"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Never, never"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Never, for me"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Never enough"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Never, never"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Never enough"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Never, never"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Never enough"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "For me"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 21,
+          "lineId": "line-1",
+          "answer": "tryin' to",
+          "options": [
+            "tryin' to",
+            "waiting to",
+            "hoping to"
+          ],
+          "prompt": "I'm {{blank}} hold my breath",
+          "promptZh": "我努力屏住呼吸"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "hold my breath",
+          "options": [
+            "hold my breath",
+            "catch my breath",
+            "close my eyes"
+          ],
+          "prompt": "I'm tryin' to {{blank}}",
+          "promptZh": "我努力屏住呼吸"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "stay this way",
+          "options": [
+            "start again",
+            "fade away",
+            "stay this way"
+          ],
+          "prompt": "Let it {{blank}}",
+          "promptZh": "只願這一刻能永遠停留"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 22,
+          "lineId": "line-3",
+          "answer": "Can't let",
+          "options": [
+            "Can't let",
+            "Don't need",
+            "Won't take"
+          ],
+          "prompt": "{{blank}} this moment end",
+          "promptZh": "我捨不得讓這一刻就此結束"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "moment end",
+          "options": [
+            "music end",
+            "night begin",
+            "moment end"
+          ],
+          "prompt": "Can't let this {{blank}}",
+          "promptZh": "我捨不得讓這一刻就此結束"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 23,
+          "lineId": "line-4",
+          "answer": "set off",
+          "options": [
+            "turned down",
+            "set off",
+            "held back"
+          ],
+          "prompt": "You {{blank}} a dream in me",
+          "promptZh": "是你點燃了我心中的夢想"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "a dream in me",
+          "options": [
+            "a song for me",
+            "a fire in me",
+            "a dream in me"
+          ],
+          "prompt": "You set off {{blank}}",
+          "promptZh": "是你點燃了我心中的夢想"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "louder now",
+          "options": [
+            "slower now",
+            "softer now",
+            "louder now"
+          ],
+          "prompt": "Gettin' {{blank}}",
+          "promptZh": "如今，那夢想的聲音愈來愈響亮"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "hear it",
+          "options": [
+            "hear it",
+            "see it",
+            "feel it"
+          ],
+          "prompt": "Can you {{blank}} echoing?",
+          "promptZh": "你可聽見它正不斷迴盪？"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 24,
+          "lineId": "line-6",
+          "answer": "echoing",
+          "options": [
+            "awakening",
+            "disappearing",
+            "echoing"
+          ],
+          "prompt": "Can you hear it {{blank}}?",
+          "promptZh": "你可聽見它正不斷迴盪？"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "Take my hand",
+          "options": [
+            "Hold my heart",
+            "Take my hand",
+            "Stay with me"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "牽起我的手吧"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 25,
+          "lineId": "line-8",
+          "answer": "Will you",
+          "options": [
+            "Will you",
+            "Would he",
+            "Can they"
+          ],
+          "prompt": "{{blank}} share this with me?",
+          "promptZh": "你願意與我一同分享這一切嗎？"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "share this with me",
+          "options": [
+            "stay close to me",
+            "dance here with me",
+            "share this with me"
+          ],
+          "prompt": "Will you {{blank}}?",
+          "promptZh": "你願意與我一同分享這一切嗎？"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "without you",
+          "options": [
+            "without you",
+            "around you",
+            "beside you"
+          ],
+          "prompt": "'Cause darling {{blank}}",
+          "promptZh": "因為，親愛的，若沒有你"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 26,
+          "lineId": "line-10",
+          "answer": "All the shine",
+          "options": [
+            "All the sound",
+            "All the rain",
+            "All the shine"
+          ],
+          "prompt": "{{blank}} of a thousand spotlights",
+          "promptZh": "即使擁有千盞聚光燈的璀璨光芒"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "a thousand spotlights",
+          "options": [
+            "a hundred candles",
+            "a thousand spotlights",
+            "a million streetlights"
+          ],
+          "prompt": "All the shine of {{blank}}",
+          "promptZh": "即使擁有千盞聚光燈的璀璨光芒"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 27,
+          "lineId": "line-11",
+          "answer": "we steal",
+          "options": [
+            "we see",
+            "we steal",
+            "we follow"
+          ],
+          "prompt": "All the stars {{blank}} from the night sky",
+          "promptZh": "即使摘下夜空中所有的繁星"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "the night sky",
+          "options": [
+            "the night sky",
+            "the blue sea",
+            "the sunrise"
+          ],
+          "prompt": "All the stars we steal from {{blank}}",
+          "promptZh": "即使摘下夜空中所有的繁星"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "never be enough",
+          "options": [
+            "always be enough",
+            "never be enough",
+            "never feel the same"
+          ],
+          "prompt": "Will {{blank}}",
+          "promptZh": "也永遠無法讓我滿足"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "Never be enough",
+          "options": [
+            "Never feel alive",
+            "Never be enough",
+            "Always be enough"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "Towers of gold",
+          "options": [
+            "Towers of gold",
+            "Mountains of silver",
+            "Rivers of light"
+          ],
+          "prompt": "{{blank}} are still too little",
+          "promptZh": "即使黃金堆積成高塔，依然微不足道"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 28,
+          "lineId": "line-14",
+          "answer": "still too little",
+          "options": [
+            "far too heavy",
+            "more than enough",
+            "still too little"
+          ],
+          "prompt": "Towers of gold are {{blank}}",
+          "promptZh": "即使黃金堆積成高塔，依然微不足道"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 29,
+          "lineId": "line-15",
+          "answer": "These hands",
+          "options": [
+            "Our dreams",
+            "Those lights",
+            "These hands"
+          ],
+          "prompt": "{{blank}} could hold the world but it'll",
+          "promptZh": "即使這雙手能將整個世界擁入懷中，卻依然……"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "hold the world",
+          "options": [
+            "change the world",
+            "hold the world",
+            "touch the stars"
+          ],
+          "prompt": "These hands could {{blank}} but it'll",
+          "promptZh": "即使這雙手能將整個世界擁入懷中，卻依然……"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "Never be enough",
+          "options": [
+            "Never feel right",
+            "Always be enough",
+            "Never be enough"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 17,
+          "lineId": "line-17",
+          "answer": "Never be enough",
+          "options": [
+            "Never be enough",
+            "Always be mine",
+            "Never come back"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 18,
+          "lineId": "line-18",
+          "answer": "For me",
+          "options": [
+            "For me",
+            "With you",
+            "For us"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "對我而言"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 19,
+          "lineId": "line-19",
+          "answer": "Never, never",
+          "options": [
+            "Forever, forever",
+            "Never, never",
+            "Always, always"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠不夠，永遠不夠"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 20,
+          "lineId": "line-21",
+          "answer": "Never, for me",
+          "options": [
+            "Always, for you",
+            "Never, for me",
+            "Forever, with you"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "對我而言，永遠都不夠"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-22",
+          "answer": "For me",
+          "options": [
+            "For me",
+            "For them",
+            "With us"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "對我而言"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-23",
+          "answer": "Never enough",
+          "options": [
+            "Always enough",
+            "Never enough",
+            "Almost over"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-24",
+          "answer": "Never enough",
+          "options": [
+            "Never enough",
+            "Forever young",
+            "Never alone"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-25",
+          "answer": "Never enough",
+          "options": [
+            "Always around",
+            "Never enough",
+            "Never again"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-30",
+          "answer": "we steal from",
+          "options": [
+            "we reach beyond",
+            "we fall through",
+            "we steal from"
+          ],
+          "prompt": "All the stars {{blank}} the night sky",
+          "promptZh": "即使摘下夜空中所有的繁星"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-31",
+          "answer": "Will never",
+          "options": [
+            "Will never",
+            "Could barely",
+            "Will always"
+          ],
+          "prompt": "{{blank}} be enough",
+          "promptZh": "也永遠無法讓我滿足"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-33",
+          "answer": "of gold",
+          "options": [
+            "of glass",
+            "of gold",
+            "of stone"
+          ],
+          "prompt": "Towers {{blank}} are still too little",
+          "promptZh": "即使黃金堆積成高塔，依然微不足道"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-34",
+          "answer": "could hold",
+          "options": [
+            "could hold",
+            "can follow",
+            "would break"
+          ],
+          "prompt": "These hands {{blank}} the world but it'll",
+          "promptZh": "即使這雙手能將整個世界擁入懷中，卻依然……"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-35",
+          "answer": "Never be enough",
+          "options": [
+            "Never give up now",
+            "Always feel alive",
+            "Never be enough"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-37",
+          "answer": "For me",
+          "options": [
+            "For you",
+            "With me",
+            "For me"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "對我而言"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-38",
+          "answer": "Never, never",
+          "options": [
+            "Always, always",
+            "Never, never",
+            "Forever, forever"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠不夠，永遠不夠"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I'm {{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Let it {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:4}} this {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You {{q:6}} {{q:7}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Gettin' {{q:8}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Can you {{q:9}} {{q:10}}?"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:11}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:12}} {{q:13}}?"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "'Cause darling {{q:14}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:15}} of {{q:16}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "All the stars {{q:17}} from {{q:18}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Will {{q:19}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:21}} are {{q:22}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:23}} could {{q:24}} but it'll"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:26}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:27}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Never, never"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:29}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:30}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:31}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:33}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "All the shine of a thousand spotlights"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "All the stars {{q:34}} the night sky"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:35}} be enough"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Never be enough"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Towers {{q:36}} are still too little"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "These hands {{q:37}} the world but it'll"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "{{q:38}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Never be enough"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "{{q:39}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:40}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Never, never"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Never, for me"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Never enough"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Never, never"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Never enough"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Never, never"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Never enough"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "For me"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 21,
+          "lineId": "line-1",
+          "answer": "tryin' to",
+          "options": [
+            "hoping to",
+            "tryin' to",
+            "waiting to"
+          ],
+          "prompt": "I'm {{blank}} hold my breath",
+          "promptZh": "我努力屏住呼吸"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "hold my breath",
+          "options": [
+            "close my eyes",
+            "catch my breath",
+            "hold my breath"
+          ],
+          "prompt": "I'm tryin' to {{blank}}",
+          "promptZh": "我努力屏住呼吸"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "stay this way",
+          "options": [
+            "stay this way",
+            "start again",
+            "fade away"
+          ],
+          "prompt": "Let it {{blank}}",
+          "promptZh": "只願這一刻能永遠停留"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 22,
+          "lineId": "line-3",
+          "answer": "Can't let",
+          "options": [
+            "Won't take",
+            "Can't let",
+            "Don't need"
+          ],
+          "prompt": "{{blank}} this moment end",
+          "promptZh": "我捨不得讓這一刻就此結束"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "moment end",
+          "options": [
+            "music end",
+            "night begin",
+            "moment end"
+          ],
+          "prompt": "Can't let this {{blank}}",
+          "promptZh": "我捨不得讓這一刻就此結束"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 23,
+          "lineId": "line-4",
+          "answer": "set off",
+          "options": [
+            "held back",
+            "set off",
+            "turned down"
+          ],
+          "prompt": "You {{blank}} a dream in me",
+          "promptZh": "是你點燃了我心中的夢想"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "a dream in me",
+          "options": [
+            "a fire in me",
+            "a dream in me",
+            "a song for me"
+          ],
+          "prompt": "You set off {{blank}}",
+          "promptZh": "是你點燃了我心中的夢想"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "louder now",
+          "options": [
+            "softer now",
+            "slower now",
+            "louder now"
+          ],
+          "prompt": "Gettin' {{blank}}",
+          "promptZh": "如今，那夢想的聲音愈來愈響亮"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "hear it",
+          "options": [
+            "see it",
+            "feel it",
+            "hear it"
+          ],
+          "prompt": "Can you {{blank}} echoing?",
+          "promptZh": "你可聽見它正不斷迴盪？"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 24,
+          "lineId": "line-6",
+          "answer": "echoing",
+          "options": [
+            "echoing",
+            "disappearing",
+            "awakening"
+          ],
+          "prompt": "Can you hear it {{blank}}?",
+          "promptZh": "你可聽見它正不斷迴盪？"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "Take my hand",
+          "options": [
+            "Stay with me",
+            "Hold my heart",
+            "Take my hand"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "牽起我的手吧"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 25,
+          "lineId": "line-8",
+          "answer": "Will you",
+          "options": [
+            "Would he",
+            "Can they",
+            "Will you"
+          ],
+          "prompt": "{{blank}} share this with me?",
+          "promptZh": "你願意與我一同分享這一切嗎？"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "share this with me",
+          "options": [
+            "dance here with me",
+            "share this with me",
+            "stay close to me"
+          ],
+          "prompt": "Will you {{blank}}?",
+          "promptZh": "你願意與我一同分享這一切嗎？"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "without you",
+          "options": [
+            "around you",
+            "without you",
+            "beside you"
+          ],
+          "prompt": "'Cause darling {{blank}}",
+          "promptZh": "因為，親愛的，若沒有你"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 26,
+          "lineId": "line-10",
+          "answer": "All the shine",
+          "options": [
+            "All the shine",
+            "All the sound",
+            "All the rain"
+          ],
+          "prompt": "{{blank}} of a thousand spotlights",
+          "promptZh": "即使擁有千盞聚光燈的璀璨光芒"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "a thousand spotlights",
+          "options": [
+            "a hundred candles",
+            "a thousand spotlights",
+            "a million streetlights"
+          ],
+          "prompt": "All the shine of {{blank}}",
+          "promptZh": "即使擁有千盞聚光燈的璀璨光芒"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 27,
+          "lineId": "line-11",
+          "answer": "we steal",
+          "options": [
+            "we steal",
+            "we see",
+            "we follow"
+          ],
+          "prompt": "All the stars {{blank}} from the night sky",
+          "promptZh": "即使摘下夜空中所有的繁星"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "the night sky",
+          "options": [
+            "the night sky",
+            "the blue sea",
+            "the sunrise"
+          ],
+          "prompt": "All the stars we steal from {{blank}}",
+          "promptZh": "即使摘下夜空中所有的繁星"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "never be enough",
+          "options": [
+            "never feel the same",
+            "never be enough",
+            "always be enough"
+          ],
+          "prompt": "Will {{blank}}",
+          "promptZh": "也永遠無法讓我滿足"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "Never be enough",
+          "options": [
+            "Never be enough",
+            "Always be enough",
+            "Never feel alive"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "Towers of gold",
+          "options": [
+            "Towers of gold",
+            "Rivers of light",
+            "Mountains of silver"
+          ],
+          "prompt": "{{blank}} are still too little",
+          "promptZh": "即使黃金堆積成高塔，依然微不足道"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 28,
+          "lineId": "line-14",
+          "answer": "still too little",
+          "options": [
+            "far too heavy",
+            "more than enough",
+            "still too little"
+          ],
+          "prompt": "Towers of gold are {{blank}}",
+          "promptZh": "即使黃金堆積成高塔，依然微不足道"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 29,
+          "lineId": "line-15",
+          "answer": "These hands",
+          "options": [
+            "Those lights",
+            "These hands",
+            "Our dreams"
+          ],
+          "prompt": "{{blank}} could hold the world but it'll",
+          "promptZh": "即使這雙手能將整個世界擁入懷中，卻依然……"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "hold the world",
+          "options": [
+            "hold the world",
+            "change the world",
+            "touch the stars"
+          ],
+          "prompt": "These hands could {{blank}} but it'll",
+          "promptZh": "即使這雙手能將整個世界擁入懷中，卻依然……"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "Never be enough",
+          "options": [
+            "Always be enough",
+            "Never feel right",
+            "Never be enough"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 17,
+          "lineId": "line-17",
+          "answer": "Never be enough",
+          "options": [
+            "Never come back",
+            "Always be mine",
+            "Never be enough"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 18,
+          "lineId": "line-18",
+          "answer": "For me",
+          "options": [
+            "With you",
+            "For me",
+            "For us"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "對我而言"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 19,
+          "lineId": "line-19",
+          "answer": "Never, never",
+          "options": [
+            "Always, always",
+            "Forever, forever",
+            "Never, never"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠不夠，永遠不夠"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 20,
+          "lineId": "line-21",
+          "answer": "Never, for me",
+          "options": [
+            "Forever, with you",
+            "Always, for you",
+            "Never, for me"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "對我而言，永遠都不夠"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-22",
+          "answer": "For me",
+          "options": [
+            "For me",
+            "With us",
+            "For them"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "對我而言"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-23",
+          "answer": "Never enough",
+          "options": [
+            "Never enough",
+            "Almost over",
+            "Always enough"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-24",
+          "answer": "Never enough",
+          "options": [
+            "Never alone",
+            "Forever young",
+            "Never enough"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-25",
+          "answer": "Never enough",
+          "options": [
+            "Always around",
+            "Never enough",
+            "Never again"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-30",
+          "answer": "we steal from",
+          "options": [
+            "we steal from",
+            "we fall through",
+            "we reach beyond"
+          ],
+          "prompt": "All the stars {{blank}} the night sky",
+          "promptZh": "即使摘下夜空中所有的繁星"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-31",
+          "answer": "Will never",
+          "options": [
+            "Could barely",
+            "Will always",
+            "Will never"
+          ],
+          "prompt": "{{blank}} be enough",
+          "promptZh": "也永遠無法讓我滿足"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-33",
+          "answer": "of gold",
+          "options": [
+            "of stone",
+            "of glass",
+            "of gold"
+          ],
+          "prompt": "Towers {{blank}} are still too little",
+          "promptZh": "即使黃金堆積成高塔，依然微不足道"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-34",
+          "answer": "could hold",
+          "options": [
+            "could hold",
+            "would break",
+            "can follow"
+          ],
+          "prompt": "These hands {{blank}} the world but it'll",
+          "promptZh": "即使這雙手能將整個世界擁入懷中，卻依然……"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-35",
+          "answer": "Never be enough",
+          "options": [
+            "Never be enough",
+            "Never give up now",
+            "Always feel alive"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-37",
+          "answer": "For me",
+          "options": [
+            "With me",
+            "For me",
+            "For you"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "對我而言"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-38",
+          "answer": "Never, never",
+          "options": [
+            "Never, never",
+            "Always, always",
+            "Forever, forever"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠不夠，永遠不夠"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-41",
+          "answer": "For me",
+          "options": [
+            "For me",
+            "For us",
+            "With them"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "對我而言"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-42",
+          "answer": "Never enough",
+          "options": [
+            "Not enough",
+            "Always enough",
+            "Never enough"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-43",
+          "answer": "Never, never",
+          "options": [
+            "Forever, forever",
+            "Never, never",
+            "Always, always"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠不夠，永遠不夠"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-44",
+          "answer": "Never enough",
+          "options": [
+            "Never again",
+            "Always enough",
+            "Never enough"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-45",
+          "answer": "Never, never",
+          "options": [
+            "Always, always",
+            "Never, never",
+            "Forever, forever"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠不夠，永遠不夠"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-46",
+          "answer": "Never enough",
+          "options": [
+            "Never enough",
+            "Never look back",
+            "Always enough"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "永遠都不夠"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-47",
+          "answer": "For me",
+          "options": [
+            "For you",
+            "For me",
+            "With us"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "對我而言"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-48",
+          "answer": "For me",
+          "options": [
+            "For me",
+            "With me",
+            "For them"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "對我而言"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-49",
+          "answer": "For me",
+          "options": [
+            "For all",
+            "For me",
+            "With you"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "對我而言"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-50",
+          "answer": "For me",
+          "options": [
+            "For us",
+            "For me",
+            "With you"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "對我而言"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I'm {{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Let it {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:4}} this {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You {{q:6}} {{q:7}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Gettin' {{q:8}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Can you {{q:9}} {{q:10}}?"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:11}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:12}} {{q:13}}?"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "'Cause darling {{q:14}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:15}} of {{q:16}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "All the stars {{q:17}} from {{q:18}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Will {{q:19}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:21}} are {{q:22}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:23}} could {{q:24}} but it'll"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:26}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:27}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Never, never"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:29}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:30}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:31}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:33}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "For me"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "All the shine of a thousand spotlights"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "All the stars {{q:34}} the night sky"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:35}} be enough"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Never be enough"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Towers {{q:36}} are still too little"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "These hands {{q:37}} the world but it'll"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "{{q:38}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Never be enough"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "{{q:39}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:40}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Never, never"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Never, for me"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:41}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "{{q:42}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:43}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:44}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "{{q:45}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "{{q:46}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "{{q:47}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "{{q:48}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "{{q:49}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "{{q:50}}"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Never Enough · Listening & Vocabulary",
+  "description": "《Never Enough》描寫一份深刻的愛情，以及即使擁有世間所有榮耀，仍然渴望與心愛的人分享幸福的心情。歌中的主角希望將美好的瞬間永遠留住，因為對方的出現喚醒了她內心深處的夢想與熱情。她明白即使擁有千盞聚光燈的光芒、滿天繁星與無數財富，若缺少愛人的陪伴，這一切依然無法帶來真正的滿足。歌曲反覆強調「Never Enough」，表達物質成就與內心渴望之間的落差。最終，《Never Enough》傳達的是愛情、渴望與人生價值的思考：即使擁有再多掌聲、財富與成功，若無法與重要的人共同分享，那份幸福仍可能留下難以填補的空缺。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Hold my breath",
+      "meaning": "屏住呼吸",
+      "usage": "游泳、潛水、緊張等待時，可以用來說暫時不呼吸。",
+      "prompt": "哪一句正確使用「Hold my breath」？",
+      "options": [
+        "I held my breath in the fridge to keep the milk cold.",
+        "The museum held my breath for three new paintings.",
+        "I held my breath to send an email to my manager.",
+        "Before going under the water, I held my breath."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：屏住呼吸不能讓牛奶保持冰冷。",
+        "錯誤：博物館收藏畫作不是 hold my breath。",
+        "錯誤：寄電子郵件不需要屏住呼吸，這裡沒有合理的使用情境。",
+        "正確：下水前屏住呼吸，符合這個片語的意思。"
+      ],
+      "explanation": "正確：下水前屏住呼吸，符合這個片語的意思。"
+    },
+    {
+      "number": 2,
+      "word": "Stay this way",
+      "meaning": "保持這個樣子、繼續維持現狀",
+      "usage": "希望某個好的情況、感覺或安排不要改變時使用。",
+      "prompt": "哪一句正確使用「Stay this way」？",
+      "options": [
+        "I stayed this way to the station on the bus.",
+        "The room looks great. I hope it stays this way.",
+        "We stay this way the tickets before the concert.",
+        "My camera stayed this way three photos yesterday."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：表示搭車去車站應用 went to the station。",
+        "正確：希望房間維持現在漂亮的樣子。",
+        "錯誤：買票不能用 stay this way 代替 buy。",
+        "錯誤：拍照應用 took three photos。"
+      ],
+      "explanation": "正確：希望房間維持現在漂亮的樣子。"
+    },
+    {
+      "number": 3,
+      "word": "Set off",
+      "meaning": "引發、啟動；出發",
+      "usage": "可指引起事件、啟動警報，或開始旅行；要根據上下文判斷。",
+      "prompt": "哪一句正確使用「Set off」？",
+      "options": [
+        "The guide set off the museum with a map.",
+        "The smoke set off the fire alarm at the hotel.",
+        "I set off a new jacket because it was raining.",
+        "Her phone set off to her mother every morning."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：參觀博物館通常說 visited the museum；此句搭配不自然。",
+        "正確：煙霧觸發飯店的火警警報。",
+        "錯誤：穿外套應用 put on，而不是 set off。",
+        "錯誤：打電話應說 calls her mother。"
+      ],
+      "explanation": "正確：煙霧觸發飯店的火警警報。"
+    },
+    {
+      "number": 4,
+      "word": "Echo",
+      "meaning": "回響、發出回聲",
+      "usage": "聲音在山谷、空房間或隧道裡反覆傳回時可以使用。",
+      "prompt": "哪一句正確使用「Echo」？",
+      "options": [
+        "My idea echoed a sandwich at the meeting.",
+        "I echoed my ticket at the airport gate.",
+        "Her voice echoed through the empty theatre.",
+        "The actor echoed a new costume for the play."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：echo 不能表示製作三明治。",
+        "錯誤：出示機票應用 showed my ticket。",
+        "正確：她的聲音在空劇院裡回響。",
+        "錯誤：換服裝應用 changed into a costume。"
+      ],
+      "explanation": "正確：她的聲音在空劇院裡回響。"
+    },
+    {
+      "number": 5,
+      "word": "Share something with someone",
+      "meaning": "與某人分享某物、某個想法或經驗",
+      "usage": "分享照片、消息、感受或經驗時使用，注意 with 後面接分享對象。",
+      "prompt": "哪一句正確使用「Share something with someone」？",
+      "options": [
+        "The student shared with his report the teacher.",
+        "We shared the train with arrived at noon.",
+        "She shared the concert to her cousin yesterday.",
+        "The scientist shared her results with the team."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：語序錯誤，應說 shared his report with the teacher。",
+        "錯誤：with 後面不能直接接 arrived 形成這種句子。",
+        "錯誤：分享給某人通常用 share ... with someone。",
+        "正確：研究人員與團隊分享結果。"
+      ],
+      "explanation": "正確：研究人員與團隊分享結果。"
+    },
+    {
+      "number": 6,
+      "word": "Spotlight",
+      "meaning": "聚光燈；眾人關注的焦點",
+      "usage": "舞台表演或受到公眾注目時可用，既有實際也有比喻用法。",
+      "prompt": "哪一句正確使用「Spotlight」？",
+      "options": [
+        "The spotlight forgot his password again.",
+        "A spotlight followed the singer across the stage.",
+        "I borrowed a spotlight of advice from my teacher.",
+        "We travelled by spotlight to the next city."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：聚光燈不是使用密碼的人。",
+        "正確：聚光燈照著舞台上的歌手移動。",
+        "錯誤：尋求建議應說 asked my teacher for advice。",
+        "錯誤：聚光燈不是交通工具。"
+      ],
+      "explanation": "正確：聚光燈照著舞台上的歌手移動。"
+    },
+    {
+      "number": 7,
+      "word": "Never enough",
+      "meaning": "永遠不夠、怎樣都不足夠",
+      "usage": "覺得時間、資源或數量無法滿足需要，或感情上仍不滿足時使用。",
+      "prompt": "哪一句正確使用「Never enough」？",
+      "options": [
+        "For this huge project, one afternoon is never enough.",
+        "The hotel never enough us a room last week.",
+        "She never enough to finish the art project.",
+        "I never enough my neighbours every Sunday."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：大型專案只花一個下午，時間永遠不夠。",
+        "錯誤：這裡需要提供房間的動詞，例如 gave。",
+        "錯誤：never enough 不是動詞，應說 didn’t have enough time。",
+        "錯誤：never enough 不能直接當作拜訪鄰居的動詞。"
+      ],
+      "explanation": "正確：大型專案只花一個下午，時間永遠不夠。"
+    },
+    {
+      "number": 8,
+      "word": "Too little",
+      "meaning": "太少、不足",
+      "usage": "數量或程度不夠時使用；little 常修飾不可數名詞，例如 time、money、space。",
+      "prompt": "哪一句正確使用「Too little」？",
+      "options": [
+        "We have too little time to finish the science project.",
+        "There are too little students in the classroom.",
+        "The train too little arrives at six.",
+        "My brother was too little of happy to dance."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：time 不可數，too little time 表示時間太少。",
+        "錯誤：students 可數，應用 too few students。",
+        "錯誤：too little 不能直接修飾 arrives 來表示時間。",
+        "錯誤：說很不開心應用 not happy enough 等自然說法。"
+      ],
+      "explanation": "正確：time 不可數，too little time 表示時間太少。"
+    },
+    {
+      "number": 9,
+      "word": "Hold the world",
+      "meaning": "擁有或掌握整個世界（詩意誇飾）",
+      "usage": "歌詞中用來表達即使擁有一切仍可能不滿足；日常描述常用 hold something in your hands。",
+      "prompt": "哪一句正確使用「Hold the world」？",
+      "options": [
+        "The bus driver held the world at the next stop.",
+        "My laptop held the world to the meeting at nine.",
+        "Even if I could hold the world in my hands, I would still miss my family.",
+        "He held the world a new language in two days."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：世界不是公車乘客，也無法在站牌讓它下車。",
+        "錯誤：這裡不能用 hold the world 表示參加會議。",
+        "正確：用誇張的想像表達擁有全世界仍會想家。",
+        "錯誤：這個片語不能表示學會語言。"
+      ],
+      "explanation": "正確：用誇張的想像表達擁有全世界仍會想家。"
+    },
+    {
+      "number": 10,
+      "word": "Take my hand",
+      "meaning": "牽著我的手、握住我的手",
+      "usage": "想牽手、帶領別人或在對方緊張時給予安慰，可以說這句話。",
+      "prompt": "哪一句正確使用「Take my hand」？",
+      "options": [
+        "The street was busy, so Dad said, “Take my hand.”",
+        "The director took my hand to edit the movie on her laptop.",
+        "I took my hand a train ticket at the machine.",
+        "The astronaut took my hand to the moon in a box."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：過繁忙的馬路時，爸爸要孩子牽手。",
+        "錯誤：剪輯電影應用 edited the movie，不能用 take my hand 代替。",
+        "錯誤：買車票應用 bought a ticket。",
+        "錯誤：這裡沒有合理的牽手情境，也無法用盒子前往月球。"
+      ],
+      "explanation": "正確：過繁忙的馬路時，爸爸要孩子牽手。"
+    }
+  ],
+  "tags": [
+    "loren allred",
+    "never enough",
+    "love",
+    "longing"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/never-enough/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/never-enough/user-cover-20261030.png",
+  "editorialRepairs": [
+    [
+      "never-enough",
+      "medium",
+      6,
+      "split nested target"
+    ],
+    [
+      "never-enough",
+      "hard",
+      6,
+      "split nested target"
+    ],
+    [
+      "never-enough",
+      "hell",
+      6,
+      "split nested target"
+    ]
+  ],
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 207.7866875,
+    "audioSha256": "4ab4d539324240aa2d6412898fe9b04718633d1ff2ed910a1057f87f675c1f42",
+    "timedLines": 50,
+    "untimedLines": 0,
+    "reviewStatus": "Conservative automatic line alignment. Unmatched/overlapping background lines remain bilingual without guessed timestamps; not a full manual timing certification."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Never Enough_.pdf",
+      "sha256": "9466cca3097f7bd17b91f64547519898009184bb28e80147ea86ddf39de7874d"
+    },
+    "chosenListening": {
+      "filename": "Never_Enough_Four_Level_Listening_Exercise.docx",
+      "sha256": "f1c8b50639b851cdcabadda2302053cf3404fa37f0ade85f5fcf010b4f576d64"
+    },
+    "chosenVocabulary": {
+      "filename": "Never_Enough_Vocabulary_Quiz.md",
+      "sha256": "eeef523cf49298c02c02dee79300ca65633d68a4b7692cf25d9acfc20bdc96ee"
+    },
+    "mp3": {
+      "filename": "Never Enough [nT0CYXcre0c].mp3",
+      "sha256": "4ab4d539324240aa2d6412898fe9b04718633d1ff2ed910a1057f87f675c1f42"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "Screenshot 2026-10-30 at 1.10.27 PM.png",
+    "sha256": "b81651b0f9ca63e5f1b28f6ddf4f0099f88d326cc9ddaeff095838c12e07a0d9",
+    "transformations": "none",
+    "selectedOn": "2026-10-30"
+  }
+}

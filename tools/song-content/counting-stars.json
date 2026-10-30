@@ -1,0 +1,3698 @@
+{
+  "slug": "counting-stars",
+  "title": "Counting Stars",
+  "singer": "OneRepublic",
+  "translations": [
+    {
+      "english": "Lately, I've been, I've been losing sleep",
+      "chinese": "最近，我總是、總是輾轉難眠",
+      "lineId": "line-1",
+      "startSeconds": 0.0,
+      "endSeconds": 4.26
+    },
+    {
+      "english": "Dreaming about the things that we could be",
+      "chinese": "夢想著你我未來可能成為的模樣",
+      "lineId": "line-2",
+      "startSeconds": 4.26,
+      "endSeconds": 9.16
+    },
+    {
+      "english": "But, baby, I've been, I've been praying hard",
+      "chinese": "可是，親愛的，我一直、一直虔誠地祈求著",
+      "lineId": "line-3",
+      "startSeconds": 9.16,
+      "endSeconds": 13.38
+    },
+    {
+      "english": "Said no more counting dollars, we'll be counting stars",
+      "chinese": "我說，別再數著金錢了，讓我們改為細數滿天繁星",
+      "lineId": "line-4",
+      "startSeconds": 13.38,
+      "endSeconds": 17.98
+    },
+    {
+      "english": "Yeah, we'll be counting stars",
+      "chinese": "沒錯，讓我們一起細數繁星",
+      "lineId": "line-5",
+      "startSeconds": 19.0,
+      "endSeconds": 22.24
+    },
+    {
+      "english": "I see this life like a swinging vine",
+      "chinese": "在我眼中，人生就像一根來回擺盪的藤蔓",
+      "lineId": "line-6",
+      "startSeconds": 37.24,
+      "endSeconds": 40.32
+    },
+    {
+      "english": "Swing my heart across the line",
+      "chinese": "讓我的心隨之擺盪，越過那道界線",
+      "lineId": "line-7",
+      "startSeconds": 40.32,
+      "endSeconds": 42.34
+    },
+    {
+      "english": "And in my face is flashing signs",
+      "chinese": "各種徵兆在我眼前不斷閃現",
+      "lineId": "line-8",
+      "startSeconds": 42.34,
+      "endSeconds": 44.34
+    },
+    {
+      "english": "Seek it out and ye shall find",
+      "chinese": "只要用心尋求，終將有所發現",
+      "lineId": "line-9",
+      "startSeconds": 44.34,
+      "endSeconds": 46.26
+    },
+    {
+      "english": "Old but I'm not that old",
+      "chinese": "我已不再年少，卻也還沒那麼老",
+      "lineId": "line-10",
+      "startSeconds": 46.26,
+      "endSeconds": 48.22
+    },
+    {
+      "english": "Young but I'm not that bold",
+      "chinese": "我仍算年輕，卻也沒有那般無畏",
+      "lineId": "line-11",
+      "startSeconds": 48.22,
+      "endSeconds": 50.16
+    },
+    {
+      "english": "And I don't think the world is sold",
+      "chinese": "而我不認為這世界真的甘願接受",
+      "lineId": "line-12",
+      "startSeconds": 50.16,
+      "endSeconds": 52.08
+    },
+    {
+      "english": "On just doing what we're told",
+      "chinese": "只是一味照著別人的吩咐行事",
+      "lineId": "line-13",
+      "startSeconds": 52.54,
+      "endSeconds": 54.18
+    },
+    {
+      "english": "I feel something so right doing the wrong thing",
+      "chinese": "做著明知不對的事，心裡卻感覺如此理所當然",
+      "lineId": "line-14",
+      "startSeconds": 54.18,
+      "endSeconds": 61.56
+    },
+    {
+      "english": "And I feel something so wrong doing the right thing",
+      "chinese": "做著理應正確的事，卻又感覺如此不對勁",
+      "lineId": "line-15",
+      "startSeconds": 62.18,
+      "endSeconds": 69.6
+    },
+    {
+      "english": "I couldn't lie, couldn't lie, couldn't lie",
+      "chinese": "我無法說謊，無法說謊，無法欺騙自己",
+      "lineId": "line-16",
+      "startSeconds": 69.6,
+      "endSeconds": 73.46
+    },
+    {
+      "english": "Everything that kills me makes me feel alive ",
+      "chinese": "那些幾乎將我摧毀的一切，反而讓我真切感受到自己活著",
+      "lineId": "line-17",
+      "startSeconds": 73.46,
+      "endSeconds": 77.88
+    },
+    {
+      "english": "Lately, I've been, I've been losing sleep",
+      "chinese": "最近，我總是、總是輾轉難眠",
+      "lineId": "line-18",
+      "startSeconds": 77.88,
+      "endSeconds": 81.34
+    },
+    {
+      "english": "Dreaming about the things that we could be",
+      "chinese": "夢想著你我未來可能成為的模樣",
+      "lineId": "line-19",
+      "startSeconds": 81.34,
+      "endSeconds": 85.34
+    },
+    {
+      "english": "But, baby, I've been, I've been praying hard",
+      "chinese": "可是，親愛的，我一直、一直虔誠地祈求著",
+      "lineId": "line-20",
+      "startSeconds": 85.34,
+      "endSeconds": 89.14
+    },
+    {
+      "english": "Said no more counting dollars, we'll be counting stars",
+      "chinese": "我說，別再數著金錢了，讓我們改為細數滿天繁星",
+      "lineId": "line-21"
+    },
+    {
+      "english": "Lately, I've been, I've been losing sleep",
+      "chinese": "最近，我總是、總是輾轉難眠",
+      "lineId": "line-22"
+    },
+    {
+      "english": "Dreaming about the things that we could be",
+      "chinese": "夢想著你我未來可能成為的模樣",
+      "lineId": "line-23",
+      "startSeconds": 97.58,
+      "endSeconds": 101.16
+    },
+    {
+      "english": "But, baby, I've been, I've been praying hard",
+      "chinese": "可是，親愛的，我一直、一直虔誠地祈求著",
+      "lineId": "line-24",
+      "startSeconds": 101.16,
+      "endSeconds": 104.94
+    },
+    {
+      "english": "Said no more counting dollars, we'll be, we'll be counting stars",
+      "chinese": "我說，別再數著金錢了，我們要、我們要一起細數繁星",
+      "lineId": "line-25"
+    },
+    {
+      "english": "I feel your love, and I feel it burn",
+      "chinese": "我感受到你的愛，也感受到它熾熱地燃燒",
+      "lineId": "line-26",
+      "startSeconds": 115.78,
+      "endSeconds": 118.92
+    },
+    {
+      "english": "Down this river every turn",
+      "chinese": "沿著這條河流，在每一道曲折的河灣間",
+      "lineId": "line-27",
+      "startSeconds": 118.92,
+      "endSeconds": 120.94
+    },
+    {
+      "english": "Hope is our four-letter word",
+      "chinese": "「希望」，是我們心中那個四個字母的詞",
+      "lineId": "line-28",
+      "startSeconds": 120.94,
+      "endSeconds": 122.92
+    },
+    {
+      "english": "Make that money, watch it burn",
+      "chinese": "賺來那些金錢，再眼看著它燃燒殆盡",
+      "lineId": "line-29",
+      "startSeconds": 122.92,
+      "endSeconds": 124.94
+    },
+    {
+      "english": "Old, but I'm not that old",
+      "chinese": "我已不再年少，卻也還沒那麼老",
+      "lineId": "line-30",
+      "startSeconds": 124.94,
+      "endSeconds": 126.94
+    },
+    {
+      "english": "Young, but I'm not that bold",
+      "chinese": "我仍算年輕，卻也沒有那般無畏",
+      "lineId": "line-31",
+      "startSeconds": 126.94,
+      "endSeconds": 128.88
+    },
+    {
+      "english": "And I don't think the world is sold",
+      "chinese": "而我不認為這世界真的甘願接受",
+      "lineId": "line-32",
+      "startSeconds": 128.88,
+      "endSeconds": 130.82
+    },
+    {
+      "english": "On just doing what we're told",
+      "chinese": "只是一味照著別人的吩咐行事",
+      "lineId": "line-33",
+      "startSeconds": 131.28,
+      "endSeconds": 132.86
+    },
+    {
+      "english": "And I feel something so wrong doing the right thing",
+      "chinese": "做著理應正確的事，卻又感覺如此不對勁",
+      "lineId": "line-34",
+      "startSeconds": 132.86,
+      "endSeconds": 140.58
+    },
+    {
+      "english": "I couldn't lie, couldn't lie, couldn't lie",
+      "chinese": "我無法說謊，無法說謊，無法欺騙自己",
+      "lineId": "line-35",
+      "startSeconds": 140.58,
+      "endSeconds": 144.34
+    },
+    {
+      "english": "Everything that drowns me makes me wanna fly",
+      "chinese": "那些幾乎將我淹沒的一切，反而讓我渴望展翅高飛",
+      "lineId": "line-36",
+      "startSeconds": 144.86,
+      "endSeconds": 148.76
+    },
+    {
+      "english": "Lately, I've been, I've been losing sleep",
+      "chinese": "最近，我總是、總是輾轉難眠",
+      "lineId": "line-37",
+      "startSeconds": 148.76,
+      "endSeconds": 152.16
+    },
+    {
+      "english": "Dreaming about the things that we could be",
+      "chinese": "夢想著你我未來可能成為的模樣",
+      "lineId": "line-38",
+      "startSeconds": 152.86,
+      "endSeconds": 156.14
+    },
+    {
+      "english": "But, baby, I've been, I've been praying hard",
+      "chinese": "可是，親愛的，我一直、一直虔誠地祈求著",
+      "lineId": "line-39",
+      "startSeconds": 156.14,
+      "endSeconds": 159.94
+    },
+    {
+      "english": "Said no more counting dollars, we'll be counting stars",
+      "chinese": "我說，別再數著金錢了，讓我們改為細數滿天繁星",
+      "lineId": "line-40",
+      "startSeconds": 159.94,
+      "endSeconds": 163.96
+    },
+    {
+      "english": "Lately, I've been, I've been losing sleep",
+      "chinese": "最近，我總是、總是輾轉難眠",
+      "lineId": "line-41"
+    },
+    {
+      "english": "Dreaming about the things that we could be",
+      "chinese": "夢想著你我未來可能成為的模樣",
+      "lineId": "line-42",
+      "startSeconds": 167.44,
+      "endSeconds": 171.9
+    },
+    {
+      "english": "But, baby, I've been, I've been praying hard",
+      "chinese": "可是，親愛的，我一直、一直虔誠地祈求著",
+      "lineId": "line-43",
+      "startSeconds": 172.22,
+      "endSeconds": 175.76
+    },
+    {
+      "english": "Said no more counting dollars, we'll be, we'll be counting stars",
+      "chinese": "我說，別再數著金錢了，我們要、我們要一起細數繁星",
+      "lineId": "line-44",
+      "startSeconds": 175.76,
+      "endSeconds": 181.14
+    },
+    {
+      "english": "Oh, take that money, watch it burn",
+      "chinese": "噢，拿起那些金錢，看著它燃燒殆盡",
+      "lineId": "line-45",
+      "startSeconds": 182.52,
+      "endSeconds": 185.76
+    },
+    {
+      "english": "Sink in the river the lessons I've learned",
+      "chinese": "讓我從過往學到的教訓，沉入河流深處",
+      "lineId": "line-46"
+    },
+    {
+      "english": "Take that money, watch it burn",
+      "chinese": "拿起那些金錢，看著它燃燒殆盡",
+      "lineId": "line-47"
+    },
+    {
+      "english": "Sink in the river the lessons I've learned",
+      "chinese": "讓我從過往學到的教訓，沉入河流深處",
+      "lineId": "line-48"
+    },
+    {
+      "english": "Take that money, watch it burn",
+      "chinese": "拿起那些金錢，看著它燃燒殆盡",
+      "lineId": "line-49"
+    },
+    {
+      "english": "Sink in the river the lessons I've learned",
+      "chinese": "讓我從過往學到的教訓，沉入河流深處",
+      "lineId": "line-50"
+    },
+    {
+      "english": "Take that money, watch it burn",
+      "chinese": "拿起那些金錢，看著它燃燒殆盡",
+      "lineId": "line-51"
+    },
+    {
+      "english": "Sink in the river the lessons I've learned",
+      "chinese": "讓我從過往學到的教訓，沉入河流深處",
+      "lineId": "line-52",
+      "startSeconds": 197.54,
+      "endSeconds": 199.66
+    },
+    {
+      "english": "Everything that kills me makes me feel alive ",
+      "chinese": "那些幾乎將我摧毀的一切，反而讓我真切感受到自己活著",
+      "lineId": "line-53",
+      "startSeconds": 199.66,
+      "endSeconds": 206.74
+    },
+    {
+      "english": "Lately, I've been, I've been losing sleep",
+      "chinese": "最近，我總是、總是輾轉難眠",
+      "lineId": "line-54"
+    },
+    {
+      "english": "Dreaming about the things that we could be",
+      "chinese": "夢想著你我未來可能成為的模樣",
+      "lineId": "line-55",
+      "startSeconds": 210.18,
+      "endSeconds": 214.12
+    },
+    {
+      "english": "But, baby, I've been, I've been praying hard",
+      "chinese": "可是，親愛的，我一直、一直虔誠地祈求著",
+      "lineId": "line-56",
+      "startSeconds": 214.12,
+      "endSeconds": 217.98
+    },
+    {
+      "english": "Said no more counting dollars, we'll be counting stars",
+      "chinese": "我說，別再數著金錢了，讓我們改為細數滿天繁星",
+      "lineId": "line-57",
+      "startSeconds": 217.98,
+      "endSeconds": 221.98
+    },
+    {
+      "english": "Lately, I've been, I've been losing sleep",
+      "chinese": "最近，我總是、總是輾轉難眠",
+      "lineId": "line-58"
+    },
+    {
+      "english": "Dreaming about the things that we could be",
+      "chinese": "夢想著你我未來可能成為的模樣",
+      "lineId": "line-59",
+      "startSeconds": 225.88,
+      "endSeconds": 229.88
+    },
+    {
+      "english": "But, baby, I've been, I've been praying hard",
+      "chinese": "可是，親愛的，我一直、一直虔誠地祈求著",
+      "lineId": "line-60",
+      "startSeconds": 229.88,
+      "endSeconds": 233.82
+    },
+    {
+      "english": "Said no more counting dollars, we'll be, we'll be counting stars",
+      "chinese": "我說，別再數著金錢了，我們要、我們要一起細數繁星",
+      "lineId": "line-61"
+    },
+    {
+      "english": "Take that money, watch it burn",
+      "chinese": "拿起那些金錢，看著它燃燒殆盡",
+      "lineId": "line-62"
+    },
+    {
+      "english": "Sink in the river the lessons I've learned",
+      "chinese": "讓我從過往學到的教訓，沉入河流深處",
+      "lineId": "line-63"
+    },
+    {
+      "english": "Take that money, watch it burn",
+      "chinese": "拿起那些金錢，看著它燃燒殆盡",
+      "lineId": "line-64"
+    },
+    {
+      "english": "Sink in the river the lessons I've learned",
+      "chinese": "讓我從過往學到的教訓，沉入河流深處",
+      "lineId": "line-65"
+    },
+    {
+      "english": "Take that money ,watch it burn",
+      "chinese": "拿起那些金錢，看著它燃燒殆盡",
+      "lineId": "line-66"
+    },
+    {
+      "english": "Sink in the river the lessons I've learned",
+      "chinese": "讓我從過往學到的教訓，沉入河流深處",
+      "lineId": "line-67",
+      "startSeconds": 240.56,
+      "endSeconds": 241.86
+    },
+    {
+      "english": "Take that money, watch it burn",
+      "chinese": "拿起那些金錢，看著它燃燒殆盡",
+      "lineId": "line-68"
+    },
+    {
+      "english": "Sink in the river the lessons I've learned",
+      "chinese": "讓我從過往學到的教訓，沉入河流深處",
+      "lineId": "line-69"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "losing sleep",
+          "options": [
+            "getting tired",
+            "losing sleep",
+            "falling asleep"
+          ],
+          "prompt": "Lately, I've been, I've been {{blank}}",
+          "promptZh": "最近，我總是、總是輾轉難眠"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "things that we could be",
+          "options": [
+            "things that we could be",
+            "places that we could see",
+            "dreams that we might lose"
+          ],
+          "prompt": "Dreaming about the {{blank}}",
+          "promptZh": "夢想著你我未來可能成為的模樣"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "praying hard",
+          "options": [
+            "working late",
+            "praying hard",
+            "waiting here"
+          ],
+          "prompt": "But, baby, I've been, I've been {{blank}}",
+          "promptZh": "可是，親愛的，我一直、一直虔誠地祈求著"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "counting dollars",
+          "options": [
+            "counting dollars",
+            "saving pennies",
+            "spending money"
+          ],
+          "prompt": "Said no more {{blank}}, we'll be counting stars",
+          "promptZh": "我說，別再數著金錢了，讓我們改為細數滿天繁星"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-4",
+          "answer": "counting stars",
+          "options": [
+            "watching clouds",
+            "chasing cars",
+            "counting stars"
+          ],
+          "prompt": "Said no more counting dollars, we'll be {{blank}}",
+          "promptZh": "我說，別再數著金錢了，讓我們改為細數滿天繁星"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "swinging vine",
+          "options": [
+            "winding road",
+            "falling tree",
+            "swinging vine"
+          ],
+          "prompt": "I see this life like a {{blank}}",
+          "promptZh": "在我眼中，人生就像一根來回擺盪的藤蔓"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "flashing signs",
+          "options": [
+            "flashing signs",
+            "fading lights",
+            "warning bells"
+          ],
+          "prompt": "And in my face is {{blank}}",
+          "promptZh": "各種徵兆在我眼前不斷閃現"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-10",
+          "answer": "not that old",
+          "options": [
+            "getting older",
+            "not that old",
+            "much too young"
+          ],
+          "prompt": "Old but I'm {{blank}}",
+          "promptZh": "我已不再年少，卻也還沒那麼老"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-13",
+          "answer": "doing what we're told",
+          "options": [
+            "going where we want",
+            "saying what we know",
+            "doing what we're told"
+          ],
+          "prompt": "On just {{blank}}",
+          "promptZh": "只是一味照著別人的吩咐行事"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-14",
+          "answer": "doing the wrong thing",
+          "options": [
+            "making the same choice",
+            "doing the wrong thing",
+            "taking the long road"
+          ],
+          "prompt": "I feel something so right {{blank}}",
+          "promptZh": "做著明知不對的事，心裡卻感覺如此理所當然"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-15",
+          "answer": "doing the right thing",
+          "options": [
+            "doing the right thing",
+            "breaking the old rules",
+            "following the wrong path"
+          ],
+          "prompt": "And I feel something so wrong {{blank}}",
+          "promptZh": "做著理應正確的事，卻又感覺如此不對勁"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-17",
+          "answer": "makes me feel alive",
+          "options": [
+            "makes me run away",
+            "makes me feel alive",
+            "leaves me far behind"
+          ],
+          "prompt": "Everything that kills me {{blank}} ",
+          "promptZh": "那些幾乎將我摧毀的一切，反而讓我真切感受到自己活著"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-26",
+          "answer": "feel it burn",
+          "options": [
+            "watch it fade",
+            "feel it burn",
+            "hear it call"
+          ],
+          "prompt": "I feel your love, and I {{blank}}",
+          "promptZh": "我感受到你的愛，也感受到它熾熱地燃燒"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-28",
+          "answer": "four-letter word",
+          "options": [
+            "secret little wish",
+            "golden promise",
+            "four-letter word"
+          ],
+          "prompt": "Hope is our {{blank}}",
+          "promptZh": "「希望」，是我們心中那個四個字母的詞"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-29",
+          "answer": "watch it burn",
+          "options": [
+            "make it last",
+            "watch it burn",
+            "let it go"
+          ],
+          "prompt": "Make that money, {{blank}}",
+          "promptZh": "賺來那些金錢，再眼看著它燃燒殆盡"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-30",
+          "answer": "not that old",
+          "options": [
+            "feeling young",
+            "getting weak",
+            "not that old"
+          ],
+          "prompt": "Old, but I'm {{blank}}",
+          "promptZh": "我已不再年少，卻也還沒那麼老"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-36",
+          "answer": "makes me wanna fly",
+          "options": [
+            "makes me wanna fly",
+            "makes me want to hide",
+            "makes me feel so small"
+          ],
+          "prompt": "Everything that drowns me {{blank}}",
+          "promptZh": "那些幾乎將我淹沒的一切，反而讓我渴望展翅高飛"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-37",
+          "answer": "I've been losing sleep",
+          "options": [
+            "I've been losing sleep",
+            "I've been counting sheep",
+            "I've been feeling weak"
+          ],
+          "prompt": "Lately, I've been, {{blank}}",
+          "promptZh": "最近，我總是、總是輾轉難眠"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-46",
+          "answer": "lessons I've learned",
+          "options": [
+            "promises I've made",
+            "dreams I've forgotten",
+            "lessons I've learned"
+          ],
+          "prompt": "Sink in the river the {{blank}}",
+          "promptZh": "讓我從過往學到的教訓，沉入河流深處"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-47",
+          "answer": "watch it burn",
+          "options": [
+            "watch it burn",
+            "watch it grow",
+            "make it shine"
+          ],
+          "prompt": "Take that money, {{blank}}",
+          "promptZh": "拿起那些金錢，看著它燃燒殆盡"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Lately, I've been, I've been {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Dreaming about the {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "But, baby, I've been, I've been {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Said no more {{q:4}}, we'll be {{q:5}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Yeah, we'll be counting stars"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I see this life like a {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Swing my heart across the line"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And in my face is {{q:7}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Seek it out and ye shall find"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Old but I'm {{q:8}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Young but I'm not that bold"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And I don't think the world is sold"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "On just {{q:9}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I feel something so right {{q:10}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And I feel something so wrong {{q:11}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I couldn't lie, couldn't lie, couldn't lie"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Everything that kills me {{q:12}} "
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Lately, I've been, I've been losing sleep"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Dreaming about the things that we could be"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "But, baby, I've been, I've been praying hard"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Said no more counting dollars, we'll be counting stars"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Lately, I've been, I've been losing sleep"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Dreaming about the things that we could be"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "But, baby, I've been, I've been praying hard"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Said no more counting dollars, we'll be, we'll be counting stars"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I feel your love, and I {{q:13}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Down this river every turn"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Hope is our {{q:14}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Make that money, {{q:15}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Old, but I'm {{q:16}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Young, but I'm not that bold"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "And I don't think the world is sold"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "On just doing what we're told"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "And I feel something so wrong doing the right thing"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I couldn't lie, couldn't lie, couldn't lie"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Everything that drowns me {{q:17}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Lately, I've been, {{q:18}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Dreaming about the things that we could be"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "But, baby, I've been, I've been praying hard"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Said no more counting dollars, we'll be counting stars"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Lately, I've been, I've been losing sleep"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Dreaming about the things that we could be"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "But, baby, I've been, I've been praying hard"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Said no more counting dollars, we'll be, we'll be counting stars"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Oh, take that money, watch it burn"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Sink in the river the {{q:19}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Take that money, {{q:20}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Take that money, watch it burn"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Take that money, watch it burn"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Everything that kills me makes me feel alive "
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Lately, I've been, I've been losing sleep"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Dreaming about the things that we could be"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "But, baby, I've been, I've been praying hard"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Said no more counting dollars, we'll be counting stars"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Lately, I've been, I've been losing sleep"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Dreaming about the things that we could be"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "But, baby, I've been, I've been praying hard"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Said no more counting dollars, we'll be, we'll be counting stars"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Take that money, watch it burn"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "Take that money, watch it burn"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "Take that money ,watch it burn"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Take that money, watch it burn"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "Sink in the river the lessons I've learned"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "losing sleep",
+          "options": [
+            "losing sleep",
+            "getting tired",
+            "falling asleep"
+          ],
+          "prompt": "Lately, I've been, I've been {{blank}}",
+          "promptZh": "最近，我總是、總是輾轉難眠"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "things that we could be",
+          "options": [
+            "places that we could see",
+            "things that we could be",
+            "dreams that we might lose"
+          ],
+          "prompt": "Dreaming about the {{blank}}",
+          "promptZh": "夢想著你我未來可能成為的模樣"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "praying hard",
+          "options": [
+            "praying hard",
+            "working late",
+            "waiting here"
+          ],
+          "prompt": "But, baby, I've been, I've been {{blank}}",
+          "promptZh": "可是，親愛的，我一直、一直虔誠地祈求著"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "counting dollars",
+          "options": [
+            "saving pennies",
+            "spending money",
+            "counting dollars"
+          ],
+          "prompt": "Said no more {{blank}}, we'll be counting stars",
+          "promptZh": "我說，別再數著金錢了，讓我們改為細數滿天繁星"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-4",
+          "answer": "counting stars",
+          "options": [
+            "watching clouds",
+            "counting stars",
+            "chasing cars"
+          ],
+          "prompt": "Said no more counting dollars, we'll be {{blank}}",
+          "promptZh": "我說，別再數著金錢了，讓我們改為細數滿天繁星"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "swinging vine",
+          "options": [
+            "winding road",
+            "swinging vine",
+            "falling tree"
+          ],
+          "prompt": "I see this life like a {{blank}}",
+          "promptZh": "在我眼中，人生就像一根來回擺盪的藤蔓"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "across the line",
+          "options": [
+            "into the night",
+            "over the hill",
+            "across the line"
+          ],
+          "prompt": "Swing my heart {{blank}}",
+          "promptZh": "讓我的心隨之擺盪，越過那道界線"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "flashing signs",
+          "options": [
+            "flashing signs",
+            "fading lights",
+            "warning bells"
+          ],
+          "prompt": "And in my face is {{blank}}",
+          "promptZh": "各種徵兆在我眼前不斷閃現"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "Seek it out",
+          "options": [
+            "Leave it there",
+            "Seek it out",
+            "Keep it safe"
+          ],
+          "prompt": "{{blank}} and ye shall find",
+          "promptZh": "只要用心尋求，終將有所發現"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "not that old",
+          "options": [
+            "not that old",
+            "getting older",
+            "much too young"
+          ],
+          "prompt": "Old but I'm {{blank}}",
+          "promptZh": "我已不再年少，卻也還沒那麼老"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "not that bold",
+          "options": [
+            "not that bold",
+            "quite so brave",
+            "feeling strong"
+          ],
+          "prompt": "Young but I'm {{blank}}",
+          "promptZh": "我仍算年輕，卻也沒有那般無畏"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "world is sold",
+          "options": [
+            "world is cold",
+            "world is sold",
+            "world has changed"
+          ],
+          "prompt": "And I don't think the {{blank}}",
+          "promptZh": "而我不認為這世界真的甘願接受"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "doing what we're told",
+          "options": [
+            "going where we want",
+            "saying what we know",
+            "doing what we're told"
+          ],
+          "prompt": "On just {{blank}}",
+          "promptZh": "只是一味照著別人的吩咐行事"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "doing the wrong thing",
+          "options": [
+            "doing the wrong thing",
+            "making the same choice",
+            "taking the long road"
+          ],
+          "prompt": "I feel something so right {{blank}}",
+          "promptZh": "做著明知不對的事，心裡卻感覺如此理所當然"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "doing the right thing",
+          "options": [
+            "breaking the old rules",
+            "doing the right thing",
+            "following the wrong path"
+          ],
+          "prompt": "And I feel something so wrong {{blank}}",
+          "promptZh": "做著理應正確的事，卻又感覺如此不對勁"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "couldn't lie",
+          "options": [
+            "couldn't stay",
+            "wouldn't cry",
+            "couldn't lie"
+          ],
+          "prompt": "I {{blank}}, couldn't lie, couldn't lie",
+          "promptZh": "我無法說謊，無法說謊，無法欺騙自己"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-17",
+          "answer": "makes me feel alive",
+          "options": [
+            "makes me run away",
+            "makes me feel alive",
+            "leaves me far behind"
+          ],
+          "prompt": "Everything that kills me {{blank}} ",
+          "promptZh": "那些幾乎將我摧毀的一切，反而讓我真切感受到自己活著"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "Dreaming about",
+          "options": [
+            "Thinking beyond",
+            "Talking about",
+            "Dreaming about"
+          ],
+          "prompt": "{{blank}} the things that we could be",
+          "promptZh": "夢想著你我未來可能成為的模樣"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-20",
+          "answer": "praying hard",
+          "options": [
+            "trying again",
+            "playing cards",
+            "praying hard"
+          ],
+          "prompt": "But, baby, I've been, I've been {{blank}}",
+          "promptZh": "可是，親愛的，我一直、一直虔誠地祈求著"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-21",
+          "answer": "no more counting dollars",
+          "options": [
+            "no more counting dollars",
+            "no more making promises",
+            "no more chasing shadows"
+          ],
+          "prompt": "Said {{blank}}, we'll be counting stars",
+          "promptZh": "我說，別再數著金錢了，讓我們改為細數滿天繁星"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-22",
+          "answer": "I've been losing sleep",
+          "options": [
+            "I've been losing sleep",
+            "I've been feeling fine",
+            "I've been sleeping well"
+          ],
+          "prompt": "Lately, I've been, {{blank}}",
+          "promptZh": "最近，我總是、總是輾轉難眠"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-23",
+          "answer": "things that we could be",
+          "options": [
+            "stories that we could tell",
+            "things that we could be",
+            "places where we might go"
+          ],
+          "prompt": "Dreaming about the {{blank}}",
+          "promptZh": "夢想著你我未來可能成為的模樣"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-24",
+          "answer": "I've been praying hard",
+          "options": [
+            "I've been waiting long",
+            "I've been praying hard",
+            "I've been trying more"
+          ],
+          "prompt": "But, baby, I've been, {{blank}}",
+          "promptZh": "可是，親愛的，我一直、一直虔誠地祈求著"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-25",
+          "answer": "we'll be counting stars",
+          "options": [
+            "we'll be chasing dreams",
+            "we'll be watching rain",
+            "we'll be counting stars"
+          ],
+          "prompt": "Said no more counting dollars, we'll be, {{blank}}",
+          "promptZh": "我說，別再數著金錢了，我們要、我們要一起細數繁星"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-26",
+          "answer": "feel it burn",
+          "options": [
+            "feel it burn",
+            "watch it fade",
+            "hear it call"
+          ],
+          "prompt": "I feel your love, and I {{blank}}",
+          "promptZh": "我感受到你的愛，也感受到它熾熱地燃燒"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-28",
+          "answer": "four-letter word",
+          "options": [
+            "secret little wish",
+            "golden promise",
+            "four-letter word"
+          ],
+          "prompt": "Hope is our {{blank}}",
+          "promptZh": "「希望」，是我們心中那個四個字母的詞"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-29",
+          "answer": "watch it burn",
+          "options": [
+            "make it last",
+            "watch it burn",
+            "let it go"
+          ],
+          "prompt": "Make that money, {{blank}}",
+          "promptZh": "賺來那些金錢，再眼看著它燃燒殆盡"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-30",
+          "answer": "not that old",
+          "options": [
+            "feeling young",
+            "not that old",
+            "getting weak"
+          ],
+          "prompt": "Old, but I'm {{blank}}",
+          "promptZh": "我已不再年少，卻也還沒那麼老"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-36",
+          "answer": "makes me wanna fly",
+          "options": [
+            "makes me want to hide",
+            "makes me feel so small",
+            "makes me wanna fly"
+          ],
+          "prompt": "Everything that drowns me {{blank}}",
+          "promptZh": "那些幾乎將我淹沒的一切，反而讓我渴望展翅高飛"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-37",
+          "answer": "I've been losing sleep",
+          "options": [
+            "I've been losing sleep",
+            "I've been counting sheep",
+            "I've been feeling weak"
+          ],
+          "prompt": "Lately, I've been, {{blank}}",
+          "promptZh": "最近，我總是、總是輾轉難眠"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-46",
+          "answer": "lessons I've learned",
+          "options": [
+            "promises I've made",
+            "dreams I've forgotten",
+            "lessons I've learned"
+          ],
+          "prompt": "Sink in the river the {{blank}}",
+          "promptZh": "讓我從過往學到的教訓，沉入河流深處"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-47",
+          "answer": "watch it burn",
+          "options": [
+            "watch it burn",
+            "watch it grow",
+            "make it shine"
+          ],
+          "prompt": "Take that money, {{blank}}",
+          "promptZh": "拿起那些金錢，看著它燃燒殆盡"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Lately, I've been, I've been {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Dreaming about the {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "But, baby, I've been, I've been {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Said no more {{q:4}}, we'll be {{q:5}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Yeah, we'll be counting stars"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I see this life like a {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Swing my heart {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And in my face is {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:9}} and ye shall find"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Old but I'm {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Young but I'm {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And I don't think the {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "On just {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I feel something so right {{q:14}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And I feel something so wrong {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I {{q:16}}, couldn't lie, couldn't lie"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Everything that kills me {{q:17}} "
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Lately, I've been, I've been losing sleep"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:18}} the things that we could be"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "But, baby, I've been, I've been {{q:19}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Said {{q:20}}, we'll be counting stars"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Lately, I've been, {{q:21}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Dreaming about the {{q:22}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "But, baby, I've been, {{q:23}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Said no more counting dollars, we'll be, {{q:24}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I feel your love, and I {{q:25}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Down this river every turn"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Hope is our {{q:26}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Make that money, {{q:27}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Old, but I'm {{q:28}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Young, but I'm not that bold"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "And I don't think the world is sold"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "On just doing what we're told"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "And I feel something so wrong doing the right thing"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I couldn't lie, couldn't lie, couldn't lie"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Everything that drowns me {{q:29}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Lately, I've been, {{q:30}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Dreaming about the things that we could be"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "But, baby, I've been, I've been praying hard"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Said no more counting dollars, we'll be counting stars"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Lately, I've been, I've been losing sleep"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Dreaming about the things that we could be"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "But, baby, I've been, I've been praying hard"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Said no more counting dollars, we'll be, we'll be counting stars"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Oh, take that money, watch it burn"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Sink in the river the {{q:31}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Take that money, {{q:32}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Take that money, watch it burn"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Take that money, watch it burn"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Everything that kills me makes me feel alive "
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Lately, I've been, I've been losing sleep"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Dreaming about the things that we could be"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "But, baby, I've been, I've been praying hard"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Said no more counting dollars, we'll be counting stars"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Lately, I've been, I've been losing sleep"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Dreaming about the things that we could be"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "But, baby, I've been, I've been praying hard"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Said no more counting dollars, we'll be, we'll be counting stars"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Take that money, watch it burn"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "Take that money, watch it burn"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "Take that money ,watch it burn"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Take that money, watch it burn"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "Sink in the river the lessons I've learned"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "losing sleep",
+          "options": [
+            "losing sleep",
+            "getting tired",
+            "falling asleep"
+          ],
+          "prompt": "Lately, I've been, I've been {{blank}}",
+          "promptZh": "最近，我總是、總是輾轉難眠"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "things that we could be",
+          "options": [
+            "places that we could see",
+            "things that we could be",
+            "dreams that we might lose"
+          ],
+          "prompt": "Dreaming about the {{blank}}",
+          "promptZh": "夢想著你我未來可能成為的模樣"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "praying hard",
+          "options": [
+            "working late",
+            "waiting here",
+            "praying hard"
+          ],
+          "prompt": "But, baby, I've been, I've been {{blank}}",
+          "promptZh": "可是，親愛的，我一直、一直虔誠地祈求著"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "counting dollars",
+          "options": [
+            "saving pennies",
+            "spending money",
+            "counting dollars"
+          ],
+          "prompt": "Said no more {{blank}}, we'll be counting stars",
+          "promptZh": "我說，別再數著金錢了，讓我們改為細數滿天繁星"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-4",
+          "answer": "counting stars",
+          "options": [
+            "counting stars",
+            "watching clouds",
+            "chasing cars"
+          ],
+          "prompt": "Said no more counting dollars, we'll be {{blank}}",
+          "promptZh": "我說，別再數著金錢了，讓我們改為細數滿天繁星"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "swinging vine",
+          "options": [
+            "swinging vine",
+            "winding road",
+            "falling tree"
+          ],
+          "prompt": "I see this life like a {{blank}}",
+          "promptZh": "在我眼中，人生就像一根來回擺盪的藤蔓"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "across the line",
+          "options": [
+            "into the night",
+            "over the hill",
+            "across the line"
+          ],
+          "prompt": "Swing my heart {{blank}}",
+          "promptZh": "讓我的心隨之擺盪，越過那道界線"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "flashing signs",
+          "options": [
+            "fading lights",
+            "warning bells",
+            "flashing signs"
+          ],
+          "prompt": "And in my face is {{blank}}",
+          "promptZh": "各種徵兆在我眼前不斷閃現"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "Seek it out",
+          "options": [
+            "Leave it there",
+            "Seek it out",
+            "Keep it safe"
+          ],
+          "prompt": "{{blank}} and ye shall find",
+          "promptZh": "只要用心尋求，終將有所發現"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "not that old",
+          "options": [
+            "not that old",
+            "getting older",
+            "much too young"
+          ],
+          "prompt": "Old but I'm {{blank}}",
+          "promptZh": "我已不再年少，卻也還沒那麼老"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "not that bold",
+          "options": [
+            "not that bold",
+            "quite so brave",
+            "feeling strong"
+          ],
+          "prompt": "Young but I'm {{blank}}",
+          "promptZh": "我仍算年輕，卻也沒有那般無畏"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "world is sold",
+          "options": [
+            "world is cold",
+            "world has changed",
+            "world is sold"
+          ],
+          "prompt": "And I don't think the {{blank}}",
+          "promptZh": "而我不認為這世界真的甘願接受"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "doing what we're told",
+          "options": [
+            "going where we want",
+            "saying what we know",
+            "doing what we're told"
+          ],
+          "prompt": "On just {{blank}}",
+          "promptZh": "只是一味照著別人的吩咐行事"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "doing the wrong thing",
+          "options": [
+            "doing the wrong thing",
+            "making the same choice",
+            "taking the long road"
+          ],
+          "prompt": "I feel something so right {{blank}}",
+          "promptZh": "做著明知不對的事，心裡卻感覺如此理所當然"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "doing the right thing",
+          "options": [
+            "doing the right thing",
+            "breaking the old rules",
+            "following the wrong path"
+          ],
+          "prompt": "And I feel something so wrong {{blank}}",
+          "promptZh": "做著理應正確的事，卻又感覺如此不對勁"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "couldn't lie",
+          "options": [
+            "couldn't stay",
+            "couldn't lie",
+            "wouldn't cry"
+          ],
+          "prompt": "I {{blank}}, couldn't lie, couldn't lie",
+          "promptZh": "我無法說謊，無法說謊，無法欺騙自己"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-17",
+          "answer": "makes me feel alive",
+          "options": [
+            "makes me run away",
+            "makes me feel alive",
+            "leaves me far behind"
+          ],
+          "prompt": "Everything that kills me {{blank}} ",
+          "promptZh": "那些幾乎將我摧毀的一切，反而讓我真切感受到自己活著"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "Dreaming about",
+          "options": [
+            "Dreaming about",
+            "Thinking beyond",
+            "Talking about"
+          ],
+          "prompt": "{{blank}} the things that we could be",
+          "promptZh": "夢想著你我未來可能成為的模樣"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-20",
+          "answer": "praying hard",
+          "options": [
+            "trying again",
+            "praying hard",
+            "playing cards"
+          ],
+          "prompt": "But, baby, I've been, I've been {{blank}}",
+          "promptZh": "可是，親愛的，我一直、一直虔誠地祈求著"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-21",
+          "answer": "no more counting dollars",
+          "options": [
+            "no more making promises",
+            "no more counting dollars",
+            "no more chasing shadows"
+          ],
+          "prompt": "Said {{blank}}, we'll be counting stars",
+          "promptZh": "我說，別再數著金錢了，讓我們改為細數滿天繁星"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-22",
+          "answer": "I've been losing sleep",
+          "options": [
+            "I've been feeling fine",
+            "I've been sleeping well",
+            "I've been losing sleep"
+          ],
+          "prompt": "Lately, I've been, {{blank}}",
+          "promptZh": "最近，我總是、總是輾轉難眠"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-23",
+          "answer": "things that we could be",
+          "options": [
+            "stories that we could tell",
+            "places where we might go",
+            "things that we could be"
+          ],
+          "prompt": "Dreaming about the {{blank}}",
+          "promptZh": "夢想著你我未來可能成為的模樣"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-24",
+          "answer": "I've been praying hard",
+          "options": [
+            "I've been waiting long",
+            "I've been praying hard",
+            "I've been trying more"
+          ],
+          "prompt": "But, baby, I've been, {{blank}}",
+          "promptZh": "可是，親愛的，我一直、一直虔誠地祈求著"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-25",
+          "answer": "we'll be counting stars",
+          "options": [
+            "we'll be chasing dreams",
+            "we'll be counting stars",
+            "we'll be watching rain"
+          ],
+          "prompt": "Said no more counting dollars, we'll be, {{blank}}",
+          "promptZh": "我說，別再數著金錢了，我們要、我們要一起細數繁星"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-26",
+          "answer": "feel it burn",
+          "options": [
+            "watch it fade",
+            "hear it call",
+            "feel it burn"
+          ],
+          "prompt": "I feel your love, and I {{blank}}",
+          "promptZh": "我感受到你的愛，也感受到它熾熱地燃燒"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-27",
+          "answer": "every turn",
+          "options": [
+            "every night",
+            "every turn",
+            "every mile"
+          ],
+          "prompt": "Down this river {{blank}}",
+          "promptZh": "沿著這條河流，在每一道曲折的河灣間"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-28",
+          "answer": "four-letter word",
+          "options": [
+            "secret little wish",
+            "golden promise",
+            "four-letter word"
+          ],
+          "prompt": "Hope is our {{blank}}",
+          "promptZh": "「希望」，是我們心中那個四個字母的詞"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-29",
+          "answer": "watch it burn",
+          "options": [
+            "make it last",
+            "let it go",
+            "watch it burn"
+          ],
+          "prompt": "Make that money, {{blank}}",
+          "promptZh": "賺來那些金錢，再眼看著它燃燒殆盡"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-30",
+          "answer": "not that old",
+          "options": [
+            "feeling young",
+            "not that old",
+            "getting weak"
+          ],
+          "prompt": "Old, but I'm {{blank}}",
+          "promptZh": "我已不再年少，卻也還沒那麼老"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-31",
+          "answer": "not that bold",
+          "options": [
+            "not that bold",
+            "not that strong",
+            "far too tired"
+          ],
+          "prompt": "Young, but I'm {{blank}}",
+          "promptZh": "我仍算年輕，卻也沒有那般無畏"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-32",
+          "answer": "world is sold",
+          "options": [
+            "world is small",
+            "world is changing",
+            "world is sold"
+          ],
+          "prompt": "And I don't think the {{blank}}",
+          "promptZh": "而我不認為這世界真的甘願接受"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-33",
+          "answer": "what we're told",
+          "options": [
+            "what we're told",
+            "what we need",
+            "where we go"
+          ],
+          "prompt": "On just doing {{blank}}",
+          "promptZh": "只是一味照著別人的吩咐行事"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-34",
+          "answer": "something so wrong",
+          "options": [
+            "something so good",
+            "something so wrong",
+            "nothing at all"
+          ],
+          "prompt": "And I feel {{blank}} doing the right thing",
+          "promptZh": "做著理應正確的事，卻又感覺如此不對勁"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-35",
+          "answer": "couldn't lie",
+          "options": [
+            "couldn't lie",
+            "wouldn't hide",
+            "couldn't leave"
+          ],
+          "prompt": "I {{blank}}, couldn't lie, couldn't lie",
+          "promptZh": "我無法說謊，無法說謊，無法欺騙自己"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-36",
+          "answer": "makes me wanna fly",
+          "options": [
+            "makes me want to hide",
+            "makes me wanna fly",
+            "makes me feel so small"
+          ],
+          "prompt": "Everything that drowns me {{blank}}",
+          "promptZh": "那些幾乎將我淹沒的一切，反而讓我渴望展翅高飛"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-37",
+          "answer": "I've been losing sleep",
+          "options": [
+            "I've been losing sleep",
+            "I've been counting sheep",
+            "I've been feeling weak"
+          ],
+          "prompt": "Lately, I've been, {{blank}}",
+          "promptZh": "最近，我總是、總是輾轉難眠"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-38",
+          "answer": "things that we could be",
+          "options": [
+            "people that we might meet",
+            "places that we could find",
+            "things that we could be"
+          ],
+          "prompt": "Dreaming about the {{blank}}",
+          "promptZh": "夢想著你我未來可能成為的模樣"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-39",
+          "answer": "I've been praying hard",
+          "options": [
+            "I've been praying hard",
+            "I've been working late",
+            "I've been moving on"
+          ],
+          "prompt": "But, baby, I've been, {{blank}}",
+          "promptZh": "可是，親愛的，我一直、一直虔誠地祈求著"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-46",
+          "answer": "lessons I've learned",
+          "options": [
+            "promises I've made",
+            "lessons I've learned",
+            "dreams I've forgotten"
+          ],
+          "prompt": "Sink in the river the {{blank}}",
+          "promptZh": "讓我從過往學到的教訓，沉入河流深處"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-47",
+          "answer": "watch it burn",
+          "options": [
+            "watch it burn",
+            "watch it grow",
+            "make it shine"
+          ],
+          "prompt": "Take that money, {{blank}}",
+          "promptZh": "拿起那些金錢，看著它燃燒殆盡"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Lately, I've been, I've been {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Dreaming about the {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "But, baby, I've been, I've been {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Said no more {{q:4}}, we'll be {{q:5}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Yeah, we'll be counting stars"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I see this life like a {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Swing my heart {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And in my face is {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:9}} and ye shall find"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Old but I'm {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Young but I'm {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And I don't think the {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "On just {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I feel something so right {{q:14}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And I feel something so wrong {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I {{q:16}}, couldn't lie, couldn't lie"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Everything that kills me {{q:17}} "
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Lately, I've been, I've been losing sleep"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:18}} the things that we could be"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "But, baby, I've been, I've been {{q:19}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Said {{q:20}}, we'll be counting stars"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Lately, I've been, {{q:21}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Dreaming about the {{q:22}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "But, baby, I've been, {{q:23}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Said no more counting dollars, we'll be, {{q:24}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I feel your love, and I {{q:25}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Down this river {{q:26}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Hope is our {{q:27}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Make that money, {{q:28}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Old, but I'm {{q:29}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Young, but I'm {{q:30}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "And I don't think the {{q:31}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "On just doing {{q:32}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "And I feel {{q:33}} doing the right thing"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I {{q:34}}, couldn't lie, couldn't lie"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Everything that drowns me {{q:35}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Lately, I've been, {{q:36}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Dreaming about the {{q:37}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "But, baby, I've been, {{q:38}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Said no more counting dollars, we'll be counting stars"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Lately, I've been, I've been losing sleep"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Dreaming about the things that we could be"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "But, baby, I've been, I've been praying hard"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Said no more counting dollars, we'll be, we'll be counting stars"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Oh, take that money, watch it burn"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Sink in the river the {{q:39}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Take that money, {{q:40}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Take that money, watch it burn"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Take that money, watch it burn"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Everything that kills me makes me feel alive "
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Lately, I've been, I've been losing sleep"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Dreaming about the things that we could be"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "But, baby, I've been, I've been praying hard"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Said no more counting dollars, we'll be counting stars"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Lately, I've been, I've been losing sleep"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Dreaming about the things that we could be"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "But, baby, I've been, I've been praying hard"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Said no more counting dollars, we'll be, we'll be counting stars"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Take that money, watch it burn"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "Take that money, watch it burn"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "Take that money ,watch it burn"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Take that money, watch it burn"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "Sink in the river the lessons I've learned"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "losing sleep",
+          "options": [
+            "getting tired",
+            "losing sleep",
+            "falling asleep"
+          ],
+          "prompt": "Lately, I've been, I've been {{blank}}",
+          "promptZh": "最近，我總是、總是輾轉難眠"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "things that we could be",
+          "options": [
+            "places that we could see",
+            "dreams that we might lose",
+            "things that we could be"
+          ],
+          "prompt": "Dreaming about the {{blank}}",
+          "promptZh": "夢想著你我未來可能成為的模樣"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "praying hard",
+          "options": [
+            "working late",
+            "praying hard",
+            "waiting here"
+          ],
+          "prompt": "But, baby, I've been, I've been {{blank}}",
+          "promptZh": "可是，親愛的，我一直、一直虔誠地祈求著"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "counting dollars",
+          "options": [
+            "saving pennies",
+            "counting dollars",
+            "spending money"
+          ],
+          "prompt": "Said no more {{blank}}, we'll be counting stars",
+          "promptZh": "我說，別再數著金錢了，讓我們改為細數滿天繁星"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-4",
+          "answer": "counting stars",
+          "options": [
+            "watching clouds",
+            "chasing cars",
+            "counting stars"
+          ],
+          "prompt": "Said no more counting dollars, we'll be {{blank}}",
+          "promptZh": "我說，別再數著金錢了，讓我們改為細數滿天繁星"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "swinging vine",
+          "options": [
+            "winding road",
+            "swinging vine",
+            "falling tree"
+          ],
+          "prompt": "I see this life like a {{blank}}",
+          "promptZh": "在我眼中，人生就像一根來回擺盪的藤蔓"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "across the line",
+          "options": [
+            "into the night",
+            "across the line",
+            "over the hill"
+          ],
+          "prompt": "Swing my heart {{blank}}",
+          "promptZh": "讓我的心隨之擺盪，越過那道界線"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "flashing signs",
+          "options": [
+            "fading lights",
+            "warning bells",
+            "flashing signs"
+          ],
+          "prompt": "And in my face is {{blank}}",
+          "promptZh": "各種徵兆在我眼前不斷閃現"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "Seek it out",
+          "options": [
+            "Leave it there",
+            "Keep it safe",
+            "Seek it out"
+          ],
+          "prompt": "{{blank}} and ye shall find",
+          "promptZh": "只要用心尋求，終將有所發現"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "not that old",
+          "options": [
+            "not that old",
+            "getting older",
+            "much too young"
+          ],
+          "prompt": "Old but I'm {{blank}}",
+          "promptZh": "我已不再年少，卻也還沒那麼老"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "not that bold",
+          "options": [
+            "quite so brave",
+            "feeling strong",
+            "not that bold"
+          ],
+          "prompt": "Young but I'm {{blank}}",
+          "promptZh": "我仍算年輕，卻也沒有那般無畏"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "world is sold",
+          "options": [
+            "world is cold",
+            "world is sold",
+            "world has changed"
+          ],
+          "prompt": "And I don't think the {{blank}}",
+          "promptZh": "而我不認為這世界真的甘願接受"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "doing what we're told",
+          "options": [
+            "doing what we're told",
+            "going where we want",
+            "saying what we know"
+          ],
+          "prompt": "On just {{blank}}",
+          "promptZh": "只是一味照著別人的吩咐行事"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "doing the wrong thing",
+          "options": [
+            "making the same choice",
+            "taking the long road",
+            "doing the wrong thing"
+          ],
+          "prompt": "I feel something so right {{blank}}",
+          "promptZh": "做著明知不對的事，心裡卻感覺如此理所當然"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "doing the right thing",
+          "options": [
+            "doing the right thing",
+            "breaking the old rules",
+            "following the wrong path"
+          ],
+          "prompt": "And I feel something so wrong {{blank}}",
+          "promptZh": "做著理應正確的事，卻又感覺如此不對勁"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "couldn't lie",
+          "options": [
+            "couldn't lie",
+            "couldn't stay",
+            "wouldn't cry"
+          ],
+          "prompt": "I {{blank}}, couldn't lie, couldn't lie",
+          "promptZh": "我無法說謊，無法說謊，無法欺騙自己"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-17",
+          "answer": "makes me feel alive",
+          "options": [
+            "makes me run away",
+            "leaves me far behind",
+            "makes me feel alive"
+          ],
+          "prompt": "Everything that kills me {{blank}} ",
+          "promptZh": "那些幾乎將我摧毀的一切，反而讓我真切感受到自己活著"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "Dreaming about",
+          "options": [
+            "Dreaming about",
+            "Thinking beyond",
+            "Talking about"
+          ],
+          "prompt": "{{blank}} the things that we could be",
+          "promptZh": "夢想著你我未來可能成為的模樣"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-20",
+          "answer": "praying hard",
+          "options": [
+            "trying again",
+            "playing cards",
+            "praying hard"
+          ],
+          "prompt": "But, baby, I've been, I've been {{blank}}",
+          "promptZh": "可是，親愛的，我一直、一直虔誠地祈求著"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-21",
+          "answer": "no more counting dollars",
+          "options": [
+            "no more making promises",
+            "no more counting dollars",
+            "no more chasing shadows"
+          ],
+          "prompt": "Said {{blank}}, we'll be counting stars",
+          "promptZh": "我說，別再數著金錢了，讓我們改為細數滿天繁星"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-22",
+          "answer": "I've been losing sleep",
+          "options": [
+            "I've been feeling fine",
+            "I've been losing sleep",
+            "I've been sleeping well"
+          ],
+          "prompt": "Lately, I've been, {{blank}}",
+          "promptZh": "最近，我總是、總是輾轉難眠"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-23",
+          "answer": "things that we could be",
+          "options": [
+            "things that we could be",
+            "stories that we could tell",
+            "places where we might go"
+          ],
+          "prompt": "Dreaming about the {{blank}}",
+          "promptZh": "夢想著你我未來可能成為的模樣"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-24",
+          "answer": "I've been praying hard",
+          "options": [
+            "I've been waiting long",
+            "I've been praying hard",
+            "I've been trying more"
+          ],
+          "prompt": "But, baby, I've been, {{blank}}",
+          "promptZh": "可是，親愛的，我一直、一直虔誠地祈求著"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-25",
+          "answer": "we'll be counting stars",
+          "options": [
+            "we'll be chasing dreams",
+            "we'll be watching rain",
+            "we'll be counting stars"
+          ],
+          "prompt": "Said no more counting dollars, we'll be, {{blank}}",
+          "promptZh": "我說，別再數著金錢了，我們要、我們要一起細數繁星"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-26",
+          "answer": "feel it burn",
+          "options": [
+            "watch it fade",
+            "feel it burn",
+            "hear it call"
+          ],
+          "prompt": "I feel your love, and I {{blank}}",
+          "promptZh": "我感受到你的愛，也感受到它熾熱地燃燒"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-27",
+          "answer": "every turn",
+          "options": [
+            "every night",
+            "every turn",
+            "every mile"
+          ],
+          "prompt": "Down this river {{blank}}",
+          "promptZh": "沿著這條河流，在每一道曲折的河灣間"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-28",
+          "answer": "four-letter word",
+          "options": [
+            "secret little wish",
+            "golden promise",
+            "four-letter word"
+          ],
+          "prompt": "Hope is our {{blank}}",
+          "promptZh": "「希望」，是我們心中那個四個字母的詞"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-29",
+          "answer": "watch it burn",
+          "options": [
+            "watch it burn",
+            "make it last",
+            "let it go"
+          ],
+          "prompt": "Make that money, {{blank}}",
+          "promptZh": "賺來那些金錢，再眼看著它燃燒殆盡"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-30",
+          "answer": "not that old",
+          "options": [
+            "feeling young",
+            "getting weak",
+            "not that old"
+          ],
+          "prompt": "Old, but I'm {{blank}}",
+          "promptZh": "我已不再年少，卻也還沒那麼老"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-31",
+          "answer": "not that bold",
+          "options": [
+            "not that bold",
+            "not that strong",
+            "far too tired"
+          ],
+          "prompt": "Young, but I'm {{blank}}",
+          "promptZh": "我仍算年輕，卻也沒有那般無畏"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-32",
+          "answer": "world is sold",
+          "options": [
+            "world is small",
+            "world is sold",
+            "world is changing"
+          ],
+          "prompt": "And I don't think the {{blank}}",
+          "promptZh": "而我不認為這世界真的甘願接受"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-33",
+          "answer": "what we're told",
+          "options": [
+            "what we're told",
+            "what we need",
+            "where we go"
+          ],
+          "prompt": "On just doing {{blank}}",
+          "promptZh": "只是一味照著別人的吩咐行事"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-34",
+          "answer": "something so wrong",
+          "options": [
+            "something so good",
+            "something so wrong",
+            "nothing at all"
+          ],
+          "prompt": "And I feel {{blank}} doing the right thing",
+          "promptZh": "做著理應正確的事，卻又感覺如此不對勁"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-35",
+          "answer": "couldn't lie",
+          "options": [
+            "wouldn't hide",
+            "couldn't leave",
+            "couldn't lie"
+          ],
+          "prompt": "I {{blank}}, couldn't lie, couldn't lie",
+          "promptZh": "我無法說謊，無法說謊，無法欺騙自己"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-36",
+          "answer": "makes me wanna fly",
+          "options": [
+            "makes me wanna fly",
+            "makes me want to hide",
+            "makes me feel so small"
+          ],
+          "prompt": "Everything that drowns me {{blank}}",
+          "promptZh": "那些幾乎將我淹沒的一切，反而讓我渴望展翅高飛"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-37",
+          "answer": "I've been losing sleep",
+          "options": [
+            "I've been counting sheep",
+            "I've been losing sleep",
+            "I've been feeling weak"
+          ],
+          "prompt": "Lately, I've been, {{blank}}",
+          "promptZh": "最近，我總是、總是輾轉難眠"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-38",
+          "answer": "things that we could be",
+          "options": [
+            "things that we could be",
+            "people that we might meet",
+            "places that we could find"
+          ],
+          "prompt": "Dreaming about the {{blank}}",
+          "promptZh": "夢想著你我未來可能成為的模樣"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-39",
+          "answer": "I've been praying hard",
+          "options": [
+            "I've been working late",
+            "I've been praying hard",
+            "I've been moving on"
+          ],
+          "prompt": "But, baby, I've been, {{blank}}",
+          "promptZh": "可是，親愛的，我一直、一直虔誠地祈求著"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-40",
+          "answer": "we'll be counting stars",
+          "options": [
+            "we'll be counting days",
+            "we'll be counting stars",
+            "we'll be watching waves"
+          ],
+          "prompt": "Said no more counting dollars, {{blank}}",
+          "promptZh": "我說，別再數著金錢了，讓我們改為細數滿天繁星"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-41",
+          "answer": "losing sleep",
+          "options": [
+            "losing sleep",
+            "finding peace",
+            "feeling cold"
+          ],
+          "prompt": "Lately, I've been, I've been {{blank}}",
+          "promptZh": "最近，我總是、總是輾轉難眠"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-42",
+          "answer": "Dreaming about",
+          "options": [
+            "Dreaming about",
+            "Running away",
+            "Thinking of"
+          ],
+          "prompt": "{{blank}} the things that we could be",
+          "promptZh": "夢想著你我未來可能成為的模樣"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-43",
+          "answer": "praying hard",
+          "options": [
+            "holding on",
+            "praying hard",
+            "waiting up"
+          ],
+          "prompt": "But, baby, I've been, I've been {{blank}}",
+          "promptZh": "可是，親愛的，我一直、一直虔誠地祈求著"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-44",
+          "answer": "counting stars",
+          "options": [
+            "counting steps",
+            "chasing light",
+            "counting stars"
+          ],
+          "prompt": "Said no more counting dollars, we'll be, we'll be {{blank}}",
+          "promptZh": "我說，別再數著金錢了，我們要、我們要一起細數繁星"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-45",
+          "answer": "take that money",
+          "options": [
+            "take that money",
+            "keep that secret",
+            "hold that memory"
+          ],
+          "prompt": "Oh, {{blank}}, watch it burn",
+          "promptZh": "噢，拿起那些金錢，看著它燃燒殆盡"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-46",
+          "answer": "lessons I've learned",
+          "options": [
+            "promises I've made",
+            "dreams I've forgotten",
+            "lessons I've learned"
+          ],
+          "prompt": "Sink in the river the {{blank}}",
+          "promptZh": "讓我從過往學到的教訓，沉入河流深處"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-47",
+          "answer": "watch it burn",
+          "options": [
+            "watch it grow",
+            "make it shine",
+            "watch it burn"
+          ],
+          "prompt": "Take that money, {{blank}}",
+          "promptZh": "拿起那些金錢，看著它燃燒殆盡"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-48",
+          "answer": "Sink in the river",
+          "options": [
+            "Sink in the river",
+            "Rise with the morning",
+            "Fall into silence"
+          ],
+          "prompt": "{{blank}} the lessons I've learned",
+          "promptZh": "讓我從過往學到的教訓，沉入河流深處"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-49",
+          "answer": "that money",
+          "options": [
+            "that money",
+            "this moment",
+            "your letters"
+          ],
+          "prompt": "Take {{blank}}, watch it burn",
+          "promptZh": "拿起那些金錢，看著它燃燒殆盡"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-50",
+          "answer": "I've learned",
+          "options": [
+            "you've heard",
+            "we've lost",
+            "I've learned"
+          ],
+          "prompt": "Sink in the river the lessons {{blank}}",
+          "promptZh": "讓我從過往學到的教訓，沉入河流深處"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-53",
+          "answer": "makes me feel alive",
+          "options": [
+            "makes me feel alive",
+            "makes me feel afraid",
+            "makes me want to leave"
+          ],
+          "prompt": "Everything that kills me {{blank}} ",
+          "promptZh": "那些幾乎將我摧毀的一切，反而讓我真切感受到自己活著"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Lately, I've been, I've been {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Dreaming about the {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "But, baby, I've been, I've been {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Said no more {{q:4}}, we'll be {{q:5}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Yeah, we'll be counting stars"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I see this life like a {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Swing my heart {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And in my face is {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:9}} and ye shall find"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Old but I'm {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Young but I'm {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And I don't think the {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "On just {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I feel something so right {{q:14}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And I feel something so wrong {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I {{q:16}}, couldn't lie, couldn't lie"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Everything that kills me {{q:17}} "
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Lately, I've been, I've been losing sleep"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:18}} the things that we could be"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "But, baby, I've been, I've been {{q:19}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Said {{q:20}}, we'll be counting stars"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Lately, I've been, {{q:21}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Dreaming about the {{q:22}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "But, baby, I've been, {{q:23}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Said no more counting dollars, we'll be, {{q:24}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I feel your love, and I {{q:25}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Down this river {{q:26}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Hope is our {{q:27}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Make that money, {{q:28}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Old, but I'm {{q:29}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Young, but I'm {{q:30}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "And I don't think the {{q:31}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "On just doing {{q:32}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "And I feel {{q:33}} doing the right thing"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I {{q:34}}, couldn't lie, couldn't lie"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Everything that drowns me {{q:35}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Lately, I've been, {{q:36}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Dreaming about the {{q:37}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "But, baby, I've been, {{q:38}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Said no more counting dollars, {{q:39}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Lately, I've been, I've been {{q:40}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "{{q:41}} the things that we could be"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "But, baby, I've been, I've been {{q:42}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Said no more counting dollars, we'll be, we'll be {{q:43}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Oh, {{q:44}}, watch it burn"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Sink in the river the {{q:45}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Take that money, {{q:46}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "{{q:47}} the lessons I've learned"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Take {{q:48}}, watch it burn"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Sink in the river the lessons {{q:49}}"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Take that money, watch it burn"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Everything that kills me {{q:50}} "
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Lately, I've been, I've been losing sleep"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Dreaming about the things that we could be"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "But, baby, I've been, I've been praying hard"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Said no more counting dollars, we'll be counting stars"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Lately, I've been, I've been losing sleep"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Dreaming about the things that we could be"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "But, baby, I've been, I've been praying hard"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Said no more counting dollars, we'll be, we'll be counting stars"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Take that money, watch it burn"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "Take that money, watch it burn"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "Take that money ,watch it burn"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Sink in the river the lessons I've learned"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Take that money, watch it burn"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "Sink in the river the lessons I've learned"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Counting Stars · Listening & Vocabulary",
+  "description": "《Counting Stars》描寫一個人在現實壓力與人生夢想之間，渴望尋找真正幸福的矛盾心情。歌中的主角經常因思考未來而難以入睡，逐漸開始懷疑金錢與世俗成功是否真的能帶來滿足。他厭倦一味遵從別人的期望，希望勇敢突破限制，追尋更自由、更有意義的生活。歌曲以金錢與繁星形成鮮明對比，象徵物質財富與內心夢想之間的選擇。即使面對挫折與不確定，他仍然渴望改變，尋找屬於自己的方向。最終，《Counting Stars》傳達的是對自由、夢想與人生價值的追尋：與其將生命耗費在無止境的物質競爭中，不如珍惜真正重要的事物，勇敢追求內心嚮往的幸福與未來。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Lately",
+      "meaning": "最近、近來。",
+      "usage": "談最近一段時間發生或持續的事，常與現在完成式一起使用。",
+      "prompt": "哪一句正確使用了 “lately”？",
+      "options": [
+        "I will meet my cousin lately at six tomorrow.",
+        "The astronaut put lately inside her bag before the trip.",
+        "Lately, our class has been making short films after school.",
+        "Our school play starts at lately on Friday."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "lately 不是特定的未來時間；明天六點可以說 *at six tomorrow*。",
+        "lately 是時間副詞，不是可以放進背包的物品。",
+        "lately 表示最近一段時間；這句是在說班上最近放學後都在拍短片。",
+        "lately 不是鐘點，不能放在 *at* 後面表示開演時間。"
+      ],
+      "explanation": "lately 表示最近一段時間；這句是在說班上最近放學後都在拍短片。"
+    },
+    {
+      "number": 2,
+      "word": "Lose sleep",
+      "meaning": "睡不好、因為擔心而失眠。",
+      "usage": "當某件事讓你擔心到睡不好時，可以用 *lose sleep over/about something*。",
+      "prompt": "哪一句正確使用了 “lose sleep”？",
+      "options": [
+        "We lost sleep at the train station and asked the driver to find it.",
+        "The actor lost sleep on the stage, so the audience took it home.",
+        "She lost sleep into her phone to send a message.",
+        "My brother lost sleep because he was worried about his first job interview."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "sleep 不是遺失在車站、可以請人找回的東西；*lose sleep* 是睡不好。",
+        "sleep 不是觀眾能從舞台帶回家的物品。",
+        "*lose sleep* 不能表示傳訊息；要說 *send a message on her phone*。",
+        "面試讓哥哥擔心到睡不好，符合 *lose sleep* 的用法。"
+      ],
+      "explanation": "面試讓哥哥擔心到睡不好，符合 *lose sleep* 的用法。"
+    },
+    {
+      "number": 3,
+      "word": "Dream about",
+      "meaning": "夢見；夢想、想像。",
+      "usage": "可以說睡覺時夢見的事，也可以說自己希望未來發生的事；後面接名詞或動詞 **-ing**。",
+      "prompt": "哪一句正確使用了 “dream about”？",
+      "options": [
+        "My friend dreams about becoming a pilot and flying around the world.",
+        "I dreamed about to become the mayor of our town.",
+        "The museum dreamed about open at nine every day.",
+        "Please dream about the window because the room is hot."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "*dreams about becoming* 正確表示夢想成為飛行員。",
+        "*dream about* 後接動詞時要用 -ing，應說 *dreamed about becoming*。",
+        "博物館的營業時間不是「做夢」；應說 *The museum opens at nine*。",
+        "想請人開窗應說 *Please open the window*，不是 *dream about*。"
+      ],
+      "explanation": "*dreams about becoming* 正確表示夢想成為飛行員。"
+    },
+    {
+      "number": 4,
+      "word": "Count",
+      "meaning": "數一數、計算數量。",
+      "usage": "數票、數人數、數星星，或確認物品有多少個時使用。",
+      "prompt": "哪一句正確使用了 “count”？",
+      "options": [
+        "The singer counted her song louder so everyone could hear.",
+        "We counted 28 people on the bus before we left the zoo.",
+        "Please count the door before you leave the room.",
+        "He counted his friend happy with a new haircut."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "讓歌曲更大聲應用 *sing louder*，不是 *count*。",
+        "這句是在出發前數公車上的人數，正確使用 *counted*。",
+        "離開時如果要把門關上，應說 *close the door*；*count the door* 不符合這個情境。",
+        "這裡想說讓朋友開心，可以說 *made his friend happy*；*counted* 不是這個意思。"
+      ],
+      "explanation": "這句是在出發前數公車上的人數，正確使用 *counted*。"
+    },
+    {
+      "number": 5,
+      "word": "Seek out",
+      "meaning": "特地尋找、努力找出。",
+      "usage": "主動尋找特別的人、地方或機會，比一般的 *look for* 更強調努力。",
+      "prompt": "哪一句正確使用了 “seek out”？",
+      "options": [
+        "The young artist sought out a teacher who could help her paint better.",
+        "We seeked out the football because the match starts at three.",
+        "I seek out my hair every day with a small brush.",
+        "They sought out loudly when their team won the match."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "藝術家主動尋找能幫助自己的老師，符合 *seek out* 的意思。",
+        "*seek* 的過去式是 *sought*，不是 *seeked*；如果只是找球，也可說 *looked for the football*。",
+        "梳頭髮要用 *brush my hair*，不是 *seek out my hair*。",
+        "球隊贏球時大聲喊叫應說 *shouted loudly*；*seek out* 是尋找。"
+      ],
+      "explanation": "藝術家主動尋找能幫助自己的老師，符合 *seek out* 的意思。"
+    },
+    {
+      "number": 6,
+      "word": "Bold",
+      "meaning": "大膽的、有勇氣的。",
+      "usage": "形容有人敢提出意見、嘗試新事物或做出勇敢的決定。",
+      "prompt": "哪一句正確使用了 “bold”？",
+      "options": [
+        "My train is bold because it arrives at half past eight.",
+        "I put three bolds in the camera to take a photo.",
+        "It was bold of Mia to sing alone in front of 500 people.",
+        "The weather is bold at 20 degrees, so I need a jacket."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "火車的時間不是勇敢或大膽；可說 *My train arrives at half past eight*。",
+        "*bold* 是形容詞，不是可以數三個、放進相機的東西。",
+        "Mia 敢獨自在 500 人面前唱歌，這是大膽的行為。",
+        "20 度是溫度，不能用 *bold* 描述；可以用 *cool* 或 *warm*。"
+      ],
+      "explanation": "Mia 敢獨自在 500 人面前唱歌，這是大膽的行為。"
+    },
+    {
+      "number": 7,
+      "word": "Be sold on",
+      "meaning": "被說服、覺得某個想法很好。",
+      "usage": "表示你接受或支持某個計畫、主意或選擇；這裡不是「被賣掉」。",
+      "prompt": "哪一句正確使用了 “be sold on”？",
+      "options": [
+        "My aunt was sold on Tuesday for twenty dollars.",
+        "I wasn't sold on the idea of camping until I saw the beautiful lake.",
+        "The football was sold on happy after the game.",
+        "We were sold on the train because all the seats were full."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "*be sold on* 在本題是「被某個想法說服」，不是拿來說人被出售。",
+        "一開始不喜歡露營的主意，看到湖後改變看法，正確使用 *sold on*。",
+        "*happy* 不是可以用 *be sold on* 支持的具體想法，這句也不通順。",
+        "座位滿了可以說 *The train was full*；*sold on* 不表示「擠在火車上」。"
+      ],
+      "explanation": "一開始不喜歡露營的主意，看到湖後改變看法，正確使用 *sold on*。"
+    },
+    {
+      "number": 8,
+      "word": "Do what you're told",
+      "meaning": "照別人的指示做、聽話照做。",
+      "usage": "老師、教練或主管給出指示時，可用來描述是否照著做；也可用來談獨立思考。",
+      "prompt": "哪一句正確使用了 “do what you're told”？",
+      "options": [
+        "I did what I was told into the cinema at seven o'clock.",
+        "During the fire practice, we did what we were told and walked outside calmly.",
+        "The radio did what it was told blue last night.",
+        "The painting did what it was told because it was expensive."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "*do what you're told* 是照指示行動，不能直接接 *into the cinema* 當作移動動詞。",
+        "火警演習時大家照指示冷靜走出去，正確使用這個片語。",
+        "這句的 *blue* 無法接在 *told* 後面表示指示內容，語意也不完整。",
+        "畫作不能照指示採取行動；*expensive* 也不能解釋這個片語。"
+      ],
+      "explanation": "火警演習時大家照指示冷靜走出去，正確使用這個片語。"
+    },
+    {
+      "number": 9,
+      "word": "Feel alive",
+      "meaning": "感覺充滿活力、真切感受到生活。",
+      "usage": "做喜歡的事、迎接新挑戰或感到很興奮時可以使用。",
+      "prompt": "哪一句正確使用了 “feel alive”？",
+      "options": [
+        "I feel alive the meeting at nine, so please don't be late.",
+        "She feels alive her passport at the airport desk.",
+        "They felt alive the email and sent it to the manager.",
+        "Performing on stage with my band makes me feel alive."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "*feel alive* 不能直接接會議來表示安排時間；可說 *The meeting is at nine*。",
+        "在機場出示護照應用 *showed her passport*，不是 *feels alive*。",
+        "寄電子郵件應用 *sent the email*，不是 *felt alive the email*。",
+        "在舞台上和樂團演出讓人充滿活力，很適合用 *feel alive*。"
+      ],
+      "explanation": "在舞台上和樂團演出讓人充滿活力，很適合用 *feel alive*。"
+    },
+    {
+      "number": 10,
+      "word": "Learn a lesson",
+      "meaning": "學到教訓、從經驗中學會一件事。",
+      "usage": "犯錯、遇到困難或經歷事件後，明白以後該怎麼做。",
+      "prompt": "哪一句正確使用了 “learn a lesson”？",
+      "options": [
+        "I learned a lesson when I forgot my lines in the play: practice before the show.",
+        "The chef learned a lesson into the oven for twenty minutes.",
+        "She learned a lesson to the bank and asked for ten dollars.",
+        "The pilot learned a lesson purple when the plane arrived."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "忘記台詞後懂得演出前要練習，這就是從錯誤中學到教訓。",
+        "烤箱裡放食物應用 *put something in the oven*；*learn a lesson* 不是烹調動作。",
+        "去銀行借錢可以說 *went to the bank* 或 *borrowed money*，不能說 *learned a lesson to the bank*。",
+        "*purple* 是顏色，不能這樣接在 *learned a lesson* 後表示學到教訓。"
+      ],
+      "explanation": "忘記台詞後懂得演出前要練習，這就是從錯誤中學到教訓。"
+    }
+  ],
+  "tags": [
+    "onerepublic",
+    "counting stars",
+    "dreams",
+    "ambition"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/counting-stars/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/counting-stars/user-cover-20261030.png",
+  "editorialRepairs": [],
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 257.2666875,
+    "audioSha256": "6fad0b153858dc9765a9ed8a29370b4cf8268ba49e5b8ce0e17a0a3b1628c062",
+    "timedLines": 49,
+    "untimedLines": 20,
+    "reviewStatus": "Conservative automatic line alignment. Unmatched/overlapping background lines remain bilingual without guessed timestamps; not a full manual timing certification."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Counting Stars_.pdf",
+      "sha256": "49aab576aaac138d4ba20d9c7f29e122c344e8db2c9be08bc510dfc6a4fa7851"
+    },
+    "chosenListening": {
+      "filename": "Counting_Stars_Listening_Exercise_Fresh_Copy.docx",
+      "sha256": "f66d95aaf23b62150487be30f153646d99c2e1a900d89ab0c71d7419327b0a83"
+    },
+    "chosenVocabulary": {
+      "filename": "Counting_Stars_Vocabulary_Quiz.md",
+      "sha256": "cecd0db3a4c1119a6d2dd3ac9565fa186fd452a837c651cd7592e9cc3a063aea"
+    },
+    "mp3": {
+      "filename": "Counting Stars [_GWKkqNoyEA].mp3",
+      "sha256": "6fad0b153858dc9765a9ed8a29370b4cf8268ba49e5b8ce0e17a0a3b1628c062"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-dffa11d3-60bf-48fd-9d76-2dc8954cfa4e.png",
+    "sha256": "b561bbd5c8f7d894ce00ea7e6aae449a25478b772e03cbaf91e41ecfb30fb83d",
+    "transformations": "none",
+    "selectedOn": "2026-10-30"
+  }
+}

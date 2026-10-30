@@ -1,0 +1,3128 @@
+{
+  "slug": "hold-my-hand",
+  "title": "Hold My Hand",
+  "singer": "Lady Gaga",
+  "translations": [
+    {
+      "english": "To tell me you need me",
+      "chinese": "告訴我，你需要我",
+      "lineId": "line-1"
+    },
+    {
+      "english": "Hold my hand, everything will be okay",
+      "chinese": "握緊我的手吧，一切終將安然無恙",
+      "lineId": "line-2",
+      "startSeconds": 8.86,
+      "endSeconds": 13.38
+    },
+    {
+      "english": "I heard from the heavens that clouds have been grey",
+      "chinese": "我彷彿聽見來自天際的低語，說烏雲早已籠罩天空",
+      "lineId": "line-3",
+      "startSeconds": 14.0,
+      "endSeconds": 18.74
+    },
+    {
+      "english": "Pull me close, wrap me in your aching arms",
+      "chinese": "將我拉近些吧，用你那承受著傷痛的雙臂緊緊擁抱我",
+      "lineId": "line-4",
+      "startSeconds": 18.74,
+      "endSeconds": 23.46
+    },
+    {
+      "english": "I see that you're hurtin', why'd you take so long",
+      "chinese": "我看得出你正深受傷痛折磨，為何你遲遲不肯開口？",
+      "lineId": "line-5",
+      "startSeconds": 23.82,
+      "endSeconds": 28.64
+    },
+    {
+      "english": "To tell me you need me? I see that you're bleeding",
+      "chinese": "告訴我你需要我？我看得見，你的傷口仍在流血",
+      "lineId": "line-6",
+      "startSeconds": 28.64,
+      "endSeconds": 33.54
+    },
+    {
+      "english": "You don't need to show me again",
+      "chinese": "你不必再向我證明自己的傷痛",
+      "lineId": "line-7",
+      "startSeconds": 33.54,
+      "endSeconds": 37.54
+    },
+    {
+      "english": "But if you decide to, I'll ride in this life with you",
+      "chinese": "但若你願意敞開心扉，我會陪你走過這一生的風雨",
+      "lineId": "line-8",
+      "startSeconds": 38.62,
+      "endSeconds": 43.8
+    },
+    {
+      "english": "I won't let go 'til the end",
+      "chinese": "直到最後一刻，我都不會放開你的手",
+      "lineId": "line-9",
+      "startSeconds": 43.8,
+      "endSeconds": 47.86
+    },
+    {
+      "english": "So cry tonight",
+      "chinese": "所以，今夜就盡情哭泣吧",
+      "lineId": "line-10",
+      "startSeconds": 50.42,
+      "endSeconds": 54.32
+    },
+    {
+      "english": "But don't you let go of my hand",
+      "chinese": "但請你千萬別放開我的手",
+      "lineId": "line-11",
+      "startSeconds": 54.32,
+      "endSeconds": 59.74
+    },
+    {
+      "english": "You can cry every last tear",
+      "chinese": "你可以流盡心中最後一滴眼淚",
+      "lineId": "line-12",
+      "startSeconds": 59.74,
+      "endSeconds": 64.42
+    },
+    {
+      "english": "I won't leave 'til I understand",
+      "chinese": "在我真正理解你的心痛之前，我絕不會離開",
+      "lineId": "line-13",
+      "startSeconds": 64.42,
+      "endSeconds": 69.28
+    },
+    {
+      "english": "Promise me, just hold my hand",
+      "chinese": "答應我，只要緊緊握住我的手",
+      "lineId": "line-14",
+      "startSeconds": 69.28,
+      "endSeconds": 74.42
+    },
+    {
+      "english": "Raise your head, look into my wishful eyes",
+      "chinese": "抬起頭來，望進我那雙滿懷希望的眼眸",
+      "lineId": "line-15",
+      "startSeconds": 74.42,
+      "endSeconds": 79.42
+    },
+    {
+      "english": "That fear that's inside you will lift, give it time",
+      "chinese": "你心中的恐懼終會消散，只要再給自己一點時間",
+      "lineId": "line-16",
+      "startSeconds": 79.42,
+      "endSeconds": 84.42
+    },
+    {
+      "english": "I can see everything you're blind to now",
+      "chinese": "那些你此刻無法看清的一切，我都能替你看見",
+      "lineId": "line-17",
+      "startSeconds": 84.42,
+      "endSeconds": 89.04
+    },
+    {
+      "english": "Your prayers will be answered, let God whisper how",
+      "chinese": "你的祈禱終將得到回應，讓上帝輕聲告訴你答案將如何到來",
+      "lineId": "line-18",
+      "startSeconds": 89.04,
+      "endSeconds": 94.32
+    },
+    {
+      "english": "To tell me you need me, I see that you're bleeding",
+      "chinese": "告訴我你需要我，我看得見，你的傷口仍在流血",
+      "lineId": "line-19",
+      "startSeconds": 94.32,
+      "endSeconds": 99.22
+    },
+    {
+      "english": "You don't need to show me again",
+      "chinese": "你不必再向我證明自己的傷痛",
+      "lineId": "line-20",
+      "startSeconds": 99.22,
+      "endSeconds": 103.16
+    },
+    {
+      "english": "But if you decide to, I'll ride in this life with you",
+      "chinese": "但若你願意敞開心扉，我會陪你走過這一生的風雨",
+      "lineId": "line-21",
+      "startSeconds": 104.14,
+      "endSeconds": 109.56
+    },
+    {
+      "english": "I won't let go 'til the end",
+      "chinese": "直到最後一刻，我都不會放開你的手",
+      "lineId": "line-22",
+      "startSeconds": 109.56,
+      "endSeconds": 114.48
+    },
+    {
+      "english": "So cry tonight",
+      "chinese": "所以，今夜就盡情哭泣吧",
+      "lineId": "line-23",
+      "startSeconds": 116.3,
+      "endSeconds": 120.1
+    },
+    {
+      "english": "But don't you let go of my hand",
+      "chinese": "但請你千萬別放開我的手",
+      "lineId": "line-24",
+      "startSeconds": 121.02,
+      "endSeconds": 125.3
+    },
+    {
+      "english": "You can cry every last tear",
+      "chinese": "你可以流盡心中最後一滴眼淚",
+      "lineId": "line-25",
+      "startSeconds": 125.3,
+      "endSeconds": 129.96
+    },
+    {
+      "english": "I won't leave 'til I understand",
+      "chinese": "在我真正理解你的心痛之前，我絕不會離開",
+      "lineId": "line-26",
+      "startSeconds": 130.56,
+      "endSeconds": 134.7
+    },
+    {
+      "english": "Promise you'll just hold my hand",
+      "chinese": "答應我，你會一直握緊我的手",
+      "lineId": "line-27",
+      "startSeconds": 136.52,
+      "endSeconds": 139.9
+    },
+    {
+      "english": "Hold my hand, hold my—",
+      "chinese": "握住我的手，握住我的……",
+      "lineId": "line-28",
+      "startSeconds": 139.9,
+      "endSeconds": 142.54
+    },
+    {
+      "english": "Hold my hand, my hand",
+      "chinese": "握緊我的手，我的手",
+      "lineId": "line-29",
+      "startSeconds": 142.88,
+      "endSeconds": 145.04
+    },
+    {
+      "english": "I'll be right here, hold my hand",
+      "chinese": "我就在這裡，握緊我的手吧",
+      "lineId": "line-30",
+      "startSeconds": 145.04,
+      "endSeconds": 149.8
+    },
+    {
+      "english": "Hold my hand, hold my—",
+      "chinese": "握住我的手，握住我的……",
+      "lineId": "line-31",
+      "startSeconds": 149.8,
+      "endSeconds": 152.26
+    },
+    {
+      "english": "Hold my hand, my hand",
+      "chinese": "握緊我的手，我的手",
+      "lineId": "line-32",
+      "startSeconds": 152.84,
+      "endSeconds": 154.86
+    },
+    {
+      "english": "I'll be right here, hold my hand",
+      "chinese": "我就在這裡，握緊我的手吧",
+      "lineId": "line-33",
+      "startSeconds": 154.86,
+      "endSeconds": 160.22
+    },
+    {
+      "english": "I know you're scared and your pain is imperfect",
+      "chinese": "我知道你心懷恐懼，而你的傷痛也並非完美無瑕",
+      "lineId": "line-34",
+      "startSeconds": 162.46,
+      "endSeconds": 167.32
+    },
+    {
+      "english": "But don't you give up on yourself",
+      "chinese": "但請你千萬不要放棄自己",
+      "lineId": "line-35",
+      "startSeconds": 167.32,
+      "endSeconds": 170.78
+    },
+    {
+      "english": "I've heard a story, a girl, she once told me",
+      "chinese": "我曾聽過一個故事，有個女孩曾經告訴我",
+      "lineId": "line-36",
+      "startSeconds": 172.24,
+      "endSeconds": 177.22
+    },
+    {
+      "english": "That I would be happy again",
+      "chinese": "說總有一天，我會重新找回幸福",
+      "lineId": "line-37",
+      "startSeconds": 177.22,
+      "endSeconds": 181.22
+    },
+    {
+      "english": "Hold my hand",
+      "chinese": "握緊我的手",
+      "lineId": "line-38"
+    },
+    {
+      "english": "Hold my hand",
+      "chinese": "握緊我的手",
+      "lineId": "line-39"
+    },
+    {
+      "english": "Hold my hand, hold my hand",
+      "chinese": "握緊我的手，握緊我的手",
+      "lineId": "line-40"
+    },
+    {
+      "english": "Hold my hand, hold my hand",
+      "chinese": "握緊我的手，握緊我的手",
+      "lineId": "line-41"
+    },
+    {
+      "english": "Hold my hand",
+      "chinese": "握緊我的手",
+      "lineId": "line-42"
+    },
+    {
+      "english": "I heard from the heavens",
+      "chinese": "我聽見了來自天際的低語",
+      "lineId": "line-43",
+      "startSeconds": 212.92,
+      "endSeconds": 215.1
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "you need me",
+          "options": [
+            "you need me",
+            "you see me",
+            "you miss me"
+          ],
+          "prompt": "To tell me {{blank}}",
+          "promptZh": "告訴我，你需要我"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "everything will be okay",
+          "options": [
+            "everything will fade away",
+            "everything will change today",
+            "everything will be okay"
+          ],
+          "prompt": "Hold my hand, {{blank}}",
+          "promptZh": "握緊我的手吧，一切終將安然無恙"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "from the heavens",
+          "options": [
+            "from the heavens",
+            "from the ocean",
+            "from the mountains"
+          ],
+          "prompt": "I heard {{blank}} that clouds have been grey",
+          "promptZh": "我彷彿聽見來自天際的低語，說烏雲早已籠罩天空"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "Pull me close",
+          "options": [
+            "Push me away",
+            "Pull me close",
+            "Call me back"
+          ],
+          "prompt": "{{blank}}, wrap me in your aching arms",
+          "promptZh": "將我拉近些吧，用你那承受著傷痛的雙臂緊緊擁抱我"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "you're hurtin'",
+          "options": [
+            "you're waiting",
+            "you're hurtin'",
+            "you're hiding"
+          ],
+          "prompt": "I see that {{blank}}, why'd you take so long",
+          "promptZh": "我看得出你正深受傷痛折磨，為何你遲遲不肯開口？"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "you're bleeding",
+          "options": [
+            "you're dreaming",
+            "you're leaving",
+            "you're bleeding"
+          ],
+          "prompt": "To tell me you need me? I see that {{blank}}",
+          "promptZh": "告訴我你需要我？我看得見，你的傷口仍在流血"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "show me again",
+          "options": [
+            "show me again",
+            "tell me the truth",
+            "call me tonight"
+          ],
+          "prompt": "You don't need to {{blank}}",
+          "promptZh": "你不必再向我證明自己的傷痛"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "decide to",
+          "options": [
+            "refuse to",
+            "decide to",
+            "forget to"
+          ],
+          "prompt": "But if you {{blank}}, I'll ride in this life with you",
+          "promptZh": "但若你願意敞開心扉，我會陪你走過這一生的風雨"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "won't let go",
+          "options": [
+            "won't let go",
+            "won't come back",
+            "won't give in"
+          ],
+          "prompt": "I {{blank}} 'til the end",
+          "promptZh": "直到最後一刻，我都不會放開你的手"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "cry tonight",
+          "options": [
+            "smile today",
+            "sleep alone",
+            "cry tonight"
+          ],
+          "prompt": "So {{blank}}",
+          "promptZh": "所以，今夜就盡情哭泣吧"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "my hand",
+          "options": [
+            "my hand",
+            "my heart",
+            "my side"
+          ],
+          "prompt": "But don't you let go of {{blank}}",
+          "promptZh": "但請你千萬別放開我的手"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "every last tear",
+          "options": [
+            "every small fear",
+            "every last tear",
+            "every lost dream"
+          ],
+          "prompt": "You can cry {{blank}}",
+          "promptZh": "你可以流盡心中最後一滴眼淚"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "I understand",
+          "options": [
+            "I come around",
+            "I hear your voice",
+            "I understand"
+          ],
+          "prompt": "I won't leave 'til {{blank}}",
+          "promptZh": "在我真正理解你的心痛之前，我絕不會離開"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "Promise me",
+          "options": [
+            "Follow me",
+            "Promise me",
+            "Remember me"
+          ],
+          "prompt": "{{blank}}, just hold my hand",
+          "promptZh": "答應我，只要緊緊握住我的手"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "wishful eyes",
+          "options": [
+            "wishful eyes",
+            "weary hands",
+            "restless heart"
+          ],
+          "prompt": "Raise your head, look into my {{blank}}",
+          "promptZh": "抬起頭來，望進我那雙滿懷希望的眼眸"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "give it time",
+          "options": [
+            "let it go",
+            "give it time",
+            "make it right"
+          ],
+          "prompt": "That fear that's inside you will lift, {{blank}}",
+          "promptZh": "你心中的恐懼終會消散，只要再給自己一點時間"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-17",
+          "answer": "you're blind to now",
+          "options": [
+            "you've waited for",
+            "you're blind to now",
+            "you've dreamed about"
+          ],
+          "prompt": "I can see everything {{blank}}",
+          "promptZh": "那些你此刻無法看清的一切，我都能替你看見"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-18",
+          "answer": "prayers will be answered",
+          "options": [
+            "dreams will be forgotten",
+            "fears will be growing",
+            "prayers will be answered"
+          ],
+          "prompt": "Your {{blank}}, let God whisper how",
+          "promptZh": "你的祈禱終將得到回應，讓上帝輕聲告訴你答案將如何到來"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-19",
+          "answer": "you need me",
+          "options": [
+            "you need me",
+            "you love me",
+            "you know me"
+          ],
+          "prompt": "To tell me {{blank}}, I see that you're bleeding",
+          "promptZh": "告訴我你需要我，我看得見，你的傷口仍在流血"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-20",
+          "answer": "show me again",
+          "options": [
+            "leave me behind",
+            "call me at night",
+            "show me again"
+          ],
+          "prompt": "You don't need to {{blank}}",
+          "promptZh": "你不必再向我證明自己的傷痛"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "To tell me {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Hold my hand, {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I heard {{q:3}} that clouds have been grey"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:4}}, wrap me in your aching arms"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I see that {{q:5}}, why'd you take so long"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "To tell me you need me? I see that {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "You don't need to {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "But if you {{q:8}}, I'll ride in this life with you"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I {{q:9}} 'til the end"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "So {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "But don't you let go of {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "You can cry {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I won't leave 'til {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:14}}, just hold my hand"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Raise your head, look into my {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "That fear that's inside you will lift, {{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I can see everything {{q:17}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Your {{q:18}}, let God whisper how"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "To tell me {{q:19}}, I see that you're bleeding"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "You don't need to {{q:20}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "But if you decide to, I'll ride in this life with you"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I won't let go 'til the end"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "So cry tonight"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "But don't you let go of my hand"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You can cry every last tear"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I won't leave 'til I understand"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Promise you'll just hold my hand"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Hold my hand, hold my—"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Hold my hand, my hand"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I'll be right here, hold my hand"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Hold my hand, hold my—"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Hold my hand, my hand"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I'll be right here, hold my hand"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I know you're scared and your pain is imperfect"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "But don't you give up on yourself"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I've heard a story, a girl, she once told me"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "That I would be happy again"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Hold my hand"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Hold my hand"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Hold my hand, hold my hand"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Hold my hand, hold my hand"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Hold my hand"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I heard from the heavens"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "you need me",
+          "options": [
+            "you need me",
+            "you see me",
+            "you miss me"
+          ],
+          "prompt": "To tell me {{blank}}",
+          "promptZh": "告訴我，你需要我"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "everything will be okay",
+          "options": [
+            "everything will be okay",
+            "everything will fade away",
+            "everything will change today"
+          ],
+          "prompt": "Hold my hand, {{blank}}",
+          "promptZh": "握緊我的手吧，一切終將安然無恙"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "from the heavens",
+          "options": [
+            "from the ocean",
+            "from the heavens",
+            "from the mountains"
+          ],
+          "prompt": "I heard {{blank}} that clouds have been grey",
+          "promptZh": "我彷彿聽見來自天際的低語，說烏雲早已籠罩天空"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "Pull me close",
+          "options": [
+            "Push me away",
+            "Call me back",
+            "Pull me close"
+          ],
+          "prompt": "{{blank}}, wrap me in your aching arms",
+          "promptZh": "將我拉近些吧，用你那承受著傷痛的雙臂緊緊擁抱我"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "you're hurtin'",
+          "options": [
+            "you're hurtin'",
+            "you're waiting",
+            "you're hiding"
+          ],
+          "prompt": "I see that {{blank}}, why'd you take so long",
+          "promptZh": "我看得出你正深受傷痛折磨，為何你遲遲不肯開口？"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "you're bleeding",
+          "options": [
+            "you're dreaming",
+            "you're leaving",
+            "you're bleeding"
+          ],
+          "prompt": "To tell me you need me? I see that {{blank}}",
+          "promptZh": "告訴我你需要我？我看得見，你的傷口仍在流血"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "show me again",
+          "options": [
+            "tell me the truth",
+            "show me again",
+            "call me tonight"
+          ],
+          "prompt": "You don't need to {{blank}}",
+          "promptZh": "你不必再向我證明自己的傷痛"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "decide to",
+          "options": [
+            "refuse to",
+            "forget to",
+            "decide to"
+          ],
+          "prompt": "But if you {{blank}}, I'll ride in this life with you",
+          "promptZh": "但若你願意敞開心扉，我會陪你走過這一生的風雨"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "won't let go",
+          "options": [
+            "won't let go",
+            "won't come back",
+            "won't give in"
+          ],
+          "prompt": "I {{blank}} 'til the end",
+          "promptZh": "直到最後一刻，我都不會放開你的手"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "cry tonight",
+          "options": [
+            "smile today",
+            "cry tonight",
+            "sleep alone"
+          ],
+          "prompt": "So {{blank}}",
+          "promptZh": "所以，今夜就盡情哭泣吧"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "my hand",
+          "options": [
+            "my heart",
+            "my side",
+            "my hand"
+          ],
+          "prompt": "But don't you let go of {{blank}}",
+          "promptZh": "但請你千萬別放開我的手"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "every last tear",
+          "options": [
+            "every last tear",
+            "every small fear",
+            "every lost dream"
+          ],
+          "prompt": "You can cry {{blank}}",
+          "promptZh": "你可以流盡心中最後一滴眼淚"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "I understand",
+          "options": [
+            "I understand",
+            "I come around",
+            "I hear your voice"
+          ],
+          "prompt": "I won't leave 'til {{blank}}",
+          "promptZh": "在我真正理解你的心痛之前，我絕不會離開"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "Promise me",
+          "options": [
+            "Follow me",
+            "Promise me",
+            "Remember me"
+          ],
+          "prompt": "{{blank}}, just hold my hand",
+          "promptZh": "答應我，只要緊緊握住我的手"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "wishful eyes",
+          "options": [
+            "wishful eyes",
+            "weary hands",
+            "restless heart"
+          ],
+          "prompt": "Raise your head, look into my {{blank}}",
+          "promptZh": "抬起頭來，望進我那雙滿懷希望的眼眸"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "give it time",
+          "options": [
+            "let it go",
+            "make it right",
+            "give it time"
+          ],
+          "prompt": "That fear that's inside you will lift, {{blank}}",
+          "promptZh": "你心中的恐懼終會消散，只要再給自己一點時間"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-17",
+          "answer": "you're blind to now",
+          "options": [
+            "you're blind to now",
+            "you've waited for",
+            "you've dreamed about"
+          ],
+          "prompt": "I can see everything {{blank}}",
+          "promptZh": "那些你此刻無法看清的一切，我都能替你看見"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-18",
+          "answer": "prayers will be answered",
+          "options": [
+            "dreams will be forgotten",
+            "prayers will be answered",
+            "fears will be growing"
+          ],
+          "prompt": "Your {{blank}}, let God whisper how",
+          "promptZh": "你的祈禱終將得到回應，讓上帝輕聲告訴你答案將如何到來"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-19",
+          "answer": "you need me",
+          "options": [
+            "you love me",
+            "you know me",
+            "you need me"
+          ],
+          "prompt": "To tell me {{blank}}, I see that you're bleeding",
+          "promptZh": "告訴我你需要我，我看得見，你的傷口仍在流血"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-20",
+          "answer": "show me again",
+          "options": [
+            "leave me behind",
+            "call me at night",
+            "show me again"
+          ],
+          "prompt": "You don't need to {{blank}}",
+          "promptZh": "你不必再向我證明自己的傷痛"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-21",
+          "answer": "ride in this life with you",
+          "options": [
+            "walk through the night with you",
+            "ride in this life with you",
+            "run to the edge with you"
+          ],
+          "prompt": "But if you decide to, I'll {{blank}}",
+          "promptZh": "但若你願意敞開心扉，我會陪你走過這一生的風雨"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-22",
+          "answer": "'til the end",
+          "options": [
+            "through the rain",
+            "'til the end",
+            "for a while"
+          ],
+          "prompt": "I won't let go {{blank}}",
+          "promptZh": "直到最後一刻，我都不會放開你的手"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-23",
+          "answer": "cry tonight",
+          "options": [
+            "dance tonight",
+            "stay awake",
+            "cry tonight"
+          ],
+          "prompt": "So {{blank}}",
+          "promptZh": "所以，今夜就盡情哭泣吧"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-24",
+          "answer": "let go of my hand",
+          "options": [
+            "let go of my hand",
+            "run out of time",
+            "walk away from me"
+          ],
+          "prompt": "But don't you {{blank}}",
+          "promptZh": "但請你千萬別放開我的手"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-25",
+          "answer": "every last tear",
+          "options": [
+            "every old song",
+            "every bright star",
+            "every last tear"
+          ],
+          "prompt": "You can cry {{blank}}",
+          "promptZh": "你可以流盡心中最後一滴眼淚"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-26",
+          "answer": "'til I understand",
+          "options": [
+            "until the morning",
+            "until you come home",
+            "'til I understand"
+          ],
+          "prompt": "I won't leave {{blank}}",
+          "promptZh": "在我真正理解你的心痛之前，我絕不會離開"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-27",
+          "answer": "hold my hand",
+          "options": [
+            "hear my voice",
+            "hold my hand",
+            "take my place"
+          ],
+          "prompt": "Promise you'll just {{blank}}",
+          "promptZh": "答應我，你會一直握緊我的手"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-28",
+          "answer": "Hold my hand",
+          "options": [
+            "Hold my hand",
+            "Close your eyes",
+            "Stay with me"
+          ],
+          "prompt": "{{blank}}, hold my—",
+          "promptZh": "握住我的手，握住我的……"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-29",
+          "answer": "my hand",
+          "options": [
+            "your heart",
+            "my hand",
+            "the night"
+          ],
+          "prompt": "Hold {{blank}}, my hand",
+          "promptZh": "握緊我的手，我的手"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-30",
+          "answer": "I'll be right here",
+          "options": [
+            "I'll be far away",
+            "I'll be right here",
+            "I'll be gone by dawn"
+          ],
+          "prompt": "{{blank}}, hold my hand",
+          "promptZh": "我就在這裡，握緊我的手吧"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-31",
+          "answer": "Hold my hand",
+          "options": [
+            "Hold my hand",
+            "Find your way",
+            "Say my name"
+          ],
+          "prompt": "{{blank}}, hold my—",
+          "promptZh": "握住我的手，握住我的……"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-32",
+          "answer": "my hand",
+          "options": [
+            "my love",
+            "my hand",
+            "my world"
+          ],
+          "prompt": "Hold {{blank}}, my hand",
+          "promptZh": "握緊我的手，我的手"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "To tell me {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Hold my hand, {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I heard {{q:3}} that clouds have been grey"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:4}}, wrap me in your aching arms"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I see that {{q:5}}, why'd you take so long"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "To tell me you need me? I see that {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "You don't need to {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "But if you {{q:8}}, I'll ride in this life with you"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I {{q:9}} 'til the end"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "So {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "But don't you let go of {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "You can cry {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I won't leave 'til {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:14}}, just hold my hand"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Raise your head, look into my {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "That fear that's inside you will lift, {{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I can see everything {{q:17}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Your {{q:18}}, let God whisper how"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "To tell me {{q:19}}, I see that you're bleeding"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "You don't need to {{q:20}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "But if you decide to, I'll {{q:21}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I won't let go {{q:22}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "So {{q:23}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "But don't you {{q:24}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You can cry {{q:25}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I won't leave {{q:26}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Promise you'll just {{q:27}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:28}}, hold my—"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Hold {{q:29}}, my hand"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:30}}, hold my hand"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:31}}, hold my—"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Hold {{q:32}}, my hand"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I'll be right here, hold my hand"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I know you're scared and your pain is imperfect"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "But don't you give up on yourself"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I've heard a story, a girl, she once told me"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "That I would be happy again"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Hold my hand"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Hold my hand"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Hold my hand, hold my hand"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Hold my hand, hold my hand"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Hold my hand"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I heard from the heavens"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "you need me",
+          "options": [
+            "you see me",
+            "you miss me",
+            "you need me"
+          ],
+          "prompt": "To tell me {{blank}}",
+          "promptZh": "告訴我，你需要我"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "everything will be okay",
+          "options": [
+            "everything will fade away",
+            "everything will be okay",
+            "everything will change today"
+          ],
+          "prompt": "Hold my hand, {{blank}}",
+          "promptZh": "握緊我的手吧，一切終將安然無恙"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "from the heavens",
+          "options": [
+            "from the ocean",
+            "from the mountains",
+            "from the heavens"
+          ],
+          "prompt": "I heard {{blank}} that clouds have been grey",
+          "promptZh": "我彷彿聽見來自天際的低語，說烏雲早已籠罩天空"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "Pull me close",
+          "options": [
+            "Push me away",
+            "Call me back",
+            "Pull me close"
+          ],
+          "prompt": "{{blank}}, wrap me in your aching arms",
+          "promptZh": "將我拉近些吧，用你那承受著傷痛的雙臂緊緊擁抱我"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "you're hurtin'",
+          "options": [
+            "you're hurtin'",
+            "you're waiting",
+            "you're hiding"
+          ],
+          "prompt": "I see that {{blank}}, why'd you take so long",
+          "promptZh": "我看得出你正深受傷痛折磨，為何你遲遲不肯開口？"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "you're bleeding",
+          "options": [
+            "you're dreaming",
+            "you're leaving",
+            "you're bleeding"
+          ],
+          "prompt": "To tell me you need me? I see that {{blank}}",
+          "promptZh": "告訴我你需要我？我看得見，你的傷口仍在流血"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "show me again",
+          "options": [
+            "tell me the truth",
+            "call me tonight",
+            "show me again"
+          ],
+          "prompt": "You don't need to {{blank}}",
+          "promptZh": "你不必再向我證明自己的傷痛"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "decide to",
+          "options": [
+            "refuse to",
+            "decide to",
+            "forget to"
+          ],
+          "prompt": "But if you {{blank}}, I'll ride in this life with you",
+          "promptZh": "但若你願意敞開心扉，我會陪你走過這一生的風雨"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "won't let go",
+          "options": [
+            "won't let go",
+            "won't come back",
+            "won't give in"
+          ],
+          "prompt": "I {{blank}} 'til the end",
+          "promptZh": "直到最後一刻，我都不會放開你的手"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "cry tonight",
+          "options": [
+            "smile today",
+            "cry tonight",
+            "sleep alone"
+          ],
+          "prompt": "So {{blank}}",
+          "promptZh": "所以，今夜就盡情哭泣吧"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "my hand",
+          "options": [
+            "my heart",
+            "my hand",
+            "my side"
+          ],
+          "prompt": "But don't you let go of {{blank}}",
+          "promptZh": "但請你千萬別放開我的手"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "every last tear",
+          "options": [
+            "every last tear",
+            "every small fear",
+            "every lost dream"
+          ],
+          "prompt": "You can cry {{blank}}",
+          "promptZh": "你可以流盡心中最後一滴眼淚"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "I understand",
+          "options": [
+            "I come around",
+            "I hear your voice",
+            "I understand"
+          ],
+          "prompt": "I won't leave 'til {{blank}}",
+          "promptZh": "在我真正理解你的心痛之前，我絕不會離開"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "Promise me",
+          "options": [
+            "Follow me",
+            "Remember me",
+            "Promise me"
+          ],
+          "prompt": "{{blank}}, just hold my hand",
+          "promptZh": "答應我，只要緊緊握住我的手"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "wishful eyes",
+          "options": [
+            "wishful eyes",
+            "weary hands",
+            "restless heart"
+          ],
+          "prompt": "Raise your head, look into my {{blank}}",
+          "promptZh": "抬起頭來，望進我那雙滿懷希望的眼眸"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "give it time",
+          "options": [
+            "give it time",
+            "let it go",
+            "make it right"
+          ],
+          "prompt": "That fear that's inside you will lift, {{blank}}",
+          "promptZh": "你心中的恐懼終會消散，只要再給自己一點時間"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-17",
+          "answer": "you're blind to now",
+          "options": [
+            "you've waited for",
+            "you've dreamed about",
+            "you're blind to now"
+          ],
+          "prompt": "I can see everything {{blank}}",
+          "promptZh": "那些你此刻無法看清的一切，我都能替你看見"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-18",
+          "answer": "prayers will be answered",
+          "options": [
+            "prayers will be answered",
+            "dreams will be forgotten",
+            "fears will be growing"
+          ],
+          "prompt": "Your {{blank}}, let God whisper how",
+          "promptZh": "你的祈禱終將得到回應，讓上帝輕聲告訴你答案將如何到來"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-19",
+          "answer": "you need me",
+          "options": [
+            "you love me",
+            "you need me",
+            "you know me"
+          ],
+          "prompt": "To tell me {{blank}}, I see that you're bleeding",
+          "promptZh": "告訴我你需要我，我看得見，你的傷口仍在流血"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-20",
+          "answer": "show me again",
+          "options": [
+            "leave me behind",
+            "show me again",
+            "call me at night"
+          ],
+          "prompt": "You don't need to {{blank}}",
+          "promptZh": "你不必再向我證明自己的傷痛"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-21",
+          "answer": "ride in this life with you",
+          "options": [
+            "ride in this life with you",
+            "walk through the night with you",
+            "run to the edge with you"
+          ],
+          "prompt": "But if you decide to, I'll {{blank}}",
+          "promptZh": "但若你願意敞開心扉，我會陪你走過這一生的風雨"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-22",
+          "answer": "'til the end",
+          "options": [
+            "'til the end",
+            "through the rain",
+            "for a while"
+          ],
+          "prompt": "I won't let go {{blank}}",
+          "promptZh": "直到最後一刻，我都不會放開你的手"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-23",
+          "answer": "cry tonight",
+          "options": [
+            "dance tonight",
+            "cry tonight",
+            "stay awake"
+          ],
+          "prompt": "So {{blank}}",
+          "promptZh": "所以，今夜就盡情哭泣吧"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-24",
+          "answer": "let go of my hand",
+          "options": [
+            "run out of time",
+            "let go of my hand",
+            "walk away from me"
+          ],
+          "prompt": "But don't you {{blank}}",
+          "promptZh": "但請你千萬別放開我的手"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-25",
+          "answer": "every last tear",
+          "options": [
+            "every last tear",
+            "every old song",
+            "every bright star"
+          ],
+          "prompt": "You can cry {{blank}}",
+          "promptZh": "你可以流盡心中最後一滴眼淚"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-26",
+          "answer": "'til I understand",
+          "options": [
+            "until the morning",
+            "'til I understand",
+            "until you come home"
+          ],
+          "prompt": "I won't leave {{blank}}",
+          "promptZh": "在我真正理解你的心痛之前，我絕不會離開"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-27",
+          "answer": "hold my hand",
+          "options": [
+            "hear my voice",
+            "hold my hand",
+            "take my place"
+          ],
+          "prompt": "Promise you'll just {{blank}}",
+          "promptZh": "答應我，你會一直握緊我的手"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-28",
+          "answer": "Hold my hand",
+          "options": [
+            "Hold my hand",
+            "Close your eyes",
+            "Stay with me"
+          ],
+          "prompt": "{{blank}}, hold my—",
+          "promptZh": "握住我的手，握住我的……"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-29",
+          "answer": "my hand",
+          "options": [
+            "your heart",
+            "my hand",
+            "the night"
+          ],
+          "prompt": "Hold {{blank}}, my hand",
+          "promptZh": "握緊我的手，我的手"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-30",
+          "answer": "I'll be right here",
+          "options": [
+            "I'll be right here",
+            "I'll be far away",
+            "I'll be gone by dawn"
+          ],
+          "prompt": "{{blank}}, hold my hand",
+          "promptZh": "我就在這裡，握緊我的手吧"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-31",
+          "answer": "Hold my hand",
+          "options": [
+            "Find your way",
+            "Hold my hand",
+            "Say my name"
+          ],
+          "prompt": "{{blank}}, hold my—",
+          "promptZh": "握住我的手，握住我的……"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-32",
+          "answer": "my hand",
+          "options": [
+            "my hand",
+            "my love",
+            "my world"
+          ],
+          "prompt": "Hold {{blank}}, my hand",
+          "promptZh": "握緊我的手，我的手"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-33",
+          "answer": "hold my hand",
+          "options": [
+            "follow the light",
+            "open the door",
+            "hold my hand"
+          ],
+          "prompt": "I'll be right here, {{blank}}",
+          "promptZh": "我就在這裡，握緊我的手吧"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-34",
+          "answer": "you're scared",
+          "options": [
+            "you're lost",
+            "you're cold",
+            "you're scared"
+          ],
+          "prompt": "I know {{blank}} and your pain is imperfect",
+          "promptZh": "我知道你心懷恐懼，而你的傷痛也並非完美無瑕"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-35",
+          "answer": "give up on yourself",
+          "options": [
+            "give up on yourself",
+            "turn away from love",
+            "walk out on your friends"
+          ],
+          "prompt": "But don't you {{blank}}",
+          "promptZh": "但請你千萬不要放棄自己"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-36",
+          "answer": "heard a story",
+          "options": [
+            "read a letter",
+            "saw a picture",
+            "heard a story"
+          ],
+          "prompt": "I've {{blank}}, a girl, she once told me",
+          "promptZh": "我曾聽過一個故事，有個女孩曾經告訴我"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-37",
+          "answer": "happy again",
+          "options": [
+            "happy again",
+            "home by dawn",
+            "free at last"
+          ],
+          "prompt": "That I would be {{blank}}",
+          "promptZh": "說總有一天，我會重新找回幸福"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-38",
+          "answer": "Hold my hand",
+          "options": [
+            "Take your time",
+            "Hold my hand",
+            "Close your eyes"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "握緊我的手"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-39",
+          "answer": "Hold my hand",
+          "options": [
+            "Hear my song",
+            "Find your way",
+            "Hold my hand"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "握緊我的手"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-40",
+          "answer": "Hold my hand",
+          "options": [
+            "Take my place",
+            "Hear my voice",
+            "Hold my hand"
+          ],
+          "prompt": "{{blank}}, hold my hand",
+          "promptZh": "握緊我的手，握緊我的手"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "To tell me {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Hold my hand, {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I heard {{q:3}} that clouds have been grey"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:4}}, wrap me in your aching arms"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I see that {{q:5}}, why'd you take so long"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "To tell me you need me? I see that {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "You don't need to {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "But if you {{q:8}}, I'll ride in this life with you"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I {{q:9}} 'til the end"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "So {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "But don't you let go of {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "You can cry {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I won't leave 'til {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:14}}, just hold my hand"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Raise your head, look into my {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "That fear that's inside you will lift, {{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I can see everything {{q:17}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Your {{q:18}}, let God whisper how"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "To tell me {{q:19}}, I see that you're bleeding"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "You don't need to {{q:20}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "But if you decide to, I'll {{q:21}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I won't let go {{q:22}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "So {{q:23}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "But don't you {{q:24}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You can cry {{q:25}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I won't leave {{q:26}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Promise you'll just {{q:27}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:28}}, hold my—"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Hold {{q:29}}, my hand"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:30}}, hold my hand"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:31}}, hold my—"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Hold {{q:32}}, my hand"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I'll be right here, {{q:33}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I know {{q:34}} and your pain is imperfect"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "But don't you {{q:35}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I've {{q:36}}, a girl, she once told me"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "That I would be {{q:37}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:38}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "{{q:39}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "{{q:40}}, hold my hand"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Hold my hand, hold my hand"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Hold my hand"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I heard from the heavens"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "you need me",
+          "options": [
+            "you see me",
+            "you need me",
+            "you miss me"
+          ],
+          "prompt": "To tell me {{blank}}",
+          "promptZh": "告訴我，你需要我"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "Hold my hand",
+          "options": [
+            "Hold my hand",
+            "Take my hand",
+            "Raise your head"
+          ],
+          "prompt": "{{blank}}, everything will be okay",
+          "promptZh": "握緊我的手吧，一切終將安然無恙"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "everything will be okay",
+          "options": [
+            "everything will fade away",
+            "everything will change today",
+            "everything will be okay"
+          ],
+          "prompt": "Hold my hand, {{blank}}",
+          "promptZh": "握緊我的手吧，一切終將安然無恙"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-3",
+          "answer": "from the heavens",
+          "options": [
+            "from the ocean",
+            "from the heavens",
+            "from the mountains"
+          ],
+          "prompt": "I heard {{blank}} that clouds have been grey",
+          "promptZh": "我彷彿聽見來自天際的低語，說烏雲早已籠罩天空"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-3",
+          "answer": "clouds have been grey",
+          "options": [
+            "clouds have been grey",
+            "skies have turned blue",
+            "stars have gone dark"
+          ],
+          "prompt": "I heard from the heavens that {{blank}}",
+          "promptZh": "我彷彿聽見來自天際的低語，說烏雲早已籠罩天空"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-4",
+          "answer": "Pull me close",
+          "options": [
+            "Push me away",
+            "Call me back",
+            "Pull me close"
+          ],
+          "prompt": "{{blank}}, wrap me in your aching arms",
+          "promptZh": "將我拉近些吧，用你那承受著傷痛的雙臂緊緊擁抱我"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-4",
+          "answer": "aching arms",
+          "options": [
+            "gentle hands",
+            "aching arms",
+            "open eyes"
+          ],
+          "prompt": "Pull me close, wrap me in your {{blank}}",
+          "promptZh": "將我拉近些吧，用你那承受著傷痛的雙臂緊緊擁抱我"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-5",
+          "answer": "you're hurtin'",
+          "options": [
+            "you're hurtin'",
+            "you're waiting",
+            "you're hiding"
+          ],
+          "prompt": "I see that {{blank}}, why'd you take so long",
+          "promptZh": "我看得出你正深受傷痛折磨，為何你遲遲不肯開口？"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-5",
+          "answer": "take so long",
+          "options": [
+            "take so long",
+            "walk so far",
+            "wait all night"
+          ],
+          "prompt": "I see that you're hurtin', why'd you {{blank}}",
+          "promptZh": "我看得出你正深受傷痛折磨，為何你遲遲不肯開口？"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-6",
+          "answer": "you're bleeding",
+          "options": [
+            "you're dreaming",
+            "you're leaving",
+            "you're bleeding"
+          ],
+          "prompt": "To tell me you need me? I see that {{blank}}",
+          "promptZh": "告訴我你需要我？我看得見，你的傷口仍在流血"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-7",
+          "answer": "show me again",
+          "options": [
+            "tell me the truth",
+            "call me tonight",
+            "show me again"
+          ],
+          "prompt": "You don't need to {{blank}}",
+          "promptZh": "你不必再向我證明自己的傷痛"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-8",
+          "answer": "decide to",
+          "options": [
+            "decide to",
+            "refuse to",
+            "forget to"
+          ],
+          "prompt": "But if you {{blank}}, I'll ride in this life with you",
+          "promptZh": "但若你願意敞開心扉，我會陪你走過這一生的風雨"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-8",
+          "answer": "I'll ride",
+          "options": [
+            "I'll hide",
+            "I'll ride",
+            "I'll wait"
+          ],
+          "prompt": "But if you decide to, {{blank}} in this life with you",
+          "promptZh": "但若你願意敞開心扉，我會陪你走過這一生的風雨"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-9",
+          "answer": "won't let go",
+          "options": [
+            "won't come back",
+            "won't let go",
+            "won't give in"
+          ],
+          "prompt": "I {{blank}} 'til the end",
+          "promptZh": "直到最後一刻，我都不會放開你的手"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-10",
+          "answer": "cry tonight",
+          "options": [
+            "smile today",
+            "sleep alone",
+            "cry tonight"
+          ],
+          "prompt": "So {{blank}}",
+          "promptZh": "所以，今夜就盡情哭泣吧"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-11",
+          "answer": "my hand",
+          "options": [
+            "my hand",
+            "my heart",
+            "my side"
+          ],
+          "prompt": "But don't you let go of {{blank}}",
+          "promptZh": "但請你千萬別放開我的手"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-12",
+          "answer": "every last tear",
+          "options": [
+            "every last tear",
+            "every small fear",
+            "every lost dream"
+          ],
+          "prompt": "You can cry {{blank}}",
+          "promptZh": "你可以流盡心中最後一滴眼淚"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-13",
+          "answer": "I understand",
+          "options": [
+            "I come around",
+            "I hear your voice",
+            "I understand"
+          ],
+          "prompt": "I won't leave 'til {{blank}}",
+          "promptZh": "在我真正理解你的心痛之前，我絕不會離開"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-14",
+          "answer": "Promise me",
+          "options": [
+            "Follow me",
+            "Promise me",
+            "Remember me"
+          ],
+          "prompt": "{{blank}}, just hold my hand",
+          "promptZh": "答應我，只要緊緊握住我的手"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 21,
+          "lineId": "line-15",
+          "answer": "Raise your head",
+          "options": [
+            "Close your eyes",
+            "Turn around",
+            "Raise your head"
+          ],
+          "prompt": "{{blank}}, look into my wishful eyes",
+          "promptZh": "抬起頭來，望進我那雙滿懷希望的眼眸"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 20,
+          "lineId": "line-15",
+          "answer": "wishful eyes",
+          "options": [
+            "weary hands",
+            "restless heart",
+            "wishful eyes"
+          ],
+          "prompt": "Raise your head, look into my {{blank}}",
+          "promptZh": "抬起頭來，望進我那雙滿懷希望的眼眸"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-16",
+          "answer": "give it time",
+          "options": [
+            "let it go",
+            "give it time",
+            "make it right"
+          ],
+          "prompt": "That fear that's inside you will lift, {{blank}}",
+          "promptZh": "你心中的恐懼終會消散，只要再給自己一點時間"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-17",
+          "answer": "you're blind to now",
+          "options": [
+            "you're blind to now",
+            "you've waited for",
+            "you've dreamed about"
+          ],
+          "prompt": "I can see everything {{blank}}",
+          "promptZh": "那些你此刻無法看清的一切，我都能替你看見"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-18",
+          "answer": "prayers will be answered",
+          "options": [
+            "dreams will be forgotten",
+            "fears will be growing",
+            "prayers will be answered"
+          ],
+          "prompt": "Your {{blank}}, let God whisper how",
+          "promptZh": "你的祈禱終將得到回應，讓上帝輕聲告訴你答案將如何到來"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-18",
+          "answer": "God whisper how",
+          "options": [
+            "angels sing tonight",
+            "the world tell why",
+            "God whisper how"
+          ],
+          "prompt": "Your prayers will be answered, let {{blank}}",
+          "promptZh": "你的祈禱終將得到回應，讓上帝輕聲告訴你答案將如何到來"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-19",
+          "answer": "you need me",
+          "options": [
+            "you love me",
+            "you need me",
+            "you know me"
+          ],
+          "prompt": "To tell me {{blank}}, I see that you're bleeding",
+          "promptZh": "告訴我你需要我，我看得見，你的傷口仍在流血"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-20",
+          "answer": "show me again",
+          "options": [
+            "leave me behind",
+            "call me at night",
+            "show me again"
+          ],
+          "prompt": "You don't need to {{blank}}",
+          "promptZh": "你不必再向我證明自己的傷痛"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-21",
+          "answer": "ride in this life with you",
+          "options": [
+            "walk through the night with you",
+            "run to the edge with you",
+            "ride in this life with you"
+          ],
+          "prompt": "But if you decide to, I'll {{blank}}",
+          "promptZh": "但若你願意敞開心扉，我會陪你走過這一生的風雨"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-22",
+          "answer": "'til the end",
+          "options": [
+            "'til the end",
+            "through the rain",
+            "for a while"
+          ],
+          "prompt": "I won't let go {{blank}}",
+          "promptZh": "直到最後一刻，我都不會放開你的手"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-23",
+          "answer": "cry tonight",
+          "options": [
+            "dance tonight",
+            "cry tonight",
+            "stay awake"
+          ],
+          "prompt": "So {{blank}}",
+          "promptZh": "所以，今夜就盡情哭泣吧"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-24",
+          "answer": "let go of my hand",
+          "options": [
+            "let go of my hand",
+            "run out of time",
+            "walk away from me"
+          ],
+          "prompt": "But don't you {{blank}}",
+          "promptZh": "但請你千萬別放開我的手"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-25",
+          "answer": "every last tear",
+          "options": [
+            "every old song",
+            "every last tear",
+            "every bright star"
+          ],
+          "prompt": "You can cry {{blank}}",
+          "promptZh": "你可以流盡心中最後一滴眼淚"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-26",
+          "answer": "'til I understand",
+          "options": [
+            "'til I understand",
+            "until the morning",
+            "until you come home"
+          ],
+          "prompt": "I won't leave {{blank}}",
+          "promptZh": "在我真正理解你的心痛之前，我絕不會離開"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-27",
+          "answer": "hold my hand",
+          "options": [
+            "hear my voice",
+            "hold my hand",
+            "take my place"
+          ],
+          "prompt": "Promise you'll just {{blank}}",
+          "promptZh": "答應我，你會一直握緊我的手"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-28",
+          "answer": "Hold my hand",
+          "options": [
+            "Hold my hand",
+            "Close your eyes",
+            "Stay with me"
+          ],
+          "prompt": "{{blank}}, hold my—",
+          "promptZh": "握住我的手，握住我的……"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-29",
+          "answer": "my hand",
+          "options": [
+            "your heart",
+            "the night",
+            "my hand"
+          ],
+          "prompt": "Hold {{blank}}, my hand",
+          "promptZh": "握緊我的手，我的手"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-30",
+          "answer": "I'll be right here",
+          "options": [
+            "I'll be far away",
+            "I'll be gone by dawn",
+            "I'll be right here"
+          ],
+          "prompt": "{{blank}}, hold my hand",
+          "promptZh": "我就在這裡，握緊我的手吧"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-31",
+          "answer": "Hold my hand",
+          "options": [
+            "Find your way",
+            "Hold my hand",
+            "Say my name"
+          ],
+          "prompt": "{{blank}}, hold my—",
+          "promptZh": "握住我的手，握住我的……"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-32",
+          "answer": "my hand",
+          "options": [
+            "my hand",
+            "my love",
+            "my world"
+          ],
+          "prompt": "Hold {{blank}}, my hand",
+          "promptZh": "握緊我的手，我的手"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-33",
+          "answer": "hold my hand",
+          "options": [
+            "hold my hand",
+            "follow the light",
+            "open the door"
+          ],
+          "prompt": "I'll be right here, {{blank}}",
+          "promptZh": "我就在這裡，握緊我的手吧"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-34",
+          "answer": "you're scared",
+          "options": [
+            "you're lost",
+            "you're scared",
+            "you're cold"
+          ],
+          "prompt": "I know {{blank}} and your pain is imperfect",
+          "promptZh": "我知道你心懷恐懼，而你的傷痛也並非完美無瑕"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-35",
+          "answer": "give up on yourself",
+          "options": [
+            "turn away from love",
+            "walk out on your friends",
+            "give up on yourself"
+          ],
+          "prompt": "But don't you {{blank}}",
+          "promptZh": "但請你千萬不要放棄自己"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-36",
+          "answer": "heard a story",
+          "options": [
+            "heard a story",
+            "read a letter",
+            "saw a picture"
+          ],
+          "prompt": "I've {{blank}}, a girl, she once told me",
+          "promptZh": "我曾聽過一個故事，有個女孩曾經告訴我"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-37",
+          "answer": "happy again",
+          "options": [
+            "happy again",
+            "home by dawn",
+            "free at last"
+          ],
+          "prompt": "That I would be {{blank}}",
+          "promptZh": "說總有一天，我會重新找回幸福"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-38",
+          "answer": "Hold my hand",
+          "options": [
+            "Take your time",
+            "Hold my hand",
+            "Close your eyes"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "握緊我的手"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-39",
+          "answer": "Hold my hand",
+          "options": [
+            "Hear my song",
+            "Hold my hand",
+            "Find your way"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "握緊我的手"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-40",
+          "answer": "Hold my hand",
+          "options": [
+            "Hold my hand",
+            "Take my place",
+            "Hear my voice"
+          ],
+          "prompt": "{{blank}}, hold my hand",
+          "promptZh": "握緊我的手，握緊我的手"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-41",
+          "answer": "Hold my hand",
+          "options": [
+            "take your time",
+            "Hold my hand",
+            "find your way"
+          ],
+          "prompt": "{{blank}}, hold my hand",
+          "promptZh": "握緊我的手，握緊我的手"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-42",
+          "answer": "Hold my hand",
+          "options": [
+            "Follow me now",
+            "Stay by my side",
+            "Hold my hand"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "握緊我的手"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-43",
+          "answer": "from the heavens",
+          "options": [
+            "through the window",
+            "from the heavens",
+            "across the ocean"
+          ],
+          "prompt": "I heard {{blank}}",
+          "promptZh": "我聽見了來自天際的低語"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "To tell me {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}, {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I heard {{q:4}} that {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:6}}, wrap me in your {{q:7}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I see that {{q:8}}, why'd you {{q:9}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "To tell me you need me? I see that {{q:10}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "You don't need to {{q:11}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "But if you {{q:12}}, {{q:13}} in this life with you"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I {{q:14}} 'til the end"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "So {{q:15}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "But don't you let go of {{q:16}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "You can cry {{q:17}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I won't leave 'til {{q:18}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:19}}, just hold my hand"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:20}}, look into my {{q:21}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "That fear that's inside you will lift, {{q:22}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I can see everything {{q:23}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Your {{q:24}}, let {{q:25}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "To tell me {{q:26}}, I see that you're bleeding"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "You don't need to {{q:27}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "But if you decide to, I'll {{q:28}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I won't let go {{q:29}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "So {{q:30}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "But don't you {{q:31}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You can cry {{q:32}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I won't leave {{q:33}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Promise you'll just {{q:34}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:35}}, hold my—"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Hold {{q:36}}, my hand"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:37}}, hold my hand"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:38}}, hold my—"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Hold {{q:39}}, my hand"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I'll be right here, {{q:40}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I know {{q:41}} and your pain is imperfect"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "But don't you {{q:42}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I've {{q:43}}, a girl, she once told me"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "That I would be {{q:44}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:45}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "{{q:46}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "{{q:47}}, hold my hand"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:48}}, hold my hand"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "{{q:49}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I heard {{q:50}}"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Hold My Hand · Listening & Vocabulary",
+  "description": "《Hold My Hand》描寫一份在痛苦與恐懼中，仍然願意陪伴、守護與支持對方的深厚感情。歌中的主角看見心愛的人正承受傷害與內心的掙扎，希望對方能勇敢說出自己的需要，無須獨自面對困難。她承諾無論未來多麼艱難，都會緊握對方的手，陪伴他走過人生的低谷。歌曲亦鼓勵人們勇敢流淚、接納脆弱，並相信時間能逐漸撫平傷痛。反覆出現的「Hold My Hand」象徵信任、希望與永不放棄的支持。最終，《Hold My Hand》傳達的是愛、勇氣與心靈的治癒：即使生命充滿不確定與挑戰，只要願意敞開心扉、彼此扶持，便能在最黑暗的時刻找到希望，重新獲得前進的力量。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "aching",
+      "meaning": "疼痛的、隱隱作痛的",
+      "usage": "形容身體持續疼痛；常說 aching arms / feet / back。",
+      "prompt": "哪一句正確使用這個詞語？",
+      "options": [
+        "After carrying the heavy drum all afternoon, my arms were aching.",
+        "The train was aching at the station for ten minutes.",
+        "Our school will aching a new library next year.",
+        "Please aching the lights before the show begins."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "搬了一下午沉重的鼓，手臂痠痛，aching 用來描述持續疼痛。",
+        "火車停靠應說 waiting 或 staying，aching 不能表示停留。",
+        "aching 不是「興建」的動詞，應說 build。",
+        "要打開燈應說 turn on，不能用 aching 當動詞。"
+      ],
+      "explanation": "搬了一下午沉重的鼓，手臂痠痛，aching 用來描述持續疼痛。"
+    },
+    {
+      "number": 2,
+      "word": "pull someone close",
+      "meaning": "把某人拉近身邊、摟近",
+      "usage": "常用於安慰、擁抱或保護；pull + 人 + close。",
+      "prompt": "哪一句正確使用這個詞語？",
+      "options": [
+        "The pilot pulled the airport close before the plane landed.",
+        "The photographer pulled the sunshine close to take a brighter photo.",
+        "When her brother came home after a year, she pulled him close and hugged him.",
+        "The museum pulled the history close at nine o’clock."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "機師不能把整座機場拉近；要說 flew toward the airport。",
+        "陽光不能像人一樣被拉近；可以說 moved into the sunlight。",
+        "久別重逢時把弟弟拉近擁抱，符合片語用法。",
+        "這裡想表達開館，應說 opened，不能用 pull someone close。"
+      ],
+      "explanation": "久別重逢時把弟弟拉近擁抱，符合片語用法。"
+    },
+    {
+      "number": 3,
+      "word": "let go",
+      "meaning": "放手；不再抓住；也可指放下情緒",
+      "usage": "常用 let go of + 名詞，例如 let go of the rope / fear。",
+      "prompt": "哪一句正確使用這個詞語？",
+      "options": [
+        "The guide told us to let go the map of the city.",
+        "When the boat reached the dock, Noah let go of the rope.",
+        "After the concert, Mia let go at the piano for three hours.",
+        "Our coach let go to the team before the big game."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "若要說放開地圖，應說 let go of the map，少了 of。",
+        "船靠岸時鬆開繩子，let go of 用法正確。",
+        "彈鋼琴要用 played，let go at 不表示演奏。",
+        "對球隊講話應說 spoke to，let go to 並無此意。"
+      ],
+      "explanation": "船靠岸時鬆開繩子，let go of 用法正確。"
+    },
+    {
+      "number": 4,
+      "word": "raise your head",
+      "meaning": "抬起頭",
+      "usage": "raise 是及物動詞；raise your head 是把頭往上抬。",
+      "prompt": "哪一句正確使用這個詞語？",
+      "options": [
+        "The city raised its head into a new subway line.",
+        "At the bank, I raised my head for fifty dollars from the machine.",
+        "The singer raised her head the song on the radio.",
+        "The librarian raised her head to see who had entered the quiet room."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "興建捷運線應說 built，不能用 raise its head into。",
+        "從提款機領錢應說 withdrew，不能用 raise my head for。",
+        "播放歌曲應說 played，raise her head 不能直接接歌曲當受詞。",
+        "聽到有人進圖書館便抬頭查看，意思自然正確。"
+      ],
+      "explanation": "聽到有人進圖書館便抬頭查看，意思自然正確。"
+    },
+    {
+      "number": 5,
+      "word": "give it time",
+      "meaning": "給事情一點時間、別急",
+      "usage": "用於需要時間改善、適應或發展的情況。",
+      "prompt": "哪一句正確使用這個詞語？",
+      "options": [
+        "We gave it time to the ticket office at noon.",
+        "The dancer gave it time in a box to send to her friend.",
+        "You may feel nervous at your new job, but give it time.",
+        "Our teacher gave it time the students for the exam."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "買票應說 went to the ticket office；give it time 不是「前往」。",
+        "時間不是能裝箱寄送的物品；此處應說 sent a gift。",
+        "新工作需要適應，勸對方別急很自然。",
+        "若指給學生更多考試時間，應說 gave the students more time。"
+      ],
+      "explanation": "新工作需要適應，勸對方別急很自然。"
+    },
+    {
+      "number": 6,
+      "word": "be blind to",
+      "meaning": "沒有察覺、忽略（某事）",
+      "usage": "常指看不見明顯的問題或事實；be blind to + 名詞。",
+      "prompt": "哪一句正確使用這個詞語？",
+      "options": [
+        "The mayor was blind to the broken streetlights until people complained.",
+        "The painter was blind to a brush to finish the picture.",
+        "My cousin is blind to play the violin every Thursday.",
+        "The hotel is blind to the beach by a short bus ride."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "市長先前沒有注意到壞掉的路燈，blind to 表忽略問題。",
+        "畫畫需用 used a brush，blind to 不能表示使用工具。",
+        "要說學小提琴應用 learning to play，blind to 不能接原形動詞。",
+        "要說旅館離海灘很近，可用 close to，blind to 不是距離。"
+      ],
+      "explanation": "市長先前沒有注意到壞掉的路燈，blind to 表忽略問題。"
+    },
+    {
+      "number": 7,
+      "word": "whisper",
+      "meaning": "低聲說、耳語",
+      "usage": "可以 whisper to someone 或 whisper a secret；不是大聲喊叫。",
+      "prompt": "哪一句正確使用這個詞語？",
+      "options": [
+        "The actor whispered so loudly that people outside the stadium heard him.",
+        "At the surprise party, Ella whispered the plan to her cousin.",
+        "The mechanic whispered the old engine with a new part.",
+        "Our class whispered a race across the school field."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "whisper 指小聲說話，吼到場外都聽見與詞義衝突。",
+        "驚喜派對怕被發現，小聲告知計畫符合 whisper。",
+        "修引擎應說 repaired，whisper 不是「修理」。",
+        "舉辦比賽應說 held a race；whisper 不能表示舉辦。"
+      ],
+      "explanation": "驚喜派對怕被發現，小聲告知計畫符合 whisper。"
+    },
+    {
+      "number": 8,
+      "word": "give up on someone",
+      "meaning": "對某人放棄希望、不再支持",
+      "usage": "give up on + 人；不同於 give up + 活動（停止做某事）。",
+      "prompt": "哪一句正確使用這個詞語？",
+      "options": [
+        "My aunt gave up on the bus at 8:30 and arrived downtown.",
+        "The artist gave up on the wall a bright blue color.",
+        "I gave up on to my grandmother yesterday.",
+        "The science team did not give up on Leo, even after his robot failed twice."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "若指搭公車應說 got on the bus，give up on 不是上車。",
+        "幫牆上色應說 painted the wall，give up on 不能表示塗色。",
+        "give up on 後需接名詞或 V-ing，不能接 to my grandmother 表示拜訪。",
+        "即使機器人失敗兩次，隊友仍不放棄 Leo，搭配正確。"
+      ],
+      "explanation": "即使機器人失敗兩次，隊友仍不放棄 Leo，搭配正確。"
+    },
+    {
+      "number": 9,
+      "word": "be there for someone",
+      "meaning": "在某人需要時陪伴、支持他",
+      "usage": "指情感或實際支持，不只是地點上的「在那裡」。",
+      "prompt": "哪一句正確使用這個詞語？",
+      "options": [
+        "This phone was there for the battery for two hours.",
+        "When I lost the chess final, my friends were there for me.",
+        "The stage was there for a purple song last night.",
+        "The flight was there for Tokyo at seven o’clock."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "要說電池續航，應說 the battery lasted two hours。",
+        "西洋棋決賽失利時朋友陪伴支持，符合 be there for someone。",
+        "舞台不能為歌曲提供情感支持；可說 the band performed a song。",
+        "班機飛往東京應說 left for Tokyo，be there for 不表示出發。"
+      ],
+      "explanation": "西洋棋決賽失利時朋友陪伴支持，符合 be there for someone。"
+    },
+    {
+      "number": 10,
+      "word": "promise",
+      "meaning": "承諾；答應",
+      "usage": "promise + 人 + that 子句，或 promise to + 原形動詞。",
+      "prompt": "哪一句正確使用這個詞語？",
+      "options": [
+        "The tour guide promised us that we would get back before sunset.",
+        "The reporter promised the camera across the river.",
+        "My brother promised to the library at five and borrowed a book.",
+        "The runner promised a mountain in just ten minutes."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "導遊承諾日落前回來，promise + 人 + that 子句正確。",
+        "要說把攝影機帶過河應說 carried，promise 不是「搬運」。",
+        "若指前往圖書館應說 went to；promise to 後需要動詞原形。",
+        "跑者爬上山應說 climbed a mountain，promise 並非攀爬。"
+      ],
+      "explanation": "導遊承諾日落前回來，promise + 人 + that 子句正確。"
+    }
+  ],
+  "tags": [
+    "lady gaga",
+    "hold my hand",
+    "support",
+    "hope"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/hold-my-hand/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/hold-my-hand/user-cover-20261030.png",
+  "editorialRepairs": [],
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 225.3,
+    "audioSha256": "6d785988e51e525990329870f12107ae61f09dc72e4b536242023b6ecd14c099",
+    "timedLines": 37,
+    "untimedLines": 6,
+    "reviewStatus": "Conservative automatic line alignment. Unmatched/overlapping background lines remain bilingual without guessed timestamps; not a full manual timing certification."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Hold My Hand_.pdf",
+      "sha256": "9856877ac8b11ac64d42cf63f378535a7ff6625d7b8d9cf2cf4de1d1c5ec1007"
+    },
+    "chosenListening": {
+      "filename": "Hold_My_Hand_Four_Level_Listening_Exercise.docx",
+      "sha256": "c597ea106e5ba72e2019b39b2c20e672377486efda651f3fe16f75c120545d00"
+    },
+    "chosenVocabulary": {
+      "filename": "Hold_My_Hand_Vocabulary_Quiz.md",
+      "sha256": "c0f6f9a3cd2986976ff1c7ee69b1fa0f4e2096580b051baf0f7188b34086a048"
+    },
+    "mp3": {
+      "filename": "Hold My Hand [nkzaMdWoqPU].mp3",
+      "sha256": "6d785988e51e525990329870f12107ae61f09dc72e4b536242023b6ecd14c099"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "Screenshot 2026-10-30 at 1.13.47 PM.png",
+    "sha256": "8febae97bb433ec3c7a56cd0089883043ec15bb414892e9f91a339b932b7b3f8",
+    "transformations": "none",
+    "selectedOn": "2026-10-30"
+  }
+}

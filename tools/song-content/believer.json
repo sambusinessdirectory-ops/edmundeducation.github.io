@@ -1,0 +1,3570 @@
+{
+  "slug": "believer",
+  "title": "Believer",
+  "singer": "Imagine Dragons",
+  "translations": [
+    {
+      "english": "First things first",
+      "chinese": "首先，有些話我必須說清楚",
+      "lineId": "line-1",
+      "startSeconds": 7.6,
+      "endSeconds": 9.2
+    },
+    {
+      "english": "I'ma say all the words inside my head",
+      "chinese": "我要將腦海裡所有的心聲，一字不漏地說出來",
+      "lineId": "line-2",
+      "startSeconds": 9.2,
+      "endSeconds": 12.04
+    },
+    {
+      "english": "I'm fired up and tired of the way that things have been, oh ooh",
+      "chinese": "我滿腔怒火，也早已厭倦了這一切向來如此的模樣，噢——",
+      "lineId": "line-3",
+      "startSeconds": 12.04,
+      "endSeconds": 17.34
+    },
+    {
+      "english": "The way that things have been, oh ooh",
+      "chinese": "厭倦了這一切始終未曾改變的模樣，噢——",
+      "lineId": "line-4",
+      "startSeconds": 18.0,
+      "endSeconds": 22.18
+    },
+    {
+      "english": "Second things second",
+      "chinese": "再來，還有一件事",
+      "lineId": "line-5",
+      "startSeconds": 22.86,
+      "endSeconds": 24.5
+    },
+    {
+      "english": "Don't you tell me what you think that I could be",
+      "chinese": "別自以為是地告訴我，你認為我能成為什麼樣的人",
+      "lineId": "line-6",
+      "startSeconds": 24.8,
+      "endSeconds": 27.42
+    },
+    {
+      "english": "I'm the one at the sail, I'm the master of my sea, oh ooh",
+      "chinese": "掌舵的人是我，我才是自己這片海洋的主人，噢——",
+      "lineId": "line-7",
+      "startSeconds": 27.42,
+      "endSeconds": 33.28
+    },
+    {
+      "english": "The master of my sea, oh ooh",
+      "chinese": "我才是自己命運之海的主人，噢——",
+      "lineId": "line-8",
+      "startSeconds": 33.28,
+      "endSeconds": 37.94
+    },
+    {
+      "english": "I was broken from a young age",
+      "chinese": "從年少時起，我便已傷痕累累",
+      "lineId": "line-9",
+      "startSeconds": 37.94,
+      "endSeconds": 40.06
+    },
+    {
+      "english": "Taking my sulking to the masses",
+      "chinese": "我將心中的鬱悶與憤懣，帶到眾人面前",
+      "lineId": "line-10",
+      "startSeconds": 40.06,
+      "endSeconds": 41.9
+    },
+    {
+      "english": "Writing my poems for the few",
+      "chinese": "為那寥寥幾個人，寫下我的詩篇",
+      "lineId": "line-11",
+      "startSeconds": 42.06,
+      "endSeconds": 43.66
+    },
+    {
+      "english": "That look at me, took to me, shook to me, feeling me",
+      "chinese": "那些注視我、接納我、因我而震撼、真正懂得我的人",
+      "lineId": "line-12",
+      "startSeconds": 43.66,
+      "endSeconds": 45.8
+    },
+    {
+      "english": "Singing from heartache from the pain",
+      "chinese": "我從心碎與痛苦之中，唱出自己的歌",
+      "lineId": "line-13",
+      "startSeconds": 45.8,
+      "endSeconds": 47.64
+    },
+    {
+      "english": "Taking my message from the veins",
+      "chinese": "從流淌著熱血的脈絡裡，汲取我要傳達的心聲",
+      "lineId": "line-14",
+      "startSeconds": 47.64,
+      "endSeconds": 49.5
+    },
+    {
+      "english": "Speaking my lesson from the brain",
+      "chinese": "將腦海中領悟的教訓，化作言語",
+      "lineId": "line-15",
+      "startSeconds": 49.64,
+      "endSeconds": 51.44
+    },
+    {
+      "english": "Seeing the beauty through the...",
+      "chinese": "終於能透過那一切，看見隱藏其中的美麗……",
+      "lineId": "line-16",
+      "startSeconds": 51.7,
+      "endSeconds": 53.12
+    },
+    {
+      "english": "Pain!",
+      "chinese": "痛苦！",
+      "lineId": "line-17"
+    },
+    {
+      "english": "You made me a, you made me a believer, believer",
+      "chinese": "是你讓我成為，讓我成為一個堅定的信念者，信念者",
+      "lineId": "line-18",
+      "startSeconds": 55.98,
+      "endSeconds": 60.34
+    },
+    {
+      "english": "Pain!",
+      "chinese": "痛苦！",
+      "lineId": "line-19"
+    },
+    {
+      "english": "You break me down, you build me up, believer, believer",
+      "chinese": "你將我擊垮，又讓我重新站起，成為信念者，信念者",
+      "lineId": "line-20",
+      "startSeconds": 63.44,
+      "endSeconds": 68.16
+    },
+    {
+      "english": "Pain!",
+      "chinese": "痛苦！",
+      "lineId": "line-21"
+    },
+    {
+      "english": "Oh let the bullets fly, oh let them rain ",
+      "chinese": "噢，就讓子彈飛來吧，讓它們如暴雨般傾瀉而下",
+      "lineId": "line-22",
+      "startSeconds": 71.28,
+      "endSeconds": 74.18
+    },
+    {
+      "english": "My life, my love, my drive, it came from... ",
+      "chinese": "我的生命、我的愛、我前進的動力，全都源自……",
+      "lineId": "line-23",
+      "startSeconds": 74.18,
+      "endSeconds": 77.1
+    },
+    {
+      "english": "Pain!",
+      "chinese": "痛苦！",
+      "lineId": "line-24"
+    },
+    {
+      "english": "You made me a, you made me a believer, believer",
+      "chinese": "是你讓我成為，讓我成為一個堅定的信念者，信念者",
+      "lineId": "line-25",
+      "startSeconds": 78.96,
+      "endSeconds": 83.1
+    },
+    {
+      "english": "Third things third",
+      "chinese": "第三，還有一件事",
+      "lineId": "line-26",
+      "startSeconds": 84.44,
+      "endSeconds": 86.06
+    },
+    {
+      "english": "Send a prayer to the ones up above",
+      "chinese": "向天上的神明獻上一聲祈禱",
+      "lineId": "line-27",
+      "startSeconds": 86.28,
+      "endSeconds": 88.76
+    },
+    {
+      "english": "All the hate that you've heard has turned your spirit to a dove, oh ooh",
+      "chinese": "你所聽過的所有仇恨之聲，竟使你的靈魂化作一隻白鴿，噢——",
+      "lineId": "line-28",
+      "startSeconds": 88.76,
+      "endSeconds": 92.9
+    },
+    {
+      "english": "Your spirit up above, oh ooh",
+      "chinese": "你的靈魂，在高天之上，噢——",
+      "lineId": "line-29",
+      "startSeconds": 94.6,
+      "endSeconds": 96.9
+    },
+    {
+      "english": "I was choking in the crowd",
+      "chinese": "我曾在人群之中，感到幾乎窒息",
+      "lineId": "line-30",
+      "startSeconds": 99.34,
+      "endSeconds": 101.4
+    },
+    {
+      "english": "Building my rain up in the cloud",
+      "chinese": "將心中的雨水，一點一滴積聚成雲",
+      "lineId": "line-31",
+      "startSeconds": 101.58,
+      "endSeconds": 103.28
+    },
+    {
+      "english": "Falling like ashes to the ground",
+      "chinese": "最終如灰燼般，紛紛飄落大地",
+      "lineId": "line-32",
+      "startSeconds": 103.28,
+      "endSeconds": 105.28
+    },
+    {
+      "english": "Hoping my feelings, they would drown",
+      "chinese": "盼望自己的所有情緒，都能就此沉沒",
+      "lineId": "line-33",
+      "startSeconds": 105.32,
+      "endSeconds": 107.16
+    },
+    {
+      "english": "But they never did, ever lived, ebbing and flowing",
+      "chinese": "可它們從未消失，始終存在，如潮水般起伏漲落",
+      "lineId": "line-34",
+      "startSeconds": 107.16,
+      "endSeconds": 109.4
+    },
+    {
+      "english": "Inhibited, limited",
+      "chinese": "被壓抑著，被重重束縛著",
+      "lineId": "line-35",
+      "startSeconds": 109.6,
+      "endSeconds": 110.52
+    },
+    {
+      "english": "Till it broke open and rained down",
+      "chinese": "直到終於衝破束縛，化作傾盆大雨",
+      "lineId": "line-36"
+    },
+    {
+      "english": "It rained down, like...",
+      "chinese": "那場雨猛烈傾瀉而下，宛如……",
+      "lineId": "line-37",
+      "startSeconds": 112.5,
+      "endSeconds": 115.08
+    },
+    {
+      "english": "Pain!",
+      "chinese": "痛苦！",
+      "lineId": "line-38"
+    },
+    {
+      "english": "You made me a, you made me a believer, believer",
+      "chinese": "是你讓我成為，讓我成為一個堅定的信念者，信念者",
+      "lineId": "line-39"
+    },
+    {
+      "english": "Pain!",
+      "chinese": "痛苦！",
+      "lineId": "line-40"
+    },
+    {
+      "english": "You break me down, you build me up, believer, believer",
+      "chinese": "你將我擊垮，又讓我重新站起，成為信念者，信念者",
+      "lineId": "line-41",
+      "startSeconds": 124.84,
+      "endSeconds": 129.62
+    },
+    {
+      "english": "Pain!",
+      "chinese": "痛苦！",
+      "lineId": "line-42"
+    },
+    {
+      "english": "Oh let the bullets fly, oh let them rain ",
+      "chinese": "噢，就讓子彈飛來吧，讓它們如暴雨般傾瀉而下",
+      "lineId": "line-43",
+      "startSeconds": 132.46,
+      "endSeconds": 135.86
+    },
+    {
+      "english": "My life, my love, my drive, it came from... ",
+      "chinese": "我的生命、我的愛、我前進的動力，全都源自……",
+      "lineId": "line-44",
+      "startSeconds": 135.86,
+      "endSeconds": 139.38
+    },
+    {
+      "english": "Pain!",
+      "chinese": "痛苦！",
+      "lineId": "line-45",
+      "startSeconds": 139.38,
+      "endSeconds": 140.24
+    },
+    {
+      "english": "You made me a, you made me a believer, believer",
+      "chinese": "是你讓我成為，讓我成為一個堅定的信念者，信念者",
+      "lineId": "line-46",
+      "startSeconds": 140.24,
+      "endSeconds": 144.94
+    },
+    {
+      "english": "Last things last",
+      "chinese": "最後，還有一件事",
+      "lineId": "line-47",
+      "startSeconds": 145.9,
+      "endSeconds": 147.42
+    },
+    {
+      "english": "By the grace of the fire and the flames",
+      "chinese": "承蒙烈火與熊熊火焰的淬鍊與恩賜",
+      "lineId": "line-48",
+      "startSeconds": 147.42,
+      "endSeconds": 150.38
+    },
+    {
+      "english": "You're the face of the future, the blood in my veins, oh ooh",
+      "chinese": "你是未來的面貌，也是流淌在我血脈中的力量，噢——",
+      "lineId": "line-49",
+      "startSeconds": 150.38,
+      "endSeconds": 155.38
+    },
+    {
+      "english": "The blood in my veins, oh ooh",
+      "chinese": "那流淌在我血脈中的力量，噢——",
+      "lineId": "line-50",
+      "startSeconds": 156.08,
+      "endSeconds": 159.68
+    },
+    {
+      "english": "But they never did, ever lived, ebbing and flowing",
+      "chinese": "可它們從未消失，始終存在，如潮水般起伏漲落",
+      "lineId": "line-51",
+      "startSeconds": 160.76,
+      "endSeconds": 163.26
+    },
+    {
+      "english": "Inhibited, limited",
+      "chinese": "被壓抑著，被重重束縛著",
+      "lineId": "line-52",
+      "startSeconds": 163.26,
+      "endSeconds": 164.24
+    },
+    {
+      "english": "Till it broke open and rained down",
+      "chinese": "直到終於衝破束縛，化作傾盆大雨",
+      "lineId": "line-53",
+      "startSeconds": 164.24,
+      "endSeconds": 166.08
+    },
+    {
+      "english": "It rained down, like...",
+      "chinese": "那場雨猛烈傾瀉而下，宛如……",
+      "lineId": "line-54",
+      "startSeconds": 166.08,
+      "endSeconds": 169.04
+    },
+    {
+      "english": "Pain!",
+      "chinese": "痛苦！",
+      "lineId": "line-55"
+    },
+    {
+      "english": "You made me a, you made me a believer, believer",
+      "chinese": "是你讓我成為，讓我成為一個堅定的信念者，信念者",
+      "lineId": "line-56"
+    },
+    {
+      "english": "Pain!",
+      "chinese": "痛苦！",
+      "lineId": "line-57"
+    },
+    {
+      "english": "You break me down, you build me up, believer, believer",
+      "chinese": "你將我擊垮，又讓我重新站起，成為信念者，信念者",
+      "lineId": "line-58",
+      "startSeconds": 178.08,
+      "endSeconds": 183.4
+    },
+    {
+      "english": "Pain!",
+      "chinese": "痛苦！",
+      "lineId": "line-59"
+    },
+    {
+      "english": "Oh let the bullets fly, oh let them rain ",
+      "chinese": "噢，就讓子彈飛來吧，讓它們如暴雨般傾瀉而下",
+      "lineId": "line-60",
+      "startSeconds": 186.26,
+      "endSeconds": 189.52
+    },
+    {
+      "english": "My life, my love, my drive, it came from... ",
+      "chinese": "我的生命、我的愛、我前進的動力，全都源自……",
+      "lineId": "line-61"
+    },
+    {
+      "english": "Pain!",
+      "chinese": "痛苦！",
+      "lineId": "line-62"
+    },
+    {
+      "english": "You made me a, you made me a believer, believer",
+      "chinese": "是你讓我成為，讓我成為一個堅定的信念者，信念者",
+      "lineId": "line-63",
+      "startSeconds": 194.86,
+      "endSeconds": 198.54
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "First things first",
+          "options": [
+            "Before we start",
+            "First things first",
+            "One thing first"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "首先，有些話我必須說清楚"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "inside my head",
+          "options": [
+            "inside my heart",
+            "inside my head",
+            "under my skin"
+          ],
+          "prompt": "I'ma say all the words {{blank}}",
+          "promptZh": "我要將腦海裡所有的心聲，一字不漏地說出來"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "fired up",
+          "options": [
+            "wide awake",
+            "worn out",
+            "fired up"
+          ],
+          "prompt": "I'm {{blank}} and tired of the way that things have been, oh ooh",
+          "promptZh": "我滿腔怒火，也早已厭倦了這一切向來如此的模樣，噢——"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-6",
+          "answer": "what you think",
+          "options": [
+            "what you think",
+            "what you see",
+            "what you want"
+          ],
+          "prompt": "Don't you tell me {{blank}} that I could be",
+          "promptZh": "別自以為是地告訴我，你認為我能成為什麼樣的人"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-7",
+          "answer": "master of my sea",
+          "options": [
+            "master of my sea",
+            "captain of my ship",
+            "ruler of my world"
+          ],
+          "prompt": "I'm the one at the sail, I'm the {{blank}}, oh ooh",
+          "promptZh": "掌舵的人是我，我才是自己這片海洋的主人，噢——"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-9",
+          "answer": "broken",
+          "options": [
+            "restless",
+            "broken",
+            "lonely"
+          ],
+          "prompt": "I was {{blank}} from a young age",
+          "promptZh": "從年少時起，我便已傷痕累累"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-10",
+          "answer": "the masses",
+          "options": [
+            "the crowds",
+            "the people",
+            "the masses"
+          ],
+          "prompt": "Taking my sulking to {{blank}}",
+          "promptZh": "我將心中的鬱悶與憤懣，帶到眾人面前"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-11",
+          "answer": "my poems",
+          "options": [
+            "my stories",
+            "my poems",
+            "my songs"
+          ],
+          "prompt": "Writing {{blank}} for the few",
+          "promptZh": "為那寥寥幾個人，寫下我的詩篇"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-13",
+          "answer": "heartache",
+          "options": [
+            "hard times",
+            "sadness",
+            "heartache"
+          ],
+          "prompt": "Singing from {{blank}} from the pain",
+          "promptZh": "我從心碎與痛苦之中，唱出自己的歌"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-14",
+          "answer": "my message",
+          "options": [
+            "my warning",
+            "my message",
+            "my story"
+          ],
+          "prompt": "Taking {{blank}} from the veins",
+          "promptZh": "從流淌著熱血的脈絡裡，汲取我要傳達的心聲"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-15",
+          "answer": "my lesson",
+          "options": [
+            "my lesson",
+            "my wisdom",
+            "my answer"
+          ],
+          "prompt": "Speaking {{blank}} from the brain",
+          "promptZh": "將腦海中領悟的教訓，化作言語"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-16",
+          "answer": "the beauty",
+          "options": [
+            "the meaning",
+            "the beauty",
+            "the wonder"
+          ],
+          "prompt": "Seeing {{blank}} through the...",
+          "promptZh": "終於能透過那一切，看見隱藏其中的美麗……"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-18",
+          "answer": "believer, believer",
+          "options": [
+            "believer, believer",
+            "fighter, fighter",
+            "dreamer, dreamer"
+          ],
+          "prompt": "You made me a, you made me a {{blank}}",
+          "promptZh": "是你讓我成為，讓我成為一個堅定的信念者，信念者"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-20",
+          "answer": "break me down",
+          "options": [
+            "break me down",
+            "wear me out",
+            "pull me back"
+          ],
+          "prompt": "You {{blank}}, you build me up, believer, believer",
+          "promptZh": "你將我擊垮，又讓我重新站起，成為信念者，信念者"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-22",
+          "answer": "bullets fly",
+          "options": [
+            "thunder rolls",
+            "arrows fall",
+            "bullets fly"
+          ],
+          "prompt": "Oh let the {{blank}}, oh let them rain ",
+          "promptZh": "噢，就讓子彈飛來吧，讓它們如暴雨般傾瀉而下"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-23",
+          "answer": "my drive",
+          "options": [
+            "my strength",
+            "my hope",
+            "my drive"
+          ],
+          "prompt": "My life, my love, {{blank}}, it came from... ",
+          "promptZh": "我的生命、我的愛、我前進的動力，全都源自……"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-27",
+          "answer": "a prayer",
+          "options": [
+            "a prayer",
+            "a message",
+            "a letter"
+          ],
+          "prompt": "Send {{blank}} to the ones up above",
+          "promptZh": "向天上的神明獻上一聲祈禱"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-28",
+          "answer": "your spirit",
+          "options": [
+            "your sorrow",
+            "your spirit",
+            "your anger"
+          ],
+          "prompt": "All the hate that you've heard has turned {{blank}} to a dove, oh ooh",
+          "promptZh": "你所聽過的所有仇恨之聲，竟使你的靈魂化作一隻白鴿，噢——"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-30",
+          "answer": "choking",
+          "options": [
+            "choking",
+            "shouting",
+            "crying"
+          ],
+          "prompt": "I was {{blank}} in the crowd",
+          "promptZh": "我曾在人群之中，感到幾乎窒息"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-31",
+          "answer": "in the cloud",
+          "options": [
+            "in the sky",
+            "in the storm",
+            "in the cloud"
+          ],
+          "prompt": "Building my rain up {{blank}}",
+          "promptZh": "將心中的雨水，一點一滴積聚成雲"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I'ma say all the words {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I'm {{q:3}} and tired of the way that things have been, oh ooh"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "The way that things have been, oh ooh"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Second things second"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Don't you tell me {{q:4}} that I could be"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I'm the one at the sail, I'm the {{q:5}}, oh ooh"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "The master of my sea, oh ooh"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I was {{q:6}} from a young age"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Taking my sulking to {{q:7}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Writing {{q:8}} for the few"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "That look at me, took to me, shook to me, feeling me"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Singing from {{q:9}} from the pain"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Taking {{q:10}} from the veins"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Speaking {{q:11}} from the brain"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Seeing {{q:12}} through the..."
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "You made me a, you made me a {{q:13}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "You {{q:14}}, you build me up, believer, believer"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Oh let the {{q:15}}, oh let them rain "
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "My life, my love, {{q:16}}, it came from... "
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You made me a, you made me a believer, believer"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Third things third"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Send {{q:17}} to the ones up above"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "All the hate that you've heard has turned {{q:18}} to a dove, oh ooh"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Your spirit up above, oh ooh"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I was {{q:19}} in the crowd"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Building my rain up {{q:20}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Falling like ashes to the ground"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Hoping my feelings, they would drown"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "But they never did, ever lived, ebbing and flowing"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Inhibited, limited"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Till it broke open and rained down"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "It rained down, like..."
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "You made me a, you made me a believer, believer"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "You break me down, you build me up, believer, believer"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Oh let the bullets fly, oh let them rain "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "My life, my love, my drive, it came from... "
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "You made me a, you made me a believer, believer"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Last things last"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "By the grace of the fire and the flames"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "You're the face of the future, the blood in my veins, oh ooh"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "The blood in my veins, oh ooh"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "But they never did, ever lived, ebbing and flowing"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Inhibited, limited"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Till it broke open and rained down"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "It rained down, like..."
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "You made me a, you made me a believer, believer"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "You break me down, you build me up, believer, believer"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Oh let the bullets fly, oh let them rain "
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "My life, my love, my drive, it came from... "
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "You made me a, you made me a believer, believer"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "First things first",
+          "options": [
+            "Before we start",
+            "One thing first",
+            "First things first"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "首先，有些話我必須說清楚"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "inside my head",
+          "options": [
+            "inside my heart",
+            "under my skin",
+            "inside my head"
+          ],
+          "prompt": "I'ma say all the words {{blank}}",
+          "promptZh": "我要將腦海裡所有的心聲，一字不漏地說出來"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "fired up",
+          "options": [
+            "fired up",
+            "wide awake",
+            "worn out"
+          ],
+          "prompt": "I'm {{blank}} and tired of the way that things have been, oh ooh",
+          "promptZh": "我滿腔怒火，也早已厭倦了這一切向來如此的模樣，噢——"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "things have been",
+          "options": [
+            "days have passed",
+            "things will change",
+            "things have been"
+          ],
+          "prompt": "The way that {{blank}}, oh ooh",
+          "promptZh": "厭倦了這一切始終未曾改變的模樣，噢——"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "Second things second",
+          "options": [
+            "Next comes another",
+            "Second things second",
+            "One more thing"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "再來，還有一件事"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "what you think",
+          "options": [
+            "what you think",
+            "what you see",
+            "what you want"
+          ],
+          "prompt": "Don't you tell me {{blank}} that I could be",
+          "promptZh": "別自以為是地告訴我，你認為我能成為什麼樣的人"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "master of my sea",
+          "options": [
+            "captain of my ship",
+            "ruler of my world",
+            "master of my sea"
+          ],
+          "prompt": "I'm the one at the sail, I'm the {{blank}}, oh ooh",
+          "promptZh": "掌舵的人是我，我才是自己這片海洋的主人，噢——"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "The master",
+          "options": [
+            "The captain",
+            "The master",
+            "The ruler"
+          ],
+          "prompt": "{{blank}} of my sea, oh ooh",
+          "promptZh": "我才是自己命運之海的主人，噢——"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "broken",
+          "options": [
+            "broken",
+            "restless",
+            "lonely"
+          ],
+          "prompt": "I was {{blank}} from a young age",
+          "promptZh": "從年少時起，我便已傷痕累累"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "the masses",
+          "options": [
+            "the crowds",
+            "the masses",
+            "the people"
+          ],
+          "prompt": "Taking my sulking to {{blank}}",
+          "promptZh": "我將心中的鬱悶與憤懣，帶到眾人面前"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "my poems",
+          "options": [
+            "my stories",
+            "my poems",
+            "my songs"
+          ],
+          "prompt": "Writing {{blank}} for the few",
+          "promptZh": "為那寥寥幾個人，寫下我的詩篇"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "feeling me",
+          "options": [
+            "feeling me",
+            "seeing me",
+            "hearing me"
+          ],
+          "prompt": "That look at me, took to me, shook to me, {{blank}}",
+          "promptZh": "那些注視我、接納我、因我而震撼、真正懂得我的人"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "heartache",
+          "options": [
+            "heartache",
+            "hard times",
+            "sadness"
+          ],
+          "prompt": "Singing from {{blank}} from the pain",
+          "promptZh": "我從心碎與痛苦之中，唱出自己的歌"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "my message",
+          "options": [
+            "my warning",
+            "my message",
+            "my story"
+          ],
+          "prompt": "Taking {{blank}} from the veins",
+          "promptZh": "從流淌著熱血的脈絡裡，汲取我要傳達的心聲"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "my lesson",
+          "options": [
+            "my wisdom",
+            "my answer",
+            "my lesson"
+          ],
+          "prompt": "Speaking {{blank}} from the brain",
+          "promptZh": "將腦海中領悟的教訓，化作言語"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "the beauty",
+          "options": [
+            "the beauty",
+            "the meaning",
+            "the wonder"
+          ],
+          "prompt": "Seeing {{blank}} through the...",
+          "promptZh": "終於能透過那一切，看見隱藏其中的美麗……"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-17",
+          "answer": "Pain",
+          "options": [
+            "Pain",
+            "Shame",
+            "Fear"
+          ],
+          "prompt": "{{blank}}!",
+          "promptZh": "痛苦！"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-18",
+          "answer": "believer, believer",
+          "options": [
+            "fighter, fighter",
+            "believer, believer",
+            "dreamer, dreamer"
+          ],
+          "prompt": "You made me a, you made me a {{blank}}",
+          "promptZh": "是你讓我成為，讓我成為一個堅定的信念者，信念者"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-19",
+          "answer": "Pain",
+          "options": [
+            "Fear",
+            "Pain",
+            "Fire"
+          ],
+          "prompt": "{{blank}}!",
+          "promptZh": "痛苦！"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-20",
+          "answer": "break me down",
+          "options": [
+            "break me down",
+            "wear me out",
+            "pull me back"
+          ],
+          "prompt": "You {{blank}}, you build me up, believer, believer",
+          "promptZh": "你將我擊垮，又讓我重新站起，成為信念者，信念者"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-21",
+          "answer": "Pain",
+          "options": [
+            "Pain",
+            "Hope",
+            "Fear"
+          ],
+          "prompt": "{{blank}}!",
+          "promptZh": "痛苦！"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-22",
+          "answer": "bullets fly",
+          "options": [
+            "thunder rolls",
+            "arrows fall",
+            "bullets fly"
+          ],
+          "prompt": "Oh let the {{blank}}, oh let them rain ",
+          "promptZh": "噢，就讓子彈飛來吧，讓它們如暴雨般傾瀉而下"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-23",
+          "answer": "my drive",
+          "options": [
+            "my strength",
+            "my hope",
+            "my drive"
+          ],
+          "prompt": "My life, my love, {{blank}}, it came from... ",
+          "promptZh": "我的生命、我的愛、我前進的動力，全都源自……"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-26",
+          "answer": "Third things third",
+          "options": [
+            "One more time",
+            "Third things third",
+            "Next thing now"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "第三，還有一件事"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-27",
+          "answer": "a prayer",
+          "options": [
+            "a message",
+            "a letter",
+            "a prayer"
+          ],
+          "prompt": "Send {{blank}} to the ones up above",
+          "promptZh": "向天上的神明獻上一聲祈禱"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-28",
+          "answer": "your spirit",
+          "options": [
+            "your spirit",
+            "your sorrow",
+            "your anger"
+          ],
+          "prompt": "All the hate that you've heard has turned {{blank}} to a dove, oh ooh",
+          "promptZh": "你所聽過的所有仇恨之聲，竟使你的靈魂化作一隻白鴿，噢——"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-29",
+          "answer": "up above",
+          "options": [
+            "far away",
+            "up above",
+            "down below"
+          ],
+          "prompt": "Your spirit {{blank}}, oh ooh",
+          "promptZh": "你的靈魂，在高天之上，噢——"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-30",
+          "answer": "choking",
+          "options": [
+            "choking",
+            "shouting",
+            "crying"
+          ],
+          "prompt": "I was {{blank}} in the crowd",
+          "promptZh": "我曾在人群之中，感到幾乎窒息"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-31",
+          "answer": "in the cloud",
+          "options": [
+            "in the sky",
+            "in the storm",
+            "in the cloud"
+          ],
+          "prompt": "Building my rain up {{blank}}",
+          "promptZh": "將心中的雨水，一點一滴積聚成雲"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-32",
+          "answer": "like ashes",
+          "options": [
+            "like raindrops",
+            "like feathers",
+            "like ashes"
+          ],
+          "prompt": "Falling {{blank}} to the ground",
+          "promptZh": "最終如灰燼般，紛紛飄落大地"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-33",
+          "answer": "my feelings",
+          "options": [
+            "my memories",
+            "my feelings",
+            "my worries"
+          ],
+          "prompt": "Hoping {{blank}}, they would drown",
+          "promptZh": "盼望自己的所有情緒，都能就此沉沒"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-34",
+          "answer": "ebbing and flowing",
+          "options": [
+            "rising and falling",
+            "ebbing and flowing",
+            "coming and going"
+          ],
+          "prompt": "But they never did, ever lived, {{blank}}",
+          "promptZh": "可它們從未消失，始終存在，如潮水般起伏漲落"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I'ma say all the words {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I'm {{q:3}} and tired of the way that things have been, oh ooh"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "The way that {{q:4}}, oh ooh"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Don't you tell me {{q:6}} that I could be"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I'm the one at the sail, I'm the {{q:7}}, oh ooh"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:8}} of my sea, oh ooh"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I was {{q:9}} from a young age"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Taking my sulking to {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Writing {{q:11}} for the few"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "That look at me, took to me, shook to me, {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Singing from {{q:13}} from the pain"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Taking {{q:14}} from the veins"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Speaking {{q:15}} from the brain"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Seeing {{q:16}} through the..."
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:17}}!"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "You made me a, you made me a {{q:18}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:19}}!"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "You {{q:20}}, you build me up, believer, believer"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:21}}!"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Oh let the {{q:22}}, oh let them rain "
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "My life, my love, {{q:23}}, it came from... "
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You made me a, you made me a believer, believer"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:24}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Send {{q:25}} to the ones up above"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "All the hate that you've heard has turned {{q:26}} to a dove, oh ooh"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Your spirit {{q:27}}, oh ooh"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I was {{q:28}} in the crowd"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Building my rain up {{q:29}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Falling {{q:30}} to the ground"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Hoping {{q:31}}, they would drown"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "But they never did, ever lived, {{q:32}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Inhibited, limited"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Till it broke open and rained down"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "It rained down, like..."
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "You made me a, you made me a believer, believer"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "You break me down, you build me up, believer, believer"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Oh let the bullets fly, oh let them rain "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "My life, my love, my drive, it came from... "
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "You made me a, you made me a believer, believer"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Last things last"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "By the grace of the fire and the flames"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "You're the face of the future, the blood in my veins, oh ooh"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "The blood in my veins, oh ooh"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "But they never did, ever lived, ebbing and flowing"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Inhibited, limited"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Till it broke open and rained down"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "It rained down, like..."
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "You made me a, you made me a believer, believer"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "You break me down, you build me up, believer, believer"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Oh let the bullets fly, oh let them rain "
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "My life, my love, my drive, it came from... "
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "You made me a, you made me a believer, believer"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "First things first",
+          "options": [
+            "Before we start",
+            "First things first",
+            "One thing first"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "首先，有些話我必須說清楚"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "inside my head",
+          "options": [
+            "inside my heart",
+            "inside my head",
+            "under my skin"
+          ],
+          "prompt": "I'ma say all the words {{blank}}",
+          "promptZh": "我要將腦海裡所有的心聲，一字不漏地說出來"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "fired up",
+          "options": [
+            "fired up",
+            "wide awake",
+            "worn out"
+          ],
+          "prompt": "I'm {{blank}} and tired of the way that things have been, oh ooh",
+          "promptZh": "我滿腔怒火，也早已厭倦了這一切向來如此的模樣，噢——"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-3",
+          "answer": "tired of the way",
+          "options": [
+            "tired of the way",
+            "done with the past",
+            "sick of the noise"
+          ],
+          "prompt": "I'm fired up and {{blank}} that things have been, oh ooh",
+          "promptZh": "我滿腔怒火，也早已厭倦了這一切向來如此的模樣，噢——"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-4",
+          "answer": "things have been",
+          "options": [
+            "days have passed",
+            "things will change",
+            "things have been"
+          ],
+          "prompt": "The way that {{blank}}, oh ooh",
+          "promptZh": "厭倦了這一切始終未曾改變的模樣，噢——"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-5",
+          "answer": "Second things second",
+          "options": [
+            "Second things second",
+            "Next comes another",
+            "One more thing"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "再來，還有一件事"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-6",
+          "answer": "what you think",
+          "options": [
+            "what you see",
+            "what you want",
+            "what you think"
+          ],
+          "prompt": "Don't you tell me {{blank}} that I could be",
+          "promptZh": "別自以為是地告訴我，你認為我能成為什麼樣的人"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 9,
+          "lineId": "line-7",
+          "answer": "at the sail",
+          "options": [
+            "at the sail",
+            "on the shore",
+            "at the wheel"
+          ],
+          "prompt": "I'm the one {{blank}}, I'm the master of my sea, oh ooh",
+          "promptZh": "掌舵的人是我，我才是自己這片海洋的主人，噢——"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 8,
+          "lineId": "line-7",
+          "answer": "master of my sea",
+          "options": [
+            "captain of my ship",
+            "ruler of my world",
+            "master of my sea"
+          ],
+          "prompt": "I'm the one at the sail, I'm the {{blank}}, oh ooh",
+          "promptZh": "掌舵的人是我，我才是自己這片海洋的主人，噢——"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-8",
+          "answer": "The master",
+          "options": [
+            "The master",
+            "The captain",
+            "The ruler"
+          ],
+          "prompt": "{{blank}} of my sea, oh ooh",
+          "promptZh": "我才是自己命運之海的主人，噢——"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-9",
+          "answer": "broken",
+          "options": [
+            "restless",
+            "lonely",
+            "broken"
+          ],
+          "prompt": "I was {{blank}} from a young age",
+          "promptZh": "從年少時起，我便已傷痕累累"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-10",
+          "answer": "the masses",
+          "options": [
+            "the crowds",
+            "the masses",
+            "the people"
+          ],
+          "prompt": "Taking my sulking to {{blank}}",
+          "promptZh": "我將心中的鬱悶與憤懣，帶到眾人面前"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-11",
+          "answer": "my poems",
+          "options": [
+            "my stories",
+            "my songs",
+            "my poems"
+          ],
+          "prompt": "Writing {{blank}} for the few",
+          "promptZh": "為那寥寥幾個人，寫下我的詩篇"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 15,
+          "lineId": "line-12",
+          "answer": "took to me",
+          "options": [
+            "turned to me",
+            "took to me",
+            "called to me"
+          ],
+          "prompt": "That look at me, {{blank}}, shook to me, feeling me",
+          "promptZh": "那些注視我、接納我、因我而震撼、真正懂得我的人"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 14,
+          "lineId": "line-12",
+          "answer": "feeling me",
+          "options": [
+            "seeing me",
+            "hearing me",
+            "feeling me"
+          ],
+          "prompt": "That look at me, took to me, shook to me, {{blank}}",
+          "promptZh": "那些注視我、接納我、因我而震撼、真正懂得我的人"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-13",
+          "answer": "heartache",
+          "options": [
+            "hard times",
+            "heartache",
+            "sadness"
+          ],
+          "prompt": "Singing from {{blank}} from the pain",
+          "promptZh": "我從心碎與痛苦之中，唱出自己的歌"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-14",
+          "answer": "my message",
+          "options": [
+            "my warning",
+            "my message",
+            "my story"
+          ],
+          "prompt": "Taking {{blank}} from the veins",
+          "promptZh": "從流淌著熱血的脈絡裡，汲取我要傳達的心聲"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-15",
+          "answer": "my lesson",
+          "options": [
+            "my lesson",
+            "my wisdom",
+            "my answer"
+          ],
+          "prompt": "Speaking {{blank}} from the brain",
+          "promptZh": "將腦海中領悟的教訓，化作言語"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-16",
+          "answer": "the beauty",
+          "options": [
+            "the beauty",
+            "the meaning",
+            "the wonder"
+          ],
+          "prompt": "Seeing {{blank}} through the...",
+          "promptZh": "終於能透過那一切，看見隱藏其中的美麗……"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-17",
+          "answer": "Pain",
+          "options": [
+            "Shame",
+            "Fear",
+            "Pain"
+          ],
+          "prompt": "{{blank}}!",
+          "promptZh": "痛苦！"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-18",
+          "answer": "believer, believer",
+          "options": [
+            "fighter, fighter",
+            "believer, believer",
+            "dreamer, dreamer"
+          ],
+          "prompt": "You made me a, you made me a {{blank}}",
+          "promptZh": "是你讓我成為，讓我成為一個堅定的信念者，信念者"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-19",
+          "answer": "Pain",
+          "options": [
+            "Pain",
+            "Fear",
+            "Fire"
+          ],
+          "prompt": "{{blank}}!",
+          "promptZh": "痛苦！"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-20",
+          "answer": "break me down",
+          "options": [
+            "wear me out",
+            "pull me back",
+            "break me down"
+          ],
+          "prompt": "You {{blank}}, you build me up, believer, believer",
+          "promptZh": "你將我擊垮，又讓我重新站起，成為信念者，信念者"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-21",
+          "answer": "Pain",
+          "options": [
+            "Pain",
+            "Hope",
+            "Fear"
+          ],
+          "prompt": "{{blank}}!",
+          "promptZh": "痛苦！"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-22",
+          "answer": "bullets fly",
+          "options": [
+            "thunder rolls",
+            "arrows fall",
+            "bullets fly"
+          ],
+          "prompt": "Oh let the {{blank}}, oh let them rain ",
+          "promptZh": "噢，就讓子彈飛來吧，讓它們如暴雨般傾瀉而下"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-22",
+          "answer": "let them rain",
+          "options": [
+            "let them fall",
+            "let them rain",
+            "watch them fade"
+          ],
+          "prompt": "Oh let the bullets fly, oh {{blank}} ",
+          "promptZh": "噢，就讓子彈飛來吧，讓它們如暴雨般傾瀉而下"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-23",
+          "answer": "my drive",
+          "options": [
+            "my drive",
+            "my strength",
+            "my hope"
+          ],
+          "prompt": "My life, my love, {{blank}}, it came from... ",
+          "promptZh": "我的生命、我的愛、我前進的動力，全都源自……"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-26",
+          "answer": "Third things third",
+          "options": [
+            "Third things third",
+            "One more time",
+            "Next thing now"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "第三，還有一件事"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-27",
+          "answer": "a prayer",
+          "options": [
+            "a message",
+            "a letter",
+            "a prayer"
+          ],
+          "prompt": "Send {{blank}} to the ones up above",
+          "promptZh": "向天上的神明獻上一聲祈禱"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 31,
+          "lineId": "line-28",
+          "answer": "has turned",
+          "options": [
+            "has changed",
+            "has turned",
+            "has broken"
+          ],
+          "prompt": "All the hate that you've heard {{blank}} your spirit to a dove, oh ooh",
+          "promptZh": "你所聽過的所有仇恨之聲，竟使你的靈魂化作一隻白鴿，噢——"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 30,
+          "lineId": "line-28",
+          "answer": "your spirit",
+          "options": [
+            "your sorrow",
+            "your spirit",
+            "your anger"
+          ],
+          "prompt": "All the hate that you've heard has turned {{blank}} to a dove, oh ooh",
+          "promptZh": "你所聽過的所有仇恨之聲，竟使你的靈魂化作一隻白鴿，噢——"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-29",
+          "answer": "up above",
+          "options": [
+            "far away",
+            "down below",
+            "up above"
+          ],
+          "prompt": "Your spirit {{blank}}, oh ooh",
+          "promptZh": "你的靈魂，在高天之上，噢——"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-30",
+          "answer": "choking",
+          "options": [
+            "choking",
+            "shouting",
+            "crying"
+          ],
+          "prompt": "I was {{blank}} in the crowd",
+          "promptZh": "我曾在人群之中，感到幾乎窒息"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-31",
+          "answer": "in the cloud",
+          "options": [
+            "in the sky",
+            "in the cloud",
+            "in the storm"
+          ],
+          "prompt": "Building my rain up {{blank}}",
+          "promptZh": "將心中的雨水，一點一滴積聚成雲"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-32",
+          "answer": "like ashes",
+          "options": [
+            "like raindrops",
+            "like feathers",
+            "like ashes"
+          ],
+          "prompt": "Falling {{blank}} to the ground",
+          "promptZh": "最終如灰燼般，紛紛飄落大地"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-33",
+          "answer": "my feelings",
+          "options": [
+            "my feelings",
+            "my memories",
+            "my worries"
+          ],
+          "prompt": "Hoping {{blank}}, they would drown",
+          "promptZh": "盼望自己的所有情緒，都能就此沉沒"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-34",
+          "answer": "ebbing and flowing",
+          "options": [
+            "rising and falling",
+            "ebbing and flowing",
+            "coming and going"
+          ],
+          "prompt": "But they never did, ever lived, {{blank}}",
+          "promptZh": "可它們從未消失，始終存在，如潮水般起伏漲落"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-35",
+          "answer": "Inhibited",
+          "options": [
+            "Overwhelmed",
+            "Inhibited",
+            "Unprotected"
+          ],
+          "prompt": "{{blank}}, limited",
+          "promptZh": "被壓抑著，被重重束縛著"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-36",
+          "answer": "broke open",
+          "options": [
+            "burst through",
+            "fell apart",
+            "broke open"
+          ],
+          "prompt": "Till it {{blank}} and rained down",
+          "promptZh": "直到終於衝破束縛，化作傾盆大雨"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-47",
+          "answer": "Last things last",
+          "options": [
+            "Last things last",
+            "Before the end",
+            "One last thing"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "最後，還有一件事"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I'ma say all the words {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I'm {{q:3}} and {{q:4}} that things have been, oh ooh"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "The way that {{q:5}}, oh ooh"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:6}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Don't you tell me {{q:7}} that I could be"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I'm the one {{q:8}}, I'm the {{q:9}}, oh ooh"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:10}} of my sea, oh ooh"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I was {{q:11}} from a young age"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Taking my sulking to {{q:12}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Writing {{q:13}} for the few"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "That look at me, {{q:14}}, shook to me, {{q:15}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Singing from {{q:16}} from the pain"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Taking {{q:17}} from the veins"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Speaking {{q:18}} from the brain"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Seeing {{q:19}} through the..."
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:20}}!"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "You made me a, you made me a {{q:21}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:22}}!"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "You {{q:23}}, you build me up, believer, believer"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:24}}!"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Oh let the {{q:25}}, oh {{q:26}} "
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "My life, my love, {{q:27}}, it came from... "
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You made me a, you made me a believer, believer"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Send {{q:29}} to the ones up above"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "All the hate that you've heard {{q:30}} {{q:31}} to a dove, oh ooh"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Your spirit {{q:32}}, oh ooh"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I was {{q:33}} in the crowd"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Building my rain up {{q:34}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Falling {{q:35}} to the ground"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Hoping {{q:36}}, they would drown"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "But they never did, ever lived, {{q:37}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "{{q:38}}, limited"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Till it {{q:39}} and rained down"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "It rained down, like..."
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "You made me a, you made me a believer, believer"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "You break me down, you build me up, believer, believer"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Oh let the bullets fly, oh let them rain "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "My life, my love, my drive, it came from... "
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "You made me a, you made me a believer, believer"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "{{q:40}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "By the grace of the fire and the flames"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "You're the face of the future, the blood in my veins, oh ooh"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "The blood in my veins, oh ooh"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "But they never did, ever lived, ebbing and flowing"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Inhibited, limited"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Till it broke open and rained down"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "It rained down, like..."
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "You made me a, you made me a believer, believer"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "You break me down, you build me up, believer, believer"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Oh let the bullets fly, oh let them rain "
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "My life, my love, my drive, it came from... "
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "You made me a, you made me a believer, believer"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "First things first",
+          "options": [
+            "First things first",
+            "Before we start",
+            "One thing first"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "首先，有些話我必須說清楚"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "I'ma say",
+          "options": [
+            "Let me tell",
+            "I'ma say",
+            "I will sing"
+          ],
+          "prompt": "{{blank}} all the words inside my head",
+          "promptZh": "我要將腦海裡所有的心聲，一字不漏地說出來"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "inside my head",
+          "options": [
+            "inside my head",
+            "inside my heart",
+            "under my skin"
+          ],
+          "prompt": "I'ma say all the words {{blank}}",
+          "promptZh": "我要將腦海裡所有的心聲，一字不漏地說出來"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-3",
+          "answer": "fired up",
+          "options": [
+            "wide awake",
+            "fired up",
+            "worn out"
+          ],
+          "prompt": "I'm {{blank}} and tired of the way that things have been, oh ooh",
+          "promptZh": "我滿腔怒火，也早已厭倦了這一切向來如此的模樣，噢——"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-3",
+          "answer": "tired of the way",
+          "options": [
+            "tired of the way",
+            "done with the past",
+            "sick of the noise"
+          ],
+          "prompt": "I'm fired up and {{blank}} that things have been, oh ooh",
+          "promptZh": "我滿腔怒火，也早已厭倦了這一切向來如此的模樣，噢——"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-4",
+          "answer": "things have been",
+          "options": [
+            "days have passed",
+            "things have been",
+            "things will change"
+          ],
+          "prompt": "The way that {{blank}}, oh ooh",
+          "promptZh": "厭倦了這一切始終未曾改變的模樣，噢——"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-5",
+          "answer": "Second things second",
+          "options": [
+            "Next comes another",
+            "Second things second",
+            "One more thing"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "再來，還有一件事"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 9,
+          "lineId": "line-6",
+          "answer": "Don't you tell me",
+          "options": [
+            "Don't you tell me",
+            "Can you show me",
+            "Will you hear me"
+          ],
+          "prompt": "{{blank}} what you think that I could be",
+          "promptZh": "別自以為是地告訴我，你認為我能成為什麼樣的人"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 8,
+          "lineId": "line-6",
+          "answer": "what you think",
+          "options": [
+            "what you see",
+            "what you think",
+            "what you want"
+          ],
+          "prompt": "Don't you tell me {{blank}} that I could be",
+          "promptZh": "別自以為是地告訴我，你認為我能成為什麼樣的人"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 11,
+          "lineId": "line-7",
+          "answer": "at the sail",
+          "options": [
+            "on the shore",
+            "at the wheel",
+            "at the sail"
+          ],
+          "prompt": "I'm the one {{blank}}, I'm the master of my sea, oh ooh",
+          "promptZh": "掌舵的人是我，我才是自己這片海洋的主人，噢——"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 10,
+          "lineId": "line-7",
+          "answer": "master of my sea",
+          "options": [
+            "captain of my ship",
+            "master of my sea",
+            "ruler of my world"
+          ],
+          "prompt": "I'm the one at the sail, I'm the {{blank}}, oh ooh",
+          "promptZh": "掌舵的人是我，我才是自己這片海洋的主人，噢——"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-8",
+          "answer": "The master",
+          "options": [
+            "The captain",
+            "The ruler",
+            "The master"
+          ],
+          "prompt": "{{blank}} of my sea, oh ooh",
+          "promptZh": "我才是自己命運之海的主人，噢——"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-9",
+          "answer": "broken",
+          "options": [
+            "broken",
+            "restless",
+            "lonely"
+          ],
+          "prompt": "I was {{blank}} from a young age",
+          "promptZh": "從年少時起，我便已傷痕累累"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-10",
+          "answer": "the masses",
+          "options": [
+            "the crowds",
+            "the masses",
+            "the people"
+          ],
+          "prompt": "Taking my sulking to {{blank}}",
+          "promptZh": "我將心中的鬱悶與憤懣，帶到眾人面前"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-11",
+          "answer": "my poems",
+          "options": [
+            "my stories",
+            "my songs",
+            "my poems"
+          ],
+          "prompt": "Writing {{blank}} for the few",
+          "promptZh": "為那寥寥幾個人，寫下我的詩篇"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-11",
+          "answer": "for the few",
+          "options": [
+            "for the world",
+            "for my friends",
+            "for the few"
+          ],
+          "prompt": "Writing my poems {{blank}}",
+          "promptZh": "為那寥寥幾個人，寫下我的詩篇"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 18,
+          "lineId": "line-12",
+          "answer": "took to me",
+          "options": [
+            "took to me",
+            "turned to me",
+            "called to me"
+          ],
+          "prompt": "That look at me, {{blank}}, shook to me, feeling me",
+          "promptZh": "那些注視我、接納我、因我而震撼、真正懂得我的人"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 17,
+          "lineId": "line-12",
+          "answer": "feeling me",
+          "options": [
+            "seeing me",
+            "hearing me",
+            "feeling me"
+          ],
+          "prompt": "That look at me, took to me, shook to me, {{blank}}",
+          "promptZh": "那些注視我、接納我、因我而震撼、真正懂得我的人"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-13",
+          "answer": "heartache",
+          "options": [
+            "hard times",
+            "heartache",
+            "sadness"
+          ],
+          "prompt": "Singing from {{blank}} from the pain",
+          "promptZh": "我從心碎與痛苦之中，唱出自己的歌"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-14",
+          "answer": "my message",
+          "options": [
+            "my warning",
+            "my story",
+            "my message"
+          ],
+          "prompt": "Taking {{blank}} from the veins",
+          "promptZh": "從流淌著熱血的脈絡裡，汲取我要傳達的心聲"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-14",
+          "answer": "from the veins",
+          "options": [
+            "from my heart",
+            "from the veins",
+            "from the streets"
+          ],
+          "prompt": "Taking my message {{blank}}",
+          "promptZh": "從流淌著熱血的脈絡裡，汲取我要傳達的心聲"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-15",
+          "answer": "my lesson",
+          "options": [
+            "my lesson",
+            "my wisdom",
+            "my answer"
+          ],
+          "prompt": "Speaking {{blank}} from the brain",
+          "promptZh": "將腦海中領悟的教訓，化作言語"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-16",
+          "answer": "the beauty",
+          "options": [
+            "the beauty",
+            "the meaning",
+            "the wonder"
+          ],
+          "prompt": "Seeing {{blank}} through the...",
+          "promptZh": "終於能透過那一切，看見隱藏其中的美麗……"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-17",
+          "answer": "Pain",
+          "options": [
+            "Shame",
+            "Fear",
+            "Pain"
+          ],
+          "prompt": "{{blank}}!",
+          "promptZh": "痛苦！"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-18",
+          "answer": "believer, believer",
+          "options": [
+            "fighter, fighter",
+            "dreamer, dreamer",
+            "believer, believer"
+          ],
+          "prompt": "You made me a, you made me a {{blank}}",
+          "promptZh": "是你讓我成為，讓我成為一個堅定的信念者，信念者"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-19",
+          "answer": "Pain",
+          "options": [
+            "Pain",
+            "Fear",
+            "Fire"
+          ],
+          "prompt": "{{blank}}!",
+          "promptZh": "痛苦！"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-20",
+          "answer": "break me down",
+          "options": [
+            "wear me out",
+            "break me down",
+            "pull me back"
+          ],
+          "prompt": "You {{blank}}, you build me up, believer, believer",
+          "promptZh": "你將我擊垮，又讓我重新站起，成為信念者，信念者"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-21",
+          "answer": "Pain",
+          "options": [
+            "Hope",
+            "Pain",
+            "Fear"
+          ],
+          "prompt": "{{blank}}!",
+          "promptZh": "痛苦！"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-22",
+          "answer": "bullets fly",
+          "options": [
+            "thunder rolls",
+            "arrows fall",
+            "bullets fly"
+          ],
+          "prompt": "Oh let the {{blank}}, oh let them rain ",
+          "promptZh": "噢，就讓子彈飛來吧，讓它們如暴雨般傾瀉而下"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-22",
+          "answer": "let them rain",
+          "options": [
+            "let them rain",
+            "let them fall",
+            "watch them fade"
+          ],
+          "prompt": "Oh let the bullets fly, oh {{blank}} ",
+          "promptZh": "噢，就讓子彈飛來吧，讓它們如暴雨般傾瀉而下"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-23",
+          "answer": "my drive",
+          "options": [
+            "my strength",
+            "my drive",
+            "my hope"
+          ],
+          "prompt": "My life, my love, {{blank}}, it came from... ",
+          "promptZh": "我的生命、我的愛、我前進的動力，全都源自……"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-23",
+          "answer": "it came from",
+          "options": [
+            "it started with",
+            "it grew from",
+            "it came from"
+          ],
+          "prompt": "My life, my love, my drive, {{blank}}... ",
+          "promptZh": "我的生命、我的愛、我前進的動力，全都源自……"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-26",
+          "answer": "Third things third",
+          "options": [
+            "One more time",
+            "Next thing now",
+            "Third things third"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "第三，還有一件事"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-27",
+          "answer": "a prayer",
+          "options": [
+            "a message",
+            "a prayer",
+            "a letter"
+          ],
+          "prompt": "Send {{blank}} to the ones up above",
+          "promptZh": "向天上的神明獻上一聲祈禱"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-27",
+          "answer": "the ones up above",
+          "options": [
+            "the ones up above",
+            "the stars in the sky",
+            "the people below"
+          ],
+          "prompt": "Send a prayer to {{blank}}",
+          "promptZh": "向天上的神明獻上一聲祈禱"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 37,
+          "lineId": "line-28",
+          "answer": "has turned",
+          "options": [
+            "has changed",
+            "has broken",
+            "has turned"
+          ],
+          "prompt": "All the hate that you've heard {{blank}} your spirit to a dove, oh ooh",
+          "promptZh": "你所聽過的所有仇恨之聲，竟使你的靈魂化作一隻白鴿，噢——"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 36,
+          "lineId": "line-28",
+          "answer": "your spirit",
+          "options": [
+            "your sorrow",
+            "your anger",
+            "your spirit"
+          ],
+          "prompt": "All the hate that you've heard has turned {{blank}} to a dove, oh ooh",
+          "promptZh": "你所聽過的所有仇恨之聲，竟使你的靈魂化作一隻白鴿，噢——"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-29",
+          "answer": "up above",
+          "options": [
+            "far away",
+            "up above",
+            "down below"
+          ],
+          "prompt": "Your spirit {{blank}}, oh ooh",
+          "promptZh": "你的靈魂，在高天之上，噢——"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-30",
+          "answer": "choking",
+          "options": [
+            "choking",
+            "shouting",
+            "crying"
+          ],
+          "prompt": "I was {{blank}} in the crowd",
+          "promptZh": "我曾在人群之中，感到幾乎窒息"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-31",
+          "answer": "in the cloud",
+          "options": [
+            "in the cloud",
+            "in the sky",
+            "in the storm"
+          ],
+          "prompt": "Building my rain up {{blank}}",
+          "promptZh": "將心中的雨水，一點一滴積聚成雲"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-32",
+          "answer": "like ashes",
+          "options": [
+            "like raindrops",
+            "like ashes",
+            "like feathers"
+          ],
+          "prompt": "Falling {{blank}} to the ground",
+          "promptZh": "最終如灰燼般，紛紛飄落大地"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-33",
+          "answer": "my feelings",
+          "options": [
+            "my feelings",
+            "my memories",
+            "my worries"
+          ],
+          "prompt": "Hoping {{blank}}, they would drown",
+          "promptZh": "盼望自己的所有情緒，都能就此沉沒"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 44,
+          "lineId": "line-34",
+          "answer": "never did, ever lived",
+          "options": [
+            "never did, ever lived",
+            "never left, always stayed",
+            "never stopped, always grew"
+          ],
+          "prompt": "But they {{blank}}, ebbing and flowing",
+          "promptZh": "可它們從未消失，始終存在，如潮水般起伏漲落"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 43,
+          "lineId": "line-34",
+          "answer": "ebbing and flowing",
+          "options": [
+            "rising and falling",
+            "coming and going",
+            "ebbing and flowing"
+          ],
+          "prompt": "But they never did, ever lived, {{blank}}",
+          "promptZh": "可它們從未消失，始終存在，如潮水般起伏漲落"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-35",
+          "answer": "Inhibited",
+          "options": [
+            "Overwhelmed",
+            "Inhibited",
+            "Unprotected"
+          ],
+          "prompt": "{{blank}}, limited",
+          "promptZh": "被壓抑著，被重重束縛著"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-36",
+          "answer": "broke open",
+          "options": [
+            "burst through",
+            "broke open",
+            "fell apart"
+          ],
+          "prompt": "Till it {{blank}} and rained down",
+          "promptZh": "直到終於衝破束縛，化作傾盆大雨"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-47",
+          "answer": "Last things last",
+          "options": [
+            "Last things last",
+            "Before the end",
+            "One last thing"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "最後，還有一件事"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-48",
+          "answer": "the grace",
+          "options": [
+            "the heat",
+            "the light",
+            "the grace"
+          ],
+          "prompt": "By {{blank}} of the fire and the flames",
+          "promptZh": "承蒙烈火與熊熊火焰的淬鍊與恩賜"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-49",
+          "answer": "face of the future",
+          "options": [
+            "voice of tomorrow",
+            "hope for the future",
+            "face of the future"
+          ],
+          "prompt": "You're the {{blank}}, the blood in my veins, oh ooh",
+          "promptZh": "你是未來的面貌，也是流淌在我血脈中的力量，噢——"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-51",
+          "answer": "ebbing and flowing",
+          "options": [
+            "ebbing and flowing",
+            "rising and falling",
+            "coming and going"
+          ],
+          "prompt": "But they never did, ever lived, {{blank}}",
+          "promptZh": "可它們從未消失，始終存在，如潮水般起伏漲落"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}} all the words {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I'm {{q:4}} and {{q:5}} that things have been, oh ooh"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "The way that {{q:6}}, oh ooh"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:8}} {{q:9}} that I could be"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I'm the one {{q:10}}, I'm the {{q:11}}, oh ooh"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:12}} of my sea, oh ooh"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I was {{q:13}} from a young age"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Taking my sulking to {{q:14}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Writing {{q:15}} {{q:16}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "That look at me, {{q:17}}, shook to me, {{q:18}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Singing from {{q:19}} from the pain"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Taking {{q:20}} {{q:21}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Speaking {{q:22}} from the brain"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Seeing {{q:23}} through the..."
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:24}}!"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "You made me a, you made me a {{q:25}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:26}}!"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "You {{q:27}}, you build me up, believer, believer"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:28}}!"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Oh let the {{q:29}}, oh {{q:30}} "
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "My life, my love, {{q:31}}, {{q:32}}... "
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You made me a, you made me a believer, believer"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:33}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Send {{q:34}} to {{q:35}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "All the hate that you've heard {{q:36}} {{q:37}} to a dove, oh ooh"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Your spirit {{q:38}}, oh ooh"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I was {{q:39}} in the crowd"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Building my rain up {{q:40}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Falling {{q:41}} to the ground"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Hoping {{q:42}}, they would drown"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "But they {{q:43}}, {{q:44}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "{{q:45}}, limited"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Till it {{q:46}} and rained down"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "It rained down, like..."
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "You made me a, you made me a believer, believer"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "You break me down, you build me up, believer, believer"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Oh let the bullets fly, oh let them rain "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "My life, my love, my drive, it came from... "
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "You made me a, you made me a believer, believer"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "{{q:47}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "By {{q:48}} of the fire and the flames"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "You're the {{q:49}}, the blood in my veins, oh ooh"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "The blood in my veins, oh ooh"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "But they never did, ever lived, {{q:50}}"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Inhibited, limited"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Till it broke open and rained down"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "It rained down, like..."
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "You made me a, you made me a believer, believer"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "You break me down, you build me up, believer, believer"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Oh let the bullets fly, oh let them rain "
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "My life, my love, my drive, it came from... "
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Pain!"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "You made me a, you made me a believer, believer"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Believer · Listening & Vocabulary",
+  "description": "《Believer》描寫一個人經歷痛苦、挫折與自我懷疑後，逐漸找到信念與力量的成長過程。歌中的主角從年少時便承受傷害，也曾因外界的批評與壓力感到憤怒和迷惘，但他拒絕讓別人決定自己的價值與未來。他將內心的痛苦透過文字與音樂表達出來，並從一次又一次的打擊中學會堅強。歌曲以火焰、子彈與暴雨等意象，象徵人生中的挑戰，以及壓抑已久的情緒終於得到釋放。最終，《Believer》傳達的是勇氣、成長與自我信念：即使傷痛曾經令人崩潰，我們仍然可以選擇如何面對過去，將挫折轉化為前進的動力，重新掌握自己的人生。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "First things first",
+      "meaning": "首先；先說最重要的事",
+      "usage": "開始說明事情、安排工作或提醒別人先做什麼時。",
+      "prompt": "哪一句正確使用了「First things first」？",
+      "options": [
+        "I bought first things first at the shop for five dollars.",
+        "First things first, let’s find the missing cat before we make dinner.",
+        "My dog is first things first because it has four legs.",
+        "Please first things first the window before you leave."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：這不是能買的商品。可說 I bought a book.",
+        "正確：先找貓，再做晚餐，符合「先處理重要的事」。",
+        "錯誤：不能用來形容狗的外表。可說 My dog is small.",
+        "錯誤：這不是動詞。可說 Please close the window."
+      ],
+      "explanation": "正確：先找貓，再做晚餐，符合「先處理重要的事」。"
+    },
+    {
+      "number": 2,
+      "word": "Fired up",
+      "meaning": "興奮、有幹勁；有時也表示生氣",
+      "usage": "準備比賽、工作或想做某件事，情緒很強烈時。",
+      "prompt": "哪一句正確使用了「Fired up」？",
+      "options": [
+        "The table is fired up because it has three chairs.",
+        "I put my sandwich in a fired up for lunch.",
+        "Our team was fired up and ready to play.",
+        "She fired up to the bus stop at eight."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：不是形容桌子和椅子的數量。",
+        "錯誤：不能當成放食物的容器。",
+        "正確：球隊充滿幹勁，準備上場。",
+        "錯誤：這裡不能取代 walked 或 went。"
+      ],
+      "explanation": "正確：球隊充滿幹勁，準備上場。"
+    },
+    {
+      "number": 3,
+      "word": "Be tired of",
+      "meaning": "對……感到厭倦",
+      "usage": "同樣的事做太久、某種情況讓你不想再繼續時。",
+      "prompt": "哪一句正確使用了「Be tired of」？",
+      "options": [
+        "I am tired of to play this game.",
+        "She is tired of eating the same food every day.",
+        "My brother is tired of very tall.",
+        "We tired of the door with our keys."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：of 後接名詞或 -ing；可說 tired of playing。",
+        "正確：每天吃一樣的食物，覺得膩了。",
+        "錯誤：of 後面不能直接放 very tall；可說 tired of being so tall。",
+        "錯誤：be tired of 不是「用鑰匙開門」的動詞。"
+      ],
+      "explanation": "正確：每天吃一樣的食物，覺得膩了。"
+    },
+    {
+      "number": 4,
+      "word": "The master of",
+      "meaning": "……的主人；掌握……的人",
+      "usage": "說明誰能控制某件事情、技能或自己的生活時。",
+      "prompt": "哪一句正確使用了「The master of」？",
+      "options": [
+        "My sister is the master of her own time; she plans every day.",
+        "I master of my breakfast with some milk.",
+        "The master of is sleeping under the bed.",
+        "He is the master of at seven o’clock."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：表示姊姊能掌握自己的時間。",
+        "錯誤：缺少 be 動詞，意思也不符合；可說 I eat breakfast。",
+        "錯誤：of 後面需要接名詞，句子不完整。",
+        "錯誤：of 後不能直接接時間當作所掌握的事物。"
+      ],
+      "explanation": "正確：表示姊姊能掌握自己的時間。"
+    },
+    {
+      "number": 5,
+      "word": "Break someone down",
+      "meaning": "使某人失去信心、精神被擊垮",
+      "usage": "壓力、批評或難過的事情讓人感到很無力時。",
+      "prompt": "哪一句正確使用了「Break someone down」？",
+      "options": [
+        "I break my friend down the stairs every day.",
+        "She broke down the sandwich and ate it with tea.",
+        "My dad breaks me down to school at eight.",
+        "The mean words broke him down, and he felt very sad."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：此片語不是「陪朋友下樓」；可說 I walk downstairs with my friend。",
+        "錯誤：這裡若要說切開三明治，可說 cut the sandwich。",
+        "錯誤：接送上學應說 takes me to school。",
+        "正確：難聽的話讓他失去信心、感到難過。"
+      ],
+      "explanation": "正確：難聽的話讓他失去信心、感到難過。"
+    },
+    {
+      "number": 6,
+      "word": "Build someone up",
+      "meaning": "鼓勵某人、幫某人建立信心",
+      "usage": "稱讚、支持別人，讓對方更有信心時。",
+      "prompt": "哪一句正確使用了「Build someone up」？",
+      "options": [
+        "I build my friend up with a cup of water in the kitchen.",
+        "Please build up my shoes before I go out.",
+        "The teacher built us up by saying we could do it.",
+        "My brother built me up to the train station."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：不是用水把朋友蓋起來；這裡語意不通。",
+        "錯誤：鞋子不是這裡要鼓勵的人；可說 Please find my shoes。",
+        "正確：老師用鼓勵的話增加學生信心。",
+        "錯誤：帶人去車站應說 took me to the train station。"
+      ],
+      "explanation": "正確：老師用鼓勵的話增加學生信心。"
+    },
+    {
+      "number": 7,
+      "word": "Come from",
+      "meaning": "來自……；源自……",
+      "usage": "介紹家鄉、物品來源或感受的原因時。",
+      "prompt": "哪一句正確使用了「Come from」？",
+      "options": [
+        "I come from my homework after dinner.",
+        "The dog comes from very happy today.",
+        "Please come from the light before bed.",
+        "My new bag comes from a small shop near school."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：做功課要說 do my homework。",
+        "錯誤：from 後面不能直接接 very happy 來表示心情。",
+        "錯誤：關燈要說 turn off the light。",
+        "正確：說明背包是從哪間店來的。"
+      ],
+      "explanation": "正確：說明背包是從哪間店來的。"
+    },
+    {
+      "number": 8,
+      "word": "Hope for",
+      "meaning": "希望得到、期待……",
+      "usage": "期盼好消息、好天氣或美好結果時。",
+      "prompt": "哪一句正確使用了「Hope for」？",
+      "options": [
+        "I hope for sunny weather on our trip.",
+        "We hope for to go to the park tomorrow.",
+        "He hopes for his bag with a pencil.",
+        "They hope for the stairs to the second floor."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：期待旅行時有好天氣。",
+        "錯誤：hope for 後接名詞；可說 hope to go to the park。",
+        "錯誤：不能表示用鉛筆寫在包包上。",
+        "錯誤：這裡若要說上樓，應用 go up the stairs。"
+      ],
+      "explanation": "正確：期待旅行時有好天氣。"
+    },
+    {
+      "number": 9,
+      "word": "Fall to the ground",
+      "meaning": "掉到地上",
+      "usage": "物品、樹葉或人從高處往地面落下時。",
+      "prompt": "哪一句正確使用了「Fall to the ground」？",
+      "options": [
+        "The leaves fell to the ground in the wind.",
+        "She fell to the ground her new coat at the store.",
+        "I fell to the ground my lunch at twelve.",
+        "The sun falls to the ground every morning at six."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：樹葉被風吹落地面。",
+        "錯誤：這不是「買外套」；可說 She bought a new coat。",
+        "錯誤：吃午餐要說 ate my lunch。",
+        "錯誤：太陽不會掉到地上；可說 The sun rises in the morning。"
+      ],
+      "explanation": "正確：樹葉被風吹落地面。"
+    },
+    {
+      "number": 10,
+      "word": "Let something + verb",
+      "meaning": "讓某事發生；允許某物做某動作",
+      "usage": "同意某事發生，或不阻止某事繼續時；let 後接原形動詞。",
+      "prompt": "哪一句正確使用了「Let something + verb」？",
+      "options": [
+        "Let the music plays while we eat.",
+        "Let the children play in the garden.",
+        "Let to the bird fly outside.",
+        "Let the rain is stop before we leave."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：let 後面要用原形 play，不加 s。",
+        "正確：let + 人 + 原形動詞 play，表示讓孩子玩。",
+        "錯誤：let 後面不需 to；可說 Let the bird fly outside。",
+        "錯誤：let 後不接 is stop；可說 Let the rain stop。"
+      ],
+      "explanation": "正確：let + 人 + 原形動詞 play，表示讓孩子玩。"
+    }
+  ],
+  "tags": [
+    "imagine dragons",
+    "believer",
+    "resilience",
+    "strength"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/believer/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/believer/user-cover-20261030.png",
+  "editorialRepairs": [],
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 204.3466875,
+    "audioSha256": "5d413cb3d79dd87a547dd01e1ebb78c90e7f9b0c6208315e6cc58d4acfccd4fb",
+    "timedLines": 48,
+    "untimedLines": 15,
+    "reviewStatus": "Conservative automatic line alignment. Unmatched/overlapping background lines remain bilingual without guessed timestamps; not a full manual timing certification."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Believer_.pdf",
+      "sha256": "206a65e01bedadf67af94d2675a452273f22e9583c772832bcefb3c8fbbd9c7a"
+    },
+    "chosenListening": {
+      "filename": "Believer_Four_Level_Listening_Exercise.docx",
+      "sha256": "43658cd2771c7760f77199ff868d0042c26a70c348f27dd114a3474b45e47928"
+    },
+    "chosenVocabulary": {
+      "filename": "Believer_Vocabulary_Quiz.md",
+      "sha256": "232509706782e943f3f1ed2eca01e2673c9650c25eb9f44ffa2d0e8dd45d8f4d"
+    },
+    "mp3": {
+      "filename": "Believer [Kx7B-XvmFtE].mp3",
+      "sha256": "5d413cb3d79dd87a547dd01e1ebb78c90e7f9b0c6208315e6cc58d4acfccd4fb"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-ca50038a-dbd7-431a-8c9b-0fa874c07100.png",
+    "sha256": "ea1c4a6a633f5593451990e1edbfbcb024fa0cc0fe13bfdd9215e992a5079626",
+    "transformations": "none",
+    "selectedOn": "2026-10-30"
+  }
+}

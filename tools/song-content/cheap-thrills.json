@@ -1,0 +1,3470 @@
+{
+  "slug": "cheap-thrills",
+  "title": "Cheap Thrills",
+  "singer": "Sia",
+  "translations": [
+    {
+      "english": "Come on, come on, turn the radio on",
+      "chinese": "來吧，來吧，打開收音機，讓音樂響起",
+      "lineId": "line-1",
+      "startSeconds": 10.1,
+      "endSeconds": 13.36
+    },
+    {
+      "english": "It's Friday night and it won't be long",
+      "chinese": "星期五的夜晚到了，再過不久",
+      "lineId": "line-2",
+      "startSeconds": 13.36,
+      "endSeconds": 15.94
+    },
+    {
+      "english": "Gotta do my hair, put my make-up on",
+      "chinese": "我得整理好頭髮，化上美美的妝",
+      "lineId": "line-3",
+      "startSeconds": 15.94,
+      "endSeconds": 18.62
+    },
+    {
+      "english": "It's Friday night and it won't be long 'til I",
+      "chinese": "今晚是星期五，再過不久，我就要……",
+      "lineId": "line-4",
+      "startSeconds": 18.62,
+      "endSeconds": 21.74
+    },
+    {
+      "english": "Hit the dancefloor",
+      "chinese": "踏進舞池，盡情起舞",
+      "lineId": "line-5"
+    },
+    {
+      "english": "Hit the dancefloor",
+      "chinese": "踏進舞池，盡情起舞",
+      "lineId": "line-6"
+    },
+    {
+      "english": "I got all I need",
+      "chinese": "我已擁有自己所需要的一切",
+      "lineId": "line-7",
+      "startSeconds": 24.24,
+      "endSeconds": 26.1
+    },
+    {
+      "english": "No I ain't got cash",
+      "chinese": "不，我身上沒有現金",
+      "lineId": "line-8",
+      "startSeconds": 26.1,
+      "endSeconds": 27.94
+    },
+    {
+      "english": "I ain't got cash",
+      "chinese": "我沒有什麼錢",
+      "lineId": "line-9",
+      "startSeconds": 28.18,
+      "endSeconds": 29.34
+    },
+    {
+      "english": "But I got you baby",
+      "chinese": "但我有你陪在身邊，親愛的",
+      "lineId": "line-10",
+      "startSeconds": 29.38,
+      "endSeconds": 30.92
+    },
+    {
+      "english": "Baby I don't need dollar bills to have fun tonight",
+      "chinese": "寶貝，今晚我不需要大把鈔票，也能玩得盡興",
+      "lineId": "line-11",
+      "startSeconds": 31.5,
+      "endSeconds": 35.96
+    },
+    {
+      "english": "(I love cheap thrills!)",
+      "chinese": "（我就愛這種不花大錢的快樂！）",
+      "lineId": "line-12"
+    },
+    {
+      "english": "Baby I don't need dollar bills to have fun tonight",
+      "chinese": "寶貝，今晚我不需要大把鈔票，也能玩得盡興",
+      "lineId": "line-13",
+      "startSeconds": 36.78,
+      "endSeconds": 41.36
+    },
+    {
+      "english": "(I love cheap thrills!)",
+      "chinese": "（我就愛這種不花大錢的快樂！）",
+      "lineId": "line-14"
+    },
+    {
+      "english": "I don't need no money",
+      "chinese": "我根本不需要金錢",
+      "lineId": "line-15",
+      "startSeconds": 43.26,
+      "endSeconds": 46.18
+    },
+    {
+      "english": "As long as I can feel the beat",
+      "chinese": "只要我能感受到音樂的節拍",
+      "lineId": "line-16",
+      "startSeconds": 47.56,
+      "endSeconds": 51.34
+    },
+    {
+      "english": "I don't need no money",
+      "chinese": "我根本不需要金錢",
+      "lineId": "line-17",
+      "startSeconds": 53.34,
+      "endSeconds": 56.76
+    },
+    {
+      "english": "As long as I keep dancing",
+      "chinese": "只要我能繼續盡情跳舞",
+      "lineId": "line-18",
+      "startSeconds": 57.04,
+      "endSeconds": 62.04
+    },
+    {
+      "english": "Come on come on, turn the radio on",
+      "chinese": "來吧，來吧，打開收音機，讓音樂響起",
+      "lineId": "line-19",
+      "startSeconds": 63.78,
+      "endSeconds": 66.74
+    },
+    {
+      "english": "It's Saturday and it won't be long",
+      "chinese": "星期六到了，再過不久",
+      "lineId": "line-20",
+      "startSeconds": 66.74,
+      "endSeconds": 69.22
+    },
+    {
+      "english": "Gotta paint my nails, put my high heels on",
+      "chinese": "我得塗好指甲油，穿上高跟鞋",
+      "lineId": "line-21",
+      "startSeconds": 69.22,
+      "endSeconds": 72.0
+    },
+    {
+      "english": "It's Saturday and it won't be long 'til I",
+      "chinese": "今晚是星期六，再過不久，我就要……",
+      "lineId": "line-22",
+      "startSeconds": 72.22,
+      "endSeconds": 75.04
+    },
+    {
+      "english": "Hit the dancefloor",
+      "chinese": "踏進舞池，盡情起舞",
+      "lineId": "line-23",
+      "startSeconds": 75.04,
+      "endSeconds": 76.2
+    },
+    {
+      "english": "Hit the dancefloor",
+      "chinese": "踏進舞池，盡情起舞",
+      "lineId": "line-24",
+      "startSeconds": 76.44,
+      "endSeconds": 77.56
+    },
+    {
+      "english": "I got all I need",
+      "chinese": "我已擁有自己所需要的一切",
+      "lineId": "line-25",
+      "startSeconds": 77.56,
+      "endSeconds": 79.46
+    },
+    {
+      "english": "No I ain't got cash",
+      "chinese": "不，我身上沒有現金",
+      "lineId": "line-26",
+      "startSeconds": 79.46,
+      "endSeconds": 81.28
+    },
+    {
+      "english": "I ain't got cash",
+      "chinese": "我沒有什麼錢",
+      "lineId": "line-27",
+      "startSeconds": 81.28,
+      "endSeconds": 82.7
+    },
+    {
+      "english": "But I got you baby",
+      "chinese": "但我有你陪在身邊，親愛的",
+      "lineId": "line-28",
+      "startSeconds": 82.7,
+      "endSeconds": 84.5
+    },
+    {
+      "english": "Baby I don't need dollar bills to have fun tonight",
+      "chinese": "寶貝，今晚我不需要大把鈔票，也能玩得盡興",
+      "lineId": "line-29",
+      "startSeconds": 84.5,
+      "endSeconds": 89.32
+    },
+    {
+      "english": "(I love cheap thrills!)",
+      "chinese": "（我就愛這種不花大錢的快樂！）",
+      "lineId": "line-30"
+    },
+    {
+      "english": "Baby I don't need dollar bills to have fun tonight",
+      "chinese": "寶貝，今晚我不需要大把鈔票，也能玩得盡興",
+      "lineId": "line-31",
+      "startSeconds": 90.12,
+      "endSeconds": 94.72
+    },
+    {
+      "english": "(I love cheap thrills!)",
+      "chinese": "（我就愛這種不花大錢的快樂！）",
+      "lineId": "line-32"
+    },
+    {
+      "english": "I don't need no money",
+      "chinese": "我根本不需要金錢",
+      "lineId": "line-33",
+      "startSeconds": 96.6,
+      "endSeconds": 99.52
+    },
+    {
+      "english": "As long as I can feel the beat",
+      "chinese": "只要我能感受到音樂的節拍",
+      "lineId": "line-34",
+      "startSeconds": 100.88,
+      "endSeconds": 104.66
+    },
+    {
+      "english": "I don't need no money",
+      "chinese": "我根本不需要金錢",
+      "lineId": "line-35",
+      "startSeconds": 106.46,
+      "endSeconds": 109.86
+    },
+    {
+      "english": "As long as I keep dancing",
+      "chinese": "只要我能繼續盡情跳舞",
+      "lineId": "line-36",
+      "startSeconds": 111.5,
+      "endSeconds": 115.42
+    },
+    {
+      "english": "(I love cheap thrills!)",
+      "chinese": "（我就愛這種不花大錢的快樂！）",
+      "lineId": "line-37"
+    },
+    {
+      "english": "(I love cheap thrills!)",
+      "chinese": "（我就愛這種不花大錢的快樂！）",
+      "lineId": "line-38"
+    },
+    {
+      "english": "I don't need no money",
+      "chinese": "我根本不需要金錢",
+      "lineId": "line-39",
+      "startSeconds": 128.08,
+      "endSeconds": 131.24
+    },
+    {
+      "english": "As long as I can feel the beat",
+      "chinese": "只要我能感受到音樂的節拍",
+      "lineId": "line-40",
+      "startSeconds": 132.92,
+      "endSeconds": 136.7
+    },
+    {
+      "english": "I don't need no money",
+      "chinese": "我根本不需要金錢",
+      "lineId": "line-41",
+      "startSeconds": 138.5,
+      "endSeconds": 141.96
+    },
+    {
+      "english": "As long as I keep dancing",
+      "chinese": "只要我能繼續盡情跳舞",
+      "lineId": "line-42",
+      "startSeconds": 143.6,
+      "endSeconds": 147.46
+    },
+    {
+      "english": "Oh, oh",
+      "chinese": "噢，噢",
+      "lineId": "line-43"
+    },
+    {
+      "english": "Baby I don't need dollar bills to have fun tonight",
+      "chinese": "寶貝，今晚我不需要大把鈔票，也能玩得盡興",
+      "lineId": "line-44",
+      "startSeconds": 148.82,
+      "endSeconds": 153.34
+    },
+    {
+      "english": "(I love cheap thrills!)",
+      "chinese": "（我就愛這種不花大錢的快樂！）",
+      "lineId": "line-45"
+    },
+    {
+      "english": "Baby I don't need dollar bills to have fun tonight",
+      "chinese": "寶貝，今晚我不需要大把鈔票，也能玩得盡興",
+      "lineId": "line-46",
+      "startSeconds": 154.16,
+      "endSeconds": 158.68
+    },
+    {
+      "english": "(I love cheap thrills!)",
+      "chinese": "（我就愛這種不花大錢的快樂！）",
+      "lineId": "line-47"
+    },
+    {
+      "english": "I don't need no money",
+      "chinese": "我根本不需要金錢",
+      "lineId": "line-48",
+      "startSeconds": 160.54,
+      "endSeconds": 163.38
+    },
+    {
+      "english": "As long as I can feel the beat",
+      "chinese": "只要我能感受到音樂的節拍",
+      "lineId": "line-49",
+      "startSeconds": 163.38,
+      "endSeconds": 168.68
+    },
+    {
+      "english": "I don't need no money",
+      "chinese": "我根本不需要金錢",
+      "lineId": "line-50",
+      "startSeconds": 170.24,
+      "endSeconds": 174.36
+    },
+    {
+      "english": "As long as I keep dancing",
+      "chinese": "只要我能繼續盡情跳舞",
+      "lineId": "line-51"
+    },
+    {
+      "english": "La, la, la, la, la, la, la",
+      "chinese": "啦、啦、啦、啦、啦、啦、啦",
+      "lineId": "line-52"
+    },
+    {
+      "english": "(I love cheap thrills!)",
+      "chinese": "（我就愛這種不花大錢的快樂！）",
+      "lineId": "line-53"
+    },
+    {
+      "english": "La, la, la, la, la, la, la",
+      "chinese": "啦、啦、啦、啦、啦、啦、啦",
+      "lineId": "line-54"
+    },
+    {
+      "english": "(I love cheap thrills!)",
+      "chinese": "（我就愛這種不花大錢的快樂！）",
+      "lineId": "line-55"
+    },
+    {
+      "english": "La, la, la, la, la, la, la",
+      "chinese": "啦、啦、啦、啦、啦、啦、啦",
+      "lineId": "line-56",
+      "startSeconds": 197.14,
+      "endSeconds": 201.14
+    },
+    {
+      "english": "(I love cheap thrills!)",
+      "chinese": "（我就愛這種不花大錢的快樂！）",
+      "lineId": "line-57"
+    },
+    {
+      "english": "La, la, la, la, la, la",
+      "chinese": "啦、啦、啦、啦、啦、啦",
+      "lineId": "line-58"
+    },
+    {
+      "english": "(I love cheap thrills!)",
+      "chinese": "（我就愛這種不花大錢的快樂！）",
+      "lineId": "line-59"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "radio on",
+          "options": [
+            "radio on",
+            "television off",
+            "music down"
+          ],
+          "prompt": "Come on, come on, turn the {{blank}}",
+          "promptZh": "來吧，來吧，打開收音機，讓音樂響起"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "Friday night",
+          "options": [
+            "Monday morning",
+            "Friday night",
+            "Sunday afternoon"
+          ],
+          "prompt": "It's {{blank}} and it won't be long",
+          "promptZh": "星期五的夜晚到了，再過不久"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "do my hair",
+          "options": [
+            "wash my face",
+            "pack my bag",
+            "do my hair"
+          ],
+          "prompt": "Gotta {{blank}}, put my make-up on",
+          "promptZh": "我得整理好頭髮，化上美美的妝"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-5",
+          "answer": "Hit the dancefloor",
+          "options": [
+            "Hit the dancefloor",
+            "Leave the party",
+            "Find the exit"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "踏進舞池，盡情起舞"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-7",
+          "answer": "all I need",
+          "options": [
+            "some more time",
+            "all I need",
+            "another chance"
+          ],
+          "prompt": "I got {{blank}}",
+          "promptZh": "我已擁有自己所需要的一切"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-8",
+          "answer": "ain't got cash",
+          "options": [
+            "have some change",
+            "ain't got cash",
+            "need more space"
+          ],
+          "prompt": "No I {{blank}}",
+          "promptZh": "不，我身上沒有現金"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-10",
+          "answer": "got you baby",
+          "options": [
+            "lost you lately",
+            "miss you tonight",
+            "got you baby"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "但我有你陪在身邊，親愛的"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-11",
+          "answer": "dollar bills",
+          "options": [
+            "dollar bills",
+            "golden rings",
+            "fancy clothes"
+          ],
+          "prompt": "Baby I don't need {{blank}} to have fun tonight",
+          "promptZh": "寶貝，今晚我不需要大把鈔票，也能玩得盡興"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-12",
+          "answer": "cheap thrills",
+          "options": [
+            "wild dreams",
+            "bright lights",
+            "cheap thrills"
+          ],
+          "prompt": "(I love {{blank}}!)",
+          "promptZh": "（我就愛這種不花大錢的快樂！）"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-15",
+          "answer": "no money",
+          "options": [
+            "more time",
+            "new shoes",
+            "no money"
+          ],
+          "prompt": "I don't need {{blank}}",
+          "promptZh": "我根本不需要金錢"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-16",
+          "answer": "feel the beat",
+          "options": [
+            "see the lights",
+            "feel the beat",
+            "hear the rain"
+          ],
+          "prompt": "As long as I can {{blank}}",
+          "promptZh": "只要我能感受到音樂的節拍"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-17",
+          "answer": "no money",
+          "options": [
+            "more time",
+            "new shoes",
+            "no money"
+          ],
+          "prompt": "I don't need {{blank}}",
+          "promptZh": "我根本不需要金錢"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-18",
+          "answer": "keep dancing",
+          "options": [
+            "keep dancing",
+            "start driving",
+            "stop moving"
+          ],
+          "prompt": "As long as I {{blank}}",
+          "promptZh": "只要我能繼續盡情跳舞"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-19",
+          "answer": "radio on",
+          "options": [
+            "music down",
+            "radio on",
+            "television off"
+          ],
+          "prompt": "Come on come on, turn the {{blank}}",
+          "promptZh": "來吧，來吧，打開收音機，讓音樂響起"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-21",
+          "answer": "paint my nails",
+          "options": [
+            "brush my teeth",
+            "wash my hands",
+            "paint my nails"
+          ],
+          "prompt": "Gotta {{blank}}, put my high heels on",
+          "promptZh": "我得塗好指甲油，穿上高跟鞋"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-23",
+          "answer": "Hit the dancefloor",
+          "options": [
+            "Hit the dancefloor",
+            "Find the exit",
+            "Leave the party"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "踏進舞池，盡情起舞"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-26",
+          "answer": "ain't got cash",
+          "options": [
+            "ain't got cash",
+            "need more space",
+            "have some change"
+          ],
+          "prompt": "No I {{blank}}",
+          "promptZh": "不，我身上沒有現金"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-29",
+          "answer": "dollar bills",
+          "options": [
+            "golden rings",
+            "dollar bills",
+            "fancy clothes"
+          ],
+          "prompt": "Baby I don't need {{blank}} to have fun tonight",
+          "promptZh": "寶貝，今晚我不需要大把鈔票，也能玩得盡興"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-31",
+          "answer": "dollar bills",
+          "options": [
+            "dollar bills",
+            "golden rings",
+            "fancy clothes"
+          ],
+          "prompt": "Baby I don't need {{blank}} to have fun tonight",
+          "promptZh": "寶貝，今晚我不需要大把鈔票，也能玩得盡興"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-34",
+          "answer": "feel the beat",
+          "options": [
+            "see the lights",
+            "feel the beat",
+            "hear the rain"
+          ],
+          "prompt": "As long as I can {{blank}}",
+          "promptZh": "只要我能感受到音樂的節拍"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Come on, come on, turn the {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "It's {{q:2}} and it won't be long"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Gotta {{q:3}}, put my make-up on"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "It's Friday night and it won't be long 'til I"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:4}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Hit the dancefloor"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I got {{q:5}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "No I {{q:6}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I ain't got cash"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "But I {{q:7}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Baby I don't need {{q:8}} to have fun tonight"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "(I love {{q:9}}!)"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Baby I don't need dollar bills to have fun tonight"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I don't need {{q:10}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "As long as I can {{q:11}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I don't need {{q:12}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "As long as I {{q:13}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Come on come on, turn the {{q:14}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "It's Saturday and it won't be long"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Gotta {{q:15}}, put my high heels on"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "It's Saturday and it won't be long 'til I"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:16}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Hit the dancefloor"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I got all I need"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "No I {{q:17}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I ain't got cash"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "But I got you baby"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Baby I don't need {{q:18}} to have fun tonight"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Baby I don't need {{q:19}} to have fun tonight"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I don't need no money"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "As long as I can {{q:20}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I don't need no money"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "As long as I keep dancing"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I don't need no money"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "As long as I can feel the beat"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "I don't need no money"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "As long as I keep dancing"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Oh, oh"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Baby I don't need dollar bills to have fun tonight"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Baby I don't need dollar bills to have fun tonight"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I don't need no money"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "As long as I can feel the beat"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "I don't need no money"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "As long as I keep dancing"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "La, la, la, la, la, la, la"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "La, la, la, la, la, la, la"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "La, la, la, la, la, la, la"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "La, la, la, la, la, la"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "(I love cheap thrills!)"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "radio on",
+          "options": [
+            "television off",
+            "music down",
+            "radio on"
+          ],
+          "prompt": "Come on, come on, turn the {{blank}}",
+          "promptZh": "來吧，來吧，打開收音機，讓音樂響起"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "Friday night",
+          "options": [
+            "Sunday afternoon",
+            "Friday night",
+            "Monday morning"
+          ],
+          "prompt": "It's {{blank}} and it won't be long",
+          "promptZh": "星期五的夜晚到了，再過不久"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "do my hair",
+          "options": [
+            "do my hair",
+            "pack my bag",
+            "wash my face"
+          ],
+          "prompt": "Gotta {{blank}}, put my make-up on",
+          "promptZh": "我得整理好頭髮，化上美美的妝"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "Friday night",
+          "options": [
+            "Sunday afternoon",
+            "Friday night",
+            "Monday morning"
+          ],
+          "prompt": "It's {{blank}} and it won't be long 'til I",
+          "promptZh": "今晚是星期五，再過不久，我就要……"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "Hit the dancefloor",
+          "options": [
+            "Hit the dancefloor",
+            "Find the exit",
+            "Leave the party"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "踏進舞池，盡情起舞"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "Hit the dancefloor",
+          "options": [
+            "Find the exit",
+            "Hit the dancefloor",
+            "Leave the party"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "踏進舞池，盡情起舞"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "all I need",
+          "options": [
+            "another chance",
+            "all I need",
+            "some more time"
+          ],
+          "prompt": "I got {{blank}}",
+          "promptZh": "我已擁有自己所需要的一切"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "ain't got cash",
+          "options": [
+            "ain't got cash",
+            "have some change",
+            "need more space"
+          ],
+          "prompt": "No I {{blank}}",
+          "promptZh": "不，我身上沒有現金"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "ain't got cash",
+          "options": [
+            "ain't got cash",
+            "have some change",
+            "need more space"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我沒有什麼錢"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "got you baby",
+          "options": [
+            "lost you lately",
+            "got you baby",
+            "miss you tonight"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "但我有你陪在身邊，親愛的"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "dollar bills",
+          "options": [
+            "dollar bills",
+            "fancy clothes",
+            "golden rings"
+          ],
+          "prompt": "Baby I don't need {{blank}} to have fun tonight",
+          "promptZh": "寶貝，今晚我不需要大把鈔票，也能玩得盡興"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "cheap thrills",
+          "options": [
+            "bright lights",
+            "wild dreams",
+            "cheap thrills"
+          ],
+          "prompt": "(I love {{blank}}!)",
+          "promptZh": "（我就愛這種不花大錢的快樂！）"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "dollar bills",
+          "options": [
+            "dollar bills",
+            "golden rings",
+            "fancy clothes"
+          ],
+          "prompt": "Baby I don't need {{blank}} to have fun tonight",
+          "promptZh": "寶貝，今晚我不需要大把鈔票，也能玩得盡興"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-15",
+          "answer": "no money",
+          "options": [
+            "no money",
+            "new shoes",
+            "more time"
+          ],
+          "prompt": "I don't need {{blank}}",
+          "promptZh": "我根本不需要金錢"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-16",
+          "answer": "feel the beat",
+          "options": [
+            "hear the rain",
+            "see the lights",
+            "feel the beat"
+          ],
+          "prompt": "As long as I can {{blank}}",
+          "promptZh": "只要我能感受到音樂的節拍"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-17",
+          "answer": "no money",
+          "options": [
+            "new shoes",
+            "no money",
+            "more time"
+          ],
+          "prompt": "I don't need {{blank}}",
+          "promptZh": "我根本不需要金錢"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "keep dancing",
+          "options": [
+            "start driving",
+            "stop moving",
+            "keep dancing"
+          ],
+          "prompt": "As long as I {{blank}}",
+          "promptZh": "只要我能繼續盡情跳舞"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "radio on",
+          "options": [
+            "television off",
+            "radio on",
+            "music down"
+          ],
+          "prompt": "Come on come on, turn the {{blank}}",
+          "promptZh": "來吧，來吧，打開收音機，讓音樂響起"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-20",
+          "answer": "Saturday",
+          "options": [
+            "Saturday",
+            "Thursday",
+            "Wednesday"
+          ],
+          "prompt": "It's {{blank}} and it won't be long",
+          "promptZh": "星期六到了，再過不久"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-21",
+          "answer": "paint my nails",
+          "options": [
+            "paint my nails",
+            "wash my hands",
+            "brush my teeth"
+          ],
+          "prompt": "Gotta {{blank}}, put my high heels on",
+          "promptZh": "我得塗好指甲油，穿上高跟鞋"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-22",
+          "answer": "Saturday",
+          "options": [
+            "Wednesday",
+            "Thursday",
+            "Saturday"
+          ],
+          "prompt": "It's {{blank}} and it won't be long 'til I",
+          "promptZh": "今晚是星期六，再過不久，我就要……"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-23",
+          "answer": "Hit the dancefloor",
+          "options": [
+            "Leave the party",
+            "Find the exit",
+            "Hit the dancefloor"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "踏進舞池，盡情起舞"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-24",
+          "answer": "Hit the dancefloor",
+          "options": [
+            "Hit the dancefloor",
+            "Find the exit",
+            "Leave the party"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "踏進舞池，盡情起舞"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-25",
+          "answer": "all I need",
+          "options": [
+            "some more time",
+            "all I need",
+            "another chance"
+          ],
+          "prompt": "I got {{blank}}",
+          "promptZh": "我已擁有自己所需要的一切"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-26",
+          "answer": "ain't got cash",
+          "options": [
+            "ain't got cash",
+            "have some change",
+            "need more space"
+          ],
+          "prompt": "No I {{blank}}",
+          "promptZh": "不，我身上沒有現金"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-27",
+          "answer": "ain't got cash",
+          "options": [
+            "need more space",
+            "have some change",
+            "ain't got cash"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我沒有什麼錢"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-28",
+          "answer": "got you baby",
+          "options": [
+            "lost you lately",
+            "miss you tonight",
+            "got you baby"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "但我有你陪在身邊，親愛的"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-29",
+          "answer": "dollar bills",
+          "options": [
+            "fancy clothes",
+            "dollar bills",
+            "golden rings"
+          ],
+          "prompt": "Baby I don't need {{blank}} to have fun tonight",
+          "promptZh": "寶貝，今晚我不需要大把鈔票，也能玩得盡興"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-30",
+          "answer": "cheap thrills",
+          "options": [
+            "bright lights",
+            "wild dreams",
+            "cheap thrills"
+          ],
+          "prompt": "(I love {{blank}}!)",
+          "promptZh": "（我就愛這種不花大錢的快樂！）"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-31",
+          "answer": "dollar bills",
+          "options": [
+            "golden rings",
+            "dollar bills",
+            "fancy clothes"
+          ],
+          "prompt": "Baby I don't need {{blank}} to have fun tonight",
+          "promptZh": "寶貝，今晚我不需要大把鈔票，也能玩得盡興"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-33",
+          "answer": "no money",
+          "options": [
+            "more time",
+            "new shoes",
+            "no money"
+          ],
+          "prompt": "I don't need {{blank}}",
+          "promptZh": "我根本不需要金錢"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-34",
+          "answer": "feel the beat",
+          "options": [
+            "see the lights",
+            "feel the beat",
+            "hear the rain"
+          ],
+          "prompt": "As long as I can {{blank}}",
+          "promptZh": "只要我能感受到音樂的節拍"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Come on, come on, turn the {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "It's {{q:2}} and it won't be long"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Gotta {{q:3}}, put my make-up on"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "It's {{q:4}} and it won't be long 'til I"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I got {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "No I {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "But I {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Baby I don't need {{q:11}} to have fun tonight"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "(I love {{q:12}}!)"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Baby I don't need {{q:13}} to have fun tonight"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I don't need {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "As long as I can {{q:15}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I don't need {{q:16}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "As long as I {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Come on come on, turn the {{q:18}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "It's {{q:19}} and it won't be long"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Gotta {{q:20}}, put my high heels on"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "It's {{q:21}} and it won't be long 'til I"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:22}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:23}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I got {{q:24}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "No I {{q:25}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I {{q:26}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "But I {{q:27}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Baby I don't need {{q:28}} to have fun tonight"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "(I love {{q:29}}!)"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Baby I don't need {{q:30}} to have fun tonight"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I don't need {{q:31}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "As long as I can {{q:32}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I don't need no money"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "As long as I keep dancing"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I don't need no money"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "As long as I can feel the beat"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "I don't need no money"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "As long as I keep dancing"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Oh, oh"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Baby I don't need dollar bills to have fun tonight"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Baby I don't need dollar bills to have fun tonight"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I don't need no money"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "As long as I can feel the beat"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "I don't need no money"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "As long as I keep dancing"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "La, la, la, la, la, la, la"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "La, la, la, la, la, la, la"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "La, la, la, la, la, la, la"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "La, la, la, la, la, la"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "(I love cheap thrills!)"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "radio on",
+          "options": [
+            "television off",
+            "radio on",
+            "music down"
+          ],
+          "prompt": "Come on, come on, turn the {{blank}}",
+          "promptZh": "來吧，來吧，打開收音機，讓音樂響起"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "Friday night",
+          "options": [
+            "Monday morning",
+            "Friday night",
+            "Sunday afternoon"
+          ],
+          "prompt": "It's {{blank}} and it won't be long",
+          "promptZh": "星期五的夜晚到了，再過不久"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "do my hair",
+          "options": [
+            "wash my face",
+            "pack my bag",
+            "do my hair"
+          ],
+          "prompt": "Gotta {{blank}}, put my make-up on",
+          "promptZh": "我得整理好頭髮，化上美美的妝"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "Friday night",
+          "options": [
+            "Sunday afternoon",
+            "Friday night",
+            "Monday morning"
+          ],
+          "prompt": "It's {{blank}} and it won't be long 'til I",
+          "promptZh": "今晚是星期五，再過不久，我就要……"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "Hit the dancefloor",
+          "options": [
+            "Hit the dancefloor",
+            "Find the exit",
+            "Leave the party"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "踏進舞池，盡情起舞"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "Hit the dancefloor",
+          "options": [
+            "Leave the party",
+            "Find the exit",
+            "Hit the dancefloor"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "踏進舞池，盡情起舞"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "all I need",
+          "options": [
+            "some more time",
+            "all I need",
+            "another chance"
+          ],
+          "prompt": "I got {{blank}}",
+          "promptZh": "我已擁有自己所需要的一切"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "ain't got cash",
+          "options": [
+            "ain't got cash",
+            "have some change",
+            "need more space"
+          ],
+          "prompt": "No I {{blank}}",
+          "promptZh": "不，我身上沒有現金"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "ain't got cash",
+          "options": [
+            "have some change",
+            "ain't got cash",
+            "need more space"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我沒有什麼錢"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "got you baby",
+          "options": [
+            "lost you lately",
+            "miss you tonight",
+            "got you baby"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "但我有你陪在身邊，親愛的"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "dollar bills",
+          "options": [
+            "dollar bills",
+            "fancy clothes",
+            "golden rings"
+          ],
+          "prompt": "Baby I don't need {{blank}} to have fun tonight",
+          "promptZh": "寶貝，今晚我不需要大把鈔票，也能玩得盡興"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "cheap thrills",
+          "options": [
+            "cheap thrills",
+            "wild dreams",
+            "bright lights"
+          ],
+          "prompt": "(I love {{blank}}!)",
+          "promptZh": "（我就愛這種不花大錢的快樂！）"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "dollar bills",
+          "options": [
+            "fancy clothes",
+            "dollar bills",
+            "golden rings"
+          ],
+          "prompt": "Baby I don't need {{blank}} to have fun tonight",
+          "promptZh": "寶貝，今晚我不需要大把鈔票，也能玩得盡興"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-15",
+          "answer": "no money",
+          "options": [
+            "no money",
+            "more time",
+            "new shoes"
+          ],
+          "prompt": "I don't need {{blank}}",
+          "promptZh": "我根本不需要金錢"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-16",
+          "answer": "feel the beat",
+          "options": [
+            "feel the beat",
+            "hear the rain",
+            "see the lights"
+          ],
+          "prompt": "As long as I can {{blank}}",
+          "promptZh": "只要我能感受到音樂的節拍"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-17",
+          "answer": "no money",
+          "options": [
+            "new shoes",
+            "more time",
+            "no money"
+          ],
+          "prompt": "I don't need {{blank}}",
+          "promptZh": "我根本不需要金錢"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "keep dancing",
+          "options": [
+            "start driving",
+            "keep dancing",
+            "stop moving"
+          ],
+          "prompt": "As long as I {{blank}}",
+          "promptZh": "只要我能繼續盡情跳舞"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "radio on",
+          "options": [
+            "music down",
+            "television off",
+            "radio on"
+          ],
+          "prompt": "Come on come on, turn the {{blank}}",
+          "promptZh": "來吧，來吧，打開收音機，讓音樂響起"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-20",
+          "answer": "Saturday",
+          "options": [
+            "Wednesday",
+            "Thursday",
+            "Saturday"
+          ],
+          "prompt": "It's {{blank}} and it won't be long",
+          "promptZh": "星期六到了，再過不久"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-21",
+          "answer": "paint my nails",
+          "options": [
+            "paint my nails",
+            "wash my hands",
+            "brush my teeth"
+          ],
+          "prompt": "Gotta {{blank}}, put my high heels on",
+          "promptZh": "我得塗好指甲油，穿上高跟鞋"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-22",
+          "answer": "Saturday",
+          "options": [
+            "Thursday",
+            "Wednesday",
+            "Saturday"
+          ],
+          "prompt": "It's {{blank}} and it won't be long 'til I",
+          "promptZh": "今晚是星期六，再過不久，我就要……"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-23",
+          "answer": "Hit the dancefloor",
+          "options": [
+            "Find the exit",
+            "Hit the dancefloor",
+            "Leave the party"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "踏進舞池，盡情起舞"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-24",
+          "answer": "Hit the dancefloor",
+          "options": [
+            "Leave the party",
+            "Find the exit",
+            "Hit the dancefloor"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "踏進舞池，盡情起舞"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-25",
+          "answer": "all I need",
+          "options": [
+            "all I need",
+            "another chance",
+            "some more time"
+          ],
+          "prompt": "I got {{blank}}",
+          "promptZh": "我已擁有自己所需要的一切"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-26",
+          "answer": "ain't got cash",
+          "options": [
+            "have some change",
+            "ain't got cash",
+            "need more space"
+          ],
+          "prompt": "No I {{blank}}",
+          "promptZh": "不，我身上沒有現金"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-27",
+          "answer": "ain't got cash",
+          "options": [
+            "ain't got cash",
+            "have some change",
+            "need more space"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我沒有什麼錢"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-28",
+          "answer": "got you baby",
+          "options": [
+            "miss you tonight",
+            "lost you lately",
+            "got you baby"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "但我有你陪在身邊，親愛的"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-29",
+          "answer": "dollar bills",
+          "options": [
+            "fancy clothes",
+            "dollar bills",
+            "golden rings"
+          ],
+          "prompt": "Baby I don't need {{blank}} to have fun tonight",
+          "promptZh": "寶貝，今晚我不需要大把鈔票，也能玩得盡興"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-30",
+          "answer": "cheap thrills",
+          "options": [
+            "cheap thrills",
+            "bright lights",
+            "wild dreams"
+          ],
+          "prompt": "(I love {{blank}}!)",
+          "promptZh": "（我就愛這種不花大錢的快樂！）"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-31",
+          "answer": "dollar bills",
+          "options": [
+            "dollar bills",
+            "golden rings",
+            "fancy clothes"
+          ],
+          "prompt": "Baby I don't need {{blank}} to have fun tonight",
+          "promptZh": "寶貝，今晚我不需要大把鈔票，也能玩得盡興"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-33",
+          "answer": "no money",
+          "options": [
+            "more time",
+            "no money",
+            "new shoes"
+          ],
+          "prompt": "I don't need {{blank}}",
+          "promptZh": "我根本不需要金錢"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-34",
+          "answer": "feel the beat",
+          "options": [
+            "feel the beat",
+            "hear the rain",
+            "see the lights"
+          ],
+          "prompt": "As long as I can {{blank}}",
+          "promptZh": "只要我能感受到音樂的節拍"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-35",
+          "answer": "no money",
+          "options": [
+            "more time",
+            "new shoes",
+            "no money"
+          ],
+          "prompt": "I don't need {{blank}}",
+          "promptZh": "我根本不需要金錢"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-36",
+          "answer": "keep dancing",
+          "options": [
+            "stop moving",
+            "start driving",
+            "keep dancing"
+          ],
+          "prompt": "As long as I {{blank}}",
+          "promptZh": "只要我能繼續盡情跳舞"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-37",
+          "answer": "cheap thrills",
+          "options": [
+            "cheap thrills",
+            "bright lights",
+            "wild dreams"
+          ],
+          "prompt": "(I love {{blank}}!)",
+          "promptZh": "（我就愛這種不花大錢的快樂！）"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-39",
+          "answer": "no money",
+          "options": [
+            "new shoes",
+            "more time",
+            "no money"
+          ],
+          "prompt": "I don't need {{blank}}",
+          "promptZh": "我根本不需要金錢"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-40",
+          "answer": "feel the beat",
+          "options": [
+            "feel the beat",
+            "hear the rain",
+            "see the lights"
+          ],
+          "prompt": "As long as I can {{blank}}",
+          "promptZh": "只要我能感受到音樂的節拍"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-41",
+          "answer": "no money",
+          "options": [
+            "new shoes",
+            "no money",
+            "more time"
+          ],
+          "prompt": "I don't need {{blank}}",
+          "promptZh": "我根本不需要金錢"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-42",
+          "answer": "keep dancing",
+          "options": [
+            "stop moving",
+            "keep dancing",
+            "start driving"
+          ],
+          "prompt": "As long as I {{blank}}",
+          "promptZh": "只要我能繼續盡情跳舞"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-44",
+          "answer": "dollar bills",
+          "options": [
+            "golden rings",
+            "fancy clothes",
+            "dollar bills"
+          ],
+          "prompt": "Baby I don't need {{blank}} to have fun tonight",
+          "promptZh": "寶貝，今晚我不需要大把鈔票，也能玩得盡興"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Come on, come on, turn the {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "It's {{q:2}} and it won't be long"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Gotta {{q:3}}, put my make-up on"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "It's {{q:4}} and it won't be long 'til I"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I got {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "No I {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "But I {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Baby I don't need {{q:11}} to have fun tonight"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "(I love {{q:12}}!)"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Baby I don't need {{q:13}} to have fun tonight"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I don't need {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "As long as I can {{q:15}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I don't need {{q:16}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "As long as I {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Come on come on, turn the {{q:18}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "It's {{q:19}} and it won't be long"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Gotta {{q:20}}, put my high heels on"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "It's {{q:21}} and it won't be long 'til I"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:22}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:23}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I got {{q:24}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "No I {{q:25}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I {{q:26}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "But I {{q:27}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Baby I don't need {{q:28}} to have fun tonight"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "(I love {{q:29}}!)"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Baby I don't need {{q:30}} to have fun tonight"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I don't need {{q:31}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "As long as I can {{q:32}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I don't need {{q:33}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "As long as I {{q:34}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "(I love {{q:35}}!)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I don't need {{q:36}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "As long as I can {{q:37}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "I don't need {{q:38}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "As long as I {{q:39}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Oh, oh"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Baby I don't need {{q:40}} to have fun tonight"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Baby I don't need dollar bills to have fun tonight"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I don't need no money"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "As long as I can feel the beat"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "I don't need no money"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "As long as I keep dancing"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "La, la, la, la, la, la, la"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "La, la, la, la, la, la, la"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "La, la, la, la, la, la, la"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "La, la, la, la, la, la"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "(I love cheap thrills!)"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "radio on",
+          "options": [
+            "radio on",
+            "music down",
+            "television off"
+          ],
+          "prompt": "Come on, come on, turn the {{blank}}",
+          "promptZh": "來吧，來吧，打開收音機，讓音樂響起"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "Friday night",
+          "options": [
+            "Monday morning",
+            "Sunday afternoon",
+            "Friday night"
+          ],
+          "prompt": "It's {{blank}} and it won't be long",
+          "promptZh": "星期五的夜晚到了，再過不久"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "do my hair",
+          "options": [
+            "do my hair",
+            "pack my bag",
+            "wash my face"
+          ],
+          "prompt": "Gotta {{blank}}, put my make-up on",
+          "promptZh": "我得整理好頭髮，化上美美的妝"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "Friday night",
+          "options": [
+            "Friday night",
+            "Sunday afternoon",
+            "Monday morning"
+          ],
+          "prompt": "It's {{blank}} and it won't be long 'til I",
+          "promptZh": "今晚是星期五，再過不久，我就要……"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "Hit the dancefloor",
+          "options": [
+            "Find the exit",
+            "Leave the party",
+            "Hit the dancefloor"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "踏進舞池，盡情起舞"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "Hit the dancefloor",
+          "options": [
+            "Find the exit",
+            "Hit the dancefloor",
+            "Leave the party"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "踏進舞池，盡情起舞"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "all I need",
+          "options": [
+            "another chance",
+            "all I need",
+            "some more time"
+          ],
+          "prompt": "I got {{blank}}",
+          "promptZh": "我已擁有自己所需要的一切"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "ain't got cash",
+          "options": [
+            "have some change",
+            "need more space",
+            "ain't got cash"
+          ],
+          "prompt": "No I {{blank}}",
+          "promptZh": "不，我身上沒有現金"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "ain't got cash",
+          "options": [
+            "ain't got cash",
+            "have some change",
+            "need more space"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我沒有什麼錢"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "got you baby",
+          "options": [
+            "miss you tonight",
+            "lost you lately",
+            "got you baby"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "但我有你陪在身邊，親愛的"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "dollar bills",
+          "options": [
+            "dollar bills",
+            "golden rings",
+            "fancy clothes"
+          ],
+          "prompt": "Baby I don't need {{blank}} to have fun tonight",
+          "promptZh": "寶貝，今晚我不需要大把鈔票，也能玩得盡興"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "cheap thrills",
+          "options": [
+            "bright lights",
+            "wild dreams",
+            "cheap thrills"
+          ],
+          "prompt": "(I love {{blank}}!)",
+          "promptZh": "（我就愛這種不花大錢的快樂！）"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "dollar bills",
+          "options": [
+            "fancy clothes",
+            "dollar bills",
+            "golden rings"
+          ],
+          "prompt": "Baby I don't need {{blank}} to have fun tonight",
+          "promptZh": "寶貝，今晚我不需要大把鈔票，也能玩得盡興"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-15",
+          "answer": "no money",
+          "options": [
+            "no money",
+            "more time",
+            "new shoes"
+          ],
+          "prompt": "I don't need {{blank}}",
+          "promptZh": "我根本不需要金錢"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-16",
+          "answer": "feel the beat",
+          "options": [
+            "feel the beat",
+            "see the lights",
+            "hear the rain"
+          ],
+          "prompt": "As long as I can {{blank}}",
+          "promptZh": "只要我能感受到音樂的節拍"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-17",
+          "answer": "no money",
+          "options": [
+            "more time",
+            "no money",
+            "new shoes"
+          ],
+          "prompt": "I don't need {{blank}}",
+          "promptZh": "我根本不需要金錢"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "keep dancing",
+          "options": [
+            "stop moving",
+            "keep dancing",
+            "start driving"
+          ],
+          "prompt": "As long as I {{blank}}",
+          "promptZh": "只要我能繼續盡情跳舞"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "radio on",
+          "options": [
+            "radio on",
+            "music down",
+            "television off"
+          ],
+          "prompt": "Come on come on, turn the {{blank}}",
+          "promptZh": "來吧，來吧，打開收音機，讓音樂響起"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-20",
+          "answer": "Saturday",
+          "options": [
+            "Wednesday",
+            "Thursday",
+            "Saturday"
+          ],
+          "prompt": "It's {{blank}} and it won't be long",
+          "promptZh": "星期六到了，再過不久"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-21",
+          "answer": "paint my nails",
+          "options": [
+            "wash my hands",
+            "brush my teeth",
+            "paint my nails"
+          ],
+          "prompt": "Gotta {{blank}}, put my high heels on",
+          "promptZh": "我得塗好指甲油，穿上高跟鞋"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-22",
+          "answer": "Saturday",
+          "options": [
+            "Thursday",
+            "Saturday",
+            "Wednesday"
+          ],
+          "prompt": "It's {{blank}} and it won't be long 'til I",
+          "promptZh": "今晚是星期六，再過不久，我就要……"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-23",
+          "answer": "Hit the dancefloor",
+          "options": [
+            "Find the exit",
+            "Hit the dancefloor",
+            "Leave the party"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "踏進舞池，盡情起舞"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-24",
+          "answer": "Hit the dancefloor",
+          "options": [
+            "Hit the dancefloor",
+            "Find the exit",
+            "Leave the party"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "踏進舞池，盡情起舞"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-25",
+          "answer": "all I need",
+          "options": [
+            "some more time",
+            "all I need",
+            "another chance"
+          ],
+          "prompt": "I got {{blank}}",
+          "promptZh": "我已擁有自己所需要的一切"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-26",
+          "answer": "ain't got cash",
+          "options": [
+            "ain't got cash",
+            "need more space",
+            "have some change"
+          ],
+          "prompt": "No I {{blank}}",
+          "promptZh": "不，我身上沒有現金"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-27",
+          "answer": "ain't got cash",
+          "options": [
+            "have some change",
+            "need more space",
+            "ain't got cash"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我沒有什麼錢"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-28",
+          "answer": "got you baby",
+          "options": [
+            "miss you tonight",
+            "lost you lately",
+            "got you baby"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "但我有你陪在身邊，親愛的"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-29",
+          "answer": "dollar bills",
+          "options": [
+            "dollar bills",
+            "fancy clothes",
+            "golden rings"
+          ],
+          "prompt": "Baby I don't need {{blank}} to have fun tonight",
+          "promptZh": "寶貝，今晚我不需要大把鈔票，也能玩得盡興"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-30",
+          "answer": "cheap thrills",
+          "options": [
+            "bright lights",
+            "cheap thrills",
+            "wild dreams"
+          ],
+          "prompt": "(I love {{blank}}!)",
+          "promptZh": "（我就愛這種不花大錢的快樂！）"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-31",
+          "answer": "dollar bills",
+          "options": [
+            "golden rings",
+            "fancy clothes",
+            "dollar bills"
+          ],
+          "prompt": "Baby I don't need {{blank}} to have fun tonight",
+          "promptZh": "寶貝，今晚我不需要大把鈔票，也能玩得盡興"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-33",
+          "answer": "no money",
+          "options": [
+            "no money",
+            "more time",
+            "new shoes"
+          ],
+          "prompt": "I don't need {{blank}}",
+          "promptZh": "我根本不需要金錢"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-34",
+          "answer": "feel the beat",
+          "options": [
+            "hear the rain",
+            "feel the beat",
+            "see the lights"
+          ],
+          "prompt": "As long as I can {{blank}}",
+          "promptZh": "只要我能感受到音樂的節拍"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-35",
+          "answer": "no money",
+          "options": [
+            "no money",
+            "new shoes",
+            "more time"
+          ],
+          "prompt": "I don't need {{blank}}",
+          "promptZh": "我根本不需要金錢"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-36",
+          "answer": "keep dancing",
+          "options": [
+            "start driving",
+            "stop moving",
+            "keep dancing"
+          ],
+          "prompt": "As long as I {{blank}}",
+          "promptZh": "只要我能繼續盡情跳舞"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-37",
+          "answer": "cheap thrills",
+          "options": [
+            "wild dreams",
+            "cheap thrills",
+            "bright lights"
+          ],
+          "prompt": "(I love {{blank}}!)",
+          "promptZh": "（我就愛這種不花大錢的快樂！）"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-39",
+          "answer": "no money",
+          "options": [
+            "no money",
+            "new shoes",
+            "more time"
+          ],
+          "prompt": "I don't need {{blank}}",
+          "promptZh": "我根本不需要金錢"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-40",
+          "answer": "feel the beat",
+          "options": [
+            "see the lights",
+            "feel the beat",
+            "hear the rain"
+          ],
+          "prompt": "As long as I can {{blank}}",
+          "promptZh": "只要我能感受到音樂的節拍"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-41",
+          "answer": "no money",
+          "options": [
+            "new shoes",
+            "more time",
+            "no money"
+          ],
+          "prompt": "I don't need {{blank}}",
+          "promptZh": "我根本不需要金錢"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-42",
+          "answer": "keep dancing",
+          "options": [
+            "stop moving",
+            "start driving",
+            "keep dancing"
+          ],
+          "prompt": "As long as I {{blank}}",
+          "promptZh": "只要我能繼續盡情跳舞"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-44",
+          "answer": "dollar bills",
+          "options": [
+            "dollar bills",
+            "fancy clothes",
+            "golden rings"
+          ],
+          "prompt": "Baby I don't need {{blank}} to have fun tonight",
+          "promptZh": "寶貝，今晚我不需要大把鈔票，也能玩得盡興"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-45",
+          "answer": "cheap thrills",
+          "options": [
+            "bright lights",
+            "wild dreams",
+            "cheap thrills"
+          ],
+          "prompt": "(I love {{blank}}!)",
+          "promptZh": "（我就愛這種不花大錢的快樂！）"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-47",
+          "answer": "cheap thrills",
+          "options": [
+            "bright lights",
+            "cheap thrills",
+            "wild dreams"
+          ],
+          "prompt": "(I love {{blank}}!)",
+          "promptZh": "（我就愛這種不花大錢的快樂！）"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-48",
+          "answer": "no money",
+          "options": [
+            "more time",
+            "new shoes",
+            "no money"
+          ],
+          "prompt": "I don't need {{blank}}",
+          "promptZh": "我根本不需要金錢"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-49",
+          "answer": "feel the beat",
+          "options": [
+            "feel the beat",
+            "see the lights",
+            "hear the rain"
+          ],
+          "prompt": "As long as I can {{blank}}",
+          "promptZh": "只要我能感受到音樂的節拍"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-50",
+          "answer": "no money",
+          "options": [
+            "new shoes",
+            "no money",
+            "more time"
+          ],
+          "prompt": "I don't need {{blank}}",
+          "promptZh": "我根本不需要金錢"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-51",
+          "answer": "keep dancing",
+          "options": [
+            "keep dancing",
+            "start driving",
+            "stop moving"
+          ],
+          "prompt": "As long as I {{blank}}",
+          "promptZh": "只要我能繼續盡情跳舞"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-53",
+          "answer": "cheap thrills",
+          "options": [
+            "bright lights",
+            "cheap thrills",
+            "wild dreams"
+          ],
+          "prompt": "(I love {{blank}}!)",
+          "promptZh": "（我就愛這種不花大錢的快樂！）"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-55",
+          "answer": "cheap thrills",
+          "options": [
+            "bright lights",
+            "wild dreams",
+            "cheap thrills"
+          ],
+          "prompt": "(I love {{blank}}!)",
+          "promptZh": "（我就愛這種不花大錢的快樂！）"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-57",
+          "answer": "cheap thrills",
+          "options": [
+            "bright lights",
+            "cheap thrills",
+            "wild dreams"
+          ],
+          "prompt": "(I love {{blank}}!)",
+          "promptZh": "（我就愛這種不花大錢的快樂！）"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-59",
+          "answer": "cheap thrills",
+          "options": [
+            "bright lights",
+            "cheap thrills",
+            "wild dreams"
+          ],
+          "prompt": "(I love {{blank}}!)",
+          "promptZh": "（我就愛這種不花大錢的快樂！）"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Come on, come on, turn the {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "It's {{q:2}} and it won't be long"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Gotta {{q:3}}, put my make-up on"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "It's {{q:4}} and it won't be long 'til I"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I got {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "No I {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "But I {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Baby I don't need {{q:11}} to have fun tonight"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "(I love {{q:12}}!)"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Baby I don't need {{q:13}} to have fun tonight"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I don't need {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "As long as I can {{q:15}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I don't need {{q:16}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "As long as I {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Come on come on, turn the {{q:18}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "It's {{q:19}} and it won't be long"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Gotta {{q:20}}, put my high heels on"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "It's {{q:21}} and it won't be long 'til I"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:22}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:23}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I got {{q:24}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "No I {{q:25}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I {{q:26}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "But I {{q:27}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Baby I don't need {{q:28}} to have fun tonight"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "(I love {{q:29}}!)"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Baby I don't need {{q:30}} to have fun tonight"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I don't need {{q:31}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "As long as I can {{q:32}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I don't need {{q:33}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "As long as I {{q:34}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "(I love {{q:35}}!)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "(I love cheap thrills!)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I don't need {{q:36}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "As long as I can {{q:37}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "I don't need {{q:38}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "As long as I {{q:39}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Oh, oh"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Baby I don't need {{q:40}} to have fun tonight"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "(I love {{q:41}}!)"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Baby I don't need dollar bills to have fun tonight"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "(I love {{q:42}}!)"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I don't need {{q:43}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "As long as I can {{q:44}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "I don't need {{q:45}}"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "As long as I {{q:46}}"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "La, la, la, la, la, la, la"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "(I love {{q:47}}!)"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "La, la, la, la, la, la, la"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "(I love {{q:48}}!)"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "La, la, la, la, la, la, la"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "(I love {{q:49}}!)"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "La, la, la, la, la, la"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "(I love {{q:50}}!)"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Cheap Thrills · Listening & Vocabulary",
+  "description": "《Cheap Thrills》描寫一個人透過音樂、舞蹈與朋友的陪伴，享受簡單而純粹的快樂。歌中的主角期待週末的到來，精心打扮後走進舞池，隨著音樂節奏盡情跳舞。即使身上沒有太多金錢，她仍然感到無比滿足，因為有心愛的人陪伴，便已擁有所需要的幸福。歌曲反覆強調無須花費大量金錢，也能享受生活中的美好時光，展現輕鬆自在的生活態度。最終，《Cheap Thrills》傳達的是自由、快樂與珍惜當下的精神：真正的幸福未必需要昂貴的享受，只要懂得欣賞生活中的簡單樂趣，與重要的人分享歡笑，平凡的夜晚也能變得精彩而難忘。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Turn on",
+      "meaning": "打開（電器、設備）",
+      "usage": "想打開收音機、電燈、電視或其他設備時使用。",
+      "prompt": "哪一句正確使用了「Turn on」？",
+      "options": [
+        "The actor turned on the mountain before the show.",
+        "I turned on my birthday last Monday.",
+        "Before the news starts, please turn on the radio.",
+        "We turned on the train when we got to the station."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤！山不是可開啟的設備；可以說 climbed the mountain。",
+        "錯誤！生日不能用 turn on；可以說 celebrated my birthday。",
+        "正確！turn on the radio 表示打開收音機。",
+        "錯誤！搭火車應說 got on the train。"
+      ],
+      "explanation": "正確！turn on the radio 表示打開收音機。"
+    },
+    {
+      "number": 2,
+      "word": "It won’t be long",
+      "meaning": "不會等太久；很快就會發生",
+      "usage": "當你預期某件事很快就會發生或結束時使用。",
+      "prompt": "哪一句正確使用了「It won’t be long」？",
+      "options": [
+        "It won’t be long because this road is very tall.",
+        "The film starts in five minutes. It won’t be long.",
+        "I bought it won’t be long at the bookshop.",
+        "Her new phone is it won’t be long and blue."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤！這個片語談的是時間，不是道路高度。",
+        "正確！電影五分鐘後開始，表示不用等很久。",
+        "錯誤！這是句子，不是可以購買的物品。",
+        "錯誤！不能把整個片語當作形容詞描述手機。"
+      ],
+      "explanation": "正確！電影五分鐘後開始，表示不用等很久。"
+    },
+    {
+      "number": 3,
+      "word": "Put on",
+      "meaning": "穿上；塗上；戴上",
+      "usage": "穿衣服、戴眼鏡或擦化妝品時都能使用。",
+      "prompt": "哪一句正確使用了「Put on」？",
+      "options": [
+        "He put on the museum at nine o’clock.",
+        "The singer put on her jacket before going outside.",
+        "I put on my exam because it was difficult.",
+        "They put on the airport and flew to Rome."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤！博物館不能被穿戴；可以說 opened the museum。",
+        "正確！put on a jacket 是穿上外套。",
+        "錯誤！考試不能用 put on；可以說 took my exam。",
+        "錯誤！機場不能被穿上；可以說 went to the airport。"
+      ],
+      "explanation": "正確！put on a jacket 是穿上外套。"
+    },
+    {
+      "number": 4,
+      "word": "Hit the dancefloor",
+      "meaning": "走進舞池開始跳舞",
+      "usage": "在派對、婚禮或舞會中準備去跳舞時使用；hit 在這裡不是「打」。",
+      "prompt": "哪一句正確使用了「Hit the dancefloor」？",
+      "options": [
+        "When our favourite song started, we hit the dancefloor.",
+        "The detective hit the dancefloor to read a report.",
+        "Our plane hit the dancefloor before landing.",
+        "I hit the dancefloor into three small pieces."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確！喜歡的歌開始時，大家走進舞池跳舞。",
+        "錯誤！閱讀報告與去舞池跳舞無關。",
+        "錯誤！飛機降落不是去舞池跳舞。",
+        "錯誤！這裡誤把 hit 當作敲碎某物。"
+      ],
+      "explanation": "正確！喜歡的歌開始時，大家走進舞池跳舞。"
+    },
+    {
+      "number": 5,
+      "word": "All I need",
+      "meaning": "我所需要的一切",
+      "usage": "想強調某個人或某件東西已經足夠滿足需求時使用。",
+      "prompt": "哪一句正確使用了「All I need」？",
+      "options": [
+        "I all I need to the library after lunch.",
+        "The bus all I need at six every morning.",
+        "All I need is a quiet place to study tonight.",
+        "She bought three all I needs for her computer."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤！all I need 不能直接當成「去」的動詞。",
+        "錯誤！片語不是描述公車發車的動詞。",
+        "正確！一個安靜的地方就是今晚需要的全部。",
+        "錯誤！all I need 不是可數的物品名稱。"
+      ],
+      "explanation": "正確！一個安靜的地方就是今晚需要的全部。"
+    },
+    {
+      "number": 6,
+      "word": "Cash",
+      "meaning": "現金",
+      "usage": "談到紙鈔、硬幣或與刷卡、行動支付比較時使用。",
+      "prompt": "哪一句正確使用了「Cash」？",
+      "options": [
+        "The market only takes cash, so I went to an ATM.",
+        "The coach asked us to cash around the field.",
+        "My cousin wears cash to stay warm in winter.",
+        "We watched a cash in the sky during the storm."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確！市場只收現金，所以去提款機領錢。",
+        "錯誤！cash 在這裡不能代替 run。",
+        "錯誤！現金不是冬天穿的衣服。",
+        "錯誤！天空中的天氣現象不叫 cash。"
+      ],
+      "explanation": "正確！市場只收現金，所以去提款機領錢。"
+    },
+    {
+      "number": 7,
+      "word": "As long as",
+      "meaning": "只要……；在……的條件下",
+      "usage": "用來說明一個條件成立，另一件事就可以發生。",
+      "prompt": "哪一句正確使用了「As long as」？",
+      "options": [
+        "You can join our team as long as you come to practice.",
+        "As long as is my brother nineteen years old.",
+        "The painting is as long as because it is purple.",
+        "We bought as long as at the ticket office."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確！只要來練習，就能加入團隊。",
+        "錯誤！as long as 後面需要正常的子句語序。",
+        "錯誤！這裡的 as long as 是條件片語，不能單獨當形容詞。",
+        "錯誤！片語不是可以購買的東西。"
+      ],
+      "explanation": "正確！只要來練習，就能加入團隊。"
+    },
+    {
+      "number": 8,
+      "word": "Feel the beat",
+      "meaning": "感受到音樂的節拍",
+      "usage": "聽音樂、跳舞或打鼓時感受節奏，可以使用這個片語。",
+      "prompt": "哪一句正確使用了「Feel the beat」？",
+      "options": [
+        "The doctor felt the beat of the mountain yesterday.",
+        "I felt the beat of my homework and finished it early.",
+        "We felt the beat by reading the train timetable.",
+        "The drummer played, and the crowd could feel the beat."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤！山沒有音樂節拍；此處語意不合。",
+        "錯誤！作業不會有音樂節拍。",
+        "錯誤！時刻表本身不是音樂，不能這樣描述。",
+        "正確！鼓手演奏時，人群能感受到音樂的節拍。"
+      ],
+      "explanation": "正確！鼓手演奏時，人群能感受到音樂的節拍。"
+    },
+    {
+      "number": 9,
+      "word": "Keep + -ing",
+      "meaning": "持續做某事",
+      "usage": "想強調一個動作繼續進行時使用，keep 後面接動詞 -ing。",
+      "prompt": "哪一句正確使用了「Keep + -ing」？",
+      "options": [
+        "She kept to paint the wall until midnight.",
+        "The tourists keep visit the castle every summer.",
+        "He keep danced during the whole lesson.",
+        "Even after the lights went out, the band kept playing."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤！表示持續動作時應說 kept painting。",
+        "錯誤！應說 keep visiting。",
+        "錯誤！keep 的形式與後面動詞都不對；可說 kept dancing。",
+        "正確！kept playing 表示樂團繼續演奏。"
+      ],
+      "explanation": "正確！kept playing 表示樂團繼續演奏。"
+    },
+    {
+      "number": 10,
+      "word": "Cheap thrills",
+      "meaning": "花不多錢就能得到的刺激或樂趣",
+      "usage": "談到簡單、便宜但讓人興奮的活動時使用。",
+      "prompt": "哪一句正確使用了「Cheap thrills」？",
+      "options": [
+        "The company hired three cheap thrills as new workers.",
+        "We found cheap thrills at the free outdoor concert.",
+        "I put two cheap thrills in the washing machine.",
+        "The scientist measured cheap thrills in kilometres."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤！cheap thrills 是樂趣，不是員工。",
+        "正確！免費戶外演唱會帶來不花錢的樂趣。",
+        "錯誤！cheap thrills 不是可以洗的實體物品。",
+        "錯誤！cheap thrills 不是用公里衡量的距離。"
+      ],
+      "explanation": "正確！免費戶外演唱會帶來不花錢的樂趣。"
+    }
+  ],
+  "tags": [
+    "sia",
+    "cheap thrills",
+    "dance",
+    "joy"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/cheap-thrills/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/cheap-thrills/user-cover-20261030.png",
+  "editorialRepairs": [],
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 210.9733125,
+    "audioSha256": "68db5515991b1684994d875eee487208497c1f246bc0b86a4eb4ec682231373f",
+    "timedLines": 40,
+    "untimedLines": 19,
+    "reviewStatus": "Conservative automatic line alignment. Unmatched/overlapping background lines remain bilingual without guessed timestamps; not a full manual timing certification."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Cheap Thrills_.pdf",
+      "sha256": "702bbe770c3ee5a663f369c77e51fdee0fe46033a11069435b6b8d70358dcfba"
+    },
+    "chosenListening": {
+      "filename": "Cheap_Thrills_Four_Level_Listening_Exercise.docx",
+      "sha256": "f7774eef42a4dc6acedfa8e0e1cf9b1997eb1840c1782c4578acc0269ff4ad0c"
+    },
+    "chosenVocabulary": {
+      "filename": "Cheap_Thrills_Vocabulary_Quiz.md",
+      "sha256": "afefede9bacafae941692a09893f112cd74f09a50561afaae6752cb1696deeb2"
+    },
+    "mp3": {
+      "filename": "Cheap Thrills [K_idN3P5_yk].mp3",
+      "sha256": "68db5515991b1684994d875eee487208497c1f246bc0b86a4eb4ec682231373f"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-46c12eb3-b96b-419e-957a-b39152e4b93a.png",
+    "sha256": "f6c81f35bc0f928bf02c392356db106705b208d3db5835dc55d6ec51d2e9ae42",
+    "transformations": "none",
+    "selectedOn": "2026-10-30"
+  }
+}

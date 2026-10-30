@@ -695,5 +695,260 @@ window.SONG_DIFFICULTY_DATA = {
     "genre": "Dance pop",
     "vocals": "female",
     "assessment": "Editorial listening estimate; BPM approximate; year is original song release."
+  },
+  "just-give-me-a-reason": {
+    "scores": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "bpm": 95,
+    "year": 2012,
+    "genre": "Pop ballad",
+    "vocals": "mixed",
+    "assessment": "Editorial listening estimate; approximate BPM (principal pulse; songs may change tempo); original release year."
+  },
+  "hold-my-hand": {
+    "scores": [
+      4,
+      4,
+      4,
+      4,
+      5,
+      4
+    ],
+    "bpm": 148,
+    "year": 2022,
+    "genre": "Power ballad",
+    "vocals": "female",
+    "assessment": "Editorial listening estimate; approximate BPM (principal pulse; songs may change tempo); original release year."
+  },
+  "snowman": {
+    "scores": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "bpm": 105,
+    "year": 2017,
+    "genre": "Christmas pop",
+    "vocals": "female",
+    "assessment": "Editorial listening estimate; approximate BPM (principal pulse; songs may change tempo); original release year."
+  },
+  "what-makes-you-beautiful": {
+    "scores": [
+      5,
+      5,
+      4,
+      5,
+      5,
+      4
+    ],
+    "bpm": 125,
+    "year": 2011,
+    "genre": "Power pop",
+    "vocals": "male",
+    "assessment": "Editorial listening estimate; approximate BPM (principal pulse; songs may change tempo); original release year."
+  },
+  "cheap-thrills": {
+    "scores": [
+      5,
+      5,
+      4,
+      5,
+      5,
+      4
+    ],
+    "bpm": 90,
+    "year": 2015,
+    "genre": "Dance pop",
+    "vocals": "female",
+    "assessment": "Editorial listening estimate; approximate BPM (principal pulse; songs may change tempo); original release year."
+  },
+  "rewrite-the-stars": {
+    "scores": [
+      4,
+      4,
+      5,
+      4,
+      5,
+      4
+    ],
+    "bpm": 125,
+    "year": 2017,
+    "genre": "Musical pop",
+    "vocals": "mixed",
+    "assessment": "Editorial listening estimate; approximate BPM (principal pulse; songs may change tempo); original release year."
+  },
+  "never-enough": {
+    "scores": [
+      3,
+      3,
+      4,
+      4,
+      5,
+      4
+    ],
+    "bpm": 65,
+    "year": 2017,
+    "genre": "Musical ballad",
+    "vocals": "female",
+    "assessment": "Editorial listening estimate; approximate BPM (principal pulse; songs may change tempo); original release year."
+  },
+  "clocks": {
+    "scores": [
+      5,
+      5,
+      6,
+      5,
+      5,
+      5
+    ],
+    "bpm": 131,
+    "year": 2002,
+    "genre": "Alternative rock",
+    "vocals": "male",
+    "assessment": "Editorial listening estimate; approximate BPM (principal pulse; songs may change tempo); original release year."
+  },
+  "yellow": {
+    "scores": [
+      3,
+      3,
+      4,
+      4,
+      4,
+      3
+    ],
+    "bpm": 87,
+    "year": 2000,
+    "genre": "Alternative rock",
+    "vocals": "male",
+    "assessment": "Editorial listening estimate; approximate BPM (principal pulse; songs may change tempo); original release year."
+  },
+  "wake-me-up": {
+    "scores": [
+      4,
+      4,
+      5,
+      4,
+      5,
+      4
+    ],
+    "bpm": 124,
+    "year": 2013,
+    "genre": "Folktronica",
+    "vocals": "male",
+    "assessment": "Editorial listening estimate; approximate BPM (principal pulse; songs may change tempo); original release year."
+  },
+  "just-dance": {
+    "scores": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "bpm": 119,
+    "year": 2008,
+    "genre": "Dance pop",
+    "vocals": "mixed",
+    "assessment": "Editorial listening estimate; approximate BPM (principal pulse; songs may change tempo); original release year."
+  },
+  "counting-stars": {
+    "scores": [
+      5,
+      5,
+      6,
+      5,
+      5,
+      5
+    ],
+    "bpm": 122,
+    "year": 2013,
+    "genre": "Pop rock",
+    "vocals": "male",
+    "assessment": "Editorial listening estimate; approximate BPM (principal pulse; songs may change tempo); original release year."
+  },
+  "diamonds": {
+    "scores": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "bpm": 92,
+    "year": 2012,
+    "genre": "Pop R&B",
+    "vocals": "female",
+    "assessment": "Editorial listening estimate; approximate BPM (principal pulse; songs may change tempo); original release year."
+  },
+  "believer": {
+    "scores": [
+      6,
+      6,
+      6,
+      5,
+      6,
+      5
+    ],
+    "bpm": 125,
+    "year": 2017,
+    "genre": "Pop rock",
+    "vocals": "male",
+    "assessment": "Editorial listening estimate; approximate BPM (principal pulse; songs may change tempo); original release year."
+  },
+  "we-are-young": {
+    "scores": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "bpm": 92,
+    "year": 2011,
+    "genre": "Indie pop",
+    "vocals": "mixed",
+    "assessment": "Editorial listening estimate; approximate BPM (principal pulse; songs may change tempo); original release year."
+  },
+  "this-is-me": {
+    "scores": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "bpm": 96,
+    "year": 2017,
+    "genre": "Musical pop",
+    "vocals": "female",
+    "assessment": "Editorial listening estimate; approximate BPM (principal pulse; songs may change tempo); original release year."
+  },
+  "another-day-in-paradise": {
+    "scores": [
+      4,
+      4,
+      5,
+      4,
+      4,
+      4
+    ],
+    "bpm": 102,
+    "year": 1989,
+    "genre": "Soft rock",
+    "vocals": "male",
+    "assessment": "Editorial listening estimate; approximate BPM (principal pulse; songs may change tempo); original release year."
   }
 };

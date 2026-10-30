@@ -1,0 +1,3726 @@
+{
+  "slug": "just-give-me-a-reason",
+  "title": "Just Give Me A Reason",
+  "singer": "P!nk feat. Nate Ruess",
+  "translations": [
+    {
+      "english": "(feat. Nate Ruess)",
+      "chinese": "（feat.NateRuess）",
+      "lineId": "line-1"
+    },
+    {
+      "english": "Right from the start",
+      "chinese": "從一開始",
+      "lineId": "line-2",
+      "startSeconds": 10.18,
+      "endSeconds": 11.88
+    },
+    {
+      "english": "You were a thief",
+      "chinese": "你就像個竊賊",
+      "lineId": "line-3",
+      "startSeconds": 12.16,
+      "endSeconds": 13.1
+    },
+    {
+      "english": "You stole my heart",
+      "chinese": "悄悄偷走了我的心",
+      "lineId": "line-4",
+      "startSeconds": 13.1,
+      "endSeconds": 14.72
+    },
+    {
+      "english": "And I your willing victim",
+      "chinese": "而我，心甘情願成為你的俘虜",
+      "lineId": "line-5",
+      "startSeconds": 14.72,
+      "endSeconds": 18.3
+    },
+    {
+      "english": "I let you see the parts of me",
+      "chinese": "我讓你看見了自己內心深處",
+      "lineId": "line-6",
+      "startSeconds": 18.3,
+      "endSeconds": 22.72
+    },
+    {
+      "english": "That weren't all that pretty",
+      "chinese": "那些並不那麼美好的一面",
+      "lineId": "line-7",
+      "startSeconds": 22.72,
+      "endSeconds": 24.4
+    },
+    {
+      "english": "And with every touch you fixed them",
+      "chinese": "而你每一次溫柔的觸碰，都讓那些傷痕漸漸癒合",
+      "lineId": "line-8",
+      "startSeconds": 24.4,
+      "endSeconds": 28.54
+    },
+    {
+      "english": "Now you've been talking in your sleep, oh, oh",
+      "chinese": "如今，你卻開始在睡夢中喃喃自語，噢，噢",
+      "lineId": "line-9",
+      "startSeconds": 28.54,
+      "endSeconds": 35.46
+    },
+    {
+      "english": "Things you never say to me, oh, oh",
+      "chinese": "說著那些你從未對我說出口的話，噢，噢",
+      "lineId": "line-10",
+      "startSeconds": 35.46,
+      "endSeconds": 40.58
+    },
+    {
+      "english": "Tell me that you've had enough",
+      "chinese": "告訴我，你是否已經厭倦了",
+      "lineId": "line-11",
+      "startSeconds": 40.58,
+      "endSeconds": 43.9
+    },
+    {
+      "english": "Of our love, our love",
+      "chinese": "我們之間的愛，我們的愛",
+      "lineId": "line-12",
+      "startSeconds": 43.9,
+      "endSeconds": 49.18
+    },
+    {
+      "english": "Just give me a reason",
+      "chinese": "只要給我一個理由",
+      "lineId": "line-13",
+      "startSeconds": 50.28,
+      "endSeconds": 52.54
+    },
+    {
+      "english": "Just a little bit's enough",
+      "chinese": "哪怕只有一點點，也已經足夠",
+      "lineId": "line-14",
+      "startSeconds": 52.54,
+      "endSeconds": 54.92
+    },
+    {
+      "english": "Just a second we're not broken just bent",
+      "chinese": "等一下，我們並未真正破碎，只是暫時被折彎了",
+      "lineId": "line-15",
+      "startSeconds": 54.92,
+      "endSeconds": 58.5
+    },
+    {
+      "english": "And we can learn to love again",
+      "chinese": "而我們仍能學會如何再次相愛",
+      "lineId": "line-16",
+      "startSeconds": 58.5,
+      "endSeconds": 61.04
+    },
+    {
+      "english": "It's in the stars",
+      "chinese": "這一切早已寫在星辰之中",
+      "lineId": "line-17",
+      "startSeconds": 61.04,
+      "endSeconds": 62.52
+    },
+    {
+      "english": "It's been written in the scars on our hearts",
+      "chinese": "也早已刻在我們心上的道道傷痕裡",
+      "lineId": "line-18",
+      "startSeconds": 62.82,
+      "endSeconds": 66.2
+    },
+    {
+      "english": "We're not broken just bent",
+      "chinese": "我們並未真正破碎，只是暫時被折彎了",
+      "lineId": "line-19",
+      "startSeconds": 66.52,
+      "endSeconds": 68.62
+    },
+    {
+      "english": "And we can learn to love again",
+      "chinese": "而我們仍能學會如何再次相愛",
+      "lineId": "line-20",
+      "startSeconds": 68.62,
+      "endSeconds": 71.42
+    },
+    {
+      "english": "I'm sorry I don't understand",
+      "chinese": "對不起，我真的不明白",
+      "lineId": "line-21",
+      "startSeconds": 72.66,
+      "endSeconds": 75.48
+    },
+    {
+      "english": "Where all of this is coming from",
+      "chinese": "這一切究竟是從何而來",
+      "lineId": "line-22",
+      "startSeconds": 75.48,
+      "endSeconds": 77.86
+    },
+    {
+      "english": "I thought that we were fine",
+      "chinese": "我一直以為，我們之間一切都很好",
+      "lineId": "line-23",
+      "startSeconds": 77.86,
+      "endSeconds": 81.22
+    },
+    {
+      "english": "(Oh, we had everything)",
+      "chinese": "（噢，我們曾經擁有一切）",
+      "lineId": "line-24",
+      "startSeconds": 81.22,
+      "endSeconds": 83.28
+    },
+    {
+      "english": "Your head is running wild again",
+      "chinese": "妳又開始胡思亂想了",
+      "lineId": "line-25",
+      "startSeconds": 83.28,
+      "endSeconds": 85.44
+    },
+    {
+      "english": "My dear we still have everythin'",
+      "chinese": "親愛的，我們依然擁有一切",
+      "lineId": "line-26",
+      "startSeconds": 85.78,
+      "endSeconds": 87.98
+    },
+    {
+      "english": "And it's all in your mind",
+      "chinese": "而那些問題，都只是妳心中的想像",
+      "lineId": "line-27",
+      "startSeconds": 87.98,
+      "endSeconds": 91.54
+    },
+    {
+      "english": "(Yeah, but this is happenin')",
+      "chinese": "（是啊，可這一切確實正在發生）",
+      "lineId": "line-28",
+      "startSeconds": 91.6,
+      "endSeconds": 93.76
+    },
+    {
+      "english": "You've been havin' real bad dreams, oh, oh",
+      "chinese": "妳最近總是做著可怕的惡夢，噢，噢",
+      "lineId": "line-29",
+      "startSeconds": 93.76,
+      "endSeconds": 98.58
+    },
+    {
+      "english": "You used to lie so close to me, oh, oh",
+      "chinese": "從前，妳總是緊緊依偎在我身旁，噢，噢",
+      "lineId": "line-30",
+      "startSeconds": 98.88,
+      "endSeconds": 103.7
+    },
+    {
+      "english": "There's nothing more than empty sheets",
+      "chinese": "如今，卻只剩下空蕩蕩的床單",
+      "lineId": "line-31",
+      "startSeconds": 103.7,
+      "endSeconds": 107.0
+    },
+    {
+      "english": "Between our love, our love",
+      "chinese": "橫亙在我們的愛之間，我們的愛",
+      "lineId": "line-32",
+      "startSeconds": 107.0,
+      "endSeconds": 112.1
+    },
+    {
+      "english": "Oh, our love, our love, love",
+      "chinese": "噢，我們的愛，我們的愛，愛",
+      "lineId": "line-33",
+      "startSeconds": 112.1,
+      "endSeconds": 117.84
+    },
+    {
+      "english": "Just give me a reason",
+      "chinese": "只要給我一個理由",
+      "lineId": "line-34",
+      "startSeconds": 118.78,
+      "endSeconds": 120.8
+    },
+    {
+      "english": "Just a little bit's enough",
+      "chinese": "哪怕只有一點點，也已經足夠",
+      "lineId": "line-35",
+      "startSeconds": 120.8,
+      "endSeconds": 123.12
+    },
+    {
+      "english": "Just a second we're not broken just bent",
+      "chinese": "等一下，我們並未真正破碎，只是暫時被折彎了",
+      "lineId": "line-36",
+      "startSeconds": 123.12,
+      "endSeconds": 127.26
+    },
+    {
+      "english": "And we can learn to love again",
+      "chinese": "而我們仍能學會如何再次相愛",
+      "lineId": "line-37",
+      "startSeconds": 127.26,
+      "endSeconds": 129.4
+    },
+    {
+      "english": "I never stopped",
+      "chinese": "我從未停止愛妳",
+      "lineId": "line-38",
+      "startSeconds": 129.4,
+      "endSeconds": 130.76
+    },
+    {
+      "english": "You're still written in the scars on my heart",
+      "chinese": "妳依然深深刻在我心上的每一道傷痕裡",
+      "lineId": "line-39",
+      "startSeconds": 130.76,
+      "endSeconds": 134.3
+    },
+    {
+      "english": "You're not broken just bent",
+      "chinese": "妳並未真正破碎，只是暫時被折彎了",
+      "lineId": "line-40",
+      "startSeconds": 134.3,
+      "endSeconds": 137.32
+    },
+    {
+      "english": "And we can learn to love again",
+      "chinese": "而我們仍能學會如何再次相愛",
+      "lineId": "line-41",
+      "startSeconds": 137.32,
+      "endSeconds": 139.72
+    },
+    {
+      "english": "Oh, tear ducts and rust",
+      "chinese": "噢，淚腺與鏽蝕",
+      "lineId": "line-42"
+    },
+    {
+      "english": "I'll fix it for us",
+      "chinese": "我會為了我們，努力修復這一切",
+      "lineId": "line-43",
+      "startSeconds": 142.18,
+      "endSeconds": 144.0
+    },
+    {
+      "english": "We're collecting dust",
+      "chinese": "我們的感情正漸漸蒙上塵埃",
+      "lineId": "line-44",
+      "startSeconds": 144.48,
+      "endSeconds": 147.14
+    },
+    {
+      "english": "But our love's enough",
+      "chinese": "但我們的愛，仍然足以支撐一切",
+      "lineId": "line-45",
+      "startSeconds": 147.14,
+      "endSeconds": 149.2
+    },
+    {
+      "english": "You're holding it in",
+      "chinese": "妳把所有情緒都壓抑在心裡",
+      "lineId": "line-46"
+    },
+    {
+      "english": "You're pouring a drink",
+      "chinese": "妳正倒著酒，試圖排遣心中的苦悶",
+      "lineId": "line-47",
+      "startSeconds": 151.98,
+      "endSeconds": 154.96
+    },
+    {
+      "english": "No nothing is as bad as it seems",
+      "chinese": "不，事情並沒有看起來那麼糟糕",
+      "lineId": "line-48",
+      "startSeconds": 154.96,
+      "endSeconds": 161.74
+    },
+    {
+      "english": "We'll come clean",
+      "chinese": "我們終將坦誠面對彼此",
+      "lineId": "line-49",
+      "startSeconds": 161.74,
+      "endSeconds": 163.92
+    },
+    {
+      "english": "Just give me a reason",
+      "chinese": "只要給我一個理由",
+      "lineId": "line-50",
+      "startSeconds": 163.92,
+      "endSeconds": 166.24
+    },
+    {
+      "english": "Just a little bit's enough",
+      "chinese": "哪怕只有一點點，也已經足夠",
+      "lineId": "line-51",
+      "startSeconds": 166.24,
+      "endSeconds": 168.6
+    },
+    {
+      "english": "Just a second we're not broken just bent",
+      "chinese": "等一下，我們並未真正破碎，只是暫時被折彎了",
+      "lineId": "line-52",
+      "startSeconds": 168.6,
+      "endSeconds": 172.26
+    },
+    {
+      "english": "And we can learn to love again",
+      "chinese": "而我們仍能學會如何再次相愛",
+      "lineId": "line-53",
+      "startSeconds": 172.26,
+      "endSeconds": 174.94
+    },
+    {
+      "english": "It's in the stars",
+      "chinese": "這一切早已寫在星辰之中",
+      "lineId": "line-54",
+      "startSeconds": 174.94,
+      "endSeconds": 176.22
+    },
+    {
+      "english": "It's been written in the scars on our hearts",
+      "chinese": "也早已刻在我們心上的道道傷痕裡",
+      "lineId": "line-55",
+      "startSeconds": 176.22,
+      "endSeconds": 179.86
+    },
+    {
+      "english": "That we're not broken just bent ",
+      "chinese": "那些傷痕訴說著：我們並未破碎，只是暫時被折彎了",
+      "lineId": "line-56",
+      "startSeconds": 179.86,
+      "endSeconds": 182.28
+    },
+    {
+      "english": "And we can learn to love again",
+      "chinese": "而我們仍能學會如何再次相愛",
+      "lineId": "line-57",
+      "startSeconds": 182.28,
+      "endSeconds": 184.82
+    },
+    {
+      "english": "Just give me a reason",
+      "chinese": "只要給我一個理由",
+      "lineId": "line-58",
+      "startSeconds": 184.82,
+      "endSeconds": 186.48
+    },
+    {
+      "english": "Just a little bit's enough",
+      "chinese": "哪怕只有一點點，也已經足夠",
+      "lineId": "line-59",
+      "startSeconds": 186.48,
+      "endSeconds": 188.8
+    },
+    {
+      "english": "Just a second we're not broken just bent",
+      "chinese": "等一下，我們並未真正破碎，只是暫時被折彎了",
+      "lineId": "line-60",
+      "startSeconds": 188.8,
+      "endSeconds": 192.9
+    },
+    {
+      "english": "And we can learn to love again",
+      "chinese": "而我們仍能學會如何再次相愛",
+      "lineId": "line-61"
+    },
+    {
+      "english": "It's in the stars",
+      "chinese": "這一切早已寫在星辰之中",
+      "lineId": "line-62",
+      "startSeconds": 195.08,
+      "endSeconds": 196.44
+    },
+    {
+      "english": "It's still written in the scars on our hearts",
+      "chinese": "直到如今，仍深深刻在我們心上的道道傷痕裡",
+      "lineId": "line-63",
+      "startSeconds": 196.94,
+      "endSeconds": 200.02
+    },
+    {
+      "english": "That we're not broken just bent ",
+      "chinese": "那些傷痕訴說著：我們並未破碎，只是暫時被折彎了",
+      "lineId": "line-64",
+      "startSeconds": 200.02,
+      "endSeconds": 203.0
+    },
+    {
+      "english": "And we can learn to love again",
+      "chinese": "而我們仍能學會如何再次相愛",
+      "lineId": "line-65"
+    },
+    {
+      "english": "Oh-oh, we can learn to love again",
+      "chinese": "噢——噢，我們仍能學會如何再次相愛",
+      "lineId": "line-66",
+      "startSeconds": 207.9,
+      "endSeconds": 211.14
+    },
+    {
+      "english": "Oh-oh, can learn to love again",
+      "chinese": "噢——噢，仍能學會如何再次相愛",
+      "lineId": "line-67",
+      "startSeconds": 211.14,
+      "endSeconds": 215.78
+    },
+    {
+      "english": "Oh, oh, that we're not broken just bent",
+      "chinese": "噢，噢，我們並未真正破碎，只是暫時被折彎了",
+      "lineId": "line-68",
+      "startSeconds": 219.04,
+      "endSeconds": 222.82
+    },
+    {
+      "english": "And we can learn to love again",
+      "chinese": "而我們仍能學會如何再次相愛",
+      "lineId": "line-69"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-2",
+          "answer": "Right from the start",
+          "options": [
+            "Right from the end",
+            "Back at the start",
+            "Right from the start"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "從一開始"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "a thief",
+          "options": [
+            "a thief",
+            "a fool",
+            "a friend"
+          ],
+          "prompt": "You were {{blank}}",
+          "promptZh": "你就像個竊賊"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-4",
+          "answer": "stole my heart",
+          "options": [
+            "broke my heart",
+            "held my hand",
+            "stole my heart"
+          ],
+          "prompt": "You {{blank}}",
+          "promptZh": "悄悄偷走了我的心"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-5",
+          "answer": "willing victim",
+          "options": [
+            "silent witness",
+            "willing victim",
+            "faithful lover"
+          ],
+          "prompt": "And I your {{blank}}",
+          "promptZh": "而我，心甘情願成為你的俘虜"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-6",
+          "answer": "the parts of me",
+          "options": [
+            "the best in me",
+            "the parts of me",
+            "the rest of me"
+          ],
+          "prompt": "I let you see {{blank}}",
+          "promptZh": "我讓你看見了自己內心深處"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "weren't all that pretty",
+          "options": [
+            "weren't really ready",
+            "were always so lovely",
+            "weren't all that pretty"
+          ],
+          "prompt": "That {{blank}}",
+          "promptZh": "那些並不那麼美好的一面"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "with every touch",
+          "options": [
+            "with every word",
+            "with every touch",
+            "with every kiss"
+          ],
+          "prompt": "And {{blank}} you fixed them",
+          "promptZh": "而你每一次溫柔的觸碰，都讓那些傷痕漸漸癒合"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-9",
+          "answer": "talking in your sleep",
+          "options": [
+            "crying in the night",
+            "walking in your dreams",
+            "talking in your sleep"
+          ],
+          "prompt": "Now you've been {{blank}}, oh, oh",
+          "promptZh": "如今，你卻開始在睡夢中喃喃自語，噢，噢"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-10",
+          "answer": "never say to me",
+          "options": [
+            "always say to me",
+            "never say to me",
+            "used to say to me"
+          ],
+          "prompt": "Things you {{blank}}, oh, oh",
+          "promptZh": "說著那些你從未對我說出口的話，噢，噢"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-11",
+          "answer": "you've had enough",
+          "options": [
+            "you've had a dream",
+            "you've had enough",
+            "you've lost your way"
+          ],
+          "prompt": "Tell me that {{blank}}",
+          "promptZh": "告訴我，你是否已經厭倦了"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-12",
+          "answer": "our love",
+          "options": [
+            "this life",
+            "your heart",
+            "our love"
+          ],
+          "prompt": "Of {{blank}}, our love",
+          "promptZh": "我們之間的愛，我們的愛"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-13",
+          "answer": "give me a reason",
+          "options": [
+            "give me a reason",
+            "show me the answer",
+            "tell me a secret"
+          ],
+          "prompt": "Just {{blank}}",
+          "promptZh": "只要給我一個理由"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-14",
+          "answer": "a little bit's enough",
+          "options": [
+            "a little bit's enough",
+            "a single word is enough",
+            "another night is enough"
+          ],
+          "prompt": "Just {{blank}}",
+          "promptZh": "哪怕只有一點點，也已經足夠"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-15",
+          "answer": "we're not broken just bent",
+          "options": [
+            "we are falling apart",
+            "we're not broken just bent",
+            "we're still holding our breath"
+          ],
+          "prompt": "Just a second {{blank}}",
+          "promptZh": "等一下，我們並未真正破碎，只是暫時被折彎了"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-16",
+          "answer": "learn to love again",
+          "options": [
+            "learn to love again",
+            "learn to live alone",
+            "try to start again"
+          ],
+          "prompt": "And we can {{blank}}",
+          "promptZh": "而我們仍能學會如何再次相愛"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-17",
+          "answer": "in the stars",
+          "options": [
+            "in the stars",
+            "in the rain",
+            "on the ground"
+          ],
+          "prompt": "It's {{blank}}",
+          "promptZh": "這一切早已寫在星辰之中"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "scars on our hearts",
+          "options": [
+            "marks on our hands",
+            "words in our songs",
+            "scars on our hearts"
+          ],
+          "prompt": "It's been written in the {{blank}}",
+          "promptZh": "也早已刻在我們心上的道道傷痕裡"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "not broken just bent",
+          "options": [
+            "not ready to leave",
+            "not broken just bent",
+            "still holding on tight"
+          ],
+          "prompt": "We're {{blank}}",
+          "promptZh": "我們並未真正破碎，只是暫時被折彎了"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-21",
+          "answer": "I don't understand",
+          "options": [
+            "I don't understand",
+            "I can't forget",
+            "I won't pretend"
+          ],
+          "prompt": "I'm sorry {{blank}}",
+          "promptZh": "對不起，我真的不明白"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-22",
+          "answer": "coming from",
+          "options": [
+            "coming from",
+            "falling down",
+            "going wrong"
+          ],
+          "prompt": "Where all of this is {{blank}}",
+          "promptZh": "這一切究竟是從何而來"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "(feat. Nate Ruess)"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You were {{q:2}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You {{q:3}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "And I your {{q:4}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I let you see {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "That {{q:6}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And {{q:7}} you fixed them"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Now you've been {{q:8}}, oh, oh"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Things you {{q:9}}, oh, oh"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Tell me that {{q:10}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Of {{q:11}}, our love"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Just {{q:12}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Just {{q:13}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Just a second {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And we can {{q:15}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "It's {{q:16}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "It's been written in the {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "We're {{q:18}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I'm sorry {{q:19}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Where all of this is {{q:20}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I thought that we were fine"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "(Oh, we had everything)"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Your head is running wild again"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "My dear we still have everythin'"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And it's all in your mind"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "(Yeah, but this is happenin')"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "You've been havin' real bad dreams, oh, oh"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You used to lie so close to me, oh, oh"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "There's nothing more than empty sheets"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Between our love, our love"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Oh, our love, our love, love"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Just give me a reason"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Just a little bit's enough"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Just a second we're not broken just bent"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I never stopped"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "You're still written in the scars on my heart"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You're not broken just bent"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Oh, tear ducts and rust"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I'll fix it for us"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "We're collecting dust"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "But our love's enough"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "You're holding it in"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "You're pouring a drink"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "No nothing is as bad as it seems"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "We'll come clean"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Just give me a reason"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Just a little bit's enough"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Just a second we're not broken just bent"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "It's in the stars"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "It's been written in the scars on our hearts"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "That we're not broken just bent "
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Just give me a reason"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Just a little bit's enough"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Just a second we're not broken just bent"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "It's in the stars"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "It's still written in the scars on our hearts"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "That we're not broken just bent "
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "Oh-oh, we can learn to love again"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Oh-oh, can learn to love again"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Oh, oh, that we're not broken just bent"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "And we can learn to love again"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-2",
+          "answer": "Right from the start",
+          "options": [
+            "Right from the end",
+            "Back at the start",
+            "Right from the start"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "從一開始"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "a thief",
+          "options": [
+            "a fool",
+            "a thief",
+            "a friend"
+          ],
+          "prompt": "You were {{blank}}",
+          "promptZh": "你就像個竊賊"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-4",
+          "answer": "stole my heart",
+          "options": [
+            "broke my heart",
+            "held my hand",
+            "stole my heart"
+          ],
+          "prompt": "You {{blank}}",
+          "promptZh": "悄悄偷走了我的心"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-5",
+          "answer": "willing victim",
+          "options": [
+            "silent witness",
+            "willing victim",
+            "faithful lover"
+          ],
+          "prompt": "And I your {{blank}}",
+          "promptZh": "而我，心甘情願成為你的俘虜"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-6",
+          "answer": "the parts of me",
+          "options": [
+            "the best in me",
+            "the parts of me",
+            "the rest of me"
+          ],
+          "prompt": "I let you see {{blank}}",
+          "promptZh": "我讓你看見了自己內心深處"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "weren't all that pretty",
+          "options": [
+            "weren't all that pretty",
+            "weren't really ready",
+            "were always so lovely"
+          ],
+          "prompt": "That {{blank}}",
+          "promptZh": "那些並不那麼美好的一面"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "with every touch",
+          "options": [
+            "with every word",
+            "with every touch",
+            "with every kiss"
+          ],
+          "prompt": "And {{blank}} you fixed them",
+          "promptZh": "而你每一次溫柔的觸碰，都讓那些傷痕漸漸癒合"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-9",
+          "answer": "talking in your sleep",
+          "options": [
+            "crying in the night",
+            "walking in your dreams",
+            "talking in your sleep"
+          ],
+          "prompt": "Now you've been {{blank}}, oh, oh",
+          "promptZh": "如今，你卻開始在睡夢中喃喃自語，噢，噢"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-10",
+          "answer": "never say to me",
+          "options": [
+            "always say to me",
+            "used to say to me",
+            "never say to me"
+          ],
+          "prompt": "Things you {{blank}}, oh, oh",
+          "promptZh": "說著那些你從未對我說出口的話，噢，噢"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-11",
+          "answer": "you've had enough",
+          "options": [
+            "you've had a dream",
+            "you've had enough",
+            "you've lost your way"
+          ],
+          "prompt": "Tell me that {{blank}}",
+          "promptZh": "告訴我，你是否已經厭倦了"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-12",
+          "answer": "our love",
+          "options": [
+            "this life",
+            "our love",
+            "your heart"
+          ],
+          "prompt": "Of {{blank}}, our love",
+          "promptZh": "我們之間的愛，我們的愛"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-13",
+          "answer": "give me a reason",
+          "options": [
+            "give me a reason",
+            "show me the answer",
+            "tell me a secret"
+          ],
+          "prompt": "Just {{blank}}",
+          "promptZh": "只要給我一個理由"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-14",
+          "answer": "a little bit's enough",
+          "options": [
+            "a little bit's enough",
+            "a single word is enough",
+            "another night is enough"
+          ],
+          "prompt": "Just {{blank}}",
+          "promptZh": "哪怕只有一點點，也已經足夠"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-15",
+          "answer": "we're not broken just bent",
+          "options": [
+            "we are falling apart",
+            "we're not broken just bent",
+            "we're still holding our breath"
+          ],
+          "prompt": "Just a second {{blank}}",
+          "promptZh": "等一下，我們並未真正破碎，只是暫時被折彎了"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-16",
+          "answer": "learn to love again",
+          "options": [
+            "learn to love again",
+            "learn to live alone",
+            "try to start again"
+          ],
+          "prompt": "And we can {{blank}}",
+          "promptZh": "而我們仍能學會如何再次相愛"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-17",
+          "answer": "in the stars",
+          "options": [
+            "in the stars",
+            "in the rain",
+            "on the ground"
+          ],
+          "prompt": "It's {{blank}}",
+          "promptZh": "這一切早已寫在星辰之中"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "scars on our hearts",
+          "options": [
+            "marks on our hands",
+            "scars on our hearts",
+            "words in our songs"
+          ],
+          "prompt": "It's been written in the {{blank}}",
+          "promptZh": "也早已刻在我們心上的道道傷痕裡"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "not broken just bent",
+          "options": [
+            "not broken just bent",
+            "not ready to leave",
+            "still holding on tight"
+          ],
+          "prompt": "We're {{blank}}",
+          "promptZh": "我們並未真正破碎，只是暫時被折彎了"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-21",
+          "answer": "I don't understand",
+          "options": [
+            "I can't forget",
+            "I won't pretend",
+            "I don't understand"
+          ],
+          "prompt": "I'm sorry {{blank}}",
+          "promptZh": "對不起，我真的不明白"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-22",
+          "answer": "coming from",
+          "options": [
+            "coming from",
+            "falling down",
+            "going wrong"
+          ],
+          "prompt": "Where all of this is {{blank}}",
+          "promptZh": "這一切究竟是從何而來"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-23",
+          "answer": "we were fine",
+          "options": [
+            "we were fine",
+            "we were lost",
+            "you were mine"
+          ],
+          "prompt": "I thought that {{blank}}",
+          "promptZh": "我一直以為，我們之間一切都很好"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-24",
+          "answer": "we had everything",
+          "options": [
+            "we lost everything",
+            "we need something",
+            "we had everything"
+          ],
+          "prompt": "(Oh, {{blank}})",
+          "promptZh": "（噢，我們曾經擁有一切）"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-25",
+          "answer": "running wild again",
+          "options": [
+            "running wild again",
+            "falling down again",
+            "turning round again"
+          ],
+          "prompt": "Your head is {{blank}}",
+          "promptZh": "妳又開始胡思亂想了"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-26",
+          "answer": "we still have everythin'",
+          "options": [
+            "we never had anything",
+            "we still have everythin'",
+            "we lost our only chance"
+          ],
+          "prompt": "My dear {{blank}}",
+          "promptZh": "親愛的，我們依然擁有一切"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-27",
+          "answer": "all in your mind",
+          "options": [
+            "out of your hands",
+            "deep in your heart",
+            "all in your mind"
+          ],
+          "prompt": "And it's {{blank}}",
+          "promptZh": "而那些問題，都只是妳心中的想像"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-28",
+          "answer": "this is happenin'",
+          "options": [
+            "this is happenin'",
+            "nothing is happening",
+            "this is changing"
+          ],
+          "prompt": "(Yeah, but {{blank}})",
+          "promptZh": "（是啊，可這一切確實正在發生）"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-29",
+          "answer": "real bad dreams",
+          "options": [
+            "long dark nights",
+            "strange new feelings",
+            "real bad dreams"
+          ],
+          "prompt": "You've been havin' {{blank}}, oh, oh",
+          "promptZh": "妳最近總是做著可怕的惡夢，噢，噢"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-30",
+          "answer": "lie so close to me",
+          "options": [
+            "lie so close to me",
+            "stand so far from me",
+            "talk so sweet to me"
+          ],
+          "prompt": "You used to {{blank}}, oh, oh",
+          "promptZh": "從前，妳總是緊緊依偎在我身旁，噢，噢"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-31",
+          "answer": "empty sheets",
+          "options": [
+            "silent streets",
+            "broken dreams",
+            "empty sheets"
+          ],
+          "prompt": "There's nothing more than {{blank}}",
+          "promptZh": "如今，卻只剩下空蕩蕩的床單"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-32",
+          "answer": "Between our love",
+          "options": [
+            "Beyond our reach",
+            "Inside our hearts",
+            "Between our love"
+          ],
+          "prompt": "{{blank}}, our love",
+          "promptZh": "橫亙在我們的愛之間，我們的愛"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-33",
+          "answer": "our love, our love",
+          "options": [
+            "your life, your life",
+            "our love, our love",
+            "our time, our time"
+          ],
+          "prompt": "Oh, {{blank}}, love",
+          "promptZh": "噢，我們的愛，我們的愛，愛"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-34",
+          "answer": "give me a reason",
+          "options": [
+            "show me a sign",
+            "give me a reason",
+            "give me an answer"
+          ],
+          "prompt": "Just {{blank}}",
+          "promptZh": "只要給我一個理由"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "(feat. Nate Ruess)"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You were {{q:2}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You {{q:3}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "And I your {{q:4}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I let you see {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "That {{q:6}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And {{q:7}} you fixed them"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Now you've been {{q:8}}, oh, oh"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Things you {{q:9}}, oh, oh"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Tell me that {{q:10}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Of {{q:11}}, our love"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Just {{q:12}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Just {{q:13}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Just a second {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And we can {{q:15}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "It's {{q:16}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "It's been written in the {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "We're {{q:18}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I'm sorry {{q:19}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Where all of this is {{q:20}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I thought that {{q:21}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "(Oh, {{q:22}})"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Your head is {{q:23}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "My dear {{q:24}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And it's {{q:25}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "(Yeah, but {{q:26}})"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "You've been havin' {{q:27}}, oh, oh"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You used to {{q:28}}, oh, oh"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "There's nothing more than {{q:29}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:30}}, our love"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Oh, {{q:31}}, love"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Just {{q:32}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Just a little bit's enough"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Just a second we're not broken just bent"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I never stopped"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "You're still written in the scars on my heart"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You're not broken just bent"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Oh, tear ducts and rust"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I'll fix it for us"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "We're collecting dust"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "But our love's enough"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "You're holding it in"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "You're pouring a drink"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "No nothing is as bad as it seems"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "We'll come clean"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Just give me a reason"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Just a little bit's enough"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Just a second we're not broken just bent"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "It's in the stars"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "It's been written in the scars on our hearts"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "That we're not broken just bent "
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Just give me a reason"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Just a little bit's enough"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Just a second we're not broken just bent"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "It's in the stars"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "It's still written in the scars on our hearts"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "That we're not broken just bent "
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "Oh-oh, we can learn to love again"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Oh-oh, can learn to love again"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Oh, oh, that we're not broken just bent"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "And we can learn to love again"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-2",
+          "answer": "Right from the start",
+          "options": [
+            "Right from the start",
+            "Right from the end",
+            "Back at the start"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "從一開始"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "a thief",
+          "options": [
+            "a fool",
+            "a friend",
+            "a thief"
+          ],
+          "prompt": "You were {{blank}}",
+          "promptZh": "你就像個竊賊"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-4",
+          "answer": "stole my heart",
+          "options": [
+            "broke my heart",
+            "held my hand",
+            "stole my heart"
+          ],
+          "prompt": "You {{blank}}",
+          "promptZh": "悄悄偷走了我的心"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-5",
+          "answer": "willing victim",
+          "options": [
+            "silent witness",
+            "willing victim",
+            "faithful lover"
+          ],
+          "prompt": "And I your {{blank}}",
+          "promptZh": "而我，心甘情願成為你的俘虜"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-6",
+          "answer": "the parts of me",
+          "options": [
+            "the best in me",
+            "the rest of me",
+            "the parts of me"
+          ],
+          "prompt": "I let you see {{blank}}",
+          "promptZh": "我讓你看見了自己內心深處"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "weren't all that pretty",
+          "options": [
+            "weren't all that pretty",
+            "weren't really ready",
+            "were always so lovely"
+          ],
+          "prompt": "That {{blank}}",
+          "promptZh": "那些並不那麼美好的一面"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "with every touch",
+          "options": [
+            "with every word",
+            "with every touch",
+            "with every kiss"
+          ],
+          "prompt": "And {{blank}} you fixed them",
+          "promptZh": "而你每一次溫柔的觸碰，都讓那些傷痕漸漸癒合"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-9",
+          "answer": "talking in your sleep",
+          "options": [
+            "crying in the night",
+            "talking in your sleep",
+            "walking in your dreams"
+          ],
+          "prompt": "Now you've been {{blank}}, oh, oh",
+          "promptZh": "如今，你卻開始在睡夢中喃喃自語，噢，噢"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-10",
+          "answer": "never say to me",
+          "options": [
+            "never say to me",
+            "always say to me",
+            "used to say to me"
+          ],
+          "prompt": "Things you {{blank}}, oh, oh",
+          "promptZh": "說著那些你從未對我說出口的話，噢，噢"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-11",
+          "answer": "you've had enough",
+          "options": [
+            "you've had a dream",
+            "you've lost your way",
+            "you've had enough"
+          ],
+          "prompt": "Tell me that {{blank}}",
+          "promptZh": "告訴我，你是否已經厭倦了"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-12",
+          "answer": "our love",
+          "options": [
+            "this life",
+            "our love",
+            "your heart"
+          ],
+          "prompt": "Of {{blank}}, our love",
+          "promptZh": "我們之間的愛，我們的愛"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-13",
+          "answer": "give me a reason",
+          "options": [
+            "show me the answer",
+            "tell me a secret",
+            "give me a reason"
+          ],
+          "prompt": "Just {{blank}}",
+          "promptZh": "只要給我一個理由"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-14",
+          "answer": "a little bit's enough",
+          "options": [
+            "a little bit's enough",
+            "a single word is enough",
+            "another night is enough"
+          ],
+          "prompt": "Just {{blank}}",
+          "promptZh": "哪怕只有一點點，也已經足夠"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-15",
+          "answer": "we're not broken just bent",
+          "options": [
+            "we are falling apart",
+            "we're still holding our breath",
+            "we're not broken just bent"
+          ],
+          "prompt": "Just a second {{blank}}",
+          "promptZh": "等一下，我們並未真正破碎，只是暫時被折彎了"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-16",
+          "answer": "learn to love again",
+          "options": [
+            "learn to love again",
+            "learn to live alone",
+            "try to start again"
+          ],
+          "prompt": "And we can {{blank}}",
+          "promptZh": "而我們仍能學會如何再次相愛"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-17",
+          "answer": "in the stars",
+          "options": [
+            "in the rain",
+            "in the stars",
+            "on the ground"
+          ],
+          "prompt": "It's {{blank}}",
+          "promptZh": "這一切早已寫在星辰之中"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "scars on our hearts",
+          "options": [
+            "scars on our hearts",
+            "marks on our hands",
+            "words in our songs"
+          ],
+          "prompt": "It's been written in the {{blank}}",
+          "promptZh": "也早已刻在我們心上的道道傷痕裡"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "not broken just bent",
+          "options": [
+            "not ready to leave",
+            "still holding on tight",
+            "not broken just bent"
+          ],
+          "prompt": "We're {{blank}}",
+          "promptZh": "我們並未真正破碎，只是暫時被折彎了"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-21",
+          "answer": "I don't understand",
+          "options": [
+            "I can't forget",
+            "I don't understand",
+            "I won't pretend"
+          ],
+          "prompt": "I'm sorry {{blank}}",
+          "promptZh": "對不起，我真的不明白"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-22",
+          "answer": "coming from",
+          "options": [
+            "falling down",
+            "going wrong",
+            "coming from"
+          ],
+          "prompt": "Where all of this is {{blank}}",
+          "promptZh": "這一切究竟是從何而來"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-23",
+          "answer": "we were fine",
+          "options": [
+            "we were lost",
+            "we were fine",
+            "you were mine"
+          ],
+          "prompt": "I thought that {{blank}}",
+          "promptZh": "我一直以為，我們之間一切都很好"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-24",
+          "answer": "we had everything",
+          "options": [
+            "we lost everything",
+            "we need something",
+            "we had everything"
+          ],
+          "prompt": "(Oh, {{blank}})",
+          "promptZh": "（噢，我們曾經擁有一切）"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-25",
+          "answer": "running wild again",
+          "options": [
+            "running wild again",
+            "falling down again",
+            "turning round again"
+          ],
+          "prompt": "Your head is {{blank}}",
+          "promptZh": "妳又開始胡思亂想了"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-26",
+          "answer": "we still have everythin'",
+          "options": [
+            "we never had anything",
+            "we still have everythin'",
+            "we lost our only chance"
+          ],
+          "prompt": "My dear {{blank}}",
+          "promptZh": "親愛的，我們依然擁有一切"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-27",
+          "answer": "all in your mind",
+          "options": [
+            "all in your mind",
+            "out of your hands",
+            "deep in your heart"
+          ],
+          "prompt": "And it's {{blank}}",
+          "promptZh": "而那些問題，都只是妳心中的想像"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-28",
+          "answer": "this is happenin'",
+          "options": [
+            "nothing is happening",
+            "this is happenin'",
+            "this is changing"
+          ],
+          "prompt": "(Yeah, but {{blank}})",
+          "promptZh": "（是啊，可這一切確實正在發生）"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-29",
+          "answer": "real bad dreams",
+          "options": [
+            "real bad dreams",
+            "long dark nights",
+            "strange new feelings"
+          ],
+          "prompt": "You've been havin' {{blank}}, oh, oh",
+          "promptZh": "妳最近總是做著可怕的惡夢，噢，噢"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-30",
+          "answer": "lie so close to me",
+          "options": [
+            "stand so far from me",
+            "talk so sweet to me",
+            "lie so close to me"
+          ],
+          "prompt": "You used to {{blank}}, oh, oh",
+          "promptZh": "從前，妳總是緊緊依偎在我身旁，噢，噢"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-31",
+          "answer": "empty sheets",
+          "options": [
+            "silent streets",
+            "empty sheets",
+            "broken dreams"
+          ],
+          "prompt": "There's nothing more than {{blank}}",
+          "promptZh": "如今，卻只剩下空蕩蕩的床單"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-32",
+          "answer": "Between our love",
+          "options": [
+            "Between our love",
+            "Beyond our reach",
+            "Inside our hearts"
+          ],
+          "prompt": "{{blank}}, our love",
+          "promptZh": "橫亙在我們的愛之間，我們的愛"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-33",
+          "answer": "our love, our love",
+          "options": [
+            "our love, our love",
+            "your life, your life",
+            "our time, our time"
+          ],
+          "prompt": "Oh, {{blank}}, love",
+          "promptZh": "噢，我們的愛，我們的愛，愛"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-34",
+          "answer": "give me a reason",
+          "options": [
+            "show me a sign",
+            "give me a reason",
+            "give me an answer"
+          ],
+          "prompt": "Just {{blank}}",
+          "promptZh": "只要給我一個理由"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-35",
+          "answer": "a little bit's enough",
+          "options": [
+            "a little time will help",
+            "a little bit's enough",
+            "another chance is gone"
+          ],
+          "prompt": "Just {{blank}}",
+          "promptZh": "哪怕只有一點點，也已經足夠"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-36",
+          "answer": "just bent",
+          "options": [
+            "too late",
+            "still lost",
+            "just bent"
+          ],
+          "prompt": "Just a second we're not broken {{blank}}",
+          "promptZh": "等一下，我們並未真正破碎，只是暫時被折彎了"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-37",
+          "answer": "learn to love again",
+          "options": [
+            "learn to love again",
+            "learn to walk away",
+            "learn to trust again"
+          ],
+          "prompt": "And we can {{blank}}",
+          "promptZh": "而我們仍能學會如何再次相愛"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-38",
+          "answer": "never stopped",
+          "options": [
+            "never stopped",
+            "never knew",
+            "always tried"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我從未停止愛妳"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-39",
+          "answer": "scars on my heart",
+          "options": [
+            "words on my mind",
+            "lines on my face",
+            "scars on my heart"
+          ],
+          "prompt": "You're still written in the {{blank}}",
+          "promptZh": "妳依然深深刻在我心上的每一道傷痕裡"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-40",
+          "answer": "not broken just bent",
+          "options": [
+            "still waiting for love",
+            "not broken just bent",
+            "not ready to go"
+          ],
+          "prompt": "You're {{blank}}",
+          "promptZh": "妳並未真正破碎，只是暫時被折彎了"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-41",
+          "answer": "love again",
+          "options": [
+            "love again",
+            "live alone",
+            "start anew"
+          ],
+          "prompt": "And we can learn to {{blank}}",
+          "promptZh": "而我們仍能學會如何再次相愛"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-42",
+          "answer": "tear ducts and rust",
+          "options": [
+            "cold nights and rain",
+            "lost dreams and dust",
+            "tear ducts and rust"
+          ],
+          "prompt": "Oh, {{blank}}",
+          "promptZh": "噢，淚腺與鏽蝕"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "(feat. Nate Ruess)"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You were {{q:2}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You {{q:3}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "And I your {{q:4}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I let you see {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "That {{q:6}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And {{q:7}} you fixed them"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Now you've been {{q:8}}, oh, oh"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Things you {{q:9}}, oh, oh"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Tell me that {{q:10}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Of {{q:11}}, our love"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Just {{q:12}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Just {{q:13}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Just a second {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And we can {{q:15}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "It's {{q:16}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "It's been written in the {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "We're {{q:18}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I'm sorry {{q:19}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Where all of this is {{q:20}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I thought that {{q:21}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "(Oh, {{q:22}})"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Your head is {{q:23}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "My dear {{q:24}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And it's {{q:25}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "(Yeah, but {{q:26}})"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "You've been havin' {{q:27}}, oh, oh"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You used to {{q:28}}, oh, oh"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "There's nothing more than {{q:29}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:30}}, our love"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Oh, {{q:31}}, love"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Just {{q:32}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Just {{q:33}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Just a second we're not broken {{q:34}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And we can {{q:35}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I {{q:36}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "You're still written in the {{q:37}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You're {{q:38}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "And we can learn to {{q:39}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Oh, {{q:40}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I'll fix it for us"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "We're collecting dust"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "But our love's enough"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "You're holding it in"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "You're pouring a drink"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "No nothing is as bad as it seems"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "We'll come clean"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Just give me a reason"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Just a little bit's enough"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Just a second we're not broken just bent"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "It's in the stars"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "It's been written in the scars on our hearts"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "That we're not broken just bent "
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Just give me a reason"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Just a little bit's enough"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Just a second we're not broken just bent"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "It's in the stars"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "It's still written in the scars on our hearts"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "That we're not broken just bent "
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "Oh-oh, we can learn to love again"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Oh-oh, can learn to love again"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Oh, oh, that we're not broken just bent"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "And we can learn to love again"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-2",
+          "answer": "Right from the start",
+          "options": [
+            "Right from the start",
+            "Right from the end",
+            "Back at the start"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "從一開始"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "a thief",
+          "options": [
+            "a thief",
+            "a fool",
+            "a friend"
+          ],
+          "prompt": "You were {{blank}}",
+          "promptZh": "你就像個竊賊"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-4",
+          "answer": "stole my heart",
+          "options": [
+            "broke my heart",
+            "held my hand",
+            "stole my heart"
+          ],
+          "prompt": "You {{blank}}",
+          "promptZh": "悄悄偷走了我的心"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-5",
+          "answer": "willing victim",
+          "options": [
+            "silent witness",
+            "faithful lover",
+            "willing victim"
+          ],
+          "prompt": "And I your {{blank}}",
+          "promptZh": "而我，心甘情願成為你的俘虜"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-6",
+          "answer": "the parts of me",
+          "options": [
+            "the best in me",
+            "the parts of me",
+            "the rest of me"
+          ],
+          "prompt": "I let you see {{blank}}",
+          "promptZh": "我讓你看見了自己內心深處"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "weren't all that pretty",
+          "options": [
+            "weren't all that pretty",
+            "weren't really ready",
+            "were always so lovely"
+          ],
+          "prompt": "That {{blank}}",
+          "promptZh": "那些並不那麼美好的一面"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "with every touch",
+          "options": [
+            "with every touch",
+            "with every word",
+            "with every kiss"
+          ],
+          "prompt": "And {{blank}} you fixed them",
+          "promptZh": "而你每一次溫柔的觸碰，都讓那些傷痕漸漸癒合"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-9",
+          "answer": "talking in your sleep",
+          "options": [
+            "crying in the night",
+            "talking in your sleep",
+            "walking in your dreams"
+          ],
+          "prompt": "Now you've been {{blank}}, oh, oh",
+          "promptZh": "如今，你卻開始在睡夢中喃喃自語，噢，噢"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-10",
+          "answer": "never say to me",
+          "options": [
+            "always say to me",
+            "never say to me",
+            "used to say to me"
+          ],
+          "prompt": "Things you {{blank}}, oh, oh",
+          "promptZh": "說著那些你從未對我說出口的話，噢，噢"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-11",
+          "answer": "you've had enough",
+          "options": [
+            "you've had enough",
+            "you've had a dream",
+            "you've lost your way"
+          ],
+          "prompt": "Tell me that {{blank}}",
+          "promptZh": "告訴我，你是否已經厭倦了"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-12",
+          "answer": "our love",
+          "options": [
+            "this life",
+            "our love",
+            "your heart"
+          ],
+          "prompt": "Of {{blank}}, our love",
+          "promptZh": "我們之間的愛，我們的愛"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-13",
+          "answer": "give me a reason",
+          "options": [
+            "give me a reason",
+            "show me the answer",
+            "tell me a secret"
+          ],
+          "prompt": "Just {{blank}}",
+          "promptZh": "只要給我一個理由"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-14",
+          "answer": "a little bit's enough",
+          "options": [
+            "a single word is enough",
+            "a little bit's enough",
+            "another night is enough"
+          ],
+          "prompt": "Just {{blank}}",
+          "promptZh": "哪怕只有一點點，也已經足夠"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-15",
+          "answer": "we're not broken just bent",
+          "options": [
+            "we are falling apart",
+            "we're still holding our breath",
+            "we're not broken just bent"
+          ],
+          "prompt": "Just a second {{blank}}",
+          "promptZh": "等一下，我們並未真正破碎，只是暫時被折彎了"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-16",
+          "answer": "learn to love again",
+          "options": [
+            "learn to love again",
+            "learn to live alone",
+            "try to start again"
+          ],
+          "prompt": "And we can {{blank}}",
+          "promptZh": "而我們仍能學會如何再次相愛"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-17",
+          "answer": "in the stars",
+          "options": [
+            "in the rain",
+            "on the ground",
+            "in the stars"
+          ],
+          "prompt": "It's {{blank}}",
+          "promptZh": "這一切早已寫在星辰之中"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "scars on our hearts",
+          "options": [
+            "marks on our hands",
+            "scars on our hearts",
+            "words in our songs"
+          ],
+          "prompt": "It's been written in the {{blank}}",
+          "promptZh": "也早已刻在我們心上的道道傷痕裡"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "not broken just bent",
+          "options": [
+            "not broken just bent",
+            "not ready to leave",
+            "still holding on tight"
+          ],
+          "prompt": "We're {{blank}}",
+          "promptZh": "我們並未真正破碎，只是暫時被折彎了"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-21",
+          "answer": "I don't understand",
+          "options": [
+            "I can't forget",
+            "I don't understand",
+            "I won't pretend"
+          ],
+          "prompt": "I'm sorry {{blank}}",
+          "promptZh": "對不起，我真的不明白"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-22",
+          "answer": "coming from",
+          "options": [
+            "falling down",
+            "going wrong",
+            "coming from"
+          ],
+          "prompt": "Where all of this is {{blank}}",
+          "promptZh": "這一切究竟是從何而來"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-23",
+          "answer": "we were fine",
+          "options": [
+            "we were lost",
+            "you were mine",
+            "we were fine"
+          ],
+          "prompt": "I thought that {{blank}}",
+          "promptZh": "我一直以為，我們之間一切都很好"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-24",
+          "answer": "we had everything",
+          "options": [
+            "we lost everything",
+            "we had everything",
+            "we need something"
+          ],
+          "prompt": "(Oh, {{blank}})",
+          "promptZh": "（噢，我們曾經擁有一切）"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-25",
+          "answer": "running wild again",
+          "options": [
+            "running wild again",
+            "falling down again",
+            "turning round again"
+          ],
+          "prompt": "Your head is {{blank}}",
+          "promptZh": "妳又開始胡思亂想了"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-26",
+          "answer": "we still have everythin'",
+          "options": [
+            "we still have everythin'",
+            "we never had anything",
+            "we lost our only chance"
+          ],
+          "prompt": "My dear {{blank}}",
+          "promptZh": "親愛的，我們依然擁有一切"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-27",
+          "answer": "all in your mind",
+          "options": [
+            "out of your hands",
+            "deep in your heart",
+            "all in your mind"
+          ],
+          "prompt": "And it's {{blank}}",
+          "promptZh": "而那些問題，都只是妳心中的想像"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-28",
+          "answer": "this is happenin'",
+          "options": [
+            "this is happenin'",
+            "nothing is happening",
+            "this is changing"
+          ],
+          "prompt": "(Yeah, but {{blank}})",
+          "promptZh": "（是啊，可這一切確實正在發生）"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-29",
+          "answer": "real bad dreams",
+          "options": [
+            "long dark nights",
+            "strange new feelings",
+            "real bad dreams"
+          ],
+          "prompt": "You've been havin' {{blank}}, oh, oh",
+          "promptZh": "妳最近總是做著可怕的惡夢，噢，噢"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-30",
+          "answer": "lie so close to me",
+          "options": [
+            "lie so close to me",
+            "stand so far from me",
+            "talk so sweet to me"
+          ],
+          "prompt": "You used to {{blank}}, oh, oh",
+          "promptZh": "從前，妳總是緊緊依偎在我身旁，噢，噢"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-31",
+          "answer": "empty sheets",
+          "options": [
+            "silent streets",
+            "empty sheets",
+            "broken dreams"
+          ],
+          "prompt": "There's nothing more than {{blank}}",
+          "promptZh": "如今，卻只剩下空蕩蕩的床單"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-32",
+          "answer": "Between our love",
+          "options": [
+            "Beyond our reach",
+            "Between our love",
+            "Inside our hearts"
+          ],
+          "prompt": "{{blank}}, our love",
+          "promptZh": "橫亙在我們的愛之間，我們的愛"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-33",
+          "answer": "our love, our love",
+          "options": [
+            "your life, your life",
+            "our time, our time",
+            "our love, our love"
+          ],
+          "prompt": "Oh, {{blank}}, love",
+          "promptZh": "噢，我們的愛，我們的愛，愛"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-34",
+          "answer": "give me a reason",
+          "options": [
+            "give me a reason",
+            "show me a sign",
+            "give me an answer"
+          ],
+          "prompt": "Just {{blank}}",
+          "promptZh": "只要給我一個理由"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-35",
+          "answer": "a little bit's enough",
+          "options": [
+            "a little bit's enough",
+            "a little time will help",
+            "another chance is gone"
+          ],
+          "prompt": "Just {{blank}}",
+          "promptZh": "哪怕只有一點點，也已經足夠"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-36",
+          "answer": "just bent",
+          "options": [
+            "too late",
+            "just bent",
+            "still lost"
+          ],
+          "prompt": "Just a second we're not broken {{blank}}",
+          "promptZh": "等一下，我們並未真正破碎，只是暫時被折彎了"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-37",
+          "answer": "learn to love again",
+          "options": [
+            "learn to walk away",
+            "learn to love again",
+            "learn to trust again"
+          ],
+          "prompt": "And we can {{blank}}",
+          "promptZh": "而我們仍能學會如何再次相愛"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-38",
+          "answer": "never stopped",
+          "options": [
+            "never knew",
+            "always tried",
+            "never stopped"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我從未停止愛妳"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-39",
+          "answer": "scars on my heart",
+          "options": [
+            "words on my mind",
+            "lines on my face",
+            "scars on my heart"
+          ],
+          "prompt": "You're still written in the {{blank}}",
+          "promptZh": "妳依然深深刻在我心上的每一道傷痕裡"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-40",
+          "answer": "not broken just bent",
+          "options": [
+            "still waiting for love",
+            "not broken just bent",
+            "not ready to go"
+          ],
+          "prompt": "You're {{blank}}",
+          "promptZh": "妳並未真正破碎，只是暫時被折彎了"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-41",
+          "answer": "love again",
+          "options": [
+            "live alone",
+            "love again",
+            "start anew"
+          ],
+          "prompt": "And we can learn to {{blank}}",
+          "promptZh": "而我們仍能學會如何再次相愛"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-42",
+          "answer": "tear ducts and rust",
+          "options": [
+            "cold nights and rain",
+            "lost dreams and dust",
+            "tear ducts and rust"
+          ],
+          "prompt": "Oh, {{blank}}",
+          "promptZh": "噢，淚腺與鏽蝕"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-43",
+          "answer": "I'll fix it for us",
+          "options": [
+            "I'll wait here for you",
+            "I'll leave it behind",
+            "I'll fix it for us"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我會為了我們，努力修復這一切"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-44",
+          "answer": "collecting dust",
+          "options": [
+            "losing trust",
+            "collecting dust",
+            "building walls"
+          ],
+          "prompt": "We're {{blank}}",
+          "promptZh": "我們的感情正漸漸蒙上塵埃"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-45",
+          "answer": "our love's enough",
+          "options": [
+            "our time is gone",
+            "our love's enough",
+            "your words are true"
+          ],
+          "prompt": "But {{blank}}",
+          "promptZh": "但我們的愛，仍然足以支撐一切"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-46",
+          "answer": "holding it in",
+          "options": [
+            "taking it back",
+            "letting it go",
+            "holding it in"
+          ],
+          "prompt": "You're {{blank}}",
+          "promptZh": "妳把所有情緒都壓抑在心裡"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-47",
+          "answer": "pouring a drink",
+          "options": [
+            "closing the door",
+            "making a wish",
+            "pouring a drink"
+          ],
+          "prompt": "You're {{blank}}",
+          "promptZh": "妳正倒著酒，試圖排遣心中的苦悶"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-48",
+          "answer": "as bad as it seems",
+          "options": [
+            "as bad as it seems",
+            "as good as it sounds",
+            "as clear as the day"
+          ],
+          "prompt": "No nothing is {{blank}}",
+          "promptZh": "不，事情並沒有看起來那麼糟糕"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-49",
+          "answer": "We'll come clean",
+          "options": [
+            "We'll come clean",
+            "We'll stay strong",
+            "We'll go home"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我們終將坦誠面對彼此"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-50",
+          "answer": "give me a reason",
+          "options": [
+            "give me a warning",
+            "tell me the truth",
+            "give me a reason"
+          ],
+          "prompt": "Just {{blank}}",
+          "promptZh": "只要給我一個理由"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-51",
+          "answer": "a little bit's enough",
+          "options": [
+            "a little bit's enough",
+            "a moment is enough",
+            "a promise is enough"
+          ],
+          "prompt": "Just {{blank}}",
+          "promptZh": "哪怕只有一點點，也已經足夠"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-52",
+          "answer": "not broken just bent",
+          "options": [
+            "still hurting inside",
+            "not broken just bent",
+            "not over just yet"
+          ],
+          "prompt": "Just a second we're {{blank}}",
+          "promptZh": "等一下，我們並未真正破碎，只是暫時被折彎了"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "(feat. Nate Ruess)"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:1}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You were {{q:2}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You {{q:3}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "And I your {{q:4}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I let you see {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "That {{q:6}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And {{q:7}} you fixed them"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Now you've been {{q:8}}, oh, oh"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Things you {{q:9}}, oh, oh"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Tell me that {{q:10}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Of {{q:11}}, our love"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Just {{q:12}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Just {{q:13}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Just a second {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And we can {{q:15}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "It's {{q:16}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "It's been written in the {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "We're {{q:18}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I'm sorry {{q:19}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Where all of this is {{q:20}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I thought that {{q:21}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "(Oh, {{q:22}})"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Your head is {{q:23}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "My dear {{q:24}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And it's {{q:25}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "(Yeah, but {{q:26}})"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "You've been havin' {{q:27}}, oh, oh"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You used to {{q:28}}, oh, oh"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "There's nothing more than {{q:29}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:30}}, our love"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Oh, {{q:31}}, love"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Just {{q:32}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Just {{q:33}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Just a second we're not broken {{q:34}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And we can {{q:35}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I {{q:36}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "You're still written in the {{q:37}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You're {{q:38}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "And we can learn to {{q:39}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Oh, {{q:40}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:41}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "We're {{q:42}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "But {{q:43}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "You're {{q:44}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "You're {{q:45}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "No nothing is {{q:46}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "{{q:47}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Just {{q:48}}"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Just {{q:49}}"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Just a second we're {{q:50}}"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "It's in the stars"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "It's been written in the scars on our hearts"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "That we're not broken just bent "
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Just give me a reason"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Just a little bit's enough"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Just a second we're not broken just bent"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "It's in the stars"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "It's still written in the scars on our hearts"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "That we're not broken just bent "
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "And we can learn to love again"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "Oh-oh, we can learn to love again"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Oh-oh, can learn to love again"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Oh, oh, that we're not broken just bent"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "And we can learn to love again"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Just Give Me A Reason · Listening & Vocabulary",
+  "description": "《Just Give Me a Reason》描寫一對戀人在感情出現裂痕後，努力尋找理解與重新相愛的可能。女方察覺彼此逐漸疏遠，開始懷疑對方是否已經失去愛意；男方卻認為感情依然存在，只是雙方缺乏溝通，令誤解與不安不斷累積。兩人雖然對問題有不同的看法，卻仍然珍惜曾經擁有的幸福，希望找到修補關係的方法。歌曲以「彎曲而未破碎」象徵受傷卻仍有希望的愛情。最終，《Just Give Me a Reason》傳達的是愛情中的信任、溝通與重新開始的勇氣：即使感情經歷挫折，只要雙方願意坦誠面對問題、理解彼此的感受，仍有機會修復傷痕，重新找回曾經的親密與幸福。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "right from the start",
+      "meaning": "從一開始就；強調事情開始的那一刻",
+      "usage": "用在故事、計畫或經驗的開頭，通常放在句首或句尾。",
+      "prompt": "哪個句子正確使用「right from the start」？",
+      "options": [
+        "Right from the start, our new robot called the teacher “Grandma.”",
+        "We arrived right from the start the airport at noon.",
+        "The film was right from the start for three hours.",
+        "Please right from the start this computer before class."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：表示機器人一開始就叫老師「奶奶」，既自然又好笑。",
+        "錯誤：這個片語不能代替表示地點的 at；應說 arrived at the airport。",
+        "錯誤：不能用它表示一段時間的長度；應說 lasted three hours。",
+        "錯誤：這不是「啟動」的動詞；應說 start this computer。"
+      ],
+      "explanation": "正確：表示機器人一開始就叫老師「奶奶」，既自然又好笑。"
+    },
+    {
+      "number": 2,
+      "word": "willing",
+      "meaning": "願意的；自願做某件事的",
+      "usage": "常用 be willing to + 原形動詞，表示願意做某事。",
+      "prompt": "哪個句子正確使用「willing」？",
+      "options": [
+        "I am willing helping at the museum this weekend.",
+        "Our coach is willing to wear a pink cape if we win the final.",
+        "The train is willing at platform five.",
+        "She willing to teach me how to play chess."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：willing 後要接 to help，不能直接接 helping。",
+        "正確：be willing to wear 表示教練願意穿粉紅披風慶祝。",
+        "錯誤：willing 描述意願，不表示火車停靠的位置。",
+        "錯誤：willing 是形容詞，前面需要 is；應說 She is willing to teach me。"
+      ],
+      "explanation": "正確：be willing to wear 表示教練願意穿粉紅披風慶祝。"
+    },
+    {
+      "number": 3,
+      "word": "talk in your sleep",
+      "meaning": "說夢話",
+      "usage": "指睡著時不自覺說話；可依主詞改變 your / his / her。",
+      "prompt": "哪個句子正確使用「talk in your sleep」？",
+      "options": [
+        "My uncle talks in his sleep every morning at breakfast.",
+        "I talked in my sleep because I sent an email at work.",
+        "My sister talks in her sleep and sometimes gives speeches about space.",
+        "The actors talked in their sleep on stage while they were fully awake."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：早餐時清醒地說話不叫說夢話。",
+        "錯誤：寄工作郵件是清醒行為，不能用來解釋說夢話。",
+        "正確：表示妹妹睡著時會說夢話，甚至談太空。",
+        "錯誤：既然演員完全清醒，就不是真正在說夢話。"
+      ],
+      "explanation": "正確：表示妹妹睡著時會說夢話，甚至談太空。"
+    },
+    {
+      "number": 4,
+      "word": "have had enough",
+      "meaning": "受夠了；不想再忍受",
+      "usage": "常用 have had enough of + 名詞／動名詞。",
+      "prompt": "哪個句子正確使用「have had enough」？",
+      "options": [
+        "We have had enough of the broken lift, so we are taking the stairs.",
+        "I have had enough to the long meeting.",
+        "The photographer has had enough with waiting in the rain.",
+        "She has had enough the loud music from next door."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：表示大家受夠壞掉的電梯，決定走樓梯。",
+        "錯誤：這裡要用 of the long meeting，不是 to。",
+        "錯誤：標準搭配是 had enough of waiting，而非 with waiting。",
+        "錯誤：缺少介系詞 of；應說 enough of the loud music。"
+      ],
+      "explanation": "正確：表示大家受夠壞掉的電梯，決定走樓梯。"
+    },
+    {
+      "number": 5,
+      "word": "bent",
+      "meaning": "彎曲的；彎了的",
+      "usage": "可描述金屬、形狀或物體；也可用於比喻，與 broken 不同。",
+      "prompt": "哪個句子正確使用「bent」？",
+      "options": [
+        "The street was bent because the shops were closed.",
+        "The cyclist checked his wheel because it looked bent after the race.",
+        "My phone is bent because its battery is almost empty.",
+        "The singer felt bent when the crowd cheered loudly."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：商店關門不會讓街道變彎；這裡因果不合理。",
+        "正確：賽後車輪看起來彎了，bent 使用自然。",
+        "錯誤：電量低不代表手機形狀彎曲。",
+        "錯誤：歡呼讓人高興或興奮，不是形容身體／物品彎曲。"
+      ],
+      "explanation": "正確：賽後車輪看起來彎了，bent 使用自然。"
+    },
+    {
+      "number": 6,
+      "word": "scar",
+      "meaning": "疤痕；（比喻）留下的傷痛",
+      "usage": "可用於皮膚上的疤痕，也能比喻痛苦經驗留下的影響。",
+      "prompt": "哪個句子正確使用「scar」？",
+      "options": [
+        "The weather report said there would be three scars tomorrow.",
+        "I bought a scar to travel from Paris to Rome.",
+        "The old cut left a small scar on his arm.",
+        "The musician turned up the scar so everyone could hear the song."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：天氣預報不會用 scar 表示降雨或暴風雨。",
+        "錯誤：scar 不是車票或交通工具；應說 ticket。",
+        "正確：傷口痊癒後在手臂留下小疤痕。",
+        "錯誤：scar 不是音量；應說 turned up the volume。"
+      ],
+      "explanation": "正確：傷口痊癒後在手臂留下小疤痕。"
+    },
+    {
+      "number": 7,
+      "word": "all in your mind",
+      "meaning": "只是你想像的；問題並非客觀存在（依語境）",
+      "usage": "常用於安慰或反駁猜測，但不應隨意否定他人真實的感受。",
+      "prompt": "哪個句子正確使用「all in your mind」？",
+      "options": [
+        "You think the whole audience hates you, but that may be all in your mind.",
+        "The museum opens at nine; it is all in your mind on the website.",
+        "I left my wallet all in your mind on the train.",
+        "We put the science project all in your mind next to the window."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：表示觀眾討厭你的想法可能只是自己的猜測。",
+        "錯誤：網站上的開放時間是資訊，不是想像出來的。",
+        "錯誤：片語不是「留在某處」，也不能代替 on the train。",
+        "錯誤：它不表示物品的實際擺放位置。"
+      ],
+      "explanation": "正確：表示觀眾討厭你的想法可能只是自己的猜測。"
+    },
+    {
+      "number": 8,
+      "word": "run wild",
+      "meaning": "（想像、情緒等）不受控制；自由奔馳",
+      "usage": "常用 imagination runs wild 或 fears run wild。",
+      "prompt": "哪個句子正確使用「run wild」？",
+      "options": [
+        "The pilot ran wild the plane at six in the morning.",
+        "When the lights went out in the castle, the children's imaginations ran wild.",
+        "I ran wild my passport at the hotel desk.",
+        "The chef ran wild the soup for ten minutes."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：run wild 不能當作「駕駛飛機」的及物動詞。",
+        "正確：城堡突然停電，孩子們開始天馬行空地想像。",
+        "錯誤：這個片語不表示出示證件；應說 showed my passport。",
+        "錯誤：煮湯不能用 run wild；應說 cooked the soup。"
+      ],
+      "explanation": "正確：城堡突然停電，孩子們開始天馬行空地想像。"
+    },
+    {
+      "number": 9,
+      "word": "collect dust",
+      "meaning": "積灰塵；因長期不用而閒置",
+      "usage": "常說 something is collecting dust，強調物品被放著不用。",
+      "prompt": "哪個句子正確使用「collect dust」？",
+      "options": [
+        "The swimmer collected dust by swimming faster than everyone else.",
+        "The airport collected dust because many planes arrived early.",
+        "I collect dust when I write secret notes to my friends.",
+        "My old guitar has been collecting dust since I started learning drums."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：游得快不等於積灰塵；這個片語不表示贏得比賽。",
+        "錯誤：航班提早抵達與物品閒置積塵沒有關係。",
+        "錯誤：寫紙條不是 collect dust 的意思；可說 write notes。",
+        "正確：舊吉他因為改學鼓而長期閒置、積灰塵。"
+      ],
+      "explanation": "正確：舊吉他因為改學鼓而長期閒置、積灰塵。"
+    },
+    {
+      "number": 10,
+      "word": "come clean",
+      "meaning": "坦白說出真相；承認原本隱瞞的事",
+      "usage": "通常是 come clean about + 事情，或 come clean with + 人。",
+      "prompt": "哪個句子正確使用「come clean」？",
+      "options": [
+        "The engineer came clean the window before the inspection.",
+        "We came clean to the cinema at seven o’clock.",
+        "The mayor came clean of the city hall after lunch.",
+        "The class president finally came clean about losing the concert tickets."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：come clean 不是「擦乾淨」；應說 cleaned the window。",
+        "錯誤：come clean 不是「到達」；應說 arrived at the cinema。",
+        "錯誤：come clean 不表示從建築物走出來；應說 came out of。",
+        "正確：班長終於坦白弄丟演唱會門票。"
+      ],
+      "explanation": "正確：班長終於坦白弄丟演唱會門票。"
+    }
+  ],
+  "tags": [
+    "p!nk feat. nate ruess",
+    "just give me a reason",
+    "love",
+    "reconciliation"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/just-give-me-a-reason/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/just-give-me-a-reason/user-cover-20261030.png",
+  "editorialRepairs": [],
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 242.7333125,
+    "audioSha256": "c9dbb298569e134c98339e1a39c8c107aea529e1189cd434cceb8b05c7e53128",
+    "timedLines": 63,
+    "untimedLines": 6,
+    "reviewStatus": "Conservative automatic line alignment. Unmatched/overlapping background lines remain bilingual without guessed timestamps; not a full manual timing certification."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Just Give Me A Reason_.pdf",
+      "sha256": "b1ea7ca495bdb277d00f60ddb9c6d562af0e7a015bcfa3d2ca77f15275934456"
+    },
+    "chosenListening": {
+      "filename": "Just_Give_Me_A_Reason_Four_Level_Listening_Exercise.md",
+      "sha256": "6482dc29cf986d9cee32547deb5477856867f615401e58d36333ce3701fb255d"
+    },
+    "chosenVocabulary": {
+      "filename": "Just_Give_Me_a_Reason_Vocabulary_Quiz_Fresh_Edition.txt",
+      "sha256": "f628a3184894a7ec6bbd0236762f15f7bc511e518931bd6f90a58fc7fcdc8bd1"
+    },
+    "mp3": {
+      "filename": "Just Give Me a Reason [a1pWN2ixeVY].mp3",
+      "sha256": "c9dbb298569e134c98339e1a39c8c107aea529e1189cd434cceb8b05c7e53128"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-b7516289-1586-4ef0-9428-3ffb24a4193f.png",
+    "sha256": "b4f5e66b98f24bb78dcfa0f5c7686609d29b00611fc310a11f95b4c9e02bc2f9",
+    "transformations": "none",
+    "selectedOn": "2026-10-30"
+  }
+}

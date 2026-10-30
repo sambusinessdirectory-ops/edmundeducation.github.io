@@ -1,0 +1,3080 @@
+{
+  "slug": "yellow",
+  "title": "Yellow",
+  "singer": "Coldplay",
+  "translations": [
+    {
+      "english": "Look at the stars",
+      "chinese": "抬頭看看滿天繁星",
+      "lineId": "line-1",
+      "startSeconds": 32.64,
+      "endSeconds": 35.32
+    },
+    {
+      "english": "Look how they shine for you",
+      "chinese": "看啊，它們正為妳閃耀著光芒",
+      "lineId": "line-2",
+      "startSeconds": 35.66,
+      "endSeconds": 39.78
+    },
+    {
+      "english": "And everything you do",
+      "chinese": "也為妳所做的一切而閃耀",
+      "lineId": "line-3",
+      "startSeconds": 40.98,
+      "endSeconds": 44.82
+    },
+    {
+      "english": "Yeah, they were all yellow",
+      "chinese": "是啊，它們全都閃耀著黃色的光芒",
+      "lineId": "line-4",
+      "startSeconds": 46.6,
+      "endSeconds": 49.14
+    },
+    {
+      "english": "I came along",
+      "chinese": "我就這樣來到了妳身旁",
+      "lineId": "line-5",
+      "startSeconds": 49.78,
+      "endSeconds": 51.86
+    },
+    {
+      "english": "I wrote a song for you",
+      "chinese": "我為妳寫下了一首歌",
+      "lineId": "line-6",
+      "startSeconds": 53.0,
+      "endSeconds": 56.26
+    },
+    {
+      "english": "And all the things you do",
+      "chinese": "也為妳所做的一切而寫",
+      "lineId": "line-7",
+      "startSeconds": 57.7,
+      "endSeconds": 61.42
+    },
+    {
+      "english": "And it was called \"Yellow\"",
+      "chinese": "而這首歌，就叫作〈Yellow〉",
+      "lineId": "line-8",
+      "startSeconds": 61.42,
+      "endSeconds": 65.86
+    },
+    {
+      "english": "So then I took my turn",
+      "chinese": "於是，我也輪到自己採取行動",
+      "lineId": "line-9",
+      "startSeconds": 69.25,
+      "endSeconds": 72.86
+    },
+    {
+      "english": "Oh what a thing to have done",
+      "chinese": "噢，這真是一件令人感慨的事",
+      "lineId": "line-10"
+    },
+    {
+      "english": "And it was all yellow",
+      "chinese": "而這一切，全都染上了黃色",
+      "lineId": "line-11",
+      "startSeconds": 79.74,
+      "endSeconds": 82.98
+    },
+    {
+      "english": "Your skin",
+      "chinese": "妳的肌膚",
+      "lineId": "line-12",
+      "startSeconds": 88.36,
+      "endSeconds": 90.28
+    },
+    {
+      "english": "Oh yeah your skin and bones",
+      "chinese": "噢，是啊，妳的肌膚與身軀",
+      "lineId": "line-13"
+    },
+    {
+      "english": "Turn into something beautiful",
+      "chinese": "都化作了如此美麗的存在",
+      "lineId": "line-14",
+      "startSeconds": 94.42,
+      "endSeconds": 98.62
+    },
+    {
+      "english": "Do you know",
+      "chinese": "妳知道嗎？",
+      "lineId": "line-15",
+      "startSeconds": 99.42,
+      "endSeconds": 101.94
+    },
+    {
+      "english": "You know I love you so",
+      "chinese": "妳知道，我是如此深愛著妳",
+      "lineId": "line-16",
+      "startSeconds": 102.82,
+      "endSeconds": 105.08
+    },
+    {
+      "english": "You know I love you so",
+      "chinese": "妳知道，我是如此深愛著妳",
+      "lineId": "line-17",
+      "startSeconds": 107.66,
+      "endSeconds": 110.19
+    },
+    {
+      "english": "I swam across",
+      "chinese": "我游過了那片水域",
+      "lineId": "line-18",
+      "startSeconds": 132.21,
+      "endSeconds": 134.91
+    },
+    {
+      "english": "I jumped across for you",
+      "chinese": "為了妳，我奮不顧身地跨越阻隔",
+      "lineId": "line-19",
+      "startSeconds": 135.63,
+      "endSeconds": 139.03
+    },
+    {
+      "english": "Oh what a thing to do",
+      "chinese": "噢，這是多麼不尋常的舉動",
+      "lineId": "line-20",
+      "startSeconds": 140.69,
+      "endSeconds": 144.61
+    },
+    {
+      "english": "'Cause you were all yellow",
+      "chinese": "因為妳渾身都閃耀著黃色的光芒",
+      "lineId": "line-21",
+      "startSeconds": 146.29,
+      "endSeconds": 148.85
+    },
+    {
+      "english": "I drew a line",
+      "chinese": "我畫下了一道線",
+      "lineId": "line-22",
+      "startSeconds": 148.85,
+      "endSeconds": 151.75
+    },
+    {
+      "english": "I drew a line for you",
+      "chinese": "我為了妳，畫下了那道線",
+      "lineId": "line-23",
+      "startSeconds": 151.75,
+      "endSeconds": 155.69
+    },
+    {
+      "english": "Oh what a thing to do",
+      "chinese": "噢，這是多麼不尋常的舉動",
+      "lineId": "line-24",
+      "startSeconds": 157.33,
+      "endSeconds": 163.03
+    },
+    {
+      "english": "And it was all yellow",
+      "chinese": "而這一切，全都染上了黃色",
+      "lineId": "line-25",
+      "startSeconds": 163.03,
+      "endSeconds": 165.51
+    },
+    {
+      "english": "Your skin",
+      "chinese": "妳的肌膚",
+      "lineId": "line-26"
+    },
+    {
+      "english": "Oh yeah your skin and bones",
+      "chinese": "噢，是啊，妳的肌膚與身軀",
+      "lineId": "line-27",
+      "startSeconds": 174.77,
+      "endSeconds": 176.97
+    },
+    {
+      "english": "Turn into something beautiful",
+      "chinese": "都化作了如此美麗的存在",
+      "lineId": "line-28",
+      "startSeconds": 176.97,
+      "endSeconds": 181.85
+    },
+    {
+      "english": "Do you know",
+      "chinese": "妳知道嗎？",
+      "lineId": "line-29",
+      "startSeconds": 182.75,
+      "endSeconds": 184.69
+    },
+    {
+      "english": "For you I'd bleed myself dry",
+      "chinese": "為了妳，我甘願流盡自己最後一滴血",
+      "lineId": "line-30",
+      "startSeconds": 184.69,
+      "endSeconds": 187.89
+    },
+    {
+      "english": "For you I'd bleed myself dry",
+      "chinese": "為了妳，我甘願流盡自己最後一滴血",
+      "lineId": "line-31",
+      "startSeconds": 190.47,
+      "endSeconds": 194.35
+    },
+    {
+      "english": "It's true",
+      "chinese": "這一切都是真心的",
+      "lineId": "line-32",
+      "startSeconds": 214.23,
+      "endSeconds": 216.51
+    },
+    {
+      "english": "Look how they shine for you",
+      "chinese": "看啊，它們正為妳閃耀著光芒",
+      "lineId": "line-33",
+      "startSeconds": 217.55,
+      "endSeconds": 222.33
+    },
+    {
+      "english": "Look how they shine for you",
+      "chinese": "看啊，它們正為妳閃耀著光芒",
+      "lineId": "line-34",
+      "startSeconds": 223.51,
+      "endSeconds": 228.25
+    },
+    {
+      "english": "Look how they shine for",
+      "chinese": "看啊，它們正為……閃耀",
+      "lineId": "line-35",
+      "startSeconds": 228.25,
+      "endSeconds": 231.89
+    },
+    {
+      "english": "Look how they shine for you",
+      "chinese": "看啊，它們正為妳閃耀著光芒",
+      "lineId": "line-36"
+    },
+    {
+      "english": "Look how they shine for you",
+      "chinese": "看啊，它們正為妳閃耀著光芒",
+      "lineId": "line-37"
+    },
+    {
+      "english": "Look how they shine",
+      "chinese": "看啊，它們閃耀得如此燦爛",
+      "lineId": "line-38"
+    },
+    {
+      "english": "Look at the stars",
+      "chinese": "抬頭看看滿天繁星",
+      "lineId": "line-39"
+    },
+    {
+      "english": "Look how they shine for you",
+      "chinese": "看啊，它們正為妳閃耀著光芒",
+      "lineId": "line-40",
+      "startSeconds": 252.19,
+      "endSeconds": 255.89
+    },
+    {
+      "english": "And all the things that you do",
+      "chinese": "也為妳所做的一切而閃耀",
+      "lineId": "line-41",
+      "startSeconds": 256.91,
+      "endSeconds": 261.57
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "the stars",
+          "options": [
+            "the clouds",
+            "the stars",
+            "the moon"
+          ],
+          "prompt": "Look at {{blank}}",
+          "promptZh": "抬頭看看滿天繁星"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "shine for you",
+          "options": [
+            "wait for you",
+            "glow for me",
+            "shine for you"
+          ],
+          "prompt": "Look how they {{blank}}",
+          "promptZh": "看啊，它們正為妳閃耀著光芒"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "everything you do",
+          "options": [
+            "everything you do",
+            "everything you say",
+            "all that you know"
+          ],
+          "prompt": "And {{blank}}",
+          "promptZh": "也為妳所做的一切而閃耀"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "all yellow",
+          "options": [
+            "all yellow",
+            "so golden",
+            "all silver"
+          ],
+          "prompt": "Yeah, they were {{blank}}",
+          "promptZh": "是啊，它們全都閃耀著黃色的光芒"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-6",
+          "answer": "wrote a song",
+          "options": [
+            "made a wish",
+            "wrote a song",
+            "sang a tune"
+          ],
+          "prompt": "I {{blank}} for you",
+          "promptZh": "我為妳寫下了一首歌"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-8",
+          "answer": "called \"Yellow\"",
+          "options": [
+            "called \"Forever\"",
+            "called \"Yellow\"",
+            "named \"Sunlight\""
+          ],
+          "prompt": "And it was {{blank}}",
+          "promptZh": "而這首歌，就叫作〈Yellow〉"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-10",
+          "answer": "a thing to have done",
+          "options": [
+            "a dream to come true",
+            "a chance to begin",
+            "a thing to have done"
+          ],
+          "prompt": "Oh what {{blank}}",
+          "promptZh": "噢，這真是一件令人感慨的事"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-13",
+          "answer": "skin and bones",
+          "options": [
+            "skin and bones",
+            "heart and soul",
+            "hands and feet"
+          ],
+          "prompt": "Oh yeah your {{blank}}",
+          "promptZh": "噢，是啊，妳的肌膚與身軀"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-14",
+          "answer": "something beautiful",
+          "options": [
+            "something beautiful",
+            "someone wonderful",
+            "something magical"
+          ],
+          "prompt": "Turn into {{blank}}",
+          "promptZh": "都化作了如此美麗的存在"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-16",
+          "answer": "love you so",
+          "options": [
+            "need you here",
+            "love you so",
+            "miss you now"
+          ],
+          "prompt": "You know I {{blank}}",
+          "promptZh": "妳知道，我是如此深愛著妳"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-18",
+          "answer": "swam across",
+          "options": [
+            "sailed along",
+            "ran away",
+            "swam across"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我游過了那片水域"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-19",
+          "answer": "jumped across",
+          "options": [
+            "jumped across",
+            "walked around",
+            "climbed above"
+          ],
+          "prompt": "I {{blank}} for you",
+          "promptZh": "為了妳，我奮不顧身地跨越阻隔"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-21",
+          "answer": "all yellow",
+          "options": [
+            "all yellow",
+            "so purple",
+            "bright orange"
+          ],
+          "prompt": "'Cause you were {{blank}}",
+          "promptZh": "因為妳渾身都閃耀著黃色的光芒"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-23",
+          "answer": "a line for you",
+          "options": [
+            "a path for me",
+            "a line for you",
+            "a song for us"
+          ],
+          "prompt": "I drew {{blank}}",
+          "promptZh": "我為了妳，畫下了那道線"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-27",
+          "answer": "skin and bones",
+          "options": [
+            "eyes and hair",
+            "heart and mind",
+            "skin and bones"
+          ],
+          "prompt": "Oh yeah your {{blank}}",
+          "promptZh": "噢，是啊，妳的肌膚與身軀"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-30",
+          "answer": "bleed myself dry",
+          "options": [
+            "give my whole heart",
+            "cry through the night",
+            "bleed myself dry"
+          ],
+          "prompt": "For you I'd {{blank}}",
+          "promptZh": "為了妳，我甘願流盡自己最後一滴血"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-32",
+          "answer": "It's true",
+          "options": [
+            "I know",
+            "It's true",
+            "It's real"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "這一切都是真心的"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-35",
+          "answer": "shine for",
+          "options": [
+            "wait for",
+            "shine for",
+            "call to"
+          ],
+          "prompt": "Look how they {{blank}}",
+          "promptZh": "看啊，它們正為……閃耀"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-39",
+          "answer": "the stars",
+          "options": [
+            "the stars",
+            "the ocean",
+            "the sunrise"
+          ],
+          "prompt": "Look at {{blank}}",
+          "promptZh": "抬頭看看滿天繁星"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-41",
+          "answer": "the things that you do",
+          "options": [
+            "the words that you say",
+            "the places that you go",
+            "the things that you do"
+          ],
+          "prompt": "And all {{blank}}",
+          "promptZh": "也為妳所做的一切而閃耀"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Look at {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Look how they {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "And {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Yeah, they were {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I came along"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I {{q:5}} for you"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And all the things you do"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And it was {{q:6}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "So then I took my turn"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Oh what {{q:7}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And it was all yellow"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Your skin"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Oh yeah your {{q:8}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Turn into {{q:9}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Do you know"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "You know I {{q:10}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "You know I love you so"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I {{q:11}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I {{q:12}} for you"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Oh what a thing to do"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "'Cause you were {{q:13}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I drew a line"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I drew {{q:14}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Oh what a thing to do"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And it was all yellow"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Your skin"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Oh yeah your {{q:15}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Turn into something beautiful"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Do you know"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "For you I'd {{q:16}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "For you I'd bleed myself dry"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Look how they shine for you"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Look how they shine for you"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Look how they {{q:18}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Look how they shine for you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Look how they shine for you"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Look how they shine"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Look at {{q:19}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Look how they shine for you"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "And all {{q:20}}"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "the stars",
+          "options": [
+            "the stars",
+            "the moon",
+            "the clouds"
+          ],
+          "prompt": "Look at {{blank}}",
+          "promptZh": "抬頭看看滿天繁星"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "shine for you",
+          "options": [
+            "glow for me",
+            "wait for you",
+            "shine for you"
+          ],
+          "prompt": "Look how they {{blank}}",
+          "promptZh": "看啊，它們正為妳閃耀著光芒"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "everything you do",
+          "options": [
+            "everything you say",
+            "everything you do",
+            "all that you know"
+          ],
+          "prompt": "And {{blank}}",
+          "promptZh": "也為妳所做的一切而閃耀"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "all yellow",
+          "options": [
+            "all silver",
+            "so golden",
+            "all yellow"
+          ],
+          "prompt": "Yeah, they were {{blank}}",
+          "promptZh": "是啊，它們全都閃耀著黃色的光芒"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "came along",
+          "options": [
+            "came along",
+            "walked away",
+            "stayed behind"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我就這樣來到了妳身旁"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "wrote a song",
+          "options": [
+            "made a wish",
+            "sang a tune",
+            "wrote a song"
+          ],
+          "prompt": "I {{blank}} for you",
+          "promptZh": "我為妳寫下了一首歌"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "the things you do",
+          "options": [
+            "the dreams you chase",
+            "the things you do",
+            "the words you say"
+          ],
+          "prompt": "And all {{blank}}",
+          "promptZh": "也為妳所做的一切而寫"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "called \"Yellow\"",
+          "options": [
+            "called \"Yellow\"",
+            "called \"Forever\"",
+            "named \"Sunlight\""
+          ],
+          "prompt": "And it was {{blank}}",
+          "promptZh": "而這首歌，就叫作〈Yellow〉"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "took my turn",
+          "options": [
+            "found my way",
+            "took my turn",
+            "made my choice"
+          ],
+          "prompt": "So then I {{blank}}",
+          "promptZh": "於是，我也輪到自己採取行動"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "a thing to have done",
+          "options": [
+            "a dream to come true",
+            "a chance to begin",
+            "a thing to have done"
+          ],
+          "prompt": "Oh what {{blank}}",
+          "promptZh": "噢，這真是一件令人感慨的事"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "all yellow",
+          "options": [
+            "bright silver",
+            "all yellow",
+            "deep purple"
+          ],
+          "prompt": "And it was {{blank}}",
+          "promptZh": "而這一切，全都染上了黃色"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "Your skin",
+          "options": [
+            "Your skin",
+            "Your eyes",
+            "Your smile"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳的肌膚"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "skin and bones",
+          "options": [
+            "heart and soul",
+            "skin and bones",
+            "hands and feet"
+          ],
+          "prompt": "Oh yeah your {{blank}}",
+          "promptZh": "噢，是啊，妳的肌膚與身軀"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "something beautiful",
+          "options": [
+            "something beautiful",
+            "something magical",
+            "someone wonderful"
+          ],
+          "prompt": "Turn into {{blank}}",
+          "promptZh": "都化作了如此美麗的存在"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "Do you know",
+          "options": [
+            "Can you see",
+            "Will you stay",
+            "Do you know"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳知道嗎？"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "love you so",
+          "options": [
+            "need you here",
+            "love you so",
+            "miss you now"
+          ],
+          "prompt": "You know I {{blank}}",
+          "promptZh": "妳知道，我是如此深愛著妳"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-17",
+          "answer": "love you so",
+          "options": [
+            "care for you",
+            "think of you",
+            "love you so"
+          ],
+          "prompt": "You know I {{blank}}",
+          "promptZh": "妳知道，我是如此深愛著妳"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-18",
+          "answer": "swam across",
+          "options": [
+            "swam across",
+            "sailed along",
+            "ran away"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我游過了那片水域"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-19",
+          "answer": "jumped across",
+          "options": [
+            "climbed above",
+            "jumped across",
+            "walked around"
+          ],
+          "prompt": "I {{blank}} for you",
+          "promptZh": "為了妳，我奮不顧身地跨越阻隔"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-20",
+          "answer": "a thing to do",
+          "options": [
+            "a song to sing",
+            "a thing to do",
+            "a place to go"
+          ],
+          "prompt": "Oh what {{blank}}",
+          "promptZh": "噢，這是多麼不尋常的舉動"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-21",
+          "answer": "all yellow",
+          "options": [
+            "all yellow",
+            "bright orange",
+            "so purple"
+          ],
+          "prompt": "'Cause you were {{blank}}",
+          "promptZh": "因為妳渾身都閃耀著黃色的光芒"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-22",
+          "answer": "drew a line",
+          "options": [
+            "made a sign",
+            "built a bridge",
+            "drew a line"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我畫下了一道線"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-23",
+          "answer": "a line for you",
+          "options": [
+            "a path for me",
+            "a line for you",
+            "a song for us"
+          ],
+          "prompt": "I drew {{blank}}",
+          "promptZh": "我為了妳，畫下了那道線"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-25",
+          "answer": "all yellow",
+          "options": [
+            "all crimson",
+            "all yellow",
+            "all silver"
+          ],
+          "prompt": "And it was {{blank}}",
+          "promptZh": "而這一切，全都染上了黃色"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-27",
+          "answer": "skin and bones",
+          "options": [
+            "heart and mind",
+            "eyes and hair",
+            "skin and bones"
+          ],
+          "prompt": "Oh yeah your {{blank}}",
+          "promptZh": "噢，是啊，妳的肌膚與身軀"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-28",
+          "answer": "something beautiful",
+          "options": [
+            "something wonderful",
+            "someone special",
+            "something beautiful"
+          ],
+          "prompt": "Turn into {{blank}}",
+          "promptZh": "都化作了如此美麗的存在"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-30",
+          "answer": "bleed myself dry",
+          "options": [
+            "bleed myself dry",
+            "cry through the night",
+            "give my whole heart"
+          ],
+          "prompt": "For you I'd {{blank}}",
+          "promptZh": "為了妳，我甘願流盡自己最後一滴血"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-32",
+          "answer": "It's true",
+          "options": [
+            "It's true",
+            "It's real",
+            "I know"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "這一切都是真心的"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-33",
+          "answer": "shine for you",
+          "options": [
+            "glow for me",
+            "shine for you",
+            "dance for us"
+          ],
+          "prompt": "Look how they {{blank}}",
+          "promptZh": "看啊，它們正為妳閃耀著光芒"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-35",
+          "answer": "shine for",
+          "options": [
+            "shine for",
+            "wait for",
+            "call to"
+          ],
+          "prompt": "Look how they {{blank}}",
+          "promptZh": "看啊，它們正為……閃耀"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-39",
+          "answer": "the stars",
+          "options": [
+            "the stars",
+            "the ocean",
+            "the sunrise"
+          ],
+          "prompt": "Look at {{blank}}",
+          "promptZh": "抬頭看看滿天繁星"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-41",
+          "answer": "the things that you do",
+          "options": [
+            "the places that you go",
+            "the words that you say",
+            "the things that you do"
+          ],
+          "prompt": "And all {{blank}}",
+          "promptZh": "也為妳所做的一切而閃耀"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Look at {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Look how they {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "And {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Yeah, they were {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I {{q:6}} for you"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And all {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And it was {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "So then I {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Oh what {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And it was {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Oh yeah your {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Turn into {{q:14}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "You know I {{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "You know I {{q:17}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I {{q:18}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I {{q:19}} for you"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Oh what {{q:20}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "'Cause you were {{q:21}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I {{q:22}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I drew {{q:23}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Oh what a thing to do"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And it was {{q:24}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Your skin"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Oh yeah your {{q:25}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Turn into {{q:26}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Do you know"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "For you I'd {{q:27}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "For you I'd bleed myself dry"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Look how they {{q:29}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Look how they shine for you"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Look how they {{q:30}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Look how they shine for you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Look how they shine for you"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Look how they shine"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Look at {{q:31}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Look how they shine for you"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "And all {{q:32}}"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "the stars",
+          "options": [
+            "the clouds",
+            "the moon",
+            "the stars"
+          ],
+          "prompt": "Look at {{blank}}",
+          "promptZh": "抬頭看看滿天繁星"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "shine for you",
+          "options": [
+            "glow for me",
+            "wait for you",
+            "shine for you"
+          ],
+          "prompt": "Look how they {{blank}}",
+          "promptZh": "看啊，它們正為妳閃耀著光芒"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "everything you do",
+          "options": [
+            "everything you say",
+            "everything you do",
+            "all that you know"
+          ],
+          "prompt": "And {{blank}}",
+          "promptZh": "也為妳所做的一切而閃耀"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "all yellow",
+          "options": [
+            "all silver",
+            "so golden",
+            "all yellow"
+          ],
+          "prompt": "Yeah, they were {{blank}}",
+          "promptZh": "是啊，它們全都閃耀著黃色的光芒"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "came along",
+          "options": [
+            "stayed behind",
+            "walked away",
+            "came along"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我就這樣來到了妳身旁"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "wrote a song",
+          "options": [
+            "wrote a song",
+            "made a wish",
+            "sang a tune"
+          ],
+          "prompt": "I {{blank}} for you",
+          "promptZh": "我為妳寫下了一首歌"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "the things you do",
+          "options": [
+            "the words you say",
+            "the dreams you chase",
+            "the things you do"
+          ],
+          "prompt": "And all {{blank}}",
+          "promptZh": "也為妳所做的一切而寫"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "called \"Yellow\"",
+          "options": [
+            "named \"Sunlight\"",
+            "called \"Yellow\"",
+            "called \"Forever\""
+          ],
+          "prompt": "And it was {{blank}}",
+          "promptZh": "而這首歌，就叫作〈Yellow〉"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "took my turn",
+          "options": [
+            "made my choice",
+            "found my way",
+            "took my turn"
+          ],
+          "prompt": "So then I {{blank}}",
+          "promptZh": "於是，我也輪到自己採取行動"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "a thing to have done",
+          "options": [
+            "a thing to have done",
+            "a dream to come true",
+            "a chance to begin"
+          ],
+          "prompt": "Oh what {{blank}}",
+          "promptZh": "噢，這真是一件令人感慨的事"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "all yellow",
+          "options": [
+            "all yellow",
+            "bright silver",
+            "deep purple"
+          ],
+          "prompt": "And it was {{blank}}",
+          "promptZh": "而這一切，全都染上了黃色"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "Your skin",
+          "options": [
+            "Your eyes",
+            "Your smile",
+            "Your skin"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳的肌膚"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "skin and bones",
+          "options": [
+            "heart and soul",
+            "hands and feet",
+            "skin and bones"
+          ],
+          "prompt": "Oh yeah your {{blank}}",
+          "promptZh": "噢，是啊，妳的肌膚與身軀"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "something beautiful",
+          "options": [
+            "something beautiful",
+            "someone wonderful",
+            "something magical"
+          ],
+          "prompt": "Turn into {{blank}}",
+          "promptZh": "都化作了如此美麗的存在"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "Do you know",
+          "options": [
+            "Will you stay",
+            "Do you know",
+            "Can you see"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳知道嗎？"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "love you so",
+          "options": [
+            "miss you now",
+            "need you here",
+            "love you so"
+          ],
+          "prompt": "You know I {{blank}}",
+          "promptZh": "妳知道，我是如此深愛著妳"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-17",
+          "answer": "love you so",
+          "options": [
+            "love you so",
+            "think of you",
+            "care for you"
+          ],
+          "prompt": "You know I {{blank}}",
+          "promptZh": "妳知道，我是如此深愛著妳"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-18",
+          "answer": "swam across",
+          "options": [
+            "swam across",
+            "ran away",
+            "sailed along"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我游過了那片水域"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-19",
+          "answer": "jumped across",
+          "options": [
+            "climbed above",
+            "jumped across",
+            "walked around"
+          ],
+          "prompt": "I {{blank}} for you",
+          "promptZh": "為了妳，我奮不顧身地跨越阻隔"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-20",
+          "answer": "a thing to do",
+          "options": [
+            "a thing to do",
+            "a song to sing",
+            "a place to go"
+          ],
+          "prompt": "Oh what {{blank}}",
+          "promptZh": "噢，這是多麼不尋常的舉動"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-21",
+          "answer": "all yellow",
+          "options": [
+            "so purple",
+            "all yellow",
+            "bright orange"
+          ],
+          "prompt": "'Cause you were {{blank}}",
+          "promptZh": "因為妳渾身都閃耀著黃色的光芒"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-22",
+          "answer": "drew a line",
+          "options": [
+            "built a bridge",
+            "made a sign",
+            "drew a line"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我畫下了一道線"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-23",
+          "answer": "a line for you",
+          "options": [
+            "a song for us",
+            "a line for you",
+            "a path for me"
+          ],
+          "prompt": "I drew {{blank}}",
+          "promptZh": "我為了妳，畫下了那道線"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-24",
+          "answer": "a thing to do",
+          "options": [
+            "a thing to do",
+            "a dream to chase",
+            "a place to stay"
+          ],
+          "prompt": "Oh what {{blank}}",
+          "promptZh": "噢，這是多麼不尋常的舉動"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-25",
+          "answer": "all yellow",
+          "options": [
+            "all yellow",
+            "all crimson",
+            "all silver"
+          ],
+          "prompt": "And it was {{blank}}",
+          "promptZh": "而這一切，全都染上了黃色"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-26",
+          "answer": "Your skin",
+          "options": [
+            "Your hands",
+            "Your face",
+            "Your skin"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳的肌膚"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-27",
+          "answer": "skin and bones",
+          "options": [
+            "heart and mind",
+            "skin and bones",
+            "eyes and hair"
+          ],
+          "prompt": "Oh yeah your {{blank}}",
+          "promptZh": "噢，是啊，妳的肌膚與身軀"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-28",
+          "answer": "something beautiful",
+          "options": [
+            "someone special",
+            "something beautiful",
+            "something wonderful"
+          ],
+          "prompt": "Turn into {{blank}}",
+          "promptZh": "都化作了如此美麗的存在"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-29",
+          "answer": "Do you know",
+          "options": [
+            "Do you know",
+            "Can you hear",
+            "Would you stay"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳知道嗎？"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-30",
+          "answer": "bleed myself dry",
+          "options": [
+            "give my whole heart",
+            "bleed myself dry",
+            "cry through the night"
+          ],
+          "prompt": "For you I'd {{blank}}",
+          "promptZh": "為了妳，我甘願流盡自己最後一滴血"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-31",
+          "answer": "bleed myself dry",
+          "options": [
+            "give everything up",
+            "bleed myself dry",
+            "lose all my strength"
+          ],
+          "prompt": "For you I'd {{blank}}",
+          "promptZh": "為了妳，我甘願流盡自己最後一滴血"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-32",
+          "answer": "It's true",
+          "options": [
+            "It's true",
+            "I know",
+            "It's real"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "這一切都是真心的"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-33",
+          "answer": "shine for you",
+          "options": [
+            "dance for us",
+            "shine for you",
+            "glow for me"
+          ],
+          "prompt": "Look how they {{blank}}",
+          "promptZh": "看啊，它們正為妳閃耀著光芒"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-34",
+          "answer": "shine for you",
+          "options": [
+            "shine for you",
+            "sing for me",
+            "wait for us"
+          ],
+          "prompt": "Look how they {{blank}}",
+          "promptZh": "看啊，它們正為妳閃耀著光芒"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-35",
+          "answer": "shine for",
+          "options": [
+            "wait for",
+            "call to",
+            "shine for"
+          ],
+          "prompt": "Look how they {{blank}}",
+          "promptZh": "看啊，它們正為……閃耀"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-36",
+          "answer": "shine for you",
+          "options": [
+            "stay with me",
+            "shine for you",
+            "glow above"
+          ],
+          "prompt": "Look how they {{blank}}",
+          "promptZh": "看啊，它們正為妳閃耀著光芒"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-37",
+          "answer": "shine for you",
+          "options": [
+            "glow for us",
+            "shine so bright",
+            "shine for you"
+          ],
+          "prompt": "Look how they {{blank}}",
+          "promptZh": "看啊，它們正為妳閃耀著光芒"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-39",
+          "answer": "the stars",
+          "options": [
+            "the stars",
+            "the ocean",
+            "the sunrise"
+          ],
+          "prompt": "Look at {{blank}}",
+          "promptZh": "抬頭看看滿天繁星"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-40",
+          "answer": "shine for you",
+          "options": [
+            "glow at night",
+            "shine for you",
+            "shine on me"
+          ],
+          "prompt": "Look how they {{blank}}",
+          "promptZh": "看啊，它們正為妳閃耀著光芒"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-41",
+          "answer": "the things that you do",
+          "options": [
+            "the things that you do",
+            "the places that you go",
+            "the words that you say"
+          ],
+          "prompt": "And all {{blank}}",
+          "promptZh": "也為妳所做的一切而閃耀"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Look at {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Look how they {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "And {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Yeah, they were {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I {{q:6}} for you"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And all {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And it was {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "So then I {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Oh what {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And it was {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Oh yeah your {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Turn into {{q:14}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "You know I {{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "You know I {{q:17}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I {{q:18}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I {{q:19}} for you"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Oh what {{q:20}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "'Cause you were {{q:21}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I {{q:22}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I drew {{q:23}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Oh what {{q:24}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And it was {{q:25}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:26}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Oh yeah your {{q:27}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Turn into {{q:28}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:29}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "For you I'd {{q:30}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "For you I'd {{q:31}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Look how they {{q:33}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Look how they {{q:34}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Look how they {{q:35}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Look how they {{q:36}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Look how they {{q:37}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Look how they shine"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Look at {{q:38}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Look how they {{q:39}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "And all {{q:40}}"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "Look at",
+          "options": [
+            "Think of",
+            "Look at",
+            "Run to"
+          ],
+          "prompt": "{{blank}} the stars",
+          "promptZh": "抬頭看看滿天繁星"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "the stars",
+          "options": [
+            "the moon",
+            "the stars",
+            "the clouds"
+          ],
+          "prompt": "Look at {{blank}}",
+          "promptZh": "抬頭看看滿天繁星"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 4,
+          "lineId": "line-2",
+          "answer": "Look how",
+          "options": [
+            "Tell why",
+            "See where",
+            "Look how"
+          ],
+          "prompt": "{{blank}} they shine for you",
+          "promptZh": "看啊，它們正為妳閃耀著光芒"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "shine for you",
+          "options": [
+            "glow for me",
+            "shine for you",
+            "wait for you"
+          ],
+          "prompt": "Look how they {{blank}}",
+          "promptZh": "看啊，它們正為妳閃耀著光芒"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-3",
+          "answer": "everything you do",
+          "options": [
+            "everything you say",
+            "all that you know",
+            "everything you do"
+          ],
+          "prompt": "And {{blank}}",
+          "promptZh": "也為妳所做的一切而閃耀"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 7,
+          "lineId": "line-4",
+          "answer": "they were",
+          "options": [
+            "they were",
+            "we are",
+            "you seem"
+          ],
+          "prompt": "Yeah, {{blank}} all yellow",
+          "promptZh": "是啊，它們全都閃耀著黃色的光芒"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 6,
+          "lineId": "line-4",
+          "answer": "all yellow",
+          "options": [
+            "all yellow",
+            "so golden",
+            "all silver"
+          ],
+          "prompt": "Yeah, they were {{blank}}",
+          "promptZh": "是啊，它們全都閃耀著黃色的光芒"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-5",
+          "answer": "came along",
+          "options": [
+            "stayed behind",
+            "walked away",
+            "came along"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我就這樣來到了妳身旁"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-6",
+          "answer": "wrote a song",
+          "options": [
+            "made a wish",
+            "sang a tune",
+            "wrote a song"
+          ],
+          "prompt": "I {{blank}} for you",
+          "promptZh": "我為妳寫下了一首歌"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-6",
+          "answer": "for you",
+          "options": [
+            "at night",
+            "for you",
+            "with me"
+          ],
+          "prompt": "I wrote a song {{blank}}",
+          "promptZh": "我為妳寫下了一首歌"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-7",
+          "answer": "the things you do",
+          "options": [
+            "the words you say",
+            "the things you do",
+            "the dreams you chase"
+          ],
+          "prompt": "And all {{blank}}",
+          "promptZh": "也為妳所做的一切而寫"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-8",
+          "answer": "called \"Yellow\"",
+          "options": [
+            "called \"Yellow\"",
+            "named \"Sunlight\"",
+            "called \"Forever\""
+          ],
+          "prompt": "And it was {{blank}}",
+          "promptZh": "而這首歌，就叫作〈Yellow〉"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-9",
+          "answer": "took my turn",
+          "options": [
+            "found my way",
+            "made my choice",
+            "took my turn"
+          ],
+          "prompt": "So then I {{blank}}",
+          "promptZh": "於是，我也輪到自己採取行動"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-10",
+          "answer": "a thing to have done",
+          "options": [
+            "a chance to begin",
+            "a thing to have done",
+            "a dream to come true"
+          ],
+          "prompt": "Oh what {{blank}}",
+          "promptZh": "噢，這真是一件令人感慨的事"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-11",
+          "answer": "And it was",
+          "options": [
+            "And it was",
+            "And it is",
+            "And you were"
+          ],
+          "prompt": "{{blank}} all yellow",
+          "promptZh": "而這一切，全都染上了黃色"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-11",
+          "answer": "all yellow",
+          "options": [
+            "deep purple",
+            "all yellow",
+            "bright silver"
+          ],
+          "prompt": "And it was {{blank}}",
+          "promptZh": "而這一切，全都染上了黃色"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-12",
+          "answer": "Your skin",
+          "options": [
+            "Your skin",
+            "Your smile",
+            "Your eyes"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳的肌膚"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 19,
+          "lineId": "line-13",
+          "answer": "Oh yeah",
+          "options": [
+            "Oh no",
+            "Oh yeah",
+            "Hey now"
+          ],
+          "prompt": "{{blank}} your skin and bones",
+          "promptZh": "噢，是啊，妳的肌膚與身軀"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 18,
+          "lineId": "line-13",
+          "answer": "skin and bones",
+          "options": [
+            "heart and soul",
+            "skin and bones",
+            "hands and feet"
+          ],
+          "prompt": "Oh yeah your {{blank}}",
+          "promptZh": "噢，是啊，妳的肌膚與身軀"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-14",
+          "answer": "something beautiful",
+          "options": [
+            "someone wonderful",
+            "something magical",
+            "something beautiful"
+          ],
+          "prompt": "Turn into {{blank}}",
+          "promptZh": "都化作了如此美麗的存在"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-15",
+          "answer": "Do you know",
+          "options": [
+            "Can you see",
+            "Will you stay",
+            "Do you know"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳知道嗎？"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-16",
+          "answer": "love you so",
+          "options": [
+            "love you so",
+            "need you here",
+            "miss you now"
+          ],
+          "prompt": "You know I {{blank}}",
+          "promptZh": "妳知道，我是如此深愛著妳"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-17",
+          "answer": "love you so",
+          "options": [
+            "care for you",
+            "think of you",
+            "love you so"
+          ],
+          "prompt": "You know I {{blank}}",
+          "promptZh": "妳知道，我是如此深愛著妳"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-18",
+          "answer": "swam across",
+          "options": [
+            "sailed along",
+            "ran away",
+            "swam across"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我游過了那片水域"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-19",
+          "answer": "jumped across",
+          "options": [
+            "climbed above",
+            "jumped across",
+            "walked around"
+          ],
+          "prompt": "I {{blank}} for you",
+          "promptZh": "為了妳，我奮不顧身地跨越阻隔"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-19",
+          "answer": "for you",
+          "options": [
+            "for you",
+            "from here",
+            "with me"
+          ],
+          "prompt": "I jumped across {{blank}}",
+          "promptZh": "為了妳，我奮不顧身地跨越阻隔"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-20",
+          "answer": "a thing to do",
+          "options": [
+            "a thing to do",
+            "a song to sing",
+            "a place to go"
+          ],
+          "prompt": "Oh what {{blank}}",
+          "promptZh": "噢，這是多麼不尋常的舉動"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 29,
+          "lineId": "line-21",
+          "answer": "'Cause you were",
+          "options": [
+            "Because I am",
+            "And we are",
+            "'Cause you were"
+          ],
+          "prompt": "{{blank}} all yellow",
+          "promptZh": "因為妳渾身都閃耀著黃色的光芒"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 28,
+          "lineId": "line-21",
+          "answer": "all yellow",
+          "options": [
+            "all yellow",
+            "bright orange",
+            "so purple"
+          ],
+          "prompt": "'Cause you were {{blank}}",
+          "promptZh": "因為妳渾身都閃耀著黃色的光芒"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-22",
+          "answer": "drew a line",
+          "options": [
+            "built a bridge",
+            "made a sign",
+            "drew a line"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我畫下了一道線"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 32,
+          "lineId": "line-23",
+          "answer": "I drew",
+          "options": [
+            "We found",
+            "I drew",
+            "You made"
+          ],
+          "prompt": "{{blank}} a line for you",
+          "promptZh": "我為了妳，畫下了那道線"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 31,
+          "lineId": "line-23",
+          "answer": "a line for you",
+          "options": [
+            "a line for you",
+            "a song for us",
+            "a path for me"
+          ],
+          "prompt": "I drew {{blank}}",
+          "promptZh": "我為了妳，畫下了那道線"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-24",
+          "answer": "a thing to do",
+          "options": [
+            "a dream to chase",
+            "a thing to do",
+            "a place to stay"
+          ],
+          "prompt": "Oh what {{blank}}",
+          "promptZh": "噢，這是多麼不尋常的舉動"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-25",
+          "answer": "all yellow",
+          "options": [
+            "all crimson",
+            "all silver",
+            "all yellow"
+          ],
+          "prompt": "And it was {{blank}}",
+          "promptZh": "而這一切，全都染上了黃色"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-26",
+          "answer": "Your skin",
+          "options": [
+            "Your skin",
+            "Your face",
+            "Your hands"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳的肌膚"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-27",
+          "answer": "skin and bones",
+          "options": [
+            "eyes and hair",
+            "skin and bones",
+            "heart and mind"
+          ],
+          "prompt": "Oh yeah your {{blank}}",
+          "promptZh": "噢，是啊，妳的肌膚與身軀"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-28",
+          "answer": "something beautiful",
+          "options": [
+            "something beautiful",
+            "something wonderful",
+            "someone special"
+          ],
+          "prompt": "Turn into {{blank}}",
+          "promptZh": "都化作了如此美麗的存在"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-29",
+          "answer": "Do you know",
+          "options": [
+            "Would you stay",
+            "Can you hear",
+            "Do you know"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "妳知道嗎？"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-30",
+          "answer": "bleed myself dry",
+          "options": [
+            "bleed myself dry",
+            "cry through the night",
+            "give my whole heart"
+          ],
+          "prompt": "For you I'd {{blank}}",
+          "promptZh": "為了妳，我甘願流盡自己最後一滴血"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-31",
+          "answer": "bleed myself dry",
+          "options": [
+            "give everything up",
+            "bleed myself dry",
+            "lose all my strength"
+          ],
+          "prompt": "For you I'd {{blank}}",
+          "promptZh": "為了妳，我甘願流盡自己最後一滴血"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-32",
+          "answer": "It's true",
+          "options": [
+            "I know",
+            "It's real",
+            "It's true"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "這一切都是真心的"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-33",
+          "answer": "shine for you",
+          "options": [
+            "dance for us",
+            "shine for you",
+            "glow for me"
+          ],
+          "prompt": "Look how they {{blank}}",
+          "promptZh": "看啊，它們正為妳閃耀著光芒"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-34",
+          "answer": "shine for you",
+          "options": [
+            "wait for us",
+            "sing for me",
+            "shine for you"
+          ],
+          "prompt": "Look how they {{blank}}",
+          "promptZh": "看啊，它們正為妳閃耀著光芒"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-35",
+          "answer": "shine for",
+          "options": [
+            "wait for",
+            "shine for",
+            "call to"
+          ],
+          "prompt": "Look how they {{blank}}",
+          "promptZh": "看啊，它們正為……閃耀"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-36",
+          "answer": "shine for you",
+          "options": [
+            "shine for you",
+            "stay with me",
+            "glow above"
+          ],
+          "prompt": "Look how they {{blank}}",
+          "promptZh": "看啊，它們正為妳閃耀著光芒"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-37",
+          "answer": "shine for you",
+          "options": [
+            "shine so bright",
+            "glow for us",
+            "shine for you"
+          ],
+          "prompt": "Look how they {{blank}}",
+          "promptZh": "看啊，它們正為妳閃耀著光芒"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-38",
+          "answer": "how they shine",
+          "options": [
+            "how they shine",
+            "why they fall",
+            "where they go"
+          ],
+          "prompt": "Look {{blank}}",
+          "promptZh": "看啊，它們閃耀得如此燦爛"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-39",
+          "answer": "the stars",
+          "options": [
+            "the sunrise",
+            "the stars",
+            "the ocean"
+          ],
+          "prompt": "Look at {{blank}}",
+          "promptZh": "抬頭看看滿天繁星"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-40",
+          "answer": "shine for you",
+          "options": [
+            "shine for you",
+            "glow at night",
+            "shine on me"
+          ],
+          "prompt": "Look how they {{blank}}",
+          "promptZh": "看啊，它們正為妳閃耀著光芒"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-41",
+          "answer": "the things that you do",
+          "options": [
+            "the things that you do",
+            "the places that you go",
+            "the words that you say"
+          ],
+          "prompt": "And all {{blank}}",
+          "promptZh": "也為妳所做的一切而閃耀"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} they {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "And {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Yeah, {{q:6}} {{q:7}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I {{q:8}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I {{q:9}} {{q:10}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And all {{q:11}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And it was {{q:12}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "So then I {{q:13}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Oh what {{q:14}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:15}} {{q:16}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:18}} your {{q:19}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Turn into {{q:20}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:21}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "You know I {{q:22}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "You know I {{q:23}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I {{q:24}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I {{q:25}} {{q:26}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Oh what {{q:27}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:28}} {{q:29}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I {{q:30}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:31}} {{q:32}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Oh what {{q:33}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And it was {{q:34}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:35}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Oh yeah your {{q:36}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Turn into {{q:37}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:38}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "For you I'd {{q:39}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "For you I'd {{q:40}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:41}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Look how they {{q:42}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Look how they {{q:43}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Look how they {{q:44}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Look how they {{q:45}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Look how they {{q:46}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Look {{q:47}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Look at {{q:48}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Look how they {{q:49}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "And all {{q:50}}"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Yellow · Listening & Vocabulary",
+  "description": "《Yellow》描寫一份純粹、溫柔而充滿奉獻精神的愛情。歌中的主角深深愛著對方，認為她的存在讓整個世界變得更加明亮美好，彷彿連夜空中的星星都為她閃耀。他透過寫歌、跨越障礙與勇敢付出，表達自己深厚而真摯的愛意。在他眼中，對方的一切都如此珍貴，甚至願意為她犧牲自己。歌曲中的「Yellow」帶有溫暖、光芒與希望的象徵意味，營造出浪漫而夢幻的氛圍。最終，《Yellow》傳達的是愛情中的欣賞、真誠與無私奉獻：當一個人真正深愛著對方，平凡的事物也會變得格外美麗，而那份發自內心的珍惜，更能讓愛情如星光般長久閃耀。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Look at",
+      "meaning": "看一看、注視……",
+      "usage": "想請別人把注意力放到某個人或東西上時使用；後面接名詞。",
+      "prompt": "哪一句正確使用「Look at」？",
+      "options": [
+        "Please look at to the actor on the stage.",
+        "Look at the map before we enter the forest.",
+        "I look at happy when the train arrives.",
+        "She looked at for her ticket at the station."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：look at 後面直接接名詞，不需要 to；可說 look at the actor。",
+        "正確：look at 後接 the map，表示先看地圖。",
+        "錯誤：表示看起來開心應用 look happy，不用 look at happy。",
+        "錯誤：尋找票要用 look for，不是 look at for。"
+      ],
+      "explanation": "正確：look at 後接 the map，表示先看地圖。"
+    },
+    {
+      "number": 2,
+      "word": "Shine",
+      "meaning": "發光、閃耀",
+      "usage": "形容太陽、星星、燈光或物品發出亮光時使用。",
+      "prompt": "哪一句正確使用「Shine」？",
+      "options": [
+        "The lights shine brightly above the stage.",
+        "My cousin shines the bus to the museum.",
+        "We shined hungry after the long match.",
+        "The guide shined us the old castle."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：shine 指燈光發亮。",
+        "錯誤：shine 不能表示搭公車；應說 takes the bus。",
+        "錯誤：肚子餓應用 felt hungry 或 were hungry。",
+        "錯誤：帶人參觀應用 showed us，不用 shined us。"
+      ],
+      "explanation": "正確：shine 指燈光發亮。"
+    },
+    {
+      "number": 3,
+      "word": "Come along",
+      "meaning": "一起來、跟著來；出現、到來",
+      "usage": "邀請別人一起參加活動，或描述某事出現時可以用。",
+      "prompt": "哪一句正確使用「Come along」？",
+      "options": [
+        "The photographer came along the photo yesterday.",
+        "I came along asleep during the lecture.",
+        "The new student came along a question to the teacher.",
+        "We're visiting the science museum. Would you like to come along?"
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：拍照片應用 took the photo。",
+        "錯誤：睡著要說 fell asleep。",
+        "錯誤：問問題應說 asked the teacher a question。",
+        "正確：come along 用來邀請對方同行。"
+      ],
+      "explanation": "正確：come along 用來邀請對方同行。"
+    },
+    {
+      "number": 4,
+      "word": "Take your turn",
+      "meaning": "輪到你時去做、輪流做",
+      "usage": "玩遊戲、參加活動或依序發言時，表示輪到某人。",
+      "prompt": "哪一句正確使用「Take your turn」？",
+      "options": [
+        "Please take your turn blue before the show.",
+        "I took my turn to the bank for some money.",
+        "After Leo finished, I took my turn at the microphone.",
+        "The singer took her turn a new microphone."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：take your turn 不能接 blue 表示換顏色。",
+        "錯誤：去銀行不能用 take my turn to；應說 went to the bank。",
+        "正確：前一個人結束後，輪到我使用麥克風。",
+        "錯誤：這裡不能用 take her turn 表示拿麥克風；應說 took a microphone。"
+      ],
+      "explanation": "正確：前一個人結束後，輪到我使用麥克風。"
+    },
+    {
+      "number": 5,
+      "word": "Turn into",
+      "meaning": "變成、轉變成",
+      "usage": "描述某物或某種情況變成另一種狀態時使用，後面接結果。",
+      "prompt": "哪一句正確使用「Turn into」？",
+      "options": [
+        "He turned into his teacher a question.",
+        "The empty building turned into a small theatre.",
+        "I turned into my alarm at seven.",
+        "They turned into at the airport early."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：向老師問問題應說 asked his teacher a question。",
+        "正確：建築物改建成小劇院，使用 turned into。",
+        "錯誤：關鬧鐘應說 turned off my alarm。",
+        "錯誤：表示抵達應說 arrived at the airport。"
+      ],
+      "explanation": "正確：建築物改建成小劇院，使用 turned into。"
+    },
+    {
+      "number": 6,
+      "word": "Beautiful",
+      "meaning": "美麗的、好看的",
+      "usage": "形容風景、藝術作品、音樂或人很美時使用；通常放在名詞前或 be 後面。",
+      "prompt": "哪一句正確使用「Beautiful」？",
+      "options": [
+        "We beautiful the history lesson before lunch.",
+        "She drove beautiful to the airport.",
+        "He put three beautiful into his bag.",
+        "The dancer wore a beautiful blue dress."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：beautiful 是形容詞，不能直接當動詞使用。",
+        "錯誤：修飾開車的方式不能直接用形容詞 beautiful。",
+        "錯誤：beautiful 後面缺少名詞，不能單獨表示三個物品。",
+        "正確：beautiful 修飾 dress，形容洋裝好看。"
+      ],
+      "explanation": "正確：beautiful 修飾 dress，形容洋裝好看。"
+    },
+    {
+      "number": 7,
+      "word": "Swim across",
+      "meaning": "游過、游到……的另一邊",
+      "usage": "表示從河流、泳池等水域的一側游到另一側。",
+      "prompt": "哪一句正確使用「Swim across」？",
+      "options": [
+        "My uncle swam across the mountain on a bike.",
+        "We swam across our English test on Monday.",
+        "During the race, Mia swam across the lake.",
+        "The pilot swam across the plane to London."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：騎車翻山不是游泳；可說 cycled across the mountain area。",
+        "錯誤：考試不能用 swim across；可說 took our English test。",
+        "正確：從湖的一邊游到另一邊。",
+        "錯誤：搭飛機去倫敦不是游泳；可說 flew to London。"
+      ],
+      "explanation": "正確：從湖的一邊游到另一邊。"
+    },
+    {
+      "number": 8,
+      "word": "Draw a line",
+      "meaning": "畫一條線；劃清界線",
+      "usage": "畫圖時可指真的畫線；也可用於表達某個不能接受的界限。",
+      "prompt": "哪一句正確使用「Draw a line」？",
+      "options": [
+        "Draw a line between the two towns on the map.",
+        "Draw a line your email before you send it.",
+        "She drew a line the music louder at the party.",
+        "I drew a line to the station by taking the subway."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：在地圖上兩個城鎮之間畫一條線。",
+        "錯誤：寄電子郵件不需要用 draw a line 表示檢查；應說 check your email。",
+        "錯誤：調大音樂應說 turned the music up。",
+        "錯誤：搭地鐵去車站應說 went to the station。"
+      ],
+      "explanation": "正確：在地圖上兩個城鎮之間畫一條線。"
+    },
+    {
+      "number": 9,
+      "word": "It's true",
+      "meaning": "這是真的、確實如此",
+      "usage": "想強調某件事情是真實的，或同意別人說的事實時可以用。",
+      "prompt": "哪一句正確使用「It's true」？",
+      "options": [
+        "It's true that our class won the art prize.",
+        "It's true my passport at home yesterday.",
+        "We it's true to the library after school.",
+        "She bought an it's true for her birthday."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：用 It's true that 強調班級得獎是事實。",
+        "錯誤：It's true 後面需要完整子句；可說 It's true that I left my passport at home。",
+        "錯誤：It's true 不能當表示去某處的動詞；應說 went to the library。",
+        "錯誤：It's true 不是可數物品，不能接在 an 後面。"
+      ],
+      "explanation": "正確：用 It's true that 強調班級得獎是事實。"
+    },
+    {
+      "number": 10,
+      "word": "For you",
+      "meaning": "為了你、給你的",
+      "usage": "表達某件東西是送給對方，或某個行動是替對方做的時候使用。",
+      "prompt": "哪一句正確使用「For you」？",
+      "options": [
+        "I for you the window because it was hot.",
+        "I saved a seat for you near the front of the cinema.",
+        "This train for you at six every morning.",
+        "They were for you tired after the long walk."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：for you 不能當動詞；應說 I opened the window for you。",
+        "正確：for you 表示替對方保留座位。",
+        "錯誤：句子缺少動詞；可說 This train leaves at six。",
+        "錯誤：for you 不能放在 were 與 tired 之間表示很累。"
+      ],
+      "explanation": "正確：for you 表示替對方保留座位。"
+    }
+  ],
+  "tags": [
+    "coldplay",
+    "yellow",
+    "love",
+    "devotion"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/yellow/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/yellow/user-cover-20261030.png",
+  "editorialRepairs": [],
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 266.7733125,
+    "audioSha256": "c993508938b123d7aee778cea4d03ac3f342badf01a7d2c66d68426a2c691424",
+    "timedLines": 34,
+    "untimedLines": 7,
+    "reviewStatus": "Conservative automatic line alignment. Unmatched/overlapping background lines remain bilingual without guessed timestamps; not a full manual timing certification."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Yellow_.pdf",
+      "sha256": "5bf858ebf3582f4adb7d1fce4ef529eb713ed81f828c52ba538a2e15d0ad9e95"
+    },
+    "chosenListening": {
+      "filename": "Yellow_Four_Level_Listening_Exercise.md",
+      "sha256": "35d28995b45b51c27e8a19918f7f2d16f57ef8f012e08a7784b61c6ac52d806c"
+    },
+    "chosenVocabulary": {
+      "filename": "Yellow_Vocabulary_Quiz.md",
+      "sha256": "17ed569199b2a0281c331bf698dd77818dc3271a82260b482bc50c4bbbcc9a22"
+    },
+    "mp3": {
+      "filename": "Yellow [9qnqYL0eNNI].mp3",
+      "sha256": "c993508938b123d7aee778cea4d03ac3f342badf01a7d2c66d68426a2c691424"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-9db16765-21b3-4718-8d54-2c93032a3442.png",
+    "sha256": "12d7a649c0ac21019698ba3f78ca5143690ea49746b6ceaf075001543e77aa5a",
+    "transformations": "none",
+    "selectedOn": "2026-10-30"
+  }
+}

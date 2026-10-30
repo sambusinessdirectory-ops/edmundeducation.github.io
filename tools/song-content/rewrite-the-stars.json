@@ -1,0 +1,3762 @@
+{
+  "slug": "rewrite-the-stars",
+  "title": "Rewrite The Stars",
+  "singer": "Zac Efron & Zendaya",
+  "translations": [
+    {
+      "english": "[Zac Efron:]",
+      "chinese": "[ZacEfron：]",
+      "lineId": "line-1"
+    },
+    {
+      "english": "You know I want you",
+      "chinese": "妳知道，我渴望與妳相守",
+      "lineId": "line-2",
+      "startSeconds": 0.0,
+      "endSeconds": 2.12
+    },
+    {
+      "english": "It's not a secret I try to hide",
+      "chinese": "這份心意，我從未試圖隱藏",
+      "lineId": "line-3",
+      "startSeconds": 4.02,
+      "endSeconds": 7.3
+    },
+    {
+      "english": "I know you want me",
+      "chinese": "我知道，妳也同樣渴望著我",
+      "lineId": "line-4",
+      "startSeconds": 8.0,
+      "endSeconds": 10.0
+    },
+    {
+      "english": "So don't keep saying our hands are tied",
+      "chinese": "所以，別再說我們無能為力、身不由己",
+      "lineId": "line-5",
+      "startSeconds": 11.58,
+      "endSeconds": 15.02
+    },
+    {
+      "english": "You claim it's not in the cards",
+      "chinese": "妳說，命運早已注定，我們無緣相守",
+      "lineId": "line-6",
+      "startSeconds": 15.82,
+      "endSeconds": 17.82
+    },
+    {
+      "english": "But fate is pulling you miles away",
+      "chinese": "可命運卻正將妳拉向遙遠的彼方",
+      "lineId": "line-7",
+      "startSeconds": 17.82,
+      "endSeconds": 20.66
+    },
+    {
+      "english": "And out of reach from me",
+      "chinese": "讓妳漸漸遠離我，再也無法觸及",
+      "lineId": "line-8",
+      "startSeconds": 20.66,
+      "endSeconds": 23.5
+    },
+    {
+      "english": "But you're here in my heart",
+      "chinese": "然而，妳始終住在我的心裡",
+      "lineId": "line-9",
+      "startSeconds": 23.5,
+      "endSeconds": 25.38
+    },
+    {
+      "english": "So who can stop me if I decide",
+      "chinese": "所以，如果我已下定決心",
+      "lineId": "line-10",
+      "startSeconds": 25.38,
+      "endSeconds": 28.26
+    },
+    {
+      "english": "That you're my destiny?",
+      "chinese": "認定妳就是我命中注定的人，誰又能阻止我？",
+      "lineId": "line-11",
+      "startSeconds": 28.26,
+      "endSeconds": 30.72
+    },
+    {
+      "english": "What if we rewrite the stars?",
+      "chinese": "倘若我們能重新改寫星辰所注定的命運呢？",
+      "lineId": "line-12",
+      "startSeconds": 33.3,
+      "endSeconds": 37.28
+    },
+    {
+      "english": "Say you were made to be mine",
+      "chinese": "讓命運宣告，妳生來就是要與我相守",
+      "lineId": "line-13",
+      "startSeconds": 37.28,
+      "endSeconds": 41.12
+    },
+    {
+      "english": "Nothing could keep us apart",
+      "chinese": "再沒有任何力量能將我們分開",
+      "lineId": "line-14",
+      "startSeconds": 41.12,
+      "endSeconds": 44.84
+    },
+    {
+      "english": "You'd be the one I was meant to find",
+      "chinese": "妳就是我命中注定要尋得的那個人",
+      "lineId": "line-15",
+      "startSeconds": 44.84,
+      "endSeconds": 48.8
+    },
+    {
+      "english": "It's up to you",
+      "chinese": "這一切取決於妳",
+      "lineId": "line-16",
+      "startSeconds": 48.8,
+      "endSeconds": 50.5
+    },
+    {
+      "english": "And it's up to me",
+      "chinese": "也取決於我",
+      "lineId": "line-17",
+      "startSeconds": 50.66,
+      "endSeconds": 52.48
+    },
+    {
+      "english": "No one can say what we get to be",
+      "chinese": "沒有人能替我們決定，未來能成為什麼模樣",
+      "lineId": "line-18",
+      "startSeconds": 52.48,
+      "endSeconds": 56.54
+    },
+    {
+      "english": "So why don't we rewrite the stars?",
+      "chinese": "那麼，我們何不一起改寫星辰的命運？",
+      "lineId": "line-19",
+      "startSeconds": 56.54,
+      "endSeconds": 60.44
+    },
+    {
+      "english": "Maybe the world could be ours",
+      "chinese": "或許，整個世界終將屬於我們",
+      "lineId": "line-20",
+      "startSeconds": 60.92,
+      "endSeconds": 64.86
+    },
+    {
+      "english": "Tonight",
+      "chinese": "就在今夜",
+      "lineId": "line-21",
+      "startSeconds": 64.86,
+      "endSeconds": 65.74
+    },
+    {
+      "english": "[Zendaya:]",
+      "chinese": "[Zendaya：]",
+      "lineId": "line-22"
+    },
+    {
+      "english": "You think it's easy",
+      "chinese": "你以為這一切很容易",
+      "lineId": "line-23",
+      "startSeconds": 73.24,
+      "endSeconds": 75.12
+    },
+    {
+      "english": "You think I don't wanna run to you",
+      "chinese": "你以為我不想奔向你的懷抱嗎？",
+      "lineId": "line-24",
+      "startSeconds": 77.06,
+      "endSeconds": 80.42
+    },
+    {
+      "english": "But there are mountains",
+      "chinese": "可我們面前橫亙著重重高山",
+      "lineId": "line-25",
+      "startSeconds": 80.42,
+      "endSeconds": 82.6
+    },
+    {
+      "english": "And there are doors that we can't walk through",
+      "chinese": "還有一道道我們無法跨越的門檻",
+      "lineId": "line-26",
+      "startSeconds": 84.36,
+      "endSeconds": 88.3
+    },
+    {
+      "english": "I know you're wondering why",
+      "chinese": "我知道，你一定想問為什麼",
+      "lineId": "line-27",
+      "startSeconds": 88.3,
+      "endSeconds": 90.72
+    },
+    {
+      "english": "Because we're able to be",
+      "chinese": "因為在這裡，我們明明可以",
+      "lineId": "line-28",
+      "startSeconds": 90.72,
+      "endSeconds": 92.64
+    },
+    {
+      "english": "Just you and me",
+      "chinese": "只是單純的你與我",
+      "lineId": "line-29",
+      "startSeconds": 92.64,
+      "endSeconds": 94.62
+    },
+    {
+      "english": "Within these walls",
+      "chinese": "在這四面牆所圍起的世界裡",
+      "lineId": "line-30",
+      "startSeconds": 94.62,
+      "endSeconds": 96.64
+    },
+    {
+      "english": "But when we go outside",
+      "chinese": "可一旦我們走到外面的世界",
+      "lineId": "line-31",
+      "startSeconds": 96.64,
+      "endSeconds": 98.48
+    },
+    {
+      "english": "You're gonna wake up",
+      "chinese": "你終究會從美夢中醒來",
+      "lineId": "line-32",
+      "startSeconds": 98.48,
+      "endSeconds": 99.78
+    },
+    {
+      "english": "And see that it was hopeless after all",
+      "chinese": "然後發現，這一切終究沒有希望",
+      "lineId": "line-33",
+      "startSeconds": 99.78,
+      "endSeconds": 106.0
+    },
+    {
+      "english": "No one can rewrite the stars",
+      "chinese": "沒有人能改寫星辰所注定的命運",
+      "lineId": "line-34",
+      "startSeconds": 106.6,
+      "endSeconds": 110.3
+    },
+    {
+      "english": "How can you say you'll be mine",
+      "chinese": "你又怎能說，我們注定能夠相守？",
+      "lineId": "line-35",
+      "startSeconds": 110.3,
+      "endSeconds": 114.12
+    },
+    {
+      "english": "Everything keeps us apart",
+      "chinese": "現實中的一切，都在阻隔著我們",
+      "lineId": "line-36",
+      "startSeconds": 114.6,
+      "endSeconds": 118.04
+    },
+    {
+      "english": "And I'm not the one you were meant to find",
+      "chinese": "而我也不是你命中注定要尋得的那個人",
+      "lineId": "line-37",
+      "startSeconds": 118.04,
+      "endSeconds": 121.92
+    },
+    {
+      "english": "It's not up to you",
+      "chinese": "這並非你能決定",
+      "lineId": "line-38",
+      "startSeconds": 121.92,
+      "endSeconds": 123.66
+    },
+    {
+      "english": "It's not up to me",
+      "chinese": "也並非我能決定",
+      "lineId": "line-39",
+      "startSeconds": 123.82,
+      "endSeconds": 125.42
+    },
+    {
+      "english": "When everyone tells us what we can be",
+      "chinese": "當所有人都在規定，我們能成為什麼樣的人",
+      "lineId": "line-40",
+      "startSeconds": 125.42,
+      "endSeconds": 129.36
+    },
+    {
+      "english": "How can we rewrite the stars?",
+      "chinese": "我們又怎能改寫星辰的命運？",
+      "lineId": "line-41",
+      "startSeconds": 129.36,
+      "endSeconds": 133.38
+    },
+    {
+      "english": "Say that the world can be ours",
+      "chinese": "又怎能說，整個世界可以屬於我們？",
+      "lineId": "line-42",
+      "startSeconds": 133.74,
+      "endSeconds": 137.52
+    },
+    {
+      "english": "Tonight",
+      "chinese": "就在今夜",
+      "lineId": "line-43",
+      "startSeconds": 137.52,
+      "endSeconds": 138.74
+    },
+    {
+      "english": "[Zac Efron & Zendaya:] [Zac Efron",
+      "chinese": "與Zendaya：]",
+      "lineId": "line-44"
+    },
+    {
+      "english": "All I want is to fly with you",
+      "chinese": "我唯一渴望的，就是與你一同展翅高飛",
+      "lineId": "line-45",
+      "startSeconds": 139.16,
+      "endSeconds": 142.7
+    },
+    {
+      "english": "All I want is to fall with you",
+      "chinese": "我唯一渴望的，就是與你一同墜落，無論結局如何",
+      "lineId": "line-46",
+      "startSeconds": 142.7,
+      "endSeconds": 146.78
+    },
+    {
+      "english": "So just give me all of you",
+      "chinese": "所以，請將你的整顆心，毫無保留地交給我",
+      "lineId": "line-47",
+      "startSeconds": 146.78,
+      "endSeconds": 150.52
+    },
+    {
+      "english": "[Zendaya:]",
+      "chinese": "[Zendaya：]",
+      "lineId": "line-48"
+    },
+    {
+      "english": "It feels impossible",
+      "chinese": "這一切感覺根本不可能",
+      "lineId": "line-49",
+      "startSeconds": 151.26,
+      "endSeconds": 152.52
+    },
+    {
+      "english": "[Zac Efron:]",
+      "chinese": "[ZacEfron：]",
+      "lineId": "line-50"
+    },
+    {
+      "english": "It's not impossible",
+      "chinese": "這並非不可能",
+      "lineId": "line-51",
+      "startSeconds": 152.52,
+      "endSeconds": 154.46
+    },
+    {
+      "english": "[Zendaya:]",
+      "chinese": "[Zendaya：]",
+      "lineId": "line-52"
+    },
+    {
+      "english": "Is it impossible?",
+      "chinese": "難道真的不可能嗎？",
+      "lineId": "line-53"
+    },
+    {
+      "english": "[Both:]",
+      "chinese": "[兩人合唱：]",
+      "lineId": "line-54"
+    },
+    {
+      "english": "Say that it's possible",
+      "chinese": "告訴我，這一切仍有可能",
+      "lineId": "line-55"
+    },
+    {
+      "english": "[Zac Efron & Zendaya:] [Zac Efron",
+      "chinese": "與Zendaya：]",
+      "lineId": "line-56"
+    },
+    {
+      "english": "How do we rewrite the stars?",
+      "chinese": "我們究竟該如何改寫星辰的命運？",
+      "lineId": "line-57",
+      "startSeconds": 158.26,
+      "endSeconds": 161.85
+    },
+    {
+      "english": "Say you were made to be mine?",
+      "chinese": "如何才能相信，妳就是命中注定與我相守的人？",
+      "lineId": "line-58",
+      "startSeconds": 162.54,
+      "endSeconds": 165.63
+    },
+    {
+      "english": "Nothing can keep us apart",
+      "chinese": "再沒有任何力量能將我們分開",
+      "lineId": "line-59",
+      "startSeconds": 165.63,
+      "endSeconds": 169.79
+    },
+    {
+      "english": "Cause you are the one I was meant to find",
+      "chinese": "因為妳就是我命中注定要尋得的那個人",
+      "lineId": "line-60",
+      "startSeconds": 169.79,
+      "endSeconds": 173.65
+    },
+    {
+      "english": "It's up to you",
+      "chinese": "這一切取決於妳",
+      "lineId": "line-61",
+      "startSeconds": 173.65,
+      "endSeconds": 175.57
+    },
+    {
+      "english": "And it's up to me",
+      "chinese": "也取決於我",
+      "lineId": "line-62",
+      "startSeconds": 175.65,
+      "endSeconds": 177.37
+    },
+    {
+      "english": "No one can say what we get to be",
+      "chinese": "沒有人能替我們決定，未來能成為什麼模樣",
+      "lineId": "line-63",
+      "startSeconds": 177.37,
+      "endSeconds": 181.29
+    },
+    {
+      "english": "Why don't we rewrite the stars?",
+      "chinese": "我們何不一起改寫星辰的命運？",
+      "lineId": "line-64",
+      "startSeconds": 181.29,
+      "endSeconds": 185.25
+    },
+    {
+      "english": "Changing the world to be ours",
+      "chinese": "讓這個世界改變，成為屬於我們的天地",
+      "lineId": "line-65",
+      "startSeconds": 185.89,
+      "endSeconds": 190.21
+    },
+    {
+      "english": "[Zendaya:]",
+      "chinese": "[Zendaya：]",
+      "lineId": "line-66"
+    },
+    {
+      "english": "You know I want you",
+      "chinese": "你知道，我渴望與你相守",
+      "lineId": "line-67",
+      "startSeconds": 197.85,
+      "endSeconds": 200.11
+    },
+    {
+      "english": "It's not a secret I try to hide",
+      "chinese": "這份心意，我從未試圖隱藏",
+      "lineId": "line-68",
+      "startSeconds": 200.13,
+      "endSeconds": 205.01
+    },
+    {
+      "english": "But I can't have you",
+      "chinese": "可我終究無法與你在一起",
+      "lineId": "line-69",
+      "startSeconds": 205.63,
+      "endSeconds": 208.17
+    },
+    {
+      "english": "We're bound to break and",
+      "chinese": "我們注定會因此心碎，而……",
+      "lineId": "line-70",
+      "startSeconds": 208.45,
+      "endSeconds": 211.25
+    },
+    {
+      "english": "My hands are tied",
+      "chinese": "我卻無能為力，身不由己",
+      "lineId": "line-71",
+      "startSeconds": 211.25,
+      "endSeconds": 213.67
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-2",
+          "answer": "want you",
+          "options": [
+            "need time",
+            "feel safe",
+            "want you"
+          ],
+          "prompt": "You know I {{blank}}",
+          "promptZh": "妳知道，我渴望與妳相守"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "not a secret",
+          "options": [
+            "only a feeling",
+            "not a secret",
+            "just a rumor"
+          ],
+          "prompt": "It's {{blank}} I try to hide",
+          "promptZh": "這份心意，我從未試圖隱藏"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-5",
+          "answer": "hands are tied",
+          "options": [
+            "hearts are broken",
+            "plans are ruined",
+            "hands are tied"
+          ],
+          "prompt": "So don't keep saying our {{blank}}",
+          "promptZh": "所以，別再說我們無能為力、身不由己"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-7",
+          "answer": "miles away",
+          "options": [
+            "far behind",
+            "miles away",
+            "close to home"
+          ],
+          "prompt": "But fate is pulling you {{blank}}",
+          "promptZh": "可命運卻正將妳拉向遙遠的彼方"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-9",
+          "answer": "in my heart",
+          "options": [
+            "in my heart",
+            "by my side",
+            "on my mind"
+          ],
+          "prompt": "But you're here {{blank}}",
+          "promptZh": "然而，妳始終住在我的心裡"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-12",
+          "answer": "rewrite the stars",
+          "options": [
+            "rewrite the stars",
+            "follow the stars",
+            "count all the stars"
+          ],
+          "prompt": "What if we {{blank}}?",
+          "promptZh": "倘若我們能重新改寫星辰所注定的命運呢？"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-13",
+          "answer": "made to be mine",
+          "options": [
+            "born to be free",
+            "made to be mine",
+            "meant to be gone"
+          ],
+          "prompt": "Say you were {{blank}}",
+          "promptZh": "讓命運宣告，妳生來就是要與我相守"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-14",
+          "answer": "keep us apart",
+          "options": [
+            "keep us apart",
+            "pull us away",
+            "bring us together"
+          ],
+          "prompt": "Nothing could {{blank}}",
+          "promptZh": "再沒有任何力量能將我們分開"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-16",
+          "answer": "up to you",
+          "options": [
+            "far from home",
+            "down to luck",
+            "up to you"
+          ],
+          "prompt": "It's {{blank}}",
+          "promptZh": "這一切取決於妳"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-19",
+          "answer": "why don't we rewrite",
+          "options": [
+            "why should we forget",
+            "why don't we rewrite",
+            "how could we follow"
+          ],
+          "prompt": "So {{blank}} the stars?",
+          "promptZh": "那麼，我們何不一起改寫星辰的命運？"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-23",
+          "answer": "think it's easy",
+          "options": [
+            "say it's simple",
+            "know it's hopeless",
+            "think it's easy"
+          ],
+          "prompt": "You {{blank}}",
+          "promptZh": "你以為這一切很容易"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-25",
+          "answer": "there are mountains",
+          "options": [
+            "there are strangers",
+            "there are mountains",
+            "there are rivers"
+          ],
+          "prompt": "But {{blank}}",
+          "promptZh": "可我們面前橫亙著重重高山"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-26",
+          "answer": "doors that we can't walk through",
+          "options": [
+            "doors that we can't walk through",
+            "walls that we can climb over",
+            "roads that we can't drive down"
+          ],
+          "prompt": "And there are {{blank}}",
+          "promptZh": "還有一道道我們無法跨越的門檻"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-31",
+          "answer": "go outside",
+          "options": [
+            "go outside",
+            "stay together",
+            "turn around"
+          ],
+          "prompt": "But when we {{blank}}",
+          "promptZh": "可一旦我們走到外面的世界"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-33",
+          "answer": "hopeless after all",
+          "options": [
+            "worth another try",
+            "perfect from the start",
+            "hopeless after all"
+          ],
+          "prompt": "And see that it was {{blank}}",
+          "promptZh": "然後發現，這一切終究沒有希望"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-35",
+          "answer": "you'll be mine",
+          "options": [
+            "you'll be mine",
+            "you'll come home",
+            "we'll be fine"
+          ],
+          "prompt": "How can you say {{blank}}",
+          "promptZh": "你又怎能說，我們注定能夠相守？"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-42",
+          "answer": "world can be ours",
+          "options": [
+            "night is for us",
+            "stars will be brighter",
+            "world can be ours"
+          ],
+          "prompt": "Say that the {{blank}}",
+          "promptZh": "又怎能說，整個世界可以屬於我們？"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-47",
+          "answer": "give me all of you",
+          "options": [
+            "tell me what to do",
+            "give me all of you",
+            "show me how to fly"
+          ],
+          "prompt": "So just {{blank}}",
+          "promptZh": "所以，請將你的整顆心，毫無保留地交給我"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-58",
+          "answer": "made to be mine",
+          "options": [
+            "born to be wild",
+            "made to be mine",
+            "ready to move"
+          ],
+          "prompt": "Say you were {{blank}}?",
+          "promptZh": "如何才能相信，妳就是命中注定與我相守的人？"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-70",
+          "answer": "bound to break",
+          "options": [
+            "bound to break",
+            "ready to fight",
+            "going to stay"
+          ],
+          "prompt": "We're {{blank}} and",
+          "promptZh": "我們注定會因此心碎，而……"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "[Zac Efron:]"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "You know I {{q:1}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "It's {{q:2}} I try to hide"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I know you want me"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "So don't keep saying our {{q:3}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "You claim it's not in the cards"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "But fate is pulling you {{q:4}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And out of reach from me"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "But you're here {{q:5}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "So who can stop me if I decide"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "That you're my destiny?"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "What if we {{q:6}}?"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Say you were {{q:7}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Nothing could {{q:8}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "You'd be the one I was meant to find"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "It's {{q:9}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "And it's up to me"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "No one can say what we get to be"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "So {{q:10}} the stars?"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Maybe the world could be ours"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "[Zendaya:]"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You {{q:11}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "You think I don't wanna run to you"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "But {{q:12}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "And there are {{q:13}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I know you're wondering why"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Because we're able to be"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Just you and me"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Within these walls"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "But when we {{q:14}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You're gonna wake up"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And see that it was {{q:15}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "No one can rewrite the stars"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "How can you say {{q:16}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Everything keeps us apart"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And I'm not the one you were meant to find"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "It's not up to you"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "It's not up to me"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "When everyone tells us what we can be"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "How can we rewrite the stars?"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Say that the {{q:17}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "[Zac Efron & Zendaya:] [Zac Efron"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "All I want is to fly with you"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "All I want is to fall with you"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "So just {{q:18}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "[Zendaya:]"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "It feels impossible"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "[Zac Efron:]"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "It's not impossible"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "[Zendaya:]"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Is it impossible?"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "[Both:]"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Say that it's possible"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "[Zac Efron & Zendaya:] [Zac Efron"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "How do we rewrite the stars?"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Say you were {{q:19}}?"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Nothing can keep us apart"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Cause you are the one I was meant to find"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "It's up to you"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "And it's up to me"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "No one can say what we get to be"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "Why don't we rewrite the stars?"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Changing the world to be ours"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "[Zendaya:]"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "You know I want you"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "It's not a secret I try to hide"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "But I can't have you"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "We're {{q:20}} and"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "My hands are tied"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-2",
+          "answer": "want you",
+          "options": [
+            "feel safe",
+            "want you",
+            "need time"
+          ],
+          "prompt": "You know I {{blank}}",
+          "promptZh": "妳知道，我渴望與妳相守"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "not a secret",
+          "options": [
+            "just a rumor",
+            "not a secret",
+            "only a feeling"
+          ],
+          "prompt": "It's {{blank}} I try to hide",
+          "promptZh": "這份心意，我從未試圖隱藏"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-4",
+          "answer": "want me",
+          "options": [
+            "want me",
+            "trust me",
+            "miss you"
+          ],
+          "prompt": "I know you {{blank}}",
+          "promptZh": "我知道，妳也同樣渴望著我"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-5",
+          "answer": "hands are tied",
+          "options": [
+            "hands are tied",
+            "hearts are broken",
+            "plans are ruined"
+          ],
+          "prompt": "So don't keep saying our {{blank}}",
+          "promptZh": "所以，別再說我們無能為力、身不由己"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-6",
+          "answer": "not in the cards",
+          "options": [
+            "out of our hands",
+            "not in the cards",
+            "far from the truth"
+          ],
+          "prompt": "You claim it's {{blank}}",
+          "promptZh": "妳說，命運早已注定，我們無緣相守"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "miles away",
+          "options": [
+            "miles away",
+            "close to home",
+            "far behind"
+          ],
+          "prompt": "But fate is pulling you {{blank}}",
+          "promptZh": "可命運卻正將妳拉向遙遠的彼方"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "out of reach",
+          "options": [
+            "out of sight",
+            "within reach",
+            "out of reach"
+          ],
+          "prompt": "And {{blank}} from me",
+          "promptZh": "讓妳漸漸遠離我，再也無法觸及"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-9",
+          "answer": "in my heart",
+          "options": [
+            "on my mind",
+            "in my heart",
+            "by my side"
+          ],
+          "prompt": "But you're here {{blank}}",
+          "promptZh": "然而，妳始終住在我的心裡"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-10",
+          "answer": "stop me",
+          "options": [
+            "stop me",
+            "hold us",
+            "change that"
+          ],
+          "prompt": "So who can {{blank}} if I decide",
+          "promptZh": "所以，如果我已下定決心"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-11",
+          "answer": "my destiny",
+          "options": [
+            "my fantasy",
+            "your memory",
+            "my destiny"
+          ],
+          "prompt": "That you're {{blank}}?",
+          "promptZh": "認定妳就是我命中注定的人，誰又能阻止我？"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-12",
+          "answer": "rewrite the stars",
+          "options": [
+            "count all the stars",
+            "rewrite the stars",
+            "follow the stars"
+          ],
+          "prompt": "What if we {{blank}}?",
+          "promptZh": "倘若我們能重新改寫星辰所注定的命運呢？"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-13",
+          "answer": "made to be mine",
+          "options": [
+            "meant to be gone",
+            "born to be free",
+            "made to be mine"
+          ],
+          "prompt": "Say you were {{blank}}",
+          "promptZh": "讓命運宣告，妳生來就是要與我相守"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-14",
+          "answer": "keep us apart",
+          "options": [
+            "keep us apart",
+            "bring us together",
+            "pull us away"
+          ],
+          "prompt": "Nothing could {{blank}}",
+          "promptZh": "再沒有任何力量能將我們分開"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-15",
+          "answer": "meant to find",
+          "options": [
+            "afraid to lose",
+            "trying to save",
+            "meant to find"
+          ],
+          "prompt": "You'd be the one I was {{blank}}",
+          "promptZh": "妳就是我命中注定要尋得的那個人"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-16",
+          "answer": "up to you",
+          "options": [
+            "far from home",
+            "up to you",
+            "down to luck"
+          ],
+          "prompt": "It's {{blank}}",
+          "promptZh": "這一切取決於妳"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-17",
+          "answer": "up to me",
+          "options": [
+            "up to me",
+            "out of time",
+            "all for you"
+          ],
+          "prompt": "And it's {{blank}}",
+          "promptZh": "也取決於我"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-19",
+          "answer": "why don't we rewrite",
+          "options": [
+            "why don't we rewrite",
+            "why should we forget",
+            "how could we follow"
+          ],
+          "prompt": "So {{blank}} the stars?",
+          "promptZh": "那麼，我們何不一起改寫星辰的命運？"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-20",
+          "answer": "world could be ours",
+          "options": [
+            "night could be endless",
+            "dream could come true",
+            "world could be ours"
+          ],
+          "prompt": "Maybe the {{blank}}",
+          "promptZh": "或許，整個世界終將屬於我們"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-23",
+          "answer": "think it's easy",
+          "options": [
+            "say it's simple",
+            "think it's easy",
+            "know it's hopeless"
+          ],
+          "prompt": "You {{blank}}",
+          "promptZh": "你以為這一切很容易"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-24",
+          "answer": "run to you",
+          "options": [
+            "run to you",
+            "wait for him",
+            "turn from you"
+          ],
+          "prompt": "You think I don't wanna {{blank}}",
+          "promptZh": "你以為我不想奔向你的懷抱嗎？"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-25",
+          "answer": "there are mountains",
+          "options": [
+            "there are rivers",
+            "there are strangers",
+            "there are mountains"
+          ],
+          "prompt": "But {{blank}}",
+          "promptZh": "可我們面前橫亙著重重高山"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-26",
+          "answer": "doors that we can't walk through",
+          "options": [
+            "roads that we can't drive down",
+            "doors that we can't walk through",
+            "walls that we can climb over"
+          ],
+          "prompt": "And there are {{blank}}",
+          "promptZh": "還有一道道我們無法跨越的門檻"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-28",
+          "answer": "able to be",
+          "options": [
+            "afraid to try",
+            "ready to leave",
+            "able to be"
+          ],
+          "prompt": "Because we're {{blank}}",
+          "promptZh": "因為在這裡，我們明明可以"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-31",
+          "answer": "go outside",
+          "options": [
+            "go outside",
+            "stay together",
+            "turn around"
+          ],
+          "prompt": "But when we {{blank}}",
+          "promptZh": "可一旦我們走到外面的世界"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-33",
+          "answer": "hopeless after all",
+          "options": [
+            "worth another try",
+            "hopeless after all",
+            "perfect from the start"
+          ],
+          "prompt": "And see that it was {{blank}}",
+          "promptZh": "然後發現，這一切終究沒有希望"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-35",
+          "answer": "you'll be mine",
+          "options": [
+            "we'll be fine",
+            "you'll be mine",
+            "you'll come home"
+          ],
+          "prompt": "How can you say {{blank}}",
+          "promptZh": "你又怎能說，我們注定能夠相守？"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-36",
+          "answer": "keeps us apart",
+          "options": [
+            "brings us closer",
+            "makes us stronger",
+            "keeps us apart"
+          ],
+          "prompt": "Everything {{blank}}",
+          "promptZh": "現實中的一切，都在阻隔著我們"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-42",
+          "answer": "world can be ours",
+          "options": [
+            "stars will be brighter",
+            "night is for us",
+            "world can be ours"
+          ],
+          "prompt": "Say that the {{blank}}",
+          "promptZh": "又怎能說，整個世界可以屬於我們？"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-47",
+          "answer": "give me all of you",
+          "options": [
+            "give me all of you",
+            "show me how to fly",
+            "tell me what to do"
+          ],
+          "prompt": "So just {{blank}}",
+          "promptZh": "所以，請將你的整顆心，毫無保留地交給我"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-58",
+          "answer": "made to be mine",
+          "options": [
+            "ready to move",
+            "made to be mine",
+            "born to be wild"
+          ],
+          "prompt": "Say you were {{blank}}?",
+          "promptZh": "如何才能相信，妳就是命中注定與我相守的人？"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-65",
+          "answer": "Changing the world",
+          "options": [
+            "Watching the stars",
+            "Leaving the world",
+            "Changing the world"
+          ],
+          "prompt": "{{blank}} to be ours",
+          "promptZh": "讓這個世界改變，成為屬於我們的天地"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-70",
+          "answer": "bound to break",
+          "options": [
+            "bound to break",
+            "going to stay",
+            "ready to fight"
+          ],
+          "prompt": "We're {{blank}} and",
+          "promptZh": "我們注定會因此心碎，而……"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "[Zac Efron:]"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "You know I {{q:1}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "It's {{q:2}} I try to hide"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I know you {{q:3}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "So don't keep saying our {{q:4}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "You claim it's {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "But fate is pulling you {{q:6}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And {{q:7}} from me"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "But you're here {{q:8}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "So who can {{q:9}} if I decide"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "That you're {{q:10}}?"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "What if we {{q:11}}?"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Say you were {{q:12}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Nothing could {{q:13}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "You'd be the one I was {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "It's {{q:15}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "And it's {{q:16}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "No one can say what we get to be"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "So {{q:17}} the stars?"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Maybe the {{q:18}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "[Zendaya:]"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You {{q:19}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "You think I don't wanna {{q:20}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "But {{q:21}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "And there are {{q:22}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I know you're wondering why"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Because we're {{q:23}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Just you and me"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Within these walls"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "But when we {{q:24}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You're gonna wake up"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And see that it was {{q:25}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "No one can rewrite the stars"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "How can you say {{q:26}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Everything {{q:27}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And I'm not the one you were meant to find"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "It's not up to you"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "It's not up to me"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "When everyone tells us what we can be"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "How can we rewrite the stars?"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Say that the {{q:28}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "[Zac Efron & Zendaya:] [Zac Efron"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "All I want is to fly with you"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "All I want is to fall with you"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "So just {{q:29}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "[Zendaya:]"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "It feels impossible"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "[Zac Efron:]"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "It's not impossible"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "[Zendaya:]"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Is it impossible?"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "[Both:]"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Say that it's possible"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "[Zac Efron & Zendaya:] [Zac Efron"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "How do we rewrite the stars?"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Say you were {{q:30}}?"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Nothing can keep us apart"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Cause you are the one I was meant to find"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "It's up to you"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "And it's up to me"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "No one can say what we get to be"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "Why don't we rewrite the stars?"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "{{q:31}} to be ours"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "[Zendaya:]"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "You know I want you"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "It's not a secret I try to hide"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "But I can't have you"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "We're {{q:32}} and"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "My hands are tied"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-2",
+          "answer": "want you",
+          "options": [
+            "need time",
+            "want you",
+            "feel safe"
+          ],
+          "prompt": "You know I {{blank}}",
+          "promptZh": "妳知道，我渴望與妳相守"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "not a secret",
+          "options": [
+            "only a feeling",
+            "not a secret",
+            "just a rumor"
+          ],
+          "prompt": "It's {{blank}} I try to hide",
+          "promptZh": "這份心意，我從未試圖隱藏"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-4",
+          "answer": "want me",
+          "options": [
+            "want me",
+            "trust me",
+            "miss you"
+          ],
+          "prompt": "I know you {{blank}}",
+          "promptZh": "我知道，妳也同樣渴望著我"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-5",
+          "answer": "hands are tied",
+          "options": [
+            "plans are ruined",
+            "hands are tied",
+            "hearts are broken"
+          ],
+          "prompt": "So don't keep saying our {{blank}}",
+          "promptZh": "所以，別再說我們無能為力、身不由己"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-6",
+          "answer": "not in the cards",
+          "options": [
+            "far from the truth",
+            "not in the cards",
+            "out of our hands"
+          ],
+          "prompt": "You claim it's {{blank}}",
+          "promptZh": "妳說，命運早已注定，我們無緣相守"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "miles away",
+          "options": [
+            "close to home",
+            "far behind",
+            "miles away"
+          ],
+          "prompt": "But fate is pulling you {{blank}}",
+          "promptZh": "可命運卻正將妳拉向遙遠的彼方"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "out of reach",
+          "options": [
+            "within reach",
+            "out of reach",
+            "out of sight"
+          ],
+          "prompt": "And {{blank}} from me",
+          "promptZh": "讓妳漸漸遠離我，再也無法觸及"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-9",
+          "answer": "in my heart",
+          "options": [
+            "in my heart",
+            "on my mind",
+            "by my side"
+          ],
+          "prompt": "But you're here {{blank}}",
+          "promptZh": "然而，妳始終住在我的心裡"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-10",
+          "answer": "stop me",
+          "options": [
+            "stop me",
+            "hold us",
+            "change that"
+          ],
+          "prompt": "So who can {{blank}} if I decide",
+          "promptZh": "所以，如果我已下定決心"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-11",
+          "answer": "my destiny",
+          "options": [
+            "my fantasy",
+            "my destiny",
+            "your memory"
+          ],
+          "prompt": "That you're {{blank}}?",
+          "promptZh": "認定妳就是我命中注定的人，誰又能阻止我？"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-12",
+          "answer": "rewrite the stars",
+          "options": [
+            "count all the stars",
+            "follow the stars",
+            "rewrite the stars"
+          ],
+          "prompt": "What if we {{blank}}?",
+          "promptZh": "倘若我們能重新改寫星辰所注定的命運呢？"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-13",
+          "answer": "made to be mine",
+          "options": [
+            "meant to be gone",
+            "born to be free",
+            "made to be mine"
+          ],
+          "prompt": "Say you were {{blank}}",
+          "promptZh": "讓命運宣告，妳生來就是要與我相守"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-14",
+          "answer": "keep us apart",
+          "options": [
+            "keep us apart",
+            "pull us away",
+            "bring us together"
+          ],
+          "prompt": "Nothing could {{blank}}",
+          "promptZh": "再沒有任何力量能將我們分開"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-15",
+          "answer": "meant to find",
+          "options": [
+            "trying to save",
+            "afraid to lose",
+            "meant to find"
+          ],
+          "prompt": "You'd be the one I was {{blank}}",
+          "promptZh": "妳就是我命中注定要尋得的那個人"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-16",
+          "answer": "up to you",
+          "options": [
+            "far from home",
+            "up to you",
+            "down to luck"
+          ],
+          "prompt": "It's {{blank}}",
+          "promptZh": "這一切取決於妳"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-17",
+          "answer": "up to me",
+          "options": [
+            "up to me",
+            "out of time",
+            "all for you"
+          ],
+          "prompt": "And it's {{blank}}",
+          "promptZh": "也取決於我"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "what we get to be",
+          "options": [
+            "where we need to go",
+            "how we used to feel",
+            "what we get to be"
+          ],
+          "prompt": "No one can say {{blank}}",
+          "promptZh": "沒有人能替我們決定，未來能成為什麼模樣"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "why don't we rewrite",
+          "options": [
+            "how could we follow",
+            "why should we forget",
+            "why don't we rewrite"
+          ],
+          "prompt": "So {{blank}} the stars?",
+          "promptZh": "那麼，我們何不一起改寫星辰的命運？"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-20",
+          "answer": "world could be ours",
+          "options": [
+            "world could be ours",
+            "night could be endless",
+            "dream could come true"
+          ],
+          "prompt": "Maybe the {{blank}}",
+          "promptZh": "或許，整個世界終將屬於我們"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-21",
+          "answer": "Tonight",
+          "options": [
+            "Tomorrow",
+            "Someday",
+            "Tonight"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "就在今夜"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-23",
+          "answer": "think it's easy",
+          "options": [
+            "think it's easy",
+            "say it's simple",
+            "know it's hopeless"
+          ],
+          "prompt": "You {{blank}}",
+          "promptZh": "你以為這一切很容易"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-24",
+          "answer": "run to you",
+          "options": [
+            "wait for him",
+            "run to you",
+            "turn from you"
+          ],
+          "prompt": "You think I don't wanna {{blank}}",
+          "promptZh": "你以為我不想奔向你的懷抱嗎？"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-25",
+          "answer": "there are mountains",
+          "options": [
+            "there are strangers",
+            "there are rivers",
+            "there are mountains"
+          ],
+          "prompt": "But {{blank}}",
+          "promptZh": "可我們面前橫亙著重重高山"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-26",
+          "answer": "doors that we can't walk through",
+          "options": [
+            "walls that we can climb over",
+            "doors that we can't walk through",
+            "roads that we can't drive down"
+          ],
+          "prompt": "And there are {{blank}}",
+          "promptZh": "還有一道道我們無法跨越的門檻"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-27",
+          "answer": "wondering why",
+          "options": [
+            "looking for love",
+            "wondering why",
+            "thinking of me"
+          ],
+          "prompt": "I know you're {{blank}}",
+          "promptZh": "我知道，你一定想問為什麼"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-28",
+          "answer": "able to be",
+          "options": [
+            "able to be",
+            "afraid to try",
+            "ready to leave"
+          ],
+          "prompt": "Because we're {{blank}}",
+          "promptZh": "因為在這裡，我們明明可以"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-29",
+          "answer": "Just you and me",
+          "options": [
+            "Just you and me",
+            "Just me and them",
+            "Only you and him"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "只是單純的你與我"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-31",
+          "answer": "go outside",
+          "options": [
+            "stay together",
+            "turn around",
+            "go outside"
+          ],
+          "prompt": "But when we {{blank}}",
+          "promptZh": "可一旦我們走到外面的世界"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-32",
+          "answer": "wake up",
+          "options": [
+            "fall down",
+            "look back",
+            "wake up"
+          ],
+          "prompt": "You're gonna {{blank}}",
+          "promptZh": "你終究會從美夢中醒來"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-33",
+          "answer": "hopeless after all",
+          "options": [
+            "hopeless after all",
+            "perfect from the start",
+            "worth another try"
+          ],
+          "prompt": "And see that it was {{blank}}",
+          "promptZh": "然後發現，這一切終究沒有希望"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-35",
+          "answer": "you'll be mine",
+          "options": [
+            "you'll come home",
+            "we'll be fine",
+            "you'll be mine"
+          ],
+          "prompt": "How can you say {{blank}}",
+          "promptZh": "你又怎能說，我們注定能夠相守？"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-36",
+          "answer": "keeps us apart",
+          "options": [
+            "makes us stronger",
+            "keeps us apart",
+            "brings us closer"
+          ],
+          "prompt": "Everything {{blank}}",
+          "promptZh": "現實中的一切，都在阻隔著我們"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-37",
+          "answer": "not the one",
+          "options": [
+            "still the one",
+            "just someone",
+            "not the one"
+          ],
+          "prompt": "And I'm {{blank}} you were meant to find",
+          "promptZh": "而我也不是你命中注定要尋得的那個人"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-42",
+          "answer": "world can be ours",
+          "options": [
+            "world can be ours",
+            "stars will be brighter",
+            "night is for us"
+          ],
+          "prompt": "Say that the {{blank}}",
+          "promptZh": "又怎能說，整個世界可以屬於我們？"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-45",
+          "answer": "fly with you",
+          "options": [
+            "fly with you",
+            "stay with you",
+            "run from you"
+          ],
+          "prompt": "All I want is to {{blank}}",
+          "promptZh": "我唯一渴望的，就是與你一同展翅高飛"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-47",
+          "answer": "give me all of you",
+          "options": [
+            "tell me what to do",
+            "give me all of you",
+            "show me how to fly"
+          ],
+          "prompt": "So just {{blank}}",
+          "promptZh": "所以，請將你的整顆心，毫無保留地交給我"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-58",
+          "answer": "made to be mine",
+          "options": [
+            "born to be wild",
+            "ready to move",
+            "made to be mine"
+          ],
+          "prompt": "Say you were {{blank}}?",
+          "promptZh": "如何才能相信，妳就是命中注定與我相守的人？"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-65",
+          "answer": "Changing the world",
+          "options": [
+            "Changing the world",
+            "Watching the stars",
+            "Leaving the world"
+          ],
+          "prompt": "{{blank}} to be ours",
+          "promptZh": "讓這個世界改變，成為屬於我們的天地"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-69",
+          "answer": "can't have you",
+          "options": [
+            "can't find you",
+            "can't have you",
+            "don't need you"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "可我終究無法與你在一起"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-70",
+          "answer": "bound to break",
+          "options": [
+            "bound to break",
+            "ready to fight",
+            "going to stay"
+          ],
+          "prompt": "We're {{blank}} and",
+          "promptZh": "我們注定會因此心碎，而……"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "[Zac Efron:]"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "You know I {{q:1}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "It's {{q:2}} I try to hide"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I know you {{q:3}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "So don't keep saying our {{q:4}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "You claim it's {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "But fate is pulling you {{q:6}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And {{q:7}} from me"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "But you're here {{q:8}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "So who can {{q:9}} if I decide"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "That you're {{q:10}}?"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "What if we {{q:11}}?"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Say you were {{q:12}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Nothing could {{q:13}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "You'd be the one I was {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "It's {{q:15}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "And it's {{q:16}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "No one can say {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "So {{q:18}} the stars?"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Maybe the {{q:19}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "[Zendaya:]"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You {{q:21}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "You think I don't wanna {{q:22}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "But {{q:23}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "And there are {{q:24}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I know you're {{q:25}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Because we're {{q:26}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:27}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Within these walls"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "But when we {{q:28}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You're gonna {{q:29}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And see that it was {{q:30}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "No one can rewrite the stars"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "How can you say {{q:31}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Everything {{q:32}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And I'm {{q:33}} you were meant to find"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "It's not up to you"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "It's not up to me"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "When everyone tells us what we can be"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "How can we rewrite the stars?"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Say that the {{q:34}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "[Zac Efron & Zendaya:] [Zac Efron"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "All I want is to {{q:35}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "All I want is to fall with you"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "So just {{q:36}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "[Zendaya:]"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "It feels impossible"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "[Zac Efron:]"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "It's not impossible"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "[Zendaya:]"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Is it impossible?"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "[Both:]"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Say that it's possible"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "[Zac Efron & Zendaya:] [Zac Efron"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "How do we rewrite the stars?"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Say you were {{q:37}}?"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Nothing can keep us apart"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Cause you are the one I was meant to find"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "It's up to you"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "And it's up to me"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "No one can say what we get to be"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "Why don't we rewrite the stars?"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "{{q:38}} to be ours"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "[Zendaya:]"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "You know I want you"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "It's not a secret I try to hide"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "But I {{q:39}}"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "We're {{q:40}} and"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "My hands are tied"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-2",
+          "answer": "want you",
+          "options": [
+            "want you",
+            "feel safe",
+            "need time"
+          ],
+          "prompt": "You know I {{blank}}",
+          "promptZh": "妳知道，我渴望與妳相守"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "not a secret",
+          "options": [
+            "just a rumor",
+            "not a secret",
+            "only a feeling"
+          ],
+          "prompt": "It's {{blank}} I try to hide",
+          "promptZh": "這份心意，我從未試圖隱藏"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-4",
+          "answer": "want me",
+          "options": [
+            "want me",
+            "trust me",
+            "miss you"
+          ],
+          "prompt": "I know you {{blank}}",
+          "promptZh": "我知道，妳也同樣渴望著我"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-5",
+          "answer": "hands are tied",
+          "options": [
+            "plans are ruined",
+            "hands are tied",
+            "hearts are broken"
+          ],
+          "prompt": "So don't keep saying our {{blank}}",
+          "promptZh": "所以，別再說我們無能為力、身不由己"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-6",
+          "answer": "not in the cards",
+          "options": [
+            "far from the truth",
+            "not in the cards",
+            "out of our hands"
+          ],
+          "prompt": "You claim it's {{blank}}",
+          "promptZh": "妳說，命運早已注定，我們無緣相守"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "miles away",
+          "options": [
+            "far behind",
+            "close to home",
+            "miles away"
+          ],
+          "prompt": "But fate is pulling you {{blank}}",
+          "promptZh": "可命運卻正將妳拉向遙遠的彼方"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "out of reach",
+          "options": [
+            "within reach",
+            "out of sight",
+            "out of reach"
+          ],
+          "prompt": "And {{blank}} from me",
+          "promptZh": "讓妳漸漸遠離我，再也無法觸及"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-9",
+          "answer": "in my heart",
+          "options": [
+            "on my mind",
+            "in my heart",
+            "by my side"
+          ],
+          "prompt": "But you're here {{blank}}",
+          "promptZh": "然而，妳始終住在我的心裡"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-10",
+          "answer": "stop me",
+          "options": [
+            "hold us",
+            "stop me",
+            "change that"
+          ],
+          "prompt": "So who can {{blank}} if I decide",
+          "promptZh": "所以，如果我已下定決心"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-11",
+          "answer": "my destiny",
+          "options": [
+            "your memory",
+            "my fantasy",
+            "my destiny"
+          ],
+          "prompt": "That you're {{blank}}?",
+          "promptZh": "認定妳就是我命中注定的人，誰又能阻止我？"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-12",
+          "answer": "rewrite the stars",
+          "options": [
+            "count all the stars",
+            "follow the stars",
+            "rewrite the stars"
+          ],
+          "prompt": "What if we {{blank}}?",
+          "promptZh": "倘若我們能重新改寫星辰所注定的命運呢？"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-13",
+          "answer": "made to be mine",
+          "options": [
+            "made to be mine",
+            "born to be free",
+            "meant to be gone"
+          ],
+          "prompt": "Say you were {{blank}}",
+          "promptZh": "讓命運宣告，妳生來就是要與我相守"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-14",
+          "answer": "keep us apart",
+          "options": [
+            "keep us apart",
+            "bring us together",
+            "pull us away"
+          ],
+          "prompt": "Nothing could {{blank}}",
+          "promptZh": "再沒有任何力量能將我們分開"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-15",
+          "answer": "meant to find",
+          "options": [
+            "trying to save",
+            "afraid to lose",
+            "meant to find"
+          ],
+          "prompt": "You'd be the one I was {{blank}}",
+          "promptZh": "妳就是我命中注定要尋得的那個人"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-16",
+          "answer": "up to you",
+          "options": [
+            "down to luck",
+            "far from home",
+            "up to you"
+          ],
+          "prompt": "It's {{blank}}",
+          "promptZh": "這一切取決於妳"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-17",
+          "answer": "up to me",
+          "options": [
+            "all for you",
+            "up to me",
+            "out of time"
+          ],
+          "prompt": "And it's {{blank}}",
+          "promptZh": "也取決於我"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "what we get to be",
+          "options": [
+            "where we need to go",
+            "how we used to feel",
+            "what we get to be"
+          ],
+          "prompt": "No one can say {{blank}}",
+          "promptZh": "沒有人能替我們決定，未來能成為什麼模樣"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "why don't we rewrite",
+          "options": [
+            "why should we forget",
+            "why don't we rewrite",
+            "how could we follow"
+          ],
+          "prompt": "So {{blank}} the stars?",
+          "promptZh": "那麼，我們何不一起改寫星辰的命運？"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-20",
+          "answer": "world could be ours",
+          "options": [
+            "world could be ours",
+            "night could be endless",
+            "dream could come true"
+          ],
+          "prompt": "Maybe the {{blank}}",
+          "promptZh": "或許，整個世界終將屬於我們"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-21",
+          "answer": "Tonight",
+          "options": [
+            "Tonight",
+            "Someday",
+            "Tomorrow"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "就在今夜"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-23",
+          "answer": "think it's easy",
+          "options": [
+            "say it's simple",
+            "know it's hopeless",
+            "think it's easy"
+          ],
+          "prompt": "You {{blank}}",
+          "promptZh": "你以為這一切很容易"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-24",
+          "answer": "run to you",
+          "options": [
+            "run to you",
+            "wait for him",
+            "turn from you"
+          ],
+          "prompt": "You think I don't wanna {{blank}}",
+          "promptZh": "你以為我不想奔向你的懷抱嗎？"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-25",
+          "answer": "there are mountains",
+          "options": [
+            "there are rivers",
+            "there are strangers",
+            "there are mountains"
+          ],
+          "prompt": "But {{blank}}",
+          "promptZh": "可我們面前橫亙著重重高山"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-26",
+          "answer": "doors that we can't walk through",
+          "options": [
+            "walls that we can climb over",
+            "doors that we can't walk through",
+            "roads that we can't drive down"
+          ],
+          "prompt": "And there are {{blank}}",
+          "promptZh": "還有一道道我們無法跨越的門檻"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-27",
+          "answer": "wondering why",
+          "options": [
+            "thinking of me",
+            "looking for love",
+            "wondering why"
+          ],
+          "prompt": "I know you're {{blank}}",
+          "promptZh": "我知道，你一定想問為什麼"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-28",
+          "answer": "able to be",
+          "options": [
+            "ready to leave",
+            "able to be",
+            "afraid to try"
+          ],
+          "prompt": "Because we're {{blank}}",
+          "promptZh": "因為在這裡，我們明明可以"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-29",
+          "answer": "Just you and me",
+          "options": [
+            "Only you and him",
+            "Just you and me",
+            "Just me and them"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "只是單純的你與我"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-30",
+          "answer": "Within these walls",
+          "options": [
+            "Within these walls",
+            "Beyond the hills",
+            "Outside these doors"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "在這四面牆所圍起的世界裡"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-31",
+          "answer": "go outside",
+          "options": [
+            "go outside",
+            "turn around",
+            "stay together"
+          ],
+          "prompt": "But when we {{blank}}",
+          "promptZh": "可一旦我們走到外面的世界"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-32",
+          "answer": "wake up",
+          "options": [
+            "look back",
+            "wake up",
+            "fall down"
+          ],
+          "prompt": "You're gonna {{blank}}",
+          "promptZh": "你終究會從美夢中醒來"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-33",
+          "answer": "hopeless after all",
+          "options": [
+            "hopeless after all",
+            "perfect from the start",
+            "worth another try"
+          ],
+          "prompt": "And see that it was {{blank}}",
+          "promptZh": "然後發現，這一切終究沒有希望"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-34",
+          "answer": "No one can rewrite",
+          "options": [
+            "Somebody can change",
+            "Everyone can follow",
+            "No one can rewrite"
+          ],
+          "prompt": "{{blank}} the stars",
+          "promptZh": "沒有人能改寫星辰所注定的命運"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-35",
+          "answer": "you'll be mine",
+          "options": [
+            "you'll be mine",
+            "you'll come home",
+            "we'll be fine"
+          ],
+          "prompt": "How can you say {{blank}}",
+          "promptZh": "你又怎能說，我們注定能夠相守？"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-36",
+          "answer": "keeps us apart",
+          "options": [
+            "makes us stronger",
+            "keeps us apart",
+            "brings us closer"
+          ],
+          "prompt": "Everything {{blank}}",
+          "promptZh": "現實中的一切，都在阻隔著我們"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-37",
+          "answer": "not the one",
+          "options": [
+            "just someone",
+            "still the one",
+            "not the one"
+          ],
+          "prompt": "And I'm {{blank}} you were meant to find",
+          "promptZh": "而我也不是你命中注定要尋得的那個人"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-38",
+          "answer": "not up to you",
+          "options": [
+            "out of our hands",
+            "not up to you",
+            "all up to you"
+          ],
+          "prompt": "It's {{blank}}",
+          "promptZh": "這並非你能決定"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-39",
+          "answer": "not up to me",
+          "options": [
+            "not up to me",
+            "nothing to lose",
+            "all up to me"
+          ],
+          "prompt": "It's {{blank}}",
+          "promptZh": "也並非我能決定"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-40",
+          "answer": "everyone tells us",
+          "options": [
+            "someone promises",
+            "nobody asks us",
+            "everyone tells us"
+          ],
+          "prompt": "When {{blank}} what we can be",
+          "promptZh": "當所有人都在規定，我們能成為什麼樣的人"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-41",
+          "answer": "How can we rewrite",
+          "options": [
+            "Why should we change",
+            "When will we follow",
+            "How can we rewrite"
+          ],
+          "prompt": "{{blank}} the stars?",
+          "promptZh": "我們又怎能改寫星辰的命運？"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-42",
+          "answer": "world can be ours",
+          "options": [
+            "world can be ours",
+            "stars will be brighter",
+            "night is for us"
+          ],
+          "prompt": "Say that the {{blank}}",
+          "promptZh": "又怎能說，整個世界可以屬於我們？"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-45",
+          "answer": "fly with you",
+          "options": [
+            "fly with you",
+            "stay with you",
+            "run from you"
+          ],
+          "prompt": "All I want is to {{blank}}",
+          "promptZh": "我唯一渴望的，就是與你一同展翅高飛"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-46",
+          "answer": "fall with you",
+          "options": [
+            "dance for you",
+            "live without you",
+            "fall with you"
+          ],
+          "prompt": "All I want is to {{blank}}",
+          "promptZh": "我唯一渴望的，就是與你一同墜落，無論結局如何"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-47",
+          "answer": "give me all of you",
+          "options": [
+            "show me how to fly",
+            "tell me what to do",
+            "give me all of you"
+          ],
+          "prompt": "So just {{blank}}",
+          "promptZh": "所以，請將你的整顆心，毫無保留地交給我"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-49",
+          "answer": "feels impossible",
+          "options": [
+            "seems so easy",
+            "feels impossible",
+            "looks incredible"
+          ],
+          "prompt": "It {{blank}}",
+          "promptZh": "這一切感覺根本不可能"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-51",
+          "answer": "not impossible",
+          "options": [
+            "almost over",
+            "not impossible",
+            "not believable"
+          ],
+          "prompt": "It's {{blank}}",
+          "promptZh": "這並非不可能"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-58",
+          "answer": "made to be mine",
+          "options": [
+            "made to be mine",
+            "born to be wild",
+            "ready to move"
+          ],
+          "prompt": "Say you were {{blank}}?",
+          "promptZh": "如何才能相信，妳就是命中注定與我相守的人？"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-65",
+          "answer": "Changing the world",
+          "options": [
+            "Leaving the world",
+            "Changing the world",
+            "Watching the stars"
+          ],
+          "prompt": "{{blank}} to be ours",
+          "promptZh": "讓這個世界改變，成為屬於我們的天地"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-69",
+          "answer": "can't have you",
+          "options": [
+            "don't need you",
+            "can't have you",
+            "can't find you"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "可我終究無法與你在一起"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-70",
+          "answer": "bound to break",
+          "options": [
+            "bound to break",
+            "ready to fight",
+            "going to stay"
+          ],
+          "prompt": "We're {{blank}} and",
+          "promptZh": "我們注定會因此心碎，而……"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-71",
+          "answer": "hands are tied",
+          "options": [
+            "hands are tied",
+            "hearts are free",
+            "eyes are closed"
+          ],
+          "prompt": "My {{blank}}",
+          "promptZh": "我卻無能為力，身不由己"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "[Zac Efron:]"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "You know I {{q:1}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "It's {{q:2}} I try to hide"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I know you {{q:3}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "So don't keep saying our {{q:4}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "You claim it's {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "But fate is pulling you {{q:6}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And {{q:7}} from me"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "But you're here {{q:8}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "So who can {{q:9}} if I decide"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "That you're {{q:10}}?"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "What if we {{q:11}}?"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Say you were {{q:12}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Nothing could {{q:13}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "You'd be the one I was {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "It's {{q:15}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "And it's {{q:16}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "No one can say {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "So {{q:18}} the stars?"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Maybe the {{q:19}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "[Zendaya:]"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You {{q:21}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "You think I don't wanna {{q:22}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "But {{q:23}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "And there are {{q:24}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I know you're {{q:25}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Because we're {{q:26}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:27}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "But when we {{q:29}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You're gonna {{q:30}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And see that it was {{q:31}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "{{q:32}} the stars"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "How can you say {{q:33}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Everything {{q:34}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And I'm {{q:35}} you were meant to find"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "It's {{q:36}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "It's {{q:37}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "When {{q:38}} what we can be"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:39}} the stars?"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Say that the {{q:40}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Tonight"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "[Zac Efron & Zendaya:] [Zac Efron"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "All I want is to {{q:41}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "All I want is to {{q:42}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "So just {{q:43}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "[Zendaya:]"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "It {{q:44}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "[Zac Efron:]"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "It's {{q:45}}"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "[Zendaya:]"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Is it impossible?"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "[Both:]"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Say that it's possible"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "[Zac Efron & Zendaya:] [Zac Efron"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "How do we rewrite the stars?"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Say you were {{q:46}}?"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Nothing can keep us apart"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Cause you are the one I was meant to find"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "It's up to you"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "And it's up to me"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "No one can say what we get to be"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "Why don't we rewrite the stars?"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "{{q:47}} to be ours"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "[Zendaya:]"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "You know I want you"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "It's not a secret I try to hide"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "But I {{q:48}}"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "We're {{q:49}} and"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "My {{q:50}}"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Rewrite The Stars · Listening & Vocabulary",
+  "description": "《Rewrite the Stars》描寫一段受到現實阻礙，卻仍然渴望突破命運的深刻愛情。歌中的男女主角彼此相愛，男方相信只要勇敢追求，就能打破外界的限制，共同創造屬於兩人的未來。然而，女方深知社會偏見與現實壓力帶來的困難，雖然同樣渴望相守，卻害怕最終受到傷害。兩人一方面相信愛情的力量，另一方面又無法忽視現實的束縛。歌曲中的「改寫星辰」象徵挑戰命運、打破既定規則的勇氣。最終，《Rewrite the Stars》傳達的是愛情中的希望、掙扎與無奈：即使兩顆心深深相愛，也可能受到現實環境的限制，而真正令人心痛的，是明明渴望共同擁有未來，卻無法確定愛情能否戰勝命運。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Keep something a secret",
+      "meaning": "把某件事保密",
+      "usage": "想保護驚喜、隱私或不想立刻公開的消息時使用。",
+      "prompt": "哪一句正確使用「Keep something a secret」？",
+      "options": [
+        "The pilot kept the plane a secret by flying it in the sky.",
+        "I kept the concert a secret by telling everyone at school.",
+        "She kept her bicycle a secret because it had two wheels.",
+        "The museum kept the new painting a secret until opening day."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤！飛在天空不等於保密；需要說明資訊沒有被公開。",
+        "錯誤！告訴所有人就是公開消息，與保密相反。",
+        "錯誤！有兩個輪子不是保密的理由，也沒有呈現隱藏資訊的行為。",
+        "正確！博物館在開幕前沒有公開新畫作，符合保密的意思。"
+      ],
+      "explanation": "正確！博物館在開幕前沒有公開新畫作，符合保密的意思。"
+    },
+    {
+      "number": 2,
+      "word": "Hands are tied",
+      "meaning": "受到限制、無法自行決定",
+      "usage": "想幫忙卻因規則、權限或情況而不能做時使用。",
+      "prompt": "哪一句正確使用「Hands are tied」？",
+      "options": [
+        "The judge said her hands were tied because the law was clear.",
+        "Our hands are tied because we forgot our gloves at home.",
+        "My hands are tied when I clap at the football match.",
+        "His hands are tied because he can type very quickly."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確！法律已規定處理方式，表示她沒有自由決定的空間。",
+        "錯誤！沒戴手套不是受到限制；這個片語通常是比喻無法行動。",
+        "錯誤！拍手需要雙手活動，不符合「無法採取行動」的意思。",
+        "錯誤！打字很快表示能做事，並非受到限制。"
+      ],
+      "explanation": "正確！法律已規定處理方式，表示她沒有自由決定的空間。"
+    },
+    {
+      "number": 3,
+      "word": "Claim",
+      "meaning": "聲稱、主張",
+      "usage": "有人表示一件事是真的，但其他人可能仍需要確認時使用。",
+      "prompt": "哪一句正確使用「Claim」？",
+      "options": [
+        "I claimed the door because I wanted to close it quietly.",
+        "The actor claims he can speak six languages, but nobody knows for sure.",
+        "The baby claimed all night because she was sleepy.",
+        "She claimed a blue song on her piano for the audience."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤！關門通常用 close，不能用 claim 代替。",
+        "正確！演員聲稱自己會六種語言，但尚未得到確認。",
+        "錯誤！寶寶哭應用 cried，claim 不是哭泣。",
+        "錯誤！演奏歌曲應用 played，不能用 claim。"
+      ],
+      "explanation": "正確！演員聲稱自己會六種語言，但尚未得到確認。"
+    },
+    {
+      "number": 4,
+      "word": "Out of reach",
+      "meaning": "搆不到、無法取得",
+      "usage": "東西太遠、太高，或目標暫時無法達成時使用。",
+      "prompt": "哪一句正確使用「Out of reach」？",
+      "options": [
+        "The trophy was out of reach, so the team won it yesterday.",
+        "My passport was out of reach because I was holding it.",
+        "The top shelf was out of reach for the young child.",
+        "The radio was out of reach because the music was loud."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤！如果已經贏得獎盃，就不符合此處「無法取得」的意思。",
+        "錯誤！已拿在手上的護照並不是搆不到。",
+        "正確！架子太高，小孩搆不到。",
+        "錯誤！音量大與搆不到沒有直接關係。"
+      ],
+      "explanation": "正確！架子太高，小孩搆不到。"
+    },
+    {
+      "number": 5,
+      "word": "Destiny",
+      "meaning": "命運、注定會發生的事",
+      "usage": "談到人生的方向、重要相遇或覺得某事命中注定時使用。",
+      "prompt": "哪一句正確使用「Destiny」？",
+      "options": [
+        "She felt it was her destiny to become a doctor.",
+        "I put my destiny in the fridge to keep it cold.",
+        "She bought three destinies for the bus ride.",
+        "He cleaned his destiny with soap after the race."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確！她認為當醫生是自己命中注定的人生方向。",
+        "錯誤！命運是抽象概念，不能當食物放進冰箱。",
+        "錯誤！命運不能像車票一樣計數購買。",
+        "錯誤！命運不是能用肥皂清洗的物品。"
+      ],
+      "explanation": "正確！她認為當醫生是自己命中注定的人生方向。"
+    },
+    {
+      "number": 6,
+      "word": "Keep someone apart",
+      "meaning": "使某些人分開、無法在一起",
+      "usage": "距離、規則或其他障礙讓兩人不能相聚時使用。",
+      "prompt": "哪一句正確使用「Keep someone apart」？",
+      "options": [
+        "The photographer kept us apart by asking us to stand together.",
+        "The long distance kept the two friends apart for years.",
+        "The school kept the twins apart by putting them in the same class.",
+        "She kept the pages apart by putting them into one pile."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤！要求站在一起是聚合，不是分開。",
+        "正確！距離讓朋友多年無法見面。",
+        "錯誤！同班通常不表示被分開。",
+        "錯誤！堆在一起是合併；若要分開紙張，需描述實際分開的動作。"
+      ],
+      "explanation": "正確！距離讓朋友多年無法見面。"
+    },
+    {
+      "number": 7,
+      "word": "Be meant to",
+      "meaning": "注定要……；本來應該……",
+      "usage": "談命運，或說明某物的用途和原本的安排時使用。",
+      "prompt": "哪一句正確使用「Be meant to」？",
+      "options": [
+        "This key is meant to sing at the talent show.",
+        "The computer is meant to be hungry after lunch.",
+        "My umbrella is meant to become a famous singer tomorrow.",
+        "These seats are meant to be used by older passengers."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤！鑰匙不會唱歌；要描述符合用途的動作。",
+        "錯誤！電腦不會餓，這裡的用途描述不合理。",
+        "錯誤！雨傘不會成為歌手；句意缺乏合理用途或安排。",
+        "正確！座位原本就是提供年長乘客使用。"
+      ],
+      "explanation": "正確！座位原本就是提供年長乘客使用。"
+    },
+    {
+      "number": 8,
+      "word": "Be up to someone",
+      "meaning": "由某人決定、取決於某人",
+      "usage": "把決定權交給對方，或說明誰應該做選擇時使用。",
+      "prompt": "哪一句正確使用「Be up to someone」？",
+      "options": [
+        "The library is up to a book because it has many pages.",
+        "The concert is up to my ticket because it is red.",
+        "It is up to you whether we visit the castle or the beach.",
+        "The storm is up to my teacher because she has an umbrella."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤！圖書館不是由一本書作決定；搭配及語意不對。",
+        "錯誤！票的顏色不能代表決定權。",
+        "正確！要去城堡還是海邊，由你決定。",
+        "錯誤！老師有雨傘不表示她能決定暴風雨。"
+      ],
+      "explanation": "正確！要去城堡還是海邊，由你決定。"
+    },
+    {
+      "number": 9,
+      "word": "Hopeless",
+      "meaning": "沒有希望的、讓人覺得不可能成功的",
+      "usage": "覺得某件事沒機會改善，或目前情況非常困難時使用。",
+      "prompt": "哪一句正確使用「Hopeless」？",
+      "options": [
+        "Our football team felt hopeless after losing every match that month.",
+        "The broken lift was hopeless because a worker fixed it in one minute.",
+        "My camera was hopeless because it took beautiful photos.",
+        "He was hopeless because he won the competition easily."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確！球隊連續輸球，大家感到沒有希望。",
+        "錯誤！若一分鐘就能修好，不適合直接說完全沒有希望。",
+        "錯誤！拍出漂亮照片是好結果，不是沒有希望。",
+        "錯誤！輕鬆贏比賽通常不符合絕望的情境。"
+      ],
+      "explanation": "正確！球隊連續輸球，大家感到沒有希望。"
+    },
+    {
+      "number": 10,
+      "word": "Be bound to",
+      "meaning": "一定會、很可能會；注定會",
+      "usage": "對某件未來事件有高度把握，認為它幾乎必然發生時使用。",
+      "prompt": "哪一句正確使用「Be bound to」？",
+      "options": [
+        "The singer is bound to a microphone because she likes music.",
+        "The train is bound to be late; the station says it is two hours behind.",
+        "We are bound to yesterday at six o’clock tomorrow.",
+        "The window is bound to blue because the sky is blue."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤！喜歡音樂不代表「一定會」；也不能這樣表示被綁住。",
+        "正確！車站已通知延誤兩小時，因此很確定會晚到。",
+        "錯誤！時間表達前後矛盾，沒有合理的預測事件。",
+        "錯誤！bound to 後面應接動詞或合理名詞結構，不能這樣搭配顏色。"
+      ],
+      "explanation": "正確！車站已通知延誤兩小時，因此很確定會晚到。"
+    }
+  ],
+  "tags": [
+    "zac efron & zendaya",
+    "rewrite the stars",
+    "love",
+    "destiny"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/rewrite-the-stars/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/rewrite-the-stars/user-cover-20261030.png",
+  "editorialRepairs": [],
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 217.44,
+    "audioSha256": "4060c9466f9339617e88f7712e37b423b0822b7758fb0d900bbd94c2b519743e",
+    "timedLines": 60,
+    "untimedLines": 11,
+    "reviewStatus": "Conservative automatic line alignment. Unmatched/overlapping background lines remain bilingual without guessed timestamps; not a full manual timing certification."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Rewrite The Stars_.pdf",
+      "sha256": "836ff4ef318525e16efbb647cd1b70cf728edcd317d61223435f6f47ebfc7194"
+    },
+    "chosenListening": {
+      "filename": "Rewrite_The_Stars_Four_Level_Listening_Exercise.docx",
+      "sha256": "c94ba7989b8832ed8654e1bc255e22c21b910ebc904aad94e45c71769c8820f5"
+    },
+    "chosenVocabulary": {
+      "filename": "Rewrite_The_Stars_Vocabulary_Quiz.md",
+      "sha256": "0a315c44dda7eda69719364bc7b712e2aec4a077c3aae25aec7398584fb8de6c"
+    },
+    "mp3": {
+      "filename": "Rewrite The Stars [0w6qAo4ZuU0].mp3",
+      "sha256": "4060c9466f9339617e88f7712e37b423b0822b7758fb0d900bbd94c2b519743e"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-fa312bb7-9931-494f-9dca-938b41d75ea8.png",
+    "sha256": "53bc8075defafa14bfc52dddce9927bfad8c1005bc1aaafc7f5ce13252c029da",
+    "transformations": "none",
+    "selectedOn": "2026-10-30"
+  }
+}

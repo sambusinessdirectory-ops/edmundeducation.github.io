@@ -1,4 +1,3 @@
-// Editorial hook selections anchored to lesson audio, with explicit optional lead-in. No lyrics.
 window.SONG_PREVIEW_HOOKS = {
   "stop-loving-you": {
     "lineId": "line-14",
@@ -245,6 +244,91 @@ window.SONG_PREVIEW_HOOKS = {
   "poker-face": {
     "lineId": "line-36",
     "start": 113.24,
+    "duration": 24
+  },
+  "just-give-me-a-reason": {
+    "lineId": "line-13",
+    "start": 50.28,
+    "duration": 24
+  },
+  "hold-my-hand": {
+    "lineId": "line-28",
+    "start": 139.9,
+    "duration": 24
+  },
+  "snowman": {
+    "lineId": "line-7",
+    "start": 33.84,
+    "duration": 24
+  },
+  "what-makes-you-beautiful": {
+    "lineId": "line-12",
+    "start": 29.88,
+    "duration": 24
+  },
+  "cheap-thrills": {
+    "lineId": "line-11",
+    "start": 31.5,
+    "duration": 24
+  },
+  "rewrite-the-stars": {
+    "lineId": "line-12",
+    "start": 33.3,
+    "duration": 24
+  },
+  "never-enough": {
+    "lineId": "line-10",
+    "start": 58.72,
+    "duration": 24
+  },
+  "clocks": {
+    "lineId": "line-1",
+    "start": 30.0,
+    "duration": 24
+  },
+  "yellow": {
+    "lineId": "line-12",
+    "start": 88.36,
+    "duration": 24
+  },
+  "wake-me-up": {
+    "lineId": "line-9",
+    "start": 38.2,
+    "duration": 24
+  },
+  "just-dance": {
+    "lineId": "line-16",
+    "start": 47.36,
+    "duration": 24
+  },
+  "counting-stars": {
+    "lineId": "line-18",
+    "start": 77.88,
+    "duration": 24
+  },
+  "diamonds": {
+    "lineId": "line-15",
+    "start": 51.32,
+    "duration": 24
+  },
+  "believer": {
+    "lineId": "line-18",
+    "start": 55.98,
+    "duration": 24
+  },
+  "we-are-young": {
+    "lineId": "line-15",
+    "start": 52.8,
+    "duration": 24
+  },
+  "this-is-me": {
+    "lineId": "line-10",
+    "start": 45.2,
+    "duration": 24
+  },
+  "another-day-in-paradise": {
+    "lineId": "line-20",
+    "start": 148.1,
     "duration": 24
   }
 };

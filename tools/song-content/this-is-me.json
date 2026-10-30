@@ -1,0 +1,3225 @@
+{
+  "slug": "this-is-me",
+  "title": "This Is Me",
+  "singer": "Keala Settle & The Greatest Showman Ensemble",
+  "translations": [
+    {
+      "english": "I'm not a stranger to the dark",
+      "chinese": "對於黑暗，我早已不再陌生",
+      "lineId": "line-1",
+      "startSeconds": 10.7,
+      "endSeconds": 14.42
+    },
+    {
+      "english": "Hide away, they say",
+      "chinese": "他們說：「躲起來吧！」",
+      "lineId": "line-2",
+      "startSeconds": 14.42,
+      "endSeconds": 18.08
+    },
+    {
+      "english": "'Cause we don't want your broken parts",
+      "chinese": "「因為我們不願看見你那些殘缺破碎的模樣。」",
+      "lineId": "line-3",
+      "startSeconds": 18.08,
+      "endSeconds": 20.96
+    },
+    {
+      "english": "I've learned to be ashamed of all my scars ",
+      "chinese": "我早已學會，為自己身上的每一道傷痕感到羞愧",
+      "lineId": "line-4",
+      "startSeconds": 20.96,
+      "endSeconds": 26.1
+    },
+    {
+      "english": "Run away, they say",
+      "chinese": "他們說：「滾遠一點吧！」",
+      "lineId": "line-5"
+    },
+    {
+      "english": "No one will love you as you are",
+      "chinese": "「沒有人會愛你原本的模樣。」",
+      "lineId": "line-6",
+      "startSeconds": 29.26,
+      "endSeconds": 32.06
+    },
+    {
+      "english": "But I won't let them break me down to dust",
+      "chinese": "但我絕不容許他們將我擊垮，讓我粉碎成塵",
+      "lineId": "line-7",
+      "startSeconds": 32.06,
+      "endSeconds": 35.48
+    },
+    {
+      "english": "I know that there's a place for us",
+      "chinese": "我知道，這世界上一定有屬於我們的一席之地",
+      "lineId": "line-8",
+      "startSeconds": 35.48,
+      "endSeconds": 38.26
+    },
+    {
+      "english": "For we are glorious",
+      "chinese": "因為我們本就光彩耀人",
+      "lineId": "line-9",
+      "startSeconds": 38.8,
+      "endSeconds": 41.3
+    },
+    {
+      "english": "When the sharpest words wanna cut me down",
+      "chinese": "當那些最尖銳的言語，試圖將我傷得遍體鱗傷",
+      "lineId": "line-10",
+      "startSeconds": 45.2,
+      "endSeconds": 49.24
+    },
+    {
+      "english": "I'm gonna send a flood, gonna drown them out",
+      "chinese": "我將掀起滔天洪流，淹沒那些傷人的聲音",
+      "lineId": "line-11",
+      "startSeconds": 50.22,
+      "endSeconds": 53.78
+    },
+    {
+      "english": "I am brave, I am bruised",
+      "chinese": "我勇敢無畏，卻也滿身傷痕",
+      "lineId": "line-12",
+      "startSeconds": 54.9,
+      "endSeconds": 57.86
+    },
+    {
+      "english": "I am who I'm meant to be, this is me",
+      "chinese": "我就是命中注定要成為的自己，這就是我",
+      "lineId": "line-13",
+      "startSeconds": 58.2,
+      "endSeconds": 61.44
+    },
+    {
+      "english": "Look out 'cause here I come",
+      "chinese": "看好了，因為我正昂首走來",
+      "lineId": "line-14",
+      "startSeconds": 61.46,
+      "endSeconds": 64.28
+    },
+    {
+      "english": "And I'm marching on to the beat I drum",
+      "chinese": "我將隨著自己敲響的鼓點，堅定向前邁進",
+      "lineId": "line-15",
+      "startSeconds": 65.42,
+      "endSeconds": 68.66
+    },
+    {
+      "english": "I'm not scared to be seen",
+      "chinese": "我不再害怕讓世人看見真正的我",
+      "lineId": "line-16",
+      "startSeconds": 70.14,
+      "endSeconds": 72.8
+    },
+    {
+      "english": "I make no apologies, this is me",
+      "chinese": "我無須為自己的存在道歉，這就是我",
+      "lineId": "line-17",
+      "startSeconds": 73.22,
+      "endSeconds": 76.44
+    },
+    {
+      "english": "Another round of bullets hits my skin",
+      "chinese": "又一輪子彈，狠狠擊中了我的身軀",
+      "lineId": "line-18",
+      "startSeconds": 91.32,
+      "endSeconds": 94.5
+    },
+    {
+      "english": "Well, fire away 'cause today, I won't let the shame sink in",
+      "chinese": "儘管開火吧！因為從今天起，我不再讓羞恥侵蝕我的內心",
+      "lineId": "line-19",
+      "startSeconds": 94.5,
+      "endSeconds": 100.12
+    },
+    {
+      "english": "We are bursting through the barricades",
+      "chinese": "我們正奮力衝破一道道阻擋我們的路障",
+      "lineId": "line-20",
+      "startSeconds": 100.76,
+      "endSeconds": 103.82
+    },
+    {
+      "english": "And reaching for the sun (we are warriors)",
+      "chinese": "向著陽光奮力伸出雙手（我們是無畏的戰士）",
+      "lineId": "line-21"
+    },
+    {
+      "english": "Yeah, that's what we've become",
+      "chinese": "是啊，這就是如今的我們",
+      "lineId": "line-22"
+    },
+    {
+      "english": "Won't let them break me down to dust",
+      "chinese": "我絕不容許他們將我擊垮，讓我粉碎成塵",
+      "lineId": "line-23",
+      "startSeconds": 111.8,
+      "endSeconds": 113.44
+    },
+    {
+      "english": "I know that there's a place for us",
+      "chinese": "我知道，這世界上一定有屬於我們的一席之地",
+      "lineId": "line-24",
+      "startSeconds": 113.44,
+      "endSeconds": 116.43
+    },
+    {
+      "english": "For we are glorious",
+      "chinese": "因為我們本就光彩耀人",
+      "lineId": "line-25"
+    },
+    {
+      "english": "When the sharpest words wanna cut me down",
+      "chinese": "當那些最尖銳的言語，試圖將我傷得遍體鱗傷",
+      "lineId": "line-26",
+      "startSeconds": 120.52,
+      "endSeconds": 124.26
+    },
+    {
+      "english": "Gonna send a flood, gonna drown them out",
+      "chinese": "我將掀起滔天洪流，淹沒那些傷人的聲音",
+      "lineId": "line-27"
+    },
+    {
+      "english": "I am brave, I am bruised",
+      "chinese": "我勇敢無畏，卻也滿身傷痕",
+      "lineId": "line-28",
+      "startSeconds": 130.16,
+      "endSeconds": 132.76
+    },
+    {
+      "english": "I am who I'm meant to be, this is me",
+      "chinese": "我就是命中注定要成為的自己，這就是我",
+      "lineId": "line-29",
+      "startSeconds": 132.76,
+      "endSeconds": 136.3
+    },
+    {
+      "english": "Look out 'cause here I come",
+      "chinese": "看好了，因為我正昂首走來",
+      "lineId": "line-30"
+    },
+    {
+      "english": "And I'm marching on to the beat I drum",
+      "chinese": "我將隨著自己敲響的鼓點，堅定向前邁進",
+      "lineId": "line-31",
+      "startSeconds": 140.46,
+      "endSeconds": 143.52
+    },
+    {
+      "english": "I'm not scared to be seen",
+      "chinese": "我不再害怕讓世人看見真正的我",
+      "lineId": "line-32",
+      "startSeconds": 145.12,
+      "endSeconds": 147.72
+    },
+    {
+      "english": "I make no apologies, this is me",
+      "chinese": "我無須為自己的存在道歉，這就是我",
+      "lineId": "line-33",
+      "startSeconds": 148.16,
+      "endSeconds": 152.38
+    },
+    {
+      "english": "...This is me",
+      "chinese": "……這就是我",
+      "lineId": "line-34",
+      "startSeconds": 165.76,
+      "endSeconds": 166.46
+    },
+    {
+      "english": "And I know that I deserve your love",
+      "chinese": "而我知道，自己同樣值得擁有你的愛",
+      "lineId": "line-35"
+    },
+    {
+      "english": "There's nothing I'm not worthy of",
+      "chinese": "沒有什麼美好的事物，是我不配擁有的",
+      "lineId": "line-36"
+    },
+    {
+      "english": "When the sharpest words wanna cut me down",
+      "chinese": "當那些最尖銳的言語，試圖將我傷得遍體鱗傷",
+      "lineId": "line-37",
+      "startSeconds": 180.85,
+      "endSeconds": 184.24
+    },
+    {
+      "english": "I'm gonna send a flood, gonna drown them out",
+      "chinese": "我將掀起滔天洪流，淹沒那些傷人的聲音",
+      "lineId": "line-38"
+    },
+    {
+      "english": "This is brave, this is bruised",
+      "chinese": "這就是勇敢，這就是傷痕累累的模樣",
+      "lineId": "line-39",
+      "startSeconds": 190.12,
+      "endSeconds": 192.72
+    },
+    {
+      "english": "This is who I'm meant to be, this is me",
+      "chinese": "這就是我命中注定要成為的自己，這就是我",
+      "lineId": "line-40",
+      "startSeconds": 192.72,
+      "endSeconds": 197.46
+    },
+    {
+      "english": "Look out 'cause here I come (look out 'cause here I come)",
+      "chinese": "看好了，因為我正昂首走來（看好了，因為我正昂首走來）",
+      "lineId": "line-41"
+    },
+    {
+      "english": "And I'm marching on to the beat I drum (marching on, marching, marching on)",
+      "chinese": "我將隨著自己敲響的鼓點，堅定向前邁進（繼續前進，前進，不斷前進）",
+      "lineId": "line-42"
+    },
+    {
+      "english": "I'm not scared to be seen",
+      "chinese": "我不再害怕讓世人看見真正的我",
+      "lineId": "line-43"
+    },
+    {
+      "english": "I make no apologies, this is me",
+      "chinese": "我無須為自己的存在道歉，這就是我",
+      "lineId": "line-44",
+      "startSeconds": 209.7,
+      "endSeconds": 212.62
+    },
+    {
+      "english": "(Whenever the words wanna cut me down",
+      "chinese": "（每當那些言語試圖將我擊垮",
+      "lineId": "line-45"
+    },
+    {
+      "english": "I'll send the flood to drown them out)",
+      "chinese": "我便會掀起洪流，淹沒那些傷人的聲音）",
+      "lineId": "line-46"
+    },
+    {
+      "english": "I'm gonna send the flood, gonna drown them out",
+      "chinese": "我將掀起滔天洪流，淹沒那些傷人的聲音",
+      "lineId": "line-47",
+      "startSeconds": 218.14,
+      "endSeconds": 225.54
+    },
+    {
+      "english": "This is me",
+      "chinese": "這就是我",
+      "lineId": "line-48"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "stranger to the dark",
+          "options": [
+            "stranger to the dark",
+            "stranger to the light",
+            "friend of the night"
+          ],
+          "prompt": "I'm not a {{blank}}",
+          "promptZh": "對於黑暗，我早已不再陌生"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-4",
+          "answer": "all my scars",
+          "options": [
+            "all my fears",
+            "all my scars",
+            "all my dreams"
+          ],
+          "prompt": "I've learned to be ashamed of {{blank}} ",
+          "promptZh": "我早已學會，為自己身上的每一道傷痕感到羞愧"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-6",
+          "answer": "love you as you are",
+          "options": [
+            "love you as you are",
+            "leave you where you are",
+            "know you from afar"
+          ],
+          "prompt": "No one will {{blank}}",
+          "promptZh": "「沒有人會愛你原本的模樣。」"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-9",
+          "answer": "we are glorious",
+          "options": [
+            "we are fearless",
+            "we are glorious",
+            "we are stronger"
+          ],
+          "prompt": "For {{blank}}",
+          "promptZh": "因為我們本就光彩耀人"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-11",
+          "answer": "send a flood",
+          "options": [
+            "raise a storm",
+            "start a fire",
+            "send a flood"
+          ],
+          "prompt": "I'm gonna {{blank}}, gonna drown them out",
+          "promptZh": "我將掀起滔天洪流，淹沒那些傷人的聲音"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-13",
+          "answer": "I am who",
+          "options": [
+            "I am who",
+            "I will be",
+            "I once was"
+          ],
+          "prompt": "{{blank}} I'm meant to be, this is me",
+          "promptZh": "我就是命中注定要成為的自己，這就是我"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-15",
+          "answer": "the beat I drum",
+          "options": [
+            "the beat I drum",
+            "the song I sing",
+            "the road I choose"
+          ],
+          "prompt": "And I'm marching on to {{blank}}",
+          "promptZh": "我將隨著自己敲響的鼓點，堅定向前邁進"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-18",
+          "answer": "bullets hits my skin",
+          "options": [
+            "shadows cross my face",
+            "bullets hits my skin",
+            "thunder shakes the ground"
+          ],
+          "prompt": "Another round of {{blank}}",
+          "promptZh": "又一輪子彈，狠狠擊中了我的身軀"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-21",
+          "answer": "reaching for the sun",
+          "options": [
+            "searching for the stars",
+            "running through the rain",
+            "reaching for the sun"
+          ],
+          "prompt": "And {{blank}} (we are warriors)",
+          "promptZh": "向著陽光奮力伸出雙手（我們是無畏的戰士）"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-23",
+          "answer": "down to dust",
+          "options": [
+            "back to life",
+            "into the night",
+            "down to dust"
+          ],
+          "prompt": "Won't let them break me {{blank}}",
+          "promptZh": "我絕不容許他們將我擊垮，讓我粉碎成塵"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-26",
+          "answer": "wanna cut me down",
+          "options": [
+            "wanna bring me home",
+            "wanna cut me down",
+            "wanna shut me out"
+          ],
+          "prompt": "When the sharpest words {{blank}}",
+          "promptZh": "當那些最尖銳的言語，試圖將我傷得遍體鱗傷"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-28",
+          "answer": "I am bruised",
+          "options": [
+            "I am ready",
+            "I am fearless",
+            "I am bruised"
+          ],
+          "prompt": "I am brave, {{blank}}",
+          "promptZh": "我勇敢無畏，卻也滿身傷痕"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-31",
+          "answer": "marching on",
+          "options": [
+            "marching on",
+            "moving back",
+            "falling down"
+          ],
+          "prompt": "And I'm {{blank}} to the beat I drum",
+          "promptZh": "我將隨著自己敲響的鼓點，堅定向前邁進"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-34",
+          "answer": "This is me",
+          "options": [
+            "This is love",
+            "This is life",
+            "This is me"
+          ],
+          "prompt": "...{{blank}}",
+          "promptZh": "……這就是我"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-36",
+          "answer": "I'm not worthy of",
+          "options": [
+            "I was waiting for",
+            "I'm not worthy of",
+            "I am dreaming of"
+          ],
+          "prompt": "There's nothing {{blank}}",
+          "promptZh": "沒有什麼美好的事物，是我不配擁有的"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-39",
+          "answer": "This is brave",
+          "options": [
+            "This is wild",
+            "This is strong",
+            "This is brave"
+          ],
+          "prompt": "{{blank}}, this is bruised",
+          "promptZh": "這就是勇敢，這就是傷痕累累的模樣"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-40",
+          "answer": "this is me",
+          "options": [
+            "this is life",
+            "this is me",
+            "this is love"
+          ],
+          "prompt": "This is who I'm meant to be, {{blank}}",
+          "promptZh": "這就是我命中注定要成為的自己，這就是我"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-43",
+          "answer": "not scared to be seen",
+          "options": [
+            "not scared to be seen",
+            "not afraid to speak out",
+            "not ready to go home"
+          ],
+          "prompt": "I'm {{blank}}",
+          "promptZh": "我不再害怕讓世人看見真正的我"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-45",
+          "answer": "wanna cut me down",
+          "options": [
+            "wanna cut me down",
+            "wanna pull me away",
+            "wanna turn me around"
+          ],
+          "prompt": "(Whenever the words {{blank}}",
+          "promptZh": "（每當那些言語試圖將我擊垮"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-48",
+          "answer": "This is me",
+          "options": [
+            "This is life",
+            "This is me",
+            "This is love"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "這就是我"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I'm not a {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Hide away, they say"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "'Cause we don't want your broken parts"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I've learned to be ashamed of {{q:2}} "
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Run away, they say"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "No one will {{q:3}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "But I won't let them break me down to dust"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I know that there's a place for us"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "For {{q:4}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "When the sharpest words wanna cut me down"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I'm gonna {{q:5}}, gonna drown them out"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I am brave, I am bruised"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:6}} I'm meant to be, this is me"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Look out 'cause here I come"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And I'm marching on to {{q:7}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I'm not scared to be seen"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I make no apologies, this is me"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Another round of {{q:8}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Well, fire away 'cause today, I won't let the shame sink in"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "We are bursting through the barricades"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And {{q:9}} (we are warriors)"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Yeah, that's what we've become"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Won't let them break me {{q:10}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I know that there's a place for us"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "For we are glorious"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "When the sharpest words {{q:11}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Gonna send a flood, gonna drown them out"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I am brave, {{q:12}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I am who I'm meant to be, this is me"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Look out 'cause here I come"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "And I'm {{q:13}} to the beat I drum"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I'm not scared to be seen"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I make no apologies, this is me"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "...{{q:14}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "And I know that I deserve your love"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "There's nothing {{q:15}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "When the sharpest words wanna cut me down"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I'm gonna send a flood, gonna drown them out"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "{{q:16}}, this is bruised"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "This is who I'm meant to be, {{q:17}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Look out 'cause here I come (look out 'cause here I come)"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "And I'm marching on to the beat I drum (marching on, marching, marching on)"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I'm {{q:18}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "I make no apologies, this is me"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "(Whenever the words {{q:19}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I'll send the flood to drown them out)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "I'm gonna send the flood, gonna drown them out"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "{{q:20}}"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "stranger to the dark",
+          "options": [
+            "friend of the night",
+            "stranger to the light",
+            "stranger to the dark"
+          ],
+          "prompt": "I'm not a {{blank}}",
+          "promptZh": "對於黑暗，我早已不再陌生"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "broken parts",
+          "options": [
+            "brightest smiles",
+            "broken parts",
+            "hidden dreams"
+          ],
+          "prompt": "'Cause we don't want your {{blank}}",
+          "promptZh": "「因為我們不願看見你那些殘缺破碎的模樣。」"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-4",
+          "answer": "all my scars",
+          "options": [
+            "all my dreams",
+            "all my fears",
+            "all my scars"
+          ],
+          "prompt": "I've learned to be ashamed of {{blank}} ",
+          "promptZh": "我早已學會，為自己身上的每一道傷痕感到羞愧"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-6",
+          "answer": "love you as you are",
+          "options": [
+            "leave you where you are",
+            "love you as you are",
+            "know you from afar"
+          ],
+          "prompt": "No one will {{blank}}",
+          "promptZh": "「沒有人會愛你原本的模樣。」"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-7",
+          "answer": "break me down to dust",
+          "options": [
+            "break me down to dust",
+            "bring me back to life",
+            "push me into darkness"
+          ],
+          "prompt": "But I won't let them {{blank}}",
+          "promptZh": "但我絕不容許他們將我擊垮，讓我粉碎成塵"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-9",
+          "answer": "we are glorious",
+          "options": [
+            "we are glorious",
+            "we are fearless",
+            "we are stronger"
+          ],
+          "prompt": "For {{blank}}",
+          "promptZh": "因為我們本就光彩耀人"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-10",
+          "answer": "the sharpest words",
+          "options": [
+            "the hardest times",
+            "the darkest nights",
+            "the sharpest words"
+          ],
+          "prompt": "When {{blank}} wanna cut me down",
+          "promptZh": "當那些最尖銳的言語，試圖將我傷得遍體鱗傷"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-11",
+          "answer": "send a flood",
+          "options": [
+            "start a fire",
+            "send a flood",
+            "raise a storm"
+          ],
+          "prompt": "I'm gonna {{blank}}, gonna drown them out",
+          "promptZh": "我將掀起滔天洪流，淹沒那些傷人的聲音"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-12",
+          "answer": "I am brave",
+          "options": [
+            "I am free",
+            "I am brave",
+            "I am strong"
+          ],
+          "prompt": "{{blank}}, I am bruised",
+          "promptZh": "我勇敢無畏，卻也滿身傷痕"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-13",
+          "answer": "I am who",
+          "options": [
+            "I am who",
+            "I will be",
+            "I once was"
+          ],
+          "prompt": "{{blank}} I'm meant to be, this is me",
+          "promptZh": "我就是命中注定要成為的自己，這就是我"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-14",
+          "answer": "here I come",
+          "options": [
+            "here I come",
+            "there you go",
+            "here we stand"
+          ],
+          "prompt": "Look out 'cause {{blank}}",
+          "promptZh": "看好了，因為我正昂首走來"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-15",
+          "answer": "the beat I drum",
+          "options": [
+            "the road I choose",
+            "the song I sing",
+            "the beat I drum"
+          ],
+          "prompt": "And I'm marching on to {{blank}}",
+          "promptZh": "我將隨著自己敲響的鼓點，堅定向前邁進"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-16",
+          "answer": "scared to be seen",
+          "options": [
+            "scared to be seen",
+            "ready to be heard",
+            "afraid to be alone"
+          ],
+          "prompt": "I'm not {{blank}}",
+          "promptZh": "我不再害怕讓世人看見真正的我"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-17",
+          "answer": "make no apologies",
+          "options": [
+            "make no apologies",
+            "need no explanations",
+            "have no more questions"
+          ],
+          "prompt": "I {{blank}}, this is me",
+          "promptZh": "我無須為自己的存在道歉，這就是我"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-18",
+          "answer": "bullets hits my skin",
+          "options": [
+            "thunder shakes the ground",
+            "bullets hits my skin",
+            "shadows cross my face"
+          ],
+          "prompt": "Another round of {{blank}}",
+          "promptZh": "又一輪子彈，狠狠擊中了我的身軀"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-19",
+          "answer": "let the shame sink in",
+          "options": [
+            "let the silence win",
+            "let the fear begin",
+            "let the shame sink in"
+          ],
+          "prompt": "Well, fire away 'cause today, I won't {{blank}}",
+          "promptZh": "儘管開火吧！因為從今天起，我不再讓羞恥侵蝕我的內心"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-21",
+          "answer": "reaching for the sun",
+          "options": [
+            "searching for the stars",
+            "reaching for the sun",
+            "running through the rain"
+          ],
+          "prompt": "And {{blank}} (we are warriors)",
+          "promptZh": "向著陽光奮力伸出雙手（我們是無畏的戰士）"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-22",
+          "answer": "what we've become",
+          "options": [
+            "who we once were",
+            "what we've become",
+            "where we belong"
+          ],
+          "prompt": "Yeah, that's {{blank}}",
+          "promptZh": "是啊，這就是如今的我們"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-23",
+          "answer": "down to dust",
+          "options": [
+            "into the night",
+            "back to life",
+            "down to dust"
+          ],
+          "prompt": "Won't let them break me {{blank}}",
+          "promptZh": "我絕不容許他們將我擊垮，讓我粉碎成塵"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-24",
+          "answer": "there's a place for us",
+          "options": [
+            "there's a place for us",
+            "there's a light ahead",
+            "there's a way for me"
+          ],
+          "prompt": "I know that {{blank}}",
+          "promptZh": "我知道，這世界上一定有屬於我們的一席之地"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-25",
+          "answer": "For we are glorious",
+          "options": [
+            "For we are stronger",
+            "For we are fearless",
+            "For we are glorious"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "因為我們本就光彩耀人"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-26",
+          "answer": "wanna cut me down",
+          "options": [
+            "wanna bring me home",
+            "wanna shut me out",
+            "wanna cut me down"
+          ],
+          "prompt": "When the sharpest words {{blank}}",
+          "promptZh": "當那些最尖銳的言語，試圖將我傷得遍體鱗傷"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-27",
+          "answer": "drown them out",
+          "options": [
+            "wash it away",
+            "drown them out",
+            "turn around"
+          ],
+          "prompt": "Gonna send a flood, gonna {{blank}}",
+          "promptZh": "我將掀起滔天洪流，淹沒那些傷人的聲音"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-28",
+          "answer": "I am bruised",
+          "options": [
+            "I am bruised",
+            "I am fearless",
+            "I am ready"
+          ],
+          "prompt": "I am brave, {{blank}}",
+          "promptZh": "我勇敢無畏，卻也滿身傷痕"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-30",
+          "answer": "Look out",
+          "options": [
+            "Look out",
+            "Come back",
+            "Stand up"
+          ],
+          "prompt": "{{blank}} 'cause here I come",
+          "promptZh": "看好了，因為我正昂首走來"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-31",
+          "answer": "marching on",
+          "options": [
+            "moving back",
+            "falling down",
+            "marching on"
+          ],
+          "prompt": "And I'm {{blank}} to the beat I drum",
+          "promptZh": "我將隨著自己敲響的鼓點，堅定向前邁進"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-32",
+          "answer": "not scared",
+          "options": [
+            "not sorry",
+            "not scared",
+            "not ready"
+          ],
+          "prompt": "I'm {{blank}} to be seen",
+          "promptZh": "我不再害怕讓世人看見真正的我"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-33",
+          "answer": "this is me",
+          "options": [
+            "this is me",
+            "this is us",
+            "this is you"
+          ],
+          "prompt": "I make no apologies, {{blank}}",
+          "promptZh": "我無須為自己的存在道歉，這就是我"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-34",
+          "answer": "This is me",
+          "options": [
+            "This is love",
+            "This is life",
+            "This is me"
+          ],
+          "prompt": "...{{blank}}",
+          "promptZh": "……這就是我"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-35",
+          "answer": "deserve your love",
+          "options": [
+            "need your help",
+            "deserve your love",
+            "fear your words"
+          ],
+          "prompt": "And I know that I {{blank}}",
+          "promptZh": "而我知道，自己同樣值得擁有你的愛"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-36",
+          "answer": "I'm not worthy of",
+          "options": [
+            "I'm not worthy of",
+            "I am dreaming of",
+            "I was waiting for"
+          ],
+          "prompt": "There's nothing {{blank}}",
+          "promptZh": "沒有什麼美好的事物，是我不配擁有的"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-38",
+          "answer": "gonna drown them out",
+          "options": [
+            "gonna shut them down",
+            "gonna drown them out",
+            "gonna turn around"
+          ],
+          "prompt": "I'm gonna send a flood, {{blank}}",
+          "promptZh": "我將掀起滔天洪流，淹沒那些傷人的聲音"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I'm not a {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Hide away, they say"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "'Cause we don't want your {{q:2}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I've learned to be ashamed of {{q:3}} "
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Run away, they say"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "No one will {{q:4}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "But I won't let them {{q:5}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I know that there's a place for us"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "For {{q:6}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "When {{q:7}} wanna cut me down"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I'm gonna {{q:8}}, gonna drown them out"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:9}}, I am bruised"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:10}} I'm meant to be, this is me"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Look out 'cause {{q:11}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And I'm marching on to {{q:12}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I'm not {{q:13}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I {{q:14}}, this is me"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Another round of {{q:15}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Well, fire away 'cause today, I won't {{q:16}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "We are bursting through the barricades"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And {{q:17}} (we are warriors)"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Yeah, that's {{q:18}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Won't let them break me {{q:19}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I know that {{q:20}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:21}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "When the sharpest words {{q:22}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Gonna send a flood, gonna {{q:23}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I am brave, {{q:24}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I am who I'm meant to be, this is me"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:25}} 'cause here I come"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "And I'm {{q:26}} to the beat I drum"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I'm {{q:27}} to be seen"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I make no apologies, {{q:28}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "...{{q:29}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "And I know that I {{q:30}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "There's nothing {{q:31}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "When the sharpest words wanna cut me down"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I'm gonna send a flood, {{q:32}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "This is brave, this is bruised"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "This is who I'm meant to be, this is me"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Look out 'cause here I come (look out 'cause here I come)"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "And I'm marching on to the beat I drum (marching on, marching, marching on)"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I'm not scared to be seen"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "I make no apologies, this is me"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "(Whenever the words wanna cut me down"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I'll send the flood to drown them out)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "I'm gonna send the flood, gonna drown them out"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "This is me"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "stranger to the dark",
+          "options": [
+            "stranger to the dark",
+            "stranger to the light",
+            "friend of the night"
+          ],
+          "prompt": "I'm not a {{blank}}",
+          "promptZh": "對於黑暗，我早已不再陌生"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "Hide away",
+          "options": [
+            "Come outside",
+            "Stand your ground",
+            "Hide away"
+          ],
+          "prompt": "{{blank}}, they say",
+          "promptZh": "他們說：「躲起來吧！」"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "broken parts",
+          "options": [
+            "broken parts",
+            "brightest smiles",
+            "hidden dreams"
+          ],
+          "prompt": "'Cause we don't want your {{blank}}",
+          "promptZh": "「因為我們不願看見你那些殘缺破碎的模樣。」"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "all my scars",
+          "options": [
+            "all my fears",
+            "all my dreams",
+            "all my scars"
+          ],
+          "prompt": "I've learned to be ashamed of {{blank}} ",
+          "promptZh": "我早已學會，為自己身上的每一道傷痕感到羞愧"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "Run away",
+          "options": [
+            "Run away",
+            "Stay with me",
+            "Turn around"
+          ],
+          "prompt": "{{blank}}, they say",
+          "promptZh": "他們說：「滾遠一點吧！」"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "love you as you are",
+          "options": [
+            "leave you where you are",
+            "love you as you are",
+            "know you from afar"
+          ],
+          "prompt": "No one will {{blank}}",
+          "promptZh": "「沒有人會愛你原本的模樣。」"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "break me down to dust",
+          "options": [
+            "bring me back to life",
+            "break me down to dust",
+            "push me into darkness"
+          ],
+          "prompt": "But I won't let them {{blank}}",
+          "promptZh": "但我絕不容許他們將我擊垮，讓我粉碎成塵"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-9",
+          "answer": "we are glorious",
+          "options": [
+            "we are stronger",
+            "we are fearless",
+            "we are glorious"
+          ],
+          "prompt": "For {{blank}}",
+          "promptZh": "因為我們本就光彩耀人"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-10",
+          "answer": "the sharpest words",
+          "options": [
+            "the hardest times",
+            "the sharpest words",
+            "the darkest nights"
+          ],
+          "prompt": "When {{blank}} wanna cut me down",
+          "promptZh": "當那些最尖銳的言語，試圖將我傷得遍體鱗傷"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-11",
+          "answer": "send a flood",
+          "options": [
+            "start a fire",
+            "raise a storm",
+            "send a flood"
+          ],
+          "prompt": "I'm gonna {{blank}}, gonna drown them out",
+          "promptZh": "我將掀起滔天洪流，淹沒那些傷人的聲音"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-12",
+          "answer": "I am brave",
+          "options": [
+            "I am brave",
+            "I am strong",
+            "I am free"
+          ],
+          "prompt": "{{blank}}, I am bruised",
+          "promptZh": "我勇敢無畏，卻也滿身傷痕"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-13",
+          "answer": "I am who",
+          "options": [
+            "I am who",
+            "I once was",
+            "I will be"
+          ],
+          "prompt": "{{blank}} I'm meant to be, this is me",
+          "promptZh": "我就是命中注定要成為的自己，這就是我"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-14",
+          "answer": "here I come",
+          "options": [
+            "here we stand",
+            "there you go",
+            "here I come"
+          ],
+          "prompt": "Look out 'cause {{blank}}",
+          "promptZh": "看好了，因為我正昂首走來"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-15",
+          "answer": "the beat I drum",
+          "options": [
+            "the road I choose",
+            "the beat I drum",
+            "the song I sing"
+          ],
+          "prompt": "And I'm marching on to {{blank}}",
+          "promptZh": "我將隨著自己敲響的鼓點，堅定向前邁進"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-16",
+          "answer": "scared to be seen",
+          "options": [
+            "scared to be seen",
+            "afraid to be alone",
+            "ready to be heard"
+          ],
+          "prompt": "I'm not {{blank}}",
+          "promptZh": "我不再害怕讓世人看見真正的我"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-17",
+          "answer": "make no apologies",
+          "options": [
+            "make no apologies",
+            "need no explanations",
+            "have no more questions"
+          ],
+          "prompt": "I {{blank}}, this is me",
+          "promptZh": "我無須為自己的存在道歉，這就是我"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "bullets hits my skin",
+          "options": [
+            "shadows cross my face",
+            "thunder shakes the ground",
+            "bullets hits my skin"
+          ],
+          "prompt": "Another round of {{blank}}",
+          "promptZh": "又一輪子彈，狠狠擊中了我的身軀"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "let the shame sink in",
+          "options": [
+            "let the shame sink in",
+            "let the silence win",
+            "let the fear begin"
+          ],
+          "prompt": "Well, fire away 'cause today, I won't {{blank}}",
+          "promptZh": "儘管開火吧！因為從今天起，我不再讓羞恥侵蝕我的內心"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-20",
+          "answer": "through the barricades",
+          "options": [
+            "over the mountains",
+            "through the barricades",
+            "across the open fields"
+          ],
+          "prompt": "We are bursting {{blank}}",
+          "promptZh": "我們正奮力衝破一道道阻擋我們的路障"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-21",
+          "answer": "reaching for the sun",
+          "options": [
+            "searching for the stars",
+            "reaching for the sun",
+            "running through the rain"
+          ],
+          "prompt": "And {{blank}} (we are warriors)",
+          "promptZh": "向著陽光奮力伸出雙手（我們是無畏的戰士）"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-22",
+          "answer": "what we've become",
+          "options": [
+            "what we've become",
+            "where we belong",
+            "who we once were"
+          ],
+          "prompt": "Yeah, that's {{blank}}",
+          "promptZh": "是啊，這就是如今的我們"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-23",
+          "answer": "down to dust",
+          "options": [
+            "back to life",
+            "into the night",
+            "down to dust"
+          ],
+          "prompt": "Won't let them break me {{blank}}",
+          "promptZh": "我絕不容許他們將我擊垮，讓我粉碎成塵"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-24",
+          "answer": "there's a place for us",
+          "options": [
+            "there's a light ahead",
+            "there's a way for me",
+            "there's a place for us"
+          ],
+          "prompt": "I know that {{blank}}",
+          "promptZh": "我知道，這世界上一定有屬於我們的一席之地"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-25",
+          "answer": "For we are glorious",
+          "options": [
+            "For we are stronger",
+            "For we are glorious",
+            "For we are fearless"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "因為我們本就光彩耀人"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-26",
+          "answer": "wanna cut me down",
+          "options": [
+            "wanna shut me out",
+            "wanna cut me down",
+            "wanna bring me home"
+          ],
+          "prompt": "When the sharpest words {{blank}}",
+          "promptZh": "當那些最尖銳的言語，試圖將我傷得遍體鱗傷"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-27",
+          "answer": "drown them out",
+          "options": [
+            "drown them out",
+            "wash it away",
+            "turn around"
+          ],
+          "prompt": "Gonna send a flood, gonna {{blank}}",
+          "promptZh": "我將掀起滔天洪流，淹沒那些傷人的聲音"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-28",
+          "answer": "I am bruised",
+          "options": [
+            "I am fearless",
+            "I am ready",
+            "I am bruised"
+          ],
+          "prompt": "I am brave, {{blank}}",
+          "promptZh": "我勇敢無畏，卻也滿身傷痕"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-29",
+          "answer": "this is me",
+          "options": [
+            "this is life",
+            "this is me",
+            "this is love"
+          ],
+          "prompt": "I am who I'm meant to be, {{blank}}",
+          "promptZh": "我就是命中注定要成為的自己，這就是我"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-30",
+          "answer": "Look out",
+          "options": [
+            "Stand up",
+            "Look out",
+            "Come back"
+          ],
+          "prompt": "{{blank}} 'cause here I come",
+          "promptZh": "看好了，因為我正昂首走來"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-31",
+          "answer": "marching on",
+          "options": [
+            "moving back",
+            "falling down",
+            "marching on"
+          ],
+          "prompt": "And I'm {{blank}} to the beat I drum",
+          "promptZh": "我將隨著自己敲響的鼓點，堅定向前邁進"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-32",
+          "answer": "not scared",
+          "options": [
+            "not ready",
+            "not scared",
+            "not sorry"
+          ],
+          "prompt": "I'm {{blank}} to be seen",
+          "promptZh": "我不再害怕讓世人看見真正的我"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-33",
+          "answer": "this is me",
+          "options": [
+            "this is me",
+            "this is you",
+            "this is us"
+          ],
+          "prompt": "I make no apologies, {{blank}}",
+          "promptZh": "我無須為自己的存在道歉，這就是我"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-34",
+          "answer": "This is me",
+          "options": [
+            "This is life",
+            "This is love",
+            "This is me"
+          ],
+          "prompt": "...{{blank}}",
+          "promptZh": "……這就是我"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-35",
+          "answer": "deserve your love",
+          "options": [
+            "need your help",
+            "deserve your love",
+            "fear your words"
+          ],
+          "prompt": "And I know that I {{blank}}",
+          "promptZh": "而我知道，自己同樣值得擁有你的愛"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-36",
+          "answer": "I'm not worthy of",
+          "options": [
+            "I'm not worthy of",
+            "I was waiting for",
+            "I am dreaming of"
+          ],
+          "prompt": "There's nothing {{blank}}",
+          "promptZh": "沒有什麼美好的事物，是我不配擁有的"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-38",
+          "answer": "gonna drown them out",
+          "options": [
+            "gonna drown them out",
+            "gonna shut them down",
+            "gonna turn around"
+          ],
+          "prompt": "I'm gonna send a flood, {{blank}}",
+          "promptZh": "我將掀起滔天洪流，淹沒那些傷人的聲音"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-39",
+          "answer": "This is brave",
+          "options": [
+            "This is strong",
+            "This is wild",
+            "This is brave"
+          ],
+          "prompt": "{{blank}}, this is bruised",
+          "promptZh": "這就是勇敢，這就是傷痕累累的模樣"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-40",
+          "answer": "who I'm meant to be",
+          "options": [
+            "what I used to see",
+            "who I'm meant to be",
+            "where I want to go"
+          ],
+          "prompt": "This is {{blank}}, this is me",
+          "promptZh": "這就是我命中注定要成為的自己，這就是我"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-40",
+          "answer": "this is me",
+          "options": [
+            "this is life",
+            "this is love",
+            "this is me"
+          ],
+          "prompt": "This is who I'm meant to be, {{blank}}",
+          "promptZh": "這就是我命中注定要成為的自己，這就是我"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-42",
+          "answer": "the beat I drum",
+          "options": [
+            "the beat I drum",
+            "the path I choose",
+            "the song I sing"
+          ],
+          "prompt": "And I'm marching on to {{blank}} (marching on, marching, marching on)",
+          "promptZh": "我將隨著自己敲響的鼓點，堅定向前邁進（繼續前進，前進，不斷前進）"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I'm not a {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}, they say"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "'Cause we don't want your {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I've learned to be ashamed of {{q:4}} "
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}}, they say"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "No one will {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "But I won't let them {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I know that there's a place for us"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "For {{q:8}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "When {{q:9}} wanna cut me down"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I'm gonna {{q:10}}, gonna drown them out"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:11}}, I am bruised"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:12}} I'm meant to be, this is me"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Look out 'cause {{q:13}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And I'm marching on to {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I'm not {{q:15}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I {{q:16}}, this is me"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Another round of {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Well, fire away 'cause today, I won't {{q:18}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "We are bursting {{q:19}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And {{q:20}} (we are warriors)"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Yeah, that's {{q:21}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Won't let them break me {{q:22}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I know that {{q:23}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:24}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "When the sharpest words {{q:25}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Gonna send a flood, gonna {{q:26}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I am brave, {{q:27}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I am who I'm meant to be, {{q:28}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:29}} 'cause here I come"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "And I'm {{q:30}} to the beat I drum"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I'm {{q:31}} to be seen"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I make no apologies, {{q:32}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "...{{q:33}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "And I know that I {{q:34}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "There's nothing {{q:35}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "When the sharpest words wanna cut me down"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I'm gonna send a flood, {{q:36}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "{{q:37}}, this is bruised"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "This is {{q:38}}, {{q:39}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Look out 'cause here I come (look out 'cause here I come)"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "And I'm marching on to {{q:40}} (marching on, marching, marching on)"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I'm not scared to be seen"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "I make no apologies, this is me"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "(Whenever the words wanna cut me down"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I'll send the flood to drown them out)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "I'm gonna send the flood, gonna drown them out"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "This is me"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "stranger to the dark",
+          "options": [
+            "stranger to the dark",
+            "friend of the night",
+            "stranger to the light"
+          ],
+          "prompt": "I'm not a {{blank}}",
+          "promptZh": "對於黑暗，我早已不再陌生"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "Hide away",
+          "options": [
+            "Stand your ground",
+            "Come outside",
+            "Hide away"
+          ],
+          "prompt": "{{blank}}, they say",
+          "promptZh": "他們說：「躲起來吧！」"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "broken parts",
+          "options": [
+            "hidden dreams",
+            "brightest smiles",
+            "broken parts"
+          ],
+          "prompt": "'Cause we don't want your {{blank}}",
+          "promptZh": "「因為我們不願看見你那些殘缺破碎的模樣。」"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "all my scars",
+          "options": [
+            "all my scars",
+            "all my dreams",
+            "all my fears"
+          ],
+          "prompt": "I've learned to be ashamed of {{blank}} ",
+          "promptZh": "我早已學會，為自己身上的每一道傷痕感到羞愧"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "Run away",
+          "options": [
+            "Stay with me",
+            "Run away",
+            "Turn around"
+          ],
+          "prompt": "{{blank}}, they say",
+          "promptZh": "他們說：「滾遠一點吧！」"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "love you as you are",
+          "options": [
+            "leave you where you are",
+            "love you as you are",
+            "know you from afar"
+          ],
+          "prompt": "No one will {{blank}}",
+          "promptZh": "「沒有人會愛你原本的模樣。」"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "break me down to dust",
+          "options": [
+            "break me down to dust",
+            "bring me back to life",
+            "push me into darkness"
+          ],
+          "prompt": "But I won't let them {{blank}}",
+          "promptZh": "但我絕不容許他們將我擊垮，讓我粉碎成塵"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "a place for us",
+          "options": [
+            "a home for me",
+            "a place for us",
+            "a road ahead"
+          ],
+          "prompt": "I know that there's {{blank}}",
+          "promptZh": "我知道，這世界上一定有屬於我們的一席之地"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "we are glorious",
+          "options": [
+            "we are stronger",
+            "we are glorious",
+            "we are fearless"
+          ],
+          "prompt": "For {{blank}}",
+          "promptZh": "因為我們本就光彩耀人"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "the sharpest words",
+          "options": [
+            "the sharpest words",
+            "the hardest times",
+            "the darkest nights"
+          ],
+          "prompt": "When {{blank}} wanna cut me down",
+          "promptZh": "當那些最尖銳的言語，試圖將我傷得遍體鱗傷"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "send a flood",
+          "options": [
+            "start a fire",
+            "raise a storm",
+            "send a flood"
+          ],
+          "prompt": "I'm gonna {{blank}}, gonna drown them out",
+          "promptZh": "我將掀起滔天洪流，淹沒那些傷人的聲音"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "I am brave",
+          "options": [
+            "I am free",
+            "I am brave",
+            "I am strong"
+          ],
+          "prompt": "{{blank}}, I am bruised",
+          "promptZh": "我勇敢無畏，卻也滿身傷痕"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 14,
+          "lineId": "line-13",
+          "answer": "I am",
+          "options": [
+            "You are",
+            "I am",
+            "We are"
+          ],
+          "prompt": "{{blank}} who I'm meant to be, this is me",
+          "promptZh": "我就是命中注定要成為的自己，這就是我"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "who I'm meant to be",
+          "options": [
+            "who I'm meant to be",
+            "what I used to be",
+            "where I want to go"
+          ],
+          "prompt": "I am {{blank}}, this is me",
+          "promptZh": "我就是命中注定要成為的自己，這就是我"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-14",
+          "answer": "here I come",
+          "options": [
+            "here I come",
+            "there you go",
+            "here we stand"
+          ],
+          "prompt": "Look out 'cause {{blank}}",
+          "promptZh": "看好了，因為我正昂首走來"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-15",
+          "answer": "the beat I drum",
+          "options": [
+            "the road I choose",
+            "the song I sing",
+            "the beat I drum"
+          ],
+          "prompt": "And I'm marching on to {{blank}}",
+          "promptZh": "我將隨著自己敲響的鼓點，堅定向前邁進"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-16",
+          "answer": "scared to be seen",
+          "options": [
+            "ready to be heard",
+            "scared to be seen",
+            "afraid to be alone"
+          ],
+          "prompt": "I'm not {{blank}}",
+          "promptZh": "我不再害怕讓世人看見真正的我"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-17",
+          "answer": "make no apologies",
+          "options": [
+            "need no explanations",
+            "have no more questions",
+            "make no apologies"
+          ],
+          "prompt": "I {{blank}}, this is me",
+          "promptZh": "我無須為自己的存在道歉，這就是我"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-18",
+          "answer": "bullets hits my skin",
+          "options": [
+            "thunder shakes the ground",
+            "bullets hits my skin",
+            "shadows cross my face"
+          ],
+          "prompt": "Another round of {{blank}}",
+          "promptZh": "又一輪子彈，狠狠擊中了我的身軀"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-19",
+          "answer": "let the shame sink in",
+          "options": [
+            "let the shame sink in",
+            "let the fear begin",
+            "let the silence win"
+          ],
+          "prompt": "Well, fire away 'cause today, I won't {{blank}}",
+          "promptZh": "儘管開火吧！因為從今天起，我不再讓羞恥侵蝕我的內心"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-20",
+          "answer": "through the barricades",
+          "options": [
+            "across the open fields",
+            "over the mountains",
+            "through the barricades"
+          ],
+          "prompt": "We are bursting {{blank}}",
+          "promptZh": "我們正奮力衝破一道道阻擋我們的路障"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-21",
+          "answer": "reaching for the sun",
+          "options": [
+            "reaching for the sun",
+            "running through the rain",
+            "searching for the stars"
+          ],
+          "prompt": "And {{blank}} (we are warriors)",
+          "promptZh": "向著陽光奮力伸出雙手（我們是無畏的戰士）"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-22",
+          "answer": "what we've become",
+          "options": [
+            "where we belong",
+            "what we've become",
+            "who we once were"
+          ],
+          "prompt": "Yeah, that's {{blank}}",
+          "promptZh": "是啊，這就是如今的我們"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-23",
+          "answer": "down to dust",
+          "options": [
+            "into the night",
+            "back to life",
+            "down to dust"
+          ],
+          "prompt": "Won't let them break me {{blank}}",
+          "promptZh": "我絕不容許他們將我擊垮，讓我粉碎成塵"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-24",
+          "answer": "there's a place for us",
+          "options": [
+            "there's a way for me",
+            "there's a light ahead",
+            "there's a place for us"
+          ],
+          "prompt": "I know that {{blank}}",
+          "promptZh": "我知道，這世界上一定有屬於我們的一席之地"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-25",
+          "answer": "For we are glorious",
+          "options": [
+            "For we are glorious",
+            "For we are fearless",
+            "For we are stronger"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "因為我們本就光彩耀人"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-26",
+          "answer": "wanna cut me down",
+          "options": [
+            "wanna cut me down",
+            "wanna bring me home",
+            "wanna shut me out"
+          ],
+          "prompt": "When the sharpest words {{blank}}",
+          "promptZh": "當那些最尖銳的言語，試圖將我傷得遍體鱗傷"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-27",
+          "answer": "drown them out",
+          "options": [
+            "turn around",
+            "wash it away",
+            "drown them out"
+          ],
+          "prompt": "Gonna send a flood, gonna {{blank}}",
+          "promptZh": "我將掀起滔天洪流，淹沒那些傷人的聲音"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-28",
+          "answer": "I am bruised",
+          "options": [
+            "I am ready",
+            "I am fearless",
+            "I am bruised"
+          ],
+          "prompt": "I am brave, {{blank}}",
+          "promptZh": "我勇敢無畏，卻也滿身傷痕"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-29",
+          "answer": "this is me",
+          "options": [
+            "this is love",
+            "this is me",
+            "this is life"
+          ],
+          "prompt": "I am who I'm meant to be, {{blank}}",
+          "promptZh": "我就是命中注定要成為的自己，這就是我"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-30",
+          "answer": "Look out",
+          "options": [
+            "Come back",
+            "Look out",
+            "Stand up"
+          ],
+          "prompt": "{{blank}} 'cause here I come",
+          "promptZh": "看好了，因為我正昂首走來"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-31",
+          "answer": "marching on",
+          "options": [
+            "moving back",
+            "falling down",
+            "marching on"
+          ],
+          "prompt": "And I'm {{blank}} to the beat I drum",
+          "promptZh": "我將隨著自己敲響的鼓點，堅定向前邁進"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-32",
+          "answer": "not scared",
+          "options": [
+            "not ready",
+            "not sorry",
+            "not scared"
+          ],
+          "prompt": "I'm {{blank}} to be seen",
+          "promptZh": "我不再害怕讓世人看見真正的我"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-33",
+          "answer": "this is me",
+          "options": [
+            "this is you",
+            "this is me",
+            "this is us"
+          ],
+          "prompt": "I make no apologies, {{blank}}",
+          "promptZh": "我無須為自己的存在道歉，這就是我"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-34",
+          "answer": "This is me",
+          "options": [
+            "This is me",
+            "This is love",
+            "This is life"
+          ],
+          "prompt": "...{{blank}}",
+          "promptZh": "……這就是我"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-35",
+          "answer": "deserve your love",
+          "options": [
+            "fear your words",
+            "need your help",
+            "deserve your love"
+          ],
+          "prompt": "And I know that I {{blank}}",
+          "promptZh": "而我知道，自己同樣值得擁有你的愛"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-36",
+          "answer": "I'm not worthy of",
+          "options": [
+            "I'm not worthy of",
+            "I am dreaming of",
+            "I was waiting for"
+          ],
+          "prompt": "There's nothing {{blank}}",
+          "promptZh": "沒有什麼美好的事物，是我不配擁有的"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-37",
+          "answer": "sharpest words",
+          "options": [
+            "brightest lights",
+            "sharpest words",
+            "quietest nights"
+          ],
+          "prompt": "When the {{blank}} wanna cut me down",
+          "promptZh": "當那些最尖銳的言語，試圖將我傷得遍體鱗傷"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-38",
+          "answer": "gonna drown them out",
+          "options": [
+            "gonna drown them out",
+            "gonna shut them down",
+            "gonna turn around"
+          ],
+          "prompt": "I'm gonna send a flood, {{blank}}",
+          "promptZh": "我將掀起滔天洪流，淹沒那些傷人的聲音"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-39",
+          "answer": "This is brave",
+          "options": [
+            "This is brave",
+            "This is wild",
+            "This is strong"
+          ],
+          "prompt": "{{blank}}, this is bruised",
+          "promptZh": "這就是勇敢，這就是傷痕累累的模樣"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-40",
+          "answer": "who I'm meant to be",
+          "options": [
+            "where I want to go",
+            "what I used to see",
+            "who I'm meant to be"
+          ],
+          "prompt": "This is {{blank}}, this is me",
+          "promptZh": "這就是我命中注定要成為的自己，這就是我"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-40",
+          "answer": "this is me",
+          "options": [
+            "this is me",
+            "this is life",
+            "this is love"
+          ],
+          "prompt": "This is who I'm meant to be, {{blank}}",
+          "promptZh": "這就是我命中注定要成為的自己，這就是我"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-41",
+          "answer": "here I come",
+          "options": [
+            "here we go",
+            "here I come",
+            "there you stand"
+          ],
+          "prompt": "Look out 'cause {{blank}} (look out 'cause here I come)",
+          "promptZh": "看好了，因為我正昂首走來（看好了，因為我正昂首走來）"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-42",
+          "answer": "the beat I drum",
+          "options": [
+            "the path I choose",
+            "the beat I drum",
+            "the song I sing"
+          ],
+          "prompt": "And I'm marching on to {{blank}} (marching on, marching, marching on)",
+          "promptZh": "我將隨著自己敲響的鼓點，堅定向前邁進（繼續前進，前進，不斷前進）"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-43",
+          "answer": "not scared to be seen",
+          "options": [
+            "not ready to go home",
+            "not afraid to speak out",
+            "not scared to be seen"
+          ],
+          "prompt": "I'm {{blank}}",
+          "promptZh": "我不再害怕讓世人看見真正的我"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-44",
+          "answer": "no apologies",
+          "options": [
+            "new beginnings",
+            "no apologies",
+            "more excuses"
+          ],
+          "prompt": "I make {{blank}}, this is me",
+          "promptZh": "我無須為自己的存在道歉，這就是我"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-45",
+          "answer": "wanna cut me down",
+          "options": [
+            "wanna turn me around",
+            "wanna cut me down",
+            "wanna pull me away"
+          ],
+          "prompt": "(Whenever the words {{blank}}",
+          "promptZh": "（每當那些言語試圖將我擊垮"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-46",
+          "answer": "send the flood",
+          "options": [
+            "send the flood",
+            "raise the flag",
+            "light the fire"
+          ],
+          "prompt": "I'll {{blank}} to drown them out)",
+          "promptZh": "我便會掀起洪流，淹沒那些傷人的聲音）"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-47",
+          "answer": "drown them out",
+          "options": [
+            "drown them out",
+            "bring them back",
+            "shut it down"
+          ],
+          "prompt": "I'm gonna send the flood, gonna {{blank}}",
+          "promptZh": "我將掀起滔天洪流，淹沒那些傷人的聲音"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-48",
+          "answer": "This is me",
+          "options": [
+            "This is love",
+            "This is life",
+            "This is me"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "這就是我"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I'm not a {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}, they say"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "'Cause we don't want your {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I've learned to be ashamed of {{q:4}} "
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}}, they say"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "No one will {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "But I won't let them {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I know that there's {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "For {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "When {{q:10}} wanna cut me down"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I'm gonna {{q:11}}, gonna drown them out"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:12}}, I am bruised"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:13}} {{q:14}}, this is me"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Look out 'cause {{q:15}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And I'm marching on to {{q:16}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I'm not {{q:17}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I {{q:18}}, this is me"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Another round of {{q:19}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Well, fire away 'cause today, I won't {{q:20}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "We are bursting {{q:21}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And {{q:22}} (we are warriors)"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Yeah, that's {{q:23}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Won't let them break me {{q:24}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I know that {{q:25}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:26}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "When the sharpest words {{q:27}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Gonna send a flood, gonna {{q:28}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I am brave, {{q:29}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I am who I'm meant to be, {{q:30}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:31}} 'cause here I come"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "And I'm {{q:32}} to the beat I drum"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I'm {{q:33}} to be seen"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I make no apologies, {{q:34}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "...{{q:35}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "And I know that I {{q:36}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "There's nothing {{q:37}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "When the {{q:38}} wanna cut me down"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I'm gonna send a flood, {{q:39}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "{{q:40}}, this is bruised"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "This is {{q:41}}, {{q:42}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Look out 'cause {{q:43}} (look out 'cause here I come)"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "And I'm marching on to {{q:44}} (marching on, marching, marching on)"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I'm {{q:45}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "I make {{q:46}}, this is me"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "(Whenever the words {{q:47}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I'll {{q:48}} to drown them out)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "I'm gonna send the flood, gonna {{q:49}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "{{q:50}}"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "This Is Me · Listening & Vocabulary",
+  "description": "《This Is Me》描寫一個人長期受到歧視、嘲笑與排斥後，逐漸學會接納自己、勇敢展現真實面貌的成長過程。歌中的主角曾因自己的缺點與傷痕感到羞愧，甚至相信自己不值得被愛。然而，她終於決定擺脫外界的批評與偏見，不再隱藏內心的脆弱，而是勇敢站出來，為自己的存在感到驕傲。歌曲以尖銳的言語、子彈與洪水等意象，象徵傷害、反抗與突破束縛的力量。最終，《This Is Me》傳達的是自我接納、勇氣與尊嚴：每個人都有獨特的價值，即使曾經受傷或被否定，也值得獲得愛與尊重。只要願意相信自己，便能勇敢面對世界，活出真正屬於自己的人生。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Be no stranger to — 對……並不陌生",
+      "meaning": "對某種經驗或情況很熟悉，通常因為已經經歷多次。",
+      "usage": "`be no stranger to + 名詞／V-ing`，常接壓力、辛苦、挑戰等經驗。",
+      "prompt": "哪一句用法正確？",
+      "options": [
+        "The new bridge is no stranger to the river because it is made of steel.",
+        "I no stranger to long trips, so I always bring a map.",
+        "Our science teacher is no stranger to strange questions; we ask her about aliens every Friday.",
+        "The museum no stranger to at nine o'clock each morning."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "鋼製橋樑不是因為材質就「熟悉」河流；此片語描述有經驗的主體。",
+        "少了 be 動詞，應說 I am no stranger to long trips。",
+        "老師經常遇到奇怪問題，因此對這種經驗「不陌生」，語意與句型都正確。",
+        "少了 be 動詞，而且營業時間不能這樣接在片語後；可說 The museum opens at nine。"
+      ],
+      "explanation": "老師經常遇到奇怪問題，因此對這種經驗「不陌生」，語意與句型都正確。"
+    },
+    {
+      "number": 2,
+      "word": "Be ashamed of — 對……感到羞愧",
+      "meaning": "因為某件事感到不好意思、羞恥或後悔。",
+      "usage": "`be ashamed of + 名詞／V-ing`；也可以用 `be ashamed to + 動詞`。",
+      "prompt": "哪一句用法正確？",
+      "options": [
+        "My brother was ashamed of tell the coach that he lost the ball.",
+        "I felt ashamed of my mistake, so I went back and told the truth.",
+        "The train was ashamed of arriving at six because it had four doors.",
+        "She was ashamed of to sing in front of the class."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "介系詞 of 後面不能直接接原形動詞；應說 ashamed of telling 或 ashamed to tell。",
+        "因自己的錯誤感到羞愧並誠實承認，搭配與意思都正確。",
+        "火車有四扇門與「羞愧」沒有合理關係；可說 The train arrived at six。",
+        "ashamed of to sing 結構錯誤；應說 ashamed to sing 或 ashamed of singing。"
+      ],
+      "explanation": "因自己的錯誤感到羞愧並誠實承認，搭配與意思都正確。"
+    },
+    {
+      "number": 3,
+      "word": "As you are — 以你原本的樣子",
+      "meaning": "不必改變自己目前的樣子或狀態。",
+      "usage": "常出現在 `accept/love someone as they are`；也可說 `Come as you are`（照你現在的樣子來）。",
+      "prompt": "哪一句用法正確？",
+      "options": [
+        "The director said, “Come as you are; this party has no dress code.”",
+        "I will repair the computer as you are because its screen is broken.",
+        "We drove as you are from Rome to Paris in one day.",
+        "The pianist played the song as you are on a very old piano."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "派對沒有服裝規定，因此可以穿著原本的樣子來，符合固定說法。",
+        "修理電腦應說 as it is 或直接說 repair the broken computer，不能用 you 指電腦。",
+        "as you are 不表示交通方式或行程；可說 We drove from Rome to Paris。",
+        "這裡要描述演奏方式，不能用指人的 as you are；可說 He played the song beautifully。"
+      ],
+      "explanation": "派對沒有服裝規定，因此可以穿著原本的樣子來，符合固定說法。"
+    },
+    {
+      "number": 4,
+      "word": "Break someone down — 使某人精神崩潰、失去信心",
+      "meaning": "困難、批評或壓力逐漸削弱一個人的信心或精神。",
+      "usage": "`break + 人 + down`；注意 `break down` 也可指機器故障，但意義不同。",
+      "prompt": "哪一句用法正確？",
+      "options": [
+        "Three years of unfair criticism almost broke her down, but her team helped her recover.",
+        "The mechanic broke the car down by washing its windows.",
+        "The astronaut broke down her helmet because she wanted to see the stars better.",
+        "The football player broke down the score by kicking the ball into the goal."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "長期不公平的批評幾乎摧毀她的信心，符合「精神被擊垮」的用法。",
+        "洗車窗不會表示讓車子故障；可說 The mechanic cleaned the windows。",
+        "這句想說摘下頭盔，應用 took off her helmet，不是 broke down。",
+        "踢球得分應說 scored a goal；break down 不表示得分。"
+      ],
+      "explanation": "長期不公平的批評幾乎摧毀她的信心，符合「精神被擊垮」的用法。"
+    },
+    {
+      "number": 5,
+      "word": "Drown out — 用更大的聲音蓋過",
+      "meaning": "一個聲音太大，讓另一個聲音聽不見。",
+      "usage": "`drown out + 聲音／人說話的聲音`，例如 `The music drowned out my voice`。",
+      "prompt": "哪一句用法正確？",
+      "options": [
+        "The map drowned out the hikers because they were looking for a path.",
+        "The concert drums drowned out the guide's voice, so nobody heard the tour rules.",
+        "My phone drowned out its battery when the screen went black.",
+        "The chef drowned out the soup by adding a little pepper."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "地圖不能用「聲音蓋過」登山客；可說 The map confused the hikers。",
+        "鼓聲蓋過導覽員的說話聲，正是 drown out 的典型用法。",
+        "手機沒電應說 ran out of battery，不是 drowned out its battery。",
+        "加胡椒是在調味，不是用聲音蓋過；可說 The chef added pepper to the soup。"
+      ],
+      "explanation": "鼓聲蓋過導覽員的說話聲，正是 drown out 的典型用法。"
+    },
+    {
+      "number": 6,
+      "word": "Bruised — 瘀青的；受傷的",
+      "meaning": "身體因撞擊而出現瘀青；也可形容自尊或感情受傷。",
+      "usage": "`a bruised knee`、`feel bruised after criticism`；不要和 `broken` 混淆。",
+      "prompt": "哪一句用法正確？",
+      "options": [
+        "After the basketball game, Leo had a bruised arm but no broken bones.",
+        "The history book was bruised because it had twenty chapters.",
+        "Our flight was bruised by two hours because of the weather.",
+        "She bruised the mountain by taking a photo of it."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "打球碰撞造成手臂瘀青，bruised arm 是正確搭配。",
+        "書有很多章節不會因此「瘀青」；可說 The book has twenty chapters。",
+        "航班延誤應用 delayed，不是 bruised。",
+        "拍照不會讓山瘀青；可說 She photographed the mountain。"
+      ],
+      "explanation": "打球碰撞造成手臂瘀青，bruised arm 是正確搭配。"
+    },
+    {
+      "number": 7,
+      "word": "Be meant to be — 注定如此；本應如此",
+      "meaning": "某事彷彿命中注定，也可以表示事情原本就應該那樣。",
+      "usage": "`It was meant to be`（這似乎是命中注定）；`be meant to + 動詞` 則可表示預定用途或應做之事。",
+      "prompt": "哪一句用法正確？",
+      "options": [
+        "The museum tickets were meant to be inside the printer because they were blue.",
+        "Mia and Zoe met on the same train three times; they joked that their friendship was meant to be.",
+        "The driver meant to be the bus at six without any other verb.",
+        "My new password was meant to be because it has eight letters."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "票券顏色與命中注定無關；若指應放的位置，可說 The tickets were supposed to be in the printer。",
+        "兩人巧遇多次，開玩笑說友誼是命中注定的，符合片語意思。",
+        "meant to be the bus 意思不通；若要說司機本來應六點到，應說 The driver was meant to arrive at six。",
+        "密碼有八個字元不足以說明「命中注定」；可說 My password has eight letters。"
+      ],
+      "explanation": "兩人巧遇多次，開玩笑說友誼是命中注定的，符合片語意思。"
+    },
+    {
+      "number": 8,
+      "word": "March on — 堅定地繼續前進",
+      "meaning": "像行軍一樣往前走；也可比喻在困難後繼續努力。",
+      "usage": "`march on`，或 `march on despite + 困難`。",
+      "prompt": "哪一句用法正確？",
+      "options": [
+        "We marched on the email by clicking “Reply.”",
+        "The scientist marched on the water until it became ice.",
+        "The actor marched on his lines by forgetting every word.",
+        "The dancers marched on despite the rain and finished the street parade."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "回覆電子郵件應說 replied to the email，不是 marched on。",
+        "讓水結冰應說 froze the water，不是 marched on the water。",
+        "忘記台詞不是「堅持前進」的搭配；可說 The actor forgot his lines。",
+        "表演者即使下雨仍堅定前進，marched on despite the rain 很自然。"
+      ],
+      "explanation": "表演者即使下雨仍堅定前進，marched on despite the rain 很自然。"
+    },
+    {
+      "number": 9,
+      "word": "Sink in — （消息或感受）逐漸被理解、接受",
+      "meaning": "某件事需要一點時間，人才真正意識到它或感受到它。",
+      "usage": "`The news finally sank in`；不要和字面上的 `sink into water`（沉入水中）混用。",
+      "prompt": "哪一句用法正確？",
+      "options": [
+        "The new bus timetable sank in the station because it was printed in green.",
+        "Our football coach sank in the team when the match ended.",
+        "When the email arrived, I read it twice before the news finally sank in: I had won the art contest!",
+        "I sink in a sandwich every morning before school."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "綠色的時刻表不會因此被「理解入心」；可說 The timetable was posted at the station。",
+        "sink in 通常是不及物片語，不能這樣直接接球隊當受詞；可說 The coach spoke to the team。",
+        "得獎消息過了一會兒才真正讓人意識到，the news sank in 非常自然。",
+        "吃三明治應用 eat；sink in 不等於「吃進去」。"
+      ],
+      "explanation": "得獎消息過了一會兒才真正讓人意識到，the news sank in 非常自然。"
+    },
+    {
+      "number": 10,
+      "word": "Deserve — 值得、應得",
+      "meaning": "因為行為、努力或本身的價值而值得某種待遇或結果。",
+      "usage": "`deserve + 名詞`；`deserve to + 動詞`，例如 `You deserve a break`。",
+      "prompt": "哪一句用法正確？",
+      "options": [
+        "The spaceship deserves to the moon every Tuesday.",
+        "I deserve of a trophy because I won the chess match.",
+        "The library deserves at seven because the doors are open.",
+        "After helping the whole class prepare for the show, our teacher deserves a day off."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "deserve to 後面必須接原形動詞；若指飛往月球，可說 The spaceship travels to the moon。",
+        "deserve 是及物動詞，不需要 of；應說 I deserve a trophy。",
+        "開門時間應用 opens at seven，不是 deserves at seven。",
+        "老師辛苦協助準備表演，值得放假一天，deserves a day off 用法正確。"
+      ],
+      "explanation": "老師辛苦協助準備表演，值得放假一天，deserves a day off 用法正確。"
+    }
+  ],
+  "tags": [
+    "keala settle & the greatest showman ensemble",
+    "this is me",
+    "self-acceptance",
+    "courage"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/this-is-me/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/this-is-me/user-cover-20261030.png",
+  "editorialRepairs": [],
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 234.7066875,
+    "audioSha256": "436201f4a7e74c3990f8e6d0568642caf2a8d848d4262b38d59c37e4f425e24d",
+    "timedLines": 33,
+    "untimedLines": 15,
+    "reviewStatus": "Conservative automatic line alignment. Unmatched/overlapping background lines remain bilingual without guessed timestamps; not a full manual timing certification."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_This Is Me_.pdf",
+      "sha256": "43f3aef6e9ec5e8b8f08b275edbc7a378e0d0ab27ccc8c0d28a6c39558ffda63"
+    },
+    "chosenListening": {
+      "filename": "This_Is_Me_Four_Level_Listening_Exercise.docx",
+      "sha256": "1348b7e3e3ee6057648219fdf8b598c8cc95d76450877336c51f48ed58b81953"
+    },
+    "chosenVocabulary": {
+      "filename": "This_Is_Me_Vocabulary_Quiz.md",
+      "sha256": "2bd6e9eedd5ad9efda1347063a72d4c37ce9880fcd6f8413a340d487c071f197"
+    },
+    "mp3": {
+      "filename": "This Is Me [kbo0XwwLFks].mp3",
+      "sha256": "436201f4a7e74c3990f8e6d0568642caf2a8d848d4262b38d59c37e4f425e24d"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-cd0a731b-4766-4d4d-8d1a-d98122625380.png",
+    "sha256": "00792e27718424b1d72a572e20acce8ab026e1c8cc6f03a6b7e29964cdfdeac7",
+    "transformations": "none",
+    "selectedOn": "2026-10-30"
+  }
+}
