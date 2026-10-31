@@ -3694,5 +3694,1373 @@
     "sha256": "b561bbd5c8f7d894ce00ea7e6aae449a25478b772e03cbaf91e41ecfb30fb83d",
     "transformations": "none",
     "selectedOn": "2026-10-30"
-  }
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "pray hard",
+          "meaning": "懇切祈禱；非常認真地祈求",
+          "usage": "當人非常希望某件事發生而懇切祈禱時使用。hard 在此強調投入程度，不是「困難地」。",
+          "prompt": "哪一句最自然地使用「pray hard」（以上述意思為準）？",
+          "options": [
+            "The tourist prayed hard for the map to learn directions.",
+            "The family prayed hard for their lost dog to return.",
+            "The chef prayed hard for the potatoes to bake themselves.",
+            "The robot prayed hard for its battery to grow legs."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。祈禱不會讓地圖自己學會指路；這不是合理的祈求對象。",
+            "正確。家人懇切祈求走失的狗能平安回來。",
+            "錯誤。把祈禱當成讓馬鈴薯自行烤熟的方法，誤解了 pray hard 的作用。",
+            "錯誤。電池不會長腳；句子雖可讀懂，但祈禱內容刻意荒謬。"
+          ],
+          "sourceFile": "Counting_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "context": "程度參考：B1–B2",
+          "explanation": "正確。家人懇切祈求走失的狗能平安回來。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "vine",
+          "meaning": "藤蔓；攀緣植物的莖",
+          "usage": "談花園、森林或會攀附生長的植物時使用。歌曲將 vine 放在人生的比喻中。",
+          "prompt": "哪一句最自然地使用「vine」（以上述意思為準）？",
+          "options": [
+            "The vine rang the doorbell before delivering our new sofa.",
+            "The vine climbed the wall and covered the old window.",
+            "The vine cooked our soup while the gardener was away.",
+            "The vine barked at the postman all afternoon in the garden."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。藤蔓不是送貨員；把它描寫成會按門鈴送沙發的角色十分荒謬。",
+            "正確。藤蔓沿著牆生長，最後蓋住了舊窗戶。",
+            "錯誤。藤蔓不會煮湯；句子雖有正常語序，語意卻不合理。",
+            "錯誤。植物不會像狗一樣吠叫，即使藤蔓出現在花園裡。"
+          ],
+          "sourceFile": "Counting_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "context": "程度參考：B2（語境估計）",
+          "explanation": "正確。藤蔓沿著牆生長，最後蓋住了舊窗戶。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "across the line",
+          "meaning": "越過界線；跨越某條線",
+          "usage": "可以表示跨越實際界線，也可能在語境中比喻超出原本的限制。注意 cross the line 另常表示「越界、行為過分」，不應混為一談。",
+          "prompt": "哪一句最自然地使用「across the line」（以上述意思為準）？",
+          "options": [
+            "The cat leaped across the line to impress a potato.",
+            "The singer stepped across the line to swallow a rainbow.",
+            "The runner stepped across the line after the race ended.",
+            "The teacher danced across the line inside her coffee cup."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。貓跨越界線來討好馬鈴薯，語法雖通，情境刻意荒謬。",
+            "錯誤。這句雖然有跨過線的動作，但「為了吞下彩虹」是刻意不合理的情境；不考這種幻想作為正常用法。",
+            "正確。跑者跨過了畫在地上的線，符合跨越界線的意思。",
+            "錯誤。杯子裡不可能有供人跳舞跨越的地面界線；情境刻意荒謬。"
+          ],
+          "sourceFile": "Counting_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "context": "程度參考：B2（意象用法）",
+          "explanation": "正確。跑者跨過了畫在地上的線，符合跨越界線的意思。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "flashing",
+          "meaning": "閃爍的；快速亮起又熄滅的",
+          "usage": "描述警示燈、電子標誌或突然閃現的光時使用；也可比喻某些訊息在腦中迅速出現。",
+          "prompt": "哪一句最自然地使用「flashing」（以上述意思為準）？",
+          "options": [
+            "The flashing soup blinked brightly while the chef stirred it.",
+            "The flashing shoes warned drivers to stop at the crossing.",
+            "The flashing pillow rang loudly when the class began.",
+            "The flashing sign warned drivers to slow down at night."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。湯本身通常不會像燈號一樣閃爍；這是誇張的荒謬意象。",
+            "錯誤。有 LED 的閃光鞋可能存在，但鞋子不會主動向駕駛發出交通警告。",
+            "錯誤。枕頭不是鐘聲或警鈴；這句用 flashing 卻描述聲響，混淆視覺與聽覺。",
+            "正確。閃爍的標誌提醒駕駛夜間減速。"
+          ],
+          "sourceFile": "Counting_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "context": "程度參考：B1–B2",
+          "explanation": "正確。閃爍的標誌提醒駕駛夜間減速。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "ye shall find",
+          "meaning": "你們終將找到；你們必將發現",
+          "usage": "ye 和 shall 帶有古典、宗教或刻意仿古的語氣。一般現代對話通常說 you will find，而不是 ye shall find。",
+          "prompt": "哪一句最自然地使用「ye shall find」（以上述意思為準）？",
+          "options": [
+            "Our dog heard “Ye shall find” and started digging for bones.",
+            "The mechanic said “Ye shall find” to describe a loose bolt.",
+            "In the old tale, the guide said, “Seek, and ye shall find.”",
+            "At the café, a customer said “Ye shall find” to order milk."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。狗可能聽見人說話，但把這句仿古格言當作挖骨頭指令並不自然。",
+            "錯誤。機械師不會用「你們必將找到」來描述螺栓鬆動；語用不合。",
+            "正確。古老故事中的嚮導使用仿古語氣，符合這個表達的語域。",
+            "錯誤。用仿古句型點牛奶非常不自然；它不是咖啡店的商品名稱。"
+          ],
+          "sourceFile": "Counting_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "context": "程度參考：C1–C2（仿古語體）",
+          "explanation": "正確。古老故事中的嚮導使用仿古語氣，符合這個表達的語域。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "four-letter word",
+          "meaning": "四個字母的字；也常委婉指粗話或禁忌字眼",
+          "usage": "字面指由四個字母組成的英文單字；慣用時常暗指粗俗字眼。歌曲以 hope 這個四字母詞製造反差。",
+          "prompt": "哪一句最自然地使用「four-letter word」（以上述意思為準）？",
+          "options": [
+            "Grandma called that rude term a four-letter word at dinner.",
+            "The pilot called every runway a four-letter word during landing.",
+            "The baker called a loaf of bread a four-letter word.",
+            "The gardener called his favourite flower a four-letter word."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。這裡的 four-letter word 委婉指不禮貌的粗俗字眼。",
+            "錯誤。跑道不是粗話；把每條跑道都叫 four-letter word 不符合這個慣用語。",
+            "錯誤。麵包不是藉由四字母粗話來分類；這裡誤把術語當商品名稱。",
+            "錯誤。花朵不是粗話；這裡沒有恰當使用 four-letter word 的慣用含義。"
+          ],
+          "sourceFile": "Counting_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "context": "程度參考：C1（慣用語義）",
+          "explanation": "正確。這裡的 four-letter word 委婉指不禮貌的粗俗字眼。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "watch it burn",
+          "meaning": "眼看某物燃燒；在語境中暗示眼看資源被耗盡",
+          "usage": "字面用於看著東西燃燒；歌曲與 money 搭配，可能暗示金錢被揮霍或失去價值。比喻義須由上下文判斷。",
+          "prompt": "哪一句最自然地使用「watch it burn」（以上述意思為準）？",
+          "options": [
+            "She watched it burn while the cold ice cream melted.",
+            "The actor watched it burn while the train left the station.",
+            "We watched it burn when the tickets arrived by email.",
+            "He spent his savings in a week and watched it all burn."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。冰淇淋是在融化，不是在燃燒；此處應說 melt。",
+            "錯誤。火車離站不代表有東西燃燒；watch it burn 在此無合理指涉。",
+            "錯誤。電子郵件送到機票不代表燃燒；watch it burn 的語意不成立。",
+            "正確。花光積蓄後，以 burn 比喻金錢迅速消耗，符合歌曲的意象。"
+          ],
+          "sourceFile": "Counting_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "context": "程度參考：B2（語境中的比喻）",
+          "explanation": "正確。花光積蓄後，以 burn 比喻金錢迅速消耗，符合歌曲的意象。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "sink",
+          "meaning": "下沉；沉入水中",
+          "usage": "船、石頭或物品往水底沉下時使用，也可比喻情緒或希望低落。別把 sink 誤當成 swim。",
+          "prompt": "哪一句最自然地使用「sink」（以上述意思為準）？",
+          "options": [
+            "The heavy stone began to sink in the deep pond.",
+            "The tiny boat began to sink toward the mountain peak.",
+            "The sandwich began to sink through the wooden kitchen table.",
+            "The suitcase began to sink when the music grew louder."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。沉重的石頭開始沉入池塘，正是 sink 的字面意思。",
+            "錯誤。山峰在上方；船往山頂「下沉」的方向矛盾。",
+            "錯誤。三明治穿過堅硬木桌下沉通常不符合真實物理情境。",
+            "錯誤。行李箱不會因音樂變大聲就自行下沉；原因搭配不合理。"
+          ],
+          "sourceFile": "Counting_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "context": "程度參考：B1–B2",
+          "explanation": "正確。沉重的石頭開始沉入池塘，正是 sink 的字面意思。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "lately + present perfect continuous",
+          "meaning": "表示某個動作從最近開始，一直持續或反覆發生。",
+          "usage": "描述最近一段時間持續進行的活動或情況。",
+          "prompt": "哪一句用這個結構自然描述最近持續發生的情況？",
+          "options": [
+            "Lately, I have been swimming every morning, but I have not been in water for a year.",
+            "Lately, I have been visiting the moon every Tuesday by bus.",
+            "Lately, she has been learning piano, but she has never started her first lesson.",
+            "Lately, our garden has been getting more butterflies. We see more each week."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "後面說一年沒碰水，與每天游泳互相矛盾。",
+            "月球不是可以搭公車定期前往的地方，情境荒謬。",
+            "聲稱一直在學，卻說連第一課都未開始，前後衝突。",
+            "最近每週都看到更多蝴蝶，符合持續變化的意思。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Lately, I’ve been ... losing sleep",
+          "pattern": [
+            {
+              "text": "最近一段時間",
+              "fixed": false
+            },
+            {
+              "text": "lately",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "have/has been",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": true
+            }
+          ],
+          "explanation": "最近每週都看到更多蝴蝶，符合持續變化的意思。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "dream about + noun / -ing",
+          "meaning": "表示夢見或想像自己希望發生的事。",
+          "usage": "談未來的理想，或睡覺時夢見的事情。",
+          "prompt": "哪一句自然表達對未來的夢想？",
+          "options": [
+            "He dreams about to buy a boat for his family.",
+            "Mina dreams about opening a small flower shop one day.",
+            "I dream about becoming a baker because I never want to make food or enter a kitchen.",
+            "The robot dreams about cleaning the floor, so it has already cleaned it ten times today."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "about 後接 buying，不接 to buy。",
+            "想將來開花店，符合 dream about + V-ing。",
+            "口稱想做烘焙師，卻完全不願碰食物，動機矛盾。",
+            "機器人今天已多次清潔，不能由此推論它有夢想；此處擬人化也缺少語境。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "Dreaming about the things",
+          "pattern": [
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "dream about",
+              "fixed": true
+            },
+            {
+              "text": "名詞或 V-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "想將來開花店，符合 dream about + V-ing。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "relative clause: things that + clause",
+          "meaning": "用 that 子句進一步指出談的是哪些事物。",
+          "usage": "想限制或說明前面名詞的範圍時。",
+          "prompt": "哪一句的 that 子句清楚指出所指的東西？",
+          "options": [
+            "The people that I met yesterday have not met me at any time.",
+            "The cakes that my aunt made are on the table, but my aunt has never made any cakes.",
+            "The letters that Dad wrote are inside this old box.",
+            "These are the gloves that I wear on my feet to hear music."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "說昨天見過，卻又說從未相遇，前後矛盾。",
+            "後面否認阿姨曾做蛋糕，推翻前面的資訊。",
+            "that Dad wrote 說明是哪一些信件，情境連貫。",
+            "手套穿在腳上聽音樂，內容不合理。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "things that we could be",
+          "pattern": [
+            {
+              "text": "事物名詞",
+              "fixed": false
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "說明該事物的子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "that Dad wrote 說明是哪一些信件，情境連貫。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "could + base verb (possibility)",
+          "meaning": "表示可能性，不把未來說得完全確定。",
+          "usage": "討論未來可能發生或可能達成的事情。",
+          "prompt": "哪一句用 could 表達合理的可能性？",
+          "options": [
+            "I could be at the station now, and I am definitely in my kitchen right now.",
+            "The paper boat could fly to the sun tomorrow because paper is light.",
+            "With another month of practice, our team could play better.",
+            "With no water and no sun, our plant could become stronger every hour for that reason."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "同時確定身在廚房，卻推測自己正在車站，兩者衝突。",
+            "紙船飛向太陽不是合理的普通可能性。",
+            "多練習可能有進步，符合 could 表示的可能性。",
+            "缺水缺陽光卻因此變強，因果不合理。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "we could be",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "could",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "多練習可能有進步，符合 could 表示的可能性。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "but + contrasting idea",
+          "meaning": "表示後一句與前一句形成轉折或意外結果。",
+          "usage": "想說兩個不同、相反或出人意料的情況。",
+          "prompt": "哪一句有真正的轉折？",
+          "options": [
+            "The room was quiet, but a drum suddenly started playing.",
+            "He opened the door, but the door was not closed after he opened it.",
+            "The cake is sweet, but it has sugar in it.",
+            "The chair is red, but it is not blue."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "原本安靜卻突然有鼓聲，形成清楚轉折。",
+            "開門後門不再關著，是預期結果，不是對比。",
+            "糖與甜味互相支持，沒有明顯轉折。",
+            "紅色與不是藍色只是一般相容資訊，不構成明顯反差。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "But, baby, I’ve been ...",
+          "pattern": [
+            {
+              "text": "先提出的情況",
+              "fixed": false
+            },
+            {
+              "text": "but",
+              "fixed": true
+            },
+            {
+              "text": "與前面有反差的情況",
+              "fixed": false
+            }
+          ],
+          "explanation": "原本安靜卻突然有鼓聲，形成清楚轉折。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "no more + V-ing",
+          "meaning": "表示不再繼續某項活動。",
+          "usage": "想宣告停止某個習慣或行動時。",
+          "prompt": "哪一句使用 no more + V-ing 清楚表達停止？",
+          "options": [
+            "No more reading today, so I will read for another five hours now.",
+            "No more running in the hall! Please run faster here.",
+            "No more running in the hall, please. Walk slowly.",
+            "No more waiting, because we have decided to wait until next week."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "說今天不再閱讀，卻立即安排讀五小時，矛盾。",
+            "一方面禁止跑步，一方面要求跑快，指示矛盾。",
+            "要求不要再奔跑，並改為慢走，前後一致。",
+            "停止等待與繼續等一星期互相衝突。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "no more counting dollars",
+          "pattern": [
+            {
+              "text": "no more",
+              "fixed": true
+            },
+            {
+              "text": "V-ing 的活動",
+              "fixed": false
+            }
+          ],
+          "explanation": "要求不要再奔跑，並改為慢走，前後一致。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "will be + V-ing (future continuous)",
+          "meaning": "描述未來某時正在進行或預期持續的活動。",
+          "usage": "預想某個未來時間的活動情景時。",
+          "prompt": "哪一句自然描述未來某個時間正在做的事？",
+          "options": [
+            "Tomorrow at ten, we will be watching the boats from the bridge.",
+            "At eight tomorrow, I will be cooking dinner, but I will be asleep all evening with nobody cooking.",
+            "Tomorrow night I will be painting, but I have decided not to paint at any time tomorrow.",
+            "At four, she will be flying a kite under the sea without any air."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "明天十點在橋上看船，符合未來進行式。",
+            "同一時間既說煮飯又說整晚睡覺且沒人煮，互相矛盾。",
+            "明天整天都不畫畫與明晚正在畫畫衝突。",
+            "在海底放普通風箏缺乏合理條件。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "we’ll be counting stars",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "will be",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": true
+            }
+          ],
+          "explanation": "明天十點在橋上看船，符合未來進行式。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "see + object + like + noun",
+          "meaning": "用類比說明自己如何理解一件事。",
+          "usage": "想形象地解釋一個抽象事物時。",
+          "prompt": "哪一句使用 like 的比喻有清楚的共同特點？",
+          "options": [
+            "I see my new job like a mountain: it is hard, but I can climb it step by step.",
+            "I see my homework like a cloud because it is written on paper and cannot be in the sky.",
+            "I see my bike like soup because soup tastes nice and bikes have wheels.",
+            "I see this clock like a fish because I need to drink water."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "工作與登山都需要逐步克服困難，比喻清楚。",
+            "所給理由只說兩者不同，沒有解釋共同點。",
+            "單車與湯的特徵沒有形成合理比較。",
+            "時鐘與魚的對照理由不清楚。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "I see this life like a swinging vine",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "see",
+              "fixed": true
+            },
+            {
+              "text": "事物",
+              "fixed": false
+            },
+            {
+              "text": "like",
+              "fixed": true
+            },
+            {
+              "text": "比喻對象",
+              "fixed": false
+            }
+          ],
+          "explanation": "工作與登山都需要逐步克服困難，比喻清楚。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "imperative + object",
+          "meaning": "直接提出要求、指示或鼓勵。",
+          "usage": "給出清楚的行動指示時。",
+          "prompt": "哪一句的命令能合理達到目的？",
+          "options": [
+            "Open the umbrella so that the rain can make us more wet.",
+            "Close your eyes to read the tiny writing on this card.",
+            "Hold the ladder while I climb it, please.",
+            "Turn off the map so we can see its paper lines better."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "打開傘通常是為了不被雨淋，所說目的相反。",
+            "閉眼無法閱讀卡片上的細字，目的矛盾。",
+            "扶穩梯子能幫助別人安全攀爬，要求合理。",
+            "地圖不是可開關的設備，此處搭配不自然。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "Swing my heart across the line",
+          "pattern": [
+            {
+              "text": "原形動詞（命令）",
+              "fixed": false
+            },
+            {
+              "text": "受詞／補充內容",
+              "fixed": false
+            }
+          ],
+          "explanation": "扶穩梯子能幫助別人安全攀爬，要求合理。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "inversion after fronted place phrase",
+          "meaning": "有時把地點或方向放句首，再讓主詞出現在動詞後；屬較文學性的倒裝。",
+          "usage": "希望凸顯場景、地點或畫面時；一般說話不必常用。",
+          "prompt": "哪一句的倒裝既完整又符合場景？",
+          "options": [
+            "On the wall hang a large painting of a whale.",
+            "On the wall hangs a large painting of a whale.",
+            "In the box are one apple, and it is the only thing there.",
+            "Under the desk sit a small dog that is sleeping there alone."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "單數 painting 應配 hangs，不能用 hang。",
+            "句首地點加 hangs 和單數主詞 painting，語法與畫面均成立。",
+            "one apple 是單數，應使用 is 而非 are。",
+            "單數 dog 應用 sits 而非 sit。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "in my face is flashing signs",
+          "pattern": [
+            {
+              "text": "句首位置片語",
+              "fixed": false
+            },
+            {
+              "text": "be 動詞",
+              "fixed": false
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "句首地點加 hangs 和單數主詞 painting，語法與畫面均成立。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "imperative + and + future result",
+          "meaning": "先做一個動作，就可能得到後面的結果；歌詞用仿古語氣。",
+          "usage": "用簡短語句鼓勵別人採取行動並說明結果時。",
+          "prompt": "哪一句用「先做—後有結果」合理？",
+          "options": [
+            "Turn the tap off and water will keep coming out faster from it.",
+            "Hide the key in the sea and you will easily find it there every day.",
+            "Eat the picture and you will learn to paint it without looking.",
+            "Plant these seeds and you will have a chance to grow flowers."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "關水龍頭通常會停止出水，結果相反。",
+            "把鑰匙藏海裡通常不會更容易找到。",
+            "吃畫不能自然地帶來繪畫能力。",
+            "種下種子後有可能長花，行動與結果合理。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "Seek it out and ye shall find",
+          "pattern": [
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "and",
+              "fixed": true
+            },
+            {
+              "text": "將來的結果",
+              "fixed": false
+            }
+          ],
+          "explanation": "種下種子後有可能長花，行動與結果合理。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "not that + adjective",
+          "meaning": "表示程度沒有別人想的那麼高。",
+          "usage": "想溫和修正別人對程度的想像時。",
+          "prompt": "哪一句自然表示「沒有那麼……」？",
+          "options": [
+            "Our table is not that small; it has no space for even one cup.",
+            "This hill is not that high, so the children can walk to the top.",
+            "This bag is not that heavy, so nobody can lift it even with a machine.",
+            "The film is not that long; it lasts for seventeen days without stopping."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "不算小卻一個杯子都放不下，矛盾。",
+            "小山不算很高，孩子能走上去，程度與後果一致。",
+            "不算太重卻連機器都搬不動，資訊衝突。",
+            "電影連續放十七天與「不太長」不符。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "I’m not that old",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "not that",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "小山不算很高，孩子能走上去，程度與後果一致。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "think + (that) + clause in the negative",
+          "meaning": "用較委婉的方式表示自己認為某件事不是如此。",
+          "usage": "想表達不贊同或不確定某個說法時。",
+          "prompt": "哪一句的判斷與後面的理由一致？",
+          "options": [
+            "I don’t think this box is empty because we opened it and found nothing at all.",
+            "I don’t think the shop is open because I am inside it buying milk right now.",
+            "I don’t think this bridge is safe because some wood is broken.",
+            "I don’t think she knows my name because she has just said it correctly ten times."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "打開盒子沒有東西，反而支持盒子是空的。",
+            "正在店內購物通常顯示商店營業，理由相反。",
+            "木頭損壞是懷疑橋梁安全的合理理由。",
+            "她多次叫對名字，不支持她不知道名字。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "I don’t think the world is sold",
+          "pattern": [
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "do not think (that)",
+              "fixed": true
+            },
+            {
+              "text": "完整判斷句",
+              "fixed": false
+            }
+          ],
+          "explanation": "木頭損壞是懷疑橋梁安全的合理理由。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "be sold on + noun / -ing",
+          "meaning": "表示對某個想法或計畫感到信服、贊同。",
+          "usage": "想表示自己是否已被某個建議說服時。",
+          "prompt": "哪一句自然表示被某個主意說服？",
+          "options": [
+            "I am sold on the ticket because the ticket bought me at the market.",
+            "I am sold on that plan because I still know nothing about it and refuse to hear any details.",
+            "The painting is sold on reading books because it has learned the alphabet.",
+            "At first I said no, but I am sold on the plan after seeing how it works."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "把售票與被說服混為一談，意思錯誤。",
+            "完全不願了解內容，缺少支持已被說服的理由。",
+            "畫作不能像人一樣閱讀並形成意見。",
+            "看過計畫的運作後改變想法，符合被說服。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "is sold on just doing",
+          "pattern": [
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "be sold on",
+              "fixed": true
+            },
+            {
+              "text": "想法或 V-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "看過計畫的運作後改變想法，符合被說服。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "what + subject + be + past participle (embedded clause)",
+          "meaning": "what 引導名詞子句，表示「被告訴的事情／內容」。",
+          "usage": "想把別人提供的資訊或指示當作句子中的一個部分時。",
+          "prompt": "哪一句自然使用 what 引導「所被告知的內容」？",
+          "options": [
+            "She put what she was told into a shoe as if the words were a stone.",
+            "We followed what were we told during the boat safety lesson.",
+            "I ate what I was told because a spoken instruction is a sandwich.",
+            "We followed what we were told during the boat safety lesson."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "把告知內容當成實體石頭放鞋裡，缺乏合理語境。",
+            "間接子句不應倒裝成 were we told。",
+            "口頭指示不是可直接吃下的三明治。",
+            "what we were told 作 followed 的受詞，指安全課的指示。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "what we’re told",
+          "pattern": [
+            {
+              "text": "what",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "what we were told 作 followed 的受詞，指安全課的指示。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "feel + object + adjective",
+          "meaning": "描述自己對某件事物的主觀感受。",
+          "usage": "當感受未必等於客觀事實時，說明自己覺得如何。",
+          "prompt": "哪一句的感受有清楚、合理的語境？",
+          "options": [
+            "I feel something soft under this blanket, so I look to see what it is.",
+            "I feel the hot soup cold because it burns my tongue and is still boiling.",
+            "I feel this room is too dark to paint, so I switch off every light to make it brighter.",
+            "I feel my feet dry because I am standing in water up to my knees."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "feel + something + soft 表示對觸摸到的東西有主觀感受。",
+            "湯仍滾燙且燙舌，卻說感覺冰冷，矛盾。",
+            "關掉所有燈通常不能讓房間更亮。",
+            "雙腳浸在水裡卻說是乾的，語境衝突。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "I feel something so right",
+          "pattern": [
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "feel",
+              "fixed": true
+            },
+            {
+              "text": "事物",
+              "fixed": false
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "feel + something + soft 表示對觸摸到的東西有主觀感受。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "so + adjective",
+          "meaning": "強調某種性質或感覺的程度很高。",
+          "usage": "想加強描述某件事非常令人驚訝、開心或不對勁時。",
+          "prompt": "哪一句自然使用 so 強調程度？",
+          "options": [
+            "The music was so quiet that it made the whole town hear it from far away.",
+            "The puppet was so funny that the children laughed for a long time.",
+            "The room was so bright because all its lights were off and there were no windows.",
+            "The puppet was so funny that nobody smiled and everybody agreed it was not funny at all."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "聲音很小卻遠處全鎮聽到，通常不合理。",
+            "木偶很滑稽，孩子笑很久，強調與結果一致。",
+            "無燈又無窗仍非常明亮，沒有合理光源。",
+            "說非常好笑卻全員認為一點不好笑，矛盾。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "something so wrong",
+          "pattern": [
+            {
+              "text": "人／事物",
+              "fixed": false
+            },
+            {
+              "text": "be 或 feel",
+              "fixed": false
+            },
+            {
+              "text": "so",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "木偶很滑稽，孩子笑很久，強調與結果一致。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "V-ing phrase describing a simultaneous action",
+          "meaning": "用 -ing 片語補充當時正在做的事情。",
+          "usage": "想用較短的方式交代主句發生時的伴隨活動。",
+          "prompt": "哪一句的 -ing 片語能合理描述同時活動？",
+          "options": [
+            "Leo hurt his knee eating soup, although he was standing far away from the bowl all day and never ate.",
+            "I found my glove riding a bike, but I stayed in bed and did not touch a bike that day.",
+            "Leo hurt his knee jumping off a small wall.",
+            "She made a paper plane reading a book that she did not have."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "明說整天沒有吃東西，與 eating soup 衝突。",
+            "整天沒騎車卻說騎車時找到手套，矛盾。",
+            "跳下矮牆時弄傷膝蓋，-ing 表示同時發生的動作。",
+            "在沒有書的情況下說正在讀它，資訊不一致。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "doing the wrong thing",
+          "pattern": [
+            {
+              "text": "主句",
+              "fixed": false
+            },
+            {
+              "text": "V-ing",
+              "fixed": true
+            },
+            {
+              "text": "同時進行的活動",
+              "fixed": false
+            }
+          ],
+          "explanation": "跳下矮牆時弄傷膝蓋，-ing 表示同時發生的動作。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "could not + base verb",
+          "meaning": "表示過去某個情況下無法做某事。",
+          "usage": "描述當時的能力限制或心理上做不到時。",
+          "prompt": "哪一句的 couldn’t 與後面情況一致？",
+          "options": [
+            "I couldn’t open the door, so I opened it easily with my finger one second later without changing anything.",
+            "We couldn’t see the stage because a tall wall was in front of us.",
+            "She couldn’t hear the song because it was playing loudly beside her and she heard every word.",
+            "We couldn’t see the stage, so we clearly watched every move from the front row with no problem."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "沒有任何改變就說既打不開又輕易打開，缺乏解釋。",
+            "被高牆擋住視線，無法看見舞台合理。",
+            "稱聽不見卻又聽清每個字，前後衝突。",
+            "看不見卻又完全看清所有動作，互相矛盾。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "I couldn’t lie",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "could not / couldn’t",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "被高牆擋住視線，無法看見舞台合理。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "everything that + relative clause",
+          "meaning": "用關係子句界定「所有符合某條件的事情」。",
+          "usage": "想概括某一類事物共同造成的影響時。",
+          "prompt": "哪一句的 everything that 清楚界定範圍？",
+          "options": [
+            "Everything that we planted in the small garden grew after the rain.",
+            "Everything that I can eat is a chair, so I can eat the chair for lunch.",
+            "Everything that we planted grew, but we never planted anything at all.",
+            "Everything that the dog found was a toy, but it found only rocks and no toys."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "關係子句指出種過的東西，後面說它們生長，合理。",
+            "椅子不是正常食物，範圍設定不自然。",
+            "從未種過任何東西，卻說所有種過的東西都長出來，語意衝突。",
+            "所找到的全是石頭，不能同時說全是玩具。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "Everything that kills me",
+          "pattern": [
+            {
+              "text": "Everything that",
+              "fixed": true
+            },
+            {
+              "text": "限定說明的子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "關係子句指出種過的東西，後面說它們生長，合理。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "make + object + base verb",
+          "meaning": "表示某人或某事使另一人產生動作或感受。",
+          "usage": "說明什麼原因讓人笑、想做事或產生感覺時。",
+          "prompt": "哪一句正確表達「某事使某人產生反應」？",
+          "options": [
+            "The loud alarm made everyone sleeping more deeply because it woke them all.",
+            "The warm sunlight made the ice stay frozen longer because it melted.",
+            "The funny dance made the children to laugh.",
+            "The funny dance made the children laugh."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "警報吵醒大家，卻又說讓他們睡得更熟，矛盾。",
+            "陽光使冰融化，不能同時解釋為保持結冰更久。",
+            "使役 make 後不能用 to laugh。",
+            "滑稽舞蹈令孩子笑，make 後接原形 laugh。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "makes me feel alive",
+          "pattern": [
+            {
+              "text": "原因／事物",
+              "fixed": false
+            },
+            {
+              "text": "make",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "滑稽舞蹈令孩子笑，make 後接原形 laugh。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "make + object + want to + verb",
+          "meaning": "表示某件事引起人的願望；歌中 wanna 是 want to 的口語形式。",
+          "usage": "描述一段經歷讓自己突然想做某事。",
+          "prompt": "哪一句能合理說明某事激發了一個願望？",
+          "options": [
+            "The pictures of the mountains make me want to go hiking.",
+            "Hearing the quiet story makes me want to sleep, so I stay awake because I am never tired and do not want sleep.",
+            "The pictures make me want to hike because I never want to go outdoors and hate every mountain.",
+            "The great smell of bread makes me want to throw every piece away because I love eating it."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "看到山景而想登山，原因與願望一致。",
+            "說想睡卻又說不想睡，願望互相否定。",
+            "說想登山卻完全不願外出也厭惡山，動機矛盾。",
+            "喜歡吃麵包卻因此想全部丟掉，缺少合理理由。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "makes me wanna fly",
+          "pattern": [
+            {
+              "text": "事物",
+              "fixed": false
+            },
+            {
+              "text": "make",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "want to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "看到山景而想登山，原因與願望一致。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "watch + object + base verb",
+          "meaning": "看著某個完整動作發生；watch 後通常不用 to。",
+          "usage": "想表示目睹某個動作或過程時。",
+          "prompt": "哪一句正確表示看著某件事發生？",
+          "options": [
+            "We watched the paper boat to float across the pond.",
+            "She watched the candle go out, but she had left before it was lit and never saw it.",
+            "We watched the train leave, although we were indoors with no windows and had no view of it.",
+            "We watched the paper boat float across the pond."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "watch 後的受詞補語不加 to。",
+            "既沒有看到蠟燭也提前離開，不應說看見熄滅。",
+            "完全看不到火車，卻稱親眼看見它離開，矛盾。",
+            "看著紙船漂過池塘，watch + object + 原形動詞正確。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "watch it burn",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "watch",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "看著紙船漂過池塘，watch + object + 原形動詞正確。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "present perfect relative clause with omitted that",
+          "meaning": "省略作受詞的關係代詞，補充自己曾經得到的經驗或東西。",
+          "usage": "自然地描述某些自己已經學到或做過的事情時。",
+          "prompt": "哪一句省略關係代詞後仍然自然、合理？",
+          "options": [
+            "The songs I have learned are in this book, but I have never learned a song.",
+            "The songs I have learned are in this book. I can sing them all.",
+            "The cake I have made is ready, although I have not started making it.",
+            "The prizes I have won are on the shelf, but I have never entered any game or received any prize."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "已學過的歌與從未學過歌互相衝突。",
+            "省略 that 後仍可理解為「我學過的歌」，意思一致。",
+            "稱蛋糕已完成，卻連開始製作都沒有，矛盾。",
+            "說贏過獎卻從未得獎，矛盾。"
+          ],
+          "sourceFile": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "the lessons I’ve learned",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "（省略 that）",
+              "fixed": false
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "have/has",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "省略 that 後仍可理解為「我學過的歌」，意思一致。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Counting_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "44f6fb69c4edef0688c16833f613f239f2520ff92b7bf157cf70c9735e80ccab"
+    },
+    {
+      "section": "structure",
+      "filename": "Counting_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "7bd50c82e512e8849fd9bdd7b28e635f731e21f5a01ea8db2aeca321a41c49ac"
+    }
+  ]
 }

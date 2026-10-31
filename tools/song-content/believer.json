@@ -3566,5 +3566,1925 @@
     "sha256": "ea1c4a6a633f5593451990e1edbfbcb024fa0cc0fe13bfdd9215e992a5079626",
     "transformations": "none",
     "selectedOn": "2026-10-30"
-  }
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "sulking",
+          "meaning": "生悶氣；因不滿而悶悶不樂",
+          "usage": "有人不高興卻不說出來，反而沉默、不理人時使用；常說 stop sulking。",
+          "prompt": "哪一句最自然地使用「sulking」（本題指定意思）？",
+          "options": [
+            "We were sulking happily at the surprise birthday party.",
+            "The child kept sulking after losing the board game.",
+            "She was sulking the cake in the oven all morning.",
+            "The coach kept sulking the ball towards the goal."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。sulking 是悶悶不樂，不能自然表示開心慶祝。",
+            "正確。孩子輸了桌遊後一直悶悶不樂，符合 sulking 的意思。",
+            "錯誤。烤蛋糕要用 baking，sulking 不表示烹調。",
+            "錯誤。把球踢向球門應使用 kicking，不是 sulking。"
+          ],
+          "sourceFile": "Believer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "context": "參考程度：B2（估計）",
+          "explanation": "正確。孩子輸了桌遊後一直悶悶不樂，符合 sulking 的意思。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "the masses",
+          "meaning": "大眾；廣大群眾",
+          "usage": "談文化、資訊、娛樂或政治訊息接觸廣大民眾時使用；語氣比 everyone 稍正式。",
+          "prompt": "哪一句最自然地使用「the masses」（本題指定意思）？",
+          "options": [
+            "The new app brought online lessons to the masses.",
+            "I bought three masses at the shop for my cousins.",
+            "Her cat hid the masses beneath a warm blanket.",
+            "The chef served the masses with a tiny silver spoon."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。表示線上課程變得普及，讓廣大民眾都能接觸。",
+            "錯誤。the masses 指群眾，不是可數的商品。",
+            "錯誤。群眾不是貓能藏在毯子下的物品，語意不自然。",
+            "錯誤。此處像是給全體民眾逐一餵食，搭配不自然；若指顧客應說 customers。"
+          ],
+          "sourceFile": "Believer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "context": "參考程度：C1（估計）",
+          "explanation": "正確。表示線上課程變得普及，讓廣大民眾都能接觸。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "heartache",
+          "meaning": "心痛；深深的悲傷",
+          "usage": "談失去重要的人、感情破裂或人生遺憾造成的情緒痛苦；不是一般胸口疼痛。",
+          "prompt": "哪一句最自然地使用「heartache」（本題指定意思）？",
+          "options": [
+            "The old letter brought back years of heartache.",
+            "The soup tasted of heartache, salt, and fresh garlic.",
+            "The broken bicycle gave me heartache in my left knee.",
+            "I packed my heartache in a suitcase for the trip."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。舊信喚起多年的心痛與傷感，使用自然。",
+            "錯誤。heartache 不是一般湯品的實際調味料。",
+            "錯誤。膝蓋疼痛是身體疼痛，不是 heartache 的情緒意義。",
+            "錯誤。heartache 是情緒痛苦，不是能放入行李箱的實物。"
+          ],
+          "sourceFile": "Believer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "context": "參考程度：B2（估計）",
+          "explanation": "正確。舊信喚起多年的心痛與傷感，使用自然。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "vein",
+          "meaning": "靜脈；血管",
+          "usage": "談血液流動、抽血或醫療檢查時使用；也常出現於文學比喻。",
+          "prompt": "哪一句最自然地使用「vein」（本題指定意思）？",
+          "options": [
+            "The doctor wrote a vein on the medical report.",
+            "A vein carried the taxi across the busy city.",
+            "The nurse found a vein before taking the blood sample.",
+            "The mechanic found a vein inside the broken engine."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。醫師可以記錄血管狀況，但不會把一條血管「寫在」報告上。",
+            "錯誤。vein 不是交通工具，不能載計程車穿越城市。",
+            "正確。抽血前找到靜脈，符合實際用法。",
+            "錯誤。機械零件通常不稱為 vein；此處應用 pipe 或 wire。"
+          ],
+          "sourceFile": "Believer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "context": "參考程度：B2（估計）",
+          "explanation": "正確。抽血前找到靜脈，符合實際用法。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "drive",
+          "meaning": "動力；強烈的企圖心",
+          "usage": "用來形容讓一個人持續努力、實現目標的內在動機；這裡不是開車。",
+          "prompt": "哪一句最自然地使用「drive」（本題指定意思）？",
+          "options": [
+            "Her drive to improve helped her practise every day.",
+            "He put his drive on the shelf beside the plates.",
+            "My drive was parked outside the library all night.",
+            "The chef added some drive to the soup for flavour."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。指努力進步的內在動力，使用自然。",
+            "錯誤。抽象的動力不能像物品一樣放在架上。",
+            "錯誤。車子應說 car；此處的 drive 不是可停放的車輛。",
+            "錯誤。drive 不是食材，無法拿來調味。"
+          ],
+          "sourceFile": "Believer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "context": "參考程度：B2（估計，名詞義）",
+          "explanation": "正確。指努力進步的內在動力，使用自然。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "spirit",
+          "meaning": "精神；意志；心靈",
+          "usage": "談一個人的精神狀態、勇氣或內在力量；不同語境也可能指靈魂。",
+          "prompt": "哪一句最自然地使用「spirit」（本題指定意思）？",
+          "options": [
+            "We measured her spirit in metres during science class.",
+            "She folded her spirit into a paper plane for school.",
+            "The pilot checked her spirit before the plane took off.",
+            "His spirit stayed strong during the difficult season."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。精神不是用公尺測量的物理長度。",
+            "錯誤。精神不能真的摺成紙飛機。",
+            "錯誤。飛行前檢查的應是 equipment 或 instruments，不是精神。",
+            "正確。面對艱難時仍保有堅強意志，使用自然。"
+          ],
+          "sourceFile": "Believer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "context": "參考程度：B2（估計，精神義）",
+          "explanation": "正確。面對艱難時仍保有堅強意志，使用自然。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "dove",
+          "meaning": "鴿子；常象徵和平",
+          "usage": "談鳥類、藝術或和平象徵時使用；不要把所有 dove 都直接解釋成宗教象徵。",
+          "prompt": "哪一句最自然地使用「dove」（本題指定意思）？",
+          "options": [
+            "The teacher dove three problems on the blackboard.",
+            "The dove arrived late because the road had traffic.",
+            "We wore a dove around our feet to keep them warm.",
+            "A white dove flew above the crowd at the ceremony."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。這裡需要 wrote；dove 不是「寫」的動詞。",
+            "錯誤。鴿子能飛，不會因為道路塞車而自然解釋遲到。",
+            "錯誤。鴿子不是鞋襪或保暖衣物。",
+            "正確。典禮上有鴿子飛過人群，實際鳥類與象徵意義皆自然。"
+          ],
+          "sourceFile": "Believer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "context": "參考程度：B2（估計）",
+          "explanation": "正確。典禮上有鴿子飛過人群，實際鳥類與象徵意義皆自然。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "choke",
+          "meaning": "窒息；哽住；喘不過氣",
+          "usage": "呼吸受阻，或因情緒緊張而說不出話時使用；也可能比喻壓力。",
+          "prompt": "哪一句最自然地使用「choke」（本題指定意思）？",
+          "options": [
+            "The singer choked the microphone to make it louder.",
+            "He choked on a piece of food and needed help.",
+            "I choked my homework after the football match.",
+            "Our train choked at the platform before leaving."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。要讓麥克風更大聲應說 turn up，不是 choke。",
+            "正確。吃東西噎住、呼吸受阻，符合 choke on 的意思。",
+            "錯誤。完成作業應說 did 或 finished，不是 choked。",
+            "錯誤。火車停在月台應說 stopped，不是 choked。"
+          ],
+          "sourceFile": "Believer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "context": "參考程度：B2（估計）",
+          "explanation": "正確。吃東西噎住、呼吸受阻，符合 choke on 的意思。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "ashes",
+          "meaning": "灰燼；燃燒後剩下的粉灰",
+          "usage": "談木柴、紙張或其他材料燃燒後的殘留物，也可有象徵性的意思。",
+          "prompt": "哪一句最自然地使用「ashes」（本題指定意思）？",
+          "options": [
+            "The dancer wore ashes as two shiny new shoes.",
+            "The gardener planted ashes to grow three new trees.",
+            "My ashes called me during the lunch break.",
+            "Cold ashes remained in the fireplace the next morning."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。灰燼不能自然指兩隻新鞋。",
+            "錯誤。灰燼可作土壤改良材料，但「種下灰燼來長樹」說法不自然。",
+            "錯誤。灰燼不會打電話，不能當作人。",
+            "正確。壁爐燃燒後留下冷灰燼，使用自然。"
+          ],
+          "sourceFile": "Believer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "context": "參考程度：B2（估計）",
+          "explanation": "正確。壁爐燃燒後留下冷灰燼，使用自然。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "drown",
+          "meaning": "溺水；淹沒；（比喻）被情緒壓倒",
+          "usage": "談人在水中無法呼吸；也可表示被工作、噪音或感受淹沒。",
+          "prompt": "哪一句最自然地使用「drown」（本題指定意思）？",
+          "options": [
+            "The new swimmer nearly drowned in the deep pool.",
+            "He drowned his lunch in the bicycle after school.",
+            "She drowned the meeting at exactly nine thirty.",
+            "The towel drowned the homework before dinner."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。游泳者差點在深池溺水，符合 drown 的核心意思。",
+            "錯誤。此處無合理語義；自行車不是淹沒午餐的容器。",
+            "錯誤。drown 不表示開始或安排會議。",
+            "錯誤。毛巾不會自然用 drown 表示把作業淹沒。"
+          ],
+          "sourceFile": "Believer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "context": "參考程度：B2（估計）",
+          "explanation": "正確。游泳者差點在深池溺水，符合 drown 的核心意思。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "ebb and flow",
+          "meaning": "起伏；消長；潮起潮落",
+          "usage": "形容潮水、感情、人氣或工作量時高時低、來回變化；歌中使用 ebbing and flowing。",
+          "prompt": "哪一句最自然地使用「ebb and flow」（本題指定意思）？",
+          "options": [
+            "The dog ebbed and flowed the door to leave the room.",
+            "We bought an ebb and flow at the station for lunch.",
+            "The ebb and flow of tourists changes through the year.",
+            "Her printer began to ebb and flow in bright green ink."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。不能用這個片語表示狗開門或走出去。",
+            "錯誤。這是變化的過程，不是能買來吃的食物。",
+            "正確。旅客人數隨季節增減，符合「消長」。",
+            "錯誤。印表機的噴墨行為不自然稱為 ebb and flow。"
+          ],
+          "sourceFile": "Believer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "context": "參考程度：C1（估計）",
+          "explanation": "正確。旅客人數隨季節增減，符合「消長」。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "inhibited",
+          "meaning": "拘謹的；受抑制的；放不開的",
+          "usage": "指人因害羞或不自在而無法自由表達，或某種反應、過程受到抑制。",
+          "prompt": "哪一句最自然地使用「inhibited」（本題指定意思）？",
+          "options": [
+            "My shoes were inhibited under the kitchen table.",
+            "She felt inhibited and barely spoke at the party.",
+            "The concert was inhibited because the singer wore blue.",
+            "He inhibited his sandwich before the morning lesson."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。鞋子放在桌下應用 were left；inhibited 不描述位置。",
+            "正確。她在派對上拘謹、幾乎不說話，用法自然。",
+            "錯誤。穿藍衣服不是音樂會「被抑制」的合理原因。",
+            "錯誤。inhibit 不表示吃或準備三明治。"
+          ],
+          "sourceFile": "Believer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "context": "參考程度：C1（估計）",
+          "explanation": "正確。她在派對上拘謹、幾乎不說話，用法自然。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "grace",
+          "meaning": "恩典；恩惠（也可表示優雅）",
+          "usage": "在宗教或文學語境中可表示不必然應得的恩惠；其他語境可形容優雅。",
+          "prompt": "哪一句最自然地使用「grace」（本題指定意思）？",
+          "options": [
+            "She wore grace on both feet during the race.",
+            "The train arrived by grace at platform five.",
+            "They survived the storm by the grace of God.",
+            "The musician bought three graces at the ticket desk."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。grace 不是可以穿在雙腳上的鞋襪。",
+            "錯誤。火車到月台不會自然用 by grace 表示時間或地點。",
+            "正確。表示相信在上天恩典下平安度過暴風雨，符合本題的恩典義。",
+            "錯誤。grace 不是一般可數的票券或商品。"
+          ],
+          "sourceFile": "Believer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 13,
+          "context": "參考程度：C1（估計，恩典義）",
+          "explanation": "正確。表示相信在上天恩典下平安度過暴風雨，符合本題的恩典義。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "rain down",
+          "meaning": "大量落下；接連而來",
+          "usage": "形容雨、物品或批評大量從上方落下或接踵而來；語境可為字面或比喻。",
+          "prompt": "哪一句最自然地使用「rain down」（本題指定意思）？",
+          "options": [
+            "We rained down the bus to reach the museum early.",
+            "Confetti rained down on the winners after the show.",
+            "The singer rained down her shoes before the concert.",
+            "He rained down his breakfast using a small fork."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。搭車應說 took the bus，不是 rain down。",
+            "正確。彩紙在表演後大量灑落在得獎者身上，使用自然。",
+            "錯誤。rain down 不表示穿鞋或放鞋。",
+            "錯誤。rain down 不能表示吃早餐。"
+          ],
+          "sourceFile": "Believer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 14,
+          "context": "參考程度：C1（估計，片語義）",
+          "explanation": "正確。彩紙在表演後大量灑落在得獎者身上，使用自然。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "First things first — 先講最重要的事",
+          "meaning": "先提出最重要、最緊急的事情。",
+          "usage": "安排工作次序，或在說話前指出優先事項。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "First things first, we should buy ten hats because the swimming pool has no water.",
+            "First things first, we can put the last step before every other step.",
+            "First things first, we need to go home after we have already gone home.",
+            "First things first, we need to find the missing child before the show starts."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "泳池沒水應先處理水的問題，買帽子不是合理的首要任務。",
+            "說第一件事，卻要求把最後一步放在最前面，次序互相矛盾。",
+            "人已經回家，卻把回家當作尚未完成的第一件事。",
+            "先找走失的小孩，真正符合先處理最重要事情的意思。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "First things first",
+          "pattern": [
+            {
+              "text": "First things first,",
+              "fixed": true
+            },
+            {
+              "text": "[最先要處理的事]",
+              "fixed": false
+            }
+          ],
+          "example": "First things first, we need to find the keys.",
+          "explanation": "先找走失的小孩，真正符合先處理最重要事情的意思。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "I'ma + base verb — 非正式未來打算",
+          "meaning": "口語中表示「我要／我打算」，接近 I’m going to。",
+          "usage": "辨認流行歌曲中的極口語未來表達；正式或一般課堂寫作用 I’m going to。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "I'ma happy about the game tomorrow.",
+            "I'ma show you my drawing after lunch.",
+            "I'ma to open the shop at six.",
+            "I'ma going to help you with the boxes."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "I’ma 後面不能直接接 happy；應使用 I’m going to be happy。",
+            "I’ma 後接原形 show，清楚表達接下來要做的事。",
+            "I’ma 後面直接接原形動詞，不加 to。",
+            "I’ma 已包含 going to 的意思，不再加 going to。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "I'ma say",
+          "pattern": [
+            {
+              "text": "I’ma",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            },
+            {
+              "text": "[想做的事]",
+              "fixed": false
+            }
+          ],
+          "example": "I'ma tell you the plan.",
+          "explanation": "I’ma 後接原形 show，清楚表達接下來要做的事。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "all + the + plural noun + modifier — 限定「全部」",
+          "meaning": "說明某個明確群組中的全部人或物。",
+          "usage": "要表達指定範圍內「一個也不漏」時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "She ate all the cakes on the plate, but every cake was still there.",
+            "He took all the chairs in the room, but left half of them there.",
+            "The guide counted all the birds in the garden, including the little ones.",
+            "I read all the pages in this book, but I have not opened it."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "說吃光所有蛋糕，卻又說蛋糕全在盤上，互相矛盾。",
+            "宣稱拿走全部椅子，卻留下了一半，與 all 矛盾。",
+            "清點花園裡的所有鳥，包括小鳥，符合指定範圍的「全部」。",
+            "連書都未打開，不可能已讀完全部頁面。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "all the words inside my head",
+          "pattern": [
+            {
+              "text": "all the",
+              "fixed": true
+            },
+            {
+              "text": "[複數名詞]",
+              "fixed": false
+            },
+            {
+              "text": "[補充位置或範圍]",
+              "fixed": false
+            }
+          ],
+          "example": "She read all the notes on the wall.",
+          "explanation": "清點花園裡的所有鳥，包括小鳥，符合指定範圍的「全部」。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "be fired up — 情緒激昂",
+          "meaning": "表示很興奮、有衝勁；也可能表示激動或生氣。",
+          "usage": "有人準備迎接比賽、表演或挑戰而情緒高漲時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "The young players are fired up and ready for their first match.",
+            "The fridge is fired up because the milk is cold.",
+            "The team is fired up, so nobody wants to play and everyone is asleep.",
+            "The robot is fired up because its battery is a sandwich."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "球員興奮準備首場比賽，正是 fired up 的自然用法。",
+            "冰箱的冷牛奶不能合理說明人類的興奮或鬥志。",
+            "說球隊充滿幹勁，卻全都睡著而且不想比賽，前後衝突。",
+            "把三明治當電池，並非合理的激昂情緒情境。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "I’m fired up",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "be fired up",
+              "fixed": true
+            },
+            {
+              "text": "[原因／情況]",
+              "fixed": false
+            }
+          ],
+          "example": "The dancers are fired up before the show.",
+          "explanation": "球員興奮準備首場比賽，正是 fired up 的自然用法。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "be tired of + noun / -ing — 厭倦",
+          "meaning": "對重複的事情感到厭倦，想要改變。",
+          "usage": "表示做某件事太多次，或長期忍受同一情況。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "I am tired of to hear that song every morning.",
+            "The gardener is tired of because the flowers are yellow.",
+            "The cook is tired of making the same soup each day, so she tries a new dish.",
+            "She is tired of her new bike because she has never seen it or used it."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "of 是介系詞，後面要用 hearing，不能接 to hear。",
+            "tired of 後缺少具體事物或 -ing 活動。",
+            "每天煮一樣的湯令廚師厭倦，於是改做新菜，動機合理。",
+            "未見過也未用過單車，不足以支持「因反覆接觸而厭倦」的描述。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "tired of the way",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "be tired of",
+              "fixed": true
+            },
+            {
+              "text": "[名詞／-ing 活動]",
+              "fixed": false
+            }
+          ],
+          "example": "We are tired of waiting in long lines.",
+          "explanation": "每天煮一樣的湯令廚師厭倦，於是改做新菜，動機合理。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "the way (that) + clause — 事情的方式",
+          "meaning": "談某件事發生或運作的方式、狀態。",
+          "usage": "解釋自己喜歡、不喜歡或注意到的做事方式。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "I like the way that my clock is a purple sandwich.",
+            "I like the way that the singer speak to the crowd.",
+            "I like the way the new coach explains each game, so I understand it better.",
+            "The way that he opens the gate is not a way because he opens the gate."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "時鐘不是三明治，內容難以作為合理的做事方式。",
+            "單數 singer 在一般現在式要用 speaks。",
+            "教練的解釋方式讓人更明白，比較自然且符合句型功能。",
+            "把具體方式說成「不是方式」，但同時又描述它，意思自我否定。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "the way that things have been",
+          "pattern": [
+            {
+              "text": "the way (that)",
+              "fixed": true
+            },
+            {
+              "text": "[主詞 + 動詞]",
+              "fixed": false
+            }
+          ],
+          "example": "I like the way that she helps the children.",
+          "explanation": "教練的解釋方式讓人更明白，比較自然且符合句型功能。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "present perfect: have/has + past participle — 到現在的狀態",
+          "meaning": "從過去至今與現在有關的情況或經驗。",
+          "usage": "談過去開始而仍與現在有關的經歷時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "She have lived here for five years.",
+            "I have finished the letter next week.",
+            "The shop has opened tomorrow, so we went there yesterday.",
+            "We have known our neighbour for years, so we know her well."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "she 要接 has，而不是 have。",
+            "next week 是未來，不能自然地配搭 have finished 表示已完成。",
+            "明天才開幕與昨天已光顧的時間安排相衝突。",
+            "多年認識鄰居，並且現在仍相熟，符合現在完成式的時間關係。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "things have been",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "have/has",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            },
+            {
+              "text": "[至今的經驗／情況]",
+              "fixed": false
+            }
+          ],
+          "example": "The road has been quiet all week.",
+          "explanation": "多年認識鄰居，並且現在仍相熟，符合現在完成式的時間關係。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "Don’t you + base verb — 加重語氣的禁止",
+          "meaning": "帶強烈情緒的「你可別……」，比普通 Don’t 更有力。",
+          "usage": "明確警告或強烈禁止某種行為；注意語氣可能較兇。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "Don't you be the winner yesterday!",
+            "Don't you step onto the wet floor! It is not safe.",
+            "Don't you to open that box!",
+            "Don't you tells everyone my secret!"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "這是禁止句，不適合用來要求改變昨天已發生的結果。",
+            "提醒對方不要踏上濕地板，符合強烈警告的功能。",
+            "Don’t you 後直接接原形 open，不加 to。",
+            "tell 才是原形，不能用 tells。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "Don’t you tell me",
+          "pattern": [
+            {
+              "text": "Don’t you",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            },
+            {
+              "text": "[禁止的行為]",
+              "fixed": false
+            }
+          ],
+          "example": "Don't you touch that wet paint!",
+          "explanation": "提醒對方不要踏上濕地板，符合強烈警告的功能。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "tell + person + embedded what-clause — 告訴某人內容",
+          "meaning": "把「甚麼內容」放入較大的句子中。",
+          "usage": "要求別人說明其想法、見聞或選擇時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "Please tell me what you found in the old box.",
+            "Please tell what you found me in the box.",
+            "Please tell me what did you find in the old box.",
+            "Please tell me what finding you the box."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "間接問句用 what + 主詞 + 動詞，清楚詢問盒內發現的東西。",
+            "tell 後人與內容的位置混亂，應說 tell me what you found。",
+            "間接問句不用 did you find 的直接問句語序。",
+            "what 後不是完整自然的子句，無法表達想問的內容。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "tell me what you think",
+          "pattern": [
+            {
+              "text": "tell",
+              "fixed": true
+            },
+            {
+              "text": "[某人]",
+              "fixed": false
+            },
+            {
+              "text": "what",
+              "fixed": true
+            },
+            {
+              "text": "[主詞 + 動詞]",
+              "fixed": false
+            }
+          ],
+          "example": "Please tell me what you saw.",
+          "explanation": "間接問句用 what + 主詞 + 動詞，清楚詢問盒內發現的東西。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "think + (that) + could + base verb — 推測可能性",
+          "meaning": "表達某人認為一件事有可能發生或做得到。",
+          "usage": "談別人對自己能力、可能身份或未來選擇的看法時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "I think he could to open the gate.",
+            "Our coach thinks I could join the team because I practise a lot.",
+            "I think that Mia could flies the kite today.",
+            "She thinks her fish could drive the train to work."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "could 後直接接 open，不用 to。",
+            "教練根據練習表現推測可能入隊，符合 think + could 的語意。",
+            "could 後要接原形 fly，不能用 flies。",
+            "魚開火車是刻意荒誕的可能性，與現實情境不符。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "you think that I could be",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "think (that)",
+              "fixed": true
+            },
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "could",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞 （方括號內內容可替換）",
+              "fixed": false
+            }
+          ],
+          "example": "I think she could lead the group.",
+          "explanation": "教練根據練習表現推測可能入隊，符合 think + could 的語意。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "be the one + modifier — 指出特定的人",
+          "meaning": "指出某個人正是負責或符合描述的那一位。",
+          "usage": "想釐清誰負責、誰做了某事或誰在特定位置時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "He is the one at the front, but nobody is standing at the front and he is at home.",
+            "She is the one with the blue hat, and nobody is wearing a hat.",
+            "The captain is the one in charge, but he has no job on the boat.",
+            "I am the one who made the cake, so please ask me how I made it."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "指出站在最前面的人，卻說他在家，位置衝突。",
+            "指定戴藍帽的人，卻說現場無人戴帽，描述不符。",
+            "說船長負責，卻又說他在船上毫無職責，身份互相矛盾。",
+            "用 who made the cake 指出做蛋糕的人，並提供一致的後續情境。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "I’m the one at the sail",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "be the one",
+              "fixed": true
+            },
+            {
+              "text": "[說明身份或位置的部分]",
+              "fixed": false
+            }
+          ],
+          "example": "She is the one in the red coat.",
+          "explanation": "用 who made the cake 指出做蛋糕的人，並提供一致的後續情境。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "be the master of + noun — 掌握某事",
+          "meaning": "用比喻或字面意思表示掌控、精通某個領域。",
+          "usage": "強調自己能掌握某件事，而不完全由別人決定時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "She is the master of yesterday tomorrow.",
+            "The master of my shoes is seven o’clock.",
+            "He masters of his lunch with a fork.",
+            "She is the master of her own time; she makes her plans each morning."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "把昨天和明天混成沒有意義的掌握對象，無法說明能力。",
+            "時間不是這裡可自然掌握鞋子的「主人」。",
+            "master of 作名詞結構需有 be 或其他適當動詞，這裡搭配不完整。",
+            "能自己安排每日時間，符合掌握自己生活的比喻。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "the master of my sea",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "be the master of",
+              "fixed": true
+            },
+            {
+              "text": "[所掌握的領域]",
+              "fixed": false
+            }
+          ],
+          "example": "She is the master of her own plans.",
+          "explanation": "能自己安排每日時間，符合掌握自己生活的比喻。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "be + past participle — 被動語態",
+          "meaning": "主詞承受某種動作或影響，而非主動做出動作。",
+          "usage": "想突出受到影響的人或事物時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "The glass was broken by a falling ball, so we cleaned up the pieces.",
+            "The window was broke yesterday, but it is still whole and has no mark.",
+            "The glass was break by a ball, so we cleaned it up.",
+            "The wall was painted tomorrow, so it is blue today."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "玻璃被球打碎，主詞承受動作，被動語態與情境都合理。",
+            "broke 不是這裡需要的過去分詞，且破裂與完好相互衝突。",
+            "was 後應用過去分詞 broken，而不是原形 break。",
+            "被動形式可用，但 tomorrow 和已完成結果的時間敘述不一致。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "I was broken",
+          "pattern": [
+            {
+              "text": "[受影響者]",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            },
+            {
+              "text": "[結果／可選施事者]",
+              "fixed": false
+            }
+          ],
+          "example": "The old bridge was damaged by the storm.",
+          "explanation": "玻璃被球打碎，主詞承受動作，被動語態與情境都合理。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "from a young age — 從年少開始",
+          "meaning": "指出一種情況從年幼時就開始。",
+          "usage": "談童年開始的興趣、習慣或經驗時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "From a young age, Tom liked birds and often watched them in the garden.",
+            "She was interested in art from a young age, but she has not been born yet.",
+            "I learned to swim from a young age, starting for the first time next year.",
+            "From a young age, she learned to cook, but she began only yesterday at age forty."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "從小喜歡鳥類，而且經常觀察，時期與行為一致。",
+            "還未出生就不能已經從小有某種興趣。",
+            "明年才第一次學習，與過去已從小學習衝突。",
+            "四十歲才昨天開始，和從年幼時開始互相矛盾。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "from a young age",
+          "pattern": [
+            {
+              "text": "[情況／動作]",
+              "fixed": false
+            },
+            {
+              "text": "from a young age （方括號內內容可替換）",
+              "fixed": false
+            }
+          ],
+          "example": "He loved music from a young age.",
+          "explanation": "從小喜歡鳥類，而且經常觀察，時期與行為一致。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "verb-ing phrase for accompanying action — 補充同時行動",
+          "meaning": "用 -ing 片語補充另一個動作如何發生或同時發生。",
+          "usage": "描寫人物同時做的事情，或說明行動方式。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "Holding the map, the town was easy to find by Nina.",
+            "Running to catch the bus, the school bag got tired.",
+            "Reading a book, the chair understood the story.",
+            "Carrying a small flag, the guide walked in front of the group."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "-ing 的執行者應與主句主詞一致；這句變成城鎮拿地圖。",
+            "句子變成書包跑步又疲累，主詞不符合預期人物。",
+            "椅子不能閱讀並理解故事，分詞主詞不合理。",
+            "導遊拿旗走在隊伍前，兩個動作有一致的執行者。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "Taking my sulking to the masses",
+          "pattern": [
+            {
+              "text": "-ing 動作片語",
+              "fixed": false
+            },
+            {
+              "text": "[主要句子的主詞／情境]",
+              "fixed": false
+            }
+          ],
+          "example": "Holding a map, she walked through the town.",
+          "explanation": "導遊拿旗走在隊伍前，兩個動作有一致的執行者。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "write + object + for + recipient — 為某人創作",
+          "meaning": "表示創作文字是為了某個人或群體。",
+          "usage": "說明書信、故事、歌曲或詩是寫給誰的。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "He wrote a poem for the pencil because it was hungry.",
+            "The children wrote a song for their teacher to thank her.",
+            "She wrote a letter for next Monday to be her new friend.",
+            "I wrote a story for the lamp because it asked me to read it."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "餓的鉛筆不是合理的收件對象，幽默但語意錯誤。",
+            "學生寫歌給老師表達感謝，清楚呈現 for 的對象。",
+            "下星期一是時間，不是能成為朋友的收件者。",
+            "燈不會要求閱讀故事，不是自然的接收對象。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "Writing my poems for the few",
+          "pattern": [
+            {
+              "text": "write",
+              "fixed": true
+            },
+            {
+              "text": "[作品]",
+              "fixed": false
+            },
+            {
+              "text": "for",
+              "fixed": true
+            },
+            {
+              "text": "[接收的人]",
+              "fixed": false
+            }
+          ],
+          "example": "I wrote a short story for my cousin.",
+          "explanation": "學生寫歌給老師表達感謝，清楚呈現 for 的對象。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "relative clause: noun + that + verb — 補充是哪一群",
+          "meaning": "用關係子句限定前面的名詞，指出是哪一群。",
+          "usage": "要從一群人或物中指出符合特定條件者時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "The visitors that came early was waiting near the stage.",
+            "The visitors that came early are the ones who did not come at all.",
+            "The visitors that came early got seats near the stage.",
+            "The cake that tastes sweet is the one that has no taste."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "visitors 是複數，主句動詞應是 were。",
+            "說他們提早到了，卻又說根本沒來，前後矛盾。",
+            "用 that came early 指出提早到的參觀者，搭配恰當。",
+            "形容甜味的蛋糕，卻又說完全沒有味道，性質矛盾。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "the few that look at me",
+          "pattern": [
+            {
+              "text": "[人／事物]",
+              "fixed": false
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "[描述其行為的子句]",
+              "fixed": false
+            }
+          ],
+          "example": "I thanked the people that helped us.",
+          "explanation": "用 that came early 指出提早到的參觀者，搭配恰當。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "make + object + noun — 使某人成為某種身份",
+          "meaning": "某種經歷或人使另一個人變成一種身份或角色。",
+          "usage": "描述影響帶來的改變，尤其是角色或信念改變。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "The storm made me happy a captain yesterday.",
+            "The group chose her to lead, and the work made her a good leader.",
+            "The class made to him a helper after lunch.",
+            "The game made he a winner because he scored the last goal."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "make + 對象 + 名詞，不可插入 happy 把結構打亂。",
+            "被推選帶領團隊並藉此成長，符合 make + 人 + 身份。",
+            "made 後不能這樣用 to him；要用 made him a helper。",
+            "made 後應接 him，而不是 he。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "You made me a believer",
+          "pattern": [
+            {
+              "text": "[原因／人]",
+              "fixed": false
+            },
+            {
+              "text": "make/made",
+              "fixed": true
+            },
+            {
+              "text": "[對象]",
+              "fixed": false
+            },
+            {
+              "text": "[身份名詞]",
+              "fixed": false
+            }
+          ],
+          "example": "That day made her a leader.",
+          "explanation": "被推選帶領團隊並藉此成長，符合 make + 人 + 身份。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "contrasting parallel clauses — 相反行動並列",
+          "meaning": "用相似句型放兩個方向相反的行動，突出反差。",
+          "usage": "想強調先打擊後支持、先失敗後重建等轉變時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "The shop opened at nine and began work at nine; one action ended everything.",
+            "The coach helps me, and the coach helps me; the actions are opposites.",
+            "The robot closed the door and shut the door; one action opened it.",
+            "The bad news broke her confidence, but her friends helped her feel strong again."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "開店與開始工作方向相同，不能說其中一個是結束。",
+            "兩次都是幫助，不是相反的行動。",
+            "close 和 shut 都是關門，沒有開門的反差。",
+            "壞消息使人失去信心，朋友又幫她振作，構成真正的對比。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "You break me down, you build me up",
+          "pattern": [
+            {
+              "text": "[一種行動]",
+              "fixed": false
+            },
+            {
+              "text": ",",
+              "fixed": true
+            },
+            {
+              "text": "[方向相反的行動]",
+              "fixed": false
+            }
+          ],
+          "example": "The news made him sad, but the kind words gave him hope.",
+          "explanation": "壞消息使人失去信心，朋友又幫她振作，構成真正的對比。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "let + object + base verb — 讓某事發生",
+          "meaning": "准許或不阻止人或事物做某個動作。",
+          "usage": "讓別人做某事，或讓自然事件繼續發生時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "Let the wind is blow through the window.",
+            "Let the singers sings one more song.",
+            "Let the birds to fly over the lake.",
+            "Let the children paint the wall for the school show."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "let 後不能接 is blow，應改為 blow。",
+            "let 後要用原形 sing，不用 sings。",
+            "let 後要直接用 fly，不能加 to。",
+            "let + children + paint 結構正確，且學校活動情境合理。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "let the bullets fly",
+          "pattern": [
+            {
+              "text": "let",
+              "fixed": true
+            },
+            {
+              "text": "[人／物]",
+              "fixed": false
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "example": "Let the birds fly away.",
+          "explanation": "let + children + paint 結構正確，且學校活動情境合理。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "come from + source — 說明來源",
+          "meaning": "表示某件事來自甚麼地方或原因。",
+          "usage": "解釋聲音、物品、想法或感受的來源時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "The music came from the silent phone that had no sound at all.",
+            "The sweet smell came from the bread in the oven.",
+            "The cold air came from the hot oven that was making the room warmer.",
+            "The sweet smell came from the clock, because its hands told the time."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "手機完全沒有聲音，卻說音樂從它傳出，內容矛盾。",
+            "烤箱麵包散發香味，來源明確又合理。",
+            "很熱的烤箱使房間暖和，不是冷空氣的合理來源。",
+            "時鐘的指針報時不會自然產生麵包香味。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "it came from",
+          "pattern": [
+            {
+              "text": "[人／物／感受]",
+              "fixed": false
+            },
+            {
+              "text": "come/came from",
+              "fixed": true
+            },
+            {
+              "text": "[來源]",
+              "fixed": false
+            }
+          ],
+          "example": "The sound came from the next room.",
+          "explanation": "烤箱麵包散發香味，來源明確又合理。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "send + object + to + recipient — 把東西送給某人",
+          "meaning": "把物品或訊息送到某個人或地方。",
+          "usage": "寄信、送卡或發送訊息時說明接收對象。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "She sent to the singer a letter to on Tuesday.",
+            "He sent a song to next week because the song needed a date to eat.",
+            "The class sent a thank-you card to the museum guide.",
+            "I sent my phone to very happy after the show."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "接收者和介系詞位置不合自然句型，可說 sent a letter to the singer。",
+            "下星期不是可收信的人，後續語意也不合常理。",
+            "把感謝卡送給博物館導覽員，結構與用途都合理。",
+            "to 後不能接 very happy 當接收對象。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "Send a prayer to the ones",
+          "pattern": [
+            {
+              "text": "send",
+              "fixed": true
+            },
+            {
+              "text": "[東西／訊息]",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "[接收者]",
+              "fixed": false
+            }
+          ],
+          "example": "We sent a card to our grandparents.",
+          "explanation": "把感謝卡送給博物館導覽員，結構與用途都合理。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "present perfect + result: has turned + object + to — 已造成改變",
+          "meaning": "過去的變化已發生，現在仍看得到結果；歌中是詩意轉化。",
+          "usage": "談某件經歷如何使情況改變，並強調現在的結果時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "The school has turned the old garden into a play area, and children use it now.",
+            "The rain has turned the dry road into a river, but not one drop of water has fallen.",
+            "The team have turned the room to music yesterday tomorrow.",
+            "The artist has turned the empty box into a house, but the box is still empty and untouched."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "花園改成遊樂區而且孩子現在使用，符合完成式的結果。",
+            "說雨已把路變成河，卻又稱一滴雨也沒有，原因矛盾。",
+            "主詞 team 在此需一致的動詞形式，時間描述也混亂。",
+            "說已改造成房子，卻又說箱子完全未動過，與結果矛盾。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "has turned your spirit to a dove",
+          "pattern": [
+            {
+              "text": "[造成改變的事]",
+              "fixed": false
+            },
+            {
+              "text": "has/have turned",
+              "fixed": true
+            },
+            {
+              "text": "[對象]",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "新狀態名詞] （方括號內內容可替換）",
+              "fixed": false
+            }
+          ],
+          "example": "The work has turned the old room into a small library.",
+          "explanation": "花園改成遊樂區而且孩子現在使用，符合完成式的結果。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "past continuous: was/were + -ing — 過去正在進行",
+          "meaning": "描寫過去某段時間正在發生的事。",
+          "usage": "講故事時，指出某個時間正在進行的背景行動。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "I was drawing a map when my friend came into the room.",
+            "They were sleeping when the show started, but they have never slept before.",
+            "She were dancing when the lights went out.",
+            "I was reading last night, but I had not begun reading until next year."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "朋友進入房間時正在畫地圖，清楚呈現背景動作。",
+            "過去持續動作與「從未睡過」的極端說法衝突。",
+            "she 應接 was，不是 were。",
+            "昨晚已在閱讀與明年才開始閱讀直接矛盾。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "I was choking in the crowd",
+          "pattern": [
+            {
+              "text": "[過去的人／事物]",
+              "fixed": false
+            },
+            {
+              "text": "was/were",
+              "fixed": true
+            },
+            {
+              "text": "-ing",
+              "fixed": true
+            },
+            {
+              "text": "[當時情況]",
+              "fixed": false
+            }
+          ],
+          "example": "We were watching the sea when the rain started.",
+          "explanation": "朋友進入房間時正在畫地圖，清楚呈現背景動作。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "like + noun — 用比喻比較",
+          "meaning": "把一件事比作另一件事，以形容相似的樣子。",
+          "usage": "用簡單形象幫讀者想像形狀、動作或感受時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "The soft music sounded like a brick wall with no sound.",
+            "The runner moved like a chair because she was very fast.",
+            "The ball rolled like a book that was standing still.",
+            "The white flowers covered the field like snow."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "有聲的音樂與沒有聲音的牆難以構成合理的聲音比喻。",
+            "跑得快的人比作椅子，沒有清楚的相似動作。",
+            "球在滾動，卻比作一動不動的書，動作特徵衝突。",
+            "白花鋪滿草地，看起來像雪，是有共同視覺特點的比喻。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "like ashes to the ground",
+          "pattern": [
+            {
+              "text": "[描述的事物／動作]",
+              "fixed": false
+            },
+            {
+              "text": "like",
+              "fixed": true
+            },
+            {
+              "text": "[比較對象]",
+              "fixed": false
+            }
+          ],
+          "example": "The leaves fell like snow.",
+          "explanation": "白花鋪滿草地，看起來像雪，是有共同視覺特點的比喻。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "hope + (that) + would + verb — 過去的願望",
+          "meaning": "表示從過去角度看，某人希望之後會出現某種結果。",
+          "usage": "講述當時的期待，尤其結果尚未確定時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "I hoped the flower would to grow in the sun.",
+            "I hoped that my bicycle would be a teacher at the zoo.",
+            "I hoped that the weather would be fine for our boat trip.",
+            "I hoped the cake would bake tomorrow, and it was already eaten yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "would 後直接接 grow，不加 to。",
+            "腳踏車變成動物園老師，缺乏合理的願望內容。",
+            "過去期待船程有好天氣，would 表達當時對之後的希望。",
+            "蛋糕昨天已吃完，卻說希望明天才烤好，時間自相矛盾。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "Hoping my feelings, they would drown",
+          "pattern": [
+            {
+              "text": "[過去的期望者]",
+              "fixed": false
+            },
+            {
+              "text": "hoped (that)",
+              "fixed": true
+            },
+            {
+              "text": "[主詞 + would + 原形動詞]",
+              "fixed": false
+            }
+          ],
+          "example": "I hoped the rain would stop before the trip.",
+          "explanation": "過去期待船程有好天氣，would 表達當時對之後的希望。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "never + did — 用助動詞代替前文動詞",
+          "meaning": "用 did 代替前文提過的動詞，避免重複。",
+          "usage": "前文已清楚說明行為，想簡潔否定該行為時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "I asked for a map, but my friend never did the map.",
+            "He promised to call me, but he never did.",
+            "She said she would visit the farm, but she never does yesterday.",
+            "My uncle said he would sleep, but he never did because he slept all night."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "did 在這種省略結構中代替動詞，不應接 the map 當成「做地圖」。",
+            "答應打電話卻沒有打，did 正確代替 call。",
+            "yesterday 指過去，不能自然地與 does 搭配。",
+            "說沒有睡，卻又說整夜都在睡，互相矛盾。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "they never did",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "never did",
+              "fixed": true
+            },
+            {
+              "text": "[省略前文已知的動作]",
+              "fixed": false
+            }
+          ],
+          "example": "I asked him to sing, but he never did.",
+          "explanation": "答應打電話卻沒有打，did 正確代替 call。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "two -ing forms joined by and — 連續進行的動作",
+          "meaning": "用並列的 -ing 形式描述連續或交替進行的動作。",
+          "usage": "描寫水、風、人或事情反覆或同時出現的變化時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "The children were laughing and sing at the party.",
+            "The sea was rising and fall near the beach.",
+            "The crowd was clapping and cheering after the show.",
+            "The clock was running and blue on the wall."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "and 連接兩個並列進行式時，應用 singing。",
+            "應用 falling 與 rising 平行。",
+            "群眾拍手並歡呼，兩個 -ing 動作形式一致且情境自然。",
+            "blue 是形容詞，不能與 running 作相同的 -ing 動作並列。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "ebbing and flowing",
+          "pattern": [
+            {
+              "text": "[-ing 動作一]",
+              "fixed": false
+            },
+            {
+              "text": "and",
+              "fixed": true
+            },
+            {
+              "text": "[-ing 動作二]",
+              "fixed": false
+            }
+          ],
+          "example": "The children were laughing and singing.",
+          "explanation": "群眾拍手並歡呼，兩個 -ing 動作形式一致且情境自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 29,
+          "word": "until / till + clause — 直到某事發生",
+          "meaning": "表示一個動作或狀態維持到某件事發生為止。",
+          "usage": "說明等待、活動或狀態何時才結束時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "The visitors waited until the museum opened, and then they went inside.",
+            "The bird stayed until it flew away but had already left before it stayed.",
+            "We waited until yesterday tomorrow before leaving.",
+            "She kept reading until she began the book for the first time next year."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "遊客等到博物館開門才進去，until 清楚指出等待的終點。",
+            "說鳥留到飛走為止，卻又說在留下之前已離開，互相矛盾。",
+            "yesterday tomorrow 混合過去與未來，無法指出清楚時間。",
+            "已閱讀到某時間，卻明年才首次開始讀，時間關係不成立。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 29,
+          "cue": "Till it broke open",
+          "pattern": [
+            {
+              "text": "[原本持續的情況]",
+              "fixed": false
+            },
+            {
+              "text": "until/till",
+              "fixed": true
+            },
+            {
+              "text": "[終點事件]",
+              "fixed": false
+            }
+          ],
+          "example": "We stayed inside until the storm ended.",
+          "explanation": "遊客等到博物館開門才進去，until 清楚指出等待的終點。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 30,
+          "word": "by the grace of + noun — 歸因於恩惠或幫助",
+          "meaning": "表示因某種恩典或庇佑得以完成事情；歌中把火焰詩意化。",
+          "usage": "帶有莊重、宗教或文學語氣，表達感謝或幸運。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "By the grace of the door, the spoon learned to drive.",
+            "By the grace of my socks, I ate a yellow clock.",
+            "By the grace of God, the family came home safely after the storm.",
+            "By the grace of seven o’clock, the chair became a doctor."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "門讓湯匙學會開車是荒誕情境，不符合片語的自然用途。",
+            "襪子與吃時鐘不構成自然的恩典或庇佑關係。",
+            "把平安歸因於神的恩典，符合此莊重片語的使用情境。",
+            "七點鐘令椅子成為醫生，沒有可解釋的恩惠關係。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 30,
+          "cue": "By the grace of the fire",
+          "pattern": [
+            {
+              "text": "By the grace of",
+              "fixed": true
+            },
+            {
+              "text": "[神聖力量／恩惠來源]",
+              "fixed": false
+            }
+          ],
+          "example": "By the grace of God, they were safe.",
+          "explanation": "把平安歸因於神的恩典，符合此莊重片語的使用情境。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 31,
+          "word": "be + noun metaphor — 用名詞直接比喻",
+          "meaning": "用名詞形象比喻重要角色，描述其特質或作用。",
+          "usage": "想以簡單的名詞形象強調某人的作用或特色時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "Our guide is the heart of the team; everyone comes to her for help.",
+            "He is the heart of the group, but nobody in the group knows him or works with him.",
+            "The young player is the sun of the team, so he is a real star in the sky.",
+            "The new teacher is a bicycle because he has two wheels."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "用 heart 比喻隊伍中幫助大家的重要人物，功能與語境一致。",
+            "說是團隊核心，卻完全不參與其中，缺少合理依據。",
+            "把運動員真的說成天上的恆星，混淆比喻與字面含義。",
+            "說老師是單車又以兩個輪子為理由，變成荒誕字面身份。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 31,
+          "cue": "You’re the face of the future",
+          "pattern": [
+            {
+              "text": "[人／物]",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "[象徵性的名詞片語]",
+              "fixed": false
+            }
+          ],
+          "example": "She is the light of our team.",
+          "explanation": "用 heart 比喻隊伍中幫助大家的重要人物，功能與語境一致。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 32,
+          "word": "parallel noun phrases — 重複形式累積力量",
+          "meaning": "重複相同的名詞片語形式，累積重點和情緒。",
+          "usage": "需要並列幾項同等重要的事物，形成節奏感時。",
+          "prompt": "哪一句正確運用了此句型及其功能？",
+          "options": [
+            "My friends, my home, and quickly make me happy.",
+            "My work, my friends, and my family all matter to me.",
+            "My bike, my bike, my bike are three different kinds of food.",
+            "My house, my game, my yesterday is a sandwich."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "quickly 是副詞，不能與 friends、home 作同類名詞片語並列。",
+            "三個名詞片語平行排列，最後清楚表達共同重要性。",
+            "重複同一單車並稱為三種食物，沒有合理的項目並列。",
+            "並列內容與主句均不自然，無法表達一致的事物分類。"
+          ],
+          "sourceFile": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 32,
+          "cue": "My life, my love, my drive",
+          "pattern": [
+            {
+              "text": "[名詞片語一]",
+              "fixed": false
+            },
+            {
+              "text": ",",
+              "fixed": true
+            },
+            {
+              "text": "[名詞片語二]",
+              "fixed": false
+            },
+            {
+              "text": ",",
+              "fixed": true
+            },
+            {
+              "text": "[名詞片語三]",
+              "fixed": false
+            }
+          ],
+          "example": "My home, my friends, my family matter to me.",
+          "explanation": "三個名詞片語平行排列，最後清楚表達共同重要性。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Believer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "51715ebab2565db607d6856d11d1af1ba71f4130a5175be5d4398d28e9094cc8"
+    },
+    {
+      "section": "structure",
+      "filename": "Believer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "40b9a70dd35491f1e20e5321b589a7cbf723b4bdbb3aefb3f8ca3b0559a07478"
+    }
+  ]
 }

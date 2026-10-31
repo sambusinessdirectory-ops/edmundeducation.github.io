@@ -3681,5 +3681,1106 @@
     "sha256": "8ed8be88316dde2d59ab043749f77907fa1884b3139301de76caf9bffc95c0df",
     "selectedOn": "2026-10-29",
     "transformations": "none"
-  }
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Bond (B2)",
+          "meaning": "（人與人之間的）情感連結、羈絆；也可指將人或事物連在一起的關係。",
+          "usage": "描述朋友、家人、隊友之間逐漸形成的親密關係或信任；常用 a strong bond、form a bond。",
+          "prompt": "哪一句自然地使用了「bond」表示情感連結？",
+          "options": [
+            "The drummer wore a bond around his wrist during the concert.",
+            "The chef formed a bond between two slices of toast at lunch.",
+            "The two volunteers formed a strong bond while helping at the shelter.",
+            "Our new bond arrived in a cardboard box with the office chairs."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。手腕上戴的通常是 band（帶子）或 bracelet（手環），不是此題的 bond。",
+            "錯誤。吐司片之間可以有夾餡，但這裡沒有「人際情感連結」的意思；可說 The chef made a sandwich.",
+            "正確。兩人一起擔任志工，建立了深厚的情感連結；form a strong bond 用法自然。",
+            "錯誤。此題的 bond 不是可與椅子一起寄來的辦公用品；可說 Our new desks arrived in a box."
+          ],
+          "sourceFile": "Every_Breath_You_Take_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確。兩人一起擔任志工，建立了深厚的情感連結；form a strong bond 用法自然。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "Vow (B2)",
+          "meaning": "莊嚴的誓言、鄭重承諾；也可作動詞，表示發誓。",
+          "usage": "談婚禮誓言、重大決心，或一個人認真承諾會做或不做某件事時使用；常說 make a vow、break a vow。",
+          "prompt": "哪一句正確使用了「vow」表示鄭重承諾？",
+          "options": [
+            "She made a vow to protect the forest, and she kept her promise.",
+            "He bought a vow at the bakery to share with his neighbours.",
+            "The pianist tuned her vow before playing at the school concert.",
+            "We poured a vow into the bowl before making some pancakes."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。她鄭重承諾保護森林，也確實履行承諾；make a vow 搭配自然。",
+            "錯誤。這裡的 vow 不是麵包店出售的食物；可說 He bought a loaf of bread.",
+            "錯誤。鋼琴家會為樂器 tune the piano，不能把誓言當成樂器調音。",
+            "錯誤。誓言不是可倒進碗裡的液體；可說 We poured milk into the bowl."
+          ],
+          "sourceFile": "Every_Breath_You_Take_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確。她鄭重承諾保護森林，也確實履行承諾；make a vow 搭配自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "Ache (B2)",
+          "meaning": "（持續地）隱隱作痛；也可以比喻內心因思念或悲傷而痛苦。",
+          "usage": "說肌肉、頭部或心裡持續疼痛；與突然劇痛相比，ache 常強調延續一段時間的痛感。",
+          "prompt": "哪一句自然地使用了「ache」表示持續疼痛？",
+          "options": [
+            "My camera ached the mountain from a distance on our holiday.",
+            "The manager ached the meeting notes into a blue folder after lunch.",
+            "The bus ached loudly at the stop when the passengers got off.",
+            "After carrying heavy bags all day, my shoulders began to ache."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。拍攝山景應用 photographed；ache 不是相機的拍照動作。",
+            "錯誤。整理會議筆記應說 put the notes in a folder；ache 不是「收納」。",
+            "錯誤。公車可能發出噪音，但 ache 不表示「大聲響」；可說 The bus made a loud noise.",
+            "正確。提了一整天重物後肩膀開始持續痠痛，begin to ache 很自然。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確。提了一整天重物後肩膀開始持續痠痛，begin to ache 很自然。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "Stake a claim / stake (B2–C1)",
+          "meaning": "stake a claim：主張自己對某物有權利；聲稱某個地方、機會或成果應屬於自己。",
+          "usage": "談土地、資源、發現或某個重要位置的權利主張時使用；這裡的 stake 是動詞，不是「牛排」(steak)。",
+          "prompt": "哪一句正確使用了「stake a claim」？",
+          "options": [
+            "The photographer staked a claim to the soup because it was too salty.",
+            "Both teams staked a claim to the trophy after their strong performances.",
+            "My cat staked a claim to Tuesday because it missed its breakfast.",
+            "The dentist staked a claim to the toothbrush by washing the floor."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。湯太鹹是口味問題，不是有理據地聲稱擁有權利；可說 The soup was too salty.",
+            "正確。兩隊都因表現出色，認為自己有實力爭奪獎盃；stake a claim to 可以用於競爭中的主張。",
+            "錯誤。星期二不是貓咪可以主張擁有的物品或權益；可說 My cat missed breakfast on Tuesday.",
+            "錯誤。刷地板與牙刷的所有權沒有合理聯繫；可說 The dentist cleaned the floor."
+          ],
+          "sourceFile": "Every_Breath_You_Take_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確。兩隊都因表現出色，認為自己有實力爭奪獎盃；stake a claim to 可以用於競爭中的主張。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "Embrace (B2)",
+          "meaning": "擁抱（名詞或動詞）；延伸也可表示欣然接受某種想法、改變或機會。",
+          "usage": "形容溫暖的擁抱，也能用在接受新技術、新挑戰等抽象情境。此題練習歌詞中較直接的「擁抱」意思。",
+          "prompt": "哪一句正確使用了「embrace」表示擁抱？",
+          "options": [
+            "After years apart, the sisters shared a long embrace at the airport.",
+            "The mechanic filled the car with embrace before the long drive.",
+            "The waiter placed an embrace beside each plate before dinner.",
+            "The teacher printed an embrace and pinned it on the classroom wall."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。多年不見的姐妹在機場長久擁抱；share a long embrace 用法自然。",
+            "錯誤。汽車需要的是 fuel，不是擁抱；可說 The mechanic filled the car with fuel.",
+            "錯誤。擁抱不是餐具；餐盤旁放的是 fork、knife 等物品。",
+            "錯誤。可以印出 poster 或 photo，但這裡的 embrace 是擁抱，不是紙張。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確。多年不見的姐妹在機場長久擁抱；share a long embrace 用法自然。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "every + 名詞 +（省略關係代名詞的）子句",
+          "meaning": "你所做的每一次某事；名詞後的子句指出「哪一些」。",
+          "usage": "想把某人做過的每個動作或說過的每句話都列入描述時；此處省略作受詞的 that。",
+          "prompt": "攝影師把朋友拍的每張照片都存好了；哪句最符合？",
+          "options": [
+            "I saved every photo my cousin took.",
+            "I saved every photo you took.",
+            "I saved every photo you forgot to take.",
+            "I deleted every photo you took."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：拍照的人變成表弟或表妹，不符合情境。",
+            "正確：「every photo you took」限定了朋友所拍的每張照片，並表示已保存。",
+            "錯誤：這句指沒有拍到的照片，並非拍好的照片。",
+            "錯誤：deleted 表示刪除，不是保存。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Every breath you take",
+          "pattern": [
+            {
+              "text": "every",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞",
+              "fixed": false
+            },
+            {
+              "text": "breath / you / take",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：「every photo you took」限定了朋友所拍的每張照片，並表示已保存。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "every + 單數名詞（反覆涵蓋）",
+          "meaning": "每一個、每一次；強調無一例外。",
+          "usage": "描述規律、完整檢查或反覆出現的事項時；every 後通常用單數名詞。",
+          "prompt": "安全員要求檢查每一扇門，哪句正確傳達？",
+          "options": [
+            "Check only the first door.",
+            "Check the doors next week instead.",
+            "Check every door before you leave.",
+            "Check a door if it looks blue."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：only the first 只檢查第一扇，不是全部。",
+            "錯誤：把檢查時間延到下星期，與要求不符。",
+            "正確：every door 表示每扇門都要檢查。",
+            "錯誤：只檢查藍色的門，範圍太小。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "Every step you take",
+          "pattern": [
+            {
+              "text": "every",
+              "fixed": true
+            },
+            {
+              "text": "單數可數名詞",
+              "fixed": false
+            },
+            {
+              "text": "step",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：every door 表示每扇門都要檢查。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "every single + 單數名詞",
+          "meaning": "每一個、每一天，single 加強「沒有漏掉」。",
+          "usage": "想特別強調頻率或完整性時。",
+          "prompt": "植物照顧紀錄說從不漏掉澆水日，哪句最貼切？",
+          "options": [
+            "I water it only when friends visit.",
+            "I have never seen the plant.",
+            "I water the plant once a month.",
+            "I check the soil every single day."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：只在朋友來時才做，並非每天。",
+            "錯誤：從未見過植物與每日照顧相矛盾。",
+            "錯誤：一個月一次不等於天天。",
+            "正確：every single day 強調天天都會查看。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "Every single day",
+          "pattern": [
+            {
+              "text": "every single",
+              "fixed": true
+            },
+            {
+              "text": "單數名詞",
+              "fixed": false
+            },
+            {
+              "text": "day",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：every single day 強調天天都會查看。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "will be + V-ing（未來進行式）",
+          "meaning": "將在未來某段時間持續做某事。",
+          "usage": "說明預定時間正在進行的動作；歌曲中的監看語氣不可當作健康愛情示範。",
+          "prompt": "明晚八點，天文社已安排觀測月亮，哪句最恰當？",
+          "options": [
+            "We never look at the sky.",
+            "At eight tomorrow, we will be watching the moon.",
+            "We will finish before six tonight.",
+            "We watched the moon yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：表示從不觀星，與安排相反。",
+            "正確：will be watching 表示明晚八點正在觀測。",
+            "錯誤：時間及活動都不符合。",
+            "錯誤：yesterday 是過去，不是明晚八點。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "I'll be watching you",
+          "pattern": [
+            {
+              "text": "will be",
+              "fixed": true
+            },
+            {
+              "text": "動詞-ing",
+              "fixed": false
+            },
+            {
+              "text": "watching",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：will be watching 表示明晚八點正在觀測。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "否定疑問句：can’t + 主詞 + 原形動詞？",
+          "meaning": "「難道你看不出……嗎？」常帶驚訝、催促或強烈情緒。",
+          "usage": "說話者以為答案很明顯而反問時；注意語氣可能較強。",
+          "prompt": "舞台燈已亮，表演要開始了，朋友仍說一片漆黑；哪句最符合反問語氣？",
+          "options": [
+            "I cannot see the stage at all.",
+            "Could you turn off all the lights?",
+            "Why did the show end yesterday?",
+            "Can’t you see the lights are on?"
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：說自己看不到，沒有反問朋友。",
+            "錯誤：這是在請人關燈，不是指出燈已亮。",
+            "錯誤：問昨天結束的演出，與當下無關。",
+            "正確：否定疑問句反問對方是否沒看到亮起的燈。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "can't you see",
+          "pattern": [
+            {
+              "text": "can't",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "you / see",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：否定疑問句反問對方是否沒看到亮起的燈。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "see +（省略 that 的）內容子句",
+          "meaning": "看出、明白某個事實，而非單純用眼睛看物件。",
+          "usage": "根據眼前證據得知某事時；see 後可以直接接完整內容子句。",
+          "prompt": "店主看到地上全是水，明白水管漏水；哪句描述她的判斷？",
+          "options": [
+            "She can see the pipe is leaking.",
+            "She can see the pipe is very new.",
+            "She sees the pipe at the cinema.",
+            "She sees a blue pipe in the shop."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：see 後接「the pipe is leaking」這個內容子句。",
+            "錯誤：水管很新並不表示漏水。",
+            "錯誤：把場景改成電影院。",
+            "錯誤：只說看見水管，沒有描述判斷。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "see you belong to me",
+          "pattern": [
+            {
+              "text": "see",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞（that 可省略）",
+              "fixed": false
+            },
+            {
+              "text": "you / belong",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：see 後接「the pipe is leaking」這個內容子句。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "belong to + 名詞／代名詞",
+          "meaning": "屬於某人或某個群體。",
+          "usage": "表達物品所有權或團體歸屬；不應把人當作別人的財產。",
+          "prompt": "有人在藝廊找到遺失的圍巾，標籤寫的是 Nora；哪句合理？",
+          "options": [
+            "The scarf belongs to the sea.",
+            "The scarf belongs to everyone in the city.",
+            "Nora belongs to the scarf.",
+            "The scarf belongs to Nora."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：海不是標籤上的持有人。",
+            "錯誤：標籤指出特定持有人，不是全城的人。",
+            "錯誤：把人說成圍巾的財產，方向顛倒。",
+            "正確：belong to Nora 表示圍巾屬於 Nora。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "belong to me",
+          "pattern": [
+            {
+              "text": "belong to",
+              "fixed": true
+            },
+            {
+              "text": "所有人／團體",
+              "fixed": false
+            },
+            {
+              "text": "me",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：belong to Nora 表示圍巾屬於 Nora。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "How + 主詞 + 動詞！（感嘆句）",
+          "meaning": "感嘆某種感受或情況有多強烈。",
+          "usage": "帶情緒地描述強烈感覺；此處不是詢問方法的 how。",
+          "prompt": "一位奶奶看到多年未見的孫子，驚喜得說不出話；哪句是感嘆語氣？",
+          "options": [
+            "I saw my grandson last Tuesday.",
+            "How my heart jumps with joy!",
+            "How many tickets did you buy?",
+            "How do I get to the station?"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：只是一般敘述，缺少感嘆。",
+            "正確：How 開頭感嘆心情激動。",
+            "錯誤：這是詢問票數。",
+            "錯誤：這是問路，不是表達強烈情緒。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "How my poor heart aches",
+          "pattern": [
+            {
+              "text": "How",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞",
+              "fixed": false
+            },
+            {
+              "text": "my heart / aches",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：How 開頭感嘆心情激動。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "ache + with + 名詞",
+          "meaning": "因某種感受或動作而疼痛。",
+          "usage": "描述疼痛伴隨某種事情或情緒而出現。",
+          "prompt": "爬山後每走一步腳都痛，哪句最符合？",
+          "options": [
+            "My feet are painting every step.",
+            "My feet ache with every step.",
+            "My feet are happy with every step.",
+            "My feet ache only when I sleep."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：painting 不是疼痛的意思。",
+            "正確：ache with every step 表示每走一步都痛。",
+            "錯誤：happy 不能表達腳痛。",
+            "錯誤：改成只有睡覺才痛，和步行情境不符。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "aches with every step",
+          "pattern": [
+            {
+              "text": "ache",
+              "fixed": true
+            },
+            {
+              "text": "with",
+              "fixed": true
+            },
+            {
+              "text": "感受或誘因",
+              "fixed": false
+            },
+            {
+              "text": "every step",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：ache with every step 表示每走一步都痛。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "since + 現在完成式子句",
+          "meaning": "自從某件已經發生的事以來。",
+          "usage": "交代某段情況開始的時間；後面主句可以描述持續至今的結果。",
+          "prompt": "劇團的導演離開後，大家一直很忙；哪句正確？",
+          "options": [
+            "Since the director leaves tomorrow, we were busy yesterday.",
+            "Since our director leaves, we are busy last year.",
+            "Since our director has left, we have been very busy.",
+            "Since the director has left, the play starts in 1990."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：明天才離開，與持續到現在的情況不合。",
+            "錯誤：last year 與現在式的搭配不自然。",
+            "正確：since 從離開的時間點說起，主句描述持續至今的狀況。",
+            "錯誤：1990 年開演與此因果情境無關。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "Since you’ve gone",
+          "pattern": [
+            {
+              "text": "since",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "have/has",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            },
+            {
+              "text": "you / have gone",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：since 從離開的時間點說起，主句描述持續至今的狀況。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "have/has been + 形容詞／過去分詞（持續狀態）",
+          "meaning": "從過去某時起一直處於某種狀態。",
+          "usage": "描述延續到現在的感覺或狀態。",
+          "prompt": "Leo 從早上起一直很擔心走失的小狗，現在仍擔心；哪句合適？",
+          "options": [
+            "Leo was never worried about the dog.",
+            "Leo has been worried all morning.",
+            "Leo is worried only tomorrow.",
+            "Leo has been a doctor since morning."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：表示從沒擔心，與情境相反。",
+            "正確：has been worried 表示擔心從早上持續到現在。",
+            "錯誤：tomorrow 是未來，並未表達一直擔心。",
+            "錯誤：把狀態換成職業。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "I've been lost",
+          "pattern": [
+            {
+              "text": "have/has been",
+              "fixed": true
+            },
+            {
+              "text": "狀態詞",
+              "fixed": false
+            },
+            {
+              "text": "lost",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：has been worried 表示擔心從早上持續到現在。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "without + 名詞片語",
+          "meaning": "沒有……；缺少某樣東西或跡象。",
+          "usage": "說明某樣東西不在、沒有使用，或缺乏某種線索時。",
+          "prompt": "魔術師把硬幣變不見，桌上完全沒有痕跡；哪句最貼切？",
+          "options": [
+            "The coin stayed beside the glass.",
+            "The coin left a big mark on the table.",
+            "The coin vanished without a trace.",
+            "The coin turned into three coins."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：硬幣還在，不符合消失。",
+            "錯誤：留下明顯痕跡，與完全無痕相反。",
+            "正確：without a trace 表示沒有留下任何痕跡。",
+            "錯誤：變成三枚不是消失無蹤。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "without a trace",
+          "pattern": [
+            {
+              "text": "without",
+              "fixed": true
+            },
+            {
+              "text": "名詞片語",
+              "fixed": false
+            },
+            {
+              "text": "a trace",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：without a trace 表示沒有留下任何痕跡。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "一般現在式：主詞 + 原形動詞（習慣）",
+          "meaning": "描述經常或習慣發生的事。",
+          "usage": "談自己的固定習慣，而非只發生一次的活動時。",
+          "prompt": "天文館的解說員每晚寫觀察日記；哪句符合習慣？",
+          "options": [
+            "I write notes every night.",
+            "I will write one note next winter.",
+            "I am writing one note right now only.",
+            "I wrote notes just once last year."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：一般現在式配 every night 表示固定習慣。",
+            "錯誤：說的是未來單次事件。",
+            "錯誤：只描述當下動作，不是每晚習慣。",
+            "錯誤：只提去年一次的事。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "I dream at night",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "一般現在式動詞",
+              "fixed": false
+            },
+            {
+              "text": "時間",
+              "fixed": false
+            },
+            {
+              "text": "I / dream / at night",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：一般現在式配 every night 表示固定習慣。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "can only + 原形動詞",
+          "meaning": "只能做某事，表示能力或選擇受到限制。",
+          "usage": "當時間、條件或規則只容許某個行動時。",
+          "prompt": "博物館只開放看一個展廳，哪句符合？",
+          "options": [
+            "We can only visit the first room today.",
+            "We cannot enter any room at all.",
+            "We must close the museum tomorrow.",
+            "We can visit all ten rooms today."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：can only visit 限定今天只能參觀第一間。",
+            "錯誤：一間都不能進，比原定限制更嚴格。",
+            "錯誤：說的是關門，不是可參觀的範圍。",
+            "錯誤：可以逛十間，與只准一間不符。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "I can only see your face",
+          "pattern": [
+            {
+              "text": "can only",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            },
+            {
+              "text": "see",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：can only visit 限定今天只能參觀第一間。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "look around（不及物動詞片語）",
+          "meaning": "環顧四周、看看附近。",
+          "usage": "到新地方觀察環境，或找東西時。",
+          "prompt": "導覽員讓大家先看看展廳，再開始介紹；哪句最自然？",
+          "options": [
+            "Everyone painted the walls before the tour.",
+            "Everyone left without entering.",
+            "Everyone closed their eyes at once.",
+            "Everyone looked around the gallery first."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：塗牆不是參觀前的觀察。",
+            "錯誤：直接離開，沒有參觀。",
+            "錯誤：閉眼與觀察四周相反。",
+            "正確：looked around 表示先環顧展廳。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "I look around",
+          "pattern": [
+            {
+              "text": "look around (+ 地點)",
+              "fixed": false
+            },
+            {
+              "text": "around / the gallery",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：looked around 表示先環顧展廳。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "but 連接對比的兩個子句",
+          "meaning": "但是；將兩個相反或出乎意料的情況連起來。",
+          "usage": "想強調第一個狀況與第二個結果形成反差時。",
+          "prompt": "雖然下雨，但市集仍有很多人；哪句清楚表達對比？",
+          "options": [
+            "It is raining, and the ground is wet.",
+            "It is sunny, and the sky is clear.",
+            "It is raining, but the market is full of people.",
+            "It is raining because the clouds are dark."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：下雨與地濕是順承，不是意外對比。",
+            "錯誤：兩個描述相互一致。",
+            "正確：but 將下雨與人潮仍多形成對比。",
+            "錯誤：because 表原因，不是轉折。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "I look around, but it's you I can't replace",
+          "pattern": [
+            {
+              "text": "子句",
+              "fixed": false
+            },
+            {
+              "text": "but",
+              "fixed": true
+            },
+            {
+              "text": "對比子句",
+              "fixed": false
+            },
+            {
+              "text": "I look around / I find nothing",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：but 將下雨與人潮仍多形成對比。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "It is + 焦點 +（省略 that/who 的）子句",
+          "meaning": "強調「正是某人／某物」才是句子的焦點。",
+          "usage": "在多個可能對象中突出特定人或物時；歌詞省略 that。",
+          "prompt": "三把鑰匙都試過，只有紅色那把可以開門；哪句突顯紅鑰匙？",
+          "options": [
+            "I need any key, and colour does not matter.",
+            "No key can open the door.",
+            "The blue key opens the door best.",
+            "It is the red key I need."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：表示顏色無關，沒有強調紅鑰匙。",
+            "錯誤：表示沒有鑰匙能開門。",
+            "錯誤：焦點改成藍鑰匙。",
+            "正確：It is the red key I need 以 cleft 句強調紅鑰匙。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "it's you I can't replace",
+          "pattern": [
+            {
+              "text": "it is",
+              "fixed": true
+            },
+            {
+              "text": "被強調的對象",
+              "fixed": false
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞",
+              "fixed": false
+            },
+            {
+              "text": "you / I cannot replace",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：It is the red key I need 以 cleft 句強調紅鑰匙。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "feel + so + 形容詞",
+          "meaning": "感到如此……；so 加強程度。",
+          "usage": "想強調自己的感覺很強烈時。",
+          "prompt": "登山隊走進暖和的休息站後，每個人都很開心；哪句貼切？",
+          "options": [
+            "We feel so tired that we will leave now.",
+            "We feel so cold inside the warm room.",
+            "We feel so happy to be warm again.",
+            "We feel so angry about the hot tea."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：說很累且要離開，不是因暖和而開心。",
+            "錯誤：說在暖房裡很冷，與提供的狀況不符。",
+            "正確：feel so happy 強調重新暖和後的高興。",
+            "錯誤：因熱茶生氣與情境不合。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "I feel so cold",
+          "pattern": [
+            {
+              "text": "feel",
+              "fixed": true
+            },
+            {
+              "text": "so",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            },
+            {
+              "text": "cold",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：feel so happy 強調重新暖和後的高興。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "long for + 名詞",
+          "meaning": "非常渴望、深切想念某樣事物。",
+          "usage": "談長期想念或很想得到的東西時；比 want 感情更強烈。",
+          "prompt": "船員出海數週，現在非常想回家，哪句最貼切？",
+          "options": [
+            "The sailor longs for home.",
+            "The sailor feels no wish to return.",
+            "The sailor wants to buy a second boat tonight.",
+            "The sailor longs for another long voyage."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：longs for home 表示深切想家。",
+            "錯誤：表示完全不想回去。",
+            "錯誤：買船與想家不同。",
+            "錯誤：渴望再次遠航，不是想回家。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "I long for your embrace",
+          "pattern": [
+            {
+              "text": "long for",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "your embrace",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：longs for home 表示深切想家。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "keep + V-ing",
+          "meaning": "持續或反覆做某事。",
+          "usage": "動作一直繼續，或多次重複時；keep 後接 -ing。",
+          "prompt": "路邊表演結束，觀眾仍繼續拍手；哪句最自然？",
+          "options": [
+            "The crowd kept clapping after the show.",
+            "The crowd keeps clapped during the show.",
+            "The crowd kept to clap after the show.",
+            "The crowd stopped clapping before the end."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：kept clapping 表示表演結束後仍一直鼓掌。",
+            "錯誤：keeps clapped 動詞形式不正確。",
+            "錯誤：keep 後表示持續動作時應接 clapping，不接 to clap。",
+            "錯誤：表示提前停止鼓掌。"
+          ],
+          "sourceFile": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "I keep crying",
+          "pattern": [
+            {
+              "text": "keep",
+              "fixed": true
+            },
+            {
+              "text": "動詞-ing",
+              "fixed": false
+            },
+            {
+              "text": "crying",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：kept clapping 表示表演結束後仍一直鼓掌。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Every_Breath_You_Take_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "19bc8695d1a436e0ea23734115ce4836bbc949750c34cfa5b5b801821d7746d9"
+    },
+    {
+      "section": "structure",
+      "filename": "Every_Breath_You_Take_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "24392ad1a5efd303cec08770f43fe9d6798e86d2ee13093e4ee6a13c6b6ecf13"
+    }
+  ]
 }

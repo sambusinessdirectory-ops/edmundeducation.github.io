@@ -3514,5 +3514,1773 @@
     "sha256": "3654c7782d5194b0fe6745c14839fc28096e35006276352711991931e53b549e",
     "transformations": "none",
     "selectedOn": "2026-10-29"
-  }
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "start from zero",
+          "meaning": "從零開始；在沒有既有基礎的情況下重新起步（約 B2）",
+          "usage": "談重新學習、經營或建立生活；通常說 start / starting from zero。",
+          "prompt": "哪一句正確使用「start from zero」？",
+          "options": [
+            "The soup started from zero when it got too hot.",
+            "After losing my notes, I had to start from zero.",
+            "I started from zero miles and reached the station.",
+            "I started from zero sugar in my cup of tea."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：湯變熱不是從零開始學習或重建的過程。",
+            "正確：筆記遺失後必須從頭準備，正確使用。",
+            "錯誤：zero miles 是距離數值，不代表從頭建立一件事；此搭配不自然。",
+            "錯誤：這句若指糖的數量，應說 started with no sugar；start from zero 強調從頭建立。"
+          ],
+          "sourceFile": "Fast_Car_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：筆記遺失後必須從頭準備，正確使用。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "convenience store",
+          "meaning": "便利商店（約 B1）",
+          "usage": "購買日常用品、簡單食物或飲料的小型商店。",
+          "prompt": "哪一句正確使用「convenience store」？",
+          "options": [
+            "We wore a convenience store on the cold day.",
+            "I bought some water at the convenience store.",
+            "My sister baked a convenience store for lunch.",
+            "Our convenience store flew home after the game."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：商店不是可以穿在身上的衣物。",
+            "正確：在便利商店買水，用法自然。",
+            "錯誤：便利商店不是烤出來的食品。",
+            "錯誤：商店不會像人或鳥一樣飛回家。"
+          ],
+          "sourceFile": "Fast_Car_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：在便利商店買水，用法自然。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "cross the border",
+          "meaning": "越過邊境；穿越邊界（約 B2）",
+          "usage": "描述從一個國家或地區進入另一個國家或地區；可用 cross the border。",
+          "prompt": "哪一句正確使用「cross the border」？",
+          "options": [
+            "We crossed the border and entered another country.",
+            "She crossed the border of her soup with a spoon.",
+            "My cat crossed the border of being very sleepy.",
+            "He crossed the border to finish his math homework."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：越過國境後進入另一個國家，用法正確。",
+            "錯誤：湯沒有這種國境；此處不是越境。",
+            "錯誤：將睏倦狀態硬說成國境，搭配不自然。",
+            "錯誤：做數學作業不是跨國或越過地理邊界。"
+          ],
+          "sourceFile": "Fast_Car_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：越過國境後進入另一個國家，用法正確。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "my old man",
+          "meaning": "我爸爸；也可指丈夫／伴侶（口語）（約 B2）",
+          "usage": "非正式稱呼；依語境可指父親或男性伴侶，正式場合宜用 father / husband。",
+          "prompt": "哪一句正確使用「my old man」？",
+          "options": [
+            "My old man was a blue coat I bought yesterday.",
+            "My old man is the oldest tree in our garden.",
+            "My old man is a ticket for the last train.",
+            "My old man taught me how to ride a bike."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：外套不是 old man 所指的人。",
+            "錯誤：old man 指人，不是庭院裡的老樹。",
+            "錯誤：不能用此片語稱呼車票。",
+            "正確：用口語稱呼父親，句子自然。"
+          ],
+          "sourceFile": "Fast_Car_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：用口語稱呼父親，句子自然。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "quit school",
+          "meaning": "退學；不再繼續就學（約 B1–B2）",
+          "usage": "描述離開學校、停止學業；和單純放學 go home 不同。",
+          "prompt": "哪一句正確使用「quit school」？",
+          "options": [
+            "We quit school at four and returned the next day.",
+            "I quit school my English test on Wednesday.",
+            "He quit school at sixteen and started working.",
+            "She quit school into a blue bag for the trip."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：只是每天放學，應說 left school at four；quit school 指停止就學。",
+            "錯誤：不能以 quit school 取代參加考試。",
+            "正確：十六歲退學後開始工作，語意自然。",
+            "錯誤：quit school 不是把學校放進包包。"
+          ],
+          "sourceFile": "Fast_Car_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：十六歲退學後開始工作，語意自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "fly away",
+          "meaning": "飛走；（比喻）遠離現況、逃離束縛（約 B1–B2）",
+          "usage": "可以描述鳥飛離；也能在詩意語境中描寫渴望逃離。",
+          "prompt": "哪一句正確使用「fly away」？",
+          "options": [
+            "She flew away her homework before the test.",
+            "The train flew away on the road at noon.",
+            "The book flew away because the story was sad.",
+            "When the door opened, the small bird flew away."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：fly away 不能直接接 homework 當受詞。",
+            "錯誤：火車在鐵軌上行駛，不會真的飛走。",
+            "錯誤：故事悲傷不會讓書本自行飛走。",
+            "正確：門開後小鳥飛走，正確使用。"
+          ],
+          "sourceFile": "Fast_Car_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：門開後小鳥飛走，正確使用。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "wrap around",
+          "meaning": "環繞、纏繞；用……圍住（約 B2）",
+          "usage": "布、繩或手臂圍住某物或某人時可使用。",
+          "prompt": "哪一句正確使用「wrap around」？",
+          "options": [
+            "She wrapped a scarf around her neck in winter.",
+            "I wrapped the weather around my lunch box.",
+            "He wrapped the song around his math answer.",
+            "They wrapped the train around a glass of tea."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：圍巾繞在脖子上，搭配自然。",
+            "錯誤：天氣不是可以拿來包裹物品的東西。",
+            "錯誤：歌曲不是可自然纏在答案上的實體物。",
+            "錯誤：火車不可能像布料一樣繞住茶杯。"
+          ],
+          "sourceFile": "Fast_Car_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：圍巾繞在脖子上，搭配自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "go cruising",
+          "meaning": "開車兜風；悠閒地巡遊（約 B2）",
+          "usage": "無特定急迫目的地，開車到處走走；也可能指乘船巡遊。",
+          "prompt": "哪一句正確使用「go cruising」？",
+          "options": [
+            "We went cruising to repair a broken chair indoors.",
+            "On Sunday, we went cruising along the coast.",
+            "The students went cruising during a written exam.",
+            "He went cruising his soup with a small spoon."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：在室內修椅子不是開車或乘船巡遊。",
+            "正確：星期日沿海岸兜風，符合語境。",
+            "錯誤：筆試進行時並非適合開車兜風的情境。",
+            "錯誤：cruise 在此不表示攪拌或喝湯。"
+          ],
+          "sourceFile": "Fast_Car_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：星期日沿海岸兜風，符合語境。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "entertain ourselves",
+          "meaning": "自己找樂子；自娛自樂（約 B2）",
+          "usage": "描述沒有別人安排活動，自己想辦法消遣；反身代名詞須與主詞配合。",
+          "prompt": "哪一句正確使用「entertain ourselves」？",
+          "options": [
+            "We entertained ourselves by making funny videos.",
+            "We entertained ourselves by paying the water bill.",
+            "We entertained ourselves by standing in a long line.",
+            "We entertained ourselves by cleaning a broken pipe."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：製作搞笑影片自娛，語意自然。",
+            "錯誤：繳水費通常是責任而非消遣；若刻意當遊戲則另當別論。",
+            "錯誤：排長隊通常不算自娛，缺少娛樂活動。",
+            "錯誤：修漏水管通常是維修任務，不是娛樂。"
+          ],
+          "sourceFile": "Fast_Car_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：製作搞笑影片自娛，語意自然。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "checkout",
+          "meaning": "收銀結帳處；結帳流程（約 B1–B2）",
+          "usage": "超市中的 checkout counter；歌中 checkout girl 指收銀員，是較舊的說法。",
+          "prompt": "哪一句正確使用「checkout」？",
+          "options": [
+            "The checkout went to school and wrote a poem.",
+            "I wore the checkout because the weather was cold.",
+            "We waited at the checkout to pay for our food.",
+            "The checkout flew over the lake at sunrise."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：收銀處不是會去學校寫詩的人。",
+            "錯誤：收銀處不是可以穿的衣物。",
+            "正確：在結帳處排隊付款，正確。",
+            "錯誤：收銀台不會飛過湖面。"
+          ],
+          "sourceFile": "Fast_Car_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：在結帳處排隊付款，正確。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "suburbs",
+          "meaning": "郊區；城市外圍的住宅地區（約 B2）",
+          "usage": "談城市外圍、通常以住宅為主的區域；常用 in the suburbs。",
+          "prompt": "哪一句正確使用「suburbs」？",
+          "options": [
+            "We wore suburbs because it was getting cold.",
+            "She put the suburbs inside her pencil case.",
+            "He ate the suburbs with a fork at dinner.",
+            "They live in the suburbs and take a train to work."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：suburbs 不是能穿的衣服。",
+            "錯誤：郊區不可能放進鉛筆盒。",
+            "錯誤：郊區不是可以吃的食物。",
+            "正確：住在郊區並通勤上班，用法正確。"
+          ],
+          "sourceFile": "Fast_Car_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：住在郊區並通勤上班，用法正確。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "stay out",
+          "meaning": "待在外面不回家；晚歸（約 B2）",
+          "usage": "指夜間留在外面直到較晚；常接 late / all night。",
+          "prompt": "哪一句正確使用「stay out」？",
+          "options": [
+            "My pencil stayed out and drove to the museum.",
+            "The soup stayed out to win the tennis match.",
+            "We stayed out late after the school concert.",
+            "The chair stayed out because it felt so lonely."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：鉛筆不會自己開車出門。",
+            "錯誤：湯不會參加網球比賽。",
+            "正確：學校音樂會後晚歸，符合 stay out 用法。",
+            "錯誤：椅子沒有因孤獨而夜不歸宿的意圖。"
+          ],
+          "sourceFile": "Fast_Car_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "explanation": "正確：學校音樂會後晚歸，符合 stay out 用法。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "have / got + 名詞",
+          "meaning": "表示某人擁有某物；歌詞用口語 got 表達。",
+          "usage": "談手上的資源或擁有的東西；正式書面可用 have／have got。",
+          "prompt": "探險隊出發前，隊長想確認隊伍已經有地圖。哪句最符合？",
+          "options": [
+            "We got a map yesterday from a shop.",
+            "We are getting a map tomorrow.",
+            "We have got a map for the trip.",
+            "We have to draw a map tonight."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：說的是昨天取得地圖，不是確認目前擁有。",
+            "錯誤：說明天才會取得地圖。",
+            "正確：have got 在這裡表示目前擁有地圖。",
+            "錯誤：表示今晚必須畫地圖，而非已經有地圖。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "You got a fast car",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "got",
+              "fixed": true
+            },
+            {
+              "text": "擁有的事物",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：have got 在這裡表示目前擁有地圖。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "want + 名詞 + to + 地點",
+          "meaning": "表達想要某件能通往指定地點的東西。",
+          "usage": "買票、尋找路線或表達目的地時使用。",
+          "prompt": "Mina 要搭船去小島，現在向售票員說明需求。",
+          "options": [
+            "I want a ticket to the island.",
+            "I want the island to a ticket.",
+            "I want to island a ticket.",
+            "I want a ticket from the island yesterday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：ticket to the island 清楚指出船票目的地。",
+            "錯誤：把目的地與票的順序放反了。",
+            "錯誤：to 後不能直接把 island 當動詞。",
+            "錯誤：from 指出發地，而且 yesterday 不合當下需求。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "I want a ticket to anywhere",
+          "pattern": [
+            {
+              "text": "I want",
+              "fixed": true
+            },
+            {
+              "text": "物品",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "目的地",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：ticket to the island 清楚指出船票目的地。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "Maybe + 子句",
+          "meaning": "表示不確定的可能或提議。",
+          "usage": "提出尚未決定的合作安排時使用。",
+          "prompt": "兩位鄰居還沒決定是否一起種花，哪句最自然？",
+          "options": [
+            "Maybe we can plant flowers together.",
+            "We never plant flowers.",
+            "Maybe together flowers can yesterday.",
+            "We definitely planted flowers yesterday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：maybe 以開放語氣提出合作的可能。",
+            "錯誤：表示完全不種花，沒有提出可能。",
+            "錯誤：詞序混亂，不能構成自然子句。",
+            "錯誤：definitely 與 yesterday 表示確定發生的過去。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "Maybe we make a deal",
+          "pattern": [
+            {
+              "text": "Maybe",
+              "fixed": true
+            },
+            {
+              "text": "完整子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：maybe 以開放語氣提出合作的可能。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "can + 動詞原形",
+          "meaning": "表示有能力或可能做到某件事。",
+          "usage": "說明眼前可行的選擇或能力時使用。",
+          "prompt": "工作坊有免費工具，大家可以自己修椅子。",
+          "options": [
+            "We could fixed the chairs now.",
+            "We can fix the chairs ourselves.",
+            "We can fixing the chairs.",
+            "We can to fix the chairs."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：could 後不能接 fixed，且語氣改成假設。",
+            "正確：can fix 表示現在有能力修椅子。",
+            "錯誤：can 後應接 fix，不接 fixing。",
+            "錯誤：can 後不接 to。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "we can get somewhere",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "can",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：can fix 表示現在有能力修椅子。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "句首 -ing 分詞片語（歌詞省略主詞）",
+          "meaning": "句首 -ing 片語交代情境；歌詞省略了後半句的主詞。",
+          "usage": "用 -ing 片語交代同時發生或作為背景的行動時使用。",
+          "prompt": "一位園丁想說「每天照顧植物時，我會學到新東西」。",
+          "options": [
+            "Taking care of plants, learning new things every day.",
+            "Take care of plants, I learn new things every day.",
+            "Taking care plants, I learn new things every day.",
+            "Taking care of plants, I learn new things every day."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：錯誤：後半段缺少完整主句，成為不完整片語。",
+            "錯誤：錯誤：Take care 是祈使語氣，不能直接作這裡的分詞背景。",
+            "錯誤：錯誤：take care of 是固定搭配，此處漏了 of。",
+            "正確：正確：Taking care of plants 是交代背景的 -ing 片語，後接完整主句。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "Starting from zero got nothing to lose",
+          "pattern": [
+            {
+              "text": "動詞 -ing",
+              "fixed": false
+            },
+            {
+              "text": "補充內容，後接主句（歌詞有省略）",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：正確：Taking care of plants 是交代背景的 -ing 片語，後接完整主句。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "nothing + to-infinitive",
+          "meaning": "表示沒有某種事情需要做或可以失去。",
+          "usage": "說明嘗試的風險很低，或沒有待處理事項時使用。",
+          "prompt": "免費攝影比賽不收報名費，Leo 想鼓勵朋友試試。",
+          "options": [
+            "You have no to lose by trying.",
+            "You have nothing to lose by trying.",
+            "You must lose everything to try.",
+            "You have nothing losing."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：no 不能取代 nothing 在這個結構的位置。",
+            "正確：nothing to lose 表示嘗試幾乎沒有損失。",
+            "錯誤：變成必須失去所有東西，與免費參加相反。",
+            "錯誤：nothing 後面不能這樣接 losing 表示可失去的東西。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "got nothing to lose",
+          "pattern": [
+            {
+              "text": "have / got nothing",
+              "fixed": true
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：nothing to lose 表示嘗試幾乎沒有損失。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "名詞 + to-infinitive 修飾",
+          "meaning": "以不定詞說明計畫的內容或目標。",
+          "usage": "介紹解決問題的計畫或工作安排時使用。",
+          "prompt": "圖書館希望讓更多孩子借書，哪句說清楚計畫？",
+          "options": [
+            "They have a plan to open on Sundays.",
+            "They have a plan that borrow more books.",
+            "They have a plan borrowing more books.",
+            "They have a plan opened on Sundays."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：to open on Sundays 說明計畫要做甚麼。",
+            "錯誤：that borrow 的先行詞與動詞搭配不對。",
+            "錯誤：此處要用 plan to do，不是 plan borrowing。",
+            "錯誤：opened 不能接在 plan 後直接表達計畫目標。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "a plan to get us out of here",
+          "pattern": [
+            {
+              "text": "a plan",
+              "fixed": true
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形／目的",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：to open on Sundays 說明計畫要做甚麼。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "非標準省略 have 的完成進行式",
+          "meaning": "歌詞省略助動詞 have，語意是從過去延續至今的工作。",
+          "usage": "辨認歌詞口語形式；在一般課堂書面例句中補回 have。",
+          "prompt": "Nora 從早上一直在整理展覽室，現在還沒完成。",
+          "options": [
+            "I was clean the room all morning.",
+            "I have been cleaning the room all morning.",
+            "I have cleaning the room all morning.",
+            "I have been clean the room all morning."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：was 後不能直接接 clean。",
+            "正確：have been cleaning 表示持續到現在的活動。",
+            "錯誤：have 後少了 been。",
+            "錯誤：been 後要用 cleaning。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "I been working at the convenience store",
+          "pattern": [
+            {
+              "text": "I",
+              "fixed": true
+            },
+            {
+              "text": "[have]",
+              "fixed": false
+            },
+            {
+              "text": "been",
+              "fixed": true
+            },
+            {
+              "text": "動詞 -ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：have been cleaning 表示持續到現在的活動。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "manage to + 動詞原形",
+          "meaning": "表示克服困難，終於成功做成某事。",
+          "usage": "描述不容易但最後完成的任務時使用。",
+          "prompt": "劇團的燈突然壞了，但技師最後修好了。",
+          "options": [
+            "The worker managed to fix the light before the show.",
+            "The worker managed to fixed the light.",
+            "The worker failed to fix the light before the show.",
+            "The worker managed fixing the light before the show."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：managed to fix 表示最後成功修好。",
+            "錯誤：to 後不能用 fixed。",
+            "錯誤：failed 表示沒修好，與情境相反。",
+            "錯誤：manage 後表成功通常接 to + 原形。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "Managed to save just a little bit of money",
+          "pattern": [
+            {
+              "text": "manage(d) to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：managed to fix 表示最後成功修好。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "will not have to + 動詞原形",
+          "meaning": "表示將來不必做某件事，並非禁止。",
+          "usage": "當安排減少某項工作或麻煩時使用。",
+          "prompt": "新電梯明天啟用，住在頂樓的住戶就不用爬樓梯了。",
+          "options": [
+            "They won’t have climbing the stairs tomorrow.",
+            "They must not walk upstairs tomorrow.",
+            "They won’t have to climb the stairs tomorrow.",
+            "They didn’t have to climb the stairs yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：have to 後應用 climb。",
+            "錯誤：must not 是禁止，不等於不必。",
+            "正確：won’t have to 表示明天不再需要爬樓梯。",
+            "錯誤：說的是昨天，而非電梯啟用後。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "Won't have to drive too far",
+          "pattern": [
+            {
+              "text": "won’t have to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：won’t have to 表示明天不再需要爬樓梯。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "both + 動詞",
+          "meaning": "表示兩個人都能做相同的事情。",
+          "usage": "強調兩個人共享某種能力或機會時使用。",
+          "prompt": "兩名學生都有入場券，可以參觀天文館。",
+          "options": [
+            "Both can they visit the museum.",
+            "They both can visiting the museum.",
+            "They can both visit the museum.",
+            "They can both to visit the museum."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：一般陳述句不能用此倒裝語序。",
+            "錯誤：can 後要用 visit 原形。",
+            "正確：can both visit 清楚表示兩人都可以進去。",
+            "錯誤：can 後不接 to。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "You and I can both get jobs",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "情態動詞",
+              "fixed": false
+            },
+            {
+              "text": "both",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：can both visit 清楚表示兩人都可以進去。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "what + 主詞 + 動詞（間接問句）",
+          "meaning": "what 引導名詞性子句，語序維持陳述句。",
+          "usage": "描述想理解某事的含義或結果時使用。",
+          "prompt": "一位新手看不懂戲院售票機上的圖案。",
+          "options": [
+            "I know what does this sign mean.",
+            "I know what means this sign.",
+            "I know what this sign meaning.",
+            "I want to know what this sign means."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：間接問句應用 this sign means 的語序。",
+            "錯誤：顛倒主詞與動詞。",
+            "錯誤：缺少有限動詞 means。",
+            "正確：what this sign means 是自然的間接問句。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "see what it means to be living",
+          "pattern": [
+            {
+              "text": "動詞",
+              "fixed": false
+            },
+            {
+              "text": "what",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：what this sign means 是自然的間接問句。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "say + (that) 子句",
+          "meaning": "轉述某人說的話；that 可以省略。",
+          "usage": "向他人轉述說法、消息或意見時使用。",
+          "prompt": "醫生說小海龜目前很健康，哪句最合適？",
+          "options": [
+            "The vet says is the turtle healthy.",
+            "The vet says the turtle is healthy.",
+            "The vet says the turtle healthy is.",
+            "The vet says to the turtle is healthy."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：不應把轉述內容寫成直接問句語序。",
+            "正確：says 後接完整子句，that 可省略。",
+            "錯誤：主詞與 be 動詞位置不對。",
+            "錯誤：says to 後不能這樣接子句。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "He says his body's too old for working",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "says",
+              "fixed": true
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：says 後接完整子句，that 可省略。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "too + 形容詞 + to + 原形",
+          "meaning": "表示程度過高或過低，以致某件事不合理或難以做到。",
+          "usage": "談能力、年齡、尺寸或條件不足時使用。",
+          "prompt": "一隻剛出生的小鳥還不能自己飛。",
+          "options": [
+            "The bird is young enough to fly alone.",
+            "The bird is too young flying alone.",
+            "The bird is young too for fly alone.",
+            "The bird is too young to fly alone."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：young enough 表示已足夠，而非太年幼。",
+            "錯誤：too young 後要接 to fly。",
+            "錯誤：too 的位置及 for fly 的形式都不對。",
+            "正確：too young to fly 表示年紀太小還不能飛。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "too young to look like his",
+          "pattern": [
+            {
+              "text": "too",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：too young to fly 表示年紀太小還不能飛。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "比較級 + than + 子句",
+          "meaning": "把想要的程度與另一方能提供的程度作比較。",
+          "usage": "比較需求與供應、能力或數量時使用。",
+          "prompt": "旅客希望看更多畫作，但展館今天只開一間展廳。",
+          "options": [
+            "She wanted many art than the museum could show.",
+            "She wanted more art then the museum could show.",
+            "She wanted more art as the museum could show.",
+            "She wanted more art than the museum could show."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：many 不能以此方式修飾不可數 art。",
+            "錯誤：then 是時間副詞，不是比較連接詞 than。",
+            "錯誤：比較級 more 要配 than，不是 as。",
+            "正確：more … than 比較想看的與能展出的作品。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "more from life than he could give",
+          "pattern": [
+            {
+              "text": "more",
+              "fixed": true
+            },
+            {
+              "text": "內容",
+              "fixed": false
+            },
+            {
+              "text": "than",
+              "fixed": true
+            },
+            {
+              "text": "比較對象子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：more … than 比較想看的與能展出的作品。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "have got to + 動詞原形（必要）",
+          "meaning": "表示有必要或責任去做某事；歌詞使用口語縮寫。",
+          "usage": "談無法推遲的責任或必要行動時使用。",
+          "prompt": "小狗走失了，主人必須立刻聯絡動物中心。",
+          "options": [
+            "She has got to call the animal centre.",
+            "She has got to calling the animal centre.",
+            "She has got to called the animal centre.",
+            "She has got calling the animal centre."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：has got to call 表示有必要立即聯絡。",
+            "錯誤：to 後應用 call 原形。",
+            "錯誤：to 後不能用 called。",
+            "錯誤：缺少必要的 to。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "somebody's got to take care of him",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "has got to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：has got to call 表示有必要立即聯絡。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "That’s what + 子句",
+          "meaning": "指回之前提及的行為，表示「那就是我所做的」。",
+          "usage": "確認自己採取了前面說過的行動時使用。",
+          "prompt": "I promised to bring the chairs, and ____.",
+          "options": [
+            "that’s what I did",
+            "that’s what I doing",
+            "that’s I what did",
+            "that’s what did I"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：That’s what I did 回指前面的搬椅子承諾。",
+            "錯誤：doing 缺少必要的助動詞。",
+            "錯誤：what 的位置不對。",
+            "錯誤：what 子句不能倒裝成 did I。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "that's what I did",
+          "pattern": [
+            {
+              "text": "That’s what",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：That’s what I did 回指前面的搬椅子承諾。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "形容詞 + enough + so + 結果子句",
+          "meaning": "表示某種程度已足夠；歌詞接 so + 子句說明預期結果。",
+          "usage": "判斷設備、空間或速度是否達到目的時使用。",
+          "prompt": "攝影師問相機的電池能否撐完整場表演。",
+          "options": [
+            "Is the battery enough strong so it can last?",
+            "Is the battery strong enough so it can last?",
+            "Is the battery strong enough so can it last?",
+            "Is the battery too strong so it can last?"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：enough 要放在形容詞 strong 後。",
+            "正確：strong enough so it can last 表示電力是否足夠。",
+            "錯誤：so 後應接陳述句語序 it can last。",
+            "錯誤：too strong 是「太強」，與是否能撐完整場無直接對應。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "fast enough so we can fly away",
+          "pattern": [
+            {
+              "text": "形容詞",
+              "fixed": false
+            },
+            {
+              "text": "enough",
+              "fixed": true
+            },
+            {
+              "text": "so",
+              "fixed": true
+            },
+            {
+              "text": "結果子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：strong enough so it can last 表示電力是否足夠。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "命令句 + or + 結果／選擇",
+          "meaning": "用 or 連接兩個互斥或對照的行動。",
+          "usage": "清楚提出需要二選一的選項時使用。",
+          "prompt": "遊園車今天只剩兩條路可走，司機說：",
+          "options": [
+            "Turn left or going straight.",
+            "Turning left or to turn right.",
+            "Turn left or go straight.",
+            "Turn left and or right."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：or 後應接 go 原形。",
+            "錯誤：前後動詞形式不平行。",
+            "正確：兩個祈使動作以 or 連接選擇。",
+            "錯誤：and or 不能如此連用。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "Leave tonight or live and die this way",
+          "pattern": [
+            {
+              "text": "動詞原形",
+              "fixed": false
+            },
+            {
+              "text": "選擇 A",
+              "fixed": false
+            },
+            {
+              "text": "or",
+              "fixed": true
+            },
+            {
+              "text": "選擇 B",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：兩個祈使動作以 or 連接選擇。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "remember + when + 過去子句",
+          "meaning": "回憶過去某個具體時間或情景。",
+          "usage": "提醒朋友回想共同經歷的事。",
+          "prompt": "兩個朋友談起去年在海邊看見海豚的那天。",
+          "options": [
+            "Do you remember when we see the dolphins?",
+            "Do you remember when we seeing dolphins?",
+            "Do you remember when did we see dolphins?",
+            "Do you remember when we saw the dolphins?"
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：去年事件應使用 saw。",
+            "錯誤：缺少過去式限定動詞。",
+            "錯誤：間接問句不應倒裝 did we。",
+            "正確：remember when we saw… 回憶過去事件。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "remember when we were driving",
+          "pattern": [
+            {
+              "text": "remember when",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "過去動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：remember when we saw… 回憶過去事件。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "過去進行式：was/were + -ing",
+          "meaning": "描述過去某段時間正在發生的動作。",
+          "usage": "交代故事背景或當時正在做的事情時使用。",
+          "prompt": "昨晚停電時，劇場的工作人員正在排練。",
+          "options": [
+            "We were practicing when the lights went out.",
+            "We are practicing when the lights went out.",
+            "We were practice when the lights went out.",
+            "We was practicing when the lights went out."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：were practicing 表示停電那時正在排練。",
+            "錯誤：are 指現在，與昨晚停電不符。",
+            "錯誤：were 後要用 practicing。",
+            "錯誤：we 要搭配 were，不是 was。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "we were driving",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "was/were",
+              "fixed": true
+            },
+            {
+              "text": "動詞 -ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：were practicing 表示停電那時正在排練。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "feel like + 子句",
+          "meaning": "描述主觀感受，表示感覺「彷彿……」。",
+          "usage": "用比喻說明當時身體或心理的感覺。",
+          "prompt": "旋轉木馬停下來後，Ada 仍覺得整個房間在轉。",
+          "options": [
+            "I felt like was the room spinning.",
+            "I felt like the room was spinning.",
+            "I felt like the room to spin.",
+            "I felt like the room spin yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：不能用問句倒裝語序。",
+            "正確：felt like + 子句描述主觀的暈眩感。",
+            "錯誤：felt like 後接子句時缺少完整的動詞。",
+            "錯誤：此處缺少表示過去進行感受的動詞形式。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "I felt like I was drunk",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "felt like",
+              "fixed": true
+            },
+            {
+              "text": "子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：felt like + 子句描述主觀的暈眩感。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "過去分詞作補語",
+          "meaning": "以過去分詞補充描述人或物的狀態；歌詞是省略式描寫。",
+          "usage": "描述物件被放置或包覆後的樣子時使用。",
+          "prompt": "禮物已經用銀色紙包好了，放在桌上。",
+          "options": [
+            "The gift was wrap in silver paper.",
+            "The gift wrapping in silver paper is on the table.",
+            "The gift wrapped in silver paper is on the table.",
+            "The gift wrapped silver paper in on the table."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：被動句應用 wrapped。",
+            "錯誤：wrapping 偏向主動動作，不能準確表達禮物已被包好。",
+            "正確：wrapped in… 修飾已包好的禮物。",
+            "錯誤：少了介系詞 in，句子結構也不完整。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "wrapped 'round my shoulder",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "過去分詞片語",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：wrapped in… 修飾已包好的禮物。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "have a feeling + that 子句",
+          "meaning": "表示直覺、預感或某種內心感受。",
+          "usage": "說明尚無證據卻有強烈感覺的情況。",
+          "prompt": "比賽還沒開始，教練就預感今天會下雨。",
+          "options": [
+            "I had a feeling that it would rain today.",
+            "I had a feeling that raining today.",
+            "I had a feeling did it rain today.",
+            "I had a feeling rain today."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：had a feeling that… 表達過去的預感。",
+            "錯誤：缺少主詞及有限動詞。",
+            "錯誤：that 後不能用疑問句倒裝。",
+            "錯誤：缺少完整的感受內容子句。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "I had a feeling that I belonged",
+          "pattern": [
+            {
+              "text": "have/had a feeling (that)",
+              "fixed": true
+            },
+            {
+              "text": "子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：had a feeling that… 表達過去的預感。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "get + 過去分詞（狀態變化）",
+          "meaning": "表示將來會得到某種新狀態或結果。",
+          "usage": "談升職、受邀、被選中等預期變化。",
+          "prompt": "園藝比賽結果明天公布，Kai 相信自己會被選中。",
+          "options": [
+            "I think I will getting chosen tomorrow.",
+            "I think I will get choosing tomorrow.",
+            "I think I will get choose tomorrow.",
+            "I think I will get chosen tomorrow."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：will 後不能直接接 getting。",
+            "錯誤：choosing 表主動選擇，不是被選中。",
+            "錯誤：get 後此處要用過去分詞 chosen。",
+            "正確：get chosen 表示被選中。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "I'll get promoted",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "will",
+              "fixed": true
+            },
+            {
+              "text": "get",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：get chosen 表示被選中。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "限定關係子句：that + 動詞",
+          "meaning": "用 that 引導子句，辨認或描述前面的名詞。",
+          "usage": "說明是哪一個人或哪件物品時使用。",
+          "prompt": "在展場尋找會發出藍光的那台機器。",
+          "options": [
+            "Find the machine that it shines blue.",
+            "Find the machine that shining blue.",
+            "Find the machine that shines blue.",
+            "Find the machine which shine blue."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：that 已是子句主詞，不需重複 it。",
+            "錯誤：缺少有限動詞 shines。",
+            "正確：that shines blue 修飾 machine。",
+            "錯誤：單數 machine 應搭配 shines。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "a job that pays all our bills",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "動詞片語",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：that shines blue 修飾 machine。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "比較：more … than + 子句",
+          "meaning": "比較兩類人或事物的頻率或數量；do 可代替前面動詞。",
+          "usage": "描述一種活動比另一種更常發生。",
+          "prompt": "博物館導覽員今年看海鳥比看海豚多。",
+          "options": [
+            "I see more birds then I do dolphins.",
+            "I see more birds than I do dolphins.",
+            "I see more birds than dolphins do I.",
+            "I see more birds that I do dolphins."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：then 是「然後」，不是比較。",
+            "正確：than I do 代替重複的 see。",
+            "錯誤：後半句錯用倒裝語序。",
+            "錯誤：比較要用 than，不是 that。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "more of your friends than you do of your kids",
+          "pattern": [
+            {
+              "text": "more",
+              "fixed": true
+            },
+            {
+              "text": "對象 A",
+              "fixed": false
+            },
+            {
+              "text": "than",
+              "fixed": true
+            },
+            {
+              "text": "對象 B 子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：than I do 代替重複的 see。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "過去完成式：had + 過去分詞",
+          "meaning": "表達在另一個過去時間之前已持續存在的希望或情況。",
+          "usage": "回顧過去，說明早在某事件前已有某個想法。",
+          "prompt": "搬去海邊之前，Eli 一直希望有間小畫室。",
+          "options": [
+            "Before we moved, I have always wanted a studio.",
+            "Before we moved, I had always want a studio.",
+            "Before we moved, I had always wanted a studio.",
+            "Before we moved, I had always wanting a studio."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：have 是現在完成式，不是以過去搬家為參照。",
+            "錯誤：had 後應用 wanted。",
+            "正確：had wanted 表示搬家之前就有的願望。",
+            "錯誤：had 後不直接接 wanting。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "I'd always hoped for better",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "had",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：had wanted 表示搬家之前就有的願望。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 29,
+          "word": "過去視角的 would + 動詞",
+          "meaning": "從過去的時間點談當時預期的未來結果。",
+          "usage": "回憶自己以前以為某件事之後會發生。",
+          "prompt": "兩年前，導演以為這部短片會很受歡迎。",
+          "options": [
+            "Two years ago, I thought would the film be popular.",
+            "Two years ago, I thought the film would popular.",
+            "Two years ago, I thought the film will popular.",
+            "Two years ago, I thought the film would be popular."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：間接子句不使用疑問倒裝。",
+            "錯誤：would 後要有 be 才能接 popular。",
+            "錯誤：will 後少 be，且過去視角常用 would。",
+            "正確：thought … would be 表示過去對未來的預期。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 29,
+          "cue": "you and me would find it",
+          "pattern": [
+            {
+              "text": "過去的想法／預期",
+              "fixed": false
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "would",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：thought … would be 表示過去對未來的預期。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 30,
+          "word": "keep on + 動詞 -ing",
+          "meaning": "表示繼續某個動作，不停下來。",
+          "usage": "鼓勵人持續練習或完成活動時使用。",
+          "prompt": "雖然大家已經很累，舞團仍繼續排練。",
+          "options": [
+            "The dancers kept on to practice.",
+            "The dancers kept on practicing.",
+            "The dancers keep on practiced yesterday.",
+            "The dancers kept on practice."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：keep on 後不接 to-infinitive。",
+            "正確：kept on practicing 表示過去持續排練。",
+            "錯誤：keep on 後不能接 practiced。",
+            "錯誤：keep on 後要接 practicing。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 30,
+          "cue": "keep on driving",
+          "pattern": [
+            {
+              "text": "keep on",
+              "fixed": true
+            },
+            {
+              "text": "動詞 -ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：kept on practicing 表示過去持續排練。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 31,
+          "word": "否定雙重形式：ain’t … nowhere",
+          "meaning": "歌詞的非標準否定一致，語意是「哪裡都不去」，不表示兩個否定互相抵消。",
+          "usage": "辨認歌曲／方言口語；正式書面一般使用 I’m not going anywhere。",
+          "prompt": "哪個句子最適合正式通知：今天因風雨，探險隊不會去任何地方？",
+          "options": [
+            "We ain’t going nowhere today.",
+            "We do not going anywhere today.",
+            "We are not going anywhere today.",
+            "We are not going nowhere today."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：符合部分口語否定方式，但不是正式通知的首選。",
+            "錯誤：do not 後不能直接接 going。",
+            "正確：not … anywhere 是符合情境的標準書面形式。",
+            "錯誤：在標準書面英語中，not … nowhere 不合此處語體要求。"
+          ],
+          "sourceFile": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 31,
+          "cue": "I ain't going nowhere",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "ain’t",
+              "fixed": true
+            },
+            {
+              "text": "動詞 -ing",
+              "fixed": false
+            },
+            {
+              "text": "否定地點詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：not … anywhere 是符合情境的標準書面形式。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Fast_Car_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "ddbbf36005c9554a065d8be3aa919c9f98b7425215705d964aecfea925390467"
+    },
+    {
+      "section": "structure",
+      "filename": "Fast_Car_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "97a011dac12165ff2a7db688c43720843fe15373973b30f69f4ed8f04f025ab7"
+    }
+  ]
 }

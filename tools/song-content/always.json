@@ -3298,5 +3298,2071 @@
     "sha256": "9302488c7f6dbfb9318b3ed5bb0fa8424339fcb4eaa1785f7a99a73b2e4d044f",
     "selectedOn": "2026-10-29",
     "transformations": "none"
-  }
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "bleeding（比喻用法）",
+          "meaning": "內心受傷、痛苦不堪；字面也指流血",
+          "usage": "形容失戀或重大失落帶來的痛苦。歌中使用流血作為感情受傷的比喻。",
+          "prompt": "哪一句最自然、正確地使用「bleeding（比喻用法）」？",
+          "options": [
+            "The teacher is bleeding because the exam begins at nine.",
+            "After the breakup, he felt as if his heart was bleeding.",
+            "My brother is bleeding because his bicycle is yellow.",
+            "Our new sofa is bleeding because the room is too cold."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。考試開始的時間不能自然解釋流血；可用 worried。",
+            "正確。用「心在流血」比喻分手後的痛苦，不是說真的受傷。",
+            "錯誤。黃色腳踏車本身不會造成流血；句子缺少受傷的原因。",
+            "錯誤。沙發不會因為房間冷而流血；這不是合理的比喻。"
+          ],
+          "sourceFile": "Always_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "context": "參考程度：B2（比喻）",
+          "explanation": "正確。用「心在流血」比喻分手後的痛苦，不是說真的受傷。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "kick up",
+          "meaning": "引起、激起（騷動、灰塵、爭議或情緒）",
+          "usage": "某件事使舊問題、爭論或灰塵重新出現時使用；歌中指情緒被翻攪起來。",
+          "prompt": "哪一句最自然、正確地使用「kick up」？",
+          "options": [
+            "The sudden news kicked up a lot of questions at school.",
+            "The singer kicked up her suitcase by reading a map.",
+            "Our neighbours kicked up their sandwiches at the meeting.",
+            "The small clock kicked up the weather before lunch."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。突發消息引起不少問題；kick up 可搭配 questions、fuss 或 dust。",
+            "錯誤。讀地圖不會使行李箱被「激起」；動作不合語意。",
+            "錯誤。這裡不是把三明治「激起」；應使用 brought 或 served。",
+            "錯誤。時鐘不能激起天氣；搭配與因果關係不合理。"
+          ],
+          "sourceFile": "Always_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "context": "參考程度：B2",
+          "explanation": "正確。突發消息引起不少問題；kick up 可搭配 questions、fuss 或 dust。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "drown in",
+          "meaning": "被大量……淹沒；深陷於……",
+          "usage": "除了真的溺水，也可說被工作、訊息或煩惱壓得喘不過氣。",
+          "prompt": "哪一句最自然、正確地使用「drown in」？",
+          "options": [
+            "The chef drowned in a pencil after the dinner rush.",
+            "The train drowned in Tuesday before reaching the station.",
+            "Our team drowned in applause and put it in the fridge.",
+            "I was drowning in emails after my week away."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。鉛筆不是可以讓人淹沒的液體或大量負擔。",
+            "錯誤。Tuesday 是星期，不是能把火車淹沒的事物。",
+            "錯誤。掌聲可形容為熱烈，但不能放進冰箱；後半句使情境不成立。",
+            "正確。用 drowning in emails 比喻電子郵件多到應付不來。"
+          ],
+          "sourceFile": "Always_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "context": "參考程度：B2（比喻）",
+          "explanation": "正確。用 drowning in emails 比喻電子郵件多到應付不來。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "fighter",
+          "meaning": "不輕易認輸的人；鬥士",
+          "usage": "談一個人在困難面前持續努力的性格；未必是拳擊手。",
+          "prompt": "哪一句最自然、正確地使用「fighter」？",
+          "options": [
+            "Maya is a fighter; she kept trying after three failures.",
+            "That sandwich is a fighter; it costs four dollars.",
+            "The lamp is a fighter because it stands near the wall.",
+            "My phone is a fighter because it has a blue case."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。多次失敗仍繼續努力，能自然稱為 a fighter。",
+            "錯誤。三明治的售價與「不輕言放棄」無關。",
+            "錯誤。燈的位置不代表它有堅韌的性格。",
+            "錯誤。手機保護殼的顏色不能說明它是鬥士。"
+          ],
+          "sourceFile": "Always_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "context": "參考程度：B1–B2",
+          "explanation": "正確。多次失敗仍繼續努力，能自然稱為 a fighter。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "forever and a day",
+          "meaning": "永永遠遠；非常非常久",
+          "usage": "用在深情承諾或誇張的玩笑；通常不是精確的時間長度。",
+          "prompt": "哪一句最自然、正確地使用「forever and a day」？",
+          "options": [
+            "The bus arrives forever and a day at seven fifteen.",
+            "The concert lasted forever and a day: exactly nine minutes.",
+            "It felt like forever and a day before the dentist called me.",
+            "I bought forever and a day at the bakery on Sunday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。固定班次應用 at seven fifteen，不能用它表示精確時刻。",
+            "錯誤。九分鐘並非漫長等待；exactly 也與誇飾語氣不協調。",
+            "正確。等待牙醫叫號感覺特別久，以誇飾方式表達時間漫長。",
+            "錯誤。這是時間誇飾片語，不是可以購買的商品。"
+          ],
+          "sourceFile": "Always_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "context": "參考程度：C1（文學／誇飾）",
+          "explanation": "正確。等待牙醫叫號感覺特別久，以誇飾方式表達時間漫長。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "burst",
+          "meaning": "突然破裂、爆開；突然迸發",
+          "usage": "談氣球破掉、管線爆裂或情緒突然爆發時使用。",
+          "prompt": "哪一句最自然、正確地使用「burst」？",
+          "options": [
+            "The balloon burst when it touched the sharp branch.",
+            "The soup burst a song when the waiter walked past.",
+            "The library burst because its opening hours changed.",
+            "He burst his homework by putting it in a drawer."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。氣球碰到尖枝後突然爆破，符合 burst。",
+            "錯誤。湯不會爆出一首歌；物品與動作的搭配不自然。",
+            "錯誤。圖書館營業時間改變不表示建築物爆裂。",
+            "錯誤。把作業放進抽屜不叫 burst；應說 put away。"
+          ],
+          "sourceFile": "Always_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "context": "參考程度：B2",
+          "explanation": "正確。氣球碰到尖枝後突然爆破，符合 burst。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "rhyme",
+          "meaning": "押韻；詞尾發音相同",
+          "usage": "談詩、歌詞或兒歌中聲音相似的字；重點是聲音而非拼字。",
+          "prompt": "哪一句最自然、正確地使用「rhyme」？",
+          "options": [
+            "“Light” and “night” rhyme at the end of the poem.",
+            "The shoes rhyme because they are both the same size.",
+            "The clock rhymes with breakfast every morning at eight.",
+            "Two maps rhyme because they show the same city."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。light 和 night 詞尾發音相同，可用 rhyme。",
+            "錯誤。鞋子尺寸相同與語音押韻無關。",
+            "錯誤。時鐘與早餐不是這裡可押韻的詞語。",
+            "錯誤。地圖顯示同一座城市，不代表兩個字押韻。"
+          ],
+          "sourceFile": "Always_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "context": "參考程度：B2",
+          "explanation": "正確。light 和 night 詞尾發音相同，可用 rhyme。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "what I'd give to ...",
+          "meaning": "真希望能……；為了……我願付出很多",
+          "usage": "強調非常渴望某件事，常帶有懷念或無法立刻實現的感覺。",
+          "prompt": "哪一句最自然、正確地使用「what I'd give to ...」？",
+          "options": [
+            "What I'd give to step barefoot on a sharp nail.",
+            "What I'd give to see my grandmother one more time.",
+            "What I'd give to wait in line for six hours.",
+            "What I'd give to lose my passport before the flight."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。赤腳踩到尖銳釘子通常不是合理的強烈願望。",
+            "正確。非常想再見祖母一面，符合強烈願望的語氣。",
+            "錯誤。排隊六小時通常不是令人熱切渴望的事。",
+            "錯誤。遺失護照通常是麻煩，不是令人渴望的經驗。"
+          ],
+          "sourceFile": "Always_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "context": "參考程度：C1",
+          "explanation": "正確。非常想再見祖母一面，符合強烈願望的語氣。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "run your fingers through",
+          "meaning": "用手指輕輕撥過、梳過（頭髮等）",
+          "usage": "談手指穿過頭髮、毛髮或柔軟物品的動作；注意 through 的空間感。",
+          "prompt": "哪一句最自然、正確地使用「run your fingers through」？",
+          "options": [
+            "She ran her fingers through tomorrow before breakfast.",
+            "I ran my fingers through the traffic to catch my bus.",
+            "He ran his fingers through the concert ticket price.",
+            "The vet ran her fingers through the puppy’s soft fur."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。tomorrow 是時間概念，並非可用手指穿過的物體。",
+            "錯誤。人可能穿過車流，但手指不能這樣「撥過交通」。",
+            "錯誤。票價不是可被手指撥過的材質。",
+            "正確。獸醫用手指輕輕撥過小狗柔軟的毛。"
+          ],
+          "sourceFile": "Always_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "context": "參考程度：B2",
+          "explanation": "正確。獸醫用手指輕輕撥過小狗柔軟的毛。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "say your prayers",
+          "meaning": "禱告、祈禱；有時帶有臨危求助的語氣",
+          "usage": "談宗教祈禱時使用；在口語中也可能是半開玩笑的警告。",
+          "prompt": "哪一句最自然、正確地使用「say your prayers」？",
+          "options": [
+            "The chef said his prayers by adding salt to the soup.",
+            "The students said their prayers before bedtime at camp.",
+            "The pilot said her prayers by washing the plane windows.",
+            "My uncle said his prayers by checking the train times."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。湯裡加鹽是烹調，不是說禱詞。",
+            "正確。營隊學生睡前祈禱，符合片語的基本用法。",
+            "錯誤。擦飛機窗戶是清潔，不等於祈禱。",
+            "錯誤。查火車時間不構成禱告；只是確認行程。"
+          ],
+          "sourceFile": "Always_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "context": "參考程度：B2",
+          "explanation": "正確。營隊學生睡前祈禱，符合片語的基本用法。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "loaded dice",
+          "meaning": "動過手腳的骰子；比喻不公平的局面",
+          "usage": "形容遊戲遭人操控，或一場競爭從一開始就不公平。",
+          "prompt": "哪一句最自然、正確地使用「loaded dice」？",
+          "options": [
+            "The teacher loaded dice with pencils to clean the board.",
+            "The baker used loaded dice to cut six equal cake slices.",
+            "The museum sold loaded dice because its walls were old.",
+            "The winner used loaded dice, so the game was unfair."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。這裡把 loaded 當作放鉛筆進骰子；語意不自然。",
+            "錯誤。骰子不適合用來切蛋糕；工具與目的不搭。",
+            "錯誤。老牆壁與動手腳的骰子沒有因果關係。",
+            "正確。作弊者使用動過手腳的骰子，所以比賽不公平。"
+          ],
+          "sourceFile": "Always_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "context": "參考程度：C1（比喻）",
+          "explanation": "正確。作弊者使用動過手腳的骰子，所以比賽不公平。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "there's no price I won't pay",
+          "meaning": "不惜付出任何代價",
+          "usage": "強調達成某件事的決心；不一定指實際付款。",
+          "prompt": "哪一句最自然、正確地使用「there's no price I won't pay」？",
+          "options": [
+            "There's no price I won't pay for a completely free pen.",
+            "There's no price I won't pay because the milk is cold.",
+            "There's no price I won't pay to protect this old photo.",
+            "There's no price I won't pay to make Tuesday disappear."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。免費筆不需要付費，與「不惜代價」的語氣衝突。",
+            "錯誤。牛奶很冷與願意付出任何代價缺乏合理連結。",
+            "正確。強調為保護珍貴照片願付出很大代價。",
+            "錯誤。讓星期二消失並非可合理達成的目標。"
+          ],
+          "sourceFile": "Always_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "context": "參考程度：C1（誇飾）",
+          "explanation": "正確。強調為保護珍貴照片願付出很大代價。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "do someone wrong",
+          "meaning": "虧待、傷害、對不起某人",
+          "usage": "談不公平對待或辜負別人時使用；歌中帶有口語否定形式。",
+          "prompt": "哪一句最自然、正確地使用「do someone wrong」？",
+          "options": [
+            "The coach did me wrong by praising my hard work.",
+            "They did me wrong by returning the money I lost.",
+            "She did me wrong by sharing my private message.",
+            "He did me wrong by offering me a seat on the train."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。讚美努力通常不是對某人不公。",
+            "錯誤。歸還遺失的錢通常是在幫忙，不是傷害。",
+            "正確。未經同意公開私人訊息，屬於傷害或辜負。",
+            "錯誤。讓座通常是體貼的行為，不是虧待。"
+          ],
+          "sourceFile": "Always_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 13,
+          "context": "參考程度：C1（口語）",
+          "explanation": "正確。未經同意公開私人訊息，屬於傷害或辜負。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "be + V-ing（現在進行式）",
+          "meaning": "表示某個動作此刻正在進行。",
+          "usage": "描述眼前正在發生的事情；不一定表示長期習慣。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "The chef is cutting carrots now, so please keep the table clear.",
+            "The chef is cutting carrots now, but he has not started and will begin tomorrow.",
+            "The chef is cutting carrots now, but there is no chef in the kitchen or anywhere nearby.",
+            "The chef is cutting carrots now, so he finished all the work last year."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：廚師此刻正在切紅蘿蔔，動作與時間一致。",
+            "錯誤：尚未開始與 now 正在進行互相矛盾。",
+            "錯誤：聲稱廚師正在廚房工作，卻又說完全沒有人。",
+            "錯誤：去年完成的工作不能解釋此刻正在切菜。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "This Romeo is bleeding（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "am/is/are",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": true
+            },
+            {
+              "text": "正在發生的動作",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：廚師此刻正在切紅蘿蔔，動作與時間一致。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "but + 轉折子句",
+          "meaning": "前後呈現實際的反差，而不只是重複意思。",
+          "usage": "指出雖有某個情況，卻出現不同於預期的結果。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "The gate is locked, but it is not open.",
+            "I have two cats, but I own two cats.",
+            "The little shop looks closed, but someone is selling flowers inside.",
+            "My glass is empty, but there is nothing in it."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：locked 和 not open 只是重述同一狀態。",
+            "錯誤：兩句都在說養了兩隻貓。",
+            "正確：看似關門卻仍在賣花，形成真正反差。",
+            "錯誤：empty 與 nothing in it 意思相同。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "But you can’t see his blood（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "情況一",
+              "fixed": false
+            },
+            {
+              "text": "but",
+              "fixed": true
+            },
+            {
+              "text": "意料之外或相反的情況",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：看似關門卻仍在賣花，形成真正反差。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "can’t + 原形動詞（無法做到）",
+          "meaning": "指出能力或條件不足，無法做某事。",
+          "usage": "說明不能看見、做到或完成某事時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "The ticket is in tiny print; I can’t read the numbers without my glasses.",
+            "The sign is huge and clear, so nobody can read it.",
+            "I can’t reach the shelf because it is below my feet.",
+            "Mia cannot lift the box, so she carries it easily with one finger."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：字太小、沒有眼鏡，因此讀不到號碼。",
+            "錯誤：清楚的大招牌與所有人看不到不相符。",
+            "錯誤：架子在腳下通常不會造成拿不到的問題。",
+            "錯誤：說搬不動，卻能輕鬆用一根手指搬起。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "you can’t see his blood（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "cannot/can’t",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "無法完成的動作",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：字太小、沒有眼鏡，因此讀不到號碼。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "nothing but + 名詞",
+          "meaning": "只不過是、除了某件事之外沒有其他。",
+          "usage": "想淡化某件事，或強調內容只有一種時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "The empty jar holds nothing but air, but it is full of sweets.",
+            "I ate nothing but soup, including three cakes and a pie.",
+            "The box has nothing but paper inside; there are no toys or clothes.",
+            "The drawer has nothing but pencils, yet it also has five phones."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：說只有空氣，卻又裝滿糖果。",
+            "錯誤：除了湯還吃蛋糕和批，與 nothing but 衝突。",
+            "正確：盒子裡只有紙，符合限定內容的意思。",
+            "錯誤：若有手機，就不是只有鉛筆。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "nothing but some feelings（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "nothing but",
+              "fixed": true
+            },
+            {
+              "text": "唯一的內容",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：盒子裡只有紙，符合限定內容的意思。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "have/has been + V-ing + since + 子句",
+          "meaning": "從過去某時開始持續，延續到現在。",
+          "usage": "說持續的天氣、等待、練習或其他活動。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "They have been living here since ten years.",
+            "I have been waiting since three hours.",
+            "She has been painting since tomorrow, and she has already finished yesterday.",
+            "The clock has been ringing since six this morning, and it is still ringing."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：ten years 是一段時間，應用 for ten years。",
+            "錯誤：three hours 是時間長度，應用 for。",
+            "錯誤：since tomorrow 不是過去起點，時間也混亂。",
+            "正確：六點開始持續響，到現在仍未停。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "It’s been raining since you left me（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "have/has been",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": true
+            },
+            {
+              "text": "since",
+              "fixed": true
+            },
+            {
+              "text": "過去開始的時間點／事件",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：六點開始持續響，到現在仍未停。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "have/has + always + 過去分詞",
+          "meaning": "從過去到現在一直如此。",
+          "usage": "強調某個長期身分、態度或習慣仍然成立。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "I have always been a singer, but I only started singing tomorrow.",
+            "She has always loved chess, but she learned what chess is five minutes from now.",
+            "I have always liked maps, and I still collect them today.",
+            "He has always lived here, but this is his first visit to the town."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：將來才開始不能支持一直以來的狀態。",
+            "錯誤：未來才認識象棋，無法支持一直喜歡。",
+            "正確：以前到現在都喜歡地圖。",
+            "錯誤：一直住在這裡與第一次來訪矛盾。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "I’ve always been a fighter（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "have/has always",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            },
+            {
+              "text": "持續至今的經驗／狀態",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：以前到現在都喜歡地圖。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "without + 人／物，主句",
+          "meaning": "說明缺少某人或某物時會怎樣。",
+          "usage": "討論必要條件或欠缺資源所造成的影響時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "Without any water, I watered the flowers with a full bucket of water.",
+            "Without batteries, the clock works because the batteries are inside it.",
+            "Without a map, we could not find the small village easily.",
+            "Without my ticket, I walked straight into the ticket-only show because I had a ticket."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：聲稱完全沒有水，卻又用一整桶水澆花。",
+            "錯誤：說沒有電池，卻又說電池裝在裡面。",
+            "正確：缺少地圖使找路變困難。",
+            "錯誤：說沒票，卻又說自己有票。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "without you I give up（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "without",
+              "fixed": true
+            },
+            {
+              "text": "缺少的人或物",
+              "fixed": false
+            },
+            {
+              "text": "產生的情況",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：缺少地圖使找路變困難。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "be meant to + 原形動詞／be",
+          "meaning": "表示應該如此、原本預定如此；有時帶命中注定的語氣。",
+          "usage": "描述設計目的、預期安排或理想狀態。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "This door is meant to be kept closed, so the sign says “Leave it open all day.”",
+            "This door is meant to be kept closed, so please shut it.",
+            "The room is meant to be quiet, so everyone must shout all the time.",
+            "The toy is meant to float, so the maker says it was made only to sink."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：應保持關閉卻要求整天打開。",
+            "正確：門本應關好，指示與用途一致。",
+            "錯誤：安靜的用途與所有人必須喊叫衝突。",
+            "錯誤：浮起與只會下沉的設計衝突。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "it’s meant to be（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be meant to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "預期／設計的狀態",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：門本應關好，指示與用途一致。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "I guess + (that) 子句",
+          "meaning": "說明自己的推測或不太肯定的看法。",
+          "usage": "沒有完全把握、語氣想保持柔和時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "I guess the race is over, although the race has not even started yet and I have no reason to think so.",
+            "I guess we lost, because the score shows we won and everyone agrees.",
+            "I guess the museum is closed; the lights are off and the doors are locked.",
+            "I guess she lives here because I know for certain she lives in another country."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：沒有證據又直接否定判斷，推測不自然。",
+            "錯誤：比分顯示勝利，不能支持猜測輸了。",
+            "正確：門鎖和燈光提供合理推測依據。",
+            "錯誤：已確知她住別國，與此推測相反。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "I guess I’m not that good anymore（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "I guess (that)",
+              "fixed": true
+            },
+            {
+              "text": "不完全確定的判斷",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：門鎖和燈光提供合理推測依據。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "not ... anymore",
+          "meaning": "以前是某個情況，現在不再如此。",
+          "usage": "比較過去與現在，強調情況已改變時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "I do not work at the cinema anymore; I left that job last month.",
+            "She is not a child anymore, because she is still only three years old.",
+            "The old bridge is not used anymore, but cars still use it every minute.",
+            "I do not eat sweets anymore, but I eat sweets for every meal now."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：上月離職，現在已不在戲院工作。",
+            "錯誤：三歲仍是小孩，原因不成立。",
+            "錯誤：已不再使用卻每分鐘都有車使用。",
+            "錯誤：不再吃糖與每餐都吃互相矛盾。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "not that good anymore（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "否定",
+              "fixed": false
+            },
+            {
+              "text": "動詞／形容詞",
+              "fixed": false
+            },
+            {
+              "text": "anymore",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：上月離職，現在已不在戲院工作。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "will + 原形動詞（承諾）",
+          "meaning": "表達將來意願、承諾或預測。",
+          "usage": "作出承諾或表示決定時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "I will help you move on Saturday, but I promise I will never come.",
+            "I will paint the fence tomorrow, but I will not paint it tomorrow or any other day.",
+            "I will bring the chairs tomorrow; you can count on me.",
+            "I will feed the birds tomorrow, although yesterday is tomorrow."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：同時承諾幫忙和絕不出現。",
+            "錯誤：承諾明天油漆，卻又說明天及以後絕不油漆。",
+            "正確：清楚承諾明天把椅子帶來。",
+            "錯誤：昨天不可能是明天。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "I will love you（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "will",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "將做的事",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：清楚承諾明天把椅子帶來。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "be there + for someone（在場支持）",
+          "meaning": "表示將在場，語境中常含支持和陪伴。",
+          "usage": "答應在某場合出現或支持別人時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "I’ll be there when your dance show begins. I already have my seat.",
+            "I’ll be there at noon, but I will only arrive after midnight tomorrow.",
+            "I’ll be there tonight, because I went there three years ago instead.",
+            "I’ll be there for your show, but I will not be anywhere near it and cannot watch."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：已準備好到場支持對方演出。",
+            "錯誤：指定中午到場卻要隔天半夜才到。",
+            "錯誤：三年前去過不能代表今晚會到場。",
+            "錯誤：承諾到場卻說完全不會靠近。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "I’ll be there（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "will be there",
+              "fixed": true
+            },
+            {
+              "text": "時間／對象（可省）",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：已準備好到場支持對方演出。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "until / ’til + 時間子句",
+          "meaning": "某個動作持續到指定時點或事件發生。",
+          "usage": "表達持續多久；歌曲 ’til 為 until 的縮寫。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "I will stay until the show starts, so I leave before the doors open.",
+            "Keep the oven on until the timer rings, then turn it off.",
+            "We will wait until the bus arrives, so we will leave ten minutes before it comes.",
+            "She will read until midnight, but she stops at six in the morning before midnight yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：等到表演開始與開門前離開矛盾。",
+            "正確：計時器響時才關烤箱，界線清楚。",
+            "錯誤：等到車來與車到之前就離開矛盾。",
+            "錯誤：時間安排前後混亂，無法表達終止點。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "’til the stars don’t shine（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "持續的行動",
+              "fixed": false
+            },
+            {
+              "text": "until/’til",
+              "fixed": true
+            },
+            {
+              "text": "終止的時間或事件",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：計時器響時才關烤箱，界線清楚。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "know + when + 完整子句",
+          "meaning": "在較大的句子中嵌入「何時／當……時」的內容；需按語境判斷。",
+          "usage": "談某事件發生時的情況；歌詞的 when 引出時間情境，並由後一句接續。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "I know that when the bell rings, the show starts, but the show never starts when it rings.",
+            "I know that when the show ends, we can clean the room.",
+            "I know when the train leaves: it leaves at four, but I have no idea when it leaves.",
+            "I know when the shop opens, but it has never opened and has no opening time."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：聲稱鐘聲響時表演開始，卻說表演從不在當時開始。",
+            "正確：when 引出表演結束的時間情境，並交代後續行動。",
+            "錯誤：明確知道四點卻又說完全不知道。",
+            "錯誤：沒有任何營業時間資訊，卻聲稱知道時間。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "I know when I die（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "know",
+              "fixed": true
+            },
+            {
+              "text": "when",
+              "fixed": true
+            },
+            {
+              "text": "事件子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：when 引出表演結束的時間情境，並交代後續行動。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "be on someone’s mind",
+          "meaning": "某人或某事一直被想著。",
+          "usage": "談擔憂、思念或一直放在心上的事時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "The match is on my mind, but I have no idea a match exists.",
+            "The maths test is on my mind, so I have forgotten there is a test and never think about it.",
+            "The song is on my mind, so I do not remember or think of it at all.",
+            "My grandma is on my mind today; I keep thinking about her visit."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：完全不知道有比賽，不能說它一直在心上。",
+            "錯誤：一直想著與完全沒想到考試矛盾。",
+            "錯誤：on my mind 表示常想起，不是全然忘記。",
+            "正確：一直想到祖母要來探訪。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "You’ll be on my mind（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "人或事",
+              "fixed": false
+            },
+            {
+              "text": "be on",
+              "fixed": true
+            },
+            {
+              "text": "所有格",
+              "fixed": false
+            },
+            {
+              "text": "mind",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：一直想到祖母要來探訪。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "名詞 + that + 主詞 + 動詞（受詞關係子句）",
+          "meaning": "指出被某人做過某事的特定物品。",
+          "usage": "辨認物品並補充其來源或過去經歷時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "The hat that you made were lost last winter.",
+            "The hat that you made look great on the robot.",
+            "The hat that you made looks great on the robot.",
+            "The hat that you made it looks great on the robot."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：單數 hat 應搭配 was。",
+            "錯誤：主詞 hat 為單數，應用 looks。",
+            "正確：that 引出的子句說明是哪頂帽子。",
+            "錯誤：已用 that 代表帽子，不要再加 it。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "pictures that you left behind（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞（後面省掉重複受詞）",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：that 引出的子句說明是哪頂帽子。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "some ... some ...（平行分組）",
+          "meaning": "把同一類事物分成不同組別。",
+          "usage": "比較一批物品、人物或經驗中的不同部分。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "Some cups are red and some are blue, but every cup is red and none is blue.",
+            "Some guests chose tea, and some chose juice.",
+            "Some people came early, and some came early, so the two groups are opposite.",
+            "Some of the birds can fly, but none of these birds exist."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：先分成紅藍兩組，又說全部是紅色。",
+            "正確：用 some...some... 分別說明兩組客人。",
+            "錯誤：兩組都早到，不能用來說明相反情況。",
+            "錯誤：不存在的鳥無法支持實際分組。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "Some that made us laugh, some that made us cry（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "some",
+              "fixed": true
+            },
+            {
+              "text": "第一組",
+              "fixed": false
+            },
+            {
+              "text": "some",
+              "fixed": true
+            },
+            {
+              "text": "第二組",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：用 some...some... 分別說明兩組客人。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "make + 人 + 原形動詞（使役）",
+          "meaning": "使某人產生某種行動或反應。",
+          "usage": "說笑話、消息或事件帶來的直接反應時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "The joke made us to laugh so loudly.",
+            "The clown made everyone laugh, but there were no people and nobody laughed.",
+            "The joke made us laughing loudly.",
+            "The clown made everyone laugh by wearing two different shoes."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：使役 make 後接原形 laugh，不加 to。",
+            "錯誤：說大家笑了，卻又說沒人笑。",
+            "錯誤：這個使役結構不是 made us laughing。",
+            "正確：小丑滑稽的穿著讓大家笑。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "made us laugh（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "事情／人",
+              "fixed": false
+            },
+            {
+              "text": "make/made",
+              "fixed": true
+            },
+            {
+              "text": "對象",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：小丑滑稽的穿著讓大家笑。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "make + 人 + have to + 原形動詞",
+          "meaning": "某件事迫使某人必須做某事。",
+          "usage": "指出外部情況造成責任或必要行動時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "The broken lift made us have to take the stairs, but we used the lift as usual.",
+            "The missing key made me have to open the door with the key I had in my hand.",
+            "The heavy rain made us have to stay inside, but we stayed outside the whole time.",
+            "The broken bridge made us have to use another road."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：電梯壞了卻照常乘搭，結果矛盾。",
+            "錯誤：說鑰匙不見了，卻又拿著同一條鑰匙。",
+            "錯誤：說必須留室內卻一直留在室外。",
+            "正確：橋壞了使大家必須改道。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "made you have to say goodbye（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "原因",
+              "fixed": false
+            },
+            {
+              "text": "made",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "have to",
+              "fixed": true
+            },
+            {
+              "text": "必須做的事",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：橋壞了使大家必須改道。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "What I’d give to + 原形動詞（強烈願望）",
+          "meaning": "強調非常希望能做某事；是一種感嘆式表達。",
+          "usage": "想表達「如果能……就好了」的強烈願望時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "What I’d give to see the northern lights! I hate the idea and never want to see them.",
+            "What I’d give to swim in the sea! I will never go near any water and I have no interest in swimming.",
+            "What I’d give to see the northern lights! I have wanted to see them for years.",
+            "What I’d give to meet the artist! I do not know who the artist is and do not want to meet anyone."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：強烈渴望與完全不想看相反。",
+            "錯誤：從不想游泳，與句型含義衝突。",
+            "正確：多年渴望看到極光，符合強烈願望。",
+            "錯誤：完全沒有見面意願，不能表達渴求。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "What I’d give to run my fingers through your hair（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "What I would give to",
+              "fixed": true
+            },
+            {
+              "text": "渴望做到的事",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：多年渴望看到極光，符合強烈願望。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "to + 原形動詞（目的）",
+          "meaning": "表示做前一件事的目的；歌曲中以不定詞片語延續前文。",
+          "usage": "說明「為了甚麼」而採取行動時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "We went to the lake to watch the birds.",
+            "I carried a map to make the river become a mountain.",
+            "I bought a paintbrush to cook the rice on the stove.",
+            "I wore gloves to hear the music more clearly."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：到湖邊是為了看鳥，目的清楚。",
+            "錯誤：地圖不能令河流變成山。",
+            "錯誤：畫筆不是煮飯的合適工具。",
+            "錯誤：戴手套不會令聽力更清楚。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "To touch your lips, to hold you near（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "行動",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "行動目的",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：到湖邊是為了看鳥，目的清楚。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "when + 子句，主句（時間）",
+          "meaning": "表示一件事發生時，另一件事也發生。",
+          "usage": "說明行動應在甚麼情況或時間進行。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "When the oven rings, I know the cake is ready, but the oven has no timer and no bell.",
+            "When the bell rings, the pupils leave the room.",
+            "When the lights go out, I turn on my torch, but the lights are still on all day.",
+            "When I open the book, I close it and never open it at all."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：沒有響鈴裝置，無法支持這個時間訊號。",
+            "正確：鐘聲響起時，學生離開房間。",
+            "錯誤：說燈熄卻又說一直亮著。",
+            "錯誤：聲稱打開卻說根本沒打開。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "When you say your prayers, try to understand（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "when",
+              "fixed": true
+            },
+            {
+              "text": "事件／時間",
+              "fixed": false
+            },
+            {
+              "text": "同時或隨後的行動",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：鐘聲響起時，學生離開房間。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "try to + 原形動詞",
+          "meaning": "努力嘗試做某事，不保證成功。",
+          "usage": "表示要付出努力、可能需要多次嘗試時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "She tried to repair the toy, so she threw it away without touching it.",
+            "I will try to build the kite, even if it takes all afternoon.",
+            "I try to learn the dance, so I refuse to watch or practise any step.",
+            "They tried to reach the top, but they never even started walking or planning."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：沒有動手便丟棄，與嘗試修理不符。",
+            "正確：願意花整個下午嘗試做風箏。",
+            "錯誤：完全拒絕學習行動，不能支持努力嘗試。",
+            "錯誤：連嘗試也沒有開始。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "try to understand（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "try to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "想努力完成的事",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：願意花整個下午嘗試做風箏。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "have/has + 過去分詞（現在完成式：經驗／結果）",
+          "meaning": "過去做過的事與現在的認知相關。",
+          "usage": "承認經驗、結果或以往曾經做過某事時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "I have made mistakes before, so I check my work carefully now.",
+            "I have made mistakes before, but this is the first time I have ever done anything at all.",
+            "We have eaten here before, but this restaurant has never opened.",
+            "She has visited the island, but she will be born next year."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：以前犯過錯，現在會更仔細檢查。",
+            "錯誤：先前犯錯與第一次做任何事矛盾。",
+            "錯誤：店從未開業，卻說以前來吃過。",
+            "錯誤：尚未出生就已造訪，時間不合理。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "I’ve made mistakes（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "have/has",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            },
+            {
+              "text": "至今的經驗／結果",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：以前犯過錯，現在會更仔細檢查。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "have/has been + V-ing（持續到現在）",
+          "meaning": "某種動作或需求從過去持續到現在。",
+          "usage": "描述一直等候、工作、需要或尋找的情況時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "He has been working for two hours, although he has not started and is still asleep.",
+            "She has been waiting for the garden to open, and she is still at the gate.",
+            "I have been practising since today, but today has not started yet.",
+            "They have been looking for the dog, but they have never searched or asked anyone."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：未開始、仍睡覺，與工作兩小時矛盾。",
+            "正確：等待從過去延續到仍在門口的現在。",
+            "錯誤：今天尚未開始，不能已經從今天持續練習。",
+            "錯誤：從未尋找，與一直在找矛盾。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "you’ve been needing to hear（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "have/has been",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": true
+            },
+            {
+              "text": "持續的需求或活動",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：等待從過去延續到仍在門口的現在。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "wish + 主詞 + 過去式（不符合現況的願望）",
+          "meaning": "希望現在的現實有所不同；歌詞用 was，正式語體亦常用 were。",
+          "usage": "表達不可能立刻成真的願望或現實相反的想法時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "I wish I could fly like a bird; I cannot fly.",
+            "I wish I knew her name, and I already know it well.",
+            "I wish I was taller, because I am the tallest person in the world and love my height.",
+            "I wish I were home, and I am already sitting at home happily."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：不能飛卻希望可以飛，符合反事實願望。",
+            "錯誤：已知道名字，與希望知道衝突。",
+            "錯誤：已滿意自己的身高，並無需要改變的願望。",
+            "錯誤：已經在家，與希望身在家中的反事實語境衝突。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "I’ll wish I was him（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "wish",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "過去式",
+              "fixed": false
+            },
+            {
+              "text": "與現實不同的情況",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：不能飛卻希望可以飛，符合反事實願望。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "because / ’cause + 原因子句",
+          "meaning": "指出前句想法或行動背後的原因。",
+          "usage": "回答為甚麼，或補充決定的理由。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "We moved the picnic inside because the rain was getting heavy.",
+            "The guard put on a coat because the air was very hot and he wanted to be cooler.",
+            "I closed the window because I wanted more cold wind to come in.",
+            "She drank water because she wanted to be more thirsty."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：雨勢增強解釋了為何把野餐移到室內。",
+            "錯誤：天熱想降溫一般不會因此穿大衣。",
+            "錯誤：關窗通常會減少冷風吹入。",
+            "錯誤：喝水不能合理支持更口渴的目的。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "’cause those words are mine（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "判斷或行動",
+              "fixed": false
+            },
+            {
+              "text": "because/’cause",
+              "fixed": true
+            },
+            {
+              "text": "解釋原因",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：雨勢增強解釋了為何把野餐移到室內。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "if + 過去式，could + 原形動詞（假設能力）",
+          "meaning": "假設某條件出現，自己便有能力做某事。",
+          "usage": "談未必真實的請求或情況，表達能否做到時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "If I had a bicycle, I could fly to the moon without air.",
+            "If I had a ladder, I could reach the high shelf.",
+            "If I had a ladder, I could reach the high shelf, but the shelf is under my shoe and the ladder cannot help.",
+            "If I knew the code, I could open the lock, but this lock has no code and is already open."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：單車不能讓人飛到月球。",
+            "正確：假如有梯子，就可能拿到高架上的物品。",
+            "錯誤：架子在鞋下，梯子與目的沒有關聯。",
+            "錯誤：鎖根本不用密碼且已打開，條件沒有作用。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "If you told me to cry for you（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "if",
+              "fixed": true
+            },
+            {
+              "text": "過去式",
+              "fixed": false
+            },
+            {
+              "text": "假設條件",
+              "fixed": false
+            },
+            {
+              "text": "could",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "假設能力／可能性",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：假如有梯子，就可能拿到高架上的物品。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 29,
+          "word": "if + 過去式，would + 原形動詞（假設意願）",
+          "meaning": "假設某種情況發生，說明自己會如何回應。",
+          "usage": "談未確定的情況與預想選擇時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "If I had a free afternoon, I would go climbing, but I hate climbing and never want to go.",
+            "If I felt tired, I would go running all night to get more sleep at once.",
+            "If it rained, I would put my paper outside so it would stay dry.",
+            "If I found a lost wallet, I would take it to the office."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：強烈不想爬山與假設選擇衝突。",
+            "錯誤：跑整夜不是立即睡更多的合理方法。",
+            "錯誤：下雨把紙放室外不會使其保持乾燥。",
+            "正確：假設撿到錢包，會把它交到辦公室。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 29,
+          "cue": "If you told me to die for you（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "if",
+              "fixed": true
+            },
+            {
+              "text": "過去式",
+              "fixed": false
+            },
+            {
+              "text": "假設條件",
+              "fixed": false
+            },
+            {
+              "text": "would",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "假設反應",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：假設撿到錢包，會把它交到辦公室。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 30,
+          "word": "could / would 的省略回答",
+          "meaning": "用助動詞代替前面已明確提過的動作。",
+          "usage": "簡短回答或在相連句子避免重複時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "Could you help me? Yes, I could yesterday, but I cannot help now.",
+            "Would you join us? I would, but I have already said I will never join under any condition.",
+            "If you asked me to sing, I would, but by would I mean I will not sing.",
+            "If I had more time, I could. “Could what?” “Finish the model we just discussed.”"
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：問現在能否幫忙，卻只回答昨天能。",
+            "錯誤：願意加入與聲稱任何情況都不加入矛盾。",
+            "錯誤：would 在此意為假設下願意唱，不是拒絕。",
+            "正確：could 代替前面已談及的完成模型動作。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 30,
+          "cue": "I could（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "前句已提出的動作",
+              "fixed": false
+            },
+            {
+              "text": "I could / I would（省去重複動詞）",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：could 代替前面已談及的完成模型動作。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 31,
+          "word": "there is no + 名詞 + (that) + 主詞 + won’t + 動詞",
+          "meaning": "雙重否定語意形成「任何代價都願付」的強烈意思。",
+          "usage": "表示沒有例外、沒有哪個選項會被拒絕時；須小心否定範圍。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "There is no road I won’t take, but I will only travel on one road in every situation.",
+            "There is no song I won’t learn for the show; I am ready to practise any of them.",
+            "There is no book I won’t read, but I have a long list of books I will never open.",
+            "There is no job I won’t try, so I refuse to try every single job."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：任何路都願走與只走一條路衝突。",
+            "正確：願意練任何歌曲，表達沒有例外。",
+            "錯誤：甚麼書都願讀，與有大量絕不讀的書矛盾。",
+            "錯誤：沒有一份工作不願試，與全部拒試矛盾。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 31,
+          "cue": "There’s no price I won’t pay（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "there is no",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "省略 that 的限定子句（I won’t...）",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：願意練任何歌曲，表達沒有例外。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 32,
+          "word": "there ain’t no + 名詞（歌詞非標準否定）",
+          "meaning": "在某些口語或歌詞中表示完全沒有；不是正式英文的標準否定寫法。",
+          "usage": "欣賞歌詞口語語氣時辨認；正式寫作可改用 there is no。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "The singer says “There ain’t no food,” meaning there is no food in the kitchen.",
+            "The singer says “There ain’t no food,” meaning food will arrive next year but is here now.",
+            "The singer says “There ain’t no food,” meaning there are two chefs dancing.",
+            "The singer says “There ain’t no food,” meaning the kitchen is full of food."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：口語雙重否定在此表示完全沒有食物。",
+            "錯誤：把「現在沒有」扭曲成「現在有」。",
+            "錯誤：廚師跳舞不是這句話要表達的內容。",
+            "錯誤：解讀成食物很多，意思相反。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 32,
+          "cue": "there ain’t no luck（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "there ain’t no",
+              "fixed": true
+            },
+            {
+              "text": "名詞（非標準／口語雙重否定）",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：口語雙重否定在此表示完全沒有食物。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 33,
+          "word": "if + 現在式，can + 原形動詞",
+          "meaning": "若條件成立，就有能力或機會做某件事。",
+          "usage": "談現實中有可能發生的選擇和結果時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "If you give me the key, I can open the gate, but the gate has no lock and cannot open.",
+            "If the train comes, we can get on it, but there is no train or track in this town.",
+            "If the rain stops, we can go outside, but outside does not exist.",
+            "If we get enough wood, we can build a small table."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：沒有鎖且不能打開的閘門，鑰匙不構成有用條件。",
+            "錯誤：地方沒有火車及鐵路，條件脫離情境。",
+            "錯誤：沒有「外面」這個地方，結果無法成立。",
+            "正確：木材充足是做小桌子的可行條件。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 33,
+          "cue": "if you give me just one more try（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "if",
+              "fixed": true
+            },
+            {
+              "text": "現在式",
+              "fixed": false
+            },
+            {
+              "text": "可能的條件",
+              "fixed": false
+            },
+            {
+              "text": "can",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "可行的結果",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：木材充足是做小桌子的可行條件。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 34,
+          "word": "a place + where + 主詞 + 動詞",
+          "meaning": "用 where 子句補充說明地點的特色。",
+          "usage": "辨認某個地方，補充那裡發生甚麼時。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "This is a place where people can swim, but it is a dry room with no water and swimming is impossible.",
+            "This is a place where birds nest, but no birds have ever lived here and there are no nests.",
+            "We found a place where children can paint on the walls; it is an art room made for that.",
+            "We found a place where the sun shines, but the place is always under the ground with no sunlight at all."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：沒有水又禁止或無法游泳，與地點特色矛盾。",
+            "錯誤：沒有鳥和巢，無法支持築巢的描述。",
+            "正確：where 子句描述特別為畫牆而設的房間。",
+            "錯誤：完全沒有陽光，與陽光照射的描述相反。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 34,
+          "cue": "a place where the sun still shines（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "地點名詞",
+              "fixed": false
+            },
+            {
+              "text": "where",
+              "fixed": true
+            },
+            {
+              "text": "描述那個地點的子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：where 子句描述特別為畫牆而設的房間。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 35,
+          "word": "don’t you + 原形動詞（加強祈使語氣）",
+          "meaning": "帶強烈情緒的否定命令；歌詞另有非標準 no wrong 雙重否定。",
+          "usage": "理解帶感情的呼籲；課堂正式書寫宜用 Don’t + 動詞 + 受詞。",
+          "prompt": "哪一句正確運用了以上句型及其功能？",
+          "options": [
+            "Don’t you run into the road! Go and run there now.",
+            "Don’t you touch that hot pan! The pan is cold and safe, so I am telling you to touch it.",
+            "Don’t you open that box! Please open it straight away.",
+            "Don’t you step on the wet paint! It has not dried yet."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：禁止跑進馬路與要求跑進去相反。",
+            "錯誤：警告別碰，卻又立即叫對方碰。",
+            "錯誤：要求不要開盒，隨即要求開盒。",
+            "正確：油漆未乾，語氣強烈地提醒不要踩。"
+          ],
+          "sourceFile": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 35,
+          "cue": "don’t you do me no wrong（來源：歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "don’t you",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "被要求不要做的事",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：油漆未乾，語氣強烈地提醒不要踩。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Always_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "3ad0e666bdab687285bcab0abad14d61e199546f7eeac9b43ca550b7856cc766"
+    },
+    {
+      "section": "structure",
+      "filename": "Always_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "202f538a4cf9852ddc10ade92540e9c047535d6c1cfc332e67ed0ac286927e74"
+    }
+  ]
 }

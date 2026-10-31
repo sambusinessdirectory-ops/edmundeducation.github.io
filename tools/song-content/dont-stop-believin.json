@@ -2850,5 +2850,1288 @@
     "method": "faster-whisper-word-alignment-with-targeted-section-review",
     "audioSha256": "6c8f053da54c9d152f047ce5d2d66158f98dc1be783145d6ebf38bb20653e420",
     "duration": 250.21825
-  }
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Smokey / smoky — B1–B2（估計）",
+          "meaning": "煙霧瀰漫的；有煙味的。",
+          "usage": "形容房間、空氣或味道受到煙霧影響時使用。歌曲寫作 smokey，一般標準拼字為 smoky；正式寫作建議使用 smoky。",
+          "prompt": "哪一句自然地使用了「smoky」？",
+          "options": [
+            "Her new phone felt smoky after she changed the password.",
+            "The museum looked smoky because its tickets were expensive.",
+            "The class sounded smoky when the teacher gave us homework.",
+            "The kitchen became smoky after Dad burned the toast."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。更改密碼不會讓手機變得有煙味；若手機真的冒煙，才有相關語境。",
+            "錯誤。門票昂貴不會讓博物館充滿煙霧；expensive 描述的是價格。",
+            "錯誤。作業不會讓課堂「聽起來有煙」；可以說 The class sounded boring。",
+            "正確。吐司燒焦後，廚房變得煙霧瀰漫，符合 smoky 的自然用法。"
+          ],
+          "sourceFile": "Dont_Stop_Believin_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確。吐司燒焦後，廚房變得煙霧瀰漫，符合 smoky 的自然用法。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "Perfume — B1–B2（估計）",
+          "meaning": "香水；香水的氣味。",
+          "usage": "談身上噴的香水、香味，或形容某種氣味時使用。注意 perfume 不等於所有好聞的氣味。",
+          "prompt": "哪一句自然地使用了「perfume」？",
+          "options": [
+            "She wore a little perfume before going to the party.",
+            "Our driver bought perfume to repair the broken car engine.",
+            "The baker added perfume to the bread to make it sweeter.",
+            "The coach used perfume to keep the football score correct."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。Wear perfume 是自然搭配，表示身上擦了或噴了香水。",
+            "錯誤。修理汽車引擎需要工具或零件，不是香水。",
+            "錯誤。香水不是烘焙食材；麵包要變甜，可以加糖。",
+            "錯誤。香水不能協助記錄球賽比分；這裡應用記分表。"
+          ],
+          "sourceFile": "Dont_Stop_Believin_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確。Wear perfume 是自然搭配，表示身上擦了或噴了香水。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "Boulevard — B2（估計）",
+          "meaning": "林蔭大道；通常較寬闊的城市大道。",
+          "usage": "描述城市裡寬闊、常有樹木或商店的道路時使用。不是所有小巷都能稱為 boulevard。",
+          "prompt": "哪一句自然地使用了「boulevard」？",
+          "options": [
+            "She kept the boulevard in a tiny box under her bed.",
+            "We walked along the wide boulevard past the shops.",
+            "The chef poured the boulevard into the soup for dinner.",
+            "His exam got a boulevard because he studied every night."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。大道不是能收藏在床下盒子裡的物品。",
+            "正確。沿著寬闊、有商店的大道散步，符合 boulevard 的意思。",
+            "錯誤。大道不是可以倒進湯裡的液體；廚師也許需要的是 broth（高湯）。",
+            "錯誤。考試成績不能「得到一條大道」；可以說 He got a good grade。"
+          ],
+          "sourceFile": "Dont_Stop_Believin_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確。沿著寬闊、有商店的大道散步，符合 boulevard 的意思。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "Shadow — B1（估計；比喻義可更進階）",
+          "meaning": "影子；也可比喻某事留下的陰影或影響。",
+          "usage": "描述光線下的影子，或表示某段過去仍影響現在。此題練習比喻用法，不同於歌中夜色裡的具體影子。",
+          "prompt": "哪一句自然地使用了「shadow」的比喻義？",
+          "options": [
+            "The musician washed his shadow with soap after the concert.",
+            "The scandal cast a shadow over the company's good name.",
+            "My sandwich cast a shadow because it was very tasty.",
+            "The shadow bought two train tickets before breakfast."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。影子不能像手或衣服一樣用肥皂清洗。",
+            "正確。Cast a shadow over 表示不好的事件讓聲譽蒙上陰影，是自然的比喻。",
+            "錯誤。三明治可以真的投下影子，但美味不是投影的原因，也沒有形成目標比喻。",
+            "錯誤。影子不會自己買車票；這裡把影子當成人物。"
+          ],
+          "sourceFile": "Dont_Stop_Believin_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確。Cast a shadow over 表示不好的事件讓聲譽蒙上陰影，是自然的比喻。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "Emotion — B1–B2（估計）",
+          "meaning": "情緒、情感；如喜悅、憤怒、悲傷或恐懼。",
+          "usage": "談某個人的感受，或電影、音樂、事件引起的強烈情感時使用。它不等於單純的動作、聲音或數字。",
+          "prompt": "哪一句自然地使用了「emotion」？",
+          "options": [
+            "The mechanic checked the emotion inside the car's front tyre.",
+            "Our printer ran out of emotion, so we bought new ink.",
+            "Her voice was full of emotion during the farewell speech.",
+            "I used three emotions to measure the length of the table."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。輪胎裡面要檢查的是氣壓，emotion 不是機械零件。",
+            "錯誤。印表機缺的是墨水，不會缺少情緒。這裡的笑點是把機器當成會感傷的人。",
+            "正確。Full of emotion 形容告別演說的聲音充滿感情，很自然。",
+            "錯誤。Emotion 不是長度單位；量桌子可以用 centimetres。"
+          ],
+          "sourceFile": "Dont_Stop_Believin_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確。Full of emotion 形容告別演說的聲音充滿感情，很自然。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "Get one's fill — C1（估計）",
+          "meaning": "得到足夠的量；盡情享受某物，直到滿足。",
+          "usage": "可以用 get one's fill of + 名詞 表示吃夠、看夠或享受夠某樣事物。歌曲中的 get my fill 帶有努力尋求滿足的意味；具體想得到什麼並未明說。",
+          "prompt": "哪一句自然地使用了「get one's fill」？",
+          "options": [
+            "We got our fill of fresh mangoes during the summer trip.",
+            "She got her fill from the clock because it was nine o'clock.",
+            "I got my fill into the mailbox before the postman arrived.",
+            "The bus got its fill of tickets and learned to sing jazz."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。旅途中吃了很多芒果，吃得心滿意足，可以說 got our fill of mangoes。",
+            "錯誤。九點鐘不是某人已經享受夠的事物；這裡沒有合理的滿足感語境。",
+            "錯誤。這個片語不是把信件塞進郵筒；可以說 I put my letter in the mailbox。",
+            "錯誤。公車不會因為車票太多就學會唱爵士樂；句子把片語誤用成荒謬的擬人化描述。"
+          ],
+          "sourceFile": "Dont_Stop_Believin_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確。旅途中吃了很多芒果，吃得心滿意足，可以說 got our fill of mangoes。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "Sing the blues — B2–C1（估計）",
+          "meaning": "唱藍調；在口語比喻中也可指訴苦、表達失落心情。",
+          "usage": "談藍調音樂時可用字面義；在一般談話中，也可能指一個人反覆說自己的不順心。不要把所有悲傷的歌都稱為 the blues。",
+          "prompt": "哪一句自然地使用了「sing the blues」的比喻義？",
+          "options": [
+            "The singer sang the blues because every chair was painted yellow.",
+            "We sang the blues to make our cold soup much warmer.",
+            "After losing the match, Tom was singing the blues all evening.",
+            "He sang the blues to turn his bicycle into a fast train."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。椅子漆成黃色並不能自然說明為何要訴苦；若指真的唱藍調，應提供音樂情境。",
+            "錯誤。唱藍調不會把冷湯加熱；這裡需要爐子，而不是一段副歌。",
+            "正確。輸球後整晚都在訴苦、感到沮喪，符合 singing the blues 的比喻義。",
+            "錯誤。唱歌不能把腳踏車變成火車；這裡沒有音樂或訴苦的合理關聯。"
+          ],
+          "sourceFile": "Dont_Stop_Believin_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確。輸球後整晚都在訴苦、感到沮喪，符合 singing the blues 的比喻義。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "just + a/an + 形容詞 + 名詞",
+          "meaning": "「只是個……」，淡化身分或以簡短片語介紹對象。",
+          "usage": "簡介人物、故事開場；歌詞本身是名詞片語，並非完整句子。",
+          "prompt": "主持人介紹一位第一次登台的年輕畫家，哪句最符合謙虛介紹？",
+          "options": [
+            "She is the only artist in the whole country.",
+            "She bought an artist at the market.",
+            "She stopped painting because she hated art.",
+            "She is just a young artist, but her paintings are lovely."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：強調全國唯一，沒有「只是個」的語氣。",
+            "錯誤：把 artist 當作可購買的物件。",
+            "錯誤：說的是放棄畫畫，沒有介紹身分。",
+            "正確：「just a young artist」以謙虛口吻介紹身分。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Just a small-town girl（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "just",
+              "fixed": true
+            },
+            {
+              "text": "a/an",
+              "fixed": true
+            },
+            {
+              "text": "[形容詞]",
+              "fixed": false
+            },
+            {
+              "text": "[單數名詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：「just a young artist」以謙虛口吻介紹身分。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "現在分詞片語描寫人物",
+          "meaning": "用 -ing 片語補充人物正在過的生活或處境。",
+          "usage": "描寫故事人物；原詞 Livin’ 是 living 的歌唱省寫，並接在前一行人物之後。",
+          "prompt": "小說中有位老人獨自住在燈塔裡，哪句能自然描述他？",
+          "options": [
+            "An old man living alone in a lighthouse watched the sea.",
+            "An old man live in the lighthouse every nights.",
+            "An old man living to be a lighthouse watched the sea.",
+            "An old man lived alone in a lighthouse watching yesterday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：living alone 補充描述 an old man。",
+            "錯誤：動詞和複數時間語法有問題。",
+            "錯誤：living to be a lighthouse 變成「想變燈塔」，意思不對。",
+            "錯誤：watching yesterday 搭配不自然，不能這樣描述時間。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "Livin' in a lonely world（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "[人物]",
+              "fixed": false
+            },
+            {
+              "text": "[V-ing]",
+              "fixed": false
+            },
+            {
+              "text": "in",
+              "fixed": true
+            },
+            {
+              "text": "[地方／環境]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：living alone 補充描述 an old man。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "take + 交通工具",
+          "meaning": "搭乘某種交通工具。",
+          "usage": "說明出行方式；take 的過去式是 took。",
+          "prompt": "一群研究員趕去海邊觀察海龜，哪句正確說明他們如何前往？",
+          "options": [
+            "They took the beach to a train.",
+            "They took the rain to arrive by train.",
+            "They took the early train to the coast.",
+            "They took a turtle to become a boat."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：把 beach 當作交通工具。",
+            "錯誤：rain 是雨，並非交通工具。",
+            "正確：took the early train 表示搭乘早班火車。",
+            "錯誤：語意變成把海龜變成船。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "took the midnight train（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "take/took",
+              "fixed": true
+            },
+            {
+              "text": "[交通工具]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：took the early train 表示搭乘早班火車。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "名詞 + -ing 片語後置修飾",
+          "meaning": "用現在分詞片語描述前面的名詞正在做甚麼。",
+          "usage": "補充火車、船、人等的狀況；goin’ 即 going。",
+          "prompt": "在港口看見一艘船正朝小島前進，哪句最能表示「那艘正往小島走的船」？",
+          "options": [
+            "The boat go to the island yesterday is blue.",
+            "The boat going to the island is blue.",
+            "The boat going yesterday to islands is blue.",
+            "The boat going to island was blue tomorrow."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：go 形式與 yesterday 的搭配不對。",
+            "正確：going to the island 後置修飾 the boat。",
+            "錯誤：going yesterday 的時間配置不自然。",
+            "錯誤：缺少 the，且 was 與 tomorrow 不一致。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "train goin' anywhere（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "[名詞]",
+              "fixed": false
+            },
+            {
+              "text": "[V-ing]",
+              "fixed": false
+            },
+            {
+              "text": "[方向／地點]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：going to the island 後置修飾 the boat。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "be born and raised in",
+          "meaning": "在某地出生並長大。",
+          "usage": "介紹家鄉和成長背景；歌詞省略了 be 動詞，形成傳記式片語。",
+          "prompt": "一名太空人介紹家鄉，哪句自然？",
+          "options": [
+            "I born and raised my science book in a town.",
+            "I was born and raised in a small town near the sea.",
+            "I was born and raised to the moon at nine.",
+            "My helmet was born and raised with my friends."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：born and raised 不能當作「養大書本」的動作。",
+            "正確：was born and raised in 表示在某地出生、長大。",
+            "錯誤：to the moon 與出生地的 in 用法不同。",
+            "錯誤：頭盔不會像人一樣出生和成長。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "Born and raised in South Detroit（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "born and raised",
+              "fixed": true
+            },
+            {
+              "text": "in",
+              "fixed": true
+            },
+            {
+              "text": "[地點]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：was born and raised in 表示在某地出生、長大。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "a/an + 職業 + in + 場所",
+          "meaning": "描述某個在特定地方的人。",
+          "usage": "作為照片標題或故事名詞片語；原歌詞不是完整的主謂句。",
+          "prompt": "照片的主角是在溫室裡工作的園丁，哪個照片標題最自然？",
+          "options": [
+            "A gardener in a glass house.",
+            "A gardener to a glass house yesterday.",
+            "A gardener is in with the glass.",
+            "A garden in a gardener."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：以職業加 in + 場所定位人物。",
+            "錯誤：to 不表示人在場所內。",
+            "錯誤：in with the glass 搭配不自然。",
+            "錯誤：把園丁和花園的角色顛倒。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "A singer in a smokey room（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "a/an",
+              "fixed": true
+            },
+            {
+              "text": "[職業]",
+              "fixed": false
+            },
+            {
+              "text": "in",
+              "fixed": true
+            },
+            {
+              "text": "[場所]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：以職業加 in + 場所定位人物。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "the smell of + 名詞",
+          "meaning": "……的氣味。",
+          "usage": "形容食物、花草或房間中聞到的味道。",
+          "prompt": "麵包店剛開門，空氣裡有新鮮麵包香，哪句最貼切？",
+          "options": [
+            "The smell with bread was opening the door.",
+            "The smell of fresh bread filled the shop.",
+            "The smell for fresh bread filled the shop.",
+            "The smelling of a shop baked the bread."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：with bread 不能自然地標出氣味來源。",
+            "正確：the smell of fresh bread 指新鮮麵包香。",
+            "錯誤：表示氣味來源通常用 of。",
+            "錯誤：把 smell 當成烤麵包的動作者。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "The smell of wine and cheap perfume（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "the smell of",
+              "fixed": true
+            },
+            {
+              "text": "[氣味來源]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：the smell of fresh bread 指新鮮麵包香。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "can + 動詞原形",
+          "meaning": "能夠做某事。",
+          "usage": "表達能力或可行性；can 後的動詞不加 -s、不加 to。",
+          "prompt": "導覽員說訪客可以用望遠鏡看月亮，哪句自然？",
+          "options": [
+            "Visitors can to watch the moon through this telescope.",
+            "Visitors can watching the moon through this telescope.",
+            "Visitors can watch the moon through this telescope.",
+            "Visitors can watches the moon through this telescope."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：can 後不接 to watch。",
+            "錯誤：can 後不直接接 watching。",
+            "正確：can watch 使用原形動詞。",
+            "錯誤：can 後不能用 watches。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "they can share the night（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "can",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            },
+            {
+              "text": "[受詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：can watch 使用原形動詞。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "go on and on",
+          "meaning": "某事不停延續，彷彿沒有結束。",
+          "usage": "形容長篇演講、雨勢或持續很久的活動。",
+          "prompt": "一位魔術師說故事說了兩小時還沒停，哪句最合適？",
+          "options": [
+            "His story went on and on the blue hat.",
+            "His story went on and on, and the audience got tired.",
+            "He went on and on to the station by a clock.",
+            "His story was on and on a sandwich."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：on and on 後不能這樣直接接帽子。",
+            "正確：went on and on 表示故事持續沒完。",
+            "錯誤：這裡混淆持續與前往車站。",
+            "錯誤：不是描述持續時間的正確句型。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "It goes on and on（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "[事情]",
+              "fixed": false
+            },
+            {
+              "text": "go/goes/went",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：went on and on 表示故事持續沒完。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "名詞 + waiting（省略式描寫）",
+          "meaning": "等待中的……人。",
+          "usage": "可作照片標題、敘事片語；完整句需補動詞，如 Strangers are waiting。",
+          "prompt": "攝影師要為「正在車站等候的旅客」照片命名，哪個標題最好？",
+          "options": [
+            "Travelers waiting the station to rain.",
+            "Travelers are waiting of the station.",
+            "Travelers wait yesterday at the station.",
+            "Travelers waiting at the station."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：waiting the station 缺少適當介系詞。",
+            "錯誤：表示地點應用 at，不是 of。",
+            "錯誤：現在式 wait 與 yesterday 不一致。",
+            "正確：waiting 後置描述旅客，適合作照片標題。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "Strangers waiting（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "[名詞]",
+              "fixed": false
+            },
+            {
+              "text": "waiting",
+              "fixed": true
+            },
+            {
+              "text": "[地點／原因]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：waiting 後置描述旅客，適合作照片標題。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "up and down + 道路／區域",
+          "meaning": "沿著某處來回、上上下下。",
+          "usage": "描述沿街尋找、走廊巡視或樓梯移動。",
+          "prompt": "小狗找不到主人，在走廊來回跑，哪句最貼切？",
+          "options": [
+            "The puppy ran up and down the hallway.",
+            "The puppy ran up and down at six years old.",
+            "The puppy ran up and blue the hallway.",
+            "The puppy ran into and down the hallway."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：up and down the hallway 表示走廊來回跑。",
+            "錯誤：這裡不是形容年齡。",
+            "錯誤：blue 不是方向副詞。",
+            "錯誤：into and down 不是表示來回移動的固定搭配。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "Up and down the boulevard（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "up and down",
+              "fixed": true
+            },
+            {
+              "text": "[道路／樓梯／區域]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：up and down the hallway 表示走廊來回跑。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "所有格 + 名詞 + -ing 描寫",
+          "meaning": "以所有格指出所屬對象，再用 -ing 描寫其動作。",
+          "usage": "常見於詩歌或畫面描述；原歌詞是省略動詞的片語。",
+          "prompt": "藝術家為一張海邊照片寫標題，畫面是孩子們的影子在沙上移動，哪句最好？",
+          "options": [
+            "Their shadows move the beach in yesterday.",
+            "Their shadow moving on sand are long.",
+            "Their shadows moving across the sand.",
+            "Their shadows moved to sandy tomorrow."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：move the beach 與 in yesterday 不自然。",
+            "錯誤：單數 shadow 和 are 不一致，介系詞也欠自然。",
+            "正確：their shadows 加 moving 形成畫面式片語。",
+            "錯誤：過去式與 tomorrow 搭配不當。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "Their shadows searching in the night（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "[所有格]",
+              "fixed": false
+            },
+            {
+              "text": "[名詞]",
+              "fixed": false
+            },
+            {
+              "text": "[V-ing]",
+              "fixed": false
+            },
+            {
+              "text": "[地點]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：their shadows 加 moving 形成畫面式片語。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "just to + 動詞原形（目的）",
+          "meaning": "做某事只是為了達成一個目的。",
+          "usage": "表達唯一或主要動機；原歌詞以前面的 livin’ 形成省略式描述。",
+          "prompt": "舞者走了很遠，只為參加朋友的免費表演，哪句最自然？",
+          "options": [
+            "She walked across town just to seeing her friend dance.",
+            "She walked across town just see to her friend dance.",
+            "She walked across town just to see her friend dance.",
+            "She walked across town just for see her friend dance."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：to 後需原形 see。",
+            "錯誤：just see to 的詞序不對。",
+            "正確：just to see 說明特地走遠路的目的。",
+            "錯誤：for see 不符合這裡的目的用法。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "Livin' just to find emotion（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "[動作]",
+              "fixed": false
+            },
+            {
+              "text": "just to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：just to see 說明特地走遠路的目的。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "somewhere + 地點片語",
+          "meaning": "在某個不確定的地方。",
+          "usage": "不知道確切位置，但知道大致範圍。",
+          "prompt": "博物館管理員找不到一隻小機器人，只知道它在展廳裡，哪句最自然？",
+          "options": [
+            "The robot is somewhere to the yesterday.",
+            "The robot is somewhere in the museum.",
+            "The robot is somewhere a museum to run.",
+            "The robot is some place of inside the museum."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：yesterday 表時間，不能當作此處地點。",
+            "正確：somewhere in the museum 表示博物館裡某處。",
+            "錯誤：somewhere 後的結構不完整。",
+            "錯誤：of inside 的搭配不自然。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "somewhere in the night（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "somewhere",
+              "fixed": true
+            },
+            {
+              "text": "[地點片語]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：somewhere in the museum 表示博物館裡某處。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "work hard to + 動詞原形",
+          "meaning": "努力工作或用功，以便達成某個目標。",
+          "usage": "談準備表演、比賽或完成作品的努力。",
+          "prompt": "一組志工想在星期日前修好社區花園，哪句最自然？",
+          "options": [
+            "They worked hard to finish the garden by Sunday.",
+            "They worked hardly to finishing the garden by Sunday.",
+            "They working hard to finished the garden by Sunday.",
+            "They worked hard for finish the garden by Sunday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：worked hard to finish 表示為完成工作而努力。",
+            "錯誤：hardly 表示「幾乎不」，且 to finishing 不合句型。",
+            "錯誤：動詞形式與 to 後的形式都不對。",
+            "錯誤：目的應接 to finish，非 for finish。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "Workin' hard to get my fill（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "work hard to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：worked hard to finish 表示為完成工作而努力。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "everybody + 單數動詞",
+          "meaning": "「每個人都……」；everybody 在文法上視為單數。",
+          "usage": "描述普遍的喜好、需要或行為。",
+          "prompt": "野外露營活動中，每個人都想看星星，哪句最自然？",
+          "options": [
+            "Everybody wants to see the stars tonight.",
+            "Everybody want to see the stars tonight.",
+            "Everybody wanting to see the stars tonight.",
+            "Everybody are want to see the stars tonight."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：everybody wants 使用第三人稱單數。",
+            "錯誤：everybody 後面動詞要用 wants。",
+            "錯誤：只有 wanting，缺主要謂語。",
+            "錯誤：are want 的動詞組合不合語法。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "Everybody wants a thrill（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "Everybody",
+              "fixed": true
+            },
+            {
+              "text": "[第三人稱單數動詞]",
+              "fixed": false
+            },
+            {
+              "text": "[受詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：everybody wants 使用第三人稱單數。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "pay anything to + 動詞原形",
+          "meaning": "為了達到目的，願意付出任何代價；常帶誇飾。",
+          "usage": "描述強烈願望；應考慮是否值得付出過高代價。",
+          "prompt": "收藏家非常想見到一幅名畫，哪句最能表達誇張的渴望？",
+          "options": [
+            "He paid anything to a painting museum early.",
+            "He would pay anythings for to see the painting.",
+            "He pays anything seeing the rare painting yesterday.",
+            "He would pay anything to see the rare painting."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：to 後缺少表示目的的動詞。",
+            "錯誤：anything 不加 -s，也不說 for to see。",
+            "錯誤：seeing 和 yesterday 的動詞結構不合。",
+            "正確：pay anything to see 表示願付很高代價以達目的。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "Payin' anything to roll the dice（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "pay anything to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：pay anything to see 表示願付很高代價以達目的。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "some will …, some will …",
+          "meaning": "有些人會……，另一些人會……。",
+          "usage": "談同一場活動中不同人的選擇或結果。",
+          "prompt": "料理比賽只有一人得獎，主持人想提醒大家結果會不同，哪句最自然？",
+          "options": [
+            "Some will winners, and some will losers.",
+            "Some will winning, some will losing.",
+            "Some won will, and some lose will.",
+            "Some will win, and some will lose."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：will 後需動詞，而非 winners／losers。",
+            "錯誤：will 後需原形 win／lose。",
+            "錯誤：助動詞 will 的位置不正確。",
+            "正確：兩個 some will 平行呈現不同結果。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "Some will win, some will lose（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "Some will",
+              "fixed": true
+            },
+            {
+              "text": "[動詞]",
+              "fixed": false
+            },
+            {
+              "text": ", some will",
+              "fixed": true
+            },
+            {
+              "text": "[動詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：兩個 some will 平行呈現不同結果。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "be born to + 動詞原形",
+          "meaning": "彷彿天生就是為了做某件事。",
+          "usage": "形容對某個技能特別有天分或熱愛；通常是比喻。",
+          "prompt": "一位小提琴手從小熱愛演奏，朋友想誇獎她，哪句自然？",
+          "options": [
+            "She was born playing to the violin.",
+            "She born to playing the violin.",
+            "She was born to play the violin.",
+            "She was born for play the violin."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：這裡沒有使用 born to + 原形動詞。",
+            "錯誤：缺少 was，且 to 後須原形。",
+            "正確：was born to play 表示彷彿天生適合演奏。",
+            "錯誤：for play 不是這個句型。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "were born to sing the blues（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "born to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：was born to play 表示彷彿天生適合演奏。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "never + 一般現在式",
+          "meaning": "從不發生某事；或比喻某件事永不結束。",
+          "usage": "描述經常性的狀態或誇張地表達持續。",
+          "prompt": "祖母每晚都說一個不同的故事，孩子覺得故事永遠說不完，哪句自然？",
+          "options": [
+            "Grandma doesn’t never stops telling stories at night.",
+            "Grandma’s stories never seem to end.",
+            "Grandma never to stops telling stories at night.",
+            "Grandma never tells stories, so we hear one every night."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：混用否定與第三人稱動詞形式。",
+            "正確：never seem to end 表達故事彷彿沒完沒了。",
+            "錯誤：never to stops 的結構不正確。",
+            "錯誤：前後內容矛盾，不能同時從不說又每晚都說。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "the movie never ends（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "never",
+              "fixed": true
+            },
+            {
+              "text": "[一般現在式動詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：never seem to end 表達故事彷彿沒完沒了。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "Don’t stop + V-ing",
+          "meaning": "不要停止做某件事；持續下去。",
+          "usage": "鼓勵別人繼續練習或堅持喜歡的活動；believin’ 即 believing。",
+          "prompt": "朋友畫畫畫得很慢，卻越來越好，哪句最貼心自然？",
+          "options": [
+            "Don’t stop to drawing. Your pictures get better every week.",
+            "Don’t stopping drawing. Your pictures get better every week.",
+            "Don’t stop drawing. Your pictures get better every week.",
+            "Don’t stop draw. Your pictures get better every week."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：stop to do 是「停下來去做另一件事」，且 to drawing 不正確。",
+            "錯誤：否定祈使句應用 don’t stop。",
+            "正確：don’t stop drawing 表示不要停止畫畫。",
+            "錯誤：stop 後表示停止動作應接 drawing。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "Don't stop believin'（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "Don’t stop",
+              "fixed": true
+            },
+            {
+              "text": "[V-ing]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：don’t stop drawing 表示不要停止畫畫。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "hold on to + 名詞",
+          "meaning": "緊緊抓住或珍惜、不放棄某個東西或感受。",
+          "usage": "可指實際抓穩，也可表示珍惜美好回憶。",
+          "prompt": "一位老人把多年以前的一張旅行照片保存得很好，哪句最合適？",
+          "options": [
+            "He held on to yesterday as a blue chair.",
+            "He held to on the photo for cooking.",
+            "He held on the photo to his feet.",
+            "He held on to the photo because it meant a lot to him."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：把時間當成藍色椅子，沒有清楚意思。",
+            "錯誤：to on 的順序顛倒，且語境不合理。",
+            "錯誤：hold on to 的介系詞順序不對。",
+            "正確：held on to the photo 表示一直留著、珍惜照片。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "Hold on to that feelin'（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "hold on to",
+              "fixed": true
+            },
+            {
+              "text": "[名詞／代名詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：held on to the photo 表示一直留著、珍惜照片。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "just one more time",
+          "meaning": "再一次就好，強調只多做一次。",
+          "usage": "請求再試、再聽或再看一次。",
+          "prompt": "天文館的孩子們還想再看一次火星的照片，哪句最自然？",
+          "options": [
+            "Please show to us Mars just one more time a photo.",
+            "Please show Mars just once more times.",
+            "Please show Mars just one more times.",
+            "Please show us the photo of Mars just one more time."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：show to us 的語序與受詞安排不自然。",
+            "錯誤：once 和 times 的搭配重複不當。",
+            "錯誤：one more 後應用單數 time。",
+            "正確：just one more time 表達再看一次的請求。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "just one more time（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "just",
+              "fixed": true
+            },
+            {
+              "text": "one more",
+              "fixed": true
+            },
+            {
+              "text": "[次數名詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：just one more time 表達再看一次的請求。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "動詞 + anything（不限何物）",
+          "meaning": "anything 表示「任何事物／任何代價」，強調範圍沒有特定限制。",
+          "usage": "表示願意嘗試、付出或接受的範圍；此處 anything 是 pay 的受詞。",
+          "prompt": "朋友說只要能讓花園恢復美麗，他願意嘗試任何方法，哪句自然？",
+          "options": [
+            "He will try anything to save the garden.",
+            "He will try anythings to save the garden.",
+            "He will try anything for saving to the garden.",
+            "He will trying anything to save the garden."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：try anything 表示願意嘗試任何方法。",
+            "錯誤：anything 不使用複數 anythings。",
+            "錯誤：for saving to 的搭配不自然。",
+            "錯誤：will 後要用原形 try。"
+          ],
+          "sourceFile": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "Payin' anything（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "[動詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：try anything 表示願意嘗試任何方法。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Dont_Stop_Believin_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "52a77d682926d1db8d0b85a34aea6616c6f41f9bda1a61c378f4068e93a51613"
+    },
+    {
+      "section": "structure",
+      "filename": "Don_t_Stop_Believin_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "3d87139b7d943f63be741aeeb06f14418012507644eafe0203401bcd4e2bebfc"
+    }
+  ]
 }

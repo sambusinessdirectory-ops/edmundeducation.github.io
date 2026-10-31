@@ -3334,5 +3334,1820 @@
       "scope": "All four listening levels",
       "reason": "Replace mechanically malformed spellings and generic fallback distractors with real, audible alternatives. Correct answers, positions and question IDs unchanged."
     }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "landslide (B2)",
+          "meaning": "山崩、土石滑落；也可比喻壓倒性的勝利",
+          "usage": "談暴雨後山坡崩塌，或選舉、比賽出現懸殊結果時使用。",
+          "prompt": "哪一句最自然地使用「landslide」並符合上面的意思？",
+          "options": [
+            "The landslide blocked the road after the storm.",
+            "The landslide repaired the road after the storm.",
+            "The landslide ordered a cake after the storm.",
+            "The landslide booked a room after the storm."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。山崩可能堵住道路；landslide 指大量土石滑落。",
+            "錯誤。山崩不會主動修路；可以說 Workers repaired the road。",
+            "錯誤。山崩不會訂蛋糕；雖然生日派對可能很轟動。",
+            "錯誤。山崩不會訂房；這是把自然事件當成旅客。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確。山崩可能堵住道路；landslide 指大量土石滑落。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "sympathy (B2)",
+          "meaning": "同情、憐憫；對他人困境的關懷",
+          "usage": "得知別人失去親友、受挫或遭遇不幸時，可表達 sympathy。",
+          "prompt": "哪一句最自然地使用「sympathy」並符合上面的意思？",
+          "options": [
+            "She showed sympathy by ignoring his request for help.",
+            "She showed sympathy by mocking his broken bicycle.",
+            "She showed sympathy by listening to his worries.",
+            "She showed sympathy by laughing at his bad news."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。故意不理會求助不能當成表達同情。",
+            "錯誤。嘲笑別人的困難不是同情。",
+            "正確。願意耐心聆聽對方的煩惱，是表達同理與關懷。",
+            "錯誤。別人難過時取笑他，與 sympathy 相反。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確。願意耐心聆聽對方的煩惱，是表達同理與關懷。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "easy come, easy go (C1)",
+          "meaning": "得來容易，失去也不太在意",
+          "usage": "形容對容易得到的金錢、機會或物品不過分執著；語氣常帶隨性。",
+          "prompt": "哪一句最自然地使用「easy come, easy go」並符合上面的意思？",
+          "options": [
+            "He broke his only violin and said, “Easy come, easy go.”",
+            "He missed his final exam and said, “Easy come, easy go.”",
+            "He worked for years and said, “Easy come, easy go.”",
+            "He lost a free coupon and said, “Easy come, easy go.”"
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "不自然。唯一的小提琴若很珍貴，通常不會以此形容得失。",
+            "不自然。重要考試不是輕易得來的小東西；語境不支持此俗語。",
+            "不理想。多年辛苦累積的成果，通常不符合「得來容易」；此句未提供隨性放下的理由。",
+            "正確。免費拿到的優惠券弄丟了也不太在意，很符合這句俗語。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確。免費拿到的優惠券弄丟了也不太在意，很符合這句俗語。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "send shivers down someone’s spine (C1)",
+          "meaning": "使人背脊發涼、起雞皮疙瘩",
+          "usage": "恐怖故事、驚人的消息或震撼人心的音樂，都可能讓人有此感覺。",
+          "prompt": "哪一句最自然地使用「send shivers down someone’s spine」並符合上面的意思？",
+          "options": [
+            "That bus timetable sent shivers down my spine.",
+            "That ghost story sent shivers down my spine.",
+            "That lunch menu sent shivers down my spine.",
+            "That warm blanket sent shivers down my spine."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "缺乏合理情境。公車時刻表通常不是令人毛骨悚然的東西。",
+            "正確。恐怖故事會讓人感到毛骨悚然。",
+            "缺乏合理情境。午餐菜單通常不會讓人背脊發涼。",
+            "通常不自然。溫暖毛毯通常令人舒適；除非另有特殊情境。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確。恐怖故事會讓人感到毛骨悚然。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "ache (B2)",
+          "meaning": "隱隱作痛、持續疼痛；也可指內心痛苦",
+          "usage": "描述肌肉、背部或心裡持續而非突然的疼痛時使用。",
+          "prompt": "哪一句最自然地使用「ache」並符合上面的意思？",
+          "options": [
+            "My shoulders ache after choosing a blue pen.",
+            "My shoulders ache after carrying heavy boxes.",
+            "My shoulders ache after hearing a funny joke.",
+            "My shoulders ache after reading a short email."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "通常缺乏因果關係。挑筆的顏色一般不會造成肩痛。",
+            "正確。搬重物後肩膀持續痠痛，ache 用法自然。",
+            "通常缺乏因果關係。聽笑話一般不會讓肩膀痠痛。",
+            "通常缺乏因果關係。看短郵件一般不會造成肩痛。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確。搬重物後肩膀持續痠痛，ache 用法自然。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "face the truth (B2)",
+          "meaning": "面對真相；接受不願承認的事實",
+          "usage": "當事實令人失望或不舒服，仍決定誠實面對時使用。",
+          "prompt": "哪一句最自然地使用「face the truth」並符合上面的意思？",
+          "options": [
+            "He faced the truth and blamed his little dog.",
+            "He faced the truth and hid the broken vase.",
+            "He faced the truth and admitted his mistake.",
+            "He faced the truth and invented another excuse."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。把錯推給狗，不是坦然面對真相。",
+            "錯誤。藏起花瓶是逃避責任，不是面對真相。",
+            "正確。承認自己的錯誤，符合 face the truth 的意思。",
+            "錯誤。另編藉口是掩飾事實，而非接受事實。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確。承認自己的錯誤，符合 face the truth 的意思。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "thunderbolt (C1)",
+          "meaning": "霹靂、雷電；也可指突如其來的重大打擊",
+          "usage": "描述閃電，或用比喻表示令人震驚的消息時使用。",
+          "prompt": "哪一句最自然地使用「thunderbolt」並符合上面的意思？",
+          "options": [
+            "A thunderbolt watered the tree during the storm.",
+            "A thunderbolt hugged the tree during the storm.",
+            "A thunderbolt planted the tree during the storm.",
+            "A thunderbolt struck the tree during the storm."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。雷電不是澆水工具；雨才可能讓樹木得到水分。",
+            "錯誤。雷電不會擁抱樹木；這是故意荒謬的搭配。",
+            "錯誤。雷電不能種樹；它不是園丁。",
+            "正確。雷電擊中樹木符合 thunderbolt 的字面意思。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確。雷電擊中樹木符合 thunderbolt 的字面意思。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "monstrosity (C2)",
+          "meaning": "怪物般可怕的東西；巨大、醜陋或令人厭惡的事物",
+          "usage": "批評非常難看、荒唐或可怕的建築、物件或情況時使用，語氣強烈。",
+          "prompt": "哪一句最自然地使用「monstrosity」並符合上面的意思？",
+          "options": [
+            "The new statue was a monstrosity; it won an award for beauty.",
+            "The new statue was a monstrosity; people hated its design.",
+            "The new statue was a monstrosity; it was only one inch tall.",
+            "The new statue was a monstrosity; everyone admired it."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "前後矛盾。得獎的美感評價與這裡的強烈貶義衝突。",
+            "正確。大家厭惡雕像的設計，符合強烈負面評價。",
+            "不足以支持。尺寸小不表示醜陋或可怕。",
+            "前後矛盾。everyone admired it 與強烈貶義不符。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確。大家厭惡雕像的設計，符合強烈負面評價。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "spare someone’s life (C1)",
+          "meaning": "饒某人一命；不取走原本可能被奪去的生命",
+          "usage": "故事、歷史或危險事件中，決定不殺害某人時使用；語氣較正式。",
+          "prompt": "哪一句最自然地使用「spare someone’s life」並符合上面的意思？",
+          "options": [
+            "The king spared the prisoner’s life and set him free.",
+            "The king spared the talking sandwich’s life and cooked it dinner.",
+            "The king spared the broken toaster’s life and checked its ticket.",
+            "The king spared the wooden chair’s life and bought it shoes."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。國王決定不處死囚犯，符合饒命的意思。",
+            "錯誤。會說話的三明治是荒謬角色，不能當成一般饒命用法。",
+            "錯誤。烤麵包機沒有可被「饒恕」的生命。",
+            "錯誤。木椅不是有生命的囚犯；此處把物品當成人。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確。國王決定不處死囚犯，符合饒命的意思。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "put aside (B2)",
+          "meaning": "留出、預留；暫時擱置",
+          "usage": "為未來預留金錢、時間、物品，或暫時把分歧放到一旁時使用。",
+          "prompt": "哪一句最自然地使用「put aside」並符合上面的意思？",
+          "options": [
+            "She put aside a little thunder for her next trip.",
+            "She put aside a little traffic for her next trip.",
+            "She put aside a little money for her next trip.",
+            "She put aside a little rain for her next trip."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。雷聲不是能存進抽屜的資源。",
+            "錯誤。塞車不能像儲蓄一樣提前存起來。",
+            "正確。存下一部分錢供旅行使用，是 put aside 的典型用法。",
+            "錯誤。雨無法像錢一樣自行預留。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確。存下一部分錢供旅行使用，是 put aside 的典型用法。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "my time has come (C1)",
+          "meaning": "我的時刻到了；某個關鍵時刻終於來臨",
+          "usage": "可以指輪到自己上場或重要時刻到來；在歌曲裡也帶死亡將近的意味。",
+          "prompt": "哪一句最自然地使用「my time has come」並符合上面的意思？",
+          "options": [
+            "“My time has come,” she said as she washed the dishes.",
+            "“My time has come,” she said as she found a paper clip.",
+            "“My time has come,” she said as she tied her shoelaces.",
+            "“My time has come,” she said as she stepped onto the stage."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "缺乏關鍵時刻的語境。洗碗通常不需要如此戲劇化。",
+            "缺乏關鍵時刻的語境。找到迴紋針通常不是人生轉折。",
+            "缺乏關鍵時刻的語境。綁鞋帶通常不代表命運時刻。",
+            "正確。準備登台的重要時刻到來，可用這句話。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確。準備登台的重要時刻到來，可用這句話。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "spit in someone's eye (C1)",
+          "meaning": "朝某人眼睛吐口水；也可比喻極度侮辱某人",
+          "usage": "形容明顯無禮、羞辱或挑釁的行為；帶強烈負面語氣。",
+          "prompt": "哪一句最自然地使用「spit in someone's eye」並符合上面的意思？",
+          "options": [
+            "The bully spat in his eye to insult him.",
+            "The chef spat in his eye to thank him.",
+            "The singer spat in his eye to praise him.",
+            "The teacher spat in his eye to reward him."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。朝別人眼睛吐口水是侮辱或攻擊性行為。",
+            "錯誤。這是侮辱，不是感謝；應說 thanked him。",
+            "錯誤。這是冒犯，不是讚美；應說 praised him。",
+            "錯誤。這不是獎勵方式；應說 rewarded him。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "explanation": "正確。朝別人眼睛吐口水是侮辱或攻擊性行為。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "leave someone to die (C1)",
+          "meaning": "丟下某人任其死亡；見死不救",
+          "usage": "描述危急時拋下需要援助的人；具有強烈譴責意味，勿輕率使用。",
+          "prompt": "哪一句最自然地使用「leave someone to die」並符合上面的意思？",
+          "options": [
+            "The rescuers refused to leave the lost hiker to die.",
+            "The drivers refused to leave the old bus to die.",
+            "The chefs refused to leave the burnt toast to die.",
+            "The singers refused to leave the broken piano to die."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。救援人員不願丟下有生命危險的登山者。",
+            "錯誤。老公車不是有生命的人；通常應說 abandon the bus。",
+            "錯誤。烤焦的吐司不是能被丟下等死的人；這是誇張的擬人。",
+            "錯誤。壞掉的鋼琴並不會死亡；應說 leave the piano behind。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 13,
+          "explanation": "正確。救援人員不願丟下有生命危險的登山者。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Is + subject + noun phrase?",
+          "meaning": "用 be 動詞的一般疑問句確認身份、性質或情況。",
+          "usage": "對眼前的人、地方或事物不確定，想請對方確認時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "Is this the right room? Please give me two bananas.",
+            "Is this the right room? I already know we are in the wrong building.",
+            "Is this the right room? The sign says Room 8, and our class is in Room 8.",
+            "Is this the right room? The room is a person who sings."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：要求香蕉沒有回答房間是否正確的問題。",
+            "錯誤：已確定在錯誤的大樓，這個確認問題與已知情況不合。",
+            "正確：門牌與課室資料一致，詢問是否找對房間很自然。",
+            "錯誤：把房間說成會唱歌的人，語意不合理。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Is this the real life?",
+          "pattern": [
+            {
+              "text": "Is",
+              "fixed": true
+            },
+            {
+              "text": "this / that / it",
+              "fixed": false
+            },
+            {
+              "text": "名詞片語",
+              "fixed": false
+            },
+            {
+              "text": "?",
+              "fixed": true
+            }
+          ],
+          "example": "Is this the right room?",
+          "explanation": "正確：門牌與課室資料一致，詢問是否找對房間很自然。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "past participle phrase: caught in + noun",
+          "meaning": "用過去分詞片語簡潔表示主詞處於某種狀況。",
+          "usage": "描述人或物正陷入某個情況，並接著說反應或結果時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "Caught in the rain, the sun was dry inside a box.",
+            "Caught in the rain, we ran into a café.",
+            "Caught in the rain, the rain was singing to us.",
+            "Caught in the rain, my shoes decided to become doctors."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：主詞與情境不一致，也沒有清楚表達被雨困住的人。",
+            "正確：we 是遇上雨的人，後面接著說他們如何避雨。",
+            "錯誤：句首片語應合理指向主句主詞，這裡變成「雨」被雨困住。",
+            "錯誤：鞋子成為醫生與遇上下雨的情況無關。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "Caught in a landslide",
+          "pattern": [
+            {
+              "text": "Caught in",
+              "fixed": true
+            },
+            {
+              "text": "情況，+  主句",
+              "fixed": false
+            }
+          ],
+          "example": "Caught in the rain, we ran inside.",
+          "explanation": "正確：we 是遇上雨的人，後面接著說他們如何避雨。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "no + noun + from + noun",
+          "meaning": "用 no 否定一種可能或事物，後面的 from 說明它所對應的情況。",
+          "usage": "強調某件事沒有逃離、離開或擺脫的可能時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "There is no escape from this room; the door is open and we can leave.",
+            "There is no escape from this room because my tea is too sweet.",
+            "There is no escape from my shoes because my shoes are happy.",
+            "There is no escape from the maze until we find the exit."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：門開著又可以離開，與 no escape 矛盾。",
+            "錯誤：茶太甜沒有說明為何不能離開房間。",
+            "錯誤：鞋子開心不是無法逃離的合理原因。",
+            "正確：找到出口之前不能離開迷宮，符合 no escape from。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "No escape from reality",
+          "pattern": [
+            {
+              "text": "no",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "from",
+              "fixed": true
+            },
+            {
+              "text": "來源／對象",
+              "fixed": false
+            }
+          ],
+          "example": "There is no way out of this room.",
+          "explanation": "正確：找到出口之前不能離開迷宮，符合 no escape from。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "imperative: base verb + object",
+          "meaning": "直接請求、指示或命令別人做事。",
+          "usage": "需要清楚告訴別人下一步要做甚麼時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "Open the box carefully. This will make the box stay closed.",
+            "Open the box carefully. It has a glass cup inside.",
+            "Open the box carefully. The box is a cloud in the sky.",
+            "Open the box carefully. We need to turn on the radio instead."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：打開盒子不會使盒子保持關閉。",
+            "正確：盒內有玻璃杯，提醒小心打開是合理指示。",
+            "錯誤：雲不是這裏可以打開的盒子。",
+            "錯誤：要開收音機卻叫人開盒子，指示與目的不符。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "Open your eyes",
+          "pattern": [
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "受詞／補充內容",
+              "fixed": false
+            }
+          ],
+          "example": "Open the box carefully.",
+          "explanation": "正確：盒內有玻璃杯，提醒小心打開是合理指示。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "two imperatives joined by and",
+          "meaning": "把兩個相關動作連在一起，按次序或同時進行。",
+          "usage": "想用一句簡短的話指示兩個相連動作時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "Turn on the light and read the sign; nobody has written any sign.",
+            "Turn on the light and read the sign; the sign is a cake we must eat.",
+            "Turn on the light and read the sign; it is too dark to see now.",
+            "Turn on the light and read the sign; we want the room to become darker."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：既然沒有告示，就不能讀出那張告示的內容。",
+            "錯誤：把告示說成要吃的蛋糕，第二個動作不合理。",
+            "正確：先開燈，才能更清楚閱讀告示，兩個動作有關連。",
+            "錯誤：開燈通常令房間變亮，與想變暗的目的相反。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "Look up to the skies and see",
+          "pattern": [
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "動作一",
+              "fixed": false
+            },
+            {
+              "text": "and",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "動作二",
+              "fixed": false
+            }
+          ],
+          "example": "Look up and watch the birds.",
+          "explanation": "正確：先開燈，才能更清楚閱讀告示，兩個動作有關連。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "need no + noun",
+          "meaning": "強調完全不需要某種東西；語氣比 do not need any 更直接。",
+          "usage": "想有力地表達自己不需要幫助、物品或其他事物時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "I need no water, so please give me three glasses because I am very thirsty.",
+            "I need no food; I have not eaten for days and must eat now.",
+            "I need no ticket; the guard says everyone must show a ticket.",
+            "I need no help; I have already finished the job myself."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：一邊說不需要水，一邊因口渴要求三杯水，意思衝突。",
+            "錯誤：後面強調急需進食，與 need no food 矛盾。",
+            "錯誤：明知所有人都要出示票，卻說不需要票，缺乏合理根據。",
+            "正確：工作已自己完成，表示不需要幫忙很合理。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "I need no sympathy",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "need no",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "example": "I need no help; I can carry it.",
+          "explanation": "正確：工作已自己完成，表示不需要幫忙很合理。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "because + clause",
+          "meaning": "解釋某件事發生的原因。",
+          "usage": "先交代決定或結果，再說明原因時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "The shop is closed because the shop is not open.",
+            "I slept early because I wanted to stay awake all night.",
+            "The train is late because my hat is yellow.",
+            "I bought a map because I wanted to know the way."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：後半句只重複「關門」的意思，沒有提供真正原因。",
+            "錯誤：提早睡與整晚保持清醒的目的相反。",
+            "錯誤：帽子的顏色無法合理解釋火車遲到。",
+            "正確：想知道路線，所以買地圖，原因與行為吻合。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "Because I’m easy come, easy go",
+          "pattern": [
+            {
+              "text": "情況／結果",
+              "fixed": false
+            },
+            {
+              "text": "because",
+              "fixed": true
+            },
+            {
+              "text": "完整原因句",
+              "fixed": false
+            }
+          ],
+          "example": "I stayed home because I felt sick.",
+          "explanation": "正確：想知道路線，所以買地圖，原因與行為吻合。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "any way + subject + verb",
+          "meaning": "表示不論採取哪一種方式或出現哪一種情況，主句仍成立。",
+          "usage": "想表示不受不同選擇或方式影響時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "Any way you make the sandwich, I can eat it; I like all kinds.",
+            "Any way you make the sandwich, I will only eat it if you use red bread.",
+            "Any way you make the sandwich, the sandwich will drive a train.",
+            "Any way you make the sandwich, I cannot eat any kind of sandwich."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：不論三明治怎樣做都願意吃，表達方式不影響結果。",
+            "錯誤：只接受一種麵包，與 any way 的廣泛接受不一致。",
+            "錯誤：三明治開火車並不是合理結果。",
+            "錯誤：完全不能吃任何三明治，與前面容許各種做法的語境不吻合。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "Any way the wind blows",
+          "pattern": [
+            {
+              "text": "Any way",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞，+  主句",
+              "fixed": false
+            }
+          ],
+          "example": "Any way you choose, I will help.",
+          "explanation": "正確：不論三明治怎樣做都願意吃，表達方式不影響結果。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "matter to + person",
+          "meaning": "表示某件事對某人重要或有影響。",
+          "usage": "說明自己重視某人的選擇、意見或感受時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "Your answer matters to me, so I will eat the answer with rice.",
+            "Your answer matters to me, so I will never listen to it and do not care.",
+            "Your answer matters to me, so I will listen carefully.",
+            "Your answer matters to me because my socks are green."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：答案不是可用飯吃掉的物品。",
+            "錯誤：一面說重要，一面完全不在乎，前後衝突。",
+            "正確：願意仔細聽答案，顯示它對說話者很重要。",
+            "錯誤：襪子顏色沒有說明答案的重要性。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "matter to me",
+          "pattern": [
+            {
+              "text": "事物",
+              "fixed": false
+            },
+            {
+              "text": "matter(s) to",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            }
+          ],
+          "example": "Your answer matters to me.",
+          "explanation": "正確：願意仔細聽答案，顯示它對說話者很重要。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "past simple: actions in sequence",
+          "meaning": "利用過去式敘述已發生的動作，並指出後來結果。",
+          "usage": "講故事或解釋某件事如何造成另一件事時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "I dropped the cake, and the floor ate it politely.",
+            "I dropped the cake yesterday, and it will be dropped yesterday tomorrow.",
+            "I dropped the cake, and it flew up because of gravity.",
+            "I dropped the cake, and it fell onto the floor."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：地板不會像人一樣有禮貌地吃蛋糕。",
+            "錯誤：昨天與明天的時間說法互相衝突。",
+            "錯誤：普通情況下，重力不會使蛋糕向上飛。",
+            "正確：蛋糕掉落後到地上，動作與結果順序合理。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "Pulled my trigger, now he’s dead",
+          "pattern": [
+            {
+              "text": "過去式動作一",
+              "fixed": false
+            },
+            {
+              "text": "and / now",
+              "fixed": true
+            },
+            {
+              "text": "後續結果",
+              "fixed": false
+            }
+          ],
+          "example": "I dropped the cup, and it broke.",
+          "explanation": "正確：蛋糕掉落後到地上，動作與結果順序合理。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "past perfect: had + past participle",
+          "meaning": "表示一件事在另一個過去時刻之前已經發生。",
+          "usage": "要讓學生清楚分辨兩件過去事情的先後時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "The film had started before we arrived, but it did not start until after we left.",
+            "The film had started before we arrived because our popcorn was blue.",
+            "The film had started before we arrived, so we missed the first scene.",
+            "The film had started before we arrived, so we arrived before it started."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：後面說電影在我們離開之後才開始，時間順序衝突。",
+            "錯誤：爆谷顏色不會造成電影提早開始。",
+            "正確：電影先開始，我們後到，因此錯過開頭。",
+            "錯誤：後半句反過來說我們先到，與 had started before 矛盾。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "life had just begun",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "had",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            },
+            {
+              "text": "另一過去參照時間",
+              "fixed": false
+            }
+          ],
+          "example": "The film had started before we arrived.",
+          "explanation": "正確：電影先開始，我們後到，因此錯過開頭。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "have gone and + past participle",
+          "meaning": "口語中帶出做了某件事後的驚訝、懊惱或不滿。",
+          "usage": "發現自己或別人又犯錯，想帶點情緒地說出時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "I have gone and lost my keys again, so I cannot open the door.",
+            "I have gone and lost my keys again, so I am holding them in my hand right now and have never lost them.",
+            "I have gone and lost my keys again because the keys are singing opera.",
+            "I have gone and lost my keys again, so I used them to open the door five minutes ago and have kept them safe."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：又弄丟鑰匙，導致無法開門，符合懊惱語氣。",
+            "錯誤：同時說從未丟過而且正拿著鑰匙，與失去鑰匙衝突。",
+            "錯誤：鑰匙唱歌劇不合理，也不能解釋遺失。",
+            "錯誤：已妥善保管鑰匙，與再次弄丟不一致。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "I’ve gone and thrown it all away",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "have / has gone and",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            }
+          ],
+          "example": "I have gone and lost my keys again.",
+          "explanation": "正確：又弄丟鑰匙，導致無法開門，符合懊惱語氣。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "did not mean to + base verb",
+          "meaning": "表示做了某事，但不是故意要這樣做。",
+          "usage": "道歉或澄清不是有意造成麻煩時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "I did not mean to wake you. I dropped a book by mistake.",
+            "I did not mean to wake you. The lamp decided to become a singer.",
+            "I did not mean to wake you. You have been awake all day and I never made a sound.",
+            "I did not mean to wake you. I played loud music because I wanted you to wake up."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：不小心掉書吵醒人，說不是故意的很合適。",
+            "錯誤：燈變歌手是無關的荒謬解釋。",
+            "錯誤：對方一直醒著，也沒有被吵醒，這個道歉缺少對應事件。",
+            "錯誤：明確想吵醒對方，不能同時說自己無意如此。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "Didn’t mean to make you cry",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "did not mean to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "example": "I did not mean to break the cup.",
+          "explanation": "正確：不小心掉書吵醒人，說不是故意的很合適。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "make + object + base verb",
+          "meaning": "表示使某人產生某種反應或做某件事。",
+          "usage": "解釋甚麼讓人笑、哭、擔心或改變行為時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "The funny picture made us to laugh all day.",
+            "The funny picture made the wall laugh and ask for tea.",
+            "The funny picture made us laugh, so none of us laughed or smiled.",
+            "The funny picture made us laugh, and we all smiled."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：make 後面應接 laugh，不能加 to。",
+            "錯誤：牆壁無法像人一樣發笑和點茶。",
+            "錯誤：後面否定所有人發笑，與 made us laugh 衝突。",
+            "正確：有趣的圖片引發大家發笑，符合 make + 人 + 原形動詞。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "make you cry",
+          "pattern": [
+            {
+              "text": "原因／人",
+              "fixed": false
+            },
+            {
+              "text": "make / made",
+              "fixed": true
+            },
+            {
+              "text": "對象",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "example": "The joke made us laugh.",
+          "explanation": "正確：有趣的圖片引發大家發笑，符合 make + 人 + 原形動詞。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "if + present simple, imperative",
+          "meaning": "先設定可能出現的情況，再給出相應指示。",
+          "usage": "給別人應對不同情況的建議或安排時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "If the cake is ready, take it out of the oven.",
+            "If the cake is ready, please ask the table to sing.",
+            "If the cake is ready, put it back in for ten more hours because it is already burned.",
+            "If the cake is ready yesterday, we will bake it yesterday tomorrow."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：蛋糕烤好後拿出來，條件與指示合理。",
+            "錯誤：桌子唱歌與蛋糕是否烤好無關。",
+            "錯誤：蛋糕已燒焦卻還要烤十小時，不合理。",
+            "錯誤：時態與時間表達混亂。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "If I’m not back again this time tomorrow",
+          "pattern": [
+            {
+              "text": "If",
+              "fixed": true
+            },
+            {
+              "text": "現在式條件，+  原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "指示",
+              "fixed": false
+            }
+          ],
+          "example": "If you feel cold, close the window.",
+          "explanation": "正確：蛋糕烤好後拿出來，條件與指示合理。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "as if + clause",
+          "meaning": "把某個表現與假想情況作比較，意為「彷彿……」。",
+          "usage": "描述人的行為看起來像在另一種情況中時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "He walked as if the window, and he opened a chair.",
+            "He walked as if he were a king, even though he was in a school play.",
+            "He walked as if he were asleep, but he did not move at all and was already sleeping.",
+            "He walked as if he is a bus ticket, because the ticket had a hat."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：as if 後缺少完整可理解的比較情況。",
+            "正確：舞台演員扮國王，舉止彷彿真的是國王。",
+            "錯誤：原本就在睡覺且沒有走動，無法描述走路的樣子。",
+            "錯誤：把人比成戴帽子的車票，沒有合理情境。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "as if nothing really matters",
+          "pattern": [
+            {
+              "text": "動作／情況",
+              "fixed": false
+            },
+            {
+              "text": "as if",
+              "fixed": true
+            },
+            {
+              "text": "完整句子",
+              "fixed": false
+            }
+          ],
+          "example": "She danced as if nobody was watching.",
+          "explanation": "正確：舞台演員扮國王，舉止彷彿真的是國王。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "present perfect: has + past participle",
+          "meaning": "表達某個情況到現在已經發生或出現。",
+          "usage": "宣布等待的時刻終於來臨，或已有明確結果時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "The time has come to start the show; the show ended yesterday and nobody is here now.",
+            "The time has come to start the show; we will start it last year.",
+            "The time has come to start the show; the audience is ready.",
+            "The time has come to start the show because my bicycle is eating a cake."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：演出昨天已結束，現在無人，與宣布開始不符。",
+            "錯誤：未來會在去年開始，時間說法矛盾。",
+            "正確：觀眾準備好了，宣布開演時間到了很合適。",
+            "錯誤：腳踏車吃蛋糕不是開演時間到的原因。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "my time has come",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "has / have",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            }
+          ],
+          "example": "The time has come to start the show.",
+          "explanation": "正確：觀眾準備好了，宣布開演時間到了很合適。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "be + verb-ing + all the time",
+          "meaning": "強調某個動作或狀態持續出現，令人注意。",
+          "usage": "說明聲音、問題或活動一直發生時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "The old clock is making noise all the time, but it only made one sound last year and stopped forever.",
+            "The old clock is making noise all the time, but it has been silent for ten years.",
+            "The old clock is making noise all the time, even at night.",
+            "The old clock is making noise all the time because the clock is a sandwich."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：只響過一次便永久停止，不符合 all the time。",
+            "錯誤：已安靜十年，不能同時說一直發聲。",
+            "正確：連夜晚都有聲音，呼應 all the time 的持續性。",
+            "錯誤：時鐘是三明治並非合理原因。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "Body’s aching all the time",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "am/is/are",
+              "fixed": true
+            },
+            {
+              "text": "-ing",
+              "fixed": true
+            },
+            {
+              "text": "all the time",
+              "fixed": true
+            }
+          ],
+          "example": "The old clock is making noise all the time.",
+          "explanation": "正確：連夜晚都有聲音，呼應 all the time 的持續性。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "have got to + base verb",
+          "meaning": "表示迫切的需要或必須做的事；較口語。",
+          "usage": "要強調眼前不能拖延的事情時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "We have got to leave now; the door will become a purple horse.",
+            "We have got to leave now; our train leaves in two minutes.",
+            "We have got to leave now; we are staying here until next month and have no reason to go.",
+            "We have got to leave now; we left last year and are not here anymore."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：門變成紫色馬並非合理原因。",
+            "正確：火車兩分鐘後開出，現在必須離開有充分理由。",
+            "錯誤：明言沒有需要離開，與 have got to 不符。",
+            "錯誤：既已在去年離開，就不能說此刻要從這裏走。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "I’ve got to go",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "have / has got to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "example": "We have got to leave now.",
+          "explanation": "正確：火車兩分鐘後開出，現在必須離開有充分理由。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "wish + past perfect (unreal past)",
+          "meaning": "表示對已發生或未發生的過去感到遺憾，想像另一種過去。",
+          "usage": "談自己希望過去不同，但現在無法改變時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "I wish I had brought my camera tomorrow; yesterday is next week.",
+            "I wish I had brought my camera yesterday; the view was lovely.",
+            "I wish I had brought my camera yesterday, and I did bring it yesterday, so I took many photos with it.",
+            "I wish I had brought my camera yesterday because cameras can cook soup."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：tomorrow 與 yesterday 的時間關係錯亂。",
+            "正確：昨天錯過拍美景的機會，適合用 wish + 過去完成式表遺憾。",
+            "錯誤：明說昨天已帶相機並拍照，與「希望當時有帶」的遺憾不符。",
+            "錯誤：相機煮湯不能解釋為何懊悔沒帶相機。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "I sometimes wish I’d never been born at all",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "wish",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "had",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            }
+          ],
+          "example": "I wish I had studied more yesterday.",
+          "explanation": "正確：昨天錯過拍美景的機會，適合用 wish + 過去完成式表遺憾。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "will + subject + base verb?",
+          "meaning": "詢問對方是否願意或將會做某事。",
+          "usage": "邀請或請求對方參加某項活動時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "Will you join our game? The game is a banana that wants to sleep.",
+            "Will you join our game? You are already playing it, and the game ended yesterday.",
+            "Will you join our game? I need you to paint my shoes instead, not play.",
+            "Will you join our game? We need one more player."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：把遊戲描述成想睡覺的香蕉，情境不合理。",
+            "錯誤：對方已加入且遊戲已結束，邀請不符合情境。",
+            "錯誤：真正希望對方做的是油漆鞋子，而不是參加遊戲。",
+            "正確：遊戲缺一名玩家，邀請對方加入合理。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "will you do the Fandango?",
+          "pattern": [
+            {
+              "text": "Will",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "?",
+              "fixed": true
+            }
+          ],
+          "example": "Will you join our team?",
+          "explanation": "正確：遊戲缺一名玩家，邀請對方加入合理。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "nobody + singular verb",
+          "meaning": "表示一個人也沒有；在現在簡單式中動詞通常用單數。",
+          "usage": "強調群體中沒有任何人做某事或知道某事時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "Nobody knows the answer yet because the answer is a singing pillow.",
+            "Nobody knows the answer yet; three students already told me the correct answer.",
+            "Nobody know the answer yet; every student is still guessing.",
+            "Nobody knows the answer yet; every student is still guessing."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：會唱歌的枕頭不能合理解釋資訊狀態。",
+            "錯誤：已有學生說出正確答案，與 nobody knows 矛盾。",
+            "錯誤：nobody 在一般現在式通常接 knows，而不是 know。",
+            "正確：每位學生都還在猜，表示沒有人知道答案。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "nobody loves me",
+          "pattern": [
+            {
+              "text": "Nobody",
+              "fixed": true
+            },
+            {
+              "text": "第三人稱單數動詞",
+              "fixed": false
+            },
+            {
+              "text": "其他內容",
+              "fixed": false
+            }
+          ],
+          "example": "Nobody knows the answer yet.",
+          "explanation": "正確：每位學生都還在猜，表示沒有人知道答案。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "let + object + base verb",
+          "meaning": "表示允許或讓某人做某事，動詞前不加 to。",
+          "usage": "說准許、放行或要求別人不要阻止某個動作時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "Let the children to choose a song; it is their party.",
+            "Let the children choose a song, but do not allow them to choose anything.",
+            "Let the children choose a song; it is their party.",
+            "Let the children choose a song; the children are wooden chairs."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：let 後面接原形 choose，不加 to。",
+            "錯誤：一邊允許選擇，一邊完全禁止選擇，前後矛盾。",
+            "正確：派對屬於孩子，讓他們選歌合理。",
+            "錯誤：把孩子說成木椅，沒有合理情境。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "let me go",
+          "pattern": [
+            {
+              "text": "let",
+              "fixed": true
+            },
+            {
+              "text": "人／事物",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "example": "Let the children choose a song.",
+          "explanation": "正確：派對屬於孩子，讓他們選歌合理。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "will not + base verb",
+          "meaning": "對未來行動作出堅定否定或拒絕。",
+          "usage": "想清楚表明自己將不會做某件事時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "I will not forget your birthday, so I have never known what a birthday is.",
+            "I will not forget your birthday; I have written it on my calendar.",
+            "I will not forget your birthday because the calendar is a talking fish.",
+            "I will not forget your birthday; I plan to forget it on purpose."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：完全不知道生日是甚麼，與這個承諾不合。",
+            "正確：把生日記在日曆上，支持不會忘記的決定。",
+            "錯誤：日曆是會說話的魚並非合理解釋。",
+            "錯誤：計劃故意忘記，與 will not forget 相反。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "we will not let you go",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "will not",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "example": "I will not forget your birthday.",
+          "explanation": "正確：把生日記在日曆上，支持不會忘記的決定。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "have + object + past participle",
+          "meaning": "表示某個東西處於已被安排、準備或處理好的狀態。",
+          "usage": "說已經請人處理、安排好某物，或已確保結果時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "I have my bags packed; we can leave for the airport now.",
+            "I have my bags packed because the bags can dance on their own.",
+            "I have my bags packed, so I must begin packing them for the first time next year.",
+            "I have my bags packed, but I have not put anything in them and they are all empty."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：行李已收好，現在可以出發，符合 have + object + 過去分詞。",
+            "錯誤：行李會跳舞不是完成打包的合理原因。",
+            "錯誤：既已收拾好，卻說明年才第一次開始打包，時間衝突。",
+            "錯誤：袋子完全未裝東西，與已收拾好的意思不一致。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "has a devil put aside for me",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "have / has",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            }
+          ],
+          "example": "I have my bags packed for the trip.",
+          "explanation": "正確：行李已收好，現在可以出發，符合 have + object + 過去分詞。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "So you think + subject + can + verb?",
+          "meaning": "常帶質問、懷疑或不滿，挑戰對方的想法。",
+          "usage": "對方過於自信或作出不合理假設，想反問時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "So you think you can win without practising? The match ended and you won yesterday.",
+            "So you think you can win without practising? The other team trains every day.",
+            "So you think you can win without practising? You have practised every day for a year.",
+            "So you think you can win without practising? Winning is a blue sandwich."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：比賽已贏，這個對未來能力的質疑缺乏對應情境。",
+            "正確：對手每天練習，反問從不練習的人能否獲勝，語氣合理。",
+            "錯誤：對方實際上天天練習，與 without practising 不一致。",
+            "錯誤：把勝利當成藍色三明治，沒有合理意思。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "So you think you can stone me",
+          "pattern": [
+            {
+              "text": "So you think",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "can",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "?",
+              "fixed": true
+            }
+          ],
+          "example": "So you think you can win without practising?",
+          "explanation": "正確：對手每天練習，反問從不練習的人能否獲勝，語氣合理。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "can + verb + and + verb",
+          "meaning": "一個情態動詞可同時支配兩個並列的動作。",
+          "usage": "表達某人能夠做兩件相連的事時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "You can sit here and watch the show; this seat is free.",
+            "You can sit here and watch the show; the chair is on the moon and we are on Earth.",
+            "You can sit here and watch the show; the show is a potato sleeping in your bag.",
+            "You can sit here and watch the show; you must stand outside and cannot enter."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：座位空著，坐下觀看表演是合理安排。",
+            "錯誤：椅子在月球，與眼前可坐下的情況不符。",
+            "錯誤：把表演描述成睡著的馬鈴薯，語意不合理。",
+            "錯誤：不准入內就無法坐在這裏看表演。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "can love me and leave me",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "can",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞一",
+              "fixed": false
+            },
+            {
+              "text": "and",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞二",
+              "fixed": false
+            }
+          ],
+          "example": "You can sit here and watch the show.",
+          "explanation": "正確：座位空著，坐下觀看表演是合理安排。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "leave + object + to + base verb",
+          "meaning": "表示把某人留下，讓他獨自面對某件事或完成某個動作。",
+          "usage": "想表達不應把工作或難題全部留給某個人時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "Do not leave me to carry all these chairs alone; there are twenty.",
+            "Do not leave me to carry all these chairs alone; the chairs are clouds that want coffee.",
+            "Do not leave me to carry all these chairs alone; I have a team of twenty people helping me now.",
+            "Do not leave me to carry all these chairs alone; you have already carried every chair and there are none left."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：椅子很多，請人不要留下自己一個人搬，很合理。",
+            "錯誤：椅子是喝咖啡的雲，情境荒謬。",
+            "錯誤：已有二十人幫忙，與 alone 的描述不一致。",
+            "錯誤：椅子已全部搬完，沒有剩餘工作可留下。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "leave me to die",
+          "pattern": [
+            {
+              "text": "leave",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "example": "Do not leave me to clean everything alone.",
+          "explanation": "正確：椅子很多，請人不要留下自己一個人搬，很合理。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 29,
+          "word": "nothing + adverb + singular verb",
+          "meaning": "用 nothing 表示沒有任何事情，動詞按單數處理，副詞調整語氣。",
+          "usage": "強調某個情況根本不重要或幾乎沒有變化時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "Nothing really change in this village; the shops look the same.",
+            "Nothing really changes in this village; the shops look the same every year.",
+            "Nothing really changes in this village because villages are made of cheese.",
+            "Nothing really changes in this village; a new town is built here every month."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：nothing 在這個句型中通常接 changes，不是 change。",
+            "正確：多年來店舖沒變，支持 nothing really changes。",
+            "錯誤：村莊由芝士製成不是合理原因。",
+            "錯誤：每月建起新城鎮，與幾乎不變矛盾。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 29,
+          "cue": "Nothing really matters",
+          "pattern": [
+            {
+              "text": "Nothing",
+              "fixed": true
+            },
+            {
+              "text": "副詞",
+              "fixed": false
+            },
+            {
+              "text": "單數動詞",
+              "fixed": false
+            }
+          ],
+          "example": "Nothing really changes in this town.",
+          "explanation": "正確：多年來店舖沒變，支持 nothing really changes。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 30,
+          "word": "anyone + can + base verb",
+          "meaning": "表示不論是誰，都有能力或機會做某事。",
+          "usage": "告訴大家某項活動沒有特定資格限制時。",
+          "prompt": "哪一句正確運用了以上句型，並符合所描述的情境？",
+          "options": [
+            "Anyone can join the game; we welcome new players of all ages.",
+            "Anyone can join the game because the football is secretly a doctor.",
+            "Anyone can joins the game; we welcome everyone.",
+            "Anyone can join the game; only one named person is allowed to play."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：歡迎任何年齡的新玩家，符合 anyone can 的廣泛可能。",
+            "錯誤：足球變醫生與加入遊戲的資格無關。",
+            "錯誤：can 後應接原形 join，不是 joins。",
+            "錯誤：只有一位指定人士可以參加，與 anyone 相反。"
+          ],
+          "sourceFile": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 30,
+          "cue": "Anyone can see",
+          "pattern": [
+            {
+              "text": "Anyone",
+              "fixed": true
+            },
+            {
+              "text": "can",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "補充內容",
+              "fixed": false
+            }
+          ],
+          "example": "Anyone can join this club.",
+          "explanation": "正確：歡迎任何年齡的新玩家，符合 anyone can 的廣泛可能。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Bohemian_Rhapsody_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "6ca008e62a9d07336ace0b27c68faf98ef907a79d2d38a32c62f5aaddd3020f8"
+    },
+    {
+      "section": "structure",
+      "filename": "Bohemian_Rhapsody_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "83c632f4a2c5d053c901359433ed3fb0eab8fb2adc2d35ba4f34917d0e3c38af"
+    }
   ]
 }

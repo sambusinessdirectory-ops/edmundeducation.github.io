@@ -3576,5 +3576,1064 @@
     "sha256": "40ae81a116bebf30d92469583ba2039d9079f8475835e5a1ceec6945b771a076",
     "transformations": "none",
     "selectedOn": "2026-10-30"
-  }
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Vision（B2，估計）",
+          "meaning": "幻象、腦海中的景象；對未來的願景。",
+          "usage": "描述腦中清楚浮現的畫面，或某人對未來想實現的構想。本題考「願景、構想」。",
+          "prompt": "哪一句正確使用了「vision」（願景）？",
+          "options": [
+            "The dentist had a vision of the clock above the waiting room.",
+            "The chef had a vision of a café where robots serve soup.",
+            "The coach had a vision of the whistle hanging by the door.",
+            "My uncle had a vision of the bus arriving at exactly six."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "候診室裡現成的時鐘是實際看得到的物品，應說 saw the clock。注意：vision 在其他情境也能表示眼前的幻象，但這不是本題指定的「未來願景」。",
+            "這是一個尚未實現的咖啡館構想，vision 表示對未來的想像和規劃；機器人端湯也讓畫面有趣。",
+            "如果只是看見門旁掛著的哨子，通常說 saw the whistle；這裡不需要表示未來願景的 vision。",
+            "如果只是預測六點公車到站，通常說 expected the bus to arrive；並非宏觀的願景。"
+          ],
+          "sourceFile": "Diamonds_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "這是一個尚未實現的咖啡館構想，vision 表示對未來的想像和規劃；機器人端湯也讓畫面有趣。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "Ecstasy（C1–C2，估計）",
+          "meaning": "狂喜、極度喜悅。",
+          "usage": "形容強烈到難以抑制的快樂；比 happiness 情緒強得多。本題只考情緒意思。",
+          "prompt": "哪一句正確使用了「ecstasy」（狂喜）？",
+          "options": [
+            "Mia felt ecstasy when she found a clean spoon in the drawer.",
+            "The fans were in ecstasy when their team won the final.",
+            "Leo felt ecstasy because the printer had enough paper for today.",
+            "Nina was in ecstasy when the lift stopped at the third floor."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "找到乾淨湯匙可能令人高興，但普通小事一般不足以表達 ecstasy 所指的強烈狂喜。",
+            "球隊贏得決賽，球迷欣喜若狂；be in ecstasy 搭配自然。",
+            "印表機紙張充足頂多令人放心，通常不會達到「極度狂喜」的程度。",
+            "電梯正常停在三樓不是強烈歡樂的典型情境，應使用較平淡的說法。"
+          ],
+          "sourceFile": "Diamonds_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "球隊贏得決賽，球迷欣喜若狂；be in ecstasy 搭配自然。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "Energy（B1，估計）",
+          "meaning": "精力、活力；也可指能量。",
+          "usage": "描述一個人做事的精神狀態、活動氣氛或物理能量。本題考「精力」。",
+          "prompt": "哪一句正確使用了「energy」（精力）？",
+          "options": [
+            "After the hike, I sent my energy by email to the head chef.",
+            "After the hike, I folded my energy and stored it in a drawer.",
+            "After the hike, I had no energy left inside my red notebook.",
+            "After the hike, I had no energy left to carry the boxes."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "在這個意思下，energy 不能像電子郵件附件一樣直接寄給廚師。",
+            "精力不是能折疊後放進抽屜的物件；這句是刻意的荒謬用法。",
+            "精力並不是一般能存放在紅色筆記本裡的實體物品。",
+            "長途健行後沒有力氣搬箱子，have no energy left 表示精力耗盡。"
+          ],
+          "sourceFile": "Diamonds_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "長途健行後沒有力氣搬箱子，have no energy left 表示精力耗盡。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "Ray / Sun rays（B2，估計）",
+          "meaning": "光線；sun rays 指陽光射出的光線。",
+          "usage": "談陽光穿過雲層、窗戶或樹葉的光束；也可見於科學語境。本題考「光線」。",
+          "prompt": "哪一句正確使用了「ray」（光線）？",
+          "options": [
+            "A ray of sunlight signed the form and left the school office.",
+            "A ray of sunlight cooked our soup before the waiter returned.",
+            "A ray of sunlight came through the window and lit the floor.",
+            "A ray of sunlight borrowed my bicycle to get to the station."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "光線不能以人的身分簽署表格或離開辦公室。",
+            "陽光可以加熱物品，但一般不會像廚師一樣直接「煮湯」；在這個情境說法不自然。",
+            "一道陽光穿過窗戶照到地板，a ray of sunlight 是自然的搭配。",
+            "光線不會借腳踏車搭車；這是刻意的擬人化笑話，不是一般用法。"
+          ],
+          "sourceFile": "Diamonds_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "一道陽光穿過窗戶照到地板，a ray of sunlight 是自然的搭配。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "Palm（B2，估計）",
+          "meaning": "手掌；也可指棕櫚樹（另一個意思）。",
+          "usage": "描述手掌上的物品、掌紋或身體動作。本題只考「手掌」。",
+          "prompt": "哪一句正確使用了「palm」（手掌）？",
+          "options": [
+            "The doctor checked the small cut on the palm of my chair.",
+            "The doctor checked the small cut on the palm of the clock.",
+            "The doctor checked the small cut on the palm of my hand.",
+            "The doctor checked the small cut on the palm of the lamp."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "椅子沒有人體的手掌；可以改說 the seat of my chair。",
+            "時鐘有表面（face），但不會有人的手掌。",
+            "the palm of my hand 指手掌心，適合描述手上的小傷口。",
+            "檯燈有燈罩或底座，不會有身體構造中的手掌。"
+          ],
+          "sourceFile": "Diamonds_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "the palm of my hand 指手掌心，適合描述手上的小傷口。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "Universe（B2，估計）",
+          "meaning": "宇宙；所有星系、恆星及空間的整體。",
+          "usage": "談天文學、太空探索或宇宙的大小；也可用於誇飾性的日常說法。",
+          "prompt": "哪一句正確使用了「universe」？",
+          "options": [
+            "Our teacher explained how stars form in the universe.",
+            "Our teacher explained how sandwiches queue in the universe.",
+            "Our teacher explained how spoons drive trains in the universe.",
+            "Our teacher explained how umbrellas pay rent in the universe."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "天文課討論宇宙中的恆星如何形成，符合 universe 的自然使用情境。",
+            "三明治不會排隊；這句沒有合理的宇宙科學內容。",
+            "湯匙不會開火車；雖然句型完整，但不符合自然的字義應用。",
+            "雨傘不能像房客一樣付租金；不能拿它來描述宇宙現象。"
+          ],
+          "sourceFile": "Diamonds_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "天文課討論宇宙中的恆星如何形成，符合 universe 的自然使用情境。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "Warmth（B2，估計）",
+          "meaning": "溫暖、暖意；也可指待人親切友善的感覺。",
+          "usage": "描述陽光或火源帶來的暖意，也可描述某人的友善。本題考「待人的溫暖」。",
+          "prompt": "哪一句正確使用了「warmth」（親切、溫暖）？",
+          "options": [
+            "The new teacher spoke with warmth to the nervous students.",
+            "The old cupboard showed warmth when someone opened its door.",
+            "The blue umbrella showed warmth when it fell off the chair.",
+            "The ticket machine showed warmth when it printed my train pass."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "老師親切地與緊張的學生說話，speak with warmth 用法自然。",
+            "櫃子被打開不代表它會展現人際互動中的溫暖。",
+            "雨傘從椅子上掉下來不代表它對人友善，這是刻意的幽默情境。",
+            "售票機印出車票是正常功能，不表示它以親切態度對待人。"
+          ],
+          "sourceFile": "Diamonds_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "老師親切地與緊張的學生說話，speak with warmth 用法自然。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "祈使句：動詞 + 副詞 + like 比喻",
+          "meaning": "像某種事物一樣做一個動作。",
+          "usage": "鼓勵別人、描述動作方式，並用 like 作比喻。",
+          "prompt": "主持人希望舞者在台上自信地表現，哪句最貼切？",
+          "options": [
+            "Shine on a star because it has five chairs.",
+            "Shine brightly like the stars on stage!",
+            "The stars shine a stage like loudly.",
+            "The stage is like to shine a dancer."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：沒有合理描述舞者的表現。",
+            "正確：用祈使句鼓勵舞者像星星般閃耀。",
+            "錯誤：詞序混亂，不能表達動作加比喻。",
+            "錯誤：like 後的結構及句意不自然。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Shine bright like a diamond",
+          "pattern": [
+            {
+              "text": "動詞原形",
+              "fixed": false
+            },
+            {
+              "text": "副詞",
+              "fixed": false
+            },
+            {
+              "text": "like",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "context": "使用註記：歌詞用 bright 作副詞式補語，日常正式英語常用 brightly；練習保留相同「動作＋方式＋like 比喻」框架。",
+          "explanation": "正確：用祈使句鼓勵舞者像星星般閃耀。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "祈使句：Find + 受詞 + 地點",
+          "meaning": "在某個地方找到某物。",
+          "usage": "指示別人從特定地方尋找有用物件或線索。",
+          "prompt": "考古隊正在沙灘尋找一枚小硬幣，哪句是合理指示？",
+          "options": [
+            "Find in the coin the beach happy.",
+            "Find the beach in the coin.",
+            "The coin find the sand yesterday.",
+            "Find the coin in the sand."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：語序和結尾形容詞不合句法。",
+            "錯誤：把要找的東西與地點顛倒了。",
+            "錯誤：主詞、動詞和時態都不合語境。",
+            "正確：在沙子裡尋找硬幣，受詞和地點清楚。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "Find light in the beautiful sea",
+          "pattern": [
+            {
+              "text": "Find",
+              "fixed": true
+            },
+            {
+              "text": "事物",
+              "fixed": false
+            },
+            {
+              "text": "in",
+              "fixed": true
+            },
+            {
+              "text": "地點",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：在沙子裡尋找硬幣，受詞和地點清楚。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "choose + to + 原形動詞",
+          "meaning": "選擇採取某個行動或態度。",
+          "usage": "強調某人經過考慮後主動作出決定。",
+          "prompt": "朋友可以坐電梯，但想鍛鍊身體，哪句最合適？",
+          "options": [
+            "She chooses the stairs are exercise.",
+            "She chooses to happy on the stairs.",
+            "She chooses to take the stairs for exercise.",
+            "She chooses walking the stairs to exercise."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：缺少合適的動詞結構。",
+            "錯誤：happy 前需要 be，且不符合情境。",
+            "正確：選擇走樓梯，choose to 後接 take。",
+            "錯誤：本題要練 choose to + 原形動詞，而不是這個搭配。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "I choose to be happy",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "choose to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形／be",
+              "fixed": false
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：選擇走樓梯，choose to 後接 take。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "be + like + 名詞：比喻",
+          "meaning": "把某個人或事物比作另一種事物。",
+          "usage": "說明外觀、特點或給人的感覺相似。",
+          "prompt": "小小的白燈掛滿花園，遠看像星星，哪句最自然？",
+          "options": [
+            "The lights like stars being in the garden.",
+            "The lights are like stars in the garden.",
+            "The lights are stars like to the garden.",
+            "The lights are to like stars in the garden."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：缺少 be 動詞，句型不完整。",
+            "正確：用 are like 把燈比作星星。",
+            "錯誤：比喻結構和介系詞不自然。",
+            "錯誤：be like 前不能多加 to。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "We’re like diamonds in the sky",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be like",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "地點",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：用 are like 把燈比作星星。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "零關係代名詞：名詞 + 主詞 + 動詞",
+          "meaning": "在名詞後補充「某人看到／喜歡的」資訊；關係代名詞作受詞時可省略。",
+          "usage": "用短短的子句指定所談的是哪個人或東西。",
+          "prompt": "畫家指著自己昨天拍下的照片，哪句能自然說明是哪張？",
+          "options": [
+            "This is the photo I yesterday took it.",
+            "This is the photo I took yesterday.",
+            "This is the photo who I took yesterday.",
+            "This is the photo took I yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：photo 已是受詞先行詞，不能再加 it。",
+            "正確：the photo 後省略作受詞的 that，接 I took。",
+            "錯誤：photo 是物，且 who 不適用於此。",
+            "錯誤：關係子句必須用正常的主詞動詞語序。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "You’re a shooting star I see",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "（省略 that/which）+  主詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞",
+              "fixed": false
+            }
+          ],
+          "context": "使用註記：歌詞的 shooting star 後接 I see，屬於省略受詞關係代名詞的結構。",
+          "explanation": "正確：the photo 後省略作受詞的 that，接 I took。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "When + 現在式，現在式",
+          "meaning": "當某件事發生時，另一種狀態就出現。",
+          "usage": "描述常見反應、習慣或一般情況。",
+          "prompt": "狗每次聽見開零食袋的聲音就跑過來，哪句正確？",
+          "options": [
+            "When my dog hears the bag, it runs to me.",
+            "When the dog heard the bag, it run here every time.",
+            "When my dog hears the bag, it running to me.",
+            "When my dog hearing the bag, runs to me."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：when 子句和主句皆用現在式描述習慣。",
+            "錯誤：混用過去式與不正確的動詞形式。",
+            "錯誤：主句缺少 is，不能直接用 it running。",
+            "錯誤：when 後缺少完整子句。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "When you hold me, I’m alive",
+          "pattern": [
+            {
+              "text": "When",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "現在式， 主詞",
+              "fixed": false
+            },
+            {
+              "text": "現在式",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：when 子句和主句皆用現在式描述習慣。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "knew + that + would：過去觀點的未來",
+          "meaning": "描述過去已預期某件事情會發生。",
+          "usage": "回想自己當時對後來事情的判斷。",
+          "prompt": "去年修橋時，工程師相信新橋會幫到村民，哪句最合適？",
+          "options": [
+            "The engineer knew that the bridge would help the village.",
+            "The engineer knows that the bridge would helped people.",
+            "The engineer knew the bridge helping the village tomorrow.",
+            "The engineer knew that the bridge will help last year."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：以 knew 回顧過去，以 would help 表示當時的預期。",
+            "錯誤：would 後必須接原形 help，且時態不配。",
+            "錯誤：缺少 would 等完整動詞形式。",
+            "錯誤：回顧過去時，此處更自然用 would 表示當時的未來。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "I knew that we’d become one right away",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "knew (that)",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "would",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "context": "使用註記：we’d 在歌詞中 = we would，不是 we had。",
+          "explanation": "正確：以 knew 回顧過去，以 would help 表示當時的預期。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "right away：時間副詞片語",
+          "meaning": "立刻、馬上。",
+          "usage": "需要立即回應、處理或行動時。",
+          "prompt": "水管忽然漏水，房東答應馬上找人修理，哪句合適？",
+          "options": [
+            "The landlord called right away a plumber to.",
+            "The landlord right away a repair person.",
+            "The landlord called a repair worker right away.",
+            "The landlord was right away very blue."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：語序不自然且句子不完整。",
+            "錯誤：right away 不是動詞。",
+            "正確：將 right away 放句末表示立即打電話。",
+            "錯誤：right away 不是形容顏色的詞。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "right away",
+          "pattern": [
+            {
+              "text": "動作或完整句子",
+              "fixed": false
+            },
+            {
+              "text": "right away",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：將 right away 放句末表示立即打電話。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "At first sight + 過去式",
+          "meaning": "第一眼看見時，就產生某種感覺。",
+          "usage": "描述初次見到人或事物的第一印象。",
+          "prompt": "設計師第一次看見新劇院，就覺得它很漂亮，哪句最好？",
+          "options": [
+            "At first sight is the theatre I beautiful.",
+            "At first sight, I will think the theatre was beautiful yesterday.",
+            "At first sight, the theatre thought me beautiful.",
+            "At first sight, I thought the theatre was beautiful."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：句子缺少合適的主詞動詞結構。",
+            "錯誤：will 與 yesterday 所指的過去情境衝突。",
+            "錯誤：主詞與動詞受詞關係顛倒。",
+            "正確：at first sight 加過去式 thought 表示第一印象。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "At first sight I felt the energy of sun rays",
+          "pattern": [
+            {
+              "text": "At first sight，+  主詞",
+              "fixed": false
+            },
+            {
+              "text": "過去式",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：at first sight 加過去式 thought 表示第一印象。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "過去式：saw + 受詞 + 地點",
+          "meaning": "過去看見某物位於另一個東西裡面。",
+          "usage": "描述先前觀察到的具體景象或內容。",
+          "prompt": "研究員昨天在舊箱子內發現一封信，哪句合適？",
+          "options": [
+            "The scientist sees a letter yesterday inside the box.",
+            "The scientist saw a letter inside an old box yesterday.",
+            "The scientist saw inside an old box a letter yesterday it.",
+            "The scientist saw a letter to inside an old box."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：yesterday 指過去，不能用現在式 sees。",
+            "正確：saw a letter inside an old box 清楚表達發現位置。",
+            "錯誤：句末 it 重複受詞，語序也不自然。",
+            "錯誤：inside 前不需要 to。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "I saw the life inside your eyes",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "saw",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            },
+            {
+              "text": "inside",
+              "fixed": true
+            },
+            {
+              "text": "地點",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：saw a letter inside an old box 清楚表達發現位置。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "be + 形容詞 + like + 名詞",
+          "meaning": "形容某人／某物具有某種特質，並借另一物作比較。",
+          "usage": "想用具體事物加強對特質的描寫時。",
+          "prompt": "小屋的窗子被夕陽照得金亮，哪句最好？",
+          "options": [
+            "The windows are bright like gold at sunset.",
+            "The windows beautiful are like gold at sunset.",
+            "The windows is bright like gold at sunset.",
+            "The windows are like beautiful gold in sunshine to."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：are bright like gold 以黃金比喻閃亮的窗戶。",
+            "錯誤：be 與形容詞的順序應為 are beautiful。",
+            "錯誤：複數 windows 要配 are，不是 is。",
+            "錯誤：結尾介系詞與比喻語序不自然。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "We’re beautiful like diamonds in the sky",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            },
+            {
+              "text": "like",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "context": "使用註記：與純粹 be like + 名詞不同，這裡還有獨立的形容詞補語 beautiful。",
+          "explanation": "正確：are bright like gold 以黃金比喻閃亮的窗戶。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "Eye to eye：片語式省略",
+          "meaning": "彼此四目相對、眼神交會。",
+          "usage": "文學或口語片語描繪互相望著對方的情景。",
+          "prompt": "兩名棋手在決賽前互相對望，哪句貼切？",
+          "options": [
+            "They saw eye to eye on every rule of the game.",
+            "The players were eye to eye a ticket yesterday.",
+            "The players stood eye to eye before the match.",
+            "The players put eye to eye on the desk."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：see eye to eye 指意見一致，並非題目所描述的對望。",
+            "錯誤：名詞 a ticket 不能這樣接在片語後。",
+            "正確：stood eye to eye 描述兩人面對面互望。",
+            "錯誤：eye to eye 不是能放到桌上的實物。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "Eye to eye, so alive",
+          "pattern": [
+            {
+              "text": "eye to eye",
+              "fixed": true
+            },
+            {
+              "text": "（省略的語境補足）",
+              "fixed": false
+            }
+          ],
+          "context": "使用註記：只抽取歌詞裡 eye to eye 的畫面，不把 see eye to eye（意見一致）冒充歌詞結構。",
+          "explanation": "正確：stood eye to eye 描述兩人面對面互望。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "主詞 + rise + to + 目的方向",
+          "meaning": "某物向上升至某個方向或高度。",
+          "usage": "描述上升、升高或向某處伸展。",
+          "prompt": "清晨熱氣球慢慢向天空上升，哪句貼切？",
+          "options": [
+            "The balloon rises to sky a warm.",
+            "The balloon rises the sky to happily.",
+            "The balloon rises toward the sky at sunrise.",
+            "The balloon is rise to the sky."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：缺少自然的冠詞與介系詞結構。",
+            "錯誤：語序混亂，也沒有合適的方向介系詞。",
+            "正確：rises toward the sky 表示向天空升起。",
+            "錯誤：is 後不能直接接 rise 原形表此動作。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "Palms rise to the universe",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "rise to",
+              "fixed": true
+            },
+            {
+              "text": "方向／高度",
+              "fixed": false
+            }
+          ],
+          "context": "使用註記：歌詞是 rise to the universe，例句以自然的 toward the sky 練習方向補語，並不將 toward 說成歌詞原字。",
+          "explanation": "正確：rises toward the sky 表示向天空升起。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "As + 主詞 + 動詞：同時／當……時",
+          "meaning": "當……時；在某動作進行的同時。",
+          "usage": "兩件事情同時發生時可用 as 引導時間子句。",
+          "prompt": "觀眾走進博物館時，導覽員正在說明展品，哪句最好？",
+          "options": [
+            "As the visitors entered the guide speaking is.",
+            "As the visitors entered, the guide began to speak.",
+            "As the visitors entering, the guide speak.",
+            "As visitors were to enter, the guide was speak."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：主句缺少可用的謂語，標點也不清楚。",
+            "正確：as 引導時間子句，說明觀眾進場時發生的事。",
+            "錯誤：as 後的子句缺少完整動詞。",
+            "錯誤：was speak 不是正確的動詞形式。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "As we moonshine and molly",
+          "pattern": [
+            {
+              "text": "As",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞， 主句",
+              "fixed": false
+            }
+          ],
+          "context": "使用註記：歌詞的 moonshine and molly 不是標準可套用的日常動詞搭配；這裡僅抽取明確出現的 as + 主詞 + 謂語形式，另標示歌詞語意與語域特殊。",
+          "explanation": "正確：as 引導時間子句，說明觀眾進場時發生的事。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "祈使句：Feel + 名詞",
+          "meaning": "感受某種溫度、情緒或身體感覺。",
+          "usage": "鼓勵人留意自己的感官體驗時。",
+          "prompt": "老師帶學生到花園感受陽光的溫暖，哪句最好？",
+          "options": [
+            "The warmth feel your face the sun.",
+            "Feel the sun is warm to your face it.",
+            "Feel to the warm from the sun.",
+            "Feel the warmth of the sun on your face."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：主詞與動詞語序顛倒。",
+            "錯誤：動詞與受詞的結構不合。",
+            "錯誤：feel 不用 to 直接接這樣的受詞。",
+            "正確：祈使句 Feel the warmth 讓人感受陽光溫度。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "Feel the warmth",
+          "pattern": [
+            {
+              "text": "Feel",
+              "fixed": true
+            },
+            {
+              "text": "受詞名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：祈使句 Feel the warmth 讓人感受陽光溫度。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "will + never + 原形動詞",
+          "meaning": "表示未來絕對不會做／發生某事。",
+          "usage": "強烈表達未來的否定預測或承諾。",
+          "prompt": "博物館宣布一幅名畫永遠不會出售，哪句合適？",
+          "options": [
+            "The museum never will sold the painting.",
+            "The museum will sell never the painting.",
+            "The museum will never selling the painting.",
+            "The museum will never sell the painting."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：will 後應接 sell 原形，不是 sold。",
+            "錯誤：never 的位置通常放在 will 後、主要動詞前。",
+            "錯誤：will 後不直接接 selling。",
+            "正確：will never sell 是自然的未來否定。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "we’ll never die",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "will never",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：will never sell 是自然的未來否定。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "you and I：並列主詞",
+          "meaning": "將兩個人並列為同一組主詞。",
+          "usage": "說明兩人共同做某件事時，主詞位置通常使用 I 而非 me。",
+          "prompt": "你和表妹一起負責布置舞台，哪句正確？",
+          "options": [
+            "My cousin and I are decorating the stage.",
+            "Me and my cousin is decorating the stage.",
+            "My cousin and me are decorating the stage.",
+            "My cousin and I decorating the stage."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：My cousin and I 作並列主詞，搭配 are。",
+            "錯誤：主格代名詞及主謂一致都不合標準用法。",
+            "錯誤：正式標準主詞位置應用 I，而非 me。",
+            "錯誤：現在進行式缺少 are。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "You and I, you and I",
+          "pattern": [
+            {
+              "text": "人物 A",
+              "fixed": false
+            },
+            {
+              "text": "and",
+              "fixed": true
+            },
+            {
+              "text": "人物 B（主格）",
+              "fixed": false
+            }
+          ],
+          "context": "使用註記：歌詞片段是獨立並列名詞詞組；以完整例句練習它的主詞功能。",
+          "explanation": "正確：My cousin and I 作並列主詞，搭配 are。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "So + 祈使句：因此採取行動",
+          "meaning": "所以……；根據前文引出邀請或鼓勵。",
+          "usage": "說明理由後提出下一個行動。",
+          "prompt": "朋友說天氣很好，於是提議出去散步，哪句最自然？",
+          "options": [
+            "The rain has stopped, so come outside and play!",
+            "The rain has stopped, so to play outside.",
+            "The rain has stopped, so are you play outside.",
+            "The rain has stopped, so outside come and playing."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：so 連接理由與祈使句，提出行動建議。",
+            "錯誤：缺少祈使句的原形動詞。",
+            "錯誤：are you play 不是自然的祈使句。",
+            "錯誤：祈使句應以動詞原形開頭。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "So shine bright tonight, you and I",
+          "pattern": [
+            {
+              "text": "So",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            },
+            {
+              "text": "補充內容",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：so 連接理由與祈使句，提出行動建議。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Diamonds_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "d993085c9d4e1eb9388e3f362a5bf437d868fc23105c373851649a23107fcd2d"
+    },
+    {
+      "section": "structure",
+      "filename": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "be4476067659c53b3b8c0b064754f559609629a8499bb4a601078e754f21a89d"
+    }
+  ]
 }

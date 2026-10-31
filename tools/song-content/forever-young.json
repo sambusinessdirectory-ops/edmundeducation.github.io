@@ -2781,5 +2781,1369 @@
     "sha256": "65680ed3409d51477e8fedb3a15e97a913e6c10c1deca73f4a5f89eb58928293",
     "selectedOn": "2026-10-29",
     "transformations": "none"
-  }
+  },
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Let’s + 原形動詞",
+          "meaning": "邀請大家一起做一件事。",
+          "usage": "提議一起進行活動時；let’s 包含說話者與聽者。",
+          "prompt": "兩位朋友想一起準備一場小型表演，哪一句最適合用來邀請對方？",
+          "options": [
+            "Let’s practising the song together.",
+            "Let’s to practise the song together.",
+            "Let’s practise the song together.",
+            "Let’s practised the song together."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：let’s 後不可直接接 practising。",
+            "錯誤：let’s 後不加 to。",
+            "正確：let’s 後接原形 practise，表示一起練習。",
+            "錯誤：let’s 後不接過去式 practised。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Let's dance in style",
+          "pattern": [
+            {
+              "text": "Let’s",
+              "fixed": true
+            },
+            {
+              "text": "[動詞原形]",
+              "fixed": false
+            },
+            {
+              "text": "[其他內容]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：let’s 後接原形 practise，表示一起練習。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "for + 一段時間",
+          "meaning": "表示動作持續多久。",
+          "usage": "說明活動持續的時間長度，而非開始的時間點。",
+          "prompt": "美術館還有一小時才關門，朋友想在長椅休息片刻，哪句最合適？",
+          "options": [
+            "We sat until the bench.",
+            "We can rest for a while.",
+            "We can rest since a while.",
+            "We can rest for a station."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：until 後的 bench 不是時間界線。",
+            "正確：for a while 表示休息一會兒。",
+            "錯誤：since a while 不能表示持續一會兒。",
+            "錯誤：for a station 不表示一段時間。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "for a while",
+          "pattern": [
+            {
+              "text": "[動作]",
+              "fixed": false
+            },
+            {
+              "text": "for",
+              "fixed": true
+            },
+            {
+              "text": "[一段時間]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：for a while 表示休息一會兒。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "can + 原形動詞",
+          "meaning": "表達能力或可能性；在歌中是帶有擬人意味的可能。",
+          "usage": "描述能做的事或允許延後的事；不能把歌中的天堂擬人解讀成一般字面事實。",
+          "prompt": "舞台燈壞了，但演出還有時間，哪句表示「可以先等」？",
+          "options": [
+            "The show cans wait.",
+            "The show can wait.",
+            "The show can waiting.",
+            "The show can to wait."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：can 不因第三人稱加 s。",
+            "正確：can wait 表示演出可以等待。",
+            "錯誤：情態動詞 can 後不用 -ing。",
+            "錯誤：can 後不加 to。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "Heaven can wait",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "can",
+              "fixed": true
+            },
+            {
+              "text": "[動詞原形]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：can wait 表示演出可以等待。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "現在進行式 be + -ing",
+          "meaning": "描述目前正在進行的事情。",
+          "usage": "回答「現在在做什麼」時使用；only 可強調「只是」。",
+          "prompt": "有人問天文館的志工在忙什麼；他們正在看夜空而不是拍照。",
+          "options": [
+            "They are only watch the sky.",
+            "They only are watched the sky.",
+            "They are only watching the sky.",
+            "They only watch now the sky."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：are 後需接 watching。",
+            "錯誤：are watched 是被動形式，不符語境。",
+            "正確：are only watching 清楚表示正在做的事。",
+            "錯誤：此句不適合表達正在進行的動作，且 now 的位置不自然。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "we're only watching the skies",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "am/is/are",
+              "fixed": true
+            },
+            {
+              "text": "[副詞]",
+              "fixed": false
+            },
+            {
+              "text": "[V-ing]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：are only watching 清楚表示正在做的事。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "Hoping … but expecting … 對比並列",
+          "meaning": "一邊抱持希望，一邊預料困難；兩個 -ing 片語並列。",
+          "usage": "用來形容矛盾的期待；歌中是省略主句的片語，練習可放進完整句。",
+          "prompt": "小劇團期待晴天，又擔心下雨。哪句最準確？",
+          "options": [
+            "We hoping for sun but expecting rain.",
+            "We are hoping for sun but expecting rain.",
+            "We are hope for sun but expect raining.",
+            "We are hoping sun but expecting to rain."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：we 後缺少 are。",
+            "正確：兩個 -ing 片語由 but 連接，呈現對比。",
+            "錯誤：hope 與 expect 的形式和搭配都不合。",
+            "錯誤：hope for 應接名詞，expecting to rain 的主詞也不合理。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "Hoping for the best but expecting the worst",
+          "pattern": [
+            {
+              "text": "[Hoping for + 名詞片語]",
+              "fixed": false
+            },
+            {
+              "text": "but",
+              "fixed": true
+            },
+            {
+              "text": "[expecting + 名詞片語]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：兩個 -ing 片語由 but 連接，呈現對比。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "Are you going to … or not?",
+          "meaning": "詢問對方究竟會不會做某事。",
+          "usage": "需要明確答覆時可加 or not；歌中 gonna 是 going to 的口語形式。",
+          "prompt": "同伴一直不決定是否參加明天的露營，哪句最自然？",
+          "options": [
+            "Are you going to join us tomorrow or not?",
+            "Are you going joining tomorrow or not?",
+            "Are you go camping tomorrow or not?",
+            "Are you going to joining tomorrow or not?"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：going to + join 加 or not 要求明確答覆。",
+            "錯誤：going 後不能直接接 joining 表此意。",
+            "錯誤：be going to 的結構不完整。",
+            "錯誤：going to 後應接原形 join。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "Are you gonna drop the bomb or not?",
+          "pattern": [
+            {
+              "text": "Are",
+              "fixed": true
+            },
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "going to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            },
+            {
+              "text": "or not?",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：going to + join 加 or not 要求明確答覆。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "let + 受詞 + 原形動詞",
+          "meaning": "讓某人做某事；後面的動詞不加 to。",
+          "usage": "表示允許、請求或放手讓事情發生；歌中誇張地談生命與時間。",
+          "prompt": "孩子想自己嘗試做紙飛機，哪句適合請大人讓他做？",
+          "options": [
+            "Let me tried it.",
+            "Let me trying it.",
+            "Let me to try it.",
+            "Let me try it."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：let 後不能接過去式 tried。",
+            "錯誤：let 後不能直接接 trying。",
+            "錯誤：let 後不使用 to try。",
+            "正確：let me try 表示讓我試試。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "Let us die young or let us live forever",
+          "pattern": [
+            {
+              "text": "Let",
+              "fixed": true
+            },
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            },
+            {
+              "text": "[補語]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：let me try 表示讓我試試。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "or 串接兩種選擇",
+          "meaning": "在兩個可能選項之間作選擇。",
+          "usage": "提出替代方案時使用；如原歌所示亦可連接較長的動詞片語。",
+          "prompt": "旅行團只能搭船或坐火車前往小島港口，哪句最清楚？",
+          "options": [
+            "We can take the boat but the train.",
+            "We can take boat or train to.",
+            "We can take the boat and not train or.",
+            "We can take the boat or the train."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：but 主要表示轉折，不能清楚表達二選一。",
+            "錯誤：缺少自然的冠詞與地點資訊，句子未完成。",
+            "錯誤：and not train or 的組合不通順。",
+            "正確：or 連接兩種交通選擇。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "die young or let us live forever",
+          "pattern": [
+            {
+              "text": "[選擇 A]",
+              "fixed": false
+            },
+            {
+              "text": "or",
+              "fixed": true
+            },
+            {
+              "text": "[選擇 B]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：or 連接兩種交通選擇。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "否定句 don’t + 原形動詞",
+          "meaning": "表達現在不具備某物或不做某事。",
+          "usage": "在一般現在式中否定動作或狀態；he/she/it 要用 doesn’t。",
+          "prompt": "機器人沒電，工作人員想解釋它現在不能動，哪句文法正確？",
+          "options": [
+            "It doesn’t has power.",
+            "It doesn’t have power.",
+            "It don’t has power.",
+            "It not have power."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：doesn’t 後不可接 has。",
+            "正確：it 使用 doesn’t，後接 have 原形。",
+            "錯誤：it 不用 don’t，且 have 不加 s。",
+            "錯誤：一般現在式否定缺少助動詞。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "We don't have the power",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "don’t/doesn’t",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            },
+            {
+              "text": "[受詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：it 使用 doesn’t，後接 have 原形。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "never + 原形／一般現在式",
+          "meaning": "強調某事從不發生。",
+          "usage": "描述習慣、態度或原則；歌中另含 never say never 這句慣用語。",
+          "prompt": "朋友遇到困難仍願意試新方法，哪句最好？",
+          "options": [
+            "She doesn’t never gives up easily.",
+            "She is never give up easily.",
+            "She never to gives up.",
+            "She never gives up easily."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：助動詞與動詞形式不對，且不應這樣重複否定。",
+            "錯誤：is never give 結構不成立。",
+            "錯誤：never 後不接 to gives。",
+            "正確：never gives up 描述她從不輕易放棄。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "we never say never",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "never",
+              "fixed": true
+            },
+            {
+              "text": "[一般現在式動詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：never gives up 描述她從不輕易放棄。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "以 -ing 開頭的分詞片語",
+          "meaning": "以 -ing 片語補充同一主詞的同時動作或處境。",
+          "usage": "寫作時應讓片語與主句的實際動作者一致；歌中片語與後續主句較鬆散。",
+          "prompt": "一位畫家坐在河邊畫橋，哪句中的 -ing 片語連接最清楚？",
+          "options": [
+            "Sitting by the river, Mia painted the bridge.",
+            "Sitting by the river, a bird was painted by Mia.",
+            "Sitting by the river, the paint was bright.",
+            "Sitting by the river, the bridge looked tall to Mia."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：Mia 是坐河邊、也是畫橋的人。",
+            "錯誤：主句主詞是鳥，造成片語修飾對象不清楚。",
+            "錯誤：句首片語的動作者不能是顏料。",
+            "錯誤：句首片語看似修飾橋，造成懸垂修飾。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "Sitting in a sandpit",
+          "pattern": [
+            {
+              "text": "[V-ing + 地點／補語]",
+              "fixed": false
+            },
+            {
+              "text": ",",
+              "fixed": true
+            },
+            {
+              "text": "[主句]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Mia 是坐河邊、也是畫橋的人。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "A is B：be 動詞連接名詞",
+          "meaning": "用名詞描述、定義或比喻主詞。",
+          "usage": "表達身分、類別或比喻；歌中把人生比作一趟旅行。",
+          "prompt": "導覽員想介紹一座小建築的用途，哪句是自然的名詞補語句？",
+          "options": [
+            "This building is a museum.",
+            "This building is museum.",
+            "This building is to museum.",
+            "This building a museum."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：is a museum 用名詞說明建築是甚麼。",
+            "錯誤：單數可數名詞 museum 前缺少冠詞。",
+            "錯誤：is to museum 不是表示建築用途的自然結構。",
+            "錯誤：缺少 is。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "life is a short trip",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "is/are",
+              "fixed": true
+            },
+            {
+              "text": "[名詞片語]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：is a museum 用名詞說明建築是甚麼。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "名詞 + for + 人",
+          "meaning": "表達某物是給誰的或用來做甚麼。",
+          "usage": "說明物品、活動或服務的對象與用途時使用。",
+          "prompt": "桌上有兩張票，主辦人要表示是給志工的。哪句合適？",
+          "options": [
+            "These tickets are to volunteers.",
+            "These tickets are of the volunteers.",
+            "These tickets is for the volunteers.",
+            "These tickets are for the volunteers."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：are to 在此不如 for 自然且易誤解。",
+            "錯誤：are of 不表示此處的受贈對象。",
+            "錯誤：複數 tickets 要用 are。",
+            "正確：are for 表示票是給志工的。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "The music's for the sad men",
+          "pattern": [
+            {
+              "text": "[事物]",
+              "fixed": false
+            },
+            {
+              "text": "is for",
+              "fixed": true
+            },
+            {
+              "text": "[人／用途]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：are for 表示票是給志工的。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "Can you imagine + wh-子句",
+          "meaning": "問對方能否想像某件事或場景。",
+          "usage": "引導想像某事件發生時的情景；後接 wh-子句用陳述句語序。",
+          "prompt": "新橋完工後會很漂亮，工程師請大家想像那一天，哪句最好？",
+          "options": [
+            "Can you imagine when does the bridge open?",
+            "Can you imagine when the bridge is open?",
+            "Can you imagine when is the bridge open?",
+            "Can you imagine when will the bridge open?"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：when does the bridge 為直接問句語序。",
+            "正確：when the bridge is open 使用陳述句語序。",
+            "錯誤：when is the bridge 是直接問句的倒裝形式。",
+            "錯誤：間接問句不使用 will the bridge 的倒裝語序。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "Can you imagine when this race is won",
+          "pattern": [
+            {
+              "text": "Can",
+              "fixed": true
+            },
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "imagine",
+              "fixed": true
+            },
+            {
+              "text": "[when/what/how + 子句]",
+              "fixed": false
+            },
+            {
+              "text": "?",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：when the bridge is open 使用陳述句語序。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "被動語態：be + 過去分詞",
+          "meaning": "強調事情被完成或受到某動作影響。",
+          "usage": "施事者不重要或不明時，可使用被動語態。",
+          "prompt": "展示牌想說「獎品由勝出的隊伍領取」，哪句被動語態正確？",
+          "options": [
+            "The prize is given to the winning team.",
+            "The prize giving to the winning team.",
+            "The prize is give to the winning team.",
+            "The prize is gave to the winning team."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：is given 是一般現在式被動語態。",
+            "錯誤：缺少 be，giving 也不是此處所需的被動形式。",
+            "錯誤：is 後需用過去分詞 given。",
+            "錯誤：gave 是過去式，不是過去分詞 given。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "this race is won",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "am/is/are",
+              "fixed": true
+            },
+            {
+              "text": "[過去分詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：is given 是一般現在式被動語態。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "祈使句：動詞原形開頭",
+          "meaning": "提出指示、請求或建議。",
+          "usage": "當要請對方做某個動作時，常省略主詞 you。",
+          "prompt": "攝影師想請大家把椅子轉向窗戶，哪句正確？",
+          "options": [
+            "Turning the chairs toward the window.",
+            "To turn the chairs toward the window.",
+            "Turns the chairs toward the window.",
+            "Turn the chairs toward the window."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：turning 只是片語，不是這裡的直接指令。",
+            "錯誤：to turn 不是完整的祈使句形式。",
+            "錯誤：祈使句開頭不用第三人稱 turns。",
+            "正確：祈使句以 Turn 原形開頭。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "Turn our golden faces into the sun",
+          "pattern": [
+            {
+              "text": "[動詞原形]",
+              "fixed": false
+            },
+            {
+              "text": "[受詞]",
+              "fixed": false
+            },
+            {
+              "text": "[其他內容]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：祈使句以 Turn 原形開頭。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "現在進行式 be getting + 狀態",
+          "meaning": "表示某種狀態正逐漸改變。",
+          "usage": "描述漸漸進入新狀態；歌中指逐漸協調、合拍。",
+          "prompt": "合唱團剛開始聲音不齊，練了十分鐘後越唱越合拍，哪句最好？",
+          "options": [
+            "They are getting in tune now.",
+            "They getting in tune now.",
+            "They are get in tune now.",
+            "They get in tune yesterday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：are getting 表示正在漸漸合拍。",
+            "錯誤：主句缺少 are。",
+            "錯誤：are 後應接 getting。",
+            "錯誤：yesterday 與原形 get 的時間形式不合。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "we're getting in tune",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "am/is/are getting",
+              "fixed": true
+            },
+            {
+              "text": "[狀態／形容詞片語]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：are getting 表示正在漸漸合拍。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "by + 施事者（被動語態）",
+          "meaning": "表示事情由誰執行。",
+          "usage": "當重點是作品或動作結果時，使用被動語態，再以 by 指明動作者。",
+          "prompt": "導覽員介紹一幅畫由兩名學生畫成，哪句自然？",
+          "options": [
+            "The picture painted by two students.",
+            "The picture is painting by two students.",
+            "The picture is paint by two students.",
+            "The picture is painted by two students."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：缺少 is。",
+            "錯誤：painting 不能形成此處的被動句。",
+            "錯誤：is 後應用 painted。",
+            "正確：is painted by 說明畫作的創作者。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "The music's played by the, the mad men",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "is/are",
+              "fixed": true
+            },
+            {
+              "text": "[過去分詞]",
+              "fixed": false
+            },
+            {
+              "text": "by",
+              "fixed": true
+            },
+            {
+              "text": "[動作者]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：is painted by 說明畫作的創作者。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "want to + 原形動詞",
+          "meaning": "表達希望做某事或達到某種狀態。",
+          "usage": "說明意願、願望或目標時使用。",
+          "prompt": "有位孩子很想學會游泳，哪句正確？",
+          "options": [
+            "She wants learn to swim.",
+            "She want to learns to swim.",
+            "She wants to learn to swim.",
+            "She wants to learning to swim."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：wants 後接動詞需加 to。",
+            "錯誤：she 用 wants，to 後用 learn。",
+            "正確：wants to learn 表達想學會游泳。",
+            "錯誤：to 後應用 learn 原形。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "I want to be forever young",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "want(s) to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：wants to learn 表達想學會游泳。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "Do you really want to …?",
+          "meaning": "用 really 強調是否真的有某種願望。",
+          "usage": "想確認對方是否認真想做某事時使用。",
+          "prompt": "隊長想確認隊員是否真的想加入夜間健行，哪個問法合適？",
+          "options": [
+            "Do you really want to join us?",
+            "Do you really wants to join us?",
+            "Do really you want to join us?",
+            "Are you really want to join us?"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：Do you really want to... 語序正確。",
+            "錯誤：do 後的主要動詞不加 s。",
+            "錯誤：really 通常放在主詞後、主要動詞前。",
+            "錯誤：are 不應與 want 在此直接連用。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "Do you really want to live forever",
+          "pattern": [
+            {
+              "text": "Do",
+              "fixed": true
+            },
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "really",
+              "fixed": true
+            },
+            {
+              "text": "want to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            },
+            {
+              "text": "?",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：Do you really want to... 語序正確。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "Some … some … 對比列舉",
+          "meaning": "用 some 分別介紹同一群體的不同部分。",
+          "usage": "說明有些人／物一種情況，另一些則不同；歌中採用比喻。",
+          "prompt": "動物園志工介紹小鳥的行為，哪句符合這種對比？",
+          "options": [
+            "Some birds are sleep, some birds are sing.",
+            "Some birds sleep, some birds sing.",
+            "Some birds sleeping, some birds singing.",
+            "Some birds sleeps, some birds sings."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：are sleep／are sing 形式不對。",
+            "正確：兩個 some 子句對照不同鳥的行為。",
+            "錯誤：兩句缺少作謂語的動詞。",
+            "錯誤：複數 birds 後動詞不加 s。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "Some are like water, some are like the heat",
+          "pattern": [
+            {
+              "text": "Some",
+              "fixed": true
+            },
+            {
+              "text": "[述語]",
+              "fixed": false
+            },
+            {
+              "text": ", some",
+              "fixed": true
+            },
+            {
+              "text": "[述語]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：兩個 some 子句對照不同鳥的行為。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "like + 名詞（比喻）",
+          "meaning": "表示某物在特點上像另一物。",
+          "usage": "使用比喻描述性質，不是動詞 like「喜歡」。",
+          "prompt": "地理老師想說湖面像鏡子，哪句合適？",
+          "options": [
+            "The lake like a mirror.",
+            "The lake likes a mirror.",
+            "The lake is like a mirror.",
+            "The lake is like shine."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：第三人稱主詞後缺少 is。",
+            "錯誤：likes 變成「喜歡」，不是比喻。",
+            "正確：is like a mirror 表示湖面像鏡子。",
+            "錯誤：like 後接 shine 原形動詞不合此比喻。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "Some are like water",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "like",
+              "fixed": true
+            },
+            {
+              "text": "[名詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：is like a mirror 表示湖面像鏡子。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "will + 原形動詞",
+          "meaning": "談未來可能或預計發生的狀態。",
+          "usage": "描述未來事情時使用；will 後接原形。",
+          "prompt": "劇院下個月要裝上新座椅，原有座椅將不在了，哪句正確？",
+          "options": [
+            "The old seats will gone next month.",
+            "The old seats wills be gone next month.",
+            "The old seats will be gone next month.",
+            "The old seats will being gone next month."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：will 後需有 be 才能接 gone。",
+            "錯誤：will 不加 s。",
+            "正確：will be gone 表示到時舊座椅已不在。",
+            "錯誤：will 後不能接 being。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "they all will be gone",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "will",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            },
+            {
+              "text": "[補語]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：will be gone 表示到時舊座椅已不在。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "Why don’t + 主詞 + 原形動詞?",
+          "meaning": "可詢問原因，也可在其他語境中提出建議。",
+          "usage": "歌中是在問為何不能保持年輕；不同情境亦可作委婉建議。",
+          "prompt": "電影院大廳很熱，有人建議大家到外面休息，哪句自然？",
+          "options": [
+            "Why don’t we sit outside?",
+            "Why don’t we to sit outside?",
+            "Why don’t we sitting outside?",
+            "Why doesn’t we sit outside?"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：Why don’t we ...? 可用來提出建議。",
+            "錯誤：don’t 後應接原形，不加 to。",
+            "錯誤：don’t 後不用 sitting。",
+            "錯誤：we 應搭配 don’t。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "Why don't they stay young?",
+          "pattern": [
+            {
+              "text": "Why don’t",
+              "fixed": true
+            },
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            },
+            {
+              "text": "?",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：Why don’t we ...? 可用來提出建議。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "It’s + so + 形容詞 + to V",
+          "meaning": "評論做某件事有多難、多好或多令人驚訝。",
+          "usage": "表達對一個行動或處境的評價。",
+          "prompt": "第一次演戲的學生覺得獨自在台上唱歌很難，哪句正確？",
+          "options": [
+            "It is so hard to singing alone on stage.",
+            "It is so hard sing alone on stage.",
+            "It is so hard to sing alone on stage.",
+            "It so hard to sing alone on stage."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：to 後應接 sing 原形。",
+            "錯誤：hard 後需 to sing。",
+            "正確：It is so hard to sing... 表達做事的難度。",
+            "錯誤：句子缺少 is。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "It's so hard to get old without a cause",
+          "pattern": [
+            {
+              "text": "It’s",
+              "fixed": true
+            },
+            {
+              "text": "so",
+              "fixed": true
+            },
+            {
+              "text": "[形容詞]",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：It is so hard to sing... 表達做事的難度。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "without + 名詞片語",
+          "meaning": "表示缺乏某種東西或條件。",
+          "usage": "說明做事時沒有伴隨的東西或目的；不能把歌中的 without a cause 自動變成 without + V-ing 教學焦點。",
+          "prompt": "園丁發現植物沒有水很難存活，哪句正確？",
+          "options": [
+            "The flowers cannot grow without are water.",
+            "The flowers cannot grow without watering to.",
+            "The flowers cannot grow without to water.",
+            "The flowers cannot grow without water."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：without 後不能接 are water。",
+            "錯誤：watering to 並非此處所需的名詞片語。",
+            "錯誤：介系詞 without 後不接 to water 表示「沒有水」。",
+            "正確：without water 表示缺少水。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "without a cause",
+          "pattern": [
+            {
+              "text": "[主要內容]",
+              "fixed": false
+            },
+            {
+              "text": "without",
+              "fixed": true
+            },
+            {
+              "text": "[名詞片語]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：without water 表示缺少水。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "forget to + 原形動詞",
+          "meaning": "忘記去做某件原本該做的事。",
+          "usage": "描述一件事尚未完成而被忘記；與 forget + -ing 意義不同，但後者未出現在歌中。",
+          "prompt": "合唱團忘了在離開前關燈，哪句自然？",
+          "options": [
+            "They forgot to turned off the lights before leaving.",
+            "They forgot to turn off the lights before leaving.",
+            "They forgot turning off the lights before leaving.",
+            "They forgot turn off the lights before leaving."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：to 後要用 turn 原形。",
+            "正確：forgot to turn off 表示沒記得關燈。",
+            "錯誤：此語境需表達忘記要做的事，不能用 turning off。",
+            "錯誤：forgot 後缺少 to。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "we forgot to play",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "forget/forgot to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：forgot to turn off 表示沒記得關燈。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "So many + 複數名詞",
+          "meaning": "強調數量非常多。",
+          "usage": "表示可數物品或事件很多；不可直接用 many 修飾不可數名詞。",
+          "prompt": "科技展裡有許多不同的模型，哪句自然？",
+          "options": [
+            "There is so many robots at the show.",
+            "There are so many robot at the show.",
+            "There are so many robots at the show.",
+            "There are so many furniture at the show."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：複數 robots 要搭配 are。",
+            "錯誤：many 後的可數名詞要用複數 robots。",
+            "正確：so many robots 表示很多機器人。",
+            "錯誤：furniture 是不可數名詞，不可直接用 many。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "So many adventures couldn't happen today",
+          "pattern": [
+            {
+              "text": "So many",
+              "fixed": true
+            },
+            {
+              "text": "[可數複數名詞]",
+              "fixed": false
+            },
+            {
+              "text": "[述語]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：so many robots 表示很多機器人。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 29,
+          "word": "couldn’t + 原形動詞",
+          "meaning": "表示在特定情況下無法做到或不可能發生。",
+          "usage": "談過去能力或假設條件下的可能性，要依上下文判斷。",
+          "prompt": "館長想說上週機器故障，因此無法開門，哪句正確？",
+          "options": [
+            "The museum couldn’t open last week.",
+            "The museum couldn’t to open last week.",
+            "The museum couldn’t opening last week.",
+            "The museum couldn’t opened last week."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：couldn’t open 表示上週無法開放。",
+            "錯誤：couldn’t 後不加 to。",
+            "錯誤：couldn’t 後不接 opening。",
+            "錯誤：couldn’t 後不用過去式 opened。"
+          ],
+          "sourceFile": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 29,
+          "cue": "couldn't happen today",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "couldn’t",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：couldn’t open 表示上週無法開放。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "7f7c9ead0137745a0446d672a7520b02ea6a141c1fb8f0a9ffa548a11b5b6456"
+    }
+  ]
 }

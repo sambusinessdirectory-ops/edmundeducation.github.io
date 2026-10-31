@@ -3241,5 +3241,1672 @@
     "method": "faster-whisper-word-alignment-with-targeted-section-review",
     "audioSha256": "7211cdc9385d9c2c2145973d25846235ed41093d7cab44c0edff3b68dc6ceba3",
     "duration": 307.188375
-  }
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Draw someone in（B2）",
+          "meaning": "吸引某人，使人想繼續了解或參與",
+          "usage": "形容故事、展覽、演講或人的魅力讓人不自覺投入；強調吸引力，而不是用筆畫畫。",
+          "prompt": "哪一句最自然、正確地使用「Draw someone in」的上述意思？",
+          "options": [
+            "The museum map drew the entrance in with a large blue arrow.",
+            "The new printer drew our invoices in with a broken paper tray.",
+            "The chef drew his soup in when the kitchen became too hot.",
+            "The opening scene drew the audience in before anyone said a word."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：此處是在地圖上畫入口，應用 drew the entrance，而非此片語的吸引義。",
+            "錯誤：印表機卡紙不表示「吸引某人投入」；可說 the printer jammed。",
+            "錯誤：廚師處理湯的動作不會用 draw someone in；可說 removed the soup。",
+            "正確：精彩的開場吸引觀眾投入，正是 draw someone in 的比喻用法。"
+          ],
+          "sourceFile": "All_Of_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Drawin' me in（來自提供的歌詞；僅列必要的短片段）",
+          "explanation": "正確：精彩的開場吸引觀眾投入，正是 draw someone in 的比喻用法。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "Kick someone out（B1–B2）",
+          "meaning": "把某人趕出去；將某人逐出某個地方或團體",
+          "usage": "當某人被迫離開社團、房間或活動時使用；語氣通常比 ask someone to leave 強烈。",
+          "prompt": "哪一句最自然、正確地使用「Kick someone out」的上述意思？",
+          "options": [
+            "The waiter kicked the menu out because it contained too many pages.",
+            "The gardener kicked the rain out when the garden became too wet.",
+            "The club kicked Ben out after he repeatedly broke the rules.",
+            "The artist kicked her colours out before opening the paint shop."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：菜單頁數太多可說 shortened the menu，不是逐出某人。",
+            "錯誤：不能把雨像成員一樣逐出花園；可說 the rain stopped。",
+            "正確：Ben 違反規則，因此被社團除名，符合 kick someone out。",
+            "錯誤：顏料不是被逐出團體的人；可說 removed the paints。"
+          ],
+          "sourceFile": "All_Of_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "kickin' me out（來自提供的歌詞；僅列必要的短片段）",
+          "explanation": "正確：Ben 違反規則，因此被社團除名，符合 kick someone out。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "Make someone’s head spin（B2）",
+          "meaning": "使某人頭昏腦脹；讓人因資訊或變化太多而無法招架",
+          "usage": "用來形容複雜資訊、驚人變化或強烈情緒令人不知所措；不限於身體真的暈眩。",
+          "prompt": "哪一句最自然、正確地使用「Make someone’s head spin」的上述意思？",
+          "options": [
+            "The athlete made the stadium spin by running around the same track.",
+            "The painter made her brushes spin while washing them in the sink.",
+            "The sudden changes made my head spin during the first meeting.",
+            "The mechanic made the engine spin after repairing its broken belt."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：跑步不會使整座體育場真的旋轉；也不是此處的比喻義。",
+            "錯誤：刷子在水中打轉是物理動作，不是頭昏腦脹的意思。",
+            "正確：會議中突如其來的變動令人無法招架，符合 head spin 的比喻義。",
+            "錯誤：引擎旋轉可說 made the engine spin，不是使人不知所措。"
+          ],
+          "sourceFile": "All_Of_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "head spinnin'（來自提供的歌詞；僅列必要的短片段）",
+          "explanation": "正確：會議中突如其來的變動令人無法招架，符合 head spin 的比喻義。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "Pin someone down（C1）",
+          "meaning": "讓某人明確表態；從某人口中取得確切答案",
+          "usage": "對方不肯確定時間、數字或承諾時使用；此題聚焦「取得明確答覆」，不是把人壓住。",
+          "prompt": "哪一句最自然、正確地使用「Pin someone down」的上述意思？",
+          "options": [
+            "The singer pinned her voice down because the concert was too loud.",
+            "The driver pinned the traffic down with a paper map and some tape.",
+            "The doctor pinned the weather down before leaving for the hospital.",
+            "We tried to pin the manager down about the final delivery date."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：控制音量可說 lowered her voice，不是要求嗓音明確表態。",
+            "錯誤：地圖和膠帶無法讓交通「作出承諾」；可說 studied the traffic map。",
+            "錯誤：天氣不是能被要求明確表態的人；可說 checked the forecast。",
+            "正確：希望經理確定交貨日期，符合 pin someone down 的意思。"
+          ],
+          "sourceFile": "All_Of_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "pin you down（來自提供的歌詞；僅列必要的短片段）",
+          "explanation": "正確：希望經理確定交貨日期，符合 pin someone down 的意思。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "Edges (figurative)（B2）",
+          "meaning": "個性中的尖銳之處；不容易相處的一面",
+          "usage": "歌中的 edges 與優點並列，可理解為一個人有稜角、不完美的一面；不只指物體邊緣。",
+          "prompt": "哪一句最自然、正確地使用「Edges (figurative)」的上述意思？",
+          "options": [
+            "The team valued her sharp edges because she asked difficult questions.",
+            "The computer showed friendly edges after we installed the update.",
+            "The suitcase had emotional edges because its wheels were too small.",
+            "The classroom had honest edges because the windows faced the road."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：她敢提出尖銳問題，雖不好應付，卻是個性上值得尊重的一面。",
+            "錯誤：電腦更新不會因此擁有人的「個性稜角」；可說 the interface improved。",
+            "錯誤：行李箱輪子太小是實際設計問題，不是人格中的稜角。",
+            "錯誤：窗戶朝向馬路不代表教室有「誠實的個性」。"
+          ],
+          "sourceFile": "All_Of_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "all your edges（來自提供的歌詞；僅列必要的短片段）",
+          "explanation": "正確：她敢提出尖銳問題，雖不好應付，卻是個性上值得尊重的一面。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "Imperfection（B2）",
+          "meaning": "缺點；不完美之處；瑕疵",
+          "usage": "可以形容作品、人物或計畫中不完美的小地方；有時這些缺點反而使事物有特色。",
+          "prompt": "哪一句最自然、正確地使用「Imperfection」的上述意思？",
+          "options": [
+            "The librarian rented three imperfections to readers on Monday morning.",
+            "The tiny imperfection made the handmade bowl feel more personal.",
+            "The pilot painted an imperfection into the weather before taking off.",
+            "The chef measured the imperfection in kilometres before serving dinner."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：imperfection 不是圖書館可出租的書本種類。",
+            "正確：手製碗上的小瑕疵令它更有個性，符合 imperfection。",
+            "錯誤：天氣不能像物品一樣畫入瑕疵；可說 predicted bad weather。",
+            "錯誤：瑕疵不是用公里丈量的距離；可說 measured the crack。"
+          ],
+          "sourceFile": "All_Of_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "perfect imperfections（來自提供的歌詞；僅列必要的短片段）",
+          "explanation": "正確：手製碗上的小瑕疵令它更有個性，符合 imperfection。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "Downfall（C1）",
+          "meaning": "衰敗或失敗的原因；使人走向失敗的事物",
+          "usage": "常用於人物、企業或計畫因某個弱點或決定而失敗；可說 be someone’s downfall。",
+          "prompt": "哪一句最自然、正確地使用「Downfall」的上述意思？",
+          "options": [
+            "The musician packed her downfall beside the guitar before leaving.",
+            "His refusal to listen became his downfall as the business collapsed.",
+            "The swimmer called the pool her downfall because the water was blue.",
+            "The baker found his downfall under the counter next to the flour."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：downfall 不是可裝入樂器袋的工具或物品。",
+            "正確：拒絕聽取意見導致生意失敗，符合 downfall 的因果意思。",
+            "錯誤：泳池是藍色不足以構成導致失敗的原因；語境不成立。",
+            "錯誤：downfall 不是能在櫃檯下找到的實體物品。"
+          ],
+          "sourceFile": "All_Of_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "my downfall（來自提供的歌詞；僅列必要的短片段）",
+          "explanation": "正確：拒絕聽取意見導致生意失敗，符合 downfall 的因果意思。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "Muse（C1）",
+          "meaning": "靈感泉源；啟發創作的人或事物",
+          "usage": "談藝術、音樂或寫作中持續帶來創作靈感的人、地方或事物；不是一般的助手。",
+          "prompt": "哪一句最自然、正確地使用「Muse」的上述意思？",
+          "options": [
+            "The old seaside town became her muse for a series of paintings.",
+            "The dentist replaced the muse after it stopped working on Tuesday.",
+            "The engineer used a muse to tighten the bolts on the old bridge.",
+            "The manager hired a muse to deliver sandwiches to the sales team."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：海邊小鎮啟發一系列畫作，是畫家的 muse。",
+            "錯誤：muse 不是牙醫診所可更換的機器零件。",
+            "錯誤：鎖螺絲需要工具，不是創作靈感來源；可說 used a wrench。",
+            "錯誤：負責送三明治的人是外送員，不一定是 muse。"
+          ],
+          "sourceFile": "All_Of_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "my muse（來自提供的歌詞；僅列必要的短片段）",
+          "explanation": "正確：海邊小鎮啟發一系列畫作，是畫家的 muse。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "Distraction（B2）",
+          "meaning": "使人分心的事物；注意力的干擾來源",
+          "usage": "當通知、聲音、想法或某個活動妨礙專注時使用，通常指注意力被帶離原本任務。",
+          "prompt": "哪一句最自然、正確地使用「Distraction」的上述意思？",
+          "options": [
+            "The farmer planted distractions because the carrots grew too slowly.",
+            "The scientist drank a distraction from a large glass at lunch.",
+            "The flashing signs were a distraction during the driving test.",
+            "The dancer wore a distraction because the stage was rather cold."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：農夫種植的是作物，不是為分心而種下的「干擾」。",
+            "錯誤：distraction 不是裝在杯中能喝下去的飲料。",
+            "正確：閃爍的標誌使駕駛考生難以集中精神，是 distraction。",
+            "錯誤：distraction 不是禦寒的衣物；可說 wore a jacket。"
+          ],
+          "sourceFile": "All_Of_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "worst distraction（來自提供的歌詞；僅列必要的短片段）",
+          "explanation": "正確：閃爍的標誌使駕駛考生難以集中精神，是 distraction。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "Put one’s cards on the table（C1）",
+          "meaning": "攤牌；坦白說明立場、意圖或真實想法",
+          "usage": "當談判或重要對話需要公開自己的想法、條件或隱瞞的資訊時使用；源自紙牌遊戲的比喻。",
+          "prompt": "哪一句最自然、正確地使用「Put one’s cards on the table」的上述意思？",
+          "options": [
+            "The driver put his cards on the table to check the tyre pressure.",
+            "Before the vote, the director put her cards on the table.",
+            "The pilot put her cards on the table to count the airport gates.",
+            "The actor put his cards on the table to repair the stage lights."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：檢查胎壓不涉及攤牌；可說 checked the tyre pressure。",
+            "正確：投票前公開自己的立場，符合 put one’s cards on the table。",
+            "錯誤：清點登機門與公開真實想法無關。",
+            "錯誤：修理舞台燈需要工具；此處沒有坦白立場的語境。"
+          ],
+          "sourceFile": "All_Of_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "Cards on the table（來自提供的歌詞；僅列必要的短片段）",
+          "explanation": "正確：投票前公開自己的立場，符合 put one’s cards on the table。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "Risk it all（B2–C1）",
+          "meaning": "孤注一擲；冒著失去一切的風險",
+          "usage": "用於重大決定中，願意把金錢、事業或重要關係置於風險之中；比 take a risk 更強烈。",
+          "prompt": "哪一句最自然、正確地使用「Risk it all」的上述意思？",
+          "options": [
+            "The child risked it all by choosing a different flavour of ice cream.",
+            "The tourist risked it all by ordering tea instead of coffee.",
+            "The accountant risked it all by buying one ordinary notebook.",
+            "She risked it all by investing her savings in the new studio."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：選冰淇淋口味通常不是可能失去一切的重大風險。",
+            "錯誤：茶和咖啡之間的選擇通常不構成極大風險。",
+            "錯誤：買一本普通筆記本通常沒有孤注一擲的程度。",
+            "正確：將積蓄投入新工作室可能帶來巨大損失，符合 risk it all。"
+          ],
+          "sourceFile": "All_Of_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "Risking it all（來自提供的歌詞；僅列必要的短片段）",
+          "explanation": "正確：將積蓄投入新工作室可能帶來巨大損失，符合 risk it all。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "Beat someone down（C1）",
+          "meaning": "持續打擊某人，使其疲憊、失去信心或意志",
+          "usage": "形容壓力、批評或艱難處境逐漸消磨人的精神；這裡不是比賽中打敗對手。",
+          "prompt": "哪一句最自然、正確地使用「Beat someone down」的上述意思？",
+          "options": [
+            "Months of harsh criticism beat her down, but she kept creating.",
+            "The builder beat the ladder down before painting the ceiling.",
+            "The teacher beat the timetable down to make lessons shorter.",
+            "The football coach beat the whistle down because it was too loud."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：長期尖銳批評使人失去信心，符合 beat someone down 的比喻義。",
+            "錯誤：梯子不是會因批評失去信心的人；可說 took the ladder down。",
+            "錯誤：縮短課表可說 shortened the timetable，不是讓課表精神受挫。",
+            "錯誤：哨子聲太大可說 stopped blowing the whistle，不是消磨哨子的意志。"
+          ],
+          "sourceFile": "All_Of_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "beating you down（來自提供的歌詞；僅列必要的短片段）",
+          "explanation": "正確：長期尖銳批評使人失去信心，符合 beat someone down 的比喻義。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "What would + subject + verb + without ...?",
+          "meaning": "假設缺少某個重要的人或物，會怎麼辦。",
+          "usage": "想指出某樣東西很重要，並想像沒有它的情況時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "What would we do without a map? We are lost, and nobody knows the way.",
+            "What would you do without water? We have plenty of water and need nothing else.",
+            "What would I do without my glasses? I am wearing them and can see clearly.",
+            "What would we do without a map? We have three good maps with us."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "沒有地圖又迷路，提問正好表達缺少重要工具的困難。",
+            "有足夠的水卻又說沒有水，情境互相矛盾。",
+            "眼鏡正戴在臉上，後面的描述沒有維持「沒有眼鏡」的假設。",
+            "已經有多張地圖，與假設沒有地圖的情境不一致。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "What would I do without",
+          "pattern": [
+            {
+              "text": "What would",
+              "fixed": true
+            },
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            },
+            {
+              "text": "without",
+              "fixed": true
+            },
+            {
+              "text": "[人／事物]",
+              "fixed": false
+            },
+            {
+              "text": "?",
+              "fixed": true
+            }
+          ],
+          "example": "What would we do without a map?",
+          "explanation": "沒有地圖又迷路，提問正好表達缺少重要工具的困難。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "draw + object + in",
+          "meaning": "某件事吸引人，令對方想繼續了解或參與。",
+          "usage": "描述故事、表演或有趣活動讓人投入時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "The puppet show drew the children in; they watched until the end.",
+            "The slow talk drew us in, so everyone left before it began.",
+            "The empty box drew us in because we had no interest in it.",
+            "The dull film drew her in, so she turned it off after one minute."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "孩子看完整場木偶劇，清楚表現被節目吸引。",
+            "大家尚未開始便離開，與被吸引投入不相符。",
+            "完全沒有興趣，不足以支持被吸引的意思。",
+            "立即關掉電影，與投入觀看的意思衝突。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "Drawin’ me in",
+          "pattern": [
+            {
+              "text": "[事物／人]",
+              "fixed": false
+            },
+            {
+              "text": "draw",
+              "fixed": true
+            },
+            {
+              "text": "[對象]",
+              "fixed": false
+            },
+            {
+              "text": "in",
+              "fixed": true
+            }
+          ],
+          "example": "The story drew us in.",
+          "explanation": "孩子看完整場木偶劇，清楚表現被節目吸引。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "have got + object + -ing",
+          "meaning": "使某人或某物進入持續動作或狀態。",
+          "usage": "描述某件事造成眼前持續的反應時；此句型偏口語。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "The loud music has got us dancing, but we are all sitting still in silence.",
+            "The cold wind has got the flags moving, but all the flags are completely still.",
+            "The joke has got the whole table laughing; nobody can stop smiling.",
+            "The funny show has got everyone laughing, but nobody has smiled once."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "正在跳舞與全體靜坐形成直接矛盾。",
+            "旗子完全不動，與風使旗子擺動相矛盾。",
+            "笑話造成持續發笑，符合 have got + 受詞 + -ing。",
+            "聲稱大家正在笑，卻說沒有人笑過，互相矛盾。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "got my head spinnin’",
+          "pattern": [
+            {
+              "text": "[人／事物]",
+              "fixed": false
+            },
+            {
+              "text": "have/has got",
+              "fixed": true
+            },
+            {
+              "text": "[對象]",
+              "fixed": false
+            },
+            {
+              "text": "[動詞-ing]",
+              "fixed": false
+            }
+          ],
+          "example": "That ride has got my head spinning.",
+          "explanation": "笑話造成持續發笑，符合 have got + 受詞 + -ing。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "cannot + base verb",
+          "meaning": "表示沒有能力或無法做到某事。",
+          "usage": "要說明能力限制，而不是單純不想做時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "I can’t open the jar, so I open it easily at once.",
+            "I can’t reach the top shelf, so I ask a taller friend for help.",
+            "I can’t read this sign because the words are very clear to me.",
+            "I can’t swim, so I am swimming across the lake alone with no help."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "無法開罐與立即輕鬆打開互相矛盾。",
+            "拿不到高處物品而求助，符合能力不足的功能。",
+            "字很清楚本身不能解釋看不懂，因果不通。",
+            "聲稱不會游泳卻獨自游過湖，描述不一致。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "I can’t pin you down",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "cannot/can’t",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "example": "I cannot reach the top shelf.",
+          "explanation": "拿不到高處物品而求助，符合能力不足的功能。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "What is going on ...?",
+          "meaning": "詢問正在發生甚麼事情。",
+          "usage": "聽到奇怪聲音、看到混亂或不明情況時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "Why is everyone running? What is going on outside?",
+            "Everything is calm and clear. What is going on? I know exactly what is happening.",
+            "What is going on in my shoes? I want to know their price.",
+            "What is going on at five pounds? I want to pay for a ticket."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "大家突然跑動，詢問正在發生甚麼事很合理。",
+            "已完全知道情況，卻又用此句型詢問，語境不協調。",
+            "想問價格應問 how much，不是 going on。",
+            "想買票並詢問價錢，going on 不適用。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "What’s goin’ on",
+          "pattern": [
+            {
+              "text": "What",
+              "fixed": true
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "going on",
+              "fixed": true
+            },
+            {
+              "text": "[地點／情況]",
+              "fixed": false
+            },
+            {
+              "text": "?",
+              "fixed": true
+            }
+          ],
+          "example": "What is going on outside?",
+          "explanation": "大家突然跑動，詢問正在發生甚麼事很合理。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "so + adjective",
+          "meaning": "強調某種狀態或感覺的程度很高。",
+          "usage": "想表達特別累、冷、熱、開心或驚訝時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "The path is so easy that no one can find the way because it is too hard.",
+            "The clown is so funny that the children cannot stop laughing.",
+            "The water is so cold that we feel very warm when we touch it.",
+            "The room is so quiet that we cannot hear anyone because everyone is shouting."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "同時說路很容易與太難，意思衝突。",
+            "小丑非常好笑，造成孩子笑不停，程度與結果相符。",
+            "水很冷卻因觸摸而感到很暖，前後不合。",
+            "大家都在大叫，與房間極安靜的描述矛盾。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "I’m so dizzy",
+          "pattern": [
+            {
+              "text": "[人／事物]",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "so",
+              "fixed": true
+            },
+            {
+              "text": "[形容詞]",
+              "fixed": false
+            }
+          ],
+          "example": "The ice is so cold.",
+          "explanation": "小丑非常好笑，造成孩子笑不停，程度與結果相符。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "do not know + embedded what-clause",
+          "meaning": "表示不知道某件事的答案或原因；what 後使用間接問句語序。",
+          "usage": "不清楚是甚麼東西造成某件事時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "I do not know what did the noise make. I want to find out.",
+            "I do not know what opened the gate; I watched my sister open it myself.",
+            "I do not know what made the noise; I am going to look outside.",
+            "I do not know what is in the box; I opened it and clearly saw every item, so there is no question."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "嵌入式問句的字序不適合這個意思。",
+            "親眼看見妹妹開門，與不知道是甚麼開門矛盾。",
+            "不知聲音來源並打算查看，符合不知道答案的功能。",
+            "已明確看見盒內所有物品，便不是不知道內容。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "don’t know what hit me",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "do/does not know",
+              "fixed": true
+            },
+            {
+              "text": "what",
+              "fixed": true
+            },
+            {
+              "text": "[主語／動詞]",
+              "fixed": false
+            }
+          ],
+          "example": "I do not know what made that sound.",
+          "explanation": "不知聲音來源並打算查看，符合不知道答案的功能。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "will + base verb (reassurance)",
+          "meaning": "表達對將來的預期或安慰對方。",
+          "usage": "遇到困難時，告訴別人自己以後會沒事。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "I will be fine after some rest, but I say that rest can never help me.",
+            "I feel tired now, but I will be fine after a good sleep.",
+            "I will be fine tomorrow, which means I felt fine yesterday only.",
+            "I will be fine next week, so I am describing only what happened last year."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "說休息會改善卻又完全否認，理由不一致。",
+            "現在疲倦但相信睡後好轉，是合適的未來安慰。",
+            "will 談未來，不是只描述昨天。",
+            "未來預期不能被解作只描述去年的事。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "I’ll be alright",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "will",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞／be + 形容詞]",
+              "fixed": false
+            }
+          ],
+          "example": "I will be fine after some rest.",
+          "explanation": "現在疲倦但相信睡後好轉，是合適的未來安慰。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "but + contrasting clause",
+          "meaning": "把兩個形成反差的情況連起來。",
+          "usage": "結果與前一個情況的常見預期不同時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "The ice is cold, but it is not warm.",
+            "The little boat is old, but it still works well in the sea.",
+            "He likes soup, but he enjoys soup.",
+            "The lights are on, but they are not off."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "冷與不暖是同一意思，沒有明確反差。",
+            "船雖然舊但仍然好用，構成有意義的轉折。",
+            "前後都表示喜歡湯，只是重複。",
+            "燈亮與沒關都是同一事實。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "under water, but",
+          "pattern": [
+            {
+              "text": "[先提出的情況]",
+              "fixed": false
+            },
+            {
+              "text": "but",
+              "fixed": true
+            },
+            {
+              "text": "[出乎意料的另一情況]",
+              "fixed": false
+            }
+          ],
+          "example": "The boat is small, but it is strong.",
+          "explanation": "船雖然舊但仍然好用，構成有意義的轉折。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "because / ’cause + reason",
+          "meaning": "交代某個說法、情緒或決定的原因。",
+          "usage": "別人問為甚麼，或需要解釋行動的理由時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "I put the cake away because I wanted to eat it right now, and nobody could stop me.",
+            "I left early because I wanted to arrive late, and this always made me late.",
+            "I left early because my train was at six and I needed to catch it.",
+            "I closed my eyes because I wanted to read the tiny words better."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "想立刻吃蛋糕卻把蛋糕收起，行動與目的相反。",
+            "想遲到不通常需要提早離開，理由相反。",
+            "提早離開是為了趕六點的火車，因果合理。",
+            "閉眼不能幫助閱讀小字，理由不合理。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "’Cause all of me",
+          "pattern": [
+            {
+              "text": "[結果／說法]",
+              "fixed": false
+            },
+            {
+              "text": "because",
+              "fixed": true
+            },
+            {
+              "text": "[完整原因句]",
+              "fixed": false
+            }
+          ],
+          "example": "I stayed home because the road was closed.",
+          "explanation": "提早離開是為了趕六點的火車，因果合理。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "all of + pronoun/noun",
+          "meaning": "表示某人或某物的全部，而不只是一部分。",
+          "usage": "強調完整數量、整個群體或全體時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "All of us got on the boat; not one person stayed behind.",
+            "All of my apples are gone, but I still have every one of them.",
+            "All of the children came, but half the children did not come.",
+            "All of the candles were lit, but not one candle had a light."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "全體上船且無人留下，符合 all of 的完整性。",
+            "全都沒了卻仍一個不少，意思衝突。",
+            "一半沒到便不是全部都到。",
+            "全部點亮卻說一根都沒有亮，前後矛盾。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "all of me",
+          "pattern": [
+            {
+              "text": "all of",
+              "fixed": true
+            },
+            {
+              "text": "[代名詞／限定詞加名詞]",
+              "fixed": false
+            }
+          ],
+          "example": "All of us joined the game.",
+          "explanation": "全體上船且無人留下，符合 all of 的完整性。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "imperative: base verb + object",
+          "meaning": "直接提出請求、指示或命令；通常省略 you。",
+          "usage": "需要告訴別人立即做某件事時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "Hold this rope while I climb onto the boat.",
+            "You closing the gate, please, is a complete standard imperative.",
+            "Close the gate, but please leave the gate open exactly as it is.",
+            "Please to bring the ropes here before we start."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "以原形動詞 Hold 直接給出清楚指示。",
+            "這不是標準的原形動詞祈使句形式。",
+            "關門卻又要求保持原狀敞開，指示互相衝突。",
+            "祈使句不用 to bring 起首。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "Give your all to me",
+          "pattern": [
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            },
+            {
+              "text": "[受詞]",
+              "fixed": false
+            },
+            {
+              "text": "[其他內容]",
+              "fixed": false
+            }
+          ],
+          "example": "Please close the gate.",
+          "explanation": "以原形動詞 Hold 直接給出清楚指示。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "give + indirect object + direct object",
+          "meaning": "說明某人把東西交給誰；接收者放在物品前。",
+          "usage": "講禮物、轉交物品或分享東西時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "The singer gave the crowd to a song.",
+            "The guide gave a map the guests at the gate.",
+            "She gave to her friend a shell without anything else after the verb.",
+            "The cook gave the children some cake, so each child had a piece."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "將人群當作給予的東西，意思及語序不合。",
+            "指定語序應為 gave the guests a map。",
+            "這裡沒有使用給予者＋接受者＋物品的指定結構。",
+            "gave the children some cake 正確呈現兩個受詞。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "give you all of me",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "give",
+              "fixed": true
+            },
+            {
+              "text": "[收取者]",
+              "fixed": false
+            },
+            {
+              "text": "[物品]",
+              "fixed": false
+            }
+          ],
+          "example": "She gave him a small gift.",
+          "explanation": "gave the children some cake 正確呈現兩個受詞。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "give + direct object + to + recipient",
+          "meaning": "把物品放在前面，再用 to 指出接收者。",
+          "usage": "想強調交出的物品，再交代收到的人時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "I gave to the key my neighbour to open the gate.",
+            "I gave my neighbour to the key because the key was hungry.",
+            "I gave the map to Monday so it could find its home.",
+            "I gave the spare key to my neighbour so she could open the gate."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "to 放錯位置，應說 gave the key to my neighbour。",
+            "把鄰居交給鑰匙不合語意，且接受者位置錯。",
+            "星期一不是可以接收地圖的人或地方。",
+            "先說 spare key，接著用 to 指接收者，語序正確。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "give my all to you",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "give",
+              "fixed": true
+            },
+            {
+              "text": "[物品]",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "[收取者]",
+              "fixed": false
+            }
+          ],
+          "example": "I gave the ticket to my sister.",
+          "explanation": "先說 spare key，接著用 to 指接收者，語序正確。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "You are my X and my Y (parallel noun complements)",
+          "meaning": "用兩個並列名詞描述同一人或事物的不同角色。",
+          "usage": "想同時呈現兩種身份或兩個方面時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "The new building is our home and our school, but nobody lives or studies in it.",
+            "The small hut is our home and our shop, but we never live or work there.",
+            "The old bus is our library and our classroom; we read and learn inside it.",
+            "This is my teacher and my neighbour, but I have never met her and she teaches nobody."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "既無人居住亦無人上課，不支持所列身份。",
+            "既沒有住也沒工作，不能支持這兩種身份。",
+            "同一輛車既是圖書館又是教室，並列身份清晰。",
+            "沒有教人亦沒有認識，不支持 teacher 和 neighbour 兩個身份。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "my end and my beginnin’",
+          "pattern": [
+            {
+              "text": "[人／事物]",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "[名詞一]",
+              "fixed": false
+            },
+            {
+              "text": "and",
+              "fixed": true
+            },
+            {
+              "text": "[名詞二]",
+              "fixed": false
+            }
+          ],
+          "example": "This room is our shop and our home.",
+          "explanation": "同一輛車既是圖書館又是教室，並列身份清晰。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "even when + clause",
+          "meaning": "某情況即使發生，另一個事實仍然成立；強調多種時間或情況。",
+          "usage": "想表達無論遇到某種困難，結果仍不變時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "Even when the lights are on, the room has light because of the lights.",
+            "Even when it is sunny, the sun is in the sky.",
+            "Even when it rains, the ground gets wet because rain is water.",
+            "Even when it rains, the outdoor market stays open under a big roof."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "開燈有光是正常結果，不表達反預期。",
+            "晴天看見太陽屬正常情況，沒有明顯讓步。",
+            "地面被雨淋濕是預期結果，沒有明顯讓步。",
+            "下雨仍繼續開市，並說明有屋頂，形成讓步。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "Even when I lose",
+          "pattern": [
+            {
+              "text": "even when",
+              "fixed": true
+            },
+            {
+              "text": "[即使出現的情況]",
+              "fixed": false
+            },
+            {
+              "text": ",",
+              "fixed": true
+            },
+            {
+              "text": "[仍然成立的結果]",
+              "fixed": false
+            }
+          ],
+          "example": "Even when it rains, the market stays open.",
+          "explanation": "下雨仍繼續開市，並說明有屋頂，形成讓步。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "How many times + do + subject + have to + verb?",
+          "meaning": "詢問必須做某件事多少次，有時帶不耐煩或強調。",
+          "usage": "某工作重複多次，想知道還要做多少次時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "How many times do I have to cut the bread? I want to know its colour.",
+            "How many times do we have to paint the wall? We only want to know the price of one brush.",
+            "How many times do we have to ring the bell? Nobody has heard us yet.",
+            "How many times do I have to bring my hat? I am only asking where it is."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "問切幾次與只想知道麵包顏色不一致。",
+            "問次數不能回答刷子的價錢。",
+            "一直沒人聽見鈴聲，所以詢問需要再按幾次合理。",
+            "問重複攜帶次數與詢問帽子位置不一致。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "How many times do I have to",
+          "pattern": [
+            {
+              "text": "How many times",
+              "fixed": true
+            },
+            {
+              "text": "do/does",
+              "fixed": true
+            },
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "have to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            },
+            {
+              "text": "?",
+              "fixed": true
+            }
+          ],
+          "example": "How many times do we have to check the gate?",
+          "explanation": "一直沒人聽見鈴聲，所以詢問需要再按幾次合理。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "present continuous: be + -ing",
+          "meaning": "描述現在或暫時正在進行的活動。",
+          "usage": "指出此刻眼前正在發生的事時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "My aunt is cooking now, although she has not entered the kitchen and will cook tomorrow.",
+            "The dog is running now, but it has stayed asleep all afternoon without moving.",
+            "The children are building a sandcastle now, but they will start for the first time next week.",
+            "The children are building a sandcastle now; we can see them making it."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "還未進廚房且明天才開始，不是現在正在煮。",
+            "正在跑與整個下午沉睡不動互相衝突。",
+            "現在正在做與下週才第一次開始互相矛盾。",
+            "眼前正看見孩子堆沙堡，符合現在進行式。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "you’re crying",
+          "pattern": [
+            {
+              "text": "[人／事物]",
+              "fixed": false
+            },
+            {
+              "text": "am/is/are",
+              "fixed": true
+            },
+            {
+              "text": "[動詞-ing]",
+              "fixed": false
+            }
+          ],
+          "example": "The children are building a sandcastle.",
+          "explanation": "眼前正看見孩子堆沙堡，符合現在進行式。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "through + period or experience",
+          "meaning": "表示經歷整段期間或穿越某段過程。",
+          "usage": "想強調從頭到尾陪伴、努力或堅持時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "The team worked through the night and finished at sunrise.",
+            "She stayed awake through the film, but slept from the first minute until the end.",
+            "We stayed together through the storm, but we left before it started.",
+            "We walked through the forest, but we never entered the forest."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "通宵工作到日出，清楚表達整段時間。",
+            "由頭到尾睡著，不是全程保持清醒。",
+            "風暴開始前已離開，並非經歷整場風暴。",
+            "從未進入森林便不是穿過森林。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "Through every mood",
+          "pattern": [
+            {
+              "text": "through",
+              "fixed": true
+            },
+            {
+              "text": "[一段時間／一種經歷]",
+              "fixed": false
+            }
+          ],
+          "example": "We worked through the night.",
+          "explanation": "通宵工作到日出，清楚表達整段時間。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "cannot stop + -ing",
+          "meaning": "無法停止持續做某件事。",
+          "usage": "遇到太好笑、太有趣或太吸引人的事，停不下來時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "I cannot stop eating the cake, so I have not eaten any of it.",
+            "I cannot stop laughing, but I have stayed silent and never smiled.",
+            "I cannot stop reading, because I have never started the book.",
+            "I cannot stop dancing when this song plays; my feet keep moving."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "停不下來吃卻完全沒有吃，說法衝突。",
+            "笑不停卻從未笑過，意思矛盾。",
+            "從未開始讀，不能說讀得停不下來。",
+            "音樂一響就一直跳舞，符合無法停止的意思。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "can’t stop singing",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "cannot/can’t stop",
+              "fixed": true
+            },
+            {
+              "text": "[動詞-ing]",
+              "fixed": false
+            }
+          ],
+          "example": "I cannot stop smiling at the picture.",
+          "explanation": "音樂一響就一直跳舞，符合無法停止的意思。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "though + clause (concession)",
+          "meaning": "即使存在困難，主要行動仍會發生。",
+          "usage": "想承認做某事不容易，但仍決定繼續時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "I went inside, though I went indoors.",
+            "I slept, though I was sleeping.",
+            "I stopped walking, though I stopped walking.",
+            "We kept walking, though the road was long and cold."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "went inside 與 went indoors 重複意思。",
+            "睡了與正在睡沒有形成反差。",
+            "兩邊都是停止走路，沒有讓步。",
+            "道路漫長又寒冷，仍繼續走，符合讓步。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "though it’s hard",
+          "pattern": [
+            {
+              "text": "[主要行動]",
+              "fixed": false
+            },
+            {
+              "text": "though",
+              "fixed": true
+            },
+            {
+              "text": "[困難／反差情況]",
+              "fixed": false
+            }
+          ],
+          "example": "I will try, though it is hard.",
+          "explanation": "道路漫長又寒冷，仍繼續走，符合讓步。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "both + plural/paired subject",
+          "meaning": "強調兩個對象都符合相同的敘述。",
+          "usage": "需要清楚說明兩個人都做某事時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "Both dogs are sleeping, but one has been running all day without rest.",
+            "We both brought food; Anna had bread and I had fruit.",
+            "We are both ready, but I have not even begun to get ready and cannot go.",
+            "We both brought food, but only Anna brought anything and I brought nothing."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "其中一隻整天跑不曾休息，無法支持都在睡。",
+            "兩人各有帶食物，符合 both 的「兩者都」意思。",
+            "一人尚未準備好，與兩人都準備好衝突。",
+            "只有一人帶食物，不能說 both brought food。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "we’re both showing",
+          "pattern": [
+            {
+              "text": "[兩個人／事物]",
+              "fixed": false
+            },
+            {
+              "text": "both",
+              "fixed": true
+            },
+            {
+              "text": "[共同動作或特質]",
+              "fixed": false
+            }
+          ],
+          "example": "We both like the same book.",
+          "explanation": "兩人各有帶食物，符合 both 的「兩者都」意思。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "verb-ing clause + though (nonfinite adjunct)",
+          "meaning": "用 -ing 描述正在做的行動，再補充即使有困難的讓步。",
+          "usage": "想以簡短片語呈現行動，並補上困難時；需有上下文提供動作主體。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "Walking home, though it was late, the street carried our bags.",
+            "Painting the fence, though it rained, the rain held a brush.",
+            "Crossing the bridge, though it was windy, we held the rail and moved slowly.",
+            "Carrying the boxes, though they were heavy, the boxes walked home by themselves."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "句首 walking 的行動者不能是 street，形成懸垂修飾。",
+            "句首 painting 的行動者與後面的 rain 不一致。",
+            "句首 crossing 與後面的 we 共用行動者，風大仍繼續行走。",
+            "句首 carrying 的行動者應是人，不應讓箱子自己行走。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "Risking it all, though",
+          "pattern": [
+            {
+              "text": "[動詞-ing 短語]",
+              "fixed": false
+            },
+            {
+              "text": ", though",
+              "fixed": true
+            },
+            {
+              "text": "[完整句子]",
+              "fixed": false
+            }
+          ],
+          "example": "Climbing the hill, though it was cold, we kept going.",
+          "explanation": "句首 crossing 與後面的 we 共用行動者，風大仍繼續行走。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "all + possessive + noun phrase",
+          "meaning": "指某人所擁有的某類事物全部，而非其中幾個。",
+          "usage": "形容全部作品、東西或特色時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "All our seats are empty, but people are sitting in every one.",
+            "All my tickets are in this box; every ticket is inside.",
+            "All her cakes are ready, but none of them is ready.",
+            "All your letters are here, but half of your letters are still at home."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "座位全空卻又全有人坐，意思衝突。",
+            "每張票都在盒內，符合 all 所表達的完整範圍。",
+            "全部準備好又全部未好，互相矛盾。",
+            "仍有一半在家，便不能說全部在這裡。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "all your edges",
+          "pattern": [
+            {
+              "text": "all",
+              "fixed": true
+            },
+            {
+              "text": "[所有格代名詞]",
+              "fixed": false
+            },
+            {
+              "text": "[名詞]",
+              "fixed": false
+            }
+          ],
+          "example": "All your drawings are on the wall.",
+          "explanation": "每張票都在盒內，符合 all 所表達的完整範圍。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "present simple for lasting feelings",
+          "meaning": "說明較穩定的感受、習慣或一般事實。",
+          "usage": "想說自己長期喜歡、相信或關心某人某事時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "My grandfather loves his garden, but he has no garden and has never seen one.",
+            "My grandfather loves his garden; he works there every morning.",
+            "My grandfather loves his garden only tomorrow and never at any other time.",
+            "My grandfather loves his garden, but he has never liked it once."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "完全沒有接觸對象，無法支持句中所指的特定花園。",
+            "每天照顧花園，合理反映持續的喜愛。",
+            "把持續感受限定成只在明天一次，語意不協調。",
+            "從來不喜歡卻說 loves，直接矛盾。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "Loves all of you",
+          "pattern": [
+            {
+              "text": "[人／事物]",
+              "fixed": false
+            },
+            {
+              "text": "[一般現在式動詞]",
+              "fixed": false
+            },
+            {
+              "text": "[對象]",
+              "fixed": false
+            }
+          ],
+          "example": "My grandfather loves his garden.",
+          "explanation": "每天照顧花園，合理反映持續的喜愛。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "be + prepositional phrase (state/location)",
+          "meaning": "用 be 配合位置或狀態短語，說明所在位置或情況。",
+          "usage": "想簡單表達有人在附近、東西在某處或現在狀態時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "The guide is nearby, but she is on another planet and cannot contact us.",
+            "The cat is in the box, but the empty box has no cat inside.",
+            "The guide is nearby, and we can ask her for help at the gate.",
+            "The boat is under the bridge, but it is high above the bridge at the same moment."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "在另一個星球而且無法聯絡，不支持就在附近。",
+            "盒子裡有貓又說完全沒有貓，互相矛盾。",
+            "導遊就在門口可以求助，清楚表達所在位置。",
+            "同一時間在橋下又在橋上，位置衝突。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "I’m around",
+          "pattern": [
+            {
+              "text": "[人／事物]",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "[介系詞／副詞片語]",
+              "fixed": false
+            }
+          ],
+          "example": "The guide is nearby.",
+          "explanation": "導遊就在門口可以求助，清楚表達所在位置。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "and + parallel independent clauses",
+          "meaning": "用 and 並列兩件互相配合或同時成立的事。",
+          "usage": "描述雙方互相付出、合作或分工時。",
+          "prompt": "哪一句最恰當地運用以上句型及其功能？",
+          "options": [
+            "I bring the food and my friend brings the drinks, so we can share a meal.",
+            "I clean the room and my sister helps me, but she does nothing at all.",
+            "I carry the boat and it carries me, because boats are always smaller than people.",
+            "I sing and my friend sings, but nobody makes any sound."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "兩人分工帶食物和飲料，and 連接兩個並行情況。",
+            "說妹妹幫忙又說她完全沒做事，互相矛盾。",
+            "人扛整艘船且理由不合理，與合作情境不合。",
+            "兩人都唱歌卻完全沒聲音，前後矛盾。"
+          ],
+          "sourceFile": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "you give me all of you",
+          "pattern": [
+            {
+              "text": "[主語一 + 動詞一]",
+              "fixed": false
+            },
+            {
+              "text": "and",
+              "fixed": true
+            },
+            {
+              "text": "[主語二 + 動詞二]",
+              "fixed": false
+            }
+          ],
+          "example": "I cook and my brother washes the plates.",
+          "explanation": "兩人分工帶食物和飲料，and 連接兩個並行情況。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "All_Of_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "3be44591e93c51d25de142b2a77bfbff1077e9a057a0ab400890e23f12dafb3a"
+    },
+    {
+      "section": "structure",
+      "filename": "All_Of_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "383414e04d36bc4feae51a9d545f25d4d38c89952156db8386326261c97e7da3"
+    }
+  ]
 }

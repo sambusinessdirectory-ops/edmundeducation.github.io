@@ -2712,5 +2712,1222 @@
     "method": "faster-whisper-word-alignment-with-targeted-section-review",
     "audioSha256": "b4be8db51bb8e4e79d1847c93dd218826b18f282a143eab6b548a92369a7ff0c",
     "duration": 189.173
-  }
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Harm（約 B2）",
+          "meaning": "傷害；損害（可指身體、健康、環境或其他方面）。",
+          "usage": "說明某種行為或情況會造成傷害，或提醒別人避免傷害時使用。Harm 可當名詞或動詞，本題主要辨認名詞意思。",
+          "prompt": "哪一句最自然地使用「harm」表示「傷害／損害」？",
+          "options": [
+            "The singer wore a little harm to match her blue coat.",
+            "The driver checked the harm before starting the old car.",
+            "The new safety rule helps protect workers from harm.",
+            "The baker added some harm to make the bread sweeter."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "穿戴與外套搭配的是帽子、圍巾等物品；harm 不是服飾。",
+            "發車前會檢查煞車或引擎；harm 指傷害或損害，不是一般的汽車零件。",
+            "安全規定能保護工人免受傷害。Protect someone from harm 是自然的搭配。",
+            "烘焙時加入的是糖等材料，不是「傷害」。Harm 不是一種能讓麵包變甜的配料。"
+          ],
+          "sourceFile": "Everything_I_Own_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "安全規定能保護工人免受傷害。Protect someone from harm 是自然的搭配。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "Finest（約 B2）",
+          "meaning": "最出色的；最優質的；最美好的（fine 的最高級）。",
+          "usage": "讚賞一個人、作品、品質或一段時光達到很高水準時使用。要依上下文判斷是「品質最好」還是「回憶最美好」。",
+          "prompt": "哪一句最自然地使用「finest」表示「最出色／最優質」？",
+          "options": [
+            "The museum displayed some of the finest paintings in town.",
+            "The chef put three finest into the soup for extra flavour.",
+            "The teacher asked us to finest our desks before lunch.",
+            "The bus arrived at its finest because the driver was late."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "博物館展出城裡一些最出色的畫作。Finest paintings 用來稱讚作品品質。",
+            "Finest 是形容詞最高級，不能像調味料一樣數三個放進湯裡。",
+            "Finest 不能直接當「整理桌子」的動詞；可說 tidy our desks。",
+            "Finest 不是「遲到」或「抵達」的時間副詞；這句的時間關係也不合理。"
+          ],
+          "sourceFile": "Everything_I_Own_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "博物館展出城裡一些最出色的畫作。Finest paintings 用來稱讚作品品質。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "Own（約 B1；動詞用法）",
+          "meaning": "擁有；持有（某件東西的所有權）。",
+          "usage": "談房子、土地、商店、車輛等由誰擁有時使用。本題教 own 作為動詞，而不是 my own 的形容詞用法。",
+          "prompt": "哪一句最自然地使用「own」表示「擁有」？",
+          "options": [
+            "The tourists own the sunset because they took a photo.",
+            "My aunt owns a small bookshop near the station.",
+            "The students own the homework when the bell rings.",
+            "My uncle owns the rain whenever he visits our town."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "拍下夕陽不等於擁有夕陽的所有權；可以說 photographed the sunset。",
+            "阿姨擁有車站附近的一間小書店。Own a bookshop 是自然的所有權用法。",
+            "功課由學生完成，不代表下課鐘響後就「擁有」功課；此處應說 have homework 或 finish homework。",
+            "到某個城鎮旅行並不代表擁有那裡的雨水；這裡把自然現象當成私人財產。"
+          ],
+          "sourceFile": "Everything_I_Own_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "阿姨擁有車站附近的一間小書店。Own a bookshop 是自然的所有權用法。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "Would give anything（約 B2；強調願望的表達）",
+          "meaning": "願意付出任何代價；非常渴望某件事。",
+          "usage": "強調一個願望對自己非常重要。通常帶誇飾語氣，並不表示真的準備交出所有財產。重點是整個表達的意思，不是條件句文法。",
+          "prompt": "哪一句最自然地用「would give anything」表達強烈願望？",
+          "options": [
+            "I'd give anything to hear my grandmother laugh again.",
+            "I'd give anything to lose the socks I just bought.",
+            "I would give anything to make this empty cup more purple.",
+            "I would give anything to find the chair under me."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "非常希望再次聽到祖母的笑聲，使用 I'd give anything to... 自然表達強烈思念。",
+            "剛買的襪子若真的想丟掉，直接丟掉即可；用「願付出任何代價」語意不自然。",
+            "讓空杯子變得更紫通常不是值得「不惜一切」的心願；語氣與事情的重要性不相稱。",
+            "椅子就在自己身下，通常不需要付出一切去尋找；故意讓誇張語氣與情境衝突。"
+          ],
+          "sourceFile": "Everything_I_Own_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "非常希望再次聽到祖母的笑聲，使用 I'd give anything to... 自然表達強烈思念。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "Part of me（約 B2；抽象用法）",
+          "meaning": "我內心的一部分；我的某一種想法或感受。",
+          "usage": "當自己同時有兩種不同的心情、願望或念頭時，常用 part of me 描述其中一面，而不是身體的某個部位。",
+          "prompt": "哪一句最自然地使用「part of me」表示「內心的一部分」？",
+          "options": [
+            "Part of me is waiting beside the bus as a spare wheel.",
+            "Part of me costs six dollars at the school bookshop.",
+            "Part of me sleeps inside the fridge during summer holidays.",
+            "Part of me wants to stay, but I also miss home."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "這裡把 part of me 當成公車的備用輪胎，沒有表達內心想法或感受。",
+            "Part of me 在本題不是書店裡可以標價出售的物品。",
+            "這裡的 part of me 不是可以放進冰箱避暑的實體物品。",
+            "心裡有一部分想留下，但也想家。這個表達自然呈現互相拉扯的心情。"
+          ],
+          "sourceFile": "Everything_I_Own_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "心裡有一部分想留下，但也想家。這個表達自然呈現互相拉扯的心情。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "shelter + 人 + from + 危險",
+          "meaning": "保護某人免受傷害。",
+          "usage": "談避雨、避風或保護他人免受危險。",
+          "prompt": "暴風雨來時，哪句最合理地說明觀景台如何保護遊客？",
+          "options": [
+            "The roof sheltered the visitors from breakfast.",
+            "The visitors sheltered the rain from the roof.",
+            "The roof sheltered the visitors to the rain.",
+            "The roof sheltered the visitors from the rain."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "早餐不是此處需要防範的危險。",
+            "把雨和遊客的位置顛倒，意思變成保護雨。",
+            "表示「免受」應用 from，而非 to。",
+            "屋頂為遊客擋雨，對象與介系詞都正確。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "You sheltered me from harm（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "shelter",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "from",
+              "fixed": true
+            },
+            {
+              "text": "危險",
+              "fixed": false
+            }
+          ],
+          "explanation": "屋頂為遊客擋雨，對象與介系詞都正確。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "keep + 人 + 形容詞",
+          "meaning": "使某人持續處於某種狀態。",
+          "usage": "說明衣物、設備或活動如何讓人保持溫暖、安全、清醒等。",
+          "prompt": "冬日露營，哪句能解釋熱湯的作用？",
+          "options": [
+            "The hot soup kept warm us.",
+            "The hot soup kept us warm.",
+            "The soup kept us warmth.",
+            "The soup kept us to warm."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "受詞 us 應放在 warm 之前。",
+            "熱湯讓人保持溫暖，語序正確。",
+            "keep 後需形容詞 warm，不能用名詞 warmth。",
+            "此結構不用 to 接形容詞。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "Kept me warm（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "keep",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "熱湯讓人保持溫暖，語序正確。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "give + 東西 + to + 人",
+          "meaning": "把某物交給、送給某人。",
+          "usage": "交付票、證書、禮物等物件時。",
+          "prompt": "攝影比賽頒獎，哪句描述評審交給優勝者證書？",
+          "options": [
+            "The judge gave a certificate with the winner.",
+            "The judge gave a certificate for the winner.",
+            "The judge gave to the winner a certificate.",
+            "The judge gave a certificate to the winner."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "with 表示一起，不能表達接受者。",
+            "for 偏向「為某人」，不表示實際交給對方。",
+            "此處一般應說 gave a certificate to the winner。",
+            "證書交給得獎者，符合 give + 物 + to + 人。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "You gave my life to me（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "give",
+              "fixed": true
+            },
+            {
+              "text": "東西",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "接受者",
+              "fixed": false
+            }
+          ],
+          "explanation": "證書交給得獎者，符合 give + 物 + to + 人。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "set + 人／物 + 形容詞",
+          "meaning": "使對象變成某種狀態。",
+          "usage": "用 set ... free 說明解除限制或讓動物恢復自由。",
+          "prompt": "救援中心決定讓康復的鳥返回野外，哪句最好？",
+          "options": [
+            "They set the bird free.",
+            "They set free to the bird.",
+            "They set the bird to free.",
+            "They set the bird freely."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "set + 受詞 + free，說明讓鳥恢復自由。",
+            "set free 後不能這樣加 to the bird。",
+            "此用法不用 to 接 free。",
+            "需要形容詞 free 表示自由，不是副詞 freely。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "Set me free（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "set",
+              "fixed": true
+            },
+            {
+              "text": "人／物",
+              "fixed": false
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "set + 受詞 + free，說明讓鳥恢復自由。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "最高級 + 名詞 + 省略受格關係代名詞的子句",
+          "meaning": "在名詞後加子句，說明「我曾經歷過的」對象。",
+          "usage": "分享最喜愛、最特別或最難忘的經驗；此處名詞後省略 that。",
+          "prompt": "旅行家要說「那是我看過最美的海灘」，哪句正確？",
+          "options": [
+            "It was the most beautiful beach I ever sees.",
+            "It was the most beautiful beach I ever saw.",
+            "It was the most beautiful beach I ever see tomorrow.",
+            "It was the most beautiful beach I ever seeing."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "主詞 I 的過去式是 saw，不能接 sees。",
+            "最高級加省略關係代名詞的子句，saw 表示過去所見。",
+            "tomorrow 和過去經驗混在一起，時態不一致。",
+            "主詞 I 後需要真正的過去式 saw，不能接 seeing。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "The finest years I ever knew（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "the",
+              "fixed": true
+            },
+            {
+              "text": "最高級",
+              "fixed": false
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "ever",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "最高級加省略關係代名詞的子句，saw 表示過去所見。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "would + 動詞原形（假設的意願）",
+          "meaning": "表達假設情境下願意做的事。",
+          "usage": "說如果有機會或有需要，自己會如何付出。",
+          "prompt": "朋友問你若能到火星旅行，會怎樣準備？",
+          "options": [
+            "I would pack my camera first.",
+            "I would packed my camera first.",
+            "I would to pack my camera first.",
+            "I would packing my camera first."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "would + 原形 pack，表達假想決定。",
+            "would 後應用原形 pack。",
+            "would 後不直接加 to。",
+            "would 後不能用 packing。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "I would give anything I own（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "would",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "would + 原形 pack，表達假想決定。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "give up + 名詞",
+          "meaning": "放棄、交出某樣事物。",
+          "usage": "談放棄一項權利、活動或原本的計畫。",
+          "prompt": "登山途中天氣變壞，隊長決定放棄登頂計畫，哪句適合？",
+          "options": [
+            "We gave out the plan to reach the top.",
+            "We gave up the plan to reach the top.",
+            "We gave the plan up to the mountain.",
+            "We gave up to the plan at noon."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "give out 是分發／用完，不是放棄計畫。",
+            "give up the plan 表示放棄計畫。",
+            "意思像把計畫交給山，並非放棄。",
+            "give up 後直接接名詞，不加 to。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "Give up my life, my heart, my home（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "give up",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "give up the plan 表示放棄計畫。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "just to + 動詞原形（表目的）",
+          "meaning": "表示「只是為了……」的目的。",
+          "usage": "說明為了達到一個特定結果而做某事。",
+          "prompt": "攝影師早起，只為拍攝第一道日光，哪句正確？",
+          "options": [
+            "She woke up early just to catching the first light.",
+            "She woke up early just caught the first light.",
+            "She woke up early just to catch the first light.",
+            "She woke up early just for catch the first light."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "to 後應接原形 catch。",
+            "缺少 to，不能清楚表示目的。",
+            "just to + 原形 catch，明確表達目的。",
+            "for 後不能直接接原形 catch。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "Just to have you back again（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "just to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "just to + 原形 catch，明確表達目的。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "have + 人 + back + again",
+          "meaning": "希望某人再次回到身邊或團隊。",
+          "usage": "說明期待離開的人重新歸隊或重逢。",
+          "prompt": "樂團希望生病的鼓手康復後再加入表演，哪句自然？",
+          "options": [
+            "We hope to have our drummer back to again.",
+            "We hope to have our drummer again back to.",
+            "We hope to have our drummer back again.",
+            "We hope to have back our drummer again to us."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "back again 不需中插 to。",
+            "again back to 的排列不自然。",
+            "have + 人 + back again，表示期待對方回歸。",
+            "多了不自然的 to us，語序也彆扭。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "have you back again（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "have",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "back",
+              "fixed": true
+            },
+            {
+              "text": "again",
+              "fixed": true
+            }
+          ],
+          "explanation": "have + 人 + back again，表示期待對方回歸。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "teach + 人 + how to + 動詞",
+          "meaning": "教某人如何做某件事。",
+          "usage": "分享學會技能或方法的過程。",
+          "prompt": "祖母教孩子做風箏，哪句正確？",
+          "options": [
+            "Grandma taught me how making a kite.",
+            "Grandma taught me how make a kite.",
+            "Grandma taught how to me make a kite.",
+            "Grandma taught me how to make a kite."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "how 後這裡應接 to make。",
+            "how 後少了 to。",
+            "受詞 me 應放在 how to 之前。",
+            "teach + 人 + how to make，表示教方法。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "You taught me how to love（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "teach",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "how to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "teach + 人 + how to make，表示教方法。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "never + 過去式（過去的零次經驗）",
+          "meaning": "說明在過去某段關係或期間中從未做過某事。",
+          "usage": "回顧過去的行為習慣，強調一次也沒有。",
+          "prompt": "展覽結束後，經理說講解員從沒遲到，哪句正確？",
+          "options": [
+            "Our guide never arriving late last week.",
+            "Our guide never arrived late during the show.",
+            "Our guide never arrives late yesterday.",
+            "Our guide did never arrived late."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "缺少有限動詞，應用 arrived。",
+            "never + 過去式 arrived，符合過去期間。",
+            "yesterday 應搭配過去式 arrived。",
+            "did 後應用原形 arrive，且一般用 never arrived。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "You never said too much（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "never",
+              "fixed": true
+            },
+            {
+              "text": "過去式動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "never + 過去式 arrived，符合過去期間。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "too much（程度／數量過多）",
+          "meaning": "表示做得或說得超過適當程度。",
+          "usage": "描述話太多、工作太多或食物量過多等情境。",
+          "prompt": "播客主持人一直講話，來賓插不上嘴，哪句正確？",
+          "options": [
+            "The host talked too more during the show.",
+            "The host talked too much words during the show.",
+            "The host talked too many during the show.",
+            "The host talked too much during the show."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "too more 不是此處正確的程度表示法。",
+            "words 可數，應說 too many words。",
+            "修飾 talked 的程度／數量，應用 too much。",
+            "talked too much 意為說得過多。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "You never said too much（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "動詞",
+              "fixed": false
+            },
+            {
+              "text": "too much",
+              "fixed": true
+            }
+          ],
+          "explanation": "talked too much 意為說得過多。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "but still + 子句（轉折後仍然）",
+          "meaning": "儘管有前述情況，後面的事仍發生。",
+          "usage": "說明困難或反對存在，但某人仍採取行動。",
+          "prompt": "小型音樂會下雨，樂手仍照常演出，哪句最好？",
+          "options": [
+            "It rained, but still the band play yesterday.",
+            "It rained, but still playing the band.",
+            "It rained, but still the band to play.",
+            "It rained, but still the band played."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "yesterday 要用過去式 played。",
+            "需要主詞 + 動詞的正常語序。",
+            "the band 後缺少動詞 played。",
+            "轉折後仍演奏，句子完整。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "But still you showed the way（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "but still",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "轉折後仍演奏，句子完整。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "know + from + -ing",
+          "meaning": "表示從觀察或經驗中得知某事。",
+          "usage": "用行為和線索判斷，而不是直接被告知。",
+          "prompt": "烘焙師看到蛋糕中央仍濕，知道還沒熟，哪句合理？",
+          "options": [
+            "I knew from checking the cake that it needed more time.",
+            "I knew from to check the cake that it needed more time.",
+            "I knew from checked the cake that it needed more time.",
+            "I knew from check the cake that it needed more time."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "from checking 表示從檢查中知道。",
+            "from 後不直接加 to check。",
+            "from 後不放過去式 checked 作此結構。",
+            "介系詞 from 後應用 checking。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "I knew from watching you（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "know",
+              "fixed": true
+            },
+            {
+              "text": "from",
+              "fixed": true
+            },
+            {
+              "text": "動詞-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "from checking 表示從檢查中知道。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "nobody else + could ever + 動詞",
+          "meaning": "強調除了某人以外，其他人都不可能做到。",
+          "usage": "表達某項經驗、秘密或理解非常獨特。",
+          "prompt": "古董鐘的主人說，只有老修理師懂它的怪聲音，哪句符合？",
+          "options": [
+            "Nobody else could ever understands that sound.",
+            "Nobody else could ever understanding that sound.",
+            "Nobody else could ever understand that sound.",
+            "Nobody else could ever to understand that sound."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "could 後不能接 understands。",
+            "could 後不能用 understanding。",
+            "could ever + 原形 understand，表示其他人不可能理解。",
+            "could 後不加 to。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "Nobody else could ever know（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "nobody else",
+              "fixed": true
+            },
+            {
+              "text": "could ever",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "could ever + 原形 understand，表示其他人不可能理解。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "the part of + 名詞 + that + 子句",
+          "meaning": "用 that 子句說明某個部分的特徵。",
+          "usage": "談作品、故事或個人經驗中的特定部分。",
+          "prompt": "編輯要指一本書裡令她感動的部分，哪句正確？",
+          "options": [
+            "The part of the book that made me cry was short.",
+            "The part of the book that made me cried was short.",
+            "The part of the book made me cry that was short.",
+            "The part of the book that it made me cry was short."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "that made me cry 正確修飾 the part。",
+            "make + 人後接原形 cry，不能接 cried。",
+            "that 子句應緊接被修飾的名詞。",
+            "that 已代替主詞，不需多加 it。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "The part of me that can’t let go（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "the part of",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "that made me cry 正確修飾 the part。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "Is there + someone + 限定子句？",
+          "meaning": "詢問是否有某位符合條件的人。",
+          "usage": "打聽推薦人選、求助對象或是否有人符合資格。",
+          "prompt": "博物館找會修老相機的人，哪句問法自然？",
+          "options": [
+            "Is there someone you know him who repairs old cameras?",
+            "Is there someone you know who repairs old cameras?",
+            "Is someone there you know repairs old cameras?",
+            "Does there someone you know who repairs old cameras?"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "someone 後的 you know 不需再加 him。",
+            "Is there someone... 正確詢問是否有人選。",
+            "語序不自然，缺乏適當關係子句連接。",
+            "存在句應用 Is there，不是 Does there。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "Is there someone you know（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "Is there",
+              "fixed": true
+            },
+            {
+              "text": "someone",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "Is there someone... 正確詢問是否有人選。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "be + -ing（正在持續的行為）",
+          "meaning": "描寫當下或某段期間持續發生的行為或感受。",
+          "usage": "談近期特別強烈的情緒；love 在此為歌詞中的強調性動態用法。",
+          "prompt": "在新工作第一週，朋友十分喜歡團隊氣氛，哪句符合進行式形式？",
+          "options": [
+            "She is loves her new team this week.",
+            "She loving her new team this week.",
+            "She is loving her new team this week.",
+            "She is love her new team this week."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "is 後不能接 loves。",
+            "少了 be 動詞。",
+            "is loving 形式正確；日常也常說 She loves her new team。",
+            "進行式需要動詞 -ing。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "You’re loving them so（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "動詞-ing",
+              "fixed": false
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "is loving 形式正確；日常也常說 She loves her new team。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "take + 人 + for granted",
+          "meaning": "把別人的幫助或陪伴視作理所當然。",
+          "usage": "提醒大家感謝平日默默付出的人。",
+          "prompt": "社區活動後，哪句恰當提醒大家珍惜清潔志工？",
+          "options": [
+            "We should never take our volunteers as granted.",
+            "We should never take for granted to our volunteers.",
+            "We should never take our volunteers for granted.",
+            "We should never take our volunteers for thanking."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "應用 for granted，而不是 as granted。",
+            "這裡不需要 to，且語序不對。",
+            "固定搭配 take + 人 + for granted。",
+            "for thanking 並非該片語。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "taking them all for granted（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "take",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "for granted",
+              "fixed": true
+            }
+          ],
+          "explanation": "固定搭配 take + 人 + for granted。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "may + 動詞原形（可能性）",
+          "meaning": "表示未來可能發生，但不確定。",
+          "usage": "提醒某種風險或機會存在，而非必然。",
+          "prompt": "氣象員提醒明天山上可能有霧，哪句正確？",
+          "options": [
+            "There may be fog on the mountain tomorrow.",
+            "There may being fog on the mountain tomorrow.",
+            "There may is fog on the mountain tomorrow.",
+            "There may to be fog on the mountain tomorrow."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "may be 表示可能出現霧。",
+            "may 後不能接 being 作此用法。",
+            "may 後用 be，不用 is。",
+            "may 後不加 to。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "You may lose them one day（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "may",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            },
+            {
+              "text": "時間",
+              "fixed": false
+            }
+          ],
+          "explanation": "may be 表示可能出現霧。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "take + 人／物 + away",
+          "meaning": "把某人或某物帶走、移走。",
+          "usage": "描述活動結束後收走物品，或某人被帶離某處。",
+          "prompt": "科學展閉館，工作人員把模型帶走保管，哪句正確？",
+          "options": [
+            "The staff took awaying the models.",
+            "The staff took the models to away.",
+            "The staff took the models away.",
+            "The staff took away to the models."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "away 不是可加 -ing 的動詞。",
+            "away 不能放在 to 後構成此片語。",
+            "take + 受詞 + away，表示把模型移走。",
+            "take away 可直接接受詞，不加 to。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "Someone takes them away（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "take",
+              "fixed": true
+            },
+            {
+              "text": "人／物",
+              "fixed": false
+            },
+            {
+              "text": "away",
+              "fixed": true
+            }
+          ],
+          "explanation": "take + 受詞 + away，表示把模型移走。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "long to + 動詞原形",
+          "meaning": "深切渴望做某件事。",
+          "usage": "想說某句心裡話、見某人或再次體驗某事。",
+          "prompt": "退休舞者很希望再次上台，哪句自然？",
+          "options": [
+            "She longs to dancing on stage again.",
+            "She longs to dance on stage again.",
+            "She long to dance on stage again.",
+            "She longs dance on stage again."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "to 後用原形 dance。",
+            "longs to dance 是正確搭配。",
+            "she 的一般現在式應用 longs。",
+            "long 後需要 to。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "you long to say（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "long to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "longs to dance 是正確搭配。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "once again（動作再發生一次）",
+          "meaning": "表示同一件事再次發生。",
+          "usage": "請人重複、重逢或再試一次時。",
+          "prompt": "魔術表演太快，觀眾想再看一次，哪句自然？",
+          "options": [
+            "Could you show us the trick once again?",
+            "Could you once again a trick for us?",
+            "Could you show us once again the trick to yesterday?",
+            "Could you show once again us a trick?"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "once again 放在句末表示重複一次，最自然。",
+            "缺少主要動詞 show。",
+            "to yesterday 不合語意，整句不自然。",
+            "受詞 us 通常應緊接 show。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "Just to touch you once again（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "動詞",
+              "fixed": false
+            },
+            {
+              "text": "once again",
+              "fixed": true
+            }
+          ],
+          "explanation": "once again 放在句末表示重複一次，最自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Everything_I_Own_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "6253ff20bb4c6242e1a8884c347a4a000f4468096a83afaeddcea9d9c03a2bd2"
+    },
+    {
+      "section": "structure",
+      "filename": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "2e0dfca57b82bc51d5a1e20677ff2ceea65f608690620aaf3b41f0c8fa89ce24"
+    }
+  ]
 }

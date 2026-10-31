@@ -3466,5 +3466,958 @@
     "sha256": "f6c81f35bc0f928bf02c392356db106705b208d3db5835dc55d6ec51d2e9ae42",
     "transformations": "none",
     "selectedOn": "2026-10-30"
-  }
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "do my hair",
+          "meaning": "整理、打理頭髮；不一定是剪頭髮。",
+          "usage": "出門、拍照或參加活動前整理髮型時使用；常說 do my hair / do her hair。",
+          "prompt": "哪一句最自然、最正確使用「do my hair」？",
+          "options": [
+            "Before the party, I did my hair by the mirror.",
+            "Before the party, I did my hair by washing my shoes.",
+            "Before the party, I did my hair by painting the wall.",
+            "Before the party, I did my hair by cooking some rice."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。do my hair 是打理髮型；照鏡子整理頭髮很自然。",
+            "錯誤。洗鞋子和整理髮型是不同的活動。",
+            "錯誤。油漆牆壁不是打理頭髮；可說 I painted the wall。",
+            "錯誤。煮飯不會整理頭髮；可說 I cooked some rice。"
+          ],
+          "sourceFile": "Cheap_Thrills_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "context": "程度參考：B1（口語搭配）",
+          "explanation": "正確。do my hair 是打理髮型；照鏡子整理頭髮很自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "ain’t got",
+          "meaning": "沒有……；此處相當於 haven’t got。",
+          "usage": "常見於口語、歌曲及部分方言；正式寫作通常改用 haven’t got / don’t have。",
+          "prompt": "哪一句最自然、最正確使用「ain’t got」？",
+          "options": [
+            "At the bank, the manager said, “I ain’t got no responsibility.”",
+            "In a formal report, she wrote, “I ain’t got the data.”",
+            "In a chat, he said, “I ain’t got cash.”",
+            "In a job application, I wrote, “I ain’t got experience.”"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "不適合。銀行主管在正式說明責任時，通常會選較正式的表達。",
+            "不適合。這種非正式說法不宜放在正式報告；可用 I don’t have the data。",
+            "正確。朋友間輕鬆聊天時，ain’t got 可表示「沒有」；語域自然。",
+            "不適合。求職文件應使用 I don’t have experience 或其他正式說法。"
+          ],
+          "sourceFile": "Cheap_Thrills_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "context": "程度參考：B1–B2（非正式口語辨識）",
+          "explanation": "正確。朋友間輕鬆聊天時，ain’t got 可表示「沒有」；語域自然。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "dollar bills",
+          "meaning": "美元紙鈔；不是帳單。",
+          "usage": "談現金、付款或區分硬幣與紙鈔時使用。bill 在此指紙鈔。",
+          "prompt": "哪一句最自然、最正確使用「dollar bills」？",
+          "options": [
+            "The cashier gave me five dollar bills instead of coins.",
+            "The café sent us two dollar bills for next month’s electricity.",
+            "The singer wore three dollar bills as new dancing shoes.",
+            "The bank kept dollar bills inside its online payment app."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。收銀員找給我美元紙鈔，而不是硬幣。",
+            "錯誤。電費帳單可以是 bills，但 dollar bills 指美元紙鈔。",
+            "錯誤。紙鈔不是鞋子；即使搞笑，這不是自然的用途。",
+            "不自然。線上付款應用 digital payments；紙鈔是實體現金。"
+          ],
+          "sourceFile": "Cheap_Thrills_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "context": "程度參考：B1（美式英語）",
+          "explanation": "正確。收銀員找給我美元紙鈔，而不是硬幣。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "paint my nails",
+          "meaning": "塗指甲油；替指甲上色。",
+          "usage": "自己做美甲或準備出門時使用；paint 在這裡不是替牆壁油漆。",
+          "prompt": "哪一句最自然、最正確使用「paint my nails」？",
+          "options": [
+            "She painted her nails before the party to clean her glasses.",
+            "She painted her nails before the party and let them dry.",
+            "She painted her nails before the party to sharpen her pencil.",
+            "She painted her nails before the party to charge her phone."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。塗指甲油不會清潔眼鏡；可說 cleaned her glasses。",
+            "正確。塗完指甲油後等它乾，是自然的生活情境。",
+            "錯誤。塗指甲油不是削鉛筆；可說 sharpened her pencil。",
+            "錯誤。塗指甲油不能替手機充電；可說 charged her phone。"
+          ],
+          "sourceFile": "Cheap_Thrills_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "context": "程度參考：B1（生活搭配）",
+          "explanation": "正確。塗完指甲油後等它乾，是自然的生活情境。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "high heels",
+          "meaning": "高跟鞋；也可指鞋跟很高的鞋。",
+          "usage": "描述服裝穿搭、正式場合或跳舞時穿的鞋子；常說 wear high heels。",
+          "prompt": "哪一句最自然、最正確使用「high heels」？",
+          "options": [
+            "We put high heels in the soup to make it taste better.",
+            "They used high heels to measure the length of the road.",
+            "He put on high heels to protect his hands from the cold.",
+            "She wore high heels to the wedding with her blue dress."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。高跟鞋不是調味品；這碗湯恐怕很難入口。",
+            "錯誤。測量道路長度會用測量工具，而不是高跟鞋。",
+            "錯誤。高跟鞋穿在腳上，不是保暖手部的用品。",
+            "正確。婚禮穿高跟鞋搭配洋裝，是自然的穿搭情境。"
+          ],
+          "sourceFile": "Cheap_Thrills_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "context": "程度參考：B1（服飾用語）",
+          "explanation": "正確。婚禮穿高跟鞋搭配洋裝，是自然的穿搭情境。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "gotta",
+          "meaning": "得、必須；口語中的 got to / have got to。",
+          "usage": "歌曲與聊天中常見；正式書面英語通常用 have to / must。",
+          "prompt": "哪一句最自然、最正確使用「gotta」？",
+          "options": [
+            "The research paper says, “We gotta test this result.”",
+            "My friend said, “I gotta catch my bus.”",
+            "The contract says, “You gotta pay by Friday.”",
+            "The official notice says, “Visitors gotta show their ID.”"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "不適合。學術論文應使用 need to 或 must 等正式用語。",
+            "正確。朋友聊天時說 I gotta catch the bus，十分自然。",
+            "不適合。合約通常避免 gotta 這種非正式縮略語。",
+            "不適合。正式公告通常使用 must / have to，不宜使用 gotta。"
+          ],
+          "sourceFile": "Cheap_Thrills_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "context": "程度參考：B1–B2（非正式口語辨識）",
+          "explanation": "正確。朋友聊天時說 I gotta catch the bus，十分自然。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Come on! — encouragement",
+          "meaning": "用口語催促、邀請或鼓勵別人開始行動。",
+          "usage": "想邀請朋友一起做事，或溫和催促對方時。",
+          "prompt": "哪一句最適合以上句型的功能及情境？",
+          "options": [
+            "Come on! Please sleep now; the morning bus left yesterday.",
+            "Come on! Stop the race because you want everyone to finish it.",
+            "Come on! Try the new slide with us.",
+            "Come on! The library is closed, so please stay and read inside."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "以昨天的公車解釋現在催人睡覺，前後沒有合理關係。",
+            "想讓大家完成比賽卻叫停，目的與要求衝突。",
+            "邀請朋友玩新滑梯，符合鼓勵一起行動的用途。",
+            "圖書館已關門卻要留在裏面閱讀，情境不合理。"
+          ],
+          "sourceFile": "Cheap_Thrills_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Come on, come on（上載 PDF 第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "Come on!",
+              "fixed": true
+            },
+            {
+              "text": "[邀請／鼓勵對方採取行動]",
+              "fixed": false
+            }
+          ],
+          "example": "Come on! Join our garden game.",
+          "explanation": "邀請朋友玩新滑梯，符合鼓勵一起行動的用途。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "Imperative + object + on",
+          "meaning": "祈使句直接叫別人開啟設備；可把 on 放在名詞受詞之後。",
+          "usage": "需要別人開燈、收音機或其他設備時。",
+          "prompt": "哪一句最適合以上句型的功能及情境？",
+          "options": [
+            "Turn the fridge on so the ice cream gets hot.",
+            "Turn the TV on so the room becomes completely quiet.",
+            "Turn the lamp on; we cannot see the cards.",
+            "Turn the radio on so nobody can hear any sound from it."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "開燈才能看清楚紙牌，目的與動作一致。",
+            "開電視一般會增加聲音，不會自然令房間完全安靜。",
+            "雪糕需要冷卻，開雪櫃不會使它變熱。",
+            "開收音機通常會播出聲音，不能合理解釋成消除一切聲響。"
+          ],
+          "sourceFile": "Cheap_Thrills_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "turn the radio on（上載 PDF 第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[祈使動詞]",
+              "fixed": false
+            },
+            {
+              "text": "[設備]",
+              "fixed": false
+            },
+            {
+              "text": "on",
+              "fixed": true
+            }
+          ],
+          "example": "Turn the fan on, please.",
+          "explanation": "開燈才能看清楚紙牌，目的與動作一致。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "It is + day / time",
+          "meaning": "用 it 作主語，說明今天是哪一天或當前時間。",
+          "usage": "交代活動發生的日期、星期或時段時。",
+          "prompt": "哪一句最適合以上句型的功能及情境？",
+          "options": [
+            "It is Friday night, although today is Tuesday morning.",
+            "It is six o’clock, and the clock behind me says nine exactly.",
+            "It is Monday, but the calendar clearly says Thursday today.",
+            "It is Sunday afternoon, so our Sunday art fair starts now."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "同一時間說星期五夜晚與星期二早上，時間互相矛盾。",
+            "已說時鐘剛好是九點，不能同時宣稱現在六點。",
+            "同一天不可能同時是日曆顯示的星期四與星期一。",
+            "日子與藝術市集的時間相符，能自然介紹當前時段。"
+          ],
+          "sourceFile": "Cheap_Thrills_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "It’s Friday night（上載 PDF 第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "It is",
+              "fixed": true
+            },
+            {
+              "text": "[日子／時間]",
+              "fixed": false
+            }
+          ],
+          "example": "It is Saturday morning.",
+          "explanation": "日子與藝術市集的時間相符，能自然介紹當前時段。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "It will not be long until + clause",
+          "meaning": "預告某件事很快會發生；歌詞用 ’til 代替 until，並跨行接下文。",
+          "usage": "等待活動、表演或某人抵達時，想說不久就會開始。",
+          "prompt": "哪一句最適合以上句型的功能及情境？",
+          "options": [
+            "It won’t be long until the cake is ready; we have not bought any food and will never bake.",
+            "It won’t be long until the parade begins; it starts in five minutes.",
+            "It won’t be long until the train arrives, but it will never come.",
+            "It won’t be long until the show starts; it starts in twenty years."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "既不會烘焙又說蛋糕即將準備好，情境矛盾。",
+            "五分鐘後開始巡遊，符合「很快」的意思。",
+            "火車永遠不會來，與「不久就會抵達」衝突。",
+            "二十年後才開始，不符合不久之後。"
+          ],
+          "sourceFile": "Cheap_Thrills_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "it won’t be long ’til I（上載 PDF 第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "It won’t be long",
+              "fixed": true
+            },
+            {
+              "text": "until",
+              "fixed": true
+            },
+            {
+              "text": "[快將發生的事]",
+              "fixed": false
+            }
+          ],
+          "example": "It won’t be long until the show starts.",
+          "explanation": "五分鐘後開始巡遊，符合「很快」的意思。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "Gotta + base verb (informal necessity)",
+          "meaning": "gotta 是口語省略形式，表示有事必須做；正式英文通常用 have to。",
+          "usage": "描述出門、演出或活動前必須完成的準備時。",
+          "prompt": "哪一句最適合以上句型的功能及情境？",
+          "options": [
+            "Gotta to put my helmet on before the bike race.",
+            "Gotta put my helmet on before the bike race.",
+            "Gotta wearing my helmet before the bike race.",
+            "Gotta wore my helmet before the bike race."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "gotta 後面不用再加 to。",
+            "gotta 後接原形動詞 put，戴頭盔也符合騎車前的需要。",
+            "gotta 後面不能直接接 wearing。",
+            "gotta 後面要用原形 put，不用過去式 wore。"
+          ],
+          "sourceFile": "Cheap_Thrills_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "Gotta do my hair（上載 PDF 第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "(I have) gotta",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "example": "Gotta check my ticket.",
+          "explanation": "gotta 後接原形動詞 put，戴頭盔也符合騎車前的需要。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "Coordinated actions without repeating subject",
+          "meaning": "列出同一個人接連要做的兩件事，第二個動作可省去重複的主語。",
+          "usage": "簡潔說明準備步驟、工作清單或接連動作時。",
+          "prompt": "哪一句最適合以上句型的功能及情境？",
+          "options": [
+            "First pack the camera, and yesterday was Thursday.",
+            "I opened the box, she washed the floor.",
+            "Before the show, check the seats, close the door.",
+            "The boat flew into the clouds, ate a sandwich."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "第二部分突然談昨天的星期，並非同一人的接連動作。",
+            "兩個子句有不同主語，不能當作省略同一主語的連續動作。",
+            "同一做事者依次檢查座位和關門，兩個命令可自然連用。",
+            "船不會吃三明治，第二個省略主語的動作缺乏合理對象。"
+          ],
+          "sourceFile": "Cheap_Thrills_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "do my hair, put my make-up on（上載 PDF 第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[同一做事者的動作一]",
+              "fixed": false
+            },
+            {
+              "text": ",",
+              "fixed": true
+            },
+            {
+              "text": "[動作二]",
+              "fixed": false
+            }
+          ],
+          "example": "Wash the paintbrush, put it away.",
+          "explanation": "同一做事者依次檢查座位和關門，兩個命令可自然連用。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "All + subject + verb (fused relative)",
+          "meaning": "all I need 是「我需要的一切」，整個片語可作名詞部分。",
+          "usage": "想說明某人真正需要的所有東西或最基本的需要時。",
+          "prompt": "哪一句最適合以上句型的功能及情境？",
+          "options": [
+            "All I need is one clear photo for my poster.",
+            "All I need are three more pens, so please do not give me any pens.",
+            "All I need is a map, and I already know the road but refuse to look at any map.",
+            "All I need is five chairs, but I need no chairs at all."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "海報只需要一張清楚照片，all I need 的內容明確而合理。",
+            "先說還需要筆，卻要求對方不要給筆，態度互相衝突。",
+            "明確說需要地圖，卻強調完全不打算用，缺少合理目的。",
+            "一方面需要五張椅子，一方面完全不需要椅子，自相矛盾。"
+          ],
+          "sourceFile": "Cheap_Thrills_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "all I need（上載 PDF 第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "all",
+              "fixed": true
+            },
+            {
+              "text": "[某人需要／知道／擁有的內容]",
+              "fixed": false
+            }
+          ],
+          "example": "All I need is a map.",
+          "explanation": "海報只需要一張清楚照片，all I need 的內容明確而合理。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "I got + object (informal possession)",
+          "meaning": "歌曲以口語 got 表達「我有……」；正式教學可比較 I have / I’ve got。",
+          "usage": "輕鬆聊天時表達自己擁有某物，或有人陪伴自己時。",
+          "prompt": "哪一句最適合以上句型的功能及情境？",
+          "options": [
+            "I got my camera, so I can take photos at the zoo.",
+            "I got two tickets, although I have never had or bought any tickets.",
+            "I got a friend here, but I am completely alone and nobody is here.",
+            "I got a tent, but I have no tent and nobody lent me one."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "有相機便可以拍照，擁有物品與後續行動一致。",
+            "說自己有兩張票卻表示從未擁有或購買，前後不一致。",
+            "說有朋友在場又說沒有任何人在場，意思矛盾。",
+            "說自己有帳篷又強調沒有任何帳篷，意思衝突。"
+          ],
+          "sourceFile": "Cheap_Thrills_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "I got you baby（上載 PDF 第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "I got",
+              "fixed": true
+            },
+            {
+              "text": "[人／擁有的東西]",
+              "fixed": false
+            }
+          ],
+          "example": "I got my lucky cap.",
+          "explanation": "有相機便可以拍照，擁有物品與後續行動一致。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "Ain’t got + noun (non-standard negative)",
+          "meaning": "ain’t got 在歌曲中表示沒有；這是非標準口語，正式寫作宜用 haven’t got 或 don’t have。",
+          "usage": "辨認歌曲中的非正式否定表達，並懂得換成標準英文時。",
+          "prompt": "哪一句最適合以上句型的功能及情境？",
+          "options": [
+            "I ain’t got a ticket, so here are my five tickets.",
+            "I ain’t got my keys, and they are in my hand right now.",
+            "I ain’t got any paint, so I will use all my new paint today.",
+            "I ain’t got a ticket, so I need to buy one."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "既說沒有票，又說手上有五張票，語意衝突。",
+            "明確說沒有鑰匙，但鑰匙就在手上，意思矛盾。",
+            "說沒有顏料，卻打算使用自己新買的全部顏料，不一致。",
+            "沒有票所以需要購買，否定表達與處境一致。"
+          ],
+          "sourceFile": "Cheap_Thrills_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "I ain’t got cash（上載 PDF 第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "I ain’t got",
+              "fixed": true
+            },
+            {
+              "text": "[缺少的東西]",
+              "fixed": false
+            }
+          ],
+          "example": "I ain’t got any coins.",
+          "explanation": "沒有票所以需要購買，否定表達與處境一致。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "But + contrasting clause",
+          "meaning": "用 but 把兩個互相對比的情況連起來。",
+          "usage": "想強調「雖然有不足，卻仍有其他優點」等反差時。",
+          "prompt": "哪一句最適合以上句型的功能及情境？",
+          "options": [
+            "This cup is round, but it is not square.",
+            "The museum is small, but it has many amazing things to see.",
+            "The bag is empty, but there is nothing inside.",
+            "He is asleep, but he is not awake."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "圓形與不是方形只是在重述同一事實，沒有明顯轉折。",
+            "博物館雖小卻有很多值得看的展品，構成有意義的反差。",
+            "空袋子與沒有東西只是重複同樣意思。",
+            "睡著與沒有醒來是同一情況，並未形成反差。"
+          ],
+          "sourceFile": "Cheap_Thrills_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "But I got you（上載 PDF 第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[先前的情況]",
+              "fixed": false
+            },
+            {
+              "text": "but",
+              "fixed": true
+            },
+            {
+              "text": "[有反差的情況]",
+              "fixed": false
+            }
+          ],
+          "example": "The room is tiny, but the view is great.",
+          "explanation": "博物館雖小卻有很多值得看的展品，構成有意義的反差。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "Do not need + noun",
+          "meaning": "明確表示某樣東西不是必需品。",
+          "usage": "決定輕裝出行、節省資源，或說某項活動不需工具時。",
+          "prompt": "哪一句最適合以上句型的功能及情境？",
+          "options": [
+            "We don’t need a boat to walk around the museum.",
+            "He doesn’t need a jacket, because he must wear that jacket or he cannot go outside.",
+            "They don’t need a key, because the only door is locked and nobody can open it without a key.",
+            "I don’t need a brush, so please give me a brush because I cannot work without it."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "在博物館步行不需要船，說明物品不必要十分合理。",
+            "說不需要外套又說必須穿同一件外套，矛盾。",
+            "門只能用鑰匙打開，卻說完全不需要鑰匙，衝突。",
+            "既說不需要刷子，又說沒有刷子便做不了，前後衝突。"
+          ],
+          "sourceFile": "Cheap_Thrills_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "I don’t need dollar bills（上載 PDF 第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "don’t / doesn’t need",
+              "fixed": true
+            },
+            {
+              "text": "[不必要的東西]",
+              "fixed": false
+            }
+          ],
+          "example": "We don’t need a boat for this walk.",
+          "explanation": "在博物館步行不需要船，說明物品不必要十分合理。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "To + base verb (purpose)",
+          "meaning": "用 to + 原形動詞表示做某事的目的。",
+          "usage": "解釋為何帶工具、去某地或採取某個行動時。",
+          "prompt": "哪一句最適合以上句型的功能及情境？",
+          "options": [
+            "I brought a torch to make the cave darker.",
+            "I opened the window to keep all fresh air outside.",
+            "I went to the pool to stay completely dry while swimming.",
+            "I brought a torch to see the path at night."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "手電筒會照亮而不是讓洞穴更黑，目的不合理。",
+            "開窗通常讓空氣流通，不會阻止所有新鮮空氣進來。",
+            "在泳池游泳卻希望全程保持乾燥，矛盾。",
+            "夜間拿手電筒是為了看清道路，目的與行動一致。"
+          ],
+          "sourceFile": "Cheap_Thrills_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "to have fun tonight（上載 PDF 第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[行動／工具]",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "[希望達到的目的]",
+              "fixed": false
+            }
+          ],
+          "example": "I brought a torch to see the path.",
+          "explanation": "夜間拿手電筒是為了看清道路，目的與行動一致。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "Negative concord: don’t ... no + noun",
+          "meaning": "歌詞用兩個否定一起加強「不需要」；屬非標準／部分方言用法，並非兩個否定互相抵消。",
+          "usage": "讀懂流行歌曲的雙重否定，並知道標準英文通常用 don’t ... any。",
+          "prompt": "哪一句最適合以上句型的功能及情境？",
+          "options": [
+            "I don’t have no tickets; here are six tickets I own.",
+            "I don’t need no extra chairs; we have no seats and twenty guests need chairs now.",
+            "I don’t need no extra chairs; we already have enough seats.",
+            "I don’t want no water; I am very thirsty and must drink water now."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "聲稱自己沒有票，卻出示六張自己的票，前後矛盾。",
+            "沒有座位且客人急需椅子，說不需要更多椅子不合理。",
+            "已有足夠座位，所以不需要額外椅子；語意符合否定強調。",
+            "口渴急需飲水，卻強調不要任何水，缺乏合理理由。"
+          ],
+          "sourceFile": "Cheap_Thrills_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "I don’t need no money（上載 PDF 第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "don’t",
+              "fixed": true
+            },
+            {
+              "text": "[動詞]",
+              "fixed": false
+            },
+            {
+              "text": "no",
+              "fixed": true
+            },
+            {
+              "text": "[名詞]",
+              "fixed": false
+            }
+          ],
+          "example": "I don’t need no extra chairs.",
+          "explanation": "已有足夠座位，所以不需要額外椅子；語意符合否定強調。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "As long as + condition",
+          "meaning": "表示只要某條件成立，前述結果便可以發生。",
+          "usage": "設定可接受條件、允許活動，或說明甚麼已經足夠時。",
+          "prompt": "哪一句最適合以上句型的功能及情境？",
+          "options": [
+            "You can join the picnic as long as you bring your own cup.",
+            "You can visit the garden as long as it is open, but it has closed forever.",
+            "You can use the piano as long as you do not touch it at all.",
+            "You can borrow the kite as long as you return it, but you must never return it."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "帶自己的杯子便能參加野餐，條件清楚合理。",
+            "花園永久關閉，條件永遠無法成立，與允許參觀不合。",
+            "用鋼琴卻完全不能觸碰，無法合理達成活動。",
+            "要求歸還風箏又說絕對不能歸還，規則矛盾。"
+          ],
+          "sourceFile": "Cheap_Thrills_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "As long as I can feel the beat（上載 PDF 第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[結果／可做的事]",
+              "fixed": false
+            },
+            {
+              "text": "as long as",
+              "fixed": true
+            },
+            {
+              "text": "[足以滿足的條件]",
+              "fixed": false
+            }
+          ],
+          "example": "We can camp here as long as we keep the place clean.",
+          "explanation": "帶自己的杯子便能參加野餐，條件清楚合理。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "Can + base verb (ability)",
+          "meaning": "表示某人有能力做到某件事；can 後接原形動詞。",
+          "usage": "談自己能否完成動作、感覺或任務時。",
+          "prompt": "哪一句最適合以上句型的功能及情境？",
+          "options": [
+            "I can to read the sign from here.",
+            "I can read the small sign now because I put on my glasses.",
+            "I can reads the sign from here.",
+            "I can reading the sign from here."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "can 後不需加 to。",
+            "戴上眼鏡後能看清小字，符合能力用法，且 can 後接 read。",
+            "can 後不用第三人稱單數 reads。",
+            "can 後須接原形 read，不用 reading。"
+          ],
+          "sourceFile": "Cheap_Thrills_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "I can feel the beat（上載 PDF 第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "can",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "example": "I can read the sign from here.",
+          "explanation": "戴上眼鏡後能看清小字，符合能力用法，且 can 後接 read。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "Keep + verb-ing (continuation)",
+          "meaning": "表示某個動作持續進行或反覆進行。",
+          "usage": "描述即使遇到干擾仍繼續某項活動時。",
+          "prompt": "哪一句最適合以上句型的功能及情境？",
+          "options": [
+            "The robot keeps to turning in circles.",
+            "The robot keeps turn in circles.",
+            "The little robot keeps turning in circles, even after the music stops.",
+            "The robot keep turning in circles every day."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "keep 後不能接 to turning。",
+            "keep 後要用 turning 而非原形 turn。",
+            "音樂停下小機械人仍不停轉圈，清楚表示動作持續。",
+            "單數 robot 要用 keeps，不能用 keep。"
+          ],
+          "sourceFile": "Cheap_Thrills_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "I keep dancing（上載 PDF 第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "keep",
+              "fixed": true
+            },
+            {
+              "text": "[動詞 -ing]",
+              "fixed": false
+            }
+          ],
+          "example": "The little robot keeps turning in circles.",
+          "explanation": "音樂停下小機械人仍不停轉圈，清楚表示動作持續。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "Love + noun phrase (simple present preference)",
+          "meaning": "用一般現在式表達穩定的喜好；love 後可接名詞片語。",
+          "usage": "介紹自己喜歡的活動、物品或生活樂趣時。",
+          "prompt": "哪一句最適合以上句型的功能及情境？",
+          "options": [
+            "She loves her new garden, so she has never wanted to visit it and hates every flower.",
+            "He loves bird songs, so he is happy only when he cannot hear any birds.",
+            "We love the film, so we always say it is terrible and never want to watch it.",
+            "I love free street shows, so I visit them when they are in town."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "說喜歡花園，卻討厭所有花並從不想去，原因矛盾。",
+            "說喜歡鳥鳴卻只在聽不到鳥叫時開心，前後不合。",
+            "說喜歡電影又一直表示它糟糕，態度矛盾。",
+            "喜歡免費街頭表演，因此有演出便去看，行為符合喜好。"
+          ],
+          "sourceFile": "Cheap_Thrills_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "I love cheap thrills（上載 PDF 第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "love / loves",
+              "fixed": true
+            },
+            {
+              "text": "[喜歡的事物]",
+              "fixed": false
+            }
+          ],
+          "example": "I love free street shows.",
+          "explanation": "喜歡免費街頭表演，因此有演出便去看，行為符合喜好。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Cheap_Thrills_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "914a03a7d96fffa19be15968834240afe7a2b3a34332d229858b54e867faadb0"
+    },
+    {
+      "section": "structure",
+      "filename": "Cheap_Thrills_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "59191463abeb40c5137aefe9787d706b0df1e757a8f9dee9b82af853b58f230b"
+    }
+  ]
 }

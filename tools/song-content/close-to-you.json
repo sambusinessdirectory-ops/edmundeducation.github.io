@@ -2946,5 +2946,1142 @@
     "filename": "codex-clipboard-98b98e31-05b6-4eea-b9c5-68b9cbaa40c8.png",
     "sha256": "76d3fb6484b4e1a2302c9782592c2da3f0a6252aeda8278c76f5ea7fd48837c5",
     "transformations": "none"
-  }
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Long to (do something) — B2（估計）",
+          "meaning": "深切渴望做某事；強烈盼望（不只是一般的 want）。",
+          "usage": "當某個願望持續一段時間、帶有思念或很強的情緒時。語氣通常比 want to 更深切。",
+          "prompt": "哪一句最自然地使用「long to」表達深切的渴望？",
+          "options": [
+            "I long to lose my keys, so I keep them safe.",
+            "She longs to see her brother after years apart.",
+            "We long to miss our flight, so we arrive early.",
+            "He longs to fail, so he studies every night."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。後半句強調保管鑰匙，與「渴望遺失鑰匙」相矛盾。Long to 表達真正希望發生的事。",
+            "正確。多年不見的家人終於有機會重聚，使用 longs to see 能傳達深切思念。",
+            "錯誤。提早抵達機場通常是為了不要錯過班機，不是渴望錯過。",
+            "錯誤。每天努力讀書，通常是希望成功而非渴望失敗；語境與動機互相衝突。"
+          ],
+          "sourceFile": "Close_To_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "They long to be（歌曲開頭及多處重複）。",
+          "explanation": "正確。多年不見的家人終於有機會重聚，使用 longs to see 能傳達深切思念。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "A dream come true — B1–B2（估計）",
+          "meaning": "夢想成真的美好事情；終於實現的心願。",
+          "usage": "談期待許久的願望終於實現，例如得到工作機會、完成表演或與家人團聚。整個片語常作名詞性表達。",
+          "prompt": "哪一句最自然地使用「a dream come true」？",
+          "options": [
+            "He fried a dream come true for ten minutes.",
+            "We packed a dream come true in a small suitcase.",
+            "The mechanic repaired a dream come true yesterday.",
+            "Her first concert was a dream come true."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。它不是食材，不會用油鍋煎十分鐘；這隻能算夢想的燒焦版。",
+            "錯誤。這個片語指實現的願望，不是能裝進行李箱的實體物品。",
+            "錯誤。技師可以修理車子，卻不能把「實現的心願」當作機器維修。",
+            "正確。第一次舉辦自己的演唱會，對歌手而言可能是多年夢想成真的時刻。"
+          ],
+          "sourceFile": "Close_To_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "a dream come true（天使創造美夢的段落）。",
+          "explanation": "正確。第一次舉辦自己的演唱會，對歌手而言可能是多年夢想成真的時刻。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "Sprinkle — B2（估計）",
+          "meaning": "灑、撒上少量的東西；也可比喻在某事物中點綴少量特色。",
+          "usage": "在食物上撒香料，或在文章、演講、設計中「點綴」幽默、色彩等。此題練習較抽象的延伸用法。",
+          "prompt": "哪一句最自然地使用「sprinkle」？",
+          "options": [
+            "The teacher sprinkled the exam into a new classroom.",
+            "My uncle sprinkled his bicycle to work today.",
+            "She sprinkled a few jokes throughout her speech.",
+            "The pilot sprinkled the plane across the airport."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。考試不會像鹽或幽默元素一樣被「撒進」教室；可說 moved the exam to another room。",
+            "錯誤。騎腳踏車上班可說 rode his bicycle to work，不是把腳踏車「撒」去公司。",
+            "正確。演講中穿插幾個笑話，屬於 sprinkle 的比喻用法：在整體內容中點綴少量元素。",
+            "錯誤。飛機移動可用 taxied、flew 等；sprinkle 不表示駕駛或運送整架飛機。"
+          ],
+          "sourceFile": "Close_To_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "they sprinkled moon dust（天使描寫的段落；sprinkled 是 sprinkle 的過去式）。",
+          "explanation": "正確。演講中穿插幾個笑話，屬於 sprinkle 的比喻用法：在整體內容中點綴少量元素。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "Hair of gold — B2–C1 文學性表達（估計）",
+          "meaning": "金色的髮絲；用「金子」比喻頭髮的光澤和顏色。",
+          "usage": "詩歌、童話、抒情描寫等文學語境；日常說話更自然的說法是 golden hair 或 blond hair。Of gold 在這裡不是說頭髮真的由金屬製成。",
+          "prompt": "哪一句最自然地使用「hair of gold」作詩意描寫？",
+          "options": [
+            "The poem describes a child with hair of gold.",
+            "The banker locked her hair of gold in a safe.",
+            "The chef melted her hair of gold into his soup.",
+            "He weighed her hair of gold at the jewellery shop."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。詩中描寫孩子有如黃金般閃亮的頭髮，符合此表達的文學語氣。",
+            "錯誤。Hair of gold 在此是形象化的顏色描寫，不表示可以鎖進保險箱的貴金屬。",
+            "錯誤。頭髮不是可以熔化成湯的黃金。這位廚師應先讀食譜，而不是讀童話。",
+            "錯誤。詩意的金髮不是金條，不能當成黃金飾品秤重計價。"
+          ],
+          "sourceFile": "Close_To_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "hair of gold（天使描寫的段落）。",
+          "explanation": "正確。詩中描寫孩子有如黃金般閃亮的頭髮，符合此表達的文學語氣。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Why do + 複數主詞 + 原形動詞？",
+          "meaning": "詢問某種事情發生的原因。",
+          "usage": "想知道人或事物為何有某種習慣、反應或現象時。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "Why do this rabbit sleep every day?",
+            "Why do the clock are late?",
+            "Why do the birds sing when the sun comes up?",
+            "Why do my shoes know my name?"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：this rabbit 是單數，問題應用 does。",
+            "錯誤：do 後不接 are 來形成這種問題。",
+            "正確：詢問鳥兒為何在日出時唱歌，主詞複數與 do 的用法正確。",
+            "錯誤：鞋子不會認識名字，問題的情境不合理。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Why do birds suddenly appear",
+          "pattern": [
+            {
+              "text": "Why do",
+              "fixed": true
+            },
+            {
+              "text": "[複數主詞]",
+              "fixed": false
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            },
+            {
+              "text": "?",
+              "fixed": true
+            }
+          ],
+          "example": "Why do the children laugh?",
+          "explanation": "正確：詢問鳥兒為何在日出時唱歌，主詞複數與 do 的用法正確。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "副詞 suddenly + 動詞",
+          "meaning": "說明事情突然發生。",
+          "usage": "當某個動作沒有預告、出人意料地出現時。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "The quiet robot suddenly started dancing during the show.",
+            "I suddenly walked to the station every morning for ten years.",
+            "The cake suddenly tasted sweet because it had sugar as usual.",
+            "The clock suddenly stays on the wall every day."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：安靜的機械人突然跳舞，suddenly 表達意外發生的動作。",
+            "錯誤：十年的固定晨間習慣不適合用 suddenly 描述。",
+            "錯誤：一直加糖的蛋糕甜並非突發事件。",
+            "錯誤：時鐘每天固定掛在牆上，沒有突發變化。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "birds suddenly appear",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "suddenly",
+              "fixed": true
+            },
+            {
+              "text": "[動詞]",
+              "fixed": false
+            }
+          ],
+          "example": "The lights suddenly went out.",
+          "explanation": "正確：安靜的機械人突然跳舞，suddenly 表達意外發生的動作。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "every time + 子句，主句",
+          "meaning": "每當一件事發生，就會有另一件事跟著發生。",
+          "usage": "說明重複出現的情況與反應之間的關係時。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "Every time the bell rings, the dog runs, but it has never run after the bell.",
+            "Every time the bakery opens, people wait outside for fresh bread.",
+            "Every time I see this film, it is the first time I see it.",
+            "Every time I open this box, I never open it."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：後半句否定前半句聲稱的每次反應。",
+            "正確：麵包店每次開門都有人排隊，兩個情況相互對應。",
+            "錯誤：重複看同一部電影不能每次都是第一次。",
+            "錯誤：同時說每次打開與從沒打開，前後矛盾。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "Every time you are near",
+          "pattern": [
+            {
+              "text": "Every time",
+              "fixed": true
+            },
+            {
+              "text": "[每次出現的情況]",
+              "fixed": false
+            },
+            {
+              "text": "，+",
+              "fixed": true
+            },
+            {
+              "text": "[反覆出現的結果]",
+              "fixed": false
+            }
+          ],
+          "example": "Every time the bell rings, the dog runs.",
+          "explanation": "正確：麵包店每次開門都有人排隊，兩個情況相互對應。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "be + near（表示距離）",
+          "meaning": "表示人在附近，距離不遠。",
+          "usage": "想說人或地方接近自己時。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "I am near the door, but I am in a different country.",
+            "The station is near, so it takes three days to walk there.",
+            "The swimming pool is near the school, so we must fly there.",
+            "The café is near our hotel, so we can walk there in two minutes."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：身在不同國家與靠近同一扇門的描述互相衝突。",
+            "錯誤：很近卻要走三天，與所描述的距離不符。",
+            "錯誤：游泳池就在學校附近卻必須坐飛機，不合一般情況。",
+            "正確：咖啡店就在酒店附近，因此走兩分鐘即可到達。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "you are near",
+          "pattern": [
+            {
+              "text": "[人或事物]",
+              "fixed": false
+            },
+            {
+              "text": "be near（+",
+              "fixed": true
+            },
+            {
+              "text": "[地點或人]",
+              "fixed": false
+            },
+            {
+              "text": "）",
+              "fixed": true
+            }
+          ],
+          "example": "My brother is near the gate.",
+          "explanation": "正確：咖啡店就在酒店附近，因此走兩分鐘即可到達。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "just like + 名詞／代名詞",
+          "meaning": "把兩個人或事物的情況作比較，表示「就像……一樣」。",
+          "usage": "想指出他人與自己有相同感受或行為時。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "Just like her sister, Mina enjoys drawing small animals.",
+            "Just like a chair, my birthday is on Tuesday because it has four legs.",
+            "Just like the sea, my pencil can swim to school.",
+            "Just like my bicycle, I am made of metal."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：Mina 和姊姊都喜歡畫動物，兩者有明確相似之處。",
+            "錯誤：椅子的腳數與生日日期沒有可比較的關係。",
+            "錯誤：鉛筆不會游泳，兩個事物的相似性不成立。",
+            "錯誤：人不是金屬製成，類比不合理。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "Just like me",
+          "pattern": [
+            {
+              "text": "Just like",
+              "fixed": true
+            },
+            {
+              "text": "[人或事物]",
+              "fixed": false
+            },
+            {
+              "text": "，+",
+              "fixed": true
+            },
+            {
+              "text": "[相似的情況]",
+              "fixed": false
+            }
+          ],
+          "example": "Just like my dad, I love cooking.",
+          "explanation": "正確：Mina 和姊姊都喜歡畫動物，兩者有明確相似之處。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "long to + 原形動詞",
+          "meaning": "非常渴望或期待做某件事。",
+          "usage": "某個願望很強烈，超過普通的 want to 時。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "He longs to sleep because he is already sleeping happily.",
+            "I long to a big cake for my birthday.",
+            "They long to going home next week.",
+            "After years away, she longs to see her grandfather again."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：已經愉快地睡著，不能清楚表達尚未滿足的渴望。",
+            "錯誤：long to 後面必須接動詞原形，不能直接接名詞。",
+            "錯誤：long to 後面應接 go，不是 going。",
+            "正確：多年未見祖父，十分想再見到他，符合 long to 的語氣。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "They long to be",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "long to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "example": "She longs to see the sea again.",
+          "explanation": "正確：多年未見祖父，十分想再見到他，符合 long to 的語氣。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "be close to + 人",
+          "meaning": "表示身體距離近，或感情關係親近。",
+          "usage": "想描述朋友或家人之間的親密關係時。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "I am close to my cousin, so I do not know who she is.",
+            "I am close to my cousin because we talk and help each other often.",
+            "The two friends are close to each other, but they have never met or talked.",
+            "My new pencil is close to me because it calls me every night."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：與表親很親近卻不認識她，語意矛盾。",
+            "正確：經常交流並互相幫助，能說明兩人關係親近。",
+            "錯誤：未曾見面或交談不支持此處的親密關係。",
+            "錯誤：鉛筆不會打電話，以此解釋感情親近不合理。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "Close to you",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "be close to",
+              "fixed": true
+            },
+            {
+              "text": "[人]",
+              "fixed": false
+            }
+          ],
+          "example": "I am close to my cousin.",
+          "explanation": "正確：經常交流並互相幫助，能說明兩人關係親近。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "fall down from + 地點",
+          "meaning": "由某處向下掉落。",
+          "usage": "描述東西從高處掉到較低處時。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "The toy fell down from the high shelf onto the floor.",
+            "The orange fell down from the tree and flew higher.",
+            "A balloon fell down from the floor to the sky.",
+            "My homework fell down from Tuesday to Friday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：玩具從高架掉到地板，方向與片語一致。",
+            "錯誤：從樹上落下與飛得更高的方向互相衝突。",
+            "錯誤：從地面升上天空不是向下掉落。",
+            "錯誤：星期幾不是物品掉落的高度來源。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "stars fall down from the sky",
+          "pattern": [
+            {
+              "text": "[東西]",
+              "fixed": false
+            },
+            {
+              "text": "fall down from",
+              "fixed": true
+            },
+            {
+              "text": "[較高的地方]",
+              "fixed": false
+            }
+          ],
+          "example": "The toy fell down from the shelf.",
+          "explanation": "正確：玩具從高架掉到地板，方向與片語一致。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "walk by（從旁走過）",
+          "meaning": "從某人或某地方旁邊經過。",
+          "usage": "說明在走路途中從某個位置旁經過時。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "The train walks by the station with two shoes.",
+            "She walks by her homework to finish it.",
+            "I walk by my lunch with a spoon to eat it.",
+            "I walk by the flower shop each morning and see new flowers."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：火車行駛而非走路，也不會穿鞋。",
+            "錯誤：完成作業不能用 walk by 表示。",
+            "錯誤：walk by 不是用湯匙吃午餐。",
+            "正確：每天步行經過花店並看見花，符合 walk by 的意思。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "Every time you walk by",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "walk by（+",
+              "fixed": true
+            },
+            {
+              "text": "[人或地點]",
+              "fixed": false
+            },
+            {
+              "text": "）",
+              "fixed": true
+            }
+          ],
+          "example": "I walk by the park on my way home.",
+          "explanation": "正確：每天步行經過花店並看見花，符合 walk by 的意思。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "on the day that + 子句，主句",
+          "meaning": "指出某件事發生的特定日子。",
+          "usage": "回憶某一天的重要事件或說明同日發生的事情時。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "On the day that the museum opened, the building had not been built yet.",
+            "On the day that I was born, I was already ten years old.",
+            "On the day that our town had its first snow, we made a snowman.",
+            "On the day that we went camping, we did not go camping at all."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：博物館已開幕卻連建築物都未建成，描述互相衝突。",
+            "錯誤：出生當天不可能已經十歲。",
+            "正確：鎮上第一次下雪當天堆雪人，時間關係清楚。",
+            "錯誤：同時說去了露營與完全沒有露營。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "On the day that you were born",
+          "pattern": [
+            {
+              "text": "On the day that",
+              "fixed": true
+            },
+            {
+              "text": "[當日發生的事]",
+              "fixed": false
+            },
+            {
+              "text": "，+",
+              "fixed": true
+            },
+            {
+              "text": "[另一件事]",
+              "fixed": false
+            }
+          ],
+          "example": "On the day that the shop opened, it rained.",
+          "explanation": "正確：鎮上第一次下雪當天堆雪人，時間關係清楚。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "be born（被動形式）",
+          "meaning": "表示一個人在某時某地出生。",
+          "usage": "介紹生日、出生地或回憶一個人誕生的時間時。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "I was born in a small town near the mountains.",
+            "He were born in winter in this village.",
+            "My brother born in June and is ten now.",
+            "She was born next month, and she is already six years old."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：was born in a small town 是自然的出生地說法。",
+            "錯誤：he 應配 was born，不是 were born。",
+            "錯誤：需要 was born，不可省略 be 動詞。",
+            "錯誤：已經六歲的人不會在下個月才出生。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "you were born",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "was/were born（+",
+              "fixed": true
+            },
+            {
+              "text": "[時間／地點]",
+              "fixed": false
+            },
+            {
+              "text": "）",
+              "fixed": true
+            }
+          ],
+          "example": "He was born in June.",
+          "explanation": "正確：was born in a small town 是自然的出生地說法。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "get together",
+          "meaning": "人們聚集在一起或相約碰面。",
+          "usage": "描述朋友、家人或團隊聚在一起時。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "The children got together, so each stayed alone in a different city.",
+            "I got together my shoes to wear them.",
+            "The neighbours got together to plan a street party.",
+            "We got together the window to make it open."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：每個人都分散在不同城市，不符合聚在一起。",
+            "錯誤：穿鞋子不使用 get together。",
+            "正確：鄰居聚在一起商量街頭派對，符合句意。",
+            "錯誤：get together 不表示打開窗戶。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "the angels got together",
+          "pattern": [
+            {
+              "text": "[一群人]",
+              "fixed": false
+            },
+            {
+              "text": "get together（+",
+              "fixed": true
+            },
+            {
+              "text": "[時間／目的]",
+              "fixed": false
+            },
+            {
+              "text": "）",
+              "fixed": true
+            }
+          ],
+          "example": "Our team got together on Sunday.",
+          "explanation": "正確：鄰居聚在一起商量街頭派對，符合句意。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "decide to + 原形動詞",
+          "meaning": "經過選擇後決定做某件事。",
+          "usage": "表達決定或計畫做某事時。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "We decided to happy because it was sunny.",
+            "She decided to a new coat yesterday.",
+            "The class decided to visit the farm after the teacher offered two choices.",
+            "The class decided to visiting the farm tomorrow."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：happy 是形容詞，應說 decided to be happy。",
+            "錯誤：to 後缺少 buy 等動詞。",
+            "正確：班級在兩個選擇中作決定，並接原形動詞 visit。",
+            "錯誤：decided to 後接 visit 而非 visiting。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "decided to create",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "decide to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "example": "We decided to make a small garden.",
+          "explanation": "正確：班級在兩個選擇中作決定，並接原形動詞 visit。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "a dream come true（名詞片語）",
+          "meaning": "指夢想成真後的美好事情或經驗。",
+          "usage": "描述某件事情好得像原本的夢想實現時。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "The dream come true ate three cakes in the kitchen.",
+            "Seeing his drawing in the museum was a dream come true.",
+            "Winning the race was a dream come true, although she had never wanted to race.",
+            "I dream come true my shoes before school."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：dream come true 不是會吃蛋糕的人。",
+            "正確：作品在博物館展出，實現了期待已久的夢想。",
+            "錯誤：她從未想參賽，缺乏原本渴望實現的願望。",
+            "錯誤：名詞片語不能取代穿鞋的動詞。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "a dream come true",
+          "pattern": [
+            {
+              "text": "[一個]",
+              "fixed": false
+            },
+            {
+              "text": "dream come true（作名詞片語）",
+              "fixed": false
+            }
+          ],
+          "example": "Playing in the final was a dream come true.",
+          "explanation": "正確：作品在博物館展出，實現了期待已久的夢想。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "so + 結果",
+          "meaning": "由前面的事情引出因此發生的結果。",
+          "usage": "說明做出一個決定後帶來的行動時。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "Our class wanted a garden, so we planted flowers near the gate.",
+            "I was thirsty, so I did not drink anything because I wanted water.",
+            "The toy was broken, so we broke it again to fix it.",
+            "We had no light, so we turned off every lamp to see better."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：班級想有花園，因此種花，構成清楚的因果。",
+            "錯誤：口渴想喝水卻不喝，原因與行動不一致。",
+            "錯誤：再次弄壞玩具不是自然的修理結果。",
+            "錯誤：沒有光時關掉所有燈，不能達到看清楚的目的。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "So, they sprinkled",
+          "pattern": [
+            {
+              "text": "[前文原因／情況]",
+              "fixed": false
+            },
+            {
+              "text": "，so",
+              "fixed": true
+            },
+            {
+              "text": "[結果]",
+              "fixed": false
+            }
+          ],
+          "example": "We had no chairs, so we sat on the grass.",
+          "explanation": "正確：班級想有花園，因此種花，構成清楚的因果。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "sprinkle + 東西 + in + 地方",
+          "meaning": "將少量細小東西灑進某個地方。",
+          "usage": "例如把亮粉或小裝飾灑進容器或物品裡時。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "They sprinkled a heavy suitcase in the box.",
+            "He sprinkled the wooden chair in the car to sit on it.",
+            "She sprinkled her birthday in the garden.",
+            "The children sprinkled small paper stars in a clear jar."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：沉重的行李箱不能以 sprinkle 表示放進箱子。",
+            "錯誤：整張木椅不能像細小物質一樣撒進汽車。",
+            "錯誤：生日不是可以灑進花園的物質。",
+            "正確：把小紙星星撒入透明瓶子，與 sprinkle 的使用情境一致。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "sprinkled moon dust in your hair",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "sprinkle",
+              "fixed": true
+            },
+            {
+              "text": "[細小物質]",
+              "fixed": false
+            },
+            {
+              "text": "in",
+              "fixed": true
+            },
+            {
+              "text": "[位置]",
+              "fixed": false
+            }
+          ],
+          "example": "She sprinkled sugar in the bowl.",
+          "explanation": "正確：把小紙星星撒入透明瓶子，與 sprinkle 的使用情境一致。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "名詞 + of + 顏色／材料（詩意描述）",
+          "meaning": "以帶畫面感的方式形容外觀或材料，歌曲用來描寫金色頭髮。",
+          "usage": "閱讀歌曲或詩歌的描寫性用語時；日常說話多用 golden hair。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "The paper of green is wrote a letter.",
+            "In the story, the queen had hair of gold that shone in the sun.",
+            "The boy bought of blue a new coat.",
+            "I cooked of red the apples yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：這種組合及動詞形式都不自然，應說 green paper。",
+            "正確：hair of gold 是歌曲式的詩意描寫，而非日常標準語序。",
+            "錯誤：of 不能放在這裡代替普通形容詞修飾 coat。",
+            "錯誤：句子不能以 cooked of red 表示煮紅蘋果。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "hair of gold",
+          "pattern": [
+            {
+              "text": "[名詞]",
+              "fixed": false
+            },
+            {
+              "text": "of",
+              "fixed": true
+            },
+            {
+              "text": "[顏色或材料]",
+              "fixed": false
+            }
+          ],
+          "example": "In the story, the queen had hair of gold.",
+          "explanation": "正確：hair of gold 是歌曲式的詩意描寫，而非日常標準語序。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "and + 省略重複動詞的並列成分",
+          "meaning": "第二部分省略已在前面說過的動詞，避免重複。",
+          "usage": "在歌詞、詩歌或緊密並列的句子中，當省略部分可由前文恢復時。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "I ate breakfast and my bicycle was Tuesday.",
+            "He put eggs in the basket and his lunch was hungry.",
+            "She put red flowers in one vase and yellow flowers in another.",
+            "She drew a star on the wall and she suddenly was a chair."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：兩部分之間沒有合理的共同動詞或並列關係。",
+            "錯誤：後半句沒有與 put 對應的並列動作，語意也不通。",
+            "正確：第二個 flowers 所對應的 put 被省略，但讀者仍能理解。",
+            "錯誤：畫畫與突然變椅子沒有可恢復的省略動詞。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "And star light in your eyes of blue",
+          "pattern": [
+            {
+              "text": "[完整的第一個動作]",
+              "fixed": false
+            },
+            {
+              "text": "and",
+              "fixed": true
+            },
+            {
+              "text": "[省略共同動詞的第二項]",
+              "fixed": false
+            }
+          ],
+          "example": "She put flowers on the desk and a card by the door.",
+          "explanation": "正確：第二個 flowers 所對應的 put 被省略，但讀者仍能理解。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "That is why + 結果子句",
+          "meaning": "指出前面提過的事情是後面結果的原因。",
+          "usage": "解釋某個結果為甚麼發生，並連接前文內容時。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "My friend lives next door. That is why I must fly to visit her.",
+            "The shop was closed. That is why I bought bread there that morning.",
+            "The river is full of water. That is why it is completely dry today.",
+            "The train stopped for an hour. That is why we arrived late."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：朋友住隔壁通常無需乘飛機探訪。",
+            "錯誤：商店關門卻說因此在同一早上買到麵包，因果不通。",
+            "錯誤：河流有很多水卻因此完全乾涸，結果矛盾。",
+            "正確：火車停了一小時導致遲到，解釋合理。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "That is why all the girls in town",
+          "pattern": [
+            {
+              "text": "[前面提過的原因]",
+              "fixed": false
+            },
+            {
+              "text": "。That is why",
+              "fixed": true
+            },
+            {
+              "text": "[結果句子]",
+              "fixed": false
+            }
+          ],
+          "example": "The road was closed. That is why we were late.",
+          "explanation": "正確：火車停了一小時導致遲到，解釋合理。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "all the + 複數名詞 + in + 地點",
+          "meaning": "指某個地方內一整組的人或事物。",
+          "usage": "想概括某範圍內的所有人或物時。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "All the dancers in the room stood up when the music began.",
+            "All the shops in the town are closed, but every shop there is open.",
+            "All the dancers in the room stood up, but none of them stood up.",
+            "All the cups in the box are red, but the box has no cups."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：明確指出房間裡所有舞者都站起來，範圍完整。",
+            "錯誤：所有店都關門與每間都開門互相衝突。",
+            "錯誤：先說全部站起，後說沒有人站起，自相矛盾。",
+            "錯誤：箱子內沒有杯子，卻描述其中全部杯子的顏色，語境不合理。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "all the girls in town",
+          "pattern": [
+            {
+              "text": "all the",
+              "fixed": true
+            },
+            {
+              "text": "[複數名詞]",
+              "fixed": false
+            },
+            {
+              "text": "in",
+              "fixed": true
+            },
+            {
+              "text": "[地點]",
+              "fixed": false
+            }
+          ],
+          "example": "All the shops in this street are closed.",
+          "explanation": "正確：明確指出房間裡所有舞者都站起來，範圍完整。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "follow + 人 + all around",
+          "meaning": "在不同地方一直跟著某個人。",
+          "usage": "描述人或動物到處跟隨另一個人的行為時。",
+          "prompt": "哪一句最正確運用這個句型及其功能？",
+          "options": [
+            "The child followed the parade all around, but did not go anywhere.",
+            "The little duck followed the farmer all around the garden.",
+            "My shoes followed me all around because I wore them on my feet.",
+            "The penguin follows its trainer all around, but never moves from its bed."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：到處跟隨遊行與完全沒去任何地方矛盾。",
+            "正確：小鴨在花園裡跟著農夫走來走去。",
+            "錯誤：穿著鞋子走路不代表鞋子主動跟隨。",
+            "錯誤：完全沒有移動就不能到處跟隨訓練員。"
+          ],
+          "sourceFile": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "Follow you all around",
+          "pattern": [
+            {
+              "text": "[人或動物]",
+              "fixed": false
+            },
+            {
+              "text": "follow",
+              "fixed": true
+            },
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "all around",
+              "fixed": true
+            }
+          ],
+          "example": "The puppy follows its owner all around.",
+          "explanation": "正確：小鴨在花園裡跟著農夫走來走去。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Close_To_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "adbfccc1af586a5ad9109430145d36b16fe368280a639a3cd7cf645c8f7d0ba2"
+    },
+    {
+      "section": "structure",
+      "filename": "Close_To_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "630a351866e262f8b1432da00d072f1c3b253bcfd93a838bdd8a8d46ae46e0af"
+    }
+  ]
 }

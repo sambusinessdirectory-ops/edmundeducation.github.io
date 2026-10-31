@@ -2415,5 +2415,787 @@
     "sha256": "5478ff45b49194c665e725c2d053adb03b29decc3dc6408ca730bdee53e04e8b",
     "selectedOn": "2026-10-29",
     "transformations": "none"
-  }
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Worship",
+          "meaning": "崇拜、敬奉；以非常崇敬的態度看待（B2–C1）",
+          "usage": "常用於宗教信仰（worship God / worship at a temple）；也能表示極度崇拜某人。與 adore 的「非常喜愛」相比，worship 的崇敬程度更強。",
+          "prompt": "哪一句正確使用「Worship」？",
+          "options": [
+            "The children worship the bus before their school trip.",
+            "Many people worship at the old temple on Sundays.",
+            "My uncle worships the rain to dry his wet clothes.",
+            "The chef worships the soup to make it warm."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：搭校車前不會因為即將旅行而「崇拜」公車；可說 wait for the bus。",
+            "正確：worship 表示參加宗教崇拜活動，at the temple 搭配自然。",
+            "錯誤：崇拜雨水並不會讓衣服變乾；應說 waits for sunshine。",
+            "錯誤：worship 不是把湯加熱的方式；可說 heats the soup。"
+          ],
+          "sourceFile": "Fly_Me_To_The_Moon_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：worship 表示參加宗教崇拜活動，at the temple 搭配自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "Be true",
+          "meaning": "忠誠、真心不變；真誠（B1–B2，偏文學／情感用法）",
+          "usage": "常在誓言、愛情或文學語境中表示保持忠貞。歌詞直接使用 be true；更常見的完整搭配是 be true to someone（對某人忠誠）。不要把「真實的、正確的」用法和「忠誠」混為一談。",
+          "prompt": "哪一句正確使用「Be true」？",
+          "options": [
+            "She promised to be true and never betray him.",
+            "Our cat is true because its food is very cold.",
+            "My new jacket is true because it has two pockets.",
+            "The big clock is true because it rings at noon."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：be true 在感情承諾中可表示保持忠誠；betray 是「背叛」，屬於例句的語意線索。",
+            "錯誤：貓的食物溫度與忠誠沒有合理關係；可說 the food is cold。",
+            "錯誤：口袋的數量不能證明外套「忠誠」；可說 has two pockets。",
+            "錯誤：鐘準時響不等於忠貞；可說 the clock works well。"
+          ],
+          "sourceFile": "Fly_Me_To_The_Moon_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：be true 在感情承諾中可表示保持忠誠；betray 是「背叛」，屬於例句的語意線索。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "祈使句：動詞原形開頭",
+          "meaning": "用祈使句提出請求或指示。",
+          "usage": "希望別人帶你去某處時，可以用動詞原形開頭；歌詞的飛往月球是浪漫想像。",
+          "prompt": "情境：一名太空遊客正向駕駛提出要求。 選出唯一符合句型、語法與情境的英文句子。",
+          "options": [
+            "Flying me to the space station, please.",
+            "Fly me to the space station, please.",
+            "Flies me to the space station, please.",
+            "To fly me the space station, please."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：Flying 不是這裡直接提出請求的祈使句形式。",
+            "正確：以原形 Fly 開頭，後接受詞和 to 加目的地。",
+            "錯誤：Flies 是第三人稱單數形式，不適合作祈使句開頭。",
+            "錯誤：To fly 無法直接當作此處的完整祈使句，而且缺少 to 的目的地標記。"
+          ],
+          "sourceFile": "Fly_Me_To_The_Moon_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Fly me to the moon",
+          "pattern": [
+            {
+              "text": "V（原形）",
+              "fixed": false
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "地點",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：以原形 Fly 開頭，後接受詞和 to 加目的地。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "let + 受詞 + 原形動詞",
+          "meaning": "讓某人做某事，或請求允許自己做某事。",
+          "usage": "請求許可、讓人嘗試或給別人機會時；let 後面不用 to。",
+          "prompt": "情境：孩子希望能在公園表演。 選出唯一符合句型、語法與情境的英文句子。",
+          "options": [
+            "Let the children to sing in the park.",
+            "Let the children sings in the park.",
+            "Let the children sing in the park.",
+            "Let the children singing in the park."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：let 後不接 to sing。",
+            "錯誤：let 後用原形 sing，不用 sings。",
+            "正確：let + 人 + 原形 sing，表示讓孩子唱歌。",
+            "錯誤：此處不能用 singing 取代原形 sing。"
+          ],
+          "sourceFile": "Fly_Me_To_The_Moon_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "Let me play among the stars",
+          "pattern": [
+            {
+              "text": "Let",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "其他內容",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：let + 人 + 原形 sing，表示讓孩子唱歌。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "among + 群體名詞",
+          "meaning": "在一群人或許多事物之中。",
+          "usage": "描述某人或某物置身於一群人或物之間；不必機械地限制為三個以上。",
+          "prompt": "情境：展覽館內有一件小雕塑。 選出唯一符合句型、語法與情境的英文句子。",
+          "options": [
+            "The little statue stood among of the paintings.",
+            "The little statue stood among to the paintings.",
+            "The little statue stood among the paintings.",
+            "The little statue stood among at the paintings."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：among 後不加 of。",
+            "錯誤：among 後不加 to 再接這個名詞群。",
+            "正確：雕塑位於多幅畫作之間。",
+            "錯誤：among 後不加 at。"
+          ],
+          "sourceFile": "Fly_Me_To_The_Moon_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "among the stars",
+          "pattern": [
+            {
+              "text": "among",
+              "fixed": true
+            },
+            {
+              "text": "一群人／物",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：雕塑位於多幅畫作之間。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "間接問句：what + 主詞 + be + like",
+          "meaning": "想知道某事物是甚麼樣子。",
+          "usage": "what 引導嵌入式問句時，用陳述語序，不像直接問句倒裝。",
+          "prompt": "情境：記者第一次參觀新劇院。 選出唯一符合句型、語法與情境的英文句子。",
+          "options": [
+            "I want to see what the new theatre is like.",
+            "I want to see what is the new theatre like.",
+            "I want to see what like the new theatre is.",
+            "I want to see what does the new theatre look like."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：what the theatre is like 採用間接問句的陳述語序。",
+            "錯誤：間接問句中不能使用 is the theatre 的直接問句語序。",
+            "錯誤：what like 位置錯誤。",
+            "錯誤：間接問句不使用 does 的問句倒裝形式。"
+          ],
+          "sourceFile": "Fly_Me_To_The_Moon_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "what spring is like",
+          "pattern": [
+            {
+              "text": "see what",
+              "fixed": true
+            },
+            {
+              "text": "事物",
+              "fixed": false
+            },
+            {
+              "text": "is like",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：what the theatre is like 採用間接問句的陳述語序。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "in other words：重新表達",
+          "meaning": "換句話說，用另一種方式表達同一意思。",
+          "usage": "把前面的話說得更直接、更清楚時使用；歌詞從想像轉到真實感情。",
+          "prompt": "情境：旅行領隊澄清一段行程說明。 選出唯一符合句型、語法與情境的英文句子。",
+          "options": [
+            "The road is closed. In other words to, we need another way.",
+            "The road is closed. In other words, we need another way.",
+            "The road is closed. In other words for, we need another way.",
+            "The road is closed. In other words of, we need another way."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：in other words 後不加 to。",
+            "正確：第二句清楚說明道路封閉的結果。",
+            "錯誤：in other words 後不加 for。",
+            "錯誤：in other words 後不加 of。"
+          ],
+          "sourceFile": "Fly_Me_To_The_Moon_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "In other words: hold my hand",
+          "pattern": [
+            {
+              "text": "In other words,",
+              "fixed": true
+            },
+            {
+              "text": "更清楚的說法",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：第二句清楚說明道路封閉的結果。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "祈使句：動詞 + 受詞",
+          "meaning": "直接提出一個動作請求。",
+          "usage": "邀請或請求別人做一件事；歌詞的 hold 帶有親密感，其他情境可用於安全提醒。",
+          "prompt": "情境：登山領隊請隊員抓牢繩子。 選出唯一符合句型、語法與情境的英文句子。",
+          "options": [
+            "Held the rope tightly before you climb.",
+            "Holding the rope tightly before you climb.",
+            "Hold the rope tightly before you climb.",
+            "Holds the rope tightly before you climb."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：Held 是過去式，不是此處的直接指示。",
+            "錯誤：Holding 不能單獨形成這個祈使句。",
+            "正確：Hold 為祈使句原形動詞。",
+            "錯誤：Holds 不是祈使句使用的形式。"
+          ],
+          "sourceFile": "Fly_Me_To_The_Moon_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "hold my hand",
+          "pattern": [
+            {
+              "text": "Hold",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Hold 為祈使句原形動詞。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "稱呼語 + 祈使句",
+          "meaning": "先叫對方，再提出請求。",
+          "usage": "想直接對某人說話，可在祈使句前加名字或稱呼；稱呼語與句子用逗號隔開。",
+          "prompt": "情境：攝影師請演員轉頭。 選出唯一符合句型、語法與情境的英文句子。",
+          "options": [
+            "Maya, turn your head to the left.",
+            "Maya, turned your head to the left.",
+            "Maya, turning your head to the left.",
+            "Maya, turns your head to the left."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：Maya 是稱呼語，後面接原形 turn。",
+            "錯誤：turned 是過去式，不能當此處的祈使句。",
+            "錯誤：turning 不適合這裡的直接指示。",
+            "錯誤：稱呼 Maya 後應用原形 turn。"
+          ],
+          "sourceFile": "Fly_Me_To_The_Moon_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "baby, kiss me",
+          "pattern": [
+            {
+              "text": "稱呼語",
+              "fixed": false
+            },
+            {
+              "text": ",",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Maya 是稱呼語，後面接原形 turn。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "fill + 受詞 + with + 內容",
+          "meaning": "以某物填滿某個容器、空間或內心。",
+          "usage": "可以描述實體容器，也可以作比喻；需保留 fill A with B 的順序。",
+          "prompt": "情境：花藝師正在布置餐廳。 選出唯一符合句型、語法與情境的英文句子。",
+          "options": [
+            "Fill with flowers the glass jars.",
+            "Fill the glass jars with flowers.",
+            "Fill the glass jars to flowers.",
+            "Fill the glass jars of flowers."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：此處的 fill with flowers the jars 語序不自然。",
+            "正確：把花放進玻璃罐中填滿它們。",
+            "錯誤：fill A with B，不能用 to 代替 with。",
+            "錯誤：fill A with B，不能用 of 代替 with。"
+          ],
+          "sourceFile": "Fly_Me_To_The_Moon_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "Fill my heart with song",
+          "pattern": [
+            {
+              "text": "Fill",
+              "fixed": true
+            },
+            {
+              "text": "容器／空間",
+              "fixed": false
+            },
+            {
+              "text": "with",
+              "fixed": true
+            },
+            {
+              "text": "內容",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：把花放進玻璃罐中填滿它們。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "for ever more：持續到未來",
+          "meaning": "以詩意方式表示從此以後一直持續。",
+          "usage": "適合歌詞、誓言或文學語境；日常通常用 forever。",
+          "prompt": "情境：一位演員在最後一場表演後說出願望。 選出唯一符合句型、語法與情境的英文句子。",
+          "options": [
+            "I hope our stories will be remembered for ever more.",
+            "I hope our stories are for ever more a yesterday.",
+            "I hope our stories will be remembered for ever more yesterday.",
+            "I hope for ever more our stories to yesterday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：表示希望故事此後永遠被記得，語氣較詩意。",
+            "錯誤：把 for ever more 當作修飾 yesterday 的形容詞，語法不通。",
+            "錯誤：for ever more 與指定的已過去 yesterday 相衝突。",
+            "錯誤：詞序錯亂，且與 yesterday 時間矛盾。"
+          ],
+          "sourceFile": "Fly_Me_To_The_Moon_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "sing for ever more",
+          "pattern": [
+            {
+              "text": "動作",
+              "fixed": false
+            },
+            {
+              "text": "for ever more",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：表示希望故事此後永遠被記得，語氣較詩意。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "all + 省略關係代名詞的子句",
+          "meaning": "「……就是我所……的一切」；all 後可接修飾它的子句。",
+          "usage": "強調某物已滿足全部需求；歌詞省略了可選擇的關係代名詞 that。",
+          "prompt": "情境：魔術師說明表演需要的東西。 選出唯一符合句型、語法與情境的英文句子。",
+          "options": [
+            "A good hat is all what I need for this trick.",
+            "A good hat is all I need it for this trick.",
+            "A good hat is all that I need it for this trick.",
+            "A good hat is all I need for this trick."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：此處不應使用 all what I need。",
+            "錯誤：it 多餘，造成重複受詞。",
+            "錯誤：need 已有先行詞 all，不應再加多餘的 it。",
+            "正確：all 後的 that 可省略，形成 all I need。"
+          ],
+          "sourceFile": "Fly_Me_To_The_Moon_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "You are all I long for",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be all (that)",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞片語",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：all 後的 that 可省略，形成 all I need。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "long for + 名詞／代名詞",
+          "meaning": "深切渴望某人或某物。",
+          "usage": "表達強烈心願，比 want 情緒更深；這裡歌曲實際用的是 long for。",
+          "prompt": "情境：一位探險家經過長途旅行。 選出唯一符合句型、語法與情境的英文句子。",
+          "options": [
+            "After many days away, she longed for to home.",
+            "After many days away, she longed to home.",
+            "After many days away, she longed for home.",
+            "After many days away, she longed home for."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：long for 不接 to home。",
+            "錯誤：long to 後需接原形動詞，不可直接接 home。",
+            "正確：longed for home 表示深深想念家。",
+            "錯誤：long for 的介系詞應放在 home 前。"
+          ],
+          "sourceFile": "Fly_Me_To_The_Moon_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "all I long for",
+          "pattern": [
+            {
+              "text": "long for",
+              "fixed": true
+            },
+            {
+              "text": "所渴望的人／事物",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：longed for home 表示深深想念家。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "並列動詞：A and B",
+          "meaning": "把兩個動作並列，描述同一對象。",
+          "usage": "列出同一人做的兩個動作時可用 and；歌詞兩個動詞共用省略的受詞。",
+          "prompt": "情境：一位博物館導覽員介紹自己的工作。 選出唯一符合句型、語法與情境的英文句子。",
+          "options": [
+            "The guide greets and helping visitors each morning.",
+            "The guide greeting and helps visitors each morning.",
+            "The guide greets and help visitors each morning.",
+            "The guide greets and helps visitors each morning."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：helping 與 greets 的形式不平行。",
+            "錯誤：greeting 與 helps 的形式不平行。",
+            "錯誤：主詞為單數 the guide，並列的兩個現在式動詞需一致。",
+            "正確：greets 和 helps 都是第三人稱單數現在式。"
+          ],
+          "sourceFile": "Fly_Me_To_The_Moon_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "worship and adore",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞 A and 動詞 B",
+              "fixed": false
+            },
+            {
+              "text": "共同受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：greets 和 helps 都是第三人稱單數現在式。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "please + 祈使句",
+          "meaning": "禮貌地請對方做某事或保持某種態度。",
+          "usage": "在請求前加 please 能使語氣較客氣；be 後可接形容詞。",
+          "prompt": "情境：朋友請隊友在遊戲中保持公平。 選出唯一符合句型、語法與情境的英文句子。",
+          "options": [
+            "Please, be fair to everyone in the game.",
+            "Please, be fairly to everyone in the game.",
+            "Please, are fair to everyone in the game.",
+            "Please, being fair to everyone in the game."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：Please, be + 形容詞 fair，是自然的禮貌請求。",
+            "錯誤：be 後需形容詞 fair，不是副詞 fairly。",
+            "錯誤：祈使句不以 are 開頭。",
+            "錯誤：祈使句要用 be，不用 being。"
+          ],
+          "sourceFile": "Fly_Me_To_The_Moon_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "please, be true",
+          "pattern": [
+            {
+              "text": "Please,",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "補語",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Please, be + 形容詞 fair，是自然的禮貌請求。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "be + 形容詞：描述品質",
+          "meaning": "用 be 加形容詞來說明人的狀態或品質。",
+          "usage": "歌詞的 true 是真心、忠誠的意思，不能擅自延伸成沒有出現的 be true to + 受詞。",
+          "prompt": "情境：劇團負責人提醒演員誠實。 選出唯一符合句型、語法與情境的英文句子。",
+          "options": [
+            "You should be truly about what happened.",
+            "You should being honest about what happened.",
+            "You should honest about what happened.",
+            "You should be honest about what happened."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：truly 是副詞，不能以此形式接在 be 後表示人的品質。",
+            "錯誤：should 後需原形 be，不能直接接 being。",
+            "錯誤：should 後缺少 be。",
+            "正確：be honest 是 be + 形容詞，表達誠實。"
+          ],
+          "sourceFile": "Fly_Me_To_The_Moon_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "be true",
+          "pattern": [
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：be honest 是 be + 形容詞，表達誠實。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "主詞 + 動詞 + 受詞：直接表達感情",
+          "meaning": "直接說自己喜歡或愛一個人、事物。",
+          "usage": "歌詞最後不用複雜比喻，而是用完整的直述句表達感情。",
+          "prompt": "情境：一位老人說自己很喜愛園藝。 選出唯一符合句型、語法與情境的英文句子。",
+          "options": [
+            "My grandpa is loves his little garden.",
+            "My grandpa loving his little garden.",
+            "My grandpa love his little garden.",
+            "My grandpa loves his little garden."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：is 後不能直接接 loves。",
+            "錯誤：缺少 be 動詞，不能只用 loving 作主要動詞。",
+            "錯誤：單數主詞 grandpa 的現在式動詞應用 loves。",
+            "正確：主詞 grandpa 搭配 loves，句子完整自然。"
+          ],
+          "sourceFile": "Fly_Me_To_The_Moon_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "I love you",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "love",
+              "fixed": true
+            },
+            {
+              "text": "人／物",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：主詞 grandpa 搭配 loves，句子完整自然。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "介系詞短語：on + 地點",
+          "meaning": "描述物體在某個表面或星球上。",
+          "usage": "本句 a-Jupiter 是歌唱語音的附加音節，不是標準冠詞規則；新例句應用正常 on + 地點。",
+          "prompt": "情境：機器人展示它拍攝的照片。 選出唯一符合句型、語法與情境的英文句子。",
+          "options": [
+            "The robot is on at Mars in the story.",
+            "The robot is on Mars in the story.",
+            "The robot is on to Mars in the story.",
+            "The robot is on of Mars in the story."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：on 後不用 at Mars。",
+            "正確：on Mars 表示在火星上。",
+            "錯誤：on 後不用 to Mars 來表示靜態位置。",
+            "錯誤：on 後不用 of Mars。"
+          ],
+          "sourceFile": "Fly_Me_To_The_Moon_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "On a-Jupiter and Mars",
+          "pattern": [
+            {
+              "text": "on",
+              "fixed": true
+            },
+            {
+              "text": "地點",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：on Mars 表示在火星上。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Fly_Me_To_The_Moon_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "f0594a841c8648da752b3f732c1a22433b30462975c146660530d442f8c20909"
+    },
+    {
+      "section": "structure",
+      "filename": "Fly_Me_To_The_Moon_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "1e7fd69284691f329e21e3d9a3059cc7aa2ae71ad5ba2a4b217fb275a7208a96"
+    }
+  ]
 }

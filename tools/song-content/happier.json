@@ -2712,5 +2712,195 @@
     "method": "faster-whisper-word-alignment-with-targeted-section-review",
     "audioSha256": "60160cf83fcd90734e7ecb549550355b54cd981d48480a638d243a1f2b061de9",
     "duration": 207.0175
-  }
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "in someone’s arms",
+          "meaning": "在某人的懷抱中；被某人抱著",
+          "usage": "描述擁抱、安慰或親密的姿態。歌詞使用 in another’s arms，是帶感情的描述。",
+          "prompt": "哪一句正確使用「in someone’s arms」？",
+          "options": [
+            "The music rested in the window’s arms.",
+            "The map slept in the driver’s arms.",
+            "The train waited in the station’s arms.",
+            "The baby slept in her father’s arms."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：窗戶不能像人一樣張開懷抱；屬於不合日常語境的擬人。",
+            "錯誤：地圖不是會睡覺的生命，這個畫面不自然。",
+            "錯誤：車站沒有真正能擁抱列車的手臂；一般情境不這樣說。",
+            "正確：寶寶睡在爸爸的懷裡，表示有人抱著。"
+          ],
+          "sourceFile": "Happier_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：寶寶睡在爸爸的懷裡，表示有人抱著。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "ain’t nobody",
+          "meaning": "（非正式口語）沒有人；沒有任何人",
+          "usage": "歌詞採用帶有否定一致（negative concord）的口語形式。在標準書面英文中，通常改成 nobody ... 或 there isn’t anybody ...；不是在說「沒有人不存在」。",
+          "prompt": "哪一句正確使用「ain’t nobody」？",
+          "options": [
+            "Ain’t nobody is a name for a new dance.",
+            "Ain’t nobody here but us, said the singer.",
+            "Ain’t nobody means every person came today.",
+            "Ain’t nobody are waiting near the door."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：這是口語否定表達，不是舞步名稱。",
+            "正確：這是非正式、帶口語或歌曲風格的「這裡除了我們沒別人」。",
+            "錯誤：ain’t nobody 表示「沒有人」，不是「每個人都來了」。",
+            "錯誤：後接 are 不符合這種句式的搭配；可以說 Nobody is waiting。"
+          ],
+          "sourceFile": "Happier_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：這是非正式、帶口語或歌曲風格的「這裡除了我們沒別人」。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "until then",
+          "meaning": "直到那時為止；在那之前",
+          "usage": "已提到未來某個時間或事情，說明在它發生前會維持的狀態或做法。",
+          "prompt": "哪一句正確使用「until then」？",
+          "options": [
+            "The shop opens at ten; until then, wait.",
+            "I put until then in my bag at school.",
+            "My bike rode until then across the soup.",
+            "The bus was yellow until then the station."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：商店十點開門；在那之前可以先等。",
+            "錯誤：這是時間片語，不是能放進書包的東西。",
+            "錯誤：腳踏車不能騎過湯；也沒有明確的「那時」。",
+            "錯誤：until then 後不能這樣直接接地點，句意也不清楚。"
+          ],
+          "sourceFile": "Happier_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：商店十點開門；在那之前可以先等。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "nursing an empty bottle",
+          "meaning": "抱著空瓶久久不放（歌詞中的畫面）",
+          "usage": "這是帶有情緒的文學性用法。動詞 nurse 也常用於慢慢啜飲一杯飲料，但歌詞的瓶子是 empty，不能解讀為仍在喝酒。",
+          "prompt": "哪一句正確使用「nursing an empty bottle」？",
+          "options": [
+            "She nursed an empty bottle to water the tree.",
+            "He nursed an empty bottle to buy a ticket.",
+            "He sat alone, nursing an empty bottle in silence.",
+            "They nursed an empty bottle to start the car."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：空瓶不會自動為樹澆水；與這裡的情緒意象無關。",
+            "錯誤：抱著空瓶不是購票的方式，也不表示付錢。",
+            "正確：獨自抱著空瓶沉默不語，符合歌詞描繪的低落情緒。",
+            "錯誤：抱著空瓶不能啟動汽車；這不是機械動作。"
+          ],
+          "sourceFile": "Happier_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：獨自抱著空瓶沉默不語，符合歌詞描繪的低落情緒。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "tell oneself",
+          "meaning": "告訴自己；在心裡反覆對自己說",
+          "usage": "想安慰、提醒或說服自己時使用；歌詞原文是 telling myself。",
+          "prompt": "哪一句正確使用「tell oneself」？",
+          "options": [
+            "The sandwich told itself to catch the bus.",
+            "I told myself to relax before class.",
+            "The cat told itself the door was a fish.",
+            "The chair told itself to read the news."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：三明治沒有自我對話或搭公車的能力。",
+            "正確：考試前提醒自己冷靜，符合心裡自我對話的意思。",
+            "錯誤：一般日常英文不會描述貓以人類語言在心裡說這種話。",
+            "錯誤：椅子無法思考或閱讀，句意刻意荒謬。"
+          ],
+          "sourceFile": "Happier_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：考試前提醒自己冷靜，符合心裡自我對話的意思。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "guess",
+          "meaning": "猜測；認為（但不完全確定）",
+          "usage": "不十分確定情況時，表示自己的推測；可以用 I guess + 子句。",
+          "prompt": "哪一句正確使用「guess」？",
+          "options": [
+            "I guess the shop is closed; its lights are off.",
+            "I guess a blanket over the sleeping dog.",
+            "I guess my shoes to the bus every day.",
+            "I guess the pizza with a knife for lunch."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：看見燈關了，推測商店已打烊。",
+            "錯誤：把毯子蓋上應說 put a blanket over，不是 guess。",
+            "錯誤：guess 不能表示穿鞋或前往公車站。",
+            "錯誤：guess 是推測，不是用刀切披薩。"
+          ],
+          "sourceFile": "Happier_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：看見燈關了，推測商店已打烊。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Happier_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "7000778fdf38cbf5b3fcc0e746f2ed1d5f46471383143f383786372b1fc35b69"
+    }
+  ]
 }

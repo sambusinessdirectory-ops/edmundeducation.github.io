@@ -2737,5 +2737,1481 @@
     "sha256": "0d133ec61ac37f5d30f9b7819d6caf353450ec3494a698945c4490ae7d8fce07",
     "transformations": "none",
     "selectedOn": "2026-10-29"
-  }
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "midnight sun",
+          "meaning": "午夜太陽；高緯度夏季深夜仍可見的太陽",
+          "usage": "談論極圈附近的夏季自然現象；歌中也形成富有詩意的旅行畫面。",
+          "prompt": "哪一句最自然地使用「midnight sun」？",
+          "options": [
+            "We ordered midnight sun with fries at the roadside café.",
+            "My uncle wears midnight sun when he rides his bicycle.",
+            "The midnight sun arrived on our train with two suitcases.",
+            "The midnight sun stayed visible during our northern summer trip."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：它不是可供點餐的食物；這裡可說 ordered dinner。",
+            "錯誤：它不是衣物；這裡可說 wears sunglasses。",
+            "錯誤：midnight sun 是自然現象，不是搭火車的旅客。",
+            "正確：在高緯度地區，夏季午夜仍可能看見太陽。"
+          ],
+          "sourceFile": "Faithfully_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "context": "參考程度：B2",
+          "explanation": "正確：在高緯度地區，夏季午夜仍可能看見太陽。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "along the wire",
+          "meaning": "沿著電線；（在歌曲語境中）透過通訊線路傳達",
+          "usage": "描述訊息沿線路傳送；這是較具年代感的詩意表達，不是現代通訊的通用說法。",
+          "prompt": "哪一句最自然地使用「along the wire」？",
+          "options": [
+            "Her voice travelled along the wire during the old phone call.",
+            "The chef sent fresh bread along the wire to our table.",
+            "The painter hung his homework along the wire to finish it.",
+            "Our bus drove along the wire instead of taking the road."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：舊式電話透過線路傳送聲音，符合字面和歌中意象。",
+            "錯誤：麵包不能沿通訊線傳送；可說 brought bread to our table。",
+            "錯誤：這裡混淆晾掛物品和傳送訊息，也沒有合理語境。",
+            "錯誤：公車行駛在道路上，而不是沿著電線前進。"
+          ],
+          "sourceFile": "Faithfully_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "context": "參考程度：B2",
+          "explanation": "正確：舊式電話透過線路傳送聲音，符合字面和歌中意象。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "start a family",
+          "meaning": "建立家庭；常指與伴侶共同生活、養育孩子",
+          "usage": "談論人生規劃、伴侶是否打算養育子女；不一定表示每個家庭都必須有孩子。",
+          "prompt": "哪一句最自然地使用「start a family」？",
+          "options": [
+            "Our dog started a family by buying a new red collar.",
+            "They hope to start a family after they settle in.",
+            "The printer started a family with three smaller printers.",
+            "He started a family when he opened his sandwich shop."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：買項圈不是此處「建立家庭」的常見用法。",
+            "正確：兩人安頓下來後，希望規劃家庭生活。",
+            "錯誤：將印表機擬人化，並非自然的日常用法。",
+            "錯誤：開店是創業，不等於與伴侶建立家庭。"
+          ],
+          "sourceFile": "Faithfully_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "context": "參考程度：B1",
+          "explanation": "正確：兩人安頓下來後，希望規劃家庭生活。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "right down the line",
+          "meaning": "一路以來；從頭到尾、始終（依語境）",
+          "usage": "在歌中強調長久以來的陪伴；此片語在其他語境可能有不同含義，不能一概套用。",
+          "prompt": "哪一句最自然地使用「right down the line」？",
+          "options": [
+            "Right down the line, she supported the team through every change.",
+            "Right down the line, the soup turned into a bicycle.",
+            "Right down the line, I mailed breakfast to the moon.",
+            "Right down the line, our chairs learned to sing jazz."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：她經歷各種變化仍支持團隊，符合「始終如一」。",
+            "錯誤：湯變成腳踏車不具合理情境；片語也不能使其成立。",
+            "錯誤：寄早餐到月球沒有呈現長期一貫的行動。",
+            "錯誤：椅子學唱爵士樂的荒謬敘述不能體現始終支持。"
+          ],
+          "sourceFile": "Faithfully_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "context": "參考程度：C1（語境性）",
+          "explanation": "正確：她經歷各種變化仍支持團隊，符合「始終如一」。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "music man",
+          "meaning": "音樂人；以音樂為工作或生活重心的男子",
+          "usage": "較口語或帶敘事色彩的稱呼；在歌曲裡指經常巡演的男性音樂工作者。",
+          "prompt": "哪一句最自然地使用「music man」？",
+          "options": [
+            "She bought a music man to replace her broken kitchen clock.",
+            "The music man is a new kind of vegetable for soup.",
+            "He is a music man because his shoes are painted green.",
+            "He is a music man who performs at different venues each week."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：音樂人不是能買來替換時鐘的商品。",
+            "錯誤：music man 指人，不是一種蔬菜。",
+            "錯誤：鞋子顏色與是否從事音樂工作無關。",
+            "正確：他經常在不同場地演出，符合音樂工作者的意思。"
+          ],
+          "sourceFile": "Faithfully_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "context": "參考程度：B2（口語／語境）",
+          "explanation": "正確：他經常在不同場地演出，符合音樂工作者的意思。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "faithfully",
+          "meaning": "忠誠地；忠實地；始終信守承諾地",
+          "usage": "形容長期遵守承諾、履行責任或對人忠誠；歌中重點是感情上的不渝。",
+          "prompt": "哪一句最自然地使用「faithfully」？",
+          "options": [
+            "He faithfully kept his promise even when life became difficult.",
+            "The bus faithfully tasted like strawberries after the long drive.",
+            "I faithfully put my birthday inside the kitchen cupboard.",
+            "She faithfully repaired the broken moon with a fork each Friday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：即使生活艱難，他仍持續履行承諾。",
+            "錯誤：faithfully 不能自然修飾公車「吃起來」的味道。",
+            "錯誤：生日不是可以放入櫥櫃的實體物品。",
+            "錯誤：這個荒謬的修月亮行動無法自然表達信守承諾。"
+          ],
+          "sourceFile": "Faithfully_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "context": "參考程度：B2",
+          "explanation": "正確：即使生活艱難，他仍持續履行承諾。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "big top",
+          "meaning": "馬戲團的大型表演帳篷",
+          "usage": "談馬戲團、表演場地或馬戲意象時使用；不是泛指高樓、天空或大帽子。",
+          "prompt": "哪一句最自然地使用「big top」？",
+          "options": [
+            "We wore the big top on our heads during the rainy parade.",
+            "The architect added a big top to the twenty-storey office tower.",
+            "The acrobats performed under the big top before a cheering crowd.",
+            "The pilot landed the big top beside the airport at dawn."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：big top 不是普通帽子；可說 wore big hats。",
+            "錯誤：高樓屋頂不因為大就叫 big top。",
+            "正確：雜技演員在馬戲團的大帳篷下表演。",
+            "錯誤：飛行員降落的是飛機，不是馬戲帳篷。"
+          ],
+          "sourceFile": "Faithfully_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "context": "參考程度：C1（專門詞）",
+          "explanation": "正確：雜技演員在馬戲團的大帳篷下表演。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "love affair",
+          "meaning": "戀情；一段戀愛關係（有時暗示婚外情）",
+          "usage": "談論戀愛關係時使用；部分語境可指秘密或婚外戀，不能假定每次都有此含義。",
+          "prompt": "哪一句最自然地使用「love affair」？",
+          "options": [
+            "The chef put his love affair in the oven for twenty minutes.",
+            "The love affair began when the two buses missed their stop.",
+            "Their love affair survived years of travel and long-distance calls.",
+            "The museum bought three love affairs for its winter exhibition."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：戀情不是能放進烤箱烹調的東西。",
+            "錯誤：公車本身不是談戀愛的當事人；若指乘客需說清楚。",
+            "正確：這段關係經歷多年旅行和遠距離聯絡仍持續。",
+            "錯誤：戀愛關係不是博物館能購買的展品。"
+          ],
+          "sourceFile": "Faithfully_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "context": "參考程度：B2",
+          "explanation": "正確：這段關係經歷多年旅行和遠距離聯絡仍持續。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "rediscover",
+          "meaning": "重新發現；再次認識、體會原本熟悉的人或事",
+          "usage": "談重新欣賞某個地方、興趣或熟悉的人；不只是第一次發現新東西。",
+          "prompt": "哪一句最自然地使用「rediscover」？",
+          "options": [
+            "The scientist rediscovered a brand-new planet never seen before.",
+            "After years away, she rediscovered her love of painting.",
+            "He rediscovered his lunch by eating it before school every day.",
+            "The farmer rediscovered a green hat by painting the rain."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：第一次發現未知行星應說 discovered，而非 rediscovered。",
+            "正確：多年後重新找回對繪畫的熱愛，符合 rediscover。",
+            "錯誤：每天吃午餐不代表重新發現或重新欣賞午餐。",
+            "錯誤：用畫雨的方式重新發現帽子，語意不自然。"
+          ],
+          "sourceFile": "Faithfully_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "context": "參考程度：B2",
+          "explanation": "正確：多年後重新找回對繪畫的熱愛，符合 rediscover。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "circus life",
+          "meaning": "馬戲團般的生活；四處巡演、忙碌而變動的生活",
+          "usage": "本歌的形象化搭配，不是各種忙碌生活都能直接叫 circus life；可用來描述真正的馬戲團生活。",
+          "prompt": "哪一句最自然地使用「circus life」？",
+          "options": [
+            "Circus life means my sandwich must always wear a tiny hat.",
+            "Circus life can involve travel, rehearsals, and frequent performances.",
+            "Circus life is a special train ticket sold only on Mondays.",
+            "Circus life is the standard name for a quiet office lunch break."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：三明治戴帽子是有趣的想像，但不是該詞的意思。",
+            "正確：馬戲團生活確實可能包含旅行、排練和反覆演出。",
+            "錯誤：這個詞組並不是某種火車票。",
+            "錯誤：一般辦公室午休不叫 circus life。"
+          ],
+          "sourceFile": "Faithfully_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "context": "參考程度：B2（詩意搭配）",
+          "explanation": "正確：馬戲團生活確實可能包含旅行、排練和反覆演出。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "go round and round｜不停旋轉",
+          "meaning": "不停繞圈、旋轉。",
+          "usage": "描述輪子、旋轉木馬、旋轉玩具等反覆轉動。",
+          "prompt": "科學館裡，孩子按下按鈕後，一個小輪子不停轉動。哪一句最符合情境？",
+          "options": [
+            "The small wheel stays still all day.",
+            "The small wheel goes round and round.",
+            "The small wheel goes straight to the exit.",
+            "The small wheel jumps over the table."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：stays still 表示靜止，與情境相反。",
+            "正確：goes round and round 正是輪子不停轉動。",
+            "錯誤：goes straight 表示直線前進，不是旋轉。",
+            "錯誤：jumps over 表示跳過，沒有描述旋轉。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "go round and round",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "go/goes/went",
+              "fixed": true
+            },
+            {
+              "text": "round and round",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：goes round and round 正是輪子不停轉動。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "be on someone’s mind｜一直惦記",
+          "meaning": "某人或某件事一直在心裡、腦海裡。",
+          "usage": "想念親友，或總是想到一件讓自己在意的事時使用。",
+          "prompt": "妹妹今天第一次獨自出國，姐姐一直擔心她的旅程。哪句最自然？",
+          "options": [
+            "My sister is under my table.",
+            "My sister is behind the calendar.",
+            "My sister is on the train timetable.",
+            "My sister has been on my mind all day."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：under my table 只表示桌子下面，不是掛念。",
+            "錯誤：behind the calendar 是物理位置。",
+            "錯誤：on the train timetable 表示出現在時刻表上。",
+            "正確：has been on my mind 表示整天一直惦記。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "You're on my mind",
+          "pattern": [
+            {
+              "text": "[某人／某事]",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "on",
+              "fixed": true
+            },
+            {
+              "text": "[某人的]",
+              "fixed": false
+            },
+            {
+              "text": "mind",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：has been on my mind 表示整天一直惦記。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "主詞 + sleep + 副詞／補語｜獨自入睡",
+          "meaning": "說明誰在何時以甚麼方式睡覺。",
+          "usage": "描述獨自或一起入睡的情況；歌詞把 hearts 擬人化。",
+          "prompt": "露營時，其他人都住同一個帳篷，Mia 選擇睡在自己的小帳篷。哪一句符合？",
+          "options": [
+            "Mia will sleep alone tonight.",
+            "Mia sleeps early because the tent is blue.",
+            "Mia sleeps outside yesterday.",
+            "Mia sleeps with everyone in one tent."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：sleep alone tonight 清楚表示今晚自己睡。",
+            "錯誤：早睡與帳篷顏色不表示獨自睡。",
+            "錯誤：outside yesterday 的時態不配合，也未說明獨自。",
+            "錯誤：with everyone 與獨自睡相反。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "Sleep alone tonight",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "sleep/sleeps",
+              "fixed": true
+            },
+            {
+              "text": "[方式]",
+              "fixed": false
+            },
+            {
+              "text": "[時間]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：sleep alone tonight 清楚表示今晚自己睡。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "-ing 片語作省略句｜正在傳送",
+          "meaning": "以現在分詞片語呈現正在做的事；歌詞省去完整句子的主詞與 be。",
+          "usage": "在歌詞、照片標題、便條中可見；正式完整句通常需要主詞與動詞。",
+          "prompt": "朋友傳來一張正在準備生日禮物的照片；照片標題要寫正在做的動作。哪個最貼切？",
+          "options": [
+            "Will open the gift next year.",
+            "Wrapping a gift for my friend.",
+            "Opened the gift yesterday.",
+            "The gift is very heavy."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：Will open 表示未來，與現在照片不合。",
+            "正確：Wrapping ... 是合適的 -ing 動作標題。",
+            "錯誤：Opened 表示過去已打開，並非正在準備。",
+            "錯誤：只描述重量，沒有說明正在做的事。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "Sending all my love",
+          "pattern": [
+            {
+              "text": "[V-ing]",
+              "fixed": false
+            },
+            {
+              "text": "[受詞]",
+              "fixed": false
+            },
+            {
+              "text": "[方向／方式]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Wrapping ... 是合適的 -ing 動作標題。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "They say that + 子句｜轉述普遍說法",
+          "meaning": "人們說……；轉述沒有指明說話人的看法。",
+          "usage": "談一般流傳的說法，並不表示自己已證實內容。",
+          "prompt": "村子裡的人常說，山上的花每年四月最漂亮；你在轉述這個說法。",
+          "options": [
+            "They say the flowers to April are beautiful.",
+            "They say about that the flowers are beautiful.",
+            "They say that beautiful in April the flowers.",
+            "They say that the flowers are beautiful in April."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：say 後面的語序與介系詞安排不自然。",
+            "錯誤：say about that 在這裡不是自然結構。",
+            "錯誤：that 後面缺少正常主詞＋動詞語序。",
+            "正確：They say that 後面接完整子句。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "They say that",
+          "pattern": [
+            {
+              "text": "They say that",
+              "fixed": true
+            },
+            {
+              "text": "[完整子句]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：They say that 後面接完整子句。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "ain’t no + 名詞｜非標準強調否定",
+          "meaning": "在某些口語、方言和歌曲中用雙重否定強調「不是／沒有」。",
+          "usage": "用來辨認歌詞中的非標準語法；一般正式寫作改用 isn’t a / isn’t any 等合適形式。",
+          "prompt": "一位電影人物用非常口語的語氣說：「這裡不是睡覺的地方。」哪一句最符合歌詞同類形式？",
+          "options": [
+            "This ain’t no place to sleep.",
+            "This place is a good place to sleep.",
+            "This place is not no sleepy in here.",
+            "This place has a lot of beds."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：ain’t no + 名詞是歌詞中的強調式非標準否定。",
+            "錯誤：表示這裡適合睡覺，意思相反。",
+            "錯誤：not no sleepy 既不自然，也不是 ain’t no + 名詞。",
+            "錯誤：有很多床不等於「不是睡覺的地方」。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "ain't no place",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "ain’t no",
+              "fixed": true
+            },
+            {
+              "text": "[名詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：ain’t no + 名詞是歌詞中的強調式非標準否定。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "名詞 + to + 原形動詞｜用途或適合的事",
+          "meaning": "用不定詞片語說明一個地方、時間或事物能用來做甚麼。",
+          "usage": "談找地方做事、找時間休息、找東西使用時。",
+          "prompt": "一家人想在公園吃午餐，需要找到適合坐下來的地方。",
+          "options": [
+            "We need a place eating lunch.",
+            "We need a place for sit and eat.",
+            "We need a place to lunch eating.",
+            "We need a place to sit and eat."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：place eating lunch 語法不自然。",
+            "錯誤：for sit and eat 不是此處的正確結構。",
+            "錯誤：to 後不能直接接 lunch eating。",
+            "正確：a place to sit and eat 用不定詞表用途。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "place to start a family",
+          "pattern": [
+            {
+              "text": "[名詞]",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "[動詞原形]",
+              "fixed": false
+            },
+            {
+              "text": "[其他]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：a place to sit and eat 用不定詞表用途。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "it has been + 名詞片語｜一路以來都是",
+          "meaning": "從過去到現在一直都是某人或某種情況。",
+          "usage": "總結長期未變的陪伴或狀況時使用現在完成式。",
+          "prompt": "兩人五年來一直是同一組舞蹈搭檔，現在仍然一起表演。",
+          "options": [
+            "It will be the same team next year only.",
+            "It is a different team every week.",
+            "It was the same team for one day last year.",
+            "It has been the same team for five years."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：只說未來，沒有從過去持續至今。",
+            "錯誤：每週不同與五年同組矛盾。",
+            "錯誤：只說去年某一天，沒有持續至今。",
+            "正確：has been ... for five years 表示持續到現在。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "it's been you and me",
+          "pattern": [
+            {
+              "text": "It has been",
+              "fixed": true
+            },
+            {
+              "text": "[人／事情]",
+              "fixed": false
+            },
+            {
+              "text": "[時間線索]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：has been ... for five years 表示持續到現在。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "right down the line｜一路以來／始終",
+          "meaning": "強調一路以來、從頭到尾的持續性。",
+          "usage": "偏口語或帶修辭色彩，用於一路堅持或一直相伴。",
+          "prompt": "一個劇團從第一次公演到現在，都由同一位老師支持。哪句最符合「始終」？",
+          "options": [
+            "Right down the line, the road is painted yellow.",
+            "Right down the line, our teacher has supported us.",
+            "Right down the line, the train turns left at six.",
+            "Right down the line, I drew a straight line."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：只描述道路顏色，沒有持續性。",
+            "正確：right down the line 強調老師一路以來支持劇團。",
+            "錯誤：這裡在談火車路線，不是「始終」的意思。",
+            "錯誤：只是畫直線，誤解 line 的字面意思。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "Right down the line",
+          "pattern": [
+            {
+              "text": "right down the line",
+              "fixed": true
+            },
+            {
+              "text": "[相關陳述]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：right down the line 強調老師一路以來支持劇團。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "動名詞作主詞｜做某事這件事",
+          "meaning": "把一項活動或經驗當作句子的主詞。",
+          "usage": "想談某件事是否容易、有趣或重要時使用。",
+          "prompt": "學滑冰很有趣，但一開始常常跌倒。哪句最符合？",
+          "options": [
+            "Learn ice-skating is easy for everyone.",
+            "Skate learning can difficult at first.",
+            "Learning to skate can be difficult at first.",
+            "To learning skate can be difficult at first."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：Learn 不能直接當這裡的名詞性主詞。",
+            "錯誤：名詞與動詞結構都不自然。",
+            "正確：Learning to skate 作主詞，表「學滑冰這件事」。",
+            "錯誤：To learning 的形式不對。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "lovin' a music man",
+          "pattern": [
+            {
+              "text": "[V-ing 片語]",
+              "fixed": false
+            },
+            {
+              "text": "[動詞]",
+              "fixed": false
+            },
+            {
+              "text": "[補語]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Learning to skate 作主詞，表「學滑冰這件事」。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "what + 子句｜本來應有的樣子",
+          "meaning": "「某事本來應該是的樣子」，what 引出名詞性子句。",
+          "usage": "談結果與原先期待不一樣時；這裡連同 be supposed to 的結構一起教。",
+          "prompt": "飯店照片看起來很大，但實際房間很小；客人說它不如預期。",
+          "options": [
+            "This room isn’t what it was supposed to be.",
+            "This room isn’t what was it supposed to be.",
+            "This room what is supposed to be.",
+            "This is what the room supposed to be."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：what it was supposed to be 表示預期的樣子。",
+            "錯誤：名詞性子句不用疑問句倒裝語序。",
+            "錯誤：主句缺少自然的動詞結構。",
+            "錯誤：缺少 was/is 等 be 動詞。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "what it's supposed to be",
+          "pattern": [
+            {
+              "text": "what",
+              "fixed": true
+            },
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "supposed to",
+              "fixed": true
+            },
+            {
+              "text": "be",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：what it was supposed to be 表示預期的樣子。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "stand by + 人｜支持陪伴",
+          "meaning": "在別人需要時支持、陪伴對方。",
+          "usage": "朋友遇到挫折，仍願意與他一起面對時。",
+          "prompt": "演員在台上忘詞了，搭檔沒有責怪他，而是幫他完成演出。",
+          "options": [
+            "His partner stood by him during the show.",
+            "His partner forgot him after the show.",
+            "His partner laughed and left the stage.",
+            "His partner refused to speak to him."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：stood by him 指在困難時支持他。",
+            "錯誤：演出後忘記他不表示支持。",
+            "錯誤：取笑離開不是支持。",
+            "錯誤：拒絕說話不能表達陪伴。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "stand by me",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "stand(s)/stood",
+              "fixed": true
+            },
+            {
+              "text": "by",
+              "fixed": true
+            },
+            {
+              "text": "[某人]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：stood by him 指在困難時支持他。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "be + 所有格代名詞｜歸屬／情感承諾",
+          "meaning": "以所有格代名詞表達親密關係中的承諾。",
+          "usage": "用於私人書信或浪漫語境；也可用於物品歸屬，但不可當作對他人的控制權。",
+          "prompt": "兩人互寫結婚週年紀念卡；一句溫柔的承諾是？",
+          "options": [
+            "I forever yours am.",
+            "I am forever you.",
+            "I am forever your.",
+            "I am forever yours."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：英語的正常語序不是 forever yours am。",
+            "錯誤：you 不是這裡需要的所有格形式。",
+            "錯誤：your 需接名詞，不能單獨放這裡。",
+            "正確：yours 是能獨立使用的所有格代名詞。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "I'm forever yours",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "forever/still",
+              "fixed": true
+            },
+            {
+              "text": "[所有格代名詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：yours 是能獨立使用的所有格代名詞。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "主詞 + all + 動詞｜我們全都……",
+          "meaning": "強調整個群體的人都有同一種需要或行為。",
+          "usage": "討論團隊每個人的共同需要時。",
+          "prompt": "登山隊的每個人出發前都需要一瓶水。",
+          "options": [
+            "We all need a bottle of water.",
+            "We need all a bottle of water.",
+            "We need a all bottle of water.",
+            "All we a bottle of water need."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：We all need 表示我們每個人都需要。",
+            "錯誤：此處 all 的位置不自然。",
+            "錯誤：a all bottle 的冠詞和修飾語順序不對。",
+            "錯誤：句子缺少正確的動詞位置。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "We all need the clowns",
+          "pattern": [
+            {
+              "text": "[複數主詞]",
+              "fixed": false
+            },
+            {
+              "text": "all",
+              "fixed": true
+            },
+            {
+              "text": "[動詞]",
+              "fixed": false
+            },
+            {
+              "text": "[受詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：We all need 表示我們每個人都需要。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "to + make + 人 + 原形動詞｜表示目的",
+          "meaning": "為了讓某人做出某個反應；make 後面的動詞不加 to。",
+          "usage": "說明準備活動或禮物的目的時。",
+          "prompt": "祖父戴上一頂滑稽帽子，是為了讓小孫女笑。",
+          "options": [
+            "Grandpa wore a funny hat making smile his granddaughter.",
+            "Grandpa wore a funny hat to make his granddaughter smiling.",
+            "Grandpa wore a funny hat to make his granddaughter smile.",
+            "Grandpa wore a funny hat to make his granddaughter to smile."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：making smile his granddaughter 的受詞位置不對。",
+            "錯誤：這裡不接 smiling。",
+            "正確：to make + 人 + 原形動詞，表示目的。",
+            "錯誤：make + 人後接原形 smile，不用 to smile。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "To make us smile",
+          "pattern": [
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "make",
+              "fixed": true
+            },
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：to make + 人 + 原形動詞，表示目的。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "through + 名詞｜跨越／穿過",
+          "meaning": "穿過某個空間或歷經一段時間。",
+          "usage": "描述旅程、隧道或漫長時光。",
+          "prompt": "一群旅客穿過長長的山洞才到達海邊。",
+          "options": [
+            "They travelled above the tunnel by plane.",
+            "They drove beside the tunnel all day.",
+            "They travelled through the long tunnel.",
+            "They built a new tunnel near the beach."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：above 是在上方，不是穿過。",
+            "錯誤：beside 是在旁邊，不是穿過。",
+            "正確：through the long tunnel 表示穿過隧道。",
+            "錯誤：建造隧道不是描述穿越。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "Through space and time",
+          "pattern": [
+            {
+              "text": "through",
+              "fixed": true
+            },
+            {
+              "text": "[空間／時間／經歷]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：through the long tunnel 表示穿過隧道。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "省略句：always + 名詞片語",
+          "meaning": "在歌詞中省去 There is，表達一件事總是接著另一件事。",
+          "usage": "多見於歌詞、標語或筆記；正式造句需補回必要的主詞動詞。",
+          "prompt": "舞台經理的行程表上寫著「總有下一場表演」；哪個最適合作為簡短標題？",
+          "options": [
+            "Always another show.",
+            "There always show another.",
+            "Another always the show.",
+            "Always is a showing next."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：Always another show 是與歌詞同類的省略標題。",
+            "錯誤：There always show another 語序不正確。",
+            "錯誤：Another always the show 沒有正常的語法關係。",
+            "錯誤：Always is a showing next 結構不自然。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "Always another show",
+          "pattern": [
+            {
+              "text": "Always",
+              "fixed": true
+            },
+            {
+              "text": "[another + 名詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Always another show 是與歌詞同類的省略標題。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "wonder + 間接疑問句｜想知道在哪",
+          "meaning": "想知道某人／某物身在何處；where 後用陳述句語序。",
+          "usage": "表達不知道位置時，特別注意間接問句不倒裝。",
+          "prompt": "劇院停電後，演員在黑暗中看不見舞台出口，心裡想知道門在哪。",
+          "options": [
+            "I wonder where does the exit.",
+            "I wonder where the exit is.",
+            "I wonder where the exit.",
+            "I wonder where is the exit."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：does 後還缺少主要動詞，語序亦不對。",
+            "正確：where the exit is 是正常間接問句語序。",
+            "錯誤：缺少 is，子句不完整。",
+            "錯誤：間接問句不可用 where is the exit 的倒裝語序。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "Wondering where I am",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "wonder",
+              "fixed": true
+            },
+            {
+              "text": "where",
+              "fixed": true
+            },
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "[動詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：where the exit is 是正常間接問句語序。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "be lost without + 人／物｜缺少就不知所措",
+          "meaning": "沒有某人或某種協助時感到迷惘、不知所措。",
+          "usage": "形容需要別人的支持或某項重要幫助時；可有比喻義。",
+          "prompt": "新導演第一次拍電影，幸好有經驗豐富的助手幫忙；他說沒有助手就不知怎麼辦。",
+          "options": [
+            "I am losing my assistant in the room.",
+            "I am lost with my assistant nearby.",
+            "I would be lost without my assistant.",
+            "I lost without my assistant yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：am losing 表示正在失去，不是 be lost without。",
+            "錯誤：有助手在場，不能表示「沒有他就不知所措」。",
+            "正確：would be lost without 表示假設缺少助手便會不知所措。",
+            "錯誤：缺少 be 動詞；I lost 是「我失去了」。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "I'm lost without you",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "lost",
+              "fixed": true
+            },
+            {
+              "text": "without",
+              "fixed": true
+            },
+            {
+              "text": "[人／重要支援]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：would be lost without 表示假設缺少助手便會不知所措。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "being + 形容詞／副詞作主詞｜分開這件事",
+          "meaning": "把一種狀態（例如分離、獨處）當作主詞。",
+          "usage": "說明某種情況對人而言難不難時使用。",
+          "prompt": "兩位朋友住在不同國家，很難經常見面；哪句最自然？",
+          "options": [
+            "Apart being are hard for them.",
+            "Being apart is hard for them.",
+            "Be apart is hard for them.",
+            "Being apart do not easy for them."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：詞序和 be 動詞均不正確。",
+            "正確：Being apart 作單數主詞，接 is hard。",
+            "錯誤：作主詞要用 Being apart，而不是 Be apart。",
+            "錯誤：do not easy 不合語法。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "being apart ain't easy",
+          "pattern": [
+            {
+              "text": "Being",
+              "fixed": true
+            },
+            {
+              "text": "[狀態]",
+              "fixed": false
+            },
+            {
+              "text": "[be 動詞]",
+              "fixed": false
+            },
+            {
+              "text": "[評價]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Being apart 作單數主詞，接 is hard。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "be easy on + 對象｜對……不構成負擔",
+          "meaning": "某事對某人或某段關係是否容易承受。",
+          "usage": "談工作、旅途或長期距離對人的負擔時。",
+          "prompt": "一位舞者每週演出七晚，雙腳常常疲累。",
+          "options": [
+            "Seven shows a week are not easy on her feet.",
+            "Seven shows a week are not easy at her feet.",
+            "Seven shows a week are not easy from her feet.",
+            "Seven shows a week are not easy to her feet."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：not easy on her feet 表示雙腳承受很大負擔。",
+            "錯誤：easy at her feet 不符合片語搭配。",
+            "錯誤：easy from her feet 不自然。",
+            "錯誤：此處不用 easy to 表示身體負擔。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "ain't easy on this love affair",
+          "pattern": [
+            {
+              "text": "[情況]",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "(not) easy on",
+              "fixed": true
+            },
+            {
+              "text": "[人／事物]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：not easy on her feet 表示雙腳承受很大負擔。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "learn to + 動詞原形｜學會做某事",
+          "meaning": "學習或逐漸學會某個動作、技能。",
+          "usage": "學習技能或重新養成習慣時。",
+          "prompt": "奶奶想學用手機拍照，孫子慢慢教她。",
+          "options": [
+            "Grandma learned to taking photos on her phone.",
+            "Grandma learned to take photos on her phone.",
+            "Grandma learned take photos on her phone.",
+            "Grandma learned taking photos on her phone."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：to 後應用 take，而非 taking。",
+            "正確：learned to take + 原形動詞，表示學會拍照。",
+            "錯誤：learn 後面缺少 to。",
+            "錯誤：learned taking 不符合這裡的 learn to 結構。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "learn to fall in love again",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "learn(s) to",
+              "fixed": true
+            },
+            {
+              "text": "[動詞原形]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：learned to take + 原形動詞，表示學會拍照。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "fall in love + again｜再次產生愛意",
+          "meaning": "兩人再次相愛或重新感到彼此的吸引力。",
+          "usage": "談重逢後再次萌生感情時。",
+          "prompt": "兩位曾經分開的伴侶多年後重逢，發現仍然相愛。",
+          "options": [
+            "They fell at love again after meeting.",
+            "They fell into love again their car.",
+            "They fell in love again after they met.",
+            "They fell in love yesterday at a ladder."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：固定片語是 fall in love，不能說 fall at love。",
+            "錯誤：fell into love again their car 不符合語法。",
+            "正確：fell in love again 表示重新相愛。",
+            "錯誤：這句將 fall 用成另一種不自然搭配，沒有完整重逢情境。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "fall in love again",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "fall/fell in love",
+              "fixed": true
+            },
+            {
+              "text": "again",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：fell in love again 表示重新相愛。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "the joy of + -ing｜做某事的喜悅",
+          "meaning": "「做某事帶來的喜悅」，介系詞 of 後接 -ing。",
+          "usage": "談再次體驗熟悉地方、見到朋友或學會新事物的快樂。",
+          "prompt": "多年後再次去兒時常玩的海灘，一位畫家感到很快樂。",
+          "options": [
+            "She felt the joy of visit the beach again.",
+            "She found the joy of visited the beach again.",
+            "She enjoyed the joy of to visit the beach again.",
+            "She felt the joy of visiting the beach again."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：of 後不能直接用原形 visit。",
+            "錯誤：of 後不接過去式 visited。",
+            "錯誤：of 後不能用 to visit 作這種名詞化搭配。",
+            "正確：the joy of visiting 對應歌詞中的 of rediscovering。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "the joy of rediscovering you",
+          "pattern": [
+            {
+              "text": "the joy of",
+              "fixed": true
+            },
+            {
+              "text": "[V-ing 片語]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：the joy of visiting 對應歌詞中的 of rediscovering。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "still + 狀態｜至今仍然",
+          "meaning": "某個狀態到現在仍沒有改變。",
+          "usage": "強調約定、關係或狀態仍然維持時。",
+          "prompt": "十年過去了，兩位舞團成員仍然是好朋友。",
+          "options": [
+            "They still are friends good after ten years.",
+            "They are still good friendship after ten years.",
+            "They are still good friends after ten years.",
+            "They are yet still good friends yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：friends good 的形容詞位置不對。",
+            "錯誤：friendship 是名詞，不能這樣接在 are 後。",
+            "正確：still + 狀態表示十年後仍是好友。",
+            "錯誤：yet still 搭配 yesterday 令時間表達混亂。"
+          ],
+          "sourceFile": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "I'm still yours",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "still",
+              "fixed": true
+            },
+            {
+              "text": "[形容詞／所有格代名詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：still + 狀態表示十年後仍是好友。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Faithfully_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "8c2617dd7eb69fc1c49055f6b0e017c97c84b665629d0763b15f76b9ddad8e71"
+    },
+    {
+      "section": "structure",
+      "filename": "Faithfully_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "99fafdee3b07bc78706e828ca6e215cddfb2c329b2f649d9057ac540775b317c"
+    }
+  ]
 }

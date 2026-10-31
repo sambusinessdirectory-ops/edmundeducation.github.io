@@ -28,11 +28,12 @@ if(name==='song_appreciation_admin_save_lesson'){Object.assign(song,{...a.p_deta
 if(name==='song_appreciation_vocabulary_answer'){const q=song.vocabulary[a.p_number-1];body={selected:a.p_selected,answer:q.answer,explanation:q.explanation,optionExplanations:q.optionExplanations};progress[a.p_number]=body;}
 return r.fulfill({contentType:'application/json',body:JSON.stringify(body)});});
 await page.goto('http://127.0.0.1:8766/song-appreciation.html');await page.waitForSelector('.song-card');await page.locator('.song-card > button').last().click();
-await page.locator('[data-song-tab="advanced"]').waitFor({state:'visible'});
+const firstSection=original.learning_sections.advanced?'advanced':'structure';
+await page.locator(`[data-song-tab="${firstSection}"]`).waitFor({state:'visible'});
 for(const name of ['advanced','structure','analysis'])assert.equal(await page.locator(`[data-song-tab="${name}"]`).isVisible(),Boolean(original.learning_sections[name]));
 await page.locator('[data-song-tab="translation"]').click();await page.waitForFunction(()=>window.songQA.state.playerReady);
 await page.locator('[data-player-controls] [data-player-toggle]').click();await page.waitForFunction(()=>!document.querySelector('audio').paused);
-for(const name of ['advanced','structure']) {
+for(const name of ['advanced','structure'].filter(name=>original.learning_sections[name])) {
  await page.locator(`[data-song-tab="${name}"]`).click();const panel=page.locator(`[data-learning-section="${name}"]`);
  assert.equal(await page.locator('audio').evaluate(a=>a.paused),false,'music continues in '+name);
  assert.equal(await panel.locator('.vocabulary-option').count(),4);assert.equal(await panel.locator('.vocabulary-feedback').textContent(),'');
@@ -43,5 +44,5 @@ for(const name of ['advanced','structure']) {
 }
 if(original.learning_sections.analysis){await page.locator('[data-song-tab="analysis"]').click();assert.equal(await page.locator('.analysis-card').count(),original.learning_sections.analysis.items.length);assert.equal(await page.locator('audio').evaluate(a=>a.paused),false);
 assert.ok(!/不是[^。！？\n]{0,180}而是/.test(await page.locator('[data-learning-section="analysis"]').textContent()));}
-await page.reload();await page.waitForSelector('.song-card');await page.locator('.song-card > button').last().click();await page.locator('[data-song-tab="advanced"]').click();await page.locator('[data-learning-section="advanced"] .vocabulary-option.is-correct').waitFor();
+await page.reload();await page.waitForSelector('.song-card');await page.locator('.song-card > button').last().click();await page.locator(`[data-song-tab="${firstSection}"]`).click();await page.locator(`[data-learning-section="${firstSection}"] .vocabulary-option.is-correct`).waitFor();
 assert.deepEqual(errors,[]);await browser.close();console.log('PASS '+lesson+': available section tabs, grading, rationales, saved reload, continuous audio, 3 widths, Chinese style.');})().catch(e=>{console.error(e);process.exit(1)});
