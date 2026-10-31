@@ -1,3 +1,4 @@
+import {installVocabulary} from './vocabulary.mjs?v=20261031-6';
 import {data,palette,title,format,calculate} from './data.mjs';
 const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const key='edmund-chart-studio-electricity-v1';
@@ -117,4 +118,6 @@ orgList.addEventListener('pointerdown',event=>{const handle=event.target.closest
 orgList.addEventListener('pointermove',event=>{if(!touchDrag||event.pointerId!==touchDrag.pointer)return;const item=document.elementFromPoint(event.clientX,event.clientY)?.closest('[data-org-id]');orgList.querySelectorAll('.drop-target').forEach(el=>el.classList.remove('drop-target'));if(item){touchDrag.target=item.dataset.orgId;item.classList.add('drop-target');}});
 orgList.addEventListener('pointerup',()=>{if(touchDrag?.target)moveOrganization(touchDrag.id,organization.indexOf(touchDrag.target));touchDrag=null;orgList.querySelectorAll('.drop-target').forEach(el=>el.classList.remove('drop-target'));});
 orgList.addEventListener('pointercancel',()=>{touchDrag=null;orgList.querySelectorAll('.drop-target').forEach(el=>el.classList.remove('drop-target'));});
+window.addEventListener('chart-vocabulary-insert',event=>{const {target,text}=event.detail||{};if(!['observation','overview'].includes(target)||typeof text!=='string')return;const blank=notes[target].findIndex(row=>!row.trim());if(blank>=0)notes[target][blank]=text;else notes[target].push(text);renderNotes(target);save();notice('已加入 '+(target==='overview'?'Overview':'Observation'));});
+installVocabulary();
 buildChart();groups();setMode('colour');renderCalculator();renderNotes('observation');renderNotes('overview');renderOrganization();

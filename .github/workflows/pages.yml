@@ -389,6 +389,9 @@ jobs:
           node --check ielts-chart-teaching/app.mjs
           node --check ielts-chart-teaching/data.mjs
           node tools/test-ielts-chart-teaching.mjs
+          python3 tools/build-ielts-chart-vocabulary.py
+          node --check ielts-chart-teaching/vocabulary.mjs
+          node tools/test-ielts-vocabulary.mjs
           node --check shared-system-nav.js
 
       - name: Validate focused IELTS Writing Preview release
