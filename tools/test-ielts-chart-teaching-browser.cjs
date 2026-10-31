@@ -1,0 +1,22 @@
+const assert=require('node:assert/strict');
+const {chromium}=require(process.env.HOME+'/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+(async()=>{const browser=await chromium.launch();try{
+ const page=await browser.newPage({viewport:{width:1512,height:1100}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('http://127.0.0.1:8799/ielts-chart-teaching.html',{waitUntil:'networkidle'});
+ assert.equal(await page.locator('.chart-row').count(),10);assert.equal(await page.locator('.bar').count(),20);assert.equal(await page.locator('.value').count(),20);
+ const widths=await page.locator('.chart-row').nth(8).locator('.bar').evaluateAll(b=>b.map(x=>x.getBoundingClientRect().width));assert(widths[1]>widths[0]);
+ await page.locator('[data-group=blue]').click();await page.locator('[data-name=blue]').fill('High output');await page.locator('[data-mark="bar-0-production"]').click();await page.locator('[data-mark="value-0-production"]').click();await page.locator('[data-mark="country-0"]').click();await page.locator('[data-mark="bar-1-production"]').click();assert.equal(await page.locator('.coloured').count(),4);
+ await page.reload();assert.equal(await page.locator('.coloured').count(),4);assert.equal(await page.locator('[data-name=blue]').inputValue(),'High output');
+ await page.locator('#clear-colours').click();assert.equal(await page.locator('.coloured').count(),0);await page.locator('#undo').click();assert.equal(await page.locator('.coloured').count(),4);
+ await page.locator('[data-mode=calculate]').click();await page.locator('[data-mark="value-0-production"]').click();await page.locator('[data-mark="value-0-consumption"]').click();await page.locator('[data-operator="0"]').selectOption('-');assert.equal(await page.locator('#result').innerText(),'76');
+ await page.locator('#manual-number').fill('100');await page.locator('#manual-form button').click();await page.locator('[data-operator="1"]').selectOption('*');assert.equal(await page.locator('#result').innerText(),'7,600');
+ await page.locator('[data-remove="2"]').click();assert.equal(await page.locator('#result').innerText(),'76');
+ await page.locator('#manual-number').fill('0');await page.locator('#manual-form button').click();await page.locator('[data-operator="1"]').selectOption('/');assert.equal(await page.locator('#result-note').innerText(),'不能除以 0');
+ await page.locator('[data-remove="2"]').click();await page.screenshot({path:'/tmp/ielts-chart-desktop.png',fullPage:true});
+ await page.locator('[data-mark="bar-0-production"]').click();assert.equal(await page.locator('.operand').count(),1);
+ await page.locator('#clear-calculator').click();await page.locator('[data-mark="value-8-consumption"]').click();await page.locator('[data-mark="value-8-production"]').click();await page.locator('[data-operator="0"]').selectOption('-');assert.equal(await page.locator('#result').innerText(),'55.9');
+ await page.locator('[data-group=rose]').click();await page.locator('[data-mark="bar-8-consumption"]').focus();await page.keyboard.press('Enter');assert(await page.locator('[data-mark="bar-8-consumption"]').evaluate(e=>e.classList.contains('coloured')));
+ await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));await page.screenshot({path:'/tmp/ielts-chart-mobile.png',fullPage:true});
+ await page.goto('http://127.0.0.1:8799/index.html',{waitUntil:'domcontentloaded'});const card=page.locator('[data-system-card-deck-stack] a[href="ielts-chart-teaching.html"]');await card.waitFor({state:'attached'});assert.equal(await card.getAttribute('data-card-number'),'79');
+ assert.deepEqual(errors,[]);console.log('PASS: 20 chart values, correct proportions, colour grouping/persistence/undo, ordered arithmetic, zero division, keyboard, mobile, card 79');
+}finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1});

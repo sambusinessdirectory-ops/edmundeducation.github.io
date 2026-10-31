@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {data,calculate} from '../ielts-chart-teaching/data.mjs';
+assert.equal(data.length,10);assert.equal(data.flatMap(row=>row.slice(1)).length,20);
+assert.deepEqual(data[0],['China',5398,5322]);assert.deepEqual(data[8],['Germany',526.6,582.5]);
+assert.equal(calculate([5398,5322],['-']).value,76);
+assert.equal(calculate([582.5,526.6],['-']).value,55.9);
+assert.equal(calculate([5398,5322,100],['/','*']).value,101.428034573);
+assert.equal(calculate([2,3,4],['+','*']).value,20);
+assert.equal(calculate([10,2],['/']).value,5);assert.equal(calculate([10,-2],['*']).value,-20);
+assert(calculate([1,0],['/']).error);assert(calculate([1],[]).error);
+assert(calculate([Number.MAX_VALUE,2],['*']).error);
+assert(fs.readFileSync('index.html','utf8').includes('href="ielts-chart-teaching.html"'));
+assert(fs.readFileSync('shared-system-nav.js','utf8').includes('en: "IELTS Chart Studio", homepageCard: 79'));
+console.log('PASS: supplied dataset, arithmetic, rounding, invalid arithmetic, homepage integration');

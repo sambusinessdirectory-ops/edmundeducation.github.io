@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+ <title>IELTS 圖表教學系統｜EdmundEducation</title>
+ <meta name="description" content="互動 IELTS 圖表教室：標示趨勢、用顏色分組，以及選取數據進行簡單計算。">
+ <meta name="theme-color" content="#234d42"><link rel="canonical" href="https://edmundeducation.com/ielts-chart-teaching.html">
+ <link rel="icon" href="/favicon.ico"><link rel="stylesheet" href="/shared-system-nav.css"><link rel="stylesheet" href="/pwa-ui.css">
+ <link rel="stylesheet" href="/ielts-chart-teaching/style.css?v=20261031-1">
+ <script defer src="/shared-system-nav.js"></script><script defer src="/pwa-register.js"></script>
+ <script type="module" src="/ielts-chart-teaching/app.mjs?v=20261031-1"></script>
+</head>
+<body>
+ <a class="skip" href="#workspace">跳至圖表</a>
+ <header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">E</span><span>EdmundEducation<small>THE CHART STUDIO</small></span></a><div class="edmund-system-switcher" data-edmund-system-switcher data-system="ielts-chart-teaching"><button type="button" class="edmund-system-switcher__trigger" data-system-switcher-trigger aria-label="切換學習系統">所有系統 ⌄</button></div><a class="home-link" href="index.html">返回首頁 ↗</a></header>
+ <main>
+  <section class="intro"><div><p class="eyebrow">79 / IELTS WRITING TASK 1</p><h1>IELTS 圖表教學系統</h1><p class="intro-note">看見數據，整理比較。</p></div><span class="lesson-chip"><i></i> 01 · Electricity</span></section>
+  <div class="workspace" id="workspace">
+   <section class="chart-card" aria-label="互動電力圖表">
+    <div class="chart-toolbar"><div class="mode-switch" role="group" aria-label="圖表操作模式"><button type="button" data-mode="colour" aria-pressed="true">◉ 顏色分組</button><button type="button" data-mode="calculate" aria-pressed="false">＋ 選數計算</button></div><button type="button" id="undo" class="quiet">↶ 撤銷標記</button></div>
+    <p class="mode-hint" id="mode-hint"></p>
+    <div class="chart-heading"><p class="eyebrow">TASK 1 · T1-005</p><div id="chart-title"></div></div>
+    <p class="chart-scroll-hint">左右滑動查看完整圖表 ↔</p>
+    <div class="chart-scroll" tabindex="0" aria-label="電力圖表，可水平捲動"><div id="chart"></div></div>
+    <div class="chart-footer"><span>Summarise the information by selecting and reporting the main features, and make comparisons where relevant.</span><small>Write at least 150 words.</small></div>
+   </section>
+   <aside class="tools" aria-label="圖表教學工具">
+    <section class="tool-card groups-card"><div class="tool-heading"><span class="step">01</span><div><p class="eyebrow">FIND THE PATTERN</p><h2>顏色與群組</h2></div></div><p class="tool-note">選一種顏色，再點圖表元素。群組名稱可自行修改。</p><div id="groups"></div><div class="group-actions"><button type="button" id="eraser" aria-pressed="false">橡皮擦</button><button type="button" id="clear-colours">清除標記</button></div><p class="storage-note" id="storage-status" role="status">標記儲存在此瀏覽器</p></section>
+    <section class="tool-card calculator-card"><div class="tool-heading"><span class="step">02</span><div><p class="eyebrow">MAKE A COMPARISON</p><h2>數據計算機</h2></div></div><p class="tool-note">切換「選數計算」，依序點擊數字或長條。可加入兩個或更多數值。</p><div id="operands"></div><form id="manual-form"><label class="sr-only" for="manual-number">自訂數字</label><input id="manual-number" type="number" step="any" placeholder="自訂數字，例如 100" required><button type="submit" aria-label="加入自訂數字">＋ 加入</button></form><div class="result-box" aria-live="polite"><p id="expression">選取數字開始比較</p><output id="result">—</output><small id="result-note">依選取順序，由左至右計算</small></div><button type="button" id="clear-calculator" class="clear-calc">清空計算</button></section>
+   </aside>
+  </div>
+  <footer class="page-footer"><span>EDMUND EDUCATION · CHART STUDIO</span><span>重製自提供圖表 · 單位：billion kWh</span></footer>
+ </main>
+ <div id="toast" role="status" aria-live="polite"></div>
+</body></html>
