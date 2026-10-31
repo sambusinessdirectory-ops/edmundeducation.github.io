@@ -7,6 +7,12 @@ const {chromium}=require(process.env.HOME+'/.cache/codex-runtimes/codex-primary-
  const widths=await page.locator('.chart-row').nth(8).locator('.bar').evaluateAll(b=>b.map(x=>x.getBoundingClientRect().width));assert(widths[1]>widths[0]);
  await page.locator('[data-group=blue]').click();await page.locator('[data-name=blue]').fill('High output');await page.locator('[data-mark="bar-0-production"]').click();await page.locator('[data-mark="value-0-production"]').click();await page.locator('[data-mark="country-0"]').click();await page.locator('[data-mark="bar-1-production"]').click();assert.equal(await page.locator('.coloured').count(),4);
  await page.reload();assert.equal(await page.locator('.coloured').count(),4);assert.equal(await page.locator('[data-name=blue]').inputValue(),'High output');
+ const sharedBar=page.locator('[data-mark="bar-0-production"]');const primaryColour=await sharedBar.evaluate(e=>getComputedStyle(e).backgroundColor);
+ await page.locator('[data-group=amber]').click();await sharedBar.click();assert.equal(await sharedBar.evaluate(e=>getComputedStyle(e).backgroundColor),primaryColour);assert(await sharedBar.evaluate(e=>e.classList.contains('multi-group')));assert((await sharedBar.getAttribute('title')).includes('High output、群組 3'));
+ await page.locator('[data-mark="value-0-production"]').click();assert.equal(await page.locator('[data-mark="value-0-production"]').evaluate(e=>getComputedStyle(e).position),'absolute');await page.locator('[data-mark="value-0-production"]').click();
+ await sharedBar.click();assert.equal(await sharedBar.evaluate(e=>e.classList.contains('multi-group')),false);assert.equal(await sharedBar.evaluate(e=>getComputedStyle(e).backgroundColor),primaryColour);await page.locator('#undo').click();assert(await sharedBar.evaluate(e=>e.classList.contains('multi-group')));
+ await page.reload();assert(await sharedBar.evaluate(e=>e.classList.contains('multi-group')));assert.equal(await sharedBar.evaluate(e=>getComputedStyle(e).backgroundColor),primaryColour);
+ await page.locator('.chart-row').first().screenshot({path:'/tmp/ielts-chart-shared-group.png'});
  await page.locator('#clear-colours').click();assert.equal(await page.locator('.coloured').count(),0);await page.locator('#undo').click();assert.equal(await page.locator('.coloured').count(),4);
  await page.locator('[data-mode=calculate]').click();await page.locator('[data-mark="value-0-production"]').click();await page.locator('[data-mark="value-0-consumption"]').click();await page.locator('[data-operator="0"]').selectOption('-');assert.equal(await page.locator('#result').innerText(),'76');
  await page.locator('#manual-number').fill('100');await page.locator('#manual-form button').click();await page.locator('[data-operator="1"]').selectOption('*');assert.equal(await page.locator('#result').innerText(),'7,600');
@@ -17,6 +23,18 @@ const {chromium}=require(process.env.HOME+'/.cache/codex-runtimes/codex-primary-
  await page.locator('#clear-calculator').click();await page.locator('[data-mark="value-8-consumption"]').click();await page.locator('[data-mark="value-8-production"]').click();await page.locator('[data-operator="0"]').selectOption('-');assert.equal(await page.locator('#result').innerText(),'55.9');
  await page.locator('[data-group=rose]').click();await page.locator('[data-mark="bar-8-consumption"]').focus();await page.keyboard.press('Enter');assert(await page.locator('[data-mark="bar-8-consumption"]').evaluate(e=>e.classList.contains('coloured')));
  await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));await page.screenshot({path:'/tmp/ielts-chart-mobile.png',fullPage:true});
+ await page.setViewportSize({width:1512,height:1100});
+ for(const tense of ['past','present','future','present-perfect','past-perfect']){
+  await page.locator('[data-year="2014"]').first().click();assert(await page.locator('#tense-dialog').isVisible());assert.equal(await page.locator('[data-tense]').count(),5);await page.locator(`[data-tense="${tense}"]`).click();assert.equal(await page.locator('.year-assigned').count(),2);
+ }
+ assert.equal(await page.locator('.tense-badge').first().innerText(),'Past perfect');
+ await page.locator('[data-year="2014"]').last().click();await page.locator('[data-tense="past"]').click();
+ await page.reload();assert.equal(await page.locator('.tense-badge').count(),2);assert.equal(await page.locator('.tense-badge').first().innerText(),'Past tense');
+ await page.locator('#clear-colours').click();assert.equal(await page.locator('.tense-badge').count(),0);await page.locator('#undo').click();assert.equal(await page.locator('.tense-badge').count(),2);
+ await page.locator('[data-year="2014"]').first().click();await page.keyboard.press('Escape');assert.equal(await page.locator('#tense-dialog').isVisible(),false);
+ await page.screenshot({path:'/tmp/ielts-chart-tense-desktop.png',fullPage:true});
+ await page.setViewportSize({width:390,height:844});await page.locator('[data-year="2014"]').first().click();assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));await page.screenshot({path:'/tmp/ielts-chart-tense-mobile.png'});await page.locator('#remove-tense').click();assert.equal(await page.locator('.tense-badge').count(),0);
+ await page.evaluate(()=>localStorage.setItem('edmund-chart-studio-electricity-v1',JSON.stringify({marks:{'bar-9-production':'blue'},names:{blue:'Legacy group'}})));await page.reload();assert(await page.locator('[data-mark="bar-9-production"]').evaluate(e=>e.classList.contains('coloured')));assert.equal(await page.locator('[data-name=blue]').inputValue(),'Legacy group');
  await page.goto('http://127.0.0.1:8799/index.html',{waitUntil:'domcontentloaded'});const card=page.locator('[data-system-card-deck-stack] a[href="ielts-chart-teaching.html"]');await card.waitFor({state:'attached'});assert.equal(await card.getAttribute('data-card-number'),'79');
- assert.deepEqual(errors,[]);console.log('PASS: 20 chart values, correct proportions, colour grouping/persistence/undo, ordered arithmetic, zero division, keyboard, mobile, card 79');
+ assert.deepEqual(errors,[]);console.log('PASS: 20 chart values, correct proportions, colour grouping/persistence/undo, ordered arithmetic, zero division, keyboard, mobile, card 79, five tense choices and saved year annotations');
 }finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1});

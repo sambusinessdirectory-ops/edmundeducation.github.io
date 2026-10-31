@@ -6,9 +6,9 @@
  <meta name="description" content="互動 IELTS 圖表教室：標示趨勢、用顏色分組，以及選取數據進行簡單計算。">
  <meta name="theme-color" content="#234d42"><link rel="canonical" href="https://edmundeducation.com/ielts-chart-teaching.html">
  <link rel="icon" href="/favicon.ico"><link rel="stylesheet" href="/shared-system-nav.css"><link rel="stylesheet" href="/pwa-ui.css">
- <link rel="stylesheet" href="/ielts-chart-teaching/style.css?v=20261031-1">
+ <link rel="stylesheet" href="/ielts-chart-teaching/style.css?v=20261031-3">
  <script defer src="/shared-system-nav.js"></script><script defer src="/pwa-register.js"></script>
- <script type="module" src="/ielts-chart-teaching/app.mjs?v=20261031-1"></script>
+ <script type="module" src="/ielts-chart-teaching/app.mjs?v=20261031-3"></script>
 </head>
 <body>
  <a class="skip" href="#workspace">跳至圖表</a>
@@ -25,11 +25,16 @@
     <div class="chart-footer"><span>Summarise the information by selecting and reporting the main features, and make comparisons where relevant.</span><small>Write at least 150 words.</small></div>
    </section>
    <aside class="tools" aria-label="圖表教學工具">
-    <section class="tool-card groups-card"><div class="tool-heading"><span class="step">01</span><div><p class="eyebrow">FIND THE PATTERN</p><h2>顏色與群組</h2></div></div><p class="tool-note">選一種顏色，再點圖表元素。群組名稱可自行修改。</p><div id="groups"></div><div class="group-actions"><button type="button" id="eraser" aria-pressed="false">橡皮擦</button><button type="button" id="clear-colours">清除標記</button></div><p class="storage-note" id="storage-status" role="status">標記儲存在此瀏覽器</p></section>
+    <section class="tool-card groups-card"><div class="tool-heading"><span class="step">01</span><div><p class="eyebrow">FIND THE PATTERN</p><h2>顏色與群組</h2></div></div><p class="tool-note">同一元素可加入多個群組：第一組填色，其他組以光暈標示。名稱可自行修改。</p><div id="groups"></div><div class="group-actions"><button type="button" id="eraser" aria-pressed="false">橡皮擦</button><button type="button" id="clear-colours">清除標記</button></div><p class="storage-note" id="storage-status" role="status">標記儲存在此瀏覽器</p></section>
     <section class="tool-card calculator-card"><div class="tool-heading"><span class="step">02</span><div><p class="eyebrow">MAKE A COMPARISON</p><h2>數據計算機</h2></div></div><p class="tool-note">切換「選數計算」，依序點擊數字或長條。可加入兩個或更多數值。</p><div id="operands"></div><form id="manual-form"><label class="sr-only" for="manual-number">自訂數字</label><input id="manual-number" type="number" step="any" placeholder="自訂數字，例如 100" required><button type="submit" aria-label="加入自訂數字">＋ 加入</button></form><div class="result-box" aria-live="polite"><p id="expression">選取數字開始比較</p><output id="result">—</output><small id="result-note">依選取順序，由左至右計算</small></div><button type="button" id="clear-calculator" class="clear-calc">清空計算</button></section>
    </aside>
   </div>
   <footer class="page-footer"><span>EDMUND EDUCATION · CHART STUDIO</span><span>重製自提供圖表 · 單位：billion kWh</span></footer>
  </main>
+ <dialog id="tense-dialog" aria-labelledby="tense-title">
+  <header><div><p class="eyebrow">TIME &amp; TENSE</p><h2 id="tense-title"><span id="tense-year">2014</span> · 選擇時態</h2></div><button type="button" id="close-tense" aria-label="關閉時態選擇">×</button></header>
+  <div class="tense-options"><button type="button" data-tense="past" aria-pressed="false">Past tense</button><button type="button" data-tense="present" aria-pressed="false">Present tense</button><button type="button" data-tense="future" aria-pressed="false">Future tense</button><button type="button" data-tense="present-perfect" aria-pressed="false">Present perfect</button><button type="button" data-tense="past-perfect" aria-pressed="false">Past perfect</button></div>
+  <button type="button" id="remove-tense">移除時態</button>
+ </dialog>
  <div id="toast" role="status" aria-live="polite"></div>
 </body></html>
