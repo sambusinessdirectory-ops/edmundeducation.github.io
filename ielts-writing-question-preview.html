@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#d9dbda">
+  <meta name="description" content="IELTS Writing Task 1 圖表與 Task 2 作文題目預覽。瀏覽題目、按需顯示繁體中文翻譯，並選擇作文題型。">
+  <title>IELTS 寫作問題預覽系統｜EdmundEducation</title>
+  <link rel="canonical" href="https://edmundeducation.com/ielts-writing-question-preview.html">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <link rel="stylesheet" href="/shared-system-nav.css">
+  <link rel="stylesheet" href="/ielts-writing-preview/style.css?v=20261031-7">
+  <script defer src="/supabase-config.js"></script>
+  <script defer src="/pwa-register.js"></script>
+  <script defer src="/shared-system-nav.js"></script>
+  <script defer src="/ielts-writing-preview/app.js?v=20261031-7"></script>
+  <script type="module" src="/ielts-writing-preview/highlighter.mjs?v=20261031-1"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至題目列表</a>
+  <header class="site-header edmund-system-header">
+    <div class="header-inner edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="ielts-writing-preview">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>IELTS 寫作問題預覽系統</small></span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <div class="header-actions"><span class="header-context">IELTS WRITING <span aria-hidden="true">/</span> QUESTION PREVIEW</span><span id="account-label" class="account-label"></span><button id="login-open" class="header-action" type="button">登入</button><button id="logout-button" class="header-action" type="button" hidden>登出</button></div>
+    </div>
+  </header>
+  <main id="main" class="shell">
+    <h1 class="visually-hidden">IELTS 寫作問題預覽系統</h1>
+    <section id="login-gate" class="login-gate" aria-labelledby="gate-title">
+      <div class="login-gate-intro"><p class="eyebrow">IELTS WRITING · QUESTION PREVIEW</p><h2 id="gate-title">登入後開始練習</h2><p>請使用學生帳戶登入，瀏覽圖表及作文題目，並保存你的選擇。</p></div>
+      <div id="gate-form-host" class="gate-form-host"></div>
+    </section>
+    <div id="learning-content" hidden>
+    <nav class="tabs" aria-label="寫作任務">
+      <button class="tab is-active" id="tab-task1" type="button" role="tab" aria-controls="panel-task1" aria-selected="true" data-tab="task1"><span class="tab-index">01</span><span><strong>Task 1</strong><small>Diagrams · 圖表</small></span></button>
+      <button class="tab" id="tab-task2" type="button" role="tab" aria-controls="panel-task2" aria-selected="false" data-tab="task2"><span class="tab-index">02</span><span><strong>Task 2</strong><small>Essays · 作文</small></span></button>
+    </nav>
+    <section id="panel-task1" class="panel" role="tabpanel" aria-labelledby="tab-task1">
+      <div class="panel-heading"><div><p class="eyebrow">TASK 1 · DIAGRAMS</p><h2>圖表題目</h2><p>看題目與圖表，再選擇圖表類型、動態或靜態，以及適用時態。</p></div><span class="count" id="task1-count">載入中</span></div>
+      <div class="toolbar"><label class="search"><span>搜尋圖表</span><input id="task1-search" type="search" placeholder="搜尋英文題目" autocomplete="off"></label></div>
+      <div class="table-scroll" id="task1-scroll" tabindex="0" aria-label="Task 1 圖表題目列表"><table><thead><tr><th scope="col">題目與圖表</th><th scope="col"><span class="visually-hidden">圖表類型</span></th><th scope="col"><span class="visually-hidden">動態 / 靜態</span></th><th scope="col"><span class="visually-hidden">適用時態（可多選）</span></th></tr></thead><tbody id="task1-rows"></tbody></table></div>
+    </section>
+    <section id="panel-task2" class="panel" role="tabpanel" aria-labelledby="tab-task2" hidden>
+      <div class="panel-heading"><div><p class="eyebrow">TASK 2 · ESSAYS</p><h2>作文題目</h2><p>瀏覽完整題目，並在右邊選擇你判斷的題型。</p></div><span class="count" id="task2-count">載入中</span></div>
+      <div class="toolbar"><label class="search"><span>搜尋題目</span><input id="task2-search" type="search" placeholder="搜尋題目編號、英文或中文" autocomplete="off"></label><div class="filter"><span class="control-label">主題</span><button id="task2-topic" class="menu-trigger" type="button" aria-haspopup="menu" aria-expanded="false"><span>所有主題</span><span class="menu-chevron" aria-hidden="true"></span></button></div><button id="translation-toggle" class="translation-toggle" type="button" aria-pressed="false">顯示繁體中文翻譯</button><button id="admin-labels-toggle" class="translation-toggle" type="button" aria-pressed="false" hidden>管理標準題型</button></div><p id="admin-label-status" class="admin-label-status" role="status" aria-live="polite" hidden></p>
+      <div class="preview-highlight-controls" role="group" aria-label="暫時螢光筆工具">
+        <button id="highlight-toggle" class="highlight-toggle" type="button" aria-pressed="false">🖍 暫時螢光筆</button>
+        <div class="preview-highlight-colors" role="group" aria-label="選擇螢光筆顏色">
+          <button type="button" data-preview-color="yellow" aria-label="黃色螢光筆" aria-pressed="true" title="黃色"><span></span></button>
+          <button type="button" data-preview-color="green" aria-label="綠色螢光筆" aria-pressed="false" title="綠色"><span></span></button>
+          <button type="button" data-preview-color="blue" aria-label="藍色螢光筆" aria-pressed="false" title="藍色"><span></span></button>
+          <button type="button" data-preview-color="purple" aria-label="淡紫色螢光筆" aria-pressed="false" title="淡紫色"><span></span></button>
+          <button type="button" data-preview-color="red" aria-label="紅色螢光筆" aria-pressed="false" title="紅色"><span></span></button>
+          <button type="button" data-preview-color="hide" aria-label="隱藏所選文字" aria-pressed="false" title="隱藏文字"><span aria-hidden="true"></span></button>
+        </div>
+        <button id="highlight-clear" class="highlight-clear" type="button">清除全部標記</button>
+        <span id="highlight-status" class="visually-hidden" role="status" aria-live="polite"></span>
+      </div>
+      <div id="mobile-reading-controls" class="mobile-reading-controls"><span class="mobile-reading-controls__label">題目設定</span></div>
+      <div class="table-scroll" id="task2-scroll" tabindex="0" aria-label="Task 2 作文題目列表"><table><thead><tr id="task2-head"><th scope="col">編號 / 主題</th><th scope="col">聆聽題目</th><th scope="col"><div class="prompt-heading"><span>完整作文題目</span><span class="reading-controls"><span class="reading-control"><span class="reading-control__label">速度</span><button id="playback-speed" class="reading-control__trigger" type="button" data-value="1" aria-label="題目播放速度" aria-haspopup="menu" aria-expanded="false"><span class="reading-control__value">1×</span><span class="menu-chevron" aria-hidden="true"></span></button></span><span class="reading-control"><span class="reading-control__label">文字</span><button id="text-size" class="reading-control__trigger" type="button" data-value="1" aria-label="題目文字大小" aria-haspopup="menu" aria-expanded="false"><span class="reading-control__value">1×</span><span class="menu-chevron" aria-hidden="true"></span></button></span></span></div></th><th scope="col" id="type-head"><span class="visually-hidden">題型選擇</span></th></tr></thead><tbody id="task2-rows"></tbody></table></div>
+    </section>
+    </div>
+  </main>
+  <dialog id="diagram-dialog" aria-label="Task 1 題圖"><div class="dialog-inner"><button id="dialog-close" class="dialog-close" type="button" aria-label="關閉題圖">×</button><p class="eyebrow" id="dialog-type"></p><h2 id="dialog-title"></h2><p id="dialog-prompt"></p><img id="dialog-image" alt=""><p>Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.</p></div></dialog>
+  <dialog id="login-dialog" class="login-dialog" aria-labelledby="login-title"><form id="login-form" class="login-form"><button id="login-close" class="dialog-close" type="button" aria-label="關閉登入">×</button><h2 id="login-title">登入寫作問題預覽</h2><div class="login-modes"><label><input type="radio" name="login-role" value="student" checked> 學生</label><label><input type="radio" name="login-role" value="admin"> 管理員</label></div><label>用戶名稱<input id="login-name" type="text" autocomplete="username" required></label><label>密碼<input id="login-password" type="password" autocomplete="current-password" required></label><p id="login-error" role="alert" hidden></p><button id="login-submit" class="login-submit" type="submit">登入</button></form></dialog>
+  <dialog id="highlight-clear-dialog" class="highlight-dialog" aria-labelledby="highlight-clear-title" aria-describedby="highlight-clear-description"><div><h2 id="highlight-clear-title">清除全部標記？</h2><p id="highlight-clear-description">這會移除目前題目中的所有暫時標記，並顯示已隱藏的文字。</p><div class="highlight-dialog-actions"><button id="highlight-clear-cancel" type="button">取消</button><button id="highlight-clear-confirm" type="button">清除全部</button></div></div></dialog>
+  <div id="choice-menu" class="choice-menu" role="menu" hidden></div>
+</body>
+</html>

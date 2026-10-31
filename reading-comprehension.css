@@ -690,3 +690,13 @@ html:has(body.dse-paper-mode){scroll-padding-top:20px}
   .login-panel .form-status { min-height: 1.2em; margin: 0; font-size: .72rem; line-height: 1.2; }
   .login-panel [data-login-button] { min-height: 44px; padding: .55rem .7rem; font-size: .86rem; }
 }
+.reading-super-entry{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:space-between;gap:28px;padding:36px 42px!important;border:1px solid #d4dcca;border-radius:28px;background:radial-gradient(ellipse at 85% 0%,#faeab7 0%,transparent 55%),linear-gradient(125deg,#fffdf4,#e8f3ed);box-shadow:0 14px 40px #173d3210}
+.reading-super-entry[hidden]{display:none}
+.reading-super-entry .eyebrow{letter-spacing:.18em;font-size:11px;color:#55756a}
+.reading-super-entry h2{font-family:Georgia,'Noto Serif TC',serif;font-size:clamp(24px,3vw,36px);line-height:1.4;margin:12px 0;color:#193f35}
+.reading-super-entry p{line-height:1.9;color:#587368}
+.reading-super-entry button{border-radius:16px;padding:17px 24px;box-shadow:0 7px 18px #16443822;transition:transform .25s,box-shadow .25s;flex-shrink:0}
+.reading-super-entry button:hover{transform:translateY(-3px);box-shadow:0 12px 24px #16443833}
+.reading-super-entry [data-reading-super-status]:empty{display:none}
+@media(max-width:700px){.reading-super-entry{flex-direction:column;align-items:stretch;padding:24px!important}}
+@media(prefers-reduced-motion:reduce){.reading-super-entry button{transition:none;transform:none}}

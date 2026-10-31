@@ -1,12 +1,17 @@
 (() => {
   'use strict';
-  const essay = window.ESSAY_80_MEMORY_DATA;
+  const requestedKey = new URLSearchParams(location.search).get('essay');
+  const selectedLesson = window.ESSAY_MEMORY_LESSONS?.[requestedKey];
+  const isPilot = !selectedLesson;
+  const essay = selectedLesson || window.ESSAY_80_MEMORY_DATA;
   if (!essay?.sentences?.length) return;
+  const essayLabel = essay.title.replace(' - IELTS - ', ' · ');
+  const writingUrl = `writing-practice.html?exercise=${encodeURIComponent(essay.id)}`;
 
   const $ = selector => document.querySelector(selector);
   const escapeHtml = value => String(value).replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character]);
   const sentences = essay.sentences;
-  const support = window.ESSAY_80_LEARNING_SUPPORT;
+  const support = isPilot ? window.ESSAY_80_LEARNING_SUPPORT : essay.support;
   if (!support || support.sentences.length !== sentences.length) return;
   const byParagraph = paragraph => sentences.map((sentence, index) => ({ ...sentence, globalIndex: index })).filter(sentence => sentence.paragraph === paragraph);
   const stageDefinitions = [
@@ -81,12 +86,24 @@
     {icon:'↗',title:'跨主題論證應用',en:'TRANSFER THE LOGIC',description:'把兩段的主張、限制、做法、例子及結論運用到其他主題。',rounds:support.transfer.map(item=>({...item,type:'quiz'}))},
   ];
 
+  if (!isPilot) {
+    stageDefinitions[0].rounds = support.intro;
+    if (requestedKey === 'cause-solution:2') stageDefinitions[0].title = '鎖定文章路線';
+    stageDefinitions[1].rounds = support.route;
+    stageDefinitions[2].rounds = support.evidence;
+    stageDefinitions[3].rounds = support.logic;
+    stageDefinitions[0].description = '先記住作者的立場或文章路線，以及全文兩條主線。';
+    stageDefinitions[2].description = '辨認這篇範文兩段主體的支持細節與例子。';
+    stageDefinitions[3].description = '把本篇的理由、細節、例子與結論接成兩條論證鏈。';
+    if (requestedKey === 'cause-solution:2') stageDefinitions[4].rounds.forEach(item => { if (item.prompt.startsWith('開場：')) item.prompt = item.prompt.replace('背景如何帶出立場？', '背景如何帶出問題與方案？'); });
+  }
+
   // Old indices remain the migration reference for existing local and downloaded progress.
   const stageOrder = [0,1,2,3,10,5,6,8,9,4,7];
   const oldStages = [...stageDefinitions];
   stageDefinitions.splice(0, stageDefinitions.length, ...stageOrder.map(index => oldStages[index]));
   function migrateStageOrder(value) {
-    if (!value || value.stageOrder === '20261028') return value;
+    if (!isPilot || !value || value.stageOrder === '20261028') return value;
     const solved = {};
     for (const [key, result] of Object.entries(value.solved || {})) {
       const [stage, step] = key.split(':').map(Number);
@@ -107,11 +124,14 @@
   }
 
   const totalRounds = stageDefinitions.reduce((count, stage) => count + stage.rounds.length, 0);
-  const storageKey = 'edmund-essay80-memory-active-v4';
+  const storageKey = isPilot ? 'edmund-essay80-memory-active-v4' : `edmund-essay-memory-${essay.id}-v1`;
+  const backupFormat = isPilot ? 'edmund-essay80-progress' : 'edmund-essay-memory-progress';
+  const backupVersion = isPilot ? 4 : 1;
   const saved = migrateStageOrder((() => {
     try {
       const current = JSON.parse(localStorage.getItem(storageKey) || 'null');
       if (current) return current;
+      if (!isPilot) return {};
       const previous=JSON.parse(localStorage.getItem('edmund-essay80-memory-active-v3') || 'null');
       if(previous){
         const solved={};
@@ -141,6 +161,17 @@
   state.selection = validatedSelection(state.stage,state.round,state.selection);
 
 
+  if (!isPilot) {
+    document.title = `範文背書系統 · ${essay.title} | Edmund Education`;
+    document.querySelector('meta[name=description]').content = `範文背書系統：逐步理解和記住 ${essay.title}。`;
+    const originalLinks = document.querySelectorAll('.memory-header .utility-button:first-child, .setup-card > a');
+    originalLinks.forEach(link => { link.href = writingUrl; });
+    document.querySelector('.hero-copy .eyebrow').innerHTML = `<span class="sparkle">✦</span> ${escapeHtml(essay.title.toUpperCase())}`;
+    document.querySelector('.setup-card strong').textContent = essayLabel + ' · ' + essay.meta.topic;
+    document.querySelector('.setup-card p').textContent = `題目：${essay.question.join(' ')} ${essay.meta.summary}${requestedKey === 'discuss-both-views:4' ? ' 此範文雖列於 Discuss Both Views 分類，正文主要論證反對家族經營是最佳模式。' : ''}`;
+    document.querySelector('.pilot-note').textContent = `${essayLabel} · 選擇題及重組由系統核對；朗讀錄音儲存在帳戶，口說內容須自行重聽核對。進度自動儲存在本機；可下載備份及載入進度檔。`;
+  }
+  document.querySelectorAll('[data-memory-essay]').forEach(link => { if (link.dataset.memoryEssay === (isPilot ? 'opinion:80' : requestedKey)) link.setAttribute('aria-current', 'page'); });
   const audio = new Audio(essay.audio);
   audio.preload = 'metadata';
   let segmentEnd = null;
@@ -157,7 +188,7 @@
     return selection.length<count && selection.every((n,i)=>n===i)?selection:[];
   }
   function validateProgress(data) {
-    if(data?.format!=='edmund-essay80-progress' || data.version!==4 || !data.progress || typeof data.progress!=='object')throw Error('這不是本版本的 Essay 80 進度檔。');
+    if(data?.format!==backupFormat || data.version!==backupVersion || (data.essayId!==essay.id && !(isPilot && data.essayId == null)) || !data.progress || typeof data.progress!=='object')throw Error(`這不是本版本的 ${essayLabel} 進度檔。`);
     const p=migrateStageOrder(data.progress);if(!Number.isInteger(p.stage)||!stageDefinitions[p.stage]||!Number.isInteger(p.round)||!stageDefinitions[p.stage].rounds[p.round])throw Error('進度檔的關卡或步驟無效。');
     const solved={};for(const [key,value] of Object.entries(p.solved||{})){const [stage,step]=key.split(':').map(Number);if(/^\d+:\d+$/.test(key)&&stageDefinitions[stage]?.rounds[step]&&[1,2].includes(value))solved[key]=value;}
     return {stage:p.stage,round:p.round,unlocked:0,solved,selection:validatedSelection(p.stage,p.round,p.selection),hadMistake:p.hadMistake===true,completed:false};
@@ -256,6 +287,7 @@
   }
   function lineHtml(text) { return String(text).split('\n').map(line => `<p>${escapeHtml(line)}</p>`).join(''); }
   function wordTable(content) {
+    if (!content.synonyms.length) return `<p class="support-notes">這句很短，毋須硬加字詞替代；直接按原意重組。</p>`;
     return `<div class="table-scroll"><table class="support-table"><thead><tr><th>原文字詞</th><th>簡單說法</th><th>意思</th></tr></thead><tbody>${content.synonyms.map(p=>`<tr><td>${escapeHtml(p.original)}</td><td>${escapeHtml(p.simple)}</td><td>${escapeHtml(p.meaning)}</td></tr>`).join('')}</tbody></table></div>`;
   }
   function buildParts(item) {
@@ -276,20 +308,20 @@
   }
   function renderStructure(item) {
     const source = sentences.find(s=>s.paragraph===item.source.paragraph-1 && s.index===item.source.sentence-1);
-    return `<p class="question-label">第 ${item.source.paragraph} 段 · 第 ${item.source.sentence} 句</p><p class="support-source">${escapeHtml(source.english)}</p><div class="structure-parts">${item.parts.map(p=>`<span class="structure-part ${p.kind}">${escapeHtml(p.text)}<small>${p.kind==='slot'?'換入符合這個意思的內容':'連接／句型固定部分'}</small></span>`).join('')}</div><div class="concept-grid"><section class="concept-card"><span class="concept-label">01 · 意思</span><p>${escapeHtml(item.meaning)}</p></section><section class="concept-card"><span class="concept-label">02 · 甚麼時候用？</span><p>${escapeHtml(item.usage)}</p></section></div>${item.contextNote?`<aside class="concept-note">${escapeHtml(item.contextNote)}</aside>`:''}${renderQuiz(item)}<p class="support-notes">四句來自不同情境；選出句型所表達的關係與內容一致的一句。</p>`;
+    return `<p class="question-label">第 ${item.source.paragraph} 段 · 第 ${item.source.sentence} 句</p><p class="support-source">${escapeHtml(source.english)}</p><div class="structure-parts">${item.parts.map(p=>`<span class="structure-part ${p.kind}">${escapeHtml(p.text)}<small>${p.kind==='slot'?'換入符合這個意思的內容':'連接／句型固定部分'}</small></span>`).join('')}</div><div class="concept-grid"><section class="concept-card"><span class="concept-label">01 · 意思</span><p>${escapeHtml(item.meaning)}</p></section><section class="concept-card"><span class="concept-label">02 · 甚麼時候用？</span><p>${escapeHtml(item.usage)}</p></section></div>${item.contextNote?`<aside class="concept-note">${escapeHtml(item.contextNote)}</aside>`:''}${renderQuiz(item)}<p class="support-notes">比較四句的語意關係；選出符合這個句型的一句。</p>`;
   }
   const savedRecordings=new Set();
   // Keep saved recording identifiers stable when the repeated stage is removed.
-  const recordingId=()=>`essay80-${state.stage>=7?state.stage+1:state.stage}-${state.round}`;
+  const recordingId=()=>`${isPilot?'essay80':essay.id+'-memory'}-${state.stage>=7?state.stage+1:state.stage}-${state.round}`;
   const recordingReceipt=()=>`${window.EdmundSystemNav?.getStudentSession?.()?.token || 'guest'}:${recordingId()}`;
   function mediumMask(text) {
-    const phrases=[...essay.mediumAnswers].sort((a,b)=>b.length-a.length);
+    const phrases=[...essay.mediumAnswers,...(support.mediumExtras||[])].sort((a,b)=>b.length-a.length);
     const escapeRegex=x=>x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
     return text.replace(new RegExp('\\b('+phrases.map(escapeRegex).join('|')+')\\b','gi'),match=>'＿'.repeat(Math.min(12,Math.max(3,match.length))));
   }
   function renderSpeaking(item) {
     const recorded=savedRecordings.has(recordingReceipt());
-    return `<h3>${escapeHtml(item.prompt)}</h3><p>${item.guided?'聽這一小步，再錄下自己的朗讀。':'補回空格，錄下完整一句並儲存到帳戶。儲存不代表系統已判定發音或內容正確。'}</p><div class="speaking-text">${lineHtml(item.guided?item.text:mediumMask(item.text))}</div>${item.guided?'<button class="mini-button" data-play-chunk>♫ 聽這一小步</button>':''}<section class="question-card recording-practice" data-edmund-record-id="${recordingId()}" data-edmund-record-title="Essay 80 · ${escapeHtml(item.prompt)}" data-edmund-min-recording-ms="${item.guided?0:Math.max(2000,item.text.split(/\s+/).length*120)}"><button class="primary-button" data-edmund-record-toggle>● 錄音練習</button><a class="mini-button" href="speaking-system.html?library=1" target="_blank" rel="noopener">我的錄音 · 儲存及重聽 ↗</a></section>${recorded?`<p class="recording-status">已儲存本步錄音，可到「我的錄音」重聽。</p>${!item.guided?`<details><summary>對照完整原句</summary>${lineHtml(item.text)}</details>`:''}`:''}<button class="primary-button support-next" data-speaking-done ${!recorded?'disabled':''}>錄音已儲存 · 下一小步 →</button>`;
+    return `<h3>${escapeHtml(item.prompt)}</h3><p>${item.guided?'聽這一小步，再錄下自己的朗讀。':'補回空格，錄下完整一句並儲存到帳戶。儲存不代表系統已判定發音或內容正確。'}</p><div class="speaking-text">${lineHtml(item.guided?item.text:mediumMask(item.text))}</div>${item.guided?'<button class="mini-button" data-play-chunk>♫ 聽這一小步</button>':''}<section class="question-card recording-practice" data-edmund-record-id="${recordingId()}" data-edmund-record-title="${escapeHtml(essayLabel)} · ${escapeHtml(item.prompt)}" data-edmund-min-recording-ms="${item.guided?0:Math.max(2000,item.text.split(/\s+/).length*120)}"><button class="primary-button" data-edmund-record-toggle>● 錄音練習</button><a class="mini-button" href="speaking-system.html?library=1" target="_blank" rel="noopener">我的錄音 · 儲存及重聽 ↗</a></section>${recorded?`<p class="recording-status">已儲存本步錄音，可到「我的錄音」重聽。</p>${!item.guided?`<details><summary>對照完整原句</summary>${lineHtml(item.text)}</details>`:''}`:''}<button class="primary-button support-next" data-speaking-done ${!recorded?'disabled':''}>錄音已儲存 · 下一小步 →</button>`;
   }
   document.addEventListener('edmund:recording-saved',event=>{
     if(event.detail?.recordId!==recordingId() || round().type!=='speaking')return;
@@ -349,10 +381,10 @@
   function renderEnd() {
     renderRail(); renderHeader();
     $('#stage-kicker').textContent = 'JOURNEY COMPLETE';
-    $('#play-title').textContent = '你已走完 Essay 80 的記憶路線';
+    $('#play-title').textContent = `你已走完 ${essayLabel} 的記憶路線`;
     $('#stage-description').textContent = '你已完成字詞、句型、雙向句子重組，以及分小步的有提示與中階填空朗讀。';
     $('#round-number').textContent = '十一個關卡完成';
-    $('#game-card').innerHTML = `<div class="ending"><div class="ending-star" aria-hidden="true">✦</div><p class="question-label">JOURNEY COMPLETE</p><h3>你已完成所有朗讀小步與跨主題論證練習。</h3><p>現在可嘗試一次過背出整篇：先說出立場及兩條理由，再依次講出兩段細節、例子與結論，最後逐句還原英文。你可以重玩任何關卡，或回原範文頁聽完整錄音。</p><div class="ending-actions"><button class="primary-button" type="button" data-replay>重玩原文重組 ↺</button><a class="secondary-button" href="writing-practice.html?exercise=model-essay-80-ielts-opinion">對照原範文 ↗</a></div></div>`;
+    $('#game-card').innerHTML = `<div class="ending"><div class="ending-star" aria-hidden="true">✦</div><p class="question-label">JOURNEY COMPLETE</p><h3>你已完成所有朗讀小步與跨主題論證練習。</h3><p>現在可嘗試一次過背出整篇：${isPilot ? '先說出立場及兩條理由' : requestedKey === 'cause-solution:2' ? '先說出問題與解決路線' : '先說出立場與兩條主線'}，再依次講出兩段細節、例子與結論，最後逐句還原英文。你可以重玩任何關卡，或回原範文頁聽完整錄音。</p><div class="ending-actions"><button class="primary-button" type="button" data-replay>重玩原文重組 ↺</button><a class="secondary-button" href="${escapeHtml(writingUrl)}">對照原範文 ↗</a></div></div>`;
     feedback('完成！朗讀及重述為自行核對，系統不會自動判定口說準確度。', 'success');
   }
 
@@ -388,7 +420,7 @@
       $('#game-card').innerHTML = renderMulti(item);
     } else if (button.hasAttribute('data-confirm')) {
       const correct = [...item.correct].sort().join(',') === [...state.selection].sort().join(',');
-      if (correct) succeed(); else mistake(button, '兩條理由要分別對應「更廣泛取得知識」與「實用數碼技能」。');
+      if (correct) succeed(); else mistake(button, isPilot ? '兩條理由要分別對應「更廣泛取得知識」與「實用數碼技能」。' : '請對照這篇範文的兩條主線，再選一次。');
     } else if (button.hasAttribute('data-sequence')) {
       const index = Number(button.dataset.sequence);
       const expected = state.selection.length;
@@ -410,9 +442,9 @@
     } else if (button.hasAttribute('data-speaking-done')) {
       if(savedRecordings.has(recordingReceipt())) succeed(true);
     } else if (button.hasAttribute('data-guided-help')) {
-      state.stage=8;state.checks=[];state.revealTranslation=false;render();
+      state.stage=7;state.checks=[];state.revealTranslation=false;render();
     } else if (button.hasAttribute('data-replay')) {
-      state.stage = 7; state.round = 0; state.selection = []; state.hadMistake = false; state.revealTranslation = false; render();
+      state.stage = 10; state.round = 0; state.selection = []; state.hadMistake = false; state.revealTranslation = false; render();
     }
   });
   $('#stage-rail').addEventListener('click', event => {
@@ -437,20 +469,20 @@
   $('#step-options').addEventListener('keydown',event=>{if(!['ArrowDown','ArrowUp','Home','End'].includes(event.key))return;const buttons=[...$('#step-options').querySelectorAll('button')];if(!buttons.length)return;event.preventDefault();const i=buttons.indexOf(document.activeElement);buttons[event.key==='Home'?0:event.key==='End'?buttons.length-1:(i+(event.key==='ArrowDown'?1:-1)+buttons.length)%buttons.length].focus();});
   $('#save-progress').addEventListener('click',()=>{save();});
   $('#export-progress').addEventListener('click',()=>{
-    const blob=new Blob([JSON.stringify({format:'edmund-essay80-progress',version:4,progress:progressSnapshot()},null,2)],{type:'application/json'});
-    const url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download='Essay-80-progress-'+new Date().toISOString().slice(0,10)+'.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),10000);$('#save-status').textContent='進度備份已交給瀏覽器下載；可在其他裝置載入。';
+    const blob=new Blob([JSON.stringify({format:backupFormat,version:backupVersion,essayId:essay.id,progress:progressSnapshot()},null,2)],{type:'application/json'});
+    const url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=essay.id+'-memory-progress-'+new Date().toISOString().slice(0,10)+'.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),10000);$('#save-status').textContent='進度備份已交給瀏覽器下載；可在其他裝置載入。';
   });
   $('#import-progress').addEventListener('click',()=>$('#progress-file').click());
   $('#progress-file').addEventListener('change',async event=>{
     const file=event.target.files[0];if(!file)return;
-    try{if(file.size>1000000)throw Error('進度檔過大。');const progress=validateProgress(JSON.parse(await file.text()));if(!confirm('載入備份會取代此瀏覽器目前的 Essay 80 進度。繼續？'))return;audio.pause();Object.assign(state,progress,{transitioning:false,revealTranslation:false,checks:[]});render();$('#save-status').textContent='已載入備份。'+$('#save-status').textContent;}
+    try{if(file.size>1000000)throw Error('進度檔過大。');const progress=validateProgress(JSON.parse(await file.text()));if(!confirm(`載入備份會取代此瀏覽器目前的 ${essayLabel} 進度。繼續？`))return;audio.pause();Object.assign(state,progress,{transitioning:false,revealTranslation:false,checks:[]});render();$('#save-status').textContent='已載入備份。'+$('#save-status').textContent;}
     catch(error){$('#save-status').textContent='未能載入：'+error.message;}finally{event.target.value='';}
   });
 
   $('#audio-full').addEventListener('click', event => playAudio(0, null, event.currentTarget));
   $('#restart-round').addEventListener('click', () => { audio.pause(); state.transitioning=false; state.checks=[]; state.selection = []; state.hadMistake = false; state.revealTranslation = false; render(); });
   $('#restart-all').addEventListener('click', () => {
-    if (!confirm('重新開始會清除 Essay 80 試驗版的本機進度。確定嗎？')) return;
+    if (!confirm(`重新開始會清除 ${essayLabel} 的本機進度。確定嗎？`)) return;
     audio.pause(); state.transitioning=false;state.checks=[];state.completed=false;state.stage = 0; state.round = 0; state.unlocked = 0; state.solved = {}; state.selection = []; state.hadMistake = false; state.revealTranslation = false; render();
   });
 

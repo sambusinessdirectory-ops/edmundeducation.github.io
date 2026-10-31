@@ -871,6 +871,8 @@ async function moduleLessonResources({ file, type, systemLabel, page, titleFor, 
 const allFiles = await readdir(root);
 const writingPracticeResources = await writingResources();
 const resources = [
+  {id:'ielts-question-types:task1',type:'ielts-question-types',label:'IELTS Question Types · Task 1',detail:'IELTS Writing · Diagrams',url:'ielts-writing-question-preview.html#task1'},
+  {id:'ielts-question-types:task2',type:'ielts-question-types',label:'IELTS Question Types · Task 2',detail:'IELTS Writing · Essays',url:'ielts-writing-question-preview.html#task2'},
   ...await flashcardResources(allFiles),
   ...writingPracticeResources,
   ...writingSubmissionResources(writingPracticeResources),

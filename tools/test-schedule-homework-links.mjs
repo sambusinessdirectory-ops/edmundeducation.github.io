@@ -45,17 +45,18 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 15097, "the Homework/Schedule catalogue should include every current learning resource and Synonym module");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 15108, "the Homework/Schedule catalogue includes the two IELTS Question Types task links");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
 }, {});
 assert.equal((byType.flashcards || []).length, 1463, "all current static and lazy-loaded flashcard leaf decks should be indexed");
 assert.equal((byType["fill-blanks"] || []).length, 407, "all current writing exercises should be indexed");
+assert.deepEqual((byType["ielts-question-types"] || []).map((resource) => resource.url), ["ielts-writing-question-preview.html#task1", "ielts-writing-question-preview.html#task2"], "Homework links only to the two task views");
 assert.equal((byType.speaking || []).length, 796, "all currently visible speaking exercises and nine requested mock modes should be indexed");
 assert.equal((byType["sentence-structure"] || []).length, 345, "all sentence structure lessons should be indexed");
 assert.equal((byType.idiom || []).length, 138, "all Idiom lessons should be indexed");
-assert.equal((byType.proverb || []).length, 3, "all Proverb lessons should be indexed");
+assert.equal((byType.proverb || []).length, 12, "all Proverb lessons should be indexed");
 assert.equal((byType["phrasal-verb"] || []).length, 329, "all Phrasal Verb lessons should be indexed");
 assert.equal((byType["writing-submission"] || []).length, 5144, "every Writing Practice exercise should have a Writing Submission assignment link");
 assert.equal((byType["reading-comprehension"] || []).length, 437, "all published Reading Comprehension exercises should be indexed once");
@@ -74,6 +75,10 @@ for (const module of [...synonymCatalog, ...legacySynonymCatalog]) {
 assert.ok(ids.has("synonym:important"));
 assert.ok(ids.has("synonym:social-media"));
 assert.equal(normalizeHomeworkHref("synonyms-system.html"), "synonyms-system.html", "existing portal-level Synonyms links must remain valid");
+assert.equal(normalizeHomeworkHref("ielts-writing-question-preview.html#task1"), "ielts-writing-question-preview.html#task1");
+assert.equal(normalizeHomeworkHref("ielts-writing-question-preview.html#task2"), "ielts-writing-question-preview.html#task2");
+assert.equal(normalizeHomeworkHref("ielts-writing-question-preview.html#T2-002"), null, "individual question links are not offered");
+assert.equal(homeworkAutocomplete("IELTS Question Types").type, "ielts-question-types");
 assert.equal(normalizeHomeworkHref("synonyms-system.html?module=lesson-v2-004&redirect=elsewhere"), null);
 assert.equal(normalizeHomeworkResource({ id: "synonym:wrong-module", type: "synonym", label: "A lot of", url: "synonyms-system.html?module=lesson-v2-004" }), null);
 assert.equal((byType["learning-portal"] || []).length, 18, "all new learning portals should be available for Homework/Schedule linking");
@@ -267,7 +272,7 @@ assert.equal(
 
 for (const [type, count, prefix] of [
   ["idiom", 138, "idiom"],
-  ["proverb", 3, "proverb"],
+  ["proverb", 12, "proverb"],
   ["phrasal-verb", 329, "phrasal-verb"]
 ]) {
   assert.deepEqual(
@@ -1002,12 +1007,12 @@ assert.match(scheduleJs, /!visibleMessage && !selectedTags\.length/, "a tag-only
 assert.match(scheduleJs, /button\.classList\.add\("has-entry-tag-wraps"\)/);
 assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{index \+ 1\}`, tag\.color\)/);
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20261028-materials1"/, "Homework catalog cache key is stale");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261028-materials1/, "Homework link helper cache key is stale");
-assert.match(scheduleJs, /schedule-homework-export\.mjs\?v=20261028-materials1/, "Homework export cache key is stale");
-assert.match(scheduleHtml, /schedule-system\.js\?v=20261028-search-drafts1/, "Schedule application cache key is stale");
-assert.match(hotKeysHtml, /schedule-homework-hotkeys-admin\.js\?v=20261028-materials1/, "Homework Hot Keys application cache key is stale");
-assert.match(hotKeysJs, /schedule-homework-links\.mjs\?v=20261028-materials1/, "Homework Hot Keys helper cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20261031-ielts-types1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261031-ielts-types1/, "Homework link helper cache key is stale");
+assert.match(scheduleJs, /schedule-homework-export\.mjs\?v=20261031-ielts-types1/, "Homework export cache key is stale");
+assert.match(scheduleHtml, /schedule-system\.js\?v=20261031-ielts-types1/, "Schedule application cache key is stale");
+assert.match(hotKeysHtml, /schedule-homework-hotkeys-admin\.js\?v=20261031-ielts-types1/, "Homework Hot Keys application cache key is stale");
+assert.match(hotKeysJs, /schedule-homework-links\.mjs\?v=20261031-ielts-types1/, "Homework Hot Keys helper cache key is stale");
 assert.match(scheduleJs, /homeworkLinkContent\(link, resource, isDownload\)/, "homework links should render a consistent vector icon");
 assert.match(scheduleJs, /M10 2\.5v10/, "download links should include a vector download path");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");
