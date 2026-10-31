@@ -7733,6 +7733,9 @@ Device: concession 讓步
       if (!essayPortals) return "";
       const essayKey = essayPortals.fromWritingExerciseId(exerciseId);
       if (!essayKey) return "";
+      const memorizationHref = ["opinion:3", "discuss-both-views:4", "cause-solution:2"].includes(essayKey)
+        ? `essay-memorization.html?essay=${encodeURIComponent(essayKey)}`
+        : "";
       const flashcardsHref = essayPortals.hasFlashcards(essayKey)
         ? essayPortals.href("flashcards", essayKey)
         : "";
@@ -7740,6 +7743,7 @@ Device: concession 讓步
         <div class="essay-portal-actions" aria-label="前往相同範文的其他練習系統">
           ${flashcardsHref ? `<a class="essay-portal-link" href="${escapeHtml(flashcardsHref)}" data-essay-portal-link>Flash Cards</a>` : ""}
           <a class="essay-portal-link" href="${escapeHtml(essayPortals.href("downloads", essayKey))}" data-essay-portal-link>Download Site</a>
+          ${memorizationHref ? `<a class="essay-portal-link" href="${escapeHtml(memorizationHref)}" data-essay-portal-link>Memorization</a>` : ""}
         </div>
       `;
     }

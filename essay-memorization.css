@@ -125,3 +125,9 @@ body{background:#fdfcf9}
 .model-translation{background:#ffffffa6;border-radius:6px;padding:14px 18px;color:#263f56;line-height:1.85}
 .model-translation>span{display:block;font-size:13px;font-weight:750;letter-spacing:.06em;color:#796024;margin-bottom:6px}
 .sentence-lines{white-space:pre-line}
+
+/* Lesson selection: the four source essays share the same learning journey. */
+.memory-lessons{display:flex;flex-wrap:wrap;gap:.55rem;margin:1.25rem 0 1.5rem}
+.memory-lessons a{display:inline-flex;align-items:center;padding:.65rem .9rem;border:1px solid #c5d9e8;border-radius:999px;background:#fff;color:#173e56;font-weight:700;text-decoration:none;line-height:1.3}
+.memory-lessons a:hover,.memory-lessons a:focus-visible{border-color:#3179c6;background:#eef7ff}
+.memory-lessons a[aria-current=page]{border-color:#0964cf;background:#0964cf;color:#fff}
