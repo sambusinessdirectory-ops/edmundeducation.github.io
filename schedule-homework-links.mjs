@@ -20,6 +20,7 @@ const HOMEWORK_ENTRY_TAG_BY_KEY = new Map(HOMEWORK_ENTRY_TAGS.map((tag) => [tag.
 
 export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
   Object.freeze({type:"logic-reading",trigger:"Logic Reading",label:"Logic Reading",color:"#176f67"}),
+  Object.freeze({ type: "ielts-question-types", trigger: "IELTS Question Types", label: "IELTS Question Types", color: "#5b6364" }),
   Object.freeze({ type: "flashcards", trigger: "Flash Cards", label: "Flash Cards", color: "#3f73d8" }),
   Object.freeze({ type: "fill-blanks", trigger: "Fill in the blanks", label: "Fill in the blanks", color: "#e49a31" }),
   Object.freeze({
@@ -122,6 +123,7 @@ export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
 
 const TYPE_BY_NAME = new Map(HOMEWORK_RESOURCE_TYPES.map((item) => [item.type, item]));
 const ALLOWED_PAGES_BY_TYPE = Object.freeze({
+  "ielts-question-types": Object.freeze(["/ielts-writing-question-preview.html"]),
   flashcards: Object.freeze(["/flashcards.html"]),
   "fill-blanks": Object.freeze(["/writing-practice.html"]),
   "writing-submission": Object.freeze(["/writing-submission.html"]),
@@ -276,6 +278,7 @@ export function normalizeHomeworkResource(value) {
   if (!url) return null;
   const parsed = new URL(url, "https://edmundeducation.com/");
   if (!ALLOWED_PAGES_BY_TYPE[type]?.includes(parsed.pathname)) return null;
+  if (type === "ielts-question-types" && id !== `ielts-question-types:${parsed.hash.slice(1)}`) return null;
   if (
     (type === "video-class-series" && !parsed.searchParams.get("series"))
     || (type === "video-class-video" && !parsed.searchParams.get("video"))
@@ -320,7 +323,12 @@ export function normalizeHomeworkHref(value) {
   } catch {
     return null;
   }
-  if (parsed.origin !== "https://edmundeducation.com" || parsed.username || parsed.password || parsed.hash) return null;
+  if (parsed.origin !== "https://edmundeducation.com" || parsed.username || parsed.password) return null;
+  if (parsed.pathname === "/ielts-writing-question-preview.html") {
+    if (parsed.search || !["#task1", "#task2"].includes(parsed.hash)) return null;
+    return `ielts-writing-question-preview.html${parsed.hash}`;
+  }
+  if (parsed.hash) return null;
   if (/^\/reading-logic-module-[1-6]\.html$/.test(parsed.pathname)) return parsed.search ? null : parsed.pathname.slice(1);
   if (!Object.hasOwn(EXPECTED_PARAMETERS_BY_PAGE, parsed.pathname)) return null;
   if (["/grammar-system.html", "/error-identifier-system.html", "/junior-exam-prep.html"].includes(parsed.pathname)) {

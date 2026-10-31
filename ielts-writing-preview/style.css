@@ -213,6 +213,9 @@ button { cursor: pointer; }
 .translation-toggle { align-self: end; padding: 11px 17px; font-weight: 800; }
 .translation-toggle[aria-pressed="true"] { border-color: #555d5e; color: #fff; background: #555d5e; }
 .translation-toggle:hover { box-shadow: 0 5px 14px rgba(45,50,51,.1); }
+.admin-label-status { margin: -4px 0 13px; color: #4b5653; font-size: .82rem; font-weight: 700; }
+.admin-label-status[hidden] { display: none; }
+#admin-labels-toggle[aria-pressed="true"] { border-color: #555d5e; color: #fff; background: #555d5e; }
 
 .table-scroll {
   height: min(68vh, 780px);

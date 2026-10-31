@@ -12,6 +12,8 @@ const app = read('ielts-writing-preview/app.js');
 const style = read('ielts-writing-preview/style.css');
 const highlighter = read('ielts-writing-preview/highlighter.mjs');
 const liveSchema = read('supabase-ielts-writing-preview-live-20261031.sql');
+const typeSchema = read('supabase-ielts-preview-type-labels-20261031.sql');
+const typeKey = JSON.parse(read('tools/ielts-task2-answer-key.json'));
 const imageUrlSource = app.match(/^  const imageUrl = (.+);$/m)?.[1];
 assert.ok(imageUrlSource, 'Task 1 image URL resolver exists');
 const imageUrl = new Function(`return ${imageUrlSource}`)();
@@ -24,6 +26,11 @@ assert.equal(new Set(task1.map((item) => item.id)).size, 60);
 assert.equal(new Set(task2.map((item) => item.id)).size, 242);
 assert.equal(new Set(task2.map((item) => item.topic)).size, 20);
 assert.equal(new Set(task2.map((item) => item.sourcePage)).size, 39);
+assert.deepEqual(Object.keys(typeKey), task2.map((item) => item.id), 'Every Task 2 question has exactly one reviewed type label');
+assert.equal(new Set(Object.values(typeKey)).size, 5, 'All five question types are represented');
+assert.equal(typeKey['T2-003'], 'Cause & Solution');
+assert.equal(typeKey['T2-050'], 'Cause & Solution');
+assert.equal(typeKey['T2-081'], 'Direct question', 'Mixed task formats use Direct question');
 assert.equal(Object.keys(narration).length, 302, 'Every Task 1 and Task 2 question has narration');
 const voiceCycle = ['british-male', 'british-female', 'american-female'];
 for (const [index, item] of [...task1.map((item) => ['task1', item]), ...task2.map((item) => ['task2', item])].entries()) {
@@ -69,6 +76,9 @@ assert.match(app, /storage\.removeItem\(LEGACY_STORAGE_KEY\)/, 'Existing saved c
 assert.match(app, /menuitemradio/, 'Single question choices use an accessible custom menu');
 assert.match(app, /menuitemcheckbox/, 'Tense selections use an accessible multi-select menu');
 assert.match(app, /task1Answer\(item\.id\)/, 'Task 1 choices are restored per question');
+assert.match(app, /function updateTask1Count\(\)/, 'Task 1 uses an answer-progress counter');
+assert.match(app, /answer\.type && answer\.motion && Array\.isArray\(answer\.tenses\) && answer\.tenses\.length/, 'A Task 1 row counts when all three selections are complete');
+assert.doesNotMatch(page, /<th scope="col">圖表類型<\/th>/, 'Repeated Task 1 answer-column headings are visually removed');
 assert.match(app, /:task1`, JSON\.stringify\(savedTask1\)/, 'Task 1 choices persist locally per student');
 assert.match(app, /quizPrompt\(item\)/, 'Task 1 text uses the neutral quiz wording');
 assert.match(app, /task1-diagrams\.json\?v=/, 'Task 1 data cache is refreshed with the new quiz wording');
@@ -106,6 +116,16 @@ assert.match(app, /window\.setInterval\(\(\) => \{ void refreshAdmin\(\); \}, 20
 assert.match(app, /adminSlots\.length < 10/, 'The admin table has at most ten student columns');
 assert.match(app, /ielts_preview_student_sync/, 'Student choices use the protected shared save');
 assert.match(app, /ielts_preview_admin_snapshot/, 'Admin columns use the protected shared read');
+assert.match(page, /id="admin-labels-toggle"[^>]+hidden/, 'Only signed-in admins can open label editing');
+assert.match(app, /ielts_preview_admin_type_labels/, 'Admin label edits use the protected shared RPC');
+assert.match(typeSchema, /revoke all on ielts_preview_private\.type_labels from public, anon, authenticated/, 'Answer key is not directly available to students');
+const searchFunction = app.match(/  function matchesQuestionSearch\(row, search, prefix\) \{[\s\S]*?\n  \}/)?.[0];
+assert.ok(searchFunction, 'Exact question-number search exists');
+const matchesQuestionSearch = new Function(`${searchFunction}; return matchesQuestionSearch;`)();
+for (const [typed, id] of [['2','T2-002'], ['02','T2-002'], ['002','T2-002'], ['16','T2-016'], ['T-016','T2-016'], ['T2-16','T2-016']]) {
+  assert.equal(matchesQuestionSearch({dataset:{questionId:id,search:''}},typed,'T2'),true, `${typed} finds ${id}`);
+  assert.equal(matchesQuestionSearch({dataset:{questionId:'T2-001',search:''}},typed,'T2'),false, `${typed} does not return another question`);
+}
 assert.match(liveSchema, /revoke all on all tables in schema ielts_preview_private from public, anon, authenticated/, 'Private student data has no direct browser table access');
 assert.doesNotMatch(app, /IESL\$A%T/, 'Admin password is not embedded in client code');
 for (const type of ['Opinions', 'Discuss both views + Opinions', 'Advantages & Disadvantages', 'Cause & Solution', 'Direct question']) {

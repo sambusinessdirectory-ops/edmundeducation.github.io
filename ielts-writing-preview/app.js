@@ -86,6 +86,11 @@
   let onlineStudents = [];
   let adminAnswers = {};
   let adminBusy = false;
+  let adminLabelMode = false;
+  let adminLabels = {};
+  let adminLabelsLoaded = false;
+  let adminLabelsLoading = null;
+  const adminLabelBusy = new Set();
   let studentOwner = '';
   let studentReady = Promise.resolve();
   let studentBusy = false;
@@ -121,6 +126,7 @@
     $('logout-button').hidden = !accessVerified;
     $('login-open').textContent = accessVerified ? '切換帳戶' : '登入';
     $('panel-task2').classList.toggle('is-admin', Boolean(adminSession.token));
+    $('admin-labels-toggle').hidden = !adminSession.token;
   }
 
   function applyAccessGate(verified) {
@@ -197,6 +203,7 @@
   }
 
   function refreshTask2Buttons() {
+    if (adminSession.token) return;
     for (const button of document.querySelectorAll('#task2-rows .answer-trigger')) {
       setAnswerButton(button, TYPES.includes(savedTypes[button.dataset.questionId]) ? savedTypes[button.dataset.questionId] : '');
     }
@@ -204,6 +211,10 @@
 
   function updateTask2Count() {
     if (!task2.length) return;
+    if (adminSession.token && adminLabelMode) {
+      $('task2-count').textContent = `${task2.reduce((count, item) => count + Number(TYPES.includes(adminLabels[item.id])), 0)} / ${task2.length} 題`;
+      return;
+    }
     const answers = adminSession.token ? (adminAnswers[adminSlots.find(Boolean)] || {}) : savedTypes;
     const answered = task2.reduce((total, item) => total + Number(TYPES.includes(answers[item.id])), 0);
     $('task2-count').textContent = `${answered} / ${task2.length} 題`;
@@ -309,6 +320,15 @@
   function saveTask1Answer(id, field, value) {
     savedTask1[id] = { ...task1Answer(id), [field]: value };
     try { safeStorage('localStorage')?.setItem(`${activeStorageKey}:task1`, JSON.stringify(savedTask1)); } catch { /* Keep choices in memory. */ }
+    updateTask1Count();
+  }
+  function updateTask1Count() {
+    if (!task1.length) return;
+    const complete = task1.reduce((total, item) => {
+      const answer = task1Answer(item.id);
+      return total + Number(Boolean(answer.type && answer.motion && Array.isArray(answer.tenses) && answer.tenses.length));
+    }, 0);
+    $('task1-count').textContent = `${complete} / ${task1.length} 題`;
   }
   function refreshTask1Buttons() {
     for (const button of document.querySelectorAll('#task1-rows .answer-trigger')) {
@@ -329,6 +349,7 @@
       setAnswerButton(button, TYPES.includes(savedTypes[button.dataset.questionId]) ? savedTypes[button.dataset.questionId] : '');
     }
     refreshTask1Buttons();
+    updateTask1Count();
     updateTask2Count();
     closeMenu();
   }
@@ -428,6 +449,7 @@
     for (const item of displayOrder) {
       const row = node('tr');
       row.dataset.search = `${item.id} ${quizPrompt(item)}`.toLocaleLowerCase();
+      row.dataset.questionId = item.id;
       const chartCell = node('td', 'chart-cell');
       const heading = node('h3', 'question', quizPrompt(item));
       heading.lang = 'en';
@@ -457,6 +479,13 @@
 
   function renderAdminHead() {
     const head = $('task2-head');
+    if (adminSession.token && adminLabelMode) {
+      $('panel-task2').style.setProperty('--admin-table-min-width', '915px');
+      for (const extra of head.querySelectorAll('.student-column-head:not(#type-head)')) extra.remove();
+      $('type-head').classList.remove('student-column-head');
+      $('type-head').replaceChildren(node('span', '', '標準題型'));
+      return;
+    }
     $('panel-task2').style.setProperty('--admin-table-min-width', `${725 + 190 * adminSlots.length}px`);
     for (const extra of head.querySelectorAll('.student-column-head:not(#type-head)')) extra.remove();
     if (!adminSession.token) { $('type-head').classList.remove('student-column-head'); $('type-head').replaceChildren(node('span', 'visually-hidden', '題型選擇')); return; }
@@ -543,10 +572,85 @@
         try { sessionStore?.removeItem(ADMIN_SESSION_KEY); } catch { /* private browsing */ }
         onlineStudents = [];
         adminAnswers = {};
+        resetAdminLabels();
         applyAccessGate(false);
         renderTask2();
       }
     } finally { adminBusy = false; }
+  }
+
+  async function loadAdminLabels() {
+    if (!adminSession.token) return false;
+    if (adminLabelsLoaded) return true;
+    if (adminLabelsLoading) return adminLabelsLoading;
+    const token = adminSession.token;
+    adminLabelsLoading = rpc('ielts_preview_admin_type_labels', { p_token: token })
+      .then((data) => {
+        if (adminSession.token !== token) return false;
+        adminLabels = data.labels && typeof data.labels === 'object' ? data.labels : {};
+        adminLabelsLoaded = true;
+        updateTask2Count();
+        return true;
+      })
+      .catch(() => {
+        if (adminSession.token === token) showAdminLabelStatus('標準題型載入失敗，請重試。');
+        return false;
+      })
+      .finally(() => { adminLabelsLoading = null; });
+    return adminLabelsLoading;
+  }
+
+  function showAdminLabelStatus(message) {
+    $('admin-label-status').textContent = message;
+    $('admin-label-status').hidden = !message;
+  }
+
+  function resetAdminLabels() {
+    adminLabelMode = false;
+    adminLabels = {};
+    adminLabelsLoaded = false;
+    adminLabelsLoading = null;
+    adminLabelBusy.clear();
+    $('admin-labels-toggle').textContent = '管理標準題型';
+    $('admin-labels-toggle').setAttribute('aria-pressed', 'false');
+    showAdminLabelStatus('');
+  }
+
+  function adminLabelChoice(item) {
+    const cell = node('td', 'admin-label-cell');
+    cell.dataset.studentLabel = '標準題型';
+    const trigger = node('button', 'answer-trigger');
+    trigger.type = 'button';
+    trigger.setAttribute('aria-label', `${item.id} 標準題型`);
+    trigger.setAttribute('aria-haspopup', 'menu');
+    trigger.setAttribute('aria-expanded', 'false');
+    trigger.append(node('span', 'answer-marker', '●'), node('span', 'answer-label'), node('span', 'menu-chevron'));
+    setAnswerButton(trigger, adminLabels[item.id] || '', '尚未分類');
+    trigger.addEventListener('click', () => openMenu(trigger, TYPES.map((type) => ({ value: type, label: type })), adminLabels[item.id] || '', (value) => {
+      if (adminLabelBusy.has(item.id) || value === adminLabels[item.id]) return;
+      const previous = adminLabels[item.id];
+      const token = adminSession.token;
+      adminLabelBusy.add(item.id);
+      adminLabels[item.id] = value;
+      setAnswerButton(trigger, value, '尚未分類');
+      updateTask2Count();
+      showAdminLabelStatus(`${item.id} 正在儲存…`);
+      void rpc('ielts_preview_admin_type_labels', { p_token: token, p_question_id: item.id, p_label: value })
+        .then((data) => {
+          if (adminSession.token !== token) return;
+          adminLabels = data.labels && typeof data.labels === 'object' ? data.labels : adminLabels;
+          showAdminLabelStatus(`${item.id} 已儲存。`);
+        })
+        .catch(() => {
+          if (adminSession.token !== token) return;
+          adminLabels[item.id] = previous;
+          setAnswerButton(trigger, previous || '', '尚未分類');
+          showAdminLabelStatus(`${item.id} 儲存失敗，請重試。`);
+        })
+        .finally(() => { adminLabelBusy.delete(item.id); updateTask2Count(); });
+    }));
+    cell.append(trigger);
+    return cell;
   }
 
   function renderTask2() {
@@ -555,7 +659,7 @@
     renderAdminHead();
     for (const item of task2) {
       const row = node('tr');
-      row.dataset.search = `${item.en} ${item.zh}`.toLocaleLowerCase();
+      row.dataset.search = `${item.id} ${item.en} ${item.zh}`.toLocaleLowerCase();
       row.dataset.topic = item.topic;
       row.dataset.questionId = item.id;
       const idCell = node('td');
@@ -573,7 +677,9 @@
       translation.lang = 'zh-Hant';
       promptCell.append(translation);
       row.append(idCell, audioCell, promptCell);
-      if (adminSession.token) {
+      if (adminSession.token && adminLabelMode) {
+        row.append(adminLabelChoice(item));
+      } else if (adminSession.token) {
         for (let index = 0; index < adminSlots.length; index++) {
           const cell = node('td');
           cell.dataset.studentLabel = `Student ${index + 1}`;
@@ -616,21 +722,25 @@
 
   function filterTask1() {
     const search = $('task1-search').value.trim().toLocaleLowerCase();
-    let visible = 0;
     for (const row of $('task1-rows').rows) {
-      row.hidden = !row.dataset.search.includes(search);
-      if (!row.hidden) visible++;
+      row.hidden = !matchesQuestionSearch(row, search, 'T1');
     }
-    $('task1-count').textContent = `${visible} / ${task1.length} 題`;
+    updateTask1Count();
   }
 
   function filterTask2() {
     const search = $('task2-search').value.trim().toLocaleLowerCase();
     const topic = task2Topic;
     for (const row of $('task2-rows').rows) {
-      row.hidden = !(row.dataset.search.includes(search) && (!topic || row.dataset.topic === topic));
+      row.hidden = !(matchesQuestionSearch(row, search, 'T2') && (!topic || row.dataset.topic === topic));
     }
     updateTask2Count();
+  }
+
+  function matchesQuestionSearch(row, search, prefix) {
+    const number = /^(?:t([12])?[\s-]*)?0*([1-9]\d{0,2})$/i.exec(search);
+    if (number) return (!number[1] || `T${number[1]}` === prefix) && row.dataset.questionId === `${prefix}-${number[2].padStart(3, '0')}`;
+    return row.dataset.search.includes(search);
   }
 
   async function start() {
@@ -690,6 +800,7 @@
           adminSlots = [''];
           onlineStudents = [];
           adminAnswers = {};
+          resetAdminLabels();
           applyAccessGate(true);
           renderTask2();
           void refreshAdmin();
@@ -701,6 +812,7 @@
             try { await rpc('ielts_preview_admin_logout', { p_token: adminSession.token }); } catch { /* Session expires server-side. */ }
             adminSession = {};
             sessionStore?.removeItem(ADMIN_SESSION_KEY);
+            resetAdminLabels();
           }
           const student = { token: account.session_token, id: account.id, name: account.name, role: 'student' };
           sessionStore?.setItem('edmund-universal-student-session-v1', JSON.stringify(student));
@@ -724,6 +836,7 @@
         void rpc('ielts_preview_admin_logout', { p_token: oldAdmin }).catch(() => {});
         onlineStudents = [];
         adminAnswers = {};
+        resetAdminLabels();
         adminSlots = [''];
       } else if (oldStudent) {
         void rpc('ielts_preview_student_leave', { p_token: oldStudent.token, p_device: deviceId }).catch(() => {});
@@ -751,6 +864,15 @@
       setFilterButton('task2-topic', value || '所有主題');
       filterTask2();
     }));
+    $('admin-labels-toggle').addEventListener('click', async () => {
+      if (!adminSession.token) return;
+      if (!adminLabelMode && !await loadAdminLabels()) return;
+      adminLabelMode = !adminLabelMode;
+      $('admin-labels-toggle').textContent = adminLabelMode ? '返回學生進度' : '管理標準題型';
+      $('admin-labels-toggle').setAttribute('aria-pressed', String(adminLabelMode));
+      showAdminLabelStatus(adminLabelMode ? '修改題型後會立即儲存。' : '');
+      renderTask2();
+    });
     window.addEventListener('edmund-student-session-change', syncStudentOwner);
     window.addEventListener('focus', () => { syncStudentOwner(); void refreshAdmin(); void studentHeartbeat(); });
     document.addEventListener('visibilitychange', () => { if (!document.hidden) { void refreshAdmin(); void studentHeartbeat(); } });
@@ -760,6 +882,7 @@
       if (event.key === `${activeStorageKey}:task1`) {
         savedTask1 = readStoredObject(safeStorage('localStorage'), event.key);
         refreshTask1Buttons();
+        updateTask1Count();
       }
       if (event.key === activeStorageKey) {
         savedTypes = readSavedTypes(activeStorageKey);

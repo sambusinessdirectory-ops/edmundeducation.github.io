@@ -35352,6 +35352,20 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "idiom-system.html?lesson=idiom-138"
   },
   {
+    "id": "ielts-question-types:task1",
+    "type": "ielts-question-types",
+    "label": "IELTS Question Types · Task 1",
+    "detail": "IELTS Writing · Diagrams",
+    "url": "ielts-writing-question-preview.html#task1"
+  },
+  {
+    "id": "ielts-question-types:task2",
+    "type": "ielts-question-types",
+    "label": "IELTS Question Types · Task 2",
+    "detail": "IELTS Writing · Essays",
+    "url": "ielts-writing-question-preview.html#task2"
+  },
+  {
     "id": "junior-exam-prep:s2-exam-prep-advanced-articles",
     "type": "junior-exam-prep",
     "ordinal": 0,

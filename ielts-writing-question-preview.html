@@ -10,11 +10,11 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="/shared-system-nav.css">
-  <link rel="stylesheet" href="/ielts-writing-preview/style.css?v=20261031-5">
+  <link rel="stylesheet" href="/ielts-writing-preview/style.css?v=20261031-6">
   <script defer src="/supabase-config.js"></script>
   <script defer src="/pwa-register.js"></script>
   <script defer src="/shared-system-nav.js"></script>
-  <script defer src="/ielts-writing-preview/app.js?v=20261031-5"></script>
+  <script defer src="/ielts-writing-preview/app.js?v=20261031-6"></script>
   <script type="module" src="/ielts-writing-preview/highlighter.mjs?v=20261031-1"></script>
 </head>
 <body>
@@ -45,11 +45,11 @@
     <section id="panel-task1" class="panel" role="tabpanel" aria-labelledby="tab-task1">
       <div class="panel-heading"><div><p class="eyebrow">TASK 1 · DIAGRAMS</p><h2>圖表題目</h2><p>看題目與圖表，再選擇圖表類型、動態或靜態，以及適用時態。</p></div><span class="count" id="task1-count">載入中</span></div>
       <div class="toolbar"><label class="search"><span>搜尋圖表</span><input id="task1-search" type="search" placeholder="搜尋英文題目" autocomplete="off"></label></div>
-      <div class="table-scroll" id="task1-scroll" tabindex="0" aria-label="Task 1 圖表題目列表"><table><thead><tr><th scope="col">題目與圖表</th><th scope="col">圖表類型</th><th scope="col">動態 / 靜態</th><th scope="col">適用時態（可多選）</th></tr></thead><tbody id="task1-rows"></tbody></table></div>
+      <div class="table-scroll" id="task1-scroll" tabindex="0" aria-label="Task 1 圖表題目列表"><table><thead><tr><th scope="col">題目與圖表</th><th scope="col"><span class="visually-hidden">圖表類型</span></th><th scope="col"><span class="visually-hidden">動態 / 靜態</span></th><th scope="col"><span class="visually-hidden">適用時態（可多選）</span></th></tr></thead><tbody id="task1-rows"></tbody></table></div>
     </section>
     <section id="panel-task2" class="panel" role="tabpanel" aria-labelledby="tab-task2" hidden>
       <div class="panel-heading"><div><p class="eyebrow">TASK 2 · ESSAYS</p><h2>作文題目</h2><p>瀏覽完整題目，並在右邊選擇你判斷的題型。</p></div><span class="count" id="task2-count">載入中</span></div>
-      <div class="toolbar"><label class="search"><span>搜尋題目</span><input id="task2-search" type="search" placeholder="搜尋題目英文或中文" autocomplete="off"></label><div class="filter"><span class="control-label">主題</span><button id="task2-topic" class="menu-trigger" type="button" aria-haspopup="menu" aria-expanded="false"><span>所有主題</span><span class="menu-chevron" aria-hidden="true"></span></button></div><button id="translation-toggle" class="translation-toggle" type="button" aria-pressed="false">顯示繁體中文翻譯</button></div>
+      <div class="toolbar"><label class="search"><span>搜尋題目</span><input id="task2-search" type="search" placeholder="搜尋題目編號、英文或中文" autocomplete="off"></label><div class="filter"><span class="control-label">主題</span><button id="task2-topic" class="menu-trigger" type="button" aria-haspopup="menu" aria-expanded="false"><span>所有主題</span><span class="menu-chevron" aria-hidden="true"></span></button></div><button id="translation-toggle" class="translation-toggle" type="button" aria-pressed="false">顯示繁體中文翻譯</button><button id="admin-labels-toggle" class="translation-toggle" type="button" aria-pressed="false" hidden>管理標準題型</button></div><p id="admin-label-status" class="admin-label-status" role="status" aria-live="polite" hidden></p>
       <div class="preview-highlight-controls" role="group" aria-label="暫時螢光筆工具">
         <button id="highlight-toggle" class="highlight-toggle" type="button" aria-pressed="false">🖍 暫時螢光筆</button>
         <div class="preview-highlight-colors" role="group" aria-label="選擇螢光筆顏色">
