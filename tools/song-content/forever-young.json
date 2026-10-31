@@ -4137,6 +4137,361 @@
           ]
         }
       ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "in style",
+          "meaning": "很有風格地；體面又漂亮地（約 B2）",
+          "usage": "形容穿著、慶祝、出場或做事很有氣派；常說 do something in style。",
+          "prompt": "哪一句正確使用「in style」？",
+          "options": [
+            "The doctor measured in style with a broken paper bag.",
+            "The soup boiled in style because it needed more salt.",
+            "The students studied in style because the clock was late.",
+            "They celebrated in style with music and beautiful lights."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "測量和破紙袋的情境不符合「有氣派地」的意思。",
+            "煮湯加鹽無法自然表達「很有風格」；搭配牽強。",
+            "這裡與遲到無關，不能藉此表示讀書很有氣派。",
+            "正確：用音樂和燈光隆重慶祝，搭配自然。"
+          ],
+          "sourceFile": "Forever_Young_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：用音樂和燈光隆重慶祝，搭配自然。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "drop the bomb",
+          "meaning": "投下炸彈；也可比喻突然宣布震撼消息（約 C1）",
+          "usage": "本歌用於戰爭威脅的字面意思；日常比喻用法需有「令人震驚的消息」的語境。",
+          "prompt": "哪一句正確使用「drop the bomb」？",
+          "options": [
+            "I dropped the bomb to make my pencil write faster.",
+            "The reporter dropped the bomb: the concert was cancelled.",
+            "The chef dropped the bomb to give everyone fresh bread.",
+            "Our dog dropped the bomb by sleeping on the sofa."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "不能用此片語表示讓鉛筆寫字更快。",
+            "正確：比喻記者突然宣布令人震驚的取消消息。",
+            "分發麵包不是投彈，也不是宣布震撼消息。",
+            "狗睡沙發不是這個片語通常指的重大消息。"
+          ],
+          "sourceFile": "Forever_Young_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：比喻記者突然宣布令人震驚的取消消息。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "sandpit",
+          "meaning": "沙坑；供孩子玩沙的地方（約 B2）",
+          "usage": "通常指遊樂場的沙坑，英式英文常用；美式英文也常說 sandbox。",
+          "prompt": "哪一句正確使用「sandpit」？",
+          "options": [
+            "The teacher filled the sandpit with books for our test.",
+            "The children built tiny castles in the sandpit.",
+            "My aunt wore a sandpit to keep warm in winter.",
+            "The driver parked the sandpit beside the school bus."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "考試書本不是沙坑的典型用途；情境不自然。",
+            "正確：孩子們在沙坑裡堆小城堡。",
+            "沙坑不是可以穿在身上的衣物。",
+            "沙坑不是可像車子一樣停放的交通工具。"
+          ],
+          "sourceFile": "Forever_Young_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：孩子們在沙坑裡堆小城堡。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "praise",
+          "meaning": "稱讚；讚揚（約 B2）",
+          "usage": "對某人的表現、勇氣或努力給予正面評價；常用 praise someone for something。",
+          "prompt": "哪一句正確使用「praise」？",
+          "options": [
+            "The coach praised Mia for helping a new student.",
+            "Our teacher praised the window to turn it blue.",
+            "The coach praised the rain for making the shoes hungry.",
+            "The actor praised his ticket into a paper airplane."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：教練稱讚 Mia 幫助新同學。",
+            "稱讚窗戶不能表示將它塗成藍色。",
+            "雨不會讓鞋子餓，稱讚的理由不合邏輯。",
+            "praise 不是把票摺成飛機的動作。"
+          ],
+          "sourceFile": "Forever_Young_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：教練稱讚 Mia 幫助新同學。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "mad",
+          "meaning": "發瘋的；瘋狂的；（口語）非常生氣的（約 B2）",
+          "usage": "形容舉止瘋狂或情緒激動；在英式口語也可表示很生氣。對精神疾病的使用可能帶有冒犯意味。",
+          "prompt": "哪一句正確使用「mad」？",
+          "options": [
+            "The map was mad because it showed the wrong road.",
+            "My bicycle was mad because the bell was missing.",
+            "Dad was mad when he found paint on the new sofa.",
+            "The soup was mad because it had three carrots."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "地圖出錯不能自然表示地圖「生氣」。",
+            "腳踏車不具有憤怒的情緒，屬擬人化玩笑。",
+            "正確：爸爸看見新沙發沾油漆，很生氣。",
+            "湯不會因為有胡蘿蔔就產生憤怒情緒。"
+          ],
+          "sourceFile": "Forever_Young_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：爸爸看見新沙發沾油漆，很生氣。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "melody",
+          "meaning": "旋律；曲調（約 B1）",
+          "usage": "指一首歌曲中可哼唱的音高走向，而不是鼓聲的節奏。",
+          "prompt": "哪一句正確使用「melody」？",
+          "options": [
+            "The bus driver wore a melody under his coat.",
+            "She used a melody to cut the bread in half.",
+            "I remember the melody, but I forgot the words.",
+            "The gardener planted a melody next to the tree."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "旋律不是可以穿的物品。",
+            "旋律無法充當切麵包的工具。",
+            "正確：記得旋律，卻忘記歌詞。",
+            "旋律不是種在土裡的植物。"
+          ],
+          "sourceFile": "Forever_Young_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：記得旋律，卻忘記歌詞。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "cause",
+          "meaning": "理念；值得投入的目標；（另一義）原因（約 B2）",
+          "usage": "本歌 without a cause 較接近「沒有值得努力的目標」；a good cause 常指公益理念。",
+          "prompt": "哪一句正確使用「cause」？",
+          "options": [
+            "We carried a cause to the beach inside two small boxes.",
+            "Our school raised money for a good cause.",
+            "He washed the cause to remove the paint from his hands.",
+            "The chef toasted a cause with cheese for the children."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "理念不是可以裝進兩個盒子的實體物品。",
+            "正確：學校為公益目標募款。",
+            "cause 不是可用水清洗的手部物品。",
+            "不能把理念當吐司加起司烘烤。"
+          ],
+          "sourceFile": "Forever_Young_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：學校為公益目標募款。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "perish",
+          "meaning": "死亡；滅亡；腐敗變質（正式用語）（約 C1）",
+          "usage": "較正式或文學性，常描述人或動植物死亡、消失；日常較常用 die。",
+          "prompt": "哪一句正確使用「perish」？",
+          "options": [
+            "Without enough water, the small plants may perish.",
+            "She perished her shoes before walking into the room.",
+            "The teacher perished a new story onto the whiteboard.",
+            "We perished the dishes after dinner with warm water."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：植物缺水可能枯死；語氣較正式。",
+            "穿鞋應說 put on，並非 perish。",
+            "perish 不能表示把故事寫在白板上。",
+            "perish 不能當「洗碗」的及物動詞。"
+          ],
+          "sourceFile": "Forever_Young_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：植物缺水可能枯死；語氣較正式。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "fading",
+          "meaning": "逐漸褪色的；漸漸消失的（約 B2）",
+          "usage": "形容顏色、光線、記憶或聲音逐漸變淡；來自動詞 fade。",
+          "prompt": "哪一句正確使用「fading」？",
+          "options": [
+            "Her fading shoes were loud because they loved pizza.",
+            "I used a fading to open the heavy school gate.",
+            "The fading chair ate my breakfast before the bell rang.",
+            "The fading photo was hard to see after many years."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "褪色的鞋子和喜歡披薩沒有合乎常理的關聯。",
+            "fading 不是可用來開門的工具名稱。",
+            "椅子不會吃早餐；fading 並無此意。",
+            "正確：舊照片逐漸褪色，變得難以辨認。"
+          ],
+          "sourceFile": "Forever_Young_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：舊照片逐漸褪色，變得難以辨認。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "youth",
+          "meaning": "青春；年輕時期；青年人（約 B2）",
+          "usage": "可指人生的年少時光，亦可集合指年輕人；不可和 young 當作同一詞性。",
+          "prompt": "哪一句正確使用「youth」？",
+          "options": [
+            "I youth my homework every night after dinner.",
+            "My dog drank a glass of youth after his walk.",
+            "My grandfather often talks about his youth.",
+            "The teacher put youth on the wall beside the clock."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "youth 是名詞，不能代替「做作業」的動詞。",
+            "青春不是可裝在杯中飲用的飲料。",
+            "正確：祖父經常談起自己的年少時光。",
+            "青春不是可掛在牆上的實體物品。"
+          ],
+          "sourceFile": "Forever_Young_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：祖父經常談起自己的年少時光。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "adventure",
+          "meaning": "冒險；令人興奮的新奇經歷（約 B1）",
+          "usage": "旅遊、探索或第一次嘗試新活動時，可用於有未知與刺激感的經驗。",
+          "prompt": "哪一句正確使用「adventure」？",
+          "options": [
+            "The trip through the forest was a great adventure.",
+            "She parked an adventure in front of the school gate.",
+            "I wore an adventure because the wind was very cold.",
+            "Our teacher cooked an adventure with potatoes for lunch."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：穿越森林的旅行是令人興奮的冒險。",
+            "冒險不是能停在校門前的車輛。",
+            "冒險不是保暖的衣服。",
+            "冒險不是能用馬鈴薯烹煮的食物。"
+          ],
+          "sourceFile": "Forever_Young_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：穿越森林的旅行是令人興奮的冒險。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "swing",
+          "meaning": "擺動；搖晃；使來回移動（約 B2）",
+          "usage": "可指鞦韆、鐘擺或手臂左右擺動。歌詞用 swinging 表示夢想的詩意動態。",
+          "prompt": "哪一句正確使用「swing」？",
+          "options": [
+            "The waiter swung the soup to make it taste like apples.",
+            "My sister swung her phone to the shop at nine.",
+            "The student swung her homework into a blue sandwich.",
+            "The little boy swung his legs under the chair."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "搖動湯不會自然讓湯變成蘋果味。",
+            "去商店不能用 swung 代替 went 或 took。",
+            "swing 不是把作業變成三明治的意思。",
+            "正確：男孩坐著時在椅子下晃動雙腿。"
+          ],
+          "sourceFile": "Forever_Young_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "explanation": "正確：男孩坐著時在椅子下晃動雙腿。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        }
+      ]
     }
   },
   "extensionProvenance": [
@@ -4144,6 +4499,11 @@
       "section": "structure",
       "filename": "Forever_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
       "sha256": "7f7c9ead0137745a0446d672a7520b02ea6a141c1fb8f0a9ffa548a11b5b6456"
+    },
+    {
+      "section": "advanced",
+      "filename": "Forever_Young_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "a0959c7aa16251391b5160c711de1eab509c46af3658630a67b0c033414bb05e"
     }
   ]
 }

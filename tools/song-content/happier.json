@@ -2894,6 +2894,1200 @@
           ]
         }
       ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "現在分詞開頭的歌詞片段",
+          "meaning": "描述正在沿著某條路走的動作；原句省略主詞及完整述語。",
+          "usage": "敘事或照片說明可以看到這種片段；正式完整句子須補出主詞和動詞。",
+          "prompt": "情境： 攝影師要把「我當時正沿著河邊走」寫成完整句子。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "I had walked down the path tomorrow.",
+            "I was walking a river inside my bag.",
+            "The river was walking me down the path.",
+            "I was walking down the path by the river."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：had walked 與 tomorrow 時間不符。",
+            "錯誤：把河流當成可以裝進背包的物品，語意不通。",
+            "錯誤：河流不能像人一樣帶著我沿路走。",
+            "正確：was walking down 表示當時沿著小路行走。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Walking down 29th and park",
+          "pattern": [
+            {
+              "text": "[Walking]",
+              "fixed": false
+            },
+            {
+              "text": "[down a street / place]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：歌詞是省略主詞的分詞片段；選項用完整句子教其合理語境。",
+          "explanation": "正確：was walking down 表示當時沿著小路行走。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "see + 受詞 + 地點片語",
+          "meaning": "看到某人身處某個位置或狀態。",
+          "usage": "目擊某人在哪裡、身處甚麼情境時使用。",
+          "prompt": "情境： 你在車站見到叔叔站在售票處。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "I saw my uncle at the ticket desk.",
+            "I saw my uncle under an idea at the station.",
+            "I saw my uncle in tomorrow at the station.",
+            "I saw the ticket desk become my uncle."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：看到叔叔位於售票處。",
+            "錯誤：under an idea 不能自然表示站立位置。",
+            "錯誤：in tomorrow 不是自然的時間或位置片語。",
+            "錯誤：售票處不會變成叔叔。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "I saw you in another's arms",
+          "pattern": [
+            {
+              "text": "[I saw]",
+              "fixed": false
+            },
+            {
+              "text": "[someone]",
+              "fixed": false
+            },
+            {
+              "text": "[in/at + place or situation]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：看到叔叔位於售票處。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "only + 時間長度 + 現在完成式",
+          "meaning": "強調某狀態持續到現在的時間其實很短。",
+          "usage": "想說才經過幾天或幾個月，就已經感受到變化時使用。",
+          "prompt": "情境： 兩個朋友分開只有三天，卻已很想念彼此。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "Only three days we have been hungry next year.",
+            "We are apart since three days and will meet last year.",
+            "Only three days we will be apart yesterday.",
+            "We have been apart for only three days, but I miss her."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：next year 與已經持續的現在完成式衝突。",
+            "錯誤：應用 for three days，而且 last year 時序衝突。",
+            "錯誤：will be 與 yesterday 不能這樣配合。",
+            "正確：have been apart for only three days 清楚表達分開至今的短時間。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "Only a month we've been apart",
+          "pattern": [
+            {
+              "text": "[Only + duration]",
+              "fixed": false
+            },
+            {
+              "text": "[we have been + adjective]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：歌詞採詩歌式前置時間片語；例句以常見的 for only ... 語序呈現同一時態。",
+          "explanation": "正確：have been apart for only three days 清楚表達分開至今的短時間。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "look + 比較級形容詞",
+          "meaning": "某人看起來比以前更有某種感覺或狀態。",
+          "usage": "從外表或神情判斷某人近況時使用。",
+          "prompt": "情境： 朋友休息後看起來比昨天更開心。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "She looks happy yesterday than now.",
+            "She looks happily than yesterday.",
+            "She looks happier than yesterday after a good rest.",
+            "She looks more good after sleeping."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：比較語序與時態不自然。",
+            "錯誤：look 作連綴動詞時通常接形容詞 happier。",
+            "正確：looks happier 描述看起來更開心。",
+            "錯誤：good 的比較級是 better，不能說 more good。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "You look happier",
+          "pattern": [
+            {
+              "text": "[Person]",
+              "fixed": false
+            },
+            {
+              "text": "[look(s)]",
+              "fixed": false
+            },
+            {
+              "text": "[comparative adjective]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：looks happier 描述看起來更開心。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "see + 受詞 + 原形動詞",
+          "meaning": "看到某人完成或發生一個動作。",
+          "usage": "目睹別人走進、打開、拿起等動作時使用。",
+          "prompt": "情境： 你親眼看見魔術師打開盒子。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "I saw the magician open the box.",
+            "I saw the magician opens the box.",
+            "I saw the magician to open the box.",
+            "I saw the magician opening to the box."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：saw + 人 + open 表示親眼見到動作。",
+            "錯誤：saw + 受詞 後要接原形 open，不能加 -s。",
+            "錯誤：感官動詞 saw 的此結構不接 to open。",
+            "錯誤：opening to the box 不是自然的動作搭配。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "Saw you walk inside a bar",
+          "pattern": [
+            {
+              "text": "[see/saw]",
+              "fixed": false
+            },
+            {
+              "text": "[someone]",
+              "fixed": false
+            },
+            {
+              "text": "[base verb]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：歌詞省略 I，但 Saw you walk 清楚包含 saw + 受詞 + 原形動詞。",
+          "explanation": "正確：saw + 人 + open 表示親眼見到動作。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "make + 人 + 原形動詞",
+          "meaning": "使某人做出某個動作或產生反應。",
+          "usage": "描述笑話、消息、行動使某人發笑或哭泣等時使用。",
+          "prompt": "情境： 一隻狗戴著帽子讓觀眾笑出來。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "The dog made the audience laugh.",
+            "The dog made the audience to laugh.",
+            "The dog made laugh the audience.",
+            "The dog made the audience laughing to."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：make + 受詞 + 原形 laugh。",
+            "錯誤：make 的使役結構不需要 to。",
+            "錯誤：受詞 audience 必須放在 laugh 前。",
+            "錯誤：laughing to 不符合此使役句型。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "make you laugh",
+          "pattern": [
+            {
+              "text": "[make]",
+              "fixed": false
+            },
+            {
+              "text": "[someone]",
+              "fixed": false
+            },
+            {
+              "text": "[base verb]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：make + 受詞 + 原形 laugh。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "twice as + 形容詞 + as",
+          "meaning": "某個特徵是另一個的兩倍。",
+          "usage": "比較長度、寬度、高度、重量等可測量特徵時使用。",
+          "prompt": "情境： 展覽有兩幅畫，第一幅的寬度是第二幅兩倍。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "The first painting is twice as width as the second.",
+            "The first painting is twice as wide as the second.",
+            "The first painting is two as wide the second.",
+            "The first painting is twice wide as the second."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：width 是名詞，這裡需要形容詞 wide。",
+            "正確：twice as wide as 以相同特徵比較寬度。",
+            "錯誤：缺少第一個 as 和第二個 as 的完整結構。",
+            "錯誤：twice 後仍需要 as + 形容詞。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "twice as wide as ours",
+          "pattern": [
+            {
+              "text": "[twice as]",
+              "fixed": false
+            },
+            {
+              "text": "[adjective]",
+              "fixed": false
+            },
+            {
+              "text": "[as + comparison]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：twice as wide as 以相同特徵比較寬度。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "重述強調的助動詞 do",
+          "meaning": "用助動詞再次確認或強調前面說過的事。",
+          "usage": "對一個已說出的判斷加強語氣，或簡短附和時使用。",
+          "prompt": "情境： 朋友說你真的喜歡新的工作；你要強調確認。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "I enjoy my new job, I am.",
+            "I enjoy my new job, I have.",
+            "I enjoy my new job, I can.",
+            "I enjoy my new job. I really do."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：am 不能替代前面的 enjoy。",
+            "錯誤：have 不能如此承接一般現在式動詞 enjoy。",
+            "錯誤：can 變成能力而不是確認喜歡。",
+            "正確：do 代替 enjoy my new job，並加強肯定語氣。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "you do",
+          "pattern": [
+            {
+              "text": "[subject]",
+              "fixed": false
+            },
+            {
+              "text": "[do/does/did]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：歌詞的 you do 承接 you look happier；不是獨立的完整新命題。",
+          "explanation": "正確：do 代替 enjoy my new job，並加強肯定語氣。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "非標準 ain’t nobody + 動詞 + like 比較",
+          "meaning": "帶有強烈感情的口語雙重否定和比較，意為「沒有任何人像……」。",
+          "usage": "分析歌曲或非正式口語的語域時使用；標準英語練習宜以 nobody ... like ... 表達。",
+          "prompt": "情境： 某人要說沒有任何其他人像祖母那樣鼓勵自己。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "Nobody supports me unlike my grandma does.",
+            "Nobody support me like my grandma doing.",
+            "Ain’t nobody supports me like my grandma do in a formal report.",
+            "Nobody supports me like my grandma does."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：unlike 不能在此直接替代 like 建立相同比較。",
+            "錯誤：Nobody 作單數主詞時要用 supports，後句也須調整。",
+            "錯誤：在正式報告中不宜使用 ain’t nobody，且主謂配合亦不自然。",
+            "正確：Nobody ... like ... does 清楚表達比較。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "Ain't nobody hurt you like I hurt you",
+          "pattern": [
+            {
+              "text": "[ain’t nobody]",
+              "fixed": false
+            },
+            {
+              "text": "[verb + person]",
+              "fixed": false
+            },
+            {
+              "text": "[like + clause]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：來源是非標準歌詞；正式例句使用標準結構，不將標準句聲稱為原歌詞。",
+          "explanation": "正確：Nobody ... like ... does 清楚表達比較。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "promise + that 子句",
+          "meaning": "保證將會或不會做某件事。",
+          "usage": "向別人作出明確承諾時使用。",
+          "prompt": "情境： 你向鄰居保證明天會把借來的梯子還回去。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "I promise that I will return your ladder tomorrow.",
+            "I promise that I returning your ladder tomorrow.",
+            "I promise that I will to return your ladder tomorrow.",
+            "I promise that returned the ladder tomorrow."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：promise that + 完整的未來承諾子句。",
+            "錯誤：缺少 am 等助動詞，不能直接 I returning。",
+            "錯誤：will 後直接接 return，不加 to。",
+            "錯誤：that 後缺少主詞及適當動詞。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "Promise that I will not take it personal baby",
+          "pattern": [
+            {
+              "text": "[promise]",
+              "fixed": false
+            },
+            {
+              "text": "[that + subject + will + verb]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：歌詞省略 I 的祈使式／口語說法 Promise that...；不是 I promise 的逐字歌詞。",
+          "explanation": "正確：promise that + 完整的未來承諾子句。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "if + 現在進行式的條件子句",
+          "meaning": "如果某個正在發生的情況成立，就談相應反應。",
+          "usage": "條件涉及目前進行中的轉變或安排時使用。",
+          "prompt": "情境： 朋友正在學做陶器；若他真的正在練習，你會借工具。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "If you practicing pottery, I will lend you tools.",
+            "If you are practice pottery, I will lend you tools.",
+            "If you are practicing pottery, I will lend you my tools.",
+            "If you are practicing pottery, I lend you tools last year."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：現在進行式缺少 are。",
+            "錯誤：are 後應接 practicing。",
+            "正確：if + are practicing 設定目前進行的條件。",
+            "錯誤：未來的結果與 last year 的時序不合。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "If you're moving on with someone new",
+          "pattern": [
+            {
+              "text": "[if]",
+              "fixed": false
+            },
+            {
+              "text": "[subject + am/is/are + -ing]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：if + are practicing 設定目前進行的條件。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "tell + 人 + 子句",
+          "meaning": "把一個資訊、預測或看法告訴某人。",
+          "usage": "轉述朋友、老師等向你說過的話時使用。",
+          "prompt": "情境： 教練告訴你，練習之後你會跑得更快。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "The coach told me I would run faster with practice.",
+            "The coach told that me I would run faster.",
+            "The coach told to me I would run faster.",
+            "The coach said me I would run faster."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：told me + 完整子句，表轉述。",
+            "錯誤：tell 的人稱受詞需緊接在 told 後。",
+            "錯誤：told me 不需加 to。",
+            "錯誤：said me 不自然；應說 told me 或 said to me。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "My friends told me one day I’ll feel it too",
+          "pattern": [
+            {
+              "text": "[tell/told]",
+              "fixed": false
+            },
+            {
+              "text": "[someone]",
+              "fixed": false
+            },
+            {
+              "text": "[(that) + complete clause]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：told me + 完整子句，表轉述。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "until then + 未來敘述",
+          "meaning": "在那個未來時間到來之前，暫時會做甚麼。",
+          "usage": "等待某個已知事件發生時，說明之前的安排。",
+          "prompt": "情境： 你要等星期日才拿到新畫具，此前先借朋友的。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "My paints arrive on Sunday. Until then, I use yesterday.",
+            "My paints arrive on Sunday. Until then will I my friend’s set.",
+            "My paints arrive on Sunday. Until then, I will use my friend’s set.",
+            "My paints arrive on Sunday. Until then, I used next year."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：yesterday 與尚未到來的星期日不配合。",
+            "錯誤：一般敘述句應用 I will use 的語序。",
+            "正確：Until then 連結星期日前的暫時安排。",
+            "錯誤：used 與 next year 時間不符，句子也不完整。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "until then I'll smile",
+          "pattern": [
+            {
+              "text": "[until then]",
+              "fixed": false
+            },
+            {
+              "text": "[subject + will + verb]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Until then 連結星期日前的暫時安排。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "to + 動詞表目的",
+          "meaning": "做某件事，目的是達成另一個結果。",
+          "usage": "解釋為甚麼微笑、跑步、開窗或做其他行動時使用。",
+          "prompt": "情境： 研究員打開窗，目的是讓新鮮空氣進來。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "The scientist opened the window to fresh air came in.",
+            "The scientist opened the window to let fresh air in.",
+            "The scientist opened the window for let air in.",
+            "The scientist opened the window to letting fresh air in."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：to 後不能直接接完整過去式子句。",
+            "正確：to let ... in 清楚交代開窗目的。",
+            "錯誤：for 後不能這樣直接接 let。",
+            "錯誤：目的不定詞後要用 let 原形。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "I’ll smile to hide the truth",
+          "pattern": [
+            {
+              "text": "[do something]",
+              "fixed": false
+            },
+            {
+              "text": "[to + base verb]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：目的不定詞也出現在 said something to make you laugh；此處僅計一次，從完整動作的目的切入。",
+          "explanation": "正確：to let ... in 清楚交代開窗目的。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "know + 省略 that 的完整子句",
+          "meaning": "表示自己知道某件事是真的。",
+          "usage": "談有把握的事實或個人認知時使用。",
+          "prompt": "情境： 你知道去年那間圖書館週末開門。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "I know the library was open Sundays is.",
+            "I know the library was open on Sundays last year.",
+            "I know the library open was on Sundays last year.",
+            "I know was the library open on Sundays last year."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：子句末尾多出 is，使整句不成立。",
+            "正確：know 後直接接主詞 the library 與過去式 was。",
+            "錯誤：主詞與動詞語序不正確。",
+            "錯誤：間接敘述不能使用疑問式倒裝。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "But I know I was happier with you",
+          "pattern": [
+            {
+              "text": "[I know]",
+              "fixed": false
+            },
+            {
+              "text": "[(that) + subject + verb]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：know 後直接接主詞 the library 與過去式 was。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "remind + 人 + of + 事物",
+          "meaning": "某物使人想起另一個人、地方或經歷。",
+          "usage": "熟悉的聲音、味道、照片喚起回憶時使用。",
+          "prompt": "情境： 舊戲票令你想起去年看的表演。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "This old ticket reminds me of the play.",
+            "This old ticket reminds to me of the play.",
+            "This old ticket reminds me for the play.",
+            "This old ticket reminds me the play."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：reminds me of 用來表達戲票喚起回憶。",
+            "錯誤：remind 後直接接 me，不加 to。",
+            "錯誤：表示喚起回憶應接 of，而不是 for。",
+            "錯誤：此結構須加 of 才能連接回憶內容。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "Everything's reminding me of you",
+          "pattern": [
+            {
+              "text": "[something]",
+              "fixed": false
+            },
+            {
+              "text": "[remind(s)]",
+              "fixed": false
+            },
+            {
+              "text": "[someone]",
+              "fixed": false
+            },
+            {
+              "text": "[of + person/thing]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：reminds me of 用來表達戲票喚起回憶。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "兩個 -ing 片語並列的歌詞片段",
+          "meaning": "兩個同時或連續的動作並列描述；歌詞中省略了完整主句。",
+          "usage": "敘事時想描述兩個動作，可用主詞 + be + -ing ... and -ing ...。",
+          "prompt": "情境： 園丁一邊澆花，一邊聽廣播。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "The gardener was water flowers and listen to the radio.",
+            "The gardener watered flowers and to listening the radio.",
+            "The gardener watering flowers and listening to radio yesterday.",
+            "The gardener was watering flowers and listening to the radio."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：was 後應使用 watering 等 -ing 形式。",
+            "錯誤：and to listening 並非自然的平行形式。",
+            "錯誤：若作完整句子，需加 was 等限定動詞。",
+            "正確：was watering ... and listening ... 連接兩個並行動作。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "Nursing an empty bottle and telling myself you're happier",
+          "pattern": [
+            {
+              "text": "[verb-ing + object]",
+              "fixed": false
+            },
+            {
+              "text": "[and + verb-ing + object/complement]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：歌曲中本身為 -ing 片段；不能誤稱歌詞有 was nursing。",
+          "explanation": "正確：was watering ... and listening ... 連接兩個並行動作。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "tell oneself + 子句",
+          "meaning": "在心中反覆告訴自己某件事。",
+          "usage": "自我安慰、提醒自己或鼓勵自己時使用。",
+          "prompt": "情境： 小提琴手在演出前提醒自己已經準備好了。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "The violinist told herself to she was ready.",
+            "The violinist told she herself was ready.",
+            "The violinist told herself she was ready.",
+            "The violinist told herself ready is she."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：不能用 to 直接接 she was ready。",
+            "錯誤：反身代名詞 herself 位置不正確。",
+            "正確：told herself 後可以接完整敘述子句。",
+            "錯誤：子句應使用 she was ready 的直述語序。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "telling myself you're happier",
+          "pattern": [
+            {
+              "text": "[tell]",
+              "fixed": false
+            },
+            {
+              "text": "[myself/yourself/herself]",
+              "fixed": false
+            },
+            {
+              "text": "[(that) + clause]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：told herself 後可以接完整敘述子句。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "否定附加問句",
+          "meaning": "在肯定陳述後以簡短否定疑問確認。",
+          "usage": "想確認對方是否同意或狀態是否屬實時使用。",
+          "prompt": "情境： 你看到朋友已準備出門，想確認。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "You are ready, isn’t it?",
+            "You are ready, don’t you?",
+            "You are ready, aren’t you?",
+            "You are ready, are you not ready you?"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：主詞是 you，不是 it。",
+            "錯誤：前句用 are，附加問句應接 aren’t。",
+            "正確：You are ... , aren’t you? 以反問確認。",
+            "錯誤：附加問句結構重複且不自然。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "Aren't you?",
+          "pattern": [
+            {
+              "text": "[positive statement]",
+              "fixed": false
+            },
+            {
+              "text": "[, aren’t you?]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：歌詞獨立使用 Aren’t you? 來承接前文「you’re happier」，不是憑空出現。",
+          "explanation": "正確：You are ... , aren’t you? 以反問確認。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "there is/are + 名詞 + 關係子句",
+          "meaning": "說明有某些符合特定條件的人或事物。",
+          "usage": "介紹某地存在甚麼人，並補充他們的特徵時使用。",
+          "prompt": "情境： 社區中心有一些會教人畫畫的義工。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "There are volunteers which teaching painting here.",
+            "There are volunteers who teach painting here.",
+            "There is volunteers who teaches painting here.",
+            "There are volunteers who to teach painting here."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：人通常接 who/that，且缺乏限定動詞。",
+            "正確：there are + 人 + who teach 說明存在及特徵。",
+            "錯誤：複數 volunteers 應接 there are，且 teach 不加 -es。",
+            "錯誤：who 後應接 teach，不能直接接 to teach。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "there's others that deserve you",
+          "pattern": [
+            {
+              "text": "[there are]",
+              "fixed": false
+            },
+            {
+              "text": "[people]",
+              "fixed": false
+            },
+            {
+              "text": "[that/who + verb]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：歌詞有口語 there’s others（單複數不一致）；例句採用標準 there are。",
+          "explanation": "正確：there are + 人 + who teach 說明存在及特徵。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "be still in love with + 人",
+          "meaning": "表示即使時間過去，仍然愛著某人。",
+          "usage": "談持續未變的戀愛感情時使用。",
+          "prompt": "情境： 一對結婚二十年的伴侶仍然深愛對方。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "After twenty years, he still in love with his wife.",
+            "After twenty years, he is still love with his wife.",
+            "After twenty years, he is still in love with his wife.",
+            "After twenty years, he is still in love to his wife."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：缺少 be 動詞 is。",
+            "錯誤：in love 是固定名詞片語，不能省略 in。",
+            "正確：is still in love with 表示愛意延續。",
+            "錯誤：介系詞應用 with，不是 to。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "I am still in love with you",
+          "pattern": [
+            {
+              "text": "[subject]",
+              "fixed": false
+            },
+            {
+              "text": "[be + still]",
+              "fixed": false
+            },
+            {
+              "text": "[in love with + person]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：is still in love with 表示愛意延續。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "could + try + to-infinitive",
+          "meaning": "表示可以嘗試做某件事，但不保證一定成功。",
+          "usage": "提出較保留的選項或可能的努力時使用。",
+          "prompt": "情境： 你想修理舊收音機，但不確定能不能成功。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "I could try fix the old radio.",
+            "I could tried to fix the old radio.",
+            "I could try to fixing the old radio.",
+            "I could try to fix the old radio."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：try 後此處需接 to fix。",
+            "錯誤：could 後要用原形 try。",
+            "錯誤：to 後接原形 fix。",
+            "正確：could try to fix 是保留但願意嘗試的語氣。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "I could try to smile to hide the truth",
+          "pattern": [
+            {
+              "text": "[subject]",
+              "fixed": false
+            },
+            {
+              "text": "[could try to + base verb]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：could try to fix 是保留但願意嘗試的語氣。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "knew + would（過去視角的未來）",
+          "meaning": "從過去角度表示當時預期未來會發生的事。",
+          "usage": "回顧自己以前對某件後來事情的預測。",
+          "prompt": "情境： 你去年就知道那位年輕棋手有一天會贏比賽。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "Last year I knew she would won a match one day.",
+            "Last year I knew she would win a match one day.",
+            "Last year I knew would she win a match one day.",
+            "Last year I knew she will win the match one day."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：would 後接動詞原形 win。",
+            "正確：knew ... would win 是過去視角的未來。",
+            "錯誤：嵌入的敘述子句不能用 would she 的疑問語序。",
+            "錯誤：從過去視角轉述預期，通常使用 would 而非 will。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "I knew one day you'd fall for someone new",
+          "pattern": [
+            {
+              "text": "[I knew]",
+              "fixed": false
+            },
+            {
+              "text": "[(that) + subject + would + base verb]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：knew ... would win 是過去視角的未來。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "fall for + 人",
+          "meaning": "對某人產生戀愛感情。",
+          "usage": "說明慢慢喜歡上或愛上一個人時使用。",
+          "prompt": "情境： 電影角色慢慢愛上鄰居。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "In the film, he fell for his new neighbor.",
+            "In the film, he fall for his neighbor yesterday.",
+            "In the film, he fell his neighbor for.",
+            "In the film, he fell to his neighbor for love."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：fell for + 人 表示愛上某人。",
+            "錯誤：yesterday 應使用 fell 過去式。",
+            "錯誤：fell for 是不可拆成這種受詞順序。",
+            "錯誤：fell to ... for love 不是此片語。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "fall for someone new",
+          "pattern": [
+            {
+              "text": "[fall for]",
+              "fixed": false
+            },
+            {
+              "text": "[someone]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：fell for + 人 表示愛上某人。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "if + 現在式，主句 + will",
+          "meaning": "若未來某個可能情況發生，主句將採取某種行動。",
+          "usage": "談真實可能發生的未來條件時使用。",
+          "prompt": "情境： 如果明天下雨，樂隊就會在室內表演。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "If it will rain tomorrow, the band will play indoors.",
+            "If it rained tomorrow, the band will play indoors.",
+            "If it rains tomorrow, the band will play indoors.",
+            "If it rain tomorrow, the band will playing indoors."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：此類未來條件的 if 子句通常不用 will rain。",
+            "錯誤：rained 更像假設語氣，與 will 的搭配不一致。",
+            "正確：if it rains 對應 the band will play。",
+            "錯誤：主詞 it 要用 rains，will 後接 play 原形。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "if he breaks your heart like lovers do",
+          "pattern": [
+            {
+              "text": "[if + present simple]",
+              "fixed": false
+            },
+            {
+              "text": "[, will + base verb]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：歌詞的 if 子句與下一句的 will be waiting 連成同一個條件結果。",
+          "explanation": "正確：if it rains 對應 the band will play。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "like + 完整子句表示比較",
+          "meaning": "把某人的做法與另一類人的典型做法相比。",
+          "usage": "談行為方式相似時使用；與 as ... as 倍數比較不同。",
+          "prompt": "情境： 演員像真正的廚師那樣仔細切菜。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "The actor cut the vegetables like real chef to do.",
+            "The actor cut the vegetables like a real chef does.",
+            "The actor cut the vegetables like a real chef do.",
+            "The actor cut the vegetables like a real chef doing."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：缺少冠詞，to do 也無法完成比較子句。",
+            "正確：like + chef does 表示做法相同。",
+            "錯誤：單數 chef 應用 does。",
+            "錯誤：後面需要適當限定動詞 does。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "like lovers do",
+          "pattern": [
+            {
+              "text": "[verb phrase]",
+              "fixed": false
+            },
+            {
+              "text": "[like + subject + do/does]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：like + chef does 表示做法相同。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "will be + -ing 未來進行式",
+          "meaning": "表示未來某個時間仍在進行的動作。",
+          "usage": "承諾未來某時會正在做某事，或表達持續等待時使用。",
+          "prompt": "情境： 你告訴朋友明天下午三點你會在劇院門口等他。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "I will be waited outside the theatre at three.",
+            "I will be waiting outside the theatre at three.",
+            "I will be wait outside the theatre at three.",
+            "I will waiting outside the theatre at three."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：waited 不是未來進行式。",
+            "正確：will be waiting 表示到時正持續等待。",
+            "錯誤：be 後需接 waiting。",
+            "錯誤：未來進行式需要 be。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "I'll be waiting here for you",
+          "pattern": [
+            {
+              "text": "[subject]",
+              "fixed": false
+            },
+            {
+              "text": "[will be + verb-ing]",
+              "fixed": false
+            },
+            {
+              "text": "[place/time]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：will be waiting 表示到時正持續等待。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "just + 祈使動詞 + that 子句",
+          "meaning": "以溫和而直接的語氣請對方記住一個訊息。",
+          "usage": "希望對方理解或牢記某件事情時使用。",
+          "prompt": "情境： 老師要學生記住，不懂問題可以問他。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "Just know that can you ask me for help.",
+            "Just knowing that you can ask me for help.",
+            "Just know to you can ask me for help.",
+            "Just know that you can ask me for help."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：that 子句使用 you can 而非 can you 的疑問語序。",
+            "錯誤：這裡要求的是祈使原形 know。",
+            "錯誤：to you 不能這樣連接完整子句。",
+            "正確：Just know that 後接完整陳述子句。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "Just know that I'll be waiting here for you",
+          "pattern": [
+            {
+              "text": "[Just]",
+              "fixed": false
+            },
+            {
+              "text": "[base verb]",
+              "fixed": false
+            },
+            {
+              "text": "[that + complete clause]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Just know that 後接完整陳述子句。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        }
+      ]
     }
   },
   "extensionProvenance": [
@@ -2901,6 +4095,11 @@
       "section": "advanced",
       "filename": "Happier_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
       "sha256": "7000778fdf38cbf5b3fcc0e746f2ed1d5f46471383143f383786372b1fc35b69"
+    },
+    {
+      "section": "structure",
+      "filename": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "c6adca396c0e56a6abf76edc4e4bb03799a06b2ca42be66c9b8872e5fada98a7"
     }
   ]
 }
