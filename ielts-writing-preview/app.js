@@ -457,6 +457,7 @@
 
   function renderAdminHead() {
     const head = $('task2-head');
+    $('panel-task2').style.setProperty('--admin-table-min-width', `${725 + 190 * adminSlots.length}px`);
     for (const extra of head.querySelectorAll('.student-column-head:not(#type-head)')) extra.remove();
     if (!adminSession.token) { $('type-head').classList.remove('student-column-head'); $('type-head').replaceChildren(node('span', 'visually-hidden', '題型選擇')); return; }
     const makeHead = (index) => {
@@ -561,7 +562,7 @@
       idCell.append(node('span', 'row-id', item.id), node('span', 'topic', item.topic));
       const audioCell = node('td', 'audio-cell');
       audioCell.append(audioButton('task2', item));
-      const promptCell = node('td');
+      const promptCell = node('td', 'prompt-cell');
       const question = node('p', 'question');
       const lines = promptLines(item.en);
       lines.forEach((line, index) => question.append(node('span', index ? 'prompt-task-line' : 'prompt-context-line', line + (index < lines.length - 1 ? ' ' : ''))));
@@ -575,6 +576,7 @@
       if (adminSession.token) {
         for (let index = 0; index < adminSlots.length; index++) {
           const cell = node('td');
+          cell.dataset.studentLabel = `Student ${index + 1}`;
           const answer = node('span', 'student-answer is-empty', '—');
           answer.dataset.slot = String(index);
           cell.append(answer);
@@ -633,6 +635,15 @@
 
   async function start() {
     applyAccessGate(false);
+    const readingControls = document.querySelector('.reading-controls');
+    const desktopControlsHost = document.querySelector('.prompt-heading');
+    const mobileControlsHost = $('mobile-reading-controls');
+    const placeReadingControls = () => {
+      const host = window.matchMedia('(max-width: 1100px)').matches ? mobileControlsHost : desktopControlsHost;
+      if (readingControls.parentElement !== host) host.append(readingControls);
+    };
+    placeReadingControls();
+    window.addEventListener('resize', placeReadingControls);
     const speed = $('playback-speed');
     const size = $('text-size');
     const speedValues = ['0.25', '0.5', '0.75', '1', '1.25', '1.5', '1.75', '2', '2.25', '2.5', '2.75', '3'];

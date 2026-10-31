@@ -241,7 +241,7 @@ thead th:first-child { width: 15%; }
 #panel-task2 thead th:nth-child(2) { width: 10%; }
 #panel-task2 thead th:nth-child(3) { width: 57%; }
 #panel-task2 thead th:nth-child(4) { width: 22%; }
-#panel-task2.is-admin table { width: max-content; min-width: 100%; table-layout: auto; }
+#panel-task2.is-admin table { width: max(100%, var(--admin-table-min-width, 915px)); table-layout: fixed; }
 #panel-task2.is-admin thead th:nth-child(1) { min-width: 125px; width: 125px; }
 #panel-task2.is-admin thead th:nth-child(2) { min-width: 120px; width: 120px; }
 #panel-task2.is-admin thead th:nth-child(3) { min-width: 480px; width: 480px; }
@@ -260,6 +260,7 @@ tbody tr[hidden] { display: none; }
 .question { margin: 0; color: #292e2f; font-family: Georgia, "Noto Serif TC", serif; font-size: calc(1.07rem * var(--question-scale, 1)); line-height: 1.65; }
 #panel-task2 .row-id, #panel-task2 .topic { color: #b7b7b7; }
 #panel-task2 .question { font-size: calc(1.25rem * var(--question-scale, 1)); }
+#panel-task2 .prompt-cell, #panel-task2 .question { min-width: 0; max-width: 100%; white-space: normal; overflow-wrap: anywhere; }
 #panel-task2 .question > span { display: block; }
 #panel-task2 .question > span + span { margin-top: .45em; }
 #panel-task2 .prompt-task-line { font-weight: 600; }
@@ -294,6 +295,7 @@ tbody tr[hidden] { display: none; }
 .highlight-dialog-actions button:last-child { border-color: #a64a3b; color: #fff; background: #a64a3b; }
 .prompt-heading { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
 .reading-controls { display: inline-flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.mobile-reading-controls { display: none; }
 .reading-control { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
 .reading-control__label { color: #65706d; font-size: .74rem; font-weight: 800; letter-spacing: 0; }
 .reading-control__trigger { min-width: 71px; min-height: 34px; display: inline-flex; align-items: center; justify-content: space-between; gap: 10px; padding: 5px 9px 5px 12px; border: 1px solid #b9c1bd; border-radius: 10px; color: #303b38; background: linear-gradient(145deg, #fff, #edf1ee); box-shadow: 0 2px 5px rgba(43,52,48,.07); font-size: .82rem; font-weight: 850; }
@@ -416,6 +418,24 @@ dialog::backdrop { background: rgba(23,27,28,.65); backdrop-filter: blur(5px); }
 
 :is(.tab,.menu-trigger,.translation-toggle,.answer-trigger,.reading-control__trigger,.diagram-button,.dialog-close,.question-audio):focus-visible,
 .table-scroll:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+
+@media (max-width: 1100px) {
+  .mobile-reading-controls { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin: -2px 0 14px; padding: 11px 13px; border: 1px solid #d0d6d2; border-radius: 12px; background: #eff2ef; }
+  .mobile-reading-controls__label { color: #53605a; font-size: .78rem; font-weight: 850; white-space: nowrap; }
+  #panel-task2.is-admin .table-scroll { overflow-x: hidden; }
+  #panel-task2.is-admin table,
+  #panel-task2.is-admin tbody,
+  #panel-task2.is-admin tr,
+  #panel-task2.is-admin td { display: block; width: 100%; min-width: 0; max-width: 100%; }
+  #panel-task2.is-admin table { table-layout: auto; }
+  #panel-task2.is-admin thead { position: absolute; left: -9999px; }
+  #panel-task2.is-admin tbody tr { padding: 17px; border-bottom: 1px solid var(--line); }
+  #panel-task2.is-admin tbody td { padding: 0; border: 0; }
+  #panel-task2.is-admin tbody td + td { margin-top: 11px; }
+  #panel-task2.is-admin .audio-cell { text-align: left; }
+  #panel-task2.is-admin tbody td[data-student-label] { padding: 10px 12px; border: 1px solid #d8dfda; border-radius: 10px; background: #f3f5f3; }
+  #panel-task2.is-admin tbody td[data-student-label]::before { content: attr(data-student-label); display: block; margin-bottom: 3px; color: #66706b; font-size: .72rem; font-weight: 850; }
+}
 
 @media (max-width: 700px) {
   .login-gate { min-height: 0; margin-top: 0; grid-template-columns: 1fr; gap: 20px; padding: 22px; }

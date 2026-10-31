@@ -10,11 +10,11 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="/shared-system-nav.css">
-  <link rel="stylesheet" href="/ielts-writing-preview/style.css?v=20261031-4">
+  <link rel="stylesheet" href="/ielts-writing-preview/style.css?v=20261031-5">
   <script defer src="/supabase-config.js"></script>
   <script defer src="/pwa-register.js"></script>
   <script defer src="/shared-system-nav.js"></script>
-  <script defer src="/ielts-writing-preview/app.js?v=20261031-4"></script>
+  <script defer src="/ielts-writing-preview/app.js?v=20261031-5"></script>
   <script type="module" src="/ielts-writing-preview/highlighter.mjs?v=20261031-1"></script>
 </head>
 <body>
@@ -63,6 +63,7 @@
         <button id="highlight-clear" class="highlight-clear" type="button">清除全部標記</button>
         <span id="highlight-status" class="visually-hidden" role="status" aria-live="polite"></span>
       </div>
+      <div id="mobile-reading-controls" class="mobile-reading-controls"><span class="mobile-reading-controls__label">題目設定</span></div>
       <div class="table-scroll" id="task2-scroll" tabindex="0" aria-label="Task 2 作文題目列表"><table><thead><tr id="task2-head"><th scope="col">編號 / 主題</th><th scope="col">聆聽題目</th><th scope="col"><div class="prompt-heading"><span>完整作文題目</span><span class="reading-controls"><span class="reading-control"><span class="reading-control__label">速度</span><button id="playback-speed" class="reading-control__trigger" type="button" data-value="1" aria-label="題目播放速度" aria-haspopup="menu" aria-expanded="false"><span class="reading-control__value">1×</span><span class="menu-chevron" aria-hidden="true"></span></button></span><span class="reading-control"><span class="reading-control__label">文字</span><button id="text-size" class="reading-control__trigger" type="button" data-value="1" aria-label="題目文字大小" aria-haspopup="menu" aria-expanded="false"><span class="reading-control__value">1×</span><span class="menu-chevron" aria-hidden="true"></span></button></span></span></div></th><th scope="col" id="type-head"><span class="visually-hidden">題型選擇</span></th></tr></thead><tbody id="task2-rows"></tbody></table></div>
     </section>
     </div>

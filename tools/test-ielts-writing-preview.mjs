@@ -92,6 +92,10 @@ assert.match(highlighter, /questionFor\(range\.endContainer\) !== question/, 'An
 assert.match(style, /#panel-task2 thead th:nth-child\(4\) \{ width: 22%; \}/, 'The choice column is narrower');
 assert.match(style, /#panel-task2 \.row-id, #panel-task2 \.topic \{ color: #b7b7b7; \}/, 'Question codes use the requested muted gray');
 assert.match(style, /#panel-task2 \.question \{ font-size: calc\(1\.25rem/, 'Essay prompts have a stronger type hierarchy');
+assert.match(style, /#panel-task2\.is-admin table \{ width: max\(100%, var\(--admin-table-min-width/, 'Admin prompts use a bounded table width rather than max-content');
+assert.match(style, /@media \(max-width: 1100px\)/, 'iPad-width admin results use a responsive layout');
+assert.match(style, /#panel-task2\.is-admin tbody td\[data-student-label\]/, 'Student answer columns have labels when stacked');
+assert.match(page, /id="mobile-reading-controls"/, 'Reading controls remain visible when the table header is hidden');
 assert.match(page, /id="playback-speed"/, 'The prompt header has a playback-speed control');
 assert.match(page, /id="text-size"/, 'The prompt header has a text-size control');
 assert.doesNotMatch(page, /<select id="(?:playback-speed|text-size)"/, 'Reading controls use styled menus rather than native select lists');
