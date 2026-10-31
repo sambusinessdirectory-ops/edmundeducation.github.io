@@ -49,6 +49,20 @@ const links = [...homepage.matchAll(/<a[^>]*class="category [^>]*href="([^"]+)"/
 assert.equal(links[76], 'ielts-writing-question-preview.html', 'Card 77 opens the new preview');
 assert.equal(links.length, 78, 'All existing cards remain present');
 assert.match(app, /translationsShown = false/, 'Translations start hidden');
+const promptLinesSource = app.match(/  function promptLines\(text\) \{[\s\S]*?\n  \}/)?.[0];
+assert.ok(promptLinesSource, 'Task 2 prompt line formatter exists');
+const promptLines = new Function(`${promptLinesSource}; return promptLines;`)();
+for (const item of task2) {
+  const lines = promptLines(item.en);
+  assert.equal(lines.join(' '), item.en, `${item.id} line breaks preserve the original question exactly`);
+  assert.ok(lines.length >= 1, `${item.id} has at least one display line`);
+  if (item.id !== 'T2-120') assert.ok(lines.length >= 2, `${item.id} puts its final task on a new line`);
+  for (const line of lines.slice(1)) assert.match(line, /\?$|^Discuss\b/, `${item.id} has a standalone question or task line`);
+}
+assert.deepEqual(promptLines(task2[2].en).slice(1), [
+  'Why do you think that is?',
+  'What could be done to encourage more people to take interest in the arts?'
+], 'Two final questions each receive their own line');
 assert.match(app, /safeStorage\('localStorage'\)\?\.setItem\(activeStorageKey/, 'Dropdown choices persist on this device');
 assert.match(app, /edmund-universal-student-session-v1/, 'Signed-in students have separate saved choices');
 assert.match(app, /storage\.removeItem\(LEGACY_STORAGE_KEY\)/, 'Existing saved choices migrate without loss');
@@ -80,6 +94,9 @@ assert.match(style, /#panel-task2 \.row-id, #panel-task2 \.topic \{ color: #b7b7
 assert.match(style, /#panel-task2 \.question \{ font-size: calc\(1\.25rem/, 'Essay prompts have a stronger type hierarchy');
 assert.match(page, /id="playback-speed"/, 'The prompt header has a playback-speed control');
 assert.match(page, /id="text-size"/, 'The prompt header has a text-size control');
+assert.doesNotMatch(page, /<select id="(?:playback-speed|text-size)"/, 'Reading controls use styled menus rather than native select lists');
+assert.match(page, /id="type-head"><span class="visually-hidden">題型選擇<\/span>/, 'The repeated choice-column heading is visually hidden');
+assert.match(style, /\.choice-menu\.is-compact/, 'Speed and size menus have a compact custom design');
 assert.match(page, /<th scope="col">聆聽題目<\/th><th scope="col"><div class="prompt-heading">/, 'Audio has its own column before the prompt');
 assert.match(app, /window\.setInterval\(\(\) => \{ void refreshAdmin\(\); \}, 2000\)/, 'Admin presence and answers refresh every two seconds');
 assert.match(app, /adminSlots\.length < 10/, 'The admin table has at most ten student columns');

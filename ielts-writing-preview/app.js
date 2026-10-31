@@ -25,6 +25,13 @@
     return element;
   };
   const quizPrompt = (item) => item.quizPrompt || item.prompt;
+  function promptLines(text) {
+    const sentences = text.split(/(?<=[.!?])\s+(?=[A-Z])/u);
+    let firstTask = sentences.length;
+    while (firstTask > 0 && (sentences[firstTask - 1].endsWith('?') || /^Discuss\b/i.test(sentences[firstTask - 1]))) firstTask--;
+    if (firstTask === sentences.length) return [text];
+    return [...(firstTask ? [sentences.slice(0, firstTask).join(' ')] : []), ...sentences.slice(firstTask)];
+  }
 
   const readStoredObject = (storage, key) => {
     try {
@@ -207,12 +214,13 @@
     const trigger = activeMenuTrigger;
     activeMenuTrigger = null;
     menu.hidden = true;
+    menu.classList.remove('is-compact');
     menu.replaceChildren();
     trigger.setAttribute('aria-expanded', 'false');
     if (restoreFocus) trigger.focus();
   }
 
-  function openMenu(trigger, options, selected, choose, multiple = false) {
+  function openMenu(trigger, options, selected, choose, multiple = false, compact = false) {
     if (activeMenuTrigger === trigger) { closeMenu(); return; }
     closeMenu();
     menu.replaceChildren();
@@ -236,11 +244,12 @@
       menu.append(item);
     }
     activeMenuTrigger = trigger;
+    menu.classList.toggle('is-compact', compact);
     trigger.setAttribute('aria-expanded', 'true');
     menu.hidden = false;
     const rect = trigger.getBoundingClientRect();
     const viewportWidth = document.documentElement.clientWidth;
-    const width = Math.min(Math.max(rect.width, 282), viewportWidth - 24);
+    const width = Math.min(Math.max(rect.width, compact ? 132 : 282), viewportWidth - 24);
     menu.style.width = `${width}px`;
     menu.style.left = `${Math.max(12, Math.min(rect.left, viewportWidth - width - 12))}px`;
     menu.style.maxHeight = `${Math.min(360, Math.max(180, window.innerHeight - 32))}px`;
@@ -449,7 +458,7 @@
   function renderAdminHead() {
     const head = $('task2-head');
     for (const extra of head.querySelectorAll('.student-column-head:not(#type-head)')) extra.remove();
-    if (!adminSession.token) { $('type-head').classList.remove('student-column-head'); $('type-head').textContent = '選擇題型'; return; }
+    if (!adminSession.token) { $('type-head').classList.remove('student-column-head'); $('type-head').replaceChildren(node('span', 'visually-hidden', '題型選擇')); return; }
     const makeHead = (index) => {
       const th = index === 0 ? $('type-head') : node('th', 'student-column-head');
       th.className = 'student-column-head';
@@ -553,7 +562,9 @@
       const audioCell = node('td', 'audio-cell');
       audioCell.append(audioButton('task2', item));
       const promptCell = node('td');
-      const question = node('p', 'question', item.en);
+      const question = node('p', 'question');
+      const lines = promptLines(item.en);
+      lines.forEach((line, index) => question.append(node('span', index ? 'prompt-task-line' : 'prompt-context-line', line + (index < lines.length - 1 ? ' ' : ''))));
       question.lang = 'en';
       promptCell.append(question);
       const translation = node('p', 'translation', item.zh);
@@ -624,20 +635,25 @@
     applyAccessGate(false);
     const speed = $('playback-speed');
     const size = $('text-size');
+    const speedValues = ['0.25', '0.5', '0.75', '1', '1.25', '1.5', '1.75', '2', '2.25', '2.5', '2.75', '3'];
+    const sizeValues = ['0.5', '1', '1.5', '2', '2.5', '3', '3.5', '4', '4.5', '5'];
+    const setControl = (button, value) => { button.dataset.value = value; button.querySelector('.reading-control__value').textContent = `${value}×`; };
     const savedSpeed = safeStorage('localStorage')?.getItem(SPEED_KEY);
     const savedSize = safeStorage('localStorage')?.getItem(SIZE_KEY);
-    if ([...speed.options].some((option) => option.value === savedSpeed)) speed.value = savedSpeed;
-    if ([...size.options].some((option) => option.value === savedSize)) size.value = savedSize;
-    questionAudio.playbackRate = Number(speed.value);
-    $('panel-task2').style.setProperty('--question-scale', size.value);
-    speed.addEventListener('change', () => {
-      questionAudio.playbackRate = Number(speed.value);
-      try { safeStorage('localStorage')?.setItem(SPEED_KEY, speed.value); } catch { /* Preference is optional. */ }
-    });
-    size.addEventListener('change', () => {
-      $('panel-task2').style.setProperty('--question-scale', size.value);
-      try { safeStorage('localStorage')?.setItem(SIZE_KEY, size.value); } catch { /* Preference is optional. */ }
-    });
+    setControl(speed, speedValues.includes(savedSpeed) ? savedSpeed : '1');
+    setControl(size, sizeValues.includes(savedSize) ? savedSize : '1');
+    questionAudio.playbackRate = Number(speed.dataset.value);
+    $('panel-task2').style.setProperty('--question-scale', size.dataset.value);
+    speed.addEventListener('click', () => openMenu(speed, speedValues.map((value) => ({ value, label: `${value}×` })), speed.dataset.value, (value) => {
+      setControl(speed, value);
+      questionAudio.playbackRate = Number(value);
+      try { safeStorage('localStorage')?.setItem(SPEED_KEY, value); } catch { /* Preference is optional. */ }
+    }, false, true));
+    size.addEventListener('click', () => openMenu(size, sizeValues.map((value) => ({ value, label: `${value}×` })), size.dataset.value, (value) => {
+      setControl(size, value);
+      $('panel-task2').style.setProperty('--question-scale', value);
+      try { safeStorage('localStorage')?.setItem(SIZE_KEY, value); } catch { /* Preference is optional. */ }
+    }, false, true));
     $('login-open').addEventListener('click', () => {
       $('login-error').hidden = true;
       $('login-password').value = '';
