@@ -13,6 +13,7 @@ const style = read('ielts-writing-preview/style.css');
 const highlighter = read('ielts-writing-preview/highlighter.mjs');
 const liveSchema = read('supabase-ielts-writing-preview-live-20261031.sql');
 const typeSchema = read('supabase-ielts-preview-type-labels-20261031.sql');
+const feedbackSchema = read('supabase-ielts-preview-student-feedback-20261031.sql');
 const typeKey = JSON.parse(read('tools/ielts-task2-answer-key.json'));
 const imageUrlSource = app.match(/^  const imageUrl = (.+);$/m)?.[1];
 assert.ok(imageUrlSource, 'Task 1 image URL resolver exists');
@@ -54,7 +55,7 @@ for (const item of task2) {
 }
 const links = [...homepage.matchAll(/<a[^>]*class="category [^>]*href="([^"]+)"/g)].map((match) => match[1]);
 assert.equal(links[76], 'ielts-writing-question-preview.html', 'Card 77 opens the new preview');
-assert.equal(links.length, 78, 'All existing cards remain present');
+assert.equal(links.length, 79, 'All existing cards remain present');
 assert.match(app, /translationsShown = false/, 'Translations start hidden');
 const promptLinesSource = app.match(/  function promptLines\(text\) \{[\s\S]*?\n  \}/)?.[0];
 assert.ok(promptLinesSource, 'Task 2 prompt line formatter exists');
@@ -119,6 +120,12 @@ assert.match(app, /ielts_preview_admin_snapshot/, 'Admin columns use the protect
 assert.match(page, /id="admin-labels-toggle"[^>]+hidden/, 'Only signed-in admins can open label editing');
 assert.match(app, /ielts_preview_admin_type_labels/, 'Admin label edits use the protected shared RPC');
 assert.match(typeSchema, /revoke all on ielts_preview_private\.type_labels from public, anon, authenticated/, 'Answer key is not directly available to students');
+assert.match(feedbackSchema, /public\.flashcard_session_student_id\(p_token\)/, 'Feedback requires a valid student session');
+assert.match(feedbackSchema, /where a\.student_id = v_student/, 'Feedback covers only the signed-in student’s saved answers');
+assert.match(feedbackSchema, /join ielts_preview_private\.type_labels/, 'Correct types come from the private answer key');
+assert.match(app, /class="task2-feedback"|node\('p', 'task2-feedback'\)/, 'Task 2 shows feedback directly below each selected choice');
+assert.match(app, /EdmundAnswerSound\?\.play\(result\.correct === true\)/, 'Right and wrong choices trigger the matching sound');
+assert.doesNotMatch(page, /T2-001.{0,100}Opinions/, 'The static page does not publish the answer key');
 const searchFunction = app.match(/  function matchesQuestionSearch\(row, search, prefix\) \{[\s\S]*?\n  \}/)?.[0];
 assert.ok(searchFunction, 'Exact question-number search exists');
 const matchesQuestionSearch = new Function(`${searchFunction}; return matchesQuestionSearch;`)();

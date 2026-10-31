@@ -358,6 +358,21 @@ tbody tr[hidden] { display: none; }
 .answer-trigger.is-selected .answer-marker { color: #596264; }
 .answer-label { min-width: 0; flex: 1; }
 .answer-trigger .menu-chevron { margin-left: auto; }
+.task2-feedback {
+  margin: 8px 0 0;
+  padding: 10px 12px;
+  border: 1px solid #cbd1ce;
+  border-radius: 10px;
+  color: #4f5a57;
+  background: #f2f4f2;
+  font-size: .82rem;
+  font-weight: 750;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+.task2-feedback[hidden] { display: none; }
+.task2-feedback.is-correct { border-color: #a5cbb5; color: #235a3d; background: #edf7f0; }
+.task2-feedback.is-wrong { border-color: #dfb5ae; color: #913f36; background: #fff1ed; }
 .choice-menu {
   position: fixed;
   z-index: 1500;

@@ -63,6 +63,11 @@
   }
   let activeStorageKey = storageKey();
   let savedTypes = readSavedTypes(activeStorageKey);
+  let task2Results = {};
+  const pendingFeedbackSounds = new Set();
+  let feedbackUnavailable = false;
+  let feedbackRequest = 0;
+  let lastFeedbackFetch = 0;
   let savedTask1 = readStoredObject(safeStorage('localStorage'), `${activeStorageKey}:task1`);
   let task1 = [];
   let task2 = [];
@@ -159,6 +164,7 @@
       refreshTask2Buttons();
       updateTask2Count();
       applyAccessGate(true);
+      void loadStudentFeedback(student, next);
       void flushPendingChoices();
     }).catch((error) => {
       if (studentOwner === next) {
@@ -171,6 +177,28 @@
       }
       /* Local choices remain available; next visible heartbeat retries. */
     });
+  }
+
+  async function loadStudentFeedback(student, owner = studentOwner, soundQuestionId = '') {
+    const request = ++feedbackRequest;
+    try {
+      const data = await rpc('ielts_preview_student_feedback', { p_token: student.token });
+      if (adminSession.token || owner !== studentOwner || request !== feedbackRequest) return;
+      task2Results = data.results && typeof data.results === 'object' ? data.results : {};
+      feedbackUnavailable = false;
+      lastFeedbackFetch = Date.now();
+      refreshTask2Feedback();
+      if (!soundQuestionId || !pendingFeedbackSounds.has(soundQuestionId)) return;
+      const result = task2Results[soundQuestionId];
+      if (result && result.selected === savedTypes[soundQuestionId]) {
+        pendingFeedbackSounds.delete(soundQuestionId);
+        window.EdmundAnswerSound?.play(result.correct === true);
+      }
+    } catch {
+      if (adminSession.token || owner !== studentOwner || request !== feedbackRequest) return;
+      feedbackUnavailable = true;
+      refreshTask2Feedback();
+    }
   }
 
   async function flushPendingChoices() {
@@ -187,6 +215,8 @@
           p_token: student.token, p_device: deviceId, p_question_id: questionId, p_answer: answer
         });
         if (pendingChoices.get(questionId) === answer) pendingChoices.delete(questionId);
+        if (answer) await loadStudentFeedback(student, studentOwner, questionId);
+        else pendingFeedbackSounds.delete(questionId);
       }
     } catch { /* Keep pending choices for retry. */ }
     finally { studentBusy = false; }
@@ -198,7 +228,12 @@
     const student = studentSession();
     if (!student) return;
     if (pendingChoices.size) { void flushPendingChoices(); return; }
-    try { await rpc('ielts_preview_student_sync', { p_token: student.token, p_device: deviceId }); }
+    try {
+      await rpc('ielts_preview_student_sync', { p_token: student.token, p_device: deviceId });
+      if (Date.now() - lastFeedbackFetch > 60000 || Object.entries(savedTypes).some(([id, value]) => TYPES.includes(value) && task2Results[id]?.selected !== value)) {
+        await loadStudentFeedback(student);
+      }
+    }
     catch { /* The next heartbeat retries without losing local choices. */ }
   }
 
@@ -206,6 +241,24 @@
     if (adminSession.token) return;
     for (const button of document.querySelectorAll('#task2-rows .answer-trigger')) {
       setAnswerButton(button, TYPES.includes(savedTypes[button.dataset.questionId]) ? savedTypes[button.dataset.questionId] : '');
+    }
+    refreshTask2Feedback();
+  }
+
+  function refreshTask2Feedback() {
+    if (adminSession.token) return;
+    for (const feedback of document.querySelectorAll('#task2-rows .task2-feedback')) {
+      const id = feedback.dataset.questionId;
+      const selected = savedTypes[id];
+      const result = task2Results[id];
+      feedback.hidden = !TYPES.includes(selected);
+      if (feedback.hidden) continue;
+      const checked = result?.selected === selected && TYPES.includes(result.answer);
+      feedback.classList.toggle('is-correct', checked && result.correct === true);
+      feedback.classList.toggle('is-wrong', checked && result.correct === false);
+      feedback.textContent = checked
+        ? result.correct === true ? `✓ 答對 · 正確答案：${result.answer}` : `✕ 答錯 · 正確答案：${result.answer}`
+        : feedbackUnavailable ? '暫時無法核對答案，稍後會自動重試。' : '正在核對答案…';
     }
   }
 
@@ -344,10 +397,16 @@
     if (nextKey === activeStorageKey) return;
     activeStorageKey = nextKey;
     savedTypes = readSavedTypes(nextKey);
+    task2Results = {};
+    pendingFeedbackSounds.clear();
+    feedbackUnavailable = false;
+    feedbackRequest++;
+    lastFeedbackFetch = 0;
     savedTask1 = readStoredObject(safeStorage('localStorage'), `${nextKey}:task1`);
     for (const button of document.querySelectorAll('#task2-rows .answer-trigger')) {
       setAnswerButton(button, TYPES.includes(savedTypes[button.dataset.questionId]) ? savedTypes[button.dataset.questionId] : '');
     }
+    refreshTask2Feedback();
     refreshTask1Buttons();
     updateTask1Count();
     updateTask2Count();
@@ -698,6 +757,12 @@
         trigger.setAttribute('aria-expanded', 'false');
         trigger.append(node('span', 'answer-marker', '●'), node('span', 'answer-label'), node('span', 'menu-chevron'));
         setAnswerButton(trigger, TYPES.includes(savedTypes[item.id]) ? savedTypes[item.id] : '');
+        const feedback = node('p', 'task2-feedback');
+        feedback.dataset.questionId = item.id;
+        feedback.id = `task2-feedback-${item.id}`;
+        feedback.setAttribute('role', 'status');
+        feedback.setAttribute('aria-live', 'polite');
+        trigger.setAttribute('aria-describedby', feedback.id);
         trigger.addEventListener('click', () => openMenu(trigger, [
           { value: '', label: '清除選擇' },
           ...TYPES.map((type) => ({ value: type, label: type }))
@@ -705,17 +770,22 @@
           refreshStorageOwner();
           if (value) savedTypes[item.id] = value;
           else delete savedTypes[item.id];
+          if (value) pendingFeedbackSounds.add(item.id);
+          else pendingFeedbackSounds.delete(item.id);
+          feedbackUnavailable = false;
           setAnswerButton(trigger, value);
+          refreshTask2Feedback();
           updateTask2Count();
           try { safeStorage('localStorage')?.setItem(activeStorageKey, JSON.stringify(savedTypes)); } catch { /* private browsing */ }
           if (studentSession()) { pendingChoices.set(item.id, value); void flushPendingChoices(); }
         }));
-        typeCell.append(trigger);
+        typeCell.append(trigger, feedback);
         row.append(typeCell);
       }
       fragment.append(row);
     }
     rows.replaceChildren(fragment);
+    refreshTask2Feedback();
     if (adminSession.token) renderAdminAnswers();
     filterTask2();
   }
