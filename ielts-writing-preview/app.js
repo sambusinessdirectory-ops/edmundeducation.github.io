@@ -66,6 +66,7 @@
   let task2Topic = '';
   let activeMenuTrigger = null;
   const menu = $('choice-menu');
+  let accessVerified = false;
   const uuidPattern = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
   const sessionStore = safeStorage('sessionStorage');
   let deviceId = sessionStore?.getItem(DEVICE_KEY);
@@ -109,10 +110,20 @@
 
   function refreshAccountUI() {
     const student = studentSession();
-    $('account-label').textContent = adminSession.token ? `管理員 · ${adminSession.name}` : student ? `學生 · ${student.name}` : '';
-    $('logout-button').hidden = !adminSession.token && !student;
-    $('login-open').textContent = adminSession.token || student ? '切換帳戶' : '登入';
+    $('account-label').textContent = accessVerified ? (adminSession.token ? `管理員 · ${adminSession.name}` : student ? `學生 · ${student.name}` : '') : '';
+    $('logout-button').hidden = !accessVerified;
+    $('login-open').textContent = accessVerified ? '切換帳戶' : '登入';
     $('panel-task2').classList.toggle('is-admin', Boolean(adminSession.token));
+  }
+
+  function applyAccessGate(verified) {
+    accessVerified = Boolean(verified);
+    $('learning-content').hidden = !accessVerified;
+    $('login-gate').hidden = accessVerified;
+    const form = $('login-form');
+    const host = accessVerified ? $('login-dialog') : $('gate-form-host');
+    if (form.parentElement !== host) host.append(form);
+    refreshAccountUI();
   }
 
   function syncStudentOwner() {
@@ -133,9 +144,18 @@
       savedTypes = { ...savedTypes, ...data.answers };
       try { safeStorage('localStorage')?.setItem(activeStorageKey, JSON.stringify(savedTypes)); } catch { /* Keep in memory. */ }
       refreshTask2Buttons();
+      updateTask2Count();
+      applyAccessGate(true);
       void flushPendingChoices();
-    }).catch(() => {
-      if (studentOwner === next) studentOwner = '';
+    }).catch((error) => {
+      if (studentOwner === next) {
+        studentOwner = '';
+        if (error.status === 401 || error.status === 403 || error.code === '28000') {
+          window.EdmundSystemNav?.forgetStudentSession?.();
+          sessionStore?.removeItem('edmund-universal-student-session-v1');
+          applyAccessGate(false);
+        }
+      }
       /* Local choices remain available; next visible heartbeat retries. */
     });
   }
@@ -173,6 +193,13 @@
     for (const button of document.querySelectorAll('#task2-rows .answer-trigger')) {
       setAnswerButton(button, TYPES.includes(savedTypes[button.dataset.questionId]) ? savedTypes[button.dataset.questionId] : '');
     }
+  }
+
+  function updateTask2Count() {
+    if (!task2.length) return;
+    const answers = adminSession.token ? (adminAnswers[adminSlots.find(Boolean)] || {}) : savedTypes;
+    const answered = task2.reduce((total, item) => total + Number(TYPES.includes(answers[item.id])), 0);
+    $('task2-count').textContent = `${answered} / ${task2.length} 題`;
   }
 
   function closeMenu(restoreFocus = false) {
@@ -293,6 +320,7 @@
       setAnswerButton(button, TYPES.includes(savedTypes[button.dataset.questionId]) ? savedTypes[button.dataset.questionId] : '');
     }
     refreshTask1Buttons();
+    updateTask2Count();
     closeMenu();
   }
 
@@ -446,7 +474,7 @@
       const select = node('select'); select.setAttribute('aria-label', `Student ${index + 1} 在線帳戶`);
       select.dataset.slot = String(index);
       fillStudentSelect(select, adminSlots[index]);
-      select.addEventListener('change', () => { adminSlots[index] = select.value; renderAdminAnswers(); void refreshAdmin(); });
+      select.addEventListener('change', () => { adminSlots[index] = select.value; renderAdminAnswers(); updateTask2Count(); void refreshAdmin(); });
       box.append(top, select);
       th.replaceChildren(box);
       if (index > 0) head.append(th);
@@ -474,6 +502,7 @@
         element.classList.toggle('is-empty', !value);
       });
     }
+    updateTask2Count();
   }
 
   async function refreshAdmin() {
@@ -488,6 +517,7 @@
       const before = JSON.stringify(onlineStudents);
       onlineStudents = Array.isArray(data.students) ? data.students : [];
       adminAnswers = data.answers && typeof data.answers === 'object' ? data.answers : {};
+      applyAccessGate(true);
       if (JSON.stringify(onlineStudents) !== before) {
         for (const select of document.querySelectorAll('.student-head select')) {
           if (select === document.activeElement) continue;
@@ -503,7 +533,7 @@
         try { sessionStore?.removeItem(ADMIN_SESSION_KEY); } catch { /* private browsing */ }
         onlineStudents = [];
         adminAnswers = {};
-        refreshAccountUI();
+        applyAccessGate(false);
         renderTask2();
       }
     } finally { adminBusy = false; }
@@ -557,6 +587,7 @@
           if (value) savedTypes[item.id] = value;
           else delete savedTypes[item.id];
           setAnswerButton(trigger, value);
+          updateTask2Count();
           try { safeStorage('localStorage')?.setItem(activeStorageKey, JSON.stringify(savedTypes)); } catch { /* private browsing */ }
           if (studentSession()) { pendingChoices.set(item.id, value); void flushPendingChoices(); }
         }));
@@ -583,15 +614,14 @@
   function filterTask2() {
     const search = $('task2-search').value.trim().toLocaleLowerCase();
     const topic = task2Topic;
-    let visible = 0;
     for (const row of $('task2-rows').rows) {
       row.hidden = !(row.dataset.search.includes(search) && (!topic || row.dataset.topic === topic));
-      if (!row.hidden) visible++;
     }
-    $('task2-count').textContent = `${visible} / ${task2.length} 題`;
+    updateTask2Count();
   }
 
   async function start() {
+    applyAccessGate(false);
     const speed = $('playback-speed');
     const size = $('text-size');
     const savedSpeed = safeStorage('localStorage')?.getItem(SPEED_KEY);
@@ -611,6 +641,7 @@
     $('login-open').addEventListener('click', () => {
       $('login-error').hidden = true;
       $('login-password').value = '';
+      if (!accessVerified) { $('login-name').focus(); return; }
       $('login-dialog').showModal();
       $('login-name').focus();
     });
@@ -632,7 +663,7 @@
           adminSlots = [''];
           onlineStudents = [];
           adminAnswers = {};
-          refreshAccountUI();
+          applyAccessGate(true);
           renderTask2();
           void refreshAdmin();
         } else {
@@ -647,11 +678,11 @@
           const student = { token: account.session_token, id: account.id, name: account.name, role: 'student' };
           sessionStore?.setItem('edmund-universal-student-session-v1', JSON.stringify(student));
           window.EdmundSystemNav?.bridgeStudentSession?.(student, true);
-          refreshAccountUI();
+          applyAccessGate(true);
           renderTask2();
           syncStudentOwner();
         }
-        $('login-dialog').close();
+        if ($('login-dialog').open) $('login-dialog').close();
       } catch (error) {
         $('login-error').textContent = error.message || '登入失敗，請重試。';
         $('login-error').hidden = false;
@@ -673,7 +704,9 @@
       }
       studentOwner = '';
       pendingChoices.clear();
-      refreshAccountUI();
+      $('login-name').value = '';
+      $('login-password').value = '';
+      applyAccessGate(false);
       renderTask2();
     });
     refreshAccountUI();
@@ -704,6 +737,7 @@
       if (event.key === activeStorageKey) {
         savedTypes = readSavedTypes(activeStorageKey);
         refreshTask2Buttons();
+        updateTask2Count();
       }
     });
     $('translation-toggle').addEventListener('click', () => {
