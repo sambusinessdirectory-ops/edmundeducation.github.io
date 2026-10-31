@@ -13,3 +13,7 @@ Checks:
 The browser check covers actual homepage card numbering, all values, Germany's reversed comparison, persistence, undo, keyboard activation, calculator editing, division by zero and mobile overflow. Mobile uses a horizontally scrollable chart to preserve proportions and legibility.
 
 Years in the title and chart heading share a clickable year annotation. A dialog offers Past tense, Present tense, Future tense, Present perfect and Past perfect. The selected tense appears beside every occurrence of that year, persists with colour marks, and supports removal, erase and undo.
+
+Observation and Overview each support arbitrary editable rows, adding/removing rows and browser-local autosave. Notes are independent from colour clearing and calculator clearing.
+
+Organization provides a separate pick-data mode. Clicking a bar or value toggles that datum in an ordered paragraph plan. Desktop drag/drop, touch handles, and keyboard-friendly up/down buttons reorder entries; ordering persists in browser storage independently of calculations and colour groups.

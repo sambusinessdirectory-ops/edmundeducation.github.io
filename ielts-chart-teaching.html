@@ -6,9 +6,9 @@
  <meta name="description" content="互動 IELTS 圖表教室：標示趨勢、用顏色分組，以及選取數據進行簡單計算。">
  <meta name="theme-color" content="#234d42"><link rel="canonical" href="https://edmundeducation.com/ielts-chart-teaching.html">
  <link rel="icon" href="/favicon.ico"><link rel="stylesheet" href="/shared-system-nav.css"><link rel="stylesheet" href="/pwa-ui.css">
- <link rel="stylesheet" href="/ielts-chart-teaching/style.css?v=20261031-3">
+ <link rel="stylesheet" href="/ielts-chart-teaching/style.css?v=20261031-5">
  <script defer src="/shared-system-nav.js"></script><script defer src="/pwa-register.js"></script>
- <script type="module" src="/ielts-chart-teaching/app.mjs?v=20261031-3"></script>
+ <script type="module" src="/ielts-chart-teaching/app.mjs?v=20261031-5"></script>
 </head>
 <body>
  <a class="skip" href="#workspace">跳至圖表</a>
@@ -17,7 +17,7 @@
   <section class="intro"><div><p class="eyebrow">79 / IELTS WRITING TASK 1</p><h1>IELTS 圖表教學系統</h1><p class="intro-note">看見數據，整理比較。</p></div><span class="lesson-chip"><i></i> 01 · Electricity</span></section>
   <div class="workspace" id="workspace">
    <section class="chart-card" aria-label="互動電力圖表">
-    <div class="chart-toolbar"><div class="mode-switch" role="group" aria-label="圖表操作模式"><button type="button" data-mode="colour" aria-pressed="true">◉ 顏色分組</button><button type="button" data-mode="calculate" aria-pressed="false">＋ 選數計算</button></div><button type="button" id="undo" class="quiet">↶ 撤銷標記</button></div>
+    <div class="chart-toolbar"><div class="mode-switch" role="group" aria-label="圖表操作模式"><button type="button" data-mode="colour" aria-pressed="true">◉ 顏色分組</button><button type="button" data-mode="calculate" aria-pressed="false">＋ 選數計算</button><button type="button" data-mode="organize" aria-pressed="false">☷ 選數排序</button></div><button type="button" id="undo" class="quiet">↶ 撤銷標記</button></div>
     <p class="mode-hint" id="mode-hint"></p>
     <div class="chart-heading"><p class="eyebrow">TASK 1 · T1-005</p><div id="chart-title"></div></div>
     <p class="chart-scroll-hint">左右滑動查看完整圖表 ↔</p>
@@ -27,6 +27,9 @@
    <aside class="tools" aria-label="圖表教學工具">
     <section class="tool-card groups-card"><div class="tool-heading"><span class="step">01</span><div><p class="eyebrow">FIND THE PATTERN</p><h2>顏色與群組</h2></div></div><p class="tool-note">同一元素可加入多個群組：第一組填色，其他組以光暈標示。名稱可自行修改。</p><div id="groups"></div><div class="group-actions"><button type="button" id="eraser" aria-pressed="false">橡皮擦</button><button type="button" id="clear-colours">清除標記</button></div><p class="storage-note" id="storage-status" role="status">標記儲存在此瀏覽器</p></section>
     <section class="tool-card calculator-card"><div class="tool-heading"><span class="step">02</span><div><p class="eyebrow">MAKE A COMPARISON</p><h2>數據計算機</h2></div></div><p class="tool-note">切換「選數計算」，依序點擊數字或長條。可加入兩個或更多數值。</p><div id="operands"></div><form id="manual-form"><label class="sr-only" for="manual-number">自訂數字</label><input id="manual-number" type="number" step="any" placeholder="自訂數字，例如 100" required><button type="submit" aria-label="加入自訂數字">＋ 加入</button></form><div class="result-box" aria-live="polite"><p id="expression">選取數字開始比較</p><output id="result">—</output><small id="result-note">依選取順序，由左至右計算</small></div><button type="button" id="clear-calculator" class="clear-calc">清空計算</button></section>
+    <section class="tool-card notes-card" aria-labelledby="observation-title"><div class="tool-heading"><span class="step">03</span><div><p class="eyebrow">NOTICE THE DETAILS</p><h2 id="observation-title">Observation</h2></div></div><p class="tool-note">記下你看到的數據模式與比較。</p><div id="observation-rows"></div><button type="button" class="add-note" data-add-note="observation">＋ 新增觀察</button></section>
+    <section class="tool-card notes-card" aria-labelledby="overview-title"><div class="tool-heading"><span class="step">04</span><div><p class="eyebrow">SEE THE BIG PICTURE</p><h2 id="overview-title">Overview</h2></div></div><p class="tool-note">試寫不同版本的整體概述。</p><div id="overview-rows"></div><button type="button" class="add-note" data-add-note="overview">＋ 新增概述</button></section>
+    <section class="tool-card organization-card" aria-labelledby="organization-title"><div class="tool-heading"><span class="step">05</span><div><p class="eyebrow">PLAN THE PARAGRAPH</p><h2 id="organization-title">Organization</h2></div></div><p class="tool-note">選取數據，再拖動卡片安排段落中的先後次序。</p><button type="button" id="pick-data-mode" aria-pressed="false">◉ Pick data mode</button><ol id="organization-list" aria-label="段落數據順序"></ol><button type="button" id="clear-organization" class="clear-calc">清空順序</button></section>
    </aside>
   </div>
   <footer class="page-footer"><span>EDMUND EDUCATION · CHART STUDIO</span><span>重製自提供圖表 · 單位：billion kWh</span></footer>

@@ -3,12 +3,21 @@ const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&
 const key='edmund-chart-studio-electricity-v1';
 const tenseChoices={'past':'Past tense','present':'Present tense','future':'Future tense','present-perfect':'Present perfect','past-perfect':'Past perfect'};
 let tenses={},tenseYear=null,yearOpener=null;
+let notes={observation:[''],overview:['']};
+let organization=[];
 let mode='colour',active='green',marks={},names=Object.fromEntries(palette.map(p=>[p.id,p.name])),history=[],operands=[],operators=[],manualId=0,toastTimer;
 const numbers=new Map();
-try{const saved=JSON.parse(localStorage.getItem(key)||'null');if(saved&&typeof saved==='object'){for(const [id,group] of Object.entries(saved.marks||{})){const members=[...new Set(Array.isArray(group)?group:[group])].filter(g=>palette.some(p=>p.id===g));if(members.length)marks[id]=members;}for(const [year,tense] of Object.entries(saved.tenses||{}))if(/^\d{4}$/.test(year)&&Object.hasOwn(tenseChoices,tense))tenses[year]=tense;for(const p of palette)if(typeof saved.names?.[p.id]==='string')names[p.id]=saved.names[p.id].slice(0,40);}}catch{}
-function save(){try{localStorage.setItem(key,JSON.stringify({marks,names,tenses}));$('#storage-status').textContent='標記儲存在此瀏覽器';}catch{$('#storage-status').textContent='此瀏覽器未能儲存；本次標記仍可使用';}}
+try{const saved=JSON.parse(localStorage.getItem(key)||'null');if(saved&&typeof saved==='object'){for(const [id,group] of Object.entries(saved.marks||{})){const members=[...new Set(Array.isArray(group)?group:[group])].filter(g=>palette.some(p=>p.id===g));if(members.length)marks[id]=members;}if(Array.isArray(saved.organization))organization=[...new Set(saved.organization.filter(id=>typeof id==='string'))];for(const type of ['observation','overview'])if(Array.isArray(saved.notes?.[type]))notes[type]=saved.notes[type].filter(value=>typeof value==='string');for(const [year,tense] of Object.entries(saved.tenses||{}))if(/^\d{4}$/.test(year)&&Object.hasOwn(tenseChoices,tense))tenses[year]=tense;for(const p of palette)if(typeof saved.names?.[p.id]==='string')names[p.id]=saved.names[p.id].slice(0,40);}}catch{}
+function save(){try{localStorage.setItem(key,JSON.stringify({marks,names,tenses,notes,organization}));$('#storage-status').textContent='標記與筆記儲存在此瀏覽器';}catch{$('#storage-status').textContent='此瀏覽器未能儲存；本次標記仍可使用';}}
 function notice(text){$('#toast').textContent=text;clearTimeout(toastTimer);toastTimer=setTimeout(()=>{$('#toast').textContent='';},2300);}
 function markButton(id,text,cls='',extra=''){return `<button type="button" class="markable ${cls}" data-mark="${id}" aria-pressed="false" ${extra}>${text}</button>`;}
+function resizeNote(input){input.style.height='auto';input.style.height=Math.max(82,input.scrollHeight)+'px';}
+function renderNotes(type,focusIndex=null){
+ const label=type==='observation'?'觀察':'概述';
+ $(`#${type}-rows`).innerHTML=notes[type].map((text,index)=>`<div class="note-row"><div class="note-row-heading"><label for="${type}-${index}">${label} ${String(index+1).padStart(2,'0')}</label><button type="button" data-remove-note="${type}" data-note-index="${index}" aria-label="刪除${label} ${index+1}">−</button></div><textarea id="${type}-${index}" data-note-type="${type}" data-note-index="${index}" rows="3" placeholder="${type==='observation'?'寫下一個你看到的模式…':'寫下一個整體概述…'}">${esc(text)}</textarea></div>`).join('')||`<p class="notes-empty">按下方按鈕新增${label}。</p>`;
+ document.querySelectorAll(`[data-note-type="${type}"]`).forEach(resizeNote);
+ if(focusIndex!==null)$(`#${type}-${focusIndex}`)?.focus({preventScroll:true});
+}
 function yearButton(year){return `<button type="button" class="markable year-button" data-mark="year-${year}" data-year="${year}" aria-haspopup="dialog" aria-label="為 ${year} 選擇時態">${year}</button>`;}
 function buildChart(){
  $('#chart-title').innerHTML=`<h2><span role="button" tabindex="0" class="markable title-fragment" data-mark="title" aria-pressed="false">${esc(title.replace('2014.',''))}</span> ${yearButton('2014')}.</h2>`;
@@ -34,14 +43,22 @@ function applyMarks(){
   el.style.setProperty('--group-glow',members.slice(1).map((group,i)=>`0 0 0 ${2+i*2}px ${group.color}, 0 0 ${9+i*3}px ${1+i}px ${group.color}99`).join(','));
   el.style.setProperty('--colour',p?.color||'');el.style.setProperty('--tint',p?.tint||'');
   const selected=operands.some(item=>item.id===el.dataset.number);
-  el.classList.toggle('selected-number',selected&&el.classList.contains('value'));el.classList.toggle('selected-bar',selected&&el.classList.contains('bar'));
-  el.setAttribute('aria-pressed',String(mode==='calculate'&&el.dataset.number?selected:!!p||!!tenses[el.dataset.year]));
+  el.classList.toggle('organized-data',mode==='organize'&&organization.includes(el.dataset.number));
+  el.classList.toggle('selected-number',selected&&el.classList.contains('value')&&mode!=='organize');el.classList.toggle('selected-bar',selected&&el.classList.contains('bar')&&mode!=='organize');
+  el.setAttribute('aria-pressed',String(mode==='organize'&&el.dataset.number?organization.includes(el.dataset.number):mode==='calculate'&&el.dataset.number?selected:!!p||!!tenses[el.dataset.year]));
   if(el.dataset.year){const tense=tenses[el.dataset.year];el.classList.toggle('year-assigned',!!tense);el.innerHTML=esc(el.dataset.year)+(tense?`<span class="tense-badge">${esc(tenseChoices[tense])}</span>`:'');el.setAttribute('aria-label',`${el.dataset.year}${tense?' · '+tenseChoices[tense]:''}，選擇時態`);}
   el.title=members.length?`群組：${members.map(group=>names[group.id]).join('、')}`:'';
   if(members.length)el.setAttribute('aria-description',el.title);else el.removeAttribute('aria-description');
  });
 }
-function setMode(next){mode=next;document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===mode)));$('#mode-hint').textContent=mode==='colour'?'第一組填色，第二組加上光暈；再點同色只移除該組。點年份可選時態。':'點擊數字或長條加入計算；再次點擊移除。金色外框表示已選數值。';applyMarks();}
+function setMode(next){mode=next;$('#pick-data-mode').setAttribute('aria-pressed',String(mode==='organize'));$('#pick-data-mode').textContent=mode==='organize'?'✓ Pick data mode · 開啟中':'◉ Pick data mode';document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===mode)));$('#mode-hint').textContent=mode==='colour'?'第一組填色，第二組加上光暈；再點同色只移除該組。點年份可選時態。':mode==='organize'?'點擊數字或長條加入 Organization，再拖動卡片安排順序。再次點擊可移除。':'點擊數字或長條加入計算；再次點擊移除。金色外框表示已選數值。';applyMarks();}
+function renderOrganization(focusId=null){
+ organization=organization.filter(id=>numbers.has(id));
+ $('#organization-list').innerHTML=organization.length?organization.map((id,index)=>{const item=numbers.get(id);return `<li class="organization-item" data-org-id="${id}" draggable="true"><div class="org-order"><button type="button" class="org-drag" data-drag-org="${id}" aria-label="拖動 ${esc(item.label)}">⠿</button><span>${String(index+1).padStart(2,'0')}</span></div><div class="org-copy"><small>${esc(item.label)}</small><strong>${format(item.value)} <em>billion kWh</em></strong></div><div class="org-actions"><button type="button" data-move-org="${id}" data-direction="-1" aria-label="上移 ${esc(item.label)}" ${index===0?'disabled':''}>↑</button><button type="button" data-move-org="${id}" data-direction="1" aria-label="下移 ${esc(item.label)}" ${index===organization.length-1?'disabled':''}>↓</button><button type="button" data-remove-org="${id}" aria-label="移除 ${esc(item.label)}">×</button></div></li>`;}).join(''):'<li class="organization-empty">開啟 Pick data mode，點選想用於段落的數據。</li>';
+ if(focusId)document.querySelector(`[data-drag-org="${focusId}"]`)?.focus({preventScroll:true});
+ applyMarks();
+}
+function moveOrganization(id,target){const from=organization.indexOf(id);if(from<0||target<0||target>=organization.length)return;organization.splice(from,1);organization.splice(target,0,id);renderOrganization(id);save();}
 function remember(){history.push({marks:{...marks},tenses:{...tenses}});if(history.length>50)history.shift();}
 function refreshMarks(){applyMarks();groups();save();}
 function removeOperand(index){operands.splice(index,1);if(index===0)operators.shift();else operators.splice(index-1,1);renderCalculator();}
@@ -55,6 +72,12 @@ function renderCalculator(){
 }
 document.addEventListener('click',event=>{
  const button=event.target.closest('button,[role=button]');if(!button)return;
+ if(button.id==='pick-data-mode'){setMode(mode==='organize'?'colour':'organize');return;}
+ if(button.id==='clear-organization'){organization=[];renderOrganization();save();return;}
+ if(button.dataset.moveOrg){moveOrganization(button.dataset.moveOrg,organization.indexOf(button.dataset.moveOrg)+Number(button.dataset.direction));return;}
+ if(button.dataset.removeOrg){organization=organization.filter(id=>id!==button.dataset.removeOrg);renderOrganization();save();return;}
+ if(button.dataset.addNote){const type=button.dataset.addNote;notes[type].push('');renderNotes(type,notes[type].length-1);save();return;}
+ if(button.dataset.removeNote){const type=button.dataset.removeNote,index=Number(button.dataset.noteIndex);notes[type].splice(index,1);renderNotes(type,Math.min(index,notes[type].length-1));save();if(!notes[type].length)document.querySelector(`[data-add-note="${type}"]`).focus({preventScroll:true});return;}
  if(button.dataset.mode){setMode(button.dataset.mode);return;}
  if(button.dataset.group){active=button.dataset.group;setMode('colour');groups();return;}
  if(button.id==='eraser'){active=active==='eraser'?'green':'eraser';setMode('colour');groups();return;}
@@ -73,15 +96,25 @@ document.addEventListener('click',event=>{
  if(button.id==='remove-tense'&&tenseYear){remember();delete tenses[tenseYear];refreshMarks();$('#tense-dialog').close();return;}
  if(button.id==='close-tense'){$('#tense-dialog').close();return;}
  if(!button.dataset.mark)return;
+ if(mode==='organize'){const id=button.dataset.number;if(!numbers.has(id)){notice('請點擊長條或其旁邊的數字');return;}organization=organization.includes(id)?organization.filter(item=>item!==id):[...organization,id];renderOrganization();save();return;}
  if(mode==='calculate'){
   const number=numbers.get(button.dataset.number);if(!number){notice('請點擊長條或其旁邊的數字');return;}
   const index=operands.findIndex(item=>item.id===number.id);if(index>=0)removeOperand(index);else{if(operands.length)operators.push('+');operands.push(number);renderCalculator();}return;
  }
  remember();const id=button.dataset.mark;if(active==='eraser')delete marks[id];else{const current=marks[id]||[];const next=current.includes(active)?current.filter(group=>group!==active):[...current,active];if(next.length)marks[id]=next;else delete marks[id];}refreshMarks();
 });
-document.addEventListener('input',event=>{if(event.target.dataset.name){names[event.target.dataset.name]=event.target.value;save();applyMarks();}});
+document.addEventListener('input',event=>{if(event.target.dataset.noteType){notes[event.target.dataset.noteType][Number(event.target.dataset.noteIndex)]=event.target.value;resizeNote(event.target);save();return;}if(event.target.dataset.name){names[event.target.dataset.name]=event.target.value;save();applyMarks();}});
 document.addEventListener('change',event=>{if(event.target.hasAttribute('data-operator')){operators[Number(event.target.dataset.operator)]=event.target.value;renderCalculator();}});
 $('#manual-form').addEventListener('submit',event=>{event.preventDefault();const input=$('#manual-number');const value=Number(input.value);if(!input.value.trim()||!Number.isFinite(value)){notice('請輸入有效數字');return;}if(operands.length)operators.push('+');operands.push({id:`manual-${++manualId}`,label:'自訂數字',value});input.value='';renderCalculator();});
 document.addEventListener('keydown',event=>{if(event.target.matches('.title-fragment')&&(event.key==='Enter'||event.key===' ')){event.preventDefault();event.target.click();}});
 $('#tense-dialog').addEventListener('close',()=>{yearOpener?.focus({preventScroll:true});tenseYear=null;});
-buildChart();groups();setMode('colour');renderCalculator();
+const orgList=$('#organization-list');let dragId=null,touchDrag=null;
+orgList.addEventListener('dragstart',event=>{const item=event.target.closest('[data-org-id]');if(!item)return;dragId=item.dataset.orgId;event.dataTransfer.effectAllowed='move';event.dataTransfer.setData('text/plain',dragId);item.classList.add('dragging');});
+orgList.addEventListener('dragover',event=>{if(dragId){event.preventDefault();event.dataTransfer.dropEffect='move';const item=event.target.closest('[data-org-id]');orgList.querySelectorAll('.drop-target').forEach(el=>el.classList.remove('drop-target'));item?.classList.add('drop-target');}});
+orgList.addEventListener('drop',event=>{event.preventDefault();const item=event.target.closest('[data-org-id]');if(item&&dragId)moveOrganization(dragId,organization.indexOf(item.dataset.orgId));dragId=null;orgList.querySelectorAll('.drop-target,.dragging').forEach(el=>el.classList.remove('drop-target','dragging'));});
+orgList.addEventListener('dragend',()=>{dragId=null;orgList.querySelectorAll('.drop-target,.dragging').forEach(el=>el.classList.remove('drop-target','dragging'));});
+orgList.addEventListener('pointerdown',event=>{const handle=event.target.closest('[data-drag-org]');if(!handle||event.pointerType==='mouse')return;touchDrag={id:handle.dataset.dragOrg,pointer:event.pointerId};handle.setPointerCapture(event.pointerId);});
+orgList.addEventListener('pointermove',event=>{if(!touchDrag||event.pointerId!==touchDrag.pointer)return;const item=document.elementFromPoint(event.clientX,event.clientY)?.closest('[data-org-id]');orgList.querySelectorAll('.drop-target').forEach(el=>el.classList.remove('drop-target'));if(item){touchDrag.target=item.dataset.orgId;item.classList.add('drop-target');}});
+orgList.addEventListener('pointerup',()=>{if(touchDrag?.target)moveOrganization(touchDrag.id,organization.indexOf(touchDrag.target));touchDrag=null;orgList.querySelectorAll('.drop-target').forEach(el=>el.classList.remove('drop-target'));});
+orgList.addEventListener('pointercancel',()=>{touchDrag=null;orgList.querySelectorAll('.drop-target').forEach(el=>el.classList.remove('drop-target'));});
+buildChart();groups();setMode('colour');renderCalculator();renderNotes('observation');renderNotes('overview');renderOrganization();
