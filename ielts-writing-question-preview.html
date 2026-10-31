@@ -10,10 +10,11 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="/shared-system-nav.css">
-  <link rel="stylesheet" href="/ielts-writing-preview/style.css?v=20261030-3">
+  <link rel="stylesheet" href="/ielts-writing-preview/style.css?v=20261031-1">
+  <script defer src="/supabase-config.js"></script>
   <script defer src="/pwa-register.js"></script>
   <script defer src="/shared-system-nav.js"></script>
-  <script defer src="/ielts-writing-preview/app.js?v=20261030-3"></script>
+  <script defer src="/ielts-writing-preview/app.js?v=20261031-1"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">跳至題目列表</a>
@@ -26,7 +27,7 @@
           <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
         </button>
       </div>
-      <span class="header-context">IELTS WRITING <span aria-hidden="true">/</span> QUESTION PREVIEW</span>
+      <div class="header-actions"><span class="header-context">IELTS WRITING <span aria-hidden="true">/</span> QUESTION PREVIEW</span><span id="account-label" class="account-label"></span><button id="login-open" class="header-action" type="button">登入</button><button id="logout-button" class="header-action" type="button" hidden>登出</button></div>
     </div>
   </header>
   <main id="main" class="shell">
@@ -43,10 +44,11 @@
     <section id="panel-task2" class="panel" role="tabpanel" aria-labelledby="tab-task2" hidden>
       <div class="panel-heading"><div><p class="eyebrow">TASK 2 · ESSAYS</p><h2>作文題目</h2><p>瀏覽完整題目，並在右邊選擇你判斷的題型。</p></div><span class="count" id="task2-count">載入中</span></div>
       <div class="toolbar"><label class="search"><span>搜尋題目</span><input id="task2-search" type="search" placeholder="搜尋題目英文或中文" autocomplete="off"></label><div class="filter"><span class="control-label">主題</span><button id="task2-topic" class="menu-trigger" type="button" aria-haspopup="menu" aria-expanded="false"><span>所有主題</span><span class="menu-chevron" aria-hidden="true"></span></button></div><button id="translation-toggle" class="translation-toggle" type="button" aria-pressed="false">顯示繁體中文翻譯</button></div>
-      <div class="table-scroll" id="task2-scroll" tabindex="0" aria-label="Task 2 作文題目列表"><table><thead><tr><th scope="col">編號 / 主題</th><th scope="col">完整作文題目</th><th scope="col">選擇題型</th></tr></thead><tbody id="task2-rows"></tbody></table></div>
+      <div class="table-scroll" id="task2-scroll" tabindex="0" aria-label="Task 2 作文題目列表"><table><thead><tr id="task2-head"><th scope="col">編號 / 主題</th><th scope="col">聆聽題目</th><th scope="col"><div class="prompt-heading"><span>完整作文題目</span><span class="reading-controls"><label>速度 <select id="playback-speed" aria-label="題目播放速度"><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option><option value="1.75">1.75×</option><option value="2">2×</option><option value="2.25">2.25×</option><option value="2.5">2.5×</option><option value="2.75">2.75×</option><option value="3">3×</option></select></label><label>文字 <select id="text-size" aria-label="題目文字大小"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option><option value="2.5">2.5×</option><option value="3">3×</option><option value="3.5">3.5×</option><option value="4">4×</option><option value="4.5">4.5×</option><option value="5">5×</option></select></label></span></div></th><th scope="col" id="type-head">選擇題型</th></tr></thead><tbody id="task2-rows"></tbody></table></div>
     </section>
   </main>
   <dialog id="diagram-dialog" aria-label="Task 1 題圖"><div class="dialog-inner"><button id="dialog-close" class="dialog-close" type="button" aria-label="關閉題圖">×</button><p class="eyebrow" id="dialog-type"></p><h2 id="dialog-title"></h2><p id="dialog-prompt"></p><img id="dialog-image" alt=""><p>Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.</p></div></dialog>
+  <dialog id="login-dialog" class="login-dialog" aria-labelledby="login-title"><form id="login-form" class="login-form"><button id="login-close" class="dialog-close" type="button" aria-label="關閉登入">×</button><h2 id="login-title">登入寫作問題預覽</h2><div class="login-modes"><label><input type="radio" name="login-role" value="student" checked> 學生</label><label><input type="radio" name="login-role" value="admin"> 管理員</label></div><label>用戶名稱<input id="login-name" type="text" autocomplete="username" required></label><label>密碼<input id="login-password" type="password" autocomplete="current-password" required></label><p id="login-error" role="alert" hidden></p><button id="login-submit" class="login-submit" type="submit">登入</button></form></dialog>
   <div id="choice-menu" class="choice-menu" role="menu" hidden></div>
 </body>
 </html>

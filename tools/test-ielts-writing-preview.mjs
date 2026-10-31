@@ -10,6 +10,7 @@ const homepage = read('index.html');
 const page = read('ielts-writing-question-preview.html');
 const app = read('ielts-writing-preview/app.js');
 const style = read('ielts-writing-preview/style.css');
+const liveSchema = read('supabase-ielts-writing-preview-live-20261031.sql');
 const imageUrlSource = app.match(/^  const imageUrl = (.+);$/m)?.[1];
 assert.ok(imageUrlSource, 'Task 1 image URL resolver exists');
 const imageUrl = new Function(`return ${imageUrlSource}`)();
@@ -65,6 +66,16 @@ assert.match(page, /class="site-header edmund-system-header"/, 'The standard sys
 assert.doesNotMatch(page, /class="intro"/, 'The oversized hero is removed');
 assert.match(page, /href="\/pwa-ui\.css"/, 'The existing PWA update notice is styled');
 assert.match(style, /--cement: #d9dbda/, 'The page uses the cement-gray palette');
+assert.match(page, /id="logout-button"/, 'The head beam has a logout control');
+assert.match(page, /id="playback-speed"/, 'The prompt header has a playback-speed control');
+assert.match(page, /id="text-size"/, 'The prompt header has a text-size control');
+assert.match(page, /<th scope="col">聆聽題目<\/th><th scope="col"><div class="prompt-heading">/, 'Audio has its own column before the prompt');
+assert.match(app, /window\.setInterval\(\(\) => \{ void refreshAdmin\(\); \}, 2000\)/, 'Admin presence and answers refresh every two seconds');
+assert.match(app, /adminSlots\.length < 10/, 'The admin table has at most ten student columns');
+assert.match(app, /ielts_preview_student_sync/, 'Student choices use the protected shared save');
+assert.match(app, /ielts_preview_admin_snapshot/, 'Admin columns use the protected shared read');
+assert.match(liveSchema, /revoke all on all tables in schema ielts_preview_private from public, anon, authenticated/, 'Private student data has no direct browser table access');
+assert.doesNotMatch(app, /IESL\$A%T/, 'Admin password is not embedded in client code');
 for (const type of ['Opinions', 'Discuss both views + Opinions', 'Advantages & Disadvantages', 'Cause & Solution', 'Direct question']) {
   assert.ok(app.includes(type), `${type} is available in the dropdown`);
 }

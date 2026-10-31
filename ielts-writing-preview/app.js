@@ -12,6 +12,10 @@
   const STUDENT_STORAGE_PREFIX = 'edmund-ielts-writing-preview-types-v2:';
   const TASK1_TENSES = ['Past Tense', 'Present Tense', 'Future Tense', 'Present Perfect Tense', 'Past Perfect Tense'];
   const TASK1_STATES = ['動態 (Dynamic)', '靜態 (Static)'];
+  const ADMIN_SESSION_KEY = 'edmund-ielts-preview-admin-v1';
+  const DEVICE_KEY = 'edmund-ielts-preview-device-v1';
+  const SPEED_KEY = 'edmund-ielts-preview-speed-v1';
+  const SIZE_KEY = 'edmund-ielts-preview-size-v1';
   const imageUrl = (path) => /^https?:\/\//i.test(path) ? path : `/${path.replace(/^\//, '')}`;
   const $ = (id) => document.getElementById(id);
   const node = (name, className, text) => {
@@ -62,6 +66,114 @@
   let task2Topic = '';
   let activeMenuTrigger = null;
   const menu = $('choice-menu');
+  const uuidPattern = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+  const sessionStore = safeStorage('sessionStorage');
+  let deviceId = sessionStore?.getItem(DEVICE_KEY);
+  if (!uuidPattern.test(deviceId || '')) {
+    deviceId = crypto.randomUUID();
+    try { sessionStore?.setItem(DEVICE_KEY, deviceId); } catch { /* Ephemeral device. */ }
+  }
+  let adminSession = readStoredObject(sessionStore, ADMIN_SESSION_KEY);
+  let adminSlots = [''];
+  let onlineStudents = [];
+  let adminAnswers = {};
+  let adminBusy = false;
+  let studentOwner = '';
+  let studentReady = Promise.resolve();
+  let studentBusy = false;
+  const pendingChoices = new Map();
+
+  function studentSession() {
+    const candidate = window.EdmundSystemNav?.getStudentSession?.()
+      || readStoredObject(sessionStore, 'edmund-universal-student-session-v1');
+    return candidate?.role === 'student' && uuidPattern.test(candidate.token || '') ? candidate : null;
+  }
+
+  async function rpc(name, payload) {
+    const config = window.EDMUND_SUPABASE;
+    if (!config?.url || !config?.anonKey) throw new Error('資料服務暫時無法使用');
+    const response = await fetch(`${config.url}/rest/v1/rpc/${name}`, {
+      method: 'POST', cache: 'no-store', credentials: 'omit',
+      headers: { apikey: config.anonKey, 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload), signal: AbortSignal.timeout(12000)
+    });
+    if (!response.ok) {
+      const detail = await response.json().catch(() => ({}));
+      const error = new Error(`資料服務回應 ${response.status}`);
+      error.status = response.status;
+      error.code = detail.code;
+      throw error;
+    }
+    return response.json();
+  }
+
+  function refreshAccountUI() {
+    const student = studentSession();
+    $('account-label').textContent = adminSession.token ? `管理員 · ${adminSession.name}` : student ? `學生 · ${student.name}` : '';
+    $('logout-button').hidden = !adminSession.token && !student;
+    $('login-open').textContent = adminSession.token || student ? '切換帳戶' : '登入';
+    $('panel-task2').classList.toggle('is-admin', Boolean(adminSession.token));
+  }
+
+  function syncStudentOwner() {
+    if (adminSession.token) return;
+    const student = studentSession();
+    const next = student ? `${student.id || student.name}:${student.token}` : '';
+    if (next === studentOwner) return;
+    studentOwner = next;
+    pendingChoices.clear();
+    refreshStorageOwner();
+    refreshAccountUI();
+    if (!student) return;
+    const initial = { ...savedTypes };
+    studentReady = rpc('ielts_preview_student_sync', {
+      p_token: student.token, p_device: deviceId, p_initial_answers: initial
+    }).then((data) => {
+      if (studentOwner !== next || adminSession.token) return;
+      savedTypes = { ...savedTypes, ...data.answers };
+      try { safeStorage('localStorage')?.setItem(activeStorageKey, JSON.stringify(savedTypes)); } catch { /* Keep in memory. */ }
+      refreshTask2Buttons();
+      void flushPendingChoices();
+    }).catch(() => {
+      if (studentOwner === next) studentOwner = '';
+      /* Local choices remain available; next visible heartbeat retries. */
+    });
+  }
+
+  async function flushPendingChoices() {
+    if (studentBusy || !pendingChoices.size || adminSession.token) return;
+    const student = studentSession();
+    if (!student) return;
+    studentBusy = true;
+    try {
+      await studentReady;
+      if (adminSession.token || `${student.id || student.name}:${student.token}` !== studentOwner) return;
+      for (const [questionId, answer] of [...pendingChoices]) {
+        if (adminSession.token || `${student.id || student.name}:${student.token}` !== studentOwner) break;
+        await rpc('ielts_preview_student_sync', {
+          p_token: student.token, p_device: deviceId, p_question_id: questionId, p_answer: answer
+        });
+        if (pendingChoices.get(questionId) === answer) pendingChoices.delete(questionId);
+      }
+    } catch { /* Keep pending choices for retry. */ }
+    finally { studentBusy = false; }
+  }
+
+  async function studentHeartbeat() {
+    if (document.hidden || adminSession.token) return;
+    syncStudentOwner();
+    const student = studentSession();
+    if (!student) return;
+    if (pendingChoices.size) { void flushPendingChoices(); return; }
+    try { await rpc('ielts_preview_student_sync', { p_token: student.token, p_device: deviceId }); }
+    catch { /* The next heartbeat retries without losing local choices. */ }
+  }
+
+  function refreshTask2Buttons() {
+    for (const button of document.querySelectorAll('#task2-rows .answer-trigger')) {
+      setAnswerButton(button, TYPES.includes(savedTypes[button.dataset.questionId]) ? savedTypes[button.dataset.questionId] : '');
+    }
+  }
 
   function closeMenu(restoreFocus = false) {
     if (!activeMenuTrigger) return;
@@ -306,47 +418,155 @@
     filterTask1();
   }
 
+  function renderAdminHead() {
+    const head = $('task2-head');
+    for (const extra of head.querySelectorAll('.student-column-head:not(#type-head)')) extra.remove();
+    if (!adminSession.token) { $('type-head').classList.remove('student-column-head'); $('type-head').textContent = '選擇題型'; return; }
+    const makeHead = (index) => {
+      const th = index === 0 ? $('type-head') : node('th', 'student-column-head');
+      th.className = 'student-column-head';
+      th.scope = 'col';
+      const box = node('div', 'student-head');
+      const top = node('div', 'student-head__top');
+      top.append(node('span', '', `Student ${index + 1}`));
+      const actions = node('span', 'student-head__actions');
+      if (index === adminSlots.length - 1 && adminSlots.length < 10) {
+        const add = node('button', '', '+'); add.type = 'button'; add.title = '新增學生欄';
+        add.setAttribute('aria-label', '新增學生欄');
+        add.addEventListener('click', () => { adminSlots.push(''); renderTask2(); });
+        actions.append(add);
+      }
+      if (adminSlots.length > 1) {
+        const remove = node('button', '', '−'); remove.type = 'button'; remove.title = `移除 Student ${index + 1}`;
+        remove.setAttribute('aria-label', `移除 Student ${index + 1}`);
+        remove.addEventListener('click', () => { adminSlots.splice(index, 1); renderTask2(); });
+        actions.append(remove);
+      }
+      top.append(actions);
+      const select = node('select'); select.setAttribute('aria-label', `Student ${index + 1} 在線帳戶`);
+      select.dataset.slot = String(index);
+      fillStudentSelect(select, adminSlots[index]);
+      select.addEventListener('change', () => { adminSlots[index] = select.value; renderAdminAnswers(); void refreshAdmin(); });
+      box.append(top, select);
+      th.replaceChildren(box);
+      if (index > 0) head.append(th);
+    };
+    for (let index = 0; index < adminSlots.length; index++) makeHead(index);
+  }
+
+  function fillStudentSelect(select, selected) {
+    const students = [...onlineStudents];
+    if (selected && !students.some((student) => student.id === selected)) {
+      students.push({ id: selected, name: '已離線學生' });
+    }
+    const options = [new Option('選擇在線學生', ''), ...students.map((student) => new Option(student.name, student.id))];
+    select.replaceChildren(...options);
+    select.value = selected || '';
+  }
+
+  function renderAdminAnswers() {
+    for (const row of $('task2-rows').rows) {
+      const questionId = row.dataset.questionId;
+      row.querySelectorAll('.student-answer').forEach((element) => {
+        const studentId = adminSlots[Number(element.dataset.slot)];
+        const value = studentId ? adminAnswers[studentId]?.[questionId] : '';
+        element.textContent = value || '—';
+        element.classList.toggle('is-empty', !value);
+      });
+    }
+  }
+
+  async function refreshAdmin() {
+    if (!adminSession.token || adminBusy || document.hidden) return;
+    const requestToken = adminSession.token;
+    adminBusy = true;
+    try {
+      const data = await rpc('ielts_preview_admin_snapshot', {
+        p_token: requestToken, p_student_ids: adminSlots.filter(Boolean)
+      });
+      if (adminSession.token !== requestToken) return;
+      const before = JSON.stringify(onlineStudents);
+      onlineStudents = Array.isArray(data.students) ? data.students : [];
+      adminAnswers = data.answers && typeof data.answers === 'object' ? data.answers : {};
+      if (JSON.stringify(onlineStudents) !== before) {
+        for (const select of document.querySelectorAll('.student-head select')) {
+          if (select === document.activeElement) continue;
+          fillStudentSelect(select, adminSlots[Number(select.dataset.slot)]);
+        }
+      }
+      renderAdminAnswers();
+    } catch (error) {
+      if (adminSession.token !== requestToken) return;
+      if (error.code === '28000' || error.status === 401 || error.status === 403) {
+        // A rejected session must no longer show the admin table or student data.
+        adminSession = {};
+        try { sessionStore?.removeItem(ADMIN_SESSION_KEY); } catch { /* private browsing */ }
+        onlineStudents = [];
+        adminAnswers = {};
+        refreshAccountUI();
+        renderTask2();
+      }
+    } finally { adminBusy = false; }
+  }
+
   function renderTask2() {
     const rows = $('task2-rows');
     const fragment = document.createDocumentFragment();
+    renderAdminHead();
     for (const item of task2) {
       const row = node('tr');
       row.dataset.search = `${item.en} ${item.zh}`.toLocaleLowerCase();
       row.dataset.topic = item.topic;
+      row.dataset.questionId = item.id;
       const idCell = node('td');
       idCell.append(node('span', 'row-id', item.id), node('span', 'topic', item.topic));
+      const audioCell = node('td', 'audio-cell');
+      audioCell.append(audioButton('task2', item));
       const promptCell = node('td');
       const question = node('p', 'question', item.en);
       question.lang = 'en';
-      promptCell.append(question, audioButton('task2', item));
+      promptCell.append(question);
       const translation = node('p', 'translation', item.zh);
       translation.hidden = !translationsShown;
       translation.lang = 'zh-Hant';
       promptCell.append(translation);
-      const typeCell = node('td');
-      const trigger = node('button', 'answer-trigger');
-      trigger.type = 'button';
-      trigger.dataset.questionId = item.id;
-      trigger.setAttribute('aria-label', `${item.id} 題型`);
-      trigger.setAttribute('aria-haspopup', 'menu');
-      trigger.setAttribute('aria-expanded', 'false');
-      trigger.append(node('span', 'answer-marker', '●'), node('span', 'answer-label'), node('span', 'menu-chevron'));
-      setAnswerButton(trigger, TYPES.includes(savedTypes[item.id]) ? savedTypes[item.id] : '');
-      trigger.addEventListener('click', () => openMenu(trigger, [
-        { value: '', label: '清除選擇' },
-        ...TYPES.map((type) => ({ value: type, label: type }))
-      ], trigger.dataset.value, (value) => {
-        refreshStorageOwner();
-        if (value) savedTypes[item.id] = value;
-        else delete savedTypes[item.id];
-        setAnswerButton(trigger, value);
-        try { safeStorage('localStorage')?.setItem(activeStorageKey, JSON.stringify(savedTypes)); } catch { /* private browsing */ }
-      }));
-      typeCell.append(trigger);
-      row.append(idCell, promptCell, typeCell);
+      row.append(idCell, audioCell, promptCell);
+      if (adminSession.token) {
+        for (let index = 0; index < adminSlots.length; index++) {
+          const cell = node('td');
+          const answer = node('span', 'student-answer is-empty', '—');
+          answer.dataset.slot = String(index);
+          cell.append(answer);
+          row.append(cell);
+        }
+      } else {
+        const typeCell = node('td');
+        const trigger = node('button', 'answer-trigger');
+        trigger.type = 'button';
+        trigger.dataset.questionId = item.id;
+        trigger.setAttribute('aria-label', `${item.id} 題型`);
+        trigger.setAttribute('aria-haspopup', 'menu');
+        trigger.setAttribute('aria-expanded', 'false');
+        trigger.append(node('span', 'answer-marker', '●'), node('span', 'answer-label'), node('span', 'menu-chevron'));
+        setAnswerButton(trigger, TYPES.includes(savedTypes[item.id]) ? savedTypes[item.id] : '');
+        trigger.addEventListener('click', () => openMenu(trigger, [
+          { value: '', label: '清除選擇' },
+          ...TYPES.map((type) => ({ value: type, label: type }))
+        ], trigger.dataset.value, (value) => {
+          refreshStorageOwner();
+          if (value) savedTypes[item.id] = value;
+          else delete savedTypes[item.id];
+          setAnswerButton(trigger, value);
+          try { safeStorage('localStorage')?.setItem(activeStorageKey, JSON.stringify(savedTypes)); } catch { /* private browsing */ }
+          if (studentSession()) { pendingChoices.set(item.id, value); void flushPendingChoices(); }
+        }));
+        typeCell.append(trigger);
+        row.append(typeCell);
+      }
       fragment.append(row);
     }
     rows.replaceChildren(fragment);
+    if (adminSession.token) renderAdminAnswers();
     filterTask2();
   }
 
@@ -372,6 +592,91 @@
   }
 
   async function start() {
+    const speed = $('playback-speed');
+    const size = $('text-size');
+    const savedSpeed = safeStorage('localStorage')?.getItem(SPEED_KEY);
+    const savedSize = safeStorage('localStorage')?.getItem(SIZE_KEY);
+    if ([...speed.options].some((option) => option.value === savedSpeed)) speed.value = savedSpeed;
+    if ([...size.options].some((option) => option.value === savedSize)) size.value = savedSize;
+    questionAudio.playbackRate = Number(speed.value);
+    $('panel-task2').style.setProperty('--question-scale', size.value);
+    speed.addEventListener('change', () => {
+      questionAudio.playbackRate = Number(speed.value);
+      try { safeStorage('localStorage')?.setItem(SPEED_KEY, speed.value); } catch { /* Preference is optional. */ }
+    });
+    size.addEventListener('change', () => {
+      $('panel-task2').style.setProperty('--question-scale', size.value);
+      try { safeStorage('localStorage')?.setItem(SIZE_KEY, size.value); } catch { /* Preference is optional. */ }
+    });
+    $('login-open').addEventListener('click', () => {
+      $('login-error').hidden = true;
+      $('login-password').value = '';
+      $('login-dialog').showModal();
+      $('login-name').focus();
+    });
+    $('login-close').addEventListener('click', () => $('login-dialog').close());
+    $('login-form').addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const submit = $('login-submit');
+      const role = document.querySelector('[name="login-role"]:checked').value;
+      const name = $('login-name').value.trim();
+      const password = $('login-password').value;
+      submit.disabled = true;
+      $('login-error').hidden = true;
+      try {
+        if (role === 'admin') {
+          const account = await rpc('ielts_preview_admin_login', { p_name: name, p_password: password });
+          if (!account?.token) throw new Error('用戶名稱或密碼不正確。');
+          adminSession = account;
+          sessionStore?.setItem(ADMIN_SESSION_KEY, JSON.stringify(account));
+          adminSlots = [''];
+          onlineStudents = [];
+          adminAnswers = {};
+          refreshAccountUI();
+          renderTask2();
+          void refreshAdmin();
+        } else {
+          const result = await rpc('flashcard_student_login', { p_name: name, p_password: password });
+          const account = Array.isArray(result) ? result[0] : null;
+          if (!account?.session_token) throw new Error('用戶名稱或密碼不正確。');
+          if (adminSession.token) {
+            try { await rpc('ielts_preview_admin_logout', { p_token: adminSession.token }); } catch { /* Session expires server-side. */ }
+            adminSession = {};
+            sessionStore?.removeItem(ADMIN_SESSION_KEY);
+          }
+          const student = { token: account.session_token, id: account.id, name: account.name, role: 'student' };
+          sessionStore?.setItem('edmund-universal-student-session-v1', JSON.stringify(student));
+          window.EdmundSystemNav?.bridgeStudentSession?.(student, true);
+          refreshAccountUI();
+          renderTask2();
+          syncStudentOwner();
+        }
+        $('login-dialog').close();
+      } catch (error) {
+        $('login-error').textContent = error.message || '登入失敗，請重試。';
+        $('login-error').hidden = false;
+      } finally { $('login-password').value = ''; submit.disabled = false; }
+    });
+    $('logout-button').addEventListener('click', async () => {
+      const oldAdmin = adminSession.token;
+      const oldStudent = studentSession();
+      if (oldAdmin) {
+        adminSession = {};
+        sessionStore?.removeItem(ADMIN_SESSION_KEY);
+        void rpc('ielts_preview_admin_logout', { p_token: oldAdmin }).catch(() => {});
+        onlineStudents = [];
+        adminAnswers = {};
+        adminSlots = [''];
+      } else if (oldStudent) {
+        void rpc('ielts_preview_student_leave', { p_token: oldStudent.token, p_device: deviceId }).catch(() => {});
+        window.EdmundSystemNav?.forgetStudentSession?.();
+      }
+      studentOwner = '';
+      pendingChoices.clear();
+      refreshAccountUI();
+      renderTask2();
+    });
+    refreshAccountUI();
     for (const tab of document.querySelectorAll('[data-tab]')) {
       tab.addEventListener('click', () => showTab(tab.dataset.tab));
     }
@@ -386,8 +691,11 @@
       setFilterButton('task2-topic', value || '所有主題');
       filterTask2();
     }));
-    window.addEventListener('edmund-student-session-change', refreshStorageOwner);
-    window.addEventListener('focus', refreshStorageOwner);
+    window.addEventListener('edmund-student-session-change', syncStudentOwner);
+    window.addEventListener('focus', () => { syncStudentOwner(); void refreshAdmin(); void studentHeartbeat(); });
+    document.addEventListener('visibilitychange', () => { if (!document.hidden) { void refreshAdmin(); void studentHeartbeat(); } });
+    window.setInterval(() => { void refreshAdmin(); }, 2000);
+    window.setInterval(() => { void studentHeartbeat(); }, 10000);
     window.addEventListener('storage', (event) => {
       if (event.key === `${activeStorageKey}:task1`) {
         savedTask1 = readStoredObject(safeStorage('localStorage'), event.key);
@@ -395,9 +703,7 @@
       }
       if (event.key === activeStorageKey) {
         savedTypes = readSavedTypes(activeStorageKey);
-        for (const button of document.querySelectorAll('#task2-rows .answer-trigger')) {
-          setAnswerButton(button, TYPES.includes(savedTypes[button.dataset.questionId]) ? savedTypes[button.dataset.questionId] : '');
-        }
+        refreshTask2Buttons();
       }
     });
     $('translation-toggle').addEventListener('click', () => {
@@ -421,6 +727,8 @@
       audioManifest = await audioResponse.json();
       renderTask1();
       renderTask2();
+      syncStudentOwner();
+      if (adminSession.token) void refreshAdmin();
     } catch {
       $('task1-count').textContent = '載入失敗';
       $('task2-count').textContent = '載入失敗';
