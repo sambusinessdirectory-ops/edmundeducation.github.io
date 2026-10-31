@@ -1,7 +1,7 @@
 import {installVocabulary} from './vocabulary.mjs?v=20261031-6';
 import {data,palette,title,format,calculate} from './data.mjs';
 const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const key='edmund-chart-studio-electricity-v1';
+const key='edmund-chart-studio-electricity-v1:'+window.chartStudentId;
 const tenseChoices={'past':'Past tense','present':'Present tense','future':'Future tense','present-perfect':'Present perfect','past-perfect':'Past perfect'};
 let tenses={},tenseYear=null,yearOpener=null;
 let notes={observation:[''],overview:['']};

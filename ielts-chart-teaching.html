@@ -6,14 +6,37 @@
  <meta name="description" content="互動 IELTS 圖表教室：標示趨勢、用顏色分組，以及選取數據進行簡單計算。">
  <meta name="theme-color" content="#234d42"><link rel="canonical" href="https://edmundeducation.com/ielts-chart-teaching.html">
  <link rel="icon" href="/favicon.ico"><link rel="stylesheet" href="/shared-system-nav.css"><link rel="stylesheet" href="/pwa-ui.css">
- <link rel="stylesheet" href="/ielts-chart-teaching/style.css?v=20261031-6">
+ <link rel="stylesheet" href="/ielts-chart-teaching/style.css?v=20261031-7">
+ <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js"></script><script defer src="/supabase-config.js"></script>
  <script defer src="/shared-system-nav.js"></script><script defer src="/pwa-register.js"></script>
- <script type="module" src="/ielts-chart-teaching/app.mjs?v=20261031-6"></script>
+ <script type="module" src="/ielts-chart-teaching/auth.mjs?v=20261031-7"></script>
 </head>
 <body>
  <a class="skip" href="#workspace">跳至圖表</a>
- <header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">E</span><span>EdmundEducation<small>THE CHART STUDIO</small></span></a><div class="edmund-system-switcher" data-edmund-system-switcher data-system="ielts-chart-teaching"><button type="button" class="edmund-system-switcher__trigger" data-system-switcher-trigger aria-label="切換學習系統">所有系統 ⌄</button></div><a class="home-link" href="index.html">返回首頁 ↗</a></header>
- <main>
+  <header class="site-header edmund-system-header">
+    <div class="header-inner edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="ielts-chart-teaching">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy">
+          <strong>EdmundEducation</strong>
+          <small>IELTS 圖表教學系統</small>
+          </span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <div class="header-actions edmund-system-header__actions">
+        <span class="connection-pill" data-connection-status data-state="checking">正在連接</span>
+        <span class="user-pill" data-user-pill hidden></span>
+        <button class="header-button" type="button" data-dashboard-button hidden>學習首頁</button>
+        <button class="header-button" type="button" data-admin-students-button hidden>學生記錄</button>
+        <button class="header-button" type="button" data-logout hidden>登出</button>
+      </div>
+    </div>
+  </header>
+
+ <section id="student-login" class="tool-card"><h1>學生登入</h1><form id="student-login-form"><label>用戶名稱<input name="username" autocomplete="username" required></label><label>密碼<input name="password" type="password" autocomplete="current-password" required></label><button type="submit">登入並開始學習</button><p id="login-status" role="status">正在檢查登入…</p></form></section>
+ <main id="student-workspace" hidden>
   <section class="intro"><div><p class="eyebrow">79 / IELTS WRITING TASK 1</p><h1>IELTS 圖表教學系統</h1><p class="intro-note">看見數據，整理比較。</p></div><span class="lesson-chip"><i></i> 01 · Electricity</span></section>
   <div class="workspace" id="workspace">
    <section class="chart-card" aria-label="互動電力圖表">
