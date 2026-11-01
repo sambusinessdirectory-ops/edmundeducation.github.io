@@ -3141,12 +3141,21 @@
   </style>
   <link rel="stylesheet" href="homepage-review-preview.css?v=20261028-1">
   <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
+  <link rel="stylesheet" href="homepage-loading.css">
   <link rel="stylesheet" href="responsive.css?v=20260504-mobile-1">
 <link rel="stylesheet" href="language-learning.css?v=20260914-six-languages-1">
 <link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261101-morning-strength1">
 </head>
 
-<body>
+<body class="is-homepage-loading">
+  <div class="homepage-loader" data-homepage-loader role="status" aria-busy="true" aria-live="polite">
+    <div class="homepage-loader__art">
+      <img class="homepage-loader__poster" src="homepage-eddy-loading-poster.svg" alt="" width="400" height="400" aria-hidden="true">
+      <div class="homepage-loader__scene" data-homepage-loading-scene aria-hidden="true"></div>
+    </div>
+    <span class="homepage-loader__label">Loading Edmund Education</span>
+  </div>
+  <noscript><style>.homepage-loader { display: none; }</style></noscript>
   <div class="page-loader" data-page-loader aria-hidden="true">
     <img src="assets/homepage-optimized/running-horse-loader.webp" alt="" aria-hidden="true" width="320" height="320" decoding="async">
   </div>
@@ -4324,6 +4333,7 @@
   <script src="homepage-system-directory.js?v=20260813-1"></script>
   <script src="homepage-system-deck.js?v=20260927-ipad6"></script>
   <script src="homepage-language-cards.js?v=20260914-six-languages-1"></script>
+  <script src="homepage-loading.js"></script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
   <script src="announcement-rich-text.js?v=20261021-announcements4"></script>
   <script src="site-announcements.js?v=20261030-eddy1"></script>
