@@ -1,0 +1,23 @@
+{
+  "slug": "thunderstruck",
+  "title": "Thunderstruck",
+  "singer": "AC/DC",
+  "exercise_name": "Thunderstruck · Listening & Vocabulary",
+  "description": "音訊及封面已加入；歌詞翻譯與練習教材待補。",
+  "tags": [
+    "ac/dc",
+    "thunderstruck"
+  ],
+  "translations": [],
+  "exercises": [],
+  "vocabulary": [],
+  "published": false,
+  "audio_url": "https://edmundeducation.com/song-media/thunderstruck/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/thunderstruck/user-cover-20261101.png",
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-081a02bf-e4ef-4f64-b508-b0179479aa33.png",
+    "sha256": "247c5479cf2a40d286e242198b515088054840b9877dc6a970b2904413954c15",
+    "transformations": "none"
+  }
+}

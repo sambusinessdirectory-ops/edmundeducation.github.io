@@ -1,0 +1,3717 @@
+{
+  "title": "Hung Up",
+  "slug": "hung-up",
+  "translations": [
+    {
+      "english": "Time goes by so slowly",
+      "chinese": "時間流逝得如此緩慢",
+      "lineId": "line-1",
+      "startSeconds": 6.48,
+      "endSeconds": 10.72
+    },
+    {
+      "english": "Time goes by so slowly",
+      "chinese": "時間流逝得如此緩慢",
+      "lineId": "line-2",
+      "startSeconds": 10.82,
+      "endSeconds": 14.52
+    },
+    {
+      "english": "Time goes by so slowly",
+      "chinese": "時間流逝得如此緩慢",
+      "lineId": "line-3",
+      "startSeconds": 14.6,
+      "endSeconds": 18.38
+    },
+    {
+      "english": "Time goes by so slowly",
+      "chinese": "時間流逝得如此緩慢",
+      "lineId": "line-4",
+      "startSeconds": 22.3,
+      "endSeconds": 26.04
+    },
+    {
+      "english": "Time goes by so slowly",
+      "chinese": "時間流逝得如此緩慢",
+      "lineId": "line-5"
+    },
+    {
+      "english": "Time goes by so slowly",
+      "chinese": "時間流逝得如此緩慢",
+      "lineId": "line-6"
+    },
+    {
+      "english": "Every little thing that you say or do",
+      "chinese": "你說的每一句話、做的每一件小事",
+      "lineId": "line-7",
+      "startSeconds": 60.74,
+      "endSeconds": 64.18
+    },
+    {
+      "english": "I'm hung up, I'm hung up on you",
+      "chinese": "都讓我如此著迷，對你念念不忘",
+      "lineId": "line-8",
+      "startSeconds": 64.18,
+      "endSeconds": 68.22
+    },
+    {
+      "english": "Waiting for your call, baby, night and day",
+      "chinese": "親愛的，我日夜守候著你的來電",
+      "lineId": "line-9",
+      "startSeconds": 68.22,
+      "endSeconds": 71.86
+    },
+    {
+      "english": "I'm fed up, I'm tired of waiting on you",
+      "chinese": "我已經受夠了，厭倦了這樣苦苦等你",
+      "lineId": "line-10",
+      "startSeconds": 72.12,
+      "endSeconds": 76.24
+    },
+    {
+      "english": "Time goes by so slowly for those who wait",
+      "chinese": "對苦苦等待的人而言，時間總是過得格外緩慢",
+      "lineId": "line-11",
+      "startSeconds": 76.24,
+      "endSeconds": 80.54
+    },
+    {
+      "english": "No time to hesitate",
+      "chinese": "已經沒有時間再猶豫不決",
+      "lineId": "line-12",
+      "startSeconds": 80.54,
+      "endSeconds": 83.34
+    },
+    {
+      "english": "Those who run seem to have all the fun",
+      "chinese": "那些勇於向前奔跑的人，似乎才能盡享人生的樂趣",
+      "lineId": "line-13",
+      "startSeconds": 83.34,
+      "endSeconds": 87.14
+    },
+    {
+      "english": "I'm caught up, I don't know what to do",
+      "chinese": "而我卻深陷其中，不知該如何是好",
+      "lineId": "line-14",
+      "startSeconds": 87.14,
+      "endSeconds": 91.48
+    },
+    {
+      "english": "Time goes by so slowly",
+      "chinese": "時間流逝得如此緩慢",
+      "lineId": "line-15",
+      "startSeconds": 91.48,
+      "endSeconds": 95.2
+    },
+    {
+      "english": "Time goes by so slowly",
+      "chinese": "時間流逝得如此緩慢",
+      "lineId": "line-16",
+      "startSeconds": 95.48,
+      "endSeconds": 98.98
+    },
+    {
+      "english": "Time goes by so slowly",
+      "chinese": "時間流逝得如此緩慢",
+      "lineId": "line-17",
+      "startSeconds": 99.38,
+      "endSeconds": 102.82
+    },
+    {
+      "english": "I don't know what to do",
+      "chinese": "我不知道該如何是好",
+      "lineId": "line-18",
+      "startSeconds": 102.82,
+      "endSeconds": 106.98
+    },
+    {
+      "english": "Every little thing that you say or do",
+      "chinese": "你說的每一句話、做的每一件小事",
+      "lineId": "line-19",
+      "startSeconds": 106.98,
+      "endSeconds": 110.16
+    },
+    {
+      "english": "I'm hung up, I'm hung up on you",
+      "chinese": "都讓我如此著迷，對你念念不忘",
+      "lineId": "line-20"
+    },
+    {
+      "english": "Waiting for your call, baby, night and day",
+      "chinese": "親愛的，我日夜守候著你的來電",
+      "lineId": "line-21",
+      "startSeconds": 114.24,
+      "endSeconds": 117.98
+    },
+    {
+      "english": "I'm fed up, I'm tired of waiting on you",
+      "chinese": "我已經受夠了，厭倦了這樣苦苦等你",
+      "lineId": "line-22",
+      "startSeconds": 117.98,
+      "endSeconds": 122.1
+    },
+    {
+      "english": "Every little thing that you say or do",
+      "chinese": "你說的每一句話、做的每一件小事",
+      "lineId": "line-23",
+      "startSeconds": 122.1,
+      "endSeconds": 125.56
+    },
+    {
+      "english": "I'm hung up, I'm hung up on you",
+      "chinese": "都讓我如此著迷，對你念念不忘",
+      "lineId": "line-24"
+    },
+    {
+      "english": "Waiting for your call, baby, night and day",
+      "chinese": "親愛的，我日夜守候著你的來電",
+      "lineId": "line-25",
+      "startSeconds": 129.86,
+      "endSeconds": 133.3
+    },
+    {
+      "english": "I'm fed up, I'm tired of waiting on you",
+      "chinese": "我已經受夠了，厭倦了這樣苦苦等你",
+      "lineId": "line-26",
+      "startSeconds": 133.3,
+      "endSeconds": 137.66
+    },
+    {
+      "english": "Ring, ring, ring goes the telephone",
+      "chinese": "鈴、鈴、鈴，電話鈴聲響個不停",
+      "lineId": "line-27",
+      "startSeconds": 137.66,
+      "endSeconds": 140.68
+    },
+    {
+      "english": "The lights are on, but there's no one home",
+      "chinese": "燈雖然亮著，屋裡卻空無一人",
+      "lineId": "line-28",
+      "startSeconds": 140.68,
+      "endSeconds": 145.16
+    },
+    {
+      "english": "Tick tick tock, it's a quarter to two",
+      "chinese": "滴答、滴答，時鐘已指向一點四十五分",
+      "lineId": "line-29",
+      "startSeconds": 145.16,
+      "endSeconds": 148.6
+    },
+    {
+      "english": "And I'm done, I'm hanging up on you",
+      "chinese": "我受夠了，這次我要掛斷你的電話，不再等你",
+      "lineId": "line-30",
+      "startSeconds": 148.6,
+      "endSeconds": 152.66
+    },
+    {
+      "english": "I can't keep on waiting for you",
+      "chinese": "我不能再這樣一直等下去了",
+      "lineId": "line-31",
+      "startSeconds": 153.7,
+      "endSeconds": 159.58
+    },
+    {
+      "english": "I know that you're still hesitating",
+      "chinese": "我知道，你依然猶豫不決",
+      "lineId": "line-32",
+      "startSeconds": 160.78,
+      "endSeconds": 165.78
+    },
+    {
+      "english": "Don't cry for me, 'cause I'll find my way",
+      "chinese": "別為我哭泣，因為我會找到屬於自己的道路",
+      "lineId": "line-33",
+      "startSeconds": 168.64,
+      "endSeconds": 174.96
+    },
+    {
+      "english": "You'll wake up one day, but it'll be too late",
+      "chinese": "總有一天你會幡然醒悟，但那時一切都已太遲",
+      "lineId": "line-34",
+      "startSeconds": 176.64,
+      "endSeconds": 184.22
+    },
+    {
+      "english": "Every little thing that you say or do",
+      "chinese": "你說的每一句話、做的每一件小事",
+      "lineId": "line-35",
+      "startSeconds": 184.22,
+      "endSeconds": 187.04
+    },
+    {
+      "english": "I'm hung up, I'm hung up on you",
+      "chinese": "都讓我如此著迷，對你念念不忘",
+      "lineId": "line-36"
+    },
+    {
+      "english": "Waiting for your call, baby, night and day",
+      "chinese": "親愛的，我日夜守候著你的來電",
+      "lineId": "line-37",
+      "startSeconds": 191.0,
+      "endSeconds": 194.72
+    },
+    {
+      "english": "I'm fed up, I'm tired of waiting on you",
+      "chinese": "我已經受夠了，厭倦了這樣苦苦等你",
+      "lineId": "line-38"
+    },
+    {
+      "english": "Every little thing that you say or do",
+      "chinese": "你說的每一句話、做的每一件小事",
+      "lineId": "line-39"
+    },
+    {
+      "english": "I'm hung up, I'm hung up on you",
+      "chinese": "都讓我如此著迷，對你念念不忘",
+      "lineId": "line-40"
+    },
+    {
+      "english": "Waiting for your call, baby, night and day",
+      "chinese": "親愛的，我日夜守候著你的來電",
+      "lineId": "line-41",
+      "startSeconds": 206.66,
+      "endSeconds": 210.16
+    },
+    {
+      "english": "I'm fed up, I'm tired of waiting on you",
+      "chinese": "我已經受夠了，厭倦了這樣苦苦等你",
+      "lineId": "line-42"
+    },
+    {
+      "english": "Every little thing, every little thing",
+      "chinese": "每一件小事，每一件微不足道的小事",
+      "lineId": "line-43",
+      "startSeconds": 214.1,
+      "endSeconds": 217.68
+    },
+    {
+      "english": "I'm hung up, I'm hung up on you",
+      "chinese": "都讓我如此著迷，對你念念不忘",
+      "lineId": "line-44",
+      "startSeconds": 217.68,
+      "endSeconds": 222.02
+    },
+    {
+      "english": "Waiting for your call, waiting for your call",
+      "chinese": "等著你的來電，一直等著你的來電",
+      "lineId": "line-45",
+      "startSeconds": 222.02,
+      "endSeconds": 225.4
+    },
+    {
+      "english": "I'm fed up, I'm tired of waiting on you",
+      "chinese": "我已經受夠了，厭倦了這樣苦苦等你",
+      "lineId": "line-46",
+      "startSeconds": 225.4,
+      "endSeconds": 229.9
+    },
+    {
+      "english": "Time goes by so slowly",
+      "chinese": "時間流逝得如此緩慢",
+      "lineId": "line-47"
+    },
+    {
+      "english": "Time goes by so slowly",
+      "chinese": "時間流逝得如此緩慢",
+      "lineId": "line-48",
+      "startSeconds": 264.24,
+      "endSeconds": 268.0
+    },
+    {
+      "english": "Time goes by so slowly",
+      "chinese": "時間流逝得如此緩慢",
+      "lineId": "line-49",
+      "startSeconds": 268.58,
+      "endSeconds": 271.72
+    },
+    {
+      "english": "Time goes by so slowly, so slowly",
+      "chinese": "時間流逝得如此緩慢，如此緩慢",
+      "lineId": "line-50"
+    },
+    {
+      "english": "So slowly, so slowly, so slowly",
+      "chinese": "如此緩慢，如此緩慢，如此緩慢",
+      "lineId": "line-51"
+    },
+    {
+      "english": "So slowly, so slowly, so slowly",
+      "chinese": "如此緩慢，如此緩慢，如此緩慢",
+      "lineId": "line-52"
+    },
+    {
+      "english": "So slowly, so slowly, so slowly",
+      "chinese": "如此緩慢，如此緩慢，如此緩慢",
+      "lineId": "line-53"
+    },
+    {
+      "english": "So slowly, so slowly, so slowly, so...",
+      "chinese": "如此緩慢，如此緩慢，如此緩慢，慢得……",
+      "lineId": "line-54"
+    },
+    {
+      "english": "I don't know what to do",
+      "chinese": "我不知道該如何是好",
+      "lineId": "line-55"
+    },
+    {
+      "english": "Every little thing that you say or do",
+      "chinese": "你說的每一句話、做的每一件小事",
+      "lineId": "line-56",
+      "startSeconds": 290.74,
+      "endSeconds": 294.52
+    },
+    {
+      "english": "I'm hung up, I'm hung up on you",
+      "chinese": "都讓我如此著迷，對你念念不忘",
+      "lineId": "line-57"
+    },
+    {
+      "english": "Waiting for your call, baby, night and day",
+      "chinese": "親愛的，我日夜守候著你的來電",
+      "lineId": "line-58"
+    },
+    {
+      "english": "I'm fed up, I'm tired of waiting on you",
+      "chinese": "我已經受夠了，厭倦了這樣苦苦等你",
+      "lineId": "line-59",
+      "startSeconds": 302.12,
+      "endSeconds": 306.22
+    },
+    {
+      "english": "Every little thing that you say or do",
+      "chinese": "你說的每一句話、做的每一件小事",
+      "lineId": "line-60",
+      "startSeconds": 306.22,
+      "endSeconds": 309.94
+    },
+    {
+      "english": "I'm hung up, I'm hung up on you",
+      "chinese": "都讓我如此著迷，對你念念不忘",
+      "lineId": "line-61"
+    },
+    {
+      "english": "Waiting for your call, baby, night and day",
+      "chinese": "親愛的，我日夜守候著你的來電",
+      "lineId": "line-62"
+    },
+    {
+      "english": "I'm fed up, I'm tired of waiting on you",
+      "chinese": "我已經受夠了，厭倦了這樣苦苦等你",
+      "lineId": "line-63",
+      "startSeconds": 317.58,
+      "endSeconds": 321.7
+    },
+    {
+      "english": "Every little thing, every little thing",
+      "chinese": "每一件小事，每一件微不足道的小事",
+      "lineId": "line-64",
+      "startSeconds": 321.7,
+      "endSeconds": 325.14
+    },
+    {
+      "english": "I'm hung up, I'm hung up on you",
+      "chinese": "都讓我如此著迷，對你念念不忘",
+      "lineId": "line-65"
+    },
+    {
+      "english": "Waiting for your call, waiting for your call",
+      "chinese": "等著你的來電，一直等著你的來電",
+      "lineId": "line-66",
+      "startSeconds": 329.46,
+      "endSeconds": 332.98
+    },
+    {
+      "english": "I'm fed up, I'm tired of waiting on you",
+      "chinese": "我已經受夠了，厭倦了這樣苦苦等你",
+      "lineId": "line-67"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "so slowly",
+          "options": [
+            "so quickly",
+            "too loudly",
+            "so slowly"
+          ],
+          "prompt": "Time goes by {{blank}}",
+          "promptZh": "時間流逝得如此緩慢"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "Time goes by",
+          "options": [
+            "Days drift away",
+            "Life passes on",
+            "Time goes by"
+          ],
+          "prompt": "{{blank}} so slowly",
+          "promptZh": "時間流逝得如此緩慢"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-7",
+          "answer": "Every little thing",
+          "options": [
+            "Every other day",
+            "Every little thing",
+            "Every single night"
+          ],
+          "prompt": "{{blank}} that you say or do",
+          "promptZh": "你說的每一句話、做的每一件小事"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-8",
+          "answer": "I'm hung up",
+          "options": [
+            "I'm hung up",
+            "I'm giving up",
+            "I'm waking up"
+          ],
+          "prompt": "{{blank}}, I'm hung up on you",
+          "promptZh": "都讓我如此著迷，對你念念不忘"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-9",
+          "answer": "Waiting for your call",
+          "options": [
+            "Waiting for your call",
+            "Looking for your face",
+            "Listening to your song"
+          ],
+          "prompt": "{{blank}}, baby, night and day",
+          "promptZh": "親愛的，我日夜守候著你的來電"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-10",
+          "answer": "I'm fed up",
+          "options": [
+            "I'm all right",
+            "I'm fed up",
+            "I'm in love"
+          ],
+          "prompt": "{{blank}}, I'm tired of waiting on you",
+          "promptZh": "我已經受夠了，厭倦了這樣苦苦等你"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-11",
+          "answer": "those who wait",
+          "options": [
+            "those who leave",
+            "those who wait",
+            "people who dance"
+          ],
+          "prompt": "Time goes by so slowly for {{blank}}",
+          "promptZh": "對苦苦等待的人而言，時間總是過得格外緩慢"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-12",
+          "answer": "hesitate",
+          "options": [
+            "celebrate",
+            "run away",
+            "hesitate"
+          ],
+          "prompt": "No time to {{blank}}",
+          "promptZh": "已經沒有時間再猶豫不決"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-13",
+          "answer": "all the fun",
+          "options": [
+            "every chance",
+            "all the time",
+            "all the fun"
+          ],
+          "prompt": "Those who run seem to have {{blank}} ",
+          "promptZh": "那些勇於向前奔跑的人，似乎才能盡享人生的樂趣"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-14",
+          "answer": "I'm caught up",
+          "options": [
+            "I'm moving on",
+            "I'm caught up",
+            "I'm worn out"
+          ],
+          "prompt": "{{blank}}, I don't know what to do",
+          "promptZh": "而我卻深陷其中，不知該如何是好"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-18",
+          "answer": "I don't know what to do",
+          "options": [
+            "I don't know what to do",
+            "I know just what to say",
+            "I don't want to go"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我不知道該如何是好"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-20",
+          "answer": "hung up on you",
+          "options": [
+            "hung up on you",
+            "running after you",
+            "giving up on love"
+          ],
+          "prompt": "I'm hung up, I'm {{blank}}",
+          "promptZh": "都讓我如此著迷，對你念念不忘"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-23",
+          "answer": "Every little thing",
+          "options": [
+            "All the lonely nights",
+            "Every little thing",
+            "Every single moment"
+          ],
+          "prompt": "{{blank}} that you say or do",
+          "promptZh": "你說的每一句話、做的每一件小事"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-26",
+          "answer": "tired of waiting",
+          "options": [
+            "ready for dancing",
+            "scared of falling",
+            "tired of waiting"
+          ],
+          "prompt": "I'm fed up, I'm {{blank}} on you",
+          "promptZh": "我已經受夠了，厭倦了這樣苦苦等你"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-27",
+          "answer": "goes the telephone",
+          "options": [
+            "goes the telephone",
+            "rings the doorbell",
+            "plays the radio"
+          ],
+          "prompt": "Ring, ring, ring {{blank}}",
+          "promptZh": "鈴、鈴、鈴，電話鈴聲響個不停"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-28",
+          "answer": "there's no one home",
+          "options": [
+            "the room is crowded",
+            "there's someone waiting",
+            "there's no one home"
+          ],
+          "prompt": "The lights are on, but {{blank}}",
+          "promptZh": "燈雖然亮著，屋裡卻空無一人"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-29",
+          "answer": "a quarter to two",
+          "options": [
+            "half past eleven",
+            "a quarter to two",
+            "a minute past three"
+          ],
+          "prompt": "Tick tick tock, it's {{blank}}",
+          "promptZh": "滴答、滴答，時鐘已指向一點四十五分"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-30",
+          "answer": "I'm hanging up on you",
+          "options": [
+            "I'm hanging up on you",
+            "I'm coming back to you",
+            "I'm holding on to you"
+          ],
+          "prompt": "And I'm done, {{blank}}",
+          "promptZh": "我受夠了，這次我要掛斷你的電話，不再等你"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-31",
+          "answer": "keep on waiting",
+          "options": [
+            "keep on waiting",
+            "stop believing",
+            "keep on dancing"
+          ],
+          "prompt": "I can't {{blank}} for you",
+          "promptZh": "我不能再這樣一直等下去了"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-34",
+          "answer": "it'll be too late",
+          "options": [
+            "we'll be all right",
+            "it'll be too late",
+            "you'll have more time"
+          ],
+          "prompt": "You'll wake up one day, but {{blank}}",
+          "promptZh": "總有一天你會幡然醒悟，但那時一切都已太遲"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Time goes by {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:2}} so slowly"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:3}} that you say or do"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:4}}, I'm hung up on you"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:5}}, baby, night and day"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:6}}, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Time goes by so slowly for {{q:7}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "No time to {{q:8}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Those who run seem to have {{q:9}} "
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:10}}, I don't know what to do"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:11}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Every little thing that you say or do"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I'm hung up, I'm {{q:12}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:13}} that you say or do"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I'm fed up, I'm {{q:14}} on you"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Ring, ring, ring {{q:15}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "The lights are on, but {{q:16}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Tick tick tock, it's {{q:17}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "And I'm done, {{q:18}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I can't {{q:19}} for you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I know that you're still hesitating"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Don't cry for me, 'cause I'll find my way"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "You'll wake up one day, but {{q:20}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Every little thing that you say or do"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Every little thing that you say or do"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Every little thing, every little thing"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Waiting for your call, waiting for your call"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Time goes by so slowly, so slowly"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "So slowly, so slowly, so slowly"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "So slowly, so slowly, so slowly"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "So slowly, so slowly, so slowly"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "So slowly, so slowly, so slowly, so..."
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "I don't know what to do"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Every little thing that you say or do"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Every little thing that you say or do"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "Every little thing, every little thing"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "Waiting for your call, waiting for your call"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "so slowly",
+          "options": [
+            "so quickly",
+            "too loudly",
+            "so slowly"
+          ],
+          "prompt": "Time goes by {{blank}}",
+          "promptZh": "時間流逝得如此緩慢"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "Time goes by so slowly",
+          "options": [
+            "The nights feel so lonely",
+            "The days go by so quickly",
+            "Time goes by so slowly"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "時間流逝得如此緩慢"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "Time goes by",
+          "options": [
+            "Time goes by",
+            "Days drift away",
+            "Life passes on"
+          ],
+          "prompt": "{{blank}} so slowly",
+          "promptZh": "時間流逝得如此緩慢"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-7",
+          "answer": "Every little thing",
+          "options": [
+            "Every single night",
+            "Every other day",
+            "Every little thing"
+          ],
+          "prompt": "{{blank}} that you say or do",
+          "promptZh": "你說的每一句話、做的每一件小事"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-7",
+          "answer": "that you say or do",
+          "options": [
+            "that you hear or see",
+            "that you say or do",
+            "that you need from me"
+          ],
+          "prompt": "Every little thing {{blank}}",
+          "promptZh": "你說的每一句話、做的每一件小事"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-8",
+          "answer": "I'm hung up",
+          "options": [
+            "I'm hung up",
+            "I'm giving up",
+            "I'm waking up"
+          ],
+          "prompt": "{{blank}}, I'm hung up on you",
+          "promptZh": "都讓我如此著迷，對你念念不忘"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-9",
+          "answer": "Waiting for your call",
+          "options": [
+            "Listening to your song",
+            "Waiting for your call",
+            "Looking for your face"
+          ],
+          "prompt": "{{blank}}, baby, night and day",
+          "promptZh": "親愛的，我日夜守候著你的來電"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-9",
+          "answer": "night and day",
+          "options": [
+            "all the time",
+            "night and day",
+            "day by day"
+          ],
+          "prompt": "Waiting for your call, baby, {{blank}}",
+          "promptZh": "親愛的，我日夜守候著你的來電"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-10",
+          "answer": "I'm fed up",
+          "options": [
+            "I'm all right",
+            "I'm in love",
+            "I'm fed up"
+          ],
+          "prompt": "{{blank}}, I'm tired of waiting on you",
+          "promptZh": "我已經受夠了，厭倦了這樣苦苦等你"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-11",
+          "answer": "Time goes by so slowly",
+          "options": [
+            "Time runs away too quickly",
+            "Time goes by so slowly",
+            "Life goes on without me"
+          ],
+          "prompt": "{{blank}} for those who wait",
+          "promptZh": "對苦苦等待的人而言，時間總是過得格外緩慢"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "those who wait",
+          "options": [
+            "those who wait",
+            "people who dance",
+            "those who leave"
+          ],
+          "prompt": "Time goes by so slowly for {{blank}}",
+          "promptZh": "對苦苦等待的人而言，時間總是過得格外緩慢"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "hesitate",
+          "options": [
+            "hesitate",
+            "celebrate",
+            "run away"
+          ],
+          "prompt": "No time to {{blank}}",
+          "promptZh": "已經沒有時間再猶豫不決"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "Those who run",
+          "options": [
+            "Those who stay",
+            "People who wait",
+            "Those who run"
+          ],
+          "prompt": "{{blank}} seem to have all the fun ",
+          "promptZh": "那些勇於向前奔跑的人，似乎才能盡享人生的樂趣"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-13",
+          "answer": "all the fun",
+          "options": [
+            "all the fun",
+            "all the time",
+            "every chance"
+          ],
+          "prompt": "Those who run seem to have {{blank}} ",
+          "promptZh": "那些勇於向前奔跑的人，似乎才能盡享人生的樂趣"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-14",
+          "answer": "I'm caught up",
+          "options": [
+            "I'm caught up",
+            "I'm moving on",
+            "I'm worn out"
+          ],
+          "prompt": "{{blank}}, I don't know what to do",
+          "promptZh": "而我卻深陷其中，不知該如何是好"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-14",
+          "answer": "don't know what to do",
+          "options": [
+            "know just what to say",
+            "can't see where to go",
+            "don't know what to do"
+          ],
+          "prompt": "I'm caught up, I {{blank}}",
+          "promptZh": "而我卻深陷其中，不知該如何是好"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "I don't know what to do",
+          "options": [
+            "I don't want to go",
+            "I know just what to say",
+            "I don't know what to do"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我不知道該如何是好"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "Every little thing",
+          "options": [
+            "Every little thing",
+            "Every single day",
+            "Every other night"
+          ],
+          "prompt": "{{blank}} that you say or do",
+          "promptZh": "你說的每一句話、做的每一件小事"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-20",
+          "answer": "hung up on you",
+          "options": [
+            "running after you",
+            "giving up on love",
+            "hung up on you"
+          ],
+          "prompt": "I'm hung up, I'm {{blank}}",
+          "promptZh": "都讓我如此著迷，對你念念不忘"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-22",
+          "answer": "waiting on you",
+          "options": [
+            "waiting on you",
+            "thinking of her",
+            "running from you"
+          ],
+          "prompt": "I'm fed up, I'm tired of {{blank}}",
+          "promptZh": "我已經受夠了，厭倦了這樣苦苦等你"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-23",
+          "answer": "Every little thing",
+          "options": [
+            "Every single moment",
+            "Every little thing",
+            "All the lonely nights"
+          ],
+          "prompt": "{{blank}} that you say or do",
+          "promptZh": "你說的每一句話、做的每一件小事"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-26",
+          "answer": "tired of waiting",
+          "options": [
+            "scared of falling",
+            "tired of waiting",
+            "ready for dancing"
+          ],
+          "prompt": "I'm fed up, I'm {{blank}} on you",
+          "promptZh": "我已經受夠了，厭倦了這樣苦苦等你"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-27",
+          "answer": "goes the telephone",
+          "options": [
+            "goes the telephone",
+            "rings the doorbell",
+            "plays the radio"
+          ],
+          "prompt": "Ring, ring, ring {{blank}}",
+          "promptZh": "鈴、鈴、鈴，電話鈴聲響個不停"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-28",
+          "answer": "The lights are on",
+          "options": [
+            "The doors are closed",
+            "The lights are on",
+            "The music is loud"
+          ],
+          "prompt": "{{blank}}, but there's no one home",
+          "promptZh": "燈雖然亮著，屋裡卻空無一人"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-28",
+          "answer": "there's no one home",
+          "options": [
+            "there's no one home",
+            "there's someone waiting",
+            "the room is crowded"
+          ],
+          "prompt": "The lights are on, but {{blank}}",
+          "promptZh": "燈雖然亮著，屋裡卻空無一人"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-29",
+          "answer": "a quarter to two",
+          "options": [
+            "half past eleven",
+            "a minute past three",
+            "a quarter to two"
+          ],
+          "prompt": "Tick tick tock, it's {{blank}}",
+          "promptZh": "滴答、滴答，時鐘已指向一點四十五分"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-30",
+          "answer": "I'm hanging up on you",
+          "options": [
+            "I'm coming back to you",
+            "I'm hanging up on you",
+            "I'm holding on to you"
+          ],
+          "prompt": "And I'm done, {{blank}}",
+          "promptZh": "我受夠了，這次我要掛斷你的電話，不再等你"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-31",
+          "answer": "keep on waiting",
+          "options": [
+            "stop believing",
+            "keep on waiting",
+            "keep on dancing"
+          ],
+          "prompt": "I can't {{blank}} for you",
+          "promptZh": "我不能再這樣一直等下去了"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-32",
+          "answer": "you're still hesitating",
+          "options": [
+            "you're already leaving",
+            "you're finally deciding",
+            "you're still hesitating"
+          ],
+          "prompt": "I know that {{blank}}",
+          "promptZh": "我知道，你依然猶豫不決"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-33",
+          "answer": "I'll find my way",
+          "options": [
+            "I'll stay right here",
+            "I'll find my way",
+            "I'll lose my mind"
+          ],
+          "prompt": "Don't cry for me, 'cause {{blank}}",
+          "promptZh": "別為我哭泣，因為我會找到屬於自己的道路"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-34",
+          "answer": "it'll be too late",
+          "options": [
+            "we'll be all right",
+            "it'll be too late",
+            "you'll have more time"
+          ],
+          "prompt": "You'll wake up one day, but {{blank}}",
+          "promptZh": "總有一天你會幡然醒悟，但那時一切都已太遲"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-45",
+          "answer": "Waiting for your call",
+          "options": [
+            "Waiting for your call",
+            "Looking for the sun",
+            "Hoping for a sign"
+          ],
+          "prompt": "{{blank}}, waiting for your call",
+          "promptZh": "等著你的來電，一直等著你的來電"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Time goes by {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}} so slowly"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:4}} {{q:5}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:6}}, I'm hung up on you"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:7}}, baby, {{q:8}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:9}}, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:10}} for {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "No time to {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:13}} seem to have {{q:14}} "
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:15}}, I {{q:16}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:18}} that you say or do"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I'm hung up, I'm {{q:19}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I'm fed up, I'm tired of {{q:20}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:21}} that you say or do"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I'm fed up, I'm {{q:22}} on you"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Ring, ring, ring {{q:23}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:24}}, but {{q:25}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Tick tick tock, it's {{q:26}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "And I'm done, {{q:27}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I can't {{q:28}} for you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I know that {{q:29}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Don't cry for me, 'cause {{q:30}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "You'll wake up one day, but {{q:31}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Every little thing that you say or do"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Every little thing that you say or do"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Every little thing, every little thing"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "{{q:32}}, waiting for your call"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Time goes by so slowly, so slowly"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "So slowly, so slowly, so slowly"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "So slowly, so slowly, so slowly"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "So slowly, so slowly, so slowly"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "So slowly, so slowly, so slowly, so..."
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "I don't know what to do"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Every little thing that you say or do"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Every little thing that you say or do"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "Every little thing, every little thing"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "Waiting for your call, waiting for your call"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "so slowly",
+          "options": [
+            "too loudly",
+            "so slowly",
+            "so quickly"
+          ],
+          "prompt": "Time goes by {{blank}}",
+          "promptZh": "時間流逝得如此緩慢"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "Time goes by so slowly",
+          "options": [
+            "The days go by so quickly",
+            "Time goes by so slowly",
+            "The nights feel so lonely"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "時間流逝得如此緩慢"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "Time goes by",
+          "options": [
+            "Days drift away",
+            "Life passes on",
+            "Time goes by"
+          ],
+          "prompt": "{{blank}} so slowly",
+          "promptZh": "時間流逝得如此緩慢"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "Time goes by so slowly",
+          "options": [
+            "Time goes by so slowly",
+            "The world turns upside down",
+            "Time moves much too fast"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "時間流逝得如此緩慢"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-7",
+          "answer": "Every little thing",
+          "options": [
+            "Every other day",
+            "Every single night",
+            "Every little thing"
+          ],
+          "prompt": "{{blank}} that you say or do",
+          "promptZh": "你說的每一句話、做的每一件小事"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "that you say or do",
+          "options": [
+            "that you say or do",
+            "that you need from me",
+            "that you hear or see"
+          ],
+          "prompt": "Every little thing {{blank}}",
+          "promptZh": "你說的每一句話、做的每一件小事"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "I'm hung up",
+          "options": [
+            "I'm waking up",
+            "I'm hung up",
+            "I'm giving up"
+          ],
+          "prompt": "{{blank}}, I'm hung up on you",
+          "promptZh": "都讓我如此著迷，對你念念不忘"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "on you",
+          "options": [
+            "for me",
+            "on you",
+            "with her"
+          ],
+          "prompt": "I'm hung up, I'm hung up {{blank}}",
+          "promptZh": "都讓我如此著迷，對你念念不忘"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "Waiting for your call",
+          "options": [
+            "Waiting for your call",
+            "Looking for your face",
+            "Listening to your song"
+          ],
+          "prompt": "{{blank}}, baby, night and day",
+          "promptZh": "親愛的，我日夜守候著你的來電"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-9",
+          "answer": "night and day",
+          "options": [
+            "day by day",
+            "night and day",
+            "all the time"
+          ],
+          "prompt": "Waiting for your call, baby, {{blank}}",
+          "promptZh": "親愛的，我日夜守候著你的來電"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-10",
+          "answer": "I'm fed up",
+          "options": [
+            "I'm all right",
+            "I'm in love",
+            "I'm fed up"
+          ],
+          "prompt": "{{blank}}, I'm tired of waiting on you",
+          "promptZh": "我已經受夠了，厭倦了這樣苦苦等你"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-10",
+          "answer": "I'm tired of waiting on you",
+          "options": [
+            "I'm tired of waiting on you",
+            "I'm ready to dance without you",
+            "I'm afraid of losing my way"
+          ],
+          "prompt": "I'm fed up, {{blank}}",
+          "promptZh": "我已經受夠了，厭倦了這樣苦苦等你"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-11",
+          "answer": "Time goes by so slowly",
+          "options": [
+            "Life goes on without me",
+            "Time goes by so slowly",
+            "Time runs away too quickly"
+          ],
+          "prompt": "{{blank}} for those who wait",
+          "promptZh": "對苦苦等待的人而言，時間總是過得格外緩慢"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-11",
+          "answer": "those who wait",
+          "options": [
+            "those who leave",
+            "people who dance",
+            "those who wait"
+          ],
+          "prompt": "Time goes by so slowly for {{blank}}",
+          "promptZh": "對苦苦等待的人而言，時間總是過得格外緩慢"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-12",
+          "answer": "hesitate",
+          "options": [
+            "celebrate",
+            "run away",
+            "hesitate"
+          ],
+          "prompt": "No time to {{blank}}",
+          "promptZh": "已經沒有時間再猶豫不決"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-13",
+          "answer": "Those who run",
+          "options": [
+            "Those who stay",
+            "Those who run",
+            "People who wait"
+          ],
+          "prompt": "{{blank}} seem to have all the fun ",
+          "promptZh": "那些勇於向前奔跑的人，似乎才能盡享人生的樂趣"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-13",
+          "answer": "all the fun",
+          "options": [
+            "all the time",
+            "every chance",
+            "all the fun"
+          ],
+          "prompt": "Those who run seem to have {{blank}} ",
+          "promptZh": "那些勇於向前奔跑的人，似乎才能盡享人生的樂趣"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-14",
+          "answer": "I'm caught up",
+          "options": [
+            "I'm moving on",
+            "I'm caught up",
+            "I'm worn out"
+          ],
+          "prompt": "{{blank}}, I don't know what to do",
+          "promptZh": "而我卻深陷其中，不知該如何是好"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-14",
+          "answer": "don't know what to do",
+          "options": [
+            "know just what to say",
+            "can't see where to go",
+            "don't know what to do"
+          ],
+          "prompt": "I'm caught up, I {{blank}}",
+          "promptZh": "而我卻深陷其中，不知該如何是好"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-15",
+          "answer": "Time goes by so slowly",
+          "options": [
+            "The days pass by so quickly",
+            "Time goes by so slowly",
+            "The nights feel so empty"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "時間流逝得如此緩慢"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-18",
+          "answer": "I don't know what to do",
+          "options": [
+            "I don't know what to do",
+            "I don't want to go",
+            "I know just what to say"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我不知道該如何是好"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-19",
+          "answer": "Every little thing",
+          "options": [
+            "Every other night",
+            "Every little thing",
+            "Every single day"
+          ],
+          "prompt": "{{blank}} that you say or do",
+          "promptZh": "你說的每一句話、做的每一件小事"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-20",
+          "answer": "hung up on you",
+          "options": [
+            "hung up on you",
+            "running after you",
+            "giving up on love"
+          ],
+          "prompt": "I'm hung up, I'm {{blank}}",
+          "promptZh": "都讓我如此著迷，對你念念不忘"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-21",
+          "answer": "baby, night and day",
+          "options": [
+            "darling, day after day",
+            "honey, every weekend",
+            "baby, night and day"
+          ],
+          "prompt": "Waiting for your call, {{blank}}",
+          "promptZh": "親愛的，我日夜守候著你的來電"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-22",
+          "answer": "waiting on you",
+          "options": [
+            "running from you",
+            "thinking of her",
+            "waiting on you"
+          ],
+          "prompt": "I'm fed up, I'm tired of {{blank}}",
+          "promptZh": "我已經受夠了，厭倦了這樣苦苦等你"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-23",
+          "answer": "Every little thing",
+          "options": [
+            "Every little thing",
+            "All the lonely nights",
+            "Every single moment"
+          ],
+          "prompt": "{{blank}} that you say or do",
+          "promptZh": "你說的每一句話、做的每一件小事"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-26",
+          "answer": "tired of waiting",
+          "options": [
+            "tired of waiting",
+            "scared of falling",
+            "ready for dancing"
+          ],
+          "prompt": "I'm fed up, I'm {{blank}} on you",
+          "promptZh": "我已經受夠了，厭倦了這樣苦苦等你"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-27",
+          "answer": "Ring, ring, ring",
+          "options": [
+            "Run, run, run",
+            "Ring, ring, ring",
+            "Sing, sing, sing"
+          ],
+          "prompt": "{{blank}} goes the telephone",
+          "promptZh": "鈴、鈴、鈴，電話鈴聲響個不停"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-27",
+          "answer": "goes the telephone",
+          "options": [
+            "goes the telephone",
+            "plays the radio",
+            "rings the doorbell"
+          ],
+          "prompt": "Ring, ring, ring {{blank}}",
+          "promptZh": "鈴、鈴、鈴，電話鈴聲響個不停"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-28",
+          "answer": "The lights are on",
+          "options": [
+            "The music is loud",
+            "The doors are closed",
+            "The lights are on"
+          ],
+          "prompt": "{{blank}}, but there's no one home",
+          "promptZh": "燈雖然亮著，屋裡卻空無一人"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-28",
+          "answer": "there's no one home",
+          "options": [
+            "there's no one home",
+            "the room is crowded",
+            "there's someone waiting"
+          ],
+          "prompt": "The lights are on, but {{blank}}",
+          "promptZh": "燈雖然亮著，屋裡卻空無一人"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-29",
+          "answer": "a quarter to two",
+          "options": [
+            "a quarter to two",
+            "half past eleven",
+            "a minute past three"
+          ],
+          "prompt": "Tick tick tock, it's {{blank}}",
+          "promptZh": "滴答、滴答，時鐘已指向一點四十五分"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-30",
+          "answer": "I'm hanging up on you",
+          "options": [
+            "I'm coming back to you",
+            "I'm hanging up on you",
+            "I'm holding on to you"
+          ],
+          "prompt": "And I'm done, {{blank}}",
+          "promptZh": "我受夠了，這次我要掛斷你的電話，不再等你"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-31",
+          "answer": "keep on waiting",
+          "options": [
+            "stop believing",
+            "keep on dancing",
+            "keep on waiting"
+          ],
+          "prompt": "I can't {{blank}} for you",
+          "promptZh": "我不能再這樣一直等下去了"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-32",
+          "answer": "you're still hesitating",
+          "options": [
+            "you're still hesitating",
+            "you're finally deciding",
+            "you're already leaving"
+          ],
+          "prompt": "I know that {{blank}}",
+          "promptZh": "我知道，你依然猶豫不決"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-33",
+          "answer": "Don't cry for me",
+          "options": [
+            "Don't cry for me",
+            "Don't wait for me",
+            "Come dance with me"
+          ],
+          "prompt": "{{blank}}, 'cause I'll find my way",
+          "promptZh": "別為我哭泣，因為我會找到屬於自己的道路"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-33",
+          "answer": "I'll find my way",
+          "options": [
+            "I'll lose my mind",
+            "I'll stay right here",
+            "I'll find my way"
+          ],
+          "prompt": "Don't cry for me, 'cause {{blank}}",
+          "promptZh": "別為我哭泣，因為我會找到屬於自己的道路"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-34",
+          "answer": "it'll be too late",
+          "options": [
+            "it'll be too late",
+            "we'll be all right",
+            "you'll have more time"
+          ],
+          "prompt": "You'll wake up one day, but {{blank}}",
+          "promptZh": "總有一天你會幡然醒悟，但那時一切都已太遲"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-43",
+          "answer": "Every little thing",
+          "options": [
+            "Every lonely evening",
+            "Every passing moment",
+            "Every little thing"
+          ],
+          "prompt": "{{blank}}, every little thing",
+          "promptZh": "每一件小事，每一件微不足道的小事"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-45",
+          "answer": "Waiting for your call",
+          "options": [
+            "Looking for the sun",
+            "Waiting for your call",
+            "Hoping for a sign"
+          ],
+          "prompt": "{{blank}}, waiting for your call",
+          "promptZh": "等著你的來電，一直等著你的來電"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Time goes by {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}} so slowly"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:5}} {{q:6}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:7}}, I'm hung up {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:9}}, baby, {{q:10}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:11}}, {{q:12}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:13}} for {{q:14}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "No time to {{q:15}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:16}} seem to have {{q:17}} "
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:18}}, I {{q:19}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:21}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:22}} that you say or do"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I'm hung up, I'm {{q:23}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Waiting for your call, {{q:24}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I'm fed up, I'm tired of {{q:25}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:26}} that you say or do"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I'm fed up, I'm {{q:27}} on you"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:28}} {{q:29}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:30}}, but {{q:31}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Tick tick tock, it's {{q:32}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "And I'm done, {{q:33}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I can't {{q:34}} for you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I know that {{q:35}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:36}}, 'cause {{q:37}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "You'll wake up one day, but {{q:38}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Every little thing that you say or do"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Every little thing that you say or do"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:39}}, every little thing"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "{{q:40}}, waiting for your call"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Time goes by so slowly, so slowly"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "So slowly, so slowly, so slowly"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "So slowly, so slowly, so slowly"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "So slowly, so slowly, so slowly"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "So slowly, so slowly, so slowly, so..."
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "I don't know what to do"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Every little thing that you say or do"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Every little thing that you say or do"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "Every little thing, every little thing"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "Waiting for your call, waiting for your call"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "so slowly",
+          "options": [
+            "too loudly",
+            "so slowly",
+            "so quickly"
+          ],
+          "prompt": "Time goes by {{blank}}",
+          "promptZh": "時間流逝得如此緩慢"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "Time goes by so slowly",
+          "options": [
+            "The days go by so quickly",
+            "Time goes by so slowly",
+            "The nights feel so lonely"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "時間流逝得如此緩慢"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "Time goes by",
+          "options": [
+            "Life passes on",
+            "Days drift away",
+            "Time goes by"
+          ],
+          "prompt": "{{blank}} so slowly",
+          "promptZh": "時間流逝得如此緩慢"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "Time goes by so slowly",
+          "options": [
+            "Time goes by so slowly",
+            "The world turns upside down",
+            "Time moves much too fast"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "時間流逝得如此緩慢"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "Time goes by so slowly",
+          "options": [
+            "Time goes by so slowly",
+            "Days slip away unnoticed",
+            "Time runs by so quickly"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "時間流逝得如此緩慢"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "Every little thing",
+          "options": [
+            "Every single night",
+            "Every little thing",
+            "Every other day"
+          ],
+          "prompt": "{{blank}} that you say or do",
+          "promptZh": "你說的每一句話、做的每一件小事"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "that you say or do",
+          "options": [
+            "that you need from me",
+            "that you hear or see",
+            "that you say or do"
+          ],
+          "prompt": "Every little thing {{blank}}",
+          "promptZh": "你說的每一句話、做的每一件小事"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "I'm hung up",
+          "options": [
+            "I'm hung up",
+            "I'm giving up",
+            "I'm waking up"
+          ],
+          "prompt": "{{blank}}, I'm hung up on you",
+          "promptZh": "都讓我如此著迷，對你念念不忘"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-8",
+          "answer": "on you",
+          "options": [
+            "for me",
+            "on you",
+            "with her"
+          ],
+          "prompt": "I'm hung up, I'm hung up {{blank}}",
+          "promptZh": "都讓我如此著迷，對你念念不忘"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-9",
+          "answer": "Waiting for your call",
+          "options": [
+            "Looking for your face",
+            "Waiting for your call",
+            "Listening to your song"
+          ],
+          "prompt": "{{blank}}, baby, night and day",
+          "promptZh": "親愛的，我日夜守候著你的來電"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-9",
+          "answer": "baby",
+          "options": [
+            "darling",
+            "honey",
+            "baby"
+          ],
+          "prompt": "Waiting for your call, {{blank}}, night and day",
+          "promptZh": "親愛的，我日夜守候著你的來電"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-9",
+          "answer": "night and day",
+          "options": [
+            "night and day",
+            "all the time",
+            "day by day"
+          ],
+          "prompt": "Waiting for your call, baby, {{blank}}",
+          "promptZh": "親愛的，我日夜守候著你的來電"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-10",
+          "answer": "I'm fed up",
+          "options": [
+            "I'm in love",
+            "I'm fed up",
+            "I'm all right"
+          ],
+          "prompt": "{{blank}}, I'm tired of waiting on you",
+          "promptZh": "我已經受夠了，厭倦了這樣苦苦等你"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-10",
+          "answer": "I'm tired of waiting on you",
+          "options": [
+            "I'm tired of waiting on you",
+            "I'm afraid of losing my way",
+            "I'm ready to dance without you"
+          ],
+          "prompt": "I'm fed up, {{blank}}",
+          "promptZh": "我已經受夠了，厭倦了這樣苦苦等你"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-11",
+          "answer": "Time goes by so slowly",
+          "options": [
+            "Time runs away too quickly",
+            "Time goes by so slowly",
+            "Life goes on without me"
+          ],
+          "prompt": "{{blank}} for those who wait",
+          "promptZh": "對苦苦等待的人而言，時間總是過得格外緩慢"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-11",
+          "answer": "those who wait",
+          "options": [
+            "people who dance",
+            "those who leave",
+            "those who wait"
+          ],
+          "prompt": "Time goes by so slowly for {{blank}}",
+          "promptZh": "對苦苦等待的人而言，時間總是過得格外緩慢"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-12",
+          "answer": "hesitate",
+          "options": [
+            "celebrate",
+            "run away",
+            "hesitate"
+          ],
+          "prompt": "No time to {{blank}}",
+          "promptZh": "已經沒有時間再猶豫不決"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-13",
+          "answer": "Those who run",
+          "options": [
+            "Those who run",
+            "People who wait",
+            "Those who stay"
+          ],
+          "prompt": "{{blank}} seem to have all the fun ",
+          "promptZh": "那些勇於向前奔跑的人，似乎才能盡享人生的樂趣"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-13",
+          "answer": "all the fun",
+          "options": [
+            "all the fun",
+            "all the time",
+            "every chance"
+          ],
+          "prompt": "Those who run seem to have {{blank}} ",
+          "promptZh": "那些勇於向前奔跑的人，似乎才能盡享人生的樂趣"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-14",
+          "answer": "I'm caught up",
+          "options": [
+            "I'm worn out",
+            "I'm caught up",
+            "I'm moving on"
+          ],
+          "prompt": "{{blank}}, I don't know what to do",
+          "promptZh": "而我卻深陷其中，不知該如何是好"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-14",
+          "answer": "don't know what to do",
+          "options": [
+            "don't know what to do",
+            "can't see where to go",
+            "know just what to say"
+          ],
+          "prompt": "I'm caught up, I {{blank}}",
+          "promptZh": "而我卻深陷其中，不知該如何是好"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-15",
+          "answer": "Time goes by so slowly",
+          "options": [
+            "Time goes by so slowly",
+            "The days pass by so quickly",
+            "The nights feel so empty"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "時間流逝得如此緩慢"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-16",
+          "answer": "Time goes by so slowly",
+          "options": [
+            "Life goes by so quickly",
+            "Time goes by so slowly",
+            "The world keeps turning round"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "時間流逝得如此緩慢"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-18",
+          "answer": "I don't know what to do",
+          "options": [
+            "I know just what to say",
+            "I don't want to go",
+            "I don't know what to do"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我不知道該如何是好"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-19",
+          "answer": "Every little thing",
+          "options": [
+            "Every other night",
+            "Every little thing",
+            "Every single day"
+          ],
+          "prompt": "{{blank}} that you say or do",
+          "promptZh": "你說的每一句話、做的每一件小事"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-20",
+          "answer": "hung up on you",
+          "options": [
+            "hung up on you",
+            "running after you",
+            "giving up on love"
+          ],
+          "prompt": "I'm hung up, I'm {{blank}}",
+          "promptZh": "都讓我如此著迷，對你念念不忘"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-21",
+          "answer": "baby, night and day",
+          "options": [
+            "honey, every weekend",
+            "baby, night and day",
+            "darling, day after day"
+          ],
+          "prompt": "Waiting for your call, {{blank}}",
+          "promptZh": "親愛的，我日夜守候著你的來電"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-22",
+          "answer": "waiting on you",
+          "options": [
+            "thinking of her",
+            "running from you",
+            "waiting on you"
+          ],
+          "prompt": "I'm fed up, I'm tired of {{blank}}",
+          "promptZh": "我已經受夠了，厭倦了這樣苦苦等你"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-23",
+          "answer": "Every little thing",
+          "options": [
+            "Every single moment",
+            "Every little thing",
+            "All the lonely nights"
+          ],
+          "prompt": "{{blank}} that you say or do",
+          "promptZh": "你說的每一句話、做的每一件小事"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-24",
+          "answer": "I'm hung up",
+          "options": [
+            "I'm fed up",
+            "I'm scared now",
+            "I'm hung up"
+          ],
+          "prompt": "{{blank}}, I'm hung up on you",
+          "promptZh": "都讓我如此著迷，對你念念不忘"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-26",
+          "answer": "tired of waiting",
+          "options": [
+            "scared of falling",
+            "ready for dancing",
+            "tired of waiting"
+          ],
+          "prompt": "I'm fed up, I'm {{blank}} on you",
+          "promptZh": "我已經受夠了，厭倦了這樣苦苦等你"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-27",
+          "answer": "Ring, ring, ring",
+          "options": [
+            "Ring, ring, ring",
+            "Run, run, run",
+            "Sing, sing, sing"
+          ],
+          "prompt": "{{blank}} goes the telephone",
+          "promptZh": "鈴、鈴、鈴，電話鈴聲響個不停"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-27",
+          "answer": "goes the telephone",
+          "options": [
+            "rings the doorbell",
+            "goes the telephone",
+            "plays the radio"
+          ],
+          "prompt": "Ring, ring, ring {{blank}}",
+          "promptZh": "鈴、鈴、鈴，電話鈴聲響個不停"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-28",
+          "answer": "The lights are on",
+          "options": [
+            "The lights are on",
+            "The doors are closed",
+            "The music is loud"
+          ],
+          "prompt": "{{blank}}, but there's no one home",
+          "promptZh": "燈雖然亮著，屋裡卻空無一人"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-28",
+          "answer": "there's no one home",
+          "options": [
+            "the room is crowded",
+            "there's no one home",
+            "there's someone waiting"
+          ],
+          "prompt": "The lights are on, but {{blank}}",
+          "promptZh": "燈雖然亮著，屋裡卻空無一人"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-29",
+          "answer": "Tick tick tock",
+          "options": [
+            "Ring ring ring",
+            "Knock knock knock",
+            "Tick tick tock"
+          ],
+          "prompt": "{{blank}}, it's a quarter to two",
+          "promptZh": "滴答、滴答，時鐘已指向一點四十五分"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-29",
+          "answer": "a quarter to two",
+          "options": [
+            "a quarter to two",
+            "a minute past three",
+            "half past eleven"
+          ],
+          "prompt": "Tick tick tock, it's {{blank}}",
+          "promptZh": "滴答、滴答，時鐘已指向一點四十五分"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-30",
+          "answer": "I'm hanging up on you",
+          "options": [
+            "I'm hanging up on you",
+            "I'm coming back to you",
+            "I'm holding on to you"
+          ],
+          "prompt": "And I'm done, {{blank}}",
+          "promptZh": "我受夠了，這次我要掛斷你的電話，不再等你"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-31",
+          "answer": "keep on waiting",
+          "options": [
+            "stop believing",
+            "keep on dancing",
+            "keep on waiting"
+          ],
+          "prompt": "I can't {{blank}} for you",
+          "promptZh": "我不能再這樣一直等下去了"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-32",
+          "answer": "I know that",
+          "options": [
+            "I think that",
+            "I hope that",
+            "I know that"
+          ],
+          "prompt": "{{blank}} you're still hesitating",
+          "promptZh": "我知道，你依然猶豫不決"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-32",
+          "answer": "you're still hesitating",
+          "options": [
+            "you're already leaving",
+            "you're still hesitating",
+            "you're finally deciding"
+          ],
+          "prompt": "I know that {{blank}}",
+          "promptZh": "我知道，你依然猶豫不決"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-33",
+          "answer": "Don't cry for me",
+          "options": [
+            "Come dance with me",
+            "Don't wait for me",
+            "Don't cry for me"
+          ],
+          "prompt": "{{blank}}, 'cause I'll find my way",
+          "promptZh": "別為我哭泣，因為我會找到屬於自己的道路"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-33",
+          "answer": "I'll find my way",
+          "options": [
+            "I'll find my way",
+            "I'll lose my mind",
+            "I'll stay right here"
+          ],
+          "prompt": "Don't cry for me, 'cause {{blank}}",
+          "promptZh": "別為我哭泣，因為我會找到屬於自己的道路"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-34",
+          "answer": "it'll be too late",
+          "options": [
+            "we'll be all right",
+            "you'll have more time",
+            "it'll be too late"
+          ],
+          "prompt": "You'll wake up one day, but {{blank}}",
+          "promptZh": "總有一天你會幡然醒悟，但那時一切都已太遲"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-41",
+          "answer": "Waiting for your call",
+          "options": [
+            "Waiting for your call",
+            "Hoping for your love",
+            "Watching for the dawn"
+          ],
+          "prompt": "{{blank}}, baby, night and day",
+          "promptZh": "親愛的，我日夜守候著你的來電"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-43",
+          "answer": "Every little thing",
+          "options": [
+            "Every little thing",
+            "Every lonely evening",
+            "Every passing moment"
+          ],
+          "prompt": "{{blank}}, every little thing",
+          "promptZh": "每一件小事，每一件微不足道的小事"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-45",
+          "answer": "Waiting for your call",
+          "options": [
+            "Looking for the sun",
+            "Hoping for a sign",
+            "Waiting for your call"
+          ],
+          "prompt": "{{blank}}, waiting for your call",
+          "promptZh": "等著你的來電，一直等著你的來電"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-50",
+          "answer": "Time goes by so slowly",
+          "options": [
+            "The night goes on forever",
+            "Time moves far too quickly",
+            "Time goes by so slowly"
+          ],
+          "prompt": "{{blank}}, so slowly",
+          "promptZh": "時間流逝得如此緩慢，如此緩慢"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-55",
+          "answer": "I don't know what to do",
+          "options": [
+            "I can't find a way back",
+            "I don't know what to do",
+            "I know where I belong"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我不知道該如何是好"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-67",
+          "answer": "waiting on you",
+          "options": [
+            "looking for love",
+            "waiting on you",
+            "calling for help"
+          ],
+          "prompt": "I'm fed up, I'm tired of {{blank}}",
+          "promptZh": "我已經受夠了，厭倦了這樣苦苦等你"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Time goes by {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}} so slowly"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:6}} {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:8}}, I'm hung up {{q:9}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:10}}, {{q:11}}, {{q:12}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:13}}, {{q:14}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:15}} for {{q:16}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "No time to {{q:17}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:18}} seem to have {{q:19}} "
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:20}}, I {{q:21}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:22}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:23}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:24}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:25}} that you say or do"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I'm hung up, I'm {{q:26}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Waiting for your call, {{q:27}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I'm fed up, I'm tired of {{q:28}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:29}} that you say or do"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:30}}, I'm hung up on you"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I'm fed up, I'm {{q:31}} on you"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:32}} {{q:33}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:34}}, but {{q:35}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:36}}, it's {{q:37}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "And I'm done, {{q:38}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I can't {{q:39}} for you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:40}} {{q:41}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:42}}, 'cause {{q:43}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "You'll wake up one day, but {{q:44}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Every little thing that you say or do"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Every little thing that you say or do"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:45}}, baby, night and day"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:46}}, every little thing"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "{{q:47}}, waiting for your call"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Time goes by so slowly"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "{{q:48}}, so slowly"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "So slowly, so slowly, so slowly"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "So slowly, so slowly, so slowly"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "So slowly, so slowly, so slowly"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "So slowly, so slowly, so slowly, so..."
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "{{q:49}}"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Every little thing that you say or do"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Every little thing that you say or do"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Waiting for your call, baby, night and day"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "I'm fed up, I'm tired of waiting on you"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "Every little thing, every little thing"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "I'm hung up, I'm hung up on you"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "Waiting for your call, waiting for your call"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "I'm fed up, I'm tired of {{q:50}}"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Hung Up · Listening & Vocabulary",
+  "description": "《Hung Up》描寫一個人在愛情中苦苦等待，從深深迷戀逐漸走向失望與決心放手的心情。歌中的主角日夜盼望心愛的人來電，對方的一言一行都牽動著她的情緒，令等待的每一分鐘都顯得格外漫長。然而，對方始終猶豫不決，遲遲沒有給予明確的回應，使她逐漸感到疲憊與不滿。她終於意識到自己不能無止境地等待，決定停止執著，重新掌握生活的方向。歌曲中的電話與時鐘象徵情感上的依戀，以及時間流逝帶來的焦慮。最終，《Hung Up》傳達的是愛情中的渴望、失望與自我覺醒：即使曾經深深迷戀一個人，也應懂得珍惜自己的時間與尊嚴，勇敢放下沒有回應的等待，重新尋找屬於自己的幸福。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Go by (time)",
+      "meaning": "（時間）流逝、過去。",
+      "usage": "想說幾分鐘、幾小時或幾年慢慢過去時，可以用 time goes by 或 the days go by。",
+      "prompt": "哪一句正確使用「go by」表示時間流逝？",
+      "options": [
+        "I go by my tea at seven, and then I eat the cup.",
+        "Three hours went by, but the train still did not come.",
+        "Monday went by the window and asked for a ticket.",
+        "The calendar went by taxi because Friday was too far away."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "go by 在本題不是「喝茶」的動詞；可說 I drink tea at seven.",
+        "三小時過去了，火車仍未到站；went by 正確描述時間流逝。",
+        "星期一不是會經過窗戶、購買車票的旅客；可說 Monday came, and I went to work.",
+        "日曆不會因為星期五太遠就搭計程車；可說 I looked at the calendar and waited for Friday."
+      ],
+      "sourceFile": "Hung_Up_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 1,
+      "explanation": "三小時過去了，火車仍未到站；went by 正確描述時間流逝。",
+      "sourceOptionOrder": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Hung up on someone",
+      "meaning": "對某人十分著迷、念念不忘。",
+      "usage": "一直想著某個人，難以放下時，可以說 be hung up on someone。注意：這和 hang up on someone（掛斷某人的電話）意思不同。",
+      "prompt": "哪一句正確使用「hung up on」表示對某人念念不忘？",
+      "options": [
+        "The dentist is hung up on my tooth because it called him at midnight.",
+        "My jacket is hung up on the singer, and now it wants an autograph.",
+        "Nora is still hung up on her old boyfriend and talks about him every day.",
+        "The museum was hung up on the wall, so it closed at five."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "牙齒不會半夜打電話給牙醫；可說 The dentist checked my tooth.",
+        "外套不會迷戀歌手並索取簽名；可說 My jacket is hanging on a hook.",
+        "Nora 每天談起前男友，表示她仍難以放下這段感情；用法正確。",
+        "這裡把整座博物館當成能掛上牆的物品，沒有表達對人的留戀；可說 The museum closes at five."
+      ],
+      "sourceFile": "Hung_Up_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 2,
+      "explanation": "Nora 每天談起前男友，表示她仍難以放下這段感情；用法正確。",
+      "sourceOptionOrder": [
+        "B",
+        "D",
+        "C",
+        "A"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Night and day",
+      "meaning": "日夜、不分晝夜。",
+      "usage": "想強調某件事白天和晚上都持續進行時，可以用 night and day。",
+      "prompt": "哪一句正確使用「night and day」表示日夜持續？",
+      "options": [
+        "Night and day are two new students, and both forgot their names.",
+        "The office hired Night and Day, but neither one knew how to type.",
+        "I put night and day in two boxes so they would not fight.",
+        "The hospital is open night and day, so people can get help at any time."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "本題要表達時間持續，不是替兩名學生取名為 Night 和 Day；可說 Two new students forgot their names.",
+        "把黑夜與白天當成兩位受雇員工，並不是表示持續營業；可說 The office is open every weekday.",
+        "白天和夜晚不是可以分裝進盒子的物品；可說 I work during the day and rest at night.",
+        "醫院日夜開放，符合 night and day 的用法。"
+      ],
+      "sourceFile": "Hung_Up_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 3,
+      "explanation": "醫院日夜開放，符合 night and day 的用法。",
+      "sourceOptionOrder": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Fed up with",
+      "meaning": "對某事感到厭煩、受夠了。",
+      "usage": "某件事一直發生，讓人不想再忍受時，可以說 be fed up with + 名詞／V-ing。",
+      "prompt": "哪一句正確使用「fed up with」表示受夠了某件事？",
+      "options": [
+        "She fed up the letter and sent it to the post office for dinner.",
+        "I'm fed up with this noise. I need a quiet place to study.",
+        "My alarm clock is fed up with seven o'clock and has asked for a new job.",
+        "The baker fed up with a ladder because the bread was on the roof."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "fed up with 不是把信餵飽或寄去吃飯；可說 She sent the letter at the post office.",
+        "噪音令人厭煩，所以想找安靜的地方讀書；用法自然。",
+        "鬧鐘不會向七點提出離職申請；可說 My alarm clock rings at seven every morning.",
+        "把 fed up 當成「向上餵食」，和感到厭煩無關；可說 The baker used a ladder to get the bread."
+      ],
+      "sourceFile": "Hung_Up_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 4,
+      "explanation": "噪音令人厭煩，所以想找安靜的地方讀書；用法自然。",
+      "sourceOptionOrder": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Hesitate",
+      "meaning": "猶豫、遲疑。",
+      "usage": "不確定要不要做某件事，因而遲遲無法決定時，可以用 hesitate；常見搭配是 hesitate to + 動詞。",
+      "prompt": "哪一句正確使用「hesitate」？",
+      "options": [
+        "Ben hesitated before opening the door because he heard a strange sound.",
+        "The traffic light hesitated its homework until all the cars were asleep.",
+        "Please hesitate the orange into four pieces and give me one.",
+        "The elevator hesitated about becoming a doctor, so it stayed on the third floor."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "Ben 聽到奇怪聲音，開門前有所遲疑，符合 hesitate 的意思。",
+        "紅綠燈不會拖延功課，車子也不是它的同學；可說 The traffic light turned red, and the cars stopped.",
+        "hesitate 不是切水果的動作；可說 Please cut the orange into four pieces.",
+        "電梯不會考慮轉職當醫生；可說 The elevator stopped on the third floor."
+      ],
+      "sourceFile": "Hung_Up_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 5,
+      "explanation": "Ben 聽到奇怪聲音，開門前有所遲疑，符合 hesitate 的意思。",
+      "sourceOptionOrder": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Caught up in",
+      "meaning": "陷入某件事、被某種情況纏住。",
+      "usage": "因為一個問題、活動或情緒而難以抽身時，可以說 be caught up in + 事情。",
+      "prompt": "哪一句正確使用「caught up in」表示陷入某種情況？",
+      "options": [
+        "I was caught up in a long meeting and missed your call.",
+        "The news caught up in my soup and asked for a spoon.",
+        "Our city was caught up in a small pocket, so the map asked for help.",
+        "The captain caught up in Wednesday and sailed to next Monday."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "被一場冗長會議耽擱，因此錯過來電，正確表達難以抽身的情況。",
+        "新聞不會跳入湯裡並要求湯匙；可說 I heard the news while I was eating.",
+        "整座城市不能被困進小口袋；可說 Our city is on the map.",
+        "不能把星期三當成能把船長困住、再航行到星期一的海域；可說 The captain sailed across the sea on Wednesday."
+      ],
+      "sourceFile": "Hung_Up_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 6,
+      "explanation": "被一場冗長會議耽擱，因此錯過來電，正確表達難以抽身的情況。",
+      "sourceOptionOrder": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "No one home",
+      "meaning": "家裡沒有人。",
+      "usage": "到某個住處找人，卻沒有人在家時，可以說 there is no one home。歌詞也利用這句營造「無人回應」的感覺。",
+      "prompt": "哪一句正確使用「no one home」表示家裡沒有人？",
+      "options": [
+        "The hotel gave no one home a room because Nobody was its best guest.",
+        "I bought no one home at the supermarket, but the bag was empty.",
+        "The house said no one home because it wanted to live alone.",
+        "I rang the bell twice, but there was no one home."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "把 no one 當成名叫 Nobody 的旅客，並非本題意思；可說 The hotel gave a guest a room.",
+        "no one 不是超市裡可購買的商品；可說 I went to the supermarket, but I bought nothing.",
+        "房子不會因為想獨居就開口拒絕訪客；可說 No one lives in that house now.",
+        "按了兩次門鈴仍沒人應門，正確表達家裡沒有人。"
+      ],
+      "sourceFile": "Hung_Up_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 7,
+      "explanation": "按了兩次門鈴仍沒人應門，正確表達家裡沒有人。",
+      "sourceOptionOrder": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "A quarter to two",
+      "meaning": "一點四十五分；距離兩點還有十五分鐘。",
+      "usage": "在口語中表示距離下一個整點還有十五分鐘，可以用 a quarter to + 小時。",
+      "prompt": "哪一句正確使用「a quarter to two」表示時間？",
+      "options": [
+        "We need a quarter to two chairs because the third chair is late.",
+        "The chef cut a quarter to two and served it with rice.",
+        "It's a quarter to two. The meeting starts in fifteen minutes.",
+        "The shop sold a quarter to two people, and both asked for change."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "不能用 a quarter to two 表示需要四分之一張椅子；可說 We need two chairs.",
+        "a quarter to two 不是一道能切片上桌的食物；可說 The chef cut the cake into four pieces.",
+        "一點四十五分再過十五分鐘就是兩點，時間正確。",
+        "把 quarter 當作硬幣，並把 to two 當成賣給兩個人；本題是報時用語。可說 The shop sold two people some drinks."
+      ],
+      "sourceFile": "Hung_Up_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 8,
+      "explanation": "一點四十五分再過十五分鐘就是兩點，時間正確。",
+      "sourceOptionOrder": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Hang up on someone",
+      "meaning": "掛斷某人的電話，常指對方還在通話時就掛斷。",
+      "usage": "想說某人突然結束與另一個人的通話時，可以用 hang up on + 人；過去式是 hung up on。這與第 2 題「對某人念念不忘」是不同用法。",
+      "prompt": "哪一句正確使用「hang up on」表示掛斷某人的電話？",
+      "options": [
+        "I hung up on my ticket, so the train could not read it.",
+        "The caller was rude, so Mia hung up on him.",
+        "The judge hung up on Tuesday because Monday had lost the case.",
+        "The phone hung up on the mountain and asked for a better view."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "把車票「掛斷」不會讓火車看不懂票；可說 I lost my ticket, so I could not take the train.",
+        "因為來電者態度無禮，Mia 掛斷了他的電話；符合 hang up on someone 的意思。",
+        "法官不會把星期二當成通話對象，也沒有星期一打官司的情境；可說 The judge made a decision on Tuesday.",
+        "這裡把 hang up 誤用為掛在山上看風景，不是在掛電話；可說 The phone has no signal in the mountains."
+      ],
+      "sourceFile": "Hung_Up_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 9,
+      "explanation": "因為來電者態度無禮，Mia 掛斷了他的電話；符合 hang up on someone 的意思。",
+      "sourceOptionOrder": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Find my way",
+      "meaning": "找到自己的路；也可以比喻找到前進的方法或方向。",
+      "usage": "不知道接下來該怎麼辦，但相信自己能找到解決方法時，可以說 find my way。",
+      "prompt": "哪一句正確使用「find my way」表示找到自己的方向或辦法？",
+      "options": [
+        "I don't know what to do yet, but I will find my way.",
+        "The road found my way first, so I had to ask it for my name.",
+        "The bank found my way in a box and charged me five dollars to see it.",
+        "My camera found my way and put it in the lost-and-found room."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "雖然還不知道該怎麼做，但相信自己能找到方向或辦法；符合歌詞語意。",
+        "道路不會搶先找到你的方向，再要求你報上姓名；可說 I asked someone for directions.",
+        "把人生方向當成銀行收在盒子裡、需要付費觀看的物品；可說 The bank charged me five dollars.",
+        "find my way 不是遺失物招領室裡的一件物品；可說 My camera is in the lost-and-found room."
+      ],
+      "sourceFile": "Hung_Up_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 10,
+      "explanation": "雖然還不知道該怎麼做，但相信自己能找到方向或辦法；符合歌詞語意。",
+      "sourceOptionOrder": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ]
+    }
+  ],
+  "tags": [
+    "madonna",
+    "hung up"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/hung-up/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/hung-up/user-cover-20261101.png",
+  "singer": "Madonna",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 337.7333125,
+    "audioSha256": "94e448c35bcfc24074de8b83f3df06d52aa366ed9ce3b022a75749e3d2e71a57",
+    "timedLines": 45,
+    "untimedLines": 22,
+    "reviewStatus": "Conservative automatic alignment; not manually certified. Unmatched lines remain bilingual without guessed timestamps."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "\"Hung Up\".pdf",
+      "sha256": "8a67a08a668774ad9fea29182e6938dd231ee86f324ea4d3cb60973428036c62"
+    },
+    "mp3": {
+      "filename": "Hung Up [20OGm_-RebE].mp3",
+      "sha256": "94e448c35bcfc24074de8b83f3df06d52aa366ed9ce3b022a75749e3d2e71a57"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-b7d614b6-ee1a-4d17-9296-5b865034fe4a.png",
+    "sha256": "0482d7b4fdbab4a4822abee29007172af56aafd29733012373297b85a389fdb1",
+    "transformations": "none",
+    "selectedOn": "2026-11-01"
+  }
+}
