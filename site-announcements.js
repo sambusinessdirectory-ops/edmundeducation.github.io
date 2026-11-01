@@ -16,6 +16,22 @@
   let currentIndex = 0;
   let stopCarousel = () => {};
 
+  function waitForHomepageVisible() {
+    if (!document.body.classList.contains("is-homepage-loading")) return Promise.resolve();
+    return new Promise((resolve) => {
+      const observer = new MutationObserver(() => {
+        if (document.body.classList.contains("is-homepage-loading")) return;
+        observer.disconnect();
+        resolve();
+      });
+      observer.observe(document.body, { attributes: true, attributeFilter: ["class"] });
+      if (!document.body.classList.contains("is-homepage-loading")) {
+        observer.disconnect();
+        resolve();
+      }
+    });
+  }
+
   function readDismissals() {
     try {
       const value = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
@@ -110,6 +126,7 @@
 
   async function initialize() {
     try {
+      await waitForHomepageVisible();
       const response = await fetch(`${API_BASE}/v1/announcements`, {
         headers: { Accept: "application/json" },
         cache: "no-store"

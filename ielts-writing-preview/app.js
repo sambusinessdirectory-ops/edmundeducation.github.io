@@ -76,6 +76,7 @@
   let playingButton = null;
   let translationsShown = false;
   let task2Topic = '';
+  let task2View = 'all';
   let activeMenuTrigger = null;
   const menu = $('choice-menu');
   let accessVerified = false;
@@ -188,6 +189,7 @@
       feedbackUnavailable = false;
       lastFeedbackFetch = Date.now();
       refreshTask2Feedback();
+      filterTask2();
       if (!soundQuestionId || !pendingFeedbackSounds.has(soundQuestionId)) return;
       const result = task2Results[soundQuestionId];
       if (result && result.selected === savedTypes[soundQuestionId]) {
@@ -243,6 +245,7 @@
       setAnswerButton(button, TYPES.includes(savedTypes[button.dataset.questionId]) ? savedTypes[button.dataset.questionId] : '');
     }
     refreshTask2Feedback();
+    filterTask2();
   }
 
   function refreshTask2Feedback() {
@@ -264,13 +267,17 @@
 
   function updateTask2Count() {
     if (!task2.length) return;
+    let answered;
     if (adminSession.token && adminLabelMode) {
-      $('task2-count').textContent = `${task2.reduce((count, item) => count + Number(TYPES.includes(adminLabels[item.id])), 0)} / ${task2.length} 題`;
-      return;
+      answered = task2.reduce((count, item) => count + Number(TYPES.includes(adminLabels[item.id])), 0);
+    } else {
+      const answers = adminSession.token ? (adminAnswers[adminSlots.find(Boolean)] || {}) : savedTypes;
+      answered = task2.reduce((total, item) => total + Number(TYPES.includes(answers[item.id])), 0);
     }
-    const answers = adminSession.token ? (adminAnswers[adminSlots.find(Boolean)] || {}) : savedTypes;
-    const answered = task2.reduce((total, item) => total + Number(TYPES.includes(answers[item.id])), 0);
     $('task2-count').textContent = `${answered} / ${task2.length} 題`;
+    $('task2-progress').setAttribute('aria-valuemax', String(task2.length));
+    $('task2-progress').setAttribute('aria-valuenow', String(answered));
+    $('task2-progress-fill').style.width = `${answered / task2.length * 100}%`;
   }
 
   function closeMenu(restoreFocus = false) {
@@ -382,6 +389,9 @@
       return total + Number(Boolean(answer.type && answer.motion && Array.isArray(answer.tenses) && answer.tenses.length));
     }, 0);
     $('task1-count').textContent = `${complete} / ${task1.length} 題`;
+    $('task1-progress').setAttribute('aria-valuemax', String(task1.length));
+    $('task1-progress').setAttribute('aria-valuenow', String(complete));
+    $('task1-progress-fill').style.width = `${complete / task1.length * 100}%`;
   }
   function refreshTask1Buttons() {
     for (const button of document.querySelectorAll('#task1-rows .answer-trigger')) {
@@ -507,9 +517,11 @@
     }
     for (const item of displayOrder) {
       const row = node('tr');
+      row.setAttribute('role', 'row');
       row.dataset.search = `${item.id} ${quizPrompt(item)}`.toLocaleLowerCase();
       row.dataset.questionId = item.id;
       const chartCell = node('td', 'chart-cell');
+      chartCell.setAttribute('role', 'cell');
       const heading = node('h3', 'question', quizPrompt(item));
       heading.lang = 'en';
       chartCell.append(node('span', 'row-id', item.id), heading, audioButton('task1', item));
@@ -524,10 +536,13 @@
       button.addEventListener('click', () => openDiagram(item));
       chartCell.append(button);
       const typeCell = node('td', 'task1-answer-cell');
+      typeCell.setAttribute('role', 'cell');
       typeCell.append(task1Choice(item, 'type', graphTypes, '選擇圖表類型'));
       const motionCell = node('td', 'task1-answer-cell');
+      motionCell.setAttribute('role', 'cell');
       motionCell.append(task1Choice(item, 'motion', TASK1_STATES, '選擇動態 / 靜態'));
       const tenseCell = node('td', 'task1-answer-cell');
+      tenseCell.setAttribute('role', 'cell');
       tenseCell.append(task1Choice(item, 'tenses', TASK1_TENSES, '選擇適用時態', true));
       row.append(chartCell, typeCell, motionCell, tenseCell);
       fragment.append(row);
@@ -545,7 +560,7 @@
       $('type-head').replaceChildren(node('span', '', '標準題型'));
       return;
     }
-    $('panel-task2').style.setProperty('--admin-table-min-width', `${725 + 190 * adminSlots.length}px`);
+    $('panel-task2').style.setProperty('--admin-table-min-width', `${640 + 190 * adminSlots.length}px`);
     for (const extra of head.querySelectorAll('.student-column-head:not(#type-head)')) extra.remove();
     if (!adminSession.token) { $('type-head').classList.remove('student-column-head'); $('type-head').replaceChildren(node('span', 'visually-hidden', '題型選擇')); return; }
     const makeHead = (index) => {
@@ -721,10 +736,8 @@
       row.dataset.search = `${item.id} ${item.en} ${item.zh}`.toLocaleLowerCase();
       row.dataset.topic = item.topic;
       row.dataset.questionId = item.id;
-      const idCell = node('td');
-      idCell.append(node('span', 'row-id', item.id), node('span', 'topic', item.topic));
-      const audioCell = node('td', 'audio-cell');
-      audioCell.append(audioButton('task2', item));
+      const idCell = node('td', 'task2-meta-cell');
+      idCell.append(node('span', 'row-id', item.id), node('span', 'topic', item.topic), audioButton('task2', item));
       const promptCell = node('td', 'prompt-cell');
       const question = node('p', 'question');
       const lines = promptLines(item.en);
@@ -735,7 +748,7 @@
       translation.hidden = !translationsShown;
       translation.lang = 'zh-Hant';
       promptCell.append(translation);
-      row.append(idCell, audioCell, promptCell);
+      row.append(idCell, promptCell);
       if (adminSession.token && adminLabelMode) {
         row.append(adminLabelChoice(item));
       } else if (adminSession.token) {
@@ -776,6 +789,7 @@
           setAnswerButton(trigger, value);
           refreshTask2Feedback();
           updateTask2Count();
+          queueMicrotask(filterTask2);
           try { safeStorage('localStorage')?.setItem(activeStorageKey, JSON.stringify(savedTypes)); } catch { /* private browsing */ }
           if (studentSession()) { pendingChoices.set(item.id, value); void flushPendingChoices(); }
         }));
@@ -802,7 +816,11 @@
     const search = $('task2-search').value.trim().toLocaleLowerCase();
     const topic = task2Topic;
     for (const row of $('task2-rows').rows) {
-      row.hidden = !(matchesQuestionSearch(row, search, 'T2') && (!topic || row.dataset.topic === topic));
+      const id = row.dataset.questionId;
+      const viewMatches = adminSession.token || task2View === 'all'
+        || (task2View === 'unanswered' && !TYPES.includes(savedTypes[id]))
+        || (task2View === 'review' && task2Results[id]?.selected === savedTypes[id] && task2Results[id]?.correct === false);
+      row.hidden = !(viewMatches && matchesQuestionSearch(row, search, 'T2') && (!topic || row.dataset.topic === topic));
     }
     updateTask2Count();
   }
@@ -815,15 +833,6 @@
 
   async function start() {
     applyAccessGate(false);
-    const readingControls = document.querySelector('.reading-controls');
-    const desktopControlsHost = document.querySelector('.prompt-heading');
-    const mobileControlsHost = $('mobile-reading-controls');
-    const placeReadingControls = () => {
-      const host = window.matchMedia('(max-width: 1100px)').matches ? mobileControlsHost : desktopControlsHost;
-      if (readingControls.parentElement !== host) host.append(readingControls);
-    };
-    placeReadingControls();
-    window.addEventListener('resize', placeReadingControls);
     const speed = $('playback-speed');
     const size = $('text-size');
     const speedValues = ['0.25', '0.5', '0.75', '1', '1.25', '1.5', '1.75', '2', '2.25', '2.5', '2.75', '3'];
@@ -926,6 +935,17 @@
     showTab(location.hash === '#task2' ? 'task2' : 'task1');
     $('task1-search').addEventListener('input', filterTask1);
     $('task2-search').addEventListener('input', filterTask2);
+    $('study-tools-toggle').addEventListener('click', () => {
+      const expanded = document.querySelector('.study-tools').classList.toggle('is-open');
+      $('study-tools-toggle').setAttribute('aria-expanded', String(expanded));
+    });
+    for (const button of document.querySelectorAll('[data-task2-view]')) {
+      button.addEventListener('click', () => {
+        task2View = button.dataset.task2View;
+        for (const control of document.querySelectorAll('[data-task2-view]')) control.setAttribute('aria-pressed', String(control === button));
+        filterTask2();
+      });
+    }
     $('task2-topic').addEventListener('click', () => openMenu($('task2-topic'), [
       { value: '', label: '所有主題' },
       ...[...new Set(task2.map((item) => item.topic))].map((topic) => ({ value: topic, label: topic }))

@@ -22,10 +22,12 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="shared-system-nav.css?v=20261022-character-coins1">
   <link rel="stylesheet" href="song-preview.css?v=20261101-preview-ready-drag">
-  <link rel="stylesheet" href="song-difficulty.css?v=20261101-preview-ready-drag">
-  <link rel="stylesheet" href="song-appreciation.css?v=20261030-seven-sections">
+  <link rel="stylesheet" href="song-difficulty.css?v=20261029-preview2">
+  <link rel="stylesheet" href="song-appreciation.css?v=20261101-progress1">
   <script defer src="/pwa-register.js"></script>
 <link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261028-hover-guard1">
+<link rel="stylesheet" href="/eddy-first-question-dialogue.css?v=20261028-blank-recovery1">
+<link rel="stylesheet" href="/eddy-portal-entry-dialogue.css?v=20261101-1">
 <style>.song-classroom-bar{position:fixed;bottom:0;left:0;right:0;z-index:1200;display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;padding:10px 16px;background:#172a29;color:white;box-shadow:0 -2px 12px #0002;font-size:14px}.song-classroom-bar[hidden]{display:none}body:has(.song-classroom-bar:not([hidden])){padding-bottom:105px}.song-classroom-bar button{padding:8px 12px}</style></head>
 <body>
   <a class="skip-link" href="#song-appreciation-main">跳至主要內容</a>
@@ -117,7 +119,7 @@
           <label class="song-search"><span aria-hidden="true"><svg class="song-icon" aria-hidden="true" focusable="false"><use href="/song-icons.svg#search"></use></svg></span><input type="search" data-song-search placeholder="搜尋歌名、歌手、標籤或歌詞" autocomplete="off"><button type="button" data-clear-search hidden>清除</button></label>
         </div>
         <p class="search-status" data-search-status role="status" aria-live="polite"></p>
-        <div class="inline-state" data-library-state><span class="spinner" aria-hidden="true"></span><p>正在載入歌曲⋯</p></div>
+        <div class="inline-state" data-library-state role="status" aria-live="polite"><div class="song-load-copy"><p data-library-load-message>正在載入歌曲⋯</p><div class="song-load-track" role="progressbar" aria-label="歌曲庫載入進度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="5" data-library-progress><span data-library-progress-fill></span></div><small data-library-progress-label>準備歌曲庫…</small></div></div>
         <div class="library-filters"><button class="filter-chip" type="button" data-open-tags><svg class="song-icon" aria-hidden="true" focusable="false"><use href="/song-icons.svg#tag"></use></svg> 選擇標籤</button><span data-selected-tags></span><button class="filter-chip" type="button" data-favorites-only aria-pressed="false"><svg class="song-icon" aria-hidden="true" focusable="false"><use href="/song-icons.svg#star"></use></svg> 只看收藏歌曲</button><label class="song-sort-control"><span>排序</span><select data-song-sort aria-label="歌曲排序"><option value="default">原來順序</option><option value="bpm:asc">BPM · 慢 → 快</option><option value="bpm:desc">BPM · 快 → 慢</option><option value="year:asc">年份 · 舊 → 新</option><option value="year:desc">年份 · 新 → 舊</option><option value="genre:asc">曲風 · Pop 優先</option><option value="genre:desc">曲風 · 其他曲風優先</option><option value="difficulty:asc">難度 · 低分 → 高分</option><option value="difficulty:desc">難度 · 高分 → 低分</option><option value="voice:asc">人聲 · 女聲 → 合唱 → 男聲</option><option value="voice:desc">人聲 · 男聲 → 合唱 → 女聲</option></select></label></div><div class="song-grid" data-song-grid hidden></div>
       </section>
 
@@ -251,7 +253,8 @@
   <script src="song-preview.js?v=20261101-preview-ready-drag"></script>
   <script src="song-difficulty-data.js?v=20261030-seven-sections"></script>
   <script src="song-difficulty.js?v=20261030-axis-direction"></script>
-  <script src="song-appreciation.js?v=20261030-seven-sections"></script>
+  <script src="song-appreciation.js?v=20261101-progress-eddy-entry1"></script>
+  <script defer src="/eddy-portal-entry-dialogue.js?v=20261101-2"></script>
 <script defer src="/eddy-password-error-dialogue.js?v=20261030-1"></script>
 </body>
 </html>
