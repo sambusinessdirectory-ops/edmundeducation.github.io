@@ -14,3 +14,5 @@ body.song-preview-open main{position:relative;z-index:1}.song-card{transition:ba
 /* Library cards are touch controls; lesson and lyric text remains selectable. */
 [data-song-grid] .song-card,[data-song-grid] .song-card *{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
 [data-song-grid] .song-card img{-webkit-user-drag:none}
+
+.song-hook-panel{resize:none}.song-hook-heading{cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none}.song-hook-heading:active{cursor:grabbing}

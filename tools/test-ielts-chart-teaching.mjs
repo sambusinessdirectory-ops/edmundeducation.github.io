@@ -13,3 +13,4 @@ assert(calculate([Number.MAX_VALUE,2],['*']).error);
 assert(fs.readFileSync('index.html','utf8').includes('href="ielts-chart-teaching.html"'));
 assert(fs.readFileSync('shared-system-nav.js','utf8').includes('en: "IELTS Chart Studio", homepageCard: 79'));
 console.log('PASS: supplied dataset, arithmetic, rounding, invalid arithmetic, homepage integration');
+await import('../ielts-chart-teaching/validate-reconstructions.mjs');

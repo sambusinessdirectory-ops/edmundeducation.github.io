@@ -21,29 +21,37 @@
     const play=el('button','song-hook-play','載入試聽…');play.type='button';play.disabled=true;
     const lyrics=el('div','song-hook-lyrics');lyrics.setAttribute('tabindex','0');lyrics.setAttribute('aria-label','英文歌詞與中文翻譯');
     view.append(heading,play,lyrics);document.body.append(view);
+    let drag=null;
+    heading.addEventListener('pointerdown',event=>{if(event.target.closest('button')||event.button!==0)return;const box=view.getBoundingClientRect();pinned=true;clearTimeout(leave);drag={id:event.pointerId,x:event.clientX-box.left,y:event.clientY-box.top};Object.assign(view.style,{animation:'none',boxSizing:'border-box',width:box.width+'px',height:box.height+'px',left:box.left+'px',top:box.top+'px',right:'auto',bottom:'auto'});heading.setPointerCapture(event.pointerId);event.preventDefault();});
+    heading.addEventListener('pointermove',event=>{if(!drag||event.pointerId!==drag.id)return;view.style.left=Math.max(0,Math.min(innerWidth-view.offsetWidth,event.clientX-drag.x))+'px';view.style.top=Math.max(0,Math.min(innerHeight-view.offsetHeight,event.clientY-drag.y))+'px';});
+    for(const name of ['pointerup','pointercancel','lostpointercapture'])heading.addEventListener(name,()=>{drag=null;});
     view.addEventListener('pointerenter',()=>clearTimeout(leave));view.addEventListener('pointerleave',maybeLeave);view.addEventListener('focusout',maybeLeave);
     const bg=el('div','song-hook-backdrop');backdrop=bg;bg.setAttribute('aria-hidden','true');
     if(song.coverUrl){const image=el('img');image.src=song.coverUrl;image.alt='';bg.append(image);}document.body.prepend(bg);document.body.classList.add('song-preview-open');requestAnimationFrame(()=>{if(run===generation)bg.classList.add('is-visible');});
-    let rows=[],mark=()=>{};
+    let rows=[],mark=()=>{},lyricsReady=false,resumePrepared=()=>{};
+    const previewStart=Math.max(0,hook.start-1);
     function prepareAudio(url,immediate){
       const player=new Audio();audio=player;player.preload='auto';player.volume=.65;
+      let metadataReady=false,started=false;
+      const begin=()=>{if(run!==generation||!lyricsReady||!metadataReady||started)return;started=true;player.pause();player.muted=false;const target=Math.min(previewStart,Math.max(0,player.duration-1));const ready=()=>{if(run!==generation)return;play.disabled=false;mark(hook.lineId);void playAudio();};if(Math.abs(player.currentTime-target)>.05){player.addEventListener('seeked',ready,{once:true});player.currentTime=target;}else ready();};
+      resumePrepared=begin;
       const playAudio=async()=>{if(run!==generation)return;try{await player.play();if(run!==generation){player.pause();return;}play.textContent='❚❚ 暫停試聽';clearTimeout(deadline);deadline=setTimeout(stop,30000);}catch{if(run===generation){play.textContent='▶ 播放試聽';play.disabled=false;}}};
       play.onclick=()=>{if(player.paused)void playAudio();else{player.pause();play.textContent='▶ 繼續試聽';}};
-      player.addEventListener('loadedmetadata',()=>{if(run!==generation)return;player.currentTime=Math.min(hook.start,Math.max(0,player.duration-1));play.disabled=false;if(!immediate)void playAudio();},{once:true});
-      player.addEventListener('timeupdate',()=>{if(run!==generation)return;if(player.currentTime>=hook.start+hook.duration){stop();return;}const timed=rows.filter(r=>Number.isFinite(r.startSeconds)&&r.startSeconds<=player.currentTime);if(timed.length)mark(timed[timed.length-1].lineId);});
+      player.addEventListener('loadedmetadata',()=>{if(run!==generation)return;metadataReady=true;begin();},{once:true});
+      player.addEventListener('timeupdate',()=>{if(run!==generation||!started||!lyricsReady)return;if(player.currentTime>=hook.start+hook.duration){stop();return;}const timed=rows.filter(r=>Number.isFinite(r.startSeconds)&&r.startSeconds<=player.currentTime);if(timed.length)mark(timed[timed.length-1].lineId);});
       player.addEventListener('ended',()=>{if(run===generation)stop();});
       player.addEventListener('error',()=>{if(run===generation){play.disabled=true;play.textContent='音訊暫時無法播放';}});
-      player.src=url.split('#')[0]+'#t='+hook.start;player.load();if(immediate)void playAudio();
+      player.src=url.split('#')[0];player.load();if(immediate){player.muted=true;player.play().then(()=>{if(!started)player.pause();}).catch(()=>{});}
     }
     // The catalogue already carries the authorised audio URL. Calling play in
-    // the tap handler preserves Safari's user gesture while lyrics load.
+    // the tap handler unlocks Safari silently; audible playback waits for lyrics and seeking.
     if(explicit&&song.audioUrl)prepareAudio(song.audioUrl,true);
     try {
       const loaded=await options.load();if(run!==generation||!options.allowed())return;
       rows=loaded.translations.filter(r=>!r.break);const table=el('table');const body=el('tbody');const nodes=new Map();
       rows.forEach(row=>{const tr=el('tr');tr.dataset.lineId=row.lineId;tr.append(el('td','song-hook-en',row.english),el('td','song-hook-zh',row.chinese));body.append(tr);nodes.set(row.lineId,tr);});table.append(body);lyrics.append(table);
       mark=id=>{const next=nodes.get(id);if(!next||next.classList.contains('is-current'))return;body.querySelector('.is-current')?.classList.remove('is-current');next.classList.add('is-current');const offset=next.getBoundingClientRect().top-lyrics.getBoundingClientRect().top+lyrics.scrollTop;lyrics.scrollTo({top:Math.max(0,offset-lyrics.clientHeight*.35),behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});};
-      requestAnimationFrame(()=>{if(run===generation)mark(hook.lineId);});
+      lyricsReady=true;mark(hook.lineId);resumePrepared();
       if(!loaded.audioUrl&&!audio){play.textContent='此歌曲暫未提供試聽';return;}
       if(!audio)prepareAudio(loaded.audioUrl,false);
     } catch {if(run===generation){if(audio){audio.pause();audio.removeAttribute('src');audio.load();audio=null;}play.disabled=true;play.textContent='暫時無法載入試聽';}}
