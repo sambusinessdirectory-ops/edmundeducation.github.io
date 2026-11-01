@@ -165,6 +165,7 @@
   let shownWeekendDay = '';
   let shownSleepyDay = '';
   let shownBedtimeNight = '';
+  let surpriseChecked = false;
   const shownMomentDays = Object.create(null);
   let audioContext = null;
 
@@ -263,9 +264,10 @@
   }
 
   function showNext() {
-    if (active || !document.body || document.hidden || document.querySelector('dialog[open]')) return;
+    if (active || !document.body || document.hidden || document.body.classList.contains('is-homepage-loading') || document.querySelector('dialog[open]')) return;
     while (queue.length) {
-      const next = queue.shift();
+      const surpriseIndex = queue.findIndex((item) => item.kind === 'cottonCandy');
+      const next = surpriseIndex < 0 ? queue.shift() : queue.splice(surpriseIndex, 1)[0];
       if (next.kind !== 'tomato' && !isMainPage()) continue;
       const timedMoment = timedMoments[next.kind];
       if (timedMoment) {
@@ -414,16 +416,29 @@
   function checkTimedGreetings() { checkLunch(); checkTea(); checkNewTimedMoments(); checkWeekend(); checkEvening(); }
 
   function checkHomepageSurprise() {
-    if (!isMainPage() || Math.random() >= 0.1) return;
-    queue.push({ kind: 'cottonCandy' });
+    if (!isMainPage() || surpriseChecked) return;
+    surpriseChecked = true;
+    if (Math.random() >= 0.1) return;
+    queue.unshift({ kind: 'cottonCandy' });
     showNext();
   }
 
   window.EdmundEddyGlobalDialogue = Object.freeze({ isBlocking, isShowing: () => Boolean(active), queuePomodoroBreak, checkLunch, checkTea, checkNewTimedMoments, checkWeekend, checkEvening });
-  if (document.body) { checkTimedGreetings(); checkHomepageSurprise(); }
-  else document.addEventListener('DOMContentLoaded', () => { checkTimedGreetings(); checkHomepageSurprise(); }, { once: true });
-  document.addEventListener('visibilitychange', checkTimedGreetings);
+  function startHomepageDialogues() {
+    checkHomepageSurprise();
+    checkTimedGreetings();
+    if (!document.body.classList.contains('is-homepage-loading')) return;
+    const observer = new MutationObserver(() => {
+      if (document.body.classList.contains('is-homepage-loading')) return;
+      observer.disconnect();
+      showNext();
+    });
+    observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+  }
+  if (document.body) startHomepageDialogues();
+  else document.addEventListener('DOMContentLoaded', startHomepageDialogues, { once: true });
+  document.addEventListener('visibilitychange', () => { checkTimedGreetings(); if (!document.hidden) showNext(); });
   document.addEventListener('close', showNext, true);
-  window.addEventListener('focus', checkTimedGreetings);
+  window.addEventListener('focus', () => { checkTimedGreetings(); showNext(); });
   window.setInterval(checkTimedGreetings, 30000);
 })();

@@ -32,6 +32,19 @@
     });
   }
 
+  function waitForEddyGreetings() {
+    const greetings = window.EdmundEddyGlobalDialogue;
+    if (!greetings?.isShowing()) return Promise.resolve();
+    return new Promise((resolve) => {
+      const onFinished = () => {
+        document.removeEventListener('edmund:eddy-global-dialogue-finished', onFinished);
+        resolve();
+      };
+      document.addEventListener('edmund:eddy-global-dialogue-finished', onFinished);
+      if (!greetings.isShowing()) onFinished();
+    });
+  }
+
   function readDismissals() {
     try {
       const value = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
@@ -137,7 +150,10 @@
       if (!response.ok) return;
       const payload = await response.json();
       announcements = visibleAnnouncements(Array.isArray(payload?.announcements) ? payload.announcements : []);
-      if (announcements.length) render(createDialog());
+      if (announcements.length) {
+        await waitForEddyGreetings();
+        render(createDialog());
+      }
     } catch {
       // Announcements are helpful but must never block the public homepage.
     }
