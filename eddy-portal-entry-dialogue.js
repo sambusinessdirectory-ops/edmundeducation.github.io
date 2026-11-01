@@ -1,4 +1,4 @@
-/* Eddy's song greeting and once-daily grammar greeting. */
+/* Eddy's song and grammar entry greetings. */
 (() => {
   'use strict';
 
@@ -36,22 +36,6 @@
   let overlay = null;
   let previousFocus = null;
 
-  function hkDay() {
-    const parts = new Intl.DateTimeFormat('en-GB', {
-      timeZone: 'Asia/Hong_Kong', year: 'numeric', month: '2-digit', day: '2-digit'
-    }).formatToParts(new Date());
-    const values = Object.fromEntries(parts.map(part => [part.type, part.value]));
-    return `${values.year}-${values.month}-${values.day}`;
-  }
-
-  function storageKey(studentId) { return `edmund-eddy-grammar-first-open-v1:${studentId}`; }
-  function shownToday(studentId) {
-    try { return localStorage.getItem(storageKey(studentId)) === hkDay(); } catch { return false; }
-  }
-  function rememberToday(studentId) {
-    try { localStorage.setItem(storageKey(studentId), hkDay()); } catch { /* Memory still limits this page view. */ }
-  }
-
   function finish() {
     overlay?.remove();
     overlay = null;
@@ -83,14 +67,12 @@
         pendingStudentId = '';
         return;
       }
-      if (shownToday(studentId)) { pendingStudentId = ''; return; }
     }
     const view = document.querySelector(grammar ? '[data-view="dashboard"]' : '[data-view="student"]');
     if (!view || view.hidden || document.querySelector('dialog[open], .eddy-first-question-overlay')) return;
 
     pendingStudentId = '';
     shownStudentId = studentId;
-    if (grammar) rememberToday(studentId);
     const comment = config.comments[Math.floor(Math.random() * config.comments.length)];
     previousFocus = document.activeElement;
     overlay = document.createElement('div');
@@ -123,7 +105,7 @@
       if (event.detail?.portalId !== 'grammar') return;
       const studentId = event.detail.user?.role === 'student' ? String(event.detail.user.id || '') : '';
       if (!studentId) { pendingStudentId = ''; shownStudentId = ''; finish(); return; }
-      if (studentId !== shownStudentId && !shownToday(studentId)) pendingStudentId = studentId;
+      if (studentId !== shownStudentId) pendingStudentId = studentId;
       requestAnimationFrame(showIfReady);
     });
     const session = window.EDMUND_LEARNING_PORTAL_CONTEXT?.getSession();
