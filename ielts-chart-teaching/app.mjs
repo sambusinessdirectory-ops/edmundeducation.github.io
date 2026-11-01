@@ -2,6 +2,7 @@ import {installVocabulary} from './vocabulary.mjs?v=20261031-6';
 import {data,palette,title,format,calculate} from './data.mjs';
 import {reconstructions} from './reconstructions.mjs';
 import {renderReconstruction} from './reconstruction-renderer.mjs';
+import {renderInteractiveDiagram} from './interactive-diagram-renderer.mjs';
 const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const imageUrl=path=>/^https?:\/\//i.test(path)?path:`/${String(path).replace(/^\/+/, '')}`;
 const electricityKey='edmund-chart-studio-electricity-v1:'+window.chartStudentId;
@@ -52,8 +53,9 @@ function buildChart(){
  const reconstruction=reconstructions[currentQuestion.id];
  if(reconstruction){
   $('#chart-title').innerHTML=renderPrompt(currentQuestion.quizPrompt||currentQuestion.prompt);
-  $('#chart').dataset.view='reconstruction';
-  $('#chart').innerHTML=renderReconstruction(reconstruction,numbers,esc,format);
+  const originalDiagram=reconstruction.kind==='process'||reconstruction.kind==='map';
+  $('#chart').dataset.view=originalDiagram?'diagram':'reconstruction';
+  $('#chart').innerHTML=originalDiagram?renderInteractiveDiagram(currentQuestion,imageUrl(currentQuestion.image),numbers,esc):renderReconstruction(reconstruction,numbers,esc,format);
   $('#image-points').hidden=true;$('#image-view-controls').hidden=true;return;
  }
  if(currentQuestion.id!=='T1-005')throw new Error(`Missing interactive reconstruction for ${currentQuestion.id}`);
@@ -82,7 +84,7 @@ function applyMarks(){
   el.style.setProperty('--colour',p?.color||'');el.style.setProperty('--tint',p?.tint||'');
   const selected=operands.some(item=>item.id===el.dataset.number);
   el.classList.toggle('organized-data',mode==='organize'&&organization.includes(el.dataset.number));
-  el.classList.toggle('selected-number',selected&&(el.classList.contains('value')||el.classList.contains('recon-point')||el.classList.contains('recon-vertical-value')||el.classList.contains('recon-horizontal-value')||el.classList.contains('recon-pie-value')||el.classList.contains('recon-pie-slice')||el.classList.contains('recon-table-cell')||el.classList.contains('recon-flow-detail-part')||el.classList.contains('recon-map-feature'))&&mode!=='organize');el.classList.toggle('selected-bar',selected&&(el.classList.contains('bar')||el.classList.contains('recon-vertical-bar')||el.classList.contains('recon-horizontal-bar'))&&mode!=='organize');
+  el.classList.toggle('selected-number',selected&&(el.classList.contains('value')||el.classList.contains('recon-point')||el.classList.contains('recon-vertical-value')||el.classList.contains('recon-horizontal-value')||el.classList.contains('recon-pie-value')||el.classList.contains('recon-pie-slice')||el.classList.contains('recon-table-cell')||el.classList.contains('recon-flow-detail-part')||el.classList.contains('recon-map-feature')||el.classList.contains('diagram-hotspot')||el.classList.contains('diagram-index-item'))&&mode!=='organize');el.classList.toggle('selected-bar',selected&&(el.classList.contains('bar')||el.classList.contains('recon-vertical-bar')||el.classList.contains('recon-horizontal-bar'))&&mode!=='organize');
   el.setAttribute('aria-pressed',String(mode==='organize'&&el.dataset.number?organization.includes(el.dataset.number):mode==='calculate'&&el.dataset.number?selected:!!p||!!tenses[el.dataset.year]));
   if(el.dataset.year){const tense=tenses[el.dataset.year];el.classList.toggle('year-assigned',!!tense);el.innerHTML=esc(el.dataset.year)+(tense?`<span class="tense-badge">${esc(tenseChoices[tense])}</span>`:'');el.setAttribute('aria-label',`${el.dataset.year}${tense?' · '+tenseChoices[tense]:''}，選擇時態`);}
   el.title=members.length?`群組：${members.map(group=>names[group.id]).join('、')}`:'';
@@ -110,6 +112,7 @@ function renderCalculator(){
 }
 document.addEventListener('click',event=>{
  const button=event.target.closest('button,[role=button]');if(!button)return;
+ if(button.dataset.toggleDiagramZones!==undefined){const diagram=button.closest('.interactive-original-diagram');const visible=diagram.classList.toggle('zones-visible');button.setAttribute('aria-pressed',String(visible));button.textContent=visible?'隱藏可選區域':'顯示可選區域';return;}
  if(button.id==='pick-data-mode'){setMode(mode==='organize'?'colour':'organize');return;}
  if(button.id==='clear-organization'){organization=[];renderOrganization();save();return;}
  if(button.dataset.moveOrg){moveOrganization(button.dataset.moveOrg,organization.indexOf(button.dataset.moveOrg)+Number(button.dataset.direction));return;}
