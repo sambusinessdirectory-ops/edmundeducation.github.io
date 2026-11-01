@@ -4033,6 +4033,15 @@
       }
     }
 
+    @media (max-width: 680px) {
+      .deck-card { backdrop-filter: none; -webkit-backdrop-filter: none; }
+      .study-side .action-rail { position: fixed; inset: auto 0 0; z-index: 100; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; padding: 10px max(16px,env(safe-area-inset-right)) calc(10px + env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left)); background: rgba(255,255,255,.97); border-top: 1px solid #cbd9ea; box-shadow: 0 -8px 28px #17396124; }
+      .study-side .action-row { width: 100%; }
+      .study-side .round-button { width: 100%; min-height: 54px; height: 54px; border-radius: 15px; font-size: 31px; touch-action: manipulation; }
+      .study-side .mouse-click-icon { display: none; }
+      .study-layout { padding-bottom: calc(84px + env(safe-area-inset-bottom)); }
+    }
+
     @media (prefers-reduced-motion: reduce) {
       html {
         scroll-behavior: auto;
@@ -5159,13 +5168,10 @@
     async function ensureFlashcardAudioManifest() {
       if (languageEdition.active || Object.keys(window.EDMUND_FLASHCARD_AUDIO || {}).length) return;
       if (flashcardAudioManifestPromise) return flashcardAudioManifestPromise;
-      flashcardAudioManifestPromise = loadFlashcardScriptOnce(
-        "flashcards-audio-manifest.js?v=edmund-neural-v1-20261027-last-train-r2",
-        "flashcard-audio-manifest"
-      ).then(() => loadFlashcardScriptOnce(
-        "flashcards-dse-writing-part-b-audio.js?v=20260911-kokoro-1",
-        "flashcard-dse-writing-audio"
-      )).catch(error => {
+      flashcardAudioManifestPromise = Promise.all([
+        loadFlashcardScriptOnce("flashcards-audio-manifest.js?v=edmund-neural-v1-20261027-last-train-r2", "flashcard-audio-manifest"),
+        loadFlashcardScriptOnce("flashcards-dse-writing-part-b-audio.js?v=20260911-kokoro-1", "flashcard-dse-writing-audio")
+      ]).catch(error => {
         flashcardAudioManifestPromise = null;
         throw error;
       });
@@ -12085,11 +12091,6 @@
 
     async function performFlashcardLogin(trimmedName, password) {
       loginFailureMessage = "";
-      window.EdmundFlashcardLoginStartup?.loginStep(12, "正在檢查登入頁版本… Checking for a login update…");
-      if (await reloadForCurrentFlashcardClientUpdate("login")) {
-        loginFailureMessage = "正在載入最新安全版本；頁面會自動重新開啟，請稍後重新登入。";
-        return false;
-      }
       window.EdmundFlashcardLoginStartup?.loginStep(24, "正在檢查現有登入與復原狀態… Checking existing sign-in and recovery status…");
       const reusedRecovery = await reuseAuthenticatedFlashcardRecovery(trimmedName);
       if (reusedRecovery !== null) return reusedRecovery;
@@ -16943,8 +16944,8 @@
           </div>
         `;
       backCard.classList.toggle("hidden", !studySession.flipped);
-      greenButton.disabled = !studySession.flipped;
-      redButton.disabled = !studySession.flipped;
+      greenButton.disabled = false;
+      redButton.disabled = false;
       prevButtons.forEach(button => {
         button.disabled = studySession.currentPosition <= 0;
       });
@@ -16957,6 +16958,7 @@
       });
       if (speakButton) speakButton.disabled = !canSpeakCard();
       renderNeuralSpeechState();
+      warmCurrentCardAudio();
       if (bookmarkButton) {
         const bookmarked = isCurrentCardBookmarked();
         bookmarkButton.disabled = !currentCardBookmarkRef();
@@ -16965,8 +16967,8 @@
         bookmarkButton.setAttribute("title", bookmarked ? "移除書簽" : "加入書簽");
       }
       if (cardHint) cardHint.textContent = reversalMode
-        ? "中英反轉模式：先看中文，點擊後顯示例句與英文答案；向右掃為綠勾，向左掃為紅叉。"
-        : "點擊卡片即可揭示答案。翻開後可按綠勾／紅叉，或向右／左掃卡。";
+        ? "中英反轉模式：點擊卡片查看英文；亦可直接按綠勾／紅叉記錄。"
+        : "點擊卡片即可揭示答案；也可直接按綠勾／紅叉記錄。";
       greenButton.textContent = studySession.answers[cardIndex] === "green" ? "✓" : "✓";
       redButton.textContent = studySession.answers[cardIndex] === "red" ? "×" : "×";
       if (activeReviewStatus) renderReviewPanel(activeReviewStatus);
@@ -17032,6 +17034,22 @@
       }
     }
 
+    let warmSpeechAudio = null;
+    let warmSpeechPath = "";
+    function warmCurrentCardAudio() {
+      const expected = normalizedSpeechText(currentCard()?.front || "");
+      if (!expected) return;
+      void ensureFlashcardAudioManifest().then(() => {
+        if (normalizedSpeechText(currentCard()?.front || "") !== expected) return;
+        const path = neuralAudioPathForText(expected);
+        if (!path || warmSpeechPath === path) return;
+        warmSpeechAudio = new Audio(window.EDMUND_AUDIO_URL ? window.EDMUND_AUDIO_URL(path) : path);
+        warmSpeechAudio.preload = "auto";
+        warmSpeechAudio.load();
+        warmSpeechPath = path;
+      }).catch(error => console.warn("Audio preload unavailable:", error));
+    }
+
     function stopNeuralSpeech({ refresh = true } = {}) {
       activeSpeechRequestId += 1;
       if (activeSpeechAudio) {
@@ -17071,7 +17089,8 @@
 
       stopNeuralSpeech({ refresh: false });
       const requestId = ++activeSpeechRequestId;
-      const audio = activeSpeechAudio || new Audio();
+      const audio = warmSpeechPath === path && warmSpeechAudio ? warmSpeechAudio : (activeSpeechAudio || new Audio());
+      warmSpeechAudio = null; warmSpeechPath = "";
       activeSpeechAudio = audio;
       audio.preload = "auto";
       audio.src = window.EDMUND_AUDIO_URL ? window.EDMUND_AUDIO_URL(path) : path;
@@ -17622,7 +17641,7 @@
 
     function markCard(result) {
       queueMicrotask(() => classroomLive?.publish());
-      if (studyCardSwipeAnimating || !studySession || !studySession.flipped || !currentCard()) return;
+      if (studyCardSwipeAnimating || !studySession || !currentCard()) return;
       studySession.classroomFollowing=false;
       cancelStudyCardSwipe();
       stopNeuralSpeech({ refresh: false });
