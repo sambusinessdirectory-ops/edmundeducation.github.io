@@ -70,9 +70,11 @@
         <div class="site-announcement-gallery" data-announcement-gallery hidden></div>
         <div class="site-announcement-copy">
           <p class="site-announcement-kicker">EDMUNDEDUCATION · 最新公告</p>
-          <h2 id="site-announcement-title">重要通知</h2>
-          <div class="site-announcement-message" data-announcement-message></div>
-          <button class="site-announcement-eddy" type="button" data-announcement-eddy aria-label="Eddy 的公告提示，點擊關閉"><img src="/eddy-new-announcement-dialogue.png" alt="" aria-hidden="true"><span class="site-announcement-eddy-copy" lang="zh-Hant"></span></button>
+          <h2 id="site-announcement-title" tabindex="-1">重要通知</h2>
+          <div class="site-announcement-message-wrap">
+            <div class="site-announcement-message" data-announcement-message></div>
+            <button class="site-announcement-eddy" type="button" data-announcement-eddy aria-label="Eddy 的公告提示，點擊關閉"><img src="/eddy-new-announcement-dialogue.png" alt="" aria-hidden="true"><span class="site-announcement-eddy-copy" lang="zh-Hant"></span></button>
+          </div>
           <p class="site-announcement-page" data-announcement-page></p>
           <div class="site-announcement-actions">
             <button class="site-announcement-contact" type="button" data-announcement-dismiss>聯絡 Edmund 以知道更多</button>
@@ -122,6 +124,7 @@
     }
     stopCarousel = window.EdmundAnnouncementRich.mountCarousel(gallery, slides);
     if (!dialog.open) dialog.showModal();
+    dialog.querySelector("#site-announcement-title").focus({ preventScroll: true });
   }
 
   async function initialize() {

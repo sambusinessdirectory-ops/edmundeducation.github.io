@@ -31,6 +31,14 @@
 .site-announcement-kicker { margin: 0 0 10px; color: #1f71b8; font: 900 11px/1.2 ui-sans-serif, system-ui, sans-serif; letter-spacing: .16em; }
 .site-announcement-copy h2 { margin: 0 0 16px; font-size: clamp(25px, 5vw, 36px); }
 .site-announcement-message { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font-size: clamp(16px, 2.8vw, 19px); line-height: 1.75; }
+.site-announcement-message-wrap {
+  position: relative;
+  margin-top: 10px;
+  padding: 16px 16px 56%;
+  border: 1px solid #dce6ee;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #fbfdff 0%, #fff9ec 100%);
+}
 .site-announcement-message .announcement-rich-large { font-size: 1.45em; line-height: 1.35; }
 .site-announcement-page { margin: 20px 0 0; color: #667085; font: 800 12px/1.3 ui-sans-serif, system-ui, sans-serif; }
 .site-announcement-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 22px; }
@@ -40,15 +48,18 @@
 
 @media (max-width: 520px) {
   .site-announcement-actions { grid-template-columns: 1fr; }
+  .site-announcement-message-wrap { padding: 12px 12px 56%; }
 }
 
-/* Eddy belongs to the announcement card and scrolls with its message. */
+/* Eddy's dialogue is the attached lower edge of the announcement message. */
 .site-announcement-eddy {
-  position: relative;
+  position: absolute;
+  right: 0;
+  bottom: -1px;
   display: block;
-  width: min(100%, 520px);
+  width: 100%;
   aspect-ratio: 1672 / 941;
-  margin: 14px auto 0;
+  margin: 0;
   padding: 0;
   border: 0;
   background: transparent !important;
