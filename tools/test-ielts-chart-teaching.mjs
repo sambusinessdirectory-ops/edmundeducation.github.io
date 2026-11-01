@@ -33,3 +33,4 @@ assert(sports.x<30&&sports.y>30);
 assert(!interactiveDiagrams['T1-040'].zones.some(zone=>zone.label.startsWith('The plans below')));
 assert(!interactiveDiagrams['T1-032'].zones.some(zone=>zone.label==='Finished concrete'));
 console.log('PASS: printed chart specifications and original-diagram regions');
+for(let n=33;n<=42;n++){const id=`T1-${String(n).padStart(3,'0')}`;assert(!interactiveDiagrams[id].zones.some(zone=>zone.key?.startsWith('text-')),`${id}: overlapping map text target`);}
