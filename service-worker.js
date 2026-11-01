@@ -26,7 +26,8 @@ const SHELL_URLS = [
   "/assets/icons/icon-192x192.png",
   "/assets/icons/icon-512x512.png",
   "/assets/icons/icon-maskable-192x192.png",
-  "/assets/icons/icon-maskable-512x512.png"
+  "/assets/icons/icon-maskable-512x512.png",
+  "/eddy-offline-dialogue.png"
 ];
 const SHELL_URL_SET = new Set(SHELL_URLS.map((path) => new URL(path, self.location.origin).href));
 
