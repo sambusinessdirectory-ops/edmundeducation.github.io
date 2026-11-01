@@ -1,0 +1,3301 @@
+{
+  "title": "La Isla Bonita",
+  "slug": "la-isla-bonita",
+  "translations": [
+    {
+      "english": "¿Cómo puede ser verdad?",
+      "chinese": "這怎麼可能是真的呢？",
+      "lineId": "line-1"
+    },
+    {
+      "english": "Last night I dreamt of San Pedro",
+      "chinese": "昨夜，我夢見了 San Pedro",
+      "lineId": "line-2"
+    },
+    {
+      "english": "Just like I'd never gone, I knew the song",
+      "chinese": "彷彿我從未離開過那裡，那首熟悉的歌依然縈繞心頭",
+      "lineId": "line-3"
+    },
+    {
+      "english": "A young girl with eyes like the desert",
+      "chinese": "一位少女，擁有一雙如沙漠般深邃的眼眸",
+      "lineId": "line-4",
+      "startSeconds": 32.92,
+      "endSeconds": 36.34
+    },
+    {
+      "english": "It all seems like yesterday, not far away",
+      "chinese": "這一切彷彿才發生在昨天，似乎從未真正遠去",
+      "lineId": "line-5",
+      "startSeconds": 38.54,
+      "endSeconds": 42.56
+    },
+    {
+      "english": "Tropical the island breeze",
+      "chinese": "島上的微風，帶著熱帶的溫暖氣息",
+      "lineId": "line-6",
+      "startSeconds": 42.56,
+      "endSeconds": 44.86
+    },
+    {
+      "english": "All of nature wild and free",
+      "chinese": "大自然的一切，都是如此奔放而自由",
+      "lineId": "line-7"
+    },
+    {
+      "english": "This is where I long to be",
+      "chinese": "這裡正是我朝思暮想、渴望停留的地方",
+      "lineId": "line-8",
+      "startSeconds": 46.96,
+      "endSeconds": 49.84
+    },
+    {
+      "english": "La isla bonita",
+      "chinese": "那座美麗的島嶼",
+      "lineId": "line-9",
+      "startSeconds": 49.84,
+      "endSeconds": 52.02
+    },
+    {
+      "english": "And when the samba played",
+      "chinese": "每當森巴舞曲悠然響起",
+      "lineId": "line-10",
+      "startSeconds": 52.68,
+      "endSeconds": 54.6
+    },
+    {
+      "english": "The sun would set so high",
+      "chinese": "夕陽便從高高的天際緩緩西沉",
+      "lineId": "line-11",
+      "startSeconds": 54.6,
+      "endSeconds": 56.96
+    },
+    {
+      "english": "Ring through my ears and sting my eyes",
+      "chinese": "那旋律縈繞耳際，令我眼眶泛起淚光",
+      "lineId": "line-12",
+      "startSeconds": 56.96,
+      "endSeconds": 59.26
+    },
+    {
+      "english": "Your Spanish lullaby",
+      "chinese": "那是你唱給我的西班牙搖籃曲",
+      "lineId": "line-13",
+      "startSeconds": 59.26,
+      "endSeconds": 61.42
+    },
+    {
+      "english": "I fell in love with San Pedro",
+      "chinese": "我深深愛上了 San Pedro",
+      "lineId": "line-14",
+      "startSeconds": 70.92,
+      "endSeconds": 74.98
+    },
+    {
+      "english": "Warm wind carried on the sea, he called to me",
+      "chinese": "溫暖的海風掠過海面，他的呼喚隨風傳來",
+      "lineId": "line-15",
+      "startSeconds": 76.48,
+      "endSeconds": 81.26
+    },
+    {
+      "english": "Te dijo te amo",
+      "chinese": "他對你說：「我愛你。」",
+      "lineId": "line-16",
+      "startSeconds": 81.9,
+      "endSeconds": 84.68
+    },
+    {
+      "english": "I prayed that the days would last",
+      "chinese": "我曾祈求那些美好的日子能夠永遠延續",
+      "lineId": "line-17",
+      "startSeconds": 86.48,
+      "endSeconds": 89.26
+    },
+    {
+      "english": "They went so fast",
+      "chinese": "可它們卻轉眼間匆匆流逝",
+      "lineId": "line-18",
+      "startSeconds": 89.42,
+      "endSeconds": 90.74
+    },
+    {
+      "english": "Tropical the island breeze",
+      "chinese": "島上的微風，帶著熱帶的溫暖氣息",
+      "lineId": "line-19"
+    },
+    {
+      "english": "All of nature wild and free",
+      "chinese": "大自然的一切，都是如此奔放而自由",
+      "lineId": "line-20",
+      "startSeconds": 92.9,
+      "endSeconds": 95.28
+    },
+    {
+      "english": "This is where I long to be",
+      "chinese": "這裡正是我朝思暮想、渴望停留的地方",
+      "lineId": "line-21",
+      "startSeconds": 95.28,
+      "endSeconds": 97.84
+    },
+    {
+      "english": "La isla bonita",
+      "chinese": "那座美麗的島嶼",
+      "lineId": "line-22",
+      "startSeconds": 97.84,
+      "endSeconds": 100.02
+    },
+    {
+      "english": "And when the samba played",
+      "chinese": "每當森巴舞曲悠然響起",
+      "lineId": "line-23"
+    },
+    {
+      "english": "The sun would set so high",
+      "chinese": "夕陽便從高高的天際緩緩西沉",
+      "lineId": "line-24",
+      "startSeconds": 102.66,
+      "endSeconds": 104.96
+    },
+    {
+      "english": "Ring through my ears and sting my eyes",
+      "chinese": "那旋律縈繞耳際，令我眼眶泛起淚光",
+      "lineId": "line-25",
+      "startSeconds": 105.12,
+      "endSeconds": 107.34
+    },
+    {
+      "english": "Your Spanish lullaby",
+      "chinese": "那是你唱給我的西班牙搖籃曲",
+      "lineId": "line-26",
+      "startSeconds": 107.64,
+      "endSeconds": 109.24
+    },
+    {
+      "english": "I want to be where the sun warms the sky",
+      "chinese": "我渴望置身於陽光溫暖整片天空的地方",
+      "lineId": "line-27",
+      "startSeconds": 119.16,
+      "endSeconds": 123.84
+    },
+    {
+      "english": "When it's time for siesta you can watch them go by",
+      "chinese": "每當午後小憩時分，便能靜靜看著人們悠然走過",
+      "lineId": "line-28",
+      "startSeconds": 123.84,
+      "endSeconds": 128.94
+    },
+    {
+      "english": "Beautiful faces, no cares in this world",
+      "chinese": "一張張美麗的臉龐，彷彿沒有半點世俗煩憂",
+      "lineId": "line-29",
+      "startSeconds": 128.94,
+      "endSeconds": 133.52
+    },
+    {
+      "english": "Where a girl loves a boy, and a boy loves a girl",
+      "chinese": "在那裡，女孩愛著男孩，男孩也深愛著女孩",
+      "lineId": "line-30",
+      "startSeconds": 133.52,
+      "endSeconds": 142.0
+    },
+    {
+      "english": "Last night I dreamt of San Pedro",
+      "chinese": "昨夜，我夢見了 San Pedro",
+      "lineId": "line-31",
+      "startSeconds": 150.48,
+      "endSeconds": 154.12
+    },
+    {
+      "english": "It all seems like yesterday, not far away",
+      "chinese": "這一切彷彿才發生在昨天，似乎從未真正遠去",
+      "lineId": "line-32",
+      "startSeconds": 156.22,
+      "endSeconds": 160.28
+    },
+    {
+      "english": "Tropical the island breeze",
+      "chinese": "島上的微風，帶著熱帶的溫暖氣息",
+      "lineId": "line-33"
+    },
+    {
+      "english": "All of nature wild and free",
+      "chinese": "大自然的一切，都是如此奔放而自由",
+      "lineId": "line-34"
+    },
+    {
+      "english": "This is where I long to be",
+      "chinese": "這裡正是我朝思暮想、渴望停留的地方",
+      "lineId": "line-35",
+      "startSeconds": 164.98,
+      "endSeconds": 167.48
+    },
+    {
+      "english": "La isla bonita",
+      "chinese": "那座美麗的島嶼",
+      "lineId": "line-36",
+      "startSeconds": 167.48,
+      "endSeconds": 169.74
+    },
+    {
+      "english": "And when the samba played",
+      "chinese": "每當森巴舞曲悠然響起",
+      "lineId": "line-37"
+    },
+    {
+      "english": "The sun would set so high",
+      "chinese": "夕陽便從高高的天際緩緩西沉",
+      "lineId": "line-38",
+      "startSeconds": 172.26,
+      "endSeconds": 174.66
+    },
+    {
+      "english": "Ring through my ears and sting my eyes",
+      "chinese": "那旋律縈繞耳際，令我眼眶泛起淚光",
+      "lineId": "line-39",
+      "startSeconds": 174.84,
+      "endSeconds": 176.94
+    },
+    {
+      "english": "Your Spanish lullaby",
+      "chinese": "那是你唱給我的西班牙搖籃曲",
+      "lineId": "line-40",
+      "startSeconds": 176.94,
+      "endSeconds": 179.14
+    },
+    {
+      "english": "Tropical the island breeze",
+      "chinese": "島上的微風，帶著熱帶的溫暖氣息",
+      "lineId": "line-41",
+      "startSeconds": 180.4,
+      "endSeconds": 183.1
+    },
+    {
+      "english": "All of nature wild and free",
+      "chinese": "大自然的一切，都是如此奔放而自由",
+      "lineId": "line-42",
+      "startSeconds": 183.7,
+      "endSeconds": 185.42
+    },
+    {
+      "english": "This is where I long to be",
+      "chinese": "這裡正是我朝思暮想、渴望停留的地方",
+      "lineId": "line-43",
+      "startSeconds": 185.42,
+      "endSeconds": 187.94
+    },
+    {
+      "english": "La isla bonita",
+      "chinese": "那座美麗的島嶼",
+      "lineId": "line-44",
+      "startSeconds": 187.94,
+      "endSeconds": 190.24
+    },
+    {
+      "english": "And when the samba played",
+      "chinese": "每當森巴舞曲悠然響起",
+      "lineId": "line-45"
+    },
+    {
+      "english": "The sun would set so high",
+      "chinese": "夕陽便從高高的天際緩緩西沉",
+      "lineId": "line-46",
+      "startSeconds": 193.02,
+      "endSeconds": 195.04
+    },
+    {
+      "english": "Ring through my ears and sting my eyes",
+      "chinese": "那旋律縈繞耳際，令我眼眶泛起淚光",
+      "lineId": "line-47",
+      "startSeconds": 195.3,
+      "endSeconds": 197.34
+    },
+    {
+      "english": "Your Spanish lullaby",
+      "chinese": "那是你唱給我的西班牙搖籃曲",
+      "lineId": "line-48",
+      "startSeconds": 197.34,
+      "endSeconds": 203.38
+    },
+    {
+      "english": "Te dijo te amo",
+      "chinese": "他對你說：「我愛你。」",
+      "lineId": "line-49"
+    },
+    {
+      "english": "El dijo que te ama",
+      "chinese": "他說，他愛著你",
+      "lineId": "line-50"
+    },
+    {
+      "english": "La isla bonita",
+      "chinese": "那座美麗的島嶼",
+      "lineId": "line-51"
+    },
+    {
+      "english": "Your Spanish lullaby",
+      "chinese": "那是你唱給我的西班牙搖籃曲",
+      "lineId": "line-52"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-2",
+          "answer": "Last night I dreamt",
+          "options": [
+            "Last night I wandered",
+            "Last week I dreamed",
+            "Last night I dreamt"
+          ],
+          "prompt": "{{blank}} of San Pedro",
+          "promptZh": "昨夜，我夢見了 San Pedro"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-5",
+          "answer": "like yesterday",
+          "options": [
+            "like yesterday",
+            "like tomorrow",
+            "like a lifetime"
+          ],
+          "prompt": "It all seems {{blank}}, not far away",
+          "promptZh": "這一切彷彿才發生在昨天，似乎從未真正遠去"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-8",
+          "answer": "I long to be",
+          "options": [
+            "I used to live",
+            "I long to be",
+            "I need to leave"
+          ],
+          "prompt": "This is where {{blank}}",
+          "promptZh": "這裡正是我朝思暮想、渴望停留的地方"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-11",
+          "answer": "set so high",
+          "options": [
+            "rise at dawn",
+            "set so high",
+            "shine so bright"
+          ],
+          "prompt": "The sun would {{blank}}",
+          "promptZh": "夕陽便從高高的天際緩緩西沉"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-13",
+          "answer": "Spanish lullaby",
+          "options": [
+            "summer melody",
+            "secret memory",
+            "Spanish lullaby"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "那是你唱給我的西班牙搖籃曲"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-15",
+          "answer": "he called to me",
+          "options": [
+            "she smiled at me",
+            "they waved goodbye",
+            "he called to me"
+          ],
+          "prompt": "Warm wind carried on the sea, {{blank}}",
+          "promptZh": "溫暖的海風掠過海面，他的呼喚隨風傳來"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-17",
+          "answer": "the days would last",
+          "options": [
+            "the rain would stop",
+            "the days would last",
+            "the night would end"
+          ],
+          "prompt": "I prayed that {{blank}}",
+          "promptZh": "我曾祈求那些美好的日子能夠永遠延續"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-20",
+          "answer": "wild and free",
+          "options": [
+            "wild and free",
+            "calm and quiet",
+            "cold and dark"
+          ],
+          "prompt": "All of nature {{blank}}",
+          "promptZh": "大自然的一切，都是如此奔放而自由"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-24",
+          "answer": "set so high",
+          "options": [
+            "rise at dawn",
+            "set so high",
+            "shine so bright"
+          ],
+          "prompt": "The sun would {{blank}}",
+          "promptZh": "夕陽便從高高的天際緩緩西沉"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-27",
+          "answer": "the sun warms the sky",
+          "options": [
+            "the moon lights the road",
+            "the rain meets the sea",
+            "the sun warms the sky"
+          ],
+          "prompt": "I want to be where {{blank}}",
+          "promptZh": "我渴望置身於陽光溫暖整片天空的地方"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-30",
+          "answer": "a boy loves a girl",
+          "options": [
+            "a boy walks alone",
+            "a boy loves a girl",
+            "a girl sings a song"
+          ],
+          "prompt": "Where a girl loves a boy, and {{blank}}",
+          "promptZh": "在那裡，女孩愛著男孩，男孩也深愛著女孩"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-31",
+          "answer": "Last night I dreamt",
+          "options": [
+            "Last night I dreamt",
+            "Last night I wandered",
+            "Last week I dreamed"
+          ],
+          "prompt": "{{blank}} of San Pedro",
+          "promptZh": "昨夜，我夢見了 San Pedro"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-33",
+          "answer": "the island breeze",
+          "options": [
+            "the island breeze",
+            "the ocean waves",
+            "the evening rain"
+          ],
+          "prompt": "Tropical {{blank}}",
+          "promptZh": "島上的微風，帶著熱帶的溫暖氣息"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-37",
+          "answer": "the samba played",
+          "options": [
+            "the music stopped",
+            "the samba played",
+            "the thunder rolled"
+          ],
+          "prompt": "And when {{blank}}",
+          "promptZh": "每當森巴舞曲悠然響起"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-40",
+          "answer": "Spanish lullaby",
+          "options": [
+            "Spanish lullaby",
+            "summer melody",
+            "secret memory"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "那是你唱給我的西班牙搖籃曲"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-41",
+          "answer": "the island breeze",
+          "options": [
+            "the island breeze",
+            "the ocean waves",
+            "the evening rain"
+          ],
+          "prompt": "Tropical {{blank}}",
+          "promptZh": "島上的微風，帶著熱帶的溫暖氣息"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-43",
+          "answer": "I long to be",
+          "options": [
+            "I used to live",
+            "I need to leave",
+            "I long to be"
+          ],
+          "prompt": "This is where {{blank}}",
+          "promptZh": "這裡正是我朝思暮想、渴望停留的地方"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-46",
+          "answer": "set so high",
+          "options": [
+            "rise at dawn",
+            "shine so bright",
+            "set so high"
+          ],
+          "prompt": "The sun would {{blank}}",
+          "promptZh": "夕陽便從高高的天際緩緩西沉"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-48",
+          "answer": "Spanish lullaby",
+          "options": [
+            "Spanish lullaby",
+            "summer melody",
+            "secret memory"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "那是你唱給我的西班牙搖籃曲"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-52",
+          "answer": "Spanish lullaby",
+          "options": [
+            "summer melody",
+            "Spanish lullaby",
+            "secret memory"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "那是你唱給我的西班牙搖籃曲"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "¿Cómo puede ser verdad?"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:1}} of San Pedro"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Just like I'd never gone, I knew the song"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "A young girl with eyes like the desert"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "It all seems {{q:2}}, not far away"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Tropical the island breeze"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "All of nature wild and free"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "This is where {{q:3}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "La isla bonita"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And when the samba played"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "The sun would {{q:4}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Ring through my ears and sting my eyes"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Your {{q:5}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I fell in love with San Pedro"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Warm wind carried on the sea, {{q:6}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Te dijo te amo"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I prayed that {{q:7}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "They went so fast"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Tropical the island breeze"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "All of nature {{q:8}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "This is where I long to be"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "La isla bonita"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And when the samba played"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "The sun would {{q:9}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Ring through my ears and sting my eyes"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Your Spanish lullaby"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I want to be where {{q:10}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "When it's time for siesta you can watch them go by"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Beautiful faces, no cares in this world"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Where a girl loves a boy, and {{q:11}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:12}} of San Pedro"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "It all seems like yesterday, not far away"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Tropical {{q:13}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "All of nature wild and free"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "This is where I long to be"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "La isla bonita"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And when {{q:14}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "The sun would set so high"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Ring through my ears and sting my eyes"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Your {{q:15}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Tropical {{q:16}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "All of nature wild and free"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "This is where {{q:17}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "La isla bonita"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "And when the samba played"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "The sun would {{q:18}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Ring through my ears and sting my eyes"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Your {{q:19}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Te dijo te amo"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "El dijo que te ama"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "La isla bonita"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Your {{q:20}}"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-2",
+          "answer": "Last night I dreamt",
+          "options": [
+            "Last night I dreamt",
+            "Last night I wandered",
+            "Last week I dreamed"
+          ],
+          "prompt": "{{blank}} of San Pedro",
+          "promptZh": "昨夜，我夢見了 San Pedro"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "I knew the song",
+          "options": [
+            "I heard the drums",
+            "I sang along",
+            "I knew the song"
+          ],
+          "prompt": "Just like I'd never gone, {{blank}}",
+          "promptZh": "彷彿我從未離開過那裡，那首熟悉的歌依然縈繞心頭"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-5",
+          "answer": "like yesterday",
+          "options": [
+            "like tomorrow",
+            "like yesterday",
+            "like a lifetime"
+          ],
+          "prompt": "It all seems {{blank}}, not far away",
+          "promptZh": "這一切彷彿才發生在昨天，似乎從未真正遠去"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-6",
+          "answer": "the island breeze",
+          "options": [
+            "the island breeze",
+            "the ocean waves",
+            "the evening rain"
+          ],
+          "prompt": "Tropical {{blank}}",
+          "promptZh": "島上的微風，帶著熱帶的溫暖氣息"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-7",
+          "answer": "wild and free",
+          "options": [
+            "wild and free",
+            "calm and quiet",
+            "cold and dark"
+          ],
+          "prompt": "All of nature {{blank}}",
+          "promptZh": "大自然的一切，都是如此奔放而自由"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-8",
+          "answer": "I long to be",
+          "options": [
+            "I used to live",
+            "I long to be",
+            "I need to leave"
+          ],
+          "prompt": "This is where {{blank}}",
+          "promptZh": "這裡正是我朝思暮想、渴望停留的地方"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-11",
+          "answer": "set so high",
+          "options": [
+            "set so high",
+            "rise at dawn",
+            "shine so bright"
+          ],
+          "prompt": "The sun would {{blank}}",
+          "promptZh": "夕陽便從高高的天際緩緩西沉"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-13",
+          "answer": "Spanish lullaby",
+          "options": [
+            "Spanish lullaby",
+            "summer melody",
+            "secret memory"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "那是你唱給我的西班牙搖籃曲"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-14",
+          "answer": "I fell in love",
+          "options": [
+            "I ran away",
+            "I stayed awake",
+            "I fell in love"
+          ],
+          "prompt": "{{blank}} with San Pedro",
+          "promptZh": "我深深愛上了 San Pedro"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-15",
+          "answer": "he called to me",
+          "options": [
+            "she smiled at me",
+            "he called to me",
+            "they waved goodbye"
+          ],
+          "prompt": "Warm wind carried on the sea, {{blank}}",
+          "promptZh": "溫暖的海風掠過海面，他的呼喚隨風傳來"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-17",
+          "answer": "the days would last",
+          "options": [
+            "the days would last",
+            "the rain would stop",
+            "the night would end"
+          ],
+          "prompt": "I prayed that {{blank}}",
+          "promptZh": "我曾祈求那些美好的日子能夠永遠延續"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-20",
+          "answer": "wild and free",
+          "options": [
+            "calm and quiet",
+            "cold and dark",
+            "wild and free"
+          ],
+          "prompt": "All of nature {{blank}}",
+          "promptZh": "大自然的一切，都是如此奔放而自由"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-24",
+          "answer": "set so high",
+          "options": [
+            "set so high",
+            "rise at dawn",
+            "shine so bright"
+          ],
+          "prompt": "The sun would {{blank}}",
+          "promptZh": "夕陽便從高高的天際緩緩西沉"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-26",
+          "answer": "Spanish lullaby",
+          "options": [
+            "Spanish lullaby",
+            "summer melody",
+            "secret memory"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "那是你唱給我的西班牙搖籃曲"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-27",
+          "answer": "the sun warms the sky",
+          "options": [
+            "the moon lights the road",
+            "the sun warms the sky",
+            "the rain meets the sea"
+          ],
+          "prompt": "I want to be where {{blank}}",
+          "promptZh": "我渴望置身於陽光溫暖整片天空的地方"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-28",
+          "answer": "watch them go by",
+          "options": [
+            "hear the birds sing",
+            "see the stars shine",
+            "watch them go by"
+          ],
+          "prompt": "When it's time for siesta you can {{blank}}",
+          "promptZh": "每當午後小憩時分，便能靜靜看著人們悠然走過"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-29",
+          "answer": "no cares in this world",
+          "options": [
+            "no cares in this world",
+            "no light in the room",
+            "no time left to dance"
+          ],
+          "prompt": "Beautiful faces, {{blank}}",
+          "promptZh": "一張張美麗的臉龐，彷彿沒有半點世俗煩憂"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-30",
+          "answer": "a boy loves a girl",
+          "options": [
+            "a boy walks alone",
+            "a boy loves a girl",
+            "a girl sings a song"
+          ],
+          "prompt": "Where a girl loves a boy, and {{blank}}",
+          "promptZh": "在那裡，女孩愛著男孩，男孩也深愛著女孩"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-31",
+          "answer": "Last night I dreamt",
+          "options": [
+            "Last night I wandered",
+            "Last week I dreamed",
+            "Last night I dreamt"
+          ],
+          "prompt": "{{blank}} of San Pedro",
+          "promptZh": "昨夜，我夢見了 San Pedro"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-33",
+          "answer": "the island breeze",
+          "options": [
+            "the ocean waves",
+            "the island breeze",
+            "the evening rain"
+          ],
+          "prompt": "Tropical {{blank}}",
+          "promptZh": "島上的微風，帶著熱帶的溫暖氣息"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-34",
+          "answer": "wild and free",
+          "options": [
+            "calm and quiet",
+            "cold and dark",
+            "wild and free"
+          ],
+          "prompt": "All of nature {{blank}}",
+          "promptZh": "大自然的一切，都是如此奔放而自由"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-35",
+          "answer": "I long to be",
+          "options": [
+            "I used to live",
+            "I need to leave",
+            "I long to be"
+          ],
+          "prompt": "This is where {{blank}}",
+          "promptZh": "這裡正是我朝思暮想、渴望停留的地方"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-37",
+          "answer": "the samba played",
+          "options": [
+            "the music stopped",
+            "the samba played",
+            "the thunder rolled"
+          ],
+          "prompt": "And when {{blank}}",
+          "promptZh": "每當森巴舞曲悠然響起"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-39",
+          "answer": "sting my eyes",
+          "options": [
+            "warm my hands",
+            "touch my heart",
+            "sting my eyes"
+          ],
+          "prompt": "Ring through my ears and {{blank}}",
+          "promptZh": "那旋律縈繞耳際，令我眼眶泛起淚光"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-40",
+          "answer": "Spanish lullaby",
+          "options": [
+            "summer melody",
+            "Spanish lullaby",
+            "secret memory"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "那是你唱給我的西班牙搖籃曲"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-41",
+          "answer": "the island breeze",
+          "options": [
+            "the ocean waves",
+            "the evening rain",
+            "the island breeze"
+          ],
+          "prompt": "Tropical {{blank}}",
+          "promptZh": "島上的微風，帶著熱帶的溫暖氣息"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-43",
+          "answer": "I long to be",
+          "options": [
+            "I used to live",
+            "I long to be",
+            "I need to leave"
+          ],
+          "prompt": "This is where {{blank}}",
+          "promptZh": "這裡正是我朝思暮想、渴望停留的地方"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-45",
+          "answer": "the samba played",
+          "options": [
+            "the music stopped",
+            "the thunder rolled",
+            "the samba played"
+          ],
+          "prompt": "And when {{blank}}",
+          "promptZh": "每當森巴舞曲悠然響起"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-46",
+          "answer": "set so high",
+          "options": [
+            "rise at dawn",
+            "set so high",
+            "shine so bright"
+          ],
+          "prompt": "The sun would {{blank}}",
+          "promptZh": "夕陽便從高高的天際緩緩西沉"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-47",
+          "answer": "sting my eyes",
+          "options": [
+            "sting my eyes",
+            "warm my hands",
+            "touch my heart"
+          ],
+          "prompt": "Ring through my ears and {{blank}}",
+          "promptZh": "那旋律縈繞耳際，令我眼眶泛起淚光"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-48",
+          "answer": "Spanish lullaby",
+          "options": [
+            "Spanish lullaby",
+            "summer melody",
+            "secret memory"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "那是你唱給我的西班牙搖籃曲"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-52",
+          "answer": "Spanish lullaby",
+          "options": [
+            "summer melody",
+            "Spanish lullaby",
+            "secret memory"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "那是你唱給我的西班牙搖籃曲"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "¿Cómo puede ser verdad?"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:1}} of San Pedro"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Just like I'd never gone, {{q:2}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "A young girl with eyes like the desert"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "It all seems {{q:3}}, not far away"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Tropical {{q:4}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "All of nature {{q:5}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "This is where {{q:6}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "La isla bonita"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And when the samba played"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "The sun would {{q:7}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Ring through my ears and sting my eyes"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Your {{q:8}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:9}} with San Pedro"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Warm wind carried on the sea, {{q:10}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Te dijo te amo"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I prayed that {{q:11}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "They went so fast"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Tropical the island breeze"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "All of nature {{q:12}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "This is where I long to be"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "La isla bonita"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And when the samba played"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "The sun would {{q:13}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Ring through my ears and sting my eyes"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Your {{q:14}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I want to be where {{q:15}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "When it's time for siesta you can {{q:16}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Beautiful faces, {{q:17}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Where a girl loves a boy, and {{q:18}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:19}} of San Pedro"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "It all seems like yesterday, not far away"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Tropical {{q:20}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "All of nature {{q:21}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "This is where {{q:22}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "La isla bonita"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And when {{q:23}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "The sun would set so high"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Ring through my ears and {{q:24}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Your {{q:25}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Tropical {{q:26}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "All of nature wild and free"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "This is where {{q:27}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "La isla bonita"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "And when {{q:28}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "The sun would {{q:29}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Ring through my ears and {{q:30}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Your {{q:31}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Te dijo te amo"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "El dijo que te ama"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "La isla bonita"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Your {{q:32}}"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-2",
+          "answer": "Last night I dreamt",
+          "options": [
+            "Last night I wandered",
+            "Last week I dreamed",
+            "Last night I dreamt"
+          ],
+          "prompt": "{{blank}} of San Pedro",
+          "promptZh": "昨夜，我夢見了 San Pedro"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "I knew the song",
+          "options": [
+            "I knew the song",
+            "I heard the drums",
+            "I sang along"
+          ],
+          "prompt": "Just like I'd never gone, {{blank}}",
+          "promptZh": "彷彿我從未離開過那裡，那首熟悉的歌依然縈繞心頭"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-5",
+          "answer": "like yesterday",
+          "options": [
+            "like tomorrow",
+            "like yesterday",
+            "like a lifetime"
+          ],
+          "prompt": "It all seems {{blank}}, not far away",
+          "promptZh": "這一切彷彿才發生在昨天，似乎從未真正遠去"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-6",
+          "answer": "the island breeze",
+          "options": [
+            "the island breeze",
+            "the ocean waves",
+            "the evening rain"
+          ],
+          "prompt": "Tropical {{blank}}",
+          "promptZh": "島上的微風，帶著熱帶的溫暖氣息"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-7",
+          "answer": "wild and free",
+          "options": [
+            "calm and quiet",
+            "wild and free",
+            "cold and dark"
+          ],
+          "prompt": "All of nature {{blank}}",
+          "promptZh": "大自然的一切，都是如此奔放而自由"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-8",
+          "answer": "I long to be",
+          "options": [
+            "I used to live",
+            "I need to leave",
+            "I long to be"
+          ],
+          "prompt": "This is where {{blank}}",
+          "promptZh": "這裡正是我朝思暮想、渴望停留的地方"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-10",
+          "answer": "the samba played",
+          "options": [
+            "the samba played",
+            "the music stopped",
+            "the thunder rolled"
+          ],
+          "prompt": "And when {{blank}}",
+          "promptZh": "每當森巴舞曲悠然響起"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-11",
+          "answer": "set so high",
+          "options": [
+            "set so high",
+            "rise at dawn",
+            "shine so bright"
+          ],
+          "prompt": "The sun would {{blank}}",
+          "promptZh": "夕陽便從高高的天際緩緩西沉"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-12",
+          "answer": "sting my eyes",
+          "options": [
+            "warm my hands",
+            "sting my eyes",
+            "touch my heart"
+          ],
+          "prompt": "Ring through my ears and {{blank}}",
+          "promptZh": "那旋律縈繞耳際，令我眼眶泛起淚光"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-13",
+          "answer": "Spanish lullaby",
+          "options": [
+            "summer melody",
+            "Spanish lullaby",
+            "secret memory"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "那是你唱給我的西班牙搖籃曲"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-14",
+          "answer": "I fell in love",
+          "options": [
+            "I fell in love",
+            "I ran away",
+            "I stayed awake"
+          ],
+          "prompt": "{{blank}} with San Pedro",
+          "promptZh": "我深深愛上了 San Pedro"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-15",
+          "answer": "he called to me",
+          "options": [
+            "she smiled at me",
+            "they waved goodbye",
+            "he called to me"
+          ],
+          "prompt": "Warm wind carried on the sea, {{blank}}",
+          "promptZh": "溫暖的海風掠過海面，他的呼喚隨風傳來"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-17",
+          "answer": "the days would last",
+          "options": [
+            "the days would last",
+            "the rain would stop",
+            "the night would end"
+          ],
+          "prompt": "I prayed that {{blank}}",
+          "promptZh": "我曾祈求那些美好的日子能夠永遠延續"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-19",
+          "answer": "the island breeze",
+          "options": [
+            "the ocean waves",
+            "the island breeze",
+            "the evening rain"
+          ],
+          "prompt": "Tropical {{blank}}",
+          "promptZh": "島上的微風，帶著熱帶的溫暖氣息"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-20",
+          "answer": "wild and free",
+          "options": [
+            "calm and quiet",
+            "cold and dark",
+            "wild and free"
+          ],
+          "prompt": "All of nature {{blank}}",
+          "promptZh": "大自然的一切，都是如此奔放而自由"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-23",
+          "answer": "the samba played",
+          "options": [
+            "the music stopped",
+            "the samba played",
+            "the thunder rolled"
+          ],
+          "prompt": "And when {{blank}}",
+          "promptZh": "每當森巴舞曲悠然響起"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-24",
+          "answer": "set so high",
+          "options": [
+            "set so high",
+            "rise at dawn",
+            "shine so bright"
+          ],
+          "prompt": "The sun would {{blank}}",
+          "promptZh": "夕陽便從高高的天際緩緩西沉"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-25",
+          "answer": "sting my eyes",
+          "options": [
+            "warm my hands",
+            "touch my heart",
+            "sting my eyes"
+          ],
+          "prompt": "Ring through my ears and {{blank}}",
+          "promptZh": "那旋律縈繞耳際，令我眼眶泛起淚光"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-26",
+          "answer": "Spanish lullaby",
+          "options": [
+            "summer melody",
+            "secret memory",
+            "Spanish lullaby"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "那是你唱給我的西班牙搖籃曲"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-27",
+          "answer": "the sun warms the sky",
+          "options": [
+            "the sun warms the sky",
+            "the moon lights the road",
+            "the rain meets the sea"
+          ],
+          "prompt": "I want to be where {{blank}}",
+          "promptZh": "我渴望置身於陽光溫暖整片天空的地方"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-28",
+          "answer": "watch them go by",
+          "options": [
+            "hear the birds sing",
+            "watch them go by",
+            "see the stars shine"
+          ],
+          "prompt": "When it's time for siesta you can {{blank}}",
+          "promptZh": "每當午後小憩時分，便能靜靜看著人們悠然走過"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-29",
+          "answer": "no cares in this world",
+          "options": [
+            "no light in the room",
+            "no cares in this world",
+            "no time left to dance"
+          ],
+          "prompt": "Beautiful faces, {{blank}}",
+          "promptZh": "一張張美麗的臉龐，彷彿沒有半點世俗煩憂"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-30",
+          "answer": "a boy loves a girl",
+          "options": [
+            "a boy loves a girl",
+            "a boy walks alone",
+            "a girl sings a song"
+          ],
+          "prompt": "Where a girl loves a boy, and {{blank}}",
+          "promptZh": "在那裡，女孩愛著男孩，男孩也深愛著女孩"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-31",
+          "answer": "Last night I dreamt",
+          "options": [
+            "Last night I wandered",
+            "Last night I dreamt",
+            "Last week I dreamed"
+          ],
+          "prompt": "{{blank}} of San Pedro",
+          "promptZh": "昨夜，我夢見了 San Pedro"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-32",
+          "answer": "like yesterday",
+          "options": [
+            "like tomorrow",
+            "like a lifetime",
+            "like yesterday"
+          ],
+          "prompt": "It all seems {{blank}}, not far away",
+          "promptZh": "這一切彷彿才發生在昨天，似乎從未真正遠去"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-33",
+          "answer": "the island breeze",
+          "options": [
+            "the ocean waves",
+            "the island breeze",
+            "the evening rain"
+          ],
+          "prompt": "Tropical {{blank}}",
+          "promptZh": "島上的微風，帶著熱帶的溫暖氣息"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-34",
+          "answer": "wild and free",
+          "options": [
+            "wild and free",
+            "calm and quiet",
+            "cold and dark"
+          ],
+          "prompt": "All of nature {{blank}}",
+          "promptZh": "大自然的一切，都是如此奔放而自由"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-35",
+          "answer": "I long to be",
+          "options": [
+            "I long to be",
+            "I used to live",
+            "I need to leave"
+          ],
+          "prompt": "This is where {{blank}}",
+          "promptZh": "這裡正是我朝思暮想、渴望停留的地方"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-37",
+          "answer": "the samba played",
+          "options": [
+            "the music stopped",
+            "the thunder rolled",
+            "the samba played"
+          ],
+          "prompt": "And when {{blank}}",
+          "promptZh": "每當森巴舞曲悠然響起"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-38",
+          "answer": "set so high",
+          "options": [
+            "rise at dawn",
+            "shine so bright",
+            "set so high"
+          ],
+          "prompt": "The sun would {{blank}}",
+          "promptZh": "夕陽便從高高的天際緩緩西沉"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-39",
+          "answer": "sting my eyes",
+          "options": [
+            "warm my hands",
+            "sting my eyes",
+            "touch my heart"
+          ],
+          "prompt": "Ring through my ears and {{blank}}",
+          "promptZh": "那旋律縈繞耳際，令我眼眶泛起淚光"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-40",
+          "answer": "Spanish lullaby",
+          "options": [
+            "Spanish lullaby",
+            "summer melody",
+            "secret memory"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "那是你唱給我的西班牙搖籃曲"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-41",
+          "answer": "the island breeze",
+          "options": [
+            "the ocean waves",
+            "the evening rain",
+            "the island breeze"
+          ],
+          "prompt": "Tropical {{blank}}",
+          "promptZh": "島上的微風，帶著熱帶的溫暖氣息"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-42",
+          "answer": "wild and free",
+          "options": [
+            "wild and free",
+            "calm and quiet",
+            "cold and dark"
+          ],
+          "prompt": "All of nature {{blank}}",
+          "promptZh": "大自然的一切，都是如此奔放而自由"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-43",
+          "answer": "I long to be",
+          "options": [
+            "I used to live",
+            "I long to be",
+            "I need to leave"
+          ],
+          "prompt": "This is where {{blank}}",
+          "promptZh": "這裡正是我朝思暮想、渴望停留的地方"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-45",
+          "answer": "the samba played",
+          "options": [
+            "the samba played",
+            "the music stopped",
+            "the thunder rolled"
+          ],
+          "prompt": "And when {{blank}}",
+          "promptZh": "每當森巴舞曲悠然響起"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-46",
+          "answer": "set so high",
+          "options": [
+            "rise at dawn",
+            "shine so bright",
+            "set so high"
+          ],
+          "prompt": "The sun would {{blank}}",
+          "promptZh": "夕陽便從高高的天際緩緩西沉"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-47",
+          "answer": "sting my eyes",
+          "options": [
+            "warm my hands",
+            "sting my eyes",
+            "touch my heart"
+          ],
+          "prompt": "Ring through my ears and {{blank}}",
+          "promptZh": "那旋律縈繞耳際，令我眼眶泛起淚光"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-48",
+          "answer": "Spanish lullaby",
+          "options": [
+            "summer melody",
+            "secret memory",
+            "Spanish lullaby"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "那是你唱給我的西班牙搖籃曲"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-52",
+          "answer": "Spanish lullaby",
+          "options": [
+            "summer melody",
+            "secret memory",
+            "Spanish lullaby"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "那是你唱給我的西班牙搖籃曲"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "¿Cómo puede ser verdad?"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:1}} of San Pedro"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Just like I'd never gone, {{q:2}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "A young girl with eyes like the desert"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "It all seems {{q:3}}, not far away"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Tropical {{q:4}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "All of nature {{q:5}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "This is where {{q:6}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "La isla bonita"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And when {{q:7}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "The sun would {{q:8}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Ring through my ears and {{q:9}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Your {{q:10}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:11}} with San Pedro"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Warm wind carried on the sea, {{q:12}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Te dijo te amo"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I prayed that {{q:13}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "They went so fast"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Tropical {{q:14}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "All of nature {{q:15}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "This is where I long to be"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "La isla bonita"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And when {{q:16}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "The sun would {{q:17}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Ring through my ears and {{q:18}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Your {{q:19}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I want to be where {{q:20}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "When it's time for siesta you can {{q:21}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Beautiful faces, {{q:22}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Where a girl loves a boy, and {{q:23}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:24}} of San Pedro"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "It all seems {{q:25}}, not far away"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Tropical {{q:26}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "All of nature {{q:27}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "This is where {{q:28}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "La isla bonita"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And when {{q:29}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "The sun would {{q:30}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Ring through my ears and {{q:31}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Your {{q:32}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Tropical {{q:33}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "All of nature {{q:34}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "This is where {{q:35}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "La isla bonita"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "And when {{q:36}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "The sun would {{q:37}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Ring through my ears and {{q:38}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Your {{q:39}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Te dijo te amo"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "El dijo que te ama"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "La isla bonita"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Your {{q:40}}"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-2",
+          "answer": "Last night I dreamt",
+          "options": [
+            "Last night I wandered",
+            "Last week I dreamed",
+            "Last night I dreamt"
+          ],
+          "prompt": "{{blank}} of San Pedro",
+          "promptZh": "昨夜，我夢見了 San Pedro"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-3",
+          "answer": "I knew the song",
+          "options": [
+            "I heard the drums",
+            "I sang along",
+            "I knew the song"
+          ],
+          "prompt": "Just like I'd never gone, {{blank}}",
+          "promptZh": "彷彿我從未離開過那裡，那首熟悉的歌依然縈繞心頭"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-4",
+          "answer": "eyes like the desert",
+          "options": [
+            "eyes like the desert",
+            "eyes like the ocean",
+            "hair like the sunlight"
+          ],
+          "prompt": "A young girl with {{blank}}",
+          "promptZh": "一位少女，擁有一雙如沙漠般深邃的眼眸"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-5",
+          "answer": "like yesterday",
+          "options": [
+            "like tomorrow",
+            "like a lifetime",
+            "like yesterday"
+          ],
+          "prompt": "It all seems {{blank}}, not far away",
+          "promptZh": "這一切彷彿才發生在昨天，似乎從未真正遠去"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-6",
+          "answer": "the island breeze",
+          "options": [
+            "the ocean waves",
+            "the island breeze",
+            "the evening rain"
+          ],
+          "prompt": "Tropical {{blank}}",
+          "promptZh": "島上的微風，帶著熱帶的溫暖氣息"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "wild and free",
+          "options": [
+            "calm and quiet",
+            "wild and free",
+            "cold and dark"
+          ],
+          "prompt": "All of nature {{blank}}",
+          "promptZh": "大自然的一切，都是如此奔放而自由"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "I long to be",
+          "options": [
+            "I long to be",
+            "I used to live",
+            "I need to leave"
+          ],
+          "prompt": "This is where {{blank}}",
+          "promptZh": "這裡正是我朝思暮想、渴望停留的地方"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-10",
+          "answer": "the samba played",
+          "options": [
+            "the music stopped",
+            "the thunder rolled",
+            "the samba played"
+          ],
+          "prompt": "And when {{blank}}",
+          "promptZh": "每當森巴舞曲悠然響起"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-11",
+          "answer": "set so high",
+          "options": [
+            "rise at dawn",
+            "shine so bright",
+            "set so high"
+          ],
+          "prompt": "The sun would {{blank}}",
+          "promptZh": "夕陽便從高高的天際緩緩西沉"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-12",
+          "answer": "sting my eyes",
+          "options": [
+            "sting my eyes",
+            "warm my hands",
+            "touch my heart"
+          ],
+          "prompt": "Ring through my ears and {{blank}}",
+          "promptZh": "那旋律縈繞耳際，令我眼眶泛起淚光"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-13",
+          "answer": "Spanish lullaby",
+          "options": [
+            "summer melody",
+            "secret memory",
+            "Spanish lullaby"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "那是你唱給我的西班牙搖籃曲"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-14",
+          "answer": "I fell in love",
+          "options": [
+            "I ran away",
+            "I fell in love",
+            "I stayed awake"
+          ],
+          "prompt": "{{blank}} with San Pedro",
+          "promptZh": "我深深愛上了 San Pedro"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-15",
+          "answer": "he called to me",
+          "options": [
+            "she smiled at me",
+            "he called to me",
+            "they waved goodbye"
+          ],
+          "prompt": "Warm wind carried on the sea, {{blank}}",
+          "promptZh": "溫暖的海風掠過海面，他的呼喚隨風傳來"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-17",
+          "answer": "the days would last",
+          "options": [
+            "the days would last",
+            "the rain would stop",
+            "the night would end"
+          ],
+          "prompt": "I prayed that {{blank}}",
+          "promptZh": "我曾祈求那些美好的日子能夠永遠延續"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-18",
+          "answer": "went so fast",
+          "options": [
+            "went so fast",
+            "moved too slow",
+            "stayed all night"
+          ],
+          "prompt": "They {{blank}}",
+          "promptZh": "可它們卻轉眼間匆匆流逝"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-19",
+          "answer": "the island breeze",
+          "options": [
+            "the ocean waves",
+            "the island breeze",
+            "the evening rain"
+          ],
+          "prompt": "Tropical {{blank}}",
+          "promptZh": "島上的微風，帶著熱帶的溫暖氣息"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-20",
+          "answer": "wild and free",
+          "options": [
+            "calm and quiet",
+            "wild and free",
+            "cold and dark"
+          ],
+          "prompt": "All of nature {{blank}}",
+          "promptZh": "大自然的一切，都是如此奔放而自由"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-21",
+          "answer": "I long to be",
+          "options": [
+            "I long to be",
+            "I used to live",
+            "I need to leave"
+          ],
+          "prompt": "This is where {{blank}}",
+          "promptZh": "這裡正是我朝思暮想、渴望停留的地方"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-23",
+          "answer": "the samba played",
+          "options": [
+            "the music stopped",
+            "the thunder rolled",
+            "the samba played"
+          ],
+          "prompt": "And when {{blank}}",
+          "promptZh": "每當森巴舞曲悠然響起"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-24",
+          "answer": "set so high",
+          "options": [
+            "set so high",
+            "rise at dawn",
+            "shine so bright"
+          ],
+          "prompt": "The sun would {{blank}}",
+          "promptZh": "夕陽便從高高的天際緩緩西沉"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-25",
+          "answer": "sting my eyes",
+          "options": [
+            "sting my eyes",
+            "warm my hands",
+            "touch my heart"
+          ],
+          "prompt": "Ring through my ears and {{blank}}",
+          "promptZh": "那旋律縈繞耳際，令我眼眶泛起淚光"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-26",
+          "answer": "Spanish lullaby",
+          "options": [
+            "summer melody",
+            "secret memory",
+            "Spanish lullaby"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "那是你唱給我的西班牙搖籃曲"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-27",
+          "answer": "the sun warms the sky",
+          "options": [
+            "the moon lights the road",
+            "the sun warms the sky",
+            "the rain meets the sea"
+          ],
+          "prompt": "I want to be where {{blank}}",
+          "promptZh": "我渴望置身於陽光溫暖整片天空的地方"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-28",
+          "answer": "watch them go by",
+          "options": [
+            "watch them go by",
+            "hear the birds sing",
+            "see the stars shine"
+          ],
+          "prompt": "When it's time for siesta you can {{blank}}",
+          "promptZh": "每當午後小憩時分，便能靜靜看著人們悠然走過"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-29",
+          "answer": "no cares in this world",
+          "options": [
+            "no cares in this world",
+            "no light in the room",
+            "no time left to dance"
+          ],
+          "prompt": "Beautiful faces, {{blank}}",
+          "promptZh": "一張張美麗的臉龐，彷彿沒有半點世俗煩憂"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-30",
+          "answer": "a boy loves a girl",
+          "options": [
+            "a boy walks alone",
+            "a boy loves a girl",
+            "a girl sings a song"
+          ],
+          "prompt": "Where a girl loves a boy, and {{blank}}",
+          "promptZh": "在那裡，女孩愛著男孩，男孩也深愛著女孩"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-31",
+          "answer": "Last night I dreamt",
+          "options": [
+            "Last night I wandered",
+            "Last night I dreamt",
+            "Last week I dreamed"
+          ],
+          "prompt": "{{blank}} of San Pedro",
+          "promptZh": "昨夜，我夢見了 San Pedro"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-32",
+          "answer": "like yesterday",
+          "options": [
+            "like tomorrow",
+            "like a lifetime",
+            "like yesterday"
+          ],
+          "prompt": "It all seems {{blank}}, not far away",
+          "promptZh": "這一切彷彿才發生在昨天，似乎從未真正遠去"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-33",
+          "answer": "the island breeze",
+          "options": [
+            "the ocean waves",
+            "the island breeze",
+            "the evening rain"
+          ],
+          "prompt": "Tropical {{blank}}",
+          "promptZh": "島上的微風，帶著熱帶的溫暖氣息"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-34",
+          "answer": "wild and free",
+          "options": [
+            "calm and quiet",
+            "cold and dark",
+            "wild and free"
+          ],
+          "prompt": "All of nature {{blank}}",
+          "promptZh": "大自然的一切，都是如此奔放而自由"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-35",
+          "answer": "I long to be",
+          "options": [
+            "I used to live",
+            "I need to leave",
+            "I long to be"
+          ],
+          "prompt": "This is where {{blank}}",
+          "promptZh": "這裡正是我朝思暮想、渴望停留的地方"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-37",
+          "answer": "the samba played",
+          "options": [
+            "the samba played",
+            "the music stopped",
+            "the thunder rolled"
+          ],
+          "prompt": "And when {{blank}}",
+          "promptZh": "每當森巴舞曲悠然響起"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-38",
+          "answer": "set so high",
+          "options": [
+            "set so high",
+            "rise at dawn",
+            "shine so bright"
+          ],
+          "prompt": "The sun would {{blank}}",
+          "promptZh": "夕陽便從高高的天際緩緩西沉"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-39",
+          "answer": "sting my eyes",
+          "options": [
+            "warm my hands",
+            "sting my eyes",
+            "touch my heart"
+          ],
+          "prompt": "Ring through my ears and {{blank}}",
+          "promptZh": "那旋律縈繞耳際，令我眼眶泛起淚光"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-40",
+          "answer": "Spanish lullaby",
+          "options": [
+            "summer melody",
+            "secret memory",
+            "Spanish lullaby"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "那是你唱給我的西班牙搖籃曲"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-41",
+          "answer": "the island breeze",
+          "options": [
+            "the ocean waves",
+            "the island breeze",
+            "the evening rain"
+          ],
+          "prompt": "Tropical {{blank}}",
+          "promptZh": "島上的微風，帶著熱帶的溫暖氣息"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-42",
+          "answer": "wild and free",
+          "options": [
+            "calm and quiet",
+            "wild and free",
+            "cold and dark"
+          ],
+          "prompt": "All of nature {{blank}}",
+          "promptZh": "大自然的一切，都是如此奔放而自由"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-43",
+          "answer": "I long to be",
+          "options": [
+            "I used to live",
+            "I need to leave",
+            "I long to be"
+          ],
+          "prompt": "This is where {{blank}}",
+          "promptZh": "這裡正是我朝思暮想、渴望停留的地方"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-45",
+          "answer": "the samba played",
+          "options": [
+            "the samba played",
+            "the music stopped",
+            "the thunder rolled"
+          ],
+          "prompt": "And when {{blank}}",
+          "promptZh": "每當森巴舞曲悠然響起"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-46",
+          "answer": "set so high",
+          "options": [
+            "rise at dawn",
+            "shine so bright",
+            "set so high"
+          ],
+          "prompt": "The sun would {{blank}}",
+          "promptZh": "夕陽便從高高的天際緩緩西沉"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-47",
+          "answer": "sting my eyes",
+          "options": [
+            "sting my eyes",
+            "warm my hands",
+            "touch my heart"
+          ],
+          "prompt": "Ring through my ears and {{blank}}",
+          "promptZh": "那旋律縈繞耳際，令我眼眶泛起淚光"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-48",
+          "answer": "Spanish lullaby",
+          "options": [
+            "Spanish lullaby",
+            "summer melody",
+            "secret memory"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "那是你唱給我的西班牙搖籃曲"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-52",
+          "answer": "Spanish lullaby",
+          "options": [
+            "summer melody",
+            "Spanish lullaby",
+            "secret memory"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "那是你唱給我的西班牙搖籃曲"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "¿Cómo puede ser verdad?"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:1}} of San Pedro"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Just like I'd never gone, {{q:2}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "A young girl with {{q:3}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "It all seems {{q:4}}, not far away"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Tropical {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "All of nature {{q:6}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "This is where {{q:7}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "La isla bonita"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And when {{q:8}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "The sun would {{q:9}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Ring through my ears and {{q:10}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Your {{q:11}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:12}} with San Pedro"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Warm wind carried on the sea, {{q:13}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Te dijo te amo"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I prayed that {{q:14}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "They {{q:15}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Tropical {{q:16}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "All of nature {{q:17}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "This is where {{q:18}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "La isla bonita"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And when {{q:19}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "The sun would {{q:20}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Ring through my ears and {{q:21}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Your {{q:22}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I want to be where {{q:23}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "When it's time for siesta you can {{q:24}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Beautiful faces, {{q:25}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Where a girl loves a boy, and {{q:26}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:27}} of San Pedro"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "It all seems {{q:28}}, not far away"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Tropical {{q:29}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "All of nature {{q:30}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "This is where {{q:31}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "La isla bonita"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And when {{q:32}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "The sun would {{q:33}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Ring through my ears and {{q:34}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Your {{q:35}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Tropical {{q:36}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "All of nature {{q:37}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "This is where {{q:38}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "La isla bonita"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "And when {{q:39}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "The sun would {{q:40}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Ring through my ears and {{q:41}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Your {{q:42}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Te dijo te amo"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "El dijo que te ama"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "La isla bonita"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Your {{q:43}}"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 43
+    }
+  ],
+  "exercise_name": "La Isla Bonita · Listening & Vocabulary",
+  "description": "《La Isla Bonita》描寫一段充滿浪漫、懷念與異國風情的美好回憶。歌中的主角夢見曾經深愛的 San Pedro，回想那裡溫暖的陽光、熱帶海風、動人的音樂與自由自在的生活。她懷念島上純樸而熱情的人們，也記得曾經令人心動的愛情與甜蜜時光。雖然那些美好的日子早已匆匆流逝，但熟悉的旋律與景色依然深深留在心中，令她渴望再次回到那片樂土。最終，《La Isla Bonita》傳達的是對愛情、自由與美好歲月的眷戀：有些地方因承載著珍貴的回憶而變得無可取代，即使時間流逝，仍能在夢中帶給我們溫暖、幸福與心靈的慰藉。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Dream of",
+      "meaning": "夢見；夢想、嚮往。",
+      "usage": "說睡覺時夢見某個人或地方，或平常很希望得到某件事時，可以用 dream of + 人／事物。",
+      "prompt": "哪一句正確使用了「dream of」表示「夢見或嚮往」？",
+      "options": [
+        "I dream of visiting that beautiful island one day.",
+        "I dream of this soup with a spoon because it is hot.",
+        "The hotel dreams of five stars, so it sleeps all afternoon.",
+        "Please dream of the door before you open it."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "我夢想有一天造訪那座美麗的島嶼，dream of + V-ing 用法自然。",
+        "dream of 不能表示用湯匙喝湯；可說 I eat this hot soup with a spoon.",
+        "把飯店評等的「星星」當成飯店睡覺時會做的夢；若要表達評等，可說 The hotel wants five stars.",
+        "dream of 不是「檢查」或「想起」門的動作；可說 Please check the door before you open it."
+      ],
+      "sourceFile": "La_Isla_Bonita_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 1,
+      "explanation": "我夢想有一天造訪那座美麗的島嶼，dream of + V-ing 用法自然。",
+      "sourceOptionOrder": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Seem like",
+      "meaning": "看起來像；感覺彷彿。",
+      "usage": "一件事讓你聯想到另一件事，或某個回憶感覺很近時，可用 seem(s) like。",
+      "prompt": "哪一句正確使用了「seem like」？",
+      "options": [
+        "She seems like her shoes because they are the same size.",
+        "Our trip seems like yesterday, even though it was years ago.",
+        "The meeting seems like at five because the clock is busy.",
+        "I seem like my keys in the kitchen every morning."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "seems like 不能直接表示鞋子的尺寸相同；可說 Her shoes are the same size.",
+        "旅程雖在多年前，感覺卻像昨天才發生，符合 seems like yesterday 的常見用法。",
+        "seem like 不是用來報告會議開始時間；可說 The meeting starts at five.",
+        "seem like 不是尋找東西；可說 I look for my keys in the kitchen every morning."
+      ],
+      "sourceFile": "La_Isla_Bonita_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 2,
+      "explanation": "旅程雖在多年前，感覺卻像昨天才發生，符合 seems like yesterday 的常見用法。",
+      "sourceOptionOrder": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Breeze",
+      "meaning": "微風、輕柔的風。",
+      "usage": "描寫海邊、花園或戶外吹來的柔和風時使用。",
+      "prompt": "哪一句正確使用了「breeze」？",
+      "options": [
+        "I put the breeze in the fridge to keep it cold.",
+        "A cool breeze came through the window.",
+        "The chef added two breezes to the cake.",
+        "The bus is late because a breeze forgot its ticket."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "微風不是能裝進冰箱的物品；可說 I put the water in the fridge to keep it cold.",
+        "一陣涼爽的微風吹進窗內，breeze 正確指輕柔的風。",
+        "微風不是蛋糕材料；可說 The chef added two eggs to the cake.",
+        "微風不會買車票或搭公車；可說 The bus is late because of heavy traffic."
+      ],
+      "sourceFile": "La_Isla_Bonita_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 3,
+      "explanation": "一陣涼爽的微風吹進窗內，breeze 正確指輕柔的風。",
+      "sourceOptionOrder": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Wild and free",
+      "meaning": "野性而自由的；不受拘束的。",
+      "usage": "描述野生動物、自然環境或不受拘束的感覺。Wild 不一定代表危險。",
+      "prompt": "哪一句正確使用了「wild and free」？",
+      "options": [
+        "The bank says my money is wild and free, so it ran away.",
+        "The museum is wild and free because it closes at five.",
+        "These birds live wild and free in the forest.",
+        "My homework is wild and free because it has no name."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "把錢當成會自己逃跑的野生動物；可說 I cannot find my money.",
+        "博物館五點關門是營業時間，不代表 wild and free；可說 The museum closes at five.",
+        "鳥在森林裡自由生活，符合 wild and free 描述自然、不受拘束的意思。",
+        "作業沒寫名字不代表「野性而自由」；可說 My homework has no name on it."
+      ],
+      "sourceFile": "La_Isla_Bonita_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 4,
+      "explanation": "鳥在森林裡自由生活，符合 wild and free 描述自然、不受拘束的意思。",
+      "sourceOptionOrder": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Long to",
+      "meaning": "非常渴望、盼望做某事。",
+      "usage": "比普通的 want to 更強烈，通常用 long to + 原形動詞。",
+      "prompt": "哪一句正確使用了「long to」？",
+      "options": [
+        "The ruler longs to the desk because it is thirty centimeters.",
+        "The clock longs to twelve when it feels tired.",
+        "This road longs to the airport for ten miles.",
+        "After a cold winter, I long to see the sea again."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "把 long 當成「長度」後，誤接成 long to；可說 The ruler is thirty centimeters long.",
+        "時鐘不會因為疲倦而「渴望」指向十二點；可說 The clock shows twelve.",
+        "long to 不是用來量道路長度；可說 The road to the airport is ten miles long.",
+        "經過寒冬，我非常盼望再次看見大海，long to see 正確。"
+      ],
+      "sourceFile": "La_Isla_Bonita_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 5,
+      "explanation": "經過寒冬，我非常盼望再次看見大海，long to see 正確。",
+      "sourceOptionOrder": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Fall in love with",
+      "meaning": "愛上；深深喜歡上。",
+      "usage": "不只能愛上人，也能愛上一個地方或一件事。",
+      "prompt": "哪一句正確使用了「fall in love with」？",
+      "options": [
+        "We fell in love with the small town during our holiday.",
+        "My suitcase fell in love with the airport and refused to leave.",
+        "I fell in love with the floor and hurt my knee.",
+        "The waiter fell in love with the bill, so he paid it twice."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "旅行時愛上某座小鎮，fall in love with + 地方 很自然。",
+        "行李箱不會因為愛上機場而拒絕離開；可說 My suitcase was left at the airport.",
+        "把 fall in love 的 fall 誤當成真的跌倒；可說 I fell on the floor and hurt my knee.",
+        "付兩次帳單不能證明「愛上帳單」；可說 The waiter paid the bill twice by mistake."
+      ],
+      "sourceFile": "La_Isla_Bonita_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 6,
+      "explanation": "旅行時愛上某座小鎮，fall in love with + 地方 很自然。",
+      "sourceOptionOrder": [
+        "C",
+        "A",
+        "D",
+        "B"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Last",
+      "meaning": "持續、維持（某段時間）。",
+      "usage": "說活動、天氣、感情或某個狀態維持多久時，last 可以當動詞。",
+      "prompt": "哪一句正確使用了「last」表示「持續」？",
+      "options": [
+        "The train lasted the station and became the first train.",
+        "The concert lasted two hours.",
+        "I last my coat before I leave the house.",
+        "The calendar says Friday will last because it is the last day of work."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "把 last 和「第一／最後」的排名混在一起；可說 The train arrived at the station first.",
+        "演唱會持續兩小時，lasted two hours 用法正確。",
+        "last 不是穿外套的動作；可說 I put on my coat before I leave the house.",
+        "把星期五是一週工作日的最後一天，誤認成它會永久持續；可說 Friday is the last workday of the week."
+      ],
+      "sourceFile": "La_Isla_Bonita_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 7,
+      "explanation": "演唱會持續兩小時，lasted two hours 用法正確。",
+      "sourceOptionOrder": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Go by",
+      "meaning": "（時間）流逝；（人、車）經過。",
+      "usage": "例如 The days went by quickly 指日子過得很快；也可說看著人們從旁經過。",
+      "prompt": "哪一句正確使用了「go by」表示「時間流逝」？",
+      "options": [
+        "My camera went by the picture to make it bigger.",
+        "The doctor told my headache to go by the front door.",
+        "The shop goes by five dollars when it sells bread.",
+        "The summer days went by so fast."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "go by 不是放大照片的動作；可說 My camera can make the picture bigger.",
+        "頭痛不是會依醫師指示從大門離開的訪客；可說 The doctor gave me medicine for my headache.",
+        "go by 不能表示商品售價；可說 The shop sells bread for five dollars.",
+        "夏日過得很快，went by 正確表達時間流逝。"
+      ],
+      "sourceFile": "La_Isla_Bonita_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 8,
+      "explanation": "夏日過得很快，went by 正確表達時間流逝。",
+      "sourceOptionOrder": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Lullaby",
+      "meaning": "搖籃曲、哄人入睡的輕柔歌曲。",
+      "usage": "形容大人唱給嬰兒或孩子聽、幫助入睡的歌。",
+      "prompt": "哪一句正確使用了「lullaby」？",
+      "options": [
+        "The football team sang a lullaby to make the ball sleep.",
+        "The library asked me to return my lullaby because it was late.",
+        "Her father sang a soft lullaby to the baby.",
+        "The alarm clock played a lullaby to wake up the whole street."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "搖籃曲是給人聽的歌，不是讓足球睡覺的方法；可說 The football team sang a song after the game.",
+        "把搖籃曲當成圖書館一定要歸還的書；可說 The library asked me to return my book.",
+        "爸爸唱輕柔的搖籃曲給寶寶聽，意思正確。",
+        "鬧鐘用來叫醒人，lullaby 通常是安撫入睡；可說 The alarm clock rang loudly and woke everyone up."
+      ],
+      "sourceFile": "La_Isla_Bonita_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 9,
+      "explanation": "爸爸唱輕柔的搖籃曲給寶寶聽，意思正確。",
+      "sourceOptionOrder": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "No cares in the world",
+      "meaning": "無憂無慮、沒有什麼煩惱。",
+      "usage": "形容一個人很放鬆，暫時不為事情擔心；常見說法是 without a care in the world。",
+      "prompt": "哪一句最自然地表達「no cares in the world」的意思？",
+      "options": [
+        "She lay in the sun without a care in the world.",
+        "The beach has no cares because nobody gave it a job.",
+        "I put all my cares in a box and mailed them to the moon.",
+        "The world has no cares because it forgot its bag at home."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "她悠閒地躺在陽光下，沒有什麼煩惱；without a care in the world 是自然慣用語。",
+        "海灘不會因為沒有工作而沒有煩惱；可說 People can relax on the beach.",
+        "cares 在這裡指煩惱，不是能裝箱寄出的物品；可說 I tried to forget my worries.",
+        "「世界忘記帶包包」不能說明一個人無憂無慮；可說 I forgot my bag at home."
+      ],
+      "sourceFile": "La_Isla_Bonita_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 10,
+      "context": "教學提醒：：先讓學生說出錯誤選項「到底誤會了哪個意思」，再揭曉解析。fall in love with 可以接地方，go by 可以指時間流逝，也可以指經過；no cares in the world 在日常例句中可改用更常見的 without a care in the world。笑點不需要特別解釋成笑話，直接用正確英文修復錯誤即可。",
+      "explanation": "她悠閒地躺在陽光下，沒有什麼煩惱；without a care in the world 是自然慣用語。",
+      "sourceOptionOrder": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ]
+    }
+  ],
+  "tags": [
+    "madonna",
+    "la isla bonita"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/la-isla-bonita/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/la-isla-bonita/user-cover-20261101.png",
+  "singer": "Madonna",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 242.7333125,
+    "audioSha256": "d740aaab1aa7dff588b4fb2592ac96f5487dee9dcd85c03a91b94dbf6d52d378",
+    "timedLines": 38,
+    "untimedLines": 14,
+    "reviewStatus": "Conservative automatic alignment; not manually certified. Unmatched lines remain bilingual without guessed timestamps."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "\"La Isla Bonita\".pdf",
+      "sha256": "d7ce18a69c135728b889680df76dd214576ae1bec6a0ae6b3990b7ff7da4249d"
+    },
+    "mp3": {
+      "filename": "La Isla Bonita [JZZWHnK6piM].mp3",
+      "sha256": "d740aaab1aa7dff588b4fb2592ac96f5487dee9dcd85c03a91b94dbf6d52d378"
+    },
+    "translations": {
+      "source": "User-supplied Chinese translation in chat"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-0f246399-d5f0-4c7f-80cb-10d4be0e799e.png",
+    "sha256": "accd97083140646a4733d487ebec53013cd7103c5421ffc5be8f65f232838721",
+    "transformations": "none",
+    "selectedOn": "2026-11-01"
+  }
+}

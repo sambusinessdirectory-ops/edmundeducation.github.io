@@ -5,6 +5,7 @@ const id=n=>`00000000-0000-4000-8000-${String(n).padStart(12,'0')}`;
 const session={id:id(1),name:'Synthetic Student',role:'student',token:id(99)};
 const lesson=process.env.SONG_LESSON||'photograph';
 const original=JSON.parse(fs.readFileSync(root+`/tools/song-content/${lesson}.json`));
+const exerciseCount=original.exercises.at(-1).questions.length;
 const song={...original,id:id(3),published:true,cover_url:'http://127.0.0.1:8766/song-media/photograph/cover.webp',audio_url:'http://127.0.0.1:8766/song-media/photograph/album.mp3'};
 // Keep safe HTTPS media URLs and serve their bytes locally via route interception.
 song.cover_url=original.cover_url;song.audio_url=original.audio_url;
@@ -36,9 +37,9 @@ for (const width of [1280,390]) {
  if (await page.locator('[data-change-mode]').isVisible()) await page.locator('[data-change-mode]').click();
  await page.locator('[data-mode-grid] button').last().click();await page.waitForSelector('[data-lyric-flow]');
  assert.equal(await page.locator('[data-lyric-flow]').count(),original.translations.length);if(await page.locator('[data-toggle-chinese]').getAttribute('aria-pressed')!=='true')await page.locator('[data-toggle-chinese]').click();assert.deepEqual(await page.locator('[data-lyric-flow] > .question-translation').allTextContents(),original.translations.map(r=>r.chinese));
- assert.equal(await page.locator('.exercise-line[data-question]').count(),50);
- assert.deepEqual(await page.locator('[data-lyric-flow] > .exercise-full-line .blank-number').allTextContents(),Array.from({length:50},(_,i)=>String(i+1)));
- assert.deepEqual(await page.locator('.exercise-line > .exercise-prompt').allTextContents(),Array.from({length:50},(_,i)=>`第 ${i+1} 題`));
+ assert.equal(await page.locator('.exercise-line[data-question]').count(),exerciseCount);
+ assert.deepEqual(await page.locator('[data-lyric-flow] > .exercise-full-line .blank-number').allTextContents(),Array.from({length:exerciseCount},(_,i)=>String(i+1)));
+ assert.deepEqual(await page.locator('.exercise-line > .exercise-prompt').allTextContents(),Array.from({length:exerciseCount},(_,i)=>`第 ${i+1} 題`));
  const sourceRoute=original.exercises[3].listeningLines.flatMap(l=>[...l.prompt.matchAll(/\{\{q:(\d+)\}\}/g)].map(x=>x[1]));
  assert.deepEqual(await page.locator('.exercise-line[data-question]').evaluateAll(nodes=>nodes.map(n=>n.dataset.question)),sourceRoute);
  await page.evaluate(()=>window.songQA.syncLyricsToPlayback());

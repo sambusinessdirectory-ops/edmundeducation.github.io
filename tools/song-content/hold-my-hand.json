@@ -3124,5 +3124,1505 @@
     "sha256": "8febae97bb433ec3c7a56cd0089883043ec15bb414892e9f91a339b932b7b3f8",
     "transformations": "none",
     "selectedOn": "2026-10-30"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "211c34fb8e2dd6b7f793301ed11d5b007cf77e1286726aab9e05eb6a769cfd41"
+    },
+    {
+      "section": "advanced",
+      "filename": "Hold_My_Hand_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "66191e0806effd1e71a0030333c13d0f5b4de96135e06ee79cc12b7002336f82"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "祈使句：動詞原形 + 受詞",
+          "meaning": "請對方做一個動作。",
+          "usage": "用直接但友善的方式提出請求；主詞 you 通常省略。",
+          "prompt": "在擁擠的夜市，孩子怕跟媽媽走散，哪句請求最合適？",
+          "options": [
+            "Hold my ticket so you can eat it.",
+            "Holding my hand is a type of train.",
+            "Hold my hand so we can stay together.",
+            "My hand holds the night market open."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "C 拿票吃掉與避免走散無關。",
+            "D 把牽手誤說成交通工具。",
+            "A 明確請對方牽手以免走散。",
+            "B 把手說成能開啟夜市，不合語意。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Hold my hand",
+          "pattern": [
+            {
+              "text": "Hold",
+              "fixed": true
+            },
+            {
+              "text": "my hand",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 明確請對方牽手以免走散。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "will + be + 形容詞（未來狀態）",
+          "meaning": "預測或安慰未來的情況。",
+          "usage": "用 will be 加形容詞，表達對未來狀態的看法。",
+          "prompt": "小型演出開始前，音響剛修好，主持人要安撫大家，哪句最合適？",
+          "options": [
+            "The music will be a cold sandwich.",
+            "Everything will be okay now that the sound works.",
+            "The speakers were clouds yesterday.",
+            "Tomorrow will okay without be."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "C 將音樂比作三明治，情境不符。",
+            "B 音響已恢復，對接下來的演出給予合理安慰。",
+            "A 只談昨天的怪異比喻，不能安慰現場。",
+            "D 缺少 be，句子不合文法。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "everything will be okay",
+          "pattern": [
+            {
+              "text": "Everything will be",
+              "fixed": true
+            },
+            {
+              "text": "okay",
+              "fixed": false
+            }
+          ],
+          "explanation": "B 音響已恢復，對接下來的演出給予合理安慰。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "hear from + 來源",
+          "meaning": "從某個來源聽到消息。",
+          "usage": "hear from 後接傳遞消息的人或來源，不是單純「聽見某聲音」。",
+          "prompt": "旅遊團的導遊收到博物館通知改了開放時間，該怎樣說？",
+          "options": [
+            "The museum heard from a blue umbrella.",
+            "I heard from my map with a spoon.",
+            "I heard from the museum that it opens at ten.",
+            "I heard from ten o'clock the museum."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "C 藍雨傘沒有合理的通知功能。",
+            "D 地圖和湯匙的關係無法表達收到消息。",
+            "A 正確交代消息來自博物館。",
+            "B 把時間當成訊息來源，搭配不自然。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "I heard from the heavens",
+          "pattern": [
+            {
+              "text": "I heard from",
+              "fixed": true
+            },
+            {
+              "text": "the heavens",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 正確交代消息來自博物館。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "heard + that + 子句（轉述訊息）",
+          "meaning": "轉述自己聽到的一件事。",
+          "usage": "that 後面接完整子句；省略 that 也可能自然，但本歌確實有 that。",
+          "prompt": "天文館的導覽員從同事得知今晚會有流星雨，哪句適合轉述？",
+          "options": [
+            "I heard that tonight may bring many shooting stars.",
+            "I heard the stars to shine yesterday.",
+            "I heard that the door is a planet because it is blue.",
+            "I heard that the telescope with a red."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "A 是有完整內容的消息轉述。",
+            "C 不能用 heard + 受詞 + to 動詞來表達這個消息。",
+            "D 把門當行星的理由不成立。",
+            "B that 後的句子缺少必要動詞。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "I heard from the heavens that clouds have been grey",
+          "pattern": [
+            {
+              "text": "I heard ... that",
+              "fixed": true
+            },
+            {
+              "text": "clouds have been grey",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 是有完整內容的消息轉述。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "現在完成式：have/has been + 形容詞",
+          "meaning": "描述從過去延續到目前的狀態。",
+          "usage": "have been 搭配形容詞，尤其適合描述一段時間以來的變化或感受。",
+          "prompt": "一座小島這幾天一直下雨，氣象員要描述天空，哪句最自然？",
+          "options": [
+            "The clouds have dark all week.",
+            "The clouds have been dance on the sea.",
+            "The clouds were been dark tomorrow.",
+            "The clouds have been dark all week."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "B 缺少 been，文法不完整。",
+            "C been 後不能直接這樣接動詞原形。",
+            "D were been 和 tomorrow 的時間搭配錯誤。",
+            "A 現在完成式描述一整週持續陰暗。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "clouds have been grey",
+          "pattern": [
+            {
+              "text": "clouds have been",
+              "fixed": true
+            },
+            {
+              "text": "grey",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 現在完成式描述一整週持續陰暗。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "pull + 受詞 + 形容詞（結果位置）",
+          "meaning": "把某人或某物拉到更靠近的位置。",
+          "usage": "close 是動作後的結果狀態；可用於安全、擁抱或物件的移動。",
+          "prompt": "舞台表演時，攝影師想把椅子拉近燈光，哪句合適？",
+          "options": [
+            "Pull the chair close to the light for the photo.",
+            "Please pull the light a new song.",
+            "The chair pulled the camera happy.",
+            "Pull close the photo into the chair yesterday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "A 讓椅子靠近燈光，位置變化明確。",
+            "D 拉動燈光不能創造一首新歌。",
+            "C happy 不能表示相機被拉動的結果位置。",
+            "B 語序不自然且動作對象混亂。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "Pull me close",
+          "pattern": [
+            {
+              "text": "Pull",
+              "fixed": true
+            },
+            {
+              "text": "me",
+              "fixed": false
+            },
+            {
+              "text": "close",
+              "fixed": true
+            }
+          ],
+          "explanation": "A 讓椅子靠近燈光，位置變化明確。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "wrap + 受詞 + in + 包覆物",
+          "meaning": "用某物把對象包起來或圍住。",
+          "usage": "常說 wrap someone in a blanket，也可以用於擁抱的比喻。",
+          "prompt": "露營時氣溫突然下降，哪句最適合照顧朋友？",
+          "options": [
+            "Wrap your friend in a warm blanket.",
+            "Wrap the fire in a glass of milk.",
+            "Wrap in your friend a blanket warm.",
+            "Wrap the cold night in our tent."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "B 用暖毯把朋友包住，搭配自然。",
+            "C 用牛奶包火，語意不合理。",
+            "D 動詞後的受詞與介系詞位置錯亂。",
+            "A 夜晚不是可被帳篷包裹的物品。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "wrap me in your aching arms",
+          "pattern": [
+            {
+              "text": "wrap",
+              "fixed": true
+            },
+            {
+              "text": "me",
+              "fixed": false
+            },
+            {
+              "text": "in",
+              "fixed": true
+            },
+            {
+              "text": "your aching arms",
+              "fixed": false
+            }
+          ],
+          "explanation": "B 用暖毯把朋友包住，搭配自然。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "see + that + 完整子句",
+          "meaning": "表達自己看出或了解到某個情況。",
+          "usage": "see that 可以表示「我看得出來」，that 後用完整子句。",
+          "prompt": "老師看見學生練習後進步很大，哪句最自然？",
+          "options": [
+            "I see that your drawing better now.",
+            "I see that your drawing is much better now.",
+            "I see your progress to be tomorrow yesterday.",
+            "I see that to the kitchen is blue."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "B 子句缺少 be 動詞。",
+            "A 明確指出觀察到的進步。",
+            "D 時態和句子結構混亂。",
+            "C that 後面不是完整且合理的陳述。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "I see that you're bleeding",
+          "pattern": [
+            {
+              "text": "I see that",
+              "fixed": true
+            },
+            {
+              "text": "you're bleeding",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 明確指出觀察到的進步。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "Why did + 主詞 + take so long + to-V？",
+          "meaning": "詢問為何花了這麼長時間才做某事。",
+          "usage": "why'd 是 why did 的口語縮寫；後面用動詞原形 take。",
+          "prompt": "朋友花了兩小時才找到餐廳，大家想問原因，哪句最自然？",
+          "options": [
+            "Why did the café take your friend as a map?",
+            "Why you did take so long finding the café?",
+            "Why did you take so long to find the café?",
+            "Why did you took so long to find the café?"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "D 把餐廳說成拿朋友當地圖，語意不合理。",
+            "C 問句助動詞位置不對。",
+            "B 詢問找餐廳花太久的原因，句型正確。",
+            "A did 後應用 take 原形，不能用 took。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "why'd you take so long",
+          "pattern": [
+            {
+              "text": "Why did",
+              "fixed": true
+            },
+            {
+              "text": "you",
+              "fixed": false
+            },
+            {
+              "text": "take so long to",
+              "fixed": true
+            },
+            {
+              "text": "tell me?",
+              "fixed": false
+            }
+          ],
+          "explanation": "B 詢問找餐廳花太久的原因，句型正確。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "don't need to + 動詞原形",
+          "meaning": "表示某個動作沒有必要。",
+          "usage": "這是「不必做」，不等於「被禁止做」。",
+          "prompt": "導覽員已經看過參觀者的票，哪句話自然又有禮貌？",
+          "options": [
+            "You don't need to eat the museum twice.",
+            "You don't need to your ticket again.",
+            "You don't need to show your ticket again; I checked it.",
+            "You don't need showing your ticket again."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "D 吃博物館不合語意。",
+            "C to 後缺少動詞。",
+            "A 已驗票，所以不必再出示。",
+            "B need 後接 to-V，此處形式錯誤。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "You don't need to show me again",
+          "pattern": [
+            {
+              "text": "You don't need to",
+              "fixed": true
+            },
+            {
+              "text": "show me again",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 已驗票，所以不必再出示。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "if + 主詞 + decide to（省略已知動作）",
+          "meaning": "如果最後決定這麼做。",
+          "usage": "to 後省略前面提過的動作；只能在上下文清楚時省略。",
+          "prompt": "朋友邀請你參加陶藝班，你還在考慮，哪組對話自然？",
+          "options": [
+            "“Is it raining?” “If decide to is the rain.”",
+            "“Will you join us?” “If I decide to, I'll tell you.”",
+            "“What time is it?” “If I decide to, seven.”",
+            "“Where is the cup?” “If I decide to the shelf.”"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "D 缺主詞且整句不通順。",
+            "A 參加課程已在前文提過，可省略 join。",
+            "B 沒有前文動作供 to 承接。",
+            "C to 後的地點無法替代動詞。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "But if you decide to, I'll ride in this life with you",
+          "pattern": [
+            {
+              "text": "if you decide to [省略前文動作]",
+              "fixed": true
+            }
+          ],
+          "explanation": "A 參加課程已在前文提過，可省略 join。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "if + 現在式，will + 動詞（第一類條件）",
+          "meaning": "某條件成立時，未來會採取某行動。",
+          "usage": "真實可能的未來條件：if 子句用現在式，主句可用 will。",
+          "prompt": "朋友在科學展需要幫忙，你答應有空就去，哪句最自然？",
+          "options": [
+            "If I will have time, I help you yesterday.",
+            "If I have time, I'll help you set up the robot.",
+            "If time me, I will the robot.",
+            "If I have time, I'll be a purple floor."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "B if 子句和 yesterday 的時態混亂。",
+            "A if 用現在式，後句以 will 表示承諾。",
+            "D 缺少主詞和動詞，句子不完整。",
+            "C 變成紫色地板不是合理的協助。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "if you decide to, I'll ride in this life with you",
+          "pattern": [
+            {
+              "text": "If",
+              "fixed": true
+            },
+            {
+              "text": "you decide to",
+              "fixed": false
+            },
+            {
+              "text": ", I'll",
+              "fixed": true
+            },
+            {
+              "text": "ride with you",
+              "fixed": false
+            }
+          ],
+          "explanation": "A if 用現在式，後句以 will 表示承諾。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "won't + 動詞 + till + 名詞時間",
+          "meaning": "直到某個終點都不做某事。",
+          "usage": "till / 'til 是 until 的常見形式；歌詞中的縮寫需要標示語域。",
+          "prompt": "朋友在過山車上很緊張，工作人員提醒扶好安全扶手，哪句承諾自然？",
+          "options": [
+            "I won't my seat until the chair sings.",
+            "I won't leaves my seat until the ride ends.",
+            "I won't leave my seat until yesterday.",
+            "I won't leave my seat until the ride ends."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "D won't 後缺少動詞，而且椅子唱歌不合情境。",
+            "B won't 後不能用 leaves。",
+            "C until yesterday 與未來承諾衝突。",
+            "A 表示旅程結束前不離座，時序合理。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "I won't let go 'til the end",
+          "pattern": [
+            {
+              "text": "I won't",
+              "fixed": true
+            },
+            {
+              "text": "let go",
+              "fixed": false
+            },
+            {
+              "text": "till",
+              "fixed": true
+            },
+            {
+              "text": "the end",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 表示旅程結束前不離座，時序合理。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "強調式否定命令：Don't you + 動詞原形",
+          "meaning": "帶強烈提醒或情緒的否定命令。",
+          "usage": "比一般 Don't + V 更有感情；語氣可能親密，也可能較強硬。",
+          "prompt": "野外健行時領隊提醒同伴別踩進危險區域，哪句合適？",
+          "options": [
+            "Don't you stepping beyond that line!",
+            "Don't you steps beyond that line!",
+            "Don't you step beyond that line!",
+            "Don't you a line beyond the mountain."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "C 不能接 stepping 表示這種命令。",
+            "B Don't you 後需用動詞原形 step。",
+            "A 強烈提醒不可越過界線，句型正確。",
+            "D 缺少合適動詞，無法構成命令句。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "don't you let go of my hand",
+          "pattern": [
+            {
+              "text": "Don't you",
+              "fixed": true
+            },
+            {
+              "text": "let go of my hand",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 強烈提醒不可越過界線，句型正確。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "can + 動詞原形（允許或能力）",
+          "meaning": "表示可以做某件事。",
+          "usage": "can 依情境可指能力或允許；後接原形動詞。",
+          "prompt": "在美術室，學生問可否坐著畫畫，老師該怎樣回答？",
+          "options": [
+            "You can sitting here and paint.",
+            "You can sit here and paint.",
+            "You can to sit here and paint.",
+            "You can the painting in a chair."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "B can 後不能直接用 sitting。",
+            "A 可以坐在這裡畫畫，can 後接原形。",
+            "C can 後不加 to。",
+            "D can 後缺少動詞。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "You can cry every last tear",
+          "pattern": [
+            {
+              "text": "You can",
+              "fixed": true
+            },
+            {
+              "text": "cry",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 可以坐在這裡畫畫，can 後接原形。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "每一個：every last + 單數名詞",
+          "meaning": "強調全部、一個也不漏。",
+          "usage": "比 every 更強調數量完整，常見於強調或誇張語境。",
+          "prompt": "考古隊整理完箱子，要強調一件文物也沒漏，哪句最合適？",
+          "options": [
+            "We counted every last coins in the box.",
+            "Every last is a type of old coin.",
+            "We counted every last weather yesterday.",
+            "We counted every last coin in the box."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "B every last 後應用單數名詞 coin。",
+            "C 把片語當作物品名稱。",
+            "D weather 不能在此作可數的一個個物件。",
+            "A 強調所有硬幣都已點算。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "every last tear",
+          "pattern": [
+            {
+              "text": "every last",
+              "fixed": true
+            },
+            {
+              "text": "tear",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 強調所有硬幣都已點算。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "until + 現在式（表示未來截止點）",
+          "meaning": "在某件事發生之前一直保持目前做法。",
+          "usage": "未來時間子句常用現在式，不用 will；與 until + 名詞的用法不同。",
+          "prompt": "烘焙師要等蛋糕冷卻才裝飾，哪句正確？",
+          "options": [
+            "I won't add the cream until the cake will cool.",
+            "I won't add the cream because the oven is a singer.",
+            "I won't add the cream until the cake cools.",
+            "I won't add the cream until cake cooling."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "B 時間子句一般不用 will 表達這種未來。",
+            "D 烤箱是歌手與裝飾蛋糕無關。",
+            "A until 後用現在式表未來的時間點。",
+            "C 缺主詞與完整的謂語。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "I won't leave 'til I understand",
+          "pattern": [
+            {
+              "text": "I won't leave until",
+              "fixed": true
+            },
+            {
+              "text": "I understand",
+              "fixed": false
+            }
+          ],
+          "explanation": "A until 後用現在式表未來的時間點。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "promise + 人 +（承諾內容）",
+          "meaning": "請對方給自己一個承諾。",
+          "usage": "promise me 是直接請求；歌詞後面另接祈使句，不要誤標為 promise me + that。",
+          "prompt": "登山前，媽媽要孩子答應會戴好安全帽，哪句最自然？",
+          "options": [
+            "Promise me you'll wear your helmet.",
+            "Promise me the mountain is a spoon.",
+            "Promise me to your helmet.",
+            "Promise my helmet wearing you."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "A promise me 後交代答應的內容，符合語意。",
+            "D 山是湯匙不可能是合理承諾。",
+            "B to 後缺少動詞，且內容不完整。",
+            "C 詞序和動作關係不合理。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "Promise me, just hold my hand",
+          "pattern": [
+            {
+              "text": "Promise",
+              "fixed": true
+            },
+            {
+              "text": "me",
+              "fixed": false
+            }
+          ],
+          "explanation": "A promise me 後交代答應的內容，符合語意。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "promise +（that）完整子句",
+          "meaning": "答應某件事將會發生或自己會做到。",
+          "usage": "可以直接接子句；歌詞省略 that，不能因此說它出現了另一個新語法。",
+          "prompt": "兩位同學約好要保護展覽用的模型，哪句自然？",
+          "options": [
+            "Promise you'll keep the model safe.",
+            "Promise the model safe will you.",
+            "Promise keep that you'll the model.",
+            "Promise you'll the model safe."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "A 省略 that 的承諾子句仍完整自然。",
+            "D 混亂的倒裝使承諾內容不清。",
+            "C promise 和 that 子句語序錯亂。",
+            "B you'll 後缺少主要動詞。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "Promise you'll just hold my hand",
+          "pattern": [
+            {
+              "text": "Promise (that)",
+              "fixed": true
+            },
+            {
+              "text": "you'll hold my hand",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 省略 that 的承諾子句仍完整自然。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "look into + 名詞（朝內看／注視）",
+          "meaning": "把目光投向某處裡面或仔細注視。",
+          "usage": "此歌是注視眼睛；look into 也可表示調查，但不要把另一義項當新抽取結構。",
+          "prompt": "潛水員從船上看向透明的水中，哪句最自然？",
+          "options": [
+            "Look the clear water into your eyes for fish.",
+            "Look into to the clear water.",
+            "Look into the ticket so the clock can swim.",
+            "Look into the clear water and you may see fish."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "D 介系詞位置錯誤，意思混亂。",
+            "C into 後不應再加 to。",
+            "B 票和游泳的時鐘沒有合理關係。",
+            "A 看向水中，位置與意義都合理。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "look into my wishful eyes",
+          "pattern": [
+            {
+              "text": "look into",
+              "fixed": true
+            },
+            {
+              "text": "my wishful eyes",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 看向水中，位置與意義都合理。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "關係子句：名詞 + that's + 位置片語",
+          "meaning": "用關係子句指明是哪一件事物。",
+          "usage": "歌詞的 that's = that is，補充指向「你內心的恐懼」。",
+          "prompt": "工作坊有好幾箱道具，要指出舞台旁的那個箱子，哪句自然？",
+          "options": [
+            "The box that's beside the stage is ours.",
+            "The box that beside the stage is ours.",
+            "The box that's beside the stage belong ours.",
+            "The box that's beside the stage are ours."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "A that's = that is，清楚限定箱子位置。",
+            "C 這裡缺少 be 動詞。",
+            "D belong 缺第三人稱 -s 以及 to。",
+            "B 單數 box 應搭配 is 而不是 are。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "That fear that's inside you will lift",
+          "pattern": [
+            {
+              "text": "That fear",
+              "fixed": false
+            },
+            {
+              "text": "that's",
+              "fixed": true
+            },
+            {
+              "text": "inside you",
+              "fixed": false
+            }
+          ],
+          "explanation": "A that's = that is，清楚限定箱子位置。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "give it time（固定表達）",
+          "meaning": "讓一個過程慢慢發展，不要急於求成。",
+          "usage": "新環境、學習或改變需要時間時使用；這是歌中原有的完整表達。",
+          "prompt": "朋友剛開始學陶藝，作品還不漂亮，你應怎樣鼓勵？",
+          "options": [
+            "Give it time a new blue bicycle.",
+            "The clay gives it time to become a train station.",
+            "Give it time into the oven at 180 degrees.",
+            "Your bowls will improve. Give it time."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "C 把 time 當作能給腳踏車的物品。",
+            "D 陶土變成火車站不合理。",
+            "B 把 time 當成可放進烤箱的物品。",
+            "A 鼓勵慢慢學習，符合慣用語。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "give it time",
+          "pattern": [
+            {
+              "text": "give it time",
+              "fixed": true
+            }
+          ],
+          "explanation": "A 鼓勵慢慢學習，符合慣用語。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "everything + 省略關係代名詞的子句",
+          "meaning": "用子句補充說明「所有哪些事」。",
+          "usage": "歌詞確實省略關係代名詞 that；不是另行創造無 that 句型。",
+          "prompt": "海洋研究員要檢查所有記錄過的魚，哪句自然？",
+          "options": [
+            "We checked everything we wrote down yesterday.",
+            "We checked everything where write down yesterday.",
+            "We checked everything we wrote yesterday it.",
+            "Everything checked we yesterday fish."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "A everything 後直接接修飾它的子句，that 可省略。",
+            "C where 和動詞形式都不符合此關係子句。",
+            "B 多出 it，重複擔任受詞。",
+            "D 缺正常的主詞、動詞組織。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "I can see everything you're blind to now",
+          "pattern": [
+            {
+              "text": "everything (that)",
+              "fixed": true
+            },
+            {
+              "text": "you're blind to now",
+              "fixed": false
+            }
+          ],
+          "explanation": "A everything 後直接接修飾它的子句，that 可省略。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "be blind to + 名詞",
+          "meaning": "沒有察覺某事物或問題。",
+          "usage": "這裡是比喻性的「看不見、沒注意到」，不是指視覺障礙。",
+          "prompt": "城市公園的設計師沒注意到輪椅使用者無法進門，哪句自然？",
+          "options": [
+            "The designer was blind to the problem until visitors told her.",
+            "The designer was blind in a blue ticket.",
+            "The designer was blind to build the gate.",
+            "The designer was blind to tomorrow yesterday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "A 指之前沒有察覺入口障礙，意義準確。",
+            "C 藍色票券沒有表示忽略問題的意思。",
+            "B be blind to 後不能直接接動詞原形。",
+            "D 時間詞混用且缺具體被忽略的事情。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "you're blind to now",
+          "pattern": [
+            {
+              "text": "be blind to",
+              "fixed": true
+            },
+            {
+              "text": "a problem",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 指之前沒有察覺入口障礙，意義準確。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "未來被動：will be + 過去分詞",
+          "meaning": "某事將在未來受到處理或回應。",
+          "usage": "強調承受動作的對象；不一定交代執行者。",
+          "prompt": "圖書館已收到讀者的問題，哪句公告文法正確？",
+          "options": [
+            "Your questions will answered tomorrow.",
+            "Your questions are will answered tomorrow.",
+            "Your questions will be answer tomorrow.",
+            "Your questions will be answered tomorrow."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "B 缺少 be。",
+            "D 助動詞和 be 動詞順序錯誤。",
+            "C answered 應為過去分詞，不是原形 answer。",
+            "A will be answered 是正確的未來被動結構。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "Your prayers will be answered",
+          "pattern": [
+            {
+              "text": "Your prayers",
+              "fixed": false
+            },
+            {
+              "text": "will be",
+              "fixed": true
+            },
+            {
+              "text": "answered",
+              "fixed": false
+            }
+          ],
+          "explanation": "A will be answered 是正確的未來被動結構。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "let + 受詞 + 原形動詞",
+          "meaning": "讓某人進行某個動作。",
+          "usage": "let 後先接受詞，再接原形動詞，不加 to；不將此改成 let + -ing。",
+          "prompt": "舞台導演想讓年輕演員先講，哪句合適？",
+          "options": [
+            "Let the new actor speaks first.",
+            "Let the new actor speak first.",
+            "Let the new actor to speak first.",
+            "Let speaking the new actor first."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "D 不能用 speaks。",
+            "A let 後接人再接 speak 原形。",
+            "B 不需要 to。",
+            "C 把動名詞放錯位置。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "let God whisper how",
+          "pattern": [
+            {
+              "text": "let",
+              "fixed": true
+            },
+            {
+              "text": "God",
+              "fixed": false
+            },
+            {
+              "text": "whisper",
+              "fixed": true
+            }
+          ],
+          "explanation": "A let 後接人再接 speak 原形。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "give up on + 受詞",
+          "meaning": "不要對某人（包括自己）失去信心。",
+          "usage": "give up on 的 on 不可省略；與只表示停止活動的 give up 不完全一樣。",
+          "prompt": "機器人比賽中，隊友失敗兩次，你會怎樣鼓勵他？",
+          "options": [
+            "Don't you giving up on yourself yesterday.",
+            "Don't give up on yourself; your next idea may work.",
+            "Don't give up yourself on the table.",
+            "Don't give up on to your robot."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "D Don't you 後需要動詞原形，且 yesterday 不合。",
+            "A 表示仍應相信自己能改進。",
+            "B 把 yourself 當成可放桌上的物品。",
+            "C on 後不能再接 to + 名詞。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "don't you give up on yourself",
+          "pattern": [
+            {
+              "text": "don't give up on",
+              "fixed": true
+            },
+            {
+              "text": "yourself",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 表示仍應相信自己能改進。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "現在完成式：have/has + 過去分詞",
+          "meaning": "講述至今已有的經歷。",
+          "usage": "現在完成式可用於談過去發生、但與現在談話相關的經驗。",
+          "prompt": "電影社聊天時，有人想分享自己以前聽過的故事，哪句自然？",
+          "options": [
+            "I have hearing that story before.",
+            "I've hear that story before.",
+            "I've heard that story before.",
+            "I has heard that story before."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "C have 後不能直接用 hearing 組成此現在完成式。",
+            "B 缺少 heard 的正確形式。",
+            "A have heard 使用過去分詞，談曾有的經驗。",
+            "D I 應搭配 have，不是 has。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "I've heard a story",
+          "pattern": [
+            {
+              "text": "I've heard",
+              "fixed": true
+            },
+            {
+              "text": "a story",
+              "fixed": false
+            }
+          ],
+          "explanation": "A have heard 使用過去分詞，談曾有的經驗。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 29,
+          "word": "reported speech：過去轉述中的 would",
+          "meaning": "從過去的角度轉述當時對未來的看法。",
+          "usage": "歌詞以 would 表達過去所說的未來；不是假設語氣的新擴充。",
+          "prompt": "老師回想多年前教練的鼓勵，哪句自然？",
+          "options": [
+            "My coach told me I would a blue swimming pool.",
+            "My coach told me I would to become a swimmer.",
+            "My coach told me I will became a swimmer yesterday.",
+            "My coach told me I would become a good swimmer."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "D would 後缺少原形動詞。",
+            "C would 後不用 to。",
+            "B will became 的動詞形式錯誤。",
+            "A would become 表示教練當時相信我未來能成為游泳好手。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 29,
+          "cue": "That I would be happy again",
+          "pattern": [
+            {
+              "text": "she told me (that) I would",
+              "fixed": true
+            },
+            {
+              "text": "be happy again",
+              "fixed": false
+            }
+          ],
+          "explanation": "A would become 表示教練當時相信我未來能成為游泳好手。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 30,
+          "word": "I'll be + 地點／狀態（承諾自己會在）",
+          "meaning": "向對方保證自己會在某處。",
+          "usage": "be + 地點副詞表未來的位置；right 加強「就在這裡」的語氣。",
+          "prompt": "孩子進美術館尋找老師，老師要保證會在入口等，哪句自然？",
+          "options": [
+            "I'll right here be the door at tomorrow.",
+            "I'll be right here by the door if you need me.",
+            "I'll be right here yesterday.",
+            "I'll be right here to the painting is blue."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "D be 的位置及介系詞都不正確。",
+            "A 清楚保證將在入口附近等候。",
+            "B 未來承諾與 yesterday 衝突。",
+            "C 後半句混亂，無法表示位置。"
+          ],
+          "sourceFile": "Hold_My_Hand_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 30,
+          "cue": "I'll be right here",
+          "pattern": [
+            {
+              "text": "I'll be",
+              "fixed": true
+            },
+            {
+              "text": "right here",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 清楚保證將在入口附近等候。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "the heavens",
+          "meaning": "天際；天空；（宗教語境中的）天堂",
+          "usage": "較有文學色彩，談廣闊天空或天堂時使用。日常談天氣通常說 the sky。",
+          "prompt": "哪一句正確使用「the heavens」？",
+          "options": [
+            "The shop sold three heavens near the school.",
+            "We caught the heavens at the station at noon.",
+            "The stars shone in the heavens above the town.",
+            "The chef put the heavens in a pan with oil."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：the heavens 不是能按件出售的商品。",
+            "錯誤：不能用 catch the heavens 表示搭車。",
+            "正確：較富文學色彩地描述星星在天空中發亮。",
+            "錯誤：天空或天堂不是能放進鍋裡煎的食材。"
+          ],
+          "sourceFile": "Hold_My_Hand_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：較富文學色彩地描述星星在天空中發亮。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "wrap someone in",
+          "meaning": "用……包住某人；將某人裹在……裡",
+          "usage": "天冷時用毯子、外套等包住一個人；也可在文學中描寫擁抱。",
+          "prompt": "哪一句正確使用「wrap someone in」？",
+          "options": [
+            "The baker wrapped the rain in a paper bag.",
+            "Dad wrapped the baby in a soft blue blanket.",
+            "The nurse wrapped the clock in a long nap.",
+            "The guide wrapped the map in a loud song."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：雨水不能像小物品一樣被裝進紙袋裡包好。",
+            "正確：用柔軟的毯子把寶寶包裹起來，搭配自然。",
+            "錯誤：nap 是小睡，不能當作包覆物包住時鐘。",
+            "錯誤：歌曲不能像布料一樣包住地圖；如果是放音樂，應用 played。"
+          ],
+          "sourceFile": "Hold_My_Hand_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：用柔軟的毯子把寶寶包裹起來，搭配自然。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "bleed",
+          "meaning": "流血；（比喻）失去血液般持續流失",
+          "usage": "描述受傷流血，也可在正式語境比喻金錢或資源持續流失。",
+          "prompt": "哪一句正確使用「bleed」？",
+          "options": [
+            "The train began to bleed beside the bridge.",
+            "His finger began to bleed after he cut it.",
+            "Her alarm began to bleed at seven this morning today.",
+            "My sandwich began to bleed in the lunchbox."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：火車停在橋旁不能描述為流血。",
+            "正確：手指割傷後開始流血，是 bleed 的常見字面用法。",
+            "錯誤：鬧鐘響起應用 ring，不能用 bleed。",
+            "錯誤：普通三明治不會流血；若流出醬汁可說 leak。"
+          ],
+          "sourceFile": "Hold_My_Hand_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：手指割傷後開始流血，是 bleed 的常見字面用法。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "every last",
+          "meaning": "每一個，連最後一個也不漏；全部",
+          "usage": "加強語氣，表示連最小或最後的部分都包含在內；常見 every last one / drop / piece。",
+          "prompt": "哪一句正確使用「every last」？",
+          "options": [
+            "I bought every last at the toy shop yesterday.",
+            "The singer put every last under the piano.",
+            "My shoes were every last because they were red.",
+            "We checked every last box before we left."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：every last 後需有要強調的名詞，不能獨自當商品。",
+            "錯誤：沒有說明每一個什麼，不能當作物品放在鋼琴下。",
+            "錯誤：every last 不是描述鞋子顏色的形容詞。",
+            "正確：離開前把每一個箱子都檢查過，強調毫無遺漏。"
+          ],
+          "sourceFile": "Hold_My_Hand_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：離開前把每一個箱子都檢查過，強調毫無遺漏。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "wishful",
+          "meaning": "充滿願望的；一廂情願的",
+          "usage": "常見 wishful thinking，表示只因為希望如此就以為會成真；歌詞的 wishful eyes 則偏詩意。",
+          "prompt": "哪一句正確使用「wishful」？",
+          "options": [
+            "The bus was wishful at the corner of the road.",
+            "I wishful my bike to school every morning.",
+            "He made no plan; his hope was just wishful thinking.",
+            "She carried a wishful in her school bag before the test."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：公車停靠路口不會稱作 wishful。",
+            "錯誤：wishful 不是表示騎腳踏車的動詞。",
+            "正確：只抱希望卻沒有計畫，符合 wishful thinking「一廂情願的想法」。",
+            "錯誤：wishful 是形容詞，不是能放進書包的物品。"
+          ],
+          "sourceFile": "Hold_My_Hand_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：只抱希望卻沒有計畫，符合 wishful thinking「一廂情願的想法」。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "lift",
+          "meaning": "（霧、陰影、壞情緒等）逐漸消散；解除",
+          "usage": "除了「抬起」，還能說 fog / fear / sadness lifts，指不良狀態慢慢消退。",
+          "prompt": "哪一句正確使用「lift」？",
+          "options": [
+            "The fog finally lifted, and we could see the lake.",
+            "The little shop lifted its closing time into a bright bicycle.",
+            "The little boy lifted his sandwich into Tuesday.",
+            "The dog lifted the homework by feeling hungry."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：霧終於消散，視野變清楚；是 lift 的延伸用法。",
+            "錯誤：營業時間不能被「抬進腳踏車」；語意不通。",
+            "錯誤：into Tuesday 不是可被抬起、搬進去的地點；語意不自然。",
+            "錯誤：肚子餓不能用 lift 表示完成作業。"
+          ],
+          "sourceFile": "Hold_My_Hand_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：霧終於消散，視野變清楚；是 lift 的延伸用法。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "prayer",
+          "meaning": "祈禱；祈禱的話語",
+          "usage": "談宗教、信仰或對他人的祝福時使用；常見 say a prayer、answer a prayer。",
+          "prompt": "哪一句正確使用「prayer」？",
+          "options": [
+            "She said a quiet prayer for her sick friend.",
+            "The teacher used a prayer to cut the paper.",
+            "We wore warm prayers when the snow began.",
+            "The driver filled the empty tank with three long prayers."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：為生病的朋友輕聲祈禱；say a prayer 用法自然。",
+            "錯誤：祈禱不是剪紙工具，應用 scissors。",
+            "錯誤：祈禱不是能穿在身上的禦寒衣物。",
+            "錯誤：祈禱不是汽車油箱的燃料。"
+          ],
+          "sourceFile": "Hold_My_Hand_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：為生病的朋友輕聲祈禱；say a prayer 用法自然。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "imperfect",
+          "meaning": "不完美的；有缺點的",
+          "usage": "談作品、計畫或人不完美但仍有價值時使用；原歌詞中的 imperfect pain 是特別的詩意搭配。",
+          "prompt": "哪一句正確使用「imperfect」？",
+          "options": [
+            "The small dog bought an imperfect from the local shop yesterday.",
+            "We drove imperfect to the beach after school.",
+            "He imperfect the windows before the storm came.",
+            "The drawing was imperfect, but I still liked it."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：imperfect 不是可數的商品名稱。",
+            "錯誤：imperfect 不能當成表示駕車方式的副詞。",
+            "錯誤：imperfect 是形容詞，不是表示關窗的動詞。",
+            "正確：畫作雖不完美，仍令人喜歡；語意自然。"
+          ],
+          "sourceFile": "Hold_My_Hand_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：畫作雖不完美，仍令人喜歡；語意自然。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        }
+      ]
+    }
   }
 }

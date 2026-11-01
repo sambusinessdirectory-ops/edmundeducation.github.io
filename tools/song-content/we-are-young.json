@@ -3432,5 +3432,1585 @@
     "sha256": "cb6e2c50e277983a3ee7d6d70a2de0c4a7e0e7f2acbd64ea1769fb660616b927",
     "transformations": "none",
     "selectedOn": "2026-10-30"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "c8b62368ac3c4a9f748953ca1da6bae53870e05cb4eb1af40a4706b86dbc348d"
+    },
+    {
+      "section": "advanced",
+      "filename": "We_Are_Young_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "6ec5f9ad96a96a57a4cd2fc7a0b3e0ae2ffe3ee1f3597db5c9b53198a5105a43"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "祈使句：Give + 人 + 物",
+          "meaning": "請對方給自己一點時間。",
+          "usage": "需要對方暫停、讓你準備時。",
+          "prompt": "情境題 1： 主持人準備好麥克風前，哪句正確？",
+          "options": [
+            "Give a second me to check the sound.",
+            "Give me a second to check the sound.",
+            "Give me to a second for the sound.",
+            "Give I a second to check the sound."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "雙受詞的順序不對。",
+            "give 後接 me，再接 a second，正確。",
+            "多加 to，受詞順序錯誤。",
+            "I 是主格，這裡需用 me。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Give me a second",
+          "pattern": [
+            {
+              "text": "Give",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": true
+            },
+            {
+              "text": "物",
+              "fixed": true
+            }
+          ],
+          "example": "a second",
+          "explanation": "give 後接 me，再接 a second，正確。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "need + to + 原形動詞",
+          "meaning": "表示需要做某件事。",
+          "usage": "解釋任務或必要準備時。",
+          "prompt": "情境題 2： 導覽員要先查看路線，應說哪句？",
+          "options": [
+            "I need checking the map first.",
+            "I need to checking the map first.",
+            "I need to check the map first.",
+            "I need check the map first."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "need 後此處應用 to check。",
+            "to 後應接 check 原形。",
+            "need to + check 正確。",
+            "缺少 to。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "I need to get my story straight",
+          "pattern": [
+            {
+              "text": "need to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "get my story straight",
+          "explanation": "need to + check 正確。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "現在進行式：be + V-ing",
+          "meaning": "描述目前正在發生的動作。",
+          "usage": "說明某人此刻正在做甚麼。",
+          "prompt": "情境題 3： 朋友正在入口等候，哪句正確？",
+          "options": [
+            "My friend waiting at the door now.",
+            "My friend is wait at the door now.",
+            "My friend be waiting at the door now.",
+            "My friend is waiting at the door now."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "缺少 is。",
+            "is 後需用 waiting。",
+            "be 未依主詞變成 is。",
+            "is waiting 表示此刻正在等。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "she's waiting for me",
+          "pattern": [
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": true
+            }
+          ],
+          "example": "waiting for me",
+          "explanation": "is waiting 表示此刻正在等。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "現在進行式：get + 比較級",
+          "meaning": "表示程度正逐漸增加，並作比較。",
+          "usage": "描述天氣、音量等變化時；原句的 high 也有俚語雙關。",
+          "prompt": "情境題 4： 音樂的聲音愈來愈大，哪句正確？",
+          "options": [
+            "The music gets louder that before.",
+            "The music getting louder than before.",
+            "The music is getting louder than before.",
+            "The music is getting loudest than before."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "比較級後應用 than。",
+            "缺少 is。",
+            "is getting louder than 正確。",
+            "than 前不能用最高級 loudest。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "getting higher than the Empire State",
+          "pattern": [
+            {
+              "text": "getting",
+              "fixed": true
+            },
+            {
+              "text": "比較級",
+              "fixed": true
+            },
+            {
+              "text": "than",
+              "fixed": true
+            }
+          ],
+          "example": "higher than the Empire State",
+          "explanation": "is getting louder than 正確。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "現在完成式被動：has been + p.p.",
+          "meaning": "表示某事物已被做了某個動作，影響現在。",
+          "usage": "描述已完成而結果仍存在的被動事件。",
+          "prompt": "情境題 5： 有人已把門關上，哪句正確？",
+          "options": [
+            "The door has been closed.",
+            "The door has been close.",
+            "The door have been closed.",
+            "The door has being closed."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "has been closed 正確。",
+            "被動式需過去分詞 closed。",
+            "單數 door 用 has。",
+            "應是 been，不是 being。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "My seat's been taken",
+          "pattern": [
+            {
+              "text": "has been",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": true
+            }
+          ],
+          "example": "taken",
+          "explanation": "has been closed 正確。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "by + 動作執行者（被動）",
+          "meaning": "指出被動動作由誰做。",
+          "usage": "需要補充事件由誰完成時；原句以墨鏡代指戴墨鏡的人。",
+          "prompt": "情境題 6： 誰畫了這幅畫？哪句正確？",
+          "options": [
+            "The picture was painted for Mei yesterday by no one.",
+            "The picture painted by Mei yesterday.",
+            "The picture was painted by Mei yesterday.",
+            "The picture was paint by Mei yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "for Mei 表示受益者，不是明確由她繪畫。",
+            "缺少 was。",
+            "was painted by Mei 正確。",
+            "被動要用 painted。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "been taken by some sunglasses",
+          "pattern": [
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": true
+            },
+            {
+              "text": "by",
+              "fixed": true
+            },
+            {
+              "text": "執行者",
+              "fixed": true
+            }
+          ],
+          "example": "some sunglasses",
+          "explanation": "was painted by Mei 正確。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "過去簡單式 + ago",
+          "meaning": "使用過去式表達已完成的過往事件。",
+          "usage": "說明數個月前發生的事時。",
+          "prompt": "情境題 7： 描述兩個月前寄出的信，哪句正確？",
+          "options": [
+            "I have sent the letter two months ago.",
+            "I send the letter two months ago.",
+            "I sent the letter two months ago.",
+            "I sending the letter two months ago."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "通常不用現在完成式搭配明確的 ago。",
+            "明確過去時間需 sent。",
+            "sent + ago 正確。",
+            "缺少限定動詞。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "I know I gave it to you months ago",
+          "pattern": [
+            {
+              "text": "過去式",
+              "fixed": true
+            },
+            {
+              "text": "months ago",
+              "fixed": true
+            }
+          ],
+          "example": "gave it to you months ago",
+          "explanation": "sent + ago 正確。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "know + (that) 子句",
+          "meaning": "知道某一件事；that 可以省略。",
+          "usage": "陳述自己確知的消息時。",
+          "prompt": "情境題 8： 你知道朋友正在準備比賽，哪句正確？",
+          "options": [
+            "I know that is my friend preparing the race.",
+            "I know that my friend preparing for the race.",
+            "I know my friend to prepare for the race.",
+            "I know my friend is preparing for the race."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "that 後應有正常主詞與動詞。",
+            "從句缺少 is。",
+            "此處需完整子句而非 to prepare。",
+            "know 後接完整子句，省略 that 正確。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "I know you're trying to forget",
+          "pattern": [
+            {
+              "text": "know",
+              "fixed": true
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "完整子句",
+              "fixed": true
+            }
+          ],
+          "example": "you're trying to forget",
+          "explanation": "know 後接完整子句，省略 that 正確。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "try + to + 原形動詞",
+          "meaning": "努力嘗試達成某件事。",
+          "usage": "為一個目標付出努力時。",
+          "prompt": "情境題 9： 新學員試著學會游泳，哪句正確？",
+          "options": [
+            "She trying to learn to swim.",
+            "She is trying to learn to swim.",
+            "She is trying learn to swim.",
+            "She is trying to learning to swim."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "進行式缺少 is。",
+            "trying to learn 正確。",
+            "try 後缺少 to。",
+            "to 後不能直接用 learning。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "you're trying to forget",
+          "pattern": [
+            {
+              "text": "try to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "forget",
+          "explanation": "trying to learn 正確。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "副詞 hard 修飾 try",
+          "meaning": "強調為達成目標而努力。",
+          "usage": "想表達自己確實很努力時。",
+          "prompt": "情境題 10： 劇團努力讓演出準時開始，哪句正確？",
+          "options": [
+            "We are trying hardly to start on time.",
+            "We are trying hard start on time.",
+            "We are trying hard to starting on time.",
+            "We are trying hard to start on time."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "hardly 表「幾乎不」，非 hard 的同義副詞。",
+            "缺少 to。",
+            "to 後需 start 原形。",
+            "try hard to start 正確。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "I'm trying hard to take it back",
+          "pattern": [
+            {
+              "text": "try hard to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "take it back",
+          "explanation": "try hard to start 正確。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "by the time + 時間子句",
+          "meaning": "指到了某個時間點。",
+          "usage": "連接截止時間與另一件事；未來時間子句常用現在式。",
+          "prompt": "情境題 11： 你會在店關門前回來，哪句正確？",
+          "options": [
+            "I will return by the time closes the shop.",
+            "I will return by the time the shop closes.",
+            "I return by the time the shop close.",
+            "I will return by the time the shop will close."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "從句語序不對。",
+            "by the time + shop closes 正確。",
+            "第三人稱單數 shop 要 closes。",
+            "未來時間子句通常不用 will close。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "by the time the bar closes",
+          "pattern": [
+            {
+              "text": "by the time",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "現在式",
+              "fixed": true
+            }
+          ],
+          "example": "the bar closes",
+          "explanation": "by the time + shop closes 正確。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "feel like + V-ing",
+          "meaning": "有某種感覺或想做某事。",
+          "usage": "表達想做或快要有某種狀態的感受。",
+          "prompt": "情境題 12： 下雨天很想留在家，哪句正確？",
+          "options": [
+            "I feel like staying home today.",
+            "I feel like to stay home today.",
+            "I feel like stayed home today.",
+            "I feel like stay home today."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "feel like staying 正確。",
+            "此結構不用 to stay。",
+            "不是過去式 stayed。",
+            "like 後應用 staying。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "you feel like falling down",
+          "pattern": [
+            {
+              "text": "feel like",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": true
+            }
+          ],
+          "example": "falling down",
+          "explanation": "feel like staying 正確。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "if 條件句 + will",
+          "meaning": "表達未來會做的事，與上文 if 條件相連。",
+          "usage": "對未來可能發生的情況作承諾。",
+          "prompt": "情境題 13： 朋友若需要幫忙，你會打電話，哪句正確？",
+          "options": [
+            "If you need help, I will calling you.",
+            "If you need help, I will call you.",
+            "If you will need help, I will call you.",
+            "If you need help, I calling you."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "will 後應接 call。",
+            "if 現在式 + will 原形，正確。",
+            "一般未來條件的 if 從句不用 will。",
+            "主句缺少 will/am。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "I'll carry you home",
+          "pattern": [
+            {
+              "text": "will",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "carry you home",
+          "explanation": "if 現在式 + will 原形，正確。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "let us / let’s + 原形動詞",
+          "meaning": "提出一起做某事的建議。",
+          "usage": "邀請同伴共同採取行動。",
+          "prompt": "情境題 14： 提議大家為生日會佈置場地，哪句正確？",
+          "options": [
+            "Let's decorate the room together.",
+            "Let's decorating the room together.",
+            "Let's to decorate the room together.",
+            "Let's decorated the room together."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "let’s + decorate 正確。",
+            "let’s 後需原形 decorate。",
+            "不加 to。",
+            "不用過去式 decorated。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "let's set the world on fire",
+          "pattern": [
+            {
+              "text": "let's",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "set the world on fire",
+          "explanation": "let’s + decorate 正確。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "can + 動詞原形",
+          "meaning": "表示能力或可能性。",
+          "usage": "談能力或提出做得到的事情。",
+          "prompt": "情境題 15： 說明大家可以在圖書館借書，哪句正確？",
+          "options": [
+            "We can borrowing books here.",
+            "We can borrow books here.",
+            "We cans borrow books here.",
+            "We can to borrow books here."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "can 後需 borrow。",
+            "can borrow 正確。",
+            "情態動詞不加 s。",
+            "can 後不加 to。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "We can burn brighter than the sun",
+          "pattern": [
+            {
+              "text": "can",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "burn",
+          "explanation": "can borrow 正確。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "副詞比較級 + than",
+          "meaning": "把兩個對象的程度作比較。",
+          "usage": "比較速度、亮度、聲音大小等。",
+          "prompt": "情境題 16： 比較兩盞燈的亮度，哪句正確？",
+          "options": [
+            "This lamp shines brighter than that one.",
+            "This lamp shines more brighter than that one.",
+            "This lamp shines bright than that one.",
+            "This lamp shines brightest than that one."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "shines brighter than 正確。",
+            "more brighter 重複比較級。",
+            "需用比較級 brighter。",
+            "最高級 brightest 不接 than 比較兩者。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "brighter than the sun",
+          "pattern": [
+            {
+              "text": "比較級",
+              "fixed": true
+            },
+            {
+              "text": "than",
+              "fixed": true
+            }
+          ],
+          "example": "brighter than the sun",
+          "explanation": "shines brighter than 正確。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "thought + (that) 子句",
+          "meaning": "描述過去曾有的想法；本歌句子跨行、停頓未完成。",
+          "usage": "回憶原先的判斷時。",
+          "prompt": "情境題 17： 我本以為音樂會七點開始，哪句正確？",
+          "options": [
+            "I thought concert start at seven.",
+            "I thought the concert start at seven yesterday.",
+            "I thought the concert started at seven.",
+            "I thought the concert starting at seven."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "缺冠詞且從句動詞形式錯。",
+            "從句的時態與表達不自然。",
+            "thought 後接完整子句，正確。",
+            "缺少 was 等限定動詞。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "I just thought",
+          "pattern": [
+            {
+              "text": "thought",
+              "fixed": true
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "子句",
+              "fixed": true
+            }
+          ],
+          "example": "（後文接續想法）",
+          "explanation": "thought 後接完整子句，正確。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "could + 原形動詞",
+          "meaning": "提出不確定的可能性或較委婉的建議。",
+          "usage": "討論未來可以嘗試的選項時。",
+          "prompt": "情境題 18： 團隊可能找到新方法，哪句正確？",
+          "options": [
+            "We could found a better way.",
+            "We could finding a better way.",
+            "We could to find a better way.",
+            "We could find a better way."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "could 後不接過去式 found。",
+            "could 後需 find。",
+            "could 後不接 to。",
+            "could find 正確。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "we could find new ways",
+          "pattern": [
+            {
+              "text": "could",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "find new ways",
+          "explanation": "could find 正確。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "名詞 + to-infinitive 表用途",
+          "meaning": "to-infinitive 修飾名詞，說明方法或用途。",
+          "usage": "談解決問題的方法、待完成的事情。",
+          "prompt": "情境題 19： 需要一個學新語言的方法，哪句正確？",
+          "options": [
+            "I need a way to learn Spanish.",
+            "I need a way for learn Spanish.",
+            "I need a way learning Spanish.",
+            "I need a way to learning Spanish."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "a way to learn 正確。",
+            "這裡要用 to learn。",
+            "可有其他句法，但此處缺適當連接，目標結構是 to learn。",
+            "to 後用原形 learn。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "new ways to fall apart",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": true
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "ways to fall apart",
+          "explanation": "a way to learn 正確。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "someone + to-infinitive",
+          "meaning": "用不定詞補充說明需要哪種人。",
+          "usage": "尋找某人幫忙完成特定任務時。",
+          "prompt": "情境題 20： 你需要有人幫忙搬桌子，哪句正確？",
+          "options": [
+            "I need someone helping me the table to move.",
+            "I need someone to moving the table.",
+            "I need someone for move the table.",
+            "I need someone to move the table."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "結構不自然且詞序錯誤。",
+            "to 後應用 move。",
+            "for 後不能直接接 move 原形。",
+            "someone to move 正確。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "someone to carry me home",
+          "pattern": [
+            {
+              "text": "someone",
+              "fixed": true
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "carry me home",
+          "explanation": "someone to move 正確。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "I have no + 名詞 + to-infinitive",
+          "meaning": "表示沒有做某事的理由。",
+          "usage": "解釋自己不需採取某種行動時。",
+          "prompt": "情境題 21： 報告準備好了，沒有理由擔心，哪句正確？",
+          "options": [
+            "I have no reason to worry now.",
+            "I have no reason worrying now.",
+            "I have no reason to worrying now.",
+            "I have no reason worry now."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "reason to worry 正確。",
+            "這裡需名詞後不定詞 to worry。",
+            "to 後不能用 worrying。",
+            "缺少 to。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "I have no reason to run",
+          "pattern": [
+            {
+              "text": "have no",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": true
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": true
+            }
+          ],
+          "example": "reason to run",
+          "explanation": "reason to worry 正確。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "will 的一般疑問句",
+          "meaning": "詢問未來會不會發生某事。",
+          "usage": "詢問別人是否會參與將來活動。",
+          "prompt": "情境題 22： 詢問同學明天是否來，哪句正確？",
+          "options": [
+            "Will your friend comes tomorrow?",
+            "Will your friend come tomorrow?",
+            "Does your friend will come tomorrow?",
+            "Your friend will come tomorrow?"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "will 後應用 come 原形。",
+            "Will + 主詞 + come 正確。",
+            "不能同時用 does 和 will 形成疑問。",
+            "一般疑問句要把 Will 前置。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "will someone come and carry me home",
+          "pattern": [
+            {
+              "text": "Will",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "someone come and carry me home",
+          "explanation": "Will + 主詞 + come 正確。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "come and + 動詞原形",
+          "meaning": "邀請或描述某人過來做某件事。",
+          "usage": "請朋友過來一起參加活動時。",
+          "prompt": "情境題 23： 邀請朋友過來看看你的畫，哪句正確？",
+          "options": [
+            "Please come and seeing my painting.",
+            "Please come and saw my painting.",
+            "Please come and to see my painting.",
+            "Please come and see my painting."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "and 後應接 see 原形。",
+            "saw 是過去式。",
+            "and 後不需 to。",
+            "come and see 正確。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "come and carry me home",
+          "pattern": [
+            {
+              "text": "come and",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "carry me home",
+          "explanation": "come and see 正確。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "hear + 名詞（感官動詞）",
+          "meaning": "表示能夠聽見某個聲音來源。",
+          "usage": "描述聽見的聲音，而非主動聆聽的動作。",
+          "prompt": "情境題 24： 你在隔壁房間聽得見音樂，哪句正確？",
+          "options": [
+            "I can hear to the music next door.",
+            "I can heard the music next door.",
+            "I can hear the music next door.",
+            "I can hearing the music next door."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "hear 在此是及物動詞，不加 to。",
+            "can 後不用 heard。",
+            "can hear + 受詞，正確。",
+            "can 後需 hear。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "I can hear the choir",
+          "pattern": [
+            {
+              "text": "can hear",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": true
+            }
+          ],
+          "example": "the choir",
+          "explanation": "can hear + 受詞，正確。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "never + 過去式",
+          "meaning": "說明在過去的某段時間裡從未發生某事。",
+          "usage": "回想未曾發生的事件時。",
+          "prompt": "情境題 25： 上週邀請的嘉賓始終沒有來，哪句正確？",
+          "options": [
+            "Our guest never arrive last week.",
+            "Our guest never arriving last week.",
+            "Our guest never arrived last week.",
+            "Our guest didn't never arrived last week."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "last week 需過去式。",
+            "缺少限定動詞。",
+            "never arrived 搭配已結束的過去時間，正確。",
+            "否定重複且 did 後不能用 arrived。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "The angels never arrived",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "never",
+              "fixed": true
+            },
+            {
+              "text": "過去式",
+              "fixed": true
+            }
+          ],
+          "example": "arrived",
+          "explanation": "never arrived 搭配已結束的過去時間，正確。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "be on someone’s side",
+          "meaning": "表示支持某人；歌詞將月亮擬人化。",
+          "usage": "討論別人是否支持你時。",
+          "prompt": "情境題 26： 比賽前朋友支持你，哪句正確？",
+          "options": [
+            "My friends are in my side in the debate.",
+            "My friends are on my side in the debate.",
+            "My friends on my side in the debate.",
+            "My friends are on me side in the debate."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "此義應用 on，不是 in。",
+            "are on my side 正確。",
+            "缺少 are。",
+            "my 是所有格，不是 me。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "The moon is on my side",
+          "pattern": [
+            {
+              "text": "be on",
+              "fixed": true
+            },
+            {
+              "text": "所有格",
+              "fixed": true
+            },
+            {
+              "text": "side",
+              "fixed": true
+            }
+          ],
+          "example": "my side",
+          "explanation": "are on my side 正確。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "have + 過去分詞的縮寫辨識",
+          "meaning": "這裡的 ’s 代表 has，而不是 is。",
+          "usage": "辨別現在完成式中的縮寫時。",
+          "prompt": "情境題 27： 哪句和「門已經被鎖上」意思及結構相符？",
+          "options": [
+            "The gate's been locked already.",
+            "The gate's been lock already.",
+            "The gate's locking already.",
+            "The gate's lock already."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "gate’s = gate has；been locked 正確。",
+            "被動式過去分詞應是 locked。",
+            "是正在上鎖，不是已被鎖。",
+            "缺少適當動詞形式。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "My seat's been taken",
+          "pattern": [
+            {
+              "text": "seat's = seat has",
+              "fixed": true
+            }
+          ],
+          "example": "been taken",
+          "explanation": "gate’s = gate has；been locked 正確。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "all + that 關係子句",
+          "meaning": "all 可被 that 引導的關係子句限定。",
+          "usage": "說明「所擁有的一切」等範圍；原句 got 是口語表達。",
+          "prompt": "情境題 28： 哪句表達「這就是我需要的一切」？",
+          "options": [
+            "This is all what I need.",
+            "This is all that need I.",
+            "This is all I needing.",
+            "This is all that I need."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "標準這類句型通常用 all that I need。",
+            "從句主詞、動詞語序錯誤。",
+            "缺少正確限定動詞。",
+            "all that I need 正確。"
+          ],
+          "sourceFile": "We_Are_Young_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "All that you got",
+          "pattern": [
+            {
+              "text": "all",
+              "fixed": true
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "子句",
+              "fixed": true
+            }
+          ],
+          "example": "that you got",
+          "explanation": "all that I need 正確。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "scar",
+          "meaning": "疤痕；也可比喻心理留下的傷痕",
+          "usage": "描述傷口痊癒後留下的痕跡；抽象用法可指長久的傷痛。",
+          "prompt": "哪一句正確使用「scar」？",
+          "options": [
+            "He has a small scar on his knee from a fall.",
+            "The rain scarred at six and stopped at seven.",
+            "I put a scar inside the box to keep it safe.",
+            "The doctor scarred my appointment for Monday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：膝蓋上有跌倒留下的疤痕。",
+            "這裡應用 started（開始下雨），不是 scarred。",
+            "scar 不是可單獨裝進盒子的物品。",
+            "scar 在此不能取代 booked（預約）。"
+          ],
+          "sourceFile": "We_Are_Young_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：膝蓋上有跌倒留下的疤痕。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "seat's been taken",
+          "meaning": "座位已被占用（現在完成式被動語態）",
+          "usage": "說原本可以坐的位子已經由別人坐走；一般寫作可用 My seat has been taken。",
+          "prompt": "哪一句正確使用「seat's been taken」？",
+          "options": [
+            "My seat has taken by my friend already.",
+            "The seat has been taking since lunchtime.",
+            "My seat was been taken before we arrived.",
+            "This seat has been taken, so let's find another."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "被動語態需 has been taken，不是 has taken。",
+            "完成式被動要用過去分詞 taken，不是 taking。",
+            "was been taken 把兩種被動結構混在一起。",
+            "正確：座位已被占用，所以找別的位置。"
+          ],
+          "sourceFile": "We_Are_Young_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：座位已被占用，所以找別的位置。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "across",
+          "meaning": "在……另一側；穿過……",
+          "usage": "描述道路、房間或廣場另一端的位置，或從一邊移動到另一邊。",
+          "prompt": "哪一句正確使用「across」？",
+          "options": [
+            "My sister arrived across at seven o’clock.",
+            "She across the room after lunch every day.",
+            "The library is across from the bank on this street.",
+            "We walked across to the rain yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "arrived across 不能單獨這樣表示到達。",
+            "缺少動詞；可以說 walked across the room。",
+            "正確：圖書館在銀行的對面。",
+            "across 後面的表達不自然；若說在雨中走路可說 in the rain。"
+          ],
+          "sourceFile": "We_Are_Young_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：圖書館在銀行的對面。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "forget",
+          "meaning": "忘記；不再記得",
+          "usage": "談忘掉一件事或忘記去做某件事；注意 forget to do 和 forget doing 的差別。",
+          "prompt": "哪一句正確使用「forget」？",
+          "options": [
+            "Please do not forget to call me after school.",
+            "She forgot locking her bike, so it stayed unlocked.",
+            "He forgets the bus to school every morning.",
+            "I forgot to my coat before leaving home."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：不要忘記放學後打電話。",
+            "forgot locking 表示忘記「曾鎖過」；若沒鎖應說 forgot to lock。",
+            "這句想表達搭車時要用 takes the bus，不是 forgets。",
+            "forget to 後面要接動詞，如 bring my coat。"
+          ],
+          "sourceFile": "We_Are_Young_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：不要忘記放學後打電話。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "holes",
+          "meaning": "漏洞、缺陷；字面也可指洞",
+          "usage": "歌詞用 holes 比喻道歉有問題；一般可說 holes in a plan 或 holes in an explanation。",
+          "prompt": "哪一句正確使用「holes」？",
+          "options": [
+            "My friend holed the meeting at three in the park.",
+            "Our plan has holes because the paper is blue.",
+            "There are holes of my answer because it is Monday.",
+            "The teacher found holes in our plan and asked us to fix them."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "hole 不能這樣取代 held a meeting。",
+            "紙張顏色不足以表示計畫有漏洞。",
+            "要說 holes in，且後半句沒有合理關聯。",
+            "正確：老師發現計畫中的漏洞，要求修改。"
+          ],
+          "sourceFile": "We_Are_Young_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：老師發現計畫中的漏洞，要求修改。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "lover",
+          "meaning": "戀人、愛人（偏親密或文學語氣）",
+          "usage": "描述有浪漫關係的伴侶；日常也常用 partner、boyfriend 或 girlfriend。",
+          "prompt": "哪一句正確使用「lover」？",
+          "options": [
+            "My lover is a new chair beside the desk.",
+            "He wrote a letter to his lover on her birthday.",
+            "She lover to school by train every morning.",
+            "The singer lovered every song in the show."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "lover 通常指戀愛對象，不是椅子。",
+            "正確：他在愛人的生日寫了一封信。",
+            "lover 是名詞，不能替代 goes。",
+            "lover 不是這裡可當「唱歌」的動詞。"
+          ],
+          "sourceFile": "We_Are_Young_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：他在愛人的生日寫了一封信。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "brighter",
+          "meaning": "更明亮的；更加耀眼的（bright 的比較級）",
+          "usage": "比較兩個光源、房間或顏色的亮度；通常與 than 搭配。",
+          "prompt": "哪一句正確使用「brighter」？",
+          "options": [
+            "The sun is brighter to the train today.",
+            "My sister brighter her book before bedtime.",
+            "This room is brighter than the room upstairs.",
+            "This lamp is brighter of the other one."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "brighter 不能用 to 引入這種比較對象。",
+            "brighter 是形容詞比較級，不是動詞。",
+            "正確：這間房間比樓上房間亮。",
+            "比較時使用 brighter than，不是 brighter of。"
+          ],
+          "sourceFile": "We_Are_Young_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：這間房間比樓上房間亮。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "falling down",
+          "meaning": "跌倒；倒下",
+          "usage": "描述人或物失去平衡、向下倒；歌中也可能暗示虛弱或情緒低落。",
+          "prompt": "哪一句正確使用「falling down」？",
+          "options": [
+            "I falling down because my shoes are clean.",
+            "He is falling down his homework after lunch.",
+            "The old wall is falling down after the heavy rain.",
+            "The bus falling down at the station on time."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "進行式缺少 am；鞋子乾淨也不構成明確的跌倒原因。",
+            "fall down 不能表示寫作業。",
+            "正確：舊牆在大雨後逐漸倒塌。",
+            "缺少 is，且要說公車準時到站應用 arrived。"
+          ],
+          "sourceFile": "We_Are_Young_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：舊牆在大雨後逐漸倒塌。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "thought",
+          "meaning": "想、以為；think 的過去式",
+          "usage": "回顧先前的想法或判斷，也可以用 I thought + 完整子句。",
+          "prompt": "哪一句正確使用「thought」？",
+          "options": [
+            "I thought the shop was closed, but it was open.",
+            "The bag thought very heavy after the trip.",
+            "She thought her breakfast with a spoon.",
+            "I thought to the cinema yesterday by bus."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：我原以為商店關門了，結果還開著。",
+            "thought 是「認為／思考」，無法這樣表示包包重量。",
+            "吃早餐應用 ate，不是 thought。",
+            "這裡需要 went to the cinema，不能用 thought 表示移動。"
+          ],
+          "sourceFile": "We_Are_Young_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：我原以為商店關門了，結果還開著。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "reason",
+          "meaning": "理由、原因",
+          "usage": "解釋為什麼做某事；常用 reason for + 名詞或 reason to + 動詞。",
+          "prompt": "哪一句正確使用「reason」？",
+          "options": [
+            "This is the reason of I missed the train.",
+            "She has a reason to her new red jacket.",
+            "I reason my breakfast every day before school.",
+            "There is no reason to hurry; we have plenty of time."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "應說 the reason why I missed the train。",
+            "reason to 後要接動詞，如 to buy a jacket。",
+            "reason 是名詞或表示推理的動詞，不表示吃早餐。",
+            "正確：時間充裕，因此沒有需要趕的理由。"
+          ],
+          "sourceFile": "We_Are_Young_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：時間充裕，因此沒有需要趕的理由。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "arrived",
+          "meaning": "到達；抵達（arrive 的過去式）",
+          "usage": "描述人或交通工具到達某地；arrive at 小地點、arrive in 城市或國家。",
+          "prompt": "哪一句正確使用「arrived」？",
+          "options": [
+            "We arrived to the station before seven.",
+            "The train arrived at the station on time.",
+            "She was arrived at home late yesterday.",
+            "My friend arrived the party with a gift."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "抵達車站應用 arrived at，不是 arrived to。",
+            "正確：火車準時抵達車站。",
+            "arrive 是主動動詞，不用 was arrived；可說 She arrived home late。",
+            "arrive 通常不直接接地點作受詞，應說 arrived at the party。"
+          ],
+          "sourceFile": "We_Are_Young_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：火車準時抵達車站。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "choir",
+          "meaning": "合唱團；唱詩班",
+          "usage": "形容一群人一起唱歌；可以說 sing in a choir 或 listen to a choir。",
+          "prompt": "哪一句正確使用「choir」？",
+          "options": [
+            "The choir was a ticket for the train.",
+            "Our school choir sang three songs at the concert.",
+            "She put a choir in her pocket for the trip.",
+            "I choir my homework after dinner."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "choir 是合唱團，不是火車票。",
+            "正確：學校合唱團在音樂會唱了三首歌。",
+            "合唱團不是能放進口袋的物品。",
+            "choir 是名詞，不表示做功課。"
+          ],
+          "sourceFile": "We_Are_Young_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "explanation": "正確：學校合唱團在音樂會唱了三首歌。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        }
+      ]
+    }
   }
 }

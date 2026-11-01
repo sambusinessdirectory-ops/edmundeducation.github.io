@@ -2942,5 +2942,1193 @@
     "method": "faster-whisper-word-alignment-with-targeted-section-review",
     "audioSha256": "e998290acd2b0b2c5b2490a0fab3fcdea7b955856bc138bd1ed5f656d28f4271",
     "duration": 208.9215625
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "I_Lay_My_Love_On_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "59b2d8594c235359cc5d6b2dafda0a6c909311315f9e38fc7296a4d72d115011"
+    },
+    {
+      "section": "structure",
+      "filename": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "64346df852377ece93b58b38e0b33961b558e252438b95e0cf1c18af09880c3e"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Breathe",
+          "meaning": "呼吸（動詞）；名詞為 breath。",
+          "usage": "談呼吸、放慢呼吸或呼吸新鮮空氣時使用。注意 breathe /briːð/ 是動詞，不等於 breath /breθ/。",
+          "prompt": "哪一句正確使用「Breathe」？",
+          "options": [
+            "After the race, I stopped to breathe slowly for a minute.",
+            "My brother breathed his homework before going to bed.",
+            "The doctor breathed the new medicine in a small bag yesterday.",
+            "The chef breathed the carrots into the soup for dinner."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：跑完後停下來慢慢呼吸，動詞 breathe 使用自然。",
+            "錯誤：breathe 不能表示寫作業；可說 finished his homework。",
+            "錯誤：breathe 不是把藥品裝入袋子的動詞；應說 put the medicine in a bag。",
+            "錯誤：把紅蘿蔔加入湯裡應說 put the carrots into the soup。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：跑完後停下來慢慢呼吸，動詞 breathe 使用自然。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "Lay something on something",
+          "meaning": "將某物放在、鋪在某個表面上；lay 的過去式是 laid。",
+          "usage": "日常可指將物品放到桌子、床等表面；歌曲的 lay my love on you 則是「將愛傾注於你」的詩意說法，並非一般物理動作。",
+          "prompt": "哪一句正確使用「Lay something on something」？",
+          "options": [
+            "The children laid their songs on seven o’clock yesterday.",
+            "We laid our breakfast on Monday because we were late.",
+            "He laid the answer on the sky before the lesson at school.",
+            "She laid the clean towels on the bed after lunch."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：seven o’clock 是時間，不是可放置歌曲的表面；也不符合語意。",
+            "錯誤：on Monday 是時間，不能作為「把早餐放在上面」的表面。",
+            "錯誤：天空不是可供擺放答案的表面；可說 wrote the answer on the board。",
+            "正確：把乾淨毛巾放在床上，lay + 物品 + on + 表面，很自然。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：把乾淨毛巾放在床上，lay + 物品 + on + 表面，很自然。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "Walk right through",
+          "meaning": "直接穿過、一路走過（某個入口或空間）。",
+          "usage": "常用於穿過敞開的門、走廊或建築空間，right 用來加強「直接、毫不猶豫」的感覺；歌詞把它用作走進心房的比喻。",
+          "prompt": "哪一句正確使用「Walk right through」？",
+          "options": [
+            "The driver walked right through his new shoes on Monday.",
+            "The singer walked right through her exam with a red pen at school.",
+            "The door was open, so we walked right through into the hall.",
+            "My neighbour walked right through breakfast before the bus arrived."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：鞋子不是用來當作穿越的空間；可說 put on his new shoes。",
+            "錯誤：這裡的 walk through 不是用紅筆完成考試；可說 finished her exam。",
+            "正確：門開著，所以直接穿過門進入大廳；through 的方向與語意自然。",
+            "錯誤：walk right through 不表示吃完早餐；可說 ate breakfast quickly。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：門開著，所以直接穿過門進入大廳；through 的方向與語意自然。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "Change someone's world",
+          "meaning": "徹底改變某人的生活、感受或人生觀。",
+          "usage": "強調某個人或經歷對自己的生活有重大影響；常見於真誠的感謝或重要的人生轉折，不代表真的改造地球。",
+          "prompt": "哪一句正確使用「Change someone's world」？",
+          "options": [
+            "The teacher changed my world by moving the blue chair.",
+            "Learning to read changed her world; she found new stories.",
+            "My cousin changed my world at six when the bus stopped.",
+            "The waiter changed my world into a large bowl of soup."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：只是移動椅子，一般不足以構成改變人生的重大影響，語氣不相稱。",
+            "正確：學會閱讀開啟全新的故事世界，對生活產生重大影響。",
+            "錯誤：這裡只有公車停下的時間，沒有足以說明人生重大改變的情況。",
+            "錯誤：change someone’s world 不是把人生活的世界變成湯碗。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：學會閱讀開啟全新的故事世界，對生活產生重大影響。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Just + 名詞：僅僅一點就帶來變化",
+          "meaning": "只是一個微笑；用 just 縮小條件或數量。",
+          "usage": "想強調很小的一件事已經足夠時。",
+          "prompt": "舞台燈突然亮起，觀眾就安靜下來。哪句最符合「僅僅一聲鐘響就夠」？",
+          "options": [
+            "Just one bell, and everyone was quiet.",
+            "Every bell was made of gold.",
+            "The bell is inside the coat.",
+            "The bell rang after everyone left."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；just one 強調只需一聲。",
+            "是在描述鐘的材質，沒有「僅僅」的意思。",
+            "只說位置，沒有小條件帶來結果。",
+            "說的是事後發生，沒有「只需一聲」的意思。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "「Just a smile」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "Just",
+              "fixed": true
+            },
+            {
+              "text": "a smile",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；just one 強調只需一聲。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "and 串聯兩個分句，表示相繼或結果",
+          "meaning": "and 連接前後的情況，歌中把微笑和雨消失並置。",
+          "usage": "描寫一件事之後接著出現的變化；不保證 and 本身表示因果。",
+          "prompt": "陶藝展的門打開，客人開始進場。哪句自然串聯兩件事？",
+          "options": [
+            "The door open and people walking.",
+            "The door opened, and people came in.",
+            "The door opening and people came.",
+            "The door opened and people comes in yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "兩邊都缺完整的時態動詞。",
+            "正確；兩個完整過去式分句以 and 連結。",
+            "第一部分是片語，不是完整分句。",
+            "昨天的動作用 comes 不合時態。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "「and the rain is gone」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "and",
+              "fixed": true
+            },
+            {
+              "text": "the rain is gone",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；兩個完整過去式分句以 and 連結。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "can hardly + 原形動詞",
+          "meaning": "幾乎不能相信；hardly 含「幾乎不」之意。",
+          "usage": "驚訝、難以辨認或幾乎做不到某事。",
+          "prompt": "天文館看見罕見的彗星，驚訝得幾乎說不出話。哪句恰當？",
+          "options": [
+            "I can hard speak.",
+            "I can hardly speak.",
+            "I can hardly speaking.",
+            "I hardly can to speak."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "hard 是另一個字，不能替代 hardly 的語義。",
+            "正確；can hardly 後接 speak 原形。",
+            "can 後面應接原形 speak。",
+            "不需要 to，而且此處語序不自然。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "「Can hardly believe it」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "can hardly",
+              "fixed": true
+            },
+            {
+              "text": "believe it",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；can hardly 後接 speak 原形。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "There is + 名詞 + V-ing：描述正在做事的人／物",
+          "meaning": "介紹某人或某物，同時以 -ing 片語描述其動作。",
+          "usage": "看見場景中有某人正在做事。",
+          "prompt": "夜間動物園裡，導覽員指出一隻正在喝水的鹿。哪句符合？",
+          "options": [
+            "There is a deer drink water.",
+            "There a deer drinking water.",
+            "There is drinking a deer water.",
+            "There is a deer drinking water."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "應用 drinking 描述鹿的進行動作。",
+            "There is 結構缺 is。",
+            "語序把 drinking 放到 deer 前，句意不對。",
+            "正確；名詞 deer 後接 drinking water。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "「There's an angel standing next to me」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "There is",
+              "fixed": true
+            },
+            {
+              "text": "an angel",
+              "fixed": false
+            },
+            {
+              "text": "standing",
+              "fixed": true
+            },
+            {
+              "text": "next to me",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；名詞 deer 後接 drinking water。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "next to + 名詞／代名詞",
+          "meaning": "在某人或某物旁邊。",
+          "usage": "描述座位、展示品、地點等相鄰位置。",
+          "prompt": "美術館裡，藍色雕像就在紅色雕像旁邊。哪句正確？",
+          "options": [
+            "The blue statue is next to the red one.",
+            "The blue statue next the red one.",
+            "The blue statue is next to happy.",
+            "The blue statue is next to near the red one."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；next to 後面接名詞片語。",
+            "缺少 is 與介系詞 to。",
+            "happy 不是此處可用的地點或實體。",
+            "next to near 疊用兩種位置說法。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "「next to me」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "next to",
+              "fixed": true
+            },
+            {
+              "text": "me",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；next to 後面接名詞片語。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "V-ing 片語補充動作（詩歌片段）",
+          "meaning": "以現在分詞描述伸手觸及的動作；此處是承接上一行的詩歌片段。",
+          "usage": "描寫前句人物正在做的事，或作補充畫面。",
+          "prompt": "攝影師拍下一名小孩站在窗邊，伸手拿氣球。哪個補充片語自然？",
+          "options": [
+            "Reach to the balloon.",
+            "Reaching for the balloon.",
+            "Reaching the for balloon.",
+            "Reached for the ballooning."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "reach for 的搭配不應寫成 reach to。",
+            "正確；reaching for 表示正在伸手拿。",
+            "for 的位置錯誤。",
+            "ballooning 不是這個物品名詞。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "「Reaching for my heart」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "Reaching for",
+              "fixed": true
+            },
+            {
+              "text": "my heart",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；reaching for 表示正在伸手拿。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "there is no + 名詞",
+          "meaning": "表示某事物或選項不存在；歌中指沒有回頭路。",
+          "usage": "說沒有時間、空位或其他可能性時。",
+          "prompt": "觀星活動已額滿，工作人員要說「沒有空位了」。哪句最合適？",
+          "options": [
+            "There are no seat left.",
+            "There are no seats left.",
+            "There is not seats left.",
+            "There no seats left."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "複數 are no 後要接 seats。",
+            "正確；複數 seats 搭配 there are no。",
+            "seats 為複數，不能用 is not seats。",
+            "缺少 are。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "「there's no way back」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "there is no",
+              "fixed": true
+            },
+            {
+              "text": "way back",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；複數 seats 搭配 there are no。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "know that + 陳述子句",
+          "meaning": "表明自己知道或相信一個完整事實；that 引出內容。",
+          "usage": "希望明確表達自己對一件事的認知。",
+          "prompt": "植物園的工作人員確定溫室今天開放。哪句合適？",
+          "options": [
+            "I know that the garden is open today.",
+            "I know that is the garden open.",
+            "I know that the garden open today.",
+            "I know that opens the house."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；that 後面是完整的主詞＋動詞子句。",
+            "that 子句語序不對。",
+            "主詞後缺 is。",
+            "that 後缺少要說明的主詞。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "「I know that I'll be okay now」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "I know that",
+              "fixed": true
+            },
+            {
+              "text": "I’ll be okay now",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；that 後面是完整的主詞＋動詞子句。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "will + 原形動詞：未來預測／承諾",
+          "meaning": "will（縮寫 ’ll）後接動詞原形，表預測或承諾。",
+          "usage": "安慰別人、預測不久後的情況。",
+          "prompt": "新橋明天開放，工程師說「明天就會準備好」。哪句正確？",
+          "options": [
+            "The bridge will being ready tomorrow.",
+            "The bridge will is ready tomorrow.",
+            "The bridge will ready tomorrow.",
+            "The bridge will be ready tomorrow."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "will 後不用 being 來表示單純狀態。",
+            "will 後不能用 is。",
+            "形容詞 ready 前缺 be。",
+            "正確；will be 後接 ready。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "「I'll be okay now」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "I’ll be",
+              "fixed": true
+            },
+            {
+              "text": "okay",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；will be 後接 ready。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "主詞 + be + 形容詞（狀態判斷）",
+          "meaning": "be 動詞連結主詞與描述其狀態的形容詞。",
+          "usage": "確認事物真實、準備好了、很安靜等狀態。",
+          "prompt": "魔術師揭開箱子，觀眾發現裡面是真花而非紙花。哪句最符合？",
+          "options": [
+            "The flower is real.",
+            "The flower real.",
+            "The flower is really.",
+            "The flower are real."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；is + real 描述真花。",
+            "缺少 be 動詞。",
+            "really 是副詞，不能單獨作這種形容詞補語。",
+            "單數 flower 應搭配 is。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "「it's real」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "it",
+              "fixed": false
+            },
+            {
+              "text": "is",
+              "fixed": true
+            },
+            {
+              "text": "real",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；is + real 描述真花。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "lay + 受詞 + on + 對象",
+          "meaning": "將某物放在某處；歌中以 lay 表達「把愛傾注在你身上」的詩意比喻。",
+          "usage": "描述放置動作；比喻用法需按情境理解，不等於所有 lay 都可表愛意。",
+          "prompt": "展覽布置時，職員把布放在桌上。哪句使用相同語序？",
+          "options": [
+            "She laid the table on cloth.",
+            "She laid to the table the cloth.",
+            "She lay on the cloth the table.",
+            "She laid the cloth on the table."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "說的是把桌子放在布上，意思顛倒。",
+            "lay 不採用 laid to the table the cloth 這種語序。",
+            "受詞 cloth 應緊接動詞，on 引出位置。",
+            "正確；laid + the cloth + on the table。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "「I lay my love on you」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "lay",
+              "fixed": true
+            },
+            {
+              "text": "my love",
+              "fixed": false
+            },
+            {
+              "text": "on",
+              "fixed": true
+            },
+            {
+              "text": "you",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；laid + the cloth + on the table。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "all + 省略關係代名詞的關係子句",
+          "meaning": "all 後面接修飾它的子句；歌詞省略 that，wanna 是口語 want to。",
+          "usage": "表達「我想做的全部事情」或唯一重要的事。",
+          "prompt": "旅行前，女孩只想確認護照已放好。哪句能表達「這就是我想做的全部」？",
+          "options": [
+            "That is all I want do.",
+            "That all I want to do.",
+            "That is all which I want to do it.",
+            "That is all I want to do."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "want 後接動作應用 to do。",
+            "缺少 is。",
+            "關係子句裡不應又多放 it 作重複受詞。",
+            "正確；all 後的 that 可省略。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "「all I wanna do」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "all (that)",
+              "fixed": true
+            },
+            {
+              "text": "I wanna do",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；all 後的 that 可省略。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "Every time + 子句，主句",
+          "meaning": "每當某件事發生時，另一件事也發生。",
+          "usage": "描述反覆出現的觸發情境。",
+          "prompt": "每次小鳥飛到陽台，貓都看向窗外。哪句自然？",
+          "options": [
+            "Every time the bird come, the cat look outside.",
+            "Every time the bird coming, the cat looks.",
+            "Every time the bird comes, the cat looks outside.",
+            "Every time comes the bird, looks the cat."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "第三人稱單數應用 comes、looks。",
+            "every time 後缺完整主詞＋動詞子句。",
+            "正確；every time 子句後接完整主句。",
+            "兩個子句都用了不自然的倒裝語序。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "「Every time I breathe, I feel brand new」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "Every time",
+              "fixed": true
+            },
+            {
+              "text": "I breathe,",
+              "fixed": false
+            },
+            {
+              "text": "I feel brand new",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；every time 子句後接完整主句。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "feel + 形容詞：描述感受",
+          "meaning": "feel 後接形容詞，描述主詞的感覺或狀態。",
+          "usage": "談休息後、成功後或經歷變化後的心情。",
+          "prompt": "園丁完成一整天工作，洗澡後覺得舒服。哪句自然？",
+          "options": [
+            "I feel comfortably now.",
+            "I feel to comfortable now.",
+            "I feel comfortable now.",
+            "I feel comfort now."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "comfortably 是副詞，不是此處的形容詞。",
+            "feel 後不需要 to。",
+            "正確；feel + comfortable。",
+            "comfort 是名詞，這裡需要形容詞。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "「I feel brand new」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "feel",
+              "fixed": true
+            },
+            {
+              "text": "brand new",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；feel + comfortable。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "祈使句：動詞原形開頭",
+          "meaning": "省略 you，以動詞原形開頭提出要求；show 後可接接受者與展示內容。",
+          "usage": "請別人展示照片、說明方向或給你看物品。",
+          "prompt": "木工想請同伴給他看新設計。哪句正確？",
+          "options": [
+            "Showing me your drawing.",
+            "Show me your drawing.",
+            "To show me your drawing.",
+            "Shows me your drawing."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "這是分詞片語，並非完整祈使句。",
+            "正確；show + me + your drawing。",
+            "to show 為不定詞片語，不是直接提出要求的句子。",
+            "祈使句不使用 shows。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "「Show me all your love」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "Show",
+              "fixed": true
+            },
+            {
+              "text": "me",
+              "fixed": false
+            },
+            {
+              "text": "all your love",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；show + me + your drawing。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "as + 子句：當……的同時",
+          "meaning": "as 引出兩件事情同時發生的時間背景；該行是承接前文的從句。",
+          "usage": "描述一個動作發生時，另一件事也在進行。",
+          "prompt": "手作課時，學生一邊畫畫，一邊聽雨聲。哪句自然？",
+          "options": [
+            "As I paint, listening to the rain.",
+            "As I paint, I listening to the rain.",
+            "As I painting, I listen to the rain.",
+            "As I paint, I listen to the rain."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "主句缺主詞及動詞。",
+            "主句缺 be（若用 listening）。",
+            "as 子句應有完整動詞 paint。",
+            "正確；as 子句和主句都完整。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "「As I lay my love on you」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "As",
+              "fixed": true
+            },
+            {
+              "text": "I lay my love on you",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；as 子句和主句都完整。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "過去式 be + 形容詞：過去的狀態",
+          "meaning": "was 表示過去某時的狀態；lost 在此是形容詞性補語。",
+          "usage": "回憶過去曾經迷路、緊張或獨處。",
+          "prompt": "登山者回憶昨天在樹林裡迷路。哪句正確？",
+          "options": [
+            "Yesterday I were lost in the woods.",
+            "Yesterday I was lose in the woods.",
+            "Yesterday I was lost in the woods.",
+            "Yesterday I am lost in the woods."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "I 應搭配 was。",
+            "lose 是動詞原形；這裡需要 lost。",
+            "正確；昨天用 was lost 描述過去狀態。",
+            "am 為現在，與 yesterday 不符。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "「I was lost in a lonely place」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "I was",
+              "fixed": true
+            },
+            {
+              "text": "lost in a lonely place",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；昨天用 was lost 描述過去狀態。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "hold on to + 名詞：抓住／不放下",
+          "meaning": "hold on to 表示抓住、不願放下；歌詞為 -ing 片語，比喻不放下過去。",
+          "usage": "描述抓牢物品，或一直守住某段記憶。",
+          "prompt": "小船搖晃時，乘客握緊欄杆。哪句自然？",
+          "options": [
+            "She held to on the rail.",
+            "She held the rail on to.",
+            "She held on to the rail.",
+            "She held on the rail to."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "固定片語的介系詞順序顛倒。",
+            "on to 應放在受詞前，形成固定片語。",
+            "正確；held on to + the rail。",
+            "on to 的位置不對。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "「Holding on to yesterday」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "holding on to",
+              "fixed": true
+            },
+            {
+              "text": "yesterday",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；held on to + the rail。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "far too + 形容詞／副詞：遠遠太過",
+          "meaning": "far 加強 too，表示程度超出可接受的範圍；重複 far 為歌曲強調。",
+          "usage": "批評等待、路程或價格過高。",
+          "prompt": "遊樂園排隊四小時，朋友覺得太久。哪句自然？",
+          "options": [
+            "The wait is far very long.",
+            "The wait is far too long.",
+            "The wait is too far long.",
+            "The wait is far long too."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "far very 不是這種程度搭配。",
+            "正確；far too long 表「實在太久」。",
+            "too far long 的排列不自然。",
+            "far too 的位置不可拆開。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "「Far, far too long」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "far too",
+              "fixed": true
+            },
+            {
+              "text": "long",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；far too long 表「實在太久」。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "I believe + 省略 that 的子句",
+          "meaning": "believe 後可直接接完整子句，that 可以省略。",
+          "usage": "說自己相信某個情況是真的或可行。",
+          "prompt": "社區花園的志工認為新計畫會成功。哪句自然？",
+          "options": [
+            "I believe is the plan good.",
+            "I believe the plan will works.",
+            "I believe the plan will work.",
+            "I believe that the plan succeed."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "子句語序錯誤。",
+            "will 後接原形 work，不接 works。",
+            "正確；believe 後省略 that，接完整子句。",
+            "主句時態與子句用法不合預期；要說 will succeed。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "「I believe it's okay」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "I believe (that)",
+              "fixed": true
+            },
+            {
+              "text": "it’s okay",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；believe 後省略 that，接完整子句。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "過去時間的 knew + that 子句",
+          "meaning": "never knew 表示以前從未知道；that 後帶出當時不知道的事。",
+          "usage": "事後驚訝地回想原先不知道的事情。",
+          "prompt": "第一次看見流星雨後，孩子感嘆以前不知道天空這麼美。哪句自然？",
+          "options": [
+            "I never knew that the sky could look so beautiful.",
+            "I never knew the sky could looks beautiful.",
+            "I never knew that could the sky look beautiful.",
+            "I never knowed that the sky was beautiful."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；過去 knew + that 子句，could 後接 look。",
+            "could 後應接原形 look。",
+            "that 引出的陳述子句不用問句倒裝。",
+            "know 的過去式是 knew，不是 knowed。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "「I never knew that love could feel so good」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "I never knew that",
+              "fixed": true
+            },
+            {
+              "text": "love could feel so good",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；過去 knew + that 子句，could 後接 look。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "make + 受詞 + 原形動詞",
+          "meaning": "使役動詞 make 後接受詞，再接不帶 to 的動詞原形。",
+          "usage": "說明某人或某事造成另一人的感覺、動作。",
+          "prompt": "朋友在舞台前講了笑話，使演員放鬆。哪句自然？",
+          "options": [
+            "Her joke made him relaxing.",
+            "Her joke made him to relax.",
+            "Her joke made him relax.",
+            "Her joke made relax him."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "此處使役結構應接原形 relax。",
+            "make 的受詞後不加 to。",
+            "正確；made + him + relax。",
+            "him 應放在 relax 前。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "「You make me feel brand new」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "make",
+              "fixed": true
+            },
+            {
+              "text": "me",
+              "fixed": false
+            },
+            {
+              "text": "feel",
+              "fixed": true
+            },
+            {
+              "text": "brand new",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；made + him + relax。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "could + 原形動詞：過去觀點的可能性",
+          "meaning": "could 後接原形動詞，表示能力、可能或從過去視角看待的情況。",
+          "usage": "談某件事竟有可能如此美好、困難或有趣。",
+          "prompt": "女孩以前不相信一個小小展覽會這麼有趣。哪句自然？",
+          "options": [
+            "I did not know the show could was fun.",
+            "I did not know the show could to be fun.",
+            "I did not know the show could being fun.",
+            "I did not know the show could be so fun."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "could 後不可接 was。",
+            "could 後不加 to。",
+            "could 後不用 being 來描述單純狀態。",
+            "正確；could + be 表達過去未曾預料的可能性。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "「love could feel so good」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "love",
+              "fixed": false
+            },
+            {
+              "text": "could feel",
+              "fixed": true
+            },
+            {
+              "text": "so good",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；could + be 表達過去未曾預料的可能性。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "so + 形容詞：程度強調",
+          "meaning": "so 放在形容詞前強調程度。",
+          "usage": "對音樂、美食或好消息表達強烈感受。",
+          "prompt": "孩子第一次看見海龜，非常興奮。哪句自然？",
+          "options": [
+            "She felt so excited.",
+            "She felt so to excite.",
+            "She felt so excitedly.",
+            "She felt so excitement."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；so + excited 加強感覺。",
+            "so 後面應接形容詞，且不需要 to。",
+            "excitedly 是副詞，不是此處的補語。",
+            "excitement 是名詞。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "「feel so good」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "feel so",
+              "fixed": true
+            },
+            {
+              "text": "good",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；so + excited 加強感覺。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "過去簡單式：完成的過去事件",
+          "meaning": "規則動詞加 -ed，描述已發生的改變。",
+          "usage": "回想過去某件事造成的實際影響。",
+          "prompt": "去年博物館整修了展廳。哪句正確？",
+          "options": [
+            "Last year they changed the room.",
+            "Last year they changes the room.",
+            "Last year they change the room.",
+            "Last year they changing the room."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；last year 搭配 changed。",
+            "changes 為現在式第三人稱單數。",
+            "動詞原形未表示已結束的過去事件。",
+            "缺少 be 才能構成過去進行式。"
+          ],
+          "sourceFile": "I_Lay_My_Love_On_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "「you changed my world」〔上傳 PDF 英文歌詞第 1–2 頁〕",
+          "pattern": [
+            {
+              "text": "you",
+              "fixed": false
+            },
+            {
+              "text": "changed",
+              "fixed": true
+            },
+            {
+              "text": "my world",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；last year 搭配 changed。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        }
+      ]
+    }
   }
 }

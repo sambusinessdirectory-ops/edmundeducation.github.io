@@ -1,0 +1,3479 @@
+{
+  "title": "Sorry",
+  "slug": "sorry",
+  "translations": [
+    {
+      "english": "Je suis désolée",
+      "chinese": "Jesuisdésolée（法語：我很抱歉。）",
+      "lineId": "line-1"
+    },
+    {
+      "english": "Lo siento",
+      "chinese": "Losiento（西班牙語：對不起。）",
+      "lineId": "line-2",
+      "startSeconds": 7.44,
+      "endSeconds": 9.2
+    },
+    {
+      "english": "Ik ben droevig",
+      "chinese": "Ikbendroevig（荷蘭語：我很難過。）",
+      "lineId": "line-3"
+    },
+    {
+      "english": "Sono spiacente",
+      "chinese": "Sonospiacente（義大利語：我很抱歉。）",
+      "lineId": "line-4",
+      "startSeconds": 14.3,
+      "endSeconds": 15.86
+    },
+    {
+      "english": "Perdóname",
+      "chinese": "Perdóname（請原諒我。）",
+      "lineId": "line-5",
+      "startSeconds": 17.82,
+      "endSeconds": 18.66
+    },
+    {
+      "english": "[Repeat:]",
+      "chinese": "[重複段落：]",
+      "lineId": "line-6"
+    },
+    {
+      "english": "I've heard it all before",
+      "chinese": "這些話，我早就聽過無數遍了",
+      "lineId": "line-7",
+      "startSeconds": 36.22,
+      "endSeconds": 40.32
+    },
+    {
+      "english": "I don't wanna hear, I don't wanna know",
+      "chinese": "我不想再聽，也不想再知道",
+      "lineId": "line-8"
+    },
+    {
+      "english": "Please don't say you're sorry",
+      "chinese": "請別再對我說你很抱歉",
+      "lineId": "line-9",
+      "startSeconds": 53.52,
+      "endSeconds": 56.46
+    },
+    {
+      "english": "I've heard it all before",
+      "chinese": "這些話，我早就聽過無數遍了",
+      "lineId": "line-10",
+      "startSeconds": 56.46,
+      "endSeconds": 58.38
+    },
+    {
+      "english": "And I can take care of myself",
+      "chinese": "而我有能力好好照顧自己",
+      "lineId": "line-11",
+      "startSeconds": 58.38,
+      "endSeconds": 63.4
+    },
+    {
+      "english": "I don't wanna hear, I don't wanna know",
+      "chinese": "我不想再聽，也不想再知道",
+      "lineId": "line-12",
+      "startSeconds": 63.4,
+      "endSeconds": 67.86
+    },
+    {
+      "english": "Please don't say 'Forgive me'",
+      "chinese": "請別再對我說「原諒我」",
+      "lineId": "line-13",
+      "startSeconds": 68.38,
+      "endSeconds": 71.06
+    },
+    {
+      "english": "I've seen it all before",
+      "chinese": "這一切，我早已見識過了",
+      "lineId": "line-14",
+      "startSeconds": 71.06,
+      "endSeconds": 72.92
+    },
+    {
+      "english": "And I can't take it anymore",
+      "chinese": "而我再也無法忍受下去了",
+      "lineId": "line-15",
+      "startSeconds": 72.92,
+      "endSeconds": 77.96
+    },
+    {
+      "english": "You're not half the man you think you are",
+      "chinese": "你根本沒有自己想像中那麼了不起",
+      "lineId": "line-16",
+      "startSeconds": 79.04,
+      "endSeconds": 85.34
+    },
+    {
+      "english": "Save your words because you've gone too far",
+      "chinese": "省省你的話吧，因為你早已做得太過分",
+      "lineId": "line-17",
+      "startSeconds": 85.34,
+      "endSeconds": 92.38
+    },
+    {
+      "english": "I've listened to your lies and all your stories (Listened to your stories)",
+      "chinese": "你的謊言與那些編造的說詞，我早已聽得夠多了（聽夠了你的那些說詞）",
+      "lineId": "line-18"
+    },
+    {
+      "english": "You're not half the man you'd like to be",
+      "chinese": "你甚至遠遠稱不上自己想成為的那種男人",
+      "lineId": "line-19",
+      "startSeconds": 100.7,
+      "endSeconds": 107.44
+    },
+    {
+      "english": "I don't wanna hear, I don't wanna know",
+      "chinese": "我不想再聽，也不想再知道",
+      "lineId": "line-20",
+      "startSeconds": 107.44,
+      "endSeconds": 111.12
+    },
+    {
+      "english": "Please don't say you're sorry",
+      "chinese": "請別再對我說你很抱歉",
+      "lineId": "line-21",
+      "startSeconds": 111.12,
+      "endSeconds": 114.18
+    },
+    {
+      "english": "I've heard it all before",
+      "chinese": "這些話，我早就聽過無數遍了",
+      "lineId": "line-22",
+      "startSeconds": 114.18,
+      "endSeconds": 115.96
+    },
+    {
+      "english": "And I can take care of myself",
+      "chinese": "而我有能力好好照顧自己",
+      "lineId": "line-23",
+      "startSeconds": 115.96,
+      "endSeconds": 121.12
+    },
+    {
+      "english": "I don't wanna hear, I don't wanna know",
+      "chinese": "我不想再聽，也不想再知道",
+      "lineId": "line-24",
+      "startSeconds": 121.12,
+      "endSeconds": 125.58
+    },
+    {
+      "english": "Please don't say 'Forgive me'",
+      "chinese": "請別再對我說「原諒我」",
+      "lineId": "line-25",
+      "startSeconds": 126.18,
+      "endSeconds": 128.8
+    },
+    {
+      "english": "I've seen it all before",
+      "chinese": "這一切，我早已見識過了",
+      "lineId": "line-26",
+      "startSeconds": 128.84,
+      "endSeconds": 130.76
+    },
+    {
+      "english": "And I can't take it anymore",
+      "chinese": "而我再也無法忍受下去了",
+      "lineId": "line-27",
+      "startSeconds": 130.76,
+      "endSeconds": 135.72
+    },
+    {
+      "english": "Don't explain yourself 'cause talk is cheap",
+      "chinese": "別再為自己辯解了，因為空口說白話根本不值一提",
+      "lineId": "line-28",
+      "startSeconds": 137.04,
+      "endSeconds": 142.56
+    },
+    {
+      "english": "There's more important things than hearing you speak",
+      "chinese": "這世上還有比聽你說話更重要的事情",
+      "lineId": "line-29",
+      "startSeconds": 142.56,
+      "endSeconds": 149.78
+    },
+    {
+      "english": "You stayed because I made it so convenient",
+      "chinese": "你之所以留下，不過是因為我讓這段關係對你而言太過方便",
+      "lineId": "line-30",
+      "startSeconds": 150.56,
+      "endSeconds": 157.32
+    },
+    {
+      "english": "(Made it so convenient)",
+      "chinese": "（讓一切對你而言如此方便）",
+      "lineId": "line-31"
+    },
+    {
+      "english": "Don't explain yourself, you'll never see",
+      "chinese": "別再為自己辯解了，因為你永遠不會明白",
+      "lineId": "line-32",
+      "startSeconds": 159.5,
+      "endSeconds": 165.24
+    },
+    {
+      "english": "Gomen nasai",
+      "chinese": "Gomennasai（日語：對不起。）",
+      "lineId": "line-33",
+      "startSeconds": 167.84,
+      "endSeconds": 170.54
+    },
+    {
+      "english": "Mujhe maaf kardo",
+      "chinese": "Mujhemaafkardo（印地語：請原諒我。）",
+      "lineId": "line-34"
+    },
+    {
+      "english": "Przepraszam",
+      "chinese": "Przepraszam（波蘭語：對不起。）",
+      "lineId": "line-35"
+    },
+    {
+      "english": "Sli'kha",
+      "chinese": "Sli'kha（希伯來語：對不起／請原諒我。）",
+      "lineId": "line-36",
+      "startSeconds": 181.96,
+      "endSeconds": 183.08
+    },
+    {
+      "english": "Forgive me",
+      "chinese": "原諒我",
+      "lineId": "line-37",
+      "startSeconds": 187.24,
+      "endSeconds": 188.36
+    },
+    {
+      "english": "[Repeat:]",
+      "chinese": "[重複段落：]",
+      "lineId": "line-38"
+    },
+    {
+      "english": "Sorry, sorry, sorry",
+      "chinese": "對不起，對不起，對不起",
+      "lineId": "line-39"
+    },
+    {
+      "english": "I've heard it all before",
+      "chinese": "這些話，我早就聽過無數遍了",
+      "lineId": "line-40"
+    },
+    {
+      "english": "I don't wanna hear, I don't wanna know",
+      "chinese": "我不想再聽，也不想再知道",
+      "lineId": "line-41",
+      "startSeconds": 222.4,
+      "endSeconds": 226.26
+    },
+    {
+      "english": "Please don't say you're sorry",
+      "chinese": "請別再對我說你很抱歉",
+      "lineId": "line-42",
+      "startSeconds": 226.26,
+      "endSeconds": 229.66
+    },
+    {
+      "english": "I've heard it all before",
+      "chinese": "這些話，我早就聽過無數遍了",
+      "lineId": "line-43",
+      "startSeconds": 229.72,
+      "endSeconds": 231.56
+    },
+    {
+      "english": "And I can take care of myself",
+      "chinese": "而我有能力好好照顧自己",
+      "lineId": "line-44",
+      "startSeconds": 231.56,
+      "endSeconds": 236.7
+    },
+    {
+      "english": "I don't wanna hear, I don't wanna know",
+      "chinese": "我不想再聽，也不想再知道",
+      "lineId": "line-45",
+      "startSeconds": 236.7,
+      "endSeconds": 241.26
+    },
+    {
+      "english": "Please don't say 'Forgive me'",
+      "chinese": "請別再對我說「原諒我」",
+      "lineId": "line-46",
+      "startSeconds": 241.26,
+      "endSeconds": 244.24
+    },
+    {
+      "english": "I've seen it all before",
+      "chinese": "這一切，我早已見識過了",
+      "lineId": "line-47",
+      "startSeconds": 244.26,
+      "endSeconds": 246.12
+    },
+    {
+      "english": "And I can't take it anymore",
+      "chinese": "而我再也無法忍受下去了",
+      "lineId": "line-48",
+      "startSeconds": 246.12,
+      "endSeconds": 250.96
+    },
+    {
+      "english": "I don't wanna hear, I don't wanna know",
+      "chinese": "我不想再聽，也不想再知道",
+      "lineId": "line-49",
+      "startSeconds": 250.96,
+      "endSeconds": 254.76
+    },
+    {
+      "english": "(Don't explain yourself 'cause talk is cheap)",
+      "chinese": "（別再為自己辯解了，因為空口說白話根本不值一提）",
+      "lineId": "line-50"
+    },
+    {
+      "english": "Please don't say you're sorry",
+      "chinese": "請別再對我說你很抱歉",
+      "lineId": "line-51"
+    },
+    {
+      "english": "I've heard it all before,",
+      "chinese": "這些話，我早就聽過無數遍了",
+      "lineId": "line-52"
+    },
+    {
+      "english": "(There's more important things than hearing you speak)",
+      "chinese": "（這世上還有比聽你說話更重要的事情）",
+      "lineId": "line-53",
+      "startSeconds": 259.78,
+      "endSeconds": 265.24
+    },
+    {
+      "english": "And I can take care of myself",
+      "chinese": "而我有能力好好照顧自己",
+      "lineId": "line-54"
+    },
+    {
+      "english": "I don't wanna hear, I don't wanna know",
+      "chinese": "我不想再聽，也不想再知道",
+      "lineId": "line-55",
+      "startSeconds": 266.54,
+      "endSeconds": 269.36
+    },
+    {
+      "english": "Please don't say 'Forgive me'",
+      "chinese": "請別再對我說「原諒我」",
+      "lineId": "line-56",
+      "startSeconds": 269.36,
+      "endSeconds": 273.06
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-7",
+          "answer": "heard it all before",
+          "options": [
+            "heard it all before",
+            "heard it yesterday",
+            "heard something new"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這些話，我早就聽過無數遍了"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-9",
+          "answer": "you're sorry",
+          "options": [
+            "you're sorry",
+            "you're lonely",
+            "you're happy"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說你很抱歉"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-11",
+          "answer": "take care of myself",
+          "options": [
+            "take care of the house",
+            "take care of myself",
+            "take care of your friends"
+          ],
+          "prompt": "And I can {{blank}} ",
+          "promptZh": "而我有能力好好照顧自己"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-14",
+          "answer": "seen it all before",
+          "options": [
+            "seen it all before",
+            "seen you at the door",
+            "seen the world outside"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這一切，我早已見識過了"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-16",
+          "answer": "not half the man",
+          "options": [
+            "not half the man",
+            "not quite the friend",
+            "not like the boy"
+          ],
+          "prompt": "You're {{blank}} you think you are ",
+          "promptZh": "你根本沒有自己想像中那麼了不起"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-17",
+          "answer": "gone too far",
+          "options": [
+            "gone back home",
+            "gone too far",
+            "stayed too long"
+          ],
+          "prompt": "Save your words because you've {{blank}} ",
+          "promptZh": "省省你的話吧，因為你早已做得太過分"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-19",
+          "answer": "not half the man",
+          "options": [
+            "not quite the friend",
+            "not half the man",
+            "not like the boy"
+          ],
+          "prompt": "You're {{blank}} you'd like to be ",
+          "promptZh": "你甚至遠遠稱不上自己想成為的那種男人"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-22",
+          "answer": "heard it all before",
+          "options": [
+            "heard it all before",
+            "heard it yesterday",
+            "heard something new"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這些話，我早就聽過無數遍了"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-25",
+          "answer": "Forgive me",
+          "options": [
+            "Remember me",
+            "Forgive me",
+            "Believe me"
+          ],
+          "prompt": "Please don't say '{{blank}}' ",
+          "promptZh": "請別再對我說「原諒我」"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-27",
+          "answer": "can't take it anymore",
+          "options": [
+            "can't take it anymore",
+            "can't make it through the night",
+            "can't face you anymore"
+          ],
+          "prompt": "And I {{blank}} ",
+          "promptZh": "而我再也無法忍受下去了"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-29",
+          "answer": "more important things",
+          "options": [
+            "more exciting places",
+            "more difficult questions",
+            "more important things"
+          ],
+          "prompt": "There's {{blank}} than hearing you speak ",
+          "promptZh": "這世上還有比聽你說話更重要的事情"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-30",
+          "answer": "made it so convenient",
+          "options": [
+            "made it more confusing",
+            "made it so expensive",
+            "made it so convenient"
+          ],
+          "prompt": "You stayed because I {{blank}}  ",
+          "promptZh": "你之所以留下，不過是因為我讓這段關係對你而言太過方便"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-37",
+          "answer": "Forgive me",
+          "options": [
+            "Forgive me",
+            "Remember me",
+            "Believe me"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "原諒我"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-41",
+          "answer": "don't wanna hear",
+          "options": [
+            "don't wanna leave",
+            "don't wanna dance",
+            "don't wanna hear"
+          ],
+          "prompt": "I {{blank}}, I don't wanna know ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-43",
+          "answer": "heard it all before",
+          "options": [
+            "heard it yesterday",
+            "heard something new",
+            "heard it all before"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這些話，我早就聽過無數遍了"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-46",
+          "answer": "'Forgive me'",
+          "options": [
+            "'Remember me'",
+            "'Forgive me'",
+            "'Believe me'"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說「原諒我」"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-48",
+          "answer": "can't take it anymore",
+          "options": [
+            "can't make it through the night",
+            "can't take it anymore",
+            "can't face you anymore"
+          ],
+          "prompt": "And I {{blank}} ",
+          "promptZh": "而我再也無法忍受下去了"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-51",
+          "answer": "you're sorry",
+          "options": [
+            "you're lonely",
+            "you're happy",
+            "you're sorry"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說你很抱歉"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-53",
+          "answer": "hearing you speak",
+          "options": [
+            "watching you dance",
+            "seeing you leave",
+            "hearing you speak"
+          ],
+          "prompt": "(There's more important things than {{blank}}) ",
+          "promptZh": "（這世上還有比聽你說話更重要的事情）"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-56",
+          "answer": "'Forgive me'",
+          "options": [
+            "'Remember me'",
+            "'Forgive me'",
+            "'Believe me'"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說「原諒我」"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Je suis désolée"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Lo siento"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Ik ben droevig"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Sono spiacente"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Perdóname"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "[Repeat:]"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I've {{q:1}} "
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I don't wanna hear, I don't wanna know "
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Please don't say {{q:2}} "
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I've heard it all before "
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And I can {{q:3}} "
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I don't wanna hear, I don't wanna know "
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Please don't say 'Forgive me' "
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I've {{q:4}} "
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And I can't take it anymore "
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "You're {{q:5}} you think you are "
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Save your words because you've {{q:6}} "
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I've listened to your lies and all your stories (Listened to your stories)   "
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "You're {{q:7}} you'd like to be "
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I don't wanna hear, I don't wanna know "
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Please don't say you're sorry "
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I've {{q:8}} "
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And I can take care of myself "
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I don't wanna hear, I don't wanna know "
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Please don't say '{{q:9}}' "
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I've seen it all before "
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And I {{q:10}} "
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Don't explain yourself 'cause talk is cheap  "
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "There's {{q:11}} than hearing you speak "
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You stayed because I {{q:12}}  "
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "(Made it so convenient) "
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Don't explain yourself, you'll never see "
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Gomen nasai"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Mujhe maaf kardo"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Przepraszam"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Sli'kha"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "{{q:13}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "[Repeat:]"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Sorry, sorry, sorry "
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "I've heard it all before "
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "I {{q:14}}, I don't wanna know "
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Please don't say you're sorry "
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I've {{q:15}} "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "And I can take care of myself "
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I don't wanna hear, I don't wanna know "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Please don't say {{q:16}} "
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "I've seen it all before "
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "And I {{q:17}} "
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "I don't wanna hear, I don't wanna know "
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "(Don't explain yourself 'cause talk is cheap)  "
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Please don't say {{q:18}} "
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "I've heard it all before, "
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "(There's more important things than {{q:19}}) "
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "And I can take care of myself "
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "I don't wanna hear, I don't wanna know "
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Please don't say {{q:20}} "
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-7",
+          "answer": "heard it all before",
+          "options": [
+            "heard it all before",
+            "heard it yesterday",
+            "heard something new"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這些話，我早就聽過無數遍了"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-8",
+          "answer": "don't wanna know",
+          "options": [
+            "don't wanna go",
+            "don't wanna wait",
+            "don't wanna know"
+          ],
+          "prompt": "I don't wanna hear, I {{blank}} ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-9",
+          "answer": "you're sorry",
+          "options": [
+            "you're sorry",
+            "you're lonely",
+            "you're happy"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說你很抱歉"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-11",
+          "answer": "take care of myself",
+          "options": [
+            "take care of the house",
+            "take care of myself",
+            "take care of your friends"
+          ],
+          "prompt": "And I can {{blank}} ",
+          "promptZh": "而我有能力好好照顧自己"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-12",
+          "answer": "don't wanna know",
+          "options": [
+            "don't wanna go",
+            "don't wanna wait",
+            "don't wanna know"
+          ],
+          "prompt": "I don't wanna hear, I {{blank}} ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-14",
+          "answer": "seen it all before",
+          "options": [
+            "seen it all before",
+            "seen you at the door",
+            "seen the world outside"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這一切，我早已見識過了"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-15",
+          "answer": "can't take it anymore",
+          "options": [
+            "can't make it through the night",
+            "can't face you anymore",
+            "can't take it anymore"
+          ],
+          "prompt": "And I {{blank}} ",
+          "promptZh": "而我再也無法忍受下去了"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-16",
+          "answer": "not half the man",
+          "options": [
+            "not half the man",
+            "not quite the friend",
+            "not like the boy"
+          ],
+          "prompt": "You're {{blank}} you think you are ",
+          "promptZh": "你根本沒有自己想像中那麼了不起"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-16",
+          "answer": "you think you are",
+          "options": [
+            "you say you were",
+            "you think you are",
+            "you wish you knew"
+          ],
+          "prompt": "You're not half the man {{blank}} ",
+          "promptZh": "你根本沒有自己想像中那麼了不起"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-17",
+          "answer": "gone too far",
+          "options": [
+            "gone back home",
+            "gone too far",
+            "stayed too long"
+          ],
+          "prompt": "Save your words because you've {{blank}} ",
+          "promptZh": "省省你的話吧，因為你早已做得太過分"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-18",
+          "answer": "all your stories",
+          "options": [
+            "all your promises",
+            "all your worries",
+            "all your stories"
+          ],
+          "prompt": "I've listened to your lies and {{blank}} (Listened to your stories)   ",
+          "promptZh": "你的謊言與那些編造的說詞，我早已聽得夠多了（聽夠了你的那些說詞）"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-19",
+          "answer": "not half the man",
+          "options": [
+            "not half the man",
+            "not quite the friend",
+            "not like the boy"
+          ],
+          "prompt": "You're {{blank}} you'd like to be ",
+          "promptZh": "你甚至遠遠稱不上自己想成為的那種男人"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-20",
+          "answer": "don't wanna hear",
+          "options": [
+            "don't wanna leave",
+            "don't wanna hear",
+            "don't wanna dance"
+          ],
+          "prompt": "I {{blank}}, I don't wanna know ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-22",
+          "answer": "heard it all before",
+          "options": [
+            "heard it yesterday",
+            "heard it all before",
+            "heard something new"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這些話，我早就聽過無數遍了"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-25",
+          "answer": "Forgive me",
+          "options": [
+            "Forgive me",
+            "Remember me",
+            "Believe me"
+          ],
+          "prompt": "Please don't say '{{blank}}' ",
+          "promptZh": "請別再對我說「原諒我」"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-27",
+          "answer": "can't take it anymore",
+          "options": [
+            "can't make it through the night",
+            "can't face you anymore",
+            "can't take it anymore"
+          ],
+          "prompt": "And I {{blank}} ",
+          "promptZh": "而我再也無法忍受下去了"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-29",
+          "answer": "more important things",
+          "options": [
+            "more exciting places",
+            "more important things",
+            "more difficult questions"
+          ],
+          "prompt": "There's {{blank}} than hearing you speak ",
+          "promptZh": "這世上還有比聽你說話更重要的事情"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-30",
+          "answer": "made it so convenient",
+          "options": [
+            "made it so convenient",
+            "made it more confusing",
+            "made it so expensive"
+          ],
+          "prompt": "You stayed because I {{blank}}  ",
+          "promptZh": "你之所以留下，不過是因為我讓這段關係對你而言太過方便"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-37",
+          "answer": "Forgive me",
+          "options": [
+            "Remember me",
+            "Believe me",
+            "Forgive me"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "原諒我"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-40",
+          "answer": "heard it all before",
+          "options": [
+            "heard it yesterday",
+            "heard it all before",
+            "heard something new"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這些話，我早就聽過無數遍了"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-41",
+          "answer": "don't wanna hear",
+          "options": [
+            "don't wanna hear",
+            "don't wanna leave",
+            "don't wanna dance"
+          ],
+          "prompt": "I {{blank}}, I don't wanna know ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-42",
+          "answer": "you're sorry",
+          "options": [
+            "you're lonely",
+            "you're sorry",
+            "you're happy"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說你很抱歉"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-43",
+          "answer": "heard it all before",
+          "options": [
+            "heard it all before",
+            "heard it yesterday",
+            "heard something new"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這些話，我早就聽過無數遍了"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-45",
+          "answer": "don't wanna know",
+          "options": [
+            "don't wanna go",
+            "don't wanna wait",
+            "don't wanna know"
+          ],
+          "prompt": "I don't wanna hear, I {{blank}} ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-46",
+          "answer": "'Forgive me'",
+          "options": [
+            "'Remember me'",
+            "'Forgive me'",
+            "'Believe me'"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說「原諒我」"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-47",
+          "answer": "seen it all before",
+          "options": [
+            "seen you at the door",
+            "seen the world outside",
+            "seen it all before"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這一切，我早已見識過了"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-48",
+          "answer": "can't take it anymore",
+          "options": [
+            "can't take it anymore",
+            "can't make it through the night",
+            "can't face you anymore"
+          ],
+          "prompt": "And I {{blank}} ",
+          "promptZh": "而我再也無法忍受下去了"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-50",
+          "answer": "talk is cheap",
+          "options": [
+            "talk is cheap",
+            "time is short",
+            "love is blind"
+          ],
+          "prompt": "(Don't explain yourself 'cause {{blank}})  ",
+          "promptZh": "（別再為自己辯解了，因為空口說白話根本不值一提）"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-51",
+          "answer": "you're sorry",
+          "options": [
+            "you're lonely",
+            "you're happy",
+            "you're sorry"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說你很抱歉"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-53",
+          "answer": "hearing you speak",
+          "options": [
+            "watching you dance",
+            "hearing you speak",
+            "seeing you leave"
+          ],
+          "prompt": "(There's more important things than {{blank}}) ",
+          "promptZh": "（這世上還有比聽你說話更重要的事情）"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-54",
+          "answer": "take care of myself",
+          "options": [
+            "take care of the house",
+            "take care of myself",
+            "take care of your friends"
+          ],
+          "prompt": "And I can {{blank}} ",
+          "promptZh": "而我有能力好好照顧自己"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-56",
+          "answer": "'Forgive me'",
+          "options": [
+            "'Remember me'",
+            "'Believe me'",
+            "'Forgive me'"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說「原諒我」"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Je suis désolée"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Lo siento"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Ik ben droevig"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Sono spiacente"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Perdóname"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "[Repeat:]"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I've {{q:1}} "
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I don't wanna hear, I {{q:2}} "
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Please don't say {{q:3}} "
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I've heard it all before "
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And I can {{q:4}} "
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I don't wanna hear, I {{q:5}} "
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Please don't say 'Forgive me' "
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I've {{q:6}} "
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And I {{q:7}} "
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "You're {{q:8}} {{q:9}} "
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Save your words because you've {{q:10}} "
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I've listened to your lies and {{q:11}} (Listened to your stories)   "
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "You're {{q:12}} you'd like to be "
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I {{q:13}}, I don't wanna know "
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Please don't say you're sorry "
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I've {{q:14}} "
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And I can take care of myself "
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I don't wanna hear, I don't wanna know "
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Please don't say '{{q:15}}' "
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I've seen it all before "
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And I {{q:16}} "
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Don't explain yourself 'cause talk is cheap  "
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "There's {{q:17}} than hearing you speak "
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You stayed because I {{q:18}}  "
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "(Made it so convenient) "
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Don't explain yourself, you'll never see "
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Gomen nasai"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Mujhe maaf kardo"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Przepraszam"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Sli'kha"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "{{q:19}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "[Repeat:]"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Sorry, sorry, sorry "
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "I've {{q:20}} "
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "I {{q:21}}, I don't wanna know "
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Please don't say {{q:22}} "
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I've {{q:23}} "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "And I can take care of myself "
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I don't wanna hear, I {{q:24}} "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Please don't say {{q:25}} "
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "I've {{q:26}} "
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "And I {{q:27}} "
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "I don't wanna hear, I don't wanna know "
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "(Don't explain yourself 'cause {{q:28}})  "
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Please don't say {{q:29}} "
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "I've heard it all before, "
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "(There's more important things than {{q:30}}) "
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "And I can {{q:31}} "
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "I don't wanna hear, I don't wanna know "
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Please don't say {{q:32}} "
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-7",
+          "answer": "heard it all before",
+          "options": [
+            "heard it all before",
+            "heard it yesterday",
+            "heard something new"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這些話，我早就聽過無數遍了"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-8",
+          "answer": "don't wanna hear",
+          "options": [
+            "don't wanna leave",
+            "don't wanna hear",
+            "don't wanna dance"
+          ],
+          "prompt": "I {{blank}}, I don't wanna know ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-8",
+          "answer": "don't wanna know",
+          "options": [
+            "don't wanna know",
+            "don't wanna go",
+            "don't wanna wait"
+          ],
+          "prompt": "I don't wanna hear, I {{blank}} ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-9",
+          "answer": "you're sorry",
+          "options": [
+            "you're sorry",
+            "you're lonely",
+            "you're happy"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說你很抱歉"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-10",
+          "answer": "heard it all before",
+          "options": [
+            "heard it yesterday",
+            "heard it all before",
+            "heard something new"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這些話，我早就聽過無數遍了"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-11",
+          "answer": "take care of myself",
+          "options": [
+            "take care of myself",
+            "take care of the house",
+            "take care of your friends"
+          ],
+          "prompt": "And I can {{blank}} ",
+          "promptZh": "而我有能力好好照顧自己"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-12",
+          "answer": "don't wanna know",
+          "options": [
+            "don't wanna go",
+            "don't wanna wait",
+            "don't wanna know"
+          ],
+          "prompt": "I don't wanna hear, I {{blank}} ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-14",
+          "answer": "seen it all before",
+          "options": [
+            "seen you at the door",
+            "seen the world outside",
+            "seen it all before"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這一切，我早已見識過了"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-15",
+          "answer": "can't take it anymore",
+          "options": [
+            "can't make it through the night",
+            "can't take it anymore",
+            "can't face you anymore"
+          ],
+          "prompt": "And I {{blank}} ",
+          "promptZh": "而我再也無法忍受下去了"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-16",
+          "answer": "not half the man",
+          "options": [
+            "not quite the friend",
+            "not half the man",
+            "not like the boy"
+          ],
+          "prompt": "You're {{blank}} you think you are ",
+          "promptZh": "你根本沒有自己想像中那麼了不起"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-16",
+          "answer": "you think you are",
+          "options": [
+            "you say you were",
+            "you wish you knew",
+            "you think you are"
+          ],
+          "prompt": "You're not half the man {{blank}} ",
+          "promptZh": "你根本沒有自己想像中那麼了不起"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-17",
+          "answer": "gone too far",
+          "options": [
+            "gone back home",
+            "gone too far",
+            "stayed too long"
+          ],
+          "prompt": "Save your words because you've {{blank}} ",
+          "promptZh": "省省你的話吧，因為你早已做得太過分"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-18",
+          "answer": "all your stories",
+          "options": [
+            "all your promises",
+            "all your worries",
+            "all your stories"
+          ],
+          "prompt": "I've listened to your lies and {{blank}} (Listened to your stories)   ",
+          "promptZh": "你的謊言與那些編造的說詞，我早已聽得夠多了（聽夠了你的那些說詞）"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-19",
+          "answer": "not half the man",
+          "options": [
+            "not half the man",
+            "not quite the friend",
+            "not like the boy"
+          ],
+          "prompt": "You're {{blank}} you'd like to be ",
+          "promptZh": "你甚至遠遠稱不上自己想成為的那種男人"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-20",
+          "answer": "don't wanna hear",
+          "options": [
+            "don't wanna hear",
+            "don't wanna leave",
+            "don't wanna dance"
+          ],
+          "prompt": "I {{blank}}, I don't wanna know ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-22",
+          "answer": "heard it all before",
+          "options": [
+            "heard it yesterday",
+            "heard it all before",
+            "heard something new"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這些話，我早就聽過無數遍了"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-23",
+          "answer": "take care of myself",
+          "options": [
+            "take care of the house",
+            "take care of your friends",
+            "take care of myself"
+          ],
+          "prompt": "And I can {{blank}} ",
+          "promptZh": "而我有能力好好照顧自己"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-24",
+          "answer": "don't wanna know",
+          "options": [
+            "don't wanna go",
+            "don't wanna wait",
+            "don't wanna know"
+          ],
+          "prompt": "I don't wanna hear, I {{blank}} ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-25",
+          "answer": "Forgive me",
+          "options": [
+            "Remember me",
+            "Forgive me",
+            "Believe me"
+          ],
+          "prompt": "Please don't say '{{blank}}' ",
+          "promptZh": "請別再對我說「原諒我」"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-27",
+          "answer": "can't take it anymore",
+          "options": [
+            "can't make it through the night",
+            "can't face you anymore",
+            "can't take it anymore"
+          ],
+          "prompt": "And I {{blank}} ",
+          "promptZh": "而我再也無法忍受下去了"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-29",
+          "answer": "more important things",
+          "options": [
+            "more exciting places",
+            "more important things",
+            "more difficult questions"
+          ],
+          "prompt": "There's {{blank}} than hearing you speak ",
+          "promptZh": "這世上還有比聽你說話更重要的事情"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-30",
+          "answer": "made it so convenient",
+          "options": [
+            "made it so convenient",
+            "made it more confusing",
+            "made it so expensive"
+          ],
+          "prompt": "You stayed because I {{blank}}  ",
+          "promptZh": "你之所以留下，不過是因為我讓這段關係對你而言太過方便"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-31",
+          "answer": "so convenient",
+          "options": [
+            "so complicated",
+            "so convenient",
+            "so uncomfortable"
+          ],
+          "prompt": "(Made it {{blank}}) ",
+          "promptZh": "（讓一切對你而言如此方便）"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-32",
+          "answer": "you'll never see",
+          "options": [
+            "you'll never see",
+            "you'll never know",
+            "you'll always stay"
+          ],
+          "prompt": "Don't explain yourself, {{blank}} ",
+          "promptZh": "別再為自己辯解了，因為你永遠不會明白"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-37",
+          "answer": "Forgive me",
+          "options": [
+            "Remember me",
+            "Forgive me",
+            "Believe me"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "原諒我"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-40",
+          "answer": "heard it all before",
+          "options": [
+            "heard it all before",
+            "heard it yesterday",
+            "heard something new"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這些話，我早就聽過無數遍了"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-41",
+          "answer": "don't wanna hear",
+          "options": [
+            "don't wanna hear",
+            "don't wanna leave",
+            "don't wanna dance"
+          ],
+          "prompt": "I {{blank}}, I don't wanna know ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-42",
+          "answer": "you're sorry",
+          "options": [
+            "you're lonely",
+            "you're happy",
+            "you're sorry"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說你很抱歉"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-43",
+          "answer": "heard it all before",
+          "options": [
+            "heard it yesterday",
+            "heard it all before",
+            "heard something new"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這些話，我早就聽過無數遍了"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-45",
+          "answer": "don't wanna know",
+          "options": [
+            "don't wanna know",
+            "don't wanna go",
+            "don't wanna wait"
+          ],
+          "prompt": "I don't wanna hear, I {{blank}} ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-46",
+          "answer": "'Forgive me'",
+          "options": [
+            "'Forgive me'",
+            "'Remember me'",
+            "'Believe me'"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說「原諒我」"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-47",
+          "answer": "seen it all before",
+          "options": [
+            "seen you at the door",
+            "seen the world outside",
+            "seen it all before"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這一切，我早已見識過了"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-48",
+          "answer": "can't take it anymore",
+          "options": [
+            "can't make it through the night",
+            "can't take it anymore",
+            "can't face you anymore"
+          ],
+          "prompt": "And I {{blank}} ",
+          "promptZh": "而我再也無法忍受下去了"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-50",
+          "answer": "talk is cheap",
+          "options": [
+            "time is short",
+            "love is blind",
+            "talk is cheap"
+          ],
+          "prompt": "(Don't explain yourself 'cause {{blank}})  ",
+          "promptZh": "（別再為自己辯解了，因為空口說白話根本不值一提）"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-51",
+          "answer": "you're sorry",
+          "options": [
+            "you're lonely",
+            "you're happy",
+            "you're sorry"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說你很抱歉"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-52",
+          "answer": "heard it all before,",
+          "options": [
+            "heard it all before,",
+            "heard it yesterday,",
+            "heard something new,"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這些話，我早就聽過無數遍了"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-53",
+          "answer": "hearing you speak",
+          "options": [
+            "watching you dance",
+            "seeing you leave",
+            "hearing you speak"
+          ],
+          "prompt": "(There's more important things than {{blank}}) ",
+          "promptZh": "（這世上還有比聽你說話更重要的事情）"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-54",
+          "answer": "take care of myself",
+          "options": [
+            "take care of the house",
+            "take care of myself",
+            "take care of your friends"
+          ],
+          "prompt": "And I can {{blank}} ",
+          "promptZh": "而我有能力好好照顧自己"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-55",
+          "answer": "don't wanna know",
+          "options": [
+            "don't wanna know",
+            "don't wanna go",
+            "don't wanna wait"
+          ],
+          "prompt": "I don't wanna hear, I {{blank}} ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-56",
+          "answer": "'Forgive me'",
+          "options": [
+            "'Remember me'",
+            "'Believe me'",
+            "'Forgive me'"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說「原諒我」"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Je suis désolée"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Lo siento"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Ik ben droevig"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Sono spiacente"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Perdóname"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "[Repeat:]"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I've {{q:1}} "
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I {{q:2}}, I {{q:3}} "
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Please don't say {{q:4}} "
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I've {{q:5}} "
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And I can {{q:6}} "
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I don't wanna hear, I {{q:7}} "
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Please don't say 'Forgive me' "
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I've {{q:8}} "
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And I {{q:9}} "
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "You're {{q:10}} {{q:11}} "
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Save your words because you've {{q:12}} "
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I've listened to your lies and {{q:13}} (Listened to your stories)   "
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "You're {{q:14}} you'd like to be "
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I {{q:15}}, I don't wanna know "
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Please don't say you're sorry "
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I've {{q:16}} "
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And I can {{q:17}} "
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I don't wanna hear, I {{q:18}} "
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Please don't say '{{q:19}}' "
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I've seen it all before "
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And I {{q:20}} "
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Don't explain yourself 'cause talk is cheap  "
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "There's {{q:21}} than hearing you speak "
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You stayed because I {{q:22}}  "
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "(Made it {{q:23}}) "
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Don't explain yourself, {{q:24}} "
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Gomen nasai"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Mujhe maaf kardo"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Przepraszam"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Sli'kha"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "[Repeat:]"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Sorry, sorry, sorry "
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "I've {{q:26}} "
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "I {{q:27}}, I don't wanna know "
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Please don't say {{q:28}} "
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I've {{q:29}} "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "And I can take care of myself "
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I don't wanna hear, I {{q:30}} "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Please don't say {{q:31}} "
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "I've {{q:32}} "
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "And I {{q:33}} "
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "I don't wanna hear, I don't wanna know "
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "(Don't explain yourself 'cause {{q:34}})  "
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Please don't say {{q:35}} "
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "I've {{q:36}} "
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "(There's more important things than {{q:37}}) "
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "And I can {{q:38}} "
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "I don't wanna hear, I {{q:39}} "
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Please don't say {{q:40}} "
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-7",
+          "answer": "heard it all before",
+          "options": [
+            "heard it all before",
+            "heard it yesterday",
+            "heard something new"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這些話，我早就聽過無數遍了"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-8",
+          "answer": "don't wanna hear",
+          "options": [
+            "don't wanna leave",
+            "don't wanna hear",
+            "don't wanna dance"
+          ],
+          "prompt": "I {{blank}}, I don't wanna know ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-8",
+          "answer": "don't wanna know",
+          "options": [
+            "don't wanna know",
+            "don't wanna go",
+            "don't wanna wait"
+          ],
+          "prompt": "I don't wanna hear, I {{blank}} ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-9",
+          "answer": "you're sorry",
+          "options": [
+            "you're lonely",
+            "you're happy",
+            "you're sorry"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說你很抱歉"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-10",
+          "answer": "heard it all before",
+          "options": [
+            "heard it all before",
+            "heard it yesterday",
+            "heard something new"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這些話，我早就聽過無數遍了"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-11",
+          "answer": "take care of myself",
+          "options": [
+            "take care of the house",
+            "take care of your friends",
+            "take care of myself"
+          ],
+          "prompt": "And I can {{blank}} ",
+          "promptZh": "而我有能力好好照顧自己"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-12",
+          "answer": "don't wanna know",
+          "options": [
+            "don't wanna go",
+            "don't wanna know",
+            "don't wanna wait"
+          ],
+          "prompt": "I don't wanna hear, I {{blank}} ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-13",
+          "answer": "'Forgive me'",
+          "options": [
+            "'Forgive me'",
+            "'Remember me'",
+            "'Believe me'"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說「原諒我」"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-14",
+          "answer": "seen it all before",
+          "options": [
+            "seen you at the door",
+            "seen it all before",
+            "seen the world outside"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這一切，我早已見識過了"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-15",
+          "answer": "can't take it anymore",
+          "options": [
+            "can't take it anymore",
+            "can't make it through the night",
+            "can't face you anymore"
+          ],
+          "prompt": "And I {{blank}} ",
+          "promptZh": "而我再也無法忍受下去了"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-16",
+          "answer": "not half the man",
+          "options": [
+            "not quite the friend",
+            "not like the boy",
+            "not half the man"
+          ],
+          "prompt": "You're {{blank}} you think you are ",
+          "promptZh": "你根本沒有自己想像中那麼了不起"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-16",
+          "answer": "you think you are",
+          "options": [
+            "you say you were",
+            "you think you are",
+            "you wish you knew"
+          ],
+          "prompt": "You're not half the man {{blank}} ",
+          "promptZh": "你根本沒有自己想像中那麼了不起"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-17",
+          "answer": "Save your words",
+          "options": [
+            "Save your money",
+            "Save your words",
+            "Choose your words"
+          ],
+          "prompt": "{{blank}} because you've gone too far ",
+          "promptZh": "省省你的話吧，因為你早已做得太過分"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-17",
+          "answer": "gone too far",
+          "options": [
+            "gone too far",
+            "gone back home",
+            "stayed too long"
+          ],
+          "prompt": "Save your words because you've {{blank}} ",
+          "promptZh": "省省你的話吧，因為你早已做得太過分"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-18",
+          "answer": "all your stories",
+          "options": [
+            "all your promises",
+            "all your worries",
+            "all your stories"
+          ],
+          "prompt": "I've listened to your lies and {{blank}} (Listened to your stories)   ",
+          "promptZh": "你的謊言與那些編造的說詞，我早已聽得夠多了（聽夠了你的那些說詞）"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-19",
+          "answer": "not half the man",
+          "options": [
+            "not quite the friend",
+            "not half the man",
+            "not like the boy"
+          ],
+          "prompt": "You're {{blank}} you'd like to be ",
+          "promptZh": "你甚至遠遠稱不上自己想成為的那種男人"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-20",
+          "answer": "don't wanna hear",
+          "options": [
+            "don't wanna leave",
+            "don't wanna hear",
+            "don't wanna dance"
+          ],
+          "prompt": "I {{blank}}, I don't wanna know ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-21",
+          "answer": "you're sorry",
+          "options": [
+            "you're lonely",
+            "you're happy",
+            "you're sorry"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說你很抱歉"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-22",
+          "answer": "heard it all before",
+          "options": [
+            "heard it yesterday",
+            "heard something new",
+            "heard it all before"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這些話，我早就聽過無數遍了"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-23",
+          "answer": "take care of myself",
+          "options": [
+            "take care of the house",
+            "take care of myself",
+            "take care of your friends"
+          ],
+          "prompt": "And I can {{blank}} ",
+          "promptZh": "而我有能力好好照顧自己"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-24",
+          "answer": "don't wanna know",
+          "options": [
+            "don't wanna go",
+            "don't wanna wait",
+            "don't wanna know"
+          ],
+          "prompt": "I don't wanna hear, I {{blank}} ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-25",
+          "answer": "Forgive me",
+          "options": [
+            "Forgive me",
+            "Remember me",
+            "Believe me"
+          ],
+          "prompt": "Please don't say '{{blank}}' ",
+          "promptZh": "請別再對我說「原諒我」"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-26",
+          "answer": "seen it all before",
+          "options": [
+            "seen you at the door",
+            "seen it all before",
+            "seen the world outside"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這一切，我早已見識過了"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-27",
+          "answer": "can't take it anymore",
+          "options": [
+            "can't take it anymore",
+            "can't make it through the night",
+            "can't face you anymore"
+          ],
+          "prompt": "And I {{blank}} ",
+          "promptZh": "而我再也無法忍受下去了"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-28",
+          "answer": "explain yourself",
+          "options": [
+            "explain yourself",
+            "defend your friends",
+            "repeat your name"
+          ],
+          "prompt": "Don't {{blank}} 'cause talk is cheap  ",
+          "promptZh": "別再為自己辯解了，因為空口說白話根本不值一提"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-28",
+          "answer": "talk is cheap",
+          "options": [
+            "time is short",
+            "talk is cheap",
+            "love is blind"
+          ],
+          "prompt": "Don't explain yourself 'cause {{blank}}  ",
+          "promptZh": "別再為自己辯解了，因為空口說白話根本不值一提"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-29",
+          "answer": "more important things",
+          "options": [
+            "more important things",
+            "more exciting places",
+            "more difficult questions"
+          ],
+          "prompt": "There's {{blank}} than hearing you speak ",
+          "promptZh": "這世上還有比聽你說話更重要的事情"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-29",
+          "answer": "hearing you speak",
+          "options": [
+            "watching you dance",
+            "seeing you leave",
+            "hearing you speak"
+          ],
+          "prompt": "There's more important things than {{blank}} ",
+          "promptZh": "這世上還有比聽你說話更重要的事情"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-30",
+          "answer": "made it so convenient",
+          "options": [
+            "made it more confusing",
+            "made it so convenient",
+            "made it so expensive"
+          ],
+          "prompt": "You stayed because I {{blank}}  ",
+          "promptZh": "你之所以留下，不過是因為我讓這段關係對你而言太過方便"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-31",
+          "answer": "so convenient",
+          "options": [
+            "so complicated",
+            "so convenient",
+            "so uncomfortable"
+          ],
+          "prompt": "(Made it {{blank}}) ",
+          "promptZh": "（讓一切對你而言如此方便）"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-32",
+          "answer": "you'll never see",
+          "options": [
+            "you'll never know",
+            "you'll always stay",
+            "you'll never see"
+          ],
+          "prompt": "Don't explain yourself, {{blank}} ",
+          "promptZh": "別再為自己辯解了，因為你永遠不會明白"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-37",
+          "answer": "Forgive me",
+          "options": [
+            "Remember me",
+            "Forgive me",
+            "Believe me"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "原諒我"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-39",
+          "answer": "Sorry, sorry, sorry",
+          "options": [
+            "Sorry, sorry, sorry",
+            "Hurry, hurry, hurry",
+            "Listen, listen, listen"
+          ],
+          "prompt": "{{blank}} ",
+          "promptZh": "對不起，對不起，對不起"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-40",
+          "answer": "heard it all before",
+          "options": [
+            "heard it yesterday",
+            "heard it all before",
+            "heard something new"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這些話，我早就聽過無數遍了"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-41",
+          "answer": "don't wanna hear",
+          "options": [
+            "don't wanna leave",
+            "don't wanna dance",
+            "don't wanna hear"
+          ],
+          "prompt": "I {{blank}}, I don't wanna know ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-42",
+          "answer": "you're sorry",
+          "options": [
+            "you're sorry",
+            "you're lonely",
+            "you're happy"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說你很抱歉"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-43",
+          "answer": "heard it all before",
+          "options": [
+            "heard it yesterday",
+            "heard something new",
+            "heard it all before"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這些話，我早就聽過無數遍了"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-44",
+          "answer": "take care of myself",
+          "options": [
+            "take care of the house",
+            "take care of your friends",
+            "take care of myself"
+          ],
+          "prompt": "And I can {{blank}} ",
+          "promptZh": "而我有能力好好照顧自己"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-45",
+          "answer": "don't wanna know",
+          "options": [
+            "don't wanna know",
+            "don't wanna go",
+            "don't wanna wait"
+          ],
+          "prompt": "I don't wanna hear, I {{blank}} ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-46",
+          "answer": "'Forgive me'",
+          "options": [
+            "'Forgive me'",
+            "'Remember me'",
+            "'Believe me'"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說「原諒我」"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-47",
+          "answer": "seen it all before",
+          "options": [
+            "seen you at the door",
+            "seen the world outside",
+            "seen it all before"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這一切，我早已見識過了"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-48",
+          "answer": "can't take it anymore",
+          "options": [
+            "can't take it anymore",
+            "can't make it through the night",
+            "can't face you anymore"
+          ],
+          "prompt": "And I {{blank}} ",
+          "promptZh": "而我再也無法忍受下去了"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-49",
+          "answer": "don't wanna hear",
+          "options": [
+            "don't wanna leave",
+            "don't wanna hear",
+            "don't wanna dance"
+          ],
+          "prompt": "I {{blank}}, I don't wanna know ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-50",
+          "answer": "talk is cheap",
+          "options": [
+            "time is short",
+            "talk is cheap",
+            "love is blind"
+          ],
+          "prompt": "(Don't explain yourself 'cause {{blank}})  ",
+          "promptZh": "（別再為自己辯解了，因為空口說白話根本不值一提）"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-51",
+          "answer": "you're sorry",
+          "options": [
+            "you're lonely",
+            "you're happy",
+            "you're sorry"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說你很抱歉"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-52",
+          "answer": "heard it all before,",
+          "options": [
+            "heard it yesterday,",
+            "heard something new,",
+            "heard it all before,"
+          ],
+          "prompt": "I've {{blank}} ",
+          "promptZh": "這些話，我早就聽過無數遍了"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-53",
+          "answer": "hearing you speak",
+          "options": [
+            "watching you dance",
+            "hearing you speak",
+            "seeing you leave"
+          ],
+          "prompt": "(There's more important things than {{blank}}) ",
+          "promptZh": "（這世上還有比聽你說話更重要的事情）"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-54",
+          "answer": "take care of myself",
+          "options": [
+            "take care of the house",
+            "take care of your friends",
+            "take care of myself"
+          ],
+          "prompt": "And I can {{blank}} ",
+          "promptZh": "而我有能力好好照顧自己"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-55",
+          "answer": "don't wanna know",
+          "options": [
+            "don't wanna know",
+            "don't wanna go",
+            "don't wanna wait"
+          ],
+          "prompt": "I don't wanna hear, I {{blank}} ",
+          "promptZh": "我不想再聽，也不想再知道"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-56",
+          "answer": "'Forgive me'",
+          "options": [
+            "'Forgive me'",
+            "'Remember me'",
+            "'Believe me'"
+          ],
+          "prompt": "Please don't say {{blank}} ",
+          "promptZh": "請別再對我說「原諒我」"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Je suis désolée"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Lo siento"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Ik ben droevig"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Sono spiacente"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Perdóname"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "[Repeat:]"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I've {{q:1}} "
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I {{q:2}}, I {{q:3}} "
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Please don't say {{q:4}} "
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I've {{q:5}} "
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And I can {{q:6}} "
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I don't wanna hear, I {{q:7}} "
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Please don't say {{q:8}} "
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I've {{q:9}} "
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And I {{q:10}} "
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "You're {{q:11}} {{q:12}} "
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:13}} because you've {{q:14}} "
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I've listened to your lies and {{q:15}} (Listened to your stories)   "
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "You're {{q:16}} you'd like to be "
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I {{q:17}}, I don't wanna know "
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Please don't say {{q:18}} "
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I've {{q:19}} "
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And I can {{q:20}} "
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I don't wanna hear, I {{q:21}} "
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Please don't say '{{q:22}}' "
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I've {{q:23}} "
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And I {{q:24}} "
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Don't {{q:25}} 'cause {{q:26}}  "
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "There's {{q:27}} than {{q:28}} "
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You stayed because I {{q:29}}  "
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "(Made it {{q:30}}) "
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Don't explain yourself, {{q:31}} "
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Gomen nasai"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Mujhe maaf kardo"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Przepraszam"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Sli'kha"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "[Repeat:]"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "{{q:33}} "
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "I've {{q:34}} "
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "I {{q:35}}, I don't wanna know "
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Please don't say {{q:36}} "
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I've {{q:37}} "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "And I can {{q:38}} "
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I don't wanna hear, I {{q:39}} "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Please don't say {{q:40}} "
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "I've {{q:41}} "
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "And I {{q:42}} "
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "I {{q:43}}, I don't wanna know "
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "(Don't explain yourself 'cause {{q:44}})  "
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Please don't say {{q:45}} "
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "I've {{q:46}} "
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "(There's more important things than {{q:47}}) "
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "And I can {{q:48}} "
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "I don't wanna hear, I {{q:49}} "
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Please don't say {{q:50}} "
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Sorry · Listening & Vocabulary",
+  "description": "《Sorry》描寫一個人在感情中反覆遭受欺騙與傷害後，終於決定放下過去、重新找回自我的心情。歌中的主角曾經一次又一次聽信對方的道歉與承諾，卻發現那些言語始終沒有帶來真正的改變。隨著失望不斷累積，她逐漸失去信任，也不再願意接受對方的藉口與辯解。歌曲以不同語言反覆表達歉意，突顯空洞的道歉已經失去意義。最終，《Sorry》傳達的是愛情中的失望、覺醒與自我尊重：當一個人不斷重複相同的錯誤，再多的道歉也難以修復傷害。唯有勇敢劃清界線，停止委屈自己，才能擺脫不健康的關係，重新掌握屬於自己的幸福。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Sorry",
+      "meaning": "對不起；抱歉。",
+      "usage": "做錯事、造成不便或想表達歉意時，可以說 I'm sorry。",
+      "prompt": "哪一句正確使用了「sorry」來道歉？",
+      "options": [
+        "I'm sorry I broke your cup. I'll get you a new one.",
+        "The train said sorry to the station because it was too long.",
+        "I put three sorrys in the fridge to keep them fresh.",
+        "The museum is sorry, so tickets must wear black clothes."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "打破別人的杯子後道歉，並表示會補償，是自然的使用情境。",
+        "這裡把列車的長度當成向車站道歉的理由，缺乏合理語境。可說 The train was too long for the station.",
+        "sorry 不是可以放進冰箱保存的食物。可說 I put three apples in the fridge.",
+        "sorry 表示歉意；博物館與門票的衣服並沒有合理關係。可說 The museum is closed today."
+      ],
+      "sourceFile": "Sorry_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 1,
+      "explanation": "打破別人的杯子後道歉，並表示會補償，是自然的使用情境。",
+      "sourceOptionOrder": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Forgive",
+      "meaning": "原諒。",
+      "usage": "當別人做錯事，你決定不再責怪對方時，可以說 forgive someone。",
+      "prompt": "哪一句正確使用了「forgive」？",
+      "options": [
+        "I forgive the soup for being too round.",
+        "My grandfather forgave me for losing his book.",
+        "The computer forgave my password and let it go home early.",
+        "Please forgive the window; it didn't know it was raining."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "湯的形狀不是需要原諒的過錯。可說 The bowl of soup was round.",
+        "爺爺原諒我弄丟他的書，符合 forgive someone for something 的用法。",
+        "密碼不是需要被原諒、可以提早下班的人。可說 The computer accepted my password.",
+        "窗戶不會為天氣作出需要原諒的決定。可說 The window was wet because it was raining."
+      ],
+      "sourceFile": "Sorry_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 2,
+      "explanation": "爺爺原諒我弄丟他的書，符合 forgive someone for something 的用法。",
+      "sourceOptionOrder": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "I've heard it all before",
+      "meaning": "這些話我早就聽過了；沒有新意。",
+      "usage": "對方一直重複同樣的理由或說法，你已經聽過很多次時使用。",
+      "prompt": "哪一句正確使用了「I've heard it all before」？",
+      "options": [
+        "I've heard it all before, so my ears are now on holiday in Spain.",
+        "He gave me the same excuse again. I've heard it all before.",
+        "I've heard it all before, so tomorrow is already yesterday.",
+        "The radio has heard it all before because it has two buttons."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "聽過某些話，不代表耳朵會出國度假。可說 My ears hurt after the loud music.",
+        "對方又提出一樣的藉口，因此說自己早就聽過，非常自然。",
+        "I've heard it all before 不會讓時間倒轉。可說 I heard this story yesterday.",
+        "收音機有兩個按鈕，不能證明它早已聽過所有說法。可說 The radio has two buttons."
+      ],
+      "sourceFile": "Sorry_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 3,
+      "explanation": "對方又提出一樣的藉口，因此說自己早就聽過，非常自然。",
+      "sourceOptionOrder": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Take care of myself",
+      "meaning": "照顧自己。",
+      "usage": "表示自己能處理日常生活、健康或需要時，可以說 take care of myself。",
+      "prompt": "哪一句正確使用了「take care of myself」？",
+      "options": [
+        "I can take care of myself. I cook and clean my room.",
+        "I take care of myself because my name is in the phone book.",
+        "The chair takes care of myself when I sit on Tuesday.",
+        "I take care of myself by sending my shadow to work."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "自己做飯、整理房間，是能照顧自己的具體例子。",
+        "名字出現在電話簿裡，不代表有能力照顧自己。可說 My name is in the phone book.",
+        "主詞是 the chair 時，不能用 myself 指回椅子；星期二也與意思無關。可說 The chair is comfortable.",
+        "影子不能代替人去上班；這不是照顧自己的方法。可說 I take care of myself by getting enough sleep."
+      ],
+      "sourceFile": "Sorry_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 4,
+      "explanation": "自己做飯、整理房間，是能照顧自己的具體例子。",
+      "sourceOptionOrder": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Can't take it anymore",
+      "meaning": "再也受不了了。",
+      "usage": "某件事持續讓你難受、疲倦或生氣，已經到了無法忍受的程度時使用。",
+      "prompt": "哪一句正確使用了「can't take it anymore」？",
+      "options": [
+        "The elevator can't take it anymore because Friday is too heavy.",
+        "I can't take it anymore, so I put the weather in a bag.",
+        "My neighbors play loud music every night. I can't take it anymore.",
+        "I can't take it anymore because the number seven is late again."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "星期五不是有重量、能壓壞電梯的物品。可說 The elevator can't carry so many people.",
+        "把天氣裝進袋子不是解決無法忍受之事的方法。可說 I can't take the noise anymore, so I'm leaving.",
+        "鄰居每晚播放很吵的音樂，讓人再也無法忍受，語意正確。",
+        "數字七不會遲到，理由是刻意製造的荒謬情境。可說 My friend is late again."
+      ],
+      "sourceFile": "Sorry_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 5,
+      "explanation": "鄰居每晚播放很吵的音樂，讓人再也無法忍受，語意正確。",
+      "sourceOptionOrder": [
+        "B",
+        "D",
+        "C",
+        "A"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Gone too far",
+      "meaning": "做得太過分；超過界線。",
+      "usage": "對方的玩笑、言行或要求超過可以接受的程度時，可以說 You've gone too far。",
+      "prompt": "哪一句正確使用了「gone too far」來表示「太過分」？",
+      "options": [
+        "This cake has gone too far; it is now in another country.",
+        "My brother read my private messages. He has gone too far.",
+        "The clock has gone too far because it knows next Monday.",
+        "The pencil has gone too far because it is longer than the ruler."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "蛋糕不會自己跨國旅行；此題要測的是「行為太過分」的意思。可說 The cake is in another room.",
+        "偷看私人訊息越過了合理界線，適合用 gone too far 表示「太過分」。",
+        "時鐘不會因為知道星期幾而做得太過分。可說 The clock shows the wrong time.",
+        "這裡只是在比較長度，沒有表達越界的行為。可說 The pencil is longer than the ruler."
+      ],
+      "sourceFile": "Sorry_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 6,
+      "explanation": "偷看私人訊息越過了合理界線，適合用 gone too far 表示「太過分」。",
+      "sourceOptionOrder": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Lie",
+      "meaning": "謊言；說謊。",
+      "usage": "某人故意說不真實的話，或你想指出某句話不是真的時，可以用 lie。",
+      "prompt": "哪一句正確使用了「lie」來表示「謊言」？",
+      "options": [
+        "He said he was at home, but I saw him at the park. That was a lie.",
+        "I bought a new lie because the old one had no batteries.",
+        "The bakery sells two lies with every birthday cake.",
+        "This map is a lie because the ocean is wearing a hat."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "他說自己在家，但實際上出現在公園；可用 a lie 指故意說出的假話。",
+        "謊言不是需要電池的商品。可說 I bought a new radio because the old one was broken.",
+        "謊言不是麵包店按件出售的糕點。可說 The bakery sells birthday cakes.",
+        "海洋戴帽子的說法並不能在這個語境中合理說明某人故意說謊。可說 The map is wrong."
+      ],
+      "sourceFile": "Sorry_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 7,
+      "explanation": "他說自己在家，但實際上出現在公園；可用 a lie 指故意說出的假話。",
+      "sourceOptionOrder": [
+        "D",
+        "B",
+        "C",
+        "A"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Explain yourself",
+      "meaning": "解釋自己的行為；為自己說明。",
+      "usage": "有人希望你說明為什麼做某件事時，可以使用 explain yourself。",
+      "prompt": "哪一句正確使用了「explain yourself」？",
+      "options": [
+        "Please explain yourself to the mirror so it can get a job.",
+        "The bridge explained itself by showing its passport.",
+        "You broke the classroom window. Please explain yourself.",
+        "I explained myself to the door, but it still wanted an apology."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "鏡子不會因為聽人解釋就能找到工作。可說 Please explain the problem to me.",
+        "橋樑沒有護照，也無法用它來解釋自己的行為。可說 The bridge is very old.",
+        "打破教室窗戶後被要求說明原因，符合 explain yourself 的使用時機。",
+        "門不會要求道歉；這個場景把無生命的物品當成了投訴者。可說 I explained what happened to my friend."
+      ],
+      "sourceFile": "Sorry_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 8,
+      "explanation": "打破教室窗戶後被要求說明原因，符合 explain yourself 的使用時機。",
+      "sourceOptionOrder": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Talk is cheap",
+      "meaning": "光說不做沒有用；說得容易，做得到才重要。",
+      "usage": "有人一直作出承諾，卻沒有實際行動時，可以用 talk is cheap。",
+      "prompt": "哪一句正確使用了「talk is cheap」？",
+      "options": [
+        "Talk is cheap, so the doctor charged me for silence instead.",
+        "Talk is cheap because my phone found a sale on Tuesday.",
+        "Talk is cheap because the shop sells words for one dollar.",
+        "He promises to help every week but never comes. Talk is cheap."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "這個片語不表示醫生會按沉默收費。可說 The doctor asked me to stay quiet.",
+        "手機促銷與承諾是否付諸行動無關。可說 My phone was on sale on Tuesday.",
+        "這個片語不是在討論話語的售價。可說 The shop sells books for one dollar.",
+        "他每週口頭承諾幫忙，卻從不出現，正好表達「光說不做沒有用」。"
+      ],
+      "sourceFile": "Sorry_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 9,
+      "explanation": "他每週口頭承諾幫忙，卻從不出現，正好表達「光說不做沒有用」。",
+      "sourceOptionOrder": [
+        "C",
+        "A",
+        "D",
+        "B"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Convenient",
+      "meaning": "方便的；省事的。",
+      "usage": "某個時間、地點或安排很容易配合生活需求時，可以用 convenient。",
+      "prompt": "哪一句正確使用了「convenient」？",
+      "options": [
+        "My calendar is convenient because it has become the new manager.",
+        "I am convenient the sofa before the guests arrive.",
+        "The moon is convenient because it sends me a bill every month.",
+        "The library is near my house, so it's convenient for me."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "行事曆變成經理不是 convenient 的意思。可說 My calendar helps me plan my week.",
+        "convenient 是形容詞，不能直接當成移動沙發的動詞。可說 I move the sofa before the guests arrive.",
+        "月亮寄帳單不代表它方便；這個理由刻意模仿一本正經的錯誤推論。可說 The moon is bright tonight.",
+        "圖書館離家近，去那裡很方便，形容詞使用正確。"
+      ],
+      "sourceFile": "Sorry_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 10,
+      "context": "教學提醒：：本練習測試的是歌曲語境下的指定意思；某些字詞（如 lie、sorry）在其他情境可能另有用法。先請學生找出錯誤選項的字義或邏輯問題，再展開解析。荒謬句的目的在於引導辨義，不應當作可模仿的自然英文。",
+      "explanation": "圖書館離家近，去那裡很方便，形容詞使用正確。",
+      "sourceOptionOrder": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ]
+    }
+  ],
+  "tags": [
+    "madonna",
+    "sorry"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/sorry/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/sorry/user-cover-20261101.png",
+  "singer": "Madonna",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 281.8666875,
+    "audioSha256": "0c8013390d8f778c67da3c068a479bf84712cf497b3e8b6b1708db59cef133cc",
+    "timedLines": 41,
+    "untimedLines": 15,
+    "reviewStatus": "Conservative automatic alignment; not manually certified. Unmatched lines remain bilingual without guessed timestamps."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "\"Sorry\".pdf",
+      "sha256": "bd2100f12d6335505254ba3fbd7ddb44d1b34958fbba2028fb3c55669f0ed0b2"
+    },
+    "mp3": {
+      "filename": "Sorry [B_NFYleguso].mp3",
+      "sha256": "0c8013390d8f778c67da3c068a479bf84712cf497b3e8b6b1708db59cef133cc"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-c36624bb-b98b-4a38-9e1b-c9ad72a81c04.png",
+    "sha256": "a84f6e140c8cd4197ca98ffdfafc1de2d4aef3a979bd61d01b6356165ad53065",
+    "transformations": "none",
+    "selectedOn": "2026-11-01"
+  }
+}

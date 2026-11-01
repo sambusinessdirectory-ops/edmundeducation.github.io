@@ -1,0 +1,2276 @@
+{
+  "title": "Dust In The Wind",
+  "slug": "dust-in-the-wind",
+  "translations": [
+    {
+      "english": "I close my eyes",
+      "chinese": "我輕輕閉上雙眼",
+      "lineId": "line-1",
+      "startSeconds": 19.3,
+      "endSeconds": 24.82
+    },
+    {
+      "english": "Only for a moment, and the moment's gone",
+      "chinese": "不過短短一瞬，那一刻便已悄然消逝",
+      "lineId": "line-2",
+      "startSeconds": 24.82,
+      "endSeconds": 29.74
+    },
+    {
+      "english": "All my dreams",
+      "chinese": "我所有的夢想",
+      "lineId": "line-3",
+      "startSeconds": 29.74,
+      "endSeconds": 34.8
+    },
+    {
+      "english": "Pass before my eyes, a curiosity",
+      "chinese": "如奇異的幻影般，在我眼前一一掠過",
+      "lineId": "line-4",
+      "startSeconds": 34.8,
+      "endSeconds": 39.46
+    },
+    {
+      "english": "Dust in the wind",
+      "chinese": "風中的塵埃",
+      "lineId": "line-5",
+      "startSeconds": 41.46,
+      "endSeconds": 44.62
+    },
+    {
+      "english": "All they are is dust in the wind",
+      "chinese": "它們終究不過是隨風飄散的塵埃",
+      "lineId": "line-6",
+      "startSeconds": 44.62,
+      "endSeconds": 50.12
+    },
+    {
+      "english": "Same old song",
+      "chinese": "依舊是那首熟悉的老歌",
+      "lineId": "line-7",
+      "startSeconds": 51.68,
+      "endSeconds": 55.2
+    },
+    {
+      "english": "Just a drop of water in an endless sea",
+      "chinese": "不過是無垠大海中的一滴水",
+      "lineId": "line-8",
+      "startSeconds": 56.38,
+      "endSeconds": 60.66
+    },
+    {
+      "english": "All we do",
+      "chinese": "我們所做的一切",
+      "lineId": "line-9",
+      "startSeconds": 60.66,
+      "endSeconds": 65.36
+    },
+    {
+      "english": "Crumbles to the ground, though we refuse to see",
+      "chinese": "終將崩解成塵、散落大地，縱使我們不願正視",
+      "lineId": "line-10",
+      "startSeconds": 65.36,
+      "endSeconds": 71.12
+    },
+    {
+      "english": "Dust in the wind",
+      "chinese": "風中的塵埃",
+      "lineId": "line-11",
+      "startSeconds": 73.8,
+      "endSeconds": 75.44
+    },
+    {
+      "english": "All we are is dust in the wind",
+      "chinese": "我們終究也不過是風中的塵埃",
+      "lineId": "line-12",
+      "startSeconds": 76.74,
+      "endSeconds": 82.84
+    },
+    {
+      "english": "Now don't hang on",
+      "chinese": "如今，別再苦苦執著",
+      "lineId": "line-13"
+    },
+    {
+      "english": "Nothing lasts forever but the earth and sky",
+      "chinese": "除了大地與蒼穹，世間沒有什麼能夠永恆",
+      "lineId": "line-14",
+      "startSeconds": 135.92,
+      "endSeconds": 139.88
+    },
+    {
+      "english": "It slips away",
+      "chinese": "一切都在悄然流逝",
+      "lineId": "line-15",
+      "startSeconds": 139.88,
+      "endSeconds": 144.3
+    },
+    {
+      "english": "And all your money won't another minute buy",
+      "chinese": "縱使傾盡所有財富，也買不回生命中的另一分鐘",
+      "lineId": "line-16",
+      "startSeconds": 145.74,
+      "endSeconds": 150.74
+    },
+    {
+      "english": "Dust in the wind",
+      "chinese": "風中的塵埃",
+      "lineId": "line-17",
+      "startSeconds": 151.98,
+      "endSeconds": 155.18
+    },
+    {
+      "english": "All we are is dust in the wind",
+      "chinese": "我們終究也不過是風中的塵埃",
+      "lineId": "line-18",
+      "startSeconds": 156.12,
+      "endSeconds": 159.12
+    },
+    {
+      "english": "(All we are is dust in the wind)",
+      "chinese": "（我們終究也不過是風中的塵埃）",
+      "lineId": "line-19",
+      "startSeconds": 159.12,
+      "endSeconds": 162.04
+    },
+    {
+      "english": "Dust in the wind",
+      "chinese": "風中的塵埃",
+      "lineId": "line-20"
+    },
+    {
+      "english": "(Everything is dust in the wind)",
+      "chinese": "（世間萬物，終究都是風中的塵埃）",
+      "lineId": "line-21",
+      "startSeconds": 163.82,
+      "endSeconds": 166.84
+    },
+    {
+      "english": "Everything is dust in the wind",
+      "chinese": "世間萬物，終究都是風中的塵埃",
+      "lineId": "line-22",
+      "startSeconds": 166.84,
+      "endSeconds": 171.62
+    },
+    {
+      "english": "(In the wind)",
+      "chinese": "（隨風飄散）",
+      "lineId": "line-23"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "close my eyes",
+          "options": [
+            "close my eyes",
+            "cover my face",
+            "open my eyes"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我輕輕閉上雙眼"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "Only for a moment",
+          "options": [
+            "Only for a lifetime",
+            "Just for an hour",
+            "Only for a moment"
+          ],
+          "prompt": "{{blank}}, and the moment's gone",
+          "promptZh": "不過短短一瞬，那一刻便已悄然消逝"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "All my dreams",
+          "options": [
+            "All my dreams",
+            "All my plans",
+            "All my fears"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我所有的夢想"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-5",
+          "answer": "Dust in the wind",
+          "options": [
+            "Lost in the rain",
+            "Dust in the wind",
+            "Stars in the sky"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "風中的塵埃"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-7",
+          "answer": "Same old song",
+          "options": [
+            "Another long day",
+            "Same old story",
+            "Same old song"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "依舊是那首熟悉的老歌"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-8",
+          "answer": "a drop of water",
+          "options": [
+            "a wave of thunder",
+            "a drop of water",
+            "a glass of water"
+          ],
+          "prompt": "Just {{blank}} in an endless sea",
+          "promptZh": "不過是無垠大海中的一滴水"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-9",
+          "answer": "All we do",
+          "options": [
+            "All we do",
+            "All we know",
+            "All we say"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我們所做的一切"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-10",
+          "answer": "Crumbles to the ground",
+          "options": [
+            "Rumbles through the night",
+            "Tumbles down the road",
+            "Crumbles to the ground"
+          ],
+          "prompt": "{{blank}}, though we refuse to see",
+          "promptZh": "終將崩解成塵、散落大地，縱使我們不願正視"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-12",
+          "answer": "All we are",
+          "options": [
+            "All we are",
+            "All we need",
+            "All we have"
+          ],
+          "prompt": "{{blank}} is dust in the wind",
+          "promptZh": "我們終究也不過是風中的塵埃"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-13",
+          "answer": "don't hang on",
+          "options": [
+            "don't give up",
+            "don't hang on",
+            "don't look back"
+          ],
+          "prompt": "Now {{blank}}",
+          "promptZh": "如今，別再苦苦執著"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-14",
+          "answer": "Nothing lasts forever",
+          "options": [
+            "Everything lasts longer",
+            "Nothing comes together",
+            "Nothing lasts forever"
+          ],
+          "prompt": "{{blank}} but the earth and sky",
+          "promptZh": "除了大地與蒼穹，世間沒有什麼能夠永恆"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-15",
+          "answer": "It slips away",
+          "options": [
+            "It stays the same",
+            "It fades to grey",
+            "It slips away"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "一切都在悄然流逝"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-16",
+          "answer": "your money",
+          "options": [
+            "your dreams",
+            "your money",
+            "your family"
+          ],
+          "prompt": "And all {{blank}} won't another minute buy ",
+          "promptZh": "縱使傾盡所有財富，也買不回生命中的另一分鐘"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-16",
+          "answer": "another minute buy",
+          "options": [
+            "another chance to try",
+            "another minute buy",
+            "a better life tonight"
+          ],
+          "prompt": "And all your money won't {{blank}} ",
+          "promptZh": "縱使傾盡所有財富，也買不回生命中的另一分鐘"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-22",
+          "answer": "Everything is dust",
+          "options": [
+            "Everything is dust",
+            "Nothing is real",
+            "Everything is gold"
+          ],
+          "prompt": "{{blank}} in the wind",
+          "promptZh": "世間萬物，終究都是風中的塵埃"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}, and the moment's gone"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Pass before my eyes, a curiosity"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:4}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "All they are is dust in the wind"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:5}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Just {{q:6}} in an endless sea"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:7}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:8}}, though we refuse to see"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Dust in the wind"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:9}} is dust in the wind"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Now {{q:10}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:11}} but the earth and sky"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:12}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And all {{q:13}} won't {{q:14}} "
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Dust in the wind"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "All we are is dust in the wind"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "(All we are is dust in the wind)"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Dust in the wind"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "(Everything is dust in the wind)"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:15}} in the wind"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "(In the wind)"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 15
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "close my eyes",
+          "options": [
+            "open my eyes",
+            "cover my face",
+            "close my eyes"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我輕輕閉上雙眼"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "Only for a moment",
+          "options": [
+            "Only for a lifetime",
+            "Only for a moment",
+            "Just for an hour"
+          ],
+          "prompt": "{{blank}}, and the moment's gone",
+          "promptZh": "不過短短一瞬，那一刻便已悄然消逝"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "All my dreams",
+          "options": [
+            "All my plans",
+            "All my fears",
+            "All my dreams"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我所有的夢想"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "Pass before my eyes",
+          "options": [
+            "Fade behind my eyes",
+            "Pass before my eyes",
+            "Dance across the sky"
+          ],
+          "prompt": "{{blank}}, a curiosity",
+          "promptZh": "如奇異的幻影般，在我眼前一一掠過"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "Dust in the wind",
+          "options": [
+            "Dust in the wind",
+            "Lost in the rain",
+            "Stars in the sky"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "風中的塵埃"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "All they are",
+          "options": [
+            "All they need",
+            "All they are",
+            "All they see"
+          ],
+          "prompt": "{{blank}} is dust in the wind",
+          "promptZh": "它們終究不過是隨風飄散的塵埃"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "Same old song",
+          "options": [
+            "Another long day",
+            "Same old story",
+            "Same old song"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "依舊是那首熟悉的老歌"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "a drop of water",
+          "options": [
+            "a glass of water",
+            "a wave of thunder",
+            "a drop of water"
+          ],
+          "prompt": "Just {{blank}} in an endless sea",
+          "promptZh": "不過是無垠大海中的一滴水"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-8",
+          "answer": "an endless sea",
+          "options": [
+            "an endless sea",
+            "a distant shore",
+            "a silent lake"
+          ],
+          "prompt": "Just a drop of water in {{blank}}",
+          "promptZh": "不過是無垠大海中的一滴水"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-9",
+          "answer": "All we do",
+          "options": [
+            "All we know",
+            "All we do",
+            "All we say"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我們所做的一切"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-10",
+          "answer": "Crumbles to the ground",
+          "options": [
+            "Rumbles through the night",
+            "Crumbles to the ground",
+            "Tumbles down the road"
+          ],
+          "prompt": "{{blank}}, though we refuse to see",
+          "promptZh": "終將崩解成塵、散落大地，縱使我們不願正視"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-10",
+          "answer": "we refuse to see",
+          "options": [
+            "we refuse to see",
+            "we choose to believe",
+            "we begin to dream"
+          ],
+          "prompt": "Crumbles to the ground, though {{blank}}",
+          "promptZh": "終將崩解成塵、散落大地，縱使我們不願正視"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-12",
+          "answer": "All we are",
+          "options": [
+            "All we need",
+            "All we are",
+            "All we have"
+          ],
+          "prompt": "{{blank}} is dust in the wind",
+          "promptZh": "我們終究也不過是風中的塵埃"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-12",
+          "answer": "dust in the wind",
+          "options": [
+            "dust in the wind",
+            "stars in the night",
+            "waves on the shore"
+          ],
+          "prompt": "All we are is {{blank}}",
+          "promptZh": "我們終究也不過是風中的塵埃"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-13",
+          "answer": "don't hang on",
+          "options": [
+            "don't give up",
+            "don't look back",
+            "don't hang on"
+          ],
+          "prompt": "Now {{blank}}",
+          "promptZh": "如今，別再苦苦執著"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-14",
+          "answer": "Nothing lasts forever",
+          "options": [
+            "Everything lasts longer",
+            "Nothing lasts forever",
+            "Nothing comes together"
+          ],
+          "prompt": "{{blank}} but the earth and sky",
+          "promptZh": "除了大地與蒼穹，世間沒有什麼能夠永恆"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-14",
+          "answer": "the earth and sky",
+          "options": [
+            "the moon and stars",
+            "the sea and sand",
+            "the earth and sky"
+          ],
+          "prompt": "Nothing lasts forever but {{blank}}",
+          "promptZh": "除了大地與蒼穹，世間沒有什麼能夠永恆"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-15",
+          "answer": "It slips away",
+          "options": [
+            "It slips away",
+            "It fades to grey",
+            "It stays the same"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "一切都在悄然流逝"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-16",
+          "answer": "all your money",
+          "options": [
+            "all your money",
+            "all your worries",
+            "all your wishes"
+          ],
+          "prompt": "And {{blank}} won't another minute buy ",
+          "promptZh": "縱使傾盡所有財富，也買不回生命中的另一分鐘"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-16",
+          "answer": "another minute buy",
+          "options": [
+            "a better life tonight",
+            "another chance to try",
+            "another minute buy"
+          ],
+          "prompt": "And all your money won't {{blank}} ",
+          "promptZh": "縱使傾盡所有財富，也買不回生命中的另一分鐘"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-17",
+          "answer": "Dust in the wind",
+          "options": [
+            "Clouds in the sky",
+            "Leaves in the rain",
+            "Dust in the wind"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "風中的塵埃"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-18",
+          "answer": "All we are",
+          "options": [
+            "All we see",
+            "All we are",
+            "All we own"
+          ],
+          "prompt": "{{blank}} is dust in the wind",
+          "promptZh": "我們終究也不過是風中的塵埃"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-20",
+          "answer": "Dust in the wind",
+          "options": [
+            "Dust in the wind",
+            "Light across the sea",
+            "Rain upon the ground"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "風中的塵埃"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-22",
+          "answer": "Everything is dust",
+          "options": [
+            "Everything is dust",
+            "Everything is gold",
+            "Nothing is real"
+          ],
+          "prompt": "{{blank}} in the wind",
+          "promptZh": "世間萬物，終究都是風中的塵埃"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}, and the moment's gone"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:4}}, a curiosity"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:6}} is dust in the wind"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Just {{q:8}} in {{q:9}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:10}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:11}}, though {{q:12}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Dust in the wind"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:13}} is {{q:14}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Now {{q:15}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:16}} but {{q:17}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:18}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And {{q:19}} won't {{q:20}} "
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:21}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:22}} is dust in the wind"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "(All we are is dust in the wind)"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:23}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "(Everything is dust in the wind)"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:24}} in the wind"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "(In the wind)"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 24
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "close my eyes",
+          "options": [
+            "cover my face",
+            "close my eyes",
+            "open my eyes"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我輕輕閉上雙眼"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "Only for a moment",
+          "options": [
+            "Just for an hour",
+            "Only for a lifetime",
+            "Only for a moment"
+          ],
+          "prompt": "{{blank}}, and the moment's gone",
+          "promptZh": "不過短短一瞬，那一刻便已悄然消逝"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "the moment's gone",
+          "options": [
+            "the morning comes",
+            "the moment's gone",
+            "the moment stays"
+          ],
+          "prompt": "Only for a moment, and {{blank}}",
+          "promptZh": "不過短短一瞬，那一刻便已悄然消逝"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-3",
+          "answer": "All my dreams",
+          "options": [
+            "All my dreams",
+            "All my fears",
+            "All my plans"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我所有的夢想"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-4",
+          "answer": "Pass before my eyes",
+          "options": [
+            "Pass before my eyes",
+            "Dance across the sky",
+            "Fade behind my eyes"
+          ],
+          "prompt": "{{blank}}, a curiosity",
+          "promptZh": "如奇異的幻影般，在我眼前一一掠過"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-5",
+          "answer": "Dust in the wind",
+          "options": [
+            "Stars in the sky",
+            "Lost in the rain",
+            "Dust in the wind"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "風中的塵埃"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-6",
+          "answer": "All they are",
+          "options": [
+            "All they see",
+            "All they need",
+            "All they are"
+          ],
+          "prompt": "{{blank}} is dust in the wind",
+          "promptZh": "它們終究不過是隨風飄散的塵埃"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-6",
+          "answer": "dust in the wind",
+          "options": [
+            "sand in the sea",
+            "dust in the wind",
+            "light in the dark"
+          ],
+          "prompt": "All they are is {{blank}}",
+          "promptZh": "它們終究不過是隨風飄散的塵埃"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-7",
+          "answer": "Same old song",
+          "options": [
+            "Same old story",
+            "Another long day",
+            "Same old song"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "依舊是那首熟悉的老歌"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-8",
+          "answer": "a drop of water",
+          "options": [
+            "a wave of thunder",
+            "a glass of water",
+            "a drop of water"
+          ],
+          "prompt": "Just {{blank}} in an endless sea",
+          "promptZh": "不過是無垠大海中的一滴水"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-8",
+          "answer": "an endless sea",
+          "options": [
+            "a distant shore",
+            "an endless sea",
+            "a silent lake"
+          ],
+          "prompt": "Just a drop of water in {{blank}}",
+          "promptZh": "不過是無垠大海中的一滴水"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-9",
+          "answer": "All we do",
+          "options": [
+            "All we do",
+            "All we say",
+            "All we know"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我們所做的一切"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-10",
+          "answer": "Crumbles to the ground",
+          "options": [
+            "Tumbles down the road",
+            "Crumbles to the ground",
+            "Rumbles through the night"
+          ],
+          "prompt": "{{blank}}, though we refuse to see",
+          "promptZh": "終將崩解成塵、散落大地，縱使我們不願正視"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-10",
+          "answer": "we refuse to see",
+          "options": [
+            "we refuse to see",
+            "we choose to believe",
+            "we begin to dream"
+          ],
+          "prompt": "Crumbles to the ground, though {{blank}}",
+          "promptZh": "終將崩解成塵、散落大地，縱使我們不願正視"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-11",
+          "answer": "Dust in the wind",
+          "options": [
+            "Dust in the wind",
+            "Fire in the sky",
+            "Rain in the night"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "風中的塵埃"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-12",
+          "answer": "All we are",
+          "options": [
+            "All we have",
+            "All we are",
+            "All we need"
+          ],
+          "prompt": "{{blank}} is dust in the wind",
+          "promptZh": "我們終究也不過是風中的塵埃"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-12",
+          "answer": "dust in the wind",
+          "options": [
+            "dust in the wind",
+            "stars in the night",
+            "waves on the shore"
+          ],
+          "prompt": "All we are is {{blank}}",
+          "promptZh": "我們終究也不過是風中的塵埃"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-13",
+          "answer": "don't hang on",
+          "options": [
+            "don't hang on",
+            "don't give up",
+            "don't look back"
+          ],
+          "prompt": "Now {{blank}}",
+          "promptZh": "如今，別再苦苦執著"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-14",
+          "answer": "Nothing lasts forever",
+          "options": [
+            "Everything lasts longer",
+            "Nothing lasts forever",
+            "Nothing comes together"
+          ],
+          "prompt": "{{blank}} but the earth and sky",
+          "promptZh": "除了大地與蒼穹，世間沒有什麼能夠永恆"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-14",
+          "answer": "the earth and sky",
+          "options": [
+            "the earth and sky",
+            "the moon and stars",
+            "the sea and sand"
+          ],
+          "prompt": "Nothing lasts forever but {{blank}}",
+          "promptZh": "除了大地與蒼穹，世間沒有什麼能夠永恆"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-15",
+          "answer": "It slips away",
+          "options": [
+            "It fades to grey",
+            "It stays the same",
+            "It slips away"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "一切都在悄然流逝"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-16",
+          "answer": "all your money",
+          "options": [
+            "all your wishes",
+            "all your worries",
+            "all your money"
+          ],
+          "prompt": "And {{blank}} won't another minute buy ",
+          "promptZh": "縱使傾盡所有財富，也買不回生命中的另一分鐘"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-16",
+          "answer": "another minute buy",
+          "options": [
+            "another chance to try",
+            "another minute buy",
+            "a better life tonight"
+          ],
+          "prompt": "And all your money won't {{blank}} ",
+          "promptZh": "縱使傾盡所有財富，也買不回生命中的另一分鐘"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-17",
+          "answer": "Dust in the wind",
+          "options": [
+            "Leaves in the rain",
+            "Dust in the wind",
+            "Clouds in the sky"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "風中的塵埃"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-18",
+          "answer": "All we are",
+          "options": [
+            "All we are",
+            "All we see",
+            "All we own"
+          ],
+          "prompt": "{{blank}} is dust in the wind",
+          "promptZh": "我們終究也不過是風中的塵埃"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-18",
+          "answer": "dust in the wind",
+          "options": [
+            "light beyond the hills",
+            "dust in the wind",
+            "sand upon the shore"
+          ],
+          "prompt": "All we are is {{blank}}",
+          "promptZh": "我們終究也不過是風中的塵埃"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-19",
+          "answer": "All we are",
+          "options": [
+            "All we need",
+            "All we know",
+            "All we are"
+          ],
+          "prompt": "({{blank}} is dust in the wind)",
+          "promptZh": "（我們終究也不過是風中的塵埃）"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-20",
+          "answer": "Dust in the wind",
+          "options": [
+            "Dust in the wind",
+            "Rain upon the ground",
+            "Light across the sea"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "風中的塵埃"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-21",
+          "answer": "Everything is",
+          "options": [
+            "Someone says",
+            "Nothing was",
+            "Everything is"
+          ],
+          "prompt": "({{blank}} dust in the wind)",
+          "promptZh": "（世間萬物，終究都是風中的塵埃）"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-22",
+          "answer": "Everything is dust",
+          "options": [
+            "Everything is dust",
+            "Everything is gold",
+            "Nothing is real"
+          ],
+          "prompt": "{{blank}} in the wind",
+          "promptZh": "世間萬物，終究都是風中的塵埃"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-22",
+          "answer": "in the wind",
+          "options": [
+            "in the rain",
+            "on the ground",
+            "in the wind"
+          ],
+          "prompt": "Everything is dust {{blank}}",
+          "promptZh": "世間萬物，終究都是風中的塵埃"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}, and {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:5}}, a curiosity"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:6}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:7}} is {{q:8}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:9}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Just {{q:10}} in {{q:11}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:12}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:13}}, though {{q:14}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:15}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:16}} is {{q:17}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Now {{q:18}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:19}} but {{q:20}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:21}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And {{q:22}} won't {{q:23}} "
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:24}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:25}} is {{q:26}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "({{q:27}} is dust in the wind)"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "({{q:29}} dust in the wind)"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:30}} {{q:31}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "(In the wind)"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 31
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "close my eyes",
+          "options": [
+            "open my eyes",
+            "close my eyes",
+            "cover my face"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我輕輕閉上雙眼"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "Only for a moment",
+          "options": [
+            "Just for an hour",
+            "Only for a moment",
+            "Only for a lifetime"
+          ],
+          "prompt": "{{blank}}, and the moment's gone",
+          "promptZh": "不過短短一瞬，那一刻便已悄然消逝"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "the moment's gone",
+          "options": [
+            "the moment stays",
+            "the morning comes",
+            "the moment's gone"
+          ],
+          "prompt": "Only for a moment, and {{blank}}",
+          "promptZh": "不過短短一瞬，那一刻便已悄然消逝"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-3",
+          "answer": "All my dreams",
+          "options": [
+            "All my dreams",
+            "All my fears",
+            "All my plans"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我所有的夢想"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-4",
+          "answer": "Pass before my eyes",
+          "options": [
+            "Fade behind my eyes",
+            "Dance across the sky",
+            "Pass before my eyes"
+          ],
+          "prompt": "{{blank}}, a curiosity",
+          "promptZh": "如奇異的幻影般，在我眼前一一掠過"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-4",
+          "answer": "a curiosity",
+          "options": [
+            "a memory",
+            "a mystery",
+            "a curiosity"
+          ],
+          "prompt": "Pass before my eyes, {{blank}}",
+          "promptZh": "如奇異的幻影般，在我眼前一一掠過"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-5",
+          "answer": "Dust in the wind",
+          "options": [
+            "Dust in the wind",
+            "Stars in the sky",
+            "Lost in the rain"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "風中的塵埃"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-6",
+          "answer": "All they are",
+          "options": [
+            "All they see",
+            "All they are",
+            "All they need"
+          ],
+          "prompt": "{{blank}} is dust in the wind",
+          "promptZh": "它們終究不過是隨風飄散的塵埃"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-6",
+          "answer": "dust in the wind",
+          "options": [
+            "dust in the wind",
+            "sand in the sea",
+            "light in the dark"
+          ],
+          "prompt": "All they are is {{blank}}",
+          "promptZh": "它們終究不過是隨風飄散的塵埃"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-7",
+          "answer": "Same old song",
+          "options": [
+            "Another long day",
+            "Same old story",
+            "Same old song"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "依舊是那首熟悉的老歌"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-8",
+          "answer": "a drop of water",
+          "options": [
+            "a drop of water",
+            "a wave of thunder",
+            "a glass of water"
+          ],
+          "prompt": "Just {{blank}} in an endless sea",
+          "promptZh": "不過是無垠大海中的一滴水"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-8",
+          "answer": "an endless sea",
+          "options": [
+            "a distant shore",
+            "an endless sea",
+            "a silent lake"
+          ],
+          "prompt": "Just a drop of water in {{blank}}",
+          "promptZh": "不過是無垠大海中的一滴水"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-9",
+          "answer": "All we do",
+          "options": [
+            "All we know",
+            "All we do",
+            "All we say"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我們所做的一切"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-10",
+          "answer": "Crumbles to the ground",
+          "options": [
+            "Crumbles to the ground",
+            "Rumbles through the night",
+            "Tumbles down the road"
+          ],
+          "prompt": "{{blank}}, though we refuse to see",
+          "promptZh": "終將崩解成塵、散落大地，縱使我們不願正視"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-10",
+          "answer": "we refuse to see",
+          "options": [
+            "we refuse to see",
+            "we choose to believe",
+            "we begin to dream"
+          ],
+          "prompt": "Crumbles to the ground, though {{blank}}",
+          "promptZh": "終將崩解成塵、散落大地，縱使我們不願正視"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-11",
+          "answer": "Dust in the wind",
+          "options": [
+            "Fire in the sky",
+            "Rain in the night",
+            "Dust in the wind"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "風中的塵埃"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-12",
+          "answer": "All we are",
+          "options": [
+            "All we need",
+            "All we have",
+            "All we are"
+          ],
+          "prompt": "{{blank}} is dust in the wind",
+          "promptZh": "我們終究也不過是風中的塵埃"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-12",
+          "answer": "dust in the wind",
+          "options": [
+            "stars in the night",
+            "dust in the wind",
+            "waves on the shore"
+          ],
+          "prompt": "All we are is {{blank}}",
+          "promptZh": "我們終究也不過是風中的塵埃"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-13",
+          "answer": "Now",
+          "options": [
+            "Please",
+            "Still",
+            "Now"
+          ],
+          "prompt": "{{blank}} don't hang on",
+          "promptZh": "如今，別再苦苦執著"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-13",
+          "answer": "don't hang on",
+          "options": [
+            "don't give up",
+            "don't look back",
+            "don't hang on"
+          ],
+          "prompt": "Now {{blank}}",
+          "promptZh": "如今，別再苦苦執著"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-14",
+          "answer": "Nothing lasts forever",
+          "options": [
+            "Everything lasts longer",
+            "Nothing lasts forever",
+            "Nothing comes together"
+          ],
+          "prompt": "{{blank}} but the earth and sky",
+          "promptZh": "除了大地與蒼穹，世間沒有什麼能夠永恆"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-14",
+          "answer": "the earth and sky",
+          "options": [
+            "the earth and sky",
+            "the sea and sand",
+            "the moon and stars"
+          ],
+          "prompt": "Nothing lasts forever but {{blank}}",
+          "promptZh": "除了大地與蒼穹，世間沒有什麼能夠永恆"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-15",
+          "answer": "It slips away",
+          "options": [
+            "It fades to grey",
+            "It stays the same",
+            "It slips away"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "一切都在悄然流逝"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-16",
+          "answer": "all your money",
+          "options": [
+            "all your money",
+            "all your worries",
+            "all your wishes"
+          ],
+          "prompt": "And {{blank}} won't another minute buy ",
+          "promptZh": "縱使傾盡所有財富，也買不回生命中的另一分鐘"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-16",
+          "answer": "another minute buy",
+          "options": [
+            "a better life tonight",
+            "another minute buy",
+            "another chance to try"
+          ],
+          "prompt": "And all your money won't {{blank}} ",
+          "promptZh": "縱使傾盡所有財富，也買不回生命中的另一分鐘"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-17",
+          "answer": "Dust in the wind",
+          "options": [
+            "Leaves in the rain",
+            "Clouds in the sky",
+            "Dust in the wind"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "風中的塵埃"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-18",
+          "answer": "All we are",
+          "options": [
+            "All we own",
+            "All we see",
+            "All we are"
+          ],
+          "prompt": "{{blank}} is dust in the wind",
+          "promptZh": "我們終究也不過是風中的塵埃"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-18",
+          "answer": "dust in the wind",
+          "options": [
+            "dust in the wind",
+            "sand upon the shore",
+            "light beyond the hills"
+          ],
+          "prompt": "All we are is {{blank}}",
+          "promptZh": "我們終究也不過是風中的塵埃"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-19",
+          "answer": "All we are",
+          "options": [
+            "All we need",
+            "All we are",
+            "All we know"
+          ],
+          "prompt": "({{blank}} is dust in the wind)",
+          "promptZh": "（我們終究也不過是風中的塵埃）"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-19",
+          "answer": "dust in the wind",
+          "options": [
+            "drops beneath the sea",
+            "dust in the wind",
+            "stars across the sky"
+          ],
+          "prompt": "(All we are is {{blank}})",
+          "promptZh": "（我們終究也不過是風中的塵埃）"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-20",
+          "answer": "Dust in the wind",
+          "options": [
+            "Dust in the wind",
+            "Light across the sea",
+            "Rain upon the ground"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "風中的塵埃"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-21",
+          "answer": "Everything is",
+          "options": [
+            "Someone says",
+            "Everything is",
+            "Nothing was"
+          ],
+          "prompt": "({{blank}} dust in the wind)",
+          "promptZh": "（世間萬物，終究都是風中的塵埃）"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-21",
+          "answer": "dust in the wind",
+          "options": [
+            "lost in the night",
+            "dust in the wind",
+            "gone with the rain"
+          ],
+          "prompt": "(Everything is {{blank}})",
+          "promptZh": "（世間萬物，終究都是風中的塵埃）"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-22",
+          "answer": "Everything is dust",
+          "options": [
+            "Nothing is real",
+            "Everything is gold",
+            "Everything is dust"
+          ],
+          "prompt": "{{blank}} in the wind",
+          "promptZh": "世間萬物，終究都是風中的塵埃"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-22",
+          "answer": "in the wind",
+          "options": [
+            "in the wind",
+            "in the rain",
+            "on the ground"
+          ],
+          "prompt": "Everything is dust {{blank}}",
+          "promptZh": "世間萬物，終究都是風中的塵埃"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-23",
+          "answer": "In the wind",
+          "options": [
+            "In the wind",
+            "In the sea",
+            "In the night"
+          ],
+          "prompt": "({{blank}})",
+          "promptZh": "（隨風飄散）"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}, and {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:5}}, {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:8}} is {{q:9}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:10}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Just {{q:11}} in {{q:12}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:13}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:14}}, though {{q:15}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:16}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:17}} is {{q:18}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:19}} {{q:20}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:21}} but {{q:22}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:23}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And {{q:24}} won't {{q:25}} "
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:26}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:27}} is {{q:28}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "({{q:29}} is {{q:30}})"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:31}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "({{q:32}} {{q:33}})"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:34}} {{q:35}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "({{q:36}})"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 36
+    }
+  ],
+  "exercise_name": "Dust In The Wind · Listening & Vocabulary",
+  "description": "《Dust in the Wind》描寫生命短暫、時間無情流逝，以及世間萬物終將消逝的深刻感慨。歌中的主角閉上雙眼，回望曾經擁有的夢想與經歷，卻發現一切都如風中的塵埃，轉瞬即逝。他將人類的存在比喻為無垠大海中的一滴水，提醒我們無論擁有多少財富、成就與榮耀，最終都無法阻止時間流逝。歌曲亦勸勉人們放下對物質與永恆的執著，學會接受生命的無常。最終，《Dust in the Wind》傳達的是對生命、時間與存在意義的哲學反思：人生雖然短暫，所有事物也終將消逝，但正因時光無法挽回，我們更應珍惜當下，珍視生命中真正重要的人與事。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "For a moment",
+      "meaning": "一會兒、片刻。",
+      "usage": "想表示某件事情只持續很短的時間，可以用 for a moment。",
+      "prompt": "哪一句正確使用了「for a moment」？",
+      "options": [
+        "The shop sells three moments for five dollars.",
+        "I waited for a moment, and then the door opened.",
+        "Please put the moment in the fridge before it gets hot.",
+        "My uncle is a moment because he is very busy."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "moment 在這裡指片刻，不是商店能按個數販售的商品；若要說賣三個蘋果，可說 The shop sells three apples for five dollars.",
+        "我等了一小會兒，門就開了；for a moment 正確表示短暫的時間。",
+        "片刻不是會變熱、需要冷藏的食物；可說 Please put the milk in the fridge.",
+        "a moment 不是「忙碌的人」的稱呼；可說 My uncle is very busy."
+      ],
+      "sourceFile": "Dust_in_the_Wind_A2_Vocabulary_Quiz.md",
+      "sourceItem": 1,
+      "explanation": "我等了一小會兒，門就開了；for a moment 正確表示短暫的時間。",
+      "sourceOptionOrder": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Pass before my eyes",
+      "meaning": "從我眼前掠過；（回憶、畫面）在腦中一一浮現。",
+      "usage": "描述景象在眼前經過，或許多回憶在腦海中快速出現時使用。這個片語比一般 A2 表達更富畫面感。",
+      "prompt": "哪一句正確使用了「pass before my eyes」？",
+      "options": [
+        "The doctor passed my eyes because I was late.",
+        "I pass before my eyes when I want to wear glasses.",
+        "The train passed before my eyes an exam and got a gold medal.",
+        "Old memories pass before my eyes when I look at these photos."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "這個片語不是醫生替眼睛做檢查的說法；可說 The doctor checked my eyes.",
+        "pass before my eyes 不能表示戴眼鏡；可說 I put on my glasses when I want to see better.",
+        "句子把「從眼前經過」和「通過考試」兩種 pass 的意思混在一起；可說 The train passed in front of me.",
+        "看著照片時，往事一幕幕浮現，符合片語的比喻用法。"
+      ],
+      "sourceFile": "Dust_in_the_Wind_A2_Vocabulary_Quiz.md",
+      "sourceItem": 2,
+      "explanation": "看著照片時，往事一幕幕浮現，符合片語的比喻用法。",
+      "sourceOptionOrder": [
+        "C",
+        "B",
+        "A",
+        "D"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Dust",
+      "meaning": "灰塵、塵埃。",
+      "usage": "描述桌上、地上或空氣中的細小灰塵時使用；在歌曲中也可象徵事物的短暫。",
+      "prompt": "哪一句正確使用了「dust」？",
+      "options": [
+        "I sent some dust an email, but it did not reply.",
+        "The museum says its dust is the new manager.",
+        "The weather report says dust will be president tomorrow.",
+        "There is dust on this old shelf. Let's clean it."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "灰塵沒有電子郵件帳號，也不能回信；可說 I sent my friend an email, but she did not reply.",
+        "灰塵不是能擔任經理的人；可說 The museum has a new manager.",
+        "天氣預報可能談空氣中的灰塵，但灰塵不能當總統；可說 The weather report says it will be windy tomorrow.",
+        "舊架子上有灰塵，應該清理，dust 的意思正確。"
+      ],
+      "sourceFile": "Dust_in_the_Wind_A2_Vocabulary_Quiz.md",
+      "sourceItem": 3,
+      "explanation": "舊架子上有灰塵，應該清理，dust 的意思正確。",
+      "sourceOptionOrder": [
+        "C",
+        "B",
+        "A",
+        "D"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "A drop of water",
+      "meaning": "一滴水。",
+      "usage": "指非常少量的水，也可以用來比喻某件事在龐大事物中顯得很小。",
+      "prompt": "哪一句正確使用了「a drop of water」？",
+      "options": [
+        "One drop of water fell from the tap.",
+        "The hotel gave me a drop of water as my room key.",
+        "My cousin studied a drop of water for six years and became a table.",
+        "A drop of water called the fire department because it was lonely."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "水龍頭滴下一滴水，是 a drop of water 的正確用法。",
+        "水滴不能充當房間鑰匙；可說 The hotel gave me a key to my room.",
+        "學習多年也不會變成桌子；a drop of water 在這裡完全不合語意。可說 My cousin studied science for six years.",
+        "水滴不能因為寂寞就打電話報警或求助；可說 The child called the fire department when he saw a fire."
+      ],
+      "sourceFile": "Dust_in_the_Wind_A2_Vocabulary_Quiz.md",
+      "sourceItem": 4,
+      "explanation": "水龍頭滴下一滴水，是 a drop of water 的正確用法。",
+      "sourceOptionOrder": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Endless",
+      "meaning": "無盡的、似乎沒有盡頭的。",
+      "usage": "形容道路、海洋、等待或事情很長，彷彿沒有終點時使用。",
+      "prompt": "哪一句正確使用了「endless」？",
+      "options": [
+        "The meeting felt endless. We sat there for hours.",
+        "I endless my jacket before leaving home.",
+        "My new endless is sleeping under the sofa.",
+        "The waiter gave us an endless plate, so we could not find its end."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "會議開了好幾個小時，感覺沒完沒了，使用自然。",
+        "endless 不是動詞，不能表示穿外套；可說 I put on my jacket before leaving home.",
+        "endless 是形容詞，不是會躺在沙發下的東西；可說 My cat is sleeping under the sofa.",
+        "這句硬把 endless 當作盤子沒有邊緣的特殊規格，並非一般描述用餐器具的自然說法；可說 The waiter gave us a large plate."
+      ],
+      "sourceFile": "Dust_in_the_Wind_A2_Vocabulary_Quiz.md",
+      "sourceItem": 5,
+      "explanation": "會議開了好幾個小時，感覺沒完沒了，使用自然。",
+      "sourceOptionOrder": [
+        "D",
+        "B",
+        "A",
+        "C"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Crumble",
+      "meaning": "碎裂、崩碎、碎成小塊。",
+      "usage": "描述餅乾、老牆或其他東西碎裂；也能比喻計畫或希望瓦解。這個字略高於一般 A2 字彙。",
+      "prompt": "哪一句正確使用了「crumble」？",
+      "options": [
+        "The library crumbled my name and gave it to another reader.",
+        "This old cookie may crumble when you pick it up.",
+        "I crumble at seven o'clock because the alarm is loud.",
+        "The captain crumbled the sea to find his ship."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "圖書館不會把名字「碎裂」後交給別人；可說 The library gave my card to another reader by mistake.",
+        "舊餅乾可能一拿就碎，符合 crumble 的意思。",
+        "不能用 crumble 表示起床；可說 I wake up at seven o'clock because the alarm is loud.",
+        "crumble 表示碎裂，不是搜尋大海；可說 The captain searched the sea for his ship."
+      ],
+      "sourceFile": "Dust_in_the_Wind_A2_Vocabulary_Quiz.md",
+      "sourceItem": 6,
+      "explanation": "舊餅乾可能一拿就碎，符合 crumble 的意思。",
+      "sourceOptionOrder": [
+        "D",
+        "B",
+        "C",
+        "A"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Refuse to",
+      "meaning": "拒絕做某事、不願意做某事。",
+      "usage": "明確表示不肯做某個動作時，使用 refuse to + 原形動詞。",
+      "prompt": "哪一句正確使用了「refuse to」？",
+      "options": [
+        "She refused to sign the paper because she did not agree.",
+        "The clock refused to be Tuesday, so the office stayed on Monday.",
+        "The elevator refused to the fifth floor a new job.",
+        "I refuse to a sandwich because it is raining."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "因為不同意而拒絕簽名，結構與意思都正確。",
+        "時鐘不能自行決定今天是星期幾；這是把 refuse 當成能改變日曆的權力。可說 The clock stopped, so I checked the time on my phone.",
+        "電梯不能把樓層當作新工作；可說 The elevator refused to move.（例如故障時的擬人說法）",
+        "refuse to 後面需要動詞原形；若要說拒絕吃東西，可說 I refuse to eat the sandwich."
+      ],
+      "sourceFile": "Dust_in_the_Wind_A2_Vocabulary_Quiz.md",
+      "sourceItem": 7,
+      "explanation": "因為不同意而拒絕簽名，結構與意思都正確。",
+      "sourceOptionOrder": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Hang on",
+      "meaning": "抓緊；堅持不放手；（口語）等一下。",
+      "usage": "請人稍等，或描述抓住、緊抓某物時使用；歌曲的語境偏向「不要再執著」。",
+      "prompt": "哪一句正確使用了「hang on」？",
+      "options": [
+        "Our town hangs on a cloud, but only on weekends.",
+        "Please hang on the soup until it learns to swim.",
+        "Hang on a minute. I need to find my keys.",
+        "The bank said my money must hang on the wall for three days."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "城鎮不會只在週末掛在雲上；可說 Our town is in the mountains.",
+        "湯不是能學游泳的東西，hang on 在此也沒有合理的動作對象；可說 Please wait until the soup is cool.",
+        "Hang on a minute 是請對方等一下的常見口語說法。",
+        "hang on 不能表示銀行暫時保管金錢，更不需要把錢掛在牆上；可說 The bank will keep my money for three days."
+      ],
+      "sourceFile": "Dust_in_the_Wind_A2_Vocabulary_Quiz.md",
+      "sourceItem": 8,
+      "explanation": "Hang on a minute 是請對方等一下的常見口語說法。",
+      "sourceOptionOrder": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Last forever",
+      "meaning": "永遠持續、永不結束。",
+      "usage": "想說某件事永遠存在，或用否定句表達「不會永遠持續」時使用。",
+      "prompt": "哪一句正確使用了「last forever」？",
+      "options": [
+        "The shop sells forever in small blue boxes.",
+        "The final exam lasted forever because the principal lost the calendar.",
+        "This ice cream will not last forever in the sun.",
+        "I last forever my bicycle when it rains."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "forever 是時間概念，不是商店能裝盒販售的貨品；可說 The shop sells small blue boxes.",
+        "就算校長弄丟日曆，考試也不會因此真的永遠持續；若要表示感覺很久，可說 The final exam felt very long.",
+        "冰淇淋在陽光下不會永遠保持原狀，will not last forever 使用自然。",
+        "last forever 不是修理或騎腳踏車的動作；可說 I ride my bicycle when it is sunny."
+      ],
+      "sourceFile": "Dust_in_the_Wind_A2_Vocabulary_Quiz.md",
+      "sourceItem": 9,
+      "explanation": "冰淇淋在陽光下不會永遠保持原狀，will not last forever 使用自然。",
+      "sourceOptionOrder": [
+        "B",
+        "D",
+        "A",
+        "C"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Slip away",
+      "meaning": "悄悄溜走、逐漸消逝。",
+      "usage": "描述人悄悄離開，或時間、機會在沒有注意到時流逝。這個片語的比喻用法稍高於一般 A2。",
+      "prompt": "哪一句正確使用了「slip away」？",
+      "options": [
+        "I slipped away the door with a new blue paint.",
+        "Time can slip away when you are having fun.",
+        "The report said Friday slipped away from the week and moved to another country.",
+        "The city slipped away its new law because the paper was wet."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "slip away 不是幫門刷油漆；可說 I painted the door blue.",
+        "玩得開心時時間不知不覺流逝，符合片語的比喻用法。",
+        "星期五不會離開一週，搬到另一個國家；可說 Friday is the last school day of the week for many students.",
+        "slip away 不能直接接 its new law 作受詞，也不是撤回法律的說法；可說 The city changed its new law."
+      ],
+      "sourceFile": "Dust_in_the_Wind_A2_Vocabulary_Quiz.md",
+      "sourceItem": 10,
+      "context": "教學提醒：：先讓學生說明為什麼錯誤選項不合用法，再展開答案。錯誤句子的笑點有時來自字義混淆，有時來自把時間、日期或抽象概念當成可以買賣、搬家、任職的東西；解說應保持簡潔、平實，不必刻意解釋笑話。歌曲中 dust in the wind、endless sea 等意象具有哲學意味，例句則刻意用較簡單的生活情境幫學生理解字詞。",
+      "explanation": "玩得開心時時間不知不覺流逝，符合片語的比喻用法。",
+      "sourceOptionOrder": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ]
+    }
+  ],
+  "tags": [
+    "kansas",
+    "dust in the wind"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/dust-in-the-wind/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/dust-in-the-wind/user-cover-20261101.png",
+  "singer": "Kansas",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 206.2666875,
+    "audioSha256": "12c45f211bcde58ab9f86555d85bb7dc05ed8976a69f5386d8774fea43d54220",
+    "timedLines": 20,
+    "untimedLines": 3,
+    "reviewStatus": "Conservative automatic alignment; not manually certified. Unmatched lines remain bilingual without guessed timestamps."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "\"Dust In The Wind\".pdf",
+      "sha256": "0f8755a3a1d2d05020cde8c9b9c2732d8d46e81745b77b9bdf85def1a00dd704"
+    },
+    "mp3": {
+      "filename": "Dust in the Wind [9fNrJMkTWEE].mp3",
+      "sha256": "12c45f211bcde58ab9f86555d85bb7dc05ed8976a69f5386d8774fea43d54220"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-c44e4f49-3402-4cf7-876d-7eddfd051f4b.png",
+    "sha256": "59ff8625f2280511f488b9da7dc9dd70001ca124e1c6ae8a2807318695a420de",
+    "transformations": "none",
+    "selectedOn": "2026-11-01"
+  }
+}

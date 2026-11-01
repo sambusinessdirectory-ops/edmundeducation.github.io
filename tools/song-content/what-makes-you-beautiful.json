@@ -4051,5 +4051,1593 @@
     "sha256": "78c34f55a342b5fc8e063a4324acf875a56ea4b2a9d1b4bd510bc90efabf2c9f",
     "transformations": "none",
     "selectedOn": "2026-10-30"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "4e60d45c487f166ba473e4ab4ad332af9530114d7610b6fe6ac536365040e5ed"
+    },
+    {
+      "section": "advanced",
+      "filename": "What_Makes_You_Beautiful_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "3bd10ed4c396ca5b52aef77120bce424b232c9a6af05e014554ca2c919595dcb"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "be + 形容詞",
+          "meaning": "用 be 描述主詞的狀態。",
+          "usage": "描述目前的感受或特質；be 隨主詞改變。",
+          "prompt": "演講前，哪句能正確描述 Ava 的緊張？",
+          "options": [
+            "Ava is nervous before her speech.",
+            "Ava is nervously before her speech.",
+            "Ava nervous before her speech.",
+            "Ava are nervous before her speech."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "is + nervous 形成正確主詞與狀態。",
+            "nervously 是副詞，這裡需形容詞 nervous。",
+            "缺少 be 動詞 is。",
+            "單數 Ava 應配 is。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "You're insecure",
+          "pattern": [
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "adjective",
+              "fixed": true
+            }
+          ],
+          "example": "insecure → confident / ready",
+          "explanation": "is + nervous 形成正確主詞與狀態。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "省略主詞的口語句",
+          "meaning": "歌詞省略 I，表示「不知道為了甚麼」。",
+          "usage": "聊天、歌曲常省略清楚的主詞；正式書面句要補回。",
+          "prompt": "朋友問你活動為何取消，哪一句最適合正式寫作？",
+          "options": [
+            "I don't know why did they cancel the event.",
+            "I don't know why the event was canceled.",
+            "Don't knows why the event was canceled.",
+            "I don't know why was the event canceled."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "間接問句不再用 did 倒裝。",
+            "完整主詞及間接問句語序都正確。",
+            "don’t 後接 know，不能 knows。",
+            "間接問句應用陳述語序。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "Don't know what for",
+          "pattern": [
+            {
+              "text": "(I) don't know",
+              "fixed": true
+            },
+            {
+              "text": "question word",
+              "fixed": true
+            }
+          ],
+          "example": "what for → why / where",
+          "explanation": "完整主詞及間接問句語序都正確。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "現在進行式：正在引人注意",
+          "meaning": "表達當下正在發生的動作；turn heads 在此是「吸引目光」。",
+          "usage": "描述目前台上的動作或正在引起的反應。",
+          "prompt": "舞台上大家正看向舞者，哪句正確？",
+          "options": [
+            "The dancer are turning heads with her new moves.",
+            "The dancer turning heads with her new moves.",
+            "The dancer is turn heads with her new moves.",
+            "The dancer is turning heads with her new moves."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "單數 dancer 要用 is。",
+            "缺少 is。",
+            "進行式需 turning。",
+            "is + turning 構成現在進行式。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "You're turning heads",
+          "pattern": [
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": true
+            }
+          ],
+          "example": "turning heads → drawing attention",
+          "explanation": "is + turning 構成現在進行式。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "when + 現在式描述習慣",
+          "meaning": "when 引出每當某事發生的時間情況。",
+          "usage": "描述反覆發生的情境時，主句也可用一般現在式。",
+          "prompt": "每當導覽員來，大家就安靜，哪句正確？",
+          "options": [
+            "Everyone listens when arrives the guide.",
+            "Everyone listens when the guide arriving.",
+            "Everyone listens when the guide will arrive.",
+            "Everyone listens when the guide arrives."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "一般從屬子句用主詞在動詞之前。",
+            "缺少限定動詞 arrives。",
+            "習慣描述的 when 子句不用 will。",
+            "when + guide arrives 是完整時間子句。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "when you walk through the door",
+          "pattern": [
+            {
+              "text": "when",
+              "fixed": true
+            },
+            {
+              "text": "subject",
+              "fixed": true
+            },
+            {
+              "text": "present verb",
+              "fixed": true
+            }
+          ],
+          "example": "you walk → she arrives",
+          "explanation": "when + guide arrives 是完整時間子句。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "need + 名詞",
+          "meaning": "need 後可直接接受詞名詞，不必加 to。",
+          "usage": "說明不需要物品或資源；歌詞省略主詞 you。",
+          "prompt": "已經有入場證，不需新票，哪句正確？",
+          "options": [
+            "I don't need for another ticket.",
+            "I don't need another ticket.",
+            "I don't need to another ticket.",
+            "I don't needs another ticket."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "need 直接接名詞，不必加 for。",
+            "need + another ticket 正確。",
+            "to 後不能直接接名詞作動詞。",
+            "don’t 後需原形 need。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "Don't need make-up",
+          "pattern": [
+            {
+              "text": "(subject) don't need",
+              "fixed": true
+            },
+            {
+              "text": "noun",
+              "fixed": true
+            }
+          ],
+          "example": "make-up → a ticket / more time",
+          "explanation": "need + another ticket 正確。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "to-infinitive 表達目的",
+          "meaning": "to + 動詞原形可以回答「為了做甚麼」。",
+          "usage": "解釋某個行動的目的；歌詞這行依賴前一句而非完整句。",
+          "prompt": "Mia 去圖書館是為了找資料，哪句正確？",
+          "options": [
+            "Mia went to the library to find a map.",
+            "Mia went to the library for find a map.",
+            "Mia went to the library to finding a map.",
+            "Mia went to the library for to find a map."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "to find 說明去圖書館的目的。",
+            "for 後不能直接接原形 find。",
+            "to 後用原形 find。",
+            "這裡不需要 for to。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "To cover up",
+          "pattern": [
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "base verb",
+              "fixed": true
+            }
+          ],
+          "example": "cover up → save time / help others",
+          "explanation": "to find 說明去圖書館的目的。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "動名詞片語作主詞",
+          "meaning": "一整個 V-ing 片語可以當句子主詞。",
+          "usage": "談一個活動或生活方式「是……」時，搭配單數動詞 is。",
+          "prompt": "說明每天閱讀很有幫助，哪句正確？",
+          "options": [
+            "Reading every night is helpful.",
+            "To reading every night is helpful.",
+            "Reading every night are helpful.",
+            "Read every night is helpful."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "Reading every night 作主詞搭配 is。",
+            "不說 to reading，應用 Reading 或 To read。",
+            "整個動名詞片語視為單數，用 is。",
+            "原形 Read 不能直接這樣作活動名詞主詞。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "Being the way that you are is enough",
+          "pattern": [
+            {
+              "text": "V-ing phrase",
+              "fixed": true
+            },
+            {
+              "text": "singular verb",
+              "fixed": true
+            }
+          ],
+          "example": "Being yourself → Reading daily",
+          "explanation": "Reading every night 作主詞搭配 is。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "關係子句 that 修飾名詞",
+          "meaning": "that 可引出形容前面名詞的關係子句。",
+          "usage": "當你要補充是哪一個方法／物品時使用。",
+          "prompt": "指出你昨天買的包，哪句正確？",
+          "options": [
+            "This is the bag that I buying yesterday.",
+            "This is the bag that I bought yesterday.",
+            "This is the bag that bought I yesterday.",
+            "This is the bag that I bought it yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "描述昨天發生的事應使用 bought。",
+            "that I bought yesterday 修飾 bag。",
+            "關係子句需正常主詞動詞語序。",
+            "關係代名詞已作 bought 的受詞，毋須 it。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "the way that you are",
+          "pattern": [
+            {
+              "text": "noun",
+              "fixed": true
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "subject",
+              "fixed": true
+            },
+            {
+              "text": "verb",
+              "fixed": true
+            }
+          ],
+          "example": "the way that you are → the bag that I bought",
+          "explanation": "that I bought yesterday 修飾 bag。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "everyone else + 單數動詞",
+          "meaning": "everyone 是不定代名詞，常搭配第三人稱單數動詞。",
+          "usage": "談「其他所有人」的共同行動時。",
+          "prompt": "老師想說其他人都知道答案，哪句正確？",
+          "options": [
+            "Everyone elses knows the answer.",
+            "Everyone else know the answer.",
+            "Everyone else knowing the answer.",
+            "Everyone else knows the answer."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "else 不加 s。",
+            "everyone 搭配 knows。",
+            "句子缺少限定動詞。",
+            "everyone else + knows 正確。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "Everyone else in the room can see it",
+          "pattern": [
+            {
+              "text": "everyone else",
+              "fixed": true
+            },
+            {
+              "text": "singular verb / modal",
+              "fixed": true
+            }
+          ],
+          "example": "everyone else → everyone in the class",
+          "explanation": "everyone else + knows 正確。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "can + 原形動詞",
+          "meaning": "can 表能力或可能性，後面直接接原形動詞。",
+          "usage": "談能不能做某事，毋須 to。",
+          "prompt": "說明 Leo 會彈結他，哪句正確？",
+          "options": [
+            "Leo can playing the guitar.",
+            "Leo can play the guitar.",
+            "Leo can to play the guitar.",
+            "Leo can plays the guitar."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "can 後不接 playing。",
+            "can + play 是正確結構。",
+            "can 後不加 to。",
+            "情態動詞後不加第三人稱 s。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "can see it",
+          "pattern": [
+            {
+              "text": "can",
+              "fixed": true
+            },
+            {
+              "text": "base verb",
+              "fixed": true
+            }
+          ],
+          "example": "see → help / swim",
+          "explanation": "can + play 是正確結構。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "like + 比較對象",
+          "meaning": "like 表「像……一樣」，後面接名詞或代名詞。",
+          "usage": "比較兩個人的表現或方式。",
+          "prompt": "形容 Nina 唱歌像專業歌手，哪句正確？",
+          "options": [
+            "Nina sings like professional.",
+            "Nina sings like to be a singer.",
+            "Nina sings like a professional singer.",
+            "Nina sings likes a professional singer."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "這裡 professional 是形容詞，需補 a singer 或 a professional。",
+            "like 後不能直接接 to be 這種結構表比較。",
+            "like + a professional singer 很自然。",
+            "sings 後的比較介系詞應是 like。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "like nobody else",
+          "pattern": [
+            {
+              "text": "like",
+              "fixed": true
+            },
+            {
+              "text": "noun / pronoun",
+              "fixed": true
+            }
+          ],
+          "example": "nobody else → her brother / a pro",
+          "explanation": "like + a professional singer 很自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "the way + 完整子句",
+          "meaning": "the way 加子句作「某人做事的方式」。",
+          "usage": "以整個方式片語作主詞，後面再接句子的動詞。",
+          "prompt": "畫家用顏色的方法讓觀眾開心，哪句正確？",
+          "options": [
+            "The way does she use color makes people smile.",
+            "The way she uses color makes people smile.",
+            "The way she uses color make people smile.",
+            "The way she using color makes people smile."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "嵌入子句不使用疑問倒裝。",
+            "The way she uses color 作主詞搭配 makes。",
+            "the way 子句作單數主詞，搭配 makes。",
+            "缺少限定動詞 uses。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "The way that you flip your hair gets me overwhelmed",
+          "pattern": [
+            {
+              "text": "the way (that)",
+              "fixed": true
+            },
+            {
+              "text": "subject",
+              "fixed": true
+            },
+            {
+              "text": "verb",
+              "fixed": true
+            }
+          ],
+          "example": "you flip your hair → she paints",
+          "explanation": "The way she uses color 作主詞搭配 makes。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "get + 受詞 + 形容詞",
+          "meaning": "get 可以表示使某人進入某種情緒狀態。",
+          "usage": "描述事件引發人的驚喜、緊張或感動。",
+          "prompt": "新消息讓全隊很興奮，哪句正確？",
+          "options": [
+            "The good news got the team to excited.",
+            "The good news got the team excite.",
+            "The good news got excited the team.",
+            "The good news got the team excited."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "to 後不能直接接形容詞 excited。",
+            "受詞後要形容詞 excited。",
+            "正確語序為 get + 人 + excited。",
+            "got + the team + excited 完整。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "gets me overwhelmed",
+          "pattern": [
+            {
+              "text": "get",
+              "fixed": true
+            },
+            {
+              "text": "object",
+              "fixed": true
+            },
+            {
+              "text": "adjective / participle",
+              "fixed": true
+            }
+          ],
+          "example": "me overwhelmed → them excited",
+          "explanation": "got + the team + excited 完整。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "ain’t 的非標準否定",
+          "meaning": "歌詞 ain’t 是非正式否定形式；此處標準寫法為 isn’t。",
+          "usage": "辨認歌曲口語，不應當成正式寫作的標準形式。",
+          "prompt": "正式電郵表達「這不難理解」，哪句正確？",
+          "options": [
+            "It isn't hardly to understand.",
+            "It isn't hard understand.",
+            "It isn't hard to understand.",
+            "It aren't hard to understand."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "hardly 是副詞，不能取代 hard。",
+            "hard 後接 to understand。",
+            "isn’t + hard + to understand 正確。",
+            "主詞 it 搭配 isn’t 而非 aren’t。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "it ain't hard to tell",
+          "pattern": [
+            {
+              "text": "it isn't",
+              "fixed": true
+            },
+            {
+              "text": "adjective",
+              "fixed": true
+            },
+            {
+              "text": "to verb",
+              "fixed": true
+            }
+          ],
+          "example": "hard to tell → easy to learn",
+          "explanation": "isn’t + hard + to understand 正確。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "know 後接省略 that 的子句",
+          "meaning": "know 後可直接接完整陳述子句，that 可省略。",
+          "usage": "談知道或不知道一件事。",
+          "prompt": "說自己知道表演明天開始，哪句正確？",
+          "options": [
+            "I know the show start tomorrow.",
+            "I know the show to start tomorrow.",
+            "I know does the show start tomorrow.",
+            "I know the show starts tomorrow."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "單數 show 一般現在式要 starts。",
+            "know 後此處需要子句，不是 to start。",
+            "間接內容不倒裝。",
+            "the show starts tomorrow 是完整子句。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "You don't know you're beautiful",
+          "pattern": [
+            {
+              "text": "know",
+              "fixed": true
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "clause",
+              "fixed": true
+            }
+          ],
+          "example": "you are beautiful → the answer is right",
+          "explanation": "the show starts tomorrow 是完整子句。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "If only + 過去式表現在願望",
+          "meaning": "用過去形式表達與現在不同的願望。",
+          "usage": "希望現在情況改變，不代表事情真在過去。",
+          "prompt": "希望自己現在有更多休息時間，哪句正確？",
+          "options": [
+            "If only I had more free time!",
+            "If only I have more free time yesterday!",
+            "If only I will had more free time!",
+            "If only I having more free time!"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "If only I had 表達現在的願望。",
+            "混用現在 have 與 yesterday；現況願望用 had。",
+            "will had 結構錯誤。",
+            "缺少限定動詞。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "If only you saw what I can see",
+          "pattern": [
+            {
+              "text": "if only",
+              "fixed": true
+            },
+            {
+              "text": "subject",
+              "fixed": true
+            },
+            {
+              "text": "past verb",
+              "fixed": true
+            }
+          ],
+          "example": "you saw → I had / she knew",
+          "explanation": "If only I had 表達現在的願望。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "what + 子句作受詞",
+          "meaning": "what 引出「……的東西／事情」，可作動詞受詞。",
+          "usage": "不知道對方需要甚麼時可以用。",
+          "prompt": "售票員想知道你需要甚麼，哪句正確？",
+          "options": [
+            "Please tell me what you needs.",
+            "Please tell me what do you need.",
+            "Please tell me what you need.",
+            "Please tell me what need you."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "主詞 you 搭配 need。",
+            "間接問句用陳述語序。",
+            "what you need 作 tell 的內容。",
+            "嵌入子句需主詞 you 在動詞前。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "what I can see",
+          "pattern": [
+            {
+              "text": "what",
+              "fixed": true
+            },
+            {
+              "text": "subject",
+              "fixed": true
+            },
+            {
+              "text": "can",
+              "fixed": true
+            },
+            {
+              "text": "verb",
+              "fixed": true
+            }
+          ],
+          "example": "what I can see → what you need",
+          "explanation": "what you need 作 tell 的內容。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "would + 原形動詞（虛擬結果）",
+          "meaning": "此處 You’d = You would，承接 if only 的假設願望。",
+          "usage": "表示若想像的條件成立，就可能得到某個結果。",
+          "prompt": "假如有地圖，你就會找到路，哪句正確？",
+          "options": [
+            "With a map, you would found the way.",
+            "With a map, you would find the way.",
+            "With a map, you would finding the way.",
+            "With a map, you would to find the way."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "would 後不直接用過去式 found。",
+            "would + find 正確。",
+            "would 後用原形 find。",
+            "would 後不加 to。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "You'd understand why I want you so desperately",
+          "pattern": [
+            {
+              "text": "would",
+              "fixed": true
+            },
+            {
+              "text": "base verb",
+              "fixed": true
+            }
+          ],
+          "example": "understand → feel / know",
+          "explanation": "would + find 正確。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "why 引出的間接問句",
+          "meaning": "why 子句可作 understand / know 等動詞的受詞。",
+          "usage": "說明自己理解某個原因。",
+          "prompt": "朋友解釋為甚麼早走，你終於明白，哪句正確？",
+          "options": [
+            "I understand why she left early.",
+            "I understand why did she leave early.",
+            "I understand why she did left early.",
+            "I understand why left she early."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "why she left early 是正確間接問句。",
+            "間接問句不使用 did 倒裝。",
+            "did 後要原形 leave，這裡也無須 did。",
+            "應使用 she left 的陳述語序。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "why I want you",
+          "pattern": [
+            {
+              "text": "why",
+              "fixed": true
+            },
+            {
+              "text": "subject",
+              "fixed": true
+            },
+            {
+              "text": "verb",
+              "fixed": true
+            }
+          ],
+          "example": "I want you → she left early",
+          "explanation": "why she left early 是正確間接問句。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "現在進行式與 right now",
+          "meaning": "right now 強調「此刻」正在進行的行動。",
+          "usage": "說明現在立刻正在發生的事。",
+          "prompt": "視像會議中說自己正在聽，哪句正確？",
+          "options": [
+            "Right now, I'm listen to you.",
+            "Right now, I listening to you.",
+            "Right now, I'm listening to you.",
+            "Right now, I am listened to you."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "am 後需 listening。",
+            "進行式缺少 am。",
+            "am listening 正確表達正在聽。",
+            "listened 是過去分詞，並非此處進行式。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "Right now I'm looking at you",
+          "pattern": [
+            {
+              "text": "right now",
+              "fixed": true
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": true
+            }
+          ],
+          "example": "looking at you → waiting outside",
+          "explanation": "am listening 正確表達正在聽。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "That’s what + 子句",
+          "meaning": "what 可表示「……的事物／原因」，整個子句跟在 that is 後。",
+          "usage": "指出真正重要或有價值的因素。",
+          "prompt": "指出團隊互相合作是成功原因，哪句正確？",
+          "options": [
+            "That's what makes our team strong.",
+            "That's what makes our team strongly.",
+            "That's what make our team strong.",
+            "That's what making our team strong."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "what makes our team strong 是完整子句。",
+            "make + 受詞 + 形容詞 strong，不用副詞 strongly。",
+            "what 在這裡作單數主詞，搭配 makes。",
+            "缺少完整限定動詞 makes。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "That's what makes you beautiful",
+          "pattern": [
+            {
+              "text": "that is what",
+              "fixed": true
+            },
+            {
+              "text": "subject",
+              "fixed": true
+            },
+            {
+              "text": "verb",
+              "fixed": true
+            }
+          ],
+          "example": "makes you beautiful → makes it special",
+          "explanation": "what makes our team strong 是完整子句。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "come on 的祈使呼語",
+          "meaning": "come on 可作鼓勵／催促的口語祈使表達；c- 是歌唱停頓。",
+          "usage": "鼓勵朋友一起開始行動時。",
+          "prompt": "朋友猶豫不敢參加遊戲，哪句最自然？",
+          "options": [
+            "Comes on, let's give it a try!",
+            "Come on, let's give it a try!",
+            "Coming on, let's give it a try!",
+            "Come on to let's give it a try!"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "祈使語用原形 Come。",
+            "Come on 是自然的鼓勵語。",
+            "這裡直接鼓勵用 Come on。",
+            "come on 後不加 to 連接 let’s。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "So c-come on",
+          "pattern": [
+            {
+              "text": "come on",
+              "fixed": true
+            }
+          ],
+          "example": "come on → come here",
+          "explanation": "Come on 是自然的鼓勵語。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "get + 受詞 + 形容詞：判斷結果",
+          "meaning": "get it wrong 表「弄錯」；與造成情緒的 get + 受詞 + 形容詞不同語義。",
+          "usage": "談答案、日期或理解出現錯誤時。",
+          "prompt": "告訴朋友他記錯活動日期，哪句正確？",
+          "options": [
+            "You got wrong the date; the trip is on Friday.",
+            "You got the date wrongly; the trip is on Friday.",
+            "You got the date to wrong; the trip is on Friday.",
+            "You got the date wrong; the trip is on Friday."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "get + 受詞 + 形容詞，不能把 wrong 放在受詞前。",
+            "用 wrong 作受詞補語，而非 wrongly。",
+            "to wrong 不是正確補語。",
+            "got + the date + wrong 表判斷錯誤。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "You got it wrong",
+          "pattern": [
+            {
+              "text": "get",
+              "fixed": true
+            },
+            {
+              "text": "object",
+              "fixed": true
+            },
+            {
+              "text": "adjective",
+              "fixed": true
+            }
+          ],
+          "example": "it wrong → the answer right",
+          "explanation": "got + the date + wrong 表判斷錯誤。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "to prove + 子句（省略 that）",
+          "meaning": "prove 後可以接完整 that 子句，that 可以省略。",
+          "usage": "用實驗、證據說明某件事是真的。",
+          "prompt": "學生想證明模型可用，哪句正確？",
+          "options": [
+            "We did a test to prove does the model work.",
+            "We did a test to prove that works the model.",
+            "We did a test to prove the model works.",
+            "We did a test to prove the model working."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "prove 後的子句不用倒裝。",
+            "正常語序是 the model works。",
+            "prove 後接 the model works。",
+            "需用完整子句 the model works。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "To prove I'm right",
+          "pattern": [
+            {
+              "text": "to prove",
+              "fixed": true
+            },
+            {
+              "text": "(that) clause",
+              "fixed": true
+            }
+          ],
+          "example": "I am right → the idea works",
+          "explanation": "prove 後接 the model works。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "put + 受詞 + in + 地點",
+          "meaning": "put 後需要放入的東西與位置，兩者要完整。",
+          "usage": "說明把物品放在哪裡，也可比喻把心意寫進作品。",
+          "prompt": "收拾畫具時哪句正確？",
+          "options": [
+            "She put the brushes to a box.",
+            "She put in a box the brushes them.",
+            "She put the brushes in a box.",
+            "She put the brushes in."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "放入盒子應用 in。",
+            "重複受詞 them，且語序混亂。",
+            "put + brushes + in a box 正確。",
+            "缺少說明放在哪裡，情境未完整。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "I put it in a song",
+          "pattern": [
+            {
+              "text": "put",
+              "fixed": true
+            },
+            {
+              "text": "object",
+              "fixed": true
+            },
+            {
+              "text": "in",
+              "fixed": true
+            },
+            {
+              "text": "place",
+              "fixed": true
+            }
+          ],
+          "example": "it in a song → the note in a box",
+          "explanation": "put + brushes + in a box 正確。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "be being + 形容詞：當下表現",
+          "meaning": "be being + 形容詞著重「目前表現得……」，不必代表永久個性。",
+          "usage": "描述當下行為與平常可能不同時。",
+          "prompt": "平常外向的 Ben 今天刻意安靜，哪句正確？",
+          "options": [
+            "Ben is being quiet today.",
+            "Ben is be quiet today.",
+            "Ben is being quietly today.",
+            "Ben being quiet today."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "is being quiet 表示當下的表現。",
+            "is 後需 being，不能直接 be。",
+            "being 後是形容詞 quiet，不是副詞 quietly。",
+            "缺少 is。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "You're being shy",
+          "pattern": [
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "being",
+              "fixed": true
+            },
+            {
+              "text": "adjective",
+              "fixed": true
+            }
+          ],
+          "example": "being shy → being quiet / being kind",
+          "explanation": "is being quiet 表示當下的表現。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "turn away：不及物片語",
+          "meaning": "turn away 可指轉身／轉頭避開；後面能接 when 時間子句。",
+          "usage": "描述人在某個情況下把視線移開。",
+          "prompt": "Kai 怕強光，每當燈亮就轉頭，哪句正確？",
+          "options": [
+            "Kai turns away when the light coming on.",
+            "Kai turn away when the light comes on.",
+            "Kai turns away when does the light come on.",
+            "Kai turns away when the light comes on."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "需要限定動詞 comes。",
+            "單數 Kai 的一般現在式用 turns。",
+            "when 子句應用正常陳述語序。",
+            "turns away 與 when 子句都正確。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "turn away when I look into your eye-eye-eyes",
+          "pattern": [
+            {
+              "text": "turn away",
+              "fixed": true
+            },
+            {
+              "text": "when clause",
+              "fixed": true
+            }
+          ],
+          "example": "when I look → when she speaks",
+          "explanation": "turns away 與 when 子句都正確。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "look into + 名詞：望進",
+          "meaning": "此處 look into 是「望進眼睛」，不是自動表示「調查」。",
+          "usage": "描述看進某處；不可把兩種語義混為一談。",
+          "prompt": "孩子站在窗邊往房間裡看，哪句正確？",
+          "options": [
+            "The child look into the room yesterday.",
+            "The child looked the room into through the window.",
+            "The child looked into the room through the window.",
+            "The child looked into to the room through the window."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "yesterday 需要過去式 looked。",
+            "look into 作搭配不能任意拆開。",
+            "looked into the room 自然描述視線方向。",
+            "into 本身已含方向，不再加 to。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "look into your eye-eye-eyes",
+          "pattern": [
+            {
+              "text": "look into",
+              "fixed": true
+            },
+            {
+              "text": "noun",
+              "fixed": true
+            }
+          ],
+          "example": "your eyes → the water / the room",
+          "explanation": "looked into the room 自然描述視線方向。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "what for",
+          "meaning": "為了什麼；為何（偏口語）",
+          "usage": "詢問某件事的目的或原因；常接在簡短問句末尾。",
+          "prompt": "哪一句正確使用「what for」？",
+          "options": [
+            "He what for his lunch at twelve today.",
+            "I asked what the box was for before I opened it.",
+            "She went what for the library after school.",
+            "The ticket was what for because it was red."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：what for 不能直接當動詞使用；可說 ate his lunch。",
+            "正確：詢問盒子的用途，what ... for 表示「用來做什麼」。",
+            "錯誤：不能用 what for 取代去圖書館的動詞或介系詞。",
+            "錯誤：what for 不是形容詞，票券顏色也無法解釋用途。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：詢問盒子的用途，what ... for 表示「用來做什麼」。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "walk through",
+          "meaning": "走過、穿過某個空間",
+          "usage": "表示從入口穿越房間、門或通道；也可延伸指逐步講解，但本題測試移動。",
+          "prompt": "哪一句正確使用「walk through」？",
+          "options": [
+            "The children walked through the gate into the garden.",
+            "We walked through our lunch after the lesson.",
+            "She walked through happy because she got a gift.",
+            "I walked through to my new bag before school."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：從大門穿過進入花園，符合 walk through 的移動意思。",
+            "錯誤：午餐不是這裡可穿越的通道；若指吃午餐用 ate。",
+            "錯誤：happy 是形容詞，不能當作能穿越的空間。",
+            "錯誤：walk through 後需要合適的地點／對象；不能這樣接 to my bag。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：從大門穿過進入花園，符合 walk through 的移動意思。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "make-up",
+          "meaning": "化妝品（名詞；亦可寫 makeup）",
+          "usage": "談化妝品或上妝時使用；put on make-up 表示化妝。",
+          "prompt": "哪一句正確使用「make-up」？",
+          "options": [
+            "They made a make-up to close the window.",
+            "He put make-up over his homework to finish it.",
+            "The actor wore make-up for the school play.",
+            "She used make-up to take the bus home."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：make-up 在此是不可數的化妝品，不能說 made a make-up。",
+            "錯誤：化妝品不是完成作業的方法。",
+            "正確：演員為學校演出化妝，是自然的名詞用法。",
+            "錯誤：搭公車不需要用化妝品作為工具。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：演員為學校演出化妝，是自然的名詞用法。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "enough",
+          "meaning": "足夠的；足夠地",
+          "usage": "可放在名詞前（enough time），或放在形容詞後（warm enough）。",
+          "prompt": "哪一句正確使用「enough」？",
+          "options": [
+            "This bag is enough big for my books.",
+            "The team enough practiced before the game.",
+            "We have enough food for everyone at the party.",
+            "We have enough to chairs for the guests."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：修飾形容詞時放在後面，應說 big enough。",
+            "錯誤：enough 不能這樣放在動詞 practiced 前；可說 practiced enough。",
+            "正確：enough food 表示食物數量足夠所有人享用。",
+            "錯誤：enough 修飾複數名詞時不加 to；應說 enough chairs。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：enough food 表示食物數量足夠所有人享用。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "everyone else",
+          "meaning": "其他所有人",
+          "usage": "排除說話者或已指明的人後，指其餘每一個人；注意 everyone 搭配單數動詞。",
+          "prompt": "哪一句正確使用「everyone else」？",
+          "options": [
+            "Everyone else has a ticket, but I forgot mine.",
+            "Everyone else have finished the test already.",
+            "She everyone else to the station after class.",
+            "Everyone else are waiting inside the hall."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：除我以外的所有人都有票；everyone else 搭配 has。",
+            "錯誤：everyone else 視為單數，應搭配 has，不是 have。",
+            "錯誤：缺少主要動詞；everyone else 不是「帶人去」的動詞。",
+            "錯誤：everyone else 應搭配 is，不是 are。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：除我以外的所有人都有票；everyone else 搭配 has。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "nobody else",
+          "meaning": "沒有其他人；別人都不……",
+          "usage": "強調只有某人能做到或知道某事；nobody else 通常搭配單數動詞。",
+          "prompt": "哪一句正確使用「nobody else」？",
+          "options": [
+            "Nobody else knows the answer except our teacher.",
+            "I nobody else my friend after the class.",
+            "Nobody else have the same school key.",
+            "Nobody else are ready for the music show."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：除老師外沒人知道答案，符合排他含義與動詞 knows。",
+            "錯誤：nobody else 不是及物動詞，句子缺少主要動詞。",
+            "錯誤：nobody else 搭配 has，不是 have。",
+            "錯誤：nobody else 搭配單數 is，不是 are。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：除老師外沒人知道答案，符合排他含義與動詞 knows。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "flip your hair",
+          "meaning": "甩動／撥動頭髮",
+          "usage": "描述快速甩髮、把頭髮撥到一側；使用時需有明確的頭髮動作。",
+          "prompt": "哪一句正確使用「flip your hair」？",
+          "options": [
+            "Please flip your hair into this glass of water.",
+            "She flipped her hair to open the locked door.",
+            "He flipped his hair to finish the math test.",
+            "She flipped her hair back before the photo."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：把頭髮甩進水杯並非此處自然的整理頭髮動作。",
+            "錯誤：甩頭髮無法代替用鑰匙開門。",
+            "錯誤：甩頭髮不是完成數學考試的方法。",
+            "正確：拍照前把頭髮往後一甩，是自然的動作描寫。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：拍照前把頭髮往後一甩，是自然的動作描寫。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "got it wrong",
+          "meaning": "弄錯了；理解錯誤（get it wrong 的過去式）",
+          "usage": "表示答錯題目、聽錯資訊或誤解某事；it 指先前提到的內容。",
+          "prompt": "哪一句正確使用「got it wrong」？",
+          "options": [
+            "I got it wrong to the bus stop at six.",
+            "She got it wrong her shoes this morning.",
+            "They got it wrong because the wall was blue.",
+            "I guessed the date, but I got it wrong."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：got it wrong 不能用來表示前往公車站。",
+            "錯誤：不能用這個片語表示穿鞋或拿鞋。",
+            "錯誤：牆壁顏色不足以說明誤判了哪件事。",
+            "正確：猜錯日期，it 指猜測的日期。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：猜錯日期，it 指猜測的日期。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "put it in a song",
+          "meaning": "把某件心情或經驗寫進歌曲",
+          "usage": "當歌曲包含一段經歷、想法或感受時使用；也可換成 put it in a letter。",
+          "prompt": "哪一句正確使用「put it in a song」？",
+          "options": [
+            "I put it in a song to turn off the classroom light.",
+            "She missed her old home, so she put it in a song.",
+            "He put it in a song to make the train arrive.",
+            "We put it in a song to cut the birthday cake."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：關教室電燈不會使用 put it in a song。",
+            "正確：她把想家的感受寫進歌曲，it 指前述心情。",
+            "錯誤：寫歌無法讓列車抵達；若要知道時間可查時刻表。",
+            "錯誤：切蛋糕不是把想法寫進歌曲的目的。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：她把想家的感受寫進歌曲，it 指前述心情。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "being shy",
+          "meaning": "表現得害羞；當下顯得靦腆",
+          "usage": "be + being + 形容詞 可強調某人暫時表現出某種態度；shy 也可直接作形容詞。",
+          "prompt": "哪一句正確使用「being shy」？",
+          "options": [
+            "The chair is being shy because it is made of wood.",
+            "He is being shy the window before lunch.",
+            "She is being shy and will not look at the camera.",
+            "They are being shy to the library by bus."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：木製椅子不會有人的害羞表現。",
+            "錯誤：being shy 後不能直接接 window 當動作受詞。",
+            "正確：她暫時害羞得不敢看鏡頭，符合 being shy 的情境。",
+            "錯誤：being shy 不是搭車到圖書館的動詞片語。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：她暫時害羞得不敢看鏡頭，符合 being shy 的情境。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "look into",
+          "meaning": "凝視……裡面；朝……內部看",
+          "usage": "歌詞用於看進對方眼睛；另有「調查」的含義，但本題測試視線方向。",
+          "prompt": "哪一句正確使用「look into」？",
+          "options": [
+            "We looked into to the park on Sunday.",
+            "He looked into his friend’s eyes and smiled.",
+            "I looked into my lunch to eat it by six.",
+            "She looked into very happy at the show."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：look into 後不需再加 to，且此處想表達去公園。",
+            "正確：看著朋友的眼睛，符合 look into someone’s eyes。",
+            "錯誤：這裡想表達吃午餐，不需 look into。",
+            "錯誤：look into 後面不能直接接 very happy 作方向對象。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：看著朋友的眼睛，符合 look into someone’s eyes。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "can’t believe",
+          "meaning": "簡直不敢相信；難以置信",
+          "usage": "遇到驚喜或非常意外的消息時使用；後面可接完整子句。",
+          "prompt": "哪一句正確使用「can’t believe」？",
+          "options": [
+            "She can’t believe to the station on foot.",
+            "I can’t believe my homework with a pencil.",
+            "We can’t believe blue because it is Tuesday.",
+            "I can’t believe we won the game today!"
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：can’t believe 後面不能用 to the station 表達走路。",
+            "錯誤：這句想說用鉛筆寫作業，並非難以置信的內容。",
+            "錯誤：blue 是顏色詞，這樣接法不能表示不敢相信。",
+            "正確：贏得比賽令人驚喜，後接 we won the game 完整子句。"
+          ],
+          "sourceFile": "What_Makes_You_Beautiful_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "explanation": "正確：贏得比賽令人驚喜，後接 we won the game 完整子句。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        }
+      ]
+    }
   }
 }

@@ -3076,5 +3076,1194 @@
     "sha256": "12d7a649c0ac21019698ba3f78ca5143690ea49746b6ceaf075001543e77aa5a",
     "transformations": "none",
     "selectedOn": "2026-10-30"
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Yellow_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "eaa7cb100780002dd9afb147e5c8bbe8d38520425f36c9f500f8ab6b76192a14"
+    },
+    {
+      "section": "structure",
+      "filename": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "22b69a9691f9651402457dc046347c12effec5bc0c2503d155b910b35ff9c89e"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "stars",
+          "meaning": "星星；恆星",
+          "usage": "談夜空中的星體時使用；單數 star、複數 stars。",
+          "prompt": "哪一句最正確、自然地使用本題詞語？",
+          "options": [
+            "She put two stars of water in her cup.",
+            "My brother is stars tired after school.",
+            "The teacher stars us to finish the test.",
+            "We saw many stars in the sky last night."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：stars 不是水的計量單位。",
+            "錯誤：stars 不能直接放在 tired 前作程度副詞。",
+            "錯誤：stars 不能當作「要求」學生做事的動詞。",
+            "正確：stars 是天空中的星星，搭配 in the sky 很自然。"
+          ],
+          "sourceFile": "Yellow_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "context": "難度參考：：A2–B1",
+          "explanation": "正確：stars 是天空中的星星，搭配 in the sky 很自然。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "everything",
+          "meaning": "所有事情；一切",
+          "usage": "everything 是不定代名詞，當主詞時通常接單數動詞。",
+          "prompt": "哪一句最正確、自然地使用本題詞語？",
+          "options": [
+            "We need an everything for each new student.",
+            "Everything in this small box is mine.",
+            "She everything the window before lunch.",
+            "Everything are ready for our trip tomorrow."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：everything 不能當作一般可數名詞加 an。",
+            "正確：everything 作主詞，搭配單數動詞 is。",
+            "錯誤：everything 不是表示「打開」的動詞。",
+            "錯誤：everything 視為單數，應用 is ready。"
+          ],
+          "sourceFile": "Yellow_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "context": "難度參考：：B1",
+          "explanation": "正確：everything 作主詞，搭配單數動詞 is。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "be called",
+          "meaning": "被叫作；名為",
+          "usage": "介紹人名、作品或場所名稱時使用 be called + 名稱。",
+          "prompt": "哪一句最正確、自然地使用本題詞語？",
+          "options": [
+            "We called be this road River Street.",
+            "The café called is Green House near my home.",
+            "Our new dog is called Lucky.",
+            "My sister was called to Mia at school."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：called be 語序錯誤；可說 We call this road ...。",
+            "錯誤：被稱作的被動結構應為 is called。",
+            "正確：is called Lucky 表示小狗名叫 Lucky。",
+            "錯誤：直接接名字，不應說 called to Mia。"
+          ],
+          "sourceFile": "Yellow_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "context": "難度參考：：B1",
+          "explanation": "正確：is called Lucky 表示小狗名叫 Lucky。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "skin and bones",
+          "meaning": "皮包骨；非常消瘦",
+          "usage": "在日常慣用語中形容人極瘦；但本曲也可能單純指肌膚與骨骼，不一定是消瘦。",
+          "prompt": "哪一句最正確、自然地使用本題詞語？",
+          "options": [
+            "The building was skin and bones because it was new.",
+            "Our train was skin and bones at eight o’clock.",
+            "I bought skin and bones from the fruit shop.",
+            "After weeks without enough food, the stray cat was skin and bones."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：新建築不會因為新就叫 skin and bones。",
+            "錯誤：不能用它表示列車抵達的時間。",
+            "錯誤：這個片語不是水果商品。",
+            "正確：形容流浪貓營養不足、非常消瘦，符合慣用語。"
+          ],
+          "sourceFile": "Yellow_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "context": "難度參考：：B2",
+          "explanation": "正確：形容流浪貓營養不足、非常消瘦，符合慣用語。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "jump across",
+          "meaning": "跳過；跳到另一側",
+          "usage": "跳過水溝、空隙等阻隔；通常接表示障礙的名詞。",
+          "prompt": "哪一句最正確、自然地使用本題詞語？",
+          "options": [
+            "He jumped across the small stream to reach the path.",
+            "I jumped across to happy after the game.",
+            "She jumped across her homework in one hour.",
+            "They jumped across the soup with a spoon."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：跳過小溪抵達對岸，是 jump across 的自然用法。",
+            "錯誤：to happy 不能當跳躍的目的地。",
+            "錯誤：完成作業不能用 jumped across 來表達。",
+            "錯誤：喝湯或攪湯不叫 jump across。"
+          ],
+          "sourceFile": "Yellow_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "context": "難度參考：：B1",
+          "explanation": "正確：跳過小溪抵達對岸，是 jump across 的自然用法。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "bleed myself dry",
+          "meaning": "耗盡自己；付出到筋疲力盡",
+          "usage": "原歌詞以極端形象表達奉獻；課堂例句只教「耗盡金錢或精力」的比喻，並不鼓勵自傷。",
+          "prompt": "哪一句最正確、自然地使用本題詞語？",
+          "options": [
+            "My clock bleeds myself dry every Monday morning.",
+            "I will not bleed myself dry to buy expensive gifts.",
+            "She bleed myself dry and then eats her lunch.",
+            "The shop bled myself dry when it opened at nine."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：時鐘不會耗盡說話者的金錢或精力；搭配不自然。",
+            "正確：指不願為買昂貴禮物把自己的資源耗盡。",
+            "錯誤：主詞 she 應搭配 herself，且缺少一致的動詞形式。",
+            "錯誤：myself 的反身代名詞須與主詞一致，且語境不合理。"
+          ],
+          "sourceFile": "Yellow_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "context": "難度參考：：C1（文學比喻）",
+          "explanation": "正確：指不願為買昂貴禮物把自己的資源耗盡。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "what a thing to have done",
+          "meaning": "真是做了一件……的事！（回顧已完成行動）",
+          "usage": "what a + 名詞 + to have + 過去分詞，用來感嘆已經發生的事；視語境可能驚訝或後悔。",
+          "prompt": "哪一句最正確、自然地使用本題詞語？",
+          "options": [
+            "What a thing to has done before lunch!",
+            "What a thing to having done yesterday!",
+            "What a thing to have done! I still cannot believe we climbed that hill.",
+            "What a thing to have do for your friend!"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：to 後需接 have，不能接 has。",
+            "錯誤：應用 to have done，不是 to having done。",
+            "正確：回顧已經爬上山的行動並表達驚訝。",
+            "錯誤：完成不定詞需 have + done，不是 do。"
+          ],
+          "sourceFile": "Yellow_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "context": "難度參考：：B2–C1",
+          "explanation": "正確：回顧已經爬上山的行動並表達驚訝。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "so (intensifier)",
+          "meaning": "如此地；這麼地（加強程度）",
+          "usage": "so 放在形容詞、副詞或某些動詞之後強調程度；在歌詞 I love you so 中表示「深深地」。",
+          "prompt": "哪一句最正確、自然地使用本題詞語？",
+          "options": [
+            "Thank you for your help. I appreciate it so much.",
+            "The train so at eight every morning.",
+            "I put so three books in my school bag.",
+            "We so the museum on our class trip."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：so much 加強 appreciate 的程度，表示十分感激。",
+            "錯誤：so 不能代替 arrives 這類動詞。",
+            "錯誤：so 不能直接充當「放入」的動詞。",
+            "錯誤：so 不能代替 visited 等動詞。"
+          ],
+          "sourceFile": "Yellow_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "context": "難度參考：：B1–B2",
+          "explanation": "正確：so much 加強 appreciate 的程度，表示十分感激。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "祈使句：動詞原形開頭",
+          "meaning": "請對方觀看某個對象。",
+          "usage": "想請人看地圖、作品、方向時，用 Look at + 名詞。",
+          "prompt": "導覽員想請遊客觀看牆上的畫，哪一句正確？",
+          "options": [
+            "Look at the painting on the wall.",
+            "Look the painting on the wall.",
+            "Looking at the painting on the wall.",
+            "Look to at the painting on the wall."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；祈使句用 Look at 加觀看對象。",
+            "錯；look 後面少了 at。",
+            "錯；缺少祈使句的原形動詞開頭。",
+            "錯；at 前不需再加 to。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "「Look at the stars」",
+          "pattern": [
+            {
+              "text": "Look at",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": true
+            }
+          ],
+          "example": "the stars",
+          "explanation": "正確；祈使句用 Look at 加觀看對象。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "Look how + 子句：提醒注意方式",
+          "meaning": "叫人注意某事發生得如何。",
+          "usage": "看見有趣的動作或明顯變化時可以這樣說。",
+          "prompt": "朋友第一次看見小狗跳躍，你想請他注意，哪句正確？",
+          "options": [
+            "Look how high the dog jumping!",
+            "Look how high the dog jumps!",
+            "Look how high jumps the dog!",
+            "Look how high does the dog jump!"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯；缺少 is。",
+            "正確；how 後採主詞加動詞語序。",
+            "錯；主詞與動詞顛倒。",
+            "錯；間接觀察子句不用疑問句倒裝。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "「Look how they shine for you」",
+          "pattern": [
+            {
+              "text": "Look how",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": true
+            }
+          ],
+          "example": "they shine for you",
+          "explanation": "正確；how 後採主詞加動詞語序。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "現在簡單式：一般事實或習慣",
+          "meaning": "表達經常、一般或習慣發生的事。",
+          "usage": "談生活習慣或一般性現象時使用。",
+          "prompt": "要說弟弟每天晚上閱讀，哪句正確？",
+          "options": [
+            "My brother reading every night.",
+            "My brother is read every night.",
+            "My brother reads every night.",
+            "My brother read every night."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯；缺少完整謂語。",
+            "錯；is read 並非這裡的主動習慣句。",
+            "正確；he 類單數主詞搭配 reads。",
+            "錯；第三人稱單數需 reads。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "「they shine for you」",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "現在式動詞",
+              "fixed": true
+            }
+          ],
+          "example": "they + shine",
+          "explanation": "正確；he 類單數主詞搭配 reads。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "省略關係代名詞的受詞關係子句",
+          "meaning": "名詞後面補充說明「你做的」。",
+          "usage": "描述自己看過、讀過、做過的事物時可用。",
+          "prompt": "想說「這是我昨天畫的畫」，哪句正確？",
+          "options": [
+            "This is the picture I drawing yesterday.",
+            "This is the picture drew I yesterday.",
+            "This is the picture I drew yesterday.",
+            "This is the picture I drew it yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯；動詞時態與形式不正確。",
+            "錯；子句應用 I drew 語序。",
+            "正確；省略受詞關係代名詞 that。",
+            "錯；關係子句已以 picture 作受詞，不能多加 it。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "「everything you do」",
+          "pattern": [
+            {
+              "text": "名詞／代名詞 +（省略 that）+ 主詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": true
+            }
+          ],
+          "example": "everything + you do",
+          "explanation": "正確；省略受詞關係代名詞 that。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "一般過去式：完成的往事",
+          "meaning": "描述過去某時完成的行動。",
+          "usage": "回憶旅行、活動或上週的事情時用過去式。",
+          "prompt": "朋友問你上星期做了什麼，哪句正確？",
+          "options": [
+            "I have write a short story last week.",
+            "I write a short story last week.",
+            "I writing a short story last week.",
+            "I wrote a short story last week."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯；have 後應用 written，且這種明確過去時間多用過去式。",
+            "錯；last week 要配合過去式。",
+            "錯；缺少 be 且時態不合。",
+            "正確；wrote 是 write 的過去式。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "「I wrote a song for you」",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "過去式動詞",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": true
+            }
+          ],
+          "example": "I + wrote + a song",
+          "explanation": "正確；wrote 是 write 的過去式。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "for + 人：說明受益者",
+          "meaning": "說明物品或行動是為誰準備的。",
+          "usage": "寫卡片、留座位、做禮物時可用 for。",
+          "prompt": "你幫朋友留了一張票，哪句自然？",
+          "options": [
+            "I saved a ticket for my friend.",
+            "I saved a ticket to my friend.",
+            "I saved a ticket from my friend for him.",
+            "I saved a ticket of my friend."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；for my friend 表示為朋友保留。",
+            "錯；此處用 for 標示受益對象。",
+            "錯；意思變成從朋友那裡取得票且累贅。",
+            "錯；of 不能表示替朋友保留。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "「a song for you」",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": true
+            },
+            {
+              "text": "for",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": true
+            }
+          ],
+          "example": "a song + you",
+          "explanation": "正確；for my friend 表示為朋友保留。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "被動語態：was called",
+          "meaning": "說明某物當時被取了什麼名字。",
+          "usage": "介紹以前出版的書或命名的活動。",
+          "prompt": "介紹去年開幕的咖啡店名稱，哪句正確？",
+          "options": [
+            "The café was call Blue Door.",
+            "The café was calling Blue Door.",
+            "The café was called Blue Door.",
+            "The café called was Blue Door."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯；被動要用過去分詞 called。",
+            "錯；was calling 是主動進行式。",
+            "正確；was called 表示「被稱為」。",
+            "錯；被動詞序不對。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "「it was called \"Yellow\"」",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "was／were",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": true
+            }
+          ],
+          "example": "it + was called + Yellow",
+          "explanation": "正確；was called 表示「被稱為」。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "take one’s turn：輪到某人",
+          "meaning": "描述輪流做事、輪到某人採取行動。",
+          "usage": "遊戲、團體活動、依序發表時使用。",
+          "prompt": "你和朋友輪流講故事，哪句正確？",
+          "options": [
+            "I took turn of mine after Jen.",
+            "I took mine turn after Jen.",
+            "I took me turn after Jen.",
+            "I took my turn after Jen."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯；此處固定說 took my turn。",
+            "錯；名詞 turn 前要 my 而非 mine。",
+            "錯；me 不是所有格。",
+            "正確；輪到我時使用 took my turn。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "「I took my turn」",
+          "pattern": [
+            {
+              "text": "take",
+              "fixed": true
+            },
+            {
+              "text": "所有格",
+              "fixed": true
+            },
+            {
+              "text": "turn",
+              "fixed": true
+            }
+          ],
+          "example": "took + my",
+          "explanation": "正確；輪到我時使用 took my turn。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "感嘆結構：What a + 名詞",
+          "meaning": "對某件行為表示驚訝或感慨。",
+          "usage": "想強調某個決定或行動令人驚訝時使用。",
+          "prompt": "看見朋友徒步橫越整座城市，你感嘆這是大挑戰，哪句正確？",
+          "options": [
+            "What long a walk to take!",
+            "What a long walk for take!",
+            "What a long walk to take!",
+            "What a long walk taking!"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯；形容詞位置錯。",
+            "錯；for take 不合文法。",
+            "正確；What a + 形容詞 + 單數名詞。",
+            "錯；這個不定詞結構應用 to take。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "「Oh what a thing to do」",
+          "pattern": [
+            {
+              "text": "What a",
+              "fixed": true
+            },
+            {
+              "text": "單數名詞",
+              "fixed": true
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": true
+            }
+          ],
+          "example": "a thing + to do",
+          "explanation": "正確；What a + 形容詞 + 單數名詞。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "完成不定詞：to have + 過去分詞",
+          "meaning": "回望一件已完成的事。",
+          "usage": "感嘆先前完成的行為，而非尚未發生的事。",
+          "prompt": "回想自己已經完成的大型計畫，哪句正確？",
+          "options": [
+            "What a project to has finished!",
+            "What a project to have finish!",
+            "What a project to have finishing!",
+            "What a project to have finished!"
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯；不定詞後應為 have。",
+            "錯；have 後要過去分詞。",
+            "錯；此處不能用 finishing。",
+            "正確；to have + finished 指已完成。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "「what a thing to have done」",
+          "pattern": [
+            {
+              "text": "to have",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": true
+            }
+          ],
+          "example": "done",
+          "explanation": "正確；to have + finished 指已完成。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "turn into：變成另一種狀態",
+          "meaning": "表示某物逐漸或突然轉變。",
+          "usage": "形容舊建築、想法、工作成果發生轉變。",
+          "prompt": "舊倉庫改建成圖書館，哪句正確？",
+          "options": [
+            "The old shop turned to into a library.",
+            "The old shop turned into a library.",
+            "The old shop turned a library into.",
+            "The old shop turned in a library."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯；to 和 into 重複。",
+            "正確；turn into + 結果。",
+            "錯；缺少 into 且詞序不對。",
+            "錯；這裡使用 into。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "「Turn into something beautiful」",
+          "pattern": [
+            {
+              "text": "turn into",
+              "fixed": true
+            },
+            {
+              "text": "名詞／名詞片語",
+              "fixed": true
+            }
+          ],
+          "example": "something beautiful",
+          "explanation": "正確；turn into + 結果。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "something + 形容詞後置",
+          "meaning": "something、anything、nothing 後常把形容詞放後面。",
+          "usage": "想描述某樣有趣、特別或重要的事物時。",
+          "prompt": "想請朋友分享一件有趣的事情，哪句正確？",
+          "options": [
+            "Tell me something interesting.",
+            "Tell me something interest.",
+            "Tell me an something interesting.",
+            "Tell me interesting something."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；something interesting。",
+            "錯；此處需要形容詞 interesting。",
+            "錯；something 前不加 an。",
+            "錯；something 後才放形容詞。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "「something beautiful」",
+          "pattern": [
+            {
+              "text": "something",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": true
+            }
+          ],
+          "example": "beautiful",
+          "explanation": "正確；something interesting。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "一般疑問句：Do + 主詞 + 原形動詞",
+          "meaning": "詢問對方是否知道或是否做某事。",
+          "usage": "一般現在式問句、主詞是 you 時可用 Do。",
+          "prompt": "你想問朋友是否認識新老師，哪句正確？",
+          "options": [
+            "Do you know the new teacher?",
+            "Are you know the new teacher?",
+            "Do you knows the new teacher?",
+            "Know you the new teacher?"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；Do you know 為一般問句。",
+            "錯；一般現在式的 know 不與 are 這樣搭配。",
+            "錯；do 後接動詞原形。",
+            "錯；缺少 do。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "「Do you know」",
+          "pattern": [
+            {
+              "text": "Do",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "you + know",
+          "explanation": "正確；Do you know 為一般問句。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "know + 省略 that 的受詞子句",
+          "meaning": "know 後面接一個完整內容子句，that 可以省略。",
+          "usage": "談你確信的事實或想讓對方知道的情況時使用。",
+          "prompt": "你想告訴同事自己知道會議很重要，哪句正確？",
+          "options": [
+            "I know that this meeting important.",
+            "I know this meeting is important.",
+            "I know this meeting important is.",
+            "I know is this meeting important."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯；that 後仍需要 is。",
+            "正確；know 後接正常陳述句。",
+            "錯；important 和 is 的位置錯。",
+            "錯；子句語序顛倒。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "「You know I love you so」",
+          "pattern": [
+            {
+              "text": "know +（that）+ 主詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": true
+            }
+          ],
+          "example": "I love you so",
+          "explanation": "正確；know 後接正常陳述句。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "so 作程度副詞",
+          "meaning": "so 可以表示「如此、非常」，不一定是「所以」。",
+          "usage": "口語或抒情表達強烈情緒時可用，日常更常說 very much。",
+          "prompt": "想用 so 強調很想念某人，哪句通順？",
+          "options": [
+            "I miss so you.",
+            "I miss you so.",
+            "I so miss you much.",
+            "I miss you a so."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯；受詞應在 miss 後。",
+            "正確；so 在句末加強感情。",
+            "錯；so 和 much 的位置與結構不自然。",
+            "錯；a so 不成立。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "「I love you so」",
+          "pattern": [
+            {
+              "text": "動詞",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": true
+            },
+            {
+              "text": "so",
+              "fixed": true
+            }
+          ],
+          "example": "love + you + so",
+          "explanation": "正確；so 在句末加強感情。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "不及物 across：省略穿越對象",
+          "meaning": "across 可作副詞，前文能理解時可不說出穿越的對象。",
+          "usage": "談跨過街道或水域，地點已清楚時。",
+          "prompt": "兩人在游泳池兩端，想說我游到另一邊，哪句正確？",
+          "options": [
+            "I swam acrossed.",
+            "I swam across to the pool.",
+            "I swam across of it.",
+            "I swam across."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯；across 不能加 -ed。",
+            "錯；to the pool 指游向泳池，不是游到另一邊。",
+            "錯；副詞 across 後不接 of。",
+            "正確；語境已知水域，可單用 across。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "「I swam across」",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": true
+            },
+            {
+              "text": "across",
+              "fixed": true
+            }
+          ],
+          "example": "I + swam",
+          "explanation": "正確；語境已知水域，可單用 across。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "for you 前置：強調對象",
+          "meaning": "把「為了誰」放在句首以加強重點。",
+          "usage": "表達為某人做某事時可把 for 片語前置，例句不沿用歌詞中的極端誇飾。",
+          "prompt": "你為隊友準備了額外座位，哪句正確？",
+          "options": [
+            "For my team I saved some seats.",
+            "For my team I have save some seats.",
+            "For my team saved I some seats.",
+            "For my team I saving some seats."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；句首 For my team 表示受益者。",
+            "錯；have 後應接 saved。",
+            "錯；主詞與動詞順序錯。",
+            "錯；缺少 be 且時態不對。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "「For you I'd bleed myself dry」",
+          "pattern": [
+            {
+              "text": "For",
+              "fixed": true
+            },
+            {
+              "text": "人，主詞",
+              "fixed": true
+            },
+            {
+              "text": "would",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": true
+            }
+          ],
+          "example": "For you + I'd bleed",
+          "explanation": "正確；句首 For my team 表示受益者。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "would + 原形：假設意願",
+          "meaning": "此處 I’d = I would，表達假設情境中的意願。",
+          "usage": "提出假設時，will/would 後用動詞原形；歌詞是極端比喻，不作生活建議。",
+          "prompt": "假設你有更多空閒時間會學畫畫，哪句正確？",
+          "options": [
+            "I would learn to draw if I had time.",
+            "I would to learn to draw if I had time.",
+            "I would learned to draw if I had time.",
+            "I would learning to draw if I had time."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；would + learn。",
+            "錯；would 後不用 to。",
+            "錯；would 後不能接 learned。",
+            "錯；would 後不能接 learning。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "「I'd bleed myself dry」",
+          "pattern": [
+            {
+              "text": "I would",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": true
+            }
+          ],
+          "example": "I'd + bleed",
+          "explanation": "正確；would + learn。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "反身代名詞：主受詞同一人",
+          "meaning": "反身代名詞指動作影響主詞本身。",
+          "usage": "日常可用 teach myself、enjoy myself 等安全例子。",
+          "prompt": "想說「我自學彈鋼琴」，哪句正確？",
+          "options": [
+            "I taught mine to play the piano.",
+            "I taught myself to play the piano.",
+            "I taught me to play the piano.",
+            "I taught my to play the piano."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯；mine 是所有代名詞。",
+            "正確；teach myself 表示自學。",
+            "錯；主詞與受詞為同一人，應 myself。",
+            "錯；my 是所有格。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "「bleed myself dry」",
+          "pattern": [
+            {
+              "text": "動詞",
+              "fixed": true
+            },
+            {
+              "text": "反身代名詞",
+              "fixed": true
+            },
+            {
+              "text": "補語",
+              "fixed": true
+            }
+          ],
+          "example": "bleed + myself + dry",
+          "explanation": "正確；teach myself 表示自學。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "It is + 形容詞：評價句",
+          "meaning": "對某個資訊作出判斷或評價。",
+          "usage": "確認一個消息是否正確，或說明某事很重要時。",
+          "prompt": "朋友說展覽今天免費，你已查證，哪句正確？",
+          "options": [
+            "It's truly the museum free today.",
+            "It true that the museum is free today.",
+            "It's true the museum free today.",
+            "It's true that the museum is free today."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯；主句與後面資訊的結構不完整。",
+            "錯；缺少 is。",
+            "錯；museum 後缺少 is。",
+            "正確；It’s true that + 完整子句。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "「It's true」",
+          "pattern": [
+            {
+              "text": "It is",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": true
+            }
+          ],
+          "example": "true",
+          "explanation": "正確；It’s true that + 完整子句。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "that 引導關係子句",
+          "meaning": "that 引導修飾名詞的關係子句，作受詞。",
+          "usage": "形容一個人做過的事、你看過的物品時可以使用。",
+          "prompt": "你想談自己讀過的所有書，哪句正確？",
+          "options": [
+            "I enjoyed all the books that read I.",
+            "I enjoyed all the books that I reading.",
+            "I enjoyed all the books that I read.",
+            "I enjoyed all the books that I read them."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯；關係子句不倒裝。",
+            "錯；缺少適當動詞形式。",
+            "正確；that 指 books 並作 read 的受詞。",
+            "錯；不能再加 them 重複受詞。"
+          ],
+          "sourceFile": "Yellow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "「all the things that you do」",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": true
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": true
+            }
+          ],
+          "example": "the things + that you do",
+          "explanation": "正確；that 指 books 並作 read 的受詞。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        }
+      ]
+    }
   }
 }

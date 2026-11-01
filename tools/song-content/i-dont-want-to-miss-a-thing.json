@@ -3310,5 +3310,1276 @@
     "method": "faster-whisper-word-alignment-with-targeted-section-review",
     "audioSha256": "ab1e1769795bf545f29dbe0e931afef98e72e145653f0ab9572abd7bb7507bc7",
     "duration": 298.76
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "8f5f0b27461c4175bed5681c15ad71c9f9b94aeafc2bc4a03d7831af29d5c28b"
+    },
+    {
+      "section": "advanced",
+      "filename": "I_Dont_Want_To_Miss_A_Thing_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "2998bcd22a372feca1d5f62a8debad04135a06ea5425a1b8d537d6e81dd1cb12"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "could + 原形動詞",
+          "meaning": "可以／願意做某事；依語境表示可能或假設的意願。",
+          "usage": "提出可能的做法、溫和提議或想像中的選擇。",
+          "prompt": "情境：志工活動 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "I could planting trees on Sunday.",
+            "If the park needs help, I could plant some trees.",
+            "Yesterday I could planted some trees in the park.",
+            "I could to plant trees with the group."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：could 後不用 planting。",
+            "正確：could 後接 plant，溫和提出自己能幫忙。",
+            "錯誤：could 後不能接過去式 planted。",
+            "錯誤：could 後不加 to。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "I could stay awake（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[主詞] could [原形動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：could 後接 plant，溫和提出自己能幫忙。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "stay + 形容詞",
+          "meaning": "保持某種狀態。",
+          "usage": "表示一種狀態持續不變。",
+          "prompt": "情境：夜間觀星 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "The telescope stay quiet on the roof.",
+            "We stay quietly during the film.",
+            "The stars stay awake until morning.",
+            "Please stay quiet while the baby sleeps."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：單數主詞 telescope 應用 stays，且語境不自然。",
+            "錯誤：描述保持安靜的狀態，要用形容詞 quiet。",
+            "錯誤：星星不會像人一樣保持清醒。",
+            "正確：stay quiet 表示保持安靜。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "stay awake（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "stay [形容詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：stay quiet 表示保持安靜。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "just to + 原形動詞（目的）",
+          "meaning": "只是為了做某事。",
+          "usage": "強調某個動作背後的單一目的。",
+          "prompt": "情境：博物館展覽 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "They went to the museum just seeing a new show.",
+            "We arrived early just to see the new art.",
+            "We came early just to saw the paintings.",
+            "The museum opened early just to a new show."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：表示目的應用 just to see，而不是 just seeing。",
+            "正確：提早到場只是為了看新展覽。",
+            "錯誤：to 後不能接 saw。",
+            "錯誤：to 後需要動詞原形，不能直接接名詞。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "just to hear you breathing（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[行動] just to [原形動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：提早到場只是為了看新展覽。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "hear + 受詞 + -ing",
+          "meaning": "聽見某人或某物正在發出聲音。",
+          "usage": "強調聽到一個正在進行的動作。",
+          "prompt": "情境：森林散步 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "I heard the birds singing in the trees yesterday.",
+            "I heard the birds to sing near the river.",
+            "I heard the birds sang near the river.",
+            "I heard the birds sings outside the tent."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：singing 描述聽見時鳥兒正在唱歌。",
+            "錯誤：這個結構不使用 to sing。",
+            "錯誤：不能直接用 sang 作受詞補語。",
+            "錯誤：此處不使用第三人稱 sings。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "hear you breathing（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "hear [人／物] [V-ing]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：singing 描述聽見時鳥兒正在唱歌。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "watch + 受詞 + 原形動詞",
+          "meaning": "看著某人做某個動作。",
+          "usage": "強調觀看動作發生；與 watch + -ing 相關但本歌曲實際用原形 smile。",
+          "prompt": "情境：馬戲表演 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "We watched the clown to jump over a box.",
+            "We watched the clown jumped over a box.",
+            "We watched the clown jumps over a box.",
+            "We watched the clown jump over a small box."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：watch 後在此不用 to jump。",
+            "錯誤：受詞補語不接 jumped。",
+            "錯誤：受詞補語不用 jumps。",
+            "正確：watch + clown + jump 與歌詞的原形動詞結構一致。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "Watch you smile（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "watch [人／物] [原形動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：watch + clown + jump 與歌詞的原形動詞結構一致。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "while + 主詞 + be + -ing",
+          "meaning": "當某人正在做某件事時。",
+          "usage": "描述兩件事同時間發生。",
+          "prompt": "情境：廚房料理 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "While Dad was cooking, I washed the cups.",
+            "While Dad cooking, I washed the cups.",
+            "While Dad were cooking, I washed the cups.",
+            "While Dad was cook, I washed the cups."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：while 引出的過去進行式表示爸爸煮飯的同時。",
+            "錯誤：was cooking 不可省略 was。",
+            "錯誤：Dad 為單數，應用 was。",
+            "錯誤：was 後應用 cooking。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "while you are sleeping（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "while [主詞] [be] [V-ing]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：while 引出的過去進行式表示爸爸煮飯的同時。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "spend + 時間 + in + 名詞",
+          "meaning": "把時間花在某種狀態或環境中。",
+          "usage": "敘述長時間身處某個地方或狀態；不是 spend + 錢購物。",
+          "prompt": "情境：海邊小屋 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "We spent a week in a small cabin by the sea.",
+            "We spent a week at happy in the cabin.",
+            "We spent a week to the small cabin.",
+            "We spent a week in to a small cabin."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：spend a week in … 表示在小屋度過一週。",
+            "錯誤：happy 不能這樣接在 at 後面。",
+            "錯誤：這裡表示身處地點，不用 to。",
+            "錯誤：in to 不能在此取代 in。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "spend my life in this sweet surrender（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "spend [時間] in [狀態／場所]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：spend a week in … 表示在小屋度過一週。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "stay + 過去分詞（狀態）",
+          "meaning": "一直處於某個結果狀態。",
+          "usage": "描述某狀態未改變；lost 在此是形容詞性分詞。",
+          "prompt": "情境：迷宮遊戲 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "The player stayed confusing after reading the map.",
+            "The player stayed confused until she found the exit.",
+            "The player stayed confuse after reading the map.",
+            "The player stayed to confuse for ten minutes."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：confusing 表示令人困惑，不是自己感到困惑。",
+            "正確：stayed confused 表示她一直處於困惑狀態。",
+            "錯誤：應使用 confused 描述人的狀態。",
+            "錯誤：stay 不接 to confuse 表示維持狀態。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "stay lost（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "stay [過去分詞作形容詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：stayed confused 表示她一直處於困惑狀態。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "where + 子句（描述情境／地方）",
+          "meaning": "在那裡／在那樣的情境下……。",
+          "usage": "描述某個地方或前文提到的情境；本句為承接前文的抒情片段。",
+          "prompt": "情境：社區花園 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "This is the garden where our club meets every Friday.",
+            "This is the garden where meets our club every Friday.",
+            "This is the garden where our club meeting Friday.",
+            "This is the garden where does our club meet Friday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：where 後接正常陳述語序的子句。",
+            "錯誤：where 引導關係子句時不用問句倒裝。",
+            "錯誤：子句缺少動詞 is／meets。",
+            "錯誤：關係子句內不使用 does 問句語序。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "Where every moment spent with you is a moment I treasure（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "where [完整子句]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：where 後接正常陳述語序的子句。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "過去分詞修飾名詞",
+          "meaning": "被……的某個人／物；補充名詞資訊。",
+          "usage": "以省略關係代名詞及 be 的分詞片語修飾名詞。",
+          "prompt": "情境：相片展 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "The photos were took by Mia are on the wall.",
+            "The photos taking by Mia are on the wall.",
+            "The photos taken by Mia are on the wall.",
+            "The photos took by Mia are on the wall."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：were took 既不符合分詞修飾語也不符合被動形式。",
+            "錯誤：表示照片被拍，應用 taken。",
+            "正確：taken by Mia 修飾 photos，表照片由 Mia 拍攝。",
+            "錯誤：took 是過去式，不是過去分詞。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "moment spent with you（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[名詞] [過去分詞片語]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：taken by Mia 修飾 photos，表照片由 Mia 拍攝。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "名詞 + 省略關係代名詞的子句",
+          "meaning": "我所……的某樣事物。",
+          "usage": "關係代名詞在受詞位置可省略；不是憑空添加另一種子句。",
+          "prompt": "情境：舊書市集 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "This is the book I buying at the market.",
+            "This is the book I bought it at the market.",
+            "This is the book bought I at the market.",
+            "This is the book I bought at the market."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：I buying 缺少助動詞，且不能表示已買下。",
+            "錯誤：book 已是 bought 的受詞，不要再加 it。",
+            "錯誤：關係子句應使用陳述句語序。",
+            "正確：book 後的 I bought 是省略受詞關係代名詞的修飾子句。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "a moment I treasure（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[名詞] [主詞] [動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：book 後的 I bought 是省略受詞關係代名詞的修飾子句。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "don’t want to + 原形動詞（歌詞 wanna）",
+          "meaning": "不想做某件事。",
+          "usage": "日常意願的否定；wanna 是歌詞口語寫法，不新增另一題。",
+          "prompt": "情境：陶藝體驗 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "I do not want to making another bowl today.",
+            "I do not want making another bowl today.",
+            "I do not want make another bowl today.",
+            "I do not want to make another bowl today."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：to 後應用 make，不是 making。",
+            "錯誤：want 後需接 to + 原形動詞。",
+            "錯誤：want 後缺少 to。",
+            "正確：want to make 表示不想再做一個碗。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "I don't wanna fall asleep（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[主詞] don't/doesn't want to [原形動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：want to make 表示不想再做一個碗。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "would + 原形動詞（假設結果）",
+          "meaning": "在想像的情況下會……。",
+          "usage": "描述某條件成立時的想像結果；歌中常省略已知條件。",
+          "prompt": "情境：露營選擇 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "Without a map, we would got lost.",
+            "Without a map, we would getting lost.",
+            "Without a map, we would get lost.",
+            "Without a map, we would to get lost."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：would 後不接 got。",
+            "錯誤：would 後應用 get。",
+            "正確：沒有地圖的假設下，可能會迷路。",
+            "錯誤：would 後不加 to。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "I'd miss you（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[主詞] would [原形動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：沒有地圖的假設下，可能會迷路。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "even when + 子句",
+          "meaning": "即使在……的時候，仍然……。",
+          "usage": "表達某件事在特定時間發生，也不能改變另一個結果。",
+          "prompt": "情境：跑步訓練 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "Even when does it rain, the team trains inside.",
+            "Even when it rains, the team trains inside.",
+            "Even when raining, the team trains inside.",
+            "Even when it rain, the team trains inside."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：even when 子句不使用問句倒裝。",
+            "正確：即使下雨，隊伍仍在室內練習。",
+            "錯誤：本題採用歌詞完整子句形式，缺少 it 的句子不符合所測框架。",
+            "錯誤：it 後動詞應用 rains。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "even when I dream of you（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "even when [主詞 + 動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：即使下雨，隊伍仍在室內練習。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "最高級形容詞 + 名詞",
+          "meaning": "最……的某個東西。",
+          "usage": "在一組可能的事物中表達程度最高者。",
+          "prompt": "情境：冰品店 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "It is the most sweetest ice cream in the shop.",
+            "It is the sweet ice cream in the shop.",
+            "It is the sweetest ice cream in the shop.",
+            "It is the more sweet ice cream in the shop."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：most 與 sweetest 不可重複標示最高級。",
+            "錯誤：這裡要表示最甜，不能只用 sweet。",
+            "正確：sweetest 為 sweet 的最高級。",
+            "錯誤：more sweet 表比較級，不是最高級。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "The sweetest dream（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "the [最高級形容詞] [名詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：sweetest 為 sweet 的最高級。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "would never + 原形動詞",
+          "meaning": "在假設下絕不會／終究無法……。",
+          "usage": "強烈否定想像情境的某種結果；歌中的 do 有「夠好／管用」之意。",
+          "prompt": "情境：修理工具 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "That tiny brush would never to clean the whole wall.",
+            "That tiny brush would never cleans the whole wall.",
+            "That tiny brush would never cleaned the whole wall.",
+            "That tiny brush would never clean the whole wall."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：would 後不加 to。",
+            "錯誤：would 後不用第三人稱單數 cleans。",
+            "錯誤：would 後不用過去式。",
+            "正確：表示那把小刷子根本無法清潔整面牆。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "would never do（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[主詞] would never [原形動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：表示那把小刷子根本無法清潔整面牆。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "lie + 地點副詞片語（-ing 片段）",
+          "meaning": "正躺在某個地方／某人附近。",
+          "usage": "歌曲使用 -ing 片段描寫背景，並非完整主句；lie 是躺下，不是 lay 放置。",
+          "prompt": "情境：草地野餐 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "The children were laying on the grass to watch clouds.",
+            "The children were lying on the grass to watch clouds.",
+            "The children were lie on the grass to watch clouds.",
+            "The children were lies on the grass to watch clouds."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：laying 一般要接受詞，表示把東西放下。",
+            "正確：were lying 表示孩子們當時躺在草地上。",
+            "錯誤：were 後需要 lying。",
+            "錯誤：were 後不能接 lies。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "Lying close to you（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "lying [地點片語]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：were lying 表示孩子們當時躺在草地上。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "feel + 受詞 + -ing",
+          "meaning": "感受到某人／某物正在……。",
+          "usage": "直接感知一個持續進行的動作。",
+          "prompt": "情境：地鐵月台 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "I felt the train to shake as it passed.",
+            "I felt the train shakes as it passed.",
+            "I felt the train shook as it passed.",
+            "I felt the train shaking as it passed."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：此處感官結構不使用 to shake。",
+            "錯誤：此處不用 shakes 作受詞補語。",
+            "錯誤：此處不用 shook 作受詞補語。",
+            "正確：shaking 表示當時感受到列車正在震動。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "feeling your heart beating（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "feel [人／物] [V-ing]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：shaking 表示當時感受到列車正在震動。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "wonder + what 間接問句",
+          "meaning": "想知道某人正在想甚麼／做甚麼。",
+          "usage": "好奇某個問題時，在 wonder 後使用陳述句語序。",
+          "prompt": "情境：猜謎派對 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "I wonder what does Leo draw.",
+            "I wonder what drawing Leo is.",
+            "I wonder what Leo is drawing.",
+            "I wonder what is Leo drawing."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：間接問句不使用 does 問句語序。",
+            "錯誤：詞序不正確，應將 drawing 放在 is 後。",
+            "正確：what Leo is drawing 使用陳述句語序。",
+            "錯誤：間接問句不用 is Leo 的倒裝。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "I'm wondering what you're dreaming（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "wonder [what + 主詞 + 動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：what Leo is drawing 使用陳述句語序。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "wonder + if 間接是非問句",
+          "meaning": "想知道是否……。",
+          "usage": "對一件是或否的事情感到好奇。",
+          "prompt": "情境：科學實驗 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "We wonder if the plant will grow here.",
+            "We wonder if does the plant grow here.",
+            "We wonder if the plant grow here tomorrow.",
+            "We wonder if will the plant grow here."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：wonder if 接完整陳述語序的子句。",
+            "錯誤：間接問句不使用 does 倒裝。",
+            "錯誤：這裡主詞 plant 是單數且時間是 tomorrow，應有合適動詞形式。",
+            "錯誤：if 後應使用 the plant will 的陳述句語序。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "Wondering if it's me you're seeing（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "wonder if [主詞 + 動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：wonder if 接完整陳述語序的子句。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "it is + 強調對象 + 省略關係代名詞子句",
+          "meaning": "正是……（被強調者）。",
+          "usage": "把特別重要的對象放在 it is 後；歌詞的受詞關係代名詞省略。",
+          "prompt": "情境：秘密禮物 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "It was her I was looking for, not her brother.",
+            "It was her was I looking for, not her brother.",
+            "It was her I was looking her for, not her brother.",
+            "It was her I looking for, not her brother."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：it was her … 強調我尋找的正是她。",
+            "錯誤：強調句後的子句不倒裝。",
+            "錯誤：her 已被提出強調，後面不需再加 her 作重複受詞。",
+            "錯誤：I looking 缺少 was。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "it's me you're seeing（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "it is [被強調的人／物] [主詞 + 動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：it was her … 強調我尋找的正是她。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "thank God + 子句（固定感嘆語）",
+          "meaning": "謝天謝地，幸好……。",
+          "usage": "對令人安心的結果表達感激；歌詞是宗教色彩的感嘆用法。",
+          "prompt": "情境：露天音樂會 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "Thank God for the rain stopped before the show.",
+            "Thank God the rain to stop before the show.",
+            "Thank God the rain stopped before the show.",
+            "Thank God stopped the rain before the show."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：for 後不能直接接 the rain stopped 完整子句。",
+            "錯誤：the rain to stop 不構成完整子句。",
+            "正確：thank God 後接完整子句，表示慶幸雨停了。",
+            "錯誤：不能把 God stopped the rain 當作此處的慶幸子句語序。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "thank God we're together（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "thank God [主詞 + 動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：thank God 後接完整子句，表示慶幸雨停了。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "so + 形容詞 + to + 代名詞",
+          "meaning": "與某個對象如此接近。",
+          "usage": "形容距離或關係的程度；mine 是所有格代名詞。",
+          "prompt": "情境：地圖方位 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "The cabin is so closely to our camp.",
+            "The cabin is so close mine.",
+            "The cabin is so close to our camp.",
+            "The cabin is so close at our camp."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：closely 通常是副詞，這裡應用形容詞 close。",
+            "錯誤：close 後需要 to。",
+            "正確：so close to 表示與營地非常接近。",
+            "錯誤：表達相近應用 to，不是 at。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "so close to mine（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "so [形容詞] to [對象]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：so close to 表示與營地非常接近。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "just like + 名詞／代名詞",
+          "meaning": "就像……一樣。",
+          "usage": "拿眼前的人、動作或方式作比較。",
+          "prompt": "情境：紙模型 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "Fold the paper just like is this.",
+            "Fold the paper just like this, with two small corners.",
+            "Fold the paper just like to this.",
+            "Fold the paper just like this one is."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：just like 後不能接 is this 倒裝。",
+            "正確：just like this 指照示範的方式摺紙。",
+            "錯誤：like 後面不需要 to。",
+            "錯誤：此處只需 this，不必接 one is。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "just like this（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "just like [名詞／代名詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：just like this 指照示範的方式摺紙。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "for the rest of + 時間",
+          "meaning": "在剩餘的整段時間裡。",
+          "usage": "表示之後餘下的時間；歌詞把時間延伸到永遠。",
+          "prompt": "情境：班級旅行 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "We sat in silence for the rest of the trip.",
+            "We sat in silence for the rests of the trip.",
+            "We sat in silence for the rest to the trip.",
+            "We sat in silence for rest of the trip."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：for the rest of the trip 指旅途中剩下的時間。",
+            "錯誤：固定片語使用 rest 而非 rests。",
+            "錯誤：rest 後接 of，不是 to。",
+            "錯誤：這個片語通常要有 the。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "For all the rest of time（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "for [all] the rest of [時間]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：for the rest of the trip 指旅途中剩下的時間。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "and + 兩個現在式動詞並列",
+          "meaning": "同一主詞做兩件事情。",
+          "usage": "敘述同一個人連續或並列進行的動作，第二個動詞可不重複主詞。",
+          "prompt": "情境：圖書館活動 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "Nora opens the book and read the first page.",
+            "Nora opens the book and reads the first page.",
+            "Nora opens the book and reading the first page.",
+            "Nora opens the book and to read the first page."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：Nora 是單數，後一動詞亦應用 reads。",
+            "正確：opens 和 reads 是同一單數主詞的並列現在式。",
+            "錯誤：and 後形式要與 opens 協調。",
+            "錯誤：這裡不使用 to read。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "I kiss your eyes and thank God（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[主詞] [動詞] and [動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：opens 和 reads 是同一單數主詞的並列現在式。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "breathing",
+          "meaning": "呼吸；breathing 是 breathe（呼吸）的 -ing 形式",
+          "usage": "談人或動物正在呼吸，以及呼吸聲、速度或方式時使用。",
+          "prompt": "哪一句正確使用「breathing」？",
+          "options": [
+            "The painter heard breathing from the empty jar on the desk.",
+            "The driver used breathing to turn the car left.",
+            "The doctor checked that the baby was breathing well.",
+            "The singer put breathing inside her blue backpack."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：空罐子本身不會呼吸；若是有人躲在罐子旁，應交代清楚。",
+            "錯誤：轉彎靠方向盤，不是靠 breathing。",
+            "正確：醫師確認寶寶呼吸正常，使用 breathing 自然。",
+            "錯誤：呼吸不是能放進背包裡的實體物品。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：醫師確認寶寶呼吸正常，使用 breathing 自然。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "surrender",
+          "meaning": "投降；放棄抵抗或控制（較正式、強烈）",
+          "usage": "戰爭、競賽中投降；也可比喻不再抗拒某種情感，歌詞屬詩意用法。",
+          "prompt": "哪一句正確使用「surrender」？",
+          "options": [
+            "After losing the match, our coach surrendered his lunch.",
+            "The river surrendered its water to a small blue clock.",
+            "The chef surrendered the bread until it became very hot.",
+            "The team refused to surrender despite being far behind."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：輸球不必然表示把午餐「投降」出去，缺少合理對象。",
+            "錯誤：河流和時鐘之間沒有自然的 surrender 關係。",
+            "錯誤：把麵包烤熱應說 baked，不是 surrendered。",
+            "正確：球隊即使大幅落後仍拒絕認輸，搭配自然。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：球隊即使大幅落後仍拒絕認輸，搭配自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "would never do",
+          "meaning": "絕對不行；不符合需要、不夠好（do＝夠用、合適）",
+          "usage": "評估方案、替代品或方法能否滿足需求時使用，常見 That won’t do。",
+          "prompt": "哪一句正確使用「would never do」？",
+          "options": [
+            "This tiny chair would never do for a very tall guest.",
+            "That song would never do into my school locker.",
+            "The new plan would never do the bus at seven every morning.",
+            "My red pencil would never do because it is red."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：椅子太小，不適合高個子的客人；do 表示「合用」。",
+            "錯誤：這裡不能用 would never do into 表示收納歌曲。",
+            "錯誤：do 不能這樣直接接 the bus 來表示搭車。",
+            "錯誤：紅色本身不代表鉛筆不合用，缺乏理由。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：椅子太小，不適合高個子的客人；do 表示「合用」。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "lying",
+          "meaning": "躺著（lie 的 -ing 形式）；另有「說謊」之義",
+          "usage": "描述人或動物躺在某處；須由上下文分辨與說謊的意思。",
+          "prompt": "哪一句正確使用「lying」？",
+          "options": [
+            "My dog was lying by the door after a long walk.",
+            "The boy was lying a new lamp beside the sofa all evening.",
+            "The singer was lying the window to let air in.",
+            "The cat was lying to the bakery for some bread."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：狗散步後躺在門旁，lying 表示躺著。",
+            "錯誤：表示放置檯燈，應用 laying / putting；lying 不直接接物品。",
+            "錯誤：開窗應說 opening the window，不是 lying the window。",
+            "錯誤：若指前往麵包店，應用 going；lying to 在此不是移動。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：狗散步後躺在門旁，lying 表示躺著。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "beating",
+          "meaning": "（心臟）跳動；（鼓）敲擊，beat 的 -ing 形式",
+          "usage": "說明心跳或鼓聲時使用；本歌的 heart beating 是心臟跳動。",
+          "prompt": "哪一句正確使用「beating」？",
+          "options": [
+            "The pilot was beating the ticket to fly to Japan.",
+            "The nurse could hear the patient’s heart beating.",
+            "The drummer was beating her bag to send an email.",
+            "The waiter was beating the table to make soup cold."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：搭機需要機票，但 beating the ticket 不是自然說法。",
+            "正確：護理師聽見病人的心跳；heart beating 搭配自然。",
+            "錯誤：敲打包包不會寄出電子郵件；send an email 才是動作。",
+            "錯誤：敲桌子不會讓湯變涼，目的與動作不符。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：護理師聽見病人的心跳；heart beating 搭配自然。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "thank God",
+          "meaning": "謝天謝地；感謝上天（依語境可為宗教或感嘆語）",
+          "usage": "因結果令人安心或慶幸而表達感謝；口語裡也可不帶宗教意味。",
+          "prompt": "哪一句正確使用「thank God」？",
+          "options": [
+            "She thanked God her shoes into the kitchen after lunch.",
+            "Thank God the bus came before the heavy rain began.",
+            "The teacher thank God the window at half past nine.",
+            "He put thank God on his coat before leaving home."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：thank God 不能這樣代替「把鞋子放進」的動詞。",
+            "正確：大雨前公車來了，說「謝天謝地」自然。",
+            "錯誤：此處沒有合理的感謝內容，也不符合自然句型。",
+            "錯誤：thank God 不是可以穿在外套上的物品。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：大雨前公車來了，說「謝天謝地」自然。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "forever and ever",
+          "meaning": "永永遠遠；強烈強調沒有終點（常見於歌詞、誓言）",
+          "usage": "表達很長久或永遠不變的情感、承諾，語氣比 forever 更強烈。",
+          "prompt": "哪一句正確使用「forever and ever」？",
+          "options": [
+            "The shop sold forever and ever for three dollars.",
+            "The dog will be forever and ever under the chair since yesterday morning.",
+            "In the story, the two friends stayed close forever and ever.",
+            "The clock was forever and ever at exactly six."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：這是時間副詞片語，不是可以販賣的商品。",
+            "錯誤：forever and ever 與昨天的限定時間矛盾。",
+            "正確：故事中朋友永遠保持親密，適合抒情敘事語境。",
+            "錯誤：片語不能當作特定鐘點使用。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：故事中朋友永遠保持親密，適合抒情敘事語境。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        }
+      ]
+    }
   }
 }

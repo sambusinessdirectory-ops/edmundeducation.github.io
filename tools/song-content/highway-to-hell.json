@@ -1,0 +1,23 @@
+{
+  "slug": "highway-to-hell",
+  "title": "Highway to Hell",
+  "singer": "AC/DC",
+  "exercise_name": "Highway to Hell · Listening & Vocabulary",
+  "description": "音訊及封面已加入；歌詞翻譯與練習教材待補。",
+  "tags": [
+    "ac/dc",
+    "highway to hell"
+  ],
+  "translations": [],
+  "exercises": [],
+  "vocabulary": [],
+  "published": false,
+  "audio_url": "https://edmundeducation.com/song-media/highway-to-hell/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/highway-to-hell/user-cover-20261101.png",
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-b6123a60-4a39-4fc8-ad1b-2dd0b2167a4b.png",
+    "sha256": "c0951df234da7d876b936377547f27cc98b8d12ace20fd5f024243d54b1e10c2",
+    "transformations": "none"
+  }
+}

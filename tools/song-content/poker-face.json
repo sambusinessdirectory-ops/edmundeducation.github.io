@@ -3847,5 +3847,1403 @@
     "sha256": "f333b12ecfc269ef79e8ec82545c8fcfd8d6ad392bbdbef7530f0ad133fc9286",
     "transformations": "none",
     "selectedOn": "2026-10-30"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "8be67ed7745f60d23b842ba1e5038acbb781f5c42f667aadb1fb9a770feace55"
+    },
+    {
+      "section": "advanced",
+      "filename": "Poker_Face_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "449a3b757fc7b8064750987043853561cd541d845364eabbc874d4287f1e09b4"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "want to + 動詞原形（口語 wanna）",
+          "meaning": "表達想做某件事；歌詞 wanna 是 want to 的口語拼寫。",
+          "usage": "想說出自己的意願，而不是已完成的事。",
+          "prompt": "新開的陶藝班很吸引人；哪句表示「我想參加」？",
+          "options": [
+            "I want joining the pottery class.",
+            "I wanted pottery class to join.",
+            "I want to join the pottery class.",
+            "I want to joined the pottery class."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "want 後不能直接接 joining 表示此意。",
+            "詞序變成希望課程參加，對象錯誤。",
+            "want to 後接動詞原形 join，清楚表達願望。",
+            "to 後不用過去式 joined。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "I wanna hold 'em",
+          "pattern": [
+            {
+              "text": "want to + V　",
+              "fixed": true
+            },
+            {
+              "text": "hold them",
+              "fixed": false
+            }
+          ],
+          "explanation": "want to 後接動詞原形 join，清楚表達願望。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "like + 子句（像某人那樣）",
+          "meaning": "用 like 加子句比較做事方式；do 代替前文提過的動作。",
+          "usage": "想學習別人的做法，不只是說兩物外貌相似。",
+          "prompt": "兩位廚師用同樣方法切蔬菜；哪句最自然？",
+          "options": [
+            "I cut them like my aunt does.",
+            "I cut them like my aunt do.",
+            "I cut them like my aunt doing.",
+            "I cut them like does my aunt."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "like 後是 my aunt does，表示像阿姨那樣做。",
+            "my aunt 是單數，需用 does。",
+            "缺少適當限定動詞。",
+            "一般此類比較子句不倒裝。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "like they do in Texas",
+          "pattern": [
+            {
+              "text": "like + S + V　",
+              "fixed": true
+            },
+            {
+              "text": "they do in Texas",
+              "fixed": false
+            }
+          ],
+          "explanation": "like 後是 my aunt does，表示像阿姨那樣做。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "let + 受詞 + 原形動詞",
+          "meaning": "允許某人做事；let 後不用 to。",
+          "usage": "要允許孩子自己試做安全的活動。",
+          "prompt": "博物館老師允許大家摸模型，應怎麼說？",
+          "options": [
+            "The guide let touch us the model.",
+            "The guide let us touch the model.",
+            "The guide let us to touch the model.",
+            "The guide let us touching the model."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "受詞 us 應放在 touch 前。",
+            "let us touch 是受詞加原形動詞。",
+            "let 後不加 to。",
+            "此結構不接 touching。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "let 'em hit me",
+          "pattern": [
+            {
+              "text": "let + O + V　",
+              "fixed": true
+            },
+            {
+              "text": "them + hit",
+              "fixed": false
+            }
+          ],
+          "explanation": "let us touch 是受詞加原形動詞。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "命令句：動詞原形開頭",
+          "meaning": "命令句可省略主詞 you，直接指示行動。",
+          "usage": "給出清楚、直接且適當的操作指令。",
+          "prompt": "導覽員請遊客打開地圖；哪句是完整命令句？",
+          "options": [
+            "Open the map and look at the river.",
+            "To open the map and look at the river.",
+            "Opening the map and look at the river.",
+            "Opens the map and look at the river."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "兩個原形動詞 Open、look 形成連續指令。",
+            "這是未完成的不定詞片語，不是完整命令。",
+            "動詞形式不平行且缺少主要命令動詞。",
+            "命令句不用第三人稱 opens。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "play the cards with spades",
+          "pattern": [
+            {
+              "text": "V + O　",
+              "fixed": true
+            },
+            {
+              "text": "play + the cards",
+              "fixed": false
+            }
+          ],
+          "explanation": "兩個原形動詞 Open、look 形成連續指令。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "after + 現在完成式（先後關係）",
+          "meaning": "表達某件事完成後，另一行動才發生；歌詞使用被動完成式。",
+          "usage": "需強調完成某步驟以後的下一個動作。",
+          "prompt": "先把海報貼好，然後開門；哪句正確？",
+          "options": [
+            "After we have putted up the poster, we will open the door.",
+            "After we has put up the poster, we will open the door.",
+            "After we have putting up the poster, we will open the door.",
+            "After we have put up the poster, we will open the door."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "put 的過去分詞仍是 put。",
+            "we 應搭配 have。",
+            "have 後應接過去分詞，不是 putting。",
+            "after 子句用現在完成式描述先完成貼海報。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "after he's been hooked",
+          "pattern": [
+            {
+              "text": "after + S + have/has + p.p.　",
+              "fixed": true
+            },
+            {
+              "text": "he has been hooked",
+              "fixed": false
+            }
+          ],
+          "explanation": "after 子句用現在完成式描述先完成貼海報。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "現在完成式被動：has been + 過去分詞",
+          "meaning": "主詞是受到動作影響的人或物；此處 hooked 比喻被吸引。",
+          "usage": "談某人或物已經受到某種影響而非主動做事。",
+          "prompt": "一幅畫已被放進展廳，哪句是正確被動完成式？",
+          "options": [
+            "The painting have been moved to the hall.",
+            "The painting has moved to the hall by the staff.",
+            "The painting has been moved to the hall.",
+            "The painting has been move to the hall."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "單數 painting 用 has。",
+            "此句讓畫主動移動，與人搬畫不符。",
+            "has been moved 是現在完成式被動。",
+            "been 後應接過去分詞 moved。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "he's been hooked",
+          "pattern": [
+            {
+              "text": "has been + p.p.　",
+              "fixed": true
+            },
+            {
+              "text": "hooked",
+              "fixed": false
+            }
+          ],
+          "explanation": "has been moved 是現在完成式被動。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "關係子句：that + 動詞",
+          "meaning": "that 引導限制性關係子句，補充指明是哪一個。",
+          "usage": "多個物品中要指出具有特定特徵的那個。",
+          "prompt": "四把傘中要選紅色的那把；哪句正確？",
+          "options": [
+            "Take the umbrella that are red.",
+            "Take the umbrella that is red.",
+            "Take the umbrella is that red.",
+            "Take the umbrella that red."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "單數 umbrella 要用 is。",
+            "that is red 修飾 umbrella。",
+            "關係子句詞序錯誤。",
+            "缺少 is。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "the one that's on his heart",
+          "pattern": [
+            {
+              "text": "noun + that + V　",
+              "fixed": true
+            },
+            {
+              "text": "the one + that is",
+              "fixed": false
+            }
+          ],
+          "explanation": "that is red 修飾 umbrella。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "will + 動詞原形（未來意圖）",
+          "meaning": "表達將來打算或預測的行動；I’ll = I will。",
+          "usage": "即時做決定或說出未來要做的事。",
+          "prompt": "明天志工會整理花園；哪句正確？",
+          "options": [
+            "We will clean the garden tomorrow.",
+            "We will cleaned the garden tomorrow.",
+            "We will to clean the garden tomorrow.",
+            "We will cleaning the garden tomorrow."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "will 後接原形 clean。",
+            "will 後不能用過去式。",
+            "will 後不加 to。",
+            "will 後不能直接接 -ing。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "I'll play the one",
+          "pattern": [
+            {
+              "text": "will + V　",
+              "fixed": true
+            },
+            {
+              "text": "play",
+              "fixed": false
+            }
+          ],
+          "explanation": "will 後接原形 clean。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "get + 受詞 + 形容詞（使……變得）",
+          "meaning": "讓某人或物呈現某種狀態；原句具有成人調情含義。",
+          "usage": "表達使東西變乾淨、溫暖等結果。",
+          "prompt": "廚師要把湯弄熱；哪句語法和意思都正確？",
+          "options": [
+            "The cook will get the soup to hot.",
+            "The cook will get hot the soup.",
+            "The cook will get the soup hot.",
+            "The cook will get the soup heat."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "此處 get + 受詞 + 形容詞不加 to。",
+            "受詞應放在形容詞 hot 前。",
+            "get the soup hot 表示讓湯變熱。",
+            "heat 在此不是形容詞。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "I'll get him hot",
+          "pattern": [
+            {
+              "text": "get + O + adjective　",
+              "fixed": true
+            },
+            {
+              "text": "him + hot",
+              "fixed": false
+            }
+          ],
+          "explanation": "get the soup hot 表示讓湯變熱。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "雙受詞動詞：show + 人 + 內容",
+          "meaning": "show 可先接接收者，再接展示內容；後面可接 what 名詞子句。",
+          "usage": "向某人展示作品、照片或結果。",
+          "prompt": "畫家要給朋友看新畫；哪句最自然？",
+          "options": [
+            "The artist showed her friend to the new picture.",
+            "The artist showed the new picture her friend.",
+            "The artist showed to her friend the new picture.",
+            "The artist showed her friend the new picture."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "to 使原本的展示內容搭配錯誤。",
+            "雙受詞次序錯誤，須用 showed her friend the picture。",
+            "show 雙受詞結構中不用此 to 位置。",
+            "showed + 人 + 東西，順序正確。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "show him what I've got",
+          "pattern": [
+            {
+              "text": "show + person + thing　",
+              "fixed": true
+            },
+            {
+              "text": "him + what I have got",
+              "fixed": false
+            }
+          ],
+          "explanation": "showed + 人 + 東西，順序正確。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "what + 主詞 + 動詞：名詞子句",
+          "meaning": "what 子句本身可作為某動詞的受詞，語序是陳述句。",
+          "usage": "要說明「我擁有／知道／需要的東西」。",
+          "prompt": "有人問盒子裡有甚麼；哪句正確？",
+          "options": [
+            "I will show you what did I find.",
+            "I will show you what I found.",
+            "I will show you what have I found.",
+            "I will show you what I finding."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "間接子句不能用問句倒裝。",
+            "what I found 是完整名詞子句。",
+            "名詞子句不倒裝 have I。",
+            "缺少適當的動詞。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "what I've got",
+          "pattern": [
+            {
+              "text": "what + S + V　",
+              "fixed": true
+            },
+            {
+              "text": "what I have got",
+              "fixed": false
+            }
+          ],
+          "explanation": "what I found 是完整名詞子句。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "can’t + 原形動詞：無法做到",
+          "meaning": "用 can’t 表示沒有能力做某事；後接動詞原形。",
+          "usage": "遇到看不清、聽不見、無法完成的情況。",
+          "prompt": "離太遠所以看不到字；哪句正確？",
+          "options": [
+            "I cannot read the sign from here.",
+            "I cannot to read the sign from here.",
+            "I cannot reading the sign from here.",
+            "I cannot reads the sign from here."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "cannot 後接原形 read。",
+            "cannot 後不加 to。",
+            "情態動詞後不接 reading。",
+            "不能接第三人稱 reads。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "he can't read my poker face",
+          "pattern": [
+            {
+              "text": "cannot/can’t + V　",
+              "fixed": true
+            },
+            {
+              "text": "read",
+              "fixed": false
+            }
+          ],
+          "explanation": "cannot 後接原形 read。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "get + 人 + like nobody（非標準省略式）",
+          "meaning": "這是口語／歌詞式的省略比較，表示「她對我的影響無人能比」；不是完整標準比較句。",
+          "usage": "辨認歌詞省略；考題用完整標準英文表達相近比較意義。",
+          "prompt": "在音樂會裡，沒人像那位歌手那樣讓觀眾激動；哪句完整自然？",
+          "options": [
+            "No other singer makes the crowd feel like this.",
+            "No singer other makes the crowd feel like this.",
+            "No other singer making the crowd feel like this.",
+            "No other singer makes the crowd to feel like this."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "用完整的比較意思取代原歌詞的省略。",
+            "No other singer 的語序不可顛倒。",
+            "缺少有限定動詞 makes。",
+            "make + 人 + 原形動詞，不加 to。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "She's got me like nobody",
+          "pattern": [
+            {
+              "text": "have got + O + comparison fragment　",
+              "fixed": true
+            },
+            {
+              "text": "me + like nobody",
+              "fixed": false
+            }
+          ],
+          "explanation": "用完整的比較意思取代原歌詞的省略。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "a little + 不可數名詞／活動名詞",
+          "meaning": "a little 表示少量；歌詞 gamblin’ 是 gambling 的口語拼寫。",
+          "usage": "想描述少量時間、運動或水。",
+          "prompt": "跑步後想喝一點水；哪句正確？",
+          "options": [
+            "I need a little three cups after the run.",
+            "I need a littles water after the run.",
+            "I need a little water after the run.",
+            "I need a little bottles after the run."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "a little 不直接接三杯這種數量。",
+            "little 此處不加 s。",
+            "water 不可數，用 a little。",
+            "複數 bottles 應用 a few。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "A little gamblin' is fun",
+          "pattern": [
+            {
+              "text": "a little + uncountable noun　",
+              "fixed": true
+            },
+            {
+              "text": "gambling",
+              "fixed": false
+            }
+          ],
+          "explanation": "water 不可數，用 a little。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "when + 現在式（時間條件）",
+          "meaning": "when 引導時間子句，說明某個情況發生時的另一件事。",
+          "usage": "談兩個經常同時出現的情況。",
+          "prompt": "天氣冷時，這家咖啡店會關窗；哪句正確？",
+          "options": [
+            "When it cold, the café closes the windows.",
+            "When it is cold, the café closes the windows.",
+            "When is it cold, the café closes the windows.",
+            "When it is cold, the café close the windows."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "缺少 is。",
+            "when 子句用現在式表一般規律。",
+            "when 子句不使用問句倒裝。",
+            "單數 café 用 closes。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "when you're with me",
+          "pattern": [
+            {
+              "text": "when + S + V　",
+              "fixed": true
+            },
+            {
+              "text": "you are with me",
+              "fixed": false
+            }
+          ],
+          "explanation": "when 子句用現在式表一般規律。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "not the same without + 名詞",
+          "meaning": "表達缺少某個要素時，情況就不一樣；原歌詞提到危險的賭命比喻，非活動建議。",
+          "usage": "表達某項活動缺少重要人物／元素的感覺。",
+          "prompt": "樂團少了鼓手，聲音不一樣；哪句正確？",
+          "options": [
+            "The band is not the same without to its drummer.",
+            "The band not the same without its drummer.",
+            "The band is not same without its drummer.",
+            "The band is not the same without its drummer."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "without 不接 to + 名詞。",
+            "句中缺少 be 動詞 is。",
+            "same 前面一般需要 the。",
+            "without 接名詞，說明缺少鼓手。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "not the same without a gun",
+          "pattern": [
+            {
+              "text": "be not the same without + noun　",
+              "fixed": true
+            },
+            {
+              "text": "without + a gun",
+              "fixed": false
+            }
+          ],
+          "explanation": "without 接名詞，說明缺少鼓手。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "if + 現在式，現在式結果（一般條件）",
+          "meaning": "表達一般看法或規律；歌詞價值判斷屬角色觀點，不是普遍真理。",
+          "usage": "談日常的規則、習慣或穩定結果。",
+          "prompt": "這盞燈沒有電就不亮；哪句正確？",
+          "options": [
+            "If the lamp has no power, it do not work.",
+            "If the lamp has no power, it not work.",
+            "If the lamp has no power, it does not work.",
+            "If the lamp have no power, it does not work."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "單數 it 用 does not。",
+            "結果子句缺少 does。",
+            "if 現在式配現在式結果，描述一般情況。",
+            "單數 lamp 用 has。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "if it's not rough, it isn't fun",
+          "pattern": [
+            {
+              "text": "if + present, present　",
+              "fixed": true
+            },
+            {
+              "text": "if it is not rough, it is not fun",
+              "fixed": false
+            }
+          ],
+          "explanation": "if 現在式配現在式結果，描述一般情況。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "will not + 動詞原形（否定未來）",
+          "meaning": "won’t = will not，否定將來行動或意願。",
+          "usage": "向別人保證不會透露消息。",
+          "prompt": "朋友要求保密生日驚喜；哪句正確？",
+          "options": [
+            "I will not to tell anyone about the gift.",
+            "I will not tell anyone about the gift.",
+            "I will not told anyone about the gift.",
+            "I will not telling anyone about the gift."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "will 後不加 to。",
+            "will not + tell 表達不會說出去。",
+            "will not 後應用原形 tell。",
+            "will 後不可直接接 telling。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "I won't tell you",
+          "pattern": [
+            {
+              "text": "will not + V　",
+              "fixed": true
+            },
+            {
+              "text": "tell",
+              "fixed": false
+            }
+          ],
+          "explanation": "will not + tell 表達不會說出去。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "tell + 人 + that 子句",
+          "meaning": "tell 後接聽話者及所告知的完整內容。",
+          "usage": "正式或清楚地告知他人一個事實。",
+          "prompt": "職員要通知遊客博物館今天關門；哪句正確？",
+          "options": [
+            "Please tell the visitors that is the museum closed.",
+            "Please tell to the visitors that the museum is closed.",
+            "Please tell that the museum is closed the visitors.",
+            "Please tell the visitors that the museum is closed."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "that 子句用陳述句語序。",
+            "此種雙受詞位置不加 to。",
+            "受話者不應放句尾。",
+            "tell + 人 + that 子句，結構正確。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "tell you that I love you",
+          "pattern": [
+            {
+              "text": "tell + person + that + clause　",
+              "fixed": true
+            },
+            {
+              "text": "you + that I love you",
+              "fixed": false
+            }
+          ],
+          "explanation": "tell + 人 + that 子句，結構正確。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "be + -ing：現在進行式",
+          "meaning": "形容正在進行的行動；bluffin’ 是 bluffing 的非正式拼寫。",
+          "usage": "描述此刻正在進行的活動。",
+          "prompt": "電話裡有人問妹妹正在做甚麼；哪句正確？",
+          "options": [
+            "She painting a small boat now.",
+            "She is paint a small boat now.",
+            "She are painting a small boat now.",
+            "She is painting a small boat now."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "缺少 is。",
+            "is 後需接 painting。",
+            "she 應搭配 is。",
+            "is painting 表示此刻正在畫。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "I'm bluffin'",
+          "pattern": [
+            {
+              "text": "am/is/are + V-ing　",
+              "fixed": true
+            },
+            {
+              "text": "I am bluffing",
+              "fixed": false
+            }
+          ],
+          "explanation": "is painting 表示此刻正在畫。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "not A, just B（修正對方理解）",
+          "meaning": "以 not A, just B 對比否定一種解讀並提出另一種；歌詞語義誇張且口語。",
+          "usage": "要澄清事情的性質，排除甲並指出乙。",
+          "prompt": "朋友以為你在生氣，其實只是累了；哪句正確？",
+          "options": [
+            "I am not angry; I am just tire.",
+            "I am not angry; I am just tired.",
+            "I am no angry; I am just tired.",
+            "I not angry; I just tired."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "此處應使用形容詞 tired。",
+            "not angry 和 just tired 形成清楚修正對比。",
+            "形容詞 angry 前用 not，不用 no。",
+            "兩個子句缺少 be 動詞。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "I'm not lyin', I'm just stunnin'",
+          "pattern": [
+            {
+              "text": "not + A, just + B　",
+              "fixed": true
+            },
+            {
+              "text": "not lying / just stunning",
+              "fixed": false
+            }
+          ],
+          "explanation": "not angry 和 just tired 形成清楚修正對比。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "just like + 名詞（相似比較）",
+          "meaning": "用 just like 比喻某人／物與另一對象相似。",
+          "usage": "描述一件事非常像另一件事。",
+          "prompt": "新建的塔像一支大鉛筆；哪句自然？",
+          "options": [
+            "The new tower looks just likes a giant pencil.",
+            "The new tower look just like a giant pencil.",
+            "The new tower looks just like a giant pencil.",
+            "The new tower looks just like to a giant pencil."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "just like 中 like 不加 s。",
+            "單數 tower 需用 looks。",
+            "just like + 名詞表相似。",
+            "like 後不需要 to。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "Just like a chick in the casino",
+          "pattern": [
+            {
+              "text": "just like + noun　",
+              "fixed": true
+            },
+            {
+              "text": "a chick",
+              "fixed": false
+            }
+          ],
+          "explanation": "just like + 名詞表相似。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "before + 主詞 + 現在式（未來時間關係）",
+          "meaning": "在表未來的時間子句中，before 後常用現在式，不用 will。",
+          "usage": "說明先做哪一步，再發生另一件事。",
+          "prompt": "離開劇院前請先檢查座位；哪句正確？",
+          "options": [
+            "Check your seat before you leave the theatre.",
+            "Check your seat before leave you the theatre.",
+            "Check your seat before you leaving the theatre.",
+            "Check your seat before you will leave the theatre."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "before + you leave，用現在式表示未來時間。",
+            "before 子句詞序錯誤。",
+            "缺少有限定動詞 leave。",
+            "這種時間子句通常不用 will。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "before I pay you out",
+          "pattern": [
+            {
+              "text": "before + S + V　",
+              "fixed": true
+            },
+            {
+              "text": "I pay you out",
+              "fixed": false
+            }
+          ],
+          "explanation": "before + you leave，用現在式表示未來時間。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "promise + 受詞（承諾某件事）",
+          "meaning": "promise 可直接接承諾的事情；歌詞重複 this 加強語氣。",
+          "usage": "明確表示會履行一個承諾。",
+          "prompt": "有人承諾會準時送還借來的畫具；哪句正確？",
+          "options": [
+            "I promise to this: I will return the brushes on Friday.",
+            "I promise this I return the brushes Friday.",
+            "I promise this: I will return the brushes on Friday.",
+            "I promises this: I will return the brushes on Friday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "promise this 不在 this 前加 to。",
+            "需要恰當標點或連接，時間也少 on。",
+            "promise this 後用完整內容說明承諾。",
+            "主詞 I 用 promise，不用 promises。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "I promise this",
+          "pattern": [
+            {
+              "text": "promise + noun/pronoun　",
+              "fixed": true
+            },
+            {
+              "text": "this",
+              "fixed": false
+            }
+          ],
+          "explanation": "promise this 後用完整內容說明承諾。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "because（口語 ’cause）+ 子句",
+          "meaning": "因為後接完整原因子句；’cause 為非正式簡寫。",
+          "usage": "說明為甚麼採取某行動。",
+          "prompt": "導遊帶傘是因為可能下雨；哪句正確？",
+          "options": [
+            "I brought an umbrella because was dark the sky.",
+            "I brought an umbrella because the sky was dark.",
+            "I brought an umbrella because the sky dark.",
+            "I brought an umbrella because of the sky was dark."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "原因子句詞序錯誤。",
+            "because 後有完整主詞和動詞。",
+            "子句缺少 was。",
+            "because of 後應接名詞，不能直接接完整子句。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "'cause I'm marvelous",
+          "pattern": [
+            {
+              "text": "because + S + V　",
+              "fixed": true
+            },
+            {
+              "text": "I am marvelous",
+              "fixed": false
+            }
+          ],
+          "explanation": "because 後有完整主詞和動詞。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "不定詞表示目的：to + 動詞",
+          "meaning": "to-infinitive 可用來表示做某事的目的；歌詞片語為短目的補語。",
+          "usage": "說明為甚麼做某件事。",
+          "prompt": "攝影師到公園拍鳥；哪句正確？",
+          "options": [
+            "She went to the park to take photos of birds.",
+            "She went to the park take to photos of birds.",
+            "She went to the park to taking photos of birds.",
+            "She went to the park for take photos of birds."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "to take photos 表達目的。",
+            "不定詞語序錯誤。",
+            "to 表目的接原形 take。",
+            "for 後不能直接接原形 take。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "to start",
+          "pattern": [
+            {
+              "text": "to + V　",
+              "fixed": true
+            },
+            {
+              "text": "start",
+              "fixed": false
+            }
+          ],
+          "explanation": "to take photos 表達目的。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "形容詞放在 be 後作表語",
+          "meaning": "形容詞作主詞補語，描述人或物的特徵，不當名詞或動詞。",
+          "usage": "說明事物目前的品質或狀況。",
+          "prompt": "舞台燈光非常明亮；哪句正確？",
+          "options": [
+            "The stage lights bright are.",
+            "The stage lights are brightly.",
+            "The stage lights is bright.",
+            "The stage lights are bright."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "一般陳述句的 be 與形容詞順序不對。",
+            "此處需形容詞 bright，非副詞 brightly。",
+            "複數 lights 用 are。",
+            "are 後用形容詞 bright 描述燈光。"
+          ],
+          "sourceFile": "Poker_Face_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "I'm marvelous",
+          "pattern": [
+            {
+              "text": "be + adjective　",
+              "fixed": true
+            },
+            {
+              "text": "am + marvelous",
+              "fixed": false
+            }
+          ],
+          "explanation": "are 後用形容詞 bright 描述燈光。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "fold",
+          "meaning": "棄牌；摺疊",
+          "usage": "玩牌時放棄這一局；也可指摺起紙張。",
+          "prompt": "哪一句正確使用「fold」？",
+          "options": [
+            "She folded her cards when she knew she could not win.",
+            "The player folded her chair to win the card game.",
+            "He folded the team because the score was too low.",
+            "I folded the answer because I did not understand it."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：fold one’s cards 表示在牌局中棄牌。",
+            "錯誤：摺椅可以說 fold a chair，但不能用來表示放棄手牌。",
+            "錯誤：不能用 fold the team 表示球隊輸球或退出。",
+            "錯誤：答案不能用 fold 表示「放棄回答」。"
+          ],
+          "sourceFile": "Poker_Face_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：fold one’s cards 表示在牌局中棄牌。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "raise",
+          "meaning": "提高；增加（賭注或價格）",
+          "usage": "可指提高價格、薪水；牌局中也表示加注。",
+          "prompt": "哪一句正確使用「raise」？",
+          "options": [
+            "The shop raised its prices when it painted the walls blue.",
+            "The shop raised its prices after the cost of food went up.",
+            "The shop raised its prices by moving next to the bank.",
+            "The shop raised its prices by closing two hours earlier."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：牆壁變藍本身不能說明價格提高。",
+            "正確：成本上漲後提高售價，raise prices 搭配自然。",
+            "錯誤：搬到銀行旁不表示售價增加。",
+            "錯誤：縮短營業時間不等於提高價格。"
+          ],
+          "sourceFile": "Poker_Face_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：成本上漲後提高售價，raise prices 搭配自然。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "intuition",
+          "meaning": "直覺",
+          "usage": "沒有完整證據時，憑經驗或內在感覺作出判斷。",
+          "prompt": "哪一句正確使用「intuition」？",
+          "options": [
+            "Her intuition told her something was wrong, though she had no proof.",
+            "Her intuition was the bus schedule posted outside.",
+            "Her intuition was a list of names printed on paper.",
+            "Her intuition was a message she read on her phone."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：沒有證據卻感到不對勁，符合 intuition 的意思。",
+            "錯誤：公車時刻表是可查證的資訊。",
+            "錯誤：寫在紙上的名單是資料，不是直覺。",
+            "錯誤：手機訊息是外部證據，不是直覺。"
+          ],
+          "sourceFile": "Poker_Face_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：沒有證據卻感到不對勁，符合 intuition 的意思。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "spades",
+          "meaning": "黑桃（撲克牌花色）",
+          "usage": "描述撲克牌的黑桃花色，注意複數形式。",
+          "prompt": "哪一句正確使用「spades」？",
+          "options": [
+            "He bought three spades of tea for the picnic.",
+            "She had two spades in her hand during the card game.",
+            "The teacher used spades to measure the classroom temperature.",
+            "There were spades in the garden, so we played cards."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：茶不以 spades 作計量單位。",
+            "正確：在牌局中，spades 是黑桃牌。",
+            "錯誤：黑桃牌不能測量溫度。",
+            "錯誤：花園裡的 spades 是鏟子，並非牌局的黑桃。"
+          ],
+          "sourceFile": "Poker_Face_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：在牌局中，spades 是黑桃牌。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "pair",
+          "meaning": "一對；兩個成組的事物",
+          "usage": "形容兩個相配的人或物；牌局中也指同點數的兩張牌。",
+          "prompt": "哪一句正確使用「pair」？",
+          "options": [
+            "The two singers made a great pair of tickets.",
+            "The two singers made a great pair on stage.",
+            "The two singers made a great pair of noise.",
+            "The two singers made a great pair of music."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：a pair of tickets 指兩張票，不是兩個歌手的搭配。",
+            "正確：兩位歌手搭檔默契好，可稱 a great pair。",
+            "錯誤：noise 是不可數名詞，不可這樣說 pair of noise。",
+            "錯誤：music 也不能用 pair of 表示兩個人合作。"
+          ],
+          "sourceFile": "Poker_Face_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：兩位歌手搭檔默契好，可稱 a great pair。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "rough",
+          "meaning": "粗糙的；艱難的；激烈的",
+          "usage": "形容不平滑表面或艱難的經歷；語境決定意思。",
+          "prompt": "哪一句正確使用「rough」？",
+          "options": [
+            "The road was rough because the station opened early.",
+            "The road was rough because every sign was green.",
+            "The road was rough, so the bike ride was uncomfortable.",
+            "The road was rough because the map was new."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：車站提早營業不代表道路粗糙。",
+            "錯誤：路牌綠色不代表路面崎嶇。",
+            "正確：路不平，騎車不舒服，符合 rough 的意思。",
+            "錯誤：地圖新舊不代表路面不平。"
+          ],
+          "sourceFile": "Poker_Face_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：路不平，騎車不舒服，符合 rough 的意思。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "casino",
+          "meaning": "賭場",
+          "usage": "指提供賭博遊戲的場所；屬較具特定文化情境的名詞。",
+          "prompt": "哪一句正確使用「casino」？",
+          "options": [
+            "The casino had card games and many bright lights.",
+            "The casino sold train tickets to people at the station.",
+            "The casino was where the planes waited to leave.",
+            "He went to a casino to borrow a history book."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：賭場內有紙牌遊戲與燈光的描述合理。",
+            "錯誤：售票站不是賭場。",
+            "錯誤：飛機候機及停放區不是 casino。",
+            "錯誤：借歷史書一般是在圖書館。"
+          ],
+          "sourceFile": "Poker_Face_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：賭場內有紙牌遊戲與燈光的描述合理。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "pay out",
+          "meaning": "支付款項；給付獎金或賠償",
+          "usage": "常用於保險、獎金或其他款項的給付。",
+          "prompt": "哪一句正確使用「pay out」？",
+          "options": [
+            "The company paid out because its new logo was blue.",
+            "The company paid out the meeting to another day.",
+            "The company paid out a song for its new workers.",
+            "The company paid out compensation after the accident."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：商標顏色本身不是支付款項的理由。",
+            "錯誤：會議延期應用 postponed，不是 paid out。",
+            "錯誤：歌曲不能當作 pay out 的付款對象。",
+            "正確：pay out compensation 表示支付賠償。"
+          ],
+          "sourceFile": "Poker_Face_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：pay out compensation 表示支付賠償。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "marvelous",
+          "meaning": "極好的；令人讚嘆的",
+          "usage": "讚賞表演、成果或經驗，英式亦寫 marvellous。",
+          "prompt": "哪一句正確使用「marvelous」？",
+          "options": [
+            "The play was marvelous because it ended at seven.",
+            "The play was marvelous because tickets were printed.",
+            "The play was marvelous; the actors were truly excellent.",
+            "The play was marvelous because the seats were numbered."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：七點結束不足以說明表演精彩。",
+            "錯誤：有印門票是一般安排，不代表精彩。",
+            "正確：演員非常出色，稱演出 marvelous 很自然。",
+            "錯誤：座位有編號不足以說明演出精彩。"
+          ],
+          "sourceFile": "Poker_Face_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：演員非常出色，稱演出 marvelous 很自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "stunnin’ / stunning",
+          "meaning": "令人驚艷的；極出色的",
+          "usage": "形容美景、外表或表演令人讚嘆；歌詞 stunnin’ 為口語省音。",
+          "prompt": "哪一句正確使用「stunnin’ / stunning」？",
+          "options": [
+            "The view from the hill was stunning because it had a name.",
+            "The view from the hill was stunning because the sign was small.",
+            "The view from the hill was stunning at five kilometers.",
+            "The view from the hill was stunning at sunset."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：景點有名字不是 stunning 的充分理由。",
+            "錯誤：牌子小與風景令人驚艷沒有直接關係。",
+            "錯誤：五公里是距離，不能單獨解釋令人讚嘆。",
+            "正確：夕陽時的山頂景色令人驚艷。"
+          ],
+          "sourceFile": "Poker_Face_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：夕陽時的山頂景色令人驚艷。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        }
+      ]
+    }
   }
 }

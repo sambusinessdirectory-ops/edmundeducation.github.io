@@ -3285,5 +3285,1334 @@
     "sha256": "cd3efe1416d61a277bd1fd83902ac1d85ee93f30ca0de384e2c88438cee64dd5",
     "transformations": "none",
     "selectedOn": "2026-10-29"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "6f5a54768e868945f9abfeac83cc3567965ff007c0e4ac2105c237a6a788cf11"
+    },
+    {
+      "section": "advanced",
+      "filename": "Maneater_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "2f1b2122b1a40b7564221550ecbb74e9c4a0ba277e6217bd770da765da79d5c6"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "will + 原形動詞（未來）",
+          "meaning": "表示將來或預測的行動；she'll = she will。",
+          "usage": "預測某人將在某個時間做某事。",
+          "prompt": "天文館今晚將開放新展區，哪一句符合預測？",
+          "options": [
+            "The new room will opened tonight.",
+            "The new room is will open tonight.",
+            "The new room will opening tonight.",
+            "The new room will open tonight."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "will 後不能接過去式 opened。",
+            "be 動詞與 will 的位置錯誤。",
+            "will 後不能接 opening。",
+            "will 後接 open 原形，預測今晚開放。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "She'll only come out at night",
+          "pattern": [
+            {
+              "text": "will + V",
+              "fixed": true
+            },
+            {
+              "text": "she / come out at night",
+              "fixed": false
+            }
+          ],
+          "explanation": "will 後接 open 原形，預測今晚開放。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "only + 動詞片語（限制）",
+          "meaning": "only 限定事情只在某種情況發生。",
+          "usage": "強調只有一種時段或條件適用。",
+          "prompt": "野生動物攝影師發現一種動物只在夜晚出現。",
+          "options": [
+            "The animal only comes out at night.",
+            "The animal only comes out at noon and at night.",
+            "The animal comes only out a night.",
+            "The animal only come out at night."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "only 限定夜晚，動詞也與單數主詞一致。",
+            "同時包含中午，不符合只在夜間出現的資訊。",
+            "語序與介系詞錯誤，應說 comes out at night。",
+            "單數 animal 應使用 comes。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "only come out at night",
+          "pattern": [
+            {
+              "text": "only + V phrase",
+              "fixed": true
+            },
+            {
+              "text": "come out at night",
+              "fixed": false
+            }
+          ],
+          "explanation": "only 限定夜晚，動詞也與單數主詞一致。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "the + 形容詞 + and + 形容詞 + 名詞",
+          "meaning": "兩個形容詞並列修飾同一名詞。",
+          "usage": "描述某一類人或事物的兩項特徵。",
+          "prompt": "植物展要介紹一種又小又漂亮的花。",
+          "options": [
+            "The small and pretty flower is here.",
+            "The small and beauty flower is here.",
+            "The small or pretty flower is here.",
+            "The small and flower beautiful is here."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "small 和 pretty 並列修飾 flower。",
+            "beauty 是名詞；此處應用形容詞。",
+            "or 表示二選一，非兩種特色都具備。",
+            "第二個形容詞不應排到名詞後。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "The lean and hungry type",
+          "pattern": [
+            {
+              "text": "the + Adj + and + Adj + N",
+              "fixed": true
+            },
+            {
+              "text": "lean / hungry / type",
+              "fixed": false
+            }
+          ],
+          "explanation": "small 和 pretty 並列修飾 flower。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "nothing + be + 形容詞",
+          "meaning": "nothing 表示沒有任何事物；當單數主詞。",
+          "usage": "說明某個環境裡沒有新事物。",
+          "prompt": "博物館昨天和今天展品完全相同。",
+          "options": [
+            "Nothing are new in the room.",
+            "Nothing new is at room.",
+            "Nothing is newly in the room.",
+            "Nothing is new in the room."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "nothing 當單數主詞，應用 is。",
+            "at room 介系詞不自然。",
+            "newly 是副詞，不能在此當表語形容詞。",
+            "nothing is new 表示沒有新東西。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "Nothing is new",
+          "pattern": [
+            {
+              "text": "nothing + be + Adj",
+              "fixed": true
+            },
+            {
+              "text": "new",
+              "fixed": false
+            }
+          ],
+          "explanation": "nothing is new 表示沒有新東西。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "have/has + 過去分詞（現在完成式）",
+          "meaning": "現在完成式可談到目前為止的經驗。",
+          "usage": "說之前已經見過某人或某物。",
+          "prompt": "你認得一位曾在市集表演的魔術師。",
+          "options": [
+            "I has seen this magician before.",
+            "I have saw this magician before.",
+            "I have seen this magician before.",
+            "I have seeing this magician before."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "I 應搭配 have，不是 has。",
+            "have 後要接過去分詞 seen，而非 saw。",
+            "have seen 表示此前見過。",
+            "have 後不能接 seeing。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "I've seen her here before",
+          "pattern": [
+            {
+              "text": "have/has + p.p.",
+              "fixed": true
+            },
+            {
+              "text": "I / seen her here before",
+              "fixed": false
+            }
+          ],
+          "explanation": "have seen 表示此前見過。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "V-ing + and + V-ing（並列）",
+          "meaning": "兩個 -ing 形式並列，表示同時或連續活動；原句屬歌詞省略片語。",
+          "usage": "描述兩個正在進行的動作。",
+          "prompt": "看守員正在觀察小海龜並等待牠們回到海裡。",
+          "options": [
+            "The guide watching and waiting yesterday.",
+            "The guide is watching and wait.",
+            "The guide is watching and waiting.",
+            "The guide is watch and waiting."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "缺少 is；昨天也不宜搭配現在進行式。",
+            "and 後應為 waiting。",
+            "watching 和 waiting 形式平行，作進行式的一部分。",
+            "and 前後形式不平行。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "Watching and waiting",
+          "pattern": [
+            {
+              "text": "V-ing + and + V-ing",
+              "fixed": true
+            },
+            {
+              "text": "watching / waiting",
+              "fixed": false
+            }
+          ],
+          "explanation": "watching 和 waiting 形式平行，作進行式的一部分。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "be + V-ing（現在進行式）",
+          "meaning": "用進行式描述此刻正在發生的動作。",
+          "usage": "描述活動現場某人的動作。",
+          "prompt": "劇院工作人員現在坐在入口旁。",
+          "options": [
+            "The worker is sit by the door now.",
+            "The worker are sitting by the door now.",
+            "The worker sitting by the door now.",
+            "The worker is sitting by the door now."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "is 後應接 sitting。",
+            "單數 worker 應搭配 is。",
+            "缺少 is。",
+            "is sitting 表示此刻正坐著。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "she's sitting with you",
+          "pattern": [
+            {
+              "text": "am/is/are + V-ing",
+              "fixed": true
+            },
+            {
+              "text": "she / sitting with you",
+              "fixed": false
+            }
+          ],
+          "explanation": "is sitting 表示此刻正坐著。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "but 連接對比子句",
+          "meaning": "but 連接意思相反或形成對比的內容。",
+          "usage": "表達表面行為與實際注意力之間的反差。",
+          "prompt": "朋友口頭說要休息，卻仍在整理舞台。",
+          "options": [
+            "She says she is tired, but she keeps working.",
+            "She says she is tired, so she goes to bed.",
+            "She says she is tired, because she goes to bed.",
+            "She says she is tired, and she goes to bed."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "but 連接疲倦與繼續工作兩個相反事實。",
+            "so 表示結果，且不是題述反差。",
+            "because 解釋原因，非轉折。",
+            "and 只是接續，未呈現反差。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "she's sitting with you, but her eyes are on the door",
+          "pattern": [
+            {
+              "text": "clause + but + clause",
+              "fixed": true
+            },
+            {
+              "text": "sitting with you / eyes are on the door",
+              "fixed": false
+            }
+          ],
+          "explanation": "but 連接疲倦與繼續工作兩個相反事實。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "所有格 + 複數名詞 + are",
+          "meaning": "所有格限定擁有者；複數名詞搭配 are。",
+          "usage": "描述某人的複數物品或身體部位。",
+          "prompt": "舞者的兩隻手放在桌上。",
+          "options": [
+            "Her hands is on the table.",
+            "Her hands are on the table.",
+            "She hands are on the table.",
+            "Her hand are on the table."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "hands 複數應用 are。",
+            "her hands are 形式與主謂一致。",
+            "she 是主格，不能代替所有格 her。",
+            "hand 單數應搭配 is。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "her eyes are on the door",
+          "pattern": [
+            {
+              "text": "possessive + plural N + are",
+              "fixed": true
+            },
+            {
+              "text": "her / eyes / on the door",
+              "fixed": false
+            }
+          ],
+          "explanation": "her hands are 形式與主謂一致。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "so many + 複數概念",
+          "meaning": "so many 可指非常多人，歌詞中省略 people。",
+          "usage": "強調人數很多；可直接接複數名詞。",
+          "prompt": "社區園藝活動有非常多志工來幫忙。",
+          "options": [
+            "So many volunteer came to help.",
+            "So many volunteers came to help.",
+            "So much volunteers came to help.",
+            "So many volunteers comes to help."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "many 後的可數名詞需複數。",
+            "many 接複數 volunteers，表示很多人。",
+            "volunteers 為可數複數，不用 much。",
+            "複數 volunteers 不用 comes，且已發生要用 came。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "So many have paid",
+          "pattern": [
+            {
+              "text": "so many + plural N / plural people (省略)",
+              "fixed": true
+            },
+            {
+              "text": "many (people) / have paid",
+              "fixed": false
+            }
+          ],
+          "explanation": "many 接複數 volunteers，表示很多人。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "動詞 + to + 原形（目的）",
+          "meaning": "不定詞可表示做前一動作的目的。",
+          "usage": "說明花錢或採取行動是為了什麼。",
+          "prompt": "你買票是為了看木偶表演。",
+          "options": [
+            "We paid to see the puppet show.",
+            "We paid for see the puppet show.",
+            "We paid to watching the puppet show.",
+            "We paid seeing the puppet show."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "paid to see 表示付錢的目的。",
+            "for 後直接接 see 原形不合此句型。",
+            "to 後要用 see 原形。",
+            "paid 後不是這樣直接接 seeing。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "have paid to see",
+          "pattern": [
+            {
+              "text": "V + to + base V",
+              "fixed": true
+            },
+            {
+              "text": "paid / see",
+              "fixed": false
+            }
+          ],
+          "explanation": "paid to see 表示付錢的目的。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "what 引導的名詞子句（巢狀）",
+          "meaning": "what 子句可以含另一層說話者的看法；歌詞中 think 後省略 that。",
+          "usage": "描述你認為自己正在得到的東西。",
+          "prompt": "禮品店客人以為自己拿到免費地圖，但其實需付費。",
+          "options": [
+            "What you think free you're getting is a map.",
+            "What you think you get it for free is a map.",
+            "What do you think you are getting for free is a map.",
+            "What you think you're getting for free is a map."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "free 必須放在 for free 片語中。",
+            "what 已充當 getting 的受詞，不應再加 it。",
+            "這是名詞子句，不是直接問句，不需要 do 倒裝。",
+            "what 子句用直述語序，可整體當主詞。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "what you think you're getting for free",
+          "pattern": [
+            {
+              "text": "what + S + V + (embedded clause)",
+              "fixed": true
+            },
+            {
+              "text": "you think / you're getting for free",
+              "fixed": false
+            }
+          ],
+          "explanation": "what 子句用直述語序，可整體當主詞。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "for free（免費）",
+          "meaning": "for free 表示不付費，不是自由地移動。",
+          "usage": "說明活動或服務免費。",
+          "prompt": "市立美術館星期天免費入場。",
+          "options": [
+            "You can visit the art museum for the free on Sunday.",
+            "You can visit the art museum for free on Sunday.",
+            "You can visit the art museum by free on Sunday.",
+            "You can visit the art museum for freely on Sunday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "固定片語不加 the。",
+            "for free 是固定搭配，表示不收費。",
+            "不說 by free。",
+            "for free 不改成 freely。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "for free",
+          "pattern": [
+            {
+              "text": "for free",
+              "fixed": true
+            },
+            {
+              "text": "the service / for free",
+              "fixed": false
+            }
+          ],
+          "explanation": "for free 是固定搭配，表示不收費。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "過去分詞修飾名詞（被動縮減關係子句）",
+          "meaning": "tamed 是過去分詞，描述承受動作的名詞，by 可表示來源或行動者。",
+          "usage": "簡潔描述被某事影響的物件。",
+          "prompt": "藝術館展示一個由當地工匠製作的木盒。",
+          "options": [
+            "The box made to a local artist is here.",
+            "The box made by a local artist is here.",
+            "The box is made by a local artist is here.",
+            "The box making by a local artist is here."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "表示製作者應用 by。",
+            "made by 表示由工匠製作，是縮減關係子句。",
+            "重複兩個 is，結構錯誤。",
+            "修飾 box 的被動形式要用 made。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "a she-cat tamed by the purr of a Jaguar",
+          "pattern": [
+            {
+              "text": "N + past participle + by + N",
+              "fixed": true
+            },
+            {
+              "text": "she-cat / tamed / the purr",
+              "fixed": false
+            }
+          ],
+          "explanation": "made by 表示由工匠製作，是縮減關係子句。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "if + 現在簡單式（條件）",
+          "meaning": "if 子句提出假設條件；原句後接對結果的預測。",
+          "usage": "提出某種情況發生時的結果。",
+          "prompt": "如果明天下雨，露天演出會移到室內。",
+          "options": [
+            "If it rains, the show will move inside.",
+            "If it rain, the show will move inside.",
+            "If it raining, the show will move inside.",
+            "If it will rain, the show moves inside."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "if it rains 搭配 will move 表示可能的未來結果。",
+            "it 單數應用 rains。",
+            "if 子句缺少 be 動詞。",
+            "一般將來條件句的 if 子句通常用現在式。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "If you're in it for love",
+          "pattern": [
+            {
+              "text": "if + S + present V",
+              "fixed": true
+            },
+            {
+              "text": "you / are in it for love",
+              "fixed": false
+            }
+          ],
+          "explanation": "if it rains 搭配 will move 表示可能的未來結果。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "be in it for + 目的",
+          "meaning": "表示參與活動的真正動機或目的。",
+          "usage": "澄清參加某個計畫的原因。",
+          "prompt": "一位志工參加活動的目的是幫助動物，並無意爭取獎品。",
+          "options": [
+            "I'm in it for the animals, not the prize.",
+            "I'm in it for very kind.",
+            "I'm in it to the animals.",
+            "I'm in it for helping at the animals."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "in it for the animals 表示為動物而參與。",
+            "kind 為形容詞，不能直接接在 for 後。",
+            "後面缺少自然的目的名詞片語。",
+            "for 後面的搭配不自然，不能說 helping at the animals。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "you're in it for love",
+          "pattern": [
+            {
+              "text": "be in it for + N",
+              "fixed": true
+            },
+            {
+              "text": "you / love",
+              "fixed": false
+            }
+          ],
+          "explanation": "in it for the animals 表示為動物而參與。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "get + 程度副詞 + far",
+          "meaning": "get far 可指取得進展；too 修飾 far；原文含非正式 ain't gonna。",
+          "usage": "描述事情進展的程度。",
+          "prompt": "登山客沒帶水，可能走不遠。",
+          "options": [
+            "Without water, we won't get to far.",
+            "Without water, we won't getting far.",
+            "Without water, we won't get very far.",
+            "Without water, we won't get far very."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "to far 不可取代程度副詞；too far 另有過遠之意。",
+            "won't 後接 get 原形。",
+            "get very far 表示有多大進展；情境是走不遠。",
+            "very far 語序錯誤。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "you ain't gonna get too far",
+          "pattern": [
+            {
+              "text": "get + too + far",
+              "fixed": true
+            },
+            {
+              "text": "you / too far",
+              "fixed": false
+            }
+          ],
+          "explanation": "get very far 表示有多大進展；情境是走不遠。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "祈使句 watch out（警告）",
+          "meaning": "watch out 用來提醒立即注意危險；稱呼語可以另放。",
+          "usage": "緊急提醒別人小心。",
+          "prompt": "陶藝教室有人差點碰到熱爐。",
+          "options": [
+            "Watching out! The oven is hot.",
+            "Watch out of! The oven is hot.",
+            "Watch out the oven is hot.",
+            "Watch out! The oven is hot."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "祈使句應用原形 watch。",
+            "watch out 不能直接加 of 作警告。",
+            "缺少感嘆號不一定錯，但此處兩個子句需要分隔；為避免歧義，應加標點。",
+            "Watch out! 是自然的警告祈使句。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "Watch out, boy",
+          "pattern": [
+            {
+              "text": "Watch out!",
+              "fixed": true
+            },
+            {
+              "text": "boy (稱呼語)",
+              "fixed": false
+            }
+          ],
+          "explanation": "Watch out! 是自然的警告祈使句。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "動詞片語 + 代名詞受詞 + up",
+          "meaning": "可分動詞片語在受詞是代名詞時，代名詞置於動詞與 up 之間；此處比喻擊垮某人。",
+          "usage": "形容艱鉅工作使人精疲力盡。",
+          "prompt": "一週連續工作讓一位廚師非常疲憊。",
+          "options": [
+            "That long week chewed him for up.",
+            "That long week chewed him up.",
+            "That long week chewed he up.",
+            "That long week chewed up him."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "不能在 him 和 up 中間插入 for。",
+            "chewed him up 可比喻折磨得精疲力竭。",
+            "受詞應用 him 而不是主格 he。",
+            "代名詞 him 不能放在 chew up 後面。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "she'll chew you up",
+          "pattern": [
+            {
+              "text": "chew + pronoun + up",
+              "fixed": true
+            },
+            {
+              "text": "she / you",
+              "fixed": false
+            }
+          ],
+          "explanation": "chewed him up 可比喻折磨得精疲力竭。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "第二類條件句：省略的 would + if I were you",
+          "meaning": "用假設自己處於對方情境，表達不建議的行動；wouldn't 後省略已知動作。",
+          "usage": "溫和地勸朋友不要冒險。",
+          "prompt": "朋友想在沒有頭盔時騎腳踏車。",
+          "options": [
+            "I won't if I am you.",
+            "I wouldn't if I was you yesterday.",
+            "I wouldn't if I were you.",
+            "I wouldn't if you were I tomorrow."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "這裡談假設建議，不是單純將來。",
+            "yesterday 改變情境；原本要說現在的假設建議。",
+            "I wouldn't if I were you 是自然的省略式勸告。",
+            "人稱與條件意義改變，也不自然。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "I wouldn't if I were you",
+          "pattern": [
+            {
+              "text": "wouldn't (omitted action) + if + S + were",
+              "fixed": true
+            },
+            {
+              "text": "I / you",
+              "fixed": false
+            }
+          ],
+          "explanation": "I wouldn't if I were you 是自然的省略式勸告。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "know + wh-名詞子句（間接問句）",
+          "meaning": "間接問句使用直述句語序，不倒裝。",
+          "usage": "說自己知道別人能做什麼。",
+          "prompt": "隊長知道新隊員能做哪些工作。",
+          "options": [
+            "I know what does she can do.",
+            "I know what she can do.",
+            "I know what can she do.",
+            "I know what she can does."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "混用 does 與 can，語序也不對。",
+            "what she can do 為正確名詞子句。",
+            "間接問句不能用 can she 倒裝。",
+            "情態動詞後接 do 原形。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "I know what she can do",
+          "pattern": [
+            {
+              "text": "know + wh- + S + V",
+              "fixed": true
+            },
+            {
+              "text": "I / what she can do",
+              "fixed": false
+            }
+          ],
+          "explanation": "what she can do 為正確名詞子句。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "could + 原形動詞（可能性）",
+          "meaning": "could 可表示可能發生的事，尤其作警告或推測。",
+          "usage": "提醒別人某選擇可能帶來損失。",
+          "prompt": "珍貴展品不能隨意碰觸，可能會弄壞。",
+          "options": [
+            "One wrong move could breaks the glass.",
+            "One wrong move could broke the glass.",
+            "One wrong move could breaking the glass.",
+            "One wrong move could break the glass."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "could 後不能接 breaks。",
+            "could 後面不能用 broke。",
+            "could 後不能接 breaking。",
+            "could break 表示一個動作可能造成損壞。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "She could really rip your world apart",
+          "pattern": [
+            {
+              "text": "could + base V",
+              "fixed": true
+            },
+            {
+              "text": "she / rip your world apart",
+              "fixed": false
+            }
+          ],
+          "explanation": "could break 表示一個動作可能造成損壞。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "動詞 + 受詞 + apart（結果）",
+          "meaning": "rip ... apart 表示撕裂或比喻摧毀，apart 說明結果。",
+          "usage": "描述某個事件對生活造成重大影響，或實際撕開物品。",
+          "prompt": "美術課學生把舊海報撕成兩半。",
+          "options": [
+            "The child ripped the poster apart.",
+            "The child ripped the poster a part of.",
+            "The child ripped apart the poster with two pieces.",
+            "The child ripped the poster to apart."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "rip the poster apart 表示把海報撕開。",
+            "a part of 表示某部分，不是 apart 結果補語。",
+            "此句的 with two pieces 不表示撕成兩半，搭配不自然。",
+            "apart 前不加 to。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "rip your world apart",
+          "pattern": [
+            {
+              "text": "rip + object + apart",
+              "fixed": true
+            },
+            {
+              "text": "your world",
+              "fixed": false
+            }
+          ],
+          "explanation": "rip the poster apart 表示把海報撕開。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "there 作位置副詞（非 there is）",
+          "meaning": "the beauty is there 的 there 表示「在那裡／存在於該處」，並非倒裝的 there is。",
+          "usage": "說某樣東西在一個已知的位置。",
+          "prompt": "參觀者問地圖是不是還放在展覽入口。",
+          "options": [
+            "The map is the there.",
+            "The map is there.",
+            "The map there is.",
+            "There the map is there."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "there 不是可以加 the 的名詞。",
+            "the map is there 表示地圖在那裡。",
+            "一般陳述句不採這種倒裝。",
+            "重複使用 there，語序不自然。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "the beauty is there but a beast is in the heart",
+          "pattern": [
+            {
+              "text": "S + be + there",
+              "fixed": true
+            },
+            {
+              "text": "beauty / there",
+              "fixed": false
+            }
+          ],
+          "explanation": "the map is there 表示地圖在那裡。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "be + a/an + 單數可數名詞",
+          "meaning": "單數可數名詞作表語通常需要冠詞。",
+          "usage": "介紹一個人的身分或角色。",
+          "prompt": "導覽員介紹表演者是一名魔術師。",
+          "options": [
+            "He is an magician.",
+            "He is magician.",
+            "He is a magician.",
+            "He are a magician."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "magician 的開頭音為子音 /m/，應用 a。",
+            "magician 是可數單數名詞，需要冠詞。",
+            "a magician 是自然的身分描述。",
+            "he 要接 is，不是 are。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "she's a maneater",
+          "pattern": [
+            {
+              "text": "be + a/an + singular N",
+              "fixed": true
+            },
+            {
+              "text": "she / a maneater",
+              "fixed": false
+            }
+          ],
+          "explanation": "a magician 是自然的身分描述。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "here + 主詞 + 動詞（代名詞主詞）",
+          "meaning": "here she comes 用來指出某人正在來；主詞為代名詞時不採 here comes she。",
+          "usage": "看到客人走進店內，提醒同事。",
+          "prompt": "店員看見受邀的演奏家正走近。",
+          "options": [
+            "She here comes!",
+            "Here comes she!",
+            "Here she comes!",
+            "Here she come!"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "一般位置語序不自然。",
+            "代名詞主詞不使用 Here comes she。",
+            "Here she comes 是自然的即時提示。",
+            "she 單數要接 comes。"
+          ],
+          "sourceFile": "Maneater_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "Here she comes",
+          "pattern": [
+            {
+              "text": "here + pronoun + V",
+              "fixed": true
+            },
+            {
+              "text": "she / comes",
+              "fixed": false
+            }
+          ],
+          "explanation": "Here she comes 是自然的即時提示。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "lean",
+          "meaning": "精瘦的；脂肪少的（也可形容精簡）",
+          "usage": "形容身材精瘦，常見 lean athlete；與 hungry 的渴望意義不同。",
+          "prompt": "哪一句最自然、正確使用「lean」？",
+          "options": [
+            "The runner felt lean because she missed her old friends.",
+            "The runner became lean when his new shoes turned blue.",
+            "The runner was lean and strong after months of training.",
+            "The runner was lean because his bag weighed ten kilos."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。想念朋友是 lonely 或 sad，不是 lean。",
+            "錯誤。鞋子的顏色與體脂或身材無關。",
+            "正確。lean 形容身材精瘦，可與 strong 一起使用。",
+            "錯誤。背包重不能證明身材精瘦。"
+          ],
+          "sourceFile": "Maneater_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確。lean 形容身材精瘦，可與 strong 一起使用。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "hungry",
+          "meaning": "渴望的；急於得到某事（也指肚子餓）",
+          "usage": "hungry for + 成功／知識等，表示強烈渴望；歌詞帶有比喻意味。",
+          "prompt": "哪一句最自然、正確使用「hungry」？",
+          "options": [
+            "The young chef was hungry for blue when it rained.",
+            "The young chef was hungry for success and practised every day.",
+            "The young chef was hungry for a train, so she missed dinner.",
+            "The young chef was hungry for the train at nine."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。blue 在這個情境不是自然的渴望對象。",
+            "正確。hungry for success 表示渴望成功，不是指食慾。",
+            "錯誤。hungry for a train 不是「趕車」的自然搭配，應說 eager to catch the train。",
+            "錯誤。要趕火車用 hurry to catch the train。"
+          ],
+          "sourceFile": "Maneater_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確。hungry for success 表示渴望成功，不是指食慾。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "tamed",
+          "meaning": "被馴服的；變得較溫順的",
+          "usage": "tame 常用於訓練動物，也可比喻控制難以掌握的事物。",
+          "prompt": "哪一句最自然、正確使用「tamed」？",
+          "options": [
+            "The loud drum was tamed into a chair during lunch.",
+            "The wild fox was tamed by a rainy afternoon.",
+            "The once-wild horse was tamed by a patient trainer.",
+            "The hungry river was tamed by a picture of the sky."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。tame 不表示把鼓變成椅子。",
+            "錯誤。單靠雨天無法表示狐狸被馴養。",
+            "正確。耐心的訓練者讓原本野性的馬逐漸馴服。",
+            "錯誤。圖片不能自然充當馴服河流的力量。"
+          ],
+          "sourceFile": "Maneater_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確。耐心的訓練者讓原本野性的馬逐漸馴服。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "purr",
+          "meaning": "（貓）發出呼嚕聲；（引擎）低沉平順地運轉",
+          "usage": "一般形容貓的呼嚕聲，也能比喻運轉平順的引擎。",
+          "prompt": "哪一句最自然、正確使用「purr」？",
+          "options": [
+            "The cat purred softly while resting on the warm sofa.",
+            "The kitten purred loudly to buy a ticket for the bus.",
+            "The small boat purred a yellow sandwich into the sea.",
+            "The doctor purred the broken window with a long brush."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。貓舒服休息時會輕柔地發出呼嚕聲。",
+            "錯誤。貓可以呼嚕，但呼嚕不是買車票的手段。",
+            "錯誤。purr 不是將食物送進海裡的動作。",
+            "錯誤。purr 不能當作修理窗戶的動詞。"
+          ],
+          "sourceFile": "Maneater_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確。貓舒服休息時會輕柔地發出呼嚕聲。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "deadly",
+          "meaning": "致命的；極度危險的",
+          "usage": "形容可能造成死亡或嚴重傷害；歌詞也有誇飾的警告語氣。",
+          "prompt": "哪一句最自然、正確使用「deadly」？",
+          "options": [
+            "The guide warned us that the snake had deadly venom.",
+            "The guide said his friendly smile was deadly for the timetable.",
+            "The guide used deadly to mean the museum opened early.",
+            "The guide called the cheap bus ticket deadly because it was blue."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。deadly venom 是可能致命的毒液。",
+            "錯誤。微笑不會自然地使時刻表致命。",
+            "錯誤。deadly 不表示提早開門。",
+            "錯誤。票價或顏色本身不是致命性的依據。"
+          ],
+          "sourceFile": "Maneater_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確。deadly venom 是可能致命的毒液。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "beast",
+          "meaning": "野獸；兇猛或難以控制的人／事物",
+          "usage": "可指大型兇猛動物，文學作品也用來象徵內在的危險。",
+          "prompt": "哪一句最自然、正確使用「beast」？",
+          "options": [
+            "The teacher used beast to mean a very quiet afternoon.",
+            "The beast was the exact time printed on every ticket.",
+            "The beast opened a small bank account with a pencil.",
+            "The story tells of a beast that lived deep in the forest."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。beast 不等於安靜的下午。",
+            "錯誤。beast 不是印在票上的時間。",
+            "錯誤。句子把野獸當成辦銀行帳戶的人，欠缺合理語境。",
+            "正確。故事中的 beast 是森林裡的野獸。"
+          ],
+          "sourceFile": "Maneater_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確。故事中的 beast 是森林裡的野獸。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "maneater",
+          "meaning": "（比喻）善於誘惑、傷害男性的女性；字面可指食人動物",
+          "usage": "歌詞用來刻畫單一人物，不應當作對女性的普遍描述；用語帶評價及性別刻板印象。",
+          "prompt": "哪一句最自然、正確使用「maneater」？",
+          "options": [
+            "The film called its dangerous tiger a maneater after several attacks.",
+            "The film described a soft pillow as a maneater because it was warm.",
+            "The writer used maneater to mean a person who collects postcards.",
+            "The writer said maneater was the name of a city bus stop."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。吃過人的老虎可以在字面意義上稱為 maneater。",
+            "錯誤。枕頭很暖不代表食人或歌詞中的誘惑形象。",
+            "錯誤。收集明信片與此詞的兩類主要意思無關。",
+            "錯誤。maneater 並不表示公車站。"
+          ],
+          "sourceFile": "Maneater_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確。吃過人的老虎可以在字面意義上稱為 maneater。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "eyes are on",
+          "meaning": "目光盯著；注意力集中在……",
+          "usage": "eyes are on + 人／事物：著重正在注視或留意的對象。",
+          "prompt": "哪一句最自然、正確使用「eyes are on」？",
+          "options": [
+            "Her eyes were on a spoon to make the hot soup colder.",
+            "Her eyes were on hungry after the train arrived.",
+            "Her eyes were on Friday because she wore a jacket.",
+            "Her eyes were on the stage as the dancer began."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。看湯匙無法自然表示讓熱湯降溫；應說 she stirred the soup。",
+            "錯誤。hungry 是形容詞，不能這樣作 on 的受詞。",
+            "錯誤。Friday 是日期，這裡沒有合適的視覺焦點。",
+            "正確。舞者開始時，她全神貫注看著舞台。"
+          ],
+          "sourceFile": "Maneater_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確。舞者開始時，她全神貫注看著舞台。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "matter",
+          "meaning": "問題；關鍵所在；重要的事情",
+          "usage": "the matter 可指問題／關鍵；歌詞 Money’s the matter 是壓縮且有詩意的說法。",
+          "prompt": "哪一句最自然、正確使用「matter」？",
+          "options": [
+            "The matter in the box was three red pencils.",
+            "The main matter was money: they could not pay the rent.",
+            "For the matter, I walked to school very early.",
+            "She matter the window because the weather was cold."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。這裡要說盒子裡有什麼，可用 contents；不是自然表達「問題所在」。",
+            "正確。main matter 可表示主要問題，但日常更常說 main issue。",
+            "錯誤。for the matter 無法自然表示提早去上學的原因。",
+            "錯誤。matter 不是「關窗」的動詞。"
+          ],
+          "sourceFile": "Maneater_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確。main matter 可表示主要問題，但日常更常說 main issue。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        }
+      ]
+    }
   }
 }

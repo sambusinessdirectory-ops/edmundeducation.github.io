@@ -3287,5 +3287,1326 @@
     "method": "faster-whisper-word-alignment-with-targeted-section-review",
     "audioSha256": "7c0a659303501458e5f73ad25b48b33867550721e8e9806aa8ced1efc9ce16ce",
     "duration": 231.76
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "My_Love_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "1f88cf6128fe23d101a586ac1d170ddd393522df806b04d4dff27f1db440cab3"
+    },
+    {
+      "section": "structure",
+      "filename": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "4bc4377dbe9a3e0ed5f4710bd91578b8e8324f2ea44ac39cf4b3279ccc76ba1e"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "a hole inside my heart",
+          "meaning": "心中像有個空洞；形容失落與思念",
+          "usage": "感情或重要的人離開後，以「空洞」比喻內心失落；詩意表達，不是醫學上的心臟破洞。",
+          "prompt": "哪一句最自然且正確使用「a hole inside my heart」的本題意思？",
+          "options": [
+            "The doctor found a hole inside her heart during the hospital test.",
+            "After losing his favorite photo, Ben found a hole in his pocket.",
+            "The painter made a hole inside my heart with a small knife.",
+            "After her best friend moved away, she felt a hole inside her heart."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "不符合本題用法。這是可能的字面醫療描述，不是本題的感情比喻。",
+            "不符合本題用法。這是口袋真的破洞；不是心裡因失落留下的空缺。",
+            "不符合本題用法。刀子不能自然地在抽象的心情裡挖洞；若指畫作應說 cut a hole in the picture。",
+            "正確。朋友搬走後感覺心中空了一塊，恰當呈現比喻。"
+          ],
+          "sourceFile": "My_Love_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確。朋友搬走後感覺心中空了一塊，恰當呈現比喻。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "getting smaller",
+          "meaning": "越來越小；也可象徵空間或選擇變得狹窄",
+          "usage": "get + 比較級表示持續變化；歌詞把房間變小用作壓迫感的詩意畫面，日常更常指實際尺寸。",
+          "prompt": "哪一句最自然且正確使用「getting smaller」的本題意思？",
+          "options": [
+            "The coach was getting smaller because the team won the match.",
+            "My new shoes were getting smaller because I changed their color.",
+            "As we climbed the hill, the houses below were getting smaller.",
+            "Our train was getting smaller at six, so it arrived very late."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "不符合本題用法。贏比賽不會自然造成教練的大小變化。",
+            "不符合本題用法。改顏色不等於鞋子尺寸變小；缺乏合理因果。",
+            "正確。房屋看起來愈來愈小，符合逐漸變小的意思。",
+            "不符合本題用法。getting smaller 不表示火車延誤或速度降低。"
+          ],
+          "sourceFile": "My_Love_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確。房屋看起來愈來愈小，符合逐漸變小的意思。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "overseas",
+          "meaning": "海外的；在海外、到海外",
+          "usage": "描述跨海到另一個國家，或在海外生活／工作；可作副詞或形容詞。",
+          "prompt": "哪一句最自然且正確使用「overseas」的本題意思？",
+          "options": [
+            "My sister studies overseas, so we talk to her by video call.",
+            "My aunt works overseas, but she drives home every evening from next door.",
+            "We put the overseas on the shelf next to the travel books.",
+            "The train went overseas from one city to the next on the same land."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。姊姊在海外讀書，家人用視訊聯絡，搭配自然。",
+            "不符合本題用法。overseas 是跨海的海外，不能又說住隔壁、每天開車回家。",
+            "不符合本題用法。overseas 不是可以放在架上的物品名稱。",
+            "不符合本題用法。同一片陸地上搭火車到隔壁城市，不是跨海。"
+          ],
+          "sourceFile": "My_Love_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確。姊姊在海外讀書，家人用視訊聯絡，搭配自然。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "fields",
+          "meaning": "田野、田地；大片開闊的農地",
+          "usage": "fields 在歌詞指綠色田野；另有「領域」等較抽象的意思，但本題練自然的土地用法。",
+          "prompt": "哪一句最自然且正確使用「fields」的本題意思？",
+          "options": [
+            "The children planted a field of homework beside the school bus.",
+            "After the rain, the green fields looked beautiful in the sun.",
+            "Our music teacher kept three fields inside her pencil case.",
+            "The bus fields at nine because it has a new driver."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "不符合本題用法。homework 不是能種植成田地的作物。",
+            "正確。下雨後綠色田野十分美麗，符合實際景物用法。",
+            "不符合本題用法。田野不是可放入筆袋的物品。",
+            "不符合本題用法。fields 不是表示公車發車時間的動詞。"
+          ],
+          "sourceFile": "My_Love_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確。下雨後綠色田野十分美麗，符合實際景物用法。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "promise",
+          "meaning": "鄭重承諾；保證會做某事",
+          "usage": "可用 promise someone something 或 promise to + 動詞；歌詞中的「承諾愛」屬浪漫語氣。",
+          "prompt": "哪一句最自然且正確使用「promise」的本題意思？",
+          "options": [
+            "I promised my sister that I would call her after the trip.",
+            "He promised to my friend a new bicycle last Sunday.",
+            "The shop promised the rain to stop before we left town.",
+            "The guide promised the mountain into a picture for us."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。promise someone that ... 表示向某人承諾會打電話，意思自然。",
+            "不符合本題用法。若使用 promise someone something，應說 promised my friend a bicycle。",
+            "不符合本題用法。店家無法合理保證雨會停，承諾內容超出可控制範圍。",
+            "不符合本題用法。promise 不是把山變成圖片的動詞。"
+          ],
+          "sourceFile": "My_Love_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確。promise someone that ... 表示向某人承諾會打電話，意思自然。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "形容詞 + 名詞",
+          "meaning": "一條空蕩的街道",
+          "usage": "描寫物件特徵時，形容詞放在名詞之前。",
+          "prompt": "· 情境： 劇院要描述一個安靜的房間，哪句合適？",
+          "options": [
+            "The room is a place quiet.",
+            "The room is a quiet place.",
+            "The room is quiet a place.",
+            "The room quiet is a place."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "一般敘述不把 quiet 放在名詞後。",
+            "a quiet place 的形容詞在名詞前。",
+            "a 與形容詞順序錯誤。",
+            "缺少正確的 be 動詞位置。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "An empty street  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "a/an",
+              "fixed": true
+            },
+            {
+              "text": "adjective",
+              "fixed": false
+            },
+            {
+              "text": "singular noun",
+              "fixed": false
+            }
+          ],
+          "explanation": "a quiet place 的形容詞在名詞前。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "inside + 名詞",
+          "meaning": "在我的心裡",
+          "usage": "表示某事物位於空間內；歌中屬詩意意象。",
+          "prompt": "· 情境： 貓咪躲到紙箱內，哪句適合？",
+          "options": [
+            "The cat inside the box is.",
+            "The cat is inside to the box.",
+            "The cat is inside the box.",
+            "The cat is inside at the box."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "主要動詞的位置不對。",
+            "inside 後不加 to。",
+            "inside the box 表示在箱子裡。",
+            "inside 不需要再加 at。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "inside my heart  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "inside",
+              "fixed": true
+            },
+            {
+              "text": "noun phrase",
+              "fixed": false
+            }
+          ],
+          "explanation": "inside the box 表示在箱子裡。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "be + all alone",
+          "meaning": "獨自一人",
+          "usage": "強調身邊沒有其他人。",
+          "prompt": "· 情境： 夜間燈塔只有一位工作人員，哪句正確？",
+          "options": [
+            "She is all lonely alone at night.",
+            "She all alone at night.",
+            "She is alone all at night.",
+            "She is all alone at night."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "all lonely alone 不自然且重複。",
+            "缺少 is。",
+            "alone all 語序不對。",
+            "is all alone 正確。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "I'm all alone  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "be + all alone",
+              "fixed": true
+            }
+          ],
+          "explanation": "is all alone 正確。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "get + 比較級",
+          "meaning": "正在變得更小",
+          "usage": "描述程度持續改變。",
+          "prompt": "· 情境： 天氣越來越冷，哪句表達變化？",
+          "options": [
+            "The air is get colder.",
+            "The air getting coldest.",
+            "The air is getting colder.",
+            "The air is getting coldly."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "進行式需要 getting。",
+            "缺少 is，coldest 亦是最高級。",
+            "getting colder 表示逐漸變冷。",
+            "coldly 是副詞，不是此處需要的比較級。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "are getting smaller  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "be + getting",
+              "fixed": true
+            },
+            {
+              "text": "comparative adjective",
+              "fixed": false
+            }
+          ],
+          "explanation": "getting colder 表示逐漸變冷。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "wonder + 疑問詞",
+          "meaning": "我想知道為甚麼",
+          "usage": "可作為簡短的獨立疑問心聲；歌中 how、why 單獨出現。",
+          "prompt": "· 情境： 一場表演突然停了，你好奇原因，怎樣說？",
+          "options": [
+            "I wonder to why.",
+            "I wonder what why.",
+            "I wonder because.",
+            "I wonder why."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "why 前不加 to。",
+            "what why 並列不自然。",
+            "because 不能直接代替疑問詞。",
+            "wonder why 自然表示好奇原因。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "I wonder why  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "wonder",
+              "fixed": true
+            },
+            {
+              "text": "question word",
+              "fixed": false
+            }
+          ],
+          "explanation": "wonder why 自然表示好奇原因。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "wonder + 間接問句",
+          "meaning": "我想知道它們在哪裡",
+          "usage": "不直接詢問對方，而是表達心中的疑問。",
+          "prompt": "· 情境： 找不到畫室的鑰匙，哪句最自然？",
+          "options": [
+            "I wonder where are the keys.",
+            "I wonder where the keys are.",
+            "I wonder where do the keys are.",
+            "I wonder where the keys."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "間接問句不倒裝 are。",
+            "where the keys are 是陳述語序。",
+            "不需要 do，也混用助動詞。",
+            "缺少動詞 are。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "I wonder where they are  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "wonder + where",
+              "fixed": true
+            },
+            {
+              "text": "subject + verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "where the keys are 是陳述語序。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "名詞後省略受詞關係代名詞",
+          "meaning": "我們曾經擁有的日子",
+          "usage": "關係代名詞在子句中充當受詞時，有時可省略；歌中 days 和 songs 都有此型。",
+          "prompt": "· 情境： 介紹自己參觀過的博物館，哪句自然？",
+          "options": [
+            "This is the museum I visited yesterday.",
+            "This is the museum I visited it yesterday.",
+            "This is the museum yesterday I visited it.",
+            "This is the museum who I visited yesterday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "museum 後省略作受詞的 that/which。",
+            "再加 it 造成受詞重複。",
+            "受詞重複且順序不自然。",
+            "who 通常指人。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "The days we had  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "noun + (",
+              "fixed": false
+            },
+            {
+              "text": "omitted that/which)",
+              "fixed": true
+            },
+            {
+              "text": "subject + verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "museum 後省略作受詞的 that/which。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "現在進行式 be + -ing",
+          "meaning": "我正持續堅持",
+          "usage": "描述此刻正在做、正在持續的行動。",
+          "prompt": "· 情境： 陶藝師此刻在捏陶土，哪句正確？",
+          "options": [
+            "She is shaping the clay now.",
+            "She shaping the clay now.",
+            "She is shape the clay now.",
+            "She is shaped the clay now."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "is shaping 是現在進行式。",
+            "缺少 is。",
+            "is 後需 shaping。",
+            "shaped 不表示正在做。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "I'm holding on forever  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "am/is/are",
+              "fixed": true
+            },
+            {
+              "text": "verb-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "is shaping 是現在進行式。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "hold on（不及物片語）",
+          "meaning": "一直堅持下去",
+          "usage": "遇到困難仍繼續努力；歌詞未出現 hold on to + 受詞。",
+          "prompt": "· 情境： 登山者快到終點，哪句表示堅持？",
+          "options": [
+            "Please hold on the mountain.",
+            "Please hold on at happy.",
+            "Please hold on a little longer.",
+            "Please hold on to finish."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "hold on the mountain 不能表示堅持。",
+            "at happy 不合語法。",
+            "hold on a little longer 表示再堅持一會。",
+            "to finish 不屬於此句的自然連接方式。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "holding on forever  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "hold on",
+              "fixed": true
+            },
+            {
+              "text": "time expression",
+              "fixed": false
+            }
+          ],
+          "explanation": "hold on a little longer 表示再堅持一會。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "reach for + 名詞",
+          "meaning": "伸手追尋那份愛",
+          "usage": "可描述伸手去拿實物，或象徵追求願望。",
+          "prompt": "· 情境： 小孩想拿高架上的星星模型，哪句自然？",
+          "options": [
+            "The child reached for the model.",
+            "The child reached to the model.",
+            "The child reached of the model.",
+            "The child reached at for the model."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "reached for 表示伸手想拿。",
+            "此處需要 reach for。",
+            "reach of 不是此片語。",
+            "at for 不能連用。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "Reaching for the love  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "reach for",
+              "fixed": true
+            },
+            {
+              "text": "noun phrase",
+              "fixed": false
+            }
+          ],
+          "explanation": "reached for 表示伸手想拿。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "that + 關係子句（主詞）",
+          "meaning": "那份看似遙遠的愛",
+          "usage": "補充描述前面的事物；歌中 that 不能直接省略。",
+          "prompt": "· 情境： 描述正在閃光的燈，哪句正確？",
+          "options": [
+            "The lamp that shines is new.",
+            "The lamp that it shines is new.",
+            "The lamp which shine are new.",
+            "The lamp that shining is new."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "that 作 shines 的主詞。",
+            "that 後不再加 it。",
+            "主詞與動詞不一致。",
+            "缺少適當的限定動詞。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "the love that seems so far  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "noun",
+              "fixed": false
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "verb phrase",
+              "fixed": false
+            }
+          ],
+          "explanation": "that 作 shines 的主詞。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "seem + 形容詞",
+          "meaning": "似乎很遙遠",
+          "usage": "表達感覺或印象，未必是客觀事實。",
+          "prompt": "· 情境： 遠方的小島看起來很安靜，哪句正確？",
+          "options": [
+            "The island seems to quiet.",
+            "The island seems quiet.",
+            "The island seems quietly.",
+            "The island seem quiet."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "形容詞前不需 to。",
+            "seems quiet 正確。",
+            "quietly 是副詞，不是形容詞。",
+            "單數主詞需 seems。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "seems so far  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "seem(s)",
+              "fixed": true
+            },
+            {
+              "text": "adjective phrase",
+              "fixed": false
+            }
+          ],
+          "explanation": "seems quiet 正確。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "so + 結果",
+          "meaning": "所以我祈禱",
+          "usage": "承接前面的情況，說明接下來的行動。",
+          "prompt": "· 情境： 雨下大了，所以園丁進屋，哪句正確？",
+          "options": [
+            "It rained, so went the gardener inside.",
+            "It rained, so the gardener inside.",
+            "It rained, so did the gardener inside.",
+            "It rained, so the gardener went inside."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "結果子句主詞與動詞語序錯。",
+            "缺少動詞。",
+            "did 不能直接搭配 inside 表示走進去。",
+            "so 接正常的完整子句。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "So I say a little prayer  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "So",
+              "fixed": true
+            },
+            {
+              "text": "subject + verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "so 接正常的完整子句。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "hope + 內容子句",
+          "meaning": "希望我的夢帶我到那裡",
+          "usage": "hope 後面可接完整內容子句；歌中省略 that。",
+          "prompt": "· 情境： 藝術家希望展覽會成功，哪句正確？",
+          "options": [
+            "I hope the show to be good.",
+            "I hope will the show go well.",
+            "I hope the show will go well.",
+            "I hope the show good."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "此處 hope 後應使用內容子句。",
+            "內容子句不倒裝。",
+            "hope + the show will go well 自然。",
+            "缺少謂語動詞。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "hope my dreams will take me there  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "hope",
+              "fixed": true
+            },
+            {
+              "text": "subject + will + base verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "hope + the show will go well 自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "will + 原形動詞",
+          "meaning": "將帶我去那裡",
+          "usage": "對未來作推測或承諾。",
+          "prompt": "· 情境： 志工預告明天會送食物來，哪句正確？",
+          "options": [
+            "They will to bring food tomorrow.",
+            "They will bring food tomorrow.",
+            "They will brought food tomorrow.",
+            "They will bringing food tomorrow."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "will 後不加 to。",
+            "will bring 是正確未來式。",
+            "will 後使用原形 bring。",
+            "will 後不接 bringing。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "will take me there  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "subject",
+              "fixed": false
+            },
+            {
+              "text": "will",
+              "fixed": true
+            },
+            {
+              "text": "base verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "will bring 是正確未來式。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "where + 地點描述子句",
+          "meaning": "在天空湛藍的地方",
+          "usage": "描述想去的地方；歌中是依附前後文的片段，不是獨立完整句。",
+          "prompt": "· 情境： 選旅行地點時，哪句能自然接在 a place 後？",
+          "options": [
+            "I want to visit a place where the sea clear.",
+            "I want to visit a place where is the sea clear.",
+            "I want to visit a place where the sea is clear.",
+            "I want to visit a place where does the sea clear."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "缺少 is。",
+            "where 子句不倒裝。",
+            "where the sea is clear 的語序正確。",
+            "不使用 does，且缺少正確動詞。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "Where the skies are blue  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "where",
+              "fixed": true
+            },
+            {
+              "text": "subject + verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "where the sea is clear 的語序正確。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "to + 原形動詞：目的",
+          "meaning": "為了再次見到你",
+          "usage": "解釋行動的目的；歌中常以片段方式銜接前句。",
+          "prompt": "· 情境： 攝影師早起為了拍日出，哪句正確？",
+          "options": [
+            "She woke up early taking to photos.",
+            "She woke up early to take photos.",
+            "She woke up early to taking photos.",
+            "She woke up early for take photos."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "taking to photos 語序錯。",
+            "to take 表示目的。",
+            "to 後應用 take 原形。",
+            "for take 不是此目的句型。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "To see you once again  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "base verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "to take 表示目的。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "once again",
+          "meaning": "再一次",
+          "usage": "某個行動發生或重複時使用。",
+          "prompt": "· 情境： 導覽員想再解釋一次路線，哪句合適？",
+          "options": [
+            "Please explain once the again route.",
+            "Please once again the map.",
+            "Please explain the route once again.",
+            "Please say again once the route."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "once the again 不構成片語。",
+            "once again 不是動詞。",
+            "once again 放在句尾自然表示再一次。",
+            "語序不自然。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "once again  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "once again",
+              "fixed": true
+            }
+          ],
+          "explanation": "once again 放在句尾自然表示再一次。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "from + 名詞 + to + 名詞",
+          "meaning": "從海岸到海岸",
+          "usage": "描述旅程、範圍或移動的起點和終點。",
+          "prompt": "· 情境： 火車從山城到海邊，哪句自然？",
+          "options": [
+            "The train goes from the hills at the sea.",
+            "The train goes between the hills to the sea.",
+            "The train goes from the hills for the sea.",
+            "The train goes from the hills to the sea."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "from ... at 不對應終點。",
+            "between ... to 不合搭配。",
+            "for 不是此結構終點標記。",
+            "from ... to ... 清楚表示起迄。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "from coast to coast  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "from",
+              "fixed": true
+            },
+            {
+              "text": "place",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "place",
+              "fixed": false
+            }
+          ],
+          "explanation": "from ... to ... 清楚表示起迄。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "最高級 the most",
+          "meaning": "我最喜歡的地方",
+          "usage": "the most 修飾 love，強調在多個對象中最喜歡的一個。",
+          "prompt": "· 情境： 三座花園中，哪句表示最喜歡這一座？",
+          "options": [
+            "This is the garden I love the most.",
+            "This is the garden I most the love.",
+            "This is the garden I love the more.",
+            "This is the garden I love most than."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "love the most 表示最喜歡。",
+            "most 的位置錯誤。",
+            "the more 不是最高程度。",
+            "最高級不接 than。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "a place I love the most  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "noun",
+              "fixed": false
+            },
+            {
+              "text": "I love the most",
+              "fixed": true
+            }
+          ],
+          "explanation": "love the most 表示最喜歡。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "try to + 原形動詞",
+          "meaning": "我試著閱讀",
+          "usage": "強調試著完成某個行動。",
+          "prompt": "· 情境： 手工匠想修好舊鐘，哪句正確？",
+          "options": [
+            "I try fixing to the clock.",
+            "I try the clock to fix.",
+            "I try to fixing the clock.",
+            "I try to fix the clock."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "不是歌中 try to 的結構。",
+            "受詞與動詞語序不對。",
+            "to 後不用 fixing。",
+            "try to fix 合乎歌中的句型。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "I try to read  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "try to",
+              "fixed": true
+            },
+            {
+              "text": "base verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "try to fix 合乎歌中的句型。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "go to + 工作或地點",
+          "meaning": "我去上班",
+          "usage": "go to work 中 work 是活動名詞，不需 the。",
+          "prompt": "· 情境： 救生員每天早上去上班，哪句自然？",
+          "options": [
+            "She goes work every morning.",
+            "She goes at work every morning.",
+            "She goes to work every morning.",
+            "She goes to the work every morning."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "缺少 to。",
+            "go at work 不是「去上班」。",
+            "goes to work 是自然用法。",
+            "一般表達上班不加 the。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "I go to work  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "go to",
+              "fixed": true
+            },
+            {
+              "text": "place/activity noun",
+              "fixed": false
+            }
+          ],
+          "explanation": "goes to work 是自然用法。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "can't + 動詞原形",
+          "meaning": "我無法停止",
+          "usage": "表達能力或情況上的不可能。",
+          "prompt": "· 情境： 機器故障後，技師無法啟動它，哪句正確？",
+          "options": [
+            "He can't start the machine.",
+            "He can't started the machine.",
+            "He can't to start the machine.",
+            "He can't starting the machine."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "can't start 正確。",
+            "can't 後不接過去式。",
+            "can't 後不加 to。",
+            "can't 後用原形。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "I can't stop  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "subject",
+              "fixed": false
+            },
+            {
+              "text": "cannot/can't",
+              "fixed": true
+            },
+            {
+              "text": "base verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "can't start 正確。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "keep + 反身代名詞 + from + -ing",
+          "meaning": "讓自己不去想",
+          "usage": "指抑制自己某個衝動或想法；需配合主詞換反身代名詞。",
+          "prompt": "· 情境： 觀眾忍住不笑，哪句自然？",
+          "options": [
+            "She kept myself from laughing.",
+            "She kept herself from laugh.",
+            "She kept herself to laughing.",
+            "She kept herself from laughing."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "she 不能搭配 myself。",
+            "from 後需 -ing。",
+            "此句型使用 from，不是 to。",
+            "herself 與 she 對應，from 後接 laughing。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "keep myself from thinking  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "keep",
+              "fixed": true
+            },
+            {
+              "text": "reflexive pronoun",
+              "fixed": false
+            },
+            {
+              "text": "from",
+              "fixed": true
+            },
+            {
+              "text": "verb-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "herself 與 she 對應，from 後接 laughing。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "think of + 名詞",
+          "meaning": "我正在想著",
+          "usage": "表達持續掛念或思考；原句的受詞由前方 all 補足。",
+          "prompt": "· 情境： 正在想念遠方的朋友，哪句自然？",
+          "options": [
+            "I am thinking of my friend.",
+            "I am thinking for my friend.",
+            "I am thinking at my friend.",
+            "I am thinking to my friend."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "thinking of 可表示想念某人。",
+            "thinking for 不能表達此意思。",
+            "thinking at 不是此搭配。",
+            "此處應用 of。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "I'm thinking of  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "be + thinking of",
+              "fixed": true
+            },
+            {
+              "text": "noun phrase",
+              "fixed": false
+            }
+          ],
+          "explanation": "thinking of 可表示想念某人。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "promise + 人 + 事物",
+          "meaning": "向你承諾我的愛",
+          "usage": "雙受詞結構；不同於 promise to + 動詞（歌中未出現該形式）。",
+          "prompt": "· 情境： 志工答應孩子們一個驚喜，哪句正確？",
+          "options": [
+            "She promised children about surprise.",
+            "She promised the children a surprise.",
+            "She promised to the children a surprise.",
+            "She promised the children to a surprise."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "about surprise 不構成此結構。",
+            "promise + 人 + 事物 符合來源結構。",
+            "雙受詞結構不加 to 在人前。",
+            "to a surprise 不是名詞受詞。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "To promise you my love  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "promise",
+              "fixed": true
+            },
+            {
+              "text": "person",
+              "fixed": false
+            },
+            {
+              "text": "noun",
+              "fixed": false
+            }
+          ],
+          "explanation": "promise + 人 + 事物 符合來源結構。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "from the heart",
+          "meaning": "發自內心",
+          "usage": "強調話語或感謝真誠。",
+          "prompt": "· 情境： 演員向幕後人員表達真誠感謝，哪句合適？",
+          "options": [
+            "His thanks came from the stage clock.",
+            "His thanks came from the heart.",
+            "His thanks came from the lights.",
+            "His thanks came from the chairs."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "stage clock 不表示真誠。",
+            "from the heart 表示真心的。",
+            "lights 不表達真心。",
+            "chairs 不是「真誠」來源。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "from the heart  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "from the heart",
+              "fixed": true
+            }
+          ],
+          "explanation": "from the heart 表示真心的。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "all + 省略關係代名詞的子句",
+          "meaning": "你就是我全部的牽掛",
+          "usage": "all 後由子句限定範圍，介系詞 of 留在句末；結構與前面的名詞受詞關係子句相似，但 all 是代名詞核心。",
+          "prompt": "· 情境： 歌迷說這是他現在唯一在想的事情，哪句正確？",
+          "options": [
+            "This show is all what I am thinking about.",
+            "This show is all I am thinking to.",
+            "This show is all I think about it.",
+            "This show is all I am thinking about."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "all what 在此屬不自然重疊。",
+            "think to 不表示這種掛念。",
+            "it 重複作受詞。",
+            "all I am thinking about 的 about 留在句末。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "You're all I'm thinking of  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "all + (omitted that)",
+              "fixed": true
+            },
+            {
+              "text": "subject + verb + preposition",
+              "fixed": false
+            }
+          ],
+          "explanation": "all I am thinking about 的 about 留在句末。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        }
+      ]
+    }
   }
 }

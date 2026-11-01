@@ -2556,5 +2556,853 @@
     "sha256": "297e3e627f21165080b62cc1dfa0d4f8303af20b89b90a20ccea193a02839ff9",
     "transformations": "none",
     "selectedOn": "2026-10-30"
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Hey_Brother_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "6d52a35f6a317103c7354c6986c0d7d7f3bedc62ab8f8e865cdd487ac2dbfe8a"
+    },
+    {
+      "section": "structure",
+      "filename": "Hey_Brother_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "759fed479014e6bcf9d6ec70bfa34ca456a3c4d6a5d11b2308a8cd6a3f127419"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Re-discover / rediscover",
+          "meaning": "重新發現；再次認識（曾經熟悉、後來忽略的事物）",
+          "usage": "重新接觸舊興趣、重新了解某個地方或人時。一般英文多寫作 rediscover；歌詞使用 re-discover。",
+          "prompt": "哪一句正確使用「Re-discover / rediscover」？",
+          "options": [
+            "I rediscovered my love of painting during the holiday.",
+            "He rediscovered the rain by opening his umbrella again.",
+            "I rediscovered the bus by buying my ticket twice.",
+            "We rediscovered lunch when the café served soup today."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：一段時間後重新感受到畫畫的樂趣，是 rediscover 的典型用法。",
+            "再次撐傘只是在應付下雨，不表示重新發現雨的價值。",
+            "買兩次車票不等於重新發現公車；這裡只是重複購票。",
+            "午餐本來就是每天常見的事，句中沒有失而復得的認識或興趣。"
+          ],
+          "sourceFile": "Hey_Brother_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：一段時間後重新感受到畫畫的樂趣，是 rediscover 的典型用法。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "Blood is thicker",
+          "meaning": "「血緣更深厚」；呼應「血濃於水」的傳統說法",
+          "usage": "談家庭關係帶來的特殊連結時使用。完整常見諺語為 Blood is thicker than water；但歌詞僅唱 blood is thicker，並非完整引用。這是一種價值觀，不代表每個家庭都一定可靠。",
+          "prompt": "哪一句正確使用「Blood is thicker」？",
+          "options": [
+            "Blood is thicker, so the nurse bought a new coat.",
+            "Blood is thicker, so this red drink has more sugar.",
+            "Blood is thicker, so we need a bigger swimming pool.",
+            "Blood is thicker, she said, and called her brother first."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "護理師買外套和親情的深厚沒有直接關聯。",
+            "這不是在分析紅色飲料的成分；blood 在此具有家庭血緣的象徵意義。",
+            "這句與游泳池大小沒有關係，不是形容水的物理性質。",
+            "正確：她以家庭情誼為理由，優先聯絡哥哥，符合歌詞中的傳統觀念。"
+          ],
+          "sourceFile": "Hey_Brother_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：她以家庭情誼為理由，優先聯絡哥哥，符合歌詞中的傳統觀念。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "The sky comes falling down",
+          "meaning": "彷彿天塌下來；用誇飾方式描寫重大打擊",
+          "usage": "詩歌式、誇張的比喻，不是日常英文中必須照背的固定成語。一般口語也可說 It felt like the sky was falling。",
+          "prompt": "哪一句正確使用「The sky comes falling down」？",
+          "options": [
+            "When the clock rang, the sky came falling down to school.",
+            "When I washed the dishes, the sky came falling down happily.",
+            "When I lost the final game, it felt like the sky was falling.",
+            "When I bought a pen, the sky came falling down for lunch."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "鬧鐘響與上學是一般日常事件，此處比喻沒有合理關聯。",
+            "洗碗本身不構成巨大打擊；happily 也不符合這裡的危機意象。",
+            "正確：用「彷彿天塌下來」形容落敗時受到很大的打擊，是自然的比喻用法。",
+            "買筆和午餐都無法合理支撐「世界崩塌」的強烈比喻。"
+          ],
+          "sourceFile": "Hey_Brother_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：用「彷彿天塌下來」形容落敗時受到很大的打擊，是自然的比喻用法。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "I wonder",
+          "meaning": "我在想；不知道是否……（語氣較委婉或帶有好奇）",
+          "usage": "想間接提出疑問、表達心中的好奇或關切時。常接 if / whether 或疑問詞引導的子句，不是表示一定知道答案。",
+          "prompt": "哪一句正確使用「I wonder」？",
+          "options": [
+            "I wonder the cake because the table is too small.",
+            "I wonder if my old friend still lives in this town.",
+            "I wonder the window with a towel after dinner.",
+            "I wonder my shoes to school when it is cold."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "wonder 不是搬動蛋糕的動詞，桌子大小也未構成疑問內容。",
+            "正確：委婉地表達「我在想老朋友是否還住這裡」。",
+            "用毛巾擦窗戶應說 clean 或 wipe the window，不能用 wonder。",
+            "穿鞋上學不能用 wonder 代替 wear 或 take。"
+          ],
+          "sourceFile": "Hey_Brother_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：委婉地表達「我在想老朋友是否還住這裡」。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "There is + 單數名詞",
+          "meaning": "表示「有某物存在」，而非某人擁有它。",
+          "usage": "介紹某個地方存在一樣事物、機會或問題時。",
+          "prompt": "· 情境： 露營隊到達湖邊，導遊想告訴大家附近有一條小路。",
+          "options": [
+            "There is a sleeping song in my shoe.",
+            "I have a small path in my pocket.",
+            "There is a small path beside the lake.",
+            "There are a small path beside the lake."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：鞋裡的「睡覺歌曲」與湖邊的小路無關。",
+            "錯誤：道路不是能放在口袋裡擁有的物品，偏離情境。",
+            "正確：用 There is 介紹湖邊存在一條小路。",
+            "錯誤：a small path 是單數，不能搭配 There are。"
+          ],
+          "sourceFile": "Hey_Brother_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "there's an endless road（原 PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "There is",
+              "fixed": true
+            },
+            {
+              "text": "an endless road",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：用 There is 介紹湖邊存在一條小路。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "名詞 + to + 動詞原形（用途／待完成的事）",
+          "meaning": "用 to 加動詞表示某事物的用途，或仍待完成的動作。",
+          "usage": "談一本書值得讀、一個地方值得探索，或一項工作需要做時。",
+          "prompt": "· 情境： 博物館有一個尚待解開的謎題，介紹牌要說明。",
+          "options": [
+            "We have a mystery to solve in this museum.",
+            "We have a mystery to solving in this museum.",
+            "We have a mystery solve in this museum.",
+            "We have to mystery a solve in this museum."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：a mystery to solve 表示有待解開的謎題。",
+            "錯誤：to 後應接原形 solve，不能接 solving。",
+            "錯誤：名詞與表示待做事情的動詞之間缺少 to。",
+            "錯誤：把 mystery 誤當動詞，字序不成立。"
+          ],
+          "sourceFile": "Hey_Brother_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "road to re-discover（原 PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "a road",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "re-discover",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：a mystery to solve 表示有待解開的謎題。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "祈使句：Know + 陳述子句",
+          "meaning": "用命令／提醒語氣請對方記住或理解一個事實。",
+          "usage": "勸告、提醒或鼓勵別人不要忘記重要事情時；口氣較直接。",
+          "prompt": "· 情境： 隊員第一次在舞台表演，導演鼓勵大家。",
+          "options": [
+            "Know that the chairs are hungry for music.",
+            "Know that we are proud of your hard work.",
+            "Know to your friends are ready.",
+            "Know the ticket into your pocket yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：椅子不會因為音樂而肚子餓，語意不通。",
+            "正確：Know that... 用來提醒隊員大家欣賞他們的努力。",
+            "錯誤：know 後不能用 to 引出這樣的完整陳述子句。",
+            "錯誤：know 不能用來表示把票放進口袋。"
+          ],
+          "sourceFile": "Hey_Brother_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "know the water's sweet（原 PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "Know",
+              "fixed": true
+            },
+            {
+              "text": "the water is sweet",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Know that... 用來提醒隊員大家欣賞他們的努力。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "形容詞比較級（不說出比較對象）",
+          "meaning": "用比較級表達「更……」，比較對象有時由上下文得知。",
+          "usage": "前後已提到兩個事物，不必每次明說 than + 比較對象。",
+          "prompt": "· 情境： 兩條圍巾放在一起；店員已談過薄的那條，現在指另一條。",
+          "options": [
+            "This scarf is thicken yesterday.",
+            "This scarf is more thickest.",
+            "This scarf is thicker.",
+            "This scarf is thick than."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：thicken 是動詞，不適合放在此處當比較級。",
+            "錯誤：more thickest 混合比較級與最高級。",
+            "正確：thicker 表示這條圍巾比先前那條更厚。",
+            "錯誤：thick than 沒有用比較級形式。"
+          ],
+          "sourceFile": "Hey_Brother_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "blood is thicker（原 PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "blood",
+              "fixed": false
+            },
+            {
+              "text": "is",
+              "fixed": true
+            },
+            {
+              "text": "thicker",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：thicker 表示這條圍巾比先前那條更厚。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "But 連接兩個相反資訊",
+          "meaning": "but 引出與前面形成反差的資訊。",
+          "usage": "想說某件事有優點，但另一點更重要或情況不同時。",
+          "prompt": "· 情境： 朋友推薦一間餐廳，評價好吃但位置不方便。",
+          "options": [
+            "The food is good, so the restaurant is blue.",
+            "The food is good, but it is also delicious.",
+            "The food is good, because the restaurant is far away.",
+            "The food is good, but the restaurant is far away."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：餐廳是藍色與食物好吃缺乏合理的結果關係。",
+            "錯誤：good 與 delicious 是相近評價，but 沒有清楚轉折。",
+            "錯誤：距離遠不是食物好吃的原因。",
+            "正確：好吃與距離遠形成自然的對比。"
+          ],
+          "sourceFile": "Hey_Brother_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "sweet but blood is thicker（原 PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "the water is sweet",
+              "fixed": false
+            },
+            {
+              "text": "but",
+              "fixed": true
+            },
+            {
+              "text": "blood is thicker",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：好吃與距離遠形成自然的對比。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "If + 現在式（真實或可能的情況）",
+          "meaning": "提出一個可能發生的情況，為後續反應鋪路。",
+          "usage": "談未來可能的情況或提出支援承諾時；if 後可用現在式。",
+          "prompt": "· 情境： 朋友擔心明天的戶外畫展會下雨，你提出備案。",
+          "options": [
+            "If it will rain tomorrow, we will move the art inside.",
+            "If it rains tomorrow, we will move the art inside.",
+            "If it rains tomorrow, we moved the art inside last year.",
+            "If it rains yesterday, we will move the art inside."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：這種未來可能條件句通常不用 will rain 放在 if 子句。",
+            "正確：if 用現在式 rains 談明天的可能情況，後面說明應對。",
+            "錯誤：明天的條件不能自然決定去年已完成的行動。",
+            "錯誤：yesterday 是過去，與此句的未來安排不配。"
+          ],
+          "sourceFile": "Hey_Brother_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "if the sky comes falling down for you（原 PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "If",
+              "fixed": true
+            },
+            {
+              "text": "the sky comes falling down",
+              "fixed": false
+            },
+            {
+              "text": ",",
+              "fixed": true
+            },
+            {
+              "text": "[主句]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：if 用現在式 rains 談明天的可能情況，後面說明應對。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "Come + -ing（某動作向某方向發生）",
+          "meaning": "come 後接 -ing 描繪事物以某種動作向此處移動。",
+          "usage": "描述落葉飄來、雨水落下等帶動態畫面的情況。",
+          "prompt": "· 情境： 園丁看到秋天的葉子被風吹落。",
+          "options": [
+            "Leaves come falling down when the wind blows.",
+            "Leaves coming falling down when the wind blows.",
+            "Leaves come fall down when the wind blows.",
+            "Leaves come to falling down when the wind blows."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：come falling down 生動描寫葉子飄落。",
+            "錯誤：coming falling 不能直接當這句的主要謂語。",
+            "錯誤：come 後的動作在此應使用 falling。",
+            "錯誤：come to falling 不符合這個動態結構。"
+          ],
+          "sourceFile": "Hey_Brother_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "comes falling down（原 PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "something",
+              "fixed": false
+            },
+            {
+              "text": "comes",
+              "fixed": true
+            },
+            {
+              "text": "falling down",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：come falling down 生動描寫葉子飄落。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "There is nothing + 關係子句（省略 that）",
+          "meaning": "表示不存在符合後面描述的事物；此處以雙重否定強調願意付出。",
+          "usage": "表達強烈承諾或希望協助時，尤其要看清楚每個否定的作用。",
+          "prompt": "· 情境： 一位姐姐想說：為了照顧生病的小狗，她願意付出任何努力。",
+          "options": [
+            "There is nothing I would do to help my dog.",
+            "There are nothing I would not do to help my dog.",
+            "There is nothing that I not would do to help my dog.",
+            "There is nothing I would not do to help my dog."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：少了 not，意思變成沒有任何願意做的事。",
+            "錯誤：nothing 作單數概念，存在句應用 There is。",
+            "錯誤：not would 的語序不正確。",
+            "正確：nothing + would not 是強調「沒有任何我不願做的事」。"
+          ],
+          "sourceFile": "Hey_Brother_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "There's nothing in this world I wouldn't do（原 PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "There is nothing",
+              "fixed": true
+            },
+            {
+              "text": "in this world",
+              "fixed": false
+            },
+            {
+              "text": "[省略 that]",
+              "fixed": true
+            },
+            {
+              "text": "I would not do",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：nothing + would not 是強調「沒有任何我不願做的事」。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "Do + 主詞 + still + 動詞？",
+          "meaning": "詢問某個想法或狀態是否從過去持續至今。",
+          "usage": "想確認別人現在是否依然保持先前的信念或習慣。",
+          "prompt": "· 情境： 老朋友以前熱愛畫畫，現在重新見面，你想問她是否仍喜歡畫畫。",
+          "options": [
+            "Do you still enjoy painting?",
+            "Did you still enjoys painting now?",
+            "Are you still enjoy painting?",
+            "Do you yet enjoy painting still yesterday?"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：Do you still... 問現在是否依然喜歡畫畫。",
+            "錯誤：did 後應用原形 enjoy，且此處主要問現在。",
+            "錯誤：enjoy 是一般動詞，這個問句不能直接用 Are you。",
+            "錯誤：yet、still 與 yesterday 混在一起，時間和語序都不自然。"
+          ],
+          "sourceFile": "Hey_Brother_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "do you still believe in love?（原 PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "Do",
+              "fixed": true
+            },
+            {
+              "text": "you",
+              "fixed": false
+            },
+            {
+              "text": "still",
+              "fixed": true
+            },
+            {
+              "text": "believe in love?",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Do you still... 問現在是否依然喜歡畫畫。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "Believe in + 對象",
+          "meaning": "相信某人、某個理念，或對對方抱有信心。",
+          "usage": "鼓勵團隊、朋友與家人互相信任時。",
+          "prompt": "· 情境： 兩個人要一起完成一場長途划船比賽，隊長鼓勵他們。",
+          "options": [
+            "We need to believe each other can with a boat.",
+            "We need believe in each other to a lake.",
+            "We need to believe at each other.",
+            "We need to believe in each other."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：句中缺少清楚的子句結構，無法自然表達互信。",
+            "錯誤：need 後通常接 to believe，後半句也缺乏合適的動詞。",
+            "錯誤：表示信任對象時，介系詞應為 in 而不是 at。",
+            "正確：believe in each other 表示彼此信任。"
+          ],
+          "sourceFile": "Hey_Brother_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "believe in one another（原 PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "believe in",
+              "fixed": true
+            },
+            {
+              "text": "one another",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：believe in each other 表示彼此信任。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "I wonder（獨立附加句）",
+          "meaning": "I wonder 表達「我在想／我很好奇」，可放在問句之後。",
+          "usage": "說完疑問後，補充自己正在思考這件事，語氣較柔和。",
+          "prompt": "· 情境： 天文社看到奇怪的亮光，學生說出疑問，接著表示好奇。",
+          "options": [
+            "Is that a new star? I wonder to.",
+            "Is that a new star? I am wonder.",
+            "Is that a new star? I wondering.",
+            "Is that a new star? I wonder."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：I wonder to 後缺少不定詞動作，句子未完成。",
+            "錯誤：wonder 是動詞，不能說 I am wonder。",
+            "錯誤：I wondering 缺少 be 動詞。",
+            "正確：問句後接 I wonder，表示自己正好奇。"
+          ],
+          "sourceFile": "Hey_Brother_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "I wonder（原 PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "[前面的問題]",
+              "fixed": false
+            },
+            {
+              "text": "I wonder",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：問句後接 I wonder，表示自己正好奇。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "What if + 陳述子句？",
+          "meaning": "詢問「如果……發生，會怎麼樣？」。",
+          "usage": "對可能出現的問題、意外或選擇提出假設時。",
+          "prompt": "· 情境： 舞台演員擔心演出時忘記台詞，向導演詢問。",
+          "options": [
+            "What if my lines to forget on stage?",
+            "What if do I forget my lines on stage?",
+            "What if I forget my lines on stage?",
+            "What if I forgot my lines tomorrow yesterday?"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：缺少正常的主詞與謂語結構，無法表達假設。",
+            "錯誤：What if 後面不使用 do I 這種直接問句語序。",
+            "正確：What if 後接正常陳述語序，提出擔心的情況。",
+            "錯誤：tomorrow 與 yesterday 互相衝突。"
+          ],
+          "sourceFile": "Hey_Brother_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "What if I lose it all?（原 PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "What if",
+              "fixed": true
+            },
+            {
+              "text": "I lose it all?",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：What if 後接正常陳述語序，提出擔心的情況。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "Be + far from + 地點",
+          "meaning": "表示與某個地方相隔很遠。",
+          "usage": "描述所在地與家、學校或目的地的距離。",
+          "prompt": "· 情境： 登山隊員到一座遠離城市的營地，想寫訊息給家人。",
+          "options": [
+            "Our camp is far from very quiet.",
+            "Our camp is far to the city.",
+            "Our camp is far from the city.",
+            "Our camp far from the city."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：from 後應是地點或事物，不是單獨的 very quiet。",
+            "錯誤：表示遠離某處應使用 from，不是 to。",
+            "正確：be far from + 地點 表示營地距離城市很遠。",
+            "錯誤：缺少 be 動詞 is。"
+          ],
+          "sourceFile": "Hey_Brother_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "I'm far from home（原 PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "I",
+              "fixed": false
+            },
+            {
+              "text": "am far from",
+              "fixed": true
+            },
+            {
+              "text": "home",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：be far from + 地點 表示營地距離城市很遠。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "Will + 動詞原形（承諾）",
+          "meaning": "用 will 表達未來願意做的事，常用於當下作出承諾。",
+          "usage": "向朋友承諾會幫忙、支持或處理困難時。",
+          "prompt": "· 情境： 朋友明天搬家，你想主動承諾幫忙搬箱子。",
+          "options": [
+            "I will carry some boxes for you tomorrow.",
+            "I will to carry some boxes for you tomorrow.",
+            "I will carrying some boxes for you tomorrow.",
+            "I will carried some boxes for you tomorrow."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：will 後接原形 carry，表達明天幫忙的承諾。",
+            "錯誤：will 後不接 to，再接原形動詞即可。",
+            "錯誤：will 後不能直接接 carrying。",
+            "錯誤：will 後不能直接接過去式 carried。"
+          ],
+          "sourceFile": "Hey_Brother_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "I will help you out（原 PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "I",
+              "fixed": false
+            },
+            {
+              "text": "will",
+              "fixed": true
+            },
+            {
+              "text": "help you out",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：will 後接原形 carry，表達明天幫忙的承諾。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "Hear + 人 + 動詞原形",
+          "meaning": "表示聽見某人做出某個動作，著重動作整體。",
+          "usage": "描述聽見別人叫喊、唱歌或說話時。",
+          "prompt": "· 情境： 夜間露營，隊長告訴大家他聽見隔壁帳篷的孩子唱完整首歌。",
+          "options": [
+            "I heard the children to sing a song.",
+            "I heard the children sing a song.",
+            "I heard the children singing to a song yesterday always.",
+            "I heard the children sang a song."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：感官動詞 hear 後此構式不加 to。",
+            "正確：heard + 人 + 原形 sing，表示聽見整個唱歌動作。",
+            "錯誤：這句除多餘 to 外，時間表達也不自然；且未測指定原形構式。",
+            "錯誤：heard 後不能把受詞補語改成過去式 sang。"
+          ],
+          "sourceFile": "Hey_Brother_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "I will hear you call（原 PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "I will",
+              "fixed": false
+            },
+            {
+              "text": "hear",
+              "fixed": true
+            },
+            {
+              "text": "you",
+              "fixed": false
+            },
+            {
+              "text": "[動詞原形]",
+              "fixed": true
+            },
+            {
+              "text": "call",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：heard + 人 + 原形 sing，表示聽見整個唱歌動作。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "Help + 人 + out（可分片語動詞）",
+          "meaning": "在某人遇到困難時伸出援手。",
+          "usage": "對方有問題、需要實際協助時，使用 help someone out。",
+          "prompt": "· 情境： 機器人展覽的工作人員發現參觀者找不到出口。",
+          "options": [
+            "The guide helped us out because the moon was hungry.",
+            "The guide helped us out when we got lost.",
+            "The guide helped out to us when we got lost.",
+            "The guide helped out us when we got lost."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：月亮肚子餓並不是迷路需要協助的原因。",
+            "正確：helped us out 表示迷路時給予協助。",
+            "錯誤：help someone out 不需要加 to。",
+            "錯誤：代名詞 us 應放在 helped 與 out 之間。"
+          ],
+          "sourceFile": "Hey_Brother_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "help you out（原 PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "help",
+              "fixed": true
+            },
+            {
+              "text": "you",
+              "fixed": false
+            },
+            {
+              "text": "out",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：helped us out 表示迷路時給予協助。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        }
+      ]
+    }
   }
 }

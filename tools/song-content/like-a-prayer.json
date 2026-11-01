@@ -1,0 +1,4516 @@
+{
+  "title": "Like A Prayer",
+  "slug": "like-a-prayer",
+  "translations": [
+    {
+      "english": "Life is a mystery",
+      "chinese": "生命是一個難以參透的謎",
+      "lineId": "line-1",
+      "startSeconds": 9.06,
+      "endSeconds": 13.02
+    },
+    {
+      "english": "Everyone must stand alone",
+      "chinese": "每個人終究都得獨自面對人生",
+      "lineId": "line-2",
+      "startSeconds": 14.5,
+      "endSeconds": 18.26
+    },
+    {
+      "english": "I hear you call my name",
+      "chinese": "我聽見你輕聲呼喚我的名字",
+      "lineId": "line-3",
+      "startSeconds": 18.26,
+      "endSeconds": 22.92
+    },
+    {
+      "english": "And it feels like home",
+      "chinese": "那感覺，彷彿終於回到了家",
+      "lineId": "line-4"
+    },
+    {
+      "english": "When you call my name",
+      "chinese": "每當你呼喚我的名字",
+      "lineId": "line-5",
+      "startSeconds": 37.24,
+      "endSeconds": 39.58
+    },
+    {
+      "english": "It's like a little prayer",
+      "chinese": "那聲音就像一段輕柔的祈禱",
+      "lineId": "line-6",
+      "startSeconds": 39.58,
+      "endSeconds": 41.44
+    },
+    {
+      "english": "I'm down on my knees",
+      "chinese": "我雙膝跪地",
+      "lineId": "line-7",
+      "startSeconds": 41.76,
+      "endSeconds": 43.86
+    },
+    {
+      "english": "I wanna take you there",
+      "chinese": "我渴望帶你前往那個境界",
+      "lineId": "line-8",
+      "startSeconds": 43.86,
+      "endSeconds": 46.32
+    },
+    {
+      "english": "In the midnight hour",
+      "chinese": "在午夜時分",
+      "lineId": "line-9"
+    },
+    {
+      "english": "I can feel your power",
+      "chinese": "我能感受到你的力量",
+      "lineId": "line-10"
+    },
+    {
+      "english": "Just like a prayer",
+      "chinese": "宛如一場虔誠的祈禱",
+      "lineId": "line-11",
+      "startSeconds": 50.5,
+      "endSeconds": 52.42
+    },
+    {
+      "english": "You know I'll take you there",
+      "chinese": "你知道，我會帶你抵達那個境界",
+      "lineId": "line-12",
+      "startSeconds": 52.42,
+      "endSeconds": 55.14
+    },
+    {
+      "english": "I hear your voice",
+      "chinese": "我聽見你的聲音",
+      "lineId": "line-13",
+      "startSeconds": 55.14,
+      "endSeconds": 58.38
+    },
+    {
+      "english": "It's like an angel sighing",
+      "chinese": "宛如天使輕輕的一聲嘆息",
+      "lineId": "line-14",
+      "startSeconds": 59.14,
+      "endSeconds": 63.26
+    },
+    {
+      "english": "I have no choice",
+      "chinese": "我已無從抗拒",
+      "lineId": "line-15",
+      "startSeconds": 63.26,
+      "endSeconds": 65.56
+    },
+    {
+      "english": "I hear your voice",
+      "chinese": "我聽見你的聲音",
+      "lineId": "line-16",
+      "startSeconds": 65.56,
+      "endSeconds": 69.1
+    },
+    {
+      "english": "Feels like flying",
+      "chinese": "彷彿展翅飛翔",
+      "lineId": "line-17",
+      "startSeconds": 69.1,
+      "endSeconds": 71.6
+    },
+    {
+      "english": "I close my eyes",
+      "chinese": "我輕輕閉上雙眼",
+      "lineId": "line-18",
+      "startSeconds": 72.14,
+      "endSeconds": 75.78
+    },
+    {
+      "english": "Oh God, I think I'm falling",
+      "chinese": "噢，天啊，我想我正不斷墜落",
+      "lineId": "line-19",
+      "startSeconds": 75.78,
+      "endSeconds": 79.9
+    },
+    {
+      "english": "Out of the sky",
+      "chinese": "從高高的天空墜下",
+      "lineId": "line-20",
+      "startSeconds": 79.9,
+      "endSeconds": 82.78
+    },
+    {
+      "english": "I close my eyes",
+      "chinese": "我輕輕閉上雙眼",
+      "lineId": "line-21",
+      "startSeconds": 82.78,
+      "endSeconds": 86.32
+    },
+    {
+      "english": "Heaven, help me",
+      "chinese": "上天啊，請幫幫我",
+      "lineId": "line-22",
+      "startSeconds": 86.32,
+      "endSeconds": 88.92
+    },
+    {
+      "english": "When you call my name",
+      "chinese": "每當你呼喚我的名字",
+      "lineId": "line-23",
+      "startSeconds": 88.92,
+      "endSeconds": 91.14
+    },
+    {
+      "english": "It's like a little prayer",
+      "chinese": "那聲音就像一段輕柔的祈禱",
+      "lineId": "line-24",
+      "startSeconds": 91.14,
+      "endSeconds": 93.26
+    },
+    {
+      "english": "I'm down on my knees",
+      "chinese": "我雙膝跪地",
+      "lineId": "line-25",
+      "startSeconds": 93.26,
+      "endSeconds": 95.36
+    },
+    {
+      "english": "I wanna take you there",
+      "chinese": "我渴望帶你前往那個境界",
+      "lineId": "line-26",
+      "startSeconds": 95.36,
+      "endSeconds": 97.74
+    },
+    {
+      "english": "In the midnight hour",
+      "chinese": "在午夜時分",
+      "lineId": "line-27",
+      "startSeconds": 97.74,
+      "endSeconds": 99.78
+    },
+    {
+      "english": "I can feel your power",
+      "chinese": "我能感受到你的力量",
+      "lineId": "line-28",
+      "startSeconds": 99.78,
+      "endSeconds": 101.94
+    },
+    {
+      "english": "Just like a prayer",
+      "chinese": "宛如一場虔誠的祈禱",
+      "lineId": "line-29",
+      "startSeconds": 101.94,
+      "endSeconds": 103.92
+    },
+    {
+      "english": "You know I'll take you there",
+      "chinese": "你知道，我會帶你抵達那個境界",
+      "lineId": "line-30",
+      "startSeconds": 103.92,
+      "endSeconds": 106.8
+    },
+    {
+      "english": "Like a child",
+      "chinese": "宛如一個孩子",
+      "lineId": "line-31",
+      "startSeconds": 106.8,
+      "endSeconds": 109.28
+    },
+    {
+      "english": "You whisper softly to me",
+      "chinese": "你在我耳畔輕聲低語",
+      "lineId": "line-32",
+      "startSeconds": 109.28,
+      "endSeconds": 114.72
+    },
+    {
+      "english": "You're in control",
+      "chinese": "一切彷彿都由你掌握",
+      "lineId": "line-33",
+      "startSeconds": 114.72,
+      "endSeconds": 116.94
+    },
+    {
+      "english": "Just like a child",
+      "chinese": "宛如一個孩子",
+      "lineId": "line-34",
+      "startSeconds": 116.94,
+      "endSeconds": 120.46
+    },
+    {
+      "english": "Now I'm dancing",
+      "chinese": "此刻，我正翩然起舞",
+      "lineId": "line-35",
+      "startSeconds": 120.46,
+      "endSeconds": 122.84
+    },
+    {
+      "english": "It's like a dream",
+      "chinese": "這一切宛如夢境",
+      "lineId": "line-36",
+      "startSeconds": 122.84,
+      "endSeconds": 126.8
+    },
+    {
+      "english": "No end and no beginning",
+      "chinese": "沒有終點，也沒有起點",
+      "lineId": "line-37",
+      "startSeconds": 126.8,
+      "endSeconds": 131.26
+    },
+    {
+      "english": "You're here with me",
+      "chinese": "而你就在這裡，陪伴著我",
+      "lineId": "line-38",
+      "startSeconds": 131.26,
+      "endSeconds": 134.18
+    },
+    {
+      "english": "It's like a dream",
+      "chinese": "這一切宛如夢境",
+      "lineId": "line-39",
+      "startSeconds": 134.18,
+      "endSeconds": 137.3
+    },
+    {
+      "english": "Let the choir sing",
+      "chinese": "讓唱詩班放聲歌唱吧",
+      "lineId": "line-40",
+      "startSeconds": 137.3,
+      "endSeconds": 140.38
+    },
+    {
+      "english": "When you call my name",
+      "chinese": "每當你呼喚我的名字",
+      "lineId": "line-41",
+      "startSeconds": 140.38,
+      "endSeconds": 142.5
+    },
+    {
+      "english": "It's like a little prayer",
+      "chinese": "那聲音就像一段輕柔的祈禱",
+      "lineId": "line-42",
+      "startSeconds": 142.5,
+      "endSeconds": 144.62
+    },
+    {
+      "english": "I'm down on my knees",
+      "chinese": "我雙膝跪地",
+      "lineId": "line-43",
+      "startSeconds": 144.62,
+      "endSeconds": 146.74
+    },
+    {
+      "english": "I wanna take you there",
+      "chinese": "我渴望帶你前往那個境界",
+      "lineId": "line-44",
+      "startSeconds": 146.74,
+      "endSeconds": 149.18
+    },
+    {
+      "english": "In the midnight hour",
+      "chinese": "在午夜時分",
+      "lineId": "line-45"
+    },
+    {
+      "english": "I can feel your power",
+      "chinese": "我能感受到你的力量",
+      "lineId": "line-46",
+      "startSeconds": 151.14,
+      "endSeconds": 153.36
+    },
+    {
+      "english": "Just like a prayer",
+      "chinese": "宛如一場虔誠的祈禱",
+      "lineId": "line-47",
+      "startSeconds": 153.36,
+      "endSeconds": 155.36
+    },
+    {
+      "english": "You know I'll take you there",
+      "chinese": "你知道，我會帶你抵達那個境界",
+      "lineId": "line-48",
+      "startSeconds": 155.36,
+      "endSeconds": 157.78
+    },
+    {
+      "english": "When you call my name",
+      "chinese": "每當你呼喚我的名字",
+      "lineId": "line-49",
+      "startSeconds": 157.78,
+      "endSeconds": 159.68
+    },
+    {
+      "english": "It's like a little prayer",
+      "chinese": "那聲音就像一段輕柔的祈禱",
+      "lineId": "line-50",
+      "startSeconds": 159.68,
+      "endSeconds": 161.76
+    },
+    {
+      "english": "I'm down on my knees",
+      "chinese": "我雙膝跪地",
+      "lineId": "line-51",
+      "startSeconds": 161.76,
+      "endSeconds": 163.92
+    },
+    {
+      "english": "I wanna take you there",
+      "chinese": "我渴望帶你前往那個境界",
+      "lineId": "line-52",
+      "startSeconds": 163.92,
+      "endSeconds": 166.34
+    },
+    {
+      "english": "In the midnight hour",
+      "chinese": "在午夜時分",
+      "lineId": "line-53",
+      "startSeconds": 166.36,
+      "endSeconds": 168.44
+    },
+    {
+      "english": "I can feel your power",
+      "chinese": "我能感受到你的力量",
+      "lineId": "line-54",
+      "startSeconds": 168.44,
+      "endSeconds": 170.42
+    },
+    {
+      "english": "Just like a prayer",
+      "chinese": "宛如一場虔誠的祈禱",
+      "lineId": "line-55",
+      "startSeconds": 170.76,
+      "endSeconds": 172.5
+    },
+    {
+      "english": "You know I'll take you there",
+      "chinese": "你知道，我會帶你抵達那個境界",
+      "lineId": "line-56",
+      "startSeconds": 172.5,
+      "endSeconds": 176.36
+    },
+    {
+      "english": "Life is a mystery",
+      "chinese": "生命是一個難以參透的謎",
+      "lineId": "line-57",
+      "startSeconds": 183.08,
+      "endSeconds": 186.92
+    },
+    {
+      "english": "Everyone must stand alone",
+      "chinese": "每個人終究都得獨自面對人生",
+      "lineId": "line-58",
+      "startSeconds": 187.72,
+      "endSeconds": 191.86
+    },
+    {
+      "english": "I hear you call my name",
+      "chinese": "我聽見你輕聲呼喚我的名字",
+      "lineId": "line-59",
+      "startSeconds": 191.86,
+      "endSeconds": 196.38
+    },
+    {
+      "english": "And it feels like home",
+      "chinese": "那感覺，彷彿終於回到了家",
+      "lineId": "line-60"
+    },
+    {
+      "english": "Just like a prayer",
+      "chinese": "宛如一場虔誠的祈禱",
+      "lineId": "line-61",
+      "startSeconds": 200.88,
+      "endSeconds": 202.22
+    },
+    {
+      "english": "Your voice can take me there",
+      "chinese": "你的聲音能引領我抵達那個境界",
+      "lineId": "line-62",
+      "startSeconds": 202.22,
+      "endSeconds": 204.38
+    },
+    {
+      "english": "Just like a muse to me",
+      "chinese": "對我而言，你宛如啟發靈感的繆思",
+      "lineId": "line-63",
+      "startSeconds": 204.38,
+      "endSeconds": 206.54
+    },
+    {
+      "english": "You are a mystery",
+      "chinese": "你是一個難以參透的謎",
+      "lineId": "line-64",
+      "startSeconds": 206.54,
+      "endSeconds": 208.38
+    },
+    {
+      "english": "Just like a dream",
+      "chinese": "宛如一場夢境",
+      "lineId": "line-65",
+      "startSeconds": 208.38,
+      "endSeconds": 210.96
+    },
+    {
+      "english": "You are not what you seem",
+      "chinese": "你的真實模樣，並非表面所見",
+      "lineId": "line-66",
+      "startSeconds": 210.96,
+      "endSeconds": 213.32
+    },
+    {
+      "english": "Just like a prayer, no choice",
+      "chinese": "宛如祈禱，讓我無從抗拒",
+      "lineId": "line-67",
+      "startSeconds": 213.32,
+      "endSeconds": 215.6
+    },
+    {
+      "english": "Your voice can take me there",
+      "chinese": "你的聲音能引領我抵達那個境界",
+      "lineId": "line-68",
+      "startSeconds": 215.68,
+      "endSeconds": 217.86
+    },
+    {
+      "english": "Just like a prayer, I'll take you there",
+      "chinese": "宛如一場祈禱，我會帶你抵達那個境界",
+      "lineId": "line-69",
+      "startSeconds": 218.48,
+      "endSeconds": 220.44
+    },
+    {
+      "english": "It's like a dream to me",
+      "chinese": "對我而言，這一切宛如夢境",
+      "lineId": "line-70"
+    },
+    {
+      "english": "Just like a prayer, I'll take you there",
+      "chinese": "宛如一場祈禱，我會帶你抵達那個境界",
+      "lineId": "line-71"
+    },
+    {
+      "english": "It's like a dream to me",
+      "chinese": "對我而言，這一切宛如夢境",
+      "lineId": "line-72"
+    },
+    {
+      "english": "Just like a prayer, I'll take you there",
+      "chinese": "宛如一場祈禱，我會帶你抵達那個境界",
+      "lineId": "line-73"
+    },
+    {
+      "english": "It's like a dream to me",
+      "chinese": "對我而言，這一切宛如夢境",
+      "lineId": "line-74"
+    },
+    {
+      "english": "Just like a prayer, I'll take you there",
+      "chinese": "宛如一場祈禱，我會帶你抵達那個境界",
+      "lineId": "line-75"
+    },
+    {
+      "english": "It's like a dream to me",
+      "chinese": "對我而言，這一切宛如夢境",
+      "lineId": "line-76"
+    },
+    {
+      "english": "Just like a prayer",
+      "chinese": "宛如一場虔誠的祈禱",
+      "lineId": "line-77",
+      "startSeconds": 251.9,
+      "endSeconds": 253.7
+    },
+    {
+      "english": "Your voice can take me there",
+      "chinese": "你的聲音能引領我抵達那個境界",
+      "lineId": "line-78",
+      "startSeconds": 254.34,
+      "endSeconds": 255.9
+    },
+    {
+      "english": "Just like a muse to me",
+      "chinese": "對我而言，你宛如啟發靈感的繆思",
+      "lineId": "line-79",
+      "startSeconds": 255.9,
+      "endSeconds": 257.8
+    },
+    {
+      "english": "You are a mystery",
+      "chinese": "你是一個難以參透的謎",
+      "lineId": "line-80",
+      "startSeconds": 257.82,
+      "endSeconds": 259.7
+    },
+    {
+      "english": "Just like a dream",
+      "chinese": "宛如一場夢境",
+      "lineId": "line-81",
+      "startSeconds": 260.48,
+      "endSeconds": 262.48
+    },
+    {
+      "english": "You are not what you seem",
+      "chinese": "你的真實模樣，並非表面所見",
+      "lineId": "line-82",
+      "startSeconds": 262.68,
+      "endSeconds": 264.86
+    },
+    {
+      "english": "Just like a prayer, no choice",
+      "chinese": "宛如祈禱，讓我無從抗拒",
+      "lineId": "line-83"
+    },
+    {
+      "english": "Your voice can take me there",
+      "chinese": "你的聲音能引領我抵達那個境界",
+      "lineId": "line-84",
+      "startSeconds": 266.72,
+      "endSeconds": 269.28
+    },
+    {
+      "english": "Just like a prayer",
+      "chinese": "宛如一場虔誠的祈禱",
+      "lineId": "line-85",
+      "startSeconds": 269.28,
+      "endSeconds": 270.86
+    },
+    {
+      "english": "Your voice can take me there",
+      "chinese": "你的聲音能引領我抵達那個境界",
+      "lineId": "line-86",
+      "startSeconds": 271.2,
+      "endSeconds": 272.96
+    },
+    {
+      "english": "Just like a muse to me",
+      "chinese": "對我而言，你宛如啟發靈感的繆思",
+      "lineId": "line-87",
+      "startSeconds": 272.96,
+      "endSeconds": 275.16
+    },
+    {
+      "english": "You are a mystery",
+      "chinese": "你是一個難以參透的謎",
+      "lineId": "line-88",
+      "startSeconds": 275.44,
+      "endSeconds": 276.9
+    },
+    {
+      "english": "Just like a dream",
+      "chinese": "宛如一場夢境",
+      "lineId": "line-89",
+      "startSeconds": 276.9,
+      "endSeconds": 279.48
+    },
+    {
+      "english": "You are not what you seem",
+      "chinese": "你的真實模樣，並非表面所見",
+      "lineId": "line-90",
+      "startSeconds": 279.48,
+      "endSeconds": 281.96
+    },
+    {
+      "english": "Just like a prayer, no choice",
+      "chinese": "宛如祈禱，讓我無從抗拒",
+      "lineId": "line-91"
+    },
+    {
+      "english": "Your voice can take me there",
+      "chinese": "你的聲音能引領我抵達那個境界",
+      "lineId": "line-92"
+    },
+    {
+      "english": "Your voice can take me there",
+      "chinese": "你的聲音能引領我抵達那個境界",
+      "lineId": "line-93"
+    },
+    {
+      "english": "Like a prayer",
+      "chinese": "宛如祈禱",
+      "lineId": "line-94"
+    },
+    {
+      "english": "Just like a prayer, your voice can take me there",
+      "chinese": "宛如一場祈禱，你的聲音能引領我抵達那個境界",
+      "lineId": "line-95"
+    },
+    {
+      "english": "It's like a prayer",
+      "chinese": "這一切宛如祈禱",
+      "lineId": "line-96"
+    },
+    {
+      "english": "Just like a prayer, your voice can take me there",
+      "chinese": "宛如一場祈禱，你的聲音能引領我抵達那個境界",
+      "lineId": "line-97"
+    },
+    {
+      "english": "It's like a prayer",
+      "chinese": "這一切宛如祈禱",
+      "lineId": "line-98"
+    },
+    {
+      "english": "Just like a prayer, your voice can take me there",
+      "chinese": "宛如一場祈禱，你的聲音能引領我抵達那個境界",
+      "lineId": "line-99"
+    },
+    {
+      "english": "It's like a prayer",
+      "chinese": "這一切宛如祈禱",
+      "lineId": "line-100"
+    },
+    {
+      "english": "Just like a prayer, your voice can take me there",
+      "chinese": "宛如一場祈禱，你的聲音能引領我抵達那個境界",
+      "lineId": "line-101"
+    },
+    {
+      "english": "It's like a prayer",
+      "chinese": "這一切宛如祈禱",
+      "lineId": "line-102"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "mystery",
+          "options": [
+            "mystery",
+            "miracle",
+            "memory"
+          ],
+          "prompt": "Life is a {{blank}}",
+          "promptZh": "生命是一個難以參透的謎"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "stand alone",
+          "options": [
+            "stay together",
+            "walk away",
+            "stand alone"
+          ],
+          "prompt": "Everyone must {{blank}}",
+          "promptZh": "每個人終究都得獨自面對人生"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "call my name",
+          "options": [
+            "call my name",
+            "hear my voice",
+            "say my name"
+          ],
+          "prompt": "I hear you {{blank}}",
+          "promptZh": "我聽見你輕聲呼喚我的名字"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "feels like home",
+          "options": [
+            "sounds like rain",
+            "feels so cold",
+            "feels like home"
+          ],
+          "prompt": "And it {{blank}}",
+          "promptZh": "那感覺，彷彿終於回到了家"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "call my name",
+          "options": [
+            "call my name",
+            "read my mind",
+            "hold my hand"
+          ],
+          "prompt": "When you {{blank}}",
+          "promptZh": "每當你呼喚我的名字"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "little prayer",
+          "options": [
+            "silent song",
+            "simple dream",
+            "little prayer"
+          ],
+          "prompt": "It's like a {{blank}}",
+          "promptZh": "那聲音就像一段輕柔的祈禱"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "on my knees",
+          "options": [
+            "on my knees",
+            "on my feet",
+            "in my arms"
+          ],
+          "prompt": "I'm down {{blank}}",
+          "promptZh": "我雙膝跪地"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "take you there",
+          "options": [
+            "leave you here",
+            "take you there",
+            "bring you home"
+          ],
+          "prompt": "I wanna {{blank}}",
+          "promptZh": "我渴望帶你前往那個境界"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "midnight hour",
+          "options": [
+            "morning light",
+            "evening rain",
+            "midnight hour"
+          ],
+          "prompt": "In the {{blank}}",
+          "promptZh": "在午夜時分"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "feel your power",
+          "options": [
+            "hear your laughter",
+            "feel your power",
+            "see your shadow"
+          ],
+          "prompt": "I can {{blank}}",
+          "promptZh": "我能感受到你的力量"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "like a prayer",
+          "options": [
+            "like a dream",
+            "like a prayer",
+            "like a song"
+          ],
+          "prompt": "Just {{blank}}",
+          "promptZh": "宛如一場虔誠的祈禱"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "I'll take you there",
+          "options": [
+            "I'll take you there",
+            "I'll follow you",
+            "I'll meet you here"
+          ],
+          "prompt": "You know {{blank}}",
+          "promptZh": "你知道，我會帶你抵達那個境界"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "your voice",
+          "options": [
+            "your face",
+            "your voice",
+            "your eyes"
+          ],
+          "prompt": "I hear {{blank}}",
+          "promptZh": "我聽見你的聲音"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "angel sighing",
+          "options": [
+            "angel sighing",
+            "child crying",
+            "bird singing"
+          ],
+          "prompt": "It's like an {{blank}}",
+          "promptZh": "宛如天使輕輕的一聲嘆息"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "no choice",
+          "options": [
+            "no fear",
+            "no chance",
+            "no choice"
+          ],
+          "prompt": "I have {{blank}}",
+          "promptZh": "我已無從抗拒"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-17",
+          "answer": "like flying",
+          "options": [
+            "like dancing",
+            "like flying",
+            "like falling"
+          ],
+          "prompt": "Feels {{blank}}",
+          "promptZh": "彷彿展翅飛翔"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "close my eyes",
+          "options": [
+            "raise my hands",
+            "close my eyes",
+            "open my arms"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我輕輕閉上雙眼"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "I'm falling",
+          "options": [
+            "I'm waiting",
+            "I'm calling",
+            "I'm falling"
+          ],
+          "prompt": "Oh God, I think {{blank}}",
+          "promptZh": "噢，天啊，我想我正不斷墜落"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-20",
+          "answer": "the sky",
+          "options": [
+            "the ground",
+            "the sky",
+            "the sea"
+          ],
+          "prompt": "Out of {{blank}}",
+          "promptZh": "從高高的天空墜下"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-22",
+          "answer": "help me",
+          "options": [
+            "help me",
+            "hold me",
+            "hear me"
+          ],
+          "prompt": "Heaven, {{blank}}",
+          "promptZh": "上天啊，請幫幫我"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Life is a {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Everyone must {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I hear you {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "And it {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "When you {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "It's like a {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I'm down {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I wanna {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "In the {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I can {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Just {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "You know {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I hear {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "It's like an {{q:14}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I have {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I hear your voice"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Feels {{q:16}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Oh God, I think {{q:18}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Out of {{q:19}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I close my eyes"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Heaven, {{q:20}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "When you call my name"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "It's like a little prayer"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I'm down on my knees"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I wanna take you there"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "In the midnight hour"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I can feel your power"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Just like a prayer"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You know I'll take you there"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Like a child"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You whisper softly to me"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "You're in control"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Just like a child"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Now I'm dancing"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "It's like a dream"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "No end and no beginning"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "You're here with me"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "It's like a dream"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Let the choir sing"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "When you call my name"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "It's like a little prayer"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I'm down on my knees"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "I wanna take you there"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "In the midnight hour"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I can feel your power"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Just like a prayer"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "You know I'll take you there"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "When you call my name"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "It's like a little prayer"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "I'm down on my knees"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "I wanna take you there"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "In the midnight hour"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "I can feel your power"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Just like a prayer"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "You know I'll take you there"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Life is a mystery"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Everyone must stand alone"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "I hear you call my name"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "And it feels like home"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Just like a prayer"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Just like a muse to me"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "You are a mystery"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Just like a dream"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "You are not what you seem"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Just like a prayer, no choice"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "Just like a prayer, I'll take you there"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "It's like a dream to me"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "Just like a prayer, I'll take you there"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "It's like a dream to me"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "Just like a prayer, I'll take you there"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "It's like a dream to me"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "Just like a prayer, I'll take you there"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "It's like a dream to me"
+        },
+        {
+          "lineId": "line-77",
+          "prompt": "Just like a prayer"
+        },
+        {
+          "lineId": "line-78",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-79",
+          "prompt": "Just like a muse to me"
+        },
+        {
+          "lineId": "line-80",
+          "prompt": "You are a mystery"
+        },
+        {
+          "lineId": "line-81",
+          "prompt": "Just like a dream"
+        },
+        {
+          "lineId": "line-82",
+          "prompt": "You are not what you seem"
+        },
+        {
+          "lineId": "line-83",
+          "prompt": "Just like a prayer, no choice"
+        },
+        {
+          "lineId": "line-84",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-85",
+          "prompt": "Just like a prayer"
+        },
+        {
+          "lineId": "line-86",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-87",
+          "prompt": "Just like a muse to me"
+        },
+        {
+          "lineId": "line-88",
+          "prompt": "You are a mystery"
+        },
+        {
+          "lineId": "line-89",
+          "prompt": "Just like a dream"
+        },
+        {
+          "lineId": "line-90",
+          "prompt": "You are not what you seem"
+        },
+        {
+          "lineId": "line-91",
+          "prompt": "Just like a prayer, no choice"
+        },
+        {
+          "lineId": "line-92",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-93",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-94",
+          "prompt": "Like a prayer"
+        },
+        {
+          "lineId": "line-95",
+          "prompt": "Just like a prayer, your voice can take me there"
+        },
+        {
+          "lineId": "line-96",
+          "prompt": "It's like a prayer"
+        },
+        {
+          "lineId": "line-97",
+          "prompt": "Just like a prayer, your voice can take me there"
+        },
+        {
+          "lineId": "line-98",
+          "prompt": "It's like a prayer"
+        },
+        {
+          "lineId": "line-99",
+          "prompt": "Just like a prayer, your voice can take me there"
+        },
+        {
+          "lineId": "line-100",
+          "prompt": "It's like a prayer"
+        },
+        {
+          "lineId": "line-101",
+          "prompt": "Just like a prayer, your voice can take me there"
+        },
+        {
+          "lineId": "line-102",
+          "prompt": "It's like a prayer"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "mystery",
+          "options": [
+            "memory",
+            "miracle",
+            "mystery"
+          ],
+          "prompt": "Life is a {{blank}}",
+          "promptZh": "生命是一個難以參透的謎"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "stand alone",
+          "options": [
+            "stay together",
+            "stand alone",
+            "walk away"
+          ],
+          "prompt": "Everyone must {{blank}}",
+          "promptZh": "每個人終究都得獨自面對人生"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "call my name",
+          "options": [
+            "call my name",
+            "hear my voice",
+            "say my name"
+          ],
+          "prompt": "I hear you {{blank}}",
+          "promptZh": "我聽見你輕聲呼喚我的名字"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "feels like home",
+          "options": [
+            "sounds like rain",
+            "feels so cold",
+            "feels like home"
+          ],
+          "prompt": "And it {{blank}}",
+          "promptZh": "那感覺，彷彿終於回到了家"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "call my name",
+          "options": [
+            "hold my hand",
+            "call my name",
+            "read my mind"
+          ],
+          "prompt": "When you {{blank}}",
+          "promptZh": "每當你呼喚我的名字"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "little prayer",
+          "options": [
+            "little prayer",
+            "silent song",
+            "simple dream"
+          ],
+          "prompt": "It's like a {{blank}}",
+          "promptZh": "那聲音就像一段輕柔的祈禱"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "on my knees",
+          "options": [
+            "on my knees",
+            "in my arms",
+            "on my feet"
+          ],
+          "prompt": "I'm down {{blank}}",
+          "promptZh": "我雙膝跪地"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "take you there",
+          "options": [
+            "leave you here",
+            "bring you home",
+            "take you there"
+          ],
+          "prompt": "I wanna {{blank}}",
+          "promptZh": "我渴望帶你前往那個境界"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "midnight hour",
+          "options": [
+            "midnight hour",
+            "evening rain",
+            "morning light"
+          ],
+          "prompt": "In the {{blank}}",
+          "promptZh": "在午夜時分"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "feel your power",
+          "options": [
+            "hear your laughter",
+            "see your shadow",
+            "feel your power"
+          ],
+          "prompt": "I can {{blank}}",
+          "promptZh": "我能感受到你的力量"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "like a prayer",
+          "options": [
+            "like a prayer",
+            "like a song",
+            "like a dream"
+          ],
+          "prompt": "Just {{blank}}",
+          "promptZh": "宛如一場虔誠的祈禱"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "I'll take you there",
+          "options": [
+            "I'll follow you",
+            "I'll take you there",
+            "I'll meet you here"
+          ],
+          "prompt": "You know {{blank}}",
+          "promptZh": "你知道，我會帶你抵達那個境界"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "your voice",
+          "options": [
+            "your face",
+            "your voice",
+            "your eyes"
+          ],
+          "prompt": "I hear {{blank}}",
+          "promptZh": "我聽見你的聲音"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "angel sighing",
+          "options": [
+            "angel sighing",
+            "child crying",
+            "bird singing"
+          ],
+          "prompt": "It's like an {{blank}}",
+          "promptZh": "宛如天使輕輕的一聲嘆息"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "no choice",
+          "options": [
+            "no chance",
+            "no choice",
+            "no fear"
+          ],
+          "prompt": "I have {{blank}}",
+          "promptZh": "我已無從抗拒"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-17",
+          "answer": "like flying",
+          "options": [
+            "like falling",
+            "like flying",
+            "like dancing"
+          ],
+          "prompt": "Feels {{blank}}",
+          "promptZh": "彷彿展翅飛翔"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "close my eyes",
+          "options": [
+            "open my arms",
+            "raise my hands",
+            "close my eyes"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我輕輕閉上雙眼"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "I'm falling",
+          "options": [
+            "I'm waiting",
+            "I'm calling",
+            "I'm falling"
+          ],
+          "prompt": "Oh God, I think {{blank}}",
+          "promptZh": "噢，天啊，我想我正不斷墜落"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-20",
+          "answer": "the sky",
+          "options": [
+            "the sky",
+            "the sea",
+            "the ground"
+          ],
+          "prompt": "Out of {{blank}}",
+          "promptZh": "從高高的天空墜下"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-22",
+          "answer": "help me",
+          "options": [
+            "hear me",
+            "help me",
+            "hold me"
+          ],
+          "prompt": "Heaven, {{blank}}",
+          "promptZh": "上天啊，請幫幫我"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-23",
+          "answer": "call my name",
+          "options": [
+            "call my name",
+            "hold my hand",
+            "read my mind"
+          ],
+          "prompt": "When you {{blank}}",
+          "promptZh": "每當你呼喚我的名字"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-24",
+          "answer": "little prayer",
+          "options": [
+            "silent song",
+            "little prayer",
+            "simple dream"
+          ],
+          "prompt": "It's like a {{blank}}",
+          "promptZh": "那聲音就像一段輕柔的祈禱"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-25",
+          "answer": "on my knees",
+          "options": [
+            "on my feet",
+            "in my arms",
+            "on my knees"
+          ],
+          "prompt": "I'm down {{blank}}",
+          "promptZh": "我雙膝跪地"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-26",
+          "answer": "take you there",
+          "options": [
+            "take you there",
+            "leave you here",
+            "bring you home"
+          ],
+          "prompt": "I wanna {{blank}}",
+          "promptZh": "我渴望帶你前往那個境界"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-27",
+          "answer": "midnight hour",
+          "options": [
+            "evening rain",
+            "morning light",
+            "midnight hour"
+          ],
+          "prompt": "In the {{blank}}",
+          "promptZh": "在午夜時分"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-28",
+          "answer": "your power",
+          "options": [
+            "your power",
+            "your laughter",
+            "your shadow"
+          ],
+          "prompt": "I can feel {{blank}}",
+          "promptZh": "我能感受到你的力量"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-29",
+          "answer": "a prayer",
+          "options": [
+            "a dream",
+            "a prayer",
+            "a song"
+          ],
+          "prompt": "Just like {{blank}}",
+          "promptZh": "宛如一場虔誠的祈禱"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-30",
+          "answer": "take you there",
+          "options": [
+            "meet you here",
+            "follow you",
+            "take you there"
+          ],
+          "prompt": "You know I'll {{blank}}",
+          "promptZh": "你知道，我會帶你抵達那個境界"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-31",
+          "answer": "a child",
+          "options": [
+            "a child",
+            "a lover",
+            "a stranger"
+          ],
+          "prompt": "Like {{blank}}",
+          "promptZh": "宛如一個孩子"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-32",
+          "answer": "whisper softly",
+          "options": [
+            "laugh freely",
+            "shout loudly",
+            "whisper softly"
+          ],
+          "prompt": "You {{blank}} to me",
+          "promptZh": "你在我耳畔輕聲低語"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-33",
+          "answer": "in control",
+          "options": [
+            "in trouble",
+            "in control",
+            "in danger"
+          ],
+          "prompt": "You're {{blank}}",
+          "promptZh": "一切彷彿都由你掌握"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-35",
+          "answer": "I'm dancing",
+          "options": [
+            "I'm waiting",
+            "I'm dancing",
+            "I'm crying"
+          ],
+          "prompt": "Now {{blank}}",
+          "promptZh": "此刻，我正翩然起舞"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Life is a {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Everyone must {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I hear you {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "And it {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "When you {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "It's like a {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I'm down {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I wanna {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "In the {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I can {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Just {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "You know {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I hear {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "It's like an {{q:14}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I have {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I hear your voice"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Feels {{q:16}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Oh God, I think {{q:18}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Out of {{q:19}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I close my eyes"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Heaven, {{q:20}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "When you {{q:21}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "It's like a {{q:22}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I'm down {{q:23}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I wanna {{q:24}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "In the {{q:25}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I can feel {{q:26}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Just like {{q:27}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You know I'll {{q:28}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Like {{q:29}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You {{q:30}} to me"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "You're {{q:31}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Just like a child"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Now {{q:32}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "It's like a dream"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "No end and no beginning"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "You're here with me"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "It's like a dream"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Let the choir sing"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "When you call my name"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "It's like a little prayer"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I'm down on my knees"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "I wanna take you there"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "In the midnight hour"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I can feel your power"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Just like a prayer"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "You know I'll take you there"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "When you call my name"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "It's like a little prayer"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "I'm down on my knees"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "I wanna take you there"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "In the midnight hour"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "I can feel your power"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Just like a prayer"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "You know I'll take you there"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Life is a mystery"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Everyone must stand alone"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "I hear you call my name"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "And it feels like home"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Just like a prayer"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Just like a muse to me"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "You are a mystery"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Just like a dream"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "You are not what you seem"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Just like a prayer, no choice"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "Just like a prayer, I'll take you there"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "It's like a dream to me"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "Just like a prayer, I'll take you there"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "It's like a dream to me"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "Just like a prayer, I'll take you there"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "It's like a dream to me"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "Just like a prayer, I'll take you there"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "It's like a dream to me"
+        },
+        {
+          "lineId": "line-77",
+          "prompt": "Just like a prayer"
+        },
+        {
+          "lineId": "line-78",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-79",
+          "prompt": "Just like a muse to me"
+        },
+        {
+          "lineId": "line-80",
+          "prompt": "You are a mystery"
+        },
+        {
+          "lineId": "line-81",
+          "prompt": "Just like a dream"
+        },
+        {
+          "lineId": "line-82",
+          "prompt": "You are not what you seem"
+        },
+        {
+          "lineId": "line-83",
+          "prompt": "Just like a prayer, no choice"
+        },
+        {
+          "lineId": "line-84",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-85",
+          "prompt": "Just like a prayer"
+        },
+        {
+          "lineId": "line-86",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-87",
+          "prompt": "Just like a muse to me"
+        },
+        {
+          "lineId": "line-88",
+          "prompt": "You are a mystery"
+        },
+        {
+          "lineId": "line-89",
+          "prompt": "Just like a dream"
+        },
+        {
+          "lineId": "line-90",
+          "prompt": "You are not what you seem"
+        },
+        {
+          "lineId": "line-91",
+          "prompt": "Just like a prayer, no choice"
+        },
+        {
+          "lineId": "line-92",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-93",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-94",
+          "prompt": "Like a prayer"
+        },
+        {
+          "lineId": "line-95",
+          "prompt": "Just like a prayer, your voice can take me there"
+        },
+        {
+          "lineId": "line-96",
+          "prompt": "It's like a prayer"
+        },
+        {
+          "lineId": "line-97",
+          "prompt": "Just like a prayer, your voice can take me there"
+        },
+        {
+          "lineId": "line-98",
+          "prompt": "It's like a prayer"
+        },
+        {
+          "lineId": "line-99",
+          "prompt": "Just like a prayer, your voice can take me there"
+        },
+        {
+          "lineId": "line-100",
+          "prompt": "It's like a prayer"
+        },
+        {
+          "lineId": "line-101",
+          "prompt": "Just like a prayer, your voice can take me there"
+        },
+        {
+          "lineId": "line-102",
+          "prompt": "It's like a prayer"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "mystery",
+          "options": [
+            "mystery",
+            "miracle",
+            "memory"
+          ],
+          "prompt": "Life is a {{blank}}",
+          "promptZh": "生命是一個難以參透的謎"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "stand alone",
+          "options": [
+            "walk away",
+            "stay together",
+            "stand alone"
+          ],
+          "prompt": "Everyone must {{blank}}",
+          "promptZh": "每個人終究都得獨自面對人生"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "call my name",
+          "options": [
+            "say my name",
+            "hear my voice",
+            "call my name"
+          ],
+          "prompt": "I hear you {{blank}}",
+          "promptZh": "我聽見你輕聲呼喚我的名字"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "feels like home",
+          "options": [
+            "feels like home",
+            "sounds like rain",
+            "feels so cold"
+          ],
+          "prompt": "And it {{blank}}",
+          "promptZh": "那感覺，彷彿終於回到了家"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "call my name",
+          "options": [
+            "hold my hand",
+            "read my mind",
+            "call my name"
+          ],
+          "prompt": "When you {{blank}}",
+          "promptZh": "每當你呼喚我的名字"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "little prayer",
+          "options": [
+            "silent song",
+            "simple dream",
+            "little prayer"
+          ],
+          "prompt": "It's like a {{blank}}",
+          "promptZh": "那聲音就像一段輕柔的祈禱"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "on my knees",
+          "options": [
+            "on my knees",
+            "in my arms",
+            "on my feet"
+          ],
+          "prompt": "I'm down {{blank}}",
+          "promptZh": "我雙膝跪地"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "take you there",
+          "options": [
+            "bring you home",
+            "take you there",
+            "leave you here"
+          ],
+          "prompt": "I wanna {{blank}}",
+          "promptZh": "我渴望帶你前往那個境界"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "midnight hour",
+          "options": [
+            "midnight hour",
+            "morning light",
+            "evening rain"
+          ],
+          "prompt": "In the {{blank}}",
+          "promptZh": "在午夜時分"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "feel your power",
+          "options": [
+            "see your shadow",
+            "feel your power",
+            "hear your laughter"
+          ],
+          "prompt": "I can {{blank}}",
+          "promptZh": "我能感受到你的力量"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "like a prayer",
+          "options": [
+            "like a song",
+            "like a prayer",
+            "like a dream"
+          ],
+          "prompt": "Just {{blank}}",
+          "promptZh": "宛如一場虔誠的祈禱"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "I'll take you there",
+          "options": [
+            "I'll take you there",
+            "I'll follow you",
+            "I'll meet you here"
+          ],
+          "prompt": "You know {{blank}}",
+          "promptZh": "你知道，我會帶你抵達那個境界"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "your voice",
+          "options": [
+            "your voice",
+            "your eyes",
+            "your face"
+          ],
+          "prompt": "I hear {{blank}}",
+          "promptZh": "我聽見你的聲音"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "angel sighing",
+          "options": [
+            "child crying",
+            "bird singing",
+            "angel sighing"
+          ],
+          "prompt": "It's like an {{blank}}",
+          "promptZh": "宛如天使輕輕的一聲嘆息"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "no choice",
+          "options": [
+            "no chance",
+            "no choice",
+            "no fear"
+          ],
+          "prompt": "I have {{blank}}",
+          "promptZh": "我已無從抗拒"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-17",
+          "answer": "like flying",
+          "options": [
+            "like falling",
+            "like flying",
+            "like dancing"
+          ],
+          "prompt": "Feels {{blank}}",
+          "promptZh": "彷彿展翅飛翔"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "close my eyes",
+          "options": [
+            "open my arms",
+            "raise my hands",
+            "close my eyes"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我輕輕閉上雙眼"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "I'm falling",
+          "options": [
+            "I'm calling",
+            "I'm waiting",
+            "I'm falling"
+          ],
+          "prompt": "Oh God, I think {{blank}}",
+          "promptZh": "噢，天啊，我想我正不斷墜落"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-20",
+          "answer": "the sky",
+          "options": [
+            "the sea",
+            "the sky",
+            "the ground"
+          ],
+          "prompt": "Out of {{blank}}",
+          "promptZh": "從高高的天空墜下"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-22",
+          "answer": "help me",
+          "options": [
+            "help me",
+            "hear me",
+            "hold me"
+          ],
+          "prompt": "Heaven, {{blank}}",
+          "promptZh": "上天啊，請幫幫我"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-23",
+          "answer": "call my name",
+          "options": [
+            "read my mind",
+            "hold my hand",
+            "call my name"
+          ],
+          "prompt": "When you {{blank}}",
+          "promptZh": "每當你呼喚我的名字"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-24",
+          "answer": "little prayer",
+          "options": [
+            "silent song",
+            "little prayer",
+            "simple dream"
+          ],
+          "prompt": "It's like a {{blank}}",
+          "promptZh": "那聲音就像一段輕柔的祈禱"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-25",
+          "answer": "on my knees",
+          "options": [
+            "in my arms",
+            "on my feet",
+            "on my knees"
+          ],
+          "prompt": "I'm down {{blank}}",
+          "promptZh": "我雙膝跪地"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-26",
+          "answer": "take you there",
+          "options": [
+            "leave you here",
+            "take you there",
+            "bring you home"
+          ],
+          "prompt": "I wanna {{blank}}",
+          "promptZh": "我渴望帶你前往那個境界"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-27",
+          "answer": "midnight hour",
+          "options": [
+            "midnight hour",
+            "morning light",
+            "evening rain"
+          ],
+          "prompt": "In the {{blank}}",
+          "promptZh": "在午夜時分"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-28",
+          "answer": "your power",
+          "options": [
+            "your shadow",
+            "your power",
+            "your laughter"
+          ],
+          "prompt": "I can feel {{blank}}",
+          "promptZh": "我能感受到你的力量"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-29",
+          "answer": "a prayer",
+          "options": [
+            "a prayer",
+            "a dream",
+            "a song"
+          ],
+          "prompt": "Just like {{blank}}",
+          "promptZh": "宛如一場虔誠的祈禱"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-30",
+          "answer": "take you there",
+          "options": [
+            "meet you here",
+            "take you there",
+            "follow you"
+          ],
+          "prompt": "You know I'll {{blank}}",
+          "promptZh": "你知道，我會帶你抵達那個境界"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-31",
+          "answer": "a child",
+          "options": [
+            "a child",
+            "a stranger",
+            "a lover"
+          ],
+          "prompt": "Like {{blank}}",
+          "promptZh": "宛如一個孩子"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-32",
+          "answer": "whisper softly",
+          "options": [
+            "whisper softly",
+            "laugh freely",
+            "shout loudly"
+          ],
+          "prompt": "You {{blank}} to me",
+          "promptZh": "你在我耳畔輕聲低語"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-33",
+          "answer": "in control",
+          "options": [
+            "in danger",
+            "in trouble",
+            "in control"
+          ],
+          "prompt": "You're {{blank}}",
+          "promptZh": "一切彷彿都由你掌握"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-35",
+          "answer": "I'm dancing",
+          "options": [
+            "I'm waiting",
+            "I'm dancing",
+            "I'm crying"
+          ],
+          "prompt": "Now {{blank}}",
+          "promptZh": "此刻，我正翩然起舞"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-36",
+          "answer": "a dream",
+          "options": [
+            "a promise",
+            "a dream",
+            "a secret"
+          ],
+          "prompt": "It's like {{blank}}",
+          "promptZh": "這一切宛如夢境"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-37",
+          "answer": "no beginning",
+          "options": [
+            "no reason",
+            "no tomorrow",
+            "no beginning"
+          ],
+          "prompt": "No end and {{blank}}",
+          "promptZh": "沒有終點，也沒有起點"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-38",
+          "answer": "here with me",
+          "options": [
+            "here with me",
+            "next to him",
+            "far from me"
+          ],
+          "prompt": "You're {{blank}}",
+          "promptZh": "而你就在這裡，陪伴著我"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-40",
+          "answer": "choir sing",
+          "options": [
+            "choir sing",
+            "children play",
+            "angels cry"
+          ],
+          "prompt": "Let the {{blank}}",
+          "promptZh": "讓唱詩班放聲歌唱吧"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-41",
+          "answer": "call my name",
+          "options": [
+            "read my mind",
+            "hold my hand",
+            "call my name"
+          ],
+          "prompt": "When you {{blank}}",
+          "promptZh": "每當你呼喚我的名字"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-42",
+          "answer": "little prayer",
+          "options": [
+            "simple dream",
+            "silent song",
+            "little prayer"
+          ],
+          "prompt": "It's like a {{blank}}",
+          "promptZh": "那聲音就像一段輕柔的祈禱"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-43",
+          "answer": "on my knees",
+          "options": [
+            "on my knees",
+            "in my arms",
+            "on my feet"
+          ],
+          "prompt": "I'm down {{blank}}",
+          "promptZh": "我雙膝跪地"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-44",
+          "answer": "take you there",
+          "options": [
+            "bring you home",
+            "take you there",
+            "leave you here"
+          ],
+          "prompt": "I wanna {{blank}}",
+          "promptZh": "我渴望帶你前往那個境界"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Life is a {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Everyone must {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I hear you {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "And it {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "When you {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "It's like a {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I'm down {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I wanna {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "In the {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I can {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Just {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "You know {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I hear {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "It's like an {{q:14}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I have {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I hear your voice"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Feels {{q:16}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Oh God, I think {{q:18}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Out of {{q:19}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I close my eyes"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Heaven, {{q:20}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "When you {{q:21}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "It's like a {{q:22}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I'm down {{q:23}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I wanna {{q:24}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "In the {{q:25}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I can feel {{q:26}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Just like {{q:27}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You know I'll {{q:28}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Like {{q:29}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You {{q:30}} to me"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "You're {{q:31}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Just like a child"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Now {{q:32}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "It's like {{q:33}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "No end and {{q:34}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "You're {{q:35}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "It's like a dream"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Let the {{q:36}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "When you {{q:37}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "It's like a {{q:38}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I'm down {{q:39}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "I wanna {{q:40}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "In the midnight hour"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I can feel your power"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Just like a prayer"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "You know I'll take you there"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "When you call my name"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "It's like a little prayer"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "I'm down on my knees"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "I wanna take you there"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "In the midnight hour"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "I can feel your power"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Just like a prayer"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "You know I'll take you there"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Life is a mystery"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Everyone must stand alone"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "I hear you call my name"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "And it feels like home"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Just like a prayer"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Just like a muse to me"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "You are a mystery"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Just like a dream"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "You are not what you seem"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Just like a prayer, no choice"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "Just like a prayer, I'll take you there"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "It's like a dream to me"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "Just like a prayer, I'll take you there"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "It's like a dream to me"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "Just like a prayer, I'll take you there"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "It's like a dream to me"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "Just like a prayer, I'll take you there"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "It's like a dream to me"
+        },
+        {
+          "lineId": "line-77",
+          "prompt": "Just like a prayer"
+        },
+        {
+          "lineId": "line-78",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-79",
+          "prompt": "Just like a muse to me"
+        },
+        {
+          "lineId": "line-80",
+          "prompt": "You are a mystery"
+        },
+        {
+          "lineId": "line-81",
+          "prompt": "Just like a dream"
+        },
+        {
+          "lineId": "line-82",
+          "prompt": "You are not what you seem"
+        },
+        {
+          "lineId": "line-83",
+          "prompt": "Just like a prayer, no choice"
+        },
+        {
+          "lineId": "line-84",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-85",
+          "prompt": "Just like a prayer"
+        },
+        {
+          "lineId": "line-86",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-87",
+          "prompt": "Just like a muse to me"
+        },
+        {
+          "lineId": "line-88",
+          "prompt": "You are a mystery"
+        },
+        {
+          "lineId": "line-89",
+          "prompt": "Just like a dream"
+        },
+        {
+          "lineId": "line-90",
+          "prompt": "You are not what you seem"
+        },
+        {
+          "lineId": "line-91",
+          "prompt": "Just like a prayer, no choice"
+        },
+        {
+          "lineId": "line-92",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-93",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-94",
+          "prompt": "Like a prayer"
+        },
+        {
+          "lineId": "line-95",
+          "prompt": "Just like a prayer, your voice can take me there"
+        },
+        {
+          "lineId": "line-96",
+          "prompt": "It's like a prayer"
+        },
+        {
+          "lineId": "line-97",
+          "prompt": "Just like a prayer, your voice can take me there"
+        },
+        {
+          "lineId": "line-98",
+          "prompt": "It's like a prayer"
+        },
+        {
+          "lineId": "line-99",
+          "prompt": "Just like a prayer, your voice can take me there"
+        },
+        {
+          "lineId": "line-100",
+          "prompt": "It's like a prayer"
+        },
+        {
+          "lineId": "line-101",
+          "prompt": "Just like a prayer, your voice can take me there"
+        },
+        {
+          "lineId": "line-102",
+          "prompt": "It's like a prayer"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "mystery",
+          "options": [
+            "mystery",
+            "miracle",
+            "memory"
+          ],
+          "prompt": "Life is a {{blank}}",
+          "promptZh": "生命是一個難以參透的謎"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "stand alone",
+          "options": [
+            "walk away",
+            "stand alone",
+            "stay together"
+          ],
+          "prompt": "Everyone must {{blank}}",
+          "promptZh": "每個人終究都得獨自面對人生"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "call my name",
+          "options": [
+            "call my name",
+            "hear my voice",
+            "say my name"
+          ],
+          "prompt": "I hear you {{blank}}",
+          "promptZh": "我聽見你輕聲呼喚我的名字"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "feels like home",
+          "options": [
+            "feels so cold",
+            "feels like home",
+            "sounds like rain"
+          ],
+          "prompt": "And it {{blank}}",
+          "promptZh": "那感覺，彷彿終於回到了家"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "call my name",
+          "options": [
+            "call my name",
+            "hold my hand",
+            "read my mind"
+          ],
+          "prompt": "When you {{blank}}",
+          "promptZh": "每當你呼喚我的名字"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "little prayer",
+          "options": [
+            "silent song",
+            "simple dream",
+            "little prayer"
+          ],
+          "prompt": "It's like a {{blank}}",
+          "promptZh": "那聲音就像一段輕柔的祈禱"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "on my knees",
+          "options": [
+            "on my knees",
+            "in my arms",
+            "on my feet"
+          ],
+          "prompt": "I'm down {{blank}}",
+          "promptZh": "我雙膝跪地"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "take you there",
+          "options": [
+            "take you there",
+            "bring you home",
+            "leave you here"
+          ],
+          "prompt": "I wanna {{blank}}",
+          "promptZh": "我渴望帶你前往那個境界"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "midnight hour",
+          "options": [
+            "morning light",
+            "midnight hour",
+            "evening rain"
+          ],
+          "prompt": "In the {{blank}}",
+          "promptZh": "在午夜時分"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "feel your power",
+          "options": [
+            "hear your laughter",
+            "see your shadow",
+            "feel your power"
+          ],
+          "prompt": "I can {{blank}}",
+          "promptZh": "我能感受到你的力量"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "like a prayer",
+          "options": [
+            "like a song",
+            "like a dream",
+            "like a prayer"
+          ],
+          "prompt": "Just {{blank}}",
+          "promptZh": "宛如一場虔誠的祈禱"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "I'll take you there",
+          "options": [
+            "I'll follow you",
+            "I'll take you there",
+            "I'll meet you here"
+          ],
+          "prompt": "You know {{blank}}",
+          "promptZh": "你知道，我會帶你抵達那個境界"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "your voice",
+          "options": [
+            "your eyes",
+            "your voice",
+            "your face"
+          ],
+          "prompt": "I hear {{blank}}",
+          "promptZh": "我聽見你的聲音"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "angel sighing",
+          "options": [
+            "bird singing",
+            "child crying",
+            "angel sighing"
+          ],
+          "prompt": "It's like an {{blank}}",
+          "promptZh": "宛如天使輕輕的一聲嘆息"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "no choice",
+          "options": [
+            "no fear",
+            "no choice",
+            "no chance"
+          ],
+          "prompt": "I have {{blank}}",
+          "promptZh": "我已無從抗拒"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-17",
+          "answer": "like flying",
+          "options": [
+            "like flying",
+            "like falling",
+            "like dancing"
+          ],
+          "prompt": "Feels {{blank}}",
+          "promptZh": "彷彿展翅飛翔"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "close my eyes",
+          "options": [
+            "raise my hands",
+            "open my arms",
+            "close my eyes"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我輕輕閉上雙眼"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "I'm falling",
+          "options": [
+            "I'm falling",
+            "I'm waiting",
+            "I'm calling"
+          ],
+          "prompt": "Oh God, I think {{blank}}",
+          "promptZh": "噢，天啊，我想我正不斷墜落"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-20",
+          "answer": "the sky",
+          "options": [
+            "the ground",
+            "the sky",
+            "the sea"
+          ],
+          "prompt": "Out of {{blank}}",
+          "promptZh": "從高高的天空墜下"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-22",
+          "answer": "help me",
+          "options": [
+            "help me",
+            "hear me",
+            "hold me"
+          ],
+          "prompt": "Heaven, {{blank}}",
+          "promptZh": "上天啊，請幫幫我"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-23",
+          "answer": "call my name",
+          "options": [
+            "hold my hand",
+            "call my name",
+            "read my mind"
+          ],
+          "prompt": "When you {{blank}}",
+          "promptZh": "每當你呼喚我的名字"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-24",
+          "answer": "little prayer",
+          "options": [
+            "little prayer",
+            "silent song",
+            "simple dream"
+          ],
+          "prompt": "It's like a {{blank}}",
+          "promptZh": "那聲音就像一段輕柔的祈禱"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-25",
+          "answer": "on my knees",
+          "options": [
+            "on my feet",
+            "in my arms",
+            "on my knees"
+          ],
+          "prompt": "I'm down {{blank}}",
+          "promptZh": "我雙膝跪地"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-26",
+          "answer": "take you there",
+          "options": [
+            "leave you here",
+            "take you there",
+            "bring you home"
+          ],
+          "prompt": "I wanna {{blank}}",
+          "promptZh": "我渴望帶你前往那個境界"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-27",
+          "answer": "midnight hour",
+          "options": [
+            "morning light",
+            "evening rain",
+            "midnight hour"
+          ],
+          "prompt": "In the {{blank}}",
+          "promptZh": "在午夜時分"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-28",
+          "answer": "your power",
+          "options": [
+            "your laughter",
+            "your power",
+            "your shadow"
+          ],
+          "prompt": "I can feel {{blank}}",
+          "promptZh": "我能感受到你的力量"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-29",
+          "answer": "a prayer",
+          "options": [
+            "a prayer",
+            "a dream",
+            "a song"
+          ],
+          "prompt": "Just like {{blank}}",
+          "promptZh": "宛如一場虔誠的祈禱"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-30",
+          "answer": "take you there",
+          "options": [
+            "meet you here",
+            "follow you",
+            "take you there"
+          ],
+          "prompt": "You know I'll {{blank}}",
+          "promptZh": "你知道，我會帶你抵達那個境界"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-31",
+          "answer": "a child",
+          "options": [
+            "a child",
+            "a stranger",
+            "a lover"
+          ],
+          "prompt": "Like {{blank}}",
+          "promptZh": "宛如一個孩子"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-32",
+          "answer": "whisper softly",
+          "options": [
+            "laugh freely",
+            "shout loudly",
+            "whisper softly"
+          ],
+          "prompt": "You {{blank}} to me",
+          "promptZh": "你在我耳畔輕聲低語"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-33",
+          "answer": "in control",
+          "options": [
+            "in danger",
+            "in control",
+            "in trouble"
+          ],
+          "prompt": "You're {{blank}}",
+          "promptZh": "一切彷彿都由你掌握"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-35",
+          "answer": "I'm dancing",
+          "options": [
+            "I'm crying",
+            "I'm dancing",
+            "I'm waiting"
+          ],
+          "prompt": "Now {{blank}}",
+          "promptZh": "此刻，我正翩然起舞"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-36",
+          "answer": "a dream",
+          "options": [
+            "a promise",
+            "a secret",
+            "a dream"
+          ],
+          "prompt": "It's like {{blank}}",
+          "promptZh": "這一切宛如夢境"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-37",
+          "answer": "no beginning",
+          "options": [
+            "no tomorrow",
+            "no beginning",
+            "no reason"
+          ],
+          "prompt": "No end and {{blank}}",
+          "promptZh": "沒有終點，也沒有起點"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-38",
+          "answer": "here with me",
+          "options": [
+            "next to him",
+            "far from me",
+            "here with me"
+          ],
+          "prompt": "You're {{blank}}",
+          "promptZh": "而你就在這裡，陪伴著我"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-40",
+          "answer": "choir sing",
+          "options": [
+            "choir sing",
+            "angels cry",
+            "children play"
+          ],
+          "prompt": "Let the {{blank}}",
+          "promptZh": "讓唱詩班放聲歌唱吧"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-41",
+          "answer": "call my name",
+          "options": [
+            "read my mind",
+            "call my name",
+            "hold my hand"
+          ],
+          "prompt": "When you {{blank}}",
+          "promptZh": "每當你呼喚我的名字"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-42",
+          "answer": "little prayer",
+          "options": [
+            "silent song",
+            "little prayer",
+            "simple dream"
+          ],
+          "prompt": "It's like a {{blank}}",
+          "promptZh": "那聲音就像一段輕柔的祈禱"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-43",
+          "answer": "on my knees",
+          "options": [
+            "on my knees",
+            "on my feet",
+            "in my arms"
+          ],
+          "prompt": "I'm down {{blank}}",
+          "promptZh": "我雙膝跪地"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-44",
+          "answer": "take you there",
+          "options": [
+            "bring you home",
+            "leave you here",
+            "take you there"
+          ],
+          "prompt": "I wanna {{blank}}",
+          "promptZh": "我渴望帶你前往那個境界"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-45",
+          "answer": "midnight hour",
+          "options": [
+            "midnight hour",
+            "evening rain",
+            "morning light"
+          ],
+          "prompt": "In the {{blank}}",
+          "promptZh": "在午夜時分"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-46",
+          "answer": "your power",
+          "options": [
+            "your laughter",
+            "your power",
+            "your shadow"
+          ],
+          "prompt": "I can feel {{blank}}",
+          "promptZh": "我能感受到你的力量"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-47",
+          "answer": "a prayer",
+          "options": [
+            "a song",
+            "a dream",
+            "a prayer"
+          ],
+          "prompt": "Just like {{blank}}",
+          "promptZh": "宛如一場虔誠的祈禱"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-48",
+          "answer": "take you there",
+          "options": [
+            "meet you here",
+            "follow you",
+            "take you there"
+          ],
+          "prompt": "You know I'll {{blank}}",
+          "promptZh": "你知道，我會帶你抵達那個境界"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-60",
+          "answer": "feels like home",
+          "options": [
+            "feels so cold",
+            "feels like home",
+            "sounds like rain"
+          ],
+          "prompt": "And it {{blank}}",
+          "promptZh": "那感覺，彷彿終於回到了家"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-62",
+          "answer": "voice can take me there",
+          "options": [
+            "eyes can see me now",
+            "hands can hold me close",
+            "voice can take me there"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "你的聲音能引領我抵達那個境界"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-63",
+          "answer": "a muse",
+          "options": [
+            "a muse",
+            "a friend",
+            "a stranger"
+          ],
+          "prompt": "Just like {{blank}} to me",
+          "promptZh": "對我而言，你宛如啟發靈感的繆思"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-64",
+          "answer": "a mystery",
+          "options": [
+            "a memory",
+            "a miracle",
+            "a mystery"
+          ],
+          "prompt": "You are {{blank}}",
+          "promptZh": "你是一個難以參透的謎"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-66",
+          "answer": "not what you seem",
+          "options": [
+            "not what you seem",
+            "not where you belong",
+            "not ready to leave"
+          ],
+          "prompt": "You are {{blank}}",
+          "promptZh": "你的真實模樣，並非表面所見"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-67",
+          "answer": "no choice",
+          "options": [
+            "no choice",
+            "no fear",
+            "no chance"
+          ],
+          "prompt": "Just like a prayer, {{blank}}",
+          "promptZh": "宛如祈禱，讓我無從抗拒"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Life is a {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Everyone must {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I hear you {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "And it {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "When you {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "It's like a {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I'm down {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I wanna {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "In the {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I can {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Just {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "You know {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I hear {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "It's like an {{q:14}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I have {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I hear your voice"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Feels {{q:16}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Oh God, I think {{q:18}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Out of {{q:19}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I close my eyes"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Heaven, {{q:20}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "When you {{q:21}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "It's like a {{q:22}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "I'm down {{q:23}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I wanna {{q:24}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "In the {{q:25}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I can feel {{q:26}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Just like {{q:27}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "You know I'll {{q:28}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Like {{q:29}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You {{q:30}} to me"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "You're {{q:31}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Just like a child"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Now {{q:32}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "It's like {{q:33}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "No end and {{q:34}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "You're {{q:35}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "It's like a dream"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Let the {{q:36}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "When you {{q:37}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "It's like a {{q:38}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I'm down {{q:39}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "I wanna {{q:40}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "In the {{q:41}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I can feel {{q:42}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Just like {{q:43}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "You know I'll {{q:44}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "When you call my name"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "It's like a little prayer"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "I'm down on my knees"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "I wanna take you there"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "In the midnight hour"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "I can feel your power"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Just like a prayer"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "You know I'll take you there"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Life is a mystery"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Everyone must stand alone"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "I hear you call my name"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "And it {{q:45}}"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Just like a prayer"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Your {{q:46}}"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Just like {{q:47}} to me"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "You are {{q:48}}"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Just like a dream"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "You are {{q:49}}"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Just like a prayer, {{q:50}}"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "Just like a prayer, I'll take you there"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "It's like a dream to me"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "Just like a prayer, I'll take you there"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "It's like a dream to me"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "Just like a prayer, I'll take you there"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "It's like a dream to me"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "Just like a prayer, I'll take you there"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "It's like a dream to me"
+        },
+        {
+          "lineId": "line-77",
+          "prompt": "Just like a prayer"
+        },
+        {
+          "lineId": "line-78",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-79",
+          "prompt": "Just like a muse to me"
+        },
+        {
+          "lineId": "line-80",
+          "prompt": "You are a mystery"
+        },
+        {
+          "lineId": "line-81",
+          "prompt": "Just like a dream"
+        },
+        {
+          "lineId": "line-82",
+          "prompt": "You are not what you seem"
+        },
+        {
+          "lineId": "line-83",
+          "prompt": "Just like a prayer, no choice"
+        },
+        {
+          "lineId": "line-84",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-85",
+          "prompt": "Just like a prayer"
+        },
+        {
+          "lineId": "line-86",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-87",
+          "prompt": "Just like a muse to me"
+        },
+        {
+          "lineId": "line-88",
+          "prompt": "You are a mystery"
+        },
+        {
+          "lineId": "line-89",
+          "prompt": "Just like a dream"
+        },
+        {
+          "lineId": "line-90",
+          "prompt": "You are not what you seem"
+        },
+        {
+          "lineId": "line-91",
+          "prompt": "Just like a prayer, no choice"
+        },
+        {
+          "lineId": "line-92",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-93",
+          "prompt": "Your voice can take me there"
+        },
+        {
+          "lineId": "line-94",
+          "prompt": "Like a prayer"
+        },
+        {
+          "lineId": "line-95",
+          "prompt": "Just like a prayer, your voice can take me there"
+        },
+        {
+          "lineId": "line-96",
+          "prompt": "It's like a prayer"
+        },
+        {
+          "lineId": "line-97",
+          "prompt": "Just like a prayer, your voice can take me there"
+        },
+        {
+          "lineId": "line-98",
+          "prompt": "It's like a prayer"
+        },
+        {
+          "lineId": "line-99",
+          "prompt": "Just like a prayer, your voice can take me there"
+        },
+        {
+          "lineId": "line-100",
+          "prompt": "It's like a prayer"
+        },
+        {
+          "lineId": "line-101",
+          "prompt": "Just like a prayer, your voice can take me there"
+        },
+        {
+          "lineId": "line-102",
+          "prompt": "It's like a prayer"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Like A Prayer · Listening & Vocabulary",
+  "description": "《Like a Prayer》描寫一段充滿神祕、激情與心靈渴望的情感體驗，巧妙結合宗教信仰與愛情的意象。歌中的主角感到生命充滿未知與孤獨，但每當聽見對方呼喚自己的名字，便彷彿得到安慰與救贖，感受到如同回家般的溫暖。她將這份強烈的吸引力比喻為祈禱，透過天使、天堂與唱詩班等意象，表達愛情與神聖力量交織的感受。歌曲亦流露出對親密、自由與精神昇華的渴望。最終，《Like a Prayer》傳達的是愛、信仰與自我探索之間的深刻連結：當情感與靈性相互交融，人便可能在強烈的感動中超越孤獨，找到心靈的慰藉與歸屬。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Mystery",
+      "meaning": "謎；難以理解的事情。",
+      "usage": "當某件事的原因或答案還不清楚，令人想知道真相時，可以用 mystery。",
+      "prompt": "哪一句正確使用了「mystery」來表示「謎」？",
+      "options": [
+        "Please put two mysteries in my coffee. I like it sweet.",
+        "The sign says this road is a mystery, so cars must drive backward.",
+        "The train is a mystery because it has six doors.",
+        "Nobody knows who took the cake. It is a mystery."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "mystery 不是可以加進咖啡的糖；可說 Please put two spoons of sugar in my coffee.",
+        "mystery 不表示交通規則，也不能據此要求車輛倒退；可說 The sign says cars must turn left.",
+        "火車有六扇門不等於存在謎團；若只描述車門，可說 The train has six doors.",
+        "不知道誰拿走蛋糕，答案未明，因此可以說 It is a mystery."
+      ],
+      "sourceFile": "Like_a_Prayer_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 1,
+      "explanation": "不知道誰拿走蛋糕，答案未明，因此可以說 It is a mystery.",
+      "sourceOptionOrder": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Stand alone",
+      "meaning": "獨自站著；獨自面對某件事。",
+      "usage": "表示一個人沒有別人陪伴，或必須靠自己面對事情時，可以用 stand alone。原歌詞也有較抽象的「獨自面對人生」之意。",
+      "prompt": "哪一句正確使用了「stand alone」？",
+      "options": [
+        "Even when her friends left, Mia was brave enough to stand alone.",
+        "The hotel can stand alone only after it gets a driver's license.",
+        "The shoes stand alone because they forgot how to walk together.",
+        "I stand alone my lunch when the table is full."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "即使朋友離開，Mia 仍勇敢地獨自面對，符合片語意思。",
+        "飯店不是司機，不需要駕照才能「獨自站著」；可說 The hotel is next to the station.",
+        "鞋子不會因為忘記一起走路而自行行走；若要說鞋子放在門旁，可說 The shoes are by the door.",
+        "stand alone 不能直接接 my lunch 當成「吃午餐」的動詞；可說 I eat lunch alone."
+      ],
+      "sourceFile": "Like_a_Prayer_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 2,
+      "explanation": "即使朋友離開，Mia 仍勇敢地獨自面對，符合片語意思。",
+      "sourceOptionOrder": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Call my name",
+      "meaning": "呼喚我的名字。",
+      "usage": "想請別人直接喊出自己的名字，或描述聽見有人叫自己時使用。",
+      "prompt": "哪一句正確使用了「call my name」？",
+      "options": [
+        "I call my name in the oven until the bread is ready.",
+        "If you need me, just call my name and I will come.",
+        "We call my name at five dollars, but the shop wants ten.",
+        "The map calls my name because it wants to know my address."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "call my name 是呼喊名字，不是烤麵包的方法；可說 I put the bread in the oven.",
+        "需要我時就喊我的名字，我便會過來，用法自然。",
+        "call my name 不是商品的價格；可說 The shop wants ten dollars.",
+        "地圖不會主動呼喚名字或詢問住址；可說 The map shows my street."
+      ],
+      "sourceFile": "Like_a_Prayer_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 3,
+      "explanation": "需要我時就喊我的名字，我便會過來，用法自然。",
+      "sourceOptionOrder": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Feel like home",
+      "meaning": "感覺像家一樣；令人安心、自在。",
+      "usage": "一個地方或與某人相處時，讓你感到熟悉、溫暖、安全，可以說 feel(s) like home。",
+      "prompt": "哪一句正確使用了「feels like home」？",
+      "options": [
+        "This chair feels like home because it has a roof and two windows.",
+        "My new school feels like home because everyone is kind to me.",
+        "The airport feels like home because every plane pays the rent.",
+        "I feel like home the door before I leave."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "椅子有屋頂與窗戶並不是此片語的意思；可說 This chair is comfortable.",
+        "同學與老師很友善，讓新學校有家的感覺，使用正確。",
+        "飛機不會向機場繳房租；feel like home 說的是熟悉或安心的感受，不是租屋關係。",
+        "feel like home 不能直接當成「關門」的動詞；可說 I close the door before I leave."
+      ],
+      "sourceFile": "Like_a_Prayer_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 4,
+      "explanation": "同學與老師很友善，讓新學校有家的感覺，使用正確。",
+      "sourceOptionOrder": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "On my knees",
+      "meaning": "跪著；雙膝著地。",
+      "usage": "描述跪下的姿勢，例如找東西、清理地板或祈禱時，可以用 on my knees。",
+      "prompt": "哪一句正確使用了「on my knees」？",
+      "options": [
+        "My computer is on my knees because it has lost its legs.",
+        "The calendar is on my knees because Friday needs a place to sit.",
+        "I got down on my knees to look under the bed.",
+        "I bought three on my knees at the market."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "電腦不會因為失去腿而跪下；若電腦放在膝上，可說 My laptop is on my lap. 注意 lap（大腿上方）和 knees（膝蓋）並不相同。",
+        "星期五不需要坐位，on my knees 也不表示日曆上的一天；可說 Friday is on my calendar.",
+        "跪下來查看床底，正確描述身體姿勢。",
+        "on my knees 是姿勢片語，不是市場裡可以買三個的商品；可說 I bought three apples at the market."
+      ],
+      "sourceFile": "Like_a_Prayer_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 5,
+      "explanation": "跪下來查看床底，正確描述身體姿勢。",
+      "sourceOptionOrder": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Midnight",
+      "meaning": "午夜；晚上十二點。",
+      "usage": "表示一天結束、下一天開始的時間，可用 midnight。",
+      "prompt": "哪一句正確使用了「midnight」？",
+      "options": [
+        "The clock says midnight because it is too shy to say twelve.",
+        "Midnight is the name of the soup when it is very cold.",
+        "The library closes at midnight, so we must leave before twelve.",
+        "I midnight my room every Sunday to make it clean."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "時鐘不會因為害羞而改口；midnight 的意思就是午夜十二點。",
+        "midnight 是時間，不是冷湯的名稱；可說 The soup is cold.",
+        "圖書館在午夜十二點關門，時間與用法皆正確。",
+        "midnight 不是打掃房間的動詞；可說 I clean my room every Sunday."
+      ],
+      "sourceFile": "Like_a_Prayer_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 6,
+      "explanation": "圖書館在午夜十二點關門，時間與用法皆正確。",
+      "sourceOptionOrder": [
+        "D",
+        "B",
+        "A",
+        "C"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Sigh",
+      "meaning": "嘆氣；嘆息。",
+      "usage": "因疲倦、難過、放心或無奈而深深呼出一口氣時，可以用 sigh。",
+      "prompt": "哪一句正確使用了「sigh」？",
+      "options": [
+        "He gave a long sigh when he saw all the work on his desk.",
+        "The menu sighed because nobody ordered the expensive page.",
+        "Please sigh the door after you come in.",
+        "I put a sigh in the box and sent it to my cousin."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "看見桌上大量工作而長嘆一口氣，是 sigh 的自然用法。",
+        "菜單不會因為顧客沒點餐而嘆氣；可說 Nobody ordered the expensive dish.",
+        "sigh 不是「關門」；可說 Please close the door after you come in.",
+        "嘆息不是能裝箱寄送的實體物品；可說 I put a gift in the box and sent it to my cousin."
+      ],
+      "sourceFile": "Like_a_Prayer_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 7,
+      "explanation": "看見桌上大量工作而長嘆一口氣，是 sigh 的自然用法。",
+      "sourceOptionOrder": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "In control",
+      "meaning": "掌握情況；能控制或管理某事。",
+      "usage": "說某人能決定事情如何進行，或能妥善處理情況時，可用 in control。",
+      "prompt": "哪一句正確使用了「in control」？",
+      "options": [
+        "My jacket is in control of Tuesday, but only after lunch.",
+        "The pilot stayed calm and was in control of the plane.",
+        "The pencil is in control because it has written its own rules.",
+        "I in control a letter to my uncle yesterday."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "外套不會管理星期二；這裡把抽象的控制權硬套在衣服與日期上。",
+        "飛行員保持冷靜並掌控飛機，正確使用 in control of。",
+        "鉛筆不會自行制定規則；可以說 I use a pencil to write the rules.",
+        "in control 不是「寫信」的動詞；可說 I wrote a letter to my uncle yesterday."
+      ],
+      "sourceFile": "Like_a_Prayer_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 8,
+      "explanation": "飛行員保持冷靜並掌控飛機，正確使用 in control of。",
+      "sourceOptionOrder": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Choir",
+      "meaning": "合唱團；唱詩班。",
+      "usage": "一群人一起唱歌，尤其在學校、教堂或正式演出時，可以用 choir。",
+      "prompt": "哪一句正確使用了「choir」？",
+      "options": [
+        "The choir sang three songs at the school concert.",
+        "My bicycle joined the choir because its bell has a nice voice.",
+        "We use a choir to open the door when we lose the key.",
+        "I need a choir of milk for this cake."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "合唱團在學校音樂會上演唱三首歌，用法正確。",
+        "腳踏車的鈴鐺不等於能加入合唱團的人聲；可說 My bicycle has a loud bell.",
+        "choir 是合唱團，不是開門工具；可說 We use a key to open the door.",
+        "choir 不是牛奶的計量單位；可說 I need a cup of milk for this cake."
+      ],
+      "sourceFile": "Like_a_Prayer_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 9,
+      "explanation": "合唱團在學校音樂會上演唱三首歌，用法正確。",
+      "sourceOptionOrder": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Not what you seem",
+      "meaning": "不是表面看起來的那樣。",
+      "usage": "當某人的真實個性、身分或情況與第一印象不同時，可以說 You are not what you seem. 對事物則可說 It is not what it seems.",
+      "prompt": "哪一句正確使用了「not what you seem」？",
+      "options": [
+        "You are not what you seem because your photo is two inches tall.",
+        "I am not what you seem the windows every morning.",
+        "This sandwich is not what you seem because it came from the kitchen.",
+        "You looked unfriendly at first, but you are very kind. You are not what you seem."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "照片的大小不能直接證明一個人的真實個性與表象不同；可說 Your photo is two inches tall.",
+        "這個片語不能充當「擦窗戶」的動詞；可說 I clean the windows every morning.",
+        "說三明治時不能用指向人的 you seem；若真要說某物與外表不同，應使用 It is not what it seems.",
+        "一個人看起來不友善，實際上卻很親切，符合「與表面印象不同」的意思。"
+      ],
+      "sourceFile": "Like_a_Prayer_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 10,
+      "explanation": "一個人看起來不友善，實際上卻很親切，符合「與表面印象不同」的意思。",
+      "sourceOptionOrder": [
+        "C",
+        "A",
+        "D",
+        "B"
+      ]
+    }
+  ],
+  "tags": [
+    "madonna",
+    "like a prayer"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/like-a-prayer/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/like-a-prayer/user-cover-20261101.png",
+  "singer": "Madonna",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 340.8666875,
+    "audioSha256": "0d74fd58dd0c44f885835021afc8ab1b8b35c7f96168e56cd5f8df05b1f65390",
+    "timedLines": 77,
+    "untimedLines": 25,
+    "reviewStatus": "Conservative automatic alignment; not manually certified. Unmatched lines remain bilingual without guessed timestamps."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "\"Like A Prayer\".pdf",
+      "sha256": "bb68e52f12a94d2dded1d796e91f1e3926ab90ed32d45819913479b3256efe1f"
+    },
+    "mp3": {
+      "filename": "Like a Prayer [ilottRbDnGY].mp3",
+      "sha256": "0d74fd58dd0c44f885835021afc8ab1b8b35c7f96168e56cd5f8df05b1f65390"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-1c19dfe7-f8cf-4ad9-8db2-a3954c059cf5.png",
+    "sha256": "94ea57d3e359eabe2e0be74557147feb09f92cd4f8e9512bb972b95d7d0d8ae8",
+    "transformations": "none",
+    "selectedOn": "2026-11-01"
+  }
+}

@@ -2689,5 +2689,1087 @@
     "method": "faster-whisper-word-alignment-with-targeted-section-review",
     "audioSha256": "5fdbaa8e620e4a7f572ae10944c8376379683e0dbf14b54fbe1c627e93bfca4c",
     "duration": 289.9066875
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "c6e11d2c6f2666339a9b12c1747ed844233263e31c009256dcc4a68d236c6bed"
+    },
+    {
+      "section": "advanced",
+      "filename": "Iris_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "99c0a52976e845f56be6067788005a3b012f08be18dc1ca86e9353f677e35514"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "would + 原形動詞（假設意願）",
+          "meaning": "would 表達假設情境中願意付出的行動；I’d 在此是 I would。",
+          "usage": "描述為了重要的人或事，自己願意做的事情。",
+          "prompt": "情境題 Q1： 哪一句最適合表達「如果朋友需要，我願意幫忙」？",
+          "options": [
+            "My friend would a new blue coat.",
+            "I will helped my friend yesterday.",
+            "I would helping my friend at noon.",
+            "I would help my friend if she needed me."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：would 後缺少動詞原形。",
+            "錯誤：will 後應接動詞原形，且 yesterday 與此句時態衝突。",
+            "錯誤：would 後不能直接接 helping。",
+            "正確：would help 表達假設下的意願。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "I'd give up forever",
+          "pattern": [
+            {
+              "text": "would + V　",
+              "fixed": true
+            },
+            {
+              "text": "I / give up forever",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：would help 表達假設下的意願。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "give up + 名詞",
+          "meaning": "放棄某種事物；歌中把 forever 當成詩意的放棄對象。",
+          "usage": "放棄機會、名額或自己擁有的東西。",
+          "prompt": "情境題 Q2： 一位演員把舞台名額讓給別人，哪一句最清楚？",
+          "options": [
+            "She gave up to dance her place.",
+            "She give up place yesterday.",
+            "She gave her seat up to a red.",
+            "She gave up her place in the show."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：give up to dance 並不表示放棄名額。",
+            "錯誤：過去時間應用 gave，且名詞需自然限定。",
+            "錯誤：句尾 a red 沒有自然的名詞搭配。",
+            "正確：give up her place 表示放棄名額。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "give up forever",
+          "pattern": [
+            {
+              "text": "give up + N　",
+              "fixed": true
+            },
+            {
+              "text": "forever",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：give up her place 表示放棄名額。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "to + 原形動詞（目的）",
+          "meaning": "表達某個行動的目的：為了做某件事。",
+          "usage": "想解釋為何做前面的行動。",
+          "prompt": "情境題 Q3： 植物園志工提早到場，為了幫忙澆花。哪一句最貼切？",
+          "options": [
+            "She came early to watered the plants.",
+            "She came early to water the plants.",
+            "She came early watering the plants.",
+            "She came early for water the plants."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：to 後接原形 water，不是 watered。",
+            "正確：to water 說明提早到的目的。",
+            "錯誤：這裡要明確表目的，應使用 to water。",
+            "錯誤：for 後不能直接接 water 動詞原形表目的。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "to touch you",
+          "pattern": [
+            {
+              "text": "to + V　",
+              "fixed": true
+            },
+            {
+              "text": "touch you",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：to water 說明提早到的目的。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "know that + 陳述子句",
+          "meaning": "用 that 引出知道的事實或判斷。",
+          "usage": "確定知道某個訊息時。",
+          "prompt": "情境題 Q4： 朋友確認展覽下午五點關門。哪一句正確？",
+          "options": [
+            "I know that the museum closes at five.",
+            "I know that the museum closing at five.",
+            "I know that the museum to close at five.",
+            "I know that close the museum at five."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：that 後是完整陳述子句。",
+            "錯誤：缺少 be 動詞 is。",
+            "錯誤：to close 不能代替此處的限定動詞。",
+            "錯誤：that 後的陳述句缺少主詞。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "I know that you feel me somehow",
+          "pattern": [
+            {
+              "text": "know + that + S + V　",
+              "fixed": true
+            },
+            {
+              "text": "I / you feel me somehow",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：that 後是完整陳述子句。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "形容詞最高級 + the",
+          "meaning": "the closest 表示最接近；to 引出靠近的目標。",
+          "usage": "比較多個地點與某個目標的距離。",
+          "prompt": "情境題 Q5： 三個旅館中哪一間最靠近海邊？",
+          "options": [
+            "This hotel is closest than the beach.",
+            "This hotel is the closest to the beach.",
+            "This hotel is most close the beach.",
+            "This hotel is the closer to the beach of all."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：than 不符合此最高級結構。",
+            "正確：the closest to 表達最靠近某處。",
+            "錯誤：需要自然的最高級 the closest to。",
+            "錯誤：三個以上比較應用最高級 closest。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "the closest to heaven",
+          "pattern": [
+            {
+              "text": "the + adjective-est + to + N　",
+              "fixed": true
+            },
+            {
+              "text": "closest / heaven",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：the closest to 表達最靠近某處。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "that 引導關係子句",
+          "meaning": "that 引出修飾前面指稱對象的關係子句。",
+          "usage": "要說明某人或某物具備哪一項特點。",
+          "prompt": "情境題 Q6： 想介紹「我曾見過的最小的鳥」。哪一句最自然？",
+          "options": [
+            "This is the smallest bird that I have ever seen.",
+            "This is the smallest bird I have ever to see.",
+            "This is the smallest bird that ever I seen.",
+            "This is the smallest bird what I ever saw."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：that 子句修飾 bird，並限定比較範圍。",
+            "錯誤：have 後不接 to see 作完成式。",
+            "錯誤：ever 與動詞組合和字序不自然。",
+            "錯誤：此處關係代名詞應用 that 或省略，不用 what。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "that I'll ever be",
+          "pattern": [
+            {
+              "text": "N / superlative + that + S + V　",
+              "fixed": true
+            },
+            {
+              "text": "closest / I’ll ever be",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：that 子句修飾 bird，並限定比較範圍。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "ever + 助動詞（經驗強調）",
+          "meaning": "ever 在此加強時間範圍，表示「在任何時候」。",
+          "usage": "強調某個比較判斷涉及整段未來或人生。",
+          "prompt": "情境題 Q7： 一位攝影師形容一次特別的日出，哪一句最合適？",
+          "options": [
+            "This is the best photo I have never taken.",
+            "This is the best photo I will ever take.",
+            "This is best photo I will ever took.",
+            "This is the best photo I have ever taking."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：never 和想表達的「最佳經驗」意思相反。",
+            "正確：will ever take 強調未來任何時候的範圍。",
+            "錯誤：will 後需原形 take，且需要 the best。",
+            "錯誤：完成式需 taken 而非 taking。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "I'll ever be",
+          "pattern": [
+            {
+              "text": "will + ever + V　",
+              "fixed": true
+            },
+            {
+              "text": "I / be",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：will ever take 強調未來任何時候的範圍。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "want to + 原形動詞（非正式 wanna）",
+          "meaning": "wanna 是 want to 的非正式連讀拼法，表達「想要做」。",
+          "usage": "表達希望做或不做某件事，正式作業用 want to。",
+          "prompt": "情境題 Q8： 朋友想在市集多待一小時。哪一句最自然？",
+          "options": [
+            "She wants staying at the market.",
+            "She wants to stays at the market.",
+            "She wants to stay at the market.",
+            "She want to staying at the market."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：want 接目的動作通常用 to + 原形。",
+            "錯誤：to 後應用 stay，不是 stays。",
+            "正確：wants to stay 表達願望。",
+            "錯誤：want 要加 s 且 to 後用原形。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "don't wanna go home",
+          "pattern": [
+            {
+              "text": "want to + V（原詞：wanna）　",
+              "fixed": true
+            },
+            {
+              "text": "go home",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：wants to stay 表達願望。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "all + 省略受詞關係詞的子句",
+          "meaning": "all 後的子句說明「我所能……的全部」；受詞位置可不寫 that。",
+          "usage": "想突出自己擁有或能看到的全部。",
+          "prompt": "情境題 Q9： 露營時一位孩子說：「我唯一看得到的是星星。」哪一句正確？",
+          "options": [
+            "All I can see are a star.",
+            "All I can seeing is the stars.",
+            "All I can see is the stars.",
+            "All can I see is the stars."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：all 子句作整體單數主詞時，用 is 比 are 合適。",
+            "錯誤：can 後須接原形 see。",
+            "正確：all I can see 作主詞，後接 is。",
+            "錯誤：子句內不是問句倒裝語序。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "all I can taste",
+          "pattern": [
+            {
+              "text": "all + S + modal + V　",
+              "fixed": true
+            },
+            {
+              "text": "I / can taste",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：all I can see 作主詞，後接 is。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "can + 原形動詞（能力）",
+          "meaning": "can 表示有能力、能夠做某事。",
+          "usage": "說明自己具備的能力。",
+          "prompt": "情境題 Q10： 小學生學會騎腳踏車，哪一句正確？",
+          "options": [
+            "I can riding a bike now.",
+            "I can ride a bike now.",
+            "I can rides a bike now.",
+            "I can to ride a bike now."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：can 後不能直接用 riding。",
+            "正確：can + ride 原形。",
+            "錯誤：can 後不加第三人稱 s。",
+            "錯誤：can 後不加 to。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "I can breathe",
+          "pattern": [
+            {
+              "text": "can + V　",
+              "fixed": true
+            },
+            {
+              "text": "I / breathe",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：can + ride 原形。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "sooner or later",
+          "meaning": "表示「遲早」，事情最後會發生但時間未定。",
+          "usage": "討論結果早晚會到來。",
+          "prompt": "情境題 Q11： 盆栽每天有陽光和水，哪一句最自然？",
+          "options": [
+            "Sooner or later is the plant green.",
+            "The plant sooner or later to grow.",
+            "The plant will sooner or later growing.",
+            "Sooner or later, the plant will grow."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：副詞片語不是句子主詞。",
+            "錯誤：缺少正確限定動詞。",
+            "錯誤：will 後用原形 grow。",
+            "正確：sooner or later 修飾將發生的事情。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "sooner or later",
+          "pattern": [
+            {
+              "text": "sooner or later + clause　",
+              "fixed": true
+            },
+            {
+              "text": "it’s over",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：sooner or later 修飾將發生的事情。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "when + 陳述子句（時間）",
+          "meaning": "when 引出事情發生的時間背景。",
+          "usage": "敘述某事結束時會做什麼。",
+          "prompt": "情境題 Q12： 小劇場表演結束時，大家會鼓掌。哪一句正確？",
+          "options": [
+            "When the show ending, we clap.",
+            "When the show ends, we clap.",
+            "When finish the show, we clap.",
+            "When the show will end, we clap every night."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：缺少限定動詞 is。",
+            "正確：when + 完整子句。",
+            "錯誤：when 後欠缺主詞。",
+            "錯誤：描述例行發生的時間句，這裡應用 ends。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "When sooner or later it's over",
+          "pattern": [
+            {
+              "text": "when + S + V（可有時間副詞）　",
+              "fixed": true
+            },
+            {
+              "text": "it’s over / sooner or later",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：when + 完整子句。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "be over（狀態）",
+          "meaning": "be over 表示活動或一段期間已結束。",
+          "usage": "會議、節目、活動結束時。",
+          "prompt": "情境題 Q13： 活動已經完結，保安準備關燈。哪一句合適？",
+          "options": [
+            "The concert overing now.",
+            "The concert over is, so we leave.",
+            "The concert is over, so we can leave.",
+            "The concert has over yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：over 在這裡不是動詞的 -ing 形式。",
+            "錯誤：be 與 over 語序錯誤。",
+            "正確：be over 表示活動已結束。",
+            "錯誤：over 不是可直接接 has 的過去分詞。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "it's over",
+          "pattern": [
+            {
+              "text": "be + over　",
+              "fixed": true
+            },
+            {
+              "text": "it / is",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：be over 表示活動已結束。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "want + 受詞 + to + 原形",
+          "meaning": "表示希望某個人或群體做某件事。",
+          "usage": "希望同伴幫忙完成工作。",
+          "prompt": "情境題 Q14： 博物館工作人員希望訪客保持安靜。哪一句正確？",
+          "options": [
+            "We want visitors to keep quiet.",
+            "We want visitors keep quiet.",
+            "We want to visitors keep quiet.",
+            "We want visitors to keeping quiet."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：want visitors to keep。",
+            "錯誤：want + object 後需要 to。",
+            "錯誤：to 放錯位置。",
+            "錯誤：to 後接原形 keep。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "want the world to see me",
+          "pattern": [
+            {
+              "text": "want + object + to + V　",
+              "fixed": true
+            },
+            {
+              "text": "the world / see me",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：want visitors to keep。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "think that + 內容子句（否定）",
+          "meaning": "表達說話者不認為某件事會成立。",
+          "usage": "對某種結果表示懷疑。",
+          "prompt": "情境題 Q15： 天氣變冷，大家不認為戶外泳池會開放。哪一句自然？",
+          "options": [
+            "I don’t think that the pool will open today.",
+            "I not think that the pool will open.",
+            "I don’t think that the pool will opening.",
+            "I don’t think the pool open will today."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：don’t think that + 完整子句。",
+            "錯誤：否定一般現在式需要 don’t。",
+            "錯誤：will 後接原形 open。",
+            "錯誤：子句語序不正確。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "don't think that they'd understand",
+          "pattern": [
+            {
+              "text": "don’t think + that + S + modal + V　",
+              "fixed": true
+            },
+            {
+              "text": "I / they would understand",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：don’t think that + 完整子句。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "would + 原形（推測）",
+          "meaning": "would 在此表達假設情況下對他人反應的推測。",
+          "usage": "猜測有人若收到消息可能會怎麼想。",
+          "prompt": "情境題 Q16： 如果弟弟知道取消旅行，會很失望。哪一句自然？",
+          "options": [
+            "If he knew, he would disappointed.",
+            "If he knew, he would to be sad.",
+            "If he knew, he would be sad.",
+            "If he knew, he would being sad."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：would 後需要 be。",
+            "錯誤：would 後不能加 to。",
+            "正確：would be 表示假設情況的結果。",
+            "錯誤：would 後需原形 be。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "they'd understand",
+          "pattern": [
+            {
+              "text": "would + V　",
+              "fixed": true
+            },
+            {
+              "text": "they / understand",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：would be 表示假設情況的結果。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "be made to be + 過去分詞",
+          "meaning": "表示某物被造就或安排成為某種結果，歌詞帶命運般的詩意。",
+          "usage": "描述物品製造時被設計成可拆卸。",
+          "prompt": "情境題 Q17： 玩具積木設計成能夠拆開，哪一句最恰當？",
+          "options": [
+            "These blocks are made to be taken apart.",
+            "These blocks made to be taking apart.",
+            "These blocks are make to be take apart.",
+            "These blocks are made being taken apart."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：are made to be taken apart，符合被動不定詞。",
+            "錯誤：缺少 be，且 taking 不符合此結構。",
+            "錯誤：make 及 take 都應使用過去分詞。",
+            "錯誤：與來源的 to be 結構不符。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "everything's made to be broken",
+          "pattern": [
+            {
+              "text": "be + made + to be + V-en　",
+              "fixed": true
+            },
+            {
+              "text": "everything / broken",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：are made to be taken apart，符合被動不定詞。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "know + wh- 間接問句",
+          "meaning": "who I am 是陳述語序的間接問句，不是 who am I。",
+          "usage": "想讓人理解一個人的身分。",
+          "prompt": "情境題 Q18： 新同事還不知道樂團的主唱是誰。哪一句正確？",
+          "options": [
+            "She doesn’t know who the singer is.",
+            "She doesn’t know who the singer be.",
+            "She doesn’t know who is the singer.",
+            "She doesn’t know who does the singer is."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：who the singer is 是自然的間接問句。",
+            "錯誤：be 動詞未變化。",
+            "錯誤：這裡需用間接問句陳述語序。",
+            "錯誤：不應在間接問句中加 does 倒裝。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "know who I am",
+          "pattern": [
+            {
+              "text": "know + who + S + V　",
+              "fixed": true
+            },
+            {
+              "text": "I / am",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：who the singer is 是自然的間接問句。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "that + 子句（關係代名詞）",
+          "meaning": "that 引出修飾前面名詞的關係子句；ain’t 是非標準用語。",
+          "usage": "說明特定的人或物有哪些特徵。",
+          "prompt": "情境題 Q19： 描述那隻不肯睡覺的小貓，哪一句正確？",
+          "options": [
+            "The cat that not sleep is small.",
+            "The cat that don’t sleep is small.",
+            "The cat that won’t sleep is small.",
+            "The cat that no sleeping is small."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：關係子句缺少適當助動詞。",
+            "錯誤：第三人稱單數不使用 don’t。",
+            "正確：that won’t sleep 修飾 cat。",
+            "錯誤：no sleeping 不是自然的限定動詞。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "the tears that ain't coming",
+          "pattern": [
+            {
+              "text": "noun + that + S + V　",
+              "fixed": true
+            },
+            {
+              "text": "tears / ain’t coming",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：that won’t sleep 修飾 cat。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "cannot + 原形動詞",
+          "meaning": "cannot/can’t 表示無法做某事。",
+          "usage": "說某人無法完成某行動。",
+          "prompt": "情境題 Q20： 潮水很大，船長說今晚不能出航。哪一句正確？",
+          "options": [
+            "We can’t sails tonight.",
+            "We can’t sail tonight.",
+            "We can’t sailing tonight.",
+            "We can’t to sail tonight."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：can’t 後用原形 sail。",
+            "正確：can’t + sail。",
+            "錯誤：can’t 後不接 sailing。",
+            "錯誤：can’t 後不接 to。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "can't fight the tears",
+          "pattern": [
+            {
+              "text": "can’t + V　",
+              "fixed": true
+            },
+            {
+              "text": "fight the tears",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：can’t + sail。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "feel like + 名詞",
+          "meaning": "描述某件事情感覺像另一種經驗。",
+          "usage": "描述一個場景像電影一樣。",
+          "prompt": "情境題 Q21： 看見海上的煙火時，哪一句自然？",
+          "options": [
+            "The night feels like to a movie.",
+            "The night feels liking a movie.",
+            "The night feel like a movie is.",
+            "The night feels like a movie."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：like 後不加 to。",
+            "錯誤：feels liking 不是此片語。",
+            "錯誤：主謂一致與字序有問題。",
+            "正確：feel like + 名詞，表示感覺像。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "feels like the movies",
+          "pattern": [
+            {
+              "text": "feel(s) like + N　",
+              "fixed": true
+            },
+            {
+              "text": "everything / the movies",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：feel like + 名詞，表示感覺像。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "just + to-infinitive（限定目的）",
+          "meaning": "just 修飾目的，表示「只是為了……」。",
+          "usage": "想突出一個行動只有一個主要目的。",
+          "prompt": "情境題 Q22： 有人打開窗戶只為聽雨聲，哪一句正確？",
+          "options": [
+            "He opened the window just for hear the rain.",
+            "He opened the window just to heard the rain.",
+            "He opened the window just hearing the rain.",
+            "He opened the window just to hear the rain."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：for hear 文法不對。",
+            "錯誤：to 後要原形 hear。",
+            "錯誤：這裡需使用目的不定詞。",
+            "正確：just to hear 指「只是為了聽」。"
+          ],
+          "sourceFile": "Iris_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "just to know you're alive",
+          "pattern": [
+            {
+              "text": "just + to + V　",
+              "fixed": true
+            },
+            {
+              "text": "know you’re alive",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：just to hear 指「只是為了聽」。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Heaven",
+          "meaning": "天堂；極美好、令人幸福的境界（約 B1–B2）",
+          "usage": "談宗教中的天堂；也可比喻讓人覺得非常美好的地方或體驗。",
+          "prompt": "哪一句正確使用「Heaven」？",
+          "options": [
+            "After the long hike, the quiet garden felt like heaven.",
+            "The chef cooked heaven at six and served it with rice.",
+            "I kept heaven in my bag beside my water bottle.",
+            "The bus reached heaven because its wheels needed air."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。用 heaven 比喻漫長健行後讓人非常舒適的花園。",
+            "錯誤。heaven 不適合當作這道日常料理的名稱。",
+            "錯誤。此處把天堂當作可攜帶的實體物品。",
+            "錯誤。輪胎需要打氣和天堂沒有合理關係。"
+          ],
+          "sourceFile": "Iris_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確。用 heaven 比喻漫長健行後讓人非常舒適的花園。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "Taste",
+          "meaning": "品嚐；體驗、感受到（比喻）（約 B1–B2）",
+          "usage": "除了舌頭嚐味道，也能在文學或較有表現力的語境中形容親身體驗某事。",
+          "prompt": "哪一句正確使用「Taste」？",
+          "options": [
+            "Our teacher tasted the map to find the nearest town.",
+            "The singer tasted the ticket to find her seat number.",
+            "The team tasted success after months of hard work.",
+            "The boy tasted the clock and knew it was half past three."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。讀地圖找路不能用 taste。",
+            "錯誤。查座位號碼應閱讀票券，並非品嚐。",
+            "正確。taste success 比喻親身嚐到成功的滋味。",
+            "錯誤。品嚐時鐘不能讓人知道時間。"
+          ],
+          "sourceFile": "Iris_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確。taste success 比喻親身嚐到成功的滋味。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "Breathe",
+          "meaning": "呼吸（約 B1）",
+          "usage": "形容吸入或呼出空氣；也可用在深呼吸、運動和放鬆等情況。",
+          "prompt": "哪一句正確使用「Breathe」？",
+          "options": [
+            "The waiter breathed our soup to move it onto the table.",
+            "After running, I stopped to breathe slowly for a minute.",
+            "The artist breathed her notebook to make the picture blue.",
+            "My cousin breathed the train to arrive at the museum."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。端湯上桌應使用 carry 或 bring。",
+            "正確。跑步後慢慢呼吸，符合 breathe 的用法。",
+            "錯誤。breathe 不是替筆記本上色。",
+            "錯誤。搭車到博物館不能用 breathe。"
+          ],
+          "sourceFile": "Iris_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確。跑步後慢慢呼吸，符合 breathe 的用法。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "Lies",
+          "meaning": "謊言、不實的話（lie 的複數名詞）（約 B1–B2）",
+          "usage": "描述有人故意說不實的話；注意 lie 也可指「躺下」，意思需看上下文。",
+          "prompt": "哪一句正確使用「Lies」？",
+          "options": [
+            "He told several lies about why he missed the meeting.",
+            "The pilot used lies to make the plane land safely.",
+            "The children wore lies to stay warm during the storm.",
+            "Her lies were cold because they stayed in the fridge."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。他編造多個缺席理由，lies 是「謊言」。",
+            "錯誤。安全降落需要操作和程序，不需要謊言。",
+            "錯誤。謊言不能當作防寒衣物。",
+            "錯誤。謊言不是能存放在冰箱裡的食物。"
+          ],
+          "sourceFile": "Iris_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確。他編造多個缺席理由，lies 是「謊言」。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "The moment of truth",
+          "meaning": "關鍵時刻；結果或真相終於揭曉的時刻（約 B2–C1）",
+          "usage": "在考驗、競賽或決定性事件中，表示終於知道結果的關鍵一刻。",
+          "prompt": "哪一句正確使用「The moment of truth」？",
+          "options": [
+            "The moment of truth was blue because my shoes were wet.",
+            "The moment of truth came when the judges announced the winner.",
+            "She ate the moment of truth with noodles for dinner.",
+            "We put the moment of truth under the sofa to clean later."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。鞋子濕了不能解釋「關鍵時刻」的意思。",
+            "正確。評審公布結果是揭曉勝負的關鍵時刻。",
+            "錯誤。關鍵時刻不是一道可以吃的菜。",
+            "錯誤。這是抽象時刻，不是可收納的物品。"
+          ],
+          "sourceFile": "Iris_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確。評審公布結果是揭曉勝負的關鍵時刻。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "Bleed",
+          "meaning": "流血；（比喻）流失、失去（約 B2）",
+          "usage": "身體受傷出血時使用；也可描述公司或組織持續流失金錢等資源。",
+          "prompt": "哪一句正確使用「Bleed」？",
+          "options": [
+            "The concert bled a ticket for each person at the gate.",
+            "The old camera bled a new photo onto the wall at noon.",
+            "We bled the bread in the oven until it turned brown.",
+            "His finger started to bleed after he cut it on paper."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。售票或驗票不是流血。",
+            "錯誤。拍攝或張貼照片不使用 bleed。",
+            "錯誤。烤麵包應用 baked，bleed 不表示烘烤。",
+            "正確。手指被紙割傷後流血，是 bleed 的字面用法。"
+          ],
+          "sourceFile": "Iris_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確。手指被紙割傷後流血，是 bleed 的字面用法。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        }
+      ]
+    }
   }
 }

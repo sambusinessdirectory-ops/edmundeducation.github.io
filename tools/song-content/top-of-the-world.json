@@ -2789,5 +2789,1448 @@
     "filename": "codex-clipboard-b3c1f203-97a4-4f79-9d3f-14c00d226d62.png",
     "sha256": "25eb7b1ccd858e0c49dbf6f50ee61ec606b1c345649070aca17a99361f49146c",
     "transformations": "none"
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Top_Of_The_World_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "3c7ca23dd5a3bbc670b639c4ea870530b6c845775d823a544a8e8644681a46c8"
+    },
+    {
+      "section": "structure",
+      "filename": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "af62f316f5492b634405f0e096e0b0cd1b41a1a5bf574c53994cbc7da178c51a"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "nearest",
+          "meaning": "最近的；距離最短的",
+          "usage": "比較兩個以上的人、地點或事物的距離；常說 the nearest + 名詞。",
+          "prompt": "哪一句正確使用「nearest」？",
+          "options": [
+            "I nearest my home after my music class.",
+            "The nearest shop is farther than every other shop.",
+            "This shop nearest is five minutes from here.",
+            "This is the nearest shop, so we can walk there."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：nearest 不是動詞，不能表示回家。",
+            "錯誤：如果比所有其他商店都遠，就不是最近的；語意矛盾。",
+            "錯誤：最高級 nearest 應放在名詞 shop 前，或說 This shop is the nearest。",
+            "正確：最近的商店步行就能到，the nearest + 名詞用法自然。"
+          ],
+          "sourceFile": "Top_Of_The_World_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：最近的商店步行就能到，the nearest + 名詞用法自然。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "creation",
+          "meaning": "創造物；作品；（集合義）世間萬物",
+          "usage": "談藝術家創作的作品時，可用 a creation；歌中則指整個受造世界。",
+          "prompt": "哪一句正確使用「creation」？",
+          "options": [
+            "We went creation to the park after school today.",
+            "This is a creation hungry, so it needs some lunch.",
+            "The chef showed us his newest creation, a fruit cake.",
+            "She creation a painting for her teacher yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：creation 不是表示前往某地的動詞。",
+            "錯誤：creation 不是可以這樣修飾 hungry 的副詞或動詞。",
+            "正確：廚師的新作品是一個水果蛋糕，his newest creation 很自然。",
+            "錯誤：creation 是名詞，表示創作這個動作應用 created。"
+          ],
+          "sourceFile": "Top_Of_The_World_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：廚師的新作品是一個水果蛋糕，his newest creation 很自然。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "explanation",
+          "meaning": "解釋；說明原因的話",
+          "usage": "有人不懂原因時，可 give an explanation 或 ask for an explanation。",
+          "prompt": "哪一句正確使用「explanation」？",
+          "options": [
+            "I explanation the answer because it is too long.",
+            "Her explanation was clear, so we understood the rule.",
+            "The explanation opened our door after the lesson.",
+            "The explanation was very tasty, so we ate it all."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：explanation 是名詞；動詞是 explain。",
+            "正確：清楚的解釋讓大家懂得規則。",
+            "錯誤：解釋本身不是開門的動作；要描述開門應用 opened。",
+            "錯誤：explanation 不是食物，不能因好吃而被吃掉。"
+          ],
+          "sourceFile": "Top_Of_The_World_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：清楚的解釋讓大家懂得規則。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "reason",
+          "meaning": "理由；原因",
+          "usage": "說明事情發生的原因時，常用 the reason for + 名詞，或 the reason why + 子句。",
+          "prompt": "哪一句正確使用「reason」？",
+          "options": [
+            "I am the reason to my new shoes at school today.",
+            "Our reason is sleeping because it is very tired.",
+            "She reason her coat before going outside today.",
+            "The reason for the rain is a heavy cloud in the sky."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：這個句子沒有說出合理的原因，且 reason to my new shoes 搭配不對。",
+            "錯誤：reason 是抽象的理由，不會睡覺或疲倦。",
+            "錯誤：reason 不能代替穿上 coat 的動詞 put on。",
+            "正確：the reason for the rain 表示下雨的原因。"
+          ],
+          "sourceFile": "Top_Of_The_World_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：the reason for the rain 表示下雨的原因。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "leaves",
+          "meaning": "葉子（leaf 的複數）",
+          "usage": "描述樹上的葉子；注意 leaf → leaves，與動詞 leaves（離開）同形。",
+          "prompt": "哪一句正確使用「leaves」？",
+          "options": [
+            "The green leaves moved when the wind blew.",
+            "She leaves are green on the tree outside.",
+            "In autumn, many leafs fall from the trees.",
+            "I put three leaves of water into my cup."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：風吹時綠葉搖動；leaves 作複數名詞。",
+            "錯誤：She leaves 是動詞句型，不能接 are green；應說 The leaves are green。",
+            "錯誤：leaf 的複數是 leaves，不是 leafs。",
+            "錯誤：水不可用 leaves 作一般計量單位。"
+          ],
+          "sourceFile": "Top_Of_The_World_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：風吹時綠葉搖動；leaves 作複數名詞。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "touch",
+          "meaning": "觸碰；輕觸；接觸的感覺",
+          "usage": "作名詞時可說 the touch of + 名詞；作動詞可說 touch + 物品。",
+          "prompt": "哪一句正確使用「touch」？",
+          "options": [
+            "Please touch to this painting with both hands.",
+            "The gentle touch of her hand helped me feel calm.",
+            "The touch was loudly, so everyone heard the door.",
+            "I touched my friend's advice and agreed with it."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：touch 作及物動詞時不加 to；而且展品可能不宜觸摸。",
+            "正確：手的輕觸令人平靜，the gentle touch of ... 搭配自然。",
+            "錯誤：觸碰不會「很大聲」，而且 loudly 不能放在 was 後作形容詞。",
+            "錯誤：抽象的建議通常用 followed 或 accepted，不用 touched。"
+          ],
+          "sourceFile": "Top_Of_The_World_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：手的輕觸令人平靜，the gentle touch of ... 搭配自然。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "sense",
+          "meaning": "感覺；感受；察覺力",
+          "usage": "a sense of + 名詞可表示一種抽象感受，例如 a sense of peace。",
+          "prompt": "哪一句正確使用「sense」？",
+          "options": [
+            "I sense of my shoes when I wake up each day.",
+            "I felt a sense of peace when I got home.",
+            "He had a sense to a long train last Monday.",
+            "My sense was eating dinner on the kitchen floor."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：sense 作動詞不能直接接 of my shoes 表示穿鞋。",
+            "正確：a sense of peace 指一種平靜的感受。",
+            "錯誤：had a sense to a train 不構成自然的抽象感受搭配。",
+            "錯誤：sense 是感受或能力，不是會吃飯的主體。"
+          ],
+          "sourceFile": "Top_Of_The_World_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：a sense of peace 指一種平靜的感受。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "wish",
+          "meaning": "願望；希望",
+          "usage": "表達一個想實現的願望時，可以說 my wish is to + 動詞。",
+          "prompt": "哪一句正確使用「wish」？",
+          "options": [
+            "Her wish is to visit her grandparents this summer.",
+            "My wish is a bicycle, because it has two wheels.",
+            "I wish my homework to school at eight each day.",
+            "The wish is cooking rice in the kitchen tonight."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：願望是暑假探望祖父母，wish is to + 動詞正確。",
+            "錯誤：此句只是描述腳踏車有兩個輪子，沒有真正表達願望；可說 My wish is to get a bicycle。",
+            "錯誤：wish 不能用來表示運送作業到學校；動作搭配不對。",
+            "錯誤：願望不能自己在廚房煮飯；應說 My wish is to learn to cook rice。"
+          ],
+          "sourceFile": "Top_Of_The_World_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：願望是暑假探望祖父母，wish is to + 動詞正確。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "mine",
+          "meaning": "我的（所有格代名詞）；屬於我的東西",
+          "usage": "mine 不需再接名詞；比較 This book is mine 和 This is my book。",
+          "prompt": "哪一句正確使用「mine」？",
+          "options": [
+            "The blue umbrella is mine; I bought it yesterday.",
+            "This book is my, not your book.",
+            "Please give mine the book after the school day.",
+            "That is mine bag by the classroom door."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：雨傘是我的，mine 可獨立使用，不需要再接名詞。",
+            "錯誤：be 動詞後單獨使用的所有格代名詞應是 mine，不是 my。",
+            "錯誤：give 後若表示「給我」，應使用 me，不是 mine。",
+            "錯誤：mine 不能直接修飾 bag，應說 my bag。"
+          ],
+          "sourceFile": "Top_Of_The_World_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：雨傘是我的，mine 可獨立使用，不需要再接名詞。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "lookin' down on",
+          "meaning": "俯瞰；向下看著（歌詞口語拼寫）",
+          "usage": "歌中是從高處往下看；標準書面形式 looking down on，另須區分 look down on someone（瞧不起某人）。",
+          "prompt": "哪一句正確使用「lookin' down on」？",
+          "options": [
+            "I lookin' down on my homework before I finish it.",
+            "She looked down on her friends because she respected them.",
+            "From the plane, we were looking down on the small town.",
+            "He was looking down on the hill from the valley below."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：lookin' 是歌詞非正式拼寫；且缺少 be 動詞。",
+            "錯誤：look down on someone 通常意為瞧不起，與 because she respected them 牴觸。",
+            "正確：從飛機俯瞰小鎮，looking down on 表示從高處往下看。",
+            "錯誤：從山谷底部不符合從高處俯瞰山丘的語境（若指仰視，說 looking up at）。"
+          ],
+          "sourceFile": "Top_Of_The_World_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：從飛機俯瞰小鎮，looking down on 表示從高處往下看。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "現在進行式：感覺正湧現",
+          "meaning": "描述一種感覺正在湧現；歌詞的 feelin’s 是 feeling is 的口語縮寫。",
+          "usage": "當情緒正在產生，而不是只談長期習慣時使用。",
+          "prompt": "看到多年不見的朋友，想說喜悅正湧上心頭，哪句正確？",
+          "options": [
+            "A warm feeling is come over me.",
+            "A warm feeling coming over me.",
+            "A warm feeling are coming over me.",
+            "A warm feeling is coming over me."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。進行式須用 coming，不用原形 come。",
+            "錯誤。少了 be 動詞 is，現在進行式不完整。",
+            "錯誤。單數主詞 feeling 應搭配 is，不用 are。",
+            "正確。符合本題目標結構與情境。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Such a feelin's comin' over me",
+          "pattern": [
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": true
+            }
+          ],
+          "example": "a feeling / come over me",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "There is：存在句",
+          "meaning": "表示某處存在某種事物或感受；wonder 在這裡是名詞。",
+          "usage": "介紹某地有某樣東西時使用。",
+          "prompt": "小鎮有一家新書店，哪句文法正確？",
+          "options": [
+            "There are a new bookshop in town.",
+            "There is a new bookshop in town.",
+            "There is new bookshop in town.",
+            "There a new bookshop in town."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。單數 bookshop 應使用 is。",
+            "正確。符合本題目標結構與情境。",
+            "錯誤。可數單數 bookshop 前需要 a。",
+            "錯誤。缺少存在句必需的 be 動詞 is。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "There is wonder in most every thing I see",
+          "pattern": [
+            {
+              "text": "There is",
+              "fixed": true
+            },
+            {
+              "text": "單數／不可數名詞",
+              "fixed": true
+            }
+          ],
+          "example": "wonder / in the room",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "省略關係代名詞的受詞子句",
+          "meaning": "I see 修飾前面的 thing，作為受詞的 that 可以省略。",
+          "usage": "想補充「我看見的東西」時使用；勿誤教成「所有關係子句都能省 that」。",
+          "prompt": "想描述「我讀過的書」，哪句正確？",
+          "options": [
+            "The book I read was exciting.",
+            "The book I read it was exciting.",
+            "The book I reading was exciting.",
+            "The book read I was exciting."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。符合本題目標結構與情境。",
+            "錯誤。已有受詞關係子句，不應再加 it 重複受詞。",
+            "錯誤。I reading 缺少正確限定動詞；可說 I read。",
+            "錯誤。關係子句的正常次序是主詞 I 在動詞 read 前。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "every thing I see",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": true
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": true
+            }
+          ],
+          "example": "every thing / I see",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "無主詞的詩意省略句",
+          "meaning": "歌詞省略 There is，表達「一朵雲也沒有」，屬詩意片段。",
+          "usage": "日常完整英文應說 There is not a cloud in the sky。",
+          "prompt": "要寫成正式完整句，說「花園裡一個人也沒有」，哪句正確？",
+          "options": [
+            "Not a person in the garden is.",
+            "There not a person in the garden.",
+            "There is not person in the garden.",
+            "There is not a person in the garden."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。詞序錯；詩意片段不應硬加句尾 is。",
+            "錯誤。There 存在句缺少 is。",
+            "錯誤。單數 person 前需要冠詞 a。",
+            "正確。符合本題目標結構與情境。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "Not a cloud in the sky",
+          "pattern": [
+            {
+              "text": "Not a",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": true
+            },
+            {
+              "text": "地點",
+              "fixed": true
+            }
+          ],
+          "example": "a cloud / in the sky",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "現在完成式縮寫 have got",
+          "meaning": "歌詞省略 I have；got 在此有「眼裡有陽光」的畫面，不是「取得太陽」。",
+          "usage": "日常表達擁有某物時可用 I have got，縮寫 I’ve got。",
+          "prompt": "想說自己有兩張演唱會門票，哪句正確？",
+          "options": [
+            "I've got two tickets for the concert.",
+            "I've got have two tickets for the concert.",
+            "I've two tickets got for the concert.",
+            "I got have two tickets for the concert."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。符合本題目標結構與情境。",
+            "錯誤。have 已包含在 I’ve，不能再加 have。",
+            "錯誤。got 應直接跟在 have 後面。",
+            "錯誤。have got 的語序錯誤。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "got the sun in my eyes",
+          "pattern": [
+            {
+              "text": "(I have) got",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": true
+            }
+          ],
+          "example": "the sun / in my eyes",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "won’t + 原形動詞",
+          "meaning": "表示預測自己未來不會驚訝；won’t = will not。",
+          "usage": "預測將來的反應、行動時使用。",
+          "prompt": "朋友說明天可能下雨，你想說「我不會驚訝」，哪句正確？",
+          "options": [
+            "I won't surprised.",
+            "I won't being surprised.",
+            "I won't be surprised.",
+            "I won't to be surprised."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。surprised 是形容詞，需要 be。",
+            "錯誤。won’t 後應接原形 be。",
+            "正確。符合本題目標結構與情境。",
+            "錯誤。情態動詞後不能加 to。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "I won't be surprised",
+          "pattern": [
+            {
+              "text": "will not",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "be surprised",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "if 條件子句",
+          "meaning": "if 引出一個可能成立的情況；整句並未斷言那真的是夢。",
+          "usage": "提出可能的條件以及反應時使用。",
+          "prompt": "想說「如果我有空，就去聽音樂會」，哪句正確？",
+          "options": [
+            "If I have time, I'll go to the concert.",
+            "If I having time, I'll go to the concert.",
+            "If I will have time, I'll go to the concert.",
+            "If I have time, I going to the concert."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。符合本題目標結構與情境。",
+            "錯誤。if 子句缺少限定動詞 have。",
+            "錯誤。一般第一類條件句的 if 子句用現在式，不用 will。",
+            "錯誤。主句要用 will go 或 am going，不能 I going。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "if it's a dream",
+          "pattern": [
+            {
+              "text": "if",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "現在式",
+              "fixed": true
+            }
+          ],
+          "example": "it / is a dream",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "want + 受詞 + to be",
+          "meaning": "表示希望某人或某物呈現某種狀態；歌詞後接的內容跨行，勿把片段當完整句。",
+          "usage": "想讓別人完成一件事或維持某種狀態時使用。",
+          "prompt": "活動負責人希望大家準時到，哪句正確？",
+          "options": [
+            "I want everyone arrive early.",
+            "I want everyone arriving early.",
+            "I want everyone to arrive early.",
+            "I want to everyone arrive early."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。want + 受詞 後應接 to arrive。",
+            "錯誤。此處目標結構要用 to + 原形，非 arriving。",
+            "正確。符合本題目標結構與情境。",
+            "錯誤。to 應放在 everyone 後面。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "I want the world to be",
+          "pattern": [
+            {
+              "text": "want",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": true
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "the world / be",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "come true：夢想成真",
+          "meaning": "come true 是實現；這句前接 Everything I want the world to be。comin’ 是 coming 的唱法。",
+          "usage": "說明願望或期望正在成真時使用。",
+          "prompt": "一位舞者終於站上大舞台，哪句正確？",
+          "options": [
+            "Her dream is coming true.",
+            "Her dream is coming truly.",
+            "Her dream is coming to true.",
+            "Her dream are coming true."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。符合本題目標結構與情境。",
+            "錯誤。固定片語是 come true，不是 truly。",
+            "錯誤。come true 不需要介系詞 to。",
+            "錯誤。單數 dream 應搭配 is。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "Is now comin' true especially for me",
+          "pattern": [
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "coming true",
+              "fixed": true
+            }
+          ],
+          "example": "a dream / for us",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "because + 子句",
+          "meaning": "because 後面接完整子句，指出原因。",
+          "usage": "需要交代一件事發生的理由時使用。",
+          "prompt": "你很高興，因為朋友來了，哪句正確？",
+          "options": [
+            "I'm happy because is here my friend.",
+            "I'm happy because my friend here.",
+            "I'm happy because of my friend is here.",
+            "I'm happy because my friend is here."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。一般陳述句應為 my friend is here。",
+            "錯誤。because 後的子句缺少 is。",
+            "錯誤。because of 後面接名詞，不直接接完整主謂子句。",
+            "正確。符合本題目標結構與情境。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "it's because you are here",
+          "pattern": [
+            {
+              "text": "because",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": true
+            }
+          ],
+          "example": "you / are here",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "最高級 nearest + 名詞",
+          "meaning": "nearest 是 near 的最高級；在此有比喻意味，不應當作地理測量。",
+          "usage": "比較數個人或地點的距離，選最近者時使用。",
+          "prompt": "你想問最近的車站在哪裡，哪句正確？",
+          "options": [
+            "Where is the nearest station?",
+            "Where is nearest station?",
+            "Where is the nearer station of all?",
+            "Where is the most nearest station?"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。符合本題目標結構與情境。",
+            "錯誤。最高級名詞片語通常要用 the。",
+            "錯誤。of all 多者比較應用最高級 nearest。",
+            "錯誤。nearest 已是最高級，不能加 most。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "the nearest thing to Heaven",
+          "pattern": [
+            {
+              "text": "the",
+              "fixed": true
+            },
+            {
+              "text": "最高級",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": true
+            },
+            {
+              "text": "to",
+              "fixed": true
+            }
+          ],
+          "example": "nearest thing / Heaven",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "明示 that 的關係子句",
+          "meaning": "that 在這裡引出修飾前面名詞的關係子句。",
+          "usage": "描述某個自己看過、做過或認識的對象時使用。",
+          "prompt": "想描述「我昨天看的電影」，哪句正確？",
+          "options": [
+            "The film that I saw yesterday was funny.",
+            "The film that I seeing yesterday was funny.",
+            "The film that I saw it yesterday was funny.",
+            "The film that saw I yesterday was funny."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。符合本題目標結構與情境。",
+            "錯誤。yesterday 敘述完成動作應用 saw。",
+            "錯誤。關係子句不應再用 it 重複受詞。",
+            "錯誤。主詞與動詞語序錯誤。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "that I've seen",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": true
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": true
+            }
+          ],
+          "example": "the film / I have seen",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "look down on + 名詞",
+          "meaning": "歌詞有站高處往下看的具體畫面；look down on 另可指輕視，這裡不可直接套入輕視義。",
+          "usage": "說從高處往下看時可用 look down on；需依上下文判別。",
+          "prompt": "旅客在山上往下看城市，哪句正確？",
+          "options": [
+            "We looked down to the city from the hill.",
+            "We looked down on the city from the hill.",
+            "We looking down on the city from the hill.",
+            "We looked down on to the city from the hill."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。此目標片語與觀景語境搭配 on。",
+            "正確。符合本題目標結構與情境。",
+            "錯誤。缺少 be 動詞或改用過去式 looked。",
+            "錯誤。down on 後不再加 to。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "lookin' down on creation",
+          "pattern": [
+            {
+              "text": "look down on",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": true
+            }
+          ],
+          "example": "creation / the city",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "only + 名詞：限定唯一",
+          "meaning": "only 限定唯一；後面 I can find 另含省略受詞關係代名詞，但此課聚焦 only。",
+          "usage": "強調選項只有一個時使用。",
+          "prompt": "團隊只有一個解決方法，哪句正確？",
+          "options": [
+            "This is the only answer we has.",
+            "This is only the answer we have one.",
+            "This is the only answer we have.",
+            "This is the only an answer we have."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。主詞 we 應搭配 have。",
+            "錯誤。only 與 one 的位置造成不自然結構。",
+            "正確。符合本題目標結構與情境。",
+            "錯誤。the only 後面不再加 an。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "the only explanation I can find",
+          "pattern": [
+            {
+              "text": "the only",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": true
+            }
+          ],
+          "example": "explanation / I can find",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "現在完成式 have found",
+          "meaning": "I’ve found 是 I have found，強調至今找到的結果。",
+          "usage": "談到過去發生、到現在仍有意義的發現時使用。",
+          "prompt": "你現在終於找到遺失的票，哪句正確？",
+          "options": [
+            "I have find my ticket!",
+            "I has found my ticket!",
+            "I've finding my ticket!",
+            "I've found my ticket!"
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。have 後需用過去分詞 found。",
+            "錯誤。I 應搭配 have，而非 has。",
+            "錯誤。have 後不能直接用 finding 充當完成式。",
+            "正確。符合本題目標結構與情境。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "the love that I've found",
+          "pattern": [
+            {
+              "text": "have/has",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": true
+            }
+          ],
+          "example": "I / found",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "ever since + 時間起點",
+          "meaning": "表示從過去某時起一直延續到現在；歌詞使用現在完成式。",
+          "usage": "描述一直延續至今的習慣或狀態時使用。",
+          "prompt": "自從搬來這裡後一直喜歡這個地方，哪句正確？",
+          "options": [
+            "I've liked this town ever since I move here tomorrow.",
+            "I've liked this town ever since I moved here.",
+            "I like this town ever since I will move here.",
+            "I've liked this town ever since I moving here."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。tomorrow 是未來，不能作為已發生的起點。",
+            "正確。符合本題目標結構與情境。",
+            "錯誤。ever since 的過去起點不應用 will move。",
+            "錯誤。需要完整子句 moved，不用 I moving。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "ever since you've been around",
+          "pattern": [
+            {
+              "text": "ever since",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "現在完成式",
+              "fixed": true
+            }
+          ],
+          "example": "you / have been around",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "現在完成式的使役效果：put",
+          "meaning": "love’s 在此是 love has，不是 love is；put 的原形、過去式、過去分詞同形。",
+          "usage": "說某件事使某人進入某種狀態時使用。",
+          "prompt": "你想說新工作讓自己充滿信心，哪句正確？",
+          "options": [
+            "This job has putted me in a good mood.",
+            "This job has putting me in a good mood.",
+            "This job is put me in a good mood.",
+            "This job has put me in a good mood."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。put 過去分詞仍是 put，不是 putted。",
+            "錯誤。has 後需過去分詞 put，不用 putting。",
+            "錯誤。這裡的 has put 不能改為 is put me。",
+            "正確。符合本題目標結構與情境。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "Your love's put me at the top of the world",
+          "pattern": [
+            {
+              "text": "have/has",
+              "fixed": true
+            },
+            {
+              "text": "put",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": true
+            },
+            {
+              "text": "地點／狀態",
+              "fixed": true
+            }
+          ],
+          "example": "your love / me / at the top",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "something 單數 + 現在完成式",
+          "meaning": "something 視為單數，所以搭配 has；風認識名字是擬人化。",
+          "usage": "不確定主體是什麼，仍要正確選擇單數動詞時使用。",
+          "prompt": "你發現房間裡有東西變了，哪句正確？",
+          "options": [
+            "Something are changed in this room.",
+            "Something has change in this room.",
+            "Something has changed in this room.",
+            "Something have changed in this room."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。此處用現在完成式，不用 are changed。",
+            "錯誤。has 後需過去分詞 changed。",
+            "正確。符合本題目標結構與情境。",
+            "錯誤。something 是單數，應搭配 has。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "Somethin' in the wind has learned my name",
+          "pattern": [
+            {
+              "text": "something",
+              "fixed": true
+            },
+            {
+              "text": "has",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": true
+            }
+          ],
+          "example": "something / learned",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "tell + 人 + that 子句",
+          "meaning": "tell 後先有接受訊息的人，再接 that 所引出的內容。",
+          "usage": "需要把消息或想法告訴某人時使用。",
+          "prompt": "姐姐告訴你電影已經開始，哪句正確？",
+          "options": [
+            "My sister told me that had the film started.",
+            "My sister told me that the film had started.",
+            "My sister told to me that the film had started.",
+            "My sister told me the film had start."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。that 後為陳述句次序，非疑問句倒裝。",
+            "正確。符合本題目標結構與情境。",
+            "錯誤。tell someone 不需要在 me 前加 to。",
+            "錯誤。完成式 had 後需過去分詞 started。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "it's tellin' me that things are not the same",
+          "pattern": [
+            {
+              "text": "tell",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": true
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "子句",
+              "fixed": true
+            }
+          ],
+          "example": "me / things are not the same",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "not the same：不一樣",
+          "meaning": "the same 表示相同；加 not 表示情況已有改變。",
+          "usage": "比較現況與以前、或兩件事是否相同時使用。",
+          "prompt": "搬家後生活不同了，哪句正確？",
+          "options": [
+            "My life are not the same now.",
+            "My life not the same now.",
+            "My life is not the same now.",
+            "My life is not same now."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。單數 life 應用 is。",
+            "錯誤。缺少 be 動詞 is。",
+            "正確。符合本題目標結構與情境。",
+            "錯誤。same 在此需要 the。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "things are not the same",
+          "pattern": [
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "not",
+              "fixed": true
+            },
+            {
+              "text": "the same",
+              "fixed": true
+            }
+          ],
+          "example": "things / the same",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "There is only one + 單數名詞",
+          "meaning": "強調只存在一項事物，wish 為單數。",
+          "usage": "說某個地方或心中只剩一個選項時使用。",
+          "prompt": "想說這個問題只有一個答案，哪句正確？",
+          "options": [
+            "There is only one answer to this question.",
+            "There is only one answers to this question.",
+            "There is only a one answer to this question.",
+            "There are only one answer to this question."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。符合本題目標結構與情境。",
+            "錯誤。one 後名詞應是單數 answer。",
+            "錯誤。only one 前不再加不必要的 a。",
+            "錯誤。one answer 是單數，需搭配 is。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "There is only one wish on my mind",
+          "pattern": [
+            {
+              "text": "There is",
+              "fixed": true
+            },
+            {
+              "text": "only one",
+              "fixed": true
+            },
+            {
+              "text": "單數名詞",
+              "fixed": true
+            }
+          ],
+          "example": "one wish / on my mind",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "when + 時間子句",
+          "meaning": "when 引出時間；be through 在歌中指一天結束，不是穿過某物。",
+          "usage": "說未來某件事情發生時常以 when + 現在式引導。",
+          "prompt": "想說「電影結束時，我們會吃晚餐」，哪句正確？",
+          "options": [
+            "When the film ending, we'll have dinner.",
+            "When the film ends, we'll have dinner.",
+            "When the film will end, we'll have dinner.",
+            "When ends the film, we'll have dinner."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。缺少限定動詞 ends。",
+            "正確。符合本題目標結構與情境。",
+            "錯誤。未來時間子句通常用現在式 ends，不用 will end。",
+            "錯誤。時間子句用陳述句主詞在前的語序。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "When this day is through",
+          "pattern": [
+            {
+              "text": "When",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "現在式",
+              "fixed": true
+            }
+          ],
+          "example": "the day / is through",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "hope + that 子句",
+          "meaning": "hope 後的 that 引導完整內容；本句後接下一行的補語。",
+          "usage": "表達對將來的期望時使用。",
+          "prompt": "想說希望明天有陽光，哪句正確？",
+          "options": [
+            "I hope that it sunny tomorrow.",
+            "I hope that it will sunny tomorrow.",
+            "I hope that will be sunny tomorrow.",
+            "I hope that it will be sunny tomorrow."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。子句缺少 be 動詞。",
+            "錯誤。will 後要接 be，不能直接接 sunny。",
+            "錯誤。that 子句缺少主詞 it。",
+            "正確。符合本題目標結構與情境。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "I hope that I will find",
+          "pattern": [
+            {
+              "text": "hope",
+              "fixed": true
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": true
+            }
+          ],
+          "example": "I / will find",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "all + 省略關係代名詞的子句",
+          "meaning": "All I need 表示「我需要的一切」，省略作 need 受詞的 that；整體作句子主詞。",
+          "usage": "把「我所需要的一切」當作一句話主詞時使用。",
+          "prompt": "你想說「我想要的一切都在這裡」，哪句正確？",
+          "options": [
+            "All I want it is here.",
+            "All I want is here.",
+            "All I wants is here.",
+            "All want I is here."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。All I want 已是主詞名詞片語，不需重複 it。",
+            "正確。符合本題目標結構與情境。",
+            "錯誤。I 後動詞用 want，不是 wants。",
+            "錯誤。子句應採 I want 語序。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "All I need will be mine",
+          "pattern": [
+            {
+              "text": "All",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": true
+            },
+            {
+              "text": "謂語",
+              "fixed": true
+            }
+          ],
+          "example": "I need / will be mine",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "will + be + 名詞／所有格表語",
+          "meaning": "mine 可單獨作表語，不需再接名詞；歌詞的條件是 if you are here。",
+          "usage": "預測物品未來歸誰所有時使用。",
+          "prompt": "你期待明天收到屬於你的獎牌，哪句正確？",
+          "options": [
+            "The medal will mine tomorrow.",
+            "The medal will be my tomorrow.",
+            "The medal will be mine tomorrow.",
+            "The medal will be me tomorrow."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。will 後需接 be。",
+            "錯誤。my 是限定詞，後面需接名詞；此處應用 mine。",
+            "正確。符合本題目標結構與情境。",
+            "錯誤。me 是受格代名詞，不表示所有權。"
+          ],
+          "sourceFile": "Top_Of_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "will be mine if you are here",
+          "pattern": [
+            {
+              "text": "will",
+              "fixed": true
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "所有格代名詞",
+              "fixed": true
+            }
+          ],
+          "example": "mine / yours",
+          "explanation": "正確。符合本題目標結構與情境。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        }
+      ]
+    }
   }
 }

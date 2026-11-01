@@ -1,0 +1,3836 @@
+{
+  "title": "Telephone",
+  "slug": "telephone",
+  "translations": [
+    {
+      "english": "Hello, hello, baby, you called? I can't hear a thing",
+      "chinese": "喂？喂？寶貝，是你打來的嗎？我什麼都聽不清楚",
+      "lineId": "line-1",
+      "startSeconds": 7.74,
+      "endSeconds": 11.46
+    },
+    {
+      "english": "I have got no service in the club, you say, say? (Say)",
+      "chinese": "我在夜店裡完全收不到訊號，你說什麼、什麼？（說啊）",
+      "lineId": "line-2",
+      "startSeconds": 12.0,
+      "endSeconds": 15.58
+    },
+    {
+      "english": "Wha-wha-what did you say, huh? You're breaking up on me",
+      "chinese": "你、你、你剛才說什麼？蛤？你的聲音一直斷斷續續",
+      "lineId": "line-3",
+      "startSeconds": 15.58,
+      "endSeconds": 19.3
+    },
+    {
+      "english": "Sorry, I cannot hear you, I'm kinda busy (I'm kinda busy)",
+      "chinese": "抱歉，我聽不見你說話，我現在有點忙（我有點忙）",
+      "lineId": "line-4",
+      "startSeconds": 19.91,
+      "endSeconds": 24.64
+    },
+    {
+      "english": "K-kinda busy (I'm kinda busy), k-kinda busy (I'm kinda busy)",
+      "chinese": "有、有點忙（我有點忙），有、有點忙（我有點忙）",
+      "lineId": "line-5"
+    },
+    {
+      "english": "Sorry, I cannot hear you, I'm kinda busy",
+      "chinese": "抱歉，我聽不見你說話，我現在有點忙",
+      "lineId": "line-6"
+    },
+    {
+      "english": "Just a second, it's my favorite song they're gonna play (Play)",
+      "chinese": "等一下，他們正要播放我最喜歡的那首歌了（播放）",
+      "lineId": "line-7",
+      "startSeconds": 31.22,
+      "endSeconds": 35.66
+    },
+    {
+      "english": "And I cannot text you with a drink in my hand, eh",
+      "chinese": "而且我手裡拿著酒杯，根本沒辦法傳訊息給你，耶",
+      "lineId": "line-8"
+    },
+    {
+      "english": "You should've made some plans with me, you knew that I was free",
+      "chinese": "你早該跟我約好行程，明明知道我之前有空",
+      "lineId": "line-9",
+      "startSeconds": 38.54,
+      "endSeconds": 42.78
+    },
+    {
+      "english": "And now you won't stop calling me, I'm kind of busy",
+      "chinese": "現在你卻不停打電話來，我真的有點忙",
+      "lineId": "line-10",
+      "startSeconds": 42.78,
+      "endSeconds": 46.74
+    },
+    {
+      "english": "Stop callin', stop callin', I don't wanna think anymore",
+      "chinese": "別再打了，別再打了，我不想再費心思考任何事",
+      "lineId": "line-11"
+    },
+    {
+      "english": "I left my head and my heart on the dance floor",
+      "chinese": "我的理智與整顆心，早已全都留在舞池裡",
+      "lineId": "line-12"
+    },
+    {
+      "english": "Stop callin', stop callin', I don't wanna talk anymore",
+      "chinese": "別再打了，別再打了，我不想再說話了",
+      "lineId": "line-13"
+    },
+    {
+      "english": "I left my head and my heart on the dance floor",
+      "chinese": "我的理智與整顆心，早已全都留在舞池裡",
+      "lineId": "line-14"
+    },
+    {
+      "english": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh, eh",
+      "chinese": "耶、耶、耶、耶、耶、耶、耶、耶、耶、耶、耶",
+      "lineId": "line-15"
+    },
+    {
+      "english": "Stop telephoning me!",
+      "chinese": "別再打電話給我了！",
+      "lineId": "line-16"
+    },
+    {
+      "english": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (Stop telephoning me)",
+      "chinese": "耶、耶、耶、耶、耶、耶、耶、耶、耶、耶（別再打電話給我）",
+      "lineId": "line-17"
+    },
+    {
+      "english": "I'm busy!",
+      "chinese": "我正忙著呢！",
+      "lineId": "line-18"
+    },
+    {
+      "english": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (I'm busy)",
+      "chinese": "耶、耶、耶、耶、耶、耶、耶、耶、耶、耶（我正忙著呢）",
+      "lineId": "line-19"
+    },
+    {
+      "english": "Stop telephoning me!",
+      "chinese": "別再打電話給我了！",
+      "lineId": "line-20"
+    },
+    {
+      "english": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (Stop telephoning me)",
+      "chinese": "耶、耶、耶、耶、耶、耶、耶、耶、耶、耶、耶（別再打電話給我）",
+      "lineId": "line-21"
+    },
+    {
+      "english": "Can call all you want but there's no one home",
+      "chinese": "你想打多少通都隨你，可就是沒有人在家接聽",
+      "lineId": "line-22"
+    },
+    {
+      "english": "And you're not gonna reach my telephone (No)",
+      "chinese": "反正你就是打不通我的電話（不）",
+      "lineId": "line-23"
+    },
+    {
+      "english": "'Cause I'm out in the club and I'm sipping that bubb",
+      "chinese": "因為我正在夜店裡，悠閒地啜飲著氣泡酒",
+      "lineId": "line-24"
+    },
+    {
+      "english": "And you're not gonna reach my telephone (No)",
+      "chinese": "反正你就是打不通我的電話（不）",
+      "lineId": "line-25"
+    },
+    {
+      "english": "Can call all you want but there's no one home",
+      "chinese": "你想打多少通都隨你，可就是沒有人在家接聽",
+      "lineId": "line-26"
+    },
+    {
+      "english": "And you're not gonna reach my telephone",
+      "chinese": "反正你就是打不通我的電話",
+      "lineId": "line-27",
+      "startSeconds": 88.44,
+      "endSeconds": 90.32
+    },
+    {
+      "english": "'Cause I'm out in the club and I'm sipping that bubb",
+      "chinese": "因為我正在夜店裡，悠閒地啜飲著氣泡酒",
+      "lineId": "line-28"
+    },
+    {
+      "english": "And you're not gonna reach my telephone",
+      "chinese": "反正你就是打不通我的電話",
+      "lineId": "line-29",
+      "startSeconds": 92.38,
+      "endSeconds": 94.06
+    },
+    {
+      "english": "Boy, the way you blowing up my phone",
+      "chinese": "嘿，你這樣不停地狂打我的電話",
+      "lineId": "line-30"
+    },
+    {
+      "english": "Won't make me leave no faster",
+      "chinese": "也不會讓我更快離開這裡",
+      "lineId": "line-31",
+      "startSeconds": 96.36,
+      "endSeconds": 98.28
+    },
+    {
+      "english": "Put my coat on faster, leave my girls no faster",
+      "chinese": "不會讓我更快穿上外套，也不會讓我更快拋下姐妹們離開",
+      "lineId": "line-32",
+      "startSeconds": 98.28,
+      "endSeconds": 102.18
+    },
+    {
+      "english": "I should've left my phone at home 'cause this is a disaster",
+      "chinese": "我早該把手機留在家裡，這簡直是一場災難",
+      "lineId": "line-33",
+      "startSeconds": 102.18,
+      "endSeconds": 105.88
+    },
+    {
+      "english": "Callin' like a collector",
+      "chinese": "你打電話的樣子，簡直像個窮追不捨的討債員",
+      "lineId": "line-34"
+    },
+    {
+      "english": "Sorry, I cannot answer",
+      "chinese": "抱歉，我現在無法接聽",
+      "lineId": "line-35",
+      "startSeconds": 108.36,
+      "endSeconds": 110.14
+    },
+    {
+      "english": "It's not that I don't like you, I'm just at a party",
+      "chinese": "不是我不喜歡你，只是我現在正在參加派對",
+      "lineId": "line-36",
+      "startSeconds": 110.14,
+      "endSeconds": 113.54
+    },
+    {
+      "english": "And I am sick and tired of my phone r-ringing",
+      "chinese": "而我真的受夠了手機響個不、不停",
+      "lineId": "line-37",
+      "startSeconds": 113.54,
+      "endSeconds": 117.24
+    },
+    {
+      "english": "Sometimes I feel like I live in Grand Central S-Station (Station)",
+      "chinese": "有時候，我覺得自己簡直住在GrandCentralStation那樣人來人往的地方（車站）",
+      "lineId": "line-38",
+      "startSeconds": 117.24,
+      "endSeconds": 122.42
+    },
+    {
+      "english": "Tonight I'm not taking no calls 'cause I'll be dancing",
+      "chinese": "今晚我誰的電話都不接，因為我要盡情跳舞",
+      "lineId": "line-39"
+    },
+    {
+      "english": "('Cause tonight I'm dancing) 'Cause I'll be dancing",
+      "chinese": "（因為今晚我要跳舞）因為我要盡情跳舞",
+      "lineId": "line-40"
+    },
+    {
+      "english": "('Cause tonight I'm dancing) 'Cause I'll be dancing",
+      "chinese": "（因為今晚我要跳舞）因為我要盡情跳舞",
+      "lineId": "line-41"
+    },
+    {
+      "english": "(Tonight I'm dancing)",
+      "chinese": "（今晚我要盡情跳舞）",
+      "lineId": "line-42"
+    },
+    {
+      "english": "Tonight I'm not taking no calls, 'cause I'll be dancing",
+      "chinese": "今晚我誰的電話都不接，因為我要盡情跳舞",
+      "lineId": "line-43",
+      "startSeconds": 129.44,
+      "endSeconds": 133.46
+    },
+    {
+      "english": "Stop calling, stop calling, I don't wanna think anymore",
+      "chinese": "別再打了，別再打了，我不想再費心思考任何事",
+      "lineId": "line-44"
+    },
+    {
+      "english": "I left my head and my heart on the dance floor",
+      "chinese": "我的理智與整顆心，早已全都留在舞池裡",
+      "lineId": "line-45"
+    },
+    {
+      "english": "Stop calling, stop calling, I don't wanna talk anymore",
+      "chinese": "別再打了，別再打了，我不想再說話了",
+      "lineId": "line-46",
+      "startSeconds": 141.42,
+      "endSeconds": 145.02
+    },
+    {
+      "english": "I left my head and my heart on the dance floor",
+      "chinese": "我的理智與整顆心，早已全都留在舞池裡",
+      "lineId": "line-47"
+    },
+    {
+      "english": "Stop calling, stop calling, I don't wanna think anymore",
+      "chinese": "別再打了，別再打了，我不想再費心思考任何事",
+      "lineId": "line-48",
+      "startSeconds": 149.18,
+      "endSeconds": 153.88
+    },
+    {
+      "english": "I left my head and my heart on the dance floor",
+      "chinese": "我的理智與整顆心，早已全都留在舞池裡",
+      "lineId": "line-49"
+    },
+    {
+      "english": "Stop calling, stop calling, I don't wanna talk anymore",
+      "chinese": "別再打了，別再打了，我不想再說話了",
+      "lineId": "line-50",
+      "startSeconds": 153.88,
+      "endSeconds": 160.68
+    },
+    {
+      "english": "I left my head and my heart on the dance floor",
+      "chinese": "我的理智與整顆心，早已全都留在舞池裡",
+      "lineId": "line-51"
+    },
+    {
+      "english": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (Stop telephoning me)",
+      "chinese": "耶、耶、耶、耶、耶、耶、耶、耶、耶、耶、耶（別再打電話給我）",
+      "lineId": "line-52"
+    },
+    {
+      "english": "Stop telephoning me!",
+      "chinese": "別再打電話給我了！",
+      "lineId": "line-53"
+    },
+    {
+      "english": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (I'm busy)",
+      "chinese": "耶、耶、耶、耶、耶、耶、耶、耶、耶、耶（我正忙著呢）",
+      "lineId": "line-54"
+    },
+    {
+      "english": "I'm busy!",
+      "chinese": "我正忙著呢！",
+      "lineId": "line-55"
+    },
+    {
+      "english": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (Stop telephoning me)",
+      "chinese": "耶、耶、耶、耶、耶、耶、耶、耶、耶、耶（別再打電話給我）",
+      "lineId": "line-56"
+    },
+    {
+      "english": "Stop telephoning me!",
+      "chinese": "別再打電話給我了！",
+      "lineId": "line-57"
+    },
+    {
+      "english": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (I'm busy)",
+      "chinese": "耶、耶、耶、耶、耶、耶、耶、耶、耶、耶、耶（我正忙著呢）",
+      "lineId": "line-58"
+    },
+    {
+      "english": "Can call all you want but there's no one home",
+      "chinese": "你想打多少通都隨你，可就是沒有人在家接聽",
+      "lineId": "line-59"
+    },
+    {
+      "english": "And you're not gonna reach my telephone",
+      "chinese": "反正你就是打不通我的電話",
+      "lineId": "line-60"
+    },
+    {
+      "english": "'Cause I'm out in the club and I'm sipping that bubb",
+      "chinese": "因為我正在夜店裡，悠閒地啜飲著氣泡酒",
+      "lineId": "line-61"
+    },
+    {
+      "english": "And you're not gonna reach my telephone",
+      "chinese": "反正你就是打不通我的電話",
+      "lineId": "line-62"
+    },
+    {
+      "english": "Can call all you want but there's no one home",
+      "chinese": "你想打多少通都隨你，可就是沒有人在家接聽",
+      "lineId": "line-63"
+    },
+    {
+      "english": "And you're not gonna reach my telephone",
+      "chinese": "反正你就是打不通我的電話",
+      "lineId": "line-64"
+    },
+    {
+      "english": "'Cause I'm out in the club and I'm sipping that bubb",
+      "chinese": "因為我正在夜店裡，悠閒地啜飲著氣泡酒",
+      "lineId": "line-65"
+    },
+    {
+      "english": "And you're not gonna reach my telephone",
+      "chinese": "反正你就是打不通我的電話",
+      "lineId": "line-66"
+    },
+    {
+      "english": "My telephone, m-m-my telephone",
+      "chinese": "我的電話，我、我、我的電話",
+      "lineId": "line-67"
+    },
+    {
+      "english": "'Cause I'm out in the club, and I'm sipping that bubb",
+      "chinese": "因為我正在夜店裡，悠閒地啜飲著氣泡酒",
+      "lineId": "line-68"
+    },
+    {
+      "english": "And you're not gonna reach my telephone",
+      "chinese": "反正你就是打不通我的電話",
+      "lineId": "line-69"
+    },
+    {
+      "english": "My telephone, m-m-my telephone",
+      "chinese": "我的電話，我、我、我的電話",
+      "lineId": "line-70"
+    },
+    {
+      "english": "'Cause I'm out in the club, and I'm sipping that bubb",
+      "chinese": "因為我正在夜店裡，悠閒地啜飲著氣泡酒",
+      "lineId": "line-71"
+    },
+    {
+      "english": "And you're not gonna reach my telephone",
+      "chinese": "反正你就是打不通我的電話",
+      "lineId": "line-72"
+    },
+    {
+      "english": "We're sorry (We're sorry)",
+      "chinese": "很抱歉（很抱歉）",
+      "lineId": "line-73"
+    },
+    {
+      "english": "The number you have reached is not in service at this time",
+      "chinese": "您所撥打的電話號碼，目前暫停服務",
+      "lineId": "line-74"
+    },
+    {
+      "english": "Please check the number or try your call again",
+      "chinese": "請確認號碼是否正確，或稍後再撥",
+      "lineId": "line-75"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "hear a thing",
+          "options": [
+            "hear a word",
+            "see a thing",
+            "hear a thing"
+          ],
+          "prompt": "Hello, hello, baby, you called? I can't {{blank}} ",
+          "promptZh": "喂？喂？寶貝，是你打來的嗎？我什麼都聽不清楚"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "no service",
+          "options": [
+            "good service",
+            "no service",
+            "a signal"
+          ],
+          "prompt": "I have got {{blank}} in the club, you say, say? (Say)  ",
+          "promptZh": "我在夜店裡完全收不到訊號，你說什麼、什麼？（說啊）"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 4,
+          "lineId": "line-3",
+          "answer": "breaking up on me",
+          "options": [
+            "breaking up on me",
+            "talking over me",
+            "walking out on me"
+          ],
+          "prompt": "Wha-wha-what did you say, huh? You're {{blank}}  ",
+          "promptZh": "你、你、你剛才說什麼？蛤？你的聲音一直斷斷續續"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 5,
+          "lineId": "line-4",
+          "answer": "kinda busy",
+          "options": [
+            "really tired",
+            "kinda busy",
+            "almost ready"
+          ],
+          "prompt": "Sorry, I cannot hear you, I'm {{blank}} (I'm kinda busy) ",
+          "promptZh": "抱歉，我聽不見你說話，我現在有點忙（我有點忙）"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "favorite song",
+          "options": [
+            "favorite song",
+            "latest song",
+            "favorite show"
+          ],
+          "prompt": "Just a second, it's my {{blank}} they're gonna play (Play) ",
+          "promptZh": "等一下，他們正要播放我最喜歡的那首歌了（播放）"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "cannot text you",
+          "options": [
+            "cannot call you",
+            "cannot see you",
+            "cannot text you"
+          ],
+          "prompt": "And I {{blank}} with a drink in my hand, eh ",
+          "promptZh": "而且我手裡拿著酒杯，根本沒辦法傳訊息給你，耶"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "drink in my hand",
+          "options": [
+            "drink in my hand",
+            "phone in my hand",
+            "bag in my hand"
+          ],
+          "prompt": "And I cannot text you with a {{blank}}, eh ",
+          "promptZh": "而且我手裡拿著酒杯，根本沒辦法傳訊息給你，耶"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "made some plans",
+          "options": [
+            "changed your plans",
+            "cancelled plans",
+            "made some plans"
+          ],
+          "prompt": "You should've {{blank}} with me, you knew that I was free",
+          "promptZh": "你早該跟我約好行程，明明知道我之前有空"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 10,
+          "lineId": "line-9",
+          "answer": "I was free",
+          "options": [
+            "I was free",
+            "I was late",
+            "I was home"
+          ],
+          "prompt": "You should've made some plans with me, you knew that {{blank}}",
+          "promptZh": "你早該跟我約好行程，明明知道我之前有空"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 11,
+          "lineId": "line-10",
+          "answer": "stop calling me",
+          "options": [
+            "keep texting me",
+            "start following me",
+            "stop calling me"
+          ],
+          "prompt": "And now you won't {{blank}}, I'm kind of busy ",
+          "promptZh": "現在你卻不停打電話來，我真的有點忙"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 12,
+          "lineId": "line-11",
+          "answer": "think anymore",
+          "options": [
+            "dance anymore",
+            "think anymore",
+            "wait anymore"
+          ],
+          "prompt": "Stop callin', stop callin', I don't wanna {{blank}} ",
+          "promptZh": "別再打了，別再打了，我不想再費心思考任何事"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 13,
+          "lineId": "line-12",
+          "answer": "head and my heart",
+          "options": [
+            "mind and my soul",
+            "head and my heart",
+            "hands and my feet"
+          ],
+          "prompt": "I left my {{blank}} on the dance floor ",
+          "promptZh": "我的理智與整顆心，早已全都留在舞池裡"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 15,
+          "lineId": "line-13",
+          "answer": "talk anymore",
+          "options": [
+            "talk anymore",
+            "sing anymore",
+            "cry anymore"
+          ],
+          "prompt": "Stop callin', stop callin', I don't wanna {{blank}} ",
+          "promptZh": "別再打了，別再打了，我不想再說話了"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "dance floor",
+          "options": [
+            "front door",
+            "dance floor",
+            "parking lot"
+          ],
+          "prompt": "I left my head and my heart on the {{blank}} ",
+          "promptZh": "我的理智與整顆心，早已全都留在舞池裡"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "telephoning me",
+          "options": [
+            "following me",
+            "telephoning me",
+            "calling for help"
+          ],
+          "prompt": "Stop {{blank}}!",
+          "promptZh": "別再打電話給我了！"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 17,
+          "lineId": "line-22",
+          "answer": "no one home",
+          "options": [
+            "no one home",
+            "someone waiting",
+            "nobody listening"
+          ],
+          "prompt": "Can call all you want but there's {{blank}} ",
+          "promptZh": "你想打多少通都隨你，可就是沒有人在家接聽"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 18,
+          "lineId": "line-23",
+          "answer": "reach my telephone",
+          "options": [
+            "find my address",
+            "reach my telephone",
+            "hear my message"
+          ],
+          "prompt": "And you're not gonna {{blank}} (No) ",
+          "promptZh": "反正你就是打不通我的電話（不）"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 3,
+          "lineId": "line-24",
+          "answer": "in the club",
+          "options": [
+            "in the club",
+            "at the bar",
+            "on the train"
+          ],
+          "prompt": "'Cause I'm out {{blank}} and I'm sipping that bubb ",
+          "promptZh": "因為我正在夜店裡，悠閒地啜飲著氣泡酒"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 20,
+          "lineId": "line-24",
+          "answer": "sipping that bubb",
+          "options": [
+            "drinking some water",
+            "holding my coat",
+            "sipping that bubb"
+          ],
+          "prompt": "'Cause I'm out in the club and I'm {{blank}} ",
+          "promptZh": "因為我正在夜店裡，悠閒地啜飲著氣泡酒"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 19,
+          "lineId": "line-28",
+          "answer": "out in the club",
+          "options": [
+            "home in my room",
+            "down by the beach",
+            "out in the club"
+          ],
+          "prompt": "'Cause I'm {{blank}} and I'm sipping that bubb ",
+          "promptZh": "因為我正在夜店裡，悠閒地啜飲著氣泡酒"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Hello, hello, baby, you called? I can't {{q:1}} "
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I have got {{q:2}} in the club, you say, say? (Say)  "
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Wha-wha-what did you say, huh? You're {{q:3}}  "
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Sorry, I cannot hear you, I'm {{q:4}} (I'm kinda busy) "
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "K-kinda busy (I'm kinda busy), k-kinda busy (I'm kinda busy) "
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Sorry, I cannot hear you, I'm kinda busy "
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Just a second, it's my {{q:5}} they're gonna play (Play) "
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And I {{q:6}} with a {{q:7}}, eh "
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "You should've {{q:8}} with me, you knew that {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And now you won't {{q:10}}, I'm kind of busy "
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Stop callin', stop callin', I don't wanna {{q:11}} "
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I left my {{q:12}} on the dance floor "
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Stop callin', stop callin', I don't wanna {{q:13}} "
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I left my head and my heart on the {{q:14}} "
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh, eh "
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Stop {{q:15}}!"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (Stop telephoning me)  "
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I'm busy!"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (I'm busy) "
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Stop telephoning me!"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (Stop telephoning me)  "
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Can call all you want but there's {{q:16}} "
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And you're not gonna {{q:17}} (No) "
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "'Cause I'm out {{q:18}} and I'm {{q:19}} "
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And you're not gonna reach my telephone (No) "
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Can call all you want but there's no one home "
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "'Cause I'm {{q:20}} and I'm sipping that bubb "
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Boy, the way you blowing up my phone "
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Won't make me leave no faster"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Put my coat on faster, leave my girls no faster  "
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I should've left my phone at home 'cause this is a disaster "
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Callin' like a collector "
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Sorry, I cannot answer"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "It's not that I don't like you, I'm just at a party "
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And I am sick and tired of my phone r-ringing "
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Sometimes I feel like I live in Grand Central S-Station (Station)   "
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Tonight I'm not taking no calls 'cause I'll be dancing "
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "('Cause tonight I'm dancing) 'Cause I'll be dancing "
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "('Cause tonight I'm dancing) 'Cause I'll be dancing "
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "(Tonight I'm dancing)"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Tonight I'm not taking no calls, 'cause I'll be dancing "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Stop calling, stop calling, I don't wanna think anymore "
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I left my head and my heart on the dance floor "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Stop calling, stop calling, I don't wanna talk anymore "
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "I left my head and my heart on the dance floor "
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Stop calling, stop calling, I don't wanna think anymore "
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "I left my head and my heart on the dance floor "
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Stop calling, stop calling, I don't wanna talk anymore "
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "I left my head and my heart on the dance floor "
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (Stop telephoning me)  "
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Stop telephoning me!"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (I'm busy) "
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "I'm busy!"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (Stop telephoning me)  "
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Stop telephoning me!"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (I'm busy)  "
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Can call all you want but there's no one home "
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "'Cause I'm out in the club and I'm sipping that bubb "
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Can call all you want but there's no one home "
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "'Cause I'm out in the club and I'm sipping that bubb "
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "My telephone, m-m-my telephone "
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "'Cause I'm out in the club, and I'm sipping that bubb "
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "My telephone, m-m-my telephone "
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "'Cause I'm out in the club, and I'm sipping that bubb "
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "We're sorry (We're sorry)"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "The number you have reached is not in service at this time "
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "Please check the number or try your call again "
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "hear a thing",
+          "options": [
+            "hear a word",
+            "see a thing",
+            "hear a thing"
+          ],
+          "prompt": "Hello, hello, baby, you called? I can't {{blank}} ",
+          "promptZh": "喂？喂？寶貝，是你打來的嗎？我什麼都聽不清楚"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "no service",
+          "options": [
+            "no service",
+            "good service",
+            "a signal"
+          ],
+          "prompt": "I have got {{blank}} in the club, you say, say? (Say)  ",
+          "promptZh": "我在夜店裡完全收不到訊號，你說什麼、什麼？（說啊）"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 4,
+          "lineId": "line-3",
+          "answer": "breaking up on me",
+          "options": [
+            "talking over me",
+            "walking out on me",
+            "breaking up on me"
+          ],
+          "prompt": "Wha-wha-what did you say, huh? You're {{blank}}  ",
+          "promptZh": "你、你、你剛才說什麼？蛤？你的聲音一直斷斷續續"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 5,
+          "lineId": "line-4",
+          "answer": "kinda busy",
+          "options": [
+            "kinda busy",
+            "really tired",
+            "almost ready"
+          ],
+          "prompt": "Sorry, I cannot hear you, I'm {{blank}} (I'm kinda busy) ",
+          "promptZh": "抱歉，我聽不見你說話，我現在有點忙（我有點忙）"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "favorite song",
+          "options": [
+            "latest song",
+            "favorite show",
+            "favorite song"
+          ],
+          "prompt": "Just a second, it's my {{blank}} they're gonna play (Play) ",
+          "promptZh": "等一下，他們正要播放我最喜歡的那首歌了（播放）"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "cannot text you",
+          "options": [
+            "cannot text you",
+            "cannot call you",
+            "cannot see you"
+          ],
+          "prompt": "And I {{blank}} with a drink in my hand, eh ",
+          "promptZh": "而且我手裡拿著酒杯，根本沒辦法傳訊息給你，耶"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "drink in my hand",
+          "options": [
+            "phone in my hand",
+            "drink in my hand",
+            "bag in my hand"
+          ],
+          "prompt": "And I cannot text you with a {{blank}}, eh ",
+          "promptZh": "而且我手裡拿著酒杯，根本沒辦法傳訊息給你，耶"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "made some plans",
+          "options": [
+            "made some plans",
+            "changed your plans",
+            "cancelled plans"
+          ],
+          "prompt": "You should've {{blank}} with me, you knew that I was free",
+          "promptZh": "你早該跟我約好行程，明明知道我之前有空"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 10,
+          "lineId": "line-9",
+          "answer": "I was free",
+          "options": [
+            "I was late",
+            "I was home",
+            "I was free"
+          ],
+          "prompt": "You should've made some plans with me, you knew that {{blank}}",
+          "promptZh": "你早該跟我約好行程，明明知道我之前有空"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 11,
+          "lineId": "line-10",
+          "answer": "stop calling me",
+          "options": [
+            "keep texting me",
+            "stop calling me",
+            "start following me"
+          ],
+          "prompt": "And now you won't {{blank}}, I'm kind of busy ",
+          "promptZh": "現在你卻不停打電話來，我真的有點忙"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 12,
+          "lineId": "line-11",
+          "answer": "think anymore",
+          "options": [
+            "think anymore",
+            "dance anymore",
+            "wait anymore"
+          ],
+          "prompt": "Stop callin', stop callin', I don't wanna {{blank}} ",
+          "promptZh": "別再打了，別再打了，我不想再費心思考任何事"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 13,
+          "lineId": "line-12",
+          "answer": "head and my heart",
+          "options": [
+            "mind and my soul",
+            "head and my heart",
+            "hands and my feet"
+          ],
+          "prompt": "I left my {{blank}} on the dance floor ",
+          "promptZh": "我的理智與整顆心，早已全都留在舞池裡"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 15,
+          "lineId": "line-13",
+          "answer": "talk anymore",
+          "options": [
+            "sing anymore",
+            "cry anymore",
+            "talk anymore"
+          ],
+          "prompt": "Stop callin', stop callin', I don't wanna {{blank}} ",
+          "promptZh": "別再打了，別再打了，我不想再說話了"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "dance floor",
+          "options": [
+            "front door",
+            "parking lot",
+            "dance floor"
+          ],
+          "prompt": "I left my head and my heart on the {{blank}} ",
+          "promptZh": "我的理智與整顆心，早已全都留在舞池裡"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "telephoning me",
+          "options": [
+            "telephoning me",
+            "following me",
+            "calling for help"
+          ],
+          "prompt": "Stop {{blank}}!",
+          "promptZh": "別再打電話給我了！"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 17,
+          "lineId": "line-22",
+          "answer": "no one home",
+          "options": [
+            "someone waiting",
+            "nobody listening",
+            "no one home"
+          ],
+          "prompt": "Can call all you want but there's {{blank}} ",
+          "promptZh": "你想打多少通都隨你，可就是沒有人在家接聽"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 18,
+          "lineId": "line-23",
+          "answer": "reach my telephone",
+          "options": [
+            "find my address",
+            "reach my telephone",
+            "hear my message"
+          ],
+          "prompt": "And you're not gonna {{blank}} (No) ",
+          "promptZh": "反正你就是打不通我的電話（不）"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 3,
+          "lineId": "line-24",
+          "answer": "in the club",
+          "options": [
+            "in the club",
+            "at the bar",
+            "on the train"
+          ],
+          "prompt": "'Cause I'm out {{blank}} and I'm sipping that bubb ",
+          "promptZh": "因為我正在夜店裡，悠閒地啜飲著氣泡酒"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 20,
+          "lineId": "line-24",
+          "answer": "sipping that bubb",
+          "options": [
+            "drinking some water",
+            "sipping that bubb",
+            "holding my coat"
+          ],
+          "prompt": "'Cause I'm out in the club and I'm {{blank}} ",
+          "promptZh": "因為我正在夜店裡，悠閒地啜飲著氣泡酒"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 19,
+          "lineId": "line-28",
+          "answer": "out in the club",
+          "options": [
+            "home in my room",
+            "out in the club",
+            "down by the beach"
+          ],
+          "prompt": "'Cause I'm {{blank}} and I'm sipping that bubb ",
+          "promptZh": "因為我正在夜店裡，悠閒地啜飲著氣泡酒"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-30",
+          "answer": "blowing up my phone",
+          "options": [
+            "turning off my phone",
+            "looking at my phone",
+            "blowing up my phone"
+          ],
+          "prompt": "Boy, the way you {{blank}} ",
+          "promptZh": "嘿，你這樣不停地狂打我的電話"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-31",
+          "answer": "leave no faster",
+          "options": [
+            "dance much faster",
+            "leave no faster",
+            "stay here longer"
+          ],
+          "prompt": "Won't make me {{blank}}",
+          "promptZh": "也不會讓我更快離開這裡"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-32",
+          "answer": "Put my coat on faster",
+          "options": [
+            "Take my shoes off quickly",
+            "Put my makeup on",
+            "Put my coat on faster"
+          ],
+          "prompt": "{{blank}}, leave my girls no faster  ",
+          "promptZh": "不會讓我更快穿上外套，也不會讓我更快拋下姐妹們離開"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-32",
+          "answer": "leave my girls",
+          "options": [
+            "leave my house",
+            "call my friends",
+            "leave my girls"
+          ],
+          "prompt": "Put my coat on faster, {{blank}} no faster  ",
+          "promptZh": "不會讓我更快穿上外套，也不會讓我更快拋下姐妹們離開"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-33",
+          "answer": "left my phone at home",
+          "options": [
+            "left my phone at home",
+            "brought my phone along",
+            "lost my phone again"
+          ],
+          "prompt": "I should've {{blank}} 'cause this is a disaster ",
+          "promptZh": "我早該把手機留在家裡，這簡直是一場災難"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-33",
+          "answer": "this is a disaster",
+          "options": [
+            "this is an adventure",
+            "this is a disaster",
+            "this is a surprise"
+          ],
+          "prompt": "I should've left my phone at home 'cause {{blank}} ",
+          "promptZh": "我早該把手機留在家裡，這簡直是一場災難"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-34",
+          "answer": "like a collector",
+          "options": [
+            "like a reporter",
+            "like a collector",
+            "like a stranger"
+          ],
+          "prompt": "Callin' {{blank}} ",
+          "promptZh": "你打電話的樣子，簡直像個窮追不捨的討債員"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-35",
+          "answer": "cannot answer",
+          "options": [
+            "cannot answer",
+            "cannot remember",
+            "cannot follow"
+          ],
+          "prompt": "Sorry, I {{blank}}",
+          "promptZh": "抱歉，我現在無法接聽"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-36",
+          "answer": "just at a party",
+          "options": [
+            "just at the office",
+            "just at a party",
+            "just on a journey"
+          ],
+          "prompt": "It's not that I don't like you, I'm {{blank}} ",
+          "promptZh": "不是我不喜歡你，只是我現在正在參加派對"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-37",
+          "answer": "sick and tired",
+          "options": [
+            "sick and tired",
+            "safe and sound",
+            "happy and ready"
+          ],
+          "prompt": "And I am {{blank}} of my phone r-ringing ",
+          "promptZh": "而我真的受夠了手機響個不、不停"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-37",
+          "answer": "phone r-ringing",
+          "options": [
+            "doorbell ringing",
+            "phone r-ringing",
+            "friends all singing"
+          ],
+          "prompt": "And I am sick and tired of my {{blank}} ",
+          "promptZh": "而我真的受夠了手機響個不、不停"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-38",
+          "answer": "Grand Central S-Station",
+          "options": [
+            "Grand Central S-Station",
+            "the local bus station",
+            "the busy train platform"
+          ],
+          "prompt": "Sometimes I feel like I live in {{blank}} (Station)   ",
+          "promptZh": "有時候，我覺得自己簡直住在GrandCentralStation那樣人來人往的地方（車站）"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Hello, hello, baby, you called? I can't {{q:1}} "
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I have got {{q:2}} in the club, you say, say? (Say)  "
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Wha-wha-what did you say, huh? You're {{q:3}}  "
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Sorry, I cannot hear you, I'm {{q:4}} (I'm kinda busy) "
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "K-kinda busy (I'm kinda busy), k-kinda busy (I'm kinda busy) "
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Sorry, I cannot hear you, I'm kinda busy "
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Just a second, it's my {{q:5}} they're gonna play (Play) "
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And I {{q:6}} with a {{q:7}}, eh "
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "You should've {{q:8}} with me, you knew that {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And now you won't {{q:10}}, I'm kind of busy "
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Stop callin', stop callin', I don't wanna {{q:11}} "
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I left my {{q:12}} on the dance floor "
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Stop callin', stop callin', I don't wanna {{q:13}} "
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I left my head and my heart on the {{q:14}} "
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh, eh "
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Stop {{q:15}}!"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (Stop telephoning me)  "
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I'm busy!"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (I'm busy) "
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Stop telephoning me!"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (Stop telephoning me)  "
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Can call all you want but there's {{q:16}} "
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And you're not gonna {{q:17}} (No) "
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "'Cause I'm out {{q:18}} and I'm {{q:19}} "
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And you're not gonna reach my telephone (No) "
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Can call all you want but there's no one home "
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "'Cause I'm {{q:20}} and I'm sipping that bubb "
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Boy, the way you {{q:21}} "
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Won't make me {{q:22}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:23}}, {{q:24}} no faster  "
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I should've {{q:25}} 'cause {{q:26}} "
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Callin' {{q:27}} "
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Sorry, I {{q:28}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "It's not that I don't like you, I'm {{q:29}} "
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And I am {{q:30}} of my {{q:31}} "
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Sometimes I feel like I live in {{q:32}} (Station)   "
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Tonight I'm not taking no calls 'cause I'll be dancing "
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "('Cause tonight I'm dancing) 'Cause I'll be dancing "
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "('Cause tonight I'm dancing) 'Cause I'll be dancing "
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "(Tonight I'm dancing)"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Tonight I'm not taking no calls, 'cause I'll be dancing "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Stop calling, stop calling, I don't wanna think anymore "
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I left my head and my heart on the dance floor "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Stop calling, stop calling, I don't wanna talk anymore "
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "I left my head and my heart on the dance floor "
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Stop calling, stop calling, I don't wanna think anymore "
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "I left my head and my heart on the dance floor "
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Stop calling, stop calling, I don't wanna talk anymore "
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "I left my head and my heart on the dance floor "
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (Stop telephoning me)  "
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Stop telephoning me!"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (I'm busy) "
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "I'm busy!"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (Stop telephoning me)  "
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Stop telephoning me!"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (I'm busy)  "
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Can call all you want but there's no one home "
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "'Cause I'm out in the club and I'm sipping that bubb "
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Can call all you want but there's no one home "
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "'Cause I'm out in the club and I'm sipping that bubb "
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "My telephone, m-m-my telephone "
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "'Cause I'm out in the club, and I'm sipping that bubb "
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "My telephone, m-m-my telephone "
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "'Cause I'm out in the club, and I'm sipping that bubb "
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "We're sorry (We're sorry)"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "The number you have reached is not in service at this time "
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "Please check the number or try your call again "
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "hear a thing",
+          "options": [
+            "hear a thing",
+            "hear a word",
+            "see a thing"
+          ],
+          "prompt": "Hello, hello, baby, you called? I can't {{blank}} ",
+          "promptZh": "喂？喂？寶貝，是你打來的嗎？我什麼都聽不清楚"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "no service",
+          "options": [
+            "good service",
+            "no service",
+            "a signal"
+          ],
+          "prompt": "I have got {{blank}} in the club, you say, say? (Say)  ",
+          "promptZh": "我在夜店裡完全收不到訊號，你說什麼、什麼？（說啊）"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 4,
+          "lineId": "line-3",
+          "answer": "breaking up on me",
+          "options": [
+            "breaking up on me",
+            "talking over me",
+            "walking out on me"
+          ],
+          "prompt": "Wha-wha-what did you say, huh? You're {{blank}}  ",
+          "promptZh": "你、你、你剛才說什麼？蛤？你的聲音一直斷斷續續"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 5,
+          "lineId": "line-4",
+          "answer": "kinda busy",
+          "options": [
+            "kinda busy",
+            "really tired",
+            "almost ready"
+          ],
+          "prompt": "Sorry, I cannot hear you, I'm {{blank}} (I'm kinda busy) ",
+          "promptZh": "抱歉，我聽不見你說話，我現在有點忙（我有點忙）"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "favorite song",
+          "options": [
+            "latest song",
+            "favorite song",
+            "favorite show"
+          ],
+          "prompt": "Just a second, it's my {{blank}} they're gonna play (Play) ",
+          "promptZh": "等一下，他們正要播放我最喜歡的那首歌了（播放）"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "cannot text you",
+          "options": [
+            "cannot call you",
+            "cannot text you",
+            "cannot see you"
+          ],
+          "prompt": "And I {{blank}} with a drink in my hand, eh ",
+          "promptZh": "而且我手裡拿著酒杯，根本沒辦法傳訊息給你，耶"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "drink in my hand",
+          "options": [
+            "drink in my hand",
+            "phone in my hand",
+            "bag in my hand"
+          ],
+          "prompt": "And I cannot text you with a {{blank}}, eh ",
+          "promptZh": "而且我手裡拿著酒杯，根本沒辦法傳訊息給你，耶"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "made some plans",
+          "options": [
+            "changed your plans",
+            "made some plans",
+            "cancelled plans"
+          ],
+          "prompt": "You should've {{blank}} with me, you knew that I was free",
+          "promptZh": "你早該跟我約好行程，明明知道我之前有空"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 10,
+          "lineId": "line-9",
+          "answer": "I was free",
+          "options": [
+            "I was late",
+            "I was home",
+            "I was free"
+          ],
+          "prompt": "You should've made some plans with me, you knew that {{blank}}",
+          "promptZh": "你早該跟我約好行程，明明知道我之前有空"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 11,
+          "lineId": "line-10",
+          "answer": "stop calling me",
+          "options": [
+            "keep texting me",
+            "start following me",
+            "stop calling me"
+          ],
+          "prompt": "And now you won't {{blank}}, I'm kind of busy ",
+          "promptZh": "現在你卻不停打電話來，我真的有點忙"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 12,
+          "lineId": "line-11",
+          "answer": "think anymore",
+          "options": [
+            "think anymore",
+            "dance anymore",
+            "wait anymore"
+          ],
+          "prompt": "Stop callin', stop callin', I don't wanna {{blank}} ",
+          "promptZh": "別再打了，別再打了，我不想再費心思考任何事"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 13,
+          "lineId": "line-12",
+          "answer": "head and my heart",
+          "options": [
+            "mind and my soul",
+            "head and my heart",
+            "hands and my feet"
+          ],
+          "prompt": "I left my {{blank}} on the dance floor ",
+          "promptZh": "我的理智與整顆心，早已全都留在舞池裡"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 15,
+          "lineId": "line-13",
+          "answer": "talk anymore",
+          "options": [
+            "sing anymore",
+            "cry anymore",
+            "talk anymore"
+          ],
+          "prompt": "Stop callin', stop callin', I don't wanna {{blank}} ",
+          "promptZh": "別再打了，別再打了，我不想再說話了"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "dance floor",
+          "options": [
+            "dance floor",
+            "front door",
+            "parking lot"
+          ],
+          "prompt": "I left my head and my heart on the {{blank}} ",
+          "promptZh": "我的理智與整顆心，早已全都留在舞池裡"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "telephoning me",
+          "options": [
+            "telephoning me",
+            "following me",
+            "calling for help"
+          ],
+          "prompt": "Stop {{blank}}!",
+          "promptZh": "別再打電話給我了！"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 17,
+          "lineId": "line-22",
+          "answer": "no one home",
+          "options": [
+            "someone waiting",
+            "no one home",
+            "nobody listening"
+          ],
+          "prompt": "Can call all you want but there's {{blank}} ",
+          "promptZh": "你想打多少通都隨你，可就是沒有人在家接聽"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 18,
+          "lineId": "line-23",
+          "answer": "reach my telephone",
+          "options": [
+            "find my address",
+            "reach my telephone",
+            "hear my message"
+          ],
+          "prompt": "And you're not gonna {{blank}} (No) ",
+          "promptZh": "反正你就是打不通我的電話（不）"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 3,
+          "lineId": "line-24",
+          "answer": "in the club",
+          "options": [
+            "at the bar",
+            "on the train",
+            "in the club"
+          ],
+          "prompt": "'Cause I'm out {{blank}} and I'm sipping that bubb ",
+          "promptZh": "因為我正在夜店裡，悠閒地啜飲著氣泡酒"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 20,
+          "lineId": "line-24",
+          "answer": "sipping that bubb",
+          "options": [
+            "drinking some water",
+            "holding my coat",
+            "sipping that bubb"
+          ],
+          "prompt": "'Cause I'm out in the club and I'm {{blank}} ",
+          "promptZh": "因為我正在夜店裡，悠閒地啜飲著氣泡酒"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 40,
+          "lineId": "line-26",
+          "answer": "all you want",
+          "options": [
+            "all you want",
+            "all day long",
+            "every weekend"
+          ],
+          "prompt": "Can call {{blank}} but there's no one home ",
+          "promptZh": "你想打多少通都隨你，可就是沒有人在家接聽"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 19,
+          "lineId": "line-28",
+          "answer": "out in the club",
+          "options": [
+            "home in my room",
+            "out in the club",
+            "down by the beach"
+          ],
+          "prompt": "'Cause I'm {{blank}} and I'm sipping that bubb ",
+          "promptZh": "因為我正在夜店裡，悠閒地啜飲著氣泡酒"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 21,
+          "lineId": "line-30",
+          "answer": "blowing up my phone",
+          "options": [
+            "turning off my phone",
+            "looking at my phone",
+            "blowing up my phone"
+          ],
+          "prompt": "Boy, the way you {{blank}} ",
+          "promptZh": "嘿，你這樣不停地狂打我的電話"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 22,
+          "lineId": "line-31",
+          "answer": "leave no faster",
+          "options": [
+            "dance much faster",
+            "leave no faster",
+            "stay here longer"
+          ],
+          "prompt": "Won't make me {{blank}}",
+          "promptZh": "也不會讓我更快離開這裡"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 23,
+          "lineId": "line-32",
+          "answer": "Put my coat on faster",
+          "options": [
+            "Put my coat on faster",
+            "Take my shoes off quickly",
+            "Put my makeup on"
+          ],
+          "prompt": "{{blank}}, leave my girls no faster  ",
+          "promptZh": "不會讓我更快穿上外套，也不會讓我更快拋下姐妹們離開"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 24,
+          "lineId": "line-32",
+          "answer": "leave my girls",
+          "options": [
+            "leave my girls",
+            "leave my house",
+            "call my friends"
+          ],
+          "prompt": "Put my coat on faster, {{blank}} no faster  ",
+          "promptZh": "不會讓我更快穿上外套，也不會讓我更快拋下姐妹們離開"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 25,
+          "lineId": "line-33",
+          "answer": "left my phone at home",
+          "options": [
+            "brought my phone along",
+            "left my phone at home",
+            "lost my phone again"
+          ],
+          "prompt": "I should've {{blank}} 'cause this is a disaster ",
+          "promptZh": "我早該把手機留在家裡，這簡直是一場災難"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 26,
+          "lineId": "line-33",
+          "answer": "this is a disaster",
+          "options": [
+            "this is an adventure",
+            "this is a surprise",
+            "this is a disaster"
+          ],
+          "prompt": "I should've left my phone at home 'cause {{blank}} ",
+          "promptZh": "我早該把手機留在家裡，這簡直是一場災難"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 27,
+          "lineId": "line-34",
+          "answer": "like a collector",
+          "options": [
+            "like a reporter",
+            "like a collector",
+            "like a stranger"
+          ],
+          "prompt": "Callin' {{blank}} ",
+          "promptZh": "你打電話的樣子，簡直像個窮追不捨的討債員"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 28,
+          "lineId": "line-35",
+          "answer": "cannot answer",
+          "options": [
+            "cannot remember",
+            "cannot follow",
+            "cannot answer"
+          ],
+          "prompt": "Sorry, I {{blank}}",
+          "promptZh": "抱歉，我現在無法接聽"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 29,
+          "lineId": "line-36",
+          "answer": "just at a party",
+          "options": [
+            "just at a party",
+            "just at the office",
+            "just on a journey"
+          ],
+          "prompt": "It's not that I don't like you, I'm {{blank}} ",
+          "promptZh": "不是我不喜歡你，只是我現在正在參加派對"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 30,
+          "lineId": "line-37",
+          "answer": "sick and tired",
+          "options": [
+            "safe and sound",
+            "happy and ready",
+            "sick and tired"
+          ],
+          "prompt": "And I am {{blank}} of my phone r-ringing ",
+          "promptZh": "而我真的受夠了手機響個不、不停"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 31,
+          "lineId": "line-37",
+          "answer": "phone r-ringing",
+          "options": [
+            "doorbell ringing",
+            "friends all singing",
+            "phone r-ringing"
+          ],
+          "prompt": "And I am sick and tired of my {{blank}} ",
+          "promptZh": "而我真的受夠了手機響個不、不停"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 32,
+          "lineId": "line-38",
+          "answer": "Grand Central S-Station",
+          "options": [
+            "Grand Central S-Station",
+            "the local bus station",
+            "the busy train platform"
+          ],
+          "prompt": "Sometimes I feel like I live in {{blank}} (Station)   ",
+          "promptZh": "有時候，我覺得自己簡直住在GrandCentralStation那樣人來人往的地方（車站）"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 33,
+          "lineId": "line-39",
+          "answer": "not taking no calls",
+          "options": [
+            "not making new plans",
+            "not watching the news",
+            "not taking no calls"
+          ],
+          "prompt": "Tonight I'm {{blank}} 'cause I'll be dancing ",
+          "promptZh": "今晚我誰的電話都不接，因為我要盡情跳舞"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 34,
+          "lineId": "line-40",
+          "answer": "I'll be dancing",
+          "options": [
+            "I'll be sleeping",
+            "I'll be dancing",
+            "I'll be waiting"
+          ],
+          "prompt": "('Cause tonight I'm dancing) 'Cause {{blank}} ",
+          "promptZh": "（因為今晚我要跳舞）因為我要盡情跳舞"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 35,
+          "lineId": "line-41",
+          "answer": "tonight I'm dancing",
+          "options": [
+            "tonight I'm dancing",
+            "tonight I'm leaving",
+            "tonight I'm working"
+          ],
+          "prompt": "('Cause {{blank}}) 'Cause I'll be dancing ",
+          "promptZh": "（因為今晚我要跳舞）因為我要盡情跳舞"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 36,
+          "lineId": "line-44",
+          "answer": "Stop calling",
+          "options": [
+            "Keep talking",
+            "Start dancing",
+            "Stop calling"
+          ],
+          "prompt": "{{blank}}, stop calling, I don't wanna think anymore ",
+          "promptZh": "別再打了，別再打了，我不想再費心思考任何事"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 37,
+          "lineId": "line-45",
+          "answer": "my head and my heart",
+          "options": [
+            "my hands and my feet",
+            "my head and my heart",
+            "my dreams and my plans"
+          ],
+          "prompt": "I left {{blank}} on the dance floor ",
+          "promptZh": "我的理智與整顆心，早已全都留在舞池裡"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 38,
+          "lineId": "line-46",
+          "answer": "I don't wanna talk",
+          "options": [
+            "I don't wanna dance",
+            "I don't wanna wait",
+            "I don't wanna talk"
+          ],
+          "prompt": "Stop calling, stop calling, {{blank}} anymore ",
+          "promptZh": "別再打了，別再打了，我不想再說話了"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 39,
+          "lineId": "line-54",
+          "answer": "I'm busy",
+          "options": [
+            "I'm busy",
+            "I'm ready",
+            "I'm lonely"
+          ],
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh ({{blank}}) ",
+          "promptZh": "耶、耶、耶、耶、耶、耶、耶、耶、耶、耶（我正忙著呢）"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Hello, hello, baby, you called? I can't {{q:1}} "
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I have got {{q:2}} in the club, you say, say? (Say)  "
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Wha-wha-what did you say, huh? You're {{q:3}}  "
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Sorry, I cannot hear you, I'm {{q:4}} (I'm kinda busy) "
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "K-kinda busy (I'm kinda busy), k-kinda busy (I'm kinda busy) "
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Sorry, I cannot hear you, I'm kinda busy "
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Just a second, it's my {{q:5}} they're gonna play (Play) "
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And I {{q:6}} with a {{q:7}}, eh "
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "You should've {{q:8}} with me, you knew that {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And now you won't {{q:10}}, I'm kind of busy "
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Stop callin', stop callin', I don't wanna {{q:11}} "
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I left my {{q:12}} on the dance floor "
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Stop callin', stop callin', I don't wanna {{q:13}} "
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I left my head and my heart on the {{q:14}} "
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh, eh "
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Stop {{q:15}}!"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (Stop telephoning me)  "
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I'm busy!"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (I'm busy) "
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Stop telephoning me!"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (Stop telephoning me)  "
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Can call all you want but there's {{q:16}} "
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And you're not gonna {{q:17}} (No) "
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "'Cause I'm out {{q:18}} and I'm {{q:19}} "
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And you're not gonna reach my telephone (No) "
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Can call {{q:20}} but there's no one home "
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "'Cause I'm {{q:21}} and I'm sipping that bubb "
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Boy, the way you {{q:22}} "
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Won't make me {{q:23}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:24}}, {{q:25}} no faster  "
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I should've {{q:26}} 'cause {{q:27}} "
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Callin' {{q:28}} "
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Sorry, I {{q:29}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "It's not that I don't like you, I'm {{q:30}} "
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And I am {{q:31}} of my {{q:32}} "
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Sometimes I feel like I live in {{q:33}} (Station)   "
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Tonight I'm {{q:34}} 'cause I'll be dancing "
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "('Cause tonight I'm dancing) 'Cause {{q:35}} "
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "('Cause {{q:36}}) 'Cause I'll be dancing "
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "(Tonight I'm dancing)"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Tonight I'm not taking no calls, 'cause I'll be dancing "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:37}}, stop calling, I don't wanna think anymore "
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I left {{q:38}} on the dance floor "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Stop calling, stop calling, {{q:39}} anymore "
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "I left my head and my heart on the dance floor "
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Stop calling, stop calling, I don't wanna think anymore "
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "I left my head and my heart on the dance floor "
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Stop calling, stop calling, I don't wanna talk anymore "
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "I left my head and my heart on the dance floor "
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (Stop telephoning me)  "
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Stop telephoning me!"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh ({{q:40}}) "
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "I'm busy!"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (Stop telephoning me)  "
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Stop telephoning me!"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (I'm busy)  "
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Can call all you want but there's no one home "
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "'Cause I'm out in the club and I'm sipping that bubb "
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Can call all you want but there's no one home "
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "'Cause I'm out in the club and I'm sipping that bubb "
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "My telephone, m-m-my telephone "
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "'Cause I'm out in the club, and I'm sipping that bubb "
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "My telephone, m-m-my telephone "
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "'Cause I'm out in the club, and I'm sipping that bubb "
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "We're sorry (We're sorry)"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "The number you have reached is not in service at this time "
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "Please check the number or try your call again "
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "hear a thing",
+          "options": [
+            "hear a word",
+            "see a thing",
+            "hear a thing"
+          ],
+          "prompt": "Hello, hello, baby, you called? I can't {{blank}} ",
+          "promptZh": "喂？喂？寶貝，是你打來的嗎？我什麼都聽不清楚"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "no service",
+          "options": [
+            "good service",
+            "no service",
+            "a signal"
+          ],
+          "prompt": "I have got {{blank}} in the club, you say, say? (Say)  ",
+          "promptZh": "我在夜店裡完全收不到訊號，你說什麼、什麼？（說啊）"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 4,
+          "lineId": "line-3",
+          "answer": "breaking up on me",
+          "options": [
+            "talking over me",
+            "breaking up on me",
+            "walking out on me"
+          ],
+          "prompt": "Wha-wha-what did you say, huh? You're {{blank}}  ",
+          "promptZh": "你、你、你剛才說什麼？蛤？你的聲音一直斷斷續續"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 5,
+          "lineId": "line-4",
+          "answer": "kinda busy",
+          "options": [
+            "kinda busy",
+            "really tired",
+            "almost ready"
+          ],
+          "prompt": "Sorry, I cannot hear you, I'm {{blank}} (I'm kinda busy) ",
+          "promptZh": "抱歉，我聽不見你說話，我現在有點忙（我有點忙）"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "favorite song",
+          "options": [
+            "latest song",
+            "favorite song",
+            "favorite show"
+          ],
+          "prompt": "Just a second, it's my {{blank}} they're gonna play (Play) ",
+          "promptZh": "等一下，他們正要播放我最喜歡的那首歌了（播放）"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "cannot text you",
+          "options": [
+            "cannot text you",
+            "cannot call you",
+            "cannot see you"
+          ],
+          "prompt": "And I {{blank}} with a drink in my hand, eh ",
+          "promptZh": "而且我手裡拿著酒杯，根本沒辦法傳訊息給你，耶"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "drink in my hand",
+          "options": [
+            "phone in my hand",
+            "bag in my hand",
+            "drink in my hand"
+          ],
+          "prompt": "And I cannot text you with a {{blank}}, eh ",
+          "promptZh": "而且我手裡拿著酒杯，根本沒辦法傳訊息給你，耶"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "made some plans",
+          "options": [
+            "changed your plans",
+            "cancelled plans",
+            "made some plans"
+          ],
+          "prompt": "You should've {{blank}} with me, you knew that I was free",
+          "promptZh": "你早該跟我約好行程，明明知道我之前有空"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 10,
+          "lineId": "line-9",
+          "answer": "I was free",
+          "options": [
+            "I was free",
+            "I was late",
+            "I was home"
+          ],
+          "prompt": "You should've made some plans with me, you knew that {{blank}}",
+          "promptZh": "你早該跟我約好行程，明明知道我之前有空"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 11,
+          "lineId": "line-10",
+          "answer": "stop calling me",
+          "options": [
+            "keep texting me",
+            "stop calling me",
+            "start following me"
+          ],
+          "prompt": "And now you won't {{blank}}, I'm kind of busy ",
+          "promptZh": "現在你卻不停打電話來，我真的有點忙"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 12,
+          "lineId": "line-11",
+          "answer": "think anymore",
+          "options": [
+            "think anymore",
+            "dance anymore",
+            "wait anymore"
+          ],
+          "prompt": "Stop callin', stop callin', I don't wanna {{blank}} ",
+          "promptZh": "別再打了，別再打了，我不想再費心思考任何事"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 13,
+          "lineId": "line-12",
+          "answer": "head and my heart",
+          "options": [
+            "mind and my soul",
+            "hands and my feet",
+            "head and my heart"
+          ],
+          "prompt": "I left my {{blank}} on the dance floor ",
+          "promptZh": "我的理智與整顆心，早已全都留在舞池裡"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 15,
+          "lineId": "line-13",
+          "answer": "talk anymore",
+          "options": [
+            "talk anymore",
+            "sing anymore",
+            "cry anymore"
+          ],
+          "prompt": "Stop callin', stop callin', I don't wanna {{blank}} ",
+          "promptZh": "別再打了，別再打了，我不想再說話了"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "dance floor",
+          "options": [
+            "front door",
+            "dance floor",
+            "parking lot"
+          ],
+          "prompt": "I left my head and my heart on the {{blank}} ",
+          "promptZh": "我的理智與整顆心，早已全都留在舞池裡"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "telephoning me",
+          "options": [
+            "telephoning me",
+            "following me",
+            "calling for help"
+          ],
+          "prompt": "Stop {{blank}}!",
+          "promptZh": "別再打電話給我了！"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 17,
+          "lineId": "line-22",
+          "answer": "no one home",
+          "options": [
+            "someone waiting",
+            "nobody listening",
+            "no one home"
+          ],
+          "prompt": "Can call all you want but there's {{blank}} ",
+          "promptZh": "你想打多少通都隨你，可就是沒有人在家接聽"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 18,
+          "lineId": "line-23",
+          "answer": "reach my telephone",
+          "options": [
+            "find my address",
+            "reach my telephone",
+            "hear my message"
+          ],
+          "prompt": "And you're not gonna {{blank}} (No) ",
+          "promptZh": "反正你就是打不通我的電話（不）"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 3,
+          "lineId": "line-24",
+          "answer": "in the club",
+          "options": [
+            "at the bar",
+            "in the club",
+            "on the train"
+          ],
+          "prompt": "'Cause I'm out {{blank}} and I'm sipping that bubb ",
+          "promptZh": "因為我正在夜店裡，悠閒地啜飲著氣泡酒"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 20,
+          "lineId": "line-24",
+          "answer": "sipping that bubb",
+          "options": [
+            "sipping that bubb",
+            "drinking some water",
+            "holding my coat"
+          ],
+          "prompt": "'Cause I'm out in the club and I'm {{blank}} ",
+          "promptZh": "因為我正在夜店裡，悠閒地啜飲著氣泡酒"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 40,
+          "lineId": "line-26",
+          "answer": "all you want",
+          "options": [
+            "all day long",
+            "every weekend",
+            "all you want"
+          ],
+          "prompt": "Can call {{blank}} but there's no one home ",
+          "promptZh": "你想打多少通都隨你，可就是沒有人在家接聽"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 19,
+          "lineId": "line-28",
+          "answer": "out in the club",
+          "options": [
+            "home in my room",
+            "down by the beach",
+            "out in the club"
+          ],
+          "prompt": "'Cause I'm {{blank}} and I'm sipping that bubb ",
+          "promptZh": "因為我正在夜店裡，悠閒地啜飲著氣泡酒"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 21,
+          "lineId": "line-30",
+          "answer": "blowing up my phone",
+          "options": [
+            "turning off my phone",
+            "blowing up my phone",
+            "looking at my phone"
+          ],
+          "prompt": "Boy, the way you {{blank}} ",
+          "promptZh": "嘿，你這樣不停地狂打我的電話"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 22,
+          "lineId": "line-31",
+          "answer": "leave no faster",
+          "options": [
+            "leave no faster",
+            "dance much faster",
+            "stay here longer"
+          ],
+          "prompt": "Won't make me {{blank}}",
+          "promptZh": "也不會讓我更快離開這裡"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 23,
+          "lineId": "line-32",
+          "answer": "Put my coat on faster",
+          "options": [
+            "Take my shoes off quickly",
+            "Put my coat on faster",
+            "Put my makeup on"
+          ],
+          "prompt": "{{blank}}, leave my girls no faster  ",
+          "promptZh": "不會讓我更快穿上外套，也不會讓我更快拋下姐妹們離開"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 24,
+          "lineId": "line-32",
+          "answer": "leave my girls",
+          "options": [
+            "leave my house",
+            "leave my girls",
+            "call my friends"
+          ],
+          "prompt": "Put my coat on faster, {{blank}} no faster  ",
+          "promptZh": "不會讓我更快穿上外套，也不會讓我更快拋下姐妹們離開"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 25,
+          "lineId": "line-33",
+          "answer": "left my phone at home",
+          "options": [
+            "brought my phone along",
+            "lost my phone again",
+            "left my phone at home"
+          ],
+          "prompt": "I should've {{blank}} 'cause this is a disaster ",
+          "promptZh": "我早該把手機留在家裡，這簡直是一場災難"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 26,
+          "lineId": "line-33",
+          "answer": "this is a disaster",
+          "options": [
+            "this is a disaster",
+            "this is an adventure",
+            "this is a surprise"
+          ],
+          "prompt": "I should've left my phone at home 'cause {{blank}} ",
+          "promptZh": "我早該把手機留在家裡，這簡直是一場災難"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 27,
+          "lineId": "line-34",
+          "answer": "like a collector",
+          "options": [
+            "like a reporter",
+            "like a collector",
+            "like a stranger"
+          ],
+          "prompt": "Callin' {{blank}} ",
+          "promptZh": "你打電話的樣子，簡直像個窮追不捨的討債員"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 28,
+          "lineId": "line-35",
+          "answer": "cannot answer",
+          "options": [
+            "cannot remember",
+            "cannot follow",
+            "cannot answer"
+          ],
+          "prompt": "Sorry, I {{blank}}",
+          "promptZh": "抱歉，我現在無法接聽"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 29,
+          "lineId": "line-36",
+          "answer": "just at a party",
+          "options": [
+            "just at a party",
+            "just at the office",
+            "just on a journey"
+          ],
+          "prompt": "It's not that I don't like you, I'm {{blank}} ",
+          "promptZh": "不是我不喜歡你，只是我現在正在參加派對"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 30,
+          "lineId": "line-37",
+          "answer": "sick and tired",
+          "options": [
+            "safe and sound",
+            "sick and tired",
+            "happy and ready"
+          ],
+          "prompt": "And I am {{blank}} of my phone r-ringing ",
+          "promptZh": "而我真的受夠了手機響個不、不停"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 31,
+          "lineId": "line-37",
+          "answer": "phone r-ringing",
+          "options": [
+            "phone r-ringing",
+            "doorbell ringing",
+            "friends all singing"
+          ],
+          "prompt": "And I am sick and tired of my {{blank}} ",
+          "promptZh": "而我真的受夠了手機響個不、不停"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 32,
+          "lineId": "line-38",
+          "answer": "Grand Central S-Station",
+          "options": [
+            "the local bus station",
+            "Grand Central S-Station",
+            "the busy train platform"
+          ],
+          "prompt": "Sometimes I feel like I live in {{blank}} (Station)   ",
+          "promptZh": "有時候，我覺得自己簡直住在GrandCentralStation那樣人來人往的地方（車站）"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 33,
+          "lineId": "line-39",
+          "answer": "not taking no calls",
+          "options": [
+            "not making new plans",
+            "not watching the news",
+            "not taking no calls"
+          ],
+          "prompt": "Tonight I'm {{blank}} 'cause I'll be dancing ",
+          "promptZh": "今晚我誰的電話都不接，因為我要盡情跳舞"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 34,
+          "lineId": "line-40",
+          "answer": "I'll be dancing",
+          "options": [
+            "I'll be sleeping",
+            "I'll be waiting",
+            "I'll be dancing"
+          ],
+          "prompt": "('Cause tonight I'm dancing) 'Cause {{blank}} ",
+          "promptZh": "（因為今晚我要跳舞）因為我要盡情跳舞"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 35,
+          "lineId": "line-41",
+          "answer": "tonight I'm dancing",
+          "options": [
+            "tonight I'm dancing",
+            "tonight I'm leaving",
+            "tonight I'm working"
+          ],
+          "prompt": "('Cause {{blank}}) 'Cause I'll be dancing ",
+          "promptZh": "（因為今晚我要跳舞）因為我要盡情跳舞"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 36,
+          "lineId": "line-44",
+          "answer": "Stop calling",
+          "options": [
+            "Keep talking",
+            "Stop calling",
+            "Start dancing"
+          ],
+          "prompt": "{{blank}}, stop calling, I don't wanna think anymore ",
+          "promptZh": "別再打了，別再打了，我不想再費心思考任何事"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 37,
+          "lineId": "line-45",
+          "answer": "my head and my heart",
+          "options": [
+            "my head and my heart",
+            "my hands and my feet",
+            "my dreams and my plans"
+          ],
+          "prompt": "I left {{blank}} on the dance floor ",
+          "promptZh": "我的理智與整顆心，早已全都留在舞池裡"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 38,
+          "lineId": "line-46",
+          "answer": "I don't wanna talk",
+          "options": [
+            "I don't wanna talk",
+            "I don't wanna dance",
+            "I don't wanna wait"
+          ],
+          "prompt": "Stop calling, stop calling, {{blank}} anymore ",
+          "promptZh": "別再打了，別再打了，我不想再說話了"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 39,
+          "lineId": "line-54",
+          "answer": "I'm busy",
+          "options": [
+            "I'm ready",
+            "I'm lonely",
+            "I'm busy"
+          ],
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh ({{blank}}) ",
+          "promptZh": "耶、耶、耶、耶、耶、耶、耶、耶、耶、耶（我正忙著呢）"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-59",
+          "answer": "there's no one home",
+          "options": [
+            "there's someone there",
+            "there's no one home",
+            "there's a party here"
+          ],
+          "prompt": "Can call all you want but {{blank}} ",
+          "promptZh": "你想打多少通都隨你，可就是沒有人在家接聽"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-60",
+          "answer": "not gonna reach",
+          "options": [
+            "not gonna leave",
+            "not gonna hear",
+            "not gonna reach"
+          ],
+          "prompt": "And you're {{blank}} my telephone ",
+          "promptZh": "反正你就是打不通我的電話"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-61",
+          "answer": "in the club",
+          "options": [
+            "in the club",
+            "at the beach",
+            "on the road"
+          ],
+          "prompt": "'Cause I'm out {{blank}} and I'm sipping that bubb ",
+          "promptZh": "因為我正在夜店裡，悠閒地啜飲著氣泡酒"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 45,
+          "lineId": "line-62",
+          "answer": "my telephone",
+          "options": [
+            "my telephone",
+            "your microphone",
+            "the radio"
+          ],
+          "prompt": "And you're not gonna reach {{blank}} ",
+          "promptZh": "反正你就是打不通我的電話"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 48,
+          "lineId": "line-64",
+          "answer": "not gonna reach my telephone",
+          "options": [
+            "not gonna find my apartment",
+            "not gonna hear my answer",
+            "not gonna reach my telephone"
+          ],
+          "prompt": "And you're {{blank}} ",
+          "promptZh": "反正你就是打不通我的電話"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 44,
+          "lineId": "line-65",
+          "answer": "sipping that bubb",
+          "options": [
+            "drinking hot tea",
+            "holding my bag",
+            "sipping that bubb"
+          ],
+          "prompt": "'Cause I'm out in the club and I'm {{blank}} ",
+          "promptZh": "因為我正在夜店裡，悠閒地啜飲著氣泡酒"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 46,
+          "lineId": "line-67",
+          "answer": "m-m-my telephone",
+          "options": [
+            "m-m-my best friend",
+            "m-m-my telephone",
+            "m-m-my favorite song"
+          ],
+          "prompt": "My telephone, {{blank}} ",
+          "promptZh": "我的電話，我、我、我的電話"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 47,
+          "lineId": "line-68",
+          "answer": "out in the club",
+          "options": [
+            "out in the club",
+            "back in my house",
+            "lost in the city"
+          ],
+          "prompt": "'Cause I'm {{blank}}, and I'm sipping that bubb ",
+          "promptZh": "因為我正在夜店裡，悠閒地啜飲著氣泡酒"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-74",
+          "answer": "not in service",
+          "options": [
+            "out of order",
+            "not in service",
+            "not available"
+          ],
+          "prompt": "The number you have reached is {{blank}} at this time ",
+          "promptZh": "您所撥打的電話號碼，目前暫停服務"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-75",
+          "answer": "check the number",
+          "options": [
+            "leave a message",
+            "call the operator",
+            "check the number"
+          ],
+          "prompt": "Please {{blank}} or try your call again ",
+          "promptZh": "請確認號碼是否正確，或稍後再撥"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Hello, hello, baby, you called? I can't {{q:1}} "
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I have got {{q:2}} in the club, you say, say? (Say)  "
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Wha-wha-what did you say, huh? You're {{q:3}}  "
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Sorry, I cannot hear you, I'm {{q:4}} (I'm kinda busy) "
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "K-kinda busy (I'm kinda busy), k-kinda busy (I'm kinda busy) "
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Sorry, I cannot hear you, I'm kinda busy "
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Just a second, it's my {{q:5}} they're gonna play (Play) "
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And I {{q:6}} with a {{q:7}}, eh "
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "You should've {{q:8}} with me, you knew that {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And now you won't {{q:10}}, I'm kind of busy "
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Stop callin', stop callin', I don't wanna {{q:11}} "
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "I left my {{q:12}} on the dance floor "
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Stop callin', stop callin', I don't wanna {{q:13}} "
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I left my head and my heart on the {{q:14}} "
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh, eh "
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Stop {{q:15}}!"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (Stop telephoning me)  "
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I'm busy!"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (I'm busy) "
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Stop telephoning me!"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (Stop telephoning me)  "
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Can call all you want but there's {{q:16}} "
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And you're not gonna {{q:17}} (No) "
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "'Cause I'm out {{q:18}} and I'm {{q:19}} "
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And you're not gonna reach my telephone (No) "
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Can call {{q:20}} but there's no one home "
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "'Cause I'm {{q:21}} and I'm sipping that bubb "
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Boy, the way you {{q:22}} "
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Won't make me {{q:23}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:24}}, {{q:25}} no faster  "
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I should've {{q:26}} 'cause {{q:27}} "
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Callin' {{q:28}} "
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Sorry, I {{q:29}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "It's not that I don't like you, I'm {{q:30}} "
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And I am {{q:31}} of my {{q:32}} "
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Sometimes I feel like I live in {{q:33}} (Station)   "
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Tonight I'm {{q:34}} 'cause I'll be dancing "
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "('Cause tonight I'm dancing) 'Cause {{q:35}} "
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "('Cause {{q:36}}) 'Cause I'll be dancing "
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "(Tonight I'm dancing)"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Tonight I'm not taking no calls, 'cause I'll be dancing "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:37}}, stop calling, I don't wanna think anymore "
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I left {{q:38}} on the dance floor "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Stop calling, stop calling, {{q:39}} anymore "
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "I left my head and my heart on the dance floor "
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Stop calling, stop calling, I don't wanna think anymore "
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "I left my head and my heart on the dance floor "
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Stop calling, stop calling, I don't wanna talk anymore "
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "I left my head and my heart on the dance floor "
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (Stop telephoning me)  "
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Stop telephoning me!"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh ({{q:40}}) "
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "I'm busy!"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (Stop telephoning me)  "
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Stop telephoning me!"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Eh, eh, eh, eh, eh, eh, eh, eh, eh, eh, eh (I'm busy)  "
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Can call all you want but {{q:41}} "
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "And you're {{q:42}} my telephone "
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "'Cause I'm out {{q:43}} and I'm sipping that bubb "
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "And you're not gonna reach {{q:44}} "
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Can call all you want but there's no one home "
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "And you're {{q:45}} "
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "'Cause I'm out in the club and I'm {{q:46}} "
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "My telephone, {{q:47}} "
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "'Cause I'm {{q:48}}, and I'm sipping that bubb "
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "My telephone, m-m-my telephone "
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "'Cause I'm out in the club, and I'm sipping that bubb "
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "And you're not gonna reach my telephone "
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "We're sorry (We're sorry)"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "The number you have reached is {{q:49}} at this time "
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "Please {{q:50}} or try your call again "
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Telephone · Listening & Vocabulary",
+  "description": "《Telephone》描寫一個人厭倦了不斷被電話打擾，渴望暫時擺脫外界壓力、盡情享受自由的心情。歌中的主角正在夜店與朋友狂歡，卻接連收到對方的來電，令她感到煩躁與不耐。她以訊號不良、手拿酒杯等理由拒絕回應，希望將所有煩惱拋諸腦後，專心投入音樂與舞蹈。歌曲以幽默、誇張的方式呈現現代生活中隨時保持聯繫的壓力，而不斷響起的電話則象徵外界對個人時間的干擾。最終，《Telephone》傳達的是自由、自主與享受當下的精神：每個人都需要屬於自己的空間，偶爾放下手機與外界的期待，才能真正放鬆心情，重新掌握生活的節奏。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "No service",
+      "meaning": "（手機）沒有訊號、無法連線。",
+      "usage": "在地下室、山區等地方手機沒有訊號時，可以說 My phone has no service。",
+      "prompt": "哪一句正確使用「no service」表示手機沒有訊號？",
+      "options": [
+        "The hotel has no service, so the guests must make their own beds.",
+        "My phone has no service in the tunnel, so I can't call you.",
+        "The cake has no service because it has not worked here for a year.",
+        "The sign says, “No service.” All the chairs must leave the building."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "這裡的 service 是旅館服務，不是手機訊號；這句英文在另一個意思下可以成立，但不符合本題要考的用法。",
+        "在隧道裡手機收不到訊號，所以不能打電話，正確。",
+        "把 service 當成蛋糕的工作年資；可說 The cake has been in the shop for a year.",
+        "「停止服務」不表示椅子被要求離開大樓；可說 The office is closed today."
+      ],
+      "sourceFile": "Telephone_A2_Vocabulary_Quiz_Varied_Humour.md",
+      "sourceItem": 1,
+      "explanation": "在隧道裡手機收不到訊號，所以不能打電話，正確。",
+      "sourceOptionOrder": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Breaking up (on the phone)",
+      "meaning": "（電話聲音）斷斷續續。",
+      "usage": "通話時聽不清楚對方的聲音，可說 You're breaking up。",
+      "prompt": "哪一句正確使用「breaking up」描述通話？",
+      "options": [
+        "The glass is breaking up with the floor because they had an argument.",
+        "My radio is breaking up a birthday cake for six people.",
+        "The company is breaking up with Tuesday. It will only work on Wednesday.",
+        "You're breaking up. Please move closer to the window."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "玻璃和地板沒有交往關係；可說 The glass fell on the floor and broke.",
+        "break up 有「拆散、分成小部分」的其他用法，但收音機不會替人分蛋糕，也不是本題要考的通話用法；可說 We cut the cake into six pieces.",
+        "把 break up 當成「分手」，還讓公司和星期二結束感情；可說 The company will be closed on Tuesday.",
+        "聲音斷斷續續，請對方移到窗邊，符合電話通話的語境。"
+      ],
+      "sourceFile": "Telephone_A2_Vocabulary_Quiz_Varied_Humour.md",
+      "sourceItem": 2,
+      "explanation": "聲音斷斷續續，請對方移到窗邊，符合電話通話的語境。",
+      "sourceOptionOrder": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Kinda busy",
+      "meaning": "有點忙；kinda 是 kind of 的口語寫法。",
+      "usage": "和朋友輕鬆說自己目前沒空，可說 I'm kinda busy。",
+      "prompt": "哪一句正確使用「kinda busy」？",
+      "options": [
+        "The lift is kinda busy because it is wearing a suit today.",
+        "Please kinda busy this letter before six o'clock.",
+        "I'm kinda busy right now. Can we talk after dinner?",
+        "My new job is kinda busy: I count the same empty room every hour."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "穿西裝並不是電梯「有點忙」的原因；可說 The lift is full of people today.",
+        "kinda busy 不能當成「處理信件」的動詞；可說 Please send this letter before six o'clock.",
+        "說明現在忙，並提出晚餐後再談的時間，使用自然。",
+        "工作可能讓人忙，但「每小時數同一間空房間」不一定構成忙碌；這句本身不一定文法錯，但不是清楚合理的使用例子。可說 My new job keeps me busy all day."
+      ],
+      "sourceFile": "Telephone_A2_Vocabulary_Quiz_Varied_Humour.md",
+      "sourceItem": 3,
+      "explanation": "說明現在忙，並提出晚餐後再談的時間，使用自然。",
+      "sourceOptionOrder": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Just a second",
+      "meaning": "等一下、稍等片刻。",
+      "usage": "請別人短暫等待時使用。",
+      "prompt": "哪一句正確使用「just a second」表示「請稍等」？",
+      "options": [
+        "Just a second, please. I need to put down these bags.",
+        "I am just a second in the race, so I won a silver medal.",
+        "The museum keeps just a second in a glass box. Visitors may not touch time.",
+        "The ticket office gave me just a second because the first second was late."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "手上拿著袋子，請對方稍等，使用正確。",
+        "要說比賽第二名，應說 I came second in the race.；just a second 在本題是請人等待。",
+        "博物館不能把「稍等一下」收藏在玻璃盒裡；可說 The museum keeps old clocks in a glass box.",
+        "把「一秒鐘」當成售票處可以補發的東西；可說 The ticket office gave me a new ticket."
+      ],
+      "sourceFile": "Telephone_A2_Vocabulary_Quiz_Varied_Humour.md",
+      "sourceItem": 4,
+      "explanation": "手上拿著袋子，請對方稍等，使用正確。",
+      "sourceOptionOrder": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Text someone",
+      "meaning": "傳文字訊息給某人。",
+      "usage": "用手機傳訊息給朋友，可以說 text + 人。",
+      "prompt": "哪一句正確使用「text」作為「傳訊息」的動詞？",
+      "options": [
+        "The library texts its silence every morning to make sure it is still quiet.",
+        "I'll text you when the train arrives.",
+        "The new law says all trees must text the city before they grow taller.",
+        "Please text the window blue. The paint is next to the door."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "安靜不是會讀訊息的收件人；可說 The library is quiet every morning.",
+        "火車抵達時傳訊息給對方，正確。",
+        "法律不會要求樹木長高前傳訊息；可說 The city has rules about planting trees.",
+        "text 不是「油漆」；可說 Please paint the window blue."
+      ],
+      "sourceFile": "Telephone_A2_Vocabulary_Quiz_Varied_Humour.md",
+      "sourceItem": 5,
+      "explanation": "火車抵達時傳訊息給對方，正確。",
+      "sourceOptionOrder": [
+        "D",
+        "B",
+        "A",
+        "C"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Make plans",
+      "meaning": "訂計畫、事先安排。",
+      "usage": "約好見面時間或安排活動時使用。",
+      "prompt": "哪一句正確使用「make plans」？",
+      "options": [
+        "The dentist looked at my plans and said they needed two new teeth.",
+        "The baker made plans with sugar, but they tasted too sweet.",
+        "We made plans to visit our grandparents on Sunday.",
+        "The weather made plans for Saturday. The sun has to ask for a day off."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "牙醫不會替計畫補牙；可說 The dentist looked at my teeth.",
+        "這裡把 plans 當成可以加糖試吃的食物；可說 The baker made cookies with sugar.",
+        "事先安排星期日去看祖父母，正確。",
+        "天氣沒有請假制度；可說 The weather will be sunny on Saturday."
+      ],
+      "sourceFile": "Telephone_A2_Vocabulary_Quiz_Varied_Humour.md",
+      "sourceItem": 6,
+      "explanation": "事先安排星期日去看祖父母，正確。",
+      "sourceOptionOrder": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Blow up my phone",
+      "meaning": "不停打電話或傳訊息，讓手機一直響。",
+      "usage": "某人在短時間內一直聯絡你時使用，並不是手機真的爆炸。",
+      "prompt": "哪一句正確使用「blow up my phone」表示不停聯絡？",
+      "options": [
+        "Please don't blow up my phone with messages while I'm asleep.",
+        "The fire station told me to blow up my phone before the safety test.",
+        "The phone shop blew up my phone, and now it is twice as big.",
+        "The news says my phone blew up the whole city because it was angry."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "請對方在自己睡覺時不要一直傳訊息，符合口語片語的意思。",
+        "消防單位不會要求民眾把手機吹起來；可說 The fire station told us to turn off our phones.",
+        "這裡誤把 blow up 當成「把手機吹大」；可說 The phone shop gave me a bigger phone.",
+        "這裡把片語當成手機因為生氣而炸掉整座城市；可說 My phone kept ringing during the news."
+      ],
+      "sourceFile": "Telephone_A2_Vocabulary_Quiz_Varied_Humour.md",
+      "sourceItem": 7,
+      "explanation": "請對方在自己睡覺時不要一直傳訊息，符合口語片語的意思。",
+      "sourceOptionOrder": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Sick and tired of",
+      "meaning": "對某件事厭煩透了、受夠了。",
+      "usage": "某事不斷發生而讓人很不耐煩，可用 be sick and tired of + 名詞／V-ing。",
+      "prompt": "哪一句正確使用「sick and tired of」？",
+      "options": [
+        "I'm sick and tired of hearing the same alarm every morning.",
+        "The doctor gave the chair some medicine because it was sick and tired of sitting.",
+        "My cold is sick and tired of me. It wants to find a new person.",
+        "The office is sick and tired, so every worker must bring it soup."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "對每天早上聽到同一個鬧鐘聲感到厭煩，使用正確。",
+        "把 sick 和 tired 認真當成椅子的病症；可說 The chair is old and uncomfortable.",
+        "把感冒當成想換主人的房客；可說 I have had a cold for several days.",
+        "辦公室這個地方不是會生病、需要喝湯的人；可說 The workers are tired after a busy day."
+      ],
+      "sourceFile": "Telephone_A2_Vocabulary_Quiz_Varied_Humour.md",
+      "sourceItem": 8,
+      "explanation": "對每天早上聽到同一個鬧鐘聲感到厭煩，使用正確。",
+      "sourceOptionOrder": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Like a collector",
+      "meaning": "像催收員一樣（一直追著打電話）。",
+      "usage": "歌中的 collector 指的很可能是催收欠款的人；用來誇張形容對方來電太頻繁。",
+      "prompt": "哪一句正確使用「like a collector」來形容催收式的來電？",
+      "options": [
+        "The sea called like a collector because the beach owed it three waves.",
+        "The art gallery called like a collector because it wanted another painting.",
+        "The clock called like a collector to ask for the minutes I lost yesterday.",
+        "He called me ten times today, like a collector asking for money."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "海灘不會欠大海三個浪，也不會接到催收電話；可說 Three big waves hit the beach.",
+        "美術館想收藏更多畫作，是 collector 的另一種意思，不是本題「催收式來電」。",
+        "時鐘不會打電話討回失去的分鐘；可說 The clock is five minutes slow.",
+        "一天打十通電話，像催收員追著要錢，符合歌曲語境。"
+      ],
+      "sourceFile": "Telephone_A2_Vocabulary_Quiz_Varied_Humour.md",
+      "sourceItem": 9,
+      "explanation": "一天打十通電話，像催收員追著要錢，符合歌曲語境。",
+      "sourceOptionOrder": [
+        "D",
+        "B",
+        "A",
+        "C"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Take calls",
+      "meaning": "接聽電話。",
+      "usage": "說某人現在能否接電話時使用。",
+      "prompt": "哪一句正確使用「take calls」表示接聽電話？",
+      "options": [
+        "The airport takes calls in small bags and sends them to other countries.",
+        "The doctor can't take calls now because she's with a patient.",
+        "I take calls to the gym because they need exercise.",
+        "The menu says that calls are free, but you must eat them in the restaurant."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "把來電當成機場可以打包托運的物品；可說 The airport takes phone calls from passengers.",
+        "醫師正在看診，無法接聽電話，正確。",
+        "來電不是需要運動的東西；可說 I take my phone to the gym.",
+        "把電話當成餐廳菜單上的食物；可說 The restaurant offers free drinks."
+      ],
+      "sourceFile": "Telephone_A2_Vocabulary_Quiz_Varied_Humour.md",
+      "sourceItem": 10,
+      "context": "教學提醒：：部分錯誤選項刻意使用不同詞義（例如 service、collector）；這些句子在別的語境可能是正常英文，但不符合本題指定的意思。可先讓學生辨認誤用，再看繁體中文解說。笑點有時來自看似正式、卻完全不合理的規定或推論；不必額外解釋「為什麼好笑」。",
+      "explanation": "醫師正在看診，無法接聽電話，正確。",
+      "sourceOptionOrder": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ]
+    }
+  ],
+  "tags": [
+    "lady gaga feat. beyoncé",
+    "telephone"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/telephone/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/telephone/user-cover-20261101.png",
+  "singer": "Lady Gaga feat. Beyoncé",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 220.64,
+    "audioSha256": "aeb85360c0315b01f67b8c8114252a45426a07cac2c22fb9fcc913f6c48532c7",
+    "timedLines": 20,
+    "untimedLines": 55,
+    "reviewStatus": "Conservative automatic alignment; not manually certified. Unmatched lines remain bilingual without guessed timestamps."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "\"Telephone\".pdf",
+      "sha256": "6b5b1ae5a5cb36412f29c50151255111b96b44b7b695f1e38a7dc7b2da7fe35c"
+    },
+    "mp3": {
+      "filename": "Telephone [XkGIneCJRlc].mp3",
+      "sha256": "aeb85360c0315b01f67b8c8114252a45426a07cac2c22fb9fcc913f6c48532c7"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-74f8601d-c881-4f6d-b215-f297a4027ff0.png",
+    "sha256": "3f797dbbd6460e434ac002a88d9e730aee7f38e8b61e27f5c105b80ab45ad2fa",
+    "transformations": "none",
+    "selectedOn": "2026-11-01"
+  }
+}
