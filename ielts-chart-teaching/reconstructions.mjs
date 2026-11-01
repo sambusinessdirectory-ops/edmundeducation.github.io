@@ -304,3 +304,57 @@ Object.assign(reconstructions, {
 
 for(const panel of reconstructions['T1-040'].panels)panel.features.find(feature=>feature.label==='25 m pool').value=25;
 for(const panel of reconstructions['T1-042'].panels)panel.features.find(feature=>feature.label==='100 metres').value=100;
+
+// Repeated features remain independent selectable targets rather than a single
+// label for an entire cluster.
+{
+ const today=reconstructions['T1-033'].panels[1];
+ today.features=today.features.filter(feature=>feature.label!=='Solar panels');
+ today.features.push(...[[79,10],[87,10],[79,20],[87,20]].map(([x,y],index)=>mf(`Solar panel ${index+1}`,x,y,7,8)));
+}
+{
+ const [before,after]=reconstructions['T1-035'].panels;
+ before.features=before.features.filter(feature=>feature.label!=='Tables and chairs');
+ before.features.push(mf('Table and chairs 1',47,31,16,14),mf('Table and chairs 2',47,49,16,14));
+ after.features=after.features.filter(feature=>feature.label!=='Self-service machines');
+ after.features.push(mf('Sofa 1',3,5,13,8),mf('Sofa 2',31,5,13,8),...[[66,65],[77,65],[88,65]].map(([x,y],index)=>mf(`Self-service ${index+1}`,x,y,10,10)));
+}
+{
+ const [now,future]=reconstructions['T1-036'].panels;
+ now.features=now.features.filter(feature=>feature.label!=='Factories');
+ now.features.push(...[[34,35],[43,25],[34,54],[59,29],[72,29],[60,46],[74,46],[88,39]].map(([x,y],index)=>mf(`Factory ${index+1}`,x,y,10,8)));
+ future.features=future.features.filter(feature=>feature.label!=='Housing');
+ future.features.push(...[[31,6],[42,6],[28,32],[36,35],[44,29],[60,43],[72,43],[62,57],[73,57],[37,48]].map(([x,y],index)=>mf(`House ${index+1}`,x,y,9,8,'housing')));
+}
+{
+ const [now,future]=reconstructions['T1-037'].panels;
+ now.features=now.features.filter(feature=>feature.label!=='Gates 1–8');
+ now.features.push(...Array.from({length:8},(_,index)=>mf(`Gate ${index+1}`,39+(index%4)*6,8+Math.floor(index/4)*9,5,7)));
+ future.features=future.features.filter(feature=>feature.label!=='Gates 1–18');
+ future.features.push(...Array.from({length:18},(_,index)=>{
+  const wing=index<9?0:1,within=index%9;
+  return mf(`Gate ${index+1}`,wing?66+(within%3)*8:18+(within%3)*8,5+Math.floor(within/3)*8,7,7);
+ }));
+}
+for(const id of ['T1-038','T1-041']){
+ const [before,after]=reconstructions[id].panels;
+ before.features=before.features.filter(feature=>feature.label!=='Seats');
+ before.features.push(mf('Seats · northwest',2,10,10,10),mf('Seats · north',35,10,10,10),mf('Seats · southwest',2,73,10,10),mf('Seats · south',35,73,10,10),mf('Seats · east',87,38,12,10));
+ after.features=after.features.filter(feature=>feature.label!=='Seats');
+ after.features.push(mf('Seats · north',44,29,12,8),mf('Seats · west',33,42,9,12),mf('Seats · east',60,42,9,12),mf('Seats · south',44,64,12,8));
+}
+{
+ const before=reconstructions['T1-039'].panels[0];
+ before.features=before.features.filter(feature=>feature.label!=='Bus stops');
+ before.features.push(...Array.from({length:6},(_,index)=>mf(`Bus stop ${index+1}`,index%2?60:24,63+Math.floor(index/2)*10,10,7)));
+}
+{
+ const future=reconstructions['T1-040'].panels[1];
+ future.features=future.features.filter(feature=>feature.label!=='Dance studios');
+ future.features.push(mf('Dance studio 1',86,19,12,20),mf('Dance studio 2',86,42,12,20));
+}
+{
+ const after=reconstructions['T1-042'].panels[1];
+ after.features=after.features.filter(feature=>feature.label!=='Accommodation');
+ after.features.push(...[[19,44],[25,36],[32,34],[25,61],[33,66],[40,65],[54,34],[62,30],[70,30],[78,35],[59,50],[68,53],[76,52]].map(([x,y],index)=>mf(`Cabin ${index+1}`,x,y,7,8,'housing')));
+}
