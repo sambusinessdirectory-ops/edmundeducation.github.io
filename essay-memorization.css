@@ -160,3 +160,15 @@ body{background:#fdfcf9}
 .recording-item audio{display:block;width:100%;margin:12px 0}
 .recording-item>div{display:flex;gap:10px;flex-wrap:wrap}
 @media(max-width:650px){.reading-controls{align-items:stretch}.reading-controls select{max-width:100%}.game-card h3,.game-card .question-intro h3{font-size:calc(1.2rem * var(--reader-scale))}}
+
+/* Source, translation, structure, and use each have a deliberate type scale. */
+.build-source-label{display:block;margin:16px 0 6px;color:#315e7d;font-size:.75rem;font-weight:800;letter-spacing:.04em}
+.exact-build .build-source .support-source{margin:0 0 12px}
+.simple-source{margin:0 0 18px;padding:15px 18px;background:#fff8e9;border-left:4px solid #d7ad61;color:#284c51;line-height:1.65}
+.vocabulary-highlight{background:#ffe588;color:#273e55;border-radius:3px;padding:0 .08em;box-decoration-break:clone;-webkit-box-decoration-break:clone;font-weight:800}
+.structure-card .support-source{font-size:calc(.92rem * var(--reader-scale));line-height:1.65}
+.structure-card .structure-translation{font-size:calc(.8rem * var(--reader-scale));line-height:1.7;color:#405a72}
+.structure-card .structure-part{font-size:calc(1.08rem * var(--reader-scale));line-height:1.55}
+.structure-card .structure-part small{font-size:calc(.68rem * var(--reader-scale));line-height:1.4}
+.structure-card .concept-card p{font-size:calc(1.18rem * var(--reader-scale));line-height:1.55;font-weight:650}
+.structure-card .concept-label{font-size:calc(.68rem * var(--reader-scale))}

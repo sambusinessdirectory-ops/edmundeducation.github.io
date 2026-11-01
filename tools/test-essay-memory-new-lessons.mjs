@@ -11,6 +11,7 @@ const sourceCollections=['EDMUND_IELTS_WRITING_OPINIONS_3_16_EXERCISES','EDMUND_
 const lessons = node.window.ESSAY_MEMORY_LESSONS;
 const keys=['opinion:3','discuss-both-views:4','cause-solution:2'];
 const counts=[19,17,17];
+const vocabularyRoundCounts=[28,32,34];
 for (let n=0;n<keys.length;n++) {
   const lesson=lessons[keys[n]];
   assert(lesson,keys[n]);
@@ -47,6 +48,8 @@ for (let n=0;n<keys.length;n++) {
     const sourceSentence=lesson.sentences.find(sentence=>sentence.paragraph+1===frame.source.paragraph&&sentence.index+1===frame.source.sentence);
     assert.equal(frame.parts.map(part=>part.text).join(''),sourceSentence.english);
     assert(frame.parts.length>=2);
+    assert(frame.meaning.length>12 && frame.usage.length>12);
+    assert(!frame.usage.includes('清楚陳述一項意思'));
     assert.equal(frame.options.length,4);
     assert.equal(new Set(frame.options).size,4);
     assert.equal(frame.explanations.length,4);
@@ -65,6 +68,12 @@ for (let n=0;n<keys.length;n++) {
   }
 }
 const html=fs.readFileSync('writing-practice.html','utf8');
+const insteadFrame=lessons['opinion:3'].support.structures[1];
+assert(insteadFrame.meaning.includes('採用的做法') && insteadFrame.meaning.includes('被排除的做法'));
+assert(insteadFrame.usage.includes('instead of 後接名詞或 -ing 動詞'));
+assert(!insteadFrame.usage.includes('引言'));
+assert.equal(insteadFrame.parts[0].label,'提出主張及採用的做法');
+assert.equal(insteadFrame.parts[2].label,'被排除的另一做法');
 assert(html.includes('essay-memorization.html?essay=${encodeURIComponent(essayKey)}'));
 const {chromium}=await import(process.env.PROFESSIONAL_QA_PLAYWRIGHT || '/Users/sammak/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs');
 const browser=await chromium.launch({headless:true});
@@ -85,6 +94,8 @@ for(const key of keys){
     assert((await page.locator('#game-card').innerText()).length>20);
     assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`${key}: overflow stage ${stage}`);
   }
+  await page.locator('[data-stage="5"]').click();
+  assert.equal(await page.locator('#step-select option').count(),vocabularyRoundCounts[keys.indexOf(key)]);
   await page.locator('[data-stage="6"]').click();
   assert(await page.locator('.structure-part').count()>=1);
   assert.equal(await page.locator('.structure-translation').count(),1);
