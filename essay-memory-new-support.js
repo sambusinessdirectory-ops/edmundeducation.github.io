@@ -307,7 +307,7 @@
     while:['對比','把兩種不同情況放在一起比較。','比較兩種情況。'],
     however:['轉折','後面的內容修正或對照前面的情況。','說明不同方向。'],
     'rather than':['取捨','突出一個選擇，同時排除另一個。','說明選擇或優先次序。'],
-    'instead of':['取捨','突出一個選擇，同時排除另一個。','說明選擇或優先次序。'],
+    'instead of':['代替','表示採用前一種做法，而不採用後一種做法。','要表達「做 A，而不做 B」時；instead of 後接名詞或 -ing 動詞。'],
     'for example':['舉例','用一個具體情況支持前面的意思。','用例子說明。'],
     'for instance':['舉例','用一個具體情況支持前面的意思。','用例子說明。'],
     'by contrast':['對比','把兩種情況放在一起，指出差別。','比較兩種情況。'],
@@ -331,7 +331,7 @@
   const teachingNotes = {
     'opinion:3': [
       ['博物館和美術館會影響公眾如何理解藝術、歷史與文化。','在引言說明一類機構如何塑造大眾看法時。'],
-      ['先交代「只展本地藝術家」的主張；作者尚未表態。','在引言公平介紹題目中的一方觀點，再準備回應時。'],
+      ['「只展示本地藝術家」是主張採用的做法；「展示其他國家的作品」是被排除的做法。instead of 表示做前者，而不做後者。','比較兩種做法並指出採用前者、捨棄後者時使用。instead of 後接名詞或 -ing 動詞；這句接 showing。'],
       ['作者明確反對上一句提到的看法。','介紹爭議後，要直接說清楚自己不同意甚麼時。'],
       ['承接上一句的反對立場，預告拓闊理解與促進本地藝術兩項理由。','表明立場後，立即預告兩個主體段將討論的理由時。'],
       ['國際作品令博物館更具教育價值，是第一主體段的主張。','在主體段開首，用一句話提出這段要證明的好處時。'],
@@ -444,9 +444,9 @@
       const verbMatch=!match && mainVerb.exec(text);
       const splitAt=verbMatch?.index ?? Math.min(text.length, text.indexOf(' ',Math.max(0,text.indexOf(' ')+1))+1);
       const parts=match ? [
-        ...(before?[{text:before,kind:'slot',label:'前半句／前文'}]:[]),
-        {text:connector,kind:'link',label:functionName+'連接詞'},
-        ...(after?[{text:after,kind:'slot',label:startsWithBecause?'承接上一句的原因':'後半句／後文'}]:[]),
+        ...(before?[{text:before,kind:'slot',label:type==='instead of'?'提出主張及採用的做法':'前半句／前文'}]:[]),
+        {text:connector,kind:'link',label:type==='instead of'?'表示以 A 代替 B':functionName+'連接詞'},
+        ...(after?[{text:after,kind:'slot',label:type==='instead of'?'被排除的另一做法':startsWithBecause?'承接上一句的原因':'後半句／後文'}]:[]),
       ] : [
         {text:text.slice(0,splitAt),kind:'slot',label:'話題／主語'},
         {text:text.slice(splitAt),kind:'slot',label:'動作／看法'},

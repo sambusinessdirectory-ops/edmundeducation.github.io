@@ -68,6 +68,12 @@ for (let n=0;n<keys.length;n++) {
   }
 }
 const html=fs.readFileSync('writing-practice.html','utf8');
+const insteadFrame=lessons['opinion:3'].support.structures[1];
+assert(insteadFrame.meaning.includes('採用的做法') && insteadFrame.meaning.includes('被排除的做法'));
+assert(insteadFrame.usage.includes('instead of 後接名詞或 -ing 動詞'));
+assert(!insteadFrame.usage.includes('引言'));
+assert.equal(insteadFrame.parts[0].label,'提出主張及採用的做法');
+assert.equal(insteadFrame.parts[2].label,'被排除的另一做法');
 assert(html.includes('essay-memorization.html?essay=${encodeURIComponent(essayKey)}'));
 const {chromium}=await import(process.env.PROFESSIONAL_QA_PLAYWRIGHT || '/Users/sammak/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs');
 const browser=await chromium.launch({headless:true});
