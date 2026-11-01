@@ -388,6 +388,8 @@ jobs:
         run: |
           node --check ielts-chart-teaching/app.mjs
           node --check ielts-chart-teaching/data.mjs
+          node --check ielts-chart-teaching/reconstruction-renderer.mjs
+          node --check ielts-chart-teaching/reconstructions.mjs
           node tools/test-ielts-chart-teaching.mjs
           python3 tools/build-ielts-chart-vocabulary.py
           node --check ielts-chart-teaching/vocabulary.mjs
