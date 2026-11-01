@@ -1,4 +1,42 @@
 import {cosmeticsForCharacter,outfitsForCharacter,isCosmeticEquipped,wardrobeGroup,cosmeticAsset,cosmeticsState,equipCosmetic,previewCosmetic,unownedPreviewItems,equipOutfit,clearCosmetics,saveAvatar,restoreCosmetics,subscribeCosmetics,toggleOutfitFavorite} from './eddy-cosmetics.mjs?v=20261028-free-try-on1';
+const purchaseLines=[
+ {main:'嘿嘿，今天真是買得太過癮啦！',sub:'……咦？奇怪，Eddy 明明只打算買一樣東西的啊？怎麼變成這麼多袋啦！？'},
+ '這個是必需品，那個也是必需品……嗯！Eddy 買的東西，全部都有用啦！……應該吧？',
+ '嘿咻、嘿咻……買的時候明明很開心，怎麼提回家就這麼累啊！？',
+ '哼哼！今天可是大豐收呢！錢包雖然瘦了一圈，心情倒是好得不得了！',
+ '沒辦法嘛！每家店都在特價耶！Eddy 總不能眼睜睜看著優惠溜走吧？',
+ '一袋、兩袋、三袋……咦？怎麼越數越多啊！？這些真的都是 Eddy 買的嗎？',
+ '哇哈哈！今天買得真痛快！……糟糕，好像有點買過頭了！'
+];
+function showPurchaseDialogue(host){
+ const dialog=host.closest('dialog');
+ if(!dialog?.open)return;
+ dialog.querySelector('.eddy-closet-purchase-overlay')?.remove();
+ const line=purchaseLines[Math.floor(Math.random()*purchaseLines.length)];
+ const overlay=document.createElement('div');
+ overlay.className='eddy-closet-purchase-overlay';
+ const button=document.createElement('button');
+ button.type='button';
+ button.className='eddy-closet-purchase-dismiss';
+ button.setAttribute('aria-label',`${typeof line==='string'?line:`${line.main} ${line.sub}`} 點擊、輕觸或按鍵關閉`);
+ const art=document.createElement('span');
+ art.className='eddy-closet-purchase-art';
+ const image=document.createElement('img');
+ image.src=new URL('./eddy-closet-purchase-dialogue.png',import.meta.url).href;
+ image.alt='';
+ const message=document.createElement('span');
+ message.className='eddy-closet-purchase-message';
+ message.lang='zh-Hant';
+ if(typeof line==='string')message.textContent=line;
+ else{const main=document.createElement('strong'),sub=document.createElement('span');main.textContent=line.main;sub.textContent=line.sub;message.append(main,sub);}
+ art.append(image,message);button.append(art);overlay.append(button);dialog.append(overlay);
+ const previousFocus=document.activeElement;
+ const dismiss=()=>{overlay.remove();dialog.removeEventListener('keydown',onKey,true);if(previousFocus?.isConnected)previousFocus.focus({preventScroll:true});};
+ const onKey=event=>{if(!['Escape','Enter',' '].includes(event.key))return;event.preventDefault();event.stopImmediatePropagation();dismiss();};
+ button.addEventListener('click',dismiss,{once:true});
+ dialog.addEventListener('keydown',onKey,true);
+ button.focus({preventScroll:true});
+}
 export function mountClosetInventory(host,signal,{character='eddy'}={}){
  host.innerHTML='<p class="expression-closet-inventory-kicker">EDDIE’S COLLECTION</p><h3 id="expression-closet-inventory-title">Inventory <small>物品欄</small></h3><p class="closet-coin-balance" data-closet-coins>🪙 Coins · 金幣：<strong>…</strong></p><p data-shop-status role="status" aria-live="polite"></p><button type="button" data-shop-retry hidden>Retry · 重新載入</button><p class="closet-try-on-help">Try on any item for free. Only the Buy button spends coins.<br>點選服裝即可免費試穿；只有按「購買」才會扣除金幣。</p><div class="closet-equipment-grid"></div><div class="closet-outfit-actions"><button type="button" data-save-avatar>✦ Save avatar · 儲存造型</button><button type="button" data-remove-outfit>↺ Remove all · 全部脫下</button></div><form data-outfit-form><label for="closet-outfit-name">Name this outfit · 造型名稱</label><input id="closet-outfit-name" maxlength="60" required placeholder="My favourite outfit" autocomplete="off"><button type="submit">＋ Save outfit set · 儲存套裝</button></form><h4>My outfit sets · 我的套裝</h4><div data-outfit-sets></div><p class="closet-save-status" role="status" aria-live="polite"></p>';
  host.querySelector('.expression-closet-inventory-kicker').textContent=character.toUpperCase()+'’S COLLECTION';
@@ -64,7 +102,9 @@ export function mountClosetInventory(host,signal,{character='eddy'}={}){
     await restoreCosmetics(undefined,{force:true});
     if(signal.aborted||!sameAccount())return;
     // The item is already on the preview avatar. Do not toggle it off after buying.
-    status.textContent=cosmeticsState().owned.includes(item.id)?`${item.name} purchased. Save avatar to keep this look. · 已購買，請儲存造型。`:'Purchase received. Refresh the wardrobe to verify ownership before saving. · 請重新載入衣櫥確認購買狀態。';
+    const confirmed=cosmeticsState().owned.includes(item.id);
+    status.textContent=confirmed?`${item.name} purchased. Save avatar to keep this look. · 已購買，請儲存造型。`:'Purchase received. Refresh the wardrobe to verify ownership before saving. · 請重新載入衣櫥確認購買狀態。';
+    if(confirmed)showPurchaseDialogue(host);
    }catch(error){if(!signal.aborted&&sameAccount()){status.textContent=error.message||'Purchase failed. Please try again.';await refreshBalance();}}
    finally{purchasing=false;if(!signal.aborted)render();}
   },{signal});
